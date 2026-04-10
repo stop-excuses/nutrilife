@@ -8,18 +8,24 @@ Static website (HTML/CSS/JS). Motivates Bulgarians toward healthy living. 5 page
 index.html         Page 1 "Спри да се оправдаваш"
 move.html          Page 2 "Движи се"
 eat.html           Page 3 "Яж правилно"
-cheap.html         Page 4 "Не е скъпо" — loads offers.json
+cheap.html         Page 4 "Не е скъпо" — loads data/offers.js (variable OFFERS_DATA)
 start.html         Page 5 "Започни сега" — tracker with localStorage
 css/style.css      Single CSS file — entire design system
 js/main.js         Accordion, age selector, sliders, tracker
 js/offers.js       Offers: load, filter, bulk, profile recommendations
-data/offers.json   Weekly offers data
-scraper/scraper.py Python scraper for broshura.bg
+data/offers.json   Weekly offers data (raw JSON)
+data/offers.js     Weekly offers data (JS variable for GitHub Pages)
+sync_offers.py     Script to sync offers.json -> offers.js
+scraper/scraper.py Python scraper for broshura.bg (Lidl, Kaufland, Billa, Fantastico, T-Market)
 scraper/OCR_PROGRESS.md Ongoing OCR notes, test history, and next steps
-.github/workflows/scrape.yml  Monday 06:00 UTC auto-scrape
 ```
 
-No build step. Opens directly in browser.
+## Project Status (April 2026)
+- **Live Site**: https://ivanmilev87.github.io/nutrilife/
+- **GitHub Repo**: https://github.com/Ivanmilev87/nutrilife
+- **Scraper**: Fully functional with OCR fallback (RapidOCR). Supports 5 main stores. Aggressive mode (40 pages) enabled.
+- **Data Sync**: Use `python sync_offers.py` after scraping to update the frontend.
+- **Hosting**: GitHub Pages is active on `master` branch.
 
 ## Navigation flow
 ```
