@@ -21,8 +21,8 @@ scraper/OCR_PROGRESS.md Ongoing OCR notes, test history, and next steps
 ```
 
 ## Project Status (April 2026)
-- **Live Site**: https://ivanmilev87.github.io/nutrilife/
-- **GitHub Repo**: https://github.com/Ivanmilev87/nutrilife
+- **Live Site**: https://stop-excuses.github.io/nutrilife/
+- **GitHub Repo**: https://github.com/stop-excuses/nutrilife
 - **Scraper**: Fully functional with OCR fallback (RapidOCR). Supports 5 main stores. Aggressive mode (40 pages) enabled.
 - **Data Sync**: Use `python sync_offers.py` after scraping to update the frontend.
 - **Hosting**: GitHub Pages is active on `master` branch.
