@@ -1,0 +1,49 @@
+{
+  "generated_from": {
+    "brochure_url": "https://www.broshura.bg/b/5954966",
+    "store": "Lidl",
+    "pages": [
+      2,
+      3
+    ]
+  },
+  "structured_count": 0,
+  "ocr_page_count": 2,
+  "ocr_candidate_count": 17,
+  "matched_structured_count": 0,
+  "merged_offer_count": 2,
+  "offers": [
+    {
+      "id": "ocr-lidl-3-печурки-5оо-onakoбka-leha-3-25",
+      "store": "Lidl",
+      "name": "печурки 5оо onakoбka leha",
+      "new_price": 3.25,
+      "old_price": null,
+      "discount_pct": null,
+      "valid_until": null,
+      "image": null,
+      "source": "ocr",
+      "confidence": "medium",
+      "ocr_score": 0.88,
+      "ocr_page": 3,
+      "ocr_raw_name": "Neuypku 500 g/onako6ka LeHa 3a 1 kg",
+      "ocr_price_text": "3.25 AB"
+    },
+    {
+      "id": "ocr-lidl-3-печурки-5оо-onakoбka-leha-3-32",
+      "store": "Lidl",
+      "name": "печурки 5оо onakoбka leha",
+      "new_price": 3.32,
+      "old_price": null,
+      "discount_pct": null,
+      "valid_until": null,
+      "image": null,
+      "source": "ocr",
+      "confidence": "medium",
+      "ocr_score": 0.89,
+      "ocr_page": 3,
+      "ocr_raw_name": "Neuypku 500 g/onako6ka LeHa 3a 1 kg",
+      "ocr_price_text": "3.32/6.49 ΛB"
+    }
+  ]
+}
