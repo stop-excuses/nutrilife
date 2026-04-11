@@ -23,8 +23,11 @@ import shutil
 import subprocess
 import sys
 import tempfile
+import html
 from datetime import datetime
 from pathlib import Path
+
+import requests
 from playwright.async_api import async_playwright
 from bs4 import BeautifulSoup
 
@@ -1216,22 +1219,79 @@ def run_pdf_scraper_for_kaufland(structured_offers):
 
 
 def run_ocr_fallback(store_name, structured_offers, active_brochures):
-    """
-    Run the OCR fallback for a store if it's supported.
-    """
     supported_stores = ["Kaufland", "Lidl", "Fantastico", "Billa"]
     if store_name not in supported_stores or not active_brochures:
         return structured_offers
 
-    # Limit to 20 pages — covers most brochures, keeps OCR time under ~10 min
+    def brochure_page_count(brochure):
+        brochure_url = brochure.get("url")
+        if not brochure_url:
+            return 0
+
+        try:
+            cache_dir = Path(__file__).parent.parent / "data" / "brochure_cache"
+            cache_dir.mkdir(parents=True, exist_ok=True)
+            url_hash = hashlib.md5(brochure_url.encode()).hexdigest()
+            cache_path = cache_dir / f"{url_hash}.json"
+
+            if cache_path.exists():
+                with open(cache_path, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+            else:
+                response = requests.get(
+                    brochure_url,
+                    headers={"User-Agent": USER_AGENT},
+                    timeout=30,
+                )
+                response.raise_for_status()
+                soup = BeautifulSoup(response.text, "html.parser")
+                brochure_tag = soup.find(attrs={"data-brochure": True})
+                if brochure_tag is None:
+                    return 0
+                data = json.loads(html.unescape(brochure_tag["data-brochure"]))
+                with open(cache_path, "w", encoding="utf-8") as f:
+                    json.dump(data, f, ensure_ascii=False)
+
+            return int(data.get("pageResult", {}).get("total", 0))
+        except Exception as e:
+            print(f"  [!] Could not inspect brochure pages for OCR fallback: {brochure_url}: {e}", flush=True)
+            return 0
+
+    brochures_with_pages = []
+    for brochure in active_brochures:
+        page_count = brochure_page_count(brochure)
+        brochures_with_pages.append((brochure, page_count))
+
+    brochures_with_pages.sort(
+        key=lambda item: (
+            item[1],
+            item[0].get("valid_until") or "",
+            item[0].get("title") or "",
+        ),
+        reverse=True,
+    )
+
+    selected_brochure = brochures_with_pages[0][0]
+    selected_page_count = brochures_with_pages[0][1]
+    brochure_url = selected_brochure["url"]
+
     MAX_OCR_PAGES = 20
-    pages = [str(i) for i in range(2, MAX_OCR_PAGES + 2)]
-    print(f"  [*] OCR fallback for {store_name} — pages 2-{MAX_OCR_PAGES + 1} ({MAX_OCR_PAGES} pages)...", flush=True)
+    last_page = min(selected_page_count, MAX_OCR_PAGES + 1)
+    if last_page < 2:
+        print(f"  [!] OCR fallback skipped for {store_name}: brochure has only {selected_page_count} page(s)", flush=True)
+        return structured_offers
 
-    # We take the first active brochure
-    brochure_url = active_brochures[0]["url"]
+    pages = [str(i) for i in range(2, last_page + 1)]
 
-    # Create temporary files for the merge process
+    print(
+        f"  [*] OCR fallback for {store_name} — selected brochure with {selected_page_count} pages: {brochure_url}",
+        flush=True,
+    )
+    print(
+        f"  [*] OCR fallback for {store_name} — pages 2-{last_page} ({len(pages)} pages)...",
+        flush=True,
+    )
+
     with tempfile.TemporaryDirectory() as tmp_dir:
         tmp_path = Path(tmp_dir)
         offers_json = tmp_path / "structured_offers.json"
@@ -1244,18 +1304,17 @@ def run_ocr_fallback(store_name, structured_offers, active_brochures):
         merge_script = Path(__file__).parent / "hybrid_brochure_merge.py"
         try:
             cmd = [
-                sys.executable, str(merge_script),
-                "--brochure-url", brochure_url,
-                "--store", store_name,
-                "--pages"
-            ] + pages + [
-                "--offers-json", str(offers_json),
-                "--ocr-json-out", str(ocr_json),
-                "--output-json", str(merged_json)
-            ]
+                      sys.executable, str(merge_script),
+                      "--brochure-url", brochure_url,
+                      "--store", store_name,
+                      "--pages"
+                  ] + pages + [
+                      "--offers-json", str(offers_json),
+                      "--ocr-json-out", str(ocr_json),
+                      "--output-json", str(merged_json)
+                  ]
             subprocess.run(cmd, check=True)
 
-            # Load merged results
             if merged_json.exists():
                 with open(merged_json, "r", encoding="utf-8") as f:
                     merged_data = json.load(f)
@@ -1265,7 +1324,7 @@ def run_ocr_fallback(store_name, structured_offers, active_brochures):
                     return new_offers
         except Exception as e:
             print(f"  [!] OCR fallback failed: {e}", flush=True)
-            
+
     return structured_offers
 
 
