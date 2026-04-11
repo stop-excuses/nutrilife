@@ -117,7 +117,7 @@ function applyFilters() {
     let filtered = allOffers.filter(o => {
         if (o.is_food === false) return false;                          // scraper marked non-food
         if (o.category === "other" && !o.health_score) return false;   // uncategorised non-food
-        if ((o.health_score || 0) < 3) return false;                   // candy, chips, junk
+        if ((o.health_score || 0) < 4) return false;                   // candy, chips, junk, sugary drinks
         if (o.name && /^[^а-яА-Яa-zA-Z0-9]+/.test(o.name)) return false; // name starts with garbage
         return true;
     });

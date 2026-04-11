@@ -2,7 +2,7 @@
   {
     "id": "ocr-lidl-7-баница-със-сирене-и-спанак-6p-мъжа-1-35",
     "store": "Lidl",
-    "name": "баница със сирене и спанак",
+    "name": "баница със сирене и спанак /6p мъжа",
     "emoji": "🥛",
     "category": "dairy",
     "new_price": 1.35,
@@ -54,8 +54,45 @@
     "is_junk": false
   },
   {
-    "id": "life-авокадо-aa258e",
+    "id": "life-vernada-салата-хумус-различни--08a7b7",
     "store": "Life",
+    "address": null,
+    "name": "Vernada Салата Хумус различни вкусове",
+    "emoji": "🥦",
+    "category": "vegetable",
+    "new_price": 1.99,
+    "new_price_eur": 1.02,
+    "old_price": 2.97,
+    "old_price_eur": 1.52,
+    "discount_pct": 33,
+    "valid_until": "2026-04-12",
+    "weight_raw": null,
+    "weight_grams": null,
+    "price_per_kg": null,
+    "price_per_kg_eur": null,
+    "shelf_life": "малотраен",
+    "is_food": true,
+    "is_healthy": true,
+    "is_bulk_worthy": false,
+    "is_long_lasting": false,
+    "health_score": 9,
+    "diet_tags": [],
+    "macros": {
+      "kcal": 15,
+      "p": 1.4,
+      "f": 0.2,
+      "c": 2.9
+    },
+    "is_junk": false,
+    "image": "https://media.marktjagd.com/16102796_1440x1040.webp",
+    "available_stores": [
+      "Life",
+      "T-Market"
+    ]
+  },
+  {
+    "id": "hit-авокадо-0060a4",
+    "store": "HIT",
     "address": null,
     "name": "Авокадо",
     "emoji": "🥦",
@@ -86,8 +123,47 @@
     "is_junk": false,
     "image": "https://media.marktjagd.com/16009373_1440x960.webp",
     "available_stores": [
-      "CBA",
-      "Life"
+      "HIT"
+    ]
+  },
+  {
+    "id": "cba-luengo-нахут-или-боб-сварен-7b2baa",
+    "store": "CBA",
+    "address": null,
+    "name": "Luengo Нахут или Боб сварен",
+    "emoji": "🫘",
+    "category": "legume",
+    "new_price": 2.29,
+    "new_price_eur": 1.17,
+    "old_price": null,
+    "old_price_eur": null,
+    "discount_pct": null,
+    "valid_until": "2026-04-12",
+    "weight_raw": null,
+    "weight_grams": null,
+    "price_per_kg": null,
+    "price_per_kg_eur": null,
+    "shelf_life": "1-2г",
+    "is_food": true,
+    "is_healthy": true,
+    "is_bulk_worthy": true,
+    "is_long_lasting": true,
+    "health_score": 9,
+    "diet_tags": [
+      "high_protein",
+      "mediterranean",
+      "vegetarian"
+    ],
+    "macros": {
+      "kcal": 164,
+      "p": 8.9,
+      "f": 2.6,
+      "c": 27
+    },
+    "is_junk": false,
+    "image": "https://media.marktjagd.com/16199305_1041x1440.webp",
+    "available_stores": [
+      "CBA"
     ]
   },
   {
@@ -142,46 +218,6 @@
     "is_junk": false
   },
   {
-    "id": "slaveks-орехите-шпек-различни-видове-bde454",
-    "store": "Slaveks",
-    "address": null,
-    "name": "Орехите Шпек различни видове",
-    "emoji": "🥜",
-    "category": "nuts",
-    "new_price": 14.98,
-    "new_price_eur": 7.66,
-    "old_price": 23.05,
-    "old_price_eur": 11.79,
-    "discount_pct": 35,
-    "valid_until": "2026-04-12",
-    "weight_raw": null,
-    "weight_grams": null,
-    "price_per_kg": null,
-    "price_per_kg_eur": null,
-    "shelf_life": "6м-1г",
-    "is_food": true,
-    "is_healthy": true,
-    "is_bulk_worthy": true,
-    "is_long_lasting": true,
-    "health_score": 9,
-    "diet_tags": [
-      "keto",
-      "mediterranean"
-    ],
-    "macros": {
-      "kcal": 654,
-      "p": 15,
-      "f": 65,
-      "c": 14
-    },
-    "is_junk": false,
-    "image": "https://media.marktjagd.com/16888094_363x1440.webp",
-    "available_stores": [
-      "Lidl",
-      "Slaveks"
-    ]
-  },
-  {
     "id": "fantastico-сельодка-филе-от-свежата-витри-9c0dae",
     "store": "Fantastico",
     "address": null,
@@ -217,21 +253,21 @@
     "confidence": "high",
     "available_stores": [
       "Fantastico",
-      "Lidl"
+      "Kaufland"
     ]
   },
   {
-    "id": "flora-exquisa-скир-натурален-1ba3bc",
-    "store": "Flora",
+    "id": "slaveks-телешки-джолан-осо-буко-от-све-329a11",
+    "store": "Slaveks",
     "address": null,
-    "name": "EXQUISA Скир натурален",
-    "emoji": "🥛",
-    "category": "dairy",
-    "new_price": 2.89,
-    "new_price_eur": 1.48,
-    "old_price": 4.25,
-    "old_price_eur": 2.17,
-    "discount_pct": 32,
+    "name": "Телешки джолан Осо буко от свежата витрина",
+    "emoji": "🍗",
+    "category": "protein",
+    "new_price": 26.99,
+    "new_price_eur": 13.8,
+    "old_price": null,
+    "old_price_eur": null,
+    "discount_pct": null,
     "valid_until": "2026-04-12",
     "weight_raw": null,
     "weight_grams": null,
@@ -243,35 +279,32 @@
     "is_bulk_worthy": false,
     "is_long_lasting": false,
     "health_score": 8,
-    "diet_tags": [
-      "high_protein",
-      "vegetarian"
-    ],
+    "diet_tags": [],
     "macros": {
-      "kcal": 66,
-      "p": 11,
-      "f": 0.2,
-      "c": 4
+      "kcal": 172,
+      "p": 24,
+      "f": 8,
+      "c": 0
     },
     "is_junk": false,
-    "image": "https://media.marktjagd.com/17507454_1120x1440.webp",
+    "image": "https://media.marktjagd.com/16888092_1440x1146.webp",
     "available_stores": [
-      "Flora"
+      "Slaveks"
     ]
   },
   {
-    "id": "kaufland-жълт-лук-f12ae3",
-    "store": "Kaufland",
+    "id": "slaveks-жълт-лук-f37604",
+    "store": "Slaveks",
     "address": null,
     "name": "Жълт лук",
     "emoji": "🥦",
     "category": "vegetable",
     "new_price": 0.74,
     "new_price_eur": 0.38,
-    "old_price": 1.29,
+    "old_price": 1.3,
     "old_price_eur": 0.66,
     "discount_pct": 43,
-    "valid_until": null,
+    "valid_until": "2026-04-12",
     "weight_raw": null,
     "weight_grams": null,
     "price_per_kg": null,
@@ -290,11 +323,10 @@
       "c": 9.3
     },
     "is_junk": false,
-    "image": "https://media.marktjagd.com/15973582_384x378.webp",
-    "source": "structured",
-    "confidence": "high",
+    "image": "https://media.marktjagd.com/15973582_1440x1416.webp",
     "available_stores": [
-      "Kaufland"
+      "Kaufland",
+      "Slaveks"
     ]
   },
   {
@@ -347,6 +379,43 @@
     "is_junk": false
   },
   {
+    "id": "stop4eto-щедра-нива-сладка-царевица-или-70b94d",
+    "store": "STOP4ETO",
+    "address": null,
+    "name": "ЩЕДРА НИВА Сладка царевица или Зелен грах",
+    "emoji": "🫘",
+    "category": "legume",
+    "new_price": 1.49,
+    "new_price_eur": 0.76,
+    "old_price": 2.19,
+    "old_price_eur": 1.12,
+    "discount_pct": 32,
+    "valid_until": "2026-04-11",
+    "weight_raw": null,
+    "weight_grams": null,
+    "price_per_kg": null,
+    "price_per_kg_eur": null,
+    "shelf_life": "1-2г",
+    "is_food": true,
+    "is_healthy": true,
+    "is_bulk_worthy": true,
+    "is_long_lasting": true,
+    "health_score": 7,
+    "diet_tags": [],
+    "macros": {
+      "kcal": 86,
+      "p": 3.3,
+      "f": 1.4,
+      "c": 19
+    },
+    "is_junk": false,
+    "image": "https://media.marktjagd.com/19151379_1288x1440.webp",
+    "available_stores": [
+      "HIT",
+      "STOP4ETO"
+    ]
+  },
+  {
     "id": "ocr-lidl-3-lidl-ягоди-гърция-1-74",
     "store": "Lidl",
     "name": "lidl ягоди гърция",
@@ -395,8 +464,8 @@
     "is_junk": false
   },
   {
-    "id": "billa-каликонс-домати-цели-небелени-2a83f1",
-    "store": "Billa",
+    "id": "stop4eto-каликонс-домати-цели-небелени-18dddb",
+    "store": "STOP4ETO",
     "address": null,
     "name": "Каликонс Домати цели, небелени",
     "emoji": "🥦",
@@ -427,51 +496,12 @@
     "is_junk": false,
     "image": "https://media.marktjagd.com/16133033_953x1440.webp",
     "available_stores": [
-      "Billa"
+      "STOP4ETO"
     ]
   },
   {
-    "id": "life-la-vache-qui-rit-топено-сирене-ed9606",
-    "store": "Life",
-    "address": null,
-    "name": "La Vache Qui Rit Топено сирене различни вкусове",
-    "emoji": "🥛",
-    "category": "dairy",
-    "new_price": 3.29,
-    "new_price_eur": 1.68,
-    "old_price": 4.39,
-    "old_price_eur": 2.24,
-    "discount_pct": 25,
-    "valid_until": "2026-04-12",
-    "weight_raw": null,
-    "weight_grams": null,
-    "price_per_kg": null,
-    "price_per_kg_eur": null,
-    "shelf_life": "малотраен",
-    "is_food": true,
-    "is_healthy": true,
-    "is_bulk_worthy": false,
-    "is_long_lasting": false,
-    "health_score": 7,
-    "diet_tags": [
-      "keto",
-      "vegetarian"
-    ],
-    "macros": {
-      "kcal": 264,
-      "p": 14,
-      "f": 22,
-      "c": 2
-    },
-    "is_junk": false,
-    "image": "https://media.marktjagd.com/15831623_1378x1440.webp",
-    "available_stores": [
-      "Life"
-    ]
-  },
-  {
-    "id": "cba-грозде-bc7cba",
-    "store": "CBA",
+    "id": "slaveks-грозде-3620e4",
+    "store": "Slaveks",
     "address": null,
     "name": "Грозде",
     "emoji": "🥦",
@@ -502,90 +532,13 @@
     "is_junk": false,
     "image": "https://media.marktjagd.com/16836054_1002x1440.webp",
     "available_stores": [
-      "CBA"
-    ]
-  },
-  {
-    "id": "kaufland-castello-прясно-сирене-различн-97457c",
-    "store": "Kaufland",
-    "address": null,
-    "name": "CASTELLO Прясно сирене различни видове",
-    "emoji": "🥛",
-    "category": "dairy",
-    "new_price": 4.28,
-    "new_price_eur": 2.19,
-    "old_price": 5.49,
-    "old_price_eur": 2.81,
-    "discount_pct": 22,
-    "valid_until": "2026-04-12",
-    "weight_raw": null,
-    "weight_grams": null,
-    "price_per_kg": null,
-    "price_per_kg_eur": null,
-    "shelf_life": "малотраен",
-    "is_food": true,
-    "is_healthy": true,
-    "is_bulk_worthy": false,
-    "is_long_lasting": false,
-    "health_score": 7,
-    "diet_tags": [
-      "keto",
-      "vegetarian"
-    ],
-    "macros": {
-      "kcal": 264,
-      "p": 14,
-      "f": 22,
-      "c": 2
-    },
-    "is_junk": false,
-    "image": "https://media.marktjagd.com/16071933_1377x1440.webp",
-    "source": "structured",
-    "confidence": "high",
-    "available_stores": [
-      "Kaufland"
-    ]
-  },
-  {
-    "id": "t-market-домати-чери-500-гр-бр-392c79",
-    "store": "T-Market",
-    "address": null,
-    "name": "Домати чери 500 гр бр",
-    "emoji": "🥦",
-    "category": "vegetable",
-    "new_price": 4.99,
-    "new_price_eur": 2.55,
-    "old_price": 7.8,
-    "old_price_eur": 3.99,
-    "discount_pct": 36,
-    "valid_until": "2026-04-12",
-    "weight_raw": "500 г",
-    "weight_grams": 500,
-    "price_per_kg": 9.98,
-    "price_per_kg_eur": 5.1,
-    "shelf_life": "малотраен",
-    "is_food": true,
-    "is_healthy": true,
-    "is_bulk_worthy": false,
-    "is_long_lasting": false,
-    "health_score": 7,
-    "diet_tags": [],
-    "macros": {
-      "kcal": 18,
-      "p": 0.9,
-      "f": 0.2,
-      "c": 3.9
-    },
-    "is_junk": false,
-    "image": "https://media.marktjagd.com/19413314_1423x1440.webp",
-    "available_stores": [
-      "T-Market"
+      "Slaveks"
     ]
   },
   {
     "id": "ocr-kaufland-11-нашата-специална-рецепта-за-крехка-агнеш-19-99",
     "store": "Kaufland",
-    "name": "нашата специална рецепта за крехка агнешка плешка",
+    "name": "нашата специална рецепта за крехка = агнешка плешка в",
     "emoji": "🍗",
     "category": "protein",
     "new_price": 19.99,
@@ -630,45 +583,6 @@
       "c": 0
     },
     "is_junk": false
-  },
-  {
-    "id": "cba-bauer-сирене-с-кимион-или-масл-9162bb",
-    "store": "CBA",
-    "address": null,
-    "name": "BAUER Сирене с кимион или маслини",
-    "emoji": "🥛",
-    "category": "dairy",
-    "new_price": 26.99,
-    "new_price_eur": 13.8,
-    "old_price": 35.99,
-    "old_price_eur": 18.4,
-    "discount_pct": 25,
-    "valid_until": "2026-04-12",
-    "weight_raw": null,
-    "weight_grams": null,
-    "price_per_kg": null,
-    "price_per_kg_eur": null,
-    "shelf_life": "малотраен",
-    "is_food": true,
-    "is_healthy": true,
-    "is_bulk_worthy": false,
-    "is_long_lasting": false,
-    "health_score": 7,
-    "diet_tags": [
-      "keto",
-      "vegetarian"
-    ],
-    "macros": {
-      "kcal": 264,
-      "p": 14,
-      "f": 22,
-      "c": 2
-    },
-    "is_junk": false,
-    "image": "https://media.marktjagd.com/18147481_819x1440.webp",
-    "available_stores": [
-      "CBA"
-    ]
   },
   {
     "id": "ocr-lidl-7-пица-фермерски-хляб-с-шунка-и-моцарела-0-96",
@@ -720,18 +634,18 @@
     "is_junk": false
   },
   {
-    "id": "kaufland-протеинов-хляб-от-нашата-пекар-fc53c8",
-    "store": "Kaufland",
+    "id": "slaveks-протеинов-хляб-от-нашата-пекар-79eb83",
+    "store": "Slaveks",
     "address": null,
     "name": "Протеинов хляб от нашата пекарна",
     "emoji": "🍞",
     "category": "bread",
     "new_price": 2.78,
     "new_price_eur": 1.42,
-    "old_price": 3.48,
-    "old_price_eur": 1.78,
+    "old_price": 3.47,
+    "old_price_eur": 1.77,
     "discount_pct": 20,
-    "valid_until": null,
+    "valid_until": "2026-04-12",
     "weight_raw": null,
     "weight_grams": null,
     "price_per_kg": null,
@@ -750,11 +664,49 @@
       "c": 49
     },
     "is_junk": false,
-    "image": "https://media.marktjagd.com/16051222_384x327.webp",
-    "source": "structured",
-    "confidence": "high",
+    "image": "https://media.marktjagd.com/16051222_1440x1225.webp",
     "available_stores": [
-      "Kaufland"
+      "Kaufland",
+      "Slaveks"
+    ]
+  },
+  {
+    "id": "flora-свински-котлет-от-свежата-витр-a1be53",
+    "store": "Flora",
+    "address": null,
+    "name": "Свински котлет от свежата витрина",
+    "emoji": "🍗",
+    "category": "protein",
+    "new_price": 6.79,
+    "new_price_eur": 3.47,
+    "old_price": 13.06,
+    "old_price_eur": 6.68,
+    "discount_pct": 48,
+    "valid_until": "2026-04-12",
+    "weight_raw": null,
+    "weight_grams": null,
+    "price_per_kg": null,
+    "price_per_kg_eur": null,
+    "shelf_life": "малотраен",
+    "is_food": true,
+    "is_healthy": true,
+    "is_bulk_worthy": false,
+    "is_long_lasting": false,
+    "health_score": 6,
+    "diet_tags": [
+      "high_protein",
+      "keto"
+    ],
+    "macros": {
+      "kcal": 242,
+      "p": 27,
+      "f": 14,
+      "c": 0
+    },
+    "is_junk": false,
+    "image": "https://media.marktjagd.com/17063087_1440x1174.webp",
+    "available_stores": [
+      "Flora"
     ]
   },
   {
@@ -793,13 +745,52 @@
     "is_junk": false,
     "image": "https://media.marktjagd.com/19413422_1440x935.webp",
     "available_stores": [
-      "CBA",
       "Life"
     ]
   },
   {
-    "id": "cba-свински-гърди-с-кост-от-свежат-3dd014",
+    "id": "cba-от-мръвка-свинско-филе-опаковк-dddeab",
     "store": "CBA",
+    "address": null,
+    "name": "ОТ МРЪВКА Свинско филе опаковка около 700 г",
+    "emoji": "🍗",
+    "category": "protein",
+    "new_price": 11.99,
+    "new_price_eur": 6.13,
+    "old_price": null,
+    "old_price_eur": null,
+    "discount_pct": null,
+    "valid_until": "2026-04-11",
+    "weight_raw": "700 г",
+    "weight_grams": 700,
+    "price_per_kg": 17.13,
+    "price_per_kg_eur": 8.76,
+    "shelf_life": "малотраен",
+    "is_food": true,
+    "is_healthy": true,
+    "is_bulk_worthy": false,
+    "is_long_lasting": false,
+    "health_score": 6,
+    "diet_tags": [
+      "high_protein",
+      "keto"
+    ],
+    "macros": {
+      "kcal": 242,
+      "p": 27,
+      "f": 14,
+      "c": 0
+    },
+    "is_junk": false,
+    "image": "https://media.marktjagd.com/17575931_850x1440.webp",
+    "available_stores": [
+      "CBA",
+      "Slaveks"
+    ]
+  },
+  {
+    "id": "lidl-свински-гърди-с-кост-от-свежат-f8b8f2",
+    "store": "Lidl",
     "address": null,
     "name": "Свински гърди с кост от свежата витрина",
     "emoji": "🍗",
@@ -832,23 +823,25 @@
     },
     "is_junk": false,
     "image": "https://media.marktjagd.com/17386959_1440x1350.webp",
+    "source": "structured",
+    "confidence": "high",
     "available_stores": [
-      "CBA"
+      "Lidl"
     ]
   },
   {
-    "id": "kaufland-ариел-фиш-хайвер-от-свежата-ви-b40c11",
-    "store": "Kaufland",
+    "id": "flora-ариел-фиш-хайвер-от-свежата-ви-49123e",
+    "store": "Flora",
     "address": null,
     "name": "Ариел Фиш Хайвер от свежата витрина",
     "emoji": "🍗",
     "category": "protein",
     "new_price": 9.99,
     "new_price_eur": 5.11,
-    "old_price": 18.99,
-    "old_price_eur": 9.71,
+    "old_price": 18.85,
+    "old_price_eur": 9.64,
     "discount_pct": 47,
-    "valid_until": null,
+    "valid_until": "2026-04-12",
     "weight_raw": null,
     "weight_grams": null,
     "price_per_kg": null,
@@ -867,47 +860,10 @@
       "c": 0
     },
     "is_junk": false,
-    "image": "https://media.marktjagd.com/16559635_369x384.webp",
-    "source": "structured",
-    "confidence": "high",
+    "image": "https://media.marktjagd.com/16559635_1382x1440.webp",
     "available_stores": [
+      "Flora",
       "Kaufland"
-    ]
-  },
-  {
-    "id": "life-sterilgarda-маскарпоне-1d749f",
-    "store": "Life",
-    "address": null,
-    "name": "STERILGARDA Маскарпоне",
-    "emoji": "🥛",
-    "category": "dairy",
-    "new_price": 10.99,
-    "new_price_eur": 5.62,
-    "old_price": null,
-    "old_price_eur": null,
-    "discount_pct": null,
-    "valid_until": "2026-04-12",
-    "weight_raw": null,
-    "weight_grams": null,
-    "price_per_kg": null,
-    "price_per_kg_eur": null,
-    "shelf_life": "малотраен",
-    "is_food": true,
-    "is_healthy": true,
-    "is_bulk_worthy": false,
-    "is_long_lasting": false,
-    "health_score": 5,
-    "diet_tags": [],
-    "macros": {
-      "kcal": 429,
-      "p": 4.8,
-      "f": 44,
-      "c": 3.5
-    },
-    "is_junk": false,
-    "image": "https://media.marktjagd.com/15874904_1440x1080.webp",
-    "available_stores": [
-      "Life"
     ]
   },
   {
@@ -945,13 +901,13 @@
     "source": "structured",
     "confidence": "high",
     "available_stores": [
-      "Fantastico",
-      "STOP4ETO"
+      "Billa",
+      "Fantastico"
     ]
   },
   {
-    "id": "slaveks-meat-revolution-флат-айрън-сте-db4060",
-    "store": "Slaveks",
+    "id": "lidl-meat-revolution-флат-айрън-сте-890ee6",
+    "store": "Lidl",
     "address": null,
     "name": "MEAT REVOLUTION Флат Айрън стек Black Angus",
     "emoji": "🍗",
@@ -981,25 +937,28 @@
     },
     "is_junk": false,
     "image": "https://media.marktjagd.com/17422145_1108x1440.webp",
+    "source": "structured",
+    "confidence": "high",
     "available_stores": [
       "CBA",
       "Lidl",
-      "Slaveks"
+      "Life",
+      "T-Market"
     ]
   },
   {
-    "id": "kaufland-едам-или-гауда-от-свежата-витр-d702ee",
-    "store": "Kaufland",
+    "id": "life-едам-или-гауда-от-свежата-витр-d64ba1",
+    "store": "Life",
     "address": null,
     "name": "Едам или Гауда от свежата витрина",
     "emoji": "🥛",
     "category": "dairy",
     "new_price": 14.98,
     "new_price_eur": 7.66,
-    "old_price": 18.95,
+    "old_price": 18.96,
     "old_price_eur": 9.69,
     "discount_pct": 21,
-    "valid_until": null,
+    "valid_until": "2026-04-12",
     "weight_raw": null,
     "weight_grams": null,
     "price_per_kg": null,
@@ -1018,18 +977,15 @@
       "c": 2.2
     },
     "is_junk": false,
-    "image": "https://media.marktjagd.com/16081071_384x330.webp",
-    "source": "structured",
-    "confidence": "high",
+    "image": "https://media.marktjagd.com/16081071_1440x1239.webp",
     "available_stores": [
-      "Flora",
       "Kaufland",
       "Life"
     ]
   },
   {
-    "id": "cba-меско-занаятчийски-бут-от-свеж-52956f",
-    "store": "CBA",
+    "id": "stop4eto-меско-занаятчийски-бут-от-свеж-c20c82",
+    "store": "STOP4ETO",
     "address": null,
     "name": "Меско Занаятчийски бут от свежата витрина",
     "emoji": "🍗",
@@ -1060,13 +1016,12 @@
     "is_junk": false,
     "image": "https://media.marktjagd.com/16956515_1440x1317.webp",
     "available_stores": [
-      "CBA",
-      "HIT"
+      "STOP4ETO"
     ]
   },
   {
-    "id": "billa-paysan-breton-бри-франция-1a01d0",
-    "store": "Billa",
+    "id": "life-paysan-breton-бри-франция-29e749",
+    "store": "Life",
     "address": null,
     "name": "PAYSAN BRETON Бри Франция",
     "emoji": "🥛",
@@ -1097,8 +1052,8 @@
     "is_junk": false,
     "image": "https://media.marktjagd.com/17032527_856x800.webp",
     "available_stores": [
-      "Billa",
-      "Flora"
+      "Life",
+      "T-Market"
     ]
   },
   {
@@ -1129,89 +1084,20 @@
     "is_junk": false,
     "image": "https://media.marktjagd.com/15832328_1440x1429.webp",
     "available_stores": [
-      "Billa",
-      "Life",
-      "Slaveks",
-      "T-Market"
+      "Slaveks"
     ]
   },
   {
-    "id": "life-елей-торта-лешник-1bf2df",
-    "store": "Life",
+    "id": "slaveks-ruffles-картофен-чипс-барбекю-5f3afb",
+    "store": "Slaveks",
     "address": null,
-    "name": "Елей Торта Лешник",
-    "emoji": "🥜",
-    "category": "nuts",
-    "new_price": 13.87,
-    "new_price_eur": 7.09,
-    "old_price": 19.26,
-    "old_price_eur": 9.85,
-    "discount_pct": 28,
-    "valid_until": "2026-04-12",
-    "weight_raw": null,
-    "weight_grams": null,
-    "price_per_kg": null,
-    "price_per_kg_eur": null,
-    "shelf_life": "6м-1г",
-    "is_food": true,
-    "is_healthy": false,
-    "is_bulk_worthy": false,
-    "is_long_lasting": true,
-    "health_score": 2,
-    "diet_tags": [],
-    "macros": null,
-    "is_junk": true,
-    "image": "https://media.marktjagd.com/16102817_1440x1077.webp",
-    "available_stores": [
-      "Life",
-      "T-Market"
-    ]
-  },
-  {
-    "id": "fantastico-prisun-негазирана-напитка-разл-b57fe9",
-    "store": "Fantastico",
-    "address": null,
-    "name": "Prisun Негазирана напитка различни видове",
-    "emoji": "🍞",
-    "category": "bread",
-    "new_price": 1.78,
-    "new_price_eur": 0.91,
-    "old_price": 2.97,
-    "old_price_eur": 1.52,
-    "discount_pct": 40,
-    "valid_until": "2026-04-12",
-    "weight_raw": null,
-    "weight_grams": null,
-    "price_per_kg": null,
-    "price_per_kg_eur": null,
-    "shelf_life": "малотраен",
-    "is_food": true,
-    "is_healthy": false,
-    "is_bulk_worthy": false,
-    "is_long_lasting": false,
-    "health_score": 1,
-    "diet_tags": [],
-    "macros": null,
-    "is_junk": true,
-    "image": "https://media.marktjagd.com/15828783_441x1440.webp",
-    "source": "structured",
-    "confidence": "high",
-    "available_stores": [
-      "Fantastico",
-      "Kaufland"
-    ]
-  },
-  {
-    "id": "kaufland-pom-bar-картофен-снакс-952930",
-    "store": "Kaufland",
-    "address": null,
-    "name": "Pom Bar Картофен снакс",
+    "name": "Ruffles Картофен чипс барбекю",
     "emoji": "🥦",
     "category": "vegetable",
-    "new_price": 1.99,
-    "new_price_eur": 1.02,
-    "old_price": 3.62,
-    "old_price_eur": 1.85,
+    "new_price": 2.19,
+    "new_price_eur": 1.12,
+    "old_price": 3.98,
+    "old_price_eur": 2.03,
     "discount_pct": 45,
     "valid_until": "2026-04-12",
     "weight_raw": null,
@@ -1223,15 +1109,12 @@
     "is_healthy": false,
     "is_bulk_worthy": false,
     "is_long_lasting": false,
-    "health_score": 1,
+    "health_score": 2,
     "diet_tags": [],
     "macros": null,
     "is_junk": true,
-    "image": "https://media.marktjagd.com/15831786_930x1440.webp",
-    "source": "structured",
-    "confidence": "high",
+    "image": "https://media.marktjagd.com/17945833_1074x1440.webp",
     "available_stores": [
-      "Kaufland",
       "Slaveks"
     ]
   },
@@ -1279,39 +1162,8 @@
     "is_junk": true
   },
   {
-    "id": "cba-донът-с-розова-глазура-и-поръс-e21d65",
+    "id": "cba-aroma-глицеринов-сапун-natural-eb2124",
     "store": "CBA",
-    "address": null,
-    "name": "Донът с розова глазура и поръска",
-    "emoji": "🛒",
-    "category": "other",
-    "new_price": 0.59,
-    "new_price_eur": 0.3,
-    "old_price": 0.89,
-    "old_price_eur": 0.46,
-    "discount_pct": 34,
-    "valid_until": "2026-04-12",
-    "weight_raw": null,
-    "weight_grams": null,
-    "price_per_kg": null,
-    "price_per_kg_eur": null,
-    "shelf_life": null,
-    "is_food": false,
-    "is_healthy": false,
-    "is_bulk_worthy": false,
-    "is_long_lasting": false,
-    "health_score": null,
-    "diet_tags": [],
-    "macros": null,
-    "is_junk": false,
-    "image": "https://media.marktjagd.com/16645086_1440x1437.webp",
-    "available_stores": [
-      "CBA"
-    ]
-  },
-  {
-    "id": "slaveks-aroma-глицеринов-сапун-natural-dc1cf8",
-    "store": "Slaveks",
     "address": null,
     "name": "Aroma Глицеринов сапун Natural Elements",
     "emoji": "🛒",
@@ -1337,13 +1189,46 @@
     "is_junk": false,
     "image": "https://media.marktjagd.com/16102863_1440x1440.webp",
     "available_stores": [
-      "STOP4ETO",
-      "Slaveks"
+      "CBA",
+      "Life",
+      "T-Market"
     ]
   },
   {
-    "id": "fantastico-комплект-лопатка-и-четка-за-сл-fe4045",
-    "store": "Fantastico",
+    "id": "cba-nancy-тоалетен-сапун-различни--964407",
+    "store": "CBA",
+    "address": null,
+    "name": "Nancy Тоалетен сапун различни видове",
+    "emoji": "🛒",
+    "category": "other",
+    "new_price": 1.23,
+    "new_price_eur": 0.63,
+    "old_price": 2.46,
+    "old_price_eur": 1.26,
+    "discount_pct": 50,
+    "valid_until": "2026-04-12",
+    "weight_raw": null,
+    "weight_grams": null,
+    "price_per_kg": null,
+    "price_per_kg_eur": null,
+    "shelf_life": null,
+    "is_food": false,
+    "is_healthy": false,
+    "is_bulk_worthy": false,
+    "is_long_lasting": false,
+    "health_score": null,
+    "diet_tags": [],
+    "macros": null,
+    "is_junk": false,
+    "image": "https://media.marktjagd.com/15982293_1440x1040.webp",
+    "available_stores": [
+      "CBA",
+      "Kaufland"
+    ]
+  },
+  {
+    "id": "t-market-комплект-лопатка-и-четка-за-сл-e17d2f",
+    "store": "T-Market",
     "address": null,
     "name": "Комплект лопатка и четка за сладки",
     "emoji": "🛒",
@@ -1368,16 +1253,47 @@
     "macros": null,
     "is_junk": false,
     "image": "https://media.marktjagd.com/15869400_300x262.webp",
-    "source": "structured",
-    "confidence": "high",
     "available_stores": [
-      "Fantastico",
+      "Kaufland",
+      "T-Market"
+    ]
+  },
+  {
+    "id": "cba-bormioli-rocco-чиния-или-купа--f043c9",
+    "store": "CBA",
+    "address": null,
+    "name": "Bormioli Rocco Чиния или купа Parma",
+    "emoji": "🛒",
+    "category": "other",
+    "new_price": 2.58,
+    "new_price_eur": 1.32,
+    "old_price": 3.58,
+    "old_price_eur": 1.83,
+    "discount_pct": 28,
+    "valid_until": "2026-04-12",
+    "weight_raw": null,
+    "weight_grams": null,
+    "price_per_kg": null,
+    "price_per_kg_eur": null,
+    "shelf_life": null,
+    "is_food": false,
+    "is_healthy": false,
+    "is_bulk_worthy": false,
+    "is_long_lasting": false,
+    "health_score": null,
+    "diet_tags": [],
+    "macros": null,
+    "is_junk": false,
+    "image": "https://media.marktjagd.com/18333425_1440x1040.webp",
+    "available_stores": [
+      "CBA",
+      "Flora",
       "Kaufland"
     ]
   },
   {
-    "id": "stop4eto-dante-храна-за-кучета-различни-b38aee",
-    "store": "STOP4ETO",
+    "id": "billa-dante-храна-за-кучета-различни-b63d47",
+    "store": "Billa",
     "address": null,
     "name": "DANTE Храна за кучета различни видове",
     "emoji": "🛒",
@@ -1403,13 +1319,12 @@
     "is_junk": false,
     "image": "https://media.marktjagd.com/17988559_936x1440.webp",
     "available_stores": [
-      "Flora",
-      "STOP4ETO"
+      "Billa"
     ]
   },
   {
-    "id": "billa-frosch-препарат-за-съдове-разл-63fb70",
-    "store": "Billa",
+    "id": "cba-frosch-препарат-за-съдове-разл-d4ce1d",
+    "store": "CBA",
     "address": null,
     "name": "Frosch Препарат за съдове различни видове",
     "emoji": "🛒",
@@ -1435,12 +1350,12 @@
     "is_junk": false,
     "image": "https://media.marktjagd.com/15875084_266x800.webp",
     "available_stores": [
-      "Billa"
+      "CBA"
     ]
   },
   {
-    "id": "hit-софия-мел-фини-кори-faeaa3",
-    "store": "HIT",
+    "id": "life-софия-мел-фини-кори-affed0",
+    "store": "Life",
     "address": null,
     "name": "София Мел Фини кори",
     "emoji": "🛒",
@@ -1466,7 +1381,7 @@
     "is_junk": false,
     "image": "https://media.marktjagd.com/16634799_1440x288.webp",
     "available_stores": [
-      "HIT"
+      "Life"
     ]
   },
   {
@@ -1497,24 +1412,21 @@
     "is_junk": true,
     "image": "https://media.marktjagd.com/17422146_1024x1024.webp",
     "available_stores": [
-      "Billa",
-      "CBA",
-      "Life",
-      "T-Market"
+      "Billa"
     ]
   },
   {
-    "id": "slaveks-победа-бонбони-черноморец-00fddc",
-    "store": "Slaveks",
+    "id": "kaufland-царевец-обикновени-вафли-946f45",
+    "store": "Kaufland",
     "address": null,
-    "name": "Победа Бонбони Черноморец",
+    "name": "Царевец Обикновени вафли",
     "emoji": "🛒",
     "category": "other",
-    "new_price": 3.89,
-    "new_price_eur": 1.99,
-    "old_price": 6.27,
-    "old_price_eur": 3.21,
-    "discount_pct": 38,
+    "new_price": 3.48,
+    "new_price_eur": 1.78,
+    "old_price": 6.96,
+    "old_price_eur": 3.56,
+    "discount_pct": 50,
     "valid_until": "2026-04-12",
     "weight_raw": null,
     "weight_grams": null,
@@ -1529,14 +1441,16 @@
     "diet_tags": [],
     "macros": null,
     "is_junk": true,
-    "image": "https://media.marktjagd.com/16010717_1440x1042.webp",
+    "image": "https://media.marktjagd.com/15874792_770x1440.webp",
+    "source": "structured",
+    "confidence": "high",
     "available_stores": [
-      "Slaveks"
+      "Kaufland"
     ]
   },
   {
-    "id": "billa-colgate-паста-или-четка-за-зъб-fa5fbc",
-    "store": "Billa",
+    "id": "lidl-colgate-паста-или-четка-за-зъб-eaacc7",
+    "store": "Lidl",
     "address": null,
     "name": "Colgate Паста или Четка за зъби",
     "emoji": "🌾",
@@ -1561,13 +1475,17 @@
     "macros": null,
     "is_junk": false,
     "image": "https://media.marktjagd.com/15949255_438x1440.webp",
+    "source": "structured",
+    "confidence": "high",
     "available_stores": [
-      "Billa"
+      "Lidl",
+      "Life",
+      "Slaveks"
     ]
   },
   {
-    "id": "hit-олинеза-лютеница-d3b0cb",
-    "store": "HIT",
+    "id": "cba-олинеза-лютеница-829579",
+    "store": "CBA",
     "address": null,
     "name": "Олинеза Лютеница",
     "emoji": "🛒",
@@ -1593,12 +1511,14 @@
     "is_junk": false,
     "image": "https://media.marktjagd.com/15861682_1040x1440.webp",
     "available_stores": [
-      "HIT"
+      "CBA",
+      "Flora",
+      "STOP4ETO"
     ]
   },
   {
-    "id": "slaveks-libresse-дамски-превръзки-duo--8ba998",
-    "store": "Slaveks",
+    "id": "hit-libresse-дамски-превръзки-duo--e1570d",
+    "store": "HIT",
     "address": null,
     "name": "Libresse Дамски превръзки Duo Pack",
     "emoji": "🛒",
@@ -1624,43 +1544,12 @@
     "is_junk": false,
     "image": "https://www.broshura.bg/images/image-fallback.svg",
     "available_stores": [
-      "Slaveks"
+      "HIT"
     ]
   },
   {
-    "id": "t-market-domestos-почистващ-препарат-ра-69e7ad",
-    "store": "T-Market",
-    "address": null,
-    "name": "Domestos Почистващ препарат различни видове",
-    "emoji": "🛒",
-    "category": "other",
-    "new_price": 4.48,
-    "new_price_eur": 2.29,
-    "old_price": null,
-    "old_price_eur": null,
-    "discount_pct": null,
-    "valid_until": "2026-04-12",
-    "weight_raw": null,
-    "weight_grams": null,
-    "price_per_kg": null,
-    "price_per_kg_eur": null,
-    "shelf_life": null,
-    "is_food": false,
-    "is_healthy": false,
-    "is_bulk_worthy": false,
-    "is_long_lasting": false,
-    "health_score": null,
-    "diet_tags": [],
-    "macros": null,
-    "is_junk": false,
-    "image": "https://media.marktjagd.com/15874563_484x1440.webp",
-    "available_stores": [
-      "T-Market"
-    ]
-  },
-  {
-    "id": "stop4eto-snickers-mars-twix-шоколадов-д-d93fd0",
-    "store": "STOP4ETO",
+    "id": "life-snickers-mars-twix-шоколадов-д-2462c2",
+    "store": "Life",
     "address": null,
     "name": "SNICKERS/ MARS/ TWIX Шоколадов десерт",
     "emoji": "🛒",
@@ -1686,12 +1575,14 @@
     "is_junk": true,
     "image": "https://media.marktjagd.com/15982245_1440x1440.webp",
     "available_stores": [
-      "STOP4ETO"
+      "HIT",
+      "Life",
+      "T-Market"
     ]
   },
   {
-    "id": "billa-paysan-breton-палачинки-различ-b8e727",
-    "store": "Billa",
+    "id": "t-market-paysan-breton-палачинки-различ-5ca36b",
+    "store": "T-Market",
     "address": null,
     "name": "PAYSAN BRETON Палачинки различни видове",
     "emoji": "🛒",
@@ -1717,14 +1608,12 @@
     "is_junk": false,
     "image": "https://media.marktjagd.com/19413344_550x868.webp",
     "available_stores": [
-      "Billa",
-      "CBA",
-      "Life"
+      "T-Market"
     ]
   },
   {
-    "id": "hit-черноморец-сладолед-afad9d",
-    "store": "HIT",
+    "id": "life-черноморец-сладолед-847643",
+    "store": "Life",
     "address": null,
     "name": "Черноморец Сладолед",
     "emoji": "🛒",
@@ -1750,23 +1639,120 @@
     "is_junk": true,
     "image": "https://media.marktjagd.com/16466423_1440x918.webp",
     "available_stores": [
-      "HIT"
+      "Life"
+    ]
+  },
+  {
+    "id": "fantastico-sensodyne-четка-за-зъби-sensit-d330ef",
+    "store": "Fantastico",
+    "address": null,
+    "name": "Sensodyne Четка за зъби Sensitivity&Gum",
+    "emoji": "🛒",
+    "category": "other",
+    "new_price": 5.79,
+    "new_price_eur": 2.96,
+    "old_price": null,
+    "old_price_eur": null,
+    "discount_pct": null,
+    "valid_until": "2026-04-12",
+    "weight_raw": null,
+    "weight_grams": null,
+    "price_per_kg": null,
+    "price_per_kg_eur": null,
+    "shelf_life": null,
+    "is_food": false,
+    "is_healthy": false,
+    "is_bulk_worthy": false,
+    "is_long_lasting": false,
+    "health_score": null,
+    "diet_tags": [],
+    "macros": null,
+    "is_junk": false,
+    "image": "https://media.marktjagd.com/17501409_331x1440.webp",
+    "source": "structured",
+    "confidence": "high",
+    "available_stores": [
+      "Fantastico",
+      "Slaveks"
+    ]
+  },
+  {
+    "id": "cba-k-classic-суха-храна-за-котки-3f5917",
+    "store": "CBA",
+    "address": null,
+    "name": "K-Classic Суха храна за котки",
+    "emoji": "🛒",
+    "category": "other",
+    "new_price": 5.85,
+    "new_price_eur": 2.99,
+    "old_price": 5.97,
+    "old_price_eur": 3.05,
+    "discount_pct": 2,
+    "valid_until": "2026-04-12",
+    "weight_raw": null,
+    "weight_grams": null,
+    "price_per_kg": null,
+    "price_per_kg_eur": null,
+    "shelf_life": null,
+    "is_food": false,
+    "is_healthy": false,
+    "is_bulk_worthy": false,
+    "is_long_lasting": false,
+    "health_score": null,
+    "diet_tags": [],
+    "macros": null,
+    "is_junk": false,
+    "image": "https://media.marktjagd.com/15828937_874x1440.webp",
+    "available_stores": [
+      "CBA"
+    ]
+  },
+  {
+    "id": "lidl-dove-advanced-дезодорант-спрей-1db126",
+    "store": "Lidl",
+    "address": null,
+    "name": "DOVE ADVANCED Дезодорант спрей, ролон или стик",
+    "emoji": "🛒",
+    "category": "other",
+    "new_price": 5.98,
+    "new_price_eur": 3.06,
+    "old_price": null,
+    "old_price_eur": null,
+    "discount_pct": null,
+    "valid_until": "2026-04-12",
+    "weight_raw": null,
+    "weight_grams": null,
+    "price_per_kg": null,
+    "price_per_kg_eur": null,
+    "shelf_life": null,
+    "is_food": false,
+    "is_healthy": false,
+    "is_bulk_worthy": false,
+    "is_long_lasting": false,
+    "health_score": null,
+    "diet_tags": [],
+    "macros": null,
+    "is_junk": false,
+    "image": "https://media.marktjagd.com/17197578_712x1440.webp",
+    "source": "structured",
+    "confidence": "high",
+    "available_stores": [
+      "Lidl",
+      "Life"
     ]
   },
   {
     "id": "ocr-kaufland-13-паж-домашен-козунак-със-стафиди-и-6-18",
     "store": "Kaufland",
     "name": "паж домашен козунак със стафиди и",
-    "emoji": "🍞",
-    "category": "grain",
+    "emoji": "🛒",
+    "category": "other",
     "new_price": 6.18,
     "old_price": null,
     "discount_pct": null,
     "valid_until": null,
-    "health_score": 4,
-    "diet_tags": [
-      "vegetarian"
-    ],
+    "health_score": null,
+    "diet_tags": [],
     "weight_raw": null,
     "weight_grams": null,
     "price_per_kg": null,
@@ -1792,7 +1778,7 @@
     "new_price_eur": 3.16,
     "old_price_eur": null,
     "price_per_kg_eur": null,
-    "is_food": true,
+    "is_food": false,
     "is_healthy": false,
     "is_long_lasting": false,
     "macros": null,
@@ -1832,18 +1818,18 @@
     ]
   },
   {
-    "id": "kaufland-campofrio-пица-различни-видове-bc4c0c",
-    "store": "Kaufland",
+    "id": "hit-nestle-зърнена-закуска-fitness-3a0d7f",
+    "store": "HIT",
     "address": null,
-    "name": "CAMPOFRIO Пица различни видове",
+    "name": "Nestle Зърнена закуска Fitness различни видове",
     "emoji": "🛒",
     "category": "other",
-    "new_price": 6.69,
-    "new_price_eur": 3.42,
-    "old_price": 8.98,
-    "old_price_eur": 4.59,
-    "discount_pct": 26,
-    "valid_until": null,
+    "new_price": 6.3,
+    "new_price_eur": 3.22,
+    "old_price": 9.0,
+    "old_price_eur": 4.6,
+    "discount_pct": 30,
+    "valid_until": "2026-04-12",
     "weight_raw": null,
     "weight_grams": null,
     "price_per_kg": null,
@@ -1857,17 +1843,48 @@
     "diet_tags": [],
     "macros": null,
     "is_junk": false,
-    "image": "https://media.marktjagd.com/19413336_384x384.webp",
+    "image": "https://media.marktjagd.com/17575956_1060x1440.webp",
+    "available_stores": [
+      "HIT"
+    ]
+  },
+  {
+    "id": "fantastico-campofrio-пица-различни-видове-22dead",
+    "store": "Fantastico",
+    "address": null,
+    "name": "CAMPOFRIO Пица различни видове",
+    "emoji": "🛒",
+    "category": "other",
+    "new_price": 6.69,
+    "new_price_eur": 3.42,
+    "old_price": 9.04,
+    "old_price_eur": 4.62,
+    "discount_pct": 26,
+    "valid_until": "2026-04-12",
+    "weight_raw": null,
+    "weight_grams": null,
+    "price_per_kg": null,
+    "price_per_kg_eur": null,
+    "shelf_life": null,
+    "is_food": false,
+    "is_healthy": false,
+    "is_bulk_worthy": false,
+    "is_long_lasting": false,
+    "health_score": null,
+    "diet_tags": [],
+    "macros": null,
+    "is_junk": false,
+    "image": "https://media.marktjagd.com/19413336_1440x1440.webp",
     "source": "structured",
     "confidence": "high",
     "available_stores": [
-      "Flora",
+      "Fantastico",
       "Kaufland"
     ]
   },
   {
-    "id": "cba-warsteiner-бира-702cdf",
-    "store": "CBA",
+    "id": "fantastico-warsteiner-бира-6ec025",
+    "store": "Fantastico",
     "address": null,
     "name": "Warsteiner Бира",
     "emoji": "🛒",
@@ -1892,6 +1909,41 @@
     "macros": null,
     "is_junk": false,
     "image": "https://media.marktjagd.com/17349737_1183x1440.webp",
+    "source": "structured",
+    "confidence": "high",
+    "available_stores": [
+      "Billa",
+      "Fantastico",
+      "Kaufland"
+    ]
+  },
+  {
+    "id": "cba-aquaphor-филтър-за-вода-различ-9b5fc9",
+    "store": "CBA",
+    "address": null,
+    "name": "Aquaphor Филтър за вода различни видове",
+    "emoji": "🛒",
+    "category": "other",
+    "new_price": 7.98,
+    "new_price_eur": 4.08,
+    "old_price": 19.95,
+    "old_price_eur": 10.2,
+    "discount_pct": 60,
+    "valid_until": "2026-04-12",
+    "weight_raw": null,
+    "weight_grams": null,
+    "price_per_kg": null,
+    "price_per_kg_eur": null,
+    "shelf_life": null,
+    "is_food": false,
+    "is_healthy": false,
+    "is_bulk_worthy": false,
+    "is_long_lasting": false,
+    "health_score": null,
+    "diet_tags": [],
+    "macros": null,
+    "is_junk": false,
+    "image": "https://media.marktjagd.com/16466677_1000x1000.webp",
     "available_stores": [
       "CBA"
     ]
@@ -1926,89 +1978,23 @@
     "source": "structured",
     "confidence": "high",
     "available_stores": [
-      "Fantastico"
-    ]
-  },
-  {
-    "id": "fantastico-spice-soul-термочаши-за-кафе-4-097d43",
-    "store": "Fantastico",
-    "address": null,
-    "name": "Spice&Soul Термочаши за кафе 4 бр.",
-    "emoji": "🛒",
-    "category": "other",
-    "new_price": 7.98,
-    "new_price_eur": 4.08,
-    "old_price": 15.96,
-    "old_price_eur": 8.16,
-    "discount_pct": 50,
-    "valid_until": "2026-04-12",
-    "weight_raw": null,
-    "weight_grams": null,
-    "price_per_kg": null,
-    "price_per_kg_eur": null,
-    "shelf_life": null,
-    "is_food": false,
-    "is_healthy": false,
-    "is_bulk_worthy": false,
-    "is_long_lasting": false,
-    "health_score": null,
-    "diet_tags": [],
-    "macros": null,
-    "is_junk": false,
-    "image": "https://media.marktjagd.com/19413391_1440x364.webp",
-    "source": "structured",
-    "confidence": "high",
-    "available_stores": [
       "Fantastico",
-      "Lidl"
-    ]
-  },
-  {
-    "id": "slaveks-nivea-душ-гел-hawaii-flower-oi-3b686b",
-    "store": "Slaveks",
-    "address": null,
-    "name": "Nivea Душ гел Hawaii Flower&Oil",
-    "emoji": "🛒",
-    "category": "other",
-    "new_price": 7.98,
-    "new_price_eur": 4.08,
-    "old_price": null,
-    "old_price_eur": null,
-    "discount_pct": null,
-    "valid_until": "2026-04-12",
-    "weight_raw": null,
-    "weight_grams": null,
-    "price_per_kg": null,
-    "price_per_kg_eur": null,
-    "shelf_life": null,
-    "is_food": false,
-    "is_healthy": false,
-    "is_bulk_worthy": false,
-    "is_long_lasting": false,
-    "health_score": null,
-    "diet_tags": [],
-    "macros": null,
-    "is_junk": false,
-    "image": "https://media.marktjagd.com/15914757_654x1440.webp",
-    "available_stores": [
-      "Slaveks",
-      "T-Market"
+      "Kaufland",
+      "Life"
     ]
   },
   {
     "id": "ocr-kaufland-13-козунак-със-стафиди-и-локум-а-8-59",
     "store": "Kaufland",
     "name": "козунак със стафиди и локум -а",
-    "emoji": "🍞",
-    "category": "grain",
+    "emoji": "🛒",
+    "category": "other",
     "new_price": 8.59,
     "old_price": null,
     "discount_pct": null,
     "valid_until": null,
-    "health_score": 4,
-    "diet_tags": [
-      "vegetarian"
-    ],
+    "health_score": null,
+    "diet_tags": [],
     "weight_raw": null,
     "weight_grams": null,
     "price_per_kg": null,
@@ -2034,24 +2020,24 @@
     "new_price_eur": 4.39,
     "old_price_eur": null,
     "price_per_kg_eur": null,
-    "is_food": true,
+    "is_food": false,
     "is_healthy": false,
     "is_long_lasting": false,
     "macros": null,
     "is_junk": false
   },
   {
-    "id": "t-market-raffy-сладолед-различни-вкусов-6d78e0",
-    "store": "T-Market",
+    "id": "slaveks-sleepme-възглавница-aloe-harmo-7fe0f6",
+    "store": "Slaveks",
     "address": null,
-    "name": "Raffy Сладолед различни вкусове",
+    "name": "SleepMe Възглавница Aloe Harmony 50 х 70 см",
     "emoji": "🛒",
     "category": "other",
     "new_price": 8.98,
     "new_price_eur": 4.59,
-    "old_price": 14.03,
-    "old_price_eur": 7.17,
-    "discount_pct": 36,
+    "old_price": 13.01,
+    "old_price_eur": 6.65,
+    "discount_pct": 31,
     "valid_until": "2026-04-12",
     "weight_raw": null,
     "weight_grams": null,
@@ -2065,10 +2051,10 @@
     "health_score": null,
     "diet_tags": [],
     "macros": null,
-    "is_junk": true,
-    "image": "https://media.marktjagd.com/15832372_1440x864.webp",
+    "is_junk": false,
+    "image": "https://media.marktjagd.com/16051354_1181x727.webp",
     "available_stores": [
-      "T-Market"
+      "Slaveks"
     ]
   },
   {
@@ -2099,39 +2085,8 @@
     "is_junk": false,
     "image": "https://media.marktjagd.com/17149798_849x1440.webp",
     "available_stores": [
-      "HIT",
+      "Kaufland",
       "Slaveks"
-    ]
-  },
-  {
-    "id": "cba-jysk-диспенсър-за-сапун-ekby-ч-a62396",
-    "store": "CBA",
-    "address": null,
-    "name": "JYSK Диспенсър за сапун EKBY черен",
-    "emoji": "🛒",
-    "category": "other",
-    "new_price": 9.78,
-    "new_price_eur": 5.0,
-    "old_price": 13.58,
-    "old_price_eur": 6.94,
-    "discount_pct": 28,
-    "valid_until": "2026-04-15",
-    "weight_raw": null,
-    "weight_grams": null,
-    "price_per_kg": null,
-    "price_per_kg_eur": null,
-    "shelf_life": null,
-    "is_food": false,
-    "is_healthy": false,
-    "is_bulk_worthy": false,
-    "is_long_lasting": false,
-    "health_score": null,
-    "diet_tags": [],
-    "macros": null,
-    "is_junk": false,
-    "image": "https://media.marktjagd.com/19426089_615x1024.webp",
-    "available_stores": [
-      "CBA"
     ]
   },
   {
@@ -2162,9 +2117,69 @@
     "is_junk": false,
     "image": "https://media.marktjagd.com/16799144_1440x973.webp",
     "available_stores": [
-      "HIT",
-      "Life",
+      "Life"
+    ]
+  },
+  {
+    "id": "t-market-bref-wc-блокче-промопакет-e6f946",
+    "store": "T-Market",
+    "address": null,
+    "name": "Bref WC блокче промопакет",
+    "emoji": "🛒",
+    "category": "other",
+    "new_price": 9.99,
+    "new_price_eur": 5.11,
+    "old_price": null,
+    "old_price_eur": null,
+    "discount_pct": null,
+    "valid_until": "2026-04-12",
+    "weight_raw": null,
+    "weight_grams": null,
+    "price_per_kg": null,
+    "price_per_kg_eur": null,
+    "shelf_life": null,
+    "is_food": false,
+    "is_healthy": false,
+    "is_bulk_worthy": false,
+    "is_long_lasting": false,
+    "health_score": null,
+    "diet_tags": [],
+    "macros": null,
+    "is_junk": false,
+    "image": "https://media.marktjagd.com/17796508_1183x1183.webp",
+    "available_stores": [
       "T-Market"
+    ]
+  },
+  {
+    "id": "flora-midalidare-червено-вино-различ-927584",
+    "store": "Flora",
+    "address": null,
+    "name": "Midalidare Червено вино различни сортове",
+    "emoji": "🛒",
+    "category": "other",
+    "new_price": 12.99,
+    "new_price_eur": 6.64,
+    "old_price": 18.04,
+    "old_price_eur": 9.22,
+    "discount_pct": 28,
+    "valid_until": "2026-04-12",
+    "weight_raw": null,
+    "weight_grams": null,
+    "price_per_kg": null,
+    "price_per_kg_eur": null,
+    "shelf_life": null,
+    "is_food": false,
+    "is_healthy": false,
+    "is_bulk_worthy": false,
+    "is_long_lasting": false,
+    "health_score": null,
+    "diet_tags": [],
+    "macros": null,
+    "is_junk": false,
+    "image": "https://media.marktjagd.com/16559681_1152x1440.webp",
+    "available_stores": [
+      "Flora"
     ]
   },
   {
@@ -2197,13 +2212,43 @@
     "source": "structured",
     "confidence": "high",
     "available_stores": [
-      "Kaufland",
-      "Life"
+      "Kaufland"
     ]
   },
   {
-    "id": "slaveks-ted-протектор-за-матрак-90-x-2-99c352",
-    "store": "Slaveks",
+    "id": "cba-елей-торта-лешник-5cbdbc",
+    "store": "CBA",
+    "address": null,
+    "name": "Елей Торта Лешник",
+    "emoji": "🥜",
+    "category": "nuts",
+    "new_price": 13.87,
+    "new_price_eur": 7.09,
+    "old_price": 19.26,
+    "old_price_eur": 9.85,
+    "discount_pct": 28,
+    "valid_until": "2026-04-12",
+    "weight_raw": null,
+    "weight_grams": null,
+    "price_per_kg": null,
+    "price_per_kg_eur": null,
+    "shelf_life": "6м-1г",
+    "is_food": false,
+    "is_healthy": false,
+    "is_bulk_worthy": false,
+    "is_long_lasting": true,
+    "health_score": null,
+    "diet_tags": [],
+    "macros": null,
+    "is_junk": true,
+    "image": "https://media.marktjagd.com/16102817_1440x1077.webp",
+    "available_stores": [
+      "CBA"
+    ]
+  },
+  {
+    "id": "lidl-ted-протектор-за-матрак-90-x-2-8e3f42",
+    "store": "Lidl",
     "address": null,
     "name": "TED Протектор за матрак 90 x 200 см",
     "emoji": "🛒",
@@ -2228,13 +2273,15 @@
     "macros": null,
     "is_junk": false,
     "image": "https://media.marktjagd.com/16961013_1078x1440.webp",
+    "source": "structured",
+    "confidence": "high",
     "available_stores": [
-      "Slaveks"
+      "Lidl"
     ]
   },
   {
-    "id": "hit-energizer-батерии-max-plus-aaa-aa4eab",
-    "store": "HIT",
+    "id": "fantastico-energizer-батерии-max-plus-aaa-a4ab2b",
+    "store": "Fantastico",
     "address": null,
     "name": "ENERGIZER Батерии Max Plus AAA",
     "emoji": "🛒",
@@ -2259,78 +2306,15 @@
     "macros": null,
     "is_junk": false,
     "image": "https://media.marktjagd.com/19413381_1440x1063.webp",
-    "available_stores": [
-      "HIT",
-      "T-Market"
-    ]
-  },
-  {
-    "id": "cba-olivia-цял-заек-с-глава-замраз-83b341",
-    "store": "CBA",
-    "address": null,
-    "name": "OLIVIA Цял заек с глава замразен",
-    "emoji": "🛒",
-    "category": "other",
-    "new_price": 14.84,
-    "new_price_eur": 7.59,
-    "old_price": 20.9,
-    "old_price_eur": 10.69,
-    "discount_pct": 29,
-    "valid_until": "2026-04-11",
-    "weight_raw": null,
-    "weight_grams": null,
-    "price_per_kg": null,
-    "price_per_kg_eur": null,
-    "shelf_life": null,
-    "is_food": false,
-    "is_healthy": false,
-    "is_bulk_worthy": false,
-    "is_long_lasting": false,
-    "health_score": null,
-    "diet_tags": [],
-    "macros": null,
-    "is_junk": false,
-    "image": "https://media.marktjagd.com/16920400_1440x520.webp",
-    "available_stores": [
-      "CBA"
-    ]
-  },
-  {
-    "id": "kaufland-png-покривка-за-маса-120-х-150-6f2713",
-    "store": "Kaufland",
-    "address": null,
-    "name": "PNG Покривка за маса 120 х 150 см",
-    "emoji": "🛒",
-    "category": "other",
-    "new_price": 14.98,
-    "new_price_eur": 7.66,
-    "old_price": 29.96,
-    "old_price_eur": 15.32,
-    "discount_pct": 50,
-    "valid_until": "2026-04-12",
-    "weight_raw": null,
-    "weight_grams": null,
-    "price_per_kg": null,
-    "price_per_kg_eur": null,
-    "shelf_life": null,
-    "is_food": false,
-    "is_healthy": false,
-    "is_bulk_worthy": false,
-    "is_long_lasting": false,
-    "health_score": null,
-    "diet_tags": [],
-    "macros": null,
-    "is_junk": false,
-    "image": "https://www.broshura.bg/images/image-fallback.svg",
     "source": "structured",
     "confidence": "high",
     "available_stores": [
-      "Kaufland"
+      "Fantastico"
     ]
   },
   {
-    "id": "life-bohemia-комплект-чаши-за-вино--bc4316",
-    "store": "Life",
+    "id": "cba-bohemia-комплект-чаши-за-вино--851d60",
+    "store": "CBA",
     "address": null,
     "name": "BOHEMIA Комплект чаши за вино 6 бр. х 230 мл",
     "emoji": "🛒",
@@ -2356,12 +2340,12 @@
     "is_junk": false,
     "image": "https://media.marktjagd.com/16559879_674x1440.webp",
     "available_stores": [
-      "Life"
+      "CBA"
     ]
   },
   {
-    "id": "fantastico-le-photographe-розе-744f8d",
-    "store": "Fantastico",
+    "id": "billa-le-photographe-розе-630e55",
+    "store": "Billa",
     "address": null,
     "name": "Le Photographe Розе",
     "emoji": "🛒",
@@ -2386,25 +2370,23 @@
     "macros": null,
     "is_junk": false,
     "image": "https://media.marktjagd.com/16398723_414x1440.webp",
-    "source": "structured",
-    "confidence": "high",
     "available_stores": [
-      "Fantastico",
-      "Kaufland"
+      "Billa",
+      "STOP4ETO"
     ]
   },
   {
-    "id": "kaufland-trapiche-master-fan-club-черве-da3048",
-    "store": "Kaufland",
+    "id": "lidl-savex-гел-прах-или-капсули-раз-a00b30",
+    "store": "Lidl",
     "address": null,
-    "name": "Trapiche Master Fan Club Червено, Бяло вино или Розе различни сортове",
+    "name": "Savex Гел, Прах или Капсули различни видове",
     "emoji": "🛒",
     "category": "other",
-    "new_price": 18.7,
-    "new_price_eur": 9.56,
-    "old_price": 37.4,
-    "old_price_eur": 19.12,
-    "discount_pct": 50,
+    "new_price": 18.95,
+    "new_price_eur": 9.69,
+    "old_price": null,
+    "old_price_eur": null,
+    "discount_pct": null,
     "valid_until": "2026-04-12",
     "weight_raw": null,
     "weight_grams": null,
@@ -2419,16 +2401,17 @@
     "diet_tags": [],
     "macros": null,
     "is_junk": false,
-    "image": "https://media.marktjagd.com/15874999_360x1440.webp",
+    "image": "https://media.marktjagd.com/15914802_901x1440.webp",
     "source": "structured",
     "confidence": "high",
     "available_stores": [
-      "Kaufland"
+      "Lidl",
+      "Life"
     ]
   },
   {
-    "id": "lidl-savex-капсули-42-48-пранета-ра-fc6774",
-    "store": "Lidl",
+    "id": "cba-savex-капсули-42-48-пранета-ра-19618c",
+    "store": "CBA",
     "address": null,
     "name": "SAVEX Капсули 42/48 пранета различни видове",
     "emoji": "🛒",
@@ -2453,58 +2436,23 @@
     "macros": null,
     "is_junk": false,
     "image": "https://media.marktjagd.com/18616522_1368x1440.webp",
-    "source": "structured",
-    "confidence": "high",
-    "available_stores": [
-      "HIT",
-      "Lidl"
-    ]
-  },
-  {
-    "id": "slaveks-aquaphor-кана-за-филтриране-на-42ee77",
-    "store": "Slaveks",
-    "address": null,
-    "name": "AQUAPHOR Кана за филтриране на вода Prestige",
-    "emoji": "🛒",
-    "category": "other",
-    "new_price": 19.99,
-    "new_price_eur": 10.22,
-    "old_price": 44.42,
-    "old_price_eur": 22.71,
-    "discount_pct": 55,
-    "valid_until": "2026-04-12",
-    "weight_raw": null,
-    "weight_grams": null,
-    "price_per_kg": null,
-    "price_per_kg_eur": null,
-    "shelf_life": null,
-    "is_food": false,
-    "is_healthy": false,
-    "is_bulk_worthy": false,
-    "is_long_lasting": false,
-    "health_score": null,
-    "diet_tags": [],
-    "macros": null,
-    "is_junk": false,
-    "image": "https://media.marktjagd.com/16081396_1440x1370.webp",
     "available_stores": [
       "CBA",
-      "Life",
       "Slaveks"
     ]
   },
   {
-    "id": "cba-giesen-marlborough-ridge-бяло--8697ff",
-    "store": "CBA",
+    "id": "lidl-шуменско-бира-189a61",
+    "store": "Lidl",
     "address": null,
-    "name": "Giesen Marlborough Ridge Бяло вино Совиньон Блан",
+    "name": "Шуменско Бира",
     "emoji": "🛒",
     "category": "other",
-    "new_price": 19.99,
-    "new_price_eur": 10.22,
-    "old_price": 28.15,
-    "old_price_eur": 14.39,
-    "discount_pct": 29,
+    "new_price": 19.56,
+    "new_price_eur": 10.0,
+    "old_price": 32.6,
+    "old_price_eur": 16.67,
+    "discount_pct": 40,
     "valid_until": "2026-04-12",
     "weight_raw": null,
     "weight_grams": null,
@@ -2519,14 +2467,49 @@
     "diet_tags": [],
     "macros": null,
     "is_junk": false,
-    "image": "https://media.marktjagd.com/15982573_408x1440.webp",
+    "image": "https://media.marktjagd.com/15828998_377x1440.webp",
+    "source": "structured",
+    "confidence": "high",
     "available_stores": [
-      "CBA"
+      "Kaufland",
+      "Lidl",
+      "Slaveks"
     ]
   },
   {
-    "id": "cba-beefeater-джин-промопакет-d21eb3",
-    "store": "CBA",
+    "id": "stop4eto-jysk-ватирано-одеяло-inkalilje-7af4d8",
+    "store": "STOP4ETO",
+    "address": null,
+    "name": "JYSK Ватирано одеяло INKALILJE 140x200",
+    "emoji": "🛒",
+    "category": "other",
+    "new_price": 19.56,
+    "new_price_eur": 10.0,
+    "old_price": 29.19,
+    "old_price_eur": 14.92,
+    "discount_pct": 33,
+    "valid_until": "2026-04-15",
+    "weight_raw": null,
+    "weight_grams": null,
+    "price_per_kg": null,
+    "price_per_kg_eur": null,
+    "shelf_life": null,
+    "is_food": false,
+    "is_healthy": false,
+    "is_bulk_worthy": false,
+    "is_long_lasting": false,
+    "health_score": null,
+    "diet_tags": [],
+    "macros": null,
+    "is_junk": false,
+    "image": "https://media.marktjagd.com/17857526_1024x648.webp",
+    "available_stores": [
+      "STOP4ETO"
+    ]
+  },
+  {
+    "id": "billa-beefeater-джин-промопакет-d19c3a",
+    "store": "Billa",
     "address": null,
     "name": "Beefeater Джин промопакет",
     "emoji": "🛒",
@@ -2552,22 +2535,22 @@
     "is_junk": false,
     "image": "https://media.marktjagd.com/17421948_1154x1440.webp",
     "available_stores": [
-      "CBA"
+      "Billa"
     ]
   },
   {
-    "id": "fantastico-bench-поло-тениска-m-xxl-e62a0f",
-    "store": "Fantastico",
+    "id": "life-jysk-масичка-nybo-55-цвят-топъ-110233",
+    "store": "Life",
     "address": null,
-    "name": "BENCH Поло тениска M - XXL",
+    "name": "JYSK Масичка NYBO Ø55 цвят топъл дъб/черно",
     "emoji": "🛒",
     "category": "other",
-    "new_price": 24.98,
-    "new_price_eur": 12.77,
-    "old_price": 49.96,
-    "old_price_eur": 25.54,
-    "discount_pct": 50,
-    "valid_until": "2026-04-12",
+    "new_price": 24.45,
+    "new_price_eur": 12.5,
+    "old_price": 53.15,
+    "old_price_eur": 27.18,
+    "discount_pct": 54,
+    "valid_until": "2026-04-15",
     "weight_raw": null,
     "weight_grams": null,
     "price_per_kg": null,
@@ -2581,16 +2564,14 @@
     "diet_tags": [],
     "macros": null,
     "is_junk": false,
-    "image": "https://media.marktjagd.com/19413400_1028x1440.webp",
-    "source": "structured",
-    "confidence": "high",
+    "image": "https://media.marktjagd.com/19426090_1024x949.webp",
     "available_stores": [
-      "Fantastico"
+      "Life"
     ]
   },
   {
-    "id": "lidl-william-peel-шотландско-уиски-c87af5",
-    "store": "Lidl",
+    "id": "flora-william-peel-шотландско-уиски-072518",
+    "store": "Flora",
     "address": null,
     "name": "William Peel Шотландско уиски",
     "emoji": "🛒",
@@ -2615,27 +2596,22 @@
     "macros": null,
     "is_junk": false,
     "image": "https://media.marktjagd.com/16106874_866x1440.webp",
-    "source": "structured",
-    "confidence": "high",
     "available_stores": [
-      "CBA",
-      "Flora",
-      "Lidl",
-      "Life"
+      "Flora"
     ]
   },
   {
-    "id": "slaveks-johnnie-walker-шотландско-уиск-2831bf",
-    "store": "Slaveks",
+    "id": "hit-bench-поло-тениска-m-xxl-1ccb37",
+    "store": "HIT",
     "address": null,
-    "name": "Johnnie Walker Шотландско уиски 40% vol",
+    "name": "BENCH Поло тениска M - XXL",
     "emoji": "🛒",
     "category": "other",
-    "new_price": 26.99,
-    "new_price_eur": 13.8,
-    "old_price": 42.17,
-    "old_price_eur": 21.56,
-    "discount_pct": 36,
+    "new_price": 24.98,
+    "new_price_eur": 12.77,
+    "old_price": 49.96,
+    "old_price_eur": 25.54,
+    "discount_pct": 50,
     "valid_until": "2026-04-12",
     "weight_raw": null,
     "weight_grams": null,
@@ -2650,11 +2626,9 @@
     "diet_tags": [],
     "macros": null,
     "is_junk": false,
-    "image": "https://media.marktjagd.com/15831872_1223x1440.webp",
+    "image": "https://media.marktjagd.com/19413400_1028x1440.webp",
     "available_stores": [
-      "Life",
-      "Slaveks",
-      "T-Market"
+      "HIT"
     ]
   },
   {
@@ -2687,14 +2661,12 @@
     "source": "structured",
     "confidence": "high",
     "available_stores": [
-      "CBA",
-      "Kaufland",
-      "STOP4ETO"
+      "Kaufland"
     ]
   },
   {
-    "id": "fantastico-dilios-чаршаф-с-ластик-натурал-732f99",
-    "store": "Fantastico",
+    "id": "life-dilios-чаршаф-с-ластик-натурал-c9d0e6",
+    "store": "Life",
     "address": null,
     "name": "DILIOS Чаршаф с ластик Натурал 180 x 200 см",
     "emoji": "🛒",
@@ -2719,17 +2691,15 @@
     "macros": null,
     "is_junk": false,
     "image": "https://www.broshura.bg/images/image-fallback.svg",
-    "source": "structured",
-    "confidence": "high",
     "available_stores": [
-      "Fantastico",
-      "Lidl",
+      "Flora",
+      "Kaufland",
       "Life"
     ]
   },
   {
-    "id": "slaveks-akita-акумулаторна-ножица-за-т-5644f1",
-    "store": "Slaveks",
+    "id": "hit-akita-акумулаторна-ножица-за-т-c903a4",
+    "store": "HIT",
     "address": null,
     "name": "AKITA Акумулаторна ножица за трева и храсти",
     "emoji": "🛒",
@@ -2755,14 +2725,12 @@
     "is_junk": false,
     "image": "https://www.broshura.bg/images/image-fallback.svg",
     "available_stores": [
-      "CBA",
-      "STOP4ETO",
-      "Slaveks"
+      "HIT"
     ]
   },
   {
-    "id": "lidl-finish-таблетки-за-съдомиялна--df5022",
-    "store": "Lidl",
+    "id": "cba-finish-таблетки-за-съдомиялна--302760",
+    "store": "CBA",
     "address": null,
     "name": "Finish Таблетки за съдомиялна 100 и 120бр. различни видове",
     "emoji": "🛒",
@@ -2787,50 +2755,14 @@
     "macros": null,
     "is_junk": false,
     "image": "https://media.marktjagd.com/15982284_1273x1440.webp",
-    "source": "structured",
-    "confidence": "high",
     "available_stores": [
-      "Flora",
-      "Lidl"
+      "Billa",
+      "CBA"
     ]
   },
   {
-    "id": "kaufland-dilios-спален-комплект-натурал-ed6832",
-    "store": "Kaufland",
-    "address": null,
-    "name": "DILIOS Спален комплект Натурал",
-    "emoji": "🛒",
-    "category": "other",
-    "new_price": 39.98,
-    "new_price_eur": 20.44,
-    "old_price": 59.99,
-    "old_price_eur": 30.67,
-    "discount_pct": 33,
-    "valid_until": null,
-    "weight_raw": null,
-    "weight_grams": null,
-    "price_per_kg": null,
-    "price_per_kg_eur": null,
-    "shelf_life": null,
-    "is_food": false,
-    "is_healthy": false,
-    "is_bulk_worthy": false,
-    "is_long_lasting": false,
-    "health_score": null,
-    "diet_tags": [],
-    "macros": null,
-    "is_junk": false,
-    "image": "https://media.marktjagd.com/19413385_259x384.webp",
-    "source": "structured",
-    "confidence": "high",
-    "available_stores": [
-      "CBA",
-      "Kaufland"
-    ]
-  },
-  {
-    "id": "flora-beurer-апарат-зa-кръвно-наляга-689f27",
-    "store": "Flora",
+    "id": "cba-beurer-апарат-зa-кръвно-наляга-cb73b9",
+    "store": "CBA",
     "address": null,
     "name": "Beurer Апарат зa кръвно налягане",
     "emoji": "🛒",
@@ -2856,7 +2788,9 @@
     "is_junk": false,
     "image": "https://media.marktjagd.com/15954191_1440x1040.webp",
     "available_stores": [
-      "Flora"
+      "Billa",
+      "CBA",
+      "T-Market"
     ]
   },
   {
@@ -2887,21 +2821,22 @@
     "is_junk": false,
     "image": "https://media.marktjagd.com/19413366_972x1440.webp",
     "available_stores": [
-      "CBA"
+      "CBA",
+      "Flora"
     ]
   },
   {
-    "id": "flora-philips-bluetooth-колонка-със--6499ba",
-    "store": "Flora",
+    "id": "fantastico-dilios-спален-комплект-натурал-59acb2",
+    "store": "Fantastico",
     "address": null,
-    "name": "PHILIPS Bluetooth колонка със светлини",
+    "name": "DILIOS Спален комплект Натурал",
     "emoji": "🛒",
     "category": "other",
-    "new_price": 44.98,
-    "new_price_eur": 23.0,
-    "old_price": 80.32,
-    "old_price_eur": 41.07,
-    "discount_pct": 44,
+    "new_price": 39.98,
+    "new_price_eur": 20.44,
+    "old_price": 59.67,
+    "old_price_eur": 30.51,
+    "discount_pct": 33,
     "valid_until": "2026-04-12",
     "weight_raw": null,
     "weight_grams": null,
@@ -2916,54 +2851,92 @@
     "diet_tags": [],
     "macros": null,
     "is_junk": false,
-    "image": "https://media.marktjagd.com/19413370_1440x1054.webp",
-    "available_stores": [
-      "CBA",
-      "Flora"
-    ]
-  },
-  {
-    "id": "lidl-стилно-одеало-от-вълна-алпака--c7f9c0",
-    "store": "Lidl",
-    "address": null,
-    "name": "Стилно одеало от вълна алпака - цвят nude",
-    "emoji": "🛒",
-    "category": "other",
-    "new_price": 339.0,
-    "new_price_eur": 173.33,
-    "old_price": null,
-    "old_price_eur": null,
-    "discount_pct": null,
-    "valid_until": null,
-    "weight_raw": null,
-    "weight_grams": null,
-    "price_per_kg": null,
-    "price_per_kg_eur": null,
-    "shelf_life": null,
-    "is_food": false,
-    "is_healthy": false,
-    "is_bulk_worthy": false,
-    "is_long_lasting": false,
-    "health_score": null,
-    "diet_tags": [],
-    "macros": null,
-    "is_junk": false,
-    "image": "https://media.marktjagd.com/17721397_265x265.webp",
+    "image": "https://media.marktjagd.com/19413385_751x1115.webp",
     "source": "structured",
     "confidence": "high",
     "available_stores": [
-      "Lidl"
+      "Fantastico",
+      "Kaufland",
+      "Life"
     ]
   },
   {
-    "id": "life-хладилник-с-фризер-finlux-fxca-bdd527",
-    "store": "Life",
+    "id": "lidl-електрическа-четка-за-зъби-210-16e3a1",
+    "store": "Lidl",
     "address": null,
-    "name": "Хладилник с фризер Finlux FXCA 31330 BLE RETRO , 268 l, E , Статична , Черен",
+    "name": "Електрическа четка за зъби 2100 HX3651 Philips със звукова технология за дълбоко почистване",
     "emoji": "🛒",
     "category": "other",
-    "new_price": 645.41,
-    "new_price_eur": 329.99,
+    "new_price": 70.0,
+    "new_price_eur": 35.79,
+    "old_price": 85.37,
+    "old_price_eur": 43.65,
+    "discount_pct": 18,
+    "valid_until": "2026-04-12",
+    "weight_raw": null,
+    "weight_grams": null,
+    "price_per_kg": null,
+    "price_per_kg_eur": null,
+    "shelf_life": null,
+    "is_food": false,
+    "is_healthy": false,
+    "is_bulk_worthy": false,
+    "is_long_lasting": false,
+    "health_score": null,
+    "diet_tags": [],
+    "macros": null,
+    "is_junk": false,
+    "image": "https://media.marktjagd.com/19413363_640x1440.webp",
+    "source": "structured",
+    "confidence": "high",
+    "available_stores": [
+      "Flora",
+      "Lidl",
+      "Slaveks"
+    ]
+  },
+  {
+    "id": "fantastico-rowenta-парочистачка-ry6555wh-286022",
+    "store": "Fantastico",
+    "address": null,
+    "name": "ROWENTA Парочистачка RY6555WH",
+    "emoji": "🛒",
+    "category": "other",
+    "new_price": 119.89,
+    "new_price_eur": 61.3,
+    "old_price": 199.82,
+    "old_price_eur": 102.17,
+    "discount_pct": 40,
+    "valid_until": "2026-04-12",
+    "weight_raw": null,
+    "weight_grams": null,
+    "price_per_kg": null,
+    "price_per_kg_eur": null,
+    "shelf_life": null,
+    "is_food": false,
+    "is_healthy": false,
+    "is_bulk_worthy": false,
+    "is_long_lasting": false,
+    "health_score": null,
+    "diet_tags": [],
+    "macros": null,
+    "is_junk": false,
+    "image": "https://media.marktjagd.com/18904852_1440x1440.webp",
+    "source": "structured",
+    "confidence": "high",
+    "available_stores": [
+      "Fantastico"
+    ]
+  },
+  {
+    "id": "life-игра-screamer-special-echo-edi-e8c45f",
+    "store": "Life",
+    "address": null,
+    "name": "Игра Screamer Special ECHO Edition (PS5)",
+    "emoji": "🛒",
+    "category": "other",
+    "new_price": 156.45,
+    "new_price_eur": 79.99,
     "old_price": null,
     "old_price_eur": null,
     "discount_pct": null,
@@ -2981,20 +2954,51 @@
     "diet_tags": [],
     "macros": null,
     "is_junk": false,
-    "image": "https://media.marktjagd.com/16625946_800x800.webp",
+    "image": "https://media.marktjagd.com/19418492_800x800.webp",
     "available_stores": [
       "Life"
     ]
   },
   {
-    "id": "life-комбиниран-гардероб-b82c90",
-    "store": "Life",
+    "id": "stop4eto-абсорбатор-gorenje-whu629ew-m-35f2f5",
+    "store": "STOP4ETO",
     "address": null,
-    "name": "Комбиниран гардероб",
+    "name": "Абсорбатор Gorenje WHU629EW/M",
     "emoji": "🛒",
     "category": "other",
-    "new_price": 899.0,
-    "new_price_eur": 459.65,
+    "new_price": 156.45,
+    "new_price_eur": 79.99,
+    "old_price": 168.23,
+    "old_price_eur": 86.01,
+    "discount_pct": 7,
+    "valid_until": null,
+    "weight_raw": null,
+    "weight_grams": null,
+    "price_per_kg": null,
+    "price_per_kg_eur": null,
+    "shelf_life": null,
+    "is_food": false,
+    "is_healthy": false,
+    "is_bulk_worthy": false,
+    "is_long_lasting": false,
+    "health_score": null,
+    "diet_tags": [],
+    "macros": null,
+    "is_junk": false,
+    "image": "https://media.marktjagd.com/14594056_800x800.webp",
+    "available_stores": [
+      "STOP4ETO"
+    ]
+  },
+  {
+    "id": "cba-помощна-масичка-f08b1d",
+    "store": "CBA",
+    "address": null,
+    "name": "Помощна масичка",
+    "emoji": "🛒",
+    "category": "other",
+    "new_price": 198.99,
+    "new_price_eur": 101.74,
     "old_price": null,
     "old_price_eur": null,
     "discount_pct": null,
@@ -3012,9 +3016,135 @@
     "diet_tags": [],
     "macros": null,
     "is_junk": false,
-    "image": "https://media.marktjagd.com/17721439_265x265.webp",
+    "image": "https://media.marktjagd.com/17721336_265x265.webp",
     "available_stores": [
-      "Life"
+      "CBA"
+    ]
+  },
+  {
+    "id": "slaveks-jysk-градинска-маса-kumla-ш95x-edd3fc",
+    "store": "Slaveks",
+    "address": null,
+    "name": "JYSK Градинска маса KUMLA Ш95xД150 сива",
+    "emoji": "🛒",
+    "category": "other",
+    "new_price": 342.27,
+    "new_price_eur": 175.0,
+    "old_price": 684.54,
+    "old_price_eur": 350.0,
+    "discount_pct": 50,
+    "valid_until": "2026-04-15",
+    "weight_raw": null,
+    "weight_grams": null,
+    "price_per_kg": null,
+    "price_per_kg_eur": null,
+    "shelf_life": null,
+    "is_food": false,
+    "is_healthy": false,
+    "is_bulk_worthy": false,
+    "is_long_lasting": false,
+    "health_score": null,
+    "diet_tags": [],
+    "macros": null,
+    "is_junk": false,
+    "image": "https://media.marktjagd.com/19426104_1024x536.webp",
+    "available_stores": [
+      "Slaveks"
+    ]
+  },
+  {
+    "id": "cba-jysk-vedde-д120-маса-див-тъмен-4c1a74",
+    "store": "CBA",
+    "address": null,
+    "name": "JYSK VEDDE Д120 маса див тъмен дъб + 4 JONSTRUP стола цвят къри",
+    "emoji": "🛒",
+    "category": "other",
+    "new_price": 349.0,
+    "new_price_eur": 178.44,
+    "old_price": 447.44,
+    "old_price_eur": 228.77,
+    "discount_pct": 22,
+    "valid_until": null,
+    "weight_raw": null,
+    "weight_grams": null,
+    "price_per_kg": null,
+    "price_per_kg_eur": null,
+    "shelf_life": null,
+    "is_food": false,
+    "is_healthy": false,
+    "is_bulk_worthy": false,
+    "is_long_lasting": false,
+    "health_score": null,
+    "diet_tags": [],
+    "macros": null,
+    "is_junk": false,
+    "image": "https://media.marktjagd.com/18108157_2080x1410.webp",
+    "available_stores": [
+      "CBA"
+    ]
+  },
+  {
+    "id": "fantastico-смартфон-poco-m8-5g-256-8-blac-e8f44f",
+    "store": "Fantastico",
+    "address": null,
+    "name": "Смартфон POCO M8 5G 256/8 BLACK , 256 GB, 8 GB",
+    "emoji": "🛒",
+    "category": "other",
+    "new_price": 440.05,
+    "new_price_eur": 224.99,
+    "old_price": null,
+    "old_price_eur": null,
+    "discount_pct": null,
+    "valid_until": null,
+    "weight_raw": null,
+    "weight_grams": null,
+    "price_per_kg": null,
+    "price_per_kg_eur": null,
+    "shelf_life": null,
+    "is_food": false,
+    "is_healthy": false,
+    "is_bulk_worthy": false,
+    "is_long_lasting": false,
+    "health_score": null,
+    "diet_tags": [],
+    "macros": null,
+    "is_junk": false,
+    "image": "https://media.marktjagd.com/19418411_800x800.webp",
+    "source": "structured",
+    "confidence": "high",
+    "available_stores": [
+      "Fantastico"
+    ]
+  },
+  {
+    "id": "cba-телевизор-lg-oled48c51la-oled--92d86f",
+    "store": "CBA",
+    "address": null,
+    "name": "Телевизор LG OLED48C51LA , OLED , 48 inch, 121 см, 3840x2160 UHD-4K , Smart TV , Web Os",
+    "emoji": "🛒",
+    "category": "other",
+    "new_price": 1564.65,
+    "new_price_eur": 799.99,
+    "old_price": null,
+    "old_price_eur": null,
+    "discount_pct": null,
+    "valid_until": null,
+    "weight_raw": null,
+    "weight_grams": null,
+    "price_per_kg": null,
+    "price_per_kg_eur": null,
+    "shelf_life": null,
+    "is_food": false,
+    "is_healthy": false,
+    "is_bulk_worthy": false,
+    "is_long_lasting": false,
+    "health_score": null,
+    "diet_tags": [],
+    "macros": null,
+    "is_junk": false,
+    "image": "https://media.marktjagd.com/19418361_1280x1280.webp",
+    "available_stores": [
+      "CBA"
     ]
   }
 ]
