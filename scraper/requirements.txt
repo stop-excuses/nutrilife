@@ -4,3 +4,6 @@ playwright
 asyncio
 Pillow
 rapidocr_onnxruntime
+pdfplumber
+pymupdf
+numpy

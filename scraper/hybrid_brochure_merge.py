@@ -233,7 +233,7 @@ def build_ocr_offer(page_number, candidate, store_name):
 def run_ocr_extractor(brochure_url, pages, ocr_json_out):
     command = [
         sys.executable,
-        str(Path(__file__).resolve().parent / "brochure_ocr_poc.py"),
+        str(Path(__file__).resolve().parent / "tesseract_ocr.py"),
         "--brochure-url",
         brochure_url,
         "--json-out",
@@ -271,10 +271,15 @@ def merge_offers(structured_offers, ocr_payload, store_name):
                 continue
             if is_high_noise_name(ocr_offer["name"]):
                 continue
+            # NOTE: is_likely_food() check REMOVED — we now include ALL products.
+            # Non-food items are tagged via is_non_food_hint and classified downstream.
+            # Only reject if conflicting food clusters (indicates OCR garbage)
             if has_conflicting_food_clusters(ocr_offer["name"]):
                 continue
-            if not is_likely_food(ocr_offer["name"]):
-                continue
+
+            # Carry soft non-food hint through
+            ocr_offer["is_non_food_hint"] = candidate.get("is_non_food_hint", False)
+
             matched = False
             for structured_offer in structured:
                 if is_structured_match(ocr_offer, structured_offer):

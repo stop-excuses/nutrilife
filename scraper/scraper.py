@@ -35,6 +35,9 @@ DATA_DIR = Path(__file__).parent.parent / "data"
 OUTPUT_PATH = DATA_DIR / "offers.json"
 ALL_PRODUCTS_PATH = DATA_DIR / "all_products.json"
 BROCHURES_PATH = DATA_DIR / "brochures.json"
+LEARNING_PATH = DATA_DIR / "scraper_learning.json"
+CUSTOM_KEYWORDS_PATH = DATA_DIR / "custom_keywords.json"
+SCRAPER_STATS_PATH = DATA_DIR / "scraper_stats.json"
 BGN_TO_EUR = 1.95583
 
 # Conservative concurrency to avoid rate limiting
@@ -74,25 +77,52 @@ async def goto_with_retry(page, url, wait_until="domcontentloaded", timeout=PAGE
 
 # --- Food Keywords ---
 FOOD_KEYWORDS = [
-    "яйц", "пилешк", "пиле", "риба тон", "сьомга", "скумрия",
-    "говежд", "свинск", "агнешк", "пуешк", "телешк",
-    "месо", "мляно", "филе", "кайма", "бут", "стек",
-    "шунка", "кренвирш", "наденица", "салам", "луканка",
-    "риба", "скарида", "калмар",
+    # Eggs & poultry
+    "яйц", "пилешк", "пиле", "пуешк", "патешк", "гъшк",
+    # Red meat & offal
+    "говежд", "свинск", "агнешк", "телешк", "заешк", "дивечов",
+    "месо", "мляно", "филе", "кайма", "бут", "стек", "пържол", "ребра",
+    "шунка", "кренвирш", "наденица", "салам", "луканка", "бекон", "карначе",
+    # Fish & seafood
+    "риба тон", "сьомга", "скумрия", "сельодка", "херинга",
+    "риба", "скарида", "калмар", "октопод", "миди", "хайвер", "треска",
+    "ципура", "лаврак", "пъстърва",
+    # Dairy
     "кисело мляко", "мляко", "yogurt", "извара", "скир", "сирене",
-    "кашкавал", "масло", "маскарпоне", "бри",
-    "овес", "овесен", "леща", "боб", "нахут", "фасул",
-    "ориз", "хляб", "брашно", "макарон", "спагети",
-    "царевица", "грах",
+    "кашкавал", "масло", "маскарпоне", "бри", "кефир", "айран",
+    "едам", "гауда", "моцарела", "пармезан", "рикота", "халуми",
+    "извара", "крема сирене", "cottage",
+    # Grains & legumes
+    "овес", "овесен", "леща", "боб", "нахут", "фасул", "мунг",
+    "ориз", "хляб", "брашно", "макарон", "спагети", "фузили", "пене",
+    "царевица", "грах", "киноа", "елда", "просо", "ечемик",
+    "питка", "багет", "земел",
+    # Nuts, seeds & fats
     "орех", "бадем", "кашу", "ядки", "зехтин", "olive",
-    "фъстък", "лешник", "слънчоглед",
-    "картоф", "банан", "ябълк", "морков", "домат", "краставиц",
+    "фъстък", "лешник", "слънчоглед", "тиквено семе", "чиа",
+    "кокос", "макадамия", "пекан", "тахан", "фъстъчено масло",
+    # Vegetables
+    "картоф", "морков", "домат", "краставиц",
     "спанак", "броколи", "зеленчук", "салат", "лук", "чесн",
-    "чушк", "тиквичк", "зеле", "цвекло",
+    "чушк", "тиквичк", "зеле", "цвекло", "авокадо",
+    "патладжан", "тиква", "аспержи", "праз", "репичк",
+    "целина", "копър", "магданоз", "рукол", "маруля",
+    "артишок", "гъб", "печурк", "манатарк",
+    # Fruits
+    "банан", "ябълк",
     "портокал", "лимон", "мандарин", "грозде", "ягод", "диня",
-    "консерв", "пюре", "сок", "хайвер", "маслин", "мед", "кафе", "чай",
-    "храна", "хран", "едам", "гауда", "моцарела", "пармезан",
-    "сельодка", "херинга",
+    "кайсия", "праскова", "слива", "вишн", "череш",
+    "боровинк", "малин", "къпин", "нар",
+    "киви", "ананас", "манго", "папая", "смокин", "фурм",
+    "пъпеш", "круш",
+    # Canned & preserved
+    "консерв", "пюре", "сок", "маслин", "туна",
+    # Other healthy items
+    "мед", "кафе", "чай", "хумус",
+    "протеин", "колаген", "гранол", "мюсли",
+    "зехтин", "ленено масло", "кокосово масло",
+    # General food markers
+    "храна", "хран",
 ]
 
 JUNK_KEYWORDS = [
@@ -111,30 +141,50 @@ PROCESSED_MEAT_KEYWORDS = [
 
 CATEGORY_MAP = {
     "protein": ["яйц", "пилешк", "пиле", "говежд", "свинск", "агнешк", "пуешк", "телешк",
-                 "месо", "мляно", "филе", "кайма", "бут", "стек", "шунка", "кренвирш",
-                 "наденица", "салам", "луканка", "риба", "скарида", "калмар",
-                 "сельодка", "херинга", "хайвер"],
-    "canned": ["риба тон", "сьомга", "скумрия", "консерв"],
-    "grain": ["овес", "овесен", "ориз", "брашно", "макарон", "паста", "спагети"],
-    "bread": ["хляб", "багета", "земел", "питка", "фокача"],
-    "legume": ["леща", "боб", "нахут", "фасул", "царевица", "грах"],
+                 "патешк", "гъшк", "заешк", "дивечов",
+                 "месо", "мляно", "филе", "кайма", "бут", "стек", "пържол", "ребра",
+                 "шунка", "кренвирш", "наденица", "салам", "луканка", "бекон", "карначе",
+                 "риба", "скарида", "калмар", "октопод", "миди", "хайвер", "треска",
+                 "ципура", "лаврак", "пъстърва", "сельодка", "херинга"],
+    "canned": ["риба тон", "сьомга", "скумрия", "консерв", "туна"],
+    "grain": ["овес", "овесен", "ориз", "брашно", "макарон", "паста", "спагети",
+              "фузили", "пене", "киноа", "елда", "просо", "ечемик", "мюсли", "гранол"],
+    "bread": ["хляб", "багет", "земел", "питка", "фокача"],
+    "legume": ["леща", "боб", "нахут", "фасул", "царевица", "грах", "мунг"],
     "dairy": ["кисело мляко", "мляко", "yogurt", "извара", "скир", "сирене",
               "кашкавал", "масло", "едам", "гауда", "моцарела", "пармезан",
-              "маскарпоне", "бри"],
-    "nuts": ["орех", "бадем", "кашу", "ядки", "фъстък", "лешник", "слънчоглед"],
-    "fat": ["зехтин", "olive", "маслин"],
+              "маскарпоне", "бри", "кефир", "айран", "рикота", "халуми", "cottage"],
+    "nuts": ["орех", "бадем", "кашу", "ядки", "фъстък", "лешник", "слънчоглед",
+             "тиквено семе", "чиа", "кокос", "макадамия", "пекан",
+             "тахан", "фъстъчено масло"],
+    "fat": ["зехтин", "olive", "маслин", "ленено масло", "кокосово масло"],
     "vegetable": ["картоф", "банан", "ябълк", "морков", "домат", "краставиц",
                    "спанак", "броколи", "зеленчук", "салат", "лук", "чесн",
-                   "чушк", "тиквичк", "зеле", "цвекло", "портокал", "лимон",
-                   "мандарин", "грозде", "ягод", "диня"],
+                   "чушк", "тиквичк", "зеле", "цвекло", "авокадо",
+                   "патладжан", "тиква", "аспержи", "праз", "репичк",
+                   "целина", "копър", "магданоз", "рукол", "маруля",
+                   "артишок", "гъб", "печурк", "манатарк",
+                   "портокал", "лимон", "мандарин", "грозде", "ягод", "диня",
+                   "кайсия", "праскова", "слива", "вишн", "череш",
+                   "боровинк", "малин", "къпин", "нар",
+                   "киви", "ананас", "манго", "папая", "смокин", "фурм",
+                   "пъпеш", "круш"],
 }
 
 HEALTH_SCORES = {
-    10: ["риба тон", "зехтин", "сьомга"],
-    9: ["яйц", "пилешк", "пиле", "леща", "боб", "нахут", "ядки", "орех", "бадем"],
-    8: ["овес", "овесен", "скир", "извара", "спанак", "броколи", "скумрия"],
-    7: ["кисело мляко", "сирене", "банан", "картоф", "говежд", "пуешк", "агнешк"],
-    6: ["ориз", "хляб", "свинск", "морков", "ябълк", "фасул"],
+    10: ["риба тон", "зехтин", "сьомга", "лаврак", "ципура", "пъстърва", "треска"],
+    9: ["яйц", "пилешк", "пиле", "леща", "боб", "нахут", "ядки", "орех", "бадем",
+        "авокадо", "спанак", "броколи", "скумрия", "херинга", "сельодка",
+        "киноа", "елда", "тахан", "хумус", "гъб", "манатарк",
+        "боровинк", "малин", "нар"],
+    8: ["овес", "овесен", "скир", "извара", "скарида", "калмар",
+        "патешк", "пуешк", "заешк", "телешк", "говежд",
+        "аспержи", "тиквичк", "чушк", "целина",
+        "кайсия", "праскова", "слива", "череш", "киви"],
+    7: ["кисело мляко", "сирене", "банан", "картоф", "агнешк",
+        "морков", "домат", "краставиц", "лук", "зеле",
+        "ягод", "диня", "грозде", "ябълк", "портокал", "мандарин"],
+    6: ["ориз", "хляб", "свинск", "фасул", "царевица", "грах", "ечемик"],
 }
 
 DIET_TAG_RULES = {
@@ -288,6 +338,53 @@ MACROS_DB = {
     "мед": {"kcal": 304, "p": 0.3, "f": 0, "c": 82},
     "консерв": {"kcal": 100, "p": 15, "f": 3, "c": 2},
     "пюре": {"kcal": 82, "p": 1.8, "f": 4, "c": 11},
+    # Additional vegetables & greens
+    "авокадо": {"kcal": 160, "p": 2, "f": 15, "c": 9},
+    "патладжан": {"kcal": 25, "p": 1, "f": 0.2, "c": 6},
+    "тиква": {"kcal": 26, "p": 1, "f": 0.1, "c": 7},
+    "аспержи": {"kcal": 20, "p": 2.2, "f": 0.1, "c": 3.9},
+    "праз": {"kcal": 61, "p": 1.5, "f": 0.3, "c": 14},
+    "гъб": {"kcal": 22, "p": 3.1, "f": 0.3, "c": 3.3},
+    "печурк": {"kcal": 22, "p": 3.1, "f": 0.3, "c": 3.3},
+    "манатарк": {"kcal": 22, "p": 3.6, "f": 0.5, "c": 3.1},
+    "целина": {"kcal": 16, "p": 0.7, "f": 0.2, "c": 3},
+    "маруля": {"kcal": 15, "p": 1.4, "f": 0.2, "c": 2.9},
+    "рукол": {"kcal": 25, "p": 2.6, "f": 0.7, "c": 3.7},
+    # Additional fruits
+    "кайсия": {"kcal": 48, "p": 1.4, "f": 0.4, "c": 11},
+    "праскова": {"kcal": 39, "p": 0.9, "f": 0.3, "c": 10},
+    "слива": {"kcal": 46, "p": 0.7, "f": 0.3, "c": 11},
+    "вишн": {"kcal": 63, "p": 1.1, "f": 0.3, "c": 16},
+    "череш": {"kcal": 63, "p": 1.1, "f": 0.3, "c": 16},
+    "боровинк": {"kcal": 57, "p": 0.7, "f": 0.3, "c": 14},
+    "малин": {"kcal": 52, "p": 1.2, "f": 0.7, "c": 12},
+    "нар": {"kcal": 83, "p": 1.7, "f": 1.2, "c": 19},
+    "киви": {"kcal": 61, "p": 1.1, "f": 0.5, "c": 15},
+    "ананас": {"kcal": 50, "p": 0.5, "f": 0.1, "c": 13},
+    "манго": {"kcal": 60, "p": 0.8, "f": 0.4, "c": 15},
+    "круш": {"kcal": 57, "p": 0.4, "f": 0.1, "c": 15},
+    "пъпеш": {"kcal": 34, "p": 0.8, "f": 0.2, "c": 8},
+    # Grains & pseudo-grains
+    "киноа": {"kcal": 368, "p": 14, "f": 6, "c": 64},
+    "елда": {"kcal": 343, "p": 13, "f": 3.4, "c": 71},
+    "ечемик": {"kcal": 354, "p": 12, "f": 2.3, "c": 73},
+    "мюсли": {"kcal": 370, "p": 10, "f": 7, "c": 67},
+    "гранол": {"kcal": 471, "p": 10, "f": 20, "c": 64},
+    # Seeds & butters
+    "тиквено семе": {"kcal": 559, "p": 30, "f": 49, "c": 11},
+    "чиа": {"kcal": 486, "p": 17, "f": 31, "c": 42},
+    "тахан": {"kcal": 595, "p": 17, "f": 54, "c": 21},
+    "хумус": {"kcal": 177, "p": 8, "f": 10, "c": 20},
+    # Fish
+    "треска": {"kcal": 82, "p": 18, "f": 0.7, "c": 0},
+    "лаврак": {"kcal": 97, "p": 18, "f": 2, "c": 0},
+    "ципура": {"kcal": 96, "p": 19, "f": 2, "c": 0},
+    "пъстърва": {"kcal": 119, "p": 20, "f": 3.5, "c": 0},
+    "октопод": {"kcal": 82, "p": 15, "f": 1, "c": 2},
+    # Dairy extras
+    "кефир": {"kcal": 52, "p": 3.6, "f": 2.5, "c": 4.8},
+    "айран": {"kcal": 36, "p": 3.1, "f": 1.6, "c": 2.5},
+    "рикота": {"kcal": 174, "p": 11, "f": 13, "c": 3},
 }
 
 
@@ -506,6 +603,171 @@ def get_macros(name):
         if kw in name_lower:
             return macros
     return None
+
+
+def load_custom_keywords():
+    """Load user-confirmed custom keywords from data/custom_keywords.json.
+    Also auto-promotes any MACROS_DB keys missing from FOOD_KEYWORDS."""
+    auto_added = []
+    # Auto-promote MACROS_DB keys not in FOOD_KEYWORDS
+    for kw in MACROS_DB:
+        if kw not in FOOD_KEYWORDS:
+            FOOD_KEYWORDS.append(kw)
+            auto_added.append(kw)
+
+    if CUSTOM_KEYWORDS_PATH.exists():
+        try:
+            data = json.loads(CUSTOM_KEYWORDS_PATH.read_text(encoding="utf-8"))
+            for kw in data.get("food_keywords", []):
+                if kw and kw not in FOOD_KEYWORDS:
+                    FOOD_KEYWORDS.append(kw)
+                    auto_added.append(kw)
+            for kw in data.get("not_food_keywords", []):
+                if kw and kw not in NOT_FOOD_KEYWORDS:
+                    NOT_FOOD_KEYWORDS.append(kw)
+        except Exception as e:
+            print(f"[!] Could not load custom_keywords.json: {e}")
+
+    if auto_added:
+        print(f"[*] Learning: auto-loaded {len(auto_added)} extra food keywords: {auto_added[:10]}{'...' if len(auto_added) > 10 else ''}")
+
+
+def analyze_and_save_learning(all_store_results, run_stats):
+    """After a run: find uncategorized/unrecognized food-like products,
+    suggest new keywords, update learning history, auto-promote frequent candidates."""
+    today = datetime.utcnow().isoformat() + "Z"
+
+    # Collect all offer names and their categories
+    uncategorized = {}  # name -> {stores, count}
+    for result in all_store_results:
+        if not result or "offers" not in result:
+            continue
+        store = result["store"]
+        for offer in result["offers"]:
+            name = offer.get("name", "")
+            cat = offer.get("category", "other")
+            if cat == "other" and offer.get("is_food"):
+                key = name.lower().strip()
+                if key not in uncategorized:
+                    uncategorized[key] = {"name": name, "count": 0, "stores": []}
+                uncategorized[key]["count"] += 1
+                if store not in uncategorized[key]["stores"]:
+                    uncategorized[key]["stores"].append(store)
+
+    # Load existing learning data
+    learning = {"version": 2, "runs": [], "candidates": {}, "auto_promoted": [], "suggested_keywords": []}
+    if LEARNING_PATH.exists():
+        try:
+            learning = json.loads(LEARNING_PATH.read_text(encoding="utf-8"))
+            # Migrate v1 to v2
+            if "uncategorized_products" in learning:
+                learning["candidates"] = learning.pop("uncategorized_products")
+            learning.setdefault("version", 2)
+            learning.setdefault("candidates", {})
+            learning.setdefault("auto_promoted", [])
+            learning.setdefault("suggested_keywords", [])
+        except Exception:
+            pass
+
+    # Merge uncategorized products into candidates
+    for key, info in uncategorized.items():
+        if key not in learning["candidates"]:
+            learning["candidates"][key] = {"name": info["name"], "count": 0, "stores": [], "last_seen": today}
+        entry = learning["candidates"][key]
+        entry["count"] += info["count"]
+        entry["last_seen"] = today
+        for s in info["stores"]:
+            if s not in entry["stores"]:
+                entry["stores"].append(s)
+
+    # Auto-promote candidates seen in 2+ different stores or 3+ times
+    new_auto = []
+    custom = {"food_keywords": [], "not_food_keywords": []}
+    if CUSTOM_KEYWORDS_PATH.exists():
+        try:
+            custom = json.loads(CUSTOM_KEYWORDS_PATH.read_text(encoding="utf-8"))
+        except Exception:
+            pass
+    all_known = set(FOOD_KEYWORDS) | set(learning["auto_promoted"]) | set(custom.get("food_keywords", []))
+
+    for key, entry in learning["candidates"].items():
+        # Only promote short single-word Bulgarian candidates (avoid garbage OCR)
+        words = key.split()
+        if len(words) > 3:
+            continue
+        # Must appear multiple times
+        if entry["count"] >= 3 or len(entry["stores"]) >= 2:
+            # Extract the shortest meaningful Bulgarian token
+            for word in sorted(words, key=len, reverse=True):
+                if len(word) >= 4 and re.match(r'^[а-яА-ЯёЁ]+$', word):
+                    stem = word[:min(len(word), 6)]  # Use stem
+                    if stem not in all_known and stem not in new_auto:
+                        new_auto.append(stem)
+                        all_known.add(stem)
+                        break
+
+    if new_auto:
+        learning["auto_promoted"].extend(new_auto)
+        custom["food_keywords"] = list(set(custom.get("food_keywords", []) + new_auto))
+        try:
+            CUSTOM_KEYWORDS_PATH.write_text(
+                json.dumps(custom, ensure_ascii=False, indent=2), encoding="utf-8"
+            )
+            print(f"[*] Learning: auto-promoted {len(new_auto)} new keywords -> custom_keywords.json: {new_auto}")
+        except Exception as e:
+            print(f"[!] Could not save custom_keywords.json: {e}")
+
+    # Save run entry
+    learning["runs"].append({
+        "date": today,
+        **run_stats,
+        "uncategorized_new": len(uncategorized),
+        "auto_promoted_this_run": new_auto,
+    })
+    # Keep only last 50 runs
+    learning["runs"] = learning["runs"][-50:]
+
+    try:
+        LEARNING_PATH.write_text(json.dumps(learning, ensure_ascii=False, indent=2), encoding="utf-8")
+        print(f"[*] Learning data saved -> {LEARNING_PATH.name} ({len(learning['candidates'])} candidates total)")
+    except Exception as e:
+        print(f"[!] Could not save learning data: {e}")
+
+
+def save_run_stats(run_stats, all_offers):
+    """Save detailed per-run progress report to data/scraper_stats.json."""
+    history = []
+    if SCRAPER_STATS_PATH.exists():
+        try:
+            history = json.loads(SCRAPER_STATS_PATH.read_text(encoding="utf-8"))
+            if not isinstance(history, list):
+                history = []
+        except Exception:
+            pass
+
+    # Category breakdown
+    cats = {}
+    for o in all_offers:
+        cat = o.get("category", "other")
+        cats[cat] = cats.get(cat, 0) + 1
+
+    entry = {
+        **run_stats,
+        "category_breakdown": cats,
+        "top_healthy": [
+            {"name": o["name"], "store": o["store"], "health_score": o.get("health_score")}
+            for o in sorted(all_offers, key=lambda x: -(x.get("health_score") or 0))[:10]
+            if o.get("is_healthy")
+        ],
+    }
+    history.append(entry)
+    history = history[-100:]  # Keep last 100 runs
+
+    try:
+        SCRAPER_STATS_PATH.write_text(json.dumps(history, ensure_ascii=False, indent=2), encoding="utf-8")
+        print(f"[*] Run stats saved -> {SCRAPER_STATS_PATH.name}")
+    except Exception as e:
+        print(f"[!] Could not save run stats: {e}")
 
 
 def extract_fl_urls(html):
@@ -914,6 +1176,45 @@ async def scrape_product_page(context, url, title_hint, image_hint, store_name, 
             await page.close()
 
 
+def run_pdf_scraper_for_kaufland(structured_offers):
+    """
+    Run the Kaufland PDF scraper and merge results with structured offers.
+    Uses publicly available PDF brochures from kaufland.bg/broshuri.html.
+    No rate limiting — PDFs are on public S3 storage.
+    """
+    import time as _time
+    t0 = _time.perf_counter()
+    try:
+        sys.path.insert(0, str(Path(__file__).parent))
+        from kaufland_pdf_scraper import scrape_kaufland_pdfs
+        pdf_offers = scrape_kaufland_pdfs()
+        elapsed = _time.perf_counter() - t0
+        if not pdf_offers:
+            print(f"  [*] Kaufland PDF: no offers extracted ({elapsed:.0f}s)", flush=True)
+            return structured_offers
+
+        food_count = sum(1 for o in pdf_offers if o.get("is_food"))
+        healthy_count = sum(1 for o in pdf_offers if o.get("is_healthy"))
+        print(f"  [*] Kaufland PDF done: {len(pdf_offers)} offers | "
+              f"food={food_count} | healthy={healthy_count} | {elapsed:.0f}s", flush=True)
+
+        # Merge: prefer structured offers, add PDF offers not already present
+        seen_names = {o["name"].lower().strip() for o in structured_offers}
+        added = 0
+        for offer in pdf_offers:
+            name_key = offer.get("name", "").lower().strip()
+            if name_key and name_key not in seen_names:
+                seen_names.add(name_key)
+                structured_offers.append(offer)
+                added += 1
+        print(f"  [*] Kaufland PDF merge: +{added} new | {len(structured_offers)} total Kaufland offers", flush=True)
+    except Exception as e:
+        import traceback
+        print(f"  [!] Kaufland PDF scraper failed: {e}", flush=True)
+        traceback.print_exc()
+    return structured_offers
+
+
 def run_ocr_fallback(store_name, structured_offers, active_brochures):
     """
     Run the OCR fallback for a store if it's supported.
@@ -922,27 +1223,26 @@ def run_ocr_fallback(store_name, structured_offers, active_brochures):
     if store_name not in supported_stores or not active_brochures:
         return structured_offers
 
-    print(f"  [*] Running AGGRESSIVE OCR fallback for {store_name} (Pages 2-40)...")
-    
+    # Limit to 20 pages — covers most brochures, keeps OCR time under ~10 min
+    MAX_OCR_PAGES = 20
+    pages = [str(i) for i in range(2, MAX_OCR_PAGES + 2)]
+    print(f"  [*] OCR fallback for {store_name} — pages 2-{MAX_OCR_PAGES + 1} ({MAX_OCR_PAGES} pages)...", flush=True)
+
     # We take the first active brochure
     brochure_url = active_brochures[0]["url"]
-    
+
     # Create temporary files for the merge process
     with tempfile.TemporaryDirectory() as tmp_dir:
         tmp_path = Path(tmp_dir)
         offers_json = tmp_path / "structured_offers.json"
         ocr_json = tmp_path / "ocr_candidates.json"
         merged_json = tmp_path / "merged_output.json"
-        
-        # Save current structured offers to a temporary JSON
+
         with open(offers_json, "w", encoding="utf-8") as f:
             json.dump({"offers": structured_offers}, f, ensure_ascii=False, indent=2)
-            
-        # Run hybrid_brochure_merge.py
+
         merge_script = Path(__file__).parent / "hybrid_brochure_merge.py"
         try:
-            # AGGRESSIVE: Scan pages 2 to 40 (covers almost any brochure fully)
-            pages = [str(i) for i in range(2, 41)]
             cmd = [
                 sys.executable, str(merge_script),
                 "--brochure-url", brochure_url,
@@ -954,16 +1254,17 @@ def run_ocr_fallback(store_name, structured_offers, active_brochures):
                 "--output-json", str(merged_json)
             ]
             subprocess.run(cmd, check=True)
-            
+
             # Load merged results
             if merged_json.exists():
                 with open(merged_json, "r", encoding="utf-8") as f:
                     merged_data = json.load(f)
                     new_offers = merged_data.get("offers", [])
-                    print(f"  [*] OCR Fallback finished: {len(new_offers)} total offers (added {len(new_offers) - len(structured_offers)} candidates)")
+                    added = len(new_offers) - len(structured_offers)
+                    print(f"  [*] OCR fallback done: {len(new_offers)} total offers (+{added} from OCR)", flush=True)
                     return new_offers
         except Exception as e:
-            print(f"  [!] OCR Fallback failed: {e}")
+            print(f"  [!] OCR fallback failed: {e}", flush=True)
             
     return structured_offers
 
@@ -984,6 +1285,22 @@ async def scrape_store(browser, store_url, store_semaphore):
         all_offers = []
         active_brochures = []
         seen_names = set()
+
+        # Pre-load brochure URLs from cached brochures.json as fallback
+        # (used if Playwright is blocked and active_brochures stays empty)
+        cached_brochures_for_store = []
+        if BROCHURES_PATH.exists():
+            try:
+                cached = json.loads(BROCHURES_PATH.read_text(encoding="utf-8"))
+                store_name_early = detect_store(store_url)
+                cached_brochures_for_store = [
+                    b for b in cached.get("brochures", [])
+                    if b.get("store") == store_name_early and b.get("is_active")
+                ]
+                if cached_brochures_for_store:
+                    print(f"  [*] Pre-loaded {len(cached_brochures_for_store)} cached brochure URL(s) for {store_name_early}")
+            except Exception:
+                pass
 
         try:
             # --- Phase 1: Load store page, find /fl/ URLs, collect /p/ links ---
@@ -1175,23 +1492,28 @@ async def scrape_store(browser, store_url, store_semaphore):
             await context.close()
 
         healthy_count = sum(1 for o in all_offers if o["is_healthy"])
-        print(f"  [*] {store_name}: {len(all_offers)} total ({healthy_count} healthy)")
+        print(f"  [*] {store_name}: {len(all_offers)} total ({healthy_count} healthy)", flush=True)
 
-    # --- Phase 6: Run OCR fallback (if needed) ---
+    # --- Phase 6a: Kaufland PDF scraper (direct from kaufland.bg — no rate limiting) ---
+    if store_name == "Kaufland":
+        print(f"  [*] Kaufland PDF phase starting...", flush=True)
+        all_offers = run_pdf_scraper_for_kaufland(all_offers)
+        print(f"  [*] Kaufland after PDF: {len(all_offers)} total", flush=True)
+
+    # --- Phase 6b: OCR fallback from broshura.bg brochure images ---
+    # If Playwright was blocked and active_brochures is empty, use cached URLs as fallback
     supported_ocr_stores = ["Kaufland", "Lidl", "Fantastico", "Billa"]
-    # Trigger OCR if we have very few offers, but for Billa/Lidl be even more aggressive
-    ocr_threshold = 100
-    if store_name in ["Billa", "Lidl", "Fantastico"]:
-        ocr_threshold = 150 # Force OCR more often for these stores as they are trickier
-        
-    if store_name in supported_ocr_stores and len(all_offers) < ocr_threshold:
+    if not active_brochures and cached_brochures_for_store:
+        print(f"  [*] Playwright blocked — using cached brochure URLs for OCR")
+        active_brochures = cached_brochures_for_store
+    if store_name in supported_ocr_stores and active_brochures:
         all_offers = run_ocr_fallback(store_name, all_offers, active_brochures)
 
-        return {
-            "store": store_name,
-            "offers": all_offers,
-            "active_brochures": active_brochures,
-        }
+    return {
+        "store": store_name,
+        "offers": all_offers,
+        "active_brochures": active_brochures,
+    }
 
 
 async def discover_store_urls(browser):
@@ -1237,6 +1559,10 @@ async def main():
     print(f"Started at {started.strftime('%Y-%m-%d %H:%M:%S')} UTC")
     print("=" * 60)
 
+    # Load learned + custom keywords before scraping
+    load_custom_keywords()
+    print(f"[*] Active food keywords: {len(FOOD_KEYWORDS)}")
+
     async with async_playwright() as p:
         browser = await p.chromium.launch(
             headless=True,
@@ -1252,11 +1578,14 @@ async def main():
         # Filter: limit to known stores to avoid junk stores
         # store_urls = [u for u in store_urls if detect_store(u) != "Unknown"]
         
-        # Target only the 5 main stores requested by the user
-        target_stores = ["Lidl", "Kaufland", "Billa", "T-Market", "Fantastico"]
+        # Target all known stores (expanded from original 5)
+        target_stores = [
+            "Lidl", "Kaufland", "Billa", "T-Market", "Fantastico",
+            "CBA", "Slaveks", "STOP4ETO", "Flora", "Life", "HIT", "Metro", "Penny", "Piccadilly",
+        ]
         store_urls = [u for u in store_urls if detect_store(u) in target_stores]
 
-        print(f"[*] Scraping {len(store_urls)} target stores: {[detect_store(u) for u in store_urls]}")
+        print(f"[*] Scraping {len(store_urls)} stores: {[detect_store(u) for u in store_urls]}")
 
         semaphore = asyncio.Semaphore(MAX_STORES_PARALLEL)
         tasks = [scrape_store(browser, url, semaphore) for url in store_urls]
@@ -1295,15 +1624,55 @@ async def main():
     food = [o for o in all_offers if o["is_food"]]
     stores_found = sorted({o["store"] for o in all_offers})
 
+    # Per-store breakdown
+    by_store = {}
+    ocr_by_store = {}
+    for result in store_results:
+        if not result:
+            continue
+        s = result["store"]
+        offers_s = result.get("offers", [])
+        by_store[s] = len(offers_s)
+        # OCR adds are inferred — count offers with no image (typical for OCR-sourced)
+        ocr_count = sum(1 for o in offers_s if o.get("source") == "ocr")
+        if ocr_count:
+            ocr_by_store[s] = ocr_count
+
+    run_stats = {
+        "date": datetime.utcnow().isoformat() + "Z",
+        "elapsed_seconds": round(elapsed),
+        "total_offers": len(all_offers),
+        "food_offers": len(food),
+        "healthy_offers": len(healthy),
+        "stores_scraped": stores_found,
+        "by_store": by_store,
+        "ocr_by_store": ocr_by_store,
+        "total_brochures": brochures_output["total_brochures"],
+        "food_keywords_active": len(FOOD_KEYWORDS),
+    }
+
     print(f"\n{'=' * 60}")
-    print(f"Done in {elapsed:.0f}s! {len(all_offers)} total offers")
-    print(f"  Food: {len(food)} | Healthy: {len(healthy)} | Non-food: {len(all_offers) - len(food)}")
-    print(f"  Stores: {', '.join(stores_found)}")
-    print(f"  Saved to {OUTPUT_PATH}")
-    print(f"  All products saved to {ALL_PRODUCTS_PATH}")
-    print(f"  Active brochures saved to {BROCHURES_PATH}")
-    print(f"  Backup saved to {backup_dir}")
+    print(f"ПРОГРЕС ДОКЛАД — NutriLife Scraper")
     print(f"{'=' * 60}")
+    print(f"Готово за {elapsed:.0f}с | {len(all_offers)} оферти общо")
+    print(f"  Храни: {len(food)} | Здравословни: {len(healthy)} | Некатегоризирани: {len(all_offers) - len(food)}")
+    print(f"  Магазини: {', '.join(stores_found)}")
+    print(f"\n  По магазин:")
+    for store_name_k, count in sorted(by_store.items(), key=lambda x: -x[1]):
+        ocr_note = f" (OCR: +{ocr_by_store[store_name_k]})" if store_name_k in ocr_by_store else ""
+        print(f"    {store_name_k}: {count} оферти{ocr_note}")
+    print(f"\n  Брошури: {brochures_output['total_brochures']} активни")
+    print(f"  Активни ключови думи: {len(FOOD_KEYWORDS)}")
+    print(f"\n  Записани файлове:")
+    print(f"    {OUTPUT_PATH}")
+    print(f"    {ALL_PRODUCTS_PATH}")
+    print(f"    {BROCHURES_PATH}")
+    print(f"    Backup: {backup_dir}")
+    print(f"{'=' * 60}")
+
+    # Save learning data and run statistics
+    analyze_and_save_learning(store_results, run_stats)
+    save_run_stats(run_stats, all_offers)
 
 
 if __name__ == "__main__":

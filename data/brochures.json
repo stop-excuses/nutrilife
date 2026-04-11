@@ -1,10 +1,12 @@
 {
-  "generated_at": "2026-04-10T14:08:21.340270Z",
-  "total_brochures": 6,
+  "generated_at": "2026-04-11T06:31:01.116156Z",
+  "total_brochures": 9,
   "stores": [
     "Fantastico",
+    "HIT",
     "Kaufland",
-    "Lidl"
+    "Lidl",
+    "T-Market"
   ],
   "brochures": [
     {
@@ -24,6 +26,14 @@
       "is_active": true
     },
     {
+      "store": "HIT",
+      "url": "https://www.broshura.bg/b/5968525",
+      "title": "Към брошурата",
+      "valid_from": null,
+      "valid_until": "2026-04-15",
+      "is_active": true
+    },
+    {
       "store": "Kaufland",
       "url": "https://www.broshura.bg/b/5962262",
       "title": "Атрактивни отстъпки в Kaufland с валидност до 12.04.2026",
@@ -34,7 +44,7 @@
     {
       "store": "Kaufland",
       "url": "https://www.broshura.bg/b/5962247",
-      "title": "Към брошурата",
+      "title": "Открий магията на Великден с предложения валидни до 12.04.2026",
       "valid_from": null,
       "valid_until": "2026-04-12",
       "is_active": true
@@ -53,6 +63,22 @@
       "title": "Трайно ниски цени в ЛИДЛ с валидност до 26.04.2026",
       "valid_from": null,
       "valid_until": "2026-04-26",
+      "is_active": true
+    },
+    {
+      "store": "T-Market",
+      "url": "https://www.broshura.bg/b/5939709",
+      "title": "Изобилие от изгодни предложения в T MARKET с валидност до 12.04.2026",
+      "valid_from": null,
+      "valid_until": "2026-04-12",
+      "is_active": true
+    },
+    {
+      "store": "T-Market",
+      "url": "https://www.broshura.bg/b/5961792",
+      "title": "Повече супер оферти в T MARKET с валидност до 13.04.2026",
+      "valid_from": null,
+      "valid_until": "2026-04-13",
       "is_active": true
     }
   ]
