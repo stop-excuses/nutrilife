@@ -392,12 +392,17 @@ def merge_offers(structured_offers, ocr_payload, store_name):
         merged_offer["confidence"] = "high"
         merged.append(merged_offer)
 
+    total_ocr_candidates = 0
+    accepted_ocr_candidates = 0
+
     for page in ocr_payload["pages"]:
-        for candidate in page["product_candidates"]:
+        page_candidates = page.get("product_candidates", [])
+        total_ocr_candidates += len(page_candidates)
+
+        for candidate in page_candidates:
             ocr_offer = build_ocr_offer(page["page"], candidate, store_name)
             ocr_offer["is_non_food_hint"] = candidate.get("is_non_food_hint", False)
 
-            # Score candidate — replaces all binary pass/fail checks
             cand_score, reasons = score_ocr_candidate(
                 ocr_offer["name"],
                 ocr_offer["confidence"],
@@ -419,30 +424,87 @@ def merge_offers(structured_offers, ocr_payload, store_name):
                 })
                 continue
 
+            accepted_ocr_candidates += 1
+
             matched = False
             for structured_offer in structured:
                 if is_structured_match(ocr_offer, structured_offer):
                     matched_structured_ids.add(structured_offer["id"])
                     matched = True
                     break
+
             if not matched:
                 merged.append(ocr_offer)
 
-    deduped = []
-    seen = {}
-    for offer in merged:
-        key = (offer["store"], clean_merge_name(offer["name"]), round(float(offer["new_price"]), 2))
-        current = seen.get(key)
-        if current is None:
-            seen[key] = offer
-            continue
-        if offer.get("source") == "structured" and current.get("source") != "structured":
-            seen[key] = offer
-            continue
-        if float(offer.get("ocr_score", 0)) > float(current.get("ocr_score", 0)):
-            seen[key] = offer
+    print(f"[merge_offers] total_ocr_candidates={total_ocr_candidates}", flush=True)
+    print(f"[merge_offers] accepted_after_scoring={accepted_ocr_candidates}", flush=True)
+    print(f"[merge_offers] rejected_after_scoring={len(rejected_items)}", flush=True)
+    print(f"[merge_offers] structured_matches={len(matched_structured_ids)}", flush=True)
+    print(f"[merge_offers] merged_before_dedup={len(merged)}", flush=True)
 
-    deduped.extend(seen.values())
+    def merge_tokens(name):
+        return {t for t in re.split(r"[\s\-]+", clean_merge_name(name)) if len(t) >= 3}
+
+    def should_merge_offers(existing, incoming):
+        if existing.get("store") != incoming.get("store"):
+            return False
+
+        try:
+            price_existing = float(existing.get("new_price", 0))
+            price_incoming = float(incoming.get("new_price", 0))
+        except (TypeError, ValueError):
+            return False
+
+        if abs(price_existing - price_incoming) > 1.50:
+            return False
+
+        name_existing = clean_merge_name(existing.get("name", ""))
+        name_incoming = clean_merge_name(incoming.get("name", ""))
+
+        if not name_existing or not name_incoming:
+            return False
+
+        tokens_existing = merge_tokens(existing.get("name", ""))
+        tokens_incoming = merge_tokens(incoming.get("name", ""))
+
+        if not tokens_existing or not tokens_incoming:
+            return False
+
+        if len(tokens_existing) == 1 and len(tokens_incoming) == 1:
+            return tokens_existing == tokens_incoming
+
+        shared = tokens_existing & tokens_incoming
+        if len(shared) < 2:
+            return False
+
+        overlap_existing = len(shared) / max(1, len(tokens_existing))
+        overlap_incoming = len(shared) / max(1, len(tokens_incoming))
+
+        return overlap_existing >= 0.6 and overlap_incoming >= 0.6
+
+    deduped = []
+    for offer in merged:
+        replaced = False
+
+        for i, current in enumerate(deduped):
+            if not should_merge_offers(current, offer):
+                continue
+
+            if offer.get("source") == "structured" and current.get("source") != "structured":
+                deduped[i] = offer
+            elif offer.get("source") != "structured" and current.get("source") == "structured":
+                pass
+            elif float(offer.get("ocr_score", 0)) > float(current.get("ocr_score", 0)):
+                deduped[i] = offer
+
+            replaced = True
+            break
+
+        if not replaced:
+            deduped.append(offer)
+
+    print(f"[merge_offers] merged_after_dedup={len(deduped)}", flush=True)
+
     deduped.sort(key=lambda item: (item["source"] != "structured", item["new_price"], item["name"]))
     return deduped, matched_structured_ids, rejected_items
 

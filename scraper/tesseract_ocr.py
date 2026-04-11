@@ -361,17 +361,7 @@ def name_key(name):
     return " ".join(words[:3])
 
 
-def extract_product_candidates(lines, image_width=None):
-    """
-    For each ЛВ price line (retail Bulgarian price), find the product name above it.
-
-    Visual layout (observed from brochure images):
-    - ЛВ price = anchor (largest text, bottom of product card)
-    - € price = just above ЛВ, same position — NOT a name, exclude it
-    - Product name = 1-4 lines ABOVE the price, same horizontal column
-    - Columns are ~30% of page width — use narrow horizontal radius
-    - Weight info (500g, 20бр) sits between name and price — filter it
-    """
+def extract_product_candidates(lines, image_width=None, min_score=None, image_height=None, page_number=None, **kwargs):
     lv_price_lines = []
     eur_price_lines = []
     text_lines = []
@@ -387,10 +377,7 @@ def extract_product_candidates(lines, image_width=None):
         else:
             text_lines.append(line)
 
-    # Narrow column radius: ~28% of image width at 2x scale
     col_radius = (image_width * 0.40) if image_width else 700
-
-    # Y positions of € price lines — exclude from name search
     eur_ys = {round(l["cy"]) for l in eur_price_lines}
 
     WEIGHT_ONLY = re.compile(
@@ -403,22 +390,16 @@ def extract_product_candidates(lines, image_width=None):
 
         name_lines = []
         for tl in text_lines:
-            # Must be ABOVE the price
             if tl["cy"] >= pl["cy"] + pl["h"] * 1.2:
                 continue
-            # Within column
             if abs(tl["cx"] - pl["cx"]) > col_radius:
                 continue
-            # Within vertical range
             if pl["cy"] - tl["cy"] > v_search:
                 continue
-            # Skip € price line (same Y as a € price)
             if round(tl["cy"]) in eur_ys:
                 continue
-            # Skip pure noise lines
             if NOISE_WORDS.search(tl["text"]):
                 continue
-            # Skip pure weight lines
             if WEIGHT_ONLY.match(tl["text"]):
                 continue
             if len(tl["text"].strip()) < 3:
@@ -428,7 +409,6 @@ def extract_product_candidates(lines, image_width=None):
         if not name_lines:
             continue
 
-        # Sort top-to-bottom and take up to 4 lines
         name_lines.sort(key=lambda l: l["cy"])
         raw_name = " ".join(l["text"].strip() for l in name_lines[:4])
         name = clean_name(raw_name)
@@ -438,7 +418,6 @@ def extract_product_candidates(lines, image_width=None):
         if not FOOD_KEYWORDS.search(name):
             continue
 
-        # Try to extract weight from nearby lines for price_per_kg
         weight_grams = None
         for l in name_lines:
             w = extract_weight_grams(l["text"])
@@ -461,7 +440,6 @@ def extract_product_candidates(lines, image_width=None):
             "position": (round(pl["cx"]), round(pl["cy"])),
         })
 
-    # Deduplicate by product identity — keep lowest price per unique product
     groups = {}
     for c in candidates:
         nk = name_key(c["name"])
@@ -471,7 +449,6 @@ def extract_product_candidates(lines, image_width=None):
             groups[nk] = c
 
     return list(groups.values())
-
 
 # ---------- Main entry point (same signature as brochure_ocr_poc.py) ----------
 
@@ -513,7 +490,7 @@ def run_ocr_on_pages(brochure_url, pages, scale=2, min_score=0.55, store_name="U
             image_bytes = download_image(image_url, image_filename)
             gray = prepare_image_for_tesseract(image_bytes, scale=scale)
             lines, img_width = get_lines_from_image(gray)
-            candidates = extract_product_candidates(lines, image_width=img_width)
+            candidates = extract_product_candidates(lines, image_width=img_width, min_score=min_score, page_number=page_number)
         except Exception as e:
             print(f"  [OCR] page {page_number} ERROR: {e}", flush=True)
             continue
