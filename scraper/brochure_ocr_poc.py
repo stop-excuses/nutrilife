@@ -15,6 +15,10 @@ from rapidocr_onnxruntime import RapidOCR
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
 PRICE_RE = re.compile(r"\d+[.,]\d{2}")
 PRICE_TOKEN_RE = re.compile(r"(?<!\d)(\d{1,2}[.,]\d{2})(?!\d)")
+# Vertical price fragment detection
+_VERT_LEVA_RE = re.compile(r"^\s*(\d{1,3})\s*$")
+_VERT_STOTINKI_RE = re.compile(r"^\s*(\d{2})\s*$")
+_CURRENCY_NOISE_RE = re.compile(r"^\s*(лв\.?|лв|л\.|lв|nв|n8|lv|lw)\s*$", re.IGNORECASE)
 CYRILLIC_RE = re.compile(r"[А-Яа-я]")
 LATIN_WORD_RE = re.compile(r"[A-Za-z]{3,}")
 NOISE_RE = re.compile(r"(цена|лев|евро|лв|nb|nв|кg|kg|gr|ml|бр|%|дни|до)", re.IGNORECASE)
@@ -24,7 +28,7 @@ GENERIC_NAME_RE = re.compile(
 )
 # NON_FOOD_RE is now only used as a soft tag — does NOT block extraction
 NON_FOOD_SOFT_RE = re.compile(
-    r"(букет|лалета|цветя|орхидея|саксия|декорац|светлина|лампа|великденска украса|lidl plus|растение|градин|тор|семена)",
+    r"(букет|лалета|цветя|орхидея|саксия|декорац|светлина|лампа|великденска украса|lidl plus|растение|градин|тор|семена|henipaka|слънчев[аи]|cbetanha|cbethha)",
     re.IGNORECASE,
 )
 
@@ -46,26 +50,29 @@ OCR_REPLACEMENTS = [
     (r"\bceptnonlimpahn\b", "сертифициран"),
     (r"\bton leha\b", "топ цена"),
     # --- Vegetables ---
-    (r"\b3eneh\b", "зелен"),
-    (r"\b3eneh nyk\b", "зелен лук"),
+    (r"\b[3з]eneh\b", "зелен"),
+    (r"\b[3з]eneh nyk\b", "зелен лук"),
     (r"\bnyk\b", "лук"),
     (r"\bpeceh\b", "зелен"),           # OCR variant of зелен
     (r"\bmopkobh\b", "моркови"),
-    (r"\bkpa[ctx]ta?b[hyu]+\b", "краставици"),
+    (r"\bkpa[ctx]ta?b[hyun]+\b", "краставици"),
     (r"\babokano\b", "авокадо"),
     (r"\bcnahak\b", "спанак"),
     (r"\bspанак\b", "спанак"),          # mixed-script variant
-    (r"\bcbek[nhl]*\b", "цвекло"),
+    (r"\bcbek\w{1,8}\b", "цвекло"),
     (r"\bneuypku\b", "печурки"),
     (r"\bneuyp[kк]u\b", "печурки"),
     (r"\baomath\b", "домати"),
     (r"\b[dд]omath\b", "домати"),
     (r"\bkahachn[yu]+\b", "кориандър"),
-    (r"\bnapnoh\b", "парион"),
+    (r"\bnapnoh\b", "пресен"),
     (r"\bcaaama\b", "салата"),
     (r"\bcanata\b", "салата"),
     (r"\bcapata\b", "салата"),
     (r"\bpykona\b", "рукола"),
+    (r"\bcok\b", "сок"),
+    (r"\bhepn\b", "черни"),
+    (r"\b[з3]nath[ah]?\b", "злата"),
     (r"\bmapy[нn][яa]\b", "маруля"),
     (r"\bnnюhen\b", "плюен"),
     (r"\bpatnaзhah\b", "патладжан"),
@@ -79,8 +86,8 @@ OCR_REPLACEMENTS = [
     # --- Fruits ---
     (r"\boptokan[nhl]*\b", "портокали"),
     (r"\baumohu\b", "лимони"),
-    (r"\ba6bnk[huy]*\b", "ябълки"),
-    (r"\bkpyw[huy]*\b", "круши"),
+    (r"\ba[6б]bnk[hyun]*\b", "ябълки"),
+    (r"\bkpyw[hyun]+\b", "круши"),
     (r"\bbopobhhkh\b", "боровинки"),
     (r"\bbopobhhk[au]\b", "боровинка"),
     (r"\ba2ogu\b", "ягоди"),
@@ -88,9 +95,9 @@ OCR_REPLACEMENTS = [
     (r"\bahahac\b", "ананас"),
     (r"\brpoзne\b", "грозде"),
     (r"\bkahtanyne\b", "канталупе"),
-    (r"\byhamc\b", "уилямс"),
+    (r"\byu?[hn]?amc\b", "уилямс"),
     (r"\bnaneta\b", "лалета"),         # non-food - still capture for classification
-    (r"\b6yket\b", "букет"),           # non-food
+    (r"\b[6б]yket\b", "букет"),          # non-food
     (r"\bceamnlata\b", "семилата"),
     (r"\bkanhcna\b", "кайсия"),
     (r"\bkahcua\b", "кайсия"),
@@ -100,7 +107,7 @@ OCR_REPLACEMENTS = [
     (r"\bbnwha\b", "вишна"),
     (r"\bcepew[au]\b", "череша"),
     (r"\bkubu\b", "киви"),
-    (r"\bnahro\b", "манго"),
+    (r"\b[nm]ahro\b", "манго"),
     (r"\bnynew\b", "пъпеш"),
     (r"\bkpyw[au]\b", "круша"),
     # --- Dairy ---
@@ -123,22 +130,34 @@ OCR_REPLACEMENTS = [
     (r"\bpn[бб]a\b", "риба"),
     (r"\bpn6a\b", "риба"),
     (r"\bnnneшko\b", "пилешко"),
-    (r"\bnnneшko\b", "пилешко"),
+    (r"\bcocorico\b", "пилешко"),            # brand name
     (r"\btobn[ah]+\b", "говежди"),
-    (r"\bcbnhck[aо]\b", "свинска"),
-    (r"\barnewk[aо]\b", "агнешка"),
+    (r"\bcb[mn]hck[aoоаm]+\b", "свинско"),  # cbmhcko, cbmhckm, cbnhcka
+    (r"\barh?ewk[oоаaиmw]+\b", "агнешко"),  # arhewko, arhewkm, arhewkw
+    (r"\barh?ewka\b", "агнешка"),
+    (r"\barh?ewk[iu]+\b", "агнешки"),
     (r"\banckon[ah]+\b", "хайвер"),
     (r"\bxahbep\b", "хайвер"),
+    (r"\bkебаn\b", "кебап"),
+    (r"\bke6аn\b", "кебап"),
+    (r"\bkебаnуеtа\b", "кебапчета"),
+    (r"\bkotnet\b", "котлет"),
+    (r"\bcyna\b", "супа"),
+    (r"\bbyprep\b", "бургер"),
+    (r"\baui?з6yprep\b", "хамбургер"),
+    (r"\bmacnmhobo\b", "маслиново"),
+    (r"\bhanokynka\b", "половинка"),         # half chicken context
+    (r"\bnecho\b", "прясно"),
     # --- Grain/legumes ---
     (r"\baewa\b", "леща"),
     (r"\bnaxyt\b", "нахут"),
     (r"\bnaxyt\b", "нахут"),
     (r"\bopuз\b", "ориз"),
-    (r"\bopн3\b", "ориз"),
+    (r"\bopн[3з]\b", "ориз"),
     (r"\bnwehuua\b", "пшеница"),
     (r"\b①y[зz]uau\b", "фузили"),
+    (r"\bфy[3з]hnu\b", "фузили"),
     (r"\bфyзhnu\b", "фузили"),
-    (r"\bфy3hnu\b", "фузили"),
     (r"\bpaзhobhdhocth\b", "разновидности"),
     (r"\bkpynha\b", "крупа"),
     # --- Other food ---
@@ -281,20 +300,27 @@ def repair_mixed_script(text):
 
 def normalize_ocr_name(text):
     text = text.lower()
-    # Digit → Cyrillic look-alikes
-    text = text.replace("0", "о").replace("3", "з").replace("6", "б")
-    text = text.replace("几", "в").replace(":", " ").replace("/", " ")
-    text = re.sub(r"[^\w\s.-]", " ", text, flags=re.UNICODE)
-    text = re.sub(r"\s+", " ", text).strip()
 
-    # Apply word-level replacements first
+    # Pass 1: apply OCR_REPLACEMENTS on raw text (digits still intact: 3, 6, 0)
+    # This lets patterns like \b3eneh\b, \b6yket\b fire before we convert digits.
     for pattern, replacement in OCR_REPLACEMENTS:
         text = re.sub(pattern, replacement, text, flags=re.IGNORECASE)
 
-    # Character-level repair of mixed-script words
-    text = repair_mixed_script(text)
+    # Digit → Cyrillic look-alikes (3→з, 6→б, 0→о, etc.)
+    text = text.replace("0", "о").replace("3", "з").replace("6", "б")
+    text = text.replace("几", "в").replace(":", " ").replace("/", " ")
 
-    # Strip label metadata that appears on product labels but is not the product name
+    # Remove CJK and other non-Latin/Cyrillic Unicode noise (e.g. 中, ①, etc.)
+    text = re.sub(r"[\u2E80-\u9FFF\uF900-\uFAFF\u2460-\u24FF]", " ", text)
+    text = re.sub(r"[^\w\s.-]", " ", text, flags=re.UNICODE)
+    text = re.sub(r"\s+", " ", text).strip()
+
+    # Pass 2: OCR_REPLACEMENTS after digit conversion (Cyrillic з/б/о variants)
+    for pattern, replacement in OCR_REPLACEMENTS:
+        text = re.sub(pattern, replacement, text, flags=re.IGNORECASE)
+
+    # Strip label metadata BEFORE repair_mixed_script so Latin patterns still fire.
+    # After repair, mixed-script chars become Cyrillic and the Latin patterns below miss them.
     LABEL_METADATA = (
         r"\b(клас 1|топ цена|сертифициран|продукт|гарантиран|контролиран|"
         r"произход|египет|турция|кодраба|готово|консумация|магазин|оферта|"
@@ -302,14 +328,26 @@ def normalize_ocr_name(text):
         r"масленост|масл|българия|произхожда|произход|серия|"
         r"freshona|freshon|lidl|clidl|lidlplus|leha3akr|лева|бр|"
         r"nncta|mpexa|umohn|nonycahka|ymepeho|npoayktnctapahtnpah|"
-        r"kohtponnpah|mponзxonotnoneto|kg)\b"
+        r"kohtponnpah|mpon[з3]xonotnoneto|kg|"
+        r"henipaka|potage|puree|paamhck\w*|pactehne|kahtanyne|"
+        r"mnkc|kbnt|[z з][bб][bб]|cbhyebo|cbhyeba|cbetnha|"
+        r"lbethnte|npeanoxkehna|bnk|rotobo\w{1,4}|готово30|"
+        r"kaproou|pehck\w*|kauectbo|vpehcko|9sti|yetkohn|"
+        r"pazmhcko|rоtобо\w{1,4}|семилата|mahro|panko|"
+        r"nреббзхо\w*|npe[бб][бб]зхо\w*|npebb[з3]xo\w*|"
+        r"превъзходн\w*|zlath\w*)\b"
     )
     text = re.sub(LABEL_METADATA, " ", text, flags=re.IGNORECASE)
 
     # Remove short leftover tokens (1-2 chars)
-    text = re.sub(r"\b[а-яa-z]{1,2}\b", " ", text, flags=re.IGNORECASE)
-    # Remove standalone numbers
+    text = re.sub(r"\b[а-яa-z0-9]{1,2}\b", " ", text, flags=re.IGNORECASE)
+    # Remove standalone numbers/weights
     text = re.sub(r"\b\d+[.,]?\d*\s*(г|кг|мл|л|бр)?\b", " ", text)
+    text = re.sub(r"\s+", " ", text).strip(" .,-")
+
+    # Character-level repair of mixed-script words (runs AFTER label stripping)
+    text = repair_mixed_script(text)
+
     text = re.sub(r"\s+", " ", text).strip(" .,-")
     return text
 
@@ -381,6 +419,94 @@ def load_ocr_learned_corrections():
                 OCR_REPLACEMENTS.append((pattern, correction))
     except Exception:
         pass
+
+
+def merge_vertical_price_fragments(entries):
+    """Detect vertically split prices where leva and stotinki appear in separate OCR boxes.
+
+    Bulgarian brochures often render the price as:
+        large "2"   (top box, leva)
+        small "99"  (bottom box, stotinki)
+        tiny "лв."  (label box)
+
+    This function merges adjacent leva+stotinki boxes into a single synthetic
+    "2.99" entry before candidate extraction, recovering prices that would
+    otherwise be invisible to the PRICE_TOKEN_RE matcher.
+    """
+    used = set()
+    result = []
+
+    for i, entry_a in enumerate(entries):
+        if i in used:
+            continue
+
+        m_leva = _VERT_LEVA_RE.match(entry_a["text"])
+        if not m_leva:
+            result.append(entry_a)
+            continue
+
+        leva = int(m_leva.group(1))
+        # Reasonable price range: 0.01–199 лв
+        if not (0 < leva < 200):
+            result.append(entry_a)
+            continue
+
+        best_j = None
+        best_dy = float("inf")
+        best_stotinki = None
+
+        for j, entry_b in enumerate(entries):
+            if j == i or j in used:
+                continue
+
+            m_stot = _VERT_STOTINKI_RE.match(entry_b["text"])
+            if not m_stot:
+                continue
+
+            # Must be below (higher y value) and within ~3 box heights
+            dy = entry_b["cy"] - entry_a["cy"]
+            if dy < 0 or dy > entry_a["height"] * 3.5:
+                continue
+
+            # Must be horizontally close (within 2.5 box widths)
+            dx = abs(entry_b["cx"] - entry_a["cx"])
+            if dx > max(entry_a["width"] * 2.5, 80):
+                continue
+
+            if dy < best_dy:
+                best_dy = dy
+                best_j = j
+                best_stotinki = m_stot.group(1)
+
+        if best_j is not None:
+            entry_b = entries[best_j]
+            price_text = f"{leva}.{best_stotinki}"
+            x1 = min(entry_a["bbox"][0], entry_b["bbox"][0])
+            y1 = min(entry_a["bbox"][1], entry_b["bbox"][1])
+            x2 = max(entry_a["bbox"][2], entry_b["bbox"][2])
+            y2 = max(entry_a["bbox"][3], entry_b["bbox"][3])
+            synthetic = {
+                "text": price_text,
+                "score": min(entry_a["score"], entry_b["score"]),
+                "bbox": (x1, y1, x2, y2),
+                "cx": (x1 + x2) / 2,
+                "cy": (y1 + y2) / 2,
+                "width": x2 - x1,
+                "height": y2 - y1,
+                "merged_from": "vertical_fragment",
+            }
+            result.append(synthetic)
+            used.add(i)
+            used.add(best_j)
+        else:
+            result.append(entry_a)
+
+    # Pass through any entries that were consumed as stotinki but not yet added
+    for i, entry in enumerate(entries):
+        if i not in used and entry not in result:
+            result.append(entry)
+
+    return result
 
 
 def extract_price_value(text):
@@ -472,6 +598,7 @@ def is_non_food_soft(name):
 
 def extract_product_candidates(ocr_result, min_score):
     entries = build_ocr_entries(ocr_result, min_score)
+    entries = merge_vertical_price_fragments(entries)
     price_entries = []
     text_entries = []
 
@@ -526,14 +653,51 @@ def extract_product_candidates(ocr_result, min_score):
             "position": (round(price_entry["cx"]), round(price_entry["cy"])),
         })
 
-    deduped = []
-    seen = set()
+    # Pass 1: exact (price, name) dedup
+    exact_deduped = []
+    seen_exact = set()
     for candidate in candidates:
         key = (candidate["price"], candidate["name"][:80])
-        if key in seen:
+        if key in seen_exact:
             continue
-        seen.add(key)
-        deduped.append(candidate)
+        seen_exact.add(key)
+        exact_deduped.append(candidate)
+
+    # Pass 2: name-similarity dedup — same product captured by multiple nearby price anchors.
+    # Group candidates that share significant name tokens; keep highest OCR score per group.
+    def significant_tokens(name):
+        return {t for t in re.split(r"[\s\-]+", name.lower()) if len(t) >= 3}
+
+    groups = []  # list of lists
+    assigned = [False] * len(exact_deduped)
+
+    for i, cand_a in enumerate(exact_deduped):
+        if assigned[i]:
+            continue
+        group = [i]
+        tokens_a = significant_tokens(cand_a["name"])
+        for j, cand_b in enumerate(exact_deduped):
+            if j <= i or assigned[j]:
+                continue
+            tokens_b = significant_tokens(cand_b["name"])
+            shared = tokens_a & tokens_b
+            if not shared:
+                continue
+            # Merge if ≥2 tokens shared (multi-word duplicate),
+            # OR both candidates have exactly 1 token and it matches (single-word duplicate).
+            # This prevents merging "портокали" with "портокали сок" (different products).
+            both_single = len(tokens_a) == 1 and len(tokens_b) == 1
+            if len(shared) >= 2 or (both_single and len(shared) == 1):
+                group.append(j)
+                assigned[j] = True
+        assigned[i] = True
+        groups.append(group)
+
+    deduped = []
+    for group in groups:
+        best = max(group, key=lambda idx: exact_deduped[idx]["score"])
+        deduped.append(exact_deduped[best])
+
     return deduped
 
 

@@ -3795,6 +3795,962 @@
       "available_stores": [
         "Billa"
       ]
+    },
+    {
+      "id": "ocr-kaufland-2-лук-връзка-kac-knac-481b-0-35",
+      "store": "Kaufland",
+      "name": "лук връзка kac knac 481b",
+      "emoji": "🥗",
+      "category": "vegetable",
+      "new_price": 0.35,
+      "old_price": null,
+      "discount_pct": null,
+      "valid_until": null,
+      "health_score": 8,
+      "diet_tags": [
+        "vegetarian",
+        "mediterranean"
+      ],
+      "weight_raw": null,
+      "weight_grams": 0,
+      "price_per_kg": null,
+      "shelf_life": "малотраен",
+      "is_bulk_worthy": false,
+      "source": "ocr",
+      "is_non_food_hint": false,
+      "candidate_score": 33,
+      "score_reasons": {
+        "ocr_engine": 20,
+        "confidence_tier": 8,
+        "food_hint": 15,
+        "high_noise": -10
+      }
+    },
+    {
+      "id": "ocr-kaufland-11-olive-arhewko-meco-оаnрабеза-arhemkmtco--0-59",
+      "store": "Kaufland",
+      "name": "olive агнешко meco оаnрабеза arhemkmtco агнешка",
+      "emoji": "🥩",
+      "category": "protein",
+      "new_price": 0.59,
+      "old_price": null,
+      "discount_pct": null,
+      "valid_until": null,
+      "health_score": 8,
+      "diet_tags": [
+        "high_protein",
+        "mediterranean"
+      ],
+      "weight_raw": null,
+      "weight_grams": 0,
+      "price_per_kg": null,
+      "shelf_life": "малотраен",
+      "is_bulk_worthy": false,
+      "source": "ocr",
+      "is_non_food_hint": false,
+      "candidate_score": 41,
+      "score_reasons": {
+        "ocr_engine": 18,
+        "confidence_tier": 8,
+        "food_hint": 15
+      }
+    },
+    {
+      "id": "ocr-kaufland-3-kac-kac-noptokanm-сок-1-02",
+      "store": "Kaufland",
+      "name": "kac noptokanm сок",
+      "emoji": "🧃",
+      "category": "canned",
+      "new_price": 1.02,
+      "old_price": null,
+      "discount_pct": null,
+      "valid_until": null,
+      "health_score": 5,
+      "diet_tags": [
+        "vegetarian"
+      ],
+      "weight_raw": null,
+      "weight_grams": 0,
+      "price_per_kg": null,
+      "shelf_life": "малотраен",
+      "is_bulk_worthy": false,
+      "source": "ocr",
+      "is_non_food_hint": false,
+      "candidate_score": 34,
+      "score_reasons": {
+        "ocr_engine": 21,
+        "confidence_tier": 8,
+        "food_hint": 15,
+        "high_noise": -10
+      }
+    },
+    {
+      "id": "ocr-kaufland-11-arhewka-picantina-picantina-noanpabkm-mа-1-15",
+      "store": "Kaufland",
+      "name": "агнешка picantina noanpabkm mаiааhоз",
+      "emoji": "🥩",
+      "category": "protein",
+      "new_price": 1.15,
+      "old_price": null,
+      "discount_pct": null,
+      "valid_until": null,
+      "health_score": 8,
+      "diet_tags": [
+        "high_protein",
+        "mediterranean"
+      ],
+      "weight_raw": null,
+      "weight_grams": 0,
+      "price_per_kg": null,
+      "shelf_life": "малотраен",
+      "is_bulk_worthy": false,
+      "source": "ocr",
+      "is_non_food_hint": false,
+      "candidate_score": 52,
+      "score_reasons": {
+        "ocr_engine": 22,
+        "confidence_tier": 15,
+        "food_hint": 15
+      }
+    },
+    {
+      "id": "ocr-kaufland-9-сок-разnmуhm-bmnobe-milka-mneyha-hanmtkk-1-42",
+      "store": "Kaufland",
+      "name": "сок разnmуhm bmnobe milka mneyha hanmtkka разnmуhm bmaobe",
+      "emoji": "🧃",
+      "category": "canned",
+      "new_price": 1.42,
+      "old_price": null,
+      "discount_pct": null,
+      "valid_until": null,
+      "health_score": 5,
+      "diet_tags": [
+        "vegetarian"
+      ],
+      "weight_raw": null,
+      "weight_grams": 0,
+      "price_per_kg": null,
+      "shelf_life": "малотраен",
+      "is_bulk_worthy": false,
+      "source": "ocr",
+      "is_non_food_hint": false,
+      "candidate_score": 34,
+      "score_reasons": {
+        "ocr_engine": 21,
+        "confidence_tier": 8,
+        "food_hint": 15,
+        "high_noise": -10
+      }
+    },
+    {
+      "id": "ocr-kaufland-11-kac-салата-1-78",
+      "store": "Kaufland",
+      "name": "kac салата",
+      "emoji": "🥗",
+      "category": "vegetable",
+      "new_price": 1.78,
+      "old_price": null,
+      "discount_pct": null,
+      "valid_until": null,
+      "health_score": 8,
+      "diet_tags": [
+        "vegetarian",
+        "mediterranean"
+      ],
+      "weight_raw": null,
+      "weight_grams": 0,
+      "price_per_kg": null,
+      "shelf_life": "малотраен",
+      "is_bulk_worthy": false,
+      "source": "ocr",
+      "is_non_food_hint": false,
+      "candidate_score": 42,
+      "score_reasons": {
+        "ocr_engine": 19,
+        "confidence_tier": 8,
+        "food_hint": 15
+      }
+    },
+    {
+      "id": "ocr-kaufland-3-ананас-манго-1-99",
+      "store": "Kaufland",
+      "name": "ананас манго",
+      "emoji": "🍎",
+      "category": "vegetable",
+      "new_price": 1.99,
+      "old_price": null,
+      "discount_pct": null,
+      "valid_until": null,
+      "health_score": 8,
+      "diet_tags": [
+        "vegetarian"
+      ],
+      "weight_raw": null,
+      "weight_grams": 0,
+      "price_per_kg": null,
+      "shelf_life": "малотраен",
+      "is_bulk_worthy": false,
+      "source": "ocr",
+      "is_non_food_hint": false,
+      "candidate_score": 43,
+      "score_reasons": {
+        "ocr_engine": 20,
+        "confidence_tier": 8,
+        "food_hint": 15
+      }
+    },
+    {
+      "id": "ocr-kaufland-11-бnсереh-costa-espana-macnmhobo-macno-1-99",
+      "store": "Kaufland",
+      "name": "бnсереh costa espana маслиново macno",
+      "emoji": "🫒",
+      "category": "fat",
+      "new_price": 1.99,
+      "old_price": null,
+      "discount_pct": null,
+      "valid_until": null,
+      "health_score": 10,
+      "diet_tags": [
+        "keto",
+        "mediterranean"
+      ],
+      "weight_raw": null,
+      "weight_grams": 0,
+      "price_per_kg": null,
+      "shelf_life": "малотраен",
+      "is_bulk_worthy": false,
+      "source": "ocr",
+      "is_non_food_hint": false,
+      "candidate_score": 34,
+      "score_reasons": {
+        "ocr_engine": 21,
+        "confidence_tier": 8,
+        "food_hint": 15,
+        "high_noise": -10
+      }
+    },
+    {
+      "id": "ocr-kaufland-6-cocorico-1-99",
+      "store": "Kaufland",
+      "name": "пилешко",
+      "emoji": "🐔",
+      "category": "protein",
+      "new_price": 1.99,
+      "old_price": null,
+      "discount_pct": null,
+      "valid_until": null,
+      "health_score": 9,
+      "diet_tags": [
+        "high_protein",
+        "keto"
+      ],
+      "weight_raw": null,
+      "weight_grams": 0,
+      "price_per_kg": null,
+      "shelf_life": "малотраен",
+      "is_bulk_worthy": false,
+      "source": "ocr",
+      "is_non_food_hint": false,
+      "candidate_score": 32,
+      "score_reasons": {
+        "ocr_engine": 19,
+        "confidence_tier": 8,
+        "food_hint": 15,
+        "name_too_short": -10
+      }
+    },
+    {
+      "id": "ocr-kaufland-7-yeabp-jecho-kpem-cyna-зеnеhууuсуеабр-2-04",
+      "store": "Kaufland",
+      "name": "yeabp jecho kpem супа зеnеhууuсуеабр",
+      "emoji": "🛒",
+      "category": "other",
+      "new_price": 2.04,
+      "old_price": null,
+      "discount_pct": null,
+      "valid_until": null,
+      "health_score": 5,
+      "diet_tags": [],
+      "weight_raw": null,
+      "weight_grams": 0,
+      "price_per_kg": null,
+      "shelf_life": "малотраен",
+      "is_bulk_worthy": false,
+      "source": "ocr",
+      "is_non_food_hint": false,
+      "candidate_score": 33,
+      "score_reasons": {
+        "ocr_engine": 20,
+        "confidence_tier": 8,
+        "food_hint": 15,
+        "high_noise": -10
+      }
+    },
+    {
+      "id": "ocr-kaufland-3-mhcko-канталупе-2-55",
+      "store": "Kaufland",
+      "name": "mhcko канталупе",
+      "emoji": "🍎",
+      "category": "vegetable",
+      "new_price": 2.55,
+      "old_price": null,
+      "discount_pct": null,
+      "valid_until": null,
+      "health_score": 8,
+      "diet_tags": [
+        "vegetarian"
+      ],
+      "weight_raw": null,
+      "weight_grams": 0,
+      "price_per_kg": null,
+      "shelf_life": "малотраен",
+      "is_bulk_worthy": false,
+      "source": "ocr",
+      "is_non_food_hint": false,
+      "candidate_score": 44,
+      "score_reasons": {
+        "ocr_engine": 21,
+        "confidence_tier": 8,
+        "food_hint": 15
+      }
+    },
+    {
+      "id": "ocr-kaufland-3-манго-3-89",
+      "store": "Kaufland",
+      "name": "манго",
+      "emoji": "🍎",
+      "category": "vegetable",
+      "new_price": 3.89,
+      "old_price": null,
+      "discount_pct": null,
+      "valid_until": null,
+      "health_score": 8,
+      "diet_tags": [
+        "vegetarian"
+      ],
+      "weight_raw": null,
+      "weight_grams": 0,
+      "price_per_kg": null,
+      "shelf_life": "малотраен",
+      "is_bulk_worthy": false,
+      "source": "ocr",
+      "is_non_food_hint": false,
+      "candidate_score": 32,
+      "score_reasons": {
+        "ocr_engine": 19,
+        "confidence_tier": 8,
+        "food_hint": 15,
+        "name_too_short": -10
+      }
+    },
+    {
+      "id": "ocr-kaufland-6-cocorico-neyehm-nmnewkm-fotobmactma-3-98",
+      "store": "Kaufland",
+      "name": "пилешко neyehm nmnewkm fotobmactma",
+      "emoji": "🐔",
+      "category": "protein",
+      "new_price": 3.98,
+      "old_price": null,
+      "discount_pct": null,
+      "valid_until": null,
+      "health_score": 9,
+      "diet_tags": [
+        "high_protein",
+        "keto"
+      ],
+      "weight_raw": null,
+      "weight_grams": 0,
+      "price_per_kg": null,
+      "shelf_life": "малотраен",
+      "is_bulk_worthy": false,
+      "source": "ocr",
+      "is_non_food_hint": false,
+      "candidate_score": 33,
+      "score_reasons": {
+        "ocr_engine": 20,
+        "confidence_tier": 8,
+        "food_hint": 15,
+        "high_noise": -10
+      }
+    },
+    {
+      "id": "ocr-kaufland-3-tрозае-канталупе-mmkc-3-99",
+      "store": "Kaufland",
+      "name": "tрозае канталупе mmkc",
+      "emoji": "🍎",
+      "category": "vegetable",
+      "new_price": 3.99,
+      "old_price": null,
+      "discount_pct": null,
+      "valid_until": null,
+      "health_score": 8,
+      "diet_tags": [
+        "vegetarian"
+      ],
+      "weight_raw": null,
+      "weight_grams": 0,
+      "price_per_kg": null,
+      "shelf_life": "малотраен",
+      "is_bulk_worthy": false,
+      "source": "ocr",
+      "is_non_food_hint": false,
+      "candidate_score": 42,
+      "score_reasons": {
+        "ocr_engine": 19,
+        "confidence_tier": 8,
+        "food_hint": 15
+      }
+    },
+    {
+      "id": "ocr-kaufland-8-balkan-аuiзбурrер-4-28",
+      "store": "Kaufland",
+      "name": "balkan аuiзбурrер",
+      "emoji": "🛒",
+      "category": "other",
+      "new_price": 4.28,
+      "old_price": null,
+      "discount_pct": null,
+      "valid_until": null,
+      "health_score": 5,
+      "diet_tags": [],
+      "weight_raw": null,
+      "weight_grams": 0,
+      "price_per_kg": null,
+      "shelf_life": "малотраен",
+      "is_bulk_worthy": false,
+      "source": "ocr",
+      "is_non_food_hint": false,
+      "candidate_score": 36,
+      "score_reasons": {
+        "ocr_engine": 21,
+        "confidence_tier": 15
+      }
+    },
+    {
+      "id": "ocr-kaufland-7-necho-cyna-tonyeta-4-48",
+      "store": "Kaufland",
+      "name": "прясно супа tonyeta",
+      "emoji": "🛒",
+      "category": "other",
+      "new_price": 4.48,
+      "old_price": null,
+      "discount_pct": null,
+      "valid_until": null,
+      "health_score": 5,
+      "diet_tags": [],
+      "weight_raw": null,
+      "weight_grams": 0,
+      "price_per_kg": null,
+      "shelf_life": "малотраен",
+      "is_bulk_worthy": false,
+      "source": "ocr",
+      "is_non_food_hint": false,
+      "candidate_score": 43,
+      "score_reasons": {
+        "ocr_engine": 20,
+        "confidence_tier": 8,
+        "food_hint": 15
+      }
+    },
+    {
+      "id": "ocr-kaufland-11-салата-axehtwne-4-6",
+      "store": "Kaufland",
+      "name": "салата axehtwne",
+      "emoji": "🥗",
+      "category": "vegetable",
+      "new_price": 4.6,
+      "old_price": null,
+      "discount_pct": null,
+      "valid_until": null,
+      "health_score": 8,
+      "diet_tags": [
+        "vegetarian",
+        "mediterranean"
+      ],
+      "weight_raw": null,
+      "weight_grams": 0,
+      "price_per_kg": null,
+      "shelf_life": "малотраен",
+      "is_bulk_worthy": false,
+      "source": "ocr",
+      "is_non_food_hint": false,
+      "candidate_score": 43,
+      "score_reasons": {
+        "ocr_engine": 20,
+        "confidence_tier": 8,
+        "food_hint": 15
+      }
+    },
+    {
+      "id": "ocr-kaufland-9-hanmtka-kape-cappuccing-pbka-tripleshot--4-99",
+      "store": "Kaufland",
+      "name": "hanmtka kape cappuccing pbka tripleshot разnmуhm bmqobe салата",
+      "emoji": "🥗",
+      "category": "vegetable",
+      "new_price": 4.99,
+      "old_price": null,
+      "discount_pct": null,
+      "valid_until": null,
+      "health_score": 8,
+      "diet_tags": [
+        "vegetarian",
+        "mediterranean"
+      ],
+      "weight_raw": null,
+      "weight_grams": 0,
+      "price_per_kg": null,
+      "shelf_life": "малотраен",
+      "is_bulk_worthy": false,
+      "source": "ocr",
+      "is_non_food_hint": false,
+      "candidate_score": 34,
+      "score_reasons": {
+        "ocr_engine": 21,
+        "confidence_tier": 8,
+        "food_hint": 15,
+        "high_noise": -10
+      }
+    },
+    {
+      "id": "ocr-kaufland-3-ананас-4-99",
+      "store": "Kaufland",
+      "name": "ананас",
+      "emoji": "🍎",
+      "category": "vegetable",
+      "new_price": 4.99,
+      "old_price": null,
+      "discount_pct": null,
+      "valid_until": null,
+      "health_score": 8,
+      "diet_tags": [
+        "vegetarian"
+      ],
+      "weight_raw": null,
+      "weight_grams": 0,
+      "price_per_kg": null,
+      "shelf_life": "малотраен",
+      "is_bulk_worthy": false,
+      "source": "ocr",
+      "is_non_food_hint": false,
+      "candidate_score": 33,
+      "score_reasons": {
+        "ocr_engine": 20,
+        "confidence_tier": 8,
+        "food_hint": 15,
+        "name_too_short": -10
+      }
+    },
+    {
+      "id": "ocr-kaufland-13-nokym-pbyho-nneteh-mania-kозуhаk-5-28",
+      "store": "Kaufland",
+      "name": "nokym pbyho nneteh mania козунак",
+      "emoji": "🍞",
+      "category": "grain",
+      "new_price": 5.28,
+      "old_price": null,
+      "discount_pct": null,
+      "valid_until": null,
+      "health_score": 4,
+      "diet_tags": [
+        "vegetarian"
+      ],
+      "weight_raw": null,
+      "weight_grams": 0,
+      "price_per_kg": null,
+      "shelf_life": "малотраен",
+      "is_bulk_worthy": false,
+      "source": "ocr",
+      "is_non_food_hint": false,
+      "candidate_score": 42,
+      "score_reasons": {
+        "ocr_engine": 22,
+        "confidence_tier": 15,
+        "food_hint": 15,
+        "high_noise": -10
+      }
+    },
+    {
+      "id": "ocr-kaufland-9-4mtpyc-fresh-салата-mcta-5-59",
+      "store": "Kaufland",
+      "name": "4mtpyc fresh салата mcta",
+      "emoji": "🥗",
+      "category": "vegetable",
+      "new_price": 5.59,
+      "old_price": null,
+      "discount_pct": null,
+      "valid_until": null,
+      "health_score": 8,
+      "diet_tags": [
+        "vegetarian",
+        "mediterranean"
+      ],
+      "weight_raw": null,
+      "weight_grams": 0,
+      "price_per_kg": null,
+      "shelf_life": "малотраен",
+      "is_bulk_worthy": false,
+      "source": "ocr",
+      "is_non_food_hint": false,
+      "candidate_score": 33,
+      "score_reasons": {
+        "ocr_engine": 20,
+        "confidence_tier": 8,
+        "food_hint": 15,
+        "high_noise": -10
+      }
+    },
+    {
+      "id": "ocr-kaufland-10-kебаnуеtа-byprep-arhewko-arhewko-meco-бn-5-98",
+      "store": "Kaufland",
+      "name": "кебапуеtа бургер агнешко meco бnnkm meco",
+      "emoji": "🥩",
+      "category": "protein",
+      "new_price": 5.98,
+      "old_price": null,
+      "discount_pct": null,
+      "valid_until": null,
+      "health_score": 8,
+      "diet_tags": [
+        "high_protein",
+        "mediterranean"
+      ],
+      "weight_raw": null,
+      "weight_grams": 0,
+      "price_per_kg": null,
+      "shelf_life": "малотраен",
+      "is_bulk_worthy": false,
+      "source": "ocr",
+      "is_non_food_hint": false,
+      "candidate_score": 51,
+      "score_reasons": {
+        "ocr_engine": 21,
+        "confidence_tier": 15,
+        "food_hint": 15
+      }
+    },
+    {
+      "id": "ocr-kaufland-7-jecho-necho-cbmhckm-kебаn-nnnewkm-kебаn--6-38",
+      "store": "Kaufland",
+      "name": "jecho прясно свинско кебап nnnewkm кебап kaptobeho niope",
+      "emoji": "🥩",
+      "category": "protein",
+      "new_price": 6.38,
+      "old_price": null,
+      "discount_pct": null,
+      "valid_until": null,
+      "health_score": 8,
+      "diet_tags": [
+        "high_protein",
+        "mediterranean"
+      ],
+      "weight_raw": null,
+      "weight_grams": 0,
+      "price_per_kg": null,
+      "shelf_life": "малотраен",
+      "is_bulk_worthy": false,
+      "source": "ocr",
+      "is_non_food_hint": false,
+      "candidate_score": 34,
+      "score_reasons": {
+        "ocr_engine": 21,
+        "confidence_tier": 8,
+        "food_hint": 15,
+        "high_noise": -10
+      }
+    },
+    {
+      "id": "ocr-kaufland-10-arhewko-arhewko-meco-yetbbptmha-бnnkm-me-6-49",
+      "store": "Kaufland",
+      "name": "агнешко meco yetbbptmha бnnkm meco разmразеhа",
+      "emoji": "🥩",
+      "category": "protein",
+      "new_price": 6.49,
+      "old_price": null,
+      "discount_pct": null,
+      "valid_until": null,
+      "health_score": 8,
+      "diet_tags": [
+        "high_protein",
+        "mediterranean"
+      ],
+      "weight_raw": null,
+      "weight_grams": 0,
+      "price_per_kg": null,
+      "shelf_life": "малотраен",
+      "is_bulk_worthy": false,
+      "source": "ocr",
+      "is_non_food_hint": false,
+      "candidate_score": 43,
+      "score_reasons": {
+        "ocr_engine": 20,
+        "confidence_tier": 8,
+        "food_hint": 15
+      }
+    },
+    {
+      "id": "ocr-kaufland-11-noanpabka-olive-arhewko-meco-7-98",
+      "store": "Kaufland",
+      "name": "noanpabka olive агнешко meco",
+      "emoji": "🥩",
+      "category": "protein",
+      "new_price": 7.98,
+      "old_price": null,
+      "discount_pct": null,
+      "valid_until": null,
+      "health_score": 8,
+      "diet_tags": [
+        "high_protein",
+        "mediterranean"
+      ],
+      "weight_raw": null,
+      "weight_grams": 0,
+      "price_per_kg": null,
+      "shelf_life": "малотраен",
+      "is_bulk_worthy": false,
+      "source": "ocr",
+      "is_non_food_hint": false,
+      "candidate_score": 41,
+      "score_reasons": {
+        "ocr_engine": 21,
+        "confidence_tier": 15,
+        "food_hint": 15,
+        "high_noise": -10
+      }
+    },
+    {
+      "id": "ocr-kaufland-13-hawata-nekapha-kозуhаk-8-7",
+      "store": "Kaufland",
+      "name": "hawata nekapha козунак",
+      "emoji": "🍞",
+      "category": "grain",
+      "new_price": 8.7,
+      "old_price": null,
+      "discount_pct": null,
+      "valid_until": null,
+      "health_score": 4,
+      "diet_tags": [
+        "vegetarian"
+      ],
+      "weight_raw": null,
+      "weight_grams": 0,
+      "price_per_kg": null,
+      "shelf_life": "малотраен",
+      "is_bulk_worthy": false,
+      "source": "ocr",
+      "is_non_food_hint": false,
+      "candidate_score": 42,
+      "score_reasons": {
+        "ocr_engine": 22,
+        "confidence_tier": 15,
+        "food_hint": 15,
+        "high_noise": -10
+      }
+    },
+    {
+      "id": "ocr-kaufland-17-pycka-tukbmykm-cbc-салата-kоnбас-mmkc-cn-8-98",
+      "store": "Kaufland",
+      "name": "pycka tukbmykm cbc салата kоnбас mmkc cnemaneh coc",
+      "emoji": "🥗",
+      "category": "vegetable",
+      "new_price": 8.98,
+      "old_price": null,
+      "discount_pct": null,
+      "valid_until": null,
+      "health_score": 8,
+      "diet_tags": [
+        "vegetarian",
+        "mediterranean"
+      ],
+      "weight_raw": null,
+      "weight_grams": 0,
+      "price_per_kg": null,
+      "shelf_life": "малотраен",
+      "is_bulk_worthy": false,
+      "source": "ocr",
+      "is_non_food_hint": false,
+      "candidate_score": 34,
+      "score_reasons": {
+        "ocr_engine": 21,
+        "confidence_tier": 8,
+        "food_hint": 15,
+        "high_noise": -10
+      }
+    },
+    {
+      "id": "ocr-kaufland-13-cnpachomako-kозуhаk-nnoaob-mmkc-opexn-10-07",
+      "store": "Kaufland",
+      "name": "cnpachomako козунак nnoaob mmkc opexn",
+      "emoji": "🍞",
+      "category": "grain",
+      "new_price": 10.07,
+      "old_price": null,
+      "discount_pct": null,
+      "valid_until": null,
+      "health_score": 4,
+      "diet_tags": [
+        "vegetarian"
+      ],
+      "weight_raw": null,
+      "weight_grams": 0,
+      "price_per_kg": null,
+      "shelf_life": "малотраен",
+      "is_bulk_worthy": false,
+      "source": "ocr",
+      "is_non_food_hint": false,
+      "candidate_score": 41,
+      "score_reasons": {
+        "ocr_engine": 21,
+        "confidence_tier": 15,
+        "food_hint": 15,
+        "high_noise": -10
+      }
+    },
+    {
+      "id": "ocr-kaufland-16-ctpahaxahcko-pbyho-обезkосtеhо-meco-заnе-10-73",
+      "store": "Kaufland",
+      "name": "cxahcko pbyho обезkосtеhо meco заnеуеhо cypobo-ccyweho свинско meco",
+      "emoji": "🥩",
+      "category": "protein",
+      "new_price": 10.73,
+      "old_price": null,
+      "discount_pct": null,
+      "valid_until": null,
+      "health_score": 7,
+      "diet_tags": [
+        "high_protein"
+      ],
+      "weight_raw": null,
+      "weight_grams": 0,
+      "price_per_kg": null,
+      "shelf_life": "малотраен",
+      "is_bulk_worthy": false,
+      "source": "ocr",
+      "is_non_food_hint": false,
+      "candidate_score": 34,
+      "score_reasons": {
+        "ocr_engine": 21,
+        "confidence_tier": 8,
+        "food_hint": 15,
+        "high_noise": -10
+      }
+    },
+    {
+      "id": "ocr-kaufland-17-цвекло-bwtpmha-speh-13-98",
+      "store": "Kaufland",
+      "name": "цвекло bwtpmha speh",
+      "emoji": "🥗",
+      "category": "vegetable",
+      "new_price": 13.98,
+      "old_price": null,
+      "discount_pct": null,
+      "valid_until": null,
+      "health_score": 8,
+      "diet_tags": [
+        "vegetarian",
+        "mediterranean"
+      ],
+      "weight_raw": null,
+      "weight_grams": 0,
+      "price_per_kg": null,
+      "shelf_life": "малотраен",
+      "is_bulk_worthy": false,
+      "source": "ocr",
+      "is_non_food_hint": false,
+      "candidate_score": 34,
+      "score_reasons": {
+        "ocr_engine": 21,
+        "confidence_tier": 8,
+        "food_hint": 15,
+        "high_noise": -10
+      }
+    },
+    {
+      "id": "ocr-kaufland-16-poaonea-cow-cwpehe-kpabe-мляко-17-88",
+      "store": "Kaufland",
+      "name": "poaonea cow cwpehe краве мляко",
+      "emoji": "🥛",
+      "category": "dairy",
+      "new_price": 17.88,
+      "old_price": null,
+      "discount_pct": null,
+      "valid_until": null,
+      "health_score": 7,
+      "diet_tags": [
+        "vegetarian"
+      ],
+      "weight_raw": null,
+      "weight_grams": 0,
+      "price_per_kg": null,
+      "shelf_life": "малотраен",
+      "is_bulk_worthy": false,
+      "source": "ocr",
+      "is_non_food_hint": false,
+      "candidate_score": 41,
+      "score_reasons": {
+        "ocr_engine": 21,
+        "confidence_tier": 15,
+        "food_hint": 15,
+        "high_noise": -10
+      }
+    },
+    {
+      "id": "ocr-kaufland-16-cypobo-ccyweho-cbmhcko-meco-kapameneha-y-20-99",
+      "store": "Kaufland",
+      "name": "cypobo-ccyweho свинско meco kapameneha yepbeh nmnep kopmyka 981b",
+      "emoji": "🥩",
+      "category": "protein",
+      "new_price": 20.99,
+      "old_price": null,
+      "discount_pct": null,
+      "valid_until": null,
+      "health_score": 7,
+      "diet_tags": [
+        "high_protein"
+      ],
+      "weight_raw": null,
+      "weight_grams": 0,
+      "price_per_kg": null,
+      "shelf_life": "малотраен",
+      "is_bulk_worthy": false,
+      "source": "ocr",
+      "is_non_food_hint": false,
+      "candidate_score": 42,
+      "score_reasons": {
+        "ocr_engine": 22,
+        "confidence_tier": 15,
+        "food_hint": 15,
+        "high_noise": -10
+      }
+    },
+    {
+      "id": "ocr-kaufland-10-hanokynka-arhewkw-arhewko-arhewkm-kotnet-21-49",
+      "store": "Kaufland",
+      "name": "половинка агнешки агнешко агнешки котлет meco koct",
+      "emoji": "🥩",
+      "category": "protein",
+      "new_price": 21.49,
+      "old_price": null,
+      "discount_pct": null,
+      "valid_until": null,
+      "health_score": 8,
+      "diet_tags": [
+        "high_protein",
+        "mediterranean"
+      ],
+      "weight_raw": null,
+      "weight_grams": 0,
+      "price_per_kg": null,
+      "shelf_life": "малотраен",
+      "is_bulk_worthy": false,
+      "source": "ocr",
+      "is_non_food_hint": false,
+      "candidate_score": 34,
+      "score_reasons": {
+        "ocr_engine": 21,
+        "confidence_tier": 8,
+        "food_hint": 15,
+        "high_noise": -10
+      }
     }
   ]
 }
