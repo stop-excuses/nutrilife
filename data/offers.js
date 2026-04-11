@@ -2,7 +2,7 @@ const OFFERS_DATA = [
   {
     "id": "ocr-lidl-7-баница-със-сирене-и-спанак-6p-мъжа-1-35",
     "store": "Lidl",
-    "name": "баница със сирене и спанак /6p мъжа",
+    "name": "баница със сирене и спанак",
     "emoji": "🥛",
     "category": "dairy",
     "new_price": 1.35,
@@ -91,59 +91,6 @@ const OFFERS_DATA = [
     ]
   },
   {
-    "id": "ocr-lidl-2-леща-2-05",
-    "store": "Lidl",
-    "name": "“ леща",
-    "emoji": "🫘",
-    "category": "legume",
-    "new_price": 2.05,
-    "old_price": null,
-    "discount_pct": null,
-    "valid_until": null,
-    "health_score": 9,
-    "diet_tags": [
-      "high_protein",
-      "mediterranean",
-      "vegetarian"
-    ],
-    "weight_raw": null,
-    "weight_grams": null,
-    "price_per_kg": null,
-    "shelf_life": "1-2г",
-    "is_bulk_worthy": true,
-    "image": null,
-    "source": "ocr",
-    "confidence": "high",
-    "ocr_score": 0.95,
-    "ocr_page": 2,
-    "ocr_raw_name": "“td Леща g/опаковка ASS",
-    "ocr_price_text": "2.05 AB",
-    "is_non_food_hint": false,
-    "candidate_score": 55,
-    "score_reasons": {
-      "ocr_engine": 25,
-      "confidence_tier": 25,
-      "food_hint": 15,
-      "name_too_short": -10
-    },
-    "available_stores": [
-      "Lidl"
-    ],
-    "new_price_eur": 1.05,
-    "old_price_eur": null,
-    "price_per_kg_eur": null,
-    "is_food": true,
-    "is_healthy": true,
-    "is_long_lasting": true,
-    "macros": {
-      "kcal": 116,
-      "p": 9,
-      "f": 0.4,
-      "c": 20
-    },
-    "is_junk": false
-  },
-  {
     "id": "ocr-lidl-15-пушено-сирене-нарязано-опаковка-lidl-2-72",
     "store": "Lidl",
     "name": "пушено сирене нарязано / lidl",
@@ -191,109 +138,6 @@ const OFFERS_DATA = [
       "p": 14,
       "f": 22,
       "c": 2
-    },
-    "is_junk": false
-  },
-  {
-    "id": "ocr-lidl-6-а-бургери-от-младо-свински-гърди-пилешко-8-39",
-    "store": "Lidl",
-    "name": "„ а бургери от младо свински гърди пилешко",
-    "emoji": "🍗",
-    "category": "protein",
-    "new_price": 8.39,
-    "old_price": null,
-    "discount_pct": null,
-    "valid_until": null,
-    "health_score": 9,
-    "diet_tags": [
-      "high_protein",
-      "keto"
-    ],
-    "weight_raw": null,
-    "weight_grams": null,
-    "price_per_kg": null,
-    "shelf_life": "малотраен",
-    "is_bulk_worthy": false,
-    "image": null,
-    "source": "ocr",
-    "confidence": "medium",
-    "ocr_score": 0.94,
-    "ocr_page": 6,
-    "ocr_raw_name": "„4 ey А Бургери от младо Свински гърди пилешко XXL",
-    "ocr_price_text": "8.39 лв.",
-    "is_non_food_hint": false,
-    "candidate_score": 45,
-    "score_reasons": {
-      "ocr_engine": 25,
-      "confidence_tier": 15,
-      "food_hint": 15,
-      "high_noise": -10
-    },
-    "available_stores": [
-      "Lidl"
-    ],
-    "new_price_eur": 4.29,
-    "old_price_eur": null,
-    "price_per_kg_eur": null,
-    "is_food": true,
-    "is_healthy": true,
-    "is_long_lasting": false,
-    "macros": {
-      "kcal": 165,
-      "p": 31,
-      "f": 3.6,
-      "c": 0
-    },
-    "is_junk": false
-  },
-  {
-    "id": "ocr-lidl-5-я-ав-бр-пресни-яйца-размер-11-99",
-    "store": "Lidl",
-    "name": "я” ав. « пресни яйца размер",
-    "emoji": "🍗",
-    "category": "protein",
-    "new_price": 11.99,
-    "old_price": null,
-    "discount_pct": null,
-    "valid_until": null,
-    "health_score": 9,
-    "diet_tags": [
-      "high_protein",
-      "keto",
-      "vegetarian"
-    ],
-    "weight_raw": null,
-    "weight_grams": null,
-    "price_per_kg": null,
-    "shelf_life": "малотраен",
-    "is_bulk_worthy": false,
-    "image": null,
-    "source": "ocr",
-    "confidence": "medium",
-    "ocr_score": 0.94,
-    "ocr_page": 5,
-    "ocr_raw_name": "я” ав. « ) 30 бр Пресни яйца Размер L",
-    "ocr_price_text": "11.99 лв",
-    "is_non_food_hint": false,
-    "candidate_score": 40,
-    "score_reasons": {
-      "ocr_engine": 25,
-      "confidence_tier": 15
-    },
-    "available_stores": [
-      "Lidl"
-    ],
-    "new_price_eur": 6.13,
-    "old_price_eur": null,
-    "price_per_kg_eur": null,
-    "is_food": true,
-    "is_healthy": true,
-    "is_long_lasting": false,
-    "macros": {
-      "kcal": 155,
-      "p": 13,
-      "f": 11,
-      "c": 1.1
     },
     "is_junk": false
   },
@@ -587,55 +431,6 @@ const OFFERS_DATA = [
     ]
   },
   {
-    "id": "ocr-lidl-3-пресни-картофи-египет-от-3-25",
-    "store": "Lidl",
-    "name": "пресни картофи от”",
-    "emoji": "🥦",
-    "category": "vegetable",
-    "new_price": 3.25,
-    "old_price": null,
-    "discount_pct": null,
-    "valid_until": null,
-    "health_score": 7,
-    "diet_tags": [
-      "vegetarian"
-    ],
-    "weight_raw": null,
-    "weight_grams": null,
-    "price_per_kg": null,
-    "shelf_life": "малотраен",
-    "is_bulk_worthy": false,
-    "image": null,
-    "source": "ocr",
-    "confidence": "medium",
-    "ocr_score": 0.93,
-    "ocr_page": 3,
-    "ocr_raw_name": "Пресни Картофи Египет от” 4",
-    "ocr_price_text": "3.25 AB.",
-    "is_non_food_hint": false,
-    "candidate_score": 40,
-    "score_reasons": {
-      "ocr_engine": 25,
-      "confidence_tier": 15
-    },
-    "available_stores": [
-      "Lidl"
-    ],
-    "new_price_eur": 1.66,
-    "old_price_eur": null,
-    "price_per_kg_eur": null,
-    "is_food": true,
-    "is_healthy": true,
-    "is_long_lasting": false,
-    "macros": {
-      "kcal": 77,
-      "p": 2,
-      "f": 0.1,
-      "c": 17
-    },
-    "is_junk": false
-  },
-  {
     "id": "life-la-vache-qui-rit-топено-сирене-ed9606",
     "store": "Life",
     "address": null,
@@ -790,7 +585,7 @@ const OFFERS_DATA = [
   {
     "id": "ocr-kaufland-11-нашата-специална-рецепта-за-крехка-агнеш-19-99",
     "store": "Kaufland",
-    "name": "нашата специална рецепта за крехка = агнешка плешка в",
+    "name": "нашата специална рецепта за крехка агнешка плешка",
     "emoji": "🍗",
     "category": "protein",
     "new_price": 19.99,
@@ -1962,14 +1757,16 @@ const OFFERS_DATA = [
     "id": "ocr-kaufland-13-паж-домашен-козунак-със-стафиди-и-6-18",
     "store": "Kaufland",
     "name": "паж домашен козунак със стафиди и",
-    "emoji": "🛒",
-    "category": "other",
+    "emoji": "🍞",
+    "category": "grain",
     "new_price": 6.18,
     "old_price": null,
     "discount_pct": null,
     "valid_until": null,
-    "health_score": null,
-    "diet_tags": [],
+    "health_score": 4,
+    "diet_tags": [
+      "vegetarian"
+    ],
     "weight_raw": null,
     "weight_grams": null,
     "price_per_kg": null,
@@ -1995,7 +1792,7 @@ const OFFERS_DATA = [
     "new_price_eur": 3.16,
     "old_price_eur": null,
     "price_per_kg_eur": null,
-    "is_food": false,
+    "is_food": true,
     "is_healthy": false,
     "is_long_lasting": false,
     "macros": null,
@@ -2202,14 +1999,16 @@ const OFFERS_DATA = [
     "id": "ocr-kaufland-13-козунак-със-стафиди-и-локум-а-8-59",
     "store": "Kaufland",
     "name": "козунак със стафиди и локум -а",
-    "emoji": "🛒",
-    "category": "other",
+    "emoji": "🍞",
+    "category": "grain",
     "new_price": 8.59,
     "old_price": null,
     "discount_pct": null,
     "valid_until": null,
-    "health_score": null,
-    "diet_tags": [],
+    "health_score": 4,
+    "diet_tags": [
+      "vegetarian"
+    ],
     "weight_raw": null,
     "weight_grams": null,
     "price_per_kg": null,
@@ -2235,7 +2034,7 @@ const OFFERS_DATA = [
     "new_price_eur": 4.39,
     "old_price_eur": null,
     "price_per_kg_eur": null,
-    "is_food": false,
+    "is_food": true,
     "is_healthy": false,
     "is_long_lasting": false,
     "macros": null,
