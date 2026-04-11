@@ -7,6 +7,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parent.parent
+ACCEPT_SCORE_THRESHOLD = 30  # candidates below this are rejected (0-100)
 DEFAULT_OFFERS_PATH = ROOT / "data" / "offers.json"
 DEFAULT_OCR_PATH = ROOT / "data" / "hybrid_ocr_candidates.json"
 DEFAULT_OUTPUT_PATH = ROOT / "data" / "hybrid_kaufland_output.json"
@@ -74,6 +75,26 @@ def normalize_name(text):
         "bapeho": "варено",
         "aiue": "яйце",
         "arhewka": "агнешка",
+        "arhewko": "агнешко",
+        "arhewkm": "агнешки",
+        "arhewkw": "агнешки",
+        "arhewku": "агнешки",
+        "cbmhcko": "свинско",
+        "cbmhckm": "свинско",
+        "cbnhcko": "свинско",
+        "cbmhcka": "свинска",
+        "cocorico": "пилешко",
+        "macnmhobo": "маслиново",
+        "kозуhаk": "козунак",
+        "kозyhaк": "козунак",
+        "kебаn": "кебап",
+        "ke6аn": "кебап",
+        "kебаnуеtа": "кебапчета",
+        "kotnet": "котлет",
+        "cyna": "супа",
+        "byprep": "бургер",
+        "hanokynka": "половинка",
+        "necho": "прясно",
         "apoб": "дроб",
         "capma": "сарма",
         "opuз": "ориз",
@@ -126,6 +147,10 @@ FOOD_HINTS = {
     "хайвер", "гауда", "едам", "лимони", "ягоди", "салата", "масло",
     "леща", "фузили", "паста", "ядки", "орех", "козунак", "ананас",
     "боровинки", "яйце", "агнешка", "дроб", "сарма", "ориз",
+    "грозде", "канталупе", "пъпеш", "череша", "праскова", "кайсия",
+    "вишна", "слива", "киви", "манго", "черни", "прясно", "кефир",
+    "агнешко", "агнешки", "агнешка", "свинско", "маслиново",
+    "пилешко", "кебап", "кебапчета", "котлет", "супа", "бургер", "хамбургер",
 }
 
 NON_FOOD_HINTS = {
@@ -176,7 +201,7 @@ FOOD_CLUSTERS = {
     "bakery": {"хляб", "козунак", "плитка"},
     "pasta": {"фузили", "паста"},
     "nuts": {"ядки", "орехови"},
-    "meat": {"агнешка", "дроб", "сарма", "яйце"},
+    "meat": {"агнешка", "агнешко", "агнешки", "свинско", "пилешко", "дроб", "сарма", "яйце", "кебап", "котлет"},
 }
 
 
@@ -195,6 +220,66 @@ def has_conflicting_food_clusters(name):
     return True
 
 
+def score_ocr_candidate(name, confidence, ocr_score):
+    """Score an OCR candidate from 0–100. Returns (score: int, reasons: dict).
+
+    Component breakdown (max ~100):
+      ocr_engine      0–27  raw OCR engine confidence × 27
+      confidence_tier 0/15/25  low / medium / high
+      food_hint       +15  name contains a known food keyword
+      high_noise      -25  name fails noise heuristics
+      conflicting_cls -20  name mixes incompatible food clusters
+      name_too_short  -10  fewer than 2 meaningful words
+      non_food_hint   -15  name contains a non-food keyword
+
+    Threshold: ACCEPT_SCORE_THRESHOLD (default 40).
+    """
+    score = 0
+    reasons = {}
+
+    # OCR engine confidence (0–27 points)
+    eng_pts = int(float(ocr_score) * 27)
+    score += eng_pts
+    reasons["ocr_engine"] = eng_pts
+
+    # Confidence tier (8/15/25 points) — low is 8 not 0: OCR_REPLACEMENTS cover many low-score cases
+    tier_pts = {"high": 25, "medium": 15, "low": 8}[confidence]
+    score += tier_pts
+    reasons["confidence_tier"] = tier_pts
+
+    # Food relevance (+15)
+    clean = clean_merge_name(name)
+    tokens = name_tokens(clean)
+    if tokens & FOOD_HINTS:
+        score += 15
+        reasons["food_hint"] = 15
+
+    # Noise penalty: -10 if food keyword present, -25 if pure noise
+    if is_high_noise_name(name):
+        noise_penalty = -10 if (tokens & FOOD_HINTS) else -25
+        score += noise_penalty
+        reasons["high_noise"] = noise_penalty
+
+    # Conflicting clusters penalty (-20)
+    if has_conflicting_food_clusters(name):
+        score -= 20
+        reasons["conflicting_clusters"] = -20
+
+    # Short name penalty (-10)
+    words = [w for w in clean.split() if len(w) > 2]
+    if len(words) < 2:
+        score -= 10
+        reasons["name_too_short"] = -10
+
+    # Non-food hint penalty (-15)
+    if tokens & NON_FOOD_HINTS:
+        score -= 15
+        reasons["non_food_hint"] = -15
+
+    score = max(0, min(100, score))
+    return score, reasons
+
+
 def is_structured_match(ocr_candidate, structured_offer):
     if abs(ocr_candidate["new_price"] - structured_offer["new_price"]) > 0.02:
         return False
@@ -204,22 +289,64 @@ def is_structured_match(ocr_candidate, structured_offer):
     return len(overlap) >= 1
 
 
+_CATEGORY_MAP = [
+    # (tokens_set, category, emoji, health_score, diet_tags)
+    ({"агнешко", "агнешки", "агнешка", "котлет", "кебап", "кебапчета"}, "protein", "🥩", 8, ["high_protein", "mediterranean"]),
+    ({"свинско", "свинска"}, "protein", "🥩", 7, ["high_protein"]),
+    ({"пилешко"}, "protein", "🐔", 9, ["high_protein", "keto"]),
+    ({"риба", "хайвер"}, "protein", "🐟", 10, ["high_protein", "keto", "mediterranean"]),
+    ({"яйце"}, "protein", "🥚", 9, ["high_protein", "keto", "vegetarian"]),
+    ({"козунак"}, "grain", "🍞", 4, ["vegetarian"]),
+    ({"мляко"}, "dairy", "🥛", 7, ["vegetarian"]),
+    ({"сирене", "кашкавал"}, "dairy", "🧀", 7, ["vegetarian", "high_protein"]),
+    ({"маслиново", "зехтин"}, "fat", "🫒", 10, ["keto", "mediterranean"]),
+    ({"авокадо"}, "fat", "🥑", 10, ["keto", "mediterranean", "vegetarian"]),
+    ({"лук", "краставици", "домати", "спанак", "салата", "моркови", "печурки", "цвекло"}, "vegetable", "🥗", 8, ["vegetarian", "mediterranean"]),
+    ({"ябълки", "круши", "ананас", "манго", "портокали", "лимони", "ягоди", "боровинки", "канталупе", "пъпеш", "грозде"}, "vegetable", "🍎", 8, ["vegetarian"]),
+    ({"леща", "нахут", "боб"}, "legume", "🫘", 9, ["vegetarian", "high_protein", "budget"]),
+    ({"ориз", "хляб", "паста", "фузили"}, "grain", "🌾", 6, ["vegetarian", "budget"]),
+    ({"ядки", "орехови"}, "nuts", "🥜", 9, ["keto", "vegetarian"]),
+    ({"сок"}, "canned", "🧃", 5, ["vegetarian"]),
+]
+
+
+def infer_category(name):
+    tokens = name_tokens(clean_merge_name(name))
+    for token_set, category, emoji, health_score, diet_tags in _CATEGORY_MAP:
+        if tokens & token_set:
+            return category, emoji, health_score, diet_tags
+    return "other", "🛒", 5, []
+
+
 def build_ocr_offer(page_number, candidate, store_name):
     normalized_name = clean_merge_name(candidate["name"])
+    # Confidence is derived from OCR engine score only.
+    # Word count is evaluated separately in score_ocr_candidate.
     confidence = "medium"
-    if candidate["score"] >= 0.95 and len(normalized_name.split()) >= 2:
+    if candidate["score"] >= 0.95:
         confidence = "high"
-    elif candidate["score"] < 0.8 or len(normalized_name.split()) <= 1:
+    elif candidate["score"] < 0.8:
         confidence = "low"
+
+    category, emoji, health_score, diet_tags = infer_category(normalized_name)
 
     return {
         "id": f"ocr-{store_name.lower()}-{page_number}-{slugify(candidate['name'])[:40]}-{str(candidate['price']).replace('.', '-')}",
         "store": store_name,
         "name": normalized_name,
+        "emoji": emoji,
+        "category": category,
         "new_price": candidate["price"],
         "old_price": None,
         "discount_pct": None,
         "valid_until": None,
+        "health_score": health_score,
+        "diet_tags": diet_tags,
+        "weight_raw": None,
+        "weight_grams": 0,
+        "price_per_kg": None,
+        "shelf_life": "малотраен",
+        "is_bulk_worthy": False,
         "image": candidate.get("image_url"),
         "source": "ocr",
         "confidence": confidence,
@@ -256,6 +383,7 @@ def merge_offers(structured_offers, ocr_payload, store_name):
         if offer.get("store") == store_name and offer.get("source", "structured") == "structured"
     ]
     merged = []
+    rejected_items = []
     matched_structured_ids = set()
 
     for offer in structured:
@@ -267,18 +395,29 @@ def merge_offers(structured_offers, ocr_payload, store_name):
     for page in ocr_payload["pages"]:
         for candidate in page["product_candidates"]:
             ocr_offer = build_ocr_offer(page["page"], candidate, store_name)
-            if ocr_offer["confidence"] == "low":
-                continue
-            if is_high_noise_name(ocr_offer["name"]):
-                continue
-            # NOTE: is_likely_food() check REMOVED — we now include ALL products.
-            # Non-food items are tagged via is_non_food_hint and classified downstream.
-            # Only reject if conflicting food clusters (indicates OCR garbage)
-            if has_conflicting_food_clusters(ocr_offer["name"]):
-                continue
-
-            # Carry soft non-food hint through
             ocr_offer["is_non_food_hint"] = candidate.get("is_non_food_hint", False)
+
+            # Score candidate — replaces all binary pass/fail checks
+            cand_score, reasons = score_ocr_candidate(
+                ocr_offer["name"],
+                ocr_offer["confidence"],
+                candidate["score"],
+            )
+            ocr_offer["candidate_score"] = cand_score
+            ocr_offer["score_reasons"] = reasons
+
+            if cand_score < ACCEPT_SCORE_THRESHOLD:
+                rejected_items.append({
+                    "name": ocr_offer["name"],
+                    "raw_name": candidate.get("raw_name"),
+                    "price": ocr_offer["new_price"],
+                    "page": page["page"],
+                    "candidate_score": cand_score,
+                    "score_reasons": reasons,
+                    "ocr_score": candidate["score"],
+                    "confidence": ocr_offer["confidence"],
+                })
+                continue
 
             matched = False
             for structured_offer in structured:
@@ -304,9 +443,8 @@ def merge_offers(structured_offers, ocr_payload, store_name):
             seen[key] = offer
 
     deduped.extend(seen.values())
-
     deduped.sort(key=lambda item: (item["source"] != "structured", item["new_price"], item["name"]))
-    return deduped, matched_structured_ids
+    return deduped, matched_structured_ids, rejected_items
 
 
 def parse_args():
@@ -316,6 +454,7 @@ def parse_args():
     parser.add_argument("--pages", nargs="*", type=int)
     parser.add_argument("--offers-json", default=str(DEFAULT_OFFERS_PATH))
     parser.add_argument("--ocr-json-out", default=str(DEFAULT_OCR_PATH))
+    parser.add_argument("--ocr-input", default=None, help="Skip OCR, load candidates from this JSON file")
     parser.add_argument("--output-json", default=str(DEFAULT_OUTPUT_PATH))
     return parser.parse_args()
 
@@ -328,29 +467,55 @@ def main():
 
     offers_payload = load_json(offers_path)
     structured_offers = extract_offer_list(offers_payload)
-    run_ocr_extractor(args.brochure_url, args.pages, ocr_json_out)
-    ocr_payload = load_json(ocr_json_out)
-    merged_offers, matched_structured_ids = merge_offers(structured_offers, ocr_payload, args.store)
+    if args.ocr_input:
+        ocr_payload = load_json(Path(args.ocr_input))
+    else:
+        run_ocr_extractor(args.brochure_url, args.pages, ocr_json_out)
+        ocr_payload = load_json(ocr_json_out)
+    merged_offers, matched_structured_ids, rejected_items = merge_offers(
+        structured_offers, ocr_payload, args.store
+    )
 
+    ocr_added = [o for o in merged_offers if o.get("source") == "ocr"]
     payload = {
         "generated_from": {
             "brochure_url": args.brochure_url,
             "store": args.store,
             "pages": args.pages or "all",
+            "accept_score_threshold": ACCEPT_SCORE_THRESHOLD,
         },
-        "structured_count": len([offer for offer in structured_offers if offer.get("store") == args.store and offer.get("source", "structured") == "structured"]),
+        "structured_count": len([
+            o for o in structured_offers
+            if o.get("store") == args.store and o.get("source", "structured") == "structured"
+        ]),
         "ocr_page_count": len(ocr_payload["pages"]),
-        "ocr_candidate_count": sum(len(page["product_candidates"]) for page in ocr_payload["pages"]),
+        "ocr_candidate_count": sum(len(p["product_candidates"]) for p in ocr_payload["pages"]),
         "matched_structured_count": len(matched_structured_ids),
+        "ocr_accepted_count": len(ocr_added),
+        "ocr_rejected_count": len(rejected_items),
         "merged_offer_count": len(merged_offers),
         "offers": merged_offers,
+        "rejected_items": rejected_items,
     }
     save_json(output_json, payload)
-    print(f"Saved merged output to {output_json}")
-    print(f"Structured offers: {payload['structured_count']}")
-    print(f"OCR candidates: {payload['ocr_candidate_count']}")
-    print(f"Structured matched by OCR: {payload['matched_structured_count']}")
-    print(f"Merged offers total: {payload['merged_offer_count']}")
+
+    # Also write rejected items to a separate debug file for easy inspection
+    rejected_path = output_json.parent / (output_json.stem + "_rejected.json")
+    save_json(rejected_path, {
+        "store": args.store,
+        "accept_score_threshold": ACCEPT_SCORE_THRESHOLD,
+        "rejected_count": len(rejected_items),
+        "rejected_items": sorted(rejected_items, key=lambda x: -x["candidate_score"]),
+    })
+
+    print(f"Saved merged output -> {output_json}")
+    print(f"Saved rejected items -> {rejected_path}")
+    print(f"Structured offers  : {payload['structured_count']}")
+    print(f"OCR candidates     : {payload['ocr_candidate_count']}")
+    print(f"  accepted         : {payload['ocr_accepted_count']}")
+    print(f"  rejected         : {payload['ocr_rejected_count']}")
+    print(f"Structured matched : {payload['matched_structured_count']}")
+    print(f"Merged total       : {payload['merged_offer_count']}")
 
 
 if __name__ == "__main__":
