@@ -2,6 +2,36 @@
 
 Current date context: 2026-04-10
 
+## Промени от 2026-04-10 (v2 session)
+
+### Критичен бъг поправен
+- `scrape_store()` връщаше `None` за магазини с >100 оферти (T-Market и всеки магазин над прага).
+- OCR `return` беше вътре в `if` блока — сега е извън него. Всички магазини вече се записват.
+
+### OCR вече работи винаги
+- Старо: OCR само при < 100/150 оферти
+- Ново: OCR работи за всеки поддържан магазин (Kaufland, Lidl, Fantastico, Billa) при всеки рън, стига да има активна брошура
+
+### Самообучаваща система
+- `load_custom_keywords()` — при стартиране зарежда `data/custom_keywords.json` + auto-promote на MACROS_DB ключове
+- `analyze_and_save_learning()` — след всеки рън: открива некатегоризирани продукти, промотира повтарящи се в `data/custom_keywords.json`
+- `save_run_stats()` — детайлна статистика на всеки рън в `data/scraper_stats.json`
+
+### Нови файлове
+- `data/scraper_learning.json` — история на рановете + кандидати за нови ключови думи
+- `data/custom_keywords.json` — авто-промотирани + потребителски ключови думи
+- `data/scraper_stats.json` — история на всички ранове с breakdown по магазин
+
+### Разширени ключови думи (FOOD_KEYWORDS)
+- ~120 → ~180 ключови думи
+- Добавени: авокадо, патладжан, тиква, аспержи, праз, гъб, манатарк, киви, боровинки, нар, киноа, елда, тахан, хумус, кефир, айран, треска, лаврак и др.
+
+### Разширени магазини
+- Старо: само Lidl, Kaufland, Billa, T-Market, Fantastico (5)
+- Ново: + CBA, Slaveks, STOP4ETO, Flora, Life, HIT, Metro, Penny, Piccadilly (до 14)
+
+
+
 This file tracks what has already been tested for brochure OCR, what worked, what failed, and what should be tried next.
 
 ## Goal
