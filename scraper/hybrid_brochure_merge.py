@@ -411,7 +411,15 @@ def merge_offers(structured_offers, ocr_payload, store_name):
             ocr_offer["candidate_score"] = cand_score
             ocr_offer["score_reasons"] = reasons
 
-            if cand_score < ACCEPT_SCORE_THRESHOLD:
+            _UNICODE_QUOTES = "\u201c\u201d\u201e\u00ab\u00bb\u2018\u2019"
+            _BAD_OCR = re.compile(
+                r'onako6bka|butpuha|подпрабвка|[а-я][' + _UNICODE_QUOTES + r']'
+                r'|^[а-я]\s*\+\s|картофи от["\u201d]\s*$',
+                re.IGNORECASE
+            )
+            if (cand_score < ACCEPT_SCORE_THRESHOLD
+                    or (ocr_offer["name"] and ocr_offer["name"][0] in _UNICODE_QUOTES)
+                    or (ocr_offer["name"] and _BAD_OCR.search(ocr_offer["name"]))):
                 rejected_items.append({
                     "name": ocr_offer["name"],
                     "raw_name": candidate.get("raw_name"),
