@@ -1,0 +1,158 @@
+{
+  "version": 2,
+  "runs": [
+    {
+      "date": "2026-04-10T20:37:09.077868Z",
+      "elapsed_seconds": 541,
+      "total_offers": 87,
+      "food_offers": 31,
+      "healthy_offers": 27,
+      "stores_scraped": [
+        "Billa",
+        "CBA",
+        "Fantastico",
+        "Flora",
+        "HIT",
+        "Kaufland",
+        "Lidl",
+        "Life",
+        "STOP4ETO",
+        "Slaveks",
+        "T-Market"
+      ],
+      "by_store": {
+        "Fantastico": 10,
+        "HIT": 9,
+        "Slaveks": 13,
+        "Lidl": 8,
+        "T-Market": 11,
+        "Flora": 9,
+        "STOP4ETO": 6,
+        "Kaufland": 23,
+        "Billa": 11,
+        "CBA": 22,
+        "Life": 21
+      },
+      "ocr_by_store": {},
+      "total_brochures": 9,
+      "food_keywords_active": 174,
+      "uncategorized_new": 3,
+      "auto_promoted_this_run": []
+    },
+    {
+      "date": "2026-04-11T05:09:17.898085Z",
+      "elapsed_seconds": 1452,
+      "total_offers": 96,
+      "food_offers": 32,
+      "healthy_offers": 27,
+      "stores_scraped": [
+        "Billa",
+        "CBA",
+        "Fantastico",
+        "Flora",
+        "HIT",
+        "Kaufland",
+        "Lidl",
+        "Life",
+        "STOP4ETO",
+        "Slaveks",
+        "T-Market"
+      ],
+      "by_store": {
+        "HIT": 8,
+        "Slaveks": 17,
+        "Lidl": 16,
+        "CBA": 22,
+        "Flora": 12,
+        "Fantastico": 13,
+        "Billa": 9,
+        "Kaufland": 24,
+        "Life": 19,
+        "STOP4ETO": 7,
+        "T-Market": 9
+      },
+      "ocr_by_store": {
+        "Lidl": 7,
+        "Fantastico": 2,
+        "Kaufland": 6
+      },
+      "total_brochures": 9,
+      "food_keywords_active": 174,
+      "uncategorized_new": 2,
+      "auto_promoted_this_run": []
+    },
+    {
+      "date": "2026-04-11T06:31:01.184986Z",
+      "elapsed_seconds": 704,
+      "total_offers": 110,
+      "food_offers": 37,
+      "healthy_offers": 32,
+      "stores_scraped": [
+        "Billa",
+        "CBA",
+        "Fantastico",
+        "Flora",
+        "HIT",
+        "Kaufland",
+        "Lidl",
+        "Life",
+        "STOP4ETO",
+        "Slaveks",
+        "T-Market"
+      ],
+      "by_store": {
+        "Life": 24,
+        "Lidl": 19,
+        "Fantastico": 9,
+        "HIT": 10,
+        "Kaufland": 21,
+        "Flora": 23,
+        "T-Market": 8,
+        "CBA": 21,
+        "Slaveks": 16,
+        "STOP4ETO": 6,
+        "Billa": 9
+      },
+      "ocr_by_store": {
+        "Lidl": 8
+      },
+      "total_brochures": 9,
+      "food_keywords_active": 174,
+      "uncategorized_new": 0,
+      "auto_promoted_this_run": []
+    }
+  ],
+  "candidates": {
+    "hipp биопюре избрани видове": {
+      "name": "Hipp Биопюре избрани видове",
+      "count": 3,
+      "stores": [
+        "Slaveks",
+        "Flora",
+        "Life"
+      ],
+      "last_seen": "2026-04-11T05:09:17.898847Z"
+    },
+    "lavazza кафе на зърна crema e gusto classico": {
+      "name": "Lavazza Кафе на зърна Crema e gusto Classico",
+      "count": 4,
+      "stores": [
+        "Lidl",
+        "CBA",
+        "Slaveks",
+        "Life"
+      ],
+      "last_seen": "2026-04-11T05:09:17.898847Z"
+    },
+    "gerber пюре различни видове": {
+      "name": "Gerber Пюре различни видове",
+      "count": 1,
+      "stores": [
+        "Life"
+      ],
+      "last_seen": "2026-04-10T20:37:09.078254Z"
+    }
+  },
+  "auto_promoted": [],
+  "suggested_keywords": []
+}

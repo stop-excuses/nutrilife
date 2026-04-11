@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.idea/
+.vscode/
+
+# Claude local settings
+.claude/settings.local.json
+
+# Scraper cache & temp files
+data/image_cache/
+data/pdf_cache/
+data/brochure_cache/
+data/backups/
+data/tmp_*.json
+data/tmp_*.txt
+
+# OS
+.DS_Store
+Thumbs.db
