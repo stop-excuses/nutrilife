@@ -20,66 +20,95 @@ document.addEventListener("DOMContentLoaded", () => {
    "пилешки гърди" matches before the bare "пиле" fallback.
    ----------------------------------------------------------------------- */
 const CANONICAL_NUTRITION = [
-    // Fish & seafood
-    ["риба тон",      { p: 25, f:  1,   c:  0,   kcal: 116 }],
-    ["сьомга",        { p: 20, f: 13,   c:  0,   kcal: 208 }],
-    ["пъстърва",      { p: 20, f:  3.5, c:  0,   kcal: 110 }],
-    ["скумрия",       { p: 19, f: 14,   c:  0,   kcal: 205 }],
-    ["треска",        { p: 18, f:  0.9, c:  0,   kcal:  82 }],
-    ["ципура",        { p: 19, f:  2.5, c:  0,   kcal:  96 }],
-    ["лаврак",        { p: 19, f:  2.5, c:  0,   kcal:  97 }],
-    ["сельодка",      { p: 18, f: 12,   c:  0,   kcal: 185 }],
-    // Poultry
-    ["пилешки гърди", { p: 23, f:  5,   c:  0,   kcal: 165 }],
-    ["пилешко гърди", { p: 23, f:  5,   c:  0,   kcal: 165 }],
-    ["пилешко филе",  { p: 23, f:  5,   c:  0,   kcal: 165 }],
-    ["пилешко",       { p: 21, f:  8,   c:  0,   kcal: 165 }],
-    ["пиле",          { p: 21, f:  8,   c:  0,   kcal: 165 }],
-    ["пуешко",        { p: 24, f:  4,   c:  0,   kcal: 135 }],
-    // Red meat
-    ["говеждо",       { p: 26, f: 10,   c:  0,   kcal: 250 }],
-    ["телешко",       { p: 21, f:  5,   c:  0,   kcal: 130 }],
-    ["свинско",       { p: 21, f: 20,   c:  0,   kcal: 260 }],
-    ["агнешко",       { p: 21, f: 17,   c:  0,   kcal: 234 }],
-    // Dairy — high protein
-    ["скир",          { p: 11, f:  0.2, c:  3.5, kcal:  60 }],
-    ["skyr",          { p: 11, f:  0.2, c:  3.5, kcal:  60 }],
-    ["извара",        { p: 11, f:  4.3, c:  3.4, kcal:  98 }],
-    ["cottage",       { p: 11, f:  4.3, c:  3.4, kcal:  98 }],
-    // Eggs
-    ["яйц",           { p: 13, f: 11,   c:  1.1, kcal: 155 }],
-    // Dairy — moderate protein
-    ["кисело мляко",  { p:  3.5, f: 3.6, c: 4.7, kcal:  63 }],
-    ["йогурт",        { p:  3.5, f: 3.6, c: 4.7, kcal:  63 }],
-    ["мляко",         { p:  3.4, f: 3.6, c: 4.8, kcal:  64 }],
-    ["сирене",        { p: 17,   f: 21,  c: 0.5, kcal: 260 }],
-    // Legumes
-    ["нахут",         { p:  9,   f: 2.6, c: 27,  kcal: 164 }],
-    ["леща",          { p:  9,   f: 0.4, c: 20,  kcal: 116 }],
-    ["боб",           { p:  8,   f: 0.5, c: 24,  kcal: 127 }],
-    ["фасул",         { p:  8,   f: 0.5, c: 24,  kcal: 127 }],
-    ["грах",          { p:  5,   f: 0.4, c: 14,  kcal:  81 }],
-    // Grains
-    ["овесени ядки",  { p: 13,   f: 7,   c: 67,  kcal: 389 }],
-    ["овес",          { p: 13,   f: 7,   c: 67,  kcal: 389 }],
-    ["ориз",          { p:  7,   f: 0.6, c: 80,  kcal: 365 }],
-    // Nuts & seeds
-    ["бадем",         { p: 21,   f: 49,  c: 22,  kcal: 575 }],
-    ["орех",          { p: 15,   f: 65,  c: 14,  kcal: 654 }],
-    ["кашу",          { p: 18,   f: 44,  c: 30,  kcal: 553 }],
-    ["лешник",        { p: 15,   f: 61,  c: 17,  kcal: 628 }],
-    ["писташ",        { p: 20,   f: 45,  c: 28,  kcal: 562 }],
-    // Oils
-    ["зехтин",        { p:  0,   f: 100, c:  0,  kcal: 884 }],
-    ["масло краве",   { p:  0.6, f: 81,  c:  0.1,kcal: 717 }],
+    // --- Overrides for commonly misclassified items (checked FIRST) ---
+    // Ground coffee: technically p=18 dry grounds but irrelevant — consumed as liquid
+    ["кафе",              { p:  0.1, f:  0,   c:  0,   kcal:   2 }],
+    ["coffee",            { p:  0.1, f:  0,   c:  0,   kcal:   2 }],
+    // Instant noodles — contain "пиле/говеждо" as flavoring only
+    ["инстантни спагет",  { p:  8,   f: 12,   c: 62,   kcal: 385 }],
+    ["инстантни нудли",   { p:  8,   f: 12,   c: 62,   kcal: 385 }],
+    ["рамен",             { p:  8,   f: 12,   c: 62,   kcal: 385 }],
+    // Flour — high protein but wrong context for HP filter
+    ["брашно",            { p: 10,   f:  1,   c: 76,   kcal: 364 }],
+    // Tomatoes/tomato products
+    ["доматен сос",       { p:  2,   f:  0.3, c:  7,   kcal:  40 }],
+    ["домати",            { p:  0.9, f:  0.2, c:  3.9, kcal:  21 }],
+
+    // --- Fish & seafood ---
+    ["риба тон",          { p: 25, f:  1,   c:  0,   kcal: 116 }],
+    ["сьомга",            { p: 20, f: 13,   c:  0,   kcal: 208 }],
+    ["пъстърва",          { p: 20, f:  3.5, c:  0,   kcal: 110 }],
+    ["скумрия",           { p: 19, f: 14,   c:  0,   kcal: 205 }],
+    ["треска",            { p: 18, f:  0.9, c:  0,   kcal:  82 }],
+    ["ципура",            { p: 19, f:  2.5, c:  0,   kcal:  96 }],
+    ["лаврак",            { p: 19, f:  2.5, c:  0,   kcal:  97 }],
+    ["сельодка",          { p: 18, f: 12,   c:  0,   kcal: 185 }],
+    ["херинга",           { p: 18, f: 12,   c:  0,   kcal: 185 }],
+    // --- Poultry (longer first to avoid "пиле" matching "пилешко аромат") ---
+    ["пилешки гърди",     { p: 23, f:  5,   c:  0,   kcal: 165 }],
+    ["пилешко гърди",     { p: 23, f:  5,   c:  0,   kcal: 165 }],
+    ["пилешко филе",      { p: 23, f:  5,   c:  0,   kcal: 165 }],
+    ["пилешко",           { p: 21, f:  8,   c:  0,   kcal: 165 }],
+    ["пуешко",            { p: 24, f:  4,   c:  0,   kcal: 135 }],
+    ["пиле",              { p: 21, f:  8,   c:  0,   kcal: 165 }],
+    // --- Red meat ---
+    ["говеждо",           { p: 26, f: 10,   c:  0,   kcal: 250 }],
+    ["телешко",           { p: 21, f:  5,   c:  0,   kcal: 130 }],
+    ["свинско",           { p: 21, f: 20,   c:  0,   kcal: 260 }],
+    ["агнешко",           { p: 21, f: 17,   c:  0,   kcal: 234 }],
+    // --- Dairy — high protein ---
+    ["скир",              { p: 11, f:  0.2, c:  3.5, kcal:  60 }],
+    ["skyr",              { p: 11, f:  0.2, c:  3.5, kcal:  60 }],
+    ["извара",            { p: 11, f:  4.3, c:  3.4, kcal:  98 }],
+    ["cottage",           { p: 11, f:  4.3, c:  3.4, kcal:  98 }],
+    // --- Eggs ---
+    ["яйц",               { p: 13, f: 11,   c:  1.1, kcal: 155 }],
+    // --- Dairy — moderate ---
+    ["кисело мляко",      { p:  3.5, f: 3.6, c: 4.7, kcal:  63 }],
+    ["йогурт",            { p:  3.5, f: 3.6, c: 4.7, kcal:  63 }],
+    ["мляко",             { p:  3.4, f: 3.6, c: 4.8, kcal:  64 }],
+    ["сирене",            { p: 17,   f: 21,  c: 0.5, kcal: 260 }],
+    ["моцарела",          { p: 22,   f: 22,  c: 2.2, kcal: 300 }],
+    // --- Legumes ---
+    ["нахут",             { p:  9,   f: 2.6, c: 27,  kcal: 164 }],
+    ["леща",              { p:  9,   f: 0.4, c: 20,  kcal: 116 }],
+    ["фасул",             { p:  8,   f: 0.5, c: 24,  kcal: 127 }],
+    ["боб",               { p:  8,   f: 0.5, c: 24,  kcal: 127 }],
+    ["грах",              { p:  5,   f: 0.4, c: 14,  kcal:  81 }],
+    // --- Grains ---
+    ["овесени ядки",      { p: 13,   f: 7,   c: 67,  kcal: 389 }],
+    ["овес",              { p: 13,   f: 7,   c: 67,  kcal: 389 }],
+    ["ориз",              { p:  7,   f: 0.6, c: 80,  kcal: 365 }],
+    // --- Nuts & seeds ---
+    ["бадем",             { p: 21,   f: 49,  c: 22,  kcal: 575 }],
+    ["орех",              { p: 15,   f: 65,  c: 14,  kcal: 654 }],
+    ["кашу",              { p: 18,   f: 44,  c: 30,  kcal: 553 }],
+    ["лешник",            { p: 15,   f: 61,  c: 17,  kcal: 628 }],
+    ["писташ",            { p: 20,   f: 45,  c: 28,  kcal: 562 }],
+    // --- Oils & fats ---
+    ["зехтин",            { p:  0,   f: 100, c:  0,  kcal: 884 }],
+    ["масло краве",       { p:  0.6, f: 81,  c:  0.1,kcal: 717 }],
+];
+
+// Items whose names contain these substrings get null macros —
+// they look like food but aren't (dyes, stickers, decorations, drinks).
+const NON_FOOD_MACRO_OVERRIDE = [
+    "боя за", "стикери за", "кристали за яйца", "фолио за яйца",
+    "украса за", "разтворимо кафе", "капсули кафе", "чай ",
+    "raffaello", "kinder", "великденски яйца", "шоколадов",
 ];
 
 /**
  * Returns canonical nutrition for an offer if a known food type is matched.
- * Otherwise returns the scraped macros (or null).
+ * Canonical table takes priority over scraped macros — prevents noisy
+ * scraper values from distorting protein rankings and filters.
+ * Returns null for known non-food items.
  */
 function getMacros(offer) {
     const nameLower = (offer.name || "").toLowerCase();
+    // Hard-block known non-food names
+    if (NON_FOOD_MACRO_OVERRIDE.some(kw => nameLower.includes(kw))) return null;
+    // Canonical lookup (longest/most specific entries are first in the array)
     for (const [keyword, nutrition] of CANONICAL_NUTRITION) {
         if (nameLower.includes(keyword)) return nutrition;
     }
