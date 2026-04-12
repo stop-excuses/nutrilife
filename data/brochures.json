@@ -1,9 +1,8 @@
 {
-  "generated_at": "2026-04-11T06:31:01.116156Z",
-  "total_brochures": 9,
+  "generated_at": "2026-04-11T15:54:56.354468Z",
+  "total_brochures": 8,
   "stores": [
     "Fantastico",
-    "HIT",
     "Kaufland",
     "Lidl",
     "T-Market"
@@ -23,14 +22,6 @@
       "title": "Пролетно настроение във Фантастико с валидност до 22.04.2026",
       "valid_from": null,
       "valid_until": "2026-04-22",
-      "is_active": true
-    },
-    {
-      "store": "HIT",
-      "url": "https://www.broshura.bg/b/5968525",
-      "title": "Към брошурата",
-      "valid_from": null,
-      "valid_until": "2026-04-15",
       "is_active": true
     },
     {
