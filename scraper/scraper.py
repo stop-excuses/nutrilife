@@ -46,6 +46,7 @@ try:
         scrape_billa_text,
         scrape_lidl_dom,
         scrape_tmarket_dom,
+        scrape_tmarket_catalog,
         scrape_fantastico_csv,
         is_high_protein,
         clean_ocr_name,
@@ -63,7 +64,7 @@ except ImportError as _e:
 SOURCE_PRIORITY = {
     "kaufland_dom": 3, "billa_text": 3,
     "lidl_dom": 3,
-    "tmarket_dom": 3, "fantastico_csv": 3,
+    "tmarket_dom": 3, "tmarket_catalog": 3, "fantastico_csv": 3,
     "structured": 3,
     "brochure": 2,
     "ocr": 1,
@@ -177,7 +178,7 @@ JUNK_KEYWORDS = [
 
 # Heavily processed meats — food but NOT healthy (high sodium, nitrites, fillers)
 PROCESSED_MEAT_KEYWORDS = [
-    "кренвирш", "наденица", "салам",
+    "шунка", "кренвирш", "наденица", "салам", "луканка", "бекон", "шпек", "карначе", "суджук",
 ]
 
 CATEGORY_MAP = {
@@ -577,6 +578,7 @@ def get_diet_tags(name):
 NOT_FOOD_KEYWORDS = [
     # Pet food
     "храна за кучета", "храна за котки", "храна за куче", "храна за котка",
+    "консерва за кучета", "консерва за котки", "консерва за куче", "консерва за котка",
     "храна за домашни", "храна за животни", "храна за птици",
     # Furniture / household items
     "термочаш", "бюро", "одеяло", "възглавниц", "чанта",
@@ -1000,9 +1002,18 @@ def reclassify_offer(offer):
                 health_score = max(health_score, 8)
 
     macros = get_macros(name) if food and healthy else None
-    # If local MACROS_DB has no match, try Open Food Facts (cached)
-    if macros is None and food and healthy and _OFF_ENRICHER_AVAILABLE:
-        macros = _get_off_macros(name, category)
+    if food and healthy and _OFF_ENRICHER_AVAILABLE:
+        off_macros = _get_off_macros(name, category)
+        if macros is None:
+            macros = off_macros
+        elif off_macros:
+            merged = dict(macros)
+            if off_macros.get("ingredients"):
+                merged["ingredients"] = off_macros["ingredients"]
+            for key in ("sugar", "fiber"):
+                if merged.get(key) is None and off_macros.get(key) is not None:
+                    merged[key] = off_macros[key]
+            macros = merged
     diet_tags = get_diet_tags(name) if healthy else []
 
     # Already parsed if possible
@@ -1056,6 +1067,18 @@ def _offer_data_score(offer: dict) -> int:
     ])
 
 
+def _store_price_snapshot(offer: dict) -> dict:
+    return {
+        "store": offer.get("store"),
+        "price": offer.get("new_price"),
+        "price_eur": bgn_to_eur(offer.get("new_price")),
+        "old_price": offer.get("old_price"),
+        "old_price_eur": bgn_to_eur(offer.get("old_price")),
+        "discount_pct": offer.get("discount_pct"),
+        "source_type": offer.get("source_type", "promo"),
+    }
+
+
 def postprocess_offers(store_results):
     # --- Step 1: OCR garbage filter ---
     ocr_garbage_removed = 0
@@ -1096,9 +1119,11 @@ def postprocess_offers(store_results):
     # --- Step 3: Cross-store dedup — track availability, keep best offer ---
     best_by_name = {}
     available_by_name = {}
+    store_prices_by_name = {}
     for offer in best_by_name_store.values():
         normalized_name = offer["name"].lower().strip()
         available_by_name.setdefault(normalized_name, set()).add(offer["store"])
+        store_prices_by_name.setdefault(normalized_name, []).append(_store_price_snapshot(offer))
 
         existing = best_by_name.get(normalized_name)
         if existing is None:
@@ -1113,7 +1138,12 @@ def postprocess_offers(store_results):
 
     all_offers = []
     for normalized_name, offer in best_by_name.items():
+        price_rows = sorted(store_prices_by_name[normalized_name], key=lambda row: (row["price"] is None, row["price"] or 999999, row["store"] or ""))
         offer["available_stores"] = sorted(available_by_name[normalized_name])
+        offer["store_prices"] = price_rows
+        offer["best_price_store"] = price_rows[0]["store"] if price_rows else offer.get("store")
+        offer["best_price"] = price_rows[0]["price"] if price_rows else offer.get("new_price")
+        offer["comparison_count"] = len(price_rows)
         all_offers.append(reclassify_offer(offer))
 
     all_offers.sort(key=lambda o: (-(o["health_score"] or 0), o["new_price"]))
@@ -1167,6 +1197,7 @@ def raw_items_to_store_result(raw_items: list[dict]) -> dict | None:
         )
         if offer:
             offer["source"] = item["source"]
+            offer["source_type"] = item.get("source_type", "promo")
             offers.append(offer)
     return {"store": store_name, "offers": offers, "active_brochures": []}
 
@@ -1181,12 +1212,14 @@ async def run_structured_scrapers(browser) -> list[dict]:
 
     # Sync scrapers (requests-based) — run first
     loop = asyncio.get_event_loop()
-    billa_raw, fantastico_raw = await asyncio.gather(
+    billa_raw, fantastico_raw, tmarket_catalog_raw = await asyncio.gather(
         loop.run_in_executor(None, scrape_billa_text),
         loop.run_in_executor(None, scrape_fantastico_csv),
+        loop.run_in_executor(None, scrape_tmarket_catalog),
     )
     billa_result = raw_items_to_store_result(billa_raw)
     fantastico_result = raw_items_to_store_result(fantastico_raw)
+    tmarket_catalog_result = raw_items_to_store_result(tmarket_catalog_raw)
 
     # Async DOM scrapers — run in parallel, each creates its own browser context
     kaufland_raw, lidl_raw, tmarket_raw = await asyncio.gather(
@@ -1214,7 +1247,11 @@ async def run_structured_scrapers(browser) -> list[dict]:
             )
             results.append(r)
 
-    for r, label in [(billa_result, "Billa"), (fantastico_result, "Fantastico")]:
+    for r, label in [
+        (billa_result, "Billa"),
+        (fantastico_result, "Fantastico"),
+        (tmarket_catalog_result, "T-Market catalog"),
+    ]:
         if r:
             healthy = sum(1 for o in r["offers"] if o.get("is_healthy"))
             hi_prot = sum(1 for o in r["offers"] if o.get("is_high_protein"))
@@ -1873,6 +1910,8 @@ async def main():
     output = {
         "generated_at": datetime.utcnow().isoformat() + "Z",
         "total_offers": len(all_offers),
+        "promo_offers": sum(1 for o in all_offers if o.get("source_type") == "promo"),
+        "assortment_offers": sum(1 for o in all_offers if o.get("source_type") == "assortment"),
         "stores": sorted({o["store"] for o in all_offers}),
         "offers": all_offers,
     }
