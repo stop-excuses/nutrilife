@@ -23,7 +23,16 @@ import requests
 
 CACHE_FILE = Path(__file__).parent.parent / "data" / "off_cache.json"
 OFF_SEARCH_URL = "https://world.openfoodfacts.org/cgi/search.pl"
-HEADERS = {"User-Agent": "NutriLife/1.0 (https://stop-excuses.github.io/nutrilife/)"}
+HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/135.0.0.0 Safari/537.36"
+    ),
+    "Accept": "application/json,text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "bg-BG,bg;q=0.9,en;q=0.8",
+}
+CACHE_PREFIX = "v2:"
 
 # Minimum name similarity to accept an OFF match (0–1 scale).
 # 0.35 means roughly 35% character overlap — loose enough to handle
@@ -77,6 +86,18 @@ def _similarity(a: str, b: str) -> float:
     return SequenceMatcher(None, _normalise(a), _normalise(b)).ratio()
 
 
+def _tokenise(text: str) -> set[str]:
+    return {token for token in re.split(r"\W+", _normalise(text)) if len(token) >= 3}
+
+
+def _token_overlap(a: str, b: str) -> float:
+    left = _tokenise(a)
+    right = _tokenise(b)
+    if not left or not right:
+        return 0.0
+    return len(left & right) / len(left | right)
+
+
 # ---------------------------------------------------------------------------
 # Bulgarian → English food-type hints (boosts match rate on OFF)
 # ---------------------------------------------------------------------------
@@ -124,6 +145,43 @@ def _en_hint(name: str) -> str | None:
     return None
 
 
+def _query_candidates(product_name: str, category: str) -> list[tuple[str, str]]:
+    candidates: list[tuple[str, str]] = []
+
+    def add(query: str | None, lang: str) -> None:
+        if not query:
+            return
+        pair = (query.strip(), lang)
+        if pair[0] and pair not in candidates:
+            candidates.append(pair)
+
+    normalised = _normalise(product_name)
+    hint = _en_hint(product_name)
+
+    add(product_name, "bg")
+    if normalised != product_name:
+        add(normalised, "bg")
+    add(hint, "en")
+
+    if category == "dairy":
+        add("skyr" if "скир" in normalised else None, "en")
+        add("cottage cheese" if "извара" in normalised else None, "en")
+        add("yogurt" if "кисело мляко" in normalised else None, "en")
+    elif category == "protein":
+        add("chicken breast" if "пилеш" in normalised else None, "en")
+        add("tuna" if "риба тон" in normalised else None, "en")
+        add("salmon" if "сьомга" in normalised else None, "en")
+    elif category == "grain":
+        add("oats" if "овес" in normalised else None, "en")
+        add("rice" if "ориз" in normalised else None, "en")
+    elif category == "legume":
+        add("lentils" if "леща" in normalised else None, "en")
+        add("chickpeas" if "нахут" in normalised else None, "en")
+        add("beans" if "боб" in normalised or "фасул" in normalised else None, "en")
+
+    return candidates
+
+
 # ---------------------------------------------------------------------------
 # OFF API search
 # ---------------------------------------------------------------------------
@@ -134,7 +192,7 @@ def _search_off(query: str, lang: str = "bg", retries: int = 2) -> list[dict]:
         "action": "process",
         "json": 1,
         "search_simple": 1,
-        "fields": "product_name,nutriments",
+        "fields": "product_name,ingredients_text,ingredients_text_bg,ingredients_text_en,nutriments",
         "lc": lang,
         "page_size": 5,
     }
@@ -155,11 +213,17 @@ def _extract_nutriments(product: dict) -> dict | None:
     p = n.get("proteins_100g")
     if p is None:
         return None
+    ingredients = (
+        product.get("ingredients_text_bg")
+        or product.get("ingredients_text")
+        or product.get("ingredients_text_en")
+    )
     return {
         "p": round(float(p), 1),
         "f": round(float(n.get("fat_100g") or 0), 1),
         "c": round(float(n.get("carbohydrates_100g") or 0), 1),
         "kcal": round(float(n.get("energy-kcal_100g") or 0)),
+        "ingredients": ingredients.strip() if isinstance(ingredients, str) and ingredients.strip() else None,
         "source": "openfoodfacts",
     }
 
@@ -172,35 +236,43 @@ def get_off_macros(product_name: str, category: str = "other") -> dict | None:
     """
     Look up nutritional values for a product from Open Food Facts.
 
-    Returns a macros dict {p, f, c, kcal, source} or None if not found.
+    Returns a macros dict {p, f, c, kcal, ingredients, source} or None if not found.
     Results are cached in data/off_cache.json.
     """
     if category not in ENRICHABLE_CATEGORIES:
         return None
 
     cache = _load_cache()
-    cache_key = _normalise(product_name)
+    cache_key = f"{CACHE_PREFIX}{category}:{_normalise(product_name)}"
 
     if cache_key in cache:
         return cache[cache_key]
 
     result = None
 
-    # Try Bulgarian search first
-    products = _search_off(product_name, lang="bg")
+    for query, lang in _query_candidates(product_name, category):
+        products = _search_off(query, lang=lang)
+        best_match = None
+        best_score = 0.0
 
-    # If no useful results, try English food-type hint
-    if not products:
-        hint = _en_hint(product_name)
-        if hint:
-            products = _search_off(hint, lang="en")
+        for product in products:
+            name_off = product.get("product_name", "")
+            macros = _extract_nutriments(product)
+            if not macros:
+                continue
+            sim = _similarity(product_name, name_off)
+            overlap = _token_overlap(product_name, name_off)
+            score = max(sim, overlap)
 
-    for p in products:
-        name_off = p.get("product_name", "")
-        sim = _similarity(product_name, name_off)
-        macros = _extract_nutriments(p)
-        if macros and sim >= MIN_SIMILARITY:
-            result = macros
+            if lang == "en" and _en_hint(product_name) and _en_hint(product_name) in query.lower():
+                score = max(score, 0.42)
+
+            if score >= MIN_SIMILARITY and score > best_score:
+                best_match = macros
+                best_score = score
+
+        if best_match:
+            result = best_match
             break
 
     # Cache even None results to avoid re-querying for known misses

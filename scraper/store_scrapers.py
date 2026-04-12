@@ -23,6 +23,8 @@ Source priority (for merge deduplication):
 
 import re
 import asyncio
+import json
+import html
 from typing import Optional
 
 import requests
@@ -93,8 +95,9 @@ def make_raw_item(
     image: Optional[str] = None,
     store: str = "",
     source: str = "",
+    **extra,
 ) -> dict:
-    return {
+    item = {
         "name": name.strip(),
         "new_price": new_price,
         "old_price": old_price,
@@ -103,6 +106,8 @@ def make_raw_item(
         "store": store,
         "source": source,
     }
+    item.update(extra)
+    return item
 
 
 # ─── Kaufland DOM scraper ─────────────────────────────────────────────────────
@@ -308,43 +313,105 @@ def _parse_bgn(text: str) -> Optional[float]:
 # ─── Lidl DOM scraper (data-gridbox-impression JSON) ─────────────────────────
 
 LIDL_URL = "https://www.lidl.bg/c/aktsiya/a10091708"
+LIDL_CATEGORY_URLS = [
+    "https://www.lidl.bg/h/plodove-i-zelenchutsi/h10071012",
+    "https://www.lidl.bg/h/osnovni-khrani/h10071045",
+    "https://www.lidl.bg/h/mlyako-mlechni-produkti/h10071017",
+    "https://www.lidl.bg/h/pryasno-meso/h10071016",
+    "https://www.lidl.bg/h/okhladeni-produkti/h10071020",
+    "https://www.lidl.bg/h/riba-i-morski-darove/h10071050",
+    "https://www.lidl.bg/h/konservirani-khrani/h10071681",
+    "https://www.lidl.bg/h/zamrazeni-produkti/h10071049",
+    "https://www.lidl.bg/h/napitki/h10071022",
+]
+LIDL_HEADERS = {
+    "User-Agent": USER_AGENT,
+    "Accept-Language": "bg-BG,bg;q=0.9",
+}
+
+
+def _parse_lidl_grid_data(raw: str, source: str) -> dict | None:
+    try:
+        data = json.loads(html.unescape(raw))
+    except Exception:
+        return None
+
+    name = (data.get("title") or data.get("fullTitle") or "").strip()
+    if not name:
+        return None
+
+    price_info = data.get("price") or {}
+    new_price = price_info.get("priceSecond") or price_info.get("price")
+    if not new_price:
+        return None
+    try:
+        new_price = round(float(new_price), 2)
+    except Exception:
+        return None
+
+    old_price = price_info.get("oldPriceSecond") or price_info.get("oldPrice")
+    try:
+        old_price = round(float(old_price), 2) if old_price else None
+    except Exception:
+        old_price = None
+
+    discount_pct = None
+    discount = price_info.get("discount") or {}
+    if isinstance(discount, dict):
+        if discount.get("percentageDiscount"):
+            discount_pct = int(abs(discount["percentageDiscount"]))
+        elif old_price and old_price > new_price:
+            discount_pct = int(round((1 - new_price / old_price) * 100))
+
+    image = data.get("image")
+    if not image and isinstance(data.get("imageList"), list) and data["imageList"]:
+        image = data["imageList"][0]
+
+    source_type = "promo" if old_price or discount_pct else "assortment"
+    return make_raw_item(name, new_price, old_price, discount_pct, image, "Lidl", source, source_type=source_type)
+
+
+def scrape_lidl_catalog() -> list[dict]:
+    """Scrape Lidl category pages from embedded data-grid-data JSON."""
+    items = []
+    try:
+        for url in LIDL_CATEGORY_URLS:
+            resp = requests.get(url, headers=LIDL_HEADERS, timeout=30)
+            resp.raise_for_status()
+            soup = BeautifulSoup(resp.text, "html.parser")
+            for el in soup.select("[data-grid-data]"):
+                raw = el.get("data-grid-data")
+                if not raw:
+                    continue
+                item = _parse_lidl_grid_data(raw, "lidl_catalog")
+                if item:
+                    items.append(item)
+
+        dedup = {}
+        for item in items:
+            key = item["name"].lower().strip()
+            existing = dedup.get(key)
+            if existing is None:
+                dedup[key] = item
+                continue
+            new_has_discount = item.get("old_price") is not None or item.get("discount_pct") is not None
+            old_has_discount = existing.get("old_price") is not None or existing.get("discount_pct") is not None
+            if new_has_discount and not old_has_discount:
+                dedup[key] = item
+            elif new_has_discount == old_has_discount and item["new_price"] < existing["new_price"]:
+                dedup[key] = item
+
+        result = list(dedup.values())
+        print(f"  [Lidl catalog] {len(result)} unique items from category pages")
+        return result
+    except Exception as e:
+        print(f"  [Lidl catalog] Error: {e}")
+        return []
 
 
 async def scrape_lidl_dom(browser) -> list[dict]:
-    """Scrape lidl.bg promotions via data-gridbox-impression JSON attributes."""
-    items = []
-    context = await browser.new_context(
-        user_agent=USER_AGENT,
-        viewport={"width": 1920, "height": 1080},
-        locale="bg-BG",
-    )
-    page = await context.new_page()
-
-    try:
-        try:
-            await page.goto(LIDL_URL, wait_until="domcontentloaded", timeout=60000)
-        except Exception:
-            try:
-                await page.goto(LIDL_URL, wait_until="load", timeout=60000)
-            except Exception:
-                pass
-
-        # Scroll to trigger lazy-loading
-        for _ in range(4):
-            await page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
-            await asyncio.sleep(1.5)
-
-        html = await page.content()
-        soup = BeautifulSoup(html, "html.parser")
-        items = _parse_lidl_gridbox(soup)
-        print(f"  [Lidl DOM] {len(items)} items from data-gridbox-impression")
-
-    except Exception as e:
-        print(f"  [Lidl] Error: {e}")
-    finally:
-        await context.close()
-
-    return items
+    """Legacy entrypoint kept for compatibility; Lidl catalog now uses embedded grid data."""
+    return scrape_lidl_catalog()
 
 
 def _parse_lidl_gridbox(soup: BeautifulSoup) -> list[dict]:
@@ -443,6 +510,149 @@ def _parse_lidl_gridbox(soup: BeautifulSoup) -> list[dict]:
 # ─── T-Market DOM scraper ─────────────────────────────────────────────────────
 
 TMARKET_URL = "https://tmarketonline.bg/selection/produkti-v-akciya"
+TMARKET_CATEGORY_URLS = [
+    "https://tmarketonline.bg/category/plodove",
+    "https://tmarketonline.bg/category/zelenchuci",
+    "https://tmarketonline.bg/category/presni-podpravki",
+    "https://tmarketonline.bg/category/yadki-1",
+    "https://tmarketonline.bg/category/kiselo-mlyako",
+    "https://tmarketonline.bg/category/pryasno-mlyako-1",
+    "https://tmarketonline.bg/category/izvara",
+    "https://tmarketonline.bg/category/yayca-1",
+    "https://tmarketonline.bg/category/pileshko-i-pueshko",
+    "https://tmarketonline.bg/category/teleshko-meso-i-zagotovki",
+    "https://tmarketonline.bg/category/riba-i-morski-darove",
+    "https://tmarketonline.bg/category/variva",
+    "https://tmarketonline.bg/category/ribni-konservi-1",
+    "https://tmarketonline.bg/category/plodovi-i-zelenchukovi-konservi",
+    "https://tmarketonline.bg/category/fitnes-i-zdrave",
+    "https://tmarketonline.bg/category/bio-hrani",
+    "https://tmarketonline.bg/category/yadkovi-soevi-i-zdravoslovni-napitki",
+]
+TMARKET_HEADERS = {
+    "User-Agent": USER_AGENT,
+    "Accept-Language": "bg-BG,bg;q=0.9",
+}
+
+
+def _parse_tmarket_card(card, source: str) -> dict | None:
+    name_el = card.select_one("h3._product-name-tag a, h3._product-name-tag, ._product-name-tag")
+    if not name_el:
+        name_el = card.select_one("h3, h2, [class*='product-name'], [class*='product-title']")
+    if not name_el:
+        return None
+    name = name_el.get_text(strip=True)
+    if not name:
+        return None
+
+    new_price = None
+    compare_el = card.select_one("._product-price-compare")
+    if compare_el:
+        for span in compare_el.select("span.bgn2eur-secondary-currency"):
+            if not span.find_parent("del"):
+                new_price = clean_price(span.get_text(strip=True))
+                if new_price:
+                    break
+
+    if not new_price:
+        price_el = card.select_one("._product-price span.bgn2eur-secondary-currency, ._product-price span, [class*='price-new'], [class*='current-price']")
+        if price_el:
+            new_price = clean_price(price_el.get_text(strip=True))
+
+    if not new_price:
+        return None
+
+    old_price = None
+    old_el = card.select_one("del._product-price-old span.bgn2eur-secondary-currency")
+    if not old_el:
+        old_el = card.select_one("del span.bgn2eur-secondary-currency, del[class*='price']")
+    if old_el:
+        old_price = clean_price(old_el.get_text(strip=True))
+
+    discount_pct = None
+    disc_el = card.select_one("span._product-details-discount, [class*='discount']")
+    if disc_el:
+        m = re.search(r'(\d+)\s*%', disc_el.get_text(strip=True))
+        if m:
+            discount_pct = int(m.group(1))
+    if not discount_pct and old_price and old_price > new_price:
+        discount_pct = int(round((1 - new_price / old_price) * 100))
+
+    image = None
+    img_el = card.select_one("img.lazyload-image, img[data-src], img")
+    if img_el:
+        image = img_el.get("data-first-src") or img_el.get("data-src") or img_el.get("src")
+
+    return make_raw_item(
+        name, new_price, old_price, discount_pct, image, "T-Market", source,
+        source_type="promo" if source == "tmarket_dom" else "assortment",
+    )
+
+
+def _extract_tmarket_page_count(soup: BeautifulSoup) -> int:
+    pages = {1}
+    for a in soup.select("a[href*='page=']"):
+        href = a.get("href") or ""
+        m = re.search(r'page=(\d+)', href)
+        if m:
+            pages.add(int(m.group(1)))
+    return max(pages)
+
+
+def scrape_tmarket_catalog(max_pages_per_category: int = 6) -> list[dict]:
+    """Scrape regular-price assortment from healthy T-Market categories."""
+    items = []
+    seen_urls = set()
+
+    try:
+        for base_url in TMARKET_CATEGORY_URLS:
+            first = requests.get(base_url, headers=TMARKET_HEADERS, timeout=30)
+            first.raise_for_status()
+            soup = BeautifulSoup(first.text, "html.parser")
+            page_count = min(_extract_tmarket_page_count(soup), max_pages_per_category)
+
+            for page_num in range(1, page_count + 1):
+                url = base_url if page_num == 1 else f"{base_url}?page={page_num}"
+                if url in seen_urls:
+                    continue
+                seen_urls.add(url)
+
+                if page_num > 1:
+                    resp = requests.get(url, headers=TMARKET_HEADERS, timeout=30)
+                    resp.raise_for_status()
+                    soup = BeautifulSoup(resp.text, "html.parser")
+
+                cards = soup.select("div._product")
+                if not cards and page_num == 1:
+                    print(f"  [T-Market catalog] No cards in {base_url}")
+                if not cards:
+                    break
+
+                for card in cards:
+                    item = _parse_tmarket_card(card, "tmarket_catalog")
+                    if item:
+                        items.append(item)
+
+        dedup = {}
+        for item in items:
+            key = item["name"].lower().strip()
+            existing = dedup.get(key)
+            if existing is None:
+                dedup[key] = item
+                continue
+            new_has_discount = item.get("old_price") is not None or item.get("discount_pct") is not None
+            old_has_discount = existing.get("old_price") is not None or existing.get("discount_pct") is not None
+            if new_has_discount and not old_has_discount:
+                dedup[key] = item
+            elif new_has_discount == old_has_discount and item["new_price"] < existing["new_price"]:
+                dedup[key] = item
+
+        result = list(dedup.values())
+        print(f"  [T-Market catalog] {len(result)} unique items from healthy categories")
+        return result
+    except Exception as e:
+        print(f"  [T-Market catalog] Error: {e}")
+        return []
 
 
 async def scrape_tmarket_dom(browser) -> list[dict]:
@@ -531,9 +741,9 @@ async def scrape_tmarket_dom(browser) -> list[dict]:
             if img_el:
                 image = img_el.get("data-src") or img_el.get("src")
 
-            items.append(make_raw_item(
-                name, new_price, old_price, discount_pct, image, "T-Market", "tmarket_dom"
-            ))
+            item = _parse_tmarket_card(card, "tmarket_dom")
+            if item:
+                items.append(item)
 
         print(f"  [T-Market DOM] {len(items)} raw items from {TMARKET_URL}")
     except Exception as e:
