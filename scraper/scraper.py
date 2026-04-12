@@ -31,6 +31,37 @@ import requests
 from playwright.async_api import async_playwright
 from bs4 import BeautifulSoup
 
+# ── Structured store scrapers (primary sources, no OCR) ───────────────────────
+# Import here so the module is available; actual calls happen in main().
+try:
+    from store_scrapers import (
+        scrape_kaufland_dom,
+        scrape_billa_text,
+        scrape_lidl_dom,
+        scrape_tmarket_dom,
+        scrape_fantastico_csv,
+        is_high_protein,
+        clean_ocr_name,
+        FALLBACK_IMAGE,
+    )
+    _STRUCTURED_SCRAPERS_AVAILABLE = True
+except ImportError as _e:
+    print(f"[!] store_scrapers not available: {_e}")
+    _STRUCTURED_SCRAPERS_AVAILABLE = False
+    FALLBACK_IMAGE = None
+    def is_high_protein(name): return False
+    def clean_ocr_name(name): return name
+
+# Priority order for deduplication: structured DOM/API > brochure listing > OCR
+SOURCE_PRIORITY = {
+    "kaufland_dom": 3, "billa_text": 3,
+    "lidl_dom": 3,
+    "tmarket_dom": 3, "fantastico_csv": 3,
+    "structured": 3,
+    "brochure": 2,
+    "ocr": 1,
+}
+
 BASE_URL = "https://www.broshura.bg"
 CATEGORY_URL = f"{BASE_URL}/i/3"
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
@@ -226,15 +257,15 @@ STORE_KEYWORDS = {
     "Billa": ["billa", "била"],
     "T-Market": ["t-market", "tmarket", "т-маркет"],
     "Fantastico": ["fantastico", "фантастико"],
-    "CBA": ["cba"],
-    "Metro": ["metro", "метро"],
-    "Penny": ["penny", "пени"],
-    "Piccadilly": ["piccadilly", "пикадили"],
-    "Slaveks": ["slaveks", "славекс"],
-    "STOP4ETO": ["stop4eto", "стопчето"],
-    "Flora": ["flora", "флора"],
-    "Life": ["life", "лайф"],
-    "HIT": ["hit", "хит"],
+    # "CBA": ["cba"],
+    # "Metro": ["metro", "метро"],
+    # "Penny": ["penny", "пени"],
+    # "Piccadilly": ["piccadilly", "пикадили"],
+    # "Slaveks": ["slaveks", "славекс"],
+    # "STOP4ETO": ["stop4eto", "стопчето"],
+    # "Flora": ["flora", "флора"],
+    # "Life": ["life", "лайф"],
+    # "HIT": ["hit", "хит"],
 }
 
 
@@ -895,7 +926,8 @@ def build_offer(name, new_price, old_price, discount_pct, image_url, store_name,
         "diet_tags": diet_tags,
         "macros": macros,
         "is_junk": junk,
-        "image": image_url,
+        "is_high_protein": is_high_protein(name),
+        "image": image_url or FALLBACK_IMAGE,
     }
 
 
@@ -958,7 +990,41 @@ def reclassify_offer(offer):
     return offer
 
 
+def _offer_priority(offer: dict) -> int:
+    """Higher = more trustworthy source. Used in merge deduplication."""
+    src = offer.get("source", "brochure")
+    return SOURCE_PRIORITY.get(src, 2)
+
+
+def _offer_data_score(offer: dict) -> int:
+    """More fields filled = better offer data. Tiebreak after source priority."""
+    return sum([
+        offer.get("old_price") is not None,
+        offer.get("discount_pct") is not None,
+        offer.get("image") not in (None, FALLBACK_IMAGE, ""),
+        offer.get("weight_grams") is not None,
+    ])
+
+
 def postprocess_offers(store_results):
+    # --- Step 1: OCR garbage filter ---
+    ocr_garbage_removed = 0
+    for result in store_results:
+        if not result or "offers" not in result:
+            continue
+        clean = []
+        for offer in result["offers"]:
+            cleaned_name = clean_ocr_name(offer.get("name", ""))
+            if cleaned_name is None:
+                ocr_garbage_removed += 1
+                continue
+            offer["name"] = cleaned_name
+            clean.append(offer)
+        result["offers"] = clean
+    if ocr_garbage_removed:
+        print(f"  [postprocess] OCR garbage removed: {ocr_garbage_removed} items")
+
+    # --- Step 2: Deduplicate per (name, store) — prefer structured > brochure > OCR ---
     best_by_name_store = {}
     for result in store_results:
         if not result or "offers" not in result:
@@ -966,9 +1032,18 @@ def postprocess_offers(store_results):
         for offer in result["offers"]:
             key = (offer["name"].lower().strip(), offer["store"])
             existing = best_by_name_store.get(key)
-            if existing is None or offer["new_price"] < existing["new_price"]:
+            if existing is None:
                 best_by_name_store[key] = offer
+            else:
+                # Prefer higher source priority; break ties with more data fields
+                new_pri = _offer_priority(offer)
+                old_pri = _offer_priority(existing)
+                if new_pri > old_pri:
+                    best_by_name_store[key] = offer
+                elif new_pri == old_pri and _offer_data_score(offer) > _offer_data_score(existing):
+                    best_by_name_store[key] = offer
 
+    # --- Step 3: Cross-store dedup — track availability, keep best offer ---
     best_by_name = {}
     available_by_name = {}
     for offer in best_by_name_store.values():
@@ -976,8 +1051,15 @@ def postprocess_offers(store_results):
         available_by_name.setdefault(normalized_name, set()).add(offer["store"])
 
         existing = best_by_name.get(normalized_name)
-        if existing is None or offer["new_price"] < existing["new_price"]:
+        if existing is None:
             best_by_name[normalized_name] = offer
+        else:
+            new_pri = _offer_priority(offer)
+            old_pri = _offer_priority(existing)
+            if new_pri > old_pri:
+                best_by_name[normalized_name] = offer
+            elif new_pri == old_pri and offer["new_price"] < existing["new_price"]:
+                best_by_name[normalized_name] = offer
 
     all_offers = []
     for normalized_name, offer in best_by_name.items():
@@ -1016,6 +1098,88 @@ def build_brochures_export(store_results):
         "stores": sorted({b["store"] for b in brochures}),
         "brochures": brochures,
     }
+
+
+def raw_items_to_store_result(raw_items: list[dict]) -> dict | None:
+    """Convert structured scraper raw items to a store_result dict compatible with postprocess_offers."""
+    if not raw_items:
+        return None
+    store_name = raw_items[0]["store"]
+    offers = []
+    for item in raw_items:
+        offer = build_offer(
+            item["name"],
+            item["new_price"],
+            item.get("old_price"),
+            item.get("discount_pct"),
+            item.get("image"),
+            item["store"],
+        )
+        if offer:
+            offer["source"] = item["source"]
+            offers.append(offer)
+    return {"store": store_name, "offers": offers, "active_brochures": []}
+
+
+async def run_structured_scrapers(browser) -> list[dict]:
+    """Run all 5 structured store scrapers. Returns list of store_result dicts."""
+    if not _STRUCTURED_SCRAPERS_AVAILABLE:
+        print("[!] Structured scrapers not available — skipping")
+        return []
+
+    print("\n[*] === Structured store scrapers ===")
+
+    # Sync scrapers (requests-based) — run first
+    loop = asyncio.get_event_loop()
+    billa_raw, fantastico_raw = await asyncio.gather(
+        loop.run_in_executor(None, scrape_billa_text),
+        loop.run_in_executor(None, scrape_fantastico_csv),
+    )
+    billa_result = raw_items_to_store_result(billa_raw)
+    fantastico_result = raw_items_to_store_result(fantastico_raw)
+
+    # Async DOM scrapers — run in parallel, each creates its own browser context
+    kaufland_raw, lidl_raw, tmarket_raw = await asyncio.gather(
+        scrape_kaufland_dom(browser),
+        scrape_lidl_dom(browser),
+        scrape_tmarket_dom(browser),
+    )
+
+    results = []
+    for raw, label in [
+        (kaufland_raw, "Kaufland"),
+        (lidl_raw, "Lidl"),
+        (tmarket_raw, "T-Market"),
+    ]:
+        r = raw_items_to_store_result(raw)
+        if r:
+            healthy = sum(1 for o in r["offers"] if o.get("is_healthy"))
+            hi_prot = sum(1 for o in r["offers"] if o.get("is_high_protein"))
+            with_img = sum(1 for o in r["offers"] if o.get("image") and o["image"] != FALLBACK_IMAGE)
+            with_disc = sum(1 for o in r["offers"] if o.get("old_price"))
+            print(
+                f"  [structured] {label}: {len(r['offers'])} offers | "
+                f"healthy={healthy} | high_protein={hi_prot} | "
+                f"with_image={with_img} | with_discount={with_disc}"
+            )
+            results.append(r)
+
+    for r, label in [(billa_result, "Billa"), (fantastico_result, "Fantastico")]:
+        if r:
+            healthy = sum(1 for o in r["offers"] if o.get("is_healthy"))
+            hi_prot = sum(1 for o in r["offers"] if o.get("is_high_protein"))
+            with_img = sum(1 for o in r["offers"] if o.get("image") and o["image"] != FALLBACK_IMAGE)
+            with_disc = sum(1 for o in r["offers"] if o.get("old_price"))
+            print(
+                f"  [structured] {label}: {len(r['offers'])} offers | "
+                f"healthy={healthy} | high_protein={hi_prot} | "
+                f"with_image={with_img} | with_discount={with_disc}"
+            )
+            results.append(r)
+
+    total = sum(len(r["offers"]) for r in results)
+    print(f"[*] Structured scrapers total: {total} offers across {len(results)} stores\n")
+    return results
 
 
 def write_export(json_path, js_const_name, output):
@@ -1637,50 +1801,22 @@ FALLBACK_STORE_URLS = [
 async def main():
     started = datetime.utcnow()
     print("=" * 60)
-    print("NutriLife Scraper (Playwright) — broshura.bg")
+    print("NutriLife Scraper — Structured sources only")
     print(f"Started at {started.strftime('%Y-%m-%d %H:%M:%S')} UTC")
     print("=" * 60)
-
-    # Load learned + custom keywords before scraping
-    load_custom_keywords()
-    print(f"[*] Active food keywords: {len(FOOD_KEYWORDS)}")
 
     async with async_playwright() as p:
         browser = await p.chromium.launch(
             headless=True,
             args=["--disable-blink-features=AutomationControlled"],
         )
-
-        # 1. Discover stores dynamically
-        discovered_urls = await discover_store_urls(browser)
-        
-        # 2. Merge with fallback URLs to ensure we don't miss core stores
-        store_urls = list(set(discovered_urls) | set(FALLBACK_STORE_URLS))
-        
-        # Filter: limit to known stores to avoid junk stores
-        # store_urls = [u for u in store_urls if detect_store(u) != "Unknown"]
-        
-        # Target all known stores (expanded from original 5)
-        target_stores = [
-            "Lidl", "Kaufland", "Billa", "T-Market", "Fantastico",
-            "CBA", "Slaveks", "STOP4ETO", "Flora", "Life", "HIT", "Metro", "Penny", "Piccadilly",
-        ]
-        store_urls = [u for u in store_urls if detect_store(u) in target_stores]
-
-        print(f"[*] Scraping {len(store_urls)} stores: {[detect_store(u) for u in store_urls]}")
-
-        semaphore = asyncio.Semaphore(MAX_STORES_PARALLEL)
-        tasks = [scrape_store(browser, url, semaphore) for url in store_urls]
-        store_results = await asyncio.gather(*tasks)
-
+        store_results = await run_structured_scrapers(browser)
         await browser.close()
 
     all_offers = postprocess_offers(store_results)
-    all_products = build_all_products_export(store_results)
-    brochures_output = build_brochures_export(store_results)
 
-    if not all_offers and not all_products and not brochures_output["brochures"]:
-        raise RuntimeError("Scrape produced no data; likely blocked by broshura.bg. Existing exports were not updated.")
+    if not all_offers:
+        raise RuntimeError("Scrape produced no data. Existing exports were not updated.")
 
     backup_dir = backup_existing_exports()
 
@@ -1690,35 +1826,22 @@ async def main():
         "stores": sorted({o["store"] for o in all_offers}),
         "offers": all_offers,
     }
-    all_products_output = {
-        "generated_at": output["generated_at"],
-        "total_products": len(all_products),
-        "stores": sorted({o["store"] for o in all_products}),
-        "products": all_products,
-    }
-
     write_export(OUTPUT_PATH, "OFFERS_DATA", output)
-    write_export(ALL_PRODUCTS_PATH, "ALL_PRODUCTS_DATA", all_products_output)
-    write_export(BROCHURES_PATH, "BROCHURES_DATA", brochures_output)
 
     elapsed = (datetime.utcnow() - started).total_seconds()
     healthy = [o for o in all_offers if o["is_healthy"]]
     food = [o for o in all_offers if o["is_food"]]
+    high_protein = [o for o in all_offers if o.get("is_high_protein")]
     stores_found = sorted({o["store"] for o in all_offers})
+    with_image = [o for o in all_offers if o.get("image") and o["image"] != FALLBACK_IMAGE]
+    with_discount = [o for o in all_offers if o.get("old_price")]
 
-    # Per-store breakdown
-    by_store = {}
-    ocr_by_store = {}
+    by_store: dict[str, int] = {}
     for result in store_results:
         if not result:
             continue
         s = result["store"]
-        offers_s = result.get("offers", [])
-        by_store[s] = len(offers_s)
-        # OCR adds are inferred — count offers with no image (typical for OCR-sourced)
-        ocr_count = sum(1 for o in offers_s if o.get("source") == "ocr")
-        if ocr_count:
-            ocr_by_store[s] = ocr_count
+        by_store[s] = len(result.get("offers", []))
 
     run_stats = {
         "date": datetime.utcnow().isoformat() + "Z",
@@ -1726,34 +1849,28 @@ async def main():
         "total_offers": len(all_offers),
         "food_offers": len(food),
         "healthy_offers": len(healthy),
+        "high_protein_offers": len(high_protein),
+        "with_image": len(with_image),
+        "with_discount": len(with_discount),
         "stores_scraped": stores_found,
         "by_store": by_store,
-        "ocr_by_store": ocr_by_store,
-        "total_brochures": brochures_output["total_brochures"],
-        "food_keywords_active": len(FOOD_KEYWORDS),
     }
 
     print(f"\n{'=' * 60}")
     print(f"ПРОГРЕС ДОКЛАД — NutriLife Scraper")
     print(f"{'=' * 60}")
     print(f"Готово за {elapsed:.0f}с | {len(all_offers)} оферти общо")
-    print(f"  Храни: {len(food)} | Здравословни: {len(healthy)} | Некатегоризирани: {len(all_offers) - len(food)}")
+    print(f"  Храни: {len(food)} | Здравословни: {len(healthy)} | Високопротеинови: {len(high_protein)}")
+    print(f"  С изображение: {len(with_image)} | С намаление: {len(with_discount)}")
     print(f"  Магазини: {', '.join(stores_found)}")
     print(f"\n  По магазин:")
     for store_name_k, count in sorted(by_store.items(), key=lambda x: -x[1]):
-        ocr_note = f" (OCR: +{ocr_by_store[store_name_k]})" if store_name_k in ocr_by_store else ""
-        print(f"    {store_name_k}: {count} оферти{ocr_note}")
-    print(f"\n  Брошури: {brochures_output['total_brochures']} активни")
-    print(f"  Активни ключови думи: {len(FOOD_KEYWORDS)}")
+        print(f"    {store_name_k}: {count} оферти")
     print(f"\n  Записани файлове:")
     print(f"    {OUTPUT_PATH}")
-    print(f"    {ALL_PRODUCTS_PATH}")
-    print(f"    {BROCHURES_PATH}")
     print(f"    Backup: {backup_dir}")
     print(f"{'=' * 60}")
 
-    # Save learning data and run statistics
-    analyze_and_save_learning(store_results, run_stats)
     save_run_stats(run_stats, all_offers)
 
 
