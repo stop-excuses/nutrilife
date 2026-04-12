@@ -8,6 +8,53 @@ let activeType = "all";
 let activeCategory = "all";
 let activeSort = "recommended";
 let searchQuery = "";
+let currentPage = 1;
+let filteredOffersCache = [];
+
+const OFFERS_PER_PAGE = 24;
+
+const PROCESSED_MEAT_KEYWORDS = [
+    "шунка", "кренвирш", "наденица", "салам", "луканка", "бекон", "шпек", "карначе", "суджук"
+];
+
+const NON_HUMAN_FOOD_KEYWORDS = [
+    "храна за кучета", "храна за куче", "храна за котки", "храна за котка",
+    "консерва за кучета", "консерва за куче", "консерва за котки", "консерва за котка",
+    "кучешка храна", "котешка храна", "pet food"
+];
+
+const PROTEIN_SOURCE_KEYWORDS = [
+    "пилешки гърди", "пилешко филе", "пилешко", "пиле", "пуешко", "телешко", "говеждо",
+    "яйц", "риба тон", "сьомга", "скумрия", "треска", "пъстърва", "ципура", "лаврак",
+    "сельодка", "херинга", "скарида", "калмар", "извара", "скир", "cottage", "skyr",
+    "кисело мляко", "йогурт", "леща", "нахут", "боб", "фасул"
+];
+
+const COMPARISON_KEYWORDS = [
+    ["скир", "Скир"],
+    ["извара", "Извара"],
+    ["кисело мляко", "Кисело мляко"],
+    ["яйц", "Яйца"],
+    ["пилешки гърди", "Пилешки гърди"],
+    ["пилешко филе", "Пилешко филе"],
+    ["пилешко", "Пилешко"],
+    ["пуешко", "Пуешко"],
+    ["риба тон", "Риба тон"],
+    ["сьомга", "Сьомга"],
+    ["скумрия", "Скумрия"],
+    ["овесени ядки", "Овесени ядки"],
+    ["овес", "Овес"],
+    ["ориз", "Ориз"],
+    ["леща", "Леща"],
+    ["нахут", "Нахут"],
+    ["боб", "Боб"],
+    ["зехтин", "Зехтин"],
+    ["моцарела", "Моцарела"],
+    ["сирене", "Сирене"],
+    ["банан", "Банани"],
+    ["домати", "Домати"],
+    ["краставиц", "Краставици"],
+];
 
 document.addEventListener("DOMContentLoaded", () => {
     loadOffers();
@@ -110,9 +157,77 @@ function getMacros(offer) {
     if (NON_FOOD_MACRO_OVERRIDE.some(kw => nameLower.includes(kw))) return null;
     // Canonical lookup (longest/most specific entries are first in the array)
     for (const [keyword, nutrition] of CANONICAL_NUTRITION) {
-        if (nameLower.includes(keyword)) return nutrition;
+        if (nameLower.includes(keyword)) return { ...(offer.macros || {}), ...nutrition };
     }
     return offer.macros || null;
+}
+
+function getOfferNameLower(offer) {
+    return (offer.name || "").toLowerCase();
+}
+
+function escapeHtml(value) {
+    return String(value || "")
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#39;");
+}
+
+function normalizeProductKey(name) {
+    return (name || "")
+        .toLowerCase()
+        .replace(/[^\p{L}\p{N}\s]/gu, " ")
+        .replace(/\b\d+([.,]\d+)?\s*(кг|kg|гр|г|g|мл|ml|л|бр|бр\.)\b/gu, " ")
+        .replace(/\s+/g, " ")
+        .trim();
+}
+
+function getComparisonKey(offer) {
+    const nameLower = getOfferNameLower(offer);
+    for (const [keyword, label] of COMPARISON_KEYWORDS) {
+        if (nameLower.includes(keyword)) return label;
+    }
+    return null;
+}
+
+function buildSearchText(offer) {
+    const macros = offer.macros || {};
+    return [
+        offer.name,
+        offer.store,
+        offer.category,
+        offer.source_type,
+        offer.weight_raw,
+        offer.shelf_life,
+        ...(offer.available_stores || []),
+        ...(offer.diet_tags || []),
+        macros.ingredients,
+    ].filter(Boolean).join(" ").toLowerCase();
+}
+
+function isProcessedMeat(offer) {
+    const nameLower = getOfferNameLower(offer);
+    return PROCESSED_MEAT_KEYWORDS.some(kw => nameLower.includes(kw));
+}
+
+function isClearlyNonHumanFood(offer) {
+    const nameLower = getOfferNameLower(offer);
+    return NON_HUMAN_FOOD_KEYWORDS.some(kw => nameLower.includes(kw));
+}
+
+function isHealthyOffer(offer) {
+    if (!offer.is_food || offer.is_junk) return false;
+    if (isClearlyNonHumanFood(offer)) return false;
+    if (isProcessedMeat(offer)) return false;
+    return true;
+}
+
+function isProteinSource(offer) {
+    const nameLower = getOfferNameLower(offer);
+    if (PROTEIN_SOURCE_KEYWORDS.some(kw => nameLower.includes(kw))) return true;
+    return isStrictHighProtein(offer);
 }
 
 /* -----------------------------------------------------------------------
@@ -184,8 +299,14 @@ function getProteinMetrics(offer, strictWeight = false) {
    ----------------------------------------------------------------------- */
 async function loadOffers() {
     if (typeof OFFERS_DATA !== 'undefined') {
-        allOffers = OFFERS_DATA.offers || [];
+        allOffers = (OFFERS_DATA.offers || []).map(o => ({
+            ...o,
+            _searchText: buildSearchText(o),
+            _productKey: normalizeProductKey(o.name),
+            _comparisonKey: getComparisonKey(o),
+        }));
         applyFilters();
+        renderPriceComparison();
         renderBulkRecommendations();
         renderProteinRanking();
         renderProfileRecommendations("all");
@@ -230,8 +351,12 @@ function sortOffers(offers) {
             break;
         default: // recommended: health desc, price asc
             sorted.sort((a, b) => {
-                const ha = a.health_score || 0, hb = b.health_score || 0;
+                const ha = isHealthyOffer(a) ? (a.health_score || 0) : 0;
+                const hb = isHealthyOffer(b) ? (b.health_score || 0) : 0;
                 if (hb !== ha) return hb - ha;
+                const pa = getProteinMetrics(a)?.cleanProteinPerEur || 0;
+                const pb = getProteinMetrics(b)?.cleanProteinPerEur || 0;
+                if (pb !== pa) return pb - pa;
                 return a.new_price - b.new_price;
             });
     }
@@ -244,6 +369,7 @@ function initSortButtons() {
             document.querySelectorAll(".sort-btn[data-sort]").forEach(b => b.classList.remove("active"));
             btn.classList.add("active");
             activeSort = btn.dataset.sort;
+            currentPage = 1;
             applyFilters();
         });
     });
@@ -259,8 +385,14 @@ function initSearch() {
 
     if (typeof Fuse !== 'undefined') {
         fuseIndex = new Fuse(allOffers, {
-            keys: ['name'],
-            threshold: 0.35,       // 0=exact, 1=match anything
+            keys: [
+                { name: 'name', weight: 0.55 },
+                { name: 'store', weight: 0.12 },
+                { name: 'category', weight: 0.1 },
+                { name: 'diet_tags', weight: 0.08 },
+                { name: '_searchText', weight: 0.15 },
+            ],
+            threshold: 0.28,       // 0=exact, 1=match anything
             distance: 200,
             includeScore: true,
             minMatchCharLength: 2,
@@ -273,6 +405,7 @@ function initSearch() {
         clearTimeout(debounce);
         debounce = setTimeout(() => {
             searchQuery = input.value.trim().toLowerCase();
+            currentPage = 1;
             applyFilters();
         }, 200);
     });
@@ -295,26 +428,27 @@ function applyFilters() {
             const matchedIds = new Set(results.map(r => r.item.id || r.item.name));
             filtered = filtered.filter(o => matchedIds.has(o.id || o.name));
         } else {
-            filtered = filtered.filter(o => o.name.toLowerCase().includes(searchQuery));
+            filtered = filtered.filter(o => o._searchText.includes(searchQuery));
         }
     }
 
     // Type filter
     if (activeType === "high_protein") {
         // Strict: must be real food AND pass nutritional thresholds
-        filtered = filtered.filter(o => o.is_food && isStrictHighProtein(o));
+        filtered = filtered.filter(o => isHealthyOffer(o) && isStrictHighProtein(o));
     } else if (activeType === "bulk") {
-        filtered = filtered.filter(o => o.is_bulk_worthy);
+        filtered = filtered.filter(o => o.is_bulk_worthy && isHealthyOffer(o));
     } else {
-        // "all" — food only, no garbage
-        filtered = filtered.filter(o => o.is_food || o.category !== "other");
+        // "all" — real offers only, healthy ones sorted first
+        filtered = filtered.filter(o => (o.is_food || o.category !== "other") && !isClearlyNonHumanFood(o));
     }
 
     if (activeCategory !== "all") {
         filtered = filtered.filter(o => o.category === activeCategory);
     }
 
-    renderOffers(sortOffers(filtered));
+    filteredOffersCache = sortOffers(filtered);
+    renderOffers(filteredOffersCache);
 }
 
 /* -----------------------------------------------------------------------
@@ -326,6 +460,7 @@ function initTypeFilters() {
             document.querySelectorAll(".filter-btn[data-type]").forEach(b => b.classList.remove("active"));
             btn.classList.add("active");
             activeType = btn.dataset.type;
+            currentPage = 1;
             applyFilters();
         });
     });
@@ -337,8 +472,52 @@ function initCategoryFilters() {
             document.querySelectorAll(".filter-btn[data-category]").forEach(b => b.classList.remove("active"));
             btn.classList.add("active");
             activeCategory = btn.dataset.category;
+            currentPage = 1;
             applyFilters();
         });
+    });
+}
+
+function resetOfferFiltersForNavigation() {
+    activeType = "all";
+    activeCategory = "all";
+    activeSort = "recommended";
+    searchQuery = "";
+    currentPage = 1;
+
+    const searchInput = document.getElementById("offers-search");
+    if (searchInput) searchInput.value = "";
+
+    document.querySelectorAll(".filter-btn[data-type]").forEach(btn => {
+        btn.classList.toggle("active", btn.dataset.type === "all");
+    });
+    document.querySelectorAll(".filter-btn[data-category]").forEach(btn => {
+        btn.classList.toggle("active", btn.dataset.category === "all");
+    });
+    document.querySelectorAll(".sort-btn[data-sort]").forEach(btn => {
+        btn.classList.toggle("active", btn.dataset.sort === "recommended");
+    });
+}
+
+function openOfferInGrid(offerId) {
+    if (!offerId) return;
+
+    let offerIndex = filteredOffersCache.findIndex(o => o.id === offerId);
+    if (offerIndex === -1) {
+        resetOfferFiltersForNavigation();
+        applyFilters();
+        offerIndex = filteredOffersCache.findIndex(o => o.id === offerId);
+    }
+    if (offerIndex === -1) return;
+
+    currentPage = Math.floor(offerIndex / OFFERS_PER_PAGE) + 1;
+    renderOffers(filteredOffersCache);
+
+    requestAnimationFrame(() => {
+        const card = document.querySelector(`.offer-card[data-offer-id="${offerId}"]`);
+        if (!card) return;
+        card.classList.add("expanded");
+        card.scrollIntoView({ behavior: "smooth", block: "center" });
     });
 }
 
@@ -355,27 +534,142 @@ function initProfileFilters() {
 /* -----------------------------------------------------------------------
    RENDER OFFER CARDS
    ----------------------------------------------------------------------- */
+function getComparableOffers(offer) {
+    const bestPerStore = new Map();
+
+    allOffers
+        .filter(item => item._comparisonKey && item._comparisonKey === offer._comparisonKey && item.new_price != null && isHealthyOffer(item))
+        .forEach(item => {
+            const existing = bestPerStore.get(item.store);
+            if (!existing || item.new_price < existing.new_price) {
+                bestPerStore.set(item.store, item);
+            }
+        });
+
+    return Array.from(bestPerStore.values())
+        .sort((a, b) => a.new_price - b.new_price)
+        .map((item, index) => ({ ...item, isBest: index === 0 }));
+}
+
+function getBestComparableOffersByStore(comparisonKey) {
+    const bestPerStore = new Map();
+
+    allOffers
+        .filter(item => item._comparisonKey && item._comparisonKey === comparisonKey && item.new_price != null && isHealthyOffer(item))
+        .forEach(item => {
+            const existing = bestPerStore.get(item.store);
+            if (!existing || item.new_price < existing.new_price) {
+                bestPerStore.set(item.store, item);
+            }
+        });
+
+    return Array.from(bestPerStore.values()).sort((a, b) => a.new_price - b.new_price);
+}
+
+function renderStoreComparisonList(offer) {
+    const comparisons = getComparableOffers(offer).slice(0, 5);
+    if (comparisons.length <= 1) return "";
+
+    return `
+        <div class="comparison-mini">
+            <div class="comparison-mini-title">Сравнение по магазини</div>
+            ${comparisons.map(item => `
+                <div class="comparison-mini-row ${item.isBest ? "best" : ""}">
+                    <span>${escapeHtml(item.store)}</span>
+                    <span>${formatPricePair(item.new_price, item.new_price_eur)}${item.source_type === "promo" ? " · промо" : ""}</span>
+                </div>
+            `).join("")}
+        </div>
+    `;
+}
+
+function renderIngredientsBlock(offer) {
+    const ingredients = (offer.macros || {}).ingredients;
+    if (!ingredients) return "";
+    const compact = ingredients.length > 280 ? `${ingredients.slice(0, 277)}...` : ingredients;
+    return `<div class="details-note"><strong>Съставки:</strong> ${escapeHtml(compact)}</div>`;
+}
+
+function renderPagination(totalCount, totalPages) {
+    const pagination = document.getElementById("offers-pagination");
+    if (!pagination) return;
+
+    if (totalPages <= 1) {
+        pagination.innerHTML = `<div class="pagination-summary">${totalCount} продукта</div>`;
+        return;
+    }
+
+    const startItem = (currentPage - 1) * OFFERS_PER_PAGE + 1;
+    const endItem = Math.min(currentPage * OFFERS_PER_PAGE, totalCount);
+    const pages = [];
+    const startPage = Math.max(1, currentPage - 2);
+    const endPage = Math.min(totalPages, currentPage + 2);
+
+    for (let page = startPage; page <= endPage; page += 1) {
+        pages.push(`
+            <button class="pagination-btn ${page === currentPage ? "active" : ""}" data-page="${page}">
+                ${page}
+            </button>
+        `);
+    }
+
+    pagination.innerHTML = `
+        <div class="pagination-summary">Показани ${startItem}-${endItem} от ${totalCount} продукта</div>
+        <div class="pagination-controls">
+            <button class="pagination-btn" data-page="${currentPage - 1}" ${currentPage === 1 ? "disabled" : ""}>Назад</button>
+            ${pages.join("")}
+            <button class="pagination-btn" data-page="${currentPage + 1}" ${currentPage === totalPages ? "disabled" : ""}>Напред</button>
+        </div>
+    `;
+
+    pagination.querySelectorAll("[data-page]").forEach(btn => {
+        btn.addEventListener("click", () => {
+            const nextPage = Number(btn.dataset.page);
+            if (!nextPage || nextPage === currentPage || nextPage < 1 || nextPage > totalPages) return;
+            currentPage = nextPage;
+            renderOffers(filteredOffersCache);
+            window.scrollTo({ top: gridOffsetTop(), behavior: "smooth" });
+        });
+    });
+}
+
+function gridOffsetTop() {
+    const grid = document.getElementById("offers-grid");
+    return grid ? Math.max(grid.offsetTop - 90, 0) : 0;
+}
+
 function renderOffers(offers) {
     const grid = document.getElementById("offers-grid");
+    const pagination = document.getElementById("offers-pagination");
     if (!grid) return;
 
     if (offers.length === 0) {
         grid.innerHTML = '<p style="text-align:center; color:var(--muted);">Няма намерени продукти.</p>';
+        if (pagination) pagination.innerHTML = "";
         return;
     }
 
-    grid.innerHTML = offers.filter(o => o.name && o.new_price != null).map(o => {
+    const totalPages = Math.max(1, Math.ceil(offers.length / OFFERS_PER_PAGE));
+    if (currentPage > totalPages) currentPage = totalPages;
+    const start = (currentPage - 1) * OFFERS_PER_PAGE;
+    const visibleOffers = offers.filter(o => o.name && o.new_price != null).slice(start, start + OFFERS_PER_PAGE);
+
+    grid.innerHTML = visibleOffers.map(o => {
         const macros = getMacros(o);
+        const healthyOffer = isHealthyOffer(o);
         const hasHealthScore = o.is_food && !o.is_junk && o.health_score != null;
         const scoreCls = (o.health_score || 0) >= 8 ? "high" : (o.health_score || 0) >= 5 ? "medium" : "low";
-        const isHP = o.is_food && isStrictHighProtein(o);
+        const isHP = healthyOffer && isStrictHighProtein(o);
 
         let badges = [];
         if (hasHealthScore) badges.push(`<span class="health-badge ${scoreCls}">★ ${o.health_score}/10</span>`);
         if (isHP) badges.push(`<span class="offer-tag protein-tag">💪 ПРОТЕИН</span>`);
         if (o.is_junk) badges.push(`<span class="offer-tag junk-tag">⚠ JUNK</span>`);
+        if (isProcessedMeat(o)) badges.push(`<span class="offer-tag junk-tag">⚠ Преработено месо</span>`);
+        if (o.source_type === "promo") badges.push(`<span class="offer-tag bulk-tag">🔥 Промо</span>`);
+        if (o.source_type === "assortment") badges.push(`<span class="offer-tag long-lasting">📋 Асортимент</span>`);
         if (o.shelf_life && o.shelf_life !== "малотраен") badges.push(`<span class="offer-tag long-lasting">📦 ${o.shelf_life}</span>`);
-        if (o.is_bulk_worthy && o.category !== "grain") badges.push(`<span class="offer-tag bulk-tag">🛒 Едро</span>`);
+        if (o.is_bulk_worthy && o.category !== "grain" && healthyOffer) badges.push(`<span class="offer-tag bulk-tag">🛒 Едро</span>`);
 
         let metaParts = [];
         if (o.valid_until) metaParts.push(`до ${o.valid_until}`);
@@ -398,7 +692,7 @@ function renderOffers(offers) {
         }
 
         return `
-            <div class="offer-card">
+            <div class="offer-card" data-offer-id="${o.id}">
                 <div class="offer-header">
                     ${imgTag}
                     <div class="offer-info-main">
@@ -421,6 +715,7 @@ function renderOffers(offers) {
                             ${metaParts.length ? `<div class="details-row"><strong>Детайли:</strong> <span>${metaParts.join(" · ")}</span></div>` : ""}
                             ${o.shelf_life && o.shelf_life !== "малотраен" ? `<div class="details-row"><strong>Годност:</strong> <span>${o.shelf_life}</span></div>` : ""}
                             ${proteinValueHtml}
+                            ${renderStoreComparisonList(o)}
                             ${macros ? `
                             <div class="details-row macros-header">
                                 <strong>Хранителни стойности (на 100г):</strong>
@@ -434,6 +729,7 @@ function renderOffers(offers) {
                                 ${macros.sugar != null ? `<div class="macro-item"><div class="macro-val">${macros.sugar}г</div><div class="macro-label">захар</div></div>` : ""}
                                 ${macros.fiber != null ? `<div class="macro-item"><div class="macro-val">${macros.fiber}г</div><div class="macro-label">фибри</div></div>` : ""}
                             </div>` : ""}
+                            ${renderIngredientsBlock(o)}
                         </div>
                     </div>
                 </div>
@@ -441,7 +737,76 @@ function renderOffers(offers) {
         `;
     }).join("");
 
+    renderPagination(offers.length, totalPages);
     initOfferAccordion();
+}
+
+/* -----------------------------------------------------------------------
+   PRICE COMPARISON
+   ----------------------------------------------------------------------- */
+function renderPriceComparison() {
+    const container = document.getElementById("price-comparison");
+    if (!container) return;
+
+    const comparisonKeys = [...new Set(
+        allOffers
+            .map(offer => offer._comparisonKey)
+            .filter(Boolean)
+    )];
+
+    const comparisons = comparisonKeys
+        .map(key => getBestComparableOffersByStore(key))
+        .filter(items => items.length > 1)
+        .map(items => {
+            const best = items[0];
+            const second = items[1];
+            const worst = items[items.length - 1];
+            const saving = second ? Math.max(0, second.new_price - best.new_price) : 0;
+            return { best, items, worst, saving };
+        })
+        .filter(({ best, worst, saving }) => worst && best && worst.new_price > best.new_price && saving > 0)
+        .sort((a, b) => {
+            if (b.items.length !== a.items.length) return b.items.length - a.items.length;
+            if (b.saving !== a.saving) return b.saving - a.saving;
+            return a.best.new_price - b.best.new_price;
+        })
+        .slice(0, 12);
+
+    if (!comparisons.length) {
+        container.innerHTML = '<p style="color:var(--muted);">Още няма достатъчно припокриващи се продукти за сравнение.</p>';
+        return;
+    }
+
+    container.innerHTML = comparisons.map(({ best, items, worst, saving }) => `
+        <div class="comparison-card">
+            <div class="comparison-card-head">
+                <div>
+                    <div class="comparison-name">${best.name}</div>
+                    <div class="comparison-subtitle">${items.length} магазина · най-евтино в ${best.store}</div>
+                </div>
+                <div>
+                    <div class="comparison-price">${formatPricePair(best.new_price, best.new_price_eur)}</div>
+                    <button class="comparison-open-btn" data-offer-link="${best.id}">Отвори продукта</button>
+                </div>
+            </div>
+            <div class="comparison-list">
+                ${items.slice(0, 5).map((item, index) => `
+                    <div class="comparison-row ${index === 0 ? "best" : ""}">
+                        <span>${item.store}</span>
+                        <span>${formatPricePair(item.new_price, item.new_price_eur)}${item.source_type === "promo" ? " · промо" : ""}</span>
+                    </div>
+                `).join("")}
+            </div>
+            <div class="comparison-footer">
+                ${saving > 0 ? `Спестяване спрямо следващата цена: <span class="green">${saving.toFixed(2)} лв</span>` : "Без голяма разлика между магазините"}
+                ${worst && worst !== best ? ` · най-висока цена: ${formatPricePair(worst.new_price, worst.new_price_eur)} в ${worst.store}` : ""}
+            </div>
+        </div>
+    `).join("");
+
+    container.querySelectorAll("[data-offer-link]").forEach(btn => {
+        btn.addEventListener("click", () => openOfferInGrid(btn.dataset.offerLink));
+    });
 }
 
 /* -----------------------------------------------------------------------
@@ -451,7 +816,7 @@ function renderBulkRecommendations() {
     const container = document.getElementById("bulk-recommendations");
     if (!container) return;
 
-    const bulkItems = allOffers.filter(o => o.is_bulk_worthy && o.is_food);
+    const bulkItems = allOffers.filter(o => o.is_bulk_worthy && isHealthyOffer(o));
 
     if (bulkItems.length === 0) {
         container.innerHTML = '<p style="color:var(--muted);">Няма bulk оферти тази седмица.</p>';
@@ -500,16 +865,16 @@ function renderProteinRanking() {
     const container = document.getElementById("protein-ranking");
     if (!container) return;
 
-    const PROTEIN_CATS = new Set(["protein", "dairy", "canned", "legume", "nuts"]);
-
     const items = allOffers.filter(o => {
-        if (!o.is_food || o.is_junk) return false;
+        if (!isHealthyOffer(o)) return false;
+        if ((o.health_score || 0) < 7) return false;
         if (o.category === "drinks") return false;
         // Require real weight + price (no fallback guessing)
         if (!o.weight_grams || !o.price_per_kg || o.price_per_kg <= 0) return false;
         const macros = getMacros(o);
-        if (!macros || macros.p < 5) return false;
-        return PROTEIN_CATS.has(o.category) || isStrictHighProtein(o);
+        if (!macros || macros.p < 8) return false;
+        if (!isProteinSource(o)) return false;
+        return true;
     });
 
     if (items.length === 0) {
@@ -567,9 +932,9 @@ function renderProfileRecommendations(profile) {
 
     let filtered;
     if (profile === "all") {
-        filtered = allOffers.filter(o => o.is_healthy);
+        filtered = allOffers.filter(o => isHealthyOffer(o));
     } else {
-        filtered = allOffers.filter(o => o.diet_tags && o.diet_tags.includes(profile));
+        filtered = allOffers.filter(o => isHealthyOffer(o) && o.diet_tags && o.diet_tags.includes(profile));
     }
 
     filtered.sort((a, b) => {
@@ -612,7 +977,8 @@ function renderProfileRecommendations(profile) {
    ----------------------------------------------------------------------- */
 function initOfferAccordion() {
     const grid = document.getElementById("offers-grid");
-    if (!grid) return;
+    if (!grid || grid.dataset.accordionBound === "1") return;
+    grid.dataset.accordionBound = "1";
     grid.addEventListener("click", (e) => {
         const card = e.target.closest(".offer-card");
         if (!card || !grid.contains(card)) return;
@@ -624,7 +990,8 @@ function initOfferAccordion() {
 
 function initProteinRankingAccordion() {
     const container = document.getElementById("protein-ranking");
-    if (!container) return;
+    if (!container || container.dataset.accordionBound === "1") return;
+    container.dataset.accordionBound = "1";
     container.addEventListener("click", (e) => {
         const card = e.target.closest(".protein-rank-item");
         if (!card || !container.contains(card)) return;

@@ -2,6 +2,10 @@
 
 Static website (HTML/CSS/JS). Motivates Bulgarians toward healthy living. 5 pages, linear flow, dark theme. Python scraper for weekly grocery offers. All content in Bulgarian.
 
+## Implementation rule
+
+When adding search, parsing, pagination, scraping, OCR, comparison logic, or data extraction, prefer proven libraries and stable platform features over hand-rolled implementations. Use custom code only when the library route is clearly insufficient or would add more fragility than value. Examples: `Fuse.js` for fuzzy search, `BeautifulSoup`/`requests` for HTML extraction, existing JSON or embedded data feeds before OCR, OCR only as fallback.
+
 ## Files
 
 ```
