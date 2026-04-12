@@ -614,6 +614,40 @@ def is_processed_meat(name):
     return any(kw in name.lower() for kw in PROCESSED_MEAT_KEYWORDS)
 
 
+GOOD_CARB_KEYWORDS = [
+    # Зърнени
+    "овес", "овесен", "каша", "мюсли", "гранол", "елда", "киноа", "просо", "ечемик",
+    "ориз", "пълнозърн", "цялозърн", "спелта",
+    # Бобови — всички са добри въглехидрати + протеин
+    "леща", "нахут", "боб", "фасул", "грах", "мунг",
+    # Паста (без кекс/торта)
+    "паста", "спагети", "макарон", "фузили", "пене",
+]
+
+GOOD_FAT_KEYWORDS = [
+    # Ядки и семена
+    "орех", "бадем", "кашу", "лешник", "макадамия", "пекан", "писташ",
+    "тиквено семе", "слънчогледово семе", "чиа", "лен",
+    "ядки", "микс ядки",
+    # Масла
+    "зехтин", "олива", "авокадо", "кокосово масло",
+    # Краве масло
+    "масло краве", "краве масло", "butter",
+    # Риба с омега-3
+    "сьомга", "скумрия", "сельодка", "херинга", "риба тон", "аншоа",
+]
+
+
+def is_good_carb(name: str) -> bool:
+    n = name.lower()
+    return any(kw in n for kw in GOOD_CARB_KEYWORDS)
+
+
+def is_good_fat(name: str) -> bool:
+    n = name.lower()
+    return any(kw in n for kw in GOOD_FAT_KEYWORDS)
+
+
 def is_healthy(name):
     return is_food(name) and not is_junk(name) and not is_processed_meat(name)
 
@@ -985,6 +1019,9 @@ def reclassify_offer(offer):
     offer["diet_tags"] = diet_tags
     offer["macros"] = macros
     offer["is_junk"] = junk
+    offer["is_good_carb"] = is_good_carb(name) and not junk
+    offer["is_good_fat"] = is_good_fat(name)
+    offer["is_high_protein"] = offer.get("is_high_protein") or is_high_protein(name)
     offer.pop("macros_source", None)
     offer.pop("nutriscore", None)
     return offer

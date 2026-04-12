@@ -1152,6 +1152,32 @@ input[type="range"]::-moz-range-thumb {
     margin: 20px 0;
 }
 
+/* Search bar */
+.search-wrapper {
+    margin-bottom: 12px;
+}
+
+.offers-search {
+    width: 100%;
+    box-sizing: border-box;
+    background: var(--surface);
+    border: 1px solid var(--surface-border);
+    border-radius: 8px;
+    color: var(--text);
+    font-size: 0.95rem;
+    padding: 10px 14px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.offers-search::placeholder {
+    color: var(--muted);
+}
+
+.offers-search:focus {
+    border-color: var(--green);
+}
+
 .filter-btn {
     background: var(--surface);
     border: 1px solid var(--surface-border);

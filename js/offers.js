@@ -7,6 +7,7 @@ let allOffers = [];
 let activeType = "all";
 let activeCategory = "all";
 let activeSort = "recommended";
+let searchQuery = "";
 
 document.addEventListener("DOMContentLoaded", () => {
     loadOffers();
@@ -58,6 +59,7 @@ async function loadOffers() {
         initCategoryFilters();
         initProfileFilters();
         initSortButtons();
+        initSearch();
     } else {
         const grid = document.getElementById("offers-grid");
         if (grid) {
@@ -111,29 +113,51 @@ function initSortButtons() {
     });
 }
 
+/* --- Search --- */
+function initSearch() {
+    const input = document.getElementById("offers-search");
+    if (!input) return;
+    let debounce;
+    input.addEventListener("input", () => {
+        clearTimeout(debounce);
+        debounce = setTimeout(() => {
+            searchQuery = input.value.trim().toLowerCase();
+            applyFilters();
+        }, 200);
+    });
+}
+
 /* --- Combined Filtering --- */
 function applyFilters() {
-    // Base filter: always exclude obvious non-food and zero-quality items
     let filtered = allOffers.filter(o => {
-        if (o.is_food === false) return false;                          // scraper marked non-food
-        if (o.category === "other" && !o.health_score) return false;   // uncategorised non-food
-        if ((o.health_score || 0) < 4) return false;                   // candy, chips, junk, sugary drinks
-        if (o.name && /^[^а-яА-Яa-zA-Z0-9]+/.test(o.name)) return false; // name starts with garbage
+        if (!o.name || o.new_price == null) return false;
+        if (o.name && /^[^а-яА-Яa-zA-Z0-9]+/.test(o.name)) return false; // garbage name
         return true;
     });
 
-    if (activeType === "food") {
-        filtered = filtered.filter(o => o.is_food);
-    } else if (activeType === "healthy") {
+    // Search
+    if (searchQuery) {
+        filtered = filtered.filter(o => o.name.toLowerCase().includes(searchQuery));
+    }
+
+    // Type filter
+    if (activeType === "healthy") {
         filtered = filtered.filter(o => o.is_healthy);
-    } else if (activeType === "long_lasting") {
-        filtered = filtered.filter(o => o.is_long_lasting);
+    } else if (activeType === "high_protein") {
+        filtered = filtered.filter(o => o.is_high_protein || (o.macros && o.macros.p >= 10));
+    } else if (activeType === "good_carb") {
+        filtered = filtered.filter(o => o.is_good_carb);
+    } else if (activeType === "good_fat") {
+        filtered = filtered.filter(o => o.is_good_fat);
     } else if (activeType === "bulk") {
         filtered = filtered.filter(o => o.is_bulk_worthy);
-    } else if (activeType === "high_protein") {
-        filtered = filtered.filter(o => o.macros && o.macros.p >= 10);
+    } else if (activeType === "junk") {
+        filtered = filtered.filter(o => o.is_junk);
     } else if (activeType === "non_food") {
         filtered = filtered.filter(o => !o.is_food);
+    } else {
+        // "all" — покажи само хранителни и нехранителни с реални имена, без чист garbage
+        filtered = filtered.filter(o => o.is_food || o.category !== "other");
     }
 
     if (activeCategory !== "all") {
@@ -331,10 +355,17 @@ function renderProteinRanking() {
     const container = document.getElementById("protein-ranking");
     if (!container) return;
 
-    // Only healthy food items with enough protein.
-    const items = allOffers.filter(o =>
-        o.is_healthy && o.macros && o.macros.p >= 5
-    );
+    // Only actual protein sources — exclude sauces, spices, condiments, drinks, non-food.
+    const PROTEIN_CATEGORIES = new Set(["protein", "dairy", "canned", "legume", "nuts"]);
+    const NON_PROTEIN_TYPES = new Set(["non_food", "junk"]);
+    const items = allOffers.filter(o => {
+        if (!o.macros || o.macros.p < 5) return false;
+        if (NON_PROTEIN_TYPES.has(o.type)) return false;
+        if (o.category === "drinks") return false;
+        if (o.category === "fat" && !o.is_high_protein) return false;
+        // Must be a known protein category OR explicitly tagged high protein
+        return PROTEIN_CATEGORIES.has(o.category) || o.is_high_protein;
+    });
 
     if (items.length === 0) {
         container.innerHTML = '<p style="color:var(--muted);">Няма данни за протеинов анализ.</p>';
