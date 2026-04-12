@@ -32,6 +32,13 @@ from playwright.async_api import async_playwright
 from bs4 import BeautifulSoup
 
 # ── Structured store scrapers (primary sources, no OCR) ───────────────────────
+try:
+    from off_enricher import get_off_macros as _get_off_macros
+    _OFF_ENRICHER_AVAILABLE = True
+except ImportError:
+    _OFF_ENRICHER_AVAILABLE = False
+    def _get_off_macros(name, category="other"): return None
+
 # Import here so the module is available; actual calls happen in main().
 try:
     from store_scrapers import (
@@ -993,6 +1000,9 @@ def reclassify_offer(offer):
                 health_score = max(health_score, 8)
 
     macros = get_macros(name) if food and healthy else None
+    # If local MACROS_DB has no match, try Open Food Facts (cached)
+    if macros is None and food and healthy and _OFF_ENRICHER_AVAILABLE:
+        macros = _get_off_macros(name, category)
     diet_tags = get_diet_tags(name) if healthy else []
 
     # Already parsed if possible
