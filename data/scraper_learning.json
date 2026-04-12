@@ -120,37 +120,332 @@
       "food_keywords_active": 174,
       "uncategorized_new": 0,
       "auto_promoted_this_run": []
+    },
+    {
+      "date": "2026-04-11T11:27:54.592999Z",
+      "elapsed_seconds": 682,
+      "total_offers": 91,
+      "food_offers": 42,
+      "healthy_offers": 38,
+      "stores_scraped": [
+        "Billa",
+        "CBA",
+        "Fantastico",
+        "Flora",
+        "HIT",
+        "Kaufland",
+        "Lidl",
+        "Life",
+        "STOP4ETO",
+        "Slaveks",
+        "T-Market"
+      ],
+      "by_store": {
+        "T-Market": 10,
+        "STOP4ETO": 6,
+        "Kaufland": 18,
+        "Fantastico": 8,
+        "HIT": 9,
+        "Life": 20,
+        "Flora": 9,
+        "Slaveks": 14,
+        "Lidl": 21,
+        "CBA": 21,
+        "Billa": 8
+      },
+      "ocr_by_store": {
+        "Lidl": 12
+      },
+      "total_brochures": 9,
+      "food_keywords_active": 174,
+      "uncategorized_new": 2,
+      "auto_promoted_this_run": []
+    },
+    {
+      "date": "2026-04-11T11:44:34.363622Z",
+      "elapsed_seconds": 684,
+      "total_offers": 95,
+      "food_offers": 42,
+      "healthy_offers": 37,
+      "stores_scraped": [
+        "Billa",
+        "CBA",
+        "Fantastico",
+        "Flora",
+        "HIT",
+        "Kaufland",
+        "Lidl",
+        "Life",
+        "STOP4ETO",
+        "Slaveks",
+        "T-Market"
+      ],
+      "by_store": {
+        "Fantastico": 9,
+        "Kaufland": 22,
+        "Slaveks": 13,
+        "Billa": 8,
+        "Lidl": 21,
+        "Life": 18,
+        "STOP4ETO": 6,
+        "Flora": 9,
+        "CBA": 24,
+        "HIT": 8,
+        "T-Market": 10
+      },
+      "ocr_by_store": {
+        "Kaufland": 5,
+        "Lidl": 12
+      },
+      "total_brochures": 9,
+      "food_keywords_active": 174,
+      "uncategorized_new": 2,
+      "auto_promoted_this_run": []
+    },
+    {
+      "date": "2026-04-11T13:40:12.376913Z",
+      "elapsed_seconds": 817,
+      "total_offers": 104,
+      "food_offers": 41,
+      "healthy_offers": 35,
+      "stores_scraped": [
+        "Billa",
+        "CBA",
+        "Fantastico",
+        "Flora",
+        "HIT",
+        "Kaufland",
+        "Lidl",
+        "Life",
+        "STOP4ETO",
+        "Slaveks",
+        "T-Market"
+      ],
+      "by_store": {
+        "Lidl": 21,
+        "CBA": 21,
+        "Fantastico": 10,
+        "Billa": 9,
+        "Life": 19,
+        "Slaveks": 16,
+        "STOP4ETO": 8,
+        "T-Market": 9,
+        "Flora": 9,
+        "HIT": 9,
+        "Kaufland": 25
+      },
+      "ocr_by_store": {
+        "Lidl": 12,
+        "Kaufland": 5
+      },
+      "total_brochures": 9,
+      "food_keywords_active": 174,
+      "uncategorized_new": 1,
+      "auto_promoted_this_run": []
+    },
+    {
+      "date": "2026-04-11T15:54:56.842785Z",
+      "elapsed_seconds": 795,
+      "total_offers": 1304,
+      "food_offers": 405,
+      "healthy_offers": 381,
+      "high_protein_offers": 32,
+      "with_image": 606,
+      "with_discount": 1152,
+      "stores_scraped": [
+        "Billa",
+        "Fantastico",
+        "Kaufland",
+        "Lidl",
+        "T-Market"
+      ],
+      "by_store": {
+        "Kaufland": 1558,
+        "Lidl": 20,
+        "Billa": 235,
+        "Fantastico": 474,
+        "T-Market": 10
+      },
+      "ocr_by_store": {
+        "Lidl": 6,
+        "Kaufland": 3
+      },
+      "structured_by_store": {
+        "Kaufland": 1555,
+        "Lidl": 14,
+        "Billa": 225,
+        "Fantastico": 474
+      },
+      "total_brochures": 8,
+      "food_keywords_active": 174,
+      "uncategorized_new": 17,
+      "auto_promoted_this_run": []
     }
   ],
   "candidates": {
     "hipp биопюре избрани видове": {
       "name": "Hipp Биопюре избрани видове",
-      "count": 3,
+      "count": 7,
       "stores": [
         "Slaveks",
         "Flora",
-        "Life"
+        "Life",
+        "STOP4ETO",
+        "Kaufland",
+        "Billa",
+        "CBA"
       ],
-      "last_seen": "2026-04-11T05:09:17.898847Z"
+      "last_seen": "2026-04-11T11:44:34.366237Z"
     },
     "lavazza кафе на зърна crema e gusto classico": {
       "name": "Lavazza Кафе на зърна Crema e gusto Classico",
-      "count": 4,
+      "count": 6,
       "stores": [
         "Lidl",
         "CBA",
         "Slaveks",
-        "Life"
+        "Life",
+        "Fantastico"
       ],
-      "last_seen": "2026-04-11T05:09:17.898847Z"
+      "last_seen": "2026-04-11T15:54:56.844223Z"
     },
     "gerber пюре различни видове": {
       "name": "Gerber Пюре различни видове",
+      "count": 3,
+      "stores": [
+        "Life",
+        "CBA",
+        "Lidl"
+      ],
+      "last_seen": "2026-04-11T13:40:12.377148Z"
+    },
+    "булмед": {
+      "name": "Булмед",
       "count": 1,
       "stores": [
-        "Life"
+        "Kaufland"
       ],
-      "last_seen": "2026-04-10T20:37:09.078254Z"
+      "last_seen": "2026-04-11T15:54:56.844223Z"
+    },
+    "tchibo разтворимо кафе gold 200 г": {
+      "name": "Tchibo Разтворимо кафе Gold 200 г",
+      "count": 1,
+      "stores": [
+        "Billa"
+      ],
+      "last_seen": "2026-04-11T15:54:56.844223Z"
+    },
+    "billa меденки 500 г": {
+      "name": "Billa Меденки 500 г",
+      "count": 1,
+      "stores": [
+        "Billa"
+      ],
+      "last_seen": "2026-04-11T15:54:56.844223Z"
+    },
+    "кафе vergnano gran aroma 1 кг зърна": {
+      "name": "КАФЕ VERGNANO GRAN AROMA 1 КГ ЗЪРНА",
+      "count": 1,
+      "stores": [
+        "Fantastico"
+      ],
+      "last_seen": "2026-04-11T15:54:56.844223Z"
+    },
+    "кафе costa signature medium 8 1 кг зърна": {
+      "name": "КАФЕ COSTA SIGNATURE MEDIUM 8 1 КГ ЗЪРНА",
+      "count": 1,
+      "stores": [
+        "Fantastico"
+      ],
+      "last_seen": "2026-04-11T15:54:56.844223Z"
+    },
+    "кафе kimbo aroma gold 100% арабика 250 г мет. кутия": {
+      "name": "КАФЕ KIMBO AROMA GOLD 100% АРАБИКА 250 Г МЕТ. КУТИЯ",
+      "count": 1,
+      "stores": [
+        "Fantastico"
+      ],
+      "last_seen": "2026-04-11T15:54:56.844223Z"
+    },
+    "кафе melitta bar selection crema intense 1 кг зърна": {
+      "name": "КАФЕ MELITTA BAR SELECTION CREMA INTENSE 1 КГ ЗЪРНА",
+      "count": 1,
+      "stores": [
+        "Fantastico"
+      ],
+      "last_seen": "2026-04-11T15:54:56.844223Z"
+    },
+    "кафе kimbo aroma gold 100% арабика 1 кг зърна": {
+      "name": "КАФЕ KIMBO AROMA GOLD 100% АРАБИКА 1 КГ ЗЪРНА",
+      "count": 1,
+      "stores": [
+        "Fantastico"
+      ],
+      "last_seen": "2026-04-11T15:54:56.844223Z"
+    },
+    "кафе melitta bar selection espresso intense 1 кг зърна": {
+      "name": "КАФЕ MELITTA BAR SELECTION ESPRESSO INTENSE 1 КГ ЗЪРНА",
+      "count": 1,
+      "stores": [
+        "Fantastico"
+      ],
+      "last_seen": "2026-04-11T15:54:56.844223Z"
+    },
+    "кафе eduscho espresso classic 1 кг зърна": {
+      "name": "КАФЕ EDUSCHO ESPRESSO CLASSIC 1 КГ ЗЪРНА",
+      "count": 1,
+      "stores": [
+        "Fantastico"
+      ],
+      "last_seen": "2026-04-11T15:54:56.844223Z"
+    },
+    "кафе eduscho espresso intenso 1 кг зърна": {
+      "name": "КАФЕ EDUSCHO ESPRESSO INTENSO 1 КГ ЗЪРНА",
+      "count": 1,
+      "stores": [
+        "Fantastico"
+      ],
+      "last_seen": "2026-04-11T15:54:56.844223Z"
+    },
+    "кафе l or espresso forza 1 кг зърна": {
+      "name": "КАФЕ L OR ESPRESSO FORZA 1 КГ ЗЪРНА",
+      "count": 1,
+      "stores": [
+        "Fantastico"
+      ],
+      "last_seen": "2026-04-11T15:54:56.844223Z"
+    },
+    "кафе tchibo gold selection 1 кг зърна пакет": {
+      "name": "КАФЕ TCHIBO GOLD SELECTION 1 КГ ЗЪРНА ПАКЕТ",
+      "count": 1,
+      "stores": [
+        "Fantastico"
+      ],
+      "last_seen": "2026-04-11T15:54:56.844223Z"
+    },
+    "кафе melitta bar selection espresso classic 1 кг зърна": {
+      "name": "КАФЕ MELITTA BAR SELECTION ESPRESSO CLASSIC 1 КГ ЗЪРНА",
+      "count": 1,
+      "stores": [
+        "Fantastico"
+      ],
+      "last_seen": "2026-04-11T15:54:56.844223Z"
+    },
+    "кафе costa crema 1 кг зърна": {
+      "name": "КАФЕ COSTA CREMA 1 КГ ЗЪРНА",
+      "count": 1,
+      "stores": [
+        "Fantastico"
+      ],
+      "last_seen": "2026-04-11T15:54:56.844223Z"
+    },
+    "jysk рамка за легло vemmelev 160x200 със съхранение бежов текстил": {
+      "name": "JYSK Рамка за легло VEMMELEV 160x200 със съхранение бежов текстил",
+      "count": 1,
+      "stores": [
+        "Billa"
+      ],
+      "last_seen": "2026-04-11T15:54:56.844223Z"
     }
   },
   "auto_promoted": [],

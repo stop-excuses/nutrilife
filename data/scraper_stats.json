@@ -303,5 +303,494 @@
         "health_score": 9
       }
     ]
+  },
+  {
+    "date": "2026-04-11T11:27:54.592999Z",
+    "elapsed_seconds": 682,
+    "total_offers": 91,
+    "food_offers": 42,
+    "healthy_offers": 38,
+    "stores_scraped": [
+      "Billa",
+      "CBA",
+      "Fantastico",
+      "Flora",
+      "HIT",
+      "Kaufland",
+      "Lidl",
+      "Life",
+      "STOP4ETO",
+      "Slaveks",
+      "T-Market"
+    ],
+    "by_store": {
+      "T-Market": 10,
+      "STOP4ETO": 6,
+      "Kaufland": 18,
+      "Fantastico": 8,
+      "HIT": 9,
+      "Life": 20,
+      "Flora": 9,
+      "Slaveks": 14,
+      "Lidl": 21,
+      "CBA": 21,
+      "Billa": 8
+    },
+    "ocr_by_store": {
+      "Lidl": 12
+    },
+    "total_brochures": 9,
+    "food_keywords_active": 174,
+    "category_breakdown": {
+      "canned": 1,
+      "dairy": 9,
+      "vegetable": 8,
+      "legume": 2,
+      "protein": 17,
+      "nuts": 2,
+      "bread": 2,
+      "other": 49,
+      "grain": 1
+    },
+    "top_healthy": [
+      {
+        "name": "Ocean Fish Пушена сьомга",
+        "store": "CBA",
+        "health_score": 10
+      },
+      {
+        "name": "баница със сирене и спанак /6p мъжа",
+        "store": "Lidl",
+        "health_score": 9
+      },
+      {
+        "name": "Авокадо",
+        "store": "T-Market",
+        "health_score": 9
+      },
+      {
+        "name": "“ леща",
+        "store": "Lidl",
+        "health_score": 9
+      },
+      {
+        "name": "Luengo Нахут или Боб сварен",
+        "store": "T-Market",
+        "health_score": 9
+      },
+      {
+        "name": "пушено сирене нарязано / lidl",
+        "store": "Lidl",
+        "health_score": 9
+      },
+      {
+        "name": "Зора Яйца размер М",
+        "store": "Life",
+        "health_score": 9
+      },
+      {
+        "name": "Шеф Месар Пилешки крила Ориенталски XXL",
+        "store": "Flora",
+        "health_score": 9
+      },
+      {
+        "name": "„ а бургери от младо свински гърди пилешко",
+        "store": "Lidl",
+        "health_score": 9
+      },
+      {
+        "name": "я” ав. « пресни яйца размер",
+        "store": "Lidl",
+        "health_score": 9
+      }
+    ]
+  },
+  {
+    "date": "2026-04-11T11:44:34.363622Z",
+    "elapsed_seconds": 684,
+    "total_offers": 95,
+    "food_offers": 42,
+    "healthy_offers": 37,
+    "stores_scraped": [
+      "Billa",
+      "CBA",
+      "Fantastico",
+      "Flora",
+      "HIT",
+      "Kaufland",
+      "Lidl",
+      "Life",
+      "STOP4ETO",
+      "Slaveks",
+      "T-Market"
+    ],
+    "by_store": {
+      "Fantastico": 9,
+      "Kaufland": 22,
+      "Slaveks": 13,
+      "Billa": 8,
+      "Lidl": 21,
+      "Life": 18,
+      "STOP4ETO": 6,
+      "Flora": 9,
+      "CBA": 24,
+      "HIT": 8,
+      "T-Market": 10
+    },
+    "ocr_by_store": {
+      "Kaufland": 5,
+      "Lidl": 12
+    },
+    "total_brochures": 9,
+    "food_keywords_active": 174,
+    "category_breakdown": {
+      "dairy": 9,
+      "vegetable": 9,
+      "legume": 1,
+      "protein": 17,
+      "nuts": 2,
+      "bread": 2,
+      "other": 54,
+      "grain": 1
+    },
+    "top_healthy": [
+      {
+        "name": "баница със сирене и спанак /6p мъжа",
+        "store": "Lidl",
+        "health_score": 9
+      },
+      {
+        "name": "Авокадо",
+        "store": "Life",
+        "health_score": 9
+      },
+      {
+        "name": "“ леща",
+        "store": "Lidl",
+        "health_score": 9
+      },
+      {
+        "name": "пушено сирене нарязано / lidl",
+        "store": "Lidl",
+        "health_score": 9
+      },
+      {
+        "name": "„ а бургери от младо свински гърди пилешко",
+        "store": "Lidl",
+        "health_score": 9
+      },
+      {
+        "name": "я” ав. « пресни яйца размер",
+        "store": "Lidl",
+        "health_score": 9
+      },
+      {
+        "name": "Орехите Шпек различни видове",
+        "store": "Slaveks",
+        "health_score": 9
+      },
+      {
+        "name": "Сельодка филе от свежата витрина",
+        "store": "Fantastico",
+        "health_score": 9
+      },
+      {
+        "name": "EXQUISA Скир натурален",
+        "store": "Flora",
+        "health_score": 8
+      },
+      {
+        "name": "Жълт лук",
+        "store": "Kaufland",
+        "health_score": 7
+      }
+    ]
+  },
+  {
+    "date": "2026-04-11T13:40:12.376913Z",
+    "elapsed_seconds": 817,
+    "total_offers": 104,
+    "food_offers": 41,
+    "healthy_offers": 35,
+    "stores_scraped": [
+      "Billa",
+      "CBA",
+      "Fantastico",
+      "Flora",
+      "HIT",
+      "Kaufland",
+      "Lidl",
+      "Life",
+      "STOP4ETO",
+      "Slaveks",
+      "T-Market"
+    ],
+    "by_store": {
+      "Lidl": 21,
+      "CBA": 21,
+      "Fantastico": 10,
+      "Billa": 9,
+      "Life": 19,
+      "Slaveks": 16,
+      "STOP4ETO": 8,
+      "T-Market": 9,
+      "Flora": 9,
+      "HIT": 9,
+      "Kaufland": 25
+    },
+    "ocr_by_store": {
+      "Lidl": 12,
+      "Kaufland": 5
+    },
+    "total_brochures": 9,
+    "food_keywords_active": 174,
+    "category_breakdown": {
+      "dairy": 4,
+      "vegetable": 10,
+      "legume": 3,
+      "protein": 20,
+      "bread": 3,
+      "other": 62,
+      "grain": 1,
+      "nuts": 1
+    },
+    "top_healthy": [
+      {
+        "name": "баница със сирене и спанак /6p мъжа",
+        "store": "Lidl",
+        "health_score": 9
+      },
+      {
+        "name": "Vernada Салата Хумус различни вкусове",
+        "store": "Life",
+        "health_score": 9
+      },
+      {
+        "name": "Авокадо",
+        "store": "HIT",
+        "health_score": 9
+      },
+      {
+        "name": "“ леща",
+        "store": "Lidl",
+        "health_score": 9
+      },
+      {
+        "name": "Luengo Нахут или Боб сварен",
+        "store": "CBA",
+        "health_score": 9
+      },
+      {
+        "name": "пушено сирене нарязано / lidl",
+        "store": "Lidl",
+        "health_score": 9
+      },
+      {
+        "name": "„ а бургери от младо свински гърди пилешко",
+        "store": "Lidl",
+        "health_score": 9
+      },
+      {
+        "name": "я” ав. « пресни яйца размер",
+        "store": "Lidl",
+        "health_score": 9
+      },
+      {
+        "name": "Сельодка филе от свежата витрина",
+        "store": "Fantastico",
+        "health_score": 9
+      },
+      {
+        "name": "Телешки джолан Осо буко от свежата витрина",
+        "store": "Slaveks",
+        "health_score": 8
+      }
+    ]
+  },
+  {
+    "date": "2026-04-11T15:54:56.842785Z",
+    "elapsed_seconds": 795,
+    "total_offers": 1304,
+    "food_offers": 405,
+    "healthy_offers": 381,
+    "high_protein_offers": 32,
+    "with_image": 606,
+    "with_discount": 1152,
+    "stores_scraped": [
+      "Billa",
+      "Fantastico",
+      "Kaufland",
+      "Lidl",
+      "T-Market"
+    ],
+    "by_store": {
+      "Kaufland": 1558,
+      "Lidl": 20,
+      "Billa": 235,
+      "Fantastico": 474,
+      "T-Market": 10
+    },
+    "ocr_by_store": {
+      "Lidl": 6,
+      "Kaufland": 3
+    },
+    "structured_by_store": {
+      "Kaufland": 1555,
+      "Lidl": 14,
+      "Billa": 225,
+      "Fantastico": 474
+    },
+    "total_brochures": 8,
+    "food_keywords_active": 174,
+    "category_breakdown": {
+      "canned": 19,
+      "protein": 148,
+      "vegetable": 81,
+      "legume": 7,
+      "dairy": 80,
+      "nuts": 11,
+      "grain": 87,
+      "fat": 14,
+      "bread": 17,
+      "other": 840
+    },
+    "top_healthy": [
+      {
+        "name": "Ocean Fish Пушена сьомга",
+        "store": "Fantastico",
+        "health_score": 10
+      },
+      {
+        "name": "Starfish Пушена сьомга 100 г",
+        "store": "Billa",
+        "health_score": 10
+      },
+      {
+        "name": "Супер цена - Пъстърва чистена вакуум За 1 кг Произход - България",
+        "store": "Billa",
+        "health_score": 10
+      },
+      {
+        "name": "Ципура",
+        "store": "Kaufland",
+        "health_score": 10
+      },
+      {
+        "name": "Сьомгова пъстърва филе",
+        "store": "Kaufland",
+        "health_score": 10
+      },
+      {
+        "name": "Ocean Fish Сьомга котлет За 1 кг Продукт, маркиран със синя звезда",
+        "store": "Billa",
+        "health_score": 10
+      },
+      {
+        "name": "Сьомгoва пъстърва",
+        "store": "Kaufland",
+        "health_score": 10
+      },
+      {
+        "name": "Класическа боя за яйца",
+        "store": "Kaufland",
+        "health_score": 9
+      },
+      {
+        "name": "Боя за яйца или Кристали",
+        "store": "Kaufland",
+        "health_score": 9
+      },
+      {
+        "name": "БОБ КРИНА МАСЛЕН 400 ГР КОНСЕРВА",
+        "store": "Fantastico",
+        "health_score": 9
+      }
+    ]
+  },
+  {
+    "date": "2026-04-12T04:00:08.471345Z",
+    "elapsed_seconds": 28,
+    "total_offers": 1277,
+    "food_offers": 396,
+    "healthy_offers": 369,
+    "high_protein_offers": 30,
+    "with_image": 588,
+    "with_discount": 1147,
+    "stores_scraped": [
+      "Billa",
+      "Fantastico",
+      "Kaufland",
+      "T-Market"
+    ],
+    "by_store": {
+      "Kaufland": 1490,
+      "T-Market": 47,
+      "Billa": 225,
+      "Fantastico": 464
+    },
+    "category_breakdown": {
+      "canned": 18,
+      "protein": 142,
+      "vegetable": 77,
+      "legume": 7,
+      "nuts": 14,
+      "dairy": 74,
+      "grain": 86,
+      "fat": 13,
+      "bread": 15,
+      "other": 831
+    },
+    "top_healthy": [
+      {
+        "name": "Starfish Пушена сьомга 100 г",
+        "store": "Billa",
+        "health_score": 10
+      },
+      {
+        "name": "Супер цена - Пъстърва чистена вакуум За 1 кг Произход - България",
+        "store": "Billa",
+        "health_score": 10
+      },
+      {
+        "name": "Ципура",
+        "store": "Kaufland",
+        "health_score": 10
+      },
+      {
+        "name": "Сьомгова пъстърва филе",
+        "store": "Kaufland",
+        "health_score": 10
+      },
+      {
+        "name": "Ocean Fish Сьомга котлет За 1 кг Продукт, маркиран със синя звезда",
+        "store": "Billa",
+        "health_score": 10
+      },
+      {
+        "name": "Сьомгoва пъстърва",
+        "store": "Kaufland",
+        "health_score": 10
+      },
+      {
+        "name": "Класическа боя за яйца",
+        "store": "Kaufland",
+        "health_score": 9
+      },
+      {
+        "name": "Боя за яйца или Кристали",
+        "store": "Kaufland",
+        "health_score": 9
+      },
+      {
+        "name": "Инстантни спагети REEVA пиле 60 г",
+        "store": "T-Market",
+        "health_score": 9
+      },
+      {
+        "name": "БОБ КРИНА МАСЛЕН 400 ГР КОНСЕРВА",
+        "store": "Fantastico",
+        "health_score": 9
+      }
+    ]
   }
 ]
