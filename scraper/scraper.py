@@ -591,6 +591,9 @@ NOT_FOOD_KEYWORDS = [
     "бира ", "бирени", " вино", "вина ", "розе ", "совиньон", "шардоне",
     # Candy / junk sweets (specific — не блокираме шоколадови продукти с мляко)
     "сладолед", "бонбони черноморец", "торта лешник",
+    # Easter decorations / non-food
+    "боя за яйца", "боя за великден", "кристали за яйца", "стикери за яйца",
+    "фолио за яйца", "украса за яйца",
     # Baby food / non-relevant
     "пелени", "биопюре", "бебешки", "пюре различни",
     # Drinks / snacks
@@ -899,9 +902,9 @@ def build_offer(name, new_price, old_price, discount_pct, image_url, store_name,
     health_score = None
     if food:
         if junk:
-            health_score = random.randint(1, 3)
+            health_score = 2
         elif processed:
-            health_score = random.randint(3, 4)
+            health_score = 3
         else:
             health_score = get_health_score(name)
             name_low = name.lower()
@@ -976,9 +979,9 @@ def reclassify_offer(offer):
     health_score = None
     if food:
         if junk:
-            health_score = random.randint(1, 3)
+            health_score = 2
         elif processed:
-            health_score = random.randint(3, 4)
+            health_score = 3
         else:
             health_score = get_health_score(name)
             name_low = name.lower()
