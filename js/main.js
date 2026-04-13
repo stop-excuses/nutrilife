@@ -86,18 +86,17 @@ async function initVisitorCounter() {
     const countEl = document.getElementById("visitor-count");
     const sessionCountKey = "nutrilife-visit-count";
     const sessionCountedKey = "nutrilife-visit-counted";
+    const readUrl = "https://api.counterapi.dev/v1/nutrilife-bg/visits/";
+    const incrementUrl = "https://api.counterapi.dev/v1/nutrilife-bg/visits/up";
 
     const cachedCount = sessionStorage.getItem(sessionCountKey);
     if (countEl && cachedCount) {
         countEl.textContent = cachedCount;
     }
 
-    if (sessionStorage.getItem(sessionCountedKey) === "1") {
-        return;
-    }
-
     try {
-        const res = await fetch("https://api.counterapi.dev/v1/nutrilife-bg/visits/up", {
+        const shouldIncrement = sessionStorage.getItem(sessionCountedKey) !== "1";
+        const res = await fetch(shouldIncrement ? incrementUrl : readUrl, {
             method: "GET",
             headers: { "Accept": "application/json" }
         });
@@ -109,9 +108,11 @@ async function initVisitorCounter() {
             countEl.textContent = formattedCount;
             sessionStorage.setItem(sessionCountKey, formattedCount);
         }
-        sessionStorage.setItem(sessionCountedKey, "1");
+        if (shouldIncrement) {
+            sessionStorage.setItem(sessionCountedKey, "1");
+        }
     } catch {
-        if (countEl) {
+        if (countEl && !cachedCount) {
             countEl.textContent = "n/a";
         }
     }
