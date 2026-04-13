@@ -84,6 +84,18 @@ function initTopControls() {
 /* --- Visitor Counter --- */
 async function initVisitorCounter() {
     const countEl = document.getElementById("visitor-count");
+    const sessionCountKey = "nutrilife-visit-count";
+    const sessionCountedKey = "nutrilife-visit-counted";
+
+    const cachedCount = sessionStorage.getItem(sessionCountKey);
+    if (countEl && cachedCount) {
+        countEl.textContent = cachedCount;
+    }
+
+    if (sessionStorage.getItem(sessionCountedKey) === "1") {
+        return;
+    }
+
     try {
         const res = await fetch("https://api.counterapi.dev/v1/nutrilife-bg/visits/up", {
             method: "GET",
@@ -93,8 +105,11 @@ async function initVisitorCounter() {
         const data = await res.json();
         const count = data.count ?? data.value ?? null;
         if (countEl && count !== null) {
-            countEl.textContent = Number(count).toLocaleString();
+            const formattedCount = Number(count).toLocaleString();
+            countEl.textContent = formattedCount;
+            sessionStorage.setItem(sessionCountKey, formattedCount);
         }
+        sessionStorage.setItem(sessionCountedKey, "1");
     } catch {
         if (countEl) {
             countEl.textContent = "n/a";
