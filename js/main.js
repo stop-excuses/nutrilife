@@ -26,12 +26,6 @@ function initTopControls() {
     themeBtn.setAttribute("aria-label", "Toggle theme");
     wrapper.appendChild(themeBtn);
 
-    const visitorBadge = document.createElement("div");
-    visitorBadge.className = "visitor-badge";
-    visitorBadge.setAttribute("title", "Visits");
-    visitorBadge.innerHTML = '<span class="visitor-badge-icon">👁</span><span class="visitor-badge-count" id="visitor-count">...</span>';
-    wrapper.appendChild(visitorBadge);
-
     // ── Theme logic ──────────────────────────────────────────────────────
     const savedTheme = localStorage.getItem("nutrilife-theme");
     if (savedTheme === "light") {
@@ -83,16 +77,10 @@ function initTopControls() {
 
 /* --- Visitor Counter --- */
 async function initVisitorCounter() {
-    const countEl = document.getElementById("visitor-count");
     const sessionCountKey = "nutrilife-visit-count";
     const sessionCountedKey = "nutrilife-visit-counted";
     const readUrl = "https://api.counterapi.dev/v1/nutrilife-bg/visits/";
     const incrementUrl = "https://api.counterapi.dev/v1/nutrilife-bg/visits/up";
-
-    const cachedCount = sessionStorage.getItem(sessionCountKey);
-    if (countEl && cachedCount) {
-        countEl.textContent = cachedCount;
-    }
 
     try {
         const shouldIncrement = sessionStorage.getItem(sessionCountedKey) !== "1";
@@ -103,18 +91,15 @@ async function initVisitorCounter() {
         if (!res.ok) throw new Error("counter error");
         const data = await res.json();
         const count = data.count ?? data.value ?? null;
-        if (countEl && count !== null) {
+        if (count !== null) {
             const formattedCount = Number(count).toLocaleString();
-            countEl.textContent = formattedCount;
             sessionStorage.setItem(sessionCountKey, formattedCount);
         }
         if (shouldIncrement) {
             sessionStorage.setItem(sessionCountedKey, "1");
         }
     } catch {
-        if (countEl && !cachedCount) {
-            countEl.textContent = "n/a";
-        }
+        return;
     }
 }
 
