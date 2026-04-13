@@ -17,6 +17,11 @@ data/brochure_cache/
 data/backups/
 data/tmp_*.json
 data/tmp_*.txt
+data/off_cache.json
+data/run*_output*.json
+output/
+*.log
+scraper/*_output.txt
 
 # OS
 .DS_Store
