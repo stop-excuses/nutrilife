@@ -4,30 +4,36 @@
    ======================================== */
 
 document.addEventListener("DOMContentLoaded", () => {
-    initThemeToggle();
+    initTopControls();
     initAccordions();
     initAgeSelector();
     initSliders();
     initProgressBars();
     initTracker();
+    initVisitorCounter();
 });
 
-/* --- Theme Toggle --- */
-function initThemeToggle() {
-    // Create toggle button
-    const btn = document.createElement("button");
-    btn.className = "theme-toggle";
-    btn.setAttribute("aria-label", "Смени темата");
-    document.body.appendChild(btn);
+/* --- Top Controls (Theme + Language) --- */
+function initTopControls() {
+    // Wrapper
+    const wrapper = document.createElement("div");
+    wrapper.className = "top-controls";
+    document.body.appendChild(wrapper);
 
-    // Load saved preference
-    const saved = localStorage.getItem("nutrilife-theme");
-    if (saved === "light") {
+    // Theme toggle
+    const themeBtn = document.createElement("button");
+    themeBtn.className = "theme-toggle";
+    themeBtn.setAttribute("aria-label", "Toggle theme");
+    wrapper.appendChild(themeBtn);
+
+    // ── Theme logic ──────────────────────────────────────────────────────
+    const savedTheme = localStorage.getItem("nutrilife-theme");
+    if (savedTheme === "light") {
         document.documentElement.setAttribute("data-theme", "light");
     }
-    updateIcon();
+    updateThemeIcon();
 
-    btn.addEventListener("click", () => {
+    themeBtn.addEventListener("click", () => {
         const isLight = document.documentElement.getAttribute("data-theme") === "light";
         if (isLight) {
             document.documentElement.removeAttribute("data-theme");
@@ -36,12 +42,50 @@ function initThemeToggle() {
             document.documentElement.setAttribute("data-theme", "light");
             localStorage.setItem("nutrilife-theme", "light");
         }
-        updateIcon();
+        updateThemeIcon();
     });
 
-    function updateIcon() {
+    function updateThemeIcon() {
         const isLight = document.documentElement.getAttribute("data-theme") === "light";
-        btn.textContent = isLight ? "🌙" : "☀️";
+        themeBtn.textContent = isLight ? "🌙" : "☀️";
+    }
+
+    // ── Language logic — TODO: активирай когато преводите са готови ──────
+    /*
+    const langBtn = document.createElement("button");
+    langBtn.className = "lang-toggle";
+    langBtn.setAttribute("aria-label", "Switch language");
+    wrapper.appendChild(langBtn);
+
+    langBtn.addEventListener("click", () => {
+        if (!window.I18N) return;
+        const next = window.I18N.getLang() === "bg" ? "en" : "bg";
+        window.I18N.setLang(next);
+        langBtn.textContent = next === "bg" ? "EN" : "БГ";
+        updateTrackerProgress();
+        document.querySelectorAll("input[type='range']").forEach(slider => {
+            const output = document.getElementById(slider.dataset.output);
+            if (output && slider.dataset.fn && window[slider.dataset.fn]) {
+                window[slider.dataset.fn](slider.value, output);
+            }
+        });
+    });
+
+    langBtn.textContent = (window.I18N ? window.I18N.getLang() : "bg") === "bg" ? "EN" : "БГ";
+    */
+}
+
+/* --- Visitor Counter --- */
+async function initVisitorCounter() {
+    try {
+        const res = await fetch("https://api.counterapi.dev/v1/nutrilife-bg/visits/up", {
+            method: "GET",
+            headers: { "Accept": "application/json" }
+        });
+        if (!res.ok) throw new Error("counter error");
+        await res.json();
+    } catch {
+        // Silently fail — counter stays as "..."
     }
 }
 
@@ -183,7 +227,10 @@ function updateTrackerProgress() {
     const progressBar = document.getElementById("tracker-bar-fill");
 
     if (progressEl) {
-        progressEl.textContent = checked + " от " + total + " завършени";
+        const tmpl = window.I18N
+            ? window.I18N.t("s.tracker.tmpl")
+            : "{n} от 6 завършени";
+        progressEl.textContent = tmpl.replace("{n}", checked);
     }
     if (progressBar) {
         progressBar.style.width = (total > 0 ? (checked / total) * 100 : 0) + "%";
@@ -219,28 +266,28 @@ function updateWeekChart() {
 // Steps slider (move.html)
 window.updateSteps = function (value, output) {
     const steps = parseInt(value);
-    let risk, calories, minutes;
+    const lang = window.I18N ? window.I18N.getLang() : "bg";
+    const isEn = lang === "en";
 
+    let risk;
     if (steps < 4000) {
-        risk = "Висок риск";
-        calories = Math.round(steps * 0.04);
-        minutes = Math.round(steps / 100);
+        risk = isEn ? "High risk" : "Висок риск";
     } else if (steps < 7000) {
-        risk = "Умерен риск (−40%)";
-        calories = Math.round(steps * 0.04);
-        minutes = Math.round(steps / 100);
+        risk = isEn ? "Moderate risk (−40%)" : "Умерен риск (−40%)";
     } else {
-        risk = "Нисък риск (−60%)";
-        calories = Math.round(steps * 0.04);
-        minutes = Math.round(steps / 100);
+        risk = isEn ? "Low risk (−60%)" : "Нисък риск (−60%)";
     }
+    const calories = Math.round(steps * 0.04);
+    const minutes = Math.round(steps / 100);
+    const stepsLabel = isEn ? "steps" : "крачки";
+    const minLabel = isEn ? "min" : "мин";
 
     output.innerHTML =
         '<div class="stat-pills">' +
-        '<span class="stat-pill green">' + steps.toLocaleString() + ' крачки</span>' +
+        '<span class="stat-pill green">' + steps.toLocaleString() + ' ' + stepsLabel + '</span>' +
         '<span class="stat-pill ' + (steps < 4000 ? '' : 'green') + '">' + risk + '</span>' +
         '<span class="stat-pill amber">~' + calories + ' kcal</span>' +
-        '<span class="stat-pill green">~' + minutes + ' мин</span>' +
+        '<span class="stat-pill green">~' + minutes + ' ' + minLabel + '</span>' +
         '</div>';
 };
 
@@ -249,10 +296,15 @@ window.updateProtein = function (value, output) {
     const weight = parseInt(value);
     const min = (weight * 1.6).toFixed(0);
     const max = (weight * 2.0).toFixed(0);
+    const lang = window.I18N ? window.I18N.getLang() : "bg";
+    const isEn = lang === "en";
+    const label = isEn
+        ? "protein per day for " + weight + "kg"
+        : "протеин на ден за " + weight + "кг";
 
     output.innerHTML =
         '<div style="text-align:center; margin-top:12px;">' +
         '<div style="font-size:2rem; font-weight:800; color:#97C459;">' + min + '–' + max + 'г</div>' +
-        '<div style="font-size:0.85rem; color:#888;">протеин на ден за ' + weight + 'кг</div>' +
+        '<div style="font-size:0.85rem; color:#888;">' + label + '</div>' +
         '</div>';
 };

@@ -5,60 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NutriLife — Започни сега</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/i18n.js"></script>
 </head>
 <body>
 
 <!-- Navbar -->
 <nav class="navbar">
     <div class="container">
-        <div class="dot-wrapper"><a href="index.html"><button class="dot" aria-label="Спри да се оправдаваш"></button></a><span class="tooltip">Оправдания</span></div>
-        <div class="dot-wrapper"><a href="move.html"><button class="dot" aria-label="Движи се"></button></a><span class="tooltip">Движение</span></div>
-        <div class="dot-wrapper"><a href="eat.html"><button class="dot" aria-label="Яж правилно"></button></a><span class="tooltip">Хранене</span></div>
-        <div class="dot-wrapper"><a href="cheap.html"><button class="dot" aria-label="Не е скъпо"></button></a><span class="tooltip">Цени</span></div>
-        <div class="dot-wrapper"><a href="start.html"><button class="dot purple active" aria-label="Започни сега"></button></a><span class="tooltip">Старт</span></div>
+        <a class="dot-wrapper" href="index.html"><span class="dot"></span><span class="dot-label" data-i18n="nav.excuses">Оправдания</span></a>
+        <a class="dot-wrapper" href="move.html"><span class="dot"></span><span class="dot-label" data-i18n="nav.move">Движение</span></a>
+        <a class="dot-wrapper" href="eat.html"><span class="dot"></span><span class="dot-label" data-i18n="nav.eat">Хранене</span></a>
+        <a class="dot-wrapper" href="cheap.html"><span class="dot"></span><span class="dot-label" data-i18n="nav.prices">Цени</span></a>
+        <a class="dot-wrapper" href="start.html"><span class="dot purple active"></span><span class="dot-label" data-i18n="nav.start">Старт</span></a>
+        <a class="dot-wrapper" href="supplements.html"><span class="dot amber"></span><span class="dot-label" data-i18n="nav.supplements">Добавки</span></a>
+        <a class="dot-wrapper" href="mental.html"><span class="dot purple"></span><span class="dot-label" data-i18n="nav.mental">Психично</span></a>
     </div>
 </nav>
 
 <!-- 1. Hero -->
 <section class="hero">
-    <h1>7 дни.<br><em class="purple">Промени навика.</em></h1>
-    <p>Не ти трябва месечен абонамент. Не ти трябва фитнес. Трябват ти 7 дни дисциплина.</p>
+    <h1 data-i18n-html="s.hero.h1">7 дни.<br><em class="purple">Промени навика.</em></h1>
+    <p data-i18n="s.hero.p">Не ти трябва месечен абонамент. Не ти трябва фитнес. Трябват ти 7 дни дисциплина.</p>
 
     <div class="cards-grid three mt-24">
         <div class="stat-card purple">
             <div class="stat-number" style="font-size:1.6rem;">30 мин</div>
-            <div class="stat-label">движение/ден</div>
+            <div class="stat-label" data-i18n="s.hero.c1">движение/ден</div>
         </div>
         <div class="stat-card purple">
             <div class="stat-number" style="font-size:1.6rem;">7 лв</div>
-            <div class="stat-label">хранене/ден</div>
+            <div class="stat-label" data-i18n="s.hero.c2">хранене/ден</div>
         </div>
         <div class="stat-card purple">
             <div class="stat-number" style="font-size:1.6rem;">0 лв</div>
-            <div class="stat-label">фитнес</div>
+            <div class="stat-label" data-i18n="s.hero.c3">фитнес</div>
         </div>
     </div>
 
-    <p class="note mt-24">21 дни за нов навик — ти правиш само първите 7.</p>
+    <p class="note mt-24" data-i18n="s.hero.note">21 дни за нов навик — ти правиш само първите 7.</p>
 </section>
 
 <!-- 2. 7-дневен план -->
 <section>
     <div class="section-title">
-        <h2>7-дневен план</h2>
-        <p class="section-subtitle">Всичко е решено. Просто следвай.</p>
+        <h2 data-i18n="s.plan.h2">7-дневен план</h2>
+        <p class="section-subtitle" data-i18n="s.plan.sub">Всичко е решено. Просто следвай.</p>
     </div>
 
     <div class="accordion">
         <!-- Ден 1 -->
         <div class="accordion-item purple">
             <div class="accordion-header">
-                <h3>Ден 1 — Първата стъпка</h3>
+                <h3 data-i18n="s.day1.h3">Ден 1 — Първата стъпка</h3>
                 <span class="accordion-arrow">▼</span>
             </div>
             <div class="accordion-body">
                 <div class="accordion-body-inner">
-                    <div class="meal-card" style="background:#0f0d1a; border-color:#2a2442;">
+                    <div class="meal-card" style="background:var(--bg-card-purple); border-color:var(--border-purple);">
                         <div class="meal-label" style="color:#7F77DD;">Хранене</div>
                         <strong>Закуска:</strong> 3 яйца + овесена каша с банан<br>
                         <strong>Обяд:</strong> Пилешки бутчета + ориз + салата<br>
@@ -81,7 +84,7 @@
             </div>
             <div class="accordion-body">
                 <div class="accordion-body-inner">
-                    <div class="meal-card" style="background:#0f0d1a; border-color:#2a2442;">
+                    <div class="meal-card" style="background:var(--bg-card-purple); border-color:var(--border-purple);">
                         <div class="meal-label" style="color:#7F77DD;">Хранене</div>
                         <strong>Закуска:</strong> Овесена каша + скир + орехи<br>
                         <strong>Обяд:</strong> Риба тон + ориз + домати<br>
@@ -104,10 +107,10 @@
             </div>
             <div class="accordion-body">
                 <div class="accordion-body-inner">
-                    <div class="info-box" style="background:#1a1408; border-color:#3d2e14;">
-                        <p style="color:#BA7517;"><strong>Предупреждение:</strong> Ден 3 е моментът, в който повечето хора се отказват. Очаквай го. Не се отказвай.</p>
+                    <div class="info-box amber">
+                        <p style="color:var(--amber);"><strong>Предупреждение:</strong> Ден 3 е моментът, в който повечето хора се отказват. Очаквай го. Не се отказвай.</p>
                     </div>
-                    <div class="meal-card" style="background:#0f0d1a; border-color:#2a2442;">
+                    <div class="meal-card" style="background:var(--bg-card-purple); border-color:var(--border-purple);">
                         <div class="meal-label" style="color:#7F77DD;">Хранене</div>
                         <strong>Закуска:</strong> 3 яйца + хляб пълнозърнест<br>
                         <strong>Обяд:</strong> Нахут яхния + ориз<br>
@@ -130,7 +133,7 @@
             </div>
             <div class="accordion-body">
                 <div class="accordion-body-inner">
-                    <div class="meal-card" style="background:#0f0d1a; border-color:#2a2442;">
+                    <div class="meal-card" style="background:var(--bg-card-purple); border-color:var(--border-purple);">
                         <div class="meal-label" style="color:#7F77DD;">Хранене</div>
                         <strong>Закуска:</strong> Скир + овесена каша + банан<br>
                         <strong>Обяд:</strong> Пилешко + леща + зеленчуци<br>
@@ -156,7 +159,7 @@
                     <div class="info-box purple">
                         <p><strong>Тест:</strong> Вечеря навън с приятели. Можеш ли да избереш по-добре? Грилована пилешка салата вместо пица. Вода вместо Кола.</p>
                     </div>
-                    <div class="meal-card" style="background:#0f0d1a; border-color:#2a2442;">
+                    <div class="meal-card" style="background:var(--bg-card-purple); border-color:var(--border-purple);">
                         <div class="meal-label" style="color:#7F77DD;">Хранене</div>
                         <strong>Закуска:</strong> 3 яйца + овесена каша<br>
                         <strong>Обяд:</strong> Риба тон + картофи + салата<br>
@@ -179,7 +182,7 @@
             </div>
             <div class="accordion-body">
                 <div class="accordion-body-inner">
-                    <div class="meal-card" style="background:#0f0d1a; border-color:#2a2442;">
+                    <div class="meal-card" style="background:var(--bg-card-purple); border-color:var(--border-purple);">
                         <div class="meal-label" style="color:#7F77DD;">Хранене</div>
                         <strong>Закуска:</strong> Овес + яйца + орехи<br>
                         <strong>Обяд:</strong> Пилешко + нахут + зеленчуци<br>
@@ -202,7 +205,7 @@
             </div>
             <div class="accordion-body">
                 <div class="accordion-body-inner">
-                    <div class="meal-card" style="background:#0f0d1a; border-color:#2a2442;">
+                    <div class="meal-card" style="background:var(--bg-card-purple); border-color:var(--border-purple);">
                         <div class="meal-label" style="color:#7F77DD;">Хранене</div>
                         <strong>Закуска:</strong> Скир + банан + орехи<br>
                         <strong>Обяд:</strong> Пилешко + ориз + салата<br>
@@ -212,8 +215,8 @@
                     <div class="info-box purple">
                         <strong>Движение:</strong> 30 мин разходка — разходка за размисъл
                     </div>
-                    <div class="info-box" style="margin-top:16px; background:#0f0d1a; border-color:#2a2442;">
-                        <h3 style="color:#7F77DD;">Въпроси за размисъл:</h3>
+                    <div class="info-box purple" style="margin-top:16px;">
+                        <h3 style="color:var(--purple);">Въпроси за размисъл:</h3>
                         <p style="margin-top:8px;">• Как се чувстваш в сравнение с преди 7 дни?</p>
                         <p>• Спиш ли по-добре?</p>
                         <p>• Имаш ли повече енергия?</p>
@@ -229,34 +232,34 @@
 <!-- 3. Daily Tracker -->
 <section>
     <div class="section-title">
-        <h2>Днешен прогрес</h2>
-        <p class="section-subtitle">Отбележи какво направи днес</p>
+        <h2 data-i18n="s.tracker.h2">Днешен прогрес</h2>
+        <p class="section-subtitle" data-i18n="s.tracker.sub">Отбележи какво направи днес</p>
     </div>
 
     <div class="tracker">
         <label class="tracker-item">
             <input type="checkbox" data-habit="protein">
-            <span class="tracker-label">🥩 130г+ протеин</span>
+            <span class="tracker-label" data-i18n="s.habit.protein">🥩 130г+ протеин</span>
         </label>
         <label class="tracker-item">
             <input type="checkbox" data-habit="water">
-            <span class="tracker-label">💧 2л+ вода</span>
+            <span class="tracker-label" data-i18n="s.habit.water">💧 2л+ вода</span>
         </label>
         <label class="tracker-item">
             <input type="checkbox" data-habit="movement">
-            <span class="tracker-label">🏃 30 мин движение</span>
+            <span class="tracker-label" data-i18n="s.habit.movement">🏃 30 мин движение</span>
         </label>
         <label class="tracker-item">
             <input type="checkbox" data-habit="sleep">
-            <span class="tracker-label">😴 7+ часа сън</span>
+            <span class="tracker-label" data-i18n="s.habit.sleep">😴 7+ часа сън</span>
         </label>
         <label class="tracker-item">
             <input type="checkbox" data-habit="no-sugar">
-            <span class="tracker-label">🚫 Без добавена захар</span>
+            <span class="tracker-label" data-i18n="s.habit.no_sugar">🚫 Без добавена захар</span>
         </label>
         <label class="tracker-item">
             <input type="checkbox" data-habit="no-junk">
-            <span class="tracker-label">🚫 Без junk food</span>
+            <span class="tracker-label" data-i18n="s.habit.no_junk">🚫 Без junk food</span>
         </label>
     </div>
 
@@ -271,47 +274,62 @@
 <!-- 4. Седмичен прогрес -->
 <section>
     <div class="section-title">
-        <h2>Седмичен прогрес</h2>
-        <p class="section-subtitle">Твоята седмица — ден по ден</p>
+        <h2 data-i18n="s.week.h2">Седмичен прогрес</h2>
+        <p class="section-subtitle" data-i18n="s.week.sub">Твоята седмица — ден по ден</p>
     </div>
 
     <div class="week-chart">
-        <div class="week-bar"><div class="bar"></div><div class="day-label">Пн</div></div>
-        <div class="week-bar"><div class="bar"></div><div class="day-label">Вт</div></div>
-        <div class="week-bar"><div class="bar"></div><div class="day-label">Ср</div></div>
-        <div class="week-bar"><div class="bar"></div><div class="day-label">Чт</div></div>
-        <div class="week-bar"><div class="bar"></div><div class="day-label">Пт</div></div>
-        <div class="week-bar"><div class="bar"></div><div class="day-label">Сб</div></div>
-        <div class="week-bar"><div class="bar"></div><div class="day-label">Нд</div></div>
+        <div class="week-bar"><div class="bar"></div><div class="day-label" data-i18n="s.day.mon">Пн</div></div>
+        <div class="week-bar"><div class="bar"></div><div class="day-label" data-i18n="s.day.tue">Вт</div></div>
+        <div class="week-bar"><div class="bar"></div><div class="day-label" data-i18n="s.day.wed">Ср</div></div>
+        <div class="week-bar"><div class="bar"></div><div class="day-label" data-i18n="s.day.thu">Чт</div></div>
+        <div class="week-bar"><div class="bar"></div><div class="day-label" data-i18n="s.day.fri">Пт</div></div>
+        <div class="week-bar"><div class="bar"></div><div class="day-label" data-i18n="s.day.sat">Сб</div></div>
+        <div class="week-bar"><div class="bar"></div><div class="day-label" data-i18n="s.day.sun">Нд</div></div>
     </div>
 </section>
 
 <!-- 5. След 7 дни -->
 <section>
     <div class="section-title">
-        <h2>След 7 дни</h2>
-        <p class="section-subtitle">Какво следва?</p>
+        <h2 data-i18n="s.after.h2">След 7 дни</h2>
+        <p class="section-subtitle" data-i18n="s.after.sub">Какво следва?</p>
     </div>
 
     <div class="info-box purple">
         <h3 style="color:#7F77DD;">3 опции:</h3>
-        <p style="margin-top:12px;"><strong>1. Повтори</strong> — направи същата седмица отново. Вече знаеш как.</p>
-        <p><strong>2. Добави нещо</strong> — повече повторения, повече крачки, нов рецепт.</p>
-        <p><strong>3. Провери промоциите</strong> — <a href="cheap.html">виж какво е на намаление</a> и оптимизирай бюджета.</p>
+        <p style="margin-top:12px;" data-i18n-html="s.after.opt1"><strong>1. Повтори</strong> — направи същата седмица отново. Вече знаеш как.</p>
+        <p data-i18n-html="s.after.opt2"><strong>2. Добави нещо</strong> — повече повторения, повече крачки, нов рецепт.</p>
+        <p data-i18n-html="s.after.opt3"><strong>3. Провери промоциите</strong> — <a href="cheap.html">виж какво е на намаление</a> и оптимизирай бюджета.</p>
     </div>
 </section>
 
 <!-- 6. Финален CTA -->
 <section class="cta-section">
-    <h2>Не от понеделник.<br><em class="purple">Днес.</em></h2>
+    <h2 data-i18n-html="s.cta.h2">Не от понеделник.<br><em class="purple">Днес.</em></h2>
     <p style="color:#888; max-width:480px; margin:0 auto 32px;">
         Имаш знанието. Имаш плана. Имаш числата.<br>
         Единственото, което липсва — е <strong>решението</strong>.
     </p>
     <a href="#" class="btn btn-purple" onclick="document.querySelector('.accordion-item.purple .accordion-header').click(); window.scrollTo({top: document.querySelector('.accordion-item.purple').offsetTop - 80, behavior:'smooth'}); return false;">
-        Започни Ден 1 →
+        <span data-i18n="s.cta.btn">Започни Ден 1 →</span>
     </a>
 </section>
+
+<!-- 7. Контакт -->
+<section style="text-align:center; padding: 48px 24px 64px;">
+    <div class="info-box purple" style="max-width:540px; margin:0 auto; text-align:center;">
+        <p style="font-size:1.05rem; line-height:1.7; margin:0 0 16px;">
+            Промяната към по-добър живот е много важна, но понякога може да е предизвикателна!<br>
+            Ако имаш нужда от съвет или мотивация — свържи се с мен.
+        </p>
+        <a href="mailto:ivvmilev@gmail.com" style="color:#7F77DD; font-weight:600; font-size:1rem; text-decoration:none; border-bottom:1px solid #7F77DD;">ivvmilev@gmail.com</a>
+    </div>
+</section>
+
+<footer class="site-footer">
+    Направено от <a href="mailto:ivvmilev@gmail.com">Иван Милев</a> · ivvmilev@gmail.com
+</footer>
 
 <script src="js/main.js"></script>
 </body>

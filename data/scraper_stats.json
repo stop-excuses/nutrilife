@@ -1228,5 +1228,93 @@
         "health_score": 10
       }
     ]
+  },
+  {
+    "date": "2026-04-12T12:31:49.772794Z",
+    "elapsed_seconds": 5639,
+    "total_offers": 2268,
+    "food_offers": 1189,
+    "healthy_offers": 1119,
+    "high_protein_offers": 270,
+    "with_image": 1579,
+    "with_discount": 1414,
+    "stores_scraped": [
+      "Billa",
+      "Fantastico",
+      "Kaufland",
+      "Lidl",
+      "T-Market"
+    ],
+    "by_store": {
+      "Kaufland": 1490,
+      "Lidl": 117,
+      "T-Market": 876,
+      "Billa": 225,
+      "Fantastico": 464
+    },
+    "category_breakdown": {
+      "protein": 289,
+      "canned": 45,
+      "vegetable": 261,
+      "grain": 160,
+      "nuts": 99,
+      "legume": 83,
+      "bread": 38,
+      "dairy": 230,
+      "fat": 16,
+      "other": 1047
+    },
+    "top_healthy": [
+      {
+        "name": "Риба тон Happy Sea парченца в олио 185 гр.",
+        "store": "T-Market",
+        "health_score": 10
+      },
+      {
+        "name": "Риба тон Happy Sea парченца в собствен сос 185 гр.",
+        "store": "T-Market",
+        "health_score": 10
+      },
+      {
+        "name": "Рибен продукт пастьоризиран от сьомга 110 г",
+        "store": "T-Market",
+        "health_score": 10
+      },
+      {
+        "name": "Филе риба тон ПРОДЕКС 85гр",
+        "store": "T-Market",
+        "health_score": 10
+      },
+      {
+        "name": "Риба тон ELABO в собствен сос 160 г.",
+        "store": "T-Market",
+        "health_score": 10
+      },
+      {
+        "name": "Риба тон OCEAN в растително масло 185 гр.",
+        "store": "T-Market",
+        "health_score": 10
+      },
+      {
+        "name": "Риба тон OCEAN парченца в собствен сос 185 гр.",
+        "store": "T-Market",
+        "health_score": 10
+      },
+      {
+        "name": "Риба тон COMPASS филе в олио, 160 г",
+        "store": "T-Market",
+        "health_score": 10
+      },
+      {
+        "name": "Риба тон COMPASS филе в собствен сос 160 г",
+        "store": "T-Market",
+        "health_score": 10
+      },
+      {
+        "name": "Риба тон ELABO парченца собст.сос 160г",
+        "store": "T-Market",
+        "health_score": 10
+      }
+    ]
   }
 ]

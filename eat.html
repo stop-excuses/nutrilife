@@ -5,37 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NutriLife — Яж правилно</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/i18n.js"></script>
 </head>
 <body>
 
 <!-- Navbar -->
 <nav class="navbar">
     <div class="container">
-        <div class="dot-wrapper"><a href="index.html"><button class="dot" aria-label="Спри да се оправдаваш"></button></a><span class="tooltip">Оправдания</span></div>
-        <div class="dot-wrapper"><a href="move.html"><button class="dot" aria-label="Движи се"></button></a><span class="tooltip">Движение</span></div>
-        <div class="dot-wrapper"><a href="eat.html"><button class="dot active" aria-label="Яж правилно"></button></a><span class="tooltip">Хранене</span></div>
-        <div class="dot-wrapper"><a href="cheap.html"><button class="dot" aria-label="Не е скъпо"></button></a><span class="tooltip">Цени</span></div>
-        <div class="dot-wrapper"><a href="start.html"><button class="dot" aria-label="Започни сега"></button></a><span class="tooltip">Старт</span></div>
+        <a class="dot-wrapper" href="index.html"><span class="dot"></span><span class="dot-label" data-i18n="nav.excuses">Оправдания</span></a>
+        <a class="dot-wrapper" href="move.html"><span class="dot"></span><span class="dot-label" data-i18n="nav.move">Движение</span></a>
+        <a class="dot-wrapper" href="eat.html"><span class="dot active"></span><span class="dot-label" data-i18n="nav.eat">Хранене</span></a>
+        <a class="dot-wrapper" href="cheap.html"><span class="dot"></span><span class="dot-label" data-i18n="nav.prices">Цени</span></a>
+        <a class="dot-wrapper" href="start.html"><span class="dot"></span><span class="dot-label" data-i18n="nav.start">Старт</span></a>
+        <a class="dot-wrapper" href="supplements.html"><span class="dot amber"></span><span class="dot-label" data-i18n="nav.supplements">Добавки</span></a>
+        <a class="dot-wrapper" href="mental.html"><span class="dot purple"></span><span class="dot-label" data-i18n="nav.mental">Психично</span></a>
     </div>
 </nav>
 
 <!-- 1. Hero -->
 <section class="hero">
-    <h1>Храненето<br>не е <em class="red">диета</em>.</h1>
-    <p>Не гладувай. Не брой калории. Яж правилните неща — тялото знае останалото.</p>
+    <h1 data-i18n-html="e.hero.h1">Храненето<br>не е <em class="red">диета</em>.</h1>
+    <p data-i18n="e.hero.p">Не гладувай. Не брой калории. Яж правилните неща — тялото знае останалото.</p>
 
     <div class="cards-grid three mt-24">
         <div class="stat-card green">
             <div class="stat-number" style="font-size:1.6rem;">🥩</div>
-            <div class="stat-label">Протеин</div>
+            <div class="stat-label" data-i18n="e.hero.c1">Протеин</div>
         </div>
         <div class="stat-card green">
             <div class="stat-number" style="font-size:1.6rem;">🥦</div>
-            <div class="stat-label">Реална храна</div>
+            <div class="stat-label" data-i18n="e.hero.c2">Реална храна</div>
         </div>
         <div class="stat-card green">
             <div class="stat-number" style="font-size:1.6rem;">🚫</div>
-            <div class="stat-label">Без глад</div>
+            <div class="stat-label" data-i18n="e.hero.c3">Без глад</div>
         </div>
     </div>
 </section>
@@ -43,14 +46,14 @@
 <!-- 2. 3-те принципа -->
 <section>
     <div class="section-title">
-        <h2>3-те принципа</h2>
-        <p class="section-subtitle">Всичко, което трябва да знаеш</p>
+        <h2 data-i18n="e.s2.h2">4-те принципа</h2>
+        <p class="section-subtitle" data-i18n="e.s2.sub">Всичко, което трябва да знаеш</p>
     </div>
 
     <div class="accordion">
         <div class="accordion-item green">
             <div class="accordion-header">
-                <h3>🥩 Протеин: 1.6–2г на кг телесно тегло</h3>
+                <h3 data-i18n="e.acc1.h3">🥩 Протеин: 1.6–2г на кг телесно тегло</h3>
                 <span class="accordion-arrow">▼</span>
             </div>
             <div class="accordion-body">
@@ -61,20 +64,59 @@
                         Високопротеинова диета (1.6г/кг) води до 2× повече изгорени мазнини за 12 седмици.
                     </div>
                     <div class="research">
-                        <strong>American Journal of Clinical Nutrition, 2005</strong><br>
-                        30% протеин в диетата намалява апетита с 441 kcal на ден — автоматично, без усилие.
+                        <strong>Obesity Reviews, 2023</strong><br>Мета-анализ на 62 проучвания — диети с 25–30% протеин намаляват приема на калории с 400–500 kcal на ден автоматично, без съзнателно ограничение.
                     </div>
 
-                    <table class="food-table mt-16">
+                    <div class="mt-16" style="display:flex; flex-wrap:wrap; gap:8px; margin-bottom:12px;">
+                        <button class="filter-btn active" onclick="setProteinTable('male',this)" data-pg="gender">👨 Мъж</button>
+                        <button class="filter-btn" onclick="setProteinTable('female',this)" data-pg="gender">👩 Жена</button>
+                        <button class="filter-btn active" onclick="setProteinTable('active',this)" data-pg="activity" style="margin-left:8px;">🏋️ Тренирам</button>
+                        <button class="filter-btn" onclick="setProteinTable('inactive',this)" data-pg="activity">🛋️ Не тренирам</button>
+                    </div>
+
+                    <div id="protein-range-label" style="font-size:0.8rem; color:var(--muted); margin-bottom:8px;">Препоръка: 1.6–2.0г/кг</div>
+
+                    <table class="food-table" id="protein-table">
                         <thead>
-                            <tr><th>Тегло</th><th>Мин (1.6г/кг)</th><th>Макс (2г/кг)</th></tr>
+                            <tr><th>Тегло</th><th id="pt-min-head">Мин</th><th id="pt-max-head">Макс</th></tr>
                         </thead>
-                        <tbody>
-                            <tr><td>70 кг</td><td>112г</td><td>140г</td></tr>
-                            <tr><td>80 кг</td><td>128г</td><td>160г</td></tr>
-                            <tr><td>90 кг</td><td>144г</td><td>180г</td></tr>
-                        </tbody>
+                        <tbody id="pt-body"></tbody>
                     </table>
+
+                    <script>
+                    (function(){
+                        var cfg = {
+                            male:   { active: { min:1.6, max:2.0, weights:[70,80,90,100] },
+                                      inactive: { min:1.2, max:1.6, weights:[70,80,90,100] } },
+                            female: { active: { min:1.4, max:1.8, weights:[55,65,75,85] },
+                                      inactive: { min:1.0, max:1.4, weights:[55,65,75,85] } }
+                        };
+                        var gender = 'male', activity = 'active';
+
+                        function render() {
+                            var c = cfg[gender][activity];
+                            document.getElementById('protein-range-label').textContent =
+                                'Препоръка: ' + c.min + '–' + c.max + 'г/кг';
+                            document.getElementById('pt-min-head').textContent = 'Мин (' + c.min + 'г/кг)';
+                            document.getElementById('pt-max-head').textContent = 'Макс (' + c.max + 'г/кг)';
+                            var tbody = document.getElementById('pt-body');
+                            tbody.innerHTML = c.weights.map(function(w){
+                                return '<tr><td>' + w + ' кг</td><td>' + Math.round(w*c.min) + 'г</td><td>' + Math.round(w*c.max) + 'г</td></tr>';
+                            }).join('');
+                        }
+
+                        window.setProteinTable = function(val, btn) {
+                            var group = btn.getAttribute('data-pg');
+                            btn.closest('div').querySelectorAll('[data-pg="'+group+'"]').forEach(function(b){ b.classList.remove('active'); });
+                            btn.classList.add('active');
+                            if (group === 'gender') gender = val;
+                            else activity = val;
+                            render();
+                        };
+
+                        render();
+                    })();
+                    </script>
 
                     <div class="stat-pills mt-16">
                         <span class="stat-pill green">2× мазнини изгорени</span>
@@ -97,12 +139,30 @@
                         Хората на ултрапреработена диета ядат +508 kcal повече на ден — без да го осъзнават.
                     </div>
                     <div class="research">
-                        <strong>BMJ, 2018</strong><br>
-                        На всеки 10% повече ултрапреработено в диетата — +12% риск от рак.
+                        <strong>BMJ, 2022 (Srour et al., NutriNet)</strong><br>Проспективно проучване: на всеки 10% повече ултрапреработено в диетата — +12% риск от онкологични заболявания.
                     </div>
                     <div class="stat-pills mt-16">
                         <span class="stat-pill">+508 kcal без да усетиш</span>
                         <span class="stat-pill">+12% рак на 10% повече</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item green">
+            <div class="accordion-header">
+                <h3>💧 Вода — поне 2 литра на ден</h3>
+                <span class="accordion-arrow">▼</span>
+            </div>
+            <div class="accordion-body">
+                <div class="accordion-body-inner">
+                    <p>Тялото е 60% вода. Дори <strong>2% дехидратация намалява физическото и умственото представяне</strong> — концентрацията пада, главоболие, умора. Повечето хора ходят леко дехидратирани целия ден и не го знаят.</p>
+                    <p class="mt-8">Водата помага и за отслабване — стомахът изпраща сигнал за глад когато е жаден. Много пъти ядеш, защото всъщност ти трябва вода. <strong>Пий чаша вода преди всяко хранене.</strong></p>
+                    <div class="stat-pills">
+                        <span class="stat-pill green">2л+ на ден</span>
+                        <span class="stat-pill amber">−2% вода = −20% концентрация</span>
+                        <span class="stat-pill green">Чаша преди хранене = по-малко ядеш</span>
+                        <span class="stat-pill amber">Кафе и чай — НЕ се броят</span>
                     </div>
                 </div>
             </div>
@@ -117,8 +177,7 @@
                 <div class="accordion-body-inner">
                     <p>Захарта не е само в бонбоните. Тя е навсякъде — в кроасана, йогурта, сока. СЗО препоръчва максимум <strong>25г на ден</strong>. Една Кола = 52г.</p>
                     <div class="research">
-                        <strong>JAMA Internal Medicine, 2014</strong><br>
-                        Хората с 25%+ калории от захар имат 2.75× по-висок риск от сърдечна смърт.
+                        <strong>European Heart Journal, 2023</strong><br>Мета-анализ на 73 проучвания: приемът на добавена захар над 10% от дневните калории повишава сърдечно-съдовата смъртност 2.3–2.9 пъти.
                     </div>
 
                     <table class="food-table mt-16">
@@ -139,6 +198,58 @@
                     </div>
                 </div>
             </div>
+        </div>
+
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <h3>📈 Инсулинова чувствителност — защо е важна</h3>
+                <span class="accordion-arrow">▼</span>
+            </div>
+            <div class="accordion-body">
+                <div class="accordion-body-inner">
+                    <p>Инсулинът е хормонът, който „отваря вратата" на клетките за глюкоза (захар от храната). При <strong>инсулинова резистентност</strong> — клетките спират да реагират, кръвната захар остава висока, панкреасът произвежда повече инсулин, и постепенно се развива диабет тип 2.</p>
+                    <p class="mt-8">Лошото: инсулиновата резистентност се развива за години — незабелязано. Уморен си след ядене? Трудно отслабваш около корема? Жадуваш за захар след всяко хранене? <strong>Може вече да имаш ранна резистентност.</strong></p>
+                    <div class="info-box mt-16" style="border-color:var(--red); background:var(--bg-card-red);">
+                        <h3 style="color:var(--red);">Храни, които влошават инсулиновата чувствителност</h3>
+                        <p style="margin-top:8px;">• Захар и сладки напитки — бързо покачват инсулина многократно на ден</p>
+                        <p>• Ултрапреработена храна — бяло брашно, чипс, кроасани</p>
+                        <p>• Трансмазнини (маргарин, пържено бързо хранене)</p>
+                        <p>• Алкохол при редовна консумация — нарушава чернодробния глюкозен метаболизъм</p>
+                    </div>
+                    <div class="info-box mt-16" style="border-color:var(--green-dark); background:var(--bg-card-green);">
+                        <h3 style="color:var(--green);">Храни, които подобряват инсулиновата чувствителност</h3>
+                        <p style="margin-top:8px;">• <strong>Протеин</strong> (яйца, пиле, риба, бобови) — стабилизира кръвната захар, не стимулира инсулина рязко</p>
+                        <p>• <strong>Фибри</strong> (зеленчуци, овес, бобови) — забавят усвояването на захарта</p>
+                        <p>• <strong>Здравословни мазнини</strong> (зехтин, авокадо, ядки) — намаляват инсулиновата реакция</p>
+                        <p>• <strong>Оцет / лимон преди хранене</strong> — намалява гликемичния индекс с 20–30%</p>
+                    </div>
+                    <div class="research mt-16">
+                        <strong>Diabetes Care, 2022</strong><br>
+                        Диета богата на протеин и фибри при намалена захар подобрява инсулиновата чувствителност с 25–40% за 12 седмици — без лекарства.
+                    </div>
+                    <div class="stat-pills mt-16">
+                        <span class="stat-pill amber">Умора след ядене = сигнал</span>
+                        <span class="stat-pill red">Корем + жажда за захар = ранна резистентност</span>
+                        <span class="stat-pill green">Протеин + фибри = стабилна захар</span>
+                        <span class="stat-pill green">Тренировки: +25–30% чувствителност</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 2.5. Не купувай боклук вкъщи -->
+<section>
+    <div class="info-box" style="border-color:var(--red); background:var(--bg-card-red);">
+        <h3 style="color:var(--red);">🏠 Правилото за вкъщи</h3>
+        <p style="margin-top:10px;"><strong>Ако не е вкъщи — не можеш да го изядеш в слаб момент.</strong> Средата определя поведението повече от волята.</p>
+        <p style="margin-top:10px;">По-лесно е да устоиш <strong>веднъж в магазина</strong>, отколкото 20 пъти вкъщи — след работа, в 23:00, пред телевизора, след лош ден. Волята е ограничен ресурс. Не я харчи за вещи, които можеш да решиш с едно решение при пазаруването.</p>
+        <p style="margin-top:10px; color:var(--muted);">Не купуваш чипс → не ядеш чипс. Купуваш орехи → ядеш орехи. Толкова просто.</p>
+        <div class="stat-pills mt-16">
+            <span class="stat-pill green">Средата > воля</span>
+            <span class="stat-pill green">1 решение в магазина = 20 победи вкъщи</span>
+            <span class="stat-pill amber">Боклукът е проектиран да е пристрастяващ</span>
         </div>
     </div>
 </section>
@@ -273,24 +384,10 @@
     </div>
 </section>
 
-<!-- 4. Протеин калкулатор -->
-<section>
-    <div class="section-title">
-        <h2>Протеин калкулатор</h2>
-        <p class="section-subtitle">Колко протеин ти трябва на ден?</p>
-    </div>
-
-    <div class="info-box">
-        <h3>Твоето тегло</h3>
-        <input type="range" min="50" max="120" value="80" step="1" data-output="protein-output" data-fn="updateProtein">
-        <div id="protein-output"></div>
-    </div>
-</section>
-
 <!-- 5. Примерен ден -->
 <section>
     <div class="section-title">
-        <h2>Примерен ден</h2>
+        <h2 data-i18n="e.s5.h2">Примерен ден</h2>
         <p class="section-subtitle">132г протеин за 6.80 лв</p>
     </div>
 
@@ -318,12 +415,117 @@
     </div>
 </section>
 
+<!-- 6. Добавки -->
+<section style="text-align:center; padding:32px 24px;">
+    <div class="info-box" style="max-width:540px; margin:0 auto; text-align:left;">
+        <h3>💊 Искаш да ускориш резултатите?</h3>
+        <p style="margin-top:8px;">След като основата е наред — храна, сън, движение — виж кои добавки са реално доказани и как да ги приемаш.</p>
+        <a href="supplements.html" class="btn btn-green" style="margin-top:16px; display:inline-block;">Виж добавките →</a>
+    </div>
+</section>
+
+<!-- 5.5. Добри практики при специални ситуации -->
+<section>
+    <div class="section-title">
+        <h2>Добри практики при специални ситуации</h2>
+        <p class="section-subtitle">Как да минимизираш щетите, без да се самонаказваш</p>
+    </div>
+
+    <div class="accordion">
+
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <h3>🍺 При пиене на алкохол</h3>
+                <span class="accordion-arrow">▼</span>
+            </div>
+            <div class="accordion-body">
+                <div class="accordion-body-inner">
+                    <p>На празник, на наздраве, с приятели — алкохолът е социален ритуал. Не трябва да го избягваш напълно, за да се грижиш за себе си. Трябва да го управляваш умно.</p>
+                    <div class="info-box mt-16" style="border-color:var(--amber); background:var(--bg-card-red);">
+                        <h3 style="color:var(--amber);">Как да минимизираш щетите</h3>
+                        <p style="margin-top:8px;">• <strong>Яж преди — никога не пий на гладно.</strong> Мастните и протеинови храни забавят усвояването на алкохола.</p>
+                        <p>• <strong>Редувай с вода</strong> — чаша вода между всяка напитка. Намалява общото количество и предотвратява дехидратацията.</p>
+                        <p>• <strong>Избирай по-чисти варианти</strong> — сухо вино, спирт + минерална вода. Избягвай коктейли с много захар.</p>
+                        <p>• <strong>Сутринта след</strong> — вода, електролити, протеинова закуска. Не „лекувай" с мазна/захарна храна.</p>
+                        <p>• <strong>2 дни без алкохол</strong> след пиене — черният дроб се нуждае от пауза за пълно възстановяване.</p>
+                    </div>
+                    <div class="stat-pills mt-16">
+                        <span class="stat-pill amber">Алкохолът спира изгарянето на мазнини за 24–48ч</span>
+                        <span class="stat-pill">Редовна употреба потиска тестостерона</span>
+                        <span class="stat-pill green">На наздраве — ок. Всяка вечер — не.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <h3>🍕 При ядене на тежки храни и въглехидрати</h3>
+                <span class="accordion-arrow">▼</span>
+            </div>
+            <div class="accordion-body">
+                <div class="accordion-body-inner">
+                    <p>Пица, паста, хляб, ориз, картофи — въглехидратите не са врагове. Проблемът е количеството, честотата и комбинацията. Ако знаеш, че ядеш тежко — подготви се.</p>
+                    <div class="info-box mt-16" style="border-color:var(--green-dark); background:var(--bg-card-green);">
+                        <h3>Как да подготвиш тялото</h3>
+                        <p style="margin-top:8px;">• <strong>Започни с протеин и зеленчуци</strong> — ако ядеш салата/месо преди тестените, кръвната захар се качва по-бавно.</p>
+                        <p>• <strong>Разходка след хранене</strong> — 10–15 мин пеша намалява пика на кръвната захар с до 30%.</p>
+                        <p>• <strong>Не яж само въглехидрати</strong> — комбинирай с протеин и мазнини. Пица сама → пик на захарта. Пица + салата + пиле → по-плавно усвояване.</p>
+                        <p>• <strong>Охладеният нишесте е по-добър</strong> — ориз/паста охладена и затоплена отново съдържа повече резистентно нишесте, което се усвоява по-бавно.</p>
+                        <p>• <strong>Не се самонаказвай</strong> — 1 тежко хранене не разваля нищо. Проблемът е хроничният модел.</p>
+                    </div>
+                    <div class="stat-pills mt-16">
+                        <span class="stat-pill green">Разходка 10 мин = −30% пик захар</span>
+                        <span class="stat-pill green">Протеин първо → по-бавно усвояване</span>
+                        <span class="stat-pill">1 хранене ≠ провал</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <h3>🩸 Управление на кръвната захар</h3>
+                <span class="accordion-arrow">▼</span>
+            </div>
+            <div class="accordion-body">
+                <div class="accordion-body-inner">
+                    <p>Дори без диабет — нестабилната кръвна захар е основна причина за: умора след хранене, желание за сладко, раздразнителност, затруднена концентрация и покачване на мазнини. <strong>Стабилизирането на кръвната захар е може би единичната най-важна хранителна цел.</strong></p>
+                    <div class="research">
+                        <strong>Cell, 2022 (Sonnenburg et al.)</strong><br>
+                        Пиковете на кръвната захар след хранене (дори при здрави хора) са свързани с хронично ниско ниво на възпаление, умора и когнитивно забавяне. Редуцирането на пиковете подобрява субективното благополучие в рамките на 2 седмици.
+                    </div>
+                    <div class="info-box mt-16" style="border-color:var(--green-dark); background:var(--bg-card-green);">
+                        <h3>Правила за стабилна кръвна захар</h3>
+                        <p style="margin-top:8px;">• <strong>Не яж въглехидрати сами</strong> — винаги комбинирай с протеин, мазнина или фибри.</p>
+                        <p>• <strong>Яж зеленчуци/протеин първо</strong>, въглехидрати накрая — редът на хранене намалява пика с 20–30%.</p>
+                        <p>• <strong>Оцет преди хранене</strong> — 1 с.л. ябълков оцет в чаша вода преди въглехидратно хранене намалява гликемичния отговор с ~20%.</p>
+                        <p>• <strong>Движение след хранене</strong> — мускулите поглъщат глюкозата директно, без инсулин. Дори 10 скока или 100-метрова разходка помагат.</p>
+                        <p>• <strong>Не яж сладко сутрин на гладен стомах</strong> — максимален пик, бърз спад, глад след 1 час.</p>
+                        <p>• <strong>Спи достатъчно</strong> — 1 нощ с 5ч сън покачва инсулиновата резистентност колкото 6 месеца лошо хранене.</p>
+                    </div>
+                    <div class="stat-pills mt-16">
+                        <span class="stat-pill green">Ред на хранене = −20–30% пик</span>
+                        <span class="stat-pill green">Оцет преди хранене = −20% глюкоза</span>
+                        <span class="stat-pill amber">1 нощ без сън = 6 месеца лошо хранене по инсулин</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
 <!-- 6. CTA -->
 <section class="cta-section">
     <h2>Яж правилно.<br><em class="green">Плати по-малко.</em></h2>
     <p style="color:#888; margin-bottom:24px;">Виж реалните цени тази седмица — с промоции от магазините.</p>
     <a href="cheap.html" class="btn btn-green">Виж цените тази седмица →</a>
 </section>
+
+<footer class="site-footer">
+    Направено от <a href="mailto:ivvmilev@gmail.com">Иван Милев</a> · ivvmilev@gmail.com
+</footer>
 
 <script src="js/main.js"></script>
 </body>

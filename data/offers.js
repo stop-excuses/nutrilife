@@ -1,5 +1,5 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-04-12T10:30:04.167879Z",
+  "generated_at": "2026-04-12T12:31:48.826818Z",
   "total_offers": 2268,
   "promo_offers": 1327,
   "assortment_offers": 941,
@@ -44,7 +44,8 @@ const OFFERS_DATA = {
         "kcal": 132,
         "p": 28,
         "f": 0.6,
-        "c": 0
+        "c": 0,
+        "ingredients": "Atún claro (pescado), aceite de oliva y sal."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -163,7 +164,8 @@ const OFFERS_DATA = {
         "kcal": 208,
         "p": 20,
         "f": 13,
-        "c": 0
+        "c": 0,
+        "ingredients": "Pommes de terre 40%, _saumon_ atlantique* , _saumon_ argenté du Pacifique* 25%, _crème_ légère 9,5%, oignons, _lait_ demi-écrémé, poireaux 3,7%, huile de tournesol, _beurre_, fécule de manioc, sel, _œufs_,  citron 0,1%, persil, ail, poivre, curcuma."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -222,7 +224,8 @@ const OFFERS_DATA = {
         "kcal": 132,
         "p": 28,
         "f": 0.6,
-        "c": 0
+        "c": 0,
+        "ingredients": "Atún claro (pescado), aceite de oliva y sal."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -281,7 +284,8 @@ const OFFERS_DATA = {
         "kcal": 132,
         "p": 28,
         "f": 0.6,
-        "c": 0
+        "c": 0,
+        "ingredients": "Atún claro (pescado), aceite de oliva y sal."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -517,7 +521,8 @@ const OFFERS_DATA = {
         "kcal": 132,
         "p": 28,
         "f": 0.6,
-        "c": 0
+        "c": 0,
+        "ingredients": "риба тон 70%, вода, сол."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -749,7 +754,8 @@ const OFFERS_DATA = {
         "kcal": 132,
         "p": 28,
         "f": 0.6,
-        "c": 0
+        "c": 0,
+        "ingredients": "Atún claro (pescado), aceite de oliva y sal."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -808,7 +814,8 @@ const OFFERS_DATA = {
         "kcal": 132,
         "p": 28,
         "f": 0.6,
-        "c": 0
+        "c": 0,
+        "ingredients": "Atún claro (pescado), aceite de oliva y sal."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -867,7 +874,8 @@ const OFFERS_DATA = {
         "kcal": 132,
         "p": 28,
         "f": 0.6,
-        "c": 0
+        "c": 0,
+        "ingredients": "Atún claro (pescado), aceite de oliva y sal."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -926,7 +934,8 @@ const OFFERS_DATA = {
         "kcal": 132,
         "p": 28,
         "f": 0.6,
-        "c": 0
+        "c": 0,
+        "ingredients": "Atún claro (pescado), aceite de oliva y sal."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -985,7 +994,8 @@ const OFFERS_DATA = {
         "kcal": 132,
         "p": 28,
         "f": 0.6,
-        "c": 0
+        "c": 0,
+        "ingredients": "Atún claro (pescado), aceite de oliva y sal."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -1044,7 +1054,8 @@ const OFFERS_DATA = {
         "kcal": 132,
         "p": 28,
         "f": 0.6,
-        "c": 0
+        "c": 0,
+        "ingredients": "Atún claro (pescado), aceite de oliva y sal."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -1103,7 +1114,8 @@ const OFFERS_DATA = {
         "kcal": 132,
         "p": 28,
         "f": 0.6,
-        "c": 0
+        "c": 0,
+        "ingredients": "Atún claro (pescado), aceite de oliva y sal."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -1162,7 +1174,8 @@ const OFFERS_DATA = {
         "kcal": 132,
         "p": 28,
         "f": 0.6,
-        "c": 0
+        "c": 0,
+        "ingredients": "Puбa moн (Katsuwonus pelamis) 70%, Boga 29.2%,сол 0.8%."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -1280,7 +1293,8 @@ const OFFERS_DATA = {
         "kcal": 132,
         "p": 28,
         "f": 0.6,
-        "c": 0
+        "c": 0,
+        "ingredients": "Atún claro (pescado), aceite de oliva y sal."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -1339,7 +1353,8 @@ const OFFERS_DATA = {
         "kcal": 132,
         "p": 28,
         "f": 0.6,
-        "c": 0
+        "c": 0,
+        "ingredients": "Atún claro (pescado), aceite de oliva y sal."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -1398,7 +1413,8 @@ const OFFERS_DATA = {
         "kcal": 132,
         "p": 28,
         "f": 0.6,
-        "c": 0
+        "c": 0,
+        "ingredients": "Atún claro (pescado), aceite de oliva y sal."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -1457,7 +1473,8 @@ const OFFERS_DATA = {
         "kcal": 132,
         "p": 28,
         "f": 0.6,
-        "c": 0
+        "c": 0,
+        "ingredients": "Atún claro (pescado), aceite de oliva y sal."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -1516,7 +1533,8 @@ const OFFERS_DATA = {
         "kcal": 132,
         "p": 28,
         "f": 0.6,
-        "c": 0
+        "c": 0,
+        "ingredients": "Atún claro (pescado), aceite de oliva y sal."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -1634,7 +1652,8 @@ const OFFERS_DATA = {
         "kcal": 132,
         "p": 28,
         "f": 0.6,
-        "c": 0
+        "c": 0,
+        "ingredients": "Atún claro (pescado), aceite de oliva y sal."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -1748,7 +1767,8 @@ const OFFERS_DATA = {
         "kcal": 132,
         "p": 28,
         "f": 0.6,
-        "c": 0
+        "c": 0,
+        "ingredients": "Atún claro (pescado), aceite de oliva y sal."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -1808,7 +1828,7 @@ const OFFERS_DATA = {
         "p": 20,
         "f": 13,
         "c": 0,
-        "ingredients": "Филе от сьомга (Salmo salar) 97%, сол 3%."
+        "ingredients": "Pommes de terre 40%, _saumon_ atlantique* , _saumon_ argenté du Pacifique* 25%, _crème_ légère 9,5%, oignons, _lait_ demi-écrémé, poireaux 3,7%, huile de tournesol, _beurre_, fécule de manioc, sel, _œufs_,  citron 0,1%, persil, ail, poivre, curcuma."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -2083,7 +2103,8 @@ const OFFERS_DATA = {
         "kcal": 119,
         "p": 20,
         "f": 3.5,
-        "c": 0
+        "c": 0,
+        "ingredients": "_Truite arc-en-ciel_ 97%, sel.\n\nTruite arc-en-ciel (Oncorhynchus mykiss) élevée en : voir sur face avant."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -2197,7 +2218,8 @@ const OFFERS_DATA = {
         "kcal": 208,
         "p": 20,
         "f": 13,
-        "c": 0
+        "c": 0,
+        "ingredients": "Pommes de terre 40%, _saumon_ atlantique* , _saumon_ argenté du Pacifique* 25%, _crème_ légère 9,5%, oignons, _lait_ demi-écrémé, poireaux 3,7%, huile de tournesol, _beurre_, fécule de manioc, sel, _œufs_,  citron 0,1%, persil, ail, poivre, curcuma."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -2421,7 +2443,8 @@ const OFFERS_DATA = {
         "kcal": 119,
         "p": 20,
         "f": 3.5,
-        "c": 0
+        "c": 0,
+        "ingredients": "_Truite arc-en-ciel_ 97%, sel.\n\nTruite arc-en-ciel (Oncorhynchus mykiss) élevée en : voir sur face avant."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -2480,7 +2503,8 @@ const OFFERS_DATA = {
         "kcal": 208,
         "p": 20,
         "f": 13,
-        "c": 0
+        "c": 0,
+        "ingredients": "Pommes de terre 40%, _saumon_ atlantique* , _saumon_ argenté du Pacifique* 25%, _crème_ légère 9,5%, oignons, _lait_ demi-écrémé, poireaux 3,7%, huile de tournesol, _beurre_, fécule de manioc, sel, _œufs_,  citron 0,1%, persil, ail, poivre, curcuma."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -2535,7 +2559,8 @@ const OFFERS_DATA = {
         "kcal": 119,
         "p": 20,
         "f": 3.5,
-        "c": 0
+        "c": 0,
+        "ingredients": "_Truite arc-en-ciel_ 97%, sel.\n\nTruite arc-en-ciel (Oncorhynchus mykiss) élevée en : voir sur face avant."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -2819,7 +2844,8 @@ const OFFERS_DATA = {
         "kcal": 628,
         "p": 15,
         "f": 61,
-        "c": 17
+        "c": 17,
+        "ingredients": "sucre, _noisettes_ 20%, huiles végétales (tournesol, colza), _lait_ écrémé en poudre, cacao maigre en poudre 5,5%, beurre de cacao, émulsifiant : lécithine de tournesol, extrait de vanille, Peut contenir d'autres _fruits à coque_,"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -2877,7 +2903,8 @@ const OFFERS_DATA = {
         "kcal": 48,
         "p": 1.4,
         "f": 0.4,
-        "c": 11
+        "c": 11,
+        "ingredients": "shelled almonds"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -2935,7 +2962,8 @@ const OFFERS_DATA = {
         "kcal": 579,
         "p": 21,
         "f": 49,
-        "c": 22
+        "c": 22,
+        "ingredients": "shelled almonds"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -2993,7 +3021,8 @@ const OFFERS_DATA = {
         "kcal": 579,
         "p": 21,
         "f": 49,
-        "c": 22
+        "c": 22,
+        "ingredients": "shelled almonds"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -3051,7 +3080,8 @@ const OFFERS_DATA = {
         "kcal": 100,
         "p": 15,
         "f": 3,
-        "c": 2
+        "c": 2,
+        "ingredients": "Beans (50%), Tomatoes (36%), Water, Sugar, Modified Cornflour, Salt, Spice Extracts , Herb Extract"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -3572,7 +3602,8 @@ const OFFERS_DATA = {
         "kcal": 100,
         "p": 15,
         "f": 3,
-        "c": 2
+        "c": 2,
+        "ingredients": "Beans (50%), Tomatoes (36%), Water, Sugar, Modified Cornflour, Salt, Spice Extracts , Herb Extract"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -3748,7 +3779,8 @@ const OFFERS_DATA = {
         "kcal": 139,
         "p": 9,
         "f": 0.5,
-        "c": 25
+        "c": 25,
+        "ingredients": "Beans (50%), Tomatoes (36%), Water, Sugar, Modified Cornflour, Salt, Spice Extracts , Herb Extract"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -3868,7 +3900,8 @@ const OFFERS_DATA = {
         "kcal": 116,
         "p": 9,
         "f": 0.4,
-        "c": 20
+        "c": 20,
+        "ingredients": "Carottes* 24%, eau, lentilles vertes* 14%, riz basmati* complet 12%, oignons* 12%, huile de tournesol*, protéines de _soja_* texturées et réhydratées 6%, sauce _soja_* (eau, _soja_*, _blé_*, sel de mer, alcool*).\r\n\r\n* Ingrédients issus de l'agriculture biologique"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -4099,7 +4132,8 @@ const OFFERS_DATA = {
         "kcal": 389,
         "p": 16.9,
         "f": 6.9,
-        "c": 66
+        "c": 66,
+        "ingredients": "Flocons d'_avoine_ complète issue de l'agriculture biologique."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -4156,7 +4190,8 @@ const OFFERS_DATA = {
         "kcal": 57,
         "p": 0.7,
         "f": 0.3,
-        "c": 14
+        "c": 14,
+        "ingredients": "Flocons d'_avoine_ complète issue de l'agriculture biologique."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -4332,7 +4367,8 @@ const OFFERS_DATA = {
         "kcal": 116,
         "p": 9,
         "f": 0.4,
-        "c": 20
+        "c": 20,
+        "ingredients": "Carottes* 24%, eau, lentilles vertes* 14%, riz basmati* complet 12%, oignons* 12%, huile de tournesol*, protéines de _soja_* texturées et réhydratées 6%, sauce _soja_* (eau, _soja_*, _blé_*, sel de mer, alcool*).\r\n\r\n* Ingrédients issus de l'agriculture biologique"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -4445,7 +4481,8 @@ const OFFERS_DATA = {
         "kcal": 205,
         "p": 18,
         "f": 14,
-        "c": 0
+        "c": 0,
+        "ingredients": "Maquereaux, huile de soya, sel."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -4500,7 +4537,8 @@ const OFFERS_DATA = {
         "kcal": 205,
         "p": 18,
         "f": 14,
-        "c": 0
+        "c": 0,
+        "ingredients": "Maquereaux, huile de soya, sel."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -4613,7 +4651,8 @@ const OFFERS_DATA = {
         "kcal": 100,
         "p": 15,
         "f": 3,
-        "c": 2
+        "c": 2,
+        "ingredients": "Beans (50%), Tomatoes (36%), Water, Sugar, Modified Cornflour, Salt, Spice Extracts , Herb Extract"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -4723,7 +4762,8 @@ const OFFERS_DATA = {
         "kcal": 205,
         "p": 18,
         "f": 14,
-        "c": 0
+        "c": 0,
+        "ingredients": "Maquereaux, huile de soya, sel."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -4952,7 +4992,8 @@ const OFFERS_DATA = {
         "kcal": 165,
         "p": 31,
         "f": 3.6,
-        "c": 0
+        "c": 0,
+        "ingredients": "Filet de poulet 96%, bouillon (eau, os de poulet, plantes V aromatiques, ail, épices, oignon, poireau, céleri, carotte), sel, arômes naturels (présence naturelle de polyphenols), antioxydant: acide ascorbique, dextrose, H colorant: caramel ordinaire. Viande de poulet origine UE."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -5011,7 +5052,8 @@ const OFFERS_DATA = {
         "kcal": 165,
         "p": 31,
         "f": 3.6,
-        "c": 0
+        "c": 0,
+        "ingredients": "Salade composée 80% (spécialités céréalières cuites (eau, semoule de BLE dur, OEUF, sel, curcuma), OEUF, salade 11%, viande de poulet, carottes, FROMAGE à pâte dure, jus de citron, huile de colza, eau, amidon, fécule, dextrose, ferments, sel, arôme naturel, persil). \r\nSauce vinaigrette balsamique 7% (huile de colza, huile d'olive vierge, vinaigre de vin (SULFITES), moût de raisin, sel) \r\nCookie au chocolat 7% (sucre, farine de BLE, OEUF, BEURRE, huile de colza, pâte et beurre de cacao, poudre de cacao maigre, poudre à lever: bicarbonate de sodium, émulsifiants: lécithines de SOJA, arôme naturel, sel). \r\nGressins 4% (farine de BLE, son de BLE, fibre de BLE, semoule de BLE dur, BEURRE, huile d'olive vierge, huile de colza, eau, levure boulangère, sucre, amidon, fécule, sel, graines de pavot, arôme naturel)."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -5350,7 +5392,8 @@ const OFFERS_DATA = {
         "kcal": 15,
         "p": 1.4,
         "f": 0.2,
-        "c": 2.9
+        "c": 2.9,
+        "ingredients": "Beans (50%), Tomatoes (36%), Water, Sugar, Modified Cornflour, Salt, Spice Extracts , Herb Extract"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -5525,7 +5568,8 @@ const OFFERS_DATA = {
         "kcal": 343,
         "p": 13,
         "f": 3.4,
-        "c": 71
+        "c": 71,
+        "ingredients": "био елда"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -5583,7 +5627,8 @@ const OFFERS_DATA = {
         "kcal": 139,
         "p": 9,
         "f": 0.5,
-        "c": 25
+        "c": 25,
+        "ingredients": "Beans (50%), Tomatoes (36%), Water, Sugar, Modified Cornflour, Salt, Spice Extracts , Herb Extract"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -5808,7 +5853,8 @@ const OFFERS_DATA = {
         "kcal": 205,
         "p": 18,
         "f": 14,
-        "c": 0
+        "c": 0,
+        "ingredients": "Maquereaux, huile de soya, sel."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -6265,7 +6311,8 @@ const OFFERS_DATA = {
         "kcal": 116,
         "p": 9,
         "f": 0.4,
-        "c": 20
+        "c": 20,
+        "ingredients": "Carottes* 24%, eau, lentilles vertes* 14%, riz basmati* complet 12%, oignons* 12%, huile de tournesol*, protéines de _soja_* texturées et réhydratées 6%, sauce _soja_* (eau, _soja_*, _blé_*, sel de mer, alcool*).\r\n\r\n* Ingrédients issus de l'agriculture biologique"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -6324,7 +6371,8 @@ const OFFERS_DATA = {
         "kcal": 155,
         "p": 13,
         "f": 11,
-        "c": 1.1
+        "c": 1.1,
+        "ingredients": "Farine de blé 34%, huile de colza, sucre, oeufs 14%, stabilisant : glycérol, sirop de glucose, lait frais demi-écrémé pasteurisé 5%, poudres à lever: carbonates et citrates de sodium (blé), sel, arome.\r\nTraces éventuelles de fruits à coque, soja."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -6382,7 +6430,8 @@ const OFFERS_DATA = {
         "kcal": 139,
         "p": 9,
         "f": 0.5,
-        "c": 25
+        "c": 25,
+        "ingredients": "Beans (50%), Tomatoes (36%), Water, Sugar, Modified Cornflour, Salt, Spice Extracts , Herb Extract"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -6440,7 +6489,8 @@ const OFFERS_DATA = {
         "kcal": 18,
         "p": 0.9,
         "f": 0.2,
-        "c": 3.9
+        "c": 3.9,
+        "ingredients": "Beans (50%), Tomatoes (36%), Water, Sugar, Modified Cornflour, Salt, Spice Extracts , Herb Extract"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -6558,7 +6608,8 @@ const OFFERS_DATA = {
         "kcal": 164,
         "p": 8.9,
         "f": 2.6,
-        "c": 27
+        "c": 27,
+        "ingredients": "Kichererbsen, Wasser, Speisesalz."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -6843,7 +6894,8 @@ const OFFERS_DATA = {
         "kcal": 165,
         "p": 31,
         "f": 3.6,
-        "c": 0
+        "c": 0,
+        "ingredients": "Salade composée 80% (spécialités céréalières cuites (eau, semoule de BLE dur, OEUF, sel, curcuma), OEUF, salade 11%, viande de poulet, carottes, FROMAGE à pâte dure, jus de citron, huile de colza, eau, amidon, fécule, dextrose, ferments, sel, arôme naturel, persil). \r\nSauce vinaigrette balsamique 7% (huile de colza, huile d'olive vierge, vinaigre de vin (SULFITES), moût de raisin, sel) \r\nCookie au chocolat 7% (sucre, farine de BLE, OEUF, BEURRE, huile de colza, pâte et beurre de cacao, poudre de cacao maigre, poudre à lever: bicarbonate de sodium, émulsifiants: lécithines de SOJA, arôme naturel, sel). \r\nGressins 4% (farine de BLE, son de BLE, fibre de BLE, semoule de BLE dur, BEURRE, huile d'olive vierge, huile de colza, eau, levure boulangère, sucre, amidon, fécule, sel, graines de pavot, arôme naturel)."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -6961,7 +7013,8 @@ const OFFERS_DATA = {
         "kcal": 116,
         "p": 9,
         "f": 0.4,
-        "c": 20
+        "c": 20,
+        "ingredients": "Carottes* 24%, eau, lentilles vertes* 14%, riz basmati* complet 12%, oignons* 12%, huile de tournesol*, protéines de _soja_* texturées et réhydratées 6%, sauce _soja_* (eau, _soja_*, _blé_*, sel de mer, alcool*).\r\n\r\n* Ingrédients issus de l'agriculture biologique"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -7250,7 +7303,8 @@ const OFFERS_DATA = {
         "kcal": 155,
         "p": 13,
         "f": 11,
-        "c": 1.1
+        "c": 1.1,
+        "ingredients": "Farine de blé 34%, huile de colza, sucre, oeufs 14%, stabilisant : glycérol, sirop de glucose, lait frais demi-écrémé pasteurisé 5%, poudres à lever: carbonates et citrates de sodium (blé), sel, arome.\r\nTraces éventuelles de fruits à coque, soja."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -7309,7 +7363,8 @@ const OFFERS_DATA = {
         "kcal": 155,
         "p": 13,
         "f": 11,
-        "c": 1.1
+        "c": 1.1,
+        "ingredients": "Farine de blé 34%, huile de colza, sucre, oeufs 14%, stabilisant : glycérol, sirop de glucose, lait frais demi-écrémé pasteurisé 5%, poudres à lever: carbonates et citrates de sodium (blé), sel, arome.\r\nTraces éventuelles de fruits à coque, soja."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -7368,7 +7423,8 @@ const OFFERS_DATA = {
         "kcal": 155,
         "p": 13,
         "f": 11,
-        "c": 1.1
+        "c": 1.1,
+        "ingredients": "Farine de blé 34%, huile de colza, sucre, oeufs 14%, stabilisant : glycérol, sirop de glucose, lait frais demi-écrémé pasteurisé 5%, poudres à lever: carbonates et citrates de sodium (blé), sel, arome.\r\nTraces éventuelles de fruits à coque, soja."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -7486,7 +7542,8 @@ const OFFERS_DATA = {
         "kcal": 155,
         "p": 13,
         "f": 11,
-        "c": 1.1
+        "c": 1.1,
+        "ingredients": "Farine de blé 34%, huile de colza, sucre, oeufs 14%, stabilisant : glycérol, sirop de glucose, lait frais demi-écrémé pasteurisé 5%, poudres à lever: carbonates et citrates de sodium (blé), sel, arome.\r\nTraces éventuelles de fruits à coque, soja."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -7546,7 +7603,8 @@ const OFFERS_DATA = {
         "kcal": 116,
         "p": 9,
         "f": 0.4,
-        "c": 20
+        "c": 20,
+        "ingredients": "Carottes* 24%, eau, lentilles vertes* 14%, riz basmati* complet 12%, oignons* 12%, huile de tournesol*, protéines de _soja_* texturées et réhydratées 6%, sauce _soja_* (eau, _soja_*, _blé_*, sel de mer, alcool*).\r\n\r\n* Ingrédients issus de l'agriculture biologique"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -7606,7 +7664,8 @@ const OFFERS_DATA = {
         "kcal": 116,
         "p": 9,
         "f": 0.4,
-        "c": 20
+        "c": 20,
+        "ingredients": "Carottes* 24%, eau, lentilles vertes* 14%, riz basmati* complet 12%, oignons* 12%, huile de tournesol*, protéines de _soja_* texturées et réhydratées 6%, sauce _soja_* (eau, _soja_*, _blé_*, sel de mer, alcool*).\r\n\r\n* Ingrédients issus de l'agriculture biologique"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -7775,7 +7834,8 @@ const OFFERS_DATA = {
         "kcal": 116,
         "p": 9,
         "f": 0.4,
-        "c": 20
+        "c": 20,
+        "ingredients": "Леща"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -7835,7 +7895,8 @@ const OFFERS_DATA = {
         "kcal": 164,
         "p": 8.9,
         "f": 2.6,
-        "c": 27
+        "c": 27,
+        "ingredients": "Kichererbsen, Wasser, Speisesalz."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -7893,7 +7954,8 @@ const OFFERS_DATA = {
         "kcal": 139,
         "p": 9,
         "f": 0.5,
-        "c": 25
+        "c": 25,
+        "ingredients": "Beans (50%), Tomatoes (36%), Water, Sugar, Modified Cornflour, Salt, Spice Extracts , Herb Extract"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -8009,7 +8071,8 @@ const OFFERS_DATA = {
         "kcal": 139,
         "p": 9,
         "f": 0.5,
-        "c": 25
+        "c": 25,
+        "ingredients": "Beans (50%), Tomatoes (36%), Water, Sugar, Modified Cornflour, Salt, Spice Extracts , Herb Extract"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -8066,7 +8129,8 @@ const OFFERS_DATA = {
         "kcal": 205,
         "p": 18,
         "f": 14,
-        "c": 0
+        "c": 0,
+        "ingredients": "Maquereaux, huile de soya, sel."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -8238,7 +8302,8 @@ const OFFERS_DATA = {
         "kcal": 155,
         "p": 13,
         "f": 11,
-        "c": 1.1
+        "c": 1.1,
+        "ingredients": "Farine de blé 34%, huile de colza, sucre, oeufs 14%, stabilisant : glycérol, sirop de glucose, lait frais demi-écrémé pasteurisé 5%, poudres à lever: carbonates et citrates de sodium (blé), sel, arome.\r\nTraces éventuelles de fruits à coque, soja."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -8354,7 +8419,8 @@ const OFFERS_DATA = {
         "kcal": 139,
         "p": 9,
         "f": 0.5,
-        "c": 25
+        "c": 25,
+        "ingredients": "Beans (50%), Tomatoes (36%), Water, Sugar, Modified Cornflour, Salt, Spice Extracts , Herb Extract"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -8523,7 +8589,8 @@ const OFFERS_DATA = {
         "kcal": 205,
         "p": 18,
         "f": 14,
-        "c": 0
+        "c": 0,
+        "ingredients": "рибно филе от скумрия 36%, доматен сос 31% (вода, доматено пюре, захар, растително слънчогледово масло, сол, модифицирано картофено нишесте, подправки), боб, кисели краставички, капия."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -8578,7 +8645,8 @@ const OFFERS_DATA = {
         "kcal": 205,
         "p": 18,
         "f": 14,
-        "c": 0
+        "c": 0,
+        "ingredients": "Maquereaux, huile de soya, sel."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -8633,7 +8701,8 @@ const OFFERS_DATA = {
         "kcal": 205,
         "p": 18,
         "f": 14,
-        "c": 0
+        "c": 0,
+        "ingredients": "Maquereaux, huile de soya, sel."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -8751,7 +8820,8 @@ const OFFERS_DATA = {
         "kcal": 164,
         "p": 8.9,
         "f": 2.6,
-        "c": 27
+        "c": 27,
+        "ingredients": "Kichererbsen, Wasser, Speisesalz."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -8924,7 +8994,8 @@ const OFFERS_DATA = {
         "kcal": 15,
         "p": 1.4,
         "f": 0.2,
-        "c": 2.9
+        "c": 2.9,
+        "ingredients": "Beans (50%), Tomatoes (36%), Water, Sugar, Modified Cornflour, Salt, Spice Extracts , Herb Extract"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -8979,7 +9050,8 @@ const OFFERS_DATA = {
         "kcal": 158,
         "p": 18,
         "f": 9,
-        "c": 0
+        "c": 0,
+        "ingredients": "Hareng, sel 4%."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -9092,7 +9164,8 @@ const OFFERS_DATA = {
         "kcal": 579,
         "p": 21,
         "f": 49,
-        "c": 22
+        "c": 22,
+        "ingredients": "shelled almonds"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -9150,7 +9223,8 @@ const OFFERS_DATA = {
         "kcal": 579,
         "p": 21,
         "f": 49,
-        "c": 22
+        "c": 22,
+        "ingredients": "shelled almonds"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -9208,7 +9282,8 @@ const OFFERS_DATA = {
         "kcal": 654,
         "p": 15,
         "f": 65,
-        "c": 14
+        "c": 14,
+        "ingredients": "_Nueces_."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -9318,7 +9393,8 @@ const OFFERS_DATA = {
         "kcal": 205,
         "p": 18,
         "f": 14,
-        "c": 0
+        "c": 0,
+        "ingredients": "Maquereaux, huile de soya, sel."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -9373,7 +9449,8 @@ const OFFERS_DATA = {
         "kcal": 205,
         "p": 18,
         "f": 14,
-        "c": 0
+        "c": 0,
+        "ingredients": "Скумрия филе 60%, доматен сос 40% (вода, доматен концентрат, рафинирано слънчогледово масло, сол, захар, царевично нишесте, модифицирано картофено нишесте, подправки)."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -9431,7 +9508,8 @@ const OFFERS_DATA = {
         "kcal": 165,
         "p": 31,
         "f": 3.6,
-        "c": 0
+        "c": 0,
+        "ingredients": "Salade composée 80% (spécialités céréalières cuites (eau, semoule de BLE dur, OEUF, sel, curcuma), OEUF, salade 11%, viande de poulet, carottes, FROMAGE à pâte dure, jus de citron, huile de colza, eau, amidon, fécule, dextrose, ferments, sel, arôme naturel, persil). \r\nSauce vinaigrette balsamique 7% (huile de colza, huile d'olive vierge, vinaigre de vin (SULFITES), moût de raisin, sel) \r\nCookie au chocolat 7% (sucre, farine de BLE, OEUF, BEURRE, huile de colza, pâte et beurre de cacao, poudre de cacao maigre, poudre à lever: bicarbonate de sodium, émulsifiants: lécithines de SOJA, arôme naturel, sel). \r\nGressins 4% (farine de BLE, son de BLE, fibre de BLE, semoule de BLE dur, BEURRE, huile d'olive vierge, huile de colza, eau, levure boulangère, sucre, amidon, fécule, sel, graines de pavot, arôme naturel)."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -9659,7 +9737,8 @@ const OFFERS_DATA = {
         "kcal": 155,
         "p": 13,
         "f": 11,
-        "c": 1.1
+        "c": 1.1,
+        "ingredients": "Farine de blé 34%, huile de colza, sucre, oeufs 14%, stabilisant : glycérol, sirop de glucose, lait frais demi-écrémé pasteurisé 5%, poudres à lever: carbonates et citrates de sodium (blé), sel, arome.\r\nTraces éventuelles de fruits à coque, soja."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -9718,7 +9797,8 @@ const OFFERS_DATA = {
         "kcal": 165,
         "p": 31,
         "f": 3.6,
-        "c": 0
+        "c": 0,
+        "ingredients": "Filet de poulet 96%, bouillon (eau, os de poulet, plantes V aromatiques, ail, épices, oignon, poireau, céleri, carotte), sel, arômes naturels (présence naturelle de polyphenols), antioxydant: acide ascorbique, dextrose, H colorant: caramel ordinaire. Viande de poulet origine UE."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -9773,7 +9853,8 @@ const OFFERS_DATA = {
         "kcal": 205,
         "p": 18,
         "f": 14,
-        "c": 0
+        "c": 0,
+        "ingredients": "Maquereaux, huile de soya, sel."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -9828,7 +9909,8 @@ const OFFERS_DATA = {
         "kcal": 205,
         "p": 18,
         "f": 14,
-        "c": 0
+        "c": 0,
+        "ingredients": "Скумрия 50%, доматен сос 50% (вода, доматен концентрат, рафинирано слънчогледово масло, сол, захар, царевично нишесте, модифицирано картофено нишесте, подправки, капсацин)."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -9941,7 +10023,8 @@ const OFFERS_DATA = {
         "kcal": 139,
         "p": 9,
         "f": 0.5,
-        "c": 25
+        "c": 25,
+        "ingredients": "Beans (50%), Tomatoes (36%), Water, Sugar, Modified Cornflour, Salt, Spice Extracts , Herb Extract"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -10001,7 +10084,8 @@ const OFFERS_DATA = {
         "kcal": 116,
         "p": 9,
         "f": 0.4,
-        "c": 20
+        "c": 20,
+        "ingredients": "Carottes* 24%, eau, lentilles vertes* 14%, riz basmati* complet 12%, oignons* 12%, huile de tournesol*, protéines de _soja_* texturées et réhydratées 6%, sauce _soja_* (eau, _soja_*, _blé_*, sel de mer, alcool*).\r\n\r\n* Ingrédients issus de l'agriculture biologique"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -10061,7 +10145,8 @@ const OFFERS_DATA = {
         "kcal": 164,
         "p": 8.9,
         "f": 2.6,
-        "c": 27
+        "c": 27,
+        "ingredients": "Kichererbsen, Wasser, Speisesalz."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -10120,7 +10205,8 @@ const OFFERS_DATA = {
         "kcal": 155,
         "p": 13,
         "f": 11,
-        "c": 1.1
+        "c": 1.1,
+        "ingredients": "Farine de blé 34%, huile de colza, sucre, oeufs 14%, stabilisant : glycérol, sirop de glucose, lait frais demi-écrémé pasteurisé 5%, poudres à lever: carbonates et citrates de sodium (blé), sel, arome.\r\nTraces éventuelles de fruits à coque, soja."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -10180,7 +10266,8 @@ const OFFERS_DATA = {
         "kcal": 116,
         "p": 9,
         "f": 0.4,
-        "c": 20
+        "c": 20,
+        "ingredients": "Carottes* 24%, eau, lentilles vertes* 14%, riz basmati* complet 12%, oignons* 12%, huile de tournesol*, protéines de _soja_* texturées et réhydratées 6%, sauce _soja_* (eau, _soja_*, _blé_*, sel de mer, alcool*).\r\n\r\n* Ingrédients issus de l'agriculture biologique"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -10404,7 +10491,8 @@ const OFFERS_DATA = {
         "kcal": 205,
         "p": 18,
         "f": 14,
-        "c": 0
+        "c": 0,
+        "ingredients": "Maquereaux, huile de soya, sel."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -10459,7 +10547,8 @@ const OFFERS_DATA = {
         "kcal": 205,
         "p": 18,
         "f": 14,
-        "c": 0
+        "c": 0,
+        "ingredients": "Maquereaux, huile de soya, sel."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -10692,7 +10781,8 @@ const OFFERS_DATA = {
         "kcal": 25,
         "p": 1.3,
         "f": 0.1,
-        "c": 6
+        "c": 6,
+        "ingredients": "Beans (50%), Tomatoes (36%), Water, Sugar, Modified Cornflour, Salt, Spice Extracts , Herb Extract"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -10809,7 +10899,8 @@ const OFFERS_DATA = {
         "kcal": 155,
         "p": 13,
         "f": 11,
-        "c": 1.1
+        "c": 1.1,
+        "ingredients": "Farine de blé 34%, huile de colza, sucre, oeufs 14%, stabilisant : glycérol, sirop de glucose, lait frais demi-écrémé pasteurisé 5%, poudres à lever: carbonates et citrates de sodium (blé), sel, arome.\r\nTraces éventuelles de fruits à coque, soja."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -11260,7 +11351,8 @@ const OFFERS_DATA = {
         "kcal": 155,
         "p": 13,
         "f": 11,
-        "c": 1.1
+        "c": 1.1,
+        "ingredients": "Farine de blé 34%, huile de colza, sucre, oeufs 14%, stabilisant : glycérol, sirop de glucose, lait frais demi-écrémé pasteurisé 5%, poudres à lever: carbonates et citrates de sodium (blé), sel, arome.\r\nTraces éventuelles de fruits à coque, soja."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -11320,7 +11412,8 @@ const OFFERS_DATA = {
         "kcal": 116,
         "p": 9,
         "f": 0.4,
-        "c": 20
+        "c": 20,
+        "ingredients": "Carottes* 24%, eau, lentilles vertes* 14%, riz basmati* complet 12%, oignons* 12%, huile de tournesol*, protéines de _soja_* texturées et réhydratées 6%, sauce _soja_* (eau, _soja_*, _blé_*, sel de mer, alcool*).\r\n\r\n* Ingrédients issus de l'agriculture biologique"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -11719,7 +11812,8 @@ const OFFERS_DATA = {
         "kcal": 23,
         "p": 2.9,
         "f": 0.4,
-        "c": 3.6
+        "c": 3.6,
+        "ingredients": "Спанак, вода, сол."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -11893,7 +11987,8 @@ const OFFERS_DATA = {
         "kcal": 155,
         "p": 13,
         "f": 11,
-        "c": 1.1
+        "c": 1.1,
+        "ingredients": "Farine de blé 34%, huile de colza, sucre, oeufs 14%, stabilisant : glycérol, sirop de glucose, lait frais demi-écrémé pasteurisé 5%, poudres à lever: carbonates et citrates de sodium (blé), sel, arome.\r\nTraces éventuelles de fruits à coque, soja."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -11952,7 +12047,8 @@ const OFFERS_DATA = {
         "kcal": 155,
         "p": 13,
         "f": 11,
-        "c": 1.1
+        "c": 1.1,
+        "ingredients": "Farine de blé 34%, huile de colza, sucre, oeufs 14%, stabilisant : glycérol, sirop de glucose, lait frais demi-écrémé pasteurisé 5%, poudres à lever: carbonates et citrates de sodium (blé), sel, arome.\r\nTraces éventuelles de fruits à coque, soja."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -12068,7 +12164,8 @@ const OFFERS_DATA = {
         "kcal": 165,
         "p": 31,
         "f": 3.6,
-        "c": 0
+        "c": 0,
+        "ingredients": "Salade composée 80% (spécialités céréalières cuites (eau, semoule de BLE dur, OEUF, sel, curcuma), OEUF, salade 11%, viande de poulet, carottes, FROMAGE à pâte dure, jus de citron, huile de colza, eau, amidon, fécule, dextrose, ferments, sel, arôme naturel, persil). \r\nSauce vinaigrette balsamique 7% (huile de colza, huile d'olive vierge, vinaigre de vin (SULFITES), moût de raisin, sel) \r\nCookie au chocolat 7% (sucre, farine de BLE, OEUF, BEURRE, huile de colza, pâte et beurre de cacao, poudre de cacao maigre, poudre à lever: bicarbonate de sodium, émulsifiants: lécithines de SOJA, arôme naturel, sel). \r\nGressins 4% (farine de BLE, son de BLE, fibre de BLE, semoule de BLE dur, BEURRE, huile d'olive vierge, huile de colza, eau, levure boulangère, sucre, amidon, fécule, sel, graines de pavot, arôme naturel)."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -12126,7 +12223,8 @@ const OFFERS_DATA = {
         "kcal": 165,
         "p": 31,
         "f": 3.6,
-        "c": 0
+        "c": 0,
+        "ingredients": "Salade composée 80% (spécialités céréalières cuites (eau, semoule de BLE dur, OEUF, sel, curcuma), OEUF, salade 11%, viande de poulet, carottes, FROMAGE à pâte dure, jus de citron, huile de colza, eau, amidon, fécule, dextrose, ferments, sel, arôme naturel, persil). \r\nSauce vinaigrette balsamique 7% (huile de colza, huile d'olive vierge, vinaigre de vin (SULFITES), moût de raisin, sel) \r\nCookie au chocolat 7% (sucre, farine de BLE, OEUF, BEURRE, huile de colza, pâte et beurre de cacao, poudre de cacao maigre, poudre à lever: bicarbonate de sodium, émulsifiants: lécithines de SOJA, arôme naturel, sel). \r\nGressins 4% (farine de BLE, son de BLE, fibre de BLE, semoule de BLE dur, BEURRE, huile d'olive vierge, huile de colza, eau, levure boulangère, sucre, amidon, fécule, sel, graines de pavot, arôme naturel)."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -12184,7 +12282,8 @@ const OFFERS_DATA = {
         "kcal": 139,
         "p": 9,
         "f": 0.5,
-        "c": 25
+        "c": 25,
+        "ingredients": "Beans (50%), Tomatoes (36%), Water, Sugar, Modified Cornflour, Salt, Spice Extracts , Herb Extract"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -12239,7 +12338,8 @@ const OFFERS_DATA = {
         "kcal": 158,
         "p": 18,
         "f": 9,
-        "c": 0
+        "c": 0,
+        "ingredients": "Hareng, sel 4%."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -12298,7 +12398,8 @@ const OFFERS_DATA = {
         "kcal": 389,
         "p": 16.9,
         "f": 6.9,
-        "c": 66
+        "c": 66,
+        "ingredients": "Flocons d'_avoine_ complète issue de l'agriculture biologique."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -12358,7 +12459,7 @@ const OFFERS_DATA = {
         "p": 9,
         "f": 0.4,
         "c": 20,
-        "ingredients": "червена леща"
+        "ingredients": "Carottes* 24%, eau, lentilles vertes* 14%, riz basmati* complet 12%, oignons* 12%, huile de tournesol*, protéines de _soja_* texturées et réhydratées 6%, sauce _soja_* (eau, _soja_*, _blé_*, sel de mer, alcool*).\r\n\r\n* Ingrédients issus de l'agriculture biologique"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -12416,7 +12517,8 @@ const OFFERS_DATA = {
         "kcal": 579,
         "p": 21,
         "f": 49,
-        "c": 22
+        "c": 22,
+        "ingredients": "shelled almonds"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -12475,7 +12577,8 @@ const OFFERS_DATA = {
         "kcal": 165,
         "p": 31,
         "f": 3.6,
-        "c": 0
+        "c": 0,
+        "ingredients": "Filet de poulet 96%, bouillon (eau, os de poulet, plantes V aromatiques, ail, épices, oignon, poireau, céleri, carotte), sel, arômes naturels (présence naturelle de polyphenols), antioxydant: acide ascorbique, dextrose, H colorant: caramel ordinaire. Viande de poulet origine UE."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -12756,7 +12859,8 @@ const OFFERS_DATA = {
         "kcal": 139,
         "p": 9,
         "f": 0.5,
-        "c": 25
+        "c": 25,
+        "ingredients": "БЯЛ БОБ"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -12811,7 +12915,8 @@ const OFFERS_DATA = {
         "kcal": 205,
         "p": 18,
         "f": 14,
-        "c": 0
+        "c": 0,
+        "ingredients": "Maquereaux, huile de soya, sel."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -12984,7 +13089,8 @@ const OFFERS_DATA = {
         "kcal": 165,
         "p": 31,
         "f": 3.6,
-        "c": 0
+        "c": 0,
+        "ingredients": "Salade composée 80% (spécialités céréalières cuites (eau, semoule de BLE dur, OEUF, sel, curcuma), OEUF, salade 11%, viande de poulet, carottes, FROMAGE à pâte dure, jus de citron, huile de colza, eau, amidon, fécule, dextrose, ferments, sel, arôme naturel, persil). \r\nSauce vinaigrette balsamique 7% (huile de colza, huile d'olive vierge, vinaigre de vin (SULFITES), moût de raisin, sel) \r\nCookie au chocolat 7% (sucre, farine de BLE, OEUF, BEURRE, huile de colza, pâte et beurre de cacao, poudre de cacao maigre, poudre à lever: bicarbonate de sodium, émulsifiants: lécithines de SOJA, arôme naturel, sel). \r\nGressins 4% (farine de BLE, son de BLE, fibre de BLE, semoule de BLE dur, BEURRE, huile d'olive vierge, huile de colza, eau, levure boulangère, sucre, amidon, fécule, sel, graines de pavot, arôme naturel)."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -13212,7 +13318,8 @@ const OFFERS_DATA = {
         "kcal": 139,
         "p": 9,
         "f": 0.5,
-        "c": 25
+        "c": 25,
+        "ingredients": "Beans (50%), Tomatoes (36%), Water, Sugar, Modified Cornflour, Salt, Spice Extracts , Herb Extract"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -13500,7 +13607,8 @@ const OFFERS_DATA = {
         "kcal": 165,
         "p": 31,
         "f": 3.6,
-        "c": 0
+        "c": 0,
+        "ingredients": "Salade composée 80% (spécialités céréalières cuites (eau, semoule de BLE dur, OEUF, sel, curcuma), OEUF, salade 11%, viande de poulet, carottes, FROMAGE à pâte dure, jus de citron, huile de colza, eau, amidon, fécule, dextrose, ferments, sel, arôme naturel, persil). \r\nSauce vinaigrette balsamique 7% (huile de colza, huile d'olive vierge, vinaigre de vin (SULFITES), moût de raisin, sel) \r\nCookie au chocolat 7% (sucre, farine de BLE, OEUF, BEURRE, huile de colza, pâte et beurre de cacao, poudre de cacao maigre, poudre à lever: bicarbonate de sodium, émulsifiants: lécithines de SOJA, arôme naturel, sel). \r\nGressins 4% (farine de BLE, son de BLE, fibre de BLE, semoule de BLE dur, BEURRE, huile d'olive vierge, huile de colza, eau, levure boulangère, sucre, amidon, fécule, sel, graines de pavot, arôme naturel)."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -13558,7 +13666,8 @@ const OFFERS_DATA = {
         "kcal": 165,
         "p": 31,
         "f": 3.6,
-        "c": 0
+        "c": 0,
+        "ingredients": "Salade composée 80% (spécialités céréalières cuites (eau, semoule de BLE dur, OEUF, sel, curcuma), OEUF, salade 11%, viande de poulet, carottes, FROMAGE à pâte dure, jus de citron, huile de colza, eau, amidon, fécule, dextrose, ferments, sel, arôme naturel, persil). \r\nSauce vinaigrette balsamique 7% (huile de colza, huile d'olive vierge, vinaigre de vin (SULFITES), moût de raisin, sel) \r\nCookie au chocolat 7% (sucre, farine de BLE, OEUF, BEURRE, huile de colza, pâte et beurre de cacao, poudre de cacao maigre, poudre à lever: bicarbonate de sodium, émulsifiants: lécithines de SOJA, arôme naturel, sel). \r\nGressins 4% (farine de BLE, son de BLE, fibre de BLE, semoule de BLE dur, BEURRE, huile d'olive vierge, huile de colza, eau, levure boulangère, sucre, amidon, fécule, sel, graines de pavot, arôme naturel)."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -13675,7 +13784,8 @@ const OFFERS_DATA = {
         "kcal": 139,
         "p": 9,
         "f": 0.5,
-        "c": 25
+        "c": 25,
+        "ingredients": "Beans (50%), Tomatoes (36%), Water, Sugar, Modified Cornflour, Salt, Spice Extracts , Herb Extract"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -13733,7 +13843,8 @@ const OFFERS_DATA = {
         "kcal": 165,
         "p": 31,
         "f": 3.6,
-        "c": 0
+        "c": 0,
+        "ingredients": "Filet de poulet 96%, bouillon (eau, os de poulet, plantes V aromatiques, ail, épices, oignon, poireau, céleri, carotte), sel, arômes naturels (présence naturelle de polyphenols), antioxydant: acide ascorbique, dextrose, H colorant: caramel ordinaire. Viande de poulet origine UE."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -13791,7 +13902,8 @@ const OFFERS_DATA = {
         "kcal": 165,
         "p": 31,
         "f": 3.6,
-        "c": 0
+        "c": 0,
+        "ingredients": "Salade composée 80% (spécialités céréalières cuites (eau, semoule de BLE dur, OEUF, sel, curcuma), OEUF, salade 11%, viande de poulet, carottes, FROMAGE à pâte dure, jus de citron, huile de colza, eau, amidon, fécule, dextrose, ferments, sel, arôme naturel, persil). \r\nSauce vinaigrette balsamique 7% (huile de colza, huile d'olive vierge, vinaigre de vin (SULFITES), moût de raisin, sel) \r\nCookie au chocolat 7% (sucre, farine de BLE, OEUF, BEURRE, huile de colza, pâte et beurre de cacao, poudre de cacao maigre, poudre à lever: bicarbonate de sodium, émulsifiants: lécithines de SOJA, arôme naturel, sel). \r\nGressins 4% (farine de BLE, son de BLE, fibre de BLE, semoule de BLE dur, BEURRE, huile d'olive vierge, huile de colza, eau, levure boulangère, sucre, amidon, fécule, sel, graines de pavot, arôme naturel)."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -13849,7 +13961,8 @@ const OFFERS_DATA = {
         "kcal": 165,
         "p": 31,
         "f": 3.6,
-        "c": 0
+        "c": 0,
+        "ingredients": "Salade composée 80% (spécialités céréalières cuites (eau, semoule de BLE dur, OEUF, sel, curcuma), OEUF, salade 11%, viande de poulet, carottes, FROMAGE à pâte dure, jus de citron, huile de colza, eau, amidon, fécule, dextrose, ferments, sel, arôme naturel, persil). \r\nSauce vinaigrette balsamique 7% (huile de colza, huile d'olive vierge, vinaigre de vin (SULFITES), moût de raisin, sel) \r\nCookie au chocolat 7% (sucre, farine de BLE, OEUF, BEURRE, huile de colza, pâte et beurre de cacao, poudre de cacao maigre, poudre à lever: bicarbonate de sodium, émulsifiants: lécithines de SOJA, arôme naturel, sel). \r\nGressins 4% (farine de BLE, son de BLE, fibre de BLE, semoule de BLE dur, BEURRE, huile d'olive vierge, huile de colza, eau, levure boulangère, sucre, amidon, fécule, sel, graines de pavot, arôme naturel)."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -13907,7 +14020,8 @@ const OFFERS_DATA = {
         "kcal": 165,
         "p": 31,
         "f": 3.6,
-        "c": 0
+        "c": 0,
+        "ingredients": "Salade composée 80% (spécialités céréalières cuites (eau, semoule de BLE dur, OEUF, sel, curcuma), OEUF, salade 11%, viande de poulet, carottes, FROMAGE à pâte dure, jus de citron, huile de colza, eau, amidon, fécule, dextrose, ferments, sel, arôme naturel, persil). \r\nSauce vinaigrette balsamique 7% (huile de colza, huile d'olive vierge, vinaigre de vin (SULFITES), moût de raisin, sel) \r\nCookie au chocolat 7% (sucre, farine de BLE, OEUF, BEURRE, huile de colza, pâte et beurre de cacao, poudre de cacao maigre, poudre à lever: bicarbonate de sodium, émulsifiants: lécithines de SOJA, arôme naturel, sel). \r\nGressins 4% (farine de BLE, son de BLE, fibre de BLE, semoule de BLE dur, BEURRE, huile d'olive vierge, huile de colza, eau, levure boulangère, sucre, amidon, fécule, sel, graines de pavot, arôme naturel)."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -14023,7 +14137,8 @@ const OFFERS_DATA = {
         "kcal": 165,
         "p": 31,
         "f": 3.6,
-        "c": 0
+        "c": 0,
+        "ingredients": "Salade composée 80% (spécialités céréalières cuites (eau, semoule de BLE dur, OEUF, sel, curcuma), OEUF, salade 11%, viande de poulet, carottes, FROMAGE à pâte dure, jus de citron, huile de colza, eau, amidon, fécule, dextrose, ferments, sel, arôme naturel, persil). \r\nSauce vinaigrette balsamique 7% (huile de colza, huile d'olive vierge, vinaigre de vin (SULFITES), moût de raisin, sel) \r\nCookie au chocolat 7% (sucre, farine de BLE, OEUF, BEURRE, huile de colza, pâte et beurre de cacao, poudre de cacao maigre, poudre à lever: bicarbonate de sodium, émulsifiants: lécithines de SOJA, arôme naturel, sel). \r\nGressins 4% (farine de BLE, son de BLE, fibre de BLE, semoule de BLE dur, BEURRE, huile d'olive vierge, huile de colza, eau, levure boulangère, sucre, amidon, fécule, sel, graines de pavot, arôme naturel)."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -14195,7 +14310,8 @@ const OFFERS_DATA = {
         "kcal": 155,
         "p": 13,
         "f": 11,
-        "c": 1.1
+        "c": 1.1,
+        "ingredients": "Farine de blé 34%, huile de colza, sucre, oeufs 14%, stabilisant : glycérol, sirop de glucose, lait frais demi-écrémé pasteurisé 5%, poudres à lever: carbonates et citrates de sodium (blé), sel, arome.\r\nTraces éventuelles de fruits à coque, soja."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -14372,7 +14488,8 @@ const OFFERS_DATA = {
         "kcal": 165,
         "p": 31,
         "f": 3.6,
-        "c": 0
+        "c": 0,
+        "ingredients": "Filet de poulet 96%, bouillon (eau, os de poulet, plantes V aromatiques, ail, épices, oignon, poireau, céleri, carotte), sel, arômes naturels (présence naturelle de polyphenols), antioxydant: acide ascorbique, dextrose, H colorant: caramel ordinaire. Viande de poulet origine UE."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -14489,7 +14606,8 @@ const OFFERS_DATA = {
         "kcal": 654,
         "p": 15,
         "f": 65,
-        "c": 14
+        "c": 14,
+        "ingredients": "_Nueces_."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -14721,7 +14839,8 @@ const OFFERS_DATA = {
         "kcal": 165,
         "p": 31,
         "f": 3.6,
-        "c": 0
+        "c": 0,
+        "ingredients": "Filet de poulet 96%, bouillon (eau, os de poulet, plantes V aromatiques, ail, épices, oignon, poireau, céleri, carotte), sel, arômes naturels (présence naturelle de polyphenols), antioxydant: acide ascorbique, dextrose, H colorant: caramel ordinaire. Viande de poulet origine UE."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -14779,7 +14898,8 @@ const OFFERS_DATA = {
         "kcal": 165,
         "p": 31,
         "f": 3.6,
-        "c": 0
+        "c": 0,
+        "ingredients": "Salade composée 80% (spécialités céréalières cuites (eau, semoule de BLE dur, OEUF, sel, curcuma), OEUF, salade 11%, viande de poulet, carottes, FROMAGE à pâte dure, jus de citron, huile de colza, eau, amidon, fécule, dextrose, ferments, sel, arôme naturel, persil). \r\nSauce vinaigrette balsamique 7% (huile de colza, huile d'olive vierge, vinaigre de vin (SULFITES), moût de raisin, sel) \r\nCookie au chocolat 7% (sucre, farine de BLE, OEUF, BEURRE, huile de colza, pâte et beurre de cacao, poudre de cacao maigre, poudre à lever: bicarbonate de sodium, émulsifiants: lécithines de SOJA, arôme naturel, sel). \r\nGressins 4% (farine de BLE, son de BLE, fibre de BLE, semoule de BLE dur, BEURRE, huile d'olive vierge, huile de colza, eau, levure boulangère, sucre, amidon, fécule, sel, graines de pavot, arôme naturel)."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -14837,7 +14957,8 @@ const OFFERS_DATA = {
         "kcal": 165,
         "p": 31,
         "f": 3.6,
-        "c": 0
+        "c": 0,
+        "ingredients": "Salade composée 80% (spécialités céréalières cuites (eau, semoule de BLE dur, OEUF, sel, curcuma), OEUF, salade 11%, viande de poulet, carottes, FROMAGE à pâte dure, jus de citron, huile de colza, eau, amidon, fécule, dextrose, ferments, sel, arôme naturel, persil). \r\nSauce vinaigrette balsamique 7% (huile de colza, huile d'olive vierge, vinaigre de vin (SULFITES), moût de raisin, sel) \r\nCookie au chocolat 7% (sucre, farine de BLE, OEUF, BEURRE, huile de colza, pâte et beurre de cacao, poudre de cacao maigre, poudre à lever: bicarbonate de sodium, émulsifiants: lécithines de SOJA, arôme naturel, sel). \r\nGressins 4% (farine de BLE, son de BLE, fibre de BLE, semoule de BLE dur, BEURRE, huile d'olive vierge, huile de colza, eau, levure boulangère, sucre, amidon, fécule, sel, graines de pavot, arôme naturel)."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -15005,7 +15126,8 @@ const OFFERS_DATA = {
         "kcal": 165,
         "p": 31,
         "f": 3.6,
-        "c": 0
+        "c": 0,
+        "ingredients": "Salade composée 80% (spécialités céréalières cuites (eau, semoule de BLE dur, OEUF, sel, curcuma), OEUF, salade 11%, viande de poulet, carottes, FROMAGE à pâte dure, jus de citron, huile de colza, eau, amidon, fécule, dextrose, ferments, sel, arôme naturel, persil). \r\nSauce vinaigrette balsamique 7% (huile de colza, huile d'olive vierge, vinaigre de vin (SULFITES), moût de raisin, sel) \r\nCookie au chocolat 7% (sucre, farine de BLE, OEUF, BEURRE, huile de colza, pâte et beurre de cacao, poudre de cacao maigre, poudre à lever: bicarbonate de sodium, émulsifiants: lécithines de SOJA, arôme naturel, sel). \r\nGressins 4% (farine de BLE, son de BLE, fibre de BLE, semoule de BLE dur, BEURRE, huile d'olive vierge, huile de colza, eau, levure boulangère, sucre, amidon, fécule, sel, graines de pavot, arôme naturel)."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -15064,7 +15186,8 @@ const OFFERS_DATA = {
         "kcal": 165,
         "p": 31,
         "f": 3.6,
-        "c": 0
+        "c": 0,
+        "ingredients": "Filet de poulet 96%, bouillon (eau, os de poulet, plantes V aromatiques, ail, épices, oignon, poireau, céleri, carotte), sel, arômes naturels (présence naturelle de polyphenols), antioxydant: acide ascorbique, dextrose, H colorant: caramel ordinaire. Viande de poulet origine UE."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -15122,7 +15245,8 @@ const OFFERS_DATA = {
         "kcal": 165,
         "p": 31,
         "f": 3.6,
-        "c": 0
+        "c": 0,
+        "ingredients": "Salade composée 80% (spécialités céréalières cuites (eau, semoule de BLE dur, OEUF, sel, curcuma), OEUF, salade 11%, viande de poulet, carottes, FROMAGE à pâte dure, jus de citron, huile de colza, eau, amidon, fécule, dextrose, ferments, sel, arôme naturel, persil). \r\nSauce vinaigrette balsamique 7% (huile de colza, huile d'olive vierge, vinaigre de vin (SULFITES), moût de raisin, sel) \r\nCookie au chocolat 7% (sucre, farine de BLE, OEUF, BEURRE, huile de colza, pâte et beurre de cacao, poudre de cacao maigre, poudre à lever: bicarbonate de sodium, émulsifiants: lécithines de SOJA, arôme naturel, sel). \r\nGressins 4% (farine de BLE, son de BLE, fibre de BLE, semoule de BLE dur, BEURRE, huile d'olive vierge, huile de colza, eau, levure boulangère, sucre, amidon, fécule, sel, graines de pavot, arôme naturel)."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -15236,7 +15360,8 @@ const OFFERS_DATA = {
         "kcal": 165,
         "p": 31,
         "f": 3.6,
-        "c": 0
+        "c": 0,
+        "ingredients": "Salade composée 80% (spécialités céréalières cuites (eau, semoule de BLE dur, OEUF, sel, curcuma), OEUF, salade 11%, viande de poulet, carottes, FROMAGE à pâte dure, jus de citron, huile de colza, eau, amidon, fécule, dextrose, ferments, sel, arôme naturel, persil). \r\nSauce vinaigrette balsamique 7% (huile de colza, huile d'olive vierge, vinaigre de vin (SULFITES), moût de raisin, sel) \r\nCookie au chocolat 7% (sucre, farine de BLE, OEUF, BEURRE, huile de colza, pâte et beurre de cacao, poudre de cacao maigre, poudre à lever: bicarbonate de sodium, émulsifiants: lécithines de SOJA, arôme naturel, sel). \r\nGressins 4% (farine de BLE, son de BLE, fibre de BLE, semoule de BLE dur, BEURRE, huile d'olive vierge, huile de colza, eau, levure boulangère, sucre, amidon, fécule, sel, graines de pavot, arôme naturel)."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -15410,7 +15535,8 @@ const OFFERS_DATA = {
         "kcal": 165,
         "p": 31,
         "f": 3.6,
-        "c": 0
+        "c": 0,
+        "ingredients": "Salade composée 80% (spécialités céréalières cuites (eau, semoule de BLE dur, OEUF, sel, curcuma), OEUF, salade 11%, viande de poulet, carottes, FROMAGE à pâte dure, jus de citron, huile de colza, eau, amidon, fécule, dextrose, ferments, sel, arôme naturel, persil). \r\nSauce vinaigrette balsamique 7% (huile de colza, huile d'olive vierge, vinaigre de vin (SULFITES), moût de raisin, sel) \r\nCookie au chocolat 7% (sucre, farine de BLE, OEUF, BEURRE, huile de colza, pâte et beurre de cacao, poudre de cacao maigre, poudre à lever: bicarbonate de sodium, émulsifiants: lécithines de SOJA, arôme naturel, sel). \r\nGressins 4% (farine de BLE, son de BLE, fibre de BLE, semoule de BLE dur, BEURRE, huile d'olive vierge, huile de colza, eau, levure boulangère, sucre, amidon, fécule, sel, graines de pavot, arôme naturel)."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -15468,7 +15594,8 @@ const OFFERS_DATA = {
         "kcal": 165,
         "p": 31,
         "f": 3.6,
-        "c": 0
+        "c": 0,
+        "ingredients": "Salade composée 80% (spécialités céréalières cuites (eau, semoule de BLE dur, OEUF, sel, curcuma), OEUF, salade 11%, viande de poulet, carottes, FROMAGE à pâte dure, jus de citron, huile de colza, eau, amidon, fécule, dextrose, ferments, sel, arôme naturel, persil). \r\nSauce vinaigrette balsamique 7% (huile de colza, huile d'olive vierge, vinaigre de vin (SULFITES), moût de raisin, sel) \r\nCookie au chocolat 7% (sucre, farine de BLE, OEUF, BEURRE, huile de colza, pâte et beurre de cacao, poudre de cacao maigre, poudre à lever: bicarbonate de sodium, émulsifiants: lécithines de SOJA, arôme naturel, sel). \r\nGressins 4% (farine de BLE, son de BLE, fibre de BLE, semoule de BLE dur, BEURRE, huile d'olive vierge, huile de colza, eau, levure boulangère, sucre, amidon, fécule, sel, graines de pavot, arôme naturel)."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -15526,7 +15653,8 @@ const OFFERS_DATA = {
         "kcal": 165,
         "p": 31,
         "f": 3.6,
-        "c": 0
+        "c": 0,
+        "ingredients": "Salade composée 80% (spécialités céréalières cuites (eau, semoule de BLE dur, OEUF, sel, curcuma), OEUF, salade 11%, viande de poulet, carottes, FROMAGE à pâte dure, jus de citron, huile de colza, eau, amidon, fécule, dextrose, ferments, sel, arôme naturel, persil). \r\nSauce vinaigrette balsamique 7% (huile de colza, huile d'olive vierge, vinaigre de vin (SULFITES), moût de raisin, sel) \r\nCookie au chocolat 7% (sucre, farine de BLE, OEUF, BEURRE, huile de colza, pâte et beurre de cacao, poudre de cacao maigre, poudre à lever: bicarbonate de sodium, émulsifiants: lécithines de SOJA, arôme naturel, sel). \r\nGressins 4% (farine de BLE, son de BLE, fibre de BLE, semoule de BLE dur, BEURRE, huile d'olive vierge, huile de colza, eau, levure boulangère, sucre, amidon, fécule, sel, graines de pavot, arôme naturel)."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -15698,7 +15826,8 @@ const OFFERS_DATA = {
         "kcal": 165,
         "p": 31,
         "f": 3.6,
-        "c": 0
+        "c": 0,
+        "ingredients": "Salade composée 80% (spécialités céréalières cuites (eau, semoule de BLE dur, OEUF, sel, curcuma), OEUF, salade 11%, viande de poulet, carottes, FROMAGE à pâte dure, jus de citron, huile de colza, eau, amidon, fécule, dextrose, ferments, sel, arôme naturel, persil). \r\nSauce vinaigrette balsamique 7% (huile de colza, huile d'olive vierge, vinaigre de vin (SULFITES), moût de raisin, sel) \r\nCookie au chocolat 7% (sucre, farine de BLE, OEUF, BEURRE, huile de colza, pâte et beurre de cacao, poudre de cacao maigre, poudre à lever: bicarbonate de sodium, émulsifiants: lécithines de SOJA, arôme naturel, sel). \r\nGressins 4% (farine de BLE, son de BLE, fibre de BLE, semoule de BLE dur, BEURRE, huile d'olive vierge, huile de colza, eau, levure boulangère, sucre, amidon, fécule, sel, graines de pavot, arôme naturel)."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -15813,7 +15942,8 @@ const OFFERS_DATA = {
         "kcal": 165,
         "p": 31,
         "f": 3.6,
-        "c": 0
+        "c": 0,
+        "ingredients": "Salade composée 80% (spécialités céréalières cuites (eau, semoule de BLE dur, OEUF, sel, curcuma), OEUF, salade 11%, viande de poulet, carottes, FROMAGE à pâte dure, jus de citron, huile de colza, eau, amidon, fécule, dextrose, ferments, sel, arôme naturel, persil). \r\nSauce vinaigrette balsamique 7% (huile de colza, huile d'olive vierge, vinaigre de vin (SULFITES), moût de raisin, sel) \r\nCookie au chocolat 7% (sucre, farine de BLE, OEUF, BEURRE, huile de colza, pâte et beurre de cacao, poudre de cacao maigre, poudre à lever: bicarbonate de sodium, émulsifiants: lécithines de SOJA, arôme naturel, sel). \r\nGressins 4% (farine de BLE, son de BLE, fibre de BLE, semoule de BLE dur, BEURRE, huile d'olive vierge, huile de colza, eau, levure boulangère, sucre, amidon, fécule, sel, graines de pavot, arôme naturel)."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -15871,7 +16001,8 @@ const OFFERS_DATA = {
         "kcal": 165,
         "p": 31,
         "f": 3.6,
-        "c": 0
+        "c": 0,
+        "ingredients": "Filet de poulet 96%, bouillon (eau, os de poulet, plantes V aromatiques, ail, épices, oignon, poireau, céleri, carotte), sel, arômes naturels (présence naturelle de polyphenols), antioxydant: acide ascorbique, dextrose, H colorant: caramel ordinaire. Viande de poulet origine UE."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -15929,7 +16060,8 @@ const OFFERS_DATA = {
         "kcal": 165,
         "p": 31,
         "f": 3.6,
-        "c": 0
+        "c": 0,
+        "ingredients": "Salade composée 80% (spécialités céréalières cuites (eau, semoule de BLE dur, OEUF, sel, curcuma), OEUF, salade 11%, viande de poulet, carottes, FROMAGE à pâte dure, jus de citron, huile de colza, eau, amidon, fécule, dextrose, ferments, sel, arôme naturel, persil). \r\nSauce vinaigrette balsamique 7% (huile de colza, huile d'olive vierge, vinaigre de vin (SULFITES), moût de raisin, sel) \r\nCookie au chocolat 7% (sucre, farine de BLE, OEUF, BEURRE, huile de colza, pâte et beurre de cacao, poudre de cacao maigre, poudre à lever: bicarbonate de sodium, émulsifiants: lécithines de SOJA, arôme naturel, sel). \r\nGressins 4% (farine de BLE, son de BLE, fibre de BLE, semoule de BLE dur, BEURRE, huile d'olive vierge, huile de colza, eau, levure boulangère, sucre, amidon, fécule, sel, graines de pavot, arôme naturel)."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -16097,7 +16229,8 @@ const OFFERS_DATA = {
         "kcal": 165,
         "p": 31,
         "f": 3.6,
-        "c": 0
+        "c": 0,
+        "ingredients": "Salade composée 80% (spécialités céréalières cuites (eau, semoule de BLE dur, OEUF, sel, curcuma), OEUF, salade 11%, viande de poulet, carottes, FROMAGE à pâte dure, jus de citron, huile de colza, eau, amidon, fécule, dextrose, ferments, sel, arôme naturel, persil). \r\nSauce vinaigrette balsamique 7% (huile de colza, huile d'olive vierge, vinaigre de vin (SULFITES), moût de raisin, sel) \r\nCookie au chocolat 7% (sucre, farine de BLE, OEUF, BEURRE, huile de colza, pâte et beurre de cacao, poudre de cacao maigre, poudre à lever: bicarbonate de sodium, émulsifiants: lécithines de SOJA, arôme naturel, sel). \r\nGressins 4% (farine de BLE, son de BLE, fibre de BLE, semoule de BLE dur, BEURRE, huile d'olive vierge, huile de colza, eau, levure boulangère, sucre, amidon, fécule, sel, graines de pavot, arôme naturel)."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -16329,7 +16462,8 @@ const OFFERS_DATA = {
         "kcal": 165,
         "p": 31,
         "f": 3.6,
-        "c": 0
+        "c": 0,
+        "ingredients": "Salade composée 80% (spécialités céréalières cuites (eau, semoule de BLE dur, OEUF, sel, curcuma), OEUF, salade 11%, viande de poulet, carottes, FROMAGE à pâte dure, jus de citron, huile de colza, eau, amidon, fécule, dextrose, ferments, sel, arôme naturel, persil). \r\nSauce vinaigrette balsamique 7% (huile de colza, huile d'olive vierge, vinaigre de vin (SULFITES), moût de raisin, sel) \r\nCookie au chocolat 7% (sucre, farine de BLE, OEUF, BEURRE, huile de colza, pâte et beurre de cacao, poudre de cacao maigre, poudre à lever: bicarbonate de sodium, émulsifiants: lécithines de SOJA, arôme naturel, sel). \r\nGressins 4% (farine de BLE, son de BLE, fibre de BLE, semoule de BLE dur, BEURRE, huile d'olive vierge, huile de colza, eau, levure boulangère, sucre, amidon, fécule, sel, graines de pavot, arôme naturel)."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -16384,7 +16518,8 @@ const OFFERS_DATA = {
         "kcal": 205,
         "p": 18,
         "f": 14,
-        "c": 0
+        "c": 0,
+        "ingredients": "Maquereaux, huile de soya, sel."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -16611,7 +16746,8 @@ const OFFERS_DATA = {
         "kcal": 165,
         "p": 31,
         "f": 3.6,
-        "c": 0
+        "c": 0,
+        "ingredients": "Salade composée 80% (spécialités céréalières cuites (eau, semoule de BLE dur, OEUF, sel, curcuma), OEUF, salade 11%, viande de poulet, carottes, FROMAGE à pâte dure, jus de citron, huile de colza, eau, amidon, fécule, dextrose, ferments, sel, arôme naturel, persil). \r\nSauce vinaigrette balsamique 7% (huile de colza, huile d'olive vierge, vinaigre de vin (SULFITES), moût de raisin, sel) \r\nCookie au chocolat 7% (sucre, farine de BLE, OEUF, BEURRE, huile de colza, pâte et beurre de cacao, poudre de cacao maigre, poudre à lever: bicarbonate de sodium, émulsifiants: lécithines de SOJA, arôme naturel, sel). \r\nGressins 4% (farine de BLE, son de BLE, fibre de BLE, semoule de BLE dur, BEURRE, huile d'olive vierge, huile de colza, eau, levure boulangère, sucre, amidon, fécule, sel, graines de pavot, arôme naturel)."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -16669,7 +16805,8 @@ const OFFERS_DATA = {
         "kcal": 165,
         "p": 31,
         "f": 3.6,
-        "c": 0
+        "c": 0,
+        "ingredients": "Salade composée 80% (spécialités céréalières cuites (eau, semoule de BLE dur, OEUF, sel, curcuma), OEUF, salade 11%, viande de poulet, carottes, FROMAGE à pâte dure, jus de citron, huile de colza, eau, amidon, fécule, dextrose, ferments, sel, arôme naturel, persil). \r\nSauce vinaigrette balsamique 7% (huile de colza, huile d'olive vierge, vinaigre de vin (SULFITES), moût de raisin, sel) \r\nCookie au chocolat 7% (sucre, farine de BLE, OEUF, BEURRE, huile de colza, pâte et beurre de cacao, poudre de cacao maigre, poudre à lever: bicarbonate de sodium, émulsifiants: lécithines de SOJA, arôme naturel, sel). \r\nGressins 4% (farine de BLE, son de BLE, fibre de BLE, semoule de BLE dur, BEURRE, huile d'olive vierge, huile de colza, eau, levure boulangère, sucre, amidon, fécule, sel, graines de pavot, arôme naturel)."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -16724,8 +16861,7 @@ const OFFERS_DATA = {
         "kcal": 158,
         "p": 18,
         "f": 9,
-        "c": 0,
-        "ingredients": "50% филе от херинга с кожа (Н*/ К*), 50% доматен сос: вода, 30% доматено пюре, захар, рапично масло, пшенични влакнини, трапезна сол, сгъстител: ацетилиран Динишестен адипат; пшенично брашно, естествен ароматизант от чушка, екстракти от подправки (съдържат целина), черен пипер, корени магданоз, сушен лук."
+        "c": 0
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -16896,7 +17032,8 @@ const OFFERS_DATA = {
         "kcal": 579,
         "p": 21,
         "f": 49,
-        "c": 22
+        "c": 22,
+        "ingredients": "shelled almonds"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -16954,7 +17091,8 @@ const OFFERS_DATA = {
         "kcal": 165,
         "p": 31,
         "f": 3.6,
-        "c": 0
+        "c": 0,
+        "ingredients": "Salade composée 80% (spécialités céréalières cuites (eau, semoule de BLE dur, OEUF, sel, curcuma), OEUF, salade 11%, viande de poulet, carottes, FROMAGE à pâte dure, jus de citron, huile de colza, eau, amidon, fécule, dextrose, ferments, sel, arôme naturel, persil). \r\nSauce vinaigrette balsamique 7% (huile de colza, huile d'olive vierge, vinaigre de vin (SULFITES), moût de raisin, sel) \r\nCookie au chocolat 7% (sucre, farine de BLE, OEUF, BEURRE, huile de colza, pâte et beurre de cacao, poudre de cacao maigre, poudre à lever: bicarbonate de sodium, émulsifiants: lécithines de SOJA, arôme naturel, sel). \r\nGressins 4% (farine de BLE, son de BLE, fibre de BLE, semoule de BLE dur, BEURRE, huile d'olive vierge, huile de colza, eau, levure boulangère, sucre, amidon, fécule, sel, graines de pavot, arôme naturel)."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -17185,7 +17323,8 @@ const OFFERS_DATA = {
         "kcal": 389,
         "p": 16.9,
         "f": 6.9,
-        "c": 66
+        "c": 66,
+        "ingredients": "Flocons d'_avoine_ complète issue de l'agriculture biologique."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -17243,7 +17382,8 @@ const OFFERS_DATA = {
         "kcal": 579,
         "p": 21,
         "f": 49,
-        "c": 22
+        "c": 22,
+        "ingredients": "shelled almonds"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -17301,7 +17441,8 @@ const OFFERS_DATA = {
         "kcal": 165,
         "p": 31,
         "f": 3.6,
-        "c": 0
+        "c": 0,
+        "ingredients": "Salade composée 80% (spécialités céréalières cuites (eau, semoule de BLE dur, OEUF, sel, curcuma), OEUF, salade 11%, viande de poulet, carottes, FROMAGE à pâte dure, jus de citron, huile de colza, eau, amidon, fécule, dextrose, ferments, sel, arôme naturel, persil). \r\nSauce vinaigrette balsamique 7% (huile de colza, huile d'olive vierge, vinaigre de vin (SULFITES), moût de raisin, sel) \r\nCookie au chocolat 7% (sucre, farine de BLE, OEUF, BEURRE, huile de colza, pâte et beurre de cacao, poudre de cacao maigre, poudre à lever: bicarbonate de sodium, émulsifiants: lécithines de SOJA, arôme naturel, sel). \r\nGressins 4% (farine de BLE, son de BLE, fibre de BLE, semoule de BLE dur, BEURRE, huile d'olive vierge, huile de colza, eau, levure boulangère, sucre, amidon, fécule, sel, graines de pavot, arôme naturel)."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -17359,7 +17500,8 @@ const OFFERS_DATA = {
         "kcal": 165,
         "p": 31,
         "f": 3.6,
-        "c": 0
+        "c": 0,
+        "ingredients": "Filet de poulet 96%, bouillon (eau, os de poulet, plantes V aromatiques, ail, épices, oignon, poireau, céleri, carotte), sel, arômes naturels (présence naturelle de polyphenols), antioxydant: acide ascorbique, dextrose, H colorant: caramel ordinaire. Viande de poulet origine UE."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -17527,7 +17669,8 @@ const OFFERS_DATA = {
         "kcal": 165,
         "p": 31,
         "f": 3.6,
-        "c": 0
+        "c": 0,
+        "ingredients": "Salade composée 80% (spécialités céréalières cuites (eau, semoule de BLE dur, OEUF, sel, curcuma), OEUF, salade 11%, viande de poulet, carottes, FROMAGE à pâte dure, jus de citron, huile de colza, eau, amidon, fécule, dextrose, ferments, sel, arôme naturel, persil). \r\nSauce vinaigrette balsamique 7% (huile de colza, huile d'olive vierge, vinaigre de vin (SULFITES), moût de raisin, sel) \r\nCookie au chocolat 7% (sucre, farine de BLE, OEUF, BEURRE, huile de colza, pâte et beurre de cacao, poudre de cacao maigre, poudre à lever: bicarbonate de sodium, émulsifiants: lécithines de SOJA, arôme naturel, sel). \r\nGressins 4% (farine de BLE, son de BLE, fibre de BLE, semoule de BLE dur, BEURRE, huile d'olive vierge, huile de colza, eau, levure boulangère, sucre, amidon, fécule, sel, graines de pavot, arôme naturel)."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -17585,7 +17728,8 @@ const OFFERS_DATA = {
         "kcal": 165,
         "p": 31,
         "f": 3.6,
-        "c": 0
+        "c": 0,
+        "ingredients": "Filet de poulet 96%, bouillon (eau, os de poulet, plantes V aromatiques, ail, épices, oignon, poireau, céleri, carotte), sel, arômes naturels (présence naturelle de polyphenols), antioxydant: acide ascorbique, dextrose, H colorant: caramel ordinaire. Viande de poulet origine UE."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -17643,7 +17787,8 @@ const OFFERS_DATA = {
         "kcal": 130,
         "p": 2.7,
         "f": 0.3,
-        "c": 28
+        "c": 28,
+        "ingredients": "Organic wholegrain _rice_ 99.8%, Sea Salt"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -17985,7 +18130,8 @@ const OFFERS_DATA = {
         "kcal": 579,
         "p": 21,
         "f": 49,
-        "c": 22
+        "c": 22,
+        "ingredients": "shelled almonds"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -18101,7 +18247,8 @@ const OFFERS_DATA = {
         "kcal": 579,
         "p": 21,
         "f": 49,
-        "c": 22
+        "c": 22,
+        "ingredients": "shelled almonds"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -18273,7 +18420,8 @@ const OFFERS_DATA = {
         "kcal": 389,
         "p": 16.9,
         "f": 6.9,
-        "c": 66
+        "c": 66,
+        "ingredients": "Flocons d'_avoine_ complète issue de l'agriculture biologique."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -18438,7 +18586,8 @@ const OFFERS_DATA = {
         "kcal": 131,
         "p": 5,
         "f": 1.1,
-        "c": 25
+        "c": 25,
+        "ingredients": "Viande de porc 54%, gras de porc, eau, viande de veau 2,5%, gras de veau, sel, épices et plantes aromatiques (ail, cannelle, coriandre, échalote, gingembre, laurier, macis, muscade, oignons, paprika, poivre, romarin, thym), sirop de glucose, oignon, dextrose, plasma de porc déshydraté, arômes naturels, correcteur d'acidité : citrates de sodium, acidifiant : acide citrique, antioxydant : ascorbate de sodium, conservateur : nitrite de sodium. Viande de porc et de veau origine France."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -19453,7 +19602,8 @@ const OFFERS_DATA = {
         "kcal": 389,
         "p": 16.9,
         "f": 6.9,
-        "c": 66
+        "c": 66,
+        "ingredients": "Flocons d'_avoine_ complète issue de l'agriculture biologique."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -19688,7 +19838,8 @@ const OFFERS_DATA = {
         "kcal": 66,
         "p": 11,
         "f": 0.2,
-        "c": 4
+        "c": 4,
+        "ingredients": "Lait de Vache pasteurisé, Crème fraiche pasteurisée, Ferments lactiques, Présure, Sel."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -19748,7 +19899,8 @@ const OFFERS_DATA = {
         "kcal": 98,
         "p": 11,
         "f": 4,
-        "c": 3.4
+        "c": 3.4,
+        "ingredients": "суроватка, сол."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -19864,7 +20016,8 @@ const OFFERS_DATA = {
         "kcal": 66,
         "p": 11,
         "f": 0.2,
-        "c": 4
+        "c": 4,
+        "ingredients": "Lait de Vache pasteurisé, Crème fraiche pasteurisée, Ferments lactiques, Présure, Sel."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -20202,7 +20355,8 @@ const OFFERS_DATA = {
         "kcal": 60,
         "p": 3.2,
         "f": 3.2,
-        "c": 4.8
+        "c": 4.8,
+        "ingredients": "Flocons d'_avoine_ complète issue de l'agriculture biologique."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -20369,7 +20523,8 @@ const OFFERS_DATA = {
         "kcal": 389,
         "p": 16.9,
         "f": 6.9,
-        "c": 66
+        "c": 66,
+        "ingredients": "Flocons d'_avoine_ complète issue de l'agriculture biologique."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -20428,7 +20583,8 @@ const OFFERS_DATA = {
         "kcal": 66,
         "p": 11,
         "f": 0.2,
-        "c": 4
+        "c": 4,
+        "ingredients": "Lait de Vache pasteurisé, Crème fraiche pasteurisée, Ferments lactiques, Présure, Sel."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -20599,7 +20755,8 @@ const OFFERS_DATA = {
         "kcal": 172,
         "p": 24,
         "f": 8,
-        "c": 0
+        "c": 0,
+        "ingredients": "Телешко месо 86.56%, вода 8.10%, готварска сол, натурални подправки, екстракт от подправки, растителни фибри, регулатор на киселинността: натриев диацетат, антиоксиданти: натриев цитрат, лимонена киселина"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -20714,7 +20871,8 @@ const OFFERS_DATA = {
         "kcal": 389,
         "p": 16.9,
         "f": 6.9,
-        "c": 66
+        "c": 66,
+        "ingredients": "Flocons d'_avoine_ complète issue de l'agriculture biologique."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -20832,7 +20990,8 @@ const OFFERS_DATA = {
         "kcal": 98,
         "p": 11,
         "f": 4,
-        "c": 3.4
+        "c": 3.4,
+        "ingredients": "Latte pastorizzato, sale, fermenti lattici, caglio microbico"
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -20947,7 +21106,8 @@ const OFFERS_DATA = {
         "kcal": 250,
         "p": 26,
         "f": 15,
-        "c": 0
+        "c": 0,
+        "ingredients": "Pain spécial 38,5% : farine de _blé_, eau, levure, dextrose, huile de colza, gluten de _blé_, sucre, _graines de sésame_, sel, farine de fève, émulsifiants : E471, E472e, conservateur : E282, vinaigre, antioxydant : E300.\r\nPréparation à base de viande hachée cuite assaisonnée 36,5 % : viande bovine 99 % (soit 36 % sur produit total), sel, arômes, antioxydant : extrait de romarin.\r\n_Fromage_ fondu 13 % : _fromage_, eau, _beurre_, poudre de _lait_ écrémé, amidons transformés, sels émulsifiants : E331, E339, protéines de _lait_, arômes (_lait_), poudre de _lactosérum_, sel, gélifiant : E407, colorants : E160a, E160c.\r\nSauce 9 % : eau, huile de colza, cornichons (dont _sulfites_), oignons, sucre, vinaigre, amidon transformé de maïs, poudre de _lait_ écrémé, concentré de tomates, fibres de chicorée, sel, épaississants : E415, E412, poudre de tomate, extraits d’épices, caramel, acidifiant : E330, arômes, affermissant : E509.\r\nCornichons 3 % (dont saumure : eau, vinaigre, sel, conservateur : E224 (_sulfites_), affermissant : E509)."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -21118,7 +21278,8 @@ const OFFERS_DATA = {
         "kcal": 389,
         "p": 16.9,
         "f": 6.9,
-        "c": 66
+        "c": 66,
+        "ingredients": "Flocons d'_avoine_ complète issue de l'agriculture biologique."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -21291,7 +21452,8 @@ const OFFERS_DATA = {
         "kcal": 264,
         "p": 14,
         "f": 22,
-        "c": 2
+        "c": 2,
+        "ingredients": "46% краве сирене, 16% извара, 14% майонеза (слънчогледово масло, вода, модифицирано царевично нишесте, киселини: оцетна киселина, лимонена киселина; яйчни жълтъци на прах*, стабилизатори: ксантанова гума, гума гуар; дехидратиран глюкозен сироп, трапезна сол, захар, консервант: калиев сорбат), 10% печени чушки (печени чушки, киселини: оцетна киселина, лимонена киселина; трапезна сол, захар, консерванти: калиев сорбат, натриев бензоат), слънчогледово масло, червен пипер, сушен чесън, 0,2% чили, консервант: калиев сорбат. *Уголемени клетки. Може да съдържа следи от глутен, сулфити, соя, целина, риба, сусамово семе, синап."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -21349,7 +21511,8 @@ const OFFERS_DATA = {
         "kcal": 628,
         "p": 15,
         "f": 61,
-        "c": 17
+        "c": 17,
+        "ingredients": "Flocons d'_avoine_ complète issue de l'agriculture biologique."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -21522,7 +21685,8 @@ const OFFERS_DATA = {
         "kcal": 98,
         "p": 11,
         "f": 4,
-        "c": 3.4
+        "c": 3.4,
+        "ingredients": "Latte pastorizzato, sale, fermenti lattici, caglio microbico"
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -21856,7 +22020,8 @@ const OFFERS_DATA = {
         "kcal": 294,
         "p": 25,
         "f": 21,
-        "c": 0
+        "c": 0,
+        "ingredients": "Viande de porc 54%, gras de porc, eau, viande de veau 2,5%, gras de veau, sel, épices et plantes aromatiques (ail, cannelle, coriandre, échalote, gingembre, laurier, macis, muscade, oignons, paprika, poivre, romarin, thym), sirop de glucose, oignon, dextrose, plasma de porc déshydraté, arômes naturels, correcteur d'acidité : citrates de sodium, acidifiant : acide citrique, antioxydant : ascorbate de sodium, conservateur : nitrite de sodium. Viande de porc et de veau origine France."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -22586,7 +22751,8 @@ const OFFERS_DATA = {
         "kcal": 189,
         "p": 29,
         "f": 7,
-        "c": 0
+        "c": 0,
+        "ingredients": "mogyoró"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -22981,7 +23147,8 @@ const OFFERS_DATA = {
         "kcal": 61,
         "p": 3.5,
         "f": 3.3,
-        "c": 4.7
+        "c": 4.7,
+        "ingredients": "ليوغور م.د,%2. مصنوع إخط قد يمكن أن يحتوي على الگلوتين، الجوز والبندق. 2."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -23207,7 +23374,8 @@ const OFFERS_DATA = {
         "kcal": 61,
         "p": 3.5,
         "f": 3.3,
-        "c": 4.7
+        "c": 4.7,
+        "ingredients": "ليوغور م.د,%2. مصنوع إخط قد يمكن أن يحتوي على الگلوتين، الجوز والبندق. 2."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -23266,7 +23434,8 @@ const OFFERS_DATA = {
         "kcal": 61,
         "p": 3.5,
         "f": 3.3,
-        "c": 4.7
+        "c": 4.7,
+        "ingredients": "Краве мляко, сухо обезмаслено мляко,сметана, българска закваска"
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -23325,7 +23494,8 @@ const OFFERS_DATA = {
         "kcal": 61,
         "p": 3.5,
         "f": 3.3,
-        "c": 4.7
+        "c": 4.7,
+        "ingredients": "ليوغور م.د,%2. مصنوع إخط قد يمكن أن يحتوي على الگلوتين، الجوز والبندق. 2."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -23610,7 +23780,8 @@ const OFFERS_DATA = {
         "kcal": 61,
         "p": 3.5,
         "f": 3.3,
-        "c": 4.7
+        "c": 4.7,
+        "ingredients": "ليوغور م.د,%2. مصنوع إخط قد يمكن أن يحتوي على الگلوتين، الجوز والبندق. 2."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -23669,7 +23840,8 @@ const OFFERS_DATA = {
         "kcal": 61,
         "p": 3.5,
         "f": 3.3,
-        "c": 4.7
+        "c": 4.7,
+        "ingredients": "Пастьоризирано краве мляко, млечнокисели култури (lactobacillus delbrueckii subsp. bulgaricus, streptococcus thermophilus)"
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -23846,7 +24018,8 @@ const OFFERS_DATA = {
         "kcal": 61,
         "p": 3.5,
         "f": 3.3,
-        "c": 4.7
+        "c": 4.7,
+        "ingredients": "Пастьоризирано КРАВЕ МЛЯКО, закваска (Lactobacillus Bulgaricus, Streptococcus Thermophilus)"
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -23905,7 +24078,8 @@ const OFFERS_DATA = {
         "kcal": 61,
         "p": 3.5,
         "f": 3.3,
-        "c": 4.7
+        "c": 4.7,
+        "ingredients": "краве мляко, жива закваска"
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -23964,7 +24138,8 @@ const OFFERS_DATA = {
         "kcal": 61,
         "p": 3.5,
         "f": 3.3,
-        "c": 4.7
+        "c": 4.7,
+        "ingredients": "краве мляко, жива закваска"
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -24074,7 +24249,8 @@ const OFFERS_DATA = {
         "kcal": 40,
         "p": 1.1,
         "f": 0.1,
-        "c": 9.3
+        "c": 9.3,
+        "ingredients": "wheat semolina 76%, vegetable oil (refined sunflower oil and non-hydrogenated palm olein in varying proportions), meal onion 1,6%, salt, natural coloring agent: annatto/e160b (ii), contains gluten,"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -24133,7 +24309,8 @@ const OFFERS_DATA = {
         "kcal": 61,
         "p": 3.5,
         "f": 3.3,
-        "c": 4.7
+        "c": 4.7,
+        "ingredients": "ليوغور م.د,%2. مصنوع إخط قد يمكن أن يحتوي على الگلوتين، الجوز والبندق. 2."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -24190,7 +24367,8 @@ const OFFERS_DATA = {
         "kcal": 89,
         "p": 1.1,
         "f": 0.3,
-        "c": 23
+        "c": 23,
+        "ingredients": "Краве мляко, захар, 1.15% пюре от ягода, 3% пюре от банани с добавени калций (калциев цитрат), концентрат от морков, ябълка и черен морков, аромати, витамин D30, млечен протеин, жива закваска."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -24367,7 +24545,8 @@ const OFFERS_DATA = {
         "kcal": 61,
         "p": 3.5,
         "f": 3.3,
-        "c": 4.7
+        "c": 4.7,
+        "ingredients": "Пастьоризирано КРАВЕ МЛЯКО, закваска (Lactobacillus Bulgaricus, Streptococcus Thermophilus)"
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -24426,7 +24605,8 @@ const OFFERS_DATA = {
         "kcal": 61,
         "p": 3.5,
         "f": 3.3,
-        "c": 4.7
+        "c": 4.7,
+        "ingredients": "ليوغور م.د,%2. مصنوع إخط قد يمكن أن يحتوي على الگلوتين، الجوز والبندق. 2."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -24485,7 +24665,8 @@ const OFFERS_DATA = {
         "kcal": 61,
         "p": 3.5,
         "f": 3.3,
-        "c": 4.7
+        "c": 4.7,
+        "ingredients": "КРАВЕ МЛЯКО, закваска"
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -24544,7 +24725,8 @@ const OFFERS_DATA = {
         "kcal": 61,
         "p": 3.5,
         "f": 3.3,
-        "c": 4.7
+        "c": 4.7,
+        "ingredients": "ليوغور م.د,%2. مصنوع إخط قد يمكن أن يحتوي على الگلوتين، الجوز والبندق. 2."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -24603,7 +24785,8 @@ const OFFERS_DATA = {
         "kcal": 61,
         "p": 3.5,
         "f": 3.3,
-        "c": 4.7
+        "c": 4.7,
+        "ingredients": "краве мляко, жива закваска"
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -24662,7 +24845,8 @@ const OFFERS_DATA = {
         "kcal": 61,
         "p": 3.5,
         "f": 3.3,
-        "c": 4.7
+        "c": 4.7,
+        "ingredients": "краве мляко, жива закваска"
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -24721,7 +24905,8 @@ const OFFERS_DATA = {
         "kcal": 61,
         "p": 3.5,
         "f": 3.3,
-        "c": 4.7
+        "c": 4.7,
+        "ingredients": "Краве мляко, закваска"
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -24837,7 +25022,8 @@ const OFFERS_DATA = {
         "kcal": 61,
         "p": 3.5,
         "f": 3.3,
-        "c": 4.7
+        "c": 4.7,
+        "ingredients": "ليوغور م.د,%2. مصنوع إخط قد يمكن أن يحتوي على الگلوتين، الجوز والبندق. 2."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -24955,7 +25141,8 @@ const OFFERS_DATA = {
         "kcal": 61,
         "p": 3.5,
         "f": 3.3,
-        "c": 4.7
+        "c": 4.7,
+        "ingredients": "ليوغور م.د,%2. مصنوع إخط قد يمكن أن يحتوي على الگلوتين، الجوز والبندق. 2."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -25014,7 +25201,8 @@ const OFFERS_DATA = {
         "kcal": 61,
         "p": 3.5,
         "f": 3.3,
-        "c": 4.7
+        "c": 4.7,
+        "ingredients": "Краве мляко,сол, закваска,сирищна мая регулатор на киселиността: калциев хлорид."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -25189,7 +25377,8 @@ const OFFERS_DATA = {
         "kcal": 61,
         "p": 3.5,
         "f": 3.3,
-        "c": 4.7
+        "c": 4.7,
+        "ingredients": "ليوغور م.د,%2. مصنوع إخط قد يمكن أن يحتوي على الگلوتين، الجوز والبندق. 2."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -25248,7 +25437,8 @@ const OFFERS_DATA = {
         "kcal": 61,
         "p": 3.5,
         "f": 3.3,
-        "c": 4.7
+        "c": 4.7,
+        "ingredients": "КРАВЕ МЛЯКО, закваска"
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -25362,7 +25552,8 @@ const OFFERS_DATA = {
         "kcal": 61,
         "p": 3.5,
         "f": 3.3,
-        "c": 4.7
+        "c": 4.7,
+        "ingredients": "ليوغور م.د,%2. مصنوع إخط قد يمكن أن يحتوي على الگلوتين، الجوز والبندق. 2."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -25480,7 +25671,8 @@ const OFFERS_DATA = {
         "kcal": 61,
         "p": 3.5,
         "f": 3.3,
-        "c": 4.7
+        "c": 4.7,
+        "ingredients": "пастьоризирано краве мляко, млечни култури (Lactobacillus bulgaricus,Streptococcus thermophilus)"
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -25539,7 +25731,8 @@ const OFFERS_DATA = {
         "kcal": 61,
         "p": 3.5,
         "f": 3.3,
-        "c": 4.7
+        "c": 4.7,
+        "ingredients": "ليوغور م.د,%2. مصنوع إخط قد يمكن أن يحتوي على الگلوتين، الجوز والبندق. 2."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -25655,7 +25848,8 @@ const OFFERS_DATA = {
         "kcal": 61,
         "p": 3.5,
         "f": 3.3,
-        "c": 4.7
+        "c": 4.7,
+        "ingredients": "Краве мляко, сухо обезмаслено мляко,сметана, българска закваска"
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -25714,7 +25908,8 @@ const OFFERS_DATA = {
         "kcal": 61,
         "p": 3.5,
         "f": 3.3,
-        "c": 4.7
+        "c": 4.7,
+        "ingredients": "Краве мляко,сол, закваска,сирищна мая регулатор на киселиността: калциев хлорид."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -25999,7 +26194,8 @@ const OFFERS_DATA = {
         "kcal": 61,
         "p": 3.5,
         "f": 3.3,
-        "c": 4.7
+        "c": 4.7,
+        "ingredients": "ليوغور م.د,%2. مصنوع إخط قد يمكن أن يحتوي على الگلوتين، الجوز والبندق. 2."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -26176,7 +26372,8 @@ const OFFERS_DATA = {
         "kcal": 61,
         "p": 3.5,
         "f": 3.3,
-        "c": 4.7
+        "c": 4.7,
+        "ingredients": "Овче мляко, стартерни млечнокисели култури: Lactobacillus Bulgaricus."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -26235,7 +26432,8 @@ const OFFERS_DATA = {
         "kcal": 61,
         "p": 3.5,
         "f": 3.3,
-        "c": 4.7
+        "c": 4.7,
+        "ingredients": "пастьоризирано краве мляко, млечни култури (Lactobacillus bulgaricus,Streptococcus thermophilus)"
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -26294,7 +26492,8 @@ const OFFERS_DATA = {
         "kcal": 61,
         "p": 3.5,
         "f": 3.3,
-        "c": 4.7
+        "c": 4.7,
+        "ingredients": "ليوغور م.د,%2. مصنوع إخط قد يمكن أن يحتوي على الگلوتين، الجوز والبندق. 2."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -26353,7 +26552,8 @@ const OFFERS_DATA = {
         "kcal": 61,
         "p": 3.5,
         "f": 3.3,
-        "c": 4.7
+        "c": 4.7,
+        "ingredients": "ليوغور م.د,%2. مصنوع إخط قد يمكن أن يحتوي على الگلوتين، الجوز والبندق. 2."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -26581,7 +26781,8 @@ const OFFERS_DATA = {
         "kcal": 61,
         "p": 3.5,
         "f": 3.3,
-        "c": 4.7
+        "c": 4.7,
+        "ingredients": "Краве мляко, закваска."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -26977,7 +27178,8 @@ const OFFERS_DATA = {
         "kcal": 25,
         "p": 1.3,
         "f": 0.1,
-        "c": 6
+        "c": 6,
+        "ingredients": "Червено зеле, алкохолен оцет, захар, вода, сол, екстракти от подправки."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -27146,7 +27348,8 @@ const OFFERS_DATA = {
         "kcal": 61,
         "p": 3.5,
         "f": 3.3,
-        "c": 4.7
+        "c": 4.7,
+        "ingredients": "КРАВЕ МЛЯКО, 3AKBACKA"
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -27321,7 +27524,8 @@ const OFFERS_DATA = {
         "kcal": 61,
         "p": 3.5,
         "f": 3.3,
-        "c": 4.7
+        "c": 4.7,
+        "ingredients": "ليوغور م.د,%2. مصنوع إخط قد يمكن أن يحتوي على الگلوتين، الجوز والبندق. 2."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -27953,7 +28157,8 @@ const OFFERS_DATA = {
         "kcal": 61,
         "p": 3.5,
         "f": 3.3,
-        "c": 4.7
+        "c": 4.7,
+        "ingredients": "ليوغور م.د,%2. مصنوع إخط قد يمكن أن يحتوي على الگلوتين، الجوز والبندق. 2."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -28069,7 +28274,8 @@ const OFFERS_DATA = {
         "kcal": 61,
         "p": 3.5,
         "f": 3.3,
-        "c": 4.7
+        "c": 4.7,
+        "ingredients": "ليوغور م.د,%2. مصنوع إخط قد يمكن أن يحتوي على الگلوتين، الجوز والبندق. 2."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -28353,7 +28559,8 @@ const OFFERS_DATA = {
         "kcal": 61,
         "p": 3.5,
         "f": 3.3,
-        "c": 4.7
+        "c": 4.7,
+        "ingredients": "Краве мляко, сухо обезмаслено мляко,сметана, българска закваска"
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -28469,7 +28676,8 @@ const OFFERS_DATA = {
         "kcal": 61,
         "p": 3.5,
         "f": 3.3,
-        "c": 4.7
+        "c": 4.7,
+        "ingredients": "Био краве мляко, закваска (Lactobacillus bulgaricus, Streptococcus thermophilus)"
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -28528,7 +28736,8 @@ const OFFERS_DATA = {
         "kcal": 61,
         "p": 3.5,
         "f": 3.3,
-        "c": 4.7
+        "c": 4.7,
+        "ingredients": "Био краве мляко, закваска (Lactobacillus bulgaricus, Streptococcus thermophilus)"
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -29319,7 +29528,8 @@ const OFFERS_DATA = {
         "kcal": 61,
         "p": 3.5,
         "f": 3.3,
-        "c": 4.7
+        "c": 4.7,
+        "ingredients": "ليوغور م.د,%2. مصنوع إخط قد يمكن أن يحتوي على الگلوتين، الجوز والبندق. 2."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -29493,7 +29703,8 @@ const OFFERS_DATA = {
         "kcal": 61,
         "p": 3.5,
         "f": 3.3,
-        "c": 4.7
+        "c": 4.7,
+        "ingredients": "ليوغور م.د,%2. مصنوع إخط قد يمكن أن يحتوي على الگلوتين، الجوز والبندق. 2."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -29552,7 +29763,8 @@ const OFFERS_DATA = {
         "kcal": 61,
         "p": 3.5,
         "f": 3.3,
-        "c": 4.7
+        "c": 4.7,
+        "ingredients": "ليوغور م.د,%2. مصنوع إخط قد يمكن أن يحتوي على الگلوتين، الجوز والبندق. 2."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -29611,7 +29823,8 @@ const OFFERS_DATA = {
         "kcal": 61,
         "p": 3.5,
         "f": 3.3,
-        "c": 4.7
+        "c": 4.7,
+        "ingredients": "ليوغور م.د,%2. مصنوع إخط قد يمكن أن يحتوي على الگلوتين، الجوز والبندق. 2."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -29784,7 +29997,8 @@ const OFFERS_DATA = {
         "kcal": 61,
         "p": 3.5,
         "f": 3.3,
-        "c": 4.7
+        "c": 4.7,
+        "ingredients": "краве мляко, жива закваска"
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -29843,7 +30057,8 @@ const OFFERS_DATA = {
         "kcal": 61,
         "p": 3.5,
         "f": 3.3,
-        "c": 4.7
+        "c": 4.7,
+        "ingredients": "ليوغور م.د,%2. مصنوع إخط قد يمكن أن يحتوي على الگلوتين، الجوز والبندق. 2."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -29900,7 +30115,8 @@ const OFFERS_DATA = {
         "kcal": 18,
         "p": 0.9,
         "f": 0.2,
-        "c": 3.9
+        "c": 3.9,
+        "ingredients": "Домати, сол 0,2%,"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -30696,7 +30912,7 @@ const OFFERS_DATA = {
         "p": 3.5,
         "f": 3.3,
         "c": 4.7,
-        "ingredients": "краве мляко, закваска."
+        "ingredients": "Краве МЛЯКО (България), българска симбиотична закваска."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -30810,7 +31026,8 @@ const OFFERS_DATA = {
         "kcal": 18,
         "p": 0.9,
         "f": 0.2,
-        "c": 3.9
+        "c": 3.9,
+        "ingredients": "Домати, регулатор на киселинността: лимонена киселина."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -30981,7 +31198,8 @@ const OFFERS_DATA = {
         "kcal": 61,
         "p": 3.5,
         "f": 3.3,
-        "c": 4.7
+        "c": 4.7,
+        "ingredients": "краве МЛЯКО, закваска"
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -31154,7 +31372,8 @@ const OFFERS_DATA = {
         "kcal": 61,
         "p": 3.5,
         "f": 3.3,
-        "c": 4.7
+        "c": 4.7,
+        "ingredients": "краве мляко, жива закваска"
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -31329,7 +31548,8 @@ const OFFERS_DATA = {
         "kcal": 61,
         "p": 3.5,
         "f": 3.3,
-        "c": 4.7
+        "c": 4.7,
+        "ingredients": "ليوغور م.د,%2. مصنوع إخط قد يمكن أن يحتوي على الگلوتين، الجوز والبندق. 2."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -31558,7 +31778,8 @@ const OFFERS_DATA = {
         "kcal": 18,
         "p": 0.9,
         "f": 0.2,
-        "c": 3.9
+        "c": 3.9,
+        "ingredients": "Домати (99.5%), сол, регулатор на киселинност. лимонена киселина."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -31616,7 +31837,8 @@ const OFFERS_DATA = {
         "kcal": 264,
         "p": 14,
         "f": 22,
-        "c": 2
+        "c": 2,
+        "ingredients": "44% сирене* (от което 52% кашкавал), обезмаслено мляко, сухо обезмаслено мляко, краве масло, емулгаторни соли: полифосфати; трапезна сол, киселина: лимонена киселина. *Съдържа сирищни ензими с микробиален и животински произход."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -31674,7 +31896,8 @@ const OFFERS_DATA = {
         "kcal": 61,
         "p": 3.5,
         "f": 3.3,
-        "c": 4.7
+        "c": 4.7,
+        "ingredients": "ليوغور م.د,%2. مصنوع إخط قد يمكن أن يحتوي على الگلوتين، الجوز والبندق. 2."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -31733,7 +31956,8 @@ const OFFERS_DATA = {
         "kcal": 61,
         "p": 3.5,
         "f": 3.3,
-        "c": 4.7
+        "c": 4.7,
+        "ingredients": "ليوغور م.د,%2. مصنوع إخط قد يمكن أن يحتوي على الگلوتين، الجوز والبندق. 2."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -31791,7 +32015,8 @@ const OFFERS_DATA = {
         "kcal": 127,
         "p": 8.7,
         "f": 0.5,
-        "c": 22
+        "c": 22,
+        "ingredients": "Beans (50%), Tomatoes (36%), Water, Sugar, Modified Cornflour, Salt, Spice Extracts , Herb Extract"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -33308,7 +33533,8 @@ const OFFERS_DATA = {
         "kcal": 61,
         "p": 3.5,
         "f": 3.3,
-        "c": 4.7
+        "c": 4.7,
+        "ingredients": "ليوغور م.د,%2. مصنوع إخط قد يمكن أن يحتوي على الگلوتين، الجوز والبندق. 2."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -33587,7 +33813,8 @@ const OFFERS_DATA = {
         "kcal": 61,
         "p": 3.5,
         "f": 3.3,
-        "c": 4.7
+        "c": 4.7,
+        "ingredients": "ليوغور م.د,%2. مصنوع إخط قد يمكن أن يحتوي على الگلوتين، الجوز والبندق. 2."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -34155,7 +34382,8 @@ const OFFERS_DATA = {
         "kcal": 264,
         "p": 14,
         "f": 22,
-        "c": 2
+        "c": 2,
+        "ingredients": "lait frais entier, crème, stabilisants, amidon, carraghénane, sel, ferments lactiques\nmatière grasse 21%"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -34214,7 +34442,8 @@ const OFFERS_DATA = {
         "kcal": 264,
         "p": 14,
         "f": 22,
-        "c": 2
+        "c": 2,
+        "ingredients": "lait frais entier, crème, stabilisants, amidon, carraghénane, sel, ferments lactiques\nmatière grasse 21%"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -34272,7 +34501,8 @@ const OFFERS_DATA = {
         "kcal": 264,
         "p": 14,
         "f": 22,
-        "c": 2
+        "c": 2,
+        "ingredients": "lait frais entier, crème, stabilisants, amidon, carraghénane, sel, ferments lactiques\nmatière grasse 21%"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -34387,7 +34617,8 @@ const OFFERS_DATA = {
         "kcal": 127,
         "p": 8.7,
         "f": 0.5,
-        "c": 22
+        "c": 22,
+        "ingredients": "Beans (50%), Tomatoes (36%), Water, Sugar, Modified Cornflour, Salt, Spice Extracts , Herb Extract"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -34445,7 +34676,8 @@ const OFFERS_DATA = {
         "kcal": 127,
         "p": 8.7,
         "f": 0.5,
-        "c": 22
+        "c": 22,
+        "ingredients": "Нарязан зелен фасул, вода, сол"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -34503,7 +34735,8 @@ const OFFERS_DATA = {
         "kcal": 127,
         "p": 8.7,
         "f": 0.5,
-        "c": 22
+        "c": 22,
+        "ingredients": "Beans (50%), Tomatoes (36%), Water, Sugar, Modified Cornflour, Salt, Spice Extracts , Herb Extract"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -34847,7 +35080,8 @@ const OFFERS_DATA = {
         "kcal": 264,
         "p": 14,
         "f": 22,
-        "c": 2
+        "c": 2,
+        "ingredients": "lait frais entier, crème, stabilisants, amidon, carraghénane, sel, ferments lactiques\nmatière grasse 21%"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -35185,7 +35419,8 @@ const OFFERS_DATA = {
         "kcal": 127,
         "p": 8.7,
         "f": 0.5,
-        "c": 22
+        "c": 22,
+        "ingredients": "Beans (50%), Tomatoes (36%), Water, Sugar, Modified Cornflour, Salt, Spice Extracts , Herb Extract"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -35704,7 +35939,7 @@ const OFFERS_DATA = {
         "p": 3.5,
         "f": 3.3,
         "c": 4.7,
-        "ingredients": "Краве _мляко_, _млечнокисели култури_ (Lactobacillus delbrueckii subsp. bulgaricus и Streptococcus thermophilus)"
+        "ingredients": "Краве мляко, сухо обезмаслено мляко, сметана, българска закваска."
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -35872,7 +36107,8 @@ const OFFERS_DATA = {
         "kcal": 264,
         "p": 14,
         "f": 22,
-        "c": 2
+        "c": 2,
+        "ingredients": "lait frais entier, crème, stabilisants, amidon, carraghénane, sel, ferments lactiques\nmatière grasse 21%"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -35930,7 +36166,8 @@ const OFFERS_DATA = {
         "kcal": 264,
         "p": 14,
         "f": 22,
-        "c": 2
+        "c": 2,
+        "ingredients": "lait frais entier, crème, stabilisants, amidon, carraghénane, sel, ferments lactiques\nmatière grasse 21%"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -36098,7 +36335,8 @@ const OFFERS_DATA = {
         "kcal": 264,
         "p": 14,
         "f": 22,
-        "c": 2
+        "c": 2,
+        "ingredients": "lait frais entier, crème, stabilisants, amidon, carraghénane, sel, ferments lactiques\nmatière grasse 21%"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -36493,7 +36731,8 @@ const OFFERS_DATA = {
         "kcal": 264,
         "p": 14,
         "f": 22,
-        "c": 2
+        "c": 2,
+        "ingredients": "lait frais entier, crème, stabilisants, amidon, carraghénane, sel, ferments lactiques\nmatière grasse 21%"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -36667,7 +36906,8 @@ const OFFERS_DATA = {
         "kcal": 264,
         "p": 14,
         "f": 22,
-        "c": 2
+        "c": 2,
+        "ingredients": "lait frais entier, crème, stabilisants, amidon, carraghénane, sel, ferments lactiques\nmatière grasse 21%"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -36725,7 +36965,8 @@ const OFFERS_DATA = {
         "kcal": 264,
         "p": 14,
         "f": 22,
-        "c": 2
+        "c": 2,
+        "ingredients": "lait frais entier, crème, stabilisants, amidon, carraghénane, sel, ferments lactiques\nmatière grasse 21%"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -37295,7 +37536,8 @@ const OFFERS_DATA = {
         "kcal": 264,
         "p": 14,
         "f": 22,
-        "c": 2
+        "c": 2,
+        "ingredients": "lait frais entier, crème, stabilisants, amidon, carraghénane, sel, ferments lactiques\nmatière grasse 21%"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -37410,7 +37652,8 @@ const OFFERS_DATA = {
         "kcal": 264,
         "p": 14,
         "f": 22,
-        "c": 2
+        "c": 2,
+        "ingredients": "lait frais entier, crème, stabilisants, amidon, carraghénane, sel, ferments lactiques\nmatière grasse 21%"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -37575,7 +37818,8 @@ const OFFERS_DATA = {
         "kcal": 294,
         "p": 25,
         "f": 21,
-        "c": 0
+        "c": 0,
+        "ingredients": "sel, exhausteur de goût (monosodium glutamate), extrait de levure, arôme de mouton, farine de blé, amidon de maïs, huile de palme hydrogénée, colorant caramel E150c"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -37963,7 +38207,8 @@ const OFFERS_DATA = {
         "kcal": 264,
         "p": 14,
         "f": 22,
-        "c": 2
+        "c": 2,
+        "ingredients": "lait frais entier, crème, stabilisants, amidon, carraghénane, sel, ferments lactiques\nmatière grasse 21%"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -38189,7 +38434,8 @@ const OFFERS_DATA = {
         "kcal": 242,
         "p": 27,
         "f": 14,
-        "c": 0
+        "c": 0,
+        "ingredients": "Jambon frais de porc, Sel, Arômes naturels (présence naturelle de polyphénols), Bouillon (eau, os de porc, sel, extraits de carotte et d'oignon, gras et couenne de porc, ail, poivre, persil, laurier, clou de girofle), Chlorure de potassium, Sucre, Antioxydant : acide ascorbique, Vinaigre en poudre."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -38581,8 +38827,7 @@ const OFFERS_DATA = {
         "kcal": 130,
         "p": 2.7,
         "f": 0.3,
-        "c": 28,
-        "ingredients": "riz, sucre, sel, extrait de malt d'_orge_, niacine, fer, vitamine B6, riboflavine, thiamine, acide folique, vitamine D, vitamine B12"
+        "c": 28
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -38640,7 +38885,8 @@ const OFFERS_DATA = {
         "kcal": 130,
         "p": 2.7,
         "f": 0.3,
-        "c": 28
+        "c": 28,
+        "ingredients": "Organic wholegrain _rice_ 99.8%, Sea Salt"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -38814,7 +39060,8 @@ const OFFERS_DATA = {
         "kcal": 130,
         "p": 2.7,
         "f": 0.3,
-        "c": 28
+        "c": 28,
+        "ingredients": "Organic wholegrain _rice_ 99.8%, Sea Salt"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -39036,7 +39283,8 @@ const OFFERS_DATA = {
         "kcal": 86,
         "p": 3.3,
         "f": 1.4,
-        "c": 19
+        "c": 19,
+        "ingredients": "Сладка царевица, вода, сол."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -39148,7 +39396,8 @@ const OFFERS_DATA = {
         "kcal": 86,
         "p": 3.3,
         "f": 1.4,
-        "c": 19
+        "c": 19,
+        "ingredients": "сладка царевица (93 %), вода, сол"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -39263,7 +39512,8 @@ const OFFERS_DATA = {
         "kcal": 130,
         "p": 2.7,
         "f": 0.3,
-        "c": 28
+        "c": 28,
+        "ingredients": "Organic wholegrain _rice_ 99.8%, Sea Salt"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -39321,7 +39571,8 @@ const OFFERS_DATA = {
         "kcal": 130,
         "p": 2.7,
         "f": 0.3,
-        "c": 28
+        "c": 28,
+        "ingredients": "Well Brown done Rice Preparation LONG GRAIN Paruošimo būdas/Pagatavošana/Tarvitamisjuhis/ Sposób przygotowania / Начин на приготвяне: 1. 2. 222 30 min. 222 4. 3. LT Maišelį su ryžiais įdėti į pasūdytą verdantį vandenį, uždengti ir virti 30 min. Maišelį išgriebti šakute, nuvarvinti vandenį, prakirpti ir suberti ryžius į lėkštę. LV Maisiņu ar rīsiem ielikt pasālītā, vārošā ūdenī, uzlikt vāku un vārīt 30 min. Ar dakšiņas palīdzību izņemt maisiņu no ūdens, notecināt, pārgriezt un izbērt rīsus uz šķīvja. EE Kotike riisiga panna soolaga maitsestatud keevasse vette, katta kaanega ja keeta 30 min. Tõsta kotike kahvli abil välja, lasta veel nõrguda, lõigata kotike lahti ja puistata riis taldrikule. EN Put a bag of rice in salted boiling water, cover the pot and cook for 30 minutes. Pull out the bag with a fork, drain the water, cut and place the rice on the plate. PL Torebkę ryżu włożyć do osolonej wrzącej wody, przykryć i gotować 30 min. Torebkę wyjąć widelcem, odsączyć, rozciąć i wysypać ryż na talerz. 3 Торбичка ориз пуснете във вряща подсолена вода, похлупете и варете за 30 минути. Извадете торбичката с вилица, отцедете водата, отворете торбичката и изсипете ориза в чиния. MAXIMA International Sourcing, UAB, Savanorių pr. 16, LT-03159 Vilnius/Vilna/Vilnius/Wilno / Bилнос, Lietuva / Lietuva / Leedu/Litwa /ЛиTBа 8 800 20050 (LT) / 8 000 2020 (LV) / 800 2121 (EE) / +48 502 004 020 (PL)/ +359 00 133 44 (BG) LT Rudi ilgagrūdžiai ryžiai. Gali būti GLITIMO turinčių JAVŲ (iš KVIEČIŲ, RUGIŲ, MIEŽIŲ ir AVIŽŲ) pėdsakų. Geriausias iki: žr. ant pakuotės dugno. Laikyti sausoje, švarioje, gerai vėdinamoje patalpoje. Partijos numeris sutampa su galiojimo data. Supakuota Lietuvoje. LV Brünie gargraudu rīsi. Var saturēt LIPEKLI saturošus graudaugus (KVIEŠI, RUDZI, MIEŽI un AUZAS). Ieteicams līdz - skatīt iepakojuma apakšā. Uzglabāt sausā, tīrā un labi vēdināmā vietā. Partijas numurs sakrīt ar derīguma termiņa datumu. lepakots Lietuvā. EE Pruun pikateraline riis. Võib sisaldada vähesel määral GLUTEENI sisaldavaid teravilju (NISU, RUKIST, OTRA, KAERA). Parim enne: vt pakendi pöhjalt. Säilitada kuivas, puhtas ja hästi ventileeritavas kohas. Partii number langeb kokku säilimistähtajaga. Pakendatud Leedus. EN Brown long grain rice. May contain GLUTEN containing cereals (WHEAT, RYE, BARLEY, OATS). Best before: see on the bottom of the package. Store in dry, clean and well-ventilated place. Best before date is also batch number. Packed in Lithuania. PL Ryż brązowy długoziarnisty. Może zawierać zboża zawierające gluten (PSZENICĘ, ŻYTO, JĘCZMIEŃ I OWIES). Najlepiej spożyć przed: patrz nadruk na spodzie opakowania. Przechowywać w suchym, czystym, dobrze wentylowanym miejscu. Data minimalnej trwałości jest jednocześnie numerem partii. Pakowane na Litwie. ВС Кафяв дългозърнест ориз. Може да съдържа зърнени култури с ГЛУТЕН (от ЕЧЕМИК, РЪЖ, ОВЕС и ПШЕНИЦА). Най-добър до: виж на дъното на опаковката. Да се съхранява в сухо, чисто и добре проветрено място. Партиден номер съвпада със срок на годност. Опаковано в Литва. Grynasis kiekis Neto daudzums Netokogus Net weight Masa netto Нетно количество 400 g (4 x 100 g)"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -39379,7 +39630,8 @@ const OFFERS_DATA = {
         "kcal": 130,
         "p": 2.7,
         "f": 0.3,
-        "c": 28
+        "c": 28,
+        "ingredients": "Organic wholegrain _rice_ 99.8%, Sea Salt"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -39436,7 +39688,8 @@ const OFFERS_DATA = {
         "kcal": 130,
         "p": 2.7,
         "f": 0.3,
-        "c": 28
+        "c": 28,
+        "ingredients": "ориз"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -39836,7 +40089,8 @@ const OFFERS_DATA = {
         "kcal": 60,
         "p": 3.2,
         "f": 3.2,
-        "c": 4.8
+        "c": 4.8,
+        "ingredients": "Organic wholegrain _rice_ 99.8%, Sea Salt"
       },
       "is_junk": false,
       "is_high_protein": true,
@@ -40067,7 +40321,8 @@ const OFFERS_DATA = {
         "kcal": 130,
         "p": 2.7,
         "f": 0.3,
-        "c": 28
+        "c": 28,
+        "ingredients": "Organic wholegrain _rice_ 99.8%, Sea Salt"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -40125,7 +40380,8 @@ const OFFERS_DATA = {
         "kcal": 130,
         "p": 2.7,
         "f": 0.3,
-        "c": 28
+        "c": 28,
+        "ingredients": "ориз"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -40183,7 +40439,8 @@ const OFFERS_DATA = {
         "kcal": 130,
         "p": 2.7,
         "f": 0.3,
-        "c": 28
+        "c": 28,
+        "ingredients": "Organic wholegrain _rice_ 99.8%, Sea Salt"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -40355,7 +40612,8 @@ const OFFERS_DATA = {
         "kcal": 130,
         "p": 2.7,
         "f": 0.3,
-        "c": 28
+        "c": 28,
+        "ingredients": "Organic wholegrain _rice_ 99.8%, Sea Salt"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -40413,7 +40671,8 @@ const OFFERS_DATA = {
         "kcal": 130,
         "p": 2.7,
         "f": 0.3,
-        "c": 28
+        "c": 28,
+        "ingredients": "Organic wholegrain _rice_ 99.8%, Sea Salt"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -40584,7 +40843,8 @@ const OFFERS_DATA = {
         "kcal": 86,
         "p": 3.3,
         "f": 1.4,
-        "c": 19
+        "c": 19,
+        "ingredients": "Царевица, питейна вода, готварска сол"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -40756,7 +41016,8 @@ const OFFERS_DATA = {
         "kcal": 130,
         "p": 2.7,
         "f": 0.3,
-        "c": 28
+        "c": 28,
+        "ingredients": "Organic wholegrain _rice_ 99.8%, Sea Salt"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -41100,7 +41361,8 @@ const OFFERS_DATA = {
         "kcal": 86,
         "p": 3.3,
         "f": 1.4,
-        "c": 19
+        "c": 19,
+        "ingredients": "Сладка царевица, вода, захар, сол."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -41331,7 +41593,8 @@ const OFFERS_DATA = {
         "kcal": 130,
         "p": 2.7,
         "f": 0.3,
-        "c": 28
+        "c": 28,
+        "ingredients": "Organic wholegrain _rice_ 99.8%, Sea Salt"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -41447,7 +41710,8 @@ const OFFERS_DATA = {
         "kcal": 130,
         "p": 2.7,
         "f": 0.3,
-        "c": 28
+        "c": 28,
+        "ingredients": "Organic wholegrain _rice_ 99.8%, Sea Salt"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -41505,7 +41769,8 @@ const OFFERS_DATA = {
         "kcal": 130,
         "p": 2.7,
         "f": 0.3,
-        "c": 28
+        "c": 28,
+        "ingredients": "Organic wholegrain _rice_ 99.8%, Sea Salt"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -41563,7 +41828,8 @@ const OFFERS_DATA = {
         "kcal": 130,
         "p": 2.7,
         "f": 0.3,
-        "c": 28
+        "c": 28,
+        "ingredients": "Organic wholegrain _rice_ 99.8%, Sea Salt"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -41621,7 +41887,8 @@ const OFFERS_DATA = {
         "kcal": 130,
         "p": 2.7,
         "f": 0.3,
-        "c": 28
+        "c": 28,
+        "ingredients": "Organic wholegrain _rice_ 99.8%, Sea Salt"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -41734,7 +42001,8 @@ const OFFERS_DATA = {
         "kcal": 130,
         "p": 2.7,
         "f": 0.3,
-        "c": 28
+        "c": 28,
+        "ingredients": "Перлен ориз 88%, киноа 12%."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -42133,7 +42401,8 @@ const OFFERS_DATA = {
         "kcal": 86,
         "p": 3.3,
         "f": 1.4,
-        "c": 19
+        "c": 19,
+        "ingredients": "Сладка царевица, вода, захар, сол."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -42770,7 +43039,8 @@ const OFFERS_DATA = {
         "kcal": 130,
         "p": 2.7,
         "f": 0.3,
-        "c": 28
+        "c": 28,
+        "ingredients": "Organic wholegrain _rice_ 99.8%, Sea Salt"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -42885,7 +43155,8 @@ const OFFERS_DATA = {
         "kcal": 130,
         "p": 2.7,
         "f": 0.3,
-        "c": 28
+        "c": 28,
+        "ingredients": "Organic wholegrain _rice_ 99.8%, Sea Salt"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -43059,7 +43330,8 @@ const OFFERS_DATA = {
         "kcal": 242,
         "p": 27,
         "f": 14,
-        "c": 0
+        "c": 0,
+        "ingredients": "36% свински черен дроб, сланина, 18% свинско месо, вода, оризово брашно, декстроза, трапезна сол, лук, антиоксиданти: калиев лактат, натриев аскорбат; емулгатор: естери на лимонената киселина с моно - и диглицериди на мастни киселини*; млечен белтък, подправки, зелени подправки, естествени ароматизанти, консерванти: калиеви ацетати, натриев нитрит. Декорация - Съставки: 99% сланина, глюкозен сироп, екстракт от подправки.Може да съдържа следи от ядки (орехи, лешници)."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -43116,7 +43388,8 @@ const OFFERS_DATA = {
         "kcal": 130,
         "p": 2.7,
         "f": 0.3,
-        "c": 28
+        "c": 28,
+        "ingredients": "Organic wholegrain _rice_ 99.8%, Sea Salt"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -43173,7 +43446,8 @@ const OFFERS_DATA = {
         "kcal": 130,
         "p": 2.7,
         "f": 0.3,
-        "c": 28
+        "c": 28,
+        "ingredients": "Organic wholegrain _rice_ 99.8%, Sea Salt"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -43230,7 +43504,8 @@ const OFFERS_DATA = {
         "kcal": 86,
         "p": 3.3,
         "f": 1.4,
-        "c": 19
+        "c": 19,
+        "ingredients": "Сладка царевица, вода, захар, сол."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -43287,7 +43562,8 @@ const OFFERS_DATA = {
         "kcal": 86,
         "p": 3.3,
         "f": 1.4,
-        "c": 19
+        "c": 19,
+        "ingredients": "Сладка царевица, вода, захар, сол."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -43459,7 +43735,8 @@ const OFFERS_DATA = {
         "kcal": 242,
         "p": 27,
         "f": 14,
-        "c": 0
+        "c": 0,
+        "ingredients": "Jambon frais de porc, Sel, Arômes naturels (présence naturelle de polyphénols), Bouillon (eau, os de porc, sel, extraits de carotte et d'oignon, gras et couenne de porc, ail, poivre, persil, laurier, clou de girofle), Chlorure de potassium, Sucre, Antioxydant : acide ascorbique, Vinaigre en poudre."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -43576,7 +43853,8 @@ const OFFERS_DATA = {
         "kcal": 242,
         "p": 27,
         "f": 14,
-        "c": 0
+        "c": 0,
+        "ingredients": "Jambon frais de porc, Sel, Arômes naturels (présence naturelle de polyphénols), Bouillon (eau, os de porc, sel, extraits de carotte et d'oignon, gras et couenne de porc, ail, poivre, persil, laurier, clou de girofle), Chlorure de potassium, Sucre, Antioxydant : acide ascorbique, Vinaigre en poudre."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -43635,7 +43913,8 @@ const OFFERS_DATA = {
         "kcal": 242,
         "p": 27,
         "f": 14,
-        "c": 0
+        "c": 0,
+        "ingredients": "Jambon frais de porc, Sel, Arômes naturels (présence naturelle de polyphénols), Bouillon (eau, os de porc, sel, extraits de carotte et d'oignon, gras et couenne de porc, ail, poivre, persil, laurier, clou de girofle), Chlorure de potassium, Sucre, Antioxydant : acide ascorbique, Vinaigre en poudre."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -46378,7 +46657,8 @@ const OFFERS_DATA = {
         "kcal": 364,
         "p": 10,
         "f": 1,
-        "c": 76
+        "c": 76,
+        "ingredients": "Пшенично брашно, Регулатор на киселинността: аскорбинова киселина, Ензими,"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -49509,7 +49789,8 @@ const OFFERS_DATA = {
         "kcal": 584,
         "p": 21,
         "f": 51,
-        "c": 20
+        "c": 20,
+        "ingredients": "Слънчогледови семки, сол, брашно ПШЕНИЧНО (глутен) Произход: Китай Може да съдържа следи от други ядки. Да се пази от хора с непоносимост към глутен. Хранителна стойност на 100g Енергия kJ/kcal 2448/591 Мазнини: 4.5,58g от които наситени мастни киселини 5,5tig Въглехидрати: 19,2g от които захари: 2,36g Белтъчини: 30,69g Влакнини: 9,6 Сол: 0,05g 3 800 207 941420"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -49908,8 +50189,7 @@ const OFFERS_DATA = {
         "kcal": 60,
         "p": 3.2,
         "f": 3.2,
-        "c": 4.8,
-        "ingredients": "Пастьоризирано КРАВЕ МЛЯКО"
+        "c": 4.8
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -49966,7 +50246,8 @@ const OFFERS_DATA = {
         "kcal": 60,
         "p": 3.2,
         "f": 3.2,
-        "c": 4.8
+        "c": 4.8,
+        "ingredients": "пастьоризирано краве мляко 3,7%"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -50188,7 +50469,8 @@ const OFFERS_DATA = {
         "kcal": 60,
         "p": 3.2,
         "f": 3.2,
-        "c": 4.8
+        "c": 4.8,
+        "ingredients": "краве мляко"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -51862,7 +52144,8 @@ const OFFERS_DATA = {
         "kcal": 60,
         "p": 3.2,
         "f": 3.2,
-        "c": 4.8
+        "c": 4.8,
+        "ingredients": "Високотемпературно пастьоризирано краве мляко"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -52529,7 +52812,7 @@ const OFFERS_DATA = {
         "p": 0.8,
         "f": 0.4,
         "c": 15,
-        "ingredients": "54,1% mango, pitná voda, cukr, regulátor kyselosti: kyselina citronová."
+        "ingredients": "МАНГО СУШЕНЕ 95%, ЦУКОР, КОНСЕРВАНТ ДВООКИС СІРКИ."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -52743,7 +53026,8 @@ const OFFERS_DATA = {
         "kcal": 60,
         "p": 3.2,
         "f": 3.2,
-        "c": 4.8
+        "c": 4.8,
+        "ingredients": "Пастьоризирано краве мляко"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -53387,7 +53671,8 @@ const OFFERS_DATA = {
         "kcal": 628,
         "p": 15,
         "f": 61,
-        "c": 17
+        "c": 17,
+        "ingredients": "sucre, _noisettes_ 20%, huiles végétales (tournesol, colza), _lait_ écrémé en poudre, cacao maigre en poudre 5,5%, beurre de cacao, émulsifiant : lécithine de tournesol, extrait de vanille, Peut contenir d'autres _fruits à coque_,"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -53497,7 +53782,8 @@ const OFFERS_DATA = {
         "kcal": 553,
         "p": 18,
         "f": 44,
-        "c": 30
+        "c": 30,
+        "ingredients": "СУРОВО КАШУ,Може да съдържа следи от ЯДКИ и ФЪСТЪЦИ,"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -53764,7 +54050,8 @@ const OFFERS_DATA = {
         "kcal": 60,
         "p": 3.2,
         "f": 3.2,
-        "c": 4.8
+        "c": 4.8,
+        "ingredients": "Пастьоризирано краве мляко"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -54149,7 +54436,8 @@ const OFFERS_DATA = {
         "kcal": 60,
         "p": 3.2,
         "f": 3.2,
-        "c": 4.8
+        "c": 4.8,
+        "ingredients": "Пастьоризирано краве мляко"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -54481,7 +54769,8 @@ const OFFERS_DATA = {
         "kcal": 60,
         "p": 3.2,
         "f": 3.2,
-        "c": 4.8
+        "c": 4.8,
+        "ingredients": "Пастьоризирано краве мляко"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -55074,7 +55363,8 @@ const OFFERS_DATA = {
         "kcal": 280,
         "p": 28,
         "f": 17,
-        "c": 3.1
+        "c": 3.1,
+        "ingredients": "Farine de lentille (37%), huiles végétales (tournesol, colza), farine de riz, farine de maïs, amidons, lactosérum en poudre (LAIT), sel, sucre, chlorure de potassium, arôme naturel, tomate, persil, oignon, poivre vert, ail, mozzarella en poudre (LAIT)."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -55292,7 +55582,7 @@ const OFFERS_DATA = {
         "p": 21,
         "f": 51,
         "c": 20,
-        "ingredients": "Слънчогледово брашно 24%, захар, финни овесени ядки, пшенично брашно, ръжено брашно, високоолеиново слънчогледово олио 11%, фруктозо-глюкозен сироп, обезмаслено мляко на прах, сусам, фъстъци, набухватели: (амониев хидроген карбонат, натриев хидроген карбонат) емулгатор: соев лецитин, натурални ароматизанти. Съдържа глутен, соя, млечни продукти, сусам и фъстъци. Може да съдържа следи от други ядки."
+        "ingredients": "100% рафинирано слънчогледово масло"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -55930,7 +56220,8 @@ const OFFERS_DATA = {
         "kcal": 717,
         "p": 0.9,
         "f": 81,
-        "c": 0.1
+        "c": 0.1,
+        "ingredients": "био какаово масло (100%)"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -56530,7 +56821,8 @@ const OFFERS_DATA = {
         "kcal": 50,
         "p": 0.5,
         "f": 0.1,
-        "c": 13
+        "c": 13,
+        "ingredients": "Вода; сок от ананас от концентрат от (40%); захар и/или глюкозо-фруктозен сироп; парченца (пулпа) от ананас (0.8%); регулатор на киселинност: лимонена киселина; ароматизант; витамин С."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -57020,7 +57312,8 @@ const OFFERS_DATA = {
         "kcal": 115,
         "p": 0.8,
         "f": 11,
-        "c": 6
+        "c": 6,
+        "ingredients": "Маслини – сорт „Халкидики“, трапезна сол, стабилизатор: феро глюконат; регулатор на киселинността: млечна киселина."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -57075,7 +57368,8 @@ const OFFERS_DATA = {
         "kcal": 717,
         "p": 0.9,
         "f": 81,
-        "c": 0.1
+        "c": 0.1,
+        "ingredients": "краве масло"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -57515,7 +57809,8 @@ const OFFERS_DATA = {
         "kcal": 553,
         "p": 18,
         "f": 44,
-        "c": 30
+        "c": 30,
+        "ingredients": "cashews"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -57950,7 +58245,8 @@ const OFFERS_DATA = {
         "kcal": 628,
         "p": 15,
         "f": 61,
-        "c": 17
+        "c": 17,
+        "ingredients": "sucre, _noisettes_ 20%, huiles végétales (tournesol, colza), _lait_ écrémé en poudre, cacao maigre en poudre 5,5%, beurre de cacao, émulsifiant : lécithine de tournesol, extrait de vanille, Peut contenir d'autres _fruits à coque_,"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -58438,7 +58734,8 @@ const OFFERS_DATA = {
         "kcal": 115,
         "p": 0.8,
         "f": 11,
-        "c": 6
+        "c": 6,
+        "ingredients": "Маслини – сорт „Халкидики“, трапезна сол, стабилизатор: феро глюконат; регулатор на киселинността: млечна киселина."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -58928,7 +59225,8 @@ const OFFERS_DATA = {
         "kcal": 115,
         "p": 0.8,
         "f": 11,
-        "c": 6
+        "c": 6,
+        "ingredients": "Маслини, трапезна сол, винен оцет, регулатор на киселинността: млечна киселина. Може да съдържа следи от бадеми."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -61338,7 +61636,8 @@ const OFFERS_DATA = {
         "kcal": 553,
         "p": 18,
         "f": 44,
-        "c": 30
+        "c": 30,
+        "ingredients": "cashews"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -61559,7 +61858,7 @@ const OFFERS_DATA = {
         "p": 0.8,
         "f": 11,
         "c": 6,
-        "ingredients": "70% филе от риба тон, 29% маслиново масло Extra virgin, трапезна сол."
+        "ingredients": "НЕОБРАБОТЕНО МАСЛИНОВО МАСЛО"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -61779,7 +62078,8 @@ const OFFERS_DATA = {
         "kcal": 350,
         "p": 25,
         "f": 27,
-        "c": 1
+        "c": 1,
+        "ingredients": "Краве мляко, закваска, мая, сол."
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -62629,7 +62929,8 @@ const OFFERS_DATA = {
         "kcal": 553,
         "p": 18,
         "f": 44,
-        "c": 30
+        "c": 30,
+        "ingredients": "cashews"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -62834,7 +63135,8 @@ const OFFERS_DATA = {
         "kcal": 628,
         "p": 15,
         "f": 61,
-        "c": 17
+        "c": 17,
+        "ingredients": "sucre, _noisettes_ 20%, huiles végétales (tournesol, colza), _lait_ écrémé en poudre, cacao maigre en poudre 5,5%, beurre de cacao, émulsifiant : lécithine de tournesol, extrait de vanille, Peut contenir d'autres _fruits à coque_,"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -62944,7 +63246,8 @@ const OFFERS_DATA = {
         "kcal": 553,
         "p": 18,
         "f": 44,
-        "c": 30
+        "c": 30,
+        "ingredients": "cashews"
       },
       "is_junk": false,
       "is_high_protein": false,
@@ -68035,9 +68338,9 @@ const OFFERS_DATA = {
       "category": "other",
       "new_price": 0.55,
       "new_price_eur": 0.28,
-      "old_price": 0.72,
-      "old_price_eur": 0.37,
-      "discount_pct": 24,
+      "old_price": 14.45,
+      "old_price_eur": 7.39,
+      "discount_pct": 96,
       "valid_until": null,
       "weight_raw": "39 г",
       "weight_grams": 39,
@@ -68064,9 +68367,9 @@ const OFFERS_DATA = {
           "store": "T-Market",
           "price": 0.55,
           "price_eur": 0.28,
-          "old_price": 0.72,
-          "old_price_eur": 0.37,
-          "discount_pct": 24,
+          "old_price": 14.45,
+          "old_price_eur": 7.39,
+          "discount_pct": 96,
           "source_type": "promo"
         }
       ],
@@ -69235,9 +69538,9 @@ const OFFERS_DATA = {
       "category": "other",
       "new_price": 0.63,
       "new_price_eur": 0.32,
-      "old_price": 0.78,
-      "old_price_eur": 0.4,
-      "discount_pct": 19,
+      "old_price": 0.84,
+      "old_price_eur": 0.43,
+      "discount_pct": 25,
       "valid_until": null,
       "weight_raw": "29 г",
       "weight_grams": 29,
@@ -69264,9 +69567,9 @@ const OFFERS_DATA = {
           "store": "T-Market",
           "price": 0.63,
           "price_eur": 0.32,
-          "old_price": 0.78,
-          "old_price_eur": 0.4,
-          "discount_pct": 19,
+          "old_price": 0.84,
+          "old_price_eur": 0.43,
+          "discount_pct": 25,
           "source_type": "promo"
         }
       ],

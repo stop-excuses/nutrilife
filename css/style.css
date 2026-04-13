@@ -10,9 +10,11 @@
     --bg-card-green: #0d1a08;
     --bg-card-red: #110a0a;
     --bg-card-purple: #0f0d1a;
+    --bg-card-amber: #1a1408;
     --border-green: #2a3d1e;
     --border-red: #2a1414;
     --border-purple: #2a2442;
+    --border-amber: #3d2e14;
     --text: #f0efe8;
     --muted: #b0afa6;
     --muted2: #888;
@@ -35,9 +37,11 @@
     --bg-card-green: #f0f7e8;
     --bg-card-red: #fdf0f0;
     --bg-card-purple: #f0eef7;
+    --bg-card-amber: #fdf5e8;
     --border-green: #c5dca8;
     --border-red: #f0c8c8;
     --border-purple: #cdc8e8;
+    --border-amber: #e8d0a0;
     --text: #1a1a1a;
     --muted: #555;
     --muted2: #777;
@@ -79,12 +83,19 @@ body {
     transition: background 0.3s, color 0.3s;
 }
 
-/* --- Theme Toggle --- */
-.theme-toggle {
+/* --- Top Controls (Theme + Language toggles) --- */
+.top-controls {
     position: fixed;
     top: 14px;
     right: 16px;
     z-index: 1001;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.theme-toggle,
+.lang-toggle {
     background: var(--surface);
     border: 1px solid var(--surface-border);
     border-radius: 50%;
@@ -94,13 +105,25 @@ body {
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    font-size: 1.1rem;
     transition: all 0.3s;
     color: var(--text);
+    flex-shrink: 0;
 }
 
-.theme-toggle:hover {
+.theme-toggle {
+    font-size: 1.1rem;
+}
+
+.lang-toggle {
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.02em;
+}
+
+.theme-toggle:hover,
+.lang-toggle:hover {
     border-color: var(--green);
+    background: var(--surface-hover);
 }
 
 /* --- Typography --- */
@@ -167,11 +190,11 @@ strong {
 .container {
     max-width: min(1400px, 100%);
     margin: 0 auto;
-    padding: 0 5%;
+    padding: 0 max(20px, 5%);
 }
 
 section {
-    padding: 80px 5%;
+    padding: 80px max(20px, 5%);
     max-width: min(1400px, 100%);
     margin: 0 auto;
 }
@@ -187,29 +210,55 @@ section {
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     border-bottom: 1px solid rgba(255, 255, 255, 0.06);
-    padding: 16px 24px;
+    padding: 12px 24px 10px;
+    touch-action: manipulation;
+}
+
+[data-theme="light"] .navbar {
+    background: rgba(245, 245, 240, 0.9);
+    border-bottom-color: rgba(0,0,0,0.08);
 }
 
 .navbar .container {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 12px;
+    gap: 4px;
+    flex-wrap: wrap;
+}
+
+/* Main nav dots with labels */
+.navbar .dot-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    touch-action: manipulation;
+    gap: 4px;
+    padding: 4px 8px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.2s;
+    position: relative;
+}
+
+.navbar .dot-wrapper:hover {
+    background: var(--surface-hover);
 }
 
 .navbar .dot {
-    width: 10px;
-    height: 10px;
+    width: 8px;
+    height: 8px;
     border-radius: 50%;
-    background: #333;
+    background: #444;
     transition: all 0.3s ease;
     cursor: pointer;
     border: none;
     padding: 0;
+    display: block;
 }
 
 .navbar .dot:hover {
-    background: #555;
+    background: #666;
 }
 
 .navbar .dot.active {
@@ -228,35 +277,69 @@ section {
     box-shadow: 0 0 8px rgba(127, 119, 221, 0.4);
 }
 
-/* Tooltip за dots */
-.navbar .dot-wrapper {
-    position: relative;
+.navbar .dot.amber.active {
+    background: var(--amber);
+    box-shadow: 0 0 8px rgba(186, 117, 23, 0.4);
 }
 
-.navbar .dot-wrapper .tooltip {
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-top: 8px;
-    background: var(--surface);
-    color: var(--muted);
-    font-size: 0.7rem;
-    padding: 4px 8px;
-    border-radius: 4px;
+/* Dot labels */
+.navbar .dot-label {
+    font-size: 0.6rem;
+    color: var(--muted3);
     white-space: nowrap;
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity 0.2s;
+    letter-spacing: 0.02em;
+    line-height: 1;
 }
 
-.navbar .dot-wrapper:hover .tooltip {
-    opacity: 1;
+.navbar .dot-wrapper:has(.dot.active) .dot-label {
+    color: var(--green);
+}
+
+.navbar .dot-wrapper:has(.dot.red.active) .dot-label {
+    color: var(--red);
+}
+
+.navbar .dot-wrapper:has(.dot.purple.active) .dot-label {
+    color: var(--purple);
+}
+
+.navbar .dot-wrapper:has(.dot.amber.active) .dot-label {
+    color: var(--amber);
+}
+
+/* Separator */
+.navbar .nav-sep {
+    width: 1px;
+    height: 20px;
+    background: var(--surface-border);
+    margin: 0 4px;
+    align-self: center;
+}
+
+/* Secondary nav links (Добавки, Психично здраве) */
+.navbar .nav-link {
+    font-size: 0.65rem;
+    color: var(--muted3);
+    text-decoration: none;
+    padding: 4px 8px;
+    border-radius: 8px;
+    white-space: nowrap;
+    transition: color 0.2s, background 0.2s;
+    line-height: 1.2;
+}
+
+.navbar .nav-link:hover {
+    color: var(--muted);
+    background: var(--surface-hover);
+}
+
+.navbar .nav-link.active-page {
+    color: var(--purple);
 }
 
 /* --- Hero Section --- */
 .hero {
-    padding-top: 100px;
+    padding-top: 110px;
     text-align: center;
     max-width: 800px;
     margin: 0 auto;
@@ -636,17 +719,17 @@ section {
 
 .info-box.red {
     background: var(--bg-card-red);
-    border-color: #2a1414;
+    border-color: var(--border-red);
 }
 
 .info-box.amber {
-    background: #1a1408;
-    border-color: #3d2e14;
+    background: var(--bg-card-amber);
+    border-color: var(--border-amber);
 }
 
 .info-box.purple {
     background: var(--bg-card-purple);
-    border-color: #2a2442;
+    border-color: var(--border-purple);
 }
 
 /* --- CTA Section --- */
@@ -711,36 +794,36 @@ section {
 
 .btn-green {
     background: #3B6D11;
-    color: var(--text);
+    color: #f0efe8;
 }
 
 .btn-green:hover {
     background: #4a8a16;
-    color: var(--text);
+    color: #f0efe8;
     transform: translateY(-1px);
     box-shadow: 0 4px 16px rgba(59, 109, 17, 0.3);
 }
 
 .btn-red {
     background: #E24B4A;
-    color: var(--text);
+    color: #f0efe8;
 }
 
 .btn-red:hover {
     background: #e85e5d;
-    color: var(--text);
+    color: #f0efe8;
     transform: translateY(-1px);
     box-shadow: 0 4px 16px rgba(226, 75, 74, 0.3);
 }
 
 .btn-purple {
     background: #534AB7;
-    color: var(--text);
+    color: #f0efe8;
 }
 
 .btn-purple:hover {
     background: #6359cc;
-    color: var(--text);
+    color: #f0efe8;
     transform: translateY(-1px);
     box-shadow: 0 4px 16px rgba(83, 74, 183, 0.3);
 }
@@ -1357,10 +1440,31 @@ input[type="range"]::-moz-range-thumb {
     color: var(--green);
 }
 
+/* --- Site Footer --- */
+.site-footer {
+    text-align: center;
+    padding: 32px 24px;
+    border-top: 1px solid rgba(255,255,255,0.06);
+    color: var(--muted);
+    font-size: 0.85rem;
+    line-height: 1.8;
+}
+
+.site-footer a {
+    color: var(--green);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(151, 196, 89, 0.3);
+    transition: border-color 0.2s;
+}
+
+.site-footer a:hover {
+    border-color: var(--green);
+}
+
 .filter-btn.active {
     background: #3B6D11;
     border-color: #3B6D11;
-    color: var(--text);
+    color: #f0efe8;
 }
 
 /* --- Checkbox / Tracker --- */
@@ -1572,8 +1676,8 @@ input[type="range"]::-moz-range-thumb {
 
 /* --- Savings Box --- */
 .savings-box {
-    background: linear-gradient(135deg, #0d1a08, #132a0d);
-    border: 1px solid #3B6D11;
+    background: transparent;
+    border: 1px solid var(--border-green);
     border-radius: 14px;
     padding: 24px;
     text-align: center;
@@ -1687,7 +1791,7 @@ input[type="range"]::-moz-range-thumb {
 .sort-btn.active {
     background: var(--green-dark);
     border-color: var(--green-dark);
-    color: var(--text);
+    color: #f0efe8;
 }
 
 /* --- Protein Ranking --- */
