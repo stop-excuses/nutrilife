@@ -1,0 +1,20 @@
+=== Lidl OCR brochure test ===
+Fetching brochure page: https://broshura.bg/b/5965899
+Images found on page: 7
+
+Testing OCR on first 3 pages...
+
+  Page 1: https://media.marktjagd.com/19412631_600x800.webp
+  ERROR: The img type <class 'PIL.Image.Image'> does not in (<class 'str'>, <class 'numpy.ndarray'>, <class 'bytes'>, <class 'pathlib.Path'>)
+
+  Page 2: https://media.marktjagd.com/19412631_600x800.webp
+  ERROR: The img type <class 'PIL.Image.Image'> does not in (<class 'str'>, <class 'numpy.ndarray'>, <class 'bytes'>, <class 'pathlib.Path'>)
+
+  Page 3: https://media.marktjagd.com/19412631_600x800.webp
+  ERROR: The img type <class 'PIL.Image.Image'> does not in (<class 'str'>, <class 'numpy.ndarray'>, <class 'bytes'>, <class 'pathlib.Path'>)
+
+=== RESULTS ===
+Total OCR lines: 0
+Products detected: 0
+
+Sample lines (first 20):

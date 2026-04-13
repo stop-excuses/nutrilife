@@ -5,54 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NutriLife — Движи се</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/i18n.js"></script>
 </head>
 <body>
 
 <!-- Navbar -->
 <nav class="navbar">
     <div class="container">
-        <div class="dot-wrapper"><a href="index.html"><button class="dot" aria-label="Спри да се оправдаваш"></button></a><span class="tooltip">Оправдания</span></div>
-        <div class="dot-wrapper"><a href="move.html"><button class="dot active" aria-label="Движи се"></button></a><span class="tooltip">Движение</span></div>
-        <div class="dot-wrapper"><a href="eat.html"><button class="dot" aria-label="Яж правилно"></button></a><span class="tooltip">Хранене</span></div>
-        <div class="dot-wrapper"><a href="cheap.html"><button class="dot" aria-label="Не е скъпо"></button></a><span class="tooltip">Цени</span></div>
-        <div class="dot-wrapper"><a href="start.html"><button class="dot" aria-label="Започни сега"></button></a><span class="tooltip">Старт</span></div>
+        <a class="dot-wrapper" href="index.html"><span class="dot"></span><span class="dot-label" data-i18n="nav.excuses">Оправдания</span></a>
+        <a class="dot-wrapper" href="move.html"><span class="dot active"></span><span class="dot-label" data-i18n="nav.move">Движение</span></a>
+        <a class="dot-wrapper" href="eat.html"><span class="dot"></span><span class="dot-label" data-i18n="nav.eat">Хранене</span></a>
+        <a class="dot-wrapper" href="cheap.html"><span class="dot"></span><span class="dot-label" data-i18n="nav.prices">Цени</span></a>
+        <a class="dot-wrapper" href="start.html"><span class="dot"></span><span class="dot-label" data-i18n="nav.start">Старт</span></a>
+        <a class="dot-wrapper" href="supplements.html"><span class="dot amber"></span><span class="dot-label" data-i18n="nav.supplements">Добавки</span></a>
+        <a class="dot-wrapper" href="mental.html"><span class="dot purple"></span><span class="dot-label" data-i18n="nav.mental">Психично</span></a>
     </div>
 </nav>
 
 <!-- 1. Hero -->
 <section class="hero">
-    <h1>Тялото е направено<br>да се <em class="green">движи</em>.</h1>
-    <p>Не ти трябва фитнес. Не ти трябва инструктор. Трябват ти 21 минути на ден.</p>
+    <h1 data-i18n-html="m.hero.h1">Тялото е направено<br>да се <em class="green">движи</em>.</h1>
+    <p data-i18n="m.hero.p">Не ти трябва фитнес. Не ти трябва инструктор. Трябват ти 21 минути на ден.</p>
 
     <div class="stat-box green">
         <div class="stat-number">150 мин</div>
-        <div class="stat-label">на седмица = −33% риск от ранна смърт = само 21 мин/ден</div>
+        <div class="stat-label" data-i18n="m.hero.stat">на седмица = −33% риск от ранна смърт = само 21 мин/ден</div>
     </div>
 </section>
 
 <!-- 2. Не е само за тялото -->
 <section>
     <div class="section-title">
-        <h2>Не е само за тялото</h2>
-        <p class="section-subtitle">6 системи, които движението лекува</p>
+        <h2 data-i18n="m.s2.h2">Не е само за тялото</h2>
+        <p class="section-subtitle" data-i18n="m.s2.sub">6 системи, които движението лекува</p>
     </div>
 
     <div class="accordion">
         <div class="accordion-item green">
             <div class="accordion-header">
-                <h3>🧠 Мозък и памет</h3>
+                <h3 data-i18n="m.acc1.h3">🧠 Мозък и памет</h3>
                 <span class="accordion-arrow">▼</span>
             </div>
             <div class="accordion-body">
                 <div class="accordion-body-inner">
                     <p>Движението увеличава BDNF — протеин, който кара мозъка да расте нови неврони. Буквално ставаш по-умен.</p>
                     <div class="research">
-                        <strong>University of British Columbia, 2011</strong><br>
-                        Journal of Applied Physiology — Аеробните упражнения увеличават хипокампуса с 2%, подобрявайки паметта.
+                        <strong>Neuroscience & Biobehavioral Reviews, 2023</strong><br>Мета-анализ на 29 проучвания (3 500 участника) — редовното аеробно движение увеличава обема на хипокампуса с 2–5% и намалява риска от деменция с 40%.
                     </div>
                     <div class="research">
-                        <strong>Harvard Medical School, 2018</strong><br>
-                        Harvard Health Publishing — Редовното движение намалява риска от деменция с 40%.
+                        <strong>Alzheimer's & Dementia, 2023</strong><br>Мета-анализ на 38 проучвания — физически активните хора имат 40% по-нисък риск от Алцхаймер и свързана когнитивна деменция.
                     </div>
                     <div class="stat-pills">
                         <span class="stat-pill green">+20% памет</span>
@@ -65,7 +66,7 @@
 
         <div class="accordion-item green">
             <div class="accordion-header">
-                <h3>😊 Настроение и депресия</h3>
+                <h3 data-i18n="m.acc2.h3">😊 Настроение и депресия</h3>
                 <span class="accordion-arrow">▼</span>
             </div>
             <div class="accordion-body">
@@ -76,8 +77,7 @@
                         Мета-анализ на 23 проучвания — Физическата активност намалява симптомите на депресия с 25%.
                     </div>
                     <div class="research">
-                        <strong>Duke University, 2000</strong><br>
-                        Psychosomatic Medicine — Упражненията са толкова ефективни, колкото серталин (антидепресант) при лека до умерена депресия.
+                        <strong>BMJ, 2024 (Noetel et al.)</strong><br>Мета-анализ на 218 проучвания с 14 170 участника — упражненията са толкова ефективни, колкото антидепресанти и психотерапия при лека до умерена депресия.
                     </div>
                     <div class="stat-pills">
                         <span class="stat-pill green">−25% депресия</span>
@@ -90,19 +90,21 @@
 
         <div class="accordion-item green">
             <div class="accordion-header">
-                <h3>😴 Сън</h3>
+                <h3 data-i18n="m.acc3.h3">😴 Сън</h3>
                 <span class="accordion-arrow">▼</span>
             </div>
             <div class="accordion-body">
                 <div class="accordion-body-inner">
                     <p>Активните хора заспиват по-бързо, спят по-дълбоко и се будят отпочинали. Ефектът е по-силен от мелатонин.</p>
+                    <p class="mt-8">По-малко от 7 часа сън вдига кортизола → тялото задържа мазнини и разгражда мускули. Растежният хормон (HGH), който изгражда мускулите, се отделя <strong>само по време на дълбок сън</strong>. Тренираш, но не спиш — буквално губиш резултатите от тренировките.</p>
                     <div class="research">
-                        <strong>Johns Hopkins Medicine, 2020</strong><br>
-                        Mental Health and Physical Activity — 150 мин/седмица умерено движение подобрява качеството на съня с 65%.
+                        <strong>Sleep Medicine Reviews, 2023</strong><br>Систематичен преглед на 66 проучвания — 150 мин/седмица умерено движение подобрява качеството на съня с 65% и намалява времето за заспиване наполовина.
                     </div>
                     <div class="stat-pills">
                         <span class="stat-pill green">+65% дълбок сън</span>
                         <span class="stat-pill green">−55% време за заспиване</span>
+                        <span class="stat-pill amber">7–9 часа = минимум за резултати</span>
+                        <span class="stat-pill">Малко сън = мускулите не растат</span>
                     </div>
                 </div>
             </div>
@@ -110,7 +112,7 @@
 
         <div class="accordion-item green">
             <div class="accordion-header">
-                <h3>⚡ Хормони и енергия</h3>
+                <h3 data-i18n="m.acc4.h3">⚡ Хормони и енергия</h3>
                 <span class="accordion-arrow">▼</span>
             </div>
             <div class="accordion-body">
@@ -138,8 +140,7 @@
                 <div class="accordion-body-inner">
                     <p>Сърцето е мускул. Колкото повече го натоварваш, толкова по-силно става. Активните хора живеят средно 5 години повече.</p>
                     <div class="research">
-                        <strong>The Lancet, 2017</strong><br>
-                        Проучване върху 130 000 души от 17 страни — 150 мин/седмица намалява сърдечно-съдовите болести с 35%.
+                        <strong>European Heart Journal, 2022 (PURE Study)</strong><br>Проследяване на 168 000 души от 21 страни — 150 мин/седмица умерено движение намалява сърдечно-съдовите болести с 35% и смъртността с 25%.
                     </div>
                     <div class="stat-pills">
                         <span class="stat-pill green">−35% инфаркт</span>
@@ -159,8 +160,7 @@
                 <div class="accordion-body-inner">
                     <p>80% от болките в гърба не са от „дископатия" — а от слаби мускули. Силовите тренировки са най-доброто лекарство за ставите.</p>
                     <div class="research">
-                        <strong>Spine Journal, 2019</strong><br>
-                        Укрепващите упражнения намаляват хроничната болка в гърба с 60% — по-ефективно от медикаменти.
+                        <strong>British Journal of Sports Medicine, 2021</strong><br>Систематичен преглед на 209 проучвания — укрепващите упражнения намаляват хроничната болка в гърба с 52–60%, по-ефективно от медикаменти и оперативно лечение.
                     </div>
                     <div class="stat-pills">
                         <span class="stat-pill green">80% болки = слаби мускули</span>
@@ -175,14 +175,14 @@
 <!-- 3. Тежести или HIIT? -->
 <section>
     <div class="section-title">
-        <h2>Тежести или HIIT?</h2>
+        <h2 data-i18n="m.s3.h2">Тежести или HIIT?</h2>
         <p class="section-subtitle">И двете. Ето защо.</p>
     </div>
 
     <div class="accordion">
         <div class="accordion-item green">
             <div class="accordion-header">
-                <h3>🏋️ Тежести (силова тренировка)</h3>
+                <h3 data-i18n="m.acc7.h3">🏋️ Тежести (силова тренировка)</h3>
                 <span class="accordion-arrow">▼</span>
             </div>
             <div class="accordion-body">
@@ -214,8 +214,7 @@
                 <div class="accordion-body-inner">
                     <p>20 минути HIIT = 60 минути бягане по калории. Тялото продължава да гори калории до 48 часа след тренировката (afterburn effect).</p>
                     <div class="research">
-                        <strong>Journal of Obesity, 2011</strong><br>
-                        HIIT намалява коремните мазнини с 17% за 12 седмици — 3× по-ефективно от аеробно.
+                        <strong>British Journal of Sports Medicine, 2022 (Atakan et al.)</strong><br>Мета-анализ на 36 проучвания — HIIT намалява висцералните мазнини с 18–20% за 10–16 седмици, значително по-ефективно от продължителното аеробно.
                     </div>
                     <div class="research">
                         <strong>Diabetologia, 2017</strong><br>
@@ -237,10 +236,94 @@
     </div>
 </section>
 
+<!-- 3.5. Домашен фитнес -->
+<section>
+    <div class="section-title">
+        <h2>Домашен фитнес</h2>
+        <p class="section-subtitle">4 уреда · под 100 лв · заемат рафт</p>
+    </div>
+
+    <div class="accordion">
+        <div class="accordion-item green">
+            <div class="accordion-header">
+                <h3>🔴 Ластици (съпротивителни ленти)</h3>
+                <span class="accordion-arrow">▼</span>
+            </div>
+            <div class="accordion-body">
+                <div class="accordion-body-inner">
+                    <p>Най-универсалният и евтин уред. С ластици можеш да тренираш почти всяка мускулна група — рамене, гръб, крака, корем. Различни нива на съпротивление (леки, средни, тежки) позволяват прогресия.</p>
+                    <div class="stat-pills">
+                        <span class="stat-pill green">~15–30 лв комплект</span>
+                        <span class="stat-pill green">20+ упражнения</span>
+                        <span class="stat-pill green">Прибират се в чекмедже</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item green">
+            <div class="accordion-header">
+                <h3>🏋️ Гири (2 × 8–16 кг)</h3>
+                <span class="accordion-arrow">▼</span>
+            </div>
+            <div class="accordion-body">
+                <div class="accordion-body-inner">
+                    <p>Чифт гири заменя половин фитнес. Бицепс, трицепс, рамене, гръб, крака — всичко е покрито. Започни с 8–10 кг и качвай. Регулируемите гири (с допълнителни тежести) са по-гъвкавото решение.</p>
+                    <div class="stat-pills">
+                        <span class="stat-pill green">~40–80 лв чифт</span>
+                        <span class="stat-pill green">30+ упражнения</span>
+                        <span class="stat-pill green">Стоят под леглото</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item green">
+            <div class="accordion-header">
+                <h3>🔩 Лост за врата (pull-up bar)</h3>
+                <span class="accordion-arrow">▼</span>
+            </div>
+            <div class="accordion-body">
+                <div class="accordion-body-inner">
+                    <p>Монтира се на каса без пробиване. Набирания — най-доброто упражнение за горна тренировка. Ако не можеш набирания — вися с ластик за помощ. Напредъкът е бърз и видим.</p>
+                    <p style="margin-top:10px;">С лоста покриваш: набирания, австралийски набирания, вис (декомпресия на гръбначен стълб), коремни упражнения с вдигане на крака.</p>
+                    <div class="stat-pills">
+                        <span class="stat-pill green">~25–45 лв</span>
+                        <span class="stat-pill green">Без пробиване</span>
+                        <span class="stat-pill green">Най-добрият гръб/бицепс</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item green">
+            <div class="accordion-header">
+                <h3>⬛ Постелка (yoga/fitness mat)</h3>
+                <span class="accordion-arrow">▼</span>
+            </div>
+            <div class="accordion-body">
+                <div class="accordion-body-inner">
+                    <p>Позволява всяка подова тренировка без болки в ставите — лицеви, планк, корем, стречинг. Необходима база за всичко останало. Свива се и стои зад вратата.</p>
+                    <div class="stat-pills">
+                        <span class="stat-pill green">~15–30 лв</span>
+                        <span class="stat-pill green">Задължителна основа</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="info-box mt-24">
+        <h3>💡 С тези 4 уреда покриваш:</h3>
+        <p style="margin-top:8px;">Цял горен дял · Цял долен дял · Корем · Кардио (HIIT) · Стречинг</p>
+        <p style="margin-top:8px; color:var(--muted);">Обща инвестиция: ~100 лв. Фитнес абонамент: ~50 лв/месец. Изплащат се за 2 месеца — и след това тренираш безплатно завинаги.</p>
+    </div>
+</section>
+
 <!-- 4. Крачки -->
 <section>
     <div class="section-title">
-        <h2>Крачки</h2>
+        <h2 data-i18n="m.s5.h2">Крачки</h2>
         <p class="section-subtitle">Най-подценяваното движение</p>
     </div>
 
@@ -269,20 +352,86 @@
 <!-- 5. Мускули -->
 <section>
     <div class="section-title">
-        <h2>Мускулите не чакат</h2>
-        <p class="section-subtitle">Какво се случва без тренировки</p>
+        <h2>Мускулите — невидимият орган</h2>
+        <p class="section-subtitle">Не само за да изглеждаш. За да живееш.</p>
     </div>
 
-    <p>След 30-тата година губиш <strong>3-5% мускулна маса</strong> на десетилетие. Без тренировки — до 60-тата вече си загубил 20% от силата си.</p>
+    <p>Мускулната маса не е само естетика — тя е <strong>метаболитен орган, инсулинов буфер и предиктор за дълголетие</strong>. Хората с повече мускули живеят по-дълго, боледуват по-малко и остаряват по-добре.</p>
 
-    <div class="cards-grid mt-24">
-        <div class="stat-card">
-            <div class="stat-number">3-5%</div>
-            <div class="stat-label">мускулна маса губиш на декада след 30</div>
+    <div class="accordion mt-24">
+        <div class="accordion-item green">
+            <div class="accordion-header">
+                <h3>📉 Без тренировки — тялото се разпада бавно</h3>
+                <span class="accordion-arrow">▼</span>
+            </div>
+            <div class="accordion-body">
+                <div class="accordion-body-inner">
+                    <p>След 30-тата година губиш <strong>3–5% мускулна маса на десетилетие</strong> — без да правиш нищо активно. Това е саркопения: бавна, невидима загуба на сила и функция.</p>
+                    <p class="mt-8">На 60 без тренировки вече си загубил ~20% от силата си. На 70+ — паданията и фрактурите стават реален риск. Загубата на мускули ускорява диабета, отслабва имунната система и намалява костната плътност.</p>
+                    <div class="research">
+                        <strong>JAMA Internal Medicine, 2014 (Srikanthan & Karlamangla)</strong><br>
+                        По-висок мускулен индекс е свързан с 20% по-ниска обща смъртност — независимо от теглото и мастната маса.
+                    </div>
+                    <div class="stat-pills mt-16">
+                        <span class="stat-pill red">−3–5% мускули на декада след 30</span>
+                        <span class="stat-pill red">−20% сила до 60г без тренировки</span>
+                        <span class="stat-pill">Саркопения ускорява диабет и деменция</span>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="stat-card green">
-            <div class="stat-number">∞</div>
-            <div class="stat-label">възраст за начало — мускулите растат на всяка</div>
+
+        <div class="accordion-item green">
+            <div class="accordion-header">
+                <h3>🚶 Ходенето само по себе си НЕ е достатъчно</h3>
+                <span class="accordion-arrow">▼</span>
+            </div>
+            <div class="accordion-body">
+                <div class="accordion-body-inner">
+                    <p>Разходките са страхотни за сърдечно-съдовата система и психиката. Но те <strong>не спират загубата на мускулна маса</strong>. Мускулите се поддържат само с прогресивно натоварване — тежести или телесно тегло с прогресия.</p>
+                    <p class="mt-8">Ако ходиш 10 000 крачки на ден, но не вдигаш тежести — все още губиш мускули. Кардиото и силовите тренировки имат различни, <strong>невзаимозаменяеми</strong> ефекти. Трябват и двете.</p>
+                    <div class="research">
+                        <strong>British Journal of Sports Medicine, 2022</strong><br>
+                        Силовите тренировки намаляват смъртността с 10–17%, независимо от количеството аеробна активност. Само ходенето не компенсира липсата на съпротивителни тренировки.
+                    </div>
+                    <div class="stat-pills mt-16">
+                        <span class="stat-pill amber">10 000 крачки ≠ мускулна маса</span>
+                        <span class="stat-pill green">Кардио + силови = оптимална комбинация</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item green">
+            <div class="accordion-header">
+                <h3>💪 Защо мускулите са толкова важни</h3>
+                <span class="accordion-arrow">▼</span>
+            </div>
+            <div class="accordion-body">
+                <div class="accordion-body-inner">
+                    <p>Мускулната тъкан е <strong>основният консуматор на глюкоза</strong> в тялото — при контракция (движение) поема захарта без нужда от инсулин. Повече мускули = по-добра инсулинова чувствителност = по-нисък риск от диабет тип 2.</p>
+                    <p class="mt-8">Мускулите горят калории дори когато спиш — 1 кг мускул изгаря ~13 kcal/ден в покой срещу ~4 kcal за 1 кг мазнина. Повече мускули = по-бърз базален метаболизъм.</p>
+                    <div class="research">
+                        <strong>Sports Medicine, 2023 (Meta-analysis, 1.5M участника)</strong><br>
+                        Силовите тренировки намаляват риска от диабет тип 2 с 32%, подобряват инсулиновата чувствителност с 25–30% след само 8 седмици и намаляват висцералната мазнина с ~5%.
+                    </div>
+                    <table class="food-table mt-16">
+                        <thead><tr><th>Ефект от редовни силови тренировки</th><th>Промяна</th></tr></thead>
+                        <tbody>
+                            <tr><td>Инсулинова чувствителност</td><td><em class="green">+25–30%</em></td></tr>
+                            <tr><td>Базален метаболизъм</td><td><em class="green">+200–400 kcal/ден</em></td></tr>
+                            <tr><td>Риск от диабет тип 2</td><td><em class="green">−32%</em></td></tr>
+                            <tr><td>Костна плътност</td><td><em class="green">Значително увеличена</em></td></tr>
+                            <tr><td>Обща смъртност</td><td><em class="green">−20%</em></td></tr>
+                        </tbody>
+                    </table>
+                    <div class="stat-pills mt-16">
+                        <span class="stat-pill green">Мускулите растат на всяка възраст</span>
+                        <span class="stat-pill green">2 × /седмица е достатъчно</span>
+                        <span class="stat-pill green">Без фитнес — вкъщи работи също</span>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
@@ -309,6 +458,10 @@
 
     <a href="eat.html" class="btn btn-green">Виж какво да ядеш →</a>
 </section>
+
+<footer class="site-footer">
+    Направено от <a href="mailto:ivvmilev@gmail.com">Иван Милев</a> · ivvmilev@gmail.com
+</footer>
 
 <script src="js/main.js"></script>
 </body>

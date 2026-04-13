@@ -3581,5 +3581,915 @@
     "kcal": 153,
     "ingredients": "Carottes* 24%, eau, lentilles vertes* 14%, riz basmati* complet 12%, oignons* 12%, huile de tournesol*, protéines de _soja_* texturées et réhydratées 6%, sauce _soja_* (eau, _soja_*, _blé_*, sel de mer, alcool*).\r\n\r\n* Ingrédients issus de l'agriculture biologique",
     "source": "openfoodfacts"
+  },
+  "v2:legume:леща фамилекс екстра 500гр": {
+    "p": 6.4,
+    "f": 6.4,
+    "c": 13.0,
+    "kcal": 153,
+    "ingredients": "Carottes* 24%, eau, lentilles vertes* 14%, riz basmati* complet 12%, oignons* 12%, huile de tournesol*, protéines de _soja_* texturées et réhydratées 6%, sauce _soja_* (eau, _soja_*, _blé_*, sel de mer, alcool*).\r\n\r\n* Ingrédients issus de l'agriculture biologique",
+    "source": "openfoodfacts"
+  },
+  "v2:legume:леща крина екстра": null,
+  "v2:grain:ориз well done басмати": {
+    "p": 8.5,
+    "f": 2.7,
+    "c": 82.3,
+    "kcal": 186,
+    "ingredients": "Organic wholegrain _rice_ 99.8%, Sea Salt",
+    "source": "openfoodfacts"
+  },
+  "v2:legume:леща народен вкус гр.": {
+    "p": 6.4,
+    "f": 6.4,
+    "c": 13.0,
+    "kcal": 153,
+    "ingredients": "Carottes* 24%, eau, lentilles vertes* 14%, riz basmati* complet 12%, oignons* 12%, huile de tournesol*, protéines de _soja_* texturées et réhydratées 6%, sauce _soja_* (eau, _soja_*, _blé_*, sel de mer, alcool*).\r\n\r\n* Ingrédients issus de l'agriculture biologique",
+    "source": "openfoodfacts"
+  },
+  "v2:legume:леща fiorre екстра": {
+    "p": 6.4,
+    "f": 6.4,
+    "c": 13.0,
+    "kcal": 153,
+    "ingredients": "Carottes* 24%, eau, lentilles vertes* 14%, riz basmati* complet 12%, oignons* 12%, huile de tournesol*, protéines de _soja_* texturées et réhydratées 6%, sauce _soja_* (eau, _soja_*, _blé_*, sel de mer, alcool*).\r\n\r\n* Ingrédients issus de l'agriculture biologique",
+    "source": "openfoodfacts"
+  },
+  "v2:grain:ориз fiorre класик": {
+    "p": 8.5,
+    "f": 0.6,
+    "c": 75.0,
+    "kcal": 339,
+    "ingredients": "ориз",
+    "source": "openfoodfacts"
+  },
+  "v2:grain:ориз boil in bag крина жасмин": {
+    "p": 8.5,
+    "f": 2.7,
+    "c": 82.3,
+    "kcal": 186,
+    "ingredients": "Organic wholegrain _rice_ 99.8%, Sea Salt",
+    "source": "openfoodfacts"
+  },
+  "v2:legume:боб кръстев народен 500гр": null,
+  "v2:legume:боб кръстев екстра гр.": {
+    "p": 4.7,
+    "f": 0.2,
+    "c": 12.9,
+    "kcal": 76,
+    "ingredients": "Beans (50%), Tomatoes (36%), Water, Sugar, Modified Cornflour, Salt, Spice Extracts , Herb Extract",
+    "source": "openfoodfacts"
+  },
+  "v2:grain:ориз фамилекс бланширан .": {
+    "p": 8.5,
+    "f": 2.7,
+    "c": 82.3,
+    "kcal": 186,
+    "ingredients": "Organic wholegrain _rice_ 99.8%, Sea Salt",
+    "source": "openfoodfacts"
+  },
+  "v2:legume:боб крина екстра": {
+    "p": 4.7,
+    "f": 0.2,
+    "c": 12.9,
+    "kcal": 76,
+    "ingredients": "Beans (50%), Tomatoes (36%), Water, Sugar, Modified Cornflour, Salt, Spice Extracts , Herb Extract",
+    "source": "openfoodfacts"
+  },
+  "v2:grain:ориз fiorre български": {
+    "p": 8.5,
+    "f": 2.7,
+    "c": 82.3,
+    "kcal": 186,
+    "ingredients": "Organic wholegrain _rice_ 99.8%, Sea Salt",
+    "source": "openfoodfacts"
+  },
+  "v2:legume:боб крина традиционен": null,
+  "v2:grain:ориз кръстев бисерен": {
+    "p": 8.5,
+    "f": 2.7,
+    "c": 82.3,
+    "kcal": 186,
+    "ingredients": "Organic wholegrain _rice_ 99.8%, Sea Salt",
+    "source": "openfoodfacts"
+  },
+  "v2:grain:ориз well done за суши": null,
+  "v2:legume:боб fiorre салатен 400гр.": {
+    "p": 4.7,
+    "f": 0.2,
+    "c": 12.9,
+    "kcal": 76,
+    "ingredients": "Beans (50%), Tomatoes (36%), Water, Sugar, Modified Cornflour, Salt, Spice Extracts , Herb Extract",
+    "source": "openfoodfacts"
+  },
+  "v2:grain:ориз крина boil in bag бланширан": null,
+  "v2:grain:ориз кръстев екстра,": null,
+  "v2:grain:киноа фамилекс": null,
+  "v2:grain:ориз крина български": null,
+  "v2:grain:ориз fiorre бисерен": null,
+  "v2:grain:ориз крина перлен": null,
+  "v2:grain:ориз крина баланс": {
+    "p": 8.5,
+    "f": 2.7,
+    "c": 82.3,
+    "kcal": 186,
+    "ingredients": "Organic wholegrain _rice_ 99.8%, Sea Salt",
+    "source": "openfoodfacts"
+  },
+  "v2:grain:ориз крина бланширан": {
+    "p": 8.5,
+    "f": 2.7,
+    "c": 82.3,
+    "kcal": 186,
+    "ingredients": "Organic wholegrain _rice_ 99.8%, Sea Salt",
+    "source": "openfoodfacts"
+  },
+  "v2:grain:ориз крина европа": {
+    "p": 8.5,
+    "f": 2.7,
+    "c": 82.3,
+    "kcal": 186,
+    "ingredients": "Organic wholegrain _rice_ 99.8%, Sea Salt",
+    "source": "openfoodfacts"
+  },
+  "v2:grain:ориз крина ризон": {
+    "p": 8.5,
+    "f": 2.7,
+    "c": 82.3,
+    "kcal": 186,
+    "ingredients": "Organic wholegrain _rice_ 99.8%, Sea Salt",
+    "source": "openfoodfacts"
+  },
+  "v2:legume:бял боб .": {
+    "p": 4.7,
+    "f": 0.2,
+    "c": 12.9,
+    "kcal": 76,
+    "ingredients": "Beans (50%), Tomatoes (36%), Water, Sugar, Modified Cornflour, Salt, Spice Extracts , Herb Extract",
+    "source": "openfoodfacts"
+  },
+  "v2:vegetable:картофено пюре naturale foods 4х100 гр.": null,
+  "v2:grain:ориз house of asia за суши": null,
+  "v2:legume:боб izzi бял екстра елит .": {
+    "p": 20.7,
+    "f": 0.9,
+    "c": 57.2,
+    "kcal": 336,
+    "ingredients": "БЯЛ БОБ",
+    "source": "openfoodfacts"
+  },
+  "v2:nuts:чиа фамилекс": null,
+  "v2:grain:ориз крина басмати": null,
+  "v2:legume:боб кръстев екстра": {
+    "p": 4.7,
+    "f": 0.2,
+    "c": 12.9,
+    "kcal": 76,
+    "ingredients": "Beans (50%), Tomatoes (36%), Water, Sugar, Modified Cornflour, Salt, Spice Extracts , Herb Extract",
+    "source": "openfoodfacts"
+  },
+  "v2:legume:боб имало едно време": null,
+  "v2:protein:риба тон elabo парченца собст.сос": null,
+  "v2:protein:риба тон elabo парченца раст.масло": null,
+  "v2:canned:скумрия котлет русалка подлютен сос": {
+    "p": 30.1,
+    "f": 15.6,
+    "c": 0.6,
+    "kcal": 180,
+    "ingredients": "Maquereaux, huile de soya, sel.",
+    "source": "openfoodfacts"
+  },
+  "v2:canned:скумрия котлет русалка доматен сос": {
+    "p": 30.1,
+    "f": 15.6,
+    "c": 0.6,
+    "kcal": 180,
+    "ingredients": "Maquereaux, huile de soya, sel.",
+    "source": "openfoodfacts"
+  },
+  "v2:protein:риба тон филе di alba в собствен сос": {
+    "p": 21.0,
+    "f": 18.0,
+    "c": 0.9,
+    "kcal": 245,
+    "ingredients": "Atún claro (pescado), aceite de oliva y sal.",
+    "source": "openfoodfacts"
+  },
+  "v2:protein:филе аншоа в олио": null,
+  "v2:protein:риба тон филе di alba в олио": {
+    "p": 21.0,
+    "f": 18.0,
+    "c": 0.9,
+    "kcal": 245,
+    "ingredients": "Atún claro (pescado), aceite de oliva y sal.",
+    "source": "openfoodfacts"
+  },
+  "v2:protein:разбит хайвер натурален океан гр.": null,
+  "v2:protein:хайвер океан гръцки разбит гр.": null,
+  "v2:vegetable:копърка русалка в доматен сос": null,
+  "v2:protein:риба тон happy sea парченца в олио гр.": {
+    "p": 21.0,
+    "f": 18.0,
+    "c": 0.9,
+    "kcal": 245,
+    "ingredients": "Atún claro (pescado), aceite de oliva y sal.",
+    "source": "openfoodfacts"
+  },
+  "v2:protein:риба тон happy sea парченца в собствен сос гр.": null,
+  "v2:canned:скумрия русалка ропотамо": {
+    "p": 30.1,
+    "f": 15.6,
+    "c": 0.6,
+    "kcal": 180,
+    "ingredients": "Maquereaux, huile de soya, sel.",
+    "source": "openfoodfacts"
+  },
+  "v2:canned:скумрия русалка подлютен доматен сос": {
+    "p": 30.1,
+    "f": 15.6,
+    "c": 0.6,
+    "kcal": 180,
+    "ingredients": "Maquereaux, huile de soya, sel.",
+    "source": "openfoodfacts"
+  },
+  "v2:canned:скумрия русалка в доматен сос": {
+    "p": 12.0,
+    "f": 2.7,
+    "c": 1.7,
+    "kcal": 81,
+    "ingredients": null,
+    "source": "openfoodfacts"
+  },
+  "v2:canned:скумрия di nea пикант в подлютен доматен сос": {
+    "p": 30.1,
+    "f": 15.6,
+    "c": 0.6,
+    "kcal": 180,
+    "ingredients": "Maquereaux, huile de soya, sel.",
+    "source": "openfoodfacts"
+  },
+  "v2:canned:скумрия di nea закуска със зеленчуци": null,
+  "v2:canned:скумрия di nea в доматен сос": {
+    "p": 10.0,
+    "f": 6.7,
+    "c": 3.4,
+    "kcal": 114,
+    "ingredients": null,
+    "source": "openfoodfacts"
+  },
+  "v2:canned:скумрия котлет русалка салата с боб": null,
+  "v2:grain:рибен продукт, пастьоризиран, от есетрови риби гр.": null,
+  "v2:canned:рибен продукт пастьоризиран от сьомга": {
+    "p": 8.0,
+    "f": 8.9,
+    "c": 6.9,
+    "kcal": 144,
+    "ingredients": "Pommes de terre 40%, _saumon_ atlantique* , _saumon_ argenté du Pacifique* 25%, _crème_ légère 9,5%, oignons, _lait_ demi-écrémé, poireaux 3,7%, huile de tournesol, _beurre_, fécule de manioc, sel, _œufs_,  citron 0,1%, persil, ail, poivre, curcuma.",
+    "source": "openfoodfacts"
+  },
+  "v2:protein:черен крем рибанов гр.": null,
+  "v2:protein:червен крем рибанов гр.": null,
+  "v2:protein:филе риба тон продекс 85гр": {
+    "p": 21.0,
+    "f": 18.0,
+    "c": 0.9,
+    "kcal": 245,
+    "ingredients": "Atún claro (pescado), aceite de oliva y sal.",
+    "source": "openfoodfacts"
+  },
+  "v2:protein:тарама хайвер олинеза": null,
+  "v2:canned:скумрия di nea специален доматен сос": {
+    "p": 30.1,
+    "f": 15.6,
+    "c": 0.6,
+    "kcal": 180,
+    "ingredients": "Maquereaux, huile de soya, sel.",
+    "source": "openfoodfacts"
+  },
+  "v2:canned:скумрия compass рибна салата": {
+    "p": 11.0,
+    "f": 6.7,
+    "c": 6.8,
+    "kcal": 132,
+    "ingredients": "рибно филе от скумрия 36%, доматен сос 31% (вода, доматено пюре, захар, растително слънчогледово масло, сол, модифицирано картофено нишесте, подправки), боб, кисели краставички, капия.",
+    "source": "openfoodfacts"
+  },
+  "v2:protein:скумрия филе compass доматен сос": {
+    "p": 30.1,
+    "f": 15.6,
+    "c": 0.6,
+    "kcal": 180,
+    "ingredients": "Maquereaux, huile de soya, sel.",
+    "source": "openfoodfacts"
+  },
+  "v2:protein:скумрия филе compass в олио": {
+    "p": 30.1,
+    "f": 15.6,
+    "c": 0.6,
+    "kcal": 180,
+    "ingredients": "Maquereaux, huile de soya, sel.",
+    "source": "openfoodfacts"
+  },
+  "v2:protein:сельодка натурална хапки океан": {
+    "p": 17.0,
+    "f": 12.0,
+    "c": 0.0,
+    "kcal": 177,
+    "ingredients": "Hareng, sel 4%.",
+    "source": "openfoodfacts"
+  },
+  "v2:vegetable:несебърска салата гр.": null,
+  "v2:canned:рибна салата диавена скумрия със зеленчуци": {
+    "p": 30.1,
+    "f": 15.6,
+    "c": 0.6,
+    "kcal": 180,
+    "ingredients": "Maquereaux, huile de soya, sel.",
+    "source": "openfoodfacts"
+  },
+  "v2:protein:скумрия филе диавена в доматен сос": {
+    "p": 11.9,
+    "f": 7.3,
+    "c": 2.7,
+    "kcal": 124,
+    "ingredients": "Скумрия филе 60%, доматен сос 40% (вода, доматен концентрат, рафинирано слънчогледово масло, сол, захар, царевично нишесте, модифицирано картофено нишесте, подправки).",
+    "source": "openfoodfacts"
+  },
+  "v2:protein:риба тон elabo в собствен сос .": {
+    "p": 21.0,
+    "f": 18.0,
+    "c": 0.9,
+    "kcal": 245,
+    "ingredients": "Atún claro (pescado), aceite de oliva y sal.",
+    "source": "openfoodfacts"
+  },
+  "v2:protein:риба тон ocean в растително масло гр.": null,
+  "v2:protein:риба тон ocean парченца в собствен сос гр.": null,
+  "v2:canned:скумрия di nea закуска": {
+    "p": 30.1,
+    "f": 15.6,
+    "c": 0.6,
+    "kcal": 180,
+    "ingredients": "Maquereaux, huile de soya, sel.",
+    "source": "openfoodfacts"
+  },
+  "v2:canned:скумрия di nea подлютен доматен сос": {
+    "p": 10.0,
+    "f": 6.7,
+    "c": 3.4,
+    "kcal": 114,
+    "ingredients": "Скумрия 50%, доматен сос 50% (вода, доматен концентрат, рафинирано слънчогледово масло, сол, захар, царевично нишесте, модифицирано картофено нишесте, подправки, капсацин).",
+    "source": "openfoodfacts"
+  },
+  "v2:protein:риба тон compass филе в олио,": null,
+  "v2:protein:риба тон compass филе в собствен сос": {
+    "p": 22.0,
+    "f": 0.6,
+    "c": 0.0,
+    "kcal": 91,
+    "ingredients": "риба тон 70%, вода, сол.",
+    "source": "openfoodfacts"
+  },
+  "v2:protein:филе херинга salmaris пикантно гр.": null,
+  "v2:protein:филе херинга salmaris с лимон гр.": null,
+  "v2:protein:пушен дроб bornholms от треска": null,
+  "v2:protein:херинга филе матиас класическо": null,
+  "v2:protein:херинга филе матиас салмон опушено": null,
+  "v2:protein:риба тон elabo филе в маслиново масло гр.": {
+    "p": 21.0,
+    "f": 18.0,
+    "c": 0.9,
+    "kcal": 245,
+    "ingredients": "Atún claro (pescado), aceite de oliva y sal.",
+    "source": "openfoodfacts"
+  },
+  "v2:protein:риба тон ocean филе в чеснов сос": {
+    "p": 21.0,
+    "f": 18.0,
+    "c": 0.9,
+    "kcal": 245,
+    "ingredients": "Atún claro (pescado), aceite de oliva y sal.",
+    "source": "openfoodfacts"
+  },
+  "v2:protein:риба тон ocean филе лимон, ч. пипер": {
+    "p": 21.0,
+    "f": 18.0,
+    "c": 0.9,
+    "kcal": 245,
+    "ingredients": "Atún claro (pescado), aceite de oliva y sal.",
+    "source": "openfoodfacts"
+  },
+  "v2:protein:аншоа ocean филе в растително масло": null,
+  "v2:protein:миди по несебърски морски риболов": null,
+  "v2:protein:сельодка vici филе розова": {
+    "p": 17.0,
+    "f": 12.0,
+    "c": 0.0,
+    "kcal": 177,
+    "ingredients": "Hareng, sel 4%.",
+    "source": "openfoodfacts"
+  },
+  "v2:protein:риба тон di alba филе маслиново масло гр.": {
+    "p": 21.0,
+    "f": 18.0,
+    "c": 0.9,
+    "kcal": 245,
+    "ingredients": "Atún claro (pescado), aceite de oliva y sal.",
+    "source": "openfoodfacts"
+  },
+  "v2:protein:риба тон ocean филе в растително масло": {
+    "p": 21.0,
+    "f": 18.0,
+    "c": 0.9,
+    "kcal": 245,
+    "ingredients": "Atún claro (pescado), aceite de oliva y sal.",
+    "source": "openfoodfacts"
+  },
+  "v2:protein:риба тон ocean филе в собствен сос .": {
+    "p": 24.0,
+    "f": 1.0,
+    "c": 0.0,
+    "kcal": 110,
+    "ingredients": "Puбa moн (Katsuwonus pelamis) 70%, Boga 29.2%,сол 0.8%.",
+    "source": "openfoodfacts"
+  },
+  "v2:protein:сельодка по домашна рецепта starfish гр.": null,
+  "v2:protein:риба тон ocean филе в маслиново масло гр.": null,
+  "v2:protein:риба тон rio mare в маслиново олио 160гр": {
+    "p": 21.0,
+    "f": 18.0,
+    "c": 0.9,
+    "kcal": 245,
+    "ingredients": "Atún claro (pescado), aceite de oliva y sal.",
+    "source": "openfoodfacts"
+  },
+  "v2:protein:rio mare риба тон натюр гр.": {
+    "p": 21.0,
+    "f": 18.0,
+    "c": 0.9,
+    "kcal": 245,
+    "ingredients": "Atún claro (pescado), aceite de oliva y sal.",
+    "source": "openfoodfacts"
+  },
+  "v2:protein:риба тон di alba филе маслиново масло": {
+    "p": 21.0,
+    "f": 18.0,
+    "c": 0.9,
+    "kcal": 245,
+    "ingredients": "Atún claro (pescado), aceite de oliva y sal.",
+    "source": "openfoodfacts"
+  },
+  "v2:protein:риба тон di alba филе собствен сос": {
+    "p": 21.0,
+    "f": 18.0,
+    "c": 0.9,
+    "kcal": 245,
+    "ingredients": "Atún claro (pescado), aceite de oliva y sal.",
+    "source": "openfoodfacts"
+  },
+  "v2:protein:риба тон rio mare натюр 2х160 гр.": {
+    "p": 21.0,
+    "f": 18.0,
+    "c": 0.9,
+    "kcal": 245,
+    "ingredients": "Atún claro (pescado), aceite de oliva y sal.",
+    "source": "openfoodfacts"
+  },
+  "v2:protein:сельодка натурална, кг.": null,
+  "v2:legume:консeрвиран боб favorit печен": null,
+  "v2:canned:консервиран бял боб favorit": {
+    "p": 4.7,
+    "f": 0.2,
+    "c": 12.9,
+    "kcal": 76,
+    "ingredients": "Beans (50%), Tomatoes (36%), Water, Sugar, Modified Cornflour, Salt, Spice Extracts , Herb Extract",
+    "source": "openfoodfacts"
+  },
+  "v2:vegetable:домати donna pupetta цели,белени": null,
+  "v2:vegetable:домати donna pupetta цели, белени": null,
+  "v2:vegetable:домати на кубчета novi": null,
+  "v2:vegetable:доматено пюре well done": null,
+  "v2:legume:сладка царевица campese гр.": null,
+  "v2:legume:царевица сладка well done": {
+    "p": 2.9,
+    "f": 2.4,
+    "c": 12.0,
+    "kcal": 89,
+    "ingredients": "Сладка царевица, вода, сол.",
+    "source": "openfoodfacts"
+  },
+  "v2:canned:консервиран боб favorit маслен .": {
+    "p": 4.7,
+    "f": 0.2,
+    "c": 12.9,
+    "kcal": 76,
+    "ingredients": "Beans (50%), Tomatoes (36%), Water, Sugar, Modified Cornflour, Salt, Spice Extracts , Herb Extract",
+    "source": "openfoodfacts"
+  },
+  "v2:vegetable:чушки люти jalapeno рязани": null,
+  "v2:vegetable:доматено пюре % philicon": {
+    "p": 1.5,
+    "f": 0.1,
+    "c": 3.9,
+    "kcal": 24,
+    "ingredients": "Домати, сол 0,2%,",
+    "source": "openfoodfacts"
+  },
+  "v2:vegetable:домати pummaro пасирани гр.": null,
+  "v2:legume:царевица favorit .": {
+    "p": 2.9,
+    "f": 2.4,
+    "c": 12.0,
+    "kcal": 89,
+    "ingredients": "сладка царевица (93 %), вода, сол",
+    "source": "openfoodfacts"
+  },
+  "v2:legume:грах favorit easy open": null,
+  "v2:vegetable:домати fiorre на кубчета 400гр": null,
+  "v2:vegetable:чушки люти well done рязани гр": null,
+  "v2:vegetable:домати philicon белени на кубчета": {
+    "p": 1.3,
+    "f": 0.0,
+    "c": 3.5,
+    "kcal": 19,
+    "ingredients": "Домати, регулатор на киселинността: лимонена киселина.",
+    "source": "openfoodfacts"
+  },
+  "v2:vegetable:домати favorit белени .": null,
+  "v2:vegetable:домати favorit с босилек .": null,
+  "v2:vegetable:домати favorit нарязани .": null,
+  "v2:vegetable:домати well done белени и наразяни с босилек": null,
+  "v2:vegetable:домати well done цели, белени": null,
+  "v2:vegetable:домати well done нарязани, белени": null,
+  "v2:legume:боб микс от вида campese гр.": {
+    "p": 4.7,
+    "f": 0.2,
+    "c": 12.9,
+    "kcal": 76,
+    "ingredients": "Beans (50%), Tomatoes (36%), Water, Sugar, Modified Cornflour, Salt, Spice Extracts , Herb Extract",
+    "source": "openfoodfacts"
+  },
+  "v2:legume:печен боб в доматен сос campese гр.": {
+    "p": 4.7,
+    "f": 0.2,
+    "c": 12.9,
+    "kcal": 76,
+    "ingredients": "Beans (50%), Tomatoes (36%), Water, Sugar, Modified Cornflour, Salt, Spice Extracts , Herb Extract",
+    "source": "openfoodfacts"
+  },
+  "v2:legume:червен боб campese гр.": null,
+  "v2:legume:нахут campese гр.": {
+    "p": 6.3,
+    "f": 2.4,
+    "c": 15.0,
+    "kcal": 117,
+    "ingredients": "Kichererbsen, Wasser, Speisesalz.",
+    "source": "openfoodfacts"
+  },
+  "v2:vegetable:домати russo рязани кубчетa 400гр": null,
+  "v2:vegetable:доматено пюре % .": {
+    "p": 1.4,
+    "f": 0.5,
+    "c": 4.2,
+    "kcal": 27,
+    "ingredients": "Домати (99.5%), сол, регулатор на киселинност. лимонена киселина.",
+    "source": "openfoodfacts"
+  },
+  "v2:legume:грах extra line гр": null,
+  "v2:legume:царевица extra line гр": null,
+  "v2:legume:царевица well done сладка гр.": null,
+  "v2:legume:фасул каликонс зелен гр.": {
+    "p": 4.7,
+    "f": 0.2,
+    "c": 12.9,
+    "kcal": 76,
+    "ingredients": "Beans (50%), Tomatoes (36%), Water, Sugar, Modified Cornflour, Salt, Spice Extracts , Herb Extract",
+    "source": "openfoodfacts"
+  },
+  "v2:legume:грах каликонс зелен гр.": null,
+  "v2:vegetable:червено цвекло well done мариновано": null,
+  "v2:legume:нахут кръстев буркан": {
+    "p": 6.3,
+    "f": 2.4,
+    "c": 15.0,
+    "kcal": 117,
+    "ingredients": "Kichererbsen, Wasser, Speisesalz.",
+    "source": "openfoodfacts"
+  },
+  "v2:legume:варен боб кръстев": {
+    "p": 4.7,
+    "f": 0.2,
+    "c": 12.9,
+    "kcal": 76,
+    "ingredients": "Beans (50%), Tomatoes (36%), Water, Sugar, Modified Cornflour, Salt, Spice Extracts , Herb Extract",
+    "source": "openfoodfacts"
+  },
+  "v2:legume:грах extra line": null,
+  "v2:canned:домати cirio белени консервирани 4oo гр.": null,
+  "v2:vegetable:домати cirio рязани конс. e.o.": null,
+  "v2:legume:царевица fiorre сладка - кутия": null,
+  "v2:vegetable:домати на кубчета campese гр.": null,
+  "v2:vegetable:домати цели белени campese гр.": null,
+  "v2:vegetable:доматено пюре cirio тетра гр.": null,
+  "v2:canned:сладка царевица campese консерва 340гр": null,
+  "v2:canned:грах campese консерва 420гр": null,
+  "v2:vegetable:зеленчуков микс в чили сос globus": null,
+  "v2:legume:грах well done зелен 400гр": null,
+  "v2:vegetable:люти чушки fiorre рибка бяла гр.": null,
+  "v2:legume:варен нахут divella гр.": {
+    "p": 6.3,
+    "f": 2.4,
+    "c": 15.0,
+    "kcal": 117,
+    "ingredients": "Kichererbsen, Wasser, Speisesalz.",
+    "source": "openfoodfacts"
+  },
+  "v2:legume:царевица chef is... супер сладка": {
+    "p": 2.9,
+    "f": 2.4,
+    "c": 12.0,
+    "kcal": 89,
+    "ingredients": "Царевица, питейна вода, готварска сол",
+    "source": "openfoodfacts"
+  },
+  "v2:legume:грах chef is... млад": null,
+  "v2:legume:грах favorit": null,
+  "v2:legume:грах well done зелен гр.": null,
+  "v2:legume:царевица bonduelle": {
+    "p": 3.0,
+    "f": 1.3,
+    "c": 20.5,
+    "kcal": 112,
+    "ingredients": "Сладка царевица, вода, захар, сол.",
+    "source": "openfoodfacts"
+  },
+  "v2:vegetable:люти чушки ббп печени, белени": null,
+  "v2:legume:червен боб варен chef is": {
+    "p": 4.7,
+    "f": 0.2,
+    "c": 12.9,
+    "kcal": 76,
+    "ingredients": "Beans (50%), Tomatoes (36%), Water, Sugar, Modified Cornflour, Salt, Spice Extracts , Herb Extract",
+    "source": "openfoodfacts"
+  },
+  "v2:legume:бял фасул chef is": null,
+  "v2:legume:леща варена chef is": {
+    "p": 6.4,
+    "f": 6.4,
+    "c": 13.0,
+    "kcal": 153,
+    "ingredients": "Carottes* 24%, eau, lentilles vertes* 14%, riz basmati* complet 12%, oignons* 12%, huile de tournesol*, protéines de _soja_* texturées et réhydratées 6%, sauce _soja_* (eau, _soja_*, _blé_*, sel de mer, alcool*).\r\n\r\n* Ingrédients issus de l'agriculture biologique",
+    "source": "openfoodfacts"
+  },
+  "v2:legume:нахут варен chef is": {
+    "p": 6.3,
+    "f": 2.4,
+    "c": 15.0,
+    "kcal": 117,
+    "ingredients": "Kichererbsen, Wasser, Speisesalz.",
+    "source": "openfoodfacts"
+  },
+  "v2:vegetable:домати кубчета de cecco": null,
+  "v2:vegetable:домати de cecco пулпа гр.": null,
+  "v2:vegetable:люта чушка fiorre рибка пукана 290гр": null,
+  "v2:vegetable:домати белени de cecco": null,
+  "v2:legume:зрял боб със зеленчуци кръстев": {
+    "p": 4.7,
+    "f": 0.2,
+    "c": 12.9,
+    "kcal": 76,
+    "ingredients": "Beans (50%), Tomatoes (36%), Water, Sugar, Modified Cornflour, Salt, Spice Extracts , Herb Extract",
+    "source": "openfoodfacts"
+  },
+  "v2:vegetable:червено цвекло rolnik на ивици": null,
+  "v2:vegetable:гъби кръстев рязани гр.": null,
+  "v2:vegetable:гъби фамилекс рязани гр.": null,
+  "v2:vegetable:гъби фамилекс цели 280гр": null,
+  "v2:vegetable:сладко от ягоди extra line гр.": null,
+  "v2:legume:млечен зелен грах реколта гр.": null,
+  "v2:vegetable:компот fiorre череша гр.": null,
+  "v2:legume:бял фасул el tarro гр.": null,
+  "v2:vegetable:сладко от червени боровинки favorit гр.": null,
+  "v2:legume:зелен грах campese гр.": null,
+  "v2:legume:фасул fiorre жълт 680гр.": null,
+  "v2:legume:зелен фасул fiorre 680гр": {
+    "p": 4.7,
+    "f": 0.2,
+    "c": 12.9,
+    "kcal": 76,
+    "ingredients": "Beans (50%), Tomatoes (36%), Water, Sugar, Modified Cornflour, Salt, Spice Extracts , Herb Extract",
+    "source": "openfoodfacts"
+  },
+  "v2:vegetable:спанак d'aucy": {
+    "p": 3.4,
+    "f": 0.9,
+    "c": 1.5,
+    "kcal": 34,
+    "ingredients": "Спанак, вода, сол.",
+    "source": "openfoodfacts"
+  },
+  "v2:legume:фасул bonduelle зелен": {
+    "p": 1.2,
+    "f": 0.3,
+    "c": 3.6,
+    "kcal": 27,
+    "ingredients": "Нарязан зелен фасул, вода, сол",
+    "source": "openfoodfacts"
+  },
+  "v2:legume:бял фасул chef is със зеленчуци": {
+    "p": 4.7,
+    "f": 0.2,
+    "c": 12.9,
+    "kcal": 76,
+    "ingredients": "Beans (50%), Tomatoes (36%), Water, Sugar, Modified Cornflour, Salt, Spice Extracts , Herb Extract",
+    "source": "openfoodfacts"
+  },
+  "v2:canned:консервирани печени червени чушки renk": null,
+  "v2:grain:доматена паста divella едросмляна": null,
+  "v2:legume:грах bonduelle .": null,
+  "v2:legume:грах bonduelle": null,
+  "v2:vegetable:гъби кръстев цели гр.": null,
+  "v2:vegetable:доматено пюре campese гр.": null,
+  "v2:vegetable:сладко от малини well done": null,
+  "v2:vegetable:сладко от ягоди well done % цели ягоди": null,
+  "v2:vegetable:сладко well done от червени боровинки": null,
+  "v2:legume:бял фасул el tarro със зеленч.буркан": {
+    "p": 4.7,
+    "f": 0.2,
+    "c": 12.9,
+    "kcal": 76,
+    "ingredients": "Beans (50%), Tomatoes (36%), Water, Sugar, Modified Cornflour, Salt, Spice Extracts , Herb Extract",
+    "source": "openfoodfacts"
+  },
+  "v2:vegetable:гъби рязани кръстев": null,
+  "v2:vegetable:доматено пюре рустик campese гр.": null,
+  "v2:protein:риба тон elabo в раст.масло .": {
+    "p": 21.0,
+    "f": 18.0,
+    "c": 0.9,
+    "kcal": 245,
+    "ingredients": "Atún claro (pescado), aceite de oliva y sal.",
+    "source": "openfoodfacts"
+  },
+  "v2:vegetable:ловджийска салата fiorre 680гр": null,
+  "v2:vegetable:сладко от боровинки well done % цели боровинки": null,
+  "v2:vegetable:мексиканска салата олинеза гр.": null,
+  "v2:vegetable:гъби fiorre рязани гр.": null,
+  "v2:grain:доматена паста divella passata di pomodoro гр.": null,
+  "v2:canned:грах campese консерва гр.": null,
+  "v2:vegetable:сушени домати в олио well done": null,
+  "v2:vegetable:тиквички vibo в доматен сос 520гр": null,
+  "v2:vegetable:сушени домати в олио polli 285гр.": null,
+  "v2:vegetable:флап джак bw ягодов чийзкейк гр.": null,
+  "v2:grain:протеинов бар nature valley мед,овес гр.": {
+    "p": 11.0,
+    "f": 7.1,
+    "c": 58.0,
+    "kcal": 363,
+    "ingredients": "Flocons d'_avoine_ complète issue de l'agriculture biologique.",
+    "source": "openfoodfacts"
+  },
+  "v2:nuts:натурален бар sette en лешник и тахан": {
+    "p": 6.7,
+    "f": 34.0,
+    "c": 53.0,
+    "kcal": 551,
+    "ingredients": "sucre, _noisettes_ 20%, huiles végétales (tournesol, colza), _lait_ écrémé en poudre, cacao maigre en poudre 5,5%, beurre de cacao, émulsifiant : lécithine de tournesol, extrait de vanille, Peut contenir d'autres _fruits à coque_,",
+    "source": "openfoodfacts"
+  },
+  "v2:nuts:натурален бар сурова sette en кайсия и бадем": {
+    "p": 24.5,
+    "f": 53.3,
+    "c": 4.8,
+    "kcal": 621,
+    "ingredients": "shelled almonds",
+    "source": "openfoodfacts"
+  },
+  "v2:nuts:натурален бар sette en слива и бадем": {
+    "p": 24.5,
+    "f": 53.3,
+    "c": 4.8,
+    "kcal": 621,
+    "ingredients": "shelled almonds",
+    "source": "openfoodfacts"
+  },
+  "v2:nuts:натурален бар sette en смокиня и бадем": {
+    "p": 24.5,
+    "f": 53.3,
+    "c": 4.8,
+    "kcal": 621,
+    "ingredients": "shelled almonds",
+    "source": "openfoodfacts"
+  },
+  "v2:nuts:суров бар roobar чиа и кокос": null,
+  "v2:vegetable:курабийка курабийница ябълка, канела": null,
+  "v2:nuts:прот.бар go on крисп фъстък и карамел": null,
+  "v2:grain:овесен бар riceup порт/шок без захар/глут гр.": null,
+  "v2:grain:овесен бар riceup орех без захар/глут гр.": {
+    "p": 11.0,
+    "f": 7.1,
+    "c": 58.0,
+    "kcal": 363,
+    "ingredients": "Flocons d'_avoine_ complète issue de l'agriculture biologique.",
+    "source": "openfoodfacts"
+  },
+  "v2:grain:овесен бар rice up боровинки без захар/глутен гр.": {
+    "p": 11.0,
+    "f": 7.1,
+    "c": 58.0,
+    "kcal": 363,
+    "ingredients": "Flocons d'_avoine_ complète issue de l'agriculture biologique.",
+    "source": "openfoodfacts"
+  },
+  "v2:vegetable:flap jack fit spo ягодов чийзкейк": null,
+  "v2:vegetable:флап джак fit spo бял шок.с череша": null,
+  "v2:dairy:какаово масло dragon": {
+    "p": 0.0,
+    "f": 99.0,
+    "c": 0.0,
+    "kcal": 891,
+    "ingredients": "био какаово масло (100%)",
+    "source": "openfoodfacts"
+  },
+  "v2:dairy:кокосово масло dragon ev": null,
+  "v2:nuts:био меденка курабийница орехи": null,
+  "v2:dairy:био кисело мляко harmonica %": {
+    "p": 3.2,
+    "f": 3.6,
+    "c": 4.2,
+    "kcal": 62,
+    "ingredients": "Био краве мляко, закваска (Lactobacillus bulgaricus, Streptococcus thermophilus)",
+    "source": "openfoodfacts"
+  },
+  "v2:dairy:био кисело мляко harmonica ,%": {
+    "p": 3.2,
+    "f": 3.6,
+    "c": 4.2,
+    "kcal": 62,
+    "ingredients": "Био краве мляко, закваска (Lactobacillus bulgaricus, Streptococcus thermophilus)",
+    "source": "openfoodfacts"
+  },
+  "v2:grain:rice up био оризови бисквити чия и киноа 120гр": null,
+  "v2:grain:био брашно dragon от кокос": null,
+  "v2:grain:био елда био класа": {
+    "p": 13.0,
+    "f": 3.4,
+    "c": 72.0,
+    "kcal": 389,
+    "ingredients": "био елда",
+    "source": "openfoodfacts"
+  },
+  "v2:grain:био фузили granoro пълнозърнсети": null,
+  "v2:grain:био пене granoro пълнозърнсети": null,
+  "v2:grain:био спагети granoro": null,
+  "v2:nuts:био захар dragon кокосова": null,
+  "v2:vegetable:био конфитюр fior di frutta ягоди": null,
+  "v2:vegetable:био конфитюр fior di frutta боровинка": null,
+  "v2:protein:био яйца harmonica размер l, бр.": {
+    "p": 5.5,
+    "f": 21.0,
+    "c": 54.0,
+    "kcal": 419,
+    "ingredients": "Farine de blé 34%, huile de colza, sucre, oeufs 14%, stabilisant : glycérol, sirop de glucose, lait frais demi-écrémé pasteurisé 5%, poudres à lever: carbonates et citrates de sodium (blé), sel, arome.\r\nTraces éventuelles de fruits à coque, soja.",
+    "source": "openfoodfacts"
+  },
+  "v2:vegetable:био сироп harmonica малини": null,
+  "v2:vegetable:био сироп harmonica от ягода": null,
+  "v2:vegetable:заквасен соев продукт alpro без захар с манго,калций и витамини гр": null,
+  "v2:nuts:заквасен кокосов продукт alpro, страчатела гр.": null,
+  "v2:nuts:заквасен кокосов продукт alpro с малини гр.": null,
+  "v2:grain:just plants barista неподсладена напитка без глутен с % овес": {
+    "p": 11.0,
+    "f": 7.1,
+    "c": 58.0,
+    "kcal": 363,
+    "ingredients": "Flocons d'_avoine_ complète issue de l'agriculture biologique.",
+    "source": "openfoodfacts"
+  },
+  "v2:grain:just plants неподслaдена напитка без глутен с овес и кокос": null,
+  "v2:grain:just plants неподсладена напитка без глутен с овес": null,
+  "v2:grain:just plants овесено-бадемова неподсладена напитка без глутен": {
+    "p": 11.0,
+    "f": 7.1,
+    "c": 58.0,
+    "kcal": 363,
+    "ingredients": "Flocons d'_avoine_ complète issue de l'agriculture biologique.",
+    "source": "openfoodfacts"
+  },
+  "v2:grain:just plants barista неподсладена напитка без глутен с овес": {
+    "p": 11.0,
+    "f": 7.1,
+    "c": 58.0,
+    "kcal": 363,
+    "ingredients": "Flocons d'_avoine_ complète issue de l'agriculture biologique.",
+    "source": "openfoodfacts"
+  },
+  "v2:grain:напитка alpro кокос и ориз .": {
+    "p": 8.5,
+    "f": 2.7,
+    "c": 82.3,
+    "kcal": 186,
+    "ingredients": "Organic wholegrain _rice_ 99.8%, Sea Salt",
+    "source": "openfoodfacts"
   }
 }

@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NutriLife — Добавки</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/i18n.js"></script>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar">
+    <div class="container">
+        <a class="dot-wrapper" href="index.html"><span class="dot"></span><span class="dot-label" data-i18n="nav.excuses">Оправдания</span></a>
+        <a class="dot-wrapper" href="move.html"><span class="dot"></span><span class="dot-label" data-i18n="nav.move">Движение</span></a>
+        <a class="dot-wrapper" href="eat.html"><span class="dot"></span><span class="dot-label" data-i18n="nav.eat">Хранене</span></a>
+        <a class="dot-wrapper" href="cheap.html"><span class="dot"></span><span class="dot-label" data-i18n="nav.prices">Цени</span></a>
+        <a class="dot-wrapper" href="start.html"><span class="dot"></span><span class="dot-label" data-i18n="nav.start">Старт</span></a>
+        <a class="dot-wrapper" href="supplements.html"><span class="dot amber active"></span><span class="dot-label" data-i18n="nav.supplements">Добавки</span></a>
+        <a class="dot-wrapper" href="mental.html"><span class="dot purple"></span><span class="dot-label" data-i18n="nav.mental">Психично</span></a>
+    </div>
+</nav>
+
+<!-- 1. Hero -->
+<section class="hero">
+    <h1 data-i18n-html="sup.hero.h1">Добавки —<br>само ако <em class="green">основата е наред</em></h1>
+    <p data-i18n="sup.hero.p">Добавките не заместват храненето и тренировките. Те усилват вече работещо.</p>
+
+    <div class="info-box mt-24" style="border-color:var(--amber); background:var(--bg-card-red);">
+        <h3 style="color:var(--amber);">⚠️ Преди добавки — провери дали:</h3>
+        <p style="margin-top:8px;">✓ Ядеш 1.6г+ протеин/кг · ✓ Спиш 7–9 часа · ✓ Движиш се 150 мин/седмица · ✓ Пиеш 2л+ вода</p>
+        <p style="margin-top:8px; color:var(--muted);">Ако не — добавките са безполезни. Оправи основата първо.</p>
+    </div>
+</section>
+
+<!-- 2. Добавките -->
+<section>
+    <div class="section-title">
+        <h2>Основни добавки</h2>
+        <p class="section-subtitle">Доказани. Безопасни. Достъпни.</p>
+    </div>
+
+    <div class="accordion">
+
+        <!-- Креатин -->
+        <div class="accordion-item green">
+            <div class="accordion-header">
+                <h3>💪 Креатин монохидрат — Tier 1</h3>
+                <span class="accordion-arrow">▼</span>
+            </div>
+            <div class="accordion-body">
+                <div class="accordion-body-inner">
+                    <p><strong>Най-изследваната и доказана спортна добавка в историята.</strong> Увеличава запасите от АТФ (енергия на мускулите), което позволява повече повторения, по-тежки тежести, по-бързо възстановяване. Ефектът е видим след 2–4 седмици.</p>
+                    <p class="mt-8">Изненада: Креатинът подобрява и когнитивните функции — паметта и фокуса, особено при стрес или лош сън. Мозъкът е втория най-голям потребител на АТФ.</p>
+                    <div class="research">
+                        <strong>Journal of the International Society of Sports Nutrition, 2023</strong><br>
+                        Мета-анализ на 150+ проучвания — Креатинът увеличава мускулната сила с 8%, мускулната маса с 1.4кг за 4–12 седмици. Няма доказани странични ефекти при препоръчителни дози.
+                    </div>
+                    <div class="research">
+                        <strong>Nutrients, 2022</strong><br>
+                        Систематичен преглед — Суплементацията с креатин подобрява краткосрочната памет с 26% и интелигентността/разсъждаването с 11–17%.
+                    </div>
+                    <div class="info-box mt-16">
+                        <h3>Как да приемаш</h3>
+                        <p style="margin-top:8px;"><strong>Доза:</strong> 3–5г/ден, всеки ден (без почивни дни)</p>
+                        <p><strong>Кога:</strong> Без значение — сутрин, вечер, преди/след тренировка</p>
+                        <p><strong>Форма:</strong> Само монохидрат — всички останали форми са маркетинг</p>
+                        <p><strong>Loading фаза:</strong> Не е необходима — ускорява ефекта с ~1 седмица, не е задължителна</p>
+                    </div>
+                    <div class="stat-pills mt-16">
+                        <span class="stat-pill green">+8% сила</span>
+                        <span class="stat-pill green">+1.4кг мускул</span>
+                        <span class="stat-pill green">+26% краткосрочна памет</span>
+                        <span class="stat-pill green">~0.50лв/ден</span>
+                        <span class="stat-pill green">Само монохидрат</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Витамин Д -->
+        <div class="accordion-item green">
+            <div class="accordion-header">
+                <h3>☀️ Витамин Д3 + К2 — Tier 1</h3>
+                <span class="accordion-arrow">▼</span>
+            </div>
+            <div class="accordion-body">
+                <div class="accordion-body-inner">
+                    <p>Над <strong>80% от българите имат недостатъчни нива на Витамин Д</strong> — особено от октомври до март. Слънцето у нас не е достатъчно интензивно почти половин годината за синтез.</p>
+                    <p class="mt-8">Витамин Д не е просто "витамин за кости" — той е хормонален прекурсор, участва в имунната функция, синтеза на тестостерон, настроението (свързан с депресия) и инсулиновата чувствителност.</p>
+                    <p class="mt-8">К2 насочва калция към костите (вместо артериите) — затова Д3 и К2 се вземат заедно.</p>
+                    <div class="research">
+                        <strong>The Lancet Diabetes & Endocrinology, 2022</strong><br>
+                        Мета-анализ на 83 проучвания — Добавянето на Витамин Д намалява риска от автоимунни заболявания с 22%, респираторни инфекции с 25% и депресия с 14%.
+                    </div>
+                    <div class="info-box mt-16">
+                        <h3>Как да приемаш</h3>
+                        <p style="margin-top:8px;"><strong>Доза Д3:</strong> 2000–4000 IU/ден (октомври–март), 1000–2000 IU/ден (лято)</p>
+                        <p><strong>Доза К2:</strong> 100–200 мкг/ден (МК-7 форма)</p>
+                        <p><strong>Кога:</strong> Сутрин с мазна храна (мастноразтворим)</p>
+                        <p><strong>Идеално:</strong> Направи кръвен тест и коригирай дозата</p>
+                    </div>
+                    <div class="stat-pills mt-16">
+                        <span class="stat-pill green">80%+ дефицит в България</span>
+                        <span class="stat-pill green">−25% инфекции</span>
+                        <span class="stat-pill green">Тестостерон ↑</span>
+                        <span class="stat-pill green">~0.30лв/ден</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Магнезий -->
+        <div class="accordion-item green">
+            <div class="accordion-header">
+                <h3>😴 Магнезий — Tier 1</h3>
+                <span class="accordion-arrow">▼</span>
+            </div>
+            <div class="accordion-body">
+                <div class="accordion-body-inner">
+                    <p>Магнезият участва в <strong>над 300 ензимни реакции</strong> в тялото. Около 70% от хората приемат по-малко от препоръчителното количество. Стресът и кафето изчерпват магнезия допълнително.</p>
+                    <p class="mt-8">Основен ефект: <strong>значително подобрение на качеството на съня</strong>. Намалява кортизола, отпуска нервната система, помага при мускулни крампи и тревожност.</p>
+                    <div class="research">
+                        <strong>Sleep, 2022</strong><br>
+                        Рандомизирано проучване — магнезиевата суплементация подобрява субективното качество на съня, намалява инсомнията и сутрешния кортизол при хора с нисконормални нива.
+                    </div>
+                    <div class="info-box mt-16">
+                        <h3>Как да приемаш</h3>
+                        <p style="margin-top:8px;"><strong>Доза:</strong> 300–400мг/вечер</p>
+                        <p><strong>Форма:</strong> Глицинат или малат (не оксид — лоша усвояемост)</p>
+                        <p><strong>Кога:</strong> Вечер преди лягане — за максимален ефект върху съня</p>
+                        <p style="margin-top:8px; color:var(--muted);">Магнезий оксид (евтините таблетки) се усвоява само ~4% — бери глицинат.</p>
+                    </div>
+                    <div class="stat-pills mt-16">
+                        <span class="stat-pill green">По-добър сън</span>
+                        <span class="stat-pill green">−Кортизол</span>
+                        <span class="stat-pill green">−Тревожност</span>
+                        <span class="stat-pill green">~0.30лв/ден</span>
+                        <span class="stat-pill amber">Само глицинат/малат</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Омега-3 -->
+        <div class="accordion-item green">
+            <div class="accordion-header">
+                <h3>🐟 Омега-3 (EPA + DHA) — Tier 1</h3>
+                <span class="accordion-arrow">▼</span>
+            </div>
+            <div class="accordion-body">
+                <div class="accordion-body-inner">
+                    <p>EPA и DHA са незаменими мастни киселини — тялото не може да ги произведе само. <strong>Мозъкът е 60% мазнини, от които значителна част е DHA.</strong> Противовъзпалително действие, сърдечно-съдова защита, когнитивна функция.</p>
+                    <p class="mt-8">Ако ядеш мазна риба 2–3 пъти седмично (сьомга, скумрия, херинга) — може и без добавка. Ако не — добавката е практически задължителна.</p>
+                    <div class="research">
+                        <strong>New England Journal of Medicine, 2022 (VITAL Study)</strong><br>
+                        Проучване върху 25 871 участника — омега-3 суплементацията намалява риска от сърдечен удар с 28%, особено при хора с ниска консумация на риба.
+                    </div>
+                    <div class="info-box mt-16">
+                        <h3>Как да приемаш</h3>
+                        <p style="margin-top:8px;"><strong>Доза EPA+DHA:</strong> 1–3г/ден (гледай активните EPA+DHA, не общите мазнини)</p>
+                        <p><strong>Форма:</strong> Триглицеридна форма > Етилов естер (по-добра усвояемост)</p>
+                        <p><strong>Кога:</strong> С мазна храна за по-добра усвояемост</p>
+                        <p><strong>Качество:</strong> Търси IFOS или GOED сертификат срещу тежки метали</p>
+                    </div>
+                    <div class="stat-pills mt-16">
+                        <span class="stat-pill green">−28% сърдечен удар</span>
+                        <span class="stat-pill green">Мозъчна функция ↑</span>
+                        <span class="stat-pill green">Противовъзпалително</span>
+                        <span class="stat-pill green">~0.50лв/ден</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Цинк -->
+        <div class="accordion-item green">
+            <div class="accordion-header">
+                <h3>🔩 Цинк — Tier 2</h3>
+                <span class="accordion-arrow">▼</span>
+            </div>
+            <div class="accordion-body">
+                <div class="accordion-body-inner">
+                    <p>Цинкът е критичен за имунната система, синтеза на тестостерон, зарастването и ензимната активност. Хората с интензивни тренировки, вегетарианци и такива с висок стрес са по-склонни към дефицит.</p>
+                    <p class="mt-8">Важно: <strong>не прекалявай</strong> — над 40мг/ден блокира усвояването на мед и може да доведе до дефицит.</p>
+                    <div class="research">
+                        <strong>Nutrients, 2023</strong><br>
+                        Систематичен преглед — Цинковата суплементация при мъже с недостатъчни нива повишава тестостерона с 12–15% и подобрява имунния отговор значително.
+                    </div>
+                    <div class="info-box mt-16">
+                        <h3>Как да приемаш</h3>
+                        <p style="margin-top:8px;"><strong>Доза:</strong> 15–25мг/ден</p>
+                        <p><strong>Форма:</strong> Бисглицинат или пиколинат (не оксид)</p>
+                        <p><strong>Кога:</strong> Вечер, не едновременно с желязо или калций</p>
+                        <p><strong>Вземи само ако:</strong> Тренираш интензивно или имаш признаци на дефицит</p>
+                    </div>
+                    <div class="stat-pills mt-16">
+                        <span class="stat-pill green">Тестостерон ↑</span>
+                        <span class="stat-pill green">Имунитет ↑</span>
+                        <span class="stat-pill amber">Макс 40мг/ден</span>
+                        <span class="stat-pill green">~0.20лв/ден</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Протеин на прах -->
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <h3>🥤 Протеин на прах — Tier 3 (удобство, не необходимост)</h3>
+                <span class="accordion-arrow">▼</span>
+            </div>
+            <div class="accordion-body">
+                <div class="accordion-body-inner">
+                    <p>Протеинът на прах <strong>не е добавка в традиционния смисъл</strong> — той е просто храна в удобна форма. Ако достигаш 1.6–2г/кг протеин от реална храна — изобщо не ти трябва.</p>
+                    <p class="mt-8">Стойност: когато е трудно да достигнеш протеиновата цел — на пътуване, в бърз ден, след тренировка без достъп до храна. Whey (суроватъчен) се усвоява бързо и е идеален след тренировка. Казеин (или извара) е бавен — добър преди сън.</p>
+                    <div class="info-box mt-16">
+                        <h3>Как да избираш</h3>
+                        <p style="margin-top:8px;"><strong>Whey концентрат:</strong> Най-евтин, ~25г протеин/скуп. Достатъчен за повечето.</p>
+                        <p><strong>Whey изолат:</strong> По-чист, по-малко лактоза. Препоръчително при непоносимост.</p>
+                        <p><strong>Растителен (грахов + оризов):</strong> За вегани. Комбинирай двата за пълен аминокиселинен профил.</p>
+                        <p style="margin-top:8px; color:var(--muted);">Избягвай „mass gainer" — пълни са с захар и евтини въглехидрати.</p>
+                    </div>
+                    <div class="stat-pills mt-16">
+                        <span class="stat-pill">Само за удобство</span>
+                        <span class="stat-pill green">~1лв/скуп</span>
+                        <span class="stat-pill amber">Не замества храна</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- 3. Приоритетен ред -->
+<section>
+    <div class="section-title">
+        <h2>В какъв ред да започнеш</h2>
+        <p class="section-subtitle">Не купувай всичко наведнъж</p>
+    </div>
+
+    <div class="timeline">
+        <div class="timeline-item">
+            <div class="timeline-label">Стъпка 1</div>
+            <h3>Оправи основата</h3>
+            <p>Хранене, сън, движение. Без тях — добавките са хвърлени пари.</p>
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-label">Стъпка 2</div>
+            <h3>Витамин Д3 + К2 и Магнезий</h3>
+            <p>Почти всеки е дефицитен. Ефектът е бърз и ясен — по-добър сън, повече енергия, по-добро настроение.</p>
+            <div class="stat-pills">
+                <span class="stat-pill green">~18лв/месец</span>
+            </div>
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-label">Стъпка 3</div>
+            <h3>Омега-3</h3>
+            <p>Ако не ядеш мазна риба редовно — добави качествен рибен мастен oil.</p>
+            <div class="stat-pills">
+                <span class="stat-pill green">~15лв/месец</span>
+            </div>
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-label">Стъпка 4</div>
+            <h3>Креатин</h3>
+            <p>Когато тренировките са редовни. Ефектът се натрупва — след 4 седмици ще усетиш ясна разлика.</p>
+            <div class="stat-pills">
+                <span class="stat-pill green">~15лв/месец</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="info-box mt-24">
+        <h3>Общо: ~48 лв/месец</h3>
+        <p style="margin-top:8px;">За по-малко от цената на един месец фитнес абонамент получаваш 4 от най-добре изследваните интервенции за здраве.</p>
+    </div>
+</section>
+
+<!-- 4. Какво НЕ да купуваш -->
+<section>
+    <div class="section-title">
+        <h2>Какво да избягваш</h2>
+        <p class="section-subtitle">Маркетинг без наука</p>
+    </div>
+
+    <div class="accordion">
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <h3>❌ Fat burners / Мазнини изгарящи</h3>
+                <span class="accordion-arrow">▼</span>
+            </div>
+            <div class="accordion-body">
+                <div class="accordion-body-inner">
+                    <p>Ефектът е минимален (кофеин дава ~50 kcal/ден повече). Цената — максимална. Много продукти съдържат нерегулирани вещества. Диета + движение правят 100× повече.</p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <h3>❌ Testosterone boosters</h3>
+                <span class="accordion-arrow">▼</span>
+            </div>
+            <div class="accordion-body">
+                <div class="accordion-body-inner">
+                    <p>Почти нито един не работи при здрав човек. Сънят, тренировките, цинкът (при дефицит) и витамин Д правят значително повече за тестостерона.</p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <h3>❌ Mass gainers</h3>
+                <span class="accordion-arrow">▼</span>
+            </div>
+            <div class="accordion-body">
+                <div class="accordion-body-inner">
+                    <p>Предимно евтин малтодекстрин (бърза захар) с малко протеин. Наддаваш тегло — главно мазнини. По-добре яж ориз с пилешко.</p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <h3>❌ „Детокс" и „очистващи" продукти</h3>
+                <span class="accordion-arrow">▼</span>
+            </div>
+            <div class="accordion-body">
+                <div class="accordion-body-inner">
+                    <p>Черният дроб и бъбреците вече детоксикират тялото ти. Никое чае или сок не „прочиства" каквото и да е. Това е чист маркетинг без научна база.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 5. CTA -->
+<section class="cta-section">
+    <h2>Основата първо.<br><em class="green">После добавки.</em></h2>
+    <p style="color:#888; max-width:480px; margin:0 auto 24px;">Ако не си го направил — виж 7-дневния план за начало.</p>
+    <a href="start.html" class="btn btn-green">Виж 7-дневния план →</a>
+</section>
+
+<footer class="site-footer">
+    Направено от <a href="mailto:ivvmilev@gmail.com">Иван Милев</a> · ivvmilev@gmail.com
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

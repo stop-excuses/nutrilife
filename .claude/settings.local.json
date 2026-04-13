@@ -6,7 +6,12 @@
       "Write(*)",
       "Edit(*)",
       "Glob(*)",
-      "Grep(*)"
+      "Grep(*)",
+      "WebFetch(domain:www.kaufland.bg)",
+      "WebFetch(domain:www.billa.bg)",
+      "WebFetch(domain:leaflets.kaufland.com)",
+      "WebFetch(domain:www.kaufland.com)",
+      "Bash(python -u -c ':*)"
     ]
   }
 }
