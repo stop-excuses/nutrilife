@@ -2,7 +2,7 @@
   "version": 1,
   "patterns": {
     "kозуhаk": {
-      "count": 23,
+      "count": 29,
       "context": [
         "kозуhаk орmз сrббn ueha 97бб",
         "kозуhаk nopbcka nepaeha захар 5оо",
@@ -66,7 +66,7 @@
       ]
     },
     "разnmуhm": {
-      "count": 55,
+      "count": 69,
       "context": [
         "paysan breton разnmуhm bmaobe",
         "hanmtka kape cappuccing pbka tripleshot ",
@@ -1485,87 +1485,96 @@
       ]
     },
     "заmnоkуnkас": {
-      "count": 1,
+      "count": 3,
       "context": [
         "noycahka nonabpxamte oybata baxha заmnоk"
       ]
     },
     "зеnеhууuсуеабр": {
-      "count": 3,
+      "count": 5,
       "context": [
-        "yeabp jecho kpem cyna зеnеhууuсуеабр"
+        "yeabp jecho kpem cyna зеnеhууuсуеабр",
+        "yeabp jecho kpem супа зеnеhууuсуеабр"
       ]
     },
     "kебаn": {
-      "count": 6,
+      "count": 10,
       "context": [
-        "jecho necho cbmhckm kебаn nnnewkm kебаn "
+        "jecho necho cbmhckm kебаn nnnewkm kебаn ",
+        "jecho прясно свинско kебаn nnnewkm kебаn"
       ]
     },
     "аuiзбурrер": {
-      "count": 3,
+      "count": 5,
       "context": [
         "balkan аuiзбурrер"
       ]
     },
     "еsрrеssо": {
-      "count": 3,
+      "count": 5,
       "context": [
         "еsрrеssо espresso starbucks"
       ]
     },
     "kебаnуеtа": {
-      "count": 3,
+      "count": 5,
       "context": [
-        "kебаnуеtа byprep arhewko arhewko meco бn"
+        "kебаnуеtа byprep arhewko arhewko meco бn",
+        "kебаnуеtа бургер агнешко агнешко meco бn"
       ]
     },
     "бnnkm": {
-      "count": 6,
+      "count": 10,
       "context": [
         "kебаnуеtа byprep arhewko arhewko meco бn",
-        "arhewko arhewko meco yetbbptmha бnnkm me"
+        "arhewko arhewko meco yetbbptmha бnnkm me",
+        "kебаnуеtа бургер агнешко агнешко meco бn",
+        "агнешко агнешко meco yetbbptmha бnnkm me"
       ]
     },
     "разmразеhа": {
-      "count": 3,
+      "count": 5,
       "context": [
-        "arhewko arhewko meco yetbbptmha бnnkm me"
+        "arhewko arhewko meco yetbbptmha бnnkm me",
+        "агнешко агнешко meco yetbbptmha бnnkm me"
       ]
     },
     "ббnrарсkn": {
-      "count": 3,
+      "count": 5,
       "context": [
         "ббnrарсkn бnсереh"
       ]
     },
     "бnсереh": {
-      "count": 6,
+      "count": 10,
       "context": [
         "ббnrарсkn бnсереh",
-        "бnсереh costa espana macnmhobo macno"
+        "бnсереh costa espana macnmhobo macno",
+        "бnсереh costa espana маслиново macno"
       ]
     },
     "оаnрабеза": {
-      "count": 3,
+      "count": 5,
       "context": [
-        "olive arhewko meco оаnрабеза arhemkmtco "
+        "olive arhewko meco оаnрабеза arhemkmtco ",
+        "olive агнешко meco оаnрабеза arhemkmtco "
       ]
     },
     "mаiааhоз": {
-      "count": 3,
+      "count": 5,
       "context": [
-        "arhewka picantina picantina noanpabkm mа"
+        "arhewka picantina picantina noanpabkm mа",
+        "агнешко picantina picantina noanpabkm mа"
       ]
     },
     "еnmаз": {
-      "count": 3,
+      "count": 5,
       "context": [
         "еnmаз"
       ]
     },
     "kурабm": {
-      "count": 6,
+      "count": 10,
       "context": [
         "mania aomawhn nahetohe kурабm разnmуhm b",
         "aomawhn kурабm разnmуhm bwaobe"
@@ -1822,6 +1831,22 @@
       "pages": 11,
       "candidates": 87,
       "noisy_names": 32,
+      "auto_corrections_available": 0
+    },
+    {
+      "date": "2026-04-11T10:41:23.643692Z",
+      "store": "Unknown",
+      "pages": 10,
+      "candidates": 54,
+      "noisy_names": 21,
+      "auto_corrections_available": 0
+    },
+    {
+      "date": "2026-04-11T10:50:27.793541Z",
+      "store": "Unknown",
+      "pages": 10,
+      "candidates": 54,
+      "noisy_names": 21,
       "auto_corrections_available": 0
     }
   ],

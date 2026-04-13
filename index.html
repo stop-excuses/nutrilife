@@ -5,65 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NutriLife — Спри да се оправдаваш</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/i18n.js"></script>
 </head>
 <body>
 
 <!-- Navbar -->
 <nav class="navbar">
     <div class="container">
-        <div class="dot-wrapper"><a href="index.html"><button class="dot red active" aria-label="Спри да се оправдаваш"></button></a><span class="tooltip">Оправдания</span></div>
-        <div class="dot-wrapper"><a href="move.html"><button class="dot" aria-label="Движи се"></button></a><span class="tooltip">Движение</span></div>
-        <div class="dot-wrapper"><a href="eat.html"><button class="dot" aria-label="Яж правилно"></button></a><span class="tooltip">Хранене</span></div>
-        <div class="dot-wrapper"><a href="cheap.html"><button class="dot" aria-label="Не е скъпо"></button></a><span class="tooltip">Цени</span></div>
-        <div class="dot-wrapper"><a href="start.html"><button class="dot" aria-label="Започни сега"></button></a><span class="tooltip">Старт</span></div>
+        <a class="dot-wrapper" href="index.html"><span class="dot red active"></span><span class="dot-label" data-i18n="nav.excuses">Оправдания</span></a>
+        <a class="dot-wrapper" href="move.html"><span class="dot"></span><span class="dot-label" data-i18n="nav.move">Движение</span></a>
+        <a class="dot-wrapper" href="eat.html"><span class="dot"></span><span class="dot-label" data-i18n="nav.eat">Хранене</span></a>
+        <a class="dot-wrapper" href="cheap.html"><span class="dot"></span><span class="dot-label" data-i18n="nav.prices">Цени</span></a>
+        <a class="dot-wrapper" href="start.html"><span class="dot"></span><span class="dot-label" data-i18n="nav.start">Старт</span></a>
+        <a class="dot-wrapper" href="supplements.html"><span class="dot amber"></span><span class="dot-label" data-i18n="nav.supplements">Добавки</span></a>
+        <a class="dot-wrapper" href="mental.html"><span class="dot purple"></span><span class="dot-label" data-i18n="nav.mental">Психично</span></a>
     </div>
 </nav>
 
 <!-- 1. Hero -->
 <section class="hero">
-    <h1>Спри да се <em class="red">оправдаваш</em></h1>
-    <p>Здравето не чака. Всеки ден, в който не правиш нищо, тялото ти плаща сметката.</p>
+    <h1 data-i18n-html="i.hero.h1">Спри да се <em class="red">оправдаваш</em></h1>
+    <p data-i18n="i.hero.p">Здравето не чака. Всеки ден, в който не правиш нищо, тялото ти плаща сметката.</p>
 
     <div class="stat-box">
         <div class="stat-number">72%</div>
-        <div class="stat-label">от българите над 40г имат поне един хроничен здравен проблем</div>
+        <div class="stat-label" data-i18n="i.hero.stat">от българите над 40г имат поне един хроничен здравен проблем</div>
     </div>
+
 </section>
 
 <!-- 2. Огледалото -->
 <section>
     <div class="section-title">
-        <h2>Огледалото</h2>
-        <p class="section-subtitle">Числата, които не искаш да видиш</p>
+        <h2 data-i18n="i.s2.h2">Огледалото</h2>
+        <p class="section-subtitle" data-i18n="i.s2.sub">Числата, които не искаш да видиш</p>
     </div>
 
     <div class="cards-grid">
         <div class="stat-card">
             <div class="stat-number">1 от 2</div>
-            <div class="stat-label">българи с наднормено тегло</div>
+            <div class="stat-label" data-i18n="i.s2.c1">българи с наднормено тегло</div>
         </div>
         <div class="stat-card">
             <div class="stat-number">+340%</div>
-            <div class="stat-label">диабет от 1980г</div>
+            <div class="stat-label" data-i18n="i.s2.c2">диабет от 1980г</div>
         </div>
         <div class="stat-card">
             <div class="stat-number">23ч</div>
-            <div class="stat-label">на ден седим</div>
+            <div class="stat-label" data-i18n="i.s2.c3">на ден сме в статично положение (седим, лежим, гледаме екран)</div>
         </div>
         <div class="stat-card">
             <div class="stat-number">8/10</div>
-            <div class="stat-label">сърдечни болести предотвратими</div>
+            <div class="stat-label" data-i18n="i.s2.c4">сърдечни болести предотвратими</div>
         </div>
     </div>
 
-    <p class="note">Бавно се е случило. Бавно се обръща.</p>
+    <p class="note" data-i18n="i.s2.note">Бавно се е случило. Бавно се обръща.</p>
 </section>
 
 <!-- 3. Лично засягане -->
 <section>
     <div class="section-title">
-        <h2>Колко те засяга?</h2>
-        <p class="section-subtitle">Избери възрастта си</p>
+        <h2 data-i18n="i.s3.h2">Колко те засяга?</h2>
+        <p class="section-subtitle" data-i18n="i.s3.sub">Избери възрастта си</p>
     </div>
 
     <div class="age-buttons">
@@ -75,76 +79,76 @@
 
     <div class="age-content" data-age="20">
         <div class="progress-bar-wrapper">
-            <div class="progress-bar-label"><span>Метаболитен синдром</span><span class="red">18%</span></div>
+            <div class="progress-bar-label"><span data-i18n="age.metabolic">Метаболитен синдром</span><span class="red">18%</span></div>
             <div class="progress-bar"><div class="fill" data-width="18"></div></div>
         </div>
         <div class="progress-bar-wrapper">
-            <div class="progress-bar-label"><span>Затлъстяване</span><span class="red">22%</span></div>
+            <div class="progress-bar-label"><span data-i18n="age.obesity">Затлъстяване</span><span class="red">22%</span></div>
             <div class="progress-bar"><div class="fill" data-width="22"></div></div>
         </div>
         <div class="progress-bar-wrapper">
-            <div class="progress-bar-label"><span>Тревожност и депресия</span><span class="red">35%</span></div>
+            <div class="progress-bar-label"><span data-i18n="age.anxiety">Тревожност и депресия</span><span class="red">35%</span></div>
             <div class="progress-bar"><div class="fill" data-width="35"></div></div>
         </div>
         <div class="progress-bar-wrapper">
-            <div class="progress-bar-label"><span>Нисък тестостерон</span><span class="red">15%</span></div>
+            <div class="progress-bar-label"><span data-i18n="age.testosterone">Нисък тестостерон</span><span class="red">15%</span></div>
             <div class="progress-bar"><div class="fill" data-width="15"></div></div>
         </div>
     </div>
 
     <div class="age-content" data-age="30">
         <div class="progress-bar-wrapper">
-            <div class="progress-bar-label"><span>Наднормено тегло</span><span class="red">42%</span></div>
+            <div class="progress-bar-label"><span data-i18n="age.overweight">Наднормено тегло</span><span class="red">42%</span></div>
             <div class="progress-bar"><div class="fill" data-width="42"></div></div>
         </div>
         <div class="progress-bar-wrapper">
-            <div class="progress-bar-label"><span>Високо кръвно налягане</span><span class="red">28%</span></div>
+            <div class="progress-bar-label"><span data-i18n="age.bp">Високо кръвно налягане</span><span class="red">28%</span></div>
             <div class="progress-bar"><div class="fill" data-width="28"></div></div>
         </div>
         <div class="progress-bar-wrapper">
-            <div class="progress-bar-label"><span>Преддиабет</span><span class="red">20%</span></div>
+            <div class="progress-bar-label"><span data-i18n="age.prediabetes">Преддиабет</span><span class="red">20%</span></div>
             <div class="progress-bar"><div class="fill" data-width="20"></div></div>
         </div>
         <div class="progress-bar-wrapper">
-            <div class="progress-bar-label"><span>Хроничен стрес</span><span class="red">55%</span></div>
+            <div class="progress-bar-label"><span data-i18n="age.stress">Хроничен стрес</span><span class="red">55%</span></div>
             <div class="progress-bar"><div class="fill" data-width="55"></div></div>
         </div>
     </div>
 
     <div class="age-content" data-age="40">
         <div class="progress-bar-wrapper">
-            <div class="progress-bar-label"><span>Сърдечно-съдов риск</span><span class="red">45%</span></div>
+            <div class="progress-bar-label"><span data-i18n="age.cardio">Сърдечно-съдов риск</span><span class="red">45%</span></div>
             <div class="progress-bar"><div class="fill" data-width="45"></div></div>
         </div>
         <div class="progress-bar-wrapper">
-            <div class="progress-bar-label"><span>Диабет тип 2</span><span class="red">32%</span></div>
+            <div class="progress-bar-label"><span data-i18n="age.diabetes2">Диабет тип 2</span><span class="red">32%</span></div>
             <div class="progress-bar"><div class="fill" data-width="32"></div></div>
         </div>
         <div class="progress-bar-wrapper">
-            <div class="progress-bar-label"><span>Загуба на мускулна маса</span><span class="red">38%</span></div>
+            <div class="progress-bar-label"><span data-i18n="age.muscle">Загуба на мускулна маса</span><span class="red">38%</span></div>
             <div class="progress-bar"><div class="fill" data-width="38"></div></div>
         </div>
         <div class="progress-bar-wrapper">
-            <div class="progress-bar-label"><span>Болки в гърба/ставите</span><span class="red">52%</span></div>
+            <div class="progress-bar-label"><span data-i18n="age.joints">Болки в гърба/ставите</span><span class="red">52%</span></div>
             <div class="progress-bar"><div class="fill" data-width="52"></div></div>
         </div>
     </div>
 
     <div class="age-content" data-age="50">
         <div class="progress-bar-wrapper">
-            <div class="progress-bar-label"><span>Хронично заболяване</span><span class="red">72%</span></div>
+            <div class="progress-bar-label"><span data-i18n="age.chronic">Хронично заболяване</span><span class="red">72%</span></div>
             <div class="progress-bar"><div class="fill" data-width="72"></div></div>
         </div>
         <div class="progress-bar-wrapper">
-            <div class="progress-bar-label"><span>Остеопороза (жени)</span><span class="red">35%</span></div>
+            <div class="progress-bar-label"><span data-i18n="age.osteo">Остеопороза (жени)</span><span class="red">35%</span></div>
             <div class="progress-bar"><div class="fill" data-width="35"></div></div>
         </div>
         <div class="progress-bar-wrapper">
-            <div class="progress-bar-label"><span>Инсулинова резистентност</span><span class="red">48%</span></div>
+            <div class="progress-bar-label"><span data-i18n="age.insulin">Инсулинова резистентност</span><span class="red">48%</span></div>
             <div class="progress-bar"><div class="fill" data-width="48"></div></div>
         </div>
         <div class="progress-bar-wrapper">
-            <div class="progress-bar-label"><span>Риск от инфаркт/инсулт</span><span class="red">58%</span></div>
+            <div class="progress-bar-label"><span data-i18n="age.heartattack">Риск от инфаркт/инсулт</span><span class="red">58%</span></div>
             <div class="progress-bar"><div class="fill" data-width="58"></div></div>
         </div>
     </div>
@@ -153,14 +157,14 @@
 <!-- 4. Оправданията -->
 <section>
     <div class="section-title">
-        <h2>Оправданията</h2>
-        <p class="section-subtitle">Всяко едно — мит</p>
+        <h2 data-i18n="i.s4.h2">Оправданията</h2>
+        <p class="section-subtitle" data-i18n="i.s4.sub">Всяко едно — мит</p>
     </div>
 
     <div class="accordion">
         <div class="accordion-item">
             <div class="accordion-header">
-                <h3>„Такъв съм си — не мога да се променя"</h3>
+                <h3 data-i18n="i.e1.h3">„Такъв съм си — не мога да се променя"</h3>
                 <span class="accordion-arrow">▼</span>
             </div>
             <div class="accordion-body">
@@ -172,7 +176,7 @@
 
         <div class="accordion-item">
             <div class="accordion-header">
-                <h3>„Всичката храна е боклук, едно време не беше така"</h3>
+                <h3 data-i18n="i.e2.h3">„Всичката храна е боклук, едно време не беше така"</h3>
                 <span class="accordion-arrow">▼</span>
             </div>
             <div class="accordion-body">
@@ -184,7 +188,7 @@
 
         <div class="accordion-item">
             <div class="accordion-header">
-                <h3>„Скъпо е да се храниш здравословно"</h3>
+                <h3 data-i18n="i.e3.h3">„Скъпо е да се храниш здравословно"</h3>
                 <span class="accordion-arrow">▼</span>
             </div>
             <div class="accordion-body">
@@ -203,7 +207,7 @@
 
         <div class="accordion-item">
             <div class="accordion-header">
-                <h3>„Нямам време"</h3>
+                <h3 data-i18n="i.e4.h3">„Нямам време"</h3>
                 <span class="accordion-arrow">▼</span>
             </div>
             <div class="accordion-body">
@@ -222,7 +226,7 @@
 
         <div class="accordion-item">
             <div class="accordion-header">
-                <h3>„Ще започна от понеделник"</h3>
+                <h3 data-i18n="i.e5.h3">„Ще започна от понеделник"</h3>
                 <span class="accordion-arrow">▼</span>
             </div>
             <div class="accordion-body">
@@ -234,7 +238,7 @@
 
         <div class="accordion-item">
             <div class="accordion-header">
-                <h3>„Един бургер няма да ме убие — не ми вреди"</h3>
+                <h3 data-i18n="i.e6.h3">„Един бургер няма да ме убие — не ми вреди"</h3>
                 <span class="accordion-arrow">▼</span>
             </div>
             <div class="accordion-body">
@@ -247,7 +251,7 @@
 
         <div class="accordion-item">
             <div class="accordion-header">
-                <h3>„Имам лоши гени — в семейството ни всички са пълни"</h3>
+                <h3 data-i18n="i.e7.h3">„Имам лоши гени — в семейството ни всички са пълни"</h3>
                 <span class="accordion-arrow">▼</span>
             </div>
             <div class="accordion-body">
@@ -265,7 +269,7 @@
 
         <div class="accordion-item">
             <div class="accordion-header">
-                <h3>„Работя много, стресиран съм — заслужавам си"</h3>
+                <h3 data-i18n="i.e8.h3">„Работя много, стресиран съм — заслужавам си"</h3>
                 <span class="accordion-arrow">▼</span>
             </div>
             <div class="accordion-body">
@@ -279,7 +283,7 @@
 
         <div class="accordion-item">
             <div class="accordion-header">
-                <h3>„Опитвал съм — не работи за мен"</h3>
+                <h3 data-i18n="i.e9.h3">„Опитвал съм — не работи за мен"</h3>
                 <span class="accordion-arrow">▼</span>
             </div>
             <div class="accordion-body">
@@ -299,12 +303,13 @@
 
         <div class="accordion-item">
             <div class="accordion-header">
-                <h3>„Нямам условия — семейство, деца"</h3>
+                <h3 data-i18n="i.e10.h3">„Нямам условия — семейство, деца"</h3>
                 <span class="accordion-arrow">▼</span>
             </div>
             <div class="accordion-body">
                 <div class="accordion-body-inner">
                     <p>Децата копират. Ако ти ядеш пица всяка вечер — те ще ядат пица. Ако те видят да правиш лицеви — те ще искат да правят. <strong>Примерът е най-силното възпитание.</strong></p>
+                    <p style="margin-top:12px;">Лицеви опори и клякания можеш да правиш почти навсякъде и по всяко време — в почивка на работа, по време на разходка, на балкона, в хола. Нямаш нужда от фитнес, уреди или специални условия. <strong>Тялото ти е единственото оборудване, което ти трябва.</strong></p>
                     <div class="stat-pills">
                         <span class="stat-pill green">Пример > думи</span>
                         <span class="stat-pill amber">Деца на активни родители: 6× по-активни</span>
@@ -317,7 +322,26 @@
 
         <div class="accordion-item">
             <div class="accordion-header">
-                <h3>„Като остарея ще се оправя"</h3>
+                <h3 data-i18n="i.e11.h3">„Боли ме — имам контузия / лошо коляно / гръб"</h3>
+                <span class="accordion-arrow">▼</span>
+            </div>
+            <div class="accordion-body">
+                <div class="accordion-body-inner">
+                    <p><strong>80% от болките в гърба не са от „дископатия"</strong> — а от слаби мускули около гръбначния стълб. Движението не вреди — слабостта вреди. Укрепването на мускулите около ставата е основното лечение при повечето ортопедични оплаквания.</p>
+                    <p class="mt-8">Имаш лошо коляно? Укрепи квадрицепсите и задните бедрени мускули — налягането върху ставата намалява. Имаш болки в гърба? Силен корем и гръб = край на болката в 70% от случаите без операция или хапчета.</p>
+                    <p class="mt-8"><strong>Почти всяка контузия има упражнения, които са безопасни.</strong> Контузено коляно → горна тренировка. Наранено рамо → крака и корем. Нулевото движение е единственото нещо, което гарантирано влошава нещата.</p>
+                    <div class="stat-pills">
+                        <span class="stat-pill green">80% болки в гърба = слаби мускули</span>
+                        <span class="stat-pill green">−60% хронична болка с упражнения</span>
+                        <span class="stat-pill amber">Почивката прави ставите по-слаби</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <h3 data-i18n="i.e12.h3">„Като остарея ще се оправя"</h3>
                 <span class="accordion-arrow">▼</span>
             </div>
             <div class="accordion-body">
@@ -329,7 +353,7 @@
 
         <div class="accordion-item">
             <div class="accordion-header">
-                <h3>„Вече е късно за мен — стар съм, свикнал съм"</h3>
+                <h3 data-i18n="i.e13.h3">„Вече е късно за мен — стар съм, свикнал съм"</h3>
                 <span class="accordion-arrow">▼</span>
             </div>
             <div class="accordion-body">
@@ -349,7 +373,7 @@
 
         <div class="accordion-item">
             <div class="accordion-header">
-                <h3>„Още съм млад — мога да си го позволя"</h3>
+                <h3 data-i18n="i.e14.h3">„Още съм млад — мога да си го позволя"</h3>
                 <span class="accordion-arrow">▼</span>
             </div>
             <div class="accordion-body">
@@ -361,7 +385,7 @@
 
         <div class="accordion-item">
             <div class="accordion-header">
-                <h3>„Здравословното не е вкусно"</h3>
+                <h3 data-i18n="i.e15.h3">„Здравословното не е вкусно"</h3>
                 <span class="accordion-arrow">▼</span>
             </div>
             <div class="accordion-body">
@@ -374,7 +398,7 @@
 
         <div class="accordion-item">
             <div class="accordion-header">
-                <h3>„Здравословното се готви бавно — нямам време"</h3>
+                <h3 data-i18n="i.e16.h3">„Здравословното се готви бавно — нямам време"</h3>
                 <span class="accordion-arrow">▼</span>
             </div>
             <div class="accordion-body">
@@ -387,7 +411,7 @@
 
         <div class="accordion-item">
             <div class="accordion-header">
-                <h3>„Животът е кратък — да се наслаждавам"</h3>
+                <h3 data-i18n="i.e17.h3">„Животът е кратък — да се наслаждавам"</h3>
                 <span class="accordion-arrow">▼</span>
             </div>
             <div class="accordion-body">
@@ -399,38 +423,194 @@
     </div>
 </section>
 
+<!-- 4.5. Вредни навици -->
+<section>
+    <div class="section-title">
+        <h2 data-i18n="i.harmful.h2">Вредни навици</h2>
+        <p class="section-subtitle" data-i18n="i.harmful.sub">Две неща, за които не говорим достатъчно открито</p>
+    </div>
+
+    <div class="accordion">
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <h3 data-i18n="i.h1.h3">🚬 Цигари — няма безопасна доза</h3>
+                <span class="accordion-arrow">▼</span>
+            </div>
+            <div class="accordion-body">
+                <div class="accordion-body-inner">
+                    <p><strong>Тютюнопушенето е единствената легална дейност, която убива всеки втори редовен потребител.</strong> Не е хипербола — това е официалната статистика на СЗО.</p>
+                    <p class="mt-8">Всяка цигара нанася увреждания, които не се усещат веднага. Артериите се стесняват. ДНК се уврежда. Белите дробове губят капацитет. Процесът е бавен, безшумен и необратим — докато не стане много видим.</p>
+                    <div class="research">
+                        <strong>WHO Global Report on Tobacco, 2023</strong><br>
+                        Тютюнът убива 8 милиона души годишно. 50% от редовните пушачи умират от свързано с тютюна заболяване. Всяка изпушена цигара скъсява живота с ~11 минути.
+                    </div>
+                    <div class="research">
+                        <strong>New England Journal of Medicine, 2022</strong><br>
+                        Хората, спрели до 35-годишна възраст, възстановяват почти пълната очаквана продължителност на живота. Спирането на всяка възраст носи значителна полза — дори на 60 печелиш 3+ години.
+                    </div>
+                    <table class="food-table mt-16">
+                        <thead><tr><th>Ефект</th><th>Факт</th></tr></thead>
+                        <tbody>
+                            <tr><td>Рак на белия дроб</td><td><em class="red">25× по-висок риск</em></td></tr>
+                            <tr><td>Сърдечна болест</td><td><em class="red">2–4× по-висок риск</em></td></tr>
+                            <tr><td>Инсулт</td><td><em class="red">2× по-висок риск</em></td></tr>
+                            <tr><td>Загубени години живот</td><td><em class="red">10–12 години средно</em></td></tr>
+                        </tbody>
+                    </table>
+                    <p class="mt-8">След спиране: <strong>20 мин</strong> — пулсът се нормализира. <strong>24 часа</strong> — риск от инфаркт спада. <strong>1 година</strong> — риск от коронарна болест е наполовина. <strong>10 години</strong> — риск от рак на белия дроб е наполовина.</p>
+                    <div class="stat-pills mt-16">
+                        <span class="stat-pill">8M смъртни случая/год.</span>
+                        <span class="stat-pill">50% умират от тютюн</span>
+                        <span class="stat-pill">−11 мин живот/цигара</span>
+                        <span class="stat-pill green">Спирането работи на всяка възраст</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <h3 data-i18n="i.h2.h3">🍺 Алкохол — редовното е различно от „за наздраве"</h3>
+                <span class="accordion-arrow">▼</span>
+            </div>
+            <div class="accordion-body">
+                <div class="accordion-body-inner">
+                    <p>Чаша вино на празник с близките е напълно различно нещо от ежедневния алкохол. Тази разлика е важна и честна. <strong>Проблемът не е „наздраве" — проблемът е нормализираното ежедневно пиене.</strong></p>
+                    <p class="mt-8">Алкохолът е класифициран като <strong>канцероген от Група 1</strong> от Световната здравна организация — в една категория с тютюна и азбеста. Дори умерената консумация (1 чаша/ден) е свързана с повишен риск от рак на гърдата и дебелото черво.</p>
+                    <div class="research">
+                        <strong>Lancet, 2022 (Global Burden of Disease Study)</strong><br>
+                        Не съществува безопасен праг на алкохол за мозъчното здраве. Дори 1 питие/ден намалява обема на сивото вещество. Рискът нараства линейно с консумацията.
+                    </div>
+                    <div class="research">
+                        <strong>British Medical Journal, 2023</strong><br>
+                        Мета-анализ на 107 проучвания: редовната консумация на алкохол е свързана с +18% риск от рак на гърдата, +21% рак на черния дроб и +17% рак на дебелото черво.
+                    </div>
+                    <p class="mt-8"><strong>Алкохолът унищожава REM съня</strong> — дори 1–2 питиета намаляват качеството на съня с 24%. Събуждаш се "отпочинал" по часовник, но мозъкът ти не се е възстановил.</p>
+                    <p class="mt-8">Черният дроб е основният ти детоксикиращ орган. При редовно пиене &gt;2 питиета/ден → мастен черен дроб → цироза. Процесът е обратим в ранните стадии — черният дроб се регенерира.</p>
+                    <div class="info-box mt-16" style="border-color:var(--green-dark); background:var(--bg-card-green);">
+                        <h3>Ако пиеш — пий по-умно</h3>
+                        <p style="margin-top:8px;">• <strong>Яж преди</strong> — никога не пий на гладно. Протеинът и мазнините забавят усвояването.</p>
+                        <p>• <strong>Редувай с вода</strong> — по 1 чаша вода между напитките. Намалява общото количество и предотвратява махмурлука.</p>
+                        <p>• <strong>Избирай по-чисти варианти</strong> — сухо вино, уиски/водка с минерална вода. Избягвай коктейли с много захар.</p>
+                        <p>• <strong>2 дни пауза след пиене</strong> — черният дроб се нуждае от почивка за пълно възстановяване.</p>
+                        <p>• <strong>Сутринта след</strong> — вода, електролити, протеин. Не „лекувай" с мазна храна и кафе.</p>
+                    </div>
+                    <div class="stat-pills mt-16">
+                        <span class="stat-pill">Канцероген Група 1 (СЗО)</span>
+                        <span class="stat-pill">−24% REM сън</span>
+                        <span class="stat-pill amber">Редовното е рисково</span>
+                        <span class="stat-pill green">Случайно „наздраве" — ОК</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- 5. Какво печелиш -->
 <section>
     <div class="section-title">
-        <h2>Какво печелиш</h2>
-        <p class="section-subtitle">Timeline на промяната</p>
+        <h2 data-i18n="i.s5.h2">Какво печелиш</h2>
+        <p class="section-subtitle" data-i18n="i.s5.sub">Реалните промени — не само на кантара</p>
+    </div>
+
+    <div class="cards-grid three mt-16" style="margin-bottom:24px;">
+        <div class="stat-card green">
+            <div class="stat-number" style="font-size:2rem;">⚡</div>
+            <h3 style="margin-top:8px;" data-i18n="i.gain.energy.h3">Енергия</h3>
+            <p style="margin-top:6px;">Буден до края на деня без кафе. Не се събуждаш уморен. +30% субективна енергия след 1 месец.</p>
+        </div>
+        <div class="stat-card green">
+            <div class="stat-number" style="font-size:2rem;">🎯</div>
+            <h3 style="margin-top:8px;" data-i18n="i.gain.motivation.h3">Мотивация</h3>
+            <p style="margin-top:6px;">Физическата активност повишава допамина. Поставяш цели и ги постигаш. Спираш да отлагаш.</p>
+        </div>
+        <div class="stat-card green">
+            <div class="stat-number" style="font-size:2rem;">🧠</div>
+            <h3 style="margin-top:8px;" data-i18n="i.gain.focus.h3">Фокус</h3>
+            <p style="margin-top:6px;">Мозъкът спира да „замръзва" след обяд. Работиш остро до края на деня.</p>
+        </div>
+        <div class="stat-card green">
+            <div class="stat-number" style="font-size:2rem;">🤝</div>
+            <h3 style="margin-top:8px;" data-i18n="i.gain.social.h3">Социалност</h3>
+            <p style="margin-top:6px;">Излизаш повече. Играеш с децата без задъхване. Хората около теб питат какво правиш.</p>
+        </div>
+        <div class="stat-card green">
+            <div class="stat-number" style="font-size:2rem;">💪</div>
+            <h3 style="margin-top:8px;" data-i18n="i.gain.confidence.h3">Самочувствие</h3>
+            <p style="margin-top:6px;">Огледалото е различно. Дрехите седят по-добре. Влизаш в стаята по-уверено.</p>
+        </div>
+        <div class="stat-card green">
+            <div class="stat-number" style="font-size:2rem;">😴</div>
+            <h3 style="margin-top:8px;" data-i18n="i.gain.sleep.h3">Сън</h3>
+            <p style="margin-top:6px;">Будиш се преди будилника. По-дълбок REM. Заспиваш за минути, не за час.</p>
+        </div>
+        <div class="stat-card green">
+            <div class="stat-number" style="font-size:2rem;">😌</div>
+            <h3 style="margin-top:8px;" data-i18n="i.gain.mood.h3">Настроение</h3>
+            <p style="margin-top:6px;">Baseline-то е добро. Не зависиш от кафето за да функционираш. Тревожността пада.</p>
+        </div>
+        <div class="stat-card green">
+            <div class="stat-number" style="font-size:2rem;">🩺</div>
+            <h3 style="margin-top:8px;" data-i18n="i.gain.health.h3">Здраве</h3>
+            <p style="margin-top:6px;">Кръвната захар, холестеролът и налягането се нормализират. Лекарят те пита какво правиш.</p>
+        </div>
+        <div class="stat-card green">
+            <div class="stat-number" style="font-size:2rem;">💰</div>
+            <h3 style="margin-top:8px;" data-i18n="i.gain.money.h3">Пари</h3>
+            <p style="margin-top:6px;">По-малко болнични. По-малко лекарства. По-малко загубени работни дни. Здравето е инвестиция.</p>
+        </div>
     </div>
 
     <div class="timeline">
         <div class="timeline-item">
-            <div class="timeline-label">1 месец</div>
-            <h3>Енергия, сън, апетит за захар</h3>
-            <p>Усещаш повече енергия. Заспиваш по-лесно. Апетитът за сладко намалява.</p>
+            <div class="timeline-label">72 часа</div>
+            <h3>Тялото реагира веднага</h3>
+            <p>Спираш захарта → кръвната захар се стабилизира → кортизолът намалява. Вече на 3-тия ден спиш по-дълбоко.</p>
             <div class="stat-pills">
+                <span class="stat-pill green">По-добър сън</span>
+                <span class="stat-pill green">−Захарни желания</span>
+            </div>
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-label">1 месец</div>
+            <h3>Първите резултати</h3>
+            <p>−3–5кг. Колегите забелязват нещо. Изкачваш стълбите без задъхване. Апетитът за захар е изчезнал почти напълно.</p>
+            <div class="stat-pills">
+                <span class="stat-pill green">−3–5 кг</span>
                 <span class="stat-pill green">+30% енергия</span>
                 <span class="stat-pill green">−40% захарен апетит</span>
             </div>
         </div>
         <div class="timeline-item">
             <div class="timeline-label">3 месеца</div>
-            <h3>Огледало, стълби, фокус</h3>
-            <p>Виждаш разлика в огледалото. Качваш стълби без задъхване. Фокусът на работа е по-добър.</p>
+            <h3>Видима трансформация</h3>
+            <p>Огледалото е различно. Кръвната захар е нормална. Фокусът на работа е на ниво, което не си имал от години.</p>
             <div class="stat-pills">
-                <span class="stat-pill green">−5 кг</span>
+                <span class="stat-pill green">−8–12 кг</span>
                 <span class="stat-pill green">−18% кръвна захар</span>
+                <span class="stat-pill green">Мускулите са видими</span>
             </div>
         </div>
         <div class="timeline-item">
             <div class="timeline-label">1 година</div>
-            <h3>Деца, лекар, енергия след работа</h3>
-            <p>Играеш с децата без да се задъхваш. Лекарят те пита какво правиш. Имаш енергия след 8 часа работа.</p>
+            <h3>Нов човек. Буквално.</h3>
+            <p>Играеш с децата без задъхване. Лекарят не те гледа загрижено. Имаш енергия след 8 часа работа. Хората от обкръжението ти питат как си го направил.</p>
             <div class="stat-pills">
-                <span class="stat-pill green">Нов човек</span>
+                <span class="stat-pill green">−15–20 кг</span>
+                <span class="stat-pill green">Кръвно налягане — норма</span>
+                <span class="stat-pill green">Холестерол — норма</span>
+                <span class="stat-pill green">+5–7 години живот</span>
+            </div>
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-label">5 години</div>
+            <h3>Докато другите деградират — ти се подобряваш</h3>
+            <p>На 45 си по-остър от 35. Ставите не те болят когато другите в офиса се оплакват. Тялото ти е активив, не пасив.</p>
+            <div class="stat-pills">
+                <span class="stat-pill green">По-малко болести</span>
+                <span class="stat-pill green">По-малко лекарства</span>
+                <span class="stat-pill green">По-добро качество на живот</span>
             </div>
         </div>
     </div>
@@ -448,23 +628,62 @@
         </div>
     </div>
 
-    <!-- Мъже box -->
-    <div class="info-box mt-24">
-        <h3>За мъжете</h3>
-        <p style="margin-top:8px;">Движението и храненето директно влияят на хормоните.</p>
-        <div class="stat-pills mt-16">
-            <span class="stat-pill green">Тестостерон +15%</span>
-            <span class="stat-pill green">Либидо +24%</span>
-            <span class="stat-pill green">Концентрация +31%</span>
+    <!-- Мъже и жени box -->
+    <div class="cards-grid mt-24">
+        <div class="info-box">
+            <h3>💪 За мъжете</h3>
+            <p style="margin-top:10px;">Редовното движение и правилното хранене са буквално хормонална терапия — безплатна и без странични ефекти.</p>
+            <p style="margin-top:8px;">• <strong>Тестостерон:</strong> силовите тренировки го покачват с 15–25%. Затлъстяването и заседналият начин на живот го потискат значително.</p>
+            <p style="margin-top:8px;">• <strong>Либидо и сексуален живот:</strong> кардиофитнесът подобрява еректилната функция — ефектът е сравним с медикамент. Хроничният стрес и липсата на сън са водещи причини за намалено сексуално желание.</p>
+            <p style="margin-top:8px;">• <strong>Енергия и мотивация:</strong> мъжете с ниски нива на тестостерон описват умора, апатия и липса на желание — симптоми, погрешно приписвани на „стрес" или „характер".</p>
+            <p style="margin-top:8px;">• <strong>Социалния живот:</strong> физически активните мъже показват по-висока увереност, по-добри социални умения и по-ниска социална тревожност.</p>
+            <div class="stat-pills mt-16">
+                <span class="stat-pill green">Тестостерон +15–25%</span>
+                <span class="stat-pill green">Либидо и ерекция — директен ефект</span>
+                <span class="stat-pill green">Повече енергия и мотивация</span>
+            </div>
+        </div>
+
+        <div class="info-box">
+            <h3>🌸 За жените</h3>
+            <p style="margin-top:10px;">Женската хормонална система е по-комплексна — и по-чувствителна към начина на живот. Правилните навици стабилизират, неправилните — усилват дисбалансите.</p>
+            <p style="margin-top:8px;">• <strong>Хормонален баланс:</strong> физическата активност регулира естроген и прогестерон, намалява симптомите на ПМС с до 50% при редовни тренировки.</p>
+            <p style="margin-top:8px;">• <strong>Енергия и настроение:</strong> жените с активен начин на живот съобщават значително по-малко умора, по-добро настроение и по-добра концентрация в цикъла.</p>
+            <p style="margin-top:8px;">• <strong>Тегло и метаболизъм:</strong> протеинът и силовите тренировки запазват мускулна маса — особено важно след 35, когато метаболизмът се забавя.</p>
+            <p style="margin-top:8px;">• <strong>Самочувствие и социален живот:</strong> движението е клинично доказан антидепресант — ефектът е особено силен при жени с хормонален дисбаланс и стрес.</p>
+            <div class="stat-pills mt-16">
+                <span class="stat-pill green">−50% ПМС симптоми</span>
+                <span class="stat-pill green">По-добро настроение и концентрация</span>
+                <span class="stat-pill green">Метаболизъм и мускули след 35</span>
+            </div>
         </div>
     </div>
 
     <p class="quote mt-32">„Не тренираш за да изглеждаш. Тренираш за да живееш."</p>
 </section>
 
+<!-- 6.5. За проекта -->
+<section>
+    <div class="section-title">
+        <h2>За проекта</h2>
+    </div>
+    <div class="accordion">
+        <div class="accordion-item">
+            <div class="accordion-header"><h3>Кой направи това и защо?</h3><span class="accordion-arrow">▼</span></div>
+            <div class="accordion-body">
+                <div class="accordion-body-inner">
+                    <p>Казвам се <strong>Иван Милев</strong>. Направих NutriLife, защото видях колко много хора около мен искат да живеят по-здравословно, но се губят в противоречива информация, скъпи диети и липса на конкретен план.</p>
+                    <p class="mt-8">Целта на този сайт е проста — да те убеди с реални числа, да ти даде практичен план и да докаже, че здравословният начин на живот <strong>не е скъп и не е сложен</strong>.</p>
+                    <p class="mt-8">Ако имаш въпрос, намираш грешка или просто искаш да споделиш резултати — пиши ми на <a href="mailto:ivvmilev@gmail.com" style="color:var(--green);">ivvmilev@gmail.com</a>.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- 6. CTA -->
 <section class="cta-section">
-    <h2>Не от понеделник.<br><em class="green">Утре сутринта.</em></h2>
+    <h2 data-i18n-html="i.cta.h2">Не от понеделник.<br><em class="green">Утре сутринта.</em></h2>
 
     <div class="cta-steps">
         <div class="cta-step">
@@ -483,6 +702,10 @@
 
     <a href="move.html" class="btn btn-green">Виж как се движи →</a>
 </section>
+
+<footer class="site-footer">
+    Направено от <a href="mailto:ivvmilev@gmail.com">Иван Милев</a> · ivvmilev@gmail.com
+</footer>
 
 <script src="js/main.js"></script>
 </body>
