@@ -1962,6 +1962,23 @@ input[type="range"]::-moz-range-thumb {
 }
 
 @media (max-width: 480px) {
+    .top-controls {
+        top: 76px;
+        right: 12px;
+        gap: 6px;
+    }
+
+    .theme-toggle {
+        width: 34px;
+        height: 34px;
+    }
+
+    .visitor-badge {
+        height: 34px;
+        padding: 0 8px;
+        font-size: 0.72rem;
+    }
+
     .offers-grid {
         grid-template-columns: 1fr;
     }
@@ -2007,6 +2024,6 @@ input[type="range"]::-moz-range-thumb {
     }
 
     .hero {
-        padding-top: 80px;
+        padding-top: 128px;
     }
 }
