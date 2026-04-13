@@ -126,6 +126,31 @@ body {
     background: var(--surface-hover);
 }
 
+.visitor-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    height: 36px;
+    padding: 0 10px;
+    border-radius: 999px;
+    background: var(--surface);
+    border: 1px solid var(--surface-border);
+    color: var(--muted);
+    font-size: 0.78rem;
+    font-variant-numeric: tabular-nums;
+}
+
+.visitor-badge-count {
+    color: var(--green);
+    font-weight: 700;
+    min-width: 2.5ch;
+}
+
+.visitor-badge-icon {
+    font-size: 0.8rem;
+    line-height: 1;
+}
+
 /* --- Typography --- */
 h1, h2, h3, h4 {
     line-height: 1.2;

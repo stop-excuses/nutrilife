@@ -26,6 +26,12 @@ function initTopControls() {
     themeBtn.setAttribute("aria-label", "Toggle theme");
     wrapper.appendChild(themeBtn);
 
+    const visitorBadge = document.createElement("div");
+    visitorBadge.className = "visitor-badge";
+    visitorBadge.setAttribute("title", "Visits");
+    visitorBadge.innerHTML = '<span class="visitor-badge-icon">👁</span><span class="visitor-badge-count" id="visitor-count">...</span>';
+    wrapper.appendChild(visitorBadge);
+
     // ── Theme logic ──────────────────────────────────────────────────────
     const savedTheme = localStorage.getItem("nutrilife-theme");
     if (savedTheme === "light") {
@@ -77,15 +83,22 @@ function initTopControls() {
 
 /* --- Visitor Counter --- */
 async function initVisitorCounter() {
+    const countEl = document.getElementById("visitor-count");
     try {
         const res = await fetch("https://api.counterapi.dev/v1/nutrilife-bg/visits/up", {
             method: "GET",
             headers: { "Accept": "application/json" }
         });
         if (!res.ok) throw new Error("counter error");
-        await res.json();
+        const data = await res.json();
+        const count = data.count ?? data.value ?? null;
+        if (countEl && count !== null) {
+            countEl.textContent = Number(count).toLocaleString();
+        }
     } catch {
-        // Silently fail — counter stays as "..."
+        if (countEl) {
+            countEl.textContent = "n/a";
+        }
     }
 }
 
