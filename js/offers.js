@@ -230,6 +230,19 @@ function isProteinSource(offer) {
     return isStrictHighProtein(offer);
 }
 
+/**
+ * Returns true only when the product name matches a known entry in CANONICAL_NUTRITION.
+ * Used in the protein ranking to exclude products relying on unreliable scraped macros.
+ */
+function hasCanonicalNutrition(offer) {
+    const nameLower = (offer.name || "").toLowerCase();
+    if (NON_FOOD_MACRO_OVERRIDE.some(kw => nameLower.includes(kw))) return false;
+    for (const [keyword] of CANONICAL_NUTRITION) {
+        if (nameLower.includes(keyword)) return true;
+    }
+    return false;
+}
+
 /* -----------------------------------------------------------------------
    HIGH PROTEIN — strict nutritional criteria for training/muscle building.
    Requires:
@@ -816,7 +829,7 @@ function renderBulkRecommendations() {
     const container = document.getElementById("bulk-recommendations");
     if (!container) return;
 
-    const bulkItems = allOffers.filter(o => o.is_bulk_worthy && isHealthyOffer(o));
+    const bulkItems = allOffers.filter(o => o.is_bulk_worthy && isHealthyOffer(o) && (o.health_score || 0) >= 7);
 
     if (bulkItems.length === 0) {
         container.innerHTML = '<p style="color:var(--muted);">Няма bulk оферти тази седмица.</p>';
@@ -873,7 +886,8 @@ function renderProteinRanking() {
         if (!o.weight_grams || !o.price_per_kg || o.price_per_kg <= 0) return false;
         const macros = getMacros(o);
         if (!macros || macros.p < 8) return false;
-        if (!isProteinSource(o)) return false;
+        // Only products with authoritative canonical nutrition — no scraped-macro distortion
+        if (!hasCanonicalNutrition(o)) return false;
         return true;
     });
 
