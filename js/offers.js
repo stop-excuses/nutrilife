@@ -698,15 +698,22 @@ function renderIngredientsFlags(offer) {
     const flags = offer.ingredients_flags;
     if (!raw && (!flags || flags.length === 0)) return "";
 
+    const lang = (window.I18N && window.I18N.getLang) ? window.I18N.getLang() : "bg";
+    const localizedRaw = lang === "en"
+        ? (offer.ingredients_en || offer.ingredients_bg || raw)
+        : (offer.ingredients_bg || offer.ingredients_en || raw);
+
     const redCount = (flags || []).filter(f => f.level === "red").length;
     const amberCount = (flags || []).filter(f => f.level === "amber").length;
     const noFlags = !flags || flags.length === 0;
 
+    const t = window.I18N && window.I18N.t ? window.I18N.t.bind(window.I18N) : k => k;
+
     const summary = noFlags
-        ? `<span class="ing-clean">✓ Без открити добавки</span>`
+        ? `<span class="ing-clean">✓ ${t("offer.ing.clean")}</span>`
         : [
-            redCount ? `<span class="ing-badge red">${redCount} вредни</span>` : "",
-            amberCount ? `<span class="ing-badge amber">${amberCount} спорни</span>` : "",
+            redCount ? `<span class="ing-badge red">${redCount} ${t("offer.ing.harmful")}</span>` : "",
+            amberCount ? `<span class="ing-badge amber">${amberCount} ${t("offer.ing.questionable")}</span>` : "",
           ].filter(Boolean).join(" ");
 
     const flagRows = (flags || []).map(f => `
@@ -716,12 +723,12 @@ function renderIngredientsFlags(offer) {
             <span class="ing-reason">${escapeHtml(f.reason)}</span>
         </div>`).join("");
 
-    const compact = raw.length > 300 ? raw.slice(0, 297) + "…" : raw;
+    const compact = localizedRaw.length > 300 ? localizedRaw.slice(0, 297) + "…" : localizedRaw;
 
     return `
         <div class="ingredients-block">
             <div class="ing-header">
-                <span>Съставки</span>
+                <span>${t("offer.ingredients")}</span>
                 <div class="ing-summary">${summary}</div>
             </div>
             <div class="ing-raw">${escapeHtml(compact)}</div>
@@ -730,10 +737,14 @@ function renderIngredientsFlags(offer) {
 }
 
 function renderIngredientsBlock(offer) {
-    const ingredients = (offer.macros || {}).ingredients;
+    const lang = (window.I18N && window.I18N.getLang) ? window.I18N.getLang() : "bg";
+    const ingredients = lang === "en"
+        ? (offer.ingredients_en || offer.ingredients_bg || (offer.macros || {}).ingredients)
+        : (offer.ingredients_bg || offer.ingredients_en || (offer.macros || {}).ingredients);
     if (!ingredients) return "";
+    const t = window.I18N && window.I18N.t ? window.I18N.t.bind(window.I18N) : k => k;
     const compact = ingredients.length > 280 ? `${ingredients.slice(0, 277)}...` : ingredients;
-    return `<div class="details-note"><strong>Съставки:</strong> ${escapeHtml(compact)}</div>`;
+    return `<div class="details-note"><strong>${t("offer.ingredients")}:</strong> ${escapeHtml(compact)}</div>`;
 }
 
 function renderPagination(totalCount, totalPages) {

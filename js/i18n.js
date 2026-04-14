@@ -247,6 +247,11 @@
             'c.shop.h2': 'Седмична пазарна листа',
             'c.shop.sub': '7 продукта за цяла седмица',
 
+            'offer.ingredients': 'Съставки',
+            'offer.ing.harmful': 'вредни',
+            'offer.ing.questionable': 'спорни',
+            'offer.ing.clean': 'Без открити добавки',
+
             'c.cta.h2': 'Вземи плана.<br><em class="green">Не плащай повече.</em>',
             'c.cta.p': 'Имаш числата. Имаш плана. Единственото, което трябва да направиш — е да тръгнеш.',
             'c.cta.btn': 'Започни сега →',
@@ -878,6 +883,11 @@
 
             'c.shop.h2': 'Weekly Shopping List',
             'c.shop.sub': '7 products for a whole week',
+
+            'offer.ingredients': 'Ingredients',
+            'offer.ing.harmful': 'harmful',
+            'offer.ing.questionable': 'questionable',
+            'offer.ing.clean': 'No additives detected',
 
             'c.cta.h2': 'Get the plan.<br><em class="green">Stop overpaying.</em> ',
             'c.cta.p': 'You have the numbers. You have the plan. The only thing left — is to start.',
