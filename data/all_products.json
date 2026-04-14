@@ -126,7 +126,12 @@
       "available_stores": [
         "Billa"
       ],
-      "product_id": "billa-ocean-fish-сьомга-котлет-за-1--e7271a"
+      "product_id": "billa-ocean-fish-сьомга-котлет-за-1--e7271a",
+      "ingredients_raw": "Pommes de terre 40%, _saumon_ atlantique* , _saumon_ argenté du Pacifique* 25%, _crème_ légère 9,5%, oignons, _lait_ demi-écrémé, poireaux 3,7%, huile de tournesol, _beurre_, fécule de manioc, sel, _œufs_,  citron 0,1%, persil, ail, poivre, curcuma.",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "id": "billa-clever-нахут-400-г-f2ec20",
@@ -210,7 +215,12 @@
       "available_stores": [
         "Billa"
       ],
-      "product_id": "billa-супер-цена-fishy-скумрия-в-дом-c82c44"
+      "product_id": "billa-супер-цена-fishy-скумрия-в-дом-c82c44",
+      "ingredients_raw": "Maquereaux, huile de soya, sel.",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "id": "billa-авокадо-хас-1-бр-b2ad97",
@@ -496,7 +506,12 @@
       "available_stores": [
         "Billa"
       ],
-      "product_id": "billa-супер-цена-oberon-бял-боб-добр-3a0b97"
+      "product_id": "billa-супер-цена-oberon-бял-боб-добр-3a0b97",
+      "ingredients_raw": "Beans (50%), Tomatoes (36%), Water, Sugar, Modified Cornflour, Salt, Spice Extracts , Herb Extract",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "id": "billa-пресни-пилешки-крила-за-1кг-пр-d1eca4",
@@ -540,7 +555,12 @@
       "available_stores": [
         "Billa"
       ],
-      "product_id": "billa-пресни-пилешки-крила-за-1кг-пр-d1eca4"
+      "product_id": "billa-пресни-пилешки-крила-за-1кг-пр-d1eca4",
+      "ingredients_raw": "Salade composée 80% (spécialités céréalières cuites (eau, semoule de BLE dur, OEUF, sel, curcuma), OEUF, salade 11%, viande de poulet, carottes, FROMAGE à pâte dure, jus de citron, huile de colza, eau, amidon, fécule, dextrose, ferments, sel, arôme naturel, persil). \r\nSauce vinaigrette balsamique 7% (huile de colza, huile d'olive vierge, vinaigre de vin (SULFITES), moût de raisin, sel) \r\nCookie au chocolat 7% (sucre, farine de BLE, OEUF, BEURRE, huile de colza, pâte et beurre de cacao, poudre de cacao maigre, poudre à lever: bicarbonate de sodium, émulsifiants: lécithines de SOJA, arôme naturel, sel). \r\nGressins 4% (farine de BLE, son de BLE, fibre de BLE, semoule de BLE dur, BEURRE, huile d'olive vierge, huile de colza, eau, levure boulangère, sucre, amidon, fécule, sel, graines de pavot, arôme naturel).",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "id": "billa-супер-цена-пилешки-долен-бут-з-4863ba",
@@ -584,7 +604,12 @@
       "available_stores": [
         "Billa"
       ],
-      "product_id": "billa-супер-цена-пилешки-долен-бут-з-4863ba"
+      "product_id": "billa-супер-цена-пилешки-долен-бут-з-4863ba",
+      "ingredients_raw": "Salade composée 80% (spécialités céréalières cuites (eau, semoule de BLE dur, OEUF, sel, curcuma), OEUF, salade 11%, viande de poulet, carottes, FROMAGE à pâte dure, jus de citron, huile de colza, eau, amidon, fécule, dextrose, ferments, sel, arôme naturel, persil). \r\nSauce vinaigrette balsamique 7% (huile de colza, huile d'olive vierge, vinaigre de vin (SULFITES), moût de raisin, sel) \r\nCookie au chocolat 7% (sucre, farine de BLE, OEUF, BEURRE, huile de colza, pâte et beurre de cacao, poudre de cacao maigre, poudre à lever: bicarbonate de sodium, émulsifiants: lécithines de SOJA, arôme naturel, sel). \r\nGressins 4% (farine de BLE, son de BLE, fibre de BLE, semoule de BLE dur, BEURRE, huile d'olive vierge, huile de colza, eau, levure boulangère, sucre, amidon, fécule, sel, graines de pavot, arôme naturel).",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "id": "billa-супер-цена-българска-ферма-пря-b8a471",
@@ -627,7 +652,12 @@
       "available_stores": [
         "Billa"
       ],
-      "product_id": "billa-супер-цена-българска-ферма-пря-b8a471"
+      "product_id": "billa-супер-цена-българска-ферма-пря-b8a471",
+      "ingredients_raw": "Salade composée 80% (spécialités céréalières cuites (eau, semoule de BLE dur, OEUF, sel, curcuma), OEUF, salade 11%, viande de poulet, carottes, FROMAGE à pâte dure, jus de citron, huile de colza, eau, amidon, fécule, dextrose, ferments, sel, arôme naturel, persil). \r\nSauce vinaigrette balsamique 7% (huile de colza, huile d'olive vierge, vinaigre de vin (SULFITES), moût de raisin, sel) \r\nCookie au chocolat 7% (sucre, farine de BLE, OEUF, BEURRE, huile de colza, pâte et beurre de cacao, poudre de cacao maigre, poudre à lever: bicarbonate de sodium, émulsifiants: lécithines de SOJA, arôme naturel, sel). \r\nGressins 4% (farine de BLE, son de BLE, fibre de BLE, semoule de BLE dur, BEURRE, huile d'olive vierge, huile de colza, eau, levure boulangère, sucre, amidon, fécule, sel, graines de pavot, arôme naturel).",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "id": "billa-raffaello-яйце-100-г-ce9f24",
@@ -713,7 +743,12 @@
       "available_stores": [
         "Billa"
       ],
-      "product_id": "billa-супер-цена-печено-пиле-от-топл-0f98b9"
+      "product_id": "billa-супер-цена-печено-пиле-от-топл-0f98b9",
+      "ingredients_raw": "Salade composée 80% (spécialités céréalières cuites (eau, semoule de BLE dur, OEUF, sel, curcuma), OEUF, salade 11%, viande de poulet, carottes, FROMAGE à pâte dure, jus de citron, huile de colza, eau, amidon, fécule, dextrose, ferments, sel, arôme naturel, persil). \r\nSauce vinaigrette balsamique 7% (huile de colza, huile d'olive vierge, vinaigre de vin (SULFITES), moût de raisin, sel) \r\nCookie au chocolat 7% (sucre, farine de BLE, OEUF, BEURRE, huile de colza, pâte et beurre de cacao, poudre de cacao maigre, poudre à lever: bicarbonate de sodium, émulsifiants: lécithines de SOJA, arôme naturel, sel). \r\nGressins 4% (farine de BLE, son de BLE, fibre de BLE, semoule de BLE dur, BEURRE, huile d'olive vierge, huile de colza, eau, levure boulangère, sucre, amidon, fécule, sel, graines de pavot, arôme naturel).",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "id": "billa-кенар-млечна-салата-премиум-от-7a223b",
@@ -837,7 +872,12 @@
       "available_stores": [
         "Billa"
       ],
-      "product_id": "billa-супер-цена-бадем-печен-за-1-кг-850d9f"
+      "product_id": "billa-супер-цена-бадем-печен-за-1-кг-850d9f",
+      "ingredients_raw": "shelled almonds",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "id": "billa-clever-колбас-тип-телешки-камч-f6d78f",
@@ -923,7 +963,12 @@
       "available_stores": [
         "Billa"
       ],
-      "product_id": "billa-olympus-извара-400-г-e976cf"
+      "product_id": "billa-olympus-извара-400-г-e976cf",
+      "ingredients_raw": "Latte pastorizzato, sale, fermenti lattici, caglio microbico",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "id": "billa-супер-цена-тиквички-за-1-кг-305756",
@@ -1004,7 +1049,12 @@
       "available_stores": [
         "Billa"
       ],
-      "product_id": "billa-кайма-смес-агнешко-и-телешко-м-10f10a"
+      "product_id": "billa-кайма-смес-агнешко-и-телешко-м-10f10a",
+      "ingredients_raw": "Viande de porc 54%, gras de porc, eau, viande de veau 2,5%, gras de veau, sel, épices et plantes aromatiques (ail, cannelle, coriandre, échalote, gingembre, laurier, macis, muscade, oignons, paprika, poivre, romarin, thym), sirop de glucose, oignon, dextrose, plasma de porc déshydraté, arômes naturels, correcteur d'acidité : citrates de sodium, acidifiant : acide citrique, antioxydant : ascorbate de sodium, conservateur : nitrite de sodium. Viande de porc et de veau origine France.",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "id": "billa-мургаш-извара-от-деликатесната-e3c535",
@@ -1236,7 +1286,12 @@
       "available_stores": [
         "Billa"
       ],
-      "product_id": "billa-пуешко-месо-в-собствен-сос-510-d3700a"
+      "product_id": "billa-пуешко-месо-в-собствен-сос-510-d3700a",
+      "ingredients_raw": "mogyoró",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "id": "billa-печено-агнешко-кюфте-кебапче-о-c30556",
@@ -1361,7 +1416,12 @@
       "available_stores": [
         "Billa"
       ],
-      "product_id": "billa-верея-кисело-мляко-4-5-400-г-0c705f"
+      "product_id": "billa-верея-кисело-мляко-4-5-400-г-0c705f",
+      "ingredients_raw": "ليوغور م.د,%2. مصنوع إخط قد يمكن أن يحتوي على الگلوتين، الجوز والبندق. 2.",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "id": "billa-супер-цена-oberon-домати-цели--6dc580",
@@ -1646,7 +1706,12 @@
       "available_stores": [
         "Billa"
       ],
-      "product_id": "billa-супер-цена-philadelphia-крем-с-265e42"
+      "product_id": "billa-супер-цена-philadelphia-крем-с-265e42",
+      "ingredients_raw": "lait frais entier, crème, stabilisants, amidon, carraghénane, sel, ferments lactiques\nmatière grasse 21%",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "id": "billa-супер-цена-лесидрен-краве-сире-6c0f2a",
@@ -1689,7 +1754,12 @@
       "available_stores": [
         "Billa"
       ],
-      "product_id": "billa-супер-цена-лесидрен-краве-сире-6c0f2a"
+      "product_id": "billa-супер-цена-лесидрен-краве-сире-6c0f2a",
+      "ingredients_raw": "lait frais entier, crème, stabilisants, amidon, carraghénane, sel, ferments lactiques\nmatière grasse 21%",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "id": "billa-fivepi-пушено-топено-сирене-50-143902",
@@ -2015,7 +2085,12 @@
       "available_stores": [
         "Billa"
       ],
-      "product_id": "billa-gran-d-oro-сирене-бри-60-от-де-afbabc"
+      "product_id": "billa-gran-d-oro-сирене-бри-60-от-де-afbabc",
+      "ingredients_raw": "lait frais entier, crème, stabilisants, amidon, carraghénane, sel, ferments lactiques\nmatière grasse 21%",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "id": "billa-сега-в-billa-агнешко-месо-задн-4e27c7",
@@ -2216,7 +2291,12 @@
       "available_stores": [
         "Billa"
       ],
-      "product_id": "billa-krina-ориз-перлен-1-кг-075a53"
+      "product_id": "billa-krina-ориз-перлен-1-кг-075a53",
+      "ingredients_raw": "Перлен ориз 88%, киноа 12%.",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "id": "billa-свинска-пача-в-буркан-510-г-пр-49ad8d",
@@ -2301,7 +2381,12 @@
       "available_stores": [
         "Billa"
       ],
-      "product_id": "billa-billa-premium-чоризо-иберико-8-13733c"
+      "product_id": "billa-billa-premium-чоризо-иберико-8-13733c",
+      "ingredients_raw": "Organic wholegrain _rice_ 99.8%, Sea Salt",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "id": "billa-стара-планина-кюфтета-или-кеба-5af0ac",
@@ -2344,7 +2429,12 @@
       "available_stores": [
         "Billa"
       ],
-      "product_id": "billa-стара-планина-кюфтета-или-кеба-5af0ac"
+      "product_id": "billa-стара-планина-кюфтета-или-кеба-5af0ac",
+      "ingredients_raw": "Jambon frais de porc, Sel, Arômes naturels (présence naturelle de polyphénols), Bouillon (eau, os de porc, sel, extraits de carotte et d'oignon, gras et couenne de porc, ail, poivre, persil, laurier, clou de girofle), Chlorure de potassium, Sucre, Antioxydant : acide ascorbique, Vinaigre en poudre.",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "id": "billa-супер-цена-свинска-плешка-без--62d6c2",
@@ -2431,7 +2521,12 @@
       "available_stores": [
         "Billa"
       ],
-      "product_id": "billa-супер-цена-свинско-контрафиле--71ed09"
+      "product_id": "billa-супер-цена-свинско-контрафиле--71ed09",
+      "ingredients_raw": "Jambon frais de porc, Sel, Arômes naturels (présence naturelle de polyphénols), Bouillon (eau, os de porc, sel, extraits de carotte et d'oignon, gras et couenne de porc, ail, poivre, persil, laurier, clou de girofle), Chlorure de potassium, Sucre, Antioxydant : acide ascorbique, Vinaigre en poudre.",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "id": "billa-свински-гърди-с-кост-от-свежат-bb8a83",
@@ -2860,7 +2955,12 @@
       "available_stores": [
         "Billa"
       ],
-      "product_id": "billa-olympus-прясно-мляко-3-7-1-5-л-352101"
+      "product_id": "billa-olympus-прясно-мляко-3-7-1-5-л-352101",
+      "ingredients_raw": "Пастьоризирано краве мляко",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "id": "billa-лимони-за-1-кг-f9ac2b",
@@ -2975,7 +3075,12 @@
       "available_stores": [
         "Billa"
       ],
-      "product_id": "billa-deutsche-markenbutter-краве-ма-d6314b"
+      "product_id": "billa-deutsche-markenbutter-краве-ма-d6314b",
+      "ingredients_raw": "краве масло",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "id": "billa-billa-бекон-слайс-200-г-5975bd",
@@ -3049,7 +3154,12 @@
       "available_stores": [
         "Billa"
       ],
-      "product_id": "billa-nice-bites-сурово-кашу-200-г-ce971b"
+      "product_id": "billa-nice-bites-сурово-кашу-200-г-ce971b",
+      "ingredients_raw": "cashews",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "id": "billa-billa-меденки-500-г-9bd32b",
@@ -8615,7 +8725,12 @@
       "available_stores": [
         "Fantastico"
       ],
-      "product_id": "fantastico-боб-крина-маслен-400-гр-консер-edf9a4"
+      "product_id": "fantastico-боб-крина-маслен-400-гр-консер-edf9a4",
+      "ingredients_raw": "Beans (50%), Tomatoes (36%), Water, Sugar, Modified Cornflour, Salt, Spice Extracts , Herb Extract",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "id": "fantastico-к-т-кърпи-влажни-aroma-fresh-c-8291f4",
@@ -8780,7 +8895,12 @@
       "available_stores": [
         "Fantastico"
       ],
-      "product_id": "fantastico-боб-оро-салатен-бял-720-гр-16743c"
+      "product_id": "fantastico-боб-оро-салатен-бял-720-гр-16743c",
+      "ingredients_raw": "Beans (50%), Tomatoes (36%), Water, Sugar, Modified Cornflour, Salt, Spice Extracts , Herb Extract",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "id": "fantastico-vernada-салата-хумус-различни--e7353e",
@@ -8905,7 +9025,12 @@
       "available_stores": [
         "Fantastico"
       ],
-      "product_id": "fantastico-бутче-пиле-охладено-прясно-тар-17f2c3"
+      "product_id": "fantastico-бутче-пиле-охладено-прясно-тар-17f2c3",
+      "ingredients_raw": "Salade composée 80% (spécialités céréalières cuites (eau, semoule de BLE dur, OEUF, sel, curcuma), OEUF, salade 11%, viande de poulet, carottes, FROMAGE à pâte dure, jus de citron, huile de colza, eau, amidon, fécule, dextrose, ferments, sel, arôme naturel, persil). \r\nSauce vinaigrette balsamique 7% (huile de colza, huile d'olive vierge, vinaigre de vin (SULFITES), moût de raisin, sel) \r\nCookie au chocolat 7% (sucre, farine de BLE, OEUF, BEURRE, huile de colza, pâte et beurre de cacao, poudre de cacao maigre, poudre à lever: bicarbonate de sodium, émulsifiants: lécithines de SOJA, arôme naturel, sel). \r\nGressins 4% (farine de BLE, son de BLE, fibre de BLE, semoule de BLE dur, BEURRE, huile d'olive vierge, huile de colza, eau, levure boulangère, sucre, amidon, fécule, sel, graines de pavot, arôme naturel).",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "id": "fantastico-боб-български-имало-едно-време-334827",
@@ -9110,7 +9235,12 @@
       "available_stores": [
         "Fantastico"
       ],
-      "product_id": "fantastico-филе-пиле-охладено-насипно-гра-889df0"
+      "product_id": "fantastico-филе-пиле-охладено-насипно-гра-889df0",
+      "ingredients_raw": "Salade composée 80% (spécialités céréalières cuites (eau, semoule de BLE dur, OEUF, sel, curcuma), OEUF, salade 11%, viande de poulet, carottes, FROMAGE à pâte dure, jus de citron, huile de colza, eau, amidon, fécule, dextrose, ferments, sel, arôme naturel, persil). \r\nSauce vinaigrette balsamique 7% (huile de colza, huile d'olive vierge, vinaigre de vin (SULFITES), moût de raisin, sel) \r\nCookie au chocolat 7% (sucre, farine de BLE, OEUF, BEURRE, huile de colza, pâte et beurre de cacao, poudre de cacao maigre, poudre à lever: bicarbonate de sodium, émulsifiants: lécithines de SOJA, arôme naturel, sel). \r\nGressins 4% (farine de BLE, son de BLE, fibre de BLE, semoule de BLE dur, BEURRE, huile d'olive vierge, huile de colza, eau, levure boulangère, sucre, amidon, fécule, sel, graines de pavot, arôme naturel).",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "id": "fantastico-вино-мерло-симбиоза-750-мл-вин-cc4570",
@@ -9470,7 +9600,12 @@
       "available_stores": [
         "Fantastico"
       ],
-      "product_id": "fantastico-каша-jotis-cremilac-пълноз-с-о-d842c8"
+      "product_id": "fantastico-каша-jotis-cremilac-пълноз-с-о-d842c8",
+      "ingredients_raw": "Flocons d'_avoine_ complète issue de l'agriculture biologique.",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "id": "fantastico-домати-русо-белени-цели-400-гр-aa834c",
@@ -10561,7 +10696,12 @@
       "available_stores": [
         "Fantastico"
       ],
-      "product_id": "fantastico-ролца-мини-filosophy-бутер-със-6a2a52"
+      "product_id": "fantastico-ролца-мини-filosophy-бутер-със-6a2a52",
+      "ingredients_raw": "lait frais entier, crème, stabilisants, amidon, carraghénane, sel, ferments lactiques\nmatière grasse 21%",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "id": "fantastico-сирене-от-краве-мляко-lacrima--7d0b03",
@@ -10604,7 +10744,12 @@
       "available_stores": [
         "Fantastico"
       ],
-      "product_id": "fantastico-сирене-от-краве-мляко-lacrima--7d0b03"
+      "product_id": "fantastico-сирене-от-краве-мляко-lacrima--7d0b03",
+      "ingredients_raw": "lait frais entier, crème, stabilisants, amidon, carraghénane, sel, ferments lactiques\nmatière grasse 21%",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "id": "fantastico-сирене-от-краве-мляко-беленско-1810a8",
@@ -10648,7 +10793,12 @@
       "available_stores": [
         "Fantastico"
       ],
-      "product_id": "fantastico-сирене-от-краве-мляко-беленско-1810a8"
+      "product_id": "fantastico-сирене-от-краве-мляко-беленско-1810a8",
+      "ingredients_raw": "lait frais entier, crème, stabilisants, amidon, carraghénane, sel, ferments lactiques\nmatière grasse 21%",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "id": "fantastico-маслини-зелени-без-костилка-ре-967be1",
@@ -10730,7 +10880,12 @@
       "available_stores": [
         "Fantastico"
       ],
-      "product_id": "fantastico-сирене-с-трюфел-ферма-георгиев-372b23"
+      "product_id": "fantastico-сирене-с-трюфел-ферма-георгиев-372b23",
+      "ingredients_raw": "lait frais entier, crème, stabilisants, amidon, carraghénane, sel, ferments lactiques\nmatière grasse 21%",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "id": "fantastico-маслини-зелени-пикантни-на-гри-bf837d",
@@ -10894,7 +11049,12 @@
       "available_stores": [
         "Fantastico"
       ],
-      "product_id": "fantastico-сирене-краве-500-гр-маджаров-з-38b754"
+      "product_id": "fantastico-сирене-краве-500-гр-маджаров-з-38b754",
+      "ingredients_raw": "lait frais entier, crème, stabilisants, amidon, carraghénane, sel, ferments lactiques\nmatière grasse 21%",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "id": "fantastico-сирене-от-краве-мляко-саяна-зн-d6008b",
@@ -11105,7 +11265,12 @@
       "available_stores": [
         "Fantastico"
       ],
-      "product_id": "fantastico-сирене-от-краве-мляко-ел-би-80-6392fd"
+      "product_id": "fantastico-сирене-от-краве-мляко-ел-би-80-6392fd",
+      "ingredients_raw": "lait frais entier, crème, stabilisants, amidon, carraghénane, sel, ferments lactiques\nmatière grasse 21%",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "id": "fantastico-грах-arriva-млечен-400-гр-конс-8e4355",
@@ -12626,7 +12791,12 @@
       "available_stores": [
         "Fantastico"
       ],
-      "product_id": "fantastico-брашно-мелко-тип-500-1-кг-20ddc5"
+      "product_id": "fantastico-брашно-мелко-тип-500-1-кг-20ddc5",
+      "ingredients_raw": "Пшенично брашно, Регулатор на киселинността: аскорбинова киселина, Ензими,",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "id": "fantastico-мляко-кисело-домлян-3-6-500-гр-c13b53",
@@ -28681,7 +28851,12 @@
       "available_stores": [
         "Kaufland"
       ],
-      "product_id": "kaufland-маслини-каламата-765d5d"
+      "product_id": "kaufland-маслини-каламата-765d5d",
+      "ingredients_raw": "Маслини, трапезна сол, винен оцет, регулатор на киселинността: млечна киселина. Може да съдържа следи от бадеми.",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "id": "kaufland-маслини-гръцка-салата-2041c2",
@@ -45757,7 +45932,12 @@
       "available_stores": [
         "Lidl"
       ],
-      "product_id": "lidl-бял-ориз-d5669d"
+      "product_id": "lidl-бял-ориз-d5669d",
+      "ingredients_raw": "ориз",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "id": "ocr-lidl-7-пица-фермерски-хляб-с-шунка-и-моцарела-0-96",
@@ -45850,7 +46030,12 @@
       "available_stores": [
         "Lidl"
       ],
-      "product_id": "lidl-свинско-контрафиле-3313e8"
+      "product_id": "lidl-свинско-контрафиле-3313e8",
+      "ingredients_raw": "Jambon frais de porc, Sel, Arômes naturels (présence naturelle de polyphénols), Bouillon (eau, os de porc, sel, extraits de carotte et d'oignon, gras et couenne de porc, ail, poivre, persil, laurier, clou de girofle), Chlorure de potassium, Sucre, Antioxydant : acide ascorbique, Vinaigre en poudre.",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "id": "lidl-свински-гърди-73e22f",
@@ -46703,7 +46888,12 @@
       "is_high_protein": true,
       "image": "https://imgproxy-retcat.assets.schwarz/uPfYDrGNL6pq2CTe5f7Swzv_XVkTQnWEIYRAyNciqyY/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9FNzhDQkUxQTg5QUZBNDkzNTE0NTFDRjZ/COUZBQ0Y5Qjg0MEExM0I2QTI5OTlFNjBCNkEzMEVCMDVCQzQyMjRFLnBuZw.png",
       "product_id": "lidl-пушена-риба-тон-407255",
-      "first_seen": "2026-04-14"
+      "first_seen": "2026-04-14",
+      "ingredients_raw": "Atún claro (pescado), aceite de oliva y sal.",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "name": "Пушена сьомга",
@@ -46734,7 +46924,12 @@
       "is_high_protein": true,
       "image": "https://imgproxy-retcat.assets.schwarz/ivwM3f18Jn9GLVsIh_1FKRGndIchxaYTEsPCjV2QHbs/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS8yRTI2NzMyOTEwNDE1MjgwQjBDODAwMzR/BODM3QjA1RUVCRkNFNDdFQjUyNDhBNDdCMjMyNTYyNEZGOEJFMjg0LnBuZw.png",
       "product_id": "lidl-пушена-сьомга-3ac433",
-      "first_seen": "2026-04-14"
+      "first_seen": "2026-04-14",
+      "ingredients_raw": "Pommes de terre 40%, _saumon_ atlantique* , _saumon_ argenté du Pacifique* 25%, _crème_ légère 9,5%, oignons, _lait_ demi-écrémé, poireaux 3,7%, huile de tournesol, _beurre_, fécule de manioc, sel, _œufs_,  citron 0,1%, persil, ail, poivre, curcuma.",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "name": "Филе от сьомга XXL",
@@ -46765,7 +46960,12 @@
       "is_high_protein": true,
       "image": "https://imgproxy-retcat.assets.schwarz/k1a7o1aAztPQ66ZnpWTIRa0ZMuqpPH3q-SIX6yKHuTo/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS84OEVBOUMyRUFEMDQxNTRFNjRFNEZFMzQ/4QTVBRkM1OThBQ0QxMTgzNEVFODQxMTE0OTc5NEZDQ0RCMTBERTdBLnBuZw.png",
       "product_id": "lidl-филе-от-сьомга-xxl-38311b",
-      "first_seen": "2026-04-14"
+      "first_seen": "2026-04-14",
+      "ingredients_raw": "Pommes de terre 40%, _saumon_ atlantique* , _saumon_ argenté du Pacifique* 25%, _crème_ légère 9,5%, oignons, _lait_ demi-écrémé, poireaux 3,7%, huile de tournesol, _beurre_, fécule de manioc, sel, _œufs_,  citron 0,1%, persil, ail, poivre, curcuma.",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "name": "Гъба",
@@ -46847,7 +47047,12 @@
       "is_high_protein": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/2809920000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-пилешки-фенер-43a35b",
-      "first_seen": "2026-04-14"
+      "first_seen": "2026-04-14",
+      "ingredients_raw": "Salade composée 80% (spécialités céréalières cuites (eau, semoule de BLE dur, OEUF, sel, curcuma), OEUF, salade 11%, viande de poulet, carottes, FROMAGE à pâte dure, jus de citron, huile de colza, eau, amidon, fécule, dextrose, ferments, sel, arôme naturel, persil). \r\nSauce vinaigrette balsamique 7% (huile de colza, huile d'olive vierge, vinaigre de vin (SULFITES), moût de raisin, sel) \r\nCookie au chocolat 7% (sucre, farine de BLE, OEUF, BEURRE, huile de colza, pâte et beurre de cacao, poudre de cacao maigre, poudre à lever: bicarbonate de sodium, émulsifiants: lécithines de SOJA, arôme naturel, sel). \r\nGressins 4% (farine de BLE, son de BLE, fibre de BLE, semoule de BLE dur, BEURRE, huile d'olive vierge, huile de colza, eau, levure boulangère, sucre, amidon, fécule, sel, graines de pavot, arôme naturel).",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "name": "Български спанак",
@@ -46933,7 +47138,12 @@
       "is_high_protein": false,
       "image": "https://imgproxy-retcat.assets.schwarz/Q4zvMD4m0Z8qNI1M3MTTHWtMc83nN_jC3k1eA5YyT5I/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS81NUQzRTMyRDExNjBBMUU5MEYyRjgzNDJ/CMzM3REQxQTJCMTg3REREM0VGMTYyMEQ0ODhCNjM1MDA4OUVDQUE5LnBuZw.png",
       "product_id": "lidl-леща-e5fbdb",
-      "first_seen": "2026-04-14"
+      "first_seen": "2026-04-14",
+      "ingredients_raw": "Леща",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "name": "Яйца от пъдпъдъци",
@@ -46993,7 +47203,12 @@
       "is_high_protein": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/01000431_A?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-пилешко-бутче-262812",
-      "first_seen": "2026-04-14"
+      "first_seen": "2026-04-14",
+      "ingredients_raw": "Filet de poulet 96%, bouillon (eau, os de poulet, plantes V aromatiques, ail, épices, oignon, poireau, céleri, carotte), sel, arômes naturels (présence naturelle de polyphenols), antioxydant: acide ascorbique, dextrose, H colorant: caramel ordinaire. Viande de poulet origine UE.",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "name": "Червена леща",
@@ -47024,7 +47239,12 @@
       "is_high_protein": false,
       "image": "https://imgproxy-retcat.assets.schwarz/ujulHsZ8eBHPvvYh9HCirBkNsc2JAlfFxsQO8A9SZ8Y/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS82MkNFRjAzNEUxOUJDMTc1RDE3RTIxMzR/CRDM2MjM5NEM4N0M3NzBGMDQxM0U3MEFFQ0UxQzQ3MDBBNUE5NDZBLnBuZw.png",
       "product_id": "lidl-червена-леща-22cc0e",
-      "first_seen": "2026-04-14"
+      "first_seen": "2026-04-14",
+      "ingredients_raw": "Carottes* 24%, eau, lentilles vertes* 14%, riz basmati* complet 12%, oignons* 12%, huile de tournesol*, protéines de _soja_* texturées et réhydratées 6%, sauce _soja_* (eau, _soja_*, _blé_*, sel de mer, alcool*).\r\n\r\n* Ingrédients issus de l'agriculture biologique",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "name": "Гъби печурки",
@@ -47051,7 +47271,12 @@
       "is_high_protein": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/09700651_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-гъби-печурки-2728d2",
-      "first_seen": "2026-04-14"
+      "first_seen": "2026-04-14",
+      "ingredients_raw": "Гъби, вода, сол, регулатор на киселинността: лимонена киселина, антиоксидант: аскорбинова киселина, натриев метабисулфит /сулфити/.",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "name": "Едър бял боб",
@@ -47109,7 +47334,12 @@
       "is_high_protein": true,
       "image": "https://imgproxy-retcat.assets.schwarz/ruYcqybL3VxIXaR17NRF0XUguEsCrKkEtlC9oKKyir4/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9FMjE0Q0Y1MUE1MDlFMjU3RkE2RTJGMjN/CQTM2QTA0QUQyQTJDMjdGMUQwODAzQkM1N0NCN0UwQTVBNzQ1RDNCLnBuZw.png",
       "product_id": "lidl-пилешко-мляно-месо-f681cd",
-      "first_seen": "2026-04-14"
+      "first_seen": "2026-04-14",
+      "ingredients_raw": "Filet de poulet 96%, bouillon (eau, os de poulet, plantes V aromatiques, ail, épices, oignon, poireau, céleri, carotte), sel, arômes naturels (présence naturelle de polyphenols), antioxydant: acide ascorbique, dextrose, H colorant: caramel ordinaire. Viande de poulet origine UE.",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "name": "Мариновани пилешки филенца",
@@ -47139,7 +47369,12 @@
       "is_high_protein": true,
       "image": "https://imgproxy-retcat.assets.schwarz/Kc55SDgk46Rt5kDKmq3hfW9eokJLMHwKexdjneB_Rr0/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9DRUY3RTA5RUJGODZFNUQzMkJDRjJBQjM/0OUI4QTJDODlCMUM0QTQ1NERFMjAwRkFBMEY5OUE5OUVEMjEyQzk1LnBuZw.png",
       "product_id": "lidl-мариновани-пилешки-филенца-269763",
-      "first_seen": "2026-04-14"
+      "first_seen": "2026-04-14",
+      "ingredients_raw": "Salade composée 80% (spécialités céréalières cuites (eau, semoule de BLE dur, OEUF, sel, curcuma), OEUF, salade 11%, viande de poulet, carottes, FROMAGE à pâte dure, jus de citron, huile de colza, eau, amidon, fécule, dextrose, ferments, sel, arôme naturel, persil). \r\nSauce vinaigrette balsamique 7% (huile de colza, huile d'olive vierge, vinaigre de vin (SULFITES), moût de raisin, sel) \r\nCookie au chocolat 7% (sucre, farine de BLE, OEUF, BEURRE, huile de colza, pâte et beurre de cacao, poudre de cacao maigre, poudre à lever: bicarbonate de sodium, émulsifiants: lécithines de SOJA, arôme naturel, sel). \r\nGressins 4% (farine de BLE, son de BLE, fibre de BLE, semoule de BLE dur, BEURRE, huile d'olive vierge, huile de colza, eau, levure boulangère, sucre, amidon, fécule, sel, graines de pavot, arôme naturel).",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "name": "Прясно цяло пиле плюс две четвъртинки и бутчета",
@@ -47169,7 +47404,12 @@
       "is_high_protein": true,
       "image": "https://imgproxy-retcat.assets.schwarz/eeWiKuAVzYQsWUxV7ls6KWCIzp8VZBT4naEXaiY-0Ug/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS81MDBGMUM4RjNGMjAzQ0IwQzdBQjM0Njg/xRkFGRUZFRDRDRDBFMkFFOUQ0QzA4MDJCQ0E5MzhBMDZBMTVDQjlBLnBuZw.png",
       "product_id": "lidl-прясно-цяло-пиле-плюс-две-четв-5921c3",
-      "first_seen": "2026-04-14"
+      "first_seen": "2026-04-14",
+      "ingredients_raw": "Salade composée 80% (spécialités céréalières cuites (eau, semoule de BLE dur, OEUF, sel, curcuma), OEUF, salade 11%, viande de poulet, carottes, FROMAGE à pâte dure, jus de citron, huile de colza, eau, amidon, fécule, dextrose, ferments, sel, arôme naturel, persil). \r\nSauce vinaigrette balsamique 7% (huile de colza, huile d'olive vierge, vinaigre de vin (SULFITES), moût de raisin, sel) \r\nCookie au chocolat 7% (sucre, farine de BLE, OEUF, BEURRE, huile de colza, pâte et beurre de cacao, poudre de cacao maigre, poudre à lever: bicarbonate de sodium, émulsifiants: lécithines de SOJA, arôme naturel, sel). \r\nGressins 4% (farine de BLE, son de BLE, fibre de BLE, semoule de BLE dur, BEURRE, huile d'olive vierge, huile de colza, eau, levure boulangère, sucre, amidon, fécule, sel, graines de pavot, arôme naturel).",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "name": "Пилешки крила",
@@ -47199,7 +47439,12 @@
       "is_high_protein": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/2810840000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-пилешки-крила-ee31cf",
-      "first_seen": "2026-04-14"
+      "first_seen": "2026-04-14",
+      "ingredients_raw": "Filet de poulet 96%, bouillon (eau, os de poulet, plantes V aromatiques, ail, épices, oignon, poireau, céleri, carotte), sel, arômes naturels (présence naturelle de polyphenols), antioxydant: acide ascorbique, dextrose, H colorant: caramel ordinaire. Viande de poulet origine UE.",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "name": "Био пилешки хапки",
@@ -47258,7 +47503,12 @@
       "is_high_protein": true,
       "image": "https://imgproxy-retcat.assets.schwarz/BSjSFIKyVjOKR7Cx13IIEV736ddJvo6-dTbtEQ-Oou8/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS82NzYxQzc1MEQyRkJFRUVGQzc3RTlENTN/BMEVBODI4Q0Q0NTREN0IyNjRENTYxNDUxODcwRTIxQTdGQ0NGMjU1LnBuZw.png",
       "product_id": "lidl-месо-за-готвене-от-прясно-пиле-ed487d",
-      "first_seen": "2026-04-14"
+      "first_seen": "2026-04-14",
+      "ingredients_raw": "Salade composée 80% (spécialités céréalières cuites (eau, semoule de BLE dur, OEUF, sel, curcuma), OEUF, salade 11%, viande de poulet, carottes, FROMAGE à pâte dure, jus de citron, huile de colza, eau, amidon, fécule, dextrose, ferments, sel, arôme naturel, persil). \r\nSauce vinaigrette balsamique 7% (huile de colza, huile d'olive vierge, vinaigre de vin (SULFITES), moût de raisin, sel) \r\nCookie au chocolat 7% (sucre, farine de BLE, OEUF, BEURRE, huile de colza, pâte et beurre de cacao, poudre de cacao maigre, poudre à lever: bicarbonate de sodium, émulsifiants: lécithines de SOJA, arôme naturel, sel). \r\nGressins 4% (farine de BLE, son de BLE, fibre de BLE, semoule de BLE dur, BEURRE, huile d'olive vierge, huile de colza, eau, levure boulangère, sucre, amidon, fécule, sel, graines de pavot, arôme naturel).",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "name": "Пилешка пържола от бут",
@@ -47288,7 +47538,12 @@
       "is_high_protein": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/01000436_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-пилешка-пържола-от-бут-c31fb2",
-      "first_seen": "2026-04-14"
+      "first_seen": "2026-04-14",
+      "ingredients_raw": "Salade composée 80% (spécialités céréalières cuites (eau, semoule de BLE dur, OEUF, sel, curcuma), OEUF, salade 11%, viande de poulet, carottes, FROMAGE à pâte dure, jus de citron, huile de colza, eau, amidon, fécule, dextrose, ferments, sel, arôme naturel, persil). \r\nSauce vinaigrette balsamique 7% (huile de colza, huile d'olive vierge, vinaigre de vin (SULFITES), moût de raisin, sel) \r\nCookie au chocolat 7% (sucre, farine de BLE, OEUF, BEURRE, huile de colza, pâte et beurre de cacao, poudre de cacao maigre, poudre à lever: bicarbonate de sodium, émulsifiants: lécithines de SOJA, arôme naturel, sel). \r\nGressins 4% (farine de BLE, son de BLE, fibre de BLE, semoule de BLE dur, BEURRE, huile d'olive vierge, huile de colza, eau, levure boulangère, sucre, amidon, fécule, sel, graines de pavot, arôme naturel).",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "name": "Мариновани пилешки бутчета",
@@ -47347,7 +47602,12 @@
       "is_high_protein": false,
       "image": "https://imgproxy-retcat.assets.schwarz/eGUP7eJKcKE0pIcUFSAkMo5Vqh5RH9U6tzZU-jQjBes/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS8xN0NDRDhDODdBMzcxNTZEMzlGRTk0OUV/ENEFCMEFBNUYyREVGRTM4MzQ0NDVCQkM2NDgxRDgwQThDOTA2OEIzLnBuZw.png",
       "product_id": "lidl-кварк-с-овесени-ядки-570cb9",
-      "first_seen": "2026-04-14"
+      "first_seen": "2026-04-14",
+      "ingredients_raw": "Flocons d'_avoine_ complète issue de l'agriculture biologique.",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "name": "Скир с плодове",
@@ -47431,7 +47691,12 @@
       "is_high_protein": true,
       "image": "https://imgproxy-retcat.assets.schwarz/Yp2Sw7Lv80rw0Y3EPWeehkJEp_Ijy6kHkrARMxMbhPI/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS8xQjlBODdENkU0REVBODhCNzJEN0U3RjF/GRDZENkNCRTM3Q0Q1NDhDNUMxNUJBMjU0RjIyOTA3RTdGRDM0QkY2LnBuZw.png",
       "product_id": "lidl-високопротеинова-овесена-закус-7f6669",
-      "first_seen": "2026-04-14"
+      "first_seen": "2026-04-14",
+      "ingredients_raw": "Flocons d'_avoine_ complète issue de l'agriculture biologique.",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "name": "Тиквички",
@@ -47516,7 +47781,12 @@
       "is_high_protein": false,
       "image": "https://imgproxy-retcat.assets.schwarz/IeU0cEq9hxuyaaal4BzeDVowp-qxYdcuZ3aH2xIyk-g/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS84QjM5NTc3NDY4QjczQjZEOUMzMjJBOUU/1MzI4QTY0NTM5QzJCRjQ4QzdENTZBNEI2RDU0OTc2OUU4RDAyNDBCLnBuZw.png",
       "product_id": "lidl-салата-със-сирене-и-печени-чуш-2ac6dc",
-      "first_seen": "2026-04-14"
+      "first_seen": "2026-04-14",
+      "ingredients_raw": "46% краве сирене, 16% извара, 14% майонеза (слънчогледово масло, вода, модифицирано царевично нишесте, киселини: оцетна киселина, лимонена киселина; яйчни жълтъци на прах*, стабилизатори: ксантанова гума, гума гуар; дехидратиран глюкозен сироп, трапезна сол, захар, консервант: калиев сорбат), 10% печени чушки (печени чушки, киселини: оцетна киселина, лимонена киселина; трапезна сол, захар, консерванти: калиев сорбат, натриев бензоат), слънчогледово масло, червен пипер, сушен чесън, 0,2% чили, консервант: калиев сорбат. *Уголемени клетки. Може да съдържа следи от глутен, сулфити, соя, целина, риба, сусамово семе, синап.",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "name": "Нискомаслена извара",
@@ -47599,7 +47869,12 @@
       "is_high_protein": false,
       "image": "https://imgproxy-retcat.assets.schwarz/RJuwXJO3MfbA9jzaFuWyUoXnNMMpPxKj7ZaE1IeLMyE/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS81MTQ3NTg3MDE5RTlFOUE3MUFDRDVFQjE/5NEMyNDIwMjY1QkU4QjQyNDk2MUZFMkZFQ0Y3QTkyQjNDNEZBQkQzLnBuZw.png",
       "product_id": "lidl-лук-298562",
-      "first_seen": "2026-04-14"
+      "first_seen": "2026-04-14",
+      "ingredients_raw": "wheat semolina 76%, vegetable oil (refined sunflower oil and non-hydrogenated palm olein in varying proportions), meal onion 1,6%, salt, natural coloring agent: annatto/e160b (ii), contains gluten,",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "name": "Червени картофи",
@@ -47657,7 +47932,12 @@
       "is_high_protein": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20676081C_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-закуска-с-топено-сирене-89fa92",
-      "first_seen": "2026-04-14"
+      "first_seen": "2026-04-14",
+      "ingredients_raw": "lait frais entier, crème, stabilisants, amidon, carraghénane, sel, ferments lactiques\nmatière grasse 21%",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "name": "Геврек със сирене и сусам",
@@ -47713,7 +47993,12 @@
       "is_high_protein": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800771002305_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-лукчета-cd9504",
-      "first_seen": "2026-04-14"
+      "first_seen": "2026-04-14",
+      "ingredients_raw": "СИРОП ОТ ГЛЮКОЗА, ЗАХАР, ЕСТЕСТВЕН АРОМАТИЗАНТ: МЕНТА, С ДРУГИ ЕСТЕСТВЕНИ АРОМАТИАНТИ 0,35% (МАСЛО ОТ МЕНТА, ЕВКАЛИПТОВО МАСЛО, МАСЛО ОТ МАЩЕРКА, МАСЛО ОТ ПЕЛИН, МАСЛО ОТ САЛВИЯ, МАСЛО ОТ КОПЪР), ОЦВЕТИТЕЛ: МЕДНИ КОМПЛЕКСИ НА ХЛОРОФИЛИ И ХЛОРОФИМИНИ.",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "name": "Кисело мляко",
@@ -47743,7 +48028,12 @@
       "is_high_protein": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800231730076_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-кисело-мляко-defc01",
-      "first_seen": "2026-04-14"
+      "first_seen": "2026-04-14",
+      "ingredients_raw": "Краве мляко, сухо обезмаслено мляко,сметана, българска закваска",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "name": "Български краставици",
@@ -47828,7 +48118,12 @@
       "is_high_protein": true,
       "image": "https://imgproxy-retcat.assets.schwarz/mnQ78kqxFW8FqQmg_F2mBSwZqDq2KsCAq-mUoNZqoFM/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS83QUVCRkY0ODlCNjdEMkU5NDQ4NjdDOTg/5OTg0Qzc0OTVCQUNCMkVBQzkyRjQwODVERDU2MUM2QzlDOUNCRkM3LnBuZw.png",
       "product_id": "lidl-българско-кисело-мляко-d1eb4c",
-      "first_seen": "2026-04-14"
+      "first_seen": "2026-04-14",
+      "ingredients_raw": "Краве МЛЯКО (България), българска симбиотична закваска.",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "name": "Моркови",
@@ -47857,7 +48152,19 @@
       "is_high_protein": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/09702481_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-моркови-af296a",
-      "first_seen": "2026-04-14"
+      "first_seen": "2026-04-14",
+      "ingredients_raw": "Вода, 43% пюре и сок от концентрат: 34% морков, 5% ябълка, 3,5% праскова; захар и/или глюкозо-фруктозен сироп, регулатор на киселинността: лимонена киселина; витамин С, ароматизант.",
+      "ingredients_flags": [
+        {
+          "match": "глюкозо-фруктозен сироп",
+          "name": "Глюкозо-фруктозен сироп",
+          "level": "red",
+          "reason": "Добавена захар с висок гликемичен индекс"
+        }
+      ],
+      "junk_count": 1,
+      "amber_count": 0,
+      "clean_label": false
     },
     {
       "name": "Закуска със сирене",
@@ -47887,7 +48194,12 @@
       "is_high_protein": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3589_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-закуска-със-сирене-c07202",
-      "first_seen": "2026-04-14"
+      "first_seen": "2026-04-14",
+      "ingredients_raw": "lait frais entier, crème, stabilisants, amidon, carraghénane, sel, ferments lactiques\nmatière grasse 21%",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "name": "Портокали",
@@ -47943,7 +48255,12 @@
       "is_high_protein": false,
       "image": "https://imgproxy-retcat.assets.schwarz/uk5ZqLEyQyr_SoZxyulHyDzFCmI-u0BubCrAnAsB1W0/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS85NkZCOUJEMjBGRUREMzlENjJDMTQ4MkU/wNDBGQ0RGRkIzNTA1RjdEN0VGMzc5Qzc5NkU5QUEzOTZBRjQ0QzI2LnBuZw.png",
       "product_id": "lidl-топено-сирене-ec8a90",
-      "first_seen": "2026-04-14"
+      "first_seen": "2026-04-14",
+      "ingredients_raw": "44% сирене* (от което 52% кашкавал), обезмаслено мляко, сухо обезмаслено мляко, краве масло, емулгаторни соли: полифосфати; трапезна сол, киселина: лимонена киселина. *Съдържа сирищни ензими с микробиален и животински произход.",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "name": "Диня с малко семки",
@@ -48054,7 +48371,12 @@
       "is_high_protein": false,
       "image": "https://imgproxy-retcat.assets.schwarz/exSqhNh8GGdvbrQruojD1RssLXnoLmqr2o5swI6q0t0/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS8yNjI5RDE2NzQ1OTAxQjc3QUZFQ0Y5RkM/4RTFFQkRGOTdGOTE0QTBEMENBOEVDNDI4NkE2ODZDNDY0OTBGRTk1LnBuZw.png",
       "product_id": "lidl-био-зърнесто-прясно-сирене-552768",
-      "first_seen": "2026-04-14"
+      "first_seen": "2026-04-14",
+      "ingredients_raw": "lait frais entier, crème, stabilisants, amidon, carraghénane, sel, ferments lactiques\nmatière grasse 21%",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "name": "Български картофи",
@@ -48190,7 +48512,12 @@
       "is_high_protein": true,
       "image": "https://imgproxy-retcat.assets.schwarz/LYaVMr56eHJm7n59N5PyYGxZI0NvIFAWJbSB208dUhQ/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9DQTdEN0ZGQjlFRjg3MjFDQjk0QzU5M0Q/3MjMxMDk5Q0M2QzdGNTFDODk5OTNCNjNGNjJFOUQzRDY5NjJCQ0FFLnBuZw.png",
       "product_id": "lidl-кисело-мляко-с-каймак-4f8274",
-      "first_seen": "2026-04-14"
+      "first_seen": "2026-04-14",
+      "ingredients_raw": "Краве мляко, сухо обезмаслено мляко, сметана, българска закваска.",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "name": "Червено грозде",
@@ -48246,7 +48573,12 @@
       "is_high_protein": false,
       "image": "https://imgproxy-retcat.assets.schwarz/EoFvM52oOkm4c7zYmr3i9Tj3RW4iAeSBQIfuhCtVcI4/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS85QUU3MUNBODEyRjQxRjlBRjU4NzNFNUQ/yRDdBOENCQUYxMkUxNzE0QkQyMjIxRTdEOUE0OTRGMUEzNUQwNjc1LnBuZw.png",
       "product_id": "lidl-гръцко-сирене-за-грил-b43c03",
-      "first_seen": "2026-04-14"
+      "first_seen": "2026-04-14",
+      "ingredients_raw": "lait frais entier, crème, stabilisants, amidon, carraghénane, sel, ferments lactiques\nmatière grasse 21%",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "name": "Традиционно кипърско сирене Халуми",
@@ -48276,7 +48608,12 @@
       "is_high_protein": false,
       "image": "https://imgproxy-retcat.assets.schwarz/cw4gl4OEXU_SS-UrGxk-15MHCy9d4cW6I9aCz1BUvcU/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS80ODNGNzQwOUYzNkFEQURGNjQyOTFFQ0Q/5NUVBRUM2NDhERjUyNDZBMkJBMjVFOUY3QTFCODExOEU1OTE1RTM4LnBuZw.png",
       "product_id": "lidl-традиционно-кипърско-сирене-ха-e6102a",
-      "first_seen": "2026-04-14"
+      "first_seen": "2026-04-14",
+      "ingredients_raw": "lait frais entier, crème, stabilisants, amidon, carraghénane, sel, ferments lactiques\nmatière grasse 21%",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "name": "Мариновано сирене",
@@ -48361,7 +48698,12 @@
       "is_high_protein": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/2841260000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-зелени-маслини-без-костилка-93cdbf",
-      "first_seen": "2026-04-14"
+      "first_seen": "2026-04-14",
+      "ingredients_raw": "Зелени маслини, трапезна Сол, регулатори на киселинността: млечна киселина, лимонена киселина.",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "name": "ГРОЗДЕН",
@@ -48417,7 +48759,12 @@
       "is_high_protein": false,
       "image": "https://imgproxy-retcat.assets.schwarz/XOMPC4MCD6KIDQsPP3c7AFeeAg4Dd9aKnHTwrkQE_A0/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS81RTU5MjZDNzkyMEZENEZCNEEyMDRFMzM/wNkMwODA2Nzg1MDlEN0YxQTQ1RUQxMjQyMzcyOUY0MDA1N0IyMTk1LnBuZw.png",
       "product_id": "lidl-гръцко-сирене-фета-ebf7df",
-      "first_seen": "2026-04-14"
+      "first_seen": "2026-04-14",
+      "ingredients_raw": "lait frais entier, crème, stabilisants, amidon, carraghénane, sel, ferments lactiques\nmatière grasse 21%",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "name": "Бял хляб",
@@ -48498,7 +48845,12 @@
       "is_high_protein": true,
       "image": "https://imgproxy-retcat.assets.schwarz/XvJZUrXQ6fohkLBWUhrTG_8fzBn0KT1zIPP3HW4VWf4/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9DNjQwQUYxODAxRjM5RjA3MjdEN0QxMjE/5RERENEVFQzYxNEJENDQ4N0RBNTI0N0Y3QTA3M0IxRUYwQzBFNEI5LnBuZw.png",
       "product_id": "lidl-високопротеиново-мляко-с-ориз-eded7a",
-      "first_seen": "2026-04-14"
+      "first_seen": "2026-04-14",
+      "ingredients_raw": "Organic wholegrain _rice_ 99.8%, Sea Salt",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "name": "Свински врат без кост",
@@ -48829,7 +49181,12 @@
       "is_high_protein": false,
       "image": "https://imgproxy-retcat.assets.schwarz/-xOOvyMByhFTDlH2yP6PmdRT1k8jFAwG5qdzsHJfDm4/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9BQTk4MjM3NTI1MTFDMjNENDg2NjlEMkQ/1MUQ4RDhCODc1Mjk4NDE2QkNBMDg1ODM2MUQ2RDIyNDUwQTE5ODZBLnBuZw.png",
       "product_id": "lidl-прясно-мляко-c77631",
-      "first_seen": "2026-04-14"
+      "first_seen": "2026-04-14",
+      "ingredients_raw": "Пастьоризирано краве мляко",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "name": "Цедено кисело мляко",
@@ -48856,7 +49213,12 @@
       "is_high_protein": false,
       "image": "https://imgproxy-retcat.assets.schwarz/_2VsUnZ3wlr3QHMlt4DyVtcqd6gngtVL4c72WWKi7J8/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9FMzM5OTlGQzY0MTM1RjAzNzQ5MUM5MkQ/3RDU4MUM4QjhCMkFEMzYyQzdCQjZFMzk2NTM5MTFCRUNBMDBFQTUwLnBuZw.png",
       "product_id": "lidl-цедено-кисело-мляко-efd026",
-      "first_seen": "2026-04-14"
+      "first_seen": "2026-04-14",
+      "ingredients_raw": "цедено МЛЯКО",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "name": "Високопротеинова напитка",
@@ -48904,7 +49266,12 @@
       "is_high_protein": false,
       "image": "https://imgproxy-retcat.assets.schwarz/i5gZdzr2lOogZJFSB1Mbfa1AFPly3_2dxfV6636Qwvk/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS8zRTQxMzg2QUVBODJGODQ2OTQzMkRCNzQ/1QTNCQ0Y3Qjk3NUM0OTNDMUI2Qjc5NDNENjQ3ODJCNjZDMDZDNTk3LnBuZw.png",
       "product_id": "lidl-прясно-краве-мляко-f7a356",
-      "first_seen": "2026-04-14"
+      "first_seen": "2026-04-14",
+      "ingredients_raw": "Пастьоризирано краве мляко",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "name": "Гръцки маслини Каламон",
@@ -48978,7 +49345,12 @@
       "is_high_protein": false,
       "image": "https://imgproxy-retcat.assets.schwarz/yZmCcl_OM4bw5cm4dgWuS_zzFz3rabt3HvcQ7WcvOMY/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS81RTI2RDRENUM4Q0VCQjAxNzg0QkRBMDM/4NTJGNTAwNEFEMTVGNTI1Q0YyODY4NzRFMUU2RDI4MUExMUI3RTRGLnBuZw.png",
       "product_id": "lidl-био-моцарела-fc4a4d",
-      "first_seen": "2026-04-14"
+      "first_seen": "2026-04-14",
+      "ingredients_raw": "Farine de lentille (37%), huiles végétales (tournesol, colza), farine de riz, farine de maïs, amidons, lactosérum en poudre (LAIT), sel, sucre, chlorure de potassium, arôme naturel, tomate, persil, oignon, poivre vert, ail, mozzarella en poudre (LAIT).",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "name": "Слънчогледово масло",
@@ -49005,7 +49377,12 @@
       "is_high_protein": false,
       "image": "https://imgproxy-retcat.assets.schwarz/DTpvradKTRIzqmSRxji8_CZUNYL87R4ZTbE2EAtFXiA/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9FMTgwMEYwQ0ZCOEZFQTA0Qzg3NjhDODc/3RkRDMEExMUU4RDc2Mjk0MTY2QkU4M0VDQUUzNzc3MTJFQTVFNEFGLnBuZw.png",
       "product_id": "lidl-слънчогледово-масло-b2aec5",
-      "first_seen": "2026-04-14"
+      "first_seen": "2026-04-14",
+      "ingredients_raw": "100% рафинирано слънчогледово масло",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "name": "Био напитка Комбуча",
@@ -49220,7 +49597,12 @@
       "is_high_protein": false,
       "image": "https://imgproxy-retcat.assets.schwarz/yVCTmNR-9_vZFLUPPn7SJ45OrhorSuZohE_RYHs9jGs/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9FMDMyRTM2ODBEQTg1RUVFODVFRTVCQjZ/CMUFGNkM1OEJGRDRFRUY2MTgwN0Y5NjA2Qzc4MTE3OTI5NEJBMkJGLnBuZw.png",
       "product_id": "lidl-гръцки-черни-маслини-fa1b81",
-      "first_seen": "2026-04-14"
+      "first_seen": "2026-04-14",
+      "ingredients_raw": "Маслини – сорт „Халкидики“, трапезна сол, стабилизатор: феро глюконат; регулатор на киселинността: млечна киселина.",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "name": "Био маасдамер или гауда",
@@ -49294,7 +49676,12 @@
       "is_high_protein": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800058537469_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-салата-снежанка-f566fc",
-      "first_seen": "2026-04-14"
+      "first_seen": "2026-04-14",
+      "ingredients_raw": "49% цедено кисело мляко, 30% краставици, 20% млечна майонеза (вода, слънчогледово масло, сухо обезмаслено мляко, сгъстители: ацетилиран динишестен адипат, натриев октенил сукцинат на нишестето, гума гуар, ксантанова гума; винен оцет, регулатори на киселинността: лимонена киселина, млечна киселина; трапезна сол, захар, консервант: калиев сорбат), трапезна сол, 0,3% копър, 0,1% чесън, консервант: калиев сорбат; бамбукови фибри. Може да съдържа следи от синап, яйца, соя, пшеница и целина.",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "name": "Маслини Услу",
@@ -49368,7 +49755,12 @@
       "is_high_protein": false,
       "image": "https://imgproxy-retcat.assets.schwarz/_mTOvpuT8VWphUw8DX1sa5H60f2Q3MxWglvgtofSkjw/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS8yQ0Q0RERDMzE0N0JGNDNBODU0QTU5MUM/0NjIxRjRGRjM1NkI3QTA1MERFQUM2MUU1OUQ0RTYwQjgxNURDNDQwLnBuZw.png",
       "product_id": "lidl-краве-масло-f91aac",
-      "first_seen": "2026-04-14"
+      "first_seen": "2026-04-14",
+      "ingredients_raw": "butter 100%",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "name": "Маслини",
@@ -49395,7 +49787,12 @@
       "is_high_protein": false,
       "image": "https://imgproxy-retcat.assets.schwarz/REX3062zwWPYWkk0Nvbj7-rTxgiYjSnQT_km4JBveug/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9ERDQzRjJEOTY3MzQ5QzgyQjFCQTA1RDl/BRjA3RjM4QUZCMjQ0RjgwNUVERUU1MzEzNzY5MDVGMDE1REVENDhDLnBuZw.png",
       "product_id": "lidl-маслини-a0b427",
-      "first_seen": "2026-04-14"
+      "first_seen": "2026-04-14",
+      "ingredients_raw": "Маслини – сорт „Халкидики“, трапезна сол, стабилизатор: феро глюконат; регулатор на киселинността: млечна киселина.",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "name": "Високопротеиново готово ястие",
@@ -49594,7 +49991,12 @@
       "is_high_protein": false,
       "image": "https://imgproxy-retcat.assets.schwarz/HafqZFGqNeSa_DKpwN9_0-BYzimYWQPWWLR4DKX_GFQ/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS82RTY0MDVFOUU0NUUwNDBEQTRBNjc5REU/2MzUxMzI4OUIxMkIyMTE0OEYzNzUyMTdGODNENTc3MkIwMzlCODMyLnBuZw.png",
       "product_id": "lidl-маслиново-масло-2b4b9c",
-      "first_seen": "2026-04-14"
+      "first_seen": "2026-04-14",
+      "ingredients_raw": "НЕОБРАБОТЕНО МАСЛИНОВО МАСЛО",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "name": "Маслини Каламата екстра",
@@ -49647,7 +50049,12 @@
       "is_high_protein": false,
       "image": "https://imgproxy-retcat.assets.schwarz/oprP53x1VIQJa7ymF2aZJbkP7rZXk1Z881bZBfPUI54/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS80RTJEQkVERjk1RTRDMTlFQzU2OEVGMzk/5NjAxRDFCNjIxOUQ4NUJGOTk4Mjc2OTMxQjMxREEwRTJFQUIyOUNBLnBuZw.png",
       "product_id": "lidl-кашкавал-от-краве-мляко-e99de0",
-      "first_seen": "2026-04-14"
+      "first_seen": "2026-04-14",
+      "ingredients_raw": "Краве мляко, закваска, мая, сол.",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true
     },
     {
       "name": "Протеин на прах",

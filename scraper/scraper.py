@@ -29,6 +29,13 @@ import requests
 from playwright.async_api import async_playwright
 from bs4 import BeautifulSoup
 
+try:
+    from ingredients_analyzer import analyze_ingredients as _analyze_ingredients
+    _INGREDIENTS_ANALYZER_AVAILABLE = True
+except ImportError:
+    _INGREDIENTS_ANALYZER_AVAILABLE = False
+    def _analyze_ingredients(text): return []
+
 # ── Structured store scrapers ─────────────────────────────────────────────────
 try:
     from off_enricher import get_off_macros as _get_off_macros
@@ -77,6 +84,132 @@ LEARNING_PATH = DATA_DIR / "scraper_learning.json"
 CUSTOM_KEYWORDS_PATH = DATA_DIR / "custom_keywords.json"
 SCRAPER_STATS_PATH = DATA_DIR / "scraper_stats.json"
 BGN_TO_EUR = 1.95583
+
+# Fields that belong to the product (persistent metadata, not price-specific)
+_PRODUCT_FIELDS = (
+    "name", "emoji", "category", "weight_raw", "weight_grams", "shelf_life",
+    "is_food", "is_healthy", "is_bulk_worthy", "is_long_lasting", "health_score",
+    "diet_tags", "macros", "is_junk", "is_high_protein", "is_good_carb", "is_good_fat", "image",
+)
+# Fields that belong to the offer (price + promo metadata)
+_OFFER_FIELDS = (
+    "store", "address", "new_price", "new_price_eur", "old_price", "old_price_eur",
+    "discount_pct", "valid_until", "price_per_kg", "price_per_kg_eur", "source_type",
+    "available_stores", "store_prices", "best_price_store", "best_price", "comparison_count",
+)
+
+STORE_SLUGS = {
+    "Lidl": "lidl", "Kaufland": "kaufland", "Billa": "billa",
+    "Fantastico": "fantastico", "T-Market": "tmarket", "Dar": "dar",
+}
+
+
+def make_product_id(store: str, name: str, weight_grams) -> str:
+    """Stable product key: {store}-{normalized_name}-{weight}g  (max 80 chars)."""
+    import unicodedata
+    store_slug = STORE_SLUGS.get(store, re.sub(r'\W+', '', store.lower()))
+    norm = unicodedata.normalize("NFD", name.lower())
+    norm = "".join(c for c in norm if unicodedata.category(c) != "Mn")
+    norm = re.sub(r"[^\w\s]", " ", norm)
+    norm = re.sub(r"\s+", "-", norm.strip())
+    weight_part = f"-{weight_grams}g" if weight_grams else ""
+    return f"{store_slug}-{norm}{weight_part}"[:80]
+
+
+def load_all_products() -> tuple[dict, dict]:
+    """
+    Returns (by_pid, by_name_store).
+    by_name_store is a fallback index for migrating from old hash-based IDs.
+    """
+    if not ALL_PRODUCTS_PATH.exists():
+        return {}, {}
+    data = json.loads(ALL_PRODUCTS_PATH.read_text(encoding="utf-8"))
+    by_pid: dict = {}
+    by_name_store: dict = {}
+    for p in data.get("products", []):
+        pid = p.get("product_id") or p.get("id")
+        if not pid:
+            continue
+        p["product_id"] = pid
+        by_pid[pid] = p
+        key = ((p.get("name") or "").lower().strip(), p.get("store", ""))
+        by_name_store[key] = p
+    return by_pid, by_name_store
+
+
+def _update_price_history(product: dict, offer: dict, today: str) -> None:
+    """Append to price_history if price changed or no entry for today. Cap at 104 weeks (2 years)."""
+    history: list = product.setdefault("price_history", [])
+    current_price = offer.get("new_price")
+    if current_price is None:
+        return
+    last = history[-1] if history else None
+    if last and last.get("date") == today:
+        return  # already recorded today
+    if last and last.get("price") == current_price:
+        return  # price unchanged — skip duplicate
+    history.append({
+        "date": today,
+        "store": offer.get("store"),
+        "price": current_price,
+        "price_eur": offer.get("new_price_eur"),
+        "old_price": offer.get("old_price"),
+        "discount_pct": offer.get("discount_pct"),
+    })
+    if len(history) > 104:
+        product["price_history"] = history[-104:]
+    prices = [e["price"] for e in product["price_history"] if e.get("price") is not None]
+    if prices:
+        product["lowest_price"] = min(prices)
+        product["lowest_price_date"] = next(
+            e["date"] for e in product["price_history"] if e.get("price") == min(prices)
+        )
+        product["avg_price"] = round(sum(prices) / len(prices), 2)
+
+
+def _build_product(pid: str, offer: dict, today: str, existing: dict | None) -> dict:
+    """Create or refresh a product entry from the current offer."""
+    product = {f: offer[f] for f in _PRODUCT_FIELDS if f in offer}
+    product["product_id"] = pid
+    product["last_seen"] = today
+    # Ingredients analysis
+    ingredients_raw = (offer.get("macros") or {}).get("ingredients") or ""
+    if ingredients_raw:
+        product["ingredients_raw"] = ingredients_raw
+        product["ingredients_flags"] = _analyze_ingredients(ingredients_raw)
+        red = sum(1 for f in product["ingredients_flags"] if f["level"] == "red")
+        amber = sum(1 for f in product["ingredients_flags"] if f["level"] == "amber")
+        product["junk_count"] = red
+        product["amber_count"] = amber
+        product["clean_label"] = red == 0 and amber == 0
+    elif existing:
+        # Preserve previously scraped ingredients
+        for k in ("ingredients_raw", "ingredients_flags", "junk_count", "amber_count", "clean_label"):
+            if k in existing:
+                product[k] = existing[k]
+    if existing:
+        product["first_seen"] = existing.get("first_seen", today)
+        product["price_history"] = existing.get("price_history", [])
+        product["lowest_price"] = existing.get("lowest_price")
+        product["lowest_price_date"] = existing.get("lowest_price_date")
+        product["avg_price"] = existing.get("avg_price")
+    else:
+        product["first_seen"] = today
+        product["price_history"] = []
+    return product
+
+
+def write_all_products(by_pid: dict, today: str) -> None:
+    """Atomically write all_products.json (temp + replace)."""
+    data = {
+        "generated_at": datetime.utcnow().isoformat() + "Z",
+        "total_products": len(by_pid),
+        "products": list(by_pid.values()),
+    }
+    tmp = ALL_PRODUCTS_PATH.with_suffix(".tmp")
+    tmp.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+    tmp.replace(ALL_PRODUCTS_PATH)
+
 
 # Conservative concurrency to avoid rate limiting
 MAX_STORES_PARALLEL = 3       # INCREASED: Process multiple stores in parallel
@@ -1798,16 +1931,50 @@ async def main():
         raise RuntimeError("Scrape produced no data. Existing exports were not updated.")
 
     backup_dir = backup_existing_exports()
+    today = datetime.utcnow().strftime("%Y-%m-%d")
+
+    # ── Split: product metadata → all_products.json, prices → offers.json ──────
+    by_pid, by_name_store = load_all_products()
+    thin_offers = []
+
+    for offer in all_offers:
+        pid = make_product_id(offer.get("store", ""), offer.get("name", ""), offer.get("weight_grams"))
+
+        # Collision guard: if stable pid already taken by a different product, suffix it
+        while pid in by_pid and (by_pid[pid].get("name") or "").lower().strip() != (offer.get("name") or "").lower().strip():
+            pid = pid[:78] + "-2" if not pid.endswith("-2") else pid[:-2] + "-3"
+
+        # Migration: look up existing entry by (name, store) if stable pid is new
+        existing = by_pid.get(pid)
+        if existing is None:
+            key = ((offer.get("name") or "").lower().strip(), offer.get("store", ""))
+            existing = by_name_store.get(key)
+            if existing:
+                old_pid = existing.get("product_id")
+                if old_pid and old_pid != pid and old_pid in by_pid:
+                    del by_pid[old_pid]  # replace hash-based key with stable key
+
+        product = _build_product(pid, offer, today, existing)
+        _update_price_history(product, offer, today)
+        by_pid[pid] = product
+
+        thin = {f: offer.get(f) for f in _OFFER_FIELDS}
+        thin["product_id"] = pid
+        thin_offers.append(thin)
+
+    write_all_products(by_pid, today)
 
     output = {
         "generated_at": datetime.utcnow().isoformat() + "Z",
-        "total_offers": len(all_offers),
-        "promo_offers": sum(1 for o in all_offers if o.get("source_type") == "promo"),
-        "assortment_offers": sum(1 for o in all_offers if o.get("source_type") == "assortment"),
-        "stores": sorted({o["store"] for o in all_offers}),
-        "offers": all_offers,
+        "total_offers": len(thin_offers),
+        "promo_offers": sum(1 for o in thin_offers if o.get("source_type") == "promo"),
+        "assortment_offers": sum(1 for o in thin_offers if o.get("source_type") == "assortment"),
+        "stores": sorted({o["store"] for o in thin_offers if o.get("store")}),
+        "offers": thin_offers,
     }
-    write_export(OUTPUT_PATH, "OFFERS_DATA", output)
+    tmp = OUTPUT_PATH.with_suffix(".tmp")
+    tmp.write_text(json.dumps(output, ensure_ascii=False, indent=2), encoding="utf-8")
+    tmp.replace(OUTPUT_PATH)
 
     elapsed = (datetime.utcnow() - started).total_seconds()
     healthy = [o for o in all_offers if o["is_healthy"]]
