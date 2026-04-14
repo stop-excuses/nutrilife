@@ -61,6 +61,7 @@ function initTopControls() {
         if (!window.I18N) return;
         const next = window.I18N.getLang() === "bg" ? "en" : "bg";
         window.I18N.setLang(next);
+        langBtn.textContent = next === "bg" ? "EN" : "BG";
         document.querySelectorAll("input[type='range']").forEach(slider => {
             const output = document.getElementById(slider.dataset.output);
             if (output && slider.dataset.fn && window[slider.dataset.fn]) {
