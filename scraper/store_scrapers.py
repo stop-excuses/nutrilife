@@ -1,7 +1,7 @@
 """
 NutriLife — Structured Store Scrapers
 ======================================
-Primary (non-OCR) sources for Kaufland, Billa, Lidl, T-Market, Fantastico.
+Primary (non-OCR) sources for Kaufland, Billa, Lidl, Fantastico, Dar.
 Each scraper returns raw items in unified format — NO early filtering.
 
 Unified item format:
@@ -12,7 +12,7 @@ Unified item format:
     "discount_pct": int | None,
     "image": str | None,
     "store": str,
-    "source": "kaufland_dom|billa_text|lidl_dom|tmarket_dom|fantastico_csv"
+    "source": "kaufland_dom|billa_text|lidl_dom|fantastico_csv|dar_csv"
 }
 
 Source priority (for merge deduplication):
@@ -507,264 +507,18 @@ def _parse_lidl_gridbox(soup: BeautifulSoup) -> list[dict]:
     return unique
 
 
-# ─── T-Market DOM scraper ─────────────────────────────────────────────────────
-
-TMARKET_URL = "https://tmarketonline.bg/selection/produkti-v-akciya"
-TMARKET_CATEGORY_URLS = [
-    "https://tmarketonline.bg/category/plodove",
-    "https://tmarketonline.bg/category/zelenchuci",
-    "https://tmarketonline.bg/category/presni-podpravki",
-    "https://tmarketonline.bg/category/yadki-1",
-    "https://tmarketonline.bg/category/kiselo-mlyako",
-    "https://tmarketonline.bg/category/pryasno-mlyako-1",
-    "https://tmarketonline.bg/category/izvara",
-    "https://tmarketonline.bg/category/yayca-1",
-    "https://tmarketonline.bg/category/pileshko-i-pueshko",
-    "https://tmarketonline.bg/category/teleshko-meso-i-zagotovki",
-    "https://tmarketonline.bg/category/riba-i-morski-darove",
-    "https://tmarketonline.bg/category/variva",
-    "https://tmarketonline.bg/category/ribni-konservi-1",
-    "https://tmarketonline.bg/category/plodovi-i-zelenchukovi-konservi",
-    "https://tmarketonline.bg/category/fitnes-i-zdrave",
-    "https://tmarketonline.bg/category/bio-hrani",
-    "https://tmarketonline.bg/category/yadkovi-soevi-i-zdravoslovni-napitki",
-]
-TMARKET_HEADERS = {
-    "User-Agent": USER_AGENT,
-    "Accept-Language": "bg-BG,bg;q=0.9",
-}
-
-
-def _parse_tmarket_card(card, source: str) -> dict | None:
-    name_el = card.select_one("h3._product-name-tag a, h3._product-name-tag, ._product-name-tag")
-    if not name_el:
-        name_el = card.select_one("h3, h2, [class*='product-name'], [class*='product-title']")
-    if not name_el:
-        return None
-    name = name_el.get_text(strip=True)
-    if not name:
-        return None
-
-    new_price = None
-    compare_el = card.select_one("._product-price-compare")
-    if compare_el:
-        for span in compare_el.select("span.bgn2eur-secondary-currency"):
-            if not span.find_parent("del"):
-                new_price = clean_price(span.get_text(strip=True))
-                if new_price:
-                    break
-
-    if not new_price:
-        price_el = card.select_one("._product-price span.bgn2eur-secondary-currency, ._product-price span, [class*='price-new'], [class*='current-price']")
-        if price_el:
-            new_price = clean_price(price_el.get_text(strip=True))
-
-    if not new_price:
-        return None
-
-    old_price = None
-    old_el = card.select_one("del._product-price-old span.bgn2eur-secondary-currency")
-    if not old_el:
-        old_el = card.select_one("del span.bgn2eur-secondary-currency, del[class*='price']")
-    if old_el:
-        old_price = clean_price(old_el.get_text(strip=True))
-
-    discount_pct = None
-    disc_el = card.select_one("span._product-details-discount, [class*='discount']")
-    if disc_el:
-        m = re.search(r'(\d+)\s*%', disc_el.get_text(strip=True))
-        if m:
-            discount_pct = int(m.group(1))
-    if not discount_pct and old_price and old_price > new_price:
-        discount_pct = int(round((1 - new_price / old_price) * 100))
-
-    image = None
-    img_el = card.select_one("img.lazyload-image, img[data-src], img")
-    if img_el:
-        image = img_el.get("data-first-src") or img_el.get("data-src") or img_el.get("src")
-
-    return make_raw_item(
-        name, new_price, old_price, discount_pct, image, "T-Market", source,
-        source_type="promo" if source == "tmarket_dom" else "assortment",
-    )
-
-
-def _extract_tmarket_page_count(soup: BeautifulSoup) -> int:
-    pages = {1}
-    for a in soup.select("a[href*='page=']"):
-        href = a.get("href") or ""
-        m = re.search(r'page=(\d+)', href)
-        if m:
-            pages.add(int(m.group(1)))
-    return max(pages)
-
-
-def scrape_tmarket_catalog(max_pages_per_category: int = 6) -> list[dict]:
-    """Scrape regular-price assortment from healthy T-Market categories."""
-    items = []
-    seen_urls = set()
-
-    try:
-        for base_url in TMARKET_CATEGORY_URLS:
-            first = requests.get(base_url, headers=TMARKET_HEADERS, timeout=30)
-            first.raise_for_status()
-            soup = BeautifulSoup(first.text, "html.parser")
-            page_count = min(_extract_tmarket_page_count(soup), max_pages_per_category)
-
-            for page_num in range(1, page_count + 1):
-                url = base_url if page_num == 1 else f"{base_url}?page={page_num}"
-                if url in seen_urls:
-                    continue
-                seen_urls.add(url)
-
-                if page_num > 1:
-                    resp = requests.get(url, headers=TMARKET_HEADERS, timeout=30)
-                    resp.raise_for_status()
-                    soup = BeautifulSoup(resp.text, "html.parser")
-
-                cards = soup.select("div._product")
-                if not cards and page_num == 1:
-                    print(f"  [T-Market catalog] No cards in {base_url}")
-                if not cards:
-                    break
-
-                for card in cards:
-                    item = _parse_tmarket_card(card, "tmarket_catalog")
-                    if item:
-                        items.append(item)
-
-        dedup = {}
-        for item in items:
-            key = item["name"].lower().strip()
-            existing = dedup.get(key)
-            if existing is None:
-                dedup[key] = item
-                continue
-            new_has_discount = item.get("old_price") is not None or item.get("discount_pct") is not None
-            old_has_discount = existing.get("old_price") is not None or existing.get("discount_pct") is not None
-            if new_has_discount and not old_has_discount:
-                dedup[key] = item
-            elif new_has_discount == old_has_discount and item["new_price"] < existing["new_price"]:
-                dedup[key] = item
-
-        result = list(dedup.values())
-        print(f"  [T-Market catalog] {len(result)} unique items from healthy categories")
-        return result
-    except Exception as e:
-        print(f"  [T-Market catalog] Error: {e}")
-        return []
-
-
-async def scrape_tmarket_dom(browser) -> list[dict]:
-    """Scrape tmarketonline.bg promo page — confirmed selectors from live DOM."""
-    items = []
-    context = await browser.new_context(
-        user_agent=USER_AGENT,
-        viewport={"width": 1920, "height": 1080},
-        locale="bg-BG",
-    )
-    page = await context.new_page()
-
-    try:
-        try:
-            await page.goto(TMARKET_URL, wait_until="domcontentloaded", timeout=60000)
-        except Exception:
-            try:
-                await page.goto(TMARKET_URL, wait_until="load", timeout=60000)
-            except Exception:
-                pass
-
-        # Scroll to load all lazy-rendered products
-        for _ in range(6):
-            await page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
-            await asyncio.sleep(1.5)
-
-        html = await page.content()
-        soup = BeautifulSoup(html, "html.parser")
-
-        # Confirmed selector from live DOM investigation
-        cards = soup.select("div._product")
-
-        for card in cards:
-            # Name
-            name_el = card.select_one("h3._product-name-tag a, h3._product-name-tag, ._product-name-tag")
-            if not name_el:
-                name_el = card.select_one("h3, h2, [class*='product-name'], [class*='product-title']")
-            if not name_el:
-                continue
-            name = name_el.get_text(strip=True)
-            if not name:
-                continue
-
-            # New price: ._product-price-compare span.bgn2eur-secondary-currency
-            # (NOT inside del — that's old price)
-            new_price = None
-            compare_el = card.select_one("._product-price-compare")
-            if compare_el:
-                # New price span is NOT inside a <del>
-                for span in compare_el.select("span.bgn2eur-secondary-currency"):
-                    if not span.find_parent("del"):
-                        new_price = clean_price(span.get_text(strip=True))
-                        if new_price:
-                            break
-
-            if not new_price:
-                # Fallback: any price-like element
-                price_el = card.select_one("._product-price span, [class*='price-new'], [class*='current-price']")
-                if price_el:
-                    new_price = clean_price(price_el.get_text(strip=True))
-
-            if not new_price:
-                continue
-
-            # Old price: del._product-price-old span.bgn2eur-secondary-currency
-            old_price = None
-            old_el = card.select_one("del._product-price-old span.bgn2eur-secondary-currency")
-            if not old_el:
-                old_el = card.select_one("del span.bgn2eur-secondary-currency, del[class*='price']")
-            if old_el:
-                old_price = clean_price(old_el.get_text(strip=True))
-
-            # Discount %: span._product-details-discount  (e.g. "- 52%")
-            discount_pct = None
-            disc_el = card.select_one("span._product-details-discount, [class*='discount']")
-            if disc_el:
-                m = re.search(r'(\d+)\s*%', disc_el.get_text(strip=True))
-                if m:
-                    discount_pct = int(m.group(1))
-            if not discount_pct and old_price and old_price > new_price:
-                discount_pct = int(round((1 - new_price / old_price) * 100))
-
-            # Image: img.lazyload-image[data-src]
-            image = None
-            img_el = card.select_one("img.lazyload-image, img[data-src], img")
-            if img_el:
-                image = img_el.get("data-src") or img_el.get("src")
-
-            item = _parse_tmarket_card(card, "tmarket_dom")
-            if item:
-                items.append(item)
-
-        print(f"  [T-Market DOM] {len(items)} raw items from {TMARKET_URL}")
-    except Exception as e:
-        print(f"  [T-Market DOM] Error: {e}")
-    finally:
-        await context.close()
-
-    return items
-
-
 # ─── Fantastico CSV scraper ───────────────────────────────────────────────────
 
 FANTASTICO_CSV_URL = "https://fantastico.bg/files/kzp/fantastico.csv"
+DAR_CSV_URL = "https://www.fantastico.bg/files/kzp/dar.csv"
 
 
-def scrape_fantastico_csv() -> list[dict]:
-    """Download Fantastico's KZP CSV and extract discounted items.
+def _parse_kzp_csv(url: str, store_name: str, source_key: str) -> list[dict]:
+    """Generic parser for Fantastico-group KZP CSV files.
 
-    CSV columns (UTF-8-BOM, semicolon-delimited):
+    CSV columns (UTF-8-BOM, comma-delimited):
       0=StoreID, 1=StoreName, 2=ProductName, 3=Code,
-      4=Qty, 5=RegularPrice, 6=DiscountPrice
+      4=Category, 5=RegularPrice, 6=DiscountPrice
     Rows with non-empty col[6] are on discount.
     Deduplicate by product Code — keep lowest discount price.
     """
@@ -774,37 +528,31 @@ def scrape_fantastico_csv() -> list[dict]:
     items = []
     try:
         resp = requests.get(
-            FANTASTICO_CSV_URL,
-            headers={"User-Agent": USER_AGENT},
+            url,
+            headers={"User-Agent": USER_AGENT, "Referer": "https://www.fantastico.bg/promotions"},
             timeout=60,
             stream=True,
         )
         resp.raise_for_status()
-        # UTF-8-BOM, comma-delimited, quoted fields
         raw = resp.content.decode("utf-8-sig", errors="replace")
         reader = csv.reader(io.StringIO(raw), delimiter=",")
 
-        best_by_code: dict[str, dict] = {}  # code → raw item
+        best_by_code: dict[str, dict] = {}
 
         for row in reader:
             if len(row) < 7:
                 continue
-            # Skip header row (first column is "Населено място" or similar text)
             try:
                 float(row[0].strip())
             except ValueError:
-                continue  # non-numeric store ID → header row
+                continue  # header row
 
             name = row[2].strip()
             code = row[3].strip()
-            # Prices use "." as decimal separator already
             reg_price_raw = row[5].strip()
             disc_price_raw = row[6].strip()
 
-            # Only process rows with a discount price
-            if not disc_price_raw:
-                continue
-            if not name:
+            if not disc_price_raw or not name:
                 continue
 
             try:
@@ -827,10 +575,9 @@ def scrape_fantastico_csv() -> list[dict]:
                 discount_pct = int(round((1 - new_price / old_price) * 100))
 
             item = make_raw_item(
-                name, new_price, old_price, discount_pct, None, "Fantastico", "fantastico_csv"
+                name, new_price, old_price, discount_pct, None, store_name, source_key
             )
 
-            # Keep the best (lowest) price per code
             if code:
                 existing = best_by_code.get(code)
                 if existing is None or new_price < existing["new_price"]:
@@ -839,9 +586,146 @@ def scrape_fantastico_csv() -> list[dict]:
                 items.append(item)
 
         items.extend(best_by_code.values())
-        print(f"  [Fantastico CSV] {len(items)} unique discounted items")
+        print(f"  [{store_name} CSV] {len(items)} unique discounted items")
 
     except Exception as e:
-        print(f"  [Fantastico CSV] Error: {e}")
+        print(f"  [{store_name} CSV] Error: {e}")
 
     return items
+
+
+def scrape_fantastico_csv() -> list[dict]:
+    """Download Fantastico's KZP CSV and extract discounted items."""
+    return _parse_kzp_csv(FANTASTICO_CSV_URL, "Fantastico", "fantastico_csv")
+
+
+def scrape_dar_csv() -> list[dict]:
+    """Download Dar (ДАР) KZP CSV — same format as Fantastico, same group."""
+    return _parse_kzp_csv(DAR_CSV_URL, "Dar", "dar_csv")
+
+
+# ─── T-Market DOM scraper (local only — requires real Chrome profile) ──────────
+
+TMARKET_URL = "https://tmarketonline.bg/selection/produkti-v-akciya"
+TMARKET_CHROME_PROFILE = r"C:\Users\JohnnyBravo\AppData\Local\Temp\pw_chrome_profile"
+
+
+async def scrape_tmarket_dom(browser) -> list[dict]:
+    """Scrape T-Market promo page using a real Chrome profile to bypass Cloudflare.
+
+    Requires TMARKET_CHROME_PROFILE to exist (created by setup_tmarket_profile()).
+    Only works locally — not in CI/GitHub Actions.
+    """
+    items = []
+    try:
+        context = await browser.new_context(
+            user_agent=(
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+            ),
+            viewport={"width": 1920, "height": 1080},
+            locale="bg-BG",
+        )
+        page = await context.new_page()
+        await page.goto(TMARKET_URL, timeout=30000)
+        await asyncio.sleep(5)
+        for _ in range(6):
+            await page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+            await asyncio.sleep(1.5)
+
+        html_content = await page.content()
+        soup = BeautifulSoup(html_content, "html.parser")
+        cards = soup.select("div._product")
+
+        for card in cards:
+            name_el = card.select_one(
+                "h3._product-name-tag a, h3._product-name-tag, ._product-name-tag"
+            )
+            if not name_el:
+                continue
+            name = name_el.get_text(strip=True)
+            if not name:
+                continue
+
+            new_price = None
+            compare_el = card.select_one("._product-price-compare")
+            if compare_el:
+                for span in compare_el.select("span.bgn2eur-secondary-currency"):
+                    if not span.find_parent("del"):
+                        new_price = clean_price(span.get_text(strip=True))
+                        if new_price:
+                            break
+            if not new_price:
+                price_el = card.select_one(
+                    "._product-price span.bgn2eur-secondary-currency, "
+                    "._product-price span, [class*='price-new']"
+                )
+                if price_el:
+                    new_price = clean_price(price_el.get_text(strip=True))
+            if not new_price:
+                continue
+
+            old_price = None
+            old_el = card.select_one(
+                "del._product-price-old span.bgn2eur-secondary-currency, "
+                "del span.bgn2eur-secondary-currency"
+            )
+            if old_el:
+                old_price = clean_price(old_el.get_text(strip=True))
+
+            discount_pct = None
+            disc_el = card.select_one("span._product-details-discount, [class*='discount']")
+            if disc_el:
+                m = re.search(r"(\d+)\s*%", disc_el.get_text(strip=True))
+                if m:
+                    discount_pct = int(m.group(1))
+            if not discount_pct and old_price and old_price > new_price:
+                discount_pct = int(round((1 - new_price / old_price) * 100))
+
+            image = None
+            img_el = card.select_one("img.lazyload-image, img[data-src], img")
+            if img_el:
+                image = img_el.get("data-first-src") or img_el.get("data-src") or img_el.get("src")
+
+            item = make_raw_item(name, new_price, old_price, discount_pct, image, "T-Market", "tmarket_dom")
+            if item:
+                items.append(item)
+
+        await context.close()
+        print(f"  [T-Market DOM] {len(items)} raw items from {TMARKET_URL}")
+    except Exception as e:
+        print(f"  [T-Market DOM] Error: {e}")
+
+    return items
+
+
+def setup_tmarket_profile() -> bool:
+    """Copy Chrome cookies to temp profile for T-Market scraping.
+    Call this once before running the scraper locally.
+    Returns True if successful.
+    """
+    import shutil
+    import os
+
+    src = r"C:\Users\JohnnyBravo\AppData\Local\Google\Chrome\User Data\Default"
+    dst = TMARKET_CHROME_PROFILE
+
+    if not os.path.exists(src):
+        print("  [T-Market] Chrome profile not found")
+        return False
+
+    os.makedirs(dst, exist_ok=True)
+    for fname in ["Cookies", "Cookies-journal", "Local Storage", "Session Storage"]:
+        src_path = os.path.join(src, fname)
+        dst_path = os.path.join(dst, fname)
+        if os.path.exists(src_path):
+            try:
+                if os.path.isdir(src_path):
+                    if not os.path.exists(dst_path):
+                        shutil.copytree(src_path, dst_path)
+                else:
+                    shutil.copy2(src_path, dst_path)
+            except Exception:
+                pass
+    print(f"  [T-Market] Chrome profile ready at {dst}")
+    return True

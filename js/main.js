@@ -50,10 +50,10 @@ function initTopControls() {
         themeBtn.textContent = isLight ? "🌙" : "☀️";
     }
 
-    // ── Language logic — TODO: активирай когато преводите са готови ──────
-    /*
+    // ── Language logic ───────────────────────────────────────────────────
     const langBtn = document.createElement("button");
     langBtn.className = "lang-toggle";
+    langBtn.id = "lang-toggle";
     langBtn.setAttribute("aria-label", "Switch language");
     wrapper.appendChild(langBtn);
 
@@ -61,8 +61,6 @@ function initTopControls() {
         if (!window.I18N) return;
         const next = window.I18N.getLang() === "bg" ? "en" : "bg";
         window.I18N.setLang(next);
-        langBtn.textContent = next === "bg" ? "EN" : "БГ";
-        updateTrackerProgress();
         document.querySelectorAll("input[type='range']").forEach(slider => {
             const output = document.getElementById(slider.dataset.output);
             if (output && slider.dataset.fn && window[slider.dataset.fn]) {
@@ -71,8 +69,7 @@ function initTopControls() {
         });
     });
 
-    langBtn.textContent = (window.I18N ? window.I18N.getLang() : "bg") === "bg" ? "EN" : "БГ";
-    */
+    langBtn.textContent = (window.I18N ? window.I18N.getLang() : "bg") === "bg" ? "EN" : "BG";
 }
 
 /* --- Visitor Counter --- */
