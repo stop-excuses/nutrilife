@@ -51,7 +51,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "Светла риба тон (риба), зехтин и сол.",
+      "ingredients_en": "Light tuna (fish), olive oil and salt."
     },
     {
       "name": "Starfish Пушена сьомга 100 г",
@@ -147,7 +149,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "Картофи 40%, атлантическа _сьомга*, тихоокеанска _сребърна_ сьомга* 25%, _светла сметана_ 9,5%, лук, _полуобезмаслено мляко_, праз 3,7%, слънчогледово олио, _масло_, нишесте от маниока, сол, _яйца_, лимон 0,1%, магданоз, чесън, черен пипер, куркума.",
+      "ingredients_en": "Potatoes 40%, Atlantic _salmon*, Pacific _silver_ salmon* 25%, _light cream_ 9.5%, onions, _semi-skimmed milk_, leeks 3.7%, sunflower oil, _butter_, cassava starch, salt, _eggs_, lemon 0.1%, parsley, garlic, pepper, turmeric."
     },
     {
       "name": "Супер цена - Пъстърва чистена вакуум За 1 кг Произход - България",
@@ -239,7 +243,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "Картофи 40%, атлантическа _сьомга*, тихоокеанска _сребърна_ сьомга* 25%, _светла сметана_ 9,5%, лук, _полуобезмаслено мляко_, праз 3,7%, слънчогледово олио, _масло_, нишесте от маниока, сол, _яйца_, лимон 0,1%, магданоз, чесън, черен пипер, куркума.",
+      "ingredients_en": "Potatoes 40%, Atlantic _salmon*, Pacific _silver_ salmon* 25%, _light cream_ 9.5%, onions, _semi-skimmed milk_, leeks 3.7%, sunflower oil, _butter_, cassava starch, salt, _eggs_, lemon 0.1%, parsley, garlic, pepper, turmeric."
     },
     {
       "name": "Ципура",
@@ -331,7 +337,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "Картофи 40%, атлантическа _сьомга*, тихоокеанска _сребърна_ сьомга* 25%, _светла сметана_ 9,5%, лук, _полуобезмаслено мляко_, праз 3,7%, слънчогледово олио, _масло_, нишесте от маниока, сол, _яйца_, лимон 0,1%, магданоз, чесън, черен пипер, куркума.",
+      "ingredients_en": "Potatoes 40%, Atlantic _salmon*, Pacific _silver_ salmon* 25%, _light cream_ 9.5%, onions, _semi-skimmed milk_, leeks 3.7%, sunflower oil, _butter_, cassava starch, salt, _eggs_, lemon 0.1%, parsley, garlic, pepper, turmeric."
     },
     {
       "name": "БОБ КРИНА МАСЛЕН 400 ГР КОНСЕРВА",
@@ -381,7 +389,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "Боб (50%), домати (36%), вода, захар, модифицирано царевично брашно, сол, екстракти от подправки, екстракт от билки",
+      "ingredients_en": "Beans (50%), Tomatoes (36%), Water, Sugar, Modified Cornflour, Salt, Spice Extracts , Herb Extract"
     },
     {
       "name": "К-Т КЪРПИ ВЛАЖНИ AROMA FRESH & CLEAN БОРОВИНКА 2+2 БР Х 15БР",
@@ -643,7 +653,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "Скумрия, соево масло, сол.",
+      "ingredients_en": "Mackerel, soybean oil, salt."
     },
     {
       "name": "Гъба",
@@ -775,7 +787,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "Смесена салата 80% (варени зърнени специалитети (вода, грис от твърда ПШЕНИЦА, ЯЙЦЕ, сол, куркума), ЯЙЦЕ, салата 11%, пилешко месо, моркови, твърдо СИРЕНЕ, лимонов сок, рапично масло, вода, нишесте, нишесте, декстроза, ферменти, сол, натурален аромат, магданоз). \r\nБалсамов винегрет сос 7% (рапично олио, върджин зехтин, винен оцет (СУЛФИТИ), гроздова мъст, сол) \r\nШоколадова бисквитка 7% (захар, ПШЕНИЧНО брашно, ЯЙЦЕ, МАСЛО, рапично масло, какаова паста и масло, нискомаслено какао на прах, набухвател: натриев бикарбонат, емулгатори: СОЕВИ лецитини, естествен аромат, сол). \r\nХлебни пръчици 4% (ПШЕНИЧНО брашно, ПШЕНИЧНИ трици, ПШЕНИЧНИ фибри, грис от твърда ПШЕНИЦА, МАСЛО, върджин зехтин, рапично олио, вода, хлебна мая, захар, нишесте, сол, маково семе, натурален аромат).",
+      "ingredients_en": "Mixed salad 80% (cooked cereal specialties (water, durum WHEAT semolina, EGG, salt, turmeric), EGG, salad 11%, chicken meat, carrots, hard CHEESE, lemon juice, rapeseed oil, water, starch, starch, dextrose, ferments, salt, natural flavor, parsley). \r\nBalsamic vinaigrette sauce 7% (rapeseed oil, virgin olive oil, wine vinegar (SULPHITES), grape must, salt) \r\nChocolate cookie 7% (sugar, WHEAT flour, EGG, BUTTER, rapeseed oil, cocoa paste and butter, low-fat cocoa powder, raising agent: sodium bicarbonate, emulsifiers: SOY lecithins, natural flavor, salt). \r\nBreadsticks 4% (WHEAT flour, WHEAT bran, WHEAT fiber, durum WHEAT semolina, BUTTER, virgin olive oil, rapeseed oil, water, baker's yeast, sugar, starch, salt, poppy seeds, natural flavor)."
     },
     {
       "name": "БОБ ОРО САЛАТЕН БЯЛ 720 ГР",
@@ -825,7 +839,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "Боб (50%), домати (36%), вода, захар, модифицирано царевично брашно, сол, екстракти от подправки, екстракт от билки",
+      "ingredients_en": "Beans (50%), Tomatoes (36%), Water, Sugar, Modified Cornflour, Salt, Spice Extracts , Herb Extract"
     },
     {
       "name": "Български спанак",
@@ -1045,7 +1061,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "Леща",
+      "ingredients_en": "Lentils"
     },
     {
       "name": "БОБ БИО BIO GOURMET ЧЕРЕН 400 ГР КОНСЕРВА",
@@ -1139,7 +1157,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "Смесена салата 80% (варени зърнени специалитети (вода, грис от твърда ПШЕНИЦА, ЯЙЦЕ, сол, куркума), ЯЙЦЕ, салата 11%, пилешко месо, моркови, твърдо СИРЕНЕ, лимонов сок, рапично масло, вода, нишесте, нишесте, декстроза, ферменти, сол, натурален аромат, магданоз). \r\nБалсамов винегрет сос 7% (рапично олио, върджин зехтин, винен оцет (СУЛФИТИ), гроздова мъст, сол) \r\nШоколадова бисквитка 7% (захар, ПШЕНИЧНО брашно, ЯЙЦЕ, МАСЛО, рапично масло, какаова паста и масло, нискомаслено какао на прах, набухвател: натриев бикарбонат, емулгатори: СОЕВИ лецитини, естествен аромат, сол). \r\nХлебни пръчици 4% (ПШЕНИЧНО брашно, ПШЕНИЧНИ трици, ПШЕНИЧНИ фибри, грис от твърда ПШЕНИЦА, МАСЛО, върджин зехтин, рапично олио, вода, хлебна мая, захар, нишесте, сол, маково семе, натурален аромат).",
+      "ingredients_en": "Mixed salad 80% (cooked cereal specialties (water, durum WHEAT semolina, EGG, salt, turmeric), EGG, salad 11%, chicken meat, carrots, hard CHEESE, lemon juice, rapeseed oil, water, starch, starch, dextrose, ferments, salt, natural flavor, parsley). \r\nBalsamic vinaigrette sauce 7% (rapeseed oil, virgin olive oil, wine vinegar (SULPHITES), grape must, salt) \r\nChocolate cookie 7% (sugar, WHEAT flour, EGG, BUTTER, rapeseed oil, cocoa paste and butter, low-fat cocoa powder, raising agent: sodium bicarbonate, emulsifiers: SOY lecithins, natural flavor, salt). \r\nBreadsticks 4% (WHEAT flour, WHEAT bran, WHEAT fiber, durum WHEAT semolina, BUTTER, virgin olive oil, rapeseed oil, water, baker's yeast, sugar, starch, salt, poppy seeds, natural flavor)."
     },
     {
       "name": "Яйца от пъдпъдъци",
@@ -1405,7 +1425,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "Пилешко филе 96%, бульон (вода, пилешки кости, ароматни V растения, чесън, подправки, лук, праз, целина, морков), сол, натурални аромати (естествено наличие на полифеноли), антиоксидант: аскорбинова киселина, декстроза, Н оцветител: обикновен карамел. Пилешко месо с произход от ЕС.",
+      "ingredients_en": "Chicken fillet 96%, broth (water, chicken bones, aromatic V plants, garlic, spices, onion, leek, celery, carrot), salt, natural flavors (natural presence of polyphenols), antioxidant: ascorbic acid, dextrose, H coloring: ordinary caramel. Chicken meat from EU origin."
     },
     {
       "name": "Червена леща",
@@ -1456,7 +1478,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "Моркови* 24%, вода, зелена леща* 14%, пълнозърнест ориз басмати* 12%, лук* 12%, слънчогледово масло*, текстурирани и рехидратирани _соеви_* протеини 6%, _соев_* сос (вода, _соя_*, _пшеница_*, морска сол, алкохол*).\r\n\r\n* Съставки от биологично земеделие",
+      "ingredients_en": "Carrots* 24%, water, green lentils* 14%, whole grain basmati rice* 12%, onions* 12%, sunflower oil*, textured and rehydrated _soy_* proteins 6%, _soy_* sauce (water, _soy_*, _wheat_*, sea salt, alcohol*).\r\n\r\n* Ingredients from organic farming"
     },
     {
       "name": "Гъби печурки",
@@ -1503,7 +1527,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "Гъби, вода, сол, регулатор на киселинността: лимонена киселина, антиоксидант: аскорбинова киселина, натриев метабисулфит /сулфити/.",
+      "ingredients_en": "Mushrooms, water, salt, acidity regulator: citric acid, antioxidant: ascorbic acid, sodium metabisulfite /sulfites/."
     },
     {
       "name": "Billa Маслини Каламон, зелени с бадем или зелени с чушка 355 г",
@@ -1640,7 +1666,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "Боб (50%), домати (36%), вода, захар, модифицирано царевично брашно, сол, екстракти от подправки, екстракт от билки",
+      "ingredients_en": "Beans (50%), Tomatoes (36%), Water, Sugar, Modified Cornflour, Salt, Spice Extracts , Herb Extract"
     },
     {
       "name": "Пилешко мляно месо",
@@ -1690,7 +1718,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "Пилешко филе 96%, бульон (вода, пилешки кости, ароматни V растения, чесън, подправки, лук, праз, целина, морков), сол, натурални аромати (естествено наличие на полифеноли), антиоксидант: аскорбинова киселина, декстроза, Н оцветител: обикновен карамел. Пилешко месо с произход от ЕС.",
+      "ingredients_en": "Chicken fillet 96%, broth (water, chicken bones, aromatic V plants, garlic, spices, onion, leek, celery, carrot), salt, natural flavors (natural presence of polyphenols), antioxidant: ascorbic acid, dextrose, H coloring: ordinary caramel. Chicken meat from EU origin."
     },
     {
       "name": "Мариновани пилешки филенца",
@@ -1740,7 +1770,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "Смесена салата 80% (варени зърнени специалитети (вода, грис от твърда ПШЕНИЦА, ЯЙЦЕ, сол, куркума), ЯЙЦЕ, салата 11%, пилешко месо, моркови, твърдо СИРЕНЕ, лимонов сок, рапично масло, вода, нишесте, нишесте, декстроза, ферменти, сол, натурален аромат, магданоз). \r\nБалсамов винегрет сос 7% (рапично олио, върджин зехтин, винен оцет (СУЛФИТИ), гроздова мъст, сол) \r\nШоколадова бисквитка 7% (захар, ПШЕНИЧНО брашно, ЯЙЦЕ, МАСЛО, рапично масло, какаова паста и масло, нискомаслено какао на прах, набухвател: натриев бикарбонат, емулгатори: СОЕВИ лецитини, естествен аромат, сол). \r\nХлебни пръчици 4% (ПШЕНИЧНО брашно, ПШЕНИЧНИ трици, ПШЕНИЧНИ фибри, грис от твърда ПШЕНИЦА, МАСЛО, върджин зехтин, рапично олио, вода, хлебна мая, захар, нишесте, сол, маково семе, натурален аромат).",
+      "ingredients_en": "Mixed salad 80% (cooked cereal specialties (water, durum WHEAT semolina, EGG, salt, turmeric), EGG, salad 11%, chicken meat, carrots, hard CHEESE, lemon juice, rapeseed oil, water, starch, starch, dextrose, ferments, salt, natural flavor, parsley). \r\nBalsamic vinaigrette sauce 7% (rapeseed oil, virgin olive oil, wine vinegar (SULPHITES), grape must, salt) \r\nChocolate cookie 7% (sugar, WHEAT flour, EGG, BUTTER, rapeseed oil, cocoa paste and butter, low-fat cocoa powder, raising agent: sodium bicarbonate, emulsifiers: SOY lecithins, natural flavor, salt). \r\nBreadsticks 4% (WHEAT flour, WHEAT bran, WHEAT fiber, durum WHEAT semolina, BUTTER, virgin olive oil, rapeseed oil, water, baker's yeast, sugar, starch, salt, poppy seeds, natural flavor)."
     },
     {
       "name": "СИРЕНЕ КРАВЕ КЪРНАРЕ 400 ГР ВАКУУМ FARM",
@@ -1916,7 +1948,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "Смесена салата 80% (варени зърнени специалитети (вода, грис от твърда ПШЕНИЦА, ЯЙЦЕ, сол, куркума), ЯЙЦЕ, салата 11%, пилешко месо, моркови, твърдо СИРЕНЕ, лимонов сок, рапично масло, вода, нишесте, нишесте, декстроза, ферменти, сол, натурален аромат, магданоз). \r\nБалсамов винегрет сос 7% (рапично олио, върджин зехтин, винен оцет (СУЛФИТИ), гроздова мъст, сол) \r\nШоколадова бисквитка 7% (захар, ПШЕНИЧНО брашно, ЯЙЦЕ, МАСЛО, рапично масло, какаова паста и масло, нискомаслено какао на прах, набухвател: натриев бикарбонат, емулгатори: СОЕВИ лецитини, естествен аромат, сол). \r\nХлебни пръчици 4% (ПШЕНИЧНО брашно, ПШЕНИЧНИ трици, ПШЕНИЧНИ фибри, грис от твърда ПШЕНИЦА, МАСЛО, върджин зехтин, рапично олио, вода, хлебна мая, захар, нишесте, сол, маково семе, натурален аромат).",
+      "ingredients_en": "Mixed salad 80% (cooked cereal specialties (water, durum WHEAT semolina, EGG, salt, turmeric), EGG, salad 11%, chicken meat, carrots, hard CHEESE, lemon juice, rapeseed oil, water, starch, starch, dextrose, ferments, salt, natural flavor, parsley). \r\nBalsamic vinaigrette sauce 7% (rapeseed oil, virgin olive oil, wine vinegar (SULPHITES), grape must, salt) \r\nChocolate cookie 7% (sugar, WHEAT flour, EGG, BUTTER, rapeseed oil, cocoa paste and butter, low-fat cocoa powder, raising agent: sodium bicarbonate, emulsifiers: SOY lecithins, natural flavor, salt). \r\nBreadsticks 4% (WHEAT flour, WHEAT bran, WHEAT fiber, durum WHEAT semolina, BUTTER, virgin olive oil, rapeseed oil, water, baker's yeast, sugar, starch, salt, poppy seeds, natural flavor)."
     },
     {
       "name": "Боровинки",
@@ -2008,7 +2042,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "Смесена салата 80% (варени зърнени специалитети (вода, грис от твърда ПШЕНИЦА, ЯЙЦЕ, сол, куркума), ЯЙЦЕ, салата 11%, пилешко месо, моркови, твърдо СИРЕНЕ, лимонов сок, рапично масло, вода, нишесте, нишесте, декстроза, ферменти, сол, натурален аромат, магданоз). \r\nБалсамов винегрет сос 7% (рапично олио, върджин зехтин, винен оцет (СУЛФИТИ), гроздова мъст, сол) \r\nШоколадова бисквитка 7% (захар, ПШЕНИЧНО брашно, ЯЙЦЕ, МАСЛО, рапично масло, какаова паста и масло, нискомаслено какао на прах, набухвател: натриев бикарбонат, емулгатори: СОЕВИ лецитини, естествен аромат, сол). \r\nХлебни пръчици 4% (ПШЕНИЧНО брашно, ПШЕНИЧНИ трици, ПШЕНИЧНИ фибри, грис от твърда ПШЕНИЦА, МАСЛО, върджин зехтин, рапично олио, вода, хлебна мая, захар, нишесте, сол, маково семе, натурален аромат).",
+      "ingredients_en": "Mixed salad 80% (cooked cereal specialties (water, durum WHEAT semolina, EGG, salt, turmeric), EGG, salad 11%, chicken meat, carrots, hard CHEESE, lemon juice, rapeseed oil, water, starch, starch, dextrose, ferments, salt, natural flavor, parsley). \r\nBalsamic vinaigrette sauce 7% (rapeseed oil, virgin olive oil, wine vinegar (SULPHITES), grape must, salt) \r\nChocolate cookie 7% (sugar, WHEAT flour, EGG, BUTTER, rapeseed oil, cocoa paste and butter, low-fat cocoa powder, raising agent: sodium bicarbonate, emulsifiers: SOY lecithins, natural flavor, salt). \r\nBreadsticks 4% (WHEAT flour, WHEAT bran, WHEAT fiber, durum WHEAT semolina, BUTTER, virgin olive oil, rapeseed oil, water, baker's yeast, sugar, starch, salt, poppy seeds, natural flavor)."
     },
     {
       "name": "ФИЛЕ ПИЛЕ ОХЛАДЕНО НАСИПНО ГРАДУС ,ПРОИЗХОД БЪЛГАРИЯ",
@@ -2058,7 +2094,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "Смесена салата 80% (варени зърнени специалитети (вода, грис от твърда ПШЕНИЦА, ЯЙЦЕ, сол, куркума), ЯЙЦЕ, салата 11%, пилешко месо, моркови, твърдо СИРЕНЕ, лимонов сок, рапично масло, вода, нишесте, нишесте, декстроза, ферменти, сол, натурален аромат, магданоз). \r\nБалсамов винегрет сос 7% (рапично олио, върджин зехтин, винен оцет (СУЛФИТИ), гроздова мъст, сол) \r\nШоколадова бисквитка 7% (захар, ПШЕНИЧНО брашно, ЯЙЦЕ, МАСЛО, рапично масло, какаова паста и масло, нискомаслено какао на прах, набухвател: натриев бикарбонат, емулгатори: СОЕВИ лецитини, естествен аромат, сол). \r\nХлебни пръчици 4% (ПШЕНИЧНО брашно, ПШЕНИЧНИ трици, ПШЕНИЧНИ фибри, грис от твърда ПШЕНИЦА, МАСЛО, върджин зехтин, рапично олио, вода, хлебна мая, захар, нишесте, сол, маково семе, натурален аромат).",
+      "ingredients_en": "Mixed salad 80% (cooked cereal specialties (water, durum WHEAT semolina, EGG, salt, turmeric), EGG, salad 11%, chicken meat, carrots, hard CHEESE, lemon juice, rapeseed oil, water, starch, starch, dextrose, ferments, salt, natural flavor, parsley). \r\nBalsamic vinaigrette sauce 7% (rapeseed oil, virgin olive oil, wine vinegar (SULPHITES), grape must, salt) \r\nChocolate cookie 7% (sugar, WHEAT flour, EGG, BUTTER, rapeseed oil, cocoa paste and butter, low-fat cocoa powder, raising agent: sodium bicarbonate, emulsifiers: SOY lecithins, natural flavor, salt). \r\nBreadsticks 4% (WHEAT flour, WHEAT bran, WHEAT fiber, durum WHEAT semolina, BUTTER, virgin olive oil, rapeseed oil, water, baker's yeast, sugar, starch, salt, poppy seeds, natural flavor)."
     },
     {
       "name": "Орехите",
@@ -2152,7 +2190,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "Пилешко филе 96%, бульон (вода, пилешки кости, ароматни V растения, чесън, подправки, лук, праз, целина, морков), сол, натурални аромати (естествено наличие на полифеноли), антиоксидант: аскорбинова киселина, декстроза, Н оцветител: обикновен карамел. Пилешко месо с произход от ЕС.",
+      "ingredients_en": "Chicken fillet 96%, broth (water, chicken bones, aromatic V plants, garlic, spices, onion, leek, celery, carrot), salt, natural flavors (natural presence of polyphenols), antioxidant: ascorbic acid, dextrose, H coloring: ordinary caramel. Chicken meat from EU origin."
     },
     {
       "name": "Био пилешки хапки",
@@ -2247,7 +2287,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "Смесена салата 80% (варени зърнени специалитети (вода, грис от твърда ПШЕНИЦА, ЯЙЦЕ, сол, куркума), ЯЙЦЕ, салата 11%, пилешко месо, моркови, твърдо СИРЕНЕ, лимонов сок, рапично масло, вода, нишесте, нишесте, декстроза, ферменти, сол, натурален аромат, магданоз). \r\nБалсамов винегрет сос 7% (рапично олио, върджин зехтин, винен оцет (СУЛФИТИ), гроздова мъст, сол) \r\nШоколадова бисквитка 7% (захар, ПШЕНИЧНО брашно, ЯЙЦЕ, МАСЛО, рапично масло, какаова паста и масло, нискомаслено какао на прах, набухвател: натриев бикарбонат, емулгатори: СОЕВИ лецитини, естествен аромат, сол). \r\nХлебни пръчици 4% (ПШЕНИЧНО брашно, ПШЕНИЧНИ трици, ПШЕНИЧНИ фибри, грис от твърда ПШЕНИЦА, МАСЛО, върджин зехтин, рапично олио, вода, хлебна мая, захар, нишесте, сол, маково семе, натурален аромат).",
+      "ingredients_en": "Mixed salad 80% (cooked cereal specialties (water, durum WHEAT semolina, EGG, salt, turmeric), EGG, salad 11%, chicken meat, carrots, hard CHEESE, lemon juice, rapeseed oil, water, starch, starch, dextrose, ferments, salt, natural flavor, parsley). \r\nBalsamic vinaigrette sauce 7% (rapeseed oil, virgin olive oil, wine vinegar (SULPHITES), grape must, salt) \r\nChocolate cookie 7% (sugar, WHEAT flour, EGG, BUTTER, rapeseed oil, cocoa paste and butter, low-fat cocoa powder, raising agent: sodium bicarbonate, emulsifiers: SOY lecithins, natural flavor, salt). \r\nBreadsticks 4% (WHEAT flour, WHEAT bran, WHEAT fiber, durum WHEAT semolina, BUTTER, virgin olive oil, rapeseed oil, water, baker's yeast, sugar, starch, salt, poppy seeds, natural flavor)."
     },
     {
       "name": "ВИНО МЕРЛО СИМБИОЗА 750 МЛ ВИНАРНА БРАТАНОВИ",
@@ -2381,7 +2423,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "Смесена салата 80% (варени зърнени специалитети (вода, грис от твърда ПШЕНИЦА, ЯЙЦЕ, сол, куркума), ЯЙЦЕ, салата 11%, пилешко месо, моркови, твърдо СИРЕНЕ, лимонов сок, рапично масло, вода, нишесте, нишесте, декстроза, ферменти, сол, натурален аромат, магданоз). \r\nБалсамов винегрет сос 7% (рапично олио, върджин зехтин, винен оцет (СУЛФИТИ), гроздова мъст, сол) \r\nШоколадова бисквитка 7% (захар, ПШЕНИЧНО брашно, ЯЙЦЕ, МАСЛО, рапично масло, какаова паста и масло, нискомаслено какао на прах, набухвател: натриев бикарбонат, емулгатори: СОЕВИ лецитини, естествен аромат, сол). \r\nХлебни пръчици 4% (ПШЕНИЧНО брашно, ПШЕНИЧНИ трици, ПШЕНИЧНИ фибри, грис от твърда ПШЕНИЦА, МАСЛО, върджин зехтин, рапично олио, вода, хлебна мая, захар, нишесте, сол, маково семе, натурален аромат).",
+      "ingredients_en": "Mixed salad 80% (cooked cereal specialties (water, durum WHEAT semolina, EGG, salt, turmeric), EGG, salad 11%, chicken meat, carrots, hard CHEESE, lemon juice, rapeseed oil, water, starch, starch, dextrose, ferments, salt, natural flavor, parsley). \r\nBalsamic vinaigrette sauce 7% (rapeseed oil, virgin olive oil, wine vinegar (SULPHITES), grape must, salt) \r\nChocolate cookie 7% (sugar, WHEAT flour, EGG, BUTTER, rapeseed oil, cocoa paste and butter, low-fat cocoa powder, raising agent: sodium bicarbonate, emulsifiers: SOY lecithins, natural flavor, salt). \r\nBreadsticks 4% (WHEAT flour, WHEAT bran, WHEAT fiber, durum WHEAT semolina, BUTTER, virgin olive oil, rapeseed oil, water, baker's yeast, sugar, starch, salt, poppy seeds, natural flavor)."
     },
     {
       "name": "Супер цена - Българска ферма Прясно пилешко филе 650 г",
@@ -2431,7 +2475,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "Смесена салата 80% (варени зърнени специалитети (вода, грис от твърда ПШЕНИЦА, ЯЙЦЕ, сол, куркума), ЯЙЦЕ, салата 11%, пилешко месо, моркови, твърдо СИРЕНЕ, лимонов сок, рапично масло, вода, нишесте, нишесте, декстроза, ферменти, сол, натурален аромат, магданоз). \r\nБалсамов винегрет сос 7% (рапично олио, върджин зехтин, винен оцет (СУЛФИТИ), гроздова мъст, сол) \r\nШоколадова бисквитка 7% (захар, ПШЕНИЧНО брашно, ЯЙЦЕ, МАСЛО, рапично масло, какаова паста и масло, нискомаслено какао на прах, набухвател: натриев бикарбонат, емулгатори: СОЕВИ лецитини, естествен аромат, сол). \r\nХлебни пръчици 4% (ПШЕНИЧНО брашно, ПШЕНИЧНИ трици, ПШЕНИЧНИ фибри, грис от твърда ПШЕНИЦА, МАСЛО, върджин зехтин, рапично олио, вода, хлебна мая, захар, нишесте, сол, маково семе, натурален аромат).",
+      "ingredients_en": "Mixed salad 80% (cooked cereal specialties (water, durum WHEAT semolina, EGG, salt, turmeric), EGG, salad 11%, chicken meat, carrots, hard CHEESE, lemon juice, rapeseed oil, water, starch, starch, dextrose, ferments, salt, natural flavor, parsley). \r\nBalsamic vinaigrette sauce 7% (rapeseed oil, virgin olive oil, wine vinegar (SULPHITES), grape must, salt) \r\nChocolate cookie 7% (sugar, WHEAT flour, EGG, BUTTER, rapeseed oil, cocoa paste and butter, low-fat cocoa powder, raising agent: sodium bicarbonate, emulsifiers: SOY lecithins, natural flavor, salt). \r\nBreadsticks 4% (WHEAT flour, WHEAT bran, WHEAT fiber, durum WHEAT semolina, BUTTER, virgin olive oil, rapeseed oil, water, baker's yeast, sugar, starch, salt, poppy seeds, natural flavor)."
     },
     {
       "name": "Raffaello Яйце 100 г",
@@ -2526,7 +2572,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "Смесена салата 80% (варени зърнени специалитети (вода, грис от твърда ПШЕНИЦА, ЯЙЦЕ, сол, куркума), ЯЙЦЕ, салата 11%, пилешко месо, моркови, твърдо СИРЕНЕ, лимонов сок, рапично масло, вода, нишесте, нишесте, декстроза, ферменти, сол, натурален аромат, магданоз). \r\nБалсамов винегрет сос 7% (рапично олио, върджин зехтин, винен оцет (СУЛФИТИ), гроздова мъст, сол) \r\nШоколадова бисквитка 7% (захар, ПШЕНИЧНО брашно, ЯЙЦЕ, МАСЛО, рапично масло, какаова паста и масло, нискомаслено какао на прах, набухвател: натриев бикарбонат, емулгатори: СОЕВИ лецитини, естествен аромат, сол). \r\nХлебни пръчици 4% (ПШЕНИЧНО брашно, ПШЕНИЧНИ трици, ПШЕНИЧНИ фибри, грис от твърда ПШЕНИЦА, МАСЛО, върджин зехтин, рапично олио, вода, хлебна мая, захар, нишесте, сол, маково семе, натурален аромат).",
+      "ingredients_en": "Mixed salad 80% (cooked cereal specialties (water, durum WHEAT semolina, EGG, salt, turmeric), EGG, salad 11%, chicken meat, carrots, hard CHEESE, lemon juice, rapeseed oil, water, starch, starch, dextrose, ferments, salt, natural flavor, parsley). \r\nBalsamic vinaigrette sauce 7% (rapeseed oil, virgin olive oil, wine vinegar (SULPHITES), grape must, salt) \r\nChocolate cookie 7% (sugar, WHEAT flour, EGG, BUTTER, rapeseed oil, cocoa paste and butter, low-fat cocoa powder, raising agent: sodium bicarbonate, emulsifiers: SOY lecithins, natural flavor, salt). \r\nBreadsticks 4% (WHEAT flour, WHEAT bran, WHEAT fiber, durum WHEAT semolina, BUTTER, virgin olive oil, rapeseed oil, water, baker's yeast, sugar, starch, salt, poppy seeds, natural flavor)."
     },
     {
       "name": "Мариновани пилешки бутчета",
@@ -2620,7 +2668,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "Цели овесени ядки от биологично земеделие.",
+      "ingredients_en": "Whole oat flakes from organic farming."
     },
     {
       "name": "Супер цена - Печено пиле От топлата витрина 1 бр. Billa Ready",
@@ -2670,7 +2720,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "Смесена салата 80% (варени зърнени специалитети (вода, грис от твърда ПШЕНИЦА, ЯЙЦЕ, сол, куркума), ЯЙЦЕ, салата 11%, пилешко месо, моркови, твърдо СИРЕНЕ, лимонов сок, рапично масло, вода, нишесте, нишесте, декстроза, ферменти, сол, натурален аромат, магданоз). \r\nБалсамов винегрет сос 7% (рапично олио, върджин зехтин, винен оцет (СУЛФИТИ), гроздова мъст, сол) \r\nШоколадова бисквитка 7% (захар, ПШЕНИЧНО брашно, ЯЙЦЕ, МАСЛО, рапично масло, какаова паста и масло, нискомаслено какао на прах, набухвател: натриев бикарбонат, емулгатори: СОЕВИ лецитини, естествен аромат, сол). \r\nХлебни пръчици 4% (ПШЕНИЧНО брашно, ПШЕНИЧНИ трици, ПШЕНИЧНИ фибри, грис от твърда ПШЕНИЦА, МАСЛО, върджин зехтин, рапично олио, вода, хлебна мая, захар, нишесте, сол, маково семе, натурален аромат).",
+      "ingredients_en": "Mixed salad 80% (cooked cereal specialties (water, durum WHEAT semolina, EGG, salt, turmeric), EGG, salad 11%, chicken meat, carrots, hard CHEESE, lemon juice, rapeseed oil, water, starch, starch, dextrose, ferments, salt, natural flavor, parsley). \r\nBalsamic vinaigrette sauce 7% (rapeseed oil, virgin olive oil, wine vinegar (SULPHITES), grape must, salt) \r\nChocolate cookie 7% (sugar, WHEAT flour, EGG, BUTTER, rapeseed oil, cocoa paste and butter, low-fat cocoa powder, raising agent: sodium bicarbonate, emulsifiers: SOY lecithins, natural flavor, salt). \r\nBreadsticks 4% (WHEAT flour, WHEAT bran, WHEAT fiber, durum WHEAT semolina, BUTTER, virgin olive oil, rapeseed oil, water, baker's yeast, sugar, starch, salt, poppy seeds, natural flavor)."
     },
     {
       "name": "Кенар Млечна салата Премиум От деликатесната витрина За 1 кг Billa Ready",
@@ -2846,7 +2898,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "обелени бадеми",
+      "ingredients_en": "shelled almonds"
     },
     {
       "name": "КРОАСАН LOTTO КРЕМ ВАНИЛИЯ И ЧЕРЕША 110 ГР",
@@ -3232,7 +3286,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "Цели овесени ядки от биологично земеделие.",
+      "ingredients_en": "Whole oat flakes from organic farming."
     },
     {
       "name": "Високопротеинова овесена закуска",
@@ -3281,7 +3337,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "Цели овесени ядки от биологично земеделие.",
+      "ingredients_en": "Whole oat flakes from organic farming."
     },
     {
       "name": "Тиквички",
@@ -3418,7 +3476,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "Пастьоризирано мляко, сол, млечни ферменти, микробно сирище",
+      "ingredients_en": "Pasteurized milk, salt, lactic ferments, microbial rennet"
     },
     {
       "name": "Супер цена - Тиквички За 1 кг",
@@ -3511,7 +3571,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "46% краве сирене, 16% извара, 14% майонеза (слънчогледово масло, вода, модифицирано царевично нишесте, киселини: оцетна киселина, лимонена киселина; яйчни жълтъци на прах*, стабилизатори: ксантанова гума, гума гуар; дехидратиран глюкозен сироп, трапезна сол, захар, консервант: калиев сорбат), 10% печени чушки (печени чушки, киселини: оцетна киселина, лимонена киселина; трапезна сол, захар, консерванти: калиев сорбат, натриев бензоат), слънчогледово масло, червен пипер, сушен чесън, 0,2% чили, консервант: калиев сорбат. *Уголемени клетки. Може да съдържа следи от глутен, сулфити, соя, целина, риба, сусамово семе, синап.",
+      "ingredients_en": "46% cow cheese, 16% cottage cheese, 14% mayonnaise (sunflower oil, water, modified corn starch, acids: acetic acid, citric acid; powdered egg yolks*, stabilizers: xanthan gum, guar gum; dehydrated glucose syrup, table salt, sugar, preservative: potassium sorbate), 10% roasted peppers (roasted peppers, acids: acetic acid, citric acid; table salt, sugar, preservatives: potassium sorbate, sodium benzoate), sunflower oil, red pepper, dried garlic, 0.2% chili, preservative: potassium sorbate. *Enlarged cells. May contain traces of gluten, sulphites, soy, celery, fish, sesame seeds, mustard."
     },
     {
       "name": "Нискомаслена извара",
@@ -3603,7 +3665,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "Свинско месо 54%, свинска мазнина, вода, телешко 2,5%, телешка мазнина, сол, подправки и ароматни растения (чесън, канела, кориандър, шалот, джинджифил, дафинов лист, боздуган, индийско орехче, лук, червен пипер, черен пипер, розмарин, мащерка), глюкозен сироп, лук, декстроза, дехидратирана свинска плазма, естествени аромати, регулатор на киселинността: натриеви цитрати, подкислител: лимонена киселина, антиоксидант: натриев аскорбат, консервант: натриев нитрит. Свинско и телешко месо от Франция.",
+      "ingredients_en": "Pork meat 54%, pork fat, water, veal 2.5%, veal fat, salt, spices and aromatic plants (garlic, cinnamon, coriander, shallot, ginger, bay leaf, mace, nutmeg, onions, paprika, pepper, rosemary, thyme), glucose syrup, onion, dextrose, dehydrated pork plasma, natural flavors, acidity regulator: sodium citrates, acidifier: citric acid, antioxidant: sodium ascorbate, preservative: sodium nitrite. Pork and veal meat from France."
     },
     {
       "name": "Мургаш Извара От деликатесната витрина За 1 кг",
@@ -3780,7 +3844,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "лешник",
+      "ingredients_en": "hazelnut"
     },
     {
       "name": "Калмари",
@@ -4120,7 +4186,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "пшеничен грис 76%, растително масло (рафинирано слънчогледово масло и нехидрогениран палмов олеин в различни пропорции), брашно от лук 1,6%, сол, естествен оцветител: анато/e160b (ii), съдържа глутен,",
+      "ingredients_en": "wheat semolina 76%, vegetable oil (refined sunflower oil and non-hydrogenated palm olein in varying proportions), meal onion 1,6%, salt, natural coloring agent: annatto/e160b (ii), contains gluten,"
     },
     {
       "name": "КЪРПИ ВЛАЖНИ АНТИБАКТ. EVENT МАНДАРИНА 3Х15 БР",
@@ -4297,7 +4365,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "прясно пълномаслено мляко, сметана, стабилизатори, нишесте, карагенан, сол, млечни ферменти\nмазнини 21%",
+      "ingredients_en": "fresh whole milk, cream, stabilizers, starch, carrageenan, salt, lactic ferments\nfat 21%"
     },
     {
       "name": "Геврек със сирене и сусам",
@@ -4388,7 +4458,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "СИРОП ОТ ГЛЮКОЗА, ЗАХАР, ЕСТЕСТВЕН АРОМАТИЗАНТ: МЕНТА, С ДРУГИ ЕСТЕСТВЕНИ АРОМАТИАНТИ 0,35% (МАСЛО ОТ МЕНТА, ЕВКАЛИПТОВО МАСЛО, МАСЛО ОТ МАЩЕРКА, МАСЛО ОТ ПЕЛИН, МАСЛО ОТ САЛВИЯ, МАСЛО ОТ КОПЪР), ОЦВЕТИТЕЛ: МЕДНИ КОМПЛЕКСИ НА ХЛОРОФИЛИ И ХЛОРОФИМИНИ.",
+      "ingredients_en": "GLUCOSE SYRUP, SUGAR, NATURAL FLAVORING: MINT, WITH OTHER NATURAL FLAVORING 0.35% (MINT OIL, EUCALYPTUS OIL, THYME OIL, WORMWHILE OIL, SAGE OIL, FINE OIL), COLORANT: COPPER COMPLEXES OF CHLOROPHYLLS AND CHLOROPHYMINES."
     },
     {
       "name": "ДОМАТИ ОРО НА КУБЧЕТА 400 ГР КОНСЕРВА",
@@ -4524,7 +4596,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "Краве мляко, сухо обезмаслено мляко,сметана, българска закваска",
+      "ingredients_en": "Cow's milk, dry skimmed milk, cream, Bulgarian sourdough"
     },
     {
       "name": "Печено агнешко кюфте, кебапче От топлата витрина 1 бр. Billa Ready",
@@ -5083,7 +5157,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "Лиогур М.Д.,%2. Произведено от Ихтат, може да съдържа глутен, орехи и лешници. 2.",
+      "ingredients_en": "Liogur M.D.,%2. Manufactured by Ikhtat, it may contain gluten, walnuts and hazelnuts. 2."
     },
     {
       "name": "Супер цена - Oberon Домати цели белени или на кубчета 400 г",
@@ -5303,7 +5379,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "Краве МЛЯКО (България), българска симбиотична закваска.",
+      "ingredients_en": "Cow's MILK (Bulgaria), Bulgarian symbiotic sourdough."
     },
     {
       "name": "ДОМАТИ HEINZ НА КУБЧЕТА 400 ГР МК",
@@ -5402,7 +5480,9 @@ const ALL_PRODUCTS_DATA = {
       ],
       "junk_count": 1,
       "amber_count": 0,
-      "clean_label": false
+      "clean_label": false,
+      "ingredients_bg": "Вода, 43% пюре и сок от концентрат: 34% морков, 5% ябълка, 3,5% праскова; захар и/или глюкозо-фруктозен сироп, регулатор на киселинността: лимонена киселина; витамин С, ароматизант.",
+      "ingredients_en": "Water, 43% puree and juice from concentrate: 34% carrot, 5% apple, 3.5% peach; sugar and/or glucose-fructose syrup, acidity regulator: citric acid; vitamin C, flavoring."
     },
     {
       "name": "Закуска със сирене",
@@ -5452,7 +5532,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "прясно пълномаслено мляко, сметана, стабилизатори, нишесте, карагенан, сол, млечни ферменти\nмазнини 21%",
+      "ingredients_en": "fresh whole milk, cream, stabilizers, starch, carrageenan, salt, lactic ferments\nfat 21%"
     },
     {
       "name": "СИРЕНЕ КРАВЕ БОР ЧВОР БЕЗ ЛАКТОЗА 200 ГР ВАКУУМ РП",
@@ -5587,7 +5669,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "44% сирене* (от което 52% кашкавал), обезмаслено мляко, сухо обезмаслено мляко, краве масло, емулгаторни соли: полифосфати; трапезна сол, киселина: лимонена киселина. *Съдържа сирищни ензими с микробиален и животински произход.",
+      "ingredients_en": "44% cheese* (of which 52% cheese), skimmed milk, dry skimmed milk, cow butter, emulsifier salts: polyphosphates; table salt, acid: citric acid. *Contains rennet enzymes of microbial and animal origin."
     },
     {
       "name": "НАДЕНИЧКИ ЛУКАНКОВИ УДИВИТЕЛНИ 200 ГР ВАКУУМ БОНИ",
@@ -5933,7 +6017,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "прясно пълномаслено мляко, сметана, стабилизатори, нишесте, карагенан, сол, млечни ферменти\nмазнини 21%",
+      "ingredients_en": "fresh whole milk, cream, stabilizers, starch, carrageenan, salt, lactic ferments\nfat 21%"
     },
     {
       "name": "РОЛЦА МИНИ FILOSOPHY БУТЕР СЪС СИРЕНЕ ФЕТА 500 ГР *",
@@ -5984,7 +6070,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "прясно пълномаслено мляко, сметана, стабилизатори, нишесте, карагенан, сол, млечни ферменти\nмазнини 21%",
+      "ingredients_en": "fresh whole milk, cream, stabilizers, starch, carrageenan, salt, lactic ferments\nfat 21%"
     },
     {
       "name": "СИРЕНЕ ОТ КРАВЕ МЛЯКО LACRIMA ЕКСТРА 350 ГР ВАКУУМ РП",
@@ -6034,7 +6122,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "прясно пълномаслено мляко, сметана, стабилизатори, нишесте, карагенан, сол, млечни ферменти\nмазнини 21%",
+      "ingredients_en": "fresh whole milk, cream, stabilizers, starch, carrageenan, salt, lactic ferments\nfat 21%"
     },
     {
       "name": "Био крем сирене",
@@ -6169,7 +6259,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "прясно пълномаслено мляко, сметана, стабилизатори, нишесте, карагенан, сол, млечни ферменти\nмазнини 21%",
+      "ingredients_en": "fresh whole milk, cream, stabilizers, starch, carrageenan, salt, lactic ferments\nfat 21%"
     },
     {
       "name": "Български картофи",
@@ -6471,7 +6563,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "Краве мляко, сухо обезмаслено мляко, сметана, българска закваска.",
+      "ingredients_en": "Cow's milk, dry skimmed milk, cream, Bulgarian sourdough."
     },
     {
       "name": "Червено грозде",
@@ -6562,7 +6656,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "прясно пълномаслено мляко, сметана, стабилизатори, нишесте, карагенан, сол, млечни ферменти\nмазнини 21%",
+      "ingredients_en": "fresh whole milk, cream, stabilizers, starch, carrageenan, salt, lactic ferments\nfat 21%"
     },
     {
       "name": "Супер цена - Лесидрен краве сирене кутия 400 г",
@@ -6612,7 +6708,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "прясно пълномаслено мляко, сметана, стабилизатори, нишесте, карагенан, сол, млечни ферменти\nмазнини 21%",
+      "ingredients_en": "fresh whole milk, cream, stabilizers, starch, carrageenan, salt, lactic ferments\nfat 21%"
     },
     {
       "name": "МАСЛИНИ ЗЕЛЕНИ БЕЗ КОСТИЛКА РЕГИНА, ГЪРЦИЯ",
@@ -6703,7 +6801,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "прясно пълномаслено мляко, сметана, стабилизатори, нишесте, карагенан, сол, млечни ферменти\nмазнини 21%",
+      "ingredients_en": "fresh whole milk, cream, stabilizers, starch, carrageenan, salt, lactic ferments\nfat 21%"
     },
     {
       "name": "МАСЛИНИ ЗЕЛЕНИ ПИКАНТНИ НА ГРИЛ КГ, ГЪРЦИЯ",
@@ -6924,7 +7024,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "прясно пълномаслено мляко, сметана, стабилизатори, нишесте, карагенан, сол, млечни ферменти\nмазнини 21%",
+      "ingredients_en": "fresh whole milk, cream, stabilizers, starch, carrageenan, salt, lactic ferments\nfat 21%"
     },
     {
       "name": "Schardinger Сирене Котидж 4х125 г",
@@ -7062,7 +7164,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "прясно пълномаслено мляко, сметана, стабилизатори, нишесте, карагенан, сол, млечни ферменти\nмазнини 21%",
+      "ingredients_en": "fresh whole milk, cream, stabilizers, starch, carrageenan, salt, lactic ferments\nfat 21%"
     },
     {
       "name": "Традиционно кипърско сирене Халуми",
@@ -7112,7 +7216,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "прясно пълномаслено мляко, сметана, стабилизатори, нишесте, карагенан, сол, млечни ферменти\nмазнини 21%",
+      "ingredients_en": "fresh whole milk, cream, stabilizers, starch, carrageenan, salt, lactic ferments\nfat 21%"
     },
     {
       "name": "СИРЕНЕ КРАВЕ HOCHLAND 400 ГР КУТИЯ",
@@ -7335,7 +7441,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "Зелени маслини, трапезна Сол, регулатори на киселинността: млечна киселина, лимонена киселина.",
+      "ingredients_en": "Green olives, table salt, acidity regulators: lactic acid, citric acid."
     },
     {
       "name": "Billa Градини сок ябълка и круша 3 л Произход - България",
@@ -7472,7 +7580,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "прясно пълномаслено мляко, сметана, стабилизатори, нишесте, карагенан, сол, млечни ферменти\nмазнини 21%",
+      "ingredients_en": "fresh whole milk, cream, stabilizers, starch, carrageenan, salt, lactic ferments\nfat 21%"
     },
     {
       "name": "ГРОЗДЕН",
@@ -7606,7 +7716,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "прясно пълномаслено мляко, сметана, стабилизатори, нишесте, карагенан, сол, млечни ферменти\nмазнини 21%",
+      "ingredients_en": "fresh whole milk, cream, stabilizers, starch, carrageenan, salt, lactic ferments\nfat 21%"
     },
     {
       "name": "Агнешка дроб сарма От топлата витрина За 1 кг Billa Ready",
@@ -7779,7 +7891,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "прясно пълномаслено мляко, сметана, стабилизатори, нишесте, карагенан, сол, млечни ферменти\nмазнини 21%",
+      "ingredients_en": "fresh whole milk, cream, stabilizers, starch, carrageenan, salt, lactic ferments\nfat 21%"
     },
     {
       "name": "Сега в Billa - Агнешко месо задна четвърт За 1 кг*",
@@ -8080,7 +8194,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "ориз",
+      "ingredients_en": "rice"
     },
     {
       "name": "ОРИЗ ARRIVA БИСЕРЕН 1 КГ",
@@ -8217,7 +8333,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "Органичен пълнозърнест ориз 99,8%, морска сол",
+      "ingredients_en": "Organic wholegrain _rice_ 99.8%, Sea Salt"
     },
     {
       "name": "Свински шницел премиум От деликатесната витрина За 1 кг Billa Ready",
@@ -8355,7 +8473,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "Перлен ориз 88%, киноа 12%.",
+      "ingredients_en": "Pearl rice 88%, quinoa 12%."
     },
     {
       "name": "БРАШНО DOVES FARM ОРИЗОВО БЕЗ ГЛУТЕН 1 КГ",
@@ -8931,7 +9051,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "Органичен пълнозърнест ориз 99,8%, морска сол",
+      "ingredients_en": "Organic wholegrain _rice_ 99.8%, Sea Salt"
     },
     {
       "name": "ГРАХ БИО PREMEAL 680 ГР БУРКАН",
@@ -9024,7 +9146,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "Прясна свинска шунка, Сол, Естествени аромати (естествено наличие на полифеноли), Бульон (вода, свински кости, сол, екстракти от моркови и лук, свинска мазнина и кора, чесън, черен пипер, магданоз, дафинов лист, карамфил), Калиев хлорид, Захар, Антиоксидант: аскорбинова киселина, Оцет на прах.",
+      "ingredients_en": "Fresh pork ham, Salt, Natural flavors (natural presence of polyphenols), Broth (water, pork bones, salt, carrot and onion extracts, pork fat and rind, garlic, pepper, parsley, bay leaf, cloves), Potassium chloride, Sugar, Antioxidant: ascorbic acid, Vinegar powder."
     },
     {
       "name": "Супер цена - Свинска плешка без кост За 1 кг",
@@ -9119,7 +9243,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "Прясна свинска шунка, Сол, Естествени аромати (естествено наличие на полифеноли), Бульон (вода, свински кости, сол, екстракти от моркови и лук, свинска мазнина и кора, чесън, черен пипер, магданоз, дафинов лист, карамфил), Калиев хлорид, Захар, Антиоксидант: аскорбинова киселина, Оцет на прах.",
+      "ingredients_en": "Fresh pork ham, Salt, Natural flavors (natural presence of polyphenols), Broth (water, pork bones, salt, carrot and onion extracts, pork fat and rind, garlic, pepper, parsley, bay leaf, cloves), Potassium chloride, Sugar, Antioxidant: ascorbic acid, Vinegar powder."
     },
     {
       "name": "Супер цена - Свинско контрафиле За 1 кг",
@@ -9170,7 +9296,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "Прясна свинска шунка, Сол, Естествени аромати (естествено наличие на полифеноли), Бульон (вода, свински кости, сол, екстракти от моркови и лук, свинска мазнина и кора, чесън, черен пипер, магданоз, дафинов лист, карамфил), Калиев хлорид, Захар, Антиоксидант: аскорбинова киселина, Оцет на прах.",
+      "ingredients_en": "Fresh pork ham, Salt, Natural flavors (natural presence of polyphenols), Broth (water, pork bones, salt, carrot and onion extracts, pork fat and rind, garlic, pepper, parsley, bay leaf, cloves), Potassium chloride, Sugar, Antioxidant: ascorbic acid, Vinegar powder."
     },
     {
       "name": "Свински врат без кост",
@@ -10403,7 +10531,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "Пшенично брашно, Регулатор на киселинността: аскорбинова киселина, Ензими,",
+      "ingredients_en": "Wheat flour, Acidity regulator: ascorbic acid, Enzymes,"
     },
     {
       "name": "МЛЯКО КИСЕЛО ДОМЛЯН 3.6% 500 ГР РП",
@@ -12215,7 +12345,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "Пастьоризирано краве мляко",
+      "ingredients_en": "Pasteurized cow's milk"
     },
     {
       "name": "Zott моцарела 125 г",
@@ -12303,7 +12435,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "цедено МЛЯКО",
+      "ingredients_en": "squeezed MILK"
     },
     {
       "name": "Високопротеинова напитка",
@@ -12511,7 +12645,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "Пастьоризирано краве мляко",
+      "ingredients_en": "Pasteurized cow's milk"
     },
     {
       "name": "Гръцки маслини Каламон",
@@ -12676,7 +12812,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "Брашно от леща (37%), растителни масла (слънчогледово, рапично), оризово брашно, царевично брашно, нишестета, суроватка на прах (МЛЯКО), сол, захар, калиев хлорид, натурален аромат, домат, магданоз, лук, зелена чушка, чесън, моцарела на прах (МЛЯКО).",
+      "ingredients_en": "Lentil flour (37%), vegetable oils (sunflower, rapeseed), rice flour, corn flour, starches, whey powder (MILK), salt, sugar, potassium chloride, natural flavor, tomato, parsley, onion, green pepper, garlic, mozzarella powder (MILK)."
     },
     {
       "name": "Слънчогледово масло",
@@ -12723,7 +12861,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "100% рафинирано слънчогледово масло",
+      "ingredients_en": "100% refined sunflower oil"
     },
     {
       "name": "Само с Billa App - Billa Кокосово мляко 400 мл",
@@ -13164,7 +13304,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "Пастьоризирано краве мляко",
+      "ingredients_en": "Pasteurized cow's milk"
     },
     {
       "name": "Лимони За 1 кг",
@@ -13367,7 +13509,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "Маслини – сорт „Халкидики“, трапезна сол, стабилизатор: феро глюконат; регулатор на киселинността: млечна киселина.",
+      "ingredients_en": "Olives - \"Halkidiki\" variety, table salt, stabilizer: ferrous gluconate; acidity regulator: lactic acid."
     },
     {
       "name": "Deutsche Markenbutter краве масло 250 г",
@@ -13414,7 +13558,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "краве масло",
+      "ingredients_en": "cow butter"
     },
     {
       "name": "КАФЕ JACOBS BRAZIL & COLOMBIA 200 Г МЛЯНО",
@@ -13625,7 +13771,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "кашу",
+      "ingredients_en": "cashews"
     },
     {
       "name": "Високопротеинови кюфтенца",
@@ -13831,7 +13979,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "49% цедено кисело мляко, 30% краставици, 20% млечна майонеза (вода, слънчогледово масло, сухо обезмаслено мляко, сгъстители: ацетилиран динишестен адипат, натриев октенил сукцинат на нишестето, гума гуар, ксантанова гума; винен оцет, регулатори на киселинността: лимонена киселина, млечна киселина; трапезна сол, захар, консервант: калиев сорбат), трапезна сол, 0,3% копър, 0,1% чесън, консервант: калиев сорбат; бамбукови фибри. Може да съдържа следи от синап, яйца, соя, пшеница и целина.",
+      "ingredients_en": "49% strained yogurt, 30% cucumbers, 20% milk mayonnaise (water, sunflower oil, dry skimmed milk, thickeners: acetylated distarch adipate, sodium starch octenyl succinate, guar gum, xanthan gum; wine vinegar, acidity regulators: citric acid, lactic acid; table salt, sugar, preservative: potassium sorbate), table salt, 0.3% fennel, 0.1% garlic, preservative: potassium sorbate; bamboo fiber. May contain traces of mustard, eggs, soy, wheat and celery."
     },
     {
       "name": "Маслини Услу",
@@ -14119,7 +14269,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "масло 100%",
+      "ingredients_en": "butter 100%"
     },
     {
       "name": "Маслини",
@@ -14166,7 +14318,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "Маслини – сорт „Халкидики“, трапезна сол, стабилизатор: феро глюконат; регулатор на киселинността: млечна киселина.",
+      "ingredients_en": "Olives - \"Halkidiki\" variety, table salt, stabilizer: ferrous gluconate; acidity regulator: lactic acid."
     },
     {
       "name": "КАФЕ MELITTA EXCCELENT 250 Г МЛЯНО",
@@ -14618,7 +14772,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "Маслини, трапезна сол, винен оцет, регулатор на киселинността: млечна киселина. Може да съдържа следи от бадеми.",
+      "ingredients_en": "Olives, table salt, wine vinegar, acidity regulator: lactic acid. May contain traces of almonds."
     },
     {
       "name": "КАФЕ TCHIBO ЕКСКЛУЗИВ 250 Г МЛЯНО",
@@ -16172,7 +16328,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "СУРОВ ЗЕХТИН",
+      "ingredients_en": "CRUDE OLIVE OIL"
     },
     {
       "name": "Виенски шницел от контрафиле 760 г",
@@ -16383,7 +16541,9 @@ const ALL_PRODUCTS_DATA = {
       "ingredients_flags": [],
       "junk_count": 0,
       "amber_count": 0,
-      "clean_label": true
+      "clean_label": true,
+      "ingredients_bg": "Краве мляко, закваска, мая, сол.",
+      "ingredients_en": "Cow's milk, sourdough, yeast, salt."
     },
     {
       "name": "Tchibo Разтворимо кафе Gold 200 г",
