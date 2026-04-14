@@ -312,12 +312,26 @@ function getProteinMetrics(offer, strictWeight = false) {
    ----------------------------------------------------------------------- */
 async function loadOffers() {
     if (typeof OFFERS_DATA !== 'undefined') {
-        allOffers = (OFFERS_DATA.offers || []).map(o => ({
-            ...o,
-            _searchText: buildSearchText(o),
-            _productKey: normalizeProductKey(o.name),
-            _comparisonKey: getComparisonKey(o),
-        }));
+        // Build product lookup from all_products if available.
+        // Offers are enriched with persistent product metadata (image, macros, etc.)
+        // Offer-specific fields (price, discount, valid_until) always take precedence.
+        const productMap = new Map();
+        if (typeof ALL_PRODUCTS_DATA !== 'undefined') {
+            for (const p of (ALL_PRODUCTS_DATA.products || [])) {
+                if (p.product_id) productMap.set(p.product_id, p);
+            }
+        }
+
+        allOffers = (OFFERS_DATA.offers || []).map(o => {
+            const product = productMap.get(o.product_id || o.id);
+            const merged = product ? { ...product, ...o } : o;
+            return {
+                ...merged,
+                _searchText: buildSearchText(merged),
+                _productKey: normalizeProductKey(merged.name),
+                _comparisonKey: getComparisonKey(merged),
+            };
+        });
         applyFilters();
         renderPriceComparison();
         renderBulkRecommendations();
