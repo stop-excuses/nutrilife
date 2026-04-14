@@ -1316,5 +1316,91 @@
         "health_score": 10
       }
     ]
+  },
+  {
+    "date": "2026-04-14T04:10:34.354540Z",
+    "elapsed_seconds": 279,
+    "total_offers": 1223,
+    "food_offers": 428,
+    "healthy_offers": 395,
+    "high_protein_offers": 54,
+    "with_image": 534,
+    "with_discount": 1040,
+    "stores_scraped": [
+      "Billa",
+      "Fantastico",
+      "Kaufland",
+      "Lidl"
+    ],
+    "by_store": {
+      "Kaufland": 952,
+      "Lidl": 117,
+      "Billa": 225,
+      "Fantastico": 464
+    },
+    "category_breakdown": {
+      "protein": 134,
+      "canned": 19,
+      "vegetable": 81,
+      "legume": 10,
+      "nuts": 10,
+      "dairy": 101,
+      "grain": 91,
+      "fat": 17,
+      "bread": 16,
+      "other": 744
+    },
+    "top_healthy": [
+      {
+        "name": "Пушена риба тон",
+        "store": "Lidl",
+        "health_score": 10
+      },
+      {
+        "name": "Starfish Пушена сьомга 100 г",
+        "store": "Billa",
+        "health_score": 10
+      },
+      {
+        "name": "Пушена сьомга",
+        "store": "Lidl",
+        "health_score": 10
+      },
+      {
+        "name": "Супер цена - Пъстърва чистена вакуум За 1 кг Произход - България",
+        "store": "Billa",
+        "health_score": 10
+      },
+      {
+        "name": "Филе от сьомга XXL",
+        "store": "Lidl",
+        "health_score": 10
+      },
+      {
+        "name": "Ципура",
+        "store": "Kaufland",
+        "health_score": 10
+      },
+      {
+        "name": "Ocean Fish Сьомга котлет За 1 кг Продукт, маркиран със синя звезда",
+        "store": "Billa",
+        "health_score": 10
+      },
+      {
+        "name": "БОБ КРИНА МАСЛЕН 400 ГР КОНСЕРВА",
+        "store": "Fantastico",
+        "health_score": 9
+      },
+      {
+        "name": "К-Т КЪРПИ ВЛАЖНИ AROMA FRESH & CLEAN БОРОВИНКА 2+2 БР Х 15БР",
+        "store": "Fantastico",
+        "health_score": 9
+      },
+      {
+        "name": "Авокадо",
+        "store": "Kaufland",
+        "health_score": 9
+      }
+    ]
   }
 ]
