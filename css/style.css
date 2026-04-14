@@ -1996,3 +1996,109 @@ input[type="range"]::-moz-range-thumb {
         padding-top: 128px;
     }
 }
+
+/* ── Price History ───────────────────────────────────────────────────────── */
+.price-history {
+    margin-top: 14px;
+    padding-top: 12px;
+    border-top: 1px solid rgba(255,255,255,.07);
+}
+.ph-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: .78rem;
+    color: var(--muted);
+    margin-bottom: 8px;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+.ph-chart {
+    display: flex;
+    align-items: flex-end;
+    gap: 3px;
+    height: 36px;
+}
+.ph-bar {
+    width: 10px;
+    min-width: 10px;
+    background: #2a3d1e;
+    border-radius: 2px 2px 0 0;
+    transition: opacity .15s;
+    cursor: default;
+}
+.ph-bar.promo { background: #97C459; }
+.ph-bar.low   { background: #3B6D11; }
+.ph-bar:hover { opacity: .8; }
+.ph-stats {
+    display: flex;
+    gap: 16px;
+    font-size: .76rem;
+    color: var(--muted);
+    margin-top: 6px;
+    flex-wrap: wrap;
+}
+.ph-stats strong { color: var(--text); }
+.ph-badge {
+    font-size: .7rem;
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+.ph-lowest { background: #0d1a08; color: #97C459; }
+.ph-above  { background: #1a1408; color: #BA7517; }
+
+/* ── Ingredients Flags ───────────────────────────────────────────────────── */
+.ingredients-block {
+    margin-top: 14px;
+    padding-top: 12px;
+    border-top: 1px solid rgba(255,255,255,.07);
+}
+.ing-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: .78rem;
+    color: var(--muted);
+    margin-bottom: 6px;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+.ing-summary { display: flex; gap: 6px; flex-wrap: wrap; }
+.ing-badge {
+    font-size: .7rem;
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.ing-badge.red   { background: #2a1414; color: #E24B4A; }
+.ing-badge.amber { background: #1a1408; color: #BA7517; }
+.ing-clean       { font-size: .72rem; color: #97C459; }
+.ing-raw {
+    font-size: .75rem;
+    color: var(--muted);
+    line-height: 1.5;
+    margin-bottom: 8px;
+}
+.ing-flags { display: flex; flex-direction: column; gap: 5px; }
+.ing-flag {
+    display: grid;
+    grid-template-columns: 8px auto 1fr;
+    gap: 6px;
+    align-items: baseline;
+    font-size: .76rem;
+}
+.ing-flag .ing-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    margin-top: 2px;
+}
+.ing-flag.red  .ing-dot { background: #E24B4A; }
+.ing-flag.amber .ing-dot { background: #BA7517; }
+.ing-flag .ing-name   { font-weight: 600; color: var(--text); white-space: nowrap; }
+.ing-flag.red  .ing-name  { color: #E24B4A; }
+.ing-flag.amber .ing-name { color: #BA7517; }
+.ing-flag .ing-reason { color: var(--muted); font-size: .72rem; }
+

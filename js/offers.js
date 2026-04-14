@@ -610,6 +610,84 @@ function renderStoreComparisonList(offer) {
     `;
 }
 
+function renderPriceHistory(offer) {
+    const history = offer.price_history;
+    if (!history || history.length < 2) return "";
+
+    const prices = history.map(e => e.price).filter(p => p != null);
+    const currentPrice = offer.new_price;
+    const lowestPrice = offer.lowest_price;
+    const avgPrice = offer.avg_price;
+    const isLowest = currentPrice != null && lowestPrice != null && currentPrice <= lowestPrice;
+    const aboveAvg = avgPrice != null && currentPrice > avgPrice * 1.05;
+
+    const maxP = Math.max(...prices);
+    const minP = Math.min(...prices);
+    const range = maxP - minP || 1;
+
+    const bars = history.slice(-16).map(e => {
+        if (e.price == null) return "";
+        const h = Math.round(((e.price - minP) / range) * 28) + 4;
+        const cls = e.discount_pct > 0 ? "promo" : e.price <= lowestPrice ? "low" : "";
+        return `<div class="ph-bar ${cls}" style="height:${h}px" title="${e.date}: ${e.price.toFixed(2)} лв${e.discount_pct ? ` (-${e.discount_pct}%)` : ""}"></div>`;
+    }).join("");
+
+    const badge = isLowest
+        ? `<span class="ph-badge ph-lowest">📉 Историческо дъно</span>`
+        : aboveAvg
+        ? `<span class="ph-badge ph-above">↑ Над средната</span>`
+        : "";
+
+    return `
+        <div class="price-history">
+            <div class="ph-header">
+                <span>Ценова история · ${history.length} записа</span>
+                ${badge}
+            </div>
+            <div class="ph-chart">${bars}</div>
+            <div class="ph-stats">
+                <span>Дъно: <strong>${lowestPrice != null ? lowestPrice.toFixed(2) + " лв" : "—"}</strong>${offer.lowest_price_date ? " · " + offer.lowest_price_date : ""}</span>
+                <span>Средна: <strong>${avgPrice != null ? avgPrice.toFixed(2) + " лв" : "—"}</strong></span>
+            </div>
+        </div>`;
+}
+
+function renderIngredientsFlags(offer) {
+    const raw = offer.ingredients_raw;
+    const flags = offer.ingredients_flags;
+    if (!raw && (!flags || flags.length === 0)) return "";
+
+    const redCount = (flags || []).filter(f => f.level === "red").length;
+    const amberCount = (flags || []).filter(f => f.level === "amber").length;
+    const noFlags = !flags || flags.length === 0;
+
+    const summary = noFlags
+        ? `<span class="ing-clean">✓ Без открити добавки</span>`
+        : [
+            redCount ? `<span class="ing-badge red">${redCount} вредни</span>` : "",
+            amberCount ? `<span class="ing-badge amber">${amberCount} спорни</span>` : "",
+          ].filter(Boolean).join(" ");
+
+    const flagRows = (flags || []).map(f => `
+        <div class="ing-flag ${f.level}">
+            <span class="ing-dot"></span>
+            <span class="ing-name">${escapeHtml(f.name)}</span>
+            <span class="ing-reason">${escapeHtml(f.reason)}</span>
+        </div>`).join("");
+
+    const compact = raw.length > 300 ? raw.slice(0, 297) + "…" : raw;
+
+    return `
+        <div class="ingredients-block">
+            <div class="ing-header">
+                <span>Съставки</span>
+                <div class="ing-summary">${summary}</div>
+            </div>
+            <div class="ing-raw">${escapeHtml(compact)}</div>
+            ${flagRows ? `<div class="ing-flags">${flagRows}</div>` : ""}
+        </div>`;
+}
+
 function renderIngredientsBlock(offer) {
     const ingredients = (offer.macros || {}).ingredients;
     if (!ingredients) return "";
@@ -756,6 +834,8 @@ function renderOffers(offers) {
                                 ${macros.sugar != null ? `<div class="macro-item"><div class="macro-val">${macros.sugar}г</div><div class="macro-label">захар</div></div>` : ""}
                                 ${macros.fiber != null ? `<div class="macro-item"><div class="macro-val">${macros.fiber}г</div><div class="macro-label">фибри</div></div>` : ""}
                             </div>` : ""}
+                            ${renderIngredientsFlags(o)}
+                            ${renderPriceHistory(o)}
                             ${renderIngredientsBlock(o)}
                         </div>
                     </div>
@@ -941,6 +1021,8 @@ function renderProteinRanking() {
                             <div class="details-row"><strong>Чистота на протеина:</strong> <span>${(o.purity * 100).toFixed(0)}%</span></div>
                             <div class="details-row"><strong>Цена:</strong> <span>${formatPricePair(o.new_price, o.new_price_eur)}</span></div>
                             <div class="details-row"><strong>Макроси:</strong> <span>${m.p}г P · ${m.f}г F · ${m.c}г C</span></div>
+                            ${renderIngredientsFlags(o)}
+                            ${renderPriceHistory(o)}
                         </div>
                     </div>
                 </div>
