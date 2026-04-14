@@ -20,9 +20,7 @@ import asyncio
 import hashlib
 import random
 import shutil
-import subprocess
 import sys
-import tempfile
 import html
 from datetime import datetime
 from pathlib import Path
@@ -31,7 +29,7 @@ import requests
 from playwright.async_api import async_playwright
 from bs4 import BeautifulSoup
 
-# ── Structured store scrapers (primary sources, no OCR) ───────────────────────
+# ── Structured store scrapers ─────────────────────────────────────────────────
 try:
     from off_enricher import get_off_macros as _get_off_macros
     _OFF_ENRICHER_AVAILABLE = True
@@ -50,7 +48,6 @@ try:
         scrape_tmarket_dom,
         setup_tmarket_profile,
         is_high_protein,
-        clean_ocr_name,
         FALLBACK_IMAGE,
     )
     _STRUCTURED_SCRAPERS_AVAILABLE = True
@@ -59,16 +56,14 @@ except ImportError as _e:
     _STRUCTURED_SCRAPERS_AVAILABLE = False
     FALLBACK_IMAGE = None
     def is_high_protein(name): return False
-    def clean_ocr_name(name): return name
 
-# Priority order for deduplication: structured DOM/API > brochure listing > OCR
+# Priority order for deduplication: structured DOM/API > brochure listing
 SOURCE_PRIORITY = {
     "kaufland_dom": 3, "billa_text": 3,
     "lidl_dom": 3, "tmarket_dom": 3,
     "fantastico_csv": 3, "dar_csv": 3,
     "structured": 3,
     "brochure": 2,
-    "ocr": 1,
 }
 
 BASE_URL = "https://www.broshura.bg"
@@ -813,7 +808,7 @@ def analyze_and_save_learning(all_store_results, run_stats):
     all_known = set(FOOD_KEYWORDS) | set(learning["auto_promoted"]) | set(custom.get("food_keywords", []))
 
     for key, entry in learning["candidates"].items():
-        # Only promote short single-word Bulgarian candidates (avoid garbage OCR)
+        # Only promote short single-word Bulgarian candidates
         words = key.split()
         if len(words) > 3:
             continue
@@ -1099,24 +1094,7 @@ def _store_price_snapshot(offer: dict) -> dict:
 
 
 def postprocess_offers(store_results):
-    # --- Step 1: OCR garbage filter ---
-    ocr_garbage_removed = 0
-    for result in store_results:
-        if not result or "offers" not in result:
-            continue
-        clean = []
-        for offer in result["offers"]:
-            cleaned_name = clean_ocr_name(offer.get("name", ""))
-            if cleaned_name is None:
-                ocr_garbage_removed += 1
-                continue
-            offer["name"] = cleaned_name
-            clean.append(offer)
-        result["offers"] = clean
-    if ocr_garbage_removed:
-        print(f"  [postprocess] OCR garbage removed: {ocr_garbage_removed} items")
-
-    # --- Step 2: Deduplicate per (name, store) — prefer structured > brochure > OCR ---
+    # --- Step 1: Deduplicate per (name, store) — prefer structured > brochure ---
     best_by_name_store = {}
     for result in store_results:
         if not result or "offers" not in result:
@@ -1526,116 +1504,6 @@ def run_pdf_scraper_for_kaufland(structured_offers):
     return structured_offers
 
 
-def run_ocr_fallback(store_name, structured_offers, active_brochures):
-    supported_stores = ["Kaufland", "Lidl", "Fantastico", "Billa"]
-    if store_name not in supported_stores or not active_brochures:
-        return structured_offers
-
-    def brochure_page_count(brochure):
-        brochure_url = brochure.get("url")
-        if not brochure_url:
-            return 0
-
-        try:
-            cache_dir = Path(__file__).parent.parent / "data" / "brochure_cache"
-            cache_dir.mkdir(parents=True, exist_ok=True)
-            url_hash = hashlib.md5(brochure_url.encode()).hexdigest()
-            cache_path = cache_dir / f"{url_hash}.json"
-
-            if cache_path.exists():
-                with open(cache_path, "r", encoding="utf-8") as f:
-                    data = json.load(f)
-            else:
-                response = requests.get(
-                    brochure_url,
-                    headers={"User-Agent": USER_AGENT},
-                    timeout=30,
-                )
-                response.raise_for_status()
-                soup = BeautifulSoup(response.text, "html.parser")
-                brochure_tag = soup.find(attrs={"data-brochure": True})
-                if brochure_tag is None:
-                    return 0
-                data = json.loads(html.unescape(brochure_tag["data-brochure"]))
-                with open(cache_path, "w", encoding="utf-8") as f:
-                    json.dump(data, f, ensure_ascii=False)
-
-            return int(data.get("pageResult", {}).get("total", 0))
-        except Exception as e:
-            print(f"  [!] Could not inspect brochure pages for OCR fallback: {brochure_url}: {e}", flush=True)
-            return 0
-
-    brochures_with_pages = []
-    for brochure in active_brochures:
-        page_count = brochure_page_count(brochure)
-        brochures_with_pages.append((brochure, page_count))
-
-    brochures_with_pages.sort(
-        key=lambda item: (
-            item[1],
-            item[0].get("valid_until") or "",
-            item[0].get("title") or "",
-        ),
-        reverse=True,
-    )
-
-    selected_brochure = brochures_with_pages[0][0]
-    selected_page_count = brochures_with_pages[0][1]
-    brochure_url = selected_brochure["url"]
-
-    MAX_OCR_PAGES = 20
-    last_page = min(selected_page_count, MAX_OCR_PAGES + 1)
-    if last_page < 2:
-        print(f"  [!] OCR fallback skipped for {store_name}: brochure has only {selected_page_count} page(s)", flush=True)
-        return structured_offers
-
-    pages = [str(i) for i in range(2, last_page + 1)]
-
-    print(
-        f"  [*] OCR fallback for {store_name} — selected brochure with {selected_page_count} pages: {brochure_url}",
-        flush=True,
-    )
-    print(
-        f"  [*] OCR fallback for {store_name} — pages 2-{last_page} ({len(pages)} pages)...",
-        flush=True,
-    )
-
-    with tempfile.TemporaryDirectory() as tmp_dir:
-        tmp_path = Path(tmp_dir)
-        offers_json = tmp_path / "structured_offers.json"
-        ocr_json = tmp_path / "ocr_candidates.json"
-        merged_json = tmp_path / "merged_output.json"
-
-        with open(offers_json, "w", encoding="utf-8") as f:
-            json.dump({"offers": structured_offers}, f, ensure_ascii=False, indent=2)
-
-        merge_script = Path(__file__).parent / "hybrid_brochure_merge.py"
-        try:
-            cmd = [
-                      sys.executable, str(merge_script),
-                      "--brochure-url", brochure_url,
-                      "--store", store_name,
-                      "--pages"
-                  ] + pages + [
-                      "--offers-json", str(offers_json),
-                      "--ocr-json-out", str(ocr_json),
-                      "--output-json", str(merged_json)
-                  ]
-            subprocess.run(cmd, check=True)
-
-            if merged_json.exists():
-                with open(merged_json, "r", encoding="utf-8") as f:
-                    merged_data = json.load(f)
-                    new_offers = merged_data.get("offers", [])
-                    added = len(new_offers) - len(structured_offers)
-                    print(f"  [*] OCR fallback done: {len(new_offers)} total offers (+{added} from OCR)", flush=True)
-                    return new_offers
-        except Exception as e:
-            print(f"  [!] OCR fallback failed: {e}", flush=True)
-
-    return structured_offers
-
-
 # --- Store scraping ---
 async def scrape_store(browser, store_url, store_semaphore):
     """Scrape all products from a store using hybrid approach."""
@@ -1866,15 +1734,6 @@ async def scrape_store(browser, store_url, store_semaphore):
         print(f"  [*] Kaufland PDF phase starting...", flush=True)
         all_offers = run_pdf_scraper_for_kaufland(all_offers)
         print(f"  [*] Kaufland after PDF: {len(all_offers)} total", flush=True)
-
-    # --- Phase 6b: OCR fallback from broshura.bg brochure images ---
-    # If Playwright was blocked and active_brochures is empty, use cached URLs as fallback
-    supported_ocr_stores = ["Kaufland", "Lidl", "Fantastico", "Billa"]
-    if not active_brochures and cached_brochures_for_store:
-        print(f"  [*] Playwright blocked — using cached brochure URLs for OCR")
-        active_brochures = cached_brochures_for_store
-    if store_name in supported_ocr_stores and active_brochures:
-        all_offers = run_ocr_fallback(store_name, all_offers, active_brochures)
 
     return {
         "store": store_name,
