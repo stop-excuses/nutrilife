@@ -610,33 +610,69 @@ function renderStoreComparisonList(offer) {
     `;
 }
 
+function getPriceTrend(offer) {
+    const history = offer.price_history;
+    if (!history || history.length < 2) return null;
+    const prices = history.map(e => e.price).filter(p => p != null);
+    if (prices.length < 2) return null;
+    const prev = prices[prices.length - 2];
+    const curr = prices[prices.length - 1];
+    if (prev === 0) return null;
+    const pct = ((curr - prev) / prev) * 100;
+    if (pct < -2) return { dir: "down", pct, label: `↓ ${Math.abs(pct).toFixed(0)}%`, cls: "trend-down" };
+    if (pct >  2) return { dir: "up",   pct, label: `↑ ${Math.abs(pct).toFixed(0)}%`, cls: "trend-up" };
+    return { dir: "flat", pct, label: "→ Стабилна", cls: "trend-flat" };
+}
+
 function renderPriceHistory(offer) {
     const history = offer.price_history;
-    if (!history || history.length < 2) return "";
+    if (!history || history.length === 0) return "";
 
     const prices = history.map(e => e.price).filter(p => p != null);
     const currentPrice = offer.new_price;
     const lowestPrice = offer.lowest_price;
     const avgPrice = offer.avg_price;
-    const isLowest = currentPrice != null && lowestPrice != null && currentPrice <= lowestPrice;
-    const aboveAvg = avgPrice != null && currentPrice > avgPrice * 1.05;
+
+    // With only 1 point show a "tracking started" notice
+    if (prices.length < 2) {
+        return `
+        <div class="price-history">
+            <div class="ph-header">
+                <span>Ценова история</span>
+                <span class="ph-badge ph-tracking">📊 Проследяване от ${history[0]?.date || "—"}</span>
+            </div>
+            <div class="ph-one-point">Текуща цена: <strong>${currentPrice != null ? currentPrice.toFixed(2) + " лв" : "—"}</strong> · Данните ще се трупат с всеки scrape</div>
+        </div>`;
+    }
 
     const maxP = Math.max(...prices);
     const minP = Math.min(...prices);
     const range = maxP - minP || 1;
-
-    const bars = history.slice(-16).map(e => {
-        if (e.price == null) return "";
-        const h = Math.round(((e.price - minP) / range) * 28) + 4;
-        const cls = e.discount_pct > 0 ? "promo" : e.price <= lowestPrice ? "low" : "";
-        return `<div class="ph-bar ${cls}" style="height:${h}px" title="${e.date}: ${e.price.toFixed(2)} лв${e.discount_pct ? ` (-${e.discount_pct}%)` : ""}"></div>`;
-    }).join("");
+    const trend = getPriceTrend(offer);
+    const isLowest = currentPrice != null && lowestPrice != null && currentPrice <= lowestPrice;
+    const aboveAvg = avgPrice != null && currentPrice > avgPrice * 1.05;
 
     const badge = isLowest
         ? `<span class="ph-badge ph-lowest">📉 Историческо дъно</span>`
         : aboveAvg
         ? `<span class="ph-badge ph-above">↑ Над средната</span>`
+        : trend
+        ? `<span class="ph-badge ${trend.cls}">${trend.label}</span>`
         : "";
+
+    const recent = history.slice(-16);
+    const bars = recent.map(e => {
+        if (e.price == null) return "";
+        const h = Math.round(((e.price - minP) / range) * 28) + 4;
+        const isPromo = e.discount_pct > 0;
+        const isLow = e.price <= lowestPrice;
+        const cls = isPromo ? "promo" : isLow ? "low" : "";
+        const label = `${e.date}\n${e.price.toFixed(2)} лв${e.discount_pct ? ` · -${e.discount_pct}%` : ""}`;
+        return `<div class="ph-bar ${cls}" style="height:${h}px" title="${label}"></div>`;
+    }).join("");
+
+    const firstDate = history[0]?.date || "";
+    const lastDate = history[history.length - 1]?.date || "";
 
     return `
         <div class="price-history">
@@ -645,9 +681,14 @@ function renderPriceHistory(offer) {
                 ${badge}
             </div>
             <div class="ph-chart">${bars}</div>
+            <div class="ph-dates">
+                <span>${firstDate}</span>
+                <span>${lastDate}</span>
+            </div>
             <div class="ph-stats">
-                <span>Дъно: <strong>${lowestPrice != null ? lowestPrice.toFixed(2) + " лв" : "—"}</strong>${offer.lowest_price_date ? " · " + offer.lowest_price_date : ""}</span>
+                <span>Дъно: <strong class="green">${lowestPrice != null ? lowestPrice.toFixed(2) + " лв" : "—"}</strong>${offer.lowest_price_date ? " · " + offer.lowest_price_date : ""}</span>
                 <span>Средна: <strong>${avgPrice != null ? avgPrice.toFixed(2) + " лв" : "—"}</strong></span>
+                <span>Сега: <strong>${currentPrice != null ? currentPrice.toFixed(2) + " лв" : "—"}</strong></span>
             </div>
         </div>`;
 }
@@ -775,6 +816,8 @@ function renderOffers(offers) {
         if (o.source_type === "assortment") badges.push(`<span class="offer-tag long-lasting">📋 Асортимент</span>`);
         if (o.shelf_life && o.shelf_life !== "малотраен") badges.push(`<span class="offer-tag long-lasting">📦 ${o.shelf_life}</span>`);
         if (o.is_bulk_worthy && o.category !== "grain" && healthyOffer) badges.push(`<span class="offer-tag bulk-tag">🛒 Едро</span>`);
+        const trend = getPriceTrend(o);
+        if (trend && trend.dir !== "flat") badges.push(`<span class="offer-tag ${trend.cls}">${trend.label}</span>`);
 
         let metaParts = [];
         if (o.valid_until) metaParts.push(`до ${o.valid_until}`);

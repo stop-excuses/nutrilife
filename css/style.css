@@ -2046,8 +2046,21 @@ input[type="range"]::-moz-range-thumb {
     font-weight: 600;
     white-space: nowrap;
 }
-.ph-lowest { background: #0d1a08; color: #97C459; }
-.ph-above  { background: #1a1408; color: #BA7517; }
+.ph-lowest   { background: #0d1a08; color: #97C459; }
+.ph-above    { background: #1a1408; color: #BA7517; }
+.ph-tracking { background: #0f0d1a; color: #7F77DD; }
+.trend-down  { background: #0d1a08; color: #97C459; }
+.trend-up    { background: #110a0a; color: #E24B4A; }
+.trend-flat  { background: #111; color: var(--muted); }
+.ph-one-point { font-size: .78rem; color: var(--muted); padding: 4px 0; }
+.ph-dates {
+    display: flex;
+    justify-content: space-between;
+    font-size: .68rem;
+    color: var(--muted);
+    opacity: .6;
+    margin-top: 2px;
+}
 
 /* ── Ingredients Flags ───────────────────────────────────────────────────── */
 .ingredients-block {
