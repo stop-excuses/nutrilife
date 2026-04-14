@@ -45,9 +45,10 @@ try:
         scrape_kaufland_dom,
         scrape_billa_text,
         scrape_lidl_dom,
-        scrape_tmarket_dom,
-        scrape_tmarket_catalog,
         scrape_fantastico_csv,
+        scrape_dar_csv,
+        scrape_tmarket_dom,
+        setup_tmarket_profile,
         is_high_protein,
         clean_ocr_name,
         FALLBACK_IMAGE,
@@ -63,8 +64,8 @@ except ImportError as _e:
 # Priority order for deduplication: structured DOM/API > brochure listing > OCR
 SOURCE_PRIORITY = {
     "kaufland_dom": 3, "billa_text": 3,
-    "lidl_dom": 3,
-    "tmarket_dom": 3, "tmarket_catalog": 3, "fantastico_csv": 3,
+    "lidl_dom": 3, "tmarket_dom": 3,
+    "fantastico_csv": 3, "dar_csv": 3,
     "structured": 3,
     "brochure": 2,
     "ocr": 1,
@@ -211,6 +212,34 @@ CATEGORY_MAP = {
                    "боровинк", "малин", "къпин", "нар",
                    "киви", "ананас", "манго", "папая", "смокин", "фурм",
                    "пъпеш", "круш"],
+    "drinks": ["бира", "вино", "уиски", "джин", "ром", "водка", "коняк", "текила", "ликьор",
+               "просеко", "шампанско", "розе", "совиньон", "шардоне", "кава",
+               "сок", "нектар", "кола", "фанта", "пепси", "спрайт", "швепс",
+               "минерална вода", "изворна вода", "газирана вода",
+               "енергийна напитка", "red bull", "monster",
+               "бира ", "бирени", " вино", "вина "],
+    "pet": ["храна за кучета", "храна за котки", "храна за куче", "храна за котка",
+            "консерва за кучета", "консерва за котки",
+            "храна за домашни", "храна за животни", "храна за птици",
+            "кучешка", "котешка", "кучешки", "котешки",
+            "паяжина за котки", "постелка за куче"],
+    "hygiene": ["шампоан", "балсам за коса", "боя за коса",
+                "дезодорант", "антиперспирант",
+                "паста за зъби", "четка за зъби", "вода за уста", "конец за зъби",
+                "душ гел", "течен сапун", "сапун", "пяна за бръснене",
+                "крем за тяло", "лосион", "крем за лице", "серум", "маска за лице",
+                "слънцезащитен крем", "автобронзант",
+                "превръзки", "тампони", "дамски превръзки", "дамски хигиенни",
+                "памперси", "бебешки пелени",
+                "тоалетна хартия", "кърпички", "мокри кърпички"],
+    "household": ["препарат за съдове", "препарат за пране", "препарат за почистване",
+                  "перилен препарат", "прах за пране", "течен препарат за пране",
+                  "омекотител", "таблетки за съдомиялна", "капсули за пране",
+                  "белина", "хлорна вода",
+                  "гъба за миене", "торбички за боклук", "найлонови торбички",
+                  "алуминиево фолио", "стреч фолио",
+                  "свещи", "батерии", "крушки",
+                  "моп", "четка за тоалетна"],
 }
 
 HEALTH_SCORES = {
@@ -249,22 +278,25 @@ SHELF_LIFE_MAP = {
     "nuts": "6м-1г", "fat": "1-2г",
     "dairy": "малотраен", "protein": "малотраен", "vegetable": "малотраен",
     "bread": "малотраен",
+    "drinks": "малотраен", "household": "1-2г", "hygiene": "1-2г", "pet": "6м-1г",
 }
 
-BULK_CATEGORIES = {"legume", "canned", "nuts", "fat"} # Removed grain (bread is not bulk worthy usually)
+BULK_CATEGORIES = {"legume", "canned", "nuts", "fat", "household", "pet"}
 
 EMOJI_MAP = {
     "protein": "🍗", "canned": "🥫", "grain": "🌾", "legume": "🫘",
     "dairy": "🥛", "nuts": "🥜", "fat": "🫒", "vegetable": "🥦",
-    "bread": "🍞",
+    "bread": "🍞", "drinks": "🍺", "pet": "🐾", "hygiene": "🧴",
+    "household": "🧹",
 }
 
 STORE_KEYWORDS = {
     "Lidl": ["lidl", "лидл"],
     "Kaufland": ["kaufland"],
     "Billa": ["billa", "била"],
-    "T-Market": ["t-market", "tmarket", "т-маркет"],
+    "Dar": ["dar", "дар"],
     "Fantastico": ["fantastico", "фантастико"],
+    "T-Market": ["t-market", "tmarket", "т-маркет"],
     # "CBA": ["cba"],
     # "Metro": ["metro", "метро"],
     # "Penny": ["penny", "пени"],
@@ -576,38 +608,25 @@ def get_diet_tags(name):
 
 
 NOT_FOOD_KEYWORDS = [
-    # Pet food
+    # Pet food — category "pet" is set by detect_category, but is_food should be False
     "храна за кучета", "храна за котки", "храна за куче", "храна за котка",
-    "консерва за кучета", "консерва за котки", "консерва за куче", "консерва за котка",
+    "консерва за кучета", "консерва за котки",
     "храна за домашни", "храна за животни", "храна за птици",
-    # Furniture / household items
+    # Furniture / large household items — no store would put these in food promos
     "термочаш", "бюро", "одеяло", "възглавниц", "чанта",
     "матрак", "стол", "маса", "рафт", "шкаф", "лампа", "покривка",
     "диспенсър", "гардероб", "хладилник", "чаршаф", "спален комплект",
-    "моп", "четка за", "лопатка", "съдомиялна", "миялна",
-    # Cleaning & hygiene
-    "препарат", "перилен", "омекотител", "почистващ", "прах за пране",
-    "дезодорант", "шампоан", "душ гел", "сапун", "паста за зъби",
-    "четка за зъби", "превръзки", "тампони", "дамски", "бебешки пелени",
-    "таблетки за съдомиялна", "капсули", "прани",
+    "съдомиялна машина", "миялна машина",
     # Electronics / tools
-    "батерии", "колонка", "bluetooth", "слушалки", "апарат за кръвно",
-    "ножица за трева", "акумулаторна ножица", "термометър",
+    "колонка", "bluetooth", "слушалки", "апарат за кръвно",
+    "ножица за трева", "акумулаторна ножица",
     # Clothing / accessories
-    "тениска", "поло", "раница", "обувки", "спортни",
-    # Alcohol
-    "уиски", "джин", "ром", "водка", "коняк", "текила", "ликьор",
-    "бира ", "бирени", " вино", "вина ", "розе ", "совиньон", "шардоне",
-    # Candy / junk sweets (specific — не блокираме шоколадови продукти с мляко)
-    "сладолед", "бонбони черноморец", "торта лешник",
+    "тениска", "поло", "раница", "обувки",
     # Easter decorations / non-food
     "боя за яйца", "боя за великден", "кристали за яйца", "стикери за яйца",
     "фолио за яйца", "украса за яйца",
-    # Baby food / non-relevant
-    "пелени", "биопюре", "бебешки", "пюре различни",
-    # Drinks / snacks
-    "негазирана напитка", "газирана напитка", "енергийна напитка",
-    "картофен снакс", "снакс",
+    # Baby purees / generic baby (to avoid false positives)
+    "биопюре бебешко", "пюре бебешко",
 ]
 
 
@@ -943,7 +962,7 @@ def build_offer(name, new_price, old_price, discount_pct, image_url, store_name,
         discount_pct = round((1 - new_price / old_price) * 100)
 
     shelf_life = SHELF_LIFE_MAP.get(category)
-    bulk_worthy = category in BULK_CATEGORIES and healthy
+    bulk_worthy = category in BULK_CATEGORIES and (healthy or category in {"household", "pet"})
     is_long_lasting = shelf_life is not None and shelf_life != "малотраен"
 
     return {
@@ -1037,7 +1056,7 @@ def reclassify_offer(offer):
     offer["shelf_life"] = shelf_life
     offer["is_food"] = food
     offer["is_healthy"] = healthy
-    offer["is_bulk_worthy"] = category in BULK_CATEGORIES and healthy
+    offer["is_bulk_worthy"] = category in BULK_CATEGORIES and (healthy or category in {"household", "pet"})
     offer["is_long_lasting"] = shelf_life is not None and shelf_life != "малотраен"
     offer["health_score"] = health_score if food else None
     offer["diet_tags"] = diet_tags
@@ -1203,37 +1222,52 @@ def raw_items_to_store_result(raw_items: list[dict]) -> dict | None:
 
 
 async def run_structured_scrapers(browser) -> list[dict]:
-    """Run all 5 structured store scrapers. Returns list of store_result dicts."""
+    """Run all structured store scrapers. Returns list of store_result dicts.
+
+    T-Market is included only when running locally (CI=false) and the
+    Chrome profile temp dir exists.
+    """
     if not _STRUCTURED_SCRAPERS_AVAILABLE:
         print("[!] Structured scrapers not available — skipping")
         return []
 
+    import os
+    is_ci = os.environ.get("CI", "").lower() in ("true", "1")
+    from store_scrapers import TMARKET_CHROME_PROFILE
+    tmarket_available = not is_ci and os.path.exists(TMARKET_CHROME_PROFILE)
+
     print("\n[*] === Structured store scrapers ===")
+    if tmarket_available:
+        print("  [T-Market] Local Chrome profile found — T-Market enabled")
+    else:
+        print("  [T-Market] Skipped (CI or no Chrome profile)")
 
     # Sync scrapers (requests-based) — run first
     loop = asyncio.get_event_loop()
-    billa_raw, fantastico_raw, tmarket_catalog_raw = await asyncio.gather(
+    billa_raw, fantastico_raw, dar_raw = await asyncio.gather(
         loop.run_in_executor(None, scrape_billa_text),
         loop.run_in_executor(None, scrape_fantastico_csv),
-        loop.run_in_executor(None, scrape_tmarket_catalog),
+        loop.run_in_executor(None, scrape_dar_csv),
     )
     billa_result = raw_items_to_store_result(billa_raw)
     fantastico_result = raw_items_to_store_result(fantastico_raw)
-    tmarket_catalog_result = raw_items_to_store_result(tmarket_catalog_raw)
+    dar_result = raw_items_to_store_result(dar_raw)
 
-    # Async DOM scrapers — run in parallel, each creates its own browser context
-    kaufland_raw, lidl_raw, tmarket_raw = await asyncio.gather(
-        scrape_kaufland_dom(browser),
-        scrape_lidl_dom(browser),
-        scrape_tmarket_dom(browser),
-    )
+    # Async DOM scrapers
+    dom_tasks = [scrape_kaufland_dom(browser), scrape_lidl_dom(browser)]
+    if tmarket_available:
+        dom_tasks.append(scrape_tmarket_dom(browser))
+    dom_results = await asyncio.gather(*dom_tasks)
+
+    kaufland_raw = dom_results[0]
+    lidl_raw = dom_results[1]
+    tmarket_raw = dom_results[2] if tmarket_available else []
 
     results = []
     for raw, label in [
         (kaufland_raw, "Kaufland"),
         (lidl_raw, "Lidl"),
-        (tmarket_raw, "T-Market"),
-    ]:
+    ] + ([(tmarket_raw, "T-Market")] if tmarket_available else []):
         r = raw_items_to_store_result(raw)
         if r:
             healthy = sum(1 for o in r["offers"] if o.get("is_healthy"))
@@ -1250,7 +1284,7 @@ async def run_structured_scrapers(browser) -> list[dict]:
     for r, label in [
         (billa_result, "Billa"),
         (fantastico_result, "Fantastico"),
-        (tmarket_catalog_result, "T-Market catalog"),
+        (dar_result, "Dar"),
     ]:
         if r:
             healthy = sum(1 for o in r["offers"] if o.get("is_healthy"))
@@ -1875,7 +1909,6 @@ FALLBACK_STORE_URLS = [
     f"{BASE_URL}/h/80550-kaufland",
     f"{BASE_URL}/h/80531-billa",
     f"{BASE_URL}/h/80524-fantastico",
-    f"{BASE_URL}/h/80630-t-market",
     f"{BASE_URL}/h/94362-slaveks",
     f"{BASE_URL}/h/81345-stop4eto",
     f"{BASE_URL}/h/80701-cba-bolero",
