@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
     initTracker();
     initVisitorCounter();
     hydrateTierListImages();
+    initDiagnosisQuiz();
 });
 
 const TIER_PRODUCT_IMAGES = {
@@ -979,6 +980,77 @@ window.updateSteps = function (value, output) {
         '<span class="stat-pill green">~' + minutes + ' ' + minLabel + '</span>' +
         '</div>';
 };
+
+/* --- Diagnosis Quiz (index.html) --- */
+function initDiagnosisQuiz() {
+    const quiz = document.getElementById("diagnosis-quiz");
+    if (!quiz) return;
+
+    const questions = quiz.querySelectorAll(".quiz-question");
+    const scores = {};
+
+    questions.forEach(q => {
+        const area = q.dataset.area;
+        q.querySelectorAll(".quiz-btn").forEach(btn => {
+            btn.addEventListener("click", () => {
+                q.querySelectorAll(".quiz-btn").forEach(b => b.classList.remove("selected"));
+                btn.classList.add("selected");
+                scores[area] = parseInt(btn.dataset.points, 10);
+                if (Object.keys(scores).length === questions.length) {
+                    renderQuizResult(scores);
+                }
+            });
+        });
+    });
+}
+
+function renderQuizResult(scores) {
+    const total = Object.values(scores).reduce((a, b) => a + b, 0);
+    const max = Object.keys(scores).length * 2;
+
+    // Priority = area with the lowest score. Tie-break in order of impact.
+    const areaOrder = ["movement", "nutrition", "sleep", "habits"];
+    let priority = areaOrder[0];
+    areaOrder.forEach(a => { if (scores[a] < scores[priority]) priority = a; });
+
+    const t = (window.I18N && window.I18N.t) ? window.I18N.t.bind(window.I18N) : k => k;
+
+    let level, tone;
+    if (total <= 2)      { level = t("i.quiz.level.critical"); tone = "red"; }
+    else if (total <= 4) { level = t("i.quiz.level.low");      tone = "amber"; }
+    else if (total <= 6) { level = t("i.quiz.level.mid");      tone = "amber"; }
+    else                 { level = t("i.quiz.level.good");     tone = "green"; }
+
+    const map = {
+        movement:  { emoji: "🏃", link: "move.html",  label: t("i.quiz.pri.movement"),  cta: t("i.quiz.cta.movement") },
+        nutrition: { emoji: "🥗", link: "eat.html",   label: t("i.quiz.pri.nutrition"), cta: t("i.quiz.cta.nutrition") },
+        sleep:     { emoji: "😴", link: "mental.html",label: t("i.quiz.pri.sleep"),     cta: t("i.quiz.cta.sleep") },
+        habits:    { emoji: "🚫", link: "start.html", label: t("i.quiz.pri.habits"),    cta: t("i.quiz.cta.habits") },
+    };
+    const pri = map[priority];
+
+    const result = document.getElementById("quiz-result");
+    result.innerHTML =
+        '<div class="quiz-result-inner">' +
+            '<div class="quiz-score">' +
+                '<div class="quiz-score-num ' + tone + '">' + total + '/' + max + '</div>' +
+                '<div class="quiz-level ' + tone + '">' + level + '</div>' +
+            '</div>' +
+            '<div class="quiz-priority">' +
+                '<div class="quiz-priority-label">' + t("i.quiz.priority") + '</div>' +
+                '<h3>' + pri.emoji + ' ' + pri.label + '</h3>' +
+                '<a class="btn btn-green" href="' + pri.link + '">' + pri.cta + ' →</a>' +
+            '</div>' +
+        '</div>';
+    result.hidden = false;
+    result.scrollIntoView({ behavior: "smooth", block: "center" });
+
+    try {
+        localStorage.setItem("nutrilife-diagnosis", JSON.stringify({
+            scores: scores, priority: priority, total: total, date: new Date().toISOString()
+        }));
+    } catch (e) { /* storage disabled */ }
+}
 
 // Protein slider (eat.html)
 window.updateProtein = function (value, output) {
