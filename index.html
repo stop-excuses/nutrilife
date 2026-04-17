@@ -119,6 +119,48 @@
 <div class="age-content" data-age="55" data-i18n-html="i.age.55"></div>
 <div class="age-content" data-age="65" data-i18n-html="i.age.65"></div>
 </section>
+<!-- 3.5. Диагноза -->
+<section>
+<div class="section-title">
+<h2 data-i18n="i.quiz.h2">Твоят приоритет</h2>
+<p class="section-subtitle" data-i18n="i.quiz.sub">4 въпроса · 30 секунди · конкретен старт</p>
+</div>
+<div class="quiz" id="diagnosis-quiz">
+<div class="quiz-question" data-area="movement">
+<h3 data-i18n="i.quiz.q1">1. Колко пъти седмично се движиш поне 30 минути (ходене, тренировка, спорт)?</h3>
+<div class="quiz-options">
+<button class="quiz-btn" data-points="0" data-i18n="i.quiz.q1.a0">0 пъти</button>
+<button class="quiz-btn" data-points="1" data-i18n="i.quiz.q1.a1">1–2 пъти</button>
+<button class="quiz-btn" data-points="2" data-i18n="i.quiz.q1.a2">3+ пъти</button>
+</div>
+</div>
+<div class="quiz-question" data-area="nutrition">
+<h3 data-i18n="i.quiz.q2">2. Закуската ти обикновено е:</h3>
+<div class="quiz-options">
+<button class="quiz-btn" data-points="0" data-i18n="i.quiz.q2.a0">Кроасан / сладко / нищо</button>
+<button class="quiz-btn" data-points="1" data-i18n="i.quiz.q2.a1">Сандвич / мюсли</button>
+<button class="quiz-btn" data-points="2" data-i18n="i.quiz.q2.a2">Яйца / овес / извара</button>
+</div>
+</div>
+<div class="quiz-question" data-area="sleep">
+<h3 data-i18n="i.quiz.q3">3. Колко часа спиш средно на нощ?</h3>
+<div class="quiz-options">
+<button class="quiz-btn" data-points="0" data-i18n="i.quiz.q3.a0">Под 6 часа</button>
+<button class="quiz-btn" data-points="1" data-i18n="i.quiz.q3.a1">6–7 часа</button>
+<button class="quiz-btn" data-points="2" data-i18n="i.quiz.q3.a2">7+ часа</button>
+</div>
+</div>
+<div class="quiz-question" data-area="habits">
+<h3 data-i18n="i.quiz.q4">4. Сладко, алкохол, цигари или безкрайно скролване — колко често?</h3>
+<div class="quiz-options">
+<button class="quiz-btn" data-points="0" data-i18n="i.quiz.q4.a0">Всеки ден</button>
+<button class="quiz-btn" data-points="1" data-i18n="i.quiz.q4.a1">Няколко пъти/седм.</button>
+<button class="quiz-btn" data-points="2" data-i18n="i.quiz.q4.a2">Рядко / никога</button>
+</div>
+</div>
+<div class="quiz-result" id="quiz-result" hidden></div>
+</div>
+</section>
 <!-- 4. Оправданията -->
 <section>
 <div class="section-title">
@@ -681,6 +723,6 @@
 <footer class="site-footer">
     Направено от <a href="mailto:ivvmilev@gmail.com">Иван Милев</a> · ivvmilev@gmail.com
 </footer>
-<script src="js/main.js?v=6"></script>
+<script src="js/main.js?v=7"></script>
 </body>
 </html>
