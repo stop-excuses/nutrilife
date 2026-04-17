@@ -9,7 +9,7 @@ NAV_REPLACEMENTS = [
     ('<span class="dot-label">Оправдания</span>', '<span class="dot-label" data-i18n="nav.excuses">Оправдания</span>'),
     ('<span class="dot-label">Движение</span>',   '<span class="dot-label" data-i18n="nav.move">Движение</span>'),
     ('<span class="dot-label">Хранене</span>',    '<span class="dot-label" data-i18n="nav.eat">Хранене</span>'),
-    ('<span class="dot-label">Цени</span>',        '<span class="dot-label" data-i18n="nav.prices">Цени</span>'),
+    ('<span class="dot-label">Smart Food</span>',  '<span class="dot-label" data-i18n="nav.smart_food">Smart Food</span>'),
     ('<span class="dot-label">Старт</span>',       '<span class="dot-label" data-i18n="nav.start">Старт</span>'),
     ('<span class="dot-label">Добавки</span>',     '<span class="dot-label" data-i18n="nav.supplements">Добавки</span>'),
     ('<span class="dot-label">Психично</span>',    '<span class="dot-label" data-i18n="nav.mental">Психично</span>'),
@@ -109,8 +109,8 @@ c = patch(c, [
 ])
 save('eat.html', c)
 
-# ── cheap.html ─────────────────────────────────────────────────────────────
-c = load('cheap.html')
+# ── smart-food.html ────────────────────────────────────────────────────────
+c = load('smart-food.html')
 c = add_script(c)
 c = patch(c, NAV_REPLACEMENTS)
 c = patch(c, [
@@ -193,7 +193,7 @@ c = patch(c, [
     ('<button class="filter-btn active" data-profile="all">Всички</button>',
      '<button class="filter-btn active" data-profile="all" data-i18n="c.prof.all">Всички</button>'),
 ])
-save('cheap.html', c)
+save('smart-food.html', c)
 
 # ── start.html ─────────────────────────────────────────────────────────────
 c = load('start.html')
@@ -251,8 +251,8 @@ c = patch(c, [
      '<p style="margin-top:12px;" data-i18n-html="s.after.opt1"><strong>1. Повтори</strong> — направи същата седмица отново. Вече знаеш как.</p>'),
     ('<p><strong>2. Добави нещо</strong> — повече повторения, повече крачки, нов рецепт.</p>',
      '<p data-i18n-html="s.after.opt2"><strong>2. Добави нещо</strong> — повече повторения, повече крачки, нов рецепт.</p>'),
-    ('<p><strong>3. Провери промоциите</strong> — <a href="cheap.html">виж какво е на намаление</a> и оптимизирай бюджета.</p>',
-     '<p data-i18n-html="s.after.opt3"><strong>3. Провери промоциите</strong> — <a href="cheap.html">виж какво е на намаление</a> и оптимизирай бюджета.</p>'),
+    ('<p><strong>3. Отвори Smart Food</strong> — <a href="smart-food.html">виж офертите и пазарувай по-умно</a>.</p>',
+     '<p data-i18n-html="s.after.opt3"><strong>3. Отвори Smart Food</strong> — <a href="smart-food.html">виж офертите и пазарувай по-умно</a>.</p>'),
     ('<h2>Не от понеделник.<br><em class="purple">Днес.</em></h2>',
      '<h2 data-i18n-html="s.cta.h2">Не от понеделник.<br><em class="purple">Днес.</em></h2>'),
     ('Започни Ден 1 →', '<span data-i18n="s.cta.btn">Започни Ден 1 →</span>'),

@@ -18,7 +18,7 @@ PAGES = {
     'i':   'index.html',
     'm':   'move.html',
     'e':   'eat.html',
-    'c':   'cheap.html',
+    'c':   'smart-food.html',
     's':   'start.html',
     'sup': 'supplements.html',
     'men': 'mental.html',
