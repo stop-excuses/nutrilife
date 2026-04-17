@@ -463,12 +463,25 @@ section {
     border-color: var(--border-purple);
 }
 
+.accordion-item.amber {
+    background: var(--bg-card-amber);
+    border-color: var(--border-amber);
+}
+
 .accordion-item:hover {
     border-color: var(--border-red);
 }
 
 .accordion-item.green:hover {
     border-color: var(--green-dark);
+}
+
+.accordion-item.amber:hover {
+    border-color: var(--amber);
+}
+
+.accordion-item.purple:hover {
+    border-color: var(--purple);
 }
 
 .accordion-header {
