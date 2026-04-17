@@ -46,7 +46,27 @@ const TIER_PRODUCT_IMAGES = {
     "авокадо": "https://kaufland.media.schwarz/is/image/schwarz/4049726002086_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
     "маслини": "https://imgproxy-retcat.assets.schwarz/REX3062zwWPYWkk0Nvbj7-rTxgiYjSnQT_km4JBveug/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9ERDQzRjJEOTY3MzQ5QzgyQjFCQTA1RDl/BRjA3RjM4QUZCMjQ0RjgwNUVERUU1MzEzNzY5MDVGMDE1REVENDhDLnBuZw.png",
     "масло": "https://imgproxy-retcat.assets.schwarz/_mTOvpuT8VWphUw8DX1sa5H60f2Q3MxWglvgtofSkjw/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS8yQ0Q0RERDMzE0N0JGNDNBODU0QTU5MUM/0NjIxRjRGRjM1NkI3QTA1MERFQUM2MUU1OUQ0RTYwQjgxNURDNDQwLnBuZw.png",
-    "кашкавал": "https://imgproxy-retcat.assets.schwarz/oprP53x1VIQJa7ymF2aZJbkP7rZXk1Z881bZBfPUI54/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS80RTJEQkVERjk1RTRDMTlFQzU2OEVGMzk/5NjAxRDFCNjIxOUQ4NUJGOTk4Mjc2OTMxQjMxREEwRTJFQUIyOUNBLnBuZw.png"
+    "кашкавал": "https://imgproxy-retcat.assets.schwarz/oprP53x1VIQJa7ymF2aZJbkP7rZXk1Z881bZBfPUI54/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS80RTJEQkVERjk1RTRDMTlFQzU2OEVGMzk/5NjAxRDFCNjIxOUQ4NUJGOTk4Mjc2OTMxQjMxREEwRTJFQUIyOUNBLnBuZw.png",
+    "овес": "images/foods/oats.svg",
+    "елда": "images/foods/buckwheat.svg",
+    "хляб": "images/foods/bread.svg",
+    "булгур": "images/foods/bulgur.svg",
+    "паста": "images/foods/pasta.svg",
+    "сладки": "images/foods/sweet-potato.svg",
+    "мюсли": "images/foods/muesli.svg",
+    "царевица": "images/foods/corn.svg",
+    "кус-кус": "images/foods/couscous.svg",
+    "бобови": "images/foods/beans.svg",
+    "зехтин": "images/foods/olive-oil.svg",
+    "мазна риба": "images/foods/fatty-fish.svg",
+    "бадеми": "images/foods/almonds.svg",
+    "фъстъци": "images/foods/peanuts.svg",
+    "семки": "images/foods/seeds.svg",
+    "лен": "images/foods/flax.svg",
+    "тахан": "images/foods/tahini.svg",
+    "фъст. масло": "images/foods/peanut-butter.svg",
+    "сирене": "images/foods/cheese.svg",
+    "кефир": "images/foods/yogurt.svg"
 };
 
 function hydrateTierListImages() {
