@@ -846,6 +846,17 @@ function initBmiCalculator() {
         const balanceResultText = balanceCategory === "skip" ? "не е въведен" : balanceCategory === "good" ? "20+ сек / стабилно (добре)" : balanceCategory === "mid" ? "10-19 сек / трудно (средно)" : "под 10 сек / нестабилно (зле)";
         const tugResultText = tugCategory === "skip" ? "не е въведен" : tugCategory === "good" ? "под 10 сек (добре)" : tugCategory === "mid" ? "10-12 сек (средно)" : "12+ сек / нестабилно (зле)";
 
+        const followupMap = {
+            metabolic: { link: "eat.html", label: "Оправи храненето" },
+            fitness: { link: "move.html", label: "Оправи движението" },
+            recovery: { link: "mental.html", label: "Оправи възстановяването" },
+            cardio: { link: "move.html", label: "Вдигни базата" },
+            smoking: { link: "start.html", label: "Започни спирането" },
+            alcohol: { link: "eat.html", label: "Оправи навиците" },
+            underweight: { link: "eat.html", label: "Качи база и протеин" }
+        };
+        const followup = followupMap[topKey] || { link: "start.html", label: "Вземи следващата стъпка" };
+
         output.innerHTML = `
             <div class="cards-grid" style="margin-top:0;">
                 <div class="stat-card ${statusClass}">
@@ -859,24 +870,21 @@ function initBmiCalculator() {
                 </div>
             </div>
             <div class="info-box mt-16" style="margin-bottom:0;">
-                <div class="info-heading-row"><h3>Какво показва</h3>${buildInfoButton("Какво показва", issueInfo)}</div>
+                <div class="info-heading-row"><h3>Твоят фокус тази седмица</h3>${buildInfoButton("Какво показва", issueInfo)}</div>
                 <ul style="margin-top:10px; padding-left:18px; line-height:1.7;">${issueList || "<li>Нямаш силни warning сигнали в този скрининг.</li>"}</ul>
-            </div>
-            <div class="info-box mt-16" style="margin-bottom:0;">
-                <div class="info-heading-row"><h3>Какво да правиш първо</h3>${buildInfoButton("Какво да правиш първо", actionInfo)}</div>
                 <ul style="margin-top:10px; padding-left:18px; line-height:1.7;">${recommendationList || "<li>Пази движението, съня и талията под контрол.</li><li>Не чакай проблемът да стане видим и в кръвните изследвания.</li>"}</ul>
                 <p style="margin-top:10px;"><strong>Тренировъчен ориентир:</strong> ${movementPlan}</p>
+                <a class="btn btn-green" href="${followup.link}" style="margin-top:14px; display:inline-block;">${followup.label} →</a>
             </div>
             <div class="info-box mt-16 ${statusClass}" style="margin-bottom:0;">
-                <div class="info-heading-row"><h3>Какво ще стане, ако не направиш нищо</h3>${buildInfoButton("Какво ще стане, ако не направиш нищо", futureInfo)}</div>
+                <div class="info-heading-row"><h3>Ако оставиш нещата така</h3>${buildInfoButton("Какво ще стане, ако не направиш нищо", futureInfo)}</div>
                 <p style="margin-top:8px;">${futureText}</p>
             </div>
             <div class="info-box mt-16" style="margin-bottom:0;">
-                <div class="info-heading-row"><h3>Домашни тестове, които си струват</h3>${buildInfoButton("Домашни тестове", testsInfo)}</div>
-                <p style="margin-top:8px;">Талия под половината от ръста. 30 сек chair stand. Баланс на 1 крак или tandem stance. Ходене/стълби без да се разбиваш. Това е по-полезно от кантара сам по себе си.</p>
-                <p style="margin-top:10px;"><strong>Стол тест:</strong> ${chairGuide} Твоят резултат: ${chairResultText}.</p>
-                <p style="margin-top:10px;"><strong>Баланс:</strong> ${balanceGuide} Твоят резултат: ${balanceResultText}.</p>
-                <p style="margin-top:10px;"><strong>TUG:</strong> ${tugGuide} Твоят резултат: ${tugResultText}.</p>
+                <div class="info-heading-row"><h3>Бърз ориентир</h3>${buildInfoButton("Домашни тестове", testsInfo)}</div>
+                <p style="margin-top:8px;"><strong>Стол тест:</strong> ${chairResultText}. ${chairGuide}</p>
+                <p style="margin-top:10px;"><strong>Баланс:</strong> ${balanceResultText}. ${balanceGuide}</p>
+                <p style="margin-top:10px;"><strong>TUG:</strong> ${tugResultText}. ${tugGuide}</p>
                 <p style="margin-top:10px;"><strong>Крачки:</strong> ${stepsGuide}</p>
             </div>
             <div class="stat-pills mt-16">
