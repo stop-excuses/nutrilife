@@ -1600,6 +1600,150 @@ input[type="range"]::-moz-range-thumb {
 }
 
 /* --- Food Table --- */
+.table-wrap {
+    overflow-x: auto;
+}
+
+.bmi-calc-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 12px;
+}
+
+.bmi-field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    position: relative;
+}
+
+.bmi-field > span,
+.field-label-row {
+    font-size: 0.74rem;
+    color: var(--muted2);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-weight: 700;
+}
+
+.field-label-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.info-heading-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.info-heading-row h3 {
+    margin-bottom: 0;
+}
+
+.field-label-text {
+    min-width: 0;
+}
+
+.field-info-btn {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 1px solid var(--surface-border);
+    background: var(--surface);
+    color: var(--muted);
+    font-size: 0.72rem;
+    font-weight: 800;
+    line-height: 1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    flex-shrink: 0;
+    transition: all 0.2s ease;
+}
+
+.field-info-btn:hover,
+.field-info-btn.is-open {
+    border-color: var(--green);
+    color: var(--text);
+}
+
+.field-info-popover {
+    display: none;
+    text-transform: none;
+    letter-spacing: normal;
+    font-weight: 500;
+    font-size: 0.78rem;
+    line-height: 1.45;
+    color: var(--muted);
+    background: var(--bg-card);
+    border: 1px solid var(--surface-border);
+    border-radius: 10px;
+    padding: 10px 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+}
+
+.field-info-popover.visible {
+    display: block;
+}
+
+.bmi-field input,
+.bmi-field select {
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: rgba(255, 255, 255, 0.04);
+    color: var(--text);
+    color-scheme: dark;
+    border-radius: 10px;
+    padding: 12px 12px;
+    font: inherit;
+}
+
+.bmi-field input::placeholder {
+    color: var(--muted2);
+}
+
+.bmi-field select option {
+    background: #101010;
+    color: var(--text);
+}
+
+.bmi-field input:focus,
+.bmi-field select:focus {
+    outline: none;
+    border-color: var(--green);
+    box-shadow: 0 0 0 2px rgba(151, 196, 89, 0.16);
+}
+
+[data-theme="light"] .bmi-field input,
+[data-theme="light"] .bmi-field select {
+    background: #fff;
+    color: var(--text);
+    border-color: #cfcfc4;
+    color-scheme: light;
+}
+
+[data-theme="light"] .bmi-field select option {
+    background: #fff;
+    color: #1a1a1a;
+}
+
+[data-theme="light"] .field-info-btn {
+    background: #fff;
+    border-color: #cfcfc4;
+    color: #555;
+}
+
+[data-theme="light"] .field-info-popover {
+    background: #fff;
+    border-color: #d8d8cc;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
 .food-table {
     width: 100%;
     border-collapse: collapse;
@@ -1717,6 +1861,168 @@ input[type="range"]::-moz-range-thumb {
 .shopping-list .item-price {
     color: var(--green);
     font-weight: 700;
+}
+
+.food-thumb-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+    gap: 12px;
+}
+
+.food-thumb {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 14px;
+    padding: 12px;
+    text-align: center;
+}
+
+.food-thumb img {
+    width: 72px;
+    height: 72px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.food-thumb strong {
+    display: block;
+    font-size: 0.92rem;
+    color: var(--text);
+}
+
+.food-thumb span {
+    display: block;
+    margin-top: 4px;
+    font-size: 0.78rem;
+    color: var(--muted);
+}
+
+.product-mini-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(112px, 1fr));
+    gap: 8px;
+}
+
+.product-mini {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    border-radius: 12px;
+    padding: 8px 6px;
+}
+
+.product-mini img {
+    width: 34px;
+    height: 34px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto 6px;
+}
+
+.product-mini strong {
+    display: block;
+    font-size: 0.78rem;
+    color: var(--text);
+    line-height: 1.15;
+}
+
+.product-mini span {
+    display: block;
+    margin-top: 3px;
+    font-size: 0.68rem;
+    line-height: 1.2;
+    color: var(--muted);
+}
+
+.product-mini.compact {
+    padding: 7px 5px;
+}
+
+.product-mini.compact img {
+    width: 30px;
+    height: 30px;
+}
+
+.product-mini.compact strong {
+    font-size: 0.74rem;
+}
+
+.product-mini.compact span {
+    font-size: 0.64rem;
+}
+
+.tier-grid {
+    grid-template-columns: repeat(auto-fit, minmax(98px, 1fr));
+    gap: 4px;
+}
+
+.tier-card {
+    justify-content: flex-start;
+    min-height: 140px;
+    padding: 9px 6px 8px;
+    border-color: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.04);
+}
+
+.tier-card img,
+.product-mini.compact.tier-card img {
+    width: 54px;
+    height: 54px;
+    margin-bottom: 8px;
+    padding: 4px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.04);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.04);
+    filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.18));
+}
+
+.tier-card img.is-product-photo,
+.product-mini.compact.tier-card img.is-product-photo {
+    padding: 2px;
+    object-fit: contain;
+    background: rgba(255, 255, 255, 0.92);
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.06);
+}
+
+.tier-card strong,
+.product-mini.compact.tier-card strong {
+    font-size: 0.76rem;
+    line-height: 1.1;
+}
+
+.tier-card .tier-tag {
+    display: block;
+    margin-top: 4px;
+    font-size: 0.57rem;
+    line-height: 1.1;
+    color: var(--green);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.tier-card .tier-note {
+    display: block;
+    margin-top: 4px;
+    font-size: 0.62rem;
+    line-height: 1.2;
+    color: var(--muted2);
+}
+
+@media (max-width: 480px) {
+    .tier-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+    }
+
+    .tier-card {
+        min-height: 126px;
+        padding: 8px 6px;
+    }
 }
 
 /* --- Animations --- */
