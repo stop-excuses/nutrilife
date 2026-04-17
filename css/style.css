@@ -178,7 +178,7 @@ em.amber {
 }
 
 em.purple {
-    color: #7F77DD;
+    color: var(--purple);
     font-style: normal;
 }
 
@@ -249,7 +249,7 @@ section {
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background: #444;
+    background: var(--muted3);
     transition: all 0.3s ease;
     cursor: pointer;
     border: none;
@@ -258,7 +258,7 @@ section {
 }
 
 .navbar .dot:hover {
-    background: #666;
+    background: var(--muted2);
 }
 
 .navbar .dot.active {
@@ -384,11 +384,11 @@ section {
 
 .stat-box.purple {
     background: var(--bg-card-purple);
-    border-color: #2a2442;
+    border-color: var(--border-purple);
 }
 
 .stat-box.purple .stat-number {
-    color: #7F77DD;
+    color: var(--purple);
 }
 
 .stat-box .stat-label {
@@ -460,15 +460,15 @@ section {
 
 .accordion-item.purple {
     background: var(--bg-card-purple);
-    border-color: #2a2442;
+    border-color: var(--border-purple);
 }
 
 .accordion-item:hover {
-    border-color: #3a2020;
+    border-color: var(--border-red);
 }
 
 .accordion-item.green:hover {
-    border-color: #3a5428;
+    border-color: var(--green-dark);
 }
 
 .accordion-header {
@@ -482,7 +482,7 @@ section {
 }
 
 .accordion-header:hover {
-    background: rgba(255, 255, 255, 0.02);
+    background: var(--surface-hover);
 }
 
 .accordion-header h3 {
@@ -556,13 +556,13 @@ section {
 .stat-pill.purple {
     background: rgba(127, 119, 221, 0.1);
     border-color: rgba(127, 119, 221, 0.2);
-    color: #7F77DD;
+    color: var(--purple);
 }
 
 /* --- Research Citation --- */
 .research {
-    background: rgba(255, 255, 255, 0.03);
-    border-left: 3px solid #3B6D11;
+    background: var(--overlay);
+    border-left: 3px solid var(--green-dark);
     border-radius: 0 8px 8px 0;
     padding: 12px 16px;
     margin: 12px 0;
@@ -695,8 +695,8 @@ section {
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background: #97C459;
-    border: 2px solid #0a0a0a;
+    background: var(--green);
+    border: 2px solid var(--bg);
 }
 
 .timeline-label {
@@ -830,13 +830,13 @@ section {
 
 .btn-outline {
     background: transparent;
-    border: 1px solid #333;
+    border: 1px solid var(--surface-border);
     color: var(--text);
 }
 
 .btn-outline:hover {
-    border-color: #555;
-    background: rgba(255, 255, 255, 0.03);
+    border-color: var(--muted2);
+    background: var(--surface-hover);
     color: var(--text);
 }
 
@@ -858,9 +858,9 @@ input[type="range"]::-webkit-slider-thumb {
     width: 22px;
     height: 22px;
     border-radius: 50%;
-    background: #97C459;
+    background: var(--green);
     cursor: pointer;
-    border: 2px solid #0a0a0a;
+    border: 2px solid var(--bg);
     box-shadow: 0 2px 8px rgba(151, 196, 89, 0.3);
 }
 
@@ -868,9 +868,9 @@ input[type="range"]::-moz-range-thumb {
     width: 22px;
     height: 22px;
     border-radius: 50%;
-    background: #97C459;
+    background: var(--green);
     cursor: pointer;
-    border: 2px solid #0a0a0a;
+    border: 2px solid var(--bg);
     box-shadow: 0 2px 8px rgba(151, 196, 89, 0.3);
 }
 
@@ -958,7 +958,7 @@ input[type="range"]::-moz-range-thumb {
 
 .pagination-btn {
     border: 1px solid rgba(151, 196, 89, 0.22);
-    background: rgba(255,255,255,0.03);
+    background: var(--overlay);
     color: var(--text);
     border-radius: 999px;
     padding: 8px 12px;
@@ -2391,9 +2391,9 @@ input[type="range"]::-moz-range-thumb {
     border-radius: 10px;
     font-weight: 700;
 }
-.ing-badge.red   { background: #2a1414; color: #E24B4A; }
-.ing-badge.amber { background: #1a1408; color: #BA7517; }
-.ing-clean       { font-size: .72rem; color: #97C459; }
+.ing-badge.red   { background: var(--bg-card-red); color: var(--red); }
+.ing-badge.amber { background: var(--bg-card-amber); color: var(--amber); }
+.ing-clean       { font-size: .72rem; color: var(--green); }
 .ing-raw {
     font-size: .75rem;
     color: var(--muted);
@@ -2414,11 +2414,11 @@ input[type="range"]::-moz-range-thumb {
     border-radius: 50%;
     margin-top: 2px;
 }
-.ing-flag.red  .ing-dot { background: #E24B4A; }
-.ing-flag.amber .ing-dot { background: #BA7517; }
+.ing-flag.red  .ing-dot { background: var(--red); }
+.ing-flag.amber .ing-dot { background: var(--amber); }
 .ing-flag .ing-name   { font-weight: 600; color: var(--text); white-space: nowrap; }
-.ing-flag.red  .ing-name  { color: #E24B4A; }
-.ing-flag.amber .ing-name { color: #BA7517; }
+.ing-flag.red  .ing-name  { color: var(--red); }
+.ing-flag.amber .ing-name { color: var(--amber); }
 .ing-flag .ing-reason { color: var(--muted); font-size: .72rem; }
 
 /* --- Diagnosis Quiz (index.html) --- */
@@ -2501,8 +2501,8 @@ input[type="range"]::-moz-range-thumb {
     font-weight: 800;
     line-height: 1;
 }
-.quiz-score-num.red   { color: #E24B4A; }
-.quiz-score-num.amber { color: #BA7517; }
+.quiz-score-num.red   { color: var(--red); }
+.quiz-score-num.amber { color: var(--amber); }
 .quiz-score-num.green { color: var(--green); }
 
 .quiz-level {
@@ -2510,8 +2510,8 @@ input[type="range"]::-moz-range-thumb {
     margin-top: 6px;
     font-weight: 600;
 }
-.quiz-level.red   { color: #E24B4A; }
-.quiz-level.amber { color: #BA7517; }
+.quiz-level.red   { color: var(--red); }
+.quiz-level.amber { color: var(--amber); }
 .quiz-level.green { color: var(--green); }
 
 .quiz-priority-label {
@@ -2544,3 +2544,46 @@ input[type="range"]::-moz-range-thumb {
     }
 }
 
+/* --- Light theme component overrides --- */
+[data-theme="light"] .details-content {
+    border-top-color: var(--surface-border);
+}
+[data-theme="light"] .details-note {
+    background: var(--overlay);
+}
+[data-theme="light"] .comparison-mini-row {
+    border-top-color: var(--surface-border);
+}
+[data-theme="light"] .macro-item {
+    background: var(--overlay);
+}
+[data-theme="light"] .comparison-list {
+    border-color: var(--surface-border);
+}
+[data-theme="light"] .comparison-row {
+    background: var(--surface-hover);
+}
+[data-theme="light"] .bmi-field input,
+[data-theme="light"] .bmi-field select {
+    border-color: var(--surface-border);
+    background: var(--bg-card);
+    color-scheme: light;
+}
+[data-theme="light"] .tier-card {
+    border-color: var(--surface-border);
+    background: var(--overlay);
+}
+[data-theme="light"] .tier-card img {
+    background: var(--overlay);
+    box-shadow: inset 0 0 0 1px var(--surface-border);
+}
+[data-theme="light"] .food-thumb {
+    background: var(--overlay);
+    border-color: var(--surface-border);
+}
+[data-theme="light"] .price-history {
+    border-top-color: var(--surface-border);
+}
+[data-theme="light"] .ingredients-block {
+    border-top-color: var(--surface-border);
+}
