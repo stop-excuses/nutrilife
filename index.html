@@ -13,12 +13,13 @@
 <nav class="navbar">
 <div class="container">
 <a class="dot-wrapper" href="index.html"><span class="dot red active"></span><span class="dot-label" data-i18n="nav.excuses">Оправдания</span></a>
+<a class="dot-wrapper" href="health-check.html"><span class="dot amber"></span><span class="dot-label" data-i18n="nav.check">Check</span></a>
 <a class="dot-wrapper" href="move.html"><span class="dot"></span><span class="dot-label" data-i18n="nav.move">Движение</span></a>
 <a class="dot-wrapper" href="eat.html"><span class="dot"></span><span class="dot-label" data-i18n="nav.eat">Хранене</span></a>
+<a class="dot-wrapper" href="smart-food.html"><span class="dot"></span><span class="dot-label" data-i18n="nav.smart_food">Smart Food</span></a>
 <a class="dot-wrapper" href="start.html"><span class="dot"></span><span class="dot-label" data-i18n="nav.start">Старт</span></a>
 <a class="dot-wrapper" href="supplements.html"><span class="dot amber"></span><span class="dot-label" data-i18n="nav.supplements">Добавки</span></a>
 <a class="dot-wrapper" href="mental.html"><span class="dot purple"></span><span class="dot-label" data-i18n="nav.mental">Психично</span></a>
-<a class="dot-wrapper" href="cheap.html"><span class="dot"></span><span class="dot-label" data-i18n="nav.prices">Цени</span></a>
 </div>
 </nav>
 <!-- 1. Hero -->
@@ -62,90 +63,61 @@
 </div>
 <p class="note" data-i18n="i.s2.note">Бавно се е случило. Бавно се обръща.</p>
 </section>
+<section>
+<div class="section-title">
+<h2 data-i18n="i.bmi.h2">Домашен health check</h2>
+<p class="section-subtitle" data-i18n="i.bmi.sub">Не ти трябва диагноза, за да видиш, че функцията ти вече изостава.</p>
+</div>
+<div class="info-box amber" data-i18n-html="i.bmi.teaser">
+<h3>Провери не само кантара</h3>
+<p style="margin-top:8px;">Талия, сила, баланс, крачки, задух, сън. Това вече стана отделен инструмент, защото е по-полезно от още една таблица с BMI.</p>
+</div>
+<div class="cards-grid mt-24">
+<div class="info-box purple">
+<h3>Коремен риск</h3>
+<p style="margin-top:8px;">Талия / ръст показва много повече от кантара сам по себе си.</p>
+</div>
+<div class="info-box">
+<h3>Функция и сила</h3>
+<p style="margin-top:8px;">Стол тест, баланс и TUG показват дали тялото вече изостава.</p>
+</div>
+<div class="info-box green">
+<h3>Кондиция</h3>
+<p style="margin-top:8px;">Крачките и задухът казват дали имаш реална ежедневна база.</p>
+</div>
+<div class="info-box red">
+<h3>Възстановяване</h3>
+<p style="margin-top:8px;">Сън, захари и навици често обясняват защо всичко друго върви надолу.</p>
+</div>
+</div>
+<div class="info-box mt-24">
+<h3 data-i18n="i.bmi.teaser_h3">Пълният check е на отделна страница</h3>
+<p style="margin-top:8px;" data-i18n="i.bmi.teaser_p">Там ще видиш тестовете, резултата и какво да правиш първо, ако вече има проблемни сигнали.</p>
+<a class="btn btn-green mt-16" href="health-check.html" data-i18n="i.bmi.teaser_btn">Провери се сега →</a>
+</div>
+</section>
 <!-- 3. Лично засягане -->
 <section>
 <div class="section-title">
 <h2 data-i18n="i.s3.h2">Колко те засяга?</h2>
-<p class="section-subtitle" data-i18n="i.s3.sub">Избери възрастта си</p>
+<p class="section-subtitle" data-i18n="i.s3.sub">Избери възрастта си. Това не са проценти, а ориентир кое става по-често, ако си заседнал, с корем и без силова тренировка.</p>
 </div>
 <div class="age-buttons">
-<button class="age-btn" data-age="20">20–30</button>
-<button class="age-btn" data-age="30">30–40</button>
-<button class="age-btn" data-age="40">40–50</button>
-<button class="age-btn" data-age="50">50+</button>
+<button class="age-btn" data-age="kids">Под 18</button>
+<button class="age-btn active" data-age="18">18–24</button>
+<button class="age-btn" data-age="25">25–34</button>
+<button class="age-btn" data-age="35">35–44</button>
+<button class="age-btn" data-age="45">45–54</button>
+<button class="age-btn" data-age="55">55–64</button>
+<button class="age-btn" data-age="65">65+</button>
 </div>
-<div class="age-content" data-age="20">
-<div class="progress-bar-wrapper">
-<div class="progress-bar-label"><span data-i18n="age.metabolic">Метаболитен синдром</span><span class="red">18%</span></div>
-<div class="progress-bar"><div class="fill" data-width="18"></div></div>
-</div>
-<div class="progress-bar-wrapper">
-<div class="progress-bar-label"><span data-i18n="age.obesity">Затлъстяване</span><span class="red">22%</span></div>
-<div class="progress-bar"><div class="fill" data-width="22"></div></div>
-</div>
-<div class="progress-bar-wrapper">
-<div class="progress-bar-label"><span data-i18n="age.anxiety">Тревожност и депресия</span><span class="red">35%</span></div>
-<div class="progress-bar"><div class="fill" data-width="35"></div></div>
-</div>
-<div class="progress-bar-wrapper">
-<div class="progress-bar-label"><span data-i18n="age.testosterone">Нисък тестостерон</span><span class="red">15%</span></div>
-<div class="progress-bar"><div class="fill" data-width="15"></div></div>
-</div>
-</div>
-<div class="age-content" data-age="30">
-<div class="progress-bar-wrapper">
-<div class="progress-bar-label"><span data-i18n="age.overweight">Наднормено тегло</span><span class="red">42%</span></div>
-<div class="progress-bar"><div class="fill" data-width="42"></div></div>
-</div>
-<div class="progress-bar-wrapper">
-<div class="progress-bar-label"><span data-i18n="age.bp">Високо кръвно налягане</span><span class="red">28%</span></div>
-<div class="progress-bar"><div class="fill" data-width="28"></div></div>
-</div>
-<div class="progress-bar-wrapper">
-<div class="progress-bar-label"><span data-i18n="age.prediabetes">Преддиабет</span><span class="red">20%</span></div>
-<div class="progress-bar"><div class="fill" data-width="20"></div></div>
-</div>
-<div class="progress-bar-wrapper">
-<div class="progress-bar-label"><span data-i18n="age.stress">Хроничен стрес</span><span class="red">55%</span></div>
-<div class="progress-bar"><div class="fill" data-width="55"></div></div>
-</div>
-</div>
-<div class="age-content" data-age="40">
-<div class="progress-bar-wrapper">
-<div class="progress-bar-label"><span data-i18n="age.cardio">Сърдечно-съдов риск</span><span class="red">45%</span></div>
-<div class="progress-bar"><div class="fill" data-width="45"></div></div>
-</div>
-<div class="progress-bar-wrapper">
-<div class="progress-bar-label"><span data-i18n="age.diabetes2">Диабет тип 2</span><span class="red">32%</span></div>
-<div class="progress-bar"><div class="fill" data-width="32"></div></div>
-</div>
-<div class="progress-bar-wrapper">
-<div class="progress-bar-label"><span data-i18n="age.muscle">Загуба на мускулна маса</span><span class="red">38%</span></div>
-<div class="progress-bar"><div class="fill" data-width="38"></div></div>
-</div>
-<div class="progress-bar-wrapper">
-<div class="progress-bar-label"><span data-i18n="age.joints">Болки в гърба/ставите</span><span class="red">52%</span></div>
-<div class="progress-bar"><div class="fill" data-width="52"></div></div>
-</div>
-</div>
-<div class="age-content" data-age="50">
-<div class="progress-bar-wrapper">
-<div class="progress-bar-label"><span data-i18n="age.chronic">Хронично заболяване</span><span class="red">72%</span></div>
-<div class="progress-bar"><div class="fill" data-width="72"></div></div>
-</div>
-<div class="progress-bar-wrapper">
-<div class="progress-bar-label"><span data-i18n="age.osteo">Остеопороза (жени)</span><span class="red">35%</span></div>
-<div class="progress-bar"><div class="fill" data-width="35"></div></div>
-</div>
-<div class="progress-bar-wrapper">
-<div class="progress-bar-label"><span data-i18n="age.insulin">Инсулинова резистентност</span><span class="red">48%</span></div>
-<div class="progress-bar"><div class="fill" data-width="48"></div></div>
-</div>
-<div class="progress-bar-wrapper">
-<div class="progress-bar-label"><span data-i18n="age.heartattack">Риск от инфаркт/инсулт</span><span class="red">58%</span></div>
-<div class="progress-bar"><div class="fill" data-width="58"></div></div>
-</div>
-</div>
+<div class="age-content" data-age="kids" data-i18n-html="i.age.kids"></div>
+<div class="age-content visible" data-age="18" data-i18n-html="i.age.18"></div>
+<div class="age-content" data-age="25" data-i18n-html="i.age.25"></div>
+<div class="age-content" data-age="35" data-i18n-html="i.age.35"></div>
+<div class="age-content" data-age="45" data-i18n-html="i.age.45"></div>
+<div class="age-content" data-age="55" data-i18n-html="i.age.55"></div>
+<div class="age-content" data-age="65" data-i18n-html="i.age.65"></div>
 </section>
 <!-- 4. Оправданията -->
 <section>

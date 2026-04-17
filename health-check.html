@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+
+<html lang="bg">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>NutriLife — Health Check</title>
+<link href="css/style.css" rel="stylesheet"/>
+<script src="js/i18n.js"></script>
+</head>
+<body>
+<nav class="navbar">
+<div class="container">
+<a class="dot-wrapper" href="index.html"><span class="dot red"></span><span class="dot-label" data-i18n="nav.excuses">Оправдания</span></a>
+<a class="dot-wrapper" href="health-check.html"><span class="dot amber active"></span><span class="dot-label" data-i18n="nav.check">Check</span></a>
+<a class="dot-wrapper" href="move.html"><span class="dot"></span><span class="dot-label" data-i18n="nav.move">Движение</span></a>
+<a class="dot-wrapper" href="eat.html"><span class="dot"></span><span class="dot-label" data-i18n="nav.eat">Хранене</span></a>
+<a class="dot-wrapper" href="smart-food.html"><span class="dot"></span><span class="dot-label" data-i18n="nav.smart_food">Smart Food</span></a>
+<a class="dot-wrapper" href="start.html"><span class="dot"></span><span class="dot-label" data-i18n="nav.start">Старт</span></a>
+<a class="dot-wrapper" href="supplements.html"><span class="dot amber"></span><span class="dot-label" data-i18n="nav.supplements">Добавки</span></a>
+<a class="dot-wrapper" href="mental.html"><span class="dot purple"></span><span class="dot-label" data-i18n="nav.mental">Психично</span></a>
+</div>
+</nav>
+<section class="hero">
+<h1 data-i18n-html="hc.hero.h1">Провери се <em class="red">честно</em></h1>
+<p data-i18n="hc.hero.p">Талия, сила, баланс, кондиция, сън. Без филтри. Само сигналите, които вече личат.</p>
+<div class="stat-box red">
+<div class="stat-number">10 мин</div>
+<div class="stat-label" data-i18n="hc.hero.stat">достатъчни, за да видиш дали проблемът е корем, функция, кондиция или възстановяване</div>
+</div>
+</section>
+<section style="padding-top:24px;">
+<div class="info-box" style="max-width:760px; margin:0 auto;">
+<h3 data-i18n="hc.intro.h3">Това не е диагноза</h3>
+<p style="margin-top:8px;" data-i18n="hc.intro.p">Това е домашен screen. Ако тук излизат много warning сигнали, значи вече има смисъл да спреш да се успокояваш и да действаш.</p>
+</div>
+</section>
+<section>
+<div class="section-title">
+<h2 data-i18n="i.bmi.h2">Домашен health check</h2>
+<p class="section-subtitle" data-i18n="i.bmi.sub">Не ти трябва диагноза, за да видиш, че функцията ти вече изостава.</p>
+</div>
+<div data-i18n-html="i.bmi.body">
+<div class="info-box amber">
+<h3>Не гледай само килограмите</h3>
+<p style="margin-top:8px;">Тук комбинираш <strong>талия, кг, ръст, крачки, сила на краката, баланс, задух и сън</strong>. Това не поставя диагноза. Показва дали тялото ти вече се движи към <strong>коремен риск, ниска функция или лошо възстановяване</strong>.</p>
+</div>
+<div class="info-box mt-16 bmi-calc-box">
+<div class="bmi-calc-grid">
+<label class="bmi-field">
+<span>Възрастова група</span>
+<select id="bmi-age-group">
+<option value="adult">18+ години</option>
+<option value="child">Под 18</option>
+</select>
+</label>
+<label class="bmi-field">
+<span>Ръст (см)</span>
+<input id="bmi-height" max="230" min="120" step="1" type="number" value="175"/>
+</label>
+<label class="bmi-field">
+<span>Тегло (кг)</span>
+<input id="bmi-weight" max="250" min="25" step="0.1" type="number" value="92"/>
+</label>
+<label class="bmi-field">
+<span>Талия (см) по желание</span>
+<input id="bmi-waist" max="200" min="40" step="0.5" type="number" value=""/>
+</label>
+<label class="bmi-field">
+<span>Силово тренираш ли?</span>
+<select id="bmi-training">
+<option value="no">Не</option>
+<option value="yes">Да</option>
+</select>
+</label>
+</div>
+<div class="bmi-output mt-16" id="bmi-output">
+<div class="stat-pills">
+<span class="stat-pill">Въведи данните си</span>
+</div>
+</div>
+</div>
+<div class="cards-grid mt-24">
+<div class="info-box purple">
+<h3>1. Коремен риск</h3>
+<p style="margin-top:8px;">Най-полезното тук е <strong>талия / ръст</strong>. Ако талията е над половината от ръста, проблемът често вече е повече от естетика.</p>
+</div>
+<div class="info-box">
+<h3>2. Функция и сила</h3>
+<p style="margin-top:8px;">Ако 30 секунди ставане от стол те разбиват, това не е „липса на форма“. Това е слаб мускулен резерв.</p>
+</div>
+<div class="info-box green">
+<h3>3. Кондиция</h3>
+<p style="margin-top:8px;">Ако бързо ходене, стълби или кратък TUG тест те оставят без въздух, функцията ти пада по-бързо, отколкото трябва.</p>
+</div>
+<div class="info-box red">
+<h3>4. Възстановяване</h3>
+<p style="margin-top:8px;">Слаб сън, хъркане, дневна умора и ежедневни захари често вървят заедно с корем, глад и ниска енергия.</p>
+</div>
+</div>
+<div class="accordion mt-24">
+<div class="accordion-item">
+<div class="accordion-header">
+<h3>Тест 1: 30 сек стол тест</h3>
+<span class="accordion-arrow">▼</span>
+</div>
+<div class="accordion-body">
+<div class="accordion-body-inner">
+<p><strong>Как да го направиш:</strong></p>
+<p class="mt-8">1. Сложи стабилен стол до стена.</p>
+<p>2. Седни, сложи стъпалата здраво на пода и кръстосай ръце на гърдите.</p>
+<p>3. Пусни таймер за <strong>30 секунди</strong>.</p>
+<p>4. Стани напълно изправен и седни обратно колкото можеш повече пъти.</p>
+<p>5. Не си помагай с ръце. Брой само пълните повторения.</p>
+<p class="mt-8"><strong>Какво оценява:</strong> колко силни и издръжливи са краката ти. Това е важно, защото точно тези мускули те държат при изправяне, стълби, ходене и носене на собственото ти тегло.</p>
+<p class="mt-8"><strong>Лошо:</strong> под 10 повторения за повечето хора под 60. За 60+ CDC има възрастови прагове: ако си под тях, това вече е warning.</p>
+<p class="mt-8"><strong>Средно:</strong> около 10-14 под 60 или малко над CDC прага при 60+.</p>
+<p class="mt-8"><strong>Добре:</strong> 15+ под 60 или осезаемо над прага за възрастта ти при 60+.</p>
+<p class="mt-8"><strong>Какво значи:</strong> ако си зле тук, не си просто „извън форма“. Краката ти вече нямат добра база и после това се вижда в стълби, ставане, болки и лесно изморяване.</p>
+<p class="mt-8"><strong>Ако е слаб:</strong> започни със sit-to-stand, клек до стол и calf raises 2-3 пъти седмично.</p>
+</div>
+</div>
+</div>
+<div class="accordion-item">
+<div class="accordion-header">
+<h3>Тест 2: TUG</h3>
+<span class="accordion-arrow">▼</span>
+</div>
+<div class="accordion-body">
+<div class="accordion-body-inner">
+<p><strong>Как да го направиш:</strong></p>
+<p class="mt-8">1. Сложи стол и отбележи <strong>3 метра</strong> напред.</p>
+<p>2. Седни нормално.</p>
+<p>3. Пусни таймер, стани, мини 3 метра, обърни се, върни се и седни пак.</p>
+<p>4. Времето свършва, когато пак си седнал.</p>
+<p class="mt-8"><strong>Какво оценява:</strong> това е тест за ежедневна подвижност. Не мери „спортност“, а колко добре тялото ти става, тръгва, обръща се и спира под контрол.</p>
+<p class="mt-8"><strong>Добре:</strong> под 10 секунди.</p>
+<p class="mt-8"><strong>Средно:</strong> 10-12 секунди.</p>
+<p class="mt-8"><strong>Зле:</strong> 12+ секунди или ако се клатиш, завърташ се трудно и не контролираш добре движението.</p>
+<p class="mt-8"><strong>Какво значи:</strong> ако си зле тук, това вече се вижда в реалния живот: ставаш по-бавно, движиш се по-несигурно и тялото ти работи по-тромаво, отколкото трябва.</p>
+<p class="mt-8"><strong>Ако е слаб:</strong> ходене, step-up, ставане от стол и баланс всеки ден.</p>
+</div>
+</div>
+</div>
+<div class="accordion-item">
+<div class="accordion-header">
+<h3>Тест 3: Баланс</h3>
+<span class="accordion-arrow">▼</span>
+</div>
+<div class="accordion-body">
+<div class="accordion-body-inner">
+<p><strong>Как да го направиш:</strong></p>
+<p class="mt-8"><strong>Под 60:</strong> застани до стена или стол. Вдигни единия крак и виж колко секунди стоиш стабилно на другия.</p>
+<p><strong>60+:</strong> сложи единия крак точно пред другия, така че петата да е пред пръстите, и виж дали можеш да стоиш <strong>10 секунди</strong>.</p>
+<p>Тестът свършва, ако стъпиш, залитнеш или се хванеш.</p>
+<p class="mt-8"><strong>Какво оценява:</strong> дали имаш стабилност и контрол върху тялото си, или вече се клатиш и компенсираш. Това личи после в ходене, качване, слизане и увереност в движение.</p>
+<p class="mt-8"><strong>Под 60:</strong> зле = под 10 сек. Средно = 10-19 сек. Добре = 20+ сек.</p>
+<p class="mt-8"><strong>60+:</strong> ако не можеш да задържиш 10 сек, балансът вече е warning.</p>
+<p class="mt-8"><strong>Какво значи:</strong> ако си зле, тялото ти не държи стабилно. Това често води до по-малко движение, повече страх от движение и по-бърз спад на функцията.</p>
+<p class="mt-8"><strong>Ако е слаб:</strong> един крак, tandem stance, heel-to-toe ходене и chair rise почти всеки ден.</p>
+</div>
+</div>
+</div>
+<div class="accordion-item">
+<div class="accordion-header">
+<h3>Тест 4: Крачки и бързо ходене</h3>
+<span class="accordion-arrow">▼</span>
+</div>
+<div class="accordion-body">
+<div class="accordion-body-inner">
+<p><strong>Как да го направиш:</strong></p>
+<p class="mt-8">1. Виж средните крачки от последните 7 дни на телефона или часовника си.</p>
+<p>2. Не гледай само един ден.</p>
+<p>3. За бързо ходене ползвай talk test: трябва да можеш <strong>да говориш, но не и да пееш</strong>.</p>
+<p>4. Ако се разбиваш на една стълба или не можеш да кажеш цяло изречение, кондицията ти е слаба.</p>
+<p class="mt-8"><strong>Какво оценява:</strong> колко движение реално правиш и дали имаш базова аеробна форма. Това е по-честен тест от „тренирам понякога“.</p>
+<p class="mt-8"><strong>Зле:</strong> под 4000 крачки.</p>
+<p class="mt-8"><strong>Средно:</strong> 4000-6999.</p>
+<p class="mt-8"><strong>Добре:</strong> 7000-9000 за повечето хора. 9000+ = много добре.</p>
+<p class="mt-8"><strong>Какво значи:</strong> ако си зле, тялото ти просто не получава достатъчно движение. Ако си добре, имаш прилична ежедневна база и това пази кондицията ти.</p>
+<p class="mt-8"><strong>Ако е слаб:</strong> първата цел е +1000 до +1500 крачки над сегашното ниво, после 20-30 мин бързо ходене в 5 дни седмично.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="stat-pills mt-16">
+<span class="stat-pill amber">Талия над 1/2 от ръста = warning</span>
+<span class="stat-pill amber">Под 4000 крачки = много ниска база</span>
+<span class="stat-pill amber">Сила на краката и баланс се пазят, не се чакат</span>
+<span class="stat-pill red">Ако тестът е труден сега, после става реален проблем</span>
+</div>
+</div>
+</section>
+<section class="cta-section">
+<h2 data-i18n-html="hc.cta.h2">Видя проблема.<br><em class="green">Сега го пипни.</em></h2>
+<div class="cta-steps">
+<div class="cta-step">
+<div class="step-num">1</div>
+<span>Оправи движението</span>
+</div>
+<div class="cta-step">
+<div class="step-num">2</div>
+<span>Оправи храненето</span>
+</div>
+<div class="cta-step">
+<div class="step-num">3</div>
+<span>Започни плана</span>
+</div>
+</div>
+<a class="btn btn-green" href="move.html">Виж как се движи →</a>
+</section>
+<footer class="site-footer">
+    Направено от <a href="mailto:ivvmilev@gmail.com">Иван Милев</a> · ivvmilev@gmail.com
+</footer>
+<script src="js/main.js?v=6"></script>
+</body>
+</html>
