@@ -44,6 +44,12 @@ except ImportError:
     _OFF_ENRICHER_AVAILABLE = False
     def _get_off_macros(name, category="other"): return None
 
+try:
+    from image_mapper import get_local_product_image, has_real_image
+except ImportError:
+    def get_local_product_image(name, category): return None
+    def has_real_image(image): return bool(image) and image != FALLBACK_IMAGE
+
 # Import here so the module is available; actual calls happen in main().
 try:
     from store_scrapers import (
@@ -192,9 +198,16 @@ def _build_product(pid: str, offer: dict, today: str, existing: dict | None) -> 
         product["lowest_price"] = existing.get("lowest_price")
         product["lowest_price_date"] = existing.get("lowest_price_date")
         product["avg_price"] = existing.get("avg_price")
+        if not has_real_image(product.get("image")) and has_real_image(existing.get("image")):
+            product["image"] = existing.get("image")
     else:
         product["first_seen"] = today
         product["price_history"] = []
+
+    if not has_real_image(product.get("image")):
+        local_image = get_local_product_image(product.get("name"), product.get("category"))
+        if local_image:
+            product["image"] = local_image
     return product
 
 

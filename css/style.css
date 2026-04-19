@@ -2337,6 +2337,10 @@ input[type="range"]::-moz-range-thumb {
     align-items: flex-end;
     gap: 3px;
     height: 36px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding-bottom: 4px;
+    scrollbar-width: thin;
 }
 .ph-bar {
     width: 10px;
