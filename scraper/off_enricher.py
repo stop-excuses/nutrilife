@@ -73,6 +73,10 @@ def _save_cache(cache: dict) -> None:
 def _normalise(name: str) -> str:
     """Strip weight/brand clutter for better matching."""
     name = name.lower().strip()
+    name = re.sub(r"\bсупер цена\b", "", name)
+    name = re.sub(r"\bпродукт,\s*маркиран\s*със\s*синя\s*звезда\b", "", name)
+    name = re.sub(r"\bпроизход\s*-\s*[а-яa-z]+\b", "", name)
+    name = re.sub(r"\bза\s+\d+\s*кг\b", "", name)
     # Remove weights like "400 г", "1 кг", "500ml"
     name = re.sub(r"\b\d+\s*(?:г|кг|мл|л|ml|g|kg)\b", "", name)
     # Remove % and numbers-only tokens
@@ -192,7 +196,10 @@ def _search_off(query: str, lang: str = "bg", retries: int = 2) -> list[dict]:
         "action": "process",
         "json": 1,
         "search_simple": 1,
-        "fields": "product_name,ingredients_text,ingredients_text_bg,ingredients_text_en,nutriments",
+        "fields": (
+            "product_name,ingredients_text,ingredients_text_bg,ingredients_text_en,"
+            "nutriments,image_url,image_front_url,image_front_small_url"
+        ),
         "lc": lang,
         "page_size": 5,
     }
@@ -228,6 +235,73 @@ def _extract_nutriments(product: dict) -> dict | None:
     }
 
 
+def _extract_image(product: dict) -> str | None:
+    for key in ("image_front_url", "image_url", "image_front_small_url"):
+        value = product.get(key)
+        if isinstance(value, str) and value.strip():
+            return value.strip()
+    return None
+
+
+def _best_product_match(product_name: str, category: str) -> dict | None:
+    best_match = None
+    best_score = 0.0
+
+    for query, lang in _query_candidates(product_name, category):
+        products = _search_off(query, lang=lang)
+
+        for product in products:
+            name_off = product.get("product_name", "")
+            sim = _similarity(product_name, name_off)
+            overlap = _token_overlap(product_name, name_off)
+            score = max(sim, overlap)
+
+            if lang == "en" and _en_hint(product_name) and _en_hint(product_name) in query.lower():
+                score = max(score, 0.42)
+
+            if score >= MIN_SIMILARITY and score > best_score:
+                best_match = product
+                best_score = score
+
+        if best_match:
+            break
+
+    return best_match
+
+
+def get_off_product_data(product_name: str, category: str = "other") -> dict | None:
+    """
+    Return the best OFF match with optional macros and image.
+
+    Result keys:
+      - image
+      - matched_name
+      - macros
+    """
+    if category not in ENRICHABLE_CATEGORIES:
+        return None
+
+    cache = _load_cache()
+    cache_key = f"{CACHE_PREFIX}product:{category}:{_normalise(product_name)}"
+
+    if cache_key in cache:
+        return cache[cache_key]
+
+    match = _best_product_match(product_name, category)
+    result = None
+
+    if match:
+        result = {
+            "image": _extract_image(match),
+            "matched_name": match.get("product_name", ""),
+            "macros": _extract_nutriments(match),
+        }
+
+    cache[cache_key] = result
+    _save_cache(cache)
+    return result
+
+
 # ---------------------------------------------------------------------------
 # Public API
 # ---------------------------------------------------------------------------
@@ -242,40 +316,39 @@ def get_off_macros(product_name: str, category: str = "other") -> dict | None:
     if category not in ENRICHABLE_CATEGORIES:
         return None
 
-    cache = _load_cache()
-    cache_key = f"{CACHE_PREFIX}{category}:{_normalise(product_name)}"
+    product = get_off_product_data(product_name, category)
+    return product.get("macros") if product else None
 
-    if cache_key in cache:
-        return cache[cache_key]
 
-    result = None
+def get_off_image(product_name: str, category: str = "other") -> str | None:
+    product = get_off_product_data(product_name, category)
+    return product.get("image") if product else None
+
+
+def get_off_image_match(product_name: str, category: str = "other") -> dict | None:
+    """
+    Return an image match for UI enrichment.
+
+    First tries the normal OFF match. If that fails, falls back to the first
+    query candidate that returns a product image, which is useful for generic
+    but visually correct product photos.
+    """
+    product = get_off_product_data(product_name, category)
+    if product and product.get("image"):
+        return {"image": product["image"], "matched_name": product.get("matched_name", ""), "generic": False}
+
+    if category not in ENRICHABLE_CATEGORIES:
+        return None
 
     for query, lang in _query_candidates(product_name, category):
         products = _search_off(query, lang=lang)
-        best_match = None
-        best_score = 0.0
+        for item in products:
+            image = _extract_image(item)
+            if image:
+                return {
+                    "image": image,
+                    "matched_name": item.get("product_name", ""),
+                    "generic": True,
+                }
 
-        for product in products:
-            name_off = product.get("product_name", "")
-            macros = _extract_nutriments(product)
-            if not macros:
-                continue
-            sim = _similarity(product_name, name_off)
-            overlap = _token_overlap(product_name, name_off)
-            score = max(sim, overlap)
-
-            if lang == "en" and _en_hint(product_name) and _en_hint(product_name) in query.lower():
-                score = max(score, 0.42)
-
-            if score >= MIN_SIMILARITY and score > best_score:
-                best_match = macros
-                best_score = score
-
-        if best_match:
-            result = best_match
-            break
-
-    # Cache even None results to avoid re-querying for known misses
-    cache[cache_key] = result
-    _save_cache(cache)
-    return result
+    return None

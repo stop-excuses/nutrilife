@@ -12,6 +12,7 @@ let currentPage = 1;
 let filteredOffersCache = [];
 
 const OFFERS_PER_PAGE = 24;
+const PLACEHOLDER_IMAGE_MARKER = "No-Image-Placeholder.svg";
 
 const PROCESSED_MEAT_KEYWORDS = [
     "шунка", "кренвирш", "наденица", "салам", "луканка", "бекон", "шпек", "карначе", "суджук"
@@ -21,6 +22,84 @@ const NON_HUMAN_FOOD_KEYWORDS = [
     "храна за кучета", "храна за куче", "храна за котки", "храна за котка",
     "консерва за кучета", "консерва за куче", "консерва за котки", "консерва за котка",
     "кучешка храна", "котешка храна", "pet food"
+];
+
+const NON_EDIBLE_PRODUCT_KEYWORDS = [
+    "кърпи", "кърпички", "влажни кърпи", "влажни кърпички", "антибакт",
+    "шампоан", "балсам", "сапун", "душ гел", "паста за зъби", "четка за зъби",
+    "прах за пране", "омекотител", "препарат", "почистващ", "дезинфектант",
+    "тоалетна хартия", "салфетки", "пелени", "дамски превръзки"
+];
+
+const EXCLUDED_HEALTH_CATEGORIES = new Set(["pet", "hygiene", "household", "other"]);
+
+const HYGIENE_CATEGORY_KEYWORDS = [
+    "кърпи", "кърпички", "влажни", "сапун", "шампоан", "балсам", "душ гел",
+    "паста за зъби", "четка за зъби", "дезодорант", "тоалетна хартия",
+    "пелени", "дамски превръзки"
+];
+
+const HOUSEHOLD_CATEGORY_KEYWORDS = [
+    "прах за пране", "омекотител", "препарат", "почистващ", "дезинфектант",
+    "таблетки за съдомиялна", "веро", "белина"
+];
+
+const JUNK_FOOD_KEYWORDS = ["кроасан"];
+
+const PROTEIN_VALUE_ALLOWED_CATEGORIES = new Set(["protein", "dairy", "legume", "canned"]);
+
+const NON_PROTEIN_VALUE_KEYWORDS = [
+    "брашно", "бутер", "ролца", "банич", "витрина", "кюфтет", "кебапчет",
+    "кюфте", "панира", "хапки"
+];
+
+const EDIBLE_YIELD_RULES = [
+    ["пилешки крила", 0.55],
+    ["крила", 0.55],
+    ["долен бут", 0.68],
+    ["горен бут", 0.7],
+    ["бутче", 0.68],
+    ["бут ", 0.72],
+    ["цялo пиле", 0.65],
+    ["цяло пиле", 0.65],
+    ["котлет", 0.82],
+    ["пъстърва", 0.85],
+    ["ципура", 0.82],
+    ["лаврак", 0.82],
+];
+
+const PROTEIN_QUALITY_RULES = [
+    ["риба тон", 1.12],
+    ["сьомга", 1.12],
+    ["пъстърва", 1.1],
+    ["скумрия", 1.1],
+    ["треска", 1.12],
+    ["ципура", 1.08],
+    ["лаврак", 1.08],
+    ["херинга", 1.08],
+    ["сельодка", 1.08],
+    ["яйц", 1.12],
+    ["пилешки гърди", 1.1],
+    ["пилешко филе", 1.1],
+    ["пилешко", 1.06],
+    ["пуешко", 1.1],
+    ["телешко", 1.04],
+    ["говеждо", 1.04],
+    ["извара", 1.07],
+    ["cottage", 1.07],
+    ["скир", 1.08],
+    ["skyr", 1.08],
+    ["кисело мляко", 1.03],
+    ["йогурт", 1.03],
+    ["сирене", 1.01],
+    ["нахут", 0.94],
+    ["леща", 0.95],
+    ["фасул", 0.93],
+    ["боб", 0.93],
+    ["грах", 0.92],
+    ["овесени ядки", 0.82],
+    ["овес", 0.82],
+    ["ориз", 0.78],
 ];
 
 const PROTEIN_SOURCE_KEYWORDS = [
@@ -59,6 +138,10 @@ const COMPARISON_KEYWORDS = [
 document.addEventListener("DOMContentLoaded", () => {
     loadOffers();
 });
+
+function hasRealImage(image) {
+    return !!image && !String(image).includes(PLACEHOLDER_IMAGE_MARKER);
+}
 
 /* -----------------------------------------------------------------------
    CANONICAL NUTRITION — authoritative per-100g values.
@@ -166,6 +249,30 @@ function getOfferNameLower(offer) {
     return (offer.name || "").toLowerCase();
 }
 
+function normalizeOfferCategory(offer) {
+    const nameLower = getOfferNameLower(offer);
+    if (NON_HUMAN_FOOD_KEYWORDS.some(kw => nameLower.includes(kw))) return "pet";
+    if (HOUSEHOLD_CATEGORY_KEYWORDS.some(kw => nameLower.includes(kw))) return "household";
+    if (HYGIENE_CATEGORY_KEYWORDS.some(kw => nameLower.includes(kw))) return "hygiene";
+    if (JUNK_FOOD_KEYWORDS.some(kw => nameLower.includes(kw))) return "grain";
+    return offer.category;
+}
+
+function normalizeOfferForUi(offer) {
+    const category = normalizeOfferCategory(offer);
+    const nameLower = getOfferNameLower(offer);
+    const isNonEdible = category === "pet" || category === "hygiene" || category === "household";
+    const isJunkByName = JUNK_FOOD_KEYWORDS.some(kw => nameLower.includes(kw));
+
+    return {
+        ...offer,
+        category,
+        is_food: isNonEdible ? false : offer.is_food,
+        is_junk: isNonEdible ? false : (offer.is_junk || isJunkByName),
+        health_score: isNonEdible ? null : offer.health_score,
+    };
+}
+
 function escapeHtml(value) {
     return String(value || "")
         .replaceAll("&", "&amp;")
@@ -217,9 +324,16 @@ function isClearlyNonHumanFood(offer) {
     return NON_HUMAN_FOOD_KEYWORDS.some(kw => nameLower.includes(kw));
 }
 
+function isClearlyNonEdibleProduct(offer) {
+    const nameLower = getOfferNameLower(offer);
+    if (EXCLUDED_HEALTH_CATEGORIES.has(offer.category)) return true;
+    return NON_EDIBLE_PRODUCT_KEYWORDS.some(kw => nameLower.includes(kw));
+}
+
 function isHealthyOffer(offer) {
     if (!offer.is_food || offer.is_junk) return false;
     if (isClearlyNonHumanFood(offer)) return false;
+    if (isClearlyNonEdibleProduct(offer)) return false;
     if (isProcessedMeat(offer)) return false;
     return true;
 }
@@ -258,6 +372,39 @@ function isStrictHighProtein(offer) {
     const c = macros.c || 0;
     const total = p + f + c;
     return p >= 10 && (total === 0 || p / total >= 0.35);
+}
+
+function isValidProteinValueOffer(offer) {
+    const nameLower = getOfferNameLower(offer);
+    if (!isHealthyOffer(offer)) return false;
+    if ((offer.health_score || 0) < 7) return false;
+    if (!offer.weight_grams || !offer.price_per_kg || offer.price_per_kg <= 0) return false;
+    if (!hasCanonicalNutrition(offer)) return false;
+    if (!PROTEIN_VALUE_ALLOWED_CATEGORIES.has(offer.category)) return false;
+    if (!isProteinSource(offer)) return false;
+    if (NON_PROTEIN_VALUE_KEYWORDS.some(kw => nameLower.includes(kw))) return false;
+    return true;
+}
+
+function getEdibleYieldFactor(offer) {
+    const nameLower = getOfferNameLower(offer);
+    for (const [keyword, factor] of EDIBLE_YIELD_RULES) {
+        if (nameLower.includes(keyword)) return factor;
+    }
+    return 1;
+}
+
+function getProteinQualityFactor(offer) {
+    const nameLower = getOfferNameLower(offer);
+    for (const [keyword, factor] of PROTEIN_QUALITY_RULES) {
+        if (nameLower.includes(keyword)) return factor;
+    }
+
+    if (offer.category === "protein") return 1.05;
+    if (offer.category === "dairy") return 1.03;
+    if (offer.category === "legume" || offer.category === "canned") return 0.94;
+    if (offer.category === "grain") return 0.8;
+    return 1;
 }
 
 /* -----------------------------------------------------------------------
@@ -303,8 +450,15 @@ function getProteinMetrics(offer, strictWeight = false) {
     const purity = total > 0 ? macros.p / total : 1;
     const cleanProteinPerLev = rawProteinPerLev * purity;
     const cleanProteinPerEur = cleanProteinPerLev * 1.95583;
+    const edibleYield = strictWeight ? getEdibleYieldFactor(offer) : 1;
+    const proteinQuality = getProteinQualityFactor(offer);
+    const adjustedProteinPerLev = cleanProteinPerLev * edibleYield * proteinQuality;
+    const adjustedProteinPerEur = cleanProteinPerEur * edibleYield * proteinQuality;
 
-    return { rawProteinPerLev, rawProteinPerEur, cleanProteinPerLev, cleanProteinPerEur, purity };
+    return {
+        rawProteinPerLev, rawProteinPerEur, cleanProteinPerLev, cleanProteinPerEur,
+        adjustedProteinPerLev, adjustedProteinPerEur, purity, edibleYield, proteinQuality
+    };
 }
 
 /* -----------------------------------------------------------------------
@@ -325,11 +479,15 @@ async function loadOffers() {
         allOffers = (OFFERS_DATA.offers || []).map(o => {
             const product = productMap.get(o.product_id || o.id);
             const merged = product ? { ...product, ...o } : o;
+            if (product && !hasRealImage(o.image) && hasRealImage(product.image)) {
+                merged.image = product.image;
+            }
+            const normalized = normalizeOfferForUi(merged);
             return {
-                ...merged,
-                _searchText: buildSearchText(merged),
-                _productKey: normalizeProductKey(merged.name),
-                _comparisonKey: getComparisonKey(merged),
+                ...normalized,
+                _searchText: buildSearchText(normalized),
+                _productKey: normalizeProductKey(normalized.name),
+                _comparisonKey: getComparisonKey(normalized),
             };
         });
         applyFilters();
@@ -367,12 +525,17 @@ function sortOffers(offers) {
             sorted.sort((a, b) => a.new_price - b.new_price);
             break;
         case "health":
-            sorted.sort((a, b) => (b.health_score || 0) - (a.health_score || 0));
+            sorted.sort((a, b) => {
+                const ha = isHealthyOffer(a) ? (a.health_score || 0) : 0;
+                const hb = isHealthyOffer(b) ? (b.health_score || 0) : 0;
+                if (hb !== ha) return hb - ha;
+                return a.new_price - b.new_price;
+            });
             break;
         case "protein_value":
             sorted.sort((a, b) => {
-                const va = getProteinMetrics(a)?.cleanProteinPerEur || 0;
-                const vb = getProteinMetrics(b)?.cleanProteinPerEur || 0;
+                const va = isValidProteinValueOffer(a) ? (getProteinMetrics(a, true)?.adjustedProteinPerEur || 0) : 0;
+                const vb = isValidProteinValueOffer(b) ? (getProteinMetrics(b, true)?.adjustedProteinPerEur || 0) : 0;
                 return vb - va;
             });
             break;
@@ -381,8 +544,8 @@ function sortOffers(offers) {
                 const ha = isHealthyOffer(a) ? (a.health_score || 0) : 0;
                 const hb = isHealthyOffer(b) ? (b.health_score || 0) : 0;
                 if (hb !== ha) return hb - ha;
-                const pa = getProteinMetrics(a)?.cleanProteinPerEur || 0;
-                const pb = getProteinMetrics(b)?.cleanProteinPerEur || 0;
+                const pa = isValidProteinValueOffer(a) ? (getProteinMetrics(a, true)?.adjustedProteinPerEur || 0) : 0;
+                const pb = isValidProteinValueOffer(b) ? (getProteinMetrics(b, true)?.adjustedProteinPerEur || 0) : 0;
                 if (pb !== pa) return pb - pa;
                 return a.new_price - b.new_price;
             });
@@ -660,8 +823,7 @@ function renderPriceHistory(offer) {
         ? `<span class="ph-badge ${trend.cls}">${trend.label}</span>`
         : "";
 
-    const recent = history.slice(-16);
-    const bars = recent.map(e => {
+    const bars = history.map(e => {
         if (e.price == null) return "";
         const h = Math.round(((e.price - minP) / range) * 28) + 4;
         const isPromo = e.discount_pct > 0;
@@ -815,7 +977,7 @@ function renderOffers(offers) {
     grid.innerHTML = visibleOffers.map(o => {
         const macros = getMacros(o);
         const healthyOffer = isHealthyOffer(o);
-        const hasHealthScore = o.is_food && !o.is_junk && o.health_score != null;
+        const hasHealthScore = healthyOffer && o.health_score != null;
         const scoreCls = (o.health_score || 0) >= 8 ? "high" : (o.health_score || 0) >= 5 ? "medium" : "low";
         const isHP = healthyOffer && isStrictHighProtein(o);
 
@@ -848,7 +1010,7 @@ function renderOffers(offers) {
         let proteinValueHtml = "";
         const pm = getProteinMetrics(o);
         if (pm) {
-            proteinValueHtml = `<div class="details-row"><strong>Чист протеин/евро:</strong> <span class="green">${pm.cleanProteinPerEur.toFixed(1)}г на €1</span></div>`;
+            proteinValueHtml = `<div class="details-row"><strong>Ефективен протеин/евро:</strong> <span class="green">${pm.adjustedProteinPerEur.toFixed(1)}г на €1</span></div>`;
         }
 
         return `
@@ -1027,18 +1189,7 @@ function renderProteinRanking() {
     const container = document.getElementById("protein-ranking");
     if (!container) return;
 
-    const items = allOffers.filter(o => {
-        if (!isHealthyOffer(o)) return false;
-        if ((o.health_score || 0) < 7) return false;
-        if (o.category === "drinks") return false;
-        // Require real weight + price (no fallback guessing)
-        if (!o.weight_grams || !o.price_per_kg || o.price_per_kg <= 0) return false;
-        const macros = getMacros(o);
-        if (!macros || macros.p < 8) return false;
-        // Only products with authoritative canonical nutrition — no scraped-macro distortion
-        if (!hasCanonicalNutrition(o)) return false;
-        return true;
-    });
+    const items = allOffers.filter(o => isValidProteinValueOffer(o));
 
     if (items.length === 0) {
         container.innerHTML = '<p style="color:var(--muted);">Няма данни за протеинов анализ.</p>';
@@ -1048,13 +1199,13 @@ function renderProteinRanking() {
     const ranked = items.map(o => {
         const metrics = getProteinMetrics(o, true); // strict: real weight only
         return metrics ? { ...o, _macros: getMacros(o), ...metrics } : null;
-    }).filter(Boolean).sort((a, b) => b.cleanProteinPerEur - a.cleanProteinPerEur);
+    }).filter(Boolean).sort((a, b) => b.adjustedProteinPerEur - a.adjustedProteinPerEur);
 
     const top = ranked.slice(0, 10);
 
     let html = top.map((o, i) => {
         const medal = i === 0 ? "🥇" : i === 1 ? "🥈" : i === 2 ? "🥉" : `${i + 1}.`;
-        const barWidth = Math.round((o.cleanProteinPerEur / top[0].cleanProteinPerEur) * 100);
+        const barWidth = Math.round((o.adjustedProteinPerEur / top[0].adjustedProteinPerEur) * 100);
         const m = o._macros;
         return `
             <div class="protein-rank-item offer-card">
@@ -1065,15 +1216,17 @@ function renderProteinRanking() {
                         <div class="rank-meta">${m.p}г протеин/100г · ${m.f}г мазнини · ${m.c}г въгл. · ${formatPricePair(o.new_price, o.new_price_eur)} · ${o.store}</div>
                         <div class="rank-bar-bg"><div class="rank-bar-fill" style="width:${barWidth}%"></div></div>
                     </div>
-                    <div class="rank-value">${o.cleanProteinPerEur.toFixed(1)}г/€</div>
+                    <div class="rank-value">${o.adjustedProteinPerEur.toFixed(1)}г/€</div>
                     <span class="offer-arrow">▼</span>
                 </div>
                 <div class="offer-details">
                     <div class="details-inner">
                         <div class="details-content">
-                            <div class="details-row"><strong>Чист протеин/евро:</strong> <span class="green">${o.cleanProteinPerEur.toFixed(1)}г</span></div>
+                            <div class="details-row"><strong>Ефективен протеин/евро:</strong> <span class="green">${o.adjustedProteinPerEur.toFixed(1)}г</span></div>
                             <div class="details-row"><strong>Суров протеин/евро:</strong> <span>${o.rawProteinPerEur.toFixed(1)}г</span></div>
                             <div class="details-row"><strong>Чистота на протеина:</strong> <span>${(o.purity * 100).toFixed(0)}%</span></div>
+                            ${o.edibleYield < 1 ? `<div class="details-row"><strong>Корекция за ядлив добив:</strong> <span>${Math.round(o.edibleYield * 100)}%</span></div>` : ""}
+                            ${o.proteinQuality !== 1 ? `<div class="details-row"><strong>Коефициент за качество:</strong> <span>${o.proteinQuality.toFixed(2)}x</span></div>` : ""}
                             <div class="details-row"><strong>Цена:</strong> <span>${formatPricePair(o.new_price, o.new_price_eur)}</span></div>
                             <div class="details-row"><strong>Макроси:</strong> <span>${m.p}г P · ${m.f}г F · ${m.c}г C</span></div>
                             ${renderIngredientsFlags(o)}
@@ -1097,9 +1250,9 @@ function renderProfileRecommendations(profile) {
 
     let filtered;
     if (profile === "all") {
-        filtered = allOffers.filter(o => isHealthyOffer(o));
+        filtered = allOffers.filter(o => isHealthyOffer(o) && o.health_score != null);
     } else {
-        filtered = allOffers.filter(o => isHealthyOffer(o) && o.diet_tags && o.diet_tags.includes(profile));
+        filtered = allOffers.filter(o => isHealthyOffer(o) && o.health_score != null && o.diet_tags && o.diet_tags.includes(profile));
     }
 
     filtered.sort((a, b) => {
