@@ -24,9 +24,10 @@ python sync_offers.py         # sync offers.json → data/offers.js (for GitHub 
 - Kaufland: DOM scraper (offers page only — promotions)
 - Billa: ssbbilla.site HTML (weekly brochure — promotions only)
 - Lidl: embedded JSON in category pages (promos + assortment)
-- Fantastico: CSV export (all products — promos + assortment)
-- Dar: CSV export (all products — Fantastico group)
-- T-Market: requests scraper on tmarketonline.bg (promotions, 48 products per run)
+- Fantastico: CSV export (all products — promos + assortment, ~2300 unique)
+- Dar: CSV export (all products — Fantastico group, ~1300 unique)
+- T-Market: requests scraper — 12 major category pages with pagination
+  (~5300 unique products; promos + assortment; no Playwright needed)
 
 ## Known issues / blockers
 - broshura.bg returns 403 intermittently → retry+backoff is in place
