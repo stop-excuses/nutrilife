@@ -513,14 +513,15 @@ FANTASTICO_CSV_URL = "https://fantastico.bg/files/kzp/fantastico.csv"
 DAR_CSV_URL = "https://www.fantastico.bg/files/kzp/dar.csv"
 
 
-def _parse_kzp_csv(url: str, store_name: str, source_key: str) -> list[dict]:
+def _parse_kzp_csv(url: str, store_name: str, source_key: str, promos_only: bool = False) -> list[dict]:
     """Generic parser for Fantastico-group KZP CSV files.
 
     CSV columns (UTF-8-BOM, comma-delimited):
       0=StoreID, 1=StoreName, 2=ProductName, 3=Code,
       4=Category, 5=RegularPrice, 6=DiscountPrice
     Rows with non-empty col[6] are on discount.
-    Deduplicate by product Code — keep lowest discount price.
+    Deduplicate by product Code — keep discounted version if both exist.
+    When promos_only=False, also includes regular-price items as assortment.
     """
     import csv
     import io
@@ -530,7 +531,7 @@ def _parse_kzp_csv(url: str, store_name: str, source_key: str) -> list[dict]:
         resp = requests.get(
             url,
             headers={"User-Agent": USER_AGENT, "Referer": "https://www.fantastico.bg/promotions"},
-            timeout=60,
+            timeout=20,
             stream=True,
         )
         resp.raise_for_status()
@@ -552,41 +553,52 @@ def _parse_kzp_csv(url: str, store_name: str, source_key: str) -> list[dict]:
             reg_price_raw = row[5].strip()
             disc_price_raw = row[6].strip()
 
-            if not disc_price_raw or not name:
+            if not name:
+                continue
+
+            is_promo = bool(disc_price_raw)
+            if promos_only and not is_promo:
                 continue
 
             try:
-                new_price = round(float(disc_price_raw), 2)
+                new_price = round(float(disc_price_raw if is_promo else reg_price_raw), 2)
             except ValueError:
                 continue
             if new_price <= 0:
                 continue
 
             old_price = None
-            try:
-                op = round(float(reg_price_raw), 2)
-                if op > new_price:
-                    old_price = op
-            except ValueError:
-                pass
-
             discount_pct = None
-            if old_price:
-                discount_pct = int(round((1 - new_price / old_price) * 100))
+            if is_promo:
+                try:
+                    op = round(float(reg_price_raw), 2)
+                    if op > new_price:
+                        old_price = op
+                        discount_pct = int(round((1 - new_price / op) * 100))
+                except ValueError:
+                    pass
 
+            source_type = "promo" if is_promo else "assortment"
             item = make_raw_item(
-                name, new_price, old_price, discount_pct, None, store_name, source_key
+                name, new_price, old_price, discount_pct, None, store_name, source_key,
+                source_type=source_type,
             )
 
             if code:
                 existing = best_by_code.get(code)
-                if existing is None or new_price < existing["new_price"]:
+                # Prefer discounted version; break ties by lower price
+                if existing is None:
+                    best_by_code[code] = item
+                elif is_promo and not existing.get("old_price"):
+                    best_by_code[code] = item
+                elif not is_promo and not existing.get("old_price") and new_price < existing["new_price"]:
                     best_by_code[code] = item
             else:
                 items.append(item)
 
         items.extend(best_by_code.values())
-        print(f"  [{store_name} CSV] {len(items)} unique discounted items")
+        promo_count = sum(1 for it in items if it.get("old_price"))
+        print(f"  [{store_name} CSV] {len(items)} unique items ({promo_count} on promo)")
 
     except Exception as e:
         print(f"  [{store_name} CSV] Error: {e}")
@@ -595,49 +607,38 @@ def _parse_kzp_csv(url: str, store_name: str, source_key: str) -> list[dict]:
 
 
 def scrape_fantastico_csv() -> list[dict]:
-    """Download Fantastico's KZP CSV and extract discounted items."""
-    return _parse_kzp_csv(FANTASTICO_CSV_URL, "Fantastico", "fantastico_csv")
+    """Download Fantastico's KZP CSV — all products (promos + assortment)."""
+    return _parse_kzp_csv(FANTASTICO_CSV_URL, "Fantastico", "fantastico_csv", promos_only=False)
 
 
 def scrape_dar_csv() -> list[dict]:
-    """Download Dar (ДАР) KZP CSV — same format as Fantastico, same group."""
-    return _parse_kzp_csv(DAR_CSV_URL, "Dar", "dar_csv")
+    """Download Dar (ДАР) KZP CSV — all products (same group as Fantastico)."""
+    return _parse_kzp_csv(DAR_CSV_URL, "Dar", "dar_csv", promos_only=False)
 
 
-# ─── T-Market DOM scraper (local only — requires real Chrome profile) ──────────
+# ─── T-Market scraper (requests-based, no Playwright needed) ─────────────────
 
 TMARKET_URL = "https://tmarketonline.bg/selection/produkti-v-akciya"
 TMARKET_CHROME_PROFILE = r"C:\Users\JohnnyBravo\AppData\Local\Temp\pw_chrome_profile"
+TMARKET_HEADERS = {
+    "User-Agent": USER_AGENT,
+    "Accept-Language": "bg-BG,bg;q=0.9",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+}
 
 
-async def scrape_tmarket_dom(browser) -> list[dict]:
-    """Scrape T-Market promo page using a real Chrome profile to bypass Cloudflare.
+def scrape_tmarket_text() -> list[dict]:
+    """Scrape T-Market promotions via requests — no Playwright or Chrome profile needed.
 
-    Requires TMARKET_CHROME_PROFILE to exist (created by setup_tmarket_profile()).
-    Only works locally — not in CI/GitHub Actions.
+    tmarketonline.bg uses CloudCart and serves full HTML server-side.
     """
     items = []
     try:
-        context = await browser.new_context(
-            user_agent=(
-                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-            ),
-            viewport={"width": 1920, "height": 1080},
-            locale="bg-BG",
-        )
-        page = await context.new_page()
-        await page.goto(TMARKET_URL, timeout=30000)
-        await asyncio.sleep(5)
-        for _ in range(6):
-            await page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
-            await asyncio.sleep(1.5)
+        resp = requests.get(TMARKET_URL, headers=TMARKET_HEADERS, timeout=20)
+        resp.raise_for_status()
+        soup = BeautifulSoup(resp.content, "html.parser")
 
-        html_content = await page.content()
-        soup = BeautifulSoup(html_content, "html.parser")
-        cards = soup.select("div._product")
-
-        for card in cards:
+        for card in soup.select("div._product"):
             name_el = card.select_one(
                 "h3._product-name-tag a, h3._product-name-tag, ._product-name-tag"
             )
@@ -648,18 +649,13 @@ async def scrape_tmarket_dom(browser) -> list[dict]:
                 continue
 
             new_price = None
-            compare_el = card.select_one("._product-price-compare")
-            if compare_el:
-                for span in compare_el.select("span.bgn2eur-secondary-currency"):
-                    if not span.find_parent("del"):
-                        new_price = clean_price(span.get_text(strip=True))
-                        if new_price:
-                            break
+            for span in card.select("span.bgn2eur-secondary-currency"):
+                if not span.find_parent("del"):
+                    new_price = clean_price(span.get_text(strip=True))
+                    if new_price:
+                        break
             if not new_price:
-                price_el = card.select_one(
-                    "._product-price span.bgn2eur-secondary-currency, "
-                    "._product-price span, [class*='price-new']"
-                )
+                price_el = card.select_one("._product-price span, [class*='price-new']")
                 if price_el:
                     new_price = clean_price(price_el.get_text(strip=True))
             if not new_price:
@@ -674,58 +670,35 @@ async def scrape_tmarket_dom(browser) -> list[dict]:
                 old_price = clean_price(old_el.get_text(strip=True))
 
             discount_pct = None
-            disc_el = card.select_one("span._product-details-discount, [class*='discount']")
+            disc_el = card.select_one("span._product-details-discount")
             if disc_el:
-                m = re.search(r"(\d+)\s*%", disc_el.get_text(strip=True))
+                m = re.search(r"(\d+)", disc_el.get_text(strip=True))
                 if m:
                     discount_pct = int(m.group(1))
             if not discount_pct and old_price and old_price > new_price:
                 discount_pct = int(round((1 - new_price / old_price) * 100))
 
             image = None
-            img_el = card.select_one("img.lazyload-image, img[data-src], img")
+            img_el = card.select_one("img")
             if img_el:
                 image = img_el.get("data-first-src") or img_el.get("data-src") or img_el.get("src")
 
-            item = make_raw_item(name, new_price, old_price, discount_pct, image, "T-Market", "tmarket_dom")
-            if item:
-                items.append(item)
+            items.append(make_raw_item(
+                name, new_price, old_price, discount_pct, image, "T-Market", "tmarket_text"
+            ))
 
-        await context.close()
-        print(f"  [T-Market DOM] {len(items)} raw items from {TMARKET_URL}")
+        print(f"  [T-Market] {len(items)} raw items from {TMARKET_URL}")
     except Exception as e:
-        print(f"  [T-Market DOM] Error: {e}")
+        print(f"  [T-Market] Error: {e}")
 
     return items
 
 
+async def scrape_tmarket_dom(browser) -> list[dict]:
+    """Legacy Playwright wrapper — forwards to scrape_tmarket_text()."""
+    return scrape_tmarket_text()
+
+
 def setup_tmarket_profile() -> bool:
-    """Copy Chrome cookies to temp profile for T-Market scraping.
-    Call this once before running the scraper locally.
-    Returns True if successful.
-    """
-    import shutil
-    import os
-
-    src = r"C:\Users\JohnnyBravo\AppData\Local\Google\Chrome\User Data\Default"
-    dst = TMARKET_CHROME_PROFILE
-
-    if not os.path.exists(src):
-        print("  [T-Market] Chrome profile not found")
-        return False
-
-    os.makedirs(dst, exist_ok=True)
-    for fname in ["Cookies", "Cookies-journal", "Local Storage", "Session Storage"]:
-        src_path = os.path.join(src, fname)
-        dst_path = os.path.join(dst, fname)
-        if os.path.exists(src_path):
-            try:
-                if os.path.isdir(src_path):
-                    if not os.path.exists(dst_path):
-                        shutil.copytree(src_path, dst_path)
-                else:
-                    shutil.copy2(src_path, dst_path)
-            except Exception:
-                pass
-    print(f"  [T-Market] Chrome profile ready at {dst}")
+    """No longer needed — T-Market now scraped via requests."""
     return True
