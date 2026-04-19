@@ -2,8 +2,9 @@ name: Weekly Scraper
 
 on:
   schedule:
-    # Every Monday at 06:00 UTC (08:00 Sofia time)
+    # Every Monday and Thursday at 06:00 UTC (08:00 Sofia time)
     - cron: "0 6 * * 1"
+    - cron: "0 6 * * 4"
   workflow_dispatch: # allow manual run from GitHub UI
 
 jobs:

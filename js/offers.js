@@ -697,6 +697,7 @@ function renderIngredientsFlags(offer) {
     const raw = offer.ingredients_raw;
     const flags = offer.ingredients_flags;
     if (!raw && (!flags || flags.length === 0)) return "";
+    if (raw && raw.length < 20) return "";
 
     const lang = (window.I18N && window.I18N.getLang) ? window.I18N.getLang() : "bg";
     const localizedRaw = lang === "en"
@@ -741,7 +742,7 @@ function renderIngredientsBlock(offer) {
     const ingredients = lang === "en"
         ? (offer.ingredients_en || offer.ingredients_bg || (offer.macros || {}).ingredients)
         : (offer.ingredients_bg || offer.ingredients_en || (offer.macros || {}).ingredients);
-    if (!ingredients) return "";
+    if (!ingredients || ingredients.length < 20) return "";
     const t = window.I18N && window.I18N.t ? window.I18N.t.bind(window.I18N) : k => k;
     const compact = ingredients.length > 280 ? `${ingredients.slice(0, 277)}...` : ingredients;
     return `<div class="details-note"><strong>${t("offer.ingredients")}:</strong> ${escapeHtml(compact)}</div>`;
