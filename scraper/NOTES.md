@@ -20,10 +20,18 @@ python scraper/scraper.py     # scrape → data/offers.json
 python sync_offers.py         # sync offers.json → data/offers.js (for GitHub Pages)
 ```
 
+## Store coverage (April 2026)
+- Kaufland: DOM scraper (offers page only — promotions)
+- Billa: ssbbilla.site HTML (weekly brochure — promotions only)
+- Lidl: embedded JSON in category pages (promos + assortment)
+- Fantastico: CSV export (all products — promos + assortment)
+- Dar: CSV export (all products — Fantastico group)
+- T-Market: requests scraper on tmarketonline.bg (promotions, 48 products per run)
+
 ## Known issues / blockers
 - broshura.bg returns 403 intermittently → retry+backoff is in place
-- T-Market uses local DOM scraper (not broshura.bg), requires Playwright profile setup
-- Fantastico/Dar use CSV exports from their own sites
+- Billa full catalog not available via ssbbilla.site (weekly brochure only)
+- Kaufland catalog pages not yet scraped (only offers page)
 
 ## Removed: OCR fallback (April 2026)
 OCR via brochure images (`/b/` pages on broshura.bg) was tested extensively but removed because:
