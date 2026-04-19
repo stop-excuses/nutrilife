@@ -52,8 +52,7 @@ try:
         scrape_lidl_dom,
         scrape_fantastico_csv,
         scrape_dar_csv,
-        scrape_tmarket_dom,
-        setup_tmarket_profile,
+        scrape_tmarket_text,
         is_high_protein,
         FALLBACK_IMAGE,
     )
@@ -292,6 +291,7 @@ FOOD_KEYWORDS = [
     "мед", "кафе", "чай", "хумус",
     "протеин", "колаген", "гранол", "мюсли",
     "зехтин", "ленено масло", "кокосово масло",
+    "олио", "йогурт", "сметана",
     # General food markers
     "храна", "хран",
 ]
@@ -318,17 +318,21 @@ CATEGORY_MAP = {
                  "риба", "скарида", "калмар", "октопод", "миди", "хайвер", "треска",
                  "ципура", "лаврак", "пъстърва", "сельодка", "херинга"],
     "canned": ["риба тон", "сьомга", "скумрия", "консерв", "туна"],
-    "grain": ["овес", "овесен", "ориз", "брашно", "макарон", "паста", "спагети",
+    "grain": ["овес", "овесен", "ориз", "брашно", "макарони", "спагети",
               "фузили", "пене", "киноа", "елда", "просо", "ечемик", "мюсли", "гранол"],
     "bread": ["хляб", "багет", "земел", "питка", "фокача"],
     "legume": ["леща", "боб", "нахут", "фасул", "царевица", "грах", "мунг"],
-    "dairy": ["кисело мляко", "мляко", "yogurt", "извара", "скир", "сирене",
-              "кашкавал", "масло", "едам", "гауда", "моцарела", "пармезан",
-              "маскарпоне", "бри", "кефир", "айран", "рикота", "халуми", "cottage"],
+    # fat before dairy — "олио", "зехтин", "маслин" must win before "масло" in dairy
+    "fat": ["зехтин", "olive", "маслин", "олио", "ленено масло", "кокосово масло",
+            "слънчогледово масло", "рапично масло", "палмово масло"],
+    "dairy": ["кисело мляко", "мляко", "yogurt", "йогурт", "извара", "скир", "сирене",
+              "кашкавал", "краве масло", "масло краве", "едам", "гауда", "моцарела",
+              "пармезан", "маскарпоне", "бри", "кефир", "айран", "рикота", "халуми",
+              "cottage", "cream cheese", "заквасена сметана", "сметана"],
+    # fat before nuts — "олио слънчогледово" must not fall into nuts via "слънчоглед"
     "nuts": ["орех", "бадем", "кашу", "ядки", "фъстък", "лешник", "слънчоглед",
              "тиквено семе", "чиа", "кокос", "макадамия", "пекан",
              "тахан", "фъстъчено масло"],
-    "fat": ["зехтин", "olive", "маслин", "ленено масло", "кокосово масло"],
     "vegetable": ["картоф", "банан", "ябълк", "морков", "домат", "краставиц",
                    "спанак", "броколи", "зеленчук", "салат", "лук", "чесн",
                    "чушк", "тиквичк", "зеле", "цвекло", "авокадо",
@@ -345,7 +349,11 @@ CATEGORY_MAP = {
                "сок", "нектар", "кола", "фанта", "пепси", "спрайт", "швепс",
                "минерална вода", "изворна вода", "газирана вода",
                "енергийна напитка", "red bull", "monster",
-               "бира ", "бирени", " вино", "вина "],
+               "бира ", "бирени", " вино", "вина ",
+               "кафе", "разтворимо кафе", "еспресо", "espresso", "капучино",
+               "чай ", "билков чай", "зелен чай",
+               "ракия", "мастика", "спиртна напитка", "абсент",
+               "вермут", "сайдер", "медовина"],
     "pet": ["храна за кучета", "храна за котки", "храна за куче", "храна за котка",
             "консерва за кучета", "консерва за котки",
             "храна за домашни", "храна за животни", "храна за птици",
@@ -753,6 +761,8 @@ NOT_FOOD_KEYWORDS = [
     # Easter decorations / non-food
     "боя за яйца", "боя за великден", "кристали за яйца", "стикери за яйца",
     "фолио за яйца", "украса за яйца",
+    # Hygiene products that share food keywords (паста = toothpaste, not pasta)
+    "паста за зъби", "паста за ръце", "паста за обувки",
     # Baby purees / generic baby (to avoid false positives)
     "биопюре бебешко", "пюре бебешко",
 ]
@@ -1333,52 +1343,34 @@ def raw_items_to_store_result(raw_items: list[dict]) -> dict | None:
 
 
 async def run_structured_scrapers(browser) -> list[dict]:
-    """Run all structured store scrapers. Returns list of store_result dicts.
-
-    T-Market is included only when running locally (CI=false) and the
-    Chrome profile temp dir exists.
-    """
+    """Run all structured store scrapers. Returns list of store_result dicts."""
     if not _STRUCTURED_SCRAPERS_AVAILABLE:
         print("[!] Structured scrapers not available — skipping")
         return []
 
-    import os
-    is_ci = os.environ.get("CI", "").lower() in ("true", "1")
-    from store_scrapers import TMARKET_CHROME_PROFILE
-    tmarket_available = not is_ci and os.path.exists(TMARKET_CHROME_PROFILE)
-
     print("\n[*] === Structured store scrapers ===")
-    if tmarket_available:
-        print("  [T-Market] Local Chrome profile found — T-Market enabled")
-    else:
-        print("  [T-Market] Skipped (CI or no Chrome profile)")
 
-    # Sync scrapers (requests-based) — run first
+    # Sync scrapers (requests-based) — run in parallel with executor
     loop = asyncio.get_event_loop()
-    billa_raw, fantastico_raw, dar_raw = await asyncio.gather(
+    billa_raw, fantastico_raw, dar_raw, tmarket_raw = await asyncio.gather(
         loop.run_in_executor(None, scrape_billa_text),
         loop.run_in_executor(None, scrape_fantastico_csv),
         loop.run_in_executor(None, scrape_dar_csv),
+        loop.run_in_executor(None, scrape_tmarket_text),
     )
     billa_result = raw_items_to_store_result(billa_raw)
     fantastico_result = raw_items_to_store_result(fantastico_raw)
     dar_result = raw_items_to_store_result(dar_raw)
+    tmarket_result = raw_items_to_store_result(tmarket_raw)
 
-    # Async DOM scrapers
-    dom_tasks = [scrape_kaufland_dom(browser), scrape_lidl_dom(browser)]
-    if tmarket_available:
-        dom_tasks.append(scrape_tmarket_dom(browser))
-    dom_results = await asyncio.gather(*dom_tasks)
-
-    kaufland_raw = dom_results[0]
-    lidl_raw = dom_results[1]
-    tmarket_raw = dom_results[2] if tmarket_available else []
+    # Async DOM scrapers (Playwright)
+    kaufland_raw, lidl_raw = await asyncio.gather(
+        scrape_kaufland_dom(browser),
+        scrape_lidl_dom(browser),
+    )
 
     results = []
-    for raw, label in [
-        (kaufland_raw, "Kaufland"),
-        (lidl_raw, "Lidl"),
-    ] + ([(tmarket_raw, "T-Market")] if tmarket_available else []):
+    for raw, label in [(kaufland_raw, "Kaufland"), (lidl_raw, "Lidl")]:
         r = raw_items_to_store_result(raw)
         if r:
             healthy = sum(1 for o in r["offers"] if o.get("is_healthy"))
@@ -1396,6 +1388,7 @@ async def run_structured_scrapers(browser) -> list[dict]:
         (billa_result, "Billa"),
         (fantastico_result, "Fantastico"),
         (dar_result, "Dar"),
+        (tmarket_result, "T-Market"),
     ]:
         if r:
             healthy = sum(1 for o in r["offers"] if o.get("is_healthy"))
