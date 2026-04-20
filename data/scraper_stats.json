@@ -1402,5 +1402,98 @@
         "health_score": 9
       }
     ]
+  },
+  {
+    "date": "2026-04-20T09:45:41.155517Z",
+    "elapsed_seconds": 191,
+    "total_offers": 8491,
+    "food_offers": 4577,
+    "healthy_offers": 3930,
+    "high_protein_offers": 467,
+    "with_image": 5781,
+    "with_discount": 1759,
+    "stores_scraped": [
+      "Billa",
+      "Dar",
+      "Fantastico",
+      "Kaufland",
+      "Lidl",
+      "T-Market"
+    ],
+    "by_store": {
+      "Kaufland": 831,
+      "Lidl": 84,
+      "Billa": 334,
+      "Fantastico": 2293,
+      "Dar": 1358,
+      "T-Market": 5316
+    },
+    "category_breakdown": {
+      "fat": 170,
+      "canned": 108,
+      "protein": 1073,
+      "vegetable": 864,
+      "bread": 353,
+      "legume": 157,
+      "dairy": 891,
+      "nuts": 206,
+      "grain": 326,
+      "other": 2302,
+      "drinks": 1479,
+      "hygiene": 534,
+      "household": 28
+    },
+    "top_healthy": [
+      {
+        "name": "САПУН KNOSSOS СЪС ЗЕХТИН И МАСЛИНОВИ ЛИСТА 100 Г",
+        "store": "Fantastico",
+        "health_score": 10
+      },
+      {
+        "name": "ПЮРЕ BEBELAN ЗЕЛЕНЧУКОВА СМЕС СЪС СЬОМГА 190 ГР 6+ МЕС",
+        "store": "Fantastico",
+        "health_score": 10
+      },
+      {
+        "name": "ПЮРЕ БИО BIONINO ЗЕЛЕНЧУЦИ СЪС СЬОМГА 190 ГР 6+М",
+        "store": "Fantastico",
+        "health_score": 10
+      },
+      {
+        "name": "ПЮРЕ PLASMON ПАСТА, РИБА ТОН И ЗЕЛЕНЧУЦИ 200 ГР 7+ МЕС",
+        "store": "Fantastico",
+        "health_score": 10
+      },
+      {
+        "name": "Риба тон Happy Sea парченца в олио 185 гр.",
+        "store": "T-Market",
+        "health_score": 10
+      },
+      {
+        "name": "Риба тон Happy Sea парченца в собствен сос 185 гр.",
+        "store": "T-Market",
+        "health_score": 10
+      },
+      {
+        "name": "Риба тон COMPASS филе в олио, 160 г",
+        "store": "T-Market",
+        "health_score": 10
+      },
+      {
+        "name": "Риба тон COMPASS филе в собствен сос 160 г",
+        "store": "T-Market",
+        "health_score": 10
+      },
+      {
+        "name": "Рибен продукт пастьоризиран от сьомга 110 г",
+        "store": "T-Market",
+        "health_score": 10
+      },
+      {
+        "name": "Риба тон ELABO парченца собст.сос 160г",
+        "store": "T-Market",
+        "health_score": 10
+      }
+    ]
   }
 ]

@@ -424,6 +424,7 @@ def _enrich_offer(raw: dict) -> dict | None:
             discount_pct=None,
             image_url=None,
             store_name=STORE_NAME,
+            valid_from=raw.get("valid_from"),
             valid_until=raw.get("valid_until"),
             address=None,
         )
