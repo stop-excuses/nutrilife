@@ -1003,12 +1003,13 @@ input[type="range"]::-moz-range-thumb {
 }
 
 .offer-card:hover {
-    border-color: #3a5428;
+    border-color: #4a6e2e;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.25);
 }
 
 .offer-card.expanded {
     border-color: var(--green);
-    grid-column: 1 / -1;
 }
 
 /* Header — always visible, compact row */
@@ -1021,15 +1022,20 @@ input[type="range"]::-moz-range-thumb {
 }
 
 .offer-img-wrapper {
-    width: 36px;
-    height: 36px;
+    width: 52px;
+    height: 52px;
     flex-shrink: 0;
     background: #111;
-    border-radius: 6px;
+    border-radius: 8px;
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.offer-img-wrapper.fallback {
+    background: rgba(151, 196, 89, 0.08);
+    border: 1px solid rgba(151, 196, 89, 0.14);
 }
 
 .offer-img {
@@ -1060,8 +1066,30 @@ input[type="range"]::-moz-range-thumb {
 }
 
 .offer-store {
-    font-size: 0.65rem;
+    font-size: 0.68rem;
     color: var(--muted2);
+    font-weight: 500;
+}
+
+.discount-pct-badge {
+    display: block;
+    background: var(--red);
+    color: #fff;
+    font-weight: 800;
+    font-size: 0.82rem;
+    padding: 3px 8px;
+    border-radius: 7px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 3px;
+    white-space: nowrap;
+}
+
+.offer-validity {
+    font-size: 0.64rem;
+    color: var(--amber);
+    margin-top: 2px;
+    line-height: 1.2;
 }
 
 .offer-badges {
@@ -1126,6 +1154,7 @@ input[type="range"]::-moz-range-thumb {
 .details-content {
     padding: 0 14px 14px;
     border-top: 1px solid rgba(255,255,255,0.05);
+    max-width: 100%;
 }
 
 .details-note {
@@ -1139,16 +1168,24 @@ input[type="range"]::-moz-range-thumb {
 
 .offer-big-img {
     width: 100%;
-    max-height: 180px;
+    max-height: 200px;
     object-fit: contain;
     background: #000;
     border-radius: 8px;
     margin: 10px 0;
 }
 
+.offer-big-img.fallback {
+    background: rgba(151, 196, 89, 0.06);
+    padding: 10px;
+}
+
 .details-row {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+    flex-wrap: wrap;
     margin-bottom: 6px;
     color: var(--muted);
 }
@@ -1238,6 +1275,8 @@ input[type="range"]::-moz-range-thumb {
 }
 
 .offer-info {
+    display: flex;
+    flex-direction: column;
     flex: 1;
     min-width: 0;
 }
@@ -1808,12 +1847,52 @@ input[type="range"]::-moz-range-thumb {
 }
 
 /* --- Bulk Section --- */
+.bulk-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 12px;
+}
+
+.baseline-group {
+    margin-top: 18px;
+}
+
+.baseline-group:first-child {
+    margin-top: 0;
+}
+
+.baseline-title {
+    margin-bottom: 12px;
+}
+
+.baseline-title h3 {
+    font-size: 1.05rem;
+    color: var(--text);
+    margin-bottom: 4px;
+}
+
 .bulk-card {
     background: var(--bg-card-green);
     border: 1px solid var(--border-green);
     border-radius: 12px;
     padding: 18px;
-    margin-bottom: 12px;
+}
+
+.bulk-card-top {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.bulk-card-top > div:last-child {
+    min-width: 0;
+    flex: 1;
+}
+
+.bulk-card-top .offer-name {
+    white-space: normal;
+    overflow-wrap: anywhere;
+    word-break: break-word;
 }
 
 .bulk-card .bulk-category {
@@ -1823,6 +1902,19 @@ input[type="range"]::-moz-range-thumb {
     text-transform: uppercase;
     letter-spacing: 0.05em;
     margin-bottom: 8px;
+}
+
+.bulk-price {
+    margin-top: 12px;
+    font-size: 1rem;
+    font-weight: 800;
+    color: var(--green);
+}
+
+.bulk-meta {
+    margin-top: 4px;
+    font-size: 0.84rem;
+    color: var(--muted2);
 }
 
 .bulk-card .bulk-tip {
