@@ -53,6 +53,24 @@ def is_high_protein(name: str) -> bool:
     return any(kw in name_lower for kw in HIGH_PROTEIN_KEYWORDS)
 
 
+_LATIN_TO_CYR = str.maketrans("ABCEHKMOPTXYabceopxy", "АВСЕНКМОРТХУавсеорху")
+
+def fix_mixed_script(name: str) -> str:
+    """Fix Latin look-alike characters inside Cyrillic words.
+
+    Some retail sites (e.g. Kaufland) have stray Latin chars in otherwise
+    Cyrillic product names (e.g. Latin 'M' in 'Mаслиново').  For each word
+    that contains at least one Cyrillic character, replace look-alike Latin
+    letters with their Cyrillic equivalents.
+    """
+    words = name.split()
+    result = []
+    for word in words:
+        has_cyr = any('\u0400' <= c <= '\u04ff' for c in word)
+        result.append(word.translate(_LATIN_TO_CYR) if has_cyr else word)
+    return " ".join(result)
+
+
 def clean_price(text: str) -> Optional[float]:
     """Extract float price from text like '3,49', '3.49', '3.49 лв'."""
     if not text:
@@ -146,13 +164,19 @@ async def scrape_kaufland_dom(browser) -> list[dict]:
         soup = BeautifulSoup(html, "html.parser")
 
         for card in soup.select("a.k-product-tile"):
-            # Name
+            # Name — title + subtitle (subtitle has the product type, e.g. "Маслиново масло екстра върджин")
             name_el = card.select_one(".k-product-tile__title")
             if not name_el:
                 continue
             name = name_el.get_text(strip=True)
             if not name or len(name) < 2:
                 continue
+            subtitle_el = card.select_one(".k-product-tile__subtitle")
+            if subtitle_el:
+                subtitle = subtitle_el.get_text(separator=" ", strip=True)
+                if subtitle:
+                    name = f"{name} {subtitle}"
+            name = fix_mixed_script(name)
 
             # Pick the BGN pricetag (contains "лв")
             bgn_tag = None

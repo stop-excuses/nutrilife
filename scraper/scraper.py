@@ -325,6 +325,24 @@ PROCESSED_MEAT_KEYWORDS = [
 ]
 
 CATEGORY_MAP = {
+    # hygiene/household FIRST — shampoo with "орех", soap with "лавандула" must not fall into food categories
+    "hygiene": ["шампоан", "балсам за коса", "боя за коса",
+                "дезодорант", "антиперспирант",
+                "паста за зъби", "четка за зъби", "вода за уста", "конец за зъби",
+                "сапун", "душ гел", "течен сапун", "пяна за бръснене",
+                "крем за тяло", "лосион", "крем за лице", "серум", "маска за лице",
+                "слънцезащитен крем", "автобронзант",
+                "превръзки", "тампони", "дамски превръзки", "дамски хигиенни",
+                "памперси", "бебешки пелени",
+                "тоалетна хартия", "кърпички", "мокри кърпички"],
+    "household": ["препарат за съдове", "препарат за пране", "препарат за почистване",
+                  "перилен препарат", "прах за пране", "течен препарат за пране",
+                  "омекотител", "таблетки за съдомиялна", "капсули за пране",
+                  "белина", "хлорна вода",
+                  "гъба за миене", "торбички за боклук", "найлонови торбички",
+                  "алуминиево фолио", "стреч фолио",
+                  "свещи", "батерии", "крушки",
+                  "моп", "четка за тоалетна"],
     "protein": ["яйц", "пилешк", "пиле", "говежд", "свинск", "агнешк", "пуешк", "телешк",
                  "патешк", "гъшк", "заешк", "дивечов",
                  "месо", "мляно", "филе", "кайма", "бут", "стек", "пържол", "ребра",
@@ -332,8 +350,13 @@ CATEGORY_MAP = {
                  "риба", "скарида", "калмар", "октопод", "миди", "хайвер", "треска",
                  "ципура", "лаврак", "пъстърва", "сельодка", "херинга"],
     "canned": ["риба тон", "сьомга", "скумрия", "консерв", "туна"],
+    # grain before nuts/bread — "кроасан с лешник", "вафли с орех", "лешников крем" must be grain, not nuts
     "grain": ["овес", "овесен", "ориз", "брашно", "макарони", "спагети",
-              "фузили", "пене", "киноа", "елда", "просо", "ечемик", "мюсли", "гранол"],
+              "фузили", "пене", "киноа", "елда", "просо", "ечемик", "мюсли", "гранол",
+              "вафл", "бисквит", "кроасан", "торт", "кекс", "пандишпан", "локум", "курабийк", "курабийка", "ечемичен",
+              "баклав", "халв", "шоколад", "бонбон", "карамел", "желе", "дъвк",
+              "лешников крем", "какаов крем", "ядков крем", "нутела", "nutella",
+              "протеинов бар", "енергиен бар", "зърнен бар", "ядков бар"],
     "bread": ["хляб", "багет", "земел", "питка", "фокача"],
     "legume": ["леща", "боб", "нахут", "фасул", "царевица", "грах", "мунг"],
     # fat before dairy — "олио", "зехтин", "маслин" must win before "масло" in dairy
@@ -342,12 +365,13 @@ CATEGORY_MAP = {
     "dairy": ["кисело мляко", "мляко", "yogurt", "йогурт", "извара", "скир", "сирене",
               "кашкавал", "краве масло", "масло краве", "едам", "гауда", "моцарела",
               "пармезан", "маскарпоне", "бри", "кефир", "айран", "рикота", "халуми",
-              "cottage", "cream cheese", "заквасена сметана", "сметана"],
+              "cottage", "cream cheese", "заквасена сметана", "сметана",
+              "сладолед", "мляно кисело", "натурален йогурт"],
     # fat before nuts — "олио слънчогледово" must not fall into nuts via "слънчоглед"
     "nuts": ["орех", "бадем", "кашу", "ядки", "фъстък", "лешник", "слънчоглед",
              "тиквено семе", "чиа", "кокос", "макадамия", "пекан",
              "тахан", "фъстъчено масло"],
-    "vegetable": ["картоф", "банан", "ябълк", "морков", "домат", "краставиц",
+    "vegetable": ["смути", "картоф", "банан", "ябълк", "морков", "домат", "краставиц",
                    "спанак", "броколи", "зеленчук", "салат", "лук", "чесн",
                    "чушк", "тиквичк", "зеле", "цвекло", "авокадо",
                    "патладжан", "тиква", "аспержи", "праз", "репичк",
@@ -373,23 +397,6 @@ CATEGORY_MAP = {
             "храна за домашни", "храна за животни", "храна за птици",
             "кучешка", "котешка", "кучешки", "котешки",
             "паяжина за котки", "постелка за куче"],
-    "hygiene": ["шампоан", "балсам за коса", "боя за коса",
-                "дезодорант", "антиперспирант",
-                "паста за зъби", "четка за зъби", "вода за уста", "конец за зъби",
-                "душ гел", "течен сапун", "сапун", "пяна за бръснене",
-                "крем за тяло", "лосион", "крем за лице", "серум", "маска за лице",
-                "слънцезащитен крем", "автобронзант",
-                "превръзки", "тампони", "дамски превръзки", "дамски хигиенни",
-                "памперси", "бебешки пелени",
-                "тоалетна хартия", "кърпички", "мокри кърпички"],
-    "household": ["препарат за съдове", "препарат за пране", "препарат за почистване",
-                  "перилен препарат", "прах за пране", "течен препарат за пране",
-                  "омекотител", "таблетки за съдомиялна", "капсули за пране",
-                  "белина", "хлорна вода",
-                  "гъба за миене", "торбички за боклук", "найлонови торбички",
-                  "алуминиево фолио", "стреч фолио",
-                  "свещи", "батерии", "крушки",
-                  "моп", "четка за тоалетна"],
 }
 
 HEALTH_SCORES = {
@@ -1088,13 +1095,20 @@ def build_offer(name, new_price, old_price, discount_pct, image_url, store_name,
         else:
             health_score = get_health_score(name)
             name_low = name.lower()
-            if "яйц" in name_low or "пиле" in name_low or "риба" in name_low:
-                health_score = max(health_score, 9)
-            elif "скир" in name_low or "извара" in name_low:
-                health_score = max(health_score, 8)
-            elif "пуешк" in name_low or "телешк" in name_low or "говежд" in name_low:
-                health_score = max(health_score, 8)
-    
+            is_soup = "суп" in name_low
+            if is_soup:
+                if weight_grams and weight_grams < 100:
+                    health_score = min(health_score, 3)
+                else:
+                    health_score = min(health_score, 6)
+            else:
+                if "яйц" in name_low or "пиле" in name_low or "риба" in name_low:
+                    health_score = max(health_score, 9)
+                elif "скир" in name_low or "извара" in name_low:
+                    health_score = max(health_score, 8)
+                elif "пуешк" in name_low or "телешк" in name_low or "говежд" in name_low:
+                    health_score = max(health_score, 8)
+
     # Precise Macros only for core healthy foods
     macros = None
     if food and healthy:
@@ -1156,6 +1170,7 @@ def reclassify_offer(offer):
     food = is_food(name)
     healthy = is_healthy(name)
     processed = is_processed_meat(name)
+    weight_raw, weight_grams = parse_weight(name)
 
     health_score = None
     if food:
@@ -1166,12 +1181,20 @@ def reclassify_offer(offer):
         else:
             health_score = get_health_score(name)
             name_low = name.lower()
-            if "яйц" in name_low or "пиле" in name_low or "риба" in name_low:
-                health_score = max(health_score, 9)
-            elif "скир" in name_low or "извара" in name_low:
-                health_score = max(health_score, 8)
-            elif "пуешк" in name_low or "телешк" in name_low or "говежд" in name_low:
-                health_score = max(health_score, 8)
+            is_soup = "суп" in name_low
+            if is_soup:
+                # Instant powder soups (very small weight) are highly processed
+                if weight_grams and weight_grams < 100:
+                    health_score = min(health_score, 3)
+                else:
+                    health_score = min(health_score, 6)
+            else:
+                if "яйц" in name_low or "пиле" in name_low or "риба" in name_low:
+                    health_score = max(health_score, 9)
+                elif "скир" in name_low or "извара" in name_low:
+                    health_score = max(health_score, 8)
+                elif "пуешк" in name_low or "телешк" in name_low or "говежд" in name_low:
+                    health_score = max(health_score, 8)
 
     macros = get_macros(name) if food and healthy else None
     if food and healthy and _OFF_ENRICHER_AVAILABLE and ENABLE_OFF_ENRICH:

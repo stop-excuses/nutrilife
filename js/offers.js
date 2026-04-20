@@ -6,6 +6,7 @@ let allOffers = [];
 let fuseIndex = null;
 let activeType = "all";
 let activeCategory = "all";
+let activeStore = "all";
 let activeSort = "recommended";
 let searchQuery = "";
 let currentPage = 1;
@@ -330,14 +331,22 @@ function matchesCuredLeanMeat(offer) {
     return CURED_LEAN_MEAT_PHRASES.some(phrase => nameLower.includes(phrase));
 }
 
+// Food keywords that must win over hygiene/household mismatches (e.g. "балсамов оцет" contains "балсам")
+const FOOD_OVERRIDE_KEYWORDS = ["оцет", "балсамов", "балсамика", "подправка", "сос", "хляб"];
+
 function normalizeOfferCategory(offer) {
     const nameLower = getOfferNameLower(offer);
     if (EXACT_NON_FOOD_NAMES.has(nameLower.trim())) return "household";
     if (matchesCuredLeanMeat(offer)) return "protein";
     if (NON_HUMAN_FOOD_KEYWORDS.some(kw => nameLower.includes(kw))) return "pet";
-    if (HOUSEHOLD_CATEGORY_KEYWORDS.some(kw => nameLower.includes(kw))) return "household";
-    if (HYGIENE_CATEGORY_KEYWORDS.some(kw => nameLower.includes(kw))) return "hygiene";
+    const isClearlyFood = FOOD_OVERRIDE_KEYWORDS.some(kw => nameLower.includes(kw));
+    if (!isClearlyFood && HOUSEHOLD_CATEGORY_KEYWORDS.some(kw => nameLower.includes(kw))) return "household";
+    if (!isClearlyFood && HYGIENE_CATEGORY_KEYWORDS.some(kw => nameLower.includes(kw))) return "hygiene";
     if (JUNK_FOOD_KEYWORDS.some(kw => nameLower.includes(kw))) return "grain";
+    // Smoothies/juices misclassified as nuts due to chia/coconut/etc keywords
+    if (nameLower.includes("смути") || nameLower.includes("smoothie")) return "vegetable";
+    // Cookies/biscuits with nuts in name misclassified as nuts
+    if (offer.category === "nuts" && (nameLower.includes("курабийк") || nameLower.includes("ечемичен"))) return "grain";
     return offer.category;
 }
 
@@ -392,9 +401,24 @@ function getComparisonKey(offer) {
     return null;
 }
 
+const SEARCH_SYNONYMS = [
+    ["зехтин", "маслиново масло", "olive oil", "олива"],
+    ["риба тон", "туна", "tuna"],
+    ["кисело мляко", "йогурт", "yogurt"],
+    ["краве масло", "масло краве", "butter"],
+    ["нахут", "chickpea"],
+    ["леща", "lentil"],
+    ["овесен", "овес", "oat"],
+    ["пилешко", "пиле", "chicken"],
+    ["говеждо", "телешко", "beef"],
+    ["сьомга", "salmon"],
+    ["извара", "cottage"],
+    ["фъстъчено масло", "фъстък паста", "peanut butter"],
+];
+
 function buildSearchText(offer) {
     const macros = offer.macros || {};
-    return [
+    const base = [
         offer.name,
         offer.store,
         offer.category,
@@ -405,6 +429,15 @@ function buildSearchText(offer) {
         ...(offer.diet_tags || []),
         macros.ingredients,
     ].filter(Boolean).join(" ").toLowerCase();
+
+    // Expand synonyms: if any synonym term is in the base text, add all its siblings
+    const extras = [];
+    for (const group of SEARCH_SYNONYMS) {
+        if (group.some(term => base.includes(term))) {
+            extras.push(...group);
+        }
+    }
+    return extras.length ? base + " " + extras.join(" ") : base;
 }
 
 function isProcessedMeat(offer) {
@@ -756,6 +789,7 @@ async function loadOffers() {
         renderProfileRecommendations("all");
         initTypeFilters();
         initCategoryFilters();
+        initStoreFilters();
         initProfileFilters();
         initSortButtons();
         initSearch();
@@ -781,7 +815,23 @@ function sortOffers(offers) {
             });
             break;
         case "price_asc":
-            sorted.sort((a, b) => a.new_price - b.new_price);
+            sorted.sort((a, b) => {
+                const ha = isHealthyOffer(a) ? 0 : 1;
+                const hb = isHealthyOffer(b) ? 0 : 1;
+                if (ha !== hb) return ha - hb;
+                return a.new_price - b.new_price;
+            });
+            break;
+        case "price_per_kg":
+            sorted.sort((a, b) => {
+                const ha = isHealthyOffer(a) ? 0 : 1;
+                const hb = isHealthyOffer(b) ? 0 : 1;
+                if (ha !== hb) return ha - hb;
+                // products without price_per_kg go last
+                const pa = a.price_per_kg || Infinity;
+                const pb = b.price_per_kg || Infinity;
+                return pa - pb;
+            });
             break;
         case "health":
             sorted.sort((a, b) => {
@@ -812,6 +862,14 @@ function sortOffers(offers) {
                 const sb = (b.store || (b.available_stores || [])[0] || "");
                 const cmp = sa.localeCompare(sb, "bg");
                 if (cmp !== 0) return cmp;
+                return (b.discount_pct || 0) - (a.discount_pct || 0);
+            });
+            break;
+        case "history":
+            sorted.sort((a, b) => {
+                const ha = (a.price_history || []).length;
+                const hb = (b.price_history || []).length;
+                if (hb !== ha) return hb - ha;
                 return (b.discount_pct || 0) - (a.discount_pct || 0);
             });
             break;
@@ -905,16 +963,27 @@ function applyFilters() {
     } else if (activeType === "bulk") {
         filtered = filtered.filter(o => o.is_bulk_worthy && isHealthyOffer(o));
     } else {
-        // "all" — real offers only, healthy ones sorted first
-        filtered = filtered.filter(o => (o.is_food || o.category !== "other") && !isClearlyNonHumanFood(o));
+        // "all" — food only, explicitly exclude non-food categories
+        filtered = filtered.filter(o =>
+            !EXCLUDED_HEALTH_CATEGORIES.has(o.category) &&
+            (o.is_food || o.category !== "other") &&
+            !isClearlyNonHumanFood(o)
+        );
     }
 
     if (activeCategory !== "all") {
         filtered = filtered.filter(o => o.category === activeCategory);
     }
 
+    if (activeStore !== "all") {
+        filtered = filtered.filter(o => (o.available_stores || [o.store]).includes(activeStore));
+    }
+
     if (activeSort === "protein") {
         filtered = filtered.filter(o => isHealthyOffer(o) && isProteinSource(o));
+    }
+    if (activeSort === "health") {
+        filtered = filtered.filter(o => isHealthyOffer(o) && (o.health_score || 0) >= 6);
     }
 
     filteredOffersCache = sortOffers(filtered);
@@ -948,9 +1017,22 @@ function initCategoryFilters() {
     });
 }
 
+function initStoreFilters() {
+    document.querySelectorAll(".filter-btn[data-store]").forEach(btn => {
+        btn.addEventListener("click", () => {
+            document.querySelectorAll(".filter-btn[data-store]").forEach(b => b.classList.remove("active"));
+            btn.classList.add("active");
+            activeStore = btn.dataset.store;
+            currentPage = 1;
+            applyFilters();
+        });
+    });
+}
+
 function resetOfferFiltersForNavigation() {
     activeType = "all";
     activeCategory = "all";
+    activeStore = "all";
     activeSort = "recommended";
     searchQuery = "";
     currentPage = 1;
@@ -963,6 +1045,9 @@ function resetOfferFiltersForNavigation() {
     });
     document.querySelectorAll(".filter-btn[data-category]").forEach(btn => {
         btn.classList.toggle("active", btn.dataset.category === "all");
+    });
+    document.querySelectorAll(".filter-btn[data-store]").forEach(btn => {
+        btn.classList.toggle("active", btn.dataset.store === "all");
     });
     document.querySelectorAll(".sort-btn[data-sort]").forEach(btn => {
         btn.classList.toggle("active", btn.dataset.sort === "recommended");
@@ -1054,6 +1139,25 @@ function renderStoreComparisonList(offer) {
     `;
 }
 
+function renderSparkline(offer) {
+    const history = offer.price_history;
+    if (!history || history.length < 2) return "";
+    const prices = history.map(e => e.price).filter(p => p != null);
+    if (prices.length < 2) return "";
+    const maxP = Math.max(...prices);
+    const minP = Math.min(...prices);
+    const range = maxP - minP || 1;
+    const bars = prices.map((p, i) => {
+        const h = Math.round(((p - minP) / range) * 14) + 2;
+        const isLast = i === prices.length - 1;
+        const isDown = i > 0 && p < prices[i - 1];
+        const isUp   = i > 0 && p > prices[i - 1];
+        const cls = isLast ? (isDown ? "sp-down" : isUp ? "sp-up" : "sp-flat") : "";
+        return `<span class="sp-bar ${cls}" style="height:${h}px"></span>`;
+    }).join("");
+    return `<span class="sparkline" title="Ценова история">${bars}</span>`;
+}
+
 function getPriceTrend(offer) {
     const history = offer.price_history;
     if (!history || history.length < 2) return null;
@@ -1072,29 +1176,29 @@ function renderPriceHistory(offer) {
     const history = offer.price_history;
     if (!history || history.length === 0) return "";
 
-    const prices = history.map(e => e.price).filter(p => p != null);
     const currentPrice = offer.new_price;
     const lowestPrice = offer.lowest_price;
     const avgPrice = offer.avg_price;
 
-    // With only 1 point show a "tracking started" notice
-    if (prices.length < 2) {
-        return `
-        <div class="price-history">
-            <div class="ph-header">
-                <span>Ценова история</span>
-                <span class="ph-badge ph-tracking">📊 Проследяване от ${history[0]?.date || "—"}</span>
-            </div>
-            <div class="ph-one-point">Текуща цена: <strong>${currentPrice != null ? currentPrice.toFixed(2) + " лв" : "—"}</strong> · Данните ще се трупат с всеки scrape</div>
-        </div>`;
+    // Build full point list: history entries + current price if not already the last entry
+    const points = history.filter(e => e.price != null);
+    if (points.length === 0) return "";
+
+    const lastInHistory = points[points.length - 1];
+    const today = new Date().toISOString().slice(0, 10);
+    if (currentPrice != null && (lastInHistory.price !== currentPrice || lastInHistory.date !== today)) {
+        points.push({ date: today, price: currentPrice, discount_pct: offer.discount_pct || 0, _current: true });
     }
 
+    const prices = points.map(e => e.price);
     const maxP = Math.max(...prices);
     const minP = Math.min(...prices);
-    const range = maxP - minP || 1;
+    const range = maxP - minP || 0.01;
+
     const trend = getPriceTrend(offer);
-    const isLowest = currentPrice != null && lowestPrice != null && currentPrice <= lowestPrice;
-    const aboveAvg = avgPrice != null && currentPrice > avgPrice * 1.05;
+    const hasRealHistory = history.length >= 2;
+    const isLowest = hasRealHistory && currentPrice != null && lowestPrice != null && currentPrice <= lowestPrice;
+    const aboveAvg = hasRealHistory && avgPrice != null && currentPrice != null && currentPrice > avgPrice * 1.05;
 
     const badge = isLowest
         ? `<span class="ph-badge ph-lowest">📉 Историческо дъно</span>`
@@ -1102,37 +1206,38 @@ function renderPriceHistory(offer) {
         ? `<span class="ph-badge ph-above">↑ Над средната</span>`
         : trend
         ? `<span class="ph-badge ${trend.cls}">${trend.label}</span>`
-        : "";
+        : `<span class="ph-badge ph-tracking">📊 Проследяване от ${history[0]?.date || "—"}</span>`;
 
-    const bars = history.map(e => {
-        if (e.price == null) return "";
-        const h = Math.round(((e.price - minP) / range) * 28) + 4;
+    const bars = points.map((e, i) => {
+        const h = Math.round(((e.price - minP) / range) * 36) + 6;
+        const isCurrent = e._current;
         const isPromo = e.discount_pct > 0;
-        const isLow = e.price <= lowestPrice;
-        const cls = isPromo ? "promo" : isLow ? "low" : "";
+        const isLow = lowestPrice != null && e.price <= lowestPrice;
+        const cls = [isCurrent ? "current" : "", isPromo ? "promo" : isLow ? "low" : ""].filter(Boolean).join(" ");
         const label = `${e.date}\n${e.price.toFixed(2)} лв${e.discount_pct ? ` · -${e.discount_pct}%` : ""}`;
-        return `<div class="ph-bar ${cls}" style="height:${h}px" title="${label}"></div>`;
+        return `
+            <div class="ph-col" title="${label}">
+                <div class="ph-price-label">${e.price.toFixed(2)}</div>
+                <div class="ph-bar ${cls}" style="height:${h}px"></div>
+                <div class="ph-date-label">${e.date.slice(5)}</div>
+            </div>`;
     }).join("");
 
-    const firstDate = history[0]?.date || "";
-    const lastDate = history[history.length - 1]?.date || "";
+    const statsHtml = hasRealHistory ? `
+            <div class="ph-stats">
+                <span>Дъно: <strong class="green">${lowestPrice != null ? lowestPrice.toFixed(2) + " лв" : "—"}</strong></span>
+                <span>Средна: <strong>${avgPrice != null ? avgPrice.toFixed(2) + " лв" : "—"}</strong></span>
+                <span>Сега: <strong>${currentPrice != null ? currentPrice.toFixed(2) + " лв" : "—"}</strong></span>
+            </div>` : "";
 
     return `
         <div class="price-history">
             <div class="ph-header">
-                <span>Ценова история · ${history.length} записа</span>
+                <span>Ценова история · ${points.length} ${points.length === 1 ? "запис" : "записа"}</span>
                 ${badge}
             </div>
             <div class="ph-chart">${bars}</div>
-            <div class="ph-dates">
-                <span>${firstDate}</span>
-                <span>${lastDate}</span>
-            </div>
-            <div class="ph-stats">
-                <span>Дъно: <strong class="green">${lowestPrice != null ? lowestPrice.toFixed(2) + " лв" : "—"}</strong>${offer.lowest_price_date ? " · " + offer.lowest_price_date : ""}</span>
-                <span>Средна: <strong>${avgPrice != null ? avgPrice.toFixed(2) + " лв" : "—"}</strong></span>
-                <span>Сега: <strong>${currentPrice != null ? currentPrice.toFixed(2) + " лв" : "—"}</strong></span>
-            </div>
+            ${statsHtml}
         </div>`;
 }
 
@@ -1275,7 +1380,7 @@ function renderOffers(offers) {
         if (o.shelf_life && o.shelf_life !== "малотраен") badges.push(`<span class="offer-tag long-lasting">📦 ${o.shelf_life}</span>`);
         if (o.is_bulk_worthy && o.category !== "grain" && healthyOffer) badges.push(`<span class="offer-tag bulk-tag">🛒 Едро</span>`);
         const trend = getPriceTrend(o);
-        if (trend && trend.dir !== "flat") badges.push(`<span class="offer-tag ${trend.cls}">${trend.label}</span>`);
+        if (trend) badges.push(`<span class="offer-tag ${trend.cls}">${trend.label}</span>`);
 
         let metaParts = [];
         if (o.weight_raw) metaParts.push(o.weight_raw);
@@ -1309,6 +1414,7 @@ function renderOffers(offers) {
                         ${o.discount_pct ? `<span class="discount-pct-badge">-${o.discount_pct}%</span>` : ""}
                         <span class="offer-new-price">${formatPricePair(o.new_price, o.new_price_eur)}</span>
                         ${o.old_price ? `<div class="offer-old-price">${formatPricePair(o.old_price, o.old_price_eur)}</div>` : ""}
+                        ${renderSparkline(o)}
                     </div>
                     <span class="offer-arrow">▼</span>
                 </div>

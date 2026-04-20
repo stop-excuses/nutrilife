@@ -2427,30 +2427,47 @@ input[type="range"]::-moz-range-thumb {
 .ph-chart {
     display: flex;
     align-items: flex-end;
-    gap: 3px;
-    height: 36px;
+    gap: 6px;
     overflow-x: auto;
     overflow-y: hidden;
-    padding-bottom: 4px;
+    padding: 4px 0 0;
     scrollbar-width: thin;
 }
-.ph-bar {
-    width: 10px;
-    min-width: 10px;
-    background: #2a3d1e;
-    border-radius: 2px 2px 0 0;
-    transition: opacity .15s;
+.ph-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    min-width: 34px;
     cursor: default;
 }
-.ph-bar.promo { background: #97C459; }
-.ph-bar.low   { background: #3B6D11; }
-.ph-bar:hover { opacity: .8; }
+.ph-col:hover .ph-bar { opacity: .75; }
+.ph-price-label {
+    font-size: .68rem;
+    color: var(--text);
+    white-space: nowrap;
+}
+.ph-date-label {
+    font-size: .65rem;
+    color: var(--muted);
+    white-space: nowrap;
+}
+.ph-bar {
+    width: 18px;
+    min-height: 6px;
+    background: #2a3d1e;
+    border-radius: 3px 3px 0 0;
+    transition: opacity .15s;
+}
+.ph-bar.promo   { background: #97C459; }
+.ph-bar.low     { background: #3B6D11; }
+.ph-bar.current { background: #7F77DD; outline: 2px solid #534AB7; outline-offset: 1px; }
 .ph-stats {
     display: flex;
     gap: 16px;
     font-size: .76rem;
     color: var(--muted);
-    margin-top: 6px;
+    margin-top: 8px;
     flex-wrap: wrap;
 }
 .ph-stats strong { color: var(--text); }
@@ -2468,6 +2485,28 @@ input[type="range"]::-moz-range-thumb {
 .trend-up    { background: #110a0a; color: #E24B4A; }
 .trend-flat  { background: #111; color: var(--muted); }
 .ph-one-point { font-size: .78rem; color: var(--muted); padding: 4px 0; }
+
+/* ── Sparkline (card header) ─────────────────────────────────────────────── */
+.sparkline {
+    display: inline-flex;
+    align-items: flex-end;
+    gap: 2px;
+    height: 18px;
+    margin-top: 4px;
+    opacity: .75;
+}
+.sp-bar {
+    display: inline-block;
+    width: 4px;
+    border-radius: 1px;
+    background: var(--muted);
+    transition: opacity .15s;
+}
+.sp-bar.sp-down { background: #97C459; }
+.sp-bar.sp-up   { background: #E24B4A; }
+.sp-bar.sp-flat { background: var(--muted); }
+.sparkline:hover { opacity: 1; }
+
 .ph-dates {
     display: flex;
     justify-content: space-between;
