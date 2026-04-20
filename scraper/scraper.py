@@ -89,6 +89,7 @@ LEARNING_PATH = DATA_DIR / "scraper_learning.json"
 CUSTOM_KEYWORDS_PATH = DATA_DIR / "custom_keywords.json"
 SCRAPER_STATS_PATH = DATA_DIR / "scraper_stats.json"
 BGN_TO_EUR = 1.95583
+ENABLE_OFF_ENRICH = os.getenv("NUTRILIFE_OFF_ENRICH", "").lower() in {"1", "true", "yes"}
 
 # Fields that belong to the product (persistent metadata, not price-specific)
 _PRODUCT_FIELDS = (
@@ -99,7 +100,7 @@ _PRODUCT_FIELDS = (
 # Fields that belong to the offer (price + promo metadata)
 _OFFER_FIELDS = (
     "store", "address", "new_price", "new_price_eur", "old_price", "old_price_eur",
-    "discount_pct", "valid_until", "price_per_kg", "price_per_kg_eur", "source_type",
+    "discount_pct", "valid_from", "valid_until", "price_per_kg", "price_per_kg_eur", "source_type",
     "available_stores", "store_prices", "best_price_store", "best_price", "comparison_count",
 )
 
@@ -1056,7 +1057,7 @@ def extract_fl_urls(html):
     return fl_urls
 
 
-def build_offer(name, new_price, old_price, discount_pct, image_url, store_name, valid_until=None, address=None):
+def build_offer(name, new_price, old_price, discount_pct, image_url, store_name, valid_from=None, valid_until=None, address=None):
     if not name or not new_price: return None
 
     # Try to find weight in the name if not explicitly provided
@@ -1128,6 +1129,7 @@ def build_offer(name, new_price, old_price, discount_pct, image_url, store_name,
         "old_price": old_price,
         "old_price_eur": bgn_to_eur(old_price),
         "discount_pct": discount_pct,
+        "valid_from": valid_from,
         "valid_until": valid_until,
         "weight_raw": weight_raw,
         "weight_grams": weight_grams,
@@ -1172,7 +1174,7 @@ def reclassify_offer(offer):
                 health_score = max(health_score, 8)
 
     macros = get_macros(name) if food and healthy else None
-    if food and healthy and _OFF_ENRICHER_AVAILABLE:
+    if food and healthy and _OFF_ENRICHER_AVAILABLE and ENABLE_OFF_ENRICH:
         off_macros = _get_off_macros(name, category)
         if macros is None:
             macros = off_macros
@@ -1250,6 +1252,7 @@ def _store_price_snapshot(offer: dict) -> dict:
 
 
 def postprocess_offers(store_results):
+    print("[postprocess] Step 1: dedupe per (name, store) ...", flush=True)
     # --- Step 1: Deduplicate per (name, store) — prefer structured > brochure ---
     best_by_name_store = {}
     for result in store_results:
@@ -1268,7 +1271,9 @@ def postprocess_offers(store_results):
                     best_by_name_store[key] = offer
                 elif new_pri == old_pri and _offer_data_score(offer) > _offer_data_score(existing):
                     best_by_name_store[key] = offer
+    print(f"[postprocess] Step 1 done: {len(best_by_name_store)} unique store offers", flush=True)
 
+    print("[postprocess] Step 2: cross-store merge ...", flush=True)
     # --- Step 3: Cross-store dedup — track availability, keep best offer ---
     best_by_name = {}
     available_by_name = {}
@@ -1288,9 +1293,12 @@ def postprocess_offers(store_results):
                 best_by_name[normalized_name] = offer
             elif new_pri == old_pri and offer["new_price"] < existing["new_price"]:
                 best_by_name[normalized_name] = offer
+    print(f"[postprocess] Step 2 done: {len(best_by_name)} merged products", flush=True)
 
+    print("[postprocess] Step 3: enrich merged products ...", flush=True)
     all_offers = []
-    for normalized_name, offer in best_by_name.items():
+    total_merged = len(best_by_name)
+    for idx, (normalized_name, offer) in enumerate(best_by_name.items(), start=1):
         price_rows = sorted(store_prices_by_name[normalized_name], key=lambda row: (row["price"] is None, row["price"] or 999999, row["store"] or ""))
         offer["available_stores"] = sorted(available_by_name[normalized_name])
         offer["store_prices"] = price_rows
@@ -1298,8 +1306,12 @@ def postprocess_offers(store_results):
         offer["best_price"] = price_rows[0]["price"] if price_rows else offer.get("new_price")
         offer["comparison_count"] = len(price_rows)
         all_offers.append(reclassify_offer(offer))
+        if idx % 2000 == 0 or idx == total_merged:
+            print(f"[postprocess] Step 3 progress: {idx}/{total_merged}", flush=True)
 
+    print("[postprocess] Step 4: final sort ...", flush=True)
     all_offers.sort(key=lambda o: (-(o["health_score"] or 0), o["new_price"]))
+    print("[postprocess] Step 4 done", flush=True)
     return all_offers
 
 
@@ -1347,6 +1359,8 @@ def raw_items_to_store_result(raw_items: list[dict]) -> dict | None:
             item.get("discount_pct"),
             item.get("image"),
             item["store"],
+            item.get("valid_from"),
+            item.get("valid_until"),
         )
         if offer:
             offer["source"] = item["source"]
@@ -1483,7 +1497,7 @@ def parse_listing_items(soup, store_name):
 
         image_url = get_best_image(a_tag.find("img"))
 
-        offers.append(build_offer(name, new_price, old_price, discount_pct, image_url, store_name, address=None))
+        offers.append(build_offer(name, new_price, old_price, discount_pct, image_url, store_name, valid_from=None, valid_until=None, address=None))
 
     return offers
 
@@ -1595,7 +1609,7 @@ async def scrape_product_page(context, url, title_hint, image_hint, store_name, 
                 except Exception:
                     valid_until = str(valid_until)[:10]
 
-            return build_offer(name, new_price, old_price, discount_pct, image_url, store_name, valid_until, address=None)
+            return build_offer(name, new_price, old_price, discount_pct, image_url, store_name, valid_from=None, valid_until=valid_until, address=None)
 
         except Exception as e:
             print(f"    [!] Error: {url}: {e}")
@@ -1829,7 +1843,7 @@ async def scrape_store(browser, store_url, store_semaphore):
 
                             if name not in seen_names:
                                 seen_names.add(name)
-                                all_offers.append(build_offer(name, new_price, old_price, discount_pct, image_url, store_name, address=region_name))
+                                all_offers.append(build_offer(name, new_price, old_price, discount_pct, image_url, store_name, valid_from=None, valid_until=None, address=region_name))
 
                         # Collect /p/ links
                         flr_urls = collect_product_urls(flr_soup)
@@ -1931,17 +1945,23 @@ async def main():
         store_results = await run_structured_scrapers(browser)
         await browser.close()
 
+    print("[*] Structured scraping finished; entering postprocess...", flush=True)
     all_offers = postprocess_offers(store_results)
+    print(f"[*] postprocess_offers finished: {len(all_offers)} offers", flush=True)
 
     if not all_offers:
         raise RuntimeError("Scrape produced no data. Existing exports were not updated.")
 
+    print("[*] Creating backup of existing exports...", flush=True)
     backup_dir = backup_existing_exports()
     today = datetime.utcnow().strftime("%Y-%m-%d")
+    print(f"[*] Backup ready: {backup_dir}", flush=True)
 
     # ── Split: product metadata → all_products.json, prices → offers.json ──────
+    print("[*] Loading existing all_products index...", flush=True)
     by_pid, by_name_store = load_all_products()
     thin_offers = []
+    print("[*] Building product snapshots and thin offers...", flush=True)
 
     for offer in all_offers:
         pid = make_product_id(offer.get("store", ""), offer.get("name", ""), offer.get("weight_grams"))
@@ -1968,7 +1988,10 @@ async def main():
         thin["product_id"] = pid
         thin_offers.append(thin)
 
+    print(f"[*] Product snapshots ready: {len(by_pid)} products | {len(thin_offers)} thin offers", flush=True)
+    print("[*] Writing all_products.json...", flush=True)
     write_all_products(by_pid, today)
+    print("[*] all_products.json written", flush=True)
 
     output = {
         "generated_at": datetime.utcnow().isoformat() + "Z",
@@ -1978,9 +2001,11 @@ async def main():
         "stores": sorted({o["store"] for o in thin_offers if o.get("store")}),
         "offers": thin_offers,
     }
+    print("[*] Writing offers.json...", flush=True)
     tmp = OUTPUT_PATH.with_suffix(".tmp")
     tmp.write_text(json.dumps(output, ensure_ascii=False, indent=2), encoding="utf-8")
     tmp.replace(OUTPUT_PATH)
+    print("[*] offers.json written", flush=True)
 
     elapsed = (datetime.utcnow() - started).total_seconds()
     healthy = [o for o in all_offers if o["is_healthy"]]
