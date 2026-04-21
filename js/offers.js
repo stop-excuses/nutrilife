@@ -470,10 +470,20 @@ function getOfferDomId(offer) {
     return offer?.id || offer?.product_id || "";
 }
 
+const PROTEIN_COMPARISON_KEYWORDS = new Set([
+    "пилешки гърди", "пилешко филе", "пилешко", "пуешко", "риба тон", "сьомга", "скумрия", "яйц"
+]);
+const DAIRY_COMPARISON_KEYWORDS = new Set([
+    "скир", "извара", "кисело мляко", "моцарела", "сирене"
+]);
+
 function getComparisonKey(offer) {
     const nameLower = getOfferNameLower(offer);
     for (const [keyword, label] of COMPARISON_KEYWORDS) {
-        if (nameLower.includes(keyword)) return label;
+        if (!nameLower.includes(keyword)) continue;
+        if (PROTEIN_COMPARISON_KEYWORDS.has(keyword) && offer.category !== "protein") return null;
+        if (DAIRY_COMPARISON_KEYWORDS.has(keyword) && offer.category !== "dairy") return null;
+        return label;
     }
     return null;
 }
