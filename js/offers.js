@@ -12,6 +12,8 @@ let searchQuery = "";
 let currentPage = 1;
 let filteredOffersCache = [];
 let allCatalogProducts = [];
+let liveFallbackByKeyword = new Map();  // keyword → real CDN image URL
+let liveFallbackByCategory = new Map(); // category → real CDN image URL
 
 const OFFERS_PER_PAGE = 36;
 const PLACEHOLDER_IMAGE_MARKER = "No-Image-Placeholder.svg";
@@ -277,6 +279,10 @@ function hasRealImage(image) {
     return !!image && !String(image).includes(PLACEHOLDER_IMAGE_MARKER);
 }
 
+function hasExternalImage(image) {
+    return hasRealImage(image) && !String(image).startsWith("images/");
+}
+
 /* -----------------------------------------------------------------------
    CANONICAL NUTRITION — authoritative per-100g values.
    Used in place of (or to validate) scraped macros.
@@ -407,8 +413,17 @@ function normalizeOfferCategory(offer) {
     if (JUNK_FOOD_KEYWORDS.some(kw => nameLower.includes(kw))) return "grain";
     // Smoothies/juices misclassified as nuts due to chia/coconut/etc keywords
     if (nameLower.includes("смути") || nameLower.includes("smoothie")) return "vegetable";
-    // Cookies/biscuits with nuts in name misclassified as nuts
-    if (offer.category === "nuts" && (nameLower.includes("курабийк") || nameLower.includes("ечемичен"))) return "grain";
+    // Spices misclassified as nuts (nutmeg, cinnamon, cumin etc.)
+    if (nameLower.includes("орехче") || nameLower.includes("канела") || nameLower.includes("кимион")
+        || nameLower.includes("куркума") || nameLower.includes("джинджифил") || nameLower.includes("кардамон")
+        || nameLower.includes("анасон") || nameLower.includes("кориандър")) return "other";
+    // Bars, cookies, porridges misclassified as nuts because of ingredient keywords
+    if (offer.category === "nuts" && (
+        nameLower.includes("курабийк") || nameLower.includes("ечемичен") ||
+        nameLower.includes("барче") || nameLower.includes("протеинов бар") || nameLower.includes("снак") ||
+        nameLower.includes("каша") || nameLower.includes("мюсли") || nameLower.includes("гранол") ||
+        nameLower.includes("вафла") || nameLower.includes("шоколад") || nameLower.includes("десерт")
+    )) return "grain";
     return offer.category;
 }
 
@@ -603,6 +618,15 @@ function getOfferValidityText(offer, mode = "short") {
 
 function getLocalFallbackImage(offer) {
     const nameLower = getOfferNameLower(offer);
+    // Prefer live CDN photos (real product images) over local SVG icons
+    for (const [keyword] of LOCAL_IMAGE_RULES) {
+        if (nameLower.includes(keyword)) {
+            if (liveFallbackByKeyword.has(keyword)) return liveFallbackByKeyword.get(keyword);
+            break;
+        }
+    }
+    if (liveFallbackByCategory.has(offer.category)) return liveFallbackByCategory.get(offer.category);
+    // Last resort: local SVG icons
     for (const [keyword, imagePath] of LOCAL_IMAGE_RULES) {
         if (nameLower.includes(keyword)) return imagePath;
     }
@@ -806,7 +830,7 @@ async function loadOffers() {
         allOffers = (OFFERS_DATA.offers || []).map(o => {
             const product = productMap.get(o.product_id || o.id);
             const merged = product ? { ...product, ...o } : o;
-            if (product && !hasRealImage(o.image) && hasRealImage(product.image)) {
+            if (product && !hasExternalImage(o.image) && hasExternalImage(product.image)) {
                 merged.image = product.image;
             }
             const normalized = normalizeOfferForUi(merged);
@@ -819,29 +843,42 @@ async function loadOffers() {
             };
         });
         // Cross-catalog image sharing: for offers without real images, find a
-        // real photo of the same product type from the catalog
+        // real photo of the same product type from the catalog.
+        // Builds module-level maps used by getLocalFallbackImage() as well.
         if (typeof ALL_PRODUCTS_DATA !== 'undefined') {
-            const catalogImgByKeyword = new Map();
+            liveFallbackByKeyword = new Map();
+            liveFallbackByCategory = new Map();
             for (const p of (ALL_PRODUCTS_DATA.products || [])) {
-                if (!hasRealImage(p.image) || String(p.image).startsWith("images/")) continue;
+                if (!hasExternalImage(p.image)) continue;
                 const nameLower = (p.name || "").toLowerCase();
+                // Keyword-level: real photo for each food keyword
                 for (const [keyword] of LOCAL_IMAGE_RULES) {
-                    if (nameLower.includes(keyword) && !catalogImgByKeyword.has(keyword)) {
-                        catalogImgByKeyword.set(keyword, p.image);
+                    if (nameLower.includes(keyword) && !liveFallbackByKeyword.has(keyword)) {
+                        liveFallbackByKeyword.set(keyword, p.image);
                         break;
                     }
                 }
+                // Category-level: first real photo per category
+                const cat = p.category;
+                if (cat && !liveFallbackByCategory.has(cat)) {
+                    liveFallbackByCategory.set(cat, p.image);
+                }
             }
-            for (const offer of allOffers) {
-                if (hasRealImage(offer.image)) continue;
+            const assignLiveImage = (offer) => {
+                if (hasExternalImage(offer.image)) return;
                 const nameLower = (offer.name || "").toLowerCase();
                 for (const [keyword] of LOCAL_IMAGE_RULES) {
-                    if (nameLower.includes(keyword) && catalogImgByKeyword.has(keyword)) {
-                        offer.image = catalogImgByKeyword.get(keyword);
-                        break;
+                    if (nameLower.includes(keyword) && liveFallbackByKeyword.has(keyword)) {
+                        offer.image = liveFallbackByKeyword.get(keyword);
+                        return;
                     }
                 }
-            }
+                if (liveFallbackByCategory.has(offer.category)) {
+                    offer.image = liveFallbackByCategory.get(offer.category);
+                }
+            };
+            allOffers.forEach(assignLiveImage);
+            allCatalogProducts.forEach(assignLiveImage);
         }
         applyFilters();
         renderPriceComparison();
