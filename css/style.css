@@ -2130,6 +2130,53 @@ input[type="range"]::-moz-range-thumb {
     }
 }
 
+/* --- Expandable food tier cards --- */
+.tf {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    cursor: pointer;
+}
+.tf:last-child { border-bottom: none; }
+.tf img {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+    border-radius: 10px;
+    flex-shrink: 0;
+    background: rgba(255, 255, 255, 0.06);
+    padding: 4px;
+    transition: background 0.2s;
+}
+.tf img.is-product-photo {
+    background: rgba(255, 255, 255, 0.92);
+    padding: 3px;
+}
+.tf > div { flex: 1; min-width: 0; }
+.tf strong { display: block; font-size: 0.9rem; color: var(--text); }
+.ti-arr {
+    float: right;
+    color: var(--muted);
+    font-size: 0.75rem;
+    transition: transform 0.2s;
+    display: inline-block;
+    margin-left: 6px;
+}
+.tf.open .ti-arr { transform: rotate(90deg); }
+.tf-det {
+    display: none;
+    margin-top: 8px;
+    font-size: 0.78rem;
+    color: var(--muted);
+    line-height: 1.55;
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
+    padding-top: 8px;
+}
+.tf.open .tf-det { display: block; }
+.tf-det .stat-pills { margin-top: 6px; }
+
 /* --- Animations --- */
 @keyframes fadeSlideIn {
     from {

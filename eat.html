@@ -20,6 +20,7 @@
 <meta name="twitter:description" content="Топ 15 здравословни храни, протеинов калкулатор и примерно меню. Яж добре без да харчиш много."/>
 <link href="css/style.css" rel="stylesheet"/>
 <script src="js/i18n.js"></script>
+<script src="js/i18n.eat.js"></script>
 </head>
 <body>
 <!-- Navbar -->
@@ -504,5 +505,19 @@
 </footer>
 <script src="data/tier_images.js"></script>
 <script src="js/main.js?v=8"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    if (typeof TIER_IMAGES !== 'undefined') {
+        document.querySelectorAll('[data-fk]').forEach(function(img) {
+            var k = img.getAttribute('data-fk');
+            if (TIER_IMAGES[k]) { img.src = TIER_IMAGES[k]; img.classList.add('is-product-photo'); }
+        });
+    }
+    document.addEventListener('click', function(e) {
+        var tf = e.target.closest('.tf');
+        if (tf) tf.classList.toggle('open');
+    });
+});
+</script>
 </body>
 </html>
