@@ -476,9 +476,15 @@ const PROTEIN_COMPARISON_KEYWORDS = new Set([
 const DAIRY_COMPARISON_KEYWORDS = new Set([
     "скир", "извара", "кисело мляко", "моцарела", "сирене"
 ]);
+// Products that contain a protein/dairy keyword but are composite/baby/processed — exclude from comparison
+const COMPARISON_DISQUALIFY_KEYWORDS = [
+    "пюре", "спагети", "паста", "супа", "бебе", "детска", "детско", "бебешко",
+    "нудли", "равиоли", "лазаня", "тестени", "консерва", "пастет"
+];
 
 function getComparisonKey(offer) {
     const nameLower = getOfferNameLower(offer);
+    if (COMPARISON_DISQUALIFY_KEYWORDS.some(kw => nameLower.includes(kw))) return null;
     for (const [keyword, label] of COMPARISON_KEYWORDS) {
         if (!nameLower.includes(keyword)) continue;
         if (PROTEIN_COMPARISON_KEYWORDS.has(keyword) && offer.category !== "protein") return null;
