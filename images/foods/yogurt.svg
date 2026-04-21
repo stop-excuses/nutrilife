@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72">
-  <path fill="#fff" d="M53.545 28L48.35 67H24.6l-5.921-39z"/>
-  <path fill="#d0cfce" d="M43.404 28L38.35 67h10l5.054-39z"/>
-  <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="m17 17l7.6 50h23.75L55 17"/>
+  <rect width="72" height="72" rx="18" fill="#121e24"/>
+  <text x="36" y="31" text-anchor="middle" font-size="28" font-family="Segoe UI Emoji, Apple Color Emoji, Noto Color Emoji, sans-serif">🥛</text>
+  <text x="36" y="56" text-anchor="middle" font-size="10" font-weight="700" fill="#9ad0e8" font-family="Segoe UI, Arial, sans-serif">КМЛ</text>
 </svg>
