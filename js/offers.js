@@ -13,7 +13,7 @@ let currentPage = 1;
 let filteredOffersCache = [];
 let allCatalogProducts = [];
 
-const OFFERS_PER_PAGE = 24;
+const OFFERS_PER_PAGE = 36;
 const PLACEHOLDER_IMAGE_MARKER = "No-Image-Placeholder.svg";
 
 const PROCESSED_MEAT_KEYWORDS = [
@@ -70,43 +70,103 @@ const NON_PROTEIN_VALUE_KEYWORDS = [
 const EXACT_NON_FOOD_NAMES = new Set(["гъба"]);
 
 const LOCAL_IMAGE_RULES = [
+    // Meat & poultry (specific first)
     ["черен дроб", "images/foods/beef.svg"],
     ["агнешки дроб", "images/foods/beef.svg"],
     ["дроб комплект", "images/foods/beef.svg"],
     ["пилешки гърди", "images/foods/chicken.svg"],
     ["пилешко филе", "images/foods/chicken.svg"],
     ["пилешки бут", "images/foods/chicken-leg.svg"],
+    ["пилешко бутче", "images/foods/chicken-leg.svg"],
     ["пуешко", "images/foods/turkey.svg"],
+    ["кайма", "images/foods/mince.svg"],
     ["телешко", "images/foods/beef.svg"],
     ["говеждо", "images/foods/beef.svg"],
     ["свинско", "images/foods/pork.svg"],
+    // Fish & seafood
     ["риба тон", "images/foods/tuna.svg"],
     ["сьомга", "images/foods/salmon.svg"],
     ["скумрия", "images/foods/mackerel.svg"],
     ["сардини", "images/foods/sardines.svg"],
+    ["херинга", "images/foods/fatty-fish.svg"],
+    ["сельодка", "images/foods/fatty-fish.svg"],
+    ["пъстърва", "images/foods/fatty-fish.svg"],
+    ["ципура", "images/foods/fatty-fish.svg"],
+    ["лаврак", "images/foods/fatty-fish.svg"],
+    // Eggs & dairy
     ["яйц", "images/foods/egg.svg"],
     ["извара", "images/foods/izvara.svg"],
     ["скир", "images/foods/skyr.svg"],
+    ["skyr", "images/foods/skyr.svg"],
     ["cottage", "images/foods/cottage.svg"],
+    ["тофу", "images/foods/tofu.svg"],
     ["кисело мляко", "images/foods/yogurt.svg"],
     ["сирене", "images/foods/cheese.svg"],
+    ["маслин", "images/foods/olives.svg"],
+    // Grains & pasta
+    ["мюесли", "images/foods/muesli.svg"],
+    ["мюсли", "images/foods/muesli.svg"],
+    ["овесени ядки", "images/foods/oats.svg"],
     ["овес", "images/foods/oats.svg"],
+    ["елда", "images/foods/buckwheat.svg"],
+    ["булгур", "images/foods/bulgur.svg"],
+    ["кускус", "images/foods/couscous.svg"],
     ["ориз", "images/foods/rice.svg"],
+    ["спагет", "images/foods/pasta.svg"],
+    ["паста", "images/foods/pasta.svg"],
+    ["макарони", "images/foods/pasta.svg"],
+    ["пене", "images/foods/pasta.svg"],
+    ["фусили", "images/foods/pasta.svg"],
+    ["ръжен хляб", "images/foods/rye-bread.svg"],
+    ["хляб", "images/foods/bread.svg"],
+    // Legumes
     ["леща", "images/foods/lentils.svg"],
     ["нахут", "images/foods/chickpeas.svg"],
     ["боб", "images/foods/beans.svg"],
     ["грах", "images/foods/peas.svg"],
-    ["ябъл", "images/foods/apple.svg"],
-    ["банан", "images/foods/banana.svg"],
-    ["авокад", "images/foods/avocado.svg"],
-    ["картоф", "images/foods/potato.svg"],
-    ["домат", "images/foods/apple.svg"],
-    ["хляб", "images/foods/bread.svg"],
-    ["масло", "images/foods/butter.svg"],
-    ["зехтин", "images/foods/olive-oil.svg"],
-    ["фъст", "images/foods/peanuts.svg"],
-    ["орех", "images/foods/walnuts.svg"],
+    // Nuts, seeds & nut butters (specific first)
+    ["фъстъчено масло", "images/foods/peanut-butter.svg"],
+    ["тахан", "images/foods/tahini.svg"],
+    ["ленено", "images/foods/flax.svg"],
+    ["чиа", "images/foods/seeds.svg"],
+    ["сусам", "images/foods/seeds.svg"],
+    ["семена", "images/foods/seeds.svg"],
     ["бадем", "images/foods/almonds.svg"],
+    ["орех", "images/foods/walnuts.svg"],
+    ["фъст", "images/foods/peanuts.svg"],
+    // Oils & fats
+    ["зехтин", "images/foods/olive-oil.svg"],
+    ["масло", "images/foods/butter.svg"],
+    // Fruit & vegetables (specific first)
+    ["авокад", "images/foods/avocado.svg"],
+    ["банан", "images/foods/banana.svg"],
+    ["ябъл", "images/foods/apple.svg"],
+    ["сладк картоф", "images/foods/sweet-potato.svg"],
+    ["картоф", "images/foods/potato.svg"],
+    ["царевиц", "images/foods/corn.svg"],
+    ["царевица", "images/foods/corn.svg"],
+    // Generic fruit/veg fallback (anything else)
+    ["домат", "images/foods/apple.svg"],
+    ["краставиц", "images/foods/apple.svg"],
+    ["чушк", "images/foods/apple.svg"],
+    ["тиквичк", "images/foods/apple.svg"],
+    ["патладж", "images/foods/apple.svg"],
+    ["ягод", "images/foods/apple.svg"],
+    ["праскова", "images/foods/apple.svg"],
+    ["кайсия", "images/foods/apple.svg"],
+    ["слива", "images/foods/apple.svg"],
+    ["грозд", "images/foods/apple.svg"],
+    ["диня", "images/foods/apple.svg"],
+    ["пъпеш", "images/foods/apple.svg"],
+    ["нар", "images/foods/apple.svg"],
+    ["портокал", "images/foods/apple.svg"],
+    ["лимон", "images/foods/apple.svg"],
+    ["мандарин", "images/foods/apple.svg"],
+    ["броколи", "images/foods/apple.svg"],
+    ["карфиол", "images/foods/apple.svg"],
+    ["спанак", "images/foods/apple.svg"],
+    ["зел", "images/foods/apple.svg"],
+    ["морков", "images/foods/apple.svg"],
 ];
 
 const CATEGORY_FALLBACK_IMAGES = {
@@ -119,6 +179,8 @@ const CATEGORY_FALLBACK_IMAGES = {
     fat: "images/foods/olive-oil.svg",
     bread: "images/foods/bread.svg",
     vegetable: "images/foods/apple.svg",
+    drinks: "images/foods/drink.svg",
+    other: "images/foods/drink.svg",
     household: "images/fallback-household.svg",
     hygiene: "images/fallback-hygiene.svg",
     pet: "images/fallback-pet.svg",
