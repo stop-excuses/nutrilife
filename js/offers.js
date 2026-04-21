@@ -1716,6 +1716,7 @@ function renderProteinRanking() {
             <div class="protein-rank-item offer-card">
                 <div class="protein-rank-header offer-header">
                     <div class="rank-medal">${medal}</div>
+                    ${renderOfferThumb(o)}
                     <div class="rank-info">
                         <div class="rank-name">${o.name}</div>
                         <div class="rank-meta">${m.p}г протеин/100г · ${m.f}г мазнини · ${m.c}г въгл. · ${formatPricePair(o.new_price, o.new_price_eur)} · ${o.store}${getOfferValidityText(o, "short") ? ` · ${getOfferValidityText(o, "short")}` : ""}</div>
