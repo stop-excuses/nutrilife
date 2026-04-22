@@ -13,6 +13,8 @@ document.addEventListener("DOMContentLoaded", () => {
     initTracker();
     initVisitorCounter();
     hydrateTierListImages();
+    initTierSections();
+    initInteractiveTierBoards();
     initDiagnosisQuiz();
 });
 
@@ -88,6 +90,143 @@ function hydrateTierListImages() {
         img.src = mappedSrc;
         img.classList.toggle("is-product-photo", /^https?:/i.test(mappedSrc));
         img.loading = "lazy";
+    });
+}
+
+function initInteractiveTierBoards() {
+    const boards = Array.from(document.querySelectorAll(".interactive-tier-board"));
+    if (!boards.length) return;
+
+    boards.forEach((board) => {
+        const rows = Array.from(board.querySelectorAll(".protein-tier-row"));
+        const cards = Array.from(board.querySelectorAll(".protein-tier-card"));
+        const filters = Array.from(board.querySelectorAll("[data-tier-filter]"));
+
+        function closeCard(card) {
+            const details = card.querySelector(".protein-tier-details");
+            card.classList.remove("open");
+            if (details) details.hidden = true;
+        }
+
+        function openCard(card) {
+            const details = card.querySelector(".protein-tier-details");
+            if (!details) return;
+
+            card.classList.add("open");
+            details.hidden = false;
+        }
+
+        function setRowOpen(row, shouldOpen) {
+            const head = row.querySelector(".protein-tier-row-head");
+            const wrap = row.querySelector(".protein-tier-cards-wrap");
+            row.classList.toggle("open", shouldOpen);
+            if (head) {
+                head.setAttribute("aria-expanded", shouldOpen ? "true" : "false");
+            }
+            if (wrap) {
+                wrap.hidden = !shouldOpen;
+            }
+        }
+
+        function refreshRows() {
+            rows.forEach((row) => {
+                const visibleCards = Array.from(row.querySelectorAll(".protein-tier-card"))
+                    .filter((card) => !card.classList.contains("is-filtered-out"));
+
+                row.classList.toggle("is-empty", visibleCards.length === 0);
+
+                if (visibleCards.length === 0) {
+                    setRowOpen(row, false);
+                    return;
+                }
+
+                const hasOpenVisibleCard = visibleCards.some((card) => card.classList.contains("open"));
+                if (hasOpenVisibleCard && !row.classList.contains("open")) {
+                    setRowOpen(row, true);
+                }
+            });
+        }
+
+        rows.forEach((row) => {
+            const head = row.querySelector(".protein-tier-row-head");
+            if (!head) return;
+
+            setRowOpen(row, true);
+            head.setAttribute("aria-expanded", "true");
+            head.setAttribute("aria-disabled", "true");
+        });
+
+        cards.forEach((card) => {
+            const button = card.querySelector(".protein-tier-card-button");
+            const details = card.querySelector(".protein-tier-details");
+            if (!button) return;
+
+            if (details) details.hidden = true;
+
+            button.addEventListener("click", () => {
+                const row = card.closest(".protein-tier-row");
+                if (!row) return;
+
+                if (!row.classList.contains("open")) {
+                    setRowOpen(row, true);
+                }
+
+                const isOpen = card.classList.contains("open");
+
+                row.querySelectorAll(".protein-tier-card.open").forEach((otherCard) => {
+                    if (otherCard !== card) closeCard(otherCard);
+                });
+
+                if (isOpen) {
+                    closeCard(card);
+                } else {
+                    openCard(card);
+                }
+            });
+        });
+
+        filters.forEach((filterBtn) => {
+            filterBtn.addEventListener("click", () => {
+                const filter = filterBtn.dataset.tierFilter;
+
+                filters.forEach((btn) => btn.classList.toggle("active", btn === filterBtn));
+
+                cards.forEach((card) => {
+                    const categories = (card.dataset.category || "").split(/\s+/).filter(Boolean);
+                    const matches = filter === "all" || categories.includes(filter);
+
+                    card.classList.toggle("is-filtered-out", !matches);
+                    if (!matches) closeCard(card);
+                });
+
+                refreshRows();
+            });
+        });
+
+        refreshRows();
+    });
+}
+
+function initTierSections() {
+    const sections = Array.from(document.querySelectorAll(".tier-section"));
+    if (!sections.length) return;
+
+    sections.forEach((section) => {
+        const toggle = section.querySelector(".tier-section-toggle");
+        const body = section.querySelector(".tier-section-body");
+        if (!toggle || !body) return;
+
+        const setOpen = (shouldOpen) => {
+            section.classList.toggle("is-open", shouldOpen);
+            toggle.setAttribute("aria-expanded", shouldOpen ? "true" : "false");
+            body.hidden = !shouldOpen;
+        };
+
+        setOpen(section.classList.contains("is-open"));
+
+        toggle.addEventListener("click", () => {
+            setOpen(!section.classList.contains("is-open"));
+        });
     });
 }
 
