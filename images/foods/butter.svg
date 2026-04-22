@@ -1,5 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72">
   <rect width="72" height="72" rx="18" fill="#201b11"/>
-  <text x="36" y="31" text-anchor="middle" font-size="27" font-family="Segoe UI Emoji, Apple Color Emoji, Noto Color Emoji, sans-serif">🧈</text>
-  <text x="36" y="56" text-anchor="middle" font-size="10" font-weight="700" fill="#ecdd9d" font-family="Segoe UI, Arial, sans-serif">МАСЛО</text>
+  <rect x="13" y="29" width="38" height="20" rx="2" fill="#f0d050"/>
+  <path d="M13 29 L19 22 L57 22 L51 29Z" fill="#f5da60"/>
+  <path d="M51 29 L57 22 L57 42 L51 49Z" fill="#c8a828"/>
+  <rect x="13" y="35" width="38" height="2" fill="#d8b830" opacity="0.6"/>
+  <text x="36" y="62" text-anchor="middle" font-size="9.5" font-weight="700" fill="#ecdd9d" font-family="Segoe UI, Arial, sans-serif">МАСЛО</text>
 </svg>
