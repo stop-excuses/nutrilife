@@ -188,14 +188,14 @@ strong {
 
 /* --- Layout --- */
 .container {
-    max-width: min(1400px, 100%);
+    max-width: 1440px;
     margin: 0 auto;
-    padding: 0 max(20px, 5%);
+    padding: 0 32px;
 }
 
 section {
-    padding: 80px max(20px, 5%);
-    max-width: min(1400px, 100%);
+    padding: 80px 32px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 
@@ -341,7 +341,6 @@ section {
 .hero {
     padding-top: 110px;
     text-align: center;
-    max-width: 800px;
     margin: 0 auto;
 }
 
@@ -749,7 +748,6 @@ section {
 .cta-section {
     text-align: center;
     padding: 60px 24px 80px;
-    max-width: 800px;
     margin: 0 auto;
 }
 
@@ -2130,6 +2128,107 @@ input[type="range"]::-moz-range-thumb {
     }
 }
 
+/* --- Visual Tier Board --- */
+.tier-board {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.tier-row {
+    display: flex;
+    align-items: stretch;
+    border-radius: 8px;
+    overflow: hidden;
+    min-height: 60px;
+}
+.tier-label {
+    width: 52px;
+    min-width: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 1.5rem;
+    flex-shrink: 0;
+    letter-spacing: -1px;
+    color: #f0efe8;
+}
+.tier-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 10px;
+    flex: 1;
+    background: rgba(255, 255, 255, 0.03);
+    align-content: flex-start;
+}
+.tier-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    padding: 12px 8px 10px;
+    border-radius: 12px;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.05);
+    border: 2px solid transparent;
+    flex: 1;
+    min-width: 100px;
+    max-width: 140px;
+    text-align: center;
+    transition: border-color 0.15s, background 0.15s;
+    font-family: inherit;
+    font-size: inherit;
+}
+.tier-item:hover {
+    border-color: #97C459;
+    background: rgba(151, 196, 89, 0.08);
+}
+.tier-item.active {
+    border-color: #97C459;
+    background: rgba(59, 109, 17, 0.18);
+}
+.tier-item img {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+}
+.tier-emoji {
+    font-size: 3.8rem;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 90px;
+}
+.tier-item span {
+    font-size: 0.75rem;
+    color: var(--muted);
+    line-height: 1.2;
+    text-align: center;
+    word-break: break-word;
+}
+.tier-info-box {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    padding: 16px;
+}
+.tier-info-box p {
+    color: var(--muted);
+    font-size: 0.85rem;
+    line-height: 1.6;
+    margin-bottom: 4px;
+}
+@media (max-width: 480px) {
+    .tier-label { width: 44px; min-width: 44px; font-size: 1.3rem; }
+    .tier-item { width: 88px; padding: 10px 5px 8px; }
+    .tier-item img { width: 68px; height: 68px; }
+    .tier-emoji { font-size: 3rem; width: 68px; height: 68px; }
+    .tier-item span { font-size: 0.68rem; }
+}
+
 /* --- Expandable food tier cards --- */
 .tf {
     display: flex;
@@ -2176,6 +2275,85 @@ input[type="range"]::-moz-range-thumb {
 }
 .tf.open .tf-det { display: block; }
 .tf-det .stat-pills { margin-top: 6px; }
+
+/* --- Tier Grid (icon rows) --- */
+.tier-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-top: 4px;
+}
+.tier-grid-row {
+    display: flex;
+    align-items: stretch;
+    border-radius: 8px;
+    overflow: hidden;
+    min-height: 64px;
+}
+.tier-grade {
+    width: 52px;
+    min-width: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: #f0efe8;
+    flex-shrink: 0;
+    letter-spacing: -1px;
+}
+.tier-grid-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 8px 10px;
+    flex: 1;
+    background: rgba(255, 255, 255, 0.03);
+    align-content: flex-start;
+}
+.tgi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    width: 76px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    padding: 8px 4px 6px;
+    cursor: default;
+}
+.tgi img {
+    width: 56px;
+    height: 56px;
+    object-fit: contain;
+}
+.tgi img.is-product-photo {
+    background: rgba(255, 255, 255, 0.92);
+    border-radius: 6px;
+    padding: 2px;
+}
+.tgi-emoji {
+    font-size: 2.8rem;
+    line-height: 1;
+    width: 56px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tgi span:last-child {
+    font-size: 0.67rem;
+    color: var(--muted);
+    line-height: 1.2;
+    word-break: break-word;
+}
+@media (max-width: 480px) {
+    .tier-grade { width: 40px; min-width: 40px; font-size: 1.2rem; }
+    .tgi { width: 66px; }
+    .tgi img, .tgi-emoji { width: 46px; height: 46px; }
+    .tgi-emoji { font-size: 2.3rem; }
+}
 
 /* --- Animations --- */
 @keyframes fadeSlideIn {
@@ -2618,7 +2796,6 @@ input[type="range"]::-moz-range-thumb {
 
 /* --- Diagnosis Quiz (index.html) --- */
 .quiz {
-    max-width: 720px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));

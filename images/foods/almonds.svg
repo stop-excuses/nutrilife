@@ -1,5 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72">
   <rect width="72" height="72" rx="18" fill="#1c1510"/>
-  <text x="36" y="31" text-anchor="middle" font-size="27" font-family="Segoe UI Emoji, Apple Color Emoji, Noto Color Emoji, sans-serif">🫘</text>
-  <text x="36" y="56" text-anchor="middle" font-size="10" font-weight="700" fill="#e8cba8" font-family="Segoe UI, Arial, sans-serif">БАДЕМ</text>
+  <ellipse cx="29" cy="33" rx="8" ry="13" fill="#c8a060" transform="rotate(-10 29 33)"/>
+  <ellipse cx="43" cy="33" rx="8" ry="13" fill="#b89050" transform="rotate(10 43 33)"/>
+  <ellipse cx="29" cy="31" rx="4" ry="8" fill="#d8b070" opacity="0.5" transform="rotate(-10 29 31)"/>
+  <ellipse cx="43" cy="31" rx="4" ry="8" fill="#d8b070" opacity="0.5" transform="rotate(10 43 31)"/>
+  <line x1="29" y1="21" x2="29" y2="44" stroke="#9a7040" stroke-width="1" transform="rotate(-10 29 33)"/>
+  <line x1="43" y1="21" x2="43" y2="44" stroke="#9a7040" stroke-width="1" transform="rotate(10 43 33)"/>
+  <text x="36" y="61" text-anchor="middle" font-size="9.5" font-weight="700" fill="#e8cba8" font-family="Segoe UI, Arial, sans-serif">БАДЕМ</text>
 </svg>

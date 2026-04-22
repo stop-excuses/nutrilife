@@ -1,5 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72">
   <rect width="72" height="72" rx="18" fill="#171b12"/>
-  <text x="36" y="31" text-anchor="middle" font-size="27" font-family="Segoe UI Emoji, Apple Color Emoji, Noto Color Emoji, sans-serif">🌱</text>
-  <text x="36" y="56" text-anchor="middle" font-size="10" font-weight="700" fill="#c9dca9" font-family="Segoe UI, Arial, sans-serif">ЛЕН</text>
+  <ellipse cx="22" cy="28" rx="5" ry="8" fill="#7a5030" transform="rotate(-20 22 28)"/>
+  <ellipse cx="34" cy="23" rx="5" ry="8" fill="#9a6840" transform="rotate(12 34 23)"/>
+  <ellipse cx="47" cy="27" rx="5" ry="8" fill="#7a5030" transform="rotate(-8 47 27)"/>
+  <ellipse cx="26" cy="39" rx="5" ry="8" fill="#8a5838" transform="rotate(18 26 39)"/>
+  <ellipse cx="40" cy="37" rx="5" ry="8" fill="#9a6840" transform="rotate(-14 40 37)"/>
+  <ellipse cx="52" cy="36" rx="4" ry="6" fill="#7a5030" transform="rotate(5 52 36)"/>
+  <text x="36" y="59" text-anchor="middle" font-size="8.5" font-weight="700" fill="#c9dca9" font-family="Segoe UI, Arial, sans-serif">ЛЕН/ЧИА</text>
 </svg>

@@ -1,5 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72">
   <rect width="72" height="72" rx="18" fill="#1e1610"/>
-  <text x="36" y="31" text-anchor="middle" font-size="28" font-family="Segoe UI Emoji, Apple Color Emoji, Noto Color Emoji, sans-serif">🥜</text>
-  <text x="36" y="56" text-anchor="middle" font-size="10" font-weight="700" fill="#d4b880" font-family="Segoe UI, Arial, sans-serif">ЯДК</text>
+  <circle cx="25" cy="38" r="11" fill="#b88848"/>
+  <circle cx="47" cy="38" r="11" fill="#a87838"/>
+  <circle cx="36" cy="24" r="11" fill="#b88848"/>
+  <circle cx="25" cy="35" r="7" fill="#d0a060" opacity="0.45"/>
+  <circle cx="47" cy="35" r="7" fill="#d0a060" opacity="0.45"/>
+  <circle cx="36" cy="21" r="7" fill="#d0a060" opacity="0.45"/>
+  <text x="36" y="62" text-anchor="middle" font-size="9.5" font-weight="700" fill="#d4b880" font-family="Segoe UI, Arial, sans-serif">ЯДКИ</text>
 </svg>
