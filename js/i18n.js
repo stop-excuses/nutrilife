@@ -17,7 +17,7 @@
             'nav.supplements': 'Добавки',
             'nav.mental': 'Психично',
             'nav.smart_food': 'Smart Food',
-            'title.index': 'NutriLife — Спри да се оправдаваш',
+            'title.index': 'NutriLife — Все още имаш контрол',
             'title.move': 'NutriLife — Движи се',
             'title.eat': 'NutriLife — Яж правилно',
             'title.start': 'NutriLife — Започни сега',
