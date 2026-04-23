@@ -65,4 +65,5 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/offers.json data/offers.js data/all_products.json data/all_products.js scraper/scraper_stats.json
           git diff --cached --quiet || git commit -m "chore: weekly offers update $(date -u '+%Y-%m-%d')"
+          git pull --rebase origin master
           git push
