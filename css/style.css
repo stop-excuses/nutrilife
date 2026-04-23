@@ -2179,12 +2179,12 @@ input[type="range"]::-moz-range-thumb {
 .tier-board {
     display: flex;
     flex-direction: column;
-    gap: 3px;
+    gap: 1px;
 }
 .tier-row {
     display: flex;
     align-items: stretch;
-    border-radius: 8px;
+    border-radius: 4px;
     overflow: hidden;
     min-height: 60px;
 }
@@ -2195,7 +2195,7 @@ input[type="range"]::-moz-range-thumb {
     align-items: center;
     justify-content: center;
     font-weight: 900;
-    font-size: 1.5rem;
+    font-size: 2rem;
     flex-shrink: 0;
     letter-spacing: -1px;
     color: #f0efe8;
@@ -2213,15 +2213,15 @@ input[type="range"]::-moz-range-thumb {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 6px;
-    padding: 12px 8px 10px;
+    gap: 5px;
+    padding: 10px 6px 8px;
     border-radius: 12px;
     cursor: pointer;
     background: rgba(255, 255, 255, 0.05);
     border: 2px solid transparent;
     flex: 1;
-    min-width: 100px;
-    max-width: 140px;
+    min-width: 80px;
+    max-width: 110px;
     text-align: center;
     transition: border-color 0.15s, background 0.15s;
     font-family: inherit;
@@ -2236,18 +2236,18 @@ input[type="range"]::-moz-range-thumb {
     background: rgba(59, 109, 17, 0.18);
 }
 .tier-item img {
-    width: 90px;
-    height: 90px;
+    width: 68px;
+    height: 68px;
     object-fit: contain;
 }
 .tier-emoji {
-    font-size: 3.8rem;
+    font-size: 2.9rem;
     line-height: 1;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 90px;
-    height: 90px;
+    width: 68px;
+    height: 68px;
 }
 .tier-item span {
     font-size: 0.75rem;
@@ -2269,10 +2269,10 @@ input[type="range"]::-moz-range-thumb {
     margin-bottom: 4px;
 }
 @media (max-width: 480px) {
-    .tier-label { width: 44px; min-width: 44px; font-size: 1.3rem; }
-    .tier-item { width: 88px; padding: 10px 5px 8px; }
-    .tier-item img { width: 68px; height: 68px; }
-    .tier-emoji { font-size: 3rem; width: 68px; height: 68px; }
+    .tier-label { width: 44px; min-width: 44px; font-size: 1.7rem; }
+    .tier-item { width: 72px; padding: 8px 4px 6px; }
+    .tier-item img { width: 52px; height: 52px; }
+    .tier-emoji { font-size: 2.3rem; width: 52px; height: 52px; }
     .tier-item span { font-size: 0.68rem; }
 }
 
@@ -2327,13 +2327,13 @@ input[type="range"]::-moz-range-thumb {
 .tier-grid {
     display: flex;
     flex-direction: column;
-    gap: 4px;
+    gap: 1px;
     margin-top: 4px;
 }
 .tier-grid-row {
     display: flex;
     align-items: stretch;
-    border-radius: 8px;
+    border-radius: 4px;
     overflow: hidden;
     min-height: 64px;
 }
@@ -2344,7 +2344,7 @@ input[type="range"]::-moz-range-thumb {
     align-items: center;
     justify-content: center;
     font-weight: 900;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #f0efe8;
     flex-shrink: 0;
     letter-spacing: -1px;
@@ -2363,16 +2363,16 @@ input[type="range"]::-moz-range-thumb {
     flex-direction: column;
     align-items: center;
     gap: 5px;
-    width: 76px;
+    width: 60px;
     text-align: center;
     background: rgba(255, 255, 255, 0.05);
     border-radius: 10px;
-    padding: 8px 4px 6px;
+    padding: 7px 4px 5px;
     cursor: default;
 }
 .tgi img {
-    width: 56px;
-    height: 56px;
+    width: 42px;
+    height: 42px;
     object-fit: contain;
 }
 .tgi img.is-product-photo {
@@ -2381,10 +2381,10 @@ input[type="range"]::-moz-range-thumb {
     padding: 2px;
 }
 .tgi-emoji {
-    font-size: 2.8rem;
+    font-size: 2.1rem;
     line-height: 1;
-    width: 56px;
-    height: 56px;
+    width: 42px;
+    height: 42px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -2396,10 +2396,10 @@ input[type="range"]::-moz-range-thumb {
     word-break: break-word;
 }
 @media (max-width: 480px) {
-    .tier-grade { width: 40px; min-width: 40px; font-size: 1.2rem; }
-    .tgi { width: 66px; }
-    .tgi img, .tgi-emoji { width: 46px; height: 46px; }
-    .tgi-emoji { font-size: 2.3rem; }
+    .tier-grade { width: 40px; min-width: 40px; font-size: 1.6rem; }
+    .tgi { width: 52px; }
+    .tgi img, .tgi-emoji { width: 36px; height: 36px; }
+    .tgi-emoji { font-size: 1.8rem; }
 }
 
 /* --- Animations --- */
@@ -2561,6 +2561,17 @@ input[type="range"]::-moz-range-thumb {
     padding-top: 12px;
 }
 
+.tier-tabs {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tier-tab-panel.hidden {
+    display: none;
+}
+
 .protein-tier-board {
     display: grid;
     gap: 20px;
@@ -2599,35 +2610,38 @@ input[type="range"]::-moz-range-thumb {
 
 .protein-tier-rows {
     display: grid;
-    gap: 18px;
+    gap: 0;
+    border: 1px solid var(--surface-border);
+    border-radius: 20px;
+    overflow: hidden;
 }
 
 .protein-tier-row {
     display: grid;
     grid-template-columns: 76px minmax(0, 1fr);
     gap: 14px;
-    padding: 18px;
-    border-radius: 28px;
-    border: 1px solid var(--surface-border);
+    padding: 16px;
+    border-radius: 0;
+    border: none;
+    border-bottom: none;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0)), var(--surface);
-    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.18);
+    box-shadow: none;
 }
 
 .protein-tier-badge {
     display: flex;
-    align-items: flex-start;
+    align-items: stretch;
     justify-content: center;
 }
 
 .protein-tier-badge span {
     width: 58px;
-    height: 58px;
-    border-radius: 18px;
+    border-radius: 14px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 2rem;
-    font-weight: 800;
+    font-size: 3.8rem;
+    font-weight: 900;
     color: #111;
     box-shadow: inset 0 -8px 14px rgba(0, 0, 0, 0.16);
 }
@@ -2780,8 +2794,8 @@ input[type="range"]::-moz-range-thumb {
 }
 
 .protein-tier-icon {
-    height: 144px;
-    border-radius: 18px;
+    height: 96px;
+    border-radius: 14px;
     background: linear-gradient(180deg, #f3f1eb, #ddd8cf);
     border: 1px solid rgba(0, 0, 0, 0.12);
     display: flex;
@@ -2809,14 +2823,18 @@ input[type="range"]::-moz-range-thumb {
 }
 
 .protein-tier-meta small {
-    display: block;
+    display: none;
     margin-top: 4px;
     color: var(--muted);
     line-height: 1.45;
 }
 
+.protein-tier-card.open .protein-tier-meta small {
+    display: block;
+}
+
 .protein-tier-chip {
-    display: inline-flex;
+    display: none;
     align-items: center;
     margin-top: 8px;
     padding: 5px 10px;
@@ -2826,6 +2844,10 @@ input[type="range"]::-moz-range-thumb {
     color: var(--text);
     font-size: 0.74rem;
     font-weight: 600;
+}
+
+.protein-tier-card.open .protein-tier-chip {
+    display: inline-flex;
 }
 
 .protein-tier-details {
