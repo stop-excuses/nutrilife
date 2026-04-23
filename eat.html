@@ -258,122 +258,26 @@
 </div>
 </div>
 </section>
-<!-- 2.6. Диети и магически решения -->
+<!-- Tier Lists combined -->
 <section>
 <div class="section-title">
-<h2 data-i18n="e.s3b.h2">Проблемът не е липса на информация</h2>
-<p class="section-subtitle" data-i18n="e.s3b.sub">Проблемът е, че търсиш крайност, вместо система.</p>
+<h2>Tier Lists</h2>
+<p class="section-subtitle">Бърз ориентир кои храни да са база и кои да избягваш</p>
 </div>
-<div class="accordion">
-<div class="accordion-item amber">
-<div class="accordion-header">
-<h3 data-i18n="e.acc5.h3">„Трябва ми диета“</h3>
-<span class="accordion-arrow">▼</span>
+<div class="tier-tabs">
+<button class="filter-btn active" data-tier-tab="protein">Протеини</button>
+<button class="filter-btn" data-tier-tab="carb">Въглехидрати</button>
+<button class="filter-btn" data-tier-tab="fat">Мазнини</button>
 </div>
-<div class="accordion-body">
-<div class="accordion-body-inner" data-i18n-html="e.acc5.body">
-<p>Не, не ти трябва диета. Трябва ти хранене, което можеш да повториш и следващата седмица.</p>
-<p class="mt-8">Диетите работят 10-14 дни, защото са натиск. После идват глад, нерви и връщане назад. Ако не можеш да го ядеш 6 месеца, това не е решение. Това е наказание.</p>
-<div class="stat-pills mt-16">
-<span class="stat-pill amber">Кратък режим = кратък резултат</span>
-<span class="stat-pill red">Глад ≠ прогрес</span>
-<span class="stat-pill green">Система &gt; диета</span>
+<div class="tier-tab-panel" data-tier-panel="protein">
+<div class="protein-tier-board interactive-tier-board" data-i18n-html="e.protein_tier.content"></div>
 </div>
+<div class="tier-tab-panel hidden" data-tier-panel="carb">
+<div class="protein-tier-board interactive-tier-board carb-tier-board" data-i18n-html="e.carb_tier.content"></div>
 </div>
+<div class="tier-tab-panel hidden" data-tier-panel="fat">
+<div class="protein-tier-board interactive-tier-board fat-tier-board" data-i18n-html="e.fat_tier.content"></div>
 </div>
-</div>
-<div class="accordion-item amber">
-<div class="accordion-header">
-<h3 data-i18n="e.acc6.h3">„Трябва ми детокс“</h3>
-<span class="accordion-arrow">▼</span>
-</div>
-<div class="accordion-body">
-<div class="accordion-body-inner" data-i18n-html="e.acc6.body">
-<p>Не ти трябва детокс. Имаш черен дроб. Имаш бъбреци. Това е тяхната работа.</p>
-<p class="mt-8">„Детокс“ чайове, сокове и режими продават чувство, не решение. Обикновено губиш вода, протеин и търпение. После всичко се връща.</p>
-<div class="stat-pills mt-16">
-<span class="stat-pill red">Детокс = маркетинг</span>
-<span class="stat-pill amber">Вода ≠ мазнини</span>
-<span class="stat-pill green">Истинско решение = нормална храна</span>
-</div>
-</div>
-</div>
-</div>
-<div class="accordion-item amber">
-<div class="accordion-header">
-<h3 data-i18n="e.acc7.h3">„Трябва ми нещо за отслабване и енергия“</h3>
-<span class="accordion-arrow">▼</span>
-</div>
-<div class="accordion-body">
-<div class="accordion-body-inner" data-i18n-html="e.acc7.body">
-<p>Повечето „fat burners“, „boosters“ и „energy“ добавки са кофеин, стимуланти и шумен етикет.</p>
-<p class="mt-8">Няма прах, който да оправи хаотично хранене, лош сън и нула движение. Ако основата е слаба, добавката е просто по-скъп начин да останеш на място.</p>
-<div class="info-box amber mt-16">
-<h3>Първо оправи това</h3>
-<p style="margin-top:8px;">• Протеина</p>
-<p>• Истинската храна</p>
-<p>• Съня</p>
-<p>• Крачките</p>
-<p>• Силовото натоварване</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="info-box red mt-24" data-i18n-html="e.info_box.4">
-<h3>Запомни</h3>
-<p style="margin-top:8px;">Не търси режим, който те троши. Не търси продукт, който те „спасява“. Търси хранене, което можеш да повториш и следващата седмица.</p>
-</div>
-</section>
-<!-- 2.7. Protein Tier List -->
-<section class="tier-section is-open">
-<button class="tier-section-toggle" type="button" aria-expanded="true">
-<div class="section-title">
-<h2 data-i18n="e.protein_tier.h2">Protein Tier List</h2>
-<p class="section-subtitle" data-i18n="e.protein_tier.sub">Кратък ориентир кои източници на протеин си струва да са ти база.</p>
-</div>
-<span class="tier-section-arrow">⌄</span>
-</button>
-<div class="tier-section-body">
-<div class="protein-tier-board interactive-tier-board" data-i18n-html="e.protein_tier.content">
-</div>
-</div>
-</section>
-<!-- 2.8. Carb Tier List -->
-<section class="tier-section is-open">
-<button class="tier-section-toggle" type="button" aria-expanded="true">
-<div class="section-title">
-<h2 data-i18n="e.carb_tier.h2">Carb Tier List</h2>
-<p class="section-subtitle" data-i18n="e.carb_tier.sub">Бърз ориентир кои въглехидрати дават стабилна енергия и кои са по-скоро situational.</p>
-</div>
-<span class="tier-section-arrow">⌄</span>
-</button>
-<div class="tier-section-body">
-<div class="protein-tier-board interactive-tier-board carb-tier-board" data-i18n-html="e.carb_tier.content">
-</div>
-</div>
-</section>
-<!-- 2.9. Fat Tier List -->
-<section class="tier-section is-open">
-<button class="tier-section-toggle" type="button" aria-expanded="true">
-<div class="section-title">
-<h2 data-i18n="e.fat_tier.h2">Fat Tier List</h2>
-<p class="section-subtitle" data-i18n="e.fat_tier.sub">Бърз ориентир кои мазнини помагат на хормони, мозък и ситост и кои са по-скоро капан.</p>
-</div>
-<span class="tier-section-arrow">⌄</span>
-</button>
-<div class="tier-section-body">
-<div class="protein-tier-board interactive-tier-board fat-tier-board" data-i18n-html="e.fat_tier.content">
-</div>
-</div>
-</section>
-<!-- 3. Как да ползваш tier list-а -->
-<section>
-<div class="section-title">
-<h2 data-i18n="e.tier_guide.h2">Как да ползваш tier list-а</h2>
-<p class="section-subtitle" data-i18n="e.tier_guide.sub">Не търси перфектна храна. Търси добри избори, които можеш да повтаряш.</p>
-</div>
-<div data-i18n-html="e.tier_guide.content"></div>
 </section>
 <!-- 5. Примерен ден -->
 <section>
@@ -532,6 +436,16 @@
 <script src="js/main.js?v=8"></script>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('[data-tier-tab]').forEach(function(btn) {
+        btn.addEventListener('click', function() {
+            var tab = btn.getAttribute('data-tier-tab');
+            document.querySelectorAll('[data-tier-tab]').forEach(function(b) { b.classList.remove('active'); });
+            btn.classList.add('active');
+            document.querySelectorAll('[data-tier-panel]').forEach(function(panel) {
+                panel.classList.toggle('hidden', panel.getAttribute('data-tier-panel') !== tab);
+            });
+        });
+    });
     if (typeof TIER_IMAGES !== 'undefined') {
         document.querySelectorAll('[data-fk]').forEach(function(img) {
             var k = img.getAttribute('data-fk');
