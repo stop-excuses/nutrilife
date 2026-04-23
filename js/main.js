@@ -245,7 +245,7 @@ function initTopControls() {
 
     // ── Theme logic ──────────────────────────────────────────────────────
     const savedTheme = localStorage.getItem("nutrilife-theme");
-    if (savedTheme === "light") {
+    if (savedTheme !== "dark") {
         document.documentElement.setAttribute("data-theme", "light");
     }
     updateThemeIcon();
