@@ -162,6 +162,7 @@ async def scrape_kaufland_dom(browser) -> list[dict]:
 
         html = await page.content()
         soup = BeautifulSoup(html, "html.parser")
+        kauf_valid_from, kauf_valid_until = _extract_page_dates(soup.get_text(" ", strip=True))
 
         for card in soup.select("a.k-product-tile"):
             # Name — title + subtitle (subtitle has the product type, e.g. "Маслиново масло екстра върджин")
@@ -220,7 +221,8 @@ async def scrape_kaufland_dom(browser) -> list[dict]:
                     image = img_el.get("src")
 
             items.append(make_raw_item(
-                name, new_price, old_price, discount_pct, image, "Kaufland", "kaufland_dom"
+                name, new_price, old_price, discount_pct, image, "Kaufland", "kaufland_dom",
+                valid_from=kauf_valid_from, valid_until=kauf_valid_until,
             ))
 
         print(f"  [Kaufland DOM] {len(items)} raw items from {KAUFLAND_OFFERS_URL}")
@@ -250,9 +252,18 @@ _BILLA_NAME_PREFIXES = re.compile(
 
 
 def _parse_date_iso(s: str):
-    """Parse 'DD.MM.YYYY' or 'DD.MM' into ISO date string or None."""
+    """Parse date string into ISO format. Handles DD.MM.YYYY, DD.MM, and YYYY-MM-DD."""
     from datetime import date as _date
-    m = re.match(r"(\d{1,2})[.\-](\d{2})(?:[.\-](\d{2,4}))?$", s.strip())
+    s = s.strip()
+    # ISO format YYYY-MM-DD (Lidl, etc.)
+    m = re.match(r"(\d{4})-(\d{2})-(\d{2})", s)
+    if m:
+        try:
+            return _date(int(m.group(1)), int(m.group(2)), int(m.group(3))).isoformat()
+        except ValueError:
+            pass
+    # DD.MM.YYYY or DD.MM
+    m = re.match(r"(\d{1,2})[.\-](\d{2})(?:[.\-](\d{2,4}))?$", s)
     if not m:
         return None
     day, month, year_str = m.groups()
@@ -265,9 +276,8 @@ def _parse_date_iso(s: str):
         return None
 
 
-def _extract_billa_dates(soup) -> tuple:
-    """Return (valid_from_iso, valid_until_iso) from page text, or (None, None)."""
-    text = soup.get_text(" ", strip=True)
+def _extract_page_dates(text: str) -> tuple:
+    """Extract (valid_from_iso, valid_until_iso) from any page text with date ranges."""
     m = re.search(
         r"(\d{1,2}[.\-]\d{2}(?:[.\-]\d{2,4})?)\s*[-–]\s*(\d{1,2}[.\-]\d{2}[.\-]\d{2,4})",
         text,
@@ -278,6 +288,11 @@ def _extract_billa_dates(soup) -> tuple:
         if d1 and d2:
             return d1, d2
     return None, None
+
+
+def _extract_billa_dates(soup) -> tuple:
+    """Return (valid_from_iso, valid_until_iso) from page text, or (None, None)."""
+    return _extract_page_dates(soup.get_text(" ", strip=True))
 
 
 def scrape_billa_text() -> list[dict]:
@@ -427,8 +442,23 @@ def _parse_lidl_grid_data(raw: str, source: str) -> dict | None:
     if not image and isinstance(data.get("imageList"), list) and data["imageList"]:
         image = data["imageList"][0]
 
+    # Validity dates — Lidl JSON may expose these in ISO format
+    valid_from = None
+    valid_until = None
+    for f in ("validFrom", "offerValidFrom", "promotionStart", "startDate"):
+        v = data.get(f) or (price_info.get(f) if isinstance(price_info, dict) else None)
+        if v:
+            valid_from = _parse_date_iso(str(v)[:10])
+            break
+    for f in ("validUntil", "offerValidTo", "validTo", "promotionEnd", "endDate", "offerValidUntil"):
+        v = data.get(f) or (price_info.get(f) if isinstance(price_info, dict) else None)
+        if v:
+            valid_until = _parse_date_iso(str(v)[:10])
+            break
+
     source_type = "promo" if old_price or discount_pct else "assortment"
-    return make_raw_item(name, new_price, old_price, discount_pct, image, "Lidl", source, source_type=source_type)
+    return make_raw_item(name, new_price, old_price, discount_pct, image, "Lidl", source,
+                         source_type=source_type, valid_from=valid_from, valid_until=valid_until)
 
 
 def scrape_lidl_catalog() -> list[dict]:
