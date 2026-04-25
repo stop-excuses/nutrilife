@@ -441,7 +441,7 @@ section {
 /* --- Accordion --- */
 .accordion {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     margin: 16px 0;
 }
@@ -454,7 +454,7 @@ section {
     transition: border-color 0.3s;
 }
 
-.accordion-item:last-child:nth-child(odd) {
+.accordion-item:last-child:nth-child(3n+1) {
     grid-column: 1 / -1;
 }
 
@@ -3322,6 +3322,21 @@ input[type="range"]::-moz-range-thumb {
         padding-bottom: 16px;
         border-right: none;
         border-bottom: 1px solid var(--border-green);
+    }
+}
+
+@media (max-width: 999px) {
+    .accordion {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .accordion-item:last-child:nth-child(3n+1) {
+        grid-column: auto;
+    }
+    .accordion-item:last-child:nth-child(3n+2) {
+        grid-column: auto;
+    }
+    .accordion-item:last-child:nth-child(odd) {
+        grid-column: 1 / -1;
     }
 }
 
