@@ -249,6 +249,37 @@ _BILLA_NAME_PREFIXES = re.compile(
 )
 
 
+def _parse_date_iso(s: str):
+    """Parse 'DD.MM.YYYY' or 'DD.MM' into ISO date string or None."""
+    from datetime import date as _date
+    m = re.match(r"(\d{1,2})[.\-](\d{2})(?:[.\-](\d{2,4}))?$", s.strip())
+    if not m:
+        return None
+    day, month, year_str = m.groups()
+    year = int(year_str) if year_str else _date.today().year
+    if year < 100:
+        year += 2000
+    try:
+        return _date(year, int(month), int(day)).isoformat()
+    except ValueError:
+        return None
+
+
+def _extract_billa_dates(soup) -> tuple:
+    """Return (valid_from_iso, valid_until_iso) from page text, or (None, None)."""
+    text = soup.get_text(" ", strip=True)
+    m = re.search(
+        r"(\d{1,2}[.\-]\d{2}(?:[.\-]\d{2,4})?)\s*[-–]\s*(\d{1,2}[.\-]\d{2}[.\-]\d{2,4})",
+        text,
+    )
+    if m:
+        d1 = _parse_date_iso(m.group(1))
+        d2 = _parse_date_iso(m.group(2))
+        if d1 and d2:
+            return d1, d2
+    return None, None
+
+
 def scrape_billa_text() -> list[dict]:
     """Scrape ssbbilla.site/catalog/sedmichna-broshura — structured Billa Bulgaria offers.
 
@@ -263,9 +294,13 @@ def scrape_billa_text() -> list[dict]:
     try:
         resp = requests.get(BILLA_URL, headers=BILLA_HEADERS, timeout=30)
         resp.raise_for_status()
-        # Decode bytes directly to avoid requests mis-detecting charset
-        decoded = resp.content.decode("utf-8", errors="replace")
+        # Try UTF-8 strictly; fall back to cp1251 (common encoding for Bulgarian sites)
+        try:
+            decoded = resp.content.decode("utf-8")
+        except UnicodeDecodeError:
+            decoded = resp.content.decode("cp1251", errors="replace")
         soup = BeautifulSoup(decoded, "html.parser")
+        valid_from, valid_until = _extract_billa_dates(soup)
 
         for card in soup.select("div.product"):
             # ── Name ──────────────────────────────────────────────────────────
@@ -314,7 +349,8 @@ def scrape_billa_text() -> list[dict]:
                 discount_pct = int(round((1 - new_price / old_price) * 100))
 
             items.append(make_raw_item(
-                name, new_price, old_price, discount_pct, None, "Billa", "billa_text"
+                name, new_price, old_price, discount_pct, None, "Billa", "billa_text",
+                valid_from=valid_from, valid_until=valid_until,
             ))
 
         print(f"  [Billa text] {len(items)} raw items from {BILLA_URL}")
