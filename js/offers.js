@@ -641,7 +641,6 @@ function getLocalFallbackImage(offer) {
             break;
         }
     }
-    if (liveFallbackByCategory.has(offer.category)) return liveFallbackByCategory.get(offer.category);
     // Last resort: local SVG icons
     for (const [keyword, imagePath] of LOCAL_IMAGE_RULES) {
         if (nameLower.includes(keyword)) return imagePath;
@@ -889,9 +888,9 @@ async function loadOffers() {
                         return;
                     }
                 }
-                if (liveFallbackByCategory.has(offer.category)) {
-                    offer.image = liveFallbackByCategory.get(offer.category);
-                }
+                // Category-level CDN fallback intentionally omitted:
+                // it assigns a random photo from another store which may be misleading.
+                // Products without a keyword match fall through to SVG icons via getLocalFallbackImage.
             };
             allOffers.forEach(assignLiveImage);
             allCatalogProducts.forEach(assignLiveImage);
