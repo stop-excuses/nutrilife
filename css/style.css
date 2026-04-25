@@ -440,6 +440,9 @@ section {
 
 /* --- Accordion --- */
 .accordion {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
     margin: 16px 0;
 }
 
@@ -447,9 +450,12 @@ section {
     background: var(--bg-card-red);
     border: 1px solid var(--border-red);
     border-radius: 12px;
-    margin-bottom: 10px;
     overflow: hidden;
     transition: border-color 0.3s;
+}
+
+.accordion-item:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
 }
 
 .accordion-item.green {
@@ -3316,6 +3322,15 @@ input[type="range"]::-moz-range-thumb {
         padding-bottom: 16px;
         border-right: none;
         border-bottom: 1px solid var(--border-green);
+    }
+}
+
+@media (max-width: 480px) {
+    .accordion {
+        grid-template-columns: 1fr;
+    }
+    .accordion-item:last-child:nth-child(odd) {
+        grid-column: auto;
     }
 }
 
