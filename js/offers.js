@@ -1580,6 +1580,7 @@ function renderPriceComparison() {
 
     const comparisonKeys = [...new Set(
         allOffers
+            .filter(offer => isHealthyOffer(offer))
             .map(offer => offer._comparisonKey)
             .filter(Boolean)
     )];
