@@ -1679,5 +1679,97 @@
         "health_score": 10
       }
     ]
+  },
+  {
+    "date": "2026-04-30T08:17:46.436625Z",
+    "elapsed_seconds": 36,
+    "total_offers": 3748,
+    "food_offers": 1868,
+    "healthy_offers": 1702,
+    "high_protein_offers": 139,
+    "with_image": 1029,
+    "with_discount": 1377,
+    "stores_scraped": [
+      "Billa",
+      "Dar",
+      "Fantastico",
+      "Kaufland",
+      "Lidl"
+    ],
+    "by_store": {
+      "Kaufland": 1183,
+      "Lidl": 171,
+      "Billa": 326,
+      "Fantastico": 2306,
+      "Dar": 1361
+    },
+    "category_breakdown": {
+      "protein": 473,
+      "canned": 77,
+      "hygiene": 669,
+      "vegetable": 233,
+      "bread": 81,
+      "legume": 53,
+      "grain": 352,
+      "dairy": 433,
+      "nuts": 7,
+      "household": 38,
+      "other": 645,
+      "fat": 76,
+      "drinks": 585,
+      "pet": 26
+    },
+    "top_healthy": [
+      {
+        "name": "ПЮРЕ PLASMON ПАСТА, РИБА ТОН И ЗЕЛЕНЧУЦИ 200 ГР 7+ МЕС",
+        "store": "Fantastico",
+        "health_score": 10
+      },
+      {
+        "name": "ПЮРЕ BEBELAN ЗЕЛЕНЧУКОВА СМЕС СЪС СЬОМГА 190 ГР 6+ МЕС",
+        "store": "Fantastico",
+        "health_score": 10
+      },
+      {
+        "name": "САПУН KNOSSOS СЪС ЗЕХТИН И МАСЛИНОВИ ЛИСТА 100 Г",
+        "store": "Fantastico",
+        "health_score": 10
+      },
+      {
+        "name": "Бургер от сьомга",
+        "store": "Lidl",
+        "health_score": 10
+      },
+      {
+        "name": "Сьомга пушено филе 50 г",
+        "store": "Billa",
+        "health_score": 10
+      },
+      {
+        "name": "ПЮРЕ БИО BIONINO ЗЕЛЕНЧУЦИ СЪС СЬОМГА 190 ГР 6+М",
+        "store": "Fantastico",
+        "health_score": 10
+      },
+      {
+        "name": "Рибанов Рибен продукт от сьомга или от есетрови риби 110 г",
+        "store": "Billa",
+        "health_score": 10
+      },
+      {
+        "name": "Billa Риба тон в собствен сос или в слънчогледово олио 185 г",
+        "store": "Billa",
+        "health_score": 10
+      },
+      {
+        "name": "Rio Mare Риба тон филе различни видове",
+        "store": "Kaufland",
+        "health_score": 10
+      },
+      {
+        "name": "Риба тон",
+        "store": "Lidl",
+        "health_score": 10
+      }
+    ]
   }
 ]
