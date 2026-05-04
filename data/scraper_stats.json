@@ -1771,5 +1771,95 @@
         "health_score": 10
       }
     ]
+  },
+  {
+    "date": "2026-05-04T08:21:32.504405Z",
+    "elapsed_seconds": 34,
+    "total_offers": 3669,
+    "food_offers": 1805,
+    "healthy_offers": 1650,
+    "high_protein_offers": 126,
+    "with_image": 953,
+    "with_discount": 1481,
+    "stores_scraped": [
+      "Billa",
+      "Dar",
+      "Fantastico",
+      "Kaufland"
+    ],
+    "by_store": {
+      "Kaufland": 1358,
+      "Billa": 326,
+      "Fantastico": 2303,
+      "Dar": 1365
+    },
+    "category_breakdown": {
+      "protein": 457,
+      "canned": 76,
+      "hygiene": 656,
+      "vegetable": 212,
+      "bread": 73,
+      "legume": 50,
+      "grain": 326,
+      "dairy": 431,
+      "nuts": 23,
+      "household": 48,
+      "fat": 73,
+      "drinks": 513,
+      "other": 720,
+      "pet": 11
+    },
+    "top_healthy": [
+      {
+        "name": "ПЮРЕ PLASMON ПАСТА, РИБА ТОН И ЗЕЛЕНЧУЦИ 200 ГР 7+ МЕС",
+        "store": "Fantastico",
+        "health_score": 10
+      },
+      {
+        "name": "ПЮРЕ BEBELAN ЗЕЛЕНЧУКОВА СМЕС СЪС СЬОМГА 190 ГР 6+ МЕС",
+        "store": "Fantastico",
+        "health_score": 10
+      },
+      {
+        "name": "САПУН KNOSSOS СЪС ЗЕХТИН И МАСЛИНОВИ ЛИСТА 100 Г",
+        "store": "Fantastico",
+        "health_score": 10
+      },
+      {
+        "name": "Сьомга пушено филе 50 г",
+        "store": "Billa",
+        "health_score": 10
+      },
+      {
+        "name": "ПЮРЕ БИО BIONINO ЗЕЛЕНЧУЦИ СЪС СЬОМГА 190 ГР 6+М",
+        "store": "Fantastico",
+        "health_score": 10
+      },
+      {
+        "name": "Рибанов Рибен продукт от сьомга или от есетрови риби 110 г",
+        "store": "Billa",
+        "health_score": 10
+      },
+      {
+        "name": "Ocean Риба тон парченца различни видове",
+        "store": "Kaufland",
+        "health_score": 10
+      },
+      {
+        "name": "Billa Риба тон в собствен сос или в слънчогледово олио 185 г",
+        "store": "Billa",
+        "health_score": 10
+      },
+      {
+        "name": "ПЪСТЪРВА ЧИСТЕНА ПРОИЗХОД БЪЛГАРИЯ ОХЛАДЕНА КГ МОРСКИ ДАР РП",
+        "store": "Fantastico",
+        "health_score": 10
+      },
+      {
+        "name": "ПЪСТЪРВА ЧИСТЕНА ПР-Д БЪЛГАРИЯ КГ ОХЛ. МОРСКИ ДАР ДАР",
+        "store": "Dar",
+        "health_score": 10
+      }
+    ]
   }
 ]
