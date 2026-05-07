@@ -1861,5 +1861,95 @@
         "health_score": 10
       }
     ]
+  },
+  {
+    "date": "2026-05-07T08:31:22.727421Z",
+    "elapsed_seconds": 35,
+    "total_offers": 3533,
+    "food_offers": 1754,
+    "healthy_offers": 1626,
+    "high_protein_offers": 123,
+    "with_image": 1141,
+    "with_discount": 1330,
+    "stores_scraped": [
+      "Dar",
+      "Fantastico",
+      "Kaufland",
+      "Lidl"
+    ],
+    "by_store": {
+      "Kaufland": 1391,
+      "Lidl": 156,
+      "Fantastico": 2305,
+      "Dar": 1361
+    },
+    "category_breakdown": {
+      "canned": 75,
+      "hygiene": 639,
+      "protein": 426,
+      "vegetable": 210,
+      "bread": 62,
+      "legume": 56,
+      "grain": 291,
+      "dairy": 444,
+      "household": 41,
+      "nuts": 19,
+      "other": 689,
+      "fat": 76,
+      "drinks": 497,
+      "pet": 8
+    },
+    "top_healthy": [
+      {
+        "name": "ПЮРЕ BEBELAN ЗЕЛЕНЧУКОВА СМЕС СЪС СЬОМГА 190 ГР 6+ МЕС",
+        "store": "Fantastico",
+        "health_score": 10
+      },
+      {
+        "name": "САПУН KNOSSOS СЪС ЗЕХТИН И МАСЛИНОВИ ЛИСТА 100 Г",
+        "store": "Fantastico",
+        "health_score": 10
+      },
+      {
+        "name": "Бургер от сьомга",
+        "store": "Lidl",
+        "health_score": 10
+      },
+      {
+        "name": "ПЮРЕ БИО BIONINO ЗЕЛЕНЧУЦИ СЪС СЬОМГА 190 ГР 6+М",
+        "store": "Fantastico",
+        "health_score": 10
+      },
+      {
+        "name": "ПЮРЕ PLASMON ПАСТА, РИБА ТОН И ЗЕЛЕНЧУЦИ 200 ГР 7+ МЕС",
+        "store": "Fantastico",
+        "health_score": 10
+      },
+      {
+        "name": "Ocean Риба тон парченца различни видове",
+        "store": "Kaufland",
+        "health_score": 10
+      },
+      {
+        "name": "Норвежка пушена сьомга",
+        "store": "Lidl",
+        "health_score": 10
+      },
+      {
+        "name": "ПЪСТЪРВА ЧИСТЕНА ПРОИЗХОД БЪЛГАРИЯ ОХЛАДЕНА КГ МОРСКИ ДАР РП",
+        "store": "Fantastico",
+        "health_score": 10
+      },
+      {
+        "name": "ПЪСТЪРВА ЧИСТЕНА ПР-Д БЪЛГАРИЯ КГ ОХЛ. МОРСКИ ДАР ДАР",
+        "store": "Dar",
+        "health_score": 10
+      },
+      {
+        "name": "Риба тон",
+        "store": "Lidl",
+        "health_score": 10
+      }
+    ]
   }
 ]
