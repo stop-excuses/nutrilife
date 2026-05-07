@@ -74,6 +74,11 @@
             if (dict[key] !== undefined) el.placeholder = dict[key];
         });
 
+        document.querySelectorAll('[data-i18n-alt]').forEach(el => {
+            const key = el.dataset.i18nAlt;
+            if (dict[key] !== undefined) el.alt = dict[key];
+        });
+
         const slug = (window.location.pathname.split('/').pop() || 'index.html')
             .replace('.html', '') || 'index';
         const titleKey = 'title.' + slug;

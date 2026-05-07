@@ -1,8 +1,15 @@
 (function () {
     'use strict';
     window.I18N && window.I18N.extend({
+        'm.hero.kicker': 'СВОБОДА ВМЕСТО ЗАДЪХВАНЕ',
         'm.hero.h1': 'Тялото е направено<br>да се <em class="green">движи</em>.',
-        'm.hero.p': 'Не ти трябва фитнес. Не ти трябва инструктор. Трябват ти 21 минути на ден.',
+        'm.hero.p': 'Не ти трябва фитнес. Трябва ти усещането, че пак можеш да се качиш по стълбите, да излезеш навън и да имаш въздух в края на деня.',
+        'm.hero.card.1': '<div class="stat-number">10 мин</div><div class="stat-label">първа разходка</div>',
+        'm.hero.card.2': '<div class="stat-number">150 мин</div><div class="stat-label">седмичен минимум</div>',
+        'm.hero.card.3': '<div class="stat-number">−33%</div><div class="stat-label">риск от ранна смърт</div>',
+        'm.hero.image_alt': 'Хора вървят навън на утринна светлина',
+        'm.hero.note_label': 'ПЪРВО ДЕЙСТВИЕ',
+        'm.hero.note': 'Излез за 10 минути. Не чакай настроение.',
         'm.hero.stat': 'на седмица = −33% риск от ранна смърт = само 21 мин/ден',
         'm.s2.h2': 'Не е само за тялото',
         'm.s2.sub': '6 системи, които движението лекува',
