@@ -1900,6 +1900,78 @@ input[type="range"]::-moz-range-thumb {
     grid-template-rows: 1fr;
 }
 
+.fav-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 4px 2px;
+    flex-shrink: 0;
+    opacity: 0.4;
+    transition: opacity 0.15s, transform 0.15s;
+    line-height: 1;
+}
+
+.fav-btn:hover, .fav-btn.active {
+    opacity: 1;
+    transform: scale(1.25);
+}
+
+#favorites-alert {
+    margin-bottom: 14px;
+}
+
+.favorites-alert-inner {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 16px;
+    background: var(--bg-card-green);
+    border: 1px solid var(--border-green);
+    border-radius: 10px;
+    font-size: 0.85rem;
+}
+
+.favorites-alert-inner.amber {
+    background: var(--bg-card-amber);
+    border-color: var(--border-amber);
+}
+
+.fav-bell {
+    font-size: 1.3rem;
+    flex-shrink: 0;
+}
+
+.fav-kw-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 6px;
+}
+
+.fav-kw-pill {
+    background: rgba(151, 196, 89, 0.15);
+    border: 1px solid rgba(151, 196, 89, 0.3);
+    color: var(--green);
+    border-radius: 999px;
+    padding: 2px 9px;
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+.favorites-alert-inner.amber .fav-kw-pill {
+    background: rgba(186, 117, 23, 0.15);
+    border-color: rgba(186, 117, 23, 0.3);
+    color: var(--amber);
+}
+
+.fav-see-btn {
+    margin-left: auto;
+    white-space: nowrap;
+    font-size: 0.8rem;
+    padding: 7px 14px;
+}
+
 .details-inner {
     overflow: hidden;
     min-height: 0;
