@@ -1905,15 +1905,15 @@ input[type="range"]::-moz-range-thumb {
     background: none;
     border: none;
     cursor: pointer;
-    font-size: 0.95rem;
+    font-size: 1.25rem;
     padding: 4px 3px;
     flex-shrink: 0;
-    opacity: 0.28;
+    opacity: 0.22;
     transition: opacity 0.15s, transform 0.15s;
     line-height: 1;
 }
-.fav-btn:hover { opacity: 0.7; transform: scale(1.2); }
-.fav-btn.active { opacity: 1; transform: scale(1.1); }
+.fav-btn:hover { opacity: 0.65; transform: scale(1.15); }
+.fav-btn.active { opacity: 1; transform: scale(1.05); }
 
 /* Favorites panel */
 #fav-section { padding-top: 0; padding-bottom: 8px; }
@@ -2006,19 +2006,33 @@ input[type="range"]::-moz-range-thumb {
 .fav-offer-row {
     display: flex;
     align-items: center;
-    gap: 8px;
-    padding: 8px 0;
+    gap: 10px;
+    padding: 9px 0;
     border-bottom: 1px solid rgba(151,196,89,0.08);
-    font-size: 0.8rem;
 }
 .fav-offer-row:last-child { border-bottom: none; }
 
+.fav-offer-thumb { flex-shrink: 0; }
+.fav-offer-thumb .offer-img-wrapper { width: 44px; height: 44px; border-radius: 6px; }
+
+.fav-offer-main { flex: 1; min-width: 0; }
+
+.fav-offer-top {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-bottom: 4px;
+}
+
 .fav-store {
-    min-width: 76px;
-    font-size: 0.7rem;
-    font-weight: 600;
+    font-size: 0.68rem;
+    font-weight: 700;
     color: var(--muted);
     flex-shrink: 0;
+    background: rgba(151,196,89,0.1);
+    border: 1px solid rgba(151,196,89,0.2);
+    border-radius: 4px;
+    padding: 1px 6px;
 }
 
 .fav-name {
@@ -2027,14 +2041,19 @@ input[type="range"]::-moz-range-thumb {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    font-size: 0.82rem;
+    color: var(--text);
 }
 
-.fav-prices {
+.fav-offer-btm {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    gap: 5px;
-    flex-shrink: 0;
+    gap: 6px;
+    font-size: 0.76rem;
 }
+
+.fav-price { font-size: 0.88rem; }
 
 .fav-disc {
     background: var(--red);
@@ -2051,11 +2070,23 @@ input[type="range"]::-moz-range-thumb {
     font-size: 0.72rem;
 }
 
+.fav-weight {
+    color: var(--muted);
+    font-size: 0.72rem;
+}
+
+.fav-pkg {
+    color: var(--green);
+    font-weight: 600;
+    font-size: 0.76rem;
+}
+
 .fav-validity {
     color: var(--muted);
     font-size: 0.68rem;
     flex-shrink: 0;
     white-space: nowrap;
+    margin-left: auto;
 }
 
 .fav-none {
