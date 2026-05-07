@@ -291,14 +291,45 @@ async def scrape_kaufland_dom(browser) -> list[dict]:
                 if not image:
                     image = img_el.get("src")
 
-            # Weight — check dedicated quantity/description elements before falling back to name
+            # Weight — multi-strategy:
+            # 1. Direct weight/quantity element in the card
+            # 2. unit-price element (JS-populated by Playwright): "X,XX ЛВ./КГ"
+            # 3. base-price element: "X,XX ЛВ./КГ"
+            # 4. Fallback: make_raw_item auto-extracts from name
             weight_raw_item, weight_grams_item = None, None
-            qty_el = card.select_one(
-                ".k-product-tile__quantity, .k-product-tile__description, "
-                "[class*='quantity'], [class*='grammage'], [class*='weight']"
-            )
-            if qty_el:
-                weight_raw_item, weight_grams_item = extract_weight(qty_el.get_text(strip=True))
+
+            for qty_sel in (
+                ".k-product-tile__unit-price",
+                ".k-product-tile__base-price",
+                ".k-product-tile__quantity",
+                "[class*='unit-price']",
+                "[class*='base-price']",
+            ):
+                qty_el = card.select_one(qty_sel)
+                if qty_el:
+                    txt = qty_el.get_text(strip=True)
+                    if not txt:
+                        continue
+                    # Try direct weight extraction first (e.g. "500 g")
+                    weight_raw_item, weight_grams_item = extract_weight(txt)
+                    if weight_grams_item:
+                        break
+                    # Try unit price back-calc: "6,98 ЛВ./КГ"
+                    m_unit = re.search(
+                        r'(\d+[.,]\d+)\s*(?:лв|lv)\.?\s*/\s*(кг|л|kg|l)\b',
+                        txt, re.IGNORECASE,
+                    )
+                    if m_unit and new_price:
+                        try:
+                            unit_price = float(m_unit.group(1).replace(',', '.'))
+                            if unit_price > 0:
+                                grams = int(new_price / unit_price * 1000)
+                                if 10 <= grams <= 50000:
+                                    weight_grams_item = grams
+                                    weight_raw_item = f"~{grams}г"
+                                    break
+                        except (ValueError, ZeroDivisionError):
+                            pass
 
             items.append(make_raw_item(
                 name, new_price, old_price, discount_pct, image, "Kaufland", "kaufland_dom",
@@ -544,14 +575,32 @@ def _parse_lidl_grid_data(raw: str, source: str) -> dict | None:
             valid_until = _parse_date_iso(str(v)[:10])
             break
 
-    # Weight — check JSON fields common in Lidl's product API
+    # Weight — Lidl JSON has weight in price.packaging.text and keyfacts.description
     weight_raw_item, weight_grams_item = None, None
-    for wf in ("grammage", "baseQuantity", "netContent", "packagingInfo", "weight", "quantity"):
-        wv = data.get(wf)
-        if wv and str(wv).strip():
-            weight_raw_item, weight_grams_item = extract_weight(str(wv))
-            if weight_grams_item:
-                break
+
+    # 1. price.packaging.text — e.g. "2 x 150 g/опаковка", "300 g/опаковка", "≈ 1.2 kg/опаковка"
+    packaging = price_info.get("packaging") if isinstance(price_info, dict) else None
+    if isinstance(packaging, dict):
+        pkg_text = packaging.get("text") or ""
+        weight_raw_item, weight_grams_item = extract_weight(pkg_text)
+
+    # 2. keyfacts.description HTML — e.g. "<li>≈ 1.2 kg/опаковка</li>"
+    if not weight_grams_item:
+        keyfacts = data.get("keyfacts") or {}
+        if isinstance(keyfacts, dict):
+            desc_html = keyfacts.get("description") or ""
+            if desc_html:
+                desc_text = re.sub(r'<[^>]+>', ' ', desc_html)
+                weight_raw_item, weight_grams_item = extract_weight(desc_text)
+
+    # 3. Fallback: other generic weight fields
+    if not weight_grams_item:
+        for wf in ("grammage", "baseQuantity", "netContent", "weight", "quantity"):
+            wv = data.get(wf)
+            if wv and str(wv).strip():
+                weight_raw_item, weight_grams_item = extract_weight(str(wv))
+                if weight_grams_item:
+                    break
 
     source_type = "promo" if old_price or discount_pct else "assortment"
     return make_raw_item(name, new_price, old_price, discount_pct, image, "Lidl", source,
