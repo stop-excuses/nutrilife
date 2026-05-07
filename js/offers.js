@@ -1084,6 +1084,17 @@ function toggleFavorite(offerId) {
     renderFavoritesPanel();
 }
 
+function extractWeightFromName(offer) {
+    if (offer.weight_raw && offer.weight_grams) return { raw: offer.weight_raw, grams: offer.weight_grams };
+    const m = (offer.name || '').match(/(\d+(?:[.,]\d+)?)\s*(кг|г|гр|мл|л)\b/i);
+    if (!m) return null;
+    const val = parseFloat(m[1].replace(',', '.'));
+    const unit = m[2].toLowerCase().replace('гр', 'г');
+    let grams = unit === 'кг' ? val * 1000 : unit === 'л' ? val * 1000 : val;
+    if (grams < 10 || grams > 50000) return null;
+    return { raw: `${m[1]}${unit}`, grams };
+}
+
 function renderFavoritesPanel() {
     const panel = document.getElementById('fav-panel');
     const section = document.getElementById('fav-section');
@@ -1098,24 +1109,45 @@ function renderFavoritesPanel() {
 
     const rows = favoriteItems.map(({ kw, emoji }) => {
         const offers = allOffers
-            .filter(o => o.name && o.new_price != null && extractFavoriteKeyword(o) === kw)
+            .filter(o => {
+                if (!o.name || o.new_price == null) return false;
+                if (extractFavoriteKeyword(o) !== kw) return false;
+                const nl = o.name.toLowerCase();
+                if (isBabyFoodName(nl)) return false;
+                if (isClearlyNonHumanFood(o)) return false;
+                if (EXCLUDED_HEALTH_CATEGORIES.has(o.category)) return false;
+                return true;
+            })
             .sort((a, b) => a.new_price - b.new_price);
         const onSale = offers.filter(o => o.discount_pct);
         const statusHtml = onSale.length > 0
-            ? `<span class="fav-status on-sale">🔥 ${onSale.length} намален${onSale.length === 1 ? 'и' : 'и'}</span>`
+            ? `<span class="fav-status on-sale">🔥 ${onSale.length} намаления</span>`
             : offers.length > 0
-            ? `<span class="fav-status">${offers.length} оферт${offers.length === 1 ? 'а' : 'и'}</span>`
+            ? `<span class="fav-status">${offers.length} оферти</span>`
             : `<span class="fav-status none">Няма тази седмица</span>`;
 
         const offerRowsHtml = offers.map(o => {
             const validity = getOfferValidityText(o, 'short');
             const disc = o.discount_pct ? `<span class="fav-disc">-${o.discount_pct}%</span>` : '';
             const old = o.old_price ? `<span class="fav-old">${formatPricePair(o.old_price, o.old_price_eur)}</span>` : '';
+            const wi = extractWeightFromName(o);
+            const ppkg = (wi?.grams && o.new_price) ? (o.new_price / wi.grams * 1000) : getReliablePricePerKg(o);
+            const pkgHtml = ppkg ? `<span class="fav-pkg">${ppkg.toFixed(2)} лв/кг</span>` : '';
+            const weightHtml = wi?.raw ? `<span class="fav-weight">${wi.raw}</span>` : '';
+            const thumb = renderOfferThumb(o, 'fav-thumb-img');
             return `<div class="fav-offer-row">
-                <span class="fav-store">${o.store}</span>
-                <span class="fav-name">${o.name}</span>
-                <span class="fav-prices">${disc}<strong>${formatPricePair(o.new_price, o.new_price_eur)}</strong>${old}</span>
-                ${validity ? `<span class="fav-validity">${validity}</span>` : ''}
+                ${thumb ? `<div class="fav-offer-thumb">${thumb}</div>` : ''}
+                <div class="fav-offer-main">
+                    <div class="fav-offer-top">
+                        <span class="fav-store">${o.store}</span>
+                        <span class="fav-name">${o.name}</span>
+                    </div>
+                    <div class="fav-offer-btm">
+                        ${disc}<strong class="fav-price">${formatPricePair(o.new_price, o.new_price_eur)}</strong>${old}
+                        ${weightHtml}${pkgHtml}
+                        ${validity ? `<span class="fav-validity">${validity}</span>` : ''}
+                    </div>
+                </div>
             </div>`;
         }).join('');
 
