@@ -1072,7 +1072,7 @@ function toggleFavorite(offerId) {
     if (idx !== -1) {
         favoriteItems.splice(idx, 1);
     } else {
-        favoriteItems.push({ kw, emoji: offer.emoji || '🍽️' });
+        favoriteItems.push({ kw, emoji: offer.emoji || '🍽️', cat: offer.category || null });
     }
     saveFavorites();
     const active = isFavorited(offer);
@@ -1107,7 +1107,7 @@ function renderFavoritesPanel() {
     }
     if (section) section.style.removeProperty('display');
 
-    const rows = favoriteItems.map(({ kw, emoji }) => {
+    const rows = favoriteItems.map(({ kw, emoji, cat }) => {
         const offers = allOffers
             .filter(o => {
                 if (!o.name || o.new_price == null) return false;
@@ -1116,6 +1116,18 @@ function renderFavoritesPanel() {
                 if (isBabyFoodName(nl)) return false;
                 if (isClearlyNonHumanFood(o)) return false;
                 if (EXCLUDED_HEALTH_CATEGORIES.has(o.category)) return false;
+                // Exclude products where kw is an ingredient, not the main product
+                // e.g. "баница с извара", "баничка със сирене, извара и спанак"
+                const kwIdx = nl.indexOf(kw);
+                if (kwIdx > 0) {
+                    const before = nl.slice(0, kwIdx).trimEnd();
+                    const lastChar = before[before.length - 1];
+                    if ([',', ';'].includes(lastChar)) return false;
+                    const lastWord = before.trim().split(/\s+/).pop() || '';
+                    if (['с', 'от', 'в', 'на', 'за', 'и', 'със', 'без'].includes(lastWord)) return false;
+                }
+                // Category guard: canned favorites only match canned products
+                if (cat === 'canned' && o.category && o.category !== 'canned') return false;
                 return true;
             })
             .sort((a, b) => a.new_price - b.new_price);
@@ -1165,7 +1177,7 @@ function renderFavoritesPanel() {
         </div>`;
     }).join('');
 
-    panel.innerHTML = `<div class="fav-panel-hd"><span>🔔 Моите любими</span><span class="fav-cnt">${favoriteItems.length}</span></div>
+    panel.innerHTML = `<div class="fav-panel-hd"><span>❤️ Моите любими</span><span class="fav-cnt">${favoriteItems.length}</span></div>
         <div class="fav-panel-bd">${rows}</div>`;
 
     panel.querySelectorAll('.fav-item-hd').forEach(hd => {
@@ -1675,6 +1687,8 @@ function renderOffers(offers) {
         const trend = getPriceTrend(o);
         if (trend) badges.push(`<span class="offer-tag ${trend.cls}">${trend.label}</span>`);
 
+        const displayPpk = o.price_per_kg || (o.weight_grams && o.new_price ? (o.new_price / o.weight_grams * 1000) : null);
+
         let metaParts = [];
         if (o.weight_raw) metaParts.push(o.weight_raw);
         if (o.price_per_kg) metaParts.push(formatPricePair(o.price_per_kg, o.price_per_kg_eur, "/кг"));
@@ -1707,9 +1721,10 @@ function renderOffers(offers) {
                         ${o.discount_pct ? `<span class="discount-pct-badge">-${o.discount_pct}%</span>` : ""}
                         <span class="offer-new-price">${formatPricePair(o.new_price, o.new_price_eur)}</span>
                         ${o.old_price ? `<div class="offer-old-price">${formatPricePair(o.old_price, o.old_price_eur)}</div>` : ""}
+                        ${displayPpk ? `<div class="offer-ppk">${formatPricePair(displayPpk, displayPpk / 1.95583, "/кг")}</div>` : ""}
                         ${renderSparkline(o)}
                     </div>
-                    <button class="fav-btn${isFavorited(o) ? ' active' : ''}" data-offer-id="${getOfferDomId(o)}" title="${isFavorited(o) ? 'Премахни от любими' : 'Следи този продукт'}">🔔</button>
+                    <button class="fav-btn${isFavorited(o) ? ' active' : ''}" data-offer-id="${getOfferDomId(o)}" title="${isFavorited(o) ? 'Премахни от любими' : 'Следи този продукт'}">❤️</button>
                     <span class="offer-arrow">▼</span>
                 </div>
                 <div class="offer-details">

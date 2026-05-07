@@ -1876,6 +1876,14 @@ input[type="range"]::-moz-range-thumb {
     text-align: right;
 }
 
+.offer-ppk {
+    font-size: 0.6rem;
+    font-weight: 600;
+    color: var(--muted);
+    text-align: right;
+    margin-top: 1px;
+}
+
 /* Expand arrow */
 .offer-arrow {
     font-size: 0.6rem;
@@ -1905,7 +1913,7 @@ input[type="range"]::-moz-range-thumb {
     background: none;
     border: none;
     cursor: pointer;
-    font-size: 1.25rem;
+    font-size: 1.55rem;
     padding: 4px 3px;
     flex-shrink: 0;
     opacity: 0.22;
