@@ -54,10 +54,28 @@ const HYGIENE_CATEGORY_KEYWORDS = [
 
 const HOUSEHOLD_CATEGORY_KEYWORDS = [
     "прах за пране", "омекотител", "препарат", "почистващ", "дезинфектант",
-    "таблетки за съдомиялна", "веро", "белина"
+    "таблетки за съдомиялна", "веро", "белина",
+    "нож за", "тиган", "тенджера", "купа за"
 ];
 
-const JUNK_FOOD_KEYWORDS = ["кроасан"];
+const JUNK_FOOD_KEYWORDS = ["кроасан", "баничк", "банич"];
+
+const BABY_FOOD_BRANDS = [
+    "bebelan", "bionino", "plasmon", "holle", "gerber", "nutrino lab",
+    "frisolac", "aptamil", "topfer", "cremilac"
+];
+
+function isBabyFoodName(nameLower) {
+    if (BABY_FOOD_BRANDS.some(b => nameLower.includes(b))) return true;
+    // Слънчо baby brand — whole-word match to avoid "слънчогледово" false positive
+    if (/(^| )слънчо( |$)/.test(nameLower)) return true;
+    const hasAgeMarker = /\d+\s*[+]?\s*ме/.test(nameLower)
+        || nameLower.includes("за кърмачета")
+        || nameLower.includes("за деца");
+    if (!hasAgeMarker) return false;
+    return nameLower.includes("пюре") || nameLower.includes("каша") || nameLower.includes("мляко")
+        || nameLower.includes("нектар") || nameLower.includes("сок");
+}
 
 const CURED_LEAN_MEAT_EXACT_NAMES = new Set(["елена"]);
 const CURED_LEAN_MEAT_PHRASES = ["филе елена"];
@@ -400,19 +418,26 @@ function matchesCuredLeanMeat(offer) {
 }
 
 // Food keywords that must win over hygiene/household mismatches (e.g. "балсамов оцет" contains "балсам")
-const FOOD_OVERRIDE_KEYWORDS = ["оцет", "балсамов", "балсамика", "подправка", "сос", "хляб"];
+const FOOD_OVERRIDE_KEYWORDS = ["оцет", "балсамов", "балсамика", "сос", "хляб"];
 
 function normalizeOfferCategory(offer) {
     const nameLower = getOfferNameLower(offer);
     if (EXACT_NON_FOOD_NAMES.has(nameLower.trim())) return "household";
     if (matchesCuredLeanMeat(offer)) return "protein";
     if (NON_HUMAN_FOOD_KEYWORDS.some(kw => nameLower.includes(kw))) return "pet";
+    // Baby food — never show in adult food filters
+    if (isBabyFoodName(nameLower)) return "other";
+    // Coffee & tea misclassified as grain or vegetable → drinks
+    if ((nameLower.includes("кафе") || nameLower.includes("coffee")) && offer.category === "grain") return "drinks";
+    if ((nameLower.startsWith("чай ") || nameLower === "чай") && offer.category !== "drinks") return "drinks";
     const isClearlyFood = FOOD_OVERRIDE_KEYWORDS.some(kw => nameLower.includes(kw));
     if (!isClearlyFood && HOUSEHOLD_CATEGORY_KEYWORDS.some(kw => nameLower.includes(kw))) return "household";
     if (!isClearlyFood && HYGIENE_CATEGORY_KEYWORDS.some(kw => nameLower.includes(kw))) return "hygiene";
     if (JUNK_FOOD_KEYWORDS.some(kw => nameLower.includes(kw))) return "grain";
     // Smoothies/juices misclassified as nuts due to chia/coconut/etc keywords
     if (nameLower.includes("смути") || nameLower.includes("smoothie")) return "vegetable";
+    // Spice mixes / seasonings → exclude from food categories
+    if (nameLower.includes("подправка")) return "other";
     // Spices misclassified as nuts (nutmeg, cinnamon, cumin etc.)
     if (nameLower.includes("орехче") || nameLower.includes("канела") || nameLower.includes("кимион")
         || nameLower.includes("куркума") || nameLower.includes("джинджифил") || nameLower.includes("кардамон")
