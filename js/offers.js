@@ -12,7 +12,11 @@ let searchQuery = "";
 let currentPage = 1;
 let filteredOffersCache = [];
 let allCatalogProducts = [];
-let favoriteKeywords = new Set(JSON.parse(localStorage.getItem('nutrilife-favorites') || '[]'));
+let favoriteItems = (() => {
+    const raw = JSON.parse(localStorage.getItem('nutrilife-favorites') || '[]');
+    if (raw.length && typeof raw[0] === 'string') return raw.map(kw => ({ kw, emoji: '🍽️' }));
+    return raw;
+})();
 let liveFallbackByKeyword = new Map();  // keyword → real CDN image URL
 let liveFallbackByCategory = new Map(); // category → real CDN image URL
 
@@ -922,7 +926,7 @@ async function loadOffers() {
             allCatalogProducts.forEach(assignLiveImage);
         }
         applyFilters();
-        renderFavoritesAlert();
+        renderFavoritesPanel();
         renderPriceComparison();
         renderBulkRecommendations();
         renderProteinRanking();
@@ -1043,6 +1047,10 @@ function initSortButtons() {
 /* -----------------------------------------------------------------------
    FAVORITES
    ----------------------------------------------------------------------- */
+function saveFavorites() {
+    localStorage.setItem('nutrilife-favorites', JSON.stringify(favoriteItems));
+}
+
 function extractFavoriteKeyword(offer) {
     const nameLower = offer.name.toLowerCase();
     for (const [keyword] of LOCAL_IMAGE_RULES) {
@@ -1052,52 +1060,104 @@ function extractFavoriteKeyword(offer) {
 }
 
 function isFavorited(offer) {
-    return favoriteKeywords.has(extractFavoriteKeyword(offer));
+    const kw = extractFavoriteKeyword(offer);
+    return favoriteItems.some(f => f.kw === kw);
 }
 
 function toggleFavorite(offerId) {
     const offer = allOffers.find(o => getOfferDomId(o) === offerId);
     if (!offer) return;
     const kw = extractFavoriteKeyword(offer);
-    if (favoriteKeywords.has(kw)) {
-        favoriteKeywords.delete(kw);
+    const idx = favoriteItems.findIndex(f => f.kw === kw);
+    if (idx !== -1) {
+        favoriteItems.splice(idx, 1);
     } else {
-        favoriteKeywords.add(kw);
+        favoriteItems.push({ kw, emoji: offer.emoji || '🍽️' });
     }
-    localStorage.setItem('nutrilife-favorites', JSON.stringify([...favoriteKeywords]));
-    const isNowFav = favoriteKeywords.has(kw);
-    document.querySelectorAll('.offer-card').forEach(card => {
-        const cardOffer = allOffers.find(o => getOfferDomId(o) === card.dataset.offerId);
-        if (!cardOffer || extractFavoriteKeyword(cardOffer) !== kw) return;
-        const btn = card.querySelector('.fav-btn');
-        if (!btn) return;
-        btn.classList.toggle('active', isNowFav);
-        btn.textContent = isNowFav ? '❤️' : '🤍';
+    saveFavorites();
+    const active = isFavorited(offer);
+    const btn = document.querySelector(`.offer-card[data-offer-id="${offerId}"] .fav-btn`);
+    if (btn) {
+        btn.classList.toggle('active', active);
+        btn.title = active ? 'Премахни от любими' : 'Следи този продукт';
+    }
+    renderFavoritesPanel();
+}
+
+function renderFavoritesPanel() {
+    const panel = document.getElementById('fav-panel');
+    const section = document.getElementById('fav-section');
+    if (!panel) return;
+
+    if (favoriteItems.length === 0) {
+        if (section) section.style.display = 'none';
+        panel.innerHTML = '';
+        return;
+    }
+    if (section) section.style.removeProperty('display');
+
+    const rows = favoriteItems.map(({ kw, emoji }) => {
+        const offers = allOffers
+            .filter(o => o.name && o.new_price != null && extractFavoriteKeyword(o) === kw)
+            .sort((a, b) => a.new_price - b.new_price);
+        const onSale = offers.filter(o => o.discount_pct);
+        const statusHtml = onSale.length > 0
+            ? `<span class="fav-status on-sale">🔥 ${onSale.length} намален${onSale.length === 1 ? 'и' : 'и'}</span>`
+            : offers.length > 0
+            ? `<span class="fav-status">${offers.length} оферт${offers.length === 1 ? 'а' : 'и'}</span>`
+            : `<span class="fav-status none">Няма тази седмица</span>`;
+
+        const offerRowsHtml = offers.map(o => {
+            const validity = getOfferValidityText(o, 'short');
+            const disc = o.discount_pct ? `<span class="fav-disc">-${o.discount_pct}%</span>` : '';
+            const old = o.old_price ? `<span class="fav-old">${formatPricePair(o.old_price, o.old_price_eur)}</span>` : '';
+            return `<div class="fav-offer-row">
+                <span class="fav-store">${o.store}</span>
+                <span class="fav-name">${o.name}</span>
+                <span class="fav-prices">${disc}<strong>${formatPricePair(o.new_price, o.new_price_eur)}</strong>${old}</span>
+                ${validity ? `<span class="fav-validity">${validity}</span>` : ''}
+            </div>`;
+        }).join('');
+
+        return `<div class="fav-item" data-kw="${kw}">
+            <div class="fav-item-hd">
+                <span class="fav-emoji">${emoji}</span>
+                <span class="fav-kw">${kw}</span>
+                ${statusHtml}
+                <button class="fav-rm" data-kw="${kw}" title="Премахни">×</button>
+                <span class="fav-arrow">▼</span>
+            </div>
+            <div class="fav-item-bd">
+                ${offerRowsHtml || '<div class="fav-none">Няма намаления тази седмица</div>'}
+            </div>
+        </div>`;
+    }).join('');
+
+    panel.innerHTML = `<div class="fav-panel-hd"><span>🔔 Моите любими</span><span class="fav-cnt">${favoriteItems.length}</span></div>
+        <div class="fav-panel-bd">${rows}</div>`;
+
+    panel.querySelectorAll('.fav-item-hd').forEach(hd => {
+        hd.addEventListener('click', e => {
+            if (e.target.closest('.fav-rm')) return;
+            hd.closest('.fav-item').classList.toggle('expanded');
+        });
     });
-    renderFavoritesAlert();
-    if (activeType === 'favorites') applyFilters();
-}
 
-function showFavoritesFilter() {
-    const btn = document.querySelector('.filter-btn[data-type="favorites"]');
-    if (btn) btn.click();
-}
-
-function renderFavoritesAlert() {
-    const alertEl = document.getElementById('favorites-alert');
-    if (!alertEl) return;
-    if (favoriteKeywords.size === 0) {
-        alertEl.innerHTML = '';
-        return;
-    }
-    const matching = allOffers.filter(o => isFavorited(o));
-    const uniqueKws = [...new Set(matching.map(o => extractFavoriteKeyword(o)))];
-    if (matching.length === 0) {
-        const followed = [...favoriteKeywords].slice(0, 6).join(', ');
-        alertEl.innerHTML = `<div class="favorites-alert-inner amber"><span class="fav-bell">🔔</span><div><strong>Любимите ти не са в промоция тази седмица</strong><div class="fav-kw-pills">${[...favoriteKeywords].map(k => `<span class="fav-kw-pill">${k}</span>`).join('')}</div></div></div>`;
-        return;
-    }
-    alertEl.innerHTML = `<div class="favorites-alert-inner"><span class="fav-bell">🔔</span><div><strong>${matching.length} любими продукта са в промоция тази седмица!</strong><div class="fav-kw-pills">${uniqueKws.map(k => `<span class="fav-kw-pill">${k}</span>`).join('')}</div></div><button class="btn btn-green fav-see-btn" onclick="showFavoritesFilter()">Виж →</button></div>`;
+    panel.querySelectorAll('.fav-rm').forEach(btn => {
+        btn.addEventListener('click', e => {
+            e.stopPropagation();
+            const kw = btn.dataset.kw;
+            favoriteItems = favoriteItems.filter(f => f.kw !== kw);
+            saveFavorites();
+            document.querySelectorAll('.offer-card').forEach(card => {
+                const o = allOffers.find(x => getOfferDomId(x) === card.dataset.offerId);
+                if (!o || extractFavoriteKeyword(o) !== kw) return;
+                const b = card.querySelector('.fav-btn');
+                if (b) { b.classList.remove('active'); b.title = 'Следи този продукт'; }
+            });
+            renderFavoritesPanel();
+        });
+    });
 }
 
 /* -----------------------------------------------------------------------
@@ -1163,8 +1223,6 @@ function applyFilters() {
         filtered = filtered.filter(o => isHealthyOffer(o) && isStrictHighProtein(o));
     } else if (activeType === "bulk") {
         filtered = filtered.filter(o => o.is_bulk_worthy && isHealthyOffer(o));
-    } else if (activeType === "favorites") {
-        filtered = filtered.filter(o => isFavorited(o));
     } else {
         // "all" — food only, explicitly exclude non-food categories
         filtered = filtered.filter(o =>
@@ -1619,7 +1677,7 @@ function renderOffers(offers) {
                         ${o.old_price ? `<div class="offer-old-price">${formatPricePair(o.old_price, o.old_price_eur)}</div>` : ""}
                         ${renderSparkline(o)}
                     </div>
-                    <button class="fav-btn${isFavorited(o) ? ' active' : ''}" data-offer-id="${getOfferDomId(o)}">${isFavorited(o) ? '❤️' : '🤍'}</button>
+                    <button class="fav-btn${isFavorited(o) ? ' active' : ''}" data-offer-id="${getOfferDomId(o)}" title="${isFavorited(o) ? 'Премахни от любими' : 'Следи този продукт'}">🔔</button>
                     <span class="offer-arrow">▼</span>
                 </div>
                 <div class="offer-details">
