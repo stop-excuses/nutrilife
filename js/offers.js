@@ -12,6 +12,7 @@ let searchQuery = "";
 let currentPage = 1;
 let filteredOffersCache = [];
 let allCatalogProducts = [];
+let favoriteKeywords = new Set(JSON.parse(localStorage.getItem('nutrilife-favorites') || '[]'));
 let liveFallbackByKeyword = new Map();  // keyword → real CDN image URL
 let liveFallbackByCategory = new Map(); // category → real CDN image URL
 
@@ -921,6 +922,7 @@ async function loadOffers() {
             allCatalogProducts.forEach(assignLiveImage);
         }
         applyFilters();
+        renderFavoritesAlert();
         renderPriceComparison();
         renderBulkRecommendations();
         renderProteinRanking();
@@ -1039,6 +1041,66 @@ function initSortButtons() {
 }
 
 /* -----------------------------------------------------------------------
+   FAVORITES
+   ----------------------------------------------------------------------- */
+function extractFavoriteKeyword(offer) {
+    const nameLower = offer.name.toLowerCase();
+    for (const [keyword] of LOCAL_IMAGE_RULES) {
+        if (nameLower.includes(keyword)) return keyword;
+    }
+    return nameLower.split(/[\s,()]/)[0].replace(/[^а-яa-z0-9]/gi, '') || nameLower;
+}
+
+function isFavorited(offer) {
+    return favoriteKeywords.has(extractFavoriteKeyword(offer));
+}
+
+function toggleFavorite(offerId) {
+    const offer = allOffers.find(o => getOfferDomId(o) === offerId);
+    if (!offer) return;
+    const kw = extractFavoriteKeyword(offer);
+    if (favoriteKeywords.has(kw)) {
+        favoriteKeywords.delete(kw);
+    } else {
+        favoriteKeywords.add(kw);
+    }
+    localStorage.setItem('nutrilife-favorites', JSON.stringify([...favoriteKeywords]));
+    const isNowFav = favoriteKeywords.has(kw);
+    document.querySelectorAll('.offer-card').forEach(card => {
+        const cardOffer = allOffers.find(o => getOfferDomId(o) === card.dataset.offerId);
+        if (!cardOffer || extractFavoriteKeyword(cardOffer) !== kw) return;
+        const btn = card.querySelector('.fav-btn');
+        if (!btn) return;
+        btn.classList.toggle('active', isNowFav);
+        btn.textContent = isNowFav ? '❤️' : '🤍';
+    });
+    renderFavoritesAlert();
+    if (activeType === 'favorites') applyFilters();
+}
+
+function showFavoritesFilter() {
+    const btn = document.querySelector('.filter-btn[data-type="favorites"]');
+    if (btn) btn.click();
+}
+
+function renderFavoritesAlert() {
+    const alertEl = document.getElementById('favorites-alert');
+    if (!alertEl) return;
+    if (favoriteKeywords.size === 0) {
+        alertEl.innerHTML = '';
+        return;
+    }
+    const matching = allOffers.filter(o => isFavorited(o));
+    const uniqueKws = [...new Set(matching.map(o => extractFavoriteKeyword(o)))];
+    if (matching.length === 0) {
+        const followed = [...favoriteKeywords].slice(0, 6).join(', ');
+        alertEl.innerHTML = `<div class="favorites-alert-inner amber"><span class="fav-bell">🔔</span><div><strong>Любимите ти не са в промоция тази седмица</strong><div class="fav-kw-pills">${[...favoriteKeywords].map(k => `<span class="fav-kw-pill">${k}</span>`).join('')}</div></div></div>`;
+        return;
+    }
+    alertEl.innerHTML = `<div class="favorites-alert-inner"><span class="fav-bell">🔔</span><div><strong>${matching.length} любими продукта са в промоция тази седмица!</strong><div class="fav-kw-pills">${uniqueKws.map(k => `<span class="fav-kw-pill">${k}</span>`).join('')}</div></div><button class="btn btn-green fav-see-btn" onclick="showFavoritesFilter()">Виж →</button></div>`;
+}
+
+/* -----------------------------------------------------------------------
    SEARCH — Fuse.js fuzzy search with Bulgarian plural/stem tolerance.
    Falls back to substring if Fuse is not loaded.
    ----------------------------------------------------------------------- */
@@ -1101,6 +1163,8 @@ function applyFilters() {
         filtered = filtered.filter(o => isHealthyOffer(o) && isStrictHighProtein(o));
     } else if (activeType === "bulk") {
         filtered = filtered.filter(o => o.is_bulk_worthy && isHealthyOffer(o));
+    } else if (activeType === "favorites") {
+        filtered = filtered.filter(o => isFavorited(o));
     } else {
         // "all" — food only, explicitly exclude non-food categories
         filtered = filtered.filter(o =>
@@ -1555,6 +1619,7 @@ function renderOffers(offers) {
                         ${o.old_price ? `<div class="offer-old-price">${formatPricePair(o.old_price, o.old_price_eur)}</div>` : ""}
                         ${renderSparkline(o)}
                     </div>
+                    <button class="fav-btn${isFavorited(o) ? ' active' : ''}" data-offer-id="${getOfferDomId(o)}">${isFavorited(o) ? '❤️' : '🤍'}</button>
                     <span class="offer-arrow">▼</span>
                 </div>
                 <div class="offer-details">
@@ -1992,6 +2057,12 @@ function initOfferAccordion() {
     if (!grid || grid.dataset.accordionBound === "1") return;
     grid.dataset.accordionBound = "1";
     grid.addEventListener("click", (e) => {
+        const favBtn = e.target.closest(".fav-btn");
+        if (favBtn && grid.contains(favBtn)) {
+            e.stopPropagation();
+            toggleFavorite(favBtn.dataset.offerId);
+            return;
+        }
         const card = e.target.closest(".offer-card");
         if (!card || !grid.contains(card)) return;
         const wasExpanded = card.classList.contains("expanded");
