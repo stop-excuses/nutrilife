@@ -1107,11 +1107,12 @@ def extract_fl_urls(html):
     return fl_urls
 
 
-def build_offer(name, new_price, old_price, discount_pct, image_url, store_name, valid_from=None, valid_until=None, address=None):
+def build_offer(name, new_price, old_price, discount_pct, image_url, store_name, valid_from=None, valid_until=None, address=None, weight_raw=None, weight_grams=None):
     if not name or not new_price: return None
 
-    # Try to find weight in the name if not explicitly provided
-    weight_raw, weight_grams = parse_weight(name)
+    # Use explicitly provided weight; fall back to parsing the name
+    if not weight_grams:
+        weight_raw, weight_grams = parse_weight(name)
     
     # Calculate old_price if missing but discount_pct exists
     if not old_price and discount_pct and 0 < discount_pct < 100:
@@ -1431,6 +1432,8 @@ def raw_items_to_store_result(raw_items: list[dict]) -> dict | None:
             item["store"],
             item.get("valid_from"),
             item.get("valid_until"),
+            weight_raw=item.get("weight_raw"),
+            weight_grams=item.get("weight_grams"),
         )
         if offer:
             offer["source"] = item["source"]
