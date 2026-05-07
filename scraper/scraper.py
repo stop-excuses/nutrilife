@@ -713,24 +713,67 @@ def extract_active_brochures(store_html, store_name, today=None):
 
 
 def parse_weight(name):
+    """Extract (weight_raw, weight_grams) from a product name.
+
+    Handles: кг, г, гр, г., мл, л — including multi-packs (2x300г → 600).
+    Returns (None, None) if no weight found.
+    """
     name_lower = name.lower()
-    # Skip "до" which usually indicates a maximum, not the actual weight
-    clean_name = re.sub(r'до\s+\d+[.,]?\d*\s*(кг|г|л)', '', name_lower)
-    
-    match = re.search(r'(\d+[.,]?\d*)\s*кг', clean_name)
+    # Skip "до" — indicates a maximum, not the actual weight
+    clean_name = re.sub(r'до\s+\d+[.,]?\d*\s*(кг|г|гр|л|мл)', '', name_lower)
+
+    # Multi-pack: N x M unit — e.g. "2 x 300г", "4х100 мл", "3 x 0.5кг"
+    mp = re.search(
+        r'(\d+)\s*[xхXХ×]\s*(\d+[.,]?\d*)\s*(кг|г|гр|мл|л)\b',
+        clean_name,
+    )
+    if mp:
+        count = int(mp.group(1))
+        val = float(mp.group(2).replace(',', '.'))
+        unit = mp.group(3).rstrip('.')
+        if unit == 'кг':
+            grams = int(count * val * 1000)
+        elif unit in ('г', 'гр'):
+            grams = int(count * val)
+        elif unit == 'л':
+            grams = int(count * val * 1000)
+        else:  # мл
+            grams = int(count * val)
+        if 10 <= grams <= 50000:
+            return mp.group(0).strip(), grams
+
+    # кг
+    match = re.search(r'(\d+[.,]?\d*)\s*кг\b', clean_name)
     if match:
         val = float(match.group(1).replace(',', '.'))
-        return match.group(0).strip(), int(val * 1000)
-    match = re.search(r'(\d+)\s*г(?!од)', clean_name)
-    if match:
-        return match.group(0).strip(), int(match.group(1))
-    match = re.search(r'(\d+)\s*мл', clean_name)
-    if match:
-        return match.group(0).strip(), int(match.group(1))
-    match = re.search(r'(\d+[.,]?\d*)\s*л(?!в)', clean_name)
+        grams = int(val * 1000)
+        if 10 <= grams <= 50000:
+            return match.group(0).strip(), grams
+
+    # г / гр — not followed by "од" (год = year)
+    match = re.search(r'(\d+[.,]?\d*)\s*г(?:р\.?)?(?!од)\b', clean_name)
     if match:
         val = float(match.group(1).replace(',', '.'))
-        return match.group(0).strip(), int(val * 1000)
+        grams = int(val)
+        if 10 <= grams <= 50000:
+            return match.group(0).strip(), grams
+
+    # мл
+    match = re.search(r'(\d+[.,]?\d*)\s*мл\b', clean_name)
+    if match:
+        val = float(match.group(1).replace(',', '.'))
+        grams = int(val)
+        if 10 <= grams <= 50000:
+            return match.group(0).strip(), grams
+
+    # л — not followed by "в" (лв = leva)
+    match = re.search(r'(\d+[.,]?\d*)\s*л(?!в)\b', clean_name)
+    if match:
+        val = float(match.group(1).replace(',', '.'))
+        grams = int(val * 1000)
+        if 10 <= grams <= 50000:
+            return match.group(0).strip(), grams
+
     return None, None
 
 
@@ -1211,8 +1254,12 @@ def reclassify_offer(offer):
             macros = merged
     diet_tags = get_diet_tags(name) if healthy else []
 
-    # Already parsed if possible
-    weight_raw, weight_grams = parse_weight(name)
+    # Use scraper-provided weight if present; fall back to parsing the name
+    if offer.get("weight_grams"):
+        weight_raw = offer.get("weight_raw")
+        weight_grams = offer.get("weight_grams")
+    else:
+        weight_raw, weight_grams = parse_weight(name)
     price_per_kg = None
     if weight_grams and weight_grams > 0 and offer.get("new_price") is not None:
         price_per_kg = round(offer["new_price"] / weight_grams * 1000, 2)

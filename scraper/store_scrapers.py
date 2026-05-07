@@ -105,6 +105,70 @@ def clean_ocr_name(name: str) -> Optional[str]:
     return name
 
 
+def extract_weight(text: str) -> tuple[Optional[str], Optional[int]]:
+    """Extract (weight_raw, weight_grams) from any text snippet.
+
+    Handles both Cyrillic (кг/г/гр/мл/л) and Latin (kg/g/gr/ml/l) units,
+    including multi-packs (2x300г → 600, 3 x 100g → 300).
+    Returns (None, None) if nothing found.
+    """
+    if not text:
+        return None, None
+    t = text.lower().strip()
+    # Remove "до N unit" (max weight, not product weight)
+    t = re.sub(r'до\s+\d+[.,]?\d*\s*(кг|г|гр|л|мл|kg|g|ml|l)\b', '', t)
+
+    # Unit patterns: Cyrillic and Latin, mapped to multiplier (to grams)
+    # Order matters: longer units first to avoid partial matches
+    UNITS = {
+        'кг': 1000, 'kg': 1000,
+        'гр': 1, 'gr': 1,
+        'г': 1, 'g': 1,
+        'мл': 1, 'ml': 1,
+        'л': 1000, 'l': 1000,
+    }
+    # Build combined unit pattern (longest first)
+    unit_pat = '|'.join(re.escape(u) for u in sorted(UNITS, key=len, reverse=True))
+
+    # Multi-pack: N x M unit — e.g. "2 x 300г", "4х100 ml", "3 x 0.5kg"
+    mp = re.search(
+        rf'(\d+)\s*[xхXХ×]\s*(\d+[.,]?\d*)\s*({unit_pat})\b',
+        t,
+    )
+    if mp:
+        count = int(mp.group(1))
+        val = float(mp.group(2).replace(',', '.'))
+        unit = mp.group(3)
+        multiplier = UNITS.get(unit, 1)
+        grams = int(count * val * multiplier)
+        if 10 <= grams <= 50000:
+            return mp.group(0).strip(), grams
+
+    # Single quantity
+    m = re.search(
+        rf'(\d+[.,]?\d*)\s*({unit_pat})\b',
+        t,
+    )
+    if m:
+        raw_unit = m.group(2)
+        # Exclude "г" matched inside "год" (year in Russian/Bulgarian)
+        if raw_unit == 'г' and re.search(r'г(?:од)', t[m.start():]):
+            pass
+        # Exclude "л" matched inside "лв" (leva currency)
+        elif raw_unit == 'l' and t[m.end():m.end()+1] == 'v':
+            pass
+        elif raw_unit == 'л' and t[m.end():m.end()+1] == 'в':
+            pass
+        else:
+            val = float(m.group(1).replace(',', '.'))
+            multiplier = UNITS.get(raw_unit, 1)
+            grams = int(val * multiplier)
+            if 10 <= grams <= 50000:
+                return m.group(0).strip(), grams
+
+    return None, None
+
+
 def make_raw_item(
     name: str,
     new_price: float,
@@ -113,8 +177,13 @@ def make_raw_item(
     image: Optional[str] = None,
     store: str = "",
     source: str = "",
+    weight_raw: Optional[str] = None,
+    weight_grams: Optional[int] = None,
     **extra,
 ) -> dict:
+    # If no explicit weight, try extracting from name
+    if weight_grams is None:
+        weight_raw, weight_grams = extract_weight(name)
     item = {
         "name": name.strip(),
         "new_price": new_price,
@@ -123,6 +192,8 @@ def make_raw_item(
         "image": image or FALLBACK_IMAGE,
         "store": store,
         "source": source,
+        "weight_raw": weight_raw,
+        "weight_grams": weight_grams,
     }
     item.update(extra)
     return item
@@ -220,9 +291,19 @@ async def scrape_kaufland_dom(browser) -> list[dict]:
                 if not image:
                     image = img_el.get("src")
 
+            # Weight — check dedicated quantity/description elements before falling back to name
+            weight_raw_item, weight_grams_item = None, None
+            qty_el = card.select_one(
+                ".k-product-tile__quantity, .k-product-tile__description, "
+                "[class*='quantity'], [class*='grammage'], [class*='weight']"
+            )
+            if qty_el:
+                weight_raw_item, weight_grams_item = extract_weight(qty_el.get_text(strip=True))
+
             items.append(make_raw_item(
                 name, new_price, old_price, discount_pct, image, "Kaufland", "kaufland_dom",
                 valid_from=kauf_valid_from, valid_until=kauf_valid_until,
+                weight_raw=weight_raw_item, weight_grams=weight_grams_item,
             ))
 
         print(f"  [Kaufland DOM] {len(items)} raw items from {KAUFLAND_OFFERS_URL}")
@@ -363,9 +444,16 @@ def scrape_billa_text() -> list[dict]:
             if discount_pct is None and old_price and old_price > new_price:
                 discount_pct = int(round((1 - new_price / old_price) * 100))
 
+            # Weight — check product description element if available
+            weight_raw_item, weight_grams_item = None, None
+            desc_el = card.select_one(".productDescription, .product-description, .productInfo, [class*='description']")
+            if desc_el:
+                weight_raw_item, weight_grams_item = extract_weight(desc_el.get_text(strip=True))
+
             items.append(make_raw_item(
                 name, new_price, old_price, discount_pct, None, "Billa", "billa_text",
                 valid_from=valid_from, valid_until=valid_until,
+                weight_raw=weight_raw_item, weight_grams=weight_grams_item,
             ))
 
         print(f"  [Billa text] {len(items)} raw items from {BILLA_URL}")
@@ -456,8 +544,18 @@ def _parse_lidl_grid_data(raw: str, source: str) -> dict | None:
             valid_until = _parse_date_iso(str(v)[:10])
             break
 
+    # Weight — check JSON fields common in Lidl's product API
+    weight_raw_item, weight_grams_item = None, None
+    for wf in ("grammage", "baseQuantity", "netContent", "packagingInfo", "weight", "quantity"):
+        wv = data.get(wf)
+        if wv and str(wv).strip():
+            weight_raw_item, weight_grams_item = extract_weight(str(wv))
+            if weight_grams_item:
+                break
+
     source_type = "promo" if old_price or discount_pct else "assortment"
     return make_raw_item(name, new_price, old_price, discount_pct, image, "Lidl", source,
+                         weight_raw=weight_raw_item, weight_grams=weight_grams_item,
                          source_type=source_type, valid_from=valid_from, valid_until=valid_until)
 
 
@@ -780,10 +878,20 @@ def _parse_tmarket_cards(soup: BeautifulSoup, source: str) -> list[dict]:
         if img_el:
             image = img_el.get("data-first-src") or img_el.get("data-src") or img_el.get("src")
 
+        # Weight — check dedicated quantity element before falling back to name
+        weight_raw_item, weight_grams_item = None, None
+        wt_el = card.select_one(
+            "._product-weight, ._product-quantity, [class*='weight'], [class*='quantity'], "
+            "._product-short-description"
+        )
+        if wt_el:
+            weight_raw_item, weight_grams_item = extract_weight(wt_el.get_text(strip=True))
+
         source_type = "promo" if (old_price or discount_pct) else "assortment"
         items.append(make_raw_item(
             name, new_price, old_price, discount_pct, image, "T-Market", source,
             source_type=source_type,
+            weight_raw=weight_raw_item, weight_grams=weight_grams_item,
         ))
     return items
 
