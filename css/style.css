@@ -1918,24 +1918,35 @@ input[type="range"]::-moz-range-thumb {
     flex-shrink: 0;
 }
 
-/* Follow button — overlaid on image bottom-right */
+/* Follow button — base style (used in profile-recs, fav panel etc.) */
 .fav-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.25rem;
+    padding: 3px 2px;
+    flex-shrink: 0;
+    opacity: 0.4;
+    transition: opacity 0.15s, transform 0.15s;
+    line-height: 1;
+}
+.fav-btn:hover { opacity: 0.8; transform: scale(1.15); }
+.fav-btn.active { opacity: 1; transform: scale(1.05); }
+
+/* Follow button overlaid on product image */
+.offer-img-cell .fav-btn {
     position: absolute;
     bottom: 2px;
     right: 2px;
     background: rgba(10,10,10,0.55);
-    border: none;
-    cursor: pointer;
-    font-size: 1.1rem;
-    padding: 3px 4px;
     border-radius: 50%;
+    font-size: 1rem;
+    padding: 3px 4px;
     opacity: 0.55;
-    transition: opacity 0.15s, transform 0.15s;
-    line-height: 1;
     z-index: 1;
 }
-.fav-btn:hover { opacity: 0.9; transform: scale(1.15); }
-.fav-btn.active { opacity: 1; transform: scale(1.05); background: rgba(10,10,10,0.7); }
+.offer-img-cell .fav-btn:hover { opacity: 0.95; background: rgba(10,10,10,0.75); }
+.offer-img-cell .fav-btn.active { opacity: 1; background: rgba(10,10,10,0.7); }
 
 /* Favorites panel */
 #fav-section { padding-top: 0; padding-bottom: 8px; }
