@@ -1764,7 +1764,10 @@ function renderOffers(offers) {
         return `
             <div class="offer-card" data-offer-id="${getOfferDomId(o)}">
                 <div class="offer-header">
-                    ${imgTag}
+                    <div class="offer-img-cell">
+                        ${imgTag}
+                        <button class="fav-btn${isFavorited(o) ? ' active' : ''}" data-offer-id="${getOfferDomId(o)}" title="${isFavorited(o) ? 'Премахни от любими' : 'Следи този продукт'}">❤️</button>
+                    </div>
                     <div class="offer-info-main">
                         <div class="offer-name">${o.name}</div>
                         <div class="offer-store">${stores}</div>
@@ -1778,7 +1781,6 @@ function renderOffers(offers) {
                         ${displayPpk ? `<div class="offer-ppk">${formatPricePair(displayPpk, displayPpk / 1.95583, "/кг")}</div>` : ""}
                         ${renderSparkline(o)}
                     </div>
-                    <button class="fav-btn${isFavorited(o) ? ' active' : ''}" data-offer-id="${getOfferDomId(o)}" title="${isFavorited(o) ? 'Премахни от любими' : 'Следи този продукт'}">❤️</button>
                     <span class="offer-arrow">▼</span>
                 </div>
                 <div class="offer-details">
@@ -1981,14 +1983,16 @@ function renderProteinRanking() {
             <div class="protein-rank-item offer-card" data-offer-id="${getOfferDomId(o)}">
                 <div class="protein-rank-header offer-header">
                     <div class="rank-medal">${medal}</div>
-                    ${renderOfferThumb(o)}
+                    <div class="offer-img-cell">
+                        ${renderOfferThumb(o)}
+                        <button class="fav-btn${isFavorited(o) ? ' active' : ''}" data-offer-id="${getOfferDomId(o)}" title="${isFavorited(o) ? 'Премахни от любими' : 'Следи този продукт'}">❤️</button>
+                    </div>
                     <div class="rank-info">
                         <div class="rank-name">${o.name}</div>
                         <div class="rank-meta">${m.p}г протеин/100г · ${m.f}г мазнини · ${m.c}г въгл. · ${formatPricePair(o.new_price, o.new_price_eur)} · ${o.store}${getOfferValidityText(o, "short") ? ` · ${getOfferValidityText(o, "short")}` : ""}</div>
                         <div class="rank-bar-bg"><div class="rank-bar-fill" style="width:${barWidth}%"></div></div>
                     </div>
                     <div class="rank-value">${o.adjustedProteinPerEur.toFixed(1)}г/€</div>
-                    <button class="fav-btn${isFavorited(o) ? ' active' : ''}" data-offer-id="${getOfferDomId(o)}" title="${isFavorited(o) ? 'Премахни от любими' : 'Следи този продукт'}">❤️</button>
                     <span class="offer-arrow">▼</span>
                 </div>
                 <div class="offer-details">
