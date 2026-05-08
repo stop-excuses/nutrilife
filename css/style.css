@@ -1818,6 +1818,10 @@ input[type="range"]::-moz-range-thumb {
 .offer-card.expanded .offer-name {
     white-space: normal;
     font-size: 0.9rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
 .offer-store {
@@ -1908,20 +1912,30 @@ input[type="range"]::-moz-range-thumb {
     grid-template-rows: 1fr;
 }
 
-/* Follow button on offer cards */
+/* Image cell wraps thumb + fav heart overlay */
+.offer-img-cell {
+    position: relative;
+    flex-shrink: 0;
+}
+
+/* Follow button — overlaid on image bottom-right */
 .fav-btn {
-    background: none;
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+    background: rgba(10,10,10,0.55);
     border: none;
     cursor: pointer;
-    font-size: 1.55rem;
-    padding: 4px 3px;
-    flex-shrink: 0;
-    opacity: 0.38;
+    font-size: 1.1rem;
+    padding: 3px 4px;
+    border-radius: 50%;
+    opacity: 0.55;
     transition: opacity 0.15s, transform 0.15s;
     line-height: 1;
+    z-index: 1;
 }
-.fav-btn:hover { opacity: 0.75; transform: scale(1.15); }
-.fav-btn.active { opacity: 1; transform: scale(1.05); }
+.fav-btn:hover { opacity: 0.9; transform: scale(1.15); }
+.fav-btn.active { opacity: 1; transform: scale(1.05); background: rgba(10,10,10,0.7); }
 
 /* Favorites panel */
 #fav-section { padding-top: 0; padding-bottom: 8px; }
