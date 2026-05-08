@@ -1912,60 +1912,93 @@ function renderPriceComparison() {
 /* -----------------------------------------------------------------------
    BULK RECOMMENDATIONS
    ----------------------------------------------------------------------- */
+const BULK_SHELF_STABLE_CATEGORIES = new Set(['canned', 'legume', 'grain', 'nuts', 'fat']);
+
+const BULK_CATEGORY_LABELS = {
+    canned: "🥫 Консерви",
+    legume: "🫘 Бобови",
+    grain:  "🌾 Зърнени",
+    nuts:   "🥜 Ядки",
+    fat:    "🫒 Мазнини",
+};
+
+const BULK_SHELF_LIFE_LABELS = {
+    "3+г":  "Трае 3+ год.",
+    "2-3г": "Трае 2-3 год.",
+    "1-2г": "Трае 1-2 год.",
+    "6-12м":"Трае 6-12 мес.",
+};
+
 function renderBulkRecommendations() {
     const container = document.getElementById("bulk-recommendations");
     if (!container) return;
 
     const bulkItems = allOffers
-        .filter(o => o.is_bulk_worthy && isHealthyOffer(o) && (o.health_score || 0) >= 7)
+        .filter(o =>
+            o.is_bulk_worthy &&
+            isHealthyOffer(o) &&
+            (o.health_score || 0) >= 6 &&
+            BULK_SHELF_STABLE_CATEGORIES.has(o.category)
+        )
         .sort((a, b) => {
+            if ((b.discount_pct || 0) !== (a.discount_pct || 0)) return (b.discount_pct || 0) - (a.discount_pct || 0);
             if ((b.health_score || 0) !== (a.health_score || 0)) return (b.health_score || 0) - (a.health_score || 0);
-            const ppkA = a.price_per_kg || 999;
-            const ppkB = b.price_per_kg || 999;
-            if (ppkA !== ppkB) return ppkA - ppkB;
-            return (b.discount_pct || 0) - (a.discount_pct || 0);
+            return (a.price_per_kg || 999) - (b.price_per_kg || 999);
         });
 
     if (bulkItems.length === 0) {
-        container.innerHTML = '<p style="color:var(--muted);">Няма bulk оферти тази седмица.</p>';
+        container.innerHTML = '<p style="color:var(--muted);">Няма подходящи консерви или зърнени в промоция тази седмица.</p>';
         return;
     }
-
-    const categoryLabels = {
-        grain:  "🌾 Зърнени",
-        legume: "🫘 Бобови",
-        canned: "🥫 Консерви",
-        nuts:   "🥜 Ядки",
-        fat:    "🫒 Мазнини",
-        dairy:  "🥛 Млечни",
-    };
 
     container.innerHTML = `
         <div class="bulk-grid">
             ${bulkItems.slice(0, 12).map(item => {
-                const savings = item.old_price ? ((item.old_price - item.new_price) * 5).toFixed(2) : null;
+                const disc = item.discount_pct || 0;
+                const discTag = disc ? `<div class="bulk-disc-tag">−${disc}%</div>` : '';
+                const shelfLabel = BULK_SHELF_LIFE_LABELS[item.shelf_life] || '';
+                const shelfTag = shelfLabel ? `<div class="bulk-shelf-tag">${shelfLabel}</div>` : '';
+                const thumb = renderOfferThumb(item);
+                const catLabel = BULK_CATEGORY_LABELS[item.category] || '';
+                const ppkg = item.price_per_kg
+                    ? `<div class="bulk-ppkg">${item.price_per_kg.toFixed(2)} лв/кг · ${item.weight_raw || ''}</div>`
+                    : '';
                 const validityText = getOfferValidityText(item, "short");
+
+                let savingsHtml = '';
+                if (item.old_price && disc >= 10) {
+                    const savedPer = (item.old_price - item.new_price).toFixed(2);
+                    const saved5 = ((item.old_price - item.new_price) * 5).toFixed(2);
+                    savingsHtml = `<div class="bulk-savings">Спести ${savedPer} лв на брой<br/>при 5 броя → ~${saved5} лв</div>`;
+                } else {
+                    savingsHtml = `<div class="bulk-savings">Дълъг срок на годност — купи повече и зареди</div>`;
+                }
+
                 return `
-                    <div class="bulk-card">
-                        <div class="bulk-card-top">
-                            ${renderOfferThumb(item)}
-                            <div>
-                                <div class="bulk-category">${categoryLabels[item.category] || item.category}</div>
-                                <div class="offer-name">${item.name}</div>
-                            </div>
+                    <div class="bulk-card" data-offer-link="${getOfferDomId(item)}">
+                        <div class="bulk-card-img">
+                            ${thumb}
+                            ${discTag}
+                            ${shelfTag}
                         </div>
-                        <div class="bulk-price">${formatPricePair(item.new_price, item.new_price_eur)}</div>
-                        ${validityText ? `<div class="bulk-meta">${validityText}</div>` : ""}
-                        ${item.price_per_kg ? `<div class="bulk-meta">${formatPricePair(item.price_per_kg, item.price_per_kg_eur, "/кг")}</div>` : ""}
-                        ${savings ? `<div class="bulk-tip">Купи 5 броя и спести ~${savings} лв.</div>` : `<div class="bulk-tip">Добра покупка за по-рядко зареждане.</div>`}
-                        <button class="comparison-open-btn mt-16" data-offer-link="${getOfferDomId(item)}">Отвори продукта</button>
+                        <div class="bulk-body">
+                            ${catLabel ? `<div class="bulk-cat-label">${catLabel}</div>` : ''}
+                            <div class="bulk-name">${item.name}</div>
+                            <div class="bulk-price-main">${item.new_price.toFixed(2)} лв</div>
+                            ${ppkg}
+                            <div class="bulk-store-row">${item.store}${disc ? ` · −${disc}%` : ''}</div>
+                            ${savingsHtml}
+                            ${validityText ? `<div class="bulk-validity">${validityText}</div>` : ''}
+                        </div>
                     </div>
                 `;
             }).join("")}
         </div>
     `;
 
-    bindOfferLinkButtons(container);
+    container.querySelectorAll('.bulk-card[data-offer-link]').forEach(card => {
+        card.addEventListener('click', () => openOfferInGrid(card.dataset.offerLink));
+    });
 }
 
 /* -----------------------------------------------------------------------
