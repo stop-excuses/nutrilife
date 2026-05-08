@@ -1576,7 +1576,7 @@ function renderStoreComparisonList(offer) {
             ${comparisons.map(item => `
                 <div class="comparison-mini-row ${item.isBest ? "best" : ""}">
                     <span>${escapeHtml(item.store)}</span>
-                    <span>${formatPricePair(item.new_price, item.new_price_eur)}${item.source_type === "promo" ? " · промо" : ""}</span>
+                    <span>${item.new_price.toFixed(2)} лв${item.source_type === "promo" ? " · промо" : ""}</span>
                 </div>
             `).join("")}
         </div>
@@ -2139,7 +2139,7 @@ function renderProteinRanking() {
                     </div>
                     <div class="rank-info">
                         <div class="rank-name">${o.name}</div>
-                        <div class="rank-meta">${m.p}г протеин/100г · ${m.f}г мазнини · ${m.c}г въгл. · ${formatPricePair(o.new_price, o.new_price_eur)} · ${o.store}${getOfferValidityText(o, "short") ? ` · ${getOfferValidityText(o, "short")}` : ""}</div>
+                        <div class="rank-meta">${m.p}г протеин/100г · ${m.f}г мазнини · ${m.c}г въгл. · ${o.new_price.toFixed(2)} лв · ${o.store}${getOfferValidityText(o, "short") ? ` · ${getOfferValidityText(o, "short")}` : ""}</div>
                         <div class="rank-bar-bg"><div class="rank-bar-fill" style="width:${barWidth}%"></div></div>
                     </div>
                     <div class="rank-value">${o.adjustedProteinPerEur.toFixed(1)}г/€</div>
@@ -2154,7 +2154,7 @@ function renderProteinRanking() {
                             ${isCuredLeanMeat(o) ? `<div class="details-row"><strong>Бележка:</strong> <span>Лек penalty за сол/сушене, но без penalty за готвене.</span></div>` : ""}
                             ${o.edibleYield < 1 ? `<div class="details-row"><strong>Корекция за ядлив добив:</strong> <span>${Math.round(o.edibleYield * 100)}%</span></div>` : ""}
                             ${o.proteinQuality !== 1 ? `<div class="details-row"><strong>Коефициент за качество:</strong> <span>${o.proteinQuality.toFixed(2)}x</span></div>` : ""}
-                            <div class="details-row"><strong>Цена:</strong> <span>${formatPricePair(o.new_price, o.new_price_eur)}</span></div>
+                            <div class="details-row"><strong>Цена:</strong> <span>${o.new_price.toFixed(2)} лв</span></div>
                             <div class="details-row"><strong>Макроси:</strong> <span>${m.p}г P · ${m.f}г F · ${m.c}г C</span></div>
                             ${renderIngredientsFlags(o)}
                             ${renderPriceHistory(o)}
@@ -2291,7 +2291,7 @@ function renderBaselineRecommendations() {
                                 </div>
                                 <div class="bulk-price">Обичайна цена ~${formatRoundedHalfLev(typical)} лв</div>
                                 ${lowest != null ? `<div class="bulk-meta">Най-ниска видяна: ${formatRoundedHalfLev(lowest)} лв</div>` : ""}
-                                ${item.price_per_kg ? `<div class="bulk-meta">${formatPricePair(item.price_per_kg, item.price_per_kg_eur, "/кг")}</div>` : ""}
+                                ${item.price_per_kg ? `<div class="bulk-meta">${item.price_per_kg.toFixed(2)} лв/кг</div>` : ""}
                                 ${metrics ? `<div class="bulk-tip">Около ${metrics.adjustedProteinPerLev.toFixed(1)} г ефективен протеин на 1 лв.</div>` : `<div class="bulk-tip">Силен базов продукт дори когато не е на промоция.</div>`}
                             </div>
                         `;
@@ -2343,9 +2343,8 @@ function renderProfileRecommendations(profile) {
                 ${renderOfferThumb(o)}
                 <div class="offer-info">
                     <div class="offer-name">${o.name}</div>
-                    <div class="offer-store">${o.store} — <em class="green">${formatPricePair(o.new_price, o.new_price_eur)}</em></div>
-                    <div class="health-badge high">★ ${o.health_score}/10</div>
-                    ${o.price_per_kg ? `<div style="font-size:0.8rem; color:var(--muted); margin-top:4px;">${formatPricePair(o.price_per_kg, o.price_per_kg_eur, "/кг")}</div>` : ""}
+                    <div class="offer-store">${o.store} — <em class="green">${o.new_price.toFixed(2)} лв</em></div>
+                    ${o.price_per_kg ? `<div style="font-size:0.8rem; color:var(--muted); margin-top:4px;">${o.price_per_kg.toFixed(2)} лв/кг</div>` : ""}
                 </div>
                 <button class="fav-btn${isFavorited(o) ? ' active' : ''}" data-offer-id="${getOfferDomId(o)}" title="${isFavorited(o) ? 'Премахни от любими' : 'Следи този продукт'}">❤️</button>
             </div>
