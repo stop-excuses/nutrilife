@@ -1825,70 +1825,77 @@ function renderOffers(offers) {
 /* -----------------------------------------------------------------------
    PRICE COMPARISON
    ----------------------------------------------------------------------- */
+const STAPLES = [
+    { emoji: '🥛', label: 'Кисело мляко',       match: ['кисело мляко'] },
+    { emoji: '🍶', label: 'Скир',                match: ['скир'] },
+    { emoji: '🥚', label: 'Яйца',               match: ['яйц'] },
+    { emoji: '🫒', label: 'Зехтин',             match: ['зехтин'] },
+    { emoji: '🐟', label: 'Риба тон',           match: ['риба тон'] },
+    { emoji: '🐠', label: 'Скумрия',            match: ['скумрия'] },
+    { emoji: '🫘', label: 'Нахут',              match: ['нахут'] },
+    { emoji: '🫛', label: 'Боб',                match: ['боб'] },
+    { emoji: '🟤', label: 'Леща',               match: ['леща'] },
+    { emoji: '🍗', label: 'Пилешко',            match: ['пилешко филе', 'пилешки гър', 'пилешко бонл'] },
+    { emoji: '🍞', label: 'Пълнозърнест хляб',  match: ['пълнозърнест'] },
+];
+
 function renderPriceComparison() {
     const container = document.getElementById("price-comparison");
     if (!container) return;
 
-    const comparisonKeys = [...new Set(
-        allOffers
-            .filter(offer => isHealthyOffer(offer))
-            .map(offer => offer._comparisonKey)
-            .filter(Boolean)
-    )];
+    const cards = STAPLES.map(staple => {
+        const matching = allOffers.filter(o => {
+            const nl = o.name.toLowerCase();
+            return staple.match.some(kw => nl.includes(kw));
+        });
 
-    const comparisons = comparisonKeys
-        .map(key => getBestComparableOffersByStore(key))
-        .filter(items => items.length > 1)
-        .map(items => {
-            const best = items[0];
-            const second = items[1];
-            const worst = items[items.length - 1];
-            const saving = second ? Math.max(0, second.new_price - best.new_price) : 0;
-            const bestHealth = Math.max(...items.map(item => item.health_score || 0));
-            return { best, items, worst, saving, bestHealth };
-        })
-        .filter(({ best, worst, saving }) => worst && best && worst.new_price > best.new_price && saving > 0)
-        .sort((a, b) => {
-            if (b.bestHealth !== a.bestHealth) return b.bestHealth - a.bestHealth;
-            if (b.items.length !== a.items.length) return b.items.length - a.items.length;
-            if (b.saving !== a.saving) return b.saving - a.saving;
-            return a.best.new_price - b.best.new_price;
-        })
-        .slice(0, 12);
+        const byStore = {};
+        matching.forEach(o => {
+            const sortKey = o.price_per_kg || o.new_price;
+            const prev = byStore[o.store];
+            if (!prev || sortKey < (prev.price_per_kg || prev.new_price)) {
+                byStore[o.store] = o;
+            }
+        });
 
-    if (!comparisons.length) {
-        container.innerHTML = '<p style="color:var(--muted);">Още няма достатъчно припокриващи се продукти за сравнение.</p>';
-        return;
-    }
+        const storeList = Object.values(byStore).sort((a, b) =>
+            (a.price_per_kg || a.new_price) - (b.price_per_kg || b.new_price)
+        );
 
-    container.innerHTML = comparisons.map(({ best, items, worst, saving }) => `
-        <div class="comparison-card">
-            <div class="comparison-card-head">
-                <div>
-                    <div class="comparison-name">${best.name}</div>
-                    <div class="comparison-subtitle">${items.length} магазина · най-евтино в ${best.store}</div>
-                </div>
-                <div>
-                    <div class="comparison-price">${formatPricePair(best.new_price, best.new_price_eur)}</div>
-                    <button class="comparison-open-btn" data-offer-link="${getOfferDomId(best)}">Отвори продукта</button>
-                </div>
-            </div>
-            <div class="comparison-list">
-                ${items.slice(0, 5).map((item, index) => `
-                    <div class="comparison-row ${index === 0 ? "best" : ""}">
-                        <span>${item.store}</span>
-                        <span>${formatPricePair(item.new_price, item.new_price_eur)}${item.source_type === "promo" ? " · промо" : ""}</span>
-                    </div>
-                `).join("")}
-            </div>
-            <div class="comparison-footer">
-                ${saving > 0 ? `Спестяване спрямо следващата цена: <span class="green">${saving.toFixed(2)} лв</span>` : "Без голяма разлика между магазините"}
-                ${worst && worst !== best ? ` · най-висока цена: ${formatPricePair(worst.new_price, worst.new_price_eur)} в ${worst.store}` : ""}
-            </div>
-        </div>
-    `).join("");
+        if (storeList.length === 0) {
+            return `
+                <div class="staple-card no-promo">
+                    <div class="staple-emoji">${staple.emoji}</div>
+                    <div class="staple-name">${staple.label}</div>
+                    <div class="staple-no-data">не е в промоция</div>
+                </div>`;
+        }
 
-    bindOfferLinkButtons(container);
+        const best = storeList[0];
+        const disc = best.discount_pct || 0;
+        const dealClass = disc >= 15 ? 'deal-good' : disc >= 5 ? 'deal-ok' : '';
+        const pkgHtml = best.price_per_kg
+            ? `<span class="staple-pkg">${best.price_per_kg.toFixed(2)} лв/кг · ${best.weight_raw || ''}</span>`
+            : '';
+        const discStr = disc ? ` −${disc}%` : '';
+        const othersHtml = storeList.slice(1).map(o => `
+            <div class="staple-other-row">
+                <span>${o.store}</span>
+                <span>${o.new_price.toFixed(2)} лв</span>
+            </div>`).join('');
+
+        return `
+            <div class="staple-card ${dealClass}">
+                <div class="staple-emoji">${staple.emoji}</div>
+                <div class="staple-name">${staple.label}</div>
+                <div class="staple-best-price">${best.new_price.toFixed(2)} лв</div>
+                ${pkgHtml}
+                <div class="staple-store-badge">${best.store}${discStr}</div>
+                ${othersHtml.length ? `<div class="staple-others">${othersHtml}</div>` : ''}
+            </div>`;
+    });
+
+    container.innerHTML = `<div class="staples-grid">${cards.join('')}</div>`;
 }
 
 /* -----------------------------------------------------------------------

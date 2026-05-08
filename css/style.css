@@ -2379,6 +2379,77 @@ input[type="range"]::-moz-range-thumb {
     color: var(--text);
 }
 
+/* ── Staples price grid ─────────────────────────────── */
+.staples-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(148px, 1fr));
+    gap: 12px;
+    margin-top: 4px;
+}
+
+.staple-card {
+    background: #161616;
+    border: 1px solid #252525;
+    border-radius: 14px;
+    padding: 18px 12px 14px;
+    text-align: center;
+    transition: transform 0.15s, box-shadow 0.15s;
+}
+.staple-card:hover { transform: translateY(-2px); box-shadow: 0 4px 18px rgba(0,0,0,0.45); }
+
+.staple-card.deal-good { background: #0d1a08; border-color: #2a3d1e; }
+.staple-card.deal-ok   { background: #1a1408; border-color: #3d2e14; }
+.staple-card.no-promo  { opacity: 0.55; }
+
+.staple-emoji { font-size: 2.2rem; line-height: 1; }
+.staple-name  { font-size: 0.78rem; color: var(--muted); margin: 8px 0 6px; min-height: 2.4em; display: flex; align-items: center; justify-content: center; }
+
+.staple-best-price { font-size: 1.4rem; font-weight: 800; color: var(--text); line-height: 1.1; }
+.staple-card.deal-good .staple-best-price { color: #97C459; }
+.staple-card.deal-ok   .staple-best-price { color: #d4a64e; }
+
+.staple-pkg {
+    display: block;
+    font-size: 0.7rem;
+    color: var(--muted2);
+    margin-top: 2px;
+}
+
+.staple-store-badge {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 3px 10px;
+    border-radius: 999px;
+    font-size: 0.72rem;
+    font-weight: 700;
+    background: rgba(151, 196, 89, 0.14);
+    color: #97C459;
+    letter-spacing: 0.01em;
+}
+.staple-card.deal-ok .staple-store-badge { background: rgba(186,117,23,0.18); color: #d4a64e; }
+.staple-card.no-promo .staple-store-badge { background: rgba(176,175,166,0.1); color: var(--muted); }
+
+.staple-others {
+    margin-top: 10px;
+    border-top: 1px solid rgba(255,255,255,0.05);
+    padding-top: 8px;
+}
+
+.staple-other-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.71rem;
+    color: var(--muted2);
+    padding: 2px 0;
+}
+
+.staple-no-data { font-size: 0.78rem; color: var(--muted2); margin-top: 10px; }
+
+@media (max-width: 480px) {
+    .staples-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+    .staple-best-price { font-size: 1.2rem; }
+}
+
 .offer-meta span {
     background: rgba(255, 255, 255, 0.04);
     padding: 2px 8px;
