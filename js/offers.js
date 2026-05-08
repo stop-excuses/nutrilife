@@ -1917,8 +1917,8 @@ const STAPLES = [
     { label: 'Овесена каша',       img: 'images/foods/oats.svg',      match: ['овесен', 'овес'],                   not: ['бисквит', 'гранол', 'мюсли', 'бар', 'крем', 'торта', 'кекс'] },
     { label: 'Леща',               img: 'images/foods/lentils.svg',   match: ['леща'] },
     { label: 'Нахут',              img: 'images/foods/chickpeas.svg', match: ['нахут'] },
-    { label: 'Орехи',              img: 'images/foods/walnuts.svg',   match: ['орех'],                             not: ['орехч', 'бисквит', 'кекс', 'торта', 'баниц', 'десерт', 'мюсли', 'шокол'] },
-    { label: 'Пълнозърнест хляб',  img: 'images/foods/rye-bread.svg', match: ['пълнозърнест'],                     not: ['брашн', 'гриси', 'бисквит'] },
+    { label: 'Орехи',              img: 'images/foods/walnuts.svg',   match: ['орех'],                             not: ['орехч', 'кокос', 'ореховк', 'бисквит', 'кекс', 'торта', 'баниц', 'десерт', 'мюсли', 'шокол'], cat: 'nuts' },
+    { label: 'Пълнозърнест хляб',  img: 'images/foods/rye-bread.svg', match: ['пълнозърнест'],                     not: ['брашн', 'гриси', 'бисквит', 'макарон', 'паста', 'фусил', 'пене', 'спагет', 'вермишел'] },
 ];
 
 function renderPriceComparison() {
@@ -1929,7 +1929,8 @@ function renderPriceComparison() {
         const matching = allOffers.filter(o => {
             const nl = o.name.toLowerCase();
             return staple.match.some(kw => nl.includes(kw))
-                && (!staple.not || staple.not.every(bw => !nl.includes(bw)));
+                && (!staple.not || staple.not.every(bw => !nl.includes(bw)))
+                && (!staple.cat || o.category === staple.cat);
         });
 
         const byStore = {};
