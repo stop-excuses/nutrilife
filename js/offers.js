@@ -1212,14 +1212,16 @@ function renderFavoritesPanel() {
                 if (isClearlyNonHumanFood(o)) return false;
                 if (EXCLUDED_HEALTH_CATEGORIES.has(o.category)) return false;
                 // Exclude products where kw is an ingredient, not the main product
-                // e.g. "баница с извара", "баничка със сирене, извара и спанак"
+                // e.g. "баница с извара", "бишкоти с 26% яйца", "тиквички с кисело мляко"
                 const kwIdx = nl.indexOf(kw);
                 if (kwIdx > 0) {
                     const before = nl.slice(0, kwIdx).trimEnd();
                     const lastChar = before[before.length - 1];
-                    if ([',', ';'].includes(lastChar)) return false;
-                    const lastWord = before.trim().split(/\s+/).pop() || '';
-                    if (['с', 'от', 'в', 'на', 'за', 'и', 'със', 'без'].includes(lastWord)) return false;
+                    if ([',', ';', '%'].includes(lastChar)) return false;
+                    // Check last 3 words for prepositions (catches "с 26% яйца" too)
+                    const words = before.trim().split(/\s+/);
+                    const lastFew = words.slice(-3);
+                    if (lastFew.some(w => ['с', 'от', 'в', 'на', 'за', 'и', 'със', 'без'].includes(w))) return false;
                 }
                 // Category guard: canned favorites only match canned products
                 if (cat === 'canned' && o.category && o.category !== 'canned') return false;
@@ -1233,35 +1235,49 @@ function renderFavoritesPanel() {
             ? `<span class="fav-status">${offers.length} оферти</span>`
             : `<span class="fav-status none">Няма тази седмица</span>`;
 
-        // Sort: on-sale first (highest discount), then cheapest
-        const sorted = [...offers].sort((a, b) => {
-            const ad = a.discount_pct || 0, bd = b.discount_pct || 0;
-            if (bd !== ad) return bd - ad;
-            return a.new_price - b.new_price;
-        });
+        // Sort by normalized price (price_per_kg if available, else price/weight, else raw price last)
+        const normPrice = o => {
+            if (o.price_per_kg) return o.price_per_kg;
+            if (o.weight_grams) return o.new_price * 1000 / o.weight_grams;
+            return o.new_price; // яйца, бройни продукти — сортира по обща цена
+        };
+        const sorted = [...offers].sort((a, b) => normPrice(a) - normPrice(b));
         const FAV_LIMIT = 6;
         const shownOffers = sorted.slice(0, FAV_LIMIT);
         const hiddenCount = sorted.length - FAV_LIMIT;
 
         const buildOfferRow = (o) => {
             const validity = getOfferValidityText(o, 'short');
-            const disc = o.discount_pct ? `<span class="fav-disc">-${o.discount_pct}%</span>` : '';
-            const old = o.old_price ? `<span class="fav-old">${formatPricePair(o.old_price, o.old_price_eur)}</span>` : '';
+            const disc = o.discount_pct ? `<span class="fav-disc">−${o.discount_pct}%</span>` : '';
+            const oldPrice = o.old_price ? `<span class="fav-old">${o.old_price.toFixed(2)} лв</span>` : '';
             const wi = extractWeightFromName(o);
-            const ppkg = (wi?.grams && o.new_price) ? (o.new_price / wi.grams * 1000) : getReliablePricePerKg(o);
-            const pkgHtml = ppkg ? `<span class="fav-pkg">${ppkg.toFixed(2)} лв/кг</span>` : '';
+
+            // Price per unit: per-piece for яйца/бр, else per kg
+            let unitHtml = '';
+            const eggMatch = o.name.match(/(\d+)\s*(?:бр|броя|яйц)/i);
+            if (kw === 'яйц' && eggMatch) {
+                const perEgg = (o.new_price / parseInt(eggMatch[1])).toFixed(2);
+                unitHtml = `<span class="fav-pkg">${perEgg} лв/бр</span>`;
+            } else {
+                const ppkg = (wi?.grams && o.new_price) ? (o.new_price / wi.grams * 1000) : getReliablePricePerKg(o);
+                if (ppkg) unitHtml = `<span class="fav-pkg">${ppkg.toFixed(2)} лв/кг</span>`;
+            }
+
             const weightHtml = wi?.raw ? `<span class="fav-weight">${wi.raw}</span>` : '';
+            // Shorten name: strip known brand noise, max 42 chars
+            const cleanName = o.name.replace(/\s*\d+[\d.,]*\s*(кг|г|гр|мл|л|бр)\b.*/i, '').trim().slice(0, 42);
             const thumb = renderOfferThumb(o, 'fav-thumb-img');
             return `<div class="fav-offer-row">
                 ${thumb ? `<div class="fav-offer-thumb">${thumb}</div>` : ''}
                 <div class="fav-offer-main">
                     <div class="fav-offer-top">
                         <span class="fav-store">${o.store}</span>
-                        <span class="fav-name">${o.name}</span>
+                        <span class="fav-name">${cleanName}</span>
                     </div>
                     <div class="fav-offer-btm">
-                        ${disc}<strong class="fav-price">${formatPricePair(o.new_price, o.new_price_eur)}</strong>${old}
-                        ${weightHtml}${pkgHtml}
+                        <strong class="fav-price">${o.new_price.toFixed(2)} лв</strong>
+                        ${disc}${oldPrice}
+                        ${weightHtml}${unitHtml}
                         ${validity ? `<span class="fav-validity">${validity}</span>` : ''}
                     </div>
                 </div>
