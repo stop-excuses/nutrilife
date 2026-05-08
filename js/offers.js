@@ -938,12 +938,30 @@ async function loadOffers() {
         initProfileFilters();
         initSortButtons();
         initSearch();
+        initGlobalOfferHandlers();
     } else {
         const grid = document.getElementById("offers-grid");
         if (grid) {
             grid.innerHTML = '<p style="text-align:center; color:var(--muted);">Проблем при зареждане на данните.</p>';
         }
     }
+}
+
+/* -----------------------------------------------------------------------
+   GLOBAL OFFER HANDLERS (fav-btn + ph-toggle outside main grid)
+   ----------------------------------------------------------------------- */
+function initGlobalOfferHandlers() {
+    document.addEventListener("click", (e) => {
+        const phToggle = e.target.closest("[data-ph-toggle]");
+        if (phToggle) {
+            phToggle.closest(".price-history").classList.toggle("ph-open");
+            return;
+        }
+        const favBtn = e.target.closest(".fav-btn");
+        if (favBtn && favBtn.dataset.offerId) {
+            toggleFavorite(favBtn.dataset.offerId);
+        }
+    });
 }
 
 /* -----------------------------------------------------------------------
@@ -1056,7 +1074,12 @@ function extractFavoriteKeyword(offer) {
     for (const [keyword] of LOCAL_IMAGE_RULES) {
         if (nameLower.includes(keyword)) return keyword;
     }
-    return nameLower.split(/[\s,()]/)[0].replace(/[^а-яa-z0-9]/gi, '') || nameLower;
+    // Fallback: first 2 meaningful words, stripped of weight/size info
+    const cleaned = nameLower
+        .replace(/\s*\d+[\d.,]*\s*(кг|г|гр|мл|л|бр|x|×)\s*/gi, ' ')
+        .replace(/\s+/g, ' ').trim();
+    const words = cleaned.split(/\s+/).filter(w => w.length > 1).slice(0, 2);
+    return words.join(' ') || cleaned || nameLower;
 }
 
 function isFavorited(offer) {
@@ -1138,7 +1161,17 @@ function renderFavoritesPanel() {
             ? `<span class="fav-status">${offers.length} оферти</span>`
             : `<span class="fav-status none">Няма тази седмица</span>`;
 
-        const offerRowsHtml = offers.map(o => {
+        // Sort: on-sale first (highest discount), then cheapest
+        const sorted = [...offers].sort((a, b) => {
+            const ad = a.discount_pct || 0, bd = b.discount_pct || 0;
+            if (bd !== ad) return bd - ad;
+            return a.new_price - b.new_price;
+        });
+        const FAV_LIMIT = 6;
+        const shownOffers = sorted.slice(0, FAV_LIMIT);
+        const hiddenCount = sorted.length - FAV_LIMIT;
+
+        const buildOfferRow = (o) => {
             const validity = getOfferValidityText(o, 'short');
             const disc = o.discount_pct ? `<span class="fav-disc">-${o.discount_pct}%</span>` : '';
             const old = o.old_price ? `<span class="fav-old">${formatPricePair(o.old_price, o.old_price_eur)}</span>` : '';
@@ -1161,7 +1194,13 @@ function renderFavoritesPanel() {
                     </div>
                 </div>
             </div>`;
-        }).join('');
+        };
+
+        const shownHtml = shownOffers.map(buildOfferRow).join('');
+        const hiddenHtml = hiddenCount > 0
+            ? `<div class="fav-hidden-rows">${sorted.slice(FAV_LIMIT).map(buildOfferRow).join('')}</div>
+               <button class="fav-show-more">+ ${hiddenCount} още ${kw}</button>`
+            : '';
 
         return `<div class="fav-item" data-kw="${kw}">
             <div class="fav-item-hd">
@@ -1172,7 +1211,8 @@ function renderFavoritesPanel() {
                 <span class="fav-arrow">▼</span>
             </div>
             <div class="fav-item-bd">
-                ${offerRowsHtml || '<div class="fav-none">Няма намаления тази седмица</div>'}
+                ${shownHtml || '<div class="fav-none">Няма намаления тази седмица</div>'}
+                ${hiddenHtml}
             </div>
         </div>`;
     }).join('');
@@ -1200,6 +1240,17 @@ function renderFavoritesPanel() {
                 if (b) { b.classList.remove('active'); b.title = 'Следи този продукт'; }
             });
             renderFavoritesPanel();
+        });
+    });
+
+    panel.querySelectorAll('.fav-show-more').forEach(btn => {
+        btn.addEventListener('click', e => {
+            e.stopPropagation();
+            const hiddenRows = btn.previousElementSibling;
+            if (hiddenRows && hiddenRows.classList.contains('fav-hidden-rows')) {
+                hiddenRows.classList.toggle('fav-hidden-open');
+                btn.textContent = hiddenRows.classList.contains('fav-hidden-open') ? '▲ Скрий' : btn.textContent;
+            }
         });
     });
 }
@@ -1537,12 +1588,15 @@ function renderPriceHistory(offer) {
 
     return `
         <div class="price-history">
-            <div class="ph-header">
-                <span>Ценова история · ${points.length} ${points.length === 1 ? "запис" : "записа"}</span>
+            <div class="ph-header" data-ph-toggle>
+                <span>📈 Ценова история · ${points.length} ${points.length === 1 ? "запис" : "записа"}</span>
                 ${badge}
+                <span class="ph-toggle-arrow">▼</span>
             </div>
-            <div class="ph-chart">${bars}</div>
-            ${statsHtml}
+            <div class="ph-body">
+                <div class="ph-chart">${bars}</div>
+                ${statsHtml}
+            </div>
         </div>`;
 }
 
@@ -1924,7 +1978,7 @@ function renderProteinRanking() {
         const barWidth = Math.round((o.adjustedProteinPerEur / top[0].adjustedProteinPerEur) * 100);
         const m = o._macros;
         return `
-            <div class="protein-rank-item offer-card">
+            <div class="protein-rank-item offer-card" data-offer-id="${getOfferDomId(o)}">
                 <div class="protein-rank-header offer-header">
                     <div class="rank-medal">${medal}</div>
                     ${renderOfferThumb(o)}
@@ -1934,6 +1988,7 @@ function renderProteinRanking() {
                         <div class="rank-bar-bg"><div class="rank-bar-fill" style="width:${barWidth}%"></div></div>
                     </div>
                     <div class="rank-value">${o.adjustedProteinPerEur.toFixed(1)}г/€</div>
+                    <button class="fav-btn${isFavorited(o) ? ' active' : ''}" data-offer-id="${getOfferDomId(o)}" title="${isFavorited(o) ? 'Премахни от любими' : 'Следи този продукт'}">❤️</button>
                     <span class="offer-arrow">▼</span>
                 </div>
                 <div class="offer-details">
@@ -2129,7 +2184,7 @@ function renderProfileRecommendations(profile) {
         : "";
 
     html += top5.map(o => `
-        <div class="offer-card" style="margin-bottom:8px;">
+        <div class="offer-card" data-offer-id="${getOfferDomId(o)}" style="margin-bottom:8px;">
             <div class="offer-header">
                 ${renderOfferThumb(o)}
                 <div class="offer-info">
@@ -2138,6 +2193,7 @@ function renderProfileRecommendations(profile) {
                     <div class="health-badge high">★ ${o.health_score}/10</div>
                     ${o.price_per_kg ? `<div style="font-size:0.8rem; color:var(--muted); margin-top:4px;">${formatPricePair(o.price_per_kg, o.price_per_kg_eur, "/кг")}</div>` : ""}
                 </div>
+                <button class="fav-btn${isFavorited(o) ? ' active' : ''}" data-offer-id="${getOfferDomId(o)}" title="${isFavorited(o) ? 'Премахни от любими' : 'Следи този продукт'}">❤️</button>
             </div>
         </div>`).join("");
 
@@ -2168,6 +2224,12 @@ function initOfferAccordion() {
             toggleFavorite(favBtn.dataset.offerId);
             return;
         }
+        const phToggle = e.target.closest("[data-ph-toggle]");
+        if (phToggle && grid.contains(phToggle)) {
+            e.stopPropagation();
+            phToggle.closest(".price-history").classList.toggle("ph-open");
+            return;
+        }
         const card = e.target.closest(".offer-card");
         if (!card || !grid.contains(card)) return;
         const wasExpanded = card.classList.contains("expanded");
@@ -2181,6 +2243,18 @@ function initProteinRankingAccordion() {
     if (!container || container.dataset.accordionBound === "1") return;
     container.dataset.accordionBound = "1";
     container.addEventListener("click", (e) => {
+        const favBtn = e.target.closest(".fav-btn");
+        if (favBtn) {
+            e.stopPropagation();
+            toggleFavorite(favBtn.dataset.offerId);
+            return;
+        }
+        const phToggle = e.target.closest("[data-ph-toggle]");
+        if (phToggle) {
+            e.stopPropagation();
+            phToggle.closest(".price-history").classList.toggle("ph-open");
+            return;
+        }
         const card = e.target.closest(".protein-rank-item");
         if (!card || !container.contains(card)) return;
         const wasExpanded = card.classList.contains("expanded");

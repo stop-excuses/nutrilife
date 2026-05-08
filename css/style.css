@@ -1916,11 +1916,11 @@ input[type="range"]::-moz-range-thumb {
     font-size: 1.55rem;
     padding: 4px 3px;
     flex-shrink: 0;
-    opacity: 0.22;
+    opacity: 0.38;
     transition: opacity 0.15s, transform 0.15s;
     line-height: 1;
 }
-.fav-btn:hover { opacity: 0.65; transform: scale(1.15); }
+.fav-btn:hover { opacity: 0.75; transform: scale(1.15); }
 .fav-btn.active { opacity: 1; transform: scale(1.05); }
 
 /* Favorites panel */
@@ -2103,6 +2103,22 @@ input[type="range"]::-moz-range-thumb {
     font-size: 0.8rem;
     text-align: center;
 }
+
+.fav-hidden-rows { display: none; }
+.fav-hidden-rows.fav-hidden-open { display: block; }
+.fav-show-more {
+    display: block;
+    width: 100%;
+    background: none;
+    border: none;
+    border-top: 1px solid rgba(255,255,255,.06);
+    color: var(--muted);
+    font-size: 0.78rem;
+    padding: 8px;
+    cursor: pointer;
+    text-align: center;
+}
+.fav-show-more:hover { color: var(--text); }
 
 .details-inner {
     overflow: hidden;
@@ -4246,7 +4262,20 @@ input[type="range"]::-moz-range-thumb {
     margin-bottom: 8px;
     gap: 8px;
     flex-wrap: wrap;
+    cursor: pointer;
+    user-select: none;
 }
+.ph-header:hover { color: var(--text); }
+.ph-toggle-arrow {
+    font-size: .65rem;
+    margin-left: auto;
+    opacity: .6;
+    transition: transform 0.2s;
+    flex-shrink: 0;
+}
+.price-history.ph-open .ph-toggle-arrow { transform: rotate(180deg); }
+.ph-body { display: none; }
+.price-history.ph-open .ph-body { display: block; }
 .ph-chart {
     display: flex;
     align-items: flex-end;
