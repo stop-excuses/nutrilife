@@ -1817,15 +1817,8 @@ function renderOffers(offers) {
         const validityDetail = getOfferValidityText(o, "detail");
 
         let badges = [];
-        if (hasHealthScore) badges.push(`<span class="health-badge ${scoreCls}">★ ${o.health_score}/10</span>`);
-        if (isHP) badges.push(`<span class="offer-tag protein-tag">💪 ПРОТЕИН</span>`);
-        if (o.is_junk) badges.push(`<span class="offer-tag junk-tag">⚠ JUNK</span>`);
+        if (o.is_junk) badges.push(`<span class="offer-tag junk-tag">⚠ Нездравословно</span>`);
         if (isProcessedMeat(o)) badges.push(`<span class="offer-tag junk-tag">⚠ Преработено месо</span>`);
-        if (isCuredLeanMeat(o)) badges.push(`<span class="offer-tag long-lasting">🧂 Солено / сушено</span>`);
-        if (o.source_type === "promo") badges.push(`<span class="offer-tag bulk-tag">🔥 Промо</span>`);
-        if (o.source_type === "assortment") badges.push(`<span class="offer-tag long-lasting">📋 Асортимент</span>`);
-        if (o.shelf_life && o.shelf_life !== "малотраен") badges.push(`<span class="offer-tag long-lasting">📦 ${o.shelf_life}</span>`);
-        if (o.is_bulk_worthy && o.category !== "grain" && healthyOffer) badges.push(`<span class="offer-tag bulk-tag">🛒 Едро</span>`);
         const trend = getPriceTrend(o);
         if (trend) badges.push(`<span class="offer-tag ${trend.cls}">${trend.label}</span>`);
 
@@ -1833,7 +1826,7 @@ function renderOffers(offers) {
 
         let metaParts = [];
         if (o.weight_raw) metaParts.push(o.weight_raw);
-        if (o.price_per_kg) metaParts.push(formatPricePair(o.price_per_kg, o.price_per_kg_eur, "/кг"));
+        if (o.price_per_kg) metaParts.push(`${o.price_per_kg.toFixed(2)} лв/кг`);
 
         const stores = o.available_stores && o.available_stores.length > 1
             ? o.available_stores.join(", ")
@@ -1864,9 +1857,9 @@ function renderOffers(offers) {
                     </div>
                     <div class="offer-prices">
                         ${o.discount_pct ? `<span class="discount-pct-badge">-${o.discount_pct}%</span>` : ""}
-                        <span class="offer-new-price">${formatPricePair(o.new_price, o.new_price_eur)}</span>
-                        ${o.old_price ? `<div class="offer-old-price">${formatPricePair(o.old_price, o.old_price_eur)}</div>` : ""}
-                        ${displayPpk ? `<div class="offer-ppk">${formatPricePair(displayPpk, displayPpk / 1.95583, "/кг")}</div>` : ""}
+                        <span class="offer-new-price">${o.new_price.toFixed(2)} лв</span>
+                        ${o.old_price ? `<div class="offer-old-price">${o.old_price.toFixed(2)} лв</div>` : ""}
+                        ${displayPpk ? `<div class="offer-ppk">${displayPpk.toFixed(2)} лв/кг</div>` : ""}
                         ${renderSparkline(o)}
                     </div>
                     <span class="offer-arrow">▼</span>
