@@ -1944,7 +1944,11 @@ function renderPriceComparison() {
             (a.price_per_kg || a.new_price) - (b.price_per_kg || b.new_price)
         );
 
-        const imgTag = `<img src="${staple.img}" alt="${staple.label}" loading="lazy"/>`;
+        // Use real product CDN photo when available; fall back to SVG icon
+        const _bestForImg = storeList[0];
+        const _isRealPhoto = _bestForImg && hasRealImage(_bestForImg.image);
+        const _imgSrc = _isRealPhoto ? _bestForImg.image : (_bestForImg ? getOfferImage(_bestForImg) : staple.img);
+        const imgTag = `<img src="${_imgSrc}" alt="${staple.label}" loading="lazy" class="${_isRealPhoto ? 'staple-real-img' : ''}" onerror="this.src='${staple.img}'"/>`;
 
         if (storeList.length === 0) {
             return `
