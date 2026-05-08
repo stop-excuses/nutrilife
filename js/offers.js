@@ -928,6 +928,7 @@ async function loadOffers() {
         applyFilters();
         renderFavoritesPanel();
         renderPriceComparison();
+        initStaplesGrid();
         renderBulkRecommendations();
         renderProteinRanking();
         renderBaselineRecommendations();
@@ -1069,6 +1070,67 @@ function saveFavorites() {
     localStorage.setItem('nutrilife-favorites', JSON.stringify(favoriteItems));
 }
 
+// User-friendly label and emoji for keywords from LOCAL_IMAGE_RULES
+const KEYWORD_LABELS = {
+    'яйц':           'Яйца',
+    'кисело мляко':  'Кисело мляко',
+    'риба тон':      'Риба тон',
+    'скумрия':       'Скумрия',
+    'сьомга':        'Сьомга',
+    'сардини':       'Сардини',
+    'херинга':       'Херинга',
+    'пилешки гърди': 'Пилешко филе',
+    'пилешко филе':  'Пилешко филе',
+    'пилешки бут':   'Пилешко бутче',
+    'пилешко бутче': 'Пилешко бутче',
+    'кайма':         'Кайма',
+    'телешко':       'Телешко',
+    'говеждо':       'Говеждо',
+    'свинско':       'Свинско',
+    'пуешко':        'Пуешко',
+    'извара':        'Извара',
+    'скир':          'Скир',
+    'сирене':        'Сирене',
+    'маслин':        'Маслини',
+    'нахут':         'Нахут',
+    'боб':           'Боб',
+    'леща':          'Леща',
+    'зехтин':        'Зехтин',
+    'овес':          'Овесена каша',
+    'ориз':          'Ориз',
+    'елда':          'Елда',
+    'орех':          'Орехи',
+    'бадем':         'Бадеми',
+    'фъстък':        'Фъстъци',
+};
+
+const KEYWORD_EMOJI = {
+    'яйц':           '🥚',
+    'кисело мляко':  '🥛',
+    'риба тон':      '🐟',
+    'скумрия':       '🐠',
+    'сьомга':        '🐟',
+    'пилешки гърди': '🍗',
+    'пилешко филе':  '🍗',
+    'пилешки бут':   '🍗',
+    'пилешко бутче': '🍗',
+    'кайма':         '🥩',
+    'телешко':       '🥩',
+    'говеждо':       '🥩',
+    'свинско':       '🥩',
+    'извара':        '🧀',
+    'скир':          '🍶',
+    'сирене':        '🧀',
+    'нахут':         '🫘',
+    'боб':           '🫘',
+    'леща':          '🟤',
+    'зехтин':        '🫒',
+    'овес':          '🌾',
+    'ориз':          '🌾',
+    'орех':          '🥜',
+    'бадем':         '🥜',
+};
+
 function extractFavoriteKeyword(offer) {
     const nameLower = offer.name.toLowerCase();
     for (const [keyword] of LOCAL_IMAGE_RULES) {
@@ -1080,6 +1142,14 @@ function extractFavoriteKeyword(offer) {
         .replace(/\s+/g, ' ').trim();
     const words = cleaned.split(/\s+/).filter(w => w.length > 1).slice(0, 2);
     return words.join(' ') || cleaned || nameLower;
+}
+
+function getFavLabel(kw) {
+    return KEYWORD_LABELS[kw] || (kw ? kw.charAt(0).toUpperCase() + kw.slice(1) : kw);
+}
+
+function getFavEmoji(kw, fallback) {
+    return KEYWORD_EMOJI[kw] || fallback || '🍽️';
 }
 
 function isFavorited(offer) {
@@ -1095,15 +1165,17 @@ function toggleFavorite(offerId) {
     if (idx !== -1) {
         favoriteItems.splice(idx, 1);
     } else {
-        favoriteItems.push({ kw, emoji: offer.emoji || '🍽️', cat: offer.category || null });
+        favoriteItems.push({ kw, emoji: getFavEmoji(kw, offer.emoji), cat: offer.category || null });
     }
     saveFavorites();
     const active = isFavorited(offer);
-    const btn = document.querySelector(`.offer-card[data-offer-id="${offerId}"] .fav-btn`);
-    if (btn) {
+    // Update every fav-btn for this keyword across all sections
+    document.querySelectorAll('.fav-btn[data-offer-id]').forEach(btn => {
+        const o = allOffers.find(x => getOfferDomId(x) === btn.dataset.offerId);
+        if (!o || extractFavoriteKeyword(o) !== kw) return;
         btn.classList.toggle('active', active);
         btn.title = active ? 'Премахни от любими' : 'Следи този продукт';
-    }
+    });
     renderFavoritesPanel();
 }
 
@@ -1199,13 +1271,13 @@ function renderFavoritesPanel() {
         const shownHtml = shownOffers.map(buildOfferRow).join('');
         const hiddenHtml = hiddenCount > 0
             ? `<div class="fav-hidden-rows">${sorted.slice(FAV_LIMIT).map(buildOfferRow).join('')}</div>
-               <button class="fav-show-more">+ ${hiddenCount} още ${kw}</button>`
+               <button class="fav-show-more">+ ${hiddenCount} още</button>`
             : '';
 
         return `<div class="fav-item" data-kw="${kw}">
             <div class="fav-item-hd">
-                <span class="fav-emoji">${emoji}</span>
-                <span class="fav-kw">${kw}</span>
+                <span class="fav-emoji">${getFavEmoji(kw, emoji)}</span>
+                <span class="fav-kw">${getFavLabel(kw)}</span>
                 ${statusHtml}
                 <button class="fav-rm" data-kw="${kw}" title="Премахни">×</button>
                 <span class="fav-arrow">▼</span>
@@ -1233,11 +1305,11 @@ function renderFavoritesPanel() {
             const kw = btn.dataset.kw;
             favoriteItems = favoriteItems.filter(f => f.kw !== kw);
             saveFavorites();
-            document.querySelectorAll('.offer-card').forEach(card => {
-                const o = allOffers.find(x => getOfferDomId(x) === card.dataset.offerId);
+            document.querySelectorAll('.fav-btn[data-offer-id]').forEach(b => {
+                const o = allOffers.find(x => getOfferDomId(x) === b.dataset.offerId);
                 if (!o || extractFavoriteKeyword(o) !== kw) return;
-                const b = card.querySelector('.fav-btn');
-                if (b) { b.classList.remove('active'); b.title = 'Следи този продукт'; }
+                b.classList.remove('active');
+                b.title = 'Следи този продукт';
             });
             renderFavoritesPanel();
         });
@@ -1873,7 +1945,7 @@ function renderPriceComparison() {
                         <div class="staple-name">${staple.label}</div>
                         <div class="staple-store-badge">не е в промоция</div>
                     </div>
-                </div>`;
+                </div>`; // no fav-btn when no offer exists
         }
 
         const best = storeList[0];
@@ -1889,12 +1961,15 @@ function renderPriceComparison() {
                 <span class="s-store">${o.store}</span>
                 <span class="s-price">${o.new_price.toFixed(2)} лв</span>
             </div>`).join('');
+        const bestId = getOfferDomId(best);
+        const favActive = isFavorited(best) ? ' active' : '';
 
         return `
-            <div class="staple-card ${dealClass}">
+            <div class="staple-card ${dealClass}" data-offer-link="${bestId}" style="cursor:pointer;">
                 <div class="staple-img-area">
                     ${imgTag}
                     ${discTag}
+                    <button class="fav-btn${favActive}" data-offer-id="${bestId}" title="${favActive ? 'Премахни от любими' : 'Следи този продукт'}" onclick="event.stopPropagation()">❤️</button>
                 </div>
                 <div class="staple-body">
                     <div class="staple-name">${staple.label}</div>
@@ -1907,6 +1982,21 @@ function renderPriceComparison() {
     });
 
     container.innerHTML = `<div class="staples-grid">${cards.join('')}</div>`;
+}
+
+function initStaplesGrid() {
+    const container = document.getElementById("price-comparison");
+    if (!container) return;
+    container.addEventListener("click", (e) => {
+        const favBtn = e.target.closest(".fav-btn");
+        if (favBtn) {
+            e.stopPropagation();
+            toggleFavorite(favBtn.dataset.offerId);
+            return;
+        }
+        const card = e.target.closest(".staple-card[data-offer-link]");
+        if (card) openOfferInGrid(card.dataset.offerLink);
+    });
 }
 
 /* -----------------------------------------------------------------------
