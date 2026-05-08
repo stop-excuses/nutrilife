@@ -1907,17 +1907,17 @@ function renderOffers(offers) {
    PRICE COMPARISON
    ----------------------------------------------------------------------- */
 const STAPLES = [
-    { label: 'Яйца',               img: 'images/foods/egg.svg',       match: ['яйц'] },
+    { label: 'Яйца',               img: 'images/foods/egg.svg',       match: ['яйц'],                              not: ['майонез', 'крем', 'торта', 'кекс', 'бисквит'] },
     { label: 'Кисело мляко',       img: 'images/foods/yogurt.svg',    match: ['кисело мляко'] },
     { label: 'Пилешко',            img: 'images/foods/chicken.svg',   match: ['пилешко филе', 'пилешки гър', 'пилешко бонл'] },
-    { label: 'Скир / Извара',      img: 'images/foods/skyr.svg',      match: ['скир', 'извара'] },
-    { label: 'Риба тон',           img: 'images/foods/tuna.svg',      match: ['риба тон'] },
+    { label: 'Скир / Извара',      img: 'images/foods/skyr.svg',      match: ['скир', 'извара'],                   not: ['кюфте', 'баниц', 'баничк', 'пюре', 'тарт', 'крем', 'десерт'] },
+    { label: 'Риба тон',           img: 'images/foods/tuna.svg',      match: ['риба тон'],                         not: ['пюре', 'паста', 'бебе', 'детск'] },
     { label: 'Скумрия',            img: 'images/foods/mackerel.svg',  match: ['скумрия'] },
     { label: 'Зехтин',             img: 'images/foods/olive-oil.svg', match: ['зехтин'] },
-    { label: 'Овесена каша',       img: 'images/foods/oats.svg',      match: ['овесен', 'овес'] },
+    { label: 'Овесена каша',       img: 'images/foods/oats.svg',      match: ['овесен', 'овес'],                   not: ['бисквит', 'гранол', 'мюсли', 'бар', 'крем', 'торта', 'кекс'] },
     { label: 'Леща',               img: 'images/foods/lentils.svg',   match: ['леща'] },
     { label: 'Нахут',              img: 'images/foods/chickpeas.svg', match: ['нахут'] },
-    { label: 'Орехи',              img: 'images/foods/walnuts.svg',   match: ['орех'] },
+    { label: 'Орехи',              img: 'images/foods/walnuts.svg',   match: ['орех'],                             not: ['бисквит', 'кекс', 'торта', 'баниц', 'десерт', 'мюсли', 'шокол'] },
     { label: 'Пълнозърнест хляб',  img: 'images/foods/rye-bread.svg', match: ['пълнозърнест'] },
 ];
 
@@ -1928,7 +1928,8 @@ function renderPriceComparison() {
     const cards = STAPLES.map(staple => {
         const matching = allOffers.filter(o => {
             const nl = o.name.toLowerCase();
-            return staple.match.some(kw => nl.includes(kw));
+            return staple.match.some(kw => nl.includes(kw))
+                && (!staple.not || staple.not.every(bw => !nl.includes(bw)));
         });
 
         const byStore = {};
