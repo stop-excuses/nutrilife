@@ -1826,17 +1826,18 @@ function renderOffers(offers) {
    PRICE COMPARISON
    ----------------------------------------------------------------------- */
 const STAPLES = [
-    { emoji: '🥛', label: 'Кисело мляко',       match: ['кисело мляко'] },
-    { emoji: '🍶', label: 'Скир',                match: ['скир'] },
-    { emoji: '🥚', label: 'Яйца',               match: ['яйц'] },
-    { emoji: '🫒', label: 'Зехтин',             match: ['зехтин'] },
-    { emoji: '🐟', label: 'Риба тон',           match: ['риба тон'] },
-    { emoji: '🐠', label: 'Скумрия',            match: ['скумрия'] },
-    { emoji: '🫘', label: 'Нахут',              match: ['нахут'] },
-    { emoji: '🫛', label: 'Боб',                match: ['боб'] },
-    { emoji: '🟤', label: 'Леща',               match: ['леща'] },
-    { emoji: '🍗', label: 'Пилешко',            match: ['пилешко филе', 'пилешки гър', 'пилешко бонл'] },
-    { emoji: '🍞', label: 'Пълнозърнест хляб',  match: ['пълнозърнест'] },
+    { label: 'Яйца',               img: 'images/foods/egg.svg',       match: ['яйц'] },
+    { label: 'Кисело мляко',       img: 'images/foods/yogurt.svg',    match: ['кисело мляко'] },
+    { label: 'Пилешко',            img: 'images/foods/chicken.svg',   match: ['пилешко филе', 'пилешки гър', 'пилешко бонл'] },
+    { label: 'Скир / Извара',      img: 'images/foods/skyr.svg',      match: ['скир', 'извара'] },
+    { label: 'Риба тон',           img: 'images/foods/tuna.svg',      match: ['риба тон'] },
+    { label: 'Скумрия',            img: 'images/foods/mackerel.svg',  match: ['скумрия'] },
+    { label: 'Зехтин',             img: 'images/foods/olive-oil.svg', match: ['зехтин'] },
+    { label: 'Овесена каша',       img: 'images/foods/oats.svg',      match: ['овесен', 'овес'] },
+    { label: 'Леща',               img: 'images/foods/lentils.svg',   match: ['леща'] },
+    { label: 'Нахут',              img: 'images/foods/chickpeas.svg', match: ['нахут'] },
+    { label: 'Орехи',              img: 'images/foods/walnuts.svg',   match: ['орех'] },
+    { label: 'Пълнозърнест хляб',  img: 'images/foods/rye-bread.svg', match: ['пълнозърнест'] },
 ];
 
 function renderPriceComparison() {
@@ -1862,36 +1863,46 @@ function renderPriceComparison() {
             (a.price_per_kg || a.new_price) - (b.price_per_kg || b.new_price)
         );
 
+        const imgTag = `<img src="${staple.img}" alt="${staple.label}" loading="lazy"/>`;
+
         if (storeList.length === 0) {
             return `
                 <div class="staple-card no-promo">
-                    <div class="staple-emoji">${staple.emoji}</div>
-                    <div class="staple-name">${staple.label}</div>
-                    <div class="staple-no-data">не е в промоция</div>
+                    <div class="staple-img-area">${imgTag}</div>
+                    <div class="staple-body">
+                        <div class="staple-name">${staple.label}</div>
+                        <div class="staple-store-badge">не е в промоция</div>
+                    </div>
                 </div>`;
         }
 
         const best = storeList[0];
         const disc = best.discount_pct || 0;
         const dealClass = disc >= 15 ? 'deal-good' : disc >= 5 ? 'deal-ok' : '';
+        const discTag = disc ? `<div class="staple-discount-tag">−${disc}%</div>` : '';
         const pkgHtml = best.price_per_kg
-            ? `<span class="staple-pkg">${best.price_per_kg.toFixed(2)} лв/кг · ${best.weight_raw || ''}</span>`
+            ? `<div class="staple-pkg">${best.price_per_kg.toFixed(2)} лв/кг · ${best.weight_raw || ''}</div>`
             : '';
         const discStr = disc ? ` −${disc}%` : '';
-        const othersHtml = storeList.slice(1).map(o => `
+        const othersHtml = storeList.slice(1, 4).map(o => `
             <div class="staple-other-row">
-                <span>${o.store}</span>
-                <span>${o.new_price.toFixed(2)} лв</span>
+                <span class="s-store">${o.store}</span>
+                <span class="s-price">${o.new_price.toFixed(2)} лв</span>
             </div>`).join('');
 
         return `
             <div class="staple-card ${dealClass}">
-                <div class="staple-emoji">${staple.emoji}</div>
-                <div class="staple-name">${staple.label}</div>
-                <div class="staple-best-price">${best.new_price.toFixed(2)} лв</div>
-                ${pkgHtml}
-                <div class="staple-store-badge">${best.store}${discStr}</div>
-                ${othersHtml.length ? `<div class="staple-others">${othersHtml}</div>` : ''}
+                <div class="staple-img-area">
+                    ${imgTag}
+                    ${discTag}
+                </div>
+                <div class="staple-body">
+                    <div class="staple-name">${staple.label}</div>
+                    <div class="staple-best-price">${best.new_price.toFixed(2)} лв</div>
+                    ${pkgHtml}
+                    <div class="staple-store-badge">${best.store}${discStr}</div>
+                    ${othersHtml ? `<div class="staple-others">${othersHtml}</div>` : ''}
+                </div>
             </div>`;
     });
 
