@@ -2054,7 +2054,8 @@ input[type="range"]::-moz-range-thumb {
 .fav-offer-row:last-child { border-bottom: none; }
 
 .fav-offer-thumb { flex-shrink: 0; }
-.fav-offer-thumb .offer-img-wrapper { width: 44px; height: 44px; border-radius: 6px; }
+.fav-offer-thumb .offer-img-wrapper { width: 48px; height: 48px; border-radius: 10px; }
+.fav-offer-thumb .offer-img { padding: 2px; }
 
 .fav-offer-main { flex: 1; min-width: 0; }
 
