@@ -1834,8 +1834,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 14.98,
+      "price_per_kg_eur": 7.66,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -1994,8 +1994,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 17.99,
+      "price_per_kg_eur": 9.2,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -2090,8 +2090,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 19.99,
+      "price_per_kg_eur": 10.22,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -2186,8 +2186,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 21.98,
+      "price_per_kg_eur": 11.24,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -2218,8 +2218,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 21.98,
+      "price_per_kg_eur": 11.24,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -2282,8 +2282,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 22.98,
+      "price_per_kg_eur": 11.75,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -2314,8 +2314,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 24.78,
+      "price_per_kg_eur": 12.67,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -2410,8 +2410,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 27.99,
+      "price_per_kg_eur": 14.31,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -2570,8 +2570,8 @@ const OFFERS_DATA = {
       "discount_pct": 10,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 35.19,
+      "price_per_kg_eur": 17.99,
       "source_type": "promo",
       "available_stores": [
         "T-Market"
@@ -2602,8 +2602,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 49.89,
+      "price_per_kg_eur": 25.51,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -11740,8 +11740,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 2.99,
+      "price_per_kg_eur": 1.53,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -12964,8 +12964,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 3.48,
+      "price_per_kg_eur": 1.78,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -13920,8 +13920,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 3.79,
+      "price_per_kg_eur": 1.94,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -16828,8 +16828,8 @@ const OFFERS_DATA = {
       "discount_pct": 35,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 4.87,
+      "price_per_kg_eur": 2.49,
       "source_type": "promo",
       "available_stores": [
         "T-Market"
@@ -18160,8 +18160,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 5.55,
+      "price_per_kg_eur": 2.84,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -18692,8 +18692,8 @@ const OFFERS_DATA = {
       "discount_pct": 25,
       "valid_from": "2026-05-04",
       "valid_until": "2026-05-10",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 5.98,
+      "price_per_kg_eur": 3.06,
       "source_type": "promo",
       "available_stores": [
         "Kaufland"
@@ -18788,8 +18788,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 5.98,
+      "price_per_kg_eur": 3.06,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -18820,8 +18820,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 5.98,
+      "price_per_kg_eur": 3.06,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -18852,8 +18852,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 5.98,
+      "price_per_kg_eur": 3.06,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -19746,8 +19746,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 6.98,
+      "price_per_kg_eur": 3.57,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -19778,8 +19778,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 6.98,
+      "price_per_kg_eur": 3.57,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -19970,8 +19970,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 6.98,
+      "price_per_kg_eur": 3.57,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -20002,8 +20002,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 6.98,
+      "price_per_kg_eur": 3.57,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -20320,8 +20320,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 7.49,
+      "price_per_kg_eur": 3.83,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -20384,8 +20384,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 7.55,
+      "price_per_kg_eur": 3.86,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -20768,8 +20768,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 8.0,
+      "price_per_kg_eur": 4.09,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -20800,8 +20800,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 8.0,
+      "price_per_kg_eur": 4.09,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -20832,8 +20832,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 8.0,
+      "price_per_kg_eur": 4.09,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -21120,8 +21120,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 8.49,
+      "price_per_kg_eur": 4.34,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -21290,8 +21290,8 @@ const OFFERS_DATA = {
       "discount_pct": 33,
       "valid_from": "2026-05-04",
       "valid_until": "2026-05-10",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 8.98,
+      "price_per_kg_eur": 4.59,
       "source_type": "promo",
       "available_stores": [
         "Kaufland"
@@ -21460,8 +21460,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 9.0,
+      "price_per_kg_eur": 4.6,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -21492,8 +21492,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 9.0,
+      "price_per_kg_eur": 4.6,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -21620,8 +21620,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 9.0,
+      "price_per_kg_eur": 4.6,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -21652,8 +21652,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 9.0,
+      "price_per_kg_eur": 4.6,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -21716,8 +21716,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 9.0,
+      "price_per_kg_eur": 4.6,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -21748,8 +21748,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 9.0,
+      "price_per_kg_eur": 4.6,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -22014,8 +22014,8 @@ const OFFERS_DATA = {
       "discount_pct": 25,
       "valid_from": "2026-05-04",
       "valid_until": "2026-05-10",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 9.76,
+      "price_per_kg_eur": 4.99,
       "source_type": "promo",
       "available_stores": [
         "Kaufland"
@@ -22142,8 +22142,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 9.99,
+      "price_per_kg_eur": 5.11,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -22206,8 +22206,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 9.99,
+      "price_per_kg_eur": 5.11,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -22238,8 +22238,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 9.99,
+      "price_per_kg_eur": 5.11,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -22270,8 +22270,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 9.99,
+      "price_per_kg_eur": 5.11,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -22302,8 +22302,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 9.99,
+      "price_per_kg_eur": 5.11,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -22494,8 +22494,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 10.48,
+      "price_per_kg_eur": 5.36,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -22622,8 +22622,8 @@ const OFFERS_DATA = {
       "discount_pct": 27,
       "valid_from": "2026-05-04",
       "valid_until": "2026-05-10",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 10.99,
+      "price_per_kg_eur": 5.62,
       "source_type": "promo",
       "available_stores": [
         "Kaufland"
@@ -22654,8 +22654,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 10.99,
+      "price_per_kg_eur": 5.62,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -22814,8 +22814,8 @@ const OFFERS_DATA = {
       "discount_pct": 19,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 11.05,
+      "price_per_kg_eur": 5.65,
       "source_type": "promo",
       "available_stores": [
         "T-Market"
@@ -22888,8 +22888,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 11.56,
+      "price_per_kg_eur": 5.91,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -22920,8 +22920,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 11.6,
+      "price_per_kg_eur": 5.93,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -22952,8 +22952,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 11.7,
+      "price_per_kg_eur": 5.98,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -23048,8 +23048,8 @@ const OFFERS_DATA = {
       "discount_pct": 49,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 11.72,
+      "price_per_kg_eur": 5.99,
       "source_type": "promo",
       "available_stores": [
         "T-Market"
@@ -23112,8 +23112,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 11.99,
+      "price_per_kg_eur": 6.13,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -23176,8 +23176,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 11.99,
+      "price_per_kg_eur": 6.13,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -23272,8 +23272,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 12.5,
+      "price_per_kg_eur": 6.39,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -23464,8 +23464,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 12.99,
+      "price_per_kg_eur": 6.64,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -23528,8 +23528,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 12.99,
+      "price_per_kg_eur": 6.64,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -23560,8 +23560,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 12.99,
+      "price_per_kg_eur": 6.64,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -23720,8 +23720,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 13.59,
+      "price_per_kg_eur": 6.95,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -23816,8 +23816,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 13.98,
+      "price_per_kg_eur": 7.15,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -23848,8 +23848,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 13.98,
+      "price_per_kg_eur": 7.15,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -23880,8 +23880,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 13.98,
+      "price_per_kg_eur": 7.15,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -23912,8 +23912,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 13.98,
+      "price_per_kg_eur": 7.15,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -23944,8 +23944,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 13.98,
+      "price_per_kg_eur": 7.15,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -24104,8 +24104,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 16.0,
+      "price_per_kg_eur": 8.18,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -24168,8 +24168,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 17.0,
+      "price_per_kg_eur": 8.69,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -24200,8 +24200,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 17.0,
+      "price_per_kg_eur": 8.69,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -24264,8 +24264,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 17.0,
+      "price_per_kg_eur": 8.69,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -24296,8 +24296,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 17.0,
+      "price_per_kg_eur": 8.69,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -24360,8 +24360,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 17.99,
+      "price_per_kg_eur": 9.2,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -24392,8 +24392,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 17.99,
+      "price_per_kg_eur": 9.2,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -24520,8 +24520,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 18.99,
+      "price_per_kg_eur": 9.71,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -24584,8 +24584,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 18.99,
+      "price_per_kg_eur": 9.71,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -24648,8 +24648,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 19.99,
+      "price_per_kg_eur": 10.22,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -24680,8 +24680,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 21.98,
+      "price_per_kg_eur": 11.24,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -24712,8 +24712,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 22.98,
+      "price_per_kg_eur": 11.75,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -24744,8 +24744,8 @@ const OFFERS_DATA = {
       "discount_pct": 41,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 23.45,
+      "price_per_kg_eur": 11.99,
       "source_type": "promo",
       "available_stores": [
         "T-Market"
@@ -24808,8 +24808,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 24.0,
+      "price_per_kg_eur": 12.27,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -24936,8 +24936,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 26.99,
+      "price_per_kg_eur": 13.8,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -25032,8 +25032,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 29.98,
+      "price_per_kg_eur": 15.33,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -25064,8 +25064,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 29.98,
+      "price_per_kg_eur": 15.33,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -30202,8 +30202,8 @@ const OFFERS_DATA = {
       "discount_pct": 27,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 4.28,
+      "price_per_kg_eur": 2.19,
       "source_type": "promo",
       "available_stores": [
         "T-Market"
@@ -30298,8 +30298,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 4.5,
+      "price_per_kg_eur": 2.3,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -30500,8 +30500,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": "2026-05-04",
       "valid_until": "2026-05-10",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 4.99,
+      "price_per_kg_eur": 2.55,
       "source_type": "promo",
       "available_stores": [
         "Kaufland"
@@ -30756,8 +30756,8 @@ const OFFERS_DATA = {
       "discount_pct": 55,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 5.26,
+      "price_per_kg_eur": 2.69,
       "source_type": "promo",
       "available_stores": [
         "T-Market"
@@ -31908,8 +31908,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 7.22,
+      "price_per_kg_eur": 3.69,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -32164,8 +32164,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 7.8,
+      "price_per_kg_eur": 3.99,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -32356,8 +32356,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 8.0,
+      "price_per_kg_eur": 4.09,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -32900,8 +32900,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 9.49,
+      "price_per_kg_eur": 4.85,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -32932,8 +32932,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 9.76,
+      "price_per_kg_eur": 4.99,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -33028,8 +33028,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 9.99,
+      "price_per_kg_eur": 5.11,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -33124,8 +33124,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 10.22,
+      "price_per_kg_eur": 5.23,
       "source_type": "assortment",
       "available_stores": [
         "Dar",
@@ -33166,8 +33166,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 10.99,
+      "price_per_kg_eur": 5.62,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -33262,8 +33262,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 11.72,
+      "price_per_kg_eur": 5.99,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -33358,8 +33358,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 11.99,
+      "price_per_kg_eur": 6.13,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -33422,8 +33422,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 12.5,
+      "price_per_kg_eur": 6.39,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -33486,8 +33486,8 @@ const OFFERS_DATA = {
       "discount_pct": 28,
       "valid_from": "2026-05-01",
       "valid_until": "2026-12-31",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 12.99,
+      "price_per_kg_eur": 6.64,
       "source_type": "promo",
       "available_stores": [
         "Billa"
@@ -33518,8 +33518,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 12.99,
+      "price_per_kg_eur": 6.64,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -33550,8 +33550,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 12.99,
+      "price_per_kg_eur": 6.64,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -33710,8 +33710,8 @@ const OFFERS_DATA = {
       "discount_pct": 17,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 14.06,
+      "price_per_kg_eur": 7.19,
       "source_type": "promo",
       "available_stores": [
         "T-Market"
@@ -33742,8 +33742,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 14.88,
+      "price_per_kg_eur": 7.61,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -34030,8 +34030,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 18.99,
+      "price_per_kg_eur": 9.71,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -34158,8 +34158,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": "2026-05-04",
       "valid_until": "2026-05-10",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 25.99,
+      "price_per_kg_eur": 13.29,
       "source_type": "promo",
       "available_stores": [
         "Kaufland"
@@ -34190,8 +34190,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 26.48,
+      "price_per_kg_eur": 13.54,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -37462,8 +37462,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 1.29,
+      "price_per_kg_eur": 0.66,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -37494,8 +37494,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 1.29,
+      "price_per_kg_eur": 0.66,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -37526,8 +37526,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 1.29,
+      "price_per_kg_eur": 0.66,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -41648,8 +41648,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 1.8,
+      "price_per_kg_eur": 0.92,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -43094,8 +43094,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 1.99,
+      "price_per_kg_eur": 1.02,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -43190,8 +43190,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 1.99,
+      "price_per_kg_eur": 1.02,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -43978,8 +43978,8 @@ const OFFERS_DATA = {
       "discount_pct": 47,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 2.13,
+      "price_per_kg_eur": 1.09,
       "source_type": "promo",
       "available_stores": [
         "T-Market"
@@ -46012,8 +46012,8 @@ const OFFERS_DATA = {
       "discount_pct": 54,
       "valid_from": "2026-05-04",
       "valid_until": "2026-05-10",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 2.52,
+      "price_per_kg_eur": 1.29,
       "source_type": "promo",
       "available_stores": [
         "Kaufland"
@@ -46140,8 +46140,8 @@ const OFFERS_DATA = {
       "discount_pct": 30,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 2.52,
+      "price_per_kg_eur": 1.29,
       "source_type": "promo",
       "available_stores": [
         "T-Market"
@@ -48366,8 +48366,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 2.99,
+      "price_per_kg_eur": 1.53,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -48398,8 +48398,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 2.99,
+      "price_per_kg_eur": 1.53,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -51680,8 +51680,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 3.89,
+      "price_per_kg_eur": 1.99,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -52032,8 +52032,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 3.99,
+      "price_per_kg_eur": 2.04,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -52064,8 +52064,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 3.99,
+      "price_per_kg_eur": 2.04,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -53556,8 +53556,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 4.5,
+      "price_per_kg_eur": 2.3,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -54428,8 +54428,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 4.87,
+      "price_per_kg_eur": 2.49,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -54460,8 +54460,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 4.87,
+      "price_per_kg_eur": 2.49,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -57394,8 +57394,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 6.13,
+      "price_per_kg_eur": 3.13,
       "source_type": "assortment",
       "available_stores": [
         "Fantastico"
@@ -57618,8 +57618,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 6.49,
+      "price_per_kg_eur": 3.32,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -58298,8 +58298,8 @@ const OFFERS_DATA = {
       "discount_pct": 12,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 6.83,
+      "price_per_kg_eur": 3.49,
       "source_type": "promo",
       "available_stores": [
         "T-Market"
@@ -58532,8 +58532,8 @@ const OFFERS_DATA = {
       "discount_pct": 35,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 6.98,
+      "price_per_kg_eur": 3.57,
       "source_type": "promo",
       "available_stores": [
         "T-Market"
@@ -58628,8 +58628,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 6.98,
+      "price_per_kg_eur": 3.57,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -58692,8 +58692,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 6.98,
+      "price_per_kg_eur": 3.57,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -58724,8 +58724,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 6.98,
+      "price_per_kg_eur": 3.57,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -58756,8 +58756,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 6.98,
+      "price_per_kg_eur": 3.57,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -58788,8 +58788,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 6.98,
+      "price_per_kg_eur": 3.57,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -59574,8 +59574,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 7.8,
+      "price_per_kg_eur": 3.99,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -60848,8 +60848,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 9.0,
+      "price_per_kg_eur": 4.6,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -60912,8 +60912,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 9.0,
+      "price_per_kg_eur": 4.6,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -60944,8 +60944,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 9.0,
+      "price_per_kg_eur": 4.6,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -60976,8 +60976,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 9.0,
+      "price_per_kg_eur": 4.6,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -61008,8 +61008,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 9.0,
+      "price_per_kg_eur": 4.6,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -61072,8 +61072,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 9.0,
+      "price_per_kg_eur": 4.6,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -61104,8 +61104,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 9.0,
+      "price_per_kg_eur": 4.6,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -61136,8 +61136,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 9.0,
+      "price_per_kg_eur": 4.6,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -61380,8 +61380,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 9.39,
+      "price_per_kg_eur": 4.8,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -61996,8 +61996,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 9.99,
+      "price_per_kg_eur": 5.11,
       "source_type": "assortment",
       "available_stores": [
         "Dar",
@@ -62336,8 +62336,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 10.48,
+      "price_per_kg_eur": 5.36,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -62442,8 +62442,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 10.76,
+      "price_per_kg_eur": 5.5,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -62954,8 +62954,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 10.99,
+      "price_per_kg_eur": 5.62,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -63188,8 +63188,8 @@ const OFFERS_DATA = {
       "discount_pct": 26,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 11.72,
+      "price_per_kg_eur": 5.99,
       "source_type": "promo",
       "available_stores": [
         "T-Market"
@@ -63294,8 +63294,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 11.99,
+      "price_per_kg_eur": 6.13,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -63326,8 +63326,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 11.99,
+      "price_per_kg_eur": 6.13,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -63454,8 +63454,8 @@ const OFFERS_DATA = {
       "discount_pct": 32,
       "valid_from": "2026-05-04",
       "valid_until": "2026-05-10",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 12.3,
+      "price_per_kg_eur": 6.29,
       "source_type": "promo",
       "available_stores": [
         "Kaufland"
@@ -63582,8 +63582,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 12.6,
+      "price_per_kg_eur": 6.44,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -63794,8 +63794,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 12.99,
+      "price_per_kg_eur": 6.64,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -63826,8 +63826,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 12.99,
+      "price_per_kg_eur": 6.64,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -63858,8 +63858,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 12.99,
+      "price_per_kg_eur": 6.64,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -64018,8 +64018,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 13.83,
+      "price_per_kg_eur": 7.07,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -64114,8 +64114,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 13.98,
+      "price_per_kg_eur": 7.15,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -64402,8 +64402,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 14.98,
+      "price_per_kg_eur": 7.66,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -64434,8 +64434,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 14.98,
+      "price_per_kg_eur": 7.66,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -64498,8 +64498,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 14.98,
+      "price_per_kg_eur": 7.66,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -64530,8 +64530,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 14.98,
+      "price_per_kg_eur": 7.66,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -64562,8 +64562,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 15.29,
+      "price_per_kg_eur": 7.82,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -64594,8 +64594,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 15.29,
+      "price_per_kg_eur": 7.82,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -64754,8 +64754,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 16.0,
+      "price_per_kg_eur": 8.18,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -64786,8 +64786,8 @@ const OFFERS_DATA = {
       "discount_pct": 15,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 16.06,
+      "price_per_kg_eur": 8.21,
       "source_type": "promo",
       "available_stores": [
         "T-Market"
@@ -64818,8 +64818,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 16.19,
+      "price_per_kg_eur": 8.28,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -64850,8 +64850,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 16.19,
+      "price_per_kg_eur": 8.28,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -64946,8 +64946,8 @@ const OFFERS_DATA = {
       "discount_pct": 21,
       "valid_from": "2026-05-04",
       "valid_until": "2026-05-10",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 16.41,
+      "price_per_kg_eur": 8.39,
       "source_type": "promo",
       "available_stores": [
         "Kaufland"
@@ -65010,8 +65010,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 17.0,
+      "price_per_kg_eur": 8.69,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -65074,8 +65074,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 17.0,
+      "price_per_kg_eur": 8.69,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -65106,8 +65106,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 17.0,
+      "price_per_kg_eur": 8.69,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -65138,8 +65138,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 17.0,
+      "price_per_kg_eur": 8.69,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -65170,8 +65170,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 17.0,
+      "price_per_kg_eur": 8.69,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -65202,8 +65202,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 17.0,
+      "price_per_kg_eur": 8.69,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -65362,8 +65362,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 17.58,
+      "price_per_kg_eur": 8.99,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -65458,8 +65458,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 17.99,
+      "price_per_kg_eur": 9.2,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -65554,8 +65554,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 18.48,
+      "price_per_kg_eur": 9.45,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -65906,8 +65906,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": "2026-05-04",
       "valid_until": "2026-05-10",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 19.93,
+      "price_per_kg_eur": 10.19,
       "source_type": "promo",
       "available_stores": [
         "Kaufland"
@@ -65970,8 +65970,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 19.99,
+      "price_per_kg_eur": 10.22,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -66066,8 +66066,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 20.99,
+      "price_per_kg_eur": 10.73,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -66098,8 +66098,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": "2026-05-04",
       "valid_until": "2026-05-10",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 21.49,
+      "price_per_kg_eur": 10.99,
       "source_type": "promo",
       "available_stores": [
         "Kaufland"
@@ -66130,8 +66130,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 21.79,
+      "price_per_kg_eur": 11.14,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -66226,8 +66226,8 @@ const OFFERS_DATA = {
       "discount_pct": 32,
       "valid_from": "2026-05-04",
       "valid_until": "2026-05-10",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 24.39,
+      "price_per_kg_eur": 12.47,
       "source_type": "promo",
       "available_stores": [
         "Kaufland"
@@ -66386,8 +66386,8 @@ const OFFERS_DATA = {
       "discount_pct": 31,
       "valid_from": "2026-05-04",
       "valid_until": "2026-05-10",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 39.0,
+      "price_per_kg_eur": 19.94,
       "source_type": "promo",
       "available_stores": [
         "Kaufland"
@@ -71048,8 +71048,8 @@ const OFFERS_DATA = {
       "discount_pct": 39,
       "valid_from": "2026-05-04",
       "valid_until": "2026-05-10",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 2.91,
+      "price_per_kg_eur": 1.49,
       "source_type": "promo",
       "available_stores": [
         "Kaufland"
@@ -71464,8 +71464,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 2.99,
+      "price_per_kg_eur": 1.53,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -74022,8 +74022,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 4.85,
+      "price_per_kg_eur": 2.48,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -74662,8 +74662,8 @@ const OFFERS_DATA = {
       "discount_pct": 53,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 5.85,
+      "price_per_kg_eur": 2.99,
       "source_type": "promo",
       "available_stores": [
         "T-Market"
@@ -74758,8 +74758,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 5.98,
+      "price_per_kg_eur": 3.06,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -76472,8 +76472,8 @@ const OFFERS_DATA = {
       "discount_pct": 23,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 6.94,
+      "price_per_kg_eur": 3.55,
       "source_type": "promo",
       "available_stores": [
         "T-Market"
@@ -76824,8 +76824,8 @@ const OFFERS_DATA = {
       "discount_pct": 13,
       "valid_from": "2026-05-04",
       "valid_until": "2026-05-10",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 7.78,
+      "price_per_kg_eur": 3.98,
       "source_type": "promo",
       "available_stores": [
         "Kaufland"
@@ -76856,8 +76856,8 @@ const OFFERS_DATA = {
       "discount_pct": 51,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 7.8,
+      "price_per_kg_eur": 3.99,
       "source_type": "promo",
       "available_stores": [
         "T-Market"
@@ -76952,8 +76952,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 8.0,
+      "price_per_kg_eur": 4.09,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -77548,8 +77548,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 9.0,
+      "price_per_kg_eur": 4.6,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -77644,8 +77644,8 @@ const OFFERS_DATA = {
       "discount_pct": 30,
       "valid_from": "2026-05-01",
       "valid_until": "2026-12-31",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 9.76,
+      "price_per_kg_eur": 4.99,
       "source_type": "promo",
       "available_stores": [
         "Billa"
@@ -77676,8 +77676,8 @@ const OFFERS_DATA = {
       "discount_pct": 33,
       "valid_from": "2026-05-04",
       "valid_until": "2026-05-10",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 9.99,
+      "price_per_kg_eur": 5.11,
       "source_type": "promo",
       "available_stores": [
         "Kaufland"
@@ -77740,8 +77740,8 @@ const OFFERS_DATA = {
       "discount_pct": 41,
       "valid_from": "2026-05-04",
       "valid_until": "2026-05-10",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 9.99,
+      "price_per_kg_eur": 5.11,
       "source_type": "promo",
       "available_stores": [
         "Kaufland"
@@ -77836,8 +77836,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 9.99,
+      "price_per_kg_eur": 5.11,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -77964,8 +77964,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 10.99,
+      "price_per_kg_eur": 5.62,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -78092,8 +78092,8 @@ const OFFERS_DATA = {
       "discount_pct": 18,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 11.13,
+      "price_per_kg_eur": 5.69,
       "source_type": "promo",
       "available_stores": [
         "T-Market"
@@ -78188,8 +78188,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 11.99,
+      "price_per_kg_eur": 6.13,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -78220,8 +78220,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 11.99,
+      "price_per_kg_eur": 6.13,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -78284,8 +78284,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 12.5,
+      "price_per_kg_eur": 6.39,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -78540,8 +78540,8 @@ const OFFERS_DATA = {
       "discount_pct": 43,
       "valid_from": "2026-05-04",
       "valid_until": "2026-05-10",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 13.67,
+      "price_per_kg_eur": 6.99,
       "source_type": "promo",
       "available_stores": [
         "Kaufland"
@@ -78636,8 +78636,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 13.98,
+      "price_per_kg_eur": 7.15,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -78732,8 +78732,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 14.98,
+      "price_per_kg_eur": 7.66,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -78764,8 +78764,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 14.98,
+      "price_per_kg_eur": 7.66,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -78796,8 +78796,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 14.98,
+      "price_per_kg_eur": 7.66,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -78892,8 +78892,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 16.0,
+      "price_per_kg_eur": 8.18,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -78924,8 +78924,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 16.0,
+      "price_per_kg_eur": 8.18,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -78988,8 +78988,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 16.0,
+      "price_per_kg_eur": 8.18,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -79020,8 +79020,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 17.0,
+      "price_per_kg_eur": 8.69,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -79052,8 +79052,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 17.0,
+      "price_per_kg_eur": 8.69,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -79084,8 +79084,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 17.0,
+      "price_per_kg_eur": 8.69,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -79116,8 +79116,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 17.99,
+      "price_per_kg_eur": 9.2,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -79180,8 +79180,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 17.99,
+      "price_per_kg_eur": 9.2,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -79436,8 +79436,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 20.99,
+      "price_per_kg_eur": 10.73,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -79532,8 +79532,8 @@ const OFFERS_DATA = {
       "discount_pct": 50,
       "valid_from": "2026-05-04",
       "valid_until": "2026-05-10",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 24.98,
+      "price_per_kg_eur": 12.77,
       "source_type": "promo",
       "available_stores": [
         "Kaufland"
@@ -79596,8 +79596,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 26.99,
+      "price_per_kg_eur": 13.8,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -79628,8 +79628,8 @@ const OFFERS_DATA = {
       "discount_pct": 41,
       "valid_from": "2026-05-04",
       "valid_until": "2026-05-10",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 34.99,
+      "price_per_kg_eur": 17.89,
       "source_type": "promo",
       "available_stores": [
         "Kaufland"
@@ -91762,8 +91762,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 1.74,
+      "price_per_kg_eur": 0.89,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -99114,8 +99114,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 2.48,
+      "price_per_kg_eur": 1.27,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -104640,8 +104640,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 3.29,
+      "price_per_kg_eur": 1.68,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -111116,8 +111116,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 4.5,
+      "price_per_kg_eur": 2.3,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -113116,8 +113116,8 @@ const OFFERS_DATA = {
       "discount_pct": 29,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 4.87,
+      "price_per_kg_eur": 2.49,
       "source_type": "promo",
       "available_stores": [
         "T-Market"
@@ -113806,8 +113806,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 4.99,
+      "price_per_kg_eur": 2.55,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -116550,8 +116550,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 5.98,
+      "price_per_kg_eur": 3.06,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -119138,8 +119138,8 @@ const OFFERS_DATA = {
       "discount_pct": 30,
       "valid_from": "2026-05-04",
       "valid_until": "2026-05-10",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 6.98,
+      "price_per_kg_eur": 3.57,
       "source_type": "promo",
       "available_stores": [
         "Kaufland"
@@ -119234,8 +119234,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 6.98,
+      "price_per_kg_eur": 3.57,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -119362,8 +119362,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 6.98,
+      "price_per_kg_eur": 3.57,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -120252,8 +120252,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 7.49,
+      "price_per_kg_eur": 3.83,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -121916,8 +121916,8 @@ const OFFERS_DATA = {
       "discount_pct": 38,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 8.0,
+      "price_per_kg_eur": 4.09,
       "source_type": "promo",
       "available_stores": [
         "T-Market"
@@ -121948,8 +121948,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 8.0,
+      "price_per_kg_eur": 4.09,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -121980,8 +121980,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 8.0,
+      "price_per_kg_eur": 4.09,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -122012,8 +122012,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 8.0,
+      "price_per_kg_eur": 4.09,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -122044,8 +122044,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 8.0,
+      "price_per_kg_eur": 4.09,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -122108,8 +122108,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 8.0,
+      "price_per_kg_eur": 4.09,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -123964,8 +123964,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 8.78,
+      "price_per_kg_eur": 4.49,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -124198,8 +124198,8 @@ const OFFERS_DATA = {
       "discount_pct": 36,
       "valid_from": "2026-05-04",
       "valid_until": "2026-05-10",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 8.98,
+      "price_per_kg_eur": 4.59,
       "source_type": "promo",
       "available_stores": [
         "Kaufland"
@@ -124304,8 +124304,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 9.0,
+      "price_per_kg_eur": 4.6,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -126302,8 +126302,8 @@ const OFFERS_DATA = {
       "discount_pct": 47,
       "valid_from": "2026-05-04",
       "valid_until": "2026-05-10",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 9.99,
+      "price_per_kg_eur": 5.11,
       "source_type": "promo",
       "available_stores": [
         "Kaufland"
@@ -126526,8 +126526,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 9.99,
+      "price_per_kg_eur": 5.11,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -126590,8 +126590,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 9.99,
+      "price_per_kg_eur": 5.11,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -126622,8 +126622,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 9.99,
+      "price_per_kg_eur": 5.11,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -126654,8 +126654,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 9.99,
+      "price_per_kg_eur": 5.11,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -127588,8 +127588,8 @@ const OFFERS_DATA = {
       "discount_pct": 17,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 10.74,
+      "price_per_kg_eur": 5.49,
       "source_type": "promo",
       "available_stores": [
         "T-Market"
@@ -128002,8 +128002,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 10.99,
+      "price_per_kg_eur": 5.62,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -128034,8 +128034,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 10.99,
+      "price_per_kg_eur": 5.62,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -128450,8 +128450,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 11.23,
+      "price_per_kg_eur": 5.74,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -128662,8 +128662,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 11.39,
+      "price_per_kg_eur": 5.82,
       "source_type": "assortment",
       "available_stores": [
         "Dar",
@@ -129860,8 +129860,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 11.99,
+      "price_per_kg_eur": 6.13,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -130552,8 +130552,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 12.6,
+      "price_per_kg_eur": 6.44,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -130956,8 +130956,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 12.75,
+      "price_per_kg_eur": 6.52,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -131296,8 +131296,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 12.99,
+      "price_per_kg_eur": 6.64,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -131328,8 +131328,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 12.99,
+      "price_per_kg_eur": 6.64,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -131360,8 +131360,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 12.99,
+      "price_per_kg_eur": 6.64,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -131648,8 +131648,8 @@ const OFFERS_DATA = {
       "discount_pct": 39,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 13.08,
+      "price_per_kg_eur": 6.69,
       "source_type": "promo",
       "available_stores": [
         "T-Market"
@@ -132222,8 +132222,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 13.98,
+      "price_per_kg_eur": 7.15,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -132466,8 +132466,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 14.31,
+      "price_per_kg_eur": 7.32,
       "source_type": "assortment",
       "available_stores": [
         "Fantastico"
@@ -133432,8 +133432,8 @@ const OFFERS_DATA = {
       "discount_pct": 25,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 15.04,
+      "price_per_kg_eur": 7.69,
       "source_type": "promo",
       "available_stores": [
         "T-Market"
@@ -133918,8 +133918,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 16.0,
+      "price_per_kg_eur": 8.18,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -134344,8 +134344,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 16.9,
+      "price_per_kg_eur": 8.64,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -134376,8 +134376,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": "2026-05-04",
       "valid_until": "2026-05-10",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 17.0,
+      "price_per_kg_eur": 8.69,
       "source_type": "promo",
       "available_stores": [
         "Kaufland"
@@ -134536,8 +134536,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 17.0,
+      "price_per_kg_eur": 8.69,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -134568,8 +134568,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 17.0,
+      "price_per_kg_eur": 8.69,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -134600,8 +134600,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 17.0,
+      "price_per_kg_eur": 8.69,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -135110,8 +135110,8 @@ const OFFERS_DATA = {
       "discount_pct": 28,
       "valid_from": "2026-05-04",
       "valid_until": "2026-05-10",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 17.99,
+      "price_per_kg_eur": 9.2,
       "source_type": "promo",
       "available_stores": [
         "Kaufland"
@@ -135174,8 +135174,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 17.99,
+      "price_per_kg_eur": 9.2,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -135238,8 +135238,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 17.99,
+      "price_per_kg_eur": 9.2,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -135334,8 +135334,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 17.99,
+      "price_per_kg_eur": 9.2,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -135366,8 +135366,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 18.27,
+      "price_per_kg_eur": 9.34,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -136110,8 +136110,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 19.99,
+      "price_per_kg_eur": 10.22,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -136142,8 +136142,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 19.99,
+      "price_per_kg_eur": 10.22,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -136174,8 +136174,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 19.99,
+      "price_per_kg_eur": 10.22,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -136748,8 +136748,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 21.49,
+      "price_per_kg_eur": 10.99,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -137536,8 +137536,8 @@ const OFFERS_DATA = {
       "discount_pct": 51,
       "valid_from": "2026-05-04",
       "valid_until": "2026-05-10",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 23.06,
+      "price_per_kg_eur": 11.79,
       "source_type": "promo",
       "available_stores": [
         "Kaufland"
@@ -137920,8 +137920,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 24.74,
+      "price_per_kg_eur": 12.65,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -138016,8 +138016,8 @@ const OFFERS_DATA = {
       "discount_pct": 34,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 25.02,
+      "price_per_kg_eur": 12.79,
       "source_type": "promo",
       "available_stores": [
         "T-Market"
@@ -138292,8 +138292,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 25.99,
+      "price_per_kg_eur": 13.29,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -138772,8 +138772,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 29.4,
+      "price_per_kg_eur": 15.03,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -138900,8 +138900,8 @@ const OFFERS_DATA = {
       "discount_pct": 25,
       "valid_from": "2026-05-04",
       "valid_until": "2026-05-10",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 29.98,
+      "price_per_kg_eur": 15.33,
       "source_type": "promo",
       "available_stores": [
         "Kaufland"
@@ -139494,8 +139494,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 32.99,
+      "price_per_kg_eur": 16.87,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -139526,8 +139526,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 32.99,
+      "price_per_kg_eur": 16.87,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -140312,8 +140312,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 40.0,
+      "price_per_kg_eur": 20.45,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -140344,8 +140344,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 40.0,
+      "price_per_kg_eur": 20.45,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -140876,8 +140876,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 55.0,
+      "price_per_kg_eur": 28.12,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -141484,8 +141484,8 @@ const OFFERS_DATA = {
       "discount_pct": 36,
       "valid_from": "2026-05-01",
       "valid_until": "2026-12-31",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 1.8,
+      "price_per_kg_eur": 0.92,
       "source_type": "promo",
       "available_stores": [
         "Billa"
@@ -141516,8 +141516,8 @@ const OFFERS_DATA = {
       "discount_pct": 21,
       "valid_from": "2026-05-01",
       "valid_until": "2026-12-31",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 1.8,
+      "price_per_kg_eur": 0.92,
       "source_type": "promo",
       "available_stores": [
         "Billa"
@@ -144334,8 +144334,8 @@ const OFFERS_DATA = {
       "discount_pct": 19,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 4.99,
+      "price_per_kg_eur": 2.55,
       "source_type": "promo",
       "available_stores": [
         "Dar"
@@ -144792,8 +144792,8 @@ const OFFERS_DATA = {
       "discount_pct": 10,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 5.49,
+      "price_per_kg_eur": 2.81,
       "source_type": "promo",
       "available_stores": [
         "Fantastico"
@@ -145016,8 +145016,8 @@ const OFFERS_DATA = {
       "discount_pct": 29,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 5.79,
+      "price_per_kg_eur": 2.96,
       "source_type": "promo",
       "available_stores": [
         "Dar",
@@ -145090,8 +145090,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 5.89,
+      "price_per_kg_eur": 3.01,
       "source_type": "assortment",
       "available_stores": [
         "Dar"
@@ -145186,8 +145186,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": "2026-05-04",
       "valid_until": "2026-05-10",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 5.98,
+      "price_per_kg_eur": 3.06,
       "source_type": "promo",
       "available_stores": [
         "Kaufland"
@@ -145644,8 +145644,8 @@ const OFFERS_DATA = {
       "discount_pct": 22,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 5.99,
+      "price_per_kg_eur": 3.06,
       "source_type": "promo",
       "available_stores": [
         "Fantastico"
@@ -145792,8 +145792,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 6.39,
+      "price_per_kg_eur": 3.27,
       "source_type": "assortment",
       "available_stores": [
         "Dar"
@@ -145856,8 +145856,8 @@ const OFFERS_DATA = {
       "discount_pct": 15,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 6.49,
+      "price_per_kg_eur": 3.32,
       "source_type": "promo",
       "available_stores": [
         "Fantastico"
@@ -146336,8 +146336,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 7.15,
+      "price_per_kg_eur": 3.66,
       "source_type": "assortment",
       "available_stores": [
         "Dar",
@@ -146644,8 +146644,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 7.56,
+      "price_per_kg_eur": 3.87,
       "source_type": "assortment",
       "available_stores": [
         "Dar",
@@ -146686,8 +146686,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 7.56,
+      "price_per_kg_eur": 3.87,
       "source_type": "assortment",
       "available_stores": [
         "Dar",
@@ -146760,8 +146760,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 7.66,
+      "price_per_kg_eur": 3.92,
       "source_type": "assortment",
       "available_stores": [
         "Dar",
@@ -146802,8 +146802,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 7.69,
+      "price_per_kg_eur": 3.93,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -146834,8 +146834,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 7.69,
+      "price_per_kg_eur": 3.93,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -147186,8 +147186,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 8.0,
+      "price_per_kg_eur": 4.09,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -147218,8 +147218,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 8.0,
+      "price_per_kg_eur": 4.09,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -147398,8 +147398,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 8.29,
+      "price_per_kg_eur": 4.24,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -147430,8 +147430,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 8.33,
+      "price_per_kg_eur": 4.26,
       "source_type": "assortment",
       "available_stores": [
         "Dar",
@@ -147472,8 +147472,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 8.33,
+      "price_per_kg_eur": 4.26,
       "source_type": "assortment",
       "available_stores": [
         "Dar",
@@ -147674,8 +147674,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 8.49,
+      "price_per_kg_eur": 4.34,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -147706,8 +147706,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 8.49,
+      "price_per_kg_eur": 4.34,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -147930,8 +147930,8 @@ const OFFERS_DATA = {
       "discount_pct": 20,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 8.99,
+      "price_per_kg_eur": 4.6,
       "source_type": "promo",
       "available_stores": [
         "Dar"
@@ -148090,8 +148090,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 9.0,
+      "price_per_kg_eur": 4.6,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -148420,8 +148420,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 9.2,
+      "price_per_kg_eur": 4.7,
       "source_type": "assortment",
       "available_stores": [
         "Dar",
@@ -148462,8 +148462,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 9.2,
+      "price_per_kg_eur": 4.7,
       "source_type": "assortment",
       "available_stores": [
         "Dar",
@@ -148706,8 +148706,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 9.71,
+      "price_per_kg_eur": 4.96,
       "source_type": "assortment",
       "available_stores": [
         "Dar",
@@ -148780,8 +148780,8 @@ const OFFERS_DATA = {
       "discount_pct": 31,
       "valid_from": "2026-05-04",
       "valid_until": "2026-05-10",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 9.96,
+      "price_per_kg_eur": 5.09,
       "source_type": "promo",
       "available_stores": [
         "Kaufland"
@@ -148844,8 +148844,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": "2026-05-04",
       "valid_until": "2026-05-10",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 9.99,
+      "price_per_kg_eur": 5.11,
       "source_type": "promo",
       "available_stores": [
         "Kaufland"
@@ -149334,8 +149334,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 10.48,
+      "price_per_kg_eur": 5.36,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -149398,8 +149398,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 10.73,
+      "price_per_kg_eur": 5.49,
       "source_type": "assortment",
       "available_stores": [
         "Fantastico"
@@ -149430,8 +149430,8 @@ const OFFERS_DATA = {
       "discount_pct": 20,
       "valid_from": "2026-05-04",
       "valid_until": "2026-05-10",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 10.99,
+      "price_per_kg_eur": 5.62,
       "source_type": "promo",
       "available_stores": [
         "Kaufland"
@@ -149632,8 +149632,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 10.99,
+      "price_per_kg_eur": 5.62,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -149664,8 +149664,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 11.24,
+      "price_per_kg_eur": 5.75,
       "source_type": "assortment",
       "available_stores": [
         "Fantastico"
@@ -149696,8 +149696,8 @@ const OFFERS_DATA = {
       "discount_pct": 10,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 11.49,
+      "price_per_kg_eur": 5.87,
       "source_type": "promo",
       "available_stores": [
         "Dar",
@@ -149738,8 +149738,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 11.89,
+      "price_per_kg_eur": 6.08,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -150058,8 +150058,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 12.27,
+      "price_per_kg_eur": 6.27,
       "source_type": "assortment",
       "available_stores": [
         "Fantastico"
@@ -150090,8 +150090,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 12.27,
+      "price_per_kg_eur": 6.27,
       "source_type": "assortment",
       "available_stores": [
         "Dar",
@@ -150132,8 +150132,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 12.5,
+      "price_per_kg_eur": 6.39,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -150260,8 +150260,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 12.99,
+      "price_per_kg_eur": 6.64,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -150356,8 +150356,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 12.99,
+      "price_per_kg_eur": 6.64,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -150580,8 +150580,8 @@ const OFFERS_DATA = {
       "discount_pct": 20,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 13.26,
+      "price_per_kg_eur": 6.78,
       "source_type": "promo",
       "available_stores": [
         "T-Market"
@@ -150612,8 +150612,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 13.29,
+      "price_per_kg_eur": 6.8,
       "source_type": "assortment",
       "available_stores": [
         "Fantastico"
@@ -150644,8 +150644,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 13.79,
+      "price_per_kg_eur": 7.05,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -150772,8 +150772,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 14.31,
+      "price_per_kg_eur": 7.32,
       "source_type": "assortment",
       "available_stores": [
         "Dar",
@@ -150814,8 +150814,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 14.39,
+      "price_per_kg_eur": 7.36,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -150910,8 +150910,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 14.98,
+      "price_per_kg_eur": 7.66,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -150974,8 +150974,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 14.98,
+      "price_per_kg_eur": 7.66,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -151102,8 +151102,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 16.0,
+      "price_per_kg_eur": 8.18,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -151134,8 +151134,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 16.0,
+      "price_per_kg_eur": 8.18,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -151166,8 +151166,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 16.0,
+      "price_per_kg_eur": 8.18,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -151358,8 +151358,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 16.59,
+      "price_per_kg_eur": 8.48,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -151422,8 +151422,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 16.87,
+      "price_per_kg_eur": 8.63,
       "source_type": "assortment",
       "available_stores": [
         "Dar",
@@ -151464,8 +151464,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 16.87,
+      "price_per_kg_eur": 8.63,
       "source_type": "assortment",
       "available_stores": [
         "Dar",
@@ -151506,8 +151506,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 17.0,
+      "price_per_kg_eur": 8.69,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -151538,8 +151538,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 17.0,
+      "price_per_kg_eur": 8.69,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -151570,8 +151570,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 17.0,
+      "price_per_kg_eur": 8.69,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -151602,8 +151602,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 17.0,
+      "price_per_kg_eur": 8.69,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -151666,8 +151666,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 17.38,
+      "price_per_kg_eur": 8.89,
       "source_type": "assortment",
       "available_stores": [
         "Fantastico"
@@ -151698,8 +151698,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 17.89,
+      "price_per_kg_eur": 9.15,
       "source_type": "assortment",
       "available_stores": [
         "Dar",
@@ -151740,8 +151740,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 17.89,
+      "price_per_kg_eur": 9.15,
       "source_type": "assortment",
       "available_stores": [
         "Dar",
@@ -151782,8 +151782,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": "2026-05-04",
       "valid_until": "2026-05-10",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 17.99,
+      "price_per_kg_eur": 9.2,
       "source_type": "promo",
       "available_stores": [
         "Kaufland"
@@ -151814,8 +151814,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 17.99,
+      "price_per_kg_eur": 9.2,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -151846,8 +151846,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 18.29,
+      "price_per_kg_eur": 9.35,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -151942,8 +151942,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 19.99,
+      "price_per_kg_eur": 10.22,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -152006,8 +152006,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 19.99,
+      "price_per_kg_eur": 10.22,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -152102,8 +152102,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 21.98,
+      "price_per_kg_eur": 11.24,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -152166,8 +152166,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 24.0,
+      "price_per_kg_eur": 12.27,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -152198,8 +152198,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 24.0,
+      "price_per_kg_eur": 12.27,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -152230,8 +152230,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 25.99,
+      "price_per_kg_eur": 13.29,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -152294,8 +152294,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 25.99,
+      "price_per_kg_eur": 13.29,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -152358,8 +152358,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 26.99,
+      "price_per_kg_eur": 13.8,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -152390,8 +152390,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 26.99,
+      "price_per_kg_eur": 13.8,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -152486,8 +152486,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 29.98,
+      "price_per_kg_eur": 15.33,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -152646,8 +152646,8 @@ const OFFERS_DATA = {
       "discount_pct": 40,
       "valid_from": "2026-05-04",
       "valid_until": "2026-05-10",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 35.97,
+      "price_per_kg_eur": 18.39,
       "source_type": "promo",
       "available_stores": [
         "Kaufland"
@@ -152678,8 +152678,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 35.99,
+      "price_per_kg_eur": 18.4,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -152838,8 +152838,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 40.0,
+      "price_per_kg_eur": 20.45,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -152870,8 +152870,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 44.98,
+      "price_per_kg_eur": 23.0,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -152902,8 +152902,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 45.98,
+      "price_per_kg_eur": 23.51,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -152934,8 +152934,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 46.49,
+      "price_per_kg_eur": 23.77,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -152966,8 +152966,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 48.0,
+      "price_per_kg_eur": 24.54,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -163024,8 +163024,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 9.99,
+      "price_per_kg_eur": 5.11,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -163568,8 +163568,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 16.74,
+      "price_per_kg_eur": 8.56,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -166344,8 +166344,8 @@ const OFFERS_DATA = {
       "discount_pct": 41,
       "valid_from": "2026-05-01",
       "valid_until": "2026-12-31",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 0.59,
+      "price_per_kg_eur": 0.3,
       "source_type": "promo",
       "available_stores": [
         "Billa"
@@ -168106,8 +168106,8 @@ const OFFERS_DATA = {
       "discount_pct": 32,
       "valid_from": "2026-05-01",
       "valid_until": "2026-12-31",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 0.68,
+      "price_per_kg_eur": 0.35,
       "source_type": "promo",
       "available_stores": [
         "Billa"
@@ -172368,8 +172368,8 @@ const OFFERS_DATA = {
       "discount_pct": 37,
       "valid_from": "2026-05-01",
       "valid_until": "2026-12-31",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 0.99,
+      "price_per_kg_eur": 0.51,
       "source_type": "promo",
       "available_stores": [
         "Billa"
@@ -198302,8 +198302,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 2.29,
+      "price_per_kg_eur": 1.17,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -232678,8 +232678,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 4.42,
+      "price_per_kg_eur": 2.26,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -233594,8 +233594,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 4.5,
+      "price_per_kg_eur": 2.3,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -239668,8 +239668,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 4.99,
+      "price_per_kg_eur": 2.55,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -248782,8 +248782,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 5.85,
+      "price_per_kg_eur": 2.99,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -250594,8 +250594,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 5.98,
+      "price_per_kg_eur": 3.06,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -255800,8 +255800,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 6.59,
+      "price_per_kg_eur": 3.37,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -257468,8 +257468,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 6.98,
+      "price_per_kg_eur": 3.57,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -257788,8 +257788,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 6.98,
+      "price_per_kg_eur": 3.57,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -261998,8 +261998,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 7.66,
+      "price_per_kg_eur": 3.92,
       "source_type": "assortment",
       "available_stores": [
         "Dar",
@@ -262870,8 +262870,8 @@ const OFFERS_DATA = {
       "discount_pct": 48,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 7.8,
+      "price_per_kg_eur": 3.99,
       "source_type": "promo",
       "available_stores": [
         "T-Market"
@@ -263446,8 +263446,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": "2026-05-04",
       "valid_until": "2026-05-10",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 7.98,
+      "price_per_kg_eur": 4.08,
       "source_type": "promo",
       "available_stores": [
         "Kaufland"
@@ -263830,8 +263830,8 @@ const OFFERS_DATA = {
       "discount_pct": 13,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 7.99,
+      "price_per_kg_eur": 4.09,
       "source_type": "promo",
       "available_stores": [
         "Dar",
@@ -268288,8 +268288,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 9.0,
+      "price_per_kg_eur": 4.6,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -270632,8 +270632,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 9.54,
+      "price_per_kg_eur": 4.88,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -272292,8 +272292,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 9.99,
+      "price_per_kg_eur": 5.11,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -272324,8 +272324,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 9.99,
+      "price_per_kg_eur": 5.11,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -272356,8 +272356,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 9.99,
+      "price_per_kg_eur": 5.11,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -272388,8 +272388,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 9.99,
+      "price_per_kg_eur": 5.11,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -272452,8 +272452,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 9.99,
+      "price_per_kg_eur": 5.11,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -272484,8 +272484,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 9.99,
+      "price_per_kg_eur": 5.11,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -272516,8 +272516,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 9.99,
+      "price_per_kg_eur": 5.11,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -273284,8 +273284,8 @@ const OFFERS_DATA = {
       "discount_pct": 32,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 10.15,
+      "price_per_kg_eur": 5.19,
       "source_type": "promo",
       "available_stores": [
         "T-Market"
@@ -275528,8 +275528,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 10.99,
+      "price_per_kg_eur": 5.62,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -277732,8 +277732,8 @@ const OFFERS_DATA = {
       "discount_pct": 38,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 11.72,
+      "price_per_kg_eur": 5.99,
       "source_type": "promo",
       "available_stores": [
         "T-Market"
@@ -277764,8 +277764,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 11.75,
+      "price_per_kg_eur": 6.01,
       "source_type": "assortment",
       "available_stores": [
         "Fantastico"
@@ -278210,8 +278210,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 11.89,
+      "price_per_kg_eur": 6.08,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -278946,8 +278946,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 11.99,
+      "price_per_kg_eur": 6.13,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -278978,8 +278978,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 11.99,
+      "price_per_kg_eur": 6.13,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -280020,8 +280020,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 12.5,
+      "price_per_kg_eur": 6.39,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -280116,8 +280116,8 @@ const OFFERS_DATA = {
       "discount_pct": 26,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 12.5,
+      "price_per_kg_eur": 6.39,
       "source_type": "promo",
       "available_stores": [
         "T-Market"
@@ -280904,8 +280904,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": "2026-05-04",
       "valid_until": "2026-05-10",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 12.99,
+      "price_per_kg_eur": 6.64,
       "source_type": "promo",
       "available_stores": [
         "Kaufland"
@@ -281416,8 +281416,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 12.99,
+      "price_per_kg_eur": 6.64,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -281448,8 +281448,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 12.99,
+      "price_per_kg_eur": 6.64,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -283100,8 +283100,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 13.89,
+      "price_per_kg_eur": 7.1,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -283484,8 +283484,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 13.98,
+      "price_per_kg_eur": 7.15,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -283580,8 +283580,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 13.98,
+      "price_per_kg_eur": 7.15,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -283740,8 +283740,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 13.98,
+      "price_per_kg_eur": 7.15,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -287162,8 +287162,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 16.0,
+      "price_per_kg_eur": 8.18,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -288730,8 +288730,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 17.0,
+      "price_per_kg_eur": 8.69,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -288762,8 +288762,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 17.0,
+      "price_per_kg_eur": 8.69,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -289850,8 +289850,8 @@ const OFFERS_DATA = {
       "discount_pct": 36,
       "valid_from": "2026-05-04",
       "valid_until": "2026-05-10",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 17.97,
+      "price_per_kg_eur": 9.19,
       "source_type": "promo",
       "available_stores": [
         "Kaufland"
@@ -291492,8 +291492,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 18.99,
+      "price_per_kg_eur": 9.71,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -292004,8 +292004,8 @@ const OFFERS_DATA = {
       "discount_pct": 25,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 19.54,
+      "price_per_kg_eur": 9.99,
       "source_type": "promo",
       "available_stores": [
         "T-Market"
@@ -292836,8 +292836,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 19.99,
+      "price_per_kg_eur": 10.22,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -292868,8 +292868,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 19.99,
+      "price_per_kg_eur": 10.22,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -292900,8 +292900,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 19.99,
+      "price_per_kg_eur": 10.22,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -292932,8 +292932,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 19.99,
+      "price_per_kg_eur": 10.22,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -292964,8 +292964,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 19.99,
+      "price_per_kg_eur": 10.22,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -294360,8 +294360,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 21.98,
+      "price_per_kg_eur": 11.24,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -294840,8 +294840,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 22.98,
+      "price_per_kg_eur": 11.75,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -294872,8 +294872,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 22.98,
+      "price_per_kg_eur": 11.75,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -295756,8 +295756,8 @@ const OFFERS_DATA = {
       "discount_pct": 40,
       "valid_from": "2026-05-04",
       "valid_until": "2026-05-10",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 24.0,
+      "price_per_kg_eur": 12.27,
       "source_type": "promo",
       "available_stores": [
         "Kaufland"
@@ -297068,8 +297068,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 25.99,
+      "price_per_kg_eur": 13.29,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -298444,8 +298444,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 29.98,
+      "price_per_kg_eur": 15.33,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -298476,8 +298476,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 29.98,
+      "price_per_kg_eur": 15.33,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -301110,8 +301110,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 43.99,
+      "price_per_kg_eur": 22.49,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -301142,8 +301142,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 43.99,
+      "price_per_kg_eur": 22.49,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -301238,8 +301238,8 @@ const OFFERS_DATA = {
       "discount_pct": 31,
       "valid_from": "2026-05-04",
       "valid_until": "2026-05-10",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 44.96,
+      "price_per_kg_eur": 22.99,
       "source_type": "promo",
       "available_stores": [
         "Kaufland"
@@ -302720,8 +302720,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 67.98,
+      "price_per_kg_eur": 34.76,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -302752,8 +302752,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 67.98,
+      "price_per_kg_eur": 34.76,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -303104,8 +303104,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 75.98,
+      "price_per_kg_eur": 38.85,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"

@@ -1164,6 +1164,15 @@ def build_offer(name, new_price, old_price, discount_pct, image_url, store_name,
     price_per_kg = None
     if weight_grams and weight_grams > 0:
         price_per_kg = round(new_price / weight_grams * 1000, 2)
+    # Products sold by weight (fresh counter / bulk): price IS already per kg
+    if price_per_kg is None:
+        name_lower = name.lower()
+        if ("витрина" in name_lower
+                or re.search(r'(?<!\w)кг\s*$', name_lower)
+                or re.search(r'\bна\s+тегло\b', name_lower)):
+            price_per_kg = new_price
+            if not weight_raw:
+                weight_raw = "на кг"
 
     if healthy and price_per_kg and price_per_kg <= 8 and "budget" not in diet_tags:
         diet_tags.append("budget")
@@ -1264,6 +1273,15 @@ def reclassify_offer(offer):
     price_per_kg = None
     if weight_grams and weight_grams > 0 and offer.get("new_price") is not None:
         price_per_kg = round(offer["new_price"] / weight_grams * 1000, 2)
+    # Products sold by weight (fresh counter / bulk): price IS already per kg
+    if price_per_kg is None and offer.get("new_price") is not None:
+        name_lower = name.lower()
+        if ("витрина" in name_lower
+                or re.search(r'(?<!\w)кг\s*$', name_lower)
+                or re.search(r'\bна\s+тегло\b', name_lower)):
+            price_per_kg = offer["new_price"]
+            if not weight_raw:
+                weight_raw = "на кг"
 
     if healthy and price_per_kg and price_per_kg <= 8 and "budget" not in diet_tags:
         diet_tags.append("budget")
