@@ -1006,10 +1006,14 @@ function sortOffers(offers) {
             });
             break;
         case "protein_value":
+            // Sort ascending by BGN per 100g protein. Only real protein sources
+            // (isValidProteinValueOffer) get a finite score — everything else goes last.
             sorted.sort((a, b) => {
-                const va = isValidProteinValueOffer(a) ? (getProteinMetrics(a, true)?.adjustedProteinPerEur || 0) : 0;
-                const vb = isValidProteinValueOffer(b) ? (getProteinMetrics(b, true)?.adjustedProteinPerEur || 0) : 0;
-                return vb - va;
+                const ma = isValidProteinValueOffer(a) ? getProteinMetrics(a, true) : null;
+                const mb = isValidProteinValueOffer(b) ? getProteinMetrics(b, true) : null;
+                const va = ma ? (100 / ma.rawProteinPerLev) : Infinity;
+                const vb = mb ? (100 / mb.rawProteinPerLev) : Infinity;
+                return va - vb;
             });
             break;
         case "discount_desc":
@@ -1836,10 +1840,15 @@ function renderOffers(offers) {
         const detailFallbackSrc = hasRealImage(o.image) ? getLocalFallbackImage(o) : "";
         const imgTag = renderOfferThumb(o);
 
-        let proteinValueHtml = "";
         const pm = getProteinMetrics(o);
+        let proteinValueHtml = "";
+        let proteinBadgeHtml = "";
         if (pm) {
-            proteinValueHtml = `<div class="details-row"><strong>Ефективен протеин/евро:</strong> <span class="green">${pm.adjustedProteinPerEur.toFixed(1)}г на €1</span></div>`;
+            const bgnPer100g = (100 / pm.rawProteinPerLev).toFixed(2);
+            proteinValueHtml = `<div class="details-row"><strong>Цена на протеина:</strong> <span class="green">${bgnPer100g} лв/100г протеин</span></div>`;
+            if (activeSort === "protein_value" && isValidProteinValueOffer(o)) {
+                proteinBadgeHtml = `<div class="offer-ppk green">${bgnPer100g} лв/100г протеин</div>`;
+            }
         }
 
         return `
@@ -1860,6 +1869,7 @@ function renderOffers(offers) {
                         <span class="offer-new-price">${o.new_price.toFixed(2)} лв</span>
                         ${o.old_price ? `<div class="offer-old-price">${o.old_price.toFixed(2)} лв</div>` : ""}
                         ${displayPpk ? `<div class="offer-ppk">${displayPpk.toFixed(2)} лв/кг</div>` : ""}
+                        ${proteinBadgeHtml}
                         ${renderSparkline(o)}
                     </div>
                     <span class="offer-arrow">▼</span>
