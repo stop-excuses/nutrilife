@@ -1335,7 +1335,7 @@ function renderFavoritesPanel() {
 
             const weightHtml = wi?.raw ? `<span class="fav-weight">${wi.raw}</span>` : '';
             // Shorten name: strip known brand noise, max 42 chars
-            const cleanName = o.name.replace(/\s*\d+[\d.,]*\s*(кг|г|гр|мл|л|бр)\b.*/i, '').trim().slice(0, 42);
+            const cleanName = o.name.replace(/\s*\d+[\d.,]*\s*(кг|г|гр|мл|л|бр)\b.*/i, '').trim();
             const thumb = renderOfferThumb(o);
             return `<div class="fav-offer-row" data-offer-id="${getOfferDomId(o)}" title="Виж продукта">
                 ${thumb ? `<div class="fav-offer-thumb">${thumb}</div>` : ''}
