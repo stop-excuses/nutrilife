@@ -16,6 +16,7 @@ let searchQuery = "";
 let currentPage = 1;
 let filteredOffersCache = [];
 let allCatalogProducts = [];
+let selectedFavoriteOfferId = "";
 let favoriteItems = (() => {
     const raw = JSON.parse(localStorage.getItem('nutrilife-favorites') || '[]');
     if (raw.length && typeof raw[0] === 'string') return raw.map(kw => ({ kw, emoji: '🍽️' }));
@@ -1753,7 +1754,17 @@ function renderFavoritesPanel() {
     }).join('');
 
     panel.innerHTML = `<div class="fav-panel-hd"><span>🛒 Пазарен списък</span><span class="fav-cnt">${favoriteItems.length}</span></div>
+        ${selectedFavoriteOfferId ? renderFavoriteOfferPreview(selectedFavoriteOfferId) : ""}
         <div class="fav-panel-bd">${rows}</div>`;
+
+    const previewClose = panel.querySelector('.fav-preview-close');
+    if (previewClose) {
+        previewClose.addEventListener('click', e => {
+            e.stopPropagation();
+            selectedFavoriteOfferId = "";
+            renderFavoritesPanel();
+        });
+    }
 
     panel.querySelectorAll('.fav-item-hd').forEach(hd => {
         hd.addEventListener('click', e => {
@@ -1795,7 +1806,51 @@ function renderFavoritesPanel() {
 }
 
 function navigateToOfferCard(offerId) {
-    openOfferInGrid(offerId);
+    selectedFavoriteOfferId = offerId;
+    renderFavoritesPanel();
+}
+
+function renderFavoriteOfferPreview(offerId) {
+    const offer = allOffers.find(o => getOfferDomId(o) === offerId);
+    if (!offer) return "";
+
+    const macros = getMacros(offer);
+    const nameParts = getOfferNameParts(offer.name);
+    const healthyOffer = isHealthyOffer(offer);
+    const stores = offer.available_stores && offer.available_stores.length > 1
+        ? offer.available_stores.join(", ")
+        : offer.store;
+    const displayPpk = offer.price_per_kg || (offer.weight_grams && offer.new_price ? (offer.new_price / offer.weight_grams * 1000) : null);
+    const validity = getOfferValidityText(offer, "detail");
+    const metaParts = [];
+    if (offer.weight_raw) metaParts.push(offer.weight_raw);
+    if (displayPpk) metaParts.push(`${displayPpk.toFixed(2)} лв/кг`);
+
+    return `
+        <div class="fav-product-preview" data-offer-id="${getOfferDomId(offer)}">
+            <div class="fav-preview-head">
+                <div class="fav-preview-img">${renderOfferThumb(offer)}</div>
+                <div class="fav-preview-main">
+                    <div class="fav-preview-store">${escapeHtml(stores)}</div>
+                    <div class="fav-preview-name">${escapeHtml(nameParts.full)}</div>
+                    <div class="fav-preview-price-row">
+                        <strong>${offer.new_price.toFixed(2)} лв</strong>
+                        ${offer.old_price ? `<span class="fav-old">${offer.old_price.toFixed(2)} лв</span>` : ""}
+                        ${offer.discount_pct ? `<span class="fav-disc">−${offer.discount_pct}%</span>` : ""}
+                    </div>
+                </div>
+                <button class="fav-preview-close" type="button" title="Затвори">×</button>
+            </div>
+            <div class="fav-preview-facts">
+                ${healthyOffer && offer.health_score != null ? `<span>Рейтинг ${offer.health_score}/10</span>` : ""}
+                ${metaParts.length ? `<span>${escapeHtml(metaParts.join(" · "))}</span>` : ""}
+                ${validity ? `<span>${validity}</span>` : ""}
+                ${macros ? `<span>${macros.p}г протеин · ${macros.f}г мазнини · ${macros.c}г въгл.</span>` : ""}
+            </div>
+            ${renderStoreComparisonList(offer)}
+            ${renderPriceHistory(offer)}
+        </div>
+    `;
 }
 
 /* -----------------------------------------------------------------------
