@@ -596,6 +596,36 @@ function escapeHtml(value) {
         .replaceAll("'", "&#39;");
 }
 
+function titleCaseProductName(name) {
+    const clean = String(name || "").replace(/\s+/g, " ").trim();
+    if (!clean) return "";
+    const letters = clean.replace(/[^\p{L}]/gu, "");
+    const uppercaseLetters = clean.replace(/[^\p{Lu}]/gu, "");
+    const isMostlyUppercase = letters.length > 8 && uppercaseLetters.length / letters.length > 0.75;
+    if (!isMostlyUppercase) return clean;
+
+    return clean.split(" ").map(word => {
+        if (!word) return word;
+        if (/^[A-Z0-9&.-]{2,}$/.test(word)) return word;
+        if (/^\d/.test(word)) return word.toLowerCase();
+        return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+    }).join(" ");
+}
+
+function getOfferNameParts(name) {
+    const display = titleCaseProductName(name);
+    const packageMatch = display.match(/\b(\d+(?:[.,]\d+)?\s*(?:кг|г|гр|мл|л|бр|бр\.|x\s*\d+|×\s*\d+))\b/iu);
+    const packageText = packageMatch ? packageMatch[1].replace(/\s+/g, " ") : "";
+    const shortName = packageText
+        ? display.replace(packageMatch[0], "").replace(/\s{2,}/g, " ").replace(/\s+([,.;:])/g, "$1").trim()
+        : display;
+    return {
+        display: shortName || display,
+        packageText,
+        full: display,
+    };
+}
+
 function normalizeProductKey(name) {
     return (name || "")
         .toLowerCase()
@@ -2316,6 +2346,7 @@ function renderOffers(offers) {
         const isHP = healthyOffer && isStrictHighProtein(o);
         const validityShort = getOfferValidityText(o, "short");
         const validityDetail = getOfferValidityText(o, "detail");
+        const nameParts = getOfferNameParts(o.name);
 
         let badges = [];
         if (o.is_junk) badges.push(`<span class="offer-tag junk-tag">⚠ Нездравословно</span>`);
@@ -2355,8 +2386,9 @@ function renderOffers(offers) {
                         ${imgTag}
                     </div>
                     <div class="offer-info-main">
-                        <div class="offer-name">${o.name}</div>
+                        <div class="offer-name" title="${escapeHtml(nameParts.full)}">${escapeHtml(nameParts.display)}</div>
                         <div class="offer-store">${stores}</div>
+                        ${nameParts.packageText ? `<div class="offer-package">${escapeHtml(nameParts.packageText)}</div>` : ""}
                         ${validityShort ? `<div class="offer-validity">${validityShort}</div>` : ""}
                         <div class="offer-badges">${badges.join("")}</div>
                     </div>
@@ -2377,6 +2409,7 @@ function renderOffers(offers) {
                             ${imgSrc ? `<img src="${imgSrc}" class="offer-big-img${!hasRealImage(o.image) ? " fallback" : ""}" ${detailFallbackSrc ? `data-fallback-src="${detailFallbackSrc}"` : ""} onerror="${detailFallbackSrc ? `if(this.dataset.fallbackSrc&&this.src!==this.dataset.fallbackSrc){this.src=this.dataset.fallbackSrc;this.classList.add('fallback');}else{this.style.display='none';}` : "this.style.display='none'"}">` : ""}
                             ${hasHealthScore ? `<div class="details-row"><strong>Здравен рейтинг:</strong> <span>${o.health_score}/10</span></div>` : ""}
                             ${isCuredLeanMeat(o) ? `<div class="details-row"><strong>Бележка:</strong> <span>Висок протеин, но лек penalty за сол и сушене.</span></div>` : ""}
+                            <div class="details-row"><strong>Продукт:</strong> <span>${escapeHtml(nameParts.full)}</span></div>
                             <div class="details-row"><strong>Магазин:</strong> <span>${stores}${o.address ? ' (' + o.address + ')' : ''}</span></div>
                             ${validityDetail ? `<div class="details-row"><strong>Оферта:</strong> <span>${validityDetail}</span></div>` : ""}
                             ${metaParts.length ? `<div class="details-row"><strong>Детайли:</strong> <span>${metaParts.join(" · ")}</span></div>` : ""}
