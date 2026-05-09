@@ -1196,6 +1196,8 @@ const KEYWORD_LABELS = {
     'олио':              'Олио',
     'краве масло':       'Краве масло',
     'пълнозърнест хляб': 'Пълнозърнест хляб',
+    'ръжен хляб':        'Ръжен хляб',
+    'хляб':              'Хляб',
 };
 
 const KEYWORD_EMOJI = {
@@ -1231,27 +1233,33 @@ const KEYWORD_EMOJI = {
     'олио':              '🫙',
     'краве масло':       '🧈',
     'пълнозърнест хляб': '🌾',
+    'ръжен хляб':        '🍞',
+    'хляб':              '🍞',
 };
 
 function extractFavoriteKeyword(offer) {
     const nl = offer.name.toLowerCase();
+    const cat = normalizeOfferCategory(offer);
     // Olive oil unification — зехтин and маслиново масло are the same product
     if (nl.includes("зехтин") || nl.includes("маслиново масло")) return "зехтин";
     // Vegetable oils grouped together
     if (nl.includes("олио")) return "олио";
-    // Whole grain bread separate from regular bread
-    if (nl.includes("пълнозърнест")) return "пълнозърнест хляб";
     // Butter separate from generic масло catch-all
     if (nl.includes("краве масло") || nl.includes("животинско масло")) return "краве масло";
     // Specific nut types each get their own favorite; mixed nuts fall back to "ядки"
-    if (normalizeOfferCategory(offer) === 'nuts') {
+    if (cat === 'nuts') {
         const nutOrder = ["шамфъстък", "макадамия", "пекан", "кашу", "лешник", "бадем", "фъстък", "орех"];
         for (const k of nutOrder) { if (nl.includes(k)) return k; }
         return "ядки";
     }
-    const nameLower = nl;
+    // Bread category: always return a bread keyword to avoid grain/oat mismatches
+    if (cat === 'bread') {
+        if (nl.includes("пълнозърн")) return "пълнозърнест хляб";
+        if (nl.includes("ръжен") || nl.includes("ръж")) return "ръжен хляб";
+        return "хляб";
+    }
     for (const [keyword] of LOCAL_IMAGE_RULES) {
-        if (nameLower.includes(keyword)) return keyword;
+        if (nl.includes(keyword)) return keyword;
     }
     // Fallback: first 2 meaningful words, stripped of weight/size info
     const cleaned = nameLower
