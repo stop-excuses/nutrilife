@@ -1817,17 +1817,36 @@ input[type="range"]::-moz-range-thumb {
     font-size: 0.84rem;
     color: var(--text);
     margin-bottom: 3px;
+    line-height: 1.28;
+}
+
+.offer-name-compact {
     display: -webkit-box;
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
-    line-height: 1.28;
-    max-height: 2.16rem;
+    max-height: 3.23rem;
+}
+
+.offer-name-full {
+    display: none;
 }
 
 .offer-card.expanded .offer-name {
     font-size: 0.86rem;
-    overflow: hidden;
+    overflow: visible;
+    max-height: none;
+}
+
+.offer-card.expanded .offer-name-compact {
+    display: none;
+}
+
+.offer-card.expanded .offer-name-full {
+    display: block;
+    white-space: normal;
+    overflow: visible;
+    max-height: none;
 }
 
 .offer-store {

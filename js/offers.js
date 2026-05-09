@@ -2386,7 +2386,10 @@ function renderOffers(offers) {
                         ${imgTag}
                     </div>
                     <div class="offer-info-main">
-                        <div class="offer-name" title="${escapeHtml(nameParts.full)}">${escapeHtml(nameParts.display)}</div>
+                        <div class="offer-name" title="${escapeHtml(nameParts.full)}">
+                            <span class="offer-name-compact">${escapeHtml(nameParts.display)}</span>
+                            <span class="offer-name-full">${escapeHtml(nameParts.full)}</span>
+                        </div>
                         <div class="offer-store">${stores}</div>
                         ${nameParts.packageText ? `<div class="offer-package">${escapeHtml(nameParts.packageText)}</div>` : ""}
                         ${validityShort ? `<div class="offer-validity">${validityShort}</div>` : ""}
