@@ -459,6 +459,12 @@ function normalizeOfferCategory(offer) {
     if (nameLower.includes("орехче") || nameLower.includes("канела") || nameLower.includes("кимион")
         || nameLower.includes("куркума") || nameLower.includes("джинджифил") || nameLower.includes("кардамон")
         || nameLower.includes("анасон") || nameLower.includes("кориандър")) return "other";
+    // Canned/jarred legumes belong in legume, not canned (буркан боб, консерва нахут, etc.)
+    if (offer.category === "canned" && (
+        nameLower.includes("боб") || nameLower.includes("нахут") ||
+        nameLower.includes("леща") || nameLower.includes("грах") ||
+        nameLower.includes("фасул")
+    )) return "legume";
     // Meat products misclassified as nuts because of the "Орехите" brand name
     if (offer.category === "nuts" && (
         nameLower.includes("сушеница") || nameLower.includes("бабек") ||
