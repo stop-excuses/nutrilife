@@ -7,6 +7,7 @@ let fuseIndex = null;
 let activeType = "all";
 let activeCategory = "all";
 let activeNutType = "all";
+let activeBreadType = "all";
 let activeStore = "all";
 let activeSort = "recommended";
 let searchQuery = "";
@@ -572,6 +573,15 @@ const SEARCH_SYNONYMS = [
     ["зехтин", "маслиново масло", "olive oil"],
 ];
 
+// Keywords for bread sub-filter buttons
+const BREAD_TYPE_KEYWORDS = {
+    "пълнозърнест": ["пълнозърн"],
+    "ръжен":        ["ръжен", "ръж"],
+    "типов":        ["типов"],
+    "тостер":       ["тостер", "тост"],
+    "бял":          ["бял"],
+};
+
 // Keywords for nut sub-filter buttons — any match → show product
 const NUT_TYPE_KEYWORDS = {
     "орех":      ["орех"],
@@ -998,6 +1008,7 @@ async function loadOffers() {
         initTypeFilters();
         initCategoryFilters();
         initNutTypeFilters();
+        initBreadTypeFilters();
         initStoreFilters();
         initProfileFilters();
         initSortButtons();
@@ -1541,6 +1552,14 @@ function applyFilters() {
         });
     }
 
+    if (activeCategory === "bread" && activeBreadType !== "all") {
+        const keys = BREAD_TYPE_KEYWORDS[activeBreadType] || [activeBreadType];
+        filtered = filtered.filter(o => {
+            const nl = o.name.toLowerCase();
+            return keys.some(k => nl.includes(k));
+        });
+    }
+
     if (activeStore !== "all") {
         filtered = filtered.filter(o => (o.available_stores || [o.store]).includes(activeStore));
     }
@@ -1573,20 +1592,22 @@ function initTypeFilters() {
 
 function initCategoryFilters() {
     const nutSubfilters = document.getElementById("nut-subfilters");
+    const breadSubfilters = document.getElementById("bread-subfilters");
     document.querySelectorAll(".filter-btn[data-category]").forEach(btn => {
         btn.addEventListener("click", () => {
             document.querySelectorAll(".filter-btn[data-category]").forEach(b => b.classList.remove("active"));
             btn.classList.add("active");
             activeCategory = btn.dataset.category;
             currentPage = 1;
-            // Show nut sub-filters only when nuts category is active
-            if (nutSubfilters) {
-                nutSubfilters.classList.toggle("hidden", activeCategory !== "nuts");
-            }
-            // Reset nut type when switching away from nuts
+            if (nutSubfilters) nutSubfilters.classList.toggle("hidden", activeCategory !== "nuts");
+            if (breadSubfilters) breadSubfilters.classList.toggle("hidden", activeCategory !== "bread");
             if (activeCategory !== "nuts") {
                 activeNutType = "all";
                 document.querySelectorAll(".filter-btn[data-nut]").forEach(b => b.classList.toggle("active", b.dataset.nut === "all"));
+            }
+            if (activeCategory !== "bread") {
+                activeBreadType = "all";
+                document.querySelectorAll(".filter-btn[data-bread]").forEach(b => b.classList.toggle("active", b.dataset.bread === "all"));
             }
             applyFilters();
         });
@@ -1599,6 +1620,18 @@ function initNutTypeFilters() {
             document.querySelectorAll(".filter-btn[data-nut]").forEach(b => b.classList.remove("active"));
             btn.classList.add("active");
             activeNutType = btn.dataset.nut;
+            currentPage = 1;
+            applyFilters();
+        });
+    });
+}
+
+function initBreadTypeFilters() {
+    document.querySelectorAll(".filter-btn[data-bread]").forEach(btn => {
+        btn.addEventListener("click", () => {
+            document.querySelectorAll(".filter-btn[data-bread]").forEach(b => b.classList.remove("active"));
+            btn.classList.add("active");
+            activeBreadType = btn.dataset.bread;
             currentPage = 1;
             applyFilters();
         });
@@ -1621,6 +1654,7 @@ function resetOfferFiltersForNavigation() {
     activeType = "all";
     activeCategory = "all";
     activeNutType = "all";
+    activeBreadType = "all";
     activeStore = "all";
     activeSort = "recommended";
     searchQuery = "";
