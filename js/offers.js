@@ -483,6 +483,41 @@ const UI_DIET_TAGS_BY_CATEGORY = {
     vegetable: ["vegetarian", "mediterranean", "budget"]
 };
 
+const CATEGORY_FILTER_RULES = {
+    dairy: {
+        include: ["кисело мляко", "прясно мляко", "извара", "скир", "skyr", "cottage", "сирене", "кашкавал", "моцарела", "йогурт"],
+        exclude: ["bake rolls", "брускет", "чипс", "снак", "крекер", "солети", "бисквит", "десерт", "крем", "салата", "сос", "пица", "банич", "кроасан"]
+    },
+    grain: {
+        include: ["овес", "овесени ядки", "ориз", "булгур", "елда", "кус кус", "паста", "спагети", "макарони", "мюсли", "брашно"],
+        exclude: ["bake rolls", "бира", "пастьориз", "напитка", "бар", "вафла", "бисквит", "десерт", "чипс", "снак", "солети", "крекер", "шоколад"]
+    },
+    legume: {
+        include: ["леща", "нахут", "боб", "фасул", "грах"],
+        exclude: ["супа", "яхния готов", "салата", "хумус", "чипс", "снак"]
+    },
+    vegetable: {
+        include: ["банан", "ябъл", "домат", "краставиц", "чушк", "картоф", "морков", "авокад", "броколи", "карфиол", "спанак", "зеле", "портокал", "лимон", "мандарин"],
+        exclude: ["bake rolls", "нектар", "сок", "напитка", "смути", "десерт", "салата", "сос", "чипс", "снак", "крекер"]
+    },
+    nuts: {
+        include: ["бадем", "орех", "кашу", "лешник", "фъстък", "шамфъстък", "семена", "чия", "сусам", "тахан"],
+        exclude: ["бар", "бисквит", "вафла", "десерт", "шоколад", "снак", "мюсли", "гранола", "кокосов орех"]
+    },
+    protein: {
+        include: ["пилеш", "пиле", "пуеш", "телеш", "говеж", "свинск", "кайма", "яйц", "сьомга", "скумрия", "сардини", "риба тон", "лаврак", "ципура", "пъстърва", "херинга", "черен дроб"],
+        exclude: ["вкус пиле", "аромат", "бульон", "нудли", "супа", "салата", "снак", "паста с"]
+    },
+    canned: {
+        include: ["риба тон", "сардини", "скумрия", "консерва"],
+        exclude: ["салата", "паста", "пюре", "бебе", "детск"]
+    },
+    bread: {
+        include: ["хляб", "пълнозърнест", "ръжен", "типов"],
+        exclude: ["напитка", "нектар", "сок", "cappy", "prisun", "бира", "десерт", "бисквит", "вафла"]
+    }
+};
+
 function inferUiCategory(offer) {
     if (offer.category) return offer.category;
     const nameLower = getOfferNameLower(offer);
@@ -502,6 +537,14 @@ function inferUiHealthScore(offer, category, macros) {
         return category === "dairy" ? 8 : 9;
     }
     return UI_CATEGORY_HEALTH_SCORE[category] ?? null;
+}
+
+function passesCategoryFilterQuality(offer, category) {
+    const rule = CATEGORY_FILTER_RULES[category];
+    if (!rule) return true;
+    const nameLower = getOfferNameLower(offer);
+    if (rule.exclude.some(kw => nameLower.includes(kw))) return false;
+    return rule.include.some(kw => nameLower.includes(kw));
 }
 
 function normalizeOfferCategory(offer) {
@@ -1835,7 +1878,7 @@ function applyFilters() {
     }
 
     if (activeCategory !== "all") {
-        filtered = filtered.filter(o => o.category === activeCategory);
+        filtered = filtered.filter(o => o.category === activeCategory && passesCategoryFilterQuality(o, activeCategory));
     }
 
     if (activeCategory === "nuts" && activeNutType !== "all") {
