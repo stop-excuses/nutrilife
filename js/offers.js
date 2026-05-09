@@ -8,6 +8,7 @@ let activeType = "all";
 let activeCategory = "all";
 let activeNutType = "all";
 let activeBreadType = "all";
+let activeGrainType = "all";
 let activeStore = "all";
 let activeSort = "recommended";
 let searchQuery = "";
@@ -580,6 +581,11 @@ const BREAD_TYPE_KEYWORDS = {
     "типов":        ["типов"],
     "тостер":       ["тостер", "тост"],
     "бял":          ["бял"],
+    "здравословен": ["пълнозърн", "ръжен", "ръж"],
+};
+
+const GRAIN_TYPE_KEYWORDS = {
+    "полезни": ["пълнозърн", "елда", "киноа", "булгур"],
 };
 
 // Keywords for nut sub-filter buttons — any match → show product
@@ -1009,6 +1015,7 @@ async function loadOffers() {
         initCategoryFilters();
         initNutTypeFilters();
         initBreadTypeFilters();
+        initGrainTypeFilters();
         initStoreFilters();
         initProfileFilters();
         initSortButtons();
@@ -1560,6 +1567,14 @@ function applyFilters() {
         });
     }
 
+    if (activeCategory === "grain" && activeGrainType !== "all") {
+        const keys = GRAIN_TYPE_KEYWORDS[activeGrainType] || [activeGrainType];
+        filtered = filtered.filter(o => {
+            const nl = o.name.toLowerCase();
+            return keys.some(k => nl.includes(k));
+        });
+    }
+
     if (activeStore !== "all") {
         filtered = filtered.filter(o => (o.available_stores || [o.store]).includes(activeStore));
     }
@@ -1593,6 +1608,7 @@ function initTypeFilters() {
 function initCategoryFilters() {
     const nutSubfilters = document.getElementById("nut-subfilters");
     const breadSubfilters = document.getElementById("bread-subfilters");
+    const grainSubfilters = document.getElementById("grain-subfilters");
     document.querySelectorAll(".filter-btn[data-category]").forEach(btn => {
         btn.addEventListener("click", () => {
             document.querySelectorAll(".filter-btn[data-category]").forEach(b => b.classList.remove("active"));
@@ -1601,6 +1617,7 @@ function initCategoryFilters() {
             currentPage = 1;
             if (nutSubfilters) nutSubfilters.classList.toggle("hidden", activeCategory !== "nuts");
             if (breadSubfilters) breadSubfilters.classList.toggle("hidden", activeCategory !== "bread");
+            if (grainSubfilters) grainSubfilters.classList.toggle("hidden", activeCategory !== "grain");
             if (activeCategory !== "nuts") {
                 activeNutType = "all";
                 document.querySelectorAll(".filter-btn[data-nut]").forEach(b => b.classList.toggle("active", b.dataset.nut === "all"));
@@ -1608,6 +1625,10 @@ function initCategoryFilters() {
             if (activeCategory !== "bread") {
                 activeBreadType = "all";
                 document.querySelectorAll(".filter-btn[data-bread]").forEach(b => b.classList.toggle("active", b.dataset.bread === "all"));
+            }
+            if (activeCategory !== "grain") {
+                activeGrainType = "all";
+                document.querySelectorAll(".filter-btn[data-grain]").forEach(b => b.classList.toggle("active", b.dataset.grain === "all"));
             }
             applyFilters();
         });
@@ -1638,6 +1659,18 @@ function initBreadTypeFilters() {
     });
 }
 
+function initGrainTypeFilters() {
+    document.querySelectorAll(".filter-btn[data-grain]").forEach(btn => {
+        btn.addEventListener("click", () => {
+            document.querySelectorAll(".filter-btn[data-grain]").forEach(b => b.classList.remove("active"));
+            btn.classList.add("active");
+            activeGrainType = btn.dataset.grain;
+            currentPage = 1;
+            applyFilters();
+        });
+    });
+}
+
 function initStoreFilters() {
     document.querySelectorAll(".filter-btn[data-store]").forEach(btn => {
         btn.addEventListener("click", () => {
@@ -1655,6 +1688,7 @@ function resetOfferFiltersForNavigation() {
     activeCategory = "all";
     activeNutType = "all";
     activeBreadType = "all";
+    activeGrainType = "all";
     activeStore = "all";
     activeSort = "recommended";
     searchQuery = "";
@@ -1675,6 +1709,15 @@ function resetOfferFiltersForNavigation() {
     document.querySelectorAll(".sort-btn[data-sort]").forEach(btn => {
         btn.classList.toggle("active", btn.dataset.sort === "recommended");
     });
+    document.querySelectorAll(".filter-btn[data-nut]").forEach(b => b.classList.toggle("active", b.dataset.nut === "all"));
+    document.querySelectorAll(".filter-btn[data-bread]").forEach(b => b.classList.toggle("active", b.dataset.bread === "all"));
+    document.querySelectorAll(".filter-btn[data-grain]").forEach(b => b.classList.toggle("active", b.dataset.grain === "all"));
+    const nutSub = document.getElementById("nut-subfilters");
+    const breadSub = document.getElementById("bread-subfilters");
+    const grainSub = document.getElementById("grain-subfilters");
+    if (nutSub) nutSub.classList.add("hidden");
+    if (breadSub) breadSub.classList.add("hidden");
+    if (grainSub) grainSub.classList.add("hidden");
 }
 
 function openOfferInGrid(offerId) {
