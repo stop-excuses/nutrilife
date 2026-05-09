@@ -21,6 +21,7 @@ data/tmp_*.json
 data/tmp_*.txt
 data/off_cache.json
 data/run*_output*.json
+data/scraper_stats.json
 output/
 *.log
 scraper/*_output.txt
