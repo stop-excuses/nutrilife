@@ -1618,7 +1618,7 @@ function toggleFavorite(offerId) {
         const o = allOffers.find(x => getOfferDomId(x) === btn.dataset.offerId);
         if (!o || extractFavoriteKeyword(o) !== kw) return;
         btn.classList.toggle('active', active);
-        btn.title = active ? 'Премахни от любими' : 'Следи този продукт';
+        btn.title = active ? 'Премахни от списъка' : 'Добави към списъка';
     });
     renderFavoritesPanel();
 }
@@ -1752,7 +1752,7 @@ function renderFavoritesPanel() {
         </div>`;
     }).join('');
 
-    panel.innerHTML = `<div class="fav-panel-hd"><span>❤️ Моите любими</span><span class="fav-cnt">${favoriteItems.length}</span></div>
+    panel.innerHTML = `<div class="fav-panel-hd"><span>🛒 Пазарен списък</span><span class="fav-cnt">${favoriteItems.length}</span></div>
         <div class="fav-panel-bd">${rows}</div>`;
 
     panel.querySelectorAll('.fav-item-hd').forEach(hd => {
@@ -1772,7 +1772,7 @@ function renderFavoritesPanel() {
                 const o = allOffers.find(x => getOfferDomId(x) === b.dataset.offerId);
                 if (!o || extractFavoriteKeyword(o) !== kw) return;
                 b.classList.remove('active');
-                b.title = 'Следи този продукт';
+                b.title = 'Добави към списъка';
             });
             renderFavoritesPanel();
         });
@@ -2226,10 +2226,19 @@ function renderPriceHistory(offer) {
         ? `<span class="ph-badge ${trend.cls}">${trend.label}</span>`
         : `<span class="ph-badge ph-tracking">📊 Проследяване от ${history[0]?.date || "—"}</span>`;
 
-    const chartW = 320;
-    const chartH = 118;
-    const padX = 18;
-    const padY = 18;
+    const previousPoint = points.length > 1 ? points[points.length - 2] : null;
+    const previousPrice = previousPoint && previousPoint.price != null ? previousPoint.price : null;
+    const priceDelta = previousPrice != null && currentPrice != null ? currentPrice - previousPrice : null;
+    const deltaPct = previousPrice ? (priceDelta / previousPrice) * 100 : null;
+    const deltaClass = priceDelta == null || Math.abs(priceDelta) < 0.01 ? "flat" : priceDelta < 0 ? "down" : "up";
+    const deltaText = priceDelta == null || Math.abs(priceDelta) < 0.01
+        ? "Без промяна"
+        : `${priceDelta < 0 ? "По-евтино" : "По-скъпо"} с ${Math.abs(priceDelta).toFixed(2)} лв${deltaPct != null ? ` (${Math.abs(deltaPct).toFixed(0)}%)` : ""}`;
+
+    const chartW = 360;
+    const chartH = 150;
+    const padX = 28;
+    const padY = 24;
     const plotW = chartW - padX * 2;
     const plotH = chartH - padY * 2;
     const chartPoints = points.map((e, i) => {
@@ -2242,11 +2251,7 @@ function renderPriceHistory(offer) {
     const avgY = avgPrice != null
         ? padY + ((maxP - avgPrice) / range) * plotH
         : null;
-    const currentPoint = chartPoints[chartPoints.length - 1];
-    const previousPoint = chartPoints.length > 1 ? chartPoints[chartPoints.length - 2] : null;
-    const currentDelta = previousPoint && currentPrice != null
-        ? currentPrice - previousPoint.price
-        : null;
+    const currentDelta = priceDelta;
     const insight = isLowest
         ? "Това е най-ниската засечена цена."
         : aboveAvg
@@ -2272,13 +2277,23 @@ function renderPriceHistory(offer) {
     const lastDate = points[points.length - 1]?.date ? points[points.length - 1].date.slice(5) : "";
     const chartHtml = `
         <div class="ph-visual">
+            <div class="ph-chart-head">
+                <div>
+                    <small>Текуща цена</small>
+                    <strong>${currentPrice != null ? currentPrice.toFixed(2) + " лв" : "—"}</strong>
+                </div>
+                <span class="ph-delta ${deltaClass}">${deltaText}</span>
+            </div>
             <svg class="ph-line-chart" viewBox="0 0 ${chartW} ${chartH}" role="img" aria-label="Ценова графика">
                 <line class="ph-grid-line" x1="${padX}" y1="${padY}" x2="${chartW - padX}" y2="${padY}"></line>
+                <line class="ph-grid-line" x1="${padX}" y1="${padY + plotH / 2}" x2="${chartW - padX}" y2="${padY + plotH / 2}"></line>
                 <line class="ph-grid-line" x1="${padX}" y1="${chartH - padY}" x2="${chartW - padX}" y2="${chartH - padY}"></line>
                 ${avgY != null ? `<line class="ph-avg-line" x1="${padX}" y1="${avgY.toFixed(1)}" x2="${chartW - padX}" y2="${avgY.toFixed(1)}"></line>` : ""}
                 <polygon class="ph-area" points="${fillPoints}"></polygon>
                 <polyline class="ph-line" points="${linePoints}"></polyline>
                 ${pointDots}
+                <text class="ph-y-label" x="${padX}" y="${padY - 8}">${maxP.toFixed(2)} лв</text>
+                <text class="ph-y-label" x="${padX}" y="${chartH - 5}">${minP.toFixed(2)} лв</text>
             </svg>
             <div class="ph-axis">
                 <span>${firstDate}</span>
@@ -2289,9 +2304,21 @@ function renderPriceHistory(offer) {
     const statsHtml = hasRealHistory ? `
             <div class="ph-stats">
                 <span><small>Дъно</small><strong class="green">${lowestPrice != null ? lowestPrice.toFixed(2) + " лв" : "—"}</strong></span>
+                <span><small>Преди</small><strong>${previousPrice != null ? previousPrice.toFixed(2) + " лв" : "—"}</strong></span>
                 <span><small>Средна</small><strong>${avgPrice != null ? avgPrice.toFixed(2) + " лв" : "—"}</strong></span>
                 <span><small>Сега</small><strong>${currentPrice != null ? currentPrice.toFixed(2) + " лв" : "—"}</strong></span>
             </div>` : "";
+
+    const recentRows = points.slice(-5).reverse().map((point, index) => {
+        const isCurrentRow = index === 0;
+        const disc = point.discount_pct ? `<span class="ph-row-discount">−${point.discount_pct}%</span>` : "";
+        return `
+            <div class="ph-row ${isCurrentRow ? "current" : ""}">
+                <span>${point.date || "—"}</span>
+                <strong>${point.price.toFixed(2)} лв</strong>
+                ${disc}
+            </div>`;
+    }).join("");
 
     return `
         <div class="price-history">
@@ -2303,6 +2330,7 @@ function renderPriceHistory(offer) {
             <div class="ph-body">
                 ${chartHtml}
                 ${statsHtml}
+                <div class="ph-rows">${recentRows}</div>
                 <div class="ph-insight">${insight}</div>
             </div>
         </div>`;
@@ -2417,7 +2445,20 @@ function renderOffers(offers) {
     if (!grid) return;
 
     if (offers.length === 0) {
-        grid.innerHTML = '<p style="text-align:center; color:var(--muted);">Няма намерени продукти.</p>';
+        const t = window.I18N && window.I18N.t ? window.I18N.t.bind(window.I18N) : k => k;
+        grid.innerHTML = `
+            <div class="offers-empty">
+                <p data-i18n="sf.offers.empty">${t("sf.offers.empty")}</p>
+                <button class="filter-btn" type="button" data-reset-offers data-i18n="sf.offers.clear_filters">${t("sf.offers.clear_filters")}</button>
+            </div>
+        `;
+        const resetBtn = grid.querySelector("[data-reset-offers]");
+        if (resetBtn) {
+            resetBtn.addEventListener("click", () => {
+                resetOfferFiltersForNavigation();
+                applyFilters();
+            });
+        }
         if (pagination) pagination.innerHTML = "";
         return;
     }
@@ -2492,7 +2533,7 @@ function renderOffers(offers) {
                         ${proteinBadgeHtml}
                         ${renderSparkline(o)}
                     </div>
-                    <button class="fav-btn${isFavorited(o) ? ' active' : ''}" data-offer-id="${getOfferDomId(o)}" title="${isFavorited(o) ? 'Премахни от любими' : 'Следи този продукт'}">❤️</button>
+                    <button class="fav-btn${isFavorited(o) ? ' active' : ''}" data-offer-id="${getOfferDomId(o)}" title="${isFavorited(o) ? 'Премахни от списъка' : 'Добави към списъка'}">❤️</button>
                     <span class="offer-arrow">▼</span>
                 </div>
                 <div class="offer-details">
@@ -2616,7 +2657,7 @@ function renderPriceComparison() {
                 <div class="staple-img-area">
                     ${imgTag}
                     ${discTag}
-                    <button class="fav-btn${favActive}" data-offer-id="${bestId}" title="${favActive ? 'Премахни от любими' : 'Следи този продукт'}" onclick="event.stopPropagation()">❤️</button>
+                    <button class="fav-btn${favActive}" data-offer-id="${bestId}" title="${favActive ? 'Премахни от списъка' : 'Добави към списъка'}" onclick="event.stopPropagation()">❤️</button>
                 </div>
                 <div class="staple-body">
                     <div class="staple-name">${staple.label}</div>
@@ -2773,7 +2814,7 @@ function renderProteinRanking() {
                     <div class="rank-medal">${medal}</div>
                     <div class="offer-img-cell">
                         ${renderOfferThumb(o)}
-                        <button class="fav-btn${isFavorited(o) ? ' active' : ''}" data-offer-id="${getOfferDomId(o)}" title="${isFavorited(o) ? 'Премахни от любими' : 'Следи този продукт'}">❤️</button>
+                        <button class="fav-btn${isFavorited(o) ? ' active' : ''}" data-offer-id="${getOfferDomId(o)}" title="${isFavorited(o) ? 'Премахни от списъка' : 'Добави към списъка'}">❤️</button>
                     </div>
                     <div class="rank-info">
                         <div class="rank-name">${o.name}</div>
@@ -2984,7 +3025,7 @@ function renderProfileRecommendations(profile) {
                     <div class="offer-store">${o.store} — <em class="green">${o.new_price.toFixed(2)} лв</em></div>
                     ${o.price_per_kg ? `<div style="font-size:0.8rem; color:var(--muted); margin-top:4px;">${o.price_per_kg.toFixed(2)} лв/кг</div>` : ""}
                 </div>
-                <button class="fav-btn${isFavorited(o) ? ' active' : ''}" data-offer-id="${getOfferDomId(o)}" title="${isFavorited(o) ? 'Премахни от любими' : 'Следи този продукт'}">❤️</button>
+                <button class="fav-btn${isFavorited(o) ? ' active' : ''}" data-offer-id="${getOfferDomId(o)}" title="${isFavorited(o) ? 'Премахни от списъка' : 'Добави към списъка'}">❤️</button>
             </div>
         </div>`).join("");
 
