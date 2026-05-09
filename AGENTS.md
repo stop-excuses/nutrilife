@@ -18,6 +18,24 @@ Each page: fixed navbar with 5 dots (current page highlighted) + CTA button to n
 **Repo**: https://github.com/stop-excuses/nutrilife  
 **Hosting**: GitHub Pages, `master` branch
 
+## Current working notes
+
+Keep this section short and update it after hands-on QA/fixes so future sessions do not repeat the same discovery work.
+
+**2026-05-09 Smart Food product page QA**
+- Local test URL used: `http://127.0.0.1:8000/smart-food.html` via `python -m http.server 8000 --bind 127.0.0.1`.
+- Browser-tested `smart-food.html`: load, product cards, filter buttons, search, sort, pagination, price-comparison card links, favorite button, empty results.
+- No console errors/warnings after the latest fix.
+- Fixed product grid row stretching when one `.offer-card` is expanded by adding `align-items: start` to `.offers-grid` in `css/style.css`.
+- Fixed empty filter/search state in `js/offers.js`: `renderOffers([])` now shows a full-row `.offers-empty` message plus `data-reset-offers` button that calls `resetOfferFiltersForNavigation()` and `applyFilters()`.
+- Added BG i18n keys in `js/i18n.smart-food.js`: `sf.offers.empty`, `sf.offers.clear_filters`.
+- Bumped cache params in `smart-food.html`: `css/style.css?v=17`, `js/i18n.smart-food.js?v=3`, `js/offers.js?v=26`.
+- Mobile QA done at 390x844 and 480x844: navbar wraps without overlap, filters wrap, offer cards are one column, expanded details fit, empty-state reset works after a short scroll, no console errors/warnings.
+- 2026-05-09 follow-up UX QA: searched common products (`яйца`, `кисело мляко`, `пиле`, `ориз`, `риба тон`, `зехтин`, `банани`) with useful results and no console errors.
+- Reframed favorites as a lightweight shopping/watch list: visible copy now says `Пазарен списък`, heart button titles say add/remove from list.
+- Improved price history: expanded offer cards span the full grid row, chart has current/previous/average/low stats, delta badge, clearer line chart, recent price rows, and mobile styling tested at 390x844.
+- Remaining nice-to-have: if the filter area grows further, consider a compact/collapsible filter bar for mobile; a true cart with quantities would be a separate feature from the current watch list.
+
 ## Files
 
 ```
