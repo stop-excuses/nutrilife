@@ -4632,53 +4632,106 @@ input[type="range"]::-moz-range-thumb {
 .price-history.ph-open .ph-toggle-arrow { transform: rotate(180deg); }
 .ph-body { display: none; }
 .price-history.ph-open .ph-body { display: block; }
-.ph-chart {
-    display: flex;
-    align-items: flex-end;
-    gap: 6px;
-    overflow-x: auto;
-    overflow-y: hidden;
-    padding: 4px 0 0;
-    scrollbar-width: thin;
-}
-.ph-col {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 3px;
-    min-width: 34px;
-    cursor: default;
-}
-.ph-col:hover .ph-bar { opacity: .75; }
-.ph-price-label {
-    font-size: .68rem;
-    color: var(--text);
-    white-space: nowrap;
-}
-.ph-date-label {
-    font-size: .65rem;
-    color: var(--muted);
-    white-space: nowrap;
-}
-.ph-bar {
-    width: 18px;
-    min-height: 6px;
-    background: #2a3d1e;
-    border-radius: 3px 3px 0 0;
-    transition: opacity .15s;
-}
-.ph-bar.promo   { background: #97C459; }
-.ph-bar.low     { background: #3B6D11; }
-.ph-bar.current { background: #7F77DD; outline: 2px solid #534AB7; outline-offset: 1px; }
-.ph-stats {
-    display: flex;
-    gap: 16px;
-    font-size: .76rem;
-    color: var(--muted);
+.ph-visual {
     margin-top: 8px;
-    flex-wrap: wrap;
+    padding: 10px 10px 6px;
+    background: rgba(255,255,255,0.035);
+    border: 1px solid rgba(255,255,255,0.07);
+    border-radius: 8px;
 }
-.ph-stats strong { color: var(--text); }
+
+.ph-line-chart {
+    display: block;
+    width: 100%;
+    height: 132px;
+    overflow: visible;
+}
+
+.ph-grid-line {
+    stroke: rgba(255,255,255,0.08);
+    stroke-width: 1;
+}
+
+.ph-avg-line {
+    stroke: rgba(186,117,23,0.55);
+    stroke-width: 1.5;
+    stroke-dasharray: 5 5;
+}
+
+.ph-area {
+    fill: rgba(151,196,89,0.12);
+}
+
+.ph-line {
+    fill: none;
+    stroke: #97C459;
+    stroke-width: 3;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    filter: drop-shadow(0 3px 8px rgba(151,196,89,0.18));
+}
+
+.ph-dot-ring {
+    fill: var(--surface);
+    stroke: #97C459;
+    stroke-width: 2;
+}
+
+.ph-dot {
+    fill: #97C459;
+}
+
+.ph-dot-wrap.current .ph-dot-ring {
+    stroke: #7F77DD;
+    stroke-width: 2.5;
+}
+
+.ph-dot-wrap.current .ph-dot {
+    fill: #7F77DD;
+}
+
+.ph-dot-wrap.promo .ph-dot {
+    fill: #f0efe8;
+}
+
+.ph-dot-wrap.low .ph-dot-ring {
+    stroke: #3B6D11;
+}
+
+.ph-axis {
+    display: flex;
+    justify-content: space-between;
+    color: var(--muted2);
+    font-size: .68rem;
+    margin-top: -4px;
+}
+
+.ph-stats {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.ph-stats span {
+    padding: 8px;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.07);
+    border-radius: 8px;
+}
+
+.ph-stats small {
+    display: block;
+    color: var(--muted2);
+    font-size: .62rem;
+    margin-bottom: 2px;
+}
+
+.ph-stats strong {
+    color: var(--text);
+    font-size: .78rem;
+}
+
 .ph-badge {
     font-size: .7rem;
     padding: 2px 8px;
@@ -4692,7 +4745,22 @@ input[type="range"]::-moz-range-thumb {
 .trend-down  { background: #0d1a08; color: #97C459; }
 .trend-up    { background: #110a0a; color: #E24B4A; }
 .trend-flat  { background: #111; color: var(--muted); }
-.ph-one-point { font-size: .78rem; color: var(--muted); padding: 4px 0; }
+.ph-insight {
+    margin-top: 8px;
+    color: var(--muted);
+    font-size: .76rem;
+    line-height: 1.45;
+}
+
+@media (max-width: 480px) {
+    .ph-line-chart {
+        height: 112px;
+    }
+
+    .ph-stats {
+        grid-template-columns: 1fr;
+    }
+}
 
 /* ── Sparkline (card header) ─────────────────────────────────────────────── */
 .sparkline {

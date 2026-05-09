@@ -2226,26 +2226,71 @@ function renderPriceHistory(offer) {
         ? `<span class="ph-badge ${trend.cls}">${trend.label}</span>`
         : `<span class="ph-badge ph-tracking">📊 Проследяване от ${history[0]?.date || "—"}</span>`;
 
-    const bars = points.map((e, i) => {
-        const h = Math.round(((e.price - minP) / range) * 36) + 6;
+    const chartW = 320;
+    const chartH = 118;
+    const padX = 18;
+    const padY = 18;
+    const plotW = chartW - padX * 2;
+    const plotH = chartH - padY * 2;
+    const chartPoints = points.map((e, i) => {
+        const x = points.length === 1 ? chartW / 2 : padX + (i / (points.length - 1)) * plotW;
+        const y = padY + ((maxP - e.price) / range) * plotH;
+        return { ...e, x, y };
+    });
+    const linePoints = chartPoints.map(p => `${p.x.toFixed(1)},${p.y.toFixed(1)}`).join(" ");
+    const fillPoints = `${padX},${chartH - padY} ${linePoints} ${chartW - padX},${chartH - padY}`;
+    const avgY = avgPrice != null
+        ? padY + ((maxP - avgPrice) / range) * plotH
+        : null;
+    const currentPoint = chartPoints[chartPoints.length - 1];
+    const previousPoint = chartPoints.length > 1 ? chartPoints[chartPoints.length - 2] : null;
+    const currentDelta = previousPoint && currentPrice != null
+        ? currentPrice - previousPoint.price
+        : null;
+    const insight = isLowest
+        ? "Това е най-ниската засечена цена."
+        : aboveAvg
+        ? "В момента е над средната засечена цена."
+        : currentDelta != null && Math.abs(currentDelta) >= 0.01
+        ? `${currentDelta < 0 ? "Пада" : "Качва се"} с ${Math.abs(currentDelta).toFixed(2)} лв спрямо предния запис.`
+        : "Цената е стабилна спрямо последния запис.";
+
+    const pointDots = chartPoints.map((e, i) => {
         const isCurrent = e._current;
         const isPromo = e.discount_pct > 0;
         const isLow = lowestPrice != null && e.price <= lowestPrice;
         const cls = [isCurrent ? "current" : "", isPromo ? "promo" : isLow ? "low" : ""].filter(Boolean).join(" ");
         const label = `${e.date}\n${e.price.toFixed(2)} лв${e.discount_pct ? ` · -${e.discount_pct}%` : ""}`;
         return `
-            <div class="ph-col" title="${label}">
-                <div class="ph-price-label">${e.price.toFixed(2)}</div>
-                <div class="ph-bar ${cls}" style="height:${h}px"></div>
-                <div class="ph-date-label">${e.date.slice(5)}</div>
-            </div>`;
+            <g class="ph-dot-wrap ${cls}" tabindex="0">
+                <title>${escapeHtml(label)}</title>
+                <circle class="ph-dot-ring" cx="${e.x.toFixed(1)}" cy="${e.y.toFixed(1)}" r="${isCurrent ? 6 : 4.8}"></circle>
+                <circle class="ph-dot" cx="${e.x.toFixed(1)}" cy="${e.y.toFixed(1)}" r="${isCurrent ? 3.2 : 2.6}"></circle>
+            </g>`;
     }).join("");
+    const firstDate = points[0]?.date ? points[0].date.slice(5) : "";
+    const lastDate = points[points.length - 1]?.date ? points[points.length - 1].date.slice(5) : "";
+    const chartHtml = `
+        <div class="ph-visual">
+            <svg class="ph-line-chart" viewBox="0 0 ${chartW} ${chartH}" role="img" aria-label="Ценова графика">
+                <line class="ph-grid-line" x1="${padX}" y1="${padY}" x2="${chartW - padX}" y2="${padY}"></line>
+                <line class="ph-grid-line" x1="${padX}" y1="${chartH - padY}" x2="${chartW - padX}" y2="${chartH - padY}"></line>
+                ${avgY != null ? `<line class="ph-avg-line" x1="${padX}" y1="${avgY.toFixed(1)}" x2="${chartW - padX}" y2="${avgY.toFixed(1)}"></line>` : ""}
+                <polygon class="ph-area" points="${fillPoints}"></polygon>
+                <polyline class="ph-line" points="${linePoints}"></polyline>
+                ${pointDots}
+            </svg>
+            <div class="ph-axis">
+                <span>${firstDate}</span>
+                <span>${lastDate}</span>
+            </div>
+        </div>`;
 
     const statsHtml = hasRealHistory ? `
             <div class="ph-stats">
-                <span>Дъно: <strong class="green">${lowestPrice != null ? lowestPrice.toFixed(2) + " лв" : "—"}</strong></span>
-                <span>Средна: <strong>${avgPrice != null ? avgPrice.toFixed(2) + " лв" : "—"}</strong></span>
-                <span>Сега: <strong>${currentPrice != null ? currentPrice.toFixed(2) + " лв" : "—"}</strong></span>
+                <span><small>Дъно</small><strong class="green">${lowestPrice != null ? lowestPrice.toFixed(2) + " лв" : "—"}</strong></span>
+                <span><small>Средна</small><strong>${avgPrice != null ? avgPrice.toFixed(2) + " лв" : "—"}</strong></span>
+                <span><small>Сега</small><strong>${currentPrice != null ? currentPrice.toFixed(2) + " лв" : "—"}</strong></span>
             </div>` : "";
 
     return `
@@ -2256,8 +2301,9 @@ function renderPriceHistory(offer) {
                 <span class="ph-toggle-arrow">▼</span>
             </div>
             <div class="ph-body">
-                <div class="ph-chart">${bars}</div>
+                ${chartHtml}
                 ${statsHtml}
+                <div class="ph-insight">${insight}</div>
             </div>
         </div>`;
 }
