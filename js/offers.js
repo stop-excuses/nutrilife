@@ -157,6 +157,11 @@ const LOCAL_IMAGE_RULES = [
     ["сусам", "images/foods/seeds.svg"],
     ["семена", "images/foods/seeds.svg"],
     ["бадем", "images/foods/almonds.svg"],
+    ["шамфъстък", "images/foods/nuts.svg"],
+    ["кашу", "images/foods/nuts.svg"],
+    ["лешник", "images/foods/nuts.svg"],
+    ["пекан", "images/foods/nuts.svg"],
+    ["макадамия", "images/foods/nuts.svg"],
     ["орех", "images/foods/walnuts.svg"],
     ["фъст", "images/foods/peanuts.svg"],
     // Oils & fats
@@ -447,12 +452,28 @@ function normalizeOfferCategory(offer) {
     if (nameLower.includes("орехче") || nameLower.includes("канела") || nameLower.includes("кимион")
         || nameLower.includes("куркума") || nameLower.includes("джинджифил") || nameLower.includes("кардамон")
         || nameLower.includes("анасон") || nameLower.includes("кориандър")) return "other";
+    // Meat products misclassified as nuts because of the "Орехите" brand name
+    if (offer.category === "nuts" && (
+        nameLower.includes("сушеница") || nameLower.includes("бабек") ||
+        nameLower.includes("луканк") || nameLower.includes("салам") ||
+        nameLower.includes("суджук") || nameLower.includes("шунка") ||
+        nameLower.includes("кренвирш") || nameLower.includes("наденица") ||
+        nameLower.includes("деликатес пуешки") || nameLower.includes("деликатес пилешки")
+    )) return "protein";
     // Bars, cookies, porridges misclassified as nuts because of ingredient keywords
     if (offer.category === "nuts" && (
-        nameLower.includes("курабийк") || nameLower.includes("ечемичен") ||
-        nameLower.includes("барче") || nameLower.includes("протеинов бар") || nameLower.includes("снак") ||
+        nameLower.includes("курабийк") || nameLower.includes("курабийниц") ||
+        nameLower.includes("меденка") || nameLower.includes("ореховка") ||
+        nameLower.includes("ечемичен") ||
+        nameLower.includes(" бар ") || nameLower.endsWith(" бар") ||
+        nameLower.includes("натурален бар") || nameLower.includes("суров бар") ||
+        nameLower.includes("протеинов бар") || nameLower.includes("снак") ||
         nameLower.includes("каша") || nameLower.includes("мюсли") || nameLower.includes("гранол") ||
-        nameLower.includes("вафла") || nameLower.includes("шоколад") || nameLower.includes("десерт")
+        nameLower.includes("вафла") || nameLower.includes("шоколад") || nameLower.includes("десерт") ||
+        nameLower.includes("зърнени ядки") || nameLower.includes("ечемичени ядки") ||
+        nameLower.includes("оризови ядки") || nameLower.includes("кокосов продукт") ||
+        nameLower.includes("кокосов напитка") || nameLower.includes("заквасен кокос") ||
+        nameLower.includes("зърнена закуска")
     )) return "grain";
     return offer.category;
 }
@@ -537,7 +558,30 @@ const SEARCH_SYNONYMS = [
     ["сьомга", "salmon"],
     ["извара", "cottage"],
     ["фъстъчено масло", "фъстък паста", "peanut butter"],
+    ["орех", "орехи", "walnut"],
+    ["бадем", "бадеми", "almond"],
+    ["кашу", "cashew"],
+    ["шамфъстък", "шамфъстъци", "pistachio"],
+    ["лешник", "лешници", "hazelnut"],
 ];
+
+// Searching these terms jumps straight to the matching category (no name-substring ambiguity).
+// Covers nut terms specifically because "орехите" is a meat brand and "овесени ядки" ≠ nuts.
+const SEARCH_CATEGORY_SHORTCUTS = {
+    "ядки": "nuts",
+    "орехи": "nuts",
+    "орех": "nuts",
+    "бадем": "nuts",
+    "бадеми": "nuts",
+    "кашу": "nuts",
+    "шамфъстък": "nuts",
+    "шамфъстъци": "nuts",
+    "лешник": "nuts",
+    "лешници": "nuts",
+    "фъстъци": "nuts",
+    "пекани": "nuts",
+    "макадамия": "nuts",
+};
 
 function buildSearchText(offer) {
     const macros = offer.macros || {};
@@ -1103,8 +1147,7 @@ const KEYWORD_LABELS = {
     'овес':          'Овесена каша',
     'ориз':          'Ориз',
     'елда':          'Елда',
-    'орех':          'Орехи',
-    'бадем':         'Бадеми',
+    'ядки':          'Ядки',
     'фъстък':        'Фъстъци',
 };
 
@@ -1131,11 +1174,12 @@ const KEYWORD_EMOJI = {
     'зехтин':        '🫒',
     'овес':          '🌾',
     'ориз':          '🌾',
-    'орех':          '🥜',
-    'бадем':         '🥜',
+    'ядки':          '🥜',
 };
 
 function extractFavoriteKeyword(offer) {
+    // All nuts are grouped under a single "ядки" favorite
+    if (normalizeOfferCategory(offer) === 'nuts') return 'ядки';
     const nameLower = offer.name.toLowerCase();
     for (const [keyword] of LOCAL_IMAGE_RULES) {
         if (nameLower.includes(keyword)) return keyword;
@@ -1227,8 +1271,9 @@ function renderFavoritesPanel() {
                     const lastFew = words.slice(-3);
                     if (lastFew.some(w => ['с', 'от', 'в', 'на', 'за', 'и', 'със', 'без'].includes(w))) return false;
                 }
-                // Category guard: canned favorites only match canned products
+                // Category guards: group favorites match only their category
                 if (cat === 'canned' && o.category && o.category !== 'canned') return false;
+                if (cat === 'nuts' && o.category && o.category !== 'nuts') return false;
                 return true;
             })
             .sort((a, b) => a.new_price - b.new_price);
@@ -1271,7 +1316,7 @@ function renderFavoritesPanel() {
             // Shorten name: strip known brand noise, max 42 chars
             const cleanName = o.name.replace(/\s*\d+[\d.,]*\s*(кг|г|гр|мл|л|бр)\b.*/i, '').trim().slice(0, 42);
             const thumb = renderOfferThumb(o);
-            return `<div class="fav-offer-row">
+            return `<div class="fav-offer-row" data-offer-id="${getOfferDomId(o)}" title="Виж продукта">
                 ${thumb ? `<div class="fav-offer-thumb">${thumb}</div>` : ''}
                 <div class="fav-offer-main">
                     <div class="fav-offer-top">
@@ -1285,6 +1330,7 @@ function renderFavoritesPanel() {
                         ${validity ? `<span class="fav-validity">${validity}</span>` : ''}
                     </div>
                 </div>
+                <span class="fav-row-go">›</span>
             </div>`;
         };
 
@@ -1345,6 +1391,14 @@ function renderFavoritesPanel() {
             }
         });
     });
+
+    panel.querySelectorAll('.fav-offer-row[data-offer-id]').forEach(row => {
+        row.addEventListener('click', () => navigateToOfferCard(row.dataset.offerId));
+    });
+}
+
+function navigateToOfferCard(offerId) {
+    openOfferInGrid(offerId);
 }
 
 /* -----------------------------------------------------------------------
@@ -1395,7 +1449,11 @@ function applyFilters() {
 
     // Search
     if (searchQuery) {
-        if (fuseIndex) {
+        const categoryShortcut = SEARCH_CATEGORY_SHORTCUTS[searchQuery];
+        if (categoryShortcut) {
+            // Exact category match — avoids false positives (e.g. "овесени ядки" ≠ nuts)
+            filtered = filtered.filter(o => o.category === categoryShortcut);
+        } else if (fuseIndex) {
             const results = fuseIndex.search(searchQuery);
             const matchedIds = new Set(results.map(r => getOfferDomId(r.item) || r.item.name));
             filtered = filtered.filter(o => matchedIds.has(getOfferDomId(o) || o.name));
@@ -1856,7 +1914,6 @@ function renderOffers(offers) {
                 <div class="offer-header">
                     <div class="offer-img-cell">
                         ${imgTag}
-                        <button class="fav-btn${isFavorited(o) ? ' active' : ''}" data-offer-id="${getOfferDomId(o)}" title="${isFavorited(o) ? 'Премахни от любими' : 'Следи този продукт'}">❤️</button>
                     </div>
                     <div class="offer-info-main">
                         <div class="offer-name">${o.name}</div>
@@ -1872,6 +1929,7 @@ function renderOffers(offers) {
                         ${proteinBadgeHtml}
                         ${renderSparkline(o)}
                     </div>
+                    <button class="fav-btn${isFavorited(o) ? ' active' : ''}" data-offer-id="${getOfferDomId(o)}" title="${isFavorited(o) ? 'Премахни от любими' : 'Следи този продукт'}">❤️</button>
                     <span class="offer-arrow">▼</span>
                 </div>
                 <div class="offer-details">

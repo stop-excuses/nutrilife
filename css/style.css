@@ -1941,7 +1941,7 @@ input[type="range"]::-moz-range-thumb {
 .fav-btn:hover { opacity: 0.8; transform: scale(1.15); }
 .fav-btn.active { opacity: 1; transform: scale(1.05); }
 
-/* Follow button overlaid on product image */
+/* Follow button overlaid on product image (protein ranking, bulk cards) */
 .offer-img-cell .fav-btn {
     position: absolute;
     bottom: 2px;
@@ -1955,6 +1955,17 @@ input[type="range"]::-moz-range-thumb {
 }
 .offer-img-cell .fav-btn:hover { opacity: 0.95; background: rgba(10,10,10,0.75); }
 .offer-img-cell .fav-btn.active { opacity: 1; background: rgba(10,10,10,0.7); }
+
+/* Follow button in main grid — sits between price column and expand arrow */
+.offer-header > .fav-btn {
+    font-size: 1.35rem;
+    opacity: 0.35;
+    padding: 4px 6px;
+    flex-shrink: 0;
+    transition: opacity 0.15s, transform 0.15s;
+}
+.offer-header > .fav-btn:hover { opacity: 0.85; transform: scale(1.2); }
+.offer-header > .fav-btn.active { opacity: 1; transform: scale(1.05); }
 
 /* Favorites panel */
 #fav-section { padding-top: 0; padding-bottom: 8px; }
@@ -2048,10 +2059,23 @@ input[type="range"]::-moz-range-thumb {
     display: flex;
     align-items: center;
     gap: 10px;
-    padding: 9px 0;
+    padding: 9px 6px;
     border-bottom: 1px solid rgba(151,196,89,0.08);
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background 0.15s;
 }
+.fav-offer-row:hover { background: rgba(151,196,89,0.07); }
 .fav-offer-row:last-child { border-bottom: none; }
+.fav-row-go {
+    margin-left: auto;
+    flex-shrink: 0;
+    font-size: 1rem;
+    color: var(--green-light);
+    opacity: 0.5;
+    transition: opacity 0.15s, transform 0.15s;
+}
+.fav-offer-row:hover .fav-row-go { opacity: 1; transform: translateX(2px); }
 
 .fav-offer-thumb { flex-shrink: 0; }
 .fav-offer-thumb .offer-img-wrapper { width: 48px; height: 48px; border-radius: 10px; }
