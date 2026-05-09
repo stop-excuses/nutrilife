@@ -10,6 +10,7 @@ let activeNutType = "all";
 let activeBreadType = "all";
 let activeGrainType = "all";
 let activeStore = "all";
+let activeSource = "promo";
 let activeSort = "recommended";
 let searchQuery = "";
 let currentPage = 1;
@@ -444,8 +445,69 @@ function matchesCuredLeanMeat(offer) {
 // Food keywords that must win over hygiene/household mismatches (e.g. "балсамов оцет" contains "балсам")
 const FOOD_OVERRIDE_KEYWORDS = ["оцет", "балсамов", "балсамика", "сос", "хляб"];
 
+const UI_CATEGORY_RULES = [
+    ["protein", ["пилеш", "пиле", "пуеш", "пуешко", "телеш", "говеж", "свинск", "кайма", "яйц", "сьомга", "скумрия", "сардини", "риба тон", "лаврак", "ципура", "пъстърва", "херинга", "черен дроб"]],
+    ["dairy", ["кисело мляко", "мляко", "извара", "скир", "skyr", "cottage", "сирене", "моцарела", "кашкавал", "йогурт"]],
+    ["legume", ["леща", "нахут", "боб", "фасул", "грах"]],
+    ["grain", ["овес", "овесени ядки", "ориз", "булгур", "елда", "кус кус", "спагети", "макарони", "паста", "мюсли"]],
+    ["bread", ["хляб", "пълнозърнест", "ръжен", "типов"]],
+    ["canned", ["консерва", "риба тон", "сардини", "скумрия филе"]],
+    ["nuts", ["бадем", "орех", "кашу", "лешник", "фъстък", "шамфъстък", "семена", "чия", "сусам", "тахан"]],
+    ["fat", ["зехтин", "маслиново масло", "маслини", "краве масло"]],
+    ["vegetable", ["банан", "ябъл", "домат", "краставиц", "чушк", "картоф", "морков", "авокад", "броколи", "карфиол", "спанак", "зеле", "портокал", "лимон", "мандарин"]]
+];
+
+const UI_CATEGORY_HEALTH_SCORE = {
+    protein: 9,
+    canned: 9,
+    legume: 9,
+    fat: 8,
+    dairy: 7,
+    grain: 7,
+    nuts: 7,
+    bread: 6,
+    vegetable: 8,
+    drinks: 3,
+    other: 4
+};
+
+const UI_DIET_TAGS_BY_CATEGORY = {
+    protein: ["high_protein", "keto"],
+    canned: ["high_protein", "mediterranean", "budget"],
+    dairy: ["high_protein", "vegetarian"],
+    legume: ["vegetarian", "budget", "mediterranean"],
+    grain: ["budget"],
+    nuts: ["vegetarian", "keto"],
+    fat: ["mediterranean", "keto"],
+    bread: ["budget"],
+    vegetable: ["vegetarian", "mediterranean", "budget"]
+};
+
+function inferUiCategory(offer) {
+    if (offer.category) return offer.category;
+    const nameLower = getOfferNameLower(offer);
+    for (const [category, keywords] of UI_CATEGORY_RULES) {
+        if (keywords.some(kw => nameLower.includes(kw))) return category;
+    }
+    return "other";
+}
+
+function inferUiHealthScore(offer, category, macros) {
+    if (offer.health_score != null) return offer.health_score;
+    if (["pet", "hygiene", "household"].includes(category)) return null;
+    const nameLower = getOfferNameLower(offer);
+    if (HEALTH_DISQUALIFY_KEYWORDS.some(kw => nameLower.includes(kw))) return 3;
+    if (PROCESSED_MEAT_KEYWORDS.some(kw => nameLower.includes(kw))) return 4;
+    if (macros && (macros.p || 0) >= 10 && ["protein", "dairy", "legume", "canned"].includes(category)) {
+        return category === "dairy" ? 8 : 9;
+    }
+    return UI_CATEGORY_HEALTH_SCORE[category] ?? null;
+}
+
 function normalizeOfferCategory(offer) {
     const nameLower = getOfferNameLower(offer);
+    const baseCategory = inferUiCategory(offer);
+    offer = { ...offer, category: baseCategory };
     if (EXACT_NON_FOOD_NAMES.has(nameLower.trim())) return "household";
     if (matchesCuredLeanMeat(offer)) return "protein";
     if (NON_HUMAN_FOOD_KEYWORDS.some(kw => nameLower.includes(kw))) return "pet";
@@ -505,16 +567,22 @@ function normalizeOfferForUi(offer) {
     const isJunkByName = JUNK_FOOD_KEYWORDS.some(kw => nameLower.includes(kw));
     const isCuredLeanMeat = matchesCuredLeanMeat(offer);
     const macros = getMacros({ ...offer, category });
+    const healthScore = isCuredLeanMeat
+        ? Math.max(offer.health_score || 0, 6)
+        : inferUiHealthScore(offer, category, macros);
+    const dietTags = [
+        ...(offer.diet_tags || []),
+        ...(UI_DIET_TAGS_BY_CATEGORY[category] || []),
+        ...(isCuredLeanMeat ? ["high_protein", "keto"] : []),
+    ];
 
     return {
         ...offer,
         category,
-        is_food: isCuredLeanMeat ? true : (isNonEdible ? false : offer.is_food),
+        is_food: isCuredLeanMeat ? true : (isNonEdible ? false : (offer.is_food ?? category !== "other")),
         is_junk: isNonEdible ? false : (offer.is_junk || isJunkByName),
-        health_score: isCuredLeanMeat ? Math.max(offer.health_score || 0, 6) : (isNonEdible ? null : offer.health_score),
-        diet_tags: isCuredLeanMeat
-            ? [...new Set([...(offer.diet_tags || []), "high_protein", "keto"])]
-            : (offer.diet_tags || []),
+        health_score: isNonEdible ? null : healthScore,
+        diet_tags: [...new Set(dietTags)],
         macros: macros || offer.macros,
     };
 }
@@ -1137,6 +1205,7 @@ async function loadOffers() {
             allCatalogProducts.forEach(assignLiveImage);
         }
         applyFilters();
+        renderOffersStatus();
         renderFavoritesPanel();
         renderPriceComparison();
         initStaplesGrid();
@@ -1148,6 +1217,7 @@ async function loadOffers() {
         initBreadTypeFilters();
         initGrainTypeFilters();
         initStoreFilters();
+        initSourceFilters();
         initProfileFilters();
         initSortButtons();
         initSearch();
@@ -1277,6 +1347,28 @@ function initSortButtons() {
             applyFilters();
         });
     });
+}
+
+function renderOffersStatus() {
+    const status = document.getElementById("offers-status");
+    if (!status || typeof OFFERS_DATA === "undefined") return;
+
+    const generatedAt = OFFERS_DATA.generated_at ? new Date(OFFERS_DATA.generated_at) : null;
+    const updatedText = generatedAt && !Number.isNaN(generatedAt.getTime())
+        ? generatedAt.toLocaleString("bg-BG", { day: "2-digit", month: "2-digit", year: "numeric", hour: "2-digit", minute: "2-digit" })
+        : "неизвестно";
+    const total = OFFERS_DATA.total_offers || allOffers.length;
+    const promo = OFFERS_DATA.promo_offers || allOffers.filter(o => o.source_type === "promo").length;
+    const assortment = OFFERS_DATA.assortment_offers || Math.max(0, total - promo);
+    const stores = OFFERS_DATA.stores || [...new Set(allOffers.map(o => o.store).filter(Boolean))];
+
+    status.innerHTML = `
+        <span><strong>Обновено:</strong> ${updatedText}</span>
+        <span><strong>${promo}</strong> промоции</span>
+        <span><strong>${assortment}</strong> продукта</span>
+        <span><strong>${stores.length}</strong> магазина</span>
+        <small>Цените може да се различават по град и конкретен обект.</small>
+    `;
 }
 
 function getRecommendationGroup(offer) {
@@ -1744,6 +1836,10 @@ function applyFilters() {
         filtered = filtered.filter(o => (o.available_stores || [o.store]).includes(activeStore));
     }
 
+    if (activeSource === "promo") {
+        filtered = filtered.filter(o => o.source_type === "promo");
+    }
+
     if (activeSort === "protein") {
         filtered = filtered.filter(o => isHealthyOffer(o) && isProteinSource(o));
     }
@@ -1850,6 +1946,18 @@ function initStoreFilters() {
     });
 }
 
+function initSourceFilters() {
+    document.querySelectorAll(".filter-btn[data-source]").forEach(btn => {
+        btn.addEventListener("click", () => {
+            document.querySelectorAll(".filter-btn[data-source]").forEach(b => b.classList.remove("active"));
+            btn.classList.add("active");
+            activeSource = btn.dataset.source;
+            currentPage = 1;
+            applyFilters();
+        });
+    });
+}
+
 function resetOfferFiltersForNavigation() {
     activeType = "all";
     activeCategory = "all";
@@ -1857,6 +1965,7 @@ function resetOfferFiltersForNavigation() {
     activeBreadType = "all";
     activeGrainType = "all";
     activeStore = "all";
+    activeSource = "all";
     activeSort = "recommended";
     searchQuery = "";
     currentPage = 1;
@@ -1872,6 +1981,9 @@ function resetOfferFiltersForNavigation() {
     });
     document.querySelectorAll(".filter-btn[data-store]").forEach(btn => {
         btn.classList.toggle("active", btn.dataset.store === "all");
+    });
+    document.querySelectorAll(".filter-btn[data-source]").forEach(btn => {
+        btn.classList.toggle("active", btn.dataset.source === "all");
     });
     document.querySelectorAll(".sort-btn[data-sort]").forEach(btn => {
         btn.classList.toggle("active", btn.dataset.sort === "recommended");

@@ -2640,6 +2640,35 @@ input[type="range"]::-moz-range-thumb {
     margin-bottom: 12px;
 }
 
+.offers-status {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px 12px;
+    margin: 0 0 16px;
+    padding: 12px 14px;
+    background: rgba(151, 196, 89, 0.08);
+    border: 1px solid rgba(151, 196, 89, 0.22);
+    border-radius: 8px;
+    color: var(--muted);
+    font-size: 0.78rem;
+    line-height: 1.4;
+}
+
+.offers-status strong {
+    color: var(--text);
+}
+
+.offers-status small {
+    width: 100%;
+    color: var(--muted2);
+}
+
+.source-filters {
+    margin-top: 12px;
+    margin-bottom: 8px;
+}
+
 .offers-search {
     width: 100%;
     box-sizing: border-box;
