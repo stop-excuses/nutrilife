@@ -12,8 +12,6 @@ let activeGrainType = "all";
 let activeStore = "all";
 let activeSort = "recommended";
 let searchQuery = "";
-let activeBasketGoal = "budget";
-let activeBasketStore = "all";
 let currentPage = 1;
 let filteredOffersCache = [];
 let allCatalogProducts = [];
@@ -632,7 +630,28 @@ const SEARCH_CATEGORY_SHORTCUTS = {
     "макадамия": "nuts",
 };
 
-const STRICT_SEARCH_TERMS = new Set(["пиле", "пилешко", "овес", "яйца", "яйце"]);
+const STRICT_SEARCH_TERMS = new Set([
+    "пиле", "пилешко", "овес", "яйца", "яйце", "кисело мляко", "мляко",
+    "ориз", "банан", "леща", "нахут", "извара", "скир", "сирене", "риба тон"
+]);
+
+const PRODUCT_SEARCH_RULES = {
+    "пиле": { category: "protein", include: ["пиле", "пилеш"], exclude: ["бульон", "филе риба", "рибно филе", "вкус пиле", "аромат", "нудли", "спагети", "супа"] },
+    "пилешко": { category: "protein", include: ["пилеш"], exclude: ["бульон", "вкус пиле", "аромат", "нудли", "спагети", "супа"] },
+    "овес": { category: "grain", include: ["овес"], exclude: ["бар", "бисквит", "десерт", "мюсли", "гранола", "напитка", "activia", "закуска"] },
+    "яйца": { category: "protein", include: ["яйц"], exclude: ["без яйца", "с яйце", "с яйца", "кори", "лазаня", "бишкоти", "бисквит", "кекс"] },
+    "яйце": { category: "protein", include: ["яйц"], exclude: ["без яйца", "с яйце", "с яйца", "кори", "лазаня", "бишкоти", "бисквит", "кекс"] },
+    "кисело мляко": { category: "dairy", include: ["кисело мляко"], exclude: ["с кисело мляко", "десерт", "крем", "салата", "сос"] },
+    "мляко": { category: "dairy", include: ["мляко"], exclude: ["с мляко", "десерт", "крем", "напитка"] },
+    "ориз": { category: "grain", include: ["ориз"], exclude: ["ориз с", "ориз със", "ориз къри", "със зеленчуци", "на грамаж", "оризови ядки", "оризовки", "rice up", "бар", "десерт", "нудли", "спагети", "напитка"] },
+    "банан": { category: "vegetable", include: ["банан"], exclude: ["нектар", "смути", "сок", "напитка", "danonino", "activia", "десерт"] },
+    "леща": { category: "legume", include: ["леща"], exclude: ["супа", "яхния готов", "салата"] },
+    "нахут": { category: "legume", include: ["нахут"], exclude: ["салата", "хумус"] },
+    "извара": { category: "dairy", include: ["извара"], exclude: ["кюфте", "банич", "десерт"] },
+    "скир": { category: "dairy", include: ["скир", "skyr"], exclude: ["десерт"] },
+    "сирене": { category: "dairy", include: ["сирене"], exclude: ["топено", "банич", "кюфте", "снак"] },
+    "риба тон": { category: ["canned", "protein"], include: ["риба тон"], exclude: ["салата", "пюре", "паста", "бебе", "детск"] },
+};
 
 const SEARCH_ALIAS_TERMS = {
     "пиле": ["пиле", "пилешко", "пилешки", "пилешка", "пилешки"],
@@ -663,26 +682,43 @@ function matchesPreciseSearch(offer, query) {
     const q = query.trim().toLowerCase();
     if (!q) return true;
     const nameLower = getOfferNameLower(offer);
-    if ((q === "яйца" || q === "яйце")) {
-        if (offer.category !== "protein") return false;
+    const rule = PRODUCT_SEARCH_RULES[q];
+    if (rule) {
+        if (Array.isArray(rule.category) && !rule.category.includes(offer.category)) return false;
+        if (rule.category && !Array.isArray(rule.category) && offer.category !== rule.category) return false;
+        if (rule.exclude?.some(term => nameLower.includes(term))) return false;
+        return rule.include.some(term => nameLower.includes(term));
     }
-    if ((q === "яйца" || q === "яйце") && (
-        nameLower.includes("без яйца") || nameLower.includes("с яйце") ||
-        nameLower.includes("с яйца") || nameLower.includes("кори ") ||
-        nameLower.includes("лазаня") || nameLower.includes("бишкоти") ||
-        nameLower.includes("бисквит") || nameLower.includes("кекс")
-    )) return false;
-    if ((q === "пиле" || q === "пилешко") && nameLower.includes("филе") && !nameLower.includes("пилеш")) return false;
 
     const queryTokens = getSearchTokens(q);
-    const offerTokens = getSearchTokens([
-        offer.name,
-        offer.store,
-        offer.category,
-        ...(offer.diet_tags || []),
-    ].filter(Boolean).join(" "));
+    const offerTokens = getSearchTokens(offer.name);
 
     return queryTokens.every(term => offerTokens.some(token => tokenMatchesSearchTerm(token, term)));
+}
+
+function getSearchRank(offer, query) {
+    const q = query.trim().toLowerCase();
+    const nameLower = getOfferNameLower(offer);
+    const rule = PRODUCT_SEARCH_RULES[q];
+    let score = 100;
+    if (nameLower === q) score -= 80;
+    if (nameLower.startsWith(q)) score -= 60;
+    if (nameLower.includes(q)) score -= 35;
+    if (rule?.include?.some(term => nameLower.startsWith(term))) score -= 30;
+    if (rule?.include?.some(term => nameLower.includes(term))) score -= 15;
+    if (Array.isArray(rule?.category) && rule.category.includes(offer.category)) score -= 10;
+    if (rule?.category && !Array.isArray(rule.category) && offer.category === rule.category) score -= 10;
+    score -= Math.min(getOfferProfile(offer).health_score || 0, 10);
+    score += Math.min(offer.new_price || 0, 20) / 10;
+    return score;
+}
+
+function sortSearchResults(offers, query) {
+    return [...offers].sort((a, b) => {
+        const rankDiff = getSearchRank(a, query) - getSearchRank(b, query);
+        if (rankDiff !== 0) return rankDiff;
+        return (a.new_price || 0) - (b.new_price || 0);
+    });
 }
 
 function buildSearchText(offer) {
@@ -1102,14 +1138,10 @@ async function loadOffers() {
         }
         applyFilters();
         renderFavoritesPanel();
-        renderSmartBasket();
         renderPriceComparison();
-        renderDynamicShoppingList();
         initStaplesGrid();
-        renderBulkRecommendations();
         renderProteinRanking();
         renderBaselineRecommendations();
-        renderProfileRecommendations("all");
         initTypeFilters();
         initCategoryFilters();
         initNutTypeFilters();
@@ -1119,7 +1151,6 @@ async function loadOffers() {
         initProfileFilters();
         initSortButtons();
         initSearch();
-        initBasketControls();
         initGlobalOfferHandlers();
     } else {
         const grid = document.getElementById("offers-grid");
@@ -1720,7 +1751,9 @@ function applyFilters() {
         filtered = filtered.filter(o => isHealthyOffer(o) && (o.health_score || 0) >= 6);
     }
 
-    filteredOffersCache = activeSort === "recommended" ? diversifyOffers(sortOffers(filtered)) : sortOffers(filtered);
+    filteredOffersCache = searchQuery
+        ? sortSearchResults(filtered, searchQuery)
+        : (activeSort === "recommended" ? diversifyOffers(sortOffers(filtered)) : sortOffers(filtered));
     renderOffers(filteredOffersCache);
 }
 
@@ -2727,171 +2760,6 @@ function bindOfferLinkButtons(root) {
         btn.addEventListener("click", (e) => {
             e.stopPropagation();
             openOfferInGrid(btn.dataset.offerLink);
-        });
-    });
-}
-
-/* -----------------------------------------------------------------------
-   SMART BASKET
-   ----------------------------------------------------------------------- */
-const BASKET_GOALS = {
-    budget: {
-        label: "Бюджет",
-        slots: [
-            { label: "Протеин", match: ["яйц", "пилешко", "извара", "скир", "риба тон"], cats: ["protein", "dairy", "canned"] },
-            { label: "Бобови", match: ["леща", "боб", "нахут", "фасул"], cats: ["legume"] },
-            { label: "Въглехидрат", match: ["овес", "ориз", "хляб", "булгур"], cats: ["grain", "bread"] },
-            { label: "Млечни", match: ["кисело мляко", "извара", "скир"], cats: ["dairy"] },
-            { label: "Плод/зеленчук", match: ["банан", "ябъл", "картоф", "домати", "крастав"], cats: ["vegetable"] },
-        ],
-        score: item => (item.health_score || 0) * 4 - getPricePerKgEstimate(item) * 0.35 - item.new_price * 0.6
-    },
-    protein: {
-        label: "Висок протеин",
-        slots: [
-            { label: "Основен протеин", match: ["пилешко", "риба тон", "пуешко", "яйц"], cats: ["protein", "canned"] },
-            { label: "Млечен протеин", match: ["скир", "извара", "cottage"], cats: ["dairy"] },
-            { label: "Евтин протеин", match: ["яйц", "леща", "боб", "нахут"], cats: ["protein", "legume"] },
-            { label: "Бавен въглехидрат", match: ["овес", "ориз", "хляб"], cats: ["grain", "bread"] },
-            { label: "Мазнина", match: ["зехтин", "орех", "бадем"], cats: ["fat", "nuts"] },
-        ],
-        score: item => (getProteinMetrics(item, true)?.adjustedProteinPerLev || 0) * 8 + (item.health_score || 0) * 2 - item.new_price * 0.2
-    },
-    family: {
-        label: "Семейство",
-        slots: [
-            { label: "Голям протеин", match: ["пилешко", "яйц", "кайма", "риба"], cats: ["protein", "canned"] },
-            { label: "Закуска", match: ["овес", "кисело мляко", "мляко"], cats: ["grain", "dairy"] },
-            { label: "Готвене", match: ["ориз", "леща", "боб", "нахут"], cats: ["grain", "legume"] },
-            { label: "Млечни", match: ["кисело мляко", "сирене", "извара"], cats: ["dairy"] },
-            { label: "Свежо", match: ["банан", "ябъл", "картоф", "домати"], cats: ["vegetable"] },
-        ],
-        score: item => (item.health_score || 0) * 3 - item.new_price * 0.25 - getPricePerKgEstimate(item) * 0.2
-    },
-    cut: {
-        label: "Отслабване",
-        slots: [
-            { label: "Чист протеин", match: ["пилешко филе", "пилешки гърди", "риба тон", "скир", "извара"], cats: ["protein", "dairy", "canned"] },
-            { label: "Лек въглехидрат", match: ["овес", "ориз", "картоф"], cats: ["grain", "vegetable"] },
-            { label: "Бобови", match: ["леща", "нахут", "боб"], cats: ["legume"] },
-            { label: "Млечни", match: ["скир", "извара", "кисело мляко"], cats: ["dairy"] },
-            { label: "Свежо", match: ["крастав", "домати", "ябъл", "банан"], cats: ["vegetable"] },
-        ],
-        score: item => {
-            const m = getMacros(item) || {};
-            return (item.health_score || 0) * 4 + (m.p || 0) * 0.6 - (m.f || 0) * 0.25 - item.new_price * 0.35;
-        }
-    }
-};
-
-const BASKET_EXCLUDE_KEYWORDS = [
-    "кюфте", "кюфтета", "кебап", "бургер", "хапки", "панира", "салата с",
-    "готов", "ready", "десерт", "бар", "бисквит", "мюсли", "гранола",
-    "бял хляб", "хляб бял", "добруджа", "тостер", "сандвич", "сос", "нарязани", "наразяни", "белени",
-    "доматен сос", "консерва", "пюре", "без яйца", "спагети", "паста",
-    "лазаня", "нектар", "сок", "напитка", "оцет", "danonino",
-    "данонино", "bebelan", "bionino", "plasmon", "activia"
-];
-
-function getBasketCandidates(slot) {
-    return allOffers
-        .filter(item => {
-            if (!item.name || item.new_price == null || !isHealthyOffer(item) || (item.health_score || 0) < 7) return false;
-            if (activeBasketStore !== "all" && !(item.available_stores || [item.store]).includes(activeBasketStore)) return false;
-            if (slot.cats && !slot.cats.includes(item.category)) return false;
-            const name = getOfferNameLower(item);
-            if (BASKET_EXCLUDE_KEYWORDS.some(kw => name.includes(kw))) return false;
-            return slot.match.some(term => name.includes(term));
-        });
-}
-
-function pickBasketItems(goalKey = activeBasketGoal) {
-    const goal = BASKET_GOALS[goalKey] || BASKET_GOALS.budget;
-    const usedGroups = new Set();
-    return goal.slots.map(slot => {
-        const best = getBasketCandidates(slot)
-            .sort((a, b) => goal.score(b) - goal.score(a))
-            .find(item => {
-                const group = getRecommendationGroup(item);
-                if (usedGroups.has(group)) return false;
-                usedGroups.add(group);
-                return true;
-            });
-        return best ? { slot, item: best } : null;
-    }).filter(Boolean);
-}
-
-function renderSmartBasket() {
-    const container = document.getElementById("smart-basket-results");
-    if (!container) return;
-    const picks = pickBasketItems();
-    if (!picks.length) {
-        container.innerHTML = '<p style="text-align:center; color:var(--muted);">Няма достатъчно добри продукти за тази комбинация.</p>';
-        return;
-    }
-
-    const total = picks.reduce((sum, pick) => sum + pick.item.new_price, 0);
-    const protein = picks.reduce((sum, pick) => sum + ((getMacros(pick.item)?.p || 0) * 2), 0);
-    const storeLabel = activeBasketStore === "all" ? "всички магазини" : activeBasketStore;
-    const goal = BASKET_GOALS[activeBasketGoal] || BASKET_GOALS.budget;
-
-    container.innerHTML = `
-        <div class="smart-basket-summary">
-            <div><span>Режим</span><strong>${goal.label}</strong></div>
-            <div><span>Магазин</span><strong>${storeLabel}</strong></div>
-            <div><span>Ориентир</span><strong>~${total.toFixed(2)} лв</strong></div>
-            <div><span>Протеин</span><strong>${Math.round(protein)}г+</strong></div>
-        </div>
-        <div class="smart-basket-grid">
-            ${picks.map(({ slot, item }) => `
-                <div class="smart-basket-card" data-offer-link="${getOfferDomId(item)}">
-                    ${renderOfferThumb(item)}
-                    <div>
-                        <span>${slot.label}</span>
-                        <strong>${escapeHtml(item.name)}</strong>
-                        <p>${escapeHtml(item.store || "")} · ${item.new_price.toFixed(2)} лв${item.price_per_kg ? ` · ${item.price_per_kg.toFixed(2)} лв/кг` : ""}</p>
-                    </div>
-                </div>
-            `).join("")}
-        </div>
-    `;
-    bindOfferLinkButtons(container);
-}
-
-function renderDynamicShoppingList() {
-    const list = document.getElementById("weekly-shopping-list");
-    const totalBox = document.getElementById("weekly-shopping-total");
-    if (!list || !totalBox) return;
-    const picks = pickBasketItems("budget");
-    if (!picks.length) return;
-    const total = picks.reduce((sum, pick) => sum + pick.item.new_price, 0);
-    list.innerHTML = picks.map(({ slot, item }) => `
-        <li>
-            <span class="item-name">${slot.label}: ${escapeHtml(item.name)}</span>
-            <span class="item-price">${item.new_price.toFixed(2)} лв</span>
-        </li>
-    `).join("");
-    totalBox.innerHTML = `
-        <div class="stat-number">~${Math.round(total)} лв</div>
-        <div class="stat-label">динамична кошница от текущите оферти</div>
-    `;
-}
-
-function initBasketControls() {
-    document.querySelectorAll("[data-basket-goal]").forEach(btn => {
-        btn.addEventListener("click", () => {
-            document.querySelectorAll("[data-basket-goal]").forEach(b => b.classList.remove("active"));
-            btn.classList.add("active");
-            activeBasketGoal = btn.dataset.basketGoal;
-            renderSmartBasket();
-        });
-    });
-    document.querySelectorAll("[data-basket-store]").forEach(btn => {
-        btn.addEventListener("click", () => {
-            document.querySelectorAll("[data-basket-store]").forEach(b => b.classList.remove("active"));
-            btn.classList.add("active");
-            activeBasketStore = btn.dataset.basketStore;
-            renderSmartBasket();
         });
     });
 }
