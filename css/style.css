@@ -2627,6 +2627,14 @@ input[type="range"]::-moz-range-thumb {
     margin: 20px 0;
 }
 
+/* Nut sub-filter row — indented, smaller gap, no top margin (sits right under category row) */
+.nut-subfilters {
+    margin-top: -12px;
+    margin-bottom: 16px;
+    padding-left: 4px;
+    border-left: 2px solid rgba(151,196,89,0.25);
+}
+
 /* Search bar */
 .search-wrapper {
     margin-bottom: 12px;

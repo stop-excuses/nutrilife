@@ -6,6 +6,7 @@ let allOffers = [];
 let fuseIndex = null;
 let activeType = "all";
 let activeCategory = "all";
+let activeNutType = "all";
 let activeStore = "all";
 let activeSort = "recommended";
 let searchQuery = "";
@@ -571,6 +572,17 @@ const SEARCH_SYNONYMS = [
     ["зехтин", "маслиново масло", "olive oil"],
 ];
 
+// Keywords for nut sub-filter buttons — any match → show product
+const NUT_TYPE_KEYWORDS = {
+    "орех":      ["орех"],
+    "бадем":     ["бадем"],
+    "кашу":      ["кашу"],
+    "фъстък":    ["фъстък"],
+    "шамфъстък": ["шамфъстък"],
+    "лешник":    ["лешник"],
+    "микс":      ["микс", "mix", "коктейл", "парти"],
+};
+
 // Searching these terms jumps straight to the matching category (no name-substring ambiguity).
 // Covers nut terms specifically because "орехите" is a meat brand and "овесени ядки" ≠ nuts.
 const SEARCH_CATEGORY_SHORTCUTS = {
@@ -985,6 +997,7 @@ async function loadOffers() {
         renderProfileRecommendations("all");
         initTypeFilters();
         initCategoryFilters();
+        initNutTypeFilters();
         initStoreFilters();
         initProfileFilters();
         initSortButtons();
@@ -1153,8 +1166,15 @@ const KEYWORD_LABELS = {
     'овес':          'Овесена каша',
     'ориз':          'Ориз',
     'елда':          'Елда',
-    'ядки':              'Ядки',
+    'ядки':              'Ядки микс',
+    'орех':              'Орехи',
+    'бадем':             'Бадеми',
+    'кашу':              'Кашу',
     'фъстък':            'Фъстъци',
+    'шамфъстък':         'Шамфъстък',
+    'лешник':            'Лешници',
+    'макадамия':         'Макадамия',
+    'пекан':             'Пекани',
     'олио':              'Олио',
     'краве масло':       'Краве масло',
     'пълнозърнест хляб': 'Пълнозърнест хляб',
@@ -1184,14 +1204,18 @@ const KEYWORD_EMOJI = {
     'овес':          '🌾',
     'ориз':          '🌾',
     'ядки':              '🥜',
+    'орех':              '🌰',
+    'бадем':             '🥜',
+    'кашу':              '🥜',
+    'фъстък':            '🥜',
+    'шамфъстък':         '🟢',
+    'лешник':            '🌰',
     'олио':              '🫙',
     'краве масло':       '🧈',
     'пълнозърнест хляб': '🌾',
 };
 
 function extractFavoriteKeyword(offer) {
-    // All nuts are grouped under a single "ядки" favorite
-    if (normalizeOfferCategory(offer) === 'nuts') return 'ядки';
     const nl = offer.name.toLowerCase();
     // Olive oil unification — зехтин and маслиново масло are the same product
     if (nl.includes("зехтин") || nl.includes("маслиново масло")) return "зехтин";
@@ -1201,6 +1225,12 @@ function extractFavoriteKeyword(offer) {
     if (nl.includes("пълнозърнест")) return "пълнозърнест хляб";
     // Butter separate from generic масло catch-all
     if (nl.includes("краве масло") || nl.includes("животинско масло")) return "краве масло";
+    // Specific nut types each get their own favorite; mixed nuts fall back to "ядки"
+    if (normalizeOfferCategory(offer) === 'nuts') {
+        const nutOrder = ["шамфъстък", "макадамия", "пекан", "кашу", "лешник", "бадем", "фъстък", "орех"];
+        for (const k of nutOrder) { if (nl.includes(k)) return k; }
+        return "ядки";
+    }
     const nameLower = nl;
     for (const [keyword] of LOCAL_IMAGE_RULES) {
         if (nameLower.includes(keyword)) return keyword;
@@ -1294,6 +1324,7 @@ function renderFavoritesPanel() {
                 }
                 // Category guards: group favorites match only their category
                 if (cat === 'canned' && o.category && o.category !== 'canned') return false;
+                // Any nut-type favorite (ядки, орех, бадем, etc.) only matches nuts products
                 if (cat === 'nuts' && o.category && o.category !== 'nuts') return false;
                 return true;
             })
@@ -1502,6 +1533,14 @@ function applyFilters() {
         filtered = filtered.filter(o => o.category === activeCategory);
     }
 
+    if (activeCategory === "nuts" && activeNutType !== "all") {
+        const keys = NUT_TYPE_KEYWORDS[activeNutType] || [activeNutType];
+        filtered = filtered.filter(o => {
+            const nl = o.name.toLowerCase();
+            return keys.some(k => nl.includes(k));
+        });
+    }
+
     if (activeStore !== "all") {
         filtered = filtered.filter(o => (o.available_stores || [o.store]).includes(activeStore));
     }
@@ -1533,11 +1572,33 @@ function initTypeFilters() {
 }
 
 function initCategoryFilters() {
+    const nutSubfilters = document.getElementById("nut-subfilters");
     document.querySelectorAll(".filter-btn[data-category]").forEach(btn => {
         btn.addEventListener("click", () => {
             document.querySelectorAll(".filter-btn[data-category]").forEach(b => b.classList.remove("active"));
             btn.classList.add("active");
             activeCategory = btn.dataset.category;
+            currentPage = 1;
+            // Show nut sub-filters only when nuts category is active
+            if (nutSubfilters) {
+                nutSubfilters.classList.toggle("hidden", activeCategory !== "nuts");
+            }
+            // Reset nut type when switching away from nuts
+            if (activeCategory !== "nuts") {
+                activeNutType = "all";
+                document.querySelectorAll(".filter-btn[data-nut]").forEach(b => b.classList.toggle("active", b.dataset.nut === "all"));
+            }
+            applyFilters();
+        });
+    });
+}
+
+function initNutTypeFilters() {
+    document.querySelectorAll(".filter-btn[data-nut]").forEach(btn => {
+        btn.addEventListener("click", () => {
+            document.querySelectorAll(".filter-btn[data-nut]").forEach(b => b.classList.remove("active"));
+            btn.classList.add("active");
+            activeNutType = btn.dataset.nut;
             currentPage = 1;
             applyFilters();
         });
@@ -1559,6 +1620,7 @@ function initStoreFilters() {
 function resetOfferFiltersForNavigation() {
     activeType = "all";
     activeCategory = "all";
+    activeNutType = "all";
     activeStore = "all";
     activeSort = "recommended";
     searchQuery = "";
