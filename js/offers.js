@@ -1643,6 +1643,8 @@ function renderFavoritesPanel() {
     if (favoriteItems.length === 0) {
         if (section) section.style.display = 'none';
         panel.innerHTML = '';
+        selectedFavoriteOfferId = "";
+        document.body.classList.remove('fav-product-open');
         return;
     }
     if (section) section.style.removeProperty('display');
@@ -1754,15 +1756,22 @@ function renderFavoritesPanel() {
     }).join('');
 
     panel.innerHTML = `<div class="fav-panel-hd"><span>🛒 Пазарен списък</span><span class="fav-cnt">${favoriteItems.length}</span></div>
-        ${selectedFavoriteOfferId ? renderFavoriteOfferPreview(selectedFavoriteOfferId) : ""}
+        ${selectedFavoriteOfferId ? renderFavoriteProductScreen(selectedFavoriteOfferId) : ""}
         <div class="fav-panel-bd">${rows}</div>`;
 
-    const previewClose = panel.querySelector('.fav-preview-close');
-    if (previewClose) {
-        previewClose.addEventListener('click', e => {
+    document.body.classList.toggle('fav-product-open', Boolean(selectedFavoriteOfferId));
+
+    panel.querySelectorAll('[data-fav-screen-close]').forEach(btn => {
+        btn.addEventListener('click', e => {
             e.stopPropagation();
-            selectedFavoriteOfferId = "";
-            renderFavoritesPanel();
+            closeFavoriteProductScreen();
+        });
+    });
+
+    const productScreen = panel.querySelector('.fav-product-screen');
+    if (productScreen) {
+        productScreen.addEventListener('click', e => {
+            if (e.target === productScreen) closeFavoriteProductScreen();
         });
     }
 
@@ -1778,6 +1787,11 @@ function renderFavoritesPanel() {
             e.stopPropagation();
             const kw = btn.dataset.kw;
             favoriteItems = favoriteItems.filter(f => f.kw !== kw);
+            const selectedOffer = allOffers.find(o => getOfferDomId(o) === selectedFavoriteOfferId);
+            if (selectedOffer && extractFavoriteKeyword(selectedOffer) === kw) {
+                selectedFavoriteOfferId = "";
+                document.body.classList.remove('fav-product-open');
+            }
             saveFavorites();
             document.querySelectorAll('.fav-btn[data-offer-id]').forEach(b => {
                 const o = allOffers.find(x => getOfferDomId(x) === b.dataset.offerId);
@@ -1810,7 +1824,19 @@ function navigateToOfferCard(offerId) {
     renderFavoritesPanel();
 }
 
-function renderFavoriteOfferPreview(offerId) {
+function closeFavoriteProductScreen() {
+    selectedFavoriteOfferId = "";
+    document.body.classList.remove('fav-product-open');
+    renderFavoritesPanel();
+}
+
+document.addEventListener('keydown', e => {
+    if (e.key === 'Escape' && selectedFavoriteOfferId) {
+        closeFavoriteProductScreen();
+    }
+});
+
+function renderFavoriteProductScreen(offerId) {
     const offer = allOffers.find(o => getOfferDomId(o) === offerId);
     if (!offer) return "";
 
@@ -1822,33 +1848,53 @@ function renderFavoriteOfferPreview(offerId) {
         : offer.store;
     const displayPpk = offer.price_per_kg || (offer.weight_grams && offer.new_price ? (offer.new_price / offer.weight_grams * 1000) : null);
     const validity = getOfferValidityText(offer, "detail");
+    const imgSrc = getOfferImage(offer);
+    const detailFallbackSrc = hasRealImage(offer.image) ? getLocalFallbackImage(offer) : "";
     const metaParts = [];
     if (offer.weight_raw) metaParts.push(offer.weight_raw);
     if (displayPpk) metaParts.push(`${displayPpk.toFixed(2)} лв/кг`);
 
     return `
-        <div class="fav-product-preview" data-offer-id="${getOfferDomId(offer)}">
-            <div class="fav-preview-head">
-                <div class="fav-preview-img">${renderOfferThumb(offer)}</div>
-                <div class="fav-preview-main">
-                    <div class="fav-preview-store">${escapeHtml(stores)}</div>
-                    <div class="fav-preview-name">${escapeHtml(nameParts.full)}</div>
-                    <div class="fav-preview-price-row">
-                        <strong>${offer.new_price.toFixed(2)} лв</strong>
-                        ${offer.old_price ? `<span class="fav-old">${offer.old_price.toFixed(2)} лв</span>` : ""}
-                        ${offer.discount_pct ? `<span class="fav-disc">−${offer.discount_pct}%</span>` : ""}
+        <div class="fav-product-screen" data-offer-id="${getOfferDomId(offer)}" role="dialog" aria-modal="true">
+            <div class="fav-product-dialog">
+                <button class="fav-screen-close" type="button" title="Затвори" data-fav-screen-close>×</button>
+                <div class="fav-screen-hero">
+                    <div class="fav-screen-image">
+                        ${imgSrc ? `<img src="${imgSrc}" alt="${escapeHtml(nameParts.full)}" class="${!hasRealImage(offer.image) ? "fallback" : ""}" ${detailFallbackSrc ? `data-fallback-src="${detailFallbackSrc}"` : ""} onerror="${detailFallbackSrc ? `if(this.dataset.fallbackSrc&&this.src!==this.dataset.fallbackSrc){this.src=this.dataset.fallbackSrc;this.classList.add('fallback');}else{this.style.display='none';}` : "this.style.display='none'"}">` : renderOfferThumb(offer)}
+                    </div>
+                    <div class="fav-screen-summary">
+                        <div class="fav-preview-store">${escapeHtml(stores)}</div>
+                        <h3>${escapeHtml(nameParts.full)}</h3>
+                        <div class="fav-preview-price-row">
+                            <strong>${offer.new_price.toFixed(2)} лв</strong>
+                            ${offer.old_price ? `<span class="fav-old">${offer.old_price.toFixed(2)} лв</span>` : ""}
+                            ${offer.discount_pct ? `<span class="fav-disc">−${offer.discount_pct}%</span>` : ""}
+                        </div>
+                        <div class="fav-preview-facts">
+                            ${healthyOffer && offer.health_score != null ? `<span>Рейтинг ${offer.health_score}/10</span>` : ""}
+                            ${metaParts.length ? `<span>${escapeHtml(metaParts.join(" · "))}</span>` : ""}
+                            ${validity ? `<span>${validity}</span>` : ""}
+                            ${macros ? `<span>${macros.p}г протеин · ${macros.f}г мазнини · ${macros.c}г въгл.</span>` : ""}
+                        </div>
                     </div>
                 </div>
-                <button class="fav-preview-close" type="button" title="Затвори">×</button>
+                <div class="fav-screen-details">
+                    <div class="details-row"><strong>Продукт:</strong> <span>${escapeHtml(nameParts.full)}</span></div>
+                    <div class="details-row"><strong>Магазин:</strong> <span>${escapeHtml(stores)}${offer.address ? ' (' + escapeHtml(offer.address) + ')' : ''}</span></div>
+                    ${validity ? `<div class="details-row"><strong>Оферта:</strong> <span>${validity}</span></div>` : ""}
+                    ${metaParts.length ? `<div class="details-row"><strong>Детайли:</strong> <span>${escapeHtml(metaParts.join(" · "))}</span></div>` : ""}
+                    ${macros ? `
+                        <div class="macros-grid fav-screen-macros">
+                            <div class="macro-item"><div class="macro-val">${macros.kcal}</div><div class="macro-label">ккал</div></div>
+                            <div class="macro-item"><div class="macro-val">${macros.p}г</div><div class="macro-label">протеин</div></div>
+                            <div class="macro-item"><div class="macro-val">${macros.f}г</div><div class="macro-label">мазнини</div></div>
+                            <div class="macro-item"><div class="macro-val">${macros.c}г</div><div class="macro-label">въгл.</div></div>
+                        </div>
+                    ` : ""}
+                    ${renderStoreComparisonList(offer)}
+                    ${renderPriceHistory(offer)}
+                </div>
             </div>
-            <div class="fav-preview-facts">
-                ${healthyOffer && offer.health_score != null ? `<span>Рейтинг ${offer.health_score}/10</span>` : ""}
-                ${metaParts.length ? `<span>${escapeHtml(metaParts.join(" · "))}</span>` : ""}
-                ${validity ? `<span>${validity}</span>` : ""}
-                ${macros ? `<span>${macros.p}г протеин · ${macros.f}г мазнини · ${macros.c}г въгл.</span>` : ""}
-            </div>
-            ${renderStoreComparisonList(offer)}
-            ${renderPriceHistory(offer)}
         </div>
     `;
 }

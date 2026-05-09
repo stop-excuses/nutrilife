@@ -35,6 +35,7 @@ Keep this section short and update it after hands-on QA/fixes so future sessions
 - Reframed favorites as a lightweight shopping/watch list: visible copy now says `Пазарен списък`, heart button titles say add/remove from list.
 - Improved price history: chart has current/previous/average/low stats, delta badge, clearer line chart, recent price rows, and mobile styling tested at 390x844.
 - 2026-05-09 compact UX pass: expanded offer cards span 2 columns on desktop, details/images/history are tighter, and favorite rows open an inline preview in `#fav-panel` instead of navigating down to the offers grid.
+- 2026-05-09 favorite product screen: favorite rows now open a full-screen product dialog with image, price facts, macros, store comparison, and price history; closes via X/backdrop/Escape. Cache params now `css/style.css?v=19`, `js/offers.js?v=28`.
 - Remaining nice-to-have: if the filter area grows further, consider a compact/collapsible filter bar for mobile; a true cart with quantities would be a separate feature from the current watch list.
 
 ## Files
