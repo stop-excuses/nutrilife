@@ -1296,11 +1296,11 @@ function extractFavoriteKeyword(offer) {
         if (nl.includes(keyword)) return keyword;
     }
     // Fallback: first 2 meaningful words, stripped of weight/size info
-    const cleaned = nameLower
+    const cleaned = nl
         .replace(/\s*\d+[\d.,]*\s*(кг|г|гр|мл|л|бр|x|×)\s*/gi, ' ')
         .replace(/\s+/g, ' ').trim();
     const words = cleaned.split(/\s+/).filter(w => w.length > 1).slice(0, 2);
-    return words.join(' ') || cleaned || nameLower;
+    return words.join(' ') || cleaned || nl;
 }
 
 function getFavLabel(kw) {
