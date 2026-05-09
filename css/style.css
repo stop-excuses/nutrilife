@@ -2244,9 +2244,16 @@ body.fav-product-open {
     width: min(920px, 100%);
     max-height: min(760px, calc(100vh - 96px));
     overflow: auto;
+    --text: #f0efe8;
+    --muted: #b0afa6;
+    --muted2: #9b9a91;
+    --muted3: #6f6e67;
+    --surface: #0b1208;
+    --overlay: rgba(255,255,255,0.04);
     border: 1px solid rgba(151,196,89,0.22);
     border-radius: 12px;
     background: #0b1208;
+    color: #f0efe8;
     box-shadow: 0 30px 100px rgba(0,0,0,0.55);
 }
 
@@ -2359,12 +2366,28 @@ body.fav-product-open {
 
 .fav-screen-details {
     padding: 0 18px 18px;
+    color: var(--muted);
 }
 
 .fav-screen-details .details-row {
     padding: 7px 0;
     margin-bottom: 0;
     border-top: 1px solid rgba(255,255,255,0.055);
+}
+
+.fav-product-dialog .details-row strong,
+.fav-product-dialog .macro-label,
+.fav-product-dialog .ph-chart-head small,
+.fav-product-dialog .ph-stats small,
+.fav-product-dialog .ph-header {
+    color: var(--muted2);
+}
+
+.fav-product-dialog .details-row span,
+.fav-product-dialog .macro-val,
+.fav-product-dialog .ph-chart-head strong,
+.fav-product-dialog .ph-stats strong {
+    color: var(--text);
 }
 
 .fav-screen-macros {
