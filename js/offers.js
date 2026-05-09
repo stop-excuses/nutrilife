@@ -127,6 +127,7 @@ const LOCAL_IMAGE_RULES = [
     ["тофу", "images/foods/tofu.svg"],
     ["кисело мляко", "images/foods/yogurt.svg"],
     ["сирене", "images/foods/cheese.svg"],
+    ["маслиново масло", "images/foods/olive-oil.svg"],
     ["маслин", "images/foods/olives.svg"],
     // Grains & pasta
     ["мюесли", "images/foods/muesli.svg"],
@@ -142,6 +143,7 @@ const LOCAL_IMAGE_RULES = [
     ["макарони", "images/foods/pasta.svg"],
     ["пене", "images/foods/pasta.svg"],
     ["фусили", "images/foods/pasta.svg"],
+    ["пълнозърнест", "images/foods/rye-bread.svg"],
     ["ръжен хляб", "images/foods/rye-bread.svg"],
     ["хляб", "images/foods/bread.svg"],
     // Legumes
@@ -166,6 +168,8 @@ const LOCAL_IMAGE_RULES = [
     ["фъст", "images/foods/peanuts.svg"],
     // Oils & fats
     ["зехтин", "images/foods/olive-oil.svg"],
+    ["краве масло", "images/foods/butter.svg"],
+    ["олио", "images/foods/olive-oil.svg"],
     ["масло", "images/foods/butter.svg"],
     // Fruit & vegetables (specific first)
     ["авокад", "images/foods/avocado.svg"],
@@ -563,6 +567,8 @@ const SEARCH_SYNONYMS = [
     ["кашу", "cashew"],
     ["шамфъстък", "шамфъстъци", "pistachio"],
     ["лешник", "лешници", "hazelnut"],
+    ["олио", "слънчогледово олио", "рапично олио", "растително масло"],
+    ["зехтин", "маслиново масло", "olive oil"],
 ];
 
 // Searching these terms jumps straight to the matching category (no name-substring ambiguity).
@@ -1147,8 +1153,11 @@ const KEYWORD_LABELS = {
     'овес':          'Овесена каша',
     'ориз':          'Ориз',
     'елда':          'Елда',
-    'ядки':          'Ядки',
-    'фъстък':        'Фъстъци',
+    'ядки':              'Ядки',
+    'фъстък':            'Фъстъци',
+    'олио':              'Олио',
+    'краве масло':       'Краве масло',
+    'пълнозърнест хляб': 'Пълнозърнест хляб',
 };
 
 const KEYWORD_EMOJI = {
@@ -1174,13 +1183,25 @@ const KEYWORD_EMOJI = {
     'зехтин':        '🫒',
     'овес':          '🌾',
     'ориз':          '🌾',
-    'ядки':          '🥜',
+    'ядки':              '🥜',
+    'олио':              '🫙',
+    'краве масло':       '🧈',
+    'пълнозърнест хляб': '🌾',
 };
 
 function extractFavoriteKeyword(offer) {
     // All nuts are grouped under a single "ядки" favorite
     if (normalizeOfferCategory(offer) === 'nuts') return 'ядки';
-    const nameLower = offer.name.toLowerCase();
+    const nl = offer.name.toLowerCase();
+    // Olive oil unification — зехтин and маслиново масло are the same product
+    if (nl.includes("зехтин") || nl.includes("маслиново масло")) return "зехтин";
+    // Vegetable oils grouped together
+    if (nl.includes("олио")) return "олио";
+    // Whole grain bread separate from regular bread
+    if (nl.includes("пълнозърнест")) return "пълнозърнест хляб";
+    // Butter separate from generic масло catch-all
+    if (nl.includes("краве масло") || nl.includes("животинско масло")) return "краве масло";
+    const nameLower = nl;
     for (const [keyword] of LOCAL_IMAGE_RULES) {
         if (nameLower.includes(keyword)) return keyword;
     }
