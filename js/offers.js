@@ -973,28 +973,59 @@ async function loadOffers() {
         });
         // Cross-catalog image sharing: for offers without real images, find a
         // real photo of the same product type from the catalog.
-        // Builds module-level maps used by getLocalFallbackImage() as well.
+        // Cross-catalog image sharing: builds maps used by getLocalFallbackImage().
         if (typeof ALL_PRODUCTS_DATA !== 'undefined') {
             liveFallbackByKeyword = new Map();
             liveFallbackByCategory = new Map();
+
+            const BG_STOP_WORDS = new Set(["за","от","с","без","и","или","в","на","при","до","по","над","под","пред","след"]);
+            const getImgWords = name => (name || "").toLowerCase()
+                .replace(/\d+([.,]\d+)?\s*(кг|г|гр|мл|л|бр|kg|g|ml|l|x|×)/g, " ")
+                .split(/[\s,.\-/()]+/)
+                .filter(w => w.length > 2 && !BG_STOP_WORDS.has(w));
+
+            // Build inverted index: word → array of {image} for catalog products with real photos
+            const wordIndex = new Map();
             for (const p of (ALL_PRODUCTS_DATA.products || [])) {
                 if (!hasExternalImage(p.image)) continue;
                 const nameLower = (p.name || "").toLowerCase();
-                // Keyword-level: real photo for each food keyword
+                // Keyword-level fallback (kept for getLocalFallbackImage)
                 for (const [keyword] of LOCAL_IMAGE_RULES) {
                     if (nameLower.includes(keyword) && !liveFallbackByKeyword.has(keyword)) {
                         liveFallbackByKeyword.set(keyword, p.image);
                         break;
                     }
                 }
-                // Category-level: first real photo per category
-                const cat = p.category;
-                if (cat && !liveFallbackByCategory.has(cat)) {
-                    liveFallbackByCategory.set(cat, p.image);
+                // Category-level
+                if (p.category && !liveFallbackByCategory.has(p.category)) {
+                    liveFallbackByCategory.set(p.category, p.image);
+                }
+                // Word index
+                for (const w of getImgWords(p.name)) {
+                    if (!wordIndex.has(w)) wordIndex.set(w, []);
+                    wordIndex.get(w).push(p.image);
                 }
             }
+
             const assignLiveImage = (offer) => {
                 if (hasExternalImage(offer.image)) return;
+                const words = getImgWords(offer.name);
+                const minMatch = words.length >= 2 ? 2 : 1;
+
+                // Count how many query words each catalog image matches
+                const scores = new Map();
+                for (const w of words) {
+                    for (const img of (wordIndex.get(w) || [])) {
+                        scores.set(img, (scores.get(img) || 0) + 1);
+                    }
+                }
+                let bestImg = null, bestScore = minMatch - 1;
+                for (const [img, score] of scores) {
+                    if (score > bestScore) { bestImg = img; bestScore = score; }
+                }
+                if (bestImg) { offer.image = bestImg; return; }
+
+                // Keyword-level CDN fallback
                 const nameLower = (offer.name || "").toLowerCase();
                 for (const [keyword] of LOCAL_IMAGE_RULES) {
                     if (nameLower.includes(keyword) && liveFallbackByKeyword.has(keyword)) {
@@ -1002,9 +1033,6 @@ async function loadOffers() {
                         return;
                     }
                 }
-                // Category-level CDN fallback intentionally omitted:
-                // it assigns a random photo from another store which may be misleading.
-                // Products without a keyword match fall through to SVG icons via getLocalFallbackImage.
             };
             allOffers.forEach(assignLiveImage);
             allCatalogProducts.forEach(assignLiveImage);
