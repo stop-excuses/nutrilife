@@ -12,7 +12,7 @@
 - `kaufland_pdf_scraper.py` — PDF offer extraction from kaufland.bg
 - `off_enricher.py` — Open Food Facts macro enrichment (optional)
 - `data/custom_keywords.json` — user/auto promoted food keywords
-- `data/scraper_stats.json` — run history per store
+- `data/scraper_stats.json` — local generated run history per store (ignored)
 
 ## Workflow
 ```
