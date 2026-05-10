@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
     initProgressBars();
     initBmiCalculator();
     initTracker();
+    initStreakBadge();
     initVisitorCounter();
     hydrateTierListImages();
     initTierSections();
@@ -1071,11 +1072,57 @@ function initTracker() {
             localStorage.setItem(storageKey, JSON.stringify(saved));
             updateTrackerProgress();
             updateWeekChart();
+            updateStreakBadge();
         });
     });
 
     updateTrackerProgress();
     updateWeekChart();
+}
+
+/* --- Cross-page streak badge --- */
+function calculateStreak() {
+    const MS_PER_DAY = 86400000;
+    const now = new Date();
+    now.setHours(0, 0, 0, 0);
+    let streak = 0;
+    let started = false;
+    for (let i = 0; i < 365; i++) {
+        const d = new Date(now.getTime() - i * MS_PER_DAY);
+        const key = "nutrilife-tracker-" + d.toISOString().slice(0, 10);
+        const data = JSON.parse(localStorage.getItem(key) || "{}");
+        const done = Object.values(data).filter(Boolean).length;
+        if (done >= 1) {
+            streak++;
+            started = true;
+        } else {
+            if (i === 0 && !started) continue;
+            break;
+        }
+    }
+    return streak;
+}
+
+function initStreakBadge() {
+    const container = document.querySelector(".navbar .container");
+    if (!container || document.getElementById("streak-badge")) return;
+    const badge = document.createElement("a");
+    badge.id = "streak-badge";
+    badge.className = "streak-badge hidden";
+    badge.href = "start.html#tracker-section";
+    badge.title = "Серия дни с поне 1 отметнат навик";
+    badge.innerHTML = '<span class="streak-icon">🔥</span><span class="streak-count">0</span>';
+    container.appendChild(badge);
+    updateStreakBadge();
+}
+
+function updateStreakBadge() {
+    const badge = document.getElementById("streak-badge");
+    if (!badge) return;
+    const streak = calculateStreak();
+    const countEl = badge.querySelector(".streak-count");
+    if (countEl) countEl.textContent = streak;
+    badge.classList.toggle("hidden", streak === 0);
 }
 
 function updateTrackerProgress() {

@@ -12,6 +12,7 @@ let activeGrainType = "all";
 let activeStore = "all";
 let activeSource = "promo";
 let activeSort = "recommended";
+let activeDiet = "all";
 let searchQuery = "";
 let currentPage = 1;
 let filteredOffersCache = [];
@@ -615,7 +616,6 @@ function normalizeOfferForUi(offer) {
         ? Math.max(offer.health_score || 0, 6)
         : inferUiHealthScore(offer, category, macros);
     const dietTags = [
-        ...(offer.diet_tags || []),
         ...(UI_DIET_TAGS_BY_CATEGORY[category] || []),
         ...(isCuredLeanMeat ? ["high_protein", "keto"] : []),
     ];
@@ -1286,6 +1286,7 @@ async function loadOffers() {
         renderProteinRanking();
         renderBaselineRecommendations();
         initTypeFilters();
+        initDietFilters();
         initCategoryFilters();
         initNutTypeFilters();
         initBreadTypeFilters();
@@ -2010,6 +2011,10 @@ function applyFilters() {
         filtered = filtered.filter(o => (o.available_stores || [o.store]).includes(activeStore));
     }
 
+    if (activeDiet !== "all") {
+        filtered = filtered.filter(o => (o.diet_tags || []).includes(activeDiet));
+    }
+
     if (activeSource === "promo") {
         filtered = filtered.filter(o => o.source_type === "promo");
     }
@@ -2036,6 +2041,18 @@ function initTypeFilters() {
             document.querySelectorAll(".filter-btn[data-type]").forEach(b => b.classList.remove("active"));
             btn.classList.add("active");
             activeType = btn.dataset.type;
+            currentPage = 1;
+            applyFilters();
+        });
+    });
+}
+
+function initDietFilters() {
+    document.querySelectorAll(".filter-btn[data-diet]").forEach(btn => {
+        btn.addEventListener("click", () => {
+            document.querySelectorAll(".filter-btn[data-diet]").forEach(b => b.classList.remove("active"));
+            btn.classList.add("active");
+            activeDiet = btn.dataset.diet;
             currentPage = 1;
             applyFilters();
         });

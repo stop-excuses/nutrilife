@@ -228,6 +228,42 @@ section {
     flex-wrap: wrap;
 }
 
+/* Cross-page streak badge — links to start.html tracker */
+.streak-badge {
+    margin-left: auto;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    background: rgba(226, 75, 74, 0.12);
+    color: #E24B4A;
+    border: 1px solid rgba(226, 75, 74, 0.3);
+    padding: 6px 12px;
+    border-radius: 999px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform 0.15s, background 0.15s;
+}
+.streak-badge:hover {
+    transform: scale(1.05);
+    background: rgba(226, 75, 74, 0.2);
+}
+.streak-badge.hidden { display: none; }
+.streak-badge .streak-icon { font-size: 1rem; line-height: 1; }
+.streak-badge .streak-count { line-height: 1; }
+[data-theme="light"] .streak-badge {
+    background: rgba(226, 75, 74, 0.08);
+    border-color: rgba(226, 75, 74, 0.25);
+}
+@media (max-width: 480px) {
+    .streak-badge {
+        padding: 4px 10px;
+        font-size: 0.78rem;
+        margin-left: 0;
+    }
+}
+
 /* Main nav dots with labels */
 .navbar .dot-wrapper {
     display: flex;
