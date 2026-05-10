@@ -1,11 +1,24 @@
-name: Weekly Scraper
+name: Scrape Offers
 
 on:
   schedule:
-    # Every Monday and Thursday at 06:00 UTC (08:00 Sofia time)
-    - cron: "0 6 * * 1"
-    - cron: "0 6 * * 4"
-  workflow_dispatch: # allow manual run from GitHub UI
+    # Thursday — Kaufland, Billa, Fantastico, Dar publish new catalogs
+    - cron: "0 4 * * 4"   # 07:00 Sofia
+    - cron: "0 8 * * 4"   # 11:00 Sofia
+    - cron: "0 13 * * 4"  # 16:00 Sofia
+    # Sunday — Lidl publishes next week's catalog
+    - cron: "0 15 * * 0"  # 18:00 Sofia
+    - cron: "0 17 * * 0"  # 20:00 Sofia
+    - cron: "0 19 * * 0"  # 22:00 Sofia
+    # Monday — T-Market publishes new catalog
+    - cron: "0 4 * * 1"   # 07:00 Sofia
+    - cron: "0 7 * * 1"   # 10:00 Sofia
+  workflow_dispatch:
+    inputs:
+      stores:
+        description: "Stores to scrape (e.g. kaufland,lidl or all)"
+        required: false
+        default: "all"
 
 jobs:
   scrape:
@@ -31,14 +44,29 @@ jobs:
           pip install -r scraper/requirements.txt
           python -m playwright install chromium --with-deps
 
+      - name: Determine stores by day
+        id: stores
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "stores=${{ github.event.inputs.stores }}" >> $GITHUB_OUTPUT
+          else
+            DAY=$(date -u +%u)  # 1=Mon ... 4=Thu ... 7=Sun
+            case $DAY in
+              4) echo "stores=kaufland,billa,fantastico,dar" >> $GITHUB_OUTPUT ;;
+              7) echo "stores=lidl"    >> $GITHUB_OUTPUT ;;
+              1) echo "stores=tmarket" >> $GITHUB_OUTPUT ;;
+              *) echo "stores=all"    >> $GITHUB_OUTPUT ;;
+            esac
+          fi
+
       - name: Run scraper
         run: |
           cd scraper
-          python scraper.py
+          python scraper.py --store ${{ steps.stores.outputs.stores }}
         env:
           PYTHONIOENCODING: utf-8
 
-      - name: Validate scraper output
+      - name: Validate output
         run: |
           python3 - <<'EOF'
           import json, sys
@@ -47,11 +75,8 @@ jobs:
           total = data.get("total_offers", 0)
           stores = data.get("stores", [])
           print(f"Offers: {total} | Stores: {stores}")
-          if total < 200:
-              print(f"ERROR: only {total} offers — scraper likely failed. Aborting commit.")
-              sys.exit(1)
-          if len(stores) < 2:
-              print(f"ERROR: only {len(stores)} store(s) scraped. Aborting commit.")
+          if total < 100:
+              print(f"ERROR: only {total} offers — scraper likely failed")
               sys.exit(1)
           print("Validation passed.")
           EOF
@@ -59,12 +84,14 @@ jobs:
       - name: Sync offers.json → offers.js
         run: python sync_offers.py
 
-      - name: Commit updated data
+      - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/offers.json data/offers.js data/all_products.json data/all_products.js
           [ -f data/scraper_stats.json ] && git add data/scraper_stats.json || true
-          git diff --cached --quiet || git commit -m "chore: weekly offers update $(date -u '+%Y-%m-%d')"
-          git pull --rebase origin master
-          git push
+          git diff --cached --quiet && echo "No changes — offers unchanged" || (
+            git commit -m "chore: update offers [${{ steps.stores.outputs.stores }}] $(date -u '+%Y-%m-%d %H:%M') UTC"
+            git pull --rebase origin master
+            git push
+          )
