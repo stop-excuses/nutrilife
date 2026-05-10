@@ -1460,40 +1460,61 @@ def raw_items_to_store_result(raw_items: list[dict]) -> dict | None:
     return {"store": store_name, "offers": offers, "active_brochures": []}
 
 
-async def run_structured_scrapers(browser) -> list[dict]:
-    """Run all structured store scrapers. Returns list of store_result dicts."""
+def _content_hash(offers: list) -> str:
+    """Stable hash of offer content for no-change detection (ignores timestamps)."""
+    key = sorted(
+        (o.get("product_id", ""), o.get("store", ""), o.get("new_price", 0), o.get("valid_until", ""))
+        for o in offers
+    )
+    return hashlib.md5(json.dumps(key).encode()).hexdigest()
+
+
+async def run_structured_scrapers(browser, stores=None) -> list[dict]:
+    """Run structured store scrapers.
+    stores: None = all, or set of lowercase names like {'kaufland', 'lidl'}.
+    """
     if not _STRUCTURED_SCRAPERS_AVAILABLE:
         print("[!] Structured scrapers not available — skipping")
         return []
 
+    active = None if stores is None else {s.lower() for s in stores}
+
+    def _want(name):
+        return active is None or name in active
+
     print("\n[*] === Structured store scrapers ===")
+    if active:
+        print(f"[*] Store filter: {', '.join(sorted(active))}")
+
+    loop = asyncio.get_event_loop()
 
     # Sync scrapers (requests-based) — run in parallel with executor
-    loop = asyncio.get_event_loop()
-    billa_raw, fantastico_raw, dar_raw, tmarket_raw = await asyncio.gather(
-        loop.run_in_executor(None, scrape_billa_text),
-        loop.run_in_executor(None, scrape_fantastico_csv),
-        loop.run_in_executor(None, scrape_dar_csv),
-        loop.run_in_executor(None, scrape_tmarket_text),
-    )
-    billa_result = raw_items_to_store_result(billa_raw)
-    fantastico_result = raw_items_to_store_result(fantastico_raw)
-    dar_result = raw_items_to_store_result(dar_raw)
-    tmarket_result = raw_items_to_store_result(tmarket_raw)
+    sync_map = []
+    if _want("billa"):      sync_map.append(("Billa",      scrape_billa_text))
+    if _want("fantastico"): sync_map.append(("Fantastico", scrape_fantastico_csv))
+    if _want("dar"):        sync_map.append(("Dar",        scrape_dar_csv))
+    if _want("tmarket"):    sync_map.append(("T-Market",   scrape_tmarket_text))
 
-    # Async DOM scrapers (Playwright)
-    kaufland_raw, lidl_raw = await asyncio.gather(
-        scrape_kaufland_dom(browser),
-        scrape_lidl_dom(browser),
-    )
+    sync_raws = await asyncio.gather(
+        *[loop.run_in_executor(None, fn) for _, fn in sync_map]
+    ) if sync_map else []
+
+    # Async DOM scrapers (Playwright) — only when browser is provided
+    async_map = []
+    if browser is not None:
+        if _want("kaufland"): async_map.append(("Kaufland", scrape_kaufland_dom(browser)))
+        if _want("lidl"):     async_map.append(("Lidl",     scrape_lidl_dom(browser)))
+
+    async_raws = await asyncio.gather(*[coro for _, coro in async_map]) if async_map else []
 
     results = []
-    for raw, label in [(kaufland_raw, "Kaufland"), (lidl_raw, "Lidl")]:
+
+    def _log_result(raw, label):
         r = raw_items_to_store_result(raw)
         if r:
-            healthy = sum(1 for o in r["offers"] if o.get("is_healthy"))
-            hi_prot = sum(1 for o in r["offers"] if o.get("is_high_protein"))
-            with_img = sum(1 for o in r["offers"] if o.get("image") and o["image"] != FALLBACK_IMAGE)
+            healthy   = sum(1 for o in r["offers"] if o.get("is_healthy"))
+            hi_prot   = sum(1 for o in r["offers"] if o.get("is_high_protein"))
+            with_img  = sum(1 for o in r["offers"] if o.get("image") and o["image"] != FALLBACK_IMAGE)
             with_disc = sum(1 for o in r["offers"] if o.get("old_price"))
             print(
                 f"  [structured] {label}: {len(r['offers'])} offers | "
@@ -1502,23 +1523,10 @@ async def run_structured_scrapers(browser) -> list[dict]:
             )
             results.append(r)
 
-    for r, label in [
-        (billa_result, "Billa"),
-        (fantastico_result, "Fantastico"),
-        (dar_result, "Dar"),
-        (tmarket_result, "T-Market"),
-    ]:
-        if r:
-            healthy = sum(1 for o in r["offers"] if o.get("is_healthy"))
-            hi_prot = sum(1 for o in r["offers"] if o.get("is_high_protein"))
-            with_img = sum(1 for o in r["offers"] if o.get("image") and o["image"] != FALLBACK_IMAGE)
-            with_disc = sum(1 for o in r["offers"] if o.get("old_price"))
-            print(
-                f"  [structured] {label}: {len(r['offers'])} offers | "
-                f"healthy={healthy} | high_protein={hi_prot} | "
-                f"with_image={with_img} | with_discount={with_disc}"
-            )
-            results.append(r)
+    for (label, _), raw in zip(async_map, async_raws):
+        _log_result(raw, label)
+    for (label, _), raw in zip(sync_map, sync_raws):
+        _log_result(raw, label)
 
     total = sum(len(r["offers"]) for r in results)
     print(f"[*] Structured scrapers total: {total} offers across {len(results)} stores\n")
@@ -2022,19 +2030,45 @@ FALLBACK_STORE_URLS = [
 
 
 async def main():
+    import argparse
+    parser = argparse.ArgumentParser(description="NutriLife Scraper")
+    parser.add_argument(
+        "--store", default=None,
+        help="Comma-separated stores to scrape (default: all). "
+             "Valid: kaufland, lidl, billa, fantastico, dar, tmarket",
+    )
+    args = parser.parse_args()
+    stores_filter = None
+    if args.store and args.store.lower() != "all":
+        stores_filter = {s.strip().lower() for s in args.store.split(",")}
+
     started = datetime.utcnow()
     print("=" * 60)
     print("NutriLife Scraper — Structured sources only")
     print(f"Started at {started.strftime('%Y-%m-%d %H:%M:%S')} UTC")
+    if stores_filter:
+        print(f"Stores: {', '.join(sorted(stores_filter))}")
     print("=" * 60)
 
-    async with async_playwright() as p:
-        browser = await p.chromium.launch(
-            headless=True,
-            args=["--disable-blink-features=AutomationControlled"],
-        )
-        store_results = await run_structured_scrapers(browser)
-        await browser.close()
+    # Load existing offers.json early — needed for merge and hash check
+    existing_data: dict = {}
+    if OUTPUT_PATH.exists():
+        try:
+            existing_data = json.loads(OUTPUT_PATH.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            pass
+
+    need_browser = stores_filter is None or bool(stores_filter & {"kaufland", "lidl"})
+    if need_browser:
+        async with async_playwright() as p:
+            browser = await p.chromium.launch(
+                headless=True,
+                args=["--disable-blink-features=AutomationControlled"],
+            )
+            store_results = await run_structured_scrapers(browser, stores_filter)
+            await browser.close()
+    else:
+        store_results = await run_structured_scrapers(None, stores_filter)
 
     print("[*] Structured scraping finished; entering postprocess...", flush=True)
     all_offers = postprocess_offers(store_results)
@@ -2084,8 +2118,24 @@ async def main():
     write_all_products(by_pid, today)
     print("[*] all_products.json written", flush=True)
 
+    # Partial scrape: keep existing thin offers from unscraped stores
+    if stores_filter:
+        scraped_stores = {r["store"] for r in store_results if r}
+        kept = [o for o in existing_data.get("offers", []) if o.get("store") not in scraped_stores]
+        if kept:
+            print(f"[*] Merging {len(kept)} existing offers from unscraped stores")
+        thin_offers = thin_offers + kept
+
+    # Skip write if offers content is identical to previous run
+    new_hash = _content_hash(thin_offers)
+    old_hash = existing_data.get("content_hash") or _content_hash(existing_data.get("offers", []))
+    if old_hash and old_hash == new_hash:
+        print("[*] NO_CHANGE: offers unchanged since last scrape — skipping write")
+        return
+
     output = {
         "generated_at": datetime.utcnow().isoformat() + "Z",
+        "content_hash": new_hash,
         "total_offers": len(thin_offers),
         "promo_offers": sum(1 for o in thin_offers if o.get("source_type") == "promo"),
         "assortment_offers": sum(1 for o in thin_offers if o.get("source_type") == "assortment"),
