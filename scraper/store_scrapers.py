@@ -407,6 +407,18 @@ def _extract_billa_dates(soup) -> tuple:
     return _extract_page_dates(soup.get_text(" ", strip=True))
 
 
+def _is_long_running_billa_range(valid_from: Optional[str], valid_until: Optional[str]) -> bool:
+    if not valid_from or not valid_until:
+        return False
+    try:
+        from datetime import date as _date
+        start = _date.fromisoformat(valid_from)
+        end = _date.fromisoformat(valid_until)
+    except ValueError:
+        return False
+    return (end - start).days > 45
+
+
 def scrape_billa_text() -> list[dict]:
     """Scrape ssbbilla.site/catalog/sedmichna-broshura — structured Billa Bulgaria offers.
 
@@ -428,6 +440,7 @@ def scrape_billa_text() -> list[dict]:
             decoded = resp.content.decode("cp1251", errors="replace")
         soup = BeautifulSoup(decoded, "html.parser")
         valid_from, valid_until = _extract_billa_dates(soup)
+        is_long_running_catalog = _is_long_running_billa_range(valid_from, valid_until)
 
         for card in soup.select("div.product"):
             # ── Name ──────────────────────────────────────────────────────────
@@ -483,6 +496,7 @@ def scrape_billa_text() -> list[dict]:
 
             items.append(make_raw_item(
                 name, new_price, old_price, discount_pct, None, "Billa", "billa_text",
+                source_type="assortment" if is_long_running_catalog else "promo",
                 valid_from=valid_from, valid_until=valid_until,
                 weight_raw=weight_raw_item, weight_grams=weight_grams_item,
             ))

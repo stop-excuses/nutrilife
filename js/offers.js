@@ -16,6 +16,7 @@ let activeDiet = "all";
 let searchQuery = "";
 let currentPage = 1;
 let filteredOffersCache = [];
+let allSourceFilteredCount = 0;
 let allCatalogProducts = [];
 let selectedFavoriteOfferId = "";
 let favoriteItems = (() => {
@@ -772,36 +773,43 @@ const SEARCH_CATEGORY_SHORTCUTS = {
     "макадамия": "nuts",
 };
 
-const STRICT_SEARCH_TERMS = new Set([
-    "пиле", "пилешко", "овес", "яйца", "яйце", "кисело мляко", "мляко",
-    "ориз", "банан", "леща", "нахут", "извара", "скир", "сирене", "риба тон"
-]);
-
-const PRODUCT_SEARCH_RULES = {
-    "пиле": { category: "protein", include: ["пиле", "пилеш"], exclude: ["бульон", "филе риба", "рибно филе", "вкус пиле", "аромат", "нудли", "спагети", "супа"] },
-    "пилешко": { category: "protein", include: ["пилеш"], exclude: ["бульон", "вкус пиле", "аромат", "нудли", "спагети", "супа"] },
-    "овес": { category: "grain", include: ["овес"], exclude: ["бар", "бисквит", "десерт", "мюсли", "гранола", "напитка", "activia", "закуска"] },
-    "яйца": { category: "protein", include: ["яйц"], exclude: ["без яйца", "с яйце", "с яйца", "кори", "лазаня", "бишкоти", "бисквит", "кекс"] },
-    "яйце": { category: "protein", include: ["яйц"], exclude: ["без яйца", "с яйце", "с яйца", "кори", "лазаня", "бишкоти", "бисквит", "кекс"] },
-    "кисело мляко": { category: "dairy", include: ["кисело мляко"], exclude: ["с кисело мляко", "десерт", "крем", "салата", "сос"] },
-    "мляко": { category: "dairy", include: ["мляко"], exclude: ["с мляко", "десерт", "крем", "напитка"] },
-    "ориз": { category: "grain", include: ["ориз"], exclude: ["ориз с", "ориз със", "ориз къри", "със зеленчуци", "на грамаж", "оризови ядки", "оризовки", "rice up", "бар", "десерт", "нудли", "спагети", "напитка"] },
-    "банан": { category: "vegetable", include: ["банан"], exclude: ["нектар", "смути", "сок", "напитка", "danonino", "activia", "десерт"] },
-    "леща": { category: "legume", include: ["леща"], exclude: ["супа", "яхния готов", "салата"] },
-    "нахут": { category: "legume", include: ["нахут"], exclude: ["салата", "хумус"] },
-    "извара": { category: "dairy", include: ["извара"], exclude: ["кюфте", "банич", "десерт"] },
-    "скир": { category: "dairy", include: ["скир", "skyr"], exclude: ["десерт"] },
-    "сирене": { category: "dairy", include: ["сирене"], exclude: ["топено", "банич", "кюфте", "снак"] },
-    "риба тон": { category: ["canned", "protein"], include: ["риба тон"], exclude: ["салата", "пюре", "паста", "бебе", "детск"] },
+const SEARCH_INTENT_ALIASES = {
+    "пилешко": "пиле",
+    "яйце": "яйца",
+    "skyr": "скир",
+    "маслиново масло": "зехтин",
 };
+
+const SEARCH_INTENTS = {
+    "пиле": { category: "protein", include: ["пиле", "пилеш"], rejectIngredientContext: true, rejectPreparedContext: true },
+    "овес": { category: "grain", include: ["овес"] },
+    "яйца": { category: "protein", include: ["яйц", "яиц", "egg", "eggs"], rejectIngredientContext: true, rejectPreparedContext: true },
+    "кисело мляко": { category: "dairy", include: ["кисело мляко"], rejectIngredientContext: true },
+    "мляко": { category: "dairy", include: ["мляко"], rejectIngredientContext: true },
+    "ориз": { category: "grain", include: ["ориз"], rejectPreparedContext: true, rejectTokenStarts: ["оризов"] },
+    "банан": { category: "vegetable", include: ["банан"] },
+    "леща": { category: "legume", include: ["леща"], rejectPreparedContext: true },
+    "нахут": { category: "legume", include: ["нахут"], rejectPreparedContext: true },
+    "извара": { category: "dairy", include: ["извара"], rejectPreparedContext: true },
+    "скир": { category: "dairy", include: ["скир", "skyr"] },
+    "сирене": { category: "dairy", include: ["сирене"], rejectPreparedContext: true },
+    "риба тон": { category: ["canned", "protein"], include: ["риба тон"], rejectPreparedContext: true },
+    "зехтин": { category: "fat", include: ["зехтин", "маслиново масло"], rejectIngredientContext: true },
+};
+
+const STRICT_SEARCH_TERMS = new Set([
+    ...Object.keys(SEARCH_INTENTS),
+    ...Object.keys(SEARCH_INTENT_ALIASES),
+]);
 
 const SEARCH_ALIAS_TERMS = {
     "пиле": ["пиле", "пилешко", "пилешки", "пилешка", "пилешки"],
     "пилешко": ["пиле", "пилешко", "пилешки", "пилешка"],
-    "яйца": ["яйц", "яйца", "яйце"],
-    "яйце": ["яйц", "яйца", "яйце"],
+    "яйца": ["яйц", "яиц", "яйца", "яйце", "eggs"],
+    "яйце": ["яйц", "яиц", "яйца", "яйце", "egg"],
     "овес": ["овес", "овесен", "овесени"],
     "мляко": ["мляко", "млечен", "млечни"],
+    "skyr": ["скир", "skyr"],
 };
 
 function getSearchTokens(value) {
@@ -812,6 +820,27 @@ function getSearchTokens(value) {
         .filter(Boolean);
 }
 
+function normalizeSearchQuery(value) {
+    return getSearchTokens(value).join(" ");
+}
+
+function getSearchIntent(query) {
+    const q = normalizeSearchQuery(query);
+    const canonical = SEARCH_INTENT_ALIASES[q] || q;
+    const intent = SEARCH_INTENTS[canonical];
+    return intent ? { ...intent, canonical } : null;
+}
+
+function getFuseQueries(query) {
+    const q = normalizeSearchQuery(query);
+    const intent = getSearchIntent(q);
+    return [...new Set([
+        q,
+        intent?.canonical,
+        ...(intent?.include || []),
+    ].filter(Boolean))];
+}
+
 function tokenMatchesSearchTerm(token, term) {
     const aliases = SEARCH_ALIAS_TERMS[term] || [term];
     return aliases.some(alias => {
@@ -820,36 +849,59 @@ function tokenMatchesSearchTerm(token, term) {
     });
 }
 
+function escapeRegExp(value) {
+    return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function hasSearchPhrase(nameLower, phrase) {
+    if (phrase.length <= 3) return getSearchTokens(nameLower).some(token => token.startsWith(phrase));
+    return new RegExp(`(^|\\s)${escapeRegExp(phrase)}`, "u").test(nameLower);
+}
+
+function hasIngredientContext(nameLower, terms) {
+    return terms.some(term => new RegExp(`(^|\\s)(с|със|в|без|и|от|на|за)\\s+(?:\\S+\\s+){0,2}${escapeRegExp(term)}\\p{L}*(?=$|\\s|\\d|[.,;])`, "u").test(nameLower));
+}
+
+function hasPreparedContext(nameLower, terms) {
+    return hasIngredientContext(nameLower, terms)
+        || terms.some(term => new RegExp(`(^|\\s)${escapeRegExp(term)}\\s+(с|със)\\s+`, "u").test(nameLower))
+        || ["салата", "сос", "супа", "бульон", "яхния", "къри", "гарнитура", "банич", "кюфте", "дресинг", "крем", "десерт", "нудли", "спагети", "лазаня", "кори", "гофрет", "бишкоти", "шоколад", "великден", "пюре", "бар", "бисквит", "напитка"].some(term => nameLower.includes(term));
+}
+
 function matchesPreciseSearch(offer, query) {
-    const q = query.trim().toLowerCase();
+    const q = normalizeSearchQuery(query);
     if (!q) return true;
     const nameLower = getOfferNameLower(offer);
-    const rule = PRODUCT_SEARCH_RULES[q];
-    if (rule) {
-        if (Array.isArray(rule.category) && !rule.category.includes(offer.category)) return false;
-        if (rule.category && !Array.isArray(rule.category) && offer.category !== rule.category) return false;
-        if (rule.exclude?.some(term => nameLower.includes(term))) return false;
-        return rule.include.some(term => nameLower.includes(term));
+    const intent = getSearchIntent(q);
+    if (intent) {
+        if (Array.isArray(intent.category) && !intent.category.includes(offer.category)) return false;
+        if (intent.category && !Array.isArray(intent.category) && offer.category !== intent.category) return false;
+        if (!intent.include.some(term => hasSearchPhrase(nameLower, term))) return false;
+        if (intent.rejectTokenStarts?.some(term => getSearchTokens(nameLower).some(token => token.startsWith(term)))) return false;
+        if (intent.rejectIngredientContext && hasIngredientContext(nameLower, intent.include)) return false;
+        if (intent.rejectPreparedContext && hasPreparedContext(nameLower, intent.include)) return false;
+        return true;
     }
 
     const queryTokens = getSearchTokens(q);
+    if (!queryTokens.length) return false;
     const offerTokens = getSearchTokens(offer.name);
 
     return queryTokens.every(term => offerTokens.some(token => tokenMatchesSearchTerm(token, term)));
 }
 
 function getSearchRank(offer, query) {
-    const q = query.trim().toLowerCase();
+    const q = normalizeSearchQuery(query);
     const nameLower = getOfferNameLower(offer);
-    const rule = PRODUCT_SEARCH_RULES[q];
+    const intent = getSearchIntent(q);
     let score = 100;
     if (nameLower === q) score -= 80;
     if (nameLower.startsWith(q)) score -= 60;
     if (nameLower.includes(q)) score -= 35;
-    if (rule?.include?.some(term => nameLower.startsWith(term))) score -= 30;
-    if (rule?.include?.some(term => nameLower.includes(term))) score -= 15;
-    if (Array.isArray(rule?.category) && rule.category.includes(offer.category)) score -= 10;
-    if (rule?.category && !Array.isArray(rule.category) && offer.category === rule.category) score -= 10;
+    if (intent?.include?.some(term => nameLower.startsWith(term))) score -= 30;
+    if (intent?.include?.some(term => nameLower.includes(term))) score -= 15;
+    if (Array.isArray(intent?.category) && intent.category.includes(offer.category)) score -= 10;
+    if (intent?.category && !Array.isArray(intent.category) && offer.category === intent.category) score -= 10;
     score -= Math.min(getOfferProfile(offer).health_score || 0, 10);
     score += Math.min(offer.new_price || 0, 20) / 10;
     return score;
@@ -965,7 +1017,31 @@ function formatOfferDate(dateString) {
     return `${match[3]}.${match[2]}.${match[1]}`;
 }
 
+function getLocalDateKey(date = new Date()) {
+    const y = date.getFullYear();
+    const m = String(date.getMonth() + 1).padStart(2, "0");
+    const d = String(date.getDate()).padStart(2, "0");
+    return `${y}-${m}-${d}`;
+}
+
+function isCurrentPromoOffer(offer) {
+    if (offer.source_type !== "promo") return true;
+    const today = getLocalDateKey();
+    if (offer.valid_until && String(offer.valid_until) < today) return false;
+    if (offer.valid_from && String(offer.valid_from) > today) return false;
+    return true;
+}
+
+function hasLongValidityRange(offer, maxDays = 45) {
+    if (!offer.valid_from || !offer.valid_until) return false;
+    const start = new Date(`${offer.valid_from}T00:00:00`);
+    const end = new Date(`${offer.valid_until}T00:00:00`);
+    if (Number.isNaN(start.getTime()) || Number.isNaN(end.getTime())) return false;
+    return ((end - start) / 86400000) > maxDays;
+}
+
 function getOfferValidityText(offer, mode = "short") {
+    if (offer.source_type !== "promo" && hasLongValidityRange(offer)) return "";
     const validFrom = formatOfferDate(offer.valid_from);
     const validUntil = formatOfferDate(offer.valid_until);
     if (validFrom && validUntil) {
@@ -1211,7 +1287,7 @@ async function loadOffers() {
                 _productKey: normalizeProductKey(normalized.name),
                 _comparisonKey: getComparisonKey(normalized),
             };
-        });
+        }).filter(isCurrentPromoOffer);
         // Cross-catalog image sharing: for offers without real images, find a
         // real photo of the same product type from the catalog.
         // Cross-catalog image sharing: builds maps used by getLocalFallbackImage().
@@ -1432,9 +1508,9 @@ function renderOffersStatus() {
     const updatedText = generatedAt && !Number.isNaN(generatedAt.getTime())
         ? generatedAt.toLocaleString("bg-BG", { day: "2-digit", month: "2-digit", year: "numeric", hour: "2-digit", minute: "2-digit" })
         : "неизвестно";
-    const total = OFFERS_DATA.total_offers || allOffers.length;
-    const promo = OFFERS_DATA.promo_offers || allOffers.filter(o => o.source_type === "promo").length;
-    const assortment = OFFERS_DATA.assortment_offers || Math.max(0, total - promo);
+    const total = allOffers.length;
+    const promo = allOffers.filter(o => o.source_type === "promo").length;
+    const assortment = Math.max(0, total - promo);
     const stores = OFFERS_DATA.stores || [...new Set(allOffers.map(o => o.store).filter(Boolean))];
 
     status.innerHTML = `
@@ -1476,9 +1552,16 @@ function saveFavorites() {
     localStorage.setItem('nutrilife-favorites', JSON.stringify(favoriteItems));
 }
 
+const FAVORITE_KEYWORD_ALIASES = {
+    "яйц": "яйца",
+    "пилешко": "пиле",
+    ...SEARCH_INTENT_ALIASES,
+};
+
 // User-friendly label and emoji for keywords from LOCAL_IMAGE_RULES
 const KEYWORD_LABELS = {
     'яйц':           'Яйца',
+    'яйца':          'Яйца',
     'кисело мляко':  'Кисело мляко',
     'риба тон':      'Риба тон',
     'скумрия':       'Скумрия',
@@ -1489,6 +1572,8 @@ const KEYWORD_LABELS = {
     'пилешко филе':  'Пилешко филе',
     'пилешки бут':   'Пилешко бутче',
     'пилешко бутче': 'Пилешко бутче',
+    'пилешко':        'Пилешко',
+    'пиле':           'Пилешко',
     'кайма':         'Кайма',
     'телешко':       'Телешко',
     'говеждо':       'Говеждо',
@@ -1502,6 +1587,7 @@ const KEYWORD_LABELS = {
     'боб':           'Боб',
     'леща':          'Леща',
     'зехтин':        'Зехтин',
+    'маслиново масло': 'Зехтин',
     'овес':          'Овесена каша',
     'ориз':          'Ориз',
     'елда':          'Елда',
@@ -1523,6 +1609,7 @@ const KEYWORD_LABELS = {
 
 const KEYWORD_EMOJI = {
     'яйц':           '🥚',
+    'яйца':          '🥚',
     'кисело мляко':  '🥛',
     'риба тон':      '🐟',
     'скумрия':       '🐠',
@@ -1531,6 +1618,8 @@ const KEYWORD_EMOJI = {
     'пилешко филе':  '🍗',
     'пилешки бут':   '🍗',
     'пилешко бутче': '🍗',
+    'пилешко':        '🍗',
+    'пиле':           '🍗',
     'кайма':         '🥩',
     'телешко':       '🥩',
     'говеждо':       '🥩',
@@ -1542,6 +1631,7 @@ const KEYWORD_EMOJI = {
     'боб':           '🫘',
     'леща':          '🟤',
     'зехтин':        '🫒',
+    'маслиново масло': '🫒',
     'овес':          '🌾',
     'ориз':          '🌾',
     'ядки':              '🥜',
@@ -1561,12 +1651,9 @@ const KEYWORD_EMOJI = {
 function extractFavoriteKeyword(offer) {
     const nl = offer.name.toLowerCase();
     const cat = normalizeOfferCategory(offer);
-    // Olive oil unification — зехтин and маслиново масло are the same product
-    if (nl.includes("зехтин") || nl.includes("маслиново масло")) return "зехтин";
-    // Vegetable oils grouped together
-    if (nl.includes("олио")) return "олио";
-    // Butter separate from generic масло catch-all
-    if (nl.includes("краве масло") || nl.includes("животинско масло")) return "краве масло";
+    // Group whole chicken and generic chicken cuts together instead of creating
+    // one watch-list row per scraped product wording.
+    if (cat === 'protein' && (nl.includes("пиле") || nl.includes("пилеш"))) return "пилешко";
     // Specific nut types each get their own favorite; mixed nuts fall back to "ядки"
     if (cat === 'nuts') {
         const nutOrder = ["шамфъстък", "макадамия", "пекан", "кашу", "лешник", "бадем", "фъстък", "орех"];
@@ -1579,7 +1666,15 @@ function extractFavoriteKeyword(offer) {
         if (nl.includes("ръжен") || nl.includes("ръж")) return "ръжен хляб";
         return "хляб";
     }
+    if (cat === 'fat') {
+        // Keep ingredient mentions like "риба тон в олио" attached to the main
+        // product; only real fat-category products become oil/butter favorites.
+        if (nl.includes("зехтин") || nl.includes("маслиново масло")) return "зехтин";
+        if (nl.includes("олио")) return "олио";
+        if (nl.includes("краве масло") || nl.includes("животинско масло")) return "краве масло";
+    }
     for (const [keyword] of LOCAL_IMAGE_RULES) {
+        if (["зехтин", "олио", "масло", "краве масло", "маслиново масло"].includes(keyword) && cat !== 'fat') continue;
         if (nl.includes(keyword)) return keyword;
     }
     // Fallback: first 2 meaningful words, stripped of weight/size info
@@ -1598,16 +1693,41 @@ function getFavEmoji(kw, fallback) {
     return KEYWORD_EMOJI[kw] || fallback || '🍽️';
 }
 
+function normalizeFavoriteKeyword(kw) {
+    const q = normalizeSearchQuery(kw);
+    return FAVORITE_KEYWORD_ALIASES[q] || q;
+}
+
+function favoriteKeywordsMatch(a, b) {
+    return normalizeFavoriteKeyword(a) === normalizeFavoriteKeyword(b);
+}
+
+function favoriteMatchesOffer(offer, kw, cat) {
+    if (!offer.name || offer.new_price == null) return false;
+    if (isBabyFoodName(getOfferNameLower(offer))) return false;
+    if (isClearlyNonHumanFood(offer)) return false;
+    if (EXCLUDED_HEALTH_CATEGORIES.has(offer.category)) return false;
+
+    if (cat === 'canned' && offer.category && offer.category !== 'canned') return false;
+    if (cat === 'nuts' && offer.category && offer.category !== 'nuts') return false;
+
+    const normalizedKw = normalizeFavoriteKeyword(kw);
+    const intent = getSearchIntent(normalizedKw);
+    if (intent) return matchesPreciseSearch(offer, normalizedKw);
+
+    return favoriteKeywordsMatch(extractFavoriteKeyword(offer), kw);
+}
+
 function isFavorited(offer) {
     const kw = extractFavoriteKeyword(offer);
-    return favoriteItems.some(f => f.kw === kw);
+    return favoriteItems.some(f => favoriteKeywordsMatch(f.kw, kw));
 }
 
 function toggleFavorite(offerId) {
     const offer = allOffers.find(o => getOfferDomId(o) === offerId);
     if (!offer) return;
     const kw = extractFavoriteKeyword(offer);
-    const idx = favoriteItems.findIndex(f => f.kw === kw);
+    const idx = favoriteItems.findIndex(f => favoriteKeywordsMatch(f.kw, kw));
     if (idx !== -1) {
         favoriteItems.splice(idx, 1);
     } else {
@@ -1618,7 +1738,7 @@ function toggleFavorite(offerId) {
     // Update every fav-btn for this keyword across all sections
     document.querySelectorAll('.fav-btn[data-offer-id]').forEach(btn => {
         const o = allOffers.find(x => getOfferDomId(x) === btn.dataset.offerId);
-        if (!o || extractFavoriteKeyword(o) !== kw) return;
+        if (!o || !favoriteKeywordsMatch(extractFavoriteKeyword(o), kw)) return;
         btn.classList.toggle('active', active);
         btn.title = active ? 'Премахни от списъка' : 'Добави към списъка';
     });
@@ -1653,29 +1773,7 @@ function renderFavoritesPanel() {
     const rows = favoriteItems.map(({ kw, emoji, cat }) => {
         const offers = allOffers
             .filter(o => {
-                if (!o.name || o.new_price == null) return false;
-                if (extractFavoriteKeyword(o) !== kw) return false;
-                const nl = o.name.toLowerCase();
-                if (isBabyFoodName(nl)) return false;
-                if (isClearlyNonHumanFood(o)) return false;
-                if (EXCLUDED_HEALTH_CATEGORIES.has(o.category)) return false;
-                // Exclude products where kw is an ingredient, not the main product
-                // e.g. "баница с извара", "бишкоти с 26% яйца", "тиквички с кисело мляко"
-                const kwIdx = nl.indexOf(kw);
-                if (kwIdx > 0) {
-                    const before = nl.slice(0, kwIdx).trimEnd();
-                    const lastChar = before[before.length - 1];
-                    if ([',', ';', '%'].includes(lastChar)) return false;
-                    // Check last 3 words for prepositions (catches "с 26% яйца" too)
-                    const words = before.trim().split(/\s+/);
-                    const lastFew = words.slice(-3);
-                    if (lastFew.some(w => ['с', 'от', 'в', 'на', 'за', 'и', 'със', 'без'].includes(w))) return false;
-                }
-                // Category guards: group favorites match only their category
-                if (cat === 'canned' && o.category && o.category !== 'canned') return false;
-                // Any nut-type favorite (ядки, орех, бадем, etc.) only matches nuts products
-                if (cat === 'nuts' && o.category && o.category !== 'nuts') return false;
-                return true;
+                return favoriteMatchesOffer(o, kw, cat);
             })
             .sort((a, b) => a.new_price - b.new_price);
         const onSale = offers.filter(o => o.discount_pct);
@@ -1787,16 +1885,16 @@ function renderFavoritesPanel() {
         btn.addEventListener('click', e => {
             e.stopPropagation();
             const kw = btn.dataset.kw;
-            favoriteItems = favoriteItems.filter(f => f.kw !== kw);
+            favoriteItems = favoriteItems.filter(f => !favoriteKeywordsMatch(f.kw, kw));
             const selectedOffer = allOffers.find(o => getOfferDomId(o) === selectedFavoriteOfferId);
-            if (selectedOffer && extractFavoriteKeyword(selectedOffer) === kw) {
+            if (selectedOffer && favoriteKeywordsMatch(extractFavoriteKeyword(selectedOffer), kw)) {
                 selectedFavoriteOfferId = "";
                 document.body.classList.remove('fav-product-open');
             }
             saveFavorites();
             document.querySelectorAll('.fav-btn[data-offer-id]').forEach(b => {
                 const o = allOffers.find(x => getOfferDomId(x) === b.dataset.offerId);
-                if (!o || extractFavoriteKeyword(o) !== kw) return;
+                if (!o || !favoriteKeywordsMatch(extractFavoriteKeyword(o), kw)) return;
                 b.classList.remove('active');
                 b.title = 'Добави към списъка';
             });
@@ -1929,7 +2027,10 @@ function initSearch() {
     input.addEventListener("input", () => {
         clearTimeout(debounce);
         debounce = setTimeout(() => {
-            searchQuery = input.value.trim().toLowerCase();
+            searchQuery = normalizeSearchQuery(input.value);
+            if (searchQuery && activeSource === "promo") {
+                setActiveSource("all");
+            }
             currentPage = 1;
             applyFilters();
         }, 200);
@@ -1954,9 +2055,15 @@ function applyFilters() {
             filtered = filtered.filter(o => o.category === categoryShortcut);
         } else if (fuseIndex) {
             const precise = filtered.filter(o => matchesPreciseSearch(o, searchQuery));
-            const source = precise.length || STRICT_SEARCH_TERMS.has(searchQuery) ? precise : fuseIndex.search(searchQuery)
+            const fuseMatches = getFuseQueries(searchQuery).flatMap(q => fuseIndex.search(q)
                 .filter(r => r.score == null || r.score <= 0.18)
-                .map(r => r.item);
+                .map(r => r.item));
+            const candidates = precise.length || STRICT_SEARCH_TERMS.has(searchQuery)
+                ? precise
+                : [...precise, ...fuseMatches];
+            const source = STRICT_SEARCH_TERMS.has(searchQuery)
+                ? candidates.filter(o => matchesPreciseSearch(o, searchQuery))
+                : candidates;
             const matchedIds = new Set(source.map(item => getOfferDomId(item) || item.name));
             filtered = filtered.filter(o => matchedIds.has(getOfferDomId(o) || o.name));
         } else {
@@ -2014,6 +2121,8 @@ function applyFilters() {
     if (activeDiet !== "all") {
         filtered = filtered.filter(o => (o.diet_tags || []).includes(activeDiet));
     }
+
+    allSourceFilteredCount = filtered.length;
 
     if (activeSource === "promo") {
         filtered = filtered.filter(o => o.source_type === "promo");
@@ -2140,12 +2249,17 @@ function initStoreFilters() {
 function initSourceFilters() {
     document.querySelectorAll(".filter-btn[data-source]").forEach(btn => {
         btn.addEventListener("click", () => {
-            document.querySelectorAll(".filter-btn[data-source]").forEach(b => b.classList.remove("active"));
-            btn.classList.add("active");
-            activeSource = btn.dataset.source;
+            setActiveSource(btn.dataset.source);
             currentPage = 1;
             applyFilters();
         });
+    });
+}
+
+function setActiveSource(source) {
+    activeSource = source;
+    document.querySelectorAll(".filter-btn[data-source]").forEach(btn => {
+        btn.classList.toggle("active", btn.dataset.source === source);
     });
 }
 
@@ -2156,7 +2270,7 @@ function resetOfferFiltersForNavigation() {
     activeBreadType = "all";
     activeGrainType = "all";
     activeStore = "all";
-    activeSource = "all";
+    setActiveSource("all");
     activeSort = "recommended";
     searchQuery = "";
     currentPage = 1;
@@ -2172,9 +2286,6 @@ function resetOfferFiltersForNavigation() {
     });
     document.querySelectorAll(".filter-btn[data-store]").forEach(btn => {
         btn.classList.toggle("active", btn.dataset.store === "all");
-    });
-    document.querySelectorAll(".filter-btn[data-source]").forEach(btn => {
-        btn.classList.toggle("active", btn.dataset.source === "all");
     });
     document.querySelectorAll(".sort-btn[data-sort]").forEach(btn => {
         btn.classList.toggle("active", btn.dataset.sort === "recommended");
@@ -2557,6 +2668,29 @@ function gridOffsetTop() {
     return grid ? Math.max(grid.offsetTop - 90, 0) : 0;
 }
 
+function getAllProductsHintHtml(currentCount) {
+    if (activeSource !== "promo" || !searchQuery || allSourceFilteredCount <= currentCount) return "";
+    const t = window.I18N && window.I18N.t ? window.I18N.t.bind(window.I18N) : k => k;
+    const extra = allSourceFilteredCount - currentCount;
+    const text = t("sf.offers.more_all_products").replace("{count}", extra);
+    return `
+        <div class="offers-source-hint">
+            <span data-i18n="sf.offers.more_all_products">${text}</span>
+            <button class="filter-btn" type="button" data-show-all-products data-i18n="sf.offers.show_all_products">${t("sf.offers.show_all_products")}</button>
+        </div>
+    `;
+}
+
+function bindAllProductsHint(root) {
+    root.querySelectorAll("[data-show-all-products]").forEach(btn => {
+        btn.addEventListener("click", () => {
+            setActiveSource("all");
+            currentPage = 1;
+            applyFilters();
+        });
+    });
+}
+
 function renderOffers(offers) {
     const grid = document.getElementById("offers-grid");
     const pagination = document.getElementById("offers-pagination");
@@ -2566,10 +2700,12 @@ function renderOffers(offers) {
         const t = window.I18N && window.I18N.t ? window.I18N.t.bind(window.I18N) : k => k;
         grid.innerHTML = `
             <div class="offers-empty">
+                ${getAllProductsHintHtml(offers.length)}
                 <p data-i18n="sf.offers.empty">${t("sf.offers.empty")}</p>
                 <button class="filter-btn" type="button" data-reset-offers data-i18n="sf.offers.clear_filters">${t("sf.offers.clear_filters")}</button>
             </div>
         `;
+        bindAllProductsHint(grid);
         const resetBtn = grid.querySelector("[data-reset-offers]");
         if (resetBtn) {
             resetBtn.addEventListener("click", () => {
@@ -2586,7 +2722,7 @@ function renderOffers(offers) {
     const start = (currentPage - 1) * OFFERS_PER_PAGE;
     const visibleOffers = offers.filter(o => o.name && o.new_price != null).slice(start, start + OFFERS_PER_PAGE);
 
-    grid.innerHTML = visibleOffers.map(o => {
+    grid.innerHTML = getAllProductsHintHtml(offers.length) + visibleOffers.map(o => {
         const macros = getMacros(o);
         const healthyOffer = isHealthyOffer(o);
         const hasHealthScore = healthyOffer && o.health_score != null;
@@ -2689,6 +2825,7 @@ function renderOffers(offers) {
             </div>
         `;
     }).join("");
+    bindAllProductsHint(grid);
 
     renderPagination(offers.length, totalPages);
     initOfferAccordion();

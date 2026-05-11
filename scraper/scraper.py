@@ -1463,7 +1463,16 @@ def raw_items_to_store_result(raw_items: list[dict]) -> dict | None:
 def _content_hash(offers: list) -> str:
     """Stable hash of offer content for no-change detection (ignores timestamps)."""
     key = sorted(
-        (o.get("product_id", ""), o.get("store", ""), o.get("new_price", 0), o.get("valid_until", ""))
+        (
+            o.get("product_id", ""),
+            o.get("store", ""),
+            o.get("new_price", 0),
+            o.get("old_price"),
+            o.get("discount_pct"),
+            o.get("valid_from", ""),
+            o.get("valid_until", ""),
+            o.get("source_type", ""),
+        )
         for o in offers
     )
     return hashlib.md5(json.dumps(key).encode()).hexdigest()

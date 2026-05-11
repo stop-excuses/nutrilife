@@ -1794,6 +1794,23 @@ input[type="range"]::-moz-range-thumb {
     margin-top: 12px;
 }
 
+.offers-source-hint {
+    grid-column: 1 / -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    color: var(--muted);
+    font-size: 0.92rem;
+    text-align: center;
+    padding: 4px 0 10px;
+}
+
+.offers-source-hint .filter-btn {
+    margin: 0;
+}
+
 /* --- Offer Card (Accordion) --- */
 .offer-card {
     background: var(--bg-card-green);

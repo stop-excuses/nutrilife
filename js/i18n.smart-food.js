@@ -25,6 +25,8 @@
         'sf.offers.status.loading': 'Зареждане на данните...',
         'sf.offers.empty': 'Няма намерени продукти за тези филтри.',
         'sf.offers.clear_filters': 'Изчисти филтрите',
+        'sf.offers.more_all_products': 'Има още {count} продукта в „Всички продукти“.',
+        'sf.offers.show_all_products': 'Виж всички продукти',
         'sf.fav.h2': '🛒 Пазарен списък',
         'sf.fav.sub': 'Следи продукти и виж къде са на добра цена тази седмица',
         'sf.filter.promos': 'Промоции',
