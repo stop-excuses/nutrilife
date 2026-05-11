@@ -1,5 +1,5 @@
 const ALL_PRODUCTS_DATA = {
-  "generated_at": "2026-05-11T07:50:48.418881Z",
+  "generated_at": "2026-05-11T08:22:47.008025Z",
   "total_products": 14883,
   "products": [
     {
@@ -581505,7 +581505,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_00107280_P.jpg",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00107280_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-felix-pouch-храна-за-котки-различни-видове-320g",
       "last_seen": "2026-05-11",
       "first_seen": "2026-05-11",
