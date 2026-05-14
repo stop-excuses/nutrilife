@@ -9,16 +9,16 @@
         magnesium: 'Магнезий',
         vitamin_d: 'Витамин D3',
         vitamin_c: 'Витамин C',
-        vitamin_b: 'B-комплекс',
-        multivitamin: 'Мултивитамин',
+        vitamin_b: 'Витамини B',
+        multivitamin: 'Мултивитамини',
         zinc: 'Цинк',
         protein: 'Протеин',
         fiber: 'Фибри'
     };
     const confidenceLabels = {
-        high: 'висока',
-        medium: 'средна',
-        low: 'ниска'
+        high: 'ясен',
+        medium: 'приблизителен',
+        low: 'само ориентир'
     };
 
     let items = [];
@@ -79,7 +79,7 @@
         summary.innerHTML = `
             <div class="supplements-summary-item">
                 <strong>${items.length}</strong>
-                <span>сравними продукта</span>
+                <span>продукта с ясна сметка</span>
             </div>
             <div class="supplements-summary-item">
                 <strong>${stores}</strong>
@@ -87,11 +87,11 @@
             </div>
             <div class="supplements-summary-item">
                 <strong>${categories}</strong>
-                <span>категории</span>
+                <span>вида добавки</span>
             </div>
             <div class="supplements-summary-item">
                 <strong>${highConfidence}</strong>
-                <span>с висока увереност</span>
+                <span>с ясен етикет</span>
             </div>
         `;
     }
@@ -202,10 +202,10 @@
         if (!status) return;
         const generated = DATA.generated_at ? new Date(DATA.generated_at).toLocaleString('bg-BG') : 'неизвестно';
         status.innerHTML = `
-            <span><strong>${count}</strong> продукта в текущия изглед</span>
-            <span><strong>${items.length}</strong> общо</span>
-            <span><strong>${DATA.sources.length}</strong> източника</span>
-            <small>Последно генериране: ${escapeHtml(generated)}. Показват се само продукти, при които може да се сметне активна доза.</small>
+            <span><strong>${count}</strong> показани продукта</span>
+            <span>от <strong>${items.length}</strong> общо</span>
+            <span><strong>${DATA.sources.length}</strong> магазина</span>
+            <small>Обновено на ${escapeHtml(generated)}. Показваме само продукти, при които етикетът позволява честно сравнение.</small>
         `;
     }
 
@@ -217,8 +217,8 @@
         if (!filtered.length) {
             grid.innerHTML = `
                 <div class="offers-empty">
-                    <p>Няма продукти за тези филтри.</p>
-                    <button class="filter-btn" type="button" data-reset-supplements>Изчисти филтрите</button>
+                    <p>Няма резултати с тези избрани филтри.</p>
+                    <button class="filter-btn" type="button" data-reset-supplements>Покажи всичко отначало</button>
                 </div>
             `;
             const reset = grid.querySelector('[data-reset-supplements]');
@@ -238,7 +238,7 @@
 
     function renderCard(item) {
         const activeRows = Object.entries(item.active || {})
-            .map(([key, value]) => `<span>${formatActiveKey(key)}: <strong>${escapeHtml(formatValue(value))}</strong></span>`)
+            .map(([key, value]) => `<span>${formatActiveKey(key)}: <strong>${escapeHtml(formatValueWithUnit(key, value))}</strong></span>`)
             .join('');
         const image = item.image
             ? `<img src="${escapeAttr(item.image)}" alt="${escapeAttr(item.name)}" loading="lazy">`
@@ -256,16 +256,16 @@
                         <h3>${escapeHtml(item.name)}</h3>
                         <div class="supplement-price-row">
                             <strong>${formatMoney(item.unitValue)}</strong>
-                            <span>${escapeHtml(item.unit_label || '')}</span>
+                            <span>${escapeHtml(formatUnitLabel(item))}</span>
                         </div>
                         <div class="supplement-facts">
                             <span>Цена: <strong>${formatMoney(item.price_bgn)}</strong></span>
                             ${item.brand ? `<span>Марка: <strong>${escapeHtml(item.brand)}</strong></span>` : ''}
-                            ${item.servings ? `<span>Дози: <strong>${item.servings}</strong></span>` : ''}
-                            ${item.count ? `<span>Брой: <strong>${item.count}</strong></span>` : ''}
+                            ${item.servings ? `<span>Приеми: <strong>${item.servings}</strong></span>` : ''}
+                            ${item.count ? `<span>Брой в опаковка: <strong>${item.count}</strong></span>` : ''}
                         </div>
                         <div class="supplement-active">${activeRows}</div>
-                        <div class="supplement-confidence ${escapeAttr(item.confidence)}">Увереност: ${escapeHtml(confidenceLabels[item.confidence] || item.confidence)}</div>
+                        <div class="supplement-confidence ${escapeAttr(item.confidence)}">Етикет: ${escapeHtml(confidenceLabels[item.confidence] || item.confidence)}</div>
                     </div>
                 </a>
             </article>
@@ -311,7 +311,7 @@
             <a class="supplements-best-card" href="${escapeAttr(item.url)}" target="_blank" rel="noopener">
                 <span>${escapeHtml(categoryLabels[item.category] || item.category)}</span>
                 <strong>${formatMoney(item.unitValue)}</strong>
-                <small>${escapeHtml(item.unit_label || '')}</small>
+                <small>${escapeHtml(formatUnitLabel(item))}</small>
                 <em>${escapeHtml(item.name)}</em>
             </a>
         `).join('');
@@ -337,19 +337,53 @@
         return `${Number(value).toFixed(2)} лв`;
     }
 
-    function formatValue(value) {
-        return typeof value === 'number' ? String(value) : value;
+    function formatUnitLabel(item) {
+        const labels = {
+            bgn_per_5g_creatine: 'за 5 g креатин',
+            bgn_per_1000mg_epa_dha: 'за 1000 mg омега-3',
+            bgn_per_100mg_magnesium: 'за 100 mg магнезий',
+            bgn_per_1000iu_d3: 'за 1000 IU витамин D3',
+            bgn_per_1000mg_vitamin_c: 'за 1000 mg витамин C',
+            bgn_per_b_complex_serving: 'за 1 прием витамини B',
+            bgn_per_multivitamin_serving: 'за 1 прием мултивитамин',
+            bgn_per_15mg_zinc: 'за 15 mg цинк',
+            bgn_per_25g_protein: 'за 25 g протеин',
+            bgn_per_5g_fiber: 'за 5 g фибри'
+        };
+        return labels[item.unitKey] || item.unit_label || '';
     }
 
     function formatActiveKey(key) {
-        return key
-            .replaceAll('_mg_per_serving', ' mg/доза')
-            .replaceAll('_total_mg', ' общо mg')
-            .replaceAll('_mg', ' mg')
-            .replaceAll('_iu', ' IU')
-            .replaceAll('_g', ' g')
-            .replaceAll('_', ' ')
-            .toUpperCase();
+        const labels = {
+            creatine_mg_per_serving: 'креатин в доза',
+            creatine_total_mg: 'креатин общо',
+            epa_mg: 'EPA (омега-3)',
+            dha_mg: 'DHA (омега-3)',
+            epa_dha_mg: 'общо омега-3 (EPA + DHA)',
+            magnesium_mg: 'магнезий в доза',
+            vitamin_d_iu: 'витамин D3',
+            vitamin_c_mg: 'витамин C в доза',
+            b_complex_serving: '1 прием',
+            multivitamin_serving: '1 прием',
+            zinc_mg: 'цинк в доза',
+            protein_g: 'протеин в доза',
+            estimated_total_protein_g: 'протеин общо (оценка)',
+            estimated_protein_ratio_pct: 'приблизително протеин',
+            fiber_g: 'фибри в доза',
+            fiber_mg: 'фибри в доза',
+            package_weight_g: 'грамаж'
+        };
+        return labels[key] || key.replaceAll('_', ' ');
+    }
+
+    function formatValueWithUnit(key, value) {
+        const number = typeof value === 'number' ? value : Number(value);
+        const rendered = Number.isFinite(number) ? String(number) : String(value);
+        if (key.endsWith('_mg')) return `${rendered} mg`;
+        if (key.endsWith('_iu')) return `${rendered} IU`;
+        if (key.endsWith('_g')) return `${rendered} g`;
+        if (key.endsWith('_pct')) return `${rendered}%`;
+        return rendered;
     }
 
     function escapeHtml(value) {
