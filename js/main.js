@@ -17,6 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
     initTierSections();
     initInteractiveTierBoards();
     initDiagnosisQuiz();
+    initPageMotion();
     initScrollReveal();
 });
 
@@ -1298,6 +1299,146 @@ function initScrollReveal() {
         });
     }, { threshold: 0.12, rootMargin: "0px 0px -40px 0px" });
     els.forEach(el => io.observe(el));
+}
+
+function initPageMotion() {
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+
+    document.body.classList.add("motion-ready");
+    addMotionChrome();
+
+    document.querySelectorAll(".cards-grid, .excuse-grid, .accordion, .visual-story-grid, .stat-pills, .tracker, .week-chart").forEach(g => {
+        if (!g.hasAttribute("data-reveal-stagger") && !g.closest(".hero, .hero-index, .page-hero")) {
+            g.setAttribute("data-reveal-stagger", "");
+        }
+    });
+
+    const interactiveFrames = document.querySelectorAll(".hero-visual, .page-visual, .visual-break-frame");
+    if (interactiveFrames.length && !window.matchMedia("(pointer: coarse)").matches) {
+        interactiveFrames.forEach((frame) => {
+            frame.addEventListener("pointermove", (event) => {
+                const rect = frame.getBoundingClientRect();
+                const x = ((event.clientX - rect.left) / rect.width - 0.5) * 2;
+                const y = ((event.clientY - rect.top) / rect.height - 0.5) * 2;
+
+                frame.style.setProperty("--tilt-x", (-y * 3).toFixed(2) + "deg");
+                frame.style.setProperty("--tilt-y", (x * 4).toFixed(2) + "deg");
+                frame.style.setProperty("--pan-x", (-x * 10).toFixed(2) + "px");
+                frame.style.setProperty("--pan-y", (-y * 10).toFixed(2) + "px");
+            });
+
+            frame.addEventListener("pointerleave", () => {
+                frame.style.setProperty("--tilt-x", "0deg");
+                frame.style.setProperty("--tilt-y", "0deg");
+                frame.style.setProperty("--pan-x", "0px");
+                frame.style.setProperty("--pan-y", "0px");
+            });
+        });
+    }
+
+    document.querySelectorAll(".stat-card, .excuse-card, .accordion-item, .offer-card, .supplement-card, .meal-card, .bulk-card, .info-box").forEach((card) => {
+        card.addEventListener("pointermove", (event) => {
+            const rect = card.getBoundingClientRect();
+            const mx = ((event.clientX - rect.left) / rect.width * 100).toFixed(1) + "%";
+            const my = ((event.clientY - rect.top) / rect.height * 100).toFixed(1) + "%";
+            card.style.setProperty("--mx", mx);
+            card.style.setProperty("--my", my);
+        });
+    });
+}
+
+function addMotionChrome() {
+    if (!document.querySelector(".motion-progress")) {
+        const progress = document.createElement("div");
+        progress.className = "motion-progress";
+        progress.setAttribute("aria-hidden", "true");
+        document.body.appendChild(progress);
+
+        const updateProgress = () => {
+            const max = document.documentElement.scrollHeight - window.innerHeight;
+            const pct = max > 0 ? Math.min(1, window.scrollY / max) : 0;
+            progress.style.transform = "scaleX(" + pct.toFixed(4) + ")";
+        };
+        updateProgress();
+        window.addEventListener("scroll", updateProgress, { passive: true });
+        window.addEventListener("resize", updateProgress);
+    }
+
+    if (!window.matchMedia("(pointer: coarse)").matches && !document.querySelector(".motion-cursor")) {
+        const cursor = document.createElement("div");
+        cursor.className = "motion-cursor";
+        cursor.setAttribute("aria-hidden", "true");
+        document.body.appendChild(cursor);
+        window.addEventListener("pointermove", (event) => {
+            cursor.style.transform = "translate3d(" + event.clientX + "px," + event.clientY + "px,0)";
+        }, { passive: true });
+    }
+
+    if (document.querySelector(".motion-canvas")) return;
+
+    const canvas = document.createElement("canvas");
+    canvas.className = "motion-canvas";
+    canvas.setAttribute("aria-hidden", "true");
+    document.body.prepend(canvas);
+
+    const ctx = canvas.getContext("2d");
+    const particles = [];
+    let width = 0;
+    let height = 0;
+    let dpr = 1;
+
+    function resize() {
+        dpr = Math.min(window.devicePixelRatio || 1, 2);
+        width = window.innerWidth;
+        height = window.innerHeight;
+        canvas.width = Math.floor(width * dpr);
+        canvas.height = Math.floor(height * dpr);
+        canvas.style.width = width + "px";
+        canvas.style.height = height + "px";
+        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+
+        const target = window.innerWidth < 560 ? 28 : 64;
+        while (particles.length < target) particles.push(createParticle());
+        particles.length = target;
+    }
+
+    function createParticle() {
+        const colors = ["151,196,89", "226,75,74", "127,119,221", "186,117,23"];
+        return {
+            x: Math.random() * Math.max(width, 1),
+            y: Math.random() * Math.max(height, 1),
+            r: 1.2 + Math.random() * 3.8,
+            vx: -0.16 + Math.random() * 0.32,
+            vy: -0.12 + Math.random() * 0.24,
+            alpha: 0.08 + Math.random() * 0.18,
+            color: colors[Math.floor(Math.random() * colors.length)]
+        };
+    }
+
+    function draw() {
+        ctx.clearRect(0, 0, width, height);
+        particles.forEach((p) => {
+            p.x += p.vx;
+            p.y += p.vy;
+            if (p.x < -20) p.x = width + 20;
+            if (p.x > width + 20) p.x = -20;
+            if (p.y < -20) p.y = height + 20;
+            if (p.y > height + 20) p.y = -20;
+
+            const gradient = ctx.createRadialGradient(p.x, p.y, 0, p.x, p.y, p.r * 9);
+            gradient.addColorStop(0, "rgba(" + p.color + "," + p.alpha + ")");
+            gradient.addColorStop(1, "rgba(" + p.color + ",0)");
+            ctx.fillStyle = gradient;
+            ctx.beginPath();
+            ctx.arc(p.x, p.y, p.r * 9, 0, Math.PI * 2);
+            ctx.fill();
+        });
+        requestAnimationFrame(draw);
+    }
+
+    resize();
+    window.addEventListener("resize", resize);
+    requestAnimationFrame(draw);
 }
 
 // Protein slider (eat.html)
