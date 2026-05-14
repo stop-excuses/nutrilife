@@ -30,6 +30,27 @@ let liveFallbackByCategory = new Map(); // category → real CDN image URL
 const OFFERS_PER_PAGE = 36;
 const PLACEHOLDER_IMAGE_MARKER = "No-Image-Placeholder.svg";
 
+function getCatalogProductsData() {
+    if (typeof MARKET_MEMORY_DATA !== "undefined") return MARKET_MEMORY_DATA.products || [];
+    if (typeof ALL_PRODUCTS_DATA !== "undefined") return ALL_PRODUCTS_DATA.products || [];
+    return [];
+}
+
+function normalizePriceHistoryEntries(history) {
+    if (!Array.isArray(history)) return [];
+    return history.map(entry => {
+        if (Array.isArray(entry)) {
+            return {
+                date: entry[0],
+                price: entry[1],
+                old_price: entry[2],
+                discount_pct: entry[3],
+            };
+        }
+        return entry;
+    }).filter(entry => entry && entry.price != null);
+}
+
 const PROCESSED_MEAT_KEYWORDS = [
     "шунка", "кренвирш", "наденица", "салам", "луканка", "бекон", "шпек", "карначе", "суджук",
     "пастърма", "сушено месо", "jerky", "колбас", "хамбурски", "камчия", "вакуум тандем"
@@ -623,6 +644,7 @@ function normalizeOfferForUi(offer) {
 
     return {
         ...offer,
+        price_history: normalizePriceHistoryEntries(offer.price_history),
         category,
         is_food: isCuredLeanMeat ? true : (isNonEdible ? false : (offer.is_food ?? category !== "other")),
         is_junk: isNonEdible ? false : (offer.is_junk || isJunkByName),
@@ -1244,36 +1266,43 @@ async function loadOffers() {
         // Build product lookup from all_products if available.
         // Offers are enriched with persistent product metadata (image, macros, etc.)
         // Offer-specific fields (price, discount, valid_until) always take precedence.
+        const catalogProducts = getCatalogProductsData();
         const productMap = new Map();
-        if (typeof ALL_PRODUCTS_DATA !== 'undefined') {
-            for (const p of (ALL_PRODUCTS_DATA.products || [])) {
+        if (catalogProducts.length) {
+            for (const p of catalogProducts) {
                 if (p.product_id) productMap.set(p.product_id, p);
             }
 
-            allCatalogProducts = (ALL_PRODUCTS_DATA.products || []).map(product => {
+            allCatalogProducts = catalogProducts.map(product => {
+                const catalogPrice = product.new_price ?? product.avg_price ?? product.lowest_price ?? null;
                 const normalized = normalizeOfferForUi({
                     ...product,
-                    new_price: product.avg_price ?? product.lowest_price ?? null,
-                    new_price_eur: product.avg_price != null ? product.avg_price / 1.95583 : (product.lowest_price != null ? product.lowest_price / 1.95583 : null),
+                    new_price: catalogPrice,
+                    new_price_eur: product.new_price_eur ?? (catalogPrice != null ? catalogPrice / 1.95583 : null),
                     old_price: null,
                     old_price_eur: null,
                     discount_pct: null,
                     source_type: "catalog",
-                    available_stores: product.available_stores || [],
-                    store: (product.available_stores || [])[0] || null,
-                    price_per_kg: product.weight_grams && (product.avg_price ?? product.lowest_price)
-                        ? ((product.avg_price ?? product.lowest_price) / product.weight_grams) * 1000
-                        : null,
-                    price_per_kg_eur: product.weight_grams && (product.avg_price ?? product.lowest_price)
-                        ? ((((product.avg_price ?? product.lowest_price) / product.weight_grams) * 1000) / 1.95583)
-                        : null,
+                    available_stores: product.available_stores || (product.store ? [product.store] : []),
+                    store: product.store || (product.available_stores || [])[0] || null,
+                    price_per_kg: product.price_per_kg ?? (product.weight_grams && catalogPrice
+                        ? (catalogPrice / product.weight_grams) * 1000
+                        : null),
+                    price_per_kg_eur: product.price_per_kg_eur ?? (product.weight_grams && catalogPrice
+                        ? (((catalogPrice / product.weight_grams) * 1000) / 1.95583)
+                        : null),
                 });
                 normalized._profile = buildOfferProfile(normalized);
+                normalized._searchText = buildSearchText(normalized);
+                normalized._productKey = normalizeProductKey(normalized.name);
+                normalized._comparisonKey = getComparisonKey(normalized);
                 return normalized;
             });
         }
 
+        const currentProductIds = new Set();
         allOffers = (OFFERS_DATA.offers || []).map(o => {
+            if (o.product_id || o.id) currentProductIds.add(o.product_id || o.id);
             const product = productMap.get(o.product_id || o.id);
             const merged = product ? { ...product, ...o } : o;
             if (product && !hasExternalImage(o.image) && hasExternalImage(product.image)) {
@@ -1288,10 +1317,14 @@ async function loadOffers() {
                 _comparisonKey: getComparisonKey(normalized),
             };
         }).filter(isCurrentPromoOffer);
+        allOffers = allOffers.concat(allCatalogProducts.filter(product => {
+            const id = product.product_id || product.id;
+            return id && !currentProductIds.has(id);
+        }));
         // Cross-catalog image sharing: for offers without real images, find a
         // real photo of the same product type from the catalog.
         // Cross-catalog image sharing: builds maps used by getLocalFallbackImage().
-        if (typeof ALL_PRODUCTS_DATA !== 'undefined') {
+        if (catalogProducts.length) {
             liveFallbackByKeyword = new Map();
             liveFallbackByCategory = new Map();
 
@@ -1303,7 +1336,7 @@ async function loadOffers() {
 
             // Build inverted index: word → array of {image} for catalog products with real photos
             const wordIndex = new Map();
-            for (const p of (ALL_PRODUCTS_DATA.products || [])) {
+            for (const p of catalogProducts) {
                 if (!hasExternalImage(p.image)) continue;
                 const nameLower = (p.name || "").toLowerCase();
                 // Keyword-level fallback (kept for getLocalFallbackImage)

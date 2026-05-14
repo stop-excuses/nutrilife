@@ -1,4 +1,4 @@
-const CACHE_NAME = 'nutrilife-v1';
+const CACHE_NAME = 'nutrilife-v2';
 
 const SHELL_ASSETS = [
   '/nutrilife/',
@@ -21,7 +21,14 @@ const SHELL_ASSETS = [
 ];
 
 // Data files — always fetch fresh when online
-const DATA_PATHS = ['/data/offers.js', '/data/supplements.js', '/data/offers.json', '/data/supplements.json'];
+const DATA_PATHS = [
+  '/data/offers.js',
+  '/data/supplements.js',
+  '/data/market_memory.js',
+  '/data/offers.json',
+  '/data/supplements.json',
+  '/data/market_memory.json'
+];
 
 function isDataRequest(url) {
   return DATA_PATHS.some(p => url.pathname.includes(p));

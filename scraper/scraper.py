@@ -93,7 +93,7 @@ ENABLE_OFF_ENRICH = os.getenv("NUTRILIFE_OFF_ENRICH", "").lower() in {"1", "true
 
 # Fields that belong to the product (persistent metadata, not price-specific)
 _PRODUCT_FIELDS = (
-    "name", "emoji", "category", "weight_raw", "weight_grams", "shelf_life",
+    "name", "store", "emoji", "category", "weight_raw", "weight_grams", "shelf_life",
     "is_food", "is_healthy", "is_bulk_worthy", "is_long_lasting", "health_score",
     "diet_tags", "macros", "is_junk", "is_high_protein", "is_good_carb", "is_good_fat", "image",
 )
