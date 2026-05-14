@@ -744,7 +744,7 @@ section {
     z-index: -2;
     background:
         linear-gradient(90deg, rgba(10, 10, 10, 0.98), rgba(10, 10, 10, 0.82) 48%, rgba(10, 10, 10, 0.96)),
-        url("../images/index-food.jpg") center / cover no-repeat;
+        url("../images/index-food.svg") center / cover no-repeat;
     opacity: 0.46;
 }
 
@@ -1119,7 +1119,7 @@ section {
 [data-theme="light"] .gain-section::before {
     background:
         linear-gradient(90deg, rgba(245, 245, 240, 0.96), rgba(245, 245, 240, 0.78) 48%, rgba(245, 245, 240, 0.95)),
-        url("../images/index-food.jpg") center / cover no-repeat;
+        url("../images/index-food.svg") center / cover no-repeat;
     opacity: 0.64;
 }
 
@@ -4244,6 +4244,194 @@ body.fav-product-open {
 
 .fade-in {
     animation: fadeSlideIn 0.5s ease;
+}
+
+/* --- Scroll Reveal --- */
+[data-reveal] {
+    opacity: 0;
+    transform: translateY(32px);
+    transition: opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1),
+                transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+}
+[data-reveal="left"] {
+    transform: translateX(-40px);
+}
+[data-reveal="right"] {
+    transform: translateX(40px);
+}
+[data-reveal="scale"] {
+    transform: scale(0.92);
+}
+[data-reveal].revealed {
+    opacity: 1;
+    transform: none;
+}
+
+/* Stagger children */
+[data-reveal-stagger] > * {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.5s cubic-bezier(0.22, 1, 0.36, 1),
+                transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+}
+[data-reveal-stagger].revealed > *:nth-child(1) { transition-delay: 0s; }
+[data-reveal-stagger].revealed > *:nth-child(2) { transition-delay: 0.08s; }
+[data-reveal-stagger].revealed > *:nth-child(3) { transition-delay: 0.16s; }
+[data-reveal-stagger].revealed > *:nth-child(4) { transition-delay: 0.24s; }
+[data-reveal-stagger].revealed > *:nth-child(5) { transition-delay: 0.32s; }
+[data-reveal-stagger].revealed > *:nth-child(6) { transition-delay: 0.40s; }
+[data-reveal-stagger].revealed > * {
+    opacity: 1;
+    transform: none;
+}
+
+/* --- Floating Hero Cards --- */
+@keyframes floatY {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-8px); }
+}
+.hero-visual-card.top {
+    animation: floatY 4s ease-in-out infinite;
+}
+.hero-visual-card.bottom {
+    animation: floatY 4.5s ease-in-out 0.8s infinite;
+}
+
+/* --- Hero Gradient Pulse --- */
+@keyframes heroPulse {
+    0%, 100% { opacity: 0.16; }
+    50% { opacity: 0.28; }
+}
+.hero-index::before {
+    animation: heroPulse 6s ease-in-out infinite;
+}
+
+/* --- Card Hover Micro-interactions --- */
+.excuse-card,
+.stat-card,
+.first-step-panel,
+.visual-card,
+.info-box,
+.accordion-item {
+    transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1),
+                box-shadow 0.3s ease,
+                border-color 0.3s ease;
+}
+.excuse-card:hover,
+.stat-card:hover,
+.first-step-panel:hover,
+.visual-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.3);
+}
+.info-box:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+}
+
+/* --- Glowing Accent on Hero Proof --- */
+@keyframes glowPulse {
+    0%, 100% { box-shadow: 0 0 0 rgba(151, 196, 89, 0); }
+    50% { box-shadow: 0 0 20px rgba(151, 196, 89, 0.12); }
+}
+.hero-proof div {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.hero-proof div:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(151, 196, 89, 0.15);
+}
+
+/* --- Button Shine Effect --- */
+.btn-green {
+    position: relative;
+    overflow: hidden;
+}
+.btn-green::after {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -60%;
+    width: 40%;
+    height: 200%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.12), transparent);
+    transform: skewX(-20deg);
+    transition: left 0.6s ease;
+    pointer-events: none;
+}
+.btn-green:hover::after {
+    left: 120%;
+}
+
+/* --- Emoji Bounce on Excuse Cards --- */
+.excuse-card h3 {
+    transition: transform 0.3s ease;
+}
+.excuse-card:hover h3 {
+    transform: scale(1.03);
+}
+
+/* --- Dot Nav Pulse for Active --- */
+@keyframes dotPulse {
+    0%, 100% { box-shadow: 0 0 0 0 currentColor; }
+    50% { box-shadow: 0 0 0 5px transparent; }
+}
+.dot.active {
+    animation: dotPulse 2.5s ease-in-out infinite;
+}
+
+/* --- Visual Break Parallax Shimmer --- */
+@keyframes shimmer {
+    0% { background-position: -200% 0; }
+    100% { background-position: 200% 0; }
+}
+.visual-break-card span {
+    background: linear-gradient(90deg, var(--muted2), var(--green), var(--muted2));
+    background-size: 200% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shimmer 4s linear infinite;
+}
+
+/* --- Hero Kicker Glow --- */
+@keyframes kickerGlow {
+    0%, 100% { border-color: rgba(151, 196, 89, 0.28); box-shadow: 0 0 0 rgba(151, 196, 89, 0); }
+    50% { border-color: rgba(151, 196, 89, 0.5); box-shadow: 0 0 16px rgba(151, 196, 89, 0.1); }
+}
+.hero-kicker {
+    animation: kickerGlow 3s ease-in-out infinite;
+}
+
+/* --- Smooth Section Dividers --- */
+section + section::before {
+    content: "";
+    display: block;
+    height: 1px;
+    margin: 0 auto 48px;
+    max-width: 200px;
+    background: linear-gradient(90deg, transparent, var(--surface-border), transparent);
+}
+
+/* Reduce motion for accessibility */
+@media (prefers-reduced-motion: reduce) {
+    [data-reveal],
+    [data-reveal-stagger] > * {
+        opacity: 1;
+        transform: none;
+        transition: none;
+    }
+    .hero-visual-card.top,
+    .hero-visual-card.bottom,
+    .hero-index::before,
+    .hero-kicker,
+    .dot.active,
+    .visual-break-card span {
+        animation: none;
+    }
+    .btn-green::after {
+        display: none;
+    }
 }
 
 /* --- Utility --- */

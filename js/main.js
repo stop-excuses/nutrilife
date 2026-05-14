@@ -17,6 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
     initTierSections();
     initInteractiveTierBoards();
     initDiagnosisQuiz();
+    initScrollReveal();
 });
 
 const TIER_PRODUCT_IMAGES = {
@@ -1265,6 +1266,38 @@ function renderQuizResult(scores) {
             scores: scores, priority: priority, total: total, date: new Date().toISOString()
         }));
     } catch (e) { /* storage disabled */ }
+}
+
+/* --- Scroll Reveal --- */
+function initScrollReveal() {
+    // Auto-tag sections that aren't the hero (hero is always visible)
+    document.querySelectorAll("section:not(.hero):not(.hero-index):not(.page-hero)").forEach(s => {
+        if (!s.hasAttribute("data-reveal") && !s.hasAttribute("data-reveal-stagger")) {
+            s.setAttribute("data-reveal", "");
+        }
+    });
+    // Auto-tag grids for stagger effect
+    document.querySelectorAll(".cards-grid, .excuse-grid, .accordion, .visual-story-grid").forEach(g => {
+        if (!g.hasAttribute("data-reveal-stagger")) {
+            g.setAttribute("data-reveal-stagger", "");
+        }
+    });
+
+    const els = document.querySelectorAll("[data-reveal],[data-reveal-stagger]");
+    if (!els.length) return;
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+        els.forEach(el => el.classList.add("revealed"));
+        return;
+    }
+    const io = new IntersectionObserver((entries) => {
+        entries.forEach(e => {
+            if (e.isIntersecting) {
+                e.target.classList.add("revealed");
+                io.unobserve(e.target);
+            }
+        });
+    }, { threshold: 0.12, rootMargin: "0px 0px -40px 0px" });
+    els.forEach(el => io.observe(el));
 }
 
 // Protein slider (eat.html)
