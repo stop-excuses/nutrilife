@@ -1,0 +1,18 @@
+{
+  "name": "NutriLife — Все още имаш контрол",
+  "short_name": "NutriLife",
+  "description": "Не е за диети и фитнес. За това как спираш бавното влошаване — с малки неща, правени редовно.",
+  "start_url": "/nutrilife/",
+  "scope": "/nutrilife/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#3B6D11",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

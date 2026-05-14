@@ -3214,6 +3214,13 @@ body.fav-product-open {
     color: var(--red);
 }
 
+.supplement-warning {
+    margin-top: 8px;
+    color: var(--muted);
+    font-size: 0.74rem;
+    line-height: 1.35;
+}
+
 .supplements-best-card {
     display: flex;
     min-height: 160px;

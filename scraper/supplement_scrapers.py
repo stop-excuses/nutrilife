@@ -328,6 +328,32 @@ def parse_servings(text: str) -> int | None:
     return None
 
 
+def extract_product_detail_text(soup: BeautifulSoup) -> str:
+    selectors = (
+        ".product-information",
+        ".product-description",
+        ".product-specification",
+        ".product-info",
+        ".product-tabs",
+        ".tab-content",
+        "#description",
+        "#section-1",
+        "#section-2",
+        "table",
+        "article",
+    )
+    chunks = []
+    seen = set()
+    for selector in selectors:
+        for node in soup.select(selector):
+            text = normalize_text(node.get_text(" ", strip=True))
+            if len(text) < 20 or text in seen:
+                continue
+            seen.add(text)
+            chunks.append(text)
+    return normalize_text(" ".join(chunks))
+
+
 def extract_active(category: str, text: str, weight_grams: float | None, servings: int | None, count: int | None) -> tuple[dict, dict, str]:
     active: dict = {}
     price_units: dict = {}
@@ -405,10 +431,10 @@ def extract_active(category: str, text: str, weight_grams: float | None, serving
         return active, price_units, confidence
 
     if category == "protein":
-        protein_g = extract_named_g(text, ("протеин", "protein", "белтъчини"))
+        protein_g = extract_protein_g_per_serving(text, parse_serving_grams(text))
         if protein_g and 5 <= protein_g <= 50:
             active["protein_g"] = protein_g
-            confidence = "medium"
+            confidence = "high"
         elif weight_grams and weight_grams >= 300:
             ratio = estimate_protein_ratio(text)
             if ratio:
@@ -441,6 +467,64 @@ def parse_serving_grams(text: str) -> float | None:
         if match:
             return parse_number(match.group(1))
     return None
+
+
+def extract_protein_g_per_serving(text: str, serving_grams: float | None) -> float | None:
+    values = []
+    names = ("протеин", "protein", "белтъчини", "белтъци")
+    units = r"(?:гр|g|г)"
+    for name in names:
+        escaped = re.escape(name)
+        patterns = (
+            rf"{escaped}\s*(?:на\s+доза|per\s+serving|/\s*serving)?[^\d]{{0,35}}(\d{{1,2}}(?:[,.]\d+)?)\s*{units}\b",
+            rf"(\d{{1,2}}(?:[,.]\d+)?)\s*{units}\s*(?:{escaped})\b",
+        )
+        for pattern in patterns:
+            for match in re.finditer(pattern, text, re.I):
+                amount = parse_number(match.group(1))
+                context = match.group(0).lower()
+                if (
+                    amount
+                    and 8 <= amount <= 45
+                    and not is_serving_size_context(context, name, amount, serving_grams)
+                ):
+                    values.append(amount)
+
+    per_100g = extract_protein_g_per_100g(text)
+    if per_100g and serving_grams and 10 <= serving_grams <= 60:
+        values.append(round(serving_grams * per_100g / 100, 2))
+
+    if not values:
+        return None
+    return round(max(values), 2)
+
+
+def is_serving_size_context(context: str, nutrient_name: str, amount: float, serving_grams: float | None) -> bool:
+    if nutrient_name in {"белтъчини", "белтъци"}:
+        return False
+    if any(token in context for token in ("дозировка", "една доза", "serving size", "тип продукт")):
+        return True
+    if serving_grams and abs(amount - serving_grams) < 0.01 and not any(token in context for token in ("per serving", "на доза")):
+        return True
+    return False
+
+
+def extract_protein_g_per_100g(text: str) -> float | None:
+    values = []
+    names = ("протеин", "protein", "белтъчини", "белтъци")
+    units = r"(?:гр|g|г)"
+    for name in names:
+        escaped = re.escape(name)
+        patterns = (
+            rf"{escaped}[^\d]{{0,45}}(\d{{2}}(?:[,.]\d+)?)\s*{units}[^\n]{{0,80}}(?:100\s*{units}|на\s+100)",
+            rf"(?:100\s*{units}|на\s+100)[^\n]{{0,80}}{escaped}[^\d]{{0,45}}(\d{{2}}(?:[,.]\d+)?)\s*{units}",
+        )
+        for pattern in patterns:
+            for match in re.finditer(pattern, text, re.I):
+                amount = parse_number(match.group(1))
+                if amount and 45 <= amount <= 95:
+                    values.append(amount)
+    return round(max(values), 2) if values else None
 
 
 def extract_total_mg_from_pack_text(text: str, names: tuple[str, ...]) -> int | None:
@@ -634,6 +718,7 @@ def parse_product(source: Source, url: str, forced_category: str | None = None) 
     soup = BeautifulSoup(html, "html.parser")
     product = find_product_json(load_json_ld(soup))
     text = normalize_text(soup.get_text(" ", strip=True))
+    detail_text = extract_product_detail_text(soup)
     name = normalize_text(product.get("name") or (soup.title.get_text(" ", strip=True) if soup.title else ""))
     if not name:
         return None
@@ -657,7 +742,8 @@ def parse_product(source: Source, url: str, forced_category: str | None = None) 
     weight_grams = parse_weight_grams(f"{name} {text}")
     servings = parse_servings(text)
     count = parse_count(name) or parse_count(f"{name} {text}")
-    active, _, confidence = extract_active(category, text, weight_grams, servings, count)
+    active_text = normalize_text(f"{name} {detail_text or text} {text[:5000]}")
+    active, _, confidence = extract_active(category, active_text, weight_grams, servings, count)
     price_units = calculate_price_units(category, price_bgn, active, weight_grams, servings, count)
 
     if not price_bgn or not price_units:

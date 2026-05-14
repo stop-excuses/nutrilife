@@ -16,8 +16,8 @@
         fiber: 'Фибри'
     };
     const confidenceLabels = {
-        high: 'ясен',
-        medium: 'приблизителен',
+        high: 'реален етикет',
+        medium: 'частична сметка',
         low: 'само ориентир'
     };
 
@@ -190,6 +190,9 @@
             if (filters.sort === 'confidence') {
                 return (confidenceScore[b.confidence] || 0) - (confidenceScore[a.confidence] || 0) || a.unitValue - b.unitValue;
             }
+            if (filters.sort === 'unit' && filters.category === 'protein') {
+                return (confidenceScore[b.confidence] || 0) - (confidenceScore[a.confidence] || 0) || a.unitValue - b.unitValue;
+            }
             if (filters.sort === 'store') {
                 return a.store.localeCompare(b.store, 'bg') || a.category.localeCompare(b.category, 'bg') || a.unitValue - b.unitValue;
             }
@@ -266,10 +269,16 @@
                         </div>
                         <div class="supplement-active">${activeRows}</div>
                         <div class="supplement-confidence ${escapeAttr(item.confidence)}">Етикет: ${escapeHtml(confidenceLabels[item.confidence] || item.confidence)}</div>
+                        ${renderProteinWarning(item)}
                     </div>
                 </a>
             </article>
         `;
+    }
+
+    function renderProteinWarning(item) {
+        if (item.category !== 'protein' || item.confidence !== 'low') return '';
+        return '<div class="supplement-warning">При този протеин няма ясни грамове белтъчини от етикета. Сметката е ориентир.</div>';
     }
 
     function renderPagination(total, totalPages) {
@@ -303,7 +312,7 @@
         if (!container) return;
         const best = Object.values(items.reduce((acc, item) => {
             const current = acc[item.category];
-            if (!current || item.unitValue < current.unitValue) acc[item.category] = item;
+            if (!current || compareBestCandidate(item, current) < 0) acc[item.category] = item;
             return acc;
         }, {})).sort((a, b) => a.category.localeCompare(b.category, 'bg'));
 
@@ -315,6 +324,15 @@
                 <em>${escapeHtml(item.name)}</em>
             </a>
         `).join('');
+    }
+
+    function compareBestCandidate(a, b) {
+        const confidenceScore = { high: 3, medium: 2, low: 1 };
+        if (a.category === 'protein') {
+            const confidenceDiff = (confidenceScore[b.confidence] || 0) - (confidenceScore[a.confidence] || 0);
+            if (confidenceDiff !== 0) return confidenceDiff;
+        }
+        return a.unitValue - b.unitValue;
     }
 
     function resetFilters() {
