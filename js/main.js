@@ -541,11 +541,11 @@ function initBmiCalculator() {
 
         const stairsField = document.createElement("label");
         stairsField.className = "bmi-field";
-        stairsField.innerHTML = `${buildFieldLabel("Стълби / brisk walk", "Направи кратък test с една стълба или 3-5 минути бързо ходене. Трябва да можеш да говориш, но не и да пееш. Ако не можеш да кажеш цяло изречение или те удря твърде много, аеробната ти база е слаба.")}<select id="bmi-stairs"><option value="easy">Ок съм</option><option value="winded">Задъхвам се</option><option value="hard">Много ме бие</option></select>`;
+        stairsField.innerHTML = `${buildFieldLabel("Стълби / бързо ходене", "Направи кратък тест с една стълба или 3-5 минути бързо ходене. Трябва да можеш да говориш, но не и да пееш. Ако не можеш да кажеш цяло изречение или те удря твърде много, издръжливостта ти е слаба.")}<select id="bmi-stairs"><option value="easy">Ок съм</option><option value="winded">Задъхвам се</option><option value="hard">Много ме бие</option></select>`;
 
         const tugField = document.createElement("label");
         tugField.className = "bmi-field";
-        tugField.innerHTML = `${buildFieldLabel("TUG тест", "Седни на стол, отбележи 3 метра пред себе си, пусни таймер, стани, отиди до маркера, обърни се, върни се и седни пак. Избери диапазона, в който попада времето ти.")}<select id="bmi-tug"><option value="skip">Не съм го правил</option><option value="good">Под 10 сек</option><option value="mid">10-12 сек</option><option value="poor">12+ сек / нестабилно</option></select>`;
+        tugField.innerHTML = `${buildFieldLabel("Стани, мини 3 метра и седни", "Седни на стол, отбележи 3 метра пред себе си, пусни таймер, стани, отиди до маркера, обърни се, върни се и седни пак. Избери диапазона, в който попада времето ти.")}<select id="bmi-tug"><option value="skip">Не съм го правил</option><option value="good">Под 10 сек</option><option value="mid">10-12 сек</option><option value="poor">12+ сек / нестабилно</option></select>`;
 
         calcGrid.prepend(sexField);
         calcGrid.prepend(ageField);
@@ -677,7 +677,7 @@ function initBmiCalculator() {
                     <div class="info-box purple" style="margin:0;">
                         <h3>Под 18: това вече е сигнал, не „ще го израсте“</h3>
                         <p style="margin-top:8px;">При деца и тийнейджъри това не е диагноза. Но ако има корем, задух, ниско движение и лош сън, проблемът вече започва рано.</p>
-                        <ul style="margin-top:10px; padding-left:18px; line-height:1.7;">${childSignals || "<li>на този етап няма силни warning сигнали</li>"}</ul>
+                        <ul style="margin-top:10px; padding-left:18px; line-height:1.7;">${childSignals || "<li>на този етап няма силни предупредителни сигнали</li>"}</ul>
                     </div>
                 </div>
                 <div class="stat-pills mt-16">
@@ -708,7 +708,7 @@ function initBmiCalculator() {
                 issues.push(`талия / ръст ${waistToHeight.toFixed(2)} = висок коремен риск`);
             } else if (waistToHeight >= 0.5 || waistCm >= waistBorderline) {
                 profiles.metabolic += 2;
-                issues.push(`талия / ръст ${waistToHeight.toFixed(2)} = warning`);
+                issues.push(`талия / ръст ${waistToHeight.toFixed(2)} = предупредителен сигнал`);
             }
         }
 
@@ -769,7 +769,7 @@ function initBmiCalculator() {
             profiles.recovery += 2;
             profiles.metabolic += 1;
             issues.push("ежедневното пушене вече е силен риск");
-            recommendations.push("спирането на цигарите е high priority, не странична цел");
+            recommendations.push("спирането на цигарите е първа задача, не странична цел");
         }
 
         if (alcohol === "weekly") {
@@ -794,7 +794,7 @@ function initBmiCalculator() {
         } else if (chairCategory === "poor") {
             profiles.fitness += 3;
             issues.push("стол тестът е слаб: под 10 повторения");
-            recommendations.push("прави sit-to-stand, клек до стол и calf raises 2-3 пъти седмично");
+            recommendations.push("прави ставане от стол, клек до стол и повдигане на пръсти 2-3 пъти седмично");
         }
 
         if (balanceCategory === "mid") {
@@ -803,7 +803,7 @@ function initBmiCalculator() {
         } else if (balanceCategory === "poor") {
             profiles.fitness += 3;
             issues.push("балансът е слаб: под 10 сек");
-            recommendations.push("добави баланс на един крак или tandem stance всеки ден");
+            recommendations.push("добави стоене на един крак или стойка с крак пред крак всеки ден");
         }
 
         if (stairs === "winded") {
@@ -822,12 +822,12 @@ function initBmiCalculator() {
         if (tugCategory === "mid") {
             profiles.fitness += 2;
             profiles.cardio += 1;
-            issues.push("TUG е среден: 10-12 сек");
+            issues.push("тестът с 3 метра е среден: 10-12 сек");
         } else if (tugCategory === "poor") {
             profiles.fitness += 4;
             profiles.cardio += 1;
-            issues.push("TUG е слаб: 12+ сек");
-            recommendations.push("тренирай ставане от стол, ходене, step-up и баланс");
+            issues.push("тестът с 3 метра е слаб: 12+ сек");
+            recommendations.push("тренирай ставане от стол, ходене, качване на ниско стъпало и баланс");
         }
 
         if (pressure === "elevated") {
@@ -868,7 +868,7 @@ function initBmiCalculator() {
 
         let statusClass = "green";
         let statusTitle = "Нисък проблем засега";
-        let message = "Нямаш силен warning профил в този скрининг. Това не значи „перфектно здраве“, а че още имаш база.";
+        let message = "Нямаш силен предупредителен профил в тази проверка. Това не значи „перфектно здраве“, а че още имаш база.";
 
         const profileMeta = {
             metabolic: {
@@ -889,7 +889,7 @@ function initBmiCalculator() {
             cardio: {
                 className: "red",
                 title: "Кардио и ежедневна функция изостават",
-                message: "Ниските крачки, задухът, кръвното или слабият TUG подсказват, че капацитетът ти за ежедневно движение пада по-бързо, отколкото трябва."
+                message: "Ниските крачки, задухът, кръвното или слабият тест с 3 метра подсказват, че способността ти за ежедневно движение пада по-бързо, отколкото трябва."
             },
             smoking: {
                 className: "red",
@@ -952,20 +952,20 @@ function initBmiCalculator() {
 
         let movementPlan = "Пази 150+ минути движение седмично и 2 силови дни.";
         if (profiles.fitness >= 4 || profiles.cardio >= 4) {
-            movementPlan = "Първо: ходене 20-30 мин в 5 дни, sit-to-stand, step-up и баланс. После вкарай 2 силови дни.";
+            movementPlan = "Първо: ходене 20-30 мин в 5 дни, ставане от стол, качване на ниско стъпало и баланс. После вкарай 2 силови дни.";
         } else if (profiles.metabolic >= 4) {
             movementPlan = "Първо: вдигни крачките, свали ежедневните захари и пази талията под 1/2 от ръста.";
         }
 
         const statusInfo = {
-            metabolic: "Това е warning, защото комбинацията от талия, тегло, ниско движение и навици често върви с по-лоша захар, кръвно и сън. Тоест проблемът е метаболитен, не само визуален.",
-            fitness: "Това е warning, защото слабите chair stand, баланс или TUG показват нисък мускулен резерв и по-слаба функция в ежедневни неща като ставане, стълби и дълго ходене.",
-            recovery: "Това е warning, защото лошият сън и навици пречат на апетита, енергията, кръвната захар и възстановяването. Ако това падне, останалите навици също падат.",
-            cardio: "Това е warning, защото ниските крачки, задухът и по-слабият TUG показват, че аеробната база и ежедневната функция вече изостават.",
-            smoking: "Това е warning, защото тук пушенето е по-силният рисков фактор от почти всичко друго в скрининга и удря съдове, сърце и кондиция.",
-            alcohol: "Това е warning, защото алкохолът вече се отразява на съня, апетита, възстановяването и контрола върху навиците.",
+            metabolic: "Това е предупредителен сигнал, защото комбинацията от талия, тегло, ниско движение и навици често върви с по-лоша захар, кръвно и сън. Тоест проблемът е в начина, по който тялото обработва енергията, не само във външния вид.",
+            fitness: "Това е предупредителен сигнал, защото слабият стол тест, баланс или тест с 3 метра показват нисък мускулен резерв и по-слаба функция в ежедневни неща като ставане, стълби и дълго ходене.",
+            recovery: "Това е предупредителен сигнал, защото лошият сън и навици пречат на апетита, енергията, кръвната захар и възстановяването. Ако това падне, останалите навици също падат.",
+            cardio: "Това е предупредителен сигнал, защото ниските крачки, задухът и по-слабият тест с 3 метра показват, че издръжливостта и ежедневната функция вече изостават.",
+            smoking: "Това е предупредителен сигнал, защото тук пушенето е по-силният рисков фактор от почти всичко друго в проверката и удря съдове, сърце и кондиция.",
+            alcohol: "Това е предупредителен сигнал, защото алкохолът вече се отразява на съня, апетита, възстановяването и контрола върху навиците.",
             underweight: "Това не е автоматично 'добре', защото ниското тегло често значи нисък мускулен резерв и по-слаба сила, особено ако не тренираш.",
-            low: "Добре е, защото засега не се вижда силен warning профил. Това не значи идеално здраве, а че още имаш база и е по-лесно да пазиш нещата добри."
+            low: "Добре е, защото засега не се вижда силен предупредителен профил. Това не значи идеално здраве, а че още имаш база и е по-лесно да пазиш нещата добри."
         };
 
         const issueInfo = "Това са главните сигнали, по които скринингът преценява, че вече има проблемна посока. Не са диагноза, а ориентир какво вече личи.";
@@ -981,7 +981,7 @@ function initBmiCalculator() {
             ? "Баланс: застани с единия крак точно пред другия. Ако не можеш да стоиш 10 секунди без да мръднеш или да се хванеш, балансът е слаб."
             : "Баланс: стой на един крак до стена. Под 10 секунди е слаб резултат, 10-19 е средно, 20+ е добра база.";
 
-        const tugGuide = "TUG: ставаш от стол, минаваш 3 метра, връщаш се и сядаш. Под 10 секунди е добра база, 10-12 е средно, 12+ или нестабилност е warning.";
+        const tugGuide = "Тест с 3 метра: ставаш от стол, минаваш 3 метра, връщаш се и сядаш. Под 10 секунди е добра база, 10-12 е средно, 12+ или нестабилност е предупредителен сигнал.";
         const stepsGuide = "Крачки: под 4000 = много ниска база; 4000-6999 = средно; 7000-9000 = добра база за повечето; 9000+ = много добре.";
         const chairResultText = chairCategory === "skip" ? "не е въведен" : chairCategory === "good" ? "15+ повторения (добре)" : chairCategory === "mid" ? "10-14 повторения (средно)" : "под 10 повторения (зле)";
         const balanceResultText = balanceCategory === "skip" ? "не е въведен" : balanceCategory === "good" ? "20+ сек / стабилно (добре)" : balanceCategory === "mid" ? "10-19 сек / трудно (средно)" : "под 10 сек / нестабилно (зле)";
@@ -1007,12 +1007,12 @@ function initBmiCalculator() {
                 <div class="info-box ${statusClass}" style="margin:0;">
                     <div class="info-heading-row"><h3>${statusTitle}</h3>${buildInfoButton(statusTitle, statusInfo[topKey] || statusInfo.low)}</div>
                     <p style="margin-top:8px;">${message}</p>
-                    <p style="margin-top:10px;"><strong>За твоя ръст:</strong> под <span class="amber">${underweightMax.toFixed(0)} кг</span> е underweight, <span class="green">${underweightMax.toFixed(0)}–${normalMax.toFixed(0)} кг</span> е базова зона, <span class="amber">${normalMax.toFixed(0)}–${overweightMax.toFixed(0)} кг</span> е warning, <span class="red">${overweightMax.toFixed(0)}+ кг</span> е затлъстяване.</p>
+                    <p style="margin-top:10px;"><strong>За твоя ръст:</strong> под <span class="amber">${underweightMax.toFixed(0)} кг</span> е твърде ниско тегло, <span class="green">${underweightMax.toFixed(0)}–${normalMax.toFixed(0)} кг</span> е базова зона, <span class="amber">${normalMax.toFixed(0)}–${overweightMax.toFixed(0)} кг</span> е предупредителна зона, <span class="red">${overweightMax.toFixed(0)}+ кг</span> е затлъстяване.</p>
                 </div>
             </div>
             <div class="info-box mt-16" style="margin-bottom:0;">
                 <div class="info-heading-row"><h3>Твоят фокус тази седмица</h3>${buildInfoButton("Какво показва", issueInfo)}</div>
-                <ul style="margin-top:10px; padding-left:18px; line-height:1.7;">${issueList || "<li>Нямаш силни warning сигнали в този скрининг.</li>"}</ul>
+                <ul style="margin-top:10px; padding-left:18px; line-height:1.7;">${issueList || "<li>Нямаш силни предупредителни сигнали в тази проверка.</li>"}</ul>
                 <ul style="margin-top:10px; padding-left:18px; line-height:1.7;">${recommendationList || "<li>Пази движението, съня и талията под контрол.</li><li>Не чакай проблемът да стане видим и в кръвните изследвания.</li>"}</ul>
                 <p style="margin-top:10px;"><strong>Тренировъчен ориентир:</strong> ${movementPlan}</p>
                 <a class="btn btn-green" href="${followup.link}" style="margin-top:14px; display:inline-block;">${followup.label} →</a>
@@ -1025,7 +1025,7 @@ function initBmiCalculator() {
                 <div class="info-heading-row"><h3>Бърз ориентир</h3>${buildInfoButton("Домашни тестове", testsInfo)}</div>
                 <p style="margin-top:8px;"><strong>Стол тест:</strong> ${chairResultText}. ${chairGuide}</p>
                 <p style="margin-top:10px;"><strong>Баланс:</strong> ${balanceResultText}. ${balanceGuide}</p>
-                <p style="margin-top:10px;"><strong>TUG:</strong> ${tugResultText}. ${tugGuide}</p>
+                <p style="margin-top:10px;"><strong>Тест с 3 метра:</strong> ${tugResultText}. ${tugGuide}</p>
                 <p style="margin-top:10px;"><strong>Крачки:</strong> ${stepsGuide}</p>
             </div>
             <div class="stat-pills mt-16">
