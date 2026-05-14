@@ -1,8 +1,8 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-05-14T08:25:31.902457Z",
-  "content_hash": "d3a9e7b422a705a53ea9f433d349f239",
-  "total_offers": 8848,
-  "promo_offers": 1936,
+  "generated_at": "2026-05-14T10:14:46.631355Z",
+  "content_hash": "374360cb4125f5decbdc882d68fbd1bf",
+  "total_offers": 8844,
+  "promo_offers": 1932,
   "assortment_offers": 6912,
   "stores": [
     "Billa",
@@ -8962,38 +8962,6 @@ const OFFERS_DATA = {
       "best_price": 1.94,
       "comparison_count": 2,
       "product_id": "fantastico-пюре-био-bionino-овесена-каша-с-мляко-190-гр-4-м-190g"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 1.99,
-      "new_price_eur": 1.02,
-      "old_price": 2.99,
-      "old_price_eur": 1.53,
-      "discount_pct": 33,
-      "valid_from": "2026-05-11",
-      "valid_until": "2026-05-17",
-      "price_per_kg": 4.98,
-      "price_per_kg_eur": 2.55,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 1.99,
-          "price_eur": 1.02,
-          "old_price": 2.99,
-          "old_price_eur": 1.53,
-          "discount_pct": 33,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 1.99,
-      "comparison_count": 1,
-      "product_id": "kaufland-целина-стъбла-400g"
     },
     {
       "store": "Fantastico",
@@ -19733,8 +19701,8 @@ const OFFERS_DATA = {
       "discount_pct": 26,
       "valid_from": "2026-05-11",
       "valid_until": "2026-05-17",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 6.69,
+      "price_per_kg_eur": 3.42,
       "source_type": "promo",
       "available_stores": [
         "Kaufland"
@@ -19753,7 +19721,7 @@ const OFFERS_DATA = {
       "best_price_store": "Kaufland",
       "best_price": 6.69,
       "comparison_count": 1,
-      "product_id": "kaufland-червено-грозде-ред-глоуб"
+      "product_id": "kaufland-червено-грозде-розе-кг"
     },
     {
       "store": "Kaufland",
@@ -41320,38 +41288,6 @@ const OFFERS_DATA = {
       "best_price": 3.48,
       "comparison_count": 1,
       "product_id": "kaufland-liv-bo-калъф-за-съхранение-120-х-15-х-50-см"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 3.48,
-      "new_price_eur": 1.78,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-05-11",
-      "valid_until": "2026-05-17",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 3.48,
-          "price_eur": 1.78,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 3.48,
-      "comparison_count": 1,
-      "product_id": "kaufland-хамедорея-ø6-см"
     },
     {
       "store": "Dar",
@@ -81931,38 +81867,6 @@ const OFFERS_DATA = {
       "best_price_store": "Kaufland",
       "best_price": 2.99,
       "comparison_count": 1,
-      "product_id": "kaufland-минирастение-различни-видове"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 2.99,
-      "new_price_eur": 1.53,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-05-11",
-      "valid_until": "2026-05-17",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 2.99,
-          "price_eur": 1.53,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 2.99,
-      "comparison_count": 1,
       "product_id": "kaufland-минихризантема"
     },
     {
@@ -101052,38 +100956,6 @@ const OFFERS_DATA = {
       "best_price": 5.98,
       "comparison_count": 1,
       "product_id": "kaufland-минисансевиера-ø6-см"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 5.98,
-      "new_price_eur": 3.06,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-05-11",
-      "valid_until": "2026-05-17",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 5.98,
-          "price_eur": 3.06,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 5.98,
-      "comparison_count": 1,
-      "product_id": "kaufland-хризантема-ø12-см"
     },
     {
       "store": "Kaufland",

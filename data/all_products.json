@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-14T08:25:31.313989Z",
-  "total_products": 15121,
+  "generated_at": "2026-05-14T10:14:46.041871Z",
+  "total_products": 15122,
   "products": [
     {
       "name": "Пушена риба тон",
@@ -606347,6 +606347,49 @@
       "lowest_price": 34.99,
       "lowest_price_date": "2026-05-14",
       "avg_price": 34.99
+    },
+    {
+      "name": "Червено грозде розе кг",
+      "emoji": "🥦",
+      "category": "vegetable",
+      "weight_raw": "на кг",
+      "weight_grams": null,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 7,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 69,
+        "p": 0.7,
+        "f": 0.2,
+        "c": 18
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/2830410000000_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-червено-грозде-розе-кг",
+      "last_seen": "2026-05-14",
+      "first_seen": "2026-05-14",
+      "price_history": [
+        {
+          "date": "2026-05-14",
+          "store": "Kaufland",
+          "price": 6.69,
+          "price_eur": 3.42,
+          "old_price": 8.98,
+          "discount_pct": 26
+        }
+      ],
+      "lowest_price": 6.69,
+      "lowest_price_date": "2026-05-14",
+      "avg_price": 6.69
     }
   ]
 }
