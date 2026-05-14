@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-14T06:40:44.367434Z",
-  "content_hash": "f30fca7c6b509e1970ab359781989cc1",
-  "total_offers": 8849,
-  "promo_offers": 1937,
+  "generated_at": "2026-05-14T08:25:31.902457Z",
+  "content_hash": "d3a9e7b422a705a53ea9f433d349f239",
+  "total_offers": 8848,
+  "promo_offers": 1936,
   "assortment_offers": 6912,
   "stores": [
     "Billa",
@@ -3740,38 +3740,6 @@
       "best_price": 1.94,
       "comparison_count": 1,
       "product_id": "fantastico-баница-със-сирене-и-яица-200-гр-хляб-за-живот-200g"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 1.99,
-      "new_price_eur": 1.02,
-      "old_price": 3.48,
-      "old_price_eur": 1.78,
-      "discount_pct": 43,
-      "valid_from": "2026-05-11",
-      "valid_until": "2026-05-17",
-      "price_per_kg": 3.69,
-      "price_per_kg_eur": 1.89,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 1.99,
-          "price_eur": 1.02,
-          "old_price": 3.48,
-          "old_price_eur": 1.78,
-          "discount_pct": 43,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 1.99,
-      "comparison_count": 1,
-      "product_id": "kaufland-chef-is-червен-боб-бял-боб-нахут-или-леща-540g"
     },
     {
       "store": "Fantastico",

@@ -1,5 +1,5 @@
 const ALL_PRODUCTS_DATA = {
-  "generated_at": "2026-05-14T06:40:43.787739Z",
+  "generated_at": "2026-05-14T08:25:31.313989Z",
   "total_products": 15121,
   "products": [
     {
@@ -460314,7 +460314,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20869634_P.jpg",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20869634_609?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-fino-аром-цветни-торби-за-смет-35-л-20-бр-35000g",
       "last_seen": "2026-05-14",
       "first_seen": "2026-04-27",
@@ -587599,7 +587599,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20890867_P.jpg",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20890867_609?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-fino-power-торби-за-смет-90л-10-бр",
       "last_seen": "2026-05-14",
       "first_seen": "2026-05-11",
