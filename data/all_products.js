@@ -1,6 +1,6 @@
 const ALL_PRODUCTS_DATA = {
-  "generated_at": "2026-05-14T17:04:11.511395Z",
-  "total_products": 15122,
+  "generated_at": "2026-05-14T18:58:04.027949Z",
+  "total_products": 15123,
   "products": [
     {
       "name": "Пушена риба тон",
@@ -606390,6 +606390,42 @@ const ALL_PRODUCTS_DATA = {
       "lowest_price": 6.69,
       "lowest_price_date": "2026-05-14",
       "avg_price": 6.69
+    },
+    {
+      "name": "Lenor Омекотител 59 пранета различни видове",
+      "emoji": "🧹",
+      "category": "household",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": "1-2г",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": true,
+      "is_long_lasting": true,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20825502_597?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-lenor-омекотител-59-пранета-различни-видове",
+      "last_seen": "2026-05-14",
+      "first_seen": "2026-05-14",
+      "price_history": [
+        {
+          "date": "2026-05-14",
+          "store": "Kaufland",
+          "price": 6.83,
+          "price_eur": 3.49,
+          "old_price": 8.74,
+          "discount_pct": 22
+        }
+      ],
+      "lowest_price": 6.83,
+      "lowest_price_date": "2026-05-14",
+      "avg_price": 6.83
     }
   ]
 };
