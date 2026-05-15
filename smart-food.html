@@ -23,9 +23,9 @@
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:title" content="Умна храна — Храни се добре. Пазарувай разумно."/>
 <meta name="twitter:description" content="Седмични промоции от Lidl, Kaufland, Billa и повече. Пазарувай умно, яж здравословно на по-ниска цена."/>
-<link href="css/style.css?v=26" rel="stylesheet"/>
+<link href="css/style.css?v=27" rel="stylesheet"/>
 <script src="js/i18n.js?v=2"></script>
-<script src="js/i18n.smart-food.js?v=5"></script>
+<script src="js/i18n.smart-food.js?v=6"></script>
 </head>
 <body>
 <!-- Navbar -->
@@ -42,7 +42,8 @@
 </div>
 </nav>
 <!-- 1. Hero -->
-<section class="hero">
+<section class="hero smart-food-hero utility-hero">
+<div class="utility-hero-content">
 <h1 data-i18n-html="sf.hero.h1">Храни се добре.<br/><em class="green">Пазарувай умно.</em></h1>
 <p data-i18n="sf.hero.p">Тук събираме оферти, сравнения и по-разумни покупки за нормална храна.</p>
 <div class="comparison mt-24" data-i18n-html="c.comparison.1">
@@ -61,6 +62,24 @@
 <p data-i18n="c.savings.label" style="color:#b0afa6; margin-bottom:8px;">Спестяваш на месец:</p>
 <div class="savings-amount">~540 лв</div>
 </div>
+</div>
+<div class="utility-hero-media food-hero-media" aria-label="Примерни продукти за умно пазаруване">
+<img src="images/smart-food-hero.jpg" alt="Умно пазаруване и планиране на храна у дома" data-i18n-alt="sf.visual.hero.alt"/>
+<div class="hero-product-stack">
+<div class="hero-product-chip">
+<img src="images/foods/tuna.svg" alt=""/>
+<span data-i18n="sf.hero.chip.tuna">Риба тон</span>
+</div>
+<div class="hero-product-chip">
+<img src="images/foods/egg.svg" alt=""/>
+<span data-i18n="sf.hero.chip.eggs">Яйца</span>
+</div>
+<div class="hero-product-chip">
+<img src="images/foods/olive-oil.svg" alt=""/>
+<span data-i18n="sf.hero.chip.oil">Зехтин</span>
+</div>
+</div>
+</div>
 </section>
 <section class="visual-break">
 <div class="visual-break-frame">
@@ -72,10 +91,34 @@
 </div>
 </div>
 </section>
-<section style="padding-top:24px;">
+<section class="compact-section-top">
 <div class="info-box green" data-i18n-html="sf.info_box.1" style="">
 <h3>Оферти на едно място</h3>
 <p style="margin-top:8px;">Тази страница събира седмични оферти, сравнения и идеи за по-разумно пазаруване. NutriLife остава фокусиран върху навици, движение и хранене.</p>
+</div>
+</section>
+<section class="utility-showcase food-showcase" aria-label="Какво следиш в Smart Food">
+<div class="utility-showcase-copy">
+<span data-i18n="sf.showcase.kicker">ПАЗАРЕН РАДАР</span>
+<h2 data-i18n="sf.showcase.h2">Всичко важно за продукта, преди да го сложиш в кошницата.</h2>
+<p data-i18n="sf.showcase.p">Гледаш цена, магазин, история, рейтинг и хранителни стойности в една карта. После го пазиш в списък и сравняваш седмицата без хаос.</p>
+</div>
+<div class="utility-showcase-tiles">
+<div class="showcase-tile green">
+<img src="images/protein-tier-generated/tuna.png" alt=""/>
+<strong data-i18n="sf.showcase.tile1.title">Цена и протеин</strong>
+<span data-i18n="sf.showcase.tile1.text">Полезните източници остават ясни.</span>
+</div>
+<div class="showcase-tile amber">
+<img src="images/fat-tier-generated/olive_oil.png" alt=""/>
+<strong data-i18n="sf.showcase.tile2.title">История на цената</strong>
+<span data-i18n="sf.showcase.tile2.text">Виждаш дали офертата наистина си струва.</span>
+</div>
+<div class="showcase-tile green">
+<img src="images/protein-tier-generated/eggs.png" alt=""/>
+<strong data-i18n="sf.showcase.tile3.title">Пазарен списък</strong>
+<span data-i18n="sf.showcase.tile3.text">Любимите продукти остават под ръка.</span>
+</div>
 </div>
 </section>
 <!-- 2. Сравнение ден по ден -->
@@ -176,6 +219,7 @@
 <div class="offers-status" id="offers-status">
 <span data-i18n="sf.offers.status.loading">Зареждане на данните...</span>
 </div>
+<div class="product-controls-panel">
 <!-- Search -->
 <div class="search-wrapper">
 <input class="offers-search" id="offers-search" placeholder="🔍 Търси продукт... (напр. пиле, ориз, сирене)" type="text"/>
@@ -230,6 +274,7 @@
 <button class="filter-btn" data-category="fat" data-i18n="c.cat.fat">🫒 Мазнини</button>
 <button class="filter-btn" data-category="bread" data-i18n="c.cat.bread">🍞 Хляб</button>
 <button class="filter-btn" data-category="vegetable" data-i18n="c.cat.vegetable">🥦 Плод/Зеленчук</button>
+</div>
 </div>
 <div class="offers-grid" id="offers-grid">
 <p data-i18n-html="c.p.2" style="text-align:center; color:#888;">Зареждане на промоции...</p>

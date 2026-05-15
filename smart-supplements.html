@@ -20,9 +20,9 @@
 <meta property="og:description" content="Сравнявай добавки по това какво реално получаваш за парите си."/>
 <meta property="og:image" content="https://stop-excuses.github.io/nutrilife/og-image.svg"/>
 <meta name="twitter:card" content="summary_large_image"/>
-<link href="css/style.css?v=26" rel="stylesheet"/>
+<link href="css/style.css?v=27" rel="stylesheet"/>
 <script src="js/i18n.js?v=2"></script>
-<script src="js/i18n.smart-supplements.js?v=2"></script>
+<script src="js/i18n.smart-supplements.js?v=3"></script>
 </head>
 <body>
 <nav class="navbar">
@@ -37,17 +37,60 @@
 </div>
 </nav>
 
-<section class="hero supplements-hero">
+<section class="hero supplements-hero utility-hero supplements-hero-premium">
+<div class="utility-hero-content">
 <div class="supplements-kicker" data-i18n="ss.hero.kicker">Сравнение по етикет</div>
 <h1 data-i18n-html="ss.hero.h1">Коя добавка си струва?<br/><em class="amber">Виж какво получаваш за парите си.</em></h1>
 <p data-i18n="ss.hero.p">Някои опаковки изглеждат евтини, но дават малко от важната съставка. Тук сравняваме креатин, омега-3, магнезий, витамини, фибри и протеин по по-честна сметка.</p>
 <div class="supplements-summary" id="supplements-summary" aria-live="polite"></div>
+</div>
+<div class="utility-hero-media supplements-hero-media">
+<img src="images/smart-supplements-hero.png" alt="Добавки, етикети и базови храни върху тъмен кухненски плот" data-i18n-alt="ss.hero.image.alt"/>
+<div class="hero-product-stack supplement-stack">
+<div class="hero-product-chip amber">
+<img src="images/protein-tier-generated/whey.png" alt=""/>
+<span data-i18n="ss.hero.chip.protein">25 g протеин</span>
+</div>
+<div class="hero-product-chip amber">
+<img src="images/fat-tier-generated/salmon_fat.png" alt=""/>
+<span data-i18n="ss.hero.chip.omega">EPA + DHA</span>
+</div>
+<div class="hero-product-chip amber">
+<img src="images/protein-tier-generated/eggs.png" alt=""/>
+<span data-i18n="ss.hero.chip.food">Първо храната</span>
+</div>
+</div>
+</div>
 </section>
 
 <section class="supplements-panel-section">
 <div class="info-box amber supplements-disclaimer">
 <h3 data-i18n="ss.disclaimer.h3">Важно преди покупка</h3>
 <p data-i18n="ss.disclaimer.p">Тук не казваме какво да пиеш и не даваме лечение. Само показваме коя опаковка дава повече полезна съставка за парите си. Ако имаш заболяване, пиеш лекарства, си бременна или имаш симптоми — попитай лекар или фармацевт.</p>
+</div>
+</section>
+<section class="utility-showcase supplements-showcase" aria-label="Какво сравнява Smart Supplements">
+<div class="utility-showcase-copy">
+<span data-i18n="ss.showcase.kicker">ПО-ЧЕСТНА СМЕТКА</span>
+<h2 data-i18n="ss.showcase.h2">Не гледаш само цената на опаковката. Гледаш активната доза.</h2>
+<p data-i18n="ss.showcase.p">Една карта събира цена, магазин, активна съставка, брой приеми и качество на етикета, за да не купуваш на сляпо.</p>
+</div>
+<div class="utility-showcase-tiles supplement-tiles">
+<div class="showcase-tile amber">
+<img src="images/protein-tier-generated/whey.png" alt=""/>
+<strong data-i18n="ss.showcase.tile1.title">Цена за доза</strong>
+<span data-i18n="ss.showcase.tile1.text">Креатин, протеин, витамини и фибри в сравним вид.</span>
+</div>
+<div class="showcase-tile amber">
+<img src="images/fat-tier-generated/salmon_fat.png" alt=""/>
+<strong data-i18n="ss.showcase.tile2.title">Ясен етикет</strong>
+<span data-i18n="ss.showcase.tile2.text">Отделяш точните сметки от приблизителните.</span>
+</div>
+<div class="showcase-tile green">
+<img src="images/protein-tier-generated/yogurt.png" alt=""/>
+<strong data-i18n="ss.showcase.tile3.title">Контекст с храната</strong>
+<span data-i18n="ss.showcase.tile3.text">Добавките остават помощник, не заместител.</span>
+</div>
 </div>
 </section>
 
@@ -61,6 +104,7 @@
 <span data-i18n="ss.status.loading">Зареждане на добавките...</span>
 </div>
 
+<div class="product-controls-panel amber-panel">
 <div class="search-wrapper">
 <input class="offers-search" id="supplements-search" data-i18n-placeholder="ss.search.placeholder" placeholder="Напиши продукт, марка или магазин..." type="text"/>
 </div>
@@ -95,6 +139,7 @@
 <button class="sort-btn" data-sort="price" type="button" data-i18n="ss.sort.price">Най-ниска цена</button>
 <button class="sort-btn" data-sort="confidence" type="button" data-i18n="ss.sort.confidence">Най-ясен етикет</button>
 <button class="sort-btn" data-sort="store" type="button" data-i18n="ss.sort.store">По магазин</button>
+</div>
 </div>
 
 <div class="supplements-grid" id="supplements-grid"></div>
