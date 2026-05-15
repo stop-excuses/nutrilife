@@ -1,4 +1,4 @@
-const CACHE_NAME = 'nutrilife-v10';
+const CACHE_NAME = 'nutrilife-v11';
 const OFFLINE_URL = 'offline.html';
 const APP_SHELL = [
   './',
@@ -11,13 +11,14 @@ const APP_SHELL = [
   OFFLINE_URL,
   'manifest.json',
   'favicon.svg',
-  'css/style.css?v=30',
-  'js/main.js?v=14',
+  'css/style.css?v=31',
+  'js/main.js?v=15',
   'images/pwa/icon-192.png',
   'images/pwa/icon-512.png',
   'images/pwa/icon-maskable-192.png',
   'images/pwa/icon-maskable-512.png',
-  'images/pwa/apple-touch-icon.png'
+  'images/pwa/apple-touch-icon.png',
+  'images/smart-supplements-hero.webp'
 ];
 
 self.addEventListener('install', event => {

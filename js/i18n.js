@@ -29,6 +29,12 @@
             'offer.ing.harmful': 'вредни',
             'offer.ing.questionable': 'спорни',
             'offer.ing.clean': 'Без открити добавки',
+            'pwa.install.title': 'Инсталирай NutriLife',
+            'pwa.install.text': 'Сложи сайта като приложение на телефона.',
+            'pwa.install.button': 'Инсталирай',
+            'pwa.install.dismiss': 'По-късно',
+            'pwa.install.ios': 'На iPhone: Share → Add to Home Screen.',
+            'pwa.install.ok': 'ОК',
             'visits.label': 'посещения',
             'visits.prefix': ''
         },

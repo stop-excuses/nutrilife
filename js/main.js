@@ -5,6 +5,7 @@
 
 document.addEventListener("DOMContentLoaded", () => {
     initTopControls();
+    initPwaInstallPrompt();
     initAccordions();
     initAgeSelector();
     initSliders();
@@ -272,6 +273,84 @@ function initTopControls() {
 
     // ── Language logic ───────────────────────────────────────────────────
     // BG-only mode for content editing. Re-enable the toggle when EN copy is finalized.
+}
+
+/* --- PWA Install Prompt --- */
+function initPwaInstallPrompt() {
+    const isStandalone = window.matchMedia("(display-mode: standalone)").matches || window.navigator.standalone;
+    const isMobileLike = window.matchMedia("(max-width: 760px)").matches || window.matchMedia("(pointer: coarse)").matches;
+    let dismissedUntil = 0;
+    try {
+        dismissedUntil = Number(localStorage.getItem("nutrilife-pwa-dismissed-until") || 0);
+    } catch {
+        dismissedUntil = 0;
+    }
+
+    if (isStandalone || !isMobileLike || Date.now() < dismissedUntil) return;
+
+    let deferredPrompt = null;
+    const isIos = /iphone|ipad|ipod/i.test(navigator.userAgent) && !window.MSStream;
+    const canUseNativePrompt = "BeforeInstallPromptEvent" in window || "onbeforeinstallprompt" in window;
+
+    const banner = document.createElement("div");
+    banner.className = "pwa-install-banner";
+    banner.hidden = true;
+    banner.innerHTML = `
+        <div>
+            <strong>${window.I18N?.t("pwa.install.title") || "Инсталирай NutriLife"}</strong>
+            <span>${window.I18N?.t("pwa.install.text") || "Сложи сайта като приложение на телефона."}</span>
+        </div>
+        <button class="pwa-install-action" type="button">${window.I18N?.t("pwa.install.button") || "Инсталирай"}</button>
+        <button class="pwa-install-close" type="button" aria-label="${window.I18N?.t("pwa.install.dismiss") || "По-късно"}">×</button>
+    `;
+    document.body.appendChild(banner);
+
+    const action = banner.querySelector(".pwa-install-action");
+    const close = banner.querySelector(".pwa-install-close");
+
+    function showBanner(nativePromptReady) {
+        if (banner.hidden === false) return;
+        if (!nativePromptReady && !isIos) return;
+        if (isIos) {
+            banner.querySelector("span").textContent = window.I18N?.t("pwa.install.ios") || "На iPhone: Share → Add to Home Screen.";
+            action.textContent = window.I18N?.t("pwa.install.ok") || "ОК";
+        }
+        banner.hidden = false;
+        requestAnimationFrame(() => banner.classList.add("visible"));
+    }
+
+    function dismiss(days = 14) {
+        banner.classList.remove("visible");
+        window.setTimeout(() => { banner.hidden = true; }, 250);
+        try {
+            localStorage.setItem("nutrilife-pwa-dismissed-until", String(Date.now() + days * 24 * 60 * 60 * 1000));
+        } catch {
+            return;
+        }
+    }
+
+    window.addEventListener("beforeinstallprompt", (event) => {
+        event.preventDefault();
+        deferredPrompt = event;
+        window.setTimeout(() => showBanner(true), 1400);
+    });
+
+    if (isIos && !canUseNativePrompt) {
+        window.setTimeout(() => showBanner(false), 1800);
+    }
+
+    action.addEventListener("click", async () => {
+        if (!deferredPrompt) {
+            dismiss(14);
+            return;
+        }
+        deferredPrompt.prompt();
+        const choice = await deferredPrompt.userChoice.catch(() => ({ outcome: "dismissed" }));
+        deferredPrompt = null;
+        dismiss(choice.outcome === "accepted" ? 365 : 14);
+    });
+
+    close.addEventListener("click", () => dismiss(14));
 }
 
 /* --- Visitor Counter --- */
