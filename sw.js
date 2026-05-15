@@ -1,4 +1,4 @@
-const CACHE_NAME = 'nutrilife-v4';
+const CACHE_NAME = 'nutrilife-v5';
 
 self.addEventListener('install', event => {
   event.waitUntil(self.skipWaiting());
