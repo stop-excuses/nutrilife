@@ -1273,6 +1273,7 @@ function renderQuizResult(scores) {
 function initScrollReveal() {
     // Auto-tag sections that aren't the hero (hero is always visible)
     document.querySelectorAll("section:not(.hero):not(.hero-index):not(.page-hero)").forEach(s => {
+        if (s.querySelector("#offers-grid, #supplements-grid, .product-controls-panel")) return;
         if (!s.hasAttribute("data-reveal") && !s.hasAttribute("data-reveal-stagger")) {
             s.setAttribute("data-reveal", "");
         }

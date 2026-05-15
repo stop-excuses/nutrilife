@@ -4485,6 +4485,15 @@ body.fav-product-open {
     transform: none;
 }
 
+section:has(#offers-grid),
+section:has(#supplements-grid),
+section:has(#offers-grid)[data-reveal],
+section:has(#supplements-grid)[data-reveal] {
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+}
+
 [data-reveal-stagger].revealed > *:nth-child(7) { transition-delay: 0.48s; }
 [data-reveal-stagger].revealed > *:nth-child(8) { transition-delay: 0.56s; }
 [data-reveal-stagger].revealed > *:nth-child(9) { transition-delay: 0.64s; }
