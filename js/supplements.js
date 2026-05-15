@@ -397,8 +397,8 @@
     function formatValueWithUnit(key, value) {
         const number = typeof value === 'number' ? value : Number(value);
         const rendered = Number.isFinite(number) ? String(number) : String(value);
-        if (key.endsWith('_mg')) return `${rendered} mg`;
-        if (key.endsWith('_iu')) return `${rendered} IU`;
+        if (key.includes('_mg')) return `${rendered} mg`;
+        if (key.includes('_iu')) return `${rendered} IU`;
         if (key.endsWith('_g')) return `${rendered} g`;
         if (key.endsWith('_pct')) return `${rendered}%`;
         return rendered;

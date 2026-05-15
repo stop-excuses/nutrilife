@@ -1808,6 +1808,7 @@ function renderFavoritesPanel() {
             .filter(o => {
                 return favoriteMatchesOffer(o, kw, cat);
             })
+            .filter(o => o.new_price != null)
             .sort((a, b) => a.new_price - b.new_price);
         const onSale = offers.filter(o => o.discount_pct);
         const statusHtml = onSale.length > 0
@@ -1819,8 +1820,8 @@ function renderFavoritesPanel() {
         // Sort by normalized price (price_per_kg if available, else price/weight, else raw price last)
         const normPrice = o => {
             if (o.price_per_kg) return o.price_per_kg;
-            if (o.weight_grams) return o.new_price * 1000 / o.weight_grams;
-            return o.new_price; // яйца, бройни продукти — сортира по обща цена
+            if (o.weight_grams && o.new_price != null) return o.new_price * 1000 / o.weight_grams;
+            return o.new_price ?? Infinity; // яйца, бройни продукти — сортира по обща цена
         };
         const sorted = [...offers].sort((a, b) => normPrice(a) - normPrice(b));
         const FAV_LIMIT = 6;
@@ -1941,7 +1942,7 @@ function renderFavoritesPanel() {
             const hiddenRows = btn.previousElementSibling;
             if (hiddenRows && hiddenRows.classList.contains('fav-hidden-rows')) {
                 hiddenRows.classList.toggle('fav-hidden-open');
-                btn.textContent = hiddenRows.classList.contains('fav-hidden-open') ? '▲ Скрий' : btn.textContent;
+                btn.textContent = hiddenRows.classList.contains('fav-hidden-open') ? '▲ Скрий' : `+ ${hiddenRows.children.length} още`;
             }
         });
     });
@@ -2891,20 +2892,22 @@ function renderPriceComparison() {
             const nl = o.name.toLowerCase();
             return staple.match.some(kw => nl.includes(kw))
                 && (!staple.not || staple.not.every(bw => !nl.includes(bw)))
-                && (!staple.cat || o.category === staple.cat);
+                && (!staple.cat || o.category === staple.cat)
+                && (o.new_price != null || o.price_per_kg != null);
         });
 
         const byStore = {};
         matching.forEach(o => {
-            const sortKey = o.price_per_kg || o.new_price;
+            const sortKey = o.price_per_kg ?? o.new_price ?? Infinity;
             const prev = byStore[o.store];
-            if (!prev || sortKey < (prev.price_per_kg || prev.new_price)) {
+            const prevSortKey = prev ? (prev.price_per_kg ?? prev.new_price ?? Infinity) : Infinity;
+            if (!prev || sortKey < prevSortKey) {
                 byStore[o.store] = o;
             }
         });
 
         const storeList = Object.values(byStore).sort((a, b) =>
-            (a.price_per_kg || a.new_price) - (b.price_per_kg || b.new_price)
+            (a.price_per_kg ?? a.new_price ?? Infinity) - (b.price_per_kg ?? b.new_price ?? Infinity)
         );
 
         // Use real product CDN photo when available; fall back to SVG icon
@@ -2935,7 +2938,7 @@ function renderPriceComparison() {
         const othersHtml = storeList.slice(1, 4).map(o => `
             <div class="staple-other-row">
                 <span class="s-store">${o.store}</span>
-                <span class="s-price">${o.new_price.toFixed(2)} лв</span>
+                <span class="s-price">${(o.new_price ?? o.price_per_kg).toFixed(2)} ${o.new_price != null ? 'лв' : 'лв/кг'}</span>
             </div>`).join('');
         const bestId = getOfferDomId(best);
         const favActive = isFavorited(best) ? ' active' : '';

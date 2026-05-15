@@ -1,4 +1,4 @@
-const CACHE_NAME = 'nutrilife-v2';
+const CACHE_NAME = 'nutrilife-v3';
 
 const SHELL_ASSETS = [
   '/nutrilife/',
