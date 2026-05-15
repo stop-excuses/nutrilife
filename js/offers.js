@@ -2823,7 +2823,7 @@ function renderOffers(offers) {
         const detailFallbackSrc = hasRealImage(o.image) ? getLocalFallbackImage(o) : "";
         const imgTag = renderOfferThumb(o);
 
-        const pm = getProteinMetrics(o);
+        const pm = isValidProteinValueOffer(o) ? getProteinMetrics(o, true) : null;
         let proteinValueHtml = "";
         let proteinBadgeHtml = "";
         if (pm) {
