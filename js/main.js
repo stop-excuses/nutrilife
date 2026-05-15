@@ -1287,7 +1287,10 @@ function initScrollReveal() {
 
     const els = document.querySelectorAll("[data-reveal],[data-reveal-stagger]");
     if (!els.length) return;
-    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    const disableReveal = window.matchMedia("(prefers-reduced-motion: reduce)").matches ||
+        window.matchMedia("(max-width: 480px)").matches ||
+        window.matchMedia("(pointer: coarse)").matches;
+    if (disableReveal) {
         els.forEach(el => el.classList.add("revealed"));
         return;
     }

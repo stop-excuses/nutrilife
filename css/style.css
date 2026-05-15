@@ -4505,6 +4505,16 @@ section:has(#supplements-grid)[data-reveal] {
     animation: barPop 0.55s cubic-bezier(0.16, 1, 0.3, 1) both;
 }
 
+@media (max-width: 480px), (pointer: coarse) {
+    [data-reveal],
+    [data-reveal-stagger] > * {
+        opacity: 1;
+        visibility: visible;
+        transform: none;
+        transition: none;
+    }
+}
+
 @keyframes barPop {
     0% { transform: scaleY(0.35); transform-origin: bottom; }
     70% { transform: scaleY(1.06); transform-origin: bottom; }
