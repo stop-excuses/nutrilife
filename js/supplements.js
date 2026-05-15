@@ -20,6 +20,38 @@
         medium: 'частична сметка',
         low: 'само ориентир'
     };
+    const searchCategoryIntents = {
+        'креатин': 'creatine',
+        'creatine': 'creatine',
+        'омега': 'omega3',
+        'омега 3': 'omega3',
+        'омега-3': 'omega3',
+        'omega': 'omega3',
+        'omega 3': 'omega3',
+        'omega-3': 'omega3',
+        'магнезий': 'magnesium',
+        'magnesium': 'magnesium',
+        'витамин d': 'vitamin_d',
+        'витамин d3': 'vitamin_d',
+        'd3': 'vitamin_d',
+        'vitamin d': 'vitamin_d',
+        'vitamin d3': 'vitamin_d',
+        'витамин c': 'vitamin_c',
+        'vitamin c': 'vitamin_c',
+        'витамин b': 'vitamin_b',
+        'витамини b': 'vitamin_b',
+        'мултивитамини': 'multivitamin',
+        'мултивитамин': 'multivitamin',
+        'multivitamin': 'multivitamin',
+        'цинк': 'zinc',
+        'zinc': 'zinc',
+        'протеин': 'protein',
+        'whey': 'protein',
+        'protein': 'protein',
+        'фибри': 'fiber',
+        'fiber': 'fiber',
+        'psyllium': 'fiber'
+    };
 
     let items = [];
     let filters = {
@@ -176,6 +208,8 @@
         }
         if (filters.query) {
             filtered = filtered.filter(item => item.searchText.includes(filters.query));
+            const intendedCategory = filters.category === 'all' ? searchCategoryIntents[filters.query] : null;
+            if (intendedCategory) filtered = filtered.filter(item => item.category === intendedCategory);
         }
 
         filtered = sortItems(filtered);

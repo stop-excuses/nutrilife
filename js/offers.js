@@ -396,7 +396,7 @@ const CANONICAL_NUTRITION = [
     ["черен дроб",        { p: 20, f:  4,   c:  4,   kcal: 135 }],
     ["агнешки дроб",      { p: 20, f:  5,   c:  2,   kcal: 140 }],
     ["дроб комплект",     { p: 20, f:  5,   c:  2,   kcal: 140 }],
-    ["елена",             { p: 40, f:  3,   c:  1,   kcal: 195 }],
+    ["филе елена",        { p: 40, f:  3,   c:  1,   kcal: 195 }],
     // --- Dairy — high protein ---
     ["скир",              { p: 11, f:  0.2, c:  3.5, kcal:  60 }],
     ["skyr",              { p: 11, f:  0.2, c:  3.5, kcal:  60 }],
@@ -552,6 +552,7 @@ function inferUiCategory(offer) {
 }
 
 function inferUiHealthScore(offer, category, macros) {
+    if (category === "bread" || getOfferNameLower(offer).includes("\u0445\u043b\u044f\u0431")) return UI_CATEGORY_HEALTH_SCORE.bread;
     if (offer.health_score != null) return offer.health_score;
     if (["pet", "hygiene", "household"].includes(category)) return null;
     const nameLower = getOfferNameLower(offer);
@@ -819,10 +820,15 @@ const SEARCH_INTENTS = {
     "зехтин": { category: "fat", include: ["зехтин", "маслиново масло"], rejectIngredientContext: true },
 };
 
+SEARCH_INTENTS["\u0431\u0430\u0434\u0435\u043c"] = { category: "nuts", include: ["\u0431\u0430\u0434\u0435\u043c"], rejectPreparedContext: true };
+SEARCH_INTENTS["\u0431\u0430\u0434\u0435\u043c\u0438"] = SEARCH_INTENTS["\u0431\u0430\u0434\u0435\u043c"];
+
 const STRICT_SEARCH_TERMS = new Set([
     ...Object.keys(SEARCH_INTENTS),
     ...Object.keys(SEARCH_INTENT_ALIASES),
 ]);
+
+const EXACT_NUT_SEARCH_TERMS = new Set(["\u0431\u0430\u0434\u0435\u043c", "\u0431\u0430\u0434\u0435\u043c\u0438"]);
 
 const SEARCH_ALIAS_TERMS = {
     "пиле": ["пиле", "пилешко", "пилешки", "пилешка", "пилешки"],
@@ -1116,11 +1122,46 @@ function renderOfferThumb(offer, className = "offer-img") {
     return `<div class="offer-img-wrapper${isFallback ? " fallback" : ""}"><img src="${imgSrc}" alt="" class="${className}" ${fallbackSrc ? `data-fallback-src="${fallbackSrc}"` : ""} onerror="${onError}"></div>`;
 }
 
-function getReliablePricePerKg(offer) {
-    if (offer.price_per_kg && offer.price_per_kg > 0) return offer.price_per_kg;
-    if (offer.weight_grams && offer.weight_grams > 0 && offer.new_price != null && offer.new_price > 0) {
-        return (offer.new_price / offer.weight_grams) * 1000;
+const MAX_RETAIL_PACKAGE_GRAMS = 50000;
+
+function getNormalizedWeightInfo(offer) {
+    if (!offer) return null;
+    const raw = offer.weight_raw || "";
+    const source = `${offer.name || ""} ${raw}`;
+    if (/\u0434\u043e\s*\d+(?:[.,]\d+)?\s*(?:kg?|\u043a\u0433)\s+\u043d\u0430\s+\u043f\u043e\u043a\u0443\u043f\u043a\u0430/i.test(source)) {
+        return null;
     }
+    const rangeMatch = source.match(/(\d{2,4})\s*\/\s*(\d{2,4})\s*(?:kg?|g|gr|\u043a\u0433|\u0433|\u0433\u0440)(?=\s|$|[.,;])/i);
+    if (rangeMatch) {
+        const upper = Math.max(parseInt(rangeMatch[1], 10), parseInt(rangeMatch[2], 10));
+        if (upper >= 10 && upper <= 2000) return { raw: `${upper} \u0433`, grams: upper };
+    }
+
+    const grams = Number(offer.weight_grams);
+    if (Number.isFinite(grams) && grams >= 10 && grams <= MAX_RETAIL_PACKAGE_GRAMS) {
+        return { raw: raw || `${grams}\u0433`, grams };
+    }
+
+    const m = (offer.name || '').match(/(\d+(?:[.,]\d+)?)\s*(\u043a\u0433|\u0433|\u0433\u0440|\u043c\u043b|\u043b)(?=\s|$|[.,;])/i);
+    if (!m) return null;
+    const val = parseFloat(m[1].replace(',', '.'));
+    const unit = m[2].toLowerCase().replace('\u0433\u0440', '\u0433');
+    const parsedGrams = unit === '\u043a\u0433' ? val * 1000 : unit === '\u043b' ? val * 1000 : val;
+    if (parsedGrams < 10 || parsedGrams > MAX_RETAIL_PACKAGE_GRAMS) return null;
+    return { raw: `${m[1]}${unit}`, grams: parsedGrams };
+}
+
+function getReliablePricePerKg(offer) {
+    const weightInfo = getNormalizedWeightInfo(offer);
+    const derivedPpk = weightInfo && offer.new_price != null && offer.new_price > 0
+        ? (offer.new_price / weightInfo.grams) * 1000
+        : null;
+    if (offer.price_per_kg && offer.price_per_kg > 0) {
+        if (offer.price_per_kg < 0.5 && derivedPpk && derivedPpk > 1) return derivedPpk;
+        if (offer.price_per_kg < 0.5) return null;
+        return offer.price_per_kg;
+    }
+    if (derivedPpk) return derivedPpk;
     return null;
 }
 
@@ -1214,8 +1255,9 @@ function getOfferProfile(offer) {
 }
 
 function getPricePerKgEstimate(offer) {
-    if (offer.price_per_kg && offer.price_per_kg > 0) return offer.price_per_kg;
-    const estWeight = offer.weight_grams || 500;
+    const reliablePpk = getReliablePricePerKg(offer);
+    if (reliablePpk) return reliablePpk;
+    const estWeight = getNormalizedWeightInfo(offer)?.grams || 500;
     return (offer.new_price / estWeight) * 1000;
 }
 
@@ -1458,8 +1500,8 @@ function sortOffers(offers) {
                 const hb = isHealthyOffer(b) ? 0 : 1;
                 if (ha !== hb) return ha - hb;
                 // products without price_per_kg go last
-                const pa = a.price_per_kg || Infinity;
-                const pb = b.price_per_kg || Infinity;
+                const pa = getReliablePricePerKg(a) || Infinity;
+                const pb = getReliablePricePerKg(b) || Infinity;
                 return pa - pb;
             });
             break;
@@ -1779,14 +1821,7 @@ function toggleFavorite(offerId) {
 }
 
 function extractWeightFromName(offer) {
-    if (offer.weight_raw && offer.weight_grams) return { raw: offer.weight_raw, grams: offer.weight_grams };
-    const m = (offer.name || '').match(/(\d+(?:[.,]\d+)?)\s*(кг|г|гр|мл|л)\b/i);
-    if (!m) return null;
-    const val = parseFloat(m[1].replace(',', '.'));
-    const unit = m[2].toLowerCase().replace('гр', 'г');
-    let grams = unit === 'кг' ? val * 1000 : unit === 'л' ? val * 1000 : val;
-    if (grams < 10 || grams > 50000) return null;
-    return { raw: `${m[1]}${unit}`, grams };
+    return getNormalizedWeightInfo(offer);
 }
 
 function renderFavoritesPanel() {
@@ -1819,8 +1854,8 @@ function renderFavoritesPanel() {
 
         // Sort by normalized price (price_per_kg if available, else price/weight, else raw price last)
         const normPrice = o => {
-            if (o.price_per_kg) return o.price_per_kg;
-            if (o.weight_grams && o.new_price != null) return o.new_price * 1000 / o.weight_grams;
+            const reliablePpk = getReliablePricePerKg(o);
+            if (reliablePpk) return reliablePpk;
             return o.new_price ?? Infinity; // яйца, бройни продукти — сортира по обща цена
         };
         const sorted = [...offers].sort((a, b) => normPrice(a) - normPrice(b));
@@ -1979,12 +2014,13 @@ function renderFavoriteProductScreen(offerId) {
     const stores = offer.available_stores && offer.available_stores.length > 1
         ? offer.available_stores.join(", ")
         : offer.store;
-    const displayPpk = offer.price_per_kg || (offer.weight_grams && offer.new_price ? (offer.new_price / offer.weight_grams * 1000) : null);
+    const weightInfo = getNormalizedWeightInfo(offer);
+    const displayPpk = getReliablePricePerKg(offer);
     const validity = getOfferValidityText(offer, "detail");
     const imgSrc = getOfferImage(offer);
     const detailFallbackSrc = hasRealImage(offer.image) ? getLocalFallbackImage(offer) : "";
     const metaParts = [];
-    if (offer.weight_raw) metaParts.push(offer.weight_raw);
+    if (weightInfo?.raw) metaParts.push(weightInfo.raw);
     if (displayPpk) metaParts.push(`${displayPpk.toFixed(2)} лв/кг`);
 
     return `
@@ -2084,7 +2120,7 @@ function applyFilters() {
     // Search
     if (searchQuery) {
         const categoryShortcut = SEARCH_CATEGORY_SHORTCUTS[searchQuery];
-        if (categoryShortcut) {
+        if (categoryShortcut && !EXACT_NUT_SEARCH_TERMS.has(searchQuery)) {
             // Exact category match — avoids false positives (e.g. "овесени ядки" ≠ nuts)
             filtered = filtered.filter(o => o.category === categoryShortcut);
         } else if (fuseIndex) {
@@ -2772,11 +2808,12 @@ function renderOffers(offers) {
         const trend = getPriceTrend(o);
         if (trend) badges.push(`<span class="offer-tag ${trend.cls}">${trend.label}</span>`);
 
-        const displayPpk = o.price_per_kg || (o.weight_grams && o.new_price ? (o.new_price / o.weight_grams * 1000) : null);
+        const weightInfo = getNormalizedWeightInfo(o);
+        const displayPpk = getReliablePricePerKg(o);
 
         let metaParts = [];
-        if (o.weight_raw) metaParts.push(o.weight_raw);
-        if (o.price_per_kg) metaParts.push(`${o.price_per_kg.toFixed(2)} лв/кг`);
+        if (weightInfo?.raw) metaParts.push(weightInfo.raw);
+        if (displayPpk) metaParts.push(`${displayPpk.toFixed(2)} лв/кг`);
 
         const stores = o.available_stores && o.available_stores.length > 1
             ? o.available_stores.join(", ")
@@ -2898,16 +2935,16 @@ function renderPriceComparison() {
 
         const byStore = {};
         matching.forEach(o => {
-            const sortKey = o.price_per_kg ?? o.new_price ?? Infinity;
+            const sortKey = getReliablePricePerKg(o) ?? o.new_price ?? Infinity;
             const prev = byStore[o.store];
-            const prevSortKey = prev ? (prev.price_per_kg ?? prev.new_price ?? Infinity) : Infinity;
+            const prevSortKey = prev ? (getReliablePricePerKg(prev) ?? prev.new_price ?? Infinity) : Infinity;
             if (!prev || sortKey < prevSortKey) {
                 byStore[o.store] = o;
             }
         });
 
         const storeList = Object.values(byStore).sort((a, b) =>
-            (a.price_per_kg ?? a.new_price ?? Infinity) - (b.price_per_kg ?? b.new_price ?? Infinity)
+            (getReliablePricePerKg(a) ?? a.new_price ?? Infinity) - (getReliablePricePerKg(b) ?? b.new_price ?? Infinity)
         );
 
         // Use real product CDN photo when available; fall back to SVG icon
@@ -2931,8 +2968,10 @@ function renderPriceComparison() {
         const disc = best.discount_pct || 0;
         const dealClass = disc >= 15 ? 'deal-good' : disc >= 5 ? 'deal-ok' : '';
         const discTag = disc ? `<div class="staple-discount-tag">−${disc}%</div>` : '';
-        const pkgHtml = best.price_per_kg
-            ? `<div class="staple-pkg">${best.price_per_kg.toFixed(2)} лв/кг · ${best.weight_raw || ''}</div>`
+        const bestPpk = getReliablePricePerKg(best);
+        const bestWeight = getNormalizedWeightInfo(best)?.raw || '';
+        const pkgHtml = bestPpk
+            ? `<div class="staple-pkg">${bestPpk.toFixed(2)} лв/кг · ${bestWeight}</div>`
             : '';
         const discStr = disc ? ` −${disc}%` : '';
         const othersHtml = storeList.slice(1, 4).map(o => `
@@ -3012,7 +3051,7 @@ function renderBulkRecommendations() {
         .sort((a, b) => {
             if ((b.discount_pct || 0) !== (a.discount_pct || 0)) return (b.discount_pct || 0) - (a.discount_pct || 0);
             if ((b.health_score || 0) !== (a.health_score || 0)) return (b.health_score || 0) - (a.health_score || 0);
-            return (a.price_per_kg || 999) - (b.price_per_kg || 999);
+            return (getReliablePricePerKg(a) || 999) - (getReliablePricePerKg(b) || 999);
         });
 
     if (bulkItems.length === 0) {
@@ -3029,8 +3068,10 @@ function renderBulkRecommendations() {
                 const shelfTag = shelfLabel ? `<div class="bulk-shelf-tag">${shelfLabel}</div>` : '';
                 const thumb = renderOfferThumb(item);
                 const catLabel = BULK_CATEGORY_LABELS[item.category] || '';
-                const ppkg = item.price_per_kg
-                    ? `<div class="bulk-ppkg">${item.price_per_kg.toFixed(2)} лв/кг · ${item.weight_raw || ''}</div>`
+                const itemPpk = getReliablePricePerKg(item);
+                const itemWeight = getNormalizedWeightInfo(item)?.raw || '';
+                const ppkg = itemPpk
+                    ? `<div class="bulk-ppkg">${itemPpk.toFixed(2)} лв/кг · ${itemWeight}</div>`
                     : '';
                 const validityText = getOfferValidityText(item, "short");
 
@@ -3261,7 +3302,7 @@ function renderBaselineRecommendations() {
                                 </div>
                                 <div class="bulk-price">Обичайна цена ~${formatRoundedHalfLev(typical)} лв</div>
                                 ${lowest != null ? `<div class="bulk-meta">Най-ниска видяна: ${formatRoundedHalfLev(lowest)} лв</div>` : ""}
-                                ${item.price_per_kg ? `<div class="bulk-meta">${item.price_per_kg.toFixed(2)} лв/кг</div>` : ""}
+                                ${getReliablePricePerKg(item) ? `<div class="bulk-meta">${getReliablePricePerKg(item).toFixed(2)} лв/кг</div>` : ""}
                                 ${metrics ? `<div class="bulk-tip">Около ${metrics.adjustedProteinPerLev.toFixed(1)} г ефективен протеин на 1 лв.</div>` : `<div class="bulk-tip">Силен базов продукт дори когато не е на промоция.</div>`}
                             </div>
                         `;
@@ -3288,7 +3329,7 @@ function renderProfileRecommendations(profile) {
 
     filtered.sort((a, b) => {
         if ((b.health_score || 0) !== (a.health_score || 0)) return (b.health_score || 0) - (a.health_score || 0);
-        return (a.price_per_kg || 999) - (b.price_per_kg || 999);
+        return (getReliablePricePerKg(a) || 999) - (getReliablePricePerKg(b) || 999);
     });
 
     const top5 = filtered.slice(0, 5);
@@ -3314,7 +3355,7 @@ function renderProfileRecommendations(profile) {
                 <div class="offer-info">
                     <div class="offer-name">${o.name}</div>
                     <div class="offer-store">${o.store} — <em class="green">${o.new_price.toFixed(2)} лв</em></div>
-                    ${o.price_per_kg ? `<div style="font-size:0.8rem; color:var(--muted); margin-top:4px;">${o.price_per_kg.toFixed(2)} лв/кг</div>` : ""}
+                    ${getReliablePricePerKg(o) ? `<div style="font-size:0.8rem; color:var(--muted); margin-top:4px;">${getReliablePricePerKg(o).toFixed(2)} лв/кг</div>` : ""}
                 </div>
                 <button class="fav-btn${isFavorited(o) ? ' active' : ''}" data-offer-id="${getOfferDomId(o)}" title="${isFavorited(o) ? 'Премахни от списъка' : 'Добави към списъка'}">❤️</button>
             </div>
