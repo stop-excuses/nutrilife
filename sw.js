@@ -1,4 +1,4 @@
-const CACHE_NAME = 'nutrilife-v6';
+const CACHE_NAME = 'nutrilife-v7';
 
 self.addEventListener('install', event => {
   event.waitUntil(self.skipWaiting());
@@ -19,7 +19,7 @@ self.addEventListener('fetch', event => {
   if (url.origin !== self.location.origin) return;
 
   event.respondWith(
-    fetch(event.request)
+    fetch(event.request, { cache: 'no-store' })
       .then(response => {
         if (response.ok) {
           const clone = response.clone();
