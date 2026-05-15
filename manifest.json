@@ -1,18 +1,65 @@
 {
+  "id": "/nutrilife/",
   "name": "NutriLife — Все още имаш контрол",
   "short_name": "NutriLife",
-  "description": "Не е за диети и фитнес. За това как спираш бавното влошаване — с малки неща, правени редовно.",
-  "start_url": "/nutrilife/",
+  "description": "Български app-like помощник за движение, хранене, добавки и по-умно пазаруване.",
+  "lang": "bg",
+  "dir": "ltr",
+  "start_url": "/nutrilife/index.html?source=pwa",
   "scope": "/nutrilife/",
   "display": "standalone",
+  "display_override": ["standalone", "minimal-ui", "browser"],
+  "orientation": "portrait",
   "background_color": "#0a0a0a",
   "theme_color": "#3B6D11",
+  "categories": ["health", "fitness", "food", "lifestyle"],
   "icons": [
     {
-      "src": "favicon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
-      "purpose": "any maskable"
+      "src": "images/pwa/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "images/pwa/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "images/pwa/icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "images/pwa/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Умна храна",
+      "short_name": "Храна",
+      "description": "Промоции и сравнения на продукти",
+      "url": "/nutrilife/smart-food.html",
+      "icons": [{ "src": "images/pwa/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Умни добавки",
+      "short_name": "Добавки",
+      "description": "Цена на активна доза при добавки",
+      "url": "/nutrilife/smart-supplements.html",
+      "icons": [{ "src": "images/pwa/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "7-дневен старт",
+      "short_name": "Старт",
+      "description": "План и дневен tracker",
+      "url": "/nutrilife/start.html",
+      "icons": [{ "src": "images/pwa/icon-192.png", "sizes": "192x192" }]
     }
   ]
 }
