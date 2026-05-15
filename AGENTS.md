@@ -85,6 +85,7 @@ update_i18n.py            Initial setup of data-i18n attributes across all HTML 
 
 **General**
 - Prefer proven libraries over hand-rolled code. Use `Fuse.js` for fuzzy search, `BeautifulSoup`/`requests` for HTML extraction, `pdfplumber` for PDFs.
+- Be proactive and persistent: don't stop at "tool unavailable" if the next practical step is to install it, find its direct path, use an authenticated connector, or document the exact credential/login blocker. Avoid lazy handoffs.
 - Don't add features, comments, error handling, or abstractions beyond what the task requires.
 - Don't create new files unless necessary — extend existing ones.
 - No backwards-compatibility shims. If something is unused, delete it.
