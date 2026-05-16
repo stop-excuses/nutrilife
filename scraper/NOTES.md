@@ -26,11 +26,13 @@ python sync_offers.py         # sync offers.json → data/offers.js (for GitHub 
 - Lidl: embedded JSON in category pages (promos + assortment)
 - Fantastico: CSV export (all products — promos + assortment, ~2300 unique)
 - Dar: CSV export (all products — Fantastico group, ~1300 unique)
-- T-Market: requests scraper — 12 major category pages with pagination
-  (~5300 unique products; promos + assortment; no Playwright needed)
+- T-Market: official KZP CSV from `ftp.cloudcart.com/tmarket_kzp/viewer.php`
+  (promos + assortment). The old `tmarketonline.bg` category scraper is fallback only.
 
 ## Known issues / blockers
 - broshura.bg returns 403 intermittently → retry+backoff is in place
+- tmarketonline.bg returns Cloudflare 403/JS challenge to Python/Playwright as of May 2026;
+  use the official T-Market CSV instead of the online-shop category pages.
 - Billa full catalog not available via ssbbilla.site (weekly brochure only)
 - Kaufland catalog pages not yet scraped (only offers page)
 

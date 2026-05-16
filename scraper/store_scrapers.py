@@ -871,6 +871,8 @@ def scrape_dar_csv() -> list[dict]:
 
 TMARKET_BASE = "https://tmarketonline.bg"
 TMARKET_URL = f"{TMARKET_BASE}/selection/produkti-v-akciya"
+TMARKET_KZP_CSV_URL = "https://ftp.cloudcart.com/tmarket_kzp/viewer.php?embed=1&clean=1&download=1"
+BGN_TO_EUR = 1.95583
 TMARKET_CHROME_PROFILE = r"C:\Users\JohnnyBravo\AppData\Local\Temp\pw_chrome_profile"
 TMARKET_HEADERS = {
     "User-Agent": USER_AGENT,
@@ -894,6 +896,104 @@ TMARKET_CATALOG_SLUGS = [
     "napitki",                      # all drinks (water, juices, beer, wine, spirits)
     "kafe-chay-i-zaharni-izdeliya", # coffee, tea, sweets
 ]
+
+
+def _parse_tmarket_validity(value: str) -> tuple[Optional[str], Optional[str]]:
+    """Parse T-Market CSV validity like 12.05.2026-18.05.2026."""
+    if not value:
+        return None, None
+    dates = re.findall(r"(\d{2})\.(\d{2})\.(\d{4})", value)
+    if not dates:
+        return None, None
+    iso = [f"{yyyy}-{mm}-{dd}" for dd, mm, yyyy in dates]
+    if len(iso) == 1:
+        return None, iso[0]
+    return iso[0], iso[1]
+
+
+def _parse_tmarket_float(value: str) -> Optional[float]:
+    if not value:
+        return None
+    try:
+        return float(value.strip().replace(",", "."))
+    except ValueError:
+        return None
+
+
+def _eur_to_bgn(value: Optional[float]) -> Optional[float]:
+    return round(value * BGN_TO_EUR, 2) if value is not None else None
+
+
+def scrape_tmarket_csv() -> list[dict]:
+    """Download T-Market official KZP CSV instead of the Cloudflare-blocked shop."""
+    import csv
+    import io
+
+    items = []
+    try:
+        resp = requests.get(
+            TMARKET_KZP_CSV_URL,
+            headers={
+                "User-Agent": USER_AGENT,
+                "Referer": "https://tmarket.bg/page/ceni-za-denya",
+                "Accept-Language": "bg-BG,bg;q=0.9",
+            },
+            timeout=30,
+        )
+        resp.raise_for_status()
+        raw = resp.content.decode("utf-8-sig", errors="replace")
+        reader = csv.DictReader(io.StringIO(raw))
+        best_by_code: dict[str, dict] = {}
+
+        for row in reader:
+            name = (row.get("Наименование на продукта") or "").strip()
+            code = (row.get("Код на продукта") or "").strip()
+            retail_eur = _parse_tmarket_float(row.get("Цена на дребно в €") or "")
+            promo_eur = _parse_tmarket_float(row.get("Цена в промоция в €") or "")
+            valid_from, valid_until = _parse_tmarket_validity(row.get("Валидност") or "")
+
+            if not name or retail_eur is None:
+                continue
+
+            is_promo = promo_eur is not None and promo_eur > 0 and promo_eur < retail_eur
+            new_price = _eur_to_bgn(promo_eur if is_promo else retail_eur)
+            old_price = _eur_to_bgn(retail_eur) if is_promo else None
+            if not new_price or new_price <= 0:
+                continue
+
+            discount_pct = None
+            if old_price and old_price > new_price:
+                discount_pct = int(round((1 - new_price / old_price) * 100))
+
+            item = make_raw_item(
+                name,
+                new_price,
+                old_price,
+                discount_pct,
+                None,
+                "T-Market",
+                "tmarket_csv",
+                source_type="promo" if is_promo else "assortment",
+                valid_from=valid_from,
+                valid_until=valid_until,
+            )
+
+            key = code or name.lower().strip()
+            existing = best_by_code.get(key)
+            if existing is None:
+                best_by_code[key] = item
+            elif item.get("old_price") and not existing.get("old_price"):
+                best_by_code[key] = item
+            elif item.get("new_price", 0) < existing.get("new_price", 999999):
+                best_by_code[key] = item
+
+        items = list(best_by_code.values())
+        promo_count = sum(1 for it in items if it.get("old_price"))
+        print(f"  [T-Market CSV] {len(items)} unique items ({promo_count} on promo)")
+    except Exception as e:
+        print(f"  [T-Market CSV] Error: {e}")
+
+    return items
 
 
 def _parse_tmarket_cards(soup: BeautifulSoup, source: str) -> list[dict]:
@@ -1023,7 +1123,12 @@ def scrape_tmarket_catalog() -> list[dict]:
 
 
 def scrape_tmarket_text() -> list[dict]:
-    """Scrape T-Market — full catalog (category pages) + promo page merged."""
+    """Scrape T-Market via official CSV, with old shop pages as best-effort fallback."""
+    csv_items = scrape_tmarket_csv()
+    if csv_items:
+        return csv_items
+
+    print("  [T-Market] CSV unavailable; falling back to Cloudflare-prone shop pages")
     catalog = scrape_tmarket_catalog()
     # Also grab promo page to catch any promos not in the category scrape
     promo_items = []

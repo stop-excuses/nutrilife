@@ -72,7 +72,7 @@ except ImportError as _e:
 # Priority order for deduplication: structured DOM/API > brochure listing
 SOURCE_PRIORITY = {
     "kaufland_dom": 3, "billa_text": 3,
-    "lidl_dom": 3, "tmarket_dom": 3,
+    "lidl_dom": 3, "tmarket_dom": 3, "tmarket_csv": 3,
     "fantastico_csv": 3, "dar_csv": 3,
     "structured": 3,
     "brochure": 2,
