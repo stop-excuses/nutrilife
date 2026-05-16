@@ -73,7 +73,7 @@
 
         items = DATA.supplements
             .map(normalizeItem)
-            .filter(item => item.unitValue !== null && item.unitValue > 0);
+            .filter(item => item.unitValue !== null && item.unitValue > 0 && item.availability_status !== 'out_of_stock');
 
         renderSummary();
         renderStoreFilters();
@@ -224,14 +224,16 @@
             if (filters.sort === 'confidence') {
                 return (confidenceScore[b.confidence] || 0) - (confidenceScore[a.confidence] || 0) || a.unitValue - b.unitValue;
             }
-            if (filters.sort === 'unit' && filters.category === 'protein') {
-                return (confidenceScore[b.confidence] || 0) - (confidenceScore[a.confidence] || 0) || a.unitValue - b.unitValue;
-            }
             if (filters.sort === 'store') {
                 return a.store.localeCompare(b.store, 'bg') || a.category.localeCompare(b.category, 'bg') || a.unitValue - b.unitValue;
             }
-            return a.unitValue - b.unitValue;
+            return valueSortScore(a) - valueSortScore(b) || (confidenceScore[b.confidence] || 0) - (confidenceScore[a.confidence] || 0);
         });
+    }
+
+    function valueSortScore(item) {
+        const confidencePenalty = { high: 1, medium: 1.08, low: 1.18 };
+        return item.unitValue * (confidencePenalty[item.confidence] || 1.25);
     }
 
     function renderStatus(count) {
@@ -361,12 +363,7 @@
     }
 
     function compareBestCandidate(a, b) {
-        const confidenceScore = { high: 3, medium: 2, low: 1 };
-        if (a.category === 'protein') {
-            const confidenceDiff = (confidenceScore[b.confidence] || 0) - (confidenceScore[a.confidence] || 0);
-            if (confidenceDiff !== 0) return confidenceDiff;
-        }
-        return a.unitValue - b.unitValue;
+        return valueSortScore(a) - valueSortScore(b);
     }
 
     function resetFilters() {

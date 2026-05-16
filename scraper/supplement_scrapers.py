@@ -243,7 +243,76 @@ def find_product_json(json_ld: list[dict]) -> dict:
     return {}
 
 
-def parse_price(product: dict, text: str) -> tuple[float | None, float | None, str | None]:
+def flatten_offers(offers) -> list[dict]:
+    if isinstance(offers, list):
+        result = []
+        for offer in offers:
+            result.extend(flatten_offers(offer))
+        return result
+    if not isinstance(offers, dict):
+        return []
+    nested = offers.get("offers")
+    if nested:
+        return flatten_offers(nested)
+    return [offers]
+
+
+def is_offer_in_stock(offer: dict) -> bool:
+    availability = str(offer.get("availability", "")).lower()
+    if any(token in availability for token in ("outofstock", "soldout", "unavailable", "discontinued")):
+        return False
+    if any(token in availability for token in ("instock", "limitedavailability", "preorder", "presale")):
+        return True
+    return True
+
+
+def parse_structured_offer(product: dict) -> tuple[float | None, float | None, str | None, str | None, str | None]:
+    offers = product.get("offers") or {}
+    flat = flatten_offers(offers)
+    candidates = [offer for offer in flat if is_offer_in_stock(offer)] or flat
+
+    parsed = []
+    for offer in candidates:
+        price = parse_number(str(offer.get("price", "")))
+        currency = offer.get("priceCurrency")
+        if price is not None:
+            parsed.append((price, currency, offer))
+
+    if not parsed and isinstance(offers, dict):
+        for key in ("lowPrice", "highPrice"):
+            price = parse_number(str(offers.get(key, "")))
+            currency = offers.get("priceCurrency")
+            if price is not None:
+                parsed.append((price, currency, offers))
+                break
+
+    if not parsed:
+        return None, None, None, None, None
+
+    price, currency, offer = min(parsed, key=lambda row: row[0])
+    availability_status = "in_stock" if is_offer_in_stock(offer) else "out_of_stock"
+    offer_name = normalize_text(str(offer.get("name", ""))) if offer.get("name") else None
+    if currency == "EUR":
+        return round(price * BGN_TO_EUR, 2), price, "EUR", availability_status, offer_name
+    if currency == "BGN":
+        return price, round(price / BGN_TO_EUR, 2), "BGN", availability_status, offer_name
+    return price, round(price / BGN_TO_EUR, 2), currency or "structured", availability_status, offer_name
+
+
+def detect_text_availability(text: str) -> str | None:
+    lower = text.lower()
+    if any(token in lower for token in ("няма наличност", "изчерпано количество", "в момента не е налично", "out of stock", "sold out")):
+        return "out_of_stock"
+    if any(token in lower for token in ("в наличност", "купи", "in stock")):
+        return "in_stock"
+    return None
+
+
+def parse_price(product: dict, text: str) -> tuple[float | None, float | None, str | None, str | None, str | None]:
+    structured = parse_structured_offer(product)
+    if structured[0] is not None:
+        return structured
+
     offers = product.get("offers") or {}
     if isinstance(offers, list):
         offers = offers[0] if offers else {}
@@ -251,9 +320,9 @@ def parse_price(product: dict, text: str) -> tuple[float | None, float | None, s
     currency = offers.get("priceCurrency") if isinstance(offers, dict) else None
     if price is not None:
         if currency == "EUR":
-            return round(price * BGN_TO_EUR, 2), price, "EUR"
+            return round(price * BGN_TO_EUR, 2), price, "EUR", detect_text_availability(text), None
         if currency == "BGN":
-            return price, round(price / BGN_TO_EUR, 2), "BGN"
+            return price, round(price / BGN_TO_EUR, 2), "BGN", detect_text_availability(text), None
 
     bgn_patterns = (
         r"(\d+(?:[,.]\d{1,2})?)\s*лв",
@@ -263,8 +332,8 @@ def parse_price(product: dict, text: str) -> tuple[float | None, float | None, s
         match = re.search(pattern, text, re.I)
         if match:
             price_bgn = parse_number(match.group(1))
-            return price_bgn, round(price_bgn / BGN_TO_EUR, 2), "BGN"
-    return None, None, None
+            return price_bgn, round(price_bgn / BGN_TO_EUR, 2), "BGN", detect_text_availability(text), None
+    return None, None, None, detect_text_availability(text), None
 
 
 def parse_number(value: str) -> float | None:
@@ -301,6 +370,27 @@ def parse_weight_grams(text: str) -> float | None:
             continue
         return round(amount * 1000, 2) if unit in {"кг", "kg"} else amount
     return None
+
+
+def parse_largest_weight_grams(text: str) -> float | None:
+    weights = []
+    patterns = (
+        r"(\d+(?:[,.]\d+)?)\s*(кг|kg|гр|(?<!м)г|(?<!m)g)\b",
+        r"(\d+(?:[,.]\d+)?)\s*(?:x|х)\s*(\d+(?:[,.]\d+)?)\s*(гр|(?<!м)г|(?<!m)g)",
+    )
+    for pattern in patterns:
+        for match in re.finditer(pattern, text, re.I):
+            if len(match.groups()) >= 3 and match.group(3):
+                left = parse_number(match.group(1)) or 0
+                right = parse_number(match.group(2)) or 0
+                if left and right:
+                    weights.append(round(left * right, 2))
+                continue
+            amount = parse_number(match.group(1))
+            unit = match.group(2).lower()
+            if amount is not None:
+                weights.append(round(amount * 1000, 2) if unit in {"кг", "kg"} else amount)
+    return max(weights) if weights else None
 
 
 def parse_count(text: str) -> int | None:
@@ -727,7 +817,9 @@ def parse_product(source: Source, url: str, forced_category: str | None = None) 
         return None
     if not is_relevant_product(category, name, url):
         return None
-    price_bgn, price_eur, currency_source = parse_price(product, text)
+    price_bgn, price_eur, currency_source, availability_status, offer_name = parse_price(product, text)
+    if availability_status == "out_of_stock":
+        return None
     if price_bgn is not None and price_bgn < 1:
         return None
     brand = product.get("brand")
@@ -739,8 +831,14 @@ def parse_product(source: Source, url: str, forced_category: str | None = None) 
     if isinstance(image, dict):
         image = image.get("url")
 
-    weight_grams = parse_weight_grams(f"{name} {text}")
+    offer_weight_grams = parse_largest_weight_grams(offer_name or "") if offer_name else None
+    weight_grams = offer_weight_grams or parse_weight_grams(f"{name} {text}")
     servings = parse_servings(text)
+    serving_grams = parse_serving_grams(text)
+    if category == "protein" and weight_grams and serving_grams and weight_grams > serving_grams:
+        estimated_servings = max(1, int(weight_grams // serving_grams))
+        if not servings or servings < max(10, estimated_servings // 3):
+            servings = estimated_servings
     count = parse_count(name) or parse_count(f"{name} {text}")
     active_text = normalize_text(f"{name} {detail_text or text} {text[:5000]}")
     active, _, confidence = extract_active(category, active_text, weight_grams, servings, count)
@@ -762,6 +860,7 @@ def parse_product(source: Source, url: str, forced_category: str | None = None) 
         "price_bgn": price_bgn,
         "price_eur": price_eur,
         "currency_source": currency_source,
+        "availability_status": availability_status or "unknown",
         "weight_grams": weight_grams,
         "servings": servings,
         "count": count,

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-14T15:08:00.069560Z",
-  "total_supplements": 264,
+  "generated_at": "2026-05-16T05:12:36.417082Z",
+  "total_supplements": 257,
   "sources": [
     "Fitness1",
     "Framar",
@@ -5091,30 +5091,6 @@
       "scraped_at": "2026-05-14T15:04:04.599791Z"
     },
     {
-      "id": "gymbeam-креатин-tri-creatine-malate---gymbeam",
-      "store": "GymBeam",
-      "name": "Креатин Tri-Creatine Malate - GymBeam",
-      "brand": "GymBeam",
-      "category": "creatine",
-      "url": "https://gymbeam.bg/kreatin-tri-creatine-malate-gymbeam.html",
-      "image": "https://gymbeam.bg/media/catalog/product/cache/70f742f66feec18cb83790f14444a3d1/t/r/tricreatinemalate_500_1.jpg",
-      "price_bgn": 20.0,
-      "price_eur": 10.23,
-      "currency_source": "BGN",
-      "weight_grams": 100.0,
-      "servings": null,
-      "count": null,
-      "active": {
-        "creatine_mg_per_serving": 3000
-      },
-      "price_per_active_unit": {
-        "bgn_per_5g_creatine": 1.0
-      },
-      "unit_label": "лв / 5 g креатин",
-      "confidence": "high",
-      "scraped_at": "2026-05-14T15:04:06.435672Z"
-    },
-    {
       "id": "gymbeam-креатин-100-creapure---gymbeam",
       "store": "GymBeam",
       "name": "Креатин (100% Creapure®) - GymBeam",
@@ -5122,9 +5098,9 @@
       "category": "creatine",
       "url": "https://gymbeam.bg/kreatin-100-creapurer-gymbeam.html",
       "image": "https://gymbeam.bg/media/catalog/product/cache/70f742f66feec18cb83790f14444a3d1/0/1/01-09-2025-daily-bezlabel-creatine_caps_-_100_creapure_-_gymbeam_78079_.jpg",
-      "price_bgn": 20.0,
-      "price_eur": 10.23,
-      "currency_source": "BGN",
+      "price_bgn": 32.27,
+      "price_eur": 16.5,
+      "currency_source": "EUR",
       "weight_grams": 3.0,
       "servings": null,
       "count": 5,
@@ -5132,11 +5108,12 @@
         "creatine_total_mg": 3000
       },
       "price_per_active_unit": {
-        "bgn_per_5g_creatine": 33.33
+        "bgn_per_5g_creatine": 53.78
       },
       "unit_label": "лв / 5 g креатин",
       "confidence": "medium",
-      "scraped_at": "2026-05-14T15:04:12.938709Z"
+      "scraped_at": "2026-05-14T15:04:12.938709Z",
+      "availability_status": "in_stock"
     },
     {
       "id": "gymbeam-omega-3-high-strength---the-protein-works",
@@ -5146,9 +5123,9 @@
       "category": "omega3",
       "url": "https://gymbeam.bg/omega-3-the-protein-works.html",
       "image": "https://gymbeam.bg/media/catalog/product/cache/70f742f66feec18cb83790f14444a3d1/o/m/omega_high_strength_90_softgels.1.jpg",
-      "price_bgn": 20.0,
-      "price_eur": 10.23,
-      "currency_source": "BGN",
+      "price_bgn": 26.4,
+      "price_eur": 13.5,
+      "currency_source": "EUR",
       "weight_grams": 2026.0,
       "servings": null,
       "count": null,
@@ -5158,11 +5135,12 @@
         "epa_dha_mg": 550
       },
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 36.36
+        "bgn_per_1000mg_epa_dha": 48.0
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
-      "scraped_at": "2026-05-14T15:04:15.353334Z"
+      "scraped_at": "2026-05-14T15:04:15.353334Z",
+      "availability_status": "in_stock"
     },
     {
       "id": "gymbeam-омега-3-ultra---the-protein-works",
@@ -5172,9 +5150,9 @@
       "category": "omega3",
       "url": "https://gymbeam.bg/omega-3-ultra-the-protein-works.html",
       "image": "https://gymbeam.bg/media/catalog/product/cache/70f742f66feec18cb83790f14444a3d1/p/i/pillultraomega_right-pdp2018.jpg",
-      "price_bgn": 20.0,
-      "price_eur": 10.23,
-      "currency_source": "BGN",
+      "price_bgn": 29.24,
+      "price_eur": 14.95,
+      "currency_source": "EUR",
       "weight_grams": 2026.0,
       "servings": null,
       "count": null,
@@ -5184,11 +5162,12 @@
         "epa_dha_mg": 1330
       },
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 15.04
+        "bgn_per_1000mg_epa_dha": 21.99
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
-      "scraped_at": "2026-05-14T15:04:16.675222Z"
+      "scraped_at": "2026-05-14T15:04:16.675222Z",
+      "availability_status": "in_stock"
     },
     {
       "id": "gymbeam-premium-omega-3---gymbeam",
@@ -5198,9 +5177,9 @@
       "category": "omega3",
       "url": "https://gymbeam.bg/premium-omega-3-gymbeam.html",
       "image": "https://gymbeam.bg/media/catalog/product/cache/70f742f66feec18cb83790f14444a3d1/p/r/premium_omega_3_oil_250_ml_gymbeam.png",
-      "price_bgn": 20.0,
-      "price_eur": 10.23,
-      "currency_source": "BGN",
+      "price_bgn": 24.45,
+      "price_eur": 12.5,
+      "currency_source": "EUR",
       "weight_grams": 2026.0,
       "servings": null,
       "count": null,
@@ -5210,37 +5189,12 @@
         "epa_dha_mg": 1090
       },
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 18.35
+        "bgn_per_1000mg_epa_dha": 22.43
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
-      "scraped_at": "2026-05-14T15:04:17.995772Z"
-    },
-    {
-      "id": "gymbeam-комплекс-от-рибено-масло-и-масло-от-крил---gymbeam",
-      "store": "GymBeam",
-      "name": "Комплекс от рибено масло и масло от крил - GymBeam",
-      "brand": "GymBeam",
-      "category": "omega3",
-      "url": "https://gymbeam.bg/kompleks-ot-ribeno-maslo-i-maslo-ot-kril-gymbeam.html",
-      "image": "https://gymbeam.bg/media/catalog/product/cache/70f742f66feec18cb83790f14444a3d1/k/r/krill_fish_oil_complex_90_softgels_gymbeam.png",
-      "price_bgn": 20.0,
-      "price_eur": 10.23,
-      "currency_source": "BGN",
-      "weight_grams": 2026.0,
-      "servings": null,
-      "count": 2,
-      "active": {
-        "epa_mg": 250,
-        "dha_mg": 80,
-        "epa_dha_mg": 330
-      },
-      "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 30.3
-      },
-      "unit_label": "лв / 1000 mg EPA+DHA",
-      "confidence": "high",
-      "scraped_at": "2026-05-14T15:04:19.355725Z"
+      "scraped_at": "2026-05-14T15:04:17.995772Z",
+      "availability_status": "in_stock"
     },
     {
       "id": "gymbeam-pink-omega---beastpink",
@@ -5250,9 +5204,9 @@
       "category": "omega3",
       "url": "https://gymbeam.bg/pink-omega-beastpink.html",
       "image": "https://gymbeam.bg/media/catalog/product/cache/70f742f66feec18cb83790f14444a3d1/o/m/omega.png",
-      "price_bgn": 20.0,
-      "price_eur": 10.23,
-      "currency_source": "BGN",
+      "price_bgn": 28.36,
+      "price_eur": 14.5,
+      "currency_source": "EUR",
       "weight_grams": 2026.0,
       "servings": null,
       "count": 2,
@@ -5262,11 +5216,12 @@
         "epa_dha_mg": 500
       },
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 20.0
+        "bgn_per_1000mg_epa_dha": 28.36
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
-      "scraped_at": "2026-05-14T15:04:21.981411Z"
+      "scraped_at": "2026-05-14T15:04:21.981411Z",
+      "availability_status": "in_stock"
     },
     {
       "id": "gymbeam-омега-3-6-9---gymbeam",
@@ -5276,9 +5231,9 @@
       "category": "omega3",
       "url": "https://gymbeam.bg/omega-3-6-9-gymbeam.html",
       "image": "https://gymbeam.bg/media/catalog/product/cache/70f742f66feec18cb83790f14444a3d1/o/m/omega_3-6-9_60_caps_gymbeam.png",
-      "price_bgn": 20.0,
-      "price_eur": 10.23,
-      "currency_source": "BGN",
+      "price_bgn": 11.64,
+      "price_eur": 5.95,
+      "currency_source": "EUR",
       "weight_grams": 2026.0,
       "servings": null,
       "count": 2,
@@ -5288,11 +5243,12 @@
         "epa_dha_mg": 394
       },
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 25.38
+        "bgn_per_1000mg_epa_dha": 14.77
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
-      "scraped_at": "2026-05-14T15:04:23.301951Z"
+      "scraped_at": "2026-05-14T15:04:23.301951Z",
+      "availability_status": "in_stock"
     },
     {
       "id": "gymbeam-омега-3---gymbeam",
@@ -5302,9 +5258,9 @@
       "category": "omega3",
       "url": "https://gymbeam.bg/omega-3-gymbeam.html",
       "image": "https://gymbeam.bg/media/catalog/product/cache/70f742f66feec18cb83790f14444a3d1/o/m/omega-3-gymbeam-5585-500-caps-copy-2.jpg",
-      "price_bgn": 20.0,
-      "price_eur": 10.23,
-      "currency_source": "BGN",
+      "price_bgn": 10.76,
+      "price_eur": 5.5,
+      "currency_source": "EUR",
       "weight_grams": 2026.0,
       "servings": null,
       "count": 2,
@@ -5314,11 +5270,12 @@
         "epa_dha_mg": 4000
       },
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 2.5
+        "bgn_per_1000mg_epa_dha": 1.35
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
-      "scraped_at": "2026-05-14T15:04:24.591490Z"
+      "scraped_at": "2026-05-14T15:04:24.591490Z",
+      "availability_status": "in_stock"
     },
     {
       "id": "gymbeam-магнезиев-цитрат-200-mg---now-foods",
@@ -5328,9 +5285,9 @@
       "category": "magnesium",
       "url": "https://gymbeam.bg/magnesium-citrate-200-mg-now-foods.html",
       "image": "https://gymbeam.bg/media/catalog/product/cache/70f742f66feec18cb83790f14444a3d1/u/n/untitled_design_-_2020-04-08t212743.507.png",
-      "price_bgn": 20.0,
-      "price_eur": 10.23,
-      "currency_source": "BGN",
+      "price_bgn": 31.2,
+      "price_eur": 15.95,
+      "currency_source": "EUR",
       "weight_grams": 2026.0,
       "servings": null,
       "count": 2,
@@ -5338,11 +5295,12 @@
         "magnesium_mg": 400
       },
       "price_per_active_unit": {
-        "bgn_per_100mg_magnesium": 2.5
+        "bgn_per_100mg_magnesium": 3.9
       },
       "unit_label": "лв / 100 mg магнезий",
       "confidence": "high",
-      "scraped_at": "2026-05-14T15:04:25.843805Z"
+      "scraped_at": "2026-05-14T15:04:25.843805Z",
+      "availability_status": "in_stock"
     },
     {
       "id": "gymbeam-triple-magnesium---gymbeam",
@@ -5352,9 +5310,9 @@
       "category": "magnesium",
       "url": "https://gymbeam.bg/triple-magnesium-gymbeam.html",
       "image": "https://gymbeam.bg/media/catalog/product/cache/70f742f66feec18cb83790f14444a3d1/t/r/tripple_magnesium_90_vegan_casp_gymbeam_1_.png",
-      "price_bgn": 20.0,
-      "price_eur": 10.23,
-      "currency_source": "BGN",
+      "price_bgn": 22.49,
+      "price_eur": 11.5,
+      "currency_source": "EUR",
       "weight_grams": 2026.0,
       "servings": null,
       "count": 2,
@@ -5362,35 +5320,12 @@
         "magnesium_mg": 375
       },
       "price_per_active_unit": {
-        "bgn_per_100mg_magnesium": 2.67
+        "bgn_per_100mg_magnesium": 3.0
       },
       "unit_label": "лв / 100 mg магнезий",
       "confidence": "high",
-      "scraped_at": "2026-05-14T15:04:28.379908Z"
-    },
-    {
-      "id": "gymbeam-magtein-магнезиев-l-треонат---gymbeam",
-      "store": "GymBeam",
-      "name": "Magtein® (магнезиев L-треонат) - GymBeam",
-      "brand": "GymBeam",
-      "category": "magnesium",
-      "url": "https://gymbeam.bg/magteinr-magnesium-l-threonate-gymbeam.html",
-      "image": "https://gymbeam.bg/media/catalog/product/cache/70f742f66feec18cb83790f14444a3d1/m/a/magtein_magnesium_l-threonate_120_vegan_caps_gymbeam.png",
-      "price_bgn": 20.0,
-      "price_eur": 10.23,
-      "currency_source": "BGN",
-      "weight_grams": 5.2026,
-      "servings": null,
-      "count": 3,
-      "active": {
-        "magnesium_mg": 150
-      },
-      "price_per_active_unit": {
-        "bgn_per_100mg_magnesium": 4.44
-      },
-      "unit_label": "лв / 100 mg магнезий",
-      "confidence": "high",
-      "scraped_at": "2026-05-14T15:04:29.584409Z"
+      "scraped_at": "2026-05-14T15:04:28.379908Z",
+      "availability_status": "in_stock"
     },
     {
       "id": "gymbeam-витамин-d-1000-iu---now-foods",
@@ -5400,9 +5335,9 @@
       "category": "vitamin_d",
       "url": "https://gymbeam.bg/vegan-vitamin-d-1000-iu-now-foods.html",
       "image": "https://gymbeam.bg/media/catalog/product/cache/70f742f66feec18cb83790f14444a3d1/u/n/untitled_design_-_2020-04-17t215546.799.png",
-      "price_bgn": 20.0,
-      "price_eur": 10.23,
-      "currency_source": "BGN",
+      "price_bgn": 19.46,
+      "price_eur": 9.95,
+      "currency_source": "EUR",
       "weight_grams": 5.2026,
       "servings": null,
       "count": 1,
@@ -5410,35 +5345,12 @@
         "vitamin_d_iu": 1000
       },
       "price_per_active_unit": {
-        "bgn_per_1000iu_d3": 20.0
+        "bgn_per_1000iu_d3": 19.46
       },
       "unit_label": "лв / 1000 IU D3",
       "confidence": "high",
-      "scraped_at": "2026-05-14T15:04:32.142234Z"
-    },
-    {
-      "id": "gymbeam-витамин-d3-super-strength---the-protein-works",
-      "store": "GymBeam",
-      "name": "Витамин D3 Super Strength - The Protein Works",
-      "brand": "The Protein Works",
-      "category": "vitamin_d",
-      "url": "https://gymbeam.bg/vitamin-d3-the-protein-works.html",
-      "image": "https://gymbeam.bg/media/catalog/product/cache/70f742f66feec18cb83790f14444a3d1/v/i/vitamin_d3_super_strength_180_tablets.1.png",
-      "price_bgn": 20.0,
-      "price_eur": 10.23,
-      "currency_source": "BGN",
-      "weight_grams": 2026.0,
-      "servings": null,
-      "count": 1,
-      "active": {
-        "vitamin_d_iu": 2500
-      },
-      "price_per_active_unit": {
-        "bgn_per_1000iu_d3": 8.0
-      },
-      "unit_label": "лв / 1000 IU D3",
-      "confidence": "high",
-      "scraped_at": "2026-05-14T15:04:33.362755Z"
+      "scraped_at": "2026-05-14T15:04:32.142234Z",
+      "availability_status": "in_stock"
     },
     {
       "id": "gymbeam-витамин-d3-спреи-1000-iu---gymbeam",
@@ -5448,9 +5360,9 @@
       "category": "vitamin_d",
       "url": "https://gymbeam.bg/vitamin-d3-spray-gymbeam.html",
       "image": "https://gymbeam.bg/media/catalog/product/cache/70f742f66feec18cb83790f14444a3d1/v/i/vitamin_d3_spray_30_ml_gymbeam_01.png",
-      "price_bgn": 20.0,
-      "price_eur": 10.23,
-      "currency_source": "BGN",
+      "price_bgn": 12.71,
+      "price_eur": 6.5,
+      "currency_source": "EUR",
       "weight_grams": 2026.0,
       "servings": 428,
       "count": null,
@@ -5458,11 +5370,12 @@
         "vitamin_d_iu": 1000
       },
       "price_per_active_unit": {
-        "bgn_per_1000iu_d3": 0.05
+        "bgn_per_1000iu_d3": 0.03
       },
       "unit_label": "лв / 1000 IU D3",
       "confidence": "high",
-      "scraped_at": "2026-05-14T15:04:34.584196Z"
+      "scraped_at": "2026-05-14T15:04:34.584196Z",
+      "availability_status": "in_stock"
     },
     {
       "id": "gymbeam-дъвчащ-витамин-d3-за-деца-400-iu---gymbeam",
@@ -5472,9 +5385,9 @@
       "category": "vitamin_d",
       "url": "https://gymbeam.bg/vitamin-d3-tabletki-za-smuchene-za-deca-gymbeam.html",
       "image": "https://gymbeam.bg/media/catalog/product/cache/70f742f66feec18cb83790f14444a3d1/d/a/daily-bezlabel-13_02_2025-chewable_vitamin_d3_for_kids_63721_.jpg",
-      "price_bgn": 20.0,
-      "price_eur": 10.23,
-      "currency_source": "BGN",
+      "price_bgn": 15.55,
+      "price_eur": 7.95,
+      "currency_source": "EUR",
       "weight_grams": 2026.0,
       "servings": null,
       "count": 1,
@@ -5482,11 +5395,12 @@
         "vitamin_d_iu": 400
       },
       "price_per_active_unit": {
-        "bgn_per_1000iu_d3": 50.0
+        "bgn_per_1000iu_d3": 38.88
       },
       "unit_label": "лв / 1000 IU D3",
       "confidence": "high",
-      "scraped_at": "2026-05-14T15:04:35.806451Z"
+      "scraped_at": "2026-05-14T15:04:35.806451Z",
+      "availability_status": "in_stock"
     },
     {
       "id": "gymbeam-био-витамин-d3-800-iu---vanavita",
@@ -5496,9 +5410,9 @@
       "category": "vitamin_d",
       "url": "https://gymbeam.bg/bio-vitamin-d3-vanavita.html",
       "image": "https://gymbeam.bg/media/catalog/product/cache/70f742f66feec18cb83790f14444a3d1/l/o/local-bg-bezlabel-14-12-2023-_bio_vitamin_d3_vanavita-_bio_vitamin_c_vanavita.jpg",
-      "price_bgn": 20.0,
-      "price_eur": 10.23,
-      "currency_source": "BGN",
+      "price_bgn": 32.27,
+      "price_eur": 16.5,
+      "currency_source": "EUR",
       "weight_grams": 2026.0,
       "servings": null,
       "count": 2,
@@ -5506,11 +5420,12 @@
         "vitamin_d_iu": 800
       },
       "price_per_active_unit": {
-        "bgn_per_1000iu_d3": 12.5
+        "bgn_per_1000iu_d3": 20.17
       },
       "unit_label": "лв / 1000 IU D3",
       "confidence": "high",
-      "scraped_at": "2026-05-14T15:04:37.078350Z"
+      "scraped_at": "2026-05-14T15:04:37.078350Z",
+      "availability_status": "in_stock"
     },
     {
       "id": "gymbeam-калции-витамин-d3---gymbeam",
@@ -5520,9 +5435,9 @@
       "category": "vitamin_d",
       "url": "https://gymbeam.bg/kalcij-vitamin-d3-gymbeam.html",
       "image": "https://gymbeam.bg/media/catalog/product/cache/70f742f66feec18cb83790f14444a3d1/c/a/calcium_vitamin_d3_120_caps_gymbeam.png",
-      "price_bgn": 20.0,
-      "price_eur": 10.23,
-      "currency_source": "BGN",
+      "price_bgn": 17.5,
+      "price_eur": 8.95,
+      "currency_source": "EUR",
       "weight_grams": 2026.0,
       "servings": null,
       "count": 2,
@@ -5530,11 +5445,12 @@
         "vitamin_d_iu": 1000
       },
       "price_per_active_unit": {
-        "bgn_per_1000iu_d3": 10.0
+        "bgn_per_1000iu_d3": 8.75
       },
       "unit_label": "лв / 1000 IU D3",
       "confidence": "high",
-      "scraped_at": "2026-05-14T15:04:38.406288Z"
+      "scraped_at": "2026-05-14T15:04:38.406288Z",
+      "availability_status": "in_stock"
     },
     {
       "id": "gymbeam-дъвчащи-таблетки-витамин-c-цинк-джинджифил---gymbeam",
@@ -5544,9 +5460,9 @@
       "category": "vitamin_c",
       "url": "https://gymbeam.bg/d-vchaschi-tabletki-vitamin-c-cink-dzhindzhifil-gymbeam.html",
       "image": "https://gymbeam.bg/media/catalog/product/cache/70f742f66feec18cb83790f14444a3d1/v/i/vitamin_c_zinc_ginger_extract_90_tabs_gymbeam.png",
-      "price_bgn": 20.0,
-      "price_eur": 10.23,
-      "currency_source": "BGN",
+      "price_bgn": 19.46,
+      "price_eur": 9.95,
+      "currency_source": "EUR",
       "weight_grams": 2026.0,
       "servings": null,
       "count": 1,
@@ -5554,11 +5470,12 @@
         "vitamin_c_mg": 5
       },
       "price_per_active_unit": {
-        "bgn_per_1000mg_vitamin_c": 4000.0
+        "bgn_per_1000mg_vitamin_c": 3892.0
       },
       "unit_label": "лв / 1000 mg витамин C",
       "confidence": "high",
-      "scraped_at": "2026-05-14T15:04:42.334588Z"
+      "scraped_at": "2026-05-14T15:04:42.334588Z",
+      "availability_status": "in_stock"
     },
     {
       "id": "gymbeam-витамин-c-цинк---gymbeam",
@@ -5568,9 +5485,9 @@
       "category": "vitamin_c",
       "url": "https://gymbeam.bg/vitamin-c-cink-gymbeam.html",
       "image": "https://gymbeam.bg/media/catalog/product/cache/70f742f66feec18cb83790f14444a3d1/0/3/03-06-2025-daily-bezlabel-vitamin_c_zinc_-_gymbeam_42352_.jpg",
-      "price_bgn": 20.0,
-      "price_eur": 10.23,
-      "currency_source": "BGN",
+      "price_bgn": 17.5,
+      "price_eur": 8.95,
+      "currency_source": "EUR",
       "weight_grams": 2026.0,
       "servings": null,
       "count": 1,
@@ -5578,11 +5495,12 @@
         "vitamin_c_mg": 500
       },
       "price_per_active_unit": {
-        "bgn_per_1000mg_vitamin_c": 40.0
+        "bgn_per_1000mg_vitamin_c": 35.0
       },
       "unit_label": "лв / 1000 mg витамин C",
       "confidence": "high",
-      "scraped_at": "2026-05-14T15:04:43.612101Z"
+      "scraped_at": "2026-05-14T15:04:43.612101Z",
+      "availability_status": "in_stock"
     },
     {
       "id": "gymbeam-витамин-b-12-1000-mcg---now-foods",
@@ -5592,9 +5510,9 @@
       "category": "vitamin_b",
       "url": "https://gymbeam.bg/vitamin-b12-1000-mcg-now-foods.html",
       "image": "https://gymbeam.bg/media/catalog/product/cache/70f742f66feec18cb83790f14444a3d1/u/n/untitled_design_-_2020-04-02t222828.001.png",
-      "price_bgn": 20.0,
-      "price_eur": 10.23,
-      "currency_source": "BGN",
+      "price_bgn": 18.58,
+      "price_eur": 9.5,
+      "currency_source": "EUR",
       "weight_grams": 2026.0,
       "servings": null,
       "count": 1,
@@ -5602,59 +5520,12 @@
         "b_complex_serving": 1
       },
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 20.0
+        "bgn_per_b_complex_serving": 18.58
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
-      "scraped_at": "2026-05-14T15:04:51.206982Z"
-    },
-    {
-      "id": "gymbeam-фолиева-киселина-800-mcg-с-витамин-b-12---now-foods",
-      "store": "GymBeam",
-      "name": "Фолиева киселина 800 mcg с витамин B-12 - NOW Foods",
-      "brand": "NOW Foods",
-      "category": "vitamin_b",
-      "url": "https://gymbeam.bg/folieva-kiselina-800-mcg-s-vitamin-b-12-now-foods.html",
-      "image": "https://gymbeam.bg/media/catalog/product/cache/70f742f66feec18cb83790f14444a3d1/u/n/untitled_design_-_2020-04-04t134940.140.png",
-      "price_bgn": 20.0,
-      "price_eur": 10.23,
-      "currency_source": "BGN",
-      "weight_grams": 7.2026,
-      "servings": null,
-      "count": 1,
-      "active": {
-        "b_complex_serving": 1
-      },
-      "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 20.0
-      },
-      "unit_label": "лв / доза B-комплекс",
-      "confidence": "medium",
-      "scraped_at": "2026-05-14T15:04:52.441562Z"
-    },
-    {
-      "id": "gymbeam-витамин-b1-тиамин---gymbeam",
-      "store": "GymBeam",
-      "name": "Витамин B1 (Тиамин) - GymBeam",
-      "brand": "GymBeam",
-      "category": "vitamin_b",
-      "url": "https://gymbeam.bg/vitamin-b1-gymbeam.html",
-      "image": "https://gymbeam.bg/media/catalog/product/cache/70f742f66feec18cb83790f14444a3d1/v/i/vitamin_b1_90_tabs_gymbeam.png",
-      "price_bgn": 20.0,
-      "price_eur": 10.23,
-      "currency_source": "BGN",
-      "weight_grams": 2026.0,
-      "servings": null,
-      "count": 1,
-      "active": {
-        "b_complex_serving": 1
-      },
-      "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 20.0
-      },
-      "unit_label": "лв / доза B-комплекс",
-      "confidence": "medium",
-      "scraped_at": "2026-05-14T15:04:55.198619Z"
+      "scraped_at": "2026-05-14T15:04:51.206982Z",
+      "availability_status": "in_stock"
     },
     {
       "id": "gymbeam-витамин-b12-кобаламин---gymbeam",
@@ -5664,9 +5535,9 @@
       "category": "vitamin_b",
       "url": "https://gymbeam.bg/vitamin-b12-gymbeam.html",
       "image": "https://gymbeam.bg/media/catalog/product/cache/70f742f66feec18cb83790f14444a3d1/v/i/vitamin_b12_90_tabs_gymbeam.png",
-      "price_bgn": 20.0,
-      "price_eur": 10.23,
-      "currency_source": "BGN",
+      "price_bgn": 8.8,
+      "price_eur": 4.5,
+      "currency_source": "EUR",
       "weight_grams": 2026.0,
       "servings": null,
       "count": 1,
@@ -5674,11 +5545,12 @@
         "b_complex_serving": 1
       },
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 20.0
+        "bgn_per_b_complex_serving": 8.8
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
-      "scraped_at": "2026-05-14T15:04:56.428922Z"
+      "scraped_at": "2026-05-14T15:04:56.428922Z",
+      "availability_status": "in_stock"
     },
     {
       "id": "gymbeam-b-complex-100-ефервесцентен---gymbeam",
@@ -5688,9 +5560,9 @@
       "category": "vitamin_b",
       "url": "https://gymbeam.bg/b-complex-100-gymbeam.html",
       "image": "https://gymbeam.bg/media/catalog/product/cache/70f742f66feec18cb83790f14444a3d1/b/-/b-complex_100__20_effevescent_tabs_orange_gymbeam_1_.png",
-      "price_bgn": 20.0,
-      "price_eur": 10.23,
-      "currency_source": "BGN",
+      "price_bgn": 4.89,
+      "price_eur": 2.5,
+      "currency_source": "EUR",
       "weight_grams": 2026.0,
       "servings": null,
       "count": 1,
@@ -5698,11 +5570,12 @@
         "b_complex_serving": 1
       },
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 20.0
+        "bgn_per_b_complex_serving": 4.89
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
-      "scraped_at": "2026-05-14T15:04:58.898632Z"
+      "scraped_at": "2026-05-14T15:04:58.898632Z",
+      "availability_status": "in_stock"
     },
     {
       "id": "gymbeam-витамин-b-комплекс---gymbeam",
@@ -5712,9 +5585,9 @@
       "category": "vitamin_b",
       "url": "https://gymbeam.bg/vitamin-b-komplex-gymbeam.html",
       "image": "https://gymbeam.bg/media/catalog/product/cache/70f742f66feec18cb83790f14444a3d1/v/i/vitamin_b_complex_120_tabs_gymbeam.png",
-      "price_bgn": 20.0,
-      "price_eur": 10.23,
-      "currency_source": "BGN",
+      "price_bgn": 11.64,
+      "price_eur": 5.95,
+      "currency_source": "EUR",
       "weight_grams": 2026.0,
       "servings": null,
       "count": 1,
@@ -5722,11 +5595,12 @@
         "b_complex_serving": 1
       },
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 20.0
+        "bgn_per_b_complex_serving": 11.64
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
-      "scraped_at": "2026-05-14T15:05:00.172623Z"
+      "scraped_at": "2026-05-14T15:05:00.172623Z",
+      "availability_status": "in_stock"
     },
     {
       "id": "gymbeam-мултивитамин-ултра---the-protein-works",
@@ -5736,9 +5610,9 @@
       "category": "multivitamin",
       "url": "https://gymbeam.bg/multivitamin-ultra-the-protein-works.html",
       "image": "https://gymbeam.bg/media/catalog/product/cache/70f742f66feec18cb83790f14444a3d1/m/u/multivitamin_ultra-.1.png",
-      "price_bgn": 20.0,
-      "price_eur": 10.23,
-      "currency_source": "BGN",
+      "price_bgn": 18.58,
+      "price_eur": 9.5,
+      "currency_source": "EUR",
       "weight_grams": 2026.0,
       "servings": null,
       "count": 1,
@@ -5746,11 +5620,12 @@
         "multivitamin_serving": 1
       },
       "price_per_active_unit": {
-        "bgn_per_multivitamin_serving": 20.0
+        "bgn_per_multivitamin_serving": 18.58
       },
       "unit_label": "лв / доза мултивитамин",
       "confidence": "medium",
-      "scraped_at": "2026-05-14T15:05:04.014254Z"
+      "scraped_at": "2026-05-14T15:05:04.014254Z",
+      "availability_status": "in_stock"
     },
     {
       "id": "gymbeam-мултивитамин-за-мъже-active-sports---now-foods",
@@ -5760,9 +5635,9 @@
       "category": "multivitamin",
       "url": "https://gymbeam.bg/multivitamin-za-m-zhe-active-sports-now-foods.html",
       "image": "https://gymbeam.bg/media/catalog/product/cache/70f742f66feec18cb83790f14444a3d1/d/a/daily_product-multivitam_n_men_s_active_sports_-_now_foods_len_za_17.95_pillbox_10.jpg",
-      "price_bgn": 20.0,
-      "price_eur": 10.23,
-      "currency_source": "BGN",
+      "price_bgn": 64.44,
+      "price_eur": 32.95,
+      "currency_source": "EUR",
       "weight_grams": 2026.0,
       "servings": null,
       "count": 3,
@@ -5770,11 +5645,12 @@
         "multivitamin_serving": 1
       },
       "price_per_active_unit": {
-        "bgn_per_multivitamin_serving": 6.67
+        "bgn_per_multivitamin_serving": 21.49
       },
       "unit_label": "лв / доза мултивитамин",
       "confidence": "medium",
-      "scraped_at": "2026-05-14T15:05:05.269299Z"
+      "scraped_at": "2026-05-14T15:05:05.269299Z",
+      "availability_status": "in_stock"
     },
     {
       "id": "gymbeam-мултивитамин-100-ефервесцентен---gymbeam",
@@ -5784,9 +5660,9 @@
       "category": "multivitamin",
       "url": "https://gymbeam.bg/multivitamin-100-gymbeam.html",
       "image": "https://gymbeam.bg/media/catalog/product/cache/70f742f66feec18cb83790f14444a3d1/m/u/mutlivitamin_100__20_effervescent_tablets_gymbeam_1_.png",
-      "price_bgn": 20.0,
-      "price_eur": 10.23,
-      "currency_source": "BGN",
+      "price_bgn": 4.89,
+      "price_eur": 2.5,
+      "currency_source": "EUR",
       "weight_grams": 4.0,
       "servings": null,
       "count": 1,
@@ -5794,11 +5670,12 @@
         "multivitamin_serving": 1
       },
       "price_per_active_unit": {
-        "bgn_per_multivitamin_serving": 20.0
+        "bgn_per_multivitamin_serving": 4.89
       },
       "unit_label": "лв / доза мултивитамин",
       "confidence": "medium",
-      "scraped_at": "2026-05-14T15:05:06.556079Z"
+      "scraped_at": "2026-05-14T15:05:06.556079Z",
+      "availability_status": "in_stock"
     },
     {
       "id": "gymbeam-протеин-80-plus---weider",
@@ -5808,21 +5685,22 @@
       "category": "protein",
       "url": "https://gymbeam.bg/protein-80-plus-weider.html",
       "image": "https://gymbeam.bg/media/catalog/product/cache/70f742f66feec18cb83790f14444a3d1/w/e/weider_30119_protein_80plus_2kg_beutel_chocolate.jpg",
-      "price_bgn": 20.0,
-      "price_eur": 10.23,
-      "currency_source": "BGN",
-      "weight_grams": 30.0,
-      "servings": 3,
+      "price_bgn": 170.06,
+      "price_eur": 86.95,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 2000.0,
+      "servings": 66,
       "count": null,
       "active": {
         "protein_g": 24.0
       },
       "price_per_active_unit": {
-        "bgn_per_25g_protein": 6.94
+        "bgn_per_25g_protein": 2.68
       },
       "unit_label": "лв / 25 g протеин",
-      "confidence": "medium",
-      "scraped_at": "2026-05-14T15:05:23.533123Z"
+      "confidence": "high",
+      "scraped_at": "2026-05-16T05:08:43.478127Z"
     },
     {
       "id": "gymbeam-daily-fiber---gymbeam",
@@ -5832,41 +5710,20 @@
       "category": "fiber",
       "url": "https://gymbeam.bg/daily-fiber-gymbeam.html",
       "image": "https://gymbeam.bg/media/catalog/product/cache/70f742f66feec18cb83790f14444a3d1/d/a/daily_fiber.png",
-      "price_bgn": 20.0,
-      "price_eur": 10.23,
-      "currency_source": "BGN",
+      "price_bgn": 18.58,
+      "price_eur": 9.5,
+      "currency_source": "EUR",
       "weight_grams": 7.0,
       "servings": null,
       "count": null,
       "active": {},
       "price_per_active_unit": {
-        "bgn_per_5g_fiber": 14.29
+        "bgn_per_5g_fiber": 13.28
       },
       "unit_label": "лв / 5 g фибри",
       "confidence": "low",
-      "scraped_at": "2026-05-14T15:05:33.339305Z"
-    },
-    {
-      "id": "gymbeam-псилиум-люспи---gymbeam",
-      "store": "GymBeam",
-      "name": "Псилиум люспи - GymBeam",
-      "brand": "GymBeam Food",
-      "category": "fiber",
-      "url": "https://gymbeam.bg/psyllium-husk-gymbeam.html",
-      "image": "https://gymbeam.bg/media/catalog/product/cache/70f742f66feec18cb83790f14444a3d1/p/s/psylium_husk_500_g_gymbeam.png",
-      "price_bgn": 20.0,
-      "price_eur": 10.23,
-      "currency_source": "BGN",
-      "weight_grams": 5.2026,
-      "servings": null,
-      "count": null,
-      "active": {},
-      "price_per_active_unit": {
-        "bgn_per_5g_fiber": 19.22
-      },
-      "unit_label": "лв / 5 g фибри",
-      "confidence": "low",
-      "scraped_at": "2026-05-14T15:05:35.792309Z"
+      "scraped_at": "2026-05-14T15:05:33.339305Z",
+      "availability_status": "in_stock"
     },
     {
       "id": "mypharmacy-солгар-омега-3-мастни-киселини-при-ревматоиден-артрит-и-мигрена-меки-капс-х-30",
