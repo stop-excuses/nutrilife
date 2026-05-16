@@ -1,6 +1,6 @@
 const SUPPLEMENTS_DATA = {
-  "generated_at": "2026-05-16T05:17:28.463986Z",
-  "total_supplements": 257,
+  "generated_at": "2026-05-16T05:26:13.560269Z",
+  "total_supplements": 258,
   "sources": [
     "Fitness1",
     "Framar",
@@ -2155,31 +2155,6 @@ const SUPPLEMENTS_DATA = {
       "unit_label": "лв / 25 g протеин",
       "confidence": "high",
       "scraped_at": "2026-05-16T05:17:08.421072Z"
-    },
-    {
-      "id": "healthstore-mutant---mutant-whey---2270-g",
-      "store": "HealthStore",
-      "name": "MUTANT - Mutant Whey - 2270 g",
-      "brand": "MUTANT",
-      "category": "protein",
-      "url": "https://healthstore.bg/mutant-mutant-whey-2270-g",
-      "image": "https://healthstore.bg/image/data/-MUTANT/MUT0551-3.jpg",
-      "price_bgn": 114.22,
-      "price_eur": 58.4,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 2270.0,
-      "servings": 63,
-      "count": 90,
-      "active": {
-        "protein_g": 22.0
-      },
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 2.06
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "high",
-      "scraped_at": "2026-05-16T05:17:09.583689Z"
     },
     {
       "id": "healthstore-myprotein---impact-whey-isolate---1000-g",
@@ -6264,6 +6239,57 @@ const SUPPLEMENTS_DATA = {
       "unit_label": "лв / доза мултивитамин",
       "confidence": "medium",
       "scraped_at": "2026-05-14T15:06:33.373524Z"
+    },
+    {
+      "id": "healthstore-mutant---mutant-whey---2270-g",
+      "store": "HealthStore",
+      "name": "MUTANT - Mutant Whey - 2270 g",
+      "brand": "MUTANT",
+      "category": "protein",
+      "url": "https://healthstore.bg/mutant-mutant-whey-2270-g",
+      "image": "https://healthstore.bg/image/data/-MUTANT/MUT0551-3.jpg",
+      "price_bgn": 114.22,
+      "price_eur": 58.4,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 2270.0,
+      "servings": 63,
+      "count": 90,
+      "active": {
+        "protein_g": 22.0
+      },
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 2.06
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "high",
+      "scraped_at": "2026-05-16T05:25:20.314842Z"
+    },
+    {
+      "id": "healthstore-gym-beam---true-whey---2500-g",
+      "store": "HealthStore",
+      "name": "GYM BEAM - True Whey - 2500 g",
+      "brand": "GYM BEAM",
+      "category": "protein",
+      "url": "https://healthstore.bg/gym-beam-true-whey-2500-g",
+      "image": "https://healthstore.bg/image/data/-GYM BEAM/GB0181-1.jpg",
+      "price_bgn": 142.4,
+      "price_eur": 72.81,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 2500.0,
+      "servings": 83,
+      "count": 60,
+      "active": {
+        "estimated_total_protein_g": 1875.0,
+        "estimated_protein_ratio_pct": 75
+      },
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 1.9
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "low",
+      "scraped_at": "2026-05-16T05:26:13.451006Z"
     }
   ]
 };

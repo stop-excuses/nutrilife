@@ -14,6 +14,7 @@ import re
 import sys
 import time
 import unicodedata
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
@@ -26,6 +27,7 @@ from bs4 import BeautifulSoup
 ROOT_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT_DIR / "data"
 OUTPUT_PATH = DATA_DIR / "supplements.json"
+CACHE_PATH = DATA_DIR / "supplement_scrape_cache.json"
 BGN_TO_EUR = 1.95583
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"
 REQUEST_DELAY_SECONDS = 0.35
@@ -169,8 +171,9 @@ def detect_category(*parts: str) -> str | None:
     return None
 
 
-def discover_urls(source: Source, per_category: int) -> dict[str, list[str]]:
-    discovered = {category: [] for category in CATEGORY_KEYWORDS}
+def discover_urls(source: Source, per_category: int, categories: set[str] | None = None) -> dict[str, list[str]]:
+    allowed = categories or set(CATEGORY_KEYWORDS)
+    discovered = {category: [] for category in allowed}
     seen: set[str] = set()
     for sitemap_url in source.sitemap_urls:
         xml = fetch(sitemap_url)
@@ -183,13 +186,13 @@ def discover_urls(source: Source, per_category: int) -> dict[str, list[str]]:
             if not is_product_url(source.name, decoded):
                 continue
             category = detect_category(decoded)
-            if not category or url in seen or len(discovered[category]) >= per_category:
+            if not category or category not in allowed or url in seen or len(discovered[category]) >= per_category:
                 continue
             if any(blocked in decoded for blocked in ("/category/", "/brand/", "/blog/", "/media/")):
                 continue
             discovered[category].append(url)
             seen.add(url)
-        if all(len(urls) >= per_category for urls in discovered.values()):
+        if discovered and all(len(urls) >= per_category for urls in discovered.values()):
             break
     return {category: urls for category, urls in discovered.items() if urls}
 
@@ -901,19 +904,98 @@ def is_relevant_product(category: str, name: str, url: str) -> bool:
     return any(keyword in haystack for keyword in keywords)
 
 
-def scrape(per_category: int, sources: set[str] | None = None) -> list[dict]:
+def load_cache(use_cache: bool) -> dict:
+    if not use_cache or not CACHE_PATH.exists():
+        return {}
+    try:
+        return json.loads(CACHE_PATH.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+
+
+def save_cache(cache: dict, use_cache: bool) -> None:
+    if not use_cache:
+        return
+    DATA_DIR.mkdir(exist_ok=True)
+    tmp_path = CACHE_PATH.with_suffix(".json.tmp")
+    tmp_path.write_text(json.dumps(cache, ensure_ascii=False, indent=2), encoding="utf-8")
+    tmp_path.replace(CACHE_PATH)
+
+
+def scrape_one(source: Source, category: str, url: str, cache: dict | None = None, use_cache: bool = False) -> dict | None:
+    if use_cache and cache is not None:
+        cached = cache.get(url)
+        if isinstance(cached, dict) and cached.get("item"):
+            item = cached["item"]
+            print(f"    = {item['name'][:70]} | cached")
+            return item
+
+    item = parse_product(source, url, category)
+    if use_cache and cache is not None and item:
+        cache[url] = {
+            "cached_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+            "source": source.name,
+            "category": category,
+            "item": item,
+        }
+    return item
+
+
+def scrape(
+    per_category: int,
+    sources: set[str] | None = None,
+    categories: set[str] | None = None,
+    urls: list[str] | None = None,
+    concurrency: int = 1,
+    use_cache: bool = False,
+) -> list[dict]:
     products: list[dict] = []
     seen_ids: set[str] = set()
+    cache = load_cache(use_cache)
+    concurrency = max(1, concurrency)
+
+    if urls:
+        def source_for_url(url: str) -> Source:
+            decoded = unquote(url).lower()
+            if sources:
+                return next((s for s in SOURCES if s.name.lower() in sources), SOURCES[0])
+            return next((s for s in SOURCES if any(host in decoded for host in s.include_hosts)), SOURCES[0])
+
+        jobs = [(source_for_url(url), detect_category(url) or next(iter(categories or []), None), url) for url in urls]
+        jobs = [(src, cat, url) for src, cat, url in jobs if cat]
+        print(f"[*] Direct URL mode: {len(jobs)} product URLs")
+        with ThreadPoolExecutor(max_workers=concurrency) as executor:
+            futures = [executor.submit(scrape_one, src, cat, url, cache, use_cache) for src, cat, url in jobs]
+            for future in as_completed(futures):
+                item = future.result()
+                if not item or item["id"] in seen_ids:
+                    continue
+                seen_ids.add(item["id"])
+                products.append(item)
+        save_cache(cache, use_cache)
+        return products
+
     for source in SOURCES:
         if sources and source.name.lower() not in sources:
             continue
         print(f"\n== {source.name} ==")
-        discovered = discover_urls(source, per_category)
+        discovered = discover_urls(source, per_category, categories)
         for category, urls in discovered.items():
             print(f"  {category}: {len(urls)} candidates")
-            for url in urls:
-                time.sleep(REQUEST_DELAY_SECONDS)
-                item = parse_product(source, url, category)
+            if concurrency <= 1:
+                results = []
+                for url in urls:
+                    time.sleep(REQUEST_DELAY_SECONDS)
+                    results.append(scrape_one(source, category, url, cache, use_cache))
+            else:
+                with ThreadPoolExecutor(max_workers=concurrency) as executor:
+                    futures = []
+                    for url in urls:
+                        time.sleep(REQUEST_DELAY_SECONDS / concurrency)
+                        futures.append(executor.submit(scrape_one, source, category, url, cache, use_cache))
+                    results = [future.result() for future in as_completed(futures)]
+
+            for item in results:
                 if not item:
                     continue
                 if item["id"] in seen_ids:
@@ -922,11 +1004,44 @@ def scrape(per_category: int, sources: set[str] | None = None) -> list[dict]:
                 products.append(item)
                 unit_key = next(iter(item["price_per_active_unit"]))
                 print(f"    + {item['name'][:70]} | {item['price_per_active_unit'][unit_key]} {unit_key}")
+
+    save_cache(cache, use_cache)
     return products
 
 
-def write_output(products: list[dict]) -> None:
+def merge_with_existing(products: list[dict], sources: set[str] | None, categories: set[str] | None, replace_scope: bool = False) -> list[dict]:
+    if not OUTPUT_PATH.exists():
+        return products
+    existing = json.loads(OUTPUT_PATH.read_text(encoding="utf-8")).get("supplements", [])
+    new_keys = {(p["store"].lower(), p["category"], p["url"]) for p in products}
+
+    def replaced_by_scope(item: dict) -> bool:
+        if (item.get("store", "").lower(), item.get("category"), item.get("url")) in new_keys:
+            return True
+        if not replace_scope:
+            return False
+        if sources and item.get("store", "").lower() not in sources:
+            return False
+        if categories and item.get("category") not in categories:
+            return False
+        return True
+
+    kept = [item for item in existing if not replaced_by_scope(item)]
+    return kept + products
+
+
+def write_output(
+    products: list[dict],
+    merge_existing: bool = False,
+    sources: set[str] | None = None,
+    categories: set[str] | None = None,
+    replace_scope: bool = False,
+) -> None:
     DATA_DIR.mkdir(exist_ok=True)
+    if merge_existing:
+        before = len(products)
+        products = merge_with_existing(products, sources, categories, replace_scope)
+        print(f"[*] Merged {before} refreshed records with existing dataset -> {len(products)} total")
     data = {
         "generated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "total_supplements": len(products),
@@ -945,11 +1060,25 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Scrape supplement price-per-active-dose data.")
     parser.add_argument("--per-category", type=int, default=8, help="Max candidate URLs per category per source.")
     parser.add_argument("--source", action="append", help="Limit to source name. Can be repeated.")
+    parser.add_argument("--category", action="append", choices=sorted(CATEGORY_KEYWORDS), help="Limit to category. Can be repeated.")
+    parser.add_argument("--url", action="append", help="Scrape a direct product URL. Can be repeated.")
+    parser.add_argument("--concurrency", type=int, default=1, help="Product requests to run in parallel per category.")
+    parser.add_argument("--cache", action="store_true", help="Reuse/write data/supplement_scrape_cache.json for faster repeated runs.")
+    parser.add_argument("--merge-existing", action="store_true", help="Merge refreshed rows into existing supplements.json instead of replacing all rows.")
+    parser.add_argument("--replace-scope", action="store_true", help="With --merge-existing, replace every existing row in the selected source/category scope.")
     args = parser.parse_args()
 
     selected_sources = {s.lower() for s in args.source} if args.source else None
-    products = scrape(args.per_category, selected_sources)
-    write_output(products)
+    selected_categories = set(args.category) if args.category else None
+    products = scrape(
+        args.per_category,
+        selected_sources,
+        selected_categories,
+        args.url,
+        args.concurrency,
+        args.cache,
+    )
+    write_output(products, args.merge_existing, selected_sources, selected_categories, args.replace_scope)
 
 
 if __name__ == "__main__":
