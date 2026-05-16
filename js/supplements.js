@@ -314,7 +314,7 @@
 
     function renderProteinWarning(item) {
         if (item.category !== 'protein' || item.confidence !== 'low') return '';
-        return '<div class="supplement-warning">При този протеин няма ясни грамове белтъчини от етикета. Сметката е ориентир.</div>';
+        return '<div class="supplement-warning">Не успяхме автоматично да прочетем ясни грамове белтъчини от етикета. Сметката е ориентир.</div>';
     }
 
     function renderPagination(total, totalPages) {

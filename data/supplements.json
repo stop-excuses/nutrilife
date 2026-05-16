@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-16T05:12:36.417082Z",
+  "generated_at": "2026-05-16T05:17:28.463986Z",
   "total_supplements": 257,
   "sources": [
     "Fitness1",
@@ -2142,19 +2142,19 @@
       "price_bgn": 235.99,
       "price_eur": 120.66,
       "currency_source": "EUR",
+      "availability_status": "in_stock",
       "weight_grams": 4540.0,
       "servings": 63,
-      "count": 180,
+      "count": null,
       "active": {
-        "estimated_total_protein_g": 3859.0,
-        "estimated_protein_ratio_pct": 85
+        "protein_g": 22.0
       },
       "price_per_active_unit": {
-        "bgn_per_25g_protein": 1.53
+        "bgn_per_25g_protein": 4.26
       },
       "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-05-14T14:58:38.522976Z"
+      "confidence": "high",
+      "scraped_at": "2026-05-16T05:17:08.421072Z"
     },
     {
       "id": "healthstore-mutant---mutant-whey---2270-g",
@@ -2167,19 +2167,19 @@
       "price_bgn": 114.22,
       "price_eur": 58.4,
       "currency_source": "EUR",
+      "availability_status": "in_stock",
       "weight_grams": 2270.0,
       "servings": 63,
       "count": 90,
       "active": {
-        "estimated_total_protein_g": 1929.5,
-        "estimated_protein_ratio_pct": 85
+        "protein_g": 22.0
       },
       "price_per_active_unit": {
-        "bgn_per_25g_protein": 1.48
+        "bgn_per_25g_protein": 2.06
       },
       "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-05-14T14:58:39.641354Z"
+      "confidence": "high",
+      "scraped_at": "2026-05-16T05:17:09.583689Z"
     },
     {
       "id": "healthstore-myprotein---impact-whey-isolate---1000-g",
@@ -2192,19 +2192,19 @@
       "price_bgn": 79.8,
       "price_eur": 40.8,
       "currency_source": "EUR",
+      "availability_status": "in_stock",
       "weight_grams": 1000.0,
       "servings": 40,
-      "count": 180,
+      "count": 100,
       "active": {
-        "estimated_total_protein_g": 850.0,
-        "estimated_protein_ratio_pct": 85
+        "protein_g": 23.0
       },
       "price_per_active_unit": {
-        "bgn_per_25g_protein": 2.35
+        "bgn_per_25g_protein": 2.17
       },
       "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-05-14T14:58:40.791143Z"
+      "confidence": "high",
+      "scraped_at": "2026-05-16T05:17:10.935549Z"
     },
     {
       "id": "healthstore-rule-one---source7-protein---820-g",
@@ -2267,19 +2267,19 @@
       "price_bgn": 79.95,
       "price_eur": 40.88,
       "currency_source": "EUR",
+      "availability_status": "in_stock",
       "weight_grams": 780.0,
       "servings": 26,
       "count": 90,
       "active": {
-        "estimated_total_protein_g": 663.0,
-        "estimated_protein_ratio_pct": 85
+        "protein_g": 24.0
       },
       "price_per_active_unit": {
-        "bgn_per_25g_protein": 3.01
+        "bgn_per_25g_protein": 3.2
       },
       "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-05-14T14:58:46.211183Z"
+      "confidence": "high",
+      "scraped_at": "2026-05-16T05:17:14.913542Z"
     },
     {
       "id": "healthstore-now---psyllium-husk-500-мг---200-капсули",
@@ -5700,7 +5700,7 @@
       },
       "unit_label": "лв / 25 g протеин",
       "confidence": "high",
-      "scraped_at": "2026-05-16T05:08:43.478127Z"
+      "scraped_at": "2026-05-16T05:17:28.312783Z"
     },
     {
       "id": "gymbeam-daily-fiber---gymbeam",
