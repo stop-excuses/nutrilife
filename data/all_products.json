@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-18T14:27:08.206611Z",
-  "total_products": 16479,
+  "generated_at": "2026-05-18T16:20:38.843607Z",
+  "total_products": 16486,
   "products": [
     {
       "name": "Пушена риба тон",
@@ -652730,7 +652730,7 @@
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800228181249_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/324_02903490_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-хляб-добруджа-650g",
       "last_seen": "2026-05-18",
       "first_seen": "2026-05-07",
@@ -666026,7 +666026,7 @@
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/637_00027591?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00069762_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-wilkinson-xtreme3-самобръсначка-различни-видове",
       "last_seen": "2026-05-18",
       "first_seen": "2026-05-18",
@@ -676844,6 +676844,294 @@
       "lowest_price": 24.68,
       "lowest_price_date": "2026-05-18",
       "avg_price": 24.68
+    },
+    {
+      "name": "Бяла Река Сьомгова пъстърва от свежата витрина",
+      "store": "Kaufland",
+      "emoji": "🍗",
+      "category": "protein",
+      "weight_raw": "на кг",
+      "weight_grams": null,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 10,
+      "diet_tags": [],
+      "macros": {
+        "kcal": 119,
+        "p": 20,
+        "f": 3.5,
+        "c": 0
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00033309_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-бяла-река-сьомгова-пъстърва-от-свежата-витрина",
+      "last_seen": "2026-05-18",
+      "first_seen": "2026-05-18",
+      "price_history": [
+        {
+          "date": "2026-05-18",
+          "store": "Kaufland",
+          "price": 15.63,
+          "price_eur": 7.99,
+          "old_price": 19.99,
+          "discount_pct": 22
+        }
+      ],
+      "lowest_price": 15.63,
+      "lowest_price_date": "2026-05-18",
+      "avg_price": 15.63
+    },
+    {
+      "name": "Лаврак изчистен",
+      "store": "Kaufland",
+      "emoji": "🍗",
+      "category": "protein",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 10,
+      "diet_tags": [],
+      "macros": {
+        "kcal": 97,
+        "p": 18,
+        "f": 2,
+        "c": 0
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00033235_Promo_1469349?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-лаврак-изчистен",
+      "last_seen": "2026-05-18",
+      "first_seen": "2026-05-18",
+      "price_history": [
+        {
+          "date": "2026-05-18",
+          "store": "Kaufland",
+          "price": 19.99,
+          "price_eur": 10.22,
+          "old_price": 26.99,
+          "discount_pct": 26
+        }
+      ],
+      "lowest_price": 19.99,
+      "lowest_price_date": "2026-05-18",
+      "avg_price": 19.99
+    },
+    {
+      "name": "Сьомга филе с кожа от свежата витрина",
+      "store": "Kaufland",
+      "emoji": "🍗",
+      "category": "protein",
+      "weight_raw": "на кг",
+      "weight_grams": null,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 10,
+      "diet_tags": [
+        "high_protein",
+        "keto",
+        "mediterranean"
+      ],
+      "macros": {
+        "kcal": 208,
+        "p": 20,
+        "f": 13,
+        "c": 0
+      },
+      "is_junk": false,
+      "is_high_protein": true,
+      "is_good_carb": false,
+      "is_good_fat": true,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/2860730000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-сьомга-филе-с-кожа-от-свежата-витрина",
+      "last_seen": "2026-05-18",
+      "first_seen": "2026-05-18",
+      "price_history": [
+        {
+          "date": "2026-05-18",
+          "store": "Kaufland",
+          "price": 29.98,
+          "price_eur": 15.33,
+          "old_price": 42.99,
+          "discount_pct": 30
+        }
+      ],
+      "lowest_price": 29.98,
+      "lowest_price_date": "2026-05-18",
+      "avg_price": 29.98
+    },
+    {
+      "name": "Херинга филе размразено",
+      "store": "Kaufland",
+      "emoji": "🍗",
+      "category": "protein",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 9,
+      "diet_tags": [],
+      "macros": {
+        "kcal": 158,
+        "p": 18,
+        "f": 9,
+        "c": 0
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": true,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/148_00107917B_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-херинга-филе-размразено",
+      "last_seen": "2026-05-18",
+      "first_seen": "2026-05-18",
+      "price_history": [
+        {
+          "date": "2026-05-18",
+          "store": "Kaufland",
+          "price": 8.98,
+          "price_eur": 4.59,
+          "old_price": 13.48,
+          "discount_pct": 33
+        }
+      ],
+      "lowest_price": 8.98,
+      "lowest_price_date": "2026-05-18",
+      "avg_price": 8.98
+    },
+    {
+      "name": "Калмари пипала от свежата витрина",
+      "store": "Kaufland",
+      "emoji": "🍗",
+      "category": "protein",
+      "weight_raw": "на кг",
+      "weight_grams": null,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 8,
+      "diet_tags": [],
+      "macros": {
+        "kcal": 92,
+        "p": 15.6,
+        "f": 1.4,
+        "c": 3.1
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00043231_A?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-калмари-пипала-от-свежата-витрина",
+      "last_seen": "2026-05-18",
+      "first_seen": "2026-05-18",
+      "price_history": [
+        {
+          "date": "2026-05-18",
+          "store": "Kaufland",
+          "price": 16.98,
+          "price_eur": 8.68,
+          "old_price": 25.99,
+          "discount_pct": 35
+        }
+      ],
+      "lowest_price": 16.98,
+      "lowest_price_date": "2026-05-18",
+      "avg_price": 16.98
+    },
+    {
+      "name": "Frosch Препарат за съдове различни видове",
+      "store": "Kaufland",
+      "emoji": "🧹",
+      "category": "household",
+      "weight_raw": "750 мл",
+      "weight_grams": 750,
+      "shelf_life": "1-2г",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": true,
+      "is_long_lasting": true,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00055253_P?JGstbGVnYWN5LW9uc2l0ZS0xJA==",
+      "product_id": "kaufland-frosch-препарат-за-съдове-различни-видове-750g",
+      "last_seen": "2026-05-18",
+      "first_seen": "2026-05-18",
+      "price_history": [
+        {
+          "date": "2026-05-18",
+          "store": "Kaufland",
+          "price": 2.89,
+          "price_eur": 1.48,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 2.89,
+      "lowest_price_date": "2026-05-18",
+      "avg_price": 2.89
+    },
+    {
+      "name": "Скариди, бланширани от свежата витрина",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "на кг",
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/2812310000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-скариди-бланширани-от-свежата-витрина",
+      "last_seen": "2026-05-18",
+      "first_seen": "2026-05-18",
+      "price_history": [
+        {
+          "date": "2026-05-18",
+          "store": "Kaufland",
+          "price": 19.99,
+          "price_eur": 10.22,
+          "old_price": 25.99,
+          "discount_pct": 23
+        }
+      ],
+      "lowest_price": 19.99,
+      "lowest_price_date": "2026-05-18",
+      "avg_price": 19.99
     }
   ]
 }
