@@ -1,5 +1,5 @@
 const ALL_PRODUCTS_DATA = {
-  "generated_at": "2026-05-18T17:32:37.928388Z",
+  "generated_at": "2026-05-18T18:51:03.897607Z",
   "total_products": 16486,
   "products": [
     {
@@ -652730,7 +652730,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/324_02903490_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800228181249_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-хляб-добруджа-650g",
       "last_seen": "2026-05-18",
       "first_seen": "2026-05-07",
@@ -666026,7 +666026,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00069762_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/637_00027591?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-wilkinson-xtreme3-самобръсначка-различни-видове",
       "last_seen": "2026-05-18",
       "first_seen": "2026-05-18",
