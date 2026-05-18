@@ -1,8 +1,8 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-05-18T08:10:09.874449Z",
-  "content_hash": "a3da9cdf20d36178552c9df6220f86c2",
-  "total_offers": 4396,
-  "promo_offers": 1841,
+  "generated_at": "2026-05-18T14:27:08.844487Z",
+  "content_hash": "51af66f73af1f6338d53a312924daf4b",
+  "total_offers": 4416,
+  "promo_offers": 1861,
   "assortment_offers": 2555,
   "stores": [
     "Billa",
@@ -11344,6 +11344,70 @@ const OFFERS_DATA = {
     {
       "store": "Kaufland",
       "address": null,
+      "new_price": 1.58,
+      "new_price_eur": 0.81,
+      "old_price": 2.29,
+      "old_price_eur": 1.17,
+      "discount_pct": 31,
+      "valid_from": "2026-05-18",
+      "valid_until": "2026-05-24",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 1.58,
+          "price_eur": 0.81,
+          "old_price": 2.29,
+          "old_price_eur": 1.17,
+          "discount_pct": 31,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 1.58,
+      "comparison_count": 1,
+      "product_id": "kaufland-wilkinson-extra-3-самобръсначка-sensitive"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 1.58,
+      "new_price_eur": 0.81,
+      "old_price": 2.29,
+      "old_price_eur": 1.17,
+      "discount_pct": 31,
+      "valid_from": "2026-05-18",
+      "valid_until": "2026-05-24",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 1.58,
+          "price_eur": 0.81,
+          "old_price": 2.29,
+          "old_price_eur": 1.17,
+          "discount_pct": 31,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 1.58,
+      "comparison_count": 1,
+      "product_id": "kaufland-wilkinson-ножчета-double-edge-5-бр"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
       "new_price": 1.66,
       "new_price_eur": 0.85,
       "old_price": 2.09,
@@ -13452,6 +13516,38 @@ const OFFERS_DATA = {
       "best_price": 2.58,
       "comparison_count": 1,
       "product_id": "kaufland-leontiadis-family-гръцка-пита-пшенична-720g"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 2.64,
+      "new_price_eur": 1.35,
+      "old_price": 3.79,
+      "old_price_eur": 1.94,
+      "discount_pct": 30,
+      "valid_from": "2026-05-18",
+      "valid_until": "2026-05-24",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 2.64,
+          "price_eur": 1.35,
+          "old_price": 3.79,
+          "old_price_eur": 1.94,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 2.64,
+      "comparison_count": 1,
+      "product_id": "kaufland-wilkinson-самобръсначка-с-единично-ножче"
     },
     {
       "store": "Kaufland",
@@ -16432,6 +16528,38 @@ const OFFERS_DATA = {
     {
       "store": "Kaufland",
       "address": null,
+      "new_price": 5.1,
+      "new_price_eur": 2.61,
+      "old_price": 7.3,
+      "old_price_eur": 3.73,
+      "discount_pct": 30,
+      "valid_from": "2026-05-18",
+      "valid_until": "2026-05-24",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 5.1,
+          "price_eur": 2.61,
+          "old_price": 7.3,
+          "old_price_eur": 3.73,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 5.1,
+      "comparison_count": 1,
+      "product_id": "kaufland-wilkinson-extra-2-самобръсначка-sensitive"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
       "new_price": 5.18,
       "new_price_eur": 2.65,
       "old_price": 6.49,
@@ -16460,38 +16588,6 @@ const OFFERS_DATA = {
       "best_price": 5.18,
       "comparison_count": 1,
       "product_id": "kaufland-бреи-сух-шпек-250g"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 5.24,
-      "new_price_eur": 2.68,
-      "old_price": 7.49,
-      "old_price_eur": 3.83,
-      "discount_pct": 30,
-      "valid_from": "2026-05-18",
-      "valid_until": "2026-05-24",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 5.24,
-          "price_eur": 2.68,
-          "old_price": 7.49,
-          "old_price_eur": 3.83,
-          "discount_pct": 30,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 5.24,
-      "comparison_count": 1,
-      "product_id": "kaufland-wilkinson-самобръсначка-xtreme3"
     },
     {
       "store": "Kaufland",
@@ -17068,6 +17164,38 @@ const OFFERS_DATA = {
       "best_price": 5.59,
       "comparison_count": 1,
       "product_id": "kaufland-wilkinson-инструмент-за-вежди-intuition"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 5.59,
+      "new_price_eur": 2.86,
+      "old_price": 8.0,
+      "old_price_eur": 4.09,
+      "discount_pct": 30,
+      "valid_from": "2026-05-18",
+      "valid_until": "2026-05-24",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 5.59,
+          "price_eur": 2.86,
+          "old_price": 8.0,
+          "old_price_eur": 4.09,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 5.59,
+      "comparison_count": 1,
+      "product_id": "kaufland-wilkinson-ножчета-quatro-titanium"
     },
     {
       "store": "Kaufland",
@@ -17808,6 +17936,38 @@ const OFFERS_DATA = {
     {
       "store": "Kaufland",
       "address": null,
+      "new_price": 6.0,
+      "new_price_eur": 3.07,
+      "old_price": 8.59,
+      "old_price_eur": 4.39,
+      "discount_pct": 30,
+      "valid_from": "2026-05-18",
+      "valid_until": "2026-05-24",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 6.0,
+          "price_eur": 3.07,
+          "old_price": 8.59,
+          "old_price_eur": 4.39,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 6.0,
+      "comparison_count": 1,
+      "product_id": "kaufland-wilkinson-самобръсначка-double-edge"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
       "new_price": 6.43,
       "new_price_eur": 3.29,
       "old_price": null,
@@ -18064,6 +18224,38 @@ const OFFERS_DATA = {
     {
       "store": "Kaufland",
       "address": null,
+      "new_price": 6.85,
+      "new_price_eur": 3.5,
+      "old_price": 9.8,
+      "old_price_eur": 5.01,
+      "discount_pct": 30,
+      "valid_from": "2026-05-18",
+      "valid_until": "2026-05-24",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 6.85,
+          "price_eur": 3.5,
+          "old_price": 9.8,
+          "old_price_eur": 5.01,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 6.85,
+      "comparison_count": 1,
+      "product_id": "kaufland-wilkinson-quattro-самобръсначка-titanium"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
       "new_price": 6.98,
       "new_price_eur": 3.57,
       "old_price": 17.0,
@@ -18092,6 +18284,70 @@ const OFFERS_DATA = {
       "best_price": 6.98,
       "comparison_count": 1,
       "product_id": "kaufland-luminarc-тава-diwali-ø22-см"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 6.98,
+      "new_price_eur": 3.57,
+      "old_price": 9.99,
+      "old_price_eur": 5.11,
+      "discount_pct": 30,
+      "valid_from": "2026-05-18",
+      "valid_until": "2026-05-24",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 6.98,
+          "price_eur": 3.57,
+          "old_price": 9.99,
+          "old_price_eur": 5.11,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 6.98,
+      "comparison_count": 1,
+      "product_id": "kaufland-wilkinson-самобръсначка-hydro-silk"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 6.98,
+      "new_price_eur": 3.57,
+      "old_price": 9.99,
+      "old_price_eur": 5.11,
+      "discount_pct": 30,
+      "valid_from": "2026-05-18",
+      "valid_until": "2026-05-24",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 6.98,
+          "price_eur": 3.57,
+          "old_price": 9.99,
+          "old_price_eur": 5.11,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 6.98,
+      "comparison_count": 1,
+      "product_id": "kaufland-wilkinson-ножчета-hydro-silk"
     },
     {
       "store": "Kaufland",
@@ -18480,6 +18736,38 @@ const OFFERS_DATA = {
     {
       "store": "Kaufland",
       "address": null,
+      "new_price": 7.26,
+      "new_price_eur": 3.71,
+      "old_price": 10.39,
+      "old_price_eur": 5.31,
+      "discount_pct": 30,
+      "valid_from": "2026-05-18",
+      "valid_until": "2026-05-24",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 7.26,
+          "price_eur": 3.71,
+          "old_price": 10.39,
+          "old_price_eur": 5.31,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 7.26,
+      "comparison_count": 1,
+      "product_id": "kaufland-wilkinson-самобръсначка-intuition-smooth-sens"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
       "new_price": 7.28,
       "new_price_eur": 3.72,
       "old_price": null,
@@ -18636,6 +18924,70 @@ const OFFERS_DATA = {
       "best_price": 7.49,
       "comparison_count": 1,
       "product_id": "kaufland-syoss-интензивен-балсам-intense-curl-250g"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 7.69,
+      "new_price_eur": 3.93,
+      "old_price": 10.99,
+      "old_price_eur": 5.62,
+      "discount_pct": 30,
+      "valid_from": "2026-05-18",
+      "valid_until": "2026-05-24",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 7.69,
+          "price_eur": 3.93,
+          "old_price": 10.99,
+          "old_price_eur": 5.62,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 7.69,
+      "comparison_count": 1,
+      "product_id": "kaufland-wilkinson-самобръсначка-различни-видове"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 7.69,
+      "new_price_eur": 3.93,
+      "old_price": 10.99,
+      "old_price_eur": 5.62,
+      "discount_pct": 30,
+      "valid_from": "2026-05-18",
+      "valid_until": "2026-05-24",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 7.69,
+          "price_eur": 3.93,
+          "old_price": 10.99,
+          "old_price_eur": 5.62,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 7.69,
+      "comparison_count": 1,
+      "product_id": "kaufland-wilkinson-самобръсначка"
     },
     {
       "store": "Kaufland",
@@ -18992,6 +19344,38 @@ const OFFERS_DATA = {
     {
       "store": "Kaufland",
       "address": null,
+      "new_price": 8.19,
+      "new_price_eur": 4.19,
+      "old_price": 11.72,
+      "old_price_eur": 5.99,
+      "discount_pct": 30,
+      "valid_from": "2026-05-18",
+      "valid_until": "2026-05-24",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 8.19,
+          "price_eur": 4.19,
+          "old_price": 11.72,
+          "old_price_eur": 5.99,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 8.19,
+      "comparison_count": 1,
+      "product_id": "kaufland-wilkinson-самобръсначка-quatro-titanium"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
       "new_price": 8.23,
       "new_price_eur": 4.21,
       "old_price": 10.99,
@@ -19116,6 +19500,38 @@ const OFFERS_DATA = {
       "best_price": 8.51,
       "comparison_count": 1,
       "product_id": "kaufland-creta-farms-пица-с-гирос-различни-видове-500g"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 8.74,
+      "new_price_eur": 4.47,
+      "old_price": 12.5,
+      "old_price_eur": 6.39,
+      "discount_pct": 30,
+      "valid_from": "2026-05-18",
+      "valid_until": "2026-05-24",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 8.74,
+          "price_eur": 4.47,
+          "old_price": 12.5,
+          "old_price_eur": 6.39,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 8.74,
+      "comparison_count": 1,
+      "product_id": "kaufland-wilkinson-xtreme3-самобръсначка-hybrid-beauty-4-ножчета"
     },
     {
       "store": "Kaufland",
@@ -19472,6 +19888,38 @@ const OFFERS_DATA = {
     {
       "store": "Kaufland",
       "address": null,
+      "new_price": 9.06,
+      "new_price_eur": 4.63,
+      "old_price": 12.95,
+      "old_price_eur": 6.62,
+      "discount_pct": 30,
+      "valid_from": "2026-05-18",
+      "valid_until": "2026-05-24",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 9.06,
+          "price_eur": 4.63,
+          "old_price": 12.95,
+          "old_price_eur": 6.62,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 9.06,
+      "comparison_count": 1,
+      "product_id": "kaufland-wilkinson-електрическа-самобръсначка"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
       "new_price": 9.08,
       "new_price_eur": 4.64,
       "old_price": 12.99,
@@ -19564,6 +20012,70 @@ const OFFERS_DATA = {
       "best_price": 9.37,
       "comparison_count": 1,
       "product_id": "kaufland-lenor-парфюмни-перли-различни-видове-195g"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 9.51,
+      "new_price_eur": 4.86,
+      "old_price": 13.59,
+      "old_price_eur": 6.95,
+      "discount_pct": 30,
+      "valid_from": "2026-05-18",
+      "valid_until": "2026-05-24",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 9.51,
+          "price_eur": 4.86,
+          "old_price": 13.59,
+          "old_price_eur": 6.95,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 9.51,
+      "comparison_count": 1,
+      "product_id": "kaufland-wilkinson-xtreme3-самобръсначка-sensitive"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 9.51,
+      "new_price_eur": 4.86,
+      "old_price": 13.59,
+      "old_price_eur": 6.95,
+      "discount_pct": 30,
+      "valid_from": "2026-05-18",
+      "valid_until": "2026-05-24",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 9.51,
+          "price_eur": 4.86,
+          "old_price": 13.59,
+          "old_price_eur": 6.95,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 9.51,
+      "comparison_count": 1,
+      "product_id": "kaufland-wilkinson-самобръсначка-или-ножчета"
     },
     {
       "store": "Kaufland",
@@ -20912,6 +21424,38 @@ const OFFERS_DATA = {
     {
       "store": "Kaufland",
       "address": null,
+      "new_price": 11.54,
+      "new_price_eur": 5.9,
+      "old_price": 16.49,
+      "old_price_eur": 8.43,
+      "discount_pct": 30,
+      "valid_from": "2026-05-18",
+      "valid_until": "2026-05-24",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 11.54,
+          "price_eur": 5.9,
+          "old_price": 16.49,
+          "old_price_eur": 8.43,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 11.54,
+      "comparison_count": 1,
+      "product_id": "kaufland-wilkinson-самобръсначка-hydro-5"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
       "new_price": 11.72,
       "new_price_eur": 5.99,
       "old_price": null,
@@ -21452,6 +21996,38 @@ const OFFERS_DATA = {
       "best_price": 12.5,
       "comparison_count": 1,
       "product_id": "kaufland-syoss-серум-за-коса-различни-видове-100g"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 12.6,
+      "new_price_eur": 6.44,
+      "old_price": 17.99,
+      "old_price_eur": 9.2,
+      "discount_pct": 30,
+      "valid_from": "2026-05-18",
+      "valid_until": "2026-05-24",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 12.6,
+          "price_eur": 6.44,
+          "old_price": 17.99,
+          "old_price_eur": 9.2,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 12.6,
+      "comparison_count": 1,
+      "product_id": "kaufland-wilkinson-самобръсначка-xtreme3-sensitive"
     },
     {
       "store": "Kaufland",
@@ -22860,6 +23436,38 @@ const OFFERS_DATA = {
       "best_price": 14.98,
       "comparison_count": 1,
       "product_id": "kaufland-parkside-комплект-битове-pbs-s3-a1-11-части-или-15-части"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 15.04,
+      "new_price_eur": 7.69,
+      "old_price": 21.49,
+      "old_price_eur": 10.99,
+      "discount_pct": 30,
+      "valid_from": "2026-05-18",
+      "valid_until": "2026-05-24",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 15.04,
+          "price_eur": 7.69,
+          "old_price": 21.49,
+          "old_price_eur": 10.99,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 15.04,
+      "comparison_count": 1,
+      "product_id": "kaufland-wilkinson-самобръсначка-или-ножчета-intuition-naturals"
     },
     {
       "store": "Kaufland",
@@ -24812,6 +25420,38 @@ const OFFERS_DATA = {
       "best_price": 24.43,
       "comparison_count": 1,
       "product_id": "kaufland-matarelli-узо-700g"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 24.68,
+      "new_price_eur": 12.62,
+      "old_price": 35.28,
+      "old_price_eur": 18.04,
+      "discount_pct": 30,
+      "valid_from": "2026-05-18",
+      "valid_until": "2026-05-24",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 24.68,
+          "price_eur": 12.62,
+          "old_price": 35.28,
+          "old_price_eur": 18.04,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 24.68,
+      "comparison_count": 1,
+      "product_id": "kaufland-wilkinson-самобръсначка-3-ножчета"
     },
     {
       "store": "Kaufland",
