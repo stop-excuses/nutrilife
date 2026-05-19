@@ -1,8 +1,8 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-05-19T10:01:40.207761Z",
-  "content_hash": "f300801b057c38ca546514fc43be2a58",
-  "total_offers": 4414,
-  "promo_offers": 1859,
+  "generated_at": "2026-05-19T10:52:36.136102Z",
+  "content_hash": "17e449f8458aef6da228a9a6f4c37fdb",
+  "total_offers": 4413,
+  "promo_offers": 1858,
   "assortment_offers": 2555,
   "stores": [
     "Billa",
@@ -13292,38 +13292,6 @@ const OFFERS_DATA = {
       "best_price": 2.39,
       "comparison_count": 1,
       "product_id": "kaufland-k-classic-wc-ароматизатор-различни-видове-165g"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 2.39,
-      "new_price_eur": 1.22,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-05-18",
-      "valid_until": "2026-05-24",
-      "price_per_kg": 14.48,
-      "price_per_kg_eur": 7.4,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 2.39,
-          "price_eur": 1.22,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 2.39,
-      "comparison_count": 1,
-      "product_id": "kaufland-k-classic-wc-ароматизатор-различни-аромати-165g"
     },
     {
       "store": "Kaufland",
