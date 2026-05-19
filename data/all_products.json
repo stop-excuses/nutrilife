@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T07:54:08.222858Z",
+  "generated_at": "2026-05-19T10:01:39.524845Z",
   "total_products": 16501,
   "products": [
     {
@@ -431125,51 +431125,6 @@
       "store": "Kaufland"
     },
     {
-      "name": "K-Classic WC ароматизатор различни аромати",
-      "emoji": "🍺",
-      "category": "drinks",
-      "weight_raw": null,
-      "weight_grams": null,
-      "shelf_life": "малотраен",
-      "is_food": false,
-      "is_healthy": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": null,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/4063367437526_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "product_id": "kaufland-k-classic-wc-ароматизатор-различни-аромати-2",
-      "last_seen": "2026-04-30",
-      "first_seen": "2026-04-20",
-      "price_history": [
-        {
-          "date": "2026-04-20",
-          "store": "Kaufland",
-          "price": 2.39,
-          "price_eur": 1.22,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-04-27",
-          "store": "Kaufland",
-          "price": 2.23,
-          "price_eur": 1.14,
-          "old_price": 2.99,
-          "discount_pct": 25
-        }
-      ],
-      "lowest_price": 2.23,
-      "lowest_price_date": "2026-04-27",
-      "avg_price": 2.31,
-      "store": "Kaufland"
-    },
-    {
       "name": "Salza Соленки с вкус различни видове",
       "emoji": "🛒",
       "category": "other",
@@ -677530,7 +677485,7 @@
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/IMG_0017_1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00103841__20IMG_0091_20_281_29?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-букет-микс-40-см",
       "last_seen": "2026-05-19",
       "first_seen": "2026-05-19",
@@ -677695,6 +677650,59 @@
       "lowest_price": 29.98,
       "lowest_price_date": "2026-05-19",
       "avg_price": 29.98
+    },
+    {
+      "name": "K-Classic WC ароматизатор различни аромати",
+      "store": "Kaufland",
+      "emoji": "🍺",
+      "category": "drinks",
+      "weight_raw": "3 х 55 мл",
+      "weight_grams": 165,
+      "shelf_life": "малотраен",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4063367437519_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-k-classic-wc-ароматизатор-различни-аромати-165g",
+      "last_seen": "2026-05-19",
+      "first_seen": "2026-04-20",
+      "price_history": [
+        {
+          "date": "2026-04-20",
+          "store": "Kaufland",
+          "price": 2.39,
+          "price_eur": 1.22,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-04-27",
+          "store": "Kaufland",
+          "price": 2.23,
+          "price_eur": 1.14,
+          "old_price": 2.99,
+          "discount_pct": 25
+        },
+        {
+          "date": "2026-05-19",
+          "store": "Kaufland",
+          "price": 2.39,
+          "price_eur": 1.22,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 2.23,
+      "lowest_price_date": "2026-04-27",
+      "avg_price": 2.34
     }
   ]
 }
