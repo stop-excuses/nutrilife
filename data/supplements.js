@@ -1,6 +1,6 @@
 const SUPPLEMENTS_DATA = {
-  "generated_at": "2026-05-16T05:26:13.560269Z",
-  "total_supplements": 258,
+  "generated_at": "2026-05-21T13:31:19.116826Z",
+  "total_supplements": 278,
   "sources": [
     "Fitness1",
     "Framar",
@@ -1090,136 +1090,6 @@ const SUPPLEMENTS_DATA = {
       "scraped_at": "2026-05-14T14:57:39.782733Z"
     },
     {
-      "id": "healthstore-gym-beam---omega-3-forte---90-softgels",
-      "store": "HealthStore",
-      "name": "GYM BEAM - Omega 3 Forte - 90 Softgels",
-      "brand": "GYM BEAM",
-      "category": "omega3",
-      "url": "https://healthstore.bg/gym-beam-omega-3-forte-90-softgels",
-      "image": "https://healthstore.bg/image/data/-GYM BEAM/GB8231-1.jpg",
-      "price_bgn": 23.2,
-      "price_eur": 11.86,
-      "currency_source": "EUR",
-      "weight_grams": 300.0,
-      "servings": 3,
-      "count": 90,
-      "active": {
-        "epa_mg": 1000,
-        "dha_mg": 330,
-        "epa_dha_mg": 1330
-      },
-      "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 5.81
-      },
-      "unit_label": "лв / 1000 mg EPA+DHA",
-      "confidence": "high",
-      "scraped_at": "2026-05-14T14:57:40.854149Z"
-    },
-    {
-      "id": "healthstore-pure-nutrition---super-omega-3-fish-oil-1000-mg---500-epa-250-dha---50-softgels",
-      "store": "HealthStore",
-      "name": "Pure Nutrition - SUPER OMEGA 3 FISH OIL 1000 mg - 500 EPA / 250 DHA - 50 Softgels",
-      "brand": "PURE NUTRITION",
-      "category": "omega3",
-      "url": "https://healthstore.bg/pure-nutrition-omega-3-fish-oil-50-drazheta",
-      "image": "https://healthstore.bg/image/data/NEW - 15.12.2025/Super Omega/SUPER-OMEGA-3-FISH-OIL-50-softgels.png",
-      "price_bgn": 32.99,
-      "price_eur": 16.87,
-      "currency_source": "EUR",
-      "weight_grams": 1.0,
-      "servings": 50,
-      "count": 50,
-      "active": {
-        "epa_mg": 500,
-        "dha_mg": 1000,
-        "epa_dha_mg": 1500
-      },
-      "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 0.44
-      },
-      "unit_label": "лв / 1000 mg EPA+DHA",
-      "confidence": "high",
-      "scraped_at": "2026-05-14T14:57:42.920396Z"
-    },
-    {
-      "id": "healthstore-pure-nutrition---super-omega-3-fish-oil-1000-mg---500-epa-250-dha---200-дражета",
-      "store": "HealthStore",
-      "name": "Pure Nutrition - SUPER OMEGA 3 FISH OIL 1000 mg - 500 EPA / 250 DHA - 200 Дражета",
-      "brand": "PURE NUTRITION",
-      "category": "omega3",
-      "url": "https://healthstore.bg/pure-nutrition-omega-3-fish-oil-200-drazheta",
-      "image": "https://healthstore.bg/image/data/NEW - 15.12.2025/Super Omega/SUPER-OMEGA-3-FISH-OIL-200-softgels.png",
-      "price_bgn": 100.0,
-      "price_eur": 51.13,
-      "currency_source": "EUR",
-      "weight_grams": 1.0,
-      "servings": 200,
-      "count": 200,
-      "active": {
-        "epa_mg": 500,
-        "dha_mg": 500,
-        "epa_dha_mg": 1000
-      },
-      "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 0.5
-      },
-      "unit_label": "лв / 1000 mg EPA+DHA",
-      "confidence": "high",
-      "scraped_at": "2026-05-14T14:57:43.938014Z"
-    },
-    {
-      "id": "healthstore-pure-nutrition---super-omega-3-fish-oil-1000-mg---500-epa-250-dha---100-дражета",
-      "store": "HealthStore",
-      "name": "Pure Nutrition - SUPER OMEGA 3 FISH OIL 1000 mg - 500 EPA / 250 DHA - 100 Дражета",
-      "brand": "PURE NUTRITION",
-      "category": "omega3",
-      "url": "https://healthstore.bg/pure-nutrition-omega-3-fish-oil-100-drazheta",
-      "image": "https://healthstore.bg/image/data/NEW - 15.12.2025/Super Omega/SUPER-OMEGA-3-FISH-OIL-100-softgels.png",
-      "price_bgn": 56.99,
-      "price_eur": 29.14,
-      "currency_source": "EUR",
-      "weight_grams": 1.0,
-      "servings": 100,
-      "count": 100,
-      "active": {
-        "epa_mg": 500,
-        "dha_mg": 500,
-        "epa_dha_mg": 1000
-      },
-      "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 0.57
-      },
-      "unit_label": "лв / 1000 mg EPA+DHA",
-      "confidence": "high",
-      "scraped_at": "2026-05-14T14:57:45.013524Z"
-    },
-    {
-      "id": "healthstore-pure-nutrition---omega-3-fish-oil-180-epa-120-dha---100-дражета",
-      "store": "HealthStore",
-      "name": "Pure Nutrition - Omega 3 Fish Oil 180 EPA/120 DHA - 100 Дражета",
-      "brand": "PURE NUTRITION",
-      "category": "omega3",
-      "url": "https://healthstore.bg/pure-nutrition-omega-3-fish-oil-180-epa-120-dha-100-drazheta",
-      "image": "https://healthstore.bg/image/data/PURE/PN6182/OMEGA-3-FISH-OIL-100-softgels (1).png",
-      "price_bgn": 25.99,
-      "price_eur": 13.29,
-      "currency_source": "EUR",
-      "weight_grams": 500.0,
-      "servings": 2,
-      "count": 100,
-      "active": {
-        "epa_mg": 180,
-        "dha_mg": 1000,
-        "epa_dha_mg": 1180
-      },
-      "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 11.01
-      },
-      "unit_label": "лв / 1000 mg EPA+DHA",
-      "confidence": "high",
-      "scraped_at": "2026-05-14T14:57:47.231007Z"
-    },
-    {
       "id": "healthstore-hs-labs---magnesium-bisglycinate---200-g",
       "store": "HealthStore",
       "name": "HS LABS - MAGNESIUM BISGLYCINATE - 200 g",
@@ -1988,30 +1858,6 @@ const SUPPLEMENTS_DATA = {
       "scraped_at": "2026-05-14T14:58:29.307878Z"
     },
     {
-      "id": "healthstore-hs-labs---zinc-picolinate-15-mg---150-capsules",
-      "store": "HealthStore",
-      "name": "HS LABS - ZINC PICOLINATE 15 mg - 150 capsules",
-      "brand": "HS LABS",
-      "category": "zinc",
-      "url": "https://healthstore.bg/hs-labs-zinc-picolinate-15-mg-150-tablets",
-      "image": "https://healthstore.bg/image/data/00 HS LABS/Zinc - 150 capsules/ZINC-150-capsules.png",
-      "price_bgn": 25.19,
-      "price_eur": 12.88,
-      "currency_source": "EUR",
-      "weight_grams": null,
-      "servings": 150,
-      "count": 150,
-      "active": {
-        "zinc_mg": 50
-      },
-      "price_per_active_unit": {
-        "bgn_per_15mg_zinc": 0.05
-      },
-      "unit_label": "лв / 15 mg цинк",
-      "confidence": "high",
-      "scraped_at": "2026-05-14T14:58:31.132831Z"
-    },
-    {
       "id": "healthstore-gym-beam---zinc---90-tablets",
       "store": "HealthStore",
       "name": "GYM BEAM - Zinc - 90 Tablets",
@@ -2034,78 +1880,6 @@ const SUPPLEMENTS_DATA = {
       "unit_label": "лв / 15 mg цинк",
       "confidence": "high",
       "scraped_at": "2026-05-14T14:58:32.236401Z"
-    },
-    {
-      "id": "healthstore-pure-nutrition---zinc-picolinate-15-mg---100-capsules",
-      "store": "HealthStore",
-      "name": "Pure Nutrition - ZINC PICOLINATE 15 mg - 100 Capsules",
-      "brand": "PURE NUTRITION",
-      "category": "zinc",
-      "url": "https://healthstore.bg/pure-nutrition-zinc-picolinate-15-mg-100-capsules",
-      "image": "https://healthstore.bg/image/data/ZINC-100-Tablets-15-mg - 156 x 56 mm.png",
-      "price_bgn": 20.01,
-      "price_eur": 10.23,
-      "currency_source": "EUR",
-      "weight_grams": null,
-      "servings": 100,
-      "count": 100,
-      "active": {
-        "zinc_mg": 50
-      },
-      "price_per_active_unit": {
-        "bgn_per_15mg_zinc": 0.06
-      },
-      "unit_label": "лв / 15 mg цинк",
-      "confidence": "high",
-      "scraped_at": "2026-05-14T14:58:33.251618Z"
-    },
-    {
-      "id": "healthstore-pure-nutrition---zinc-complex-50-mg---100-tablets",
-      "store": "HealthStore",
-      "name": "Pure Nutrition - ZINC COMPLEX 50 mg - 100 Tablets",
-      "brand": "PURE NUTRITION",
-      "category": "zinc",
-      "url": "https://healthstore.bg/pure-nutrition-zinc-complex-50-mg-100-tablets",
-      "image": "https://healthstore.bg/image/data/0-0-0-0 Pure New/health-line-2022/ZINC COMPLEX 50 mg - 100 Tablets.png",
-      "price_bgn": 24.0,
-      "price_eur": 12.27,
-      "currency_source": "EUR",
-      "weight_grams": 1620.0,
-      "servings": 100,
-      "count": 100,
-      "active": {
-        "zinc_mg": 50
-      },
-      "price_per_active_unit": {
-        "bgn_per_15mg_zinc": 0.07
-      },
-      "unit_label": "лв / 15 mg цинк",
-      "confidence": "high",
-      "scraped_at": "2026-05-14T14:58:34.258960Z"
-    },
-    {
-      "id": "healthstore-nutrend---mineral-zinc-100-chelate-15-mg---100-veg-capsules",
-      "store": "HealthStore",
-      "name": "NUTREND - Mineral Zinc 100% Chelate 15 mg - 100 Veg Capsules",
-      "brand": "Nutrend",
-      "category": "zinc",
-      "url": "https://healthstore.bg/nutrend-mineral-zinc-100-chelate-15-mg-100-veg-capsules",
-      "image": "https://healthstore.bg/image/data/Nutrend/NUT1344-1.PNG",
-      "price_bgn": 18.78,
-      "price_eur": 9.6,
-      "currency_source": "EUR",
-      "weight_grams": null,
-      "servings": 100,
-      "count": 100,
-      "active": {
-        "zinc_mg": 50
-      },
-      "price_per_active_unit": {
-        "bgn_per_15mg_zinc": 0.06
-      },
-      "unit_label": "лв / 15 mg цинк",
-      "confidence": "high",
-      "scraped_at": "2026-05-14T14:58:35.425271Z"
     },
     {
       "id": "healthstore-gym-beam---zinc---180-tablets",
@@ -2255,54 +2029,6 @@ const SUPPLEMENTS_DATA = {
       "unit_label": "лв / 25 g протеин",
       "confidence": "high",
       "scraped_at": "2026-05-16T05:17:14.913542Z"
-    },
-    {
-      "id": "healthstore-now---psyllium-husk-500-мг---200-капсули",
-      "store": "HealthStore",
-      "name": "NOW - Psyllium Husk 500 МГ - 200 Капсули",
-      "brand": "NOW FOODS",
-      "category": "fiber",
-      "url": "https://healthstore.bg/now-psyllium-husk-500-mg-200-kapsuli",
-      "image": "https://healthstore.bg/image/data/5970-supp.PNG",
-      "price_bgn": 30.0,
-      "price_eur": 15.34,
-      "currency_source": "EUR",
-      "weight_grams": 1.1,
-      "servings": 66,
-      "count": 200,
-      "active": {
-        "fiber_mg": 725
-      },
-      "price_per_active_unit": {
-        "bgn_per_5g_fiber": 3.13
-      },
-      "unit_label": "лв / 5 g фибри",
-      "confidence": "medium",
-      "scraped_at": "2026-05-14T14:58:48.235703Z"
-    },
-    {
-      "id": "healthstore-pure-nutrition---psyllium-husk-725-mg---120-capsules",
-      "store": "HealthStore",
-      "name": "Pure Nutrition - PSYLLIUM HUSK 725 mg - 120 Capsules",
-      "brand": "PURE NUTRITION",
-      "category": "fiber",
-      "url": "https://healthstore.bg/pure-nutrition-psyllium-husk-725-mg-120-capsules",
-      "image": "https://healthstore.bg/image/data/0-0-0-0 Pure New/health-line-2022/PSYLLIUM HUSK 725 mg - 120 Capsules.png",
-      "price_bgn": 37.0,
-      "price_eur": 18.92,
-      "currency_source": "EUR",
-      "weight_grams": 1816.0,
-      "servings": 120,
-      "count": 120,
-      "active": {
-        "fiber_mg": 2175
-      },
-      "price_per_active_unit": {
-        "bgn_per_5g_fiber": 0.71
-      },
-      "unit_label": "лв / 5 g фибри",
-      "confidence": "medium",
-      "scraped_at": "2026-05-14T14:58:49.282278Z"
     },
     {
       "id": "remedium-про-пърформанс-суроватъчен-протеин-и-креатин-с-вкус-на-шоколад-х1080-грама-gnc",
@@ -4871,78 +4597,6 @@ const SUPPLEMENTS_DATA = {
       "scraped_at": "2026-05-14T15:03:27.574847Z"
     },
     {
-      "id": "silabg-thorne-zinc-bisglycinate-15-mg-60-caps",
-      "store": "SilaBG",
-      "name": "THORNE Zinc Bisglycinate 15 mg / 60 Caps",
-      "brand": "THORNE",
-      "category": "zinc",
-      "url": "https://www.silabg.com/bg/41992-thorne-zinc-bisglycinate-15-mg-60-caps.html",
-      "image": "https://www.silabg.com/uf/product/40543_Zinc_Bisglycinate_60.jpg",
-      "price_bgn": 28.61,
-      "price_eur": 14.63,
-      "currency_source": "EUR",
-      "weight_grams": 0.0,
-      "servings": null,
-      "count": 60,
-      "active": {
-        "zinc_mg": 15
-      },
-      "price_per_active_unit": {
-        "bgn_per_15mg_zinc": 0.48
-      },
-      "unit_label": "лв / 15 mg цинк",
-      "confidence": "high",
-      "scraped_at": "2026-05-14T15:03:29.267641Z"
-    },
-    {
-      "id": "silabg-amix-zinc-bisglycinate-15-mg-90-vcaps",
-      "store": "SilaBG",
-      "name": "AMIX Zinc Bisglycinate 15 mg / 90 Vcaps",
-      "brand": "AMIX",
-      "category": "zinc",
-      "url": "https://www.silabg.com/bg/40165-amix-zinc-bisglycinate-15-mg-90-vcaps.html",
-      "image": "https://www.silabg.com/uf/product/38724_Zinc_Bisglycinate_90.jpg",
-      "price_bgn": 28.01,
-      "price_eur": 14.32,
-      "currency_source": "EUR",
-      "weight_grams": 0.0,
-      "servings": null,
-      "count": 90,
-      "active": {
-        "zinc_mg": 15
-      },
-      "price_per_active_unit": {
-        "bgn_per_15mg_zinc": 0.31
-      },
-      "unit_label": "лв / 15 mg цинк",
-      "confidence": "high",
-      "scraped_at": "2026-05-14T15:03:37.602692Z"
-    },
-    {
-      "id": "silabg-thorne-zinc-picolinate-15-mg-60-caps",
-      "store": "SilaBG",
-      "name": "THORNE Zinc Picolinate 15 mg / 60 Caps",
-      "brand": "THORNE",
-      "category": "zinc",
-      "url": "https://www.silabg.com/bg/39204-thorne-zinc-picolinate-15-mg-60-caps.html",
-      "image": "https://www.silabg.com/uf/product/37815_zinc.jpg",
-      "price_bgn": 28.22,
-      "price_eur": 14.43,
-      "currency_source": "EUR",
-      "weight_grams": 0.0,
-      "servings": null,
-      "count": 60,
-      "active": {
-        "zinc_mg": 15
-      },
-      "price_per_active_unit": {
-        "bgn_per_15mg_zinc": 0.47
-      },
-      "unit_label": "лв / 15 mg цинк",
-      "confidence": "high",
-      "scraped_at": "2026-05-14T15:03:39.263937Z"
-    },
-    {
       "id": "silabg-thorne-whey-protein-isolate",
       "store": "SilaBG",
       "name": "THORNE Whey Protein Isolate",
@@ -5018,54 +4672,6 @@ const SUPPLEMENTS_DATA = {
       "scraped_at": "2026-05-14T15:03:45.686158Z"
     },
     {
-      "id": "silabg-grewia-psyllium-husks-900-mg-60-caps",
-      "store": "SilaBG",
-      "name": "GREWIA Psyllium Husks 900 mg / 60 Caps",
-      "brand": "GREWIA",
-      "category": "fiber",
-      "url": "https://www.silabg.com/bg/39157-grewia-psyllium-husks-900-mg-60-caps.html",
-      "image": "https://www.silabg.com/uf/product/37767_Psyllium_Husks_60.jpg",
-      "price_bgn": 41.7,
-      "price_eur": 21.32,
-      "currency_source": "EUR",
-      "weight_grams": 0.0,
-      "servings": null,
-      "count": 60,
-      "active": {
-        "fiber_mg": 900
-      },
-      "price_per_active_unit": {
-        "bgn_per_5g_fiber": 3.86
-      },
-      "unit_label": "лв / 5 g фибри",
-      "confidence": "medium",
-      "scraped_at": "2026-05-14T15:03:59.505000Z"
-    },
-    {
-      "id": "silabg-now-psyllium-husk-700-mg-180-caps",
-      "store": "SilaBG",
-      "name": "NOW Psyllium Husk 700 mg / 180 Caps",
-      "brand": "NOW",
-      "category": "fiber",
-      "url": "https://www.silabg.com/bg/38378-now-psyllium-husk-700-mg-180-caps.html",
-      "image": "https://www.silabg.com/uf/product/37000_180.jpg",
-      "price_bgn": 39.0,
-      "price_eur": 19.94,
-      "currency_source": "EUR",
-      "weight_grams": 0.0,
-      "servings": null,
-      "count": 180,
-      "active": {
-        "fiber_mg": 700
-      },
-      "price_per_active_unit": {
-        "bgn_per_5g_fiber": 1.55
-      },
-      "unit_label": "лв / 5 g фибри",
-      "confidence": "medium",
-      "scraped_at": "2026-05-14T15:04:04.599791Z"
-    },
-    {
       "id": "gymbeam-креатин-100-creapure---gymbeam",
       "store": "GymBeam",
       "name": "Креатин (100% Creapure®) - GymBeam",
@@ -5088,168 +4694,6 @@ const SUPPLEMENTS_DATA = {
       "unit_label": "лв / 5 g креатин",
       "confidence": "medium",
       "scraped_at": "2026-05-14T15:04:12.938709Z",
-      "availability_status": "in_stock"
-    },
-    {
-      "id": "gymbeam-omega-3-high-strength---the-protein-works",
-      "store": "GymBeam",
-      "name": "Omega 3 High Strength - The Protein Works",
-      "brand": "The Protein Works",
-      "category": "omega3",
-      "url": "https://gymbeam.bg/omega-3-the-protein-works.html",
-      "image": "https://gymbeam.bg/media/catalog/product/cache/70f742f66feec18cb83790f14444a3d1/o/m/omega_high_strength_90_softgels.1.jpg",
-      "price_bgn": 26.4,
-      "price_eur": 13.5,
-      "currency_source": "EUR",
-      "weight_grams": 2026.0,
-      "servings": null,
-      "count": null,
-      "active": {
-        "epa_mg": 300,
-        "dha_mg": 250,
-        "epa_dha_mg": 550
-      },
-      "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 48.0
-      },
-      "unit_label": "лв / 1000 mg EPA+DHA",
-      "confidence": "high",
-      "scraped_at": "2026-05-14T15:04:15.353334Z",
-      "availability_status": "in_stock"
-    },
-    {
-      "id": "gymbeam-омега-3-ultra---the-protein-works",
-      "store": "GymBeam",
-      "name": "Омега 3 Ultra - The Protein Works",
-      "brand": "The Protein Works",
-      "category": "omega3",
-      "url": "https://gymbeam.bg/omega-3-ultra-the-protein-works.html",
-      "image": "https://gymbeam.bg/media/catalog/product/cache/70f742f66feec18cb83790f14444a3d1/p/i/pillultraomega_right-pdp2018.jpg",
-      "price_bgn": 29.24,
-      "price_eur": 14.95,
-      "currency_source": "EUR",
-      "weight_grams": 2026.0,
-      "servings": null,
-      "count": null,
-      "active": {
-        "epa_mg": 1000,
-        "dha_mg": 330,
-        "epa_dha_mg": 1330
-      },
-      "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 21.99
-      },
-      "unit_label": "лв / 1000 mg EPA+DHA",
-      "confidence": "high",
-      "scraped_at": "2026-05-14T15:04:16.675222Z",
-      "availability_status": "in_stock"
-    },
-    {
-      "id": "gymbeam-premium-omega-3---gymbeam",
-      "store": "GymBeam",
-      "name": "Premium Omega 3 - GymBeam",
-      "brand": "GymBeam",
-      "category": "omega3",
-      "url": "https://gymbeam.bg/premium-omega-3-gymbeam.html",
-      "image": "https://gymbeam.bg/media/catalog/product/cache/70f742f66feec18cb83790f14444a3d1/p/r/premium_omega_3_oil_250_ml_gymbeam.png",
-      "price_bgn": 24.45,
-      "price_eur": 12.5,
-      "currency_source": "EUR",
-      "weight_grams": 2026.0,
-      "servings": null,
-      "count": null,
-      "active": {
-        "epa_mg": 450,
-        "dha_mg": 640,
-        "epa_dha_mg": 1090
-      },
-      "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 22.43
-      },
-      "unit_label": "лв / 1000 mg EPA+DHA",
-      "confidence": "high",
-      "scraped_at": "2026-05-14T15:04:17.995772Z",
-      "availability_status": "in_stock"
-    },
-    {
-      "id": "gymbeam-pink-omega---beastpink",
-      "store": "GymBeam",
-      "name": "Pink Omega - BeastPink",
-      "brand": "GymBeam BeastPink",
-      "category": "omega3",
-      "url": "https://gymbeam.bg/pink-omega-beastpink.html",
-      "image": "https://gymbeam.bg/media/catalog/product/cache/70f742f66feec18cb83790f14444a3d1/o/m/omega.png",
-      "price_bgn": 28.36,
-      "price_eur": 14.5,
-      "currency_source": "EUR",
-      "weight_grams": 2026.0,
-      "servings": null,
-      "count": 2,
-      "active": {
-        "epa_mg": 300,
-        "dha_mg": 200,
-        "epa_dha_mg": 500
-      },
-      "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 28.36
-      },
-      "unit_label": "лв / 1000 mg EPA+DHA",
-      "confidence": "high",
-      "scraped_at": "2026-05-14T15:04:21.981411Z",
-      "availability_status": "in_stock"
-    },
-    {
-      "id": "gymbeam-омега-3-6-9---gymbeam",
-      "store": "GymBeam",
-      "name": "Омега 3-6-9 - GymBeam",
-      "brand": "GymBeam",
-      "category": "omega3",
-      "url": "https://gymbeam.bg/omega-3-6-9-gymbeam.html",
-      "image": "https://gymbeam.bg/media/catalog/product/cache/70f742f66feec18cb83790f14444a3d1/o/m/omega_3-6-9_60_caps_gymbeam.png",
-      "price_bgn": 11.64,
-      "price_eur": 5.95,
-      "currency_source": "EUR",
-      "weight_grams": 2026.0,
-      "servings": null,
-      "count": 2,
-      "active": {
-        "epa_mg": 144,
-        "dha_mg": 250,
-        "epa_dha_mg": 394
-      },
-      "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 14.77
-      },
-      "unit_label": "лв / 1000 mg EPA+DHA",
-      "confidence": "high",
-      "scraped_at": "2026-05-14T15:04:23.301951Z",
-      "availability_status": "in_stock"
-    },
-    {
-      "id": "gymbeam-омега-3---gymbeam",
-      "store": "GymBeam",
-      "name": "Омега 3 - GymBeam",
-      "brand": "GymBeam",
-      "category": "omega3",
-      "url": "https://gymbeam.bg/omega-3-gymbeam.html",
-      "image": "https://gymbeam.bg/media/catalog/product/cache/70f742f66feec18cb83790f14444a3d1/o/m/omega-3-gymbeam-5585-500-caps-copy-2.jpg",
-      "price_bgn": 10.76,
-      "price_eur": 5.5,
-      "currency_source": "EUR",
-      "weight_grams": 2026.0,
-      "servings": null,
-      "count": 2,
-      "active": {
-        "epa_mg": 2000,
-        "dha_mg": 2000,
-        "epa_dha_mg": 4000
-      },
-      "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 1.35
-      },
-      "unit_label": "лв / 1000 mg EPA+DHA",
-      "confidence": "high",
-      "scraped_at": "2026-05-14T15:04:24.591490Z",
       "availability_status": "in_stock"
     },
     {
@@ -5676,29 +5120,6 @@ const SUPPLEMENTS_DATA = {
       "unit_label": "лв / 25 g протеин",
       "confidence": "high",
       "scraped_at": "2026-05-16T05:17:28.312783Z"
-    },
-    {
-      "id": "gymbeam-daily-fiber---gymbeam",
-      "store": "GymBeam",
-      "name": "Daily Fiber - GymBeam",
-      "brand": "GymBeam Food",
-      "category": "fiber",
-      "url": "https://gymbeam.bg/daily-fiber-gymbeam.html",
-      "image": "https://gymbeam.bg/media/catalog/product/cache/70f742f66feec18cb83790f14444a3d1/d/a/daily_fiber.png",
-      "price_bgn": 18.58,
-      "price_eur": 9.5,
-      "currency_source": "EUR",
-      "weight_grams": 7.0,
-      "servings": null,
-      "count": null,
-      "active": {},
-      "price_per_active_unit": {
-        "bgn_per_5g_fiber": 13.28
-      },
-      "unit_label": "лв / 5 g фибри",
-      "confidence": "low",
-      "scraped_at": "2026-05-14T15:05:33.339305Z",
-      "availability_status": "in_stock"
     },
     {
       "id": "mypharmacy-солгар-омега-3-мастни-киселини-при-ревматоиден-артрит-и-мигрена-меки-капс-х-30",
@@ -6290,6 +5711,1127 @@ const SUPPLEMENTS_DATA = {
       "unit_label": "лв / 25 g протеин",
       "confidence": "low",
       "scraped_at": "2026-05-16T05:26:13.451006Z"
+    },
+    {
+      "id": "healthstore-nordic-naturals---ultimate-omega-2x-2150-mg---60-softgels",
+      "store": "HealthStore",
+      "name": "NORDIC NATURALS - Ultimate Omega 2X 2150 mg - 60 softgels",
+      "brand": "Nordic Naturals",
+      "category": "omega3",
+      "url": "https://healthstore.bg/nordic-naturals-ultimate-omega-2x-2150-mg-60-softgels",
+      "image": "https://healthstore.bg/image/data/Nordic/NN1168/NN1168-1.png",
+      "price_bgn": 111.09,
+      "price_eur": 56.8,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": 3,
+      "count": 60,
+      "active": {
+        "epa_mg": 1125,
+        "dha_mg": 875,
+        "epa_dha_mg": 2000
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000mg_epa_dha": 18.52
+      },
+      "unit_label": "лв / 1000 mg EPA+DHA",
+      "confidence": "high",
+      "scraped_at": "2026-05-21T13:29:37.466691Z"
+    },
+    {
+      "id": "healthstore-nordic-naturals---omega-3-1560-mg---237-ml",
+      "store": "HealthStore",
+      "name": "NORDIC NATURALS - Omega-3 1560 mg - 237 ml",
+      "brand": "Nordic Naturals",
+      "category": "omega3",
+      "url": "https://healthstore.bg/nordic-naturals-omega-3-1560-mg-237-ml",
+      "image": "https://healthstore.bg/image/data/Nordic/NN7635/NN7635 - 1.png",
+      "price_bgn": 64.15,
+      "price_eur": 32.8,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": 3,
+      "count": 300,
+      "active": {
+        "epa_mg": 745,
+        "dha_mg": 500,
+        "epa_dha_mg": 1245
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000mg_epa_dha": 17.18
+      },
+      "unit_label": "лв / 1000 mg EPA+DHA",
+      "confidence": "high",
+      "scraped_at": "2026-05-21T13:29:38.144626Z"
+    },
+    {
+      "id": "healthstore-nordic-naturals---prenatal-dha-830mg-omega-3-400-iu-d3-unflavored---90-softgels",
+      "store": "HealthStore",
+      "name": "NORDIC NATURALS - Prenatal DHA 830mg Omega-3 + 400 IU D3 Unflavored - 90 softgels",
+      "brand": "Nordic Naturals",
+      "category": "omega3",
+      "url": "https://healthstore.bg/nordic-naturals-prenatal-dha-830mg-omega-3-400-iu-d3-unflavored-90-softgels",
+      "image": "https://healthstore.bg/image/data/Nordic/NN1144/NN1144-1.png",
+      "price_bgn": 65.72,
+      "price_eur": 33.6,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": 3,
+      "count": 90,
+      "active": {
+        "epa_mg": 205,
+        "dha_mg": 830,
+        "epa_dha_mg": 1035
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000mg_epa_dha": 21.17
+      },
+      "unit_label": "лв / 1000 mg EPA+DHA",
+      "confidence": "high",
+      "scraped_at": "2026-05-21T13:29:37.559584Z"
+    },
+    {
+      "id": "healthstore-nordic-naturals---omega-3-1560-mg---473-ml",
+      "store": "HealthStore",
+      "name": "NORDIC NATURALS - Omega-3 1560 mg - 473 ml",
+      "brand": "Nordic Naturals",
+      "category": "omega3",
+      "url": "https://healthstore.bg/nordic-naturals-omega-3-1560-mg-473-ml",
+      "image": "https://healthstore.bg/image/data/Nordic/NN7642/NN7642-1.JPG",
+      "price_bgn": 107.96,
+      "price_eur": 55.2,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": 3,
+      "count": 50,
+      "active": {
+        "epa_mg": 745,
+        "dha_mg": 500,
+        "epa_dha_mg": 1245
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000mg_epa_dha": 28.9
+      },
+      "unit_label": "лв / 1000 mg EPA+DHA",
+      "confidence": "high",
+      "scraped_at": "2026-05-21T13:29:37.841712Z"
+    },
+    {
+      "id": "healthstore-nordic-naturals---children-s-dha-gummies-600-mg---30-gummies",
+      "store": "HealthStore",
+      "name": "NORDIC NATURALS - Children's DHA Gummies 600 mg - 30 gummies",
+      "brand": "Nordic Naturals",
+      "category": "omega3",
+      "url": "https://healthstore.bg/nordic-naturals-children-s-dha-gummies-600-mg-30-gummies",
+      "image": "https://healthstore.bg/image/data/Nordic/NN7094/NN7094-1.png",
+      "price_bgn": 50.07,
+      "price_eur": 25.6,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 30.0,
+      "servings": 3,
+      "count": 180,
+      "active": {
+        "epa_mg": 145,
+        "dha_mg": 600,
+        "epa_dha_mg": 745
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000mg_epa_dha": 22.4
+      },
+      "unit_label": "лв / 1000 mg EPA+DHA",
+      "confidence": "high",
+      "scraped_at": "2026-05-21T13:29:38.727379Z"
+    },
+    {
+      "id": "healthstore-nordic-naturals---children-s-dha-530-mg-omega-3---237-ml",
+      "store": "HealthStore",
+      "name": "NORDIC NATURALS - Children's DHA 530 mg Omega-3 - 237 ml",
+      "brand": "Nordic Naturals",
+      "category": "omega3",
+      "url": "https://healthstore.bg/nordic-naturals-children-s-dha-530-mg-omega-3-237-ml",
+      "image": "https://healthstore.bg/image/data/Nordic/NN1007/NN1007-1.png",
+      "price_bgn": 76.67,
+      "price_eur": 39.2,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": 3,
+      "count": 200,
+      "active": {
+        "epa_mg": 170,
+        "dha_mg": 530,
+        "epa_dha_mg": 700
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000mg_epa_dha": 36.51
+      },
+      "unit_label": "лв / 1000 mg EPA+DHA",
+      "confidence": "high",
+      "scraped_at": "2026-05-21T13:29:39.079189Z"
+    },
+    {
+      "id": "healthstore-gym-beam---omega-3---120-softgels",
+      "store": "HealthStore",
+      "name": "GYM BEAM - Omega 3 - 120 Softgels",
+      "brand": "GYM BEAM",
+      "category": "omega3",
+      "url": "https://healthstore.bg/gym-beam-omega-3-120-softgels",
+      "image": "https://healthstore.bg/image/data/-GYM BEAM/GB9976-1.jpg",
+      "price_bgn": 20.79,
+      "price_eur": 10.63,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 300.0,
+      "servings": 3,
+      "count": 120,
+      "active": {
+        "epa_mg": 2000,
+        "dha_mg": 360,
+        "epa_dha_mg": 2360
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000mg_epa_dha": 2.94
+      },
+      "unit_label": "лв / 1000 mg EPA+DHA",
+      "confidence": "high",
+      "scraped_at": "2026-05-21T13:29:39.620506Z"
+    },
+    {
+      "id": "healthstore-gym-beam---omega-3-forte---90-softgels",
+      "store": "HealthStore",
+      "name": "GYM BEAM - Omega 3 Forte - 90 Softgels",
+      "brand": "GYM BEAM",
+      "category": "omega3",
+      "url": "https://healthstore.bg/gym-beam-omega-3-forte-90-softgels",
+      "image": "https://healthstore.bg/image/data/-GYM BEAM/GB8231-1.jpg",
+      "price_bgn": 23.2,
+      "price_eur": 11.86,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 300.0,
+      "servings": 3,
+      "count": 90,
+      "active": {
+        "epa_mg": 1000,
+        "dha_mg": 330,
+        "epa_dha_mg": 1330
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000mg_epa_dha": 5.81
+      },
+      "unit_label": "лв / 1000 mg EPA+DHA",
+      "confidence": "high",
+      "scraped_at": "2026-05-21T13:29:40.675193Z"
+    },
+    {
+      "id": "healthstore-pure-nutrition---super-omega-3-fish-oil-1000-mg---500-epa-250-dha---50-softgels",
+      "store": "HealthStore",
+      "name": "Pure Nutrition - SUPER OMEGA 3 FISH OIL 1000 mg - 500 EPA / 250 DHA - 50 Softgels",
+      "brand": "PURE NUTRITION",
+      "category": "omega3",
+      "url": "https://healthstore.bg/pure-nutrition-omega-3-fish-oil-50-drazheta",
+      "image": "https://healthstore.bg/image/data/NEW - 15.12.2025/Super Omega/SUPER-OMEGA-3-FISH-OIL-50-softgels.png",
+      "price_bgn": 32.99,
+      "price_eur": 16.87,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 1.0,
+      "servings": 50,
+      "count": 50,
+      "active": {
+        "epa_mg": 500,
+        "dha_mg": 1000,
+        "epa_dha_mg": 1500
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000mg_epa_dha": 0.44
+      },
+      "unit_label": "лв / 1000 mg EPA+DHA",
+      "confidence": "high",
+      "scraped_at": "2026-05-21T13:29:41.207785Z"
+    },
+    {
+      "id": "healthstore-pure-nutrition---super-omega-3-fish-oil-1000-mg---500-epa-250-dha---200-дражета",
+      "store": "HealthStore",
+      "name": "Pure Nutrition - SUPER OMEGA 3 FISH OIL 1000 mg - 500 EPA / 250 DHA - 200 Дражета",
+      "brand": "PURE NUTRITION",
+      "category": "omega3",
+      "url": "https://healthstore.bg/pure-nutrition-omega-3-fish-oil-200-drazheta",
+      "image": "https://healthstore.bg/image/data/NEW - 15.12.2025/Super Omega/SUPER-OMEGA-3-FISH-OIL-200-softgels.png",
+      "price_bgn": 100.0,
+      "price_eur": 51.13,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 1.0,
+      "servings": 200,
+      "count": 200,
+      "active": {
+        "epa_mg": 500,
+        "dha_mg": 500,
+        "epa_dha_mg": 1000
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000mg_epa_dha": 0.5
+      },
+      "unit_label": "лв / 1000 mg EPA+DHA",
+      "confidence": "high",
+      "scraped_at": "2026-05-21T13:29:41.570871Z"
+    },
+    {
+      "id": "healthstore-pure-nutrition---super-omega-3-fish-oil-1000-mg---500-epa-250-dha---100-дражета",
+      "store": "HealthStore",
+      "name": "Pure Nutrition - SUPER OMEGA 3 FISH OIL 1000 mg - 500 EPA / 250 DHA - 100 Дражета",
+      "brand": "PURE NUTRITION",
+      "category": "omega3",
+      "url": "https://healthstore.bg/pure-nutrition-omega-3-fish-oil-100-drazheta",
+      "image": "https://healthstore.bg/image/data/NEW - 15.12.2025/Super Omega/SUPER-OMEGA-3-FISH-OIL-100-softgels.png",
+      "price_bgn": 56.99,
+      "price_eur": 29.14,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 1.0,
+      "servings": 100,
+      "count": 100,
+      "active": {
+        "epa_mg": 500,
+        "dha_mg": 1000,
+        "epa_dha_mg": 1500
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000mg_epa_dha": 0.38
+      },
+      "unit_label": "лв / 1000 mg EPA+DHA",
+      "confidence": "high",
+      "scraped_at": "2026-05-21T13:29:42.157338Z"
+    },
+    {
+      "id": "healthstore-pure-nutrition---omega-3-fish-oil-180-epa-120-dha---100-дражета",
+      "store": "HealthStore",
+      "name": "Pure Nutrition - Omega 3 Fish Oil 180 EPA/120 DHA - 100 Дражета",
+      "brand": "PURE NUTRITION",
+      "category": "omega3",
+      "url": "https://healthstore.bg/pure-nutrition-omega-3-fish-oil-180-epa-120-dha-100-drazheta",
+      "image": "https://healthstore.bg/image/data/PURE/PN6182/OMEGA-3-FISH-OIL-100-softgels (1).png",
+      "price_bgn": 25.99,
+      "price_eur": 13.29,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": 2,
+      "count": 100,
+      "active": {
+        "epa_mg": 180,
+        "dha_mg": 1000,
+        "epa_dha_mg": 1180
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000mg_epa_dha": 11.01
+      },
+      "unit_label": "лв / 1000 mg EPA+DHA",
+      "confidence": "high",
+      "scraped_at": "2026-05-21T13:29:42.921964Z"
+    },
+    {
+      "id": "healthstore-hs-labs---omega-3---90-softgels",
+      "store": "HealthStore",
+      "name": "HS LABS - OMEGA 3 - 90 softgels",
+      "brand": "HS LABS",
+      "category": "omega3",
+      "url": "https://healthstore.bg/hs-labs-omega-3-90-softgels",
+      "image": "https://healthstore.bg/image/data/HS Labs - NEW/HS0785/Omega 3-90-softgels.png",
+      "price_bgn": 19.79,
+      "price_eur": 10.12,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 500.0,
+      "servings": 90,
+      "count": 90,
+      "active": {
+        "epa_mg": 180,
+        "dha_mg": 180,
+        "epa_dha_mg": 360
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000mg_epa_dha": 0.61
+      },
+      "unit_label": "лв / 1000 mg EPA+DHA",
+      "confidence": "high",
+      "scraped_at": "2026-05-21T13:29:43.552060Z"
+    },
+    {
+      "id": "healthstore-hs-labs---omega-3---30-softgels",
+      "store": "HealthStore",
+      "name": "HS LABS - OMEGA 3 - 30 softgels",
+      "brand": "HS LABS",
+      "category": "omega3",
+      "url": "https://healthstore.bg/hs-labs-omega-3-30-softgels",
+      "image": "https://healthstore.bg/image/data/HS Labs - NEW/HS0778/Omega 3-30-softgels.png",
+      "price_bgn": 13.5,
+      "price_eur": 6.9,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 400.0,
+      "servings": 30,
+      "count": 30,
+      "active": {
+        "epa_mg": 180,
+        "dha_mg": 180,
+        "epa_dha_mg": 360
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000mg_epa_dha": 1.25
+      },
+      "unit_label": "лв / 1000 mg EPA+DHA",
+      "confidence": "high",
+      "scraped_at": "2026-05-21T13:29:44.637326Z"
+    },
+    {
+      "id": "healthstore-hs-labs---zinc-picolinate-15-mg---150-capsules",
+      "store": "HealthStore",
+      "name": "HS LABS - ZINC PICOLINATE 15 mg - 150 capsules",
+      "brand": "HS LABS",
+      "category": "zinc",
+      "url": "https://healthstore.bg/hs-labs-zinc-picolinate-15-mg-150-tablets",
+      "image": "https://healthstore.bg/image/data/00 HS LABS/Zinc - 150 capsules/ZINC-150-capsules.png",
+      "price_bgn": 25.19,
+      "price_eur": 12.88,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": 150,
+      "count": 150,
+      "active": {
+        "zinc_mg": 15
+      },
+      "price_per_active_unit": {
+        "bgn_per_15mg_zinc": 0.17
+      },
+      "unit_label": "лв / 15 mg цинк",
+      "confidence": "high",
+      "scraped_at": "2026-05-21T13:29:47.295085Z"
+    },
+    {
+      "id": "healthstore-nutrend---mineral-zinc-100-chelate-15-mg---100-veg-capsules",
+      "store": "HealthStore",
+      "name": "NUTREND - Mineral Zinc 100% Chelate 15 mg - 100 Veg Capsules",
+      "brand": "Nutrend",
+      "category": "zinc",
+      "url": "https://healthstore.bg/nutrend-mineral-zinc-100-chelate-15-mg-100-veg-capsules",
+      "image": "https://healthstore.bg/image/data/Nutrend/NUT1344-1.PNG",
+      "price_bgn": 18.78,
+      "price_eur": 9.6,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": 100,
+      "count": 100,
+      "active": {
+        "zinc_mg": 50
+      },
+      "price_per_active_unit": {
+        "bgn_per_15mg_zinc": 0.06
+      },
+      "unit_label": "лв / 15 mg цинк",
+      "confidence": "high",
+      "scraped_at": "2026-05-21T13:29:47.970614Z"
+    },
+    {
+      "id": "healthstore-pure-nutrition---zinc-picolinate-15-mg---100-capsules",
+      "store": "HealthStore",
+      "name": "Pure Nutrition - ZINC PICOLINATE 15 mg - 100 Capsules",
+      "brand": "PURE NUTRITION",
+      "category": "zinc",
+      "url": "https://healthstore.bg/pure-nutrition-zinc-picolinate-15-mg-100-capsules",
+      "image": "https://healthstore.bg/image/data/ZINC-100-Tablets-15-mg - 156 x 56 mm.png",
+      "price_bgn": 20.01,
+      "price_eur": 10.23,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": 100,
+      "count": 100,
+      "active": {
+        "zinc_mg": 15
+      },
+      "price_per_active_unit": {
+        "bgn_per_15mg_zinc": 0.2
+      },
+      "unit_label": "лв / 15 mg цинк",
+      "confidence": "high",
+      "scraped_at": "2026-05-21T13:29:48.301728Z"
+    },
+    {
+      "id": "healthstore-pure-nutrition---zinc-complex-50-mg---100-tablets",
+      "store": "HealthStore",
+      "name": "Pure Nutrition - ZINC COMPLEX 50 mg - 100 Tablets",
+      "brand": "PURE NUTRITION",
+      "category": "zinc",
+      "url": "https://healthstore.bg/pure-nutrition-zinc-complex-50-mg-100-tablets",
+      "image": "https://healthstore.bg/image/data/0-0-0-0 Pure New/health-line-2022/ZINC COMPLEX 50 mg - 100 Tablets.png",
+      "price_bgn": 24.0,
+      "price_eur": 12.27,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 1814.0,
+      "servings": 100,
+      "count": 100,
+      "active": {
+        "zinc_mg": 50
+      },
+      "price_per_active_unit": {
+        "bgn_per_15mg_zinc": 0.07
+      },
+      "unit_label": "лв / 15 mg цинк",
+      "confidence": "high",
+      "scraped_at": "2026-05-21T13:29:48.658709Z"
+    },
+    {
+      "id": "healthstore-jarrow-formulas---zinc-balance---100-vcaps",
+      "store": "HealthStore",
+      "name": "JARROW FORMULAS - Zinc Balance - 100 vcaps",
+      "brand": "Jarrow Formulas",
+      "category": "zinc",
+      "url": "https://healthstore.bg/jarrow-formulas-zinc-balance-100-vcaps",
+      "image": "https://healthstore.bg/image/data/Jarrow/JF0086/JF0086-1.png",
+      "price_bgn": 29.73,
+      "price_eur": 15.2,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": 100,
+      "count": 100,
+      "active": {
+        "zinc_mg": 50
+      },
+      "price_per_active_unit": {
+        "bgn_per_15mg_zinc": 0.09
+      },
+      "unit_label": "лв / 15 mg цинк",
+      "confidence": "high",
+      "scraped_at": "2026-05-21T13:29:49.059639Z"
+    },
+    {
+      "id": "healthstore-now---psyllium-husk-500-мг---200-капсули",
+      "store": "HealthStore",
+      "name": "NOW - Psyllium Husk 500 МГ - 200 Капсули",
+      "brand": "NOW FOODS",
+      "category": "fiber",
+      "url": "https://healthstore.bg/now-psyllium-husk-500-mg-200-kapsuli",
+      "image": "https://healthstore.bg/image/data/5970-supp.PNG",
+      "price_bgn": 30.0,
+      "price_eur": 15.34,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 1.1,
+      "servings": 66,
+      "count": 200,
+      "active": {
+        "fiber_mg": 500
+      },
+      "price_per_active_unit": {
+        "bgn_per_5g_fiber": 4.55
+      },
+      "unit_label": "лв / 5 g фибри",
+      "confidence": "medium",
+      "scraped_at": "2026-05-21T13:29:52.034038Z"
+    },
+    {
+      "id": "healthstore-pure-nutrition---psyllium-husk-725-mg---120-capsules",
+      "store": "HealthStore",
+      "name": "Pure Nutrition - PSYLLIUM HUSK 725 mg - 120 Capsules",
+      "brand": "PURE NUTRITION",
+      "category": "fiber",
+      "url": "https://healthstore.bg/pure-nutrition-psyllium-husk-725-mg-120-capsules",
+      "image": "https://healthstore.bg/image/data/0-0-0-0 Pure New/health-line-2022/PSYLLIUM HUSK 725 mg - 120 Capsules.png",
+      "price_bgn": 37.0,
+      "price_eur": 18.92,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 1816.0,
+      "servings": 120,
+      "count": 120,
+      "active": {
+        "fiber_mg": 2175
+      },
+      "price_per_active_unit": {
+        "bgn_per_5g_fiber": 0.71
+      },
+      "unit_label": "лв / 5 g фибри",
+      "confidence": "medium",
+      "scraped_at": "2026-05-21T13:29:52.744467Z"
+    },
+    {
+      "id": "silabg-forcelab-omega-3-high-potency-120-softgels",
+      "store": "SilaBG",
+      "name": "FORCELAB Omega 3 High Potency / 120 Softgels",
+      "brand": "FORCELAB",
+      "category": "omega3",
+      "url": "https://www.silabg.com/bg/41525-forcelab-omega-3-high-potency-120-softgels.html",
+      "image": "https://www.silabg.com/uf/product/40082_OMEGA.jpg",
+      "price_bgn": 39.12,
+      "price_eur": 20.0,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 0.0,
+      "servings": null,
+      "count": 120,
+      "active": {
+        "epa_mg": 330,
+        "dha_mg": 220,
+        "epa_dha_mg": 550
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000mg_epa_dha": 0.59
+      },
+      "unit_label": "лв / 1000 mg EPA+DHA",
+      "confidence": "high",
+      "scraped_at": "2026-05-21T13:29:59.220942Z"
+    },
+    {
+      "id": "silabg-thorne-zinc-bisglycinate-15-mg-60-caps",
+      "store": "SilaBG",
+      "name": "THORNE Zinc Bisglycinate 15 mg / 60 Caps",
+      "brand": "THORNE",
+      "category": "zinc",
+      "url": "https://www.silabg.com/bg/41992-thorne-zinc-bisglycinate-15-mg-60-caps.html",
+      "image": "https://www.silabg.com/uf/product/40543_Zinc_Bisglycinate_60.jpg",
+      "price_bgn": 28.61,
+      "price_eur": 14.63,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 0.0,
+      "servings": null,
+      "count": 60,
+      "active": {
+        "zinc_mg": 15
+      },
+      "price_per_active_unit": {
+        "bgn_per_15mg_zinc": 0.48
+      },
+      "unit_label": "лв / 15 mg цинк",
+      "confidence": "high",
+      "scraped_at": "2026-05-21T13:30:13.231597Z"
+    },
+    {
+      "id": "silabg-amix-zinc-bisglycinate-15-mg-90-vcaps",
+      "store": "SilaBG",
+      "name": "AMIX Zinc Bisglycinate 15 mg / 90 Vcaps",
+      "brand": "AMIX",
+      "category": "zinc",
+      "url": "https://www.silabg.com/bg/40165-amix-zinc-bisglycinate-15-mg-90-vcaps.html",
+      "image": "https://www.silabg.com/uf/product/38724_Zinc_Bisglycinate_90.jpg",
+      "price_bgn": 28.01,
+      "price_eur": 14.32,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 0.0,
+      "servings": null,
+      "count": 90,
+      "active": {
+        "zinc_mg": 15
+      },
+      "price_per_active_unit": {
+        "bgn_per_15mg_zinc": 0.31
+      },
+      "unit_label": "лв / 15 mg цинк",
+      "confidence": "high",
+      "scraped_at": "2026-05-21T13:30:15.442137Z"
+    },
+    {
+      "id": "silabg-thorne-zinc-picolinate-15-mg-60-caps",
+      "store": "SilaBG",
+      "name": "THORNE Zinc Picolinate 15 mg / 60 Caps",
+      "brand": "THORNE",
+      "category": "zinc",
+      "url": "https://www.silabg.com/bg/39204-thorne-zinc-picolinate-15-mg-60-caps.html",
+      "image": "https://www.silabg.com/uf/product/37815_zinc.jpg",
+      "price_bgn": 28.22,
+      "price_eur": 14.43,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 0.0,
+      "servings": null,
+      "count": 60,
+      "active": {
+        "zinc_mg": 15
+      },
+      "price_per_active_unit": {
+        "bgn_per_15mg_zinc": 0.47
+      },
+      "unit_label": "лв / 15 mg цинк",
+      "confidence": "high",
+      "scraped_at": "2026-05-21T13:30:15.834343Z"
+    },
+    {
+      "id": "silabg-webber-naturals-zinc-bisglycinate-50-mg-140-vcaps",
+      "store": "SilaBG",
+      "name": "WEBBER NATURALS Zinc Bisglycinate 50 mg / 140 Vcaps",
+      "brand": "WEBBER NATURALS",
+      "category": "zinc",
+      "url": "https://www.silabg.com/bg/38737-webber-naturals-zinc-bisglycinate-50-mg-140-vcaps.html",
+      "image": "https://www.silabg.com/uf/product/37354_bisgl.jpg",
+      "price_bgn": 39.35,
+      "price_eur": 20.12,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 0.0,
+      "servings": null,
+      "count": 140,
+      "active": {
+        "zinc_mg": 50
+      },
+      "price_per_active_unit": {
+        "bgn_per_15mg_zinc": 0.08
+      },
+      "unit_label": "лв / 15 mg цинк",
+      "confidence": "high",
+      "scraped_at": "2026-05-21T13:30:16.807146Z"
+    },
+    {
+      "id": "silabg-biotech-usa-zinc-duo-25-mg-60-tabs",
+      "store": "SilaBG",
+      "name": "BIOTECH USA Zinc Duo 25 mg / 60 Tabs",
+      "brand": "BIOTECH USA",
+      "category": "zinc",
+      "url": "https://www.silabg.com/bg/37109-biotech-usa-zinc-duo-25-mg-60-tabs.html",
+      "image": "https://www.silabg.com/uf/product/35743_Zinc-Duo.jpg",
+      "price_bgn": 14.67,
+      "price_eur": 7.5,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": null,
+      "count": 120,
+      "active": {
+        "zinc_mg": 25
+      },
+      "price_per_active_unit": {
+        "bgn_per_15mg_zinc": 0.07
+      },
+      "unit_label": "лв / 15 mg цинк",
+      "confidence": "high",
+      "scraped_at": "2026-05-21T13:30:21.114400Z"
+    },
+    {
+      "id": "silabg-earth-harmony-zinc-sulfate-15-mg-59-2-ml",
+      "store": "SilaBG",
+      "name": "EARTH HARMONY Zinc (Sulfate) 15 mg / 59.2 ml",
+      "brand": "EARTH HARMONY",
+      "category": "zinc",
+      "url": "https://www.silabg.com/bg/37179-earth-harmony-zinc-sulfate-15-mg-59-2-ml.html",
+      "image": "https://www.silabg.com/uf/product/35814_zinc.jpg",
+      "price_bgn": 81.03,
+      "price_eur": 41.43,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 0.0,
+      "servings": null,
+      "count": 120,
+      "active": {
+        "zinc_mg": 15
+      },
+      "price_per_active_unit": {
+        "bgn_per_15mg_zinc": 0.68
+      },
+      "unit_label": "лв / 15 mg цинк",
+      "confidence": "high",
+      "scraped_at": "2026-05-21T13:30:21.623452Z"
+    },
+    {
+      "id": "silabg-natura-therapy-zinc-10-mg-30-tabs",
+      "store": "SilaBG",
+      "name": "NATURA THERAPY Zinc 10 mg / 30 Tabs",
+      "brand": "NATURA THERAPY",
+      "category": "zinc",
+      "url": "https://www.silabg.com/bg/37032-natura-therapy-zinc-10-mg-30-tabs.html",
+      "image": "https://www.silabg.com/uf/product/35666_ZInc.jpg",
+      "price_bgn": 9.99,
+      "price_eur": 5.11,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 0.0,
+      "servings": null,
+      "count": 120,
+      "active": {
+        "zinc_mg": 10
+      },
+      "price_per_active_unit": {
+        "bgn_per_15mg_zinc": 0.12
+      },
+      "unit_label": "лв / 15 mg цинк",
+      "confidence": "high",
+      "scraped_at": "2026-05-21T13:30:21.991633Z"
+    },
+    {
+      "id": "silabg-swanson-extra-strength-zinc-picolinate-50-mg-60-caps",
+      "store": "SilaBG",
+      "name": "SWANSON Extra Strength Zinc Picolinate 50 mg / 60 Caps",
+      "brand": "SWANSON",
+      "category": "zinc",
+      "url": "https://www.silabg.com/bg/36366-swanson-extra-strength-zinc-picolinate-50-mg-60-caps.html",
+      "image": "https://www.silabg.com/uf/product/35002_Zinc-Picolinate.jpg",
+      "price_bgn": 25.23,
+      "price_eur": 12.9,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": null,
+      "count": 60,
+      "active": {
+        "zinc_mg": 50
+      },
+      "price_per_active_unit": {
+        "bgn_per_15mg_zinc": 0.13
+      },
+      "unit_label": "лв / 15 mg цинк",
+      "confidence": "high",
+      "scraped_at": "2026-05-21T13:30:23.186729Z"
+    },
+    {
+      "id": "silabg-grewia-psyllium-husks-900-mg-60-caps",
+      "store": "SilaBG",
+      "name": "GREWIA Psyllium Husks 900 mg / 60 Caps",
+      "brand": "GREWIA",
+      "category": "fiber",
+      "url": "https://www.silabg.com/bg/39157-grewia-psyllium-husks-900-mg-60-caps.html",
+      "image": "https://www.silabg.com/uf/product/37767_Psyllium_Husks_60.jpg",
+      "price_bgn": 41.7,
+      "price_eur": 21.32,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 0.0,
+      "servings": null,
+      "count": 60,
+      "active": {
+        "fiber_mg": 900
+      },
+      "price_per_active_unit": {
+        "bgn_per_5g_fiber": 3.86
+      },
+      "unit_label": "лв / 5 g фибри",
+      "confidence": "medium",
+      "scraped_at": "2026-05-21T13:30:27.149081Z"
+    },
+    {
+      "id": "silabg-now-psyllium-husk-700-mg-180-caps",
+      "store": "SilaBG",
+      "name": "NOW Psyllium Husk 700 mg / 180 Caps",
+      "brand": "NOW",
+      "category": "fiber",
+      "url": "https://www.silabg.com/bg/38378-now-psyllium-husk-700-mg-180-caps.html",
+      "image": "https://www.silabg.com/uf/product/37000_180.jpg",
+      "price_bgn": 39.0,
+      "price_eur": 19.94,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 0.0,
+      "servings": null,
+      "count": 180,
+      "active": {
+        "fiber_mg": 700
+      },
+      "price_per_active_unit": {
+        "bgn_per_5g_fiber": 1.55
+      },
+      "unit_label": "лв / 5 g фибри",
+      "confidence": "medium",
+      "scraped_at": "2026-05-21T13:30:30.313432Z"
+    },
+    {
+      "id": "silabg-now-psyllium-husk-caps-500-mg-500-caps",
+      "store": "SilaBG",
+      "name": "NOW Psyllium Husk Caps 500 mg / 500 Caps",
+      "brand": "NOW",
+      "category": "fiber",
+      "url": "https://www.silabg.com/bg/35518-now-psyllium-husk-caps-500-mg-500-caps.html",
+      "image": "https://www.silabg.com/uf/product/34200_Untitled-1.jpg",
+      "price_bgn": 60.0,
+      "price_eur": 30.68,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 0.0,
+      "servings": null,
+      "count": 500,
+      "active": {
+        "fiber_mg": 500
+      },
+      "price_per_active_unit": {
+        "bgn_per_5g_fiber": 1.2
+      },
+      "unit_label": "лв / 5 g фибри",
+      "confidence": "medium",
+      "scraped_at": "2026-05-21T13:30:35.484492Z"
+    },
+    {
+      "id": "gymbeam-omega-3-high-strength---the-protein-works",
+      "store": "GymBeam",
+      "name": "Omega 3 High Strength - The Protein Works",
+      "brand": "The Protein Works",
+      "category": "omega3",
+      "url": "https://gymbeam.bg/omega-3-the-protein-works.html",
+      "image": "https://gymbeam.bg/media/catalog/product/cache/70f742f66feec18cb83790f14444a3d1/o/m/omega_high_strength_90_softgels.1.jpg",
+      "price_bgn": 26.4,
+      "price_eur": 13.5,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 4.2026,
+      "servings": null,
+      "count": null,
+      "active": {
+        "epa_mg": 300,
+        "dha_mg": 180,
+        "epa_dha_mg": 480
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000mg_epa_dha": 55.0
+      },
+      "unit_label": "лв / 1000 mg EPA+DHA",
+      "confidence": "high",
+      "scraped_at": "2026-05-21T13:30:39.529556Z"
+    },
+    {
+      "id": "gymbeam-омега-3-ultra---the-protein-works",
+      "store": "GymBeam",
+      "name": "Омега 3 Ultra - The Protein Works",
+      "brand": "The Protein Works",
+      "category": "omega3",
+      "url": "https://gymbeam.bg/omega-3-ultra-the-protein-works.html",
+      "image": "https://gymbeam.bg/media/catalog/product/cache/70f742f66feec18cb83790f14444a3d1/p/i/pillultraomega_right-pdp2018.jpg",
+      "price_bgn": 29.24,
+      "price_eur": 14.95,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 4.2026,
+      "servings": null,
+      "count": null,
+      "active": {
+        "epa_mg": 1000,
+        "dha_mg": 330,
+        "epa_dha_mg": 1330
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000mg_epa_dha": 21.98
+      },
+      "unit_label": "лв / 1000 mg EPA+DHA",
+      "confidence": "high",
+      "scraped_at": "2026-05-21T13:30:41.109364Z"
+    },
+    {
+      "id": "gymbeam-premium-omega-3-течно-рибено-масло-с-вкус-на-цитрусови-плодове---gymbeam",
+      "store": "GymBeam",
+      "name": "Premium Omega 3 течно рибено масло с вкус на цитрусови плодове - GymBeam",
+      "brand": "GymBeam",
+      "category": "omega3",
+      "url": "https://gymbeam.bg/premium-omega-3-gymbeam.html",
+      "image": "https://gymbeam.bg/media/catalog/product/cache/70f742f66feec18cb83790f14444a3d1/p/r/premium_omega_3_oil_250_ml_gymbeam.png",
+      "price_bgn": 24.45,
+      "price_eur": 12.5,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 5.2026,
+      "servings": null,
+      "count": null,
+      "active": {
+        "epa_mg": 450,
+        "dha_mg": 640,
+        "epa_dha_mg": 1090
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000mg_epa_dha": 22.43
+      },
+      "unit_label": "лв / 1000 mg EPA+DHA",
+      "confidence": "high",
+      "scraped_at": "2026-05-21T13:30:42.399051Z"
+    },
+    {
+      "id": "gymbeam-pink-omega---beastpink",
+      "store": "GymBeam",
+      "name": "Pink Omega - BeastPink",
+      "brand": "GymBeam BeastPink",
+      "category": "omega3",
+      "url": "https://gymbeam.bg/pink-omega-beastpink.html",
+      "image": "https://gymbeam.bg/media/catalog/product/cache/70f742f66feec18cb83790f14444a3d1/o/m/omega.png",
+      "price_bgn": 28.36,
+      "price_eur": 14.5,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 5.2026,
+      "servings": null,
+      "count": 2,
+      "active": {
+        "epa_mg": 300,
+        "dha_mg": 200,
+        "epa_dha_mg": 500
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000mg_epa_dha": 28.36
+      },
+      "unit_label": "лв / 1000 mg EPA+DHA",
+      "confidence": "high",
+      "scraped_at": "2026-05-21T13:30:44.454898Z"
+    },
+    {
+      "id": "gymbeam-омега-3-6-9---gymbeam",
+      "store": "GymBeam",
+      "name": "Омега 3-6-9 - GymBeam",
+      "brand": "GymBeam",
+      "category": "omega3",
+      "url": "https://gymbeam.bg/omega-3-6-9-gymbeam.html",
+      "image": "https://gymbeam.bg/media/catalog/product/cache/70f742f66feec18cb83790f14444a3d1/o/m/omega_3-6-9_60_caps_gymbeam.png",
+      "price_bgn": 11.64,
+      "price_eur": 5.95,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 5.2026,
+      "servings": null,
+      "count": 2,
+      "active": {
+        "epa_mg": 144,
+        "dha_mg": 96,
+        "epa_dha_mg": 240
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000mg_epa_dha": 24.25
+      },
+      "unit_label": "лв / 1000 mg EPA+DHA",
+      "confidence": "high",
+      "scraped_at": "2026-05-21T13:30:46.572868Z"
+    },
+    {
+      "id": "gymbeam-омега-3---gymbeam",
+      "store": "GymBeam",
+      "name": "Омега 3 - GymBeam",
+      "brand": "GymBeam",
+      "category": "omega3",
+      "url": "https://gymbeam.bg/omega-3-gymbeam.html",
+      "image": "https://gymbeam.bg/media/catalog/product/cache/70f742f66feec18cb83790f14444a3d1/o/m/omega-3-gymbeam-5585-500-caps-copy-2.jpg",
+      "price_bgn": 10.76,
+      "price_eur": 5.5,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 5.2026,
+      "servings": null,
+      "count": 2,
+      "active": {
+        "epa_mg": 360,
+        "dha_mg": 240,
+        "epa_dha_mg": 600
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000mg_epa_dha": 8.97
+      },
+      "unit_label": "лв / 1000 mg EPA+DHA",
+      "confidence": "high",
+      "scraped_at": "2026-05-21T13:30:47.628783Z"
+    },
+    {
+      "id": "gymbeam-омега-3-форте---gymbeam",
+      "store": "GymBeam",
+      "name": "Омега 3 Форте - GymBeam",
+      "brand": "GymBeam",
+      "category": "omega3",
+      "url": "https://gymbeam.bg/omega-3-forte-gymbeam.html",
+      "image": "https://gymbeam.bg/media/catalog/product/cache/70f742f66feec18cb83790f14444a3d1/o/m/omega_3_forte_90_softgels_gymbeam.png",
+      "price_bgn": 21.42,
+      "price_eur": 10.95,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 5.2026,
+      "servings": null,
+      "count": 1,
+      "active": {
+        "epa_mg": 330,
+        "dha_mg": 220,
+        "epa_dha_mg": 550
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000mg_epa_dha": 38.95
+      },
+      "unit_label": "лв / 1000 mg EPA+DHA",
+      "confidence": "high",
+      "scraped_at": "2026-05-21T13:30:49.730427Z"
+    },
+    {
+      "id": "gymbeam-омега-3-adek---gymbeam",
+      "store": "GymBeam",
+      "name": "Омега 3 + ADEK - GymBeam",
+      "brand": "GymBeam",
+      "category": "omega3",
+      "url": "https://gymbeam.bg/omega-3-adek-gymbeam.html",
+      "image": "https://gymbeam.bg/media/catalog/product/cache/70f742f66feec18cb83790f14444a3d1/o/m/omega_3___adek_90_caps_gymbeam.png",
+      "price_bgn": 22.49,
+      "price_eur": 11.5,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 4.2026,
+      "servings": null,
+      "count": 2,
+      "active": {
+        "epa_mg": 160,
+        "dha_mg": 100,
+        "epa_dha_mg": 260
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000mg_epa_dha": 43.25
+      },
+      "unit_label": "лв / 1000 mg EPA+DHA",
+      "confidence": "high",
+      "scraped_at": "2026-05-21T13:30:53.760059Z"
+    },
+    {
+      "id": "gymbeam-омега-3-yummies---gymbeam",
+      "store": "GymBeam",
+      "name": "Омега 3 Yummies - GymBeam",
+      "brand": "GymBeam",
+      "category": "omega3",
+      "url": "https://gymbeam.bg/omega-3-yummies-gymbeam.html",
+      "image": "https://gymbeam.bg/media/catalog/product/cache/70f742f66feec18cb83790f14444a3d1/o/m/omega3_yummies_mockup_1.jpg",
+      "price_bgn": 32.27,
+      "price_eur": 16.5,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 5.2026,
+      "servings": null,
+      "count": null,
+      "active": {
+        "epa_mg": 35,
+        "dha_mg": 162,
+        "epa_dha_mg": 197
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000mg_epa_dha": 163.81
+      },
+      "unit_label": "лв / 1000 mg EPA+DHA",
+      "confidence": "high",
+      "scraped_at": "2026-05-21T13:30:54.719256Z"
+    },
+    {
+      "id": "gymbeam-daily-fiber---gymbeam",
+      "store": "GymBeam",
+      "name": "Daily Fiber - GymBeam",
+      "brand": "GymBeam Food",
+      "category": "fiber",
+      "url": "https://gymbeam.bg/daily-fiber-gymbeam.html",
+      "image": "https://gymbeam.bg/media/catalog/product/cache/70f742f66feec18cb83790f14444a3d1/d/a/daily_fiber.png",
+      "price_bgn": 18.58,
+      "price_eur": 9.5,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 240.0,
+      "servings": null,
+      "count": null,
+      "active": {},
+      "price_per_active_unit": {
+        "bgn_per_5g_fiber": 0.39
+      },
+      "unit_label": "лв / 5 g фибри",
+      "confidence": "low",
+      "scraped_at": "2026-05-21T13:31:19.105252Z"
     }
   ]
 };

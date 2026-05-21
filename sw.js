@@ -1,4 +1,4 @@
-const CACHE_NAME = 'nutrilife-v13';
+const CACHE_NAME = 'nutrilife-v18';
 const OFFLINE_URL = 'offline.html';
 const APP_SHELL = [
   './',
@@ -8,11 +8,14 @@ const APP_SHELL = [
   'start.html',
   'smart-food.html',
   'smart-supplements.html',
+  'kak-smyatame-cenite.html',
+  'ne-e-meditsinski-savet.html',
+  'za-proekta.html',
   OFFLINE_URL,
   'manifest.json',
   'favicon.svg',
-  'css/style.css?v=31',
-  'js/main.js?v=15',
+  'css/style.css?v=33',
+  'js/main.js?v=16',
   'images/pwa/icon-192.png',
   'images/pwa/icon-512.png',
   'images/pwa/icon-maskable-192.png',

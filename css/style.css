@@ -3152,6 +3152,26 @@ body.fav-product-open {
     padding: 8px 4px;
 }
 
+.quality-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    border: 1px solid rgba(151, 196, 89, 0.22);
+    border-radius: 999px;
+    background: rgba(13, 26, 8, 0.42);
+    color: var(--muted);
+    font-size: 0.82rem;
+    font-weight: 700;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.quality-toggle input {
+    width: 16px;
+    height: 16px;
+    accent-color: var(--green);
+}
+
 .supplements-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -3266,6 +3286,29 @@ body.fav-product-open {
     line-height: 1.25;
 }
 
+.supplement-value-badge {
+    display: inline-flex;
+    border-radius: 999px;
+    padding: 5px 8px;
+    font-size: 0.72rem;
+    font-weight: 800;
+}
+
+.supplement-value-badge.good {
+    background: rgba(151, 196, 89, 0.14);
+    color: var(--green);
+}
+
+.supplement-value-badge.neutral {
+    background: rgba(255, 255, 255, 0.06);
+    color: var(--muted);
+}
+
+.supplement-value-badge.high {
+    background: rgba(186, 117, 23, 0.16);
+    color: var(--amber);
+}
+
 .supplement-facts,
 .supplement-active {
     margin-top: 8px;
@@ -3337,6 +3380,479 @@ body.fav-product-open {
     font-size: 0.86rem;
     font-style: normal;
     line-height: 1.25;
+}
+
+.medicines-hero::before {
+    background:
+        linear-gradient(110deg, rgba(10, 10, 10, 0.92) 0%, rgba(10, 10, 10, 0.78) 48%, rgba(10, 10, 10, 0.28) 100%),
+        url("../images/smart-supplements-hero.webp") center / cover no-repeat;
+}
+
+.medicine-search-panel {
+    margin-bottom: 22px;
+}
+
+.medicines-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+    align-items: start;
+}
+
+.medicine-card {
+    border: 1px solid rgba(186, 117, 23, 0.28);
+    border-radius: 8px;
+    background: linear-gradient(180deg, rgba(26, 20, 8, 0.92), rgba(10, 10, 10, 0.94));
+    box-shadow: 0 18px 42px rgba(0, 0, 0, 0.22);
+    padding: 18px;
+}
+
+.medicine-card-head {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    align-items: flex-start;
+}
+
+.medicine-kicker {
+    display: inline-flex;
+    color: var(--amber-light);
+    font-size: 0.78rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.medicine-card h3 {
+    margin: 0;
+    color: var(--text);
+    font-size: 1.28rem;
+}
+
+.medicine-card p {
+    margin: 8px 0 0;
+    color: var(--muted);
+    font-size: 0.94rem;
+}
+
+.medicine-best-price {
+    flex: 0 0 auto;
+    min-width: 116px;
+    border: 1px solid rgba(151, 196, 89, 0.28);
+    border-radius: 8px;
+    background: rgba(13, 26, 8, 0.72);
+    padding: 10px 12px;
+    text-align: right;
+}
+
+.medicine-best-price strong {
+    display: block;
+    color: var(--green-light);
+    font-size: 1.35rem;
+}
+
+.medicine-best-price span,
+.medicine-offer-row small {
+    color: var(--muted);
+    font-size: 0.78rem;
+}
+
+.medicine-comparison-strip {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 16px 0;
+}
+
+.medicine-comparison-strip span {
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    border-radius: 999px;
+    color: var(--muted);
+    background: rgba(255, 255, 255, 0.04);
+    padding: 7px 10px;
+    font-size: 0.84rem;
+}
+
+.medicine-comparison-strip strong {
+    color: var(--text);
+}
+
+.medicine-offers {
+    display: grid;
+    gap: 8px;
+}
+
+.medicine-offer-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 14px;
+    color: var(--text);
+    text-decoration: none;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.035);
+    padding: 11px 12px;
+}
+
+.medicine-offer-row.best {
+    border-color: rgba(151, 196, 89, 0.34);
+    background: rgba(13, 26, 8, 0.42);
+}
+
+.medicine-offer-row span {
+    display: grid;
+    gap: 4px;
+}
+
+.medicine-offer-row span:last-child {
+    text-align: right;
+    white-space: nowrap;
+}
+
+.medicine-note {
+    margin-top: 14px;
+    color: var(--muted);
+    font-size: 0.82rem;
+    line-height: 1.5;
+}
+
+.smart-value-hero::before {
+    background:
+        linear-gradient(110deg, rgba(10, 10, 10, 0.92) 0%, rgba(10, 10, 10, 0.76) 48%, rgba(10, 10, 10, 0.22) 100%),
+        url("../images/smart-supplements-hero.webp") center / cover no-repeat;
+}
+
+.smart-value-grid,
+.smart-value-category-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 16px;
+    align-items: stretch;
+}
+
+.smart-value-card,
+.smart-value-category-card {
+    display: flex;
+    flex-direction: column;
+    min-height: 190px;
+    justify-content: space-between;
+    gap: 12px;
+    color: var(--text);
+    text-decoration: none;
+    border: 1px solid rgba(151, 196, 89, 0.22);
+    border-radius: 8px;
+    background: linear-gradient(180deg, rgba(13, 26, 8, 0.86), rgba(10, 10, 10, 0.94));
+    box-shadow: 0 18px 44px rgba(0, 0, 0, 0.2);
+    padding: 18px;
+}
+
+.smart-value-category-card {
+    border-color: rgba(255, 255, 255, 0.1);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.05), rgba(10, 10, 10, 0.94));
+}
+
+.smart-value-category-card.green {
+    border-color: rgba(151, 196, 89, 0.28);
+    background: linear-gradient(180deg, rgba(13, 26, 8, 0.86), rgba(10, 10, 10, 0.94));
+}
+
+.smart-value-category-card.amber {
+    border-color: rgba(186, 117, 23, 0.32);
+    background: linear-gradient(180deg, rgba(26, 20, 8, 0.9), rgba(10, 10, 10, 0.94));
+}
+
+.smart-value-card:hover,
+.smart-value-category-card:hover {
+    border-color: var(--green-light);
+    transform: translateY(-1px);
+}
+
+.smart-value-card span,
+.smart-value-category-card span {
+    color: var(--muted);
+    font-size: 0.78rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.smart-value-card strong {
+    color: var(--green-light);
+    font-size: 1.55rem;
+}
+
+.smart-value-card small,
+.smart-value-category-card small {
+    color: var(--muted2);
+    line-height: 1.45;
+}
+
+.smart-value-card em {
+    color: var(--text);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+.smart-value-category-card strong {
+    color: var(--text);
+    font-size: 1.28rem;
+}
+
+.supplement-card-actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    padding: 0 14px 14px;
+}
+
+.watch-price-btn,
+.compare-supplement-btn {
+    width: 100%;
+    margin: 0;
+    border: 1px solid rgba(151, 196, 89, 0.28);
+    border-radius: 8px;
+    background: rgba(13, 26, 8, 0.76);
+    color: var(--green-light);
+    font-weight: 800;
+    min-height: 40px;
+    cursor: pointer;
+}
+
+.compare-supplement-btn {
+    border-color: rgba(186, 117, 23, 0.3);
+    background: rgba(26, 20, 8, 0.72);
+    color: var(--amber);
+}
+
+.watch-price-btn.active,
+.compare-supplement-btn.active {
+    background: rgba(151, 196, 89, 0.18);
+    border-color: var(--green-light);
+    color: var(--text);
+}
+
+.supplement-compare-panel {
+    margin: 16px 0 22px;
+}
+
+.compare-empty,
+.compare-head {
+    border: 1px solid rgba(151, 196, 89, 0.18);
+    border-radius: 8px;
+    background: rgba(13, 26, 8, 0.38);
+    padding: 14px 16px;
+}
+
+.compare-empty {
+    display: grid;
+    gap: 4px;
+}
+
+.compare-empty strong,
+.compare-head strong {
+    color: var(--green-light);
+}
+
+.compare-empty span {
+    color: var(--muted);
+    line-height: 1.45;
+}
+
+.compare-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 10px;
+}
+
+.compare-head span {
+    color: var(--text);
+}
+
+.compare-table {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 10px;
+}
+
+.compare-product {
+    position: relative;
+    border: 1px solid rgba(151, 196, 89, 0.22);
+    border-radius: 8px;
+    background: linear-gradient(180deg, rgba(13, 26, 8, 0.76), rgba(10, 10, 10, 0.92));
+    padding: 16px;
+}
+
+.compare-remove {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 28px;
+    min-height: 28px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 999px;
+    background: rgba(0, 0, 0, 0.25);
+    color: var(--text);
+    cursor: pointer;
+}
+
+.compare-product > span {
+    display: block;
+    color: var(--muted);
+    font-size: 0.78rem;
+    margin-right: 30px;
+    margin-bottom: 8px;
+}
+
+.compare-product h3 {
+    color: var(--text);
+    font-size: 1rem;
+    line-height: 1.25;
+    margin: 0 0 10px;
+}
+
+.compare-product > strong {
+    display: block;
+    color: var(--green-light);
+    font-size: 1.35rem;
+}
+
+.compare-product > small {
+    color: var(--muted);
+}
+
+.compare-facts {
+    display: grid;
+    gap: 6px;
+    margin-top: 12px;
+}
+
+.compare-facts span {
+    color: var(--muted);
+    font-size: 0.82rem;
+}
+
+.compare-facts b {
+    color: var(--text);
+}
+
+.watch-list {
+    display: grid;
+    gap: 10px;
+}
+
+.watch-row {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto auto;
+    gap: 12px;
+    align-items: center;
+    border: 1px solid rgba(151, 196, 89, 0.2);
+    border-radius: 8px;
+    background: rgba(13, 26, 8, 0.42);
+    padding: 12px 14px;
+}
+
+.watch-row span {
+    display: grid;
+    gap: 4px;
+}
+
+.watch-row small,
+.smart-value-empty {
+    color: var(--muted);
+}
+
+.smart-value-money-box {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.content-hero {
+    min-height: auto;
+    padding: 132px 24px 56px;
+    background:
+        linear-gradient(110deg, rgba(10, 10, 10, 0.96), rgba(10, 10, 10, 0.82)),
+        url("../images/smart-supplements-hero.webp") center / cover no-repeat;
+}
+
+.content-hero .page-hero-copy {
+    max-width: 860px;
+}
+
+.content-hero h1 {
+    max-width: 820px;
+}
+
+.content-hero p {
+    max-width: 760px;
+}
+
+.content-layout {
+    max-width: 980px;
+}
+
+.content-block {
+    margin-bottom: 24px;
+}
+
+.content-block h2,
+.content-block h3 {
+    color: var(--text);
+    margin-bottom: 10px;
+}
+
+.content-block p,
+.content-block li {
+    color: var(--muted);
+    line-height: 1.75;
+}
+
+.content-block ul,
+.content-block ol {
+    padding-left: 22px;
+}
+
+.method-grid,
+.trust-link-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
+}
+
+.method-card,
+.trust-link-card {
+    border: 1px solid rgba(151, 196, 89, 0.18);
+    border-radius: 8px;
+    background: rgba(13, 26, 8, 0.42);
+    padding: 18px;
+}
+
+.trust-link-card {
+    color: var(--text);
+    text-decoration: none;
+}
+
+.trust-link-card:hover {
+    border-color: var(--green-light);
+}
+
+.method-card strong,
+.trust-link-card strong {
+    display: block;
+    color: var(--green-light);
+    margin-bottom: 8px;
+}
+
+.seo-product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
+}
+
+.seo-product-card {
+    min-height: 170px;
 }
 
 .cta-copy {
@@ -4556,8 +5072,10 @@ body.fav-product-open {
 
 section:has(#offers-grid),
 section:has(#supplements-grid),
+section:has(#medicines-grid),
 section:has(#offers-grid)[data-reveal],
-section:has(#supplements-grid)[data-reveal] {
+section:has(#supplements-grid)[data-reveal],
+section:has(#medicines-grid)[data-reveal] {
     opacity: 1;
     visibility: visible;
     transform: none;
@@ -5698,6 +6216,62 @@ section + section::before {
     background: rgba(10, 10, 10, 0.74);
 }
 
+[data-theme="light"] .smart-value-hero::before,
+[data-theme="light"] .content-hero {
+    background:
+        linear-gradient(112deg, rgba(245, 245, 240, 0.98), rgba(245, 245, 240, 0.91) 48%, rgba(240, 247, 232, 0.78)),
+        url("../images/smart-supplements-hero.webp") center / cover no-repeat;
+}
+
+[data-theme="light"] .smart-value-card,
+[data-theme="light"] .smart-value-category-card,
+[data-theme="light"] .method-card,
+[data-theme="light"] .trust-link-card,
+[data-theme="light"] .watch-row,
+[data-theme="light"] .compare-empty,
+[data-theme="light"] .compare-head,
+[data-theme="light"] .compare-product {
+    background: rgba(255, 255, 255, 0.86);
+    border-color: rgba(59, 109, 17, 0.2);
+    box-shadow: 0 16px 34px rgba(20, 30, 10, 0.08);
+}
+
+[data-theme="light"] .smart-value-category-card.green,
+[data-theme="light"] .smart-value-category-card.amber {
+    background: rgba(255, 255, 255, 0.9);
+    border-color: rgba(59, 109, 17, 0.24);
+}
+
+[data-theme="light"] .smart-value-card span,
+[data-theme="light"] .smart-value-category-card span,
+[data-theme="light"] .smart-value-card small,
+[data-theme="light"] .smart-value-category-card small,
+[data-theme="light"] .content-block p,
+[data-theme="light"] .content-block li {
+    color: #3f4738;
+}
+
+[data-theme="light"] .smart-value-card em,
+[data-theme="light"] .smart-value-category-card strong,
+[data-theme="light"] .trust-link-card,
+[data-theme="light"] .compare-product h3,
+[data-theme="light"] .compare-facts b,
+[data-theme="light"] .content-block h2,
+[data-theme="light"] .content-block h3 {
+    color: #171a14;
+}
+
+[data-theme="light"] .smart-value-money-box {
+    background: #eef7e6;
+    border-color: rgba(59, 109, 17, 0.24);
+}
+
+[data-theme="light"] .quality-toggle {
+    background: rgba(255, 255, 255, 0.82);
+    border-color: rgba(59, 109, 17, 0.22);
+    color: #2f3829;
+}
+
 /* --- Light theme overrides --- */
 [data-theme="light"] .navbar {
     background: rgba(245, 245, 240, 0.9);
@@ -5840,6 +6414,14 @@ section + section::before {
 
     .offers-grid {
         grid-template-columns: repeat(2, 1fr);
+    }
+    .medicines-grid,
+    .smart-value-grid,
+    .smart-value-category-grid,
+    .method-grid,
+    .trust-link-grid,
+    .seo-product-grid {
+        grid-template-columns: 1fr;
     }
     .supplements-grid,
     .supplements-summary,
@@ -6022,6 +6604,25 @@ section + section::before {
     .supplements-grid,
     .supplements-summary,
     .supplements-best-grid {
+        grid-template-columns: 1fr;
+    }
+    .medicine-card {
+        padding: 14px;
+    }
+    .medicine-card-head,
+    .medicine-offer-row {
+        flex-direction: column;
+    }
+    .medicine-best-price,
+    .medicine-offer-row span:last-child {
+        width: 100%;
+        text-align: left;
+    }
+    .watch-row {
+        grid-template-columns: 1fr;
+    }
+    .supplement-card-actions,
+    .compare-table {
         grid-template-columns: 1fr;
     }
     .supplement-image {

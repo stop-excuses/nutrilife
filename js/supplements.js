@@ -60,8 +60,10 @@
         confidence: 'all',
         sort: 'unit',
         query: '',
-        page: 1
+        page: 1,
+        hideOutliers: true
     };
+    let compareIds = [];
 
     document.addEventListener('DOMContentLoaded', initSupplements);
 
@@ -78,8 +80,11 @@
         renderSummary();
         renderStoreFilters();
         bindControls();
+        applySmartValueCategoryIntent();
         applyFilters();
         renderBestByCategory();
+        renderWatchPanel();
+        renderComparePanel();
     }
 
     function normalizeItem(item) {
@@ -152,27 +157,27 @@
             });
         }
 
-        document.querySelectorAll('[data-category]').forEach(button => {
+        document.querySelectorAll('button[data-category]').forEach(button => {
             button.addEventListener('click', () => {
-                setActive(button, '[data-category]');
+                setActive(button, 'button[data-category]');
                 filters.category = button.dataset.category;
                 filters.page = 1;
                 applyFilters();
             });
         });
 
-        document.querySelectorAll('[data-store]').forEach(button => {
+        document.querySelectorAll('button[data-store]').forEach(button => {
             button.addEventListener('click', () => {
-                setActive(button, '[data-store]');
+                setActive(button, 'button[data-store]');
                 filters.store = button.dataset.store;
                 filters.page = 1;
                 applyFilters();
             });
         });
 
-        document.querySelectorAll('[data-confidence]').forEach(button => {
+        document.querySelectorAll('button[data-confidence]').forEach(button => {
             button.addEventListener('click', () => {
-                setActive(button, '[data-confidence]');
+                setActive(button, 'button[data-confidence]');
                 filters.confidence = button.dataset.confidence;
                 filters.page = 1;
                 applyFilters();
@@ -187,11 +192,75 @@
                 applyFilters();
             });
         });
+
+        const outlierToggle = document.getElementById('supplements-hide-outliers');
+        if (outlierToggle) {
+            outlierToggle.addEventListener('change', () => {
+                filters.hideOutliers = outlierToggle.checked;
+                filters.page = 1;
+                applyFilters();
+            });
+        }
+
+        document.addEventListener('click', event => {
+            const watchButton = event.target.closest('[data-watch-supplement]');
+            if (watchButton) {
+                event.preventDefault();
+                toggleWatchItem(watchButton.dataset.watchSupplement);
+            }
+
+            const outbound = event.target.closest('[data-affiliate-out]');
+            if (outbound) {
+                trackOutboundClick(outbound);
+            }
+
+            const removeWatch = event.target.closest('[data-remove-watch]');
+            if (removeWatch) {
+                event.preventDefault();
+                removeWatchItem(removeWatch.dataset.removeWatch);
+            }
+
+            const compareButton = event.target.closest('[data-compare-supplement]');
+            if (compareButton) {
+                event.preventDefault();
+                toggleCompareItem(compareButton.dataset.compareSupplement);
+            }
+
+            const removeCompare = event.target.closest('[data-remove-compare]');
+            if (removeCompare) {
+                event.preventDefault();
+                removeCompareItem(removeCompare.dataset.removeCompare);
+            }
+
+            const clearCompare = event.target.closest('[data-clear-compare]');
+            if (clearCompare) {
+                event.preventDefault();
+                compareIds = [];
+                applyFilters();
+                renderComparePanel();
+            }
+        });
     }
 
     function setActive(activeButton, selector) {
         document.querySelectorAll(selector).forEach(button => button.classList.remove('active'));
         activeButton.classList.add('active');
+    }
+
+    function applySmartValueCategoryIntent() {
+        let category = '';
+        try {
+            category = sessionStorage.getItem('nutrilife-smart-category') || '';
+            sessionStorage.removeItem('nutrilife-smart-category');
+        } catch (error) {
+            category = '';
+        }
+        if (!category || !categoryLabels[category]) return;
+        const button = document.querySelector(`button[data-category="${category}"]`);
+        if (!button) return;
+        setActive(button, 'button[data-category]');
+        filters.category = category;
+        filters.page = 1;
     }
 
     function applyFilters() {
@@ -206,6 +275,9 @@
         if (filters.confidence !== 'all') {
             filtered = filtered.filter(item => item.confidence === filters.confidence);
         }
+        if (filters.hideOutliers) {
+            filtered = filtered.filter(item => !isOutlierPrice(item));
+        }
         if (filters.query) {
             filtered = filtered.filter(item => item.searchText.includes(filters.query));
             const intendedCategory = filters.category === 'all' ? searchCategoryIntents[filters.query] : null;
@@ -215,6 +287,23 @@
         filtered = sortItems(filtered);
         renderStatus(filtered.length);
         renderGrid(filtered);
+    }
+
+    function isOutlierPrice(item) {
+        const limits = {
+            creatine: 8,
+            omega3: 60,
+            magnesium: 6,
+            vitamin_d: 8,
+            vitamin_c: 8,
+            vitamin_b: 6,
+            multivitamin: 8,
+            zinc: 2,
+            protein: 8,
+            fiber: 8
+        };
+        const limit = limits[item.category];
+        return Boolean(limit && item.unitValue > limit);
     }
 
     function sortItems(list) {
@@ -240,11 +329,12 @@
         const status = document.getElementById('supplements-status');
         if (!status) return;
         const generated = DATA.generated_at ? new Date(DATA.generated_at).toLocaleString('bg-BG') : 'неизвестно';
+        const hiddenOutliers = filters.hideOutliers ? items.filter(item => isOutlierPrice(item)).length : 0;
         status.innerHTML = `
             <span><strong>${count}</strong> показани продукта</span>
             <span>от <strong>${items.length}</strong> общо</span>
             <span><strong>${DATA.sources.length}</strong> магазина</span>
-            <small>Обновено на ${escapeHtml(generated)}. Показваме само продукти, при които етикетът позволява честно сравнение.</small>
+            <small>Обновено на ${escapeHtml(generated)}. ${filters.hideOutliers ? `Скрити са ${hiddenOutliers} очевидно съмнителни сметки.` : 'Показани са и съмнително скъпите сметки.'}</small>
         `;
     }
 
@@ -282,10 +372,14 @@
         const image = item.image
             ? `<img src="${escapeAttr(item.image)}" alt="${escapeAttr(item.name)}" loading="lazy">`
             : `<span>${categoryLabels[item.category] || 'Добавка'}</span>`;
+        const watched = isWatched(item.id);
+        const compared = compareIds.includes(item.id);
+        const outboundUrl = buildOutboundUrl(item.url, item);
+        const valueBadge = getValueBadge(item);
 
         return `
             <article class="supplement-card">
-                <a class="supplement-card-link" href="${escapeAttr(item.url)}" target="_blank" rel="noopener">
+                <a class="supplement-card-link" href="${escapeAttr(outboundUrl)}" target="_blank" rel="noopener" data-affiliate-out data-product-id="${escapeAttr(item.id)}" data-store="${escapeAttr(item.store)}" data-category="${escapeAttr(item.category)}">
                     <div class="supplement-image ${item.image ? '' : 'fallback'}">${image}</div>
                     <div class="supplement-body">
                         <div class="supplement-meta">
@@ -297,6 +391,7 @@
                             <strong>${formatMoney(item.unitValue)}</strong>
                             <span>${escapeHtml(formatUnitLabel(item))}</span>
                         </div>
+                        <div class="supplement-value-badge ${escapeAttr(valueBadge.tone)}">${escapeHtml(valueBadge.label)}</div>
                         <div class="supplement-facts">
                             <span>Цена: <strong>${formatMoney(item.price_bgn)}</strong></span>
                             ${item.brand ? `<span>Марка: <strong>${escapeHtml(item.brand)}</strong></span>` : ''}
@@ -308,6 +403,10 @@
                         ${renderProteinWarning(item)}
                     </div>
                 </a>
+                <div class="supplement-card-actions">
+                    <button class="watch-price-btn ${watched ? 'active' : ''}" type="button" data-watch-supplement="${escapeAttr(item.id)}">${watched ? 'Следиш цената' : 'Следи цена'}</button>
+                    <button class="compare-supplement-btn ${compared ? 'active' : ''}" type="button" data-compare-supplement="${escapeAttr(item.id)}">${compared ? 'В сравнение' : 'Сравни'}</button>
+                </div>
             </article>
         `;
     }
@@ -315,6 +414,26 @@
     function renderProteinWarning(item) {
         if (item.category !== 'protein' || item.confidence !== 'low') return '';
         return '<div class="supplement-warning">Не успяхме автоматично да прочетем ясни грамове белтъчини от етикета. Сметката е ориентир.</div>';
+    }
+
+    function getValueBadge(item) {
+        const ranges = {
+            creatine: [0.6, 1.5],
+            omega3: [1.5, 12],
+            magnesium: [0.12, 0.6],
+            vitamin_d: [0.15, 1.2],
+            vitamin_c: [0.12, 1.2],
+            vitamin_b: [0.12, 0.8],
+            multivitamin: [0.25, 0.9],
+            zinc: [0.08, 0.22],
+            protein: [2.0, 3.2],
+            fiber: [0.8, 2.2]
+        };
+        const range = ranges[item.category];
+        if (!range) return { tone: 'neutral', label: 'Сравнима цена' };
+        if (item.unitValue <= range[0]) return { tone: 'good', label: 'Много добра стойност' };
+        if (item.unitValue <= range[1]) return { tone: 'neutral', label: 'Нормална цена' };
+        return { tone: 'high', label: 'По-скъпа сметка' };
     }
 
     function renderPagination(total, totalPages) {
@@ -353,7 +472,7 @@
         }, {})).sort((a, b) => a.category.localeCompare(b.category, 'bg'));
 
         container.innerHTML = best.map(item => `
-            <a class="supplements-best-card" href="${escapeAttr(item.url)}" target="_blank" rel="noopener">
+            <a class="supplements-best-card" href="${escapeAttr(buildOutboundUrl(item.url, item, 'best_by_category'))}" target="_blank" rel="noopener" data-affiliate-out data-product-id="${escapeAttr(item.id)}" data-store="${escapeAttr(item.store)}" data-category="${escapeAttr(item.category)}">
                 <span>${escapeHtml(categoryLabels[item.category] || item.category)}</span>
                 <strong>${formatMoney(item.unitValue)}</strong>
                 <small>${escapeHtml(formatUnitLabel(item))}</small>
@@ -367,14 +486,192 @@
     }
 
     function resetFilters() {
-        filters = { category: 'all', store: 'all', confidence: 'all', sort: 'unit', query: '', page: 1 };
+        filters = { category: 'all', store: 'all', confidence: 'all', sort: 'unit', query: '', page: 1, hideOutliers: true };
         const search = document.getElementById('supplements-search');
         if (search) search.value = '';
-        document.querySelectorAll('[data-category]').forEach(btn => btn.classList.toggle('active', btn.dataset.category === 'all'));
-        document.querySelectorAll('[data-store]').forEach(btn => btn.classList.toggle('active', btn.dataset.store === 'all'));
-        document.querySelectorAll('[data-confidence]').forEach(btn => btn.classList.toggle('active', btn.dataset.confidence === 'all'));
-        document.querySelectorAll('[data-sort]').forEach(btn => btn.classList.toggle('active', btn.dataset.sort === 'unit'));
+        const outlierToggle = document.getElementById('supplements-hide-outliers');
+        if (outlierToggle) outlierToggle.checked = true;
+        document.querySelectorAll('button[data-category]').forEach(btn => btn.classList.toggle('active', btn.dataset.category === 'all'));
+        document.querySelectorAll('button[data-store]').forEach(btn => btn.classList.toggle('active', btn.dataset.store === 'all'));
+        document.querySelectorAll('button[data-confidence]').forEach(btn => btn.classList.toggle('active', btn.dataset.confidence === 'all'));
+        document.querySelectorAll('button[data-sort]').forEach(btn => btn.classList.toggle('active', btn.dataset.sort === 'unit'));
         applyFilters();
+    }
+
+    function toggleWatchItem(id) {
+        const item = items.find(entry => entry.id === id);
+        if (!item) return;
+        const watch = getWatchList();
+        const exists = watch.some(entry => entry.id === id);
+        const next = exists
+            ? watch.filter(entry => entry.id !== id)
+            : [{
+                id: item.id,
+                name: item.name,
+                store: item.store,
+                category: item.category,
+                unitValue: item.unitValue,
+                unitLabel: formatUnitLabel(item),
+                price: item.price_bgn,
+                url: item.url,
+                savedAt: new Date().toISOString()
+            }, ...watch].slice(0, 30);
+        setWatchList(next);
+        applyFilters();
+        renderWatchPanel();
+    }
+
+    function removeWatchItem(id) {
+        setWatchList(getWatchList().filter(entry => entry.id !== id));
+        applyFilters();
+        renderWatchPanel();
+    }
+
+    function toggleCompareItem(id) {
+        if (compareIds.includes(id)) {
+            compareIds = compareIds.filter(entryId => entryId !== id);
+        } else if (compareIds.length < 3) {
+            compareIds = [...compareIds, id];
+        }
+        applyFilters();
+        renderComparePanel();
+    }
+
+    function removeCompareItem(id) {
+        compareIds = compareIds.filter(entryId => entryId !== id);
+        applyFilters();
+        renderComparePanel();
+    }
+
+    function renderComparePanel() {
+        const panel = document.getElementById('supplement-compare-panel');
+        if (!panel) return;
+        const selected = compareIds
+            .map(id => items.find(item => item.id === id))
+            .filter(Boolean);
+
+        if (!selected.length) {
+            panel.innerHTML = `
+                <div class="compare-empty">
+                    <strong>Сравни до 3 продукта</strong>
+                    <span>Избери “Сравни” на картите, за да видиш цена за доза, опаковка, етикет и магазин един до друг.</span>
+                </div>
+            `;
+            return;
+        }
+
+        panel.innerHTML = `
+            <div class="compare-head">
+                        <span><strong>${selected.length}/3</strong> продукта за сравнение · ${selected.length < 3 ? 'избери още' : 'готово'}</span>
+                <button class="filter-btn" type="button" data-clear-compare>Изчисти</button>
+            </div>
+            <div class="compare-table">
+                ${selected.map(item => `
+                    <article class="compare-product">
+                        <button class="compare-remove" type="button" data-remove-compare="${escapeAttr(item.id)}" aria-label="Премахни от сравнение">×</button>
+                        <span>${escapeHtml(categoryLabels[item.category] || item.category)} · ${escapeHtml(item.store)}</span>
+                        <h3>${escapeHtml(item.name)}</h3>
+                        <strong>${formatMoney(item.unitValue)}</strong>
+                        <small>${escapeHtml(formatUnitLabel(item))}</small>
+                        <div class="compare-facts">
+                            <span>Цена: <b>${formatMoney(item.price_bgn)}</b></span>
+                            ${item.servings ? `<span>Приеми: <b>${item.servings}</b></span>` : ''}
+                            ${item.count ? `<span>Брой: <b>${item.count}</b></span>` : ''}
+                            <span>Етикет: <b>${escapeHtml(confidenceLabels[item.confidence] || item.confidence)}</b></span>
+                        </div>
+                    </article>
+                `).join('')}
+            </div>
+        `;
+    }
+
+    function renderWatchPanel() {
+        const panel = document.getElementById('supplements-watch-panel');
+        if (!panel) return;
+        const watch = getWatchList();
+        if (!watch.length) {
+            panel.innerHTML = '';
+            return;
+        }
+        panel.innerHTML = `
+            <div class="section-title compact-section-top">
+                <h2>Следене на цени</h2>
+                <p class="section-subtitle">Твоят списък за продукти, които искаш да провериш пак по-късно.</p>
+            </div>
+            <div class="watch-list">
+                ${watch.map(entry => `
+                    <div class="watch-row">
+                        <span>
+                            <strong>${escapeHtml(entry.name)}</strong>
+                            <small>${escapeHtml(entry.store)} · ${escapeHtml(categoryLabels[entry.category] || entry.category)}</small>
+                        </span>
+                        <span>
+                            <strong>${formatMoney(entry.unitValue)}</strong>
+                            <small>${escapeHtml(entry.unitLabel)}</small>
+                        </span>
+                        <button class="filter-btn" type="button" data-remove-watch="${escapeAttr(entry.id)}">Премахни</button>
+                    </div>
+                `).join('')}
+            </div>
+        `;
+    }
+
+    function isWatched(id) {
+        return getWatchList().some(entry => entry.id === id);
+    }
+
+    function getWatchList() {
+        try {
+            return JSON.parse(localStorage.getItem('nutrilife-supplement-watch') || '[]');
+        } catch (error) {
+            return [];
+        }
+    }
+
+    function setWatchList(list) {
+        try {
+            localStorage.setItem('nutrilife-supplement-watch', JSON.stringify(list));
+        } catch (error) {
+            // localStorage may be disabled.
+        }
+    }
+
+    function buildOutboundUrl(url, item, placement = 'card') {
+        if (!url || url === '#') return '#';
+        try {
+            const parsed = new URL(url, window.location.href);
+            parsed.searchParams.set('utm_source', 'nutrilife');
+            parsed.searchParams.set('utm_medium', 'smart_value');
+            parsed.searchParams.set('utm_campaign', 'smart_supplements');
+            parsed.searchParams.set('utm_content', `${placement}_${item.category}_${item.store}`.toLowerCase().replace(/[^a-z0-9_]+/g, '_'));
+            return parsed.toString();
+        } catch (error) {
+            return url;
+        }
+    }
+
+    function trackOutboundClick(link) {
+        const click = {
+            productId: link.dataset.productId || '',
+            store: link.dataset.store || '',
+            category: link.dataset.category || '',
+            href: link.href,
+            clickedAt: new Date().toISOString()
+        };
+        try {
+            const clicks = JSON.parse(localStorage.getItem('nutrilife-affiliate-clicks') || '[]');
+            clicks.unshift(click);
+            localStorage.setItem('nutrilife-affiliate-clicks', JSON.stringify(clicks.slice(0, 100)));
+        } catch (error) {
+            // Best-effort analytics until a real endpoint is wired.
+        }
+        if (typeof window.gtag === 'function') {
+            window.gtag('event', 'affiliate_click', {
+                product_id: click.productId,
+                store: click.store,
+                category: click.category
+            });
+        }
     }
 
     function renderError(message) {
