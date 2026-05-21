@@ -1,6 +1,6 @@
 const ALL_PRODUCTS_DATA = {
-  "generated_at": "2026-05-21T12:41:23.079798Z",
-  "total_products": 16710,
+  "generated_at": "2026-05-21T15:37:07.269579Z",
+  "total_products": 16711,
   "products": [
     {
       "name": "Пушена риба тон",
@@ -690681,6 +690681,43 @@ const ALL_PRODUCTS_DATA = {
       "lowest_price": 42.03,
       "lowest_price_date": "2026-05-21",
       "avg_price": 42.03
+    },
+    {
+      "name": "Гирос различни видове",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "380 г",
+      "weight_grams": 380,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20922400_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-гирос-различни-видове-380g",
+      "last_seen": "2026-05-21",
+      "first_seen": "2026-05-21",
+      "price_history": [
+        {
+          "date": "2026-05-21",
+          "store": "Kaufland",
+          "price": 9.76,
+          "price_eur": 4.99,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 9.76,
+      "lowest_price_date": "2026-05-21",
+      "avg_price": 9.76
     }
   ]
 };
