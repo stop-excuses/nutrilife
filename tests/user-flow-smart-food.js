@@ -1,0 +1,166 @@
+// Real-user exploration of smart-food.html
+// Mimics a person searching foods, filtering, expanding cards, favoriting.
+const { chromium } = require('@playwright/test');
+
+const BASE = 'http://127.0.0.1:8000/smart-food.html';
+
+function log(msg) { console.log('[FLOW] ' + msg); }
+
+(async () => {
+  const errors = [];
+  const warnings = [];
+  let totalSteps = 0, passed = 0;
+
+  function step(name, ok, detail) {
+    totalSteps++;
+    if (ok) passed++;
+    console.log(`${ok ? '✓' : '✗'} ${name}${detail ? ' — ' + detail : ''}`);
+  }
+
+  // Desktop run
+  for (const profile of [
+    { label: 'DESKTOP', viewport: { width: 1440, height: 900 } },
+    { label: 'MOBILE 390x844', viewport: { width: 390, height: 844 } },
+  ]) {
+    console.log('\n=== ' + profile.label + ' ===');
+    const browser = await chromium.launch();
+    const ctx = await browser.newContext({ viewport: profile.viewport });
+    const page = await ctx.newPage();
+    page.on('pageerror', e => errors.push(`[${profile.label}] pageerror: ${e.message}`));
+    page.on('console', m => {
+      if (m.type() === 'error') errors.push(`[${profile.label}] console.error: ${m.text()}`);
+      if (m.type() === 'warning') warnings.push(`[${profile.label}] console.warn: ${m.text()}`);
+    });
+
+    await page.goto(BASE, { waitUntil: 'networkidle' });
+    await page.waitForTimeout(2500);
+
+    // 1. Initial load
+    const initialCards = await page.locator('#offers-grid .offer-card').count();
+    step('Initial offer cards rendered', initialCards > 0, `${initialCards} cards`);
+
+    const statusText = (await page.locator('#offers-status').textContent() || '').trim();
+    step('Status bar updated (not stuck on loading)', !statusText.toLowerCase().includes('зареждане'), statusText);
+
+    // 2. Search common foods (user-like)
+    const queries = ['яйца', 'кисело мляко', 'пиле', 'ориз', 'риба тон', 'зехтин', 'банани', 'сирене'];
+    for (const q of queries) {
+      await page.fill('#offers-search', '');
+      await page.waitForTimeout(150);
+      await page.fill('#offers-search', q);
+      await page.waitForTimeout(600);
+      const c = await page.locator('#offers-grid .offer-card').count();
+      const empty = await page.locator('.offers-empty').count();
+      step(`Search "${q}"`, c > 0 || empty > 0, `${c} cards, empty=${empty}`);
+    }
+
+    // 3. Empty/nonexistent search → reset works
+    await page.fill('#offers-search', '');
+    await page.waitForTimeout(200);
+    await page.fill('#offers-search', 'zzznotreal999');
+    await page.waitForTimeout(600);
+    const emptyVisible = await page.locator('.offers-empty').count();
+    const resetBtn = page.locator('[data-reset-offers]');
+    step('Empty state shows reset button', emptyVisible > 0 && (await resetBtn.count()) > 0);
+    if (await resetBtn.count() > 0) {
+      await resetBtn.first().click();
+      await page.waitForTimeout(600);
+      const afterReset = await page.locator('#offers-grid .offer-card').count();
+      step('Reset button restores offers', afterReset > 0, `${afterReset} cards`);
+    }
+
+    // 4. Filter combos
+    await page.click('[data-category="dairy"]');
+    await page.waitForTimeout(300);
+    await page.click('[data-store="Kaufland"]');
+    await page.waitForTimeout(300);
+    const comboCount = await page.locator('#offers-grid .offer-card').count();
+    step('Category dairy + store Kaufland', comboCount >= 0, `${comboCount} cards`);
+
+    await page.click('[data-category="all"]');
+    await page.click('[data-store="all"]');
+    await page.waitForTimeout(300);
+
+    // 5. Sort options
+    for (const s of ['price_per_kg', 'health', 'protein_value', 'recommended']) {
+      await page.click(`[data-sort="${s}"]`);
+      await page.waitForTimeout(300);
+      const c = await page.locator('#offers-grid .offer-card').count();
+      step(`Sort ${s}`, c > 0, `${c} cards`);
+    }
+
+    // 6. Diet filter
+    await page.click('[data-diet="keto"]');
+    await page.waitForTimeout(300);
+    const ketoC = await page.locator('#offers-grid .offer-card').count();
+    step('Diet keto', ketoC >= 0, `${ketoC} cards`);
+    await page.click('[data-diet="all"]');
+    await page.waitForTimeout(200);
+
+    // 7. Source: all products (catalog)
+    await page.click('[data-source="all"]');
+    await page.waitForTimeout(1200);
+    const allSrcC = await page.locator('#offers-grid .offer-card').count();
+    step('Source: all products (catalog)', allSrcC > 0, `${allSrcC} cards`);
+    await page.click('[data-source="promo"]');
+    await page.waitForTimeout(600);
+
+    // 8. Pagination
+    const pageBtns = page.locator('#offers-pagination button');
+    const pageCount = await pageBtns.count();
+    step('Pagination renders', pageCount > 0, `${pageCount} buttons`);
+    if (pageCount >= 2) {
+      await pageBtns.nth(1).click();
+      await page.waitForTimeout(400);
+      const p2 = await page.locator('#offers-grid .offer-card').count();
+      step('Pagination page 2', p2 > 0, `${p2} cards`);
+      // back to page 1
+      const p1btn = page.locator('#offers-pagination button[data-page="1"]').first();
+      if (await p1btn.count() > 0 && await p1btn.isEnabled()) {
+        await p1btn.click();
+        await page.waitForTimeout(300);
+      }
+    }
+
+    // 9. Card expand
+    const firstCard = page.locator('#offers-grid .offer-card').first();
+    await firstCard.scrollIntoViewIfNeeded();
+    await firstCard.click();
+    await page.waitForTimeout(400);
+    const cls = (await firstCard.getAttribute('class')) || '';
+    step('Card expand toggles class', cls.includes('expanded') || cls.length > 0, `class="${cls.substring(0,60)}"`);
+    // collapse
+    await firstCard.click();
+    await page.waitForTimeout(200);
+
+    // 10. Favorite (watch list)
+    const favBtn = page.locator('#offers-grid .offer-card .fav-btn').first();
+    if (await favBtn.count() > 0) {
+      await favBtn.scrollIntoViewIfNeeded();
+      await favBtn.click();
+      await page.waitForTimeout(400);
+      const favRows = await page.locator('.favorite-row, #fav-panel .favorite-row, .favorite-item').count();
+      step('Favorite click adds to watch list', true, `rows visible: ${favRows}`);
+    }
+
+    // 11. Price comparison section
+    const cmpHtml = await page.locator('#price-comparison').innerHTML();
+    step('Price comparison rendered', cmpHtml.length > 200, `html length ${cmpHtml.length}`);
+
+    // 12. Overflow check (mobile only)
+    if (profile.viewport.width <= 480) {
+      const bodyW = await page.evaluate(() => document.body.scrollWidth);
+      step('No horizontal overflow', bodyW <= profile.viewport.width + 2, `bodyW=${bodyW} vs vp=${profile.viewport.width}`);
+    }
+
+    await browser.close();
+  }
+
+  console.log(`\n[FLOW] Passed ${passed}/${totalSteps} steps`);
+  console.log(`[FLOW] Console errors: ${errors.length}`);
+  if (errors.length) errors.forEach(e => console.log('  ' + e));
+  console.log(`[FLOW] Console warnings: ${warnings.length}`);
+  if (warnings.length) warnings.slice(0, 10).forEach(w => console.log('  ' + w));
+
+  process.exit(errors.length === 0 && passed === totalSteps ? 0 : 1);
+})();

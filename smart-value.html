@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+<script>if(localStorage.getItem('nutrilife-theme')!=='dark'){document.documentElement.setAttribute('data-theme','light');}</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2JKGNXCY6W"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-2JKGNXCY6W');</script>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Smart Value — най-добра стойност за добавки и health продукти</title>
+<meta name="description" content="NutriLife Smart Value сравнява добавки по цена за активна доза, за да виждаш коя опаковка дава повече реална стойност."/>
+<link rel="icon" href="favicon.svg" type="image/svg+xml"/>
+<link rel="manifest" href="manifest.json"/>
+<meta name="theme-color" content="#0a0a0a"/>
+<meta name="application-name" content="NutriLife"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+<meta name="apple-mobile-web-app-title" content="NutriLife"/>
+<link rel="apple-touch-icon" href="images/pwa/apple-touch-icon.png"/>
+<meta property="og:type" content="website"/>
+<meta property="og:site_name" content="NutriLife"/>
+<meta property="og:url" content="https://stop-excuses.github.io/nutrilife/smart-value.html"/>
+<meta property="og:title" content="Smart Value — най-добра стойност за добавки и health продукти"/>
+<meta property="og:description" content="Цена за активна доза и най-добри продукти по категория."/>
+<meta property="og:image" content="https://stop-excuses.github.io/nutrilife/og-image.svg"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<link href="css/style.css?v=33" rel="stylesheet"/>
+<script src="js/i18n.js?v=2"></script>
+</head>
+<body>
+<nav class="navbar">
+<div class="container">
+<a class="dot-wrapper" href="index.html"><span class="dot"></span><span class="dot-label" data-i18n="nav.excuses">Оправдания</span></a>
+<a class="dot-wrapper" href="health-check.html"><span class="dot amber"></span><span class="dot-label" data-i18n="nav.check">Проверка</span></a>
+<a class="dot-wrapper" href="move.html"><span class="dot"></span><span class="dot-label" data-i18n="nav.move">Движение</span></a>
+<a class="dot-wrapper" href="eat.html"><span class="dot"></span><span class="dot-label" data-i18n="nav.eat">Хранене</span></a>
+<a class="dot-wrapper" href="smart-food.html"><span class="dot"></span><span class="dot-label" data-i18n="nav.smart_food">Умна храна</span></a>
+<a class="dot-wrapper" href="smart-supplements.html"><span class="dot amber"></span><span class="dot-label" data-i18n="ss.nav">Умни добавки</span></a>
+<a class="dot-wrapper" href="smart-value.html"><span class="dot active green"></span><span class="dot-label">Smart Value</span></a>
+<a class="dot-wrapper" href="start.html"><span class="dot"></span><span class="dot-label" data-i18n="nav.start">Старт</span></a>
+</div>
+</nav>
+
+<section class="hero utility-hero smart-value-hero">
+<div class="utility-hero-content">
+<div class="supplements-kicker">SMART VALUE</div>
+<h1>Не най-евтиното.<br/><em class="green">Най-много стойност за парите.</em></h1>
+<p>Сравняваме добавки по цена за активна доза, не само по цена на опаковка. Така по-лесно виждаш коя покупка дава повече реална стойност.</p>
+<div class="supplements-summary" id="smart-value-summary" aria-live="polite"></div>
+</div>
+<div class="utility-hero-media supplements-hero-media">
+<img src="images/smart-supplements-hero.webp" alt="Добавки и health продукти върху тъмен плот"/>
+<div class="hero-product-stack supplement-stack">
+<div class="hero-product-chip green"><span>цена за доза</span></div>
+<div class="hero-product-chip amber"><span>watchlist</span></div>
+<div class="hero-product-chip amber"><span>ясен етикет</span></div>
+</div>
+</div>
+</section>
+
+<section>
+<div class="section-title">
+<h2>Най-добра стойност в момента</h2>
+<p class="section-subtitle">Автоматично избрани продукти от Smart Supplements, подредени по това колко плащаш за реалната активна доза.</p>
+</div>
+<div class="smart-value-grid" id="smart-value-best"></div>
+</section>
+
+<section>
+<div class="section-title">
+<h2>Категории за сравнение</h2>
+<p class="section-subtitle">Започни от продуктите, при които цената на опаковката най-често подвежда. Гледаме активната доза, формата и яснотата на етикета.</p>
+</div>
+<div class="smart-value-category-grid">
+<a class="smart-value-category-card green" href="smart-supplements.html#supplements-grid" data-smart-category="creatine">
+<span>01</span>
+<strong>Креатин</strong>
+<small>Цена за 5 g. Най-чистата сметка при креатин монохидрат.</small>
+</a>
+<a class="smart-value-category-card amber" href="smart-supplements.html#supplements-grid" data-smart-category="omega3">
+<span>02</span>
+<strong>Омега-3</strong>
+<small>Цена за 1000 mg EPA+DHA. Тук повечето магазини объркват хората.</small>
+</a>
+<a class="smart-value-category-card amber" href="smart-supplements.html#supplements-grid" data-smart-category="protein">
+<span>03</span>
+<strong>Протеин</strong>
+<small>Цена за 25 g белтъчини, не цена за кутия.</small>
+</a>
+<a class="smart-value-category-card green" href="smart-supplements.html#supplements-grid" data-smart-category="magnesium">
+<span>04</span>
+<strong>Магнезий</strong>
+<small>Форма, активна доза и реална цена за 100 mg.</small>
+</a>
+<div class="smart-value-category-card">
+<span>05</span>
+<strong>Медицински изделия</strong>
+<small>Апарат за кръвно, глюкомер, тест ленти, термометър.</small>
+</div>
+<div class="smart-value-category-card">
+<span>06</span>
+<strong>Дермокозметика и SPF</strong>
+<small>Висок e-commerce потенциал, по-малко медицински риск от лекарства.</small>
+</div>
+</div>
+</section>
+
+<section>
+<div class="info-box green smart-value-money-box">
+<h3>Как да ползваш Smart Value</h3>
+<p>Избери категория, гледай цената за активна доза и после провери финалната цена, доставката и наличността в магазина. Най-ниската цена не винаги е най-добрият избор, но добрата сметка помага.</p>
+</div>
+</section>
+
+<section>
+<div class="section-title">
+<h2>Полезни уточнения</h2>
+<p class="section-subtitle">Кратко обяснение как смятаме, какви са ограниченията и кой стои зад проекта.</p>
+</div>
+<div class="trust-link-grid">
+<a class="trust-link-card" href="kak-smyatame-cenite.html"><strong>Как смятаме цените</strong><small>Методология за активна доза, етикет и сравнение.</small></a>
+<a class="trust-link-card" href="ne-e-meditsinski-savet.html"><strong>Не е медицински съвет</strong><small>Ясни граници между ценова ориентация и здравна препоръка.</small></a>
+<a class="trust-link-card" href="za-proekta.html"><strong>За проекта</strong><small>Контакт, идея и защо NutriLife прави Smart Value.</small></a>
+</div>
+</section>
+
+<section>
+<div class="section-title">
+<h2>Подробни сравнения</h2>
+<p class="section-subtitle">Започни с креатин, защото сметката за 5 g активна доза е най-ясна.</p>
+</div>
+<div class="trust-link-grid">
+<a class="trust-link-card" href="nai-izgoden-kreatin.html"><strong>Най-изгоден креатин</strong><small>Сравнение по цена за 5 g креатин.</small></a>
+<a class="trust-link-card" href="smart-supplements.html"><strong>Всички добавки</strong><small>Креатин, омега-3, протеин, магнезий, витамини и фибри.</small></a>
+<a class="trust-link-card" href="smart-food.html"><strong>Умна храна</strong><small>Промоции и храни с добра стойност.</small></a>
+</div>
+</section>
+
+<section class="cta-section">
+<h2>Първо сметката.<br/><em class="green">После покупката.</em></h2>
+<p class="cta-copy">Преди да купиш добавка, виж какво реално получаваш за парите си.</p>
+<a class="btn btn-green" href="smart-supplements.html">Отвори Smart Supplements</a>
+</section>
+
+<footer class="site-footer">
+    Направено от <a href="mailto:ivvmilev@gmail.com">Иван Милев</a> · ivvmilev@gmail.com
+</footer>
+
+<script src="js/main.js?v=16"></script>
+<script src="data/supplements.js?v=5"></script>
+<script src="js/smart-value.js?v=2"></script>
+<script>if('serviceWorker' in navigator){navigator.serviceWorker.register('sw.js?v=16');}</script>
+</body>
+</html>

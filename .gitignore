@@ -29,3 +29,10 @@ scraper/*_output.txt
 # OS
 .DS_Store
 Thumbs.db
+
+# Node / Playwright dev
+node_modules/
+test-results/
+package.json
+package-lock.json
+playwright.config.js

@@ -1,0 +1,150 @@
+// Real-user QA for smart-supplements.html — checks for confidence labels,
+// protein warnings, search/filter/sort flows, and that "no label" warnings
+// only appear when the page genuinely has no readable protein grams.
+const { chromium } = require('@playwright/test');
+
+const BASE = 'http://127.0.0.1:8000/smart-supplements.html';
+
+(async () => {
+  let pass = 0, total = 0;
+  const errors = [];
+  const warnings = [];
+  const issues = [];
+
+  function step(name, ok, detail) {
+    total++;
+    if (ok) pass++;
+    console.log(`${ok ? '✓' : '✗'} ${name}${detail ? ' — ' + detail : ''}`);
+    if (!ok) issues.push(`${name} (${detail || ''})`);
+  }
+
+  for (const profile of [
+    { label: 'DESKTOP', viewport: { width: 1440, height: 900 } },
+    { label: 'MOBILE 390x844', viewport: { width: 390, height: 844 } },
+  ]) {
+    console.log('\n=== ' + profile.label + ' ===');
+    const browser = await chromium.launch();
+    const ctx = await browser.newContext({ viewport: profile.viewport });
+    const page = await ctx.newPage();
+    page.on('pageerror', e => errors.push(`[${profile.label}] pageerror: ${e.message}`));
+    page.on('console', m => {
+      if (m.type() === 'error') errors.push(`[${profile.label}] console.error: ${m.text()}`);
+      if (m.type() === 'warning') warnings.push(`[${profile.label}] console.warn: ${m.text()}`);
+    });
+
+    await page.goto(BASE, { waitUntil: 'networkidle' });
+    await page.waitForTimeout(2500);
+
+    // 1. Initial load
+    const cards = await page.locator('.supplement-card').count();
+    step('Initial supplement cards rendered', cards > 0, `${cards} cards`);
+
+    // 2. Confidence labels: "Етикет: реален етикет/частична сметка/само ориентир"
+    const confTextSet = new Set(await page.locator('.supplement-confidence').allTextContents());
+    step('Confidence labels present', confTextSet.size > 0, [...confTextSet].join(' | '));
+
+    // 3. Protein category — examine low-confidence cards
+    await page.click('[data-category="protein"]');
+    await page.waitForTimeout(500);
+    const proteinCards = await page.locator('.supplement-card').count();
+    step('Protein view loads', proteinCards > 0, `${proteinCards} cards`);
+
+    // Inspect each visible card: confidence + warning combo
+    const cardData = await page.locator('.supplement-card').evaluateAll(nodes => nodes.map(n => ({
+      name: n.querySelector('h3')?.textContent?.trim() || '',
+      store: (n.querySelector('.supplement-meta span:nth-child(2)')?.textContent || '').trim(),
+      confidence: (n.querySelector('.supplement-confidence')?.className.match(/supplement-confidence (\w+)/) || [, ''])[1],
+      confText: (n.querySelector('.supplement-confidence')?.textContent || '').trim(),
+      warning: (n.querySelector('.supplement-warning')?.textContent || '').trim(),
+    })));
+    console.log(`  Sample protein cards: ${cardData.length}`);
+    cardData.slice(0, 6).forEach(c => console.log(`    [${c.confidence}] ${c.store} | ${c.name.substring(0, 50)} | warn="${c.warning.substring(0, 60)}"`));
+
+    const lowProteinCards = cardData.filter(c => c.confidence === 'low');
+    const highProteinCards = cardData.filter(c => c.confidence === 'high');
+    step('Some protein cards are high-confidence (real label)', highProteinCards.length > 0, `${highProteinCards.length} high`);
+    step('High-confidence cards have NO warning', highProteinCards.every(c => !c.warning), `${highProteinCards.filter(c => c.warning).length} with stray warning`);
+    step('Low-confidence cards DO have warning', lowProteinCards.every(c => c.warning), `${lowProteinCards.filter(c => !c.warning).length} missing warning`);
+    // The fix: warning text should differentiate (estimate vs no-label)
+    const oldCopy = lowProteinCards.filter(c => /не успяхме автоматично да прочетем/i.test(c.warning));
+    step('No old "не успяхме автоматично да прочетем" copy', oldCopy.length === 0, `${oldCopy.length} cards still using old copy`);
+
+    // 4. Confidence filter
+    await page.click('[data-confidence="high"]');
+    await page.waitForTimeout(400);
+    const highOnly = await page.locator('.supplement-confidence').evaluateAll(nodes => nodes.map(n => n.className));
+    step('Confidence filter "high" shows only high', highOnly.every(c => /\bhigh\b/.test(c)), `${highOnly.filter(c => !/\bhigh\b/.test(c)).length} non-high leaked`);
+    await page.click('[data-confidence="all"]');
+    await page.waitForTimeout(300);
+
+    // Reset category back to all before broad searches
+    await page.click('[data-category="all"]');
+    await page.waitForTimeout(300);
+
+    // 5. Search common terms
+    for (const q of ['креатин', 'витамин d', 'витамин c', 'омега', 'магнезий', 'протеин', 'цинк', 'фибри']) {
+      await page.fill('#supplements-search', '');
+      await page.waitForTimeout(120);
+      await page.fill('#supplements-search', q);
+      await page.waitForTimeout(500);
+      const c = await page.locator('.supplement-card').count();
+      step(`Search "${q}"`, c > 0, `${c} cards`);
+    }
+
+    // 6. Empty search
+    await page.fill('#supplements-search', '');
+    await page.fill('#supplements-search', 'zzznotreal999');
+    await page.waitForTimeout(500);
+    const emptyMsg = await page.locator('.supplements-empty, #supplements-grid').textContent();
+    step('Empty search shows a state', !!emptyMsg, `len=${(emptyMsg || '').length}`);
+    await page.fill('#supplements-search', '');
+    await page.waitForTimeout(300);
+
+    // 7. Sort options
+    for (const s of ['unit', 'price', 'name']) {
+      const btn = page.locator(`[data-sort="${s}"]`).first();
+      if (await btn.count() > 0) {
+        await btn.click();
+        await page.waitForTimeout(300);
+        const c = await page.locator('.supplement-card').count();
+        step(`Sort ${s}`, c > 0, `${c} cards`);
+      }
+    }
+
+    // 8. Watch/compare buttons
+    const watchBtn = page.locator('.watch-price-btn').first();
+    if (await watchBtn.count() > 0) {
+      await watchBtn.scrollIntoViewIfNeeded();
+      await watchBtn.click();
+      await page.waitForTimeout(300);
+      step('Watch button clickable', true);
+    }
+    const cmpBtn = page.locator('.compare-supplement-btn').first();
+    if (await cmpBtn.count() > 0) {
+      await cmpBtn.scrollIntoViewIfNeeded();
+      await cmpBtn.click();
+      await page.waitForTimeout(300);
+      step('Compare button clickable', true);
+    }
+
+    // 9. Mobile overflow check
+    if (profile.viewport.width <= 480) {
+      const bodyW = await page.evaluate(() => document.body.scrollWidth);
+      step('No horizontal overflow', bodyW <= profile.viewport.width + 2, `bodyW=${bodyW} vs vp=${profile.viewport.width}`);
+    }
+
+    await browser.close();
+  }
+
+  console.log(`\n[FLOW] Passed ${pass}/${total} steps`);
+  console.log(`[FLOW] Console errors: ${errors.length}`);
+  errors.forEach(e => console.log('  ' + e));
+  console.log(`[FLOW] Console warnings: ${warnings.length}`);
+  warnings.slice(0, 10).forEach(w => console.log('  ' + w));
+  if (issues.length) {
+    console.log('\nIssues:');
+    issues.forEach(i => console.log('  - ' + i));
+  }
+
+  process.exit(errors.length === 0 && pass === total ? 0 : 1);
+})();

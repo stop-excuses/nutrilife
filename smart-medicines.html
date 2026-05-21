@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+<script>if(localStorage.getItem('nutrilife-theme')!=='dark'){document.documentElement.setAttribute('data-theme','light');}</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2JKGNXCY6W"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-2JKGNXCY6W');</script>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Лекарства — търсене по активно вещество</title>
+<meta name="description" content="Прототип за сравнение на лекарствени цени по активно вещество, сила и форма. Не е медицински съвет."/>
+<link rel="icon" href="favicon.svg" type="image/svg+xml"/>
+<link rel="manifest" href="manifest.json"/>
+<meta name="theme-color" content="#0a0a0a"/>
+<meta name="application-name" content="NutriLife"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+<meta name="apple-mobile-web-app-title" content="NutriLife"/>
+<link rel="apple-touch-icon" href="images/pwa/apple-touch-icon.png"/>
+<meta property="og:type" content="website"/>
+<meta property="og:site_name" content="NutriLife"/>
+<meta property="og:url" content="https://stop-excuses.github.io/nutrilife/smart-medicines.html"/>
+<meta property="og:title" content="Лекарства — търсене по активно вещество"/>
+<meta property="og:description" content="Сравнение по активно вещество, сила и форма. Ценова ориентация, не медицинска препоръка."/>
+<meta property="og:image" content="https://stop-excuses.github.io/nutrilife/og-image.svg"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<link href="css/style.css?v=32" rel="stylesheet"/>
+<script src="js/i18n.js?v=2"></script>
+<script src="js/i18n.smart-medicines.js?v=1"></script>
+</head>
+<body>
+<nav class="navbar">
+<div class="container">
+<a class="dot-wrapper" href="index.html"><span class="dot"></span><span class="dot-label" data-i18n="nav.excuses">Оправдания</span></a>
+<a class="dot-wrapper" href="health-check.html"><span class="dot amber"></span><span class="dot-label" data-i18n="nav.check">Проверка</span></a>
+<a class="dot-wrapper" href="move.html"><span class="dot"></span><span class="dot-label" data-i18n="nav.move">Движение</span></a>
+<a class="dot-wrapper" href="eat.html"><span class="dot"></span><span class="dot-label" data-i18n="nav.eat">Хранене</span></a>
+<a class="dot-wrapper" href="smart-food.html"><span class="dot"></span><span class="dot-label" data-i18n="nav.smart_food">Умна храна</span></a>
+<a class="dot-wrapper" href="smart-supplements.html"><span class="dot amber"></span><span class="dot-label" data-i18n="ss.nav">Умни добавки</span></a>
+<a class="dot-wrapper" href="smart-medicines.html"><span class="dot active amber"></span><span class="dot-label" data-i18n="sm.nav">Лекарства</span></a>
+<a class="dot-wrapper" href="start.html"><span class="dot"></span><span class="dot-label" data-i18n="nav.start">Старт</span></a>
+</div>
+</nav>
+
+<section class="hero utility-hero medicines-hero">
+<div class="utility-hero-content">
+<div class="supplements-kicker" data-i18n="sm.hero.kicker">Ценова прозрачност</div>
+<h1 data-i18n-html="sm.hero.h1">Намери лекарство по активно вещество.<br/><em class="amber">Сравни цените без да сменяш терапия на сляпо.</em></h1>
+<p data-i18n="sm.hero.p">Търсенето групира продукти по INN/активно вещество, сила и форма, за да виждаш реално сравними опаковки в различни аптеки.</p>
+<div class="supplements-summary" id="medicines-summary" aria-live="polite"></div>
+</div>
+<div class="utility-hero-media medicines-hero-media" aria-hidden="true">
+<img src="images/smart-supplements-hero.webp" alt=""/>
+<div class="hero-product-stack supplement-stack">
+<div class="hero-product-chip amber"><span data-i18n="sm.hero.stat1">активно вещество</span></div>
+<div class="hero-product-chip amber"><span data-i18n="sm.hero.stat2">сила + форма</span></div>
+<div class="hero-product-chip green"><span data-i18n="sm.hero.stat3">цена за таблетка</span></div>
+</div>
+</div>
+</section>
+
+<section class="supplements-panel-section">
+<div class="info-box amber supplements-disclaimer">
+<h3 data-i18n="sm.disclaimer.h3">Важно медицинско уточнение</h3>
+<p data-i18n="sm.disclaimer.p">Тази страница е за ценова ориентация. Не предлага диагноза, лечение или автоматична замяна на предписано лекарство. При рецептурни лекарства, хронично заболяване, бременност, симптоми или съмнение попитай лекар или фармацевт.</p>
+</div>
+</section>
+
+<section>
+<div class="section-title">
+<h2 data-i18n="sm.catalog.h2">Търсене по лекарство или активно вещество</h2>
+<p class="section-subtitle" data-i18n="sm.catalog.sub">Напиши търговско име, INN, ATC код, сила или аптека. Еквивалентите се групират само когато съвпадат активно вещество, сила и форма.</p>
+</div>
+
+<div class="offers-status" id="medicines-status">
+<span data-i18n="sm.status.loading">Зареждане на лекарствата...</span>
+</div>
+
+<div class="product-controls-panel amber-panel medicine-search-panel">
+<div class="search-wrapper">
+<input class="offers-search" id="medicines-search" data-i18n-placeholder="sm.search.placeholder" placeholder="Напиши: парацетамол, ibuprofen, 500 mg, N02BE01..." type="search" autocomplete="off"/>
+</div>
+
+<div class="filters supplements-filters">
+<button class="filter-btn active" data-medicine-prescription="all" type="button" data-i18n="sm.filter.all">Всички</button>
+<button class="filter-btn" data-medicine-prescription="otc" type="button" data-i18n="sm.filter.otc">Без рецепта</button>
+<button class="filter-btn" data-medicine-prescription="rx" type="button" data-i18n="sm.filter.rx">С рецепта</button>
+</div>
+
+<div class="filters supplements-filters">
+<span class="filter-label" data-i18n="sm.sort.label">Подреди:</span>
+<button class="sort-btn active" data-medicine-sort="best" type="button" data-i18n="sm.sort.best">Най-ниска сравнима цена</button>
+<button class="sort-btn" data-medicine-sort="name" type="button" data-i18n="sm.sort.name">По име</button>
+<button class="sort-btn" data-medicine-sort="pharmacy" type="button" data-i18n="sm.sort.pharmacy">По аптека</button>
+</div>
+</div>
+</section>
+
+<section>
+<div class="section-title">
+<h2 data-i18n="sm.results.h2">Сравними групи</h2>
+<p class="section-subtitle" data-i18n="sm.results.sub">Първо виждаш най-евтината оферта в групата, после останалите аптеки за същото активно вещество, сила и форма.</p>
+</div>
+<div class="medicines-grid" id="medicines-grid"></div>
+<div class="pagination" id="medicines-pagination"></div>
+</section>
+
+<section>
+<div class="info-box green">
+<h3 data-i18n="sm.sources.h2">Как би работил скраперът</h3>
+<p data-i18n="sm.sources.p">Реалният скрапер трябва да събира цена, наличност, URL, активно вещество/INN, ATC код, сила, форма, брой в опаковка и режим на отпускане. Най-сигурният подход е да валидира продуктовите страници срещу официални лекарствени регистри, а не само срещу текста на аптеката.</p>
+</div>
+</section>
+
+<section class="cta-section">
+<h2 data-i18n-html="sm.cta.h2">Пари се сравняват лесно.<br/><em class="green">Лечението се сменя само с човек.</em></h2>
+<p class="cta-copy" data-i18n="sm.cta.p">Добрата версия на този инструмент може да спести обикаляне и объркване, но трябва да остане честна: еднакво активно вещество не винаги значи подходящ заместител за конкретния човек.</p>
+<a class="btn btn-green" href="smart-supplements.html" data-i18n="sm.cta.btn">Към умните добавки</a>
+</section>
+
+<footer class="site-footer">
+    Направено от <a href="mailto:ivvmilev@gmail.com">Иван Милев</a> · ivvmilev@gmail.com
+</footer>
+
+<script src="js/main.js?v=16"></script>
+<script src="data/medicines.js?v=1"></script>
+<script src="js/medicines.js?v=1"></script>
+<script>if('serviceWorker' in navigator){navigator.serviceWorker.register('sw.js?v=14');}</script>
+</body>
+</html>
