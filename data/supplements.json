@@ -2693,14 +2693,13 @@
       "servings": null,
       "count": null,
       "active": {
-        "estimated_total_protein_g": 790.5,
-        "estimated_protein_ratio_pct": 85
+        "protein_g": 30.0
       },
       "price_per_active_unit": {
         "bgn_per_25g_protein": 2.59
       },
       "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
+      "confidence": "high",
       "scraped_at": "2026-05-14T15:00:13.195293Z"
     },
     {
@@ -2718,14 +2717,13 @@
       "servings": null,
       "count": null,
       "active": {
-        "estimated_total_protein_g": 1955.0,
-        "estimated_protein_ratio_pct": 85
+        "protein_g": 24.0
       },
       "price_per_active_unit": {
         "bgn_per_25g_protein": 2.01
       },
       "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
+      "confidence": "high",
       "scraped_at": "2026-05-14T15:00:14.625734Z"
     },
     {
@@ -3679,14 +3677,13 @@
       "servings": null,
       "count": null,
       "active": {
-        "estimated_total_protein_g": 574.6,
-        "estimated_protein_ratio_pct": 85
+        "protein_g": 27.52
       },
       "price_per_active_unit": {
         "bgn_per_25g_protein": 5.88
       },
       "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
+      "confidence": "high",
       "scraped_at": "2026-05-14T15:01:41.442734Z"
     },
     {
@@ -3704,14 +3701,13 @@
       "servings": null,
       "count": null,
       "active": {
-        "estimated_total_protein_g": 535.5,
-        "estimated_protein_ratio_pct": 85
+        "protein_g": 28.55
       },
       "price_per_active_unit": {
         "bgn_per_25g_protein": 6.31
       },
       "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
+      "confidence": "high",
       "scraped_at": "2026-05-14T15:01:42.401826Z"
     },
     {
@@ -3752,12 +3748,14 @@
       "weight_grams": 500.0,
       "servings": null,
       "count": null,
-      "active": {},
+      "active": {
+        "fiber_g": 2.5
+      },
       "price_per_active_unit": {
         "bgn_per_5g_fiber": 0.47
       },
       "unit_label": "лв / 5 g фибри",
-      "confidence": "low",
+      "confidence": "high",
       "scraped_at": "2026-05-14T15:01:52.293618Z"
     },
     {
@@ -3822,12 +3820,14 @@
       "weight_grams": 300.0,
       "servings": 40,
       "count": null,
-      "active": {},
+      "active": {
+        "fiber_g": 8.0
+      },
       "price_per_active_unit": {
-        "bgn_per_5g_fiber": 0.71
+        "bgn_per_5g_fiber": 0.67
       },
       "unit_label": "лв / 5 g фибри",
-      "confidence": "low",
+      "confidence": "high",
       "scraped_at": "2026-05-14T15:01:55.330759Z"
     },
     {
@@ -3844,12 +3844,14 @@
       "weight_grams": 225.0,
       "servings": 40,
       "count": null,
-      "active": {},
+      "active": {
+        "fiber_g": 7.5
+      },
       "price_per_active_unit": {
-        "bgn_per_5g_fiber": 1.47
+        "bgn_per_5g_fiber": 1.1
       },
       "unit_label": "лв / 5 g фибри",
-      "confidence": "low",
+      "confidence": "high",
       "scraped_at": "2026-05-14T15:01:56.260968Z"
     },
     {
@@ -6231,13 +6233,14 @@
       "servings": 66,
       "count": 200,
       "active": {
-        "fiber_mg": 500
+        "fiber_mg": 500,
+        "fiber_g": 1.1
       },
       "price_per_active_unit": {
-        "bgn_per_5g_fiber": 4.55
+        "bgn_per_5g_fiber": 2.07
       },
       "unit_label": "лв / 5 g фибри",
-      "confidence": "medium",
+      "confidence": "high",
       "scraped_at": "2026-05-21T13:29:52.034038Z"
     },
     {
@@ -6825,12 +6828,14 @@
       "weight_grams": 240.0,
       "servings": null,
       "count": null,
-      "active": {},
+      "active": {
+        "fiber_g": 9.0
+      },
       "price_per_active_unit": {
         "bgn_per_5g_fiber": 0.39
       },
       "unit_label": "лв / 5 g фибри",
-      "confidence": "low",
+      "confidence": "high",
       "scraped_at": "2026-05-21T13:31:19.105252Z"
     }
   ]

@@ -413,7 +413,13 @@
 
     function renderProteinWarning(item) {
         if (item.category !== 'protein' || item.confidence !== 'low') return '';
-        return '<div class="supplement-warning">Не успяхме автоматично да прочетем ясни грамове белтъчини от етикета. Сметката е ориентир.</div>';
+        const active = item.active || {};
+        const hasEstimate = active.estimated_total_protein_g != null || active.estimated_protein_ratio_pct != null;
+        if (hasEstimate) {
+            const pct = active.estimated_protein_ratio_pct || 85;
+            return `<div class="supplement-warning">Ориентировъчна сметка: ${pct}% усреднено белтъчно съдържание (типично за whey/растителен изолат). Провери етикета за точните стойности.</div>`;
+        }
+        return '<div class="supplement-warning">На страницата на продукта не открихме ясни грамове белтъчини на доза. Сметката е ориентир — провери етикета.</div>';
     }
 
     function getValueBadge(item) {

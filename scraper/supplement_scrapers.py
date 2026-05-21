@@ -537,17 +537,79 @@ def extract_active(category: str, text: str, weight_grams: float | None, serving
         return active, price_units, confidence
 
     if category == "fiber":
-        fiber_g = extract_named_g(text, ("фибри", "fiber", "псилиум", "psyllium"))
+        fiber_g = extract_fiber_g_per_serving(text)
         fiber_mg = extract_named_mg(text, ("фибри", "fiber", "псилиум", "psyllium"))
         if fiber_g and 1 <= fiber_g <= 20:
             active["fiber_g"] = fiber_g
-            confidence = "medium"
+            confidence = "high"
         elif fiber_mg and 100 <= fiber_mg <= 10000:
             active["fiber_mg"] = fiber_mg
             confidence = "medium"
         return active, price_units, confidence
 
     return active, price_units, confidence
+
+
+def extract_fiber_g_per_serving(text: str) -> float | None:
+    """Find grams of fiber/psyllium per serving from product page text.
+
+    Strategy: only accept values in [1, 20] g range that appear close to a
+    per-serving anchor (доза, прием, лъжичка, лъжица, сашé, capsule, на 1, per
+    serving) or in a clear tabular "Фибри X g per serving" layout.
+    """
+    candidates: list[tuple[float, int]] = []  # (grams, priority)
+    serving_anchors = (
+        "доза", "прием", "лъжичка", "лъжица", "саше", "scoop", "мерителна",
+        "мерителен", "чаена лъжич", "супена лъжич", "ч.л", "с.л",
+        "една порция", "per serving", "на 1",
+    )
+    fiber_names = ("фибри", "fiber", "psyllium", "псилиум", "husk", "husks", "хуск")
+
+    # 1) "X g <fibre name>" or "<fibre name> X g" within 0..80 chars of an anchor.
+    name_pat = "(?:" + "|".join(re.escape(n) for n in fiber_names) + ")"
+    g_unit = r"(?:гр|g|г)\b"
+    val = r"(\d{1,2}(?:[,.]\d+)?)"
+    near = 80
+
+    # 1a) Pattern: "<anchor>...<value> g <name>" or "<anchor>...<name>...<value> g"
+    for anchor in serving_anchors:
+        for m in re.finditer(
+            rf"{re.escape(anchor)}[^\n]{{0,{near}}}?{val}\s*{g_unit}\s*{name_pat}",
+            text, re.I,
+        ):
+            v = parse_number(m.group(1))
+            if v and 1 <= v <= 20:
+                candidates.append((v, 3))
+        for m in re.finditer(
+            rf"{re.escape(anchor)}[^\n]{{0,{near}}}?{name_pat}[^\d\n]{{0,30}}{val}\s*{g_unit}",
+            text, re.I,
+        ):
+            v = parse_number(m.group(1))
+            if v and 1 <= v <= 20:
+                candidates.append((v, 3))
+
+    # 2) Tabular "Фибри X g" — but only accept the SMALLEST plausible value
+    # (typical layout: "Фибри 64,3 g 4,5 g" → per-100g and per-serving).
+    tab_values: list[float] = []
+    for m in re.finditer(rf"(?:фибри|fiber)\s+{val}\s*{g_unit}(?:\s+{val}\s*{g_unit})?", text, re.I):
+        for grp in m.groups():
+            v = parse_number(grp)
+            if v and 1 <= v <= 20:
+                tab_values.append(v)
+    if tab_values:
+        candidates.append((min(tab_values), 2))
+
+    # 3) Bare "X g psyllium/fiber" anywhere in the first half of text (lower priority).
+    for m in re.finditer(rf"{val}\s*{g_unit}\s*{name_pat}", text[:8000], re.I):
+        v = parse_number(m.group(1))
+        if v and 1 <= v <= 20:
+            candidates.append((v, 1))
+
+    if not candidates:
+        return None
+    # Pick the highest-priority hit; among same priority pick the largest plausible per-serving value.
+    candidates.sort(key=lambda x: (-x[1], -x[0]))
+    return round(candidates[0][0], 2)
 
 
 def parse_serving_grams(text: str) -> float | None:

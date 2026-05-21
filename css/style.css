@@ -6830,12 +6830,13 @@ section + section::before {
 
     .visual-break {
         padding: 26px 16px;
+        overflow-x: hidden;
     }
 
     .visual-break-frame {
         min-height: auto;
         display: grid;
-        overflow: visible;
+        overflow: hidden;
         background: transparent;
         box-shadow: none;
     }
