@@ -3309,6 +3309,53 @@ body.fav-product-open {
     color: var(--amber);
 }
 
+.supplement-form-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 8px;
+}
+
+.supplement-form-row span {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 5px 8px;
+    color: var(--muted);
+    font-size: 0.72rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.supplement-form-row strong {
+    color: var(--text);
+}
+
+.supplement-tradeoff.good {
+    border-color: rgba(151, 196, 89, 0.3);
+    background: rgba(151, 196, 89, 0.12);
+    color: var(--green);
+}
+
+.supplement-tradeoff.neutral {
+    background: rgba(255, 255, 255, 0.05);
+    color: var(--muted);
+}
+
+.supplement-tradeoff.watch {
+    border-color: rgba(186, 117, 23, 0.32);
+    background: rgba(186, 117, 23, 0.14);
+    color: var(--amber);
+}
+
+.supplement-tradeoff.unknown {
+    border-color: rgba(226, 75, 74, 0.24);
+    background: rgba(226, 75, 74, 0.1);
+    color: var(--red);
+}
+
 .supplement-facts,
 .supplement-active {
     margin-top: 8px;
@@ -3336,6 +3383,26 @@ body.fav-product-open {
 .supplement-confidence.low {
     background: rgba(226, 75, 74, 0.14);
     color: var(--red);
+}
+
+.availability-pill.in_stock,
+.availability-pill.limited {
+    border-color: rgba(151, 196, 89, 0.25);
+    background: rgba(151, 196, 89, 0.1);
+}
+
+.availability-pill.in_stock strong,
+.availability-pill.limited strong {
+    color: var(--green);
+}
+
+.availability-pill.unknown {
+    border-color: rgba(186, 117, 23, 0.22);
+    background: rgba(186, 117, 23, 0.08);
+}
+
+.availability-pill.unknown strong {
+    color: var(--amber);
 }
 
 .supplement-warning {

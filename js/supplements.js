@@ -20,6 +20,11 @@
         medium: 'частична сметка',
         low: 'само ориентир'
     };
+    const availabilityLabels = {
+        in_stock: 'наличен',
+        limited: 'ограничена наличност',
+        unknown: 'наличност непотвърдена'
+    };
     const searchCategoryIntents = {
         'креатин': 'creatine',
         'creatine': 'creatine',
@@ -58,6 +63,7 @@
         category: 'all',
         store: 'all',
         confidence: 'all',
+        availability: 'all',
         sort: 'unit',
         query: '',
         page: 1,
@@ -90,16 +96,20 @@
     function normalizeItem(item) {
         const unitKey = Object.keys(item.price_per_active_unit || {})[0] || '';
         const unitValue = unitKey ? Number(item.price_per_active_unit[unitKey]) : null;
+        const formInfo = detectFormInfo(item);
         return {
             ...item,
             unitKey,
             unitValue: Number.isFinite(unitValue) ? unitValue : null,
+            formInfo,
+            availability_status: normalizeAvailability(item.availability_status),
             searchText: [
                 item.name,
                 item.brand,
                 item.store,
                 item.category,
                 item.unit_label,
+                formInfo.label,
                 Object.values(item.active || {}).join(' ')
             ].filter(Boolean).join(' ').toLowerCase()
         };
@@ -111,7 +121,7 @@
 
         const stores = new Set(items.map(item => item.store)).size;
         const categories = new Set(items.map(item => item.category)).size;
-        const highConfidence = items.filter(item => item.confidence === 'high').length;
+        const confirmedAvailability = items.filter(item => item.availability_status === 'in_stock' || item.availability_status === 'limited').length;
 
         summary.innerHTML = `
             <div class="supplements-summary-item">
@@ -127,8 +137,8 @@
                 <span>вида добавки</span>
             </div>
             <div class="supplements-summary-item">
-                <strong>${highConfidence}</strong>
-                <span>с ясен етикет</span>
+                <strong>${confirmedAvailability}</strong>
+                <span>потвърдено налични</span>
             </div>
         `;
     }
@@ -179,6 +189,15 @@
             button.addEventListener('click', () => {
                 setActive(button, 'button[data-confidence]');
                 filters.confidence = button.dataset.confidence;
+                filters.page = 1;
+                applyFilters();
+            });
+        });
+
+        document.querySelectorAll('button[data-availability]').forEach(button => {
+            button.addEventListener('click', () => {
+                setActive(button, 'button[data-availability]');
+                filters.availability = button.dataset.availability;
                 filters.page = 1;
                 applyFilters();
             });
@@ -275,11 +294,14 @@
         if (filters.confidence !== 'all') {
             filtered = filtered.filter(item => item.confidence === filters.confidence);
         }
+        if (filters.availability === 'confirmed') {
+            filtered = filtered.filter(item => item.availability_status === 'in_stock' || item.availability_status === 'limited');
+        }
         if (filters.hideOutliers) {
             filtered = filtered.filter(item => !isOutlierPrice(item));
         }
         if (filters.query) {
-            filtered = filtered.filter(item => item.searchText.includes(filters.query));
+            filtered = filtered.filter(item => matchesSearch(item, filters.query));
             const intendedCategory = filters.category === 'all' ? searchCategoryIntents[filters.query] : null;
             if (intendedCategory) filtered = filtered.filter(item => item.category === intendedCategory);
         }
@@ -322,7 +344,7 @@
 
     function valueSortScore(item) {
         const confidencePenalty = { high: 1, medium: 1.08, low: 1.18 };
-        return item.unitValue * (confidencePenalty[item.confidence] || 1.25);
+        return item.unitValue * (confidencePenalty[item.confidence] || 1.25) * formScorePenalty(item);
     }
 
     function renderStatus(count) {
@@ -330,11 +352,13 @@
         if (!status) return;
         const generated = DATA.generated_at ? new Date(DATA.generated_at).toLocaleString('bg-BG') : 'неизвестно';
         const hiddenOutliers = filters.hideOutliers ? items.filter(item => isOutlierPrice(item)).length : 0;
+        const confirmed = items.filter(item => item.availability_status === 'in_stock' || item.availability_status === 'limited').length;
+        const unknown = items.filter(item => item.availability_status === 'unknown').length;
         status.innerHTML = `
             <span><strong>${count}</strong> показани продукта</span>
             <span>от <strong>${items.length}</strong> общо</span>
             <span><strong>${DATA.sources.length}</strong> магазина</span>
-            <small>Обновено на ${escapeHtml(generated)}. ${filters.hideOutliers ? `Скрити са ${hiddenOutliers} очевидно съмнителни сметки.` : 'Показани са и съмнително скъпите сметки.'}</small>
+            <small>Обновено на ${escapeHtml(generated)}. Потвърдено налични: ${confirmed}; с непотвърдена наличност: ${unknown}. ${filters.hideOutliers ? `Скрити са ${hiddenOutliers} очевидно съмнителни сметки.` : 'Показани са и съмнително скъпите сметки.'}</small>
         `;
     }
 
@@ -370,12 +394,13 @@
             .map(([key, value]) => `<span>${formatActiveKey(key)}: <strong>${escapeHtml(formatValueWithUnit(key, value))}</strong></span>`)
             .join('');
         const image = item.image
-            ? `<img src="${escapeAttr(item.image)}" alt="${escapeAttr(item.name)}" loading="lazy">`
+            ? `<img src="${escapeAttr(item.image)}" alt="${escapeAttr(item.name)}" loading="eager" decoding="async">`
             : `<span>${categoryLabels[item.category] || 'Добавка'}</span>`;
         const watched = isWatched(item.id);
         const compared = compareIds.includes(item.id);
         const outboundUrl = buildOutboundUrl(item.url, item);
         const valueBadge = getValueBadge(item);
+        const tradeoffBadge = getTradeoffBadge(item, valueBadge);
 
         return `
             <article class="supplement-card">
@@ -392,8 +417,13 @@
                             <span>${escapeHtml(formatUnitLabel(item))}</span>
                         </div>
                         <div class="supplement-value-badge ${escapeAttr(valueBadge.tone)}">${escapeHtml(valueBadge.label)}</div>
+                        <div class="supplement-form-row">
+                            <span>Форма: <strong>${escapeHtml(item.formInfo.label)}</strong></span>
+                            <span class="supplement-tradeoff ${escapeAttr(tradeoffBadge.tone)}">${escapeHtml(tradeoffBadge.label)}</span>
+                        </div>
                         <div class="supplement-facts">
                             <span>Цена: <strong>${formatMoney(item.price_bgn)}</strong></span>
+                            <span class="availability-pill ${escapeAttr(item.availability_status)}">Наличност: <strong>${escapeHtml(availabilityLabels[item.availability_status] || 'непотвърдена')}</strong></span>
                             ${item.brand ? `<span>Марка: <strong>${escapeHtml(item.brand)}</strong></span>` : ''}
                             ${item.servings ? `<span>Приеми: <strong>${item.servings}</strong></span>` : ''}
                             ${item.count ? `<span>Брой в опаковка: <strong>${item.count}</strong></span>` : ''}
@@ -440,6 +470,130 @@
         if (item.unitValue <= range[0]) return { tone: 'good', label: 'Много добра стойност' };
         if (item.unitValue <= range[1]) return { tone: 'neutral', label: 'Нормална цена' };
         return { tone: 'high', label: 'По-скъпа сметка' };
+    }
+
+    function detectFormInfo(item) {
+        const text = [
+            item.name,
+            item.brand,
+            item.unit_label,
+            Object.keys(item.active || {}).join(' '),
+            Object.values(item.active || {}).join(' ')
+        ].filter(Boolean).join(' ').toLowerCase();
+
+        if (item.category === 'magnesium') {
+            if (hasAny(text, ['bisglycinate', 'бисглицинат', 'glycinate', 'глицинат'])) return form('Магнезий бисглицинат', 'preferred');
+            if (hasAny(text, ['taurate', 'таурат'])) return form('Магнезий таурат', 'preferred');
+            if (hasAny(text, ['malate', 'малат'])) return form('Магнезий малат', 'preferred');
+            if (hasAny(text, ['citrate', 'цитрат', 'citramal'])) return form('Магнезий цитрат', 'good');
+            if (hasAny(text, ['chelated', 'chelate', 'хелат'])) return form('Хелатиран магнезий', 'good');
+            if (hasAny(text, ['oxide', 'оксид'])) return form('Магнезий оксид', 'basic');
+            if (hasAny(text, ['complex', 'комплекс', 'calcium magnesium', 'zinc and magnesium'])) return form('Магнезиев комплекс', 'unknown');
+            return form('форма неясна', 'unknown');
+        }
+
+        if (item.category === 'zinc') {
+            if (hasAny(text, ['picolinate', 'пиколинат'])) return form('Цинк пиколинат', 'preferred');
+            if (hasAny(text, ['bisglycinate', 'бисглицинат', 'glycinate', 'глицинат'])) return form('Цинк бисглицинат', 'preferred');
+            if (hasAny(text, ['chelated', 'chelate', 'хелат'])) return form('Хелатиран цинк', 'good');
+            if (hasAny(text, ['gluconate', 'глюконат'])) return form('Цинк глюконат', 'good');
+            if (hasAny(text, ['citrate', 'цитрат'])) return form('Цинк цитрат', 'good');
+            if (hasAny(text, ['oxide', 'оксид', 'sulfate', 'сулфат'])) return form('Базова форма цинк', 'basic');
+            if (hasAny(text, ['complex', 'balance', 'duo', 'комплекс'])) return form('Цинков комплекс', 'unknown');
+            return form('форма неясна', 'unknown');
+        }
+
+        if (item.category === 'omega3') {
+            if (hasAny(text, ['algae', 'водорасли', 'микроводорасли'])) return form('Омега-3 от водорасли', 'preferred');
+            if (hasAny(text, ['high strength', 'high potency', 'extra strength', '500 epa', 'ultra', 'forte'])) return form('Висока концентрация омега-3', 'preferred');
+            if (hasAny(text, ['krill', 'крил'])) return form('Крилово масло', 'good');
+            if (hasAny(text, ['3-6-9', '3 6 9'])) return form('Омега 3-6-9 комплекс', 'basic');
+            if (hasAny(text, ['fish oil', 'рибено масло', 'omega', 'омега'])) return form('Рибено масло', 'good');
+            return form('форма неясна', 'unknown');
+        }
+
+        if (item.category === 'vitamin_d') {
+            if (hasAny(text, ['k2', 'k-2', 'к2'])) return form('D3 + K2', 'preferred');
+            if (hasAny(text, ['d3', 'd-3', 'д3', 'холекалциферол'])) return form('Витамин D3', 'good');
+            if (hasAny(text, ['d2', 'ергокалциферол'])) return form('Витамин D2', 'basic');
+            return form('форма неясна', 'unknown');
+        }
+
+        if (item.category === 'vitamin_c') {
+            if (hasAny(text, ['liposomal', 'липозом'])) return form('Липозомен витамин C', 'preferred');
+            if (hasAny(text, ['buffered', 'буфериран'])) return form('Буфериран витамин C', 'good');
+            if (hasAny(text, ['acerola', 'ацерола', 'rose hips', 'шипка', 'bioflavonoids', 'биофлав'])) return form('Витамин C с кофактори', 'good');
+            if (hasAny(text, ['ascorbic', 'аскорбинова', 'c-1000', '1000 mg', '500 mg'])) return form('Стандартен витамин C', 'standard');
+            if (hasAny(text, ['collagen', 'колаген', 'zinc', 'цинк', 'complex', 'комплекс'])) return form('Витамин C комплекс', 'unknown');
+            return form('форма неясна', 'unknown');
+        }
+
+        if (item.category === 'creatine') {
+            if (hasAny(text, ['creapure'])) return form('Creapure креатин', 'preferred');
+            if (hasAny(text, ['monohydrate', 'mono', 'монохидрат'])) return form('Креатин монохидрат', 'good');
+            if (hasAny(text, ['malate', 'малат'])) return form('Креатин малат', 'unknown');
+            if (hasAny(text, ['kre-alkalyn'])) return form('Kre-Alkalyn', 'unknown');
+            if (hasAny(text, ['blend', 'matrix', 'taurine', 'смес', 'матрица'])) return form('Креатинова смес', 'unknown');
+            return form('форма неясна', 'unknown');
+        }
+
+        if (item.category === 'protein') {
+            if (hasAny(text, ['isolate', 'изолат', 'hydro', 'хидро'])) return form('Изолат/хидролизат', 'preferred');
+            if (hasAny(text, ['whey', 'суроват'])) return form('Суроватъчен протеин', 'good');
+            if (hasAny(text, ['plant', 'растител'])) return form('Растителен протеин', 'good');
+            if (hasAny(text, ['blend', 'matrix', 'combat', 'source7', 'смес'])) return form('Протеинова смес', 'unknown');
+            return form('форма неясна', 'unknown');
+        }
+
+        if (item.category === 'fiber') {
+            if (hasAny(text, ['psyllium', 'псилиум', 'husk'])) return form('Псилиум хуск', 'good');
+            if (hasAny(text, ['acacia', 'акациев'])) return form('Акациеви фибри', 'good');
+            if (hasAny(text, ['pectin', 'guar', 'пектин'])) return form('Фибри комплекс', 'unknown');
+            return form('форма неясна', 'unknown');
+        }
+
+        return form('неприложимо', 'neutral');
+    }
+
+    function form(label, tier) {
+        return { label, tier };
+    }
+
+    function getTradeoffBadge(item, valueBadge) {
+        const tier = item.formInfo ? item.formInfo.tier : 'unknown';
+        if (tier === 'preferred' && valueBadge.tone === 'good') return { tone: 'good', label: 'добра форма, добра цена' };
+        if (tier === 'preferred' && valueBadge.tone === 'neutral') return { tone: 'good', label: 'добра форма, разумна цена' };
+        if (tier === 'preferred') return { tone: 'watch', label: 'добра форма, но скъпа' };
+        if (tier === 'good' && valueBadge.tone === 'good') return { tone: 'good', label: 'добър баланс' };
+        if (tier === 'good' && valueBadge.tone === 'high') return { tone: 'watch', label: 'добра форма, висок premium' };
+        if (tier === 'basic' && valueBadge.tone === 'good') return { tone: 'neutral', label: 'евтино, но базова форма' };
+        if (tier === 'basic') return { tone: 'watch', label: 'базова форма' };
+        if (tier === 'unknown') return { tone: 'unknown', label: 'форма неясна' };
+        return { tone: 'neutral', label: 'стандартна сметка' };
+    }
+
+    function formScorePenalty(item) {
+        const tier = item.formInfo ? item.formInfo.tier : 'unknown';
+        const penalties = {
+            preferred: 0.92,
+            good: 1,
+            standard: 1.03,
+            neutral: 1,
+            basic: 1.14,
+            unknown: 1.10
+        };
+        return penalties[tier] || 1.10;
+    }
+
+    function hasAny(text, needles) {
+        return needles.some(needle => text.includes(needle));
+    }
+
+    function matchesSearch(item, query) {
+        if (item.searchText.includes(query)) return true;
+        const tokens = query.split(/\s+/).filter(token => token.length > 1);
+        if (!tokens.length) return true;
+        return tokens.every(token => item.searchText.includes(token));
     }
 
     function renderPagination(total, totalPages) {
@@ -492,7 +646,7 @@
     }
 
     function resetFilters() {
-        filters = { category: 'all', store: 'all', confidence: 'all', sort: 'unit', query: '', page: 1, hideOutliers: true };
+        filters = { category: 'all', store: 'all', confidence: 'all', availability: 'all', sort: 'unit', query: '', page: 1, hideOutliers: true };
         const search = document.getElementById('supplements-search');
         if (search) search.value = '';
         const outlierToggle = document.getElementById('supplements-hide-outliers');
@@ -500,6 +654,7 @@
         document.querySelectorAll('button[data-category]').forEach(btn => btn.classList.toggle('active', btn.dataset.category === 'all'));
         document.querySelectorAll('button[data-store]').forEach(btn => btn.classList.toggle('active', btn.dataset.store === 'all'));
         document.querySelectorAll('button[data-confidence]').forEach(btn => btn.classList.toggle('active', btn.dataset.confidence === 'all'));
+        document.querySelectorAll('button[data-availability]').forEach(btn => btn.classList.toggle('active', btn.dataset.availability === 'all'));
         document.querySelectorAll('button[data-sort]').forEach(btn => btn.classList.toggle('active', btn.dataset.sort === 'unit'));
         applyFilters();
     }
@@ -584,6 +739,8 @@
                             ${item.servings ? `<span>Приеми: <b>${item.servings}</b></span>` : ''}
                             ${item.count ? `<span>Брой: <b>${item.count}</b></span>` : ''}
                             <span>Етикет: <b>${escapeHtml(confidenceLabels[item.confidence] || item.confidence)}</b></span>
+                            <span>Форма: <b>${escapeHtml(item.formInfo.label)}</b></span>
+                            <span>Наличност: <b>${escapeHtml(availabilityLabels[item.availability_status] || 'непотвърдена')}</b></span>
                         </div>
                     </article>
                 `).join('')}
@@ -687,6 +844,13 @@
 
     function formatMoney(value) {
         return `${Number(value).toFixed(2)} лв`;
+    }
+
+    function normalizeAvailability(value) {
+        if (value === 'limited') return 'limited';
+        if (value === 'in_stock') return 'in_stock';
+        if (value === 'out_of_stock') return 'out_of_stock';
+        return 'unknown';
     }
 
     function formatUnitLabel(item) {

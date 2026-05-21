@@ -228,7 +228,10 @@ def load_json_ld(soup: BeautifulSoup) -> list[dict]:
         try:
             data = json.loads(raw)
         except json.JSONDecodeError:
-            continue
+            try:
+                data = json.loads(raw, strict=False)
+            except json.JSONDecodeError:
+                continue
         if isinstance(data, dict) and "@graph" in data and isinstance(data["@graph"], list):
             results.extend(x for x in data["@graph"] if isinstance(x, dict))
         elif isinstance(data, list):
@@ -269,6 +272,17 @@ def is_offer_in_stock(offer: dict) -> bool:
     return True
 
 
+def offer_availability_status(offer: dict) -> str:
+    availability = str(offer.get("availability", "")).lower()
+    if any(token in availability for token in ("outofstock", "soldout", "unavailable", "discontinued")):
+        return "out_of_stock"
+    if "limitedavailability" in availability:
+        return "limited"
+    if any(token in availability for token in ("instock", "preorder", "presale")):
+        return "in_stock"
+    return "unknown"
+
+
 def parse_structured_offer(product: dict) -> tuple[float | None, float | None, str | None, str | None, str | None]:
     offers = product.get("offers") or {}
     flat = flatten_offers(offers)
@@ -293,7 +307,7 @@ def parse_structured_offer(product: dict) -> tuple[float | None, float | None, s
         return None, None, None, None, None
 
     price, currency, offer = min(parsed, key=lambda row: row[0])
-    availability_status = "in_stock" if is_offer_in_stock(offer) else "out_of_stock"
+    availability_status = offer_availability_status(offer)
     offer_name = normalize_text(str(offer.get("name", ""))) if offer.get("name") else None
     if currency == "EUR":
         return round(price * BGN_TO_EUR, 2), price, "EUR", availability_status, offer_name
@@ -346,6 +360,107 @@ def parse_number(value: str) -> float | None:
     if not match:
         return None
     return float(match.group(0).replace(",", "."))
+
+
+def image_value_to_list(value) -> list[str]:
+    if isinstance(value, str):
+        return [value]
+    if isinstance(value, dict):
+        url = value.get("url") or value.get("contentUrl")
+        return [url] if url else []
+    if isinstance(value, list):
+        result = []
+        for entry in value:
+            result.extend(image_value_to_list(entry))
+        return result
+    return []
+
+
+def is_product_image_url(image_url: str) -> bool:
+    lower = image_url.lower()
+    blocked = (
+        "logo",
+        "icon",
+        "sprite",
+        "banner",
+        "payment",
+        "paymethod",
+        "facebook.com",
+        "messenger",
+        "whatsapp",
+        "offers_",
+        "clickhere",
+    )
+    if any(token in lower for token in blocked):
+        return False
+    return any(token in lower for token in ("/image", "/media", "/detailed", "/product", "thumbnail", ".jpg", ".jpeg", ".png", ".webp"))
+
+
+def best_image(candidates: list[str], page_url: str) -> str | None:
+    normalized = []
+    seen = set()
+    for candidate in candidates:
+        if not candidate:
+            continue
+        image_url = urljoin(page_url, candidate.strip())
+        if image_url.startswith("http://"):
+            image_url = "https://" + image_url.removeprefix("http://")
+        if image_url in seen or not is_product_image_url(image_url):
+            continue
+        seen.add(image_url)
+        normalized.append(image_url)
+    if not normalized:
+        return None
+
+    def score(image_url: str) -> int:
+        lower = image_url.lower()
+        points = 0
+        if any(token in lower for token in ("detailed", "product", "/p/", "catalog/product")):
+            points += 4
+        if any(token in lower for token in ("350/350", "500", "600", "700", "800", "900", "1000")):
+            points += 2
+        if any(token in lower for token in ("label", "nutrition", "supplement-facts", "ingredients")):
+            points -= 3
+        if any(token in lower for token in ("80/60", "feature_variant", "brand")):
+            points -= 4
+        return points
+
+    return max(normalized, key=score)
+
+
+def extract_product_image(product: dict, soup: BeautifulSoup, page_url: str) -> str | None:
+    candidates = image_value_to_list(product.get("image"))
+    for selector, attr in (
+        ('meta[property="og:image"]', "content"),
+        ('meta[property="og:image:secure_url"]', "content"),
+        ('meta[name="twitter:image"]', "content"),
+        ('link[rel="image_src"]', "href"),
+    ):
+        candidates.extend(el.get(attr) for el in soup.select(selector) if el.get(attr))
+
+    product_selectors = (
+        ".ty-product-img img",
+        ".ty-product-block img",
+        ".product-essential img",
+        ".product-info-main img",
+        ".product.media img",
+        ".gallery img",
+        ".product-gallery img",
+        ".product-image img",
+        ".product__image img",
+        "main img",
+    )
+    image_attrs = ("src", "data-src", "data-original", "data-lazy", "data-zoom-image", "data-large_image")
+    for selector in product_selectors:
+        for img in soup.select(selector):
+            candidates.extend(img.get(attr) for attr in image_attrs if img.get(attr))
+    for element in soup.select("[image-src]"):
+        candidates.append(element.get("image-src"))
+    for element in soup.select('[style*="background-image"]'):
+        style = element.get("style") or ""
+        candidates.extend(re.findall(r"background-image:\s*url\(['\"]?([^'\")]+)", style, re.I))
+
+    return best_image([c for c in candidates if c], page_url)
 
 
 def parse_int(value: str) -> int | None:
@@ -458,12 +573,17 @@ def extract_active(category: str, text: str, weight_grams: float | None, serving
             active["creatine_total_mg"] = total_from_pack
             return active, price_units, "high"
         serving_g = parse_serving_grams(text)
-        if serving_g:
+        if serving_g and serving_g <= 10:
             active["creatine_mg_per_serving"] = round(serving_g * 1000)
             confidence = "high"
         elif weight_grams and servings:
-            active["creatine_mg_per_serving"] = round(weight_grams * 1000 / servings)
-            confidence = "high"
+            per_serving = weight_grams * 1000 / servings
+            if per_serving <= 10000:
+                active["creatine_mg_per_serving"] = round(per_serving)
+                confidence = "high"
+            elif re.search(r"100\s*%|чист|pure|monohydrate|монохидрат", text, re.I):
+                active["creatine_total_mg"] = round(weight_grams * 1000)
+                confidence = "medium"
         elif weight_grams and re.search(r"100\s*%|чист|pure|monohydrate|монохидрат", text, re.I):
             active["creatine_total_mg"] = round(weight_grams * 1000)
             confidence = "medium"
@@ -485,7 +605,7 @@ def extract_active(category: str, text: str, weight_grams: float | None, serving
 
     if category == "magnesium":
         mg = extract_named_mg(text, ("магнезий", "magnesium"))
-        if mg:
+        if mg and 20 <= mg <= 800:
             active["magnesium_mg"] = mg
             confidence = "high"
         return active, price_units, confidence
@@ -518,7 +638,7 @@ def extract_active(category: str, text: str, weight_grams: float | None, serving
 
     if category == "zinc":
         mg = extract_named_mg(text, ("zinc",))
-        if mg:
+        if mg and 3 <= mg <= 100:
             active["zinc_mg"] = mg
             confidence = "high"
         return active, price_units, confidence
@@ -890,11 +1010,7 @@ def parse_product(source: Source, url: str, forced_category: str | None = None) 
     brand = product.get("brand")
     if isinstance(brand, dict):
         brand = brand.get("name")
-    image = product.get("image")
-    if isinstance(image, list):
-        image = image[0] if image else None
-    if isinstance(image, dict):
-        image = image.get("url")
+    image = extract_product_image(product, soup, url)
 
     offer_weight_grams = parse_largest_weight_grams(offer_name or "") if offer_name else None
     weight_grams = offer_weight_grams or parse_weight_grams(f"{name} {text}")
@@ -921,7 +1037,7 @@ def parse_product(source: Source, url: str, forced_category: str | None = None) 
         "brand": normalize_text(str(brand)) if brand else None,
         "category": category,
         "url": url,
-        "image": urljoin(url, image) if image else None,
+        "image": image,
         "price_bgn": price_bgn,
         "price_eur": price_eur,
         "currency_source": currency_source,
@@ -1092,6 +1208,21 @@ def merge_with_existing(products: list[dict], sources: set[str] | None, categori
     return kept + products
 
 
+def has_plausible_active_values(product: dict) -> bool:
+    active = product.get("active") or {}
+    if active.get("creatine_mg_per_serving", 0) > 10000:
+        return False
+    if active.get("magnesium_mg", 0) > 800:
+        return False
+    if active.get("zinc_mg", 0) > 100:
+        return False
+    if active.get("vitamin_d_iu", 0) > 10000:
+        return False
+    if active.get("protein_g", 0) > 60:
+        return False
+    return True
+
+
 def write_output(
     products: list[dict],
     merge_existing: bool = False,
@@ -1104,6 +1235,10 @@ def write_output(
         before = len(products)
         products = merge_with_existing(products, sources, categories, replace_scope)
         print(f"[*] Merged {before} refreshed records with existing dataset -> {len(products)} total")
+    before_validation = len(products)
+    products = [product for product in products if has_plausible_active_values(product)]
+    if len(products) != before_validation:
+        print(f"[*] Removed {before_validation - len(products)} records with implausible active-dose values")
     data = {
         "generated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "total_supplements": len(products),
