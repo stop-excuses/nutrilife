@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-21T16:12:09.735529Z",
-  "content_hash": "f75936dd78f76df0d4728a65bffb6523",
-  "total_offers": 4415,
-  "promo_offers": 1646,
+  "generated_at": "2026-05-21T17:32:55.025131Z",
+  "content_hash": "6449568bb82ca184e2a6f7e51c68316f",
+  "total_offers": 4412,
+  "promo_offers": 1643,
   "assortment_offers": 2769,
   "stores": [
     "Billa",
@@ -7222,38 +7222,6 @@
       "best_price": 9.71,
       "comparison_count": 2,
       "product_id": "fantastico-филе-без-кожа-от-пиле-хранено-предм-с-ц-ца-т-ка-la-p-a-imr-t"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 9.76,
-      "new_price_eur": 4.99,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-05-18",
-      "valid_until": "2026-05-24",
-      "price_per_kg": 25.68,
-      "price_per_kg_eur": 13.13,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 9.76,
-          "price_eur": 4.99,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 9.76,
-      "comparison_count": 1,
-      "product_id": "kaufland-пилешки-гирос-замразен-380g"
     },
     {
       "store": "Kaufland",
@@ -111344,38 +111312,6 @@
       "product_id": "kaufland-esmara-бюстие-36-46"
     },
     {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 8.98,
-      "new_price_eur": 4.59,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-05-18",
-      "valid_until": "2026-05-24",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 8.98,
-          "price_eur": 4.59,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 8.98,
-      "comparison_count": 1,
-      "product_id": "kaufland-драцена-ø10-5-см"
-    },
-    {
       "store": "Billa",
       "address": null,
       "new_price": 8.98,
@@ -112434,6 +112370,38 @@
       "best_price": 9.76,
       "comparison_count": 1,
       "product_id": "kaufland-петроханова-броеница-от-свежата-витрина"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 9.76,
+      "new_price_eur": 4.99,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-05-18",
+      "valid_until": "2026-05-24",
+      "price_per_kg": 25.68,
+      "price_per_kg_eur": 13.13,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 9.76,
+          "price_eur": 4.99,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 9.76,
+      "comparison_count": 1,
+      "product_id": "kaufland-гирос-различни-видове-380g"
     },
     {
       "store": "Billa",
@@ -116174,38 +116142,6 @@
       "best_price": 11.99,
       "comparison_count": 1,
       "product_id": "kaufland-nivea-афтършеив-балсам-или-лосион-различни-видове-100g"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 11.99,
-      "new_price_eur": 6.13,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-05-18",
-      "valid_until": "2026-05-24",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 11.99,
-          "price_eur": 6.13,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 11.99,
-      "comparison_count": 1,
-      "product_id": "kaufland-спатифилум-в-керамика-ø9-см"
     },
     {
       "store": "Fantastico",
@@ -123928,38 +123864,6 @@
       "best_price": 29.98,
       "comparison_count": 1,
       "product_id": "kaufland-parkside-работен-гащеризон-48-58"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 29.98,
-      "new_price_eur": 15.33,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-05-18",
-      "valid_until": "2026-05-24",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 29.98,
-          "price_eur": 15.33,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 29.98,
-      "comparison_count": 1,
-      "product_id": "kaufland-хортензия-в-керамика-ø12-см"
     },
     {
       "store": "Billa",
