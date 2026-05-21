@@ -1,5 +1,5 @@
 const ALL_PRODUCTS_DATA = {
-  "generated_at": "2026-05-21T15:37:07.269579Z",
+  "generated_at": "2026-05-21T16:12:09.155897Z",
   "total_products": 16711,
   "products": [
     {
@@ -675835,7 +675835,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/4063367446894_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20344167_P.jpg",
       "product_id": "kaufland-кош-за-пране-36-л-36000g",
       "last_seen": "2026-05-21",
       "first_seen": "2026-05-18",

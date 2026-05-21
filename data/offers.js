@@ -1,6 +1,6 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-05-21T15:37:07.943304Z",
-  "content_hash": "df5ca68cb86274946adf2bb230b9503d",
+  "generated_at": "2026-05-21T16:12:09.735529Z",
+  "content_hash": "f75936dd78f76df0d4728a65bffb6523",
   "total_offers": 4415,
   "promo_offers": 1646,
   "assortment_offers": 2769,
@@ -7222,6 +7222,38 @@ const OFFERS_DATA = {
       "best_price": 9.71,
       "comparison_count": 2,
       "product_id": "fantastico-филе-без-кожа-от-пиле-хранено-предм-с-ц-ца-т-ка-la-p-a-imr-t"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 9.76,
+      "new_price_eur": 4.99,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-05-18",
+      "valid_until": "2026-05-24",
+      "price_per_kg": 25.68,
+      "price_per_kg_eur": 13.13,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 9.76,
+          "price_eur": 4.99,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 9.76,
+      "comparison_count": 1,
+      "product_id": "kaufland-пилешки-гирос-замразен-380g"
     },
     {
       "store": "Kaufland",
@@ -112402,38 +112434,6 @@ const OFFERS_DATA = {
       "best_price": 9.76,
       "comparison_count": 1,
       "product_id": "kaufland-петроханова-броеница-от-свежата-витрина"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 9.76,
-      "new_price_eur": 4.99,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-05-18",
-      "valid_until": "2026-05-24",
-      "price_per_kg": 25.68,
-      "price_per_kg_eur": 13.13,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 9.76,
-          "price_eur": 4.99,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 9.76,
-      "comparison_count": 1,
-      "product_id": "kaufland-гирос-различни-видове-380g"
     },
     {
       "store": "Billa",
