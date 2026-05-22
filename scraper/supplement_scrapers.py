@@ -380,7 +380,7 @@ def detect_text_availability(text: str) -> str | None:
     lower = text.lower()
     if any(token in lower for token in ("няма наличност", "изчерпано количество", "в момента не е налично", "out of stock", "sold out")):
         return "out_of_stock"
-    if any(token in lower for token in ("в наличност", "купи", "in stock")):
+    if any(token in lower for token in ("в наличност", "наличен", "in stock")):
         return "in_stock"
     return None
 
@@ -394,8 +394,23 @@ def parse_money_bgn_from_text(value: str) -> float | None:
 
 def parse_source_price(source_name: str, soup: BeautifulSoup) -> tuple[float | None, float | None, str | None, str | None, str | None]:
     if source_name == "FHL":
+        page_text = normalize_text(soup.get_text(" ", strip=True))
+        main_match = re.search(r"Цена:\s*(?:\d+(?:[,.]\d{1,2})?\s*€\s*/\s*)?(\d+(?:[,.]\d{1,2})?)\s*лв", page_text, re.I)
+        if main_match:
+            price_bgn = parse_number(main_match.group(1))
+            if price_bgn is not None:
+                return price_bgn, round(price_bgn / BGN_TO_EUR, 2), "BGN", detect_text_availability(page_text), None
         candidates = []
-        for node in soup.select(".prod-sec .price, .price"):
+        product_sections = [
+            node for node in soup.select(".prod-sec")
+            if "Продукт №:" in node.get_text(" ", strip=True) or "Цена:" in node.get_text(" ", strip=True)
+        ]
+        price_nodes = []
+        for section in product_sections:
+            price_nodes.extend(section.select(".price"))
+        if not price_nodes:
+            price_nodes = soup.select(".prod-sec .price, .price")
+        for node in price_nodes:
             clone = BeautifulSoup(str(node), "html.parser")
             for old_node in clone.select(".old_value"):
                 old_node.decompose()
@@ -448,6 +463,18 @@ def extract_promo_info(soup: BeautifulSoup, price_bgn: float | None, source_name
             parsed = parse_money_bgn_from_text(node.get_text(" ", strip=True))
             if parsed and parsed > price_bgn:
                 old_price = parsed if old_price is None else min(old_price, parsed)
+        if old_price is None:
+            text = normalize_text(soup.get_text(" ", strip=True))
+            match = re.search(
+                r"Цена:\s*\d+(?:[,.]\d{1,2})?\s*€\s*/\s*\d+(?:[,.]\d{1,2})?\s*лв\.?\s*"
+                r"\d+(?:[,.]\d{1,2})?\s*€\s*/\s*(\d+(?:[,.]\d{1,2})?)\s*лв",
+                text,
+                re.I,
+            )
+            if match:
+                parsed = parse_number(match.group(1))
+                if parsed and parsed > price_bgn:
+                    old_price = parsed
     else:
         for selector in (
             ".old_value",
@@ -788,6 +815,12 @@ def extract_active(category: str, text: str, weight_grams: float | None, serving
             active["protein_g"] = protein_g
             confidence = "high"
         elif weight_grams and weight_grams >= 300:
+            ratio = extract_protein_ratio_from_label_text(text)
+            if ratio:
+                active["estimated_total_protein_g"] = round(weight_grams * ratio, 1)
+                active["estimated_protein_ratio_pct"] = round(ratio * 100)
+                confidence = "medium"
+                return active, price_units, confidence
             ratio = estimate_protein_ratio(text)
             if ratio:
                 active["estimated_total_protein_g"] = round(weight_grams * ratio, 1)
@@ -807,6 +840,22 @@ def extract_active(category: str, text: str, weight_grams: float | None, serving
         return active, price_units, confidence
 
     return active, price_units, confidence
+
+
+def apply_label_overrides(url: str, category: str, active: dict, confidence: str) -> tuple[dict, str]:
+    overrides = {
+        # HealthStore exposes this table as the second product image; page text
+        # only says "up to 80%", so keep the real visible label value here.
+        "https://healthstore.bg/gym-beam-true-whey-2500-g": {
+            "category": "protein",
+            "active": {"protein_g": 22},
+            "confidence": "high",
+        },
+    }
+    override = overrides.get(url)
+    if not override or override["category"] != category:
+        return active, confidence
+    return dict(override["active"]), override["confidence"]
 
 
 def extract_fiber_g_per_serving(text: str) -> float | None:
@@ -911,6 +960,20 @@ def extract_protein_g_per_serving(text: str, serving_grams: float | None) -> flo
     if not values:
         return None
     return round(max(values), 2)
+
+
+def extract_protein_ratio_from_label_text(text: str) -> float | None:
+    patterns = (
+        r"(?:до|up to)?\s*(\d{2}(?:[,.]\d+)?)\s*%\s*(?:чист\s+)?(?:протеин|белтъчини|protein)",
+        r"(?:протеин|белтъчини|protein)[^\n]{0,60}?(?:до|up to)?\s*(\d{2}(?:[,.]\d+)?)\s*%",
+    )
+    values = []
+    for pattern in patterns:
+        for match in re.finditer(pattern, text, re.I):
+            amount = parse_number(match.group(1))
+            if amount and 45 <= amount <= 95:
+                values.append(amount / 100)
+    return max(values) if values else None
 
 
 def is_serving_size_context(context: str, nutrient_name: str, amount: float, serving_grams: float | None) -> bool:
@@ -1164,6 +1227,7 @@ def parse_product(source: Source, url: str, forced_category: str | None = None) 
     count = parse_count(name) or parse_count(f"{name} {text}")
     active_text = normalize_text(f"{name} {detail_text or text} {text[:5000]}")
     active, _, confidence = extract_active(category, active_text, weight_grams, servings, count)
+    active, confidence = apply_label_overrides(url, category, active, confidence)
     price_units = calculate_price_units(category, price_bgn, active, weight_grams, servings, count)
 
     if not price_bgn or not price_units:
@@ -1334,7 +1398,13 @@ def merge_with_existing(products: list[dict], sources: set[str] | None, categori
     if not OUTPUT_PATH.exists():
         return products
     existing = json.loads(OUTPUT_PATH.read_text(encoding="utf-8")).get("supplements", [])
+    existing_by_key = {(p.get("store", "").lower(), p.get("category"), p.get("url")): p for p in existing}
     new_keys = {(p["store"].lower(), p["category"], p["url"]) for p in products}
+
+    for product in products:
+        key = (product["store"].lower(), product["category"], product["url"])
+        previous = existing_by_key.get(key, {})
+        product["price_history"] = build_price_history(previous, product)
 
     def replaced_by_scope(item: dict) -> bool:
         if (item.get("store", "").lower(), item.get("category"), item.get("url")) in new_keys:
@@ -1349,6 +1419,24 @@ def merge_with_existing(products: list[dict], sources: set[str] | None, categori
 
     kept = [item for item in existing if not replaced_by_scope(item)]
     return kept + products
+
+
+def build_price_history(previous: dict, current: dict) -> list[dict]:
+    today = datetime.now(timezone.utc).date().isoformat()
+    history = list(previous.get("price_history") or [])
+    entry = {
+        "date": today,
+        "price_bgn": current.get("price_bgn"),
+        "price_eur": current.get("price_eur"),
+        "unit_value": next(iter((current.get("price_per_active_unit") or {}).values()), None),
+    }
+    if not entry["price_bgn"]:
+        return history
+    if history and history[-1].get("date") == today:
+        history[-1] = entry
+    else:
+        history.append(entry)
+    return history[-12:]
 
 
 def has_plausible_active_values(product: dict) -> bool:

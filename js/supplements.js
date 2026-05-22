@@ -99,13 +99,16 @@
         const formInfo = detectFormInfo(item);
         const oldPrice = Number(item.old_price_bgn);
         const discountPct = Number(item.discount_pct);
+        const priceEur = Number(item.price_eur);
         return {
             ...item,
             unitKey,
             unitValue: Number.isFinite(unitValue) ? unitValue : null,
+            price_eur: Number.isFinite(priceEur) ? priceEur : null,
             old_price_bgn: Number.isFinite(oldPrice) && oldPrice > Number(item.price_bgn) ? oldPrice : null,
             discount_pct: Number.isFinite(discountPct) && discountPct > 0 ? Math.round(discountPct) : null,
             promo_label: item.promo_label || '',
+            price_history: normalizePriceHistory(item.price_history),
             formInfo,
             availability_status: normalizeAvailability(item.availability_status),
             searchText: [
@@ -121,13 +124,23 @@
         };
     }
 
+    function normalizePriceHistory(history) {
+        if (!Array.isArray(history)) return [];
+        return history.map(entry => ({
+            date: entry.date || '',
+            price_bgn: Number(entry.price_bgn),
+            price_eur: Number(entry.price_eur),
+            unit_value: Number(entry.unit_value)
+        })).filter(entry => entry.date && Number.isFinite(entry.price_bgn));
+    }
+
     function renderSummary() {
         const summary = document.getElementById('supplements-summary');
         if (!summary) return;
 
         const stores = new Set(items.map(item => item.store)).size;
         const categories = new Set(items.map(item => item.category)).size;
-        const confirmedAvailability = items.filter(item => item.availability_status === 'in_stock' || item.availability_status === 'limited').length;
+        const promoCount = items.filter(item => item.discount_pct || item.promo_label || item.old_price_bgn).length;
 
         summary.innerHTML = `
             <div class="supplements-summary-item">
@@ -143,8 +156,8 @@
                 <span>вида добавки</span>
             </div>
             <div class="supplements-summary-item">
-                <strong>${confirmedAvailability}</strong>
-                <span>потвърдено налични</span>
+                <strong>${promoCount}</strong>
+                <span>с промо цена</span>
             </div>
         `;
     }
@@ -409,6 +422,7 @@
         const tradeoffBadge = getTradeoffBadge(item, valueBadge);
         const promoBadge = renderPromoBadge(item);
         const oldPriceFact = item.old_price_bgn ? `<span>Стара цена: <strong>${formatMoney(item.old_price_bgn)}</strong></span>` : '';
+        const availabilityPill = renderAvailabilityPill(item);
 
         return `
             <article class="supplement-card">
@@ -431,15 +445,16 @@
                             <span class="supplement-tradeoff ${escapeAttr(tradeoffBadge.tone)}">${escapeHtml(tradeoffBadge.label)}</span>
                         </div>
                         <div class="supplement-facts">
-                            <span>Цена: <strong>${formatMoney(item.price_bgn)}</strong></span>
+                            <span>Цена: <strong>${formatProductPrice(item)}</strong></span>
                             ${oldPriceFact}
-                            <span class="availability-pill ${escapeAttr(item.availability_status)}">Наличност: <strong>${escapeHtml(availabilityLabels[item.availability_status] || 'непотвърдена')}</strong></span>
+                            ${availabilityPill}
                             ${item.brand ? `<span>Марка: <strong>${escapeHtml(item.brand)}</strong></span>` : ''}
                             ${item.servings ? `<span>Приеми: <strong>${item.servings}</strong></span>` : ''}
                             ${item.count ? `<span>Брой в опаковка: <strong>${item.count}</strong></span>` : ''}
                         </div>
                         <div class="supplement-active">${activeRows}</div>
                         <div class="supplement-confidence ${escapeAttr(item.confidence)}">Етикет: ${escapeHtml(confidenceLabels[item.confidence] || item.confidence)}</div>
+                        ${renderSupplementPriceHistory(item)}
                         ${renderProteinWarning(item)}
                     </div>
                 </a>
@@ -455,6 +470,31 @@
         if (!item.old_price_bgn && !item.discount_pct && !item.promo_label) return '';
         const label = item.discount_pct ? `Промо -${item.discount_pct}%` : (item.promo_label ? `Промо ${item.promo_label}` : 'Промо');
         return `<span class="supplement-promo-badge">${escapeHtml(label)}</span>`;
+    }
+
+    function renderAvailabilityPill(item) {
+        if (item.availability_status !== 'in_stock' && item.availability_status !== 'limited' && item.availability_status !== 'out_of_stock') return '';
+        return `<span class="availability-pill ${escapeAttr(item.availability_status)}">Наличност: <strong>${escapeHtml(availabilityLabels[item.availability_status] || 'няма наличност')}</strong></span>`;
+    }
+
+    function renderSupplementPriceHistory(item) {
+        const history = item.price_history || [];
+        if (!history.length) return '';
+        const prices = history.map(entry => entry.price_bgn).filter(Number.isFinite);
+        const first = prices[0];
+        const last = prices[prices.length - 1];
+        const low = Math.min(...prices);
+        const delta = prices.length > 1 ? last - first : 0;
+        const deltaText = prices.length > 1
+            ? `${delta > 0 ? '+' : ''}${delta.toFixed(2)} лв от първото следене`
+            : `Следим от ${history[0].date}`;
+        return `
+            <div class="supplement-price-history">
+                <span>История на цената</span>
+                <strong>${formatMoney(last)}</strong>
+                <small>Най-ниска: ${formatMoney(low)} · ${escapeHtml(deltaText)}</small>
+            </div>
+        `;
     }
 
     function renderProteinWarning(item) {
@@ -751,12 +791,12 @@
                         <strong>${formatMoney(item.unitValue)}</strong>
                         <small>${escapeHtml(formatUnitLabel(item))}</small>
                         <div class="compare-facts">
-                            <span>Цена: <b>${formatMoney(item.price_bgn)}</b></span>
+                            <span>Цена: <b>${formatProductPrice(item)}</b></span>
                             ${item.servings ? `<span>Приеми: <b>${item.servings}</b></span>` : ''}
                             ${item.count ? `<span>Брой: <b>${item.count}</b></span>` : ''}
                             <span>Етикет: <b>${escapeHtml(confidenceLabels[item.confidence] || item.confidence)}</b></span>
                             <span>Форма: <b>${escapeHtml(item.formInfo.label)}</b></span>
-                            <span>Наличност: <b>${escapeHtml(availabilityLabels[item.availability_status] || 'непотвърдена')}</b></span>
+                            ${renderAvailabilityPill(item)}
                         </div>
                     </article>
                 `).join('')}
@@ -860,6 +900,15 @@
 
     function formatMoney(value) {
         return `${Number(value).toFixed(2)} лв`;
+    }
+
+    function formatEuro(value) {
+        return `${Number(value).toFixed(2)} €`;
+    }
+
+    function formatProductPrice(item) {
+        const bgn = formatMoney(item.price_bgn);
+        return item.price_eur ? `${bgn} / ${formatEuro(item.price_eur)}` : bgn;
     }
 
     function normalizeAvailability(value) {

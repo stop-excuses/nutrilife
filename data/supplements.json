@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-22T08:48:52.953016Z",
-  "total_supplements": 333,
+  "generated_at": "2026-05-22T09:21:59.028676Z",
+  "total_supplements": 334,
   "sources": [
     "FHL",
     "Fitness1",
@@ -5323,32 +5323,6 @@
       "scraped_at": "2026-05-21T18:44:20.316619Z"
     },
     {
-      "id": "healthstore-gym-beam---true-whey---2500-g",
-      "store": "HealthStore",
-      "name": "GYM BEAM - True Whey - 2500 g",
-      "brand": "GYM BEAM",
-      "category": "protein",
-      "url": "https://healthstore.bg/gym-beam-true-whey-2500-g",
-      "image": "https://healthstore.bg/image/cache/cache/data/-GYM BEAM/GB9822-600x600-600x300.jpg",
-      "price_bgn": 142.4,
-      "price_eur": 72.81,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 2500.0,
-      "servings": 83,
-      "count": 60,
-      "active": {
-        "estimated_total_protein_g": 1875.0,
-        "estimated_protein_ratio_pct": 75
-      },
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 1.9
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-05-21T18:44:20.892593Z"
-    },
-    {
       "id": "healthstore-gym-beam---omega-3---120-softgels",
       "store": "HealthStore",
       "name": "GYM BEAM - Omega 3 - 120 Softgels",
@@ -6752,878 +6726,6 @@
       "scraped_at": "2026-05-21T18:46:22.869656Z"
     },
     {
-      "id": "fhl-vita-sport-everbuild-цена-прием-странични-ефекти-fhl-bg",
-      "store": "FHL",
-      "name": "Vita Sport — EverBuild — цена, прием, странични ефекти | Fhl.bg",
-      "brand": null,
-      "category": "multivitamin",
-      "url": "https://www.fhl.bg/products/product/5773/vita-sport.html",
-      "image": "https://www.fhl.bg/files/products/5773/12091_1.jpg",
-      "price_bgn": 115.21,
-      "price_eur": 58.91,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": null,
-      "servings": null,
-      "count": 90,
-      "active": {
-        "multivitamin_serving": 1
-      },
-      "price_per_active_unit": {
-        "bgn_per_multivitamin_serving": 1.28
-      },
-      "unit_label": "лв / доза мултивитамин",
-      "confidence": "medium",
-      "scraped_at": "2026-05-22T08:47:05.901103Z",
-      "old_price_bgn": 144.01,
-      "discount_pct": 20,
-      "promo_label": "-20%"
-    },
-    {
-      "id": "fhl-one-a-day-biotech-usa-цена-прием-странични-ефекти-fhl-bg",
-      "store": "FHL",
-      "name": "One-a-Day — BioTech USA — цена, прием, странични ефекти | Fhl.bg",
-      "brand": null,
-      "category": "multivitamin",
-      "url": "https://www.fhl.bg/products/product/3809/one-a-day.html",
-      "image": "https://www.fhl.bg/files/products/3809/11075_1.jpg",
-      "price_bgn": 67.2,
-      "price_eur": 34.36,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": null,
-      "servings": null,
-      "count": 100,
-      "active": {
-        "multivitamin_serving": 1
-      },
-      "price_per_active_unit": {
-        "bgn_per_multivitamin_serving": 0.67
-      },
-      "unit_label": "лв / доза мултивитамин",
-      "confidence": "medium",
-      "scraped_at": "2026-05-22T08:47:06.613743Z",
-      "old_price_bgn": 84.0,
-      "discount_pct": 20,
-      "promo_label": "-20%"
-    },
-    {
-      "id": "fhl-multivitamin-for-women-biotech-usa-цена-прием-странични-ефекти-fhl-bg",
-      "store": "FHL",
-      "name": "Multivitamin for women — BioTech USA — цена, прием, странични ефекти | Fhl.bg",
-      "brand": null,
-      "category": "multivitamin",
-      "url": "https://www.fhl.bg/products/product/1741/multivitamin-for-women.html",
-      "image": "https://www.fhl.bg/files/products/1741/11079_1.jpg",
-      "price_bgn": 61.0,
-      "price_eur": 31.19,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": null,
-      "servings": 30,
-      "count": 60,
-      "active": {
-        "multivitamin_serving": 1
-      },
-      "price_per_active_unit": {
-        "bgn_per_multivitamin_serving": 2.03
-      },
-      "unit_label": "лв / доза мултивитамин",
-      "confidence": "medium",
-      "scraped_at": "2026-05-22T08:47:08.106787Z"
-    },
-    {
-      "id": "fhl-opti-women---60-капсули-optimum-nutrition-цена-прием-странични-ефекти-fhl-bg",
-      "store": "FHL",
-      "name": "Opti-Women - 60 капсули — Optimum Nutrition — цена, прием, странични ефекти | Fhl.bg",
-      "brand": null,
-      "category": "multivitamin",
-      "url": "https://www.fhl.bg/products/product/242/opti-women-60-kapsuli.html",
-      "image": "https://www.fhl.bg/files/products/242/4710_1.jpg",
-      "price_bgn": 20.0,
-      "price_eur": 10.23,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": null,
-      "servings": 30,
-      "count": 60,
-      "active": {
-        "multivitamin_serving": 1
-      },
-      "price_per_active_unit": {
-        "bgn_per_multivitamin_serving": 0.67
-      },
-      "unit_label": "лв / доза мултивитамин",
-      "confidence": "medium",
-      "scraped_at": "2026-05-22T08:47:08.338944Z",
-      "old_price_bgn": 25.0,
-      "discount_pct": 20,
-      "promo_label": "-20%"
-    },
-    {
-      "id": "fhl-orange-triad---270-таблетки-controlled-labs-цена-прием-странични-ефекти-fhl-bg",
-      "store": "FHL",
-      "name": "Orange Triad - 270 таблетки — Controlled Labs — цена, прием, странични ефекти | Fhl.bg",
-      "brand": null,
-      "category": "multivitamin",
-      "url": "https://www.fhl.bg/products/product/52/orange-triad-270-tabletki.html",
-      "image": "https://www.fhl.bg/files/products/52/10664_1.jpg",
-      "price_bgn": 92.41,
-      "price_eur": 47.25,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": 342.0,
-      "servings": 45,
-      "count": 270,
-      "active": {
-        "multivitamin_serving": 1
-      },
-      "price_per_active_unit": {
-        "bgn_per_multivitamin_serving": 2.05
-      },
-      "unit_label": "лв / доза мултивитамин",
-      "confidence": "medium",
-      "scraped_at": "2026-05-22T08:47:09.505279Z",
-      "old_price_bgn": 105.01,
-      "discount_pct": 26,
-      "promo_label": "-26%"
-    },
-    {
-      "id": "fhl-adam-men-s-vitamins---90-капсули-now-foods-цена-прием-странични-ефекти-fhl-bg",
-      "store": "FHL",
-      "name": "ADAM Men's Vitamins - 90 капсули — Now Foods — цена, прием, странични ефекти | Fhl.bg",
-      "brand": null,
-      "category": "multivitamin",
-      "url": "https://www.fhl.bg/products/product/195/adam-mens-vitamins-90-kapsuli.html",
-      "image": "https://www.fhl.bg/files/products/195/10130_1.gif",
-      "price_bgn": 39.0,
-      "price_eur": 19.94,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": null,
-      "servings": null,
-      "count": 90,
-      "active": {
-        "multivitamin_serving": 1
-      },
-      "price_per_active_unit": {
-        "bgn_per_multivitamin_serving": 0.43
-      },
-      "unit_label": "лв / доза мултивитамин",
-      "confidence": "medium",
-      "scraped_at": "2026-05-22T08:47:11.140676Z",
-      "promo_label": "-20%"
-    },
-    {
-      "id": "fhl-vita-max-30-pac-everbuild-цена-прием-странични-ефекти-fhl-bg",
-      "store": "FHL",
-      "name": "Vita Max 30 pac. — EverBuild — цена, прием, странични ефекти | Fhl.bg",
-      "brand": null,
-      "category": "multivitamin",
-      "url": "https://www.fhl.bg/products/product/5539/vita-max-30-pac.html",
-      "image": "https://www.fhl.bg/files/products/5539/9757_1.jpg",
-      "price_bgn": 49.6,
-      "price_eur": 25.36,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": null,
-      "servings": null,
-      "count": 60,
-      "active": {
-        "multivitamin_serving": 1
-      },
-      "price_per_active_unit": {
-        "bgn_per_multivitamin_serving": 0.83
-      },
-      "unit_label": "лв / доза мултивитамин",
-      "confidence": "medium",
-      "scraped_at": "2026-05-22T08:47:11.204787Z",
-      "old_price_bgn": 62.0,
-      "discount_pct": 20,
-      "promo_label": "-20%"
-    },
-    {
-      "id": "fhl-протеин-и-креатин-комбинация-4-1-stack-цена-прием-странични-ефекти-fhl-bg",
-      "store": "FHL",
-      "name": "Протеин и креатин комбинация 4 — 1 Stack — цена, прием, странични ефекти | Fhl.bg",
-      "brand": null,
-      "category": "protein",
-      "url": "https://www.fhl.bg/products/product/4948/protein-i-kreatin-kombinaciq-4.html",
-      "image": "https://www.fhl.bg/files/products/4948/10345_1.jpg",
-      "price_bgn": 152.01,
-      "price_eur": 77.72,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": 300.0,
-      "servings": 14,
-      "count": null,
-      "active": {
-        "estimated_total_protein_g": 255.0,
-        "estimated_protein_ratio_pct": 85
-      },
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 14.9
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-05-22T08:47:16.371299Z"
-    },
-    {
-      "id": "fhl-beef-protein-100-hydrolysed-applied-nutrition-цена-прием-странични-ефекти-fhl-bg",
-      "store": "FHL",
-      "name": "Beef Protein 100% Hydrolysed — Applied Nutrition — цена, прием, странични ефекти | Fhl.bg",
-      "brand": null,
-      "category": "protein",
-      "url": "https://www.fhl.bg/products/product/6457/beef-protein-100-hydrolysed.html",
-      "image": "https://www.fhl.bg/files/products/6457/11681_1.jpg",
-      "price_bgn": 83.01,
-      "price_eur": 42.44,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": 1800.0,
-      "servings": 60,
-      "count": null,
-      "active": {
-        "protein_g": 27.72
-      },
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 1.25
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "high",
-      "scraped_at": "2026-05-22T08:47:18.648848Z",
-      "promo_label": "-20%"
-    },
-    {
-      "id": "fhl-carnivor-beef-protein-isolate-4-lb-musclemeds-цена-прием-странични-ефекти-fhl-bg",
-      "store": "FHL",
-      "name": "Carnivor Beef Protein Isolate 4 lb — MuscleMeds — цена, прием, странични ефекти | Fhl.bg",
-      "brand": null,
-      "category": "protein",
-      "url": "https://www.fhl.bg/products/product/1031/carnivor-beef-protein-isolate-4-lb.html",
-      "image": "https://www.fhl.bg/files/products/1031/12190_1.jpg",
-      "price_bgn": 68.0,
-      "price_eur": 34.77,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": 2000.0,
-      "servings": 48,
-      "count": null,
-      "active": {
-        "estimated_total_protein_g": 1700.0,
-        "estimated_protein_ratio_pct": 85
-      },
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 1.0
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-05-22T08:47:18.814511Z",
-      "promo_label": "-27%"
-    },
-    {
-      "id": "fhl-vitamin-c-1000-250-gr-powder-sfd-nutrition-цена-прием-странични-ефекти-fhl-bg",
-      "store": "FHL",
-      "name": "Vitamin C 1000 250 gr powder — SFD NUTRITION — цена, прием, странични ефекти | Fhl.bg",
-      "brand": null,
-      "category": "vitamin_c",
-      "url": "https://www.fhl.bg/products/product/6311/vitamin-c-1000-250-gr-powder.html",
-      "image": "https://www.fhl.bg/files/products/6311/11355_1.jpg",
-      "price_bgn": 22.0,
-      "price_eur": 11.25,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": 250.0,
-      "servings": 250,
-      "count": null,
-      "active": {
-        "vitamin_c_mg": 1000
-      },
-      "price_per_active_unit": {
-        "bgn_per_1000mg_vitamin_c": 0.09
-      },
-      "unit_label": "лв / 1000 mg витамин C",
-      "confidence": "high",
-      "scraped_at": "2026-05-22T08:47:20.543455Z"
-    },
-    {
-      "id": "fhl-vitamin-c-1000---90tab-sfd-nutrition-цена-прием-странични-ефекти-fhl-bg",
-      "store": "FHL",
-      "name": "VITAMIN C 1000 - 90TAB — SFD NUTRITION — цена, прием, странични ефекти | Fhl.bg",
-      "brand": null,
-      "category": "vitamin_c",
-      "url": "https://www.fhl.bg/products/product/6173/vitamin-c-1000-90tab.html",
-      "image": "https://www.fhl.bg/files/products/6173/11191_1.jpg",
-      "price_bgn": 17.99,
-      "price_eur": 9.2,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": null,
-      "servings": null,
-      "count": 90,
-      "active": {
-        "vitamin_c_mg": 1000
-      },
-      "price_per_active_unit": {
-        "bgn_per_1000mg_vitamin_c": 0.2
-      },
-      "unit_label": "лв / 1000 mg витамин C",
-      "confidence": "high",
-      "scraped_at": "2026-05-22T08:47:21.640316Z"
-    },
-    {
-      "id": "fhl-vitamin-c-1000-sr---100-tab-now-foods-цена-прием-странични-ефекти-fhl-bg",
-      "store": "FHL",
-      "name": "Vitamin C 1000 SR - 100 tab — Now Foods — цена, прием, странични ефекти | Fhl.bg",
-      "brand": null,
-      "category": "vitamin_c",
-      "url": "https://www.fhl.bg/products/product/4663/vitamin-c-1000-sr-100-tab.html",
-      "image": "https://www.fhl.bg/files/products/4663/10200_1.gif",
-      "price_bgn": 15.0,
-      "price_eur": 7.67,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": 1.0,
-      "servings": null,
-      "count": 100,
-      "active": {
-        "vitamin_c_mg": 500
-      },
-      "price_per_active_unit": {
-        "bgn_per_1000mg_vitamin_c": 0.3
-      },
-      "unit_label": "лв / 1000 mg витамин C",
-      "confidence": "high",
-      "scraped_at": "2026-05-22T08:47:22.156215Z",
-      "promo_label": "-20%"
-    },
-    {
-      "id": "fhl-c-1000-bioflavanoids-100-caps-scitec-цена-прием-странични-ефекти-fhl-bg",
-      "store": "FHL",
-      "name": "C-1000 + Bioflavanoids 100 caps — Scitec — цена, прием, странични ефекти | Fhl.bg",
-      "brand": null,
-      "category": "vitamin_c",
-      "url": "https://www.fhl.bg/products/product/6231/c-1000-bioflavanoids-100-caps.html",
-      "image": "https://www.fhl.bg/files/products/6231/11258_1.jpg",
-      "price_bgn": 50.7,
-      "price_eur": 25.92,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": null,
-      "servings": null,
-      "count": 100,
-      "active": {
-        "vitamin_c_mg": 500
-      },
-      "price_per_active_unit": {
-        "bgn_per_1000mg_vitamin_c": 1.01
-      },
-      "unit_label": "лв / 1000 mg витамин C",
-      "confidence": "high",
-      "scraped_at": "2026-05-22T08:47:23.471358Z"
-    },
-    {
-      "id": "fhl-vitamin-c-1000-sr---250-tab-now-foods-цена-прием-странични-ефекти-fhl-bg",
-      "store": "FHL",
-      "name": "Vitamin C 1000 SR - 250 tab — Now Foods — цена, прием, странични ефекти | Fhl.bg",
-      "brand": null,
-      "category": "vitamin_c",
-      "url": "https://www.fhl.bg/products/product/4662/vitamin-c-1000-sr-250-tab.html",
-      "image": "https://www.fhl.bg/files/products/4662/10201_1.gif",
-      "price_bgn": 17.0,
-      "price_eur": 8.69,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": null,
-      "servings": null,
-      "count": 250,
-      "active": {
-        "vitamin_c_mg": 500
-      },
-      "price_per_active_unit": {
-        "bgn_per_1000mg_vitamin_c": 0.14
-      },
-      "unit_label": "лв / 1000 mg витамин C",
-      "confidence": "high",
-      "scraped_at": "2026-05-22T08:47:23.890329Z",
-      "promo_label": "-20%"
-    },
-    {
-      "id": "fhl-vitamin-c-with-rose-hips-amix-цена-прием-странични-ефекти-fhl-bg",
-      "store": "FHL",
-      "name": "Vitamin C /with Rose Hips — AMIX — цена, прием, странични ефекти | Fhl.bg",
-      "brand": null,
-      "category": "vitamin_c",
-      "url": "https://www.fhl.bg/products/product/2109/vitamin-c-with-rose-hips.html",
-      "image": "https://www.fhl.bg/files/products/2109/11455_1.jpg",
-      "price_bgn": 37.6,
-      "price_eur": 19.22,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": null,
-      "servings": null,
-      "count": 100,
-      "active": {
-        "vitamin_c_mg": 1
-      },
-      "price_per_active_unit": {
-        "bgn_per_1000mg_vitamin_c": 376.0
-      },
-      "unit_label": "лв / 1000 mg витамин C",
-      "confidence": "high",
-      "scraped_at": "2026-05-22T08:47:25.108859Z",
-      "old_price_bgn": 47.0,
-      "discount_pct": 20,
-      "promo_label": "-20%"
-    },
-    {
-      "id": "fhl-100-vitamin-c-powder-swanson-цена-прием-странични-ефекти-fhl-bg",
-      "store": "FHL",
-      "name": "100% Vitamin C Powder — Swanson — цена, прием, странични ефекти | Fhl.bg",
-      "brand": null,
-      "category": "vitamin_c",
-      "url": "https://www.fhl.bg/products/product/4698/100-vitamin-c-powder.html",
-      "image": "https://www.fhl.bg/files/products/4698/11800_1.jpg",
-      "price_bgn": 16.8,
-      "price_eur": 8.59,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": 454.0,
-      "servings": 454,
-      "count": null,
-      "active": {
-        "vitamin_c_mg": 500
-      },
-      "price_per_active_unit": {
-        "bgn_per_1000mg_vitamin_c": 0.07
-      },
-      "unit_label": "лв / 1000 mg витамин C",
-      "confidence": "high",
-      "scraped_at": "2026-05-22T08:47:25.626487Z",
-      "old_price_bgn": 21.01,
-      "discount_pct": 20,
-      "promo_label": "-20%"
-    },
-    {
-      "id": "fhl-folic-acid-витамин-b-9-now-foods-цена-прием-странични-ефекти-fhl-bg",
-      "store": "FHL",
-      "name": "Folic Acid/Витамин B-9 — Now Foods — цена, прием, странични ефекти | Fhl.bg",
-      "brand": null,
-      "category": "vitamin_b",
-      "url": "https://www.fhl.bg/products/product/1017/folic-acid-vitamin-b-9.html",
-      "image": "https://www.fhl.bg/files/products/1017/10449_1.jpg",
-      "price_bgn": 23.51,
-      "price_eur": 12.02,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": null,
-      "servings": null,
-      "count": 250,
-      "active": {
-        "b_complex_serving": 1
-      },
-      "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 0.09
-      },
-      "unit_label": "лв / доза B-комплекс",
-      "confidence": "medium",
-      "scraped_at": "2026-05-22T08:47:27.731195Z",
-      "promo_label": "-20%"
-    },
-    {
-      "id": "fhl-fully-active-folate-doctor-s-best-цена-прием-странични-ефекти-fhl-bg",
-      "store": "FHL",
-      "name": "Fully Active Folate — DOCTOR'S BEST — цена, прием, странични ефекти | Fhl.bg",
-      "brand": null,
-      "category": "vitamin_b",
-      "url": "https://www.fhl.bg/products/product/5061/fully-active-folate.html",
-      "image": "https://www.fhl.bg/files/products/5061/9180_1.jpg",
-      "price_bgn": 35.69,
-      "price_eur": 18.25,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": null,
-      "servings": null,
-      "count": 90,
-      "active": {
-        "b_complex_serving": 1
-      },
-      "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 0.4
-      },
-      "unit_label": "лв / доза B-комплекс",
-      "confidence": "medium",
-      "scraped_at": "2026-05-22T08:47:29.235985Z"
-    },
-    {
-      "id": "fhl-folic-acid-800mcg-250-vtabs-haya-labs-цена-прием-странични-ефекти-fhl-bg",
-      "store": "FHL",
-      "name": "Folic Acid 800mcg. / 250 Vtabs. — Haya labs — цена, прием, странични ефекти | Fhl.bg",
-      "brand": null,
-      "category": "vitamin_b",
-      "url": "https://www.fhl.bg/products/product/3170/folic-acid-800mcg-250-vtabs.html",
-      "image": "https://www.fhl.bg/files/products/3170/11657_1.jpg",
-      "price_bgn": 23.51,
-      "price_eur": 12.02,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": null,
-      "servings": null,
-      "count": 2,
-      "active": {
-        "b_complex_serving": 1
-      },
-      "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 11.76
-      },
-      "unit_label": "лв / доза B-комплекс",
-      "confidence": "medium",
-      "scraped_at": "2026-05-22T08:47:29.801508Z"
-    },
-    {
-      "id": "fhl-метилфолат-natural-factors-цена-прием-странични-ефекти-fhl-bg",
-      "store": "FHL",
-      "name": "Метилфолат — Natural Factors — цена, прием, странични ефекти | Fhl.bg",
-      "brand": null,
-      "category": "vitamin_b",
-      "url": "https://www.fhl.bg/products/product/5367/metilfolat.html",
-      "image": "https://www.fhl.bg/files/products/5367/9553_1.jpg",
-      "price_bgn": 17.99,
-      "price_eur": 9.2,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": null,
-      "servings": null,
-      "count": 1,
-      "active": {
-        "b_complex_serving": 1
-      },
-      "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 17.99
-      },
-      "unit_label": "лв / доза B-комплекс",
-      "confidence": "medium",
-      "scraped_at": "2026-05-22T08:47:30.302028Z"
-    },
-    {
-      "id": "fhl-folian-quatrefolic-800mcg---30-caps-swanson-цена-прием-странични-ефекти-fhl-bg",
-      "store": "FHL",
-      "name": "Folian Quatrefolic 800mcg - 30 Caps — Swanson — цена, прием, странични ефекти | Fhl.bg",
-      "brand": null,
-      "category": "vitamin_b",
-      "url": "https://www.fhl.bg/products/product/6019/folian-quatrefolic-800mcg-30-caps.html",
-      "image": "https://www.fhl.bg/files/products/6019/10988_1.jpg",
-      "price_bgn": 35.69,
-      "price_eur": 18.25,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": null,
-      "servings": 30,
-      "count": 30,
-      "active": {
-        "b_complex_serving": 1
-      },
-      "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 1.19
-      },
-      "unit_label": "лв / доза B-комплекс",
-      "confidence": "medium",
-      "scraped_at": "2026-05-22T08:47:31.245989Z"
-    },
-    {
-      "id": "fhl-vitamin-b5-pantothenic-acid-bioherba-цена-прием-странични-ефекти-fhl-bg",
-      "store": "FHL",
-      "name": "Vitamin B5 (Pantothenic Acid) — BIOHERBA — цена, прием, странични ефекти | Fhl.bg",
-      "brand": null,
-      "category": "vitamin_b",
-      "url": "https://www.fhl.bg/products/product/6267/vitamin-b5-pantothenic-acid.html",
-      "image": "https://www.fhl.bg/files/products/6267/11632_1.jpg",
-      "price_bgn": 16.0,
-      "price_eur": 8.18,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": null,
-      "servings": null,
-      "count": 100,
-      "active": {
-        "b_complex_serving": 1
-      },
-      "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 0.16
-      },
-      "unit_label": "лв / доза B-комплекс",
-      "confidence": "medium",
-      "scraped_at": "2026-05-22T08:47:32.656765Z"
-    },
-    {
-      "id": "fhl-inositol-600-mg-100-caps-osavi-цена-прием-странични-ефекти-fhl-bg",
-      "store": "FHL",
-      "name": "Inositol 600 mg 100 caps — OSAVI — цена, прием, странични ефекти | Fhl.bg",
-      "brand": null,
-      "category": "vitamin_b",
-      "url": "https://www.fhl.bg/products/product/6677/inositol-600-mg-100-caps.html",
-      "image": "https://www.fhl.bg/files/default.jpg",
-      "price_bgn": 31.63,
-      "price_eur": 16.17,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": null,
-      "servings": null,
-      "count": 100,
-      "active": {
-        "b_complex_serving": 1
-      },
-      "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 0.32
-      },
-      "unit_label": "лв / доза B-комплекс",
-      "confidence": "medium",
-      "scraped_at": "2026-05-22T08:47:32.755002Z",
-      "old_price_bgn": 35.95,
-      "discount_pct": 12,
-      "promo_label": "-12%"
-    },
-    {
-      "id": "fhl-витамин-в-5-pantothenic-acid-now-foods-цена-прием-странични-ефекти-fhl-bg",
-      "store": "FHL",
-      "name": "Витамин В-5 /Pantothenic Acid — Now Foods — цена, прием, странични ефекти | Fhl.bg",
-      "brand": null,
-      "category": "vitamin_b",
-      "url": "https://www.fhl.bg/products/product/1016/vitamin-v-5-pantothenic-acid.html",
-      "image": "https://www.fhl.bg/files/products/1016/4752_1.jpg",
-      "price_bgn": 16.0,
-      "price_eur": 8.18,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": null,
-      "servings": null,
-      "count": 100,
-      "active": {
-        "b_complex_serving": 1
-      },
-      "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 0.16
-      },
-      "unit_label": "лв / доза B-комплекс",
-      "confidence": "medium",
-      "scraped_at": "2026-05-22T08:47:33.515600Z",
-      "promo_label": "-20%"
-    },
-    {
-      "id": "fhl-vitamin-d-3-400-iu-liquid-now-foods-цена-прием-странични-ефекти-fhl-bg",
-      "store": "FHL",
-      "name": "Vitamin D-3 400 IU Liquid — Now Foods — цена, прием, странични ефекти | Fhl.bg",
-      "brand": null,
-      "category": "vitamin_d",
-      "url": "https://www.fhl.bg/products/product/3663/vitamin-d-3-400-iu-liquid.html",
-      "image": "https://www.fhl.bg/files/products/3663/11925_1.jpg",
-      "price_bgn": 28.81,
-      "price_eur": 14.73,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": 2013.0,
-      "servings": null,
-      "count": 120,
-      "active": {
-        "vitamin_d_iu": 1000
-      },
-      "price_per_active_unit": {
-        "bgn_per_1000iu_d3": 0.24
-      },
-      "unit_label": "лв / 1000 IU D3",
-      "confidence": "high",
-      "scraped_at": "2026-05-22T08:47:49.312935Z",
-      "old_price_bgn": 36.01,
-      "discount_pct": 20,
-      "promo_label": "-20%"
-    },
-    {
-      "id": "fhl-calcium-d3-k2-90--tab-sfd-nutrition-цена-прием-странични-ефекти-fhl-bg",
-      "store": "FHL",
-      "name": "CALCIUM D3 K2 90 -TAB — SFD NUTRITION — цена, прием, странични ефекти | Fhl.bg",
-      "brand": null,
-      "category": "vitamin_d",
-      "url": "https://www.fhl.bg/products/product/6175/calcium-d3-k2-90-tab.html",
-      "image": "https://www.fhl.bg/files/products/6175/11193_1.jpg",
-      "price_bgn": 32.99,
-      "price_eur": 16.87,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": null,
-      "servings": null,
-      "count": 90,
-      "active": {
-        "vitamin_d_iu": 1000
-      },
-      "price_per_active_unit": {
-        "bgn_per_1000iu_d3": 0.37
-      },
-      "unit_label": "лв / 1000 IU D3",
-      "confidence": "high",
-      "scraped_at": "2026-05-22T08:47:51.458559Z"
-    },
-    {
-      "id": "fhl-vitamin-d-3-1000-iu-180-softgels-now-foods-цена-прием-странични-ефекти-fhl-bg",
-      "store": "FHL",
-      "name": "Vitamin D-3 1000 IU 180 softgels — Now Foods — цена, прием, странични ефекти | Fhl.bg",
-      "brand": null,
-      "category": "vitamin_d",
-      "url": "https://www.fhl.bg/products/product/3660/vitamin-d-3-1000-iu-180-softgels.html",
-      "image": "https://www.fhl.bg/files/products/3660/10860_1.jpg",
-      "price_bgn": 24.1,
-      "price_eur": 12.32,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": null,
-      "servings": null,
-      "count": 180,
-      "active": {
-        "vitamin_d_iu": 1000
-      },
-      "price_per_active_unit": {
-        "bgn_per_1000iu_d3": 0.13
-      },
-      "unit_label": "лв / 1000 IU D3",
-      "confidence": "high",
-      "scraped_at": "2026-05-22T08:47:51.765989Z",
-      "promo_label": "-20%"
-    },
-    {
-      "id": "fhl-vitamin-d-3-1000-iu-k2-45-mcg-120-vcaps-now-foods-цена-прием-странични-ефекти-fhl-bg",
-      "store": "FHL",
-      "name": "Vitamin D-3 1000 IU & K2 45 mcg 120 vcaps — Now Foods — цена, прием, странични ефекти | Fhl.bg",
-      "brand": null,
-      "category": "vitamin_d",
-      "url": "https://www.fhl.bg/products/product/6202/vitamin-d-3-1000-iu-k2-45-mcg-120-vcaps.html",
-      "image": "https://www.fhl.bg/files/products/6202/11226_1.jpg",
-      "price_bgn": 38.4,
-      "price_eur": 19.63,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": null,
-      "servings": null,
-      "count": 120,
-      "active": {
-        "vitamin_d_iu": 1000
-      },
-      "price_per_active_unit": {
-        "bgn_per_1000iu_d3": 0.32
-      },
-      "unit_label": "лв / 1000 IU D3",
-      "confidence": "high",
-      "scraped_at": "2026-05-22T08:47:51.528362Z",
-      "old_price_bgn": 48.0,
-      "discount_pct": 20,
-      "promo_label": "-20%"
-    },
-    {
-      "id": "fhl-vitamin-d3-250-caps-scitec-цена-прием-странични-ефекти-fhl-bg",
-      "store": "FHL",
-      "name": "Vitamin D3 / 250 Caps. — Scitec — цена, прием, странични ефекти | Fhl.bg",
-      "brand": null,
-      "category": "vitamin_d",
-      "url": "https://www.fhl.bg/products/product/5439/vitamin-d3-250-caps.html",
-      "image": "https://www.fhl.bg/files/products/5439/9836_1.jpg",
-      "price_bgn": 23.0,
-      "price_eur": 11.76,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": null,
-      "servings": null,
-      "count": 250,
-      "active": {
-        "vitamin_d_iu": 1000
-      },
-      "price_per_active_unit": {
-        "bgn_per_1000iu_d3": 0.09
-      },
-      "unit_label": "лв / 1000 IU D3",
-      "confidence": "high",
-      "scraped_at": "2026-05-22T08:47:52.941174Z"
-    },
-    {
-      "id": "fhl-vitamin-d-3-400-iu-now-foods-цена-прием-странични-ефекти-fhl-bg",
-      "store": "FHL",
-      "name": "VITAMIN D-3 400 IU — Now Foods — цена, прием, странични ефекти | Fhl.bg",
-      "brand": null,
-      "category": "vitamin_d",
-      "url": "https://www.fhl.bg/products/product/1032/vitamin-d-3-400-iu.html",
-      "image": "https://www.fhl.bg/files/products/1032/10861_1.jpg",
-      "price_bgn": 16.8,
-      "price_eur": 8.59,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": null,
-      "servings": null,
-      "count": 180,
-      "active": {
-        "vitamin_d_iu": 1000
-      },
-      "price_per_active_unit": {
-        "bgn_per_1000iu_d3": 0.09
-      },
-      "unit_label": "лв / 1000 IU D3",
-      "confidence": "high",
-      "scraped_at": "2026-05-22T08:47:53.739000Z",
-      "old_price_bgn": 21.01,
-      "discount_pct": 20,
-      "promo_label": "-20%"
-    },
-    {
-      "id": "fhl-vitamin-d-3-1000-iu-chewable-now-foods-цена-прием-странични-ефекти-fhl-bg",
-      "store": "FHL",
-      "name": "VITAMIN D-3 1000 IU chewable — Now Foods — цена, прием, странични ефекти | Fhl.bg",
-      "brand": null,
-      "category": "vitamin_d",
-      "url": "https://www.fhl.bg/products/product/1033/vitamin-d-3-1000-iu-chewable.html",
-      "image": "https://www.fhl.bg/files/products/1033/8634_1.jpg",
-      "price_bgn": 20.0,
-      "price_eur": 10.23,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": null,
-      "servings": null,
-      "count": 180,
-      "active": {
-        "vitamin_d_iu": 1000
-      },
-      "price_per_active_unit": {
-        "bgn_per_1000iu_d3": 0.11
-      },
-      "unit_label": "лв / 1000 IU D3",
-      "confidence": "high",
-      "scraped_at": "2026-05-22T08:47:54.536365Z",
-      "old_price_bgn": 25.0,
-      "discount_pct": 20,
-      "promo_label": "-20%"
-    },
-    {
-      "id": "fhl-vitamin-d-3-1-000-iu-high-potency-360-softgels-now-foods-цена-прием-странични-ефекти-fhl-bg",
-      "store": "FHL",
-      "name": "Vitamin D-3 1,000 IU High Potency 360 Softgels — Now Foods — цена, прием, странични ефекти | Fhl.bg",
-      "brand": null,
-      "category": "vitamin_d",
-      "url": "https://www.fhl.bg/products/product/6238/vitamin-d-3-1000-iu-high-potency-360-softgels.html",
-      "image": "https://www.fhl.bg/files/products/6238/11264_1.jpg",
-      "price_bgn": 14.49,
-      "price_eur": 7.41,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": null,
-      "servings": null,
-      "count": 360,
-      "active": {
-        "vitamin_d_iu": 1000
-      },
-      "price_per_active_unit": {
-        "bgn_per_1000iu_d3": 0.04
-      },
-      "unit_label": "лв / 1000 IU D3",
-      "confidence": "high",
-      "scraped_at": "2026-05-22T08:47:55.323614Z",
-      "promo_label": "-20%"
-    },
-    {
       "id": "stayfit-everbuild-vita-max-multivitamins",
       "store": "Stayfit",
       "name": "EVERBUILD Vita Max Multivitamins",
@@ -8521,6 +7623,1225 @@
       "unit_label": "лв / 100 mg магнезий",
       "confidence": "high",
       "scraped_at": "2026-05-22T08:48:52.380988Z"
+    },
+    {
+      "id": "fhl-vitamin-c-1000-250-gr-powder-sfd-nutrition-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "Vitamin C 1000 250 gr powder — SFD NUTRITION — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "vitamin_c",
+      "url": "https://www.fhl.bg/products/product/6311/vitamin-c-1000-250-gr-powder.html",
+      "image": "https://www.fhl.bg/files/products/6311/11355_1.jpg",
+      "price_bgn": 28.01,
+      "price_eur": 14.32,
+      "currency_source": "BGN",
+      "availability_status": "unknown",
+      "weight_grams": 250.0,
+      "servings": 250,
+      "count": 90,
+      "active": {
+        "vitamin_c_mg": 1000
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000mg_vitamin_c": 0.11
+      },
+      "unit_label": "лв / 1000 mg витамин C",
+      "confidence": "high",
+      "scraped_at": "2026-05-22T09:19:41.070344Z",
+      "price_history": [
+        {
+          "date": "2026-05-22",
+          "price_bgn": 28.01,
+          "price_eur": 14.32,
+          "unit_value": 0.11
+        }
+      ]
+    },
+    {
+      "id": "fhl-vitamin-c-1000---90tab-sfd-nutrition-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "VITAMIN C 1000 - 90TAB — SFD NUTRITION — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "vitamin_c",
+      "url": "https://www.fhl.bg/products/product/6173/vitamin-c-1000-90tab.html",
+      "image": "https://www.fhl.bg/files/products/6173/11191_1.jpg",
+      "price_bgn": 18.99,
+      "price_eur": 9.71,
+      "currency_source": "BGN",
+      "availability_status": "unknown",
+      "weight_grams": null,
+      "servings": null,
+      "count": 90,
+      "active": {
+        "vitamin_c_mg": 500
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000mg_vitamin_c": 0.42
+      },
+      "unit_label": "лв / 1000 mg витамин C",
+      "confidence": "high",
+      "scraped_at": "2026-05-22T09:19:41.996165Z",
+      "old_price_bgn": 32.99,
+      "discount_pct": 42,
+      "promo_label": "-42%",
+      "price_history": [
+        {
+          "date": "2026-05-22",
+          "price_bgn": 18.99,
+          "price_eur": 9.71,
+          "unit_value": 0.42
+        }
+      ]
+    },
+    {
+      "id": "fhl-c-1000-bioflavanoids-100-caps-scitec-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "C-1000 + Bioflavanoids 100 caps — Scitec — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "vitamin_c",
+      "url": "https://www.fhl.bg/products/product/6231/c-1000-bioflavanoids-100-caps.html",
+      "image": "https://www.fhl.bg/files/products/6231/11258_1.jpg",
+      "price_bgn": 28.01,
+      "price_eur": 14.32,
+      "currency_source": "BGN",
+      "availability_status": "unknown",
+      "weight_grams": null,
+      "servings": null,
+      "count": 100,
+      "active": {
+        "vitamin_c_mg": 500
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000mg_vitamin_c": 0.56
+      },
+      "unit_label": "лв / 1000 mg витамин C",
+      "confidence": "high",
+      "scraped_at": "2026-05-22T09:19:42.435015Z",
+      "price_history": [
+        {
+          "date": "2026-05-22",
+          "price_bgn": 28.01,
+          "price_eur": 14.32,
+          "unit_value": 0.56
+        }
+      ]
+    },
+    {
+      "id": "fhl-vitamin-c-1000-sr---100-tab-now-foods-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "Vitamin C 1000 SR - 100 tab — Now Foods — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "vitamin_c",
+      "url": "https://www.fhl.bg/products/product/4663/vitamin-c-1000-sr-100-tab.html",
+      "image": "https://www.fhl.bg/files/products/4663/10200_1.gif",
+      "price_bgn": 27.19,
+      "price_eur": 13.9,
+      "currency_source": "BGN",
+      "availability_status": "unknown",
+      "weight_grams": 1.0,
+      "servings": null,
+      "count": 100,
+      "active": {
+        "vitamin_c_mg": 500
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000mg_vitamin_c": 0.54
+      },
+      "unit_label": "лв / 1000 mg витамин C",
+      "confidence": "high",
+      "scraped_at": "2026-05-22T09:19:43.170870Z",
+      "old_price_bgn": 33.99,
+      "discount_pct": 20,
+      "promo_label": "-20%",
+      "price_history": [
+        {
+          "date": "2026-05-22",
+          "price_bgn": 27.19,
+          "price_eur": 13.9,
+          "unit_value": 0.54
+        }
+      ]
+    },
+    {
+      "id": "fhl-vitamin-c-1000-sr---250-tab-now-foods-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "Vitamin C 1000 SR - 250 tab — Now Foods — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "vitamin_c",
+      "url": "https://www.fhl.bg/products/product/4662/vitamin-c-1000-sr-250-tab.html",
+      "image": "https://www.fhl.bg/files/products/4662/10201_1.gif",
+      "price_bgn": 56.0,
+      "price_eur": 28.63,
+      "currency_source": "BGN",
+      "availability_status": "unknown",
+      "weight_grams": null,
+      "servings": null,
+      "count": 250,
+      "active": {
+        "vitamin_c_mg": 500
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000mg_vitamin_c": 0.45
+      },
+      "unit_label": "лв / 1000 mg витамин C",
+      "confidence": "high",
+      "scraped_at": "2026-05-22T09:19:44.168392Z",
+      "old_price_bgn": 70.0,
+      "discount_pct": 20,
+      "promo_label": "-20%",
+      "price_history": [
+        {
+          "date": "2026-05-22",
+          "price_bgn": 56.0,
+          "price_eur": 28.63,
+          "unit_value": 0.45
+        }
+      ]
+    },
+    {
+      "id": "fhl-vitamin-c-with-rose-hips-amix-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "Vitamin C /with Rose Hips — AMIX — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "vitamin_c",
+      "url": "https://www.fhl.bg/products/product/2109/vitamin-c-with-rose-hips.html",
+      "image": "https://www.fhl.bg/files/products/2109/11455_1.jpg",
+      "price_bgn": 22.0,
+      "price_eur": 11.25,
+      "currency_source": "BGN",
+      "availability_status": "unknown",
+      "weight_grams": null,
+      "servings": null,
+      "count": 100,
+      "active": {
+        "vitamin_c_mg": 500
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000mg_vitamin_c": 0.44
+      },
+      "unit_label": "лв / 1000 mg витамин C",
+      "confidence": "high",
+      "scraped_at": "2026-05-22T09:19:45.123132Z",
+      "price_history": [
+        {
+          "date": "2026-05-22",
+          "price_bgn": 22.0,
+          "price_eur": 11.25,
+          "unit_value": 0.44
+        }
+      ]
+    },
+    {
+      "id": "fhl-100-vitamin-c-powder-swanson-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "100% Vitamin C Powder — Swanson — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "vitamin_c",
+      "url": "https://www.fhl.bg/products/product/4698/100-vitamin-c-powder.html",
+      "image": "https://www.fhl.bg/files/products/4698/11800_1.jpg",
+      "price_bgn": 50.7,
+      "price_eur": 25.92,
+      "currency_source": "BGN",
+      "availability_status": "unknown",
+      "weight_grams": 454.0,
+      "servings": 454,
+      "count": null,
+      "active": {
+        "vitamin_c_mg": 1000
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000mg_vitamin_c": 0.11
+      },
+      "unit_label": "лв / 1000 mg витамин C",
+      "confidence": "high",
+      "scraped_at": "2026-05-22T09:19:46.049822Z",
+      "price_history": [
+        {
+          "date": "2026-05-22",
+          "price_bgn": 50.7,
+          "price_eur": 25.92,
+          "unit_value": 0.11
+        }
+      ]
+    },
+    {
+      "id": "fhl-vitamin-d-3-400-iu-liquid-now-foods-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "Vitamin D-3 400 IU Liquid — Now Foods — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "vitamin_d",
+      "url": "https://www.fhl.bg/products/product/3663/vitamin-d-3-400-iu-liquid.html",
+      "image": "https://www.fhl.bg/files/products/3663/11925_1.jpg",
+      "price_bgn": 22.41,
+      "price_eur": 11.46,
+      "currency_source": "BGN",
+      "availability_status": "unknown",
+      "weight_grams": 2013.0,
+      "servings": null,
+      "count": 120,
+      "active": {
+        "vitamin_d_iu": 1000
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000iu_d3": 0.19
+      },
+      "unit_label": "лв / 1000 IU D3",
+      "confidence": "high",
+      "scraped_at": "2026-05-22T09:19:53.567267Z",
+      "old_price_bgn": 36.01,
+      "discount_pct": 20,
+      "promo_label": "-20%",
+      "price_history": [
+        {
+          "date": "2026-05-22",
+          "price_bgn": 22.41,
+          "price_eur": 11.46,
+          "unit_value": 0.19
+        }
+      ]
+    },
+    {
+      "id": "fhl-calcium-d3-k2-90--tab-sfd-nutrition-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "CALCIUM D3 K2 90 -TAB — SFD NUTRITION — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "vitamin_d",
+      "url": "https://www.fhl.bg/products/product/6175/calcium-d3-k2-90-tab.html",
+      "image": "https://www.fhl.bg/files/products/6175/11193_1.jpg",
+      "price_bgn": 14.49,
+      "price_eur": 7.41,
+      "currency_source": "BGN",
+      "availability_status": "unknown",
+      "weight_grams": null,
+      "servings": null,
+      "count": 90,
+      "active": {
+        "vitamin_d_iu": 400
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000iu_d3": 0.4
+      },
+      "unit_label": "лв / 1000 IU D3",
+      "confidence": "high",
+      "scraped_at": "2026-05-22T09:19:54.523320Z",
+      "price_history": [
+        {
+          "date": "2026-05-22",
+          "price_bgn": 14.49,
+          "price_eur": 7.41,
+          "unit_value": 0.4
+        }
+      ]
+    },
+    {
+      "id": "fhl-vitamin-d-3-1000-iu-180-softgels-now-foods-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "Vitamin D-3 1000 IU 180 softgels — Now Foods — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "vitamin_d",
+      "url": "https://www.fhl.bg/products/product/3660/vitamin-d-3-1000-iu-180-softgels.html",
+      "image": "https://www.fhl.bg/files/products/3660/10860_1.jpg",
+      "price_bgn": 20.0,
+      "price_eur": 10.23,
+      "currency_source": "BGN",
+      "availability_status": "unknown",
+      "weight_grams": null,
+      "servings": null,
+      "count": 180,
+      "active": {
+        "vitamin_d_iu": 1000
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000iu_d3": 0.11
+      },
+      "unit_label": "лв / 1000 IU D3",
+      "confidence": "high",
+      "scraped_at": "2026-05-22T09:19:54.987543Z",
+      "old_price_bgn": 25.0,
+      "discount_pct": 20,
+      "promo_label": "-20%",
+      "price_history": [
+        {
+          "date": "2026-05-22",
+          "price_bgn": 20.0,
+          "price_eur": 10.23,
+          "unit_value": 0.11
+        }
+      ]
+    },
+    {
+      "id": "fhl-vitamin-d-3-1000-iu-k2-45-mcg-120-vcaps-now-foods-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "Vitamin D-3 1000 IU & K2 45 mcg 120 vcaps — Now Foods — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "vitamin_d",
+      "url": "https://www.fhl.bg/products/product/6202/vitamin-d-3-1000-iu-k2-45-mcg-120-vcaps.html",
+      "image": "https://www.fhl.bg/files/products/6202/11226_1.jpg",
+      "price_bgn": 28.81,
+      "price_eur": 14.73,
+      "currency_source": "BGN",
+      "availability_status": "unknown",
+      "weight_grams": null,
+      "servings": null,
+      "count": 120,
+      "active": {
+        "vitamin_d_iu": 1000
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000iu_d3": 0.24
+      },
+      "unit_label": "лв / 1000 IU D3",
+      "confidence": "high",
+      "scraped_at": "2026-05-22T09:19:55.596904Z",
+      "old_price_bgn": 36.01,
+      "discount_pct": 20,
+      "promo_label": "-20%",
+      "price_history": [
+        {
+          "date": "2026-05-22",
+          "price_bgn": 28.81,
+          "price_eur": 14.73,
+          "unit_value": 0.24
+        }
+      ]
+    },
+    {
+      "id": "fhl-vitamin-d3-250-caps-scitec-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "Vitamin D3 / 250 Caps. — Scitec — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "vitamin_d",
+      "url": "https://www.fhl.bg/products/product/5439/vitamin-d3-250-caps.html",
+      "image": "https://www.fhl.bg/files/products/5439/9836_1.jpg",
+      "price_bgn": 32.99,
+      "price_eur": 16.87,
+      "currency_source": "BGN",
+      "availability_status": "unknown",
+      "weight_grams": null,
+      "servings": null,
+      "count": 250,
+      "active": {
+        "vitamin_d_iu": 1000
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000iu_d3": 0.13
+      },
+      "unit_label": "лв / 1000 IU D3",
+      "confidence": "high",
+      "scraped_at": "2026-05-22T09:19:56.314205Z",
+      "price_history": [
+        {
+          "date": "2026-05-22",
+          "price_bgn": 32.99,
+          "price_eur": 16.87,
+          "unit_value": 0.13
+        }
+      ]
+    },
+    {
+      "id": "fhl-vitamin-d-3-1-000-iu-high-potency-360-softgels-now-foods-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "Vitamin D-3 1,000 IU High Potency 360 Softgels — Now Foods — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "vitamin_d",
+      "url": "https://www.fhl.bg/products/product/6238/vitamin-d-3-1000-iu-high-potency-360-softgels.html",
+      "image": "https://www.fhl.bg/files/products/6238/11264_1.jpg",
+      "price_bgn": 38.4,
+      "price_eur": 19.63,
+      "currency_source": "BGN",
+      "availability_status": "unknown",
+      "weight_grams": null,
+      "servings": null,
+      "count": 360,
+      "active": {
+        "vitamin_d_iu": 1000
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000iu_d3": 0.11
+      },
+      "unit_label": "лв / 1000 IU D3",
+      "confidence": "high",
+      "scraped_at": "2026-05-22T09:19:57.474687Z",
+      "old_price_bgn": 48.0,
+      "discount_pct": 20,
+      "promo_label": "-20%",
+      "price_history": [
+        {
+          "date": "2026-05-22",
+          "price_bgn": 38.4,
+          "price_eur": 19.63,
+          "unit_value": 0.11
+        }
+      ]
+    },
+    {
+      "id": "fhl-vitamin-d-3-400-iu-now-foods-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "VITAMIN D-3 400 IU — Now Foods — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "vitamin_d",
+      "url": "https://www.fhl.bg/products/product/1032/vitamin-d-3-400-iu.html",
+      "image": "https://www.fhl.bg/files/products/1032/10861_1.jpg",
+      "price_bgn": 16.8,
+      "price_eur": 8.59,
+      "currency_source": "BGN",
+      "availability_status": "unknown",
+      "weight_grams": null,
+      "servings": null,
+      "count": 180,
+      "active": {
+        "vitamin_d_iu": 1000
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000iu_d3": 0.09
+      },
+      "unit_label": "лв / 1000 IU D3",
+      "confidence": "high",
+      "scraped_at": "2026-05-22T09:19:58.245484Z",
+      "old_price_bgn": 25.0,
+      "discount_pct": 20,
+      "promo_label": "-20%",
+      "price_history": [
+        {
+          "date": "2026-05-22",
+          "price_bgn": 16.8,
+          "price_eur": 8.59,
+          "unit_value": 0.09
+        }
+      ]
+    },
+    {
+      "id": "fhl-vitamin-d-3-1000-iu-chewable-now-foods-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "VITAMIN D-3 1000 IU chewable — Now Foods — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "vitamin_d",
+      "url": "https://www.fhl.bg/products/product/1033/vitamin-d-3-1000-iu-chewable.html",
+      "image": "https://www.fhl.bg/files/products/1033/8634_1.jpg",
+      "price_bgn": 24.0,
+      "price_eur": 12.27,
+      "currency_source": "BGN",
+      "availability_status": "unknown",
+      "weight_grams": null,
+      "servings": null,
+      "count": 250,
+      "active": {
+        "vitamin_d_iu": 1000
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000iu_d3": 0.1
+      },
+      "unit_label": "лв / 1000 IU D3",
+      "confidence": "high",
+      "scraped_at": "2026-05-22T09:19:58.615788Z",
+      "old_price_bgn": 30.0,
+      "discount_pct": 20,
+      "promo_label": "-20%",
+      "price_history": [
+        {
+          "date": "2026-05-22",
+          "price_bgn": 24.0,
+          "price_eur": 12.27,
+          "unit_value": 0.1
+        }
+      ]
+    },
+    {
+      "id": "fhl-folic-acid-витамин-b-9-now-foods-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "Folic Acid/Витамин B-9 — Now Foods — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "vitamin_b",
+      "url": "https://www.fhl.bg/products/product/1017/folic-acid-vitamin-b-9.html",
+      "image": "https://www.fhl.bg/files/products/1017/10449_1.jpg",
+      "price_bgn": 17.6,
+      "price_eur": 9.0,
+      "currency_source": "BGN",
+      "availability_status": "unknown",
+      "weight_grams": null,
+      "servings": null,
+      "count": 250,
+      "active": {
+        "b_complex_serving": 1
+      },
+      "price_per_active_unit": {
+        "bgn_per_b_complex_serving": 0.07
+      },
+      "unit_label": "лв / доза B-комплекс",
+      "confidence": "medium",
+      "scraped_at": "2026-05-22T09:20:00.005707Z",
+      "old_price_bgn": 22.0,
+      "discount_pct": 20,
+      "promo_label": "-20%",
+      "price_history": [
+        {
+          "date": "2026-05-22",
+          "price_bgn": 17.6,
+          "price_eur": 9.0,
+          "unit_value": 0.07
+        }
+      ]
+    },
+    {
+      "id": "fhl-fully-active-folate-doctor-s-best-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "Fully Active Folate — DOCTOR'S BEST — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "vitamin_b",
+      "url": "https://www.fhl.bg/products/product/5061/fully-active-folate.html",
+      "image": "https://www.fhl.bg/files/products/5061/9180_1.jpg",
+      "price_bgn": 35.69,
+      "price_eur": 18.25,
+      "currency_source": "BGN",
+      "availability_status": "unknown",
+      "weight_grams": null,
+      "servings": null,
+      "count": 90,
+      "active": {
+        "b_complex_serving": 1
+      },
+      "price_per_active_unit": {
+        "bgn_per_b_complex_serving": 0.4
+      },
+      "unit_label": "лв / доза B-комплекс",
+      "confidence": "medium",
+      "scraped_at": "2026-05-22T09:20:01.703163Z",
+      "price_history": [
+        {
+          "date": "2026-05-22",
+          "price_bgn": 35.69,
+          "price_eur": 18.25,
+          "unit_value": 0.4
+        }
+      ]
+    },
+    {
+      "id": "fhl-folic-acid-800mcg-250-vtabs-haya-labs-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "Folic Acid 800mcg. / 250 Vtabs. — Haya labs — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "vitamin_b",
+      "url": "https://www.fhl.bg/products/product/3170/folic-acid-800mcg-250-vtabs.html",
+      "image": "https://www.fhl.bg/files/products/3170/11657_1.jpg",
+      "price_bgn": 17.99,
+      "price_eur": 9.2,
+      "currency_source": "BGN",
+      "availability_status": "unknown",
+      "weight_grams": null,
+      "servings": null,
+      "count": 2,
+      "active": {
+        "b_complex_serving": 1
+      },
+      "price_per_active_unit": {
+        "bgn_per_b_complex_serving": 8.99
+      },
+      "unit_label": "лв / доза B-комплекс",
+      "confidence": "medium",
+      "scraped_at": "2026-05-22T09:20:02.137949Z",
+      "price_history": [
+        {
+          "date": "2026-05-22",
+          "price_bgn": 17.99,
+          "price_eur": 9.2,
+          "unit_value": 8.99
+        }
+      ]
+    },
+    {
+      "id": "fhl-метилфолат-natural-factors-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "Метилфолат — Natural Factors — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "vitamin_b",
+      "url": "https://www.fhl.bg/products/product/5367/metilfolat.html",
+      "image": "https://www.fhl.bg/files/products/5367/9553_1.jpg",
+      "price_bgn": 48.99,
+      "price_eur": 25.05,
+      "currency_source": "BGN",
+      "availability_status": "unknown",
+      "weight_grams": null,
+      "servings": null,
+      "count": 1,
+      "active": {
+        "b_complex_serving": 1
+      },
+      "price_per_active_unit": {
+        "bgn_per_b_complex_serving": 48.99
+      },
+      "unit_label": "лв / доза B-комплекс",
+      "confidence": "medium",
+      "scraped_at": "2026-05-22T09:20:02.273442Z",
+      "price_history": [
+        {
+          "date": "2026-05-22",
+          "price_bgn": 48.99,
+          "price_eur": 25.05,
+          "unit_value": 48.99
+        }
+      ]
+    },
+    {
+      "id": "fhl-folian-quatrefolic-800mcg---30-caps-swanson-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "Folian Quatrefolic 800mcg - 30 Caps — Swanson — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "vitamin_b",
+      "url": "https://www.fhl.bg/products/product/6019/folian-quatrefolic-800mcg-30-caps.html",
+      "image": "https://www.fhl.bg/files/products/6019/10988_1.jpg",
+      "price_bgn": 23.51,
+      "price_eur": 12.02,
+      "currency_source": "BGN",
+      "availability_status": "unknown",
+      "weight_grams": null,
+      "servings": 30,
+      "count": 30,
+      "active": {
+        "b_complex_serving": 1
+      },
+      "price_per_active_unit": {
+        "bgn_per_b_complex_serving": 0.78
+      },
+      "unit_label": "лв / доза B-комплекс",
+      "confidence": "medium",
+      "scraped_at": "2026-05-22T09:20:03.102195Z",
+      "price_history": [
+        {
+          "date": "2026-05-22",
+          "price_bgn": 23.51,
+          "price_eur": 12.02,
+          "unit_value": 0.78
+        }
+      ]
+    },
+    {
+      "id": "fhl-inositol-600-mg-100-caps-osavi-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "Inositol 600 mg 100 caps — OSAVI — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "vitamin_b",
+      "url": "https://www.fhl.bg/products/product/6677/inositol-600-mg-100-caps.html",
+      "image": "https://www.fhl.bg/files/default.jpg",
+      "price_bgn": 31.63,
+      "price_eur": 16.17,
+      "currency_source": "BGN",
+      "availability_status": "unknown",
+      "weight_grams": null,
+      "servings": null,
+      "count": 100,
+      "active": {
+        "b_complex_serving": 1
+      },
+      "price_per_active_unit": {
+        "bgn_per_b_complex_serving": 0.32
+      },
+      "unit_label": "лв / доза B-комплекс",
+      "confidence": "medium",
+      "scraped_at": "2026-05-22T09:20:04.550981Z",
+      "old_price_bgn": 35.95,
+      "discount_pct": 12,
+      "promo_label": "-12%",
+      "price_history": [
+        {
+          "date": "2026-05-22",
+          "price_bgn": 31.63,
+          "price_eur": 16.17,
+          "unit_value": 0.32
+        }
+      ]
+    },
+    {
+      "id": "fhl-витамин-в-5-pantothenic-acid-now-foods-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "Витамин В-5 /Pantothenic Acid — Now Foods — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "vitamin_b",
+      "url": "https://www.fhl.bg/products/product/1016/vitamin-v-5-pantothenic-acid.html",
+      "image": "https://www.fhl.bg/files/products/1016/4752_1.jpg",
+      "price_bgn": 25.6,
+      "price_eur": 13.09,
+      "currency_source": "BGN",
+      "availability_status": "unknown",
+      "weight_grams": null,
+      "servings": null,
+      "count": 100,
+      "active": {
+        "b_complex_serving": 1
+      },
+      "price_per_active_unit": {
+        "bgn_per_b_complex_serving": 0.26
+      },
+      "unit_label": "лв / доза B-комплекс",
+      "confidence": "medium",
+      "scraped_at": "2026-05-22T09:20:05.909859Z",
+      "old_price_bgn": 32.0,
+      "discount_pct": 20,
+      "promo_label": "-20%",
+      "price_history": [
+        {
+          "date": "2026-05-22",
+          "price_bgn": 25.6,
+          "price_eur": 13.09,
+          "unit_value": 0.26
+        }
+      ]
+    },
+    {
+      "id": "fhl-vitamin-b5-pantothenic-acid-bioherba-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "Vitamin B5 (Pantothenic Acid) — BIOHERBA — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "vitamin_b",
+      "url": "https://www.fhl.bg/products/product/6267/vitamin-b5-pantothenic-acid.html",
+      "image": "https://www.fhl.bg/files/products/6267/11632_1.jpg",
+      "price_bgn": 16.0,
+      "price_eur": 8.18,
+      "currency_source": "BGN",
+      "availability_status": "unknown",
+      "weight_grams": null,
+      "servings": null,
+      "count": 100,
+      "active": {
+        "b_complex_serving": 1
+      },
+      "price_per_active_unit": {
+        "bgn_per_b_complex_serving": 0.16
+      },
+      "unit_label": "лв / доза B-комплекс",
+      "confidence": "medium",
+      "scraped_at": "2026-05-22T09:20:06.020306Z",
+      "old_price_bgn": 32.0,
+      "discount_pct": 50,
+      "promo_label": "-50%",
+      "price_history": [
+        {
+          "date": "2026-05-22",
+          "price_bgn": 16.0,
+          "price_eur": 8.18,
+          "unit_value": 0.16
+        }
+      ]
+    },
+    {
+      "id": "fhl-multivitamin-for-women-biotech-usa-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "Multivitamin for women — BioTech USA — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "multivitamin",
+      "url": "https://www.fhl.bg/products/product/1741/multivitamin-for-women.html",
+      "image": "https://www.fhl.bg/files/products/1741/11079_1.jpg",
+      "price_bgn": 33.25,
+      "price_eur": 17.0,
+      "currency_source": "BGN",
+      "availability_status": "unknown",
+      "weight_grams": null,
+      "servings": 30,
+      "count": 60,
+      "active": {
+        "multivitamin_serving": 1
+      },
+      "price_per_active_unit": {
+        "bgn_per_multivitamin_serving": 1.11
+      },
+      "unit_label": "лв / доза мултивитамин",
+      "confidence": "medium",
+      "scraped_at": "2026-05-22T09:20:09.010526Z",
+      "price_history": [
+        {
+          "date": "2026-05-22",
+          "price_bgn": 33.25,
+          "price_eur": 17.0,
+          "unit_value": 1.11
+        }
+      ]
+    },
+    {
+      "id": "fhl-one-a-day-biotech-usa-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "One-a-Day — BioTech USA — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "multivitamin",
+      "url": "https://www.fhl.bg/products/product/3809/one-a-day.html",
+      "image": "https://www.fhl.bg/files/products/3809/11075_1.jpg",
+      "price_bgn": 31.29,
+      "price_eur": 16.0,
+      "currency_source": "BGN",
+      "availability_status": "unknown",
+      "weight_grams": null,
+      "servings": null,
+      "count": 100,
+      "active": {
+        "multivitamin_serving": 1
+      },
+      "price_per_active_unit": {
+        "bgn_per_multivitamin_serving": 0.31
+      },
+      "unit_label": "лв / доза мултивитамин",
+      "confidence": "medium",
+      "scraped_at": "2026-05-22T09:20:09.376747Z",
+      "old_price_bgn": 52.01,
+      "discount_pct": 40,
+      "promo_label": "-40%",
+      "price_history": [
+        {
+          "date": "2026-05-22",
+          "price_bgn": 31.29,
+          "price_eur": 16.0,
+          "unit_value": 0.31
+        }
+      ]
+    },
+    {
+      "id": "fhl-opti-women---60-капсули-optimum-nutrition-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "Opti-Women - 60 капсули — Optimum Nutrition — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "multivitamin",
+      "url": "https://www.fhl.bg/products/product/242/opti-women-60-kapsuli.html",
+      "image": "https://www.fhl.bg/files/products/242/4710_1.jpg",
+      "price_bgn": 43.79,
+      "price_eur": 22.39,
+      "currency_source": "BGN",
+      "availability_status": "unknown",
+      "weight_grams": null,
+      "servings": 30,
+      "count": 60,
+      "active": {
+        "multivitamin_serving": 1
+      },
+      "price_per_active_unit": {
+        "bgn_per_multivitamin_serving": 1.46
+      },
+      "unit_label": "лв / доза мултивитамин",
+      "confidence": "medium",
+      "scraped_at": "2026-05-22T09:20:10.311664Z",
+      "old_price_bgn": 54.74,
+      "discount_pct": 20,
+      "promo_label": "-20%",
+      "price_history": [
+        {
+          "date": "2026-05-22",
+          "price_bgn": 43.79,
+          "price_eur": 22.39,
+          "unit_value": 1.46
+        }
+      ]
+    },
+    {
+      "id": "fhl-orange-triad---270-таблетки-controlled-labs-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "Orange Triad - 270 таблетки — Controlled Labs — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "multivitamin",
+      "url": "https://www.fhl.bg/products/product/52/orange-triad-270-tabletki.html",
+      "image": "https://www.fhl.bg/files/products/52/10664_1.jpg",
+      "price_bgn": 88.81,
+      "price_eur": 45.41,
+      "currency_source": "BGN",
+      "availability_status": "unknown",
+      "weight_grams": null,
+      "servings": 45,
+      "count": 270,
+      "active": {
+        "multivitamin_serving": 1
+      },
+      "price_per_active_unit": {
+        "bgn_per_multivitamin_serving": 1.97
+      },
+      "unit_label": "лв / доза мултивитамин",
+      "confidence": "medium",
+      "scraped_at": "2026-05-22T09:20:10.767115Z",
+      "old_price_bgn": 144.01,
+      "discount_pct": 26,
+      "promo_label": "-26%",
+      "price_history": [
+        {
+          "date": "2026-05-22",
+          "price_bgn": 88.81,
+          "price_eur": 45.41,
+          "unit_value": 1.97
+        }
+      ]
+    },
+    {
+      "id": "fhl-adam-men-s-vitamins---90-капсули-now-foods-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "ADAM Men's Vitamins - 90 капсули — Now Foods — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "multivitamin",
+      "url": "https://www.fhl.bg/products/product/195/adam-mens-vitamins-90-kapsuli.html",
+      "image": "https://www.fhl.bg/files/products/195/10130_1.gif",
+      "price_bgn": 48.0,
+      "price_eur": 24.54,
+      "currency_source": "BGN",
+      "availability_status": "unknown",
+      "weight_grams": null,
+      "servings": null,
+      "count": 90,
+      "active": {
+        "multivitamin_serving": 1
+      },
+      "price_per_active_unit": {
+        "bgn_per_multivitamin_serving": 0.53
+      },
+      "unit_label": "лв / доза мултивитамин",
+      "confidence": "medium",
+      "scraped_at": "2026-05-22T09:20:11.554700Z",
+      "old_price_bgn": 60.0,
+      "discount_pct": 20,
+      "promo_label": "-20%",
+      "price_history": [
+        {
+          "date": "2026-05-22",
+          "price_bgn": 48.0,
+          "price_eur": 24.54,
+          "unit_value": 0.53
+        }
+      ]
+    },
+    {
+      "id": "fhl-food-based-women-s-multivitamin-60-tabs-haya-labs-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "Food Based Women’s Multivitamin 60 Tabs. — Haya labs — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "multivitamin",
+      "url": "https://www.fhl.bg/products/product/3172/food-based-womens-multivitamin-60-tabs.html",
+      "image": "https://www.fhl.bg/files/products/3172/11748_1.jpg",
+      "price_bgn": 32.0,
+      "price_eur": 16.36,
+      "currency_source": "BGN",
+      "availability_status": "unknown",
+      "weight_grams": null,
+      "servings": 30,
+      "count": 120,
+      "active": {
+        "multivitamin_serving": 1
+      },
+      "price_per_active_unit": {
+        "bgn_per_multivitamin_serving": 1.07
+      },
+      "unit_label": "лв / доза мултивитамин",
+      "confidence": "medium",
+      "scraped_at": "2026-05-22T09:20:12.241416Z",
+      "price_history": [
+        {
+          "date": "2026-05-22",
+          "price_bgn": 32.0,
+          "price_eur": 16.36,
+          "unit_value": 1.07
+        }
+      ]
+    },
+    {
+      "id": "fhl-vita-max-30-pac-everbuild-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "Vita Max 30 pac. — EverBuild — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "multivitamin",
+      "url": "https://www.fhl.bg/products/product/5539/vita-max-30-pac.html",
+      "image": "https://www.fhl.bg/files/products/5539/9757_1.jpg",
+      "price_bgn": 59.01,
+      "price_eur": 30.17,
+      "currency_source": "BGN",
+      "availability_status": "unknown",
+      "weight_grams": null,
+      "servings": null,
+      "count": 180,
+      "active": {
+        "multivitamin_serving": 1
+      },
+      "price_per_active_unit": {
+        "bgn_per_multivitamin_serving": 0.33
+      },
+      "unit_label": "лв / доза мултивитамин",
+      "confidence": "medium",
+      "scraped_at": "2026-05-22T09:20:12.913990Z",
+      "price_history": [
+        {
+          "date": "2026-05-22",
+          "price_bgn": 59.01,
+          "price_eur": 30.17,
+          "unit_value": 0.33
+        }
+      ]
+    },
+    {
+      "id": "fhl-протеин-и-креатин-комбинация-4-1-stack-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "Протеин и креатин комбинация 4 — 1 Stack — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "protein",
+      "url": "https://www.fhl.bg/products/product/4948/protein-i-kreatin-kombinaciq-4.html",
+      "image": "https://www.fhl.bg/files/products/4948/10345_1.jpg",
+      "price_bgn": 152.01,
+      "price_eur": 77.72,
+      "currency_source": "BGN",
+      "availability_status": "unknown",
+      "weight_grams": 300.0,
+      "servings": 14,
+      "count": null,
+      "active": {
+        "estimated_total_protein_g": 255.0,
+        "estimated_protein_ratio_pct": 85
+      },
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 14.9
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "low",
+      "scraped_at": "2026-05-22T09:20:17.404730Z",
+      "old_price_bgn": 195.99,
+      "discount_pct": 22,
+      "promo_label": "-22%",
+      "price_history": [
+        {
+          "date": "2026-05-22",
+          "price_bgn": 152.01,
+          "price_eur": 77.72,
+          "unit_value": 14.9
+        }
+      ]
+    },
+    {
+      "id": "fhl-beef-protein-100-hydrolysed-applied-nutrition-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "Beef Protein 100% Hydrolysed — Applied Nutrition — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "protein",
+      "url": "https://www.fhl.bg/products/product/6457/beef-protein-100-hydrolysed.html",
+      "image": "https://www.fhl.bg/files/products/6457/11681_1.jpg",
+      "price_bgn": 124.0,
+      "price_eur": 63.4,
+      "currency_source": "BGN",
+      "availability_status": "unknown",
+      "weight_grams": 1800.0,
+      "servings": 60,
+      "count": null,
+      "active": {
+        "protein_g": 27.72
+      },
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 1.86
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "high",
+      "scraped_at": "2026-05-22T09:20:18.965578Z",
+      "old_price_bgn": 155.0,
+      "discount_pct": 20,
+      "promo_label": "-20%",
+      "price_history": [
+        {
+          "date": "2026-05-22",
+          "price_bgn": 124.0,
+          "price_eur": 63.4,
+          "unit_value": 1.86
+        }
+      ]
+    },
+    {
+      "id": "fhl-ultra-premium-100-beef-isolate-everbuild-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "Ultra Premium 100% Beef Isolate — EverBuild — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "protein",
+      "url": "https://www.fhl.bg/products/product/5541/ultra-premium-100-beef-isolate.html",
+      "image": "https://www.fhl.bg/files/products/5541/12105_1.jpg",
+      "price_bgn": 68.0,
+      "price_eur": 34.77,
+      "currency_source": "BGN",
+      "availability_status": "unknown",
+      "weight_grams": 908.0,
+      "servings": null,
+      "count": null,
+      "active": {
+        "estimated_total_protein_g": 771.8,
+        "estimated_protein_ratio_pct": 85
+      },
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 2.2
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "low",
+      "scraped_at": "2026-05-22T09:20:19.772073Z",
+      "price_history": [
+        {
+          "date": "2026-05-22",
+          "price_bgn": 68.0,
+          "price_eur": 34.77,
+          "unit_value": 2.2
+        }
+      ]
+    },
+    {
+      "id": "fhl-carnivor-beef-protein-isolate-4-lb-musclemeds-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "Carnivor Beef Protein Isolate 4 lb — MuscleMeds — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "protein",
+      "url": "https://www.fhl.bg/products/product/1031/carnivor-beef-protein-isolate-4-lb.html",
+      "image": "https://www.fhl.bg/files/products/1031/12190_1.jpg",
+      "price_bgn": 144.2,
+      "price_eur": 73.73,
+      "currency_source": "BGN",
+      "availability_status": "unknown",
+      "weight_grams": 2000.0,
+      "servings": 48,
+      "count": null,
+      "active": {
+        "estimated_total_protein_g": 1000.0,
+        "estimated_protein_ratio_pct": 50
+      },
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 3.6
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "medium",
+      "scraped_at": "2026-05-22T09:20:19.760915Z",
+      "old_price_bgn": 197.54,
+      "discount_pct": 27,
+      "promo_label": "-27%",
+      "price_history": [
+        {
+          "date": "2026-05-22",
+          "price_bgn": 144.2,
+          "price_eur": 73.73,
+          "unit_value": 3.6
+        }
+      ]
+    },
+    {
+      "id": "healthstore-gym-beam---true-whey---2500-g",
+      "store": "HealthStore",
+      "name": "GYM BEAM - True Whey - 2500 g",
+      "brand": "GYM BEAM",
+      "category": "protein",
+      "url": "https://healthstore.bg/gym-beam-true-whey-2500-g",
+      "image": "https://healthstore.bg/image/cache/cache/data/-GYM BEAM/GB9822-600x600-600x300.jpg",
+      "price_bgn": 142.4,
+      "price_eur": 72.81,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 2500.0,
+      "servings": 83,
+      "count": 60,
+      "active": {
+        "protein_g": 22
+      },
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 1.95
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "high",
+      "scraped_at": "2026-05-22T09:21:58.854097Z",
+      "promo_label": "-20%",
+      "price_history": [
+        {
+          "date": "2026-05-22",
+          "price_bgn": 142.4,
+          "price_eur": 72.81,
+          "unit_value": 1.95
+        }
+      ]
     }
   ]
 }

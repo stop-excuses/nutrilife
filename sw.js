@@ -1,4 +1,4 @@
-const CACHE_NAME = 'nutrilife-v28';
+const CACHE_NAME = 'nutrilife-v29';
 const OFFLINE_URL = 'offline.html';
 const APP_SHELL = [
   './',
@@ -14,7 +14,7 @@ const APP_SHELL = [
   OFFLINE_URL,
   'manifest.json',
   'favicon.svg',
-  'css/style.css?v=35',
+  'css/style.css?v=36',
   'js/main.js?v=17',
   'images/pwa/icon-192.png',
   'images/pwa/icon-512.png',

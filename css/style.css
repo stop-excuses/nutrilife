@@ -3389,6 +3389,27 @@ body.fav-product-open {
     font-weight: 700;
 }
 
+.supplement-price-history {
+    display: grid;
+    gap: 4px;
+    margin-top: 10px;
+    padding: 9px 10px;
+    border: 1px solid rgba(186, 117, 23, 0.28);
+    border-radius: 8px;
+    background: rgba(0,0,0,0.16);
+}
+
+.supplement-price-history span,
+.supplement-price-history small {
+    color: var(--muted);
+    font-size: 0.76rem;
+}
+
+.supplement-price-history strong {
+    color: var(--amber);
+    font-size: 1rem;
+}
+
 .supplement-card h3 {
     margin: 10px 0;
     color: var(--text);
