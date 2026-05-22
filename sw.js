@@ -1,4 +1,4 @@
-const CACHE_NAME = 'nutrilife-v24';
+const CACHE_NAME = 'nutrilife-v25';
 const OFFLINE_URL = 'offline.html';
 const APP_SHELL = [
   './',

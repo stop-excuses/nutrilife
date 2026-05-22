@@ -3146,6 +3146,70 @@ body.fav-product-open {
     align-items: center;
 }
 
+.product-controls-panel .supplements-filters {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 7px;
+    margin: 10px 0 0;
+    padding: 7px;
+    border: 1px solid rgba(240, 239, 232, 0.08);
+    border-radius: 8px;
+    background: rgba(10, 10, 10, 0.22);
+    scrollbar-width: thin;
+    scrollbar-color: rgba(186, 117, 23, 0.55) transparent;
+    -webkit-overflow-scrolling: touch;
+}
+
+.product-controls-panel .supplements-filters::-webkit-scrollbar {
+    height: 5px;
+}
+
+.product-controls-panel .supplements-filters::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.product-controls-panel .supplements-filters::-webkit-scrollbar-thumb {
+    border-radius: 999px;
+    background: rgba(186, 117, 23, 0.55);
+}
+
+.product-controls-panel .filter-btn,
+.product-controls-panel .sort-btn,
+.product-controls-panel .quality-toggle {
+    flex: 0 0 auto;
+    white-space: nowrap;
+}
+
+.product-controls-panel .filter-btn {
+    padding: 7px 12px;
+    font-size: 0.8rem;
+}
+
+.product-controls-panel .sort-btn {
+    padding: 7px 11px;
+    font-size: 0.78rem;
+}
+
+.filter-group-label {
+    position: sticky;
+    left: -7px;
+    z-index: 2;
+    flex: 0 0 auto;
+    align-self: stretch;
+    display: inline-flex;
+    align-items: center;
+    min-width: 78px;
+    padding: 0 9px;
+    border-right: 1px solid rgba(240, 239, 232, 0.08);
+    background: linear-gradient(90deg, rgba(20, 15, 8, 0.98) 0%, rgba(20, 15, 8, 0.92) 82%, rgba(20, 15, 8, 0));
+    color: var(--amber);
+    font-size: 0.72rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0;
+}
+
 .filter-label {
     color: var(--muted);
     font-size: 0.8rem;
@@ -6279,6 +6343,15 @@ section + section::before {
     border-color: rgba(0, 0, 0, 0.12);
 }
 
+[data-theme="light"] .product-controls-panel .supplements-filters {
+    background: rgba(245, 242, 232, 0.76);
+    border-color: rgba(30, 28, 22, 0.09);
+}
+
+[data-theme="light"] .filter-group-label {
+    background: linear-gradient(90deg, rgba(245, 242, 232, 0.98) 0%, rgba(245, 242, 232, 0.92) 82%, rgba(245, 242, 232, 0));
+}
+
 [data-theme="light"] .hero-product-chip {
     background: rgba(10, 10, 10, 0.74);
 }
@@ -6594,6 +6667,24 @@ section + section::before {
         padding: 14px;
         margin-left: -2px;
         margin-right: -2px;
+    }
+
+    .filter-group-label {
+        min-width: 64px;
+        padding: 0 7px;
+        font-size: 0.66rem;
+    }
+
+    .product-controls-panel .filter-btn,
+    .product-controls-panel .sort-btn {
+        padding: 7px 10px;
+        font-size: 0.76rem;
+    }
+
+    .product-controls-panel .quality-toggle {
+        gap: 7px;
+        padding: 7px 9px;
+        font-size: 0.76rem;
     }
 
     .tier-section-toggle {
