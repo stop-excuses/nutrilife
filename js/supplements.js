@@ -97,10 +97,15 @@
         const unitKey = Object.keys(item.price_per_active_unit || {})[0] || '';
         const unitValue = unitKey ? Number(item.price_per_active_unit[unitKey]) : null;
         const formInfo = detectFormInfo(item);
+        const oldPrice = Number(item.old_price_bgn);
+        const discountPct = Number(item.discount_pct);
         return {
             ...item,
             unitKey,
             unitValue: Number.isFinite(unitValue) ? unitValue : null,
+            old_price_bgn: Number.isFinite(oldPrice) && oldPrice > Number(item.price_bgn) ? oldPrice : null,
+            discount_pct: Number.isFinite(discountPct) && discountPct > 0 ? Math.round(discountPct) : null,
+            promo_label: item.promo_label || '',
             formInfo,
             availability_status: normalizeAvailability(item.availability_status),
             searchText: [
@@ -109,6 +114,7 @@
                 item.store,
                 item.category,
                 item.unit_label,
+                item.promo_label,
                 formInfo.label,
                 Object.values(item.active || {}).join(' ')
             ].filter(Boolean).join(' ').toLowerCase()
@@ -401,6 +407,8 @@
         const outboundUrl = buildOutboundUrl(item.url, item);
         const valueBadge = getValueBadge(item);
         const tradeoffBadge = getTradeoffBadge(item, valueBadge);
+        const promoBadge = renderPromoBadge(item);
+        const oldPriceFact = item.old_price_bgn ? `<span>Стара цена: <strong>${formatMoney(item.old_price_bgn)}</strong></span>` : '';
 
         return `
             <article class="supplement-card">
@@ -410,6 +418,7 @@
                         <div class="supplement-meta">
                             <span>${escapeHtml(categoryLabels[item.category] || item.category)}</span>
                             <span>${escapeHtml(item.store)}</span>
+                            ${promoBadge}
                         </div>
                         <h3>${escapeHtml(item.name)}</h3>
                         <div class="supplement-price-row">
@@ -423,6 +432,7 @@
                         </div>
                         <div class="supplement-facts">
                             <span>Цена: <strong>${formatMoney(item.price_bgn)}</strong></span>
+                            ${oldPriceFact}
                             <span class="availability-pill ${escapeAttr(item.availability_status)}">Наличност: <strong>${escapeHtml(availabilityLabels[item.availability_status] || 'непотвърдена')}</strong></span>
                             ${item.brand ? `<span>Марка: <strong>${escapeHtml(item.brand)}</strong></span>` : ''}
                             ${item.servings ? `<span>Приеми: <strong>${item.servings}</strong></span>` : ''}
@@ -439,6 +449,12 @@
                 </div>
             </article>
         `;
+    }
+
+    function renderPromoBadge(item) {
+        if (!item.old_price_bgn && !item.discount_pct && !item.promo_label) return '';
+        const label = item.discount_pct ? `Промо -${item.discount_pct}%` : (item.promo_label ? `Промо ${item.promo_label}` : 'Промо');
+        return `<span class="supplement-promo-badge">${escapeHtml(label)}</span>`;
     }
 
     function renderProteinWarning(item) {

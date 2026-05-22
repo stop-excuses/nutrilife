@@ -1,14 +1,16 @@
 const SUPPLEMENTS_DATA = {
-  "generated_at": "2026-05-21T18:46:22.877160Z",
-  "total_supplements": 266,
+  "generated_at": "2026-05-22T08:48:52.953016Z",
+  "total_supplements": 333,
   "sources": [
+    "FHL",
     "Fitness1",
     "Framar",
     "GymBeam",
     "HealthStore",
     "MyPharmacy",
     "Remedium",
-    "SilaBG"
+    "SilaBG",
+    "Stayfit"
   ],
   "categories": [
     "creatine",
@@ -6748,6 +6750,1777 @@ const SUPPLEMENTS_DATA = {
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
       "scraped_at": "2026-05-21T18:46:22.869656Z"
+    },
+    {
+      "id": "fhl-vita-sport-everbuild-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "Vita Sport — EverBuild — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "multivitamin",
+      "url": "https://www.fhl.bg/products/product/5773/vita-sport.html",
+      "image": "https://www.fhl.bg/files/products/5773/12091_1.jpg",
+      "price_bgn": 115.21,
+      "price_eur": 58.91,
+      "currency_source": "BGN",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": null,
+      "count": 90,
+      "active": {
+        "multivitamin_serving": 1
+      },
+      "price_per_active_unit": {
+        "bgn_per_multivitamin_serving": 1.28
+      },
+      "unit_label": "лв / доза мултивитамин",
+      "confidence": "medium",
+      "scraped_at": "2026-05-22T08:47:05.901103Z",
+      "old_price_bgn": 144.01,
+      "discount_pct": 20,
+      "promo_label": "-20%"
+    },
+    {
+      "id": "fhl-one-a-day-biotech-usa-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "One-a-Day — BioTech USA — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "multivitamin",
+      "url": "https://www.fhl.bg/products/product/3809/one-a-day.html",
+      "image": "https://www.fhl.bg/files/products/3809/11075_1.jpg",
+      "price_bgn": 67.2,
+      "price_eur": 34.36,
+      "currency_source": "BGN",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": null,
+      "count": 100,
+      "active": {
+        "multivitamin_serving": 1
+      },
+      "price_per_active_unit": {
+        "bgn_per_multivitamin_serving": 0.67
+      },
+      "unit_label": "лв / доза мултивитамин",
+      "confidence": "medium",
+      "scraped_at": "2026-05-22T08:47:06.613743Z",
+      "old_price_bgn": 84.0,
+      "discount_pct": 20,
+      "promo_label": "-20%"
+    },
+    {
+      "id": "fhl-multivitamin-for-women-biotech-usa-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "Multivitamin for women — BioTech USA — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "multivitamin",
+      "url": "https://www.fhl.bg/products/product/1741/multivitamin-for-women.html",
+      "image": "https://www.fhl.bg/files/products/1741/11079_1.jpg",
+      "price_bgn": 61.0,
+      "price_eur": 31.19,
+      "currency_source": "BGN",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": 30,
+      "count": 60,
+      "active": {
+        "multivitamin_serving": 1
+      },
+      "price_per_active_unit": {
+        "bgn_per_multivitamin_serving": 2.03
+      },
+      "unit_label": "лв / доза мултивитамин",
+      "confidence": "medium",
+      "scraped_at": "2026-05-22T08:47:08.106787Z"
+    },
+    {
+      "id": "fhl-opti-women---60-капсули-optimum-nutrition-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "Opti-Women - 60 капсули — Optimum Nutrition — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "multivitamin",
+      "url": "https://www.fhl.bg/products/product/242/opti-women-60-kapsuli.html",
+      "image": "https://www.fhl.bg/files/products/242/4710_1.jpg",
+      "price_bgn": 20.0,
+      "price_eur": 10.23,
+      "currency_source": "BGN",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": 30,
+      "count": 60,
+      "active": {
+        "multivitamin_serving": 1
+      },
+      "price_per_active_unit": {
+        "bgn_per_multivitamin_serving": 0.67
+      },
+      "unit_label": "лв / доза мултивитамин",
+      "confidence": "medium",
+      "scraped_at": "2026-05-22T08:47:08.338944Z",
+      "old_price_bgn": 25.0,
+      "discount_pct": 20,
+      "promo_label": "-20%"
+    },
+    {
+      "id": "fhl-orange-triad---270-таблетки-controlled-labs-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "Orange Triad - 270 таблетки — Controlled Labs — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "multivitamin",
+      "url": "https://www.fhl.bg/products/product/52/orange-triad-270-tabletki.html",
+      "image": "https://www.fhl.bg/files/products/52/10664_1.jpg",
+      "price_bgn": 92.41,
+      "price_eur": 47.25,
+      "currency_source": "BGN",
+      "availability_status": "in_stock",
+      "weight_grams": 342.0,
+      "servings": 45,
+      "count": 270,
+      "active": {
+        "multivitamin_serving": 1
+      },
+      "price_per_active_unit": {
+        "bgn_per_multivitamin_serving": 2.05
+      },
+      "unit_label": "лв / доза мултивитамин",
+      "confidence": "medium",
+      "scraped_at": "2026-05-22T08:47:09.505279Z",
+      "old_price_bgn": 105.01,
+      "discount_pct": 26,
+      "promo_label": "-26%"
+    },
+    {
+      "id": "fhl-adam-men-s-vitamins---90-капсули-now-foods-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "ADAM Men's Vitamins - 90 капсули — Now Foods — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "multivitamin",
+      "url": "https://www.fhl.bg/products/product/195/adam-mens-vitamins-90-kapsuli.html",
+      "image": "https://www.fhl.bg/files/products/195/10130_1.gif",
+      "price_bgn": 39.0,
+      "price_eur": 19.94,
+      "currency_source": "BGN",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": null,
+      "count": 90,
+      "active": {
+        "multivitamin_serving": 1
+      },
+      "price_per_active_unit": {
+        "bgn_per_multivitamin_serving": 0.43
+      },
+      "unit_label": "лв / доза мултивитамин",
+      "confidence": "medium",
+      "scraped_at": "2026-05-22T08:47:11.140676Z",
+      "promo_label": "-20%"
+    },
+    {
+      "id": "fhl-vita-max-30-pac-everbuild-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "Vita Max 30 pac. — EverBuild — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "multivitamin",
+      "url": "https://www.fhl.bg/products/product/5539/vita-max-30-pac.html",
+      "image": "https://www.fhl.bg/files/products/5539/9757_1.jpg",
+      "price_bgn": 49.6,
+      "price_eur": 25.36,
+      "currency_source": "BGN",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": null,
+      "count": 60,
+      "active": {
+        "multivitamin_serving": 1
+      },
+      "price_per_active_unit": {
+        "bgn_per_multivitamin_serving": 0.83
+      },
+      "unit_label": "лв / доза мултивитамин",
+      "confidence": "medium",
+      "scraped_at": "2026-05-22T08:47:11.204787Z",
+      "old_price_bgn": 62.0,
+      "discount_pct": 20,
+      "promo_label": "-20%"
+    },
+    {
+      "id": "fhl-протеин-и-креатин-комбинация-4-1-stack-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "Протеин и креатин комбинация 4 — 1 Stack — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "protein",
+      "url": "https://www.fhl.bg/products/product/4948/protein-i-kreatin-kombinaciq-4.html",
+      "image": "https://www.fhl.bg/files/products/4948/10345_1.jpg",
+      "price_bgn": 152.01,
+      "price_eur": 77.72,
+      "currency_source": "BGN",
+      "availability_status": "in_stock",
+      "weight_grams": 300.0,
+      "servings": 14,
+      "count": null,
+      "active": {
+        "estimated_total_protein_g": 255.0,
+        "estimated_protein_ratio_pct": 85
+      },
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 14.9
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "low",
+      "scraped_at": "2026-05-22T08:47:16.371299Z"
+    },
+    {
+      "id": "fhl-beef-protein-100-hydrolysed-applied-nutrition-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "Beef Protein 100% Hydrolysed — Applied Nutrition — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "protein",
+      "url": "https://www.fhl.bg/products/product/6457/beef-protein-100-hydrolysed.html",
+      "image": "https://www.fhl.bg/files/products/6457/11681_1.jpg",
+      "price_bgn": 83.01,
+      "price_eur": 42.44,
+      "currency_source": "BGN",
+      "availability_status": "in_stock",
+      "weight_grams": 1800.0,
+      "servings": 60,
+      "count": null,
+      "active": {
+        "protein_g": 27.72
+      },
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 1.25
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "high",
+      "scraped_at": "2026-05-22T08:47:18.648848Z",
+      "promo_label": "-20%"
+    },
+    {
+      "id": "fhl-carnivor-beef-protein-isolate-4-lb-musclemeds-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "Carnivor Beef Protein Isolate 4 lb — MuscleMeds — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "protein",
+      "url": "https://www.fhl.bg/products/product/1031/carnivor-beef-protein-isolate-4-lb.html",
+      "image": "https://www.fhl.bg/files/products/1031/12190_1.jpg",
+      "price_bgn": 68.0,
+      "price_eur": 34.77,
+      "currency_source": "BGN",
+      "availability_status": "in_stock",
+      "weight_grams": 2000.0,
+      "servings": 48,
+      "count": null,
+      "active": {
+        "estimated_total_protein_g": 1700.0,
+        "estimated_protein_ratio_pct": 85
+      },
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 1.0
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "low",
+      "scraped_at": "2026-05-22T08:47:18.814511Z",
+      "promo_label": "-27%"
+    },
+    {
+      "id": "fhl-vitamin-c-1000-250-gr-powder-sfd-nutrition-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "Vitamin C 1000 250 gr powder — SFD NUTRITION — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "vitamin_c",
+      "url": "https://www.fhl.bg/products/product/6311/vitamin-c-1000-250-gr-powder.html",
+      "image": "https://www.fhl.bg/files/products/6311/11355_1.jpg",
+      "price_bgn": 22.0,
+      "price_eur": 11.25,
+      "currency_source": "BGN",
+      "availability_status": "in_stock",
+      "weight_grams": 250.0,
+      "servings": 250,
+      "count": null,
+      "active": {
+        "vitamin_c_mg": 1000
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000mg_vitamin_c": 0.09
+      },
+      "unit_label": "лв / 1000 mg витамин C",
+      "confidence": "high",
+      "scraped_at": "2026-05-22T08:47:20.543455Z"
+    },
+    {
+      "id": "fhl-vitamin-c-1000---90tab-sfd-nutrition-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "VITAMIN C 1000 - 90TAB — SFD NUTRITION — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "vitamin_c",
+      "url": "https://www.fhl.bg/products/product/6173/vitamin-c-1000-90tab.html",
+      "image": "https://www.fhl.bg/files/products/6173/11191_1.jpg",
+      "price_bgn": 17.99,
+      "price_eur": 9.2,
+      "currency_source": "BGN",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": null,
+      "count": 90,
+      "active": {
+        "vitamin_c_mg": 1000
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000mg_vitamin_c": 0.2
+      },
+      "unit_label": "лв / 1000 mg витамин C",
+      "confidence": "high",
+      "scraped_at": "2026-05-22T08:47:21.640316Z"
+    },
+    {
+      "id": "fhl-vitamin-c-1000-sr---100-tab-now-foods-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "Vitamin C 1000 SR - 100 tab — Now Foods — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "vitamin_c",
+      "url": "https://www.fhl.bg/products/product/4663/vitamin-c-1000-sr-100-tab.html",
+      "image": "https://www.fhl.bg/files/products/4663/10200_1.gif",
+      "price_bgn": 15.0,
+      "price_eur": 7.67,
+      "currency_source": "BGN",
+      "availability_status": "in_stock",
+      "weight_grams": 1.0,
+      "servings": null,
+      "count": 100,
+      "active": {
+        "vitamin_c_mg": 500
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000mg_vitamin_c": 0.3
+      },
+      "unit_label": "лв / 1000 mg витамин C",
+      "confidence": "high",
+      "scraped_at": "2026-05-22T08:47:22.156215Z",
+      "promo_label": "-20%"
+    },
+    {
+      "id": "fhl-c-1000-bioflavanoids-100-caps-scitec-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "C-1000 + Bioflavanoids 100 caps — Scitec — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "vitamin_c",
+      "url": "https://www.fhl.bg/products/product/6231/c-1000-bioflavanoids-100-caps.html",
+      "image": "https://www.fhl.bg/files/products/6231/11258_1.jpg",
+      "price_bgn": 50.7,
+      "price_eur": 25.92,
+      "currency_source": "BGN",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": null,
+      "count": 100,
+      "active": {
+        "vitamin_c_mg": 500
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000mg_vitamin_c": 1.01
+      },
+      "unit_label": "лв / 1000 mg витамин C",
+      "confidence": "high",
+      "scraped_at": "2026-05-22T08:47:23.471358Z"
+    },
+    {
+      "id": "fhl-vitamin-c-1000-sr---250-tab-now-foods-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "Vitamin C 1000 SR - 250 tab — Now Foods — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "vitamin_c",
+      "url": "https://www.fhl.bg/products/product/4662/vitamin-c-1000-sr-250-tab.html",
+      "image": "https://www.fhl.bg/files/products/4662/10201_1.gif",
+      "price_bgn": 17.0,
+      "price_eur": 8.69,
+      "currency_source": "BGN",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": null,
+      "count": 250,
+      "active": {
+        "vitamin_c_mg": 500
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000mg_vitamin_c": 0.14
+      },
+      "unit_label": "лв / 1000 mg витамин C",
+      "confidence": "high",
+      "scraped_at": "2026-05-22T08:47:23.890329Z",
+      "promo_label": "-20%"
+    },
+    {
+      "id": "fhl-vitamin-c-with-rose-hips-amix-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "Vitamin C /with Rose Hips — AMIX — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "vitamin_c",
+      "url": "https://www.fhl.bg/products/product/2109/vitamin-c-with-rose-hips.html",
+      "image": "https://www.fhl.bg/files/products/2109/11455_1.jpg",
+      "price_bgn": 37.6,
+      "price_eur": 19.22,
+      "currency_source": "BGN",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": null,
+      "count": 100,
+      "active": {
+        "vitamin_c_mg": 1
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000mg_vitamin_c": 376.0
+      },
+      "unit_label": "лв / 1000 mg витамин C",
+      "confidence": "high",
+      "scraped_at": "2026-05-22T08:47:25.108859Z",
+      "old_price_bgn": 47.0,
+      "discount_pct": 20,
+      "promo_label": "-20%"
+    },
+    {
+      "id": "fhl-100-vitamin-c-powder-swanson-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "100% Vitamin C Powder — Swanson — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "vitamin_c",
+      "url": "https://www.fhl.bg/products/product/4698/100-vitamin-c-powder.html",
+      "image": "https://www.fhl.bg/files/products/4698/11800_1.jpg",
+      "price_bgn": 16.8,
+      "price_eur": 8.59,
+      "currency_source": "BGN",
+      "availability_status": "in_stock",
+      "weight_grams": 454.0,
+      "servings": 454,
+      "count": null,
+      "active": {
+        "vitamin_c_mg": 500
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000mg_vitamin_c": 0.07
+      },
+      "unit_label": "лв / 1000 mg витамин C",
+      "confidence": "high",
+      "scraped_at": "2026-05-22T08:47:25.626487Z",
+      "old_price_bgn": 21.01,
+      "discount_pct": 20,
+      "promo_label": "-20%"
+    },
+    {
+      "id": "fhl-folic-acid-витамин-b-9-now-foods-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "Folic Acid/Витамин B-9 — Now Foods — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "vitamin_b",
+      "url": "https://www.fhl.bg/products/product/1017/folic-acid-vitamin-b-9.html",
+      "image": "https://www.fhl.bg/files/products/1017/10449_1.jpg",
+      "price_bgn": 23.51,
+      "price_eur": 12.02,
+      "currency_source": "BGN",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": null,
+      "count": 250,
+      "active": {
+        "b_complex_serving": 1
+      },
+      "price_per_active_unit": {
+        "bgn_per_b_complex_serving": 0.09
+      },
+      "unit_label": "лв / доза B-комплекс",
+      "confidence": "medium",
+      "scraped_at": "2026-05-22T08:47:27.731195Z",
+      "promo_label": "-20%"
+    },
+    {
+      "id": "fhl-fully-active-folate-doctor-s-best-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "Fully Active Folate — DOCTOR'S BEST — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "vitamin_b",
+      "url": "https://www.fhl.bg/products/product/5061/fully-active-folate.html",
+      "image": "https://www.fhl.bg/files/products/5061/9180_1.jpg",
+      "price_bgn": 35.69,
+      "price_eur": 18.25,
+      "currency_source": "BGN",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": null,
+      "count": 90,
+      "active": {
+        "b_complex_serving": 1
+      },
+      "price_per_active_unit": {
+        "bgn_per_b_complex_serving": 0.4
+      },
+      "unit_label": "лв / доза B-комплекс",
+      "confidence": "medium",
+      "scraped_at": "2026-05-22T08:47:29.235985Z"
+    },
+    {
+      "id": "fhl-folic-acid-800mcg-250-vtabs-haya-labs-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "Folic Acid 800mcg. / 250 Vtabs. — Haya labs — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "vitamin_b",
+      "url": "https://www.fhl.bg/products/product/3170/folic-acid-800mcg-250-vtabs.html",
+      "image": "https://www.fhl.bg/files/products/3170/11657_1.jpg",
+      "price_bgn": 23.51,
+      "price_eur": 12.02,
+      "currency_source": "BGN",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": null,
+      "count": 2,
+      "active": {
+        "b_complex_serving": 1
+      },
+      "price_per_active_unit": {
+        "bgn_per_b_complex_serving": 11.76
+      },
+      "unit_label": "лв / доза B-комплекс",
+      "confidence": "medium",
+      "scraped_at": "2026-05-22T08:47:29.801508Z"
+    },
+    {
+      "id": "fhl-метилфолат-natural-factors-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "Метилфолат — Natural Factors — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "vitamin_b",
+      "url": "https://www.fhl.bg/products/product/5367/metilfolat.html",
+      "image": "https://www.fhl.bg/files/products/5367/9553_1.jpg",
+      "price_bgn": 17.99,
+      "price_eur": 9.2,
+      "currency_source": "BGN",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": null,
+      "count": 1,
+      "active": {
+        "b_complex_serving": 1
+      },
+      "price_per_active_unit": {
+        "bgn_per_b_complex_serving": 17.99
+      },
+      "unit_label": "лв / доза B-комплекс",
+      "confidence": "medium",
+      "scraped_at": "2026-05-22T08:47:30.302028Z"
+    },
+    {
+      "id": "fhl-folian-quatrefolic-800mcg---30-caps-swanson-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "Folian Quatrefolic 800mcg - 30 Caps — Swanson — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "vitamin_b",
+      "url": "https://www.fhl.bg/products/product/6019/folian-quatrefolic-800mcg-30-caps.html",
+      "image": "https://www.fhl.bg/files/products/6019/10988_1.jpg",
+      "price_bgn": 35.69,
+      "price_eur": 18.25,
+      "currency_source": "BGN",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": 30,
+      "count": 30,
+      "active": {
+        "b_complex_serving": 1
+      },
+      "price_per_active_unit": {
+        "bgn_per_b_complex_serving": 1.19
+      },
+      "unit_label": "лв / доза B-комплекс",
+      "confidence": "medium",
+      "scraped_at": "2026-05-22T08:47:31.245989Z"
+    },
+    {
+      "id": "fhl-vitamin-b5-pantothenic-acid-bioherba-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "Vitamin B5 (Pantothenic Acid) — BIOHERBA — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "vitamin_b",
+      "url": "https://www.fhl.bg/products/product/6267/vitamin-b5-pantothenic-acid.html",
+      "image": "https://www.fhl.bg/files/products/6267/11632_1.jpg",
+      "price_bgn": 16.0,
+      "price_eur": 8.18,
+      "currency_source": "BGN",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": null,
+      "count": 100,
+      "active": {
+        "b_complex_serving": 1
+      },
+      "price_per_active_unit": {
+        "bgn_per_b_complex_serving": 0.16
+      },
+      "unit_label": "лв / доза B-комплекс",
+      "confidence": "medium",
+      "scraped_at": "2026-05-22T08:47:32.656765Z"
+    },
+    {
+      "id": "fhl-inositol-600-mg-100-caps-osavi-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "Inositol 600 mg 100 caps — OSAVI — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "vitamin_b",
+      "url": "https://www.fhl.bg/products/product/6677/inositol-600-mg-100-caps.html",
+      "image": "https://www.fhl.bg/files/default.jpg",
+      "price_bgn": 31.63,
+      "price_eur": 16.17,
+      "currency_source": "BGN",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": null,
+      "count": 100,
+      "active": {
+        "b_complex_serving": 1
+      },
+      "price_per_active_unit": {
+        "bgn_per_b_complex_serving": 0.32
+      },
+      "unit_label": "лв / доза B-комплекс",
+      "confidence": "medium",
+      "scraped_at": "2026-05-22T08:47:32.755002Z",
+      "old_price_bgn": 35.95,
+      "discount_pct": 12,
+      "promo_label": "-12%"
+    },
+    {
+      "id": "fhl-витамин-в-5-pantothenic-acid-now-foods-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "Витамин В-5 /Pantothenic Acid — Now Foods — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "vitamin_b",
+      "url": "https://www.fhl.bg/products/product/1016/vitamin-v-5-pantothenic-acid.html",
+      "image": "https://www.fhl.bg/files/products/1016/4752_1.jpg",
+      "price_bgn": 16.0,
+      "price_eur": 8.18,
+      "currency_source": "BGN",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": null,
+      "count": 100,
+      "active": {
+        "b_complex_serving": 1
+      },
+      "price_per_active_unit": {
+        "bgn_per_b_complex_serving": 0.16
+      },
+      "unit_label": "лв / доза B-комплекс",
+      "confidence": "medium",
+      "scraped_at": "2026-05-22T08:47:33.515600Z",
+      "promo_label": "-20%"
+    },
+    {
+      "id": "fhl-vitamin-d-3-400-iu-liquid-now-foods-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "Vitamin D-3 400 IU Liquid — Now Foods — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "vitamin_d",
+      "url": "https://www.fhl.bg/products/product/3663/vitamin-d-3-400-iu-liquid.html",
+      "image": "https://www.fhl.bg/files/products/3663/11925_1.jpg",
+      "price_bgn": 28.81,
+      "price_eur": 14.73,
+      "currency_source": "BGN",
+      "availability_status": "in_stock",
+      "weight_grams": 2013.0,
+      "servings": null,
+      "count": 120,
+      "active": {
+        "vitamin_d_iu": 1000
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000iu_d3": 0.24
+      },
+      "unit_label": "лв / 1000 IU D3",
+      "confidence": "high",
+      "scraped_at": "2026-05-22T08:47:49.312935Z",
+      "old_price_bgn": 36.01,
+      "discount_pct": 20,
+      "promo_label": "-20%"
+    },
+    {
+      "id": "fhl-calcium-d3-k2-90--tab-sfd-nutrition-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "CALCIUM D3 K2 90 -TAB — SFD NUTRITION — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "vitamin_d",
+      "url": "https://www.fhl.bg/products/product/6175/calcium-d3-k2-90-tab.html",
+      "image": "https://www.fhl.bg/files/products/6175/11193_1.jpg",
+      "price_bgn": 32.99,
+      "price_eur": 16.87,
+      "currency_source": "BGN",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": null,
+      "count": 90,
+      "active": {
+        "vitamin_d_iu": 1000
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000iu_d3": 0.37
+      },
+      "unit_label": "лв / 1000 IU D3",
+      "confidence": "high",
+      "scraped_at": "2026-05-22T08:47:51.458559Z"
+    },
+    {
+      "id": "fhl-vitamin-d-3-1000-iu-180-softgels-now-foods-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "Vitamin D-3 1000 IU 180 softgels — Now Foods — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "vitamin_d",
+      "url": "https://www.fhl.bg/products/product/3660/vitamin-d-3-1000-iu-180-softgels.html",
+      "image": "https://www.fhl.bg/files/products/3660/10860_1.jpg",
+      "price_bgn": 24.1,
+      "price_eur": 12.32,
+      "currency_source": "BGN",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": null,
+      "count": 180,
+      "active": {
+        "vitamin_d_iu": 1000
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000iu_d3": 0.13
+      },
+      "unit_label": "лв / 1000 IU D3",
+      "confidence": "high",
+      "scraped_at": "2026-05-22T08:47:51.765989Z",
+      "promo_label": "-20%"
+    },
+    {
+      "id": "fhl-vitamin-d-3-1000-iu-k2-45-mcg-120-vcaps-now-foods-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "Vitamin D-3 1000 IU & K2 45 mcg 120 vcaps — Now Foods — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "vitamin_d",
+      "url": "https://www.fhl.bg/products/product/6202/vitamin-d-3-1000-iu-k2-45-mcg-120-vcaps.html",
+      "image": "https://www.fhl.bg/files/products/6202/11226_1.jpg",
+      "price_bgn": 38.4,
+      "price_eur": 19.63,
+      "currency_source": "BGN",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": null,
+      "count": 120,
+      "active": {
+        "vitamin_d_iu": 1000
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000iu_d3": 0.32
+      },
+      "unit_label": "лв / 1000 IU D3",
+      "confidence": "high",
+      "scraped_at": "2026-05-22T08:47:51.528362Z",
+      "old_price_bgn": 48.0,
+      "discount_pct": 20,
+      "promo_label": "-20%"
+    },
+    {
+      "id": "fhl-vitamin-d3-250-caps-scitec-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "Vitamin D3 / 250 Caps. — Scitec — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "vitamin_d",
+      "url": "https://www.fhl.bg/products/product/5439/vitamin-d3-250-caps.html",
+      "image": "https://www.fhl.bg/files/products/5439/9836_1.jpg",
+      "price_bgn": 23.0,
+      "price_eur": 11.76,
+      "currency_source": "BGN",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": null,
+      "count": 250,
+      "active": {
+        "vitamin_d_iu": 1000
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000iu_d3": 0.09
+      },
+      "unit_label": "лв / 1000 IU D3",
+      "confidence": "high",
+      "scraped_at": "2026-05-22T08:47:52.941174Z"
+    },
+    {
+      "id": "fhl-vitamin-d-3-400-iu-now-foods-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "VITAMIN D-3 400 IU — Now Foods — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "vitamin_d",
+      "url": "https://www.fhl.bg/products/product/1032/vitamin-d-3-400-iu.html",
+      "image": "https://www.fhl.bg/files/products/1032/10861_1.jpg",
+      "price_bgn": 16.8,
+      "price_eur": 8.59,
+      "currency_source": "BGN",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": null,
+      "count": 180,
+      "active": {
+        "vitamin_d_iu": 1000
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000iu_d3": 0.09
+      },
+      "unit_label": "лв / 1000 IU D3",
+      "confidence": "high",
+      "scraped_at": "2026-05-22T08:47:53.739000Z",
+      "old_price_bgn": 21.01,
+      "discount_pct": 20,
+      "promo_label": "-20%"
+    },
+    {
+      "id": "fhl-vitamin-d-3-1000-iu-chewable-now-foods-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "VITAMIN D-3 1000 IU chewable — Now Foods — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "vitamin_d",
+      "url": "https://www.fhl.bg/products/product/1033/vitamin-d-3-1000-iu-chewable.html",
+      "image": "https://www.fhl.bg/files/products/1033/8634_1.jpg",
+      "price_bgn": 20.0,
+      "price_eur": 10.23,
+      "currency_source": "BGN",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": null,
+      "count": 180,
+      "active": {
+        "vitamin_d_iu": 1000
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000iu_d3": 0.11
+      },
+      "unit_label": "лв / 1000 IU D3",
+      "confidence": "high",
+      "scraped_at": "2026-05-22T08:47:54.536365Z",
+      "old_price_bgn": 25.0,
+      "discount_pct": 20,
+      "promo_label": "-20%"
+    },
+    {
+      "id": "fhl-vitamin-d-3-1-000-iu-high-potency-360-softgels-now-foods-цена-прием-странични-ефекти-fhl-bg",
+      "store": "FHL",
+      "name": "Vitamin D-3 1,000 IU High Potency 360 Softgels — Now Foods — цена, прием, странични ефекти | Fhl.bg",
+      "brand": null,
+      "category": "vitamin_d",
+      "url": "https://www.fhl.bg/products/product/6238/vitamin-d-3-1000-iu-high-potency-360-softgels.html",
+      "image": "https://www.fhl.bg/files/products/6238/11264_1.jpg",
+      "price_bgn": 14.49,
+      "price_eur": 7.41,
+      "currency_source": "BGN",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": null,
+      "count": 360,
+      "active": {
+        "vitamin_d_iu": 1000
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000iu_d3": 0.04
+      },
+      "unit_label": "лв / 1000 IU D3",
+      "confidence": "high",
+      "scraped_at": "2026-05-22T08:47:55.323614Z",
+      "promo_label": "-20%"
+    },
+    {
+      "id": "stayfit-everbuild-vita-max-multivitamins",
+      "store": "Stayfit",
+      "name": "EVERBUILD Vita Max Multivitamins",
+      "brand": "Everbuild",
+      "category": "multivitamin",
+      "url": "https://stayfit.bg/product/everbuild-vita-max-multivitamins",
+      "image": "https://stayfit.bg/cdn/img/products/860/everbuild-vita-max-multivitamins-682479ed5a0f2.jpeg?width=600&height=600&v=1777620415",
+      "price_bgn": 59.01,
+      "price_eur": 30.17,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": 30,
+      "count": 2,
+      "active": {
+        "multivitamin_serving": 1
+      },
+      "price_per_active_unit": {
+        "bgn_per_multivitamin_serving": 1.97
+      },
+      "unit_label": "лв / доза мултивитамин",
+      "confidence": "medium",
+      "scraped_at": "2026-05-22T08:47:57.355371Z"
+    },
+    {
+      "id": "stayfit-everbuild-amino-whey-hydro",
+      "store": "Stayfit",
+      "name": "EVERBUILD Amino Whey Hydro",
+      "brand": "Everbuild",
+      "category": "protein",
+      "url": "https://stayfit.bg/product/everbuild-amino-whey-hydro",
+      "image": "https://stayfit.bg/cdn/img/products/1060/everbuild-amino-whey-hydro-69d2469019351.jpeg?width=600&height=600&v=1777620419",
+      "price_bgn": 79.0,
+      "price_eur": 40.39,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 8.0,
+      "servings": 75,
+      "count": 300,
+      "active": {
+        "protein_g": 8.0
+      },
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 3.29
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "high",
+      "scraped_at": "2026-05-22T08:48:00.752655Z"
+    },
+    {
+      "id": "stayfit-optimum-nutrition-100-isolate-gold-standard",
+      "store": "Stayfit",
+      "name": "OPTIMUM NUTRITION 100% Isolate Gold Standard",
+      "brand": "Optimum Nutrition",
+      "category": "protein",
+      "url": "https://stayfit.bg/product/optimum-nutrition-100-isolate-gold-standard",
+      "image": "https://stayfit.bg/cdn/img/products/1044/optimum-nutrition-100--isolate-gold-standard-69cbc6a766e2f.jpeg?width=600&height=600&v=1777620424",
+      "price_bgn": 63.06,
+      "price_eur": 32.24,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 450.0,
+      "servings": 81,
+      "count": null,
+      "active": {
+        "protein_g": 25.0
+      },
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 0.78
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "high",
+      "scraped_at": "2026-05-22T08:48:01.651183Z",
+      "old_price_bgn": 84.08,
+      "discount_pct": 25,
+      "promo_label": "-25%"
+    },
+    {
+      "id": "stayfit-forcelab-op-hop-whey",
+      "store": "Stayfit",
+      "name": "FORCELAB Op Hop Whey",
+      "brand": "Forcelab",
+      "category": "protein",
+      "url": "https://stayfit.bg/product/forcelab-op-hop-whey",
+      "image": "https://stayfit.bg/cdn/img/products/1043/forcelab-op-hop-whey-69c56ad90f2dd.jpeg?width=600&height=600&v=1777620422",
+      "price_bgn": 95.05,
+      "price_eur": 48.6,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 908.0,
+      "servings": 30,
+      "count": null,
+      "active": {
+        "protein_g": 23.0
+      },
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 3.44
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "high",
+      "scraped_at": "2026-05-22T08:48:01.929742Z",
+      "old_price_bgn": 105.61,
+      "discount_pct": 10,
+      "promo_label": "-10%"
+    },
+    {
+      "id": "stayfit-mhn-delicious-whey-protein",
+      "store": "Stayfit",
+      "name": "MHN Delicious Whey Protein",
+      "brand": "MHN",
+      "category": "protein",
+      "url": "https://stayfit.bg/product/mhn-delicious-whey-protein",
+      "image": "https://stayfit.bg/cdn/img/products/1035/mhn-delicious-whey-protein-69a9959966c3d.jpeg?width=600&height=600&v=1777620418",
+      "price_bgn": 78.08,
+      "price_eur": 39.92,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 1000.0,
+      "servings": 33,
+      "count": null,
+      "active": {
+        "protein_g": 21.62
+      },
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 2.74
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "high",
+      "scraped_at": "2026-05-22T08:48:03.012198Z",
+      "old_price_bgn": 97.6,
+      "discount_pct": 20,
+      "promo_label": "-20%"
+    },
+    {
+      "id": "stayfit-pharmic-research-platinum-whey-tnt-pre-workout",
+      "store": "Stayfit",
+      "name": "PHARMIC RESEARCH Platinum Whey + TNT Pre-Workout",
+      "brand": "PHARMIC RESEARCH",
+      "category": "protein",
+      "url": "https://stayfit.bg/product/pharmic-research-platinum-whey-tnt",
+      "image": "https://stayfit.bg/cdn/img/products/1033/pharmic-research-platinum-whey--tnt-699a1463ddb72.jpeg?width=600&height=600&v=1777620418",
+      "price_bgn": 170.0,
+      "price_eur": 86.92,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 2280.0,
+      "servings": 76,
+      "count": 100,
+      "active": {
+        "protein_g": 22.0
+      },
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 2.54
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "high",
+      "scraped_at": "2026-05-22T08:48:03.857336Z",
+      "old_price_bgn": 200.0,
+      "discount_pct": 15,
+      "promo_label": "-15%"
+    },
+    {
+      "id": "stayfit-real-pharm-beef-whey",
+      "store": "Stayfit",
+      "name": "REAL PHARM Beef Whey",
+      "brand": "Real Pharm",
+      "category": "protein",
+      "url": "https://stayfit.bg/product/real-pharm-beef-whey",
+      "image": "https://stayfit.bg/cdn/img/products/1031/real-pharm-beef-whey-699a0eaa8f760.jpeg?width=600&height=600&v=1777620418",
+      "price_bgn": 138.51,
+      "price_eur": 70.82,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 1800.0,
+      "servings": 60,
+      "count": null,
+      "active": {
+        "estimated_total_protein_g": 1530.0,
+        "estimated_protein_ratio_pct": 85
+      },
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 2.26
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "low",
+      "scraped_at": "2026-05-22T08:48:04.845405Z",
+      "old_price_bgn": 150.01,
+      "discount_pct": 8,
+      "promo_label": "-8%"
+    },
+    {
+      "id": "stayfit-pharmic-research-platinum-whey-2280-g",
+      "store": "Stayfit",
+      "name": "Pharmic Research Platinum Whey 2280 g",
+      "brand": "PHARMIC RESEARCH",
+      "category": "protein",
+      "url": "https://stayfit.bg/product/pharmic-research-platinum-whey-2280-g",
+      "image": "https://stayfit.bg/cdn/img/products/1032/pharmic-research-platinum-whey-2280-g-699a10ee5bb39.jpeg?width=600&height=600&v=1777620418",
+      "price_bgn": 125.99,
+      "price_eur": 64.42,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 2280.0,
+      "servings": 76,
+      "count": null,
+      "active": {
+        "protein_g": 22.0
+      },
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 1.88
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "high",
+      "scraped_at": "2026-05-22T08:48:04.982421Z",
+      "old_price_bgn": 140.0,
+      "discount_pct": 10,
+      "promo_label": "-10%"
+    },
+    {
+      "id": "stayfit-everbuild-creapure-creatine-monohydrate-5000",
+      "store": "Stayfit",
+      "name": "EVERBUILD Creapure® Creatine Monohydrate 5000",
+      "brand": "Everbuild",
+      "category": "creatine",
+      "url": "https://stayfit.bg/product/everbuild-creapure-creatine-monohydrate-5000",
+      "image": "https://stayfit.bg/cdn/img/products/1081/everbuild-creapurer-creatine-monohydrate-5000-69d3a6af1d2ab.jpeg?width=1920&height=1920&v=1777620422",
+      "price_bgn": 38.0,
+      "price_eur": 19.43,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 500.0,
+      "servings": 100,
+      "count": null,
+      "active": {
+        "creatine_mg_per_serving": 5000
+      },
+      "price_per_active_unit": {
+        "bgn_per_5g_creatine": 0.38
+      },
+      "unit_label": "лв / 5 g креатин",
+      "confidence": "high",
+      "scraped_at": "2026-05-22T08:48:07.053788Z"
+    },
+    {
+      "id": "stayfit-everbuild-crea-build-creatine-matrix",
+      "store": "Stayfit",
+      "name": "EVERBUILD Crea Build Creatine Matrix",
+      "brand": "Everbuild",
+      "category": "creatine",
+      "url": "https://stayfit.bg/product/everbuild-crea-build-creatine-matrix",
+      "image": "https://stayfit.bg/cdn/img/products/1075/everbuild-crea-build-creatine-matrix-69d3a3b3918be.jpeg?width=600&height=600&v=1777620421",
+      "price_bgn": 35.2,
+      "price_eur": 18.0,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 300.0,
+      "servings": 50,
+      "count": null,
+      "active": {
+        "creatine_mg_per_serving": 6000
+      },
+      "price_per_active_unit": {
+        "bgn_per_5g_creatine": 0.59
+      },
+      "unit_label": "лв / 5 g креатин",
+      "confidence": "high",
+      "scraped_at": "2026-05-22T08:48:08.085405Z"
+    },
+    {
+      "id": "stayfit-pure-nutrition-creatine-gummies-pure-whey",
+      "store": "Stayfit",
+      "name": "Pure Nutrition Creatine Gummies + Pure Whey",
+      "brand": "Pure Nutrition",
+      "category": "creatine",
+      "url": "https://stayfit.bg/product/pure-nutrition-creatine-gummies-whey-protein",
+      "image": "https://stayfit.bg/cdn/img/products/1018/pure-nutrition-creatine-gummies--whey-protein-6995c859378eb.png?width=600&height=600&v=1777620421",
+      "price_bgn": 183.59,
+      "price_eur": 93.87,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 2280.0,
+      "servings": 76,
+      "count": 100,
+      "active": {
+        "creatine_total_mg": 2280000
+      },
+      "price_per_active_unit": {
+        "bgn_per_5g_creatine": 0.4
+      },
+      "unit_label": "лв / 5 g креатин",
+      "confidence": "medium",
+      "scraped_at": "2026-05-22T08:48:08.906960Z",
+      "old_price_bgn": 216.0,
+      "discount_pct": 15,
+      "promo_label": "-15%"
+    },
+    {
+      "id": "stayfit-applied-nutrition-creapure-creatine-monohydrate-caffeine-100-mg",
+      "store": "Stayfit",
+      "name": "APPLIED NUTRITION Creapure Creatine Monohydrate + Caffeine 100 mg",
+      "brand": "Applied Nutrition",
+      "category": "creatine",
+      "url": "https://stayfit.bg/product/applied-nutrition-creapure-creatine-monohydrate-caffeine-100-mg",
+      "image": "https://stayfit.bg/cdn/img/products/1007/applied-nutrition-creapure-creatine-monohydrate--caffeine-100-mg-69905f6220f5f.jpeg?width=600&height=600&v=1777620417",
+      "price_bgn": 76.49,
+      "price_eur": 39.11,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 250.0,
+      "servings": null,
+      "count": 90,
+      "active": {
+        "creatine_total_mg": 250000
+      },
+      "price_per_active_unit": {
+        "bgn_per_5g_creatine": 1.53
+      },
+      "unit_label": "лв / 5 g креатин",
+      "confidence": "medium",
+      "scraped_at": "2026-05-22T08:48:09.680036Z",
+      "old_price_bgn": 102.0,
+      "discount_pct": 25,
+      "promo_label": "-25%"
+    },
+    {
+      "id": "stayfit-optimum-nutrition-micronized-creatine-powder",
+      "store": "Stayfit",
+      "name": "OPTIMUM NUTRITION Micronized Creatine Powder",
+      "brand": "Optimum Nutrition",
+      "category": "creatine",
+      "url": "https://stayfit.bg/product/optimum-nutrition-micronized-creatine-powder",
+      "image": "https://stayfit.bg/cdn/img/products/995/optimum-nutrition-micronized-creatine-powder-69cbc441a7cb5.jpeg?width=600&height=600&v=1777620423",
+      "price_bgn": 30.78,
+      "price_eur": 15.74,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 360.0,
+      "servings": 60,
+      "count": null,
+      "active": {
+        "creatine_mg_per_serving": 6000
+      },
+      "price_per_active_unit": {
+        "bgn_per_5g_creatine": 0.43
+      },
+      "unit_label": "лв / 5 g креатин",
+      "confidence": "high",
+      "scraped_at": "2026-05-22T08:48:10.900089Z",
+      "old_price_bgn": 41.05,
+      "discount_pct": 25,
+      "promo_label": "-25%"
+    },
+    {
+      "id": "stayfit-applied-nutrition-creatine-monohydrate-unflavoured",
+      "store": "Stayfit",
+      "name": "APPLIED NUTRITION Creatine Monohydrate Unflavoured",
+      "brand": "Applied Nutrition",
+      "category": "creatine",
+      "url": "https://stayfit.bg/product/applied-nutrition-creatine-monohydrate-unflavoured",
+      "image": "https://stayfit.bg/cdn/img/products/1003/applied-nutrition-creatine-monohydrate-unflavoured-6981f17ecb3d6.jpeg?width=600&height=600&v=1777620422",
+      "price_bgn": 71.6,
+      "price_eur": 36.61,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 500.0,
+      "servings": 100,
+      "count": null,
+      "active": {
+        "creatine_mg_per_serving": 5000
+      },
+      "price_per_active_unit": {
+        "bgn_per_5g_creatine": 0.72
+      },
+      "unit_label": "лв / 5 g креатин",
+      "confidence": "high",
+      "scraped_at": "2026-05-22T08:48:11.070011Z",
+      "old_price_bgn": 95.48,
+      "discount_pct": 25,
+      "promo_label": "-25%"
+    },
+    {
+      "id": "stayfit-amix-creatine-monohydrate-creapure",
+      "store": "Stayfit",
+      "name": "AMIX Creatine Monohydrate Creapure®",
+      "brand": "Amix",
+      "category": "creatine",
+      "url": "https://stayfit.bg/product/amix-creatine-monohydrate-creapure",
+      "image": "https://stayfit.bg/cdn/img/products/993/amix-creatine-monohydrate-creapurer-6978d7f7ec660.jpeg?width=600&height=600&v=1777620419",
+      "price_bgn": 56.0,
+      "price_eur": 28.63,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 300.0,
+      "servings": 100,
+      "count": null,
+      "active": {
+        "creatine_mg_per_serving": 3000
+      },
+      "price_per_active_unit": {
+        "bgn_per_5g_creatine": 0.93
+      },
+      "unit_label": "лв / 5 g креатин",
+      "confidence": "high",
+      "scraped_at": "2026-05-22T08:48:11.656431Z"
+    },
+    {
+      "id": "stayfit-haya-labs-high-potency-vitamin-c-1000-mg-with-rose-hips-250-caps",
+      "store": "Stayfit",
+      "name": "HAYA LABS High Potency Vitamin C 1000 mg with Rose Hips / 250 Caps",
+      "brand": "Haya Labs",
+      "category": "vitamin_c",
+      "url": "https://stayfit.bg/product/aya-labs-high-potency-vitamin-c-1000-mg-with-rose-hips-250-caps",
+      "image": "https://stayfit.bg/cdn/img/products/1106/aya-labs-high-potency-vitamin-c-1000-mg-with-rose-hips--250-caps-6a0ca5cfb2d27.jpeg?width=1920&height=1920&v=1779213775",
+      "price_bgn": 34.99,
+      "price_eur": 17.89,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": 250,
+      "count": 250,
+      "active": {
+        "vitamin_c_mg": 1000
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000mg_vitamin_c": 0.14
+      },
+      "unit_label": "лв / 1000 mg витамин C",
+      "confidence": "high",
+      "scraped_at": "2026-05-22T08:48:15.194996Z"
+    },
+    {
+      "id": "stayfit-fa-nutrition-beauty-elixir-caviar-collagen-powder-with-peptan-marine-collagen-hyaluronic",
+      "store": "Stayfit",
+      "name": "FA Nutrition Beauty Elixir | Caviar Collagen Powder ~ With Peptan® Marine Collagen, Hyaluronic Acid & Vitamin C",
+      "brand": "FA Nutrition",
+      "category": "vitamin_c",
+      "url": "https://stayfit.bg/product/fa-nutrition-beauty-elixir-caviar-collagen-powder-with-peptan-marine-collagen-hyaluronic-acid-vitamin-c",
+      "image": "https://stayfit.bg/cdn/img/products/914/fa-nutrition-beauty-elixir--caviar-collagen-powder---with-peptanr-marine-collagen-hyaluronic-acid--vitamin-c-68cbe0775b6ba.svg?v=1777620420",
+      "price_bgn": 66.36,
+      "price_eur": 33.93,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 270.0,
+      "servings": 30,
+      "count": 60,
+      "active": {
+        "vitamin_c_mg": 1000
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000mg_vitamin_c": 2.21
+      },
+      "unit_label": "лв / 1000 mg витамин C",
+      "confidence": "high",
+      "scraped_at": "2026-05-22T08:48:16.633969Z",
+      "old_price_bgn": 82.95,
+      "discount_pct": 20,
+      "promo_label": "-20%"
+    },
+    {
+      "id": "stayfit-ostrovit-collagen-vitamin-c",
+      "store": "Stayfit",
+      "name": "OstroVit Collagen + Vitamin C",
+      "brand": "OstroVit",
+      "category": "vitamin_c",
+      "url": "https://stayfit.bg/product/ostrovit-collagen-vitamin-c",
+      "image": "https://stayfit.bg/cdn/img/products/244/ostrovit-collagen--vitamin-c-6448e7d2428c9.jpeg?width=600&height=600&v=1777620412",
+      "price_bgn": 27.95,
+      "price_eur": 14.29,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 400.0,
+      "servings": 40,
+      "count": 250,
+      "active": {
+        "vitamin_c_mg": 1000
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000mg_vitamin_c": 0.7
+      },
+      "unit_label": "лв / 1000 mg витамин C",
+      "confidence": "high",
+      "scraped_at": "2026-05-22T08:48:17.103635Z"
+    },
+    {
+      "id": "stayfit-ostrovit-vitamin-c-1000-mg",
+      "store": "Stayfit",
+      "name": "OstroVit Vitamin C 1000 mg",
+      "brand": "OstroVit",
+      "category": "vitamin_c",
+      "url": "https://stayfit.bg/product/ostrovit-vitamin-c-1000-mg",
+      "image": "https://stayfit.bg/cdn/img/products/258/ostrovit-vitamin-c-1000-mg-644a219ddc3b9.jpeg?width=1920&height=1920&v=1777620410",
+      "price_bgn": 22.94,
+      "price_eur": 11.73,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": 120,
+      "count": 120,
+      "active": {
+        "vitamin_c_mg": 1000
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000mg_vitamin_c": 0.19
+      },
+      "unit_label": "лв / 1000 mg витамин C",
+      "confidence": "high",
+      "scraped_at": "2026-05-22T08:48:16.953521Z"
+    },
+    {
+      "id": "stayfit-ostrovit-100-vitamin-c-powder",
+      "store": "Stayfit",
+      "name": "OstroVit 100% Vitamin C Powder",
+      "brand": "OstroVit",
+      "category": "vitamin_c",
+      "url": "https://stayfit.bg/product/ostrovit-100-vitamin-c-powder",
+      "image": "https://stayfit.bg/cdn/img/products/238/ostrovit-100--vitamin-c-powder-6448e3d0841fa.jpeg?width=600&height=600&v=1777620411",
+      "price_bgn": 28.95,
+      "price_eur": 14.8,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 1000.0,
+      "servings": 1000,
+      "count": 250,
+      "active": {
+        "vitamin_c_mg": 1000
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000mg_vitamin_c": 0.03
+      },
+      "unit_label": "лв / 1000 mg витамин C",
+      "confidence": "high",
+      "scraped_at": "2026-05-22T08:48:18.436138Z"
+    },
+    {
+      "id": "stayfit-now-foods-cal-mag-with-b-complex-vitamin-c",
+      "store": "Stayfit",
+      "name": "NOW Foods Cal-Mag with B Complex & Vitamin C",
+      "brand": "NOW Foods",
+      "category": "vitamin_c",
+      "url": "https://stayfit.bg/product/now-foods-cal-mag-with-b-complex-vitamin-c",
+      "image": "https://stayfit.bg/cdn/img/products/217/now-foods-cal-mag-with-b-complex--vitamin-c-69616b9493461.jpeg?width=600&height=600&v=1777620420",
+      "price_bgn": 47.6,
+      "price_eur": 24.34,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": 50,
+      "count": 100,
+      "active": {
+        "vitamin_c_mg": 1000
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000mg_vitamin_c": 0.95
+      },
+      "unit_label": "лв / 1000 mg витамин C",
+      "confidence": "high",
+      "scraped_at": "2026-05-22T08:48:20.583431Z",
+      "old_price_bgn": 56.0,
+      "discount_pct": 15,
+      "promo_label": "-15%"
+    },
+    {
+      "id": "stayfit-hero-lab-vitamin-c-1000-mg-bioflavonoids-with-echinacea-zinc",
+      "store": "Stayfit",
+      "name": "Hero.Lab Vitamin C 1000 mg + Bioflavonoids | with Echinacea + Zinc",
+      "brand": "Hero.Lab",
+      "category": "vitamin_c",
+      "url": "https://stayfit.bg/product/herolab-vitamin-c-1000-mg-bioflavonoids-with-echinacea-zinc",
+      "image": "https://stayfit.bg/cdn/img/products/212/hero-lab-vitamin-c-1000-mg--bioflavonoids--with-echinacea--zinc-6448be65e2a0d.jpeg?width=1920&height=1920&v=1777620411",
+      "price_bgn": 34.95,
+      "price_eur": 17.87,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": 120,
+      "count": 120,
+      "active": {
+        "vitamin_c_mg": 1000
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000mg_vitamin_c": 0.29
+      },
+      "unit_label": "лв / 1000 mg витамин C",
+      "confidence": "high",
+      "scraped_at": "2026-05-22T08:48:21.105753Z"
+    },
+    {
+      "id": "stayfit-amix-alc-with-taurin-vitamine-b6",
+      "store": "Stayfit",
+      "name": "AMIX ALC /with Taurin & Vitamine B6",
+      "brand": "Amix",
+      "category": "vitamin_b",
+      "url": "https://stayfit.bg/product/amix-alc-with-taurin-vitamine-b6",
+      "image": "https://stayfit.bg/cdn/img/products/847/amix-alc-with-taurin--vitamine-b6-682332acc2348.jpeg?width=600&height=600&v=1777620416",
+      "price_bgn": 40.99,
+      "price_eur": 20.96,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": 60,
+      "count": 120,
+      "active": {
+        "b_complex_serving": 1
+      },
+      "price_per_active_unit": {
+        "bgn_per_b_complex_serving": 0.68
+      },
+      "unit_label": "лв / доза B-комплекс",
+      "confidence": "medium",
+      "scraped_at": "2026-05-22T08:48:23.417934Z"
+    },
+    {
+      "id": "stayfit-now-foods-vitamin-b-12-instant-energy",
+      "store": "Stayfit",
+      "name": "NOW Foods Vitamin B-12 Instant Energy",
+      "brand": "NOW Foods",
+      "category": "vitamin_b",
+      "url": "https://stayfit.bg/product/now-foods-vitamin-b-12-instant-energy",
+      "image": "https://stayfit.bg/cdn/img/products/225/now-foods-vitamin-b-12-instant-energy-696167af4a293.jpeg?width=600&height=600&v=1777620420",
+      "price_bgn": 37.79,
+      "price_eur": 19.32,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": 75,
+      "count": 1,
+      "active": {
+        "b_complex_serving": 1
+      },
+      "price_per_active_unit": {
+        "bgn_per_b_complex_serving": 0.5
+      },
+      "unit_label": "лв / доза B-комплекс",
+      "confidence": "medium",
+      "scraped_at": "2026-05-22T08:48:28.218661Z",
+      "old_price_bgn": 41.99,
+      "discount_pct": 10,
+      "promo_label": "-10%"
+    },
+    {
+      "id": "stayfit-now-foods-vitamin-b-50",
+      "store": "Stayfit",
+      "name": "NOW Foods Vitamin B-50",
+      "brand": "NOW Foods",
+      "category": "vitamin_b",
+      "url": "https://stayfit.bg/product/now-foods-vitamin-b-50",
+      "image": "https://stayfit.bg/cdn/img/products/226/now-foods-vitamin-b-50-6448dbc612ac6.jpeg?width=600&height=600&v=1777620413",
+      "price_bgn": 39.0,
+      "price_eur": 19.94,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": 100,
+      "count": 100,
+      "active": {
+        "b_complex_serving": 1
+      },
+      "price_per_active_unit": {
+        "bgn_per_b_complex_serving": 0.39
+      },
+      "unit_label": "лв / доза B-комплекс",
+      "confidence": "medium",
+      "scraped_at": "2026-05-22T08:48:28.830964Z",
+      "old_price_bgn": 41.99,
+      "discount_pct": 7,
+      "promo_label": "-7%"
+    },
+    {
+      "id": "stayfit-now-foods-vitamin-b-6-100-mg",
+      "store": "Stayfit",
+      "name": "NOW Foods Vitamin B-6 100 mg",
+      "brand": "NOW Foods",
+      "category": "vitamin_b",
+      "url": "https://stayfit.bg/product/now-foods-vitamin-b-6-100-mg",
+      "image": "https://stayfit.bg/cdn/img/products/227/now-foods-vitamin-b-6-100-mg-6448dc59e269a.jpeg?width=600&height=600&v=1777620414",
+      "price_bgn": 24.0,
+      "price_eur": 12.27,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": 100,
+      "count": 100,
+      "active": {
+        "b_complex_serving": 1
+      },
+      "price_per_active_unit": {
+        "bgn_per_b_complex_serving": 0.24
+      },
+      "unit_label": "лв / доза B-комплекс",
+      "confidence": "medium",
+      "scraped_at": "2026-05-22T08:48:29.165056Z"
+    },
+    {
+      "id": "stayfit-ostrovit-methyl-b-complex",
+      "store": "Stayfit",
+      "name": "OstroVit Methyl B-Complex",
+      "brand": "OstroVit",
+      "category": "vitamin_b",
+      "url": "https://stayfit.bg/product/ostrovit-methyl-b-complex",
+      "image": "https://stayfit.bg/cdn/img/products/248/ostrovit-methyl-b-complex-644a10093a4ff.jpeg?width=600&height=600&v=1777620413",
+      "price_bgn": 24.96,
+      "price_eur": 12.76,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": 30,
+      "count": 30,
+      "active": {
+        "b_complex_serving": 1
+      },
+      "price_per_active_unit": {
+        "bgn_per_b_complex_serving": 0.83
+      },
+      "unit_label": "лв / доза B-комплекс",
+      "confidence": "medium",
+      "scraped_at": "2026-05-22T08:48:29.610041Z"
+    },
+    {
+      "id": "stayfit-haya-labs-vitamin-d3-5000-iu-250-tabs",
+      "store": "Stayfit",
+      "name": "HAYA LABS Vitamin D3 / 5000 IU / 250 Tabs",
+      "brand": "Haya Labs",
+      "category": "vitamin_d",
+      "url": "https://stayfit.bg/product/haya-labs-vitamin-d3-5000-iu-250-tabs",
+      "image": "https://stayfit.bg/cdn/img/products/1012/haya-labs-vitamin-d3--5000-iu--250-tabs-699302556659e.jpeg?width=1920&height=1920&v=1777620418",
+      "price_bgn": 29.0,
+      "price_eur": 14.83,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": 250,
+      "count": 250,
+      "active": {
+        "vitamin_d_iu": 5000
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000iu_d3": 0.02
+      },
+      "unit_label": "лв / 1000 IU D3",
+      "confidence": "high",
+      "scraped_at": "2026-05-22T08:48:36.856894Z"
+    },
+    {
+      "id": "stayfit-swedish-supplements-vitamin-day-formula-mineral-night-formula-complex",
+      "store": "Stayfit",
+      "name": "SWEDISH Supplements Vitamin Day Formula & Mineral Night Formula Complex",
+      "brand": "SWEDISH Supplements",
+      "category": "vitamin_d",
+      "url": "https://stayfit.bg/product/swedish-supplements-vitamin-day-formula-mineral-night-formula-complex",
+      "image": "https://stayfit.bg/cdn/img/products/940/swedish-supplements-vitamin-day-formula--mineral-night-formula-complex-69077d3970d97.jpeg?width=600&height=600&v=1777620420",
+      "price_bgn": 63.7,
+      "price_eur": 32.57,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": 60,
+      "count": 120,
+      "active": {
+        "vitamin_d_iu": 5000
+      },
+      "price_per_active_unit": {
+        "bgn_per_1000iu_d3": 0.21
+      },
+      "unit_label": "лв / 1000 IU D3",
+      "confidence": "high",
+      "scraped_at": "2026-05-22T08:48:37.435794Z",
+      "old_price_bgn": 84.94,
+      "discount_pct": 25,
+      "promo_label": "-25%"
+    },
+    {
+      "id": "stayfit-amix-magnechel-magnesium-bisglycinate-chelate",
+      "store": "Stayfit",
+      "name": "AMIX MagneChel / Magnesium Bisglycinate Chelate",
+      "brand": "Amix",
+      "category": "magnesium",
+      "url": "https://stayfit.bg/product/amix-magnechel-magnesium-bisglycinate-chelate",
+      "image": "https://stayfit.bg/cdn/img/products/1083/amix-magnechel--magnesium-bisglycinate-chelate-69d3a9cbe3199.jpeg?width=600&height=600&v=1777620422",
+      "price_bgn": 59.01,
+      "price_eur": 30.17,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 420.0,
+      "servings": 60,
+      "count": 60,
+      "active": {
+        "magnesium_mg": 200
+      },
+      "price_per_active_unit": {
+        "bgn_per_100mg_magnesium": 0.49
+      },
+      "unit_label": "лв / 100 mg магнезий",
+      "confidence": "high",
+      "scraped_at": "2026-05-22T08:48:44.187331Z"
+    },
+    {
+      "id": "stayfit-everbuild-magnesium-citrate-200-mg",
+      "store": "Stayfit",
+      "name": "EVERBUILD Magnesium Citrate 200 mg",
+      "brand": "Everbuild",
+      "category": "magnesium",
+      "url": "https://stayfit.bg/product/everbuild-magnesium-citrate-200-mg",
+      "image": "https://stayfit.bg/cdn/img/products/1078/everbuild-magnesium-citrate-200-mg-69d3a5a560f41.jpeg?width=600&height=600&v=1777620421",
+      "price_bgn": 48.0,
+      "price_eur": 24.54,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": 125,
+      "count": 250,
+      "active": {
+        "magnesium_mg": 200
+      },
+      "price_per_active_unit": {
+        "bgn_per_100mg_magnesium": 0.19
+      },
+      "unit_label": "лв / 100 mg магнезий",
+      "confidence": "high",
+      "scraped_at": "2026-05-22T08:48:45.209836Z"
+    },
+    {
+      "id": "stayfit-haya-labs-magnesium-glycinate-200-mg",
+      "store": "Stayfit",
+      "name": "HAYA LABS Magnesium Glycinate 200 mg",
+      "brand": "Haya Labs",
+      "category": "magnesium",
+      "url": "https://stayfit.bg/product/haya-labs-magnesium-glycinate-200-mg",
+      "image": "https://stayfit.bg/cdn/img/products/1005/haya-labs-magnesium-glycinate-200-mg-6984826f391a4.jpeg?width=600&height=600&v=1777620423",
+      "price_bgn": 40.51,
+      "price_eur": 20.71,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": 100,
+      "count": 200,
+      "active": {
+        "magnesium_mg": 200
+      },
+      "price_per_active_unit": {
+        "bgn_per_100mg_magnesium": 0.2
+      },
+      "unit_label": "лв / 100 mg магнезий",
+      "confidence": "high",
+      "scraped_at": "2026-05-22T08:48:46.915288Z",
+      "old_price_bgn": 45.0,
+      "discount_pct": 10,
+      "promo_label": "-10%"
+    },
+    {
+      "id": "stayfit-haya-labs-magnesium-citrate-200-mg",
+      "store": "Stayfit",
+      "name": "HAYA LABS Magnesium Citrate 200 mg",
+      "brand": "Haya Labs",
+      "category": "magnesium",
+      "url": "https://stayfit.bg/product/haya-labs-magnesium-citrate-200-mg",
+      "image": "https://stayfit.bg/cdn/img/products/867/haya-labs-magnesium-citrate-200-mg-682b1850dc266.jpeg?width=600&height=600&v=1777620419",
+      "price_bgn": 25.0,
+      "price_eur": 12.78,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": 50,
+      "count": 100,
+      "active": {
+        "magnesium_mg": 200
+      },
+      "price_per_active_unit": {
+        "bgn_per_100mg_magnesium": 0.25
+      },
+      "unit_label": "лв / 100 mg магнезий",
+      "confidence": "high",
+      "scraped_at": "2026-05-22T08:48:51.021584Z"
+    },
+    {
+      "id": "stayfit-human-protect-tri-citrate-magnesium-potassium-zinc",
+      "store": "Stayfit",
+      "name": "Human Protect Tri Citrate Magnesium + Potassium + Zinc",
+      "brand": "Human Protect",
+      "category": "magnesium",
+      "url": "https://stayfit.bg/product/human-protect-tri-citrate-magnesium-potassium-zinc",
+      "image": "https://stayfit.bg/cdn/img/products/596/human-protect-tri-citrate-magnesium--potassium--zinc-64eba0c90614b.jpeg?width=600&height=600&v=1777620413",
+      "price_bgn": 30.94,
+      "price_eur": 15.82,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": 60,
+      "count": 60,
+      "active": {
+        "magnesium_mg": 200
+      },
+      "price_per_active_unit": {
+        "bgn_per_100mg_magnesium": 0.26
+      },
+      "unit_label": "лв / 100 mg магнезий",
+      "confidence": "high",
+      "scraped_at": "2026-05-22T08:48:52.380988Z"
     }
   ]
 };

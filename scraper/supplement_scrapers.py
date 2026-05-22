@@ -116,6 +116,16 @@ SOURCES = (
         ("mypharmacy.bg",),
     ),
     Source(
+        "FHL",
+        ("https://www.fhl.bg/sitemap.xml",),
+        ("fhl.bg", "www.fhl.bg"),
+    ),
+    Source(
+        "Stayfit",
+        ("https://stayfit.bg/sitemap/product/1.txt",),
+        ("stayfit.bg",),
+    ),
+    Source(
         "Mirabel",
         tuple(f"https://mirabel.bg/sitemap-product-{i}.xml" for i in range(1, 11)),
         ("mirabel.bg",),
@@ -141,10 +151,13 @@ def fetch(url: str, timeout: int = 25) -> str | None:
 
 
 def parse_sitemap_urls(xml: str) -> list[str]:
-    return [
+    urls = [
         html_unescape(match.strip())
         for match in re.findall(r"<loc>\s*(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?\s*</loc>", xml, re.I | re.S)
     ]
+    if urls:
+        return urls
+    return [line.strip() for line in xml.splitlines() if line.strip().startswith("http")]
 
 
 def normalize_text(value: str) -> str:
@@ -166,13 +179,21 @@ def html_unescape(value: str) -> str:
 def detect_category(*parts: str) -> str | None:
     haystack = " ".join(unquote(p or "").lower() for p in parts)
     for category, keywords in CATEGORY_KEYWORDS.items():
-        if any(keyword in haystack for keyword in keywords):
+        if any(category_keyword_matches(haystack, keyword) for keyword in keywords):
             return category
     return None
 
 
+def category_keyword_matches(haystack: str, keyword: str) -> bool:
+    if keyword in {"epa", "dha"}:
+        return bool(re.search(rf"(?<![a-zа-я0-9]){re.escape(keyword)}(?![a-zа-я0-9])", haystack, re.I))
+    return keyword in haystack
+
+
 def discover_urls(source: Source, per_category: int, categories: set[str] | None = None) -> dict[str, list[str]]:
     allowed = categories or set(CATEGORY_KEYWORDS)
+    if source.name == "FHL":
+        return discover_fhl_urls(source, per_category, allowed)
     discovered = {category: [] for category in allowed}
     seen: set[str] = set()
     for sitemap_url in source.sitemap_urls:
@@ -197,6 +218,41 @@ def discover_urls(source: Source, per_category: int, categories: set[str] | None
     return {category: urls for category, urls in discovered.items() if urls}
 
 
+def discover_fhl_urls(source: Source, per_category: int, allowed: set[str]) -> dict[str, list[str]]:
+    discovered = {category: [] for category in allowed}
+    seen: set[str] = set()
+    listing_urls: list[tuple[str, str]] = []
+    for sitemap_url in source.sitemap_urls:
+        xml = fetch(sitemap_url)
+        if not xml:
+            continue
+        for url in parse_sitemap_urls(xml):
+            decoded = unquote(url).lower()
+            if "/products/listing/" not in decoded:
+                continue
+            category = detect_category(decoded)
+            if category and category in allowed:
+                listing_urls.append((category, url))
+
+    for category, listing_url in listing_urls:
+        if len(discovered[category]) >= per_category:
+            continue
+        html = fetch(listing_url, timeout=20)
+        if not html:
+            continue
+        soup = BeautifulSoup(html, "html.parser")
+        for link in soup.select('.gall-products a[href*="/products/product/"]'):
+            href = urljoin(listing_url, link.get("href") or "")
+            decoded = unquote(href).lower()
+            if "fhl.bg/products/product/" not in decoded or href in seen:
+                continue
+            discovered[category].append(href)
+            seen.add(href)
+            if len(discovered[category]) >= per_category:
+                break
+    return {category: urls for category, urls in discovered.items() if urls}
+
+
 def is_product_url(source_name: str, decoded_url: str) -> bool:
     if source_name == "Fitness1":
         return bool(re.search(r"/\d{3,6}/?$", decoded_url)) and "/brand/" not in decoded_url
@@ -212,6 +268,10 @@ def is_product_url(source_name: str, decoded_url: str) -> bool:
         return decoded_url.endswith(".html")
     if source_name == "MyPharmacy":
         return decoded_url.endswith(".html") and "/hranitelni-dobavki/" in decoded_url
+    if source_name == "FHL":
+        return "/products/product/" in decoded_url
+    if source_name == "Stayfit":
+        return "/product/" in decoded_url and "/cdn/" not in decoded_url
     if source_name == "Mirabel":
         return bool(re.search(r"/[^/]+\.html$", decoded_url))
     if source_name == "Ozone":
@@ -325,6 +385,29 @@ def detect_text_availability(text: str) -> str | None:
     return None
 
 
+def parse_money_bgn_from_text(value: str) -> float | None:
+    matches = re.findall(r"(\d+(?:[,.]\d{1,2})?)\s*(?:лв|BGN)", value, re.I)
+    if matches:
+        return parse_number(matches[-1])
+    return None
+
+
+def parse_source_price(source_name: str, soup: BeautifulSoup) -> tuple[float | None, float | None, str | None, str | None, str | None]:
+    if source_name == "FHL":
+        candidates = []
+        for node in soup.select(".prod-sec .price, .price"):
+            clone = BeautifulSoup(str(node), "html.parser")
+            for old_node in clone.select(".old_value"):
+                old_node.decompose()
+            price = parse_money_bgn_from_text(clone.get_text(" ", strip=True))
+            if price is not None:
+                candidates.append(price)
+        if candidates:
+            price_bgn = candidates[0]
+            return price_bgn, round(price_bgn / BGN_TO_EUR, 2), "BGN", detect_text_availability(soup.get_text(" ", strip=True)), None
+    return None, None, None, None, None
+
+
 def parse_price(product: dict, text: str) -> tuple[float | None, float | None, str | None, str | None, str | None]:
     structured = parse_structured_offer(product)
     if structured[0] is not None:
@@ -351,6 +434,62 @@ def parse_price(product: dict, text: str) -> tuple[float | None, float | None, s
             price_bgn = parse_number(match.group(1))
             return price_bgn, round(price_bgn / BGN_TO_EUR, 2), "BGN", detect_text_availability(text), None
     return None, None, None, detect_text_availability(text), None
+
+
+def extract_promo_info(soup: BeautifulSoup, price_bgn: float | None, source_name: str | None = None) -> dict:
+    if not price_bgn:
+        return {}
+
+    old_price = None
+    if source_name == "FHL":
+        first_price = soup.select_one(".prod-sec .price, .price")
+        old_nodes = first_price.select(".old_value") if first_price else []
+        for node in old_nodes:
+            parsed = parse_money_bgn_from_text(node.get_text(" ", strip=True))
+            if parsed and parsed > price_bgn:
+                old_price = parsed if old_price is None else min(old_price, parsed)
+    else:
+        for selector in (
+            ".old_value",
+            ".price-old-js",
+            "._product-details-price-old",
+            ".old-price",
+            ".regular-price",
+        ):
+            for node in soup.select(selector):
+                parsed = parse_money_bgn_from_text(node.get_text(" ", strip=True))
+                if parsed and parsed > price_bgn:
+                    old_price = parsed if old_price is None else min(old_price, parsed)
+
+    text = normalize_text(soup.get_text(" ", strip=True))
+    if old_price is None:
+        for pattern in (
+            r"(?:Стара цена|Old price|Regular price):?\s*[^.]{0,80}?(\d+(?:[,.]\d{1,2})?)\s*(?:лв|BGN)",
+            r"(\d+(?:[,.]\d{1,2})?)\s*(?:лв|BGN)\s*(?:Стара цена|Old price|Regular price)",
+        ):
+            for match in re.finditer(pattern, text, re.I):
+                parsed = parse_number(match.group(1))
+                if parsed and parsed > price_bgn:
+                    old_price = parsed if old_price is None else min(old_price, parsed)
+
+    discount_pct = None
+    for node in soup.select(".badge-discount, ._product-discount, .product-discount, .discount"):
+        match = re.search(r"(\d{1,2})\s*%", node.get_text(" ", strip=True))
+        if match:
+            discount_pct = int(match.group(1))
+            break
+
+    if old_price is None:
+        return {"promo_label": f"-{discount_pct}%"} if discount_pct else {}
+
+    computed = round((old_price - price_bgn) / old_price * 100)
+    if computed <= 0:
+        return {}
+    return {
+        "old_price_bgn": round(old_price, 2),
+        "discount_pct": discount_pct or computed,
+        "promo_label": f"-{discount_pct or computed}%",
+    }
 
 
 def parse_number(value: str) -> float | None:
@@ -1000,9 +1139,11 @@ def parse_product(source: Source, url: str, forced_category: str | None = None) 
     category = forced_category or detect_category(name, url, text)
     if not category:
         return None
-    if not is_relevant_product(category, name, url):
+    if not (forced_category and source.name == "FHL") and not is_relevant_product(category, name, url):
         return None
-    price_bgn, price_eur, currency_source, availability_status, offer_name = parse_price(product, text)
+    price_bgn, price_eur, currency_source, availability_status, offer_name = parse_source_price(source.name, soup)
+    if price_bgn is None:
+        price_bgn, price_eur, currency_source, availability_status, offer_name = parse_price(product, text)
     if availability_status == "out_of_stock":
         return None
     if price_bgn is not None and price_bgn < 1:
@@ -1030,7 +1171,7 @@ def parse_product(source: Source, url: str, forced_category: str | None = None) 
     if any(value <= 0.01 for value in price_units.values()):
         return None
 
-    return {
+    item = {
         "id": make_id(source.name, name, url),
         "store": source.name,
         "name": name,
@@ -1051,6 +1192,8 @@ def parse_product(source: Source, url: str, forced_category: str | None = None) 
         "confidence": confidence,
         "scraped_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
     }
+    item.update(extract_promo_info(soup, price_bgn, source.name))
+    return item
 
 
 def is_relevant_product(category: str, name: str, url: str) -> bool:
