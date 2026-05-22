@@ -1,9 +1,9 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-05-21T19:02:09.574595Z",
-  "content_hash": "df5ca68cb86274946adf2bb230b9503d",
-  "total_offers": 4415,
-  "promo_offers": 1646,
-  "assortment_offers": 2769,
+  "generated_at": "2026-05-22T07:51:38.349874Z",
+  "content_hash": "196cd088b51db82bb98e342359c4fc55",
+  "total_offers": 4421,
+  "promo_offers": 1657,
+  "assortment_offers": 2764,
   "stores": [
     "Billa",
     "Dar",
@@ -386,6 +386,70 @@ const OFFERS_DATA = {
       "product_id": "dar-ципура-чистена-пр-д-турция-кг-f-риба-дар"
     },
     {
+      "store": "Fantastico",
+      "address": null,
+      "new_price": 10.99,
+      "new_price_eur": 5.62,
+      "old_price": 12.01,
+      "old_price_eur": 6.14,
+      "discount_pct": 8,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Fantastico"
+      ],
+      "store_prices": [
+        {
+          "store": "Fantastico",
+          "price": 10.99,
+          "price_eur": 5.62,
+          "old_price": 12.01,
+          "old_price_eur": 6.14,
+          "discount_pct": 8,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Fantastico",
+      "best_price": 10.99,
+      "comparison_count": 1,
+      "product_id": "fantastico-ципура-чистена-произход-турция-кг-f-риба"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 11.32,
+      "new_price_eur": 5.79,
+      "old_price": 14.98,
+      "old_price_eur": 7.66,
+      "discount_pct": 24,
+      "valid_from": "2026-05-18",
+      "valid_until": "2026-05-24",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 11.32,
+          "price_eur": 5.79,
+          "old_price": 14.98,
+          "old_price_eur": 7.66,
+          "discount_pct": 24,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 11.32,
+      "comparison_count": 1,
+      "product_id": "kaufland-пъстърва-изчистена-прясна"
+    },
+    {
       "store": "Dar",
       "address": null,
       "new_price": 11.95,
@@ -484,34 +548,34 @@ const OFFERS_DATA = {
     {
       "store": "Fantastico",
       "address": null,
-      "new_price": 12.01,
-      "new_price_eur": 6.14,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
+      "new_price": 12.49,
+      "new_price_eur": 6.39,
+      "old_price": 13.8,
+      "old_price_eur": 7.06,
+      "discount_pct": 9,
       "valid_from": null,
       "valid_until": null,
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "assortment",
+      "source_type": "promo",
       "available_stores": [
         "Fantastico"
       ],
       "store_prices": [
         {
           "store": "Fantastico",
-          "price": 12.01,
-          "price_eur": 6.14,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
+          "price": 12.49,
+          "price_eur": 6.39,
+          "old_price": 13.8,
+          "old_price_eur": 7.06,
+          "discount_pct": 9,
+          "source_type": "promo"
         }
       ],
       "best_price_store": "Fantastico",
-      "best_price": 12.01,
+      "best_price": 12.49,
       "comparison_count": 1,
-      "product_id": "fantastico-ципура-чистена-произход-турция-кг-f-риба"
+      "product_id": "fantastico-лаврак-чистен-произход-турция-кг-f-риба"
     },
     {
       "store": "Fantastico",
@@ -576,38 +640,6 @@ const OFFERS_DATA = {
       "best_price": 13.8,
       "comparison_count": 1,
       "product_id": "fantastico-лаврак-чистен-пр-д-турция-кг-морски-дар"
-    },
-    {
-      "store": "Fantastico",
-      "address": null,
-      "new_price": 13.8,
-      "new_price_eur": 7.06,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Fantastico"
-      ],
-      "store_prices": [
-        {
-          "store": "Fantastico",
-          "price": 13.8,
-          "price_eur": 7.06,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Fantastico",
-      "best_price": 13.8,
-      "comparison_count": 1,
-      "product_id": "fantastico-лаврак-чистен-произход-турция-кг-f-риба"
     },
     {
       "store": "Billa",
@@ -4196,6 +4228,38 @@ const OFFERS_DATA = {
       "product_id": "kaufland-krina-боб-нахут-или-леща-540g"
     },
     {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 2.52,
+      "new_price_eur": 1.29,
+      "old_price": 7.49,
+      "old_price_eur": 3.83,
+      "discount_pct": 66,
+      "valid_from": "2026-05-18",
+      "valid_until": "2026-05-24",
+      "price_per_kg": 20.16,
+      "price_per_kg_eur": 10.31,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 2.52,
+          "price_eur": 1.29,
+          "old_price": 7.49,
+          "old_price_eur": 3.83,
+          "discount_pct": 66,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 2.52,
+      "comparison_count": 1,
+      "product_id": "kaufland-малини-125g"
+    },
+    {
       "store": "Fantastico",
       "address": null,
       "new_price": 2.53,
@@ -5876,6 +5940,38 @@ const OFFERS_DATA = {
       "best_price": 4.99,
       "comparison_count": 1,
       "product_id": "billa-kapetanios-тахан-класик-300-г-300g"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 5.07,
+      "new_price_eur": 2.59,
+      "old_price": 10.99,
+      "old_price_eur": 5.62,
+      "discount_pct": 54,
+      "valid_from": "2026-05-18",
+      "valid_until": "2026-05-24",
+      "price_per_kg": 5.07,
+      "price_per_kg_eur": 2.59,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 5.07,
+          "price_eur": 2.59,
+          "old_price": 10.99,
+          "old_price_eur": 5.62,
+          "discount_pct": 54,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 5.07,
+      "comparison_count": 1,
+      "product_id": "kaufland-сами-м-панирани-пилешки-хапки-замразени-1000g"
     },
     {
       "store": "Fantastico",
@@ -11013,7 +11109,7 @@ const OFFERS_DATA = {
       "best_price_store": "Dar",
       "best_price": 0.33,
       "comparison_count": 2,
-      "product_id": "fantastico-лук-жълт-произход-украина-опс"
+      "product_id": "fantastico-лук-жълт-произход-нидерландия-опс"
     },
     {
       "store": "Fantastico",
@@ -15953,9 +16049,19 @@ const OFFERS_DATA = {
       "price_per_kg_eur": null,
       "source_type": "assortment",
       "available_stores": [
+        "Dar",
         "Fantastico"
       ],
       "store_prices": [
+        {
+          "store": "Dar",
+          "price": 2.19,
+          "price_eur": 1.12,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        },
         {
           "store": "Fantastico",
           "price": 2.19,
@@ -15966,9 +16072,9 @@ const OFFERS_DATA = {
           "source_type": "assortment"
         }
       ],
-      "best_price_store": "Fantastico",
+      "best_price_store": "Dar",
       "best_price": 2.19,
-      "comparison_count": 1,
+      "comparison_count": 2,
       "product_id": "fantastico-ябълки-златна-превъзходна-клас-i-п-д-италия"
     },
     {
@@ -16652,6 +16758,48 @@ const OFFERS_DATA = {
     {
       "store": "Fantastico",
       "address": null,
+      "new_price": 2.72,
+      "new_price_eur": 1.39,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Dar",
+        "Fantastico"
+      ],
+      "store_prices": [
+        {
+          "store": "Dar",
+          "price": 2.72,
+          "price_eur": 1.39,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        },
+        {
+          "store": "Fantastico",
+          "price": 2.72,
+          "price_eur": 1.39,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Dar",
+      "best_price": 2.72,
+      "comparison_count": 2,
+      "product_id": "fantastico-домати-червени-произход-българия-клас-i"
+    },
+    {
+      "store": "Fantastico",
+      "address": null,
       "new_price": 2.76,
       "new_price_eur": 1.41,
       "old_price": null,
@@ -17100,48 +17248,6 @@ const OFFERS_DATA = {
       "address": null,
       "new_price": 2.99,
       "new_price_eur": 1.53,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Dar",
-        "Fantastico"
-      ],
-      "store_prices": [
-        {
-          "store": "Dar",
-          "price": 2.99,
-          "price_eur": 1.53,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        },
-        {
-          "store": "Fantastico",
-          "price": 2.99,
-          "price_eur": 1.53,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Dar",
-      "best_price": 2.99,
-      "comparison_count": 2,
-      "product_id": "fantastico-домати-червени-произход-българия-клас-i"
-    },
-    {
-      "store": "Fantastico",
-      "address": null,
-      "new_price": 2.99,
-      "new_price_eur": 1.53,
       "old_price": 3.47,
       "old_price_eur": 1.77,
       "discount_pct": 14,
@@ -17348,6 +17454,70 @@ const OFFERS_DATA = {
       "best_price": 3.17,
       "comparison_count": 1,
       "product_id": "kaufland-булгарче-кисело-мляко-2-масленост-400g"
+    },
+    {
+      "store": "Fantastico",
+      "address": null,
+      "new_price": 3.18,
+      "new_price_eur": 1.63,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Fantastico"
+      ],
+      "store_prices": [
+        {
+          "store": "Fantastico",
+          "price": 3.18,
+          "price_eur": 1.63,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Fantastico",
+      "best_price": 3.18,
+      "comparison_count": 1,
+      "product_id": "fantastico-краставици-сорт-гергана-клас-i-пр-д-българия"
+    },
+    {
+      "store": "Dar",
+      "address": null,
+      "new_price": 3.18,
+      "new_price_eur": 1.63,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Dar"
+      ],
+      "store_prices": [
+        {
+          "store": "Dar",
+          "price": 3.18,
+          "price_eur": 1.63,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Dar",
+      "best_price": 3.18,
+      "comparison_count": 1,
+      "product_id": "dar-краставици-сорт-гергана-клас-i-пр-д-българия-кг-дар"
     },
     {
       "store": "Fantastico",
@@ -17968,38 +18138,6 @@ const OFFERS_DATA = {
       "product_id": "billa-hochland-топено-сирене-140-г-продукт-маркиран-със-синя-звезда-140g"
     },
     {
-      "store": "Fantastico",
-      "address": null,
-      "new_price": 3.5,
-      "new_price_eur": 1.79,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Fantastico"
-      ],
-      "store_prices": [
-        {
-          "store": "Fantastico",
-          "price": 3.5,
-          "price_eur": 1.79,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Fantastico",
-      "best_price": 3.5,
-      "comparison_count": 1,
-      "product_id": "fantastico-краставици-сорт-гергана-клас-i-пр-д-българия"
-    },
-    {
       "store": "Dar",
       "address": null,
       "new_price": 3.79,
@@ -18200,38 +18338,6 @@ const OFFERS_DATA = {
       "best_price": 3.99,
       "comparison_count": 1,
       "product_id": "fantastico-сирене-от-краве-мляко-божана-400-гр-вакуум-400g"
-    },
-    {
-      "store": "Dar",
-      "address": null,
-      "new_price": 3.99,
-      "new_price_eur": 2.04,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Dar"
-      ],
-      "store_prices": [
-        {
-          "store": "Dar",
-          "price": 3.99,
-          "price_eur": 2.04,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Dar",
-      "best_price": 3.99,
-      "comparison_count": 1,
-      "product_id": "dar-краставици-сорт-гергана-клас-i-пр-д-българия-кг-дар"
     },
     {
       "store": "Billa",
@@ -22072,6 +22178,38 @@ const OFFERS_DATA = {
       "product_id": "fantastico-сирене-краве-боровица-пикантно-вакуум-farm"
     },
     {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 13.67,
+      "new_price_eur": 6.99,
+      "old_price": 19.26,
+      "old_price_eur": 9.85,
+      "discount_pct": 29,
+      "valid_from": "2026-05-18",
+      "valid_until": "2026-05-24",
+      "price_per_kg": 13.67,
+      "price_per_kg_eur": 6.99,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 13.67,
+          "price_eur": 6.99,
+          "old_price": 19.26,
+          "old_price_eur": 9.85,
+          "discount_pct": 29,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 13.67,
+      "comparison_count": 1,
+      "product_id": "kaufland-родопея-сирене-от-краве-мляко-1000g"
+    },
+    {
       "store": "Fantastico",
       "address": null,
       "new_price": 13.79,
@@ -23630,6 +23768,38 @@ const OFFERS_DATA = {
       "best_price": 1.42,
       "comparison_count": 1,
       "product_id": "fantastico-грах-от-зимника-стерилизиран-400-гр-консерва-400g"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 1.47,
+      "new_price_eur": 0.75,
+      "old_price": 2.48,
+      "old_price_eur": 1.27,
+      "discount_pct": 41,
+      "valid_from": "2026-05-18",
+      "valid_until": "2026-05-24",
+      "price_per_kg": 2.94,
+      "price_per_kg_eur": 1.5,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 1.47,
+          "price_eur": 0.75,
+          "old_price": 2.48,
+          "old_price_eur": 1.27,
+          "discount_pct": 41,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 1.47,
+      "comparison_count": 1,
+      "product_id": "kaufland-бял-хляб-с-квас-от-нашата-пекарна-500g"
     },
     {
       "store": "Fantastico",
@@ -29265,6 +29435,90 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Dar",
+        "Fantastico"
+      ],
+      "store_prices": [
+        {
+          "store": "Dar",
+          "price": 0.78,
+          "price_eur": 0.4,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        },
+        {
+          "store": "Fantastico",
+          "price": 0.78,
+          "price_eur": 0.4,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Dar",
+      "best_price": 0.78,
+      "comparison_count": 2,
+      "product_id": "fantastico-чаи-биопрограма-алпинист-20-бр-х-1-5-г-кутия-2"
+    },
+    {
+      "store": "Fantastico",
+      "address": null,
+      "new_price": 0.78,
+      "new_price_eur": 0.4,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Dar",
+        "Fantastico"
+      ],
+      "store_prices": [
+        {
+          "store": "Dar",
+          "price": 0.78,
+          "price_eur": 0.4,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        },
+        {
+          "store": "Fantastico",
+          "price": 0.78,
+          "price_eur": 0.4,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Dar",
+      "best_price": 0.78,
+      "comparison_count": 2,
+      "product_id": "fantastico-чаи-биопрограма-добро-утро-20-бр-х-1-5-г-кутия-2"
+    },
+    {
+      "store": "Fantastico",
+      "address": null,
+      "new_price": 0.78,
+      "new_price_eur": 0.4,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
       "price_per_kg": 1.95,
       "price_per_kg_eur": 1.0,
       "source_type": "assortment",
@@ -30489,6 +30743,48 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Dar",
+        "Fantastico"
+      ],
+      "store_prices": [
+        {
+          "store": "Dar",
+          "price": 0.9,
+          "price_eur": 0.46,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        },
+        {
+          "store": "Fantastico",
+          "price": 0.9,
+          "price_eur": 0.46,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Dar",
+      "best_price": 0.9,
+      "comparison_count": 2,
+      "product_id": "fantastico-чаи-биопрограма-биобронхо-20бр-х-1-5г-кутия-2"
+    },
+    {
+      "store": "Fantastico",
+      "address": null,
+      "new_price": 0.9,
+      "new_price_eur": 0.46,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
       "price_per_kg": 2.25,
       "price_per_kg_eur": 1.15,
       "source_type": "assortment",
@@ -30552,48 +30848,6 @@ const OFFERS_DATA = {
       "best_price": 0.91,
       "comparison_count": 2,
       "product_id": "fantastico-мляко-кисело-боженци-2-2-400-гр-400g"
-    },
-    {
-      "store": "Fantastico",
-      "address": null,
-      "new_price": 0.92,
-      "new_price_eur": 0.47,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Dar",
-        "Fantastico"
-      ],
-      "store_prices": [
-        {
-          "store": "Dar",
-          "price": 0.92,
-          "price_eur": 0.47,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        },
-        {
-          "store": "Fantastico",
-          "price": 0.92,
-          "price_eur": 0.47,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Dar",
-      "best_price": 0.92,
-      "comparison_count": 2,
-      "product_id": "fantastico-чаи-биопрограма-алпинист-20-бр-х-1-5-г-кутия-2"
     },
     {
       "store": "Fantastico",
@@ -30804,48 +31058,6 @@ const OFFERS_DATA = {
       "best_price": 0.92,
       "comparison_count": 2,
       "product_id": "fantastico-мляко-кисело-ситово-3-6-400-гр-400g"
-    },
-    {
-      "store": "Fantastico",
-      "address": null,
-      "new_price": 0.92,
-      "new_price_eur": 0.47,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Dar",
-        "Fantastico"
-      ],
-      "store_prices": [
-        {
-          "store": "Dar",
-          "price": 0.92,
-          "price_eur": 0.47,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        },
-        {
-          "store": "Fantastico",
-          "price": 0.92,
-          "price_eur": 0.47,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Dar",
-      "best_price": 0.92,
-      "comparison_count": 2,
-      "product_id": "fantastico-чаи-биопрограма-добро-утро-20-бр-х-1-5-г-кутия-2"
     },
     {
       "store": "Fantastico",
@@ -31986,48 +32198,6 @@ const OFFERS_DATA = {
       "best_price": 1.07,
       "comparison_count": 2,
       "product_id": "fantastico-чаи-биопрограма-родопски-20-бр-х-1-5-г-кутия"
-    },
-    {
-      "store": "Fantastico",
-      "address": null,
-      "new_price": 1.07,
-      "new_price_eur": 0.55,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Dar",
-        "Fantastico"
-      ],
-      "store_prices": [
-        {
-          "store": "Dar",
-          "price": 1.07,
-          "price_eur": 0.55,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        },
-        {
-          "store": "Fantastico",
-          "price": 1.07,
-          "price_eur": 0.55,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Dar",
-      "best_price": 1.07,
-      "comparison_count": 2,
-      "product_id": "fantastico-чаи-биопрограма-биобронхо-20бр-х-1-5г-кутия-2"
     },
     {
       "store": "Fantastico",
@@ -36380,6 +36550,48 @@ const OFFERS_DATA = {
     {
       "store": "Fantastico",
       "address": null,
+      "new_price": 1.82,
+      "new_price_eur": 0.93,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Dar",
+        "Fantastico"
+      ],
+      "store_prices": [
+        {
+          "store": "Dar",
+          "price": 1.82,
+          "price_eur": 0.93,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        },
+        {
+          "store": "Fantastico",
+          "price": 1.82,
+          "price_eur": 0.93,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Dar",
+      "best_price": 1.82,
+      "comparison_count": 2,
+      "product_id": "fantastico-чаи-биопрограма-липа-20-бр-х-1-5-г-кутия-2"
+    },
+    {
+      "store": "Fantastico",
+      "address": null,
       "new_price": 1.84,
       "new_price_eur": 0.94,
       "old_price": null,
@@ -38802,48 +39014,6 @@ const OFFERS_DATA = {
       "product_id": "fantastico-шампоан-дева-natural-beauty-лаика-и-мед-500-мл-500g"
     },
     {
-      "store": "Fantastico",
-      "address": null,
-      "new_price": 2.43,
-      "new_price_eur": 1.24,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Dar",
-        "Fantastico"
-      ],
-      "store_prices": [
-        {
-          "store": "Dar",
-          "price": 2.43,
-          "price_eur": 1.24,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        },
-        {
-          "store": "Fantastico",
-          "price": 2.43,
-          "price_eur": 1.24,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Dar",
-      "best_price": 2.43,
-      "comparison_count": 2,
-      "product_id": "fantastico-чаи-биопрограма-липа-20-бр-х-1-5-г-кутия-2"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 2.44,
@@ -39753,7 +39923,7 @@ const OFFERS_DATA = {
       "best_price_store": "Fantastico",
       "best_price": 2.85,
       "comparison_count": 1,
-      "product_id": "fantastico-масло-краве-beliisa-83-200-гр-дар-200g"
+      "product_id": "fantastico-масло-краве-beliisa-83-200-гр-200g"
     },
     {
       "store": "Fantastico",
@@ -41703,48 +41873,6 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Dar",
-        "Fantastico"
-      ],
-      "store_prices": [
-        {
-          "store": "Dar",
-          "price": 3.47,
-          "price_eur": 1.77,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        },
-        {
-          "store": "Fantastico",
-          "price": 3.47,
-          "price_eur": 1.77,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Dar",
-      "best_price": 3.47,
-      "comparison_count": 2,
-      "product_id": "fantastico-лимони-клас-i-произход-турция"
-    },
-    {
-      "store": "Fantastico",
-      "address": null,
-      "new_price": 3.47,
-      "new_price_eur": 1.77,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
       "price_per_kg": 7.54,
       "price_per_kg_eur": 3.86,
       "source_type": "assortment",
@@ -41798,6 +41926,48 @@ const OFFERS_DATA = {
       "best_price": 3.5,
       "comparison_count": 1,
       "product_id": "kaufland-патладжани-клас-i"
+    },
+    {
+      "store": "Fantastico",
+      "address": null,
+      "new_price": 3.55,
+      "new_price_eur": 1.82,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Dar",
+        "Fantastico"
+      ],
+      "store_prices": [
+        {
+          "store": "Dar",
+          "price": 3.55,
+          "price_eur": 1.82,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        },
+        {
+          "store": "Fantastico",
+          "price": 3.55,
+          "price_eur": 1.82,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Dar",
+      "best_price": 3.55,
+      "comparison_count": 2,
+      "product_id": "fantastico-лимони-клас-i-произход-турция"
     },
     {
       "store": "Fantastico",
@@ -55094,6 +55264,48 @@ const OFFERS_DATA = {
       "address": null,
       "new_price": 14.99,
       "new_price_eur": 7.66,
+      "old_price": 30.67,
+      "old_price_eur": 15.68,
+      "discount_pct": 51,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 14.99,
+      "price_per_kg_eur": 7.66,
+      "source_type": "promo",
+      "available_stores": [
+        "Dar",
+        "Fantastico"
+      ],
+      "store_prices": [
+        {
+          "store": "Dar",
+          "price": 14.99,
+          "price_eur": 7.66,
+          "old_price": 30.67,
+          "old_price_eur": 15.68,
+          "discount_pct": 51,
+          "source_type": "promo"
+        },
+        {
+          "store": "Fantastico",
+          "price": 14.99,
+          "price_eur": 7.66,
+          "old_price": 30.67,
+          "old_price_eur": 15.68,
+          "discount_pct": 51,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Dar",
+      "best_price": 14.99,
+      "comparison_count": 2,
+      "product_id": "fantastico-кафе-kimbo-intenso-1-кг-зърна-1000g"
+    },
+    {
+      "store": "Fantastico",
+      "address": null,
+      "new_price": 14.99,
+      "new_price_eur": 7.66,
       "old_price": null,
       "old_price_eur": null,
       "discount_pct": null,
@@ -56763,9 +56975,19 @@ const OFFERS_DATA = {
       "price_per_kg_eur": 10.99,
       "source_type": "assortment",
       "available_stores": [
+        "Dar",
         "Fantastico"
       ],
       "store_prices": [
+        {
+          "store": "Dar",
+          "price": 21.49,
+          "price_eur": 10.99,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        },
         {
           "store": "Fantastico",
           "price": 21.49,
@@ -56776,9 +56998,9 @@ const OFFERS_DATA = {
           "source_type": "assortment"
         }
       ],
-      "best_price_store": "Fantastico",
+      "best_price_store": "Dar",
       "best_price": 21.49,
-      "comparison_count": 1,
+      "comparison_count": 2,
       "product_id": "fantastico-кафе-lavazza-suerte-1-кг-зърна-in-out-1000g"
     },
     {
@@ -57368,6 +57590,38 @@ const OFFERS_DATA = {
     {
       "store": "Kaufland",
       "address": null,
+      "new_price": 28.93,
+      "new_price_eur": 14.79,
+      "old_price": 34.99,
+      "old_price_eur": 17.89,
+      "discount_pct": 17,
+      "valid_from": "2026-05-18",
+      "valid_until": "2026-05-24",
+      "price_per_kg": 38.57,
+      "price_per_kg_eur": 19.72,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 28.93,
+          "price_eur": 14.79,
+          "old_price": 34.99,
+          "old_price_eur": 17.89,
+          "discount_pct": 17,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 28.93,
+      "comparison_count": 1,
+      "product_id": "kaufland-lavazza-мляно-кафе-qualita-rossa-750g"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
       "new_price": 29.9,
       "new_price_eur": 15.29,
       "old_price": 49.99,
@@ -57534,48 +57788,6 @@ const OFFERS_DATA = {
       "best_price": 30.65,
       "comparison_count": 1,
       "product_id": "fantastico-кафе-tchibo-variazione-1-кг-зърна-1000g"
-    },
-    {
-      "store": "Fantastico",
-      "address": null,
-      "new_price": 30.67,
-      "new_price_eur": 15.68,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 30.67,
-      "price_per_kg_eur": 15.68,
-      "source_type": "assortment",
-      "available_stores": [
-        "Dar",
-        "Fantastico"
-      ],
-      "store_prices": [
-        {
-          "store": "Dar",
-          "price": 30.67,
-          "price_eur": 15.68,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        },
-        {
-          "store": "Fantastico",
-          "price": 30.67,
-          "price_eur": 15.68,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Dar",
-      "best_price": 30.67,
-      "comparison_count": 2,
-      "product_id": "fantastico-кафе-kimbo-intenso-1-кг-зърна-1000g"
     },
     {
       "store": "Fantastico",
@@ -59646,6 +59858,48 @@ const OFFERS_DATA = {
       "product_id": "billa-супер-цена-grill-party-карначе-300-г-300g"
     },
     {
+      "store": "Fantastico",
+      "address": null,
+      "new_price": 4.49,
+      "new_price_eur": 2.3,
+      "old_price": 5.62,
+      "old_price_eur": 2.87,
+      "discount_pct": 20,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Dar",
+        "Fantastico"
+      ],
+      "store_prices": [
+        {
+          "store": "Dar",
+          "price": 4.49,
+          "price_eur": 2.3,
+          "old_price": 5.62,
+          "old_price_eur": 2.87,
+          "discount_pct": 20,
+          "source_type": "promo"
+        },
+        {
+          "store": "Fantastico",
+          "price": 4.49,
+          "price_eur": 2.3,
+          "old_price": 5.62,
+          "old_price_eur": 2.87,
+          "discount_pct": 20,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Dar",
+      "best_price": 4.49,
+      "comparison_count": 2,
+      "product_id": "fantastico-горица-бяло-саламурено-сирене-от-краве-мляко-б-я"
+    },
+    {
       "store": "Kaufland",
       "address": null,
       "new_price": 4.58,
@@ -59994,48 +60248,6 @@ const OFFERS_DATA = {
       "best_price": 5.49,
       "comparison_count": 1,
       "product_id": "dar-сакарела-бяло-саламурено-сирене-от-краве-мляко-б-я-дар"
-    },
-    {
-      "store": "Fantastico",
-      "address": null,
-      "new_price": 5.62,
-      "new_price_eur": 2.87,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Dar",
-        "Fantastico"
-      ],
-      "store_prices": [
-        {
-          "store": "Dar",
-          "price": 5.62,
-          "price_eur": 2.87,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        },
-        {
-          "store": "Fantastico",
-          "price": 5.62,
-          "price_eur": 2.87,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Dar",
-      "best_price": 5.62,
-      "comparison_count": 2,
-      "product_id": "fantastico-горица-бяло-саламурено-сирене-от-краве-мляко-б-я"
     },
     {
       "store": "Dar",
@@ -64322,6 +64534,48 @@ const OFFERS_DATA = {
       "product_id": "kaufland-k-asia-инстантна-супа-с-нудли-различни-видове-60g"
     },
     {
+      "store": "Fantastico",
+      "address": null,
+      "new_price": 0.58,
+      "new_price_eur": 0.3,
+      "old_price": 0.95,
+      "old_price_eur": 0.49,
+      "discount_pct": 39,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 0.58,
+      "price_per_kg_eur": 0.3,
+      "source_type": "promo",
+      "available_stores": [
+        "Dar",
+        "Fantastico"
+      ],
+      "store_prices": [
+        {
+          "store": "Dar",
+          "price": 0.58,
+          "price_eur": 0.3,
+          "old_price": 0.95,
+          "old_price_eur": 0.49,
+          "discount_pct": 39,
+          "source_type": "promo"
+        },
+        {
+          "store": "Fantastico",
+          "price": 0.58,
+          "price_eur": 0.3,
+          "old_price": 0.95,
+          "old_price_eur": 0.49,
+          "discount_pct": 39,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Dar",
+      "best_price": 0.58,
+      "comparison_count": 2,
+      "product_id": "fantastico-захар-кристал-1-кг-митекс-1000g"
+    },
+    {
       "store": "Kaufland",
       "address": null,
       "new_price": 0.59,
@@ -66796,6 +67050,38 @@ const OFFERS_DATA = {
       "product_id": "billa-belino-кроасан-80-г-80g"
     },
     {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 0.92,
+      "new_price_eur": 0.47,
+      "old_price": 1.74,
+      "old_price_eur": 0.89,
+      "discount_pct": 47,
+      "valid_from": "2026-05-18",
+      "valid_until": "2026-05-24",
+      "price_per_kg": 1.84,
+      "price_per_kg_eur": 0.94,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 0.92,
+          "price_eur": 0.47,
+          "old_price": 1.74,
+          "old_price_eur": 0.89,
+          "discount_pct": 47,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 0.92,
+      "comparison_count": 1,
+      "product_id": "kaufland-astika-бира-fine-quality-lager-500g"
+    },
+    {
       "store": "Fantastico",
       "address": null,
       "new_price": 0.92,
@@ -66900,48 +67186,6 @@ const OFFERS_DATA = {
       "best_price": 0.93,
       "comparison_count": 1,
       "product_id": "fantastico-четка-за-зъби-astera-таим-индикатор-medium-поставка-ар"
-    },
-    {
-      "store": "Fantastico",
-      "address": null,
-      "new_price": 0.95,
-      "new_price_eur": 0.49,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 0.95,
-      "price_per_kg_eur": 0.49,
-      "source_type": "assortment",
-      "available_stores": [
-        "Dar",
-        "Fantastico"
-      ],
-      "store_prices": [
-        {
-          "store": "Dar",
-          "price": 0.95,
-          "price_eur": 0.49,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        },
-        {
-          "store": "Fantastico",
-          "price": 0.95,
-          "price_eur": 0.49,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Dar",
-      "best_price": 0.95,
-      "comparison_count": 2,
-      "product_id": "fantastico-захар-кристал-1-кг-митекс-1000g"
     },
     {
       "store": "Kaufland",
@@ -111312,38 +111556,6 @@ const OFFERS_DATA = {
       "product_id": "kaufland-esmara-бюстие-36-46"
     },
     {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 8.98,
-      "new_price_eur": 4.59,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-05-18",
-      "valid_until": "2026-05-24",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 8.98,
-          "price_eur": 4.59,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 8.98,
-      "comparison_count": 1,
-      "product_id": "kaufland-драцена-ø10-5-см"
-    },
-    {
       "store": "Billa",
       "address": null,
       "new_price": 8.98,
@@ -112370,6 +112582,38 @@ const OFFERS_DATA = {
       "best_price": 9.76,
       "comparison_count": 1,
       "product_id": "kaufland-k-classic-лазаня-болонезе-1000g"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 9.76,
+      "new_price_eur": 4.99,
+      "old_price": 19.7,
+      "old_price_eur": 10.07,
+      "discount_pct": 50,
+      "valid_from": "2026-05-18",
+      "valid_until": "2026-05-24",
+      "price_per_kg": 29.58,
+      "price_per_kg_eur": 15.12,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 9.76,
+          "price_eur": 4.99,
+          "old_price": 19.7,
+          "old_price_eur": 10.07,
+          "discount_pct": 50,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 9.76,
+      "comparison_count": 1,
+      "product_id": "kaufland-nuii-сладолед-различни-вкусове-330g"
     },
     {
       "store": "Kaufland",
@@ -116174,38 +116418,6 @@ const OFFERS_DATA = {
       "best_price": 11.99,
       "comparison_count": 1,
       "product_id": "kaufland-nivea-афтършеив-балсам-или-лосион-различни-видове-100g"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 11.99,
-      "new_price_eur": 6.13,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-05-18",
-      "valid_until": "2026-05-24",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 11.99,
-          "price_eur": 6.13,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 11.99,
-      "comparison_count": 1,
-      "product_id": "kaufland-спатифилум-в-керамика-ø9-см"
     },
     {
       "store": "Fantastico",
@@ -123930,38 +124142,6 @@ const OFFERS_DATA = {
       "product_id": "kaufland-parkside-работен-гащеризон-48-58"
     },
     {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 29.98,
-      "new_price_eur": 15.33,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-05-18",
-      "valid_until": "2026-05-24",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 29.98,
-          "price_eur": 15.33,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 29.98,
-      "comparison_count": 1,
-      "product_id": "kaufland-хортензия-в-керамика-ø12-см"
-    },
-    {
       "store": "Billa",
       "address": null,
       "new_price": 29.98,
@@ -124056,6 +124236,38 @@ const OFFERS_DATA = {
       "best_price": 30.24,
       "comparison_count": 1,
       "product_id": "kaufland-nemiroff-водка-de-luxe-40-vol-1750g"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 31.98,
+      "new_price_eur": 16.35,
+      "old_price": 55.0,
+      "old_price_eur": 28.12,
+      "discount_pct": 42,
+      "valid_from": "2026-05-18",
+      "valid_until": "2026-05-24",
+      "price_per_kg": 3.2,
+      "price_per_kg_eur": 1.64,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 31.98,
+          "price_eur": 16.35,
+          "old_price": 55.0,
+          "old_price_eur": 28.12,
+          "discount_pct": 42,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 31.98,
+      "comparison_count": 1,
+      "product_id": "kaufland-darling-суха-храна-за-кучета-различни-видове-10000g"
     },
     {
       "store": "Kaufland",
