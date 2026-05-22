@@ -1,5 +1,5 @@
 const ALL_PRODUCTS_DATA = {
-  "generated_at": "2026-05-22T10:48:08.762842Z",
+  "generated_at": "2026-05-22T14:52:05.579415Z",
   "total_products": 16718,
   "products": [
     {
@@ -118664,7 +118664,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "images/foods/apple.svg",
       "product_id": "fantastico-лук-жълт-произход-украина-опс",
-      "last_seen": "2026-05-21",
+      "last_seen": "2026-05-22",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -197570,7 +197570,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "images/foods/butter.svg",
       "product_id": "fantastico-масло-краве-beliisa-83-200-гр-дар-200g",
-      "last_seen": "2026-05-21",
+      "last_seen": "2026-05-22",
       "first_seen": "2026-04-20",
       "price_history": [
         {
