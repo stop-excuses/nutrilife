@@ -282,7 +282,6 @@ section {
     border-bottom: 1px solid rgba(255, 255, 255, 0.06);
     padding: 10px 16px 9px;
     touch-action: manipulation;
-    overflow: hidden;
 }
 
 [data-theme="light"] .navbar {
@@ -293,19 +292,12 @@ section {
 .navbar .container {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     gap: 6px;
     flex-wrap: nowrap;
-    max-width: max-content;
+    max-width: 100%;
     margin: 0 auto;
-    overflow-x: auto;
-    overflow-y: hidden;
-    scrollbar-width: none;
-    -webkit-overflow-scrolling: touch;
-}
-
-.navbar .container::-webkit-scrollbar {
-    display: none;
+    overflow: visible;
 }
 
 /* Cross-page streak badge — links to start.html tracker */
@@ -344,17 +336,19 @@ section {
     .navbar .container {
         max-width: 100%;
         margin: 0;
-        gap: 4px;
+        gap: 2px;
+        justify-content: space-between;
     }
 
     .navbar .dot-wrapper {
-        min-width: 48px;
-        padding: 4px 6px;
+        flex: 1 1 0;
+        min-width: 0;
+        padding: 4px 2px;
     }
 
     .navbar .dot-label {
-        max-width: 64px;
-        font-size: 0.56rem;
+        max-width: 100%;
+        font-size: 0.5rem;
     }
 
     .hero {
@@ -373,7 +367,6 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex: 0 0 auto;
     touch-action: manipulation;
     gap: 4px;
     min-width: 54px;
@@ -481,6 +474,31 @@ section {
 
 .navbar .nav-link.active-page {
     color: var(--purple);
+}
+
+@media (max-width: 480px) {
+    .navbar .container {
+        max-width: 100%;
+        justify-content: space-between;
+        gap: 2px;
+        overflow: visible;
+    }
+
+    .navbar .dot-wrapper,
+    .navbar .nav-link {
+        flex: 1 1 0;
+        min-width: 0;
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+
+    .navbar .dot-label,
+    .navbar .nav-link {
+        max-width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 0.48rem;
+    }
 }
 
 /* --- Hero Section --- */

@@ -13,7 +13,6 @@ document.addEventListener("DOMContentLoaded", () => {
     initBmiCalculator();
     initTracker();
     initStreakBadge();
-    initNavbarActiveScroll();
     initVisitorCounter();
     hydrateTierListImages();
     initTierSections();
@@ -1196,16 +1195,6 @@ function initStreakBadge() {
     badge.innerHTML = '<span class="streak-icon">🔥</span><span class="streak-count">0</span>';
     container.appendChild(badge);
     updateStreakBadge();
-}
-
-function initNavbarActiveScroll() {
-    const container = document.querySelector(".navbar .container");
-    const active = document.querySelector(".navbar .dot-wrapper:has(.dot.active)");
-    if (!container || !active) return;
-    requestAnimationFrame(() => {
-        const target = active.offsetLeft - (container.clientWidth - active.offsetWidth) / 2;
-        container.scrollLeft = Math.max(0, target);
-    });
 }
 
 function updateStreakBadge() {
