@@ -280,8 +280,9 @@ section {
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     border-bottom: 1px solid rgba(255, 255, 255, 0.06);
-    padding: 12px 24px 10px;
+    padding: 10px 16px 9px;
     touch-action: manipulation;
+    overflow: hidden;
 }
 
 [data-theme="light"] .navbar {
@@ -292,9 +293,19 @@ section {
 .navbar .container {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 4px;
-    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 6px;
+    flex-wrap: nowrap;
+    max-width: max-content;
+    margin: 0 auto;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+}
+
+.navbar .container::-webkit-scrollbar {
+    display: none;
 }
 
 /* Cross-page streak badge — links to start.html tracker */
@@ -326,6 +337,30 @@ section {
     border-color: rgba(226, 75, 74, 0.25);
 }
 @media (max-width: 480px) {
+    .navbar {
+        padding: 8px 10px 7px;
+    }
+
+    .navbar .container {
+        max-width: 100%;
+        margin: 0;
+        gap: 4px;
+    }
+
+    .navbar .dot-wrapper {
+        min-width: 48px;
+        padding: 4px 6px;
+    }
+
+    .navbar .dot-label {
+        max-width: 64px;
+        font-size: 0.56rem;
+    }
+
+    .hero {
+        padding-top: 96px;
+    }
+
     .streak-badge {
         padding: 4px 10px;
         font-size: 0.78rem;
@@ -338,9 +373,11 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex: 0 0 auto;
     touch-action: manipulation;
     gap: 4px;
-    padding: 4px 8px;
+    min-width: 54px;
+    padding: 4px 7px;
     text-decoration: none;
     border-radius: 8px;
     transition: background 0.2s;
@@ -395,6 +432,9 @@ section {
     white-space: nowrap;
     letter-spacing: 0.02em;
     line-height: 1;
+    max-width: 76px;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .navbar .dot-wrapper:has(.dot.active) .dot-label {
