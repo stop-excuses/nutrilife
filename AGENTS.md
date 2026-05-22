@@ -1,6 +1,6 @@
 # NutriLife — AI Context
 
-Static website (HTML/CSS/JS) motivating Bulgarians toward healthy living. 5 pages, linear flow, dark theme. Python scraper for weekly grocery offers. All content in Bulgarian.
+Static website (HTML/CSS/JS) motivating Bulgarians toward healthy living. Core flow plus utility product pages, dark theme. Python scrapers for weekly grocery offers and supplement active-dose pricing. All content in Bulgarian.
 
 ## Quick orientation
 
@@ -15,7 +15,7 @@ smart-supplements.html
 "Smart Supplements" — отделен utility page/project за цена на активна доза при добавки
 ```
 
-Each page: fixed navbar with 5 dots (current page highlighted) + CTA button to next page.
+Main navbar principle: keep one top-level nav across product/core pages, with the money/product utilities visible as siblings: `Умна храна` then `Умни добавки`. Do not add `Добавки` as a separate top-level item again unless there is a deliberate IA change; the old `supplements.html` page is supporting educational content.
 
 **Live site**: https://stop-excuses.github.io/nutrilife/  
 **Repo**: https://github.com/stop-excuses/nutrilife  
@@ -24,6 +24,17 @@ Each page: fixed navbar with 5 dots (current page highlighted) + CTA button to n
 ## Current working notes
 
 Keep this section short and update it after hands-on QA/fixes so future sessions do not repeat the same discovery work.
+
+**Token/context hygiene**
+- Keep `AGENTS.md` short. Add only stable decisions, commands, and known traps that prevent rediscovery; avoid long research notes or full QA transcripts.
+- Prefer updating the newest relevant note instead of appending a new long dated block for every small UI tweak.
+- For Smart Supplements work, start from `js/supplements.js`, `scraper/supplement_scrapers.py`, `data/supplements.json`, and `tests/user-flow-smart-supplements.js`; do not re-audit labels from scratch unless product data changed.
+- For Smart Food work, start from `js/offers.js`, `scraper/scraper.py`, `data/market_memory.json/js`, and `tests/user-flow-smart-food.js`; do not re-run broad scraper research unless sources changed.
+
+**2026-05-22 nav decision**
+- Top nav now has 8 visible items: `Оправдания`, `Проверка`, `Движение`, `Хранене`, `Умна храна`, `Умни добавки`, `Старт`, `Психично`.
+- `Умни добавки` links directly to `smart-supplements.html`; generic `Добавки` is not in the main nav.
+- Mobile navbar is intentionally one-line/all-visible, not horizontally auto-scrolled. Tested at 390px and 320px on `index.html`, `smart-food.html`, `smart-supplements.html`, `start.html`, `supplements.html`.
 
 **2026-05-09 Smart Food product page QA**
 - Local test URL used: `http://127.0.0.1:8000/smart-food.html` via `python -m http.server 8000 --bind 127.0.0.1`.
