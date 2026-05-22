@@ -17,6 +17,7 @@
             'nav.supplements': 'Добавки',
             'nav.mental': 'Психично',
             'nav.smart_food': 'Умна храна',
+            'nav.smart_supplements': 'Умни добавки',
             'title.index': 'NutriLife — Все още имаш контрол',
             'title.move': 'NutriLife — Движи се',
             'title.eat': 'NutriLife — Яж правилно',
