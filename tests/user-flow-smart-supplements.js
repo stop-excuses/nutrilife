@@ -50,6 +50,11 @@ const BASE = 'http://127.0.0.1:8000/smart-supplements.html';
     await page.waitForTimeout(200);
     const detailsText = await details.textContent();
     step('Label details dropdown opens', /Прочетено от етикета|Опаковка|Как е категоризирано/.test(detailsText || ''), (detailsText || '').slice(0, 120));
+    const unclearForms = await page.locator('.supplement-form-row').evaluateAll(nodes => nodes
+      .map(node => node.textContent || '')
+      .filter(text => /форма неясна|формула неясна|неприложимо/i.test(text))
+    );
+    step('Visible form labels are specific', unclearForms.length === 0, `${unclearForms.length} vague labels`);
 
     // 3. Protein category — examine low-confidence cards
     await page.click('[data-category="protein"]');

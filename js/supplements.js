@@ -1,4 +1,4 @@
-(function () {
+﻿(function () {
     'use strict';
 
     const DATA = window.SUPPLEMENTS_DATA || (typeof SUPPLEMENTS_DATA !== 'undefined' ? SUPPLEMENTS_DATA : null);
@@ -605,12 +605,13 @@
     }
 
     function detectFormInfo(item) {
+        const active = item.active || {};
         const text = [
             item.name,
             item.brand,
             item.unit_label,
-            Object.keys(item.active || {}).join(' '),
-            Object.values(item.active || {}).join(' ')
+            Object.keys(active).join(' '),
+            Object.values(active).join(' ')
         ].filter(Boolean).join(' ').toLowerCase();
 
         if (item.category === 'magnesium') {
@@ -620,8 +621,9 @@
             if (hasAny(text, ['citrate', 'цитрат', 'citramal'])) return form('Магнезий цитрат', 'good');
             if (hasAny(text, ['chelated', 'chelate', 'хелат'])) return form('Хелатиран магнезий', 'good');
             if (hasAny(text, ['oxide', 'оксид'])) return form('Магнезий оксид', 'basic');
-            if (hasAny(text, ['complex', 'комплекс', 'calcium magnesium', 'zinc and magnesium'])) return form('Магнезиев комплекс', 'unknown');
-            return form('форма неясна', 'unknown');
+            if (hasAny(text, ['complex', 'комплекс', 'calcium magnesium', 'zinc and magnesium'])) return form('Магнезиев комплекс', 'standard');
+            if (active.magnesium_mg) return form('Магнезий по етикет', 'neutral');
+            return form('Магнезий', 'neutral');
         }
 
         if (item.category === 'zinc') {
@@ -631,8 +633,9 @@
             if (hasAny(text, ['gluconate', 'глюконат'])) return form('Цинк глюконат', 'good');
             if (hasAny(text, ['citrate', 'цитрат'])) return form('Цинк цитрат', 'good');
             if (hasAny(text, ['oxide', 'оксид', 'sulfate', 'сулфат'])) return form('Базова форма цинк', 'basic');
-            if (hasAny(text, ['complex', 'balance', 'duo', 'комплекс'])) return form('Цинков комплекс', 'unknown');
-            return form('форма неясна', 'unknown');
+            if (hasAny(text, ['complex', 'balance', 'duo', 'комплекс'])) return form('Цинков комплекс', 'standard');
+            if (active.zinc_mg) return form('Цинк по етикет', 'neutral');
+            return form('Цинк', 'neutral');
         }
 
         if (item.category === 'omega3') {
@@ -641,14 +644,15 @@
             if (hasAny(text, ['krill', 'крил'])) return form('Крилово масло', 'good');
             if (hasAny(text, ['3-6-9', '3 6 9'])) return form('Омега 3-6-9 комплекс', 'basic');
             if (hasAny(text, ['fish oil', 'рибено масло', 'omega', 'омега'])) return form('Рибено масло', 'good');
-            return form('форма неясна', 'unknown');
+            if (active.epa_dha_mg || active.epa_mg || active.dha_mg) return form('EPA+DHA омега-3', 'good');
+            return form('Омега-3', 'neutral');
         }
 
         if (item.category === 'vitamin_d') {
             if (hasAny(text, ['k2', 'k-2', 'к2'])) return form('D3 + K2', 'preferred');
             if (hasAny(text, ['d3', 'd-3', 'д3', 'холекалциферол'])) return form('Витамин D3', 'good');
             if (hasAny(text, ['d2', 'ергокалциферол'])) return form('Витамин D2', 'basic');
-            return form('форма неясна', 'unknown');
+            return form('Витамин D', 'neutral');
         }
 
         if (item.category === 'vitamin_c') {
@@ -656,55 +660,73 @@
             if (hasAny(text, ['buffered', 'буфериран'])) return form('Буфериран витамин C', 'good');
             if (hasAny(text, ['acerola', 'ацерола', 'rose hips', 'шипка', 'bioflavonoids', 'биофлав'])) return form('Витамин C с кофактори', 'good');
             if (hasAny(text, ['ascorbic', 'аскорбинова', 'c-1000', '1000 mg', '500 mg'])) return form('Стандартен витамин C', 'standard');
-            if (hasAny(text, ['collagen', 'колаген', 'zinc', 'цинк', 'complex', 'комплекс'])) return form('Витамин C комплекс', 'unknown');
-            return form('форма неясна', 'unknown');
+            if (hasAny(text, ['collagen', 'колаген', 'zinc', 'цинк', 'complex', 'комплекс'])) return form('Витамин C комплекс', 'standard');
+            if (active.vitamin_c_mg) return form('Витамин C по етикет', 'neutral');
+            return form('Витамин C', 'neutral');
+        }
+
+        if (item.category === 'vitamin_b') {
+            if (hasAny(text, ['methyl', 'метил', 'methylfolate', 'methylcobalamin'])) return form('Метилиран B-комплекс', 'good');
+            if (hasAny(text, ['complex', 'комплекс', 'b-50', 'b50', 'b-100', 'b100'])) return form('B-комплекс', 'standard');
+            return form('B-витамини', 'neutral');
+        }
+
+        if (item.category === 'multivitamin') {
+            if (hasAny(text, ['daily', 'one a day', 'one daily', 'мулти', 'multi', 'complex', 'комплекс'])) return form('Мултивитамин', 'standard');
+            return form('Мултивитамин', 'neutral');
         }
 
         if (item.category === 'creatine') {
             if (hasAny(text, ['creapure'])) return form('Creapure креатин', 'preferred');
             if (hasAny(text, ['monohydrate', 'mono', 'монохидрат'])) return form('Креатин монохидрат', 'good');
-            if (hasAny(text, ['malate', 'малат'])) return form('Креатин малат', 'unknown');
-            if (hasAny(text, ['kre-alkalyn'])) return form('Kre-Alkalyn', 'unknown');
-            if (hasAny(text, ['blend', 'matrix', 'taurine', 'смес', 'матрица'])) return form('Креатинова смес', 'unknown');
-            return form('форма неясна', 'unknown');
+            if (hasAny(text, ['malate', 'малат'])) return form('Креатин малат', 'standard');
+            if (hasAny(text, ['kre-alkalyn'])) return form('Kre-Alkalyn', 'standard');
+            if (hasAny(text, ['blend', 'matrix', 'taurine', 'смес', 'матрица'])) return form('Креатинова смес', 'standard');
+            if (active.creatine_mg_per_serving || active.creatine_total_mg) return form('Креатин по етикет', 'neutral');
+            return form('Креатин', 'neutral');
         }
 
         if (item.category === 'protein') {
             if (hasAny(text, ['isolate', 'изолат', 'hydro', 'хидро'])) return form('Изолат/хидролизат', 'preferred');
             if (hasAny(text, ['whey', 'суроват'])) return form('Суроватъчен протеин', 'good');
             if (hasAny(text, ['plant', 'растител'])) return form('Растителен протеин', 'good');
-            if (hasAny(text, ['blend', 'matrix', 'combat', 'source7', 'смес'])) return form('Протеинова смес', 'unknown');
-            return form('форма неясна', 'unknown');
+            if (hasAny(text, ['blend', 'matrix', 'combat', 'source7', 'смес'])) return form('Протеинова смес', 'standard');
+            if (active.protein_g) return form('Протеин по етикет', 'neutral');
+            if (active.estimated_total_protein_g) return form('Протеинова оценка', 'neutral');
+            return form('Протеин', 'neutral');
         }
 
         if (item.category === 'fiber') {
             if (hasAny(text, ['psyllium', 'псилиум', 'husk'])) return form('Псилиум хуск', 'good');
             if (hasAny(text, ['acacia', 'акациев'])) return form('Акациеви фибри', 'good');
-            if (hasAny(text, ['pectin', 'guar', 'пектин'])) return form('Фибри комплекс', 'unknown');
-            return form('форма неясна', 'unknown');
+            if (hasAny(text, ['pectin', 'guar', 'пектин'])) return form('Фибри комплекс', 'standard');
+            if (active.fiber_g || active.fiber_mg) return form('Фибри по етикет', 'neutral');
+            return form('Фибри', 'neutral');
         }
 
         if (item.category === 'electrolytes') {
             if (hasAny(text, ['sodium', 'натрий', 'potassium', 'калий', 'magnesium', 'магнезий'])) return form('Електролитен комплекс', 'good');
-            return form('формула неясна', 'unknown');
+            if (active.electrolyte_serving) return form('Електролитна доза', 'neutral');
+            return form('Електролити', 'neutral');
         }
 
         if (item.category === 'collagen') {
             if (hasAny(text, ['peptides', 'пептиди', 'hydrolyzed', 'хидролизиран'])) return form('Колагенови пептиди', 'good');
             if (hasAny(text, ['type ii', 'тип ii', 'uc-ii'])) return form('Колаген тип II', 'preferred');
-            return form('колаген', 'unknown');
+            if (active.collagen_g || active.collagen_total_g) return form('Колаген по етикет', 'neutral');
+            return form('Колаген', 'neutral');
         }
 
         if (item.category === 'iron') {
             if (hasAny(text, ['bisglycinate', 'бисглицинат'])) return form('Желязо бисглицинат', 'preferred');
             if (hasAny(text, ['fumarate', 'фумарат', 'gluconate', 'глюконат'])) return form('Органична форма желязо', 'good');
             if (hasAny(text, ['ferrous', 'sulfate', 'сулфат'])) return form('Желязна сол', 'standard');
-            return form('форма неясна', 'unknown');
+            if (active.iron_mg) return form('Желязо по етикет', 'neutral');
+            return form('Желязо', 'neutral');
         }
 
         return form('неприложимо', 'neutral');
     }
-
     function form(label, tier) {
         return { label, tier };
     }
@@ -718,7 +740,7 @@
         if (tier === 'good' && valueBadge.tone === 'high') return { tone: 'watch', label: 'добра форма, висок premium' };
         if (tier === 'basic' && valueBadge.tone === 'good') return { tone: 'neutral', label: 'евтино, но базова форма' };
         if (tier === 'basic') return { tone: 'watch', label: 'базова форма' };
-        if (tier === 'unknown') return { tone: 'unknown', label: 'форма неясна' };
+        if (tier === 'unknown') return { tone: 'unknown', label: 'провери формата' };
         return { tone: 'neutral', label: 'стандартна сметка' };
     }
 
