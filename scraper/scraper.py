@@ -720,13 +720,18 @@ def parse_weight(name):
     """
     name_lower = name.lower()
     # Skip "до" — indicates a maximum, not the actual weight
-    clean_name = re.sub(r'до\s+\d+[.,]?\d*\s*(кг|г|гр|л|мл)', '', name_lower)
+    clean_name = re.sub(r'(?<!\w)до\s+\d+[.,]?\d*\s*(кг|г|гр|л|мл)', '', name_lower)
 
     # Multi-pack: N x M unit — e.g. "2 x 300г", "4х100 мл", "3 x 0.5кг"
     mp = re.search(
         r'(\d+)\s*[xхXХ×]\s*(\d+[.,]?\d*)\s*(кг|г|гр|мл|л)\b',
         clean_name,
     )
+    if not mp:
+        mp = re.search(
+            r'(\d+)\s*бр\.?\s*[xхXХ×]\s*(\d+[.,]?\d*)\s*(кг|г|гр|мл|л)\b',
+            clean_name,
+        )
     if mp:
         count = int(mp.group(1))
         val = float(mp.group(2).replace(',', '.'))

@@ -29,6 +29,7 @@ let liveFallbackByCategory = new Map(); // category → real CDN image URL
 
 const OFFERS_PER_PAGE = 36;
 const PLACEHOLDER_IMAGE_MARKER = "No-Image-Placeholder.svg";
+const BROKEN_IMAGE_HOST_MARKERS = ["imgproxy-retcat.assets.schwarz"];
 
 function getCatalogProductsData() {
     if (typeof MARKET_MEMORY_DATA !== "undefined") return MARKET_MEMORY_DATA.products || [];
@@ -117,7 +118,8 @@ const PROTEIN_VALUE_ALLOWED_CATEGORIES = new Set(["protein", "dairy", "legume", 
 
 const NON_PROTEIN_VALUE_KEYWORDS = [
     "брашно", "бутер", "ролца", "банич", "витрина", "кюфтет", "кебапчет",
-    "кюфте", "панира", "хапки"
+    "кюфте", "панира", "хапки", "спагети", "макарон", "паста", "без яйца",
+    "пица", "пекарна", "готово", "готови", "billa ready"
 ];
 
 const EXACT_NON_FOOD_NAMES = new Set(["гъба"]);
@@ -343,7 +345,9 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function hasRealImage(image) {
-    return !!image && !String(image).includes(PLACEHOLDER_IMAGE_MARKER);
+    return !!image
+        && !String(image).includes(PLACEHOLDER_IMAGE_MARKER)
+        && !BROKEN_IMAGE_HOST_MARKERS.some(marker => String(image).includes(marker));
 }
 
 function hasExternalImage(image) {
@@ -1496,13 +1500,13 @@ function sortOffers(offers) {
             break;
         case "price_per_kg":
             sorted.sort((a, b) => {
-                const ha = isHealthyOffer(a) ? 0 : 1;
-                const hb = isHealthyOffer(b) ? 0 : 1;
-                if (ha !== hb) return ha - hb;
-                // products without price_per_kg go last
-                const pa = getReliablePricePerKg(a) || Infinity;
-                const pb = getReliablePricePerKg(b) || Infinity;
-                return pa - pb;
+                const pa = getReliablePricePerKg(a);
+                const pb = getReliablePricePerKg(b);
+                if (pa == null && pb == null) return (a.new_price ?? Infinity) - (b.new_price ?? Infinity);
+                if (pa == null) return 1;
+                if (pb == null) return -1;
+                if (pa !== pb) return pa - pb;
+                return (a.new_price ?? Infinity) - (b.new_price ?? Infinity);
             });
             break;
         case "health":
@@ -1824,6 +1828,20 @@ function extractWeightFromName(offer) {
     return getNormalizedWeightInfo(offer);
 }
 
+function getFavoriteUnitPrice(offer, kw) {
+    const eggMatch = (offer.name || "").match(/(\d+)\s*(?:бр|броя|яйц)/i);
+    if (normalizeFavoriteKeyword(kw) === 'яйц' && eggMatch && offer.new_price) {
+        return offer.new_price / parseInt(eggMatch[1], 10);
+    }
+
+    const weightInfo = extractWeightFromName(offer);
+    if (weightInfo?.grams && offer.new_price) {
+        return (offer.new_price / weightInfo.grams) * 1000;
+    }
+
+    return getReliablePricePerKg(offer);
+}
+
 function renderFavoritesPanel() {
     const panel = document.getElementById('fav-panel');
     const section = document.getElementById('fav-section');
@@ -1852,13 +1870,15 @@ function renderFavoritesPanel() {
             ? `<span class="fav-status">${offers.length} оферти</span>`
             : `<span class="fav-status none">Няма тази седмица</span>`;
 
-        // Sort by normalized price (price_per_kg if available, else price/weight, else raw price last)
-        const normPrice = o => {
-            const reliablePpk = getReliablePricePerKg(o);
-            if (reliablePpk) return reliablePpk;
-            return o.new_price ?? Infinity; // яйца, бройни продукти — сортира по обща цена
-        };
-        const sorted = [...offers].sort((a, b) => normPrice(a) - normPrice(b));
+        const sorted = [...offers].sort((a, b) => {
+            const pa = getFavoriteUnitPrice(a, kw);
+            const pb = getFavoriteUnitPrice(b, kw);
+            if (pa == null && pb == null) return (a.new_price ?? Infinity) - (b.new_price ?? Infinity);
+            if (pa == null) return 1;
+            if (pb == null) return -1;
+            if (pa !== pb) return pa - pb;
+            return (a.new_price ?? Infinity) - (b.new_price ?? Infinity);
+        });
         const FAV_LIMIT = 6;
         const shownOffers = sorted.slice(0, FAV_LIMIT);
         const hiddenCount = sorted.length - FAV_LIMIT;
@@ -1868,16 +1888,15 @@ function renderFavoritesPanel() {
             const disc = o.discount_pct ? `<span class="fav-disc">−${o.discount_pct}%</span>` : '';
             const oldPrice = o.old_price ? `<span class="fav-old">${o.old_price.toFixed(2)} лв</span>` : '';
             const wi = extractWeightFromName(o);
+            const unitPrice = getFavoriteUnitPrice(o, kw);
 
             // Price per unit: per-piece for яйца/бр, else per kg
             let unitHtml = '';
             const eggMatch = o.name.match(/(\d+)\s*(?:бр|броя|яйц)/i);
-            if (kw === 'яйц' && eggMatch) {
-                const perEgg = (o.new_price / parseInt(eggMatch[1])).toFixed(2);
-                unitHtml = `<span class="fav-pkg">${perEgg} лв/бр</span>`;
-            } else {
-                const ppkg = (wi?.grams && o.new_price) ? (o.new_price / wi.grams * 1000) : getReliablePricePerKg(o);
-                if (ppkg) unitHtml = `<span class="fav-pkg">${ppkg.toFixed(2)} лв/кг</span>`;
+            if (normalizeFavoriteKeyword(kw) === 'яйц' && eggMatch && unitPrice) {
+                unitHtml = `<span class="fav-pkg">${unitPrice.toFixed(2)} лв/бр</span>`;
+            } else if (unitPrice) {
+                unitHtml = `<span class="fav-pkg">${unitPrice.toFixed(2)} лв/кг</span>`;
             }
 
             const weightHtml = wi?.raw ? `<span class="fav-weight">${wi.raw}</span>` : '';
@@ -2205,9 +2224,9 @@ function applyFilters() {
         filtered = filtered.filter(o => isHealthyOffer(o) && (o.health_score || 0) >= 6);
     }
 
-    filteredOffersCache = searchQuery
-        ? sortSearchResults(filtered, searchQuery)
-        : (activeSort === "recommended" ? diversifyOffers(sortOffers(filtered)) : sortOffers(filtered));
+    filteredOffersCache = activeSort === "recommended"
+        ? (searchQuery ? sortSearchResults(filtered, searchQuery) : diversifyOffers(sortOffers(filtered)))
+        : sortOffers(filtered);
     renderOffers(filteredOffersCache);
 }
 
@@ -3122,7 +3141,29 @@ function renderProteinRanking() {
     const container = document.getElementById("protein-ranking");
     if (!container) return;
 
-    const items = allOffers.filter(o => isValidProteinValueOffer(o));
+    const getRankGroup = (offer) => {
+        const name = getOfferNameLower(offer);
+        if (name.includes("дроб")) return "дроб";
+        if (name.includes("пилеш") || name.includes("пиле")) return "пилешко";
+        if (name.includes("пъстърв") || name.includes("скумрия") || name.includes("сьомг") || name.includes("риба")) return "риба";
+        if (name.includes("извара")) return "извара";
+        if (name.includes("скир")) return "скир";
+        if (name.includes("яйц")) return "яйца";
+        if (name.includes("леща") || name.includes("боб") || name.includes("нахут")) return "бобови";
+        return normalizeProductKey(offer.name);
+    };
+    const hasPlausibleProteinPrice = (offer) => {
+        const ppk = getReliablePricePerKg(offer);
+        if (!ppk) return false;
+        const macros = getMacros(offer);
+        if (!macros || macros.p < 9) return false;
+        if ((macros.f || 0) > macros.p * 1.1) return false;
+        if (offer.category === "protein" && ppk < 2.4) return false;
+        if (offer.category === "dairy" && ppk < 1.6) return false;
+        if ((offer.category === "canned" || offer.category === "legume") && ppk < 1.2) return false;
+        return true;
+    };
+    const items = allOffers.filter(o => isValidProteinValueOffer(o) && hasPlausibleProteinPrice(o));
 
     if (items.length === 0) {
         container.innerHTML = '<p style="color:var(--muted);">Няма данни за протеинов анализ.</p>';
@@ -3134,23 +3175,36 @@ function renderProteinRanking() {
         return metrics ? { ...o, _macros: getMacros(o), ...metrics } : null;
     }).filter(Boolean).sort((a, b) => b.adjustedProteinPerEur - a.adjustedProteinPerEur);
 
-    const top = ranked.slice(0, 10);
+    const seenGroups = new Set();
+    const categoryCounts = new Map();
+    const top = [];
+    for (const item of ranked) {
+        const groupKey = getRankGroup(item);
+        if (seenGroups.has(groupKey)) continue;
+        const categoryCount = categoryCounts.get(item.category) || 0;
+        if (categoryCount >= 5) continue;
+        seenGroups.add(groupKey);
+        categoryCounts.set(item.category, categoryCount + 1);
+        top.push(item);
+        if (top.length >= 8) break;
+    }
 
     let html = top.map((o, i) => {
         const medal = i === 0 ? "🥇" : i === 1 ? "🥈" : i === 2 ? "🥉" : `${i + 1}.`;
         const barWidth = Math.round((o.adjustedProteinPerEur / top[0].adjustedProteinPerEur) * 100);
         const m = o._macros;
+        const rankThumbOffer = { ...o, image: getLocalFallbackImage(o) || o.image };
         return `
             <div class="protein-rank-item offer-card" data-offer-id="${getOfferDomId(o)}">
                 <div class="protein-rank-header offer-header">
                     <div class="rank-medal">${medal}</div>
                     <div class="offer-img-cell">
-                        ${renderOfferThumb(o)}
+                        ${renderOfferThumb(rankThumbOffer)}
                         <button class="fav-btn${isFavorited(o) ? ' active' : ''}" data-offer-id="${getOfferDomId(o)}" title="${isFavorited(o) ? 'Премахни от списъка' : 'Добави към списъка'}">❤️</button>
                     </div>
                     <div class="rank-info">
                         <div class="rank-name">${o.name}</div>
-                        <div class="rank-meta">${m.p}г протеин/100г · ${m.f}г мазнини · ${m.c}г въгл. · ${o.new_price.toFixed(2)} лв · ${o.store}${getOfferValidityText(o, "short") ? ` · ${getOfferValidityText(o, "short")}` : ""}</div>
+                        <div class="rank-meta">${m.p}г протеин/100г · ${m.f}г мазнини · ${m.c}г въгл. · ${getReliablePricePerKg(o).toFixed(2)} лв/кг · ${o.store}${getOfferValidityText(o, "short") ? ` · ${getOfferValidityText(o, "short")}` : ""}</div>
                         <div class="rank-bar-bg"><div class="rank-bar-fill" style="width:${barWidth}%"></div></div>
                     </div>
                     <div class="rank-value">${o.adjustedProteinPerEur.toFixed(1)}г/€</div>
@@ -3159,7 +3213,7 @@ function renderProteinRanking() {
                 <div class="offer-details">
                     <div class="details-inner">
                         <div class="details-content">
-                            <div class="details-row"><strong>Ефективен протеин/евро:</strong> <span class="green">${o.adjustedProteinPerEur.toFixed(1)}г</span></div>
+                            <div class="details-row"><strong>Качествен протеин/евро:</strong> <span class="green">${o.adjustedProteinPerEur.toFixed(1)}г</span></div>
                             <div class="details-row"><strong>Суров протеин/евро:</strong> <span>${o.rawProteinPerEur.toFixed(1)}г</span></div>
                             <div class="details-row"><strong>Чистота на протеина:</strong> <span>${(o.purity * 100).toFixed(0)}%</span></div>
                             ${isCuredLeanMeat(o) ? `<div class="details-row"><strong>Бележка:</strong> <span>Лек penalty за сол/сушене, но без penalty за готвене.</span></div>` : ""}

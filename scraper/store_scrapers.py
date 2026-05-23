@@ -116,7 +116,7 @@ def extract_weight(text: str) -> tuple[Optional[str], Optional[int]]:
         return None, None
     t = text.lower().strip()
     # Remove "до N unit" (max weight, not product weight)
-    t = re.sub(r'до\s+\d+[.,]?\d*\s*(кг|г|гр|л|мл|kg|g|ml|l)\b', '', t)
+    t = re.sub(r'(?<!\w)до\s+\d+[.,]?\d*\s*(кг|г|гр|л|мл|kg|g|ml|l)\b', '', t)
 
     # Unit patterns: Cyrillic and Latin, mapped to multiplier (to grams)
     # Order matters: longer units first to avoid partial matches
@@ -135,6 +135,11 @@ def extract_weight(text: str) -> tuple[Optional[str], Optional[int]]:
         rf'(\d+)\s*[xхXХ×]\s*(\d+[.,]?\d*)\s*({unit_pat})\b',
         t,
     )
+    if not mp:
+        mp = re.search(
+            rf'(\d+)\s*бр\.?\s*[xхXХ×]\s*(\d+[.,]?\d*)\s*({unit_pat})\b',
+            t,
+        )
     if mp:
         count = int(mp.group(1))
         val = float(mp.group(2).replace(',', '.'))

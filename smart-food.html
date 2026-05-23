@@ -28,7 +28,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <link href="css/style.css?v=34" rel="stylesheet"/>
 <script src="js/i18n.js?v=3"></script>
-<script src="js/i18n.smart-food.js?v=6"></script>
+<script src="js/i18n.smart-food.js?v=7"></script>
 </head>
 <body>
 <!-- Navbar -->
@@ -213,11 +213,11 @@
 </div>
 <div id="fav-panel"></div>
 </section>
-<!-- 3. Промоции тази седмица -->
+<!-- 3. Търсене и сравнение -->
 <section>
 <div class="section-title">
-<h2 data-i18n="c.s3.h2">Промоции тази седмица</h2>
-<p class="section-subtitle" data-i18n="c.s3.sub">Реални цени и промоции от български магазини</p>
+<h2 data-i18n="c.s3.h2">Търси и сравнявай продукти</h2>
+<p class="section-subtitle" data-i18n="c.s3.sub">Всички налични цени, промоции и история в българските магазини</p>
 </div>
 <div class="offers-status" id="offers-status">
 <span data-i18n="sf.offers.status.loading">Зареждане на данните...</span>
@@ -294,6 +294,22 @@
 <p data-i18n-html="c.p.3" style="text-align:center; color:#888;">Зареждане на сравненията...</p>
 </div>
 </section>
+<!-- 5. Качествен протеин за евро -->
+<section>
+<div class="section-title">
+<h2 data-i18n="c.protein.h2">Качествен протеин за евро</h2>
+<p class="section-subtitle" data-i18n="c.protein.sub">Кратка класация за добри източници: гледа протеин, цена, качество, ядлива част и хранителна чистота</p>
+</div>
+<div class="stat-pill-row" data-i18n-html="c.protein.pills">
+<span class="stat-pill green">Качество на протеина</span><span class="stat-pill green">Ядлив добив</span><span class="stat-pill amber">Наказва излишни мазнини и въглехидрати</span>
+</div>
+<div class="info-box mt-16" data-i18n-html="c.protein.explainer">
+<h3>Как се смята</h3><p style="margin-top:8px;">Това не е просто суров протеин на етикет. Рангът гледа <strong>колко полезен протеин реално получаваш за евро</strong>: отчита качеството на протеина, дали има кости/неядлива част, и наказва излишни мазнини и въглехидрати.</p>
+</div>
+<div id="protein-ranking" class="mt-24">
+<p style="text-align:center; color:#888;">Зареждане на протеиновата класация...</p>
+</div>
+</section>
 <!-- 7. Цената на боледуването -->
 <section>
 <div class="section-title">
@@ -328,9 +344,9 @@
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
 <script src="js/main.js?v=17"></script>
-<script src="data/market_memory.js?v=1"></script>
-<script src="data/offers.js?v=3"></script>
-<script src="js/offers.js?v=45"></script>
+<script src="data/market_memory.js?v=2"></script>
+<script src="data/offers.js?v=4"></script>
+<script src="js/offers.js?v=48"></script>
 <script>if('serviceWorker' in navigator){navigator.serviceWorker.register('sw.js?v=11');}</script>
 </body>
 </html>

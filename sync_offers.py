@@ -35,6 +35,50 @@ def _is_sold_by_kg(name: str) -> bool:
     nl = (name or '').lower()
     return any(p.search(nl) for p in _SOLD_BY_KG_PATTERNS)
 
+def _extract_weight(text: str) -> tuple[str | None, int | None]:
+    if not text:
+        return None, None
+
+    value = text.lower()
+    value = re.sub(
+        r'(?<!\w)до\s+\d+(?:[.,]\d+)?\s*(?:кг|г|гр|л|мл|kg|g|gr|ml|l)\b',
+        '',
+        value,
+    )
+
+    units = {
+        "кг": 1000, "kg": 1000,
+        "гр": 1, "gr": 1,
+        "г": 1, "g": 1,
+        "мл": 1, "ml": 1,
+        "л": 1000, "l": 1000,
+    }
+    unit_pat = "|".join(re.escape(unit) for unit in sorted(units, key=len, reverse=True))
+
+    multi = re.search(rf'(\d+)\s*[xхXХ×]\s*(\d+(?:[.,]\d+)?)\s*({unit_pat})\b', value)
+    if not multi:
+        multi = re.search(rf'(\d+)\s*бр\.?\s*[xхXХ×]\s*(\d+(?:[.,]\d+)?)\s*({unit_pat})\b', value)
+    if multi:
+        count = int(multi.group(1))
+        amount = float(multi.group(2).replace(",", "."))
+        grams = int(count * amount * units[multi.group(3)])
+        if 10 <= grams <= 50000:
+            return multi.group(0).strip(), grams
+
+    single = re.search(rf'(\d+(?:[.,]\d+)?)\s*({unit_pat})\b', value)
+    if single:
+        unit = single.group(2)
+        if unit == "г" and re.match(r'\s*од', value[single.end():]):
+            return None, None
+        if unit in {"л", "l"} and value[single.end():single.end() + 1] in {"в", "v"}:
+            return None, None
+        amount = float(single.group(1).replace(",", "."))
+        grams = int(amount * units[unit])
+        if 10 <= grams <= 50000:
+            return single.group(0).strip(), grams
+
+    return None, None
+
 def _infer_store(product_id: str) -> str | None:
     prefix = (product_id or "").split("-", 1)[0]
     return STORE_BY_PID_PREFIX.get(prefix)
@@ -55,6 +99,11 @@ def _price_signal(latest: float | None, lowest: float | None, avg: float | None)
     if avg and latest >= avg * 1.08:
         return "wait"
     return "normal"
+
+def _write_text_atomic(path: Path, text: str) -> None:
+    tmp = path.with_suffix(path.suffix + ".tmp")
+    tmp.write_text(text, encoding="utf-8")
+    tmp.replace(path)
 
 def _compact_product(product: dict, offer_lookup: dict) -> dict:
     pid = product.get("product_id") or product.get("id")
@@ -143,14 +192,9 @@ def write_market_memory(ap_data: dict, offers_data: dict) -> dict:
         "stores": sorted({p["store"] for p in products if p.get("store")}),
         "products": products,
     }
-    MARKET_MEMORY_JSON.write_text(
-        json.dumps(memory, ensure_ascii=False, separators=(",", ":")),
-        encoding="utf-8",
-    )
-    MARKET_MEMORY_JS.write_text(
-        "const MARKET_MEMORY_DATA = " + json.dumps(memory, ensure_ascii=False, separators=(",", ":")) + ";",
-        encoding="utf-8",
-    )
+    memory_json = json.dumps(memory, ensure_ascii=False, separators=(",", ":"))
+    _write_text_atomic(MARKET_MEMORY_JSON, memory_json)
+    _write_text_atomic(MARKET_MEMORY_JS, "const MARKET_MEMORY_DATA = " + memory_json + ";")
     return memory
 
 # ── Enrich all_products with ingredients_flags where missing ─────────────────
@@ -164,6 +208,7 @@ offer_store_by_pid = {
 }
 enriched = 0
 store_fixed = 0
+weight_fixed = 0
 for p in ap_data.get("products", []):
     pid = p.get("product_id") or p.get("id")
     if pid and not p.get("store"):
@@ -171,6 +216,19 @@ for p in ap_data.get("products", []):
         if store:
             p["store"] = store
             store_fixed += 1
+    weight_raw, weight_grams = _extract_weight(p.get("name") or "")
+    existing_weight = p.get("weight_grams")
+    should_fix_weight = (
+        weight_grams
+        and (
+            not existing_weight
+            or (weight_raw and re.search(r'[xхXХ×]', weight_raw) and weight_grams > existing_weight)
+        )
+    )
+    if should_fix_weight:
+            p["weight_raw"] = weight_raw
+            p["weight_grams"] = weight_grams
+            weight_fixed += 1
     if "ingredients_flags" in p:
         continue
     raw = (p.get("macros") or {}).get("ingredients") or p.get("ingredients_raw") or ""
@@ -185,13 +243,15 @@ for p in ap_data.get("products", []):
     p["clean_label"] = red == 0 and amber == 0
     enriched += 1
 
-if enriched:
+if enriched or weight_fixed:
     ap_path.write_text(json.dumps(ap_data, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"Enriched {enriched} products with ingredients analysis")
 elif store_fixed:
     ap_path.write_text(json.dumps(ap_data, ensure_ascii=False, indent=2), encoding="utf-8")
 if store_fixed:
     print(f"Fixed store for {store_fixed} catalog products")
+if weight_fixed:
+    print(f"Fixed package weight for {weight_fixed} catalog products")
 
 # ── Fix price_per_kg for "sold by weight" offers ─────────────────────────────
 # Products like "пилешко от витрина" or "царевично пиле кг" are priced per kg.
@@ -201,32 +261,62 @@ prod_name_by_id = {
     for p in ap_data.get("products", [])
     if p.get("product_id")
 }
+prod_weight_by_id = {
+    p["product_id"]: p.get("weight_grams")
+    for p in ap_data.get("products", [])
+    if p.get("product_id") and p.get("weight_grams")
+}
+prod_weight_raw_by_id = {
+    p["product_id"]: p.get("weight_raw")
+    for p in ap_data.get("products", [])
+    if p.get("product_id") and p.get("weight_raw")
+}
 fixed_ppk = 0
+fixed_offer_weight = 0
 for offer in offers_data.get("offers", []):
+    pid = offer.get("product_id") or offer.get("id") or ""
+    if (not offer.get("weight_grams") or (
+        prod_weight_raw_by_id.get(pid)
+        and re.search(r'[xхXХ×]', prod_weight_raw_by_id[pid])
+        and prod_weight_by_id.get(pid, 0) > offer.get("weight_grams", 0)
+    )) and prod_weight_by_id.get(pid):
+        offer["weight_grams"] = prod_weight_by_id[pid]
+        if prod_weight_raw_by_id.get(pid):
+            offer["weight_raw"] = prod_weight_raw_by_id[pid]
+        fixed_offer_weight += 1
     if offer.get("price_per_kg") is not None:
         continue
-    pid = offer.get("product_id") or offer.get("id") or ""
     name = prod_name_by_id.get(pid, "")
-    if _is_sold_by_kg(name) and offer.get("new_price") is not None:
+    weight_grams = offer.get("weight_grams") or prod_weight_by_id.get(pid)
+    if weight_grams and offer.get("new_price") is not None:
+        offer["price_per_kg"] = round((offer["new_price"] / weight_grams) * 1000, 2)
+        offer["price_per_kg_eur"] = round(offer["price_per_kg"] / BGN_TO_EUR, 2)
+        fixed_ppk += 1
+    elif _is_sold_by_kg(name) and offer.get("new_price") is not None:
         offer["price_per_kg"] = offer["new_price"]
         offer["price_per_kg_eur"] = round(offer["new_price"] / BGN_TO_EUR, 2)
+        offer["weight_raw"] = offer.get("weight_raw") or "на кг"
         fixed_ppk += 1
 if fixed_ppk:
-    print(f"Fixed price_per_kg for {fixed_ppk} sold-by-weight offers")
+    print(f"Fixed price_per_kg for {fixed_ppk} current offers")
+if fixed_offer_weight:
+    print(f"Fixed package weight for {fixed_offer_weight} current offers")
+if fixed_ppk or fixed_offer_weight:
+    Path("data/offers.json").write_text(json.dumps(offers_data, ensure_ascii=False, indent=2), encoding="utf-8")
 
 # ── Write JS files ────────────────────────────────────────────────────────────
 # Write all_products.js
-with open("data/all_products.js", "w", encoding="utf-8") as f:
-    f.write("const ALL_PRODUCTS_DATA = ")
-    json.dump(ap_data, f, ensure_ascii=False, indent=2)
-    f.write(";")
+_write_text_atomic(
+    Path("data/all_products.js"),
+    "const ALL_PRODUCTS_DATA = " + json.dumps(ap_data, ensure_ascii=False, indent=2) + ";",
+)
 print(f"all_products.js : {ap_data.get('total_products', len(ap_data.get('products', [])))} records")
 
 # Write offers.js (with price_per_kg fix already applied)
-with open("data/offers.js", "w", encoding="utf-8") as f:
-    f.write("const OFFERS_DATA = ")
-    json.dump(offers_data, f, ensure_ascii=False, indent=2)
-    f.write(";")
+_write_text_atomic(
+    Path("data/offers.js"),
+    "const OFFERS_DATA = " + json.dumps(offers_data, ensure_ascii=False, indent=2) + ";",
+)
 print(f"offers.js : {offers_data.get('total_offers', len(offers_data.get('offers', [])))} records")
 
 memory_data = write_market_memory(ap_data, offers_data)

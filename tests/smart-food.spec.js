@@ -136,6 +136,13 @@ test.describe('Smart Food Page', () => {
     const count = await cards.count();
     console.log(`[DEBUG_LOG] Sort price/kg: ${count} cards`);
     expect(count).toBeGreaterThan(0);
+    const pricesPerKg = await cards.evaluateAll(cardEls => cardEls
+      .map(card => card.querySelector('.offer-ppk')?.textContent || '')
+      .map(text => Number(text.replace(',', '.').match(/[\d.]+/)?.[0]))
+      .filter(Number.isFinite)
+    );
+    expect(pricesPerKg.length).toBeGreaterThan(3);
+    expect(pricesPerKg).toEqual([...pricesPerKg].sort((a, b) => a - b));
   });
 
   test('sort by health works', async ({ page }) => {
@@ -244,6 +251,32 @@ test.describe('Smart Food Page', () => {
     }
   });
 
+  test('favorite product rows sort by displayed unit price', async ({ page }) => {
+    const errors = [];
+    page.on('pageerror', e => errors.push(e.message));
+    await page.goto(BASE, { waitUntil: 'domcontentloaded' });
+    await page.evaluate(() => {
+      localStorage.setItem('nutrilife-favorites', JSON.stringify([
+        { kw: '\u043c\u043b\u044f\u043a\u043e', emoji: '\ud83e\udd5b', cat: 'dairy' },
+      ]));
+    });
+    await page.reload({ waitUntil: 'networkidle' });
+    await page.waitForTimeout(2000);
+    const favHeader = page.locator('#fav-panel .fav-item-hd');
+    expect(await favHeader.count()).toBeGreaterThan(0);
+    await favHeader.first().click();
+    await page.waitForTimeout(300);
+    const unitPrices = await page.locator('#fav-panel .fav-offer-row .fav-pkg').evaluateAll(nodes => nodes
+      .map(node => node.textContent || '')
+      .filter(text => text.includes('\u043b\u0432/\u043a\u0433'))
+      .map(text => Number(text.replace(',', '.').match(/[\d.]+/)?.[0]))
+      .filter(Number.isFinite)
+    );
+    expect(unitPrices.length).toBeGreaterThan(3);
+    expect(unitPrices).toEqual([...unitPrices].sort((a, b) => a - b));
+    expect(errors).toEqual([]);
+  });
+
   test('combined filters: store + category', async ({ page }) => {
     const errors = [];
     page.on('pageerror', e => errors.push(e.message));
@@ -268,6 +301,12 @@ test.describe('Smart Food Page', () => {
     await page.waitForTimeout(300);
     await page.click('[data-sort="price_per_kg"]');
     await page.waitForTimeout(500);
+    const pricesPerKg = await page.locator('#offers-grid .offer-card').evaluateAll(cardEls => cardEls
+      .map(card => card.querySelector('.offer-ppk')?.textContent || '')
+      .map(text => Number(text.replace(',', '.').match(/[\d.]+/)?.[0]))
+      .filter(Number.isFinite)
+    );
+    expect(pricesPerKg).toEqual([...pricesPerKg].sort((a, b) => a - b));
     console.log(`[DEBUG_LOG] Triple filter errors: ${errors.length}`);
     expect(errors).toEqual([]);
   });
@@ -350,6 +389,25 @@ test.describe('Smart Food Page', () => {
     console.log(`[DEBUG_LOG] Protein value sort: ${count} cards`);
     expect(errors).toEqual([]);
     expect(count).toBeGreaterThan(0);
+  });
+
+  test('quality protein ranking renders useful shortlist', async ({ page }) => {
+    const errors = [];
+    page.on('pageerror', e => errors.push(e.message));
+    await page.goto(BASE, { waitUntil: 'networkidle' });
+    await page.waitForTimeout(2000);
+    const rows = page.locator('#protein-ranking .protein-rank-item');
+    const count = await rows.count();
+    expect(count).toBeGreaterThanOrEqual(6);
+    expect(count).toBeLessThanOrEqual(8);
+    const names = await rows.evaluateAll(items => items.map(item => item.querySelector('.rank-name')?.textContent || ''));
+    expect(names.some(name => /спагети|пица|пекарна/i.test(name))).toBe(false);
+    const values = await rows.evaluateAll(items => items
+      .map(item => Number((item.querySelector('.rank-value')?.textContent || '').replace(',', '.').match(/[\d.]+/)?.[0]))
+      .filter(Number.isFinite)
+    );
+    expect(values).toEqual([...values].sort((a, b) => b - a));
+    expect(errors).toEqual([]);
   });
 
   test('CTA button links to start.html', async ({ page }) => {
