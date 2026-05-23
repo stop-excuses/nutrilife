@@ -126,9 +126,11 @@
                 item.brand,
                 item.store,
                 item.category,
+                categoryLabels[item.category],
                 item.unit_label,
                 item.promo_label,
                 formInfo.label,
+                Object.keys(item.active || {}).map(formatActiveKey).join(' '),
                 Object.values(item.active || {}).join(' ')
             ].filter(Boolean).join(' ').toLowerCase()
         };
@@ -461,12 +463,80 @@
                         ${renderProteinWarning(item)}
                     </div>
                 </a>
+                ${renderLabelDetails(item, valueBadge, tradeoffBadge)}
                 <div class="supplement-card-actions">
                     <button class="watch-price-btn ${watched ? 'active' : ''}" type="button" data-watch-supplement="${escapeAttr(item.id)}">${watched ? 'Следиш цената' : 'Следи цена'}</button>
                     <button class="compare-supplement-btn ${compared ? 'active' : ''}" type="button" data-compare-supplement="${escapeAttr(item.id)}">${compared ? 'В сравнение' : 'Сравни'}</button>
                 </div>
             </article>
         `;
+    }
+
+    function renderLabelDetails(item, valueBadge, tradeoffBadge) {
+        const activeRows = Object.entries(item.active || {})
+            .map(([key, value]) => `
+                <div>
+                    <span>${escapeHtml(formatActiveKey(key))}</span>
+                    <strong>${escapeHtml(formatValueWithUnit(key, value))}</strong>
+                </div>
+            `)
+            .join('');
+        const packageRows = [
+            item.servings ? ['Приеми', item.servings] : null,
+            item.count ? ['Брой в опаковка', item.count] : null,
+            item.weight_grams ? ['Грамаж', `${item.weight_grams} g`] : null,
+            item.price_bgn ? ['Цена продукт', formatProductPrice(item)] : null
+        ].filter(Boolean).map(([label, value]) => `
+            <div>
+                <span>${escapeHtml(label)}</span>
+                <strong>${escapeHtml(value)}</strong>
+            </div>
+        `).join('');
+        const methodRows = [
+            ['Категория', categoryLabels[item.category] || item.category],
+            ['Етикет', confidenceLabels[item.confidence] || item.confidence],
+            ['Форма', item.formInfo.label],
+            ['Оценка цена', valueBadge.label],
+            ['Баланс', tradeoffBadge.label],
+            ['Сметка', `${formatMoney(item.unitValue)} ${formatUnitLabel(item)}`]
+        ].map(([label, value]) => `
+            <div>
+                <span>${escapeHtml(label)}</span>
+                <strong>${escapeHtml(value)}</strong>
+            </div>
+        `).join('');
+        const note = getLabelMethodNote(item);
+
+        return `
+            <details class="supplement-label-details">
+                <summary>Етикет и сметка</summary>
+                <div class="supplement-label-panel">
+                    <div class="supplement-label-section">
+                        <h4>Прочетено от етикета</h4>
+                        <div class="supplement-label-grid">${activeRows || '<p>Няма достатъчно ясен активен етикет. Сметката е ориентировъчна.</p>'}</div>
+                    </div>
+                    <div class="supplement-label-section">
+                        <h4>Опаковка</h4>
+                        <div class="supplement-label-grid">${packageRows || '<p>Няма надеждно разчетена опаковка.</p>'}</div>
+                    </div>
+                    <div class="supplement-label-section">
+                        <h4>Как е категоризирано</h4>
+                        <div class="supplement-label-grid">${methodRows}</div>
+                        <p>${escapeHtml(note)}</p>
+                    </div>
+                </div>
+            </details>
+        `;
+    }
+
+    function getLabelMethodNote(item) {
+        if (item.confidence === 'high') {
+            return 'Категорията и цената са вързани към конкретна активна стойност от етикета или ясно разчетена доза.';
+        }
+        if (item.confidence === 'medium') {
+            return 'Има частична етикетна информация; използваме я за по-добро подреждане, но оставяме продукта като проверка преди покупка.';
+        }
+        return 'Няма достатъчно ясен етикет от страницата. Продуктът остава в правилната категория по име/контекст, но сметката е по-слабо надеждна.';
     }
 
     function renderPromoBadge(item) {

@@ -3562,6 +3562,81 @@ body.fav-product-open {
     line-height: 1.35;
 }
 
+.supplement-label-details {
+    margin: 0 12px 10px;
+    border: 1px solid rgba(186, 117, 23, 0.24);
+    border-radius: 8px;
+    background: rgba(0,0,0,0.14);
+    color: var(--text);
+}
+
+.supplement-label-details summary {
+    cursor: pointer;
+    padding: 9px 10px;
+    color: var(--amber);
+    font-size: 0.78rem;
+    font-weight: 800;
+    list-style-position: inside;
+}
+
+.supplement-label-details[open] summary {
+    border-bottom: 1px solid rgba(186, 117, 23, 0.18);
+}
+
+.supplement-label-panel {
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+}
+
+.supplement-label-section {
+    display: grid;
+    gap: 6px;
+}
+
+.supplement-label-section h4 {
+    margin: 0;
+    color: var(--text);
+    font-size: 0.78rem;
+    line-height: 1.2;
+}
+
+.supplement-label-section p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 0.74rem;
+    line-height: 1.35;
+}
+
+.supplement-label-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 6px;
+}
+
+.supplement-label-grid div {
+    min-width: 0;
+    display: grid;
+    gap: 2px;
+    padding: 7px 8px;
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 7px;
+    background: rgba(255,255,255,0.035);
+}
+
+.supplement-label-grid span {
+    color: var(--muted);
+    font-size: 0.68rem;
+    line-height: 1.2;
+}
+
+.supplement-label-grid strong {
+    color: var(--text);
+    font-size: 0.78rem;
+    line-height: 1.2;
+    overflow-wrap: anywhere;
+}
+
 .supplements-best-card {
     display: flex;
     min-height: 160px;

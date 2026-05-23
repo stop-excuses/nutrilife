@@ -43,6 +43,14 @@ const BASE = 'http://127.0.0.1:8000/smart-supplements.html';
     const confTextSet = new Set(await page.locator('.supplement-confidence').allTextContents());
     step('Confidence labels present', confTextSet.size > 0, [...confTextSet].join(' | '));
 
+    // 2b. Label details dropdown exposes the extracted label/math evidence
+    const details = page.locator('.supplement-label-details').first();
+    await details.scrollIntoViewIfNeeded();
+    await details.locator('summary').click();
+    await page.waitForTimeout(200);
+    const detailsText = await details.textContent();
+    step('Label details dropdown opens', /Прочетено от етикета|Опаковка|Как е категоризирано/.test(detailsText || ''), (detailsText || '').slice(0, 120));
+
     // 3. Protein category — examine low-confidence cards
     await page.click('[data-category="protein"]');
     await page.waitForTimeout(500);
