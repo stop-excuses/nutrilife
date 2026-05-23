@@ -13,7 +13,10 @@
         multivitamin: 'Мултивитамини',
         zinc: 'Цинк',
         protein: 'Протеин',
-        fiber: 'Фибри'
+        fiber: 'Фибри',
+        electrolytes: 'Електролити',
+        collagen: 'Колаген',
+        iron: 'Желязо'
     };
     const confidenceLabels = {
         high: 'реален етикет',
@@ -55,7 +58,15 @@
         'protein': 'protein',
         'фибри': 'fiber',
         'fiber': 'fiber',
-        'psyllium': 'fiber'
+        'psyllium': 'fiber',
+        'електролити': 'electrolytes',
+        'електролит': 'electrolytes',
+        'electrolytes': 'electrolytes',
+        'electrolyte': 'electrolytes',
+        'колаген': 'collagen',
+        'collagen': 'collagen',
+        'желязо': 'iron',
+        'iron': 'iron'
     };
 
     let items = [];
@@ -329,7 +340,10 @@
             multivitamin: 8,
             zinc: 2,
             protein: 8,
-            fiber: 8
+            fiber: 8,
+            electrolytes: 8,
+            collagen: 8,
+            iron: 3
         };
         const limit = limits[item.category];
         return Boolean(limit && item.unitValue > limit);
@@ -508,7 +522,10 @@
             multivitamin: [0.25, 0.9],
             zinc: [0.08, 0.22],
             protein: [2.0, 3.2],
-            fiber: [0.8, 2.2]
+            fiber: [0.8, 2.2],
+            electrolytes: [0.6, 1.8],
+            collagen: [1.0, 2.5],
+            iron: [0.18, 0.6]
         };
         const range = ranges[item.category];
         if (!range) return { tone: 'neutral', label: 'Сравнима цена' };
@@ -594,6 +611,24 @@
             if (hasAny(text, ['psyllium', 'псилиум', 'husk'])) return form('Псилиум хуск', 'good');
             if (hasAny(text, ['acacia', 'акациев'])) return form('Акациеви фибри', 'good');
             if (hasAny(text, ['pectin', 'guar', 'пектин'])) return form('Фибри комплекс', 'unknown');
+            return form('форма неясна', 'unknown');
+        }
+
+        if (item.category === 'electrolytes') {
+            if (hasAny(text, ['sodium', 'натрий', 'potassium', 'калий', 'magnesium', 'магнезий'])) return form('Електролитен комплекс', 'good');
+            return form('формула неясна', 'unknown');
+        }
+
+        if (item.category === 'collagen') {
+            if (hasAny(text, ['peptides', 'пептиди', 'hydrolyzed', 'хидролизиран'])) return form('Колагенови пептиди', 'good');
+            if (hasAny(text, ['type ii', 'тип ii', 'uc-ii'])) return form('Колаген тип II', 'preferred');
+            return form('колаген', 'unknown');
+        }
+
+        if (item.category === 'iron') {
+            if (hasAny(text, ['bisglycinate', 'бисглицинат'])) return form('Желязо бисглицинат', 'preferred');
+            if (hasAny(text, ['fumarate', 'фумарат', 'gluconate', 'глюконат'])) return form('Органична форма желязо', 'good');
+            if (hasAny(text, ['ferrous', 'sulfate', 'сулфат'])) return form('Желязна сол', 'standard');
             return form('форма неясна', 'unknown');
         }
 
@@ -919,7 +954,10 @@
             bgn_per_multivitamin_serving: 'за 1 прием мултивитамин',
             bgn_per_15mg_zinc: 'за 15 mg цинк',
             bgn_per_25g_protein: 'за 25 g протеин',
-            bgn_per_5g_fiber: 'за 5 g фибри'
+            bgn_per_5g_fiber: 'за 5 g фибри',
+            bgn_per_electrolyte_serving: 'за 1 доза електролити',
+            bgn_per_10g_collagen: 'за 10 g колаген',
+            bgn_per_14mg_iron: 'за 14 mg желязо'
         };
         return labels[item.unitKey] || item.unit_label || '';
     }
@@ -942,6 +980,12 @@
             estimated_protein_ratio_pct: 'приблизително протеин',
             fiber_g: 'фибри в доза',
             fiber_mg: 'фибри в доза',
+            sodium_mg: 'натрий в доза',
+            potassium_mg: 'калий в доза',
+            collagen_g: 'колаген в доза',
+            collagen_total_g: 'колаген общо',
+            iron_mg: 'желязо в доза',
+            electrolyte_serving: '1 прием',
             package_weight_g: 'грамаж'
         };
         return labels[key] || key.replaceAll('_', ' ');

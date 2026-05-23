@@ -1,6 +1,6 @@
 const SUPPLEMENTS_DATA = {
-  "generated_at": "2026-05-22T09:21:59.028676Z",
-  "total_supplements": 334,
+  "generated_at": "2026-05-23T08:59:42.877899Z",
+  "total_supplements": 371,
   "sources": [
     "FHL",
     "Fitness1",
@@ -13,8 +13,11 @@ const SUPPLEMENTS_DATA = {
     "Stayfit"
   ],
   "categories": [
+    "collagen",
     "creatine",
+    "electrolytes",
     "fiber",
+    "iron",
     "magnesium",
     "multivitamin",
     "omega3",
@@ -8840,6 +8843,1258 @@ const SUPPLEMENTS_DATA = {
           "price_bgn": 142.4,
           "price_eur": 72.81,
           "unit_value": 1.95
+        }
+      ]
+    },
+    {
+      "id": "healthstore-now---iron-complex-комплекс-желязо---100-таблетки",
+      "store": "HealthStore",
+      "name": "NOW - Iron Complex (Комплекс желязо) - 100 Таблетки",
+      "brand": "NOW FOODS",
+      "category": "iron",
+      "url": "https://healthstore.bg/now-iron-complex-kompleks-zhelyazo-100-tabletki",
+      "image": "https://healthstore.bg/image/cache/cache/data/1440_mainimage-600x600-600x300.png",
+      "price_bgn": 24.0,
+      "price_eur": 12.27,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": 100,
+      "count": 100,
+      "active": {
+        "iron_mg": 27
+      },
+      "price_per_active_unit": {
+        "bgn_per_14mg_iron": 0.12
+      },
+      "unit_label": "лв / 14 mg желязо",
+      "confidence": "high",
+      "scraped_at": "2026-05-23T08:56:36.270045Z",
+      "promo_label": "-25%",
+      "price_history": [
+        {
+          "date": "2026-05-23",
+          "price_bgn": 24.0,
+          "price_eur": 12.27,
+          "unit_value": 0.12
+        }
+      ]
+    },
+    {
+      "id": "healthstore-now---iron-18-mg-ferrochel---120-капсули",
+      "store": "HealthStore",
+      "name": "Now - Iron 18 mg Ferrochel - 120 капсули",
+      "brand": "NOW FOODS",
+      "category": "iron",
+      "url": "https://healthstore.bg/iron-18-mg-ferrochel-120-kapsuli",
+      "image": "https://healthstore.bg/image/cache/cache/data/1443_mainimage_0-600x600-600x300.jpg",
+      "price_bgn": 23.25,
+      "price_eur": 11.89,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": 120,
+      "count": 120,
+      "active": {
+        "iron_mg": 18
+      },
+      "price_per_active_unit": {
+        "bgn_per_14mg_iron": 0.15
+      },
+      "unit_label": "лв / 14 mg желязо",
+      "confidence": "high",
+      "scraped_at": "2026-05-23T08:56:36.577287Z",
+      "promo_label": "-25%",
+      "price_history": [
+        {
+          "date": "2026-05-23",
+          "price_bgn": 23.25,
+          "price_eur": 11.89,
+          "unit_value": 0.15
+        }
+      ]
+    },
+    {
+      "id": "healthstore-hs-labs---collagen---90-capsules",
+      "store": "HealthStore",
+      "name": "HS LABS - COLLAGEN - 90 capsules",
+      "brand": "HS LABS",
+      "category": "collagen",
+      "url": "https://healthstore.bg/hs-labs-collagen-90-tablets",
+      "image": "https://healthstore.bg/image/cache/cache/data/HS Labs - NEW/HS0303/Collagen-90-capsules_3D-600x600-600x300.png",
+      "price_bgn": 25.19,
+      "price_eur": 12.88,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 900.0,
+      "servings": 30,
+      "count": 90,
+      "active": {
+        "collagen_g": 3.0
+      },
+      "price_per_active_unit": {
+        "bgn_per_10g_collagen": 2.8
+      },
+      "unit_label": "лв / 10 g колаген",
+      "confidence": "high",
+      "scraped_at": "2026-05-23T08:56:40.786268Z",
+      "promo_label": "-10%",
+      "price_history": [
+        {
+          "date": "2026-05-23",
+          "price_bgn": 25.19,
+          "price_eur": 12.88,
+          "unit_value": 2.8
+        }
+      ]
+    },
+    {
+      "id": "healthstore-hs-labs---collagen-flex-strawberry---200-g",
+      "store": "HealthStore",
+      "name": "HS LABS - COLLAGEN FLEX STRAWBERRY - 200 g",
+      "brand": "HS LABS",
+      "category": "collagen",
+      "url": "https://healthstore.bg/hs-labs-hs-labs-collagen-flex-strawberry-200-g",
+      "image": "https://healthstore.bg/image/cache/cache/data/01 HS LABS/HS1331/COLLAGEN FLEX-strawberry-200-g_3D (1)-600x600-600x300.png",
+      "price_bgn": 27.91,
+      "price_eur": 14.27,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 200.0,
+      "servings": 20,
+      "count": 9,
+      "active": {
+        "collagen_g": 5.0
+      },
+      "price_per_active_unit": {
+        "bgn_per_10g_collagen": 2.79
+      },
+      "unit_label": "лв / 10 g колаген",
+      "confidence": "high",
+      "scraped_at": "2026-05-23T08:56:42.712102Z",
+      "promo_label": "-10%",
+      "price_history": [
+        {
+          "date": "2026-05-23",
+          "price_bgn": 27.91,
+          "price_eur": 14.27,
+          "unit_value": 2.79
+        }
+      ]
+    },
+    {
+      "id": "healthstore-hs-labs---collagen-flex-strawberry---400-g",
+      "store": "HealthStore",
+      "name": "HS LABS - COLLAGEN FLEX STRAWBERRY - 400 g",
+      "brand": "HS LABS",
+      "category": "collagen",
+      "url": "https://healthstore.bg/hs-labs-collagen-flex-strawberry-400-g",
+      "image": "https://healthstore.bg/image/cache/cache/data/01 HS LABS/HS1348/COLLAGEN FLEX-strawberry-400-g_3D-600x600-600x300.png",
+      "price_bgn": 45.9,
+      "price_eur": 23.47,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 400.0,
+      "servings": 40,
+      "count": 9,
+      "active": {
+        "collagen_g": 5.0
+      },
+      "price_per_active_unit": {
+        "bgn_per_10g_collagen": 2.29
+      },
+      "unit_label": "лв / 10 g колаген",
+      "confidence": "high",
+      "scraped_at": "2026-05-23T08:56:43.809456Z",
+      "promo_label": "-10%",
+      "price_history": [
+        {
+          "date": "2026-05-23",
+          "price_bgn": 45.9,
+          "price_eur": 23.47,
+          "unit_value": 2.29
+        }
+      ]
+    },
+    {
+      "id": "healthstore-gym-beam---runcollg-hydrolyzed-collagen---500-g",
+      "store": "HealthStore",
+      "name": "GYM BEAM - RunCollg Hydrolyzed Collagen - 500 g",
+      "brand": "GYM BEAM",
+      "category": "collagen",
+      "url": "https://healthstore.bg/gym-beam-runcollg-hydrolyzed-collagen-500-g",
+      "image": "https://healthstore.bg/image/cache/cache/data/-GYM BEAM/GB0884-600x600-600x300.png",
+      "price_bgn": 28.75,
+      "price_eur": 14.7,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 500.0,
+      "servings": 28,
+      "count": 9,
+      "active": {
+        "collagen_total_g": 500.0
+      },
+      "price_per_active_unit": {
+        "bgn_per_10g_collagen": 0.57
+      },
+      "unit_label": "лв / 10 g колаген",
+      "confidence": "medium",
+      "scraped_at": "2026-05-23T08:56:44.563802Z",
+      "promo_label": "-25%",
+      "price_history": [
+        {
+          "date": "2026-05-23",
+          "price_bgn": 28.75,
+          "price_eur": 14.7,
+          "unit_value": 0.57
+        }
+      ]
+    },
+    {
+      "id": "healthstore-optimum-nutrition---electrolyte-powder---264-г",
+      "store": "HealthStore",
+      "name": "Optimum Nutrition - Electrolyte Powder - 264 г",
+      "brand": "OPTIMUM NUTRITION",
+      "category": "electrolytes",
+      "url": "https://healthstore.bg/optimum-nutrition-electrolyte-powder-264-g",
+      "image": "https://healthstore.bg/image/cache/cache/data/BS-OPTIMUM/ON8044/ON8044-600x600-600x300.png",
+      "price_bgn": 35.69,
+      "price_eur": 18.25,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 264.0,
+      "servings": 33,
+      "count": 9,
+      "active": {
+        "sodium_mg": 400,
+        "potassium_mg": 300,
+        "magnesium_mg": 300,
+        "electrolyte_serving": 1
+      },
+      "price_per_active_unit": {
+        "bgn_per_electrolyte_serving": 1.08
+      },
+      "unit_label": "лв / доза електролити",
+      "confidence": "high",
+      "scraped_at": "2026-05-23T08:56:47.819421Z",
+      "promo_label": "-27%",
+      "price_history": [
+        {
+          "date": "2026-05-23",
+          "price_bgn": 35.69,
+          "price_eur": 18.25,
+          "unit_value": 1.08
+        }
+      ]
+    },
+    {
+      "id": "healthstore-applied-nutrition---effervescent-electrolyte-tablets---20-tablets",
+      "store": "HealthStore",
+      "name": "APPLIED NUTRITION - Effervescent Electrolyte Tablets - 20 tablets",
+      "brand": "APPLIED NUTRITION",
+      "category": "electrolytes",
+      "url": "https://healthstore.bg/applied-nutrition-effervescent-electrolyte-tablets-20-tablets",
+      "image": "https://healthstore.bg/image/cache/cache/data/Applied Nutrition - new/AP3385-600x600-600x300.png",
+      "price_bgn": 12.01,
+      "price_eur": 6.14,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 4.0,
+      "servings": null,
+      "count": 9,
+      "active": {
+        "sodium_mg": 270,
+        "potassium_mg": 100,
+        "magnesium_mg": 134,
+        "electrolyte_serving": 1
+      },
+      "price_per_active_unit": {
+        "bgn_per_electrolyte_serving": 1.33
+      },
+      "unit_label": "лв / доза електролити",
+      "confidence": "high",
+      "scraped_at": "2026-05-23T08:56:48.344589Z",
+      "promo_label": "-25%",
+      "price_history": [
+        {
+          "date": "2026-05-23",
+          "price_bgn": 12.01,
+          "price_eur": 6.14,
+          "unit_value": 1.33
+        }
+      ]
+    },
+    {
+      "id": "healthstore-now---hydration-rescue-skin-support---60-capsules",
+      "store": "HealthStore",
+      "name": "NOW - Hydration Rescue (Skin Support) - 60 capsules",
+      "brand": "NOW FOODS",
+      "category": "electrolytes",
+      "url": "https://healthstore.bg/now-hydration-rescue-skin-support-60-capsules-6133",
+      "image": "https://healthstore.bg/image/cache/data/BS-NOW/3388_WEB_Detailed_Product_View_3-600x300.png",
+      "price_bgn": 68.0,
+      "price_eur": 34.77,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 400.0,
+      "servings": 30,
+      "count": 60,
+      "active": {
+        "electrolyte_serving": 1
+      },
+      "price_per_active_unit": {
+        "bgn_per_electrolyte_serving": 2.27
+      },
+      "unit_label": "лв / доза електролити",
+      "confidence": "medium",
+      "scraped_at": "2026-05-23T08:56:49.483481Z",
+      "promo_label": "-25%",
+      "price_history": [
+        {
+          "date": "2026-05-23",
+          "price_bgn": 68.0,
+          "price_eur": 34.77,
+          "unit_value": 2.27
+        }
+      ]
+    },
+    {
+      "id": "remedium-биосел-колаген-biocell-collagen-с-хиалуронова-киселина-500мг-x60-капсули",
+      "store": "Remedium",
+      "name": "Биосел Колаген BioCell Collagen с Хиалуронова киселина 500мг x60 капсули",
+      "brand": "Nature's Way",
+      "category": "collagen",
+      "url": "https://remedium.bg/biosel-kolagen-biocell-collagen-s-hialuronova-kiselina-500mg-x60-kapsuli-75257/p",
+      "image": "https://remedium.bg/media/catalog/product/cache/78704a56964180e81f7d6f49c56d8067/c/f/cf2c4ef6b80a77b1ecee0acca70729f9.jpg",
+      "price_bgn": 33.91,
+      "price_eur": 17.34,
+      "currency_source": "EUR",
+      "availability_status": "unknown",
+      "weight_grams": 70.0,
+      "servings": null,
+      "count": 60,
+      "active": {
+        "collagen_g": 1.0
+      },
+      "price_per_active_unit": {
+        "bgn_per_10g_collagen": 5.65
+      },
+      "unit_label": "лв / 10 g колаген",
+      "confidence": "high",
+      "scraped_at": "2026-05-23T08:57:07.665238Z",
+      "price_history": [
+        {
+          "date": "2026-05-23",
+          "price_bgn": 33.91,
+          "price_eur": 17.34,
+          "unit_value": 5.65
+        }
+      ]
+    },
+    {
+      "id": "remedium-super-collagen-c-за-здрави-коса-кожа-нокти-мускули-и-стави-x250-таблетки-neocell",
+      "store": "Remedium",
+      "name": "Super Collagen + C За здрави коса, кожа, нокти, мускули и стави x250 таблетки Neocell",
+      "brand": "Neocell",
+      "category": "collagen",
+      "url": "https://remedium.bg/neocell-super-collagen-c-za-zdravi-kosa-kozha-nokti-muskuli-i-stavi-x250-tabletki-137809/p",
+      "image": "https://remedium.bg/media/catalog/product/cache/78704a56964180e81f7d6f49c56d8067/2/5/25f4cc7ecf9bb4f18450bc489224e665.jpg",
+      "price_bgn": 70.0,
+      "price_eur": 35.79,
+      "currency_source": "EUR",
+      "availability_status": "unknown",
+      "weight_grams": 302.0,
+      "servings": null,
+      "count": 250,
+      "active": {
+        "collagen_g": 6.0
+      },
+      "price_per_active_unit": {
+        "bgn_per_10g_collagen": 0.47
+      },
+      "unit_label": "лв / 10 g колаген",
+      "confidence": "high",
+      "scraped_at": "2026-05-23T08:57:09.341968Z",
+      "price_history": [
+        {
+          "date": "2026-05-23",
+          "price_bgn": 70.0,
+          "price_eur": 35.79,
+          "unit_value": 0.47
+        }
+      ]
+    },
+    {
+      "id": "remedium-marine-collagen-рибен-колаген-за-млада-и-хидратирана-кожа-x120-капсули-neocell",
+      "store": "Remedium",
+      "name": "Marine Collagen Рибен колаген за млада и хидратирана кожа x120 капсули Neocell",
+      "brand": "Neocell",
+      "category": "collagen",
+      "url": "https://remedium.bg/neocell-marine-collagen-riben-kolagen-za-mlada-i-hidratirana-kozha-x120-kapsuli-128934/p",
+      "image": "https://remedium.bg/media/catalog/product/cache/78704a56964180e81f7d6f49c56d8067/d/c/dca366d91c128a12e08854d18854afce.jpg",
+      "price_bgn": 57.44,
+      "price_eur": 29.37,
+      "currency_source": "EUR",
+      "availability_status": "unknown",
+      "weight_grams": 200.0,
+      "servings": null,
+      "count": 120,
+      "active": {
+        "collagen_g": 2.0
+      },
+      "price_per_active_unit": {
+        "bgn_per_10g_collagen": 2.39
+      },
+      "unit_label": "лв / 10 g колаген",
+      "confidence": "high",
+      "scraped_at": "2026-05-23T08:57:09.166204Z",
+      "price_history": [
+        {
+          "date": "2026-05-23",
+          "price_bgn": 57.44,
+          "price_eur": 29.37,
+          "unit_value": 2.39
+        }
+      ]
+    },
+    {
+      "id": "framar-уеит-уърлд-желязо-таблетки-400",
+      "store": "Framar",
+      "name": "УЕЙТ УЪРЛД ЖЕЛЯЗО таблетки * 400",
+      "brand": "WEIGHT WORLD",
+      "category": "iron",
+      "url": "https://apteka.framar.bg/30127456/%D1%83%D0%B5%D0%B9%D1%82-%D1%83%D1%8A%D1%80%D0%BB%D0%B4-%D0%B6%D0%B5%D0%BB%D1%8F%D0%B7%D0%BE-%D1%82%D0%B0%D0%B1%D0%BB%D0%B5%D1%82%D0%BA%D0%B8-400",
+      "image": "https://static.framar.bg/product/ww-iron-bisglycinate-zhelyazo-bisglitsinat.jpg",
+      "price_bgn": 74.13,
+      "price_eur": 37.9,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 18.0,
+      "servings": null,
+      "count": 400,
+      "active": {
+        "iron_mg": 25
+      },
+      "price_per_active_unit": {
+        "bgn_per_14mg_iron": 0.1
+      },
+      "unit_label": "лв / 14 mg желязо",
+      "confidence": "high",
+      "scraped_at": "2026-05-23T08:57:35.817982Z",
+      "price_history": [
+        {
+          "date": "2026-05-23",
+          "price_bgn": 74.13,
+          "price_eur": 37.9,
+          "unit_value": 0.1
+        }
+      ]
+    },
+    {
+      "id": "framar-берес-витакид-желязо-желирани-таблетки-30",
+      "store": "Framar",
+      "name": "БЕРЕС ВИТАКИД ЖЕЛЯЗО желирани таблетки * 30",
+      "brand": "BERES",
+      "category": "iron",
+      "url": "https://apteka.framar.bg/30127411/%D0%B1%D0%B5%D1%80%D0%B5%D1%81-%D0%B2%D0%B8%D1%82%D0%B0%D0%BA%D0%B8%D0%B4-%D0%B6%D0%B5%D0%BB%D1%8F%D0%B7%D0%BE-%D0%B6%D0%B5%D0%BB%D0%B8%D1%80%D0%B0%D0%BD%D0%B8-%D1%82%D0%B0%D0%B1%D0%BB%D0%B5%D1%82%D0%BA%D0%B8-30",
+      "image": "https://static.framar.bg/product/fr-beres-vitakid-zhelyazo-hranitelna-dobavka-png.jpg",
+      "price_bgn": 22.49,
+      "price_eur": 11.5,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 0.7,
+      "servings": null,
+      "count": 30,
+      "active": {
+        "iron_mg": 6
+      },
+      "price_per_active_unit": {
+        "bgn_per_14mg_iron": 1.75
+      },
+      "unit_label": "лв / 14 mg желязо",
+      "confidence": "high",
+      "scraped_at": "2026-05-23T08:57:36.334069Z",
+      "price_history": [
+        {
+          "date": "2026-05-23",
+          "price_bgn": 22.49,
+          "price_eur": 11.5,
+          "unit_value": 1.75
+        }
+      ]
+    },
+    {
+      "id": "framar-пауър-хелт-желязо-таблетки-50",
+      "store": "Framar",
+      "name": "ПАУЪР ХЕЛТ ЖЕЛЯЗО таблетки * 50",
+      "brand": "POWER HEALTH",
+      "category": "iron",
+      "url": "https://apteka.framar.bg/30127339/%D0%BF%D0%B0%D1%83%D1%8A%D1%80-%D1%85%D0%B5%D0%BB%D1%82-%D0%B6%D0%B5%D0%BB%D1%8F%D0%B7%D0%BE-%D1%82%D0%B0%D0%B1%D0%BB%D0%B5%D1%82%D0%BA%D0%B8-50",
+      "image": "https://static.framar.bg/product/power-health-iron.jpg",
+      "price_bgn": 16.23,
+      "price_eur": 8.3,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 18.0,
+      "servings": null,
+      "count": 50,
+      "active": {
+        "iron_mg": 25
+      },
+      "price_per_active_unit": {
+        "bgn_per_14mg_iron": 0.18
+      },
+      "unit_label": "лв / 14 mg желязо",
+      "confidence": "high",
+      "scraped_at": "2026-05-23T08:57:36.688517Z",
+      "price_history": [
+        {
+          "date": "2026-05-23",
+          "price_bgn": 16.23,
+          "price_eur": 8.3,
+          "unit_value": 0.18
+        }
+      ]
+    },
+    {
+      "id": "framar-биохерба-прополис-желязо-капсули-100",
+      "store": "Framar",
+      "name": "БИОХЕРБА ПРОПОЛИС + ЖЕЛЯЗО капсули * 100",
+      "brand": "BIOHERBA",
+      "category": "iron",
+      "url": "https://apteka.framar.bg/30124851/%D0%B1%D0%B8%D0%BE%D1%85%D0%B5%D1%80%D0%B1%D0%B0-%D0%BF%D1%80%D0%BE%D0%BF%D0%BE%D0%BB%D0%B8%D1%81-%D0%B6%D0%B5%D0%BB%D1%8F%D0%B7%D0%BE-%D0%BA%D0%B0%D0%BF%D1%81%D1%83%D0%BB%D0%B8-100",
+      "image": "https://static.framar.bg/product/fr-bioherba-propolis-s-zhelyazo-hranitelna-dobavka-png.jpg",
+      "price_bgn": 13.59,
+      "price_eur": 6.95,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 12.2017,
+      "servings": null,
+      "count": 100,
+      "active": {
+        "iron_mg": 12
+      },
+      "price_per_active_unit": {
+        "bgn_per_14mg_iron": 0.16
+      },
+      "unit_label": "лв / 14 mg желязо",
+      "confidence": "high",
+      "scraped_at": "2026-05-23T08:57:37.498028Z",
+      "price_history": [
+        {
+          "date": "2026-05-23",
+          "price_bgn": 13.59,
+          "price_eur": 6.95,
+          "unit_value": 0.16
+        }
+      ]
+    },
+    {
+      "id": "framar-биохерба-коприва-екстракт-250-мг-желязо-капсули-100",
+      "store": "Framar",
+      "name": "БИОХЕРБА КОПРИВА ЕКСТРАКТ 250 мг + ЖЕЛЯЗО капсули * 100",
+      "brand": "BIOHERBA",
+      "category": "iron",
+      "url": "https://apteka.framar.bg/30123566/%D0%B1%D0%B8%D0%BE%D1%85%D0%B5%D1%80%D0%B1%D0%B0-%D0%BA%D0%BE%D0%BF%D1%80%D0%B8%D0%B2%D0%B0-%D0%B5%D0%BA%D1%81%D1%82%D1%80%D0%B0%D0%BA%D1%82-250-%D0%BC%D0%B3-%D0%B6%D0%B5%D0%BB%D1%8F%D0%B7%D0%BE-%D0%BA%D0%B0%D0%BF%D1%81%D1%83%D0%BB%D0%B8-100",
+      "image": "https://static.framar.bg/product/fr-bioherba-kopriva-s-zhelyazo-hranitelna-dobavka-png.jpg",
+      "price_bgn": 13.59,
+      "price_eur": 6.95,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": null,
+      "count": 100,
+      "active": {
+        "iron_mg": 16
+      },
+      "price_per_active_unit": {
+        "bgn_per_14mg_iron": 0.12
+      },
+      "unit_label": "лв / 14 mg желязо",
+      "confidence": "high",
+      "scraped_at": "2026-05-23T08:57:38.149302Z",
+      "price_history": [
+        {
+          "date": "2026-05-23",
+          "price_bgn": 13.59,
+          "price_eur": 6.95,
+          "unit_value": 0.12
+        }
+      ]
+    },
+    {
+      "id": "framar-биохерба-кеил-къдраво-зеле-екстракт-желязо-капсули-100",
+      "store": "Framar",
+      "name": "БИОХЕРБА КЕЙЛ КЪДРАВО ЗЕЛЕ ЕКСТРАКТ + ЖЕЛЯЗО капсули * 100",
+      "brand": "BIOHERBA",
+      "category": "iron",
+      "url": "https://apteka.framar.bg/30123254/%D0%B1%D0%B8%D0%BE%D1%85%D0%B5%D1%80%D0%B1%D0%B0-%D0%BA%D0%B5%D0%B9%D0%BB-%D0%BA%D1%8A%D0%B4%D1%80%D0%B0%D0%B2%D0%BE-%D0%B7%D0%B5%D0%BB%D0%B5-%D0%B5%D0%BA%D1%81%D1%82%D1%80%D0%B0%D0%BA%D1%82-%D0%B6%D0%B5%D0%BB%D1%8F%D0%B7%D0%BE-%D0%BA%D0%B0%D0%BF%D1%81%D1%83%D0%BB%D0%B8-100",
+      "image": "https://static.framar.bg/product/bh-full-spectrum-kale-iron.jpg",
+      "price_bgn": 11.93,
+      "price_eur": 6.1,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": null,
+      "count": 100,
+      "active": {
+        "iron_mg": 8
+      },
+      "price_per_active_unit": {
+        "bgn_per_14mg_iron": 0.21
+      },
+      "unit_label": "лв / 14 mg желязо",
+      "confidence": "high",
+      "scraped_at": "2026-05-23T08:57:38.583287Z",
+      "price_history": [
+        {
+          "date": "2026-05-23",
+          "price_bgn": 11.93,
+          "price_eur": 6.1,
+          "unit_value": 0.21
+        }
+      ]
+    },
+    {
+      "id": "framar-супериор-сорс-джъст-уоман-желязо-сублингвални-таблетки-90",
+      "store": "Framar",
+      "name": "СУПЕРИОР СОРС ДЖЪСТ УОМАН ЖЕЛЯЗО сублингвални таблетки * 90",
+      "brand": "SUPERIOR SOURCE",
+      "category": "iron",
+      "url": "https://apteka.framar.bg/30122870/%D1%81%D1%83%D0%BF%D0%B5%D1%80%D0%B8%D0%BE%D1%80-%D1%81%D0%BE%D1%80%D1%81-%D0%B4%D0%B6%D1%8A%D1%81%D1%82-%D1%83%D0%BE%D0%BC%D0%B0%D0%BD-%D0%B6%D0%B5%D0%BB%D1%8F%D0%B7%D0%BE-%D1%81%D1%83%D0%B1%D0%BB%D0%B8%D0%BD%D0%B3%D0%B2%D0%B0%D0%BB%D0%BD%D0%B8-%D1%82%D0%B0%D0%B1%D0%BB%D0%B5%D1%82%D0%BA%D0%B8-90",
+      "image": "https://static.framar.bg/product/fr-zhelyazo-just-women-hranitelna-dobavka-png.jpg",
+      "price_bgn": 35.3,
+      "price_eur": 18.05,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 18.0,
+      "servings": null,
+      "count": 90,
+      "active": {
+        "iron_mg": 15
+      },
+      "price_per_active_unit": {
+        "bgn_per_14mg_iron": 0.37
+      },
+      "unit_label": "лв / 14 mg желязо",
+      "confidence": "high",
+      "scraped_at": "2026-05-23T08:57:38.937216Z",
+      "price_history": [
+        {
+          "date": "2026-05-23",
+          "price_bgn": 35.3,
+          "price_eur": 18.05,
+          "unit_value": 0.37
+        }
+      ]
+    },
+    {
+      "id": "framar-гал-колагенови-пептиди-свински-колаген-300-г",
+      "store": "Framar",
+      "name": "ГАЛ КОЛАГЕНОВИ ПЕПТИДИ (СВИНСКИ КОЛАГЕН) 300 г",
+      "brand": "GAL",
+      "category": "collagen",
+      "url": "https://apteka.framar.bg/30127736/%D0%B3%D0%B0%D0%BB-%D0%BA%D0%BE%D0%BB%D0%B0%D0%B3%D0%B5%D0%BD%D0%BE%D0%B2%D0%B8-%D0%BF%D0%B5%D0%BF%D1%82%D0%B8%D0%B4%D0%B8-%D1%81%D0%B2%D0%B8%D0%BD%D1%81%D0%BA%D0%B8-%D0%BA%D0%BE%D0%BB%D0%B0%D0%B3%D0%B5%D0%BD-300-%D0%B3",
+      "image": "https://static.framar.bg/product/fr-gal-kolagenovi-peptidi-svinski-kolagen-hranitelna-dobavka-png.jpg",
+      "price_bgn": 43.03,
+      "price_eur": 22.0,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 300.0,
+      "servings": null,
+      "count": null,
+      "active": {
+        "collagen_total_g": 300.0
+      },
+      "price_per_active_unit": {
+        "bgn_per_10g_collagen": 1.43
+      },
+      "unit_label": "лв / 10 g колаген",
+      "confidence": "medium",
+      "scraped_at": "2026-05-23T08:57:41.473122Z",
+      "price_history": [
+        {
+          "date": "2026-05-23",
+          "price_bgn": 43.03,
+          "price_eur": 22.0,
+          "unit_value": 1.43
+        }
+      ]
+    },
+    {
+      "id": "framar-гал-говежди-колагенови-пептиди-произход-аржентина-прах-300-г",
+      "store": "Framar",
+      "name": "ГАЛ ГОВЕЖДИ КОЛАГЕНОВИ ПЕПТИДИ (ПРОИЗХОД АРЖЕНТИНА) прах 300 г",
+      "brand": "GAL",
+      "category": "collagen",
+      "url": "https://apteka.framar.bg/30127735/%D0%B3%D0%B0%D0%BB-%D0%B3%D0%BE%D0%B2%D0%B5%D0%B6%D0%B4%D0%B8-%D0%BA%D0%BE%D0%BB%D0%B0%D0%B3%D0%B5%D0%BD%D0%BE%D0%B2%D0%B8-%D0%BF%D0%B5%D0%BF%D1%82%D0%B8%D0%B4%D0%B8-%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D1%85%D0%BE%D0%B4-%D0%B0%D1%80%D0%B6%D0%B5%D0%BD%D1%82%D0%B8%D0%BD%D0%B0-%D0%BF%D1%80%D0%B0%D1%85-300-%D0%B3",
+      "image": "https://static.framar.bg/product/fr-gal-kolagenovi-peptidi-govezhdi-proizhod-arzhentina-hranitelna-dobavka-png.jpg",
+      "price_bgn": 51.73,
+      "price_eur": 26.45,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 300.0,
+      "servings": null,
+      "count": null,
+      "active": {
+        "collagen_total_g": 300.0
+      },
+      "price_per_active_unit": {
+        "bgn_per_10g_collagen": 1.72
+      },
+      "unit_label": "лв / 10 g колаген",
+      "confidence": "medium",
+      "scraped_at": "2026-05-23T08:57:41.561812Z",
+      "price_history": [
+        {
+          "date": "2026-05-23",
+          "price_bgn": 51.73,
+          "price_eur": 26.45,
+          "unit_value": 1.72
+        }
+      ]
+    },
+    {
+      "id": "framar-гал-говежди-колагенови-пептиди-прах-300-г",
+      "store": "Framar",
+      "name": "ГАЛ ГОВЕЖДИ КОЛАГЕНОВИ ПЕПТИДИ прах 300 г",
+      "brand": "GAL",
+      "category": "collagen",
+      "url": "https://apteka.framar.bg/30127733/%D0%B3%D0%B0%D0%BB-%D0%B3%D0%BE%D0%B2%D0%B5%D0%B6%D0%B4%D0%B8-%D0%BA%D0%BE%D0%BB%D0%B0%D0%B3%D0%B5%D0%BD%D0%BE%D0%B2%D0%B8-%D0%BF%D0%B5%D0%BF%D1%82%D0%B8%D0%B4%D0%B8-%D0%BF%D1%80%D0%B0%D1%85-300-%D0%B3",
+      "image": "https://static.framar.bg/product/fr-gal-kolagenovi-peptidi-govezhdi-hranitelna-dobavka-png.jpg",
+      "price_bgn": 48.21,
+      "price_eur": 24.65,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 300.0,
+      "servings": null,
+      "count": null,
+      "active": {
+        "collagen_total_g": 300.0
+      },
+      "price_per_active_unit": {
+        "bgn_per_10g_collagen": 1.61
+      },
+      "unit_label": "лв / 10 g колаген",
+      "confidence": "medium",
+      "scraped_at": "2026-05-23T08:57:41.799373Z",
+      "price_history": [
+        {
+          "date": "2026-05-23",
+          "price_bgn": 48.21,
+          "price_eur": 24.65,
+          "unit_value": 1.61
+        }
+      ]
+    },
+    {
+      "id": "framar-гал-колагенови-пептиди-от-рибен-колаген-прах-150-г",
+      "store": "Framar",
+      "name": "ГАЛ КОЛАГЕНОВИ ПЕПТИДИ (ОТ РИБЕН КОЛАГЕН) прах 150 г",
+      "brand": "GAL",
+      "category": "collagen",
+      "url": "https://apteka.framar.bg/30127726/%D0%B3%D0%B0%D0%BB-%D0%BA%D0%BE%D0%BB%D0%B0%D0%B3%D0%B5%D0%BD%D0%BE%D0%B2%D0%B8-%D0%BF%D0%B5%D0%BF%D1%82%D0%B8%D0%B4%D0%B8-%D0%BE%D1%82-%D1%80%D0%B8%D0%B1%D0%B5%D0%BD-%D0%BA%D0%BE%D0%BB%D0%B0%D0%B3%D0%B5%D0%BD-%D0%BF%D1%80%D0%B0%D1%85-150-%D0%B3",
+      "image": "https://static.framar.bg/product/fr-gal-kolagenovi-peptidi-ot-riben-kolagen.jpg",
+      "price_bgn": 60.63,
+      "price_eur": 31.0,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 150.0,
+      "servings": null,
+      "count": null,
+      "active": {
+        "collagen_total_g": 150.0
+      },
+      "price_per_active_unit": {
+        "bgn_per_10g_collagen": 4.04
+      },
+      "unit_label": "лв / 10 g колаген",
+      "confidence": "medium",
+      "scraped_at": "2026-05-23T08:57:42.321892Z",
+      "price_history": [
+        {
+          "date": "2026-05-23",
+          "price_bgn": 60.63,
+          "price_eur": 31.0,
+          "unit_value": 4.04
+        }
+      ]
+    },
+    {
+      "id": "framar-островит-електролити-таблетки-90",
+      "store": "Framar",
+      "name": "ОСТРОВИТ ЕЛЕКТРОЛИТИ таблетки * 90",
+      "brand": "OSTROVIT",
+      "category": "electrolytes",
+      "url": "https://apteka.framar.bg/30119996/%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B2%D0%B8%D1%82-%D0%B5%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BB%D0%B8%D1%82%D0%B8-%D1%82%D0%B0%D0%B1%D0%BB%D0%B5%D1%82%D0%BA%D0%B8-90",
+      "image": "https://static.framar.bg/product/ostrovit-electrolyte-tabs-devetdeset-new.jpg",
+      "price_bgn": 28.5,
+      "price_eur": 14.57,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 1.2024,
+      "servings": null,
+      "count": 90,
+      "active": {
+        "sodium_mg": 208,
+        "potassium_mg": 300,
+        "magnesium_mg": 150,
+        "electrolyte_serving": 1
+      },
+      "price_per_active_unit": {
+        "bgn_per_electrolyte_serving": 0.32
+      },
+      "unit_label": "лв / доза електролити",
+      "confidence": "high",
+      "scraped_at": "2026-05-23T08:57:46.136082Z",
+      "price_history": [
+        {
+          "date": "2026-05-23",
+          "price_bgn": 28.5,
+          "price_eur": 14.57,
+          "unit_value": 0.32
+        }
+      ]
+    },
+    {
+      "id": "framar-нутравита-електролитен-комплекс-таблетки-240",
+      "store": "Framar",
+      "name": "НУТРАВИТА ЕЛЕКТРОЛИТЕН КОМПЛЕКС таблетки * 240",
+      "brand": "NUTRAVITA",
+      "category": "electrolytes",
+      "url": "https://apteka.framar.bg/30116266/%D0%BD%D1%83%D1%82%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D0%B0-%D0%B5%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BB%D0%B8%D1%82%D0%B5%D0%BD-%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81-%D1%82%D0%B0%D0%B1%D0%BB%D0%B5%D1%82%D0%BA%D0%B8-240",
+      "image": "https://static.framar.bg/product/fr-nutravita-electrolyte-complex-hranitelna-dobavka-png.jpg",
+      "price_bgn": 40.0,
+      "price_eur": 20.45,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 100.0,
+      "servings": null,
+      "count": 240,
+      "active": {
+        "sodium_mg": 200,
+        "potassium_mg": 500,
+        "magnesium_mg": 150,
+        "electrolyte_serving": 1
+      },
+      "price_per_active_unit": {
+        "bgn_per_electrolyte_serving": 0.17
+      },
+      "unit_label": "лв / доза електролити",
+      "confidence": "high",
+      "scraped_at": "2026-05-23T08:57:47.822681Z",
+      "price_history": [
+        {
+          "date": "2026-05-23",
+          "price_bgn": 40.0,
+          "price_eur": 20.45,
+          "unit_value": 0.17
+        }
+      ]
+    },
+    {
+      "id": "framar-островит-аква-кик-електролити-300-г",
+      "store": "Framar",
+      "name": "ОСТРОВИТ АКВА КИК ЕЛЕКТРОЛИТИ 300 г",
+      "brand": "OSTROVIT",
+      "category": "electrolytes",
+      "url": "https://apteka.framar.bg/30100013/%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B2%D0%B8%D1%82-%D0%B0%D0%BA%D0%B2%D0%B0-%D0%BA%D0%B8%D0%BA-%D0%B5%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BB%D0%B8%D1%82%D0%B8-300-%D0%B3",
+      "image": "https://static.framar.bg/product/ostrovit-aqua-kick-electrolyte-powder.jpg",
+      "price_bgn": 33.95,
+      "price_eur": 17.36,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 300.0,
+      "servings": null,
+      "count": 6,
+      "active": {
+        "sodium_mg": 200,
+        "potassium_mg": 300,
+        "magnesium_mg": 57,
+        "electrolyte_serving": 1
+      },
+      "price_per_active_unit": {
+        "bgn_per_electrolyte_serving": 5.66
+      },
+      "unit_label": "лв / доза електролити",
+      "confidence": "high",
+      "scraped_at": "2026-05-23T08:57:48.500533Z",
+      "price_history": [
+        {
+          "date": "2026-05-23",
+          "price_bgn": 33.95,
+          "price_eur": 17.36,
+          "unit_value": 5.66
+        }
+      ]
+    },
+    {
+      "id": "framar-островит-електролити-портокал-ефервесцентни-таблетки-20",
+      "store": "Framar",
+      "name": "ОСТРОВИТ ЕЛЕКТРОЛИТИ ПОРТОКАЛ ефервесцентни таблетки * 20",
+      "brand": "OSTROVIT",
+      "category": "electrolytes",
+      "url": "https://apteka.framar.bg/30115174/%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B2%D0%B8%D1%82-%D0%B5%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BB%D0%B8%D1%82%D0%B8-%D0%BF%D0%BE%D1%80%D1%82%D0%BE%D0%BA%D0%B0%D0%BB-%D0%B5%D1%84%D0%B5%D1%80%D0%B2%D0%B5%D1%81%D1%86%D0%B5%D0%BD%D1%82%D0%BD%D0%B8-%D1%82%D0%B0%D0%B1%D0%BB%D0%B5%D1%82%D0%BA%D0%B8-20",
+      "image": "https://static.framar.bg/product/fr-ostrovit-elektroliti-portokal-efervestsentni-tabletki-hranitelna-dobavka.jpg",
+      "price_bgn": 6.94,
+      "price_eur": 3.55,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 4.2024,
+      "servings": null,
+      "count": 20,
+      "active": {
+        "potassium_mg": 300,
+        "electrolyte_serving": 1
+      },
+      "price_per_active_unit": {
+        "bgn_per_electrolyte_serving": 0.35
+      },
+      "unit_label": "лв / доза електролити",
+      "confidence": "high",
+      "scraped_at": "2026-05-23T08:57:48.547544Z",
+      "price_history": [
+        {
+          "date": "2026-05-23",
+          "price_bgn": 6.94,
+          "price_eur": 3.55,
+          "unit_value": 0.35
+        }
+      ]
+    },
+    {
+      "id": "silabg-now-iron-double-strength-36-mg-90-vcaps",
+      "store": "SilaBG",
+      "name": "NOW Iron Double Strength 36 mg / 90 Vcaps",
+      "brand": "NOW",
+      "category": "iron",
+      "url": "https://www.silabg.com/bg/38533-now-iron-double-strength-36-mg-90-vcaps.html",
+      "image": "https://www.silabg.com/uf/product/37152_Iron36mg_90.jpg",
+      "price_bgn": 36.75,
+      "price_eur": 18.79,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": null,
+      "count": 90,
+      "active": {
+        "iron_mg": 36
+      },
+      "price_per_active_unit": {
+        "bgn_per_14mg_iron": 0.16
+      },
+      "unit_label": "лв / 14 mg желязо",
+      "confidence": "high",
+      "scraped_at": "2026-05-23T08:57:58.444958Z",
+      "price_history": [
+        {
+          "date": "2026-05-23",
+          "price_bgn": 36.75,
+          "price_eur": 18.79,
+          "unit_value": 0.16
+        }
+      ]
+    },
+    {
+      "id": "silabg-applied-nutrition-hydration-electrolyte-vitamin-powder-stick-pack-7-x-8-g",
+      "store": "SilaBG",
+      "name": "APPLIED NUTRITION Hydration+ Electrolyte & Vitamin Powder Stick Pack / 7 x 8 g",
+      "brand": "APPLIED NUTRITION",
+      "category": "electrolytes",
+      "url": "https://www.silabg.com/bg/41452-applied-nutrition-hydration-electrolyte-vitamin-powder-stick-pack-7-x-8-g.html",
+      "image": "https://www.silabg.com/uf/product/40011_Hydration_Sticks.jpg",
+      "price_bgn": 20.79,
+      "price_eur": 10.63,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 8.0,
+      "servings": null,
+      "count": 7,
+      "active": {
+        "electrolyte_serving": 1
+      },
+      "price_per_active_unit": {
+        "bgn_per_electrolyte_serving": 2.97
+      },
+      "unit_label": "лв / доза електролити",
+      "confidence": "medium",
+      "scraped_at": "2026-05-23T08:58:10.693671Z",
+      "price_history": [
+        {
+          "date": "2026-05-23",
+          "price_bgn": 20.79,
+          "price_eur": 10.63,
+          "unit_value": 2.97
+        }
+      ]
+    },
+    {
+      "id": "silabg-applied-nutrition-hydration-complete-electrolyte-vitamin-powder",
+      "store": "SilaBG",
+      "name": "APPLIED NUTRITION Hydration+ Complete Electrolyte & Vitamin Powder",
+      "brand": "APPLIED NUTRITION",
+      "category": "electrolytes",
+      "url": "https://www.silabg.com/bg/41451-applied-nutrition-hydration-complete-electrolyte-vitamin-powder.html",
+      "image": "https://www.silabg.com/uf/product/40010_hydration_240.jpg",
+      "price_bgn": 43.18,
+      "price_eur": 22.08,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 240.0,
+      "servings": null,
+      "count": 120,
+      "active": {
+        "electrolyte_serving": 1
+      },
+      "price_per_active_unit": {
+        "bgn_per_electrolyte_serving": 0.36
+      },
+      "unit_label": "лв / доза електролити",
+      "confidence": "medium",
+      "scraped_at": "2026-05-23T08:58:12.073252Z",
+      "price_history": [
+        {
+          "date": "2026-05-23",
+          "price_bgn": 43.18,
+          "price_eur": 22.08,
+          "unit_value": 0.36
+        }
+      ]
+    },
+    {
+      "id": "mypharmacy-желязо-хелат-табл-25мг-x-90",
+      "store": "MyPharmacy",
+      "name": "ЖЕЛЯЗО (Хелат) табл. 25мг x 90",
+      "brand": null,
+      "category": "iron",
+      "url": "https://mypharmacy.bg/hranitelni-dobavki/anemiya/neychrl-natural-factors-iron-chelate-estestven-produkt-podpomagasch-prevenciyata-na-zhelyazodeficitna-anemiya-25mg-x-90.html",
+      "image": "https://mypharmacy.bg/images/thumbnails/350/350/detailed/2/NF-1640-400x400.jpg",
+      "price_bgn": 19.19,
+      "price_eur": 9.81,
+      "currency_source": "BGN",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": 90,
+      "count": 1,
+      "active": {
+        "iron_mg": 25
+      },
+      "price_per_active_unit": {
+        "bgn_per_14mg_iron": 0.12
+      },
+      "unit_label": "лв / 14 mg желязо",
+      "confidence": "high",
+      "scraped_at": "2026-05-23T08:58:46.082613Z",
+      "price_history": [
+        {
+          "date": "2026-05-23",
+          "price_bgn": 19.19,
+          "price_eur": 9.81,
+          "unit_value": 0.12
+        }
+      ]
+    },
+    {
+      "id": "mypharmacy-допелхерц-актив-колаген-за-здрави-стави-табл-x-30",
+      "store": "MyPharmacy",
+      "name": "ДОПЕЛХЕРЦ АКТИВ КОЛАГЕН за здрави стави табл. x 30",
+      "brand": null,
+      "category": "collagen",
+      "url": "https://mypharmacy.bg/hranitelni-dobavki/stavi-i-kosti-bg/doppelherz-activ-collagen-for-joint-za-zdravi-stavi-tabletki-x-30.html",
+      "image": "https://mypharmacy.bg/images/thumbnails/350/350/detailed/3/150772089093104.jpg",
+      "price_bgn": 14.39,
+      "price_eur": 7.36,
+      "currency_source": "BGN",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": 90,
+      "count": 2,
+      "active": {
+        "collagen_g": 1.1
+      },
+      "price_per_active_unit": {
+        "bgn_per_10g_collagen": 1.45
+      },
+      "unit_label": "лв / 10 g колаген",
+      "confidence": "high",
+      "scraped_at": "2026-05-23T08:58:53.577435Z",
+      "price_history": [
+        {
+          "date": "2026-05-23",
+          "price_bgn": 14.39,
+          "price_eur": 7.36,
+          "unit_value": 1.45
+        }
+      ]
+    },
+    {
+      "id": "stayfit-everbuild-ultra-hydrolyzed-collagen-build",
+      "store": "Stayfit",
+      "name": "EVERBUILD Ultra Hydrolyzed Collagen Build",
+      "brand": "Everbuild",
+      "category": "collagen",
+      "url": "https://stayfit.bg/product/everbuild-ultra-hydrolyzed-collagen-build",
+      "image": "https://stayfit.bg/cdn/img/products/1074/everbuild-ultra-hydrolyzed-collagen-build-69d24fad8fdde.jpeg?width=600&height=600&v=1777620421",
+      "price_bgn": 39.0,
+      "price_eur": 19.94,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 300.0,
+      "servings": 30,
+      "count": 60,
+      "active": {
+        "collagen_total_g": 300.0
+      },
+      "price_per_active_unit": {
+        "bgn_per_10g_collagen": 1.3
+      },
+      "unit_label": "лв / 10 g колаген",
+      "confidence": "medium",
+      "scraped_at": "2026-05-23T08:59:00.124541Z",
+      "price_history": [
+        {
+          "date": "2026-05-23",
+          "price_bgn": 39.0,
+          "price_eur": 19.94,
+          "unit_value": 1.3
+        }
+      ]
+    },
+    {
+      "id": "stayfit-swedish-supplements-collagen-vital-hydrolyzed-peptides",
+      "store": "Stayfit",
+      "name": "SWEDISH Supplements Collagen Vital / Hydrolyzed Peptides",
+      "brand": "SWEDISH Supplements",
+      "category": "collagen",
+      "url": "https://stayfit.bg/product/swedish-supplements-collagen-vital-hydrolyzed-peptides",
+      "image": "https://stayfit.bg/cdn/img/products/934/swedish-supplements-collagen-vital--hydrolyzed-peptides-69074bc665ec8.jpeg?width=600&height=600&v=1777620419",
+      "price_bgn": 62.21,
+      "price_eur": 31.81,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 400.0,
+      "servings": 33,
+      "count": 60,
+      "active": {
+        "collagen_total_g": 400.0
+      },
+      "price_per_active_unit": {
+        "bgn_per_10g_collagen": 1.56
+      },
+      "unit_label": "лв / 10 g колаген",
+      "confidence": "medium",
+      "scraped_at": "2026-05-23T08:59:02.297897Z",
+      "old_price_bgn": 82.95,
+      "discount_pct": 25,
+      "promo_label": "-25%",
+      "price_history": [
+        {
+          "date": "2026-05-23",
+          "price_bgn": 62.21,
+          "price_eur": 31.81,
+          "unit_value": 1.56
+        }
+      ]
+    },
+    {
+      "id": "stayfit-haya-labs-collagen-max",
+      "store": "Stayfit",
+      "name": "HAYA LABS Collagen Max",
+      "brand": "Haya Labs",
+      "category": "collagen",
+      "url": "https://stayfit.bg/product/haya-labs-collagen-max",
+      "image": "https://stayfit.bg/cdn/img/products/870/haya-labs-collagen-max-682b1f3166e1b.jpeg?width=600&height=600&v=1777620420",
+      "price_bgn": 46.0,
+      "price_eur": 23.52,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 395.0,
+      "servings": 30,
+      "count": 60,
+      "active": {
+        "collagen_g": 25.0
+      },
+      "price_per_active_unit": {
+        "bgn_per_10g_collagen": 0.61
+      },
+      "unit_label": "лв / 10 g колаген",
+      "confidence": "high",
+      "scraped_at": "2026-05-23T08:59:04.025111Z",
+      "price_history": [
+        {
+          "date": "2026-05-23",
+          "price_bgn": 46.0,
+          "price_eur": 23.52,
+          "unit_value": 0.61
+        }
+      ]
+    },
+    {
+      "id": "stayfit-fa-nutrition-collagen-with-glucosamine-chondroitin-msm-hyaluronic",
+      "store": "Stayfit",
+      "name": "FA Nutrition Collagen with Glucosamine, Chondroitin, MSM, Hyaluronic",
+      "brand": "FA Nutrition",
+      "category": "collagen",
+      "url": "https://stayfit.bg/product/fa-nutrition-collagen-with-glucosamine-chondroitin-msm-hyaluronic",
+      "image": "https://stayfit.bg/cdn/img/products/744/fa-nutrition-collagen-with-glucosamine-chondroitin-msm-hyaluronic-658010171ff60.jpeg?width=600&height=600&v=1777620417",
+      "price_bgn": 48.41,
+      "price_eur": 24.75,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 450.0,
+      "servings": 30,
+      "count": 60,
+      "active": {
+        "collagen_total_g": 450.0
+      },
+      "price_per_active_unit": {
+        "bgn_per_10g_collagen": 1.08
+      },
+      "unit_label": "лв / 10 g колаген",
+      "confidence": "medium",
+      "scraped_at": "2026-05-23T08:59:05.056704Z",
+      "old_price_bgn": 54.96,
+      "discount_pct": 12,
+      "promo_label": "-12%",
+      "price_history": [
+        {
+          "date": "2026-05-23",
+          "price_bgn": 48.41,
+          "price_eur": 24.75,
+          "unit_value": 1.08
+        }
+      ]
+    },
+    {
+      "id": "stayfit-dorian-yates-nutrition-collagen-complex-with-hyaluronic-acid-acai-berry",
+      "store": "Stayfit",
+      "name": "Dorian Yates Nutrition Collagen Complex with Hyaluronic Acid & Acai Berry",
+      "brand": "Dorian Yates Nutrition",
+      "category": "collagen",
+      "url": "https://stayfit.bg/product/dorian-yates-nutrition-collagen-complex-with-hyaluronic-acid-acai-berry",
+      "image": "https://stayfit.bg/cdn/img/products/541/dorian-yates-nutrition-collagen-complex-with-hyaluronic-acid--acai-berry-64d6aa1b348de.jpeg?width=600&height=600&v=1777620415",
+      "price_bgn": 71.95,
+      "price_eur": 36.79,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 300.0,
+      "servings": 20,
+      "count": 60,
+      "active": {
+        "collagen_total_g": 300.0
+      },
+      "price_per_active_unit": {
+        "bgn_per_10g_collagen": 2.4
+      },
+      "unit_label": "лв / 10 g колаген",
+      "confidence": "medium",
+      "scraped_at": "2026-05-23T08:59:05.610401Z",
+      "price_history": [
+        {
+          "date": "2026-05-23",
+          "price_bgn": 71.95,
+          "price_eur": 36.79,
+          "unit_value": 2.4
         }
       ]
     }

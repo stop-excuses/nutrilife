@@ -81,8 +81,25 @@ const BASE = 'http://127.0.0.1:8000/smart-supplements.html';
     await page.click('[data-category="all"]');
     await page.waitForTimeout(300);
 
-    // 5. Search common terms
-    for (const q of ['креатин', 'витамин d', 'витамин c', 'омега', 'магнезий', 'протеин', 'цинк', 'фибри']) {
+    // 5. New measurable categories render and sort by active-dose price
+    for (const cat of ['electrolytes', 'collagen', 'iron']) {
+      await page.click(`[data-category="${cat}"]`);
+      await page.waitForTimeout(400);
+      const cards = await page.locator('.supplement-card').count();
+      const prices = await page.locator('.supplement-card .supplement-price-row strong').evaluateAll(nodes => nodes
+        .map(node => Number((node.textContent || '').replace(',', '.').match(/[0-9.]+/)?.[0]))
+        .filter(Number.isFinite)
+      );
+      const sorted = prices.every((price, idx) => idx === 0 || price >= prices[idx - 1] - 0.0001);
+      step(`Category ${cat} active-dose sort`, cards > 0 && sorted, `${cards} cards, first=${prices.slice(0, 5).join(', ')}`);
+    }
+
+    // Reset category back to all before broad searches
+    await page.click('[data-category="all"]');
+    await page.waitForTimeout(300);
+
+    // 6. Search common terms
+    for (const q of ['креатин', 'витамин d', 'витамин c', 'омега', 'магнезий', 'протеин', 'цинк', 'фибри', 'електролити', 'колаген', 'желязо']) {
       await page.fill('#supplements-search', '');
       await page.waitForTimeout(120);
       await page.fill('#supplements-search', q);
@@ -91,7 +108,7 @@ const BASE = 'http://127.0.0.1:8000/smart-supplements.html';
       step(`Search "${q}"`, c > 0, `${c} cards`);
     }
 
-    // 6. Empty search
+    // 7. Empty search
     await page.fill('#supplements-search', '');
     await page.fill('#supplements-search', 'zzznotreal999');
     await page.waitForTimeout(500);
@@ -100,7 +117,7 @@ const BASE = 'http://127.0.0.1:8000/smart-supplements.html';
     await page.fill('#supplements-search', '');
     await page.waitForTimeout(300);
 
-    // 7. Sort options
+    // 8. Sort options
     for (const s of ['unit', 'price', 'name']) {
       const btn = page.locator(`[data-sort="${s}"]`).first();
       if (await btn.count() > 0) {
@@ -111,7 +128,7 @@ const BASE = 'http://127.0.0.1:8000/smart-supplements.html';
       }
     }
 
-    // 8. Watch/compare buttons
+    // 9. Watch/compare buttons
     const watchBtn = page.locator('.watch-price-btn').first();
     if (await watchBtn.count() > 0) {
       await watchBtn.scrollIntoViewIfNeeded();

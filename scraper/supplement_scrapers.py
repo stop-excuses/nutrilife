@@ -47,6 +47,9 @@ CATEGORY_KEYWORDS = {
     "zinc": ("zinc", "цинк", "cink"),
     "protein": ("протеин", "protein", "whey", "суроват", "isolate", "изолат"),
     "fiber": ("псилиум", "psyllium", "фибри", "fiber"),
+    "electrolytes": ("електролит", "electrolyte", "electrolytes", "rehydration", "hydration", "натрий калий"),
+    "collagen": ("колаген", "collagen", "collagen peptides", "hydrolyzed collagen"),
+    "iron": ("желязо", "iron", "ferrous", "ferrum", "iron bisglycinate"),
 }
 
 CATEGORY_UNITS = {
@@ -60,6 +63,9 @@ CATEGORY_UNITS = {
     "zinc": {"key": "bgn_per_15mg_zinc", "label": "лв / 15 mg цинк"},
     "protein": {"key": "bgn_per_25g_protein", "label": "лв / 25 g протеин"},
     "fiber": {"key": "bgn_per_5g_fiber", "label": "лв / 5 g фибри"},
+    "electrolytes": {"key": "bgn_per_electrolyte_serving", "label": "лв / доза електролити"},
+    "collagen": {"key": "bgn_per_10g_collagen", "label": "лв / 10 g колаген"},
+    "iron": {"key": "bgn_per_14mg_iron", "label": "лв / 14 mg желязо"},
 }
 
 
@@ -679,8 +685,10 @@ def parse_largest_weight_grams(text: str) -> float | None:
 
 def parse_count(text: str) -> int | None:
     patterns = (
-        r"(?:х|\*)\s*(\d{1,4})\s*(?:капсули|таблетки|табл|caps|vcaps|softgels|дражета)",
+        r"(?:х|x|\*)\s*(\d{1,4})\s*(?:капсули|таблетки|табл|caps|vcaps|softgels|дражета|sticks?|sachets?)",
+        r"(\d{1,4})\s*(?:бр\.?\s*)?(?:х|x|\*)",
         r"(\d{1,4})\s*(?:капсули|таблетки|табл|caps|vcaps|softgels|дражета)",
+        r"(\d{1,4})\s*(?:sticks?|sachets?)",
     )
     for pattern in patterns:
         match = re.search(pattern, text, re.I)
@@ -837,6 +845,41 @@ def extract_active(category: str, text: str, weight_grams: float | None, serving
         elif fiber_mg and 100 <= fiber_mg <= 10000:
             active["fiber_mg"] = fiber_mg
             confidence = "medium"
+        return active, price_units, confidence
+
+    if category == "electrolytes":
+        sodium_mg = extract_named_mg(text, ("натрий", "sodium"))
+        potassium_mg = extract_named_mg(text, ("калий", "potassium"))
+        magnesium_mg = extract_named_mg(text, ("магнезий", "magnesium"))
+        if sodium_mg and 50 <= sodium_mg <= 3000:
+            active["sodium_mg"] = sodium_mg
+        if potassium_mg and 20 <= potassium_mg <= 2000:
+            active["potassium_mg"] = potassium_mg
+        if magnesium_mg and 10 <= magnesium_mg <= 800:
+            active["magnesium_mg"] = magnesium_mg
+        active["electrolyte_serving"] = 1
+        confidence = "high" if active.get("sodium_mg") or active.get("potassium_mg") else "medium"
+        return active, price_units, confidence
+
+    if category == "collagen":
+        collagen_g = extract_named_g(text, ("колаген", "collagen", "collagen peptides"))
+        collagen_mg = extract_named_mg(text, ("колаген", "collagen", "collagen peptides"))
+        if collagen_g and 1 <= collagen_g <= 30:
+            active["collagen_g"] = collagen_g
+            confidence = "high"
+        elif collagen_mg and 1000 <= collagen_mg <= 30000:
+            active["collagen_g"] = round(collagen_mg / 1000, 2)
+            confidence = "high"
+        elif weight_grams and weight_grams >= 50 and not re.search(r"капсул|caps|табл|tablet|liquid|ml|мл", text[:2000], re.I):
+            active["collagen_total_g"] = weight_grams
+            confidence = "medium"
+        return active, price_units, confidence
+
+    if category == "iron":
+        mg = extract_named_mg(text, ("желязо", "iron", "ferrous", "ferrum"))
+        if mg and 2 <= mg <= 100:
+            active["iron_mg"] = mg
+            confidence = "high"
         return active, price_units, confidence
 
     return active, price_units, confidence
@@ -1176,6 +1219,22 @@ def calculate_price_units(category: str, price_bgn: float | None, active: dict, 
             units["bgn_per_5g_fiber"] = round(price_bgn / (((fiber_mg * (servings or count)) / 1000) / 5), 2)
         elif weight_grams and not count:
             units["bgn_per_5g_fiber"] = round(price_bgn / (weight_grams / 5), 2)
+    elif category == "electrolytes":
+        multiplier = servings or count
+        if multiplier:
+            units["bgn_per_electrolyte_serving"] = round(price_bgn / multiplier, 2)
+    elif category == "collagen":
+        collagen_g = active.get("collagen_g")
+        total_collagen_g = active.get("collagen_total_g")
+        if collagen_g and (servings or count):
+            units["bgn_per_10g_collagen"] = round(price_bgn / ((collagen_g * (servings or count)) / 10), 2)
+        elif total_collagen_g:
+            units["bgn_per_10g_collagen"] = round(price_bgn / (total_collagen_g / 10), 2)
+    elif category == "iron":
+        per_serving = active.get("iron_mg")
+        multiplier = servings or count
+        if per_serving and multiplier:
+            units["bgn_per_14mg_iron"] = round(price_bgn / ((per_serving * multiplier) / 14), 2)
     return units
 
 
@@ -1270,6 +1329,20 @@ def is_relevant_product(category: str, name: str, url: str) -> bool:
     keywords = CATEGORY_KEYWORDS[category]
     if category == "fiber":
         return bool(re.search(r"\b(psyllium|fiber)\b|псилиум|фибри", haystack, re.I))
+    if category == "electrolytes":
+        if any(bad in haystack for bad in ("battery", "акумулатор", "коса", "shampoo")):
+            return False
+        if any(bad in haystack for bad in ("carbonated", "drink box", " drink /", "bcaa", "eaa", "amino", "vitargo", "carbo")):
+            return False
+        return bool(re.search(r"електролит|electrolytes?|rehydration|hydration|натрий.{0,25}калий|sodium.{0,25}potassium", haystack, re.I))
+    if category == "collagen":
+        if any(bad in haystack for bad in ("collagen cream", "крем", "serum", "серум", "mask", "маска")):
+            return False
+        return bool(re.search(r"колаген|collagen", haystack, re.I))
+    if category == "iron":
+        if any(bad in haystack for bad in ("iron gym", "ironmaxx", "barbell", "дъмбел", "уред")):
+            return False
+        return bool(re.search(r"\biron\b|желязо|ferrous|ferrum", haystack, re.I))
     if category == "vitamin_d":
         return bool(re.search(r"витамин\s*d3?|vitamin[-\s]?d3?|\bd3\b|\b\d{3,5}\s*(?:iu|ме)\b", haystack, re.I))
     if category == "vitamin_c":
@@ -1450,6 +1523,12 @@ def has_plausible_active_values(product: dict) -> bool:
     if active.get("vitamin_d_iu", 0) > 10000:
         return False
     if active.get("protein_g", 0) > 60:
+        return False
+    if active.get("collagen_g", 0) > 40:
+        return False
+    if active.get("iron_mg", 0) > 120:
+        return False
+    if active.get("sodium_mg", 0) > 5000:
         return False
     return True
 
