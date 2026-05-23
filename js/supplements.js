@@ -66,8 +66,7 @@
         availability: 'all',
         sort: 'unit',
         query: '',
-        page: 1,
-        hideOutliers: true
+        page: 1
     };
     let compareIds = [];
 
@@ -231,15 +230,6 @@
             });
         });
 
-        const outlierToggle = document.getElementById('supplements-hide-outliers');
-        if (outlierToggle) {
-            outlierToggle.addEventListener('change', () => {
-                filters.hideOutliers = outlierToggle.checked;
-                filters.page = 1;
-                applyFilters();
-            });
-        }
-
         document.addEventListener('click', event => {
             const watchButton = event.target.closest('[data-watch-supplement]');
             if (watchButton) {
@@ -316,9 +306,7 @@
         if (filters.availability === 'confirmed') {
             filtered = filtered.filter(item => item.availability_status === 'in_stock' || item.availability_status === 'limited');
         }
-        if (filters.hideOutliers) {
-            filtered = filtered.filter(item => !isOutlierPrice(item));
-        }
+        filtered = filtered.filter(item => !isOutlierPrice(item));
         if (filters.query) {
             filtered = filtered.filter(item => matchesSearch(item, filters.query));
             const intendedCategory = filters.category === 'all' ? searchCategoryIntents[filters.query] : null;
@@ -370,14 +358,13 @@
         const status = document.getElementById('supplements-status');
         if (!status) return;
         const generated = DATA.generated_at ? new Date(DATA.generated_at).toLocaleString('bg-BG') : 'неизвестно';
-        const hiddenOutliers = filters.hideOutliers ? items.filter(item => isOutlierPrice(item)).length : 0;
         const confirmed = items.filter(item => item.availability_status === 'in_stock' || item.availability_status === 'limited').length;
         const unknown = items.filter(item => item.availability_status === 'unknown').length;
         status.innerHTML = `
             <span><strong>${count}</strong> показани продукта</span>
             <span>от <strong>${items.length}</strong> общо</span>
             <span><strong>${DATA.sources.length}</strong> магазина</span>
-            <small>Обновено на ${escapeHtml(generated)}. Потвърдено налични: ${confirmed}; с непотвърдена наличност: ${unknown}. ${filters.hideOutliers ? `Скрити са ${hiddenOutliers} очевидно съмнителни сметки.` : 'Показани са и съмнително скъпите сметки.'}</small>
+            <small>Обновено на ${escapeHtml(generated)}. Потвърдено налични: ${confirmed}; с непотвърдена наличност: ${unknown}.</small>
         `;
     }
 
@@ -702,11 +689,9 @@
     }
 
     function resetFilters() {
-        filters = { category: 'all', store: 'all', confidence: 'all', availability: 'all', sort: 'unit', query: '', page: 1, hideOutliers: true };
+        filters = { category: 'all', store: 'all', confidence: 'all', availability: 'all', sort: 'unit', query: '', page: 1 };
         const search = document.getElementById('supplements-search');
         if (search) search.value = '';
-        const outlierToggle = document.getElementById('supplements-hide-outliers');
-        if (outlierToggle) outlierToggle.checked = true;
         document.querySelectorAll('button[data-category]').forEach(btn => btn.classList.toggle('active', btn.dataset.category === 'all'));
         document.querySelectorAll('button[data-store]').forEach(btn => btn.classList.toggle('active', btn.dataset.store === 'all'));
         document.querySelectorAll('button[data-confidence]').forEach(btn => btn.classList.toggle('active', btn.dataset.confidence === 'all'));
