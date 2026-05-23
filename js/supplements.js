@@ -345,7 +345,9 @@
             if (filters.sort === 'store') {
                 return a.store.localeCompare(b.store, 'bg') || a.category.localeCompare(b.category, 'bg') || a.unitValue - b.unitValue;
             }
-            return valueSortScore(a) - valueSortScore(b) || (confidenceScore[b.confidence] || 0) - (confidenceScore[a.confidence] || 0);
+            return a.unitValue - b.unitValue
+                || (confidenceScore[b.confidence] || 0) - (confidenceScore[a.confidence] || 0)
+                || formScorePenalty(a) - formScorePenalty(b);
         });
     }
 
@@ -685,7 +687,10 @@
     }
 
     function compareBestCandidate(a, b) {
-        return valueSortScore(a) - valueSortScore(b);
+        const confidenceScore = { high: 3, medium: 2, low: 1 };
+        return a.unitValue - b.unitValue
+            || (confidenceScore[b.confidence] || 0) - (confidenceScore[a.confidence] || 0)
+            || formScorePenalty(a) - formScorePenalty(b);
     }
 
     function resetFilters() {
