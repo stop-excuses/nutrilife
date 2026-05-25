@@ -130,7 +130,8 @@ const PROTEIN_RANKING_EXCLUDE_KEYWORDS = [
     "\u043c\u0435\u0441\u043e \u0437\u0430 \u0433\u043e\u0442\u0432\u0435\u043d\u0435", "\u0431\u0435\u043a\u043e\u043d", "\u0448\u0443\u043d\u043a\u0430", "\u043a\u043e\u043b\u0431\u0430\u0441",
     "\u043a\u0440\u0435\u043d\u0432\u0438\u0440\u0448", "\u043d\u0430\u0434\u0435\u043d\u0438\u0446\u0430", "\u0441\u0430\u043b\u0430\u043c", "\u0448\u043f\u0435\u043a",
     "\u043b\u0443\u043a\u0430\u043d\u043a\u0430", "\u0441\u0443\u0434\u0436\u0443\u043a", "\u0431\u0443\u0440\u0433\u0435\u0440", "\u043a\u044e\u0444\u0442\u0435", "\u043a\u0435\u0431\u0430\u043f",
-    "\u043f\u0430\u043d\u0438\u0440\u0430\u043d", "\u0433\u043e\u0442\u043e\u0432\u043e", "\u0433\u043e\u0442\u043e\u0432\u0438"
+    "\u043f\u0430\u043d\u0438\u0440\u0430\u043d", "\u0433\u043e\u0442\u043e\u0432\u043e", "\u0433\u043e\u0442\u043e\u0432\u0438",
+    "\u0432 \u043e\u043b\u0438\u043e", "\u0441\u043b\u044a\u043d\u0447\u043e\u0433\u043b\u0435\u0434\u043e\u0432\u043e \u043e\u043b\u0438\u043e", "\u0440\u0430\u0441\u0442\u0438\u0442\u0435\u043b\u043d\u043e \u043c\u0430\u0441\u043b\u043e"
 ];
 
 const EXACT_NON_FOOD_NAMES = new Set(["гъба"]);
@@ -454,6 +455,16 @@ const NON_FOOD_MACRO_OVERRIDE = [
     "raffaello", "kinder", "великденски яйца", "шоколадов",
 ];
 
+function getSpecialCaseMacros(nameLower) {
+    const isTuna = nameLower.includes("риба тон");
+    if (!isTuna) return null;
+    if (nameLower.includes("зехтин")) return { p: 25, f: 6, c: 0, kcal: 155 };
+    if (nameLower.includes("в олио") || nameLower.includes("слънчогледово олио") || nameLower.includes("растително масло")) {
+        return { p: 25, f: 8, c: 0, kcal: 172 };
+    }
+    return null;
+}
+
 /**
  * Returns canonical nutrition for an offer if a known food type is matched.
  * Canonical table takes priority over scraped macros — prevents noisy
@@ -464,6 +475,8 @@ function getMacros(offer) {
     const nameLower = (offer.name || "").toLowerCase();
     // Hard-block known non-food names
     if (NON_FOOD_MACRO_OVERRIDE.some(kw => nameLower.includes(kw))) return null;
+    const specialCaseMacros = getSpecialCaseMacros(nameLower);
+    if (specialCaseMacros) return { ...(offer.macros || {}), ...specialCaseMacros };
     // Canonical lookup (longest/most specific entries are first in the array)
     for (const [keyword, nutrition] of CANONICAL_NUTRITION) {
         if (nameLower.includes(keyword)) return { ...(offer.macros || {}), ...nutrition };
