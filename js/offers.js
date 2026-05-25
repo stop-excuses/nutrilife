@@ -122,6 +122,17 @@ const NON_PROTEIN_VALUE_KEYWORDS = [
     "пица", "пекарна", "готово", "готови", "billa ready"
 ];
 
+const PROTEIN_RANKING_EXCLUDE_KEYWORDS = [
+    "\u0434\u0440\u043e\u0431", "\u0434\u0440\u043e\u0431\u0447", "\u0441\u044a\u0440\u0446\u0430", "\u0441\u044a\u0440\u0446\u0435", "\u0448\u043a\u0435\u043c\u0431\u0435",
+    "\u0435\u0437\u0438\u043a", "\u0431\u044a\u0431\u0440\u0435\u043a", "\u0431\u044a\u0431\u0440\u0435\u0446\u0438", "\u0432\u043e\u0434\u0435\u043d\u0438\u0447\u043a\u0438",
+    "\u043a\u0430\u0439\u043c\u0430", "\u043c\u043b\u044f\u043d\u043e", "\u0441\u043c\u0435\u0441", "\u0434\u0435\u043b\u0438\u043a\u0430\u0442\u0435\u0441", "\u0440\u043e\u043b\u0435", "\u043d\u0430\u0440\u044f\u0437\u0430\u043d",
+    "\u043f\u0443\u0448\u0435\u043d", "\u043f\u0443\u0448\u0435\u043d\u043e",
+    "\u043c\u0435\u0441\u043e \u0437\u0430 \u0433\u043e\u0442\u0432\u0435\u043d\u0435", "\u0431\u0435\u043a\u043e\u043d", "\u0448\u0443\u043d\u043a\u0430", "\u043a\u043e\u043b\u0431\u0430\u0441",
+    "\u043a\u0440\u0435\u043d\u0432\u0438\u0440\u0448", "\u043d\u0430\u0434\u0435\u043d\u0438\u0446\u0430", "\u0441\u0430\u043b\u0430\u043c", "\u0448\u043f\u0435\u043a",
+    "\u043b\u0443\u043a\u0430\u043d\u043a\u0430", "\u0441\u0443\u0434\u0436\u0443\u043a", "\u0431\u0443\u0440\u0433\u0435\u0440", "\u043a\u044e\u0444\u0442\u0435", "\u043a\u0435\u0431\u0430\u043f",
+    "\u043f\u0430\u043d\u0438\u0440\u0430\u043d", "\u0433\u043e\u0442\u043e\u0432\u043e", "\u0433\u043e\u0442\u043e\u0432\u0438"
+];
+
 const EXACT_NON_FOOD_NAMES = new Set(["гъба"]);
 
 const HEALTH_DISQUALIFY_KEYWORDS = [
@@ -1016,6 +1027,21 @@ function isStrictHighProtein(offer) {
 
 function isValidProteinValueOffer(offer) {
     return getOfferProfile(offer).valid_protein_value;
+}
+
+function isCuratedProteinRankingOffer(offer) {
+    const nameLower = getOfferNameLower(offer);
+    if (PROTEIN_RANKING_EXCLUDE_KEYWORDS.some(kw => nameLower.includes(kw))) return false;
+    const macros = getMacros(offer);
+    if (!macros) return false;
+    const protein = macros.p || 0;
+    const fat = macros.f || 0;
+    const carbs = macros.c || 0;
+    const totalMacros = protein + fat + carbs;
+    if (protein < 10) return false;
+    if (fat > protein * 0.65) return false;
+    if (totalMacros > 0 && protein / totalMacros < 0.55) return false;
+    return true;
 }
 
 function getEdibleYieldFactor(offer) {
@@ -3041,7 +3067,7 @@ function initStaplesGrid() {
 
 function getTopProteinValueItems(limit = 8) {
     return allOffers
-        .filter(o => isValidProteinValueOffer(o))
+        .filter(o => isValidProteinValueOffer(o) && isCuratedProteinRankingOffer(o))
         .map(o => {
             const metrics = getProteinMetrics(o, true);
             return metrics ? { ...o, _proteinMetrics: metrics } : null;
@@ -3349,7 +3375,7 @@ function renderProteinRanking() {
         if ((offer.category === "canned" || offer.category === "legume") && ppk < 1.2) return false;
         return true;
     };
-    const items = allOffers.filter(o => isValidProteinValueOffer(o) && hasPlausibleProteinPrice(o));
+    const items = allOffers.filter(o => isValidProteinValueOffer(o) && isCuratedProteinRankingOffer(o) && hasPlausibleProteinPrice(o));
 
     if (items.length === 0) {
         container.innerHTML = '<p style="color:var(--muted);">Няма данни за протеинов анализ.</p>';
