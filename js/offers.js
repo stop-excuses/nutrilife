@@ -1440,6 +1440,9 @@ async function loadOffers() {
         initStaplesGrid();
         renderProteinRanking();
         renderBaselineRecommendations();
+        renderBulkRecommendations();
+        renderWatchoutOffers();
+        renderCuratedShortlist();
         initTypeFilters();
         initDietFilters();
         initCategoryFilters();
@@ -3036,6 +3039,156 @@ function initStaplesGrid() {
     });
 }
 
+function getTopProteinValueItems(limit = 8) {
+    return allOffers
+        .filter(o => isValidProteinValueOffer(o))
+        .map(o => {
+            const metrics = getProteinMetrics(o, true);
+            return metrics ? { ...o, _proteinMetrics: metrics } : null;
+        })
+        .filter(Boolean)
+        .sort((a, b) => b._proteinMetrics.adjustedProteinPerEur - a._proteinMetrics.adjustedProteinPerEur)
+        .slice(0, limit);
+}
+
+function getTopBaselineItems(limit = 6) {
+    return allCatalogProducts
+        .filter(product => {
+            const profile = getOfferProfile(product);
+            if (!product.name || !profile.is_healthy) return false;
+            if (profile.health_score < 8) return false;
+            if (!["protein", "dairy", "legume", "canned", "grain", "fat"].includes(product.category)) return false;
+            if ((product.avg_price ?? product.lowest_price ?? product.new_price) == null) return false;
+            return !BASELINE_RECOMMENDATION_EXCLUDE_KEYWORDS.some(kw => getOfferNameLower(product).includes(kw));
+        })
+        .sort((a, b) => {
+            const aProtein = getProteinMetrics(a, true)?.adjustedProteinPerLev || 0;
+            const bProtein = getProteinMetrics(b, true)?.adjustedProteinPerLev || 0;
+            if (bProtein !== aProtein) return bProtein - aProtein;
+            if ((b.health_score || 0) !== (a.health_score || 0)) return (b.health_score || 0) - (a.health_score || 0);
+            return (a.avg_price ?? a.new_price ?? 999) - (b.avg_price ?? b.new_price ?? 999);
+        })
+        .slice(0, limit);
+}
+
+function getTopBulkItems(limit = 8) {
+    return allOffers
+        .filter(o =>
+            o.is_bulk_worthy &&
+            isHealthyOffer(o) &&
+            (o.health_score || 0) >= 6 &&
+            BULK_SHELF_STABLE_CATEGORIES.has(o.category)
+        )
+        .sort((a, b) => {
+            if ((b.discount_pct || 0) !== (a.discount_pct || 0)) return (b.discount_pct || 0) - (a.discount_pct || 0);
+            if ((b.health_score || 0) !== (a.health_score || 0)) return (b.health_score || 0) - (a.health_score || 0);
+            return (getReliablePricePerKg(a) || 999) - (getReliablePricePerKg(b) || 999);
+        })
+        .slice(0, limit);
+}
+
+function getBasketCoverage() {
+    return STAPLES.map(staple => {
+        const matching = allOffers.filter(o => {
+            const nl = o.name.toLowerCase();
+            return staple.match.some(kw => nl.includes(kw))
+                && (!staple.not || staple.not.every(bw => !nl.includes(bw)))
+                && (!staple.cat || o.category === staple.cat)
+                && (o.new_price != null || o.price_per_kg != null);
+        });
+        const best = matching.sort((a, b) =>
+            (getReliablePricePerKg(a) ?? a.new_price ?? Infinity) - (getReliablePricePerKg(b) ?? b.new_price ?? Infinity)
+        )[0];
+        return { staple, best };
+    }).filter(item => item.best);
+}
+
+function isWatchoutOffer(offer) {
+    if (!offer || offer.source_type !== "promo") return false;
+    const discount = offer.discount_pct || 0;
+    const profile = getOfferProfile(offer);
+    const name = getOfferNameLower(offer);
+    const noisyDiscount = discount >= 15 && (!profile.is_healthy || (offer.health_score || 0) <= 5);
+    const junkSignal = offer.is_junk || JUNK_FOOD_KEYWORDS.some(kw => name.includes(kw));
+    const weakFoodSignal = discount >= 10 && (junkSignal || profile.is_processed_meat || profile.is_ultra_processed || profile.is_non_edible_product);
+    return noisyDiscount || weakFoodSignal;
+}
+
+function getWatchoutOffers(limit = 8) {
+    return allOffers
+        .filter(isWatchoutOffer)
+        .sort((a, b) => {
+            if ((b.discount_pct || 0) !== (a.discount_pct || 0)) return (b.discount_pct || 0) - (a.discount_pct || 0);
+            return (a.health_score || 0) - (b.health_score || 0);
+        })
+        .slice(0, limit);
+}
+
+function renderCuratedShortlist() {
+    const container = document.getElementById("weekly-shortlist");
+    if (!container) return;
+
+    const protein = getTopProteinValueItems(1)[0];
+    const baseline = getTopBaselineItems(1)[0];
+    const basket = getBasketCoverage();
+    const bulk = getTopBulkItems(1)[0];
+    const watchout = getWatchoutOffers(1)[0];
+
+    const cards = [
+        {
+            anchor: "protein-value-section",
+            kicker: "Протеин за лев",
+            title: protein ? protein.name : "Няма достатъчно данни",
+            meta: protein ? `${protein.store} · ${protein._proteinMetrics.adjustedProteinPerEur.toFixed(1)} г/евро` : "Ще се появи при следващите оферти",
+            tone: "green",
+            offer: protein,
+        },
+        {
+            anchor: "baseline-section",
+            kicker: "Базови продукти",
+            title: baseline ? baseline.name : "База извън промоции",
+            meta: baseline ? `Обичайна цена ~${formatRoundedHalfLev(baseline.avg_price ?? baseline.new_price)} лв` : "Силни продукти за редовно хранене",
+            tone: "green",
+            offer: baseline,
+        },
+        {
+            anchor: "weekly-basket-section",
+            kicker: "Евтина седмица",
+            title: `${basket.length}/${STAPLES.length} базови продукта с текуща цена`,
+            meta: "Яйца, млечни, пиле, риба, овес, леща, зехтин",
+            tone: "amber",
+            offer: basket[0]?.best,
+        },
+        {
+            anchor: "bulk-section",
+            kicker: "Купи на едро",
+            title: bulk ? bulk.name : "Няма силна оферта за запас",
+            meta: bulk ? `${bulk.store}${bulk.discount_pct ? ` · −${bulk.discount_pct}%` : ""}` : "Следим консерви, бобови, зърнени и мазнини",
+            tone: "green",
+            offer: bulk,
+        },
+        {
+            anchor: "watchout-section",
+            kicker: "Не се лъжи",
+            title: watchout ? watchout.name : "Няма шумни капани",
+            meta: watchout ? `${watchout.store}${watchout.discount_pct ? ` · −${watchout.discount_pct}%` : ""}` : "Когато има съмнителни намаления, ще ги покажем тук",
+            tone: "red",
+            offer: watchout,
+        },
+    ];
+
+    container.innerHTML = cards.map(card => `
+        <a class="curated-shortlist-card ${card.tone}" href="#${card.anchor}">
+            <div class="curated-card-media">${card.offer ? renderOfferThumb(card.offer, "curated-card-img") : ""}</div>
+            <div class="curated-card-copy">
+                <span>${card.kicker}</span>
+                <strong>${escapeHtml(card.title)}</strong>
+                <small>${escapeHtml(card.meta)}</small>
+            </div>
+        </a>
+    `).join("");
+}
+
 /* -----------------------------------------------------------------------
    BULK RECOMMENDATIONS
    ----------------------------------------------------------------------- */
@@ -3060,18 +3213,7 @@ function renderBulkRecommendations() {
     const container = document.getElementById("bulk-recommendations");
     if (!container) return;
 
-    const bulkItems = allOffers
-        .filter(o =>
-            o.is_bulk_worthy &&
-            isHealthyOffer(o) &&
-            (o.health_score || 0) >= 6 &&
-            BULK_SHELF_STABLE_CATEGORIES.has(o.category)
-        )
-        .sort((a, b) => {
-            if ((b.discount_pct || 0) !== (a.discount_pct || 0)) return (b.discount_pct || 0) - (a.discount_pct || 0);
-            if ((b.health_score || 0) !== (a.health_score || 0)) return (b.health_score || 0) - (a.health_score || 0);
-            return (getReliablePricePerKg(a) || 999) - (getReliablePricePerKg(b) || 999);
-        });
+    const bulkItems = getTopBulkItems(12);
 
     if (bulkItems.length === 0) {
         container.innerHTML = '<p style="color:var(--muted);">Няма подходящи консерви или зърнени в промоция тази седмица.</p>';
@@ -3127,6 +3269,50 @@ function renderBulkRecommendations() {
 
     container.querySelectorAll('.bulk-card[data-offer-link]').forEach(card => {
         card.addEventListener('click', () => openOfferInGrid(card.dataset.offerLink));
+    });
+}
+
+function renderWatchoutOffers() {
+    const container = document.getElementById("watchout-offers");
+    if (!container) return;
+
+    const items = getWatchoutOffers(8);
+    if (!items.length) {
+        container.innerHTML = `
+            <div class="info-box green">
+                <h3>Тази седмица няма очевидни шумни капани</h3>
+                <p style="margin-top:8px;">Ако се появи оферта с голям процент, но слаб хранителен смисъл, ще я извадим тук вместо да я бутаме като препоръка.</p>
+            </div>
+        `;
+        return;
+    }
+
+    container.innerHTML = items.map(item => {
+        const profile = getOfferProfile(item);
+        const reasons = [];
+        if (!profile.is_healthy) reasons.push("слаб хранителен профил");
+        if (item.is_junk) reasons.push("по-скоро junk продукт");
+        if (profile.is_processed_meat) reasons.push("преработено месо");
+        if (profile.is_ultra_processed) reasons.push("силно преработено");
+        if ((item.health_score || 0) <= 5) reasons.push(`health score ${item.health_score || 0}/10`);
+        const reasonText = reasons.slice(0, 2).join(" · ") || "голям процент, но не е базова храна";
+        return `
+            <div class="watchout-card" data-offer-link="${getOfferDomId(item)}">
+                <div class="watchout-media">
+                    ${renderOfferThumb(item)}
+                    ${item.discount_pct ? `<span>−${item.discount_pct}%</span>` : ""}
+                </div>
+                <div class="watchout-copy">
+                    <strong>${escapeHtml(item.name)}</strong>
+                    <small>${escapeHtml(item.store)} · ${item.new_price != null ? `${item.new_price.toFixed(2)} лв` : "цена в магазина"}</small>
+                    <p>${escapeHtml(reasonText)}</p>
+                </div>
+            </div>
+        `;
+    }).join("");
+
+    container.querySelectorAll(".watchout-card[data-offer-link]").forEach(card => {
+        card.addEventListener("click", () => openOfferInGrid(card.dataset.offerLink));
     });
 }
 
