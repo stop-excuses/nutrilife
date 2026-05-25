@@ -1057,6 +1057,22 @@ function isCuratedProteinRankingOffer(offer) {
     return true;
 }
 
+function hasPlausibleProteinRankingPrice(offer) {
+    const ppk = getReliablePricePerKg(offer);
+    if (!ppk) return false;
+    const macros = getMacros(offer);
+    if (!macros || macros.p < 9) return false;
+    if ((macros.f || 0) > macros.p * 1.1) return false;
+
+    const nameLower = getOfferNameLower(offer);
+    const isFish = ["\u0440\u0438\u0431\u0430 \u0442\u043e\u043d", "\u043f\u044a\u0441\u0442\u044a\u0440\u0432", "\u0441\u044c\u043e\u043c\u0433", "\u0441\u043a\u0443\u043c\u0440\u0438\u044f", "\u043b\u0430\u0432\u0440\u0430\u043a", "\u0446\u0438\u043f\u0443\u0440", "\u0442\u0440\u0435\u0441\u043a\u0430"].some(kw => nameLower.includes(kw));
+    if (isFish && ppk < 8) return false;
+    if (offer.category === "protein" && ppk < 2.4) return false;
+    if (offer.category === "dairy" && ppk < 1.6) return false;
+    if ((offer.category === "canned" || offer.category === "legume") && ppk < 1.2) return false;
+    return true;
+}
+
 function getEdibleYieldFactor(offer) {
     return getOfferProfile(offer).edible_yield;
 }
@@ -3080,7 +3096,7 @@ function initStaplesGrid() {
 
 function getTopProteinValueItems(limit = 8) {
     return allOffers
-        .filter(o => isValidProteinValueOffer(o) && isCuratedProteinRankingOffer(o))
+        .filter(o => isValidProteinValueOffer(o) && isCuratedProteinRankingOffer(o) && hasPlausibleProteinRankingPrice(o))
         .map(o => {
             const metrics = getProteinMetrics(o, true);
             return metrics ? { ...o, _proteinMetrics: metrics } : null;
@@ -3091,6 +3107,14 @@ function getTopProteinValueItems(limit = 8) {
 }
 
 function getTopBaselineItems(limit = 6) {
+    const categoryPriority = new Map([
+        ["legume", 0],
+        ["grain", 1],
+        ["dairy", 2],
+        ["canned", 3],
+        ["fat", 4],
+        ["protein", 5],
+    ]);
     return allCatalogProducts
         .filter(product => {
             const profile = getOfferProfile(product);
@@ -3098,9 +3122,12 @@ function getTopBaselineItems(limit = 6) {
             if (profile.health_score < 8) return false;
             if (!["protein", "dairy", "legume", "canned", "grain", "fat"].includes(product.category)) return false;
             if ((product.avg_price ?? product.lowest_price ?? product.new_price) == null) return false;
+            if (PROTEIN_RANKING_EXCLUDE_KEYWORDS.some(kw => getOfferNameLower(product).includes(kw))) return false;
             return !BASELINE_RECOMMENDATION_EXCLUDE_KEYWORDS.some(kw => getOfferNameLower(product).includes(kw));
         })
         .sort((a, b) => {
+            const categoryDelta = (categoryPriority.get(a.category) ?? 9) - (categoryPriority.get(b.category) ?? 9);
+            if (categoryDelta !== 0) return categoryDelta;
             const aProtein = getProteinMetrics(a, true)?.adjustedProteinPerLev || 0;
             const bProtein = getProteinMetrics(b, true)?.adjustedProteinPerLev || 0;
             if (bProtein !== aProtein) return bProtein - aProtein;
@@ -3146,6 +3173,7 @@ function isWatchoutOffer(offer) {
     if (!offer || offer.source_type !== "promo") return false;
     const discount = offer.discount_pct || 0;
     const profile = getOfferProfile(offer);
+    if (!offer.is_food || profile.is_non_edible_product) return false;
     const name = getOfferNameLower(offer);
     const noisyDiscount = discount >= 15 && (!profile.is_healthy || (offer.health_score || 0) <= 5);
     const junkSignal = offer.is_junk || JUNK_FOOD_KEYWORDS.some(kw => name.includes(kw));
@@ -3377,18 +3405,7 @@ function renderProteinRanking() {
         if (name.includes("леща") || name.includes("боб") || name.includes("нахут")) return "бобови";
         return normalizeProductKey(offer.name);
     };
-    const hasPlausibleProteinPrice = (offer) => {
-        const ppk = getReliablePricePerKg(offer);
-        if (!ppk) return false;
-        const macros = getMacros(offer);
-        if (!macros || macros.p < 9) return false;
-        if ((macros.f || 0) > macros.p * 1.1) return false;
-        if (offer.category === "protein" && ppk < 2.4) return false;
-        if (offer.category === "dairy" && ppk < 1.6) return false;
-        if ((offer.category === "canned" || offer.category === "legume") && ppk < 1.2) return false;
-        return true;
-    };
-    const items = allOffers.filter(o => isValidProteinValueOffer(o) && isCuratedProteinRankingOffer(o) && hasPlausibleProteinPrice(o));
+    const items = allOffers.filter(o => isValidProteinValueOffer(o) && isCuratedProteinRankingOffer(o) && hasPlausibleProteinRankingPrice(o));
 
     if (items.length === 0) {
         container.innerHTML = '<p style="color:var(--muted);">Няма данни за протеинов анализ.</p>';
@@ -3479,6 +3496,7 @@ function renderBaselineRecommendations() {
             if (!["protein", "dairy", "legume", "canned", "grain", "fat"].includes(product.category)) return false;
             if ((product.avg_price ?? product.lowest_price ?? product.new_price) == null) return false;
             if (BASELINE_RECOMMENDATION_EXCLUDE_KEYWORDS.some(kw => getOfferNameLower(product).includes(kw))) return false;
+            if (PROTEIN_RANKING_EXCLUDE_KEYWORDS.some(kw => getOfferNameLower(product).includes(kw))) return false;
             return true;
         });
 
