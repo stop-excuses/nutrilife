@@ -115,11 +115,19 @@ const CURED_LEAN_MEAT_EXACT_NAMES = new Set(["елена"]);
 const CURED_LEAN_MEAT_PHRASES = ["филе елена"];
 
 const PROTEIN_VALUE_ALLOWED_CATEGORIES = new Set(["protein", "dairy", "legume", "canned"]);
+const WATCHOUT_ALLOWED_FOOD_CATEGORIES = new Set(["protein", "dairy", "legume", "canned", "grain", "nuts", "fat", "bread", "vegetable", "drinks"]);
 
 const NON_PROTEIN_VALUE_KEYWORDS = [
     "брашно", "бутер", "ролца", "банич", "витрина", "кюфтет", "кебапчет",
     "кюфте", "панира", "хапки", "спагети", "макарон", "паста", "без яйца",
     "пица", "пекарна", "готово", "готови", "billa ready"
+];
+
+const WATCHOUT_NON_FOOD_KEYWORDS = [
+    "\u0448\u0430\u043c\u043f\u043e\u0430\u043d", "\u0431\u0430\u043b\u0441\u0430\u043c", "\u0434\u0443\u0448 \u0433\u0435\u043b", "\u0441\u0430\u043f\u0443\u043d",
+    "\u0442\u043e\u0430\u043b\u0435\u0442\u043d\u0430 \u0445\u0430\u0440\u0442\u0438\u044f", "\u043a\u0443\u0445\u043d\u0435\u043d\u0441\u043a\u0430 \u0440\u043e\u043b\u043a\u0430", "\u0441\u0430\u043b\u0444\u0435\u0442\u043a\u0438",
+    "\u043f\u043b\u0430\u0441\u0442\u0430", "\u043f\u0440\u0430\u043d\u0435", "\u043f\u0440\u0435\u043f\u0430\u0440\u0430\u0442", "\u043e\u043c\u0435\u043a\u043e\u0442\u0438\u0442\u0435\u043b",
+    "\u0433\u0435\u043b \u0437\u0430", "\u043f\u0430\u0441\u0442\u0430 \u0437\u0430 \u0437\u044a\u0431\u0438", "\u0447\u0435\u0442\u043a\u0430 \u0437\u0430 \u0437\u044a\u0431\u0438"
 ];
 
 const PROTEIN_RANKING_EXCLUDE_KEYWORDS = [
@@ -3173,8 +3181,10 @@ function isWatchoutOffer(offer) {
     if (!offer || offer.source_type !== "promo") return false;
     const discount = offer.discount_pct || 0;
     const profile = getOfferProfile(offer);
-    if (!offer.is_food || profile.is_non_edible_product) return false;
     const name = getOfferNameLower(offer);
+    if (!offer.is_food || profile.is_non_edible_product) return false;
+    if (!WATCHOUT_ALLOWED_FOOD_CATEGORIES.has(offer.category)) return false;
+    if (WATCHOUT_NON_FOOD_KEYWORDS.some(kw => name.includes(kw))) return false;
     const noisyDiscount = discount >= 15 && (!profile.is_healthy || (offer.health_score || 0) <= 5);
     const junkSignal = offer.is_junk || JUNK_FOOD_KEYWORDS.some(kw => name.includes(kw));
     const weakFoodSignal = discount >= 10 && (junkSignal || profile.is_processed_meat || profile.is_ultra_processed || profile.is_non_edible_product);
