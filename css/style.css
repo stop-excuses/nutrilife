@@ -2597,6 +2597,202 @@ body.fav-product-open {
     margin-top: 14px;
 }
 
+#supplement-product-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 2200;
+}
+
+.supplement-dialog-screen {
+    position: fixed;
+    inset: 0;
+    z-index: 2200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 72px 18px 18px;
+    background: rgba(20, 24, 18, 0.42);
+    backdrop-filter: blur(14px);
+    cursor: default;
+}
+
+.supplement-dialog {
+    position: relative;
+    width: min(960px, 100%);
+    max-height: min(790px, calc(100vh - 96px));
+    overflow: auto;
+    --text: #171914;
+    --muted: #64685f;
+    --muted2: #767a70;
+    --surface: #ffffff;
+    --overlay: rgba(186,117,23,0.055);
+    border: 1px solid rgba(186,117,23,0.18);
+    border-radius: 12px;
+    background: #fffef9;
+    color: #171914;
+    box-shadow: 0 28px 80px rgba(27, 35, 20, 0.28);
+}
+
+.supplement-dialog-hero {
+    display: grid;
+    grid-template-columns: minmax(250px, 0.9fr) minmax(0, 1.1fr);
+    gap: 18px;
+    padding: 18px;
+    padding-top: 56px;
+}
+
+.supplement-dialog-image {
+    min-height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(0,0,0,0.06);
+    border-radius: 12px;
+    background:
+        radial-gradient(circle at 50% 24%, #ffffff, #f8f7f1 58%, #eeeadf);
+    overflow: hidden;
+    box-shadow:
+        inset 0 1px 0 rgba(255,255,255,0.95),
+        0 16px 34px rgba(27,35,20,0.12);
+}
+
+.supplement-dialog-image img {
+    width: 100%;
+    height: 100%;
+    max-height: 360px;
+    object-fit: contain;
+    padding: 16px;
+    filter: saturate(1.08) contrast(1.04) drop-shadow(0 14px 18px rgba(0,0,0,0.18));
+}
+
+.supplement-dialog-image.fallback {
+    color: var(--muted);
+    font-weight: 800;
+    text-align: center;
+    padding: 24px;
+}
+
+.supplement-dialog-summary {
+    align-self: center;
+    min-width: 0;
+    padding-right: 22px;
+}
+
+.supplement-dialog-summary h3 {
+    margin: 0;
+    color: var(--text);
+    font-size: clamp(1.35rem, 2vw, 2rem);
+    line-height: 1.12;
+}
+
+.supplement-dialog-price {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    margin-top: 14px;
+}
+
+.supplement-dialog-price strong {
+    color: var(--amber);
+    font-size: 1.8rem;
+}
+
+.supplement-dialog-price span {
+    color: var(--muted);
+}
+
+.supplement-dialog-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 16px;
+}
+
+.supplement-dialog-content {
+    display: grid;
+    gap: 14px;
+    padding: 0 18px 18px;
+}
+
+.supplement-dialog-section {
+    border-top: 1px solid rgba(0,0,0,0.075);
+    padding-top: 14px;
+}
+
+.supplement-dialog-section h4 {
+    margin: 0 0 10px;
+    color: var(--text);
+    font-size: 0.95rem;
+}
+
+.supplement-dialog-grid,
+.supplement-history-stats {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 8px;
+}
+
+.supplement-dialog-stat,
+.supplement-history-stats span {
+    padding: 10px;
+    border: 1px solid rgba(186,117,23,0.16);
+    border-radius: 10px;
+    background: rgba(186,117,23,0.055);
+}
+
+.supplement-dialog-stat span,
+.supplement-history-stats small {
+    display: block;
+    color: var(--muted2);
+    font-size: 0.68rem;
+    margin-bottom: 4px;
+}
+
+.supplement-dialog-stat strong,
+.supplement-history-stats strong {
+    color: var(--text);
+    font-size: 0.9rem;
+}
+
+.supplement-price-history-detail {
+    margin-top: 0;
+    padding: 14px;
+    background:
+        linear-gradient(135deg, rgba(186,117,23,0.14), rgba(151,196,89,0.06));
+}
+
+.supplement-history-rows {
+    display: grid;
+    gap: 6px;
+    margin-top: 10px;
+}
+
+.supplement-history-row {
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 10px;
+    border-radius: 8px;
+    background: rgba(255,255,255,0.58);
+    border: 1px solid rgba(0,0,0,0.06);
+    color: var(--muted);
+    font-size: 0.74rem;
+}
+
+.supplement-history-row.current {
+    border-color: rgba(151,196,89,0.28);
+    background: rgba(151,196,89,0.10);
+}
+
+.supplement-history-row strong {
+    color: var(--text);
+}
+
+.supplement-history-row small {
+    color: var(--muted2);
+}
+
 [data-theme="light"] .fav-product-screen {
     background: rgba(20, 24, 18, 0.42);
     backdrop-filter: blur(14px);
@@ -3559,6 +3755,7 @@ body.fav-product-open {
     transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s;
     opacity: 1;
     visibility: visible;
+    cursor: pointer;
 }
 
 .supplement-card:hover {
@@ -3575,8 +3772,10 @@ body.fav-product-open {
 }
 
 .supplement-image {
-    height: 126px;
-    background: rgba(255,255,255,0.05);
+    height: 150px;
+    background:
+        radial-gradient(circle at 50% 28%, #ffffff, #f8f7f1 58%, #eeeadf),
+        #f8f7f1;
     border-bottom: 1px solid var(--border-amber);
     display: flex;
     align-items: center;
@@ -3587,14 +3786,17 @@ body.fav-product-open {
 }
 
 .supplement-image img {
-    width: 100%;
-    height: 100%;
+    width: 92%;
+    height: 92%;
     object-fit: contain;
-    background: #fff;
+    filter: saturate(1.08) contrast(1.04) drop-shadow(0 12px 16px rgba(0,0,0,0.18));
 }
 
 .supplement-image.fallback {
     padding: 16px;
+    background:
+        radial-gradient(circle at 50% 28%, #ffffff, #f5f3ea 62%, #ebe5d7),
+        #f8f7f1;
 }
 
 .supplement-body {
@@ -3633,22 +3835,31 @@ body.fav-product-open {
 .supplement-price-history {
     display: grid;
     gap: 4px;
-    margin-top: 10px;
-    padding: 9px 10px;
-    border: 1px solid rgba(186, 117, 23, 0.28);
-    border-radius: 8px;
-    background: rgba(0,0,0,0.16);
+    margin-top: 12px;
+    padding: 10px 11px;
+    border: 1px solid rgba(186, 117, 23, 0.42);
+    border-radius: 10px;
+    background:
+        linear-gradient(135deg, rgba(186,117,23,0.13), rgba(255,255,255,0.04));
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.05);
+}
+
+.supplement-history-head {
+    display: grid;
+    gap: 3px;
 }
 
 .supplement-price-history span,
-.supplement-price-history small {
+.supplement-price-history small,
+.supplement-history-head small {
     color: var(--muted);
     font-size: 0.76rem;
 }
 
-.supplement-price-history strong {
+.supplement-price-history strong,
+.supplement-history-head strong {
     color: var(--amber);
-    font-size: 1rem;
+    font-size: 1.08rem;
 }
 
 .supplement-card h3 {
@@ -4153,11 +4364,12 @@ body.fav-product-open {
 
 .supplement-card-actions {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 8px;
     padding: 0 14px 14px;
 }
 
+.supplement-store-link,
 .watch-price-btn,
 .compare-supplement-btn {
     width: 100%;
@@ -4169,6 +4381,18 @@ body.fav-product-open {
     font-weight: 800;
     min-height: 40px;
     cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 0.82rem;
+    text-align: center;
+}
+
+.supplement-store-link {
+    border-color: rgba(255,255,255,0.12);
+    background: rgba(255,255,255,0.045);
+    color: var(--text);
 }
 
 .compare-supplement-btn {
@@ -7263,6 +7487,41 @@ section + section::before {
     }
     .fav-screen-summary h3 {
         font-size: 1.25rem;
+    }
+    .supplement-dialog-screen {
+        align-items: stretch;
+        padding: 70px 10px 10px;
+    }
+    .supplement-dialog {
+        max-height: calc(100vh - 80px);
+    }
+    .supplement-dialog-hero {
+        grid-template-columns: 1fr;
+        gap: 12px;
+        padding: 14px;
+        padding-top: 54px;
+    }
+    .supplement-dialog-image {
+        min-height: 220px;
+    }
+    .supplement-dialog-image img {
+        max-height: 240px;
+    }
+    .supplement-dialog-summary {
+        padding-right: 0;
+    }
+    .supplement-dialog-summary h3 {
+        font-size: 1.25rem;
+    }
+    .supplement-dialog-grid,
+    .supplement-history-stats {
+        grid-template-columns: 1fr;
+    }
+    .supplement-history-row {
+        grid-template-columns: 1fr auto;
+    }
+    .supplement-history-row small {
+        grid-column: 1 / -1;
     }
     .fav-preview-price-row strong {
         font-size: 1.3rem;

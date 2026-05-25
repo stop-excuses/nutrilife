@@ -157,7 +157,18 @@ const BASE = 'http://127.0.0.1:8000/smart-supplements.html';
       step('Compare button clickable', true);
     }
 
-    // 9. Mobile overflow check
+    // 10. Product dialog
+    const card = page.locator('.supplement-card').first();
+    await card.scrollIntoViewIfNeeded();
+    await card.click();
+    await page.waitForTimeout(400);
+    const dialogCount = await page.locator('#supplement-product-overlay .supplement-dialog-screen').count();
+    const historyCount = await page.locator('#supplement-product-overlay .supplement-price-history-detail').count();
+    step('Supplement card opens product dialog', dialogCount === 1, `history sections: ${historyCount}`);
+    await page.keyboard.press('Escape');
+    await page.waitForTimeout(200);
+
+    // 11. Mobile overflow check
     if (profile.viewport.width <= 480) {
       const bodyW = await page.evaluate(() => document.body.scrollWidth);
       step('No horizontal overflow', bodyW <= profile.viewport.width + 2, `bodyW=${bodyW} vs vp=${profile.viewport.width}`);

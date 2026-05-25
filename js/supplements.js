@@ -70,6 +70,7 @@
     };
 
     let items = [];
+    let selectedSupplementId = '';
     let filters = {
         category: 'all',
         store: 'all',
@@ -248,30 +249,39 @@
             const watchButton = event.target.closest('[data-watch-supplement]');
             if (watchButton) {
                 event.preventDefault();
+                event.stopPropagation();
                 toggleWatchItem(watchButton.dataset.watchSupplement);
+                return;
             }
 
             const outbound = event.target.closest('[data-affiliate-out]');
             if (outbound) {
                 trackOutboundClick(outbound);
+                return;
             }
 
             const removeWatch = event.target.closest('[data-remove-watch]');
             if (removeWatch) {
                 event.preventDefault();
+                event.stopPropagation();
                 removeWatchItem(removeWatch.dataset.removeWatch);
+                return;
             }
 
             const compareButton = event.target.closest('[data-compare-supplement]');
             if (compareButton) {
                 event.preventDefault();
+                event.stopPropagation();
                 toggleCompareItem(compareButton.dataset.compareSupplement);
+                return;
             }
 
             const removeCompare = event.target.closest('[data-remove-compare]');
             if (removeCompare) {
                 event.preventDefault();
+                event.stopPropagation();
                 removeCompareItem(removeCompare.dataset.removeCompare);
+                return;
             }
 
             const clearCompare = event.target.closest('[data-clear-compare]');
@@ -280,6 +290,35 @@
                 compareIds = [];
                 applyFilters();
                 renderComparePanel();
+                return;
+            }
+
+            const closeDialog = event.target.closest('[data-supplement-dialog-close]');
+            if (closeDialog) {
+                event.preventDefault();
+                closeSupplementDialog();
+                return;
+            }
+
+            const dialogScreen = event.target.closest('.supplement-dialog-screen');
+            if (dialogScreen && event.target === dialogScreen) {
+                closeSupplementDialog();
+                return;
+            }
+
+            const card = event.target.closest('.supplement-card[data-supplement-id]');
+            if (card && !event.target.closest('.supplement-card-actions, .supplement-label-details, a, button')) {
+                event.preventDefault();
+                openSupplementDialog(card.dataset.supplementId);
+            }
+        });
+
+        document.addEventListener('keydown', event => {
+            if (event.key === 'Escape' && selectedSupplementId) closeSupplementDialog();
+            if ((event.key === 'Enter' || event.key === ' ') && event.target.closest?.('.supplement-card[data-supplement-id]')) {
+                const card = event.target.closest('.supplement-card[data-supplement-id]');
+                event.preventDefault();
+                openSupplementDialog(card.dataset.supplementId);
             }
         });
     }
@@ -418,8 +457,9 @@
         const activeRows = Object.entries(item.active || {})
             .map(([key, value]) => `<span>${formatActiveKey(key)}: <strong>${escapeHtml(formatValueWithUnit(key, value))}</strong></span>`)
             .join('');
+        const fallbackLabel = escapeAttr(categoryLabels[item.category] || 'Добавка');
         const image = item.image
-            ? `<img src="${escapeAttr(item.image)}" alt="${escapeAttr(item.name)}" loading="eager" decoding="async">`
+            ? `<img src="${escapeAttr(item.image)}" alt="${escapeAttr(item.name)}" loading="eager" decoding="async" onerror="this.parentElement.classList.add('fallback');this.outerHTML='<span>${fallbackLabel}</span>'">`
             : `<span>${categoryLabels[item.category] || 'Добавка'}</span>`;
         const watched = isWatched(item.id);
         const compared = compareIds.includes(item.id);
@@ -431,8 +471,8 @@
         const availabilityPill = renderAvailabilityPill(item);
 
         return `
-            <article class="supplement-card">
-                <a class="supplement-card-link" href="${escapeAttr(outboundUrl)}" target="_blank" rel="noopener" data-affiliate-out data-product-id="${escapeAttr(item.id)}" data-store="${escapeAttr(item.store)}" data-category="${escapeAttr(item.category)}">
+            <article class="supplement-card" data-supplement-id="${escapeAttr(item.id)}" tabindex="0" role="button" aria-label="Виж ${escapeAttr(item.name)}">
+                <div class="supplement-card-link">
                     <div class="supplement-image ${item.image ? '' : 'fallback'}">${image}</div>
                     <div class="supplement-body">
                         <div class="supplement-meta">
@@ -463,9 +503,10 @@
                         ${renderSupplementPriceHistory(item)}
                         ${renderProteinWarning(item)}
                     </div>
-                </a>
+                </div>
                 ${renderLabelDetails(item, valueBadge, tradeoffBadge)}
                 <div class="supplement-card-actions">
+                    <a class="supplement-store-link" href="${escapeAttr(outboundUrl)}" target="_blank" rel="noopener" data-affiliate-out data-product-id="${escapeAttr(item.id)}" data-store="${escapeAttr(item.store)}" data-category="${escapeAttr(item.category)}">Към магазина</a>
                     <button class="watch-price-btn ${watched ? 'active' : ''}" type="button" data-watch-supplement="${escapeAttr(item.id)}">${watched ? 'Следиш цената' : 'Следи цена'}</button>
                     <button class="compare-supplement-btn ${compared ? 'active' : ''}" type="button" data-compare-supplement="${escapeAttr(item.id)}">${compared ? 'В сравнение' : 'Сравни'}</button>
                 </div>
@@ -559,24 +600,191 @@
         return `<span class="availability-pill ${escapeAttr(item.availability_status)}">Наличност: <strong>${escapeHtml(availabilityLabels[item.availability_status] || 'няма наличност')}</strong></span>`;
     }
 
-    function renderSupplementPriceHistory(item) {
+    function findSupplementById(id) {
+        return items.find(item => item.id === id);
+    }
+
+    function openSupplementDialog(id) {
+        if (!findSupplementById(id)) return;
+        selectedSupplementId = id;
+        renderSupplementDialog();
+    }
+
+    function closeSupplementDialog() {
+        selectedSupplementId = '';
+        renderSupplementDialog();
+    }
+
+    function renderSupplementDialog() {
+        let overlay = document.getElementById('supplement-product-overlay');
+        if (!selectedSupplementId) {
+            if (overlay) overlay.remove();
+            document.body.classList.remove('fav-product-open');
+            return;
+        }
+        const item = findSupplementById(selectedSupplementId);
+        if (!item) {
+            selectedSupplementId = '';
+            if (overlay) overlay.remove();
+            return;
+        }
+        if (!overlay) {
+            overlay = document.createElement('div');
+            overlay.id = 'supplement-product-overlay';
+            document.body.appendChild(overlay);
+        }
+        overlay.innerHTML = renderSupplementDialogMarkup(item);
+        document.body.classList.add('fav-product-open');
+    }
+
+    function renderSupplementDialogMarkup(item) {
+        const activeRows = Object.entries(item.active || {}).map(([key, value]) => `
+            <div class="supplement-dialog-stat">
+                <span>${escapeHtml(formatActiveKey(key))}</span>
+                <strong>${escapeHtml(formatValueWithUnit(key, value))}</strong>
+            </div>
+        `).join('');
+        const packageRows = [
+            item.servings ? ['Приеми', item.servings] : null,
+            item.count ? ['Брой в опаковка', item.count] : null,
+            item.weight_grams ? ['Грамаж', `${item.weight_grams} g`] : null,
+            item.price_bgn ? ['Цена продукт', formatProductPrice(item)] : null,
+            item.old_price_bgn ? ['Стара цена', formatMoney(item.old_price_bgn)] : null
+        ].filter(Boolean).map(([label, value]) => `
+            <div class="supplement-dialog-stat">
+                <span>${escapeHtml(label)}</span>
+                <strong>${escapeHtml(value)}</strong>
+            </div>
+        `).join('');
+        const outboundUrl = buildOutboundUrl(item.url, item, 'detail_dialog');
+        const valueBadge = getValueBadge(item);
+        const tradeoffBadge = getTradeoffBadge(item, valueBadge);
+        const fallbackLabel = escapeAttr(categoryLabels[item.category] || 'Добавка');
+        const image = item.image
+            ? `<img src="${escapeAttr(item.image)}" alt="${escapeAttr(item.name)}" decoding="async" onerror="this.parentElement.classList.add('fallback');this.outerHTML='<span>${fallbackLabel}</span>'">`
+            : `<span>${escapeHtml(categoryLabels[item.category] || 'Добавка')}</span>`;
+
+        return `
+            <div class="supplement-dialog-screen" role="dialog" aria-modal="true">
+                <div class="supplement-dialog">
+                    <button class="fav-screen-close" type="button" title="Затвори" data-supplement-dialog-close>×</button>
+                    <div class="supplement-dialog-hero">
+                        <div class="supplement-dialog-image ${item.image ? '' : 'fallback'}">${image}</div>
+                        <div class="supplement-dialog-summary">
+                            <div class="fav-preview-store">${escapeHtml(item.store)} · ${escapeHtml(categoryLabels[item.category] || item.category)}</div>
+                            <h3>${escapeHtml(item.name)}</h3>
+                            <div class="supplement-dialog-price">
+                                <strong>${formatMoney(item.unitValue)}</strong>
+                                <span>${escapeHtml(formatUnitLabel(item))}</span>
+                            </div>
+                            <div class="fav-preview-price-row">
+                                <strong>${formatProductPrice(item)}</strong>
+                                ${item.old_price_bgn ? `<span class="fav-old">${formatMoney(item.old_price_bgn)}</span>` : ''}
+                                ${item.discount_pct ? `<span class="fav-disc">−${item.discount_pct}%</span>` : ''}
+                            </div>
+                            <div class="fav-preview-facts">
+                                <span>${escapeHtml(getValueBadge(item).label)}</span>
+                                <span>Форма: ${escapeHtml(item.formInfo.label)}</span>
+                                <span>Етикет: ${escapeHtml(confidenceLabels[item.confidence] || item.confidence)}</span>
+                                ${item.brand ? `<span>Марка: ${escapeHtml(item.brand)}</span>` : ''}
+                            </div>
+                            <div class="supplement-dialog-actions">
+                                <a class="btn btn-green" href="${escapeAttr(outboundUrl)}" target="_blank" rel="noopener" data-affiliate-out data-product-id="${escapeAttr(item.id)}" data-store="${escapeAttr(item.store)}" data-category="${escapeAttr(item.category)}">Към магазина</a>
+                                <button class="watch-price-btn ${isWatched(item.id) ? 'active' : ''}" type="button" data-watch-supplement="${escapeAttr(item.id)}">${isWatched(item.id) ? 'Следиш цената' : 'Следи цена'}</button>
+                                <button class="compare-supplement-btn ${compareIds.includes(item.id) ? 'active' : ''}" type="button" data-compare-supplement="${escapeAttr(item.id)}">${compareIds.includes(item.id) ? 'В сравнение' : 'Сравни'}</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="supplement-dialog-content">
+                        ${renderSupplementPriceHistory(item, 'detail')}
+                        <section class="supplement-dialog-section">
+                            <h4>Активна доза и сметка</h4>
+                            <div class="supplement-dialog-grid">
+                                ${activeRows || '<p>Няма достатъчно ясен активен етикет. Сметката е ориентировъчна.</p>'}
+                                <div class="supplement-dialog-stat"><span>Оценка цена</span><strong>${escapeHtml(valueBadge.label)}</strong></div>
+                                <div class="supplement-dialog-stat"><span>Баланс</span><strong>${escapeHtml(tradeoffBadge.label)}</strong></div>
+                            </div>
+                        </section>
+                        <section class="supplement-dialog-section">
+                            <h4>Опаковка</h4>
+                            <div class="supplement-dialog-grid">${packageRows || '<p>Няма надеждно разчетена опаковка.</p>'}</div>
+                        </section>
+                        ${(item.label_text || item.label_image) ? `
+                            <section class="supplement-dialog-section">
+                                <h4>Етикет от сайта</h4>
+                                ${item.label_image ? `<img class="supplement-label-image" src="${escapeAttr(item.label_image)}" alt="Етикет на ${escapeAttr(item.name)}" loading="lazy" decoding="async">` : ''}
+                                ${item.label_text ? `<p class="supplement-label-source">${escapeHtml(item.label_text)}</p>` : ''}
+                            </section>
+                        ` : ''}
+                        ${renderProteinWarning(item)}
+                    </div>
+                </div>
+            </div>
+        `;
+    }
+
+    function renderSupplementPriceHistory(item, mode = 'card') {
         const history = item.price_history || [];
-        if (!history.length) return '';
+        if (!history.length) {
+            if (mode !== 'detail') return '';
+            return `
+                <section class="supplement-price-history supplement-price-history-detail">
+                    <div class="supplement-history-head">
+                        <span>История на цената</span>
+                        <strong>${formatProductPrice(item)}</strong>
+                        <small>Още няма достатъчно записи. Ще се попълни при следващи обновявания.</small>
+                    </div>
+                </section>
+            `;
+        }
         const prices = history.map(entry => entry.price_bgn).filter(Number.isFinite);
         const first = prices[0];
         const last = prices[prices.length - 1];
         const low = Math.min(...prices);
         const delta = prices.length > 1 ? last - first : 0;
+        const currentEntry = history[history.length - 1];
+        const rows = history.slice(-5).reverse().map(entry => `
+            <div class="supplement-history-row${entry === currentEntry ? ' current' : ''}">
+                <span>${escapeHtml(formatDate(entry.date))}</span>
+                <strong>${formatMoney(entry.price_bgn)}</strong>
+                ${Number.isFinite(entry.unit_value) ? `<small>${formatMoney(entry.unit_value)} ${escapeHtml(formatUnitLabel(item))}</small>` : '<small></small>'}
+            </div>
+        `).join('');
         const deltaText = prices.length > 1
             ? `${delta > 0 ? '+' : ''}${delta.toFixed(2)} лв от първото следене`
             : `Следим от ${history[0].date}`;
+        if (mode === 'detail') {
+            return `
+                <section class="supplement-price-history supplement-price-history-detail">
+                    <div class="supplement-history-head">
+                        <span>История на цената</span>
+                        <strong>${formatMoney(last)}</strong>
+                        <small>${escapeHtml(deltaText)}</small>
+                    </div>
+                    <div class="supplement-history-stats">
+                        <span><small>Сега</small><strong>${formatMoney(last)}</strong></span>
+                        <span><small>Най-ниска</small><strong>${formatMoney(low)}</strong></span>
+                        <span><small>Първа</small><strong>${formatMoney(first)}</strong></span>
+                    </div>
+                    <div class="supplement-history-rows">${rows}</div>
+                </section>
+            `;
+        }
         return `
             <div class="supplement-price-history">
-                <span>История на цената</span>
-                <strong>${formatMoney(last)}</strong>
-                <small>Най-ниска: ${formatMoney(low)} · ${escapeHtml(deltaText)}</small>
+                <div class="supplement-history-head">
+                    <span>История на цената</span>
+                    <strong>${formatMoney(last)}</strong>
+                    <small>Най-ниска: ${formatMoney(low)} · ${escapeHtml(deltaText)}</small>
+                </div>
             </div>
         `;
+    }
+
+    function formatDate(dateString) {
+        const match = String(dateString || '').match(/^(\d{4})-(\d{2})-(\d{2})/);
+        if (!match) return String(dateString || '');
+        return `${match[3]}.${match[2]}.${match[1]}`;
     }
 
     function renderProteinWarning(item) {
