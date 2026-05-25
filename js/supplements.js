@@ -130,6 +130,7 @@
                 item.unit_label,
                 item.promo_label,
                 formInfo.label,
+                item.label_text,
                 Object.keys(item.active || {}).map(formatActiveKey).join(' '),
                 Object.values(item.active || {}).join(' ')
             ].filter(Boolean).join(' ').toLowerCase()
@@ -506,11 +507,19 @@
             </div>
         `).join('');
         const note = getLabelMethodNote(item);
+        const sourceLabel = (item.label_text || item.label_image) ? `
+                    <div class="supplement-label-section">
+                        <h4>Етикет от сайта</h4>
+                        ${item.label_image ? `<img class="supplement-label-image" src="${escapeAttr(item.label_image)}" alt="Етикет на ${escapeAttr(item.name)}" loading="lazy" decoding="async">` : ''}
+                        ${item.label_text ? `<p class="supplement-label-source">${escapeHtml(item.label_text)}</p>` : ''}
+                    </div>
+        ` : '';
 
         return `
             <details class="supplement-label-details">
                 <summary>Етикет и сметка</summary>
                 <div class="supplement-label-panel">
+                    ${sourceLabel}
                     <div class="supplement-label-section">
                         <h4>Прочетено от етикета</h4>
                         <div class="supplement-label-grid">${activeRows || '<p>Няма достатъчно ясен активен етикет. Сметката е ориентировъчна.</p>'}</div>

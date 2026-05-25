@@ -736,6 +736,64 @@ def extract_product_detail_text(soup: BeautifulSoup) -> str:
     return normalize_text(" ".join(chunks))
 
 
+def extract_product_label_text(soup: BeautifulSoup, category: str) -> str | None:
+    terms = set(CATEGORY_KEYWORDS.get(category, ()))
+    terms.update((
+        "supplement facts", "nutrition facts", "nutritional", "ingredients",
+        "състав", "хранител", "актив", "доза", "прием", "serving",
+        "epa", "dha", "protein", "протеин", "магнезий", "цинк", "желязо",
+        "витамин", "колаген", "фибри", "натрий", "калий",
+    ))
+    selectors = (
+        "table",
+        ".product-specification",
+        ".product-information",
+        ".product-description",
+        ".product-tabs",
+        ".tab-content",
+        "#description",
+        "#section-1",
+        "#section-2",
+        "[class*='nutrition']",
+        "[class*='ingredient']",
+        "[class*='supplement']",
+        "[class*='composition']",
+    )
+    chunks = []
+    seen = set()
+    for selector in selectors:
+        for node in soup.select(selector):
+            text = normalize_text(node.get_text(" | " if node.name == "table" else " ", strip=True))
+            lower = text.lower()
+            if len(text) < 30 or text in seen:
+                continue
+            if not any(term.lower() in lower for term in terms):
+                continue
+            seen.add(text)
+            chunks.append(text)
+            if len(" ".join(chunks)) > 1800:
+                break
+        if len(" ".join(chunks)) > 1800:
+            break
+    if not chunks:
+        return None
+    return normalize_text(" / ".join(chunks))[:1800]
+
+
+def extract_product_label_image(soup: BeautifulSoup, page_url: str) -> str | None:
+    candidates = []
+    signals = ("label", "nutrition", "supplement", "facts", "ingredient", "composition", "back", "etiket", "sustav")
+    for img in soup.select("img"):
+        descriptor = " ".join(
+            img.get(attr, "") for attr in ("src", "data-src", "data-original", "data-zoom-image", "alt", "title", "class")
+        ).lower()
+        if any(signal in descriptor for signal in signals):
+            for attr in ("data-zoom-image", "data-large_image", "data-original", "data-src", "src"):
+                if img.get(attr):
+                    candidates.append(img.get(attr))
+    return best_image([urljoin(page_url, c) for c in candidates if c], page_url)
+
+
 def extract_active(category: str, text: str, weight_grams: float | None, servings: int | None, count: int | None) -> tuple[dict, dict, str]:
     active: dict = {}
     price_units: dict = {}
@@ -1288,6 +1346,8 @@ def parse_product(source: Source, url: str, forced_category: str | None = None) 
     active, _, confidence = extract_active(category, active_text, weight_grams, servings, count)
     active, confidence = apply_label_overrides(url, category, active, confidence)
     price_units = calculate_price_units(category, price_bgn, active, weight_grams, servings, count)
+    label_text = extract_product_label_text(soup, category)
+    label_image = extract_product_label_image(soup, url)
 
     if not price_bgn or not price_units:
         return None
@@ -1310,6 +1370,8 @@ def parse_product(source: Source, url: str, forced_category: str | None = None) 
         "servings": servings,
         "count": count,
         "active": active,
+        "label_text": label_text,
+        "label_image": label_image,
         "price_per_active_unit": price_units,
         "unit_label": CATEGORY_UNITS[category]["label"],
         "confidence": confidence,
