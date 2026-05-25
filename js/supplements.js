@@ -193,10 +193,17 @@
     function bindControls() {
         const search = document.getElementById('supplements-search');
         if (search) {
-            search.addEventListener('input', () => {
+            const submitSearch = () => {
                 filters.query = search.value.trim().toLowerCase();
                 filters.page = 1;
                 applyFilters();
+            };
+            const searchButton = document.getElementById('supplements-search-submit');
+            if (searchButton) searchButton.addEventListener('click', submitSearch);
+            search.addEventListener('keydown', event => {
+                if (event.key !== 'Enter') return;
+                event.preventDefault();
+                submitSearch();
             });
         }
 
@@ -459,7 +466,7 @@
             .join('');
         const fallbackLabel = escapeAttr(categoryLabels[item.category] || 'Добавка');
         const image = item.image
-            ? `<img src="${escapeAttr(item.image)}" alt="${escapeAttr(item.name)}" loading="eager" decoding="async" onerror="this.parentElement.classList.add('fallback');this.outerHTML='<span>${fallbackLabel}</span>'">`
+            ? `<img src="${escapeAttr(item.image)}" alt="${escapeAttr(item.name)}" loading="lazy" decoding="async" onerror="this.parentElement.classList.add('fallback');this.outerHTML='<span>${fallbackLabel}</span>'">`
             : `<span>${categoryLabels[item.category] || 'Добавка'}</span>`;
         const watched = isWatched(item.id);
         const compared = compareIds.includes(item.id);

@@ -18,6 +18,14 @@ const BASE = 'http://127.0.0.1:8000/smart-supplements.html';
     if (!ok) issues.push(`${name} (${detail || ''})`);
   }
 
+  async function runSearch(page, query) {
+    await page.fill('#supplements-search', '');
+    await page.waitForTimeout(100);
+    await page.fill('#supplements-search', query);
+    await page.click('#supplements-search-submit');
+    await page.waitForTimeout(500);
+  }
+
   for (const profile of [
     { label: 'DESKTOP', viewport: { width: 1440, height: 900 } },
     { label: 'MOBILE 390x844', viewport: { width: 390, height: 844 } },
@@ -113,21 +121,17 @@ const BASE = 'http://127.0.0.1:8000/smart-supplements.html';
 
     // 6. Search common terms
     for (const q of ['креатин', 'витамин d', 'витамин c', 'омега', 'магнезий', 'протеин', 'цинк', 'фибри', 'електролити', 'колаген', 'желязо']) {
-      await page.fill('#supplements-search', '');
-      await page.waitForTimeout(120);
-      await page.fill('#supplements-search', q);
-      await page.waitForTimeout(500);
+      await runSearch(page, q);
       const c = await page.locator('.supplement-card').count();
       step(`Search "${q}"`, c > 0, `${c} cards`);
     }
 
     // 7. Empty search
-    await page.fill('#supplements-search', '');
-    await page.fill('#supplements-search', 'zzznotreal999');
-    await page.waitForTimeout(500);
+    await runSearch(page, 'zzznotreal999');
     const emptyMsg = await page.locator('.supplements-empty, #supplements-grid').textContent();
     step('Empty search shows a state', !!emptyMsg, `len=${(emptyMsg || '').length}`);
     await page.fill('#supplements-search', '');
+    await page.click('#supplements-search-submit');
     await page.waitForTimeout(300);
 
     // 8. Sort options

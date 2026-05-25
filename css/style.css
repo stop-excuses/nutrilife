@@ -3482,6 +3482,9 @@ body.fav-product-open {
 /* Search bar */
 .search-wrapper {
     margin-bottom: 12px;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 8px;
 }
 
 .offers-status {
@@ -3532,6 +3535,34 @@ body.fav-product-open {
 
 .offers-search:focus {
     border-color: var(--green);
+}
+
+.search-submit-btn {
+    min-width: 96px;
+    border: 1px solid rgba(151,196,89,0.38);
+    border-radius: 8px;
+    background: var(--green);
+    color: #fff;
+    font-weight: 800;
+    cursor: pointer;
+    padding: 0 16px;
+    box-shadow: 0 10px 22px rgba(59,109,17,0.18);
+}
+
+.amber-panel .search-submit-btn {
+    border-color: rgba(186, 117, 23, 0.42);
+    background: var(--amber);
+    box-shadow: 0 10px 22px rgba(186,117,23,0.16);
+}
+
+.search-submit-btn:hover {
+    background: var(--green-light);
+    color: #14200d;
+}
+
+.amber-panel .search-submit-btn:hover {
+    background: #d18a28;
+    color: #1a1208;
 }
 
 .filter-btn {
@@ -6931,6 +6962,10 @@ section + section::before {
     margin-bottom: 14px;
 }
 
+.product-controls-panel .search-submit-btn {
+    min-height: 48px;
+}
+
 .product-controls-panel .offers-search {
     min-height: 48px;
     border-color: rgba(240, 239, 232, 0.1);
@@ -6972,12 +7007,17 @@ section + section::before {
 
 .supplement-image {
     background:
-        linear-gradient(145deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.02)),
-        #100d08;
+        radial-gradient(circle at 50% 24%, #ffffff, #faf8f0 62%, #eee7da),
+        #faf8f0;
+    border-bottom-color: rgba(186, 117, 23, 0.18);
+    margin: 10px 10px 0;
+    border-radius: 12px;
+    border: 1px solid rgba(20, 17, 10, 0.08);
 }
 
 .supplement-image img {
-    padding: 8px;
+    padding: 10px;
+    filter: saturate(1.12) contrast(1.05) drop-shadow(0 14px 18px rgba(0, 0, 0, 0.2));
 }
 
 [data-theme="light"] .utility-hero::before {
@@ -7101,6 +7141,21 @@ section + section::before {
     background:
         radial-gradient(circle at 50% 25%, #ffffff, #f4f5ef 68%, #ebede4);
     border-color: rgba(59,109,17,0.12);
+}
+
+[data-theme="light"] .supplement-card {
+    background: #fffdf7;
+    border-color: rgba(186, 117, 23, 0.2);
+}
+
+[data-theme="light"] .supplement-image {
+    background:
+        radial-gradient(circle at 50% 24%, #ffffff, #fbfaf5 62%, #f0e8d9);
+    border-color: rgba(30, 28, 22, 0.08);
+}
+
+[data-theme="light"] .supplement-body {
+    background: #fffdf7;
 }
 
 [data-theme="light"] .macro-item {
@@ -7459,6 +7514,12 @@ section + section::before {
         flex-direction: column;
         align-items: flex-start;
         gap: 4px;
+    }
+    .search-wrapper {
+        grid-template-columns: 1fr;
+    }
+    .search-submit-btn {
+        min-height: 42px;
     }
     .offer-card.expanded {
         grid-column: 1 / -1;

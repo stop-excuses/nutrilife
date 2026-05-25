@@ -1187,7 +1187,7 @@ function renderOfferThumb(offer, className = "offer-img") {
     const onError = fallbackSrc
         ? `if(this.dataset.fallbackSrc&&this.src!==this.dataset.fallbackSrc){this.src=this.dataset.fallbackSrc;this.parentElement.classList.add('fallback');}else{this.parentElement.style.display='none';}`
         : "this.parentElement.style.display='none'";
-    return `<div class="offer-img-wrapper${isFallback ? " fallback" : ""}"><img src="${imgSrc}" alt="" class="${className}" ${fallbackSrc ? `data-fallback-src="${fallbackSrc}"` : ""} onerror="${onError}"></div>`;
+    return `<div class="offer-img-wrapper${isFallback ? " fallback" : ""}"><img src="${imgSrc}" alt="" class="${className}" loading="lazy" decoding="async" ${fallbackSrc ? `data-fallback-src="${fallbackSrc}"` : ""} onerror="${onError}"></div>`;
 }
 
 const MAX_RETAIL_PACKAGE_GRAMS = 50000;
@@ -2226,17 +2226,20 @@ function initSearch() {
         });
     }
 
-    let debounce;
-    input.addEventListener("input", () => {
-        clearTimeout(debounce);
-        debounce = setTimeout(() => {
-            searchQuery = normalizeSearchQuery(input.value);
-            if (searchQuery && activeSource === "promo") {
-                setActiveSource("all");
-            }
-            currentPage = 1;
-            applyFilters();
-        }, 200);
+    const submit = document.getElementById("offers-search-submit");
+    const runSearch = () => {
+        searchQuery = normalizeSearchQuery(input.value);
+        if (searchQuery && activeSource === "promo") {
+            setActiveSource("all");
+        }
+        currentPage = 1;
+        applyFilters();
+    };
+    if (submit) submit.addEventListener("click", runSearch);
+    input.addEventListener("keydown", (event) => {
+        if (event.key !== "Enter") return;
+        event.preventDefault();
+        runSearch();
     });
 }
 
@@ -2757,7 +2760,7 @@ function renderPriceHistory(offer) {
     }).join("");
 
     return `
-        <div class="price-history">
+        <div class="price-history ph-open">
             <div class="ph-header" data-ph-toggle>
                 <span>📈 Ценова история · ${points.length} ${points.length === 1 ? "запис" : "записа"}</span>
                 ${badge}
@@ -3057,18 +3060,35 @@ const STAPLES = [
     { label: 'Пълнозърнест хляб',  img: 'images/foods/rye-bread.svg', match: ['пълнозърнест'],                     not: ['брашн', 'гриси', 'бисквит', 'макарон', 'паста', 'фусил', 'пене', 'спагет', 'вермишел'] },
 ];
 
+function matchesStapleOffer(offer, staple) {
+    const nl = getOfferNameLower(offer);
+    if (!staple.match.some(kw => nl.includes(kw))) return false;
+    if (staple.not && staple.not.some(bw => nl.includes(bw))) return false;
+    if (staple.cat && offer.category !== staple.cat) return false;
+    if (offer.new_price == null && offer.price_per_kg == null) return false;
+    if (offer.is_food === false || offer.is_junk || isClearlyNonHumanFood(offer)) return false;
+    if (EXCLUDED_HEALTH_CATEGORIES.has(offer.category)) return false;
+
+    const dessertWords = [
+        "\u0448\u043e\u043a\u043e\u043b", "kinder", "surprise", "\u0441\u044e\u0440\u043f\u0440\u0438\u0437", "\u0434\u0435\u0441\u0435\u0440\u0442",
+        "\u0441\u043b\u0430\u0434", "\u0431\u043e\u043d\u0431\u043e\u043d", "\u0432\u0430\u0444\u043b", "\u0431\u0438\u0441\u043a\u0432\u0438\u0442", "\u0442\u043e\u0440\u0442\u0430", "\u043a\u0435\u043a\u0441"
+    ];
+    if (dessertWords.some(word => nl.includes(word))) return false;
+
+    if (staple.label === "\u042f\u0439\u0446\u0430") {
+        const eggPackSignal = /\b\d+\s*(?:\u0431\u0440|\u0431\u0440\.|\u0431\u0440\u043e\u044f)\b/i.test(nl) || nl.includes("\u043a\u043e\u0440\u0430 \u044f\u0439\u0446\u0430");
+        if (!eggPackSignal && !nl.includes("\u043f\u0440\u0435\u0441\u043d\u0438 \u044f\u0439\u0446")) return false;
+    }
+
+    return true;
+}
+
 function renderPriceComparison() {
     const container = document.getElementById("price-comparison");
     if (!container) return;
 
     const cards = STAPLES.map(staple => {
-        const matching = allOffers.filter(o => {
-            const nl = o.name.toLowerCase();
-            return staple.match.some(kw => nl.includes(kw))
-                && (!staple.not || staple.not.every(bw => !nl.includes(bw)))
-                && (!staple.cat || o.category === staple.cat)
-                && (o.new_price != null || o.price_per_kg != null);
-        });
+        const matching = allOffers.filter(o => matchesStapleOffer(o, staple));
 
         const byStore = {};
         matching.forEach(o => {
@@ -3215,13 +3235,7 @@ function getTopBulkItems(limit = 8) {
 
 function getBasketCoverage() {
     return STAPLES.map(staple => {
-        const matching = allOffers.filter(o => {
-            const nl = o.name.toLowerCase();
-            return staple.match.some(kw => nl.includes(kw))
-                && (!staple.not || staple.not.every(bw => !nl.includes(bw)))
-                && (!staple.cat || o.category === staple.cat)
-                && (o.new_price != null || o.price_per_kg != null);
-        });
+        const matching = allOffers.filter(o => matchesStapleOffer(o, staple));
         const best = matching.sort((a, b) =>
             (getReliablePricePerKg(a) ?? a.new_price ?? Infinity) - (getReliablePricePerKg(b) ?? b.new_price ?? Infinity)
         )[0];

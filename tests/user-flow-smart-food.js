@@ -17,6 +17,14 @@ function log(msg) { console.log('[FLOW] ' + msg); }
     console.log(`${ok ? '✓' : '✗'} ${name}${detail ? ' — ' + detail : ''}`);
   }
 
+  async function runSearch(page, query) {
+    await page.fill('#offers-search', '');
+    await page.waitForTimeout(100);
+    await page.fill('#offers-search', query);
+    await page.click('#offers-search-submit');
+    await page.waitForTimeout(600);
+  }
+
   // Desktop run
   for (const profile of [
     { label: 'DESKTOP', viewport: { width: 1440, height: 900 } },
@@ -45,20 +53,14 @@ function log(msg) { console.log('[FLOW] ' + msg); }
     // 2. Search common foods (user-like)
     const queries = ['яйца', 'кисело мляко', 'пиле', 'ориз', 'риба тон', 'зехтин', 'банани', 'сирене'];
     for (const q of queries) {
-      await page.fill('#offers-search', '');
-      await page.waitForTimeout(150);
-      await page.fill('#offers-search', q);
-      await page.waitForTimeout(600);
+      await runSearch(page, q);
       const c = await page.locator('#offers-grid .offer-card').count();
       const empty = await page.locator('.offers-empty').count();
       step(`Search "${q}"`, c > 0 || empty > 0, `${c} cards, empty=${empty}`);
     }
 
     // 3. Empty/nonexistent search → reset works
-    await page.fill('#offers-search', '');
-    await page.waitForTimeout(200);
-    await page.fill('#offers-search', 'zzznotreal999');
-    await page.waitForTimeout(600);
+    await runSearch(page, 'zzznotreal999');
     const emptyVisible = await page.locator('.offers-empty').count();
     const resetBtn = page.locator('[data-reset-offers]');
     step('Empty state shows reset button', emptyVisible > 0 && (await resetBtn.count()) > 0);

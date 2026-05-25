@@ -1,6 +1,7 @@
 (function () {
     'use strict';
     window.I18N && window.I18N.extend({
+        'ui.search': 'Търси',
         'sf.hero.h1': 'Храни се добре.<br><em class="green">Пазарувай умно.</em>',
         'sf.hero.p': 'Тук събираме оферти, сравнения и по-разумни покупки за нормална храна.',
         'sf.hero.chip.tuna': 'Риба тон',

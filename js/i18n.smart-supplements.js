@@ -1,6 +1,7 @@
 (function () {
     'use strict';
     window.I18N && window.I18N.extend({
+        'ui.search': 'Търси',
         'title.smart-supplements': 'Умни добавки — кое излиза най-изгодно',
         'ss.nav': 'Умни добавки',
         'ss.hero.kicker': 'Сравнение по етикет',
