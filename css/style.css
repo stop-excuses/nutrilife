@@ -2412,6 +2412,12 @@ body.fav-product-open {
     overflow: hidden;
 }
 
+#offer-product-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 2200;
+}
+
 .fav-product-screen {
     position: fixed;
     inset: 0;
@@ -2423,6 +2429,12 @@ body.fav-product-open {
     background: rgba(0, 0, 0, 0.72);
     backdrop-filter: blur(10px);
     cursor: default;
+}
+
+#offer-product-overlay .fav-product-screen {
+    position: fixed !important;
+    inset: 0;
+    z-index: 2200;
 }
 
 .fav-product-dialog {
@@ -2583,6 +2595,65 @@ body.fav-product-open {
 .fav-product-screen .comparison-mini,
 .fav-product-screen .price-history {
     margin-top: 14px;
+}
+
+[data-theme="light"] .fav-product-screen {
+    background: rgba(20, 24, 18, 0.42);
+    backdrop-filter: blur(14px);
+}
+
+[data-theme="light"] .fav-product-dialog {
+    --text: #171914;
+    --muted: #64685f;
+    --muted2: #767a70;
+    --muted3: #8d9186;
+    --surface: #ffffff;
+    --overlay: rgba(59,109,17,0.055);
+    border-color: rgba(59,109,17,0.16);
+    background: #fffef9;
+    color: #171914;
+    box-shadow: 0 28px 80px rgba(27, 35, 20, 0.28);
+}
+
+[data-theme="light"] .fav-screen-close {
+    background: rgba(255, 255, 255, 0.92);
+    border-color: rgba(0,0,0,0.1);
+    color: #171914;
+    box-shadow: 0 8px 22px rgba(0,0,0,0.14);
+}
+
+[data-theme="light"] .fav-screen-image {
+    border-color: rgba(0,0,0,0.06);
+    background:
+        radial-gradient(circle at 50% 24%, #ffffff, #f7f8f2 58%, #eceee5);
+    box-shadow:
+        inset 0 1px 0 rgba(255,255,255,0.95),
+        0 16px 34px rgba(27,35,20,0.12);
+}
+
+[data-theme="light"] .fav-screen-image img {
+    filter: saturate(1.08) contrast(1.04) drop-shadow(0 14px 18px rgba(0,0,0,0.18));
+}
+
+[data-theme="light"] .fav-preview-price-row strong,
+[data-theme="light"] .fav-preview-store {
+    color: var(--green);
+}
+
+[data-theme="light"] .fav-preview-facts span {
+    background: rgba(59,109,17,0.06);
+    border-color: rgba(59,109,17,0.13);
+    color: #4d5148;
+}
+
+[data-theme="light"] .fav-screen-details .details-row {
+    border-top-color: rgba(0,0,0,0.075);
+}
+
+[data-theme="light"] .fav-product-screen .comparison-mini,
+[data-theme="light"] .fav-product-screen .price-history {
+    background: rgba(59,109,17,0.045);
+    border-color: rgba(59,109,17,0.12);
 }
 
 .details-inner {

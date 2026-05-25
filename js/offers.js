@@ -19,6 +19,7 @@ let filteredOffersCache = [];
 let allSourceFilteredCount = 0;
 let allCatalogProducts = [];
 let selectedFavoriteOfferId = "";
+let selectedProductOfferId = "";
 let favoriteItems = (() => {
     const raw = JSON.parse(localStorage.getItem('nutrilife-favorites') || '[]');
     if (raw.length && typeof raw[0] === 'string') return raw.map(kw => ({ kw, emoji: '🍽️' }));
@@ -1869,7 +1870,7 @@ function isFavorited(offer) {
 }
 
 function toggleFavorite(offerId) {
-    const offer = allOffers.find(o => getOfferDomId(o) === offerId);
+    const offer = findOfferByDomId(offerId);
     if (!offer) return;
     const kw = extractFavoriteKeyword(offer);
     const idx = favoriteItems.findIndex(f => favoriteKeywordsMatch(f.kw, kw));
@@ -1888,6 +1889,50 @@ function toggleFavorite(offerId) {
         btn.title = active ? 'Премахни от списъка' : 'Добави към списъка';
     });
     renderFavoritesPanel();
+}
+
+function findOfferByDomId(offerId) {
+    return allOffers.find(o => getOfferDomId(o) === offerId)
+        || allCatalogProducts.find(o => getOfferDomId(o) === offerId);
+}
+
+function renderOfferProductOverlay() {
+    let overlay = document.getElementById("offer-product-overlay");
+    if (!selectedProductOfferId) {
+        if (overlay) overlay.remove();
+        document.body.classList.toggle("fav-product-open", Boolean(selectedFavoriteOfferId));
+        return;
+    }
+    if (!overlay) {
+        overlay = document.createElement("div");
+        overlay.id = "offer-product-overlay";
+        document.body.appendChild(overlay);
+    }
+    overlay.innerHTML = renderFavoriteProductScreen(selectedProductOfferId);
+    document.body.classList.add("fav-product-open");
+    overlay.querySelectorAll("[data-fav-screen-close]").forEach(btn => {
+        btn.addEventListener("click", e => {
+            e.stopPropagation();
+            closeOfferProductScreen();
+        });
+    });
+    const productScreen = overlay.querySelector(".fav-product-screen");
+    if (productScreen) {
+        productScreen.addEventListener("click", e => {
+            if (e.target === productScreen) closeOfferProductScreen();
+        });
+    }
+}
+
+function openOfferProductScreen(offerId) {
+    if (!findOfferByDomId(offerId)) return;
+    selectedProductOfferId = offerId;
+    renderOfferProductOverlay();
+}
+
+function closeOfferProductScreen() {
+    selectedProductOfferId = "";
+    renderOfferProductOverlay();
 }
 
 function extractWeightFromName(offer) {
@@ -2073,8 +2118,7 @@ function renderFavoritesPanel() {
 }
 
 function navigateToOfferCard(offerId) {
-    selectedFavoriteOfferId = offerId;
-    renderFavoritesPanel();
+    openOfferProductScreen(offerId);
 }
 
 function closeFavoriteProductScreen() {
@@ -2084,13 +2128,17 @@ function closeFavoriteProductScreen() {
 }
 
 document.addEventListener('keydown', e => {
+    if (e.key === 'Escape' && selectedProductOfferId) {
+        closeOfferProductScreen();
+        return;
+    }
     if (e.key === 'Escape' && selectedFavoriteOfferId) {
         closeFavoriteProductScreen();
     }
 });
 
 function renderFavoriteProductScreen(offerId) {
-    const offer = allOffers.find(o => getOfferDomId(o) === offerId);
+    const offer = findOfferByDomId(offerId);
     if (!offer) return "";
 
     const macros = getMacros(offer);
@@ -2458,6 +2506,10 @@ function resetOfferFiltersForNavigation() {
 
 function openOfferInGrid(offerId) {
     if (!offerId) return;
+    if (findOfferByDomId(offerId)) {
+        openOfferProductScreen(offerId);
+        return;
+    }
 
     let offerIndex = filteredOffersCache.findIndex(o => getOfferDomId(o) === offerId);
     if (offerIndex === -1) {
@@ -3703,9 +3755,7 @@ function initOfferAccordion() {
         }
         const card = e.target.closest(".offer-card");
         if (!card || !grid.contains(card)) return;
-        const wasExpanded = card.classList.contains("expanded");
-        grid.querySelectorAll(".offer-card.expanded").forEach(c => { if (c !== card) c.classList.remove("expanded"); });
-        card.classList.toggle("expanded", !wasExpanded);
+        openOfferProductScreen(card.dataset.offerId);
     });
 }
 
@@ -3728,8 +3778,6 @@ function initProteinRankingAccordion() {
         }
         const card = e.target.closest(".protein-rank-item");
         if (!card || !container.contains(card)) return;
-        const wasExpanded = card.classList.contains("expanded");
-        container.querySelectorAll(".protein-rank-item.expanded").forEach(c => { if (c !== card) c.classList.remove("expanded"); });
-        card.classList.toggle("expanded", !wasExpanded);
+        openOfferProductScreen(card.dataset.offerId);
     });
 }

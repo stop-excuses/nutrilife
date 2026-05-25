@@ -122,15 +122,15 @@ function log(msg) { console.log('[FLOW] ' + msg); }
       }
     }
 
-    // 9. Card expand
+    // 9. Card product dialog
     const firstCard = page.locator('#offers-grid .offer-card').first();
     await firstCard.scrollIntoViewIfNeeded();
     await firstCard.click();
     await page.waitForTimeout(400);
-    const cls = (await firstCard.getAttribute('class')) || '';
-    step('Card expand toggles class', cls.includes('expanded') || cls.length > 0, `class="${cls.substring(0,60)}"`);
-    // collapse
-    await firstCard.click();
+    const dialogCount = await page.locator('#offer-product-overlay .fav-product-screen').count();
+    const dialogTitle = dialogCount ? await page.locator('#offer-product-overlay .fav-screen-summary h3').first().textContent() : '';
+    step('Card opens product dialog', dialogCount === 1, `${(dialogTitle || '').trim().slice(0, 60)}`);
+    await page.keyboard.press('Escape');
     await page.waitForTimeout(200);
 
     // 10. Favorite (watch list)
