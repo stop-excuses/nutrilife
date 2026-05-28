@@ -151,9 +151,9 @@ function log(msg) { console.log('[FLOW] ' + msg); }
       step('Favorite click adds to watch list', favItems > 0 && favText.includes('Пазарен списък'), `items visible: ${favItems}`);
     }
 
-    // 11. Price comparison section
-    const cmpHtml = await page.locator('#price-comparison').innerHTML();
-    step('Price comparison rendered', cmpHtml.length > 200, `html length ${cmpHtml.length}`);
+    // 11. Weekly editorial shortlist is intentionally not shown on Smart Food.
+    const shortlistCount = await page.locator('#weekly-shortlist-section, #protein-value-section, #price-comparison, #bulk-section, #watchout-section').count();
+    step('No editorial shortlist on utility page', shortlistCount === 0, `sections: ${shortlistCount}`);
 
     // 12. Overflow check (mobile only)
     if (profile.viewport.width <= 480) {
