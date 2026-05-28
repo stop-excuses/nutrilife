@@ -2233,6 +2233,25 @@ input[type="range"]::-moz-range-thumb {
     font-weight: 700;
 }
 
+.fav-empty {
+    padding: 18px 16px;
+    background: rgba(151, 196, 89, 0.035);
+}
+
+.fav-empty strong {
+    display: block;
+    color: var(--text);
+    font-size: 0.96rem;
+    margin-bottom: 6px;
+}
+
+.fav-empty p {
+    color: var(--muted);
+    font-size: 0.86rem;
+    line-height: 1.5;
+    margin: 0;
+}
+
 .fav-item { border-bottom: 1px solid var(--border-green); }
 .fav-item:last-child { border-bottom: none; }
 
@@ -6956,6 +6975,82 @@ section + section::before {
 
 .product-controls-panel .filters {
     margin: 12px 0 0;
+}
+
+.advanced-filter-panel,
+.smart-food-extra {
+    margin-top: 14px;
+}
+
+.advanced-filter-panel summary,
+.smart-food-extra > summary {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    min-height: 38px;
+    padding: 8px 12px;
+    border: 1px solid rgba(151, 196, 89, 0.22);
+    border-radius: 8px;
+    color: var(--text);
+    background: rgba(151, 196, 89, 0.08);
+    cursor: pointer;
+    font-size: 0.86rem;
+    font-weight: 700;
+    list-style: none;
+}
+
+.advanced-filter-panel summary::-webkit-details-marker,
+.smart-food-extra > summary::-webkit-details-marker {
+    display: none;
+}
+
+.advanced-filter-panel summary::after,
+.smart-food-extra > summary::after {
+    content: "▼";
+    color: var(--muted);
+    font-size: 0.68rem;
+}
+
+.advanced-filter-panel[open] summary::after,
+.smart-food-extra[open] > summary::after {
+    transform: rotate(180deg);
+}
+
+.advanced-filter-panel[open] {
+    padding-top: 4px;
+}
+
+.utility-inline-links {
+    margin-top: 14px;
+    padding-top: 12px;
+    border-top: 1px solid rgba(151, 196, 89, 0.14);
+}
+
+.utility-inline-links a {
+    color: var(--green-light);
+    font-size: 0.88rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.utility-inline-links a:hover {
+    text-decoration: underline;
+}
+
+.smart-food-extra {
+    display: block;
+    max-width: 1180px;
+    margin: 26px auto 0;
+    padding: 0 20px;
+}
+
+.smart-food-extra > summary {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.smart-food-extra[open] > summary {
+    margin-bottom: 12px;
 }
 
 .product-controls-panel .search-wrapper {

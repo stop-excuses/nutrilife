@@ -1959,8 +1959,14 @@ function renderFavoritesPanel() {
     if (!panel) return;
 
     if (favoriteItems.length === 0) {
-        if (section) section.style.display = 'none';
-        panel.innerHTML = '';
+        if (section) section.style.removeProperty('display');
+        panel.innerHTML = `
+            <div class="fav-panel-hd"><span>🛒 Пазарен списък</span><span class="fav-cnt">0</span></div>
+            <div class="fav-empty">
+                <strong>Още няма запазени продукти</strong>
+                <p>Натисни сърцето на продукт, за да го следиш тук и да виждаш най-добрите текущи цени без скролене.</p>
+            </div>
+        `;
         selectedFavoriteOfferId = "";
         document.body.classList.remove('fav-product-open');
         return;
@@ -3251,10 +3257,10 @@ function isWatchoutOffer(offer) {
     if (!offer.is_food || profile.is_non_edible_product) return false;
     if (!WATCHOUT_ALLOWED_FOOD_CATEGORIES.has(offer.category)) return false;
     if (WATCHOUT_NON_FOOD_KEYWORDS.some(kw => name.includes(kw))) return false;
-    const noisyDiscount = discount >= 15 && (!profile.is_healthy || (offer.health_score || 0) <= 5);
     const junkSignal = offer.is_junk || JUNK_FOOD_KEYWORDS.some(kw => name.includes(kw));
-    const weakFoodSignal = discount >= 10 && (junkSignal || profile.is_processed_meat || profile.is_ultra_processed || profile.is_non_edible_product);
-    return noisyDiscount || weakFoodSignal;
+    const sweetenedCoffeeSignal = /\b[23]\s*в\s*1\b/.test(name) && name.includes("каф");
+    const weakFoodSignal = discount >= 10 && (junkSignal || sweetenedCoffeeSignal || profile.is_processed_meat || profile.is_ultra_processed);
+    return weakFoodSignal;
 }
 
 function getWatchoutOffers(limit = 8) {
@@ -3312,9 +3318,9 @@ function renderCuratedShortlist() {
         },
         {
             anchor: "watchout-section",
-            kicker: "Не се лъжи",
-            title: watchout ? watchout.name : "Няма шумни капани",
-            meta: watchout ? `${watchout.store}${watchout.discount_pct ? ` · −${watchout.discount_pct}%` : ""}` : "Когато има съмнителни намаления, ще ги покажем тук",
+            kicker: "Провери първо",
+            title: watchout ? watchout.name : "Няма очевидни капани",
+            meta: watchout ? `${watchout.store}${watchout.discount_pct ? ` · −${watchout.discount_pct}%` : ""}` : "Показваме само ясно слаби или твърде преработени оферти",
             tone: "red",
             offer: watchout,
         },
@@ -3437,8 +3443,8 @@ function renderWatchoutOffers() {
         if (item.is_junk) reasons.push("по-скоро junk продукт");
         if (profile.is_processed_meat) reasons.push("преработено месо");
         if (profile.is_ultra_processed) reasons.push("силно преработено");
-        if ((item.health_score || 0) <= 5) reasons.push(`health score ${item.health_score || 0}/10`);
-        const reasonText = reasons.slice(0, 2).join(" · ") || "голям процент, но не е базова храна";
+        if (/\b[23]\s*в\s*1\b/.test(getOfferNameLower(item)) && getOfferNameLower(item).includes("каф")) reasons.push("подсладен instant микс");
+        const reasonText = reasons.slice(0, 2).join(" · ") || "силна отстъпка, но слаб хранителен смисъл";
         return `
             <div class="watchout-card" data-offer-link="${getOfferDomId(item)}">
                 <div class="watchout-media">

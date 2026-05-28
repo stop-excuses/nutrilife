@@ -72,6 +72,11 @@ function log(msg) { console.log('[FLOW] ' + msg); }
     }
 
     // 4. Filter combos
+    const advancedFilters = page.locator('.advanced-filter-panel summary');
+    if (await advancedFilters.count() > 0) {
+      await advancedFilters.click();
+      await page.waitForTimeout(150);
+    }
     await page.click('[data-category="dairy"]');
     await page.waitForTimeout(300);
     await page.click('[data-store="Kaufland"]');
@@ -141,8 +146,9 @@ function log(msg) { console.log('[FLOW] ' + msg); }
       await favBtn.scrollIntoViewIfNeeded();
       await favBtn.click();
       await page.waitForTimeout(400);
-      const favRows = await page.locator('.favorite-row, #fav-panel .favorite-row, .favorite-item').count();
-      step('Favorite click adds to watch list', true, `rows visible: ${favRows}`);
+      const favItems = await page.locator('#fav-panel .fav-item').count();
+      const favText = await page.locator('#fav-panel').innerText();
+      step('Favorite click adds to watch list', favItems > 0 && favText.includes('Пазарен списък'), `items visible: ${favItems}`);
     }
 
     // 11. Price comparison section

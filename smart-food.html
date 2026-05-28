@@ -29,9 +29,9 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Умна храна — Храни се добре. Пазарувай разумно.">
 <meta name="twitter:description" content="Седмични промоции от Lidl, Kaufland, Billa и повече. Пазарувай умно, яж здравословно на по-ниска цена.">
-<link href="css/style.css?v=42" rel="stylesheet"/>
+<link href="css/style.css?v=44" rel="stylesheet"/>
 <script src="js/i18n.js?v=3"></script>
-<script src="js/i18n.smart-food.js?v=9"></script>
+<script src="js/i18n.smart-food.js?v=11"></script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -104,27 +104,94 @@
 </div>
 </div>
 </section>
-<section class="visual-break">
-<div class="visual-break-frame">
-<img src="images/smart-food-hero.jpg" alt="Умно пазаруване и планиране на храна у дома" data-i18n-alt="sf.visual.hero.alt"/>
-<div class="visual-break-card">
-<span data-i18n="sf.visual.hero.kicker">УМНО ПАЗАРУВАНЕ</span>
-<strong data-i18n="sf.visual.hero.title">Не купуваш по-малко. Купуваш това, което реално те храни.</strong>
-<p data-i18n="sf.visual.hero.p">Оферти, базови продукти и седмичен план: по-малко хаос в магазина, повече контрол вкъщи.</p>
+<!-- Моите любими -->
+<section id="fav-section">
+<div class="section-title">
+<h2 data-i18n="sf.fav.h2">🛒 Пазарен списък</h2>
+<p class="section-subtitle" data-i18n="sf.fav.sub">Следи продукти и виж къде са на добра цена тази седмица</p>
 </div>
-</div>
+<div id="fav-panel"></div>
 </section>
-<section class="compact-section-top">
-<div class="info-box green" data-i18n-html="sf.info_box.1" style="">
-<h3>Оферти на едно място</h3>
-<p style="margin-top:8px;">Тази страница събира седмични оферти, сравнения и идеи за по-разумно пазаруване. NutriLife остава фокусиран върху навици, движение и хранене.</p>
+<!-- 3. Търсене и сравнение -->
+<section>
+<div class="section-title">
+<h2 data-i18n="c.s3.h2">Търси и сравнявай продукти</h2>
+<p class="section-subtitle" data-i18n="c.s3.sub">Всички налични цени, промоции и история в българските магазини</p>
 </div>
-<div class="trust-link-grid supplements-trust-links">
-<a class="trust-link-card" href="kak-smyatame-cenite.html"><strong data-i18n="sf.trust.method.title">Как смятаме</strong><small data-i18n="sf.trust.method.text">Цена за кг, промоции, история и какво проверява scraper-ът.</small></a>
-<a class="trust-link-card" href="ne-e-meditsinski-savet.html"><strong data-i18n="sf.trust.medical.title">Не е медицински съвет</strong><small data-i18n="sf.trust.medical.text">Хранителна и ценова ориентация, не диагноза или лечение.</small></a>
-<a class="trust-link-card" href="za-proekta.html"><strong data-i18n="sf.trust.corrections.title">Корекции</strong><small data-i18n="sf.trust.corrections.text">Видя грешна цена или продукт? Пиши, за да го оправим.</small></a>
+<div class="offers-status" id="offers-status">
+<span data-i18n="sf.offers.status.loading">Зареждане на данните...</span>
 </div>
+<div class="product-controls-panel">
+<!-- Search -->
+<div class="search-wrapper">
+<input class="offers-search" id="offers-search" placeholder="🔍 Търси продукт... (напр. пиле, ориз, сирене)" type="text"/>
+<button class="search-submit-btn" data-i18n="ui.search" id="offers-search-submit" type="button">Търси</button>
+</div>
+<!-- Source filters -->
+<div class="filters source-filters">
+<button class="filter-btn active" data-i18n="sf.filter.promos" data-source="promo">Промоции</button>
+<button class="filter-btn" data-i18n="sf.filter.all_products" data-source="all">Всички продукти</button>
+</div>
+<!-- Type filters -->
+<div class="filters">
+<button class="filter-btn active" data-i18n="c.filter.all.type" data-type="all">Всички</button>
+<button class="filter-btn" data-i18n="c.filter.protein" data-type="high_protein">💪 Висок протеин</button>
+</div>
+<!-- Sort -->
+<div class="filters">
+<span data-i18n-html="c.span.1" style="color:var(--muted); font-size:0.8rem; padding:8px 4px;">Подреди:</span>
+<button class="sort-btn active" data-i18n="c.sort.recommended" data-sort="recommended">⭐ Препоръчани</button>
+<button class="sort-btn" data-sort="protein_value">💰 Най-много протеин за лев</button>
+<button class="sort-btn" data-sort="price_per_kg">⚖️ Цена/кг</button>
+<button class="sort-btn" data-i18n="c.sort.health" data-sort="health">❤️ Най-здравословни</button>
+</div>
+<details class="advanced-filter-panel">
+<summary data-i18n="sf.filters.more">Още филтри</summary>
+<!-- Diet filters -->
+<div class="filters">
+<span style="color:var(--muted); font-size:0.8rem; padding:8px 4px;">Диета:</span>
+<button class="filter-btn active" data-diet="all">Всички</button>
+<button class="filter-btn" data-diet="keto">🥑 Кето</button>
+<button class="filter-btn" data-diet="mediterranean">🫒 Средиземноморска</button>
+<button class="filter-btn" data-diet="vegetarian">🌱 Вегетарианска</button>
+<button class="filter-btn" data-diet="бюджетен">💰 Бюджетно</button>
+</div>
+<!-- Store filters -->
+<div class="filters">
+<span style="color:var(--muted); font-size:0.8rem; padding:8px 4px;">Магазин:</span>
+<button class="filter-btn active" data-store="all">Всички</button>
+<button class="filter-btn" data-store="Lidl">Lidl</button>
+<button class="filter-btn" data-store="Kaufland">Kaufland</button>
+<button class="filter-btn" data-store="Billa">Billa</button>
+<button class="filter-btn" data-store="Fantastico">Fantastico</button>
+<button class="filter-btn" data-store="T-Market">T-Market</button>
+<button class="filter-btn" data-store="Dar">Dar</button>
+</div>
+<!-- Category filters -->
+<div class="filters">
+<button class="filter-btn active" data-category="all" data-i18n="c.cat.all">Всички</button>
+<button class="filter-btn" data-category="protein" data-i18n="c.cat.meat">🥩 Месо/Риба</button>
+<button class="filter-btn" data-category="dairy" data-i18n="c.cat.dairy">🥛 Млечни</button>
+<button class="filter-btn" data-category="grain" data-i18n="c.cat.grain">🌾 Зърнени</button>
+<button class="filter-btn" data-category="legume" data-i18n="c.cat.legume">🫘 Бобови</button>
+<button class="filter-btn" data-category="canned" data-i18n="c.cat.canned">🥫 Консерви</button>
+<button class="filter-btn" data-category="nuts" data-i18n="c.cat.nuts">🥜 Ядки</button>
+<button class="filter-btn" data-category="fat" data-i18n="c.cat.fat">🫒 Мазнини</button>
+<button class="filter-btn" data-category="bread" data-i18n="c.cat.bread">🍞 Хляб</button>
+<button class="filter-btn" data-category="vegetable" data-i18n="c.cat.vegetable">🥦 Плод/Зеленчук</button>
+</div>
+</details>
+<div class="utility-inline-links">
+<a href="food-info.html" data-i18n="sf.food_info.link">Информация за храните и принципите →</a>
+</div>
+</div>
+<div class="offers-grid" id="offers-grid">
+<p data-i18n-html="c.p.2" style="text-align:center; color:#888;">Зареждане на промоции...</p>
+</div>
+<div class="pagination" id="offers-pagination"></div>
 </section>
+<details class="smart-food-extra">
+<summary data-i18n="sf.extra.summary">Седмични селекции</summary>
 <section class="curated-shortlist-section" id="weekly-shortlist-section">
 <div class="section-title">
 <span class="section-kicker" data-i18n="sf.shortlist.kicker">СЕДМИЧЕН SHORTLIST</span>
@@ -185,222 +252,15 @@
 
 <section id="watchout-section">
 <div class="section-title">
-<span class="section-kicker" data-i18n="sf.watchout.kicker">НЕ СЕ ЛЪЖИ</span>
-<h2 data-i18n="sf.watchout.h2">Оферти, които не са толкова добра сделка</h2>
-<p class="section-subtitle" data-i18n="sf.watchout.sub">Голямо намаление не значи автоматично добра покупка. Тук изваждаме шумни, слаби или твърде преработени оферти.</p>
+<span class="section-kicker" data-i18n="sf.watchout.kicker">ПРОВЕРИ ПЪРВО</span>
+<h2 data-i18n="sf.watchout.h2">Оферти, които заслужават втори поглед</h2>
+<p class="section-subtitle" data-i18n="sf.watchout.sub">Показваме само ясни случаи като твърде преработени продукти, junk храни или подсладени instant миксове, не нормални храни само заради по-нисък скор.</p>
 </div>
 <div class="watchout-grid" id="watchout-offers">
 <p style="color:var(--muted);">Зареждане на предупрежденията...</p>
 </div>
 </section>
-<section class="utility-showcase food-showcase" aria-label="Какво следиш в Smart Food">
-<div class="utility-showcase-copy">
-<span data-i18n="sf.showcase.kicker">ПАЗАРЕН РАДАР</span>
-<h2 data-i18n="sf.showcase.h2">Всичко важно за продукта, преди да го сложиш в кошницата.</h2>
-<p data-i18n="sf.showcase.p">Гледаш цена, магазин, история, рейтинг и хранителни стойности в една карта. После го пазиш в списък и сравняваш седмицата без хаос.</p>
-</div>
-<div class="utility-showcase-tiles">
-<div class="showcase-tile green">
-<img src="images/protein-tier-generated/tuna.png" alt=""/>
-<strong data-i18n="sf.showcase.tile1.title">Цена и протеин</strong>
-<span data-i18n="sf.showcase.tile1.text">Полезните източници остават ясни.</span>
-</div>
-<div class="showcase-tile amber">
-<img src="images/fat-tier-generated/olive_oil.png" alt=""/>
-<strong data-i18n="sf.showcase.tile2.title">История на цената</strong>
-<span data-i18n="sf.showcase.tile2.text">Виждаш дали офертата наистина си струва.</span>
-</div>
-<div class="showcase-tile green">
-<img src="images/protein-tier-generated/eggs.png" alt=""/>
-<strong data-i18n="sf.showcase.tile3.title">Пазарен списък</strong>
-<span data-i18n="sf.showcase.tile3.text">Любимите продукти остават под ръка.</span>
-</div>
-</div>
-</section>
-<!-- 2. Сравнение ден по ден -->
-<section>
-<div class="section-title">
-<h2 data-i18n="c.s2.h2">Сравнение ден по ден</h2>
-<p class="section-subtitle" data-i18n="c.s2.sub">Същите хранения, различен избор</p>
-</div>
-<div class="accordion">
-<div class="accordion-item green">
-<div class="accordion-header">
-<h3 data-i18n="c.acc1.h3">☕ Закуска</h3>
-<span class="accordion-arrow">▼</span>
-</div>
-<div class="accordion-body">
-<div class="accordion-body-inner" data-i18n-html="c.acc1.body">
-<div class="comparison">
-<div class="comparison-col bad">
-<div class="label" data-i18n="c.comp.typical">Типично</div>
-<strong>Кроасан + кафе</strong>
-<p style="font-size:0.85rem; margin-top:6px;"><em class="red">4.50 лв</em> · 5г протеин</p>
-<p style="font-size:0.8rem;">18г захар само от кроасана</p>
-</div>
-<div class="comparison-col good">
-<div class="label" data-i18n="c.comp.healthy">Здравословно</div>
-<strong>3 яйца + овес + банан</strong>
-<p style="font-size:0.85rem; margin-top:6px;"><em class="green">1.80 лв</em> · 26г протеин</p>
-<p style="font-size:0.8rem;">0г добавена захар</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="accordion-item green">
-<div class="accordion-header">
-<h3 data-i18n="c.acc2.h3">🍽️ Обяд</h3>
-<span class="accordion-arrow">▼</span>
-</div>
-<div class="accordion-body">
-<div class="accordion-body-inner" data-i18n-html="c.acc2.body">
-<div class="comparison">
-<div class="comparison-col bad">
-<div class="label" data-i18n="c.comp.typical">Типично</div>
-<strong>Кебапче + Кола</strong>
-<p style="font-size:0.85rem; margin-top:6px;"><em class="red">9 лв</em> · 18г протеин</p>
-<p style="font-size:0.8rem;">52г захар от Колата</p>
-</div>
-<div class="comparison-col good">
-<div class="label" data-i18n="c.comp.healthy">Здравословно</div>
-<strong>Пилешко + ориз + салата</strong>
-<p style="font-size:0.85rem; margin-top:6px;"><em class="green">3.20 лв</em> · 52г протеин</p>
-<p style="font-size:0.8rem;">Вода — 0 лв</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="accordion-item green">
-<div class="accordion-header">
-<h3 data-i18n="c.acc3.h3">🌙 Вечеря</h3>
-<span class="accordion-arrow">▼</span>
-</div>
-<div class="accordion-body">
-<div class="accordion-body-inner" data-i18n-html="c.acc3.body">
-<div class="comparison">
-<div class="comparison-col bad">
-<div class="label" data-i18n="c.comp.typical">Типично</div>
-<strong>Пица</strong>
-<p style="font-size:0.85rem; margin-top:6px;"><em class="red">12 лв</em> · 20г протеин</p>
-<p style="font-size:0.8rem;">Рафинирано тесто + сирене</p>
-</div>
-<div class="comparison-col good">
-<div class="label" data-i18n="c.comp.healthy">Здравословно</div>
-<strong>Леща + кисело мляко</strong>
-<p style="font-size:0.85rem; margin-top:6px;"><em class="green">1.80 лв</em> · 38г протеин</p>
-<p style="font-size:0.8rem;">Фибри + пробиотици</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<!-- Моите любими -->
-<section id="fav-section" style="display:none">
-<div class="section-title">
-<h2 data-i18n="sf.fav.h2">🛒 Пазарен списък</h2>
-<p class="section-subtitle" data-i18n="sf.fav.sub">Следи продукти и виж къде са на добра цена тази седмица</p>
-</div>
-<div id="fav-panel"></div>
-</section>
-<!-- 3. Търсене и сравнение -->
-<section>
-<div class="section-title">
-<h2 data-i18n="c.s3.h2">Търси и сравнявай продукти</h2>
-<p class="section-subtitle" data-i18n="c.s3.sub">Всички налични цени, промоции и история в българските магазини</p>
-</div>
-<div class="offers-status" id="offers-status">
-<span data-i18n="sf.offers.status.loading">Зареждане на данните...</span>
-</div>
-<div class="product-controls-panel">
-<!-- Search -->
-<div class="search-wrapper">
-<input class="offers-search" id="offers-search" placeholder="🔍 Търси продукт... (напр. пиле, ориз, сирене)" type="text"/>
-<button class="search-submit-btn" data-i18n="ui.search" id="offers-search-submit" type="button">Търси</button>
-</div>
-<!-- Source filters -->
-<div class="filters source-filters">
-<button class="filter-btn active" data-i18n="sf.filter.promos" data-source="promo">Промоции</button>
-<button class="filter-btn" data-i18n="sf.filter.all_products" data-source="all">Всички продукти</button>
-</div>
-<!-- Type filters -->
-<div class="filters">
-<button class="filter-btn active" data-i18n="c.filter.all.type" data-type="all">Всички</button>
-<button class="filter-btn" data-i18n="c.filter.protein" data-type="high_protein">💪 Висок протеин</button>
-</div>
-<!-- Diet filters -->
-<div class="filters">
-<span style="color:var(--muted); font-size:0.8rem; padding:8px 4px;">Диета:</span>
-<button class="filter-btn active" data-diet="all">Всички</button>
-<button class="filter-btn" data-diet="keto">🥑 Кето</button>
-<button class="filter-btn" data-diet="mediterranean">🫒 Средиземноморска</button>
-<button class="filter-btn" data-diet="vegetarian">🌱 Вегетарианска</button>
-<button class="filter-btn" data-diet="бюджетен">💰 Бюджетно</button>
-</div>
-<!-- Sort -->
-<div class="filters">
-<span data-i18n-html="c.span.1" style="color:var(--muted); font-size:0.8rem; padding:8px 4px;">Подреди:</span>
-<button class="sort-btn active" data-i18n="c.sort.recommended" data-sort="recommended">⭐ Препоръчани</button>
-<button class="sort-btn" data-sort="protein_value">💰 Най-много протеин за лев</button>
-<button class="sort-btn" data-sort="price_per_kg">⚖️ Цена/кг</button>
-<button class="sort-btn" data-i18n="c.sort.health" data-sort="health">❤️ Най-здравословни</button>
-</div>
-<!-- Store filters -->
-<div class="filters">
-<span style="color:var(--muted); font-size:0.8rem; padding:8px 4px;">Магазин:</span>
-<button class="filter-btn active" data-store="all">Всички</button>
-<button class="filter-btn" data-store="Lidl">Lidl</button>
-<button class="filter-btn" data-store="Kaufland">Kaufland</button>
-<button class="filter-btn" data-store="Billa">Billa</button>
-<button class="filter-btn" data-store="Fantastico">Fantastico</button>
-<button class="filter-btn" data-store="T-Market">T-Market</button>
-<button class="filter-btn" data-store="Dar">Dar</button>
-</div>
-<!-- Category filters -->
-<div class="filters">
-<button class="filter-btn active" data-category="all" data-i18n="c.cat.all">Всички</button>
-<button class="filter-btn" data-category="protein" data-i18n="c.cat.meat">🥩 Месо/Риба</button>
-<button class="filter-btn" data-category="dairy" data-i18n="c.cat.dairy">🥛 Млечни</button>
-<button class="filter-btn" data-category="grain" data-i18n="c.cat.grain">🌾 Зърнени</button>
-<button class="filter-btn" data-category="legume" data-i18n="c.cat.legume">🫘 Бобови</button>
-<button class="filter-btn" data-category="canned" data-i18n="c.cat.canned">🥫 Консерви</button>
-<button class="filter-btn" data-category="nuts" data-i18n="c.cat.nuts">🥜 Ядки</button>
-<button class="filter-btn" data-category="fat" data-i18n="c.cat.fat">🫒 Мазнини</button>
-<button class="filter-btn" data-category="bread" data-i18n="c.cat.bread">🍞 Хляб</button>
-<button class="filter-btn" data-category="vegetable" data-i18n="c.cat.vegetable">🥦 Плод/Зеленчук</button>
-</div>
-</div>
-<div class="offers-grid" id="offers-grid">
-<p data-i18n-html="c.p.2" style="text-align:center; color:#888;">Зареждане на промоции...</p>
-</div>
-<div class="pagination" id="offers-pagination"></div>
-</section>
-<!-- 7. Цената на боледуването -->
-<section>
-<div class="section-title">
-<h2 data-i18n-html="c.h2.1">Цената на боледуването</h2>
-<p class="section-subtitle" data-i18n-html="c.section_subt.2">Сравни инвестицията</p>
-</div>
-<div class="cards-grid">
-<div class="stat-card" data-i18n-html="c.stat_card.1">
-<div class="stat-number" style="font-size:1.4rem;">~200 лв/м</div>
-<div class="stat-label">Диабет — лекарства, тест ленти, прегледи</div>
-</div>
-<div class="stat-card" data-i18n-html="c.stat_card.2">
-<div class="stat-number" style="font-size:1.4rem;">10 000+ лв</div>
-<div class="stat-label">Сърдечна операция</div>
-</div>
-</div>
-<div class="info-box mt-24" data-i18n-html="c.info_box.2">
-<p style="text-align:center; font-size:1rem;">
-<em class="green">Здравословно хранене: ~2 500 лв/година</em><br/>
-<span style="color:#888;">Превенция е винаги по-евтина от лечение.</span>
-</p>
-</div>
-</section>
+</details>
 <!-- 8. CTA -->
 <section class="cta-section" data-i18n-html="c.cta_section.1">
 <h2>Имаш числата.<br/><em class="green">Вземи плана.</em></h2>
@@ -414,7 +274,7 @@
 <script src="js/main.js?v=17"></script>
 <script src="data/market_memory.js?v=2"></script>
 <script src="data/offers.js?v=4"></script>
-<script src="js/offers.js?v=54"></script>
+<script src="js/offers.js?v=55"></script>
 <script>if('serviceWorker' in navigator){navigator.serviceWorker.register('sw.js?v=11');}</script>
 </body>
 </html>
