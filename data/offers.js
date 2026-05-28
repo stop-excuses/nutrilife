@@ -1,8 +1,8 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-05-28T07:46:48.059472Z",
-  "content_hash": "d6939e02368315b5f1b42ffd19707640",
-  "total_offers": 4415,
-  "promo_offers": 1548,
+  "generated_at": "2026-05-28T11:39:01.248037Z",
+  "content_hash": "a80230a58ee0baef5c1425db0012074a",
+  "total_offers": 4409,
+  "promo_offers": 1542,
   "assortment_offers": 2867,
   "stores": [
     "Billa",
@@ -11000,40 +11000,6 @@ const OFFERS_DATA = {
     {
       "store": "Kaufland",
       "address": null,
-      "new_price": 8.78,
-      "new_price_eur": 4.49,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-05-25",
-      "valid_until": "2026-05-31",
-      "price_per_kg": 21.95,
-      "price_per_kg_eur": 11.22,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 8.78,
-          "price_eur": 4.49,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 8.78,
-      "comparison_count": 1,
-      "product_id": "kaufland-вретено-от-младо-телешко-400g",
-      "weight_grams": 400,
-      "weight_raw": "400 г"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
       "new_price": 9.99,
       "new_price_eur": 5.11,
       "old_price": 13.98,
@@ -21620,40 +21586,6 @@ const OFFERS_DATA = {
       "product_id": "kaufland-cheesupers-сирене-на-пръчици-80g",
       "weight_grams": 80,
       "weight_raw": "4 х 20 г"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 7.8,
-      "new_price_eur": 3.99,
-      "old_price": 9.17,
-      "old_price_eur": 4.69,
-      "discount_pct": 15,
-      "valid_from": "2026-05-25",
-      "valid_until": "2026-05-31",
-      "price_per_kg": 19.5,
-      "price_per_kg_eur": 9.97,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 7.8,
-          "price_eur": 3.99,
-          "old_price": 9.17,
-          "old_price_eur": 4.69,
-          "discount_pct": 15,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 7.8,
-      "comparison_count": 1,
-      "product_id": "kaufland-чех-кебапчета-от-агнешко-месо-400g",
-      "weight_grams": 400,
-      "weight_raw": "400 г"
     },
     {
       "store": "Billa",
@@ -64624,38 +64556,6 @@ const OFFERS_DATA = {
     {
       "store": "Kaufland",
       "address": null,
-      "new_price": 11.72,
-      "new_price_eur": 5.99,
-      "old_price": 13.67,
-      "old_price_eur": 6.99,
-      "discount_pct": 14,
-      "valid_from": "2026-05-25",
-      "valid_until": "2026-05-31",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 11.72,
-          "price_eur": 5.99,
-          "old_price": 13.67,
-          "old_price_eur": 6.99,
-          "discount_pct": 14,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 11.72,
-      "comparison_count": 1,
-      "product_id": "kaufland-калугерска-наденица"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
       "new_price": 11.99,
       "new_price_eur": 6.13,
       "old_price": 17.99,
@@ -87760,40 +87660,6 @@ const OFFERS_DATA = {
       "address": null,
       "new_price": 2.99,
       "new_price_eur": 1.53,
-      "old_price": 3.99,
-      "old_price_eur": 2.04,
-      "discount_pct": 25,
-      "valid_from": "2026-05-25",
-      "valid_until": "2026-05-31",
-      "price_per_kg": 9.97,
-      "price_per_kg_eur": 5.1,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 2.99,
-          "price_eur": 1.53,
-          "old_price": 3.99,
-          "old_price_eur": 2.04,
-          "discount_pct": 25,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 2.99,
-      "comparison_count": 1,
-      "product_id": "kaufland-whiskas-суха-храна-за-котки-различни-видове-300g",
-      "weight_grams": 300,
-      "weight_raw": "300 г"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 2.99,
-      "new_price_eur": 1.53,
       "old_price": 4.5,
       "old_price_eur": 2.3,
       "discount_pct": 34,
@@ -90530,40 +90396,6 @@ const OFFERS_DATA = {
       "product_id": "fantastico-паста-за-зъби-coslys-освежаваща-мента-100-мл-100g",
       "weight_grams": 100,
       "weight_raw": "100 мл"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 3.34,
-      "new_price_eur": 1.71,
-      "old_price": 4.46,
-      "old_price_eur": 2.28,
-      "discount_pct": 25,
-      "valid_from": "2026-05-25",
-      "valid_until": "2026-05-31",
-      "price_per_kg": 9.82,
-      "price_per_kg_eur": 5.02,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 3.34,
-          "price_eur": 1.71,
-          "old_price": 4.46,
-          "old_price_eur": 2.28,
-          "discount_pct": 25,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 3.34,
-      "comparison_count": 1,
-      "product_id": "kaufland-whiskas-пауч-за-котки-различни-видове-340g",
-      "weight_grams": 340,
-      "weight_raw": "4 х 85 г"
     },
     {
       "store": "Fantastico",
@@ -98739,8 +98571,8 @@ const OFFERS_DATA = {
       "discount_pct": 22,
       "valid_from": "2026-05-25",
       "valid_until": "2026-05-31",
-      "price_per_kg": 37.76,
-      "price_per_kg_eur": 19.31,
+      "price_per_kg": 40.56,
+      "price_per_kg_eur": 20.74,
       "source_type": "promo",
       "available_stores": [
         "Kaufland"
@@ -98759,9 +98591,9 @@ const OFFERS_DATA = {
       "best_price_store": "Kaufland",
       "best_price": 4.38,
       "comparison_count": 1,
-      "product_id": "kaufland-milka-млечен-десерт-снак-116g",
-      "weight_grams": 116,
-      "weight_raw": "4 х 29 г"
+      "product_id": "kaufland-milka-млечен-десерт-снак-108g",
+      "weight_grams": 108,
+      "weight_raw": "4 х 27 г"
     },
     {
       "store": "Kaufland",
@@ -118138,40 +117970,6 @@ const OFFERS_DATA = {
       "product_id": "fantastico-ракия-каилъшка-гроздова-700-мл-700g",
       "weight_grams": 700,
       "weight_raw": "700 мл"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 9.37,
-      "new_price_eur": 4.79,
-      "old_price": 12.5,
-      "old_price_eur": 6.39,
-      "discount_pct": 25,
-      "valid_from": "2026-05-25",
-      "valid_until": "2026-05-31",
-      "price_per_kg": 9.19,
-      "price_per_kg_eur": 4.7,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 9.37,
-          "price_eur": 4.79,
-          "old_price": 12.5,
-          "old_price_eur": 6.39,
-          "discount_pct": 25,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 9.37,
-      "comparison_count": 1,
-      "product_id": "kaufland-whiskas-храна-за-котки-пауч-1020g",
-      "weight_grams": 1020,
-      "weight_raw": "12 x 85 г"
     },
     {
       "store": "Kaufland",
