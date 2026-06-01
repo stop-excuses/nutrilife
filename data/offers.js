@@ -1,6 +1,6 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-06-01T09:30:47.813976Z",
-  "content_hash": "fc3029da657d4438cc7a32f2869f99ad",
+  "generated_at": "2026-06-01T16:34:29.257691Z",
+  "content_hash": "936dc79d74d38562a2b731dd0d6dbb85",
   "total_offers": 4362,
   "promo_offers": 1448,
   "assortment_offers": 2914,
@@ -6993,7 +6993,7 @@ const OFFERS_DATA = {
       "best_price_store": "Kaufland",
       "best_price": 5.85,
       "comparison_count": 1,
-      "product_id": "kaufland-димитър-маджаров-средиземноморски-бут-луканков-салам-или-пастърма"
+      "product_id": "kaufland-димитър-маджаров-средиземноморски-деликатес-луканков-салам-или-пастърма"
     },
     {
       "store": "Kaufland",
