@@ -1,8 +1,8 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-06-02T08:43:04.431422Z",
-  "content_hash": "feb2576b5a86bfab97c7f74988d8c08c",
-  "total_offers": 4378,
-  "promo_offers": 1464,
+  "generated_at": "2026-06-02T10:51:23.804275Z",
+  "content_hash": "fadf0805be0a7786dc70903a5c8a14db",
+  "total_offers": 4377,
+  "promo_offers": 1463,
   "assortment_offers": 2914,
   "stores": [
     "Billa",
@@ -682,38 +682,6 @@ const OFFERS_DATA = {
       "product_id": "kaufland-боровинки-клас-i-200g",
       "weight_grams": 200,
       "weight_raw": "200 г"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 4.67,
-      "new_price_eur": 2.39,
-      "old_price": 5.85,
-      "old_price_eur": 2.99,
-      "discount_pct": 20,
-      "valid_from": "2026-06-01",
-      "valid_until": "2026-06-07",
-      "price_per_kg": 4.67,
-      "price_per_kg_eur": 2.39,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 4.67,
-          "price_eur": 2.39,
-          "old_price": 5.85,
-          "old_price_eur": 2.99,
-          "discount_pct": 20,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 4.67,
-      "comparison_count": 1,
-      "product_id": "kaufland-fragedo-пилешко-бутче-кг"
     },
     {
       "store": "Kaufland",
@@ -1984,9 +1952,9 @@ const OFFERS_DATA = {
       "address": null,
       "new_price": 3.31,
       "new_price_eur": 1.69,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
+      "old_price": 7.8,
+      "old_price_eur": 3.99,
+      "discount_pct": 58,
       "valid_from": "2026-06-01",
       "valid_until": "2026-06-07",
       "price_per_kg": null,
@@ -2000,9 +1968,9 @@ const OFFERS_DATA = {
           "store": "Kaufland",
           "price": 3.31,
           "price_eur": 1.69,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
+          "old_price": 7.8,
+          "old_price_eur": 3.99,
+          "discount_pct": 58,
           "source_type": "promo"
         }
       ],
@@ -19158,38 +19126,6 @@ const OFFERS_DATA = {
     {
       "store": "Kaufland",
       "address": null,
-      "new_price": 10.48,
-      "new_price_eur": 5.36,
-      "old_price": 21.49,
-      "old_price_eur": 10.99,
-      "discount_pct": 51,
-      "valid_from": "2026-06-01",
-      "valid_until": "2026-06-07",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 10.48,
-          "price_eur": 5.36,
-          "old_price": 21.49,
-          "old_price_eur": 10.99,
-          "discount_pct": 51,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 10.48,
-      "comparison_count": 1,
-      "product_id": "kaufland-brio-тенджера-emalika-romance"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
       "new_price": 10.74,
       "new_price_eur": 5.49,
       "old_price": 14.98,
@@ -20036,6 +19972,38 @@ const OFFERS_DATA = {
       "product_id": "kaufland-head-shoulders-шампоан-различни-видове-625g",
       "weight_grams": 625,
       "weight_raw": "625 мл"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 12.99,
+      "new_price_eur": 6.64,
+      "old_price": 25.41,
+      "old_price_eur": 12.99,
+      "discount_pct": 49,
+      "valid_from": "2026-06-01",
+      "valid_until": "2026-06-07",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 12.99,
+          "price_eur": 6.64,
+          "old_price": 25.41,
+          "old_price_eur": 12.99,
+          "discount_pct": 49,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 12.99,
+      "comparison_count": 1,
+      "product_id": "kaufland-brio-тенджера-emalika-romance"
     },
     {
       "store": "Kaufland",
