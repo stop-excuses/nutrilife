@@ -1,8 +1,8 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-06-01T16:34:29.257691Z",
-  "content_hash": "936dc79d74d38562a2b731dd0d6dbb85",
-  "total_offers": 4362,
-  "promo_offers": 1448,
+  "generated_at": "2026-06-02T08:43:04.431422Z",
+  "content_hash": "feb2576b5a86bfab97c7f74988d8c08c",
+  "total_offers": 4378,
+  "promo_offers": 1464,
   "assortment_offers": 2914,
   "stores": [
     "Billa",
@@ -14239,6 +14239,38 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": "2026-06-01",
       "valid_until": "2026-06-07",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 4.48,
+          "price_eur": 2.29,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 4.48,
+      "comparison_count": 1,
+      "product_id": "kaufland-каланхое-ø10-5-см"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 4.48,
+      "new_price_eur": 2.29,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-06-01",
+      "valid_until": "2026-06-07",
       "price_per_kg": 3.73,
       "price_per_kg_eur": 1.91,
       "source_type": "promo",
@@ -15538,6 +15570,102 @@ const OFFERS_DATA = {
       "product_id": "kaufland-k-classic-котешка-тоалетна-5000g",
       "weight_grams": 5000,
       "weight_raw": "5 кг"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 5.48,
+      "new_price_eur": 2.8,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-06-01",
+      "valid_until": "2026-06-07",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 5.48,
+          "price_eur": 2.8,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 5.48,
+      "comparison_count": 1,
+      "product_id": "kaufland-хризантема-ø12-см"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 5.48,
+      "new_price_eur": 2.8,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-06-01",
+      "valid_until": "2026-06-07",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 5.48,
+          "price_eur": 2.8,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 5.48,
+      "comparison_count": 1,
+      "product_id": "kaufland-лавандула-ø13-см"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 5.48,
+      "new_price_eur": 2.8,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-06-01",
+      "valid_until": "2026-06-07",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 5.48,
+          "price_eur": 2.8,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 5.48,
+      "comparison_count": 1,
+      "product_id": "kaufland-хризантема-трио-ø12-см"
     },
     {
       "store": "Kaufland",
@@ -17108,6 +17236,38 @@ const OFFERS_DATA = {
     {
       "store": "Kaufland",
       "address": null,
+      "new_price": 6.98,
+      "new_price_eur": 3.57,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-06-01",
+      "valid_until": "2026-06-07",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 6.98,
+          "price_eur": 3.57,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 6.98,
+      "comparison_count": 1,
+      "product_id": "kaufland-еустома-стаино-растение"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
       "new_price": 7.02,
       "new_price_eur": 3.59,
       "old_price": 9.0,
@@ -18374,6 +18534,38 @@ const OFFERS_DATA = {
     {
       "store": "Kaufland",
       "address": null,
+      "new_price": 8.98,
+      "new_price_eur": 4.59,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-06-01",
+      "valid_until": "2026-06-07",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 8.98,
+          "price_eur": 4.59,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 8.98,
+      "comparison_count": 1,
+      "product_id": "kaufland-минимонстера-керамика-ø6-см"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
       "new_price": 9.0,
       "new_price_eur": 4.6,
       "old_price": 19.99,
@@ -19228,6 +19420,38 @@ const OFFERS_DATA = {
     {
       "store": "Kaufland",
       "address": null,
+      "new_price": 10.99,
+      "new_price_eur": 5.62,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-06-01",
+      "valid_until": "2026-06-07",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 10.99,
+          "price_eur": 5.62,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 10.99,
+      "comparison_count": 1,
+      "product_id": "kaufland-лилиум-ø13-см"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
       "new_price": 11.23,
       "new_price_eur": 5.74,
       "old_price": 14.98,
@@ -19322,6 +19546,38 @@ const OFFERS_DATA = {
       "best_price": 11.48,
       "comparison_count": 1,
       "product_id": "kaufland-brio-тава-emalika-romance"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 11.68,
+      "new_price_eur": 5.97,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-06-01",
+      "valid_until": "2026-06-07",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 11.68,
+          "price_eur": 5.97,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 11.68,
+      "comparison_count": 1,
+      "product_id": "kaufland-букет-микс-40-см"
     },
     {
       "store": "Kaufland",
@@ -19616,6 +19872,38 @@ const OFFERS_DATA = {
       "product_id": "kaufland-castillo-del-moro-червено-бяло-вино-или-розе-различни-сортове-750g",
       "weight_grams": 750,
       "weight_raw": "0,75 л"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 11.99,
+      "new_price_eur": 6.13,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-06-01",
+      "valid_until": "2026-06-07",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 11.99,
+          "price_eur": 6.13,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 11.99,
+      "comparison_count": 1,
+      "product_id": "kaufland-сансевиера-керамика-ø9-см"
     },
     {
       "store": "Kaufland",
@@ -20244,6 +20532,38 @@ const OFFERS_DATA = {
     {
       "store": "Kaufland",
       "address": null,
+      "new_price": 13.98,
+      "new_price_eur": 7.15,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-06-01",
+      "valid_until": "2026-06-07",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 13.98,
+          "price_eur": 7.15,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 13.98,
+      "comparison_count": 1,
+      "product_id": "kaufland-кала-ø13-см"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
       "new_price": 14.69,
       "new_price_eur": 7.51,
       "old_price": 20.99,
@@ -20367,6 +20687,38 @@ const OFFERS_DATA = {
       "best_price_store": "Kaufland",
       "best_price": 14.98,
       "comparison_count": 1,
+      "product_id": "kaufland-орхидея-фаленопсис-ø12-см"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 14.98,
+      "new_price_eur": 7.66,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-06-01",
+      "valid_until": "2026-06-07",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 14.98,
+          "price_eur": 7.66,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 14.98,
+      "comparison_count": 1,
       "product_id": "kaufland-teno-тоалетна-хартия-fresh-breeze"
     },
     {
@@ -20432,6 +20784,38 @@ const OFFERS_DATA = {
       "best_price": 14.98,
       "comparison_count": 1,
       "product_id": "kaufland-super-mario-squishmellow-детски-панталон-110-152"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 14.98,
+      "new_price_eur": 7.66,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-06-01",
+      "valid_until": "2026-06-07",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 14.98,
+          "price_eur": 7.66,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 14.98,
+      "comparison_count": 1,
+      "product_id": "kaufland-калатея-микс-ø14-см"
     },
     {
       "store": "Kaufland",
@@ -20914,6 +21298,38 @@ const OFFERS_DATA = {
       "best_price": 17.99,
       "comparison_count": 1,
       "product_id": "kaufland-russell-hobbs-електронна-кухненска-везна"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 17.99,
+      "new_price_eur": 9.2,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-06-01",
+      "valid_until": "2026-06-07",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 17.99,
+          "price_eur": 9.2,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 17.99,
+      "comparison_count": 1,
+      "product_id": "kaufland-куркума-ø14-см"
     },
     {
       "store": "Kaufland",
@@ -21513,6 +21929,38 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": "2026-06-01",
       "valid_until": "2026-06-07",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 21.49,
+          "price_eur": 10.99,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 21.49,
+      "comparison_count": 1,
+      "product_id": "kaufland-орхидея-дендробиум"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 21.49,
+      "new_price_eur": 10.99,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-06-01",
+      "valid_until": "2026-06-07",
       "price_per_kg": 21.49,
       "price_per_kg_eur": 10.99,
       "source_type": "promo",
@@ -21602,6 +22050,38 @@ const OFFERS_DATA = {
       "best_price": 21.98,
       "comparison_count": 1,
       "product_id": "kaufland-стефанов-домашен-мезелък-от-свежата-витрина"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 22.98,
+      "new_price_eur": 11.75,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-06-01",
+      "valid_until": "2026-06-07",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 22.98,
+          "price_eur": 11.75,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 22.98,
+      "comparison_count": 1,
+      "product_id": "kaufland-фикус-женшен"
     },
     {
       "store": "Kaufland",
@@ -22572,6 +23052,38 @@ const OFFERS_DATA = {
       "best_price": 39.98,
       "comparison_count": 1,
       "product_id": "kaufland-switch-on-уред-за-вакуумиране-sov-125-c6-2"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 39.98,
+      "new_price_eur": 20.44,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-06-01",
+      "valid_until": "2026-06-07",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 39.98,
+          "price_eur": 20.44,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 39.98,
+      "comparison_count": 1,
+      "product_id": "kaufland-драцена-маргината-ø21-см"
     },
     {
       "store": "Kaufland",
