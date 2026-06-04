@@ -1,8 +1,8 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-06-04T09:39:03.549756Z",
-  "content_hash": "d04ee9ee426cc1e355c9ad213b4590ed",
-  "total_offers": 4387,
-  "promo_offers": 1797,
+  "generated_at": "2026-06-04T11:16:05.358622Z",
+  "content_hash": "8f08a4ae9ece581613fe15be17875a76",
+  "total_offers": 4379,
+  "promo_offers": 1789,
   "assortment_offers": 2590,
   "stores": [
     "Billa",
@@ -7260,38 +7260,6 @@ const OFFERS_DATA = {
       "best_price": 9.71,
       "comparison_count": 2,
       "product_id": "fantastico-филе-без-кожа-от-пиле-хранено-предм-с-ц-ца-т-ка-la-p-a-imr-t"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 9.99,
-      "new_price_eur": 5.11,
-      "old_price": 13.98,
-      "old_price_eur": 7.15,
-      "discount_pct": 29,
-      "valid_from": "2026-06-01",
-      "valid_until": "2026-06-07",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 9.99,
-          "price_eur": 5.11,
-          "old_price": 13.98,
-          "old_price_eur": 7.15,
-          "discount_pct": 29,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 9.99,
-      "comparison_count": 1,
-      "product_id": "kaufland-amadori-цяло-пиле-свободно-отглеждано"
     },
     {
       "store": "Fantastico",
@@ -77454,40 +77422,6 @@ const OFFERS_DATA = {
       "weight_raw": "300 г"
     },
     {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 1.94,
-      "new_price_eur": 0.99,
-      "old_price": 2.52,
-      "old_price_eur": 1.29,
-      "discount_pct": 23,
-      "valid_from": "2026-06-01",
-      "valid_until": "2026-06-07",
-      "price_per_kg": 19.4,
-      "price_per_kg_eur": 9.92,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 1.94,
-          "price_eur": 0.99,
-          "old_price": 2.52,
-          "old_price_eur": 1.29,
-          "discount_pct": 23,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 1.94,
-      "comparison_count": 1,
-      "product_id": "kaufland-кафта-кебап-на-шиш-100g",
-      "weight_grams": 100,
-      "weight_raw": "100 г"
-    },
-    {
       "store": "Billa",
       "address": null,
       "new_price": 1.94,
@@ -115168,38 +115102,6 @@ const OFFERS_DATA = {
       "weight_raw": "5 x 55 г"
     },
     {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 8.98,
-      "new_price_eur": 4.59,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-06-01",
-      "valid_until": "2026-06-07",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 8.98,
-          "price_eur": 4.59,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 8.98,
-      "comparison_count": 1,
-      "product_id": "kaufland-минимонстера-керамика-ø6-см"
-    },
-    {
       "store": "Billa",
       "address": null,
       "new_price": 8.98,
@@ -118216,38 +118118,6 @@ const OFFERS_DATA = {
       "weight_raw": "2,4 кг"
     },
     {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 10.99,
-      "new_price_eur": 5.62,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-06-01",
-      "valid_until": "2026-06-07",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 10.99,
-          "price_eur": 5.62,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 10.99,
-      "comparison_count": 1,
-      "product_id": "kaufland-лилиум-ø13-см"
-    },
-    {
       "store": "Billa",
       "address": null,
       "new_price": 10.99,
@@ -119804,38 +119674,6 @@ const OFFERS_DATA = {
       "product_id": "kaufland-castillo-del-moro-червено-бяло-вино-или-розе-различни-сортове-750g",
       "weight_grams": 750,
       "weight_raw": "0,75 л"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 11.99,
-      "new_price_eur": 6.13,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-06-01",
-      "valid_until": "2026-06-07",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 11.99,
-          "price_eur": 6.13,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 11.99,
-      "comparison_count": 1,
-      "product_id": "kaufland-сансевиера-керамика-ø9-см"
     },
     {
       "store": "Billa",
@@ -122418,38 +122256,6 @@ const OFFERS_DATA = {
       "weight_raw": "750 мл"
     },
     {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 15.43,
-      "new_price_eur": 7.89,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-06-01",
-      "valid_until": "2026-06-07",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 15.43,
-          "price_eur": 7.89,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 15.43,
-      "comparison_count": 1,
-      "product_id": "kaufland-цял-заек-охладен"
-    },
-    {
       "store": "Billa",
       "address": null,
       "new_price": 15.63,
@@ -124627,38 +124433,6 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": "2026-06-01",
       "valid_until": "2026-06-07",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 21.49,
-          "price_eur": 10.99,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 21.49,
-      "comparison_count": 1,
-      "product_id": "kaufland-орхидея-дендробиум"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 21.49,
-      "new_price_eur": 10.99,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-06-01",
-      "valid_until": "2026-06-07",
       "price_per_kg": 21.49,
       "price_per_kg_eur": 10.99,
       "source_type": "promo",
@@ -124814,38 +124588,6 @@ const OFFERS_DATA = {
       "product_id": "billa-milky-dream-чедър-от-деликатесната-витрина-за-1-кг-1000g",
       "weight_grams": 1000,
       "weight_raw": "1 кг"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 22.98,
-      "new_price_eur": 11.75,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-06-01",
-      "valid_until": "2026-06-07",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 22.98,
-          "price_eur": 11.75,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 22.98,
-      "comparison_count": 1,
-      "product_id": "kaufland-фикус-женшен"
     },
     {
       "store": "Fantastico",
