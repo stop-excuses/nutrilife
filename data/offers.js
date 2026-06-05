@@ -1,8 +1,8 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-06-05T08:12:59.927971Z",
-  "content_hash": "b5a75e84c241418286c3fd19fa12d3c4",
-  "total_offers": 4380,
-  "promo_offers": 1793,
+  "generated_at": "2026-06-05T11:25:29.511428Z",
+  "content_hash": "f897e446881dc271ed7526d105f7855a",
+  "total_offers": 4402,
+  "promo_offers": 1815,
   "assortment_offers": 2587,
   "stores": [
     "Billa",
@@ -9848,6 +9848,40 @@ const OFFERS_DATA = {
       "best_price": 3.88,
       "comparison_count": 1,
       "product_id": "dar-извара-маджаров-кг-насипна-българия"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 3.89,
+      "new_price_eur": 1.99,
+      "old_price": 9.0,
+      "old_price_eur": 4.6,
+      "discount_pct": 57,
+      "valid_from": "2026-06-01",
+      "valid_until": "2026-06-07",
+      "price_per_kg": 7.78,
+      "price_per_kg_eur": 3.98,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 3.89,
+          "price_eur": 1.99,
+          "old_price": 9.0,
+          "old_price_eur": 4.6,
+          "discount_pct": 57,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 3.89,
+      "comparison_count": 1,
+      "product_id": "kaufland-череши-клас-i-500g",
+      "weight_grams": 500,
+      "weight_raw": "500 г"
     },
     {
       "store": "Fantastico",
@@ -20452,6 +20486,40 @@ const OFFERS_DATA = {
       "weight_raw": "400 гр"
     },
     {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 7.69,
+      "new_price_eur": 3.93,
+      "old_price": 10.99,
+      "old_price_eur": 5.62,
+      "discount_pct": 30,
+      "valid_from": "2026-06-01",
+      "valid_until": "2026-06-07",
+      "price_per_kg": 7.69,
+      "price_per_kg_eur": 3.93,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 7.69,
+          "price_eur": 3.93,
+          "old_price": 10.99,
+          "old_price_eur": 5.62,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 7.69,
+      "comparison_count": 1,
+      "product_id": "kaufland-фамилия-баница-наложена-със-сирене-1000g",
+      "weight_grams": 1000,
+      "weight_raw": "1 кг"
+    },
+    {
       "store": "Fantastico",
       "address": null,
       "new_price": 7.99,
@@ -23466,6 +23534,40 @@ const OFFERS_DATA = {
       "best_price": 1.55,
       "comparison_count": 1,
       "product_id": "billa-сладка-царевица-1-бр"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 1.58,
+      "new_price_eur": 0.81,
+      "old_price": 3.6,
+      "old_price_eur": 1.84,
+      "discount_pct": 56,
+      "valid_from": "2026-06-01",
+      "valid_until": "2026-06-07",
+      "price_per_kg": 2.63,
+      "price_per_kg_eur": 1.34,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 1.58,
+          "price_eur": 0.81,
+          "old_price": 3.6,
+          "old_price_eur": 1.84,
+          "discount_pct": 56,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 1.58,
+      "comparison_count": 1,
+      "product_id": "kaufland-ръжен-хляб-от-нашата-пекарна-600g",
+      "weight_grams": 600,
+      "weight_raw": "600 г"
     },
     {
       "store": "Kaufland",
@@ -26808,6 +26910,38 @@ const OFFERS_DATA = {
       "best_price": 6.64,
       "comparison_count": 1,
       "product_id": "dar-шол-свински-биляна-мес-дар-пр-д-българия"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 7.41,
+      "new_price_eur": 3.79,
+      "old_price": 12.5,
+      "old_price_eur": 6.39,
+      "discount_pct": 41,
+      "valid_from": "2026-06-01",
+      "valid_until": "2026-06-07",
+      "price_per_kg": 7.41,
+      "price_per_kg_eur": 3.79,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 7.41,
+          "price_eur": 3.79,
+          "old_price": 12.5,
+          "old_price_eur": 6.39,
+          "discount_pct": 41,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 7.41,
+      "comparison_count": 1,
+      "product_id": "kaufland-свински-врат-от-свежата-витрина"
     },
     {
       "store": "Billa",
@@ -44486,6 +44620,40 @@ const OFFERS_DATA = {
       "weight_raw": "400 гр"
     },
     {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 4.54,
+      "new_price_eur": 2.32,
+      "old_price": 6.49,
+      "old_price_eur": 3.32,
+      "discount_pct": 30,
+      "valid_from": "2026-06-01",
+      "valid_until": "2026-06-07",
+      "price_per_kg": 9.46,
+      "price_per_kg_eur": 4.84,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 4.54,
+          "price_eur": 2.32,
+          "old_price": 6.49,
+          "old_price_eur": 3.32,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 4.54,
+      "comparison_count": 1,
+      "product_id": "kaufland-белла-бутербанички-различни-видове-480g",
+      "weight_grams": 480,
+      "weight_raw": "480 г"
+    },
+    {
       "store": "Fantastico",
       "address": null,
       "new_price": 4.55,
@@ -45414,6 +45582,40 @@ const OFFERS_DATA = {
       "address": null,
       "new_price": 4.99,
       "new_price_eur": 2.55,
+      "old_price": 7.14,
+      "old_price_eur": 3.65,
+      "discount_pct": 30,
+      "valid_from": "2026-06-01",
+      "valid_until": "2026-06-07",
+      "price_per_kg": 6.24,
+      "price_per_kg_eur": 3.19,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 4.99,
+          "price_eur": 2.55,
+          "old_price": 7.14,
+          "old_price_eur": 3.65,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 4.99,
+      "comparison_count": 1,
+      "product_id": "kaufland-zymes-familias-бутербанички-различни-видове-800g",
+      "weight_grams": 800,
+      "weight_raw": "800 г"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 4.99,
+      "new_price_eur": 2.55,
       "old_price": 6.26,
       "old_price_eur": 3.2,
       "discount_pct": 20,
@@ -46058,6 +46260,74 @@ const OFFERS_DATA = {
       "weight_raw": "2 х 80 г"
     },
     {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 5.24,
+      "new_price_eur": 2.68,
+      "old_price": 7.49,
+      "old_price_eur": 3.83,
+      "discount_pct": 30,
+      "valid_from": "2026-06-01",
+      "valid_until": "2026-06-07",
+      "price_per_kg": 6.55,
+      "price_per_kg_eur": 3.35,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 5.24,
+          "price_eur": 2.68,
+          "old_price": 7.49,
+          "old_price_eur": 3.83,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 5.24,
+      "comparison_count": 1,
+      "product_id": "kaufland-bella-бутертесто-800g",
+      "weight_grams": 800,
+      "weight_raw": "800 г"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 5.24,
+      "new_price_eur": 2.68,
+      "old_price": 7.49,
+      "old_price_eur": 3.83,
+      "discount_pct": 30,
+      "valid_from": "2026-06-01",
+      "valid_until": "2026-06-07",
+      "price_per_kg": 6.55,
+      "price_per_kg_eur": 3.35,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 5.24,
+          "price_eur": 2.68,
+          "old_price": 7.49,
+          "old_price_eur": 3.83,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 5.24,
+      "comparison_count": 1,
+      "product_id": "kaufland-фамилия-бутертесто-замразено-800g",
+      "weight_grams": 800,
+      "weight_raw": "800 г"
+    },
+    {
       "store": "Fantastico",
       "address": null,
       "new_price": 5.25,
@@ -46598,6 +46868,40 @@ const OFFERS_DATA = {
       "product_id": "fantastico-чаи-twinings-superblends-energise-18-бр-х-2-г-кутия-36g",
       "weight_grams": 36,
       "weight_raw": "18 бр х 2 г"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 5.59,
+      "new_price_eur": 2.86,
+      "old_price": 8.0,
+      "old_price_eur": 4.09,
+      "discount_pct": 30,
+      "valid_from": "2026-06-01",
+      "valid_until": "2026-06-07",
+      "price_per_kg": 11.65,
+      "price_per_kg_eur": 5.96,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 5.59,
+          "price_eur": 2.86,
+          "old_price": 8.0,
+          "old_price_eur": 4.09,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 5.59,
+      "comparison_count": 1,
+      "product_id": "kaufland-белла-бутер-банички-с-крем-кит-кат-замразени-480g",
+      "weight_grams": 480,
+      "weight_raw": "480 г"
     },
     {
       "store": "Fantastico",
@@ -49434,6 +49738,40 @@ const OFFERS_DATA = {
       "product_id": "fantastico-сапун-english-soap-магнолия-и-круша-240-г-240g",
       "weight_grams": 240,
       "weight_raw": "240 г"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 7.69,
+      "new_price_eur": 3.93,
+      "old_price": 10.99,
+      "old_price_eur": 5.62,
+      "discount_pct": 30,
+      "valid_from": "2026-06-01",
+      "valid_until": "2026-06-07",
+      "price_per_kg": 7.69,
+      "price_per_kg_eur": 3.93,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 7.69,
+          "price_eur": 3.93,
+          "old_price": 10.99,
+          "old_price_eur": 5.62,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 7.69,
+      "comparison_count": 1,
+      "product_id": "kaufland-белла-бутертесто-1000g",
+      "weight_grams": 1000,
+      "weight_raw": "1 кг"
     },
     {
       "store": "Fantastico",
@@ -54504,6 +54842,38 @@ const OFFERS_DATA = {
       "product_id": "fantastico-мляко-aptamil-без-лактоза-400-гр-400g",
       "weight_grams": 400,
       "weight_raw": "400 гр"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 12.3,
+      "new_price_eur": 6.29,
+      "old_price": 26.99,
+      "old_price_eur": 13.8,
+      "discount_pct": 54,
+      "valid_from": "2026-06-01",
+      "valid_until": "2026-06-07",
+      "price_per_kg": 12.3,
+      "price_per_kg_eur": 6.29,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 12.3,
+          "price_eur": 6.29,
+          "old_price": 26.99,
+          "old_price_eur": 13.8,
+          "discount_pct": 54,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 12.3,
+      "comparison_count": 1,
+      "product_id": "kaufland-болярче-кашкавал-от-краве-мляко-от-свежата-витрина-2"
     },
     {
       "store": "Fantastico",
@@ -64742,6 +65112,40 @@ const OFFERS_DATA = {
       "weight_raw": "80 гр"
     },
     {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 5.65,
+      "new_price_eur": 2.89,
+      "old_price": 8.29,
+      "old_price_eur": 4.24,
+      "discount_pct": 32,
+      "valid_from": "2026-06-01",
+      "valid_until": "2026-06-07",
+      "price_per_kg": 37.67,
+      "price_per_kg_eur": 19.26,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 5.65,
+          "price_eur": 2.89,
+          "old_price": 8.29,
+          "old_price_eur": 4.24,
+          "discount_pct": 32,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 5.65,
+      "comparison_count": 1,
+      "product_id": "kaufland-raffaello-бонбони-кокос-150g",
+      "weight_grams": 150,
+      "weight_raw": "150 г"
+    },
+    {
       "store": "Billa",
       "address": null,
       "new_price": 5.65,
@@ -67626,40 +68030,6 @@ const OFFERS_DATA = {
       "address": null,
       "new_price": 0.84,
       "new_price_eur": 0.43,
-      "old_price": 1.74,
-      "old_price_eur": 0.89,
-      "discount_pct": 52,
-      "valid_from": "2026-06-01",
-      "valid_until": "2026-06-07",
-      "price_per_kg": 7.0,
-      "price_per_kg_eur": 3.58,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 0.84,
-          "price_eur": 0.43,
-          "old_price": 1.74,
-          "old_price_eur": 0.89,
-          "discount_pct": 52,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 0.84,
-      "comparison_count": 1,
-      "product_id": "kaufland-баничка-от-нашата-пекарна-120g",
-      "weight_grams": 120,
-      "weight_raw": "120 г"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 0.84,
-      "new_price_eur": 0.43,
       "old_price": 1.06,
       "old_price_eur": 0.54,
       "discount_pct": 21,
@@ -67688,6 +68058,40 @@ const OFFERS_DATA = {
       "product_id": "kaufland-friskies-храна-за-кучета-pouch-различни-видове-85g",
       "weight_grams": 85,
       "weight_raw": "85 г"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 0.84,
+      "new_price_eur": 0.43,
+      "old_price": 1.74,
+      "old_price_eur": 0.89,
+      "discount_pct": 52,
+      "valid_from": "2026-06-01",
+      "valid_until": "2026-06-07",
+      "price_per_kg": 7.0,
+      "price_per_kg_eur": 3.58,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 0.84,
+          "price_eur": 0.43,
+          "old_price": 1.74,
+          "old_price_eur": 0.89,
+          "discount_pct": 52,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 0.84,
+      "comparison_count": 1,
+      "product_id": "kaufland-баничка-от-нашата-пекарна-120g",
+      "weight_grams": 120,
+      "weight_raw": "120 г"
     },
     {
       "store": "Billa",
@@ -77900,6 +78304,40 @@ const OFFERS_DATA = {
       "address": null,
       "new_price": 1.96,
       "new_price_eur": 1.0,
+      "old_price": 2.8,
+      "old_price_eur": 1.43,
+      "discount_pct": 30,
+      "valid_from": "2026-06-01",
+      "valid_until": "2026-06-07",
+      "price_per_kg": 4.9,
+      "price_per_kg_eur": 2.51,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 1.96,
+          "price_eur": 1.0,
+          "old_price": 2.8,
+          "old_price_eur": 1.43,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 1.96,
+      "comparison_count": 1,
+      "product_id": "kaufland-белла-тесто-за-пица-400g",
+      "weight_grams": 400,
+      "weight_raw": "400 г"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 1.96,
+      "new_price_eur": 1.0,
       "old_price": null,
       "old_price_eur": null,
       "discount_pct": null,
@@ -85914,6 +86352,40 @@ const OFFERS_DATA = {
       "best_price": 2.99,
       "comparison_count": 1,
       "product_id": "kaufland-kidland-топка-ø9-см"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 2.99,
+      "new_price_eur": 1.53,
+      "old_price": 4.28,
+      "old_price_eur": 2.19,
+      "discount_pct": 30,
+      "valid_from": "2026-06-01",
+      "valid_until": "2026-06-07",
+      "price_per_kg": 4.27,
+      "price_per_kg_eur": 2.18,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 2.99,
+          "price_eur": 1.53,
+          "old_price": 4.28,
+          "old_price_eur": 2.19,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 2.99,
+      "comparison_count": 1,
+      "product_id": "kaufland-фамилия-тесто-за-пици-и-мекици-700g",
+      "weight_grams": 700,
+      "weight_raw": "2 x 350 г"
     },
     {
       "store": "Kaufland",
@@ -95440,6 +95912,40 @@ const OFFERS_DATA = {
       "product_id": "kaufland-kotanyi-къри-50g",
       "weight_grams": 50,
       "weight_raw": "50 г"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 4.19,
+      "new_price_eur": 2.14,
+      "old_price": 5.98,
+      "old_price_eur": 3.06,
+      "discount_pct": 30,
+      "valid_from": "2026-06-01",
+      "valid_until": "2026-06-07",
+      "price_per_kg": 8.73,
+      "price_per_kg_eur": 4.46,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 4.19,
+          "price_eur": 2.14,
+          "old_price": 5.98,
+          "old_price_eur": 3.06,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 4.19,
+      "comparison_count": 1,
+      "product_id": "kaufland-белла-банички-от-точени-кори-различни-видове-480g",
+      "weight_grams": 480,
+      "weight_raw": "480 г"
     },
     {
       "store": "Fantastico",
@@ -110184,38 +110690,6 @@ const OFFERS_DATA = {
       "address": null,
       "new_price": 6.98,
       "new_price_eur": 3.57,
-      "old_price": 14.98,
-      "old_price_eur": 7.66,
-      "discount_pct": 53,
-      "valid_from": "2026-06-01",
-      "valid_until": "2026-06-07",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 6.98,
-          "price_eur": 3.57,
-          "old_price": 14.98,
-          "old_price_eur": 7.66,
-          "discount_pct": 53,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 6.98,
-      "comparison_count": 1,
-      "product_id": "kaufland-gloria-възглавница-капитонирана"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 6.98,
-      "new_price_eur": 3.57,
       "old_price": 9.99,
       "old_price_eur": 5.11,
       "discount_pct": 30,
@@ -110242,6 +110716,40 @@ const OFFERS_DATA = {
       "best_price": 6.98,
       "comparison_count": 1,
       "product_id": "kaufland-fozzis-пяна-за-игра-различни-видове"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 6.98,
+      "new_price_eur": 3.57,
+      "old_price": 9.99,
+      "old_price_eur": 5.11,
+      "discount_pct": 30,
+      "valid_from": "2026-06-01",
+      "valid_until": "2026-06-07",
+      "price_per_kg": 8.72,
+      "price_per_kg_eur": 4.46,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 6.98,
+          "price_eur": 3.57,
+          "old_price": 9.99,
+          "old_price_eur": 5.11,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 6.98,
+      "comparison_count": 1,
+      "product_id": "kaufland-белла-вита-баница-различни-видове-800g",
+      "weight_grams": 800,
+      "weight_raw": "800 г"
     },
     {
       "store": "Kaufland",
@@ -110376,6 +110884,38 @@ const OFFERS_DATA = {
       "best_price": 6.98,
       "comparison_count": 1,
       "product_id": "kaufland-оливерник"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 6.98,
+      "new_price_eur": 3.57,
+      "old_price": 14.98,
+      "old_price_eur": 7.66,
+      "discount_pct": 53,
+      "valid_from": "2026-06-01",
+      "valid_until": "2026-06-07",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 6.98,
+          "price_eur": 3.57,
+          "old_price": 14.98,
+          "old_price_eur": 7.66,
+          "discount_pct": 53,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 6.98,
+      "comparison_count": 1,
+      "product_id": "kaufland-gloria-възглавница-капитонирана"
     },
     {
       "store": "Kaufland",
@@ -112622,6 +113162,72 @@ const OFFERS_DATA = {
       "best_price": 7.66,
       "comparison_count": 1,
       "product_id": "fantastico-четка-за-зъби-biomed-black-2-1-бр-medium"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 7.69,
+      "new_price_eur": 3.93,
+      "old_price": 10.99,
+      "old_price_eur": 5.62,
+      "discount_pct": 30,
+      "valid_from": "2026-06-01",
+      "valid_until": "2026-06-07",
+      "price_per_kg": 8.54,
+      "price_per_kg_eur": 4.37,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 7.69,
+          "price_eur": 3.93,
+          "old_price": 10.99,
+          "old_price_eur": 5.62,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 7.69,
+      "comparison_count": 1,
+      "product_id": "kaufland-фамилия-селска-вита-баница-замразена-900g",
+      "weight_grams": 900,
+      "weight_raw": "900 г"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 7.73,
+      "new_price_eur": 3.95,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-06-01",
+      "valid_until": "2026-06-07",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 7.73,
+          "price_eur": 3.95,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 7.73,
+      "comparison_count": 1,
+      "product_id": "kaufland-деликатес-житница-хамбургски-колбас"
     },
     {
       "store": "Kaufland",
@@ -114930,6 +115536,40 @@ const OFFERS_DATA = {
       "weight_raw": "250 мл"
     },
     {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 8.74,
+      "new_price_eur": 4.47,
+      "old_price": 12.5,
+      "old_price_eur": 6.39,
+      "discount_pct": 30,
+      "valid_from": "2026-06-01",
+      "valid_until": "2026-06-07",
+      "price_per_kg": 8.74,
+      "price_per_kg_eur": 4.47,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 8.74,
+          "price_eur": 4.47,
+          "old_price": 12.5,
+          "old_price_eur": 6.39,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 8.74,
+      "comparison_count": 1,
+      "product_id": "kaufland-фамилия-минибанички-замразени-различни-видове-1000g",
+      "weight_grams": 1000,
+      "weight_raw": "1 кг"
+    },
+    {
       "store": "Billa",
       "address": null,
       "new_price": 8.78,
@@ -116590,6 +117230,40 @@ const OFFERS_DATA = {
       "product_id": "billa-barattolino-джелато-800-мл-800g",
       "weight_grams": 800,
       "weight_raw": "800 мл"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 9.78,
+      "new_price_eur": 5.0,
+      "old_price": 13.98,
+      "old_price_eur": 7.15,
+      "discount_pct": 30,
+      "valid_from": "2026-06-01",
+      "valid_until": "2026-06-07",
+      "price_per_kg": 8.15,
+      "price_per_kg_eur": 4.17,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 9.78,
+          "price_eur": 5.0,
+          "old_price": 13.98,
+          "old_price_eur": 7.15,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 9.78,
+      "comparison_count": 1,
+      "product_id": "kaufland-фамилия-минибанички-замразени-1200g",
+      "weight_grams": 1200,
+      "weight_raw": "1,2 кг"
     },
     {
       "store": "Billa",
@@ -120208,6 +120882,40 @@ const OFFERS_DATA = {
       "best_price": 12.69,
       "comparison_count": 1,
       "product_id": "kaufland-кралски-котлет-от-свежата-витрина"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 12.71,
+      "new_price_eur": 6.5,
+      "old_price": 25.82,
+      "old_price_eur": 13.2,
+      "discount_pct": 51,
+      "valid_from": "2026-06-01",
+      "valid_until": "2026-06-07",
+      "price_per_kg": 12.71,
+      "price_per_kg_eur": 6.5,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 12.71,
+          "price_eur": 6.5,
+          "old_price": 25.82,
+          "old_price_eur": 13.2,
+          "discount_pct": 51,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 12.71,
+      "comparison_count": 1,
+      "product_id": "kaufland-сладея-захар-1000g",
+      "weight_grams": 1000,
+      "weight_raw": "1 кг"
     },
     {
       "store": "Kaufland",
@@ -124586,6 +125294,38 @@ const OFFERS_DATA = {
       "address": null,
       "new_price": 21.98,
       "new_price_eur": 11.24,
+      "old_price": 35.99,
+      "old_price_eur": 18.4,
+      "discount_pct": 39,
+      "valid_from": "2026-06-01",
+      "valid_until": "2026-06-07",
+      "price_per_kg": 21.98,
+      "price_per_kg_eur": 11.24,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 21.98,
+          "price_eur": 11.24,
+          "old_price": 35.99,
+          "old_price_eur": 18.4,
+          "discount_pct": 39,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 21.98,
+      "comparison_count": 1,
+      "product_id": "kaufland-стефанов-домашен-мезелък-от-свежата-витрина"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 21.98,
+      "new_price_eur": 11.24,
       "old_price": 46.92,
       "old_price_eur": 23.99,
       "discount_pct": 53,
@@ -124614,38 +125354,6 @@ const OFFERS_DATA = {
       "product_id": "kaufland-brio-тенджера-emalika-romance-5-7-л-5700g",
       "weight_grams": 5700,
       "weight_raw": "5,7 л"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 21.98,
-      "new_price_eur": 11.24,
-      "old_price": 35.99,
-      "old_price_eur": 18.4,
-      "discount_pct": 39,
-      "valid_from": "2026-06-01",
-      "valid_until": "2026-06-07",
-      "price_per_kg": 21.98,
-      "price_per_kg_eur": 11.24,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 21.98,
-          "price_eur": 11.24,
-          "old_price": 35.99,
-          "old_price_eur": 18.4,
-          "discount_pct": 39,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 21.98,
-      "comparison_count": 1,
-      "product_id": "kaufland-стефанов-домашен-мезелък-от-свежата-витрина"
     },
     {
       "store": "Billa",
@@ -125198,6 +125906,40 @@ const OFFERS_DATA = {
       "best_price": 24.98,
       "comparison_count": 1,
       "product_id": "kaufland-brio-дъска-за-гладене-eco-line-105-х-35-см"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 25.0,
+      "new_price_eur": 12.78,
+      "old_price": 37.49,
+      "old_price_eur": 19.17,
+      "discount_pct": 33,
+      "valid_from": "2026-06-01",
+      "valid_until": "2026-06-07",
+      "price_per_kg": 24.51,
+      "price_per_kg_eur": 12.53,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 25.0,
+          "price_eur": 12.78,
+          "old_price": 37.49,
+          "old_price_eur": 19.17,
+          "discount_pct": 33,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 25.0,
+      "comparison_count": 1,
+      "product_id": "kaufland-whiskas-храна-за-котки-пауч-1020g",
+      "weight_grams": 1020,
+      "weight_raw": "12 x 85 г"
     },
     {
       "store": "Billa",
