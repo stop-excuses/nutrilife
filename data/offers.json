@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-04T11:16:05.358622Z",
-  "content_hash": "8f08a4ae9ece581613fe15be17875a76",
-  "total_offers": 4379,
-  "promo_offers": 1789,
-  "assortment_offers": 2590,
+  "generated_at": "2026-06-05T08:12:59.927971Z",
+  "content_hash": "b5a75e84c241418286c3fd19fa12d3c4",
+  "total_offers": 4380,
+  "promo_offers": 1793,
+  "assortment_offers": 2587,
   "stores": [
     "Billa",
     "Dar",
@@ -8475,9 +8475,19 @@
       "price_per_kg_eur": 3.82,
       "source_type": "assortment",
       "available_stores": [
+        "Dar",
         "Fantastico"
       ],
       "store_prices": [
+        {
+          "store": "Dar",
+          "price": 1.27,
+          "price_eur": 0.65,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        },
         {
           "store": "Fantastico",
           "price": 1.27,
@@ -8488,9 +8498,9 @@
           "source_type": "assortment"
         }
       ],
-      "best_price_store": "Fantastico",
+      "best_price_store": "Dar",
       "best_price": 1.27,
-      "comparison_count": 1,
+      "comparison_count": 2,
       "product_id": "fantastico-баница-права-със-сирене-и-извара-170-гр-софииска-баница-170g",
       "weight_grams": 170,
       "weight_raw": "170 гр"
@@ -10977,6 +10987,48 @@
       "best_price_store": "Dar",
       "best_price": 0.66,
       "comparison_count": 2,
+      "product_id": "fantastico-зеле-произход-българия-опс"
+    },
+    {
+      "store": "Fantastico",
+      "address": null,
+      "new_price": 0.66,
+      "new_price_eur": 0.34,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Dar",
+        "Fantastico"
+      ],
+      "store_prices": [
+        {
+          "store": "Dar",
+          "price": 0.66,
+          "price_eur": 0.34,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        },
+        {
+          "store": "Fantastico",
+          "price": 0.66,
+          "price_eur": 0.34,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Dar",
+      "best_price": 0.66,
+      "comparison_count": 2,
       "product_id": "fantastico-лук-жълт-произход-нидерландия-опс"
     },
     {
@@ -11054,6 +11106,50 @@
       "best_price": 0.69,
       "comparison_count": 1,
       "product_id": "fantastico-кърпи-влажни-antibacterial-зелени-сини-15-бр-пакет"
+    },
+    {
+      "store": "Fantastico",
+      "address": null,
+      "new_price": 0.69,
+      "new_price_eur": 0.35,
+      "old_price": 1.52,
+      "old_price_eur": 0.78,
+      "discount_pct": 55,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 1.72,
+      "price_per_kg_eur": 0.88,
+      "source_type": "promo",
+      "available_stores": [
+        "Dar",
+        "Fantastico"
+      ],
+      "store_prices": [
+        {
+          "store": "Dar",
+          "price": 0.69,
+          "price_eur": 0.35,
+          "old_price": 1.52,
+          "old_price_eur": 0.78,
+          "discount_pct": 55,
+          "source_type": "promo"
+        },
+        {
+          "store": "Fantastico",
+          "price": 0.69,
+          "price_eur": 0.35,
+          "old_price": 1.52,
+          "old_price_eur": 0.78,
+          "discount_pct": 55,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Dar",
+      "best_price": 0.69,
+      "comparison_count": 2,
+      "product_id": "fantastico-домати-rosso-цели-белени-400-гр-консерва-import-400g",
+      "weight_grams": 400,
+      "weight_raw": "400 гр"
     },
     {
       "store": "Kaufland",
@@ -11812,48 +11908,6 @@
     {
       "store": "Fantastico",
       "address": null,
-      "new_price": 1.05,
-      "new_price_eur": 0.54,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Dar",
-        "Fantastico"
-      ],
-      "store_prices": [
-        {
-          "store": "Dar",
-          "price": 1.05,
-          "price_eur": 0.54,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        },
-        {
-          "store": "Fantastico",
-          "price": 1.05,
-          "price_eur": 0.54,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Dar",
-      "best_price": 1.05,
-      "comparison_count": 2,
-      "product_id": "fantastico-моркови-произход-турция-опс"
-    },
-    {
-      "store": "Fantastico",
-      "address": null,
       "new_price": 1.09,
       "new_price_eur": 0.56,
       "old_price": 1.27,
@@ -12370,6 +12424,48 @@
       "product_id": "fantastico-домати-био-manfuso-белени-пюре-400-гр-консерва-400g",
       "weight_grams": 400,
       "weight_raw": "400 гр"
+    },
+    {
+      "store": "Fantastico",
+      "address": null,
+      "new_price": 1.2,
+      "new_price_eur": 0.61,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Dar",
+        "Fantastico"
+      ],
+      "store_prices": [
+        {
+          "store": "Dar",
+          "price": 1.2,
+          "price_eur": 0.61,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        },
+        {
+          "store": "Fantastico",
+          "price": 1.2,
+          "price_eur": 0.61,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Dar",
+      "best_price": 1.2,
+      "comparison_count": 2,
+      "product_id": "fantastico-моркови-произход-турция-опс"
     },
     {
       "store": "Fantastico",
@@ -14164,50 +14260,6 @@
       "best_price": 1.52,
       "comparison_count": 2,
       "product_id": "fantastico-домати-rosso-смлени-400-гр-консерва-import-400g",
-      "weight_grams": 400,
-      "weight_raw": "400 гр"
-    },
-    {
-      "store": "Fantastico",
-      "address": null,
-      "new_price": 1.52,
-      "new_price_eur": 0.78,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 3.8,
-      "price_per_kg_eur": 1.94,
-      "source_type": "assortment",
-      "available_stores": [
-        "Dar",
-        "Fantastico"
-      ],
-      "store_prices": [
-        {
-          "store": "Dar",
-          "price": 1.52,
-          "price_eur": 0.78,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        },
-        {
-          "store": "Fantastico",
-          "price": 1.52,
-          "price_eur": 0.78,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Dar",
-      "best_price": 1.52,
-      "comparison_count": 2,
-      "product_id": "fantastico-домати-rosso-цели-белени-400-гр-консерва-import-400g",
       "weight_grams": 400,
       "weight_raw": "400 гр"
     },
@@ -17568,6 +17620,50 @@
       "weight_raw": "200 гр"
     },
     {
+      "store": "Fantastico",
+      "address": null,
+      "new_price": 3.49,
+      "new_price_eur": 1.78,
+      "old_price": 4.69,
+      "old_price_eur": 2.4,
+      "discount_pct": 26,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 5.82,
+      "price_per_kg_eur": 2.98,
+      "source_type": "promo",
+      "available_stores": [
+        "Dar",
+        "Fantastico"
+      ],
+      "store_prices": [
+        {
+          "store": "Dar",
+          "price": 3.49,
+          "price_eur": 1.78,
+          "old_price": 4.69,
+          "old_price_eur": 2.4,
+          "discount_pct": 26,
+          "source_type": "promo"
+        },
+        {
+          "store": "Fantastico",
+          "price": 3.49,
+          "price_eur": 1.78,
+          "old_price": 4.69,
+          "old_price_eur": 2.4,
+          "discount_pct": 26,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Dar",
+      "best_price": 3.49,
+      "comparison_count": 2,
+      "product_id": "fantastico-сирене-от-краве-мляко-каракачанка-600-г-вакуум-600g",
+      "weight_grams": 600,
+      "weight_raw": "600 г"
+    },
+    {
       "store": "Billa",
       "address": null,
       "new_price": 3.5,
@@ -18252,50 +18348,6 @@
       "product_id": "fantastico-сирене-краве-мляко-mandra-400-гр-вакуум-400g",
       "weight_grams": 400,
       "weight_raw": "400 гр"
-    },
-    {
-      "store": "Fantastico",
-      "address": null,
-      "new_price": 4.69,
-      "new_price_eur": 2.4,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 7.82,
-      "price_per_kg_eur": 4.0,
-      "source_type": "assortment",
-      "available_stores": [
-        "Dar",
-        "Fantastico"
-      ],
-      "store_prices": [
-        {
-          "store": "Dar",
-          "price": 4.69,
-          "price_eur": 2.4,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        },
-        {
-          "store": "Fantastico",
-          "price": 4.69,
-          "price_eur": 2.4,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Dar",
-      "best_price": 4.69,
-      "comparison_count": 2,
-      "product_id": "fantastico-сирене-от-краве-мляко-каракачанка-600-г-вакуум-600g",
-      "weight_grams": 600,
-      "weight_raw": "600 г"
     },
     {
       "store": "Fantastico",
@@ -46361,9 +46413,19 @@
       "price_per_kg_eur": 3.74,
       "source_type": "promo",
       "available_stores": [
+        "Dar",
         "Fantastico"
       ],
       "store_prices": [
+        {
+          "store": "Dar",
+          "price": 5.49,
+          "price_eur": 2.81,
+          "old_price": 6.13,
+          "old_price_eur": 3.13,
+          "discount_pct": 10,
+          "source_type": "promo"
+        },
         {
           "store": "Fantastico",
           "price": 5.49,
@@ -46374,9 +46436,9 @@
           "source_type": "promo"
         }
       ],
-      "best_price_store": "Fantastico",
+      "best_price_store": "Dar",
       "best_price": 5.49,
-      "comparison_count": 1,
+      "comparison_count": 2,
       "product_id": "fantastico-вино-добра-година-совиньон-блан-750-мл-меди-валеи-750g",
       "weight_grams": 750,
       "weight_raw": "750 мл"
@@ -48010,6 +48072,40 @@
       "product_id": "fantastico-кафе-bialetti-perfetto-moka-vaniglia-250-г-мляно-250g",
       "weight_grams": 250,
       "weight_raw": "250 г"
+    },
+    {
+      "store": "Fantastico",
+      "address": null,
+      "new_price": 6.69,
+      "new_price_eur": 3.42,
+      "old_price": 8.39,
+      "old_price_eur": 4.29,
+      "discount_pct": 20,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 8.36,
+      "price_per_kg_eur": 4.27,
+      "source_type": "promo",
+      "available_stores": [
+        "Fantastico"
+      ],
+      "store_prices": [
+        {
+          "store": "Fantastico",
+          "price": 6.69,
+          "price_eur": 3.42,
+          "old_price": 8.39,
+          "old_price_eur": 4.29,
+          "discount_pct": 20,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Fantastico",
+      "best_price": 6.69,
+      "comparison_count": 1,
+      "product_id": "fantastico-кашкавал-от-краве-мляко-горица-800-гр-рп-800g",
+      "weight_grams": 800,
+      "weight_raw": "800 гр"
     },
     {
       "store": "Fantastico",
@@ -50636,40 +50732,6 @@
       "product_id": "kaufland-monarch-френско-масло-82-масленост-250g",
       "weight_grams": 250,
       "weight_raw": "250 г"
-    },
-    {
-      "store": "Fantastico",
-      "address": null,
-      "new_price": 8.39,
-      "new_price_eur": 4.29,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 10.49,
-      "price_per_kg_eur": 5.36,
-      "source_type": "assortment",
-      "available_stores": [
-        "Fantastico"
-      ],
-      "store_prices": [
-        {
-          "store": "Fantastico",
-          "price": 8.39,
-          "price_eur": 4.29,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Fantastico",
-      "best_price": 8.39,
-      "comparison_count": 1,
-      "product_id": "fantastico-кашкавал-от-краве-мляко-горица-800-гр-рп-800g",
-      "weight_grams": 800,
-      "weight_raw": "800 гр"
     },
     {
       "store": "Kaufland",
@@ -66098,6 +66160,50 @@
       "address": null,
       "new_price": 0.65,
       "new_price_eur": 0.33,
+      "old_price": 0.99,
+      "old_price_eur": 0.51,
+      "discount_pct": 34,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 0.65,
+      "price_per_kg_eur": 0.33,
+      "source_type": "promo",
+      "available_stores": [
+        "Dar",
+        "Fantastico"
+      ],
+      "store_prices": [
+        {
+          "store": "Dar",
+          "price": 0.65,
+          "price_eur": 0.33,
+          "old_price": 0.99,
+          "old_price_eur": 0.51,
+          "discount_pct": 34,
+          "source_type": "promo"
+        },
+        {
+          "store": "Fantastico",
+          "price": 0.65,
+          "price_eur": 0.33,
+          "old_price": 0.99,
+          "old_price_eur": 0.51,
+          "discount_pct": 34,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Dar",
+      "best_price": 0.65,
+      "comparison_count": 2,
+      "product_id": "fantastico-захар-1-кг-захира-кристал-пакет-1000g",
+      "weight_grams": 1000,
+      "weight_raw": "1 кг"
+    },
+    {
+      "store": "Fantastico",
+      "address": null,
+      "new_price": 0.65,
+      "new_price_eur": 0.33,
       "old_price": null,
       "old_price_eur": null,
       "discount_pct": null,
@@ -68722,50 +68828,6 @@
       "best_price": 0.99,
       "comparison_count": 2,
       "product_id": "fantastico-захар-1-кг-сладея-1000g",
-      "weight_grams": 1000,
-      "weight_raw": "1 кг"
-    },
-    {
-      "store": "Fantastico",
-      "address": null,
-      "new_price": 0.99,
-      "new_price_eur": 0.51,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 0.99,
-      "price_per_kg_eur": 0.51,
-      "source_type": "assortment",
-      "available_stores": [
-        "Dar",
-        "Fantastico"
-      ],
-      "store_prices": [
-        {
-          "store": "Dar",
-          "price": 0.99,
-          "price_eur": 0.51,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        },
-        {
-          "store": "Fantastico",
-          "price": 0.99,
-          "price_eur": 0.51,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Dar",
-      "best_price": 0.99,
-      "comparison_count": 2,
-      "product_id": "fantastico-захар-1-кг-захира-кристал-пакет-1000g",
       "weight_grams": 1000,
       "weight_raw": "1 кг"
     },
@@ -107367,9 +107429,19 @@
       "price_per_kg_eur": 4.18,
       "source_type": "assortment",
       "available_stores": [
+        "Dar",
         "Fantastico"
       ],
       "store_prices": [
+        {
+          "store": "Dar",
+          "price": 6.13,
+          "price_eur": 3.13,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        },
         {
           "store": "Fantastico",
           "price": 6.13,
@@ -107380,9 +107452,9 @@
           "source_type": "assortment"
         }
       ],
-      "best_price_store": "Fantastico",
+      "best_price_store": "Dar",
       "best_price": 6.13,
-      "comparison_count": 1,
+      "comparison_count": 2,
       "product_id": "fantastico-вино-шардоне-захир-750-мл-750g",
       "weight_grams": 750,
       "weight_raw": "750 мл"
@@ -111221,9 +111293,19 @@
       "price_per_kg_eur": 4.9,
       "source_type": "promo",
       "available_stores": [
+        "Dar",
         "Fantastico"
       ],
       "store_prices": [
+        {
+          "store": "Dar",
+          "price": 7.19,
+          "price_eur": 3.68,
+          "old_price": 9.2,
+          "old_price_eur": 4.7,
+          "discount_pct": 22,
+          "source_type": "promo"
+        },
         {
           "store": "Fantastico",
           "price": 7.19,
@@ -111234,9 +111316,9 @@
           "source_type": "promo"
         }
       ],
-      "best_price_store": "Fantastico",
+      "best_price_store": "Dar",
       "best_price": 7.19,
-      "comparison_count": 1,
+      "comparison_count": 2,
       "product_id": "fantastico-вино-виа-винера-шардоне-и-совиньон-блан-750-мл-750g",
       "weight_grams": 750,
       "weight_raw": "750 мл"
@@ -118675,9 +118757,19 @@
       "price_per_kg_eur": 7.83,
       "source_type": "promo",
       "available_stores": [
+        "Dar",
         "Fantastico"
       ],
       "store_prices": [
+        {
+          "store": "Dar",
+          "price": 11.49,
+          "price_eur": 5.87,
+          "old_price": 13.29,
+          "old_price_eur": 6.8,
+          "discount_pct": 14,
+          "source_type": "promo"
+        },
         {
           "store": "Fantastico",
           "price": 11.49,
@@ -118688,9 +118780,9 @@
           "source_type": "promo"
         }
       ],
-      "best_price_store": "Fantastico",
+      "best_price_store": "Dar",
       "best_price": 11.49,
-      "comparison_count": 1,
+      "comparison_count": 2,
       "product_id": "fantastico-вино-ле-блан-750-мл-катаржина-750g",
       "weight_grams": 750,
       "weight_raw": "750 мл"
