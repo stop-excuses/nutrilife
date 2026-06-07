@@ -1,9 +1,9 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-06-07T11:09:36.923605Z",
-  "content_hash": "ed46413bc7636b2283cf2506c8299679",
-  "total_offers": 4298,
-  "promo_offers": 1744,
-  "assortment_offers": 2554,
+  "generated_at": "2026-06-07T20:17:07.215841Z",
+  "content_hash": "c08bec8fb38528eeb0e8222bc127b218",
+  "total_offers": 4192,
+  "promo_offers": 1707,
+  "assortment_offers": 2485,
   "stores": [
     "Billa",
     "Dar",
@@ -82,40 +82,6 @@ const OFFERS_DATA = {
       "weight_raw": "3 x 80 г"
     },
     {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 7.49,
-      "new_price_eur": 3.83,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 37.45,
-      "price_per_kg_eur": 19.15,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 7.49,
-          "price_eur": 3.83,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 7.49,
-      "comparison_count": 1,
-      "product_id": "lidl-филе-от-ципура-200g",
-      "weight_grams": 200,
-      "weight_raw": "200 g"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 7.98,
@@ -182,40 +148,6 @@ const OFFERS_DATA = {
       "product_id": "kaufland-rio-mare-риба-тон-240g",
       "weight_grams": 240,
       "weight_raw": "3 х 80 г"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 11.68,
-      "new_price_eur": 5.97,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 19.47,
-      "price_per_kg_eur": 9.95,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 11.68,
-          "price_eur": 5.97,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 11.68,
-      "comparison_count": 1,
-      "product_id": "lidl-риба-тон-600g",
-      "weight_grams": 600,
-      "weight_raw": "4 х 150 g"
     },
     {
       "store": "Kaufland",
@@ -395,8 +327,7 @@ const OFFERS_DATA = {
       "price_per_kg_eur": null,
       "source_type": "promo",
       "available_stores": [
-        "Kaufland",
-        "Lidl"
+        "Kaufland"
       ],
       "store_prices": [
         {
@@ -407,20 +338,11 @@ const OFFERS_DATA = {
           "old_price_eur": 0.86,
           "discount_pct": 43,
           "source_type": "promo"
-        },
-        {
-          "store": "Lidl",
-          "price": 0.96,
-          "price_eur": 0.49,
-          "old_price": 2.99,
-          "old_price_eur": 1.53,
-          "discount_pct": 68,
-          "source_type": "promo"
         }
       ],
       "best_price_store": "Kaufland",
       "best_price": 0.96,
-      "comparison_count": 2,
+      "comparison_count": 1,
       "product_id": "kaufland-авокадо"
     },
     {
@@ -626,74 +548,6 @@ const OFFERS_DATA = {
       "weight_raw": "540 г"
     },
     {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 2.52,
-      "new_price_eur": 1.29,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 6.3,
-      "price_per_kg_eur": 3.22,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 2.52,
-          "price_eur": 1.29,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 2.52,
-      "comparison_count": 1,
-      "product_id": "lidl-бял-боб-400g",
-      "weight_grams": 400,
-      "weight_raw": "400 g"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 2.7,
-      "new_price_eur": 1.38,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 6.75,
-      "price_per_kg_eur": 3.45,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 2.7,
-          "price_eur": 1.38,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 2.7,
-      "comparison_count": 1,
-      "product_id": "lidl-бял-боб-със-зеленчуци-400g",
-      "weight_grams": 400,
-      "weight_raw": "400 g"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 2.89,
@@ -830,74 +684,6 @@ const OFFERS_DATA = {
       "weight_raw": "200 г"
     },
     {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 3.6,
-      "new_price_eur": 1.84,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 25.71,
-      "price_per_kg_eur": 13.15,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 3.6,
-          "price_eur": 1.84,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 3.6,
-      "comparison_count": 1,
-      "product_id": "lidl-веган-крем-с-леща-140g",
-      "weight_grams": 140,
-      "weight_raw": "140 g"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 3.79,
-      "new_price_eur": 1.94,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 13.54,
-      "price_per_kg_eur": 6.92,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 3.79,
-          "price_eur": 1.94,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 3.79,
-      "comparison_count": 1,
-      "product_id": "lidl-едър-бял-боб-280g",
-      "weight_grams": 280,
-      "weight_raw": "280 g"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 3.89,
@@ -930,40 +716,6 @@ const OFFERS_DATA = {
       "product_id": "kaufland-krina-леща-1000g",
       "weight_grams": 1000,
       "weight_raw": "1 кг"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 3.99,
-      "new_price_eur": 2.04,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 7.98,
-      "price_per_kg_eur": 4.08,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 3.99,
-          "price_eur": 2.04,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 3.99,
-      "comparison_count": 1,
-      "product_id": "lidl-пилешко-мляно-месо-500g",
-      "weight_grams": 500,
-      "weight_raw": "500 g"
     },
     {
       "store": "Kaufland",
@@ -1000,38 +752,6 @@ const OFFERS_DATA = {
       "weight_raw": "200 г"
     },
     {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 4.6,
-      "new_price_eur": 2.35,
-      "old_price": 4.89,
-      "old_price_eur": 2.5,
-      "discount_pct": 6,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 4.6,
-          "price_eur": 2.35,
-          "old_price": 4.89,
-          "old_price_eur": 2.5,
-          "discount_pct": 6,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 4.6,
-      "comparison_count": 1,
-      "product_id": "lidl-пресни-яица"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 4.99,
@@ -1062,40 +782,6 @@ const OFFERS_DATA = {
       "best_price": 4.99,
       "comparison_count": 1,
       "product_id": "kaufland-primofish-скумрия-замразена-2"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 4.99,
-      "new_price_eur": 2.55,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 14.26,
-      "price_per_kg_eur": 7.29,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 4.99,
-          "price_eur": 2.55,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 4.99,
-      "comparison_count": 1,
-      "product_id": "lidl-сусамов-тахан-350g",
-      "weight_grams": 350,
-      "weight_raw": "350 g"
     },
     {
       "store": "Kaufland",
@@ -1298,40 +984,6 @@ const OFFERS_DATA = {
       "weight_raw": "900 g"
     },
     {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 5.98,
-      "new_price_eur": 3.06,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 19.93,
-      "price_per_kg_eur": 10.19,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 5.98,
-          "price_eur": 3.06,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 5.98,
-      "comparison_count": 1,
-      "product_id": "lidl-пилешки-хапки-300g",
-      "weight_grams": 300,
-      "weight_raw": "300 g"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 6.06,
@@ -1402,15 +1054,15 @@ const OFFERS_DATA = {
     {
       "store": "Lidl",
       "address": null,
-      "new_price": 7.41,
-      "new_price_eur": 3.79,
+      "new_price": 9.99,
+      "new_price_eur": 5.11,
       "old_price": null,
       "old_price_eur": null,
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": 21.17,
-      "price_per_kg_eur": 10.82,
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
       "source_type": "assortment",
       "available_stores": [
         "Lidl"
@@ -1418,8 +1070,8 @@ const OFFERS_DATA = {
       "store_prices": [
         {
           "store": "Lidl",
-          "price": 7.41,
-          "price_eur": 3.79,
+          "price": 9.99,
+          "price_eur": 5.11,
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
@@ -1427,79 +1079,9 @@ const OFFERS_DATA = {
         }
       ],
       "best_price_store": "Lidl",
-      "best_price": 7.41,
+      "best_price": 9.99,
       "comparison_count": 1,
-      "product_id": "lidl-пилешки-гирос-350g",
-      "weight_grams": 350,
-      "weight_raw": "350 g"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 7.61,
-      "new_price_eur": 3.89,
-      "old_price": 9.58,
-      "old_price_eur": 4.9,
-      "discount_pct": 21,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 15.22,
-      "price_per_kg_eur": 7.78,
-      "source_type": "promo",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 7.61,
-          "price_eur": 3.89,
-          "old_price": 9.58,
-          "old_price_eur": 4.9,
-          "discount_pct": 21,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 7.61,
-      "comparison_count": 1,
-      "product_id": "lidl-пресни-пилешки-крила-500g",
-      "weight_grams": 500,
-      "weight_raw": "500 g"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 9.17,
-      "new_price_eur": 4.69,
-      "old_price": 11.58,
-      "old_price_eur": 5.92,
-      "discount_pct": 21,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 14.11,
-      "price_per_kg_eur": 7.21,
-      "source_type": "promo",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 9.17,
-          "price_eur": 4.69,
-          "old_price": 11.58,
-          "old_price_eur": 5.92,
-          "discount_pct": 21,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 9.17,
-      "comparison_count": 1,
-      "product_id": "lidl-прясно-пилешко-бутче-650g",
-      "weight_grams": 650,
-      "weight_raw": "650 g"
+      "product_id": "lidl-прясно-цяло-пиле"
     },
     {
       "store": "Kaufland",
@@ -1534,40 +1116,6 @@ const OFFERS_DATA = {
       "product_id": "kaufland-пилешко-филе-от-гърди-от-свежата-витрина"
     },
     {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 11.52,
-      "new_price_eur": 5.89,
-      "old_price": 14.57,
-      "old_price_eur": 7.45,
-      "discount_pct": 21,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 7.68,
-      "price_per_kg_eur": 3.93,
-      "source_type": "promo",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 11.52,
-          "price_eur": 5.89,
-          "old_price": 14.57,
-          "old_price_eur": 7.45,
-          "discount_pct": 21,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 11.52,
-      "comparison_count": 1,
-      "product_id": "lidl-прясно-цяло-пиле-1500g",
-      "weight_grams": 1500,
-      "weight_raw": "1.5 kg"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 14.06,
@@ -1598,74 +1146,6 @@ const OFFERS_DATA = {
       "best_price": 14.06,
       "comparison_count": 1,
       "product_id": "kaufland-салата-херинга-с-пресен-копър"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 14.84,
-      "new_price_eur": 7.59,
-      "old_price": 18.76,
-      "old_price_eur": 9.59,
-      "discount_pct": 21,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 29.68,
-      "price_per_kg_eur": 15.18,
-      "source_type": "promo",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 14.84,
-          "price_eur": 7.59,
-          "old_price": 18.76,
-          "old_price_eur": 9.59,
-          "discount_pct": 21,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 14.84,
-      "comparison_count": 1,
-      "product_id": "lidl-прeсен-пилешки-обезкостен-бут-500g",
-      "weight_grams": 500,
-      "weight_raw": "500 g"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 17.97,
-      "new_price_eur": 9.19,
-      "old_price": 22.63,
-      "old_price_eur": 11.57,
-      "discount_pct": 21,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 30.98,
-      "price_per_kg_eur": 15.84,
-      "source_type": "promo",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 17.97,
-          "price_eur": 9.19,
-          "old_price": 22.63,
-          "old_price_eur": 11.57,
-          "discount_pct": 21,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 17.97,
-      "comparison_count": 1,
-      "product_id": "lidl-прясно-пилешко-филе-580g",
-      "weight_grams": 580,
-      "weight_raw": "580 g"
     },
     {
       "store": "Lidl",
@@ -1734,38 +1214,6 @@ const OFFERS_DATA = {
       "product_id": "kaufland-микс-печени-ядки-premium-1000g",
       "weight_grams": 1000,
       "weight_raw": "1 кг"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 1.55,
-      "new_price_eur": 0.79,
-      "old_price": 3.89,
-      "old_price_eur": 1.99,
-      "discount_pct": 60,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 1.55,
-          "price_eur": 0.79,
-          "old_price": 3.89,
-          "old_price_eur": 1.99,
-          "discount_pct": 60,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 1.55,
-      "comparison_count": 1,
-      "product_id": "lidl-български-тиквички"
     },
     {
       "store": "Kaufland",
@@ -1870,40 +1318,6 @@ const OFFERS_DATA = {
       "weight_raw": "400 г"
     },
     {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 3.89,
-      "new_price_eur": 1.99,
-      "old_price": 9.76,
-      "old_price_eur": 4.99,
-      "discount_pct": 60,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 7.78,
-      "price_per_kg_eur": 3.98,
-      "source_type": "promo",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 3.89,
-          "price_eur": 1.99,
-          "old_price": 9.76,
-          "old_price_eur": 4.99,
-          "discount_pct": 60,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 3.89,
-      "comparison_count": 1,
-      "product_id": "lidl-български-череши-500g",
-      "weight_grams": 500,
-      "weight_raw": "500 g"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 4.87,
@@ -1934,40 +1348,6 @@ const OFFERS_DATA = {
       "best_price": 4.87,
       "comparison_count": 1,
       "product_id": "kaufland-зелени-чушки"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 5.85,
-      "new_price_eur": 2.99,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 14.62,
-      "price_per_kg_eur": 7.48,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 5.85,
-          "price_eur": 2.99,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 5.85,
-      "comparison_count": 1,
-      "product_id": "lidl-наденички-от-пуешко-месо-400g",
-      "weight_grams": 400,
-      "weight_raw": "400 g"
     },
     {
       "store": "Kaufland",
@@ -2138,40 +1518,6 @@ const OFFERS_DATA = {
       "weight_raw": "300 г"
     },
     {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 13.98,
-      "new_price_eur": 7.15,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 22.19,
-      "price_per_kg_eur": 11.35,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 13.98,
-          "price_eur": 7.15,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 13.98,
-      "comparison_count": 1,
-      "product_id": "lidl-калмари-630g",
-      "weight_grams": 630,
-      "weight_raw": "630 g"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 14.98,
@@ -2334,72 +1680,6 @@ const OFFERS_DATA = {
       "weight_raw": "500 г"
     },
     {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 1.15,
-      "new_price_eur": 0.59,
-      "old_price": 3.11,
-      "old_price_eur": 1.59,
-      "discount_pct": 63,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 1.15,
-          "price_eur": 0.59,
-          "old_price": 3.11,
-          "old_price_eur": 1.59,
-          "discount_pct": 63,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 1.15,
-      "comparison_count": 1,
-      "product_id": "lidl-българско-ранно-зеле"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 1.15,
-      "new_price_eur": 0.59,
-      "old_price": 1.49,
-      "old_price_eur": 0.76,
-      "discount_pct": 23,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 2.88,
-      "price_per_kg_eur": 1.47,
-      "source_type": "promo",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 1.15,
-          "price_eur": 0.59,
-          "old_price": 1.49,
-          "old_price_eur": 0.76,
-          "discount_pct": 23,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 1.15,
-      "comparison_count": 1,
-      "product_id": "lidl-кисело-мляко-400g",
-      "weight_grams": 400,
-      "weight_raw": "400 g"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 1.29,
@@ -2432,38 +1712,6 @@ const OFFERS_DATA = {
       "product_id": "kaufland-зеленчуков-хляб-от-нашата-пекарна-300g",
       "weight_grams": 300,
       "weight_raw": "300 г"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 1.35,
-      "new_price_eur": 0.69,
-      "old_price": 3.23,
-      "old_price_eur": 1.65,
-      "discount_pct": 58,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 1.35,
-          "price_eur": 0.69,
-          "old_price": 3.23,
-          "old_price_eur": 1.65,
-          "discount_pct": 58,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 1.35,
-      "comparison_count": 1,
-      "product_id": "lidl-диня"
     },
     {
       "store": "Lidl",
@@ -2532,6 +1780,40 @@ const OFFERS_DATA = {
       "product_id": "kaufland-здравец-кисело-мляко-500g",
       "weight_grams": 500,
       "weight_raw": "500 г"
+    },
+    {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 1.47,
+      "new_price_eur": 0.75,
+      "old_price": 1.96,
+      "old_price_eur": 1.0,
+      "discount_pct": 25,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 3.67,
+      "price_per_kg_eur": 1.88,
+      "source_type": "promo",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 1.47,
+          "price_eur": 0.75,
+          "old_price": 1.96,
+          "old_price_eur": 1.0,
+          "discount_pct": 25,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 1.47,
+      "comparison_count": 1,
+      "product_id": "lidl-кисело-мляко-400g",
+      "weight_grams": 400,
+      "weight_raw": "400 g"
     },
     {
       "store": "Kaufland",
@@ -2634,40 +1916,6 @@ const OFFERS_DATA = {
       "product_id": "kaufland-домлян-кисело-мляко-500g",
       "weight_grams": 500,
       "weight_raw": "500 г"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 1.55,
-      "new_price_eur": 0.79,
-      "old_price": 2.91,
-      "old_price_eur": 1.49,
-      "discount_pct": 47,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 6.2,
-      "price_per_kg_eur": 3.17,
-      "source_type": "promo",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 1.55,
-          "price_eur": 0.79,
-          "old_price": 2.91,
-          "old_price_eur": 1.49,
-          "discount_pct": 47,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 1.55,
-      "comparison_count": 1,
-      "product_id": "lidl-български-ягоди-250g",
-      "weight_grams": 250,
-      "weight_raw": "250 g"
     },
     {
       "store": "Kaufland",
@@ -2802,40 +2050,6 @@ const OFFERS_DATA = {
       "product_id": "kaufland-pom-bar-картофени-мечета-различни-вкусове-50g",
       "weight_grams": 50,
       "weight_raw": "50 г"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 1.82,
-      "new_price_eur": 0.93,
-      "old_price": 2.29,
-      "old_price_eur": 1.17,
-      "discount_pct": 21,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 6.07,
-      "price_per_kg_eur": 3.1,
-      "source_type": "promo",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 1.82,
-          "price_eur": 0.93,
-          "old_price": 2.29,
-          "old_price_eur": 1.17,
-          "discount_pct": 21,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 1.82,
-      "comparison_count": 1,
-      "product_id": "lidl-зеленчуци-с-масло-300g",
-      "weight_grams": 300,
-      "weight_raw": "300 g"
     },
     {
       "store": "Lidl",
@@ -2976,38 +2190,6 @@ const OFFERS_DATA = {
     {
       "store": "Lidl",
       "address": null,
-      "new_price": 3.11,
-      "new_price_eur": 1.59,
-      "old_price": 8.78,
-      "old_price_eur": 4.49,
-      "discount_pct": 65,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 3.11,
-          "price_eur": 1.59,
-          "old_price": 8.78,
-          "old_price_eur": 4.49,
-          "discount_pct": 65,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 3.11,
-      "comparison_count": 1,
-      "product_id": "lidl-български-краставици"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
       "new_price": 3.19,
       "new_price_eur": 1.63,
       "old_price": null,
@@ -3040,40 +2222,6 @@ const OFFERS_DATA = {
       "weight_raw": "310 g"
     },
     {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 3.19,
-      "new_price_eur": 1.63,
-      "old_price": 3.99,
-      "old_price_eur": 2.04,
-      "discount_pct": 20,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 3.19,
-      "price_per_kg_eur": 1.63,
-      "source_type": "promo",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 3.19,
-          "price_eur": 1.63,
-          "old_price": 3.99,
-          "old_price_eur": 2.04,
-          "discount_pct": 20,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 3.19,
-      "comparison_count": 1,
-      "product_id": "lidl-сок-от-портокал-1000g",
-      "weight_grams": 1000,
-      "weight_raw": "1 l"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 3.31,
@@ -3104,106 +2252,6 @@ const OFFERS_DATA = {
       "best_price": 3.31,
       "comparison_count": 1,
       "product_id": "kaufland-домати-на-клонка-клас-i"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 3.31,
-      "new_price_eur": 1.69,
-      "old_price": 7.61,
-      "old_price_eur": 3.89,
-      "discount_pct": 57,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 3.31,
-          "price_eur": 1.69,
-          "old_price": 7.61,
-          "old_price_eur": 3.89,
-          "discount_pct": 57,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 3.31,
-      "comparison_count": 1,
-      "product_id": "lidl-домати-на-клонка-2"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 3.31,
-      "new_price_eur": 1.69,
-      "old_price": 4.28,
-      "old_price_eur": 2.19,
-      "discount_pct": 23,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 3.31,
-      "price_per_kg_eur": 1.69,
-      "source_type": "promo",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 3.31,
-          "price_eur": 1.69,
-          "old_price": 4.28,
-          "old_price_eur": 2.19,
-          "discount_pct": 23,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 3.31,
-      "comparison_count": 1,
-      "product_id": "lidl-бланширани-картофи-1000g",
-      "weight_grams": 1000,
-      "weight_raw": "1 kg"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 3.48,
-      "new_price_eur": 1.78,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 17.4,
-      "price_per_kg_eur": 8.9,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 3.48,
-          "price_eur": 1.78,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 3.48,
-      "comparison_count": 1,
-      "product_id": "lidl-зърнесто-прясно-сирене-200g",
-      "weight_grams": 200,
-      "weight_raw": "200 g"
     },
     {
       "store": "Lidl",
@@ -3340,40 +2388,6 @@ const OFFERS_DATA = {
     {
       "store": "Lidl",
       "address": null,
-      "new_price": 4.99,
-      "new_price_eur": 2.55,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 24.95,
-      "price_per_kg_eur": 12.76,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 4.99,
-          "price_eur": 2.55,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 4.99,
-      "comparison_count": 1,
-      "product_id": "lidl-козе-сирене-дунавия-200g",
-      "weight_grams": 200,
-      "weight_raw": "200 g"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
       "new_price": 5.26,
       "new_price_eur": 2.69,
       "old_price": null,
@@ -3404,40 +2418,6 @@ const OFFERS_DATA = {
       "product_id": "lidl-сирене-фета-200g",
       "weight_grams": 200,
       "weight_raw": "200 g"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 5.85,
-      "new_price_eur": 2.99,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 19.5,
-      "price_per_kg_eur": 9.97,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 5.85,
-          "price_eur": 2.99,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 5.85,
-      "comparison_count": 1,
-      "product_id": "lidl-гръцко-сирене-антотиро-300g",
-      "weight_grams": 300,
-      "weight_raw": "300 g"
     },
     {
       "store": "Kaufland",
@@ -3474,40 +2454,6 @@ const OFFERS_DATA = {
       "weight_raw": "300 г"
     },
     {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 6.79,
-      "new_price_eur": 3.47,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 19.4,
-      "price_per_kg_eur": 9.92,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 6.79,
-          "price_eur": 3.47,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 6.79,
-      "comparison_count": 1,
-      "product_id": "lidl-мариновано-сирене-350g",
-      "weight_grams": 350,
-      "weight_raw": "350 g"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 6.98,
@@ -3540,40 +2486,6 @@ const OFFERS_DATA = {
       "product_id": "kaufland-булкарто-бланширани-картофи-2500g",
       "weight_grams": 2500,
       "weight_raw": "2,5 кг"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 6.98,
-      "new_price_eur": 3.57,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 23.27,
-      "price_per_kg_eur": 11.9,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 6.98,
-          "price_eur": 3.57,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 6.98,
-      "comparison_count": 1,
-      "product_id": "lidl-веган-гирос-с-лук-300g",
-      "weight_grams": 300,
-      "weight_raw": "300 g"
     },
     {
       "store": "Kaufland",
@@ -3744,40 +2656,6 @@ const OFFERS_DATA = {
       "weight_raw": "400 г"
     },
     {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 10.58,
-      "new_price_eur": 5.41,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 15.11,
-      "price_per_kg_eur": 7.73,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 10.58,
-          "price_eur": 5.41,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 10.58,
-      "comparison_count": 1,
-      "product_id": "lidl-българско-краве-сирене-700g",
-      "weight_grams": 700,
-      "weight_raw": "2 x 350 g"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 11.72,
@@ -3810,40 +2688,6 @@ const OFFERS_DATA = {
       "product_id": "kaufland-саяна-сирене-от-краве-мляко-700g",
       "weight_grams": 700,
       "weight_raw": "700 г"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 11.99,
-      "new_price_eur": 6.13,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 29.98,
-      "price_per_kg_eur": 15.33,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 11.99,
-          "price_eur": 6.13,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 11.99,
-      "comparison_count": 1,
-      "product_id": "lidl-гръцко-сирене-фета-400g",
-      "weight_grams": 400,
-      "weight_raw": "400 g"
     },
     {
       "store": "Kaufland",
@@ -3942,40 +2786,6 @@ const OFFERS_DATA = {
       "product_id": "kaufland-lacrima-сирене-от-овче-мляко-700g",
       "weight_grams": 700,
       "weight_raw": "700 г"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 15.59,
-      "new_price_eur": 7.97,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 17.32,
-      "price_per_kg_eur": 8.86,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 15.59,
-          "price_eur": 7.97,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 15.59,
-      "comparison_count": 1,
-      "product_id": "lidl-краве-сирене-900g",
-      "weight_grams": 900,
-      "weight_raw": "900 g"
     },
     {
       "store": "Kaufland",
@@ -4410,40 +3220,6 @@ const OFFERS_DATA = {
     {
       "store": "Lidl",
       "address": null,
-      "new_price": 5.38,
-      "new_price_eur": 2.75,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 4.48,
-      "price_per_kg_eur": 2.29,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 5.38,
-          "price_eur": 2.75,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 5.38,
-      "comparison_count": 1,
-      "product_id": "lidl-свинска-плешка-без-кост-1200g",
-      "weight_grams": 1200,
-      "weight_raw": "1.2 kg"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
       "new_price": 7.41,
       "new_price_eur": 3.79,
       "old_price": null,
@@ -4474,40 +3250,6 @@ const OFFERS_DATA = {
       "product_id": "lidl-свински-врат-с-кост-xxl-1200g",
       "weight_grams": 1200,
       "weight_raw": "1.2 kg"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 9.09,
-      "new_price_eur": 4.65,
-      "old_price": 11.48,
-      "old_price_eur": 5.87,
-      "discount_pct": 21,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 12.12,
-      "price_per_kg_eur": 6.2,
-      "source_type": "promo",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 9.09,
-          "price_eur": 4.65,
-          "old_price": 11.48,
-          "old_price_eur": 5.87,
-          "discount_pct": 21,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 9.09,
-      "comparison_count": 1,
-      "product_id": "lidl-свинско-месо-за-готвене-750g",
-      "weight_grams": 750,
-      "weight_raw": "750 g"
     },
     {
       "store": "Kaufland",
@@ -4672,40 +3414,6 @@ const OFFERS_DATA = {
       "best_price": 10.99,
       "comparison_count": 1,
       "product_id": "kaufland-леки-свинско-филе"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 11.72,
-      "new_price_eur": 5.99,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 19.53,
-      "price_per_kg_eur": 9.99,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 11.72,
-          "price_eur": 5.99,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 11.72,
-      "comparison_count": 1,
-      "product_id": "lidl-факлички-от-свински-гърди-xxl-600g",
-      "weight_grams": 600,
-      "weight_raw": "600 g"
     },
     {
       "store": "Kaufland",
@@ -5110,40 +3818,6 @@ const OFFERS_DATA = {
       "weight_raw": "1 кг"
     },
     {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 1.55,
-      "new_price_eur": 0.79,
-      "old_price": 1.99,
-      "old_price_eur": 1.02,
-      "discount_pct": 22,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 7.75,
-      "price_per_kg_eur": 3.96,
-      "source_type": "promo",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 1.55,
-          "price_eur": 0.79,
-          "old_price": 1.99,
-          "old_price_eur": 1.02,
-          "discount_pct": 22,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 1.55,
-      "comparison_count": 1,
-      "product_id": "lidl-готварска-сметана-200g",
-      "weight_grams": 200,
-      "weight_raw": "200 ml"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 1.58,
@@ -5480,40 +4154,6 @@ const OFFERS_DATA = {
       "weight_raw": "1 л"
     },
     {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 2.15,
-      "new_price_eur": 1.1,
-      "old_price": 2.7,
-      "old_price_eur": 1.38,
-      "discount_pct": 20,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 2.15,
-      "price_per_kg_eur": 1.1,
-      "source_type": "promo",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 2.15,
-          "price_eur": 1.1,
-          "old_price": 2.7,
-          "old_price_eur": 1.38,
-          "discount_pct": 20,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 2.15,
-      "comparison_count": 1,
-      "product_id": "lidl-прясно-мляко-1000g",
-      "weight_grams": 1000,
-      "weight_raw": "1 l"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 2.19,
@@ -5546,40 +4186,6 @@ const OFFERS_DATA = {
       "product_id": "kaufland-queens-плодова-напитка-различни-видове-2000g",
       "weight_grams": 2000,
       "weight_raw": "2 л"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 2.19,
-      "new_price_eur": 1.12,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 1.09,
-      "price_per_kg_eur": 0.56,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 2.19,
-          "price_eur": 1.12,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 2.19,
-      "comparison_count": 1,
-      "product_id": "lidl-плодова-напитка-2000g",
-      "weight_grams": 2000,
-      "weight_raw": "2 l"
     },
     {
       "store": "Kaufland",
@@ -5784,40 +4390,6 @@ const OFFERS_DATA = {
       "product_id": "kaufland-k-classic-протеинова-напитка-различни-видове-330g",
       "weight_grams": 330,
       "weight_raw": "330 мл"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 2.39,
-      "new_price_eur": 1.22,
-      "old_price": 2.99,
-      "old_price_eur": 1.53,
-      "discount_pct": 20,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 23.9,
-      "price_per_kg_eur": 12.22,
-      "source_type": "promo",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 2.39,
-          "price_eur": 1.22,
-          "old_price": 2.99,
-          "old_price_eur": 1.53,
-          "discount_pct": 20,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 2.39,
-      "comparison_count": 1,
-      "product_id": "lidl-немско-масло-с-подправки-100g",
-      "weight_grams": 100,
-      "weight_raw": "100 g"
     },
     {
       "store": "Lidl",
@@ -6364,40 +4936,6 @@ const OFFERS_DATA = {
     {
       "store": "Lidl",
       "address": null,
-      "new_price": 2.99,
-      "new_price_eur": 1.53,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 2.99,
-      "price_per_kg_eur": 1.53,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 2.99,
-          "price_eur": 1.53,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 2.99,
-      "comparison_count": 1,
-      "product_id": "lidl-веган-високопротеинова-соева-напитка-1000g",
-      "weight_grams": 1000,
-      "weight_raw": "1 l"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
       "new_price": 3.11,
       "new_price_eur": 1.59,
       "old_price": 3.99,
@@ -6428,40 +4966,6 @@ const OFFERS_DATA = {
       "product_id": "lidl-гауда-200g",
       "weight_grams": 200,
       "weight_raw": "200 g"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 3.11,
-      "new_price_eur": 1.59,
-      "old_price": 3.89,
-      "old_price_eur": 1.99,
-      "discount_pct": 20,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 3.11,
-      "price_per_kg_eur": 1.59,
-      "source_type": "promo",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 3.11,
-          "price_eur": 1.59,
-          "old_price": 3.89,
-          "old_price_eur": 1.99,
-          "discount_pct": 20,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 3.11,
-      "comparison_count": 1,
-      "product_id": "lidl-слънчогледово-масло-1000g",
-      "weight_grams": 1000,
-      "weight_raw": "1 l"
     },
     {
       "store": "Kaufland",
@@ -6496,40 +5000,6 @@ const OFFERS_DATA = {
       "product_id": "kaufland-fit-spo-протеинов-бар-crunchy-browni-или-бисквита-с-крем-75g",
       "weight_grams": 75,
       "weight_raw": "75 г"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 3.27,
-      "new_price_eur": 1.67,
-      "old_price": 4.09,
-      "old_price_eur": 2.09,
-      "discount_pct": 20,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 16.35,
-      "price_per_kg_eur": 8.36,
-      "source_type": "promo",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 3.27,
-          "price_eur": 1.67,
-          "old_price": 4.09,
-          "old_price_eur": 2.09,
-          "discount_pct": 20,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 3.27,
-      "comparison_count": 1,
-      "product_id": "lidl-краве-масло-200g",
-      "weight_grams": 200,
-      "weight_raw": "200 g"
     },
     {
       "store": "Kaufland",
@@ -6598,40 +5068,6 @@ const OFFERS_DATA = {
       "product_id": "kaufland-сами-м-пръчици-с-кашкавал-замразени-400g",
       "weight_grams": 400,
       "weight_raw": "400 г"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 3.38,
-      "new_price_eur": 1.73,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 13.52,
-      "price_per_kg_eur": 6.91,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 3.38,
-          "price_eur": 1.73,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 3.38,
-      "comparison_count": 1,
-      "product_id": "lidl-веган-фузили-250g",
-      "weight_grams": 250,
-      "weight_raw": "250 g"
     },
     {
       "store": "Kaufland",
@@ -6936,74 +5372,6 @@ const OFFERS_DATA = {
       "weight_raw": "400 g"
     },
     {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 3.89,
-      "new_price_eur": 1.99,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 31.12,
-      "price_per_kg_eur": 15.91,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 3.89,
-          "price_eur": 1.99,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 3.89,
-      "comparison_count": 1,
-      "product_id": "lidl-деликатесно-маслиново-масло-125g",
-      "weight_grams": 125,
-      "weight_raw": "125 ml"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 3.89,
-      "new_price_eur": 1.99,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 7.41,
-      "price_per_kg_eur": 3.79,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 3.89,
-          "price_eur": 1.99,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 3.89,
-      "comparison_count": 1,
-      "product_id": "lidl-багети-xxl-525g",
-      "weight_grams": 525,
-      "weight_raw": "3 x 175 g"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 3.99,
@@ -7036,40 +5404,6 @@ const OFFERS_DATA = {
       "product_id": "kaufland-de-lucia-маскарпоне-250g",
       "weight_grams": 250,
       "weight_raw": "250 г"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 3.99,
-      "new_price_eur": 2.04,
-      "old_price": 4.99,
-      "old_price_eur": 2.55,
-      "discount_pct": 20,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 8.87,
-      "price_per_kg_eur": 4.54,
-      "source_type": "promo",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 3.99,
-          "price_eur": 2.04,
-          "old_price": 4.99,
-          "old_price_eur": 2.55,
-          "discount_pct": 20,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 3.99,
-      "comparison_count": 1,
-      "product_id": "lidl-дзадзики-с-маслиново-масло-450g",
-      "weight_grams": 450,
-      "weight_raw": "450 g"
     },
     {
       "store": "Kaufland",
@@ -7174,40 +5508,6 @@ const OFFERS_DATA = {
       "weight_raw": "250 мл"
     },
     {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 4.48,
-      "new_price_eur": 2.29,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 8.96,
-      "price_per_kg_eur": 4.58,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 4.48,
-          "price_eur": 2.29,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 4.48,
-      "comparison_count": 1,
-      "product_id": "lidl-иогурт-500g",
-      "weight_grams": 500,
-      "weight_raw": "4 x 125 g"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 4.69,
@@ -7240,40 +5540,6 @@ const OFFERS_DATA = {
       "product_id": "kaufland-balcho-фъстъчено-масло-различни-видове-340g",
       "weight_grams": 340,
       "weight_raw": "340 г"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 4.79,
-      "new_price_eur": 2.45,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 19.16,
-      "price_per_kg_eur": 9.8,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 4.79,
-          "price_eur": 2.45,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 4.79,
-      "comparison_count": 1,
-      "product_id": "lidl-маскарпоне-250g",
-      "weight_grams": 250,
-      "weight_raw": "250 g"
     },
     {
       "store": "Kaufland",
@@ -7344,40 +5610,6 @@ const OFFERS_DATA = {
       "weight_raw": "380 г"
     },
     {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 4.99,
-      "new_price_eur": 2.55,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 24.95,
-      "price_per_kg_eur": 12.76,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 4.99,
-          "price_eur": 2.55,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 4.99,
-      "comparison_count": 1,
-      "product_id": "lidl-настъргана-моцарела-200g",
-      "weight_grams": 200,
-      "weight_raw": "200 g"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 5.16,
@@ -7410,74 +5642,6 @@ const OFFERS_DATA = {
       "product_id": "kaufland-plasmon-пюре-различни-видове-160g",
       "weight_grams": 160,
       "weight_raw": "2 х 80 г"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 5.65,
-      "new_price_eur": 2.89,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 31.39,
-      "price_per_kg_eur": 16.05,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 5.65,
-          "price_eur": 2.89,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 5.65,
-      "comparison_count": 1,
-      "product_id": "lidl-бри-с-пълнеж-180g",
-      "weight_grams": 180,
-      "weight_raw": "180 g"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 5.85,
-      "new_price_eur": 2.99,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 23.4,
-      "price_per_kg_eur": 11.96,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 5.85,
-          "price_eur": 2.99,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 5.85,
-      "comparison_count": 1,
-      "product_id": "lidl-масло-с-морска-сол-250g",
-      "weight_grams": 250,
-      "weight_raw": "250 g"
     },
     {
       "store": "Kaufland",
@@ -7544,74 +5708,6 @@ const OFFERS_DATA = {
       "best_price": 6.36,
       "comparison_count": 1,
       "product_id": "kaufland-k-classic-кафе-капсули-различни-видове"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 6.43,
-      "new_price_eur": 3.29,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 28.58,
-      "price_per_kg_eur": 14.61,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 6.43,
-          "price_eur": 3.29,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 6.43,
-      "comparison_count": 1,
-      "product_id": "lidl-гриловано-халуми-225g",
-      "weight_grams": 225,
-      "weight_raw": "225 g"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 6.43,
-      "new_price_eur": 3.29,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 32.15,
-      "price_per_kg_eur": 16.44,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 6.43,
-          "price_eur": 3.29,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 6.43,
-      "comparison_count": 1,
-      "product_id": "lidl-маслиново-масло-спреи-200g",
-      "weight_grams": 200,
-      "weight_raw": "200 ml"
     },
     {
       "store": "Kaufland",
@@ -7748,40 +5844,6 @@ const OFFERS_DATA = {
     {
       "store": "Lidl",
       "address": null,
-      "new_price": 7.41,
-      "new_price_eur": 3.79,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 24.7,
-      "price_per_kg_eur": 12.63,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 7.41,
-          "price_eur": 3.79,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 7.41,
-      "comparison_count": 1,
-      "product_id": "lidl-британски-чедър-300g",
-      "weight_grams": 300,
-      "weight_raw": "300 g"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
       "new_price": 7.49,
       "new_price_eur": 3.83,
       "old_price": null,
@@ -7812,40 +5874,6 @@ const OFFERS_DATA = {
       "product_id": "lidl-eнергиина-напитка-1000g",
       "weight_grams": 1000,
       "weight_raw": "4 x 250 ml"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 7.61,
-      "new_price_eur": 3.89,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 16.91,
-      "price_per_kg_eur": 8.65,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 7.61,
-          "price_eur": 3.89,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 7.61,
-      "comparison_count": 1,
-      "product_id": "lidl-миди-450g",
-      "weight_grams": 450,
-      "weight_raw": "450 g"
     },
     {
       "store": "Kaufland",
@@ -8048,40 +6076,6 @@ const OFFERS_DATA = {
       "weight_raw": "128 г"
     },
     {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 8.49,
-      "new_price_eur": 4.34,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 21.23,
-      "price_per_kg_eur": 10.85,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 8.49,
-          "price_eur": 4.34,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 8.49,
-      "comparison_count": 1,
-      "product_id": "lidl-британски-зрял-чедър-400g",
-      "weight_grams": 400,
-      "weight_raw": "400 g"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 8.59,
@@ -8112,40 +6106,6 @@ const OFFERS_DATA = {
       "best_price": 8.59,
       "comparison_count": 1,
       "product_id": "kaufland-бреи-снежанка-с-цедено-мляко"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 8.74,
-      "new_price_eur": 4.47,
-      "old_price": 10.93,
-      "old_price_eur": 5.59,
-      "discount_pct": 20,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 17.48,
-      "price_per_kg_eur": 8.94,
-      "source_type": "promo",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 8.74,
-          "price_eur": 4.47,
-          "old_price": 10.93,
-          "old_price_eur": 5.59,
-          "discount_pct": 20,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 8.74,
-      "comparison_count": 1,
-      "product_id": "lidl-маслиново-масло-500g",
-      "weight_grams": 500,
-      "weight_raw": "500 ml"
     },
     {
       "store": "Kaufland",
@@ -8346,40 +6306,6 @@ const OFFERS_DATA = {
       "product_id": "kaufland-деликатесен-бански-бут-280g",
       "weight_grams": 280,
       "weight_raw": "280 г"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 10.66,
-      "new_price_eur": 5.45,
-      "old_price": 13.98,
-      "old_price_eur": 7.15,
-      "discount_pct": 24,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 28.05,
-      "price_per_kg_eur": 14.34,
-      "source_type": "promo",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 10.66,
-          "price_eur": 5.45,
-          "old_price": 13.98,
-          "old_price_eur": 7.15,
-          "discount_pct": 24,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 10.66,
-      "comparison_count": 1,
-      "product_id": "lidl-кашкавал-бдс-380g",
-      "weight_grams": 380,
-      "weight_raw": "380 g"
     },
     {
       "store": "Kaufland",
@@ -8686,6 +6612,40 @@ const OFFERS_DATA = {
       "weight_raw": "750 мл"
     },
     {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 13.28,
+      "new_price_eur": 6.79,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 2.21,
+      "price_per_kg_eur": 1.13,
+      "source_type": "assortment",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 13.28,
+          "price_eur": 6.79,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 13.28,
+      "comparison_count": 1,
+      "product_id": "lidl-слънчогледово-масло-6000g",
+      "weight_grams": 6000,
+      "weight_raw": "6 х 1 l"
+    },
+    {
       "store": "Kaufland",
       "address": null,
       "new_price": 13.48,
@@ -8886,40 +6846,6 @@ const OFFERS_DATA = {
       "weight_raw": "200 г"
     },
     {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 16.21,
-      "new_price_eur": 8.29,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 21.61,
-      "price_per_kg_eur": 11.05,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 16.21,
-          "price_eur": 8.29,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 16.21,
-      "comparison_count": 1,
-      "product_id": "lidl-гръцко-маслиново-масло-750g",
-      "weight_grams": 750,
-      "weight_raw": "750 ml"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 16.92,
@@ -9052,40 +6978,6 @@ const OFFERS_DATA = {
       "product_id": "kaufland-k-gold-edition-кафе-на-зърна-различни-видове-500g",
       "weight_grams": 500,
       "weight_raw": "500 г"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 17.58,
-      "new_price_eur": 8.99,
-      "old_price": 21.98,
-      "old_price_eur": 11.24,
-      "discount_pct": 20,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 58.6,
-      "price_per_kg_eur": 29.96,
-      "source_type": "promo",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 17.58,
-          "price_eur": 8.99,
-          "old_price": 21.98,
-          "old_price_eur": 11.24,
-          "discount_pct": 20,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 17.58,
-      "comparison_count": 1,
-      "product_id": "lidl-кашкавалено-роле-300g",
-      "weight_grams": 300,
-      "weight_raw": "300 g"
     },
     {
       "store": "Lidl",
@@ -10014,40 +7906,6 @@ const OFFERS_DATA = {
       "product_id": "kaufland-карначе-от-свежата-витрина"
     },
     {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 12.5,
-      "new_price_eur": 6.39,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 8.93,
-      "price_per_kg_eur": 4.57,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 12.5,
-          "price_eur": 6.39,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 12.5,
-      "comparison_count": 1,
-      "product_id": "lidl-пица-на-пещ-салами-xxl-1400g",
-      "weight_grams": 1400,
-      "weight_raw": "4 x 350 g"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 12.69,
@@ -10314,40 +8172,6 @@ const OFFERS_DATA = {
       "weight_raw": "175 г"
     },
     {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 1.0,
-      "new_price_eur": 0.51,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 3.03,
-      "price_per_kg_eur": 1.55,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 1.0,
-          "price_eur": 0.51,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 1.0,
-      "comparison_count": 1,
-      "product_id": "lidl-газирана-безалкохолна-напитка-портокал-330g",
-      "weight_grams": 330,
-      "weight_raw": "330 ml"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 1.1,
@@ -10482,40 +8306,6 @@ const OFFERS_DATA = {
       "product_id": "kaufland-danone-danette-duo-пудинг-със-сметана-различни-вкусове-115g",
       "weight_grams": 115,
       "weight_raw": "115 г"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 1.55,
-      "new_price_eur": 0.79,
-      "old_price": 1.99,
-      "old_price_eur": 1.02,
-      "discount_pct": 22,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 0.78,
-      "price_per_kg_eur": 0.4,
-      "source_type": "promo",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 1.55,
-          "price_eur": 0.79,
-          "old_price": 1.99,
-          "old_price_eur": 1.02,
-          "discount_pct": 22,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 1.55,
-      "comparison_count": 1,
-      "product_id": "lidl-газирана-безалкохолна-напитка-кола-2000g",
-      "weight_grams": 2000,
-      "weight_raw": "2 l"
     },
     {
       "store": "Lidl",
@@ -10856,40 +8646,6 @@ const OFFERS_DATA = {
       "product_id": "lidl-сладолед-на-клечка-60g",
       "weight_grams": 60,
       "weight_raw": "60 ml"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 0.47,
-      "new_price_eur": 0.24,
-      "old_price": 0.59,
-      "old_price_eur": 0.3,
-      "discount_pct": 20,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 0.94,
-      "price_per_kg_eur": 0.48,
-      "source_type": "promo",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 0.47,
-          "price_eur": 0.24,
-          "old_price": 0.59,
-          "old_price_eur": 0.3,
-          "discount_pct": 20,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 0.47,
-      "comparison_count": 1,
-      "product_id": "lidl-изворна-газирана-вода-500g",
-      "weight_grams": 500,
-      "weight_raw": "500 ml"
     },
     {
       "store": "Kaufland",
@@ -11700,40 +9456,6 @@ const OFFERS_DATA = {
       "product_id": "kaufland-белачка"
     },
     {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 1.0,
-      "new_price_eur": 0.51,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 3.33,
-      "price_per_kg_eur": 1.7,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 1.0,
-          "price_eur": 0.51,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 1.0,
-      "comparison_count": 1,
-      "product_id": "lidl-аирян-300g",
-      "weight_grams": 300,
-      "weight_raw": "300 g"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 1.02,
@@ -11834,72 +9556,6 @@ const OFFERS_DATA = {
       "product_id": "kaufland-7-days-bake-rolls-различни-видове-80g",
       "weight_grams": 80,
       "weight_raw": "80 г"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 1.08,
-      "new_price_eur": 0.55,
-      "old_price": 1.49,
-      "old_price_eur": 0.76,
-      "discount_pct": 28,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 5.4,
-      "price_per_kg_eur": 2.76,
-      "source_type": "promo",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 1.08,
-          "price_eur": 0.55,
-          "old_price": 1.49,
-          "old_price_eur": 0.76,
-          "discount_pct": 28,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 1.08,
-      "comparison_count": 1,
-      "product_id": "lidl-юфка-200g",
-      "weight_grams": 200,
-      "weight_raw": "200 g"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 1.08,
-      "new_price_eur": 0.55,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 1.08,
-          "price_eur": 0.55,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 1.08,
-      "comparison_count": 1,
-      "product_id": "lidl-захар"
     },
     {
       "store": "Kaufland",
@@ -12791,8 +10447,7 @@ const OFFERS_DATA = {
       "price_per_kg_eur": 1.98,
       "source_type": "promo",
       "available_stores": [
-        "Kaufland",
-        "Lidl"
+        "Kaufland"
       ],
       "store_prices": [
         {
@@ -12803,20 +10458,11 @@ const OFFERS_DATA = {
           "old_price_eur": 1.17,
           "discount_pct": 32,
           "source_type": "promo"
-        },
-        {
-          "store": "Lidl",
-          "price": 2.44,
-          "price_eur": 1.25,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
       "best_price": 1.55,
-      "comparison_count": 2,
+      "comparison_count": 1,
       "product_id": "kaufland-точени-кори-400g",
       "weight_grams": 400,
       "weight_raw": "400 г"
@@ -14228,40 +11874,6 @@ const OFFERS_DATA = {
       "weight_raw": "175 г"
     },
     {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 2.39,
-      "new_price_eur": 1.22,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 2.99,
-      "price_per_kg_eur": 1.53,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 2.39,
-          "price_eur": 1.22,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 2.39,
-      "comparison_count": 1,
-      "product_id": "lidl-тесто-за-пица-xxl-800g",
-      "weight_grams": 800,
-      "weight_raw": "2 х 400 g"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 2.44,
@@ -14294,40 +11906,6 @@ const OFFERS_DATA = {
       "product_id": "kaufland-k-classic-храна-за-котки-различни-видове-400g",
       "weight_grams": 400,
       "weight_raw": "4 х 100 г"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 2.44,
-      "new_price_eur": 1.25,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 9.76,
-      "price_per_kg_eur": 4.99,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 2.44,
-          "price_eur": 1.25,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 2.44,
-      "comparison_count": 1,
-      "product_id": "lidl-разядка-250g",
-      "weight_grams": 250,
-      "weight_raw": "250 g"
     },
     {
       "store": "Kaufland",
@@ -14392,74 +11970,6 @@ const OFFERS_DATA = {
       "best_price": 2.48,
       "comparison_count": 1,
       "product_id": "kaufland-parkside-аксесоари-направи-си-сам-различни-видове"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 2.48,
-      "new_price_eur": 1.27,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 16.53,
-      "price_per_kg_eur": 8.45,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 2.48,
-          "price_eur": 1.27,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 2.48,
-      "comparison_count": 1,
-      "product_id": "lidl-топинг-150g",
-      "weight_grams": 150,
-      "weight_raw": "150 ml"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 2.48,
-      "new_price_eur": 1.27,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 17.71,
-      "price_per_kg_eur": 9.05,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 2.48,
-          "price_eur": 1.27,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 2.48,
-      "comparison_count": 1,
-      "product_id": "lidl-мини-сладоледен-десерт-140g",
-      "weight_grams": 140,
-      "weight_raw": "140 ml"
     },
     {
       "store": "Kaufland",
@@ -14894,74 +12404,6 @@ const OFFERS_DATA = {
       "product_id": "kaufland-aroma-color-боя-за-коса-различни-цветове"
     },
     {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 2.8,
-      "new_price_eur": 1.43,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 0.47,
-      "price_per_kg_eur": 0.24,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 2.8,
-          "price_eur": 1.43,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 2.8,
-      "comparison_count": 1,
-      "product_id": "lidl-трапезна-вода-xxl-6000g",
-      "weight_grams": 6000,
-      "weight_raw": "12 x 0.5 l"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 2.84,
-      "new_price_eur": 1.45,
-      "old_price": 3.6,
-      "old_price_eur": 1.84,
-      "discount_pct": 21,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 4.37,
-      "price_per_kg_eur": 2.23,
-      "source_type": "promo",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 2.84,
-          "price_eur": 1.45,
-          "old_price": 3.6,
-          "old_price_eur": 1.84,
-          "discount_pct": 21,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 2.84,
-      "comparison_count": 1,
-      "product_id": "lidl-гръцки-питки-650g",
-      "weight_grams": 650,
-      "weight_raw": "650 g"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 2.89,
@@ -15128,40 +12570,6 @@ const OFFERS_DATA = {
       "product_id": "lidl-кимчи-110g",
       "weight_grams": 110,
       "weight_raw": "110 g"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 2.91,
-      "new_price_eur": 1.49,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 44.77,
-      "price_per_kg_eur": 22.89,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 2.91,
-          "price_eur": 1.49,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 2.91,
-      "comparison_count": 1,
-      "product_id": "lidl-тирамису-65g",
-      "weight_grams": 65,
-      "weight_raw": "65 g"
     },
     {
       "store": "Kaufland",
@@ -15628,40 +13036,6 @@ const OFFERS_DATA = {
       "product_id": "kaufland-комплект-мерителни-лъжици"
     },
     {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 2.99,
-      "new_price_eur": 1.53,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 8.08,
-      "price_per_kg_eur": 4.13,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 2.99,
-          "price_eur": 1.53,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 2.99,
-      "comparison_count": 1,
-      "product_id": "lidl-пълнозърнести-тортила-питки-370g",
-      "weight_grams": 370,
-      "weight_raw": "370 g"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 3.13,
@@ -15830,40 +13204,6 @@ const OFFERS_DATA = {
       "weight_raw": "1240 г"
     },
     {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 3.19,
-      "new_price_eur": 1.63,
-      "old_price": 3.99,
-      "old_price_eur": 2.04,
-      "discount_pct": 20,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 6.38,
-      "price_per_kg_eur": 3.26,
-      "source_type": "promo",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 3.19,
-          "price_eur": 1.63,
-          "old_price": 3.99,
-          "old_price_eur": 2.04,
-          "discount_pct": 20,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 3.19,
-      "comparison_count": 1,
-      "product_id": "lidl-маргарин-500g",
-      "weight_grams": 500,
-      "weight_raw": "500 g"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 3.23,
@@ -15926,40 +13266,6 @@ const OFFERS_DATA = {
       "best_price": 3.23,
       "comparison_count": 1,
       "product_id": "kaufland-капачки-тип-туист-оф-ø8-2-см-20-бр"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 3.29,
-      "new_price_eur": 1.68,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 13.16,
-      "price_per_kg_eur": 6.73,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 3.29,
-          "price_eur": 1.68,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 3.29,
-      "comparison_count": 1,
-      "product_id": "lidl-дзадзики-250g",
-      "weight_grams": 250,
-      "weight_raw": "250 g"
     },
     {
       "store": "Kaufland",
@@ -16228,40 +13534,6 @@ const OFFERS_DATA = {
       "weight_raw": "1,4 л"
     },
     {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 3.48,
-      "new_price_eur": 1.78,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 23.2,
-      "price_per_kg_eur": 11.86,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 3.48,
-          "price_eur": 1.78,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 3.48,
-      "comparison_count": 1,
-      "product_id": "lidl-веган-слаисове-150g",
-      "weight_grams": 150,
-      "weight_raw": "150 g"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 3.5,
@@ -16326,6 +13598,40 @@ const OFFERS_DATA = {
       "best_price": 3.5,
       "comparison_count": 1,
       "product_id": "kaufland-medix-expert-препарат-за-почистване-на-дома"
+    },
+    {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 3.5,
+      "new_price_eur": 1.79,
+      "old_price": 4.5,
+      "old_price_eur": 2.3,
+      "discount_pct": 22,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 23.33,
+      "price_per_kg_eur": 11.93,
+      "source_type": "promo",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 3.5,
+          "price_eur": 1.79,
+          "old_price": 4.5,
+          "old_price_eur": 2.3,
+          "discount_pct": 22,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 3.5,
+      "comparison_count": 1,
+      "product_id": "lidl-ементал-150g",
+      "weight_grams": 150,
+      "weight_raw": "150 g"
     },
     {
       "store": "Kaufland",
@@ -16662,40 +13968,6 @@ const OFFERS_DATA = {
       "product_id": "lidl-прясна-паста-дим-сум-200g",
       "weight_grams": 200,
       "weight_raw": "200 g"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 3.79,
-      "new_price_eur": 1.94,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 13.54,
-      "price_per_kg_eur": 6.92,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 3.79,
-          "price_eur": 1.94,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 3.79,
-      "comparison_count": 1,
-      "product_id": "lidl-лозови-сарми-280g",
-      "weight_grams": 280,
-      "weight_raw": "280 g"
     },
     {
       "store": "Lidl",
@@ -17238,74 +14510,6 @@ const OFFERS_DATA = {
       "product_id": "kaufland-parkside-разпределител-за-вода"
     },
     {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 3.99,
-      "new_price_eur": 2.04,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 15.96,
-      "price_per_kg_eur": 8.16,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 3.99,
-          "price_eur": 2.04,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 3.99,
-      "comparison_count": 1,
-      "product_id": "lidl-талиолини-250g",
-      "weight_grams": 250,
-      "weight_raw": "250 g"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 3.99,
-      "new_price_eur": 2.04,
-      "old_price": 4.99,
-      "old_price_eur": 2.55,
-      "discount_pct": 20,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 19.95,
-      "price_per_kg_eur": 10.2,
-      "source_type": "promo",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 3.99,
-          "price_eur": 2.04,
-          "old_price": 4.99,
-          "old_price_eur": 2.55,
-          "discount_pct": 20,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 3.99,
-      "comparison_count": 1,
-      "product_id": "lidl-сандвич-200g",
-      "weight_grams": 200,
-      "weight_raw": "200 g"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 4.11,
@@ -17612,74 +14816,6 @@ const OFFERS_DATA = {
       "address": null,
       "new_price": 4.28,
       "new_price_eur": 2.19,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 17.12,
-      "price_per_kg_eur": 8.75,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 4.28,
-          "price_eur": 2.19,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 4.28,
-      "comparison_count": 1,
-      "product_id": "lidl-капелети-250g",
-      "weight_grams": 250,
-      "weight_raw": "250 g"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 4.28,
-      "new_price_eur": 2.19,
-      "old_price": 5.5,
-      "old_price_eur": 2.81,
-      "discount_pct": 22,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 10.7,
-      "price_per_kg_eur": 5.47,
-      "source_type": "promo",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 4.28,
-          "price_eur": 2.19,
-          "old_price": 5.5,
-          "old_price_eur": 2.81,
-          "discount_pct": 22,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 4.28,
-      "comparison_count": 1,
-      "product_id": "lidl-велико-кюфте-400g",
-      "weight_grams": 400,
-      "weight_raw": "400 g"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 4.28,
-      "new_price_eur": 2.19,
       "old_price": 5.79,
       "old_price_eur": 2.96,
       "discount_pct": 26,
@@ -17708,40 +14844,6 @@ const OFFERS_DATA = {
       "product_id": "lidl-чиизбургери-320g",
       "weight_grams": 320,
       "weight_raw": "2 х 160 g"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 4.28,
-      "new_price_eur": 2.19,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 15.29,
-      "price_per_kg_eur": 7.82,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 4.28,
-          "price_eur": 2.19,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 4.28,
-      "comparison_count": 1,
-      "product_id": "lidl-бамя-280g",
-      "weight_grams": 280,
-      "weight_raw": "280 g"
     },
     {
       "store": "Kaufland",
@@ -17878,40 +14980,6 @@ const OFFERS_DATA = {
       "product_id": "kaufland-french-white-имитиращ-продукт-500g",
       "weight_grams": 500,
       "weight_raw": "500 г"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 4.46,
-      "new_price_eur": 2.28,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 0.41,
-      "price_per_kg_eur": 0.21,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 4.46,
-          "price_eur": 2.28,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 4.46,
-      "comparison_count": 1,
-      "product_id": "lidl-минерална-или-изворна-вода-10800g",
-      "weight_grams": 10800,
-      "weight_raw": "6 x 1.8 l"
     },
     {
       "store": "Kaufland",
@@ -18178,72 +15246,6 @@ const OFFERS_DATA = {
       "product_id": "kaufland-кутия-2-бр-х-600-мл-1200g",
       "weight_grams": 1200,
       "weight_raw": "2 бр. х 600 мл"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 4.48,
-      "new_price_eur": 2.29,
-      "old_price": 7.8,
-      "old_price_eur": 3.99,
-      "discount_pct": 43,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 4.48,
-          "price_eur": 2.29,
-          "old_price": 7.8,
-          "old_price_eur": 3.99,
-          "discount_pct": 43,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 4.48,
-      "comparison_count": 1,
-      "product_id": "lidl-праскови"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 4.48,
-      "new_price_eur": 2.29,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 8.96,
-      "price_per_kg_eur": 4.58,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 4.48,
-          "price_eur": 2.29,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 4.48,
-      "comparison_count": 1,
-      "product_id": "lidl-мини-рулца-500g",
-      "weight_grams": 500,
-      "weight_raw": "500 g"
     },
     {
       "store": "Lidl",
@@ -19091,40 +16093,6 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": 19.96,
-      "price_per_kg_eur": 10.21,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 4.99,
-          "price_eur": 2.55,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 4.99,
-      "comparison_count": 1,
-      "product_id": "lidl-тортелони-250g",
-      "weight_grams": 250,
-      "weight_raw": "250 g"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 4.99,
-      "new_price_eur": 2.55,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
       "price_per_kg": 31.58,
       "price_per_kg_eur": 16.15,
       "source_type": "assortment",
@@ -19148,40 +16116,6 @@ const OFFERS_DATA = {
       "product_id": "lidl-царевични-питки-158g",
       "weight_grams": 158,
       "weight_raw": "158 g"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 4.99,
-      "new_price_eur": 2.55,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 9.98,
-      "price_per_kg_eur": 5.1,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 4.99,
-          "price_eur": 2.55,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 4.99,
-      "comparison_count": 1,
-      "product_id": "lidl-веган-тортиля-500g",
-      "weight_grams": 500,
-      "weight_raw": "500 g"
     },
     {
       "store": "Kaufland",
@@ -19856,74 +16790,6 @@ const OFFERS_DATA = {
       "product_id": "kaufland-хризантема-трио-ø12-см"
     },
     {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 5.48,
-      "new_price_eur": 2.8,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 10.34,
-      "price_per_kg_eur": 5.29,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 5.48,
-          "price_eur": 2.8,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 5.48,
-      "comparison_count": 1,
-      "product_id": "lidl-микс-за-сладкиш-530g",
-      "weight_grams": 530,
-      "weight_raw": "530 g"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 5.48,
-      "new_price_eur": 2.8,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 27.4,
-      "price_per_kg_eur": 14.01,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 5.48,
-          "price_eur": 2.8,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 5.48,
-      "comparison_count": 1,
-      "product_id": "lidl-веган-специалитет-200g",
-      "weight_grams": 200,
-      "weight_raw": "200 g"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 5.5,
@@ -19956,40 +16822,6 @@ const OFFERS_DATA = {
       "product_id": "kaufland-pasabahce-чаша-capri-305-мл-305g",
       "weight_grams": 305,
       "weight_raw": "305 мл"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 5.5,
-      "new_price_eur": 2.81,
-      "old_price": 6.88,
-      "old_price_eur": 3.52,
-      "discount_pct": 20,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 13.75,
-      "price_per_kg_eur": 7.03,
-      "source_type": "promo",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 5.5,
-          "price_eur": 2.81,
-          "old_price": 6.88,
-          "old_price_eur": 3.52,
-          "discount_pct": 20,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 5.5,
-      "comparison_count": 1,
-      "product_id": "lidl-готово-ястие-400g",
-      "weight_grams": 400,
-      "weight_raw": "400 g"
     },
     {
       "store": "Kaufland",
@@ -20137,40 +16969,6 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": 19.5,
-      "price_per_kg_eur": 9.97,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 5.85,
-          "price_eur": 2.99,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 5.85,
-      "comparison_count": 1,
-      "product_id": "lidl-антипасти-микс-300g",
-      "weight_grams": 300,
-      "weight_raw": "300 g"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 5.85,
-      "new_price_eur": 2.99,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
       "price_per_kg": 7.31,
       "price_per_kg_eur": 3.74,
       "source_type": "assortment",
@@ -20194,40 +16992,6 @@ const OFFERS_DATA = {
       "product_id": "lidl-чили-кон-поло-800g",
       "weight_grams": 800,
       "weight_raw": "800 g"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 5.85,
-      "new_price_eur": 2.99,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 16.71,
-      "price_per_kg_eur": 8.54,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 5.85,
-          "price_eur": 2.99,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 5.85,
-      "comparison_count": 1,
-      "product_id": "lidl-пица-гирос-350g",
-      "weight_grams": 350,
-      "weight_raw": "350 g"
     },
     {
       "store": "Kaufland",
@@ -20630,40 +17394,6 @@ const OFFERS_DATA = {
       "weight_raw": "250 г"
     },
     {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 6.04,
-      "new_price_eur": 3.09,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 60.4,
-      "price_per_kg_eur": 30.88,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 6.04,
-          "price_eur": 3.09,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 6.04,
-      "comparison_count": 1,
-      "product_id": "lidl-пармиджано-реджано-100g",
-      "weight_grams": 100,
-      "weight_raw": "100 g"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 6.14,
@@ -20832,40 +17562,6 @@ const OFFERS_DATA = {
       "weight_raw": "200 г"
     },
     {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 6.4,
-      "new_price_eur": 3.27,
-      "old_price": 8.0,
-      "old_price_eur": 4.09,
-      "discount_pct": 20,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 6.67,
-      "price_per_kg_eur": 3.41,
-      "source_type": "promo",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 6.4,
-          "price_eur": 3.27,
-          "old_price": 8.0,
-          "old_price_eur": 4.09,
-          "discount_pct": 20,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 6.4,
-      "comparison_count": 1,
-      "product_id": "lidl-сладоледен-сандвич-960g",
-      "weight_grams": 960,
-      "weight_raw": "8 x 120 ml"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 6.43,
@@ -20898,40 +17594,6 @@ const OFFERS_DATA = {
       "product_id": "kaufland-шуменско-бира-4-8-vol-3000g",
       "weight_grams": 3000,
       "weight_raw": "6 x 0,5 л"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 6.43,
-      "new_price_eur": 3.29,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 16.07,
-      "price_per_kg_eur": 8.22,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 6.43,
-          "price_eur": 3.29,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 6.43,
-      "comparison_count": 1,
-      "product_id": "lidl-веган-лазаня-400g",
-      "weight_grams": 400,
-      "weight_raw": "400 g"
     },
     {
       "store": "Kaufland",
@@ -21994,40 +18656,6 @@ const OFFERS_DATA = {
       "product_id": "kaufland-crivit-детски-чехли-32-37"
     },
     {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 7.49,
-      "new_price_eur": 3.83,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 7.49,
-      "price_per_kg_eur": 3.83,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 7.49,
-          "price_eur": 3.83,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 7.49,
-      "comparison_count": 1,
-      "product_id": "lidl-мини-банички-1000g",
-      "weight_grams": 1000,
-      "weight_raw": "1 kg"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 7.78,
@@ -22923,40 +19551,6 @@ const OFFERS_DATA = {
       "best_price_store": "Lidl",
       "best_price": 8.39,
       "comparison_count": 1,
-      "product_id": "lidl-баница-800g",
-      "weight_grams": 800,
-      "weight_raw": "800 g"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 8.39,
-      "new_price_eur": 4.29,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 10.49,
-      "price_per_kg_eur": 5.36,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 8.39,
-          "price_eur": 4.29,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 8.39,
-      "comparison_count": 1,
       "product_id": "lidl-сладолед-на-клечка-xxl-800g",
       "weight_grams": 800,
       "weight_raw": "8 x 100 ml"
@@ -23094,40 +19688,6 @@ const OFFERS_DATA = {
       "best_price": 8.49,
       "comparison_count": 1,
       "product_id": "kaufland-pasabahce-комплект-чаши-luzia"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 8.78,
-      "new_price_eur": 4.49,
-      "old_price": 10.99,
-      "old_price_eur": 5.62,
-      "discount_pct": 20,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 26.93,
-      "price_per_kg_eur": 13.77,
-      "source_type": "promo",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 8.78,
-          "price_eur": 4.49,
-          "old_price": 10.99,
-          "old_price_eur": 5.62,
-          "discount_pct": 20,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 8.78,
-      "comparison_count": 1,
-      "product_id": "lidl-суши-сет-мукава-326g",
-      "weight_grams": 326,
-      "weight_raw": "326 g"
     },
     {
       "store": "Kaufland",
@@ -23294,40 +19854,6 @@ const OFFERS_DATA = {
       "best_price": 9.0,
       "comparison_count": 1,
       "product_id": "kaufland-spice-soul-стъклени-протектори-2-бр"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 9.0,
-      "new_price_eur": 4.6,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 8.82,
-      "price_per_kg_eur": 4.51,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 9.0,
-          "price_eur": 4.6,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 9.0,
-      "comparison_count": 1,
-      "product_id": "lidl-пица-на-пещ-четири-сирена-xxl-1020g",
-      "weight_grams": 1020,
-      "weight_raw": "3 x 340 g"
     },
     {
       "store": "Kaufland",
@@ -23856,74 +20382,6 @@ const OFFERS_DATA = {
       "best_price": 9.99,
       "comparison_count": 1,
       "product_id": "kaufland-tronic-минивентилатор-hv-3-7-a1-различни-видове"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 9.99,
-      "new_price_eur": 5.11,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 13.32,
-      "price_per_kg_eur": 6.81,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 9.99,
-          "price_eur": 5.11,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 9.99,
-      "comparison_count": 1,
-      "product_id": "lidl-kашкавал-750g",
-      "weight_grams": 750,
-      "weight_raw": "750 g"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 10.35,
-      "new_price_eur": 5.29,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 14.37,
-      "price_per_kg_eur": 7.35,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 10.35,
-          "price_eur": 5.29,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 10.35,
-      "comparison_count": 1,
-      "product_id": "lidl-мини-пици-xxl-720g",
-      "weight_grams": 720,
-      "weight_raw": "24 x 30 g"
     },
     {
       "store": "Kaufland",
@@ -24844,40 +21302,6 @@ const OFFERS_DATA = {
       "weight_raw": "322 г"
     },
     {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 13.59,
-      "new_price_eur": 6.95,
-      "old_price": 17.0,
-      "old_price_eur": 8.69,
-      "discount_pct": 20,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 30.2,
-      "price_per_kg_eur": 15.44,
-      "source_type": "promo",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 13.59,
-          "price_eur": 6.95,
-          "old_price": 17.0,
-          "old_price_eur": 8.69,
-          "discount_pct": 20,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 13.59,
-      "comparison_count": 1,
-      "product_id": "lidl-кралски-скариди-450g",
-      "weight_grams": 450,
-      "weight_raw": "450 g"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 13.67,
@@ -25588,40 +22012,6 @@ const OFFERS_DATA = {
       "best_price": 15.24,
       "comparison_count": 1,
       "product_id": "kaufland-gillette-самобръсначка-venus-classic"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 15.63,
-      "new_price_eur": 7.99,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 39.07,
-      "price_per_kg_eur": 19.98,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 15.63,
-          "price_eur": 7.99,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 15.63,
-      "comparison_count": 1,
-      "product_id": "lidl-аржентински-скариди-400g",
-      "weight_grams": 400,
-      "weight_raw": "400 g"
     },
     {
       "store": "Kaufland",
