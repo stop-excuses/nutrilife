@@ -1,8 +1,8 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-06-08T08:58:53.928849Z",
-  "content_hash": "d214895ffa65ca9d48c7473dabd3559a",
-  "total_offers": 4324,
-  "promo_offers": 1839,
+  "generated_at": "2026-06-09T07:57:43.531863Z",
+  "content_hash": "452464c59898d05e8c82451c6eeb7bb1",
+  "total_offers": 4336,
+  "promo_offers": 1851,
   "assortment_offers": 2485,
   "stores": [
     "Billa",
@@ -2341,7 +2341,7 @@ const OFFERS_DATA = {
       "best_price_store": "Kaufland",
       "best_price": 3.89,
       "comparison_count": 1,
-      "product_id": "kaufland-картофи-четкани-5000g",
+      "product_id": "kaufland-български-картофи-четкани-5000g",
       "weight_grams": 5000,
       "weight_raw": "5 кг"
     },
@@ -4902,38 +4902,6 @@ const OFFERS_DATA = {
       "address": null,
       "new_price": 2.48,
       "new_price_eur": 1.27,
-      "old_price": 4.19,
-      "old_price_eur": 2.14,
-      "discount_pct": 41,
-      "valid_from": "2026-06-08",
-      "valid_until": "2026-06-14",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 2.48,
-          "price_eur": 1.27,
-          "old_price": 4.19,
-          "old_price_eur": 2.14,
-          "discount_pct": 41,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 2.48,
-      "comparison_count": 1,
-      "product_id": "kaufland-манго"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 2.48,
-      "new_price_eur": 1.27,
       "old_price": 3.38,
       "old_price_eur": 1.73,
       "discount_pct": 27,
@@ -6212,6 +6180,38 @@ const OFFERS_DATA = {
       "product_id": "kaufland-бреи-каима-смес-стандарт-стара-планина-500g",
       "weight_grams": 500,
       "weight_raw": "500 г"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 6.83,
+      "new_price_eur": 3.49,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-06-08",
+      "valid_until": "2026-06-14",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 6.83,
+          "price_eur": 3.49,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 6.83,
+      "comparison_count": 1,
+      "product_id": "kaufland-слънчоглед-ø12-см"
     },
     {
       "store": "Kaufland",
@@ -12615,6 +12615,40 @@ const OFFERS_DATA = {
       "discount_pct": 30,
       "valid_from": "2026-06-08",
       "valid_until": "2026-06-14",
+      "price_per_kg": 9.0,
+      "price_per_kg_eur": 4.6,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 2.43,
+          "price_eur": 1.24,
+          "old_price": 3.48,
+          "old_price_eur": 1.78,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 2.43,
+      "comparison_count": 1,
+      "product_id": "kaufland-friskies-суха-храна-за-котки-270-гр-270g",
+      "weight_grams": 270,
+      "weight_raw": "270 гр"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 2.43,
+      "new_price_eur": 1.24,
+      "old_price": 3.48,
+      "old_price_eur": 1.78,
+      "discount_pct": 30,
+      "valid_from": "2026-06-08",
+      "valid_until": "2026-06-14",
       "price_per_kg": 4.86,
       "price_per_kg_eur": 2.48,
       "source_type": "promo",
@@ -15148,6 +15182,38 @@ const OFFERS_DATA = {
     {
       "store": "Kaufland",
       "address": null,
+      "new_price": 4.85,
+      "new_price_eur": 2.48,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-06-08",
+      "valid_until": "2026-06-14",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 4.85,
+          "price_eur": 2.48,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 4.85,
+      "comparison_count": 1,
+      "product_id": "kaufland-каланхое-ø12-см"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
       "new_price": 4.87,
       "new_price_eur": 2.49,
       "old_price": 7.8,
@@ -16350,6 +16416,38 @@ const OFFERS_DATA = {
     {
       "store": "Kaufland",
       "address": null,
+      "new_price": 5.85,
+      "new_price_eur": 2.99,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-06-08",
+      "valid_until": "2026-06-14",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 5.85,
+          "price_eur": 2.99,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 5.85,
+      "comparison_count": 1,
+      "product_id": "kaufland-сентполия-ø12-см"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
       "new_price": 5.93,
       "new_price_eur": 3.03,
       "old_price": 6.98,
@@ -17210,6 +17308,38 @@ const OFFERS_DATA = {
       "product_id": "kaufland-l-angelica-душ-гел-различни-видове-500g",
       "weight_grams": 500,
       "weight_raw": "500 мл"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 6.75,
+      "new_price_eur": 3.45,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-06-08",
+      "valid_until": "2026-06-14",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 6.75,
+          "price_eur": 3.45,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 6.75,
+      "comparison_count": 1,
+      "product_id": "kaufland-гербер"
     },
     {
       "store": "Kaufland",
@@ -18386,6 +18516,38 @@ const OFFERS_DATA = {
     {
       "store": "Kaufland",
       "address": null,
+      "new_price": 7.8,
+      "new_price_eur": 3.99,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-06-08",
+      "valid_until": "2026-06-14",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 7.8,
+          "price_eur": 3.99,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 7.8,
+      "comparison_count": 1,
+      "product_id": "kaufland-пеларгониум-ø12-5-см"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
       "new_price": 7.98,
       "new_price_eur": 4.08,
       "old_price": null,
@@ -18578,6 +18740,38 @@ const OFFERS_DATA = {
       "best_price": 8.0,
       "comparison_count": 1,
       "product_id": "kaufland-syoss-боя-за-коса-различни-цветове"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 8.0,
+      "new_price_eur": 4.09,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-06-08",
+      "valid_until": "2026-06-14",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 8.0,
+          "price_eur": 4.09,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 8.0,
+      "comparison_count": 1,
+      "product_id": "kaufland-бегония-ø12-см"
     },
     {
       "store": "Kaufland",
@@ -18846,6 +19040,38 @@ const OFFERS_DATA = {
       "product_id": "kaufland-brio-ръчен-чопър-easy-cosy-900-мл-900g",
       "weight_grams": 900,
       "weight_raw": "900 мл"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 8.49,
+      "new_price_eur": 4.34,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-06-08",
+      "valid_until": "2026-06-14",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 8.49,
+          "price_eur": 4.34,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 8.49,
+      "comparison_count": 1,
+      "product_id": "kaufland-глоксиния-стаино-растение"
     },
     {
       "store": "Kaufland",
@@ -21094,6 +21320,38 @@ const OFFERS_DATA = {
     {
       "store": "Kaufland",
       "address": null,
+      "new_price": 11.72,
+      "new_price_eur": 5.99,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-06-08",
+      "valid_until": "2026-06-14",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 11.72,
+          "price_eur": 5.99,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 11.72,
+      "comparison_count": 1,
+      "product_id": "kaufland-миникаланхое-ø6-см"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
       "new_price": 11.99,
       "new_price_eur": 6.13,
       "old_price": 19.99,
@@ -21946,6 +22204,70 @@ const OFFERS_DATA = {
       "best_price": 13.98,
       "comparison_count": 1,
       "product_id": "kaufland-png-чаршаф-с-ластик-140-х-200-см"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 13.98,
+      "new_price_eur": 7.15,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-06-08",
+      "valid_until": "2026-06-14",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 13.98,
+          "price_eur": 7.15,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 13.98,
+      "comparison_count": 1,
+      "product_id": "kaufland-орхидея-микс-ø12-см"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 13.98,
+      "new_price_eur": 7.15,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-06-08",
+      "valid_until": "2026-06-14",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 13.98,
+          "price_eur": 7.15,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 13.98,
+      "comparison_count": 1,
+      "product_id": "kaufland-вризея-гузмания-или-тиландсия"
     },
     {
       "store": "Kaufland",
@@ -23092,6 +23414,38 @@ const OFFERS_DATA = {
     {
       "store": "Kaufland",
       "address": null,
+      "new_price": 17.99,
+      "new_price_eur": 9.2,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-06-08",
+      "valid_until": "2026-06-14",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 17.99,
+          "price_eur": 9.2,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 17.99,
+      "comparison_count": 1,
+      "product_id": "kaufland-цветна-орхидея-фаленопсис-оцветена-допълнително"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
       "new_price": 18.56,
       "new_price_eur": 9.49,
       "old_price": null,
@@ -23282,6 +23636,38 @@ const OFFERS_DATA = {
       "product_id": "kaufland-heineken-бира-12-бр-х-0-33-л-3960g",
       "weight_grams": 3960,
       "weight_raw": "12 бр. х 0,33 л"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 19.54,
+      "new_price_eur": 9.99,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-06-08",
+      "valid_until": "2026-06-14",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 19.54,
+          "price_eur": 9.99,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 19.54,
+      "comparison_count": 1,
+      "product_id": "kaufland-орхидея-фаленопсис-5-разкл-12см"
     },
     {
       "store": "Kaufland",
