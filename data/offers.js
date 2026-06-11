@@ -1,6 +1,6 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-06-11T08:27:35.835767Z",
-  "content_hash": "a31c0bd5a963ca1d5131a32189d4b1be",
+  "generated_at": "2026-06-11T13:55:15.197146Z",
+  "content_hash": "369bea22384c9b0fc2ef5bd94abecfaa",
   "total_offers": 4390,
   "promo_offers": 1611,
   "assortment_offers": 2779,
@@ -118091,7 +118091,7 @@ const OFFERS_DATA = {
       "best_price_store": "Kaufland",
       "best_price": 9.49,
       "comparison_count": 1,
-      "product_id": "kaufland-merci-lovelies-бонбони-микс-185g",
+      "product_id": "kaufland-merci-lovelies-бонбони-различни-видове-185g",
       "weight_grams": 185,
       "weight_raw": "185 г"
     },
