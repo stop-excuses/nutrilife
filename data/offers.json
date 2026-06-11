@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-11T16:44:03.272665Z",
-  "content_hash": "f5cadf85d119e801b03a48f890e9f10a",
-  "total_offers": 4389,
-  "promo_offers": 1610,
+  "generated_at": "2026-06-11T18:19:08.882215Z",
+  "content_hash": "369bea22384c9b0fc2ef5bd94abecfaa",
+  "total_offers": 4390,
+  "promo_offers": 1611,
   "assortment_offers": 2779,
   "stores": [
     "Billa",
@@ -7746,6 +7746,38 @@
       "best_price": 9.71,
       "comparison_count": 2,
       "product_id": "fantastico-филе-без-кожа-от-пиле-хранено-предм-с-ц-ца-т-ка-la-p-a-imr-t"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 9.99,
+      "new_price_eur": 5.11,
+      "old_price": 12.5,
+      "old_price_eur": 6.39,
+      "discount_pct": 20,
+      "valid_from": "2026-06-08",
+      "valid_until": "2026-06-14",
+      "price_per_kg": 9.99,
+      "price_per_kg_eur": 5.11,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 9.99,
+          "price_eur": 5.11,
+          "old_price": 12.5,
+          "old_price_eur": 6.39,
+          "discount_pct": 20,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 9.99,
+      "comparison_count": 1,
+      "product_id": "kaufland-пилешка-пържола-от-бут-с-кожа-маринована-от-свежата-витрина-2"
     },
     {
       "store": "Fantastico",
@@ -18819,7 +18851,7 @@
       "best_price_store": "Kaufland",
       "best_price": 3.89,
       "comparison_count": 1,
-      "product_id": "kaufland-картофи-четкани-5000g",
+      "product_id": "kaufland-български-картофи-четкани-5000g",
       "weight_grams": 5000,
       "weight_raw": "5 кг"
     },
@@ -116867,7 +116899,7 @@
       "best_price_store": "Kaufland",
       "best_price": 8.98,
       "comparison_count": 1,
-      "product_id": "kaufland-k-classic-сладолед-на-клечка-различни-видове-576g",
+      "product_id": "kaufland-k-classic-сладолед-на-клечка-maxx-mini-mix-576g",
       "weight_grams": 576,
       "weight_raw": "576 г"
     },
@@ -118059,7 +118091,7 @@
       "best_price_store": "Kaufland",
       "best_price": 9.49,
       "comparison_count": 1,
-      "product_id": "kaufland-merci-lovelies-бонбони-микс-185g",
+      "product_id": "kaufland-merci-lovelies-бонбони-различни-видове-185g",
       "weight_grams": 185,
       "weight_raw": "185 г"
     },
