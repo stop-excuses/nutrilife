@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-15T10:28:01.015529Z",
-  "content_hash": "2d5b8274ea597893a73c979c6b30a401",
+  "generated_at": "2026-06-15T10:52:22.847389Z",
+  "content_hash": "8513874280ad71dfaad878df674ad0e7",
   "total_offers": 4224,
   "promo_offers": 1409,
   "assortment_offers": 2815,
@@ -10522,6 +10522,38 @@
     {
       "store": "Kaufland",
       "address": null,
+      "new_price": 1.74,
+      "new_price_eur": 0.89,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-06-08",
+      "valid_until": "2026-07-05",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 1.74,
+          "price_eur": 0.89,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 1.74,
+      "comparison_count": 1,
+      "product_id": "kaufland-newcential-led-светлини-за-велосипед"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
       "new_price": 1.84,
       "new_price_eur": 0.94,
       "old_price": 2.64,
@@ -14490,38 +14522,6 @@
       "best_price": 4.99,
       "comparison_count": 1,
       "product_id": "kaufland-crivit-детски-очила-за-плуване-различни-видове"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 4.99,
-      "new_price_eur": 2.55,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-06-08",
-      "valid_until": "2026-07-05",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 4.99,
-          "price_eur": 2.55,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 4.99,
-      "comparison_count": 1,
-      "product_id": "kaufland-newcential-led-светлини-за-велосипед"
     },
     {
       "store": "Kaufland",
