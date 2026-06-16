@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-16T11:29:07.292933Z",
-  "content_hash": "9495247ae43e10ab130932680442f0e8",
-  "total_offers": 4234,
-  "promo_offers": 1419,
+  "generated_at": "2026-06-16T17:06:14.022277Z",
+  "content_hash": "7fabd3b36e61baf7fe09870fc7334c3d",
+  "total_offers": 4236,
+  "promo_offers": 1421,
   "assortment_offers": 2815,
   "stores": [
     "Billa",
@@ -1806,6 +1806,38 @@
       "product_id": "kaufland-k-classic-кисело-мляко-400g",
       "weight_grams": 400,
       "weight_raw": "400 г"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 1.13,
+      "new_price_eur": 0.58,
+      "old_price": 2.52,
+      "old_price_eur": 1.29,
+      "discount_pct": 55,
+      "valid_from": "2026-06-08",
+      "valid_until": "2026-07-05",
+      "price_per_kg": 1.13,
+      "price_per_kg_eur": 0.58,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 1.13,
+          "price_eur": 0.58,
+          "old_price": 2.52,
+          "old_price_eur": 1.29,
+          "discount_pct": 55,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 1.13,
+      "comparison_count": 1,
+      "product_id": "kaufland-диня-кг"
     },
     {
       "store": "Kaufland",
@@ -4344,6 +4376,40 @@
       "product_id": "kaufland-бяла-багета-от-нашата-пекарна-110g",
       "weight_grams": 110,
       "weight_raw": "110 г"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 0.27,
+      "new_price_eur": 0.14,
+      "old_price": 0.55,
+      "old_price_eur": 0.28,
+      "discount_pct": 51,
+      "valid_from": "2026-06-08",
+      "valid_until": "2026-07-05",
+      "price_per_kg": 15.88,
+      "price_per_kg_eur": 8.12,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 0.27,
+          "price_eur": 0.14,
+          "old_price": 0.55,
+          "old_price_eur": 0.28,
+          "discount_pct": 51,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 0.27,
+      "comparison_count": 1,
+      "product_id": "kaufland-nescafe-разтворимо-кафе-2-в-1-или-3-в-1-17g",
+      "weight_grams": 17,
+      "weight_raw": "17 г"
     },
     {
       "store": "Kaufland",
