@@ -2000,6 +2000,7 @@ function toggleFavorite(offerId) {
     const id = getOfferDomId(offer);
     const idx = favoriteItems.findIndex(f => favoriteKeywordsMatch(f.kw, kw));
     const previousSeedId = idx !== -1 ? favoriteItems[idx].seedOfferId : null;
+    let addedNewKw = false;
 
     if (idx !== -1) {
         if (favoriteItems[idx].seedOfferId === id) {
@@ -2013,6 +2014,7 @@ function toggleFavorite(offerId) {
         }
     } else {
         favoriteItems.push({ kw, seedOfferId: id, emoji: getFavEmoji(kw, offer.emoji), cat: offer.category || null });
+        addedNewKw = true;
     }
     saveFavorites();
     // Refresh exactly the hearts that may have changed: the previous seed (if any)
@@ -2028,6 +2030,22 @@ function toggleFavorite(offerId) {
         });
     });
     renderFavoritesPanel();
+    // When adding a brand-new keyword, immediately reveal the row with all its
+    // matching offers so the user sees "Риба тон → all tuna offers" without
+    // having to click on the row to expand it.
+    if (addedNewKw) {
+        const panel = document.getElementById('fav-panel');
+        if (panel) {
+            const newRow = panel.querySelector(`.fav-item[data-kw="${CSS.escape(kw)}"]`);
+            if (newRow) {
+                newRow.classList.add('expanded');
+                const favSection = document.getElementById('fav-section');
+                if (favSection) {
+                    favSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            }
+        }
+    }
 }
 
 function findOfferByDomId(offerId) {
