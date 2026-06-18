@@ -1898,8 +1898,14 @@ const KEYWORD_EMOJI = {
     'хляб':              '🍞',
 };
 
+const PROMO_PREFIX_RE = /^\s*(?:брей!?\s*|супер\s*цена\s*[-–—:]?\s*|промо\s*[-–—:]?\s*|оферта\s*[-–—:]?\s*|акция\s*[-–—:]?\s*|нов[оа]?\s*[-–—:]?\s*|new\s*[-–—:]?\s*|big\s*[-–—:]?\s*|family\s*[-–—:]?\s*)+/i;
+
+function stripPromoPrefix(name) {
+    return (name || "").replace(PROMO_PREFIX_RE, "").trim();
+}
+
 function extractFavoriteKeyword(offer) {
-    const nl = offer.name.toLowerCase();
+    const nl = stripPromoPrefix(offer.name).toLowerCase();
     const cat = normalizeOfferCategory(offer);
     // Group whole chicken and generic chicken cuts together instead of creating
     // one watch-list row per scraped product wording.
@@ -2099,16 +2105,13 @@ function renderFavoritesPanel() {
 
     const rows = Array.from(groups.values()).map(({ kw, emoji, cat, ids }) => {
         const favSet = new Set(ids);
-        const myFavoritedOffers = allOffers
+        // Show ONLY the products the user actually favorited — no auto-pulling of
+        // similar items. The watch list is a wishlist, not a price-comparison view.
+        const offers = allOffers
             .filter(o => favSet.has(getOfferDomId(o)) && o.new_price != null)
             .sort((a, b) => a.new_price - b.new_price);
-        // For price comparison, also show same-keyword offers (not yet favorited).
-        const similar = allOffers
-            .filter(o => o.new_price != null && !favSet.has(getOfferDomId(o)) && favoriteMatchesOffer(o, kw, cat))
-            .sort((a, b) => a.new_price - b.new_price);
-        const offers = [...myFavoritedOffers, ...similar];
         const onSale = offers.filter(o => o.discount_pct);
-        const favCount = myFavoritedOffers.length;
+        const favCount = offers.length;
         const statusHtml = onSale.length > 0
             ? `<span class="fav-status on-sale">🔥 ${onSale.length} намаления</span>`
             : favCount > 0

@@ -336,8 +336,11 @@ _PLACEHOLDER_IMAGE_MARKERS = (
     "no-image-placeholder",
     "no_image_placeholder",
     "noimage",
+    "no-image-thumb",          # api.bulmag.org/default-images/no-image-thumb.jpg
+    "/default-images/",        # bulmag's "няма налично изображение"
     "placeholder.svg",
     "/etc.clientlibs/kaufland/",
+    "tmarketonline.bg/cdn/img/logo/",  # T-Market falling back to their store logo
 )
 def _has_real_image(img):
     if not img or not isinstance(img, str):
@@ -347,7 +350,19 @@ def _has_real_image(img):
     low = img.lower()
     return not any(marker in low for marker in _PLACEHOLDER_IMAGE_MARKERS)
 
-_BG_STOP = {"за","от","с","без","и","или","в","на","при","до","по","над","под","пред","след","кг","г","гр","мл","л","бр","х","x","×","ц","х","xxl"}
+# Promo/marketing/junk words that must NOT count for image matching — they are
+# common across many unrelated products (e.g. "Супер цена -" wraps both
+# yogurts and chicken offers) and cause borrow-from-wrong-product.
+_BG_STOP = {
+    "за","от","с","без","и","или","в","на","при","до","по","над","под","пред","след",
+    "кг","г","гр","мл","л","бр","х","x","×","ц","xxl",
+    "супер","цена","брей","брей!","промо","промоция","оферта","намаление","нов","ново","акция",
+    "ready","fresh","new","best","top","big","mini","family","selection","essential","extra",
+    "billa","kaufland","lidl","fantastico","tmarket","metro","bulmag",
+    "пр","пр-д","пр-я","пр-да","пр-ва","произведено","произход","турция","българия","българско",
+    "вид","различни","видове","различен",
+    "от","той","нея","това","тези","тази",
+}
 _WEIGHT_RE = re.compile(r"\d+(?:[.,]\d+)?\s*(?:кг|г|гр|мл|л|бр|kg|g|ml|l|x|×)", re.IGNORECASE)
 def _name_words(name):
     if not name:
@@ -355,32 +370,55 @@ def _name_words(name):
     lower = _WEIGHT_RE.sub(" ", name.lower())
     return [w for w in re.split(r"[\s,.\-/()]+", lower) if len(w) > 2 and w not in _BG_STOP]
 
-# Build word -> [image_url] index from all catalog products with a real photo.
-word_to_images = {}
+# Build word -> [(image_url, category)] index from catalog products with real photos.
+word_to_image_cats = {}
 for p in ap_data.get("products", []):
     if not _has_real_image(p.get("image")):
         continue
     img = p["image"]
+    cat = p.get("category") or ""
     for w in _name_words(p.get("name")):
-        word_to_images.setdefault(w, []).append(img)
+        word_to_image_cats.setdefault(w, []).append((img, cat))
+
+# Build reverse: image_url -> set of categories that own it in the catalog.
+image_to_cats = {}
+for p in ap_data.get("products", []):
+    img = p.get("image")
+    if not _has_real_image(img):
+        continue
+    image_to_cats.setdefault(img, set()).add(p.get("category") or "")
 
 borrowed_count = 0
 placeholders_cleared = 0
+mismatched_cleared = 0
 seen_borrowed = {}
 for offer in offers_data.get("offers", []):
-    # Strip Wikipedia/Kaufland 'no-image' placeholder URLs so cross-borrowing can replace them.
+    # Strip placeholder URLs so cross-borrowing can replace them.
     if offer.get("image") and not _has_real_image(offer.get("image")) and not (offer.get("image") or "").startswith("images/"):
         offer["image"] = None
         placeholders_cleared += 1
+    # Revalidate existing CDN image: if no catalog product of the same category owns
+    # this image, it was wrongly borrowed in a prior sync — clear it for re-borrow.
+    if _has_real_image(offer.get("image")):
+        owners = image_to_cats.get(offer["image"], set())
+        offer_cat = offer.get("category") or ""
+        if owners and offer_cat and offer_cat not in owners:
+            offer["image"] = None
+            mismatched_cleared += 1
     if _has_real_image(offer.get("image")):
         continue
     words = _name_words(offer.get("name"))
     if not words:
         continue
+    offer_cat = offer.get("category") or ""
+    # Require both a category match AND ≥2 specific-word overlap (or 1 if name is very short).
     min_match = 2 if len(words) >= 2 else 1
     scores = {}
     for w in words:
-        for img in word_to_images.get(w, ()):
+        for (img, cat) in word_to_image_cats.get(w, ()):
+            # Same-category requirement: do not borrow yogurt photo for a chicken offer.
+            if offer_cat and cat and cat != offer_cat:
+                continue
             scores[img] = scores.get(img, 0) + 1
     best_img, best_score = None, min_match - 1
     for img, score in scores.items():
@@ -393,6 +431,8 @@ for offer in offers_data.get("offers", []):
 
 if placeholders_cleared:
     print(f"Cleared {placeholders_cleared} placeholder image URLs (Wikipedia/Kaufland no-image)")
+if mismatched_cleared:
+    print(f"Cleared {mismatched_cleared} cross-category mismatched image URLs (wrongly borrowed earlier)")
 if borrowed_count:
     print(f"Borrowed real CDN images for {borrowed_count} offers (e.g. Fantastico/Dar)")
 if fixed_ppk:
