@@ -1995,8 +1995,19 @@ function favoriteMatchesOffer(offer, kw, cat) {
 
 function isFavorited(offer) {
     if (!offer) return false;
-    const id = getOfferDomId(offer);
-    return favoriteItems.some(f => f.seedOfferIds.includes(id));
+    const kw = extractFavoriteKeyword(offer);
+    return favoriteItems.some(f => favoriteKeywordsMatch(f.kw, kw));
+}
+
+function refreshFavoriteHeartsForKeyword(kw) {
+    const isOn = favoriteItems.some(f => favoriteKeywordsMatch(f.kw, kw));
+    document.querySelectorAll('.fav-btn[data-offer-id]').forEach(btn => {
+        const o = findOfferByDomId(btn.dataset.offerId);
+        if (!o) return;
+        if (!favoriteKeywordsMatch(extractFavoriteKeyword(o), kw)) return;
+        btn.classList.toggle('active', isOn);
+        btn.title = isOn ? 'Премахни от списъка' : 'Добави към списъка';
+    });
 }
 
 function toggleFavorite(offerId) {
@@ -2004,39 +2015,21 @@ function toggleFavorite(offerId) {
     if (!offer) return;
     const kw = extractFavoriteKeyword(offer);
     const id = getOfferDomId(offer);
+    const idx = favoriteItems.findIndex(f => favoriteKeywordsMatch(f.kw, kw));
     let addedNewKw = false;
 
-    // First: is this exact offer already marked? Just un-mark it.
-    const containingIdx = favoriteItems.findIndex(f => f.seedOfferIds.includes(id));
-    if (containingIdx !== -1) {
-        const item = favoriteItems[containingIdx];
-        item.seedOfferIds = item.seedOfferIds.filter(x => x !== id);
-        if (item.seedOfferIds.length === 0) {
-            favoriteItems.splice(containingIdx, 1);
-        }
+    if (idx !== -1) {
+        // Already tracking this keyword → un-track the whole group.
+        favoriteItems.splice(idx, 1);
     } else {
-        // Add to existing keyword group, or create a new one.
-        const kwIdx = favoriteItems.findIndex(f => favoriteKeywordsMatch(f.kw, kw));
-        if (kwIdx !== -1) {
-            favoriteItems[kwIdx].seedOfferIds.push(id);
-            favoriteItems[kwIdx].emoji = favoriteItems[kwIdx].emoji || getFavEmoji(kw, offer.emoji);
-            favoriteItems[kwIdx].cat = favoriteItems[kwIdx].cat || offer.category || null;
-        } else {
-            favoriteItems.push({ kw, seedOfferIds: [id], emoji: getFavEmoji(kw, offer.emoji), cat: offer.category || null });
-            addedNewKw = true;
-        }
+        favoriteItems.push({ kw, seedOfferIds: [id], emoji: getFavEmoji(kw, offer.emoji), cat: offer.category || null });
+        addedNewKw = true;
     }
     saveFavorites();
-    // Refresh only the clicked card's hearts — every other seed is independent.
-    const active = isFavorited(offer);
-    document.querySelectorAll(`.fav-btn[data-offer-id="${CSS.escape(id)}"]`).forEach(btn => {
-        btn.classList.toggle('active', active);
-        btn.title = active ? 'Премахни от списъка' : 'Добави към списъка';
-    });
+    // Every offer card that resolves to the same favorite keyword reflects the
+    // group state — so all "Риба тон" hearts light up/off together.
+    refreshFavoriteHeartsForKeyword(kw);
     renderFavoritesPanel();
-    // When adding a brand-new keyword, immediately reveal the row with all its
-    // matching offers so the user sees "Риба тон → all tuna offers" without
-    // having to click on the row to expand it.
     if (addedNewKw) {
         const panel = document.getElementById('fav-panel');
         if (panel) {
@@ -2258,10 +2251,6 @@ function renderFavoritesPanel() {
         btn.addEventListener('click', e => {
             e.stopPropagation();
             const kw = btn.dataset.kw;
-            const seedIds = favoriteItems
-                .filter(f => favoriteKeywordsMatch(f.kw, kw))
-                .flatMap(f => f.seedOfferIds || [])
-                .filter(Boolean);
             favoriteItems = favoriteItems.filter(f => !favoriteKeywordsMatch(f.kw, kw));
             const selectedOffer = allOffers.find(o => getOfferDomId(o) === selectedFavoriteOfferId);
             if (selectedOffer && favoriteKeywordsMatch(extractFavoriteKeyword(selectedOffer), kw)) {
@@ -2269,12 +2258,7 @@ function renderFavoritesPanel() {
                 document.body.classList.remove('fav-product-open');
             }
             saveFavorites();
-            seedIds.forEach(id => {
-                document.querySelectorAll(`.fav-btn[data-offer-id="${CSS.escape(id)}"]`).forEach(b => {
-                    b.classList.remove('active');
-                    b.title = 'Добави към списъка';
-                });
-            });
+            refreshFavoriteHeartsForKeyword(kw);
             renderFavoritesPanel();
         });
     });

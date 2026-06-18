@@ -1,13 +1,12 @@
-// Favorites flow on smart-food.html
+// Favorites flow on smart-food.html (keyword-group model)
 // Covers:
 //  - inactive vs active heart visuals
-//  - multiple seeds per keyword (each click adds an independent seed)
-//  - prior seeds STAY active when a new card of the same keyword is favorited
-//  - fav row auto-expands on first add, smooth-scrolls into view
-//  - per-card un-favorite leaves other seeds active
-//  - last seed un-favorite removes the whole kw row
-//  - × button removes the whole kw and resets all matching hearts
-//  - cross-keyword: tuna + chicken coexist as two rows
+//  - click ANY риба тон card -> ALL риба тон hearts auto-fill red
+//  - "Риба тон" row auto-expands on add with all matching offers inside
+//  - click any active heart of the group -> whole keyword goes off (all hearts inactive, row removed)
+//  - × on watch-list row removes the whole keyword + resets all hearts
+//  - cross-keyword: tuna + chicken coexist as two rows, independent toggles
+//  - persistence across reload
 //
 // Usage: with `python -m http.server 8000` running:
 //   node tests/user-flow-smart-food-favorites.js
@@ -15,7 +14,6 @@ const { chromium } = require('@playwright/test');
 
 const BASE = 'http://127.0.0.1:8000/smart-food.html';
 
-// CSS.escape is not available in Node — emulate for selector building.
 function cssEscape(value) {
   return String(value).replace(/[!"#$%&'()*+,.\/:;<=>?@[\\\]^`{|}~ ]/g, ch => '\\' + ch);
 }
@@ -88,6 +86,10 @@ function cssEscape(value) {
     }, offerId);
   }
 
+  async function activeCountInGrid(page) {
+    return await page.locator('#offers-grid .offer-img-area .fav-btn.active').count();
+  }
+
   async function clickHeart(page, offerId) {
     await page.click(`.offer-img-area .fav-btn[data-offer-id="${cssEscape(offerId)}"]`);
   }
@@ -103,8 +105,6 @@ function cssEscape(value) {
     page.on('pageerror', e => errors.push(`[${profile.label}] pageerror: ${e.message}`));
     page.on('console', m => {
       const text = m.text();
-      // Ignore product-image CDN failures and other resource-load noise
-      // unrelated to favorites logic.
       const isResourceNoise = /Failed to load resource/i.test(text)
         || /imgproxy/i.test(text)
         || /404|403/.test(text);
@@ -113,40 +113,49 @@ function cssEscape(value) {
     });
 
     await page.goto(BASE, { waitUntil: 'networkidle' });
-    // Clear AFTER load so reloads later in the test keep storage intact.
     await page.evaluate(() => localStorage.removeItem('nutrilife-favorites'));
     await page.reload({ waitUntil: 'networkidle' });
     await page.waitForTimeout(2200);
 
-    // Initial: empty favorites
+    // Empty start
     const initFavs = await favoriteIds(page);
     step('Empty start: localStorage favorites is []', initFavs.length === 0, JSON.stringify(initFavs));
-    const initEmpty = await page.locator('.fav-empty').count();
-    step('Empty start: fav panel shows .fav-empty', initEmpty === 1);
+    step('Empty start: fav panel shows .fav-empty', (await page.locator('.fav-empty').count()) === 1);
 
-    // Heart visual styles: inactive
+    // Search риба тон
     await runSearch(page, 'риба тон');
     const tunaCardCount = await page.locator('#offers-grid .offer-card').count();
     step(`Search 'риба тон' returns cards`, tunaCardCount >= 3, `${tunaCardCount} cards`);
-
     const tunaIds = await tunaCardIds(page);
-    step('Got at least 3 tuna offer ids for multi-seed test', tunaIds.length >= 3, `${tunaIds.length} real-tuna cards`);
+    step('Got at least 3 real tuna offer ids', tunaIds.length >= 3, `${tunaIds.length} real-tuna cards`);
 
+    // Inactive visuals
     const inactiveVis = await heartLooksDistinct(page, tunaIds[0]);
-    step('Inactive heart: filter is grayscale', /grayscale/.test(inactiveVis?.filter || ''), inactiveVis?.filter);
-    step('Inactive heart: transform none', inactiveVis?.transform === 'none', inactiveVis?.transform);
+    step('Inactive heart: grayscale filter', /grayscale/.test(inactiveVis?.filter || ''), inactiveVis?.filter);
+    step('Inactive heart: no transform', inactiveVis?.transform === 'none', inactiveVis?.transform);
 
-    // Click first heart -> active
+    // Active visuals after click
+    const allTunaInactiveBefore = await Promise.all(tunaIds.map(id => heartIsActive(page, id)));
+    step('Before any click: all tuna hearts inactive', allTunaInactiveBefore.every(x => x === false));
+
     await clickHeart(page, tunaIds[0]);
     await page.waitForTimeout(500);
-    const activeVis = await heartLooksDistinct(page, tunaIds[0]);
-    step('After click: heart .active', activeVis?.active === true);
-    step('Active heart: filter none (full color)', activeVis?.filter === 'none', activeVis?.filter);
-    step('Active heart: scaled up', /matrix\(1\.12/.test(activeVis?.transform || ''), activeVis?.transform);
+    const clickedVis = await heartLooksDistinct(page, tunaIds[0]);
+    step('Clicked heart now .active', clickedVis?.active === true);
+    step('Clicked heart: filter none (full color)', clickedVis?.filter === 'none', clickedVis?.filter);
+    step('Clicked heart: scaled up', /matrix\(1\.12/.test(clickedVis?.transform || ''), clickedVis?.transform);
 
-    // Fav panel: 'Риба тон' row appears, auto-expanded
-    const kwLabel = await page.locator('#fav-panel .fav-item .fav-kw').first().textContent();
-    step('Fav panel shows "Риба тон" row', (kwLabel || '').trim() === 'Риба тон', kwLabel);
+    // KEY: ALL other риба тон hearts also auto-fill red
+    const sampleIds = tunaIds.slice(0, Math.min(5, tunaIds.length));
+    const sampleActive = await Promise.all(sampleIds.map(id => heartIsActive(page, id)));
+    const groupActiveCount = sampleActive.filter(x => x === true).length;
+    step('Group auto-fill: all sampled риба тон hearts active', groupActiveCount === sampleIds.length, `${groupActiveCount}/${sampleIds.length}`);
+    const totalActiveInGrid = await activeCountInGrid(page);
+    step('Many hearts active in grid after single click', totalActiveInGrid >= tunaIds.length, `${totalActiveInGrid} active hearts (>= ${tunaIds.length} tuna)`);
+
+    // Fav panel shows the group row
+    const kwLabel = (await page.locator('#fav-panel .fav-item .fav-kw').first().textContent() || '').trim();
+    step('Fav panel shows "Риба тон" row', kwLabel === 'Риба тон', kwLabel);
     const expanded = await page.evaluate(() =>
       document.querySelector('#fav-panel .fav-item')?.classList.contains('expanded')
     );
@@ -154,103 +163,61 @@ function cssEscape(value) {
     const insideOffers = await page.locator('#fav-panel .fav-item .fav-card').count();
     step('Row shows matching tuna offer cards inside', insideOffers >= 1, `${insideOffers} fav cards inside`);
 
-    // Click second tuna card -> BOTH stay active
-    await clickHeart(page, tunaIds[1]);
-    await page.waitForTimeout(400);
-    const a0 = await heartIsActive(page, tunaIds[0]);
-    const a1 = await heartIsActive(page, tunaIds[1]);
-    step('After 2nd tuna fav: first heart STILL active', a0 === true);
-    step('After 2nd tuna fav: second heart active', a1 === true);
-    const favs2 = await favoriteIds(page);
-    step('Storage: one kw row with 2 seedOfferIds',
-      favs2.length === 1 && Array.isArray(favs2[0].seedOfferIds) && favs2[0].seedOfferIds.length === 2,
-      JSON.stringify(favs2));
+    // Storage: one kw entry
+    const favsAfterAdd = await favoriteIds(page);
+    step('Storage: one kw entry for риба тон',
+      favsAfterAdd.length === 1 && favsAfterAdd[0].kw === 'риба тон',
+      JSON.stringify(favsAfterAdd.map(f => f.kw)));
 
-    // Click third tuna card -> all three active
+    // Click ANY tuna heart -> whole group toggles off
     await clickHeart(page, tunaIds[2]);
     await page.waitForTimeout(400);
-    const allThreeActive = await Promise.all([
-      heartIsActive(page, tunaIds[0]),
-      heartIsActive(page, tunaIds[1]),
-      heartIsActive(page, tunaIds[2]),
-    ]);
-    step('After 3rd tuna fav: all three hearts active', allThreeActive.every(x => x === true), JSON.stringify(allThreeActive));
-    const favs3 = await favoriteIds(page);
-    step('Storage: still 1 kw row with 3 seedOfferIds',
-      favs3.length === 1 && favs3[0].seedOfferIds.length === 3,
-      JSON.stringify(favs3.map(f => ({ kw: f.kw, n: f.seedOfferIds.length }))));
+    const allTunaInactive = await Promise.all(tunaIds.map(id => heartIsActive(page, id)));
+    step('After clicking any active heart: ALL tuna hearts inactive', allTunaInactive.every(x => x === false));
+    const favsAfterOff = await favoriteIds(page);
+    step('Storage: tuna kw removed', favsAfterOff.length === 0, JSON.stringify(favsAfterOff));
+    step('Watch-list row gone', (await page.locator('#fav-panel .fav-item').count()) === 0);
 
-    // Un-favorite middle one — other two stay active
-    await clickHeart(page, tunaIds[1]);
+    // Re-add tuna, then add chicken — two independent rows
+    await clickHeart(page, tunaIds[0]);
     await page.waitForTimeout(400);
-    const stateAfterMid = await Promise.all([
-      heartIsActive(page, tunaIds[0]),
-      heartIsActive(page, tunaIds[1]),
-      heartIsActive(page, tunaIds[2]),
-    ]);
-    step('Un-fav middle: first stays active', stateAfterMid[0] === true);
-    step('Un-fav middle: middle now inactive', stateAfterMid[1] === false);
-    step('Un-fav middle: third stays active', stateAfterMid[2] === true);
-    const favsMid = await favoriteIds(page);
-    step('Storage: 1 row, 2 seeds after un-fav middle',
-      favsMid.length === 1 && favsMid[0].seedOfferIds.length === 2,
-      JSON.stringify(favsMid.map(f => ({ kw: f.kw, n: f.seedOfferIds.length }))));
-
-    // Add a different keyword — chicken
     await runSearch(page, 'пилешко филе');
-    await page.waitForTimeout(400);
-    let chickenIdsFinal = await chickenCardIds(page);
-    if (chickenIdsFinal.length === 0) {
+    let chickenIds = await chickenCardIds(page);
+    if (chickenIds.length === 0) {
       await runSearch(page, 'пиле');
-      chickenIdsFinal = await chickenCardIds(page);
+      chickenIds = await chickenCardIds(page);
     }
-    step('Got at least 1 chicken offer id', chickenIdsFinal.length >= 1, `${chickenIdsFinal.length}`);
-    await clickHeart(page, chickenIdsFinal[0]);
+    step('Got at least 1 chicken offer id', chickenIds.length >= 1, `${chickenIds.length}`);
+    await clickHeart(page, chickenIds[0]);
     await page.waitForTimeout(400);
     const twoRows = await page.locator('#fav-panel .fav-item').count();
     step('Two distinct keyword rows now', twoRows === 2, `${twoRows} fav rows`);
 
-    // Go back to tuna and un-favorite remaining seeds — last one removes the row
-    await runSearch(page, 'риба тон');
-    await page.waitForTimeout(400);
-    await clickHeart(page, tunaIds[0]);
+    // All chicken hearts auto-fill in the now-visible chicken results
+    const chickenSampleActive = await Promise.all(chickenIds.slice(0, 5).map(id => heartIsActive(page, id)));
+    step('All chicken hearts active after single click', chickenSampleActive.every(x => x === true), JSON.stringify(chickenSampleActive));
+
+    // × button: removes only that kw, other kw row stays
+    await page.click('#fav-panel .fav-item[data-kw="пилешко"] .fav-rm');
     await page.waitForTimeout(300);
-    const stillTunaRow1 = await page.locator('#fav-panel .fav-item[data-kw="риба тон"]').count();
-    step('After removing 1 of 2 tuna seeds: tuna row still present', stillTunaRow1 === 1);
-    await clickHeart(page, tunaIds[2]);
-    await page.waitForTimeout(300);
-    const stillTunaRow0 = await page.locator('#fav-panel .fav-item[data-kw="риба тон"]').count();
-    step('After removing last tuna seed: tuna row GONE', stillTunaRow0 === 0);
     const rowsLeft = await page.locator('#fav-panel .fav-item').count();
-    step('Chicken row still present', rowsLeft === 1, `${rowsLeft} rows`);
+    step('× removes only its keyword (tuna row stays)', rowsLeft === 1);
+    const remainingKw = (await page.locator('#fav-panel .fav-item .fav-kw').first().textContent() || '').trim();
+    step('Remaining row is "Риба тон"', remainingKw === 'Риба тон', remainingKw);
+    const chickenHeartsAfterX = await Promise.all(chickenIds.slice(0, 5).map(id => heartIsActive(page, id)));
+    step('× resets all chicken hearts to inactive', chickenHeartsAfterX.every(x => x === false));
 
-    // × button on chicken: removes whole kw, heart goes inactive
-    await runSearch(page, 'пиле');
-    await page.waitForTimeout(400);
-    const chickenSeedHeartCount = await page.locator(`.offer-img-area .fav-btn[data-offer-id="${cssEscape(chickenIdsFinal[0])}"]`).count();
-    if (chickenSeedHeartCount > 0) {
-      await page.click('#fav-panel .fav-item .fav-rm');
-      await page.waitForTimeout(300);
-      const noRows = await page.locator('#fav-panel .fav-item').count();
-      const empty = await page.locator('#fav-panel .fav-empty').count();
-      step('× removes kw row', noRows === 0 && empty === 1);
-      const heartAfterX = await heartIsActive(page, chickenIdsFinal[0]);
-      step('× resets the chicken seed heart to inactive', heartAfterX === false || heartAfterX === null);
-    }
-
-    // Persistence across reload
-    await clickHeart(page, chickenIdsFinal[0]);
-    await page.waitForTimeout(300);
+    // Reload persistence
     await page.reload({ waitUntil: 'networkidle' });
     await page.waitForTimeout(2200);
-    await runSearch(page, 'пиле');
-    await page.waitForTimeout(400);
-    const afterReload = await heartIsActive(page, chickenIdsFinal[0]);
-    step('Reload: heart still active for previously favorited seed', afterReload === true);
-    const afterReloadStorage = await favoriteIds(page);
-    step('Reload: storage round-trips seedOfferIds array',
-      afterReloadStorage.length === 1 && Array.isArray(afterReloadStorage[0].seedOfferIds) && afterReloadStorage[0].seedOfferIds.length === 1,
-      JSON.stringify(afterReloadStorage));
+    await runSearch(page, 'риба тон');
+    const tunaAfterReload = await tunaCardIds(page);
+    const tunaActiveAfterReload = await Promise.all(tunaAfterReload.slice(0, 5).map(id => heartIsActive(page, id)));
+    step('Reload: tuna group still active', tunaActiveAfterReload.length > 0 && tunaActiveAfterReload.every(x => x === true), JSON.stringify(tunaActiveAfterReload));
+    const favsAfterReload = await favoriteIds(page);
+    step('Reload: storage round-trips kw',
+      favsAfterReload.length === 1 && favsAfterReload[0].kw === 'риба тон',
+      JSON.stringify(favsAfterReload.map(f => f.kw)));
 
     await browser.close();
   }
