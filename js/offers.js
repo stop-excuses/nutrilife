@@ -30,7 +30,13 @@ let liveFallbackByCategory = new Map(); // category → real CDN image URL
 
 const OFFERS_PER_PAGE = 36;
 const PLACEHOLDER_IMAGE_MARKER = "No-Image-Placeholder.svg";
-const BROKEN_IMAGE_HOST_MARKERS = ["imgproxy-retcat.assets.schwarz"];
+const BROKEN_IMAGE_HOST_MARKERS = [
+    "imgproxy-retcat.assets.schwarz",
+    "kaufland.media.schwarz/is/image/schwarz/",
+    "tmarketonline.bg/cdn/img/products/",
+    "media.kaufland.com/images/PPIM/",
+    "/etc.clientlibs/kaufland/"
+];
 
 function getCatalogProductsData() {
     if (typeof MARKET_MEMORY_DATA !== "undefined") return MARKET_MEMORY_DATA.products || [];
@@ -72,7 +78,7 @@ const NON_EDIBLE_PRODUCT_KEYWORDS = [
 ];
 
 const ULTRA_PROCESSED_HEALTH_KEYWORDS = [
-    "топено сирене"
+    "топено сирене", "вафл", "шоколад", "бонбон", "raffaello", "рафаело", "lambertz"
 ];
 
 const BASELINE_RECOMMENDATION_EXCLUDE_KEYWORDS = [
@@ -148,8 +154,8 @@ const EXACT_NON_FOOD_NAMES = new Set(["гъба"]);
 const HEALTH_DISQUALIFY_KEYWORDS = [
     "сапун", "кърпи", "шампоан", "балсам", "душ гел", "паста за зъби",
     "пюре", "бебе", "бебеш", "детск", "инстантни спагет", "нудли", "рамен",
-    "боя за", "кристали за яйца", "стикери", "вафла", "шоколад",
-    "кроасан", "баница", "снак", "чипс"
+    "боя за", "кристали за яйца", "стикери", "вафл", "шоколад",
+    "кроасан", "баница", "снак", "чипс", "бонбон", "raffaello", "рафаело", "lambertz"
 ];
 
 const LOCAL_IMAGE_RULES = [
@@ -933,6 +939,16 @@ function hasPreparedContext(nameLower, terms) {
         || ["салата", "сос", "супа", "бульон", "яхния", "къри", "гарнитура", "банич", "кюфте", "дресинг", "крем", "десерт", "нудли", "спагети", "лазаня", "кори", "гофрет", "бишкоти", "шоколад", "великден", "пюре", "бар", "бисквит", "напитка"].some(term => nameLower.includes(term));
 }
 
+function isRealEggOfferName(nameLower) {
+    const hasEggWord = /\bяйц\w*\b|\bяиц\w*\b|\beggs?\b/i.test(nameLower);
+    if (!hasEggWord) return false;
+    const sweetEggWords = ["вафл", "шоколад", "бонбон", "крем", "пълнеж", "raffaello", "рафаело", "lambertz", "kinder"];
+    if (sweetEggWords.some(word => nameLower.includes(word))) return false;
+    return /\b\d+\s*(?:бр|бр\.|броя)\b/i.test(nameLower)
+        || nameLower.includes("кора яйца")
+        || nameLower.includes("пресни яйц");
+}
+
 function matchesPreciseSearch(offer, query) {
     const q = normalizeSearchQuery(query);
     if (!q) return true;
@@ -942,6 +958,7 @@ function matchesPreciseSearch(offer, query) {
         if (Array.isArray(intent.category) && !intent.category.includes(offer.category)) return false;
         if (intent.category && !Array.isArray(intent.category) && offer.category !== intent.category) return false;
         if (!intent.include.some(term => hasSearchPhrase(nameLower, term))) return false;
+        if (intent.canonical === "яйца" && !isRealEggOfferName(nameLower)) return false;
         if (intent.rejectTokenStarts?.some(term => getSearchTokens(nameLower).some(token => token.startsWith(term)))) return false;
         if (intent.rejectIngredientContext && hasIngredientContext(nameLower, intent.include)) return false;
         if (intent.rejectPreparedContext && hasPreparedContext(nameLower, intent.include)) return false;
@@ -1175,6 +1192,14 @@ function getLocalFallbackImage(offer) {
 }
 
 function getOfferImage(offer) {
+    if (typeof location !== "undefined"
+        && (location.hostname === "localhost" || location.hostname === "127.0.0.1")
+        && hasExternalImage(offer.image)) {
+        return getLocalFallbackImage(offer);
+    }
+    if (typeof navigator !== "undefined" && navigator.onLine === false && hasExternalImage(offer.image)) {
+        return getLocalFallbackImage(offer);
+    }
     if (hasRealImage(offer.image)) return offer.image;
     return getLocalFallbackImage(offer);
 }
@@ -1237,13 +1262,13 @@ function buildOfferProfile(offer) {
     const nameLower = getOfferNameLower(offer);
     const macros = getMacros(offer);
     const isFood = !!offer.is_food;
-    const isJunk = !!offer.is_junk;
+    const isUltraProcessed = ULTRA_PROCESSED_HEALTH_KEYWORDS.some(kw => nameLower.includes(kw));
+    const isJunk = !!offer.is_junk || isUltraProcessed;
     const isCuredLeanMeatValue = matchesCuredLeanMeat(offer);
     const isProcessedMeatValue = PROCESSED_MEAT_KEYWORDS.some(kw => nameLower.includes(kw));
     const isNonHumanFood = NON_HUMAN_FOOD_KEYWORDS.some(kw => nameLower.includes(kw));
     const isNonEdibleProduct = EXCLUDED_HEALTH_CATEGORIES.has(offer.category)
         || NON_EDIBLE_PRODUCT_KEYWORDS.some(kw => nameLower.includes(kw));
-    const isUltraProcessed = ULTRA_PROCESSED_HEALTH_KEYWORDS.some(kw => nameLower.includes(kw));
     const isAdultShoppingFood = !isBabyFoodName(nameLower) && !HEALTH_DISQUALIFY_KEYWORDS.some(kw => nameLower.includes(kw));
     const hasCanonicalNutritionValue = !NON_FOOD_MACRO_OVERRIDE.some(kw => nameLower.includes(kw))
         && CANONICAL_NUTRITION.some(([keyword]) => nameLower.includes(keyword));
@@ -2983,28 +3008,28 @@ function renderOffers(offers) {
         return `
             <div class="offer-card" data-offer-id="${getOfferDomId(o)}">
                 <div class="offer-header">
-                    <div class="offer-img-cell">
+                    <div class="offer-img-area">
                         ${imgTag}
+                        ${o.discount_pct ? `<span class="discount-pct-badge">-${o.discount_pct}%</span>` : ""}
+                        <button class="fav-btn${isFavorited(o) ? ' active' : ''}" data-offer-id="${getOfferDomId(o)}" title="${isFavorited(o) ? 'Премахни от списъка' : 'Добави към списъка'}">❤️</button>
                     </div>
-                    <div class="offer-info-main">
+                    <div class="offer-body">
+                        <div class="offer-store">${stores}</div>
                         <div class="offer-name" title="${escapeHtml(nameParts.full)}">
                             <span class="offer-name-compact">${escapeHtml(nameParts.display)}</span>
                             <span class="offer-name-full">${escapeHtml(nameParts.full)}</span>
                         </div>
-                        <div class="offer-store">${stores}</div>
                         ${nameParts.packageText ? `<div class="offer-package">${escapeHtml(nameParts.packageText)}</div>` : ""}
-                        ${validityShort ? `<div class="offer-validity">${validityShort}</div>` : ""}
-                        <div class="offer-badges">${badges.join("")}</div>
-                    </div>
-                    <div class="offer-prices">
-                        ${o.discount_pct ? `<span class="discount-pct-badge">-${o.discount_pct}%</span>` : ""}
-                        <span class="offer-new-price">${o.new_price.toFixed(2)} лв</span>
-                        ${o.old_price ? `<div class="offer-old-price">${o.old_price.toFixed(2)} лв</div>` : ""}
+                        <div class="offer-price-row">
+                            <span class="offer-new-price">${o.new_price.toFixed(2)} лв</span>
+                            ${o.old_price ? `<span class="offer-old-price">${o.old_price.toFixed(2)} лв</span>` : ""}
+                        </div>
                         ${displayPpk ? `<div class="offer-ppk">${displayPpk.toFixed(2)} лв/кг</div>` : ""}
                         ${proteinBadgeHtml}
+                        ${validityShort ? `<div class="offer-validity">${validityShort}</div>` : ""}
+                        <div class="offer-badges">${badges.join("")}</div>
                         ${renderSparkline(o)}
                     </div>
-                    <button class="fav-btn${isFavorited(o) ? ' active' : ''}" data-offer-id="${getOfferDomId(o)}" title="${isFavorited(o) ? 'Премахни от списъка' : 'Добави към списъка'}">❤️</button>
                     <span class="offer-arrow">▼</span>
                 </div>
                 <div class="offer-details">

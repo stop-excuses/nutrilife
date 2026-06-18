@@ -871,7 +871,7 @@ section {
     z-index: -2;
     background:
         linear-gradient(90deg, rgba(10, 10, 10, 0.98), rgba(10, 10, 10, 0.82) 48%, rgba(10, 10, 10, 0.96)),
-        url("../images/index-food.svg") center / cover no-repeat;
+        url("../images/index-food.jpg") center / cover no-repeat;
     opacity: 0.46;
 }
 
@@ -1246,7 +1246,7 @@ section {
 [data-theme="light"] .gain-section::before {
     background:
         linear-gradient(90deg, rgba(245, 245, 240, 0.96), rgba(245, 245, 240, 0.78) 48%, rgba(245, 245, 240, 0.95)),
-        url("../images/index-food.svg") center / cover no-repeat;
+        url("../images/index-food.jpg") center / cover no-repeat;
     opacity: 0.64;
 }
 
@@ -1938,21 +1938,23 @@ input[type="range"]::-moz-range-thumb {
     margin: 0;
 }
 
-/* --- Offer Card (Accordion) --- */
+/* --- Offer Card — vertical pazarko-style layout --- */
 .offer-card {
     background: var(--bg-card-green);
     border: 1px solid var(--border-green);
-    border-radius: 10px;
+    border-radius: 12px;
     padding: 0;
     cursor: pointer;
     overflow: hidden;
-    transition: border-color 0.3s;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.18s, box-shadow 0.18s, border-color 0.18s;
 }
 
 .offer-card:hover {
-    border-color: #4a6e2e;
-    transform: translateY(-1px);
-    box-shadow: 0 4px 16px rgba(0,0,0,0.25);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.28);
+    border-color: rgba(151,196,89,0.5);
 }
 
 .offer-card.expanded {
@@ -1960,63 +1962,111 @@ input[type="range"]::-moz-range-thumb {
     grid-column: span 2;
 }
 
-/* Header — always visible, compact row */
+/* Header — vertical column: image area then body */
 .offer-header {
     display: flex;
-    align-items: center;
-    gap: 10px;
-    padding: 10px 12px;
+    flex-direction: column;
     user-select: none;
+    flex: 1;
 }
 
-.offer-img-wrapper {
-    width: 72px;
-    height: 72px;
-    flex-shrink: 0;
-    background:
-        radial-gradient(circle at 50% 22%, rgba(255,255,255,0.98), rgba(255,255,255,0.92) 58%, rgba(240,241,235,0.96));
-    border: 1px solid rgba(10,10,10,0.06);
-    border-radius: 14px;
+/* ── Image area ──────────────────────────────────────────────────────────── */
+.offer-img-area {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    background: #ffffff;
     overflow: hidden;
+    flex-shrink: 0;
+    border-bottom: 1px solid rgba(0,0,0,0.06);
+}
+
+.offer-img-area .offer-img-wrapper {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+    background: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow:
-        inset 0 1px 0 rgba(255,255,255,0.9),
-        0 8px 18px rgba(0,0,0,0.16);
 }
 
-.offer-img-wrapper.fallback {
-    background:
-        radial-gradient(circle at 50% 25%, #ffffff, #f4f5ef 68%, #ebede4);
-    border: 1px solid rgba(59,109,17,0.12);
-}
-
-.offer-img {
+.offer-img-area .offer-img {
     width: 100%;
     height: 100%;
     object-fit: contain;
-    padding: 6px;
-    filter: saturate(1.08) contrast(1.04) drop-shadow(0 7px 10px rgba(0,0,0,0.18));
-}
-
-.offer-img-wrapper.fallback .offer-img {
     padding: 10px;
-    opacity: 0.96;
-    filter: saturate(1.08) drop-shadow(0 5px 8px rgba(59,109,17,0.14));
+    filter: drop-shadow(0 4px 8px rgba(0,0,0,0.12));
 }
 
-.offer-info-main {
+.offer-img-area .offer-img-wrapper.fallback {
+    background: #f7f8f4;
+    border: none;
+}
+
+.offer-img-area .offer-img-wrapper.fallback .offer-img {
+    padding: 16px;
+    opacity: 0.9;
+    filter: saturate(1.08) drop-shadow(0 3px 6px rgba(59,109,17,0.16));
+}
+
+/* Discount badge overlaid on image top-left */
+.offer-img-area .discount-pct-badge {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    margin-bottom: 0;
+    display: block;
+    z-index: 2;
+}
+
+/* Fav button overlaid on image top-right */
+.offer-img-area .fav-btn {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    background: rgba(255,255,255,0.80);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.0rem;
+    padding: 0;
+    opacity: 0.75;
+    z-index: 2;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.18);
+}
+.offer-img-area .fav-btn:hover  { opacity: 1; background: rgba(255,255,255,0.96); }
+.offer-img-area .fav-btn.active { opacity: 1; background: rgba(255,255,255,0.92); }
+
+/* ── Body info ───────────────────────────────────────────────────────────── */
+.offer-body {
+    padding: 9px 11px 11px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
     flex: 1;
     min-width: 0;
 }
 
+.offer-store {
+    font-size: 0.65rem;
+    color: var(--muted2);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
 .offer-name {
     font-weight: 600;
-    font-size: 0.84rem;
+    font-size: 0.82rem;
     color: var(--text);
-    margin-bottom: 3px;
     line-height: 1.28;
+    margin-top: 2px;
 }
 
 .offer-name-compact {
@@ -2024,34 +2074,17 @@ input[type="range"]::-moz-range-thumb {
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
-    max-height: 3.23rem;
 }
 
 .offer-name-full {
     display: none;
 }
 
-.offer-card.expanded .offer-name {
-    font-size: 0.86rem;
-    overflow: visible;
-    max-height: none;
-}
-
-.offer-card.expanded .offer-name-compact {
-    display: none;
-}
-
+.offer-card.expanded .offer-name-compact { display: none; }
 .offer-card.expanded .offer-name-full {
     display: block;
     white-space: normal;
     overflow: visible;
-    max-height: none;
-}
-
-.offer-store {
-    font-size: 0.68rem;
-    color: var(--muted2);
-    font-weight: 500;
 }
 
 .offer-package {
@@ -2059,35 +2092,50 @@ input[type="range"]::-moz-range-thumb {
     align-items: center;
     width: fit-content;
     max-width: 100%;
-    margin-top: 3px;
-    padding: 2px 6px;
-    border-radius: 6px;
+    padding: 1px 6px;
+    border-radius: 5px;
     background: rgba(255,255,255,0.06);
     color: var(--muted);
-    font-size: 0.62rem;
+    font-size: 0.60rem;
     font-weight: 700;
-    line-height: 1.2;
+    line-height: 1.3;
     white-space: nowrap;
+    margin-top: 1px;
 }
 
-.discount-pct-badge {
-    display: block;
-    background: var(--red);
-    color: #fff;
+/* Price row — new price prominent, old price struck through */
+.offer-price-row {
+    display: flex;
+    align-items: baseline;
+    gap: 7px;
+    margin-top: 5px;
+    flex-wrap: wrap;
+}
+
+.offer-new-price {
+    font-size: 1.08rem;
     font-weight: 800;
-    font-size: 0.82rem;
-    padding: 3px 8px;
-    border-radius: 7px;
-    letter-spacing: 0.02em;
-    text-align: center;
-    margin-bottom: 3px;
-    white-space: nowrap;
+    color: var(--green);
+    line-height: 1;
+}
+
+.offer-old-price {
+    font-size: 0.72rem;
+    color: var(--muted3);
+    text-decoration: line-through;
+}
+
+.offer-ppk {
+    font-size: 0.60rem;
+    font-weight: 600;
+    color: var(--muted);
+    margin-top: 1px;
 }
 
 .offer-validity {
-    font-size: 0.64rem;
+    font-size: 0.60rem;
     color: var(--amber);
-    margin-top: 2px;
+    margin-top: 1px;
     line-height: 1.2;
 }
 
@@ -2095,50 +2143,36 @@ input[type="range"]::-moz-range-thumb {
     display: flex;
     flex-wrap: wrap;
     gap: 3px;
-    margin-top: 2px;
+    margin-top: 3px;
 }
 
-.offer-prices {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 1px;
-    flex-shrink: 0;
-}
-
-.offer-new-price {
-    font-size: 0.82rem;
+/* Discount badge standalone (protein-ranking etc, not in img-area) */
+.discount-pct-badge {
+    display: inline-block;
+    background: var(--red);
+    color: #fff;
     font-weight: 800;
-    color: var(--green);
-    text-align: right;
+    font-size: 0.78rem;
+    padding: 3px 7px;
+    border-radius: 6px;
+    letter-spacing: 0.02em;
+    white-space: nowrap;
 }
 
-.offer-old-price {
-    font-size: 0.6rem;
-    color: var(--muted3);
-    text-decoration: line-through;
-    text-align: right;
-}
-
-.offer-ppk {
-    font-size: 0.6rem;
-    font-weight: 600;
-    color: var(--muted);
-    text-align: right;
-    margin-top: 1px;
-}
-
-/* Expand arrow */
+/* Expand arrow — bottom of card body */
 .offer-arrow {
-    font-size: 0.6rem;
+    font-size: 0.58rem;
     color: #555;
     transition: transform 0.3s ease;
-    flex-shrink: 0;
+    text-align: center;
+    padding: 3px 0 5px;
+    opacity: 0.5;
 }
 
 .offer-card.expanded .offer-arrow {
     transform: rotate(180deg);
     color: var(--green);
+    opacity: 1;
 }
 
 /* --- Accordion Details (grid 0fr→1fr trick) --- */
@@ -2173,7 +2207,7 @@ input[type="range"]::-moz-range-thumb {
 .fav-btn:hover { opacity: 0.8; transform: scale(1.15); }
 .fav-btn.active { opacity: 1; transform: scale(1.05); }
 
-/* Follow button overlaid on product image (protein ranking, bulk cards) */
+/* Follow button overlaid on product image (protein ranking & main grid) */
 .offer-img-cell .fav-btn {
     position: absolute;
     bottom: 2px;
@@ -2187,17 +2221,6 @@ input[type="range"]::-moz-range-thumb {
 }
 .offer-img-cell .fav-btn:hover { opacity: 0.95; background: rgba(10,10,10,0.75); }
 .offer-img-cell .fav-btn.active { opacity: 1; background: rgba(10,10,10,0.7); }
-
-/* Follow button in main grid — sits between price column and expand arrow */
-.offer-header > .fav-btn {
-    font-size: 1.35rem;
-    opacity: 0.35;
-    padding: 4px 6px;
-    flex-shrink: 0;
-    transition: opacity 0.15s, transform 0.15s;
-}
-.offer-header > .fav-btn:hover { opacity: 0.85; transform: scale(1.2); }
-.offer-header > .fav-btn.active { opacity: 1; transform: scale(1.05); }
 
 /* Favorites panel */
 #fav-section { padding-top: 0; padding-bottom: 8px; }
@@ -7082,9 +7105,7 @@ section + section::before {
 }
 
 .offer-card {
-    background:
-        linear-gradient(180deg, rgba(255, 255, 255, 0.04), transparent 42%),
-        var(--bg-card-green);
+    background: var(--bg-card-green);
 }
 
 .supplement-card {
@@ -7219,8 +7240,24 @@ section + section::before {
     border-bottom-color: rgba(0, 0, 0, 0.08);
 }
 
+[data-theme="light"] .offer-card {
+    background: #ffffff;
+    border-color: #e4e6df;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
 [data-theme="light"] .offer-card:hover {
     border-color: var(--green);
+    box-shadow: 0 6px 20px rgba(59,109,17,0.13);
+}
+
+[data-theme="light"] .offer-img-area {
+    background: #f8f9f5;
+    border-bottom-color: #eaeae4;
+}
+
+[data-theme="light"] .offer-img-area .offer-img-wrapper {
+    background: #f8f9f5;
 }
 
 [data-theme="light"] .offer-big-img {
@@ -7236,6 +7273,26 @@ section + section::before {
     background:
         radial-gradient(circle at 50% 25%, #ffffff, #f4f5ef 68%, #ebede4);
     border-color: rgba(59,109,17,0.12);
+}
+
+[data-theme="light"] .offer-body .offer-store {
+    color: #888;
+}
+
+[data-theme="light"] .offer-body .offer-name {
+    color: #1a1a14;
+}
+
+[data-theme="light"] .offer-body .offer-ppk,
+[data-theme="light"] .offer-body .offer-validity {
+    color: #666;
+}
+
+[data-theme="light"] .offer-arrow { color: #aaa; }
+
+[data-theme="light"] .offer-img-area .fav-btn {
+    background: rgba(255,255,255,0.92);
+    box-shadow: 0 1px 4px rgba(0,0,0,0.14);
 }
 
 [data-theme="light"] .supplement-card {
@@ -7576,7 +7633,20 @@ section + section::before {
     }
 
     .offers-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+    }
+    .offer-img-area {
+        aspect-ratio: 4 / 3;
+    }
+    .offer-body {
+        padding: 7px 8px 9px;
+    }
+    .offer-new-price {
+        font-size: 0.92rem;
+    }
+    .offer-name {
+        font-size: 0.76rem;
     }
     .supplements-grid,
     .supplements-summary,
