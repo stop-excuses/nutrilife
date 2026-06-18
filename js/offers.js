@@ -22,8 +22,9 @@ let selectedFavoriteOfferId = "";
 let selectedProductOfferId = "";
 let favoriteItems = (() => {
     const raw = JSON.parse(localStorage.getItem('nutrilife-favorites') || '[]');
-    if (raw.length && typeof raw[0] === 'string') return raw.map(kw => ({ kw, emoji: '🍽️' }));
-    return raw;
+    // Drop legacy keyword-only entries (no offerId) — old wholesale-by-type
+    // behavior marked too many products active. Fresh start with per-product favs.
+    return Array.isArray(raw) ? raw.filter(f => f && typeof f === 'object' && f.offerId) : [];
 })();
 let liveFallbackByKeyword = new Map();  // keyword → real CDN image URL
 let liveFallbackByCategory = new Map(); // category → real CDN image URL
@@ -1980,26 +1981,26 @@ function favoriteMatchesOffer(offer, kw, cat) {
 }
 
 function isFavorited(offer) {
-    const kw = extractFavoriteKeyword(offer);
-    return favoriteItems.some(f => favoriteKeywordsMatch(f.kw, kw));
+    if (!offer) return false;
+    const id = getOfferDomId(offer);
+    return favoriteItems.some(f => f.offerId === id);
 }
 
 function toggleFavorite(offerId) {
     const offer = findOfferByDomId(offerId);
     if (!offer) return;
-    const kw = extractFavoriteKeyword(offer);
-    const idx = favoriteItems.findIndex(f => favoriteKeywordsMatch(f.kw, kw));
+    const id = getOfferDomId(offer);
+    const idx = favoriteItems.findIndex(f => f.offerId === id);
     if (idx !== -1) {
         favoriteItems.splice(idx, 1);
     } else {
-        favoriteItems.push({ kw, emoji: getFavEmoji(kw, offer.emoji), cat: offer.category || null });
+        const kw = extractFavoriteKeyword(offer);
+        favoriteItems.push({ offerId: id, kw, emoji: getFavEmoji(kw, offer.emoji), cat: offer.category || null });
     }
     saveFavorites();
     const active = isFavorited(offer);
-    // Update every fav-btn for this keyword across all sections
-    document.querySelectorAll('.fav-btn[data-offer-id]').forEach(btn => {
-        const o = allOffers.find(x => getOfferDomId(x) === btn.dataset.offerId);
-        if (!o || !favoriteKeywordsMatch(extractFavoriteKeyword(o), kw)) return;
+    // Only update the buttons for THIS specific offer (across sections that show it).
+    document.querySelectorAll(`.fav-btn[data-offer-id="${CSS.escape(id)}"]`).forEach(btn => {
         btn.classList.toggle('active', active);
         btn.title = active ? 'Премахни от списъка' : 'Добави към списъка';
     });
@@ -2088,18 +2089,30 @@ function renderFavoritesPanel() {
     }
     if (section) section.style.removeProperty('display');
 
-    const rows = favoriteItems.map(({ kw, emoji, cat }) => {
-        const offers = allOffers
-            .filter(o => {
-                return favoriteMatchesOffer(o, kw, cat);
-            })
-            .filter(o => o.new_price != null)
+    // Group favorites by keyword so visually-related products share a single row.
+    const groups = new Map();
+    for (const fav of favoriteItems) {
+        const key = fav.kw || fav.offerId;
+        if (!groups.has(key)) groups.set(key, { kw: fav.kw, emoji: fav.emoji, cat: fav.cat, ids: [] });
+        groups.get(key).ids.push(fav.offerId);
+    }
+
+    const rows = Array.from(groups.values()).map(({ kw, emoji, cat, ids }) => {
+        const favSet = new Set(ids);
+        const myFavoritedOffers = allOffers
+            .filter(o => favSet.has(getOfferDomId(o)) && o.new_price != null)
             .sort((a, b) => a.new_price - b.new_price);
+        // For price comparison, also show same-keyword offers (not yet favorited).
+        const similar = allOffers
+            .filter(o => o.new_price != null && !favSet.has(getOfferDomId(o)) && favoriteMatchesOffer(o, kw, cat))
+            .sort((a, b) => a.new_price - b.new_price);
+        const offers = [...myFavoritedOffers, ...similar];
         const onSale = offers.filter(o => o.discount_pct);
+        const favCount = myFavoritedOffers.length;
         const statusHtml = onSale.length > 0
             ? `<span class="fav-status on-sale">🔥 ${onSale.length} намаления</span>`
-            : offers.length > 0
-            ? `<span class="fav-status">${offers.length} оферти</span>`
+            : favCount > 0
+            ? `<span class="fav-status">${favCount} продукт${favCount > 1 ? 'а' : ''}</span>`
             : `<span class="fav-status none">Няма тази седмица</span>`;
 
         const sorted = [...offers].sort((a, b) => {
@@ -2169,12 +2182,13 @@ function renderFavoritesPanel() {
             ? `<span class="fav-thumb"><img src="${thumbImg}" alt="" loading="lazy"></span>`
             : `<span class="fav-thumb"><span class="fav-emoji">${getFavEmoji(kw, emoji)}</span></span>`;
 
-        return `<div class="fav-item" data-kw="${kw}">
+        const idsAttr = ids.map(escapeHtml).join('|');
+        return `<div class="fav-item" data-kw="${escapeHtml(kw || '')}">
             <div class="fav-item-hd">
                 ${thumbHtml}
                 <span class="fav-kw">${getFavLabel(kw)}</span>
                 ${statusHtml}
-                <button class="fav-rm" data-kw="${kw}" title="Премахни">×</button>
+                <button class="fav-rm" data-fav-ids="${idsAttr}" title="Премахни">×</button>
                 <span class="fav-arrow">▼</span>
             </div>
             <div class="fav-item-bd">
@@ -2214,19 +2228,19 @@ function renderFavoritesPanel() {
     panel.querySelectorAll('.fav-rm').forEach(btn => {
         btn.addEventListener('click', e => {
             e.stopPropagation();
-            const kw = btn.dataset.kw;
-            favoriteItems = favoriteItems.filter(f => !favoriteKeywordsMatch(f.kw, kw));
-            const selectedOffer = allOffers.find(o => getOfferDomId(o) === selectedFavoriteOfferId);
-            if (selectedOffer && favoriteKeywordsMatch(extractFavoriteKeyword(selectedOffer), kw)) {
+            const idsToRemove = new Set((btn.dataset.favIds || '').split('|').filter(Boolean));
+            if (!idsToRemove.size) return;
+            favoriteItems = favoriteItems.filter(f => !idsToRemove.has(f.offerId));
+            if (selectedFavoriteOfferId && idsToRemove.has(selectedFavoriteOfferId)) {
                 selectedFavoriteOfferId = "";
                 document.body.classList.remove('fav-product-open');
             }
             saveFavorites();
-            document.querySelectorAll('.fav-btn[data-offer-id]').forEach(b => {
-                const o = allOffers.find(x => getOfferDomId(x) === b.dataset.offerId);
-                if (!o || !favoriteKeywordsMatch(extractFavoriteKeyword(o), kw)) return;
-                b.classList.remove('active');
-                b.title = 'Добави към списъка';
+            idsToRemove.forEach(id => {
+                document.querySelectorAll(`.fav-btn[data-offer-id="${CSS.escape(id)}"]`).forEach(b => {
+                    b.classList.remove('active');
+                    b.title = 'Добави към списъка';
+                });
             });
             renderFavoritesPanel();
         });
