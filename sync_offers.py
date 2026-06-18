@@ -299,8 +299,18 @@ for offer in offers_data.get("offers", []):
     product = prod_by_id.get(pid)
     if product:
         for field in _INLINED_PRODUCT_FIELDS:
-            if offer.get(field) in (None, "", [], {}) and product.get(field) not in (None, "", [], {}):
-                offer[field] = product[field]
+            existing = offer.get(field)
+            candidate = product.get(field)
+            if existing not in (None, "", [], {}):
+                continue
+            if candidate in (None, "", [], {}):
+                continue
+            # Don't inline known no-image placeholders — let cross-borrow find a real photo.
+            if field == "image" and isinstance(candidate, str):
+                low = candidate.lower()
+                if any(m in low for m in ("no-image-placeholder", "no_image_placeholder", "placeholder.svg", "/etc.clientlibs/kaufland/")):
+                    continue
+            offer[field] = candidate
         inlined_meta += 1
     if offer.get("price_per_kg") is not None:
         continue
@@ -322,8 +332,20 @@ if inlined_meta:
 # Fantastico/Dar/Lidl brochures often have no CDN image, only a generic SVG
 # placeholder. Other catalog products of the same type (e.g. Ципура from Metro)
 # have a real photo. Borrow it so the promo grid stops showing flat SVG icons.
+_PLACEHOLDER_IMAGE_MARKERS = (
+    "no-image-placeholder",
+    "no_image_placeholder",
+    "noimage",
+    "placeholder.svg",
+    "/etc.clientlibs/kaufland/",
+)
 def _has_real_image(img):
-    return bool(img) and isinstance(img, str) and not img.startswith("images/")
+    if not img or not isinstance(img, str):
+        return False
+    if img.startswith("images/"):
+        return False
+    low = img.lower()
+    return not any(marker in low for marker in _PLACEHOLDER_IMAGE_MARKERS)
 
 _BG_STOP = {"за","от","с","без","и","или","в","на","при","до","по","над","под","пред","след","кг","г","гр","мл","л","бр","х","x","×","ц","х","xxl"}
 _WEIGHT_RE = re.compile(r"\d+(?:[.,]\d+)?\s*(?:кг|г|гр|мл|л|бр|kg|g|ml|l|x|×)", re.IGNORECASE)
@@ -343,8 +365,13 @@ for p in ap_data.get("products", []):
         word_to_images.setdefault(w, []).append(img)
 
 borrowed_count = 0
+placeholders_cleared = 0
 seen_borrowed = {}
 for offer in offers_data.get("offers", []):
+    # Strip Wikipedia/Kaufland 'no-image' placeholder URLs so cross-borrowing can replace them.
+    if offer.get("image") and not _has_real_image(offer.get("image")) and not (offer.get("image") or "").startswith("images/"):
+        offer["image"] = None
+        placeholders_cleared += 1
     if _has_real_image(offer.get("image")):
         continue
     words = _name_words(offer.get("name"))
@@ -364,6 +391,8 @@ for offer in offers_data.get("offers", []):
         borrowed_count += 1
         seen_borrowed[offer.get("name","")[:40]] = best_img[:60]
 
+if placeholders_cleared:
+    print(f"Cleared {placeholders_cleared} placeholder image URLs (Wikipedia/Kaufland no-image)")
 if borrowed_count:
     print(f"Borrowed real CDN images for {borrowed_count} offers (e.g. Fantastico/Dar)")
 if fixed_ppk:
