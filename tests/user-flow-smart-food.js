@@ -58,6 +58,18 @@ function log(msg) { console.log('[FLOW] ' + msg); }
       const empty = await page.locator('.offers-empty').count();
       step(`Search "${q}"`, c > 0 || empty > 0, `${c} cards, empty=${empty}`);
     }
+    await runSearch(page, 'яйца');
+    const eggCards = await page.locator('#offers-grid .offer-card').evaluateAll(cards =>
+      cards.map(card => (card.textContent || '').toLowerCase())
+    );
+    const eggSweetMatches = eggCards.filter(text =>
+      ['вафл', 'шоколад', 'бонбон', 'raffaello', 'рафаело', 'lambertz', 'пълнеж'].some(word => text.includes(word))
+    );
+    const eggPackMatches = eggCards.filter(text =>
+      /\b\d+\s*(?:бр|бр\.|броя)\b/i.test(text) || text.includes('кора яйца') || text.includes('пресни яйц')
+    );
+    step('Search "яйца" excludes dessert eggs', eggSweetMatches.length === 0, `${eggSweetMatches.length} bad matches`);
+    step('Search "яйца" shows real egg packs', eggCards.length > 0 && eggPackMatches.length === eggCards.length, `${eggPackMatches.length}/${eggCards.length} real packs`);
 
     // 3. Empty/nonexistent search → reset works
     await runSearch(page, 'zzznotreal999');

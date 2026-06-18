@@ -68,6 +68,9 @@
         'желязо': 'iron',
         'iron': 'iron'
     };
+    const brokenImageMarkers = [
+        'stayfit.bg/cdn/img/products/'
+    ];
 
     let items = [];
     let selectedSupplementId = '';
@@ -136,6 +139,10 @@
                 Object.values(item.active || {}).join(' ')
             ].filter(Boolean).join(' ').toLowerCase()
         };
+    }
+
+    function hasUsableImage(src) {
+        return !!src && !brokenImageMarkers.some(marker => String(src).includes(marker));
     }
 
     function normalizePriceHistory(history) {
@@ -465,8 +472,9 @@
             .map(([key, value]) => `<span>${formatActiveKey(key)}: <strong>${escapeHtml(formatValueWithUnit(key, value))}</strong></span>`)
             .join('');
         const fallbackLabel = escapeAttr(categoryLabels[item.category] || 'Добавка');
-        const image = item.image
-            ? `<img src="${escapeAttr(item.image)}" alt="${escapeAttr(item.name)}" loading="lazy" decoding="async" onerror="this.parentElement.classList.add('fallback');this.outerHTML='<span>${fallbackLabel}</span>'">`
+        const imageSrc = hasUsableImage(item.image) ? item.image : '';
+        const image = imageSrc
+            ? `<img src="${escapeAttr(imageSrc)}" alt="${escapeAttr(item.name)}" loading="lazy" decoding="async" onerror="this.parentElement.classList.add('fallback');this.outerHTML='<span>${fallbackLabel}</span>'">`
             : `<span>${categoryLabels[item.category] || 'Добавка'}</span>`;
         const watched = isWatched(item.id);
         const compared = compareIds.includes(item.id);
@@ -480,7 +488,7 @@
         return `
             <article class="supplement-card" data-supplement-id="${escapeAttr(item.id)}" tabindex="0" role="button" aria-label="Виж ${escapeAttr(item.name)}">
                 <div class="supplement-card-link">
-                    <div class="supplement-image ${item.image ? '' : 'fallback'}">${image}</div>
+                    <div class="supplement-image ${imageSrc ? '' : 'fallback'}">${image}</div>
                     <div class="supplement-body">
                         <div class="supplement-meta">
                             <span>${escapeHtml(categoryLabels[item.category] || item.category)}</span>
@@ -667,8 +675,9 @@
         const valueBadge = getValueBadge(item);
         const tradeoffBadge = getTradeoffBadge(item, valueBadge);
         const fallbackLabel = escapeAttr(categoryLabels[item.category] || 'Добавка');
-        const image = item.image
-            ? `<img src="${escapeAttr(item.image)}" alt="${escapeAttr(item.name)}" decoding="async" onerror="this.parentElement.classList.add('fallback');this.outerHTML='<span>${fallbackLabel}</span>'">`
+        const imageSrc = hasUsableImage(item.image) ? item.image : '';
+        const image = imageSrc
+            ? `<img src="${escapeAttr(imageSrc)}" alt="${escapeAttr(item.name)}" decoding="async" onerror="this.parentElement.classList.add('fallback');this.outerHTML='<span>${fallbackLabel}</span>'">`
             : `<span>${escapeHtml(categoryLabels[item.category] || 'Добавка')}</span>`;
 
         return `
@@ -676,7 +685,7 @@
                 <div class="supplement-dialog">
                     <button class="fav-screen-close" type="button" title="Затвори" data-supplement-dialog-close>×</button>
                     <div class="supplement-dialog-hero">
-                        <div class="supplement-dialog-image ${item.image ? '' : 'fallback'}">${image}</div>
+                        <div class="supplement-dialog-image ${imageSrc ? '' : 'fallback'}">${image}</div>
                         <div class="supplement-dialog-summary">
                             <div class="fav-preview-store">${escapeHtml(item.store)} · ${escapeHtml(categoryLabels[item.category] || item.category)}</div>
                             <h3>${escapeHtml(item.name)}</h3>

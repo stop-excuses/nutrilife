@@ -355,6 +355,8 @@ function initPwaInstallPrompt() {
 
 /* --- Visitor Counter --- */
 async function initVisitorCounter() {
+    if (!navigator.onLine) return;
+    if (location.hostname === "localhost" || location.hostname === "127.0.0.1") return;
     const sessionCountKey = "nutrilife-visit-count";
     const sessionCountedKey = "nutrilife-visit-counted";
     const readUrl = "https://api.counterapi.dev/v1/nutrilife-bg/visits/";

@@ -316,7 +316,7 @@ JUNK_KEYWORDS = [
     "чипс", "снак", "крекер", "пуканки",
     "торта", "сладкиш", "кекс", "мъфин",
     "газирана", "енергийна напитка",
-    "сладолед", "пудинг",
+    "сладолед", "пудинг", "raffaello", "рафаело", "lambertz",
 ]
 
 # Heavily processed meats — food but NOT healthy (high sodium, nitrites, fillers)
@@ -784,6 +784,8 @@ def parse_weight(name):
 
 def detect_category(name):
     name_lower = name.lower()
+    if ("яйц" in name_lower or "яиц" in name_lower) and is_junk(name):
+        return "grain"
     for cat, keywords in CATEGORY_MAP.items():
         if any(kw in name_lower for kw in keywords):
             return cat
