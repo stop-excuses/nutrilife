@@ -317,6 +317,55 @@ for offer in offers_data.get("offers", []):
         fixed_ppk += 1
 if inlined_meta:
     print(f"Inlined product metadata into {inlined_meta} offers")
+
+# ── Cross-store image borrowing ───────────────────────────────────────────────
+# Fantastico/Dar/Lidl brochures often have no CDN image, only a generic SVG
+# placeholder. Other catalog products of the same type (e.g. Ципура from Metro)
+# have a real photo. Borrow it so the promo grid stops showing flat SVG icons.
+def _has_real_image(img):
+    return bool(img) and isinstance(img, str) and not img.startswith("images/")
+
+_BG_STOP = {"за","от","с","без","и","или","в","на","при","до","по","над","под","пред","след","кг","г","гр","мл","л","бр","х","x","×","ц","х","xxl"}
+_WEIGHT_RE = re.compile(r"\d+(?:[.,]\d+)?\s*(?:кг|г|гр|мл|л|бр|kg|g|ml|l|x|×)", re.IGNORECASE)
+def _name_words(name):
+    if not name:
+        return []
+    lower = _WEIGHT_RE.sub(" ", name.lower())
+    return [w for w in re.split(r"[\s,.\-/()]+", lower) if len(w) > 2 and w not in _BG_STOP]
+
+# Build word -> [image_url] index from all catalog products with a real photo.
+word_to_images = {}
+for p in ap_data.get("products", []):
+    if not _has_real_image(p.get("image")):
+        continue
+    img = p["image"]
+    for w in _name_words(p.get("name")):
+        word_to_images.setdefault(w, []).append(img)
+
+borrowed_count = 0
+seen_borrowed = {}
+for offer in offers_data.get("offers", []):
+    if _has_real_image(offer.get("image")):
+        continue
+    words = _name_words(offer.get("name"))
+    if not words:
+        continue
+    min_match = 2 if len(words) >= 2 else 1
+    scores = {}
+    for w in words:
+        for img in word_to_images.get(w, ()):
+            scores[img] = scores.get(img, 0) + 1
+    best_img, best_score = None, min_match - 1
+    for img, score in scores.items():
+        if score > best_score:
+            best_img, best_score = img, score
+    if best_img:
+        offer["image"] = best_img
+        borrowed_count += 1
+        seen_borrowed[offer.get("name","")[:40]] = best_img[:60]
+
+if borrowed_count:
+    print(f"Borrowed real CDN images for {borrowed_count} offers (e.g. Fantastico/Dar)")
 if fixed_ppk:
     print(f"Fixed price_per_kg for {fixed_ppk} current offers")
 if fixed_offer_weight:
