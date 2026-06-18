@@ -271,8 +271,20 @@ prod_weight_raw_by_id = {
     for p in ap_data.get("products", [])
     if p.get("product_id") and p.get("weight_raw")
 }
+# Denormalize the minimum catalog fields needed by the Smart Food promo grid
+# into each offer, so offers.js is self-contained and the 34MB market_memory.js
+# can stay lazy until the user actually searches or opens "Всички продукти".
+_INLINED_PRODUCT_FIELDS = (
+    "name", "image", "category", "emoji",
+    "health_score", "is_food", "is_junk", "is_healthy",
+    "is_high_protein", "is_good_carb", "is_good_fat", "is_bulk_worthy",
+    "is_long_lasting", "diet_tags", "macros",
+)
+prod_by_id = {p["product_id"]: p for p in ap_data.get("products", []) if p.get("product_id")}
+
 fixed_ppk = 0
 fixed_offer_weight = 0
+inlined_meta = 0
 for offer in offers_data.get("offers", []):
     pid = offer.get("product_id") or offer.get("id") or ""
     if (not offer.get("weight_grams") or (
@@ -284,9 +296,15 @@ for offer in offers_data.get("offers", []):
         if prod_weight_raw_by_id.get(pid):
             offer["weight_raw"] = prod_weight_raw_by_id[pid]
         fixed_offer_weight += 1
+    product = prod_by_id.get(pid)
+    if product:
+        for field in _INLINED_PRODUCT_FIELDS:
+            if offer.get(field) in (None, "", [], {}) and product.get(field) not in (None, "", [], {}):
+                offer[field] = product[field]
+        inlined_meta += 1
     if offer.get("price_per_kg") is not None:
         continue
-    name = prod_name_by_id.get(pid, "")
+    name = offer.get("name") or prod_name_by_id.get(pid, "")
     weight_grams = offer.get("weight_grams") or prod_weight_by_id.get(pid)
     if weight_grams and offer.get("new_price") is not None:
         offer["price_per_kg"] = round((offer["new_price"] / weight_grams) * 1000, 2)
@@ -297,11 +315,13 @@ for offer in offers_data.get("offers", []):
         offer["price_per_kg_eur"] = round(offer["new_price"] / BGN_TO_EUR, 2)
         offer["weight_raw"] = offer.get("weight_raw") or "на кг"
         fixed_ppk += 1
+if inlined_meta:
+    print(f"Inlined product metadata into {inlined_meta} offers")
 if fixed_ppk:
     print(f"Fixed price_per_kg for {fixed_ppk} current offers")
 if fixed_offer_weight:
     print(f"Fixed package weight for {fixed_offer_weight} current offers")
-if fixed_ppk or fixed_offer_weight:
+if fixed_ppk or fixed_offer_weight or inlined_meta:
     Path("data/offers.json").write_text(json.dumps(offers_data, ensure_ascii=False, indent=2), encoding="utf-8")
 
 # ── Write JS files ────────────────────────────────────────────────────────────

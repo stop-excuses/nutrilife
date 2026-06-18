@@ -40,6 +40,61 @@ function getCatalogProductsData() {
     return [];
 }
 
+let catalogReady = false;
+let catalogLoadPromise = null;
+const CATALOG_SCRIPT_URL = "data/market_memory.js?v=5";
+
+function isCatalogAvailable() {
+    return typeof MARKET_MEMORY_DATA !== "undefined" || typeof ALL_PRODUCTS_DATA !== "undefined";
+}
+
+function ensureCatalogLoaded() {
+    if (catalogReady) return Promise.resolve();
+    if (isCatalogAvailable()) {
+        applyCatalogEnrichment();
+        return Promise.resolve();
+    }
+    if (catalogLoadPromise) return catalogLoadPromise;
+    showCatalogLoadingHint();
+    catalogLoadPromise = new Promise((resolve, reject) => {
+        const s = document.createElement("script");
+        s.src = CATALOG_SCRIPT_URL;
+        s.onload = () => {
+            hideCatalogLoadingHint();
+            applyCatalogEnrichment();
+            resolve();
+        };
+        s.onerror = (err) => {
+            hideCatalogLoadingHint();
+            catalogLoadPromise = null;
+            reject(err);
+        };
+        document.body.appendChild(s);
+    });
+    return catalogLoadPromise;
+}
+
+function showCatalogLoadingHint() {
+    const status = document.getElementById("offers-status");
+    if (!status) return;
+    if (status.dataset.catalogHint === "1") return;
+    status.dataset.catalogHint = "1";
+    status.dataset.prev = status.innerHTML;
+    status.innerHTML = '<span>Зареждам всички продукти...</span>';
+}
+
+function hideCatalogLoadingHint() {
+    const status = document.getElementById("offers-status");
+    if (!status || status.dataset.catalogHint !== "1") return;
+    delete status.dataset.catalogHint;
+    if (status.dataset.prev) {
+        status.innerHTML = status.dataset.prev;
+        delete status.dataset.prev;
+    } else {
+        renderOffersStatus();
+    }
+}
+
 function normalizePriceHistoryEntries(history) {
     if (!Array.isArray(history)) return [];
     return history.map(entry => {
@@ -1385,56 +1440,156 @@ function getProteinMetrics(offer, strictWeight = false) {
 }
 
 /* -----------------------------------------------------------------------
+   CATALOG ENRICHMENT (lazy)
+   ----------------------------------------------------------------------- */
+function applyCatalogEnrichment() {
+    if (catalogReady) return;
+    const catalogProducts = getCatalogProductsData();
+    if (!catalogProducts.length) return;
+
+    const productMap = new Map();
+    for (const p of catalogProducts) {
+        if (p.product_id) productMap.set(p.product_id, p);
+    }
+
+    allCatalogProducts = catalogProducts.map(product => {
+        const catalogPrice = product.new_price ?? product.avg_price ?? product.lowest_price ?? null;
+        const normalized = normalizeOfferForUi({
+            ...product,
+            new_price: catalogPrice,
+            new_price_eur: product.new_price_eur ?? (catalogPrice != null ? catalogPrice / 1.95583 : null),
+            old_price: null,
+            old_price_eur: null,
+            discount_pct: null,
+            source_type: "catalog",
+            available_stores: product.available_stores || (product.store ? [product.store] : []),
+            store: product.store || (product.available_stores || [])[0] || null,
+            price_per_kg: product.price_per_kg ?? (product.weight_grams && catalogPrice
+                ? (catalogPrice / product.weight_grams) * 1000
+                : null),
+            price_per_kg_eur: product.price_per_kg_eur ?? (product.weight_grams && catalogPrice
+                ? (((catalogPrice / product.weight_grams) * 1000) / 1.95583)
+                : null),
+        });
+        normalized._profile = buildOfferProfile(normalized);
+        normalized._searchText = buildSearchText(normalized);
+        normalized._productKey = normalizeProductKey(normalized.name);
+        normalized._comparisonKey = getComparisonKey(normalized);
+        return normalized;
+    });
+
+    // Re-merge catalog metadata into the promos already in allOffers.
+    const currentProductIds = new Set();
+    allOffers = allOffers.map(o => {
+        const id = o.product_id || o.id;
+        if (id) currentProductIds.add(id);
+        const product = productMap.get(id);
+        if (!product) return o;
+        const merged = { ...product, ...o };
+        if (!hasExternalImage(o.image) && hasExternalImage(product.image)) {
+            merged.image = product.image;
+        }
+        const normalized = normalizeOfferForUi(merged);
+        return {
+            ...normalized,
+            _profile: buildOfferProfile(normalized),
+            _searchText: buildSearchText(normalized),
+            _productKey: normalizeProductKey(normalized.name),
+            _comparisonKey: getComparisonKey(normalized),
+        };
+    });
+    allOffers = allOffers.concat(allCatalogProducts.filter(product => {
+        const id = product.product_id || product.id;
+        return id && !currentProductIds.has(id);
+    }));
+
+    // Cross-catalog image sharing: builds maps used by getLocalFallbackImage().
+    liveFallbackByKeyword = new Map();
+    liveFallbackByCategory = new Map();
+
+    const BG_STOP_WORDS = new Set(["за","от","с","без","и","или","в","на","при","до","по","над","под","пред","след"]);
+    const getImgWords = name => (name || "").toLowerCase()
+        .replace(/\d+([.,]\d+)?\s*(кг|г|гр|мл|л|бр|kg|g|ml|l|x|×)/g, " ")
+        .split(/[\s,.\-/()]+/)
+        .filter(w => w.length > 2 && !BG_STOP_WORDS.has(w));
+
+    const wordIndex = new Map();
+    for (const p of catalogProducts) {
+        if (!hasExternalImage(p.image)) continue;
+        const nameLower = (p.name || "").toLowerCase();
+        for (const [keyword] of LOCAL_IMAGE_RULES) {
+            if (nameLower.includes(keyword) && !liveFallbackByKeyword.has(keyword)) {
+                liveFallbackByKeyword.set(keyword, p.image);
+                break;
+            }
+        }
+        if (p.category && !liveFallbackByCategory.has(p.category)) {
+            liveFallbackByCategory.set(p.category, p.image);
+        }
+        for (const w of getImgWords(p.name)) {
+            if (!wordIndex.has(w)) wordIndex.set(w, []);
+            wordIndex.get(w).push(p.image);
+        }
+    }
+
+    const assignLiveImage = (offer) => {
+        if (hasExternalImage(offer.image)) return;
+        const words = getImgWords(offer.name);
+        const minMatch = words.length >= 2 ? 2 : 1;
+        const scores = new Map();
+        for (const w of words) {
+            for (const img of (wordIndex.get(w) || [])) {
+                scores.set(img, (scores.get(img) || 0) + 1);
+            }
+        }
+        let bestImg = null, bestScore = minMatch - 1;
+        for (const [img, score] of scores) {
+            if (score > bestScore) { bestImg = img; bestScore = score; }
+        }
+        if (bestImg) { offer.image = bestImg; return; }
+        const nameLower = (offer.name || "").toLowerCase();
+        for (const [keyword] of LOCAL_IMAGE_RULES) {
+            if (nameLower.includes(keyword) && liveFallbackByKeyword.has(keyword)) {
+                offer.image = liveFallbackByKeyword.get(keyword);
+                return;
+            }
+        }
+    };
+    allOffers.forEach(assignLiveImage);
+    allCatalogProducts.forEach(assignLiveImage);
+
+    // Rebuild Fuse index with the full corpus.
+    if (typeof Fuse !== 'undefined') {
+        fuseIndex = new Fuse(allOffers, {
+            keys: [
+                { name: 'name', weight: 0.55 },
+                { name: 'store', weight: 0.12 },
+                { name: 'category', weight: 0.1 },
+                { name: 'diet_tags', weight: 0.08 },
+                { name: '_searchText', weight: 0.15 },
+            ],
+            threshold: 0.28,
+            distance: 200,
+            includeScore: true,
+            minMatchCharLength: 2,
+            ignoreLocation: true,
+        });
+    }
+
+    catalogReady = true;
+    // Refresh favorites: they now have access to all catalog stores for each product.
+    try { renderFavoritesPanel(); } catch {}
+}
+
+/* -----------------------------------------------------------------------
    LOAD
    ----------------------------------------------------------------------- */
 async function loadOffers() {
     if (typeof OFFERS_DATA !== 'undefined') {
-        // Build product lookup from all_products if available.
-        // Offers are enriched with persistent product metadata (image, macros, etc.)
-        // Offer-specific fields (price, discount, valid_until) always take precedence.
-        const catalogProducts = getCatalogProductsData();
-        const productMap = new Map();
-        if (catalogProducts.length) {
-            for (const p of catalogProducts) {
-                if (p.product_id) productMap.set(p.product_id, p);
-            }
-
-            allCatalogProducts = catalogProducts.map(product => {
-                const catalogPrice = product.new_price ?? product.avg_price ?? product.lowest_price ?? null;
-                const normalized = normalizeOfferForUi({
-                    ...product,
-                    new_price: catalogPrice,
-                    new_price_eur: product.new_price_eur ?? (catalogPrice != null ? catalogPrice / 1.95583 : null),
-                    old_price: null,
-                    old_price_eur: null,
-                    discount_pct: null,
-                    source_type: "catalog",
-                    available_stores: product.available_stores || (product.store ? [product.store] : []),
-                    store: product.store || (product.available_stores || [])[0] || null,
-                    price_per_kg: product.price_per_kg ?? (product.weight_grams && catalogPrice
-                        ? (catalogPrice / product.weight_grams) * 1000
-                        : null),
-                    price_per_kg_eur: product.price_per_kg_eur ?? (product.weight_grams && catalogPrice
-                        ? (((catalogPrice / product.weight_grams) * 1000) / 1.95583)
-                        : null),
-                });
-                normalized._profile = buildOfferProfile(normalized);
-                normalized._searchText = buildSearchText(normalized);
-                normalized._productKey = normalizeProductKey(normalized.name);
-                normalized._comparisonKey = getComparisonKey(normalized);
-                return normalized;
-            });
-        }
-
-        const currentProductIds = new Set();
+        // First pass: render promos only. Catalog (~34MB) loads lazily when the
+        // user searches, switches to "Всички продукти", or opens a comparison.
         allOffers = (OFFERS_DATA.offers || []).map(o => {
-            if (o.product_id || o.id) currentProductIds.add(o.product_id || o.id);
-            const product = productMap.get(o.product_id || o.id);
-            const merged = product ? { ...product, ...o } : o;
-            if (product && !hasExternalImage(o.image) && hasExternalImage(product.image)) {
-                merged.image = product.image;
-            }
-            const normalized = normalizeOfferForUi(merged);
+            const normalized = normalizeOfferForUi(o);
             return {
                 ...normalized,
                 _profile: buildOfferProfile(normalized),
@@ -1443,76 +1598,8 @@ async function loadOffers() {
                 _comparisonKey: getComparisonKey(normalized),
             };
         }).filter(isCurrentPromoOffer);
-        allOffers = allOffers.concat(allCatalogProducts.filter(product => {
-            const id = product.product_id || product.id;
-            return id && !currentProductIds.has(id);
-        }));
-        // Cross-catalog image sharing: for offers without real images, find a
-        // real photo of the same product type from the catalog.
-        // Cross-catalog image sharing: builds maps used by getLocalFallbackImage().
-        if (catalogProducts.length) {
-            liveFallbackByKeyword = new Map();
-            liveFallbackByCategory = new Map();
-
-            const BG_STOP_WORDS = new Set(["за","от","с","без","и","или","в","на","при","до","по","над","под","пред","след"]);
-            const getImgWords = name => (name || "").toLowerCase()
-                .replace(/\d+([.,]\d+)?\s*(кг|г|гр|мл|л|бр|kg|g|ml|l|x|×)/g, " ")
-                .split(/[\s,.\-/()]+/)
-                .filter(w => w.length > 2 && !BG_STOP_WORDS.has(w));
-
-            // Build inverted index: word → array of {image} for catalog products with real photos
-            const wordIndex = new Map();
-            for (const p of catalogProducts) {
-                if (!hasExternalImage(p.image)) continue;
-                const nameLower = (p.name || "").toLowerCase();
-                // Keyword-level fallback (kept for getLocalFallbackImage)
-                for (const [keyword] of LOCAL_IMAGE_RULES) {
-                    if (nameLower.includes(keyword) && !liveFallbackByKeyword.has(keyword)) {
-                        liveFallbackByKeyword.set(keyword, p.image);
-                        break;
-                    }
-                }
-                // Category-level
-                if (p.category && !liveFallbackByCategory.has(p.category)) {
-                    liveFallbackByCategory.set(p.category, p.image);
-                }
-                // Word index
-                for (const w of getImgWords(p.name)) {
-                    if (!wordIndex.has(w)) wordIndex.set(w, []);
-                    wordIndex.get(w).push(p.image);
-                }
-            }
-
-            const assignLiveImage = (offer) => {
-                if (hasExternalImage(offer.image)) return;
-                const words = getImgWords(offer.name);
-                const minMatch = words.length >= 2 ? 2 : 1;
-
-                // Count how many query words each catalog image matches
-                const scores = new Map();
-                for (const w of words) {
-                    for (const img of (wordIndex.get(w) || [])) {
-                        scores.set(img, (scores.get(img) || 0) + 1);
-                    }
-                }
-                let bestImg = null, bestScore = minMatch - 1;
-                for (const [img, score] of scores) {
-                    if (score > bestScore) { bestImg = img; bestScore = score; }
-                }
-                if (bestImg) { offer.image = bestImg; return; }
-
-                // Keyword-level CDN fallback
-                const nameLower = (offer.name || "").toLowerCase();
-                for (const [keyword] of LOCAL_IMAGE_RULES) {
-                    if (nameLower.includes(keyword) && liveFallbackByKeyword.has(keyword)) {
-                        offer.image = liveFallbackByKeyword.get(keyword);
-                        return;
-                    }
-                }
-            };
-            allOffers.forEach(assignLiveImage);
-            allCatalogProducts.forEach(assignLiveImage);
-        }
+        // If catalog is already inlined (e.g. cached or page preloaded it), enrich now.
+        if (isCatalogAvailable()) applyCatalogEnrichment();
         applyFilters();
         renderOffersStatus();
         renderFavoritesPanel();
@@ -2271,12 +2358,15 @@ function initSearch() {
     }
 
     const submit = document.getElementById("offers-search-submit");
-    const runSearch = () => {
+    const runSearch = async () => {
         searchQuery = normalizeSearchQuery(input.value);
         if (searchQuery && activeSource === "promo") {
             setActiveSource("all");
         }
         currentPage = 1;
+        if (searchQuery && !catalogReady) {
+            try { await ensureCatalogLoaded(); } catch {}
+        }
         applyFilters();
     };
     if (submit) submit.addEventListener("click", runSearch);
@@ -2285,6 +2375,10 @@ function initSearch() {
         event.preventDefault();
         runSearch();
     });
+    // Kick off catalog load in the background as soon as the user shows search intent.
+    input.addEventListener("focus", () => {
+        if (!catalogReady) { ensureCatalogLoaded().catch(() => {}); }
+    }, { once: true });
 }
 
 /* -----------------------------------------------------------------------
@@ -2498,9 +2592,12 @@ function initStoreFilters() {
 
 function initSourceFilters() {
     document.querySelectorAll(".filter-btn[data-source]").forEach(btn => {
-        btn.addEventListener("click", () => {
+        btn.addEventListener("click", async () => {
             setActiveSource(btn.dataset.source);
             currentPage = 1;
+            if (btn.dataset.source === "all" && !catalogReady) {
+                try { await ensureCatalogLoaded(); } catch {}
+            }
             applyFilters();
         });
     });
