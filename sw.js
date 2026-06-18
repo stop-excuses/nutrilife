@@ -1,4 +1,4 @@
-const CACHE_NAME = 'nutrilife-v33';
+const CACHE_NAME = 'nutrilife-v34';
 const DATA_CACHE = 'nutrilife-data-v1';
 const RUNTIME_CACHE = 'nutrilife-runtime-v1';
 const IMAGE_CACHE = 'nutrilife-images-v1';
@@ -47,9 +47,6 @@ function isTrustedCdnAsset(url) {
 function isBrokenProductImage(url) {
   const value = url.href;
   return value.includes('imgproxy-retcat.assets.schwarz')
-    || value.includes('kaufland.media.schwarz/is/image/schwarz/')
-    || value.includes('tmarketonline.bg/cdn/img/products/')
-    || value.includes('media.kaufland.com/images/PPIM/')
     || value.includes('/etc.clientlibs/kaufland/')
     || value.includes('stayfit.bg/cdn/img/products/');
 }
@@ -91,8 +88,10 @@ async function networkFirst(request) {
 
 async function imageFallback(request) {
   const url = new URL(request.url);
-  if (url.origin !== self.location.origin && (self.location.hostname === 'localhost' || self.location.hostname === '127.0.0.1' || isBrokenProductImage(url))) {
-    return caches.match(IMAGE_FALLBACK_URL);
+  // Return 404 (not a placeholder image) so the <img>'s onerror fires and the
+  // frontend swaps to the per-keyword local SVG (yogurt.svg, cheese.svg, etc.).
+  if (url.origin !== self.location.origin && isBrokenProductImage(url)) {
+    return new Response(null, { status: 404 });
   }
   const cache = await caches.open(IMAGE_CACHE);
   const cached = await cache.match(request);
@@ -101,12 +100,11 @@ async function imageFallback(request) {
     const response = await fetch(request);
     if (response.ok || response.type === 'opaque') {
       cache.put(request, response.clone());
-      return response;
     }
+    return response;
   } catch {
-    // Fall through to local fallback.
+    return new Response(null, { status: 504 });
   }
-  return caches.match(IMAGE_FALLBACK_URL);
 }
 
 self.addEventListener('install', event => {
