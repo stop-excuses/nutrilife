@@ -25,7 +25,13 @@ let favoriteItems = (() => {
     if (!Array.isArray(raw)) return [];
     return raw
         .filter(f => f && typeof f === 'object' && f.kw)
-        .map(f => ({ kw: f.kw, seedOfferId: f.seedOfferId || f.offerId || '', emoji: f.emoji || '🍽️', cat: f.cat || null }));
+        .map(f => {
+            const ids = Array.isArray(f.seedOfferIds) && f.seedOfferIds.length
+                ? f.seedOfferIds
+                : [f.seedOfferId || f.offerId].filter(Boolean);
+            return { kw: f.kw, seedOfferIds: [...new Set(ids)], emoji: f.emoji || '🍽️', cat: f.cat || null };
+        })
+        .filter(f => f.seedOfferIds.length > 0);
 })();
 let liveFallbackByKeyword = new Map();  // keyword → real CDN image URL
 let liveFallbackByCategory = new Map(); // category → real CDN image URL
@@ -1990,7 +1996,7 @@ function favoriteMatchesOffer(offer, kw, cat) {
 function isFavorited(offer) {
     if (!offer) return false;
     const id = getOfferDomId(offer);
-    return favoriteItems.some(f => f.seedOfferId === id);
+    return favoriteItems.some(f => f.seedOfferIds.includes(id));
 }
 
 function toggleFavorite(offerId) {
@@ -1998,36 +2004,34 @@ function toggleFavorite(offerId) {
     if (!offer) return;
     const kw = extractFavoriteKeyword(offer);
     const id = getOfferDomId(offer);
-    const idx = favoriteItems.findIndex(f => favoriteKeywordsMatch(f.kw, kw));
-    const previousSeedId = idx !== -1 ? favoriteItems[idx].seedOfferId : null;
     let addedNewKw = false;
 
-    if (idx !== -1) {
-        if (favoriteItems[idx].seedOfferId === id) {
-            // Click on the active heart — un-track the whole keyword.
-            favoriteItems.splice(idx, 1);
-        } else {
-            // Same keyword already tracked. Transfer the visual marker to this card.
-            favoriteItems[idx].seedOfferId = id;
-            favoriteItems[idx].emoji = favoriteItems[idx].emoji || getFavEmoji(kw, offer.emoji);
-            favoriteItems[idx].cat = favoriteItems[idx].cat || offer.category || null;
+    // First: is this exact offer already marked? Just un-mark it.
+    const containingIdx = favoriteItems.findIndex(f => f.seedOfferIds.includes(id));
+    if (containingIdx !== -1) {
+        const item = favoriteItems[containingIdx];
+        item.seedOfferIds = item.seedOfferIds.filter(x => x !== id);
+        if (item.seedOfferIds.length === 0) {
+            favoriteItems.splice(containingIdx, 1);
         }
     } else {
-        favoriteItems.push({ kw, seedOfferId: id, emoji: getFavEmoji(kw, offer.emoji), cat: offer.category || null });
-        addedNewKw = true;
+        // Add to existing keyword group, or create a new one.
+        const kwIdx = favoriteItems.findIndex(f => favoriteKeywordsMatch(f.kw, kw));
+        if (kwIdx !== -1) {
+            favoriteItems[kwIdx].seedOfferIds.push(id);
+            favoriteItems[kwIdx].emoji = favoriteItems[kwIdx].emoji || getFavEmoji(kw, offer.emoji);
+            favoriteItems[kwIdx].cat = favoriteItems[kwIdx].cat || offer.category || null;
+        } else {
+            favoriteItems.push({ kw, seedOfferIds: [id], emoji: getFavEmoji(kw, offer.emoji), cat: offer.category || null });
+            addedNewKw = true;
+        }
     }
     saveFavorites();
-    // Refresh exactly the hearts that may have changed: the previous seed (if any)
-    // and the just-clicked card.
-    const toRefresh = new Set([id]);
-    if (previousSeedId) toRefresh.add(previousSeedId);
-    toRefresh.forEach(refreshId => {
-        const o = allOffers.find(x => getOfferDomId(x) === refreshId);
-        const active = o ? isFavorited(o) : false;
-        document.querySelectorAll(`.fav-btn[data-offer-id="${CSS.escape(refreshId)}"]`).forEach(btn => {
-            btn.classList.toggle('active', active);
-            btn.title = active ? 'Премахни от списъка' : 'Добави към списъка';
-        });
+    // Refresh only the clicked card's hearts — every other seed is independent.
+    const active = isFavorited(offer);
+    document.querySelectorAll(`.fav-btn[data-offer-id="${CSS.escape(id)}"]`).forEach(btn => {
+        btn.classList.toggle('active', active);
+        btn.title = active ? 'Премахни от списъка' : 'Добави към списъка';
     });
     renderFavoritesPanel();
     // When adding a brand-new keyword, immediately reveal the row with all its
@@ -2130,7 +2134,7 @@ function renderFavoritesPanel() {
     }
     if (section) section.style.removeProperty('display');
 
-    const rows = favoriteItems.map(({ kw, seedOfferId, emoji, cat }) => {
+    const rows = favoriteItems.map(({ kw, emoji, cat }) => {
         const offers = allOffers
             .filter(o => favoriteMatchesOffer(o, kw, cat) && o.new_price != null)
             .sort((a, b) => a.new_price - b.new_price);
@@ -2256,7 +2260,7 @@ function renderFavoritesPanel() {
             const kw = btn.dataset.kw;
             const seedIds = favoriteItems
                 .filter(f => favoriteKeywordsMatch(f.kw, kw))
-                .map(f => f.seedOfferId)
+                .flatMap(f => f.seedOfferIds || [])
                 .filter(Boolean);
             favoriteItems = favoriteItems.filter(f => !favoriteKeywordsMatch(f.kw, kw));
             const selectedOffer = allOffers.find(o => getOfferDomId(o) === selectedFavoriteOfferId);
