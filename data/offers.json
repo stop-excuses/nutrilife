@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-18T16:22:50.113808Z",
-  "content_hash": "f0bd30524e709f6c2398691de265b5b0",
-  "total_offers": 4237,
-  "promo_offers": 1520,
+  "generated_at": "2026-06-18T19:34:45.268577Z",
+  "content_hash": "889f629460d2a21e83deaf5311f53327",
+  "total_offers": 4243,
+  "promo_offers": 1526,
   "assortment_offers": 2717,
   "stores": [
     "Billa",
@@ -27385,6 +27385,57 @@
         "p": 14,
         "f": 22,
         "c": 2
+      }
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 2.72,
+      "new_price_eur": 1.39,
+      "old_price": 6.43,
+      "old_price_eur": 3.29,
+      "discount_pct": 58,
+      "valid_from": "2026-06-08",
+      "valid_until": "2026-07-05",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 2.72,
+          "price_eur": 1.39,
+          "old_price": 6.43,
+          "old_price_eur": 3.29,
+          "discount_pct": 58,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 2.72,
+      "comparison_count": 1,
+      "product_id": "kaufland-домати-на-клонка-клас-i",
+      "name": "Домати на клонка Клас: I",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/2831970000000_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "vegetable",
+      "emoji": "🥦",
+      "health_score": 7,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 18,
+        "p": 0.9,
+        "f": 0.2,
+        "c": 3.9
       }
     },
     {
@@ -69124,6 +69175,57 @@
         "p": 25,
         "f": 18,
         "c": 0
+      }
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 3.99,
+      "new_price_eur": 2.04,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-06-08",
+      "valid_until": "2026-07-05",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 3.99,
+          "price_eur": 2.04,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 3.99,
+      "comparison_count": 1,
+      "product_id": "kaufland-хамедорея-ø9-см",
+      "name": "Хамедорея Ø9 см",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/Mini_20Bergpalme_00101262?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 304,
+        "p": 0.3,
+        "f": 0,
+        "c": 82
       }
     },
     {
@@ -136547,6 +136649,50 @@
       "is_long_lasting": false
     },
     {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 3.99,
+      "new_price_eur": 2.04,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-06-08",
+      "valid_until": "2026-07-05",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 3.99,
+          "price_eur": 2.04,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 3.99,
+      "comparison_count": 1,
+      "product_id": "kaufland-минирастение-различни-видове",
+      "name": "Минирастение различни видове",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/174_09902285_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false
+    },
+    {
       "store": "Billa",
       "address": null,
       "new_price": 3.99,
@@ -142686,6 +142832,50 @@
       "product_id": "kaufland-tip-top-препарат-active-foam",
       "name": "Tip Top Препарат Active Foam",
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800501368916_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 4.48,
+      "new_price_eur": 2.29,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-06-08",
+      "valid_until": "2026-07-05",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 4.48,
+          "price_eur": 2.29,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 4.48,
+      "comparison_count": 1,
+      "product_id": "kaufland-конифери-микс-ø9-см",
+      "name": "Конифери микс Ø9 см",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/8716137000012_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -156690,6 +156880,50 @@
       "address": null,
       "new_price": 6.98,
       "new_price_eur": 3.57,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-06-08",
+      "valid_until": "2026-07-05",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 6.98,
+          "price_eur": 3.57,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 6.98,
+      "comparison_count": 1,
+      "product_id": "kaufland-очила-за-четене-1-5-до-3-0-диоптъра-2",
+      "name": "Очила за четене +1.5 до +3,0 диоптъра",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4005847291150_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 6.98,
+      "new_price_eur": 3.57,
       "old_price": 13.98,
       "old_price_eur": 7.15,
       "discount_pct": 50,
@@ -156724,50 +156958,6 @@
       "emoji": "🥛",
       "is_food": false,
       "is_junk": true,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 6.98,
-      "new_price_eur": 3.57,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-06-08",
-      "valid_until": "2026-07-05",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 6.98,
-          "price_eur": 3.57,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 6.98,
-      "comparison_count": 1,
-      "product_id": "kaufland-очила-за-четене-1-5-до-3-0-диоптъра-2",
-      "name": "Очила за четене +1.5 до +3,0 диоптъра",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/4005847291150_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
       "is_healthy": false,
       "is_high_protein": false,
       "is_good_carb": false,
@@ -167036,6 +167226,52 @@
       "is_long_lasting": false
     },
     {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 10.56,
+      "new_price_eur": 5.4,
+      "old_price": 25.82,
+      "old_price_eur": 13.2,
+      "discount_pct": 59,
+      "valid_from": "2026-06-08",
+      "valid_until": "2026-07-05",
+      "price_per_kg": 10.56,
+      "price_per_kg_eur": 5.4,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 10.56,
+          "price_eur": 5.4,
+          "old_price": 25.82,
+          "old_price_eur": 13.2,
+          "discount_pct": 59,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 10.56,
+      "comparison_count": 1,
+      "product_id": "kaufland-сладея-захар-1000g",
+      "weight_grams": 1000,
+      "weight_raw": "1 кг",
+      "name": "Сладея Захар",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00026682_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false
+    },
+    {
       "store": "Fantastico",
       "address": null,
       "new_price": 10.73,
@@ -176262,6 +176498,50 @@
       "product_id": "kaufland-newcential-динамометричен-ключ-1-4",
       "name": "NEWCENTIAL Динамометричен ключ 1/4\"",
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627166877_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 22.98,
+      "new_price_eur": 11.75,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-06-08",
+      "valid_until": "2026-07-05",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 22.98,
+          "price_eur": 11.75,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 22.98,
+      "comparison_count": 1,
+      "product_id": "kaufland-роза-в-купа",
+      "name": "Роза в купа",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/Rosen_20Schale_20_28Rosa_20Hybr__29_2020cm_gelb_00102048?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
