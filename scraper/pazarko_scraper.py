@@ -116,8 +116,9 @@ def fetch_paginated(store: str | None = None, search: str | None = None) -> list
     return out
 
 
-# Pazarko uses 8 supermarkets — we know these from /api/stats response
-KNOWN_STORES = ["Kaufland", "Lidl", "Billa", "Fantastico", "TMarket", "Metro", "Dar", "CBA"]
+# Pazarko's actually-populated stores. Their llms.txt lists Fantastico/Dar/CBA
+# but /api/products returns total=0 for those (as of 2026-06).
+KNOWN_STORES = ["Kaufland", "Lidl", "Billa", "TMarket", "Metro", "BulMag", "Avanti"]
 
 
 def fetch_all_stores(stores: list[str] | None = None) -> list[dict]:
@@ -169,7 +170,7 @@ def main():
     else:
         # Default to only stores where direct-magazine scraping leaves us thin —
         # no point hammering pazarko for Kaufland/Lidl when we already cover 99%.
-        DEFAULT_TARGETS = ["Billa", "Fantastico", "Metro", "TMarket"]
+        DEFAULT_TARGETS = ["Billa", "TMarket", "Metro", "BulMag", "Avanti"]
         targets = [s.strip() for s in args.stores.split(",")] if args.stores else DEFAULT_TARGETS
         print(f"Fetching stores: {', '.join(targets)}")
         payload["products"] = fetch_all_stores(targets)

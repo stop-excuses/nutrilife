@@ -16,7 +16,8 @@ from collections import defaultdict
 ROOT = os.path.join(os.path.dirname(__file__), "..")
 PAZARKO_PATH = os.path.join(ROOT, "data", "pazarko.json")
 OFFERS_PATH = os.path.join(ROOT, "data", "offers.json")
-MEMORY_PATH = os.path.join(ROOT, "data", "market_memory.json")
+# sync_offers.py rebuilds market_memory from all_products, so we write there.
+ALL_PRODUCTS_PATH = os.path.join(ROOT, "data", "all_products.json")
 
 
 # Map our store labels → pazarko store labels
@@ -136,7 +137,7 @@ def main():
     index = load_pazarko_index()
 
     enrich_file(OFFERS_PATH, index, "offers")
-    enrich_file(MEMORY_PATH, index, "products")
+    enrich_file(ALL_PRODUCTS_PATH, index, "products")
 
     print("\nNext: run `python sync_offers.py` to regenerate data/offers.js + data/market_memory.js.")
 

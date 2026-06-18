@@ -1,8 +1,13 @@
 name: Refresh Pazarko Catalog
 
-# Pazarko fills in stores where our direct scrapers are weak:
-#   - Billa & Fantastico — they're SPAs; our requests-based scraper misses images
-#   - Metro             — we have no direct scraper at all
+# Pazarko fills in stores where our direct scrapers are weak or missing:
+#   - Billa     — SPA; our requests-based scraper can't get images
+#   - TMarket   — fills in the ~12% the direct scraper misses
+#   - Metro     — no direct scraper at all (+11K products)
+#   - BulMag    — no direct scraper at all (+19K products)
+#   - Avanti    — no direct scraper at all (+2K products)
+# (Fantastico/Dar/CBA are listed in pazarko's llms.txt but the /api/products
+#  endpoint currently returns 0 rows for them, so we don't query.)
 # Kept on a low-frequency schedule with randomized start time so the request
 # pattern stays unremarkable.
 

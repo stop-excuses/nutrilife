@@ -23,7 +23,7 @@ ALL_PRODUCTS_PATH = os.path.join(ROOT, "data", "all_products.json")
 EUR_BGN = 1.95583
 
 # Stores we want to import as new catalog rows (we lack any direct scraper).
-IMPORT_STORES = {"Metro"}
+IMPORT_STORES = {"Metro", "BulMag", "Avanti"}
 
 # Map pazarko sub-category strings → our UI categories.
 SUB_TO_CATEGORY = {
