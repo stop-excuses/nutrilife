@@ -1855,6 +1855,18 @@ function getFavEmoji(kw, fallback) {
     return KEYWORD_EMOJI[kw] || fallback || '🍽️';
 }
 
+function getFavThumbImage(kw) {
+    if (!kw) return '';
+    const norm = String(kw).toLowerCase();
+    for (const [keyword, imagePath] of LOCAL_IMAGE_RULES) {
+        if (norm === keyword) return imagePath;
+    }
+    for (const [keyword, imagePath] of LOCAL_IMAGE_RULES) {
+        if (norm.includes(keyword) || keyword.includes(norm)) return imagePath;
+    }
+    return '';
+}
+
 function normalizeFavoriteKeyword(kw) {
     const q = normalizeSearchQuery(kw);
     return FAVORITE_KEYWORD_ALIASES[q] || q;
@@ -2016,53 +2028,63 @@ function renderFavoritesPanel() {
         const shownOffers = sorted.slice(0, FAV_LIMIT);
         const hiddenCount = sorted.length - FAV_LIMIT;
 
-        const buildOfferRow = (o) => {
+        const buildOfferCard = (o) => {
             const validity = getOfferValidityText(o, 'short');
-            const disc = o.discount_pct ? `<span class="fav-disc">−${o.discount_pct}%</span>` : '';
+            const disc = o.discount_pct ? `<span class="fav-card-disc">−${o.discount_pct}%</span>` : '';
             const oldPrice = o.old_price ? `<span class="fav-old">${o.old_price.toFixed(2)} лв</span>` : '';
-            const wi = extractWeightFromName(o);
             const unitPrice = getFavoriteUnitPrice(o, kw);
 
-            // Price per unit: per-piece for яйца/бр, else per kg
             let unitHtml = '';
             const eggMatch = o.name.match(/(\d+)\s*(?:бр|броя|яйц)/i);
             if (normalizeFavoriteKeyword(kw) === 'яйц' && eggMatch && unitPrice) {
-                unitHtml = `<span class="fav-pkg">${unitPrice.toFixed(2)} лв/бр</span>`;
+                unitHtml = `<span class="fav-card-unit">${unitPrice.toFixed(2)} лв/бр</span>`;
             } else if (unitPrice) {
-                unitHtml = `<span class="fav-pkg">${unitPrice.toFixed(2)} лв/кг</span>`;
+                unitHtml = `<span class="fav-card-unit">${unitPrice.toFixed(2)} лв/кг</span>`;
             }
 
-            const weightHtml = wi?.raw ? `<span class="fav-weight">${wi.raw}</span>` : '';
-            // Shorten name: strip known brand noise, max 42 chars
             const cleanName = o.name.replace(/\s*\d+[\d.,]*\s*(кг|г|гр|мл|л|бр)\b.*/i, '').trim();
-            const thumb = renderOfferThumb(o);
-            return `<div class="fav-offer-row" data-offer-id="${getOfferDomId(o)}" title="Виж продукта">
-                ${thumb ? `<div class="fav-offer-thumb">${thumb}</div>` : ''}
-                <div class="fav-offer-main">
-                    <div class="fav-offer-top">
-                        <span class="fav-store">${o.store}</span>
-                        <span class="fav-name">${cleanName}</span>
-                    </div>
-                    <div class="fav-offer-btm">
-                        <strong class="fav-price">${o.new_price.toFixed(2)} лв</strong>
-                        ${disc}${oldPrice}
-                        ${weightHtml}${unitHtml}
-                        ${validity ? `<span class="fav-validity">${validity}</span>` : ''}
-                    </div>
+            const imgSrc = getOfferImage(o);
+            const isFallback = !hasRealImage(o.image);
+            const fallbackSrc = isFallback ? "" : getLocalFallbackImage(o);
+            const onError = fallbackSrc
+                ? `if(this.dataset.fallbackSrc&&this.src!==this.dataset.fallbackSrc){this.src=this.dataset.fallbackSrc;this.parentElement.classList.add('fallback');}else{this.style.visibility='hidden';}`
+                : "this.style.visibility='hidden'";
+            const imgHtml = imgSrc
+                ? `<img src="${imgSrc}" alt="${escapeHtml(cleanName)}" loading="lazy" decoding="async" ${fallbackSrc ? `data-fallback-src="${fallbackSrc}"` : ""} onerror="${onError}">`
+                : '';
+            const tailHtml = unitHtml || (validity ? `<span class="fav-card-validity">${validity}</span>` : '');
+
+            return `<div class="fav-card" data-offer-id="${getOfferDomId(o)}" title="Виж продукта">
+                <div class="fav-card-img${isFallback ? ' fallback' : ''}">
+                    ${disc}
+                    ${imgHtml}
                 </div>
-                <span class="fav-row-go">›</span>
+                <div class="fav-card-body">
+                    <span class="fav-card-store">${o.store}</span>
+                    <div class="fav-card-name">${escapeHtml(cleanName)}</div>
+                    <div class="fav-card-price-row">
+                        <strong>${o.new_price.toFixed(2)} лв</strong>
+                        ${oldPrice}
+                    </div>
+                    ${tailHtml}
+                </div>
             </div>`;
         };
 
-        const shownHtml = shownOffers.map(buildOfferRow).join('');
+        const shownHtml = shownOffers.map(buildOfferCard).join('');
         const hiddenHtml = hiddenCount > 0
-            ? `<div class="fav-hidden-rows">${sorted.slice(FAV_LIMIT).map(buildOfferRow).join('')}</div>
+            ? `<div class="fav-hidden-rows">${sorted.slice(FAV_LIMIT).map(buildOfferCard).join('')}</div>
                <button class="fav-show-more">+ ${hiddenCount} още</button>`
             : '';
 
+        const thumbImg = getFavThumbImage(kw);
+        const thumbHtml = thumbImg
+            ? `<span class="fav-thumb"><img src="${thumbImg}" alt="" loading="lazy"></span>`
+            : `<span class="fav-thumb"><span class="fav-emoji">${getFavEmoji(kw, emoji)}</span></span>`;
+
         return `<div class="fav-item" data-kw="${kw}">
             <div class="fav-item-hd">
-                <span class="fav-emoji">${getFavEmoji(kw, emoji)}</span>
+                ${thumbHtml}
                 <span class="fav-kw">${getFavLabel(kw)}</span>
                 ${statusHtml}
                 <button class="fav-rm" data-kw="${kw}" title="Премахни">×</button>
@@ -2134,8 +2156,8 @@ function renderFavoritesPanel() {
         });
     });
 
-    panel.querySelectorAll('.fav-offer-row[data-offer-id]').forEach(row => {
-        row.addEventListener('click', () => navigateToOfferCard(row.dataset.offerId));
+    panel.querySelectorAll('.fav-card[data-offer-id]').forEach(card => {
+        card.addEventListener('click', () => navigateToOfferCard(card.dataset.offerId));
     });
 }
 
