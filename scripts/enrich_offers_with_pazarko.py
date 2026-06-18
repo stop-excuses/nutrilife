@@ -20,16 +20,56 @@ OFFERS_PATH = os.path.join(ROOT, "data", "offers.json")
 ALL_PRODUCTS_PATH = os.path.join(ROOT, "data", "all_products.json")
 
 
-# Map our store labels → pazarko store labels
+# Match quality knobs — chosen so that the tests/image-match-quality.js
+# suite stays under its 5% wrong-match threshold.
+MIN_JACCARD = 0.65          # token overlap (was 0.32 — too loose)
+MIN_SHARED_TOKENS = 3       # need at least N matching tokens
+REJECT_ON_BRAND_MISMATCH = True
+
+# Map our store labels -> pazarko store labels. Cross-store matching is OFF
+# because borrowing a Kaufland image for a Billa product gave "right category,
+# wrong brand" hits all over the catalog.
 STORE_ALIAS = {
     "Kaufland": ["Kaufland"],
     "Lidl": ["Lidl"],
     "Billa": ["Billa"],
-    "Fantastico": ["Fantastico"],
     "T-Market": ["TMarket"],
-    "Dar": ["Dar", "CBA"],
     "Metro": ["Metro"],
+    "BulMag": ["BulMag"],
+    "Avanti": ["Avanti"],
 }
+
+# Words that can never differ between match and candidate — if our product
+# says "пилешки бургер" we must NOT borrow an image whose name contains
+# "маршмелоу". One such conflict is enough to reject the match.
+FOOD_TYPE_GROUPS = [
+    # Proteins
+    {"пилешк", "пиле"},
+    {"телешк", "говежд"},
+    {"свинск"},
+    {"пуешк", "пуе"},
+    {"риба", "тон", "сьомга", "скумрия", "ципура", "лаврак", "пъстърва", "херинга", "треска"},
+    {"яйц", "яйца"},
+    # Dairy
+    {"кисело мляко", "йогурт"},
+    {"извара", "скир", "cottage"},
+    {"сирене"},
+    {"кашкавал"},
+    {"моцарела"},
+    # Pantry / dry
+    {"леща"}, {"нахут"}, {"боб", "фасул"}, {"грах"},
+    {"ориз"}, {"овес", "овесен"}, {"паста", "спагети", "макарон"},
+    {"брашно"}, {"хляб"},
+    # Sweets / snacks
+    {"шоколад"}, {"бисквит"}, {"вафл"}, {"бонбон"},
+    {"маршмелоу", "маршмалоу"},
+    # Misc
+    {"маслин"}, {"зехтин"}, {"олио"}, {"оцет"},
+    {"кафе"}, {"чай"}, {"вино"}, {"бира"}, {"вода"},
+    {"спанак"}, {"домат"}, {"краставиц"}, {"чушк"}, {"картоф"},
+    {"банан"}, {"ябъл"}, {"круш"}, {"портокал"}, {"мандарин"},
+    {"бургер"}, {"кюфте"}, {"колбас", "салам", "шунка"},
+]
 
 PLACEHOLDER_MARKERS = ("No-Image-Placeholder", "/images/foods/")
 
@@ -42,9 +82,35 @@ def is_real_image(image: str | None) -> bool:
     return image.startswith("http")
 
 
+PROMO_PREFIX_RE = re.compile(
+    r"^\s*("
+    r"супер\s+цена|"
+    r"промо(ция)?|"
+    r"акция|"
+    r"нова\s+цена|"
+    r"нова\s+ниска\s+цена|"
+    r"оферта|"
+    r"спестявате?|"
+    r"сега\s+в\s+billa|"
+    r"ново\s+в\s+billa|"
+    r"ново\s+от\s+billa|"
+    r"само\s+в\s+billa"
+    r")\s*[-–—:]+\s*",
+    re.IGNORECASE,
+)
+
+
+def strip_promo_prefix(s: str) -> str:
+    prev, cur = None, s or ""
+    while cur != prev:
+        prev = cur
+        cur = PROMO_PREFIX_RE.sub("", cur)
+    return cur
+
+
 def normalize_name(name: str) -> str:
-    """Lowercase, strip whitespace + diacritics-light, keep BG chars."""
-    s = (name or "").lower().strip()
+    """Lowercase, strip our own promo prefixes + punctuation, keep BG chars."""
+    s = strip_promo_prefix(name or "").lower().strip()
     s = re.sub(r"[\s\-_/]+", " ", s)
     s = re.sub(r"[^а-яa-z0-9 ]", "", s)
     return s.strip()
@@ -67,20 +133,78 @@ def load_pazarko_index() -> dict[str, list[dict]]:
         if not p.get("image_url"):
             continue
         s = (p.get("store") or "").lower()
+        name = p.get("product_name", "")
         by_store[s].append({
-            "name_norm": normalize_name(p.get("product_name", "")),
-            "name_tokens": name_tokens(p.get("product_name", "")),
+            "name_orig": name,
+            "name_norm": normalize_name(name),
+            "name_tokens": name_tokens(name),
+            "brand": extract_brand(name),
             "image_url": p["image_url"],
         })
     print(f"[pazarko] loaded {sum(len(v) for v in by_store.values())} products with images across {len(by_store)} stores")
     return by_store
 
 
+GENERIC_BRAND_WORDS = {
+    "био", "еко", "премиум", "екстра", "натурален", "натурална", "класически",
+    "класическа", "български", "българска", "българско", "пресен", "пресни",
+    "свежо", "свеж", "охладен", "охладено", "замразен", "замразено", "сухо",
+    "супер", "цена", "промо", "ново", "нов", "нова",
+}
+
+# Supermarket house-label brands. If the candidate image carries one of these
+# and our product clearly has a different real brand (or none we can extract),
+# we refuse the borrow — borrowing a "BILLA Kисело мляко" photo for a
+# "Ел Би Kисело мляко" listing puts a wrong-brand carton in front of users.
+SUPERMARKET_LABELS = {
+    "billa", "kaufland", "lidl", "metro", "fantastico", "tmarket",
+    "bulmag", "avanti", "clever",
+}
+
+
+def extract_brand(name: str) -> str | None:
+    """Extract a likely brand token — first ALL-CAPS or Capitalized non-generic word."""
+    words = re.split(r"[\s.,/\-]+", strip_promo_prefix(name or ""))
+    for w in words:
+        if len(w) < 3:
+            continue
+        lower = w.lower()
+        if lower in GENERIC_BRAND_WORDS:
+            continue
+        if re.fullmatch(r"[A-Z][A-Z0-9]{2,}", w):
+            return lower
+        if re.fullmatch(r"[А-Я][А-Яа-я0-9]{2,}", w):
+            return lower
+    return None
+
+
+def food_type_conflict(name_a: str, name_b: str) -> bool:
+    """Reject if names belong to clearly different food-type buckets.
+
+    Example: "Нахут" vs "Ементалер" — both Billa, both have "Clever"
+    brand, but they're different products. If our name says "нахут" and
+    candidate's says "ементалер", the image must NOT be borrowed.
+    """
+    a_low, b_low = name_a.lower(), name_b.lower()
+    a_groups = {i for i, g in enumerate(FOOD_TYPE_GROUPS) if any(k in a_low for k in g)}
+    b_groups = {i for i, g in enumerate(FOOD_TYPE_GROUPS) if any(k in b_low for k in g)}
+    if a_groups and b_groups and a_groups.isdisjoint(b_groups):
+        return True
+    return False
+
+
 def best_match(query_name: str, query_stores: list[str], index: dict[str, list[dict]]) -> str | None:
-    """Find pazarko image_url for our (name, store) by token-overlap score."""
+    """Find pazarko image_url that's plausibly the same product.
+
+    Rules: same store, high jaccard, brand agrees, no food-type conflict.
+    Returns None if no candidate clears all gates — better an empty card
+    than a wrong-brand image.
+    """
     q_tokens = name_tokens(query_name)
     if len(q_tokens) < 2:
         return None
+    q_brand = extract_brand(query_name)
+
     candidates: list[dict] = []
     for store in query_stores:
         for pazarko_store in STORE_ALIAS.get(store, []):
@@ -88,20 +212,45 @@ def best_match(query_name: str, query_stores: list[str], index: dict[str, list[d
     if not candidates:
         return None
 
-    best_score = 0
+    best_score = 0.0
     best_url = None
     for c in candidates:
-        common = q_tokens & c["name_tokens"]
-        if len(common) < 2:
+        c_tokens = c["name_tokens"]
+        shared = q_tokens & c_tokens
+        if len(shared) < MIN_SHARED_TOKENS:
             continue
-        # Jaccard-like score, slight bonus for high overlap
-        score = len(common) / max(1, len(q_tokens | c["name_tokens"]))
-        if score > best_score:
-            best_score = score
+
+        jacc = len(shared) / max(1, len(q_tokens | c_tokens))
+
+        # Inclusion test: one name is essentially a subset of the other
+        # (e.g. "Billa Premium Сладолед 500 мл" ⊂ "BILLA Premium Сладолед
+        # с ядки макадамия 500 МЛ"). For these, a weaker jaccard is fine
+        # because the brand+core-noun overlap is total.
+        ours_in_theirs = q_tokens.issubset(c_tokens)
+        theirs_in_ours = c_tokens.issubset(q_tokens)
+        is_inclusion = ours_in_theirs or theirs_in_ours
+
+        if jacc < MIN_JACCARD and not (is_inclusion and jacc >= 0.45):
+            continue
+
+        # Brand gate
+        c_brand = c.get("brand") or extract_brand(c.get("name_orig", ""))
+        if REJECT_ON_BRAND_MISMATCH and q_brand and c_brand and q_brand != c_brand:
+            continue
+        # Supermarket-label gate: if candidate is a house-brand and our product
+        # doesn't share that brand (or we couldn't read ours), reject.
+        if c_brand in SUPERMARKET_LABELS and q_brand != c_brand:
+            continue
+
+        # Food-type gate
+        if food_type_conflict(query_name, c.get("name_orig", "")):
+            continue
+
+        if jacc > best_score:
+            best_score = jacc
             best_url = c["image_url"]
-    if best_score >= 0.32:  # ~one-third token overlap minimum
-        return best_url
-    return None
+
+    return best_url
 
 
 def enrich_file(path: str, index: dict[str, list[dict]], items_key: str = "products") -> int:
