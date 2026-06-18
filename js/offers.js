@@ -30,13 +30,9 @@ let liveFallbackByCategory = new Map(); // category → real CDN image URL
 
 const OFFERS_PER_PAGE = 36;
 const PLACEHOLDER_IMAGE_MARKER = "No-Image-Placeholder.svg";
-const BROKEN_IMAGE_HOST_MARKERS = [
-    "imgproxy-retcat.assets.schwarz",
-    "kaufland.media.schwarz/is/image/schwarz/",
-    "tmarketonline.bg/cdn/img/products/",
-    "media.kaufland.com/images/PPIM/",
-    "/etc.clientlibs/kaufland/"
-];
+// Hosts that were temporarily flaky but currently serve real product images.
+// Empty: trust the CDN, let <img onerror> swap to the local SVG fallback if a request fails.
+const BROKEN_IMAGE_HOST_MARKERS = [];
 
 function getCatalogProductsData() {
     if (typeof MARKET_MEMORY_DATA !== "undefined") return MARKET_MEMORY_DATA.products || [];
@@ -1192,11 +1188,6 @@ function getLocalFallbackImage(offer) {
 }
 
 function getOfferImage(offer) {
-    if (typeof location !== "undefined"
-        && (location.hostname === "localhost" || location.hostname === "127.0.0.1")
-        && hasExternalImage(offer.image)) {
-        return getLocalFallbackImage(offer);
-    }
     if (typeof navigator !== "undefined" && navigator.onLine === false && hasExternalImage(offer.image)) {
         return getLocalFallbackImage(offer);
     }
