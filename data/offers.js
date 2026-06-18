@@ -1,8 +1,8 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-06-18T10:01:36.758009Z",
-  "content_hash": "831a0d002480ff92d9298c1c35b682ba",
-  "total_offers": 4241,
-  "promo_offers": 1524,
+  "generated_at": "2026-06-18T12:15:32.846915Z",
+  "content_hash": "889f629460d2a21e83deaf5311f53327",
+  "total_offers": 4243,
+  "promo_offers": 1526,
   "assortment_offers": 2717,
   "stores": [
     "Billa",
@@ -17280,6 +17280,38 @@ const OFFERS_DATA = {
       "product_id": "fantastico-сирене-краве-beliisa-шаиба-250-гр-вакуум-250g",
       "weight_grams": 250,
       "weight_raw": "250 гр"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 2.72,
+      "new_price_eur": 1.39,
+      "old_price": 6.43,
+      "old_price_eur": 3.29,
+      "discount_pct": 58,
+      "valid_from": "2026-06-08",
+      "valid_until": "2026-07-05",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 2.72,
+          "price_eur": 1.39,
+          "old_price": 6.43,
+          "old_price_eur": 3.29,
+          "discount_pct": 58,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 2.72,
+      "comparison_count": 1,
+      "product_id": "kaufland-домати-на-клонка-клас-i"
     },
     {
       "store": "Fantastico",
@@ -109016,6 +109048,38 @@ const OFFERS_DATA = {
       "address": null,
       "new_price": 6.98,
       "new_price_eur": 3.57,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-06-08",
+      "valid_until": "2026-07-05",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 6.98,
+          "price_eur": 3.57,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 6.98,
+      "comparison_count": 1,
+      "product_id": "kaufland-очила-за-четене-1-5-до-3-0-диоптъра-2"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 6.98,
+      "new_price_eur": 3.57,
       "old_price": 13.98,
       "old_price_eur": 7.15,
       "discount_pct": 50,
@@ -109044,38 +109108,6 @@ const OFFERS_DATA = {
       "product_id": "kaufland-aloma-сладолед-различни-вкусове-500g",
       "weight_grams": 500,
       "weight_raw": "500 г"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 6.98,
-      "new_price_eur": 3.57,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-06-08",
-      "valid_until": "2026-07-05",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 6.98,
-          "price_eur": 3.57,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 6.98,
-      "comparison_count": 1,
-      "product_id": "kaufland-очила-за-четене-1-5-до-3-0-диоптъра-2"
     },
     {
       "store": "Kaufland",
@@ -116790,6 +116822,40 @@ const OFFERS_DATA = {
       "best_price": 10.56,
       "comparison_count": 1,
       "product_id": "kaufland-наслада-захар-10-бр-на-покупка-1000g",
+      "weight_grams": 1000,
+      "weight_raw": "1 кг"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 10.56,
+      "new_price_eur": 5.4,
+      "old_price": 25.82,
+      "old_price_eur": 13.2,
+      "discount_pct": 59,
+      "valid_from": "2026-06-08",
+      "valid_until": "2026-07-05",
+      "price_per_kg": 10.56,
+      "price_per_kg_eur": 5.4,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 10.56,
+          "price_eur": 5.4,
+          "old_price": 25.82,
+          "old_price_eur": 13.2,
+          "discount_pct": 59,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 10.56,
+      "comparison_count": 1,
+      "product_id": "kaufland-сладея-захар-1000g",
       "weight_grams": 1000,
       "weight_raw": "1 кг"
     },
