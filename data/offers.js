@@ -1,8 +1,8 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-06-18T12:48:05.698190Z",
-  "content_hash": "831a0d002480ff92d9298c1c35b682ba",
-  "total_offers": 4241,
-  "promo_offers": 1524,
+  "generated_at": "2026-06-18T15:34:07.067622Z",
+  "content_hash": "889f629460d2a21e83deaf5311f53327",
+  "total_offers": 4243,
+  "promo_offers": 1526,
   "assortment_offers": 2717,
   "stores": [
     "Billa",
@@ -3091,7 +3091,7 @@ const OFFERS_DATA = {
       "weight_grams": 90,
       "weight_raw": "90 г",
       "name": "САПУН PALMOLIVE NATURALS БАДЕМ 90 Г",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8718951597693_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800024049255_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "hygiene",
       "emoji": "🧴",
       "health_score": 9,
@@ -6984,7 +6984,7 @@ const OFFERS_DATA = {
       "weight_grams": 200,
       "weight_raw": "200 гр",
       "name": "КАША СЛЪНЧО МЛЕЧНА С ЕЛДА И ПЛОДОВЕ 200 ГР",
-      "image": null,
+      "image": "images/foods/buckwheat.svg",
       "category": "grain",
       "emoji": "🌾",
       "health_score": 9,
@@ -7759,7 +7759,7 @@ const OFFERS_DATA = {
       "weight_grams": 320,
       "weight_raw": "320 гр",
       "name": "КОЛБАС ТИП  ХАМБУРГСКИ НАРОДЕН 320 ГР ВАКУУМ БЕЛЛА",
-      "image": null,
+      "image": "images/foods/apple.svg",
       "category": "vegetable",
       "emoji": "🥦",
       "health_score": 9,
@@ -7822,7 +7822,7 @@ const OFFERS_DATA = {
       "weight_grams": 320,
       "weight_raw": "320 гр",
       "name": "КОЛБАС ТИП  КАМЧИЯ НАРОДЕН 320 ГР ВАКУУМ БЕЛЛА",
-      "image": null,
+      "image": "images/foods/apple.svg",
       "category": "vegetable",
       "emoji": "🥦",
       "health_score": 9,
@@ -10343,7 +10343,7 @@ const OFFERS_DATA = {
       "weight_grams": 150,
       "weight_raw": "150 г",
       "name": "Rois Печени ядки Deluxe 150 г",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800200827448_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://tmarketonline.bg/cdn/img/products/43070/adki-rois-deluxe-peceni-miks-150-gr-image_5f466d8ba7655.jpeg?width=600&height=600&v=1777589905",
       "category": "nuts",
       "emoji": "🥜",
       "health_score": 9,
@@ -10689,7 +10689,7 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО МЕРЛО СИМБИОЗА 750 МЛ ВИНАРНА БРАТАНОВИ",
-      "image": null,
+      "image": "images/foods/apple.svg",
       "category": "vegetable",
       "emoji": "🥦",
       "health_score": 9,
@@ -11590,7 +11590,7 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО МАЛИНОВО G. FILIPOFF 750 МЛ ЗАГРЕЙ",
-      "image": null,
+      "image": "images/foods/apple.svg",
       "category": "vegetable",
       "emoji": "🥦",
       "health_score": 9,
@@ -12220,7 +12220,7 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО МЕРЛО СИРА КЕЛЪ МАРИЯЖ 750 МЛ ВИНАРНА БРАТАНОВИ",
-      "image": null,
+      "image": "images/foods/apple.svg",
       "category": "vegetable",
       "emoji": "🥦",
       "health_score": 9,
@@ -12604,7 +12604,7 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО МЕРЛО ПРИВАТ РЕЗЕРВА 750 МЛ ВИНАРНА БРАТАНОВИ",
-      "image": null,
+      "image": "images/foods/apple.svg",
       "category": "vegetable",
       "emoji": "🥦",
       "health_score": 9,
@@ -12893,7 +12893,7 @@ const OFFERS_DATA = {
       "weight_grams": 50,
       "weight_raw": "50 гр",
       "name": "КРОАСАН BAULI КАЙСИЯ 50 ГР",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20132053C_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://tmarketonline.bg/cdn/img/products/43548/kroasan-bauli-krem-vanilia-6x50-g-image_5f4ce09eb4b94.png?width=600&height=600&v=1777589917",
       "category": "grain",
       "emoji": "🌾",
       "health_score": 8,
@@ -14261,7 +14261,7 @@ const OFFERS_DATA = {
       "weight_grams": 400,
       "weight_raw": "400 гр",
       "name": "ИЗВАРА САЯНА 400 ГР ТАРЕЛКА",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00048069C_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20924272_P.jpg",
       "category": "dairy",
       "emoji": "🥛",
       "health_score": 8,
@@ -15197,7 +15197,7 @@ const OFFERS_DATA = {
       "weight_grams": 400,
       "weight_raw": "400 гр",
       "name": "ИЗВАРА OLYMPUS 400 ГР КОФИЧКА",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/2852480000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/9d52c3d7-0ba2-401e-800b-6534d330a1d9.png",
       "category": "dairy",
       "emoji": "🥛",
       "health_score": 8,
@@ -15315,7 +15315,7 @@ const OFFERS_DATA = {
       "weight_grams": 500,
       "weight_raw": "500 гр",
       "name": "ИЗВАРА БОРОВИЦА 500 ГР FARM",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20006171_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20924272_P.jpg",
       "category": "dairy",
       "emoji": "🥛",
       "health_score": 8,
@@ -16205,7 +16205,7 @@ const OFFERS_DATA = {
       "weight_grams": 500,
       "weight_raw": "500 г",
       "name": "Сега в Billa - Mlekovita скир 500 г",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20269018_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20927394_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "dairy",
       "emoji": "🥛",
       "health_score": 8,
@@ -18090,7 +18090,7 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "fantastico-кърпи-влажни-antibacterial-зелени-сини-15-бр-пакет",
       "name": "КЪРПИ ВЛАЖНИ ANTIBACTERIAL ЗЕЛЕНИ/СИНИ 15 БР ПАКЕТ",
-      "image": null,
+      "image": "images/fallback-hygiene.svg",
       "category": "vegetable",
       "emoji": "🥦",
       "health_score": 7,
@@ -20803,7 +20803,7 @@ const OFFERS_DATA = {
       "weight_grams": 90,
       "weight_raw": "90 г",
       "name": "САПУН PALMOLIVE С ЕКСТРАКТ ЗЕЛЕН ЧАЙ И КРАСТАВИЦА 90 Г",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8718951597693_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800024049255_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "hygiene",
       "emoji": "🧴",
       "health_score": 7,
@@ -21642,7 +21642,7 @@ const OFFERS_DATA = {
       "weight_grams": 680,
       "weight_raw": "680 гр",
       "name": "ДОМАТИ SARA ПАСИРАНИ 680 ГР БУТИЛКА IMPORT",
-      "image": null,
+      "image": "images/foods/chicken.svg",
       "category": "protein",
       "emoji": "🍗",
       "health_score": 7,
@@ -24153,7 +24153,7 @@ const OFFERS_DATA = {
       "weight_grams": 255,
       "weight_raw": "255 гр",
       "name": "БИСКВИТИ ЗАКУСКА БАНАН 255 ГР",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800061607456_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/5073e958-bcc9-4932-9a28-2cd59b6892dd.png",
       "category": "grain",
       "emoji": "🌾",
       "health_score": 7,
@@ -26026,7 +26026,7 @@ const OFFERS_DATA = {
       "weight_grams": 690,
       "weight_raw": "690 гр",
       "name": "ДОМАТИ РУСО ПАСИРАНИ 690 ГР БУТИЛКА",
-      "image": null,
+      "image": "images/foods/chicken.svg",
       "category": "protein",
       "emoji": "🍗",
       "health_score": 7,
@@ -26523,7 +26523,7 @@ const OFFERS_DATA = {
       "weight_grams": 200,
       "weight_raw": "200гр",
       "name": "КАША СЛЪНЧО МЛЕЧНО БИСКВИТЕНО БАНАНОВА НАД 4М 200ГР КУТИ",
-      "image": null,
+      "image": "images/foods/banana.svg",
       "category": "grain",
       "emoji": "🌾",
       "health_score": 7,
@@ -27385,6 +27385,57 @@ const OFFERS_DATA = {
         "p": 14,
         "f": 22,
         "c": 2
+      }
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 2.72,
+      "new_price_eur": 1.39,
+      "old_price": 6.43,
+      "old_price_eur": 3.29,
+      "discount_pct": 58,
+      "valid_from": "2026-06-08",
+      "valid_until": "2026-07-05",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 2.72,
+          "price_eur": 1.39,
+          "old_price": 6.43,
+          "old_price_eur": 3.29,
+          "discount_pct": 58,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 2.72,
+      "comparison_count": 1,
+      "product_id": "kaufland-домати-на-клонка-клас-i",
+      "name": "Домати на клонка Клас: I",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/2831970000000_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "vegetable",
+      "emoji": "🥦",
+      "health_score": 7,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 18,
+        "p": 0.9,
+        "f": 0.2,
+        "c": 3.9
       }
     },
     {
@@ -29555,7 +29606,7 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 кг",
       "name": "Пиперки зелени За 1 кг",
-      "image": null,
+      "image": "images/foods/apple.svg",
       "category": "vegetable",
       "emoji": "🥦",
       "health_score": 7,
@@ -39979,7 +40030,7 @@ const OFFERS_DATA = {
       "weight_grams": 720,
       "weight_raw": "720 мл",
       "name": "*ГРАХ ПРЕСЕН МИСОТА 720 МЛ БУРКАН",
-      "image": null,
+      "image": "images/foods/peas.svg",
       "category": "legume",
       "emoji": "🫘",
       "health_score": 6,
@@ -42765,7 +42816,7 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 л",
       "name": "Супер цена - Alpro Напитка бадемова или кокосова неподсладена 1 л",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/2a609c15-48e8-4a88-8e53-bfd4efee0081.png",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00016070_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "bread",
       "emoji": "🍞",
       "health_score": 6,
@@ -46647,7 +46698,7 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 кг",
       "name": "Супер цена - Ситово Краве сирене От деликатесната витрина За 1 кг",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/2058fdf8-806c-47c0-8752-d6485d055dad.png",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00048069C_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "dairy",
       "emoji": "🥛",
       "health_score": 6,
@@ -48183,7 +48234,7 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "fantastico-кърпи-влажни-hankies-травел-лимон-15-бр-плътни",
       "name": "КЪРПИ ВЛАЖНИ HANKIES ТРАВЕЛ ЛИМОН 15 БР ПЛЪТНИ",
-      "image": null,
+      "image": "images/fallback-hygiene.svg",
       "category": "vegetable",
       "emoji": "🥦",
       "health_score": 5,
@@ -48985,7 +49036,6 @@ const OFFERS_DATA = {
       "weight_grams": 30,
       "weight_raw": "20 бр х 1.5 г",
       "name": "ЧАЙ БИОПРОГРАМА АЛПИНИСТ 20 БР Х 1.5 Г КУТИЯ",
-      "image": "https://tmarketonline.bg/cdn/img/products/39471/caj-bioprograma-alpinist-20x1-5-g-image_5ea2cd125fc47.png?width=600&height=600&v=1777589876",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -48996,7 +49046,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/39471/caj-bioprograma-alpinist-20x1-5-g-image_5ea2cd125fc47.png?width=600&height=600&v=1777589876"
     },
     {
       "store": "Fantastico",
@@ -49108,7 +49159,6 @@ const OFFERS_DATA = {
       "weight_grams": 30,
       "weight_raw": "20 бр х 1.5 г",
       "name": "ЧАЙ БИОПРОГРАМА ДОБРО УТРО 20 БР Х 1.5 Г КУТИЯ",
-      "image": "https://tmarketonline.bg/cdn/img/products/39467/caj-bioprograma-dobro-utro-20x1-5-g-image_5ea2cd07487f0.png?width=600&height=600&v=1777589875",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -49119,7 +49169,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/39467/caj-bioprograma-dobro-utro-20x1-5-g-image_5ea2cd07487f0.png?width=600&height=600&v=1777589875"
     },
     {
       "store": "Fantastico",
@@ -50602,7 +50653,7 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "fantastico-кърпи-влажни-антибакт-hankies-xl-лимон-15-бр",
       "name": "КЪРПИ ВЛАЖНИ АНТИБАКТ. HANKIES XL ЛИМОН 15 БР",
-      "image": null,
+      "image": "images/fallback-hygiene.svg",
       "category": "vegetable",
       "emoji": "🥦",
       "health_score": 5,
@@ -50797,7 +50848,6 @@ const OFFERS_DATA = {
       "weight_grams": 30,
       "weight_raw": "20бр х 1.5г",
       "name": "ЧАЙ БИОПРОГРАМА БИОБРОНХО 20БР Х 1.5Г КУТИЯ",
-      "image": "https://tmarketonline.bg/cdn/img/products/39471/caj-bioprograma-alpinist-20x1-5-g-image_5ea2cd125fc47.png?width=600&height=600&v=1777589876",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -50808,7 +50858,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/39471/caj-bioprograma-alpinist-20x1-5-g-image_5ea2cd125fc47.png?width=600&height=600&v=1777589876"
     },
     {
       "store": "Fantastico",
@@ -51293,7 +51344,6 @@ const OFFERS_DATA = {
       "weight_grams": 20,
       "weight_raw": "20 бр х 1 г",
       "name": "ЧАЙ БИОПРОГРАМА ЛАЙКА 20 БР Х 1 Г КУТИЯ",
-      "image": "https://tmarketonline.bg/cdn/img/products/39464/caj-bioprograma-lajka-20x1-g-image_5ea2ccfa58806.png?width=600&height=600&v=1777589882",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -51304,7 +51354,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/39464/caj-bioprograma-lajka-20x1-g-image_5ea2ccfa58806.png?width=600&height=600&v=1777589882"
     },
     {
       "store": "Fantastico",
@@ -51350,7 +51401,6 @@ const OFFERS_DATA = {
       "weight_grams": 30,
       "weight_raw": "20 бр х 1.5 г",
       "name": "ЧАЙ БИОПРОГРАМА МЕНТА 20 БР Х 1.5 Г КУТИЯ",
-      "image": "https://tmarketonline.bg/cdn/img/products/39825/caj-bioset-menta-20h1-5-g-image_5ea2d3acc825e.png?width=600&height=600&v=1777589883",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -51361,7 +51411,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/39825/caj-bioset-menta-20h1-5-g-image_5ea2d3acc825e.png?width=600&height=600&v=1777589883"
     },
     {
       "store": "Fantastico",
@@ -51539,7 +51590,6 @@ const OFFERS_DATA = {
       "weight_grams": 30,
       "weight_raw": "30 г",
       "name": "ЧАЙ GT БУКЕТ 20 БР 30 Г КУТИЯ",
-      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -51550,7 +51600,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966"
     },
     {
       "store": "Fantastico",
@@ -51596,7 +51647,6 @@ const OFFERS_DATA = {
       "weight_grams": 20,
       "weight_raw": "20 г",
       "name": "ЧАЙ GT ЛАЙКА 20 БР 20 Г КУТИЯ",
-      "image": "https://tmarketonline.bg/cdn/img/products/39464/caj-bioprograma-lajka-20x1-g-image_5ea2ccfa58806.png?width=600&height=600&v=1777589882",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -51607,7 +51657,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/39464/caj-bioprograma-lajka-20x1-g-image_5ea2ccfa58806.png?width=600&height=600&v=1777589882"
     },
     {
       "store": "Fantastico",
@@ -51653,7 +51704,6 @@ const OFFERS_DATA = {
       "weight_grams": 20,
       "weight_raw": "20 г",
       "name": "ЧАЙ GT МЕНТА 20 БР 20 Г КУТИЯ",
-      "image": "https://tmarketonline.bg/cdn/img/products/39825/caj-bioset-menta-20h1-5-g-image_5ea2d3acc825e.png?width=600&height=600&v=1777589883",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -51664,7 +51714,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/39825/caj-bioset-menta-20h1-5-g-image_5ea2d3acc825e.png?width=600&height=600&v=1777589883"
     },
     {
       "store": "Fantastico",
@@ -51710,7 +51761,6 @@ const OFFERS_DATA = {
       "weight_grams": 30,
       "weight_raw": "30 г",
       "name": "ЧАЙ GT СВЕЖО УТРО 20 БР 30 Г КУТИЯ",
-      "image": "https://tmarketonline.bg/cdn/img/products/39467/caj-bioprograma-dobro-utro-20x1-5-g-image_5ea2cd07487f0.png?width=600&height=600&v=1777589875",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -51721,7 +51771,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/39467/caj-bioprograma-dobro-utro-20x1-5-g-image_5ea2cd07487f0.png?width=600&height=600&v=1777589875"
     },
     {
       "store": "Kaufland",
@@ -52304,7 +52355,7 @@ const OFFERS_DATA = {
       "comparison_count": 2,
       "product_id": "fantastico-к-т-кърпи-влажни-septona-антибакт-лимон-4бр-х-15бр",
       "name": "К-Т КЪРПИ ВЛАЖНИ SEPTONA АНТИБАКТ. ЛИМОН 4БР Х 15БР",
-      "image": null,
+      "image": "images/fallback-hygiene.svg",
       "category": "vegetable",
       "emoji": "🥦",
       "health_score": 5,
@@ -52871,7 +52922,6 @@ const OFFERS_DATA = {
       "weight_grams": 190,
       "weight_raw": "190 гр",
       "name": "ПЮРЕ BEBELAN АСОРТИ ГРАДИНСКИ ПЛОДОВЕ НАД 5 М 190 ГР БУРКАН",
-      "image": "https://cdn.metro-group.com/bg/bg_pim_341796001001_01?format=jpg&quality=80&dpi=72",
       "category": "other",
       "emoji": "🛒",
       "health_score": 5,
@@ -52891,7 +52941,8 @@ const OFFERS_DATA = {
         "p": 1.8,
         "f": 4,
         "c": 11
-      }
+      },
+      "image": "https://cdn.metro-group.com/bg/bg_pim_341796001001_01?format=jpg&quality=80&dpi=72"
     },
     {
       "store": "Fantastico",
@@ -53541,7 +53592,6 @@ const OFFERS_DATA = {
       "weight_grams": 30,
       "weight_raw": "20бр х 1.5г",
       "name": "ЧАЙ БИОПРОГРАМА МЕНТА И МАТОЧИНА 20БР Х 1.5Г",
-      "image": "https://tmarketonline.bg/cdn/img/products/39825/caj-bioset-menta-20h1-5-g-image_5ea2d3acc825e.png?width=600&height=600&v=1777589883",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -53552,7 +53602,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/39825/caj-bioset-menta-20h1-5-g-image_5ea2d3acc825e.png?width=600&height=600&v=1777589883"
     },
     {
       "store": "Fantastico",
@@ -53598,7 +53649,6 @@ const OFFERS_DATA = {
       "weight_grams": 30,
       "weight_raw": "20 бр х 1.5 г",
       "name": "ЧАЙ БИОПРОГРАМА СТАРОПЛАНИНСКИ 20 БР Х 1.5 Г КУТИЯ",
-      "image": "https://tmarketonline.bg/cdn/img/products/39471/caj-bioprograma-alpinist-20x1-5-g-image_5ea2cd125fc47.png?width=600&height=600&v=1777589876",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -53609,7 +53659,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/39471/caj-bioprograma-alpinist-20x1-5-g-image_5ea2cd125fc47.png?width=600&height=600&v=1777589876"
     },
     {
       "store": "Fantastico",
@@ -53787,7 +53838,6 @@ const OFFERS_DATA = {
       "weight_grams": 30,
       "weight_raw": "20 бр х 1.5 г",
       "name": "ЧАЙ БИОПРОГРАМА РОДОПСКИ 20 БР Х 1.5 Г КУТИЯ",
-      "image": "https://tmarketonline.bg/cdn/img/products/39471/caj-bioprograma-alpinist-20x1-5-g-image_5ea2cd125fc47.png?width=600&height=600&v=1777589876",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -53798,7 +53848,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/39471/caj-bioprograma-alpinist-20x1-5-g-image_5ea2cd125fc47.png?width=600&height=600&v=1777589876"
     },
     {
       "store": "Fantastico",
@@ -53844,7 +53895,6 @@ const OFFERS_DATA = {
       "weight_grams": 44,
       "weight_raw": "20бр х 2.2г",
       "name": "ЧАЙ БИОПРОГРАМА ШИПКА И КАРКАДЕ 20БР Х 2.2Г",
-      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -53855,7 +53905,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966"
     },
     {
       "store": "Fantastico",
@@ -53891,7 +53942,6 @@ const OFFERS_DATA = {
       "weight_grams": 190,
       "weight_raw": "190 гр",
       "name": "ПЮРЕ BEBELAN СИНИ СЛИВИ НАД 4 МЕС 190 ГР БУРКАН",
-      "image": "https://cdn.metro-group.com/bg/bg_pim_341780001001_01.png?format=jpg&quality=80&dpi=72",
       "category": "other",
       "emoji": "🛒",
       "health_score": 5,
@@ -53911,7 +53961,8 @@ const OFFERS_DATA = {
         "p": 1.8,
         "f": 4,
         "c": 11
-      }
+      },
+      "image": "https://cdn.metro-group.com/bg/bg_pim_341780001001_01.png?format=jpg&quality=80&dpi=72"
     },
     {
       "store": "Fantastico",
@@ -54257,7 +54308,6 @@ const OFFERS_DATA = {
       "weight_grams": 30,
       "weight_raw": "20бр х 1.5г",
       "name": "ЧАЙ БИОПРОГРАМА ПРИ СТУД И ЗИМА 20БР Х 1.5Г КУТИЯ",
-      "image": "https://tmarketonline.bg/cdn/img/products/39479/caj-bioprograma-stud-i-zima-20x1-5-g-image_5ea2cd2e51700.png?width=600&height=600&v=1777589877",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -54268,7 +54318,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/39479/caj-bioprograma-stud-i-zima-20x1-5-g-image_5ea2cd2e51700.png?width=600&height=600&v=1777589877"
     },
     {
       "store": "Fantastico",
@@ -54314,7 +54365,6 @@ const OFFERS_DATA = {
       "weight_grams": 30,
       "weight_raw": "20 бр х 1.5 г",
       "name": "ЧАЙ БИОСЕТ ЛАЙКА 20 БР Х 1.5 Г КУТИЯ",
-      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -54325,7 +54375,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966"
     },
     {
       "store": "Fantastico",
@@ -54371,7 +54422,6 @@ const OFFERS_DATA = {
       "weight_grams": 30,
       "weight_raw": "20 бр х 1.5 г",
       "name": "ЧАЙ БИОСЕТ МЕНТА 20 БР Х 1.5 Г КУТИЯ",
-      "image": "https://tmarketonline.bg/cdn/img/products/39825/caj-bioset-menta-20h1-5-g-image_5ea2d3acc825e.png?width=600&height=600&v=1777589883",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -54382,7 +54432,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/39825/caj-bioset-menta-20h1-5-g-image_5ea2d3acc825e.png?width=600&height=600&v=1777589883"
     },
     {
       "store": "Fantastico",
@@ -54428,7 +54479,6 @@ const OFFERS_DATA = {
       "weight_grams": 40,
       "weight_raw": "20 бр х 2 г",
       "name": "ЧАЙ БИОСЕТ ШИПКА 20 БР Х 2 Г КУТИЯ",
-      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -54439,7 +54489,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966"
     },
     {
       "store": "Fantastico",
@@ -54475,7 +54526,6 @@ const OFFERS_DATA = {
       "weight_grams": 30,
       "weight_raw": "20 бр х 1.5 г",
       "name": "ЧАЙ БИОСЕТ ВЪЛШЕБНО УХАНИЕ 20 БР Х 1.5 Г КУТИЯ",
-      "image": "https://tmarketonline.bg/cdn/img/products/39831/caj-bioset-valsebno-uhanie-20h1-5-g-image_5ea2d3cbe9673.png?width=600&height=600&v=1777589877",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -54486,7 +54536,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/39831/caj-bioset-valsebno-uhanie-20h1-5-g-image_5ea2d3cbe9673.png?width=600&height=600&v=1777589877"
     },
     {
       "store": "Fantastico",
@@ -54522,7 +54573,6 @@ const OFFERS_DATA = {
       "weight_grams": 30,
       "weight_raw": "20 бр х 1.5 г",
       "name": "ЧАЙ БИОСЕТ ГРАДИНСКИ БУКЕТ 20 БР Х 1.5 Г КУТИЯ",
-      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -54533,7 +54583,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966"
     },
     {
       "store": "Fantastico",
@@ -54569,7 +54620,6 @@ const OFFERS_DATA = {
       "weight_grams": 30,
       "weight_raw": "20 бр х 1.5 г",
       "name": "ЧАЙ БИОСЕТ ПЛАНИНСКА ПЕСЕН 20 БР Х 1.5 Г КУТИЯ",
-      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -54580,7 +54630,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966"
     },
     {
       "store": "Fantastico",
@@ -54626,7 +54677,6 @@ const OFFERS_DATA = {
       "weight_grams": 190,
       "weight_raw": "190 гр",
       "name": "ПЮРЕ СЛЪНЧО СЛАДЪК СЪН КРЕМ ВАНИЛИЯ 190 ГР НАД 6 МЕС",
-      "image": "https://api.bulmag.org/thumbnails/5c75cdc37f052dbcdf191cc2b53856e7.png",
       "category": "other",
       "emoji": "🛒",
       "health_score": 5,
@@ -54646,7 +54696,8 @@ const OFFERS_DATA = {
         "p": 1.8,
         "f": 4,
         "c": 11
-      }
+      },
+      "image": "https://api.bulmag.org/thumbnails/5c75cdc37f052dbcdf191cc2b53856e7.png"
     },
     {
       "store": "Fantastico",
@@ -54682,7 +54733,7 @@ const OFFERS_DATA = {
       "weight_grams": 190,
       "weight_raw": "190 гр",
       "name": "ПЮРЕ СЛЪНЧО ГРИС ХАЛВА 190 ГР 6+ МЕС",
-      "image": null,
+      "image": "images/foods/oats.svg",
       "category": "grain",
       "emoji": "🌾",
       "health_score": 5,
@@ -54748,7 +54799,6 @@ const OFFERS_DATA = {
       "weight_grams": 190,
       "weight_raw": "190 гр",
       "name": "ПЮРЕ СЛЪНЧО СЛАДЪК СЪН КРЕМ РОЖКОВ 190 ГР 6+ МЕС",
-      "image": "https://api.bulmag.org/thumbnails/9da40d906c8bf003965071262cdff1ed.jpeg",
       "category": "other",
       "emoji": "🛒",
       "health_score": 5,
@@ -54768,7 +54818,8 @@ const OFFERS_DATA = {
         "p": 1.8,
         "f": 4,
         "c": 11
-      }
+      },
+      "image": "https://api.bulmag.org/thumbnails/9da40d906c8bf003965071262cdff1ed.jpeg"
     },
     {
       "store": "Fantastico",
@@ -54860,7 +54911,6 @@ const OFFERS_DATA = {
       "weight_grams": 190,
       "weight_raw": "190 гр",
       "name": "ПЮРЕ BEBELAN АСОРТИ ГОРСКИ ПЛОДОВЕ НАД 5 М 190 ГР БУРКАН 384",
-      "image": "https://tmarketonline.bg/cdn/img/products/50311/aktimel-gorski-plodove-4h100g-64183515855c1.jpeg?width=600&height=600&v=1777589968",
       "category": "other",
       "emoji": "🛒",
       "health_score": 5,
@@ -54880,7 +54930,8 @@ const OFFERS_DATA = {
         "p": 1.8,
         "f": 4,
         "c": 11
-      }
+      },
+      "image": "https://tmarketonline.bg/cdn/img/products/50311/aktimel-gorski-plodove-4h100g-64183515855c1.jpeg?width=600&height=600&v=1777589968"
     },
     {
       "store": "Fantastico",
@@ -54926,7 +54977,6 @@ const OFFERS_DATA = {
       "weight_grams": 25,
       "weight_raw": "25 г",
       "name": "ЧАЙ GT ЛАЙКА, МЕД И ВАНИЛИЯ 20 БР 25 Г КУТИЯ",
-      "image": "https://tmarketonline.bg/cdn/img/products/39464/caj-bioprograma-lajka-20x1-g-image_5ea2ccfa58806.png?width=600&height=600&v=1777589882",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -54943,7 +54993,8 @@ const OFFERS_DATA = {
         "p": 0.3,
         "f": 0,
         "c": 82
-      }
+      },
+      "image": "https://tmarketonline.bg/cdn/img/products/39464/caj-bioprograma-lajka-20x1-g-image_5ea2ccfa58806.png?width=600&height=600&v=1777589882"
     },
     {
       "store": "Fantastico",
@@ -55164,7 +55215,7 @@ const OFFERS_DATA = {
       "weight_grams": 90,
       "weight_raw": "90 г",
       "name": "САПУН PALMOLIVE NATURALS АЛОЕ И МАСЛИНА 90 Г",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8718951597693_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800024049255_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "hygiene",
       "emoji": "🧴",
       "health_score": 5,
@@ -55290,7 +55341,7 @@ const OFFERS_DATA = {
       "weight_grams": 90,
       "weight_raw": "90 г",
       "name": "САПУН PALMOLIVE NATURALS ЖАСМИН И РОЗА 90 Г",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8718951597693_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800024049255_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "hygiene",
       "emoji": "🧴",
       "health_score": 5,
@@ -55394,7 +55445,6 @@ const OFFERS_DATA = {
       "weight_grams": 190,
       "weight_raw": "190 гр",
       "name": "ПЮРЕ СЛЪНЧО СЛАВЯНСКИ ГЮВЕЧ 190 ГР НАД 4 МЕСЕЦА",
-      "image": "https://api.bulmag.org/thumbnails/ca84f6947c538e76eb5acef0b10160e6.jpeg",
       "category": "other",
       "emoji": "🛒",
       "health_score": 5,
@@ -55414,7 +55464,8 @@ const OFFERS_DATA = {
         "p": 1.8,
         "f": 4,
         "c": 11
-      }
+      },
+      "image": "https://api.bulmag.org/thumbnails/ca84f6947c538e76eb5acef0b10160e6.jpeg"
     },
     {
       "store": "Fantastico",
@@ -55460,7 +55511,7 @@ const OFFERS_DATA = {
       "weight_grams": 90,
       "weight_raw": "90 г",
       "name": "САПУН PALMOLIVE HYGIENE PLUS АЛОЕ 90 Г",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8718951597693_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800024049255_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "hygiene",
       "emoji": "🧴",
       "health_score": 5,
@@ -55517,7 +55568,7 @@ const OFFERS_DATA = {
       "weight_grams": 90,
       "weight_raw": "90 г",
       "name": "** САПУН PALMOLIVE HYGIENE PLUS ЕВКАЛИПТ * 90 Г",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8718951597693_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800024049255_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "hygiene",
       "emoji": "🧴",
       "health_score": 5,
@@ -55574,7 +55625,6 @@ const OFFERS_DATA = {
       "weight_grams": 30,
       "weight_raw": "20бр х 1.5г",
       "name": "ЧАЙ БИОПРОГРАМА ГРАДИНСКИ И ДЖИНДЖИФИЛ 20БР Х 1.5Г",
-      "image": "https://tmarketonline.bg/cdn/img/products/39471/caj-bioprograma-alpinist-20x1-5-g-image_5ea2cd125fc47.png?width=600&height=600&v=1777589876",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -55585,7 +55635,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/39471/caj-bioprograma-alpinist-20x1-5-g-image_5ea2cd125fc47.png?width=600&height=600&v=1777589876"
     },
     {
       "store": "Kaufland",
@@ -55677,7 +55728,6 @@ const OFFERS_DATA = {
       "weight_grams": 20,
       "weight_raw": "20 бр х 1 г",
       "name": "ЧАЙ ТЕАСЕЛЕКТ ЛАЙКА 20 БР Х 1 Г КУТИЯ",
-      "image": "https://tmarketonline.bg/cdn/img/products/39464/caj-bioprograma-lajka-20x1-g-image_5ea2ccfa58806.png?width=600&height=600&v=1777589882",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -55688,7 +55738,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/39464/caj-bioprograma-lajka-20x1-g-image_5ea2ccfa58806.png?width=600&height=600&v=1777589882"
     },
     {
       "store": "Fantastico",
@@ -55724,7 +55775,6 @@ const OFFERS_DATA = {
       "weight_grams": 20,
       "weight_raw": "20 бр х 1 г",
       "name": "ЧАЙ ТЕАСЕЛЕКТ МАЩЕРКА 20 БР Х 1 Г КУТИЯ",
-      "image": "https://tmarketonline.bg/cdn/img/products/39461/caj-bioprograma-maserka-20x1-g-image_5ea2ccf491766.png?width=600&height=600&v=1777589881",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -55735,7 +55785,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/39461/caj-bioprograma-maserka-20x1-g-image_5ea2ccf491766.png?width=600&height=600&v=1777589881"
     },
     {
       "store": "Fantastico",
@@ -55893,7 +55944,6 @@ const OFFERS_DATA = {
       "weight_grams": 30,
       "weight_raw": "30 г",
       "name": "ЧАЙ GT ГИНКО БИЛОБА 20 БР 30 Г КУТИЯ",
-      "image": "https://tmarketonline.bg/cdn/img/products/44526/caj-gt-premium-ginko-biloba-30-g-image_5f4cd1f64f67b.png?width=600&height=600&v=1777589914",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -55904,7 +55954,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/44526/caj-gt-premium-ginko-biloba-30-g-image_5f4cd1f64f67b.png?width=600&height=600&v=1777589914"
     },
     {
       "store": "Fantastico",
@@ -55940,7 +55991,6 @@ const OFFERS_DATA = {
       "weight_grams": 30,
       "weight_raw": "30 г",
       "name": "ЧАЙ GT СЕНА 20 БР 30 Г КУТИЯ",
-      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -55951,7 +56001,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966"
     },
     {
       "store": "Fantastico",
@@ -56391,7 +56442,7 @@ const OFFERS_DATA = {
       "comparison_count": 2,
       "product_id": "fantastico-кърпи-влажни-septona-лимон-60-бр-антибакт",
       "name": "КЪРПИ ВЛАЖНИ SEPTONA ЛИМОН 60 БР АНТИБАКТ.",
-      "image": null,
+      "image": "images/fallback-hygiene.svg",
       "category": "vegetable",
       "emoji": "🥦",
       "health_score": 5,
@@ -56576,7 +56627,6 @@ const OFFERS_DATA = {
       "weight_grams": 30,
       "weight_raw": "30 г",
       "name": "ЧАЙ БИОПРОГРАМА ДЕТОКС ПРО 30 Г КУТИЯ",
-      "image": "https://tmarketonline.bg/cdn/img/products/39471/caj-bioprograma-alpinist-20x1-5-g-image_5ea2cd125fc47.png?width=600&height=600&v=1777589876",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -56587,7 +56637,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/39471/caj-bioprograma-alpinist-20x1-5-g-image_5ea2cd125fc47.png?width=600&height=600&v=1777589876"
     },
     {
       "store": "Fantastico",
@@ -57118,7 +57169,6 @@ const OFFERS_DATA = {
       "weight_grams": 220,
       "weight_raw": "220 гр",
       "name": "ПЮРЕ BEBELAN ВЕГЕТАРИАНСКА ЛАЗАНЯ НАД 8 МЕС 220 ГР",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800211960356_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "health_score": 5,
@@ -57138,7 +57188,8 @@ const OFFERS_DATA = {
         "p": 1.8,
         "f": 4,
         "c": 11
-      }
+      },
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800211960356_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -57182,7 +57233,7 @@ const OFFERS_DATA = {
       "comparison_count": 2,
       "product_id": "fantastico-кърпи-влажни-антибакт-hankies-лимон-4x15-бр",
       "name": "КЪРПИ ВЛАЖНИ АНТИБАКТ. HANKIES ЛИМОН 4X15 БР",
-      "image": null,
+      "image": "images/fallback-hygiene.svg",
       "category": "vegetable",
       "emoji": "🥦",
       "health_score": 5,
@@ -57364,7 +57415,6 @@ const OFFERS_DATA = {
       "weight_grams": 30,
       "weight_raw": "20 бр х 1.5 г",
       "name": "ЧАЙ БИОПРОГРАМА ДЖИНДЖИФИЛ И ЕХИНАЦЕЯ 20 БР Х 1.5 Г КУТИЯ *",
-      "image": "https://tmarketonline.bg/cdn/img/products/39471/caj-bioprograma-alpinist-20x1-5-g-image_5ea2cd125fc47.png?width=600&height=600&v=1777589876",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -57375,7 +57425,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/39471/caj-bioprograma-alpinist-20x1-5-g-image_5ea2cd125fc47.png?width=600&height=600&v=1777589876"
     },
     {
       "store": "Fantastico",
@@ -58213,7 +58264,6 @@ const OFFERS_DATA = {
       "weight_grams": 20,
       "weight_raw": "20 г",
       "name": "ЧАЙ GT ЛИПА 20 БР 20 Г КУТИЯ",
-      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -58224,7 +58274,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966"
     },
     {
       "store": "Fantastico",
@@ -58326,7 +58377,6 @@ const OFFERS_DATA = {
       "weight_grams": 30,
       "weight_raw": "20 бр х 1.5 г",
       "name": "ЧАЙ ТЕАСЕЛЕКТ ДЕТОКС 20 БР Х 1.5 Г КУТИЯ",
-      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -58337,7 +58387,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966"
     },
     {
       "store": "Kaufland",
@@ -58424,7 +58475,6 @@ const OFFERS_DATA = {
       "weight_grams": 1500,
       "weight_raw": "1,5 л",
       "name": "Clever Студен чай 1,5 л Продукт, маркиран със синя звезда",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/f6983cb7-44ff-40ef-b101-b6b57d3d4858.png",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -58438,7 +58488,8 @@ const OFFERS_DATA = {
       "is_long_lasting": false,
       "diet_tags": [
         "budget"
-      ]
+      ],
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/c072978b-ab08-4e06-899b-7a148ec9d07b.png"
     },
     {
       "store": "Fantastico",
@@ -59564,7 +59615,7 @@ const OFFERS_DATA = {
       "weight_grams": 500,
       "weight_raw": "500 гр",
       "name": "МАКАРОНИ MELISSA КОНЧИЛИЕТИ 500 ГР",
-      "image": null,
+      "image": "images/foods/oats.svg",
       "category": "grain",
       "emoji": "🌾",
       "health_score": 5,
@@ -59762,7 +59813,7 @@ const OFFERS_DATA = {
       "weight_grams": 500,
       "weight_raw": "500 гр",
       "name": "МАКАРОНИ MELISSA ОРЗО 500 ГР",
-      "image": null,
+      "image": "images/foods/oats.svg",
       "category": "grain",
       "emoji": "🌾",
       "health_score": 5,
@@ -60060,7 +60111,6 @@ const OFFERS_DATA = {
       "weight_grams": 30,
       "weight_raw": "20 бр х 1.5 г",
       "name": "ЧАЙ БИОПРОГРАМА ЛИПА 20 БР Х 1.5 Г КУТИЯ",
-      "image": "https://tmarketonline.bg/cdn/img/products/39471/caj-bioprograma-alpinist-20x1-5-g-image_5ea2cd125fc47.png?width=600&height=600&v=1777589876",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -60071,7 +60121,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/39471/caj-bioprograma-alpinist-20x1-5-g-image_5ea2cd125fc47.png?width=600&height=600&v=1777589876"
     },
     {
       "store": "Fantastico",
@@ -60117,7 +60168,7 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 л",
       "name": "ОЛИО СЛЪНЧОГЛЕДОВО КЛАС 1 Л РЕТ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800202810219_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00039341_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "fat",
       "emoji": "🫒",
       "health_score": 5,
@@ -61525,7 +61576,7 @@ const OFFERS_DATA = {
       "comparison_count": 2,
       "product_id": "fantastico-кърпи-влажни-антибакт-hankies-xl-лимон-4х15-бр",
       "name": "КЪРПИ ВЛАЖНИ АНТИБАКТ. HANKIES XL ЛИМОН 4Х15 БР",
-      "image": null,
+      "image": "images/fallback-hygiene.svg",
       "category": "vegetable",
       "emoji": "🥦",
       "health_score": 5,
@@ -62039,7 +62090,6 @@ const OFFERS_DATA = {
       "weight_grams": 30,
       "weight_raw": "20 бр х 1.5 г",
       "name": "ЧАЙ LOYD ЛАЙКА 20 БР Х 1.5 Г",
-      "image": "https://tmarketonline.bg/cdn/img/products/39464/caj-bioprograma-lajka-20x1-g-image_5ea2ccfa58806.png?width=600&height=600&v=1777589882",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -62050,7 +62100,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/39464/caj-bioprograma-lajka-20x1-g-image_5ea2ccfa58806.png?width=600&height=600&v=1777589882"
     },
     {
       "store": "Fantastico",
@@ -62086,7 +62137,6 @@ const OFFERS_DATA = {
       "weight_grams": 40,
       "weight_raw": "20 бр х 2 г",
       "name": "ЧАЙ LOYD МЕНТА 20 БР Х 2 Г",
-      "image": "https://tmarketonline.bg/cdn/img/products/39825/caj-bioset-menta-20h1-5-g-image_5ea2d3acc825e.png?width=600&height=600&v=1777589883",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -62097,7 +62147,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/39825/caj-bioset-menta-20h1-5-g-image_5ea2d3acc825e.png?width=600&height=600&v=1777589883"
     },
     {
       "store": "Fantastico",
@@ -62597,7 +62648,6 @@ const OFFERS_DATA = {
       "weight_grams": 190,
       "weight_raw": "190 гр",
       "name": "ПЮРЕ GERBER СУПА С КАРФИОЛ И ЗАЕК 190 ГР ОТ 9  МЕС",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20179882_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "health_score": 5,
@@ -62614,7 +62664,8 @@ const OFFERS_DATA = {
         "p": 1.8,
         "f": 4,
         "c": 11
-      }
+      },
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20179882_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -62723,7 +62774,6 @@ const OFFERS_DATA = {
       "weight_grams": 30,
       "weight_raw": "30 г",
       "name": "ЧАЙ PHYTOLEK РЕЛАКС 20 БР 30 Г КУТИЯ",
-      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -62734,7 +62784,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966"
     },
     {
       "store": "Fantastico",
@@ -62780,7 +62831,6 @@ const OFFERS_DATA = {
       "weight_grams": 30,
       "weight_raw": "30 г",
       "name": "ЧАЙ PHYTOLEK СЛАБИТЕЛЕН 20 БР 30 Г КУТИЯ",
-      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -62791,7 +62841,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": true,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966"
     },
     {
       "store": "Fantastico",
@@ -62837,7 +62888,6 @@ const OFFERS_DATA = {
       "weight_grams": 30,
       "weight_raw": "30 г",
       "name": "ЧАЙ PHYTOLEK ГАСТРО 20 БР 30 Г КУТИЯ",
-      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -62848,7 +62898,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966"
     },
     {
       "store": "Fantastico",
@@ -62884,7 +62935,6 @@ const OFFERS_DATA = {
       "weight_grams": 30,
       "weight_raw": "30 г",
       "name": "ЧАЙ PHYTOLEK ОФТАЛМО 20 БР 30 Г КУТИЯ",
-      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -62895,7 +62945,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966"
     },
     {
       "store": "Fantastico",
@@ -62941,7 +62992,6 @@ const OFFERS_DATA = {
       "weight_grams": 30,
       "weight_raw": "30 г",
       "name": "ЧАЙ PHYTOLEK БРОНХО 20 БР 30 Г",
-      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -62952,7 +63002,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966"
     },
     {
       "store": "Fantastico",
@@ -62998,7 +63049,6 @@ const OFFERS_DATA = {
       "weight_grams": 30,
       "weight_raw": "30 г",
       "name": "ЧАЙ PHYTOLEK ДЕТОКС 20 БР 30 Г КУТИЯ",
-      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -63009,7 +63059,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966"
     },
     {
       "store": "Kaufland",
@@ -63633,7 +63684,6 @@ const OFFERS_DATA = {
       "weight_grams": 30,
       "weight_raw": "30 г",
       "name": "ЧАЙ БИОПРОГРАМА ПРЕМИУМ ЛАВАНДУЛА 20 БР 30 Г КУТИЯ",
-      "image": "https://tmarketonline.bg/cdn/img/products/39471/caj-bioprograma-alpinist-20x1-5-g-image_5ea2cd125fc47.png?width=600&height=600&v=1777589876",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -63644,7 +63694,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/39471/caj-bioprograma-alpinist-20x1-5-g-image_5ea2cd125fc47.png?width=600&height=600&v=1777589876"
     },
     {
       "store": "Fantastico",
@@ -63967,7 +64018,6 @@ const OFFERS_DATA = {
       "weight_grams": 30,
       "weight_raw": "30 г",
       "name": "ЧАЙ TEA MOMENTS БУКЕТ 20 БР 30 Г КУТИЯ",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/b9e52d42-d611-4e14-a9af-98f9e329c02d.png",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -63978,7 +64028,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/b9e52d42-d611-4e14-a9af-98f9e329c02d.png"
     },
     {
       "store": "Kaufland",
@@ -64190,7 +64241,6 @@ const OFFERS_DATA = {
       "weight_grams": 34,
       "weight_raw": "20 бр х 1.7 г",
       "name": "ЧАЙ БИОПРОГРАМА ПРЕМИУМ ГОРСКИ БУКЕТ 20 БР Х 1.7 Г",
-      "image": "https://tmarketonline.bg/cdn/img/products/39471/caj-bioprograma-alpinist-20x1-5-g-image_5ea2cd125fc47.png?width=600&height=600&v=1777589876",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -64201,7 +64251,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/39471/caj-bioprograma-alpinist-20x1-5-g-image_5ea2cd125fc47.png?width=600&height=600&v=1777589876"
     },
     {
       "store": "Fantastico",
@@ -64237,7 +64288,6 @@ const OFFERS_DATA = {
       "weight_grams": 34,
       "weight_raw": "20 бр х 1.7 г",
       "name": "ЧАЙ БИОПРОГРАМА ПРЕМИУМ ДОБЪР ДЕН 20 БР Х 1.7 Г",
-      "image": "https://tmarketonline.bg/cdn/img/products/39471/caj-bioprograma-alpinist-20x1-5-g-image_5ea2cd125fc47.png?width=600&height=600&v=1777589876",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -64248,7 +64298,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/39471/caj-bioprograma-alpinist-20x1-5-g-image_5ea2cd125fc47.png?width=600&height=600&v=1777589876"
     },
     {
       "store": "Fantastico",
@@ -64294,7 +64345,6 @@ const OFFERS_DATA = {
       "weight_grams": 34,
       "weight_raw": "20 бр х 1.7 г",
       "name": "ЧАЙ БИОПРОГРАМА ПРЕМИУМ ЗИМНА ПРИКАЗКА 20 БР Х 1.7 Г",
-      "image": "https://tmarketonline.bg/cdn/img/products/39471/caj-bioprograma-alpinist-20x1-5-g-image_5ea2cd125fc47.png?width=600&height=600&v=1777589876",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -64305,7 +64355,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/39471/caj-bioprograma-alpinist-20x1-5-g-image_5ea2cd125fc47.png?width=600&height=600&v=1777589876"
     },
     {
       "store": "Fantastico",
@@ -64341,7 +64392,6 @@ const OFFERS_DATA = {
       "weight_grams": 34,
       "weight_raw": "20 бр х 1.7 г",
       "name": "ЧАЙ БИОПРОГРАМА ПРЕМИУМ ИЗГРЕВ 20 БР Х 1.7 Г",
-      "image": "https://tmarketonline.bg/cdn/img/products/39471/caj-bioprograma-alpinist-20x1-5-g-image_5ea2cd125fc47.png?width=600&height=600&v=1777589876",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -64352,7 +64402,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/39471/caj-bioprograma-alpinist-20x1-5-g-image_5ea2cd125fc47.png?width=600&height=600&v=1777589876"
     },
     {
       "store": "Fantastico",
@@ -64388,7 +64439,6 @@ const OFFERS_DATA = {
       "weight_grams": 34,
       "weight_raw": "20 бр х 1.7 г",
       "name": "ЧАЙ БИОПРОГРАМА ПРЕМИУМ КЕХЛИБАР 20 БР Х 1.7 Г",
-      "image": "https://tmarketonline.bg/cdn/img/products/39471/caj-bioprograma-alpinist-20x1-5-g-image_5ea2cd125fc47.png?width=600&height=600&v=1777589876",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -64399,7 +64449,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/39471/caj-bioprograma-alpinist-20x1-5-g-image_5ea2cd125fc47.png?width=600&height=600&v=1777589876"
     },
     {
       "store": "Fantastico",
@@ -64501,7 +64552,6 @@ const OFFERS_DATA = {
       "weight_grams": 30,
       "weight_raw": "20 бр х 1.5 гр",
       "name": "ЧАЙ БИО БИОПРОГРАМА ЛАЙКА 20 БР Х 1.5 ГР",
-      "image": "https://tmarketonline.bg/cdn/img/products/39464/caj-bioprograma-lajka-20x1-g-image_5ea2ccfa58806.png?width=600&height=600&v=1777589882",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -64512,7 +64562,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/39464/caj-bioprograma-lajka-20x1-g-image_5ea2ccfa58806.png?width=600&height=600&v=1777589882"
     },
     {
       "store": "Fantastico",
@@ -64548,7 +64599,6 @@ const OFFERS_DATA = {
       "weight_grams": 34,
       "weight_raw": "20 бр х 1.7 гр",
       "name": "ЧАЙ БИО БИОПРОГРАМА МЕНТА 20 БР Х 1.7 ГР",
-      "image": "https://tmarketonline.bg/cdn/img/products/39825/caj-bioset-menta-20h1-5-g-image_5ea2d3acc825e.png?width=600&height=600&v=1777589883",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -64559,7 +64609,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/39825/caj-bioset-menta-20h1-5-g-image_5ea2d3acc825e.png?width=600&height=600&v=1777589883"
     },
     {
       "store": "Fantastico",
@@ -64880,7 +64931,6 @@ const OFFERS_DATA = {
       "weight_grams": 200,
       "weight_raw": "200 г",
       "name": "Billa Меденки с пълнеж 200 г",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/153_00107683_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "health_score": 5,
@@ -64897,7 +64947,8 @@ const OFFERS_DATA = {
         "p": 0.3,
         "f": 0,
         "c": 82
-      }
+      },
+      "image": "https://tmarketonline.bg/cdn/img/products/48884/medenki-kinkartz-s-plodov-palnez-200gr-65cf331295c9b.jpeg?width=600&height=600&v=1777589997"
     },
     {
       "store": "Kaufland",
@@ -65924,7 +65975,6 @@ const OFFERS_DATA = {
       "weight_grams": 43,
       "weight_raw": "25 бр х 1.75 г",
       "name": "ЧАЙ NIKTEA МЕНТА 25 БР Х 1.75 Г",
-      "image": "https://tmarketonline.bg/cdn/img/products/39825/caj-bioset-menta-20h1-5-g-image_5ea2d3acc825e.png?width=600&height=600&v=1777589883",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -65935,7 +65985,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/39825/caj-bioset-menta-20h1-5-g-image_5ea2d3acc825e.png?width=600&height=600&v=1777589883"
     },
     {
       "store": "Fantastico",
@@ -65971,7 +66022,6 @@ const OFFERS_DATA = {
       "weight_grams": 43,
       "weight_raw": "25 бр х 1.75 г",
       "name": "ЧАЙ NIKTEA БИЛКИ 25 БР Х 1.75 Г",
-      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -65982,7 +66032,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966"
     },
     {
       "store": "Fantastico",
@@ -66026,7 +66077,7 @@ const OFFERS_DATA = {
       "comparison_count": 2,
       "product_id": "fantastico-лимони-клас-i-произход-юар",
       "name": "ЛИМОНИ КЛАС I ПРОИЗХОД ЮАР",
-      "image": null,
+      "image": "images/foods/apple.svg",
       "category": "vegetable",
       "emoji": "🥦",
       "health_score": 5,
@@ -66089,7 +66140,6 @@ const OFFERS_DATA = {
       "weight_grams": 40,
       "weight_raw": "20 бр х 2 г",
       "name": "ЧАЙ AHMAD ПЛОДОВО БИЛКОВ ГОРСКИ ПЛОД 20 БР Х 2 Г КУТИЯ",
-      "image": "https://tmarketonline.bg/cdn/img/products/44151/studen-caj-nestea-gorski-plod-500-ml-image_5f4cbbf0a053b.png?width=600&height=600&v=1777589912",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -66100,7 +66150,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/44151/studen-caj-nestea-gorski-plod-500-ml-image_5f4cbbf0a053b.png?width=600&height=600&v=1777589912"
     },
     {
       "store": "Fantastico",
@@ -66146,7 +66197,6 @@ const OFFERS_DATA = {
       "weight_grams": 30,
       "weight_raw": "20 бр х 1.5 г",
       "name": "ЧАЙ AHMAD SLEEP 20 БР Х 1.5 Г КУТИЯ",
-      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -66157,7 +66207,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966"
     },
     {
       "store": "Fantastico",
@@ -66203,7 +66254,6 @@ const OFFERS_DATA = {
       "weight_grams": 40,
       "weight_raw": "20 бр x 2 г",
       "name": "ЧАЙ AHMAD ДЕТОКС 20 БР X 2 Г КУТИЯ",
-      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -66214,7 +66264,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966"
     },
     {
       "store": "Fantastico",
@@ -66260,7 +66311,6 @@ const OFFERS_DATA = {
       "weight_grams": 40,
       "weight_raw": "20 бр х 2 г",
       "name": "ЧАЙ AHMAD ПЛОДОВО БИЛКОВ РОЙБОС И КАНЕЛА 20 БР Х 2 Г КУТИЯ",
-      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -66271,7 +66321,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966"
     },
     {
       "store": "Fantastico",
@@ -66307,7 +66358,6 @@ const OFFERS_DATA = {
       "weight_grams": 30,
       "weight_raw": "30 г",
       "name": "ЧАЙ GT ДЖИНДЖИФИЛ И МЕНТА ЛЮТА 20 БР 30 Г КУТИЯ",
-      "image": "https://tmarketonline.bg/cdn/img/products/39825/caj-bioset-menta-20h1-5-g-image_5ea2d3acc825e.png?width=600&height=600&v=1777589883",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -66318,7 +66368,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/39825/caj-bioset-menta-20h1-5-g-image_5ea2d3acc825e.png?width=600&height=600&v=1777589883"
     },
     {
       "store": "Fantastico",
@@ -66354,7 +66405,6 @@ const OFFERS_DATA = {
       "weight_grams": 30,
       "weight_raw": "20 бр х 1.5 г",
       "name": "ЧАЙ AHMAD IMMUNE 20 БР Х 1.5 Г КУТИЯ",
-      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -66365,7 +66415,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966"
     },
     {
       "store": "Fantastico",
@@ -66411,7 +66462,6 @@ const OFFERS_DATA = {
       "weight_grams": 30,
       "weight_raw": "20 бр х 1.5 г",
       "name": "ЧАЙ AHMAD SLIM 20 БР Х 1.5 Г КУТИЯ",
-      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -66422,7 +66472,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966"
     },
     {
       "store": "Fantastico",
@@ -66855,7 +66906,6 @@ const OFFERS_DATA = {
       "weight_grams": 30,
       "weight_raw": "20 бр х 1.5 г",
       "name": "ЧАЙ GT ЛАЙКА ПИРАМИДКИ 20 БР Х 1.5 Г КУТИЯ",
-      "image": "https://tmarketonline.bg/cdn/img/products/39464/caj-bioprograma-lajka-20x1-g-image_5ea2ccfa58806.png?width=600&height=600&v=1777589882",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -66866,7 +66916,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/39464/caj-bioprograma-lajka-20x1-g-image_5ea2ccfa58806.png?width=600&height=600&v=1777589882"
     },
     {
       "store": "Fantastico",
@@ -66912,7 +66963,6 @@ const OFFERS_DATA = {
       "weight_grams": 30,
       "weight_raw": "20 бр х 1.5 г",
       "name": "ЧАЙ GT МЕНТА ПИРАМИДКИ 20 БР Х 1.5 Г КУТИЯ",
-      "image": "https://tmarketonline.bg/cdn/img/products/39825/caj-bioset-menta-20h1-5-g-image_5ea2d3acc825e.png?width=600&height=600&v=1777589883",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -66923,7 +66973,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/39825/caj-bioset-menta-20h1-5-g-image_5ea2d3acc825e.png?width=600&height=600&v=1777589883"
     },
     {
       "store": "Fantastico",
@@ -66969,7 +67020,6 @@ const OFFERS_DATA = {
       "weight_grams": 30,
       "weight_raw": "30 г",
       "name": "ЧАЙ GT ЛИПОВ ЦВЯТ 20 БР 30 Г ПИРАМИДКИ",
-      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -66980,7 +67030,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966"
     },
     {
       "store": "Fantastico",
@@ -67016,7 +67067,6 @@ const OFFERS_DATA = {
       "weight_grams": 20,
       "weight_raw": "20 гр",
       "name": "ЧАЙ БИО H&H ЛЕКА НОЩ 20 БР 20 ГР КУТИЯ",
-      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -67027,7 +67077,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966"
     },
     {
       "store": "Fantastico",
@@ -67179,7 +67230,6 @@ const OFFERS_DATA = {
       "weight_grams": 45,
       "weight_raw": "30 бр х 1.5 г",
       "name": "ЧАЙ ЦЯРЪ ПРИ КАШЛИЦА 30 БР Х 1.5 Г ФИЛТЪР КУТИЯ",
-      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -67190,7 +67240,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966"
     },
     {
       "store": "Fantastico",
@@ -67236,7 +67287,6 @@ const OFFERS_DATA = {
       "weight_grams": 45,
       "weight_raw": "30 бр х 1.5 г",
       "name": "ЧАЙ ЦЯРЪ ПРИ КИСЕЛИНИ В СТОМАХА 30 БР Х 1.5 Г ФИЛТЪР УТИЯ",
-      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -67247,7 +67297,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966"
     },
     {
       "store": "Fantastico",
@@ -67293,7 +67344,6 @@ const OFFERS_DATA = {
       "weight_grams": 45,
       "weight_raw": "30 бр х 1.5 г",
       "name": "ЧАЙ ЦЯРЪ ПРИ ВИСОКО КРЪВНО НАЛЯГАНЕ 30 БР Х 1.5 Г ФИР КУ",
-      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -67304,7 +67354,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966"
     },
     {
       "store": "Fantastico",
@@ -67350,7 +67401,6 @@ const OFFERS_DATA = {
       "weight_grams": 45,
       "weight_raw": "30 бр х 1.5 г",
       "name": "ЧАЙ ЦЯРЪ ПРИ СРЕЩУ ЛОШИЯ ХОЛЕСТЕРОЛ 30 БР Х 1.5 Г ФИЛТЪР",
-      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -67361,7 +67411,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966"
     },
     {
       "store": "Fantastico",
@@ -67407,7 +67458,6 @@ const OFFERS_DATA = {
       "weight_grams": 45,
       "weight_raw": "30 бр х 1.5 г",
       "name": "ЧАЙ ЦЯРЪ СЛАБИТЕЛЕН 30 БР Х 1.5 Г ФИЛТЪР КУТИЯ",
-      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -67418,7 +67468,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": true,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966"
     },
     {
       "store": "Fantastico",
@@ -67517,7 +67568,6 @@ const OFFERS_DATA = {
       "weight_grams": 30,
       "weight_raw": "30.6 гр",
       "name": "ЧАЙ БИО YOGI СПОКОЙСТВИЕ 17 БР 30.6 ГР",
-      "image": "https://api.bulmag.org/thumbnails/192d063600e5e937c63aefac0dd4d417.png",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -67528,7 +67578,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://api.bulmag.org/thumbnails/192d063600e5e937c63aefac0dd4d417.png"
     },
     {
       "store": "Fantastico",
@@ -67564,7 +67615,6 @@ const OFFERS_DATA = {
       "weight_grams": 30,
       "weight_raw": "30.6 гр",
       "name": "ЧАЙ БИО YOGI СИЛЕН ИМУНИТЕТ 17 БР 30.6 ГР КУТИЯ",
-      "image": "https://api.bulmag.org/thumbnails/192d063600e5e937c63aefac0dd4d417.png",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -67575,7 +67625,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": true,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://api.bulmag.org/thumbnails/192d063600e5e937c63aefac0dd4d417.png"
     },
     {
       "store": "Fantastico",
@@ -67611,7 +67662,6 @@ const OFFERS_DATA = {
       "weight_grams": 30,
       "weight_raw": "30.6 гр",
       "name": "ЧАЙ БИО YOGI ДЕТОКС 17 БР 30.6 ГР КУТИЯ",
-      "image": "https://api.bulmag.org/thumbnails/192d063600e5e937c63aefac0dd4d417.png",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -67622,7 +67672,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://api.bulmag.org/thumbnails/192d063600e5e937c63aefac0dd4d417.png"
     },
     {
       "store": "Fantastico",
@@ -67934,7 +67985,7 @@ const OFFERS_DATA = {
       "weight_grams": 200,
       "weight_raw": "200 г",
       "name": "Paltsidis Тарамосалата бяла или розова 200 г",
-      "image": null,
+      "image": "images/foods/apple.svg",
       "category": "vegetable",
       "emoji": "🥦",
       "health_score": 5,
@@ -68156,7 +68207,6 @@ const OFFERS_DATA = {
       "weight_grams": 40,
       "weight_raw": "40 гр",
       "name": "ЧАЙ БИО H&H ДОБРО УТРО 20 БР 40 ГР КУТИЯ",
-      "image": "https://tmarketonline.bg/cdn/img/products/39467/caj-bioprograma-dobro-utro-20x1-5-g-image_5ea2cd07487f0.png?width=600&height=600&v=1777589875",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -68167,7 +68217,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/39467/caj-bioprograma-dobro-utro-20x1-5-g-image_5ea2cd07487f0.png?width=600&height=600&v=1777589875"
     },
     {
       "store": "Fantastico",
@@ -68203,7 +68254,6 @@ const OFFERS_DATA = {
       "weight_grams": 40,
       "weight_raw": "40 гр",
       "name": "ЧАЙ БИО H&H ЛАКРИЦ И ОРИЕНТ. ПОДПРАВКИ 20 БР 40 ГР КУТИЯ",
-      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -68214,7 +68264,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966"
     },
     {
       "store": "Fantastico",
@@ -68250,7 +68301,6 @@ const OFFERS_DATA = {
       "weight_grams": 40,
       "weight_raw": "40 гр",
       "name": "ЧАЙ БИО H&H ШИПКА 20 БР 40 ГР КУТИЯ",
-      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -68261,7 +68311,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966"
     },
     {
       "store": "Fantastico",
@@ -70000,7 +70051,6 @@ const OFFERS_DATA = {
       "weight_grams": 30,
       "weight_raw": "20 бр х 1.5 г",
       "name": "ЧАЙ ЧАКРА PHYTOLEK МАНИПУРА 20 БР Х 1.5 Г КУТИЯ",
-      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -70011,7 +70061,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966"
     },
     {
       "store": "Fantastico",
@@ -70047,7 +70098,6 @@ const OFFERS_DATA = {
       "weight_grams": 30,
       "weight_raw": "30 г",
       "name": "ЧАЙ ЧАКРА PHYTOLEK ВИШУДХА 20 БР 30 Г КУТИЯ",
-      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -70058,7 +70108,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966"
     },
     {
       "store": "Fantastico",
@@ -72982,7 +73033,6 @@ const OFFERS_DATA = {
       "weight_grams": 40,
       "weight_raw": "20 бр х 2 г",
       "name": "ЧАЙ TWININGS МЕНТА 20 БР Х 2 Г КУТИЯ",
-      "image": "https://tmarketonline.bg/cdn/img/products/39825/caj-bioset-menta-20h1-5-g-image_5ea2d3acc825e.png?width=600&height=600&v=1777589883",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -72993,7 +73043,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/39825/caj-bioset-menta-20h1-5-g-image_5ea2d3acc825e.png?width=600&height=600&v=1777589883"
     },
     {
       "store": "Fantastico",
@@ -73918,7 +73969,6 @@ const OFFERS_DATA = {
       "weight_grams": 30,
       "weight_raw": "20 бр х 1.5 г",
       "name": "ЧАЙ TWININGS INFUSO ЛАЙКА МЕД ВАНИЛИЯ 20 БР Х 1.5 Г КУТИЯ",
-      "image": "https://tmarketonline.bg/cdn/img/products/39464/caj-bioprograma-lajka-20x1-g-image_5ea2ccfa58806.png?width=600&height=600&v=1777589882",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -73935,7 +73985,8 @@ const OFFERS_DATA = {
         "p": 0.3,
         "f": 0,
         "c": 82
-      }
+      },
+      "image": "https://tmarketonline.bg/cdn/img/products/39464/caj-bioprograma-lajka-20x1-g-image_5ea2ccfa58806.png?width=600&height=600&v=1777589882"
     },
     {
       "store": "Fantastico",
@@ -73971,7 +74022,6 @@ const OFFERS_DATA = {
       "weight_grams": 36,
       "weight_raw": "18 бр х 2 г",
       "name": "ЧАЙ TWININGS SUPERBLENDS ANTIOXIDANT 18 БР Х 2 Г КУТИЯ",
-      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -73982,7 +74032,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966"
     },
     {
       "store": "Fantastico",
@@ -74018,7 +74069,6 @@ const OFFERS_DATA = {
       "weight_grams": 36,
       "weight_raw": "18 бр х 2 г",
       "name": "ЧАЙ TWININGS SUPERBLENDS ENERGISE 18 БР Х 2 Г КУТИЯ",
-      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -74029,7 +74079,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966"
     },
     {
       "store": "Fantastico",
@@ -74594,7 +74645,6 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "billa-иоркширски-териер-пудел-хималаиска-котка-далматинец-дакел-европеиска-късок",
       "name": "Йоркширски териер, пудел, хималайска котка, далматинец, дакел, европейска късокосместа котка, бенгалска котка*",
-      "image": null,
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -74641,7 +74691,6 @@ const OFFERS_DATA = {
       "weight_grams": 500,
       "weight_raw": "500 мл",
       "name": "Billa Дресинг Медена горчица или Цезар 500 мл",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/66321a84-e12e-4f31-8f73-d963a4255944.png",
       "category": "other",
       "emoji": "🛒",
       "health_score": 5,
@@ -74658,7 +74707,8 @@ const OFFERS_DATA = {
         "p": 0.3,
         "f": 0,
         "c": 82
-      }
+      },
+      "image": "https://cdn.metro-group.com/bg/bg_pim_249985001001_01.png?format=jpg&quality=80&dpi=72"
     },
     {
       "store": "Fantastico",
@@ -75123,7 +75173,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ДОБРА ГОДИНА СОВИНЬОН БЛАН 750 МЛ МЕДИ ВАЛЕЙ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -75140,7 +75189,8 @@ const OFFERS_DATA = {
         "p": 0.3,
         "f": 0,
         "c": 82
-      }
+      },
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -75186,7 +75236,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ДОБРА ГОДИНА ТРАМИНЕР ПИНК 750 МЛ МЕДИ ВАЛЕЙ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/571_01800702?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -75203,7 +75252,8 @@ const OFFERS_DATA = {
         "p": 0.3,
         "f": 0,
         "c": 82
-      }
+      },
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/571_01800702?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -75249,7 +75299,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ДОБРА ГОДИНА ЧЕРВЕНО КЮВЕ 750 МЛ МЕДИ ВАЛЕЙ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -75266,7 +75315,8 @@ const OFFERS_DATA = {
         "p": 0.3,
         "f": 0,
         "c": 82
-      }
+      },
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -75965,7 +76015,7 @@ const OFFERS_DATA = {
       "weight_grams": 700,
       "weight_raw": "700 мл",
       "name": "РАКИЯ ПЕЩЕРСКА ГРОЗДОВА ОТЛЕЖАЛА 700 МЛ БУТИЛКА",
-      "image": null,
+      "image": "images/foods/chicken.svg",
       "category": "protein",
       "emoji": "🍗",
       "health_score": 5,
@@ -79943,7 +79993,7 @@ const OFFERS_DATA = {
       "weight_grams": 250,
       "weight_raw": "250 г",
       "name": "КАФЕ MELITTA CAFE BAR CREMA INTENSE 250 Г МЛЯНО",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00102255_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://tmarketonline.bg/cdn/img/products/48535/kafe-lavazza-crema-e-gusto-classico-2x250-gr-69067a67af0a0.jpeg?width=600&height=600&v=1777590029",
       "category": "protein",
       "emoji": "🍗",
       "health_score": 5,
@@ -80175,7 +80225,6 @@ const OFFERS_DATA = {
       "weight_grams": 250,
       "weight_raw": "250 г",
       "name": "КАФЕ KIMBO AROMA GOLD 100% АРАБИКА 250 Г МЕТ. КУТИЯ",
-      "image": "https://tmarketonline.bg/cdn/img/products/47999/raztvorimo-kafe-nescafer-gold-bezkofeinovo-staklen-burkan-100g-6454c118bcbe8.jpeg?width=600&height=600&v=1777589975",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -80186,7 +80235,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/47999/raztvorimo-kafe-nescafer-gold-bezkofeinovo-staklen-burkan-100g-6454c118bcbe8.jpeg?width=600&height=600&v=1777589975"
     },
     {
       "store": "Fantastico",
@@ -80232,7 +80282,7 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 л",
       "name": "МАСЛИН. МАСЛО ЕКСТРА ВЪРДЖ. CLEMENTE 1 Л IMPORT",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20699422_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/10d44d70-bfbf-4b29-88b2-9829f4cb37bf.png",
       "category": "fat",
       "emoji": "🫒",
       "health_score": 5,
@@ -80285,7 +80335,7 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО БЯЛО СОЛИ 750 МЛ ЕДОАРДО МИРОЛИО",
-      "image": null,
+      "image": "images/foods/olive-oil.svg",
       "category": "fat",
       "emoji": "🫒",
       "health_score": 5,
@@ -80332,7 +80382,7 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО СОВИНЬОН БЛАН СОЛИ 750 МЛ ЕДОАРДО МИРОЛИО",
-      "image": null,
+      "image": "images/foods/olive-oil.svg",
       "category": "fat",
       "emoji": "🫒",
       "health_score": 5,
@@ -80379,7 +80429,7 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ПИНО НОАР СОЛИ 750 МЛ ЕДОАРДО МИРОЛИО",
-      "image": null,
+      "image": "images/foods/olive-oil.svg",
       "category": "fat",
       "emoji": "🫒",
       "health_score": 5,
@@ -81085,7 +81135,7 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО МАВРУД БУТИК 750 МЛ ТОДОРОВ",
-      "image": null,
+      "image": "images/foods/chicken.svg",
       "category": "protein",
       "emoji": "🍗",
       "health_score": 5,
@@ -81148,7 +81198,7 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 л",
       "name": "МАСЛИН. МАСЛО ЕКСТРА ВЪРДЖ. MEDITERRANEO 1 Л COPPINI IMPORT",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20699422_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/10d44d70-bfbf-4b29-88b2-9829f4cb37bf.png",
       "category": "fat",
       "emoji": "🫒",
       "health_score": 5,
@@ -81264,7 +81314,7 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО МЕРЛО БУТИК 750 МЛ ТОДОРОВ",
-      "image": null,
+      "image": "images/foods/chicken.svg",
       "category": "protein",
       "emoji": "🍗",
       "health_score": 5,
@@ -81549,7 +81599,7 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 л",
       "name": "МАСЛИН. МАСЛО ЕКСТРА ВЪРДЖ. FRUTTATO 1 Л FARCHIONI IMPORT",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20699422_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/10d44d70-bfbf-4b29-88b2-9829f4cb37bf.png",
       "category": "fat",
       "emoji": "🫒",
       "health_score": 5,
@@ -82294,7 +82344,6 @@ const OFFERS_DATA = {
       "weight_grams": 250,
       "weight_raw": "250 г",
       "name": "КАФЕ LAVAZZA CREMA E GUSTO 250 Г МЕТАЛНА КУТИЯ 0452",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8000070038974_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -82305,7 +82354,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/8000070038974_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -83742,7 +83792,6 @@ const OFFERS_DATA = {
       "weight_grams": 250,
       "weight_raw": "250 гр",
       "name": "КАФЕ БИО ALCE NERO АРАБИКА ЗА МОКА 250 ГР ПАКЕТ",
-      "image": "https://tmarketonline.bg/cdn/img/products/41794/raztvorimo-kafe-nova-brasilia-krema-18-g-image_5f27c0bb56711.jpeg?width=600&height=600&v=1777589896",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -83753,7 +83802,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/41794/raztvorimo-kafe-nova-brasilia-krema-18-g-image_5f27c0bb56711.jpeg?width=600&height=600&v=1777589896"
     },
     {
       "store": "Fantastico",
@@ -83789,7 +83839,7 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО СОВИНЬОН БЛАН 750 МЛ ЕД. МИРОЛИО",
-      "image": null,
+      "image": "images/foods/olive-oil.svg",
       "category": "fat",
       "emoji": "🫒",
       "health_score": 5,
@@ -83836,7 +83886,7 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО МУСКАТ ОТОНЕЛ 750 МЛ ЕДОАРДО МИРОЛИО",
-      "image": null,
+      "image": "images/foods/olive-oil.svg",
       "category": "fat",
       "emoji": "🫒",
       "health_score": 5,
@@ -83883,7 +83933,7 @@ const OFFERS_DATA = {
       "weight_grams": 380,
       "weight_raw": "380 г",
       "name": "Супер цена - Димитър Маджаров Кашкавал от краве мляко БДС 380 г",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/c09e1a9a-d1b0-4f75-be15-9ef0d341b501.png",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/309_20273042_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "dairy",
       "emoji": "🥛",
       "health_score": 5,
@@ -84070,7 +84120,7 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1л",
       "name": "МАСЛИН. МАСЛО ЕКСТРА ВЪРДЖ. 1Л ELIA  АРОМАТИКОН",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20699422_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/10d44d70-bfbf-4b29-88b2-9829f4cb37bf.png",
       "category": "fat",
       "emoji": "🫒",
       "health_score": 5,
@@ -84288,7 +84338,7 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 л",
       "name": "МАСЛИН. МАСЛО ЕКСТРА ВЪРДЖИН MEDITERRANEO 1 Л DANTE IMPORT",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20699422_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/10d44d70-bfbf-4b29-88b2-9829f4cb37bf.png",
       "category": "fat",
       "emoji": "🫒",
       "health_score": 5,
@@ -84351,7 +84401,7 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 л",
       "name": "МАСЛИН. МАСЛО ЕКСТРА ВЪРДЖИН 1 Л SAN LAZARO",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20699422_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/10d44d70-bfbf-4b29-88b2-9829f4cb37bf.png",
       "category": "fat",
       "emoji": "🫒",
       "health_score": 5,
@@ -84636,7 +84686,6 @@ const OFFERS_DATA = {
       "weight_grams": 250,
       "weight_raw": "250 гр",
       "name": "КАФЕ БИО ALCE NERO АРАБИКА И РОБУСТА 250 ГР",
-      "image": "https://tmarketonline.bg/cdn/img/products/41794/raztvorimo-kafe-nova-brasilia-krema-18-g-image_5f27c0bb56711.jpeg?width=600&height=600&v=1777589896",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -84647,7 +84696,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/41794/raztvorimo-kafe-nova-brasilia-krema-18-g-image_5f27c0bb56711.jpeg?width=600&height=600&v=1777589896"
     },
     {
       "store": "Fantastico",
@@ -85383,7 +85433,7 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1л",
       "name": "МАСЛИН. МАСЛО ЕКСТРА ВЪРДЖ. НЕФИЛТРИР 1Л КОСТА ДОРО .IMPORT",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20699422_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/10d44d70-bfbf-4b29-88b2-9829f4cb37bf.png",
       "category": "fat",
       "emoji": "🫒",
       "health_score": 5,
@@ -85446,7 +85496,7 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 л",
       "name": "МАСЛИН. МАСЛО ЕКСТРА ВЪРДЖ. CLASSICO 1 Л  COPPINI TIN IMPORT",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20699422_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/10d44d70-bfbf-4b29-88b2-9829f4cb37bf.png",
       "category": "fat",
       "emoji": "🫒",
       "health_score": 5,
@@ -85509,7 +85559,7 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 л",
       "name": "МАСЛИН. МАСЛО ЕКСТРА ВЪРДЖ. CLASSIC 1 Л FARCHIONI IMPORT",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20699422_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/10d44d70-bfbf-4b29-88b2-9829f4cb37bf.png",
       "category": "fat",
       "emoji": "🫒",
       "health_score": 5,
@@ -85625,7 +85675,7 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1л",
       "name": "МАСЛИН. МАСЛО ЕКСТРА ВЪРДЖ. 1Л GARCIA IMPORT",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20699422_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/10d44d70-bfbf-4b29-88b2-9829f4cb37bf.png",
       "category": "fat",
       "emoji": "🫒",
       "health_score": 5,
@@ -85678,7 +85728,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ЧЕРВЕНО ВЕЛИКА БЪЛГАРИЯ 750 МЛ МЕДИ ВАЛЕЙ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -85695,7 +85744,8 @@ const OFFERS_DATA = {
         "p": 0.3,
         "f": 0,
         "c": 82
-      }
+      },
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -86073,7 +86123,7 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 л",
       "name": "МАСЛИН. МАСЛО ЕКСТРА ВЪРДЖ. 1 Л THE CHEFS",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20699422_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/10d44d70-bfbf-4b29-88b2-9829f4cb37bf.png",
       "category": "fat",
       "emoji": "🫒",
       "health_score": 5,
@@ -86293,7 +86343,7 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1л",
       "name": "МАСЛИН. МАСЛО ЕКСТРА ВЪРДЖИН 1Л ДЕЛ АЛМА",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20699422_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/10d44d70-bfbf-4b29-88b2-9829f4cb37bf.png",
       "category": "fat",
       "emoji": "🫒",
       "health_score": 5,
@@ -86460,7 +86510,7 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1л",
       "name": "МАСЛИН. МАСЛО ЕКСТРА ВЪРДЖ. ОУРО 1Л SAN LAZARO",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20699422_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/10d44d70-bfbf-4b29-88b2-9829f4cb37bf.png",
       "category": "fat",
       "emoji": "🫒",
       "health_score": 5,
@@ -86996,7 +87046,6 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "fantastico-кафе-bianchi-nero-crema-aroma-espresso-1-kг-зърна",
       "name": "КАФЕ BIANCHI NERO CREMA AROMA ESPRESSO 1 KГ ЗЪРНА",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8000070038974_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -87007,7 +87056,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/8000070038974_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Kaufland",
@@ -87460,7 +87510,7 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1л",
       "name": "МАСЛИН. МАСЛО ЕКСТРА ВЪРДЖ. НЕФИЛТРИРАН 1Л KARPEA IMPORT",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20699422_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/10d44d70-bfbf-4b29-88b2-9829f4cb37bf.png",
       "category": "fat",
       "emoji": "🫒",
       "health_score": 5,
@@ -87759,7 +87809,7 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 л",
       "name": "МАСЛИН. МАСЛО ЕКСТРА ВЪРДЖ. 1 Л 0.3% KARPEA IMPORT",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20699422_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/10d44d70-bfbf-4b29-88b2-9829f4cb37bf.png",
       "category": "fat",
       "emoji": "🫒",
       "health_score": 5,
@@ -87822,7 +87872,7 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 л",
       "name": "МАСЛИН. МАСЛО ЕКСТРА ВЪРДЖ. НЕФИЛТР. 1 Л IL CASOLARE IMPORT",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20699422_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/10d44d70-bfbf-4b29-88b2-9829f4cb37bf.png",
       "category": "fat",
       "emoji": "🫒",
       "health_score": 5,
@@ -88101,7 +88151,6 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 кг",
       "name": "КАФЕ TCHIBO GOLD SELECTION 1 КГ ЗЪРНА ПАКЕТ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/4046234767650_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -88112,7 +88161,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4046234767650_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Kaufland",
@@ -88360,7 +88410,6 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 кг",
       "name": "КАФЕ BIANCHI FAMIGLIA DORO INTENSE 1 КГ ЗЪРНА",
-      "image": "https://tmarketonline.bg/cdn/img/products/55363/raztvorimo-kafe-jacobs-3in1-intense-11-1-g-6784f8638b866.jpeg?width=600&height=600&v=1777590012",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -88371,7 +88420,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/55363/raztvorimo-kafe-jacobs-3in1-intense-11-1-g-6784f8638b866.jpeg?width=600&height=600&v=1777590012"
     },
     {
       "store": "Fantastico",
@@ -88574,7 +88624,6 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 кг",
       "name": "КАФЕ JACOBS MONARCH 1 КГ ЗЪРНА",
-      "image": "https://tmarketonline.bg/cdn/img/products/41803/raztvorimo-kafe-jacobs-monarch-2-g-image_5f287977f2eef.png?width=600&height=600&v=1777589895",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -88585,7 +88634,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/41803/raztvorimo-kafe-jacobs-monarch-2-g-image_5f287977f2eef.png?width=600&height=600&v=1777589895"
     },
     {
       "store": "Fantastico",
@@ -88723,7 +88773,6 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 кг",
       "name": "КАФЕ JACOBS ESPRESSO STRONG 1 КГ ЗЪРНА",
-      "image": "https://tmarketonline.bg/cdn/img/products/41803/raztvorimo-kafe-jacobs-monarch-2-g-image_5f287977f2eef.png?width=600&height=600&v=1777589895",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -88734,7 +88783,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/41803/raztvorimo-kafe-jacobs-monarch-2-g-image_5f287977f2eef.png?width=600&height=600&v=1777589895"
     },
     {
       "store": "Fantastico",
@@ -88906,7 +88956,6 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 кг",
       "name": "КАФЕ BIANCHI FAMIGLIA DORO CLASSIC 1 КГ ЗЪРНА",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/493_02400202_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -88917,7 +88966,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800214004774_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Billa",
@@ -88953,7 +89003,6 @@ const OFFERS_DATA = {
       "weight_grams": 330,
       "weight_raw": "330 мл",
       "name": "Сега в Billa - Кафеварка 330 мл 17 х 10 х 18 см 1 бр. Продукт, маркиран със синя звезда",
-      "image": "https://api.bulmag.org/thumbnails/a743d726581ede736ef35f4aa3c1e6b6.jpeg",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -88964,7 +89013,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://api.bulmag.org/thumbnails/a743d726581ede736ef35f4aa3c1e6b6.jpeg"
     },
     {
       "store": "Fantastico",
@@ -89639,7 +89689,6 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 кг",
       "name": "КАФЕ LAVAZZA SUERTE 1 КГ ЗЪРНА IN OUT",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8000070021747_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -89650,7 +89699,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/8000070021747_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -89686,7 +89736,6 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 кг",
       "name": "КАФЕ BIANCHI NERO FINE AROMA 1 КГ ЗЪРНА",
-      "image": "https://tmarketonline.bg/cdn/img/products/53388/kafe-padove-bianchi-fine-aroma-16-br-6586ea5c83636.png?width=600&height=600&v=1777589993",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -89697,7 +89746,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/53388/kafe-padove-bianchi-fine-aroma-16-br-6586ea5c83636.png?width=600&height=600&v=1777589993"
     },
     {
       "store": "Fantastico",
@@ -89733,7 +89783,6 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 кг",
       "name": "КАФЕ KIMBO AUDACE 1 КГ ЗЪРНА *",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8000070021747_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -89744,7 +89793,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/8000070021747_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -89780,7 +89830,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ИНКАНТО БЛЕК 750 МЛ МЕДИ ВАЛЕЙ КУТИЯ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20895674_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -89797,7 +89846,8 @@ const OFFERS_DATA = {
         "p": 0.3,
         "f": 0,
         "c": 82
-      }
+      },
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20895674_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -89959,7 +90009,6 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 кг",
       "name": "КАФЕ EDUSCHO ESPRESSO CLASSIC 1 КГ ЗЪРНА",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/493_02400202_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -89970,7 +90019,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/43631/raztvorimo-kafe-nescafe-classic-2-g-634572640710d.jpeg?width=600&height=600&v=1777589958"
     },
     {
       "store": "Fantastico",
@@ -90006,7 +90056,6 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 кг",
       "name": "КАФЕ EDUSCHO ESPRESSO INTENSO 1 КГ ЗЪРНА",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8000070021747_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -90017,7 +90066,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/8000070021747_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -90053,7 +90103,6 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 кг",
       "name": "КАФЕ DALLMAYR SELECTION 2026 SOUTH AMERICA 1 КГ ЗЪРНА *",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/4046234767650_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -90064,7 +90113,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/8000070021747_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Kaufland",
@@ -90202,7 +90252,6 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 кг",
       "name": "КАФЕ L OR ESPRESSO FORZA 1 КГ ЗЪРНА *",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8000070021747_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -90213,7 +90262,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/8000070021747_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Kaufland",
@@ -90296,7 +90346,7 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО КАБЕРНЕ ФРАН ЕЛЕНОВО 750 МЛ ЕДОАРДО МИРОЛИО",
-      "image": null,
+      "image": "images/foods/olive-oil.svg",
       "category": "fat",
       "emoji": "🫒",
       "health_score": 5,
@@ -90343,7 +90393,7 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО РУБИН ЕЛЕНОВО 750 МЛ ЕДУАРДО МИРОЛИО",
-      "image": null,
+      "image": "images/foods/olive-oil.svg",
       "category": "fat",
       "emoji": "🫒",
       "health_score": 5,
@@ -90390,7 +90440,6 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 кг",
       "name": "КАФЕ BIALETTI CLASSICO 1 КГ ЗЪРНА",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8000070038974_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -90401,7 +90450,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/8000070038974_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -90437,7 +90487,6 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 кг",
       "name": "КАФЕ BIALETTI NOCCIOLA 1 КГ ЗЪРНА *",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8000070021747_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -90448,7 +90497,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/8000070021747_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -90610,7 +90660,6 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 кг",
       "name": "КАФЕ SEGAFREDO ESPRESSO CASA 1 КГ ЗЪРНА",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8000070021747_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -90621,7 +90670,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/8000070021747_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -90773,7 +90823,6 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 кг",
       "name": "КАФЕ COSTA SIGNATURE MEDIUM 8 1 КГ ЗЪРНА",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8000070021747_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -90784,7 +90833,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/8000070021747_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -90830,7 +90880,6 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 кг",
       "name": "КАФЕ COSTA CREMA 1 КГ ЗЪРНА",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8000070038974_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -90841,7 +90890,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/8000070038974_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -90877,7 +90927,6 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 кг",
       "name": "КАФЕ SEGAFREDO SUPREMO 100% АРАБИКА 1 КГ ЗЪРНА",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8000070021747_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -90888,7 +90937,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/8000070021747_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Kaufland",
@@ -91030,7 +91080,6 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 кг",
       "name": "КАФЕ LAVAZZA CREMA E GUSTO 1 КГ ЗЪРНА",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8000070038974_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -91041,7 +91090,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/8000070038974_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Billa",
@@ -91177,7 +91227,6 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 кг",
       "name": "КАФЕ TCHIBO VARIAZIONE 1 КГ ЗЪРНА",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/4046234767650_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -91188,7 +91237,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4046234767650_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -91234,7 +91284,6 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 кг",
       "name": "КАФЕ KIMBO INTENSO 1 КГ ЗЪРНА",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8000070021747_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -91245,7 +91294,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/8000070021747_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -91281,7 +91331,6 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 кг",
       "name": "КАФЕ TCHIBO ESPRESSO SICILIA STYLE 1 КГ ЗЪРНА ПАКЕТ",
-      "image": "https://tmarketonline.bg/cdn/img/products/41820/kafe-tchibo-milano-style-na-zarna-1-kg-66cdc41123e63.jpeg?width=600&height=600&v=1777590005",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -91292,7 +91341,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/41820/kafe-tchibo-milano-style-na-zarna-1-kg-66cdc41123e63.jpeg?width=600&height=600&v=1777590005"
     },
     {
       "store": "Fantastico",
@@ -91338,7 +91388,6 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 кг",
       "name": "КАФЕ TCHIBO ESPRESSO MILANO STYLE 1 КГ ЗЪРНА",
-      "image": "https://tmarketonline.bg/cdn/img/products/41820/kafe-tchibo-milano-style-na-zarna-1-kg-66cdc41123e63.jpeg?width=600&height=600&v=1777590005",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -91349,7 +91398,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/41820/kafe-tchibo-milano-style-na-zarna-1-kg-66cdc41123e63.jpeg?width=600&height=600&v=1777590005"
     },
     {
       "store": "Fantastico",
@@ -91385,7 +91435,6 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 кг",
       "name": "КАФЕ JACOBS БАРИСТА ИТАЛИАНО 1 КГ ЗЪРНА",
-      "image": "https://tmarketonline.bg/cdn/img/products/41803/raztvorimo-kafe-jacobs-monarch-2-g-image_5f287977f2eef.png?width=600&height=600&v=1777589895",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -91396,7 +91445,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/41803/raztvorimo-kafe-jacobs-monarch-2-g-image_5f287977f2eef.png?width=600&height=600&v=1777589895"
     },
     {
       "store": "Fantastico",
@@ -91432,7 +91482,6 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 кг",
       "name": "КАФЕ JACOBS BRAZIL & COLOMBIA 1 КГ ЗЪРНА",
-      "image": "https://tmarketonline.bg/cdn/img/products/41803/raztvorimo-kafe-jacobs-monarch-2-g-image_5f287977f2eef.png?width=600&height=600&v=1777589895",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -91443,7 +91492,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/41803/raztvorimo-kafe-jacobs-monarch-2-g-image_5f287977f2eef.png?width=600&height=600&v=1777589895"
     },
     {
       "store": "Fantastico",
@@ -91479,7 +91529,6 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 кг",
       "name": "КАФЕ JACOBS UGANDA & KENYA 1 КГ ЗЪРНА",
-      "image": "https://tmarketonline.bg/cdn/img/products/41803/raztvorimo-kafe-jacobs-monarch-2-g-image_5f287977f2eef.png?width=600&height=600&v=1777589895",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -91490,7 +91539,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/41803/raztvorimo-kafe-jacobs-monarch-2-g-image_5f287977f2eef.png?width=600&height=600&v=1777589895"
     },
     {
       "store": "Kaufland",
@@ -91581,7 +91631,6 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 кг",
       "name": "КАФЕ LAVAZZA QUALITA ROSSA 1 КГ ЗЪРНА",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8000070048638_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -91592,7 +91641,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/8000070048638_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -91638,7 +91688,6 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 кг",
       "name": "КАФЕ MELITTA BAR SELECTION CREMA INTENSE 1 КГ ЗЪРНА",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00063329_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -91649,7 +91698,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00063329_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -91695,7 +91745,6 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 кг",
       "name": "КАФЕ MELITTA BAR SELECTION ESPRESSO INTENSE 1 КГ ЗЪРНА",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00063329_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -91706,7 +91755,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00063329_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -91742,7 +91792,6 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 кг",
       "name": "КАФЕ MELITTA BAR SELECTION ESPRESSO CLASSIC 1 КГ ЗЪРНА",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00063329_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -91753,7 +91802,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00063329_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -91799,7 +91849,6 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 кг",
       "name": "КАФЕ KIMBO CLASSICO ESPRESSO 1 КГ ЗЪРНА",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8000070038974_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -91810,7 +91859,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/8000070038974_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Kaufland",
@@ -91897,7 +91947,6 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 кг",
       "name": "КАФЕ KIMBO AROMA GOLD 100% АРАБИКА 1 КГ ЗЪРНА",
-      "image": "https://tmarketonline.bg/cdn/img/products/47999/raztvorimo-kafe-nescafer-gold-bezkofeinovo-staklen-burkan-100g-6454c118bcbe8.jpeg?width=600&height=600&v=1777589975",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -91908,7 +91957,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/47999/raztvorimo-kafe-nescafer-gold-bezkofeinovo-staklen-burkan-100g-6454c118bcbe8.jpeg?width=600&height=600&v=1777589975"
     },
     {
       "store": "Fantastico",
@@ -91944,7 +91994,6 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 кг",
       "name": "КАФЕ LAVAZZA CREMA DOLCE 1 КГ ЗЪРНА *",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8000070038974_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -91955,7 +92004,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/8000070038974_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -92001,7 +92051,6 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 кг",
       "name": "КАФЕ LAVAZZA CREMA GUSTOSO 1 КГ ЗЪРНА",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8000070038974_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -92012,7 +92061,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/8000070038974_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Kaufland",
@@ -92152,7 +92202,6 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 кг",
       "name": "КАФЕ VERGNANO GRAN AROMA 1 КГ ЗЪРНА",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8000070021747_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -92163,7 +92212,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/8000070021747_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -92199,7 +92249,6 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 кг",
       "name": "КАФЕ VERGNANO ESPRESSO 1 КГ ЗЪРНА",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8000070021747_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -92210,7 +92259,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/8000070021747_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -92256,7 +92306,6 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 кг",
       "name": "КАФЕ LAVAZZA КУАЛИТА ОРО 1 КГ ЗЪРНА ПАКЕТ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8000070021747_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -92267,7 +92316,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/8000070021747_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -92313,7 +92363,6 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 кг",
       "name": "КАФЕ LAVAZZA CREMA E AROMA 1 КГ ЗЪРНА",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8000070038974_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -92324,7 +92373,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/8000070038974_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Billa",
@@ -92358,7 +92408,6 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "billa-супер-цена-dolce-gusto-кафе-капсули-90-12-бр-в-опаковка",
       "name": "Супер цена - Dolce Gusto Кафе капсули 90 + 12 бр. в опаковка",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/e0bdfccf-9b5e-437e-b94c-9dbeb3f5fe5e.png",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -92369,7 +92418,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/e0bdfccf-9b5e-437e-b94c-9dbeb3f5fe5e.png"
     },
     {
       "store": "Kaufland",
@@ -92556,7 +92606,7 @@ const OFFERS_DATA = {
       "weight_grams": 15,
       "weight_raw": "15,1 г",
       "name": "Супер цена - Jacobs Разтворима напитка 3in1, 11,1 - 15,1 г",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/2a609c15-48e8-4a88-8e53-bfd4efee0081.png",
+      "image": "https://tmarketonline.bg/cdn/img/products/52760/raztvorima-napitka-step-max-portokal-i-vitamini-9-gr-652fe64e73671.jpeg?width=600&height=600&v=1777589991",
       "category": "bread",
       "emoji": "🍞",
       "health_score": 3,
@@ -92603,7 +92653,7 @@ const OFFERS_DATA = {
       "weight_grams": 60,
       "weight_raw": "60 г",
       "name": "Супер цена - Чесново хлебче От Billa пекарна 60 г Billa Ready",
-      "image": null,
+      "image": "images/foods/apple.svg",
       "category": "vegetable",
       "emoji": "🥦",
       "health_score": 3,
@@ -93216,7 +93266,7 @@ const OFFERS_DATA = {
       "weight_grams": 360,
       "weight_raw": "360 г",
       "name": "НАДЕНИЦА РОДОПСКА 360 Г ВАКУУМ ДЕЛИКАТЕС 2",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/2875950000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/2800810000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "protein",
       "emoji": "🍗",
       "health_score": 3,
@@ -93310,7 +93360,7 @@ const OFFERS_DATA = {
       "weight_grams": 300,
       "weight_raw": "300 г",
       "name": "Billa Шунка 300 г",
-      "image": "https://glovo.dhmedia.io/image/pim-glovo/6979d23006d8fe2b135791ab.png",
+      "image": "https://tmarketonline.bg/cdn/img/products/56139/sunka-svinska-slajs-1-kg-xxl-vak-kg-68685012e321c.jpeg?width=600&height=600&v=1777590017",
       "category": "protein",
       "emoji": "🍗",
       "health_score": 3,
@@ -93367,7 +93417,7 @@ const OFFERS_DATA = {
       "weight_grams": 300,
       "weight_raw": "300 гр",
       "name": "НАДЕНИЦА МАКЕДОНСКА 300 ГР ВАКУУМ ТАНДЕМ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800837412512_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/2800810000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "protein",
       "emoji": "🍗",
       "health_score": 3,
@@ -96957,7 +97007,7 @@ const OFFERS_DATA = {
       "comparison_count": 2,
       "product_id": "fantastico-наденица-македонска-леки-витрина-белла-пр-д-б-я",
       "name": "НАДЕНИЦА МАКЕДОНСКА ЛЕКИ ВИТРИНА БЕЛЛА, ПР-Д Б-Я",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00109076_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/2820600000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "protein",
       "emoji": "🍗",
       "health_score": 3,
@@ -98158,7 +98208,7 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 кг",
       "name": "Орехите Луканка Добруджанска или Чардака От деликатесната витрина За 1 кг Продукт, маркиран със синя звезда",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/01003210B_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/53bfa2d4-16da-4a3d-be80-c1cc420b65ab.png",
       "category": "protein",
       "emoji": "🍗",
       "health_score": 3,
@@ -98920,7 +98970,7 @@ const OFFERS_DATA = {
       "weight_grams": 80,
       "weight_raw": "80 гр",
       "name": "ШОКОЛАД VIP МЛЕЧЕН С КОНОПЕН ПРОТЕИН 80 ГР",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/7622300218195_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://tmarketonline.bg/cdn/img/products/50452/vafli-mura-gold-mlecen-sokolad-6x18-gr-642be15f4af39.jpeg?width=600&height=600&v=1777589970",
       "category": "grain",
       "emoji": "🌾",
       "health_score": 2,
@@ -99061,7 +99111,7 @@ const OFFERS_DATA = {
       "weight_grams": 100,
       "weight_raw": "100г",
       "name": "ШОКОЛАД БИО FROM HEAVEN С КАРАМ. БАДЕМИ И МОРСКА СОЛ 100Г",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/7622300218195_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://tmarketonline.bg/cdn/img/products/52716/sokolad-lindtcer-badem-lesnik-borov-100g-652e4c676e56d.jpeg?width=600&height=600&v=1777589987",
       "category": "grain",
       "emoji": "🌾",
       "health_score": 2,
@@ -99108,7 +99158,7 @@ const OFFERS_DATA = {
       "weight_grams": 80,
       "weight_raw": "80 гр",
       "name": "ШОКОЛАД БИО MULATE ТЪМЕН МЛЕЧЕН ФЪСТЪК 80 ГР",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/7622300218195_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://tmarketonline.bg/cdn/img/products/50453/vafli-mura-gold-tamen-sokolad-6x17-5-gr-642be1a582aea.png?width=600&height=600&v=1777589970",
       "category": "grain",
       "emoji": "🌾",
       "health_score": 2,
@@ -99360,7 +99410,6 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 кг",
       "name": "СОЛ 1 КГ МОРСКА  КРИСТАЛНА ПРОМАР",
-      "image": null,
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -99460,7 +99509,6 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 кг",
       "name": "СОЛ 1 КГ ПЕРЛА ЙОДИРАНА ТРАПЕЗНА ЕКСТРА",
-      "image": "https://tmarketonline.bg/cdn/img/products/40405/sol-perla-trapezna-jodirana-1kg-image_5ea5aa8312c4d.png?width=600&height=600&v=1777589882",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -99470,7 +99518,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/40405/sol-perla-trapezna-jodirana-1kg-image_5ea5aa8312c4d.png?width=600&height=600&v=1777589882"
     },
     {
       "store": "Fantastico",
@@ -99672,7 +99721,6 @@ const OFFERS_DATA = {
       "weight_grams": 400,
       "weight_raw": "400 гр",
       "name": "ФИДЕ Ф ВКУС 400 ГР",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800065761055_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -99682,7 +99730,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800065761055_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -99718,7 +99767,6 @@ const OFFERS_DATA = {
       "weight_grams": 400,
       "weight_raw": "400 гр",
       "name": "КУС-КУС Ф ВКУС 400 ГР",
-      "image": "https://tmarketonline.bg/cdn/img/products/48879/kus-kus-divella-500-gr-62f3da87dbb51.jpeg?width=600&height=600&v=1777589956",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -99728,7 +99776,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/48879/kus-kus-divella-500-gr-62f3da87dbb51.jpeg?width=600&height=600&v=1777589956"
     },
     {
       "store": "Kaufland",
@@ -100418,7 +100467,6 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 кг",
       "name": "СОЛ ВАКУУМНО ИЗПАРЕНА ЙОДИРАНА 1 КГ ПРОМАР",
-      "image": null,
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -100474,7 +100522,6 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 кг",
       "name": "СОЛ  ТРАПЕЗНА ЙОДИРАНА 1 КГ ФАМИЛЕКС",
-      "image": "https://tmarketonline.bg/cdn/img/products/40405/sol-perla-trapezna-jodirana-1kg-image_5ea5aa8312c4d.png?width=600&height=600&v=1777589882",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -100484,7 +100531,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/40405/sol-perla-trapezna-jodirana-1kg-image_5ea5aa8312c4d.png?width=600&height=600&v=1777589882"
     },
     {
       "store": "Fantastico",
@@ -100630,7 +100678,6 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "billa-печено-кебапче-от-топлата-витрина-1-бр-billa-ready",
       "name": "Печено кебапче От топлата витрина 1 бр. Billa Ready",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00102538_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -100640,7 +100687,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00102538_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -100962,7 +101010,6 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 кг",
       "name": "СОЛ 1 КГ ОРО ТРАПЕЗНА  ЙОДИРАНА",
-      "image": "https://tmarketonline.bg/cdn/img/products/40405/sol-perla-trapezna-jodirana-1kg-image_5ea5aa8312c4d.png?width=600&height=600&v=1777589882",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -100972,7 +101019,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/40405/sol-perla-trapezna-jodirana-1kg-image_5ea5aa8312c4d.png?width=600&height=600&v=1777589882"
     },
     {
       "store": "Fantastico",
@@ -101440,7 +101488,6 @@ const OFFERS_DATA = {
       "weight_grams": 500,
       "weight_raw": "0,500 л",
       "name": "Само с Billa App - Bionino Трапезна вода 0+M 0,500 л",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20344668_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -101450,7 +101497,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20344668_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -101694,7 +101742,6 @@ const OFFERS_DATA = {
       "weight_grams": 400,
       "weight_raw": "400 гр",
       "name": "*ФИДЕ ЗАГАРИЯ НАВИТО 400 ГР",
-      "image": null,
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -101986,7 +102033,6 @@ const OFFERS_DATA = {
       "weight_grams": 70,
       "weight_raw": "70 г",
       "name": "Охлювче с канела От Billa пекарна 70 г Billa Ready",
-      "image": "https://tmarketonline.bg/cdn/img/products/56105/fornetti-ohluvce-s-kanela-tt-br-6870372457e60.jpeg?width=600&height=600&v=1777590020",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -101996,7 +102042,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/56105/fornetti-ohluvce-s-kanela-tt-br-6870372457e60.jpeg?width=600&height=600&v=1777590020"
     },
     {
       "store": "Fantastico",
@@ -102042,7 +102089,6 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 кг",
       "name": "СОЛ 1 КГ ФИНА ЙОДИРАНА  КРИНА",
-      "image": "https://tmarketonline.bg/cdn/img/products/40405/sol-perla-trapezna-jodirana-1kg-image_5ea5aa8312c4d.png?width=600&height=600&v=1777589882",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -102052,7 +102098,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/40405/sol-perla-trapezna-jodirana-1kg-image_5ea5aa8312c4d.png?width=600&height=600&v=1777589882"
     },
     {
       "store": "Fantastico",
@@ -102174,7 +102221,6 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "billa-лимета-1-бр",
       "name": "Лимета 1 бр.",
-      "image": null,
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -102220,7 +102266,6 @@ const OFFERS_DATA = {
       "weight_grams": 160,
       "weight_raw": "160 г",
       "name": "Пърленка От Billa пекарна 160 г Billa Ready",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00103741B_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -102230,7 +102275,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": true,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00103741B_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Billa",
@@ -102402,7 +102448,6 @@ const OFFERS_DATA = {
       "weight_grams": 65,
       "weight_raw": "65 г",
       "name": "Супер цена - Пица закуска От Billa пекарна 65 г Billa Ready",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00041301C_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -102412,7 +102457,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00041301C_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -102606,7 +102652,6 @@ const OFFERS_DATA = {
       "weight_grams": 200,
       "weight_raw": "0,2 л",
       "name": "Florina нектар или плодови напитки 0,2 л Продукт, маркиран със синя звезда",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/f6983cb7-44ff-40ef-b101-b6b57d3d4858.png",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -102616,7 +102661,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800020601556_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -103884,7 +103930,7 @@ const OFFERS_DATA = {
       "weight_grams": 60,
       "weight_raw": "60 гр",
       "name": "КРОАСАНИ МИНИ 7 DAYS МИЛФЕЙ 60 ГР ЧИПИТА",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/7622201393632_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00059631_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "grain",
       "emoji": "🌾",
       "is_food": false,
@@ -103930,7 +103976,6 @@ const OFFERS_DATA = {
       "weight_grams": 50,
       "weight_raw": "50 г",
       "name": "Eti Солети с чили и лайм 50 г",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20844721_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -103940,7 +103985,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20844721_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -104144,7 +104190,6 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 кг",
       "name": "ЗАХАР КРИСТАЛ 1 КГ МИТЕКС",
-      "image": "https://tmarketonline.bg/cdn/img/products/47658/zahar-dr-oetker-vanilena-8gr-image_616439f5ce75c.jpeg?width=600&height=600&v=1777589950",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -104154,7 +104199,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/47658/zahar-dr-oetker-vanilena-8gr-image_616439f5ce75c.jpeg?width=600&height=600&v=1777589950"
     },
     {
       "store": "Kaufland",
@@ -104632,7 +104678,6 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 кг",
       "name": "ЗАХАР 1 КГ СЛАДЕЯ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00026682_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -104642,7 +104687,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00026682_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -104688,7 +104734,6 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 кг",
       "name": "ЗАХАР 1 КГ ЗАХИРА  КРИСТАЛ  ПАКЕТ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/5941223000451_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -104698,7 +104743,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/5941223000451_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -104994,7 +105040,6 @@ const OFFERS_DATA = {
       "weight_grams": 70,
       "weight_raw": "70 г",
       "name": "Kubeti 70 г Произход - България",
-      "image": "https://tmarketonline.bg/cdn/img/products/49408/hlebni-kubceta-kubeti-ketcup-35gr-635f8d8013805.jpeg?width=600&height=600&v=1777589960",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -105004,7 +105049,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/49408/hlebni-kubceta-kubeti-ketcup-35gr-635f8d8013805.jpeg?width=600&height=600&v=1777589960"
     },
     {
       "store": "Fantastico",
@@ -105050,7 +105096,6 @@ const OFFERS_DATA = {
       "weight_grams": 2000,
       "weight_raw": "2 л",
       "name": "БИРА BRITOS 2 Л PET",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800022701032_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -105060,7 +105105,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800022701032_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -105106,7 +105152,7 @@ const OFFERS_DATA = {
       "weight_grams": 36,
       "weight_raw": "36 гр",
       "name": "ШОКОЛАД LZ МЛЕЧЕН 36 ГР КАСИ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/7622300218195_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://tmarketonline.bg/cdn/img/products/50452/vafli-mura-gold-mlecen-sokolad-6x18-gr-642be15f4af39.jpeg?width=600&height=600&v=1777589970",
       "category": "grain",
       "emoji": "🌾",
       "is_food": false,
@@ -105162,7 +105208,6 @@ const OFFERS_DATA = {
       "weight_grams": 400,
       "weight_raw": "400 гр",
       "name": "ФИДЕ ДЕРОНИ 400 ГР",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/453_00111553_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -105172,7 +105217,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/453_00111553_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -106008,7 +106054,6 @@ const OFFERS_DATA = {
       "weight_grams": 400,
       "weight_raw": "400 гр",
       "name": "КУС-КУС ДЕРОНИ 400 ГР",
-      "image": "https://tmarketonline.bg/cdn/img/products/48879/kus-kus-divella-500-gr-62f3da87dbb51.jpeg?width=600&height=600&v=1777589956",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -106018,7 +106063,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/48879/kus-kus-divella-500-gr-62f3da87dbb51.jpeg?width=600&height=600&v=1777589956"
     },
     {
       "store": "Fantastico",
@@ -106222,7 +106268,6 @@ const OFFERS_DATA = {
       "weight_grams": 400,
       "weight_raw": "400 гр",
       "name": "КОРИ ТОЧЕНИ Ф ВКУС 400 ГР",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/254_01201720_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -106232,7 +106277,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/254_01201720_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -106564,7 +106610,6 @@ const OFFERS_DATA = {
       "weight_grams": 500,
       "weight_raw": "0,5 л",
       "name": "Супер цена - Загорка бира 0,5 л Произход - България",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800022415151_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -106574,7 +106619,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800022415151_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -106620,7 +106666,6 @@ const OFFERS_DATA = {
       "weight_grams": 2000,
       "weight_raw": "2 л",
       "name": "БИРА БУРГАСКО СВЕТЛО 2 Л PET",
-      "image": "https://tmarketonline.bg/cdn/img/products/55649/bira-burgasko-multipak-4h500-ml-67fec88bd99a1.jpeg?width=600&height=600&v=1777590021",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -106630,7 +106675,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/55649/bira-burgasko-multipak-4h500-ml-67fec88bd99a1.jpeg?width=600&height=600&v=1777590021"
     },
     {
       "store": "Fantastico",
@@ -106952,7 +106998,6 @@ const OFFERS_DATA = {
       "weight_grams": 400,
       "weight_raw": "400 гр",
       "name": "ФИДЕ SOLE MIO НАТРОШЕНО 400 ГР",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/453_00111553_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -106962,7 +107007,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/453_00111553_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -107176,7 +107222,7 @@ const OFFERS_DATA = {
       "weight_grams": 60,
       "weight_raw": "60 гр",
       "name": "КРОАСАНИ ШОКО 7 DAYS КАКАО 60 ГР ЧИПИТА",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/7622201393632_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00059631_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "grain",
       "emoji": "🌾",
       "is_food": false,
@@ -107232,7 +107278,7 @@ const OFFERS_DATA = {
       "weight_grams": 60,
       "weight_raw": "60 гр",
       "name": "КРОАСАНИ ШОКО 7 DAYS ВАНИЛИЯ 60 ГР ЧИПИТА",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/7622201393632_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00059631_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "grain",
       "emoji": "🌾",
       "is_food": false,
@@ -107414,7 +107460,7 @@ const OFFERS_DATA = {
       "weight_grams": 74,
       "weight_raw": "74 г",
       "name": "Billa сладолед 74 г",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800029104294_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://tmarketonline.bg/cdn/img/products/42133/sladoled-familia-mini-kakao-575-g-image_5f48b6edccd6e.png?width=600&height=600&v=1777589909",
       "category": "dairy",
       "emoji": "🥛",
       "is_food": false,
@@ -107460,7 +107506,6 @@ const OFFERS_DATA = {
       "weight_grams": 1500,
       "weight_raw": "1,5 л",
       "name": "Горна баня газирана вода 1,5 л Произход - България Продукт, маркиран със синя звезда",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/e294a551-be82-43ff-a8de-ec54d7be632c.png",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -107470,7 +107515,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/e294a551-be82-43ff-a8de-ec54d7be632c.png"
     },
     {
       "store": "Fantastico",
@@ -107792,7 +107838,6 @@ const OFFERS_DATA = {
       "weight_grams": 80,
       "weight_raw": "80 г",
       "name": "Супер цена - Star Снакс сол 80 г",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/511_20346713?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -107802,7 +107847,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/511_20346713?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Billa",
@@ -107838,7 +107884,6 @@ const OFFERS_DATA = {
       "weight_grams": 70,
       "weight_raw": "70 г",
       "name": "Супер цена - Krambals Брускети 70 г",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/323_02900010_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -107848,7 +107893,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/323_02900010_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -108266,7 +108312,6 @@ const OFFERS_DATA = {
       "weight_grams": 500,
       "weight_raw": "500 гр",
       "name": "КУС-КУС МИСКО 60 500 ГР",
-      "image": "https://tmarketonline.bg/cdn/img/products/48879/kus-kus-divella-500-gr-62f3da87dbb51.jpeg?width=600&height=600&v=1777589956",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -108276,7 +108321,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/48879/kus-kus-divella-500-gr-62f3da87dbb51.jpeg?width=600&height=600&v=1777589956"
     },
     {
       "store": "Fantastico",
@@ -108378,7 +108424,7 @@ const OFFERS_DATA = {
       "weight_grams": 90,
       "weight_raw": "90 г",
       "name": "САПУН PALMOLIVE ТЕРМАЛ СПА МАСАЖИРАЩ 90 Г",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8718951597693_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800024049255_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "hygiene",
       "emoji": "🧴",
       "is_food": false,
@@ -108536,7 +108582,7 @@ const OFFERS_DATA = {
       "weight_grams": 140,
       "weight_raw": "140 г",
       "name": "Nancy Тоалетен сапун 140 г",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8690529502912_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_04803211_P.jpg",
       "category": "hygiene",
       "emoji": "🧴",
       "is_food": false,
@@ -108888,7 +108934,7 @@ const OFFERS_DATA = {
       "weight_grams": 80,
       "weight_raw": "80 гр",
       "name": "ШОКОЛАД МЛЕЧЕН 80 ГР  КАСИ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/7622300218195_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://tmarketonline.bg/cdn/img/products/50452/vafli-mura-gold-mlecen-sokolad-6x18-gr-642be15f4af39.jpeg?width=600&height=600&v=1777589970",
       "category": "grain",
       "emoji": "🌾",
       "is_food": false,
@@ -109230,7 +109276,6 @@ const OFFERS_DATA = {
       "weight_grams": 100,
       "weight_raw": "100 г",
       "name": "Мъфин Love От Billa пекарна 100 г Произход - България Billa Ready",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/01001422B_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -109240,7 +109285,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/01001422B_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -109286,7 +109332,6 @@ const OFFERS_DATA = {
       "weight_grams": 500,
       "weight_raw": "500 гр",
       "name": "ФИДЕ СТЕЛА НАТРОШЕНО 500 ГР",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/453_00111553_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -109296,7 +109341,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/453_00111553_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -109332,7 +109378,6 @@ const OFFERS_DATA = {
       "weight_grams": 500,
       "weight_raw": "500 гр",
       "name": "ФЕТУЧИНИ REGGIA 500 ГР IMPORT",
-      "image": null,
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -109612,7 +109657,6 @@ const OFFERS_DATA = {
       "weight_grams": 700,
       "weight_raw": "700 мл",
       "name": "ОЦЕТ ВИНЕН ОРО 700 МЛ",
-      "image": "https://tmarketonline.bg/cdn/img/products/48855/ocet-veda-vinen-700-ml-62ebba272f987.jpeg?width=600&height=600&v=1777589957",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -109622,7 +109666,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/48855/ocet-veda-vinen-700-ml-62ebba272f987.jpeg?width=600&height=600&v=1777589957"
     },
     {
       "store": "Fantastico",
@@ -110088,7 +110133,7 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "fantastico-к-т-кърпи-agiva-антибактериални-2-2-бр",
       "name": "К-Т КЪРПИ AGIVA АНТИБАКТЕРИАЛНИ 2+2 БР",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/649_20819290?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://tmarketonline.bg/cdn/img/products/44786/mokri-karpi-care-soft-72-br-image_5f4cfcc80185e.jpeg?width=1920&height=1920&v=1777589919",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -110134,7 +110179,6 @@ const OFFERS_DATA = {
       "weight_grams": 180,
       "weight_raw": "180 гр",
       "name": "** БАНИЦА ВИТА 180 ГР ИВ-АН",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/01001500_P_%282%29?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -110144,7 +110188,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/01001500_P_%282%29?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -110496,7 +110541,6 @@ const OFFERS_DATA = {
       "weight_grams": 500,
       "weight_raw": "500 гр",
       "name": "КУС-КУС SOLE MIO 500 ГР",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/453_00111553_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -110506,7 +110550,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/453_00111553_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -110552,7 +110597,7 @@ const OFFERS_DATA = {
       "weight_grams": 80,
       "weight_raw": "80 гр",
       "name": "ШОКОЛАД СВОГЕ ФИН МЛЕЧЕН 80 ГР",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/7622300218195_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://tmarketonline.bg/cdn/img/products/50452/vafli-mura-gold-mlecen-sokolad-6x18-gr-642be15f4af39.jpeg?width=600&height=600&v=1777589970",
       "category": "grain",
       "emoji": "🌾",
       "is_food": false,
@@ -110984,7 +111029,7 @@ const OFFERS_DATA = {
       "weight_grams": 80,
       "weight_raw": "80 гр",
       "name": "ШОКОЛАД ROSHEN АЕРО МЛЕЧЕН 80 ГР КАСИ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/7622300218195_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://tmarketonline.bg/cdn/img/products/50452/vafli-mura-gold-mlecen-sokolad-6x18-gr-642be15f4af39.jpeg?width=600&height=600&v=1777589970",
       "category": "grain",
       "emoji": "🌾",
       "is_food": false,
@@ -111140,7 +111185,7 @@ const OFFERS_DATA = {
       "comparison_count": 2,
       "product_id": "fantastico-кърпи-влажни-hankies-extra-safe-антибакт-4х12-бр",
       "name": "КЪРПИ ВЛАЖНИ HANKIES EXTRA SAFE АНТИБАКТ. 4Х12 БР",
-      "image": "https://cdn.metro-group.com/bg/bg_pim_336360001001_01.png?format=jpg&quality=80&dpi=72",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20843501_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -111334,7 +111379,6 @@ const OFFERS_DATA = {
       "weight_grams": 700,
       "weight_raw": "700 мл",
       "name": "ОЦЕТ ВИНЕН СТАРОПРЕСТОЛЕН 700 МЛ ВЕЛИКО ТЪРНОВО",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800084604012_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -111344,7 +111388,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": true,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800084604012_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -111390,7 +111435,6 @@ const OFFERS_DATA = {
       "weight_grams": 500,
       "weight_raw": "500 гр",
       "name": "ТАЛИАТЕЛИ LA MOLISANA 500 ГР IMPORT",
-      "image": null,
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -111446,7 +111490,6 @@ const OFFERS_DATA = {
       "weight_grams": 500,
       "weight_raw": "500 гр",
       "name": "КУС-КУС СТЕЛА 500 ГР",
-      "image": "https://tmarketonline.bg/cdn/img/products/48879/kus-kus-divella-500-gr-62f3da87dbb51.jpeg?width=600&height=600&v=1777589956",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -111456,7 +111499,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/48879/kus-kus-divella-500-gr-62f3da87dbb51.jpeg?width=600&height=600&v=1777589956"
     },
     {
       "store": "Fantastico",
@@ -111556,7 +111600,6 @@ const OFFERS_DATA = {
       "comparison_count": 2,
       "product_id": "fantastico-четки-за-зъби-trisa-focus-дуо-medium-2-бр-блистер",
       "name": "ЧЕТКИ ЗА ЗЪБИ TRISA FOCUS ДУО MEDIUM 2 БР БЛИСТЕР",
-      "image": "https://cdn.metro-group.com/bg/bg_pim_198527001001_01.png?format=jpg&quality=80&dpi=72",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -111566,7 +111609,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://cdn.metro-group.com/bg/bg_pim_198527001001_01.png?format=jpg&quality=80&dpi=72"
     },
     {
       "store": "Fantastico",
@@ -111962,7 +112006,6 @@ const OFFERS_DATA = {
       "weight_grams": 240,
       "weight_raw": "240 гр",
       "name": "БАНИЦА ПРАВА 240 ГР ТРАКИЙСКА БАНИЦА ДАР",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/01001500_P_%282%29?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -111972,7 +112015,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/01001500_P_%282%29?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Dar",
@@ -112008,7 +112052,6 @@ const OFFERS_DATA = {
       "weight_grams": 240,
       "weight_raw": "240 гр",
       "name": "БАНИЦА ТРИЪГЪЛНА 240 ГР ТРАКИЙСКА БАНИЦА ДАР",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/01001500_P_%282%29?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -112018,7 +112061,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/01001500_P_%282%29?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Kaufland",
@@ -112146,7 +112190,6 @@ const OFFERS_DATA = {
       "weight_grams": 80,
       "weight_raw": "80 г",
       "name": "Maggi Бульон или подправка вълшебен вкус - различни видове 75 - 80 г",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8585002483072_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -112156,7 +112199,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/8585002483072_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Kaufland",
@@ -112284,7 +112328,6 @@ const OFFERS_DATA = {
       "weight_grams": 500,
       "weight_raw": "0,5 л",
       "name": "Madri бира 0,5 л",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800022701032_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -112294,7 +112337,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800022701032_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -112452,7 +112496,6 @@ const OFFERS_DATA = {
       "weight_grams": 500,
       "weight_raw": "500 гр",
       "name": "КОРИ ТОЧЕНИ ФАМИЛИЯ 500 ГР",
-      "image": "https://tmarketonline.bg/cdn/img/products/46690/toceni-kori-familia-2h400gr-image_605220251dedd.jpeg?width=600&height=600&v=1777589936",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -112462,7 +112505,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/46690/toceni-kori-familia-2h400gr-image_605220251dedd.jpeg?width=600&height=600&v=1777589936"
     },
     {
       "store": "Fantastico",
@@ -112564,7 +112608,6 @@ const OFFERS_DATA = {
       "weight_grams": 2000,
       "weight_raw": "2 л",
       "name": "БИРА ПИРИНСКО СВЕТЛО 2 Л PET",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800022701032_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -112574,7 +112617,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800022701032_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -112610,7 +112654,6 @@ const OFFERS_DATA = {
       "weight_grams": 700,
       "weight_raw": "700 мл",
       "name": "ОЦЕТ ВИНЕН ДЕЛ АЛМА 6% 700 МЛ",
-      "image": "https://tmarketonline.bg/cdn/img/products/48855/ocet-veda-vinen-700-ml-62ebba272f987.jpeg?width=600&height=600&v=1777589957",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -112620,7 +112663,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/48855/ocet-veda-vinen-700-ml-62ebba272f987.jpeg?width=600&height=600&v=1777589957"
     },
     {
       "store": "Billa",
@@ -112656,7 +112700,7 @@ const OFFERS_DATA = {
       "weight_grams": 100,
       "weight_raw": "100 г",
       "name": "Aroma Natural Тоалетен сапун 100 г",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/04802903_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_04803211_P.jpg",
       "category": "hygiene",
       "emoji": "🧴",
       "is_food": false,
@@ -112702,7 +112746,6 @@ const OFFERS_DATA = {
       "weight_grams": 1200,
       "weight_raw": "1,2 л",
       "name": "Пиринско бира 1,2 л Произход - България",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800022701032_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -112712,7 +112755,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800022701032_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -112758,7 +112802,6 @@ const OFFERS_DATA = {
       "weight_grams": 2000,
       "weight_raw": "2 л",
       "name": "БИРА ШУМЕНСКО 2 Л PET",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20813284_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -112768,7 +112811,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/56180/bira-sumensko-ken-multipak-6h500-ml-68a59af22bfdd.jpeg?width=600&height=600&v=1777590028"
     },
     {
       "store": "Fantastico",
@@ -112868,7 +112912,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ПЕНЛИВО LA FIESTA 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8410036009090_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -112878,7 +112921,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/8410036009090_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -112924,7 +112968,7 @@ const OFFERS_DATA = {
       "weight_grams": 90,
       "weight_raw": "90 гр",
       "name": "ШОКОЛАД LACMI МЛЕЧЕН 90 ГР",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/7622300218195_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://tmarketonline.bg/cdn/img/products/50452/vafli-mura-gold-mlecen-sokolad-6x18-gr-642be15f4af39.jpeg?width=600&height=600&v=1777589970",
       "category": "grain",
       "emoji": "🌾",
       "is_food": false,
@@ -112980,7 +113024,6 @@ const OFFERS_DATA = {
       "weight_grams": 180,
       "weight_raw": "180 г",
       "name": "БАНИЦА ВИТА 180 Г ДАНИ И НИКОЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/01001500_P_%282%29?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -112990,7 +113033,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/01001500_P_%282%29?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -113036,7 +113080,6 @@ const OFFERS_DATA = {
       "weight_grams": 2000,
       "weight_raw": "2 л",
       "name": "БИРА ЗАГОРКА СПЕЦИАЛНО 2 Л PET",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800022415151_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -113046,7 +113089,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800022415151_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -113092,7 +113136,6 @@ const OFFERS_DATA = {
       "weight_grams": 500,
       "weight_raw": "500 гр",
       "name": "КУС-КУС MELISSA 500 ГР",
-      "image": "https://tmarketonline.bg/cdn/img/products/48879/kus-kus-divella-500-gr-62f3da87dbb51.jpeg?width=600&height=600&v=1777589956",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -113102,7 +113145,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/48879/kus-kus-divella-500-gr-62f3da87dbb51.jpeg?width=600&height=600&v=1777589956"
     },
     {
       "store": "Fantastico",
@@ -113286,7 +113330,6 @@ const OFFERS_DATA = {
       "weight_grams": 125,
       "weight_raw": "125 г",
       "name": "Супер цена - Lay's Чипс 105 - 125 г",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/509_20715407?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -113296,7 +113339,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/509_20715407?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Billa",
@@ -113332,7 +113376,6 @@ const OFFERS_DATA = {
       "weight_grams": 110,
       "weight_raw": "110 г",
       "name": "Фантазия Десерт 100-110 г Продукт, маркиран със синя звезда",
-      "image": "https://api.bulmag.org/thumbnails/a743d726581ede736ef35f4aa3c1e6b6.jpeg",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -113342,7 +113385,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://api.bulmag.org/thumbnails/a743d726581ede736ef35f4aa3c1e6b6.jpeg"
     },
     {
       "store": "Fantastico",
@@ -114266,7 +114310,7 @@ const OFFERS_DATA = {
       "weight_grams": 100,
       "weight_raw": "100 г",
       "name": "ШОКОЛАД МЛЕЧЕН LINDT LINDOR 100 Г",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/7622300218195_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://tmarketonline.bg/cdn/img/products/50452/vafli-mura-gold-mlecen-sokolad-6x18-gr-642be15f4af39.jpeg?width=600&height=600&v=1777589970",
       "category": "grain",
       "emoji": "🌾",
       "is_food": false,
@@ -114862,7 +114906,6 @@ const OFFERS_DATA = {
       "weight_grams": 400,
       "weight_raw": "400 г",
       "name": "Clever точени кори 400 г",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/254_01201720_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -114872,7 +114915,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/254_01201720_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Billa",
@@ -114906,7 +114950,6 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "billa-само-с-billa-app-памучни-чорапи-балеринки-размер-35-38-или-39-41-1-чифт",
       "name": "Само с Billa App - Памучни чорапи балеринки, размер 35-38 или 39-41, 1 чифт",
-      "image": null,
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -115008,7 +115051,6 @@ const OFFERS_DATA = {
       "weight_grams": 500,
       "weight_raw": "500 гр",
       "name": "КОРИ ОДРИНСКИ 500 ГР ГАЗОВА СРЕДА",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/254_01201720_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -115018,7 +115060,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/254_01201720_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -115324,7 +115367,6 @@ const OFFERS_DATA = {
       "weight_grams": 400,
       "weight_raw": "400 гр",
       "name": "КОРИ ЗА БАНИЦА СЪРБИЯНКА 400 ГР РЪЧНО ТЕГЛЕНИ",
-      "image": "https://imgproxy-retcat.assets.schwarz/fhMyrZ78HSmMCQNJI2YVuMp-1-oBz2-58AKoHZ0YbmM/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9GQUIxREUxNEE1N0Y3RDlFNzIxMjg1MTV/BODhBRDg3QUJCQzU3MkJDRkJFNThGNDU5QzM3NkQzNTg5QkVFNzkxLnBuZw.png",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -115334,7 +115376,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": true,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://imgproxy-retcat.assets.schwarz/fhMyrZ78HSmMCQNJI2YVuMp-1-oBz2-58AKoHZ0YbmM/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9GQUIxREUxNEE1N0Y3RDlFNzIxMjg1MTV/BODhBRDg3QUJCQzU3MkJDRkJFNThGNDU5QzM3NkQzNTg5QkVFNzkxLnBuZw.png"
     },
     {
       "store": "Fantastico",
@@ -115672,7 +115715,6 @@ const OFFERS_DATA = {
       "comparison_count": 2,
       "product_id": "fantastico-лютеница-първомаи-по-бдс-400-грбулконс",
       "name": "ЛЮТЕНИЦА ПЪРВОМАЙ ПО БДС 400 ГРБУЛКОНС",
-      "image": "https://tmarketonline.bg/cdn/img/products/42931/lutenica-bulcons-parvomaj-bds-400gr-image_5f466ce6ac3a4.png?width=600&height=600&v=1777589903",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -115682,7 +115724,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/42931/lutenica-bulcons-parvomaj-bds-400gr-image_5f466ce6ac3a4.png?width=600&height=600&v=1777589903"
     },
     {
       "store": "Fantastico",
@@ -115728,7 +115771,7 @@ const OFFERS_DATA = {
       "weight_grams": 90,
       "weight_raw": "90 гр",
       "name": "ШОКОЛАД MILKA МЛЕЧЕН 90 ГР",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/7622300218195_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://tmarketonline.bg/cdn/img/products/50452/vafli-mura-gold-mlecen-sokolad-6x18-gr-642be15f4af39.jpeg?width=600&height=600&v=1777589970",
       "category": "grain",
       "emoji": "🌾",
       "is_food": false,
@@ -115784,7 +115827,6 @@ const OFFERS_DATA = {
       "weight_grams": 400,
       "weight_raw": "400 гр",
       "name": "КОРИ ЗА БАНИЦА СЪРБИЯНКА ПЪЛНОЗЪРНЕСТИ 400 ГР РЪЧНО ТЕГЛЕНИ",
-      "image": "https://imgproxy-retcat.assets.schwarz/fhMyrZ78HSmMCQNJI2YVuMp-1-oBz2-58AKoHZ0YbmM/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9GQUIxREUxNEE1N0Y3RDlFNzIxMjg1MTV/BODhBRDg3QUJCQzU3MkJDRkJFNThGNDU5QzM3NkQzNTg5QkVFNzkxLnBuZw.png",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -115794,7 +115836,8 @@ const OFFERS_DATA = {
       "is_good_carb": true,
       "is_good_fat": true,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://imgproxy-retcat.assets.schwarz/fhMyrZ78HSmMCQNJI2YVuMp-1-oBz2-58AKoHZ0YbmM/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9GQUIxREUxNEE1N0Y3RDlFNzIxMjg1MTV/BODhBRDg3QUJCQzU3MkJDRkJFNThGNDU5QzM3NkQzNTg5QkVFNzkxLnBuZw.png"
     },
     {
       "store": "Fantastico",
@@ -115884,7 +115927,6 @@ const OFFERS_DATA = {
       "weight_grams": 300,
       "weight_raw": "300 гр",
       "name": "КОЛБАС ТИП КАМЧИЯ  300 ГР ВАКУУМ БРАВО",
-      "image": "https://tmarketonline.bg/cdn/img/products/46657/kolbas-kolbaso-kamcia-800-gr-6776388f714a9.jpeg?width=600&height=600&v=1777590012",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -115894,7 +115936,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/46657/kolbas-kolbaso-kamcia-800-gr-6776388f714a9.jpeg?width=600&height=600&v=1777590012"
     },
     {
       "store": "Fantastico",
@@ -115996,7 +116039,6 @@ const OFFERS_DATA = {
       "weight_grams": 500,
       "weight_raw": "500 гр",
       "name": "КОРИ ОДРИНСКИ ФИНИ 500 ГР ГАЗОВА СРЕДА",
-      "image": "https://imgproxy-retcat.assets.schwarz/fhMyrZ78HSmMCQNJI2YVuMp-1-oBz2-58AKoHZ0YbmM/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9GQUIxREUxNEE1N0Y3RDlFNzIxMjg1MTV/BODhBRDg3QUJCQzU3MkJDRkJFNThGNDU5QzM3NkQzNTg5QkVFNzkxLnBuZw.png",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -116006,7 +116048,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://imgproxy-retcat.assets.schwarz/fhMyrZ78HSmMCQNJI2YVuMp-1-oBz2-58AKoHZ0YbmM/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9GQUIxREUxNEE1N0Y3RDlFNzIxMjg1MTV/BODhBRDg3QUJCQzU3MkJDRkJFNThGNDU5QzM3NkQzNTg5QkVFNzkxLnBuZw.png"
     },
     {
       "store": "Fantastico",
@@ -116042,7 +116085,6 @@ const OFFERS_DATA = {
       "weight_grams": 300,
       "weight_raw": "300 гр",
       "name": "КОЛБАС ТИП ХАМБУРГСКИ  300 ГР ВАКУУМ БРАВО",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/155_01004053B_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -116052,7 +116094,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/155_01004053B_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -116098,7 +116141,7 @@ const OFFERS_DATA = {
       "weight_grams": 100,
       "weight_raw": "100 гр",
       "name": "ШОКОЛАД MERCI МЛЕЧЕН 100 ГР",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/7622300218195_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://tmarketonline.bg/cdn/img/products/50452/vafli-mura-gold-mlecen-sokolad-6x18-gr-642be15f4af39.jpeg?width=600&height=600&v=1777589970",
       "category": "grain",
       "emoji": "🌾",
       "is_food": false,
@@ -116198,7 +116241,6 @@ const OFFERS_DATA = {
       "weight_grams": 500,
       "weight_raw": "500 гр",
       "name": "КОРИ ЕМБИ 500 ГР",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/254_01201720_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -116208,7 +116250,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/254_01201720_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -116254,7 +116297,6 @@ const OFFERS_DATA = {
       "weight_grams": 400,
       "weight_raw": "400 гр",
       "name": "КОРИ ТОЧЕНИ БЕЛЛА ФИНИ 400 ГР",
-      "image": "https://imgproxy-retcat.assets.schwarz/fhMyrZ78HSmMCQNJI2YVuMp-1-oBz2-58AKoHZ0YbmM/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9GQUIxREUxNEE1N0Y3RDlFNzIxMjg1MTV/BODhBRDg3QUJCQzU3MkJDRkJFNThGNDU5QzM3NkQzNTg5QkVFNzkxLnBuZw.png",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -116264,7 +116306,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://imgproxy-retcat.assets.schwarz/fhMyrZ78HSmMCQNJI2YVuMp-1-oBz2-58AKoHZ0YbmM/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9GQUIxREUxNEE1N0Y3RDlFNzIxMjg1MTV/BODhBRDg3QUJCQzU3MkJDRkJFNThGNDU5QzM3NkQzNTg5QkVFNzkxLnBuZw.png"
     },
     {
       "store": "Fantastico",
@@ -116298,7 +116341,6 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "fantastico-тх-pufina-didi-бяла-8-бр-3-пласта-2",
       "name": "*** ТХ PUFINA DIDI БЯЛА 8 БР 3 ПЛАСТА",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/326beccd-79b2-4abd-b088-382ec3828689.png",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -116308,7 +116350,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/326beccd-79b2-4abd-b088-382ec3828689.png"
     },
     {
       "store": "Fantastico",
@@ -116342,7 +116385,6 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "fantastico-тх-pufina-didi-лаика-8-бр-3-пласта-2",
       "name": "*** ТХ PUFINA DIDI ЛАЙКА 8 БР 3 ПЛАСТА",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/326beccd-79b2-4abd-b088-382ec3828689.png",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -116352,7 +116394,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/326beccd-79b2-4abd-b088-382ec3828689.png"
     },
     {
       "store": "Fantastico",
@@ -116700,7 +116743,6 @@ const OFFERS_DATA = {
       "weight_grams": 470,
       "weight_raw": "470 гр",
       "name": "КОРИ ТОЧЕНИ СОФИЯ МЕЛ ФИНИ 470 ГР",
-      "image": "https://imgproxy-retcat.assets.schwarz/fhMyrZ78HSmMCQNJI2YVuMp-1-oBz2-58AKoHZ0YbmM/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9GQUIxREUxNEE1N0Y3RDlFNzIxMjg1MTV/BODhBRDg3QUJCQzU3MkJDRkJFNThGNDU5QzM3NkQzNTg5QkVFNzkxLnBuZw.png",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -116710,7 +116752,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://imgproxy-retcat.assets.schwarz/fhMyrZ78HSmMCQNJI2YVuMp-1-oBz2-58AKoHZ0YbmM/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9GQUIxREUxNEE1N0Y3RDlFNzIxMjg1MTV/BODhBRDg3QUJCQzU3MkJDRkJFNThGNDU5QzM3NkQzNTg5QkVFNzkxLnBuZw.png"
     },
     {
       "store": "Fantastico",
@@ -116746,7 +116789,6 @@ const OFFERS_DATA = {
       "weight_grams": 400,
       "weight_raw": "400 гр",
       "name": "КОРИ ТОЧЕНИ БЕЛЛА ПЪЛНОЗЪРНЕСТИ 400 ГР",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/254_01201720_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -116756,7 +116798,8 @@ const OFFERS_DATA = {
       "is_good_carb": true,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/254_01201720_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -116802,7 +116845,6 @@ const OFFERS_DATA = {
       "weight_grams": 200,
       "weight_raw": "200 гр",
       "name": "** БАНИЦА ТОЧЕНА 200 ГР ИВ-АН",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/01001500_P_%282%29?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -116812,7 +116854,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/01001500_P_%282%29?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -117640,7 +117683,6 @@ const OFFERS_DATA = {
       "weight_grams": 180,
       "weight_raw": "180 г",
       "name": "Compass Пастет Апетит или гъши 180 г",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/0cf26c3d-33b2-486a-8be8-943e49df3dc1.png",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -117650,7 +117692,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/0cf26c3d-33b2-486a-8be8-943e49df3dc1.png"
     },
     {
       "store": "Fantastico",
@@ -117910,7 +117953,7 @@ const OFFERS_DATA = {
       "weight_grams": 100,
       "weight_raw": "100 гр",
       "name": "ШОКОЛАД МЛЕЧЕН SCHOGETTEN 100 ГР",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/7622300218195_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://tmarketonline.bg/cdn/img/products/50452/vafli-mura-gold-mlecen-sokolad-6x18-gr-642be15f4af39.jpeg?width=600&height=600&v=1777589970",
       "category": "grain",
       "emoji": "🌾",
       "is_food": false,
@@ -118104,7 +118147,7 @@ const OFFERS_DATA = {
       "weight_grams": 80,
       "weight_raw": "80 гр",
       "name": "ШОКОЛАД ФИНЕС ДИЕТИЧЕН МЛЕЧЕН 80 ГР МИЛМЕКС",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/7622300218195_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://tmarketonline.bg/cdn/img/products/50452/vafli-mura-gold-mlecen-sokolad-6x18-gr-642be15f4af39.jpeg?width=600&height=600&v=1777589970",
       "category": "grain",
       "emoji": "🌾",
       "is_food": false,
@@ -118724,7 +118767,6 @@ const OFFERS_DATA = {
       "weight_grams": 500,
       "weight_raw": "500 гр",
       "name": "ТАЛИАТЕЛИ СТЕЛА 500 ГР",
-      "image": null,
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -118932,7 +118974,7 @@ const OFFERS_DATA = {
       "weight_grams": 350,
       "weight_raw": "350 мл",
       "name": "ШАМПОАН TEO NATURE  LAVENDER /CORALS 2В1 350 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800024049255_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800024046728_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "hygiene",
       "emoji": "🧴",
       "is_food": false,
@@ -118978,7 +119020,7 @@ const OFFERS_DATA = {
       "weight_grams": 350,
       "weight_raw": "350 мл",
       "name": "ШАМПОАН TEO NATURE ALOE/МINERALS 2В1 350 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800024049255_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800024046728_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "hygiene",
       "emoji": "🧴",
       "is_food": false,
@@ -119024,7 +119066,7 @@ const OFFERS_DATA = {
       "weight_grams": 350,
       "weight_raw": "350 мл",
       "name": "ШАМПОАН TEO NATURE NETTLE 2В1 350 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800024049255_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800024046728_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "hygiene",
       "emoji": "🧴",
       "is_food": false,
@@ -119116,7 +119158,7 @@ const OFFERS_DATA = {
       "weight_grams": 350,
       "weight_raw": "350 мл",
       "name": "ШАМПОАН TEO NATURE MEN CHARCOAL 3В1 350 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800024049255_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800024046728_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "hygiene",
       "emoji": "🧴",
       "is_food": false,
@@ -119208,7 +119250,7 @@ const OFFERS_DATA = {
       "weight_grams": 85,
       "weight_raw": "85 гр",
       "name": "ШОКОЛАД БРЕЙК МЛЕЧЕН 85 ГР",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/7622300218195_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://tmarketonline.bg/cdn/img/products/50452/vafli-mura-gold-mlecen-sokolad-6x18-gr-642be15f4af39.jpeg?width=600&height=600&v=1777589970",
       "category": "grain",
       "emoji": "🌾",
       "is_food": false,
@@ -119254,7 +119296,6 @@ const OFFERS_DATA = {
       "weight_grams": 2000,
       "weight_raw": "2 л",
       "name": "Супер цена - Шуменско бира 2 л Произход - България",
-      "image": "https://tmarketonline.bg/cdn/img/products/56180/bira-sumensko-ken-multipak-6h500-ml-68a59af22bfdd.jpeg?width=600&height=600&v=1777590028",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -119264,7 +119305,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/56180/bira-sumensko-ken-multipak-6h500-ml-68a59af22bfdd.jpeg?width=600&height=600&v=1777590028"
     },
     {
       "store": "Fantastico",
@@ -119310,7 +119352,6 @@ const OFFERS_DATA = {
       "weight_grams": 500,
       "weight_raw": "500 гр",
       "name": "КОРИ ТОЧЕНИ ЗЛАТНАТА ЦАРИЦА ФИНИ 500 ГР",
-      "image": "https://imgproxy-retcat.assets.schwarz/fhMyrZ78HSmMCQNJI2YVuMp-1-oBz2-58AKoHZ0YbmM/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9GQUIxREUxNEE1N0Y3RDlFNzIxMjg1MTV/BODhBRDg3QUJCQzU3MkJDRkJFNThGNDU5QzM3NkQzNTg5QkVFNzkxLnBuZw.png",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -119320,7 +119361,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://imgproxy-retcat.assets.schwarz/fhMyrZ78HSmMCQNJI2YVuMp-1-oBz2-58AKoHZ0YbmM/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9GQUIxREUxNEE1N0Y3RDlFNzIxMjg1MTV/BODhBRDg3QUJCQzU3MkJDRkJFNThGNDU5QzM3NkQzNTg5QkVFNzkxLnBuZw.png"
     },
     {
       "store": "Kaufland",
@@ -119640,7 +119682,6 @@ const OFFERS_DATA = {
       "weight_grams": 500,
       "weight_raw": "500 гр",
       "name": "ТАЛИАТЕЛИ MELISSA 500 ГР",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/5201193790210_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -119650,7 +119691,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/5201193790210_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -119696,7 +119738,6 @@ const OFFERS_DATA = {
       "weight_grams": 500,
       "weight_raw": "500 гр",
       "name": "ТАЛИАТЕЛИ SOLE MIO 500 ГР",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/453_00111553_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -119706,7 +119747,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/453_00111553_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -119788,7 +119830,6 @@ const OFFERS_DATA = {
       "weight_grams": 400,
       "weight_raw": "400 гр",
       "name": "КОРИ РЪЧНО ТОЧЕНИ СРЪБСКИ ЙОВАНА 400 ГР",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/254_01201720_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -119798,7 +119839,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/254_01201720_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -119980,7 +120022,6 @@ const OFFERS_DATA = {
       "weight_grams": 200,
       "weight_raw": "200 гр",
       "name": "КАША СЛЪНЧО ЗЪРНИН М 200 ГР КУТИЯ",
-      "image": "https://api.bulmag.org/thumbnails/6f778f6296eafd74f038006ae3525834.jpeg",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -119990,7 +120031,8 @@ const OFFERS_DATA = {
       "is_good_carb": true,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://api.bulmag.org/thumbnails/6f778f6296eafd74f038006ae3525834.jpeg"
     },
     {
       "store": "Fantastico",
@@ -120036,7 +120078,7 @@ const OFFERS_DATA = {
       "weight_grams": 200,
       "weight_raw": "200 гр",
       "name": "КАША СЛЪНЧО МЛЕЧНА БИСКВИТЕНА С БИФИДУС НАД 6 МЕС 200 ГР",
-      "image": null,
+      "image": "images/foods/oats.svg",
       "category": "grain",
       "emoji": "🌾",
       "is_food": false,
@@ -120138,7 +120180,6 @@ const OFFERS_DATA = {
       "weight_grams": 500,
       "weight_raw": "500 гр",
       "name": "ТАЛИАТЕЛИ МИСКО 78 500 ГР",
-      "image": null,
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -120184,7 +120225,6 @@ const OFFERS_DATA = {
       "weight_grams": 200,
       "weight_raw": "200 гр",
       "name": "КАША СЛЪНЧО ПШЕНИЧНО МЛЕЧНА 200 ГР НАД 4 МЕС",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00055797_627_20_28002_29?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -120194,7 +120234,8 @@ const OFFERS_DATA = {
       "is_good_carb": true,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00055797_627_20_28002_29?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -120240,7 +120281,6 @@ const OFFERS_DATA = {
       "weight_grams": 200,
       "weight_raw": "200 гр",
       "name": "КАША СЛЪНЧО АСОРТИ БЕЗГЛУТЕНОВА 200 ГР 4+ МЕС",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/2824900000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -120250,7 +120290,8 @@ const OFFERS_DATA = {
       "is_good_carb": true,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00055797_627_20_28002_29?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -120458,7 +120499,6 @@ const OFFERS_DATA = {
       "weight_grams": 500,
       "weight_raw": "500 гр",
       "name": "КОРИ ЗА ЛАЗАНЯ СТЕЛА 500 ГР КУТИЯ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/254_01201720_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -120468,7 +120508,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/254_01201720_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -121552,7 +121593,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО МЕРЛО СОФИЯ 750 МЛ КАРНОБАТ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -121562,7 +121602,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -121608,7 +121649,6 @@ const OFFERS_DATA = {
       "weight_grams": 600,
       "weight_raw": "600 гр",
       "name": "ЛЮТЕНИЦА PHILICON ШКУМБАТА 600 ГР ТО БУРКАН",
-      "image": "https://tmarketonline.bg/cdn/img/products/43044/lutenica-philicon-2000-skumbata-320gr-633d3daa4f2e2.png?width=600&height=600&v=1777589961",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -121618,7 +121658,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/43044/lutenica-philicon-2000-skumbata-320gr-633d3daa4f2e2.png?width=600&height=600&v=1777589961"
     },
     {
       "store": "Fantastico",
@@ -121664,7 +121705,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ШАРДОНЕ СОФИЯ 750 МЛ КАРНОБАТ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -121674,7 +121714,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -121710,7 +121751,6 @@ const OFFERS_DATA = {
       "weight_grams": 600,
       "weight_raw": "600 гр",
       "name": "*ЛЮТЕНИЦА PHILICON ТРАКИЙСКА 600 ГР ТО БУРКАН",
-      "image": "https://i0.wp.com/avanti-bg.com/wp-content/uploads/2023/06/0-02-05-ee858f735221db082c0114dd67af1962dbafd105339978e543c8f731808c022f_4f1c72c1ccecea0.jpg",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -121720,7 +121760,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://i0.wp.com/avanti-bg.com/wp-content/uploads/2023/06/0-02-05-ee858f735221db082c0114dd67af1962dbafd105339978e543c8f731808c022f_4f1c72c1ccecea0.jpg"
     },
     {
       "store": "Fantastico",
@@ -122214,7 +122255,6 @@ const OFFERS_DATA = {
       "weight_grams": 400,
       "weight_raw": "400 г",
       "name": "Billa Прясно тесто за пици 400 г",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00022801b_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -122224,7 +122264,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00022801b_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Billa",
@@ -122362,7 +122403,6 @@ const OFFERS_DATA = {
       "weight_grams": 1500,
       "weight_raw": "1.5 л",
       "name": "К-Т ВОДА ИЗВОРНА 5+1 БР 1.5 Л БАЛДАРАН МУЛТИПАК PET",
-      "image": "https://tmarketonline.bg/cdn/img/products/49628/voda-devin-izvorna-multipak-6x1-8l-63763f74889ed.jpeg?width=600&height=600&v=1777589964",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -122372,7 +122412,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/49628/voda-devin-izvorna-multipak-6x1-8l-63763f74889ed.jpeg?width=600&height=600&v=1777589964"
     },
     {
       "store": "Fantastico",
@@ -122408,7 +122449,6 @@ const OFFERS_DATA = {
       "weight_grams": 560,
       "weight_raw": "560 гр",
       "name": "ЛЮТЕНИЦА Ф ВКУС ЕДРОСМЛЯНА 560 ГР",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/423_00089544_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -122418,7 +122458,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/423_00089544_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -122464,7 +122505,6 @@ const OFFERS_DATA = {
       "weight_grams": 560,
       "weight_raw": "560 гр",
       "name": "ЛЮТЕНИЦА Ф ВКУС ЕДРОСМЛЯНА 560 ГР БУРКАН",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/423_00089544_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -122474,7 +122514,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/423_00089544_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -122702,7 +122743,6 @@ const OFFERS_DATA = {
       "weight_grams": 9000,
       "weight_raw": "6 бр х 1.5 л",
       "name": "ВОДА МИНЕРАЛНА МУЛТИПАК 6 БР Х 1.5 Л БАНКЯ PET",
-      "image": "https://tmarketonline.bg/cdn/img/products/49628/voda-devin-izvorna-multipak-6x1-8l-63763f74889ed.jpeg?width=600&height=600&v=1777589964",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -122712,7 +122752,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/49628/voda-devin-izvorna-multipak-6x1-8l-63763f74889ed.jpeg?width=600&height=600&v=1777589964"
     },
     {
       "store": "Fantastico",
@@ -122932,7 +122973,7 @@ const OFFERS_DATA = {
       "weight_grams": 100,
       "weight_raw": "100 гр",
       "name": "ШОКОЛАД ION МЛЕЧЕН 100 ГР",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/7622300218195_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://tmarketonline.bg/cdn/img/products/50452/vafli-mura-gold-mlecen-sokolad-6x18-gr-642be15f4af39.jpeg?width=600&height=600&v=1777589970",
       "category": "grain",
       "emoji": "🌾",
       "is_food": false,
@@ -123068,7 +123109,6 @@ const OFFERS_DATA = {
       "weight_grams": 500,
       "weight_raw": "500 гр",
       "name": "ТАЛИАТЕЛИ DE ANGELIS 500 ГР СЪХР. 4*C",
-      "image": null,
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -123170,7 +123210,7 @@ const OFFERS_DATA = {
       "weight_grams": 87,
       "weight_raw": "87 гр",
       "name": "ШОКОЛАД LOACKER МЛЕЧЕН 87 ГР",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/7622300218195_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://tmarketonline.bg/cdn/img/products/50452/vafli-mura-gold-mlecen-sokolad-6x18-gr-642be15f4af39.jpeg?width=600&height=600&v=1777589970",
       "category": "grain",
       "emoji": "🌾",
       "is_food": false,
@@ -123420,7 +123460,6 @@ const OFFERS_DATA = {
       "weight_grams": 525,
       "weight_raw": "525 гр",
       "name": "ЛЮТЕНИЦА ПЪРВОМАЙ 525 ГР БУРКАН БУЛКОНС",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800128908014_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -123430,7 +123469,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800128908014_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Billa",
@@ -123522,7 +123562,6 @@ const OFFERS_DATA = {
       "weight_grams": 500,
       "weight_raw": "500 гр",
       "name": "КОРИ ЗА ЛАЗАНЯ SOLE MIO 500 ГР",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/453_00111553_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -123532,7 +123571,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/453_00111553_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Kaufland",
@@ -123706,7 +123746,6 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 кг",
       "name": "Billa Градини Корнишони Градините в с. Милево За 1 кг",
-      "image": null,
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -123864,7 +123903,6 @@ const OFFERS_DATA = {
       "weight_grams": 500,
       "weight_raw": "500 гр",
       "name": "КОРИ ЗА ЛАЗАНЯ MELISSA 500 ГР PRIMO GUSTO",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/254_01201720_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -123874,7 +123912,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/254_01201720_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -124440,7 +124479,6 @@ const OFFERS_DATA = {
       "weight_grams": 85,
       "weight_raw": "85 г",
       "name": "Felix пауч за котки 4 x 80 - 85 г различни видове",
-      "image": "https://cdn.metro-group.com/bg/bg_pim_233963001001_02.png?format=jpg&quality=80&dpi=72",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -124450,7 +124488,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://cdn.metro-group.com/bg/bg_pim_233963001001_02.png?format=jpg&quality=80&dpi=72"
     },
     {
       "store": "Fantastico",
@@ -124496,7 +124535,6 @@ const OFFERS_DATA = {
       "weight_grams": 515,
       "weight_raw": "515 гр",
       "name": "ЛЮТЕНИЦА ОЛИНЕЗА ДОМАШНА ЕС 515 ГР БУРКАН",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/423_01300931_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -124506,7 +124544,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/423_01300931_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -124542,7 +124581,6 @@ const OFFERS_DATA = {
       "weight_grams": 260,
       "weight_raw": "260 г",
       "name": "ШПЕК СУХ 260 Г ВАКУУМ ЕЛКО",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00045136_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -124552,7 +124590,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00045136_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Kaufland",
@@ -124644,7 +124683,6 @@ const OFFERS_DATA = {
       "weight_grams": 350,
       "weight_raw": "350 гр",
       "name": "КОЛБАС ТИП ХАМБУРГСКИ 350 ГР ВАКУУМ КЕН",
-      "image": "https://cdn.metro-group.com/bg/bg_pim_239308001001_01.png?format=jpg&quality=80&dpi=72",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -124654,7 +124692,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://cdn.metro-group.com/bg/bg_pim_239308001001_01.png?format=jpg&quality=80&dpi=72"
     },
     {
       "store": "Fantastico",
@@ -124700,7 +124739,6 @@ const OFFERS_DATA = {
       "weight_grams": 350,
       "weight_raw": "350 гр",
       "name": "КОЛБАС ТИП КАМЧИЯ 350 ГР ВАКУУМ КЕН",
-      "image": "https://tmarketonline.bg/cdn/img/products/46657/kolbas-kolbaso-kamcia-800-gr-6776388f714a9.jpeg?width=600&height=600&v=1777590012",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -124710,7 +124748,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/46657/kolbas-kolbaso-kamcia-800-gr-6776388f714a9.jpeg?width=600&height=600&v=1777590012"
     },
     {
       "store": "Kaufland",
@@ -125228,7 +125267,6 @@ const OFFERS_DATA = {
       "weight_grams": 400,
       "weight_raw": "400 гр",
       "name": "КОРИ КЪПАНИ 3 БР 400 ГР МАГИМЕКС",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/254_01201720_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -125238,7 +125276,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/254_01201720_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -125284,7 +125323,6 @@ const OFFERS_DATA = {
       "weight_grams": 720,
       "weight_raw": "720 гр",
       "name": "ЛЮТЕНИЦА БУЛКОНС ПЪРВОМАЙ 720 ГР ТО БУРКАН",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800128908014_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -125294,7 +125332,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800128908014_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Kaufland",
@@ -125464,7 +125503,6 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 кг",
       "name": "Супер цена - Праскови За 1 кг",
-      "image": "https://tmarketonline.bg/cdn/img/products/49307/kompot-fiorre-praskovi-beleni-680gr-63518aa895326.png?width=600&height=600&v=1777589958",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -125474,7 +125512,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/49307/kompot-fiorre-praskovi-beleni-680gr-63518aa895326.png?width=600&height=600&v=1777589958"
     },
     {
       "store": "Billa",
@@ -125822,7 +125861,6 @@ const OFFERS_DATA = {
       "weight_grams": 575,
       "weight_raw": "575 гр",
       "name": "ЛЮТЕНИЦА ТОДОРКА 575 ГР БУРКАН",
-      "image": "https://tmarketonline.bg/cdn/img/products/49203/lutenica-tradicionna-todorka-310-gr-633d715aa178d.png?width=600&height=600&v=1777589961",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -125832,7 +125870,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/49203/lutenica-tradicionna-todorka-310-gr-633d715aa178d.png?width=600&height=600&v=1777589961"
     },
     {
       "store": "Fantastico",
@@ -126624,7 +126663,7 @@ const OFFERS_DATA = {
       "weight_grams": 400,
       "weight_raw": "4бр x 100г",
       "name": "К-Т САПУН AROMA NATURAL ЧЕРВЕНИ ПЛОДОВЕ 4БР X 100Г",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/04802903_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800024049255_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "hygiene",
       "emoji": "🧴",
       "is_food": false,
@@ -126992,7 +127031,6 @@ const OFFERS_DATA = {
       "comparison_count": 2,
       "product_id": "fantastico-тх-milde-premium-relax-purple-8-бр-3-пласта-ароматизирана",
       "name": "ТХ MILDE PREMIUM RELAX PURPLE 8 БР 3 ПЛАСТА АРОМАТИЗИРАНА",
-      "image": null,
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -127046,7 +127084,6 @@ const OFFERS_DATA = {
       "comparison_count": 2,
       "product_id": "fantastico-тх-milde-sensitive-8-бр-3-пласта-аромат",
       "name": "ТХ MILDE SENSITIVE 8 БР 3 ПЛАСТА АРОМАТ.",
-      "image": null,
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -127100,7 +127137,6 @@ const OFFERS_DATA = {
       "comparison_count": 2,
       "product_id": "fantastico-тх-milde-premium-cool-blue-8-бр-3-пласта-ароматизирана",
       "name": "ТХ MILDE PREMIUM COOL BLUE 8 БР 3 ПЛАСТА АРОМАТИЗИРАНА",
-      "image": null,
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -127154,7 +127190,6 @@ const OFFERS_DATA = {
       "comparison_count": 2,
       "product_id": "fantastico-тх-milde-premium-energy-green-8-бр-трипластова-ароматизирана",
       "name": "ТХ MILDE PREMIUM ENERGY GREEN 8 БР ТРИПЛАСТОВА АРОМАТИЗИРАНА",
-      "image": null,
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -127200,7 +127235,6 @@ const OFFERS_DATA = {
       "weight_grams": 560,
       "weight_raw": "560 г",
       "name": "ЛЮТЕНИЦА ХОРЦЕТО ФИНО СМЛЯНА 560 Г",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800099201107_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -127210,7 +127244,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800099201107_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -127246,7 +127281,7 @@ const OFFERS_DATA = {
       "weight_grams": 400,
       "weight_raw": "400 мл",
       "name": "ПРЕПАРАТ БЕБО ЕКО ЗА СЪДОВЕ И АКСЕСОАРИ 400 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/4337185196898_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00034390_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -127502,7 +127537,6 @@ const OFFERS_DATA = {
       "weight_grams": 300,
       "weight_raw": "300 гр",
       "name": "КОЛБАС ХАМБУРГСКИ 300 ГР ВАКУУМ ТАНДЕМ",
-      "image": "https://tmarketonline.bg/cdn/img/products/39485/kolbas-tandem-hamburgski-300-g-698342bf822e5.jpeg?width=600&height=600&v=1777590031",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -127512,7 +127546,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/39485/kolbas-tandem-hamburgski-300-g-698342bf822e5.jpeg?width=600&height=600&v=1777590031"
     },
     {
       "store": "Fantastico",
@@ -127558,7 +127593,6 @@ const OFFERS_DATA = {
       "weight_grams": 300,
       "weight_raw": "300 гр",
       "name": "КОЛБАС КАМЧИЯ 300 ГР ВАКУУМ ТАНДЕМ",
-      "image": "https://tmarketonline.bg/cdn/img/products/39482/kolbas-tandem-kamcia-300-g-69834297c3c12.jpeg?width=600&height=600&v=1777590031",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -127568,7 +127602,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/39482/kolbas-tandem-kamcia-300-g-69834297c3c12.jpeg?width=600&height=600&v=1777590031"
     },
     {
       "store": "Fantastico",
@@ -128156,7 +128191,7 @@ const OFFERS_DATA = {
       "weight_grams": 80,
       "weight_raw": "80 гр",
       "name": "ШОКОЛАД TRAPA БЕЗ ДОБАВЕНА ЗАХАР МЛЕЧЕН 80 ГР",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/7622300218195_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://tmarketonline.bg/cdn/img/products/50452/vafli-mura-gold-mlecen-sokolad-6x18-gr-642be15f4af39.jpeg?width=600&height=600&v=1777589970",
       "category": "grain",
       "emoji": "🌾",
       "is_food": false,
@@ -128202,7 +128237,7 @@ const OFFERS_DATA = {
       "weight_grams": 100,
       "weight_raw": "100 гр",
       "name": "ШОКОЛАД TRAPA МЛЕЧЕН С ЛЕШНИЦИ БЕЗ ДОБАВЕНА ЗАХАР 100 ГР",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/7622300218195_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://tmarketonline.bg/cdn/img/products/50452/vafli-mura-gold-mlecen-sokolad-6x18-gr-642be15f4af39.jpeg?width=600&height=600&v=1777589970",
       "category": "grain",
       "emoji": "🌾",
       "is_food": false,
@@ -128790,7 +128825,6 @@ const OFFERS_DATA = {
       "weight_grams": 400,
       "weight_raw": "400 гр",
       "name": "КОРИ КЪПАНИ ПЪЛНОЗЪРНЕСТИ 400 ГР ОХЛАДЕНИ МАГИМЕКС",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/254_01201720_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -128800,7 +128834,8 @@ const OFFERS_DATA = {
       "is_good_carb": true,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/254_01201720_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Kaufland",
@@ -128970,7 +129005,6 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "billa-супер-цена-печен-суджук-от-топлата-витрина-1-бр-billa-ready",
       "name": "Супер цена - Печен суджук От топлата витрина 1 бр. Billa Ready",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/2824830000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -128980,7 +129014,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/2824830000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Kaufland",
@@ -129116,7 +129151,6 @@ const OFFERS_DATA = {
       "weight_grams": 510,
       "weight_raw": "510 гр",
       "name": "ЛЮТЕНИЦА ДЕРОНИ ФИНЕС ЕДРОСМЛЯНА 510 ГР БЕЗ ЗАХАР",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/423_00089544_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -129126,7 +129160,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/423_00089544_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -129162,7 +129197,6 @@ const OFFERS_DATA = {
       "weight_grams": 390,
       "weight_raw": "2бр х 195г",
       "name": "БАНИЦА БОЛЯРСКА ВИТА 2БР Х 195Г КУТИЯ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/01001500_P_%282%29?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -129172,7 +129206,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/01001500_P_%282%29?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -129208,7 +129243,6 @@ const OFFERS_DATA = {
       "weight_grams": 390,
       "weight_raw": "2бр х 195г",
       "name": "БАНИЦА БОЛЯРСКА ПРАВА 2БР Х 195Г КУТИЯ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/01001500_P_%282%29?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -129218,7 +129252,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/01001500_P_%282%29?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -129646,7 +129681,6 @@ const OFFERS_DATA = {
       "comparison_count": 2,
       "product_id": "fantastico-цигари-кинг-червен-100-мм-кутия-ks",
       "name": "ЦИГАРИ КИНГ ЧЕРВЕН 100 ММ КУТИЯ   KS",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/03901390_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -129656,7 +129690,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/03901390_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -129876,7 +129911,6 @@ const OFFERS_DATA = {
       "weight_grams": 440,
       "weight_raw": "0.44 л",
       "name": "Само с Billa App - Guinness Бира 0.44 л",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800022701032_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -129886,7 +129920,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800022701032_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -129932,7 +129967,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО CRAFTSMANS SELECTION СОВИНЬОН И СЕМИЙОН ЛОВИКО 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -129942,7 +129976,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -129988,7 +130023,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО CRAFTSMANS SELECTION КАБЕРНЕ И ГЪМЗА ЛОВИКО 750 МЛ",
-      "image": "https://tmarketonline.bg/cdn/img/products/49158/vino-lovico-kabernegamza-kraftsman-750-63343d36a7c2e.jpeg?width=600&height=600&v=1777589960",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -129998,7 +130032,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/49158/vino-lovico-kabernegamza-kraftsman-750-63343d36a7c2e.jpeg?width=600&height=600&v=1777589960"
     },
     {
       "store": "Fantastico",
@@ -130044,7 +130079,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО CRAFTSMANS SELECTION ШАРДОНЕ И РИЗЛИНГ ЛОВИКО 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -130054,7 +130088,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Kaufland",
@@ -130146,7 +130181,6 @@ const OFFERS_DATA = {
       "weight_grams": 520,
       "weight_raw": "520 гр",
       "name": "ЛЮТЕНИЦА ОЛИНЕЗА ТРАДИЦИОННА 520 ГР БУРКАН",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/423_01300931_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -130156,7 +130190,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/423_01300931_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -130202,7 +130237,6 @@ const OFFERS_DATA = {
       "weight_grams": 520,
       "weight_raw": "520 гр",
       "name": "ЛЮТЕНИЦА ДЕРОНИ ТРАДИЦИОННА 520 ГР ФИНОСМЛЯНА",
-      "image": "https://tmarketonline.bg/cdn/img/products/48282/lutenica-deroni-mecta-tradicionna-260gr-622891886bdcf.jpeg?width=600&height=600&v=1777589949",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -130212,7 +130246,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/48282/lutenica-deroni-mecta-tradicionna-260gr-622891886bdcf.jpeg?width=600&height=600&v=1777589949"
     },
     {
       "store": "Fantastico",
@@ -130258,7 +130293,6 @@ const OFFERS_DATA = {
       "weight_grams": 525,
       "weight_raw": "525 гр",
       "name": "ЛЮТЕНИЦА ДЕРОНИ ДОМАШНА 525 ГР ФИНОСМЛЯНА",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/423_01300931_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -130268,7 +130302,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/423_01300931_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -130314,7 +130349,6 @@ const OFFERS_DATA = {
       "weight_grams": 520,
       "weight_raw": "520 гр",
       "name": "ЛЮТЕНИЦА ОЛИНЕЗКО 520 ГР БУРКАН",
-      "image": "https://imgproxy-retcat.assets.schwarz/A8PrcDAbH2e_MFQgJNHl1cpBxrjAhd96Uo3KNqIWbWo/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS85OEZDNjJCODNERkUxMjE2REUzQTJEMjJ/DOUZFRjBDOTNDNjM5OERBMjNBODIyRjM1MjgzNDg0QjM0ODZDQzVBLnBuZw.png",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -130324,7 +130358,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://imgproxy-retcat.assets.schwarz/A8PrcDAbH2e_MFQgJNHl1cpBxrjAhd96Uo3KNqIWbWo/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS85OEZDNjJCODNERkUxMjE2REUzQTJEMjJ/DOUZFRjBDOTNDNjM5OERBMjNBODIyRjM1MjgzNDg0QjM0ODZDQzVBLnBuZw.png"
     },
     {
       "store": "Fantastico",
@@ -130370,7 +130405,6 @@ const OFFERS_DATA = {
       "weight_grams": 520,
       "weight_raw": "520 гр",
       "name": "ЛЮТЕНИЦА ДЕРОНИ ПИКАНТНА 520 ГР ФИНОСМЛЯНА",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20672637_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -130380,7 +130414,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20672637_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -130426,7 +130461,6 @@ const OFFERS_DATA = {
       "weight_grams": 500,
       "weight_raw": "500 гр",
       "name": "ЛЮТЕНИЦА ДЕРОНИ ФИНОСМЛЯНА БЕЗ ЗАХАР 500 ГР",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20672637_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -130436,7 +130470,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20672637_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -131154,7 +131189,6 @@ const OFFERS_DATA = {
       "weight_grams": 510,
       "weight_raw": "510 гр",
       "name": "ЛЮТЕНИЦА БУЛКОНС ПЪРВОМАЙ ДОМАШНА ЕС 510 ГР ТО БУРКАН",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/423_01300931_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -131164,7 +131198,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/423_01300931_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -131200,7 +131235,6 @@ const OFFERS_DATA = {
       "weight_grams": 560,
       "weight_raw": "560 г",
       "name": "ЛЮТЕНИЦА ХОРЦЕТО ЕДРОСМЛЯНА ДОМАШНА 560 Г",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/423_00089544_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -131210,7 +131244,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/423_00089544_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -131254,7 +131289,6 @@ const OFFERS_DATA = {
       "comparison_count": 2,
       "product_id": "fantastico-цигари-мерилин-s-97-мм-flat-pack-pink",
       "name": "ЦИГАРИ МЕРИЛИН S 97 ММ FLAT PACK PINK",
-      "image": "https://i0.wp.com/avanti-bg.com/wp-content/uploads/2020/04/0-02-05-55aa6db51128a2bc874e27c40c7cd5d67497fbcb3798f8a8a6a5ba7af300d986_c8c078c42be10f83.jpg",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -131264,7 +131298,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://i0.wp.com/avanti-bg.com/wp-content/uploads/2020/04/0-02-05-55aa6db51128a2bc874e27c40c7cd5d67497fbcb3798f8a8a6a5ba7af300d986_c8c078c42be10f83.jpg"
     },
     {
       "store": "Fantastico",
@@ -131308,7 +131343,6 @@ const OFFERS_DATA = {
       "comparison_count": 2,
       "product_id": "fantastico-цигари-мерилин-s-97-мм-flat-pack-blue",
       "name": "ЦИГАРИ МЕРИЛИН S 97 ММ FLAT PACK BLUE",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/5906259711481_23P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -131318,7 +131352,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://api.bulmag.org/thumbnails/eb9a50dd1c1255d830d3fd0801f42fcf.jpg"
     },
     {
       "store": "Kaufland",
@@ -131400,7 +131435,7 @@ const OFFERS_DATA = {
       "weight_grams": 100,
       "weight_raw": "100 гр",
       "name": "ШОКОЛАД VALOR МЛЕЧЕН БЕЗ ЛАКТОЗА 100 ГР",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/7622300218195_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://tmarketonline.bg/cdn/img/products/50452/vafli-mura-gold-mlecen-sokolad-6x18-gr-642be15f4af39.jpeg?width=600&height=600&v=1777589970",
       "category": "grain",
       "emoji": "🌾",
       "is_food": false,
@@ -131446,7 +131481,7 @@ const OFFERS_DATA = {
       "weight_grams": 100,
       "weight_raw": "100 гр",
       "name": "ШОКОЛАД VALOR МЛЕЧЕН ЛЕШНИЦИ СЪС СТЕВИЯ 100 ГР БЕЗ ДОБ ЗАХАР",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/7622300218195_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://tmarketonline.bg/cdn/img/products/50452/vafli-mura-gold-mlecen-sokolad-6x18-gr-642be15f4af39.jpeg?width=600&height=600&v=1777589970",
       "category": "grain",
       "emoji": "🌾",
       "is_food": false,
@@ -131492,7 +131527,7 @@ const OFFERS_DATA = {
       "weight_grams": 100,
       "weight_raw": "100 гр",
       "name": "ШОКОЛАД VALOR МЛЕЧЕН СЪС СТЕВИЯ 100 ГР БЕЗ ДОБАВЕНА ЗАХАР",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/7622300218195_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://tmarketonline.bg/cdn/img/products/50452/vafli-mura-gold-mlecen-sokolad-6x18-gr-642be15f4af39.jpeg?width=600&height=600&v=1777589970",
       "category": "grain",
       "emoji": "🌾",
       "is_food": false,
@@ -131630,7 +131665,6 @@ const OFFERS_DATA = {
       "weight_grams": 400,
       "weight_raw": "400 гр",
       "name": "КОРИ ЗА БАНИЦА КАНАП ПЪЛНОЗ. РЪЧНО ТОЧЕНИ 400 ГР ОХЛ.",
-      "image": "https://imgproxy-retcat.assets.schwarz/fhMyrZ78HSmMCQNJI2YVuMp-1-oBz2-58AKoHZ0YbmM/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9GQUIxREUxNEE1N0Y3RDlFNzIxMjg1MTV/BODhBRDg3QUJCQzU3MkJDRkJFNThGNDU5QzM3NkQzNTg5QkVFNzkxLnBuZw.png",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -131640,7 +131674,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://imgproxy-retcat.assets.schwarz/fhMyrZ78HSmMCQNJI2YVuMp-1-oBz2-58AKoHZ0YbmM/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9GQUIxREUxNEE1N0Y3RDlFNzIxMjg1MTV/BODhBRDg3QUJCQzU3MkJDRkJFNThGNDU5QzM3NkQzNTg5QkVFNzkxLnBuZw.png"
     },
     {
       "store": "Fantastico",
@@ -131686,7 +131721,6 @@ const OFFERS_DATA = {
       "weight_grams": 400,
       "weight_raw": "400 гр",
       "name": "КОРИ ЗА БАНИЦА КАНАП РЪЧНО ТОЧЕНИ 400 ГР ОХЛ.",
-      "image": "https://imgproxy-retcat.assets.schwarz/fhMyrZ78HSmMCQNJI2YVuMp-1-oBz2-58AKoHZ0YbmM/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9GQUIxREUxNEE1N0Y3RDlFNzIxMjg1MTV/BODhBRDg3QUJCQzU3MkJDRkJFNThGNDU5QzM3NkQzNTg5QkVFNzkxLnBuZw.png",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -131696,7 +131730,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://imgproxy-retcat.assets.schwarz/fhMyrZ78HSmMCQNJI2YVuMp-1-oBz2-58AKoHZ0YbmM/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9GQUIxREUxNEE1N0Y3RDlFNzIxMjg1MTV/BODhBRDg3QUJCQzU3MkJDRkJFNThGNDU5QzM3NkQzNTg5QkVFNzkxLnBuZw.png"
     },
     {
       "store": "Kaufland",
@@ -131958,7 +131993,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО БЯЛО KERAZUDA ЛОГОДАЖ 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800097107067_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -131968,7 +132002,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800097107067_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Billa",
@@ -132004,7 +132039,6 @@ const OFFERS_DATA = {
       "weight_grams": 200,
       "weight_raw": "200 г",
       "name": "Само с Billa App - Billa Premium Горчица дижонска или едрозърнеста 200 г",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/66321a84-e12e-4f31-8f73-d963a4255944.png",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -132014,7 +132048,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/66321a84-e12e-4f31-8f73-d963a4255944.png"
     },
     {
       "store": "Fantastico",
@@ -132338,7 +132373,6 @@ const OFFERS_DATA = {
       "weight_grams": 250,
       "weight_raw": "250 гр",
       "name": "ШПЕК СУХ БУРГАС ВАКУУМ 250 ГР ДЕЛИКАТЕС ЖИТНИЦА",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/2875950000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -132348,7 +132382,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/236_3800220287192_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -132394,7 +132429,6 @@ const OFFERS_DATA = {
       "weight_grams": 500,
       "weight_raw": "500 гр",
       "name": "ТАЛИАТЕЛИ DE CECCO 203 500 ГР",
-      "image": null,
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -132690,7 +132724,6 @@ const OFFERS_DATA = {
       "weight_grams": 500,
       "weight_raw": "500 гр",
       "name": "ТАЛИАТЕЛИ RANA 500 ГР",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/247_20278032_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -132700,7 +132733,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/247_20278032_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -132736,7 +132770,6 @@ const OFFERS_DATA = {
       "weight_grams": 9000,
       "weight_raw": "6бр х 1.5л",
       "name": "ВОДА ИЗВОРНА РОСА 6БР Х 1.5Л МУЛТИПАК  PET",
-      "image": "https://tmarketonline.bg/cdn/img/products/49628/voda-devin-izvorna-multipak-6x1-8l-63763f74889ed.jpeg?width=600&height=600&v=1777589964",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -132746,7 +132779,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/49628/voda-devin-izvorna-multipak-6x1-8l-63763f74889ed.jpeg?width=600&height=600&v=1777589964"
     },
     {
       "store": "Fantastico",
@@ -133392,7 +133426,6 @@ const OFFERS_DATA = {
       "comparison_count": 2,
       "product_id": "fantastico-тх-maliva-romance-аромат-8-бр-3-пласта",
       "name": "ТХ MALIVA ROMANCE АРОМАТ. 8 БР 3 ПЛАСТА",
-      "image": null,
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -133436,7 +133469,6 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "fantastico-тх-maliva-atlantic-8-бр-трипластова-ароматизирана",
       "name": "ТХ MALIVA ATLANTIC 8 БР ТРИПЛАСТОВА АРОМАТИЗИРАНА",
-      "image": null,
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -133480,7 +133512,6 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "fantastico-тх-maliva-alpine-8-бр-трипластова-ароматизирана",
       "name": "ТХ MALIVA ALPINE 8 БР ТРИПЛАСТОВА АРОМАТИЗИРАНА",
-      "image": null,
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -133628,7 +133659,6 @@ const OFFERS_DATA = {
       "weight_grams": 525,
       "weight_raw": "525 гр",
       "name": "ЛЮТЕНИЦА PHILICON БАЛКАНСКИ ВКУС 525 ГР БУРКАН",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800065761055_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -133638,7 +133668,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800065761055_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -133684,7 +133715,6 @@ const OFFERS_DATA = {
       "weight_grams": 525,
       "weight_raw": "525 гр",
       "name": "ЛЮТЕНИЦА PHILICON НАШЕНСКА 525 ГР БУРКАН",
-      "image": "https://tmarketonline.bg/cdn/img/products/47542/1006064--lutenica-philicon-nasenka-edrosml--380gr-image_6150ed46d900b.png?width=600&height=600&v=1777589945",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -133694,7 +133724,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/47542/1006064--lutenica-philicon-nasenka-edrosml--380gr-image_6150ed46d900b.png?width=600&height=600&v=1777589945"
     },
     {
       "store": "Kaufland",
@@ -134004,7 +134035,6 @@ const OFFERS_DATA = {
       "weight_grams": 400,
       "weight_raw": "400 г",
       "name": "Billa Бишкоти 400 г",
-      "image": "https://tmarketonline.bg/cdn/img/products/48536/biskoti-verona-400gr-6288bd56a1e7f.jpeg?width=600&height=600&v=1777589954",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -134014,7 +134044,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/48536/biskoti-verona-400gr-6288bd56a1e7f.jpeg?width=600&height=600&v=1777589954"
     },
     {
       "store": "Billa",
@@ -134106,7 +134137,6 @@ const OFFERS_DATA = {
       "weight_grams": 520,
       "weight_raw": "520 гр",
       "name": "ЛЮТЕНИЦА ДЕРОНИ ГОРНОТРАКИЙСКА 520 ГР БУРКАН",
-      "image": "https://tmarketonline.bg/cdn/img/products/48282/lutenica-deroni-mecta-tradicionna-260gr-622891886bdcf.jpeg?width=600&height=600&v=1777589949",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -134116,7 +134146,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/48282/lutenica-deroni-mecta-tradicionna-260gr-622891886bdcf.jpeg?width=600&height=600&v=1777589949"
     },
     {
       "store": "Fantastico",
@@ -134152,7 +134183,7 @@ const OFFERS_DATA = {
       "weight_grams": 90,
       "weight_raw": "90 гр",
       "name": "ШОКОЛАД WAWEL МЛЕЧЕН БЕЗ ДОБАВЕНА ЗАХАР 90 ГР",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/7622300218195_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://tmarketonline.bg/cdn/img/products/50452/vafli-mura-gold-mlecen-sokolad-6x18-gr-642be15f4af39.jpeg?width=600&height=600&v=1777589970",
       "category": "grain",
       "emoji": "🌾",
       "is_food": false,
@@ -134606,7 +134637,7 @@ const OFFERS_DATA = {
       "weight_grams": 440,
       "weight_raw": "440 мл",
       "name": "ШАМПОАН SYOSS OLEO INTENSE 440 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00021218_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/631_00083965?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "hygiene",
       "emoji": "🧴",
       "is_food": false,
@@ -135370,7 +135401,6 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 кг",
       "name": "Сега в Billa - Кайсии За 1 кг",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/24b94929-4d73-448d-b2b4-38e293918dc4.png",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -135380,7 +135410,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00061285_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Billa",
@@ -135416,7 +135447,6 @@ const OFFERS_DATA = {
       "weight_grams": 560,
       "weight_raw": "560 г",
       "name": "Хорцето Лютеница 560 г",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800099201107_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -135426,7 +135456,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800099201107_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -135472,7 +135503,7 @@ const OFFERS_DATA = {
       "weight_grams": 100,
       "weight_raw": "100 гр",
       "name": "ШОКОЛАД LINDT ЛИНДОР МЛЕЧЕН 100 ГР КАСИ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/7622300218195_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://tmarketonline.bg/cdn/img/products/50452/vafli-mura-gold-mlecen-sokolad-6x18-gr-642be15f4af39.jpeg?width=600&height=600&v=1777589970",
       "category": "grain",
       "emoji": "🌾",
       "is_food": false,
@@ -135528,7 +135559,7 @@ const OFFERS_DATA = {
       "weight_grams": 100,
       "weight_raw": "100 гр",
       "name": "ШОКОЛАД LINDT МЛЕЧЕН 100 ГР 490262",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/7622300218195_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://tmarketonline.bg/cdn/img/products/50452/vafli-mura-gold-mlecen-sokolad-6x18-gr-642be15f4af39.jpeg?width=600&height=600&v=1777589970",
       "category": "grain",
       "emoji": "🌾",
       "is_food": false,
@@ -135584,7 +135615,6 @@ const OFFERS_DATA = {
       "weight_grams": 500,
       "weight_raw": "500 гр",
       "name": "ТАЛИАТЕЛИ BARILLA EMILIANE 500 ГР БРОНЗ КУТИЯ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8076800195057_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -135594,7 +135624,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/8076800195057_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -136336,7 +136367,6 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "fantastico-тх-selpak-спа-пудра-8-бр-трипластова-пакет-ароматизирана",
       "name": "ТХ SELPAK СПА ПУДРА 8 БР ТРИПЛАСТОВА ПАКЕТ АРОМАТИЗИРАНА",
-      "image": null,
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -136380,7 +136410,6 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "fantastico-тх-selpak-бяла-8-бр-трипластова-пакет",
       "name": "ТХ SELPAK БЯЛА 8 БР ТРИПЛАСТОВА ПАКЕТ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00075925_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -136390,7 +136419,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00075925_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Kaufland",
@@ -136696,7 +136726,6 @@ const OFFERS_DATA = {
       "weight_grams": 225,
       "weight_raw": "225 г",
       "name": "Само с Billa App - Chio Крекери Maxi Mix 225 г",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/5941445677684_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -136706,7 +136735,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/5941445677684_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -136808,7 +136838,7 @@ const OFFERS_DATA = {
       "weight_grams": 250,
       "weight_raw": "250 мл",
       "name": "ШАМПОАН ELSEVE HYALURON 250 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/631_2020795791_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/631_00109942_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "hygiene",
       "emoji": "🧴",
       "is_food": false,
@@ -136864,7 +136894,7 @@ const OFFERS_DATA = {
       "weight_grams": 250,
       "weight_raw": "250 мл",
       "name": "ШАМПОАН ELSEVE DREAM LONG 250 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/631_2020795791_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/631_00109942_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "hygiene",
       "emoji": "🧴",
       "is_food": false,
@@ -137032,7 +137062,7 @@ const OFFERS_DATA = {
       "weight_grams": 250,
       "weight_raw": "250 мл",
       "name": "ШАМПОАН ELSEVE FULL RESIST 250 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/631_2020795791_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/631_00109942_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "hygiene",
       "emoji": "🧴",
       "is_food": false,
@@ -137078,7 +137108,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО КАБЕРНЕ СОВ. РЕЗЕРВА 750 МЛ ТЪРГОВИЩЕ",
-      "image": "https://tmarketonline.bg/cdn/img/products/48562/vino-targovise-sov--blan-12--750ml-62975a7eb4f5a.jpeg?width=600&height=600&v=1777589953",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -137088,7 +137117,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/48562/vino-targovise-sov--blan-12--750ml-62975a7eb4f5a.jpeg?width=600&height=600&v=1777589953"
     },
     {
       "store": "Fantastico",
@@ -137190,7 +137220,6 @@ const OFFERS_DATA = {
       "weight_grams": 500,
       "weight_raw": "500 г",
       "name": "ЛЮТЕНИЦА MY FAMILY ЕДРОСМЛЯНА БЕЗ ДОБ. ЗАХАР 500 Г",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/423_00089544_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -137200,7 +137229,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/423_00089544_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -137236,7 +137266,6 @@ const OFFERS_DATA = {
       "weight_grams": 500,
       "weight_raw": "500 г",
       "name": "ЛЮТЕНИЦА MY FAMILY ЕДРОСМЛЯНА ДОМАШНА 500 Г",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/423_00089544_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -137246,7 +137275,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/423_00089544_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -137460,7 +137490,7 @@ const OFFERS_DATA = {
       "weight_grams": 250,
       "weight_raw": "250 мл",
       "name": "ШАМПОАН ELSEVE EXTRAORDINARY OIL 250 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/631_2020795791_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/631_00109942_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "hygiene",
       "emoji": "🧴",
       "is_food": false,
@@ -137730,7 +137760,7 @@ const OFFERS_DATA = {
       "weight_grams": 75,
       "weight_raw": "75 мл",
       "name": "ПАСТА ЗА ЗЪБИ ELMEX CARIES PLUS COMPLETE CARE 75 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8718951477575_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/8718951470613_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "hygiene",
       "emoji": "🧴",
       "is_food": false,
@@ -137776,7 +137806,7 @@ const OFFERS_DATA = {
       "weight_grams": 75,
       "weight_raw": "75 мл",
       "name": "ПАСТА ЗА ЗЪБИ ELMEX ANTI-CARIES PROFESSIONAL 75 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8718951477575_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/8718951470613_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "hygiene",
       "emoji": "🧴",
       "is_food": false,
@@ -137942,7 +137972,6 @@ const OFFERS_DATA = {
       "comparison_count": 2,
       "product_id": "fantastico-тх-familia-magic-flowers-8-бр-трипластова-аромат-пакет",
       "name": "ТХ FAMILIA MAGIC FLOWERS 8 БР ТРИПЛАСТОВА АРОМАТ. ПАКЕТ",
-      "image": null,
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -137998,7 +138027,6 @@ const OFFERS_DATA = {
       "weight_grams": 550,
       "weight_raw": "550 гр",
       "name": "ЛЮТЕНИЦА СОФРА МАКЕДОНСКА ПИКАНТНА 550 ГР",
-      "image": "https://tmarketonline.bg/cdn/img/products/49206/lutenica-pikantna-deroni-260-gr-633d769b3c2b9.jpeg?width=600&height=600&v=1777589961",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -138008,7 +138036,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/49206/lutenica-pikantna-deroni-260-gr-633d769b3c2b9.jpeg?width=600&height=600&v=1777589961"
     },
     {
       "store": "Fantastico",
@@ -138054,7 +138083,6 @@ const OFFERS_DATA = {
       "weight_grams": 550,
       "weight_raw": "550 гр",
       "name": "ЛЮТЕНИЦА СОФРА МАКЕДОНСКА СЛАДКА 550 ГР",
-      "image": "https://imgproxy-retcat.assets.schwarz/A8PrcDAbH2e_MFQgJNHl1cpBxrjAhd96Uo3KNqIWbWo/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS85OEZDNjJCODNERkUxMjE2REUzQTJEMjJ/DOUZFRjBDOTNDNjM5OERBMjNBODIyRjM1MjgzNDg0QjM0ODZDQzVBLnBuZw.png",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -138064,7 +138092,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://imgproxy-retcat.assets.schwarz/A8PrcDAbH2e_MFQgJNHl1cpBxrjAhd96Uo3KNqIWbWo/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS85OEZDNjJCODNERkUxMjE2REUzQTJEMjJ/DOUZFRjBDOTNDNjM5OERBMjNBODIyRjM1MjgzNDg0QjM0ODZDQzVBLnBuZw.png"
     },
     {
       "store": "Fantastico",
@@ -138108,7 +138137,6 @@ const OFFERS_DATA = {
       "comparison_count": 2,
       "product_id": "fantastico-тх-familia-бяла-8-бр-трипластова-пакет",
       "name": "ТХ FAMILIA БЯЛА 8 БР ТРИПЛАСТОВА ПАКЕТ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00900843_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -138118,7 +138146,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00900843_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -138162,7 +138191,6 @@ const OFFERS_DATA = {
       "comparison_count": 2,
       "product_id": "fantastico-тх-familia-момина-сълза-8-бр-3-пласта-пакет-ароматизирана",
       "name": "ТХ FAMILIA МОМИНА СЪЛЗА 8 БР 3 ПЛАСТА ПАКЕТ АРОМАТИЗИРАНА",
-      "image": null,
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -138310,7 +138338,6 @@ const OFFERS_DATA = {
       "weight_grams": 515,
       "weight_raw": "515 гр",
       "name": "ЛЮТЕНИЦА ОЛИНЕЗА БАБИНА 515 ГР БУРКАН",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/423_01300931_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -138320,7 +138347,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/423_01300931_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -138366,7 +138394,6 @@ const OFFERS_DATA = {
       "weight_grams": 520,
       "weight_raw": "520 гр",
       "name": "ЛЮТЕНИЦА ДЕРОНИ ДОМАШНА 520 ГР ЕДРОСМЛЯНА БУРКАН",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/423_00089544_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -138376,7 +138403,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/423_00089544_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -138422,7 +138450,6 @@ const OFFERS_DATA = {
       "weight_grams": 500,
       "weight_raw": "500 гр",
       "name": "ЛЮТЕНИЦА ДЕРОНИ ЕДРОСМЛЯНА БЕЗ ЗАХАР 500 ГР",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/423_00089544_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -138432,7 +138459,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/423_00089544_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -138478,7 +138506,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО МАВРУД БОЛГАРЕ 750 МЛ ДОМЕЙН БОЙАР",
-      "image": "https://tmarketonline.bg/cdn/img/products/43975/vino-bolgare-roze-750ml-image_5f4cbb7471d7a.png?width=600&height=600&v=1777589913",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -138488,7 +138515,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/43975/vino-bolgare-roze-750ml-image_5f4cbb7471d7a.png?width=600&height=600&v=1777589913"
     },
     {
       "store": "Fantastico",
@@ -138534,7 +138562,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ШАРДОНЕ БОЛГАРЕ 750 МЛ ДОМЕЙН БОЙАР",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -138544,7 +138571,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -138580,7 +138608,6 @@ const OFFERS_DATA = {
       "weight_grams": 510,
       "weight_raw": "510 гр",
       "name": "ЛЮТЕНИЦА ДЕРОНИ ЕДРОСМЛЯНА С КИМИОН 510 ГР",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/423_00089544_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -138590,7 +138617,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/423_00089544_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -138748,7 +138776,6 @@ const OFFERS_DATA = {
       "weight_grams": 400,
       "weight_raw": "400 гр",
       "name": "КОРИ БИО ПЪЛНОЗЪРНЕСТИ ЗА БАНИЦА HARMONICA 400 ГР",
-      "image": "https://imgproxy-retcat.assets.schwarz/fhMyrZ78HSmMCQNJI2YVuMp-1-oBz2-58AKoHZ0YbmM/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9GQUIxREUxNEE1N0Y3RDlFNzIxMjg1MTV/BODhBRDg3QUJCQzU3MkJDRkJFNThGNDU5QzM3NkQzNTg5QkVFNzkxLnBuZw.png",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -138758,7 +138785,8 @@ const OFFERS_DATA = {
       "is_good_carb": true,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://imgproxy-retcat.assets.schwarz/fhMyrZ78HSmMCQNJI2YVuMp-1-oBz2-58AKoHZ0YbmM/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9GQUIxREUxNEE1N0Y3RDlFNzIxMjg1MTV/BODhBRDg3QUJCQzU3MkJDRkJFNThGNDU5QzM3NkQzNTg5QkVFNzkxLnBuZw.png"
     },
     {
       "store": "Fantastico",
@@ -138804,7 +138832,6 @@ const OFFERS_DATA = {
       "weight_grams": 400,
       "weight_raw": "400 гр",
       "name": "КОРИ БИО ЗА БАНИЦА HARMONICA 400 ГР",
-      "image": "https://imgproxy-retcat.assets.schwarz/fhMyrZ78HSmMCQNJI2YVuMp-1-oBz2-58AKoHZ0YbmM/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9GQUIxREUxNEE1N0Y3RDlFNzIxMjg1MTV/BODhBRDg3QUJCQzU3MkJDRkJFNThGNDU5QzM3NkQzNTg5QkVFNzkxLnBuZw.png",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -138814,7 +138841,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://imgproxy-retcat.assets.schwarz/fhMyrZ78HSmMCQNJI2YVuMp-1-oBz2-58AKoHZ0YbmM/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9GQUIxREUxNEE1N0Y3RDlFNzIxMjg1MTV/BODhBRDg3QUJCQzU3MkJDRkJFNThGNDU5QzM3NkQzNTg5QkVFNzkxLnBuZw.png"
     },
     {
       "store": "Fantastico",
@@ -139156,7 +139184,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО БОЛГАРЕ МУСКАТ 750 МЛ ДОМЕЙН БОЙАР",
-      "image": "https://tmarketonline.bg/cdn/img/products/51843/vino-sophia-muskat-12--750ml-64abb0e7ec2a6.png?width=600&height=600&v=1777589982",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -139166,7 +139193,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/51843/vino-sophia-muskat-12--750ml-64abb0e7ec2a6.png?width=600&height=600&v=1777589982"
     },
     {
       "store": "Kaufland",
@@ -139246,7 +139274,6 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "fantastico-тх-zebra-perfume-8-бр-4-пласта",
       "name": "ТХ ZEBRA PERFUME 8 БР 4 ПЛАСТА",
-      "image": "https://api.bulmag.org/thumbnails/92f65f2a0fc8c148134addd11655777c.png",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -139256,7 +139283,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://api.bulmag.org/thumbnails/92f65f2a0fc8c148134addd11655777c.png"
     },
     {
       "store": "Fantastico",
@@ -139290,7 +139318,6 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "fantastico-тх-zebra-white-8-бр-4-пласта",
       "name": "ТХ ZEBRA WHITE 8 БР 4 ПЛАСТА",
-      "image": "https://api.bulmag.org/thumbnails/c2d8942acff0dcdc8597d059ae2dc985.png",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -139300,7 +139327,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://api.bulmag.org/thumbnails/c2d8942acff0dcdc8597d059ae2dc985.png"
     },
     {
       "store": "Fantastico",
@@ -139344,7 +139372,6 @@ const OFFERS_DATA = {
       "comparison_count": 2,
       "product_id": "fantastico-тх-емека-mountain-fresh-трипластова-ароматизирана-8-бр",
       "name": "ТХ ЕМЕКА MOUNTAIN FRESH ТРИПЛАСТОВА АРОМАТИЗИРАНА 8 БР",
-      "image": null,
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -139398,7 +139425,6 @@ const OFFERS_DATA = {
       "comparison_count": 2,
       "product_id": "fantastico-тх-емека-paradise-трипластова-ароматизирана-8-бр",
       "name": "ТХ ЕМЕКА PARADISE ТРИПЛАСТОВА АРОМАТИЗИРАНА 8 БР",
-      "image": null,
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -139452,7 +139478,6 @@ const OFFERS_DATA = {
       "comparison_count": 2,
       "product_id": "fantastico-тх-емека-white-8-бр-трипластова",
       "name": "ТХ ЕМЕКА WHITE 8 БР ТРИПЛАСТОВА",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/05103400_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -139462,7 +139487,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/05103400_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -139506,7 +139532,6 @@ const OFFERS_DATA = {
       "comparison_count": 2,
       "product_id": "fantastico-тх-емека-ocean-breeze-трипластова-ароматизирана-8-бр",
       "name": "ТХ ЕМЕКА OCEAN BREEZE ТРИПЛАСТОВА АРОМАТИЗИРАНА 8 БР",
-      "image": null,
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -140718,7 +140743,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ШАРДОНЕ РЕЗЕРВА EMINE 750 МЛ",
-      "image": "https://tmarketonline.bg/cdn/img/products/55859/vino-emine-sardone-rezerva-13-5--750ml-68684a184bf90.png?width=600&height=600&v=1777590024",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -140728,7 +140752,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/55859/vino-emine-sardone-rezerva-13-5--750ml-68684a184bf90.png?width=600&height=600&v=1777590024"
     },
     {
       "store": "Fantastico",
@@ -140830,7 +140855,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО СОВИНЬОН БЛАН EMINE 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -140840,7 +140864,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -141904,7 +141929,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО БЯЛО МЕЛНИК 750 МЛ ЛОГОДАЖ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800097107067_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -141914,7 +141938,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800097107067_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -142014,7 +142039,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ШИРОКА МЕЛНИШКА ЛОЗА ЛОГОДАЖ 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800097107067_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -142024,7 +142048,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800097107067_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -142058,7 +142083,7 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "fantastico-четка-за-зъби-astera-parodont-active-charcoal-2-бр-medium",
       "name": "ЧЕТКА ЗА ЗЪБИ ASTERA PARODONT ACTIVE CHARCOAL 2 БР MEDIUM",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/636_20730499?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/e2a65340-202f-43d4-bbb6-a3d715746799.png",
       "category": "hygiene",
       "emoji": "🧴",
       "is_food": false,
@@ -142104,7 +142129,7 @@ const OFFERS_DATA = {
       "weight_grams": 100,
       "weight_raw": "100 гр",
       "name": "ШОКОЛАД БИО МЛЕЧЕН 100 ГР VIVANI",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/7622300218195_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://tmarketonline.bg/cdn/img/products/50452/vafli-mura-gold-mlecen-sokolad-6x18-gr-642be15f4af39.jpeg?width=600&height=600&v=1777589970",
       "category": "grain",
       "emoji": "🌾",
       "is_food": false,
@@ -142952,7 +142977,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ГЪМЗА КНП 750 МЛ СУХИНДОЛ",
-      "image": "https://tmarketonline.bg/cdn/img/products/49158/vino-lovico-kabernegamza-kraftsman-750-63343d36a7c2e.jpeg?width=600&height=600&v=1777589960",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -142962,7 +142986,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/49158/vino-lovico-kabernegamza-kraftsman-750-63343d36a7c2e.jpeg?width=600&height=600&v=1777589960"
     },
     {
       "store": "Fantastico",
@@ -143394,7 +143419,6 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "fantastico-тх-pufina-лавандула-8-бр-3-пласта-2",
       "name": "*** ТХ PUFINA ЛАВАНДУЛА 8 БР 3 ПЛАСТА",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/4011261093294_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -143404,7 +143428,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4011261093294_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -143438,7 +143463,6 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "fantastico-тх-pufina-sensitive-8-бр-3-пласта-2",
       "name": "*** ТХ PUFINA SENSITIVE 8 БР 3 ПЛАСТА",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/326beccd-79b2-4abd-b088-382ec3828689.png",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -143448,7 +143472,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/326beccd-79b2-4abd-b088-382ec3828689.png"
     },
     {
       "store": "Kaufland",
@@ -143530,7 +143555,6 @@ const OFFERS_DATA = {
       "weight_grams": 160,
       "weight_raw": "160 г",
       "name": "Бони Чорбаджийски пръчии 160 г",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00045136_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -143540,7 +143564,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00045136_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -143586,7 +143611,6 @@ const OFFERS_DATA = {
       "weight_grams": 530,
       "weight_raw": "530 гр",
       "name": "ЛЮТЕНИЦА ОЛИНЕЗА СЕМЕЙНА 530 ГР БУРКАН",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/423_01300931_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -143596,7 +143620,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/423_01300931_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -143822,7 +143847,6 @@ const OFFERS_DATA = {
       "weight_grams": 250,
       "weight_raw": "250 гр",
       "name": "КАША БИО HOLLE 3 ЗЪРНА 250 ГР ОТ 6 МЕС",
-      "image": "https://api.bulmag.org/thumbnails/52a918363120c0a572a04fc1f53a51aa.jpg",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -143832,7 +143856,8 @@ const OFFERS_DATA = {
       "is_good_carb": true,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://api.bulmag.org/thumbnails/52a918363120c0a572a04fc1f53a51aa.jpg"
     },
     {
       "store": "Fantastico",
@@ -143868,7 +143893,7 @@ const OFFERS_DATA = {
       "weight_grams": 100,
       "weight_raw": "100 гр",
       "name": "ШОКОЛАД БИО МЛЕЧЕН С ЛЕШНИЦИ 100 ГР VIVANI",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/7622300218195_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://tmarketonline.bg/cdn/img/products/50452/vafli-mura-gold-mlecen-sokolad-6x18-gr-642be15f4af39.jpeg?width=600&height=600&v=1777589970",
       "category": "grain",
       "emoji": "🌾",
       "is_food": false,
@@ -144136,7 +144161,6 @@ const OFFERS_DATA = {
       "weight_grams": 130,
       "weight_raw": "130 г",
       "name": "Само с Billa App - Billa Premium Песто Дженовезе 130 г",
-      "image": "https://i0.wp.com/avanti-bg.com/wp-content/uploads/2023/06/BT_Faxe_1L-e1638447581486.jpg",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -144146,7 +144170,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://i0.wp.com/avanti-bg.com/wp-content/uploads/2023/06/BT_Faxe_1L-e1638447581486.jpg"
     },
     {
       "store": "Fantastico",
@@ -144190,7 +144215,6 @@ const OFFERS_DATA = {
       "comparison_count": 2,
       "product_id": "fantastico-чесън-произход-испания-опс",
       "name": "ЧЕСЪН ПРОИЗХОД ИСПАНИЯ ОПС",
-      "image": "https://tmarketonline.bg/cdn/img/products/43180/cesan-na-prah-bioset-8gr-image_5f466e143a5e8.jpeg?width=600&height=600&v=1777589907",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -144200,7 +144224,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/43180/cesan-na-prah-bioset-8gr-image_5f466e143a5e8.jpeg?width=600&height=600&v=1777589907"
     },
     {
       "store": "Fantastico",
@@ -144236,7 +144261,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО КАБ. СОВИНЬОН И МЕРЛО LABYRINTH 750 МЛ СЛАВЯНЦИ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -144246,7 +144270,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -144292,7 +144317,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО МИСКЕТ И ШАРДОНЕ LABYRINTH 750 МЛ СЛАВЯНЦИ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -144302,7 +144326,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -144678,7 +144703,6 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "dar-колбас-хамбургски-естеств-обвивка-кг-екстра-мес-пр-д-б-я-дар",
       "name": "КОЛБАС ХАМБУРГСКИ ЕСТЕСТВ.ОБВИВКА КГ ЕКСТРА-МЕС ПР-Д Б-Я ДАР",
-      "image": "https://cdn.metro-group.com/bg/bg_pim_333599001001_01.png?format=jpg&quality=80&dpi=72",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -144688,7 +144712,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://cdn.metro-group.com/bg/bg_pim_333599001001_01.png?format=jpg&quality=80&dpi=72"
     },
     {
       "store": "Fantastico",
@@ -145126,7 +145151,6 @@ const OFFERS_DATA = {
       "weight_grams": 520,
       "weight_raw": "520 гр",
       "name": "ЛЮТЕНИЦА ДЕРОНИ СТАРОСЕЛСКА ЕДРОСМЛ. 520 ГР БУРКАН",
-      "image": "https://tmarketonline.bg/cdn/img/products/48282/lutenica-deroni-mecta-tradicionna-260gr-622891886bdcf.jpeg?width=600&height=600&v=1777589949",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -145136,7 +145160,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/48282/lutenica-deroni-mecta-tradicionna-260gr-622891886bdcf.jpeg?width=600&height=600&v=1777589949"
     },
     {
       "store": "Kaufland",
@@ -145350,7 +145375,6 @@ const OFFERS_DATA = {
       "weight_grams": 450,
       "weight_raw": "450 г",
       "name": "Billa Панирани рибни пръчици замразени 450 г Продукт, маркиран със синя звезда",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/f6983cb7-44ff-40ef-b101-b6b57d3d4858.png",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -145360,7 +145384,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/f6983cb7-44ff-40ef-b101-b6b57d3d4858.png"
     },
     {
       "store": "Billa",
@@ -145450,7 +145475,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО МИСКЕТ СУНГУРЛАРСКИ 750 МЛ СЛАВЯНЦИ",
-      "image": "https://tmarketonline.bg/cdn/img/products/49577/vino-bulgarian-heritage-misket-750-ml-63736ae0a43f6.png?width=600&height=600&v=1777589961",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -145460,7 +145484,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/49577/vino-bulgarian-heritage-misket-750-ml-63736ae0a43f6.png?width=600&height=600&v=1777589961"
     },
     {
       "store": "Fantastico",
@@ -145552,7 +145577,6 @@ const OFFERS_DATA = {
       "weight_grams": 550,
       "weight_raw": "550 гр",
       "name": "*ЛЮТЕНИЦА ТРАКИ ЕДРОСМЛЯНА 550 ГР БУРКАН",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800500012476_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -145562,7 +145586,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800500012476_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -145608,7 +145633,6 @@ const OFFERS_DATA = {
       "weight_grams": 515,
       "weight_raw": "515 гр",
       "name": "ЛЮТЕНИЦА ОЛИНЕЗА ПРЕМИУМ ЕДРОСМЛЯНА 515 ГР БУРКАН",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/423_00089544_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -145618,7 +145642,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/423_00089544_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -146294,7 +146319,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО СИРА ANGEL 750 МЛ ЕЙНДЖЪЛС ЕСТЕЙТ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800226210309_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -146304,7 +146328,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800226210309_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -146350,7 +146375,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО СОВИНЬОН БЛАН ANGEL 750 МЛ ЕЙНДЖЪЛС ЕСТЕЙТ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -146360,7 +146384,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -146406,7 +146431,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ШАРДОНЕ ANGEL 750 МЛ ЕЙНДЖЪЛС ЕСТЕЙТ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800226210309_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -146416,7 +146440,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -146462,7 +146487,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ШАРДОНЕ 750 МЛ РАКОВИНА ПОМОРИЕ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -146472,7 +146496,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -146518,7 +146543,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО КАБЕРНЕ СОВ. ANGEL 750 МЛ ЕЙНДЖЪЛС ЕСТЕЙТ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800226210309_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -146528,7 +146552,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800226210309_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -146574,7 +146599,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО МУСКАТ 750 МЛ РАКОВИНА ПОМОРИЕ",
-      "image": "https://tmarketonline.bg/cdn/img/products/51843/vino-sophia-muskat-12--750ml-64abb0e7ec2a6.png?width=600&height=600&v=1777589982",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -146584,7 +146608,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/51843/vino-sophia-muskat-12--750ml-64abb0e7ec2a6.png?width=600&height=600&v=1777589982"
     },
     {
       "store": "Fantastico",
@@ -146620,7 +146645,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО КАБЕРНЕ СОВИНЬОН 750 МЛ РАКОВИНА ПОМОРИЕ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -146630,7 +146654,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -146676,7 +146701,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО МЕРЛО 750 МЛ РАКОВИНА ПОМОРИЕ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -146686,7 +146710,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -146722,7 +146747,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО МЕРЛО И МЕЛНИК AYANO 750 МЛ AYA ESTATE",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -146732,7 +146756,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -146768,7 +146793,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО СОВ. БЛАН И ШАРДОНЕ AYANO 750 МЛ AYA ESTATE",
-      "image": "https://tmarketonline.bg/cdn/img/products/41701/vino-boutique-sov--blan-h-sardone-750-ml-image_5efde889e1ebc.jpeg?width=600&height=600&v=1777589894",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -146778,7 +146802,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/41701/vino-boutique-sov--blan-h-sardone-750-ml-image_5efde889e1ebc.jpeg?width=600&height=600&v=1777589894"
     },
     {
       "store": "Fantastico",
@@ -146870,7 +146895,7 @@ const OFFERS_DATA = {
       "weight_grams": 250,
       "weight_raw": "250 мл",
       "name": "ШАМПОАН NIVEA MEN SENSITIVE 250 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/4005808170005_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/9005800388908_HR_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "hygiene",
       "emoji": "🧴",
       "is_food": false,
@@ -147154,7 +147179,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ШАРДОНЕ 750 МЛ МЕНАДА",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -147164,7 +147188,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -147210,7 +147235,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО МУСКАТ 750 МЛ МЕНАДА",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/571_01800024?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -147220,7 +147244,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/571_01800024?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -147266,7 +147291,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО МЕРЛО 750 МЛ МЕНАДА",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -147276,7 +147300,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -147322,7 +147347,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО КАБЕРНЕ СОВИНЬОН 750 МЛ МЕНАДА",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -147332,7 +147356,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -147378,7 +147403,6 @@ const OFFERS_DATA = {
       "weight_grams": 520,
       "weight_raw": "520 гр",
       "name": "ЛЮТЕНИЦА ЦАРИЦА ДОМАШНА ЕДРОСМЛЯНА 520 ГР",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/423_00089544_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -147388,7 +147412,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/423_00089544_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -147536,7 +147561,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО МЕРЛО ЕТНО 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -147546,7 +147570,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -147592,7 +147617,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ТРАМИНЕР ХАН КРУМ ГРЕЙС 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/571_01800702?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -147602,7 +147626,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/571_01800702?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -147638,7 +147663,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ШАРДОНЕ ХАН КРУМ ГРЕЙС 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -147648,7 +147672,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -148844,7 +148869,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО МУСКАТ 750 МЛ ДОМЕЙН БОЙАР",
-      "image": "https://tmarketonline.bg/cdn/img/products/51843/vino-sophia-muskat-12--750ml-64abb0e7ec2a6.png?width=600&height=600&v=1777589982",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -148854,7 +148878,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/51843/vino-sophia-muskat-12--750ml-64abb0e7ec2a6.png?width=600&height=600&v=1777589982"
     },
     {
       "store": "Fantastico",
@@ -148900,7 +148925,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО КАБЕРНЕ СОВ. 750 МЛ ДОМЕЙН БОЙАР",
-      "image": "https://tmarketonline.bg/cdn/img/products/56219/vino-emine-kaberne-sov-merlo12-750ml-6981dc7056b07.webp?width=600&height=600&v=1777590031",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -148910,7 +148934,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/56219/vino-emine-kaberne-sov-merlo12-750ml-6981dc7056b07.webp?width=600&height=600&v=1777590031"
     },
     {
       "store": "Fantastico",
@@ -148956,7 +148981,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО МЕРЛО 750 МЛ ДОМЕЙН БОЙАР",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -148966,7 +148990,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Kaufland",
@@ -149230,7 +149255,6 @@ const OFFERS_DATA = {
       "weight_grams": 150,
       "weight_raw": "150 мл",
       "name": "Happy Foot спрей за крака и ходила 150 мл",
-      "image": "https://api.bulmag.org/thumbnails/89d00671e63b4a81742984e0f50dc02f.png",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -149240,7 +149264,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://api.bulmag.org/thumbnails/89d00671e63b4a81742984e0f50dc02f.png"
     },
     {
       "store": "Kaufland",
@@ -149322,7 +149347,6 @@ const OFFERS_DATA = {
       "weight_grams": 250,
       "weight_raw": "250 мл",
       "name": "Само с Billa App - Tesori D'oriente Душ крем 250 мл",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8008970000855_BG_P?JGstbGVnYWN5LW9uc2l0ZS0xJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -149332,7 +149356,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/8008970000855_BG_P?JGstbGVnYWN5LW9uc2l0ZS0xJA=="
     },
     {
       "store": "Fantastico",
@@ -149790,7 +149815,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО КАБЕРНЕ СОВ. РЕЗЕРВА 750 МЛ ДОМЕЙН БОЙАР",
-      "image": "https://tmarketonline.bg/cdn/img/products/56219/vino-emine-kaberne-sov-merlo12-750ml-6981dc7056b07.webp?width=600&height=600&v=1777590031",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -149800,7 +149824,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/56219/vino-emine-kaberne-sov-merlo12-750ml-6981dc7056b07.webp?width=600&height=600&v=1777590031"
     },
     {
       "store": "Fantastico",
@@ -149846,7 +149871,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ПИНО ГРИДЖО СЕЛЕКШЪН 750 МЛ ЛОГОДАЖ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800097107067_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -149856,7 +149880,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800097107067_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -149900,7 +149925,6 @@ const OFFERS_DATA = {
       "comparison_count": 2,
       "product_id": "fantastico-колбас-хамбургски-витрина-деликатес-2-пр-д-българия",
       "name": "КОЛБАС ХАМБУРГСКИ ВИТРИНА ДЕЛИКАТЕС-2 , ПР-Д БЪЛГАРИЯ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20668403_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -149910,7 +149934,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20668403_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -149956,7 +149981,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО МЕРЛО РЕЗЕРВА 750 МЛ ДОМЕЙН БОЙАР",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -149966,7 +149990,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -150012,7 +150037,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО СОВ. БЛАН СЕЛЕКШЪН 750 МЛ ЛОГОДАЖ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800097107067_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -150022,7 +150046,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -150068,7 +150093,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ТРАМИНЕР ДОМЕЙН БОЙАР СЕЛЕКШЪН 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/571_01800702?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -150078,7 +150102,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/571_01800702?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -150124,7 +150149,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ШАРДОНЕ ДОМЕЙН БОЙАР СЕЛЕКШЪН 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -150134,7 +150158,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Kaufland",
@@ -151408,7 +151433,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО INOVINO ПИНО ГРИДЖО 750 МЛ",
-      "image": "https://tmarketonline.bg/cdn/img/products/49165/vino-kefer-pino-gridzo-750ml-633440cfc5029.jpeg?width=600&height=600&v=1777589961",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -151418,7 +151442,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/49165/vino-kefer-pino-gridzo-750ml-633440cfc5029.jpeg?width=600&height=600&v=1777589961"
     },
     {
       "store": "Fantastico",
@@ -152266,7 +152291,6 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "billa-сега-в-billa-комплект-прибори-за-многократна-употреба-12-части-продукт-мар",
       "name": "Сега в Billa - Комплект прибори за многократна употреба 12 части Продукт, маркиран със синя звезда",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/f6983cb7-44ff-40ef-b101-b6b57d3d4858.png",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -152276,7 +152300,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/f6983cb7-44ff-40ef-b101-b6b57d3d4858.png"
     },
     {
       "store": "Billa",
@@ -152312,7 +152337,6 @@ const OFFERS_DATA = {
       "weight_grams": 500,
       "weight_raw": "500 мл",
       "name": "Сега в Billa - Стъклена чаша с капак и сламка 500 мл Продукт, маркиран със синя звезда",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/f6983cb7-44ff-40ef-b101-b6b57d3d4858.png",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -152322,7 +152346,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": true,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/f6983cb7-44ff-40ef-b101-b6b57d3d4858.png"
     },
     {
       "store": "Fantastico",
@@ -152886,7 +152911,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО СОВИНЬОН БЛАН QUANTUM 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -152896,7 +152920,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -152942,7 +152967,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ТРАМИНЕР QUANTUM 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/571_01800702?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -152952,7 +152976,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/571_01800702?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -152998,7 +153023,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО СИРА И КАБЕРНЕ СОВ QUANTUM 750 МЛ",
-      "image": "https://tmarketonline.bg/cdn/img/products/43498/vino-tt-merlo--sira--kaberne-750-ml-image_5f4cb963e0d33.jpeg?width=600&height=600&v=1777589906",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -153008,7 +153032,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/43498/vino-tt-merlo--sira--kaberne-750-ml-image_5f4cb963e0d33.jpeg?width=600&height=600&v=1777589906"
     },
     {
       "store": "Fantastico",
@@ -153054,7 +153079,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ПИНО НОАР И МЕРЛО QUANTUM 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -153064,7 +153088,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -153100,7 +153125,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО БЕЗАЛК. СОВ. БЛАН ZERO QUANTUM 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -153110,7 +153134,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -153202,7 +153227,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ШАРД., ВИОНИЕ И ТАМЯНКА СИМБИОЗА 750 МЛ БРАТАНОВИ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20895674_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -153212,7 +153236,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20895674_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Kaufland",
@@ -153336,7 +153361,6 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "billa-дева-депилиращи-ленти-за-тяло-20-бр",
       "name": "Дева депилиращи ленти за тяло 20 бр=",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/631_00109942_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -153346,7 +153370,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": true,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://api.bulmag.org/thumbnails/14deff5e0d71721a6ca745f6fb10ecbf.png"
     },
     {
       "store": "Fantastico",
@@ -153392,7 +153417,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО МЕРЛО ЗАХИР 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -153402,7 +153426,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -153448,7 +153473,6 @@ const OFFERS_DATA = {
       "weight_grams": 515,
       "weight_raw": "515 гр",
       "name": "ЛЮТЕНИЦА ВЕЛИКА ДОМАШНА ЕДРОСМЛЯНА 515 ГР",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/423_00089544_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -153458,7 +153482,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/423_00089544_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -153504,7 +153529,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО СОВИНЬОН БЛАН ЗАХИР 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -153514,7 +153538,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -153560,7 +153585,6 @@ const OFFERS_DATA = {
       "weight_grams": 490,
       "weight_raw": "490 гр",
       "name": "ЛЮТЕНИЦА ГУРМЕНИЦА МАКЕДОНСКА 490 ГР БУРКАН",
-      "image": "https://imgproxy-retcat.assets.schwarz/A8PrcDAbH2e_MFQgJNHl1cpBxrjAhd96Uo3KNqIWbWo/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS85OEZDNjJCODNERkUxMjE2REUzQTJEMjJ/DOUZFRjBDOTNDNjM5OERBMjNBODIyRjM1MjgzNDg0QjM0ODZDQzVBLnBuZw.png",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -153570,7 +153594,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://imgproxy-retcat.assets.schwarz/A8PrcDAbH2e_MFQgJNHl1cpBxrjAhd96Uo3KNqIWbWo/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS85OEZDNjJCODNERkUxMjE2REUzQTJEMjJ/DOUZFRjBDOTNDNjM5OERBMjNBODIyRjM1MjgzNDg0QjM0ODZDQzVBLnBuZw.png"
     },
     {
       "store": "Fantastico",
@@ -153616,7 +153641,6 @@ const OFFERS_DATA = {
       "weight_grams": 490,
       "weight_raw": "490 гр",
       "name": "ЛЮТЕНИЦА ГУРМЕНИЦА МАКЕДОНСКА ПИКАНТНА 490 ГР БУРКАН",
-      "image": "https://tmarketonline.bg/cdn/img/products/49206/lutenica-pikantna-deroni-260-gr-633d769b3c2b9.jpeg?width=600&height=600&v=1777589961",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -153626,7 +153650,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/49206/lutenica-pikantna-deroni-260-gr-633d769b3c2b9.jpeg?width=600&height=600&v=1777589961"
     },
     {
       "store": "Fantastico",
@@ -153672,7 +153697,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО КАБЕРНЕ СОВИНЬОН ЗАХИР 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -153682,7 +153706,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -153728,7 +153753,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ШАРДОНЕ ЗАХИР 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -153738,7 +153762,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Kaufland",
@@ -153922,7 +153947,7 @@ const OFFERS_DATA = {
       "weight_grams": 200,
       "weight_raw": "200мл",
       "name": "Rexona Advance Дезодорант спрей 150/200мл различни аромати",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8720181334733_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/638_00115157?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "hygiene",
       "emoji": "🧴",
       "is_food": false,
@@ -153968,7 +153993,6 @@ const OFFERS_DATA = {
       "weight_grams": 550,
       "weight_raw": "550 г",
       "name": "ЛЮТЕНИЦА GREEN DELI ДОМАШНА 550 Г БУРКАН ДАР",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/423_01300931_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -153978,7 +154002,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/423_01300931_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Dar",
@@ -154014,7 +154039,6 @@ const OFFERS_DATA = {
       "weight_grams": 550,
       "weight_raw": "550 г",
       "name": "ЛЮТЕНИЦА GREEN DELI ДОМАШНА ЛЮТА 550 Г БУРКАН ДАР",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/423_01300931_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -154024,7 +154048,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/423_01300931_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -154386,7 +154411,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО CYCLE КАБ. СОВ., КАБ ФРАН И МЕРЛО 750 МЛ БР. МИНКОВИ",
-      "image": "https://tmarketonline.bg/cdn/img/products/51856/vino-santa-sara-bin-40-kab--sov--750ml-64abbe4eb3788.png?width=600&height=600&v=1777589980",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -154396,7 +154420,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/51856/vino-santa-sara-bin-40-kab--sov--750ml-64abbe4eb3788.png?width=600&height=600&v=1777589980"
     },
     {
       "store": "Fantastico",
@@ -154442,7 +154467,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО CYCLE СОВИНЬОН БЛАН / СЕМИЛЬОН / ВИОНИЕ 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -154452,7 +154476,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -154498,7 +154523,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО CYCLE СОВИНЬОН БЛАН 750 МЛ БРАТЯ МИНКОВИ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -154508,7 +154532,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -154554,7 +154579,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО CYCLE СИРА И ВИОНИЕ 750 МЛ БРАТЯ МИНКОВИ",
-      "image": "https://tmarketonline.bg/cdn/img/products/52227/vino-zagrej-sv-dimitar-sira-nalivno-1-5-l-64ba817e7c3bf.jpeg?width=600&height=600&v=1777589983",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -154564,7 +154588,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/52227/vino-zagrej-sv-dimitar-sira-nalivno-1-5-l-64ba817e7c3bf.jpeg?width=600&height=600&v=1777589983"
     },
     {
       "store": "Fantastico",
@@ -154610,7 +154635,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО CYCLE ТРАМИНЕР 750 МЛ БРАТЯ МИНКОВИ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/571_01800702?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -154620,7 +154644,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/571_01800702?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Kaufland",
@@ -154926,7 +154951,6 @@ const OFFERS_DATA = {
       "weight_grams": 150,
       "weight_raw": "3 х 50 г",
       "name": "Domestos Тоалетно блокче 3 х 50 г",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00085857_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -154936,7 +154960,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00085857_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -154982,7 +155007,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ШИРАЗ И КАБЕРНЕ СЕЛЕКШЪН 750 МЛ ЛОГОДАЖ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800097107067_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -154992,7 +155016,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800097107067_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -155028,7 +155053,6 @@ const OFFERS_DATA = {
       "weight_grams": 550,
       "weight_raw": "550 гр",
       "name": "ЛЮТЕНИЦА MAMAS ДОМАШНА 550 ГР",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/423_01300931_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -155038,7 +155062,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/423_01300931_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -155084,7 +155109,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО КАБЕРНЕ СОВ МЕРЛО КАБ ФРАН СЕЛЕКШЪН 750 МЛ ЛОГОДАЖ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800097107067_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -155094,7 +155118,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -155232,7 +155257,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО САНДАНСКИ МИСКЕТ И СОВ. БЛАН ЗЛАТЕН РОЖЕН 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -155242,7 +155266,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -155288,7 +155313,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО МЕЛНИШКИ РУБИН И КАБЕРНЕ СОВ. ЗЛАТЕН РОЖЕН 750 МЛ",
-      "image": "https://tmarketonline.bg/cdn/img/products/56219/vino-emine-kaberne-sov-merlo12-750ml-6981dc7056b07.webp?width=600&height=600&v=1777590031",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -155298,7 +155322,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/56219/vino-emine-kaberne-sov-merlo12-750ml-6981dc7056b07.webp?width=600&height=600&v=1777590031"
     },
     {
       "store": "Fantastico",
@@ -155334,7 +155359,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО МАВРУД И МЕРЛО SCALA 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -155344,7 +155368,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -155380,7 +155405,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО СОВИНЬОН БЛАН И ШАРДОНЕ SCALA 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -155390,7 +155414,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Kaufland",
@@ -156238,7 +156263,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО СИРА ПЕНТАГРАМ 750 МЛ ПОМОРИЕ",
-      "image": "https://tmarketonline.bg/cdn/img/products/52227/vino-zagrej-sv-dimitar-sira-nalivno-1-5-l-64ba817e7c3bf.jpeg?width=600&height=600&v=1777589983",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -156248,7 +156272,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/52227/vino-zagrej-sv-dimitar-sira-nalivno-1-5-l-64ba817e7c3bf.jpeg?width=600&height=600&v=1777589983"
     },
     {
       "store": "Fantastico",
@@ -156294,7 +156319,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ШАРДОНЕ ПЕНТАГРАМ 750 МЛ ПОМОРИЕ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -156304,7 +156328,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -156340,7 +156365,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ТРАМИНЕР ПЕНТАГРАМ 750 МЛ ПОМОРИЕ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/571_01800702?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -156350,7 +156374,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/571_01800702?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -156396,7 +156421,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО МЕРЛО ПЕНТАГРАМ 750 МЛ ПОМОРИЕ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -156406,7 +156430,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Billa",
@@ -156442,7 +156467,6 @@ const OFFERS_DATA = {
       "weight_grams": 300,
       "weight_raw": "300 г",
       "name": "Grill Party Black Angus Бургер 300 г",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/4063367005657_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -156452,7 +156476,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4063367005657_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -156680,7 +156705,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО CONTOUR КАБЕРНЕ СОВ. И ПИНО НОАР 750 МЛ",
-      "image": "https://tmarketonline.bg/cdn/img/products/56219/vino-emine-kaberne-sov-merlo12-750ml-6981dc7056b07.webp?width=600&height=600&v=1777590031",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -156690,7 +156714,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/56219/vino-emine-kaberne-sov-merlo12-750ml-6981dc7056b07.webp?width=600&height=600&v=1777590031"
     },
     {
       "store": "Fantastico",
@@ -156736,7 +156761,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО CONTOUR СОВ. БЛАН И ПИНО ГРИ 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -156746,7 +156770,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Kaufland",
@@ -156838,9 +156863,53 @@ const OFFERS_DATA = {
       "weight_grams": 700,
       "weight_raw": "700 мл",
       "name": "РАКИЯ БОЛГАРЕ ГРОЗДОВА ОТЛЕЖАЛА 700 МЛ",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/0f861f52-bb3e-4ef3-86f9-d7c32c6c9683.png",
       "category": "drinks",
       "emoji": "🍺",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/0f861f52-bb3e-4ef3-86f9-d7c32c6c9683.png"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 6.98,
+      "new_price_eur": 3.57,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-06-08",
+      "valid_until": "2026-07-05",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 6.98,
+          "price_eur": 3.57,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 6.98,
+      "comparison_count": 1,
+      "product_id": "kaufland-очила-за-четене-1-5-до-3-0-диоптъра-2",
+      "name": "Очила за четене +1.5 до +3,0 диоптъра",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4005847291150_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
       "is_food": false,
       "is_junk": false,
       "is_healthy": false,
@@ -156889,50 +156958,6 @@ const OFFERS_DATA = {
       "emoji": "🥛",
       "is_food": false,
       "is_junk": true,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 6.98,
-      "new_price_eur": 3.57,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-06-08",
-      "valid_until": "2026-07-05",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 6.98,
-          "price_eur": 3.57,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 6.98,
-      "comparison_count": 1,
-      "product_id": "kaufland-очила-за-четене-1-5-до-3-0-диоптъра-2",
-      "name": "Очила за четене +1.5 до +3,0 диоптъра",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/4005847291150_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
       "is_healthy": false,
       "is_high_protein": false,
       "is_good_carb": false,
@@ -157242,7 +157267,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО 42/25 ШАРДОНЕ ВИОНИЕ И СОВ. БЛАН 750 МЛ МИДАЛИДАРЕ",
-      "image": "https://tmarketonline.bg/cdn/img/products/41701/vino-boutique-sov--blan-h-sardone-750-ml-image_5efde889e1ebc.jpeg?width=600&height=600&v=1777589894",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -157252,7 +157276,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/41701/vino-boutique-sov--blan-h-sardone-750-ml-image_5efde889e1ebc.jpeg?width=600&height=600&v=1777589894"
     },
     {
       "store": "Fantastico",
@@ -157288,7 +157313,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ГЪМЗА И КАБЕРНЕ ФРАН ГОМОТАРЦИ 750 МЛ БОНОНИЯ ЕСТЕЙТ",
-      "image": "https://tmarketonline.bg/cdn/img/products/49158/vino-lovico-kabernegamza-kraftsman-750-63343d36a7c2e.jpeg?width=600&height=600&v=1777589960",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -157298,7 +157322,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/49158/vino-lovico-kabernegamza-kraftsman-750-63343d36a7c2e.jpeg?width=600&height=600&v=1777589960"
     },
     {
       "store": "Fantastico",
@@ -157334,7 +157359,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ДИМЯТ И ВЕРМЕНТИНО ГОМОТАРЦИ 750 МЛ БОНОНИЯ ЕСТЕЙТ",
-      "image": "https://tmarketonline.bg/cdn/img/products/49575/vino-bulgarian-heritage-dimat-750-ml-63736a1d6de39.png?width=600&height=600&v=1777589967",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -157344,7 +157368,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/49575/vino-bulgarian-heritage-dimat-750-ml-63736a1d6de39.png?width=600&height=600&v=1777589967"
     },
     {
       "store": "Fantastico",
@@ -157380,7 +157405,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО СИРА И КАБЕРНЕ ФРАН ГОМОТАРЦИ 750 МЛ БОНОНИЯ ЕСТЕЙТ",
-      "image": "https://tmarketonline.bg/cdn/img/products/43498/vino-tt-merlo--sira--kaberne-750-ml-image_5f4cb963e0d33.jpeg?width=600&height=600&v=1777589906",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -157390,7 +157414,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/43498/vino-tt-merlo--sira--kaberne-750-ml-image_5f4cb963e0d33.jpeg?width=600&height=600&v=1777589906"
     },
     {
       "store": "Fantastico",
@@ -157426,7 +157451,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО СОВИНЬОН БЛАН ГОМОТАРЦИ 750 МЛ БОНОНИЯ ЕСТЕЙТ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -157436,7 +157460,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -157620,7 +157645,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ЧЕРГА БЯЛО 750 МЛ ДОМЕЙН МЕНАДА",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -157630,7 +157654,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -157676,7 +157701,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО СИРА ЧЕРГА ФРАГМЕНТ 750 МЛ",
-      "image": "https://tmarketonline.bg/cdn/img/products/52227/vino-zagrej-sv-dimitar-sira-nalivno-1-5-l-64ba817e7c3bf.jpeg?width=600&height=600&v=1777589983",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -157686,7 +157710,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/52227/vino-zagrej-sv-dimitar-sira-nalivno-1-5-l-64ba817e7c3bf.jpeg?width=600&height=600&v=1777589983"
     },
     {
       "store": "Fantastico",
@@ -157732,7 +157757,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ЧЕРГА ЧЕРВЕНО 750 МЛ ДОМЕЙН МЕНАДА",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -157742,7 +157766,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -157788,7 +157813,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО СОВИНЬОН БЛАН ЧЕРГА ФРАГМЕНТ 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -157798,7 +157822,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -158538,7 +158563,7 @@ const OFFERS_DATA = {
       "weight_grams": 400,
       "weight_raw": "400 мл",
       "name": "ШАМПОАН ELSEVE DREAM LONG 400 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/631_2020795791_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/631_00109942_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "hygiene",
       "emoji": "🧴",
       "is_food": false,
@@ -158594,7 +158619,7 @@ const OFFERS_DATA = {
       "weight_grams": 400,
       "weight_raw": "400 мл",
       "name": "ШАМПОАН ELSEVE HYALURON 400 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/631_2020795791_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/631_00109942_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "hygiene",
       "emoji": "🧴",
       "is_food": false,
@@ -158942,7 +158967,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО СОВИНЬОН БЛАН MEZZEK 750 МЛ КАТАРЖИНА",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -158952,7 +158976,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -158998,7 +159023,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ШАРДОНЕ MEZZEK 750 МЛ КАТАРЖИНА",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/mezzek_ROSE_?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -159008,7 +159032,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -159054,7 +159079,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО СОВИНЬОН БЛАН ФОРТ ШАТО БУРГОЗОНЕ 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -159064,7 +159088,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -159110,7 +159135,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ПИНО НОАР ФОРТ ШАТО БУРГОЗОНЕ 750 МЛ",
-      "image": "https://tmarketonline.bg/cdn/img/products/53820/vino-cono-sur-bicicleta-pino-noar-750-ml-65cdfd9fd89ec.jpeg?width=600&height=600&v=1777589998",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -159120,7 +159144,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/53820/vino-cono-sur-bicicleta-pino-noar-750-ml-65cdfd9fd89ec.jpeg?width=600&height=600&v=1777589998"
     },
     {
       "store": "Fantastico",
@@ -159166,7 +159191,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО МАВРУД MEZZEK 750 МЛ КАТАРЖИНА",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/mezzek_ROSE_?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -159176,7 +159200,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/01700960_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -159212,7 +159237,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ШАРДОНЕ И ТАМЯНКА ФОРТ ШАТО БУРГОЗОНЕ 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -159222,7 +159246,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -159258,7 +159283,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО БЯЛО ESSENTIALS 750 МЛ ОРБЕЛИЯ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -159268,7 +159292,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -159304,7 +159329,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ЧЕРВЕНО ESSENTIALS 750 МЛ ОРБЕЛИЯ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -159314,7 +159338,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -159452,7 +159477,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ШАРДОНЕ ШЕВАЛ ДЕ КАТАРЖИНА 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -159462,7 +159486,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -159508,7 +159533,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО КАБЕРНЕ СОВ. ШЕВАЛ ДЕ КАТАРЖИНА 750 МЛ",
-      "image": "https://tmarketonline.bg/cdn/img/products/56219/vino-emine-kaberne-sov-merlo12-750ml-6981dc7056b07.webp?width=600&height=600&v=1777590031",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -159518,7 +159542,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/56219/vino-emine-kaberne-sov-merlo12-750ml-6981dc7056b07.webp?width=600&height=600&v=1777590031"
     },
     {
       "store": "Fantastico",
@@ -159564,7 +159589,6 @@ const OFFERS_DATA = {
       "weight_grams": 700,
       "weight_raw": "700 мл",
       "name": "РАКИЯ КАРНОБАТ ГРОЗДОВА 700 МЛ",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/0f861f52-bb3e-4ef3-86f9-d7c32c6c9683.png",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -159574,7 +159598,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/0f861f52-bb3e-4ef3-86f9-d7c32c6c9683.png"
     },
     {
       "store": "Kaufland",
@@ -159746,7 +159771,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО КАРПЕ ДИЕМ ЧЕРВЕНО 750 МЛ МИДАЛИДАРЕ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -159756,7 +159780,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -159792,7 +159817,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО КАРПЕ ДИЕМ БЯЛО 750 МЛ МИДАЛИДАРЕ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -159802,7 +159826,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -159838,7 +159863,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО БЯЛ БЛЕНД ВИА АРИСТОТЕЛИС 750 МЛ ОРБЕЛИЯ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20895674_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -159848,7 +159872,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": true,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20895674_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -160078,7 +160103,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО БЯЛО КЮВЕ FOUR FRIENDS 750 МЛ ЗИТАРА",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800229861973_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -160088,7 +160112,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -160134,7 +160159,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО МЕРЛО FOUR FRIENDS 750 МЛ ЗИТАРА",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800229861973_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -160144,7 +160168,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -160190,7 +160215,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО СОВ. БЛАН FOUR FRIENDS 750 МЛ ЗИТАРА",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800229861973_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -160200,7 +160224,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -160246,7 +160271,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ЧЕРВЕНО КЮВЕ FOUR FRIENDS 750 МЛ ЗИТАРА",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800229861973_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -160256,7 +160280,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -160292,7 +160317,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО БЯЛО ТАМЯНКА RUSALII RUPEL 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -160302,7 +160326,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -160338,7 +160363,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ЧЕРВЕНО МЕЛНИК RUSALII RUPEL 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -160348,7 +160372,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -160664,7 +160689,6 @@ const OFFERS_DATA = {
       "weight_grams": 700,
       "weight_raw": "700 мл",
       "name": "РАКИЯ СУНГУРЛАРСКА ОТЛЕЖАЛА 700 МЛ СЛАВЯНЦИ",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/0f861f52-bb3e-4ef3-86f9-d7c32c6c9683.png",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -160674,7 +160698,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/0f861f52-bb3e-4ef3-86f9-d7c32c6c9683.png"
     },
     {
       "store": "Fantastico",
@@ -160720,7 +160745,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО БЯЛО VERANO AZUR 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00023394_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -160730,7 +160754,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00023394_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -160766,7 +160791,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО VERANO AZUR СИРА И МАРСЕЛАН 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00023394_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -160776,7 +160800,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00023394_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Kaufland",
@@ -161050,7 +161075,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО СИРА MA SENSE 750 МЛ ЗАГРЕЙ",
-      "image": "https://tmarketonline.bg/cdn/img/products/53823/vino-ma-sense-sira-750-ml-65ce00e5b72b7.jpeg?width=600&height=600&v=1777589999",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -161060,7 +161084,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/53823/vino-ma-sense-sira-750-ml-65ce00e5b72b7.jpeg?width=600&height=600&v=1777589999"
     },
     {
       "store": "Fantastico",
@@ -161096,7 +161121,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО СОВИНЬОН БЛАН MA SENSE 750 МЛ ЗАГРЕЙ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -161106,7 +161130,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Kaufland",
@@ -161464,7 +161489,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО МАВРУД И РУБИН KORTEN NATURA 750 МЛ",
-      "image": "https://tmarketonline.bg/cdn/img/products/43963/vino-mavrud-rubin-korten-750ml-image_5f4cbb6bac91d.png?width=600&height=600&v=1777589911",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -161474,7 +161498,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/43963/vino-mavrud-rubin-korten-750ml-image_5f4cbb6bac91d.png?width=600&height=600&v=1777589911"
     },
     {
       "store": "Fantastico",
@@ -161520,7 +161545,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО БЯЛО KORTEN NATURA 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -161530,7 +161554,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Kaufland",
@@ -161610,7 +161635,6 @@ const OFFERS_DATA = {
       "weight_grams": 200,
       "weight_raw": "200 мл",
       "name": "Gillette гел за бръснене 200 мл различни видове",
-      "image": "https://cdn.metro-group.com/bg/bg_pim_222701006001_01.png?format=jpg&quality=80&dpi=72",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -161620,7 +161644,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://cdn.metro-group.com/bg/bg_pim_222701006001_01.png?format=jpg&quality=80&dpi=72"
     },
     {
       "store": "Kaufland",
@@ -161702,7 +161727,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО НИЧИЯ ЗЕМЯ БЯЛО 750 МЛ LAVA",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -161712,7 +161736,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -161758,7 +161783,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ТРАМИНЕР RABISHA МАГУРА 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/571_01800702?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -161768,7 +161792,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/571_01800702?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -161804,7 +161829,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО КАБЕРНЕ СОВИНЬОН RABISHA МАГУРА 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -161814,7 +161838,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -161850,7 +161875,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ПИНО НОАР 24/42 ESTATE 750 МЛ",
-      "image": "https://tmarketonline.bg/cdn/img/products/53820/vino-cono-sur-bicicleta-pino-noar-750-ml-65cdfd9fd89ec.jpeg?width=600&height=600&v=1777589998",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -161860,7 +161884,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/53820/vino-cono-sur-bicicleta-pino-noar-750-ml-65cdfd9fd89ec.jpeg?width=600&height=600&v=1777589998"
     },
     {
       "store": "Fantastico",
@@ -161896,7 +161921,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО СОВИНЬОН БЛАН 24/42 ESTATE 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -161906,7 +161930,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -161942,7 +161967,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО МЛАДО МЕРЛО ОТ ШИШМАНОВО 750 МЛ БРАТАНОВ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -161952,7 +161976,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -161998,7 +162023,6 @@ const OFFERS_DATA = {
       "weight_grams": 700,
       "weight_raw": "700 мл",
       "name": "РАКИЯ ПЕЩЕРСКА ГРОЗДОВА 700 МЛ",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/0f861f52-bb3e-4ef3-86f9-d7c32c6c9683.png",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -162008,7 +162032,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/0f861f52-bb3e-4ef3-86f9-d7c32c6c9683.png"
     },
     {
       "store": "Kaufland",
@@ -162464,7 +162489,6 @@ const OFFERS_DATA = {
       "weight_grams": 700,
       "weight_raw": "700 мл",
       "name": "РАКИЯ СУНГУРЛАРСКА ГРОЗДОВА КЛАСИК 700 МЛ",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/0f861f52-bb3e-4ef3-86f9-d7c32c6c9683.png",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -162474,7 +162498,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/0f861f52-bb3e-4ef3-86f9-d7c32c6c9683.png"
     },
     {
       "store": "Fantastico",
@@ -162520,7 +162545,6 @@ const OFFERS_DATA = {
       "weight_grams": 700,
       "weight_raw": "700 мл",
       "name": "РАКИЯ ПОМОРИЙСКА ГРОЗДОВА 700 МЛ",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/0f861f52-bb3e-4ef3-86f9-d7c32c6c9683.png",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -162530,7 +162554,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/0f861f52-bb3e-4ef3-86f9-d7c32c6c9683.png"
     },
     {
       "store": "Fantastico",
@@ -162576,7 +162601,6 @@ const OFFERS_DATA = {
       "weight_grams": 700,
       "weight_raw": "700 мл",
       "name": "РАКИЯ ДЯДОВА УСУКАНИЦА ГРОЗДОВА 700 МЛ",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/0f861f52-bb3e-4ef3-86f9-d7c32c6c9683.png",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -162586,7 +162610,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/0f861f52-bb3e-4ef3-86f9-d7c32c6c9683.png"
     },
     {
       "store": "Fantastico",
@@ -162632,7 +162657,6 @@ const OFFERS_DATA = {
       "weight_grams": 700,
       "weight_raw": "700 мл",
       "name": "РАКИЯ ХАН КРУМ ГРОЗДОВА ОТЛЕЖАЛА 700 МЛ",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/0f861f52-bb3e-4ef3-86f9-d7c32c6c9683.png",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -162642,7 +162666,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/0f861f52-bb3e-4ef3-86f9-d7c32c6c9683.png"
     },
     {
       "store": "Fantastico",
@@ -162678,7 +162703,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ВИОНИЕ КАУЗА ЗААРА ЕСТЕЙТ 750 МЛ",
-      "image": "https://tmarketonline.bg/cdn/img/products/43549/vino-kanti-premium-estejt-barolo-docg-ml-image_5f4cb98c2e2e0.jpeg?width=600&height=600&v=1777589905",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -162688,7 +162712,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/43549/vino-kanti-premium-estejt-barolo-docg-ml-image_5f4cb98c2e2e0.jpeg?width=600&height=600&v=1777589905"
     },
     {
       "store": "Fantastico",
@@ -162724,7 +162749,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО КАРМЕНЕР МЕРЛО И КАБ. СОВ. КАУЗА ЗААРА ЕСТЕЙТ 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -162734,7 +162758,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -162998,7 +163023,6 @@ const OFFERS_DATA = {
       "weight_grams": 700,
       "weight_raw": "0,7 л",
       "name": "Пещера Мента 0,7 л Произход - България",
-      "image": "https://cdn.metro-group.com/bg/bg_pim_350085001001_01.png?format=jpg&quality=80&dpi=72",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -163008,7 +163032,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://cdn.metro-group.com/bg/bg_pim_350085001001_01.png?format=jpg&quality=80&dpi=72"
     },
     {
       "store": "Billa",
@@ -163044,7 +163069,6 @@ const OFFERS_DATA = {
       "weight_grams": 600,
       "weight_raw": "600 мл",
       "name": "Сега в Billa - Комплект кутии, 5 броя, 600 мл",
-      "image": "https://media.marktjagd.com/16559880_729x1440.webp",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -163054,7 +163078,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://media.marktjagd.com/16559880_729x1440.webp"
     },
     {
       "store": "Fantastico",
@@ -163100,7 +163125,6 @@ const OFFERS_DATA = {
       "weight_grams": 700,
       "weight_raw": "700 мл",
       "name": "РАКИЯ КАРНОБАТ МУСКАТОВА 700 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20845832_P?JGstbGVnYWN5LW9uc2l0ZS0xJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -163110,7 +163134,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20845832_P?JGstbGVnYWN5LW9uc2l0ZS0xJA=="
     },
     {
       "store": "Fantastico",
@@ -163146,7 +163171,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО САНДАНСКИ МИСКЕТ ОРБЕЛИЯ 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800118141773_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -163156,7 +163180,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/49577/vino-bulgarian-heritage-misket-750-ml-63736ae0a43f6.png?width=600&height=600&v=1777589961"
     },
     {
       "store": "Fantastico",
@@ -163192,7 +163217,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО МЕЛНИК 55 ОРБЕЛИЯ 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20895674_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -163202,7 +163226,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20895674_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Kaufland",
@@ -163950,7 +163975,6 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 кг",
       "name": "Сега в Billa - Сафрид черноморски охладен За 1 кг",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/24b94929-4d73-448d-b2b4-38e293918dc4.png",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -163960,7 +163984,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/55409/zamrazen-cernomorski-safridkg-67a91d7580c35.jpeg?width=600&height=600&v=1777590014"
     },
     {
       "store": "Fantastico",
@@ -164006,7 +164031,6 @@ const OFFERS_DATA = {
       "weight_grams": 700,
       "weight_raw": "700 мл",
       "name": "РАКИЯ КАЙЛЪШКА ГРОЗДОВА 700 МЛ",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/0f861f52-bb3e-4ef3-86f9-d7c32c6c9683.png",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -164016,7 +164040,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/0f861f52-bb3e-4ef3-86f9-d7c32c6c9683.png"
     },
     {
       "store": "Fantastico",
@@ -164062,7 +164087,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО МЕРЛО 750 МЛ ЕНИРА",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -164072,7 +164096,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -164118,7 +164143,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО СИЛВЪР ЕЙНДЖЪЛ 750 МЛ ИЗБА МИДАЛИДАРЕ",
-      "image": "https://tmarketonline.bg/cdn/img/products/49917/vino-pomorijska-izba-cerveno-5-l-63a573f8a0304.jpeg?width=600&height=600&v=1777589964",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -164128,7 +164152,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/49917/vino-pomorijska-izba-cerveno-5-l-63a573f8a0304.jpeg?width=600&height=600&v=1777589964"
     },
     {
       "store": "Fantastico",
@@ -164174,7 +164199,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО КАБЕРНЕ СОВИНЬОН 750 МЛ ЕНИРА",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -164184,7 +164208,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -164220,7 +164245,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ШАРДОНЕ ЕЙНДЖЪЛС ШЕАР 750 МЛ МИДАЛИДАРЕ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -164230,7 +164254,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -164266,7 +164291,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750мл",
       "name": "ВИНО РКАЦИТЕЛИ HAND MADE 750МЛ ЗАГРЕЙ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20895674_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -164276,7 +164300,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20895674_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -164322,7 +164347,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО МЕЛНИК 55 РЕЗЕРВА 750 МЛ ЛОГОДАЖ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800097107067_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -164332,7 +164356,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800097107067_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -164378,7 +164403,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ЕНИРА НАЙПЕРГ СЕЛЕКШЪН 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20895674_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -164388,7 +164412,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20895674_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -164424,7 +164449,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО СИРА ЕЙНДЖЪЛС ШЕАР 750 МЛ МИДАЛИДАРЕ",
-      "image": "https://tmarketonline.bg/cdn/img/products/52227/vino-zagrej-sv-dimitar-sira-nalivno-1-5-l-64ba817e7c3bf.jpeg?width=600&height=600&v=1777589983",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -164434,7 +164458,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/52227/vino-zagrej-sv-dimitar-sira-nalivno-1-5-l-64ba817e7c3bf.jpeg?width=600&height=600&v=1777589983"
     },
     {
       "store": "Billa",
@@ -164522,7 +164547,6 @@ const OFFERS_DATA = {
       "comparison_count": 2,
       "product_id": "fantastico-дебърцини-витрина-кен-пр-д-българия",
       "name": "ДЕБЪРЦИНИ ВИТРИНА КЕН, ПР-Д БЪЛГАРИЯ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00108621_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -164532,7 +164556,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00108621_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -164578,7 +164603,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ВИА ВИНЕРА ШАРДОНЕ И СОВИНЬОН БЛАН 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -164588,7 +164612,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -164624,7 +164649,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ВИА ВИНЕРА КАБЕРНЕ СОВИНЬОН И СИРА 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -164634,7 +164658,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Billa",
@@ -164712,7 +164737,6 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "billa-сега-в-billa-bingo-гел-за-пране-50-пранета-продукт-маркиран-със-синя-зве-2",
       "name": "Сега в Billa - Bingo Гел за пране 50 пранета Продукт, маркиран със синя звезда 1 изпиране = 0,10 €/0,20 лв./50 пранета",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20817707_596?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -164722,7 +164746,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20817707_596?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -164768,7 +164793,6 @@ const OFFERS_DATA = {
       "weight_grams": 700,
       "weight_raw": "700 мл",
       "name": "РАКИЯ ПОМОРИЙСКА СПЕЦИАЛНА 700 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20870478_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -164778,7 +164802,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20870478_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -164824,7 +164849,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО СОВИНЬОН БЛАН ПИКСЕЛС 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -164834,7 +164858,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -164870,7 +164895,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ШАРДОНЕ ПИКСЕЛС 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -164880,7 +164904,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -164914,7 +164939,6 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "fantastico-колбас-хамбургски-витрина-смм-пр-д-б-я",
       "name": "КОЛБАС ХАМБУРГСКИ ВИТРИНА СММ ПР-Д Б-Я",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20668403_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -164924,7 +164948,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20668403_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -164960,7 +164985,6 @@ const OFFERS_DATA = {
       "weight_grams": 700,
       "weight_raw": "700 мл",
       "name": "РАКИЯ КАЙЛЪШКА СЛИВОВА 700 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800032070272_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -164970,7 +164994,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800032070272_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -165006,7 +165031,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО БЯЛО СОЛТИ ХИЛС 750 МЛ ПОМОРИЕ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -165016,7 +165040,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -165118,7 +165143,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО МЕРЛО 750 МЛ СТАРОСЕЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -165128,7 +165152,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -165174,7 +165199,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО СИРА 750 МЛ СТАРОСЕЛ",
-      "image": "https://tmarketonline.bg/cdn/img/products/52227/vino-zagrej-sv-dimitar-sira-nalivno-1-5-l-64ba817e7c3bf.jpeg?width=600&height=600&v=1777589983",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -165184,7 +165208,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/52227/vino-zagrej-sv-dimitar-sira-nalivno-1-5-l-64ba817e7c3bf.jpeg?width=600&height=600&v=1777589983"
     },
     {
       "store": "Fantastico",
@@ -165230,7 +165255,6 @@ const OFFERS_DATA = {
       "weight_grams": 700,
       "weight_raw": "700 мл",
       "name": "РАКИЯ КЕХЛИБАР ГРОЗДОВА 700 МЛ",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/0f861f52-bb3e-4ef3-86f9-d7c32c6c9683.png",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -165240,7 +165264,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/0f861f52-bb3e-4ef3-86f9-d7c32c6c9683.png"
     },
     {
       "store": "Fantastico",
@@ -165276,7 +165301,6 @@ const OFFERS_DATA = {
       "weight_grams": 700,
       "weight_raw": "700 мл",
       "name": "РАКИЯ ХАН КРУМ МУСКАТОВА 700 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20845832_P?JGstbGVnYWN5LW9uc2l0ZS0xJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -165286,7 +165310,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20845832_P?JGstbGVnYWN5LW9uc2l0ZS0xJA=="
     },
     {
       "store": "Fantastico",
@@ -165322,7 +165347,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ВЕРМЕНТИНО EARLY BIRDS 750 МЛ СТРАЦИН",
-      "image": "https://tmarketonline.bg/cdn/img/products/49160/bio-vino-kefer-vermentino-750ml-63343e3505322.jpeg?width=600&height=600&v=1777589960",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -165332,7 +165356,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/49160/bio-vino-kefer-vermentino-750ml-63343e3505322.jpeg?width=600&height=600&v=1777589960"
     },
     {
       "store": "Fantastico",
@@ -165368,7 +165393,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО МЕРЛО EARLY BIRDS 750 МЛ СТРАЦИН",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -165378,7 +165402,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Kaufland",
@@ -165594,7 +165619,6 @@ const OFFERS_DATA = {
       "weight_grams": 700,
       "weight_raw": "0,7 л",
       "name": "Pervak Водка 0,7 л",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/689a438f-9268-472a-b7fa-a20556886292.png",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -165604,7 +165628,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/689a438f-9268-472a-b7fa-a20556886292.png"
     },
     {
       "store": "Billa",
@@ -165694,7 +165719,6 @@ const OFFERS_DATA = {
       "weight_grams": 700,
       "weight_raw": "700 мл",
       "name": "РАКИЯ ТРОЯНСКА СЛИВОВА 700 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800032070272_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -165704,7 +165728,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800032070272_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Kaufland",
@@ -166050,7 +166075,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "0,75 л",
       "name": "Mezzek Вино 0,75 л Произход - България",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/01700960_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -166060,7 +166084,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/01700960_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -166096,7 +166121,6 @@ const OFFERS_DATA = {
       "weight_grams": 700,
       "weight_raw": "700 мл",
       "name": "РАКИЯ СУНГУРЛАРСКА ОТЛЕЖАЛА 700 МЛ +2 ЧАШИ",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/0f861f52-bb3e-4ef3-86f9-d7c32c6c9683.png",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -166106,7 +166130,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/0f861f52-bb3e-4ef3-86f9-d7c32c6c9683.png"
     },
     {
       "store": "Fantastico",
@@ -166142,7 +166167,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ЧЕРВЕНО НЕБИОЛО GRAMATIK RUPEL 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -166152,7 +166176,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -166198,7 +166223,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО MIDALIDARE КАБЕРНЕ СОВ. И ПТИ ВЕРДО 750 МЛ МИДАЛИДАРЕ",
-      "image": "https://tmarketonline.bg/cdn/img/products/56219/vino-emine-kaberne-sov-merlo12-750ml-6981dc7056b07.webp?width=600&height=600&v=1777590031",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -166208,7 +166232,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/56219/vino-emine-kaberne-sov-merlo12-750ml-6981dc7056b07.webp?width=600&height=600&v=1777590031"
     },
     {
       "store": "Fantastico",
@@ -166254,7 +166279,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО MIDALIDARE МЕРЛО И КАБЕРНЕ ФРАН 750 МЛ МИДАЛИДАРЕ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -166264,7 +166288,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -166300,7 +166325,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО МЕРЛО ВИА АРИСТОТЕЛИС 750 МЛ ОРБЕЛИЯ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -166310,7 +166334,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Kaufland",
@@ -166402,7 +166427,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО МЕРЛО И МАЛБЕК 750 МЛ КОНТЕМПЛЕЙШЪН",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -166412,7 +166436,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -166458,7 +166483,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ШАРДОНЕ КОНТЕМПЛЕЙШЪНС 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -166468,7 +166492,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -166504,7 +166529,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО СОВИНЬОН БЛАН ZITARA 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -166514,7 +166538,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -166550,7 +166575,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО СИРА SANS BARRIQUE WILD FERMENTED 750 МЛ БРАТАНОВИ",
-      "image": "https://tmarketonline.bg/cdn/img/products/52227/vino-zagrej-sv-dimitar-sira-nalivno-1-5-l-64ba817e7c3bf.jpeg?width=600&height=600&v=1777589983",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -166560,7 +166584,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/52227/vino-zagrej-sv-dimitar-sira-nalivno-1-5-l-64ba817e7c3bf.jpeg?width=600&height=600&v=1777589983"
     },
     {
       "store": "Fantastico",
@@ -166596,7 +166621,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ВЕРМЕНТИНО STALLION СЕЛЕКШЪН 750 МЛ ЕЙНДЖЪЛС ЕСТЕЙТ",
-      "image": "https://tmarketonline.bg/cdn/img/products/49160/bio-vino-kefer-vermentino-750ml-63343e3505322.jpeg?width=600&height=600&v=1777589960",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -166606,7 +166630,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/49160/bio-vino-kefer-vermentino-750ml-63343e3505322.jpeg?width=600&height=600&v=1777589960"
     },
     {
       "store": "Fantastico",
@@ -166652,7 +166677,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО КАБЕРНЕ ФРАН STALLION СЕЛЕКШЪН 750 МЛ ЕЙНДЖЪЛС ЕСТЕЙТ",
-      "image": "https://tmarketonline.bg/cdn/img/products/41578/vino-le-photographe-kaberne-fran-750-ml-image_5efde7b5336c8.png?width=600&height=600&v=1777589897",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -166662,7 +166686,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/41578/vino-le-photographe-kaberne-fran-750-ml-image_5efde7b5336c8.png?width=600&height=600&v=1777589897"
     },
     {
       "store": "Fantastico",
@@ -166698,7 +166723,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО СИРА STALLION СЕЛЕКШЪН 750 МЛ ЕЙНДЖЪЛС ЕСТЕЙТ",
-      "image": "https://tmarketonline.bg/cdn/img/products/52227/vino-zagrej-sv-dimitar-sira-nalivno-1-5-l-64ba817e7c3bf.jpeg?width=600&height=600&v=1777589983",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -166708,7 +166732,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/52227/vino-zagrej-sv-dimitar-sira-nalivno-1-5-l-64ba817e7c3bf.jpeg?width=600&height=600&v=1777589983"
     },
     {
       "store": "Fantastico",
@@ -166744,7 +166769,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО МЕРЛО АМБЪР БАРИК 24/42 ESTATE 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -166754,7 +166778,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -166790,7 +166815,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО GEWURZTRAMINER РОСИДИ НИКОЛАЕВО 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20895674_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -166800,7 +166824,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20895674_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -166846,7 +166871,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ШАРДОНЕ EGG РОСИДИ НИКОЛАЕВО 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -166856,7 +166880,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -166948,7 +166973,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО МУСКАТ ГАЛЕРИЯ 750 МЛ ТОДОРОВ",
-      "image": "https://tmarketonline.bg/cdn/img/products/51843/vino-sophia-muskat-12--750ml-64abb0e7ec2a6.png?width=600&height=600&v=1777589982",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -166958,7 +166982,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/51843/vino-sophia-muskat-12--750ml-64abb0e7ec2a6.png?width=600&height=600&v=1777589982"
     },
     {
       "store": "Fantastico",
@@ -166994,7 +167019,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО МЕРЛО ГАЛЕРИЯ 750 МЛ ТОДОРОВ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -167004,7 +167028,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -167040,7 +167065,6 @@ const OFFERS_DATA = {
       "weight_grams": 700,
       "weight_raw": "700 мл",
       "name": "РАКИЯ КАЙЛЪШКА МУСКАТОВА 700 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20845832_P?JGstbGVnYWN5LW9uc2l0ZS0xJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -167050,7 +167074,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20845832_P?JGstbGVnYWN5LW9uc2l0ZS0xJA=="
     },
     {
       "store": "Kaufland",
@@ -167142,7 +167167,6 @@ const OFFERS_DATA = {
       "weight_grams": 700,
       "weight_raw": "700 мл",
       "name": "РАКИЯ БУРГАС МУСКАТОВА СПЕЦИАЛНА 700 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20845832_P?JGstbGVnYWN5LW9uc2l0ZS0xJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -167152,7 +167176,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20845832_P?JGstbGVnYWN5LW9uc2l0ZS0xJA=="
     },
     {
       "store": "Kaufland",
@@ -167189,6 +167214,52 @@ const OFFERS_DATA = {
       "weight_raw": "1 кг",
       "name": "Наслада Захар 10 бр. на покупка",
       "image": "https://kaufland.media.schwarz/is/image/schwarz/745114486172_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 10.56,
+      "new_price_eur": 5.4,
+      "old_price": 25.82,
+      "old_price_eur": 13.2,
+      "discount_pct": 59,
+      "valid_from": "2026-06-08",
+      "valid_until": "2026-07-05",
+      "price_per_kg": 10.56,
+      "price_per_kg_eur": 5.4,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 10.56,
+          "price_eur": 5.4,
+          "old_price": 25.82,
+          "old_price_eur": 13.2,
+          "discount_pct": 59,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 10.56,
+      "comparison_count": 1,
+      "product_id": "kaufland-сладея-захар-1000g",
+      "weight_grams": 1000,
+      "weight_raw": "1 кг",
+      "name": "Сладея Захар",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00026682_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -167244,7 +167315,6 @@ const OFFERS_DATA = {
       "weight_grams": 700,
       "weight_raw": "700 мл",
       "name": "РАКИЯ КАРНОБАТСКА ОТЛЕЖАЛА 700 МЛ",
-      "image": "https://tmarketonline.bg/cdn/img/products/44169/rakia-karnobatska-grozdova-40--200ml-image_5f9b5640b7e82.jpeg?width=600&height=600&v=1777589927",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -167254,7 +167324,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/44169/rakia-karnobatska-grozdova-40--200ml-image_5f9b5640b7e82.jpeg?width=600&height=600&v=1777589927"
     },
     {
       "store": "Kaufland",
@@ -167332,7 +167403,6 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "billa-сега-в-billa-ръчен-мини-вентилатор-8-x-2-5-x-18-5-см-3-7v-li-ion-1200mah-п",
       "name": "Сега в Billa - Ръчен мини вентилатор, 8 x 2,5 x 18,5 см, 3,7V, Li-ion 1200mAh Продукт, маркиран със синя звезда",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/f6983cb7-44ff-40ef-b101-b6b57d3d4858.png",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -167342,7 +167412,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/f6983cb7-44ff-40ef-b101-b6b57d3d4858.png"
     },
     {
       "store": "Fantastico",
@@ -167388,7 +167459,6 @@ const OFFERS_DATA = {
       "weight_grams": 700,
       "weight_raw": "700 мл",
       "name": "РАКИЯ ПОМОРИЙСКА МУСКАТОВА 700 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20845832_P?JGstbGVnYWN5LW9uc2l0ZS0xJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -167398,7 +167468,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20845832_P?JGstbGVnYWN5LW9uc2l0ZS0xJA=="
     },
     {
       "store": "Kaufland",
@@ -167704,7 +167775,6 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "billa-persil-гел-за-пране-19-20-22-пранета-1-изпиране-0-30-0-59-лв-19-пранета--3",
       "name": "Persil Гел за пране 19/20/22 пранета 1 изпиране = 0,30 €/0,59 лв./19 пранета, 0,28 €/0,55 лв./20 пранета, 0,26 €/0,51 лв./ 22 пранета",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20817707_596?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -167714,7 +167784,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20817707_596?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -167750,7 +167821,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ЧЕРВЕНО БЛЕК С 750 МЛ САНТА САРА БГ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -167760,7 +167830,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -167796,7 +167867,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО МАЛБЕК BOUTIQUE 750 МЛ",
-      "image": "https://tmarketonline.bg/cdn/img/products/48654/vino-contemplations-merlo-i-malbek-750ml-62bebe94d144b.jpeg?width=600&height=600&v=1777589954",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -167806,7 +167876,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/48654/vino-contemplations-merlo-i-malbek-750ml-62bebe94d144b.jpeg?width=600&height=600&v=1777589954"
     },
     {
       "store": "Fantastico",
@@ -167842,7 +167913,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО БЯЛО ENIRA WHITE 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -167852,7 +167922,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -167888,7 +167959,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО МАВРУД РЕЗЕРВА ZM HAND MADE 750 МЛ ЗАГРЕЙ",
-      "image": "https://tmarketonline.bg/cdn/img/products/39520/vino-menada-mavrud-750-ml-image_5ea2cdf89af10.png?width=600&height=600&v=1777589877",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -167898,7 +167968,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/39520/vino-menada-mavrud-750-ml-image_5ea2cdf89af10.png?width=600&height=600&v=1777589877"
     },
     {
       "store": "Kaufland",
@@ -168034,7 +168105,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ШАРДОНЕ 750 МЛ СТАРОСЕЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -168044,7 +168114,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -168090,7 +168161,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО МУСКАТ 750 МЛ СТАРОСЕЛ",
-      "image": "https://tmarketonline.bg/cdn/img/products/51843/vino-sophia-muskat-12--750ml-64abb0e7ec2a6.png?width=600&height=600&v=1777589982",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -168100,7 +168170,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/51843/vino-sophia-muskat-12--750ml-64abb0e7ec2a6.png?width=600&height=600&v=1777589982"
     },
     {
       "store": "Fantastico",
@@ -168136,7 +168207,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО БЯЛО СТЕЛИАН УАЙТ БЛЕНД 750 МЛ ЕЙНДЖЪЛС ЕСТЕЙТ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -168146,7 +168216,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": true,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -168192,7 +168263,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ЧЕРВЕНО ТЕРОАР 750 МЛ СТАРОСЕЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -168202,7 +168272,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -168386,7 +168457,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ЛЕ БЛАН 750 МЛ КАТАРЖИНА",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -168396,7 +168466,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -168442,7 +168513,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ЛЕ РУЖ 750 МЛ КАТАРЖИНА",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20895674_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -168452,7 +168522,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20895674_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -168498,7 +168569,6 @@ const OFFERS_DATA = {
       "weight_grams": 700,
       "weight_raw": "700 мл",
       "name": "РАКИЯ ТРОЯНСКА СЛИВОВА ОТЛЕЖАЛА 700 МЛ",
-      "image": "https://tmarketonline.bg/cdn/img/products/39576/rakia-troan-slivova-otlezala-40--700-ml-image_606ffebd6b077.jpeg?width=600&height=600&v=1777589942",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -168508,7 +168578,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/39576/rakia-troan-slivova-otlezala-40--700-ml-image_606ffebd6b077.jpeg?width=600&height=600&v=1777589942"
     },
     {
       "store": "Kaufland",
@@ -168598,7 +168669,6 @@ const OFFERS_DATA = {
       "weight_grams": 700,
       "weight_raw": "700 мл",
       "name": "РАКИЯ ТРОЯНСКА КАЙСИЕВА 700 МЛ",
-      "image": "https://tmarketonline.bg/cdn/img/products/41628/rakia-troan-kajsieva-38--700-ml-image_5f281293589d4.png?width=600&height=600&v=1777589896",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -168608,7 +168678,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/41628/rakia-troan-kajsieva-38--700-ml-image_5f281293589d4.png?width=600&height=600&v=1777589896"
     },
     {
       "store": "Kaufland",
@@ -168734,7 +168805,6 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "billa-сега-в-billa-комплект-за-пясък-6-части",
       "name": "Сега в Billa - Комплект за пясък, 6 части",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627648366_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -168744,7 +168814,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627648366_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -168790,7 +168861,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО КЮВЕ 750 МЛ БРАТЯ МИНКОВИ",
-      "image": "https://tmarketonline.bg/cdn/img/products/41595/vino-enira-grand-kuve-750-ml-image_5efde7f347f68.png?width=600&height=600&v=1777589891",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -168800,7 +168870,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/41595/vino-enira-grand-kuve-750-ml-image_5efde7f347f68.png?width=600&height=600&v=1777589891"
     },
     {
       "store": "Fantastico",
@@ -168834,7 +168905,6 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "fantastico-колбас-деликатесен-шпек-витрина-мк-братя-радеви-farm",
       "name": "КОЛБАС ДЕЛИКАТЕСЕН ШПЕК ВИТРИНА МК БРАТЯ РАДЕВИ FARM",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00045136_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -168844,7 +168914,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00045136_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -168890,7 +168961,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ШАРДОНЕ 750 МЛ БРАТЯ МИНКОВИ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -168900,7 +168970,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -168946,7 +169017,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО МЕРЛО БРАТЯ МИНКОВИ 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -168956,7 +169026,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -168992,7 +169063,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "Б - ВИНО БЯЛО КЮВЕ БРАТЯ МИНКОВИ 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -169002,7 +169072,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -169038,7 +169109,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО СОВИНЬОН БЛАН ВИЛА ОВЧАРОВО 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -169048,7 +169118,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -169084,7 +169155,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ШАРДОНЕ OAK FREE ВИЛА ОВЧАРОВО 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -169094,7 +169164,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -169130,7 +169201,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО СИРА КАБ. ФРАН КАРМЕНЕР ДОГМА ЗААРА ЕСТЕЙТ 750 МЛ",
-      "image": "https://tmarketonline.bg/cdn/img/products/52227/vino-zagrej-sv-dimitar-sira-nalivno-1-5-l-64ba817e7c3bf.jpeg?width=600&height=600&v=1777589983",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -169140,7 +169210,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/52227/vino-zagrej-sv-dimitar-sira-nalivno-1-5-l-64ba817e7c3bf.jpeg?width=600&height=600&v=1777589983"
     },
     {
       "store": "Fantastico",
@@ -169176,7 +169247,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ТАМЯНКА ДОГМА ЗААРА ЕСТЕЙТ 750 МЛ",
-      "image": "https://tmarketonline.bg/cdn/img/products/43549/vino-kanti-premium-estejt-barolo-docg-ml-image_5f4cb98c2e2e0.jpeg?width=600&height=600&v=1777589905",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -169186,7 +169256,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/43549/vino-kanti-premium-estejt-barolo-docg-ml-image_5f4cb98c2e2e0.jpeg?width=600&height=600&v=1777589905"
     },
     {
       "store": "Kaufland",
@@ -169486,7 +169557,6 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "billa-сега-в-billa-papia-кухненска-ролка-3-пласта-8-4-бр-в-опаковка-продукт-марк",
       "name": "Сега в Billa - Papia Кухненска ролка 3 пласта 8 + 4 бр. в опаковка Продукт, маркиран със синя звезда",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/326beccd-79b2-4abd-b088-382ec3828689.png",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -169496,7 +169566,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/326beccd-79b2-4abd-b088-382ec3828689.png"
     },
     {
       "store": "Fantastico",
@@ -169542,7 +169613,6 @@ const OFFERS_DATA = {
       "weight_grams": 700,
       "weight_raw": "700 мл",
       "name": "РАКИЯ СУНГУРЛАРСКА СПЕЦИАЛНА 700 МЛ СЛАВЯНЦИ",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/0f861f52-bb3e-4ef3-86f9-d7c32c6c9683.png",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -169552,7 +169622,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/0f861f52-bb3e-4ef3-86f9-d7c32c6c9683.png"
     },
     {
       "store": "Fantastico",
@@ -169588,7 +169659,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ЕНИРА ЧЕРВЕНО 750 МЛ БЕСА ВАЛЕЙ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -169598,7 +169668,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Kaufland",
@@ -169780,7 +169851,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО СОВИНЬОН БЛАН LE PHOTOGRAPHE 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -169790,7 +169860,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -169836,7 +169907,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО КАБЕРНЕ ФРАН LE PHOTOGRAPHE 750 МЛ",
-      "image": "https://tmarketonline.bg/cdn/img/products/41578/vino-le-photographe-kaberne-fran-750-ml-image_5efde7b5336c8.png?width=600&height=600&v=1777589897",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -169846,7 +169916,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/41578/vino-le-photographe-kaberne-fran-750-ml-image_5efde7b5336c8.png?width=600&height=600&v=1777589897"
     },
     {
       "store": "Fantastico",
@@ -169882,7 +169953,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО СОВИНЬОН БЛАН 750 МЛ ШАТО БУРГОЗОНЕ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -169892,7 +169962,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -169938,7 +170009,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ПИНО НОАР LE PHOTOGRAPHE 750 МЛ",
-      "image": "https://tmarketonline.bg/cdn/img/products/41580/vino-le-photographe-pino-noar-750-ml-image_5efde7bc33e0b.png?width=600&height=600&v=1777589898",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -169948,7 +170018,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/41580/vino-le-photographe-pino-noar-750-ml-image_5efde7bc33e0b.png?width=600&height=600&v=1777589898"
     },
     {
       "store": "Fantastico",
@@ -169984,7 +170055,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО СОВ. БЛАН ЧИФЛИК ЛИВАДИ ОРГАНИК 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -169994,7 +170064,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -170030,7 +170101,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО СИРА РОСИДИ НИКОЛАЕВО 750 МЛ",
-      "image": "https://tmarketonline.bg/cdn/img/products/52227/vino-zagrej-sv-dimitar-sira-nalivno-1-5-l-64ba817e7c3bf.jpeg?width=600&height=600&v=1777589983",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -170040,7 +170110,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/52227/vino-zagrej-sv-dimitar-sira-nalivno-1-5-l-64ba817e7c3bf.jpeg?width=600&height=600&v=1777589983"
     },
     {
       "store": "Fantastico",
@@ -170086,7 +170157,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ЧИФЛИК ЛИВАДИ ЧЕРВЕНО ОРГАНИК 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -170096,7 +170166,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Kaufland",
@@ -170368,7 +170439,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ВРАЧАНСКИ МИСКЕТ И РИЗЛИНГ ОРАКУЛЪТ МАГУРА 750 МЛ",
-      "image": "https://tmarketonline.bg/cdn/img/products/49577/vino-bulgarian-heritage-misket-750-ml-63736ae0a43f6.png?width=600&height=600&v=1777589961",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -170378,7 +170448,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/49577/vino-bulgarian-heritage-misket-750-ml-63736ae0a43f6.png?width=600&height=600&v=1777589961"
     },
     {
       "store": "Fantastico",
@@ -170424,7 +170495,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО СИРА И МЕЛБЕК И КАБ. ФРАН ЛОВЕЦЪТ МАГУРА 750 МЛ",
-      "image": "https://tmarketonline.bg/cdn/img/products/52227/vino-zagrej-sv-dimitar-sira-nalivno-1-5-l-64ba817e7c3bf.jpeg?width=600&height=600&v=1777589983",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -170434,7 +170504,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/52227/vino-zagrej-sv-dimitar-sira-nalivno-1-5-l-64ba817e7c3bf.jpeg?width=600&height=600&v=1777589983"
     },
     {
       "store": "Billa",
@@ -170796,7 +170867,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО LEVENT ТРАМИНЕР И ВРАЧАНСКИ МИСКЕТ 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/571_01800702?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -170806,7 +170876,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/571_01800702?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -170842,7 +170913,6 @@ const OFFERS_DATA = {
       "weight_grams": 700,
       "weight_raw": "700 мл",
       "name": "РАКИЯ ГРОЗДОВА ТАБИЕТ 700 МЛ",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/0f861f52-bb3e-4ef3-86f9-d7c32c6c9683.png",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -170852,7 +170922,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/0f861f52-bb3e-4ef3-86f9-d7c32c6c9683.png"
     },
     {
       "store": "Fantastico",
@@ -170888,7 +170959,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО LEVENT K2 КАБЕРНЕ СОВ. И КАБЕРНЕ ФРАН 750 МЛ",
-      "image": "https://tmarketonline.bg/cdn/img/products/56219/vino-emine-kaberne-sov-merlo12-750ml-6981dc7056b07.webp?width=600&height=600&v=1777590031",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -170898,7 +170968,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/56219/vino-emine-kaberne-sov-merlo12-750ml-6981dc7056b07.webp?width=600&height=600&v=1777590031"
     },
     {
       "store": "Fantastico",
@@ -170934,7 +171005,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО РУСАН И МАРСАН FATES 750 МЛ АЛЕКСАНДРА ЕСТЕЙТ",
-      "image": "https://tmarketonline.bg/cdn/img/products/43549/vino-kanti-premium-estejt-barolo-docg-ml-image_5f4cb98c2e2e0.jpeg?width=600&height=600&v=1777589905",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -170944,7 +171014,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/43549/vino-kanti-premium-estejt-barolo-docg-ml-image_5f4cb98c2e2e0.jpeg?width=600&height=600&v=1777589905"
     },
     {
       "store": "Fantastico",
@@ -170980,7 +171051,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО БЯЛО МИЛЕЗИМ 750 МЛ СТАРОСЕЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -170990,7 +171060,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Kaufland",
@@ -171070,7 +171141,6 @@ const OFFERS_DATA = {
       "weight_grams": 700,
       "weight_raw": "0,7 л",
       "name": "Супер цена - Old Smuggler Уиски 0,7 л Продукт, маркиран със синя звезда",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/f6983cb7-44ff-40ef-b101-b6b57d3d4858.png",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -171080,7 +171150,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/44357/uiski-old-smuggler-40--700ml-image_5f9b54db0a387.jpeg?width=600&height=600&v=1777589926"
     },
     {
       "store": "Billa",
@@ -171116,7 +171187,6 @@ const OFFERS_DATA = {
       "weight_grams": 400,
       "weight_raw": "400 мл",
       "name": "Lactacyd Интимен гел 400 мл",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/5999518571322_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -171126,7 +171196,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/5999518571322_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -171162,7 +171233,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "Б - ВИНО ШАРДОНЕ БЕЗ ДЪБ LEVENT 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -171172,7 +171242,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -171208,7 +171279,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ЧЕРВЕНО PETITE SARAH 750 МЛ САНТА САРА",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -171218,7 +171288,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Kaufland",
@@ -171436,7 +171507,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО МЕРЛО ХИПНОЗА РЕЗЕРВА 750 МЛ ЛОГОДАЖ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800097107067_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -171446,7 +171516,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -171482,7 +171553,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО БЯЛО КАПАТОВО 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -171492,7 +171562,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -171528,7 +171599,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО КАБЕРНЕ ФРАН ZITARA 750 МЛ",
-      "image": "https://tmarketonline.bg/cdn/img/products/41578/vino-le-photographe-kaberne-fran-750-ml-image_5efde7b5336c8.png?width=600&height=600&v=1777589897",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -171538,7 +171608,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/41578/vino-le-photographe-kaberne-fran-750-ml-image_5efde7b5336c8.png?width=600&height=600&v=1777589897"
     },
     {
       "store": "Fantastico",
@@ -171574,7 +171645,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ЧЕРВЕНО КАПАТОВО 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -171584,7 +171654,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -171630,7 +171701,6 @@ const OFFERS_DATA = {
       "weight_grams": 700,
       "weight_raw": "700 мл",
       "name": "РАКИЯ БУРГАСКА МУСКАТОВА 7 ГОД 700 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20845832_P?JGstbGVnYWN5LW9uc2l0ZS0xJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -171640,7 +171710,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20845832_P?JGstbGVnYWN5LW9uc2l0ZS0xJA=="
     },
     {
       "store": "Kaufland",
@@ -171674,7 +171745,7 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "kaufland-емека-тоалетна-хартия-различни-видове",
       "name": "Емека Тоалетна хартия различни видове",
-      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_00080967_P.jpg",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800024035296_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "hygiene",
       "emoji": "🧴",
       "is_food": false,
@@ -171720,7 +171791,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО КАБЕРНЕ СОВИНЬОН КАСТЕЛУМ 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -171730,7 +171800,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -171766,7 +171837,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ШАРДОНЕ БАРИК КАСТЕЛУМ 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -171776,7 +171846,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -171812,7 +171883,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО РУБИН РОСИДИ НИКОЛАЕВО 750 МЛ",
-      "image": "https://tmarketonline.bg/cdn/img/products/43963/vino-mavrud-rubin-korten-750ml-image_5f4cbb6bac91d.png?width=600&height=600&v=1777589911",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -171822,7 +171892,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/43963/vino-mavrud-rubin-korten-750ml-image_5f4cbb6bac91d.png?width=600&height=600&v=1777589911"
     },
     {
       "store": "Fantastico",
@@ -171858,7 +171929,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ШАРДОНЕ БАРИК КОЛЕКШЪН ШАТО БУРГОЗОНЕ 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -171868,7 +171938,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Kaufland",
@@ -172124,7 +172195,6 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "billa-gillette-venus-sensitive-самобръсначки-3-1-бр",
       "name": "Gillette Venus Sensitive самобръсначки 3+1 бр=",
-      "image": "https://cdn.metro-group.com/bg/bg_pim_334876001001_02.png?format=jpg&quality=80&dpi=72",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -172134,7 +172204,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://cdn.metro-group.com/bg/bg_pim_334876001001_02.png?format=jpg&quality=80&dpi=72"
     },
     {
       "store": "Kaufland",
@@ -172224,7 +172295,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО СИРА КОРТЕН 750 МЛ",
-      "image": "https://tmarketonline.bg/cdn/img/products/52227/vino-zagrej-sv-dimitar-sira-nalivno-1-5-l-64ba817e7c3bf.jpeg?width=600&height=600&v=1777589983",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -172234,7 +172304,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/52227/vino-zagrej-sv-dimitar-sira-nalivno-1-5-l-64ba817e7c3bf.jpeg?width=600&height=600&v=1777589983"
     },
     {
       "store": "Fantastico",
@@ -172270,7 +172341,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО УНИКАТО МЕЛНИК 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20895674_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -172280,7 +172350,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20895674_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -172316,7 +172387,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО УНИКАТО РУБИН 750 МЛ",
-      "image": "https://tmarketonline.bg/cdn/img/products/43963/vino-mavrud-rubin-korten-750ml-image_5f4cbb6bac91d.png?width=600&height=600&v=1777589911",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -172326,7 +172396,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/43963/vino-mavrud-rubin-korten-750ml-image_5f4cbb6bac91d.png?width=600&height=600&v=1777589911"
     },
     {
       "store": "Fantastico",
@@ -172362,7 +172433,6 @@ const OFFERS_DATA = {
       "weight_grams": 700,
       "weight_raw": "700 мл",
       "name": "РАКИЯ ТАБИЕТ СЛИВОВА 700 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800032070272_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -172372,7 +172442,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800032070272_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -172408,7 +172479,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО РАБИШ ТРАМИНЕР 750 МЛ MY CHOICE",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/571_01800702?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -172418,7 +172488,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/571_01800702?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -172454,7 +172525,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО БЯЛО РАБИША ВРАЧАНСКИ МИСКЕТ И ТРАМИНЕР 750 МЛ MY CHOIC",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/571_01800702?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -172464,7 +172534,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/571_01800702?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -172500,7 +172571,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО БЯЛО РАБИША СОВИНЬОН БЛАН И ШАРДОНЕ 750 МЛ MY CHOICE",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -172510,7 +172580,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Kaufland",
@@ -172680,7 +172751,6 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "billa-сега-в-billa-комплект-за-бадминтон-4-части",
       "name": "Сега в Billa - Комплект за бадминтон - 4 части",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627648366_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -172690,7 +172760,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627648366_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Billa",
@@ -172724,7 +172795,6 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "billa-сега-в-billa-комплект-маска-и-шнорхел-1-бр-продукт-маркиран-със-синя-звезд",
       "name": "Сега в Billa - Комплект маска и шнорхел 1 бр. Продукт, маркиран със синя звезда",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/f6983cb7-44ff-40ef-b101-b6b57d3d4858.png",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -172734,7 +172804,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/f6983cb7-44ff-40ef-b101-b6b57d3d4858.png"
     },
     {
       "store": "Billa",
@@ -172770,7 +172841,6 @@ const OFFERS_DATA = {
       "weight_grams": 10000,
       "weight_raw": "10 л",
       "name": "Сега в Billa - Термораница, 10 л, 23 х 15 х 36 см Продукт, маркиран със синя звезда",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/f6983cb7-44ff-40ef-b101-b6b57d3d4858.png",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -172780,7 +172850,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/f6983cb7-44ff-40ef-b101-b6b57d3d4858.png"
     },
     {
       "store": "Fantastico",
@@ -172826,7 +172897,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО LEVENT СОВИНЬОН БЛАН 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -172836,7 +172906,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -172872,7 +172943,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ШАРДОНЕ LEVENT БАРЕЛ ФЕРМЕНТЕД 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -172882,7 +172952,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -172918,7 +172989,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ЕНИРА РЕЗЕРВА 750 МЛ",
-      "image": "https://tmarketonline.bg/cdn/img/products/55859/vino-emine-sardone-rezerva-13-5--750ml-68684a184bf90.png?width=600&height=600&v=1777590024",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -172928,7 +172998,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/55859/vino-emine-sardone-rezerva-13-5--750ml-68684a184bf90.png?width=600&height=600&v=1777590024"
     },
     {
       "store": "Billa",
@@ -172964,7 +173035,6 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 кг",
       "name": "Лазаня Болонезе От топлата витрина За 1 кг Billa Ready",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/4063367264108_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -172974,7 +173044,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4063367264108_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Kaufland",
@@ -173190,7 +173261,6 @@ const OFFERS_DATA = {
       "weight_grams": 700,
       "weight_raw": "0,7 л",
       "name": "12 Узо 0,7 л Продукт, маркиран със синя звезда",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/f6983cb7-44ff-40ef-b101-b6b57d3d4858.png",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -173200,7 +173270,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/f6983cb7-44ff-40ef-b101-b6b57d3d4858.png"
     },
     {
       "store": "Kaufland",
@@ -173324,7 +173395,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО КАБЕРНЕ СОВИНЬОН БРЕНДИ КАСК 750 МЛ ПОМОРИЕ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -173334,7 +173404,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -173378,7 +173449,6 @@ const OFFERS_DATA = {
       "comparison_count": 2,
       "product_id": "fantastico-колбас-сух-бургас-ф70-маджаров-витрина-пр-д-българия",
       "name": "КОЛБАС СУХ  БУРГАС Ф70  МАДЖАРОВ ВИТРИНА,ПР-Д БЪЛГАРИЯ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/01004259_Promo_515754?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -173388,7 +173458,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/01004259_Promo_515754?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -173432,7 +173503,6 @@ const OFFERS_DATA = {
       "comparison_count": 2,
       "product_id": "fantastico-колбас-сух-шпек-ф70-витрина-маджаров-пр-д-българия",
       "name": "КОЛБАС СУХ ШПЕК Ф70 ВИТРИНА МАДЖАРОВ, ПР-Д БЪЛГАРИЯ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/01004259_Promo_515754?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -173442,7 +173512,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/01004259_Promo_515754?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -173524,7 +173595,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО БЯЛО 3 БЛЕНД 750 МЛ БРАТАНОВИ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -173534,7 +173604,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": true,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Kaufland",
@@ -173746,7 +173817,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ГЪМЗА SINGLE VINEYARDS 750 МЛ БОНОНИЯ ЕСТЕЙТ",
-      "image": "https://tmarketonline.bg/cdn/img/products/49158/vino-lovico-kabernegamza-kraftsman-750-63343d36a7c2e.jpeg?width=600&height=600&v=1777589960",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -173756,7 +173826,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/49158/vino-lovico-kabernegamza-kraftsman-750-63343d36a7c2e.jpeg?width=600&height=600&v=1777589960"
     },
     {
       "store": "Fantastico",
@@ -173792,7 +173863,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ШАРДОНЕ ПЛАТИНУМ БАРЕЛ ФЕРМЕНТ 750 МЛ ДОМЕЙН БОЙАР",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -173802,7 +173872,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -173838,7 +173909,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО МЕРЛО ПЛАТИНИУМ 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -173848,7 +173918,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Kaufland",
@@ -174152,7 +174223,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ЕНОТЕКА СОВИНЬОН БЛАН 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -174162,7 +174232,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Billa",
@@ -174196,7 +174267,6 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "billa-alvina-гел-за-пране-60-66-пранета-произход-българия-1-изпиране-0-15-0-29-л",
       "name": "Alvina Гел за пране 60/66 пранета Произход - България 1 изпиране = 0,15 €/0,29 лв./60 пранета, 0,14 €/0,27 лв./66 пранета",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20817707_596?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -174206,7 +174276,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20817707_596?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Kaufland",
@@ -174374,7 +174445,6 @@ const OFFERS_DATA = {
       "weight_grams": 3500,
       "weight_raw": "3,5 л",
       "name": "Сега в Billa - Стъклен диспенсър за летни напитки 3,5 л 1 бр. Продукт, маркиран със синя звезда",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/f6983cb7-44ff-40ef-b101-b6b57d3d4858.png",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -174384,7 +174454,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": true,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/f6983cb7-44ff-40ef-b101-b6b57d3d4858.png"
     },
     {
       "store": "Billa",
@@ -174420,7 +174491,6 @@ const OFFERS_DATA = {
       "weight_grams": 1100,
       "weight_raw": "1,1 л",
       "name": "Сега в Billa - Paw Patrol Воден пистолет с резервоар 1,1 л, дължина на струята 8 - 10 м, 1 бр.",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20835082?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -174430,7 +174500,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20835082?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -174466,7 +174537,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ORANGE GEWURZTRAMINER РОСИДИ НИКОЛАЕВО 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20895674_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -174476,7 +174546,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20895674_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Kaufland",
@@ -174556,7 +174627,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО EAGER ШАРДОНЕ 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -174566,7 +174636,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Kaufland",
@@ -174826,7 +174897,6 @@ const OFFERS_DATA = {
       "weight_grams": 700,
       "weight_raw": "700 мл",
       "name": "РАКИЯ СПЕЦИАЛНА РУБАЯТ 700 МЛ ПРЕСЛАВ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20870478_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -174836,7 +174906,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20870478_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -174882,7 +174953,6 @@ const OFFERS_DATA = {
       "weight_grams": 700,
       "weight_raw": "700 мл",
       "name": "РАКИЯ РУБАЯТ ОТЛЕЖАЛА 15 ГОД. 700 МЛ ПРЕСЛАВ",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/0f861f52-bb3e-4ef3-86f9-d7c32c6c9683.png",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -174892,7 +174962,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/0f861f52-bb3e-4ef3-86f9-d7c32c6c9683.png"
     },
     {
       "store": "Fantastico",
@@ -174928,7 +174999,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ШАРДОНЕ 750 МЛ САНТА САРА",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -174938,7 +175008,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Kaufland",
@@ -175416,7 +175487,6 @@ const OFFERS_DATA = {
       "weight_grams": 2000,
       "weight_raw": "2 л",
       "name": "Sano Maxima Sensitive Гел за пране 2 л 1 изпиране = 0,33 €/0,65 лв./30 пранета",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20817707_596?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -175426,7 +175496,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20817707_596?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Billa",
@@ -175506,7 +175577,6 @@ const OFFERS_DATA = {
       "weight_grams": 700,
       "weight_raw": "0,7 л",
       "name": "Супер цена - Ballantine's Уиски 0,7 л",
-      "image": "https://tmarketonline.bg/cdn/img/products/39326/uiski-ballantines-40--700-ml-image_5ea2ca9edb707.png?width=600&height=600&v=1777589877",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -175516,7 +175586,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/39326/uiski-ballantines-40--700-ml-image_5ea2ca9edb707.png?width=600&height=600&v=1777589877"
     },
     {
       "store": "Kaufland",
@@ -175690,7 +175761,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО МЕРЛО КАБ. ФРАН И РУБИН 750 МЛ БРАТАНОВИ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -175700,7 +175770,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Kaufland",
@@ -176014,7 +176085,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО МАВРУД ВИНИЦА 750 МЛ ЗАГРЕЙ",
-      "image": "https://tmarketonline.bg/cdn/img/products/39520/vino-menada-mavrud-750-ml-image_5ea2cdf89af10.png?width=600&height=600&v=1777589877",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -176024,7 +176094,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/39520/vino-menada-mavrud-750-ml-image_5ea2cdf89af10.png?width=600&height=600&v=1777589877"
     },
     {
       "store": "Fantastico",
@@ -176060,7 +176131,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ОРБЕЛИЯ МЕЛНИК 55 ЕСТЕЙТ РЕЗЕРВА 750 МЛ",
-      "image": "https://tmarketonline.bg/cdn/img/products/55859/vino-emine-sardone-rezerva-13-5--750ml-68684a184bf90.png?width=600&height=600&v=1777590024",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -176070,7 +176140,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/55859/vino-emine-sardone-rezerva-13-5--750ml-68684a184bf90.png?width=600&height=600&v=1777590024"
     },
     {
       "store": "Fantastico",
@@ -176116,7 +176187,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО РЕДАРК 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20895674_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -176126,7 +176196,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20895674_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Kaufland",
@@ -176292,7 +176363,6 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "billa-сега-в-billa-детски-стол-за-къмпинг-35-х-35-х-60-см-продукт-маркиран-със-с",
       "name": "Сега в Billa - Детски стол за къмпинг, 35 х 35 х 60 см Продукт, маркиран със синя звезда",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/f6983cb7-44ff-40ef-b101-b6b57d3d4858.png",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -176302,7 +176372,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/f6983cb7-44ff-40ef-b101-b6b57d3d4858.png"
     },
     {
       "store": "Kaufland",
@@ -176382,7 +176453,6 @@ const OFFERS_DATA = {
       "weight_grams": 400,
       "weight_raw": "400 мл",
       "name": "Veet Депилиращ крем 400 мл",
-      "image": "https://api.bulmag.org/thumbnails/9c444724855cff9006480650bb6b6e6d.jpeg",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -176392,7 +176462,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://api.bulmag.org/thumbnails/9c444724855cff9006480650bb6b6e6d.jpeg"
     },
     {
       "store": "Kaufland",
@@ -176516,7 +176587,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО КУЕСТЧЪН МАРК  750 МЛ КАТАРЖИНА",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20895674_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -176526,7 +176596,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20895674_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -176572,7 +176643,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО СИРА ENCORE 750 МЛ КАТАРЖИНА",
-      "image": "https://tmarketonline.bg/cdn/img/products/52227/vino-zagrej-sv-dimitar-sira-nalivno-1-5-l-64ba817e7c3bf.jpeg?width=600&height=600&v=1777589983",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -176582,7 +176652,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/52227/vino-zagrej-sv-dimitar-sira-nalivno-1-5-l-64ba817e7c3bf.jpeg?width=600&height=600&v=1777589983"
     },
     {
       "store": "Fantastico",
@@ -176618,7 +176689,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ЛЕЗ АМАНДИЕ БЯЛО 750 МЛ КАТАРЖИНА",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -176628,7 +176698,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -176664,7 +176735,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО МАВРУД 750 МЛ КАТАРЖИНА",
-      "image": "https://tmarketonline.bg/cdn/img/products/39520/vino-menada-mavrud-750-ml-image_5ea2cdf89af10.png?width=600&height=600&v=1777589877",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -176674,7 +176744,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/39520/vino-menada-mavrud-750-ml-image_5ea2cdf89af10.png?width=600&height=600&v=1777589877"
     },
     {
       "store": "Fantastico",
@@ -176710,7 +176781,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО РУБИН 750 МЛ КАТАРЖИНА",
-      "image": "https://tmarketonline.bg/cdn/img/products/43963/vino-mavrud-rubin-korten-750ml-image_5f4cbb6bac91d.png?width=600&height=600&v=1777589911",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -176720,7 +176790,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/43963/vino-mavrud-rubin-korten-750ml-image_5f4cbb6bac91d.png?width=600&height=600&v=1777589911"
     },
     {
       "store": "Kaufland",
@@ -176798,7 +176869,6 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "billa-сега-в-billa-butcher-s-2-в-1-сгъваема-кошница-с-масичка-за-къмпинг-45-х-28",
       "name": "Сега в Billa - Butcher’s 2 в 1 Сгъваема кошница с масичка за къмпинг, 45 х 28 х 23см Продукт, маркиран със синя звезда",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/f6983cb7-44ff-40ef-b101-b6b57d3d4858.png",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -176808,7 +176878,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/f6983cb7-44ff-40ef-b101-b6b57d3d4858.png"
     },
     {
       "store": "Billa",
@@ -176842,7 +176913,6 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "billa-сега-в-billa-стол-за-къмпинг-1-бр-продукт-маркиран-със-синя-звезда",
       "name": "Сега в Billa - Стол за къмпинг 1 бр. Продукт, маркиран със синя звезда",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/f6983cb7-44ff-40ef-b101-b6b57d3d4858.png",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -176852,7 +176922,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/f6983cb7-44ff-40ef-b101-b6b57d3d4858.png"
     },
     {
       "store": "Fantastico",
@@ -176888,7 +176959,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО КАБЕРНЕ СОВ. БИН 40 750 МЛ САНТА САРА",
-      "image": "https://tmarketonline.bg/cdn/img/products/51856/vino-santa-sara-bin-40-kab--sov--750ml-64abbe4eb3788.png?width=600&height=600&v=1777589980",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -176898,7 +176968,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/51856/vino-santa-sara-bin-40-kab--sov--750ml-64abbe4eb3788.png?width=600&height=600&v=1777589980"
     },
     {
       "store": "Fantastico",
@@ -176944,7 +177015,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО МЕРЛО БИН 41 750 МЛ САНТА САРА",
-      "image": "https://tmarketonline.bg/cdn/img/products/51856/vino-santa-sara-bin-40-kab--sov--750ml-64abbe4eb3788.png?width=600&height=600&v=1777589980",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -176954,7 +177024,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/51856/vino-santa-sara-bin-40-kab--sov--750ml-64abbe4eb3788.png?width=600&height=600&v=1777589980"
     },
     {
       "store": "Kaufland",
@@ -177120,7 +177191,6 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "billa-сега-в-billa-vivess-термораница-или-термочанта-различни-цветове-продукт-ма",
       "name": "Сега в Billa - Vivess Термораница или термочанта, различни цветове Продукт, маркиран със синя звезда",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/f6983cb7-44ff-40ef-b101-b6b57d3d4858.png",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -177130,7 +177200,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/f6983cb7-44ff-40ef-b101-b6b57d3d4858.png"
     },
     {
       "store": "Kaufland",
@@ -177300,7 +177371,6 @@ const OFFERS_DATA = {
       "weight_grams": 700,
       "weight_raw": "0,7 л",
       "name": "Супер цена - Bushmills Ирландско Уиски 0,7 л",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/9a0d13f4-203f-4a95-90db-67ea16d28cd5.png",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -177310,7 +177380,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/9a0d13f4-203f-4a95-90db-67ea16d28cd5.png"
     },
     {
       "store": "Billa",
@@ -177346,7 +177417,6 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 кг",
       "name": "Goldsteig Ементал От деликатесната витрина За 1 кг",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20895062_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -177356,7 +177426,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20895062_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Kaufland",
@@ -177436,7 +177507,6 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 л",
       "name": "Finlandia Водка 1 л",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/02200211_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -177446,7 +177516,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/02200211_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Kaufland",
@@ -177568,7 +177639,6 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "billa-сега-в-billa-butcher-s-грил-чанта-за-принадлежности-1-бр",
       "name": "Сега в Billa - Butcher’s Грил чанта за принадлежности 1 бр.",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/24b94929-4d73-448d-b2b4-38e293918dc4.png",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -177578,7 +177648,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627502279_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Billa",
@@ -177612,7 +177683,6 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "billa-сега-в-billa-paw-patrol-детско-пончо-50-х-100-см-продукт-маркиран-със-синя",
       "name": "Сега в Billa - Paw Patrol Детско пончо 50 х 100 см Продукт, маркиран със синя звезда",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/f6983cb7-44ff-40ef-b101-b6b57d3d4858.png",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -177622,7 +177692,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/f6983cb7-44ff-40ef-b101-b6b57d3d4858.png"
     },
     {
       "store": "Billa",
@@ -177656,7 +177727,6 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "billa-сега-в-billa-електрически-воден-пистолет-51-см-дължина-на-струята-8-м-прод",
       "name": "Сега в Billa - Електрически воден пистолет, 51 см, дължина на струята 8 м Продукт, маркиран със синя звезда",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/f6983cb7-44ff-40ef-b101-b6b57d3d4858.png",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -177666,7 +177736,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/f6983cb7-44ff-40ef-b101-b6b57d3d4858.png"
     },
     {
       "store": "Fantastico",
@@ -177702,7 +177773,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО OAK TREE 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20895674_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -177712,7 +177782,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20895674_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Kaufland",
@@ -177836,7 +177907,6 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "billa-сега-в-billa-perwoll-гел-за-пране-80-пранета-продукт-маркиран-със-синя-з-2",
       "name": "Сега в Billa - Perwoll Гел за пране 80 пранета Продукт, маркиран със синя звезда 1 изпиране = 0,17 €/0,33 лв./80 пранета",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20817707_596?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -177846,7 +177916,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20817707_596?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -177882,7 +177953,6 @@ const OFFERS_DATA = {
       "weight_grams": 700,
       "weight_raw": "700 мл",
       "name": "РАКИЯ ТРОЯНСКА СЛИВОВА РЕЗЕРВА 12 ГОД. 700 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800032070272_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -177892,7 +177962,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800032070272_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Kaufland",
@@ -178064,7 +178135,6 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 л",
       "name": "Four Roses Бърбън 1 л Продукт, маркиран със синя звезда",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/f6983cb7-44ff-40ef-b101-b6b57d3d4858.png",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -178074,7 +178144,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/f6983cb7-44ff-40ef-b101-b6b57d3d4858.png"
     },
     {
       "store": "Billa",
@@ -178198,7 +178269,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ШАРДОНЕ ЛЬО МАНИФИК 750 МЛ КАТАРЖИНА БЯЛО",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -178208,7 +178278,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Kaufland",
@@ -178286,7 +178357,6 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "billa-сега-в-billa-комплект-касероли-за-къмпинг-2-броя-продукт-маркиран-със-синя",
       "name": "Сега в Billa - Комплект касероли за къмпинг 2 броя Продукт, маркиран със синя звезда",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/f6983cb7-44ff-40ef-b101-b6b57d3d4858.png",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -178296,7 +178366,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/f6983cb7-44ff-40ef-b101-b6b57d3d4858.png"
     },
     {
       "store": "Billa",
@@ -178330,7 +178401,6 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "billa-сега-в-billa-savex-premium-гел-за-пране-112-пранета-или-капсули-72-бр-1--2",
       "name": "Сега в Billa - Savex Premium Гел за пране 112 пранета или Капсули 72 бр. 1 опаковка Произход - България Продукт, маркиран със синя звезда 1 изпиране = 0,14 €/0,27 лв./112 пранета, 0,21 €/0,41 лв./72 пранета",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20817707_596?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -178340,7 +178410,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20817707_596?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Billa",
@@ -178374,7 +178445,6 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "billa-ariel-гел-за-пране-60-пранета-или-гел-капсули-44-бр-1-опаковка-продукт-мар",
       "name": "Ariel Гел за пране 60 пранета или Гел капсули 44 бр. 1 опаковка Продукт, маркиран със синя звезда 1 изпиране = 0,25 €/0,49 лв./60 пранета, 0,35 €/0,68 лв./ 44 пранета",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20817707_596?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -178384,7 +178454,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20817707_596?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Kaufland",
@@ -178462,7 +178533,6 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "billa-сега-в-billa-vivess-постелка-за-пикник-200-х200см-различни-цветове-продукт",
       "name": "Сега в Billa - Vivess Постелка за пикник 200 х200см, различни цветове Продукт, маркиран със синя звезда",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/f6983cb7-44ff-40ef-b101-b6b57d3d4858.png",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -178472,7 +178542,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/f6983cb7-44ff-40ef-b101-b6b57d3d4858.png"
     },
     {
       "store": "Kaufland",
@@ -178640,7 +178711,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО МЕРЛО СОЛИТЕР 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -178650,7 +178720,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Kaufland",
@@ -178818,7 +178889,6 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "billa-сега-в-billa-детска-игра-50-х-35-х54-см-продукт-маркиран-със-синя-звезда",
       "name": "Сега в Billa - Детска игра, 50 х 35 х54 см Продукт, маркиран със синя звезда",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/f6983cb7-44ff-40ef-b101-b6b57d3d4858.png",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -178828,7 +178898,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/f6983cb7-44ff-40ef-b101-b6b57d3d4858.png"
     },
     {
       "store": "Kaufland",
@@ -179084,7 +179155,6 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 кг",
       "name": "Елит Мес Роле Майсторско От деликатесната витрина За 1 кг Продукт, маркиран със синя звезда",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/2824900000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -179094,7 +179164,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/141_00086598_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -179140,7 +179211,6 @@ const OFFERS_DATA = {
       "weight_grams": 700,
       "weight_raw": "700 мл",
       "name": "РАКИЯ ОТЛЕЖАЛА СПЕЦИАЛНА АЛАМБИК 700 МЛ ПОМОРИЕ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20870478_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -179150,7 +179220,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20870478_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Kaufland",
@@ -179318,7 +179389,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО KATARZYNA BALLADE 750 МЛ ПЛАТИНУМ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -179328,7 +179398,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Kaufland",
@@ -179452,7 +179523,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО ЧЕРВЕНО ПРИВАТ 750 МЛ САНТА САРА",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -179462,7 +179532,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Kaufland",
@@ -179942,7 +180013,6 @@ const OFFERS_DATA = {
       "weight_grams": 700,
       "weight_raw": "0,7 л",
       "name": "Само с Billa App - Dimple Уиски 15YO 0,7 л",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/b679d479-021d-442c-8ed5-0a52accce430.png",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -179952,7 +180022,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/b679d479-021d-442c-8ed5-0a52accce430.png"
     },
     {
       "store": "Fantastico",
@@ -179998,7 +180069,6 @@ const OFFERS_DATA = {
       "weight_grams": 700,
       "weight_raw": "700 мл",
       "name": "РАКИЯ КУЛТУРНА СПЕЦИАЛНА РЕЗЕРВА 700 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20870478_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -180008,7 +180078,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20870478_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Kaufland",
@@ -180134,7 +180205,6 @@ const OFFERS_DATA = {
       "weight_grams": 700,
       "weight_raw": "700 мл",
       "name": "РАКИЯ ТРОЯНСКА СЛИВОВА СПЕЦ. РЕЗЕРВА 700 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800032070272_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -180144,7 +180214,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800032070272_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Fantastico",
@@ -180180,7 +180251,6 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "ВИНО КАТАРЖИНА РЕЗЕРВА КАБЕРНЕ И МЕРЛО 2010 750 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -180190,7 +180260,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Kaufland",
@@ -180270,7 +180341,6 @@ const OFFERS_DATA = {
       "weight_grams": 700,
       "weight_raw": "700 мл",
       "name": "РАКИЯ ТРОЯНСКА СЛИВОВА 10 ГОД. ПОРЦЕЛАН 700 МЛ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800032070272_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
@@ -180280,7 +180350,8 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false
+      "is_long_lasting": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800032070272_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Kaufland",
@@ -203706,7 +203777,7 @@ const OFFERS_DATA = {
       "weight_grams": 190,
       "weight_raw": "190г",
       "name": "Пюре GERBER зел/тел/макарони 190г",
-      "image": null,
+      "image": "images/foods/oats.svg",
       "category": "grain",
       "emoji": "🌾",
       "health_score": 5,
@@ -203851,7 +203922,7 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "tmarket-лимони-турция-кг-клас-i",
       "name": "Лимони, Турция, кг.(Клас I)",
-      "image": null,
+      "image": "images/foods/apple.svg",
       "category": "vegetable",
       "emoji": "🥦",
       "health_score": 5,
