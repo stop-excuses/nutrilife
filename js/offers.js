@@ -122,7 +122,10 @@ const PROCESSED_MEAT_KEYWORDS = [
 const NON_HUMAN_FOOD_KEYWORDS = [
     "храна за кучета", "храна за куче", "храна за котки", "храна за котка",
     "консерва за кучета", "консерва за куче", "консерва за котки", "консерва за котка",
-    "кучешка храна", "котешка храна", "pet food"
+    "кучешка храна", "котешка храна", "pet food",
+    // Pet food brand names (always pet food, never human food)
+    "whiskas", "pedigree", "chappi", "royal canin", "sheba cat", "dreamies",
+    "феликс tasty", "felix tasty", "friskies"
 ];
 
 const NON_EDIBLE_PRODUCT_KEYWORDS = [
