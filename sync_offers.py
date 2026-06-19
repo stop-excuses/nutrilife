@@ -450,6 +450,9 @@ _write_text_atomic(
 )
 print(f"all_products.js : {ap_data.get('total_products', len(ap_data.get('products', [])))} records")
 
+# Embed total catalog count so the frontend status bar can show it before lazy-load
+offers_data["catalog_products"] = ap_data.get("total_products", len(ap_data.get("products", [])))
+
 # Write offers.js (with price_per_kg fix already applied)
 _write_text_atomic(
     Path("data/offers.js"),

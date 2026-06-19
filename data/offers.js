@@ -224084,5 +224084,6 @@ const OFFERS_DATA = {
       "is_bulk_worthy": false,
       "is_long_lasting": false
     }
-  ]
+  ],
+  "catalog_products": 52565
 };

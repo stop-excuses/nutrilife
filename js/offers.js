@@ -95,12 +95,8 @@ function hideCatalogLoadingHint() {
     const status = document.getElementById("offers-status");
     if (!status || status.dataset.catalogHint !== "1") return;
     delete status.dataset.catalogHint;
-    if (status.dataset.prev) {
-        status.innerHTML = status.dataset.prev;
-        delete status.dataset.prev;
-    } else {
-        renderOffersStatus();
-    }
+    delete status.dataset.prev;
+    renderOffersStatus();
 }
 
 function normalizePriceHistoryEntries(history) {
@@ -1585,6 +1581,7 @@ function applyCatalogEnrichment() {
     }
 
     catalogReady = true;
+    renderOffersStatus();
     // Refresh favorites: they now have access to all catalog stores for each product.
     try { renderFavoritesPanel(); } catch {}
 }
@@ -1770,16 +1767,25 @@ function renderOffersStatus() {
     const updatedText = generatedAt && !Number.isNaN(generatedAt.getTime())
         ? generatedAt.toLocaleString("bg-BG", { day: "2-digit", month: "2-digit", year: "numeric", hour: "2-digit", minute: "2-digit" })
         : "неизвестно";
-    const total = allOffers.length;
     const promo = allOffers.filter(o => o.source_type === "promo").length;
-    const assortment = Math.max(0, total - promo);
-    const stores = OFFERS_DATA.stores || [...new Set(allOffers.map(o => o.store).filter(Boolean))];
+
+    let productCount, storeList;
+    if (catalogReady) {
+        productCount = Math.max(0, allOffers.length - promo).toLocaleString("bg-BG");
+        storeList = [...new Set(allOffers.map(o => o.store).filter(Boolean))];
+    } else {
+        const catalogTotal = OFFERS_DATA.catalog_products;
+        productCount = catalogTotal
+            ? catalogTotal.toLocaleString("bg-BG")
+            : Math.max(0, allOffers.length - promo).toLocaleString("bg-BG");
+        storeList = OFFERS_DATA.stores || [...new Set(allOffers.map(o => o.store).filter(Boolean))];
+    }
 
     status.innerHTML = `
         <span><strong>Обновено:</strong> ${updatedText}</span>
         <span><strong>${promo}</strong> промоции</span>
-        <span><strong>${assortment}</strong> продукта</span>
-        <span><strong>${stores.length}</strong> магазина</span>
+        <span><strong>${productCount}</strong> продукта</span>
+        <span><strong>${storeList.length}</strong> магазина</span>
         <small>Цените може да се различават по град и конкретен обект.</small>
     `;
 }
