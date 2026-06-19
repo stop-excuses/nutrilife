@@ -8253,7 +8253,7 @@ section + section::before {
 .ph-line-chart {
     display: block;
     width: 100%;
-    height: 118px;
+    height: 148px;
     overflow: visible;
 }
 
@@ -8310,15 +8310,27 @@ section + section::before {
 
 .ph-y-label {
     fill: var(--muted2);
-    font-size: 9px;
+    font-size: 9.5px;
 }
 
-.ph-axis {
-    display: flex;
-    justify-content: space-between;
-    color: var(--muted2);
-    font-size: .68rem;
-    margin-top: -4px;
+.ph-y-axis {
+    stroke: rgba(255,255,255,0.12);
+    stroke-width: 1;
+}
+
+.ph-x-label {
+    fill: var(--muted2);
+    font-size: 8.5px;
+}
+
+.ph-x-label.current {
+    fill: #7F77DD;
+    font-weight: 600;
+}
+
+.ph-avg-label {
+    fill: rgba(186,117,23,0.7);
+    font-size: 8px;
 }
 
 .ph-stats {
@@ -8408,7 +8420,7 @@ section + section::before {
 
 @media (max-width: 480px) {
     .ph-line-chart {
-        height: 112px;
+        height: 135px;
     }
 
     .ph-chart-head {

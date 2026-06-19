@@ -336,10 +336,13 @@ async def scrape_kaufland_dom(browser) -> list[dict]:
                         except (ValueError, ZeroDivisionError):
                             pass
 
+            is_promo = bool(old_price or discount_pct)
             items.append(make_raw_item(
                 name, new_price, old_price, discount_pct, image, "Kaufland", "kaufland_dom",
                 valid_from=kauf_valid_from, valid_until=kauf_valid_until,
                 weight_raw=weight_raw_item, weight_grams=weight_grams_item,
+                source_type="promo" if is_promo else "assortment",
+                is_promo=is_promo,
             ))
 
         print(f"  [Kaufland DOM] {len(items)} raw items from {KAUFLAND_OFFERS_URL}")

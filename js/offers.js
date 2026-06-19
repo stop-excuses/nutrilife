@@ -332,6 +332,8 @@ const CATEGORY_FALLBACK_IMAGES = {
     fat: "images/foods/olive-oil.svg",
     bread: "images/foods/bread.svg",
     vegetable: "images/foods/apple.svg",
+    sweets: "images/foods/apple.svg",
+    frozen: "images/foods/chicken.svg",
     drinks: "images/foods/drink.svg",
     other: "images/foods/drink.svg",
     household: "images/fallback-household.svg",
@@ -1243,7 +1245,7 @@ function getLocalFallbackImage(offer) {
     for (const [keyword, imagePath] of LOCAL_IMAGE_RULES) {
         if (nameLower.includes(keyword)) return imagePath;
     }
-    return CATEGORY_FALLBACK_IMAGES[offer.category] || "";
+    return CATEGORY_FALLBACK_IMAGES[offer.category] || "images/foods/apple.svg";
 }
 
 function getOfferImage(offer) {
@@ -2867,22 +2869,27 @@ function renderPriceHistory(offer) {
         ? "Без промяна"
         : `${priceDelta < 0 ? "По-евтино" : "По-скъпо"} с ${Math.abs(priceDelta).toFixed(2)} лв${deltaPct != null ? ` (${Math.abs(deltaPct).toFixed(0)}%)` : ""}`;
 
-    const chartW = 360;
-    const chartH = 150;
-    const padX = 28;
-    const padY = 24;
-    const plotW = chartW - padX * 2;
-    const plotH = chartH - padY * 2;
+    const chartW = 500;
+    const chartH = 175;
+    const padXL = 48;   // left padding for Y labels
+    const padXR = 10;   // right padding
+    const padYTop = 20;
+    const padYBot = 28; // bottom padding for X date labels
+    const plotW = chartW - padXL - padXR;
+    const plotH = chartH - padYTop - padYBot;
     const chartPoints = points.map((e, i) => {
-        const x = points.length === 1 ? chartW / 2 : padX + (i / (points.length - 1)) * plotW;
-        const y = padY + ((maxP - e.price) / range) * plotH;
+        const x = points.length === 1 ? chartW / 2 : padXL + (i / (points.length - 1)) * plotW;
+        const y = padYTop + ((maxP - e.price) / range) * plotH;
         return { ...e, x, y };
     });
     const linePoints = chartPoints.map(p => `${p.x.toFixed(1)},${p.y.toFixed(1)}`).join(" ");
-    const fillPoints = `${padX},${chartH - padY} ${linePoints} ${chartW - padX},${chartH - padY}`;
+    const fillPoints = `${padXL},${chartH - padYBot} ${linePoints} ${chartW - padXR},${chartH - padYBot}`;
     const avgY = avgPrice != null
-        ? padY + ((maxP - avgPrice) / range) * plotH
+        ? padYTop + ((maxP - avgPrice) / range) * plotH
         : null;
+    const midP = (maxP + minP) / 2;
+    const midY = padYTop + ((maxP - midP) / range) * plotH;
+
     const currentDelta = priceDelta;
     const insight = isLowest
         ? "Това е най-ниската засечена цена."
@@ -2892,21 +2899,25 @@ function renderPriceHistory(offer) {
         ? `${currentDelta < 0 ? "Пада" : "Качва се"} с ${Math.abs(currentDelta).toFixed(2)} лв спрямо предния запис.`
         : "Цената е стабилна спрямо последния запис.";
 
+    // Show date labels below dots: always first/last, + all if ≤6 points
+    const showAllDates = points.length <= 6;
     const pointDots = chartPoints.map((e, i) => {
         const isCurrent = e._current;
         const isPromo = e.discount_pct > 0;
         const isLow = lowestPrice != null && e.price <= lowestPrice;
         const cls = [isCurrent ? "current" : "", isPromo ? "promo" : isLow ? "low" : ""].filter(Boolean).join(" ");
         const label = `${e.date}\n${e.price.toFixed(2)} лв${e.discount_pct ? ` · -${e.discount_pct}%` : ""}`;
+        const showDate = showAllDates || i === 0 || i === chartPoints.length - 1 || isCurrent;
+        const dateStr = showDate && e.date ? e.date.slice(5).replace("-", ".") : "";
         return `
             <g class="ph-dot-wrap ${cls}" tabindex="0">
                 <title>${escapeHtml(label)}</title>
                 <circle class="ph-dot-ring" cx="${e.x.toFixed(1)}" cy="${e.y.toFixed(1)}" r="${isCurrent ? 6 : 4.8}"></circle>
                 <circle class="ph-dot" cx="${e.x.toFixed(1)}" cy="${e.y.toFixed(1)}" r="${isCurrent ? 3.2 : 2.6}"></circle>
+                ${dateStr ? `<text class="ph-x-label${isCurrent ? " current" : ""}" text-anchor="middle" x="${e.x.toFixed(1)}" y="${(chartH - padYBot + 14).toFixed(1)}">${dateStr}</text>` : ""}
             </g>`;
     }).join("");
-    const firstDate = points[0]?.date ? points[0].date.slice(5) : "";
-    const lastDate = points[points.length - 1]?.date ? points[points.length - 1].date.slice(5) : "";
+
     const chartHtml = `
         <div class="ph-visual">
             <div class="ph-chart-head">
@@ -2917,20 +2928,19 @@ function renderPriceHistory(offer) {
                 <span class="ph-delta ${deltaClass}">${deltaText}</span>
             </div>
             <svg class="ph-line-chart" viewBox="0 0 ${chartW} ${chartH}" role="img" aria-label="Ценова графика">
-                <line class="ph-grid-line" x1="${padX}" y1="${padY}" x2="${chartW - padX}" y2="${padY}"></line>
-                <line class="ph-grid-line" x1="${padX}" y1="${padY + plotH / 2}" x2="${chartW - padX}" y2="${padY + plotH / 2}"></line>
-                <line class="ph-grid-line" x1="${padX}" y1="${chartH - padY}" x2="${chartW - padX}" y2="${chartH - padY}"></line>
-                ${avgY != null ? `<line class="ph-avg-line" x1="${padX}" y1="${avgY.toFixed(1)}" x2="${chartW - padX}" y2="${avgY.toFixed(1)}"></line>` : ""}
+                <line class="ph-y-axis" x1="${padXL}" y1="${padYTop}" x2="${padXL}" y2="${chartH - padYBot}"></line>
+                <line class="ph-grid-line" x1="${padXL}" y1="${padYTop}" x2="${chartW - padXR}" y2="${padYTop}"></line>
+                <line class="ph-grid-line" x1="${padXL}" y1="${midY.toFixed(1)}" x2="${chartW - padXR}" y2="${midY.toFixed(1)}"></line>
+                <line class="ph-grid-line" x1="${padXL}" y1="${chartH - padYBot}" x2="${chartW - padXR}" y2="${chartH - padYBot}"></line>
+                ${avgY != null ? `<line class="ph-avg-line" x1="${padXL}" y1="${avgY.toFixed(1)}" x2="${chartW - padXR}" y2="${avgY.toFixed(1)}"></line>` : ""}
                 <polygon class="ph-area" points="${fillPoints}"></polygon>
                 <polyline class="ph-line" points="${linePoints}"></polyline>
                 ${pointDots}
-                <text class="ph-y-label" x="${padX}" y="${padY - 8}">${maxP.toFixed(2)} лв</text>
-                <text class="ph-y-label" x="${padX}" y="${chartH - 5}">${minP.toFixed(2)} лв</text>
+                <text class="ph-y-label" text-anchor="end" x="${padXL - 5}" y="${(padYTop + 4).toFixed(1)}">${maxP.toFixed(2)}</text>
+                <text class="ph-y-label" text-anchor="end" x="${padXL - 5}" y="${(midY + 4).toFixed(1)}">${midP.toFixed(2)}</text>
+                <text class="ph-y-label" text-anchor="end" x="${padXL - 5}" y="${(chartH - padYBot + 4).toFixed(1)}">${minP.toFixed(2)}</text>
+                ${avgY != null ? `<text class="ph-avg-label" text-anchor="start" x="${(chartW - padXR + 2).toFixed(1)}" y="${(avgY + 4).toFixed(1)}">ср.</text>` : ""}
             </svg>
-            <div class="ph-axis">
-                <span>${firstDate}</span>
-                <span>${lastDate}</span>
-            </div>
         </div>`;
 
     const statsHtml = hasRealHistory ? `
