@@ -1615,6 +1615,8 @@ async function loadOffers() {
         if (favoriteItems.length > 0 && !catalogReady) {
             ensureCatalogLoaded().catch(() => {});
         }
+        renderTopDeals();
+        renderExpiringSoon();
         renderPriceComparison();
         initStaplesGrid();
         renderProteinRanking();
@@ -3938,6 +3940,99 @@ function renderProfileRecommendations(profile) {
         </div>`).join("");
 
     container.innerHTML = html;
+}
+
+/* -----------------------------------------------------------------------
+   DEAL STRIPS — Top Deals & Expiring Soon (pazarko-style horizontal rows)
+   ----------------------------------------------------------------------- */
+function buildDstripCard(o, badgeHtml) {
+    const img = getOfferImage(o);
+    const fallback = getLocalFallbackImage(o) || 'images/foods/apple.svg';
+    const offerId = getOfferDomId(o);
+    const favActive = isFavorited(o) ? ' active' : '';
+    const favTitle = favActive ? 'Премахни от списъка' : 'Добави към списъка';
+    return `
+        <div class="dstrip-card" data-offer-link="${offerId}" tabindex="0">
+            <div class="dstrip-img-area">
+                <img src="${img}" alt="${o.name}" loading="lazy" onerror="if(this.src!=='${fallback}')this.src='${fallback}'">
+                ${badgeHtml}
+                <button class="fav-btn${favActive}" data-offer-id="${offerId}" title="${favTitle}" onclick="event.stopPropagation()">❤️</button>
+            </div>
+            <div class="dstrip-body">
+                <div class="dstrip-name">${o.name}</div>
+                <div class="dstrip-price">${o.new_price != null ? o.new_price.toFixed(2) + ' лв' : '—'}</div>
+                <div class="dstrip-store">${o.store}</div>
+            </div>
+        </div>`;
+}
+
+function initDstripClickHandler(container) {
+    container.addEventListener("click", (e) => {
+        const favBtn = e.target.closest(".fav-btn");
+        if (favBtn) { e.stopPropagation(); toggleFavorite(favBtn.dataset.offerId); renderTopDeals(); renderExpiringSoon(); return; }
+        const card = e.target.closest(".dstrip-card[data-offer-link]");
+        if (card) openOfferInGrid(card.dataset.offerLink);
+    });
+}
+
+const FOOD_CATEGORIES = new Set(['protein','canned','grain','legume','dairy','nuts','fat','vegetable','bread','sweets','drinks','frozen']);
+
+function renderTopDeals() {
+    const container = document.getElementById("top-deals");
+    if (!container) return;
+
+    const deals = allOffers
+        .filter(o => o.source_type === "promo" && o.discount_pct >= 15 && o.new_price != null && FOOD_CATEGORIES.has(o.category))
+        .sort((a, b) => (b.discount_pct || 0) - (a.discount_pct || 0))
+        .slice(0, 8);
+
+    const section = document.getElementById("top-deals-section");
+    if (deals.length === 0) { if (section) section.style.display = "none"; return; }
+    if (section) section.style.display = "";
+
+    container.innerHTML = deals.map(o =>
+        buildDstripCard(o, `<span class="dstrip-badge disc">−${o.discount_pct}%</span>`)
+    ).join('');
+
+    if (!container.dataset.bound) {
+        initDstripClickHandler(container);
+        container.dataset.bound = "1";
+    }
+}
+
+function renderExpiringSoon() {
+    const container = document.getElementById("expiring-soon");
+    if (!container) return;
+
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+
+    const deals = allOffers
+        .filter(o => {
+            if (!o.valid_until || o.source_type !== "promo" || o.new_price == null || !FOOD_CATEGORIES.has(o.category)) return false;
+            const until = new Date(o.valid_until);
+            const days = Math.ceil((until - today) / 86400000);
+            return days >= 0 && days <= 3;
+        })
+        .sort((a, b) => new Date(a.valid_until) - new Date(b.valid_until))
+        .slice(0, 6);
+
+    const section = document.getElementById("expiring-soon-section");
+    if (deals.length === 0) { if (section) section.style.display = "none"; return; }
+    if (section) section.style.display = "";
+
+    container.innerHTML = deals.map(o => {
+        const until = new Date(o.valid_until);
+        const days = Math.ceil((until - today) / 86400000);
+        const label = days === 0 ? 'Последен ден!' : days === 1 ? '1 ден' : `${days} дни`;
+        const urgency = days === 0 ? ' urgent' : '';
+        return buildDstripCard(o, `<span class="dstrip-badge expiry${urgency}">⏰ ${label}</span>`);
+    }).join('');
+
+    if (!container.dataset.bound) {
+        initDstripClickHandler(container);
+        container.dataset.bound = "1";
+    }
 }
 
 function bindOfferLinkButtons(root) {
