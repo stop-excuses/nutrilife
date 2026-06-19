@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-18T19:34:45.268577Z",
-  "content_hash": "889f629460d2a21e83deaf5311f53327",
-  "total_offers": 4243,
-  "promo_offers": 1526,
-  "assortment_offers": 2717,
+  "generated_at": "2026-06-19T09:09:27.466992Z",
+  "content_hash": "fe84baca5222ea00f1508cedf7d0b277",
+  "total_offers": 4236,
+  "promo_offers": 1336,
+  "assortment_offers": 2900,
   "stores": [
     "Billa",
     "Dar",
@@ -1114,57 +1114,6 @@
     {
       "store": "Kaufland",
       "address": null,
-      "new_price": 18.95,
-      "new_price_eur": 9.69,
-      "old_price": 23.49,
-      "old_price_eur": 12.01,
-      "discount_pct": 19,
-      "valid_from": "2026-06-08",
-      "valid_until": "2026-07-05",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 18.95,
-          "price_eur": 9.69,
-          "old_price": 23.49,
-          "old_price_eur": 12.01,
-          "discount_pct": 19,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 18.95,
-      "comparison_count": 1,
-      "product_id": "kaufland-ципура-чистена-прясна",
-      "name": "Ципура чистена, прясна",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/148_2020825957_1_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "protein",
-      "emoji": "🍗",
-      "health_score": 10,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "macros": {
-        "kcal": 96,
-        "p": 19,
-        "f": 2,
-        "c": 0
-      }
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
       "new_price": 23.45,
       "new_price_eur": 11.99,
       "old_price": 28.99,
@@ -1281,7 +1230,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 49.99,
       "price_per_kg_eur": 25.56,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -1293,7 +1242,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -5294,6 +5243,62 @@
       }
     },
     {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 1.74,
+      "new_price_eur": 0.89,
+      "old_price": 3.48,
+      "old_price_eur": 1.78,
+      "discount_pct": 50,
+      "valid_from": "2026-06-08",
+      "valid_until": "2026-07-05",
+      "price_per_kg": 6.96,
+      "price_per_kg_eur": 3.56,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 1.74,
+          "price_eur": 0.89,
+          "old_price": 3.48,
+          "old_price_eur": 1.78,
+          "discount_pct": 50,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 1.74,
+      "comparison_count": 1,
+      "product_id": "kaufland-гъби-печурки-250g",
+      "weight_grams": 250,
+      "weight_raw": "250 г",
+      "name": "Гъби печурки",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/38030222_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "vegetable",
+      "emoji": "🥦",
+      "health_score": 9,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 22,
+        "p": 3.1,
+        "f": 0.3,
+        "c": 3.3
+      }
+    },
+    {
       "store": "Fantastico",
       "address": null,
       "new_price": 1.78,
@@ -5763,7 +5768,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 3.52,
       "price_per_kg_eur": 1.8,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -5775,7 +5780,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -9664,57 +9669,6 @@
       }
     },
     {
-      "store": "Dar",
-      "address": null,
-      "new_price": 4.59,
-      "new_price_eur": 2.35,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Dar"
-      ],
-      "store_prices": [
-        {
-          "store": "Dar",
-          "price": 4.59,
-          "price_eur": 2.35,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Dar",
-      "best_price": 4.59,
-      "comparison_count": 1,
-      "product_id": "dar-гъби-печурки-клас-i-пр-д-полша-кг-дар",
-      "name": "ГЪБИ ПЕЧУРКИ КЛАС I ПР-Д ПОЛША КГ ДАР",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/38030222_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "vegetable",
-      "emoji": "🥦",
-      "health_score": 9,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "macros": {
-        "kcal": 22,
-        "p": 3.1,
-        "f": 0.3,
-        "c": 3.3
-      }
-    },
-    {
       "store": "Fantastico",
       "address": null,
       "new_price": 4.6,
@@ -9848,7 +9802,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 4.99,
       "price_per_kg_eur": 2.55,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -9860,7 +9814,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -10776,7 +10730,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 13.26,
       "price_per_kg_eur": 6.78,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -10788,7 +10742,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -11385,7 +11339,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 13.3,
       "price_per_kg_eur": 6.8,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -11397,7 +11351,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -11507,7 +11461,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -11519,7 +11473,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -11853,7 +11807,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 9.99,
       "price_per_kg_eur": 5.11,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -11865,7 +11819,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -14287,62 +14241,6 @@
       }
     },
     {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 1.74,
-      "new_price_eur": 0.89,
-      "old_price": 5.85,
-      "old_price_eur": 2.99,
-      "discount_pct": 70,
-      "valid_from": "2026-06-08",
-      "valid_until": "2026-07-05",
-      "price_per_kg": 6.96,
-      "price_per_kg_eur": 3.56,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 1.74,
-          "price_eur": 0.89,
-          "old_price": 5.85,
-          "old_price_eur": 2.99,
-          "discount_pct": 70,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 1.74,
-      "comparison_count": 1,
-      "product_id": "kaufland-череши-250g",
-      "weight_grams": 250,
-      "weight_raw": "250 г",
-      "name": "Череши",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20840643_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "vegetable",
-      "emoji": "🥦",
-      "health_score": 8,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "diet_tags": [
-        "budget"
-      ],
-      "macros": {
-        "kcal": 63,
-        "p": 1.1,
-        "f": 0.3,
-        "c": 16
-      }
-    },
-    {
       "store": "Fantastico",
       "address": null,
       "new_price": 1.89,
@@ -15833,7 +15731,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 7.48,
       "price_per_kg_eur": 3.82,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -15845,7 +15743,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -16723,7 +16621,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 14.13,
       "price_per_kg_eur": 7.22,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -16735,7 +16633,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -17164,7 +17062,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 24.98,
       "price_per_kg_eur": 12.77,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -17176,7 +17074,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -17272,7 +17170,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 19.98,
       "price_per_kg_eur": 10.22,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -17284,7 +17182,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -17325,7 +17223,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 31.72,
       "price_per_kg_eur": 16.22,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -17337,7 +17235,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -17733,6 +17631,59 @@
       }
     },
     {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 16.6,
+      "new_price_eur": 8.49,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-06-08",
+      "valid_until": "2026-07-05",
+      "price_per_kg": 16.6,
+      "price_per_kg_eur": 8.49,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 16.6,
+          "price_eur": 8.49,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 16.6,
+      "comparison_count": 1,
+      "product_id": "kaufland-шеф-месар-телешко-мляно-месо-1000g",
+      "weight_grams": 1000,
+      "weight_raw": "1 кг",
+      "name": "Шеф Месар Телешко мляно месо",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00101436__P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "protein",
+      "emoji": "🍗",
+      "health_score": 8,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 172,
+        "p": 24,
+        "f": 8,
+        "c": 0
+      }
+    },
+    {
       "store": "Fantastico",
       "address": null,
       "new_price": 16.85,
@@ -17846,7 +17797,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 22.98,
       "price_per_kg_eur": 11.75,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -17858,7 +17809,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -18579,14 +18530,14 @@
       "address": null,
       "new_price": 0.88,
       "new_price_eur": 0.45,
-      "old_price": 2.52,
-      "old_price_eur": 1.29,
-      "discount_pct": 65,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
       "valid_from": "2026-06-08",
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -18595,10 +18546,10 @@
           "store": "Kaufland",
           "price": 0.88,
           "price_eur": 0.45,
-          "old_price": 2.52,
-          "old_price_eur": 1.29,
-          "discount_pct": 65,
-          "source_type": "promo"
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -18637,7 +18588,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 12.57,
       "price_per_kg_eur": 6.43,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -18649,7 +18600,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -27388,57 +27339,6 @@
       }
     },
     {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 2.72,
-      "new_price_eur": 1.39,
-      "old_price": 6.43,
-      "old_price_eur": 3.29,
-      "discount_pct": 58,
-      "valid_from": "2026-06-08",
-      "valid_until": "2026-07-05",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 2.72,
-          "price_eur": 1.39,
-          "old_price": 6.43,
-          "old_price_eur": 3.29,
-          "discount_pct": 58,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 2.72,
-      "comparison_count": 1,
-      "product_id": "kaufland-домати-на-клонка-клас-i",
-      "name": "Домати на клонка Клас: I",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/2831970000000_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "vegetable",
-      "emoji": "🥦",
-      "health_score": 7,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "macros": {
-        "kcal": 18,
-        "p": 0.9,
-        "f": 0.2,
-        "c": 3.9
-      }
-    },
-    {
       "store": "Fantastico",
       "address": null,
       "new_price": 2.79,
@@ -34461,7 +34361,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -34473,7 +34373,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -36737,7 +36637,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 19.54,
       "price_per_kg_eur": 9.99,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -36749,7 +36649,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -36904,7 +36804,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -36916,7 +36816,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -36959,7 +36859,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 35.97,
       "price_per_kg_eur": 18.39,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -36971,7 +36871,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -42437,6 +42337,61 @@
     {
       "store": "Fantastico",
       "address": null,
+      "new_price": 4.29,
+      "new_price_eur": 2.19,
+      "old_price": 6.39,
+      "old_price_eur": 3.27,
+      "discount_pct": 33,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Fantastico"
+      ],
+      "store_prices": [
+        {
+          "store": "Fantastico",
+          "price": 4.29,
+          "price_eur": 2.19,
+          "old_price": 6.39,
+          "old_price_eur": 3.27,
+          "discount_pct": 33,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Fantastico",
+      "best_price": 4.29,
+      "comparison_count": 1,
+      "product_id": "fantastico-врат-свински-с-кост-произход-българия",
+      "name": "ВРАТ СВИНСКИ С КОСТ ПРОИЗХОД БЪЛГАРИЯ",
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/83adca99-9516-491f-b995-fbbf0560704a.png",
+      "category": "protein",
+      "emoji": "🍗",
+      "health_score": 6,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "high_protein",
+        "keto"
+      ],
+      "macros": {
+        "kcal": 242,
+        "p": 27,
+        "f": 14,
+        "c": 0
+      }
+    },
+    {
+      "store": "Fantastico",
+      "address": null,
       "new_price": 4.49,
       "new_price_eur": 2.3,
       "old_price": null,
@@ -43767,61 +43722,6 @@
       "product_id": "fantastico-месо-свинско-за-готвене-тарелка-белла",
       "name": "МЕСО СВИНСКО ЗА ГОТВЕНЕ ТАРЕЛКА БЕЛЛА",
       "image": "https://imgproxy-retcat.assets.schwarz/y8Jm6noItw74QgHzjlCl6QVEiXzDWyQdPPmz-BM9cCg/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS84OTM2NjI2RUY3RUE5OUI5NzkwNTEyNEJ/DOEJDRTg5MThBQTkyMDZGMTBCOUJFNkQ1M0I3Qjc0OTUyNzBFQjcwLnBuZw.png",
-      "category": "protein",
-      "emoji": "🍗",
-      "health_score": 6,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "diet_tags": [
-        "high_protein",
-        "keto"
-      ],
-      "macros": {
-        "kcal": 242,
-        "p": 27,
-        "f": 14,
-        "c": 0
-      }
-    },
-    {
-      "store": "Fantastico",
-      "address": null,
-      "new_price": 6.39,
-      "new_price_eur": 3.27,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Fantastico"
-      ],
-      "store_prices": [
-        {
-          "store": "Fantastico",
-          "price": 6.39,
-          "price_eur": 3.27,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Fantastico",
-      "best_price": 6.39,
-      "comparison_count": 1,
-      "product_id": "fantastico-врат-свински-с-кост-произход-българия",
-      "name": "ВРАТ СВИНСКИ С КОСТ ПРОИЗХОД БЪЛГАРИЯ",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/83adca99-9516-491f-b995-fbbf0560704a.png",
       "category": "protein",
       "emoji": "🍗",
       "health_score": 6,
@@ -46447,6 +46347,61 @@
     {
       "store": "Kaufland",
       "address": null,
+      "new_price": 9.76,
+      "new_price_eur": 4.99,
+      "old_price": 17.58,
+      "old_price_eur": 8.99,
+      "discount_pct": 44,
+      "valid_from": "2026-06-08",
+      "valid_until": "2026-07-05",
+      "price_per_kg": 9.76,
+      "price_per_kg_eur": 4.99,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 9.76,
+          "price_eur": 4.99,
+          "old_price": 17.58,
+          "old_price_eur": 8.99,
+          "discount_pct": 44,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 9.76,
+      "comparison_count": 1,
+      "product_id": "kaufland-леки-свинска-флеика-от-свежата-витрина",
+      "name": "Леки Свинска флейка от свежата витрина",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00101802_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "protein",
+      "emoji": "🍗",
+      "health_score": 6,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "high_protein",
+        "keto"
+      ],
+      "macros": {
+        "kcal": 242,
+        "p": 27,
+        "f": 14,
+        "c": 0
+      }
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
       "new_price": 10.62,
       "new_price_eur": 5.43,
       "old_price": 12.5,
@@ -47046,6 +47001,72 @@
     {
       "store": "Fantastico",
       "address": null,
+      "new_price": 0.39,
+      "new_price_eur": 0.2,
+      "old_price": 0.51,
+      "old_price_eur": 0.26,
+      "discount_pct": 24,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 0.98,
+      "price_per_kg_eur": 0.5,
+      "source_type": "promo",
+      "available_stores": [
+        "Dar",
+        "Fantastico"
+      ],
+      "store_prices": [
+        {
+          "store": "Dar",
+          "price": 0.39,
+          "price_eur": 0.2,
+          "old_price": 0.51,
+          "old_price_eur": 0.26,
+          "discount_pct": 24,
+          "source_type": "promo"
+        },
+        {
+          "store": "Fantastico",
+          "price": 0.39,
+          "price_eur": 0.2,
+          "old_price": 0.51,
+          "old_price_eur": 0.26,
+          "discount_pct": 24,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Dar",
+      "best_price": 0.39,
+      "comparison_count": 2,
+      "product_id": "fantastico-мляко-кисело-ф-вкус-3-6-400-гр-400g",
+      "weight_grams": 400,
+      "weight_raw": "400 гр",
+      "name": "МЛЯКО КИСЕЛО Ф ВКУС 3.6% 400 ГР",
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/c09e1a9a-d1b0-4f75-be15-9ef0d341b501.png",
+      "category": "dairy",
+      "emoji": "🥛",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 60,
+        "p": 3.2,
+        "f": 3.2,
+        "c": 4.8
+      }
+    },
+    {
+      "store": "Fantastico",
+      "address": null,
       "new_price": 0.48,
       "new_price_eur": 0.25,
       "old_price": 0.61,
@@ -47242,72 +47263,6 @@
       }
     },
     {
-      "store": "Fantastico",
-      "address": null,
-      "new_price": 0.51,
-      "new_price_eur": 0.26,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 1.28,
-      "price_per_kg_eur": 0.65,
-      "source_type": "assortment",
-      "available_stores": [
-        "Dar",
-        "Fantastico"
-      ],
-      "store_prices": [
-        {
-          "store": "Dar",
-          "price": 0.51,
-          "price_eur": 0.26,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        },
-        {
-          "store": "Fantastico",
-          "price": 0.51,
-          "price_eur": 0.26,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Dar",
-      "best_price": 0.51,
-      "comparison_count": 2,
-      "product_id": "fantastico-мляко-кисело-ф-вкус-3-6-400-гр-400g",
-      "weight_grams": 400,
-      "weight_raw": "400 гр",
-      "name": "МЛЯКО КИСЕЛО Ф ВКУС 3.6% 400 ГР",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/c09e1a9a-d1b0-4f75-be15-9ef0d341b501.png",
-      "category": "dairy",
-      "emoji": "🥛",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "diet_tags": [
-        "budget"
-      ],
-      "macros": {
-        "kcal": 60,
-        "p": 3.2,
-        "f": 3.2,
-        "c": 4.8
-      }
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 0.55,
@@ -47438,7 +47393,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 19.67,
       "price_per_kg_eur": 10.06,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -47450,7 +47405,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -55699,100 +55654,6 @@
       "address": null,
       "new_price": 1.25,
       "new_price_eur": 0.64,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 62.5,
-      "price_per_kg_eur": 31.96,
-      "source_type": "assortment",
-      "available_stores": [
-        "Fantastico"
-      ],
-      "store_prices": [
-        {
-          "store": "Fantastico",
-          "price": 1.25,
-          "price_eur": 0.64,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Fantastico",
-      "best_price": 1.25,
-      "comparison_count": 1,
-      "product_id": "fantastico-чаи-теаселект-лаика-20-бр-х-1-г-кутия-20g",
-      "weight_grams": 20,
-      "weight_raw": "20 бр х 1 г",
-      "name": "ЧАЙ ТЕАСЕЛЕКТ ЛАЙКА 20 БР Х 1 Г КУТИЯ",
-      "category": "drinks",
-      "emoji": "🍺",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "image": "https://tmarketonline.bg/cdn/img/products/39464/caj-bioprograma-lajka-20x1-g-image_5ea2ccfa58806.png?width=600&height=600&v=1777589882"
-    },
-    {
-      "store": "Fantastico",
-      "address": null,
-      "new_price": 1.25,
-      "new_price_eur": 0.64,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 62.5,
-      "price_per_kg_eur": 31.96,
-      "source_type": "assortment",
-      "available_stores": [
-        "Fantastico"
-      ],
-      "store_prices": [
-        {
-          "store": "Fantastico",
-          "price": 1.25,
-          "price_eur": 0.64,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Fantastico",
-      "best_price": 1.25,
-      "comparison_count": 1,
-      "product_id": "fantastico-чаи-теаселект-мащерка-20-бр-х-1-г-кутия-20g",
-      "weight_grams": 20,
-      "weight_raw": "20 бр х 1 г",
-      "name": "ЧАЙ ТЕАСЕЛЕКТ МАЩЕРКА 20 БР Х 1 Г КУТИЯ",
-      "category": "drinks",
-      "emoji": "🍺",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "image": "https://tmarketonline.bg/cdn/img/products/39461/caj-bioprograma-maserka-20x1-g-image_5ea2ccf491766.png?width=600&height=600&v=1777589881"
-    },
-    {
-      "store": "Fantastico",
-      "address": null,
-      "new_price": 1.25,
-      "new_price_eur": 0.64,
       "old_price": 1.43,
       "old_price_eur": 0.73,
       "discount_pct": 13,
@@ -58342,53 +58203,6 @@
         "f": 1.1,
         "c": 25
       }
-    },
-    {
-      "store": "Fantastico",
-      "address": null,
-      "new_price": 1.53,
-      "new_price_eur": 0.78,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 51.0,
-      "price_per_kg_eur": 26.08,
-      "source_type": "assortment",
-      "available_stores": [
-        "Fantastico"
-      ],
-      "store_prices": [
-        {
-          "store": "Fantastico",
-          "price": 1.53,
-          "price_eur": 0.78,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Fantastico",
-      "best_price": 1.53,
-      "comparison_count": 1,
-      "product_id": "fantastico-чаи-теаселект-детокс-20-бр-х-1-5-г-кутия-30g",
-      "weight_grams": 30,
-      "weight_raw": "20 бр х 1.5 г",
-      "name": "ЧАЙ ТЕАСЕЛЕКТ ДЕТОКС 20 БР Х 1.5 Г КУТИЯ",
-      "category": "drinks",
-      "emoji": "🍺",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966"
     },
     {
       "store": "Kaufland",
@@ -62350,7 +62164,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 19.36,
       "price_per_kg_eur": 9.9,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -62362,7 +62176,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -62454,7 +62268,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 2.19,
       "price_per_kg_eur": 1.12,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -62466,7 +62280,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -69178,57 +68992,6 @@
       }
     },
     {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 3.99,
-      "new_price_eur": 2.04,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-06-08",
-      "valid_until": "2026-07-05",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 3.99,
-          "price_eur": 2.04,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 3.99,
-      "comparison_count": 1,
-      "product_id": "kaufland-хамедорея-ø9-см",
-      "name": "Хамедорея Ø9 см",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/Mini_20Bergpalme_00101262?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "macros": {
-        "kcal": 304,
-        "p": 0.3,
-        "f": 0,
-        "c": 82
-      }
-    },
-    {
       "store": "Billa",
       "address": null,
       "new_price": 3.99,
@@ -70027,100 +69790,6 @@
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": 136.33,
-      "price_per_kg_eur": 69.7,
-      "source_type": "assortment",
-      "available_stores": [
-        "Fantastico"
-      ],
-      "store_prices": [
-        {
-          "store": "Fantastico",
-          "price": 4.09,
-          "price_eur": 2.09,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Fantastico",
-      "best_price": 4.09,
-      "comparison_count": 1,
-      "product_id": "fantastico-чаи-чакра-phytolek-манипура-20-бр-х-1-5-г-кутия-30g",
-      "weight_grams": 30,
-      "weight_raw": "20 бр х 1.5 г",
-      "name": "ЧАЙ ЧАКРА PHYTOLEK МАНИПУРА 20 БР Х 1.5 Г КУТИЯ",
-      "category": "drinks",
-      "emoji": "🍺",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966"
-    },
-    {
-      "store": "Fantastico",
-      "address": null,
-      "new_price": 4.09,
-      "new_price_eur": 2.09,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 136.33,
-      "price_per_kg_eur": 69.7,
-      "source_type": "assortment",
-      "available_stores": [
-        "Fantastico"
-      ],
-      "store_prices": [
-        {
-          "store": "Fantastico",
-          "price": 4.09,
-          "price_eur": 2.09,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Fantastico",
-      "best_price": 4.09,
-      "comparison_count": 1,
-      "product_id": "fantastico-чаи-чакра-phytolek-вишудха-20-бр-30-г-кутия-30g",
-      "weight_grams": 30,
-      "weight_raw": "30 г",
-      "name": "ЧАЙ ЧАКРА PHYTOLEK ВИШУДХА 20 БР 30 Г КУТИЯ",
-      "category": "drinks",
-      "emoji": "🍺",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966"
-    },
-    {
-      "store": "Fantastico",
-      "address": null,
-      "new_price": 4.09,
-      "new_price_eur": 2.09,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
       "price_per_kg": 8.18,
       "price_per_kg_eur": 4.18,
       "source_type": "assortment",
@@ -70647,7 +70316,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 29.87,
       "price_per_kg_eur": 15.27,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -70659,7 +70328,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -70926,7 +70595,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 18.4,
       "price_per_kg_eur": 9.41,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -70938,7 +70607,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -74838,7 +74507,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -74850,7 +74519,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -74875,6 +74544,72 @@
         "p": 5,
         "f": 1.1,
         "c": 25
+      }
+    },
+    {
+      "store": "Fantastico",
+      "address": null,
+      "new_price": 5.99,
+      "new_price_eur": 3.06,
+      "old_price": 7.99,
+      "old_price_eur": 4.09,
+      "discount_pct": 25,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 7.49,
+      "price_per_kg_eur": 3.83,
+      "source_type": "promo",
+      "available_stores": [
+        "Dar",
+        "Fantastico"
+      ],
+      "store_prices": [
+        {
+          "store": "Dar",
+          "price": 5.99,
+          "price_eur": 3.06,
+          "old_price": 7.99,
+          "old_price_eur": 4.09,
+          "discount_pct": 25,
+          "source_type": "promo"
+        },
+        {
+          "store": "Fantastico",
+          "price": 5.99,
+          "price_eur": 3.06,
+          "old_price": 7.99,
+          "old_price_eur": 4.09,
+          "discount_pct": 25,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Dar",
+      "best_price": 5.99,
+      "comparison_count": 2,
+      "product_id": "fantastico-кашкавал-от-краве-мляко-наборъ-800-гр-800g",
+      "weight_grams": 800,
+      "weight_raw": "800 гр",
+      "name": "КАШКАВАЛ ОТ КРАВЕ МЛЯКО НАБОРЪ 800 ГР",
+      "image": "https://tmarketonline.bg/cdn/img/products/48215/kaskaval-ot-krave-mlako-bulgarce-400gr-image_620bb1499db0e.png?width=1920&height=1920&v=1777589952",
+      "category": "dairy",
+      "emoji": "🥛",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 350,
+        "p": 25,
+        "f": 27,
+        "c": 1
       }
     },
     {
@@ -79552,69 +79287,6 @@
       "address": null,
       "new_price": 7.99,
       "new_price_eur": 4.09,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 9.99,
-      "price_per_kg_eur": 5.11,
-      "source_type": "assortment",
-      "available_stores": [
-        "Dar",
-        "Fantastico"
-      ],
-      "store_prices": [
-        {
-          "store": "Dar",
-          "price": 7.99,
-          "price_eur": 4.09,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        },
-        {
-          "store": "Fantastico",
-          "price": 7.99,
-          "price_eur": 4.09,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Dar",
-      "best_price": 7.99,
-      "comparison_count": 2,
-      "product_id": "fantastico-кашкавал-от-краве-мляко-наборъ-800-гр-800g",
-      "weight_grams": 800,
-      "weight_raw": "800 гр",
-      "name": "КАШКАВАЛ ОТ КРАВЕ МЛЯКО НАБОРЪ 800 ГР",
-      "image": "https://tmarketonline.bg/cdn/img/products/48215/kaskaval-ot-krave-mlako-bulgarce-400gr-image_620bb1499db0e.png?width=1920&height=1920&v=1777589952",
-      "category": "dairy",
-      "emoji": "🥛",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "macros": {
-        "kcal": 350,
-        "p": 25,
-        "f": 27,
-        "c": 1
-      }
-    },
-    {
-      "store": "Fantastico",
-      "address": null,
-      "new_price": 7.99,
-      "new_price_eur": 4.09,
       "old_price": 9.45,
       "old_price_eur": 4.83,
       "discount_pct": 15,
@@ -82874,7 +82546,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -82886,7 +82558,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -86710,7 +86382,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 17.09,
       "price_per_kg_eur": 8.74,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -86722,7 +86394,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -86763,7 +86435,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 13.67,
       "price_per_kg_eur": 6.99,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -86775,7 +86447,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -92229,9 +91901,19 @@
       "price_per_kg_eur": 20.45,
       "source_type": "assortment",
       "available_stores": [
+        "Dar",
         "Fantastico"
       ],
       "store_prices": [
+        {
+          "store": "Dar",
+          "price": 39.99,
+          "price_eur": 20.45,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        },
         {
           "store": "Fantastico",
           "price": 39.99,
@@ -92242,9 +91924,9 @@
           "source_type": "assortment"
         }
       ],
-      "best_price_store": "Fantastico",
+      "best_price_store": "Dar",
       "best_price": 39.99,
-      "comparison_count": 1,
+      "comparison_count": 2,
       "product_id": "fantastico-кафе-vergnano-espresso-1-кг-зърна-1000g",
       "weight_grams": 1000,
       "weight_raw": "1 кг",
@@ -92539,7 +92221,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -92551,7 +92233,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -94178,7 +93860,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -94190,7 +93872,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -95597,7 +95279,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 20.89,
       "price_per_kg_eur": 10.68,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -95609,7 +95291,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -96665,7 +96347,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 17.96,
       "price_per_kg_eur": 9.18,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -96677,7 +96359,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -100226,6 +99908,62 @@
     {
       "store": "Fantastico",
       "address": null,
+      "new_price": 0.58,
+      "new_price_eur": 0.3,
+      "old_price": 0.95,
+      "old_price_eur": 0.49,
+      "discount_pct": 39,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 0.58,
+      "price_per_kg_eur": 0.3,
+      "source_type": "promo",
+      "available_stores": [
+        "Dar",
+        "Fantastico"
+      ],
+      "store_prices": [
+        {
+          "store": "Dar",
+          "price": 0.58,
+          "price_eur": 0.3,
+          "old_price": 0.95,
+          "old_price_eur": 0.49,
+          "discount_pct": 39,
+          "source_type": "promo"
+        },
+        {
+          "store": "Fantastico",
+          "price": 0.58,
+          "price_eur": 0.3,
+          "old_price": 0.95,
+          "old_price_eur": 0.49,
+          "discount_pct": 39,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Dar",
+      "best_price": 0.58,
+      "comparison_count": 2,
+      "product_id": "fantastico-захар-кристал-1-кг-митекс-1000g",
+      "weight_grams": 1000,
+      "weight_raw": "1 кг",
+      "name": "ЗАХАР КРИСТАЛ 1 КГ МИТЕКС",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "image": "https://tmarketonline.bg/cdn/img/products/47658/zahar-dr-oetker-vanilena-8gr-image_616439f5ce75c.jpeg?width=600&height=600&v=1777589950"
+    },
+    {
+      "store": "Fantastico",
+      "address": null,
       "new_price": 0.59,
       "new_price_eur": 0.3,
       "old_price": null,
@@ -101328,7 +101066,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 12.36,
       "price_per_kg_eur": 6.32,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -101340,7 +101078,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -104147,62 +103885,6 @@
       "is_long_lasting": true
     },
     {
-      "store": "Fantastico",
-      "address": null,
-      "new_price": 0.95,
-      "new_price_eur": 0.49,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 0.95,
-      "price_per_kg_eur": 0.49,
-      "source_type": "assortment",
-      "available_stores": [
-        "Dar",
-        "Fantastico"
-      ],
-      "store_prices": [
-        {
-          "store": "Dar",
-          "price": 0.95,
-          "price_eur": 0.49,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        },
-        {
-          "store": "Fantastico",
-          "price": 0.95,
-          "price_eur": 0.49,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Dar",
-      "best_price": 0.95,
-      "comparison_count": 2,
-      "product_id": "fantastico-захар-кристал-1-кг-митекс-1000g",
-      "weight_grams": 1000,
-      "weight_raw": "1 кг",
-      "name": "ЗАХАР КРИСТАЛ 1 КГ МИТЕКС",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "image": "https://tmarketonline.bg/cdn/img/products/47658/zahar-dr-oetker-vanilena-8gr-image_616439f5ce75c.jpeg?width=600&height=600&v=1777589950"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 0.96,
@@ -104260,7 +103942,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 6.86,
       "price_per_kg_eur": 3.51,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -104272,7 +103954,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -104306,7 +103988,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 6.86,
       "price_per_kg_eur": 3.51,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -104318,7 +104000,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -104352,7 +104034,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 6.86,
       "price_per_kg_eur": 3.51,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -104364,7 +104046,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -104442,7 +104124,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 9.6,
       "price_per_kg_eur": 4.91,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -104454,7 +104136,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -104488,7 +104170,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 9.6,
       "price_per_kg_eur": 4.91,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -104500,7 +104182,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -108606,7 +108288,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 3.01,
       "price_per_kg_eur": 1.54,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -108618,7 +108300,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -109162,7 +108844,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 2.58,
       "price_per_kg_eur": 1.32,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -109174,7 +108856,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -109931,7 +109613,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 19.57,
       "price_per_kg_eur": 10.01,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -109943,7 +109625,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -119900,7 +119582,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -119912,7 +119594,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -121243,7 +120925,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 7.29,
       "price_per_kg_eur": 3.73,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -121255,7 +120937,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -121289,7 +120971,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 8.27,
       "price_per_kg_eur": 4.23,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -121301,7 +120983,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -121335,7 +121017,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -121347,7 +121029,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -123678,7 +123360,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 3.02,
       "price_per_kg_eur": 1.54,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -123690,7 +123372,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -124319,7 +124001,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 23.17,
       "price_per_kg_eur": 11.85,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -124331,7 +124013,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -124365,7 +124047,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 24.17,
       "price_per_kg_eur": 12.36,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -124377,7 +124059,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -126867,7 +126549,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -126879,7 +126561,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -131837,7 +131519,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -131849,7 +131531,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -135243,7 +134925,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -135255,7 +134937,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -135366,6 +135048,98 @@
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": false
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 3.89,
+      "new_price_eur": 1.99,
+      "old_price": 5.89,
+      "old_price_eur": 3.01,
+      "discount_pct": 34,
+      "valid_from": "2026-06-08",
+      "valid_until": "2026-07-05",
+      "price_per_kg": 25.93,
+      "price_per_kg_eur": 13.26,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 3.89,
+          "price_eur": 1.99,
+          "old_price": 5.89,
+          "old_price_eur": 3.01,
+          "discount_pct": 34,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 3.89,
+      "comparison_count": 1,
+      "product_id": "kaufland-milka-бисквити-choc-choc-150g",
+      "weight_grams": 150,
+      "weight_raw": "150 г",
+      "name": "Milka Бисквити Choc&Choc",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/7622210413147_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "grain",
+      "emoji": "🌾",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 3.89,
+      "new_price_eur": 1.99,
+      "old_price": 5.89,
+      "old_price_eur": 3.01,
+      "discount_pct": 34,
+      "valid_from": "2026-06-08",
+      "valid_until": "2026-07-05",
+      "price_per_kg": 14.96,
+      "price_per_kg_eur": 7.65,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 3.89,
+          "price_eur": 1.99,
+          "old_price": 5.89,
+          "old_price_eur": 3.01,
+          "discount_pct": 34,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 3.89,
+      "comparison_count": 1,
+      "product_id": "kaufland-milka-бисквити-избрани-видове-260g",
+      "weight_grams": 260,
+      "weight_raw": "260 г",
+      "name": "Milka Бисквити избрани видове",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/7622210689610_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "grain",
+      "emoji": "🌾",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true
     },
     {
       "store": "Billa",
@@ -136572,7 +136346,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -136584,7 +136358,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -136616,7 +136390,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -136628,7 +136402,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -136637,50 +136411,6 @@
       "product_id": "kaufland-newcential-аксесоари-за-защита-на-краиниците",
       "name": "Newcential Аксесоари за защита на крайниците",
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4250527628669_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 3.99,
-      "new_price_eur": 2.04,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-06-08",
-      "valid_until": "2026-07-05",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 3.99,
-          "price_eur": 2.04,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 3.99,
-      "comparison_count": 1,
-      "product_id": "kaufland-минирастение-различни-видове",
-      "name": "Минирастение различни видове",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/174_09902285_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -139647,7 +139377,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 56.13,
       "price_per_kg_eur": 28.7,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -139659,7 +139389,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -139693,7 +139423,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 56.13,
       "price_per_kg_eur": 28.7,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -139705,7 +139435,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -139739,7 +139469,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 56.13,
       "price_per_kg_eur": 28.7,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -139751,7 +139481,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -139785,7 +139515,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 12.79,
       "price_per_kg_eur": 6.54,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -139797,7 +139527,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -142844,50 +142574,6 @@
       "is_long_lasting": false
     },
     {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 4.48,
-      "new_price_eur": 2.29,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-06-08",
-      "valid_until": "2026-07-05",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 4.48,
-          "price_eur": 2.29,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 4.48,
-      "comparison_count": 1,
-      "product_id": "kaufland-конифери-микс-ø9-см",
-      "name": "Конифери микс Ø9 см",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8716137000012_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false
-    },
-    {
       "store": "Billa",
       "address": null,
       "new_price": 4.48,
@@ -144051,7 +143737,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -144063,7 +143749,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -144095,7 +143781,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -144107,7 +143793,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -144120,6 +143806,52 @@
       "emoji": "🛒",
       "is_food": false,
       "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 4.67,
+      "new_price_eur": 2.39,
+      "old_price": 7.49,
+      "old_price_eur": 3.83,
+      "discount_pct": 38,
+      "valid_from": "2026-06-08",
+      "valid_until": "2026-07-05",
+      "price_per_kg": 9.25,
+      "price_per_kg_eur": 4.73,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 4.67,
+          "price_eur": 2.39,
+          "old_price": 7.49,
+          "old_price_eur": 3.83,
+          "discount_pct": 38,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 4.67,
+      "comparison_count": 1,
+      "product_id": "kaufland-familia-сладолед-различни-вкусове-505g",
+      "weight_grams": 505,
+      "weight_raw": "505 г",
+      "name": "Familia Сладолед различни вкусове",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00900843_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "dairy",
+      "emoji": "🥛",
+      "is_food": false,
+      "is_junk": true,
       "is_healthy": false,
       "is_high_protein": false,
       "is_good_carb": false,
@@ -145265,7 +144997,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -145277,7 +145009,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -145931,7 +145663,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -145943,7 +145675,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -145975,7 +145707,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -145987,7 +145719,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -146019,7 +145751,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -146031,7 +145763,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -146063,7 +145795,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -146075,7 +145807,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -149693,7 +149425,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 36.4,
       "price_per_kg_eur": 18.61,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -149705,7 +149437,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -149739,7 +149471,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -149751,7 +149483,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -152003,7 +151735,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -152015,7 +151747,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -152047,7 +151779,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -152059,7 +151791,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -152137,7 +151869,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -152149,7 +151881,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -152181,7 +151913,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 13.0,
       "price_per_kg_eur": 6.65,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -152193,7 +151925,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -152220,9 +151952,9 @@
       "address": null,
       "new_price": 5.85,
       "new_price_eur": 2.99,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
+      "old_price": 8.84,
+      "old_price_eur": 4.52,
+      "discount_pct": 34,
       "valid_from": "2026-06-08",
       "valid_until": "2026-07-05",
       "price_per_kg": null,
@@ -152236,10 +151968,54 @@
           "store": "Kaufland",
           "price": 5.85,
           "price_eur": 2.99,
+          "old_price": 8.84,
+          "old_price_eur": 4.52,
+          "discount_pct": 34,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 5.85,
+      "comparison_count": 1,
+      "product_id": "kaufland-атлантическа-мерлуза-изчистена",
+      "name": "Атлантическа мерлуза изчистена",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/281_00110343_2_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 5.85,
+      "new_price_eur": 2.99,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-06-08",
+      "valid_until": "2026-07-05",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 5.85,
+          "price_eur": 2.99,
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -152611,7 +152387,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -152623,7 +152399,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -152655,7 +152431,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -152667,7 +152443,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -152699,7 +152475,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -152711,7 +152487,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -154333,7 +154109,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 12.76,
       "price_per_kg_eur": 6.52,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -154345,7 +154121,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -154705,7 +154481,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -154717,7 +154493,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -154839,7 +154615,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -154851,7 +154627,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -154883,7 +154659,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 5.09,
       "price_per_kg_eur": 2.6,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -154895,7 +154671,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -155521,7 +155297,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 94.71,
       "price_per_kg_eur": 48.42,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -155533,7 +155309,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -155567,7 +155343,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 94.71,
       "price_per_kg_eur": 48.42,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -155579,7 +155355,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -155613,7 +155389,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 94.71,
       "price_per_kg_eur": 48.42,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -155625,7 +155401,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -155659,7 +155435,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 16.57,
       "price_per_kg_eur": 8.47,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -155671,7 +155447,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -156880,50 +156656,6 @@
       "address": null,
       "new_price": 6.98,
       "new_price_eur": 3.57,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-06-08",
-      "valid_until": "2026-07-05",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 6.98,
-          "price_eur": 3.57,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 6.98,
-      "comparison_count": 1,
-      "product_id": "kaufland-очила-за-четене-1-5-до-3-0-диоптъра-2",
-      "name": "Очила за четене +1.5 до +3,0 диоптъра",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/4005847291150_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 6.98,
-      "new_price_eur": 3.57,
       "old_price": 13.98,
       "old_price_eur": 7.15,
       "discount_pct": 50,
@@ -156958,6 +156690,50 @@
       "emoji": "🥛",
       "is_food": false,
       "is_junk": true,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 6.98,
+      "new_price_eur": 3.57,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-06-08",
+      "valid_until": "2026-07-05",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 6.98,
+          "price_eur": 3.57,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 6.98,
+      "comparison_count": 1,
+      "product_id": "kaufland-очила-за-четене-1-5-до-3-0-диоптъра-2",
+      "name": "Очила за четене +1.5 до +3,0 диоптъра",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4005847291150_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
       "is_healthy": false,
       "is_high_protein": false,
       "is_good_carb": false,
@@ -157023,7 +156799,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 3.49,
       "price_per_kg_eur": 1.78,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -157035,7 +156811,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -157069,7 +156845,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -157081,7 +156857,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -157113,7 +156889,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -157125,7 +156901,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -157157,7 +156933,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -157169,7 +156945,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -157201,7 +156977,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -157213,7 +156989,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -158429,7 +158205,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 1.82,
       "price_per_kg_eur": 0.93,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -158441,7 +158217,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -158801,7 +158577,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 14.82,
       "price_per_kg_eur": 7.58,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -158813,7 +158589,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -158847,7 +158623,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -158859,7 +158635,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -158891,7 +158667,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -158903,7 +158679,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -159613,7 +159389,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 1.87,
       "price_per_kg_eur": 0.96,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -159625,7 +159401,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -159979,7 +159755,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 16.73,
       "price_per_kg_eur": 8.55,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -159991,7 +159767,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -160569,7 +160345,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -160581,7 +160357,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -160613,7 +160389,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -160625,7 +160401,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -160951,7 +160727,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 15.6,
       "price_per_kg_eur": 7.98,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -160963,7 +160739,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -161237,7 +161013,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -161249,7 +161025,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -161281,7 +161057,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -161293,7 +161069,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -161369,7 +161145,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -161381,7 +161157,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -161413,7 +161189,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -161425,7 +161201,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -161659,7 +161435,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 15.04,
       "price_per_kg_eur": 7.69,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -161671,7 +161447,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -162135,7 +161911,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 8.32,
       "price_per_kg_eur": 4.25,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -162147,7 +161923,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -162181,7 +161957,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 8.32,
       "price_per_kg_eur": 4.25,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -162193,7 +161969,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -162227,7 +162003,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 8.32,
       "price_per_kg_eur": 4.25,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -162239,7 +162015,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -162273,7 +162049,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 17.02,
       "price_per_kg_eur": 8.7,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -162285,7 +162061,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -162319,7 +162095,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 17.02,
       "price_per_kg_eur": 8.7,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -162331,7 +162107,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -163241,7 +163017,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -163253,7 +163029,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -163373,7 +163149,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -163385,7 +163161,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -163417,7 +163193,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -163429,7 +163205,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -163461,7 +163237,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -163473,7 +163249,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -163551,7 +163327,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -163563,7 +163339,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -163595,7 +163371,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -163607,7 +163383,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -163639,7 +163415,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -163651,7 +163427,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -163727,7 +163503,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -163739,7 +163515,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -163771,7 +163547,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -163783,7 +163559,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -163861,7 +163637,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 5.99,
       "price_per_kg_eur": 3.06,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -163873,7 +163649,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -163907,7 +163683,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 5.99,
       "price_per_kg_eur": 3.06,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -163919,7 +163695,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -165461,7 +165237,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -165473,7 +165249,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -165831,7 +165607,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -165843,7 +165619,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -165875,7 +165651,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -165887,7 +165663,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -165919,7 +165695,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -165931,7 +165707,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -165963,7 +165739,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -165975,7 +165751,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -167191,7 +166967,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 10.56,
       "price_per_kg_eur": 5.4,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -167203,7 +166979,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -167214,52 +166990,6 @@
       "weight_raw": "1 кг",
       "name": "Наслада Захар 10 бр. на покупка",
       "image": "https://kaufland.media.schwarz/is/image/schwarz/745114486172_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 10.56,
-      "new_price_eur": 5.4,
-      "old_price": 25.82,
-      "old_price_eur": 13.2,
-      "discount_pct": 59,
-      "valid_from": "2026-06-08",
-      "valid_until": "2026-07-05",
-      "price_per_kg": 10.56,
-      "price_per_kg_eur": 5.4,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 10.56,
-          "price_eur": 5.4,
-          "old_price": 25.82,
-          "old_price_eur": 13.2,
-          "discount_pct": 59,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 10.56,
-      "comparison_count": 1,
-      "product_id": "kaufland-сладея-захар-1000g",
-      "weight_grams": 1000,
-      "weight_raw": "1 кг",
-      "name": "Сладея Захар",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00026682_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -167619,7 +167349,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -167631,7 +167361,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -167709,7 +167439,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 4.58,
       "price_per_kg_eur": 2.34,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -167721,7 +167451,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -168582,50 +168312,6 @@
       "image": "https://tmarketonline.bg/cdn/img/products/39576/rakia-troan-slivova-otlezala-40--700-ml-image_606ffebd6b077.jpeg?width=600&height=600&v=1777589942"
     },
     {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 11.68,
-      "new_price_eur": 5.97,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-06-08",
-      "valid_until": "2026-07-05",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 11.68,
-          "price_eur": 5.97,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 11.68,
-      "comparison_count": 1,
-      "product_id": "kaufland-букет-микс-40-см",
-      "name": "Букет микс 40 см",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00103841__20IMG_0091_20_281_29?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false
-    },
-    {
       "store": "Fantastico",
       "address": null,
       "new_price": 11.69,
@@ -169317,7 +169003,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -169329,7 +169015,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -169361,7 +169047,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -169373,7 +169059,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -169449,7 +169135,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -169461,7 +169147,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -169493,7 +169179,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -169505,7 +169191,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -169729,7 +169415,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 120.3,
       "price_per_kg_eur": 61.51,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -169741,7 +169427,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -170271,7 +169957,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 8.91,
       "price_per_kg_eur": 4.56,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -170283,7 +169969,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -170317,7 +170003,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -170329,7 +170015,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -170348,6 +170034,52 @@
       "is_good_fat": false,
       "is_bulk_worthy": true,
       "is_long_lasting": true
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 12.5,
+      "new_price_eur": 6.39,
+      "old_price": 19.01,
+      "old_price_eur": 9.72,
+      "discount_pct": 34,
+      "valid_from": "2026-06-08",
+      "valid_until": "2026-07-05",
+      "price_per_kg": 25.0,
+      "price_per_kg_eur": 12.78,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 12.5,
+          "price_eur": 6.39,
+          "old_price": 19.01,
+          "old_price_eur": 9.72,
+          "discount_pct": 34,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 12.5,
+      "comparison_count": 1,
+      "product_id": "kaufland-пиринско-младо-пиво-500g",
+      "weight_grams": 500,
+      "weight_raw": "0,5 л",
+      "name": "Пиринско Младо пиво",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20281887_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false
     },
     {
       "store": "Kaufland",
@@ -170611,7 +170343,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -170623,7 +170355,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -171395,7 +171127,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 1.4,
       "price_per_kg_eur": 0.72,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -171407,7 +171139,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -171441,7 +171173,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -171453,7 +171185,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -171658,6 +171390,50 @@
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 14.45,
+      "new_price_eur": 7.39,
+      "old_price": 21.98,
+      "old_price_eur": 11.24,
+      "discount_pct": 34,
+      "valid_from": "2026-06-08",
+      "valid_until": "2026-07-05",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 14.45,
+          "price_eur": 7.39,
+          "old_price": 21.98,
+          "old_price_eur": 11.24,
+          "discount_pct": 34,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 14.45,
+      "comparison_count": 1,
+      "product_id": "kaufland-рафтис-кашкавал-от-краве-мляко",
+      "name": "РАФТИС Кашкавал от краве мляко",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20601367_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "dairy",
+      "emoji": "🥛",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false
+    },
+    {
       "store": "Fantastico",
       "address": null,
       "new_price": 14.59,
@@ -171725,7 +171501,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -171737,7 +171513,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -171756,98 +171532,6 @@
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": true
-    },
-    {
-      "store": "Fantastico",
-      "address": null,
-      "new_price": 14.82,
-      "new_price_eur": 7.58,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 19.76,
-      "price_per_kg_eur": 10.1,
-      "source_type": "assortment",
-      "available_stores": [
-        "Fantastico"
-      ],
-      "store_prices": [
-        {
-          "store": "Fantastico",
-          "price": 14.82,
-          "price_eur": 7.58,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Fantastico",
-      "best_price": 14.82,
-      "comparison_count": 1,
-      "product_id": "fantastico-вино-каберне-совиньон-кастелум-750-мл-750g",
-      "weight_grams": 750,
-      "weight_raw": "750 мл",
-      "name": "ВИНО КАБЕРНЕ СОВИНЬОН КАСТЕЛУМ 750 МЛ",
-      "category": "drinks",
-      "emoji": "🍺",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234271194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
-    },
-    {
-      "store": "Fantastico",
-      "address": null,
-      "new_price": 14.82,
-      "new_price_eur": 7.58,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 19.76,
-      "price_per_kg_eur": 10.1,
-      "source_type": "assortment",
-      "available_stores": [
-        "Fantastico"
-      ],
-      "store_prices": [
-        {
-          "store": "Fantastico",
-          "price": 14.82,
-          "price_eur": 7.58,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Fantastico",
-      "best_price": 14.82,
-      "comparison_count": 1,
-      "product_id": "fantastico-вино-шардоне-барик-кастелум-750-мл-750g",
-      "weight_grams": 750,
-      "weight_raw": "750 мл",
-      "name": "ВИНО ШАРДОНЕ БАРИК КАСТЕЛУМ 750 МЛ",
-      "category": "drinks",
-      "emoji": "🍺",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218581288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Fantastico",
@@ -172043,7 +171727,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -172055,7 +171739,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -172087,7 +171771,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -172099,7 +171783,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -172131,7 +171815,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -172143,7 +171827,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -173151,7 +172835,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -173163,7 +172847,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -173195,7 +172879,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -173207,7 +172891,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -173285,7 +172969,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -173297,7 +172981,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -173619,7 +173303,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -173631,7 +173315,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -173663,7 +173347,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -173675,7 +173359,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -173707,7 +173391,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -173719,7 +173403,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -173933,7 +173617,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 14.91,
       "price_per_kg_eur": 7.62,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -173945,7 +173629,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -174561,7 +174245,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -174573,7 +174257,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -174787,7 +174471,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -174799,7 +174483,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -174831,7 +174515,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -174843,7 +174527,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -175069,7 +174753,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -175081,7 +174765,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -175113,7 +174797,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -175125,7 +174809,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -175157,7 +174841,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -175169,7 +174853,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -175245,7 +174929,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -175257,7 +174941,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -175289,7 +174973,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -175301,7 +174985,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -175647,7 +175331,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 199.3,
       "price_per_kg_eur": 101.9,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -175659,7 +175343,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -175693,7 +175377,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 199.3,
       "price_per_kg_eur": 101.9,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -175705,7 +175389,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -175829,7 +175513,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 0.67,
       "price_per_kg_eur": 0.34,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -175841,7 +175525,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -175875,7 +175559,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -175887,7 +175571,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -176477,7 +176161,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -176489,7 +176173,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -176498,50 +176182,6 @@
       "product_id": "kaufland-newcential-динамометричен-ключ-1-4",
       "name": "NEWCENTIAL Динамометричен ключ 1/4\"",
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627166877_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 22.98,
-      "new_price_eur": 11.75,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-06-08",
-      "valid_until": "2026-07-05",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 22.98,
-          "price_eur": 11.75,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 22.98,
-      "comparison_count": 1,
-      "product_id": "kaufland-роза-в-купа",
-      "name": "Роза в купа",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/Rosen_20Schale_20_28Rosa_20Hybr__29_2020cm_gelb_00102048?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -177127,7 +176767,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -177139,7 +176779,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -177215,7 +176855,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 33.85,
       "price_per_kg_eur": 17.31,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -177227,7 +176867,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -177305,7 +176945,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -177317,7 +176957,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -177464,6 +177104,52 @@
       "image": "https://kaufland.media.schwarz/is/image/schwarz/01004259_Promo_515754?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 25.02,
+      "new_price_eur": 12.79,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-06-08",
+      "valid_until": "2026-07-05",
+      "price_per_kg": 16.68,
+      "price_per_kg_eur": 8.53,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 25.02,
+          "price_eur": 12.79,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 25.02,
+      "comparison_count": 1,
+      "product_id": "kaufland-highland-queen-шотландско-уиски-40-vol-1500g",
+      "weight_grams": 1500,
+      "weight_raw": "1,5 л",
+      "name": "Highland Queen Шотландско уиски 40% vol",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20726161_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "drinks",
+      "emoji": "🍺",
       "is_food": false,
       "is_junk": false,
       "is_healthy": false,
@@ -178069,7 +177755,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -178081,7 +177767,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -178203,7 +177889,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -178215,7 +177901,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -178293,7 +177979,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -178305,7 +177991,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -178601,7 +178287,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -178613,7 +178299,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -178781,7 +178467,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -178793,7 +178479,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -178825,7 +178511,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -178837,7 +178523,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -178913,7 +178599,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -178925,7 +178611,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -178957,7 +178643,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -178969,7 +178655,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -179001,7 +178687,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -179013,7 +178699,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -179045,7 +178731,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -179057,7 +178743,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -179089,7 +178775,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -179101,7 +178787,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -179279,7 +178965,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -179291,7 +178977,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -179323,7 +179009,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -179335,7 +179021,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -179413,7 +179099,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -179425,7 +179111,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -179457,7 +179143,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -179469,7 +179155,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -179547,7 +179233,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -179559,7 +179245,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -179679,7 +179365,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -179691,7 +179377,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -179723,7 +179409,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -179735,7 +179421,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -179811,7 +179497,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 1.32,
       "price_per_kg_eur": 0.67,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -179823,7 +179509,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -179857,7 +179543,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -179869,7 +179555,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -179901,7 +179587,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 1.83,
       "price_per_kg_eur": 0.94,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -179913,7 +179599,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -179947,7 +179633,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -179959,7 +179645,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -180137,7 +179823,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 1.75,
       "price_per_kg_eur": 0.89,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -180149,7 +179835,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -180275,7 +179961,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -180287,7 +179973,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -180365,7 +180051,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -180377,7 +180063,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -180409,7 +180095,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -180421,7 +180107,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -180497,7 +180183,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -180509,7 +180195,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -180541,7 +180227,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -180553,7 +180239,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -180585,7 +180271,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": 3.45,
       "price_per_kg_eur": 1.76,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -180597,7 +180283,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
@@ -180631,7 +180317,7 @@
       "valid_until": "2026-07-05",
       "price_per_kg": null,
       "price_per_kg_eur": null,
-      "source_type": "promo",
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -180643,7 +180329,7 @@
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
-          "source_type": "promo"
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
