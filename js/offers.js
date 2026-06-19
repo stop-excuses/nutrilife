@@ -1611,6 +1611,11 @@ async function loadOffers() {
         applyFilters();
         renderOffersStatus();
         renderFavoritesPanel();
+        // Saved favorites need the full catalog to show all matching offers;
+        // kick off the lazy-load on first paint when something is being watched.
+        if (favoriteItems.length > 0 && !catalogReady) {
+            ensureCatalogLoaded().catch(() => {});
+        }
         renderPriceComparison();
         initStaplesGrid();
         renderProteinRanking();
@@ -2041,6 +2046,16 @@ function toggleFavorite(offerId) {
                     favSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
                 }
             }
+        }
+        // The fav-panel shows ALL matching offers across the full catalog (not
+        // just this week's promos). If the catalog hasn't been lazy-loaded yet,
+        // kick it off now so the user immediately sees the full list. The
+        // catalog load handler (applyCatalogEnrichment) re-renders the panel
+        // when it finishes.
+        if (!catalogReady) {
+            ensureCatalogLoaded()
+                .then(() => refreshFavoriteHeartsForKeyword(kw))
+                .catch(() => {});
         }
     }
 }
