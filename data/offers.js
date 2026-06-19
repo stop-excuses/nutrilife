@@ -1,9 +1,9 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-06-19T09:09:27.466992Z",
-  "content_hash": "fe84baca5222ea00f1508cedf7d0b277",
-  "total_offers": 4236,
+  "generated_at": "2026-06-19T15:33:06.538202Z",
+  "content_hash": "608528da0a3d58ffb9cc0cd06d382095",
+  "total_offers": 4237,
   "promo_offers": 1336,
-  "assortment_offers": 2900,
+  "assortment_offers": 2901,
   "stores": [
     "Billa",
     "Dar",
@@ -151979,7 +151979,7 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "kaufland-атлантическа-мерлуза-изчистена",
       "name": "Атлантическа мерлуза изчистена",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/281_00110343_2_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_00110343_P.jpg",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -152451,7 +152451,7 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "kaufland-crivit-препарат-за-велосипеди-различни-видове",
       "name": "CRIVIT Препарат за велосипеди различни видове",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627810749_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20921110_P.jpg",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -168310,6 +168310,50 @@ const OFFERS_DATA = {
       "is_bulk_worthy": false,
       "is_long_lasting": false,
       "image": "https://tmarketonline.bg/cdn/img/products/39576/rakia-troan-slivova-otlezala-40--700-ml-image_606ffebd6b077.jpeg?width=600&height=600&v=1777589942"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 11.68,
+      "new_price_eur": 5.97,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-06-08",
+      "valid_until": "2026-07-05",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 11.68,
+          "price_eur": 5.97,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 11.68,
+      "comparison_count": 1,
+      "product_id": "kaufland-букет-микс-40-см",
+      "name": "Букет микс 40 см",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00103841__20IMG_0091_20_281_29?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false
     },
     {
       "store": "Fantastico",
