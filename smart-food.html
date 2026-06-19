@@ -28,7 +28,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Умна храна — Храни се добре. Пазарувай разумно.">
 <meta name="twitter:description" content="Седмични промоции от Lidl, Kaufland, Billa и повече. Пазарувай умно, яж здравословно на по-ниска цена.">
-<link href="css/style.css?v=52" rel="stylesheet"/>
+<link href="css/style.css?v=53" rel="stylesheet"/>
 <script src="js/i18n.js?v=3"></script>
 <script src="js/i18n.smart-food.js?v=12"></script>
 <script type="application/ld+json">
@@ -140,23 +140,30 @@
 <input class="offers-search" id="offers-search" placeholder="🔍 Търси продукт... (напр. пиле, ориз, сирене)" type="text"/>
 <button class="search-submit-btn" data-i18n="ui.search" id="offers-search-submit" type="button">Търси</button>
 </div>
-<!-- Source filters -->
-<div class="filters source-filters">
+<!-- Source toggle + Sort in one row -->
+<div class="filter-top-row">
+<div class="seg-control source-filters" role="group">
 <button class="filter-btn active" data-i18n="sf.filter.promos" data-source="promo">Промоции</button>
 <button class="filter-btn" data-i18n="sf.filter.all_products" data-source="all">Всички продукти</button>
 </div>
-<!-- Type filters -->
-<div class="filters">
+<select class="sort-select" id="sort-select" aria-label="Сортиране">
+<option value="recommended">Препоръчани</option>
+<option value="protein_value">Протеин за лев</option>
+<option value="price_per_kg">Цена / кг</option>
+<option value="health">Здравословни</option>
+</select>
+</div>
+<!-- Type chips (hidden sort-btn kept for JS compatibility) -->
+<div class="filters chip-row">
 <button class="filter-btn active" data-i18n="c.filter.all.type" data-type="all">Всички</button>
 <button class="filter-btn" data-i18n="c.filter.protein" data-type="high_protein">💪 Висок протеин</button>
 </div>
-<!-- Sort -->
-<div class="filters">
-<span data-i18n-html="c.span.1" style="color:var(--muted); font-size:0.8rem; padding:8px 4px;">Подреди:</span>
-<button class="sort-btn active" data-i18n="c.sort.recommended" data-sort="recommended">⭐ Препоръчани</button>
-<button class="sort-btn" data-sort="protein_value">💰 Най-много протеин за лев</button>
-<button class="sort-btn" data-sort="price_per_kg">⚖️ Цена/кг</button>
-<button class="sort-btn" data-i18n="c.sort.health" data-sort="health">❤️ Най-здравословни</button>
+<!-- Hidden sort buttons for JS compatibility -->
+<div style="display:none">
+<button class="sort-btn active" data-sort="recommended"></button>
+<button class="sort-btn" data-sort="protein_value"></button>
+<button class="sort-btn" data-sort="price_per_kg"></button>
+<button class="sort-btn" data-sort="health"></button>
 </div>
 <details class="advanced-filter-panel">
 <summary data-i18n="sf.filters.more">Още филтри</summary>
@@ -218,7 +225,7 @@
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
 <script src="js/main.js?v=19"></script>
 <script src="data/offers.js?v=6"></script>
-<script src="js/offers.js?v=76"></script>
+<script src="js/offers.js?v=77"></script>
 <script>if('serviceWorker' in navigator){navigator.serviceWorker.register('sw.js?v=34');}</script>
 </body>
 </html>

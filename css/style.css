@@ -7305,6 +7305,93 @@ section + section::before {
     margin-bottom: 12px;
 }
 
+/* ── Filter top row: segmented source toggle + sort select ── */
+.filter-top-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 14px;
+}
+
+/* Segmented control for source filter */
+.seg-control {
+    display: flex;
+    border: 1.5px solid rgba(151, 196, 89, 0.35);
+    border-radius: 8px;
+    overflow: hidden;
+}
+.seg-control .filter-btn {
+    border-radius: 0;
+    border: none;
+    border-right: 1px solid rgba(151, 196, 89, 0.25);
+    padding: 7px 16px;
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--muted);
+    background: transparent;
+    margin: 0;
+    white-space: nowrap;
+}
+.seg-control .filter-btn:last-child { border-right: none; }
+.seg-control .filter-btn:hover { color: var(--green); background: rgba(151,196,89,0.08); }
+.seg-control .filter-btn.active {
+    background: var(--green-dark);
+    color: #f0efe8;
+    border-color: transparent;
+}
+
+/* Sort select */
+.sort-select {
+    margin-left: auto;
+    background: var(--surface);
+    border: 1.5px solid var(--surface-border);
+    border-radius: 8px;
+    padding: 7px 32px 7px 13px;
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--text);
+    cursor: pointer;
+    font-family: inherit;
+    appearance: none;
+    -webkit-appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%2397C459'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 11px center;
+    background-size: 9px;
+    min-width: 150px;
+    transition: border-color 0.2s;
+}
+.sort-select:hover { border-color: var(--green); }
+.sort-select:focus { outline: none; border-color: var(--green); }
+
+/* Chip row for type filters */
+.chip-row {
+    display: flex;
+    gap: 6px;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    scrollbar-width: none;
+    margin-top: 10px;
+    padding-bottom: 2px;
+}
+.chip-row::-webkit-scrollbar { display: none; }
+.chip-row .filter-btn {
+    flex-shrink: 0;
+    padding: 5px 14px;
+    font-size: 0.8rem;
+}
+
+[data-theme="light"] .seg-control { border-color: rgba(59,109,17,0.25); }
+[data-theme="light"] .seg-control .filter-btn { border-right-color: rgba(59,109,17,0.15); }
+[data-theme="light"] .sort-select { background-color: #fff; border-color: rgba(0,0,0,0.15); color: #1a1a1a; }
+
+@media (max-width: 480px) {
+    .filter-top-row { gap: 8px; }
+    .seg-control .filter-btn { padding: 6px 12px; font-size: 0.78rem; }
+    .sort-select { min-width: 130px; font-size: 0.78rem; }
+}
+
 .product-controls-panel .search-wrapper {
     margin-bottom: 14px;
 }

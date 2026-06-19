@@ -1752,15 +1752,30 @@ function sortOffers(offers) {
 }
 
 function initSortButtons() {
+    // Hidden sort-btn elements kept for JS-internal state sync
     document.querySelectorAll(".sort-btn[data-sort]").forEach(btn => {
         btn.addEventListener("click", () => {
             document.querySelectorAll(".sort-btn[data-sort]").forEach(b => b.classList.remove("active"));
             btn.classList.add("active");
             activeSort = btn.dataset.sort;
+            const sel = document.getElementById("sort-select");
+            if (sel) sel.value = activeSort;
             currentPage = 1;
             applyFilters();
         });
     });
+    // Primary sort UI: <select>
+    const sortSelect = document.getElementById("sort-select");
+    if (sortSelect) {
+        sortSelect.addEventListener("change", () => {
+            activeSort = sortSelect.value;
+            document.querySelectorAll(".sort-btn[data-sort]").forEach(b => {
+                b.classList.toggle("active", b.dataset.sort === activeSort);
+            });
+            currentPage = 1;
+            applyFilters();
+        });
+    }
 }
 
 function renderOffersStatus() {
