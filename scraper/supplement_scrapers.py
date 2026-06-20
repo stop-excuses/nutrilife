@@ -784,8 +784,10 @@ def extract_product_label_image(soup: BeautifulSoup, page_url: str) -> str | Non
     candidates = []
     signals = ("label", "nutrition", "supplement", "facts", "ingredient", "composition", "back", "etiket", "sustav")
     for img in soup.select("img"):
+        def _attr_str(v):
+            return " ".join(v) if isinstance(v, list) else (v or "")
         descriptor = " ".join(
-            img.get(attr, "") for attr in ("src", "data-src", "data-original", "data-zoom-image", "alt", "title", "class")
+            _attr_str(img.get(attr, "")) for attr in ("src", "data-src", "data-original", "data-zoom-image", "alt", "title", "class")
         ).lower()
         if any(signal in descriptor for signal in signals):
             for attr in ("data-zoom-image", "data-large_image", "data-original", "data-src", "src"):
