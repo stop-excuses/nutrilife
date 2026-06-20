@@ -1,4 +1,4 @@
-const CACHE_NAME = 'nutrilife-v34';
+const CACHE_NAME = 'nutrilife-v35';
 const DATA_CACHE = 'nutrilife-data-v1';
 const RUNTIME_CACHE = 'nutrilife-runtime-v1';
 const IMAGE_CACHE = 'nutrilife-images-v1';
@@ -139,13 +139,13 @@ self.addEventListener('fetch', event => {
     return;
   }
 
-  if (isProductData(url)) {
-    event.respondWith(staleWhileRevalidate(event.request, DATA_CACHE));
+  if (isVersionedAsset(url)) {
+    event.respondWith(cacheFirst(event.request, CACHE_NAME));
     return;
   }
 
-  if (isVersionedAsset(url)) {
-    event.respondWith(cacheFirst(event.request, CACHE_NAME));
+  if (isProductData(url)) {
+    event.respondWith(staleWhileRevalidate(event.request, DATA_CACHE));
     return;
   }
 
