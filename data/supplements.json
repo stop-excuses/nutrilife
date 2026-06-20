@@ -6791,13 +6791,13 @@
       "currency_source": "EUR",
       "availability_status": "in_stock",
       "weight_grams": 450.0,
-      "servings": 81,
+      "servings": 16,
       "count": null,
       "active": {
         "protein_g": 25.0
       },
       "price_per_active_unit": {
-        "bgn_per_25g_protein": 0.78
+        "bgn_per_25g_protein": 3.94
       },
       "unit_label": "лв / 25 g протеин",
       "confidence": "high",
