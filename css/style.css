@@ -2153,6 +2153,36 @@ input[type="range"]::-moz-range-thumb {
     line-height: 1.2;
 }
 
+/* Honest-discount verdict: real saving vs inflated "old price" base */
+.discount-honesty {
+    display: inline-block;
+    font-size: 0.58rem;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-top: 3px;
+    padding: 2px 6px;
+    border-radius: 5px;
+    white-space: nowrap;
+}
+.discount-honesty.dh-real {
+    color: #cde8b0;
+    background: rgba(59, 109, 17, 0.22);
+    border: 1px solid rgba(151, 196, 89, 0.4);
+}
+.discount-honesty.dh-weak {
+    color: #f0c98a;
+    background: rgba(186, 117, 23, 0.18);
+    border: 1px solid rgba(186, 117, 23, 0.45);
+}
+[data-theme="light"] .discount-honesty.dh-real {
+    color: #2f5a0c;
+    background: rgba(151, 196, 89, 0.22);
+}
+[data-theme="light"] .discount-honesty.dh-weak {
+    color: #8a5310;
+    background: rgba(186, 117, 23, 0.14);
+}
+
 .offer-badges {
     display: flex;
     flex-wrap: wrap;

@@ -2830,6 +2830,53 @@ function renderSparkline(offer) {
     return `<span class="sparkline" title="Ценова история">${bars}</span>`;
 }
 
+// Honest-discount verdict: compares the claimed "−X%" against the product's own
+// price memory. A discount is only "real" when the current price is clearly below
+// the typical (average) price we've recorded; it's "завишена база" when the price
+// is basically the normal price or the claimed old price is inflated. Stays silent
+// unless there is credible memory (≥2 distinct observed prices), so we never overclaim.
+function evaluateDiscountHonesty(offer) {
+    const claimed = offer.discount_pct || 0;
+    const newP = offer.new_price;
+    if (!claimed || newP == null) return null;
+
+    const avg = offer.avg_price;
+    const low = offer.lowest_price;
+    const history = offer.price_history || [];
+    const observed = history
+        .map(e => (Array.isArray(e) ? e[1] : e.price))
+        .filter(p => p != null);
+    const distinct = new Set(observed.map(p => Number(p).toFixed(2)));
+    if (avg == null || distinct.size < 2) return null;
+
+    if (newP <= avg * 0.93) {
+        const atLow = low != null && newP <= low * 1.02;
+        return {
+            kind: "real",
+            text: atLow ? "Честна цена · дъно" : "Честно намаление",
+            cls: "dh-real",
+            title: `Обичайна цена ~${avg.toFixed(2)} лв, сега ${newP.toFixed(2)} лв`,
+        };
+    }
+    const inflatedBase = offer.old_price != null && offer.old_price >= avg * 1.10;
+    if (newP >= avg * 0.99 || inflatedBase) {
+        return {
+            kind: "weak",
+            text: "Завишена база",
+            cls: "dh-weak",
+            title: `Обичайна цена ~${avg.toFixed(2)} лв — „−${claimed}%“ е от завишена база`,
+        };
+    }
+    return null;
+}
+
+function renderDiscountHonesty(offer) {
+    const v = evaluateDiscountHonesty(offer);
+    if (!v) return "";
+    const icon = v.kind === "real" ? "✅" : "⚠️";
+    return `<span class="discount-honesty ${v.cls}" title="${escapeHtml(v.title)}">${icon} ${v.text}</span>`;
+}
+
 function getPriceTrend(offer) {
     const history = offer.price_history;
     if (!history || history.length < 2) return null;
@@ -3216,6 +3263,7 @@ function renderOffers(offers) {
                             <span class="offer-new-price">${o.new_price.toFixed(2)} лв</span>
                             ${o.old_price ? `<span class="offer-old-price">${o.old_price.toFixed(2)} лв</span>` : ""}
                         </div>
+                        ${renderDiscountHonesty(o)}
                         ${displayPpk ? `<div class="offer-ppk">${displayPpk.toFixed(2)} лв/кг</div>` : ""}
                         ${proteinBadgeHtml}
                         ${validityShort ? `<div class="offer-validity">${validityShort}</div>` : ""}

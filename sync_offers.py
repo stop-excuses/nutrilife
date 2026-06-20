@@ -311,6 +311,23 @@ for offer in offers_data.get("offers", []):
                 if any(m in low for m in ("no-image-placeholder", "no_image_placeholder", "placeholder.svg", "/etc.clientlibs/kaufland/")):
                     continue
             offer[field] = candidate
+        # Inline compact price memory so the fake-discount detector and sparkline
+        # work on first paint, without loading the 34MB market_memory catalog.
+        for mfield in ("avg_price", "lowest_price", "lowest_price_date"):
+            if offer.get(mfield) is None and product.get(mfield) is not None:
+                offer[mfield] = product.get(mfield)
+        hist = product.get("price_history") or []
+        if hist and not offer.get("price_history"):
+            offer["price_history"] = [
+                [e.get("date"), e.get("price"), e.get("old_price"), e.get("discount_pct")]
+                for e in hist[-8:]
+                if e.get("date") and e.get("price") is not None
+            ]
+            offer["price_seen_count"] = len(hist)
+        if offer.get("price_signal") is None:
+            offer["price_signal"] = _price_signal(
+                offer.get("new_price"), product.get("lowest_price"), product.get("avg_price")
+            )
         inlined_meta += 1
     if offer.get("price_per_kg") is not None:
         continue
