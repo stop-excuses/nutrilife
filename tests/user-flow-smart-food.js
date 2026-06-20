@@ -100,9 +100,9 @@ function log(msg) { console.log('[FLOW] ' + msg); }
     await page.click('[data-store="all"]');
     await page.waitForTimeout(300);
 
-    // 5. Sort options
+    // 5. Sort options (sorting is a dropdown; hidden sort-btns kept only for JS compat)
     for (const s of ['price_per_kg', 'health', 'protein_value', 'recommended']) {
-      await page.click(`[data-sort="${s}"]`);
+      await page.selectOption('#sort-select', s);
       await page.waitForTimeout(300);
       const c = await page.locator('#offers-grid .offer-card').count();
       step(`Sort ${s}`, c > 0, `${c} cards`);
