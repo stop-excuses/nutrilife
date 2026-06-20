@@ -2877,6 +2877,21 @@ function renderDiscountHonesty(offer) {
     return `<span class="discount-honesty ${v.cls}" title="${escapeHtml(v.title)}">${icon} ${v.text}</span>`;
 }
 
+// Ranks a promo by how good a deal it genuinely is. Real saving vs the recorded
+// average counts more than the headline −X%; confirmed inflated-base deals sink.
+function dealQualityScore(offer) {
+    const disc = offer.discount_pct || 0;
+    const v = evaluateDiscountHonesty(offer);
+    if (v && v.kind === "weak") return -1000 + disc;
+    const avg = offer.avg_price;
+    const realSavingPct = (avg != null && offer.new_price != null && avg > 0)
+        ? ((avg - offer.new_price) / avg) * 100
+        : null;
+    let score = realSavingPct != null ? realSavingPct * 2 : disc;
+    if (v && v.kind === "real") score += 50;
+    return score;
+}
+
 function getPriceTrend(offer) {
     const history = offer.price_history;
     if (!history || history.length < 2) return null;
@@ -4049,8 +4064,12 @@ function renderTopDeals() {
 
     const deals = allOffers
         .filter(o => o.source_type === "promo" && o.discount_pct >= 15 && o.new_price != null && FOOD_CATEGORIES.has(o.category))
-        .sort((a, b) => (b.discount_pct || 0) - (a.discount_pct || 0))
-        .slice(0, 8);
+        // Drop inflated-base "−50%" theatre — a top deal must be a real saving.
+        .filter(o => { const v = evaluateDiscountHonesty(o); return !(v && v.kind === "weak"); })
+        .map(o => ({ o, score: dealQualityScore(o) }))
+        .sort((a, b) => b.score - a.score)
+        .slice(0, 8)
+        .map(x => x.o);
 
     const section = document.getElementById("top-deals-section");
     if (deals.length === 0) { if (section) section.style.display = "none"; return; }
