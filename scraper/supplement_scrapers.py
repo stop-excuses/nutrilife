@@ -1645,7 +1645,7 @@ def write_output(
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Scrape supplement price-per-active-dose data.")
-    parser.add_argument("--per-category", type=int, default=50, help="Max candidate URLs per category per source.")
+    parser.add_argument("--per-category", type=int, default=9999, help="Max candidate URLs per category per source (default: unlimited).")
     parser.add_argument("--source", action="append", help="Limit to source name. Can be repeated.")
     parser.add_argument("--category", action="append", choices=sorted(CATEGORY_KEYWORDS), help="Limit to category. Can be repeated.")
     parser.add_argument("--url", action="append", help="Scrape a direct product URL. Can be repeated.")

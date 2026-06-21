@@ -15,14 +15,14 @@ on:
         required: false
         default: "all"
       per_category:
-        description: "Max products per category per source"
+        description: "Max products per category per source (default: unlimited)"
         required: false
-        default: "150"
+        default: "9999"
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 300
 
     permissions:
       contents: write
