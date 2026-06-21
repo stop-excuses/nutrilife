@@ -151,9 +151,14 @@ SOURCES = (
         ("protein.bg",),
     ),
     Source(
-        "BodybuildingBG",
-        ("https://bodybuilding.bg/sitemap.xml", "https://bodybuilding.bg/sitemap_index.xml"),
-        ("bodybuilding.bg",),
+        "WorkoutBG",
+        ("https://workout.bg/sitemap.xml",),
+        ("workout.bg",),
+    ),
+    Source(
+        "MusclePower",
+        ("https://musclepower.bg/product-sitemap1.xml", "https://musclepower.bg/product-sitemap2.xml"),
+        ("musclepower.bg",),
     ),
 )
 
@@ -301,9 +306,12 @@ def is_product_url(source_name: str, decoded_url: str) -> bool:
         # Category pages have extra path segments: protein.bg/sports/proteini/...
         path = decoded_url.split("protein.bg", 1)[-1].strip("/")
         return "/" not in path and bool(path)
-    if source_name == "BodybuildingBG":
-        path = decoded_url.split("bodybuilding.bg", 1)[-1].strip("/")
-        return bool(path) and "?" not in path and path.count("/") <= 1
+    if source_name == "WorkoutBG":
+        # Product URLs end with -cena, single slug at root
+        path = decoded_url.split("workout.bg", 1)[-1].strip("/")
+        return path.endswith("-cena") and "/" not in path
+    if source_name == "MusclePower":
+        return "/porachka/" in decoded_url and decoded_url.count("/") >= 5
     return True
 
 
