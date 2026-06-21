@@ -47,10 +47,10 @@ jobs:
         run: |
           CATS="${{ github.event.inputs.categories || 'all' }}"
           SRCS="${{ github.event.inputs.sources || 'all' }}"
-          PER="${{ github.event.inputs.per_category || '150' }}"
-          CONCURRENCY=8
+          PER="${{ github.event.inputs.per_category || '9999' }}"
+          CONCURRENCY=12
 
-          ARGS="--per-category $PER --concurrency $CONCURRENCY --merge-existing"
+          ARGS="--per-category $PER --concurrency $CONCURRENCY --merge-existing --replace-scope"
 
           if [ "$CATS" != "all" ]; then
             for cat in $(echo $CATS | tr ',' ' '); do
