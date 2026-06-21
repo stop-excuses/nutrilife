@@ -1539,13 +1539,54 @@ def save_cache(cache: dict, use_cache: bool) -> None:
     tmp_path.replace(CACHE_PATH)
 
 
-def scrape_one(source: Source, category: str, url: str, cache: dict | None = None, use_cache: bool = False) -> dict | None:
+def parse_price_update(source: Source, url: str, existing: dict) -> dict | None:
+    """Fetch only the current price for an existing product. Skip label/image extraction."""
+    html = fetch(url)
+    if not html:
+        return None
+    soup = BeautifulSoup(html, "html.parser")
+    price_bgn, price_eur, currency_source, availability_status, offer_name = parse_source_price(source.name, soup)
+    if price_bgn is None:
+        product_json = find_product_json(load_json_ld(soup))
+        text = normalize_text(soup.get_text(" ", strip=True))
+        price_bgn, price_eur, currency_source, availability_status, offer_name = parse_price(product_json, text)
+    if price_bgn is None or price_bgn < 1:
+        return None
+    if availability_status == "out_of_stock":
+        return None
+    active = existing.get("active") or {}
+    weight_grams = existing.get("weight_grams")
+    servings = existing.get("servings")
+    count = existing.get("count")
+    category = existing.get("category")
+    price_units = calculate_price_units(category, price_bgn, active, weight_grams, servings, count)
+    if not price_units:
+        return None
+    updated = dict(existing)
+    updated["price_bgn"] = price_bgn
+    updated["price_eur"] = price_eur or round(price_bgn / BGN_TO_EUR, 2)
+    updated["currency_source"] = currency_source
+    updated["availability_status"] = availability_status or "unknown"
+    updated["price_per_active_unit"] = price_units
+    updated["scraped_at"] = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
+    updated.update(extract_promo_info(soup, price_bgn, source.name))
+    return updated
+
+
+def scrape_one(source: Source, category: str, url: str, cache: dict | None = None, use_cache: bool = False, existing_by_url: dict | None = None) -> dict | None:
     if use_cache and cache is not None:
         cached = cache.get(url)
         if isinstance(cached, dict) and cached.get("item"):
             item = cached["item"]
             print(f"    = {item['name'][:70]} | cached")
             return item
+
+    if existing_by_url and url in existing_by_url:
+        item = parse_price_update(source, url, existing_by_url[url])
+        if item:
+            print(f"    ~ {item['name'][:70]} | price {item['price_bgn']} BGN")
+            return item
+        # Fall through to full parse if price-only fails
 
     item = parse_product(source, url, category)
     if use_cache and cache is not None and item:
@@ -1565,6 +1606,7 @@ def scrape(
     urls: list[str] | None = None,
     concurrency: int = 1,
     use_cache: bool = False,
+    existing_by_url: dict | None = None,
 ) -> list[dict]:
     products: list[dict] = []
     seen_ids: set[str] = set()
@@ -1582,7 +1624,7 @@ def scrape(
         jobs = [(src, cat, url) for src, cat, url in jobs if cat]
         print(f"[*] Direct URL mode: {len(jobs)} product URLs")
         with ThreadPoolExecutor(max_workers=concurrency) as executor:
-            futures = [executor.submit(scrape_one, src, cat, url, cache, use_cache) for src, cat, url in jobs]
+            futures = [executor.submit(scrape_one, src, cat, url, cache, use_cache, existing_by_url) for src, cat, url in jobs]
             for future in as_completed(futures):
                 item = future.result()
                 if not item or item["id"] in seen_ids:
@@ -1603,13 +1645,15 @@ def scrape(
             print(f"  {category}: {len(cat_urls)} candidates")
             all_jobs.extend((source, category, url) for url in cat_urls)
 
-    print(f"\n[*] Total jobs: {len(all_jobs)} — scraping with concurrency={concurrency}")
+    existing_count = sum(1 for _, _, url in all_jobs if existing_by_url and url in existing_by_url)
+    new_count = len(all_jobs) - existing_count
+    print(f"\n[*] Total jobs: {len(all_jobs)} — {existing_count} price-update, {new_count} full-parse — concurrency={concurrency}")
 
     # Phase 2: scrape all jobs in one flat pool across all sources/categories
     if concurrency <= 1:
         for source, category, url in all_jobs:
             time.sleep(REQUEST_DELAY_SECONDS)
-            item = scrape_one(source, category, url, cache, use_cache)
+            item = scrape_one(source, category, url, cache, use_cache, existing_by_url)
             if item and item["id"] not in seen_ids:
                 seen_ids.add(item["id"])
                 products.append(item)
@@ -1619,7 +1663,7 @@ def scrape(
         with ThreadPoolExecutor(max_workers=concurrency) as executor:
             future_to_job = {}
             for source, category, url in all_jobs:
-                f = executor.submit(scrape_one, source, category, url, cache, use_cache)
+                f = executor.submit(scrape_one, source, category, url, cache, use_cache, existing_by_url)
                 future_to_job[f] = (source.name, category)
             done = 0
             for future in as_completed(future_to_job):
@@ -1746,6 +1790,19 @@ def main() -> None:
 
     selected_sources = {s.lower() for s in args.source} if args.source else None
     selected_categories = set(args.category) if args.category else None
+
+    # Load existing products for price-only update (labels/images fetched once, not every run)
+    existing_by_url: dict[str, dict] = {}
+    if args.merge_existing and OUTPUT_PATH.exists():
+        try:
+            existing_data = json.loads(OUTPUT_PATH.read_text(encoding="utf-8"))
+            for p in existing_data.get("supplements", []):
+                if p.get("url") and p.get("price_per_active_unit"):
+                    existing_by_url[p["url"]] = p
+            print(f"[*] Loaded {len(existing_by_url)} existing products for price-update mode")
+        except Exception as e:
+            print(f"[!] Could not load existing products: {e}")
+
     products = scrape(
         args.per_category,
         selected_sources,
@@ -1753,6 +1810,7 @@ def main() -> None:
         args.url,
         args.concurrency,
         args.cache,
+        existing_by_url or None,
     )
     write_output(products, args.merge_existing, selected_sources, selected_categories, args.replace_scope)
 

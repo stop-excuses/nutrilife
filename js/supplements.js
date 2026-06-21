@@ -79,8 +79,6 @@
     let filters = {
         category: 'all',
         store: 'all',
-        confidence: 'all',
-        availability: 'all',
         sort: 'unit',
         query: '',
         page: 1
@@ -234,24 +232,6 @@
             });
         });
 
-        document.querySelectorAll('button[data-confidence]').forEach(button => {
-            button.addEventListener('click', () => {
-                setActive(button, 'button[data-confidence]');
-                filters.confidence = button.dataset.confidence;
-                filters.page = 1;
-                applyFilters();
-            });
-        });
-
-        document.querySelectorAll('button[data-availability]').forEach(button => {
-            button.addEventListener('click', () => {
-                setActive(button, 'button[data-availability]');
-                filters.availability = button.dataset.availability;
-                filters.page = 1;
-                applyFilters();
-            });
-        });
-
         document.querySelectorAll('[data-sort]').forEach(button => {
             button.addEventListener('click', () => {
                 setActive(button, '[data-sort]');
@@ -369,12 +349,6 @@
         if (filters.store !== 'all') {
             filtered = filtered.filter(item => item.store === filters.store);
         }
-        if (filters.confidence !== 'all') {
-            filtered = filtered.filter(item => item.confidence === filters.confidence);
-        }
-        if (filters.availability === 'confirmed') {
-            filtered = filtered.filter(item => item.availability_status === 'in_stock' || item.availability_status === 'limited');
-        }
         filtered = filtered.filter(item => !isOutlierPrice(item));
         if (filters.query) {
             filtered = filtered.filter(item => matchesSearch(item, filters.query));
@@ -411,9 +385,6 @@
         const confidenceScore = { high: 3, medium: 2, low: 1 };
         return [...list].sort((a, b) => {
             if (filters.sort === 'price') return a.price_bgn - b.price_bgn;
-            if (filters.sort === 'confidence') {
-                return (confidenceScore[b.confidence] || 0) - (confidenceScore[a.confidence] || 0) || a.unitValue - b.unitValue;
-            }
             if (filters.sort === 'store') {
                 return a.store.localeCompare(b.store, 'bg') || a.category.localeCompare(b.category, 'bg') || a.unitValue - b.unitValue;
             }
@@ -1056,13 +1027,11 @@
     }
 
     function resetFilters() {
-        filters = { category: 'all', store: 'all', confidence: 'all', availability: 'all', sort: 'unit', query: '', page: 1 };
+        filters = { category: 'all', store: 'all', sort: 'unit', query: '', page: 1 };
         const search = document.getElementById('supplements-search');
         if (search) search.value = '';
         document.querySelectorAll('button[data-category]').forEach(btn => btn.classList.toggle('active', btn.dataset.category === 'all'));
         document.querySelectorAll('button[data-store]').forEach(btn => btn.classList.toggle('active', btn.dataset.store === 'all'));
-        document.querySelectorAll('button[data-confidence]').forEach(btn => btn.classList.toggle('active', btn.dataset.confidence === 'all'));
-        document.querySelectorAll('button[data-availability]').forEach(btn => btn.classList.toggle('active', btn.dataset.availability === 'all'));
         document.querySelectorAll('button[data-sort]').forEach(btn => btn.classList.toggle('active', btn.dataset.sort === 'unit'));
         applyFilters();
     }
