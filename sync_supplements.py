@@ -8,7 +8,9 @@ OUTPUT_PATH = Path("data/supplements.js")
 
 def main():
     data = json.loads(SOURCE_PATH.read_text(encoding="utf-8"))
-    for item in data.get("supplements", []):
+    supplements = data.get("supplements", [])
+    data["total_supplements"] = len(supplements)
+    for item in supplements:
         item.setdefault("availability_status", "unknown")
     with OUTPUT_PATH.open("w", encoding="utf-8") as f:
         f.write("const SUPPLEMENTS_DATA = ")

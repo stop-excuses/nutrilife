@@ -1517,9 +1517,18 @@ def is_relevant_product(category: str, name: str, url: str) -> bool:
         if re.search(r"\bcarborad\b|recovery.bar|carbo.bar|maltodextrin.*bar", haystack, re.I):
             return False
         # Exclude mass gainers — high-carb, not comparable to protein supplements
-        if re.search(r"гейнър|gainer|gayn|mass.gainer|weight.gainer|масово.покачване", haystack, re.I):
+        if re.search(r"гейнър|gainer|gayn|mass.gainer|weight.gainer|масово.покачване|bad.ass.mass|lean.mass|mass.build|true.mass|animal.mass|mass.matrix|hurricane.xs", haystack, re.I):
             return False
         if re.search(r"\bmass\b", haystack, re.I) and re.search(r"\bgain\b|гейн|въглехидрат|carbo|carb\b", haystack, re.I):
+            return False
+        # Exclude recovery shakes and protein bars not meant as daily protein source
+        if re.search(r"recovery.protein.shake|2.1.1.recovery|protein.break.bar", haystack, re.I):
+            return False
+        # Exclude medical/clinical nutrition and breastfeeding products
+        if re.search(r"кърмене|след.раждане|fresubin|diben.drink|диабетик|диабетиц|pregnaco", haystack, re.I):
+            return False
+        # Exclude oatmeal and instant oats
+        if re.search(r"инстант.овесени|instant.овесени|овесени.ядки", haystack, re.I):
             return False
         # Exclude ready-to-drink food beverages — ASCII and Cyrillic "x/х" before volume
         if re.search(r"(соева|соево|бадемово|оризово|овесено| овесена|almond|oat|soy|rice)\s*(напитка|мляко|drink)", haystack, re.I):

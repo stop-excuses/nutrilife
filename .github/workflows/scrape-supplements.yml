@@ -90,27 +90,14 @@ jobs:
       - name: Sync supplements.json → supplements.js
         run: python sync_supplements.py
 
-      - name: Bump supplements.js version in HTML
-        run: |
-          python3 - <<'EOF'
-          import re, pathlib
-          html = pathlib.Path("smart-supplements.html").read_text(encoding="utf-8")
-          def bump(m):
-              return m.group(1) + str(int(m.group(2)) + 1) + m.group(3)
-          updated = re.sub(r'(data/supplements\.js\?v=)(\d+)(\")', bump, html)
-          pathlib.Path("smart-supplements.html").write_text(updated, encoding="utf-8")
-          v = re.search(r'supplements\.js\?v=(\d+)', updated).group(1)
-          print(f"Bumped supplements.js to v{v}")
-          EOF
-
       - name: Commit and push if changed
         run: |
           git config user.name "Ivan.Milev"
           git config user.email "ivvmilev@gmail.com"
-          git add data/supplements.json data/supplements.js smart-supplements.html
+          git add data/supplements.json data/supplements.js
           git diff --cached --quiet && echo "No changes" || (
             COUNT=$(python3 -c "import json; d=json.load(open('data/supplements.json')); print(d.get('total_supplements',0))")
             git commit -m "chore: update supplements [$COUNT products] $(date -u '+%Y-%m-%d')"
-            git pull --rebase --autostash origin master
+            git pull --rebase --autostash -X theirs origin master
             git push
           )
