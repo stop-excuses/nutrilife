@@ -1462,6 +1462,9 @@ def is_relevant_product(category: str, name: str, url: str) -> bool:
     product_name = unquote(name).lower()
     if "::" in name or any(bad in haystack for bad in ("brow fiber", "microfiber", "cloth", "mascara")):
         return False
+    # Global: exclude pharmaceutical formulations (oral solutions, injections, IV infusions)
+    if any(bad in haystack for bad in ("за перорален разтвор", "перорален разтвор", "oral solution", "solution for injection", "инфузионен разтвор", "инжекционен разтвор", "инфузия", "ампули за инжектиране")):
+        return False
     if category == "fiber" and "fiber" in haystack and not re.search(r"\bpsyllium\b|\bdaily-fiber\b|\bfiber\s+\d|\d\s*g\s+fiber", haystack, re.I):
         return False
     if category == "fiber" and any(bad in haystack for bad in ("defibr", "дефибр", "electrode", "медицин", "medical device", "подложк")):
@@ -1483,6 +1486,11 @@ def is_relevant_product(category: str, name: str, url: str) -> bool:
         if any(bad in haystack for bad in ("iron gym", "ironmaxx", "barbell", "дъмбел", "уред")):
             return False
         return bool(re.search(r"\biron\b|желязо|ferrous|ferrum", haystack, re.I))
+    if category == "magnesium":
+        # Exclude magnesium sulfate oral solutions (laxatives, not supplements)
+        if re.search(r"магнезиев\s*сулфат|magnesium\s*sulfate|magnesium\s*sulphate", haystack, re.I):
+            return False
+        return any(keyword in haystack for keyword in CATEGORY_KEYWORDS["magnesium"])
     if category == "vitamin_d":
         return bool(re.search(r"витамин\s*d3?|vitamin[-\s]?d3?|\bd3\b|\b\d{3,5}\s*(?:iu|ме)\b", haystack, re.I))
     if category == "vitamin_c":
@@ -1497,6 +1505,11 @@ def is_relevant_product(category: str, name: str, url: str) -> bool:
         return bool(re.search(r"\bzinc\b|цинк|cink", product_name, re.I))
     if category == "protein":
         if any(bad in haystack for bad in ("protein bar", "protein chips", "protein cookie", "протеинов бар", "чипс")):
+            return False
+        # Exclude ready-to-drink food beverages (soy/oat/almond/rice drinks, packaged juices)
+        if re.search(r"(соева|оатмийлк|соево|бадемово|оризово|овесено)\s*(напитка|мляко|drink)", haystack, re.I):
+            return False
+        if re.search(r"напитка.{0,30}(мл|литър|л\b)", haystack, re.I):
             return False
         return bool(re.search(r"\bwhey\b|\bprotein\b|суроват|протеин|isolate|изолат", haystack, re.I))
     if category == "l_carnitine":

@@ -1050,9 +1050,9 @@
 
     function compareBestCandidate(a, b) {
         const confidenceScore = { high: 3, medium: 2, low: 1 };
-        return a.unitValue - b.unitValue
-            || (confidenceScore[b.confidence] || 0) - (confidenceScore[a.confidence] || 0)
-            || formScorePenalty(a) - formScorePenalty(b);
+        const confDiff = (confidenceScore[b.confidence] || 0) - (confidenceScore[a.confidence] || 0);
+        if (confDiff !== 0) return confDiff;
+        return a.unitValue - b.unitValue || formScorePenalty(a) - formScorePenalty(b);
     }
 
     function resetFilters() {
