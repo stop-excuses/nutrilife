@@ -1,6 +1,6 @@
 const SUPPLEMENTS_DATA = {
   "generated_at": "2026-06-21T12:27:40.079184Z",
-  "total_supplements": 3787,
+  "total_supplements": 3774,
   "sources": [
     "FHL",
     "Framar",
@@ -6766,114 +6766,6 @@ const SUPPLEMENTS_DATA = {
           "price_bgn": 90.01,
           "price_eur": 46.02,
           "unit_value": 4.46
-        }
-      ]
-    },
-    {
-      "id": "healthstore-pure-nutrition---protein-pancake-2270-грама",
-      "store": "HealthStore",
-      "name": "Pure Nutrition - Protein Pancake 2270 грама",
-      "brand": "PURE NUTRITION",
-      "category": "protein",
-      "url": "https://healthstore.bg/pure-nutrition-protein-pancake-2270-g",
-      "image": "https://healthstore.bg/image/cache/cache/data/catalog/p/2310-pure-nutrition-protein-pancake-2270-grama-600x600-600x300.jpg",
-      "price_bgn": 105.01,
-      "price_eur": 53.69,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 2270.0,
-      "servings": 65,
-      "count": 17,
-      "active": {
-        "protein_g": 14.8
-      },
-      "label_text": "Информация за продукта | Разфасовка | 2270 г | Производител | PURE NUTRITION | Тип продукт | Високопротеинова храна | Дозировка | Една доза | 35 g | ➤ виж повече / Информация за продукта | Разфасовка | 2270 г | Производител | PURE NUTRITION | Тип продукт | Високопротеинова храна | Дозировка | Една доза | 35 g | Дози в опаковка | 65 дози | Дози на ден | 1 доза | Хранителни стойности | Калории | 182 ккал | Продуктът съдържа | Съставки | Овесени ядки, протеинов бленд (суроватъчен протеин концентрат, яйчен протеин, млечен протеин), други | Белтъчини | Протеин | 14.8 g | Въглехидрати | Захари | 6.3 g | Въглехидрати | 19.4 g | Мазнини | Мазнини | 4.5 g | Наситени мазнини | 1.7 g | Минерали | Натрий | 0.6 g / Смес за протеинови палачинки с уникален вкус. Цена: 53.69 € с ДДС Отзиви: 5 15 Отзиви: / Продукт на: PURE NUTRITION Добавен на: 2016-05-16 - Опаковка - Pure Nutrition - Protein Pancake 454 грама / 14.32 € Pure Nutrition - Protein Pancake 908 грама / 24.54 € В Наличност БЕЗПЛАТНА ДОСТАВКА ЗА МАРКАТА ИЗБЕРИ ВАРИАНТ {{value.name | andFilter}} {{value.sku}} / {{value.real_quantity}} КУПИ ДОБАВИ В ЛЮБИМИ (ВЗЕМИ СЕГА, ПЛАТИ ПО-КЪСНО) ДОБАВИ ЗА СРАВНЕНИЕ СРАВНИ ПРОДУКТИТЕ ЗАДАЙ ВЪПРОС ЗА ТОЗИ ПРОДУКТ Наличен в {{product.store_name ? product.store_name : product.store_name_en}} ✓ ✓ ✖ / ОПИСАНИЕ До неотдавна думи като \"вкусно\" и \"сладко\" се асоциираха с хиперкалоричност, респективно със словосъчетание, като условна полезност. Благодарение на утвърдени компании, които се стремят да се развиват все повече и повече, се промениха редица житейски догми. Сега вкусното и сладкото могат да бъде вместени в почти всяка диета. Казаното по-горе е само бегъл очерк на това, което предстои да вкусите. Представяме Ви смес за протеинови палачинки - гурме продукт от най-висок клас. Инициатор за пор",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 2.73
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "high",
-      "scraped_at": "2026-06-21T11:06:46.173459Z",
-      "promo_label": "-10%",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 105.01,
-          "price_eur": 53.69,
-          "unit_value": 2.73
-        }
-      ]
-    },
-    {
-      "id": "healthstore-pure-nutrition---protein-pancake-908-грама",
-      "store": "HealthStore",
-      "name": "Pure Nutrition - Protein Pancake 908 грама",
-      "brand": "PURE NUTRITION",
-      "category": "protein",
-      "url": "https://healthstore.bg/pure-nutrition-protein-pancake-908-grama-2311",
-      "image": "https://healthstore.bg/image/cache/cache/data/catalog/p/2311-pure-nutrition-protein-pancake-908-grama-600x600-600x300.jpg",
-      "price_bgn": 48.0,
-      "price_eur": 24.54,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 908.0,
-      "servings": 26,
-      "count": 9,
-      "active": {
-        "protein_g": 14.8
-      },
-      "label_text": "Информация за продукта | Разфасовка | 908 г | Производител | PURE NUTRITION | Тип продукт | Високопротеинова храна | Дозировка | Една доза | 35 g | ➤ виж повече / Информация за продукта | Разфасовка | 908 г | Производител | PURE NUTRITION | Тип продукт | Високопротеинова храна | Дозировка | Една доза | 35 g | Дози в опаковка | 26 дози | Дози на ден | 1 доза | Хранителни стойности | Калории | 182 ккал | Продуктът съдържа | Съставки | Овесени ядки, протеинов бленд (суроватъчен протеин концентрат, яйчен протеин, млечен протеин), други | Белтъчини | Протеин | 14.8 g | Въглехидрати | Захари | 6.3 g | Въглехидрати | 19.4 g | Мазнини | Мазнини | 4.5 g | Наситени мазнини | 1.7 g | Минерали | Натрий | 0.6 g / Смес за протеинови палачинки с уникален вкус. Цена: 24.54 € с ДДС Отзиви: 5 15 Отзиви: / Продукт на: PURE NUTRITION Добавен на: 2016-05-16 - Опаковка - Pure Nutrition - Protein Pancake 454 грама / 14.32 € Pure Nutrition - Protein Pancake 2270 грама / 53.69 € В Наличност ЗА МАРКАТА ИЗБЕРИ ВАРИАНТ {{value.name | andFilter}} {{value.sku}} / {{value.real_quantity}} КУПИ ДОБАВИ В ЛЮБИМИ (ВЗЕМИ СЕГА, ПЛАТИ ПО-КЪСНО) ДОБАВИ ЗА СРАВНЕНИЕ СРАВНИ ПРОДУКТИТЕ ЗАДАЙ ВЪПРОС ЗА ТОЗИ ПРОДУКТ Наличен в {{product.store_name ? product.store_name : product.store_name_en}} ✓ ✓ ✖ / ОПИСАНИЕ До неотдавна думи като \"вкусно\" и \"сладко\" се асоциираха с хиперкалоричност, респективно със словосъчетание, като условна полезност. Благодарение на утвърдени компании, които се стремят да се развиват все повече и повече, се промениха редица житейски догми. Сега вкусното и сладкото могат да бъде вместени в почти всяка диета. Казаното по-горе е само бегъл очерк на това, което предстои да вкусите. Представяме Ви смес за протеинови палачинки - гурме продукт от най-висок клас. Инициатор за пореден път е Pure Nutr",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 3.12
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "high",
-      "scraped_at": "2026-06-21T11:06:46.617204Z",
-      "promo_label": "-10%",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 48.0,
-          "price_eur": 24.54,
-          "unit_value": 3.12
-        }
-      ]
-    },
-    {
-      "id": "healthstore-pure-nutrition---protein-pancake-454-грама",
-      "store": "HealthStore",
-      "name": "Pure Nutrition - Protein Pancake 454 грама",
-      "brand": "PURE NUTRITION",
-      "category": "protein",
-      "url": "https://healthstore.bg/pure-nutrition-protein-pancake-454-grama",
-      "image": "https://healthstore.bg/image/cache/cache/data/catalog/p/2309-pure-nutrition-protein-pancake-454-grama-600x600-600x300.jpg",
-      "price_bgn": 28.01,
-      "price_eur": 14.32,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 454.0,
-      "servings": 13,
-      "count": 9,
-      "active": {
-        "protein_g": 14.8
-      },
-      "label_text": "Информация за продукта | Разфасовка | 454 г | Производител | PURE NUTRITION | Тип продукт | Високопротеинова храна | Дозировка | Една доза | 35 g | ➤ виж повече / Информация за продукта | Разфасовка | 454 г | Производител | PURE NUTRITION | Тип продукт | Високопротеинова храна | Дозировка | Една доза | 35 g | Дози в опаковка | 13 дози | Дози на ден | 1 доза | Хранителни стойности | Калории | 182 ккал | Продуктът съдържа | Съставки | Овесени ядки, протеинов бленд (суроватъчен протеин концентрат, яйчен протеин, млечен протеин), други | Белтъчини | Протеин | 14.8 g | Въглехидрати | Захари | 6.3 g | Въглехидрати | 19.4 g | Мазнини | Мазнини | 4.5 g | Наситени мазнини | 1.7 g | Минерали | Натрий | 0.6 g / Смес за протеинови палачинки с уникален вкус. Цена: 14.32 € с ДДС Отзиви: 5 10 Отзиви: / Продукт на: PURE NUTRITION Добавен на: 2016-05-16 - Опаковка - Pure Nutrition - Protein Pancake 908 грама / 24.54 € Pure Nutrition - Protein Pancake 2270 грама / 53.69 € В Наличност ЗА МАРКАТА ИЗБЕРИ ВАРИАНТ {{value.name | andFilter}} {{value.sku}} / {{value.real_quantity}} КУПИ ДОБАВИ В ЛЮБИМИ (ВЗЕМИ СЕГА, ПЛАТИ ПО-КЪСНО) ДОБАВИ ЗА СРАВНЕНИЕ СРАВНИ ПРОДУКТИТЕ ЗАДАЙ ВЪПРОС ЗА ТОЗИ ПРОДУКТ Наличен в {{product.store_name ? product.store_name : product.store_name_en}} ✓ ✓ ✖ / ОПИСАНИЕ До неотдавна думи като \"вкусно\" и \"сладко\" се асоциираха с хиперкалоричност, респективно със словосъчетание, като условна полезност. Благодарение на утвърдени компании, които се стремят да се развиват все повече и повече, се промениха редица житейски догми. Сега вкусното и сладкото могат да бъде вместени в почти всяка диета. Казаното по-горе е само бегъл очерк на това, което предстои да вкусите. Представяме Ви смес за протеинови палачинки - гурме продукт от най-висок клас. Инициатор за пореден път е Pure Nutr",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 3.64
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "high",
-      "scraped_at": "2026-06-21T11:06:47.324757Z",
-      "promo_label": "-20%",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 28.01,
-          "price_eur": 14.32,
-          "unit_value": 3.64
         }
       ]
     },
@@ -19571,42 +19463,6 @@ const SUPPLEMENTS_DATA = {
           "price_bgn": 18.29,
           "price_eur": 9.35,
           "unit_value": 2.03
-        }
-      ]
-    },
-    {
-      "id": "remedium-протеинов-шеик-с-вкус-на-ванилия-х414-мл-gnc",
-      "store": "Remedium",
-      "name": "Протеинов шейк с вкус на ванилия х414 мл GNC",
-      "brand": "GNC",
-      "category": "protein",
-      "url": "https://remedium.bg/gnc-total-lean-proteinov-sheyk-s-vkus-na-vanilia-h414-ml-153872/p",
-      "image": "https://remedium.bg/media/catalog/product/cache/78704a56964180e81f7d6f49c56d8067/6/2/62a2728f09dfff385dac89ad6ccc0249.jpg",
-      "price_bgn": 9.25,
-      "price_eur": 4.73,
-      "currency_source": "EUR",
-      "availability_status": "unknown",
-      "weight_grams": 500.0,
-      "servings": null,
-      "count": null,
-      "active": {
-        "estimated_total_protein_g": 375.0,
-        "estimated_protein_ratio_pct": 75
-      },
-      "label_text": "Описание GNC Total Lean Lean Shake Green 25 Vanilla е обогатена с белтък храна с подсладител Стевия и с вкус на ванилия. Тотал Лийн Шейк Грийн 25 е готов за прием протеинов шейк на растителна основа. Допринася за създаването на чувството на ситост и намаляване на телесното тегло. Без глутен и соя. Веган. Внимание: Да се съхранява на недостъпно за деца място. Съхранение: На хладно и сухо място.",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 0.62
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T11:12:25.493175Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 9.25,
-          "price_eur": 4.73,
-          "unit_value": 0.62
         }
       ]
     },
@@ -48782,111 +48638,6 @@ const SUPPLEMENTS_DATA = {
           "price_bgn": 51.05,
           "price_eur": 26.1,
           "unit_value": 4.29
-        }
-      ]
-    },
-    {
-      "id": "framar-пюр-нутришън-протеин-палачинки-2272-г",
-      "store": "Framar",
-      "name": "ПЮР НУТРИШЪН ПРОТЕИН ПАЛАЧИНКИ 2272 г",
-      "brand": "PURE NUTRITION",
-      "category": "protein",
-      "url": "https://apteka.framar.bg/30104445/%D0%BF%D1%8E%D1%80-%D0%BD%D1%83%D1%82%D1%80%D0%B8%D1%88%D1%8A%D0%BD-%D0%BF%D1%80%D0%BE%D1%82%D0%B5%D0%B8%D0%BD-%D0%BF%D0%B0%D0%BB%D0%B0%D1%87%D0%B8%D0%BD%D0%BA%D0%B8-2272-%D0%B3",
-      "image": "https://static.framar.bg/thumbs/4/products/amiks-kliar-izo-uei-protein-1000g.jpg",
-      "price_bgn": 94.99,
-      "price_eur": 48.57,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 2272.0,
-      "servings": 64,
-      "count": null,
-      "active": {
-        "protein_g": 14.8
-      },
-      "label_text": "Енергийна стойност | Дневен прием от 35 g | 100 g | 766 kJ/182 kcal | 1626 kJ/385 kcal | Мазнини | 4.5 g | 8.5 g | От които наситени мастни киселини | 1.7 g | 1.9 g | Въглехидрати | 19.4 g | 41.8 g | От които захари | 6.3 g | 4.4 g | Белтъци | 14.8 g | 32.5 g | Сол | 0.60 g | 1.4 g / Активни съставки: | Есенциални амино киселини | L-левцин BCAA | 9.44 g | L-изолевцин BCAA | 5.73 g | L-валин BCAA | 5.91 g | L-триптофан | 1.77 g | L-треонин | 5.27 g | L-лизин | 7.29 g | L-фенилаланин | 4.28 g | L-метионин | 2.11 g | Условно есенциални киселини | L-аргинин | 3.68 g | L-цистеин | 1.79 g | L-тирозин | 3.28 g | L-хистидин | 2.04 g | L-пролин | 6.90 g | L-глутаминова киселина | 18.0 g | Неесенциални киселини | L-аспарагинова киселина | 9.57 g | L-серин | 5.10 g | L-глицин | 2.96 g | L-аланин | 4.88 g",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 2.51
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "high",
-      "scraped_at": "2026-06-21T11:34:09.108961Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 94.99,
-          "price_eur": 48.57,
-          "unit_value": 2.51
-        }
-      ]
-    },
-    {
-      "id": "framar-пюр-нутришън-протеин-палачинки-908-г",
-      "store": "Framar",
-      "name": "ПЮР НУТРИШЪН ПРОТЕИН ПАЛАЧИНКИ 908 г",
-      "brand": "PURE NUTRITION",
-      "category": "protein",
-      "url": "https://apteka.framar.bg/30104444/%D0%BF%D1%8E%D1%80-%D0%BD%D1%83%D1%82%D1%80%D0%B8%D1%88%D1%8A%D0%BD-%D0%BF%D1%80%D0%BE%D1%82%D0%B5%D0%B8%D0%BD-%D0%BF%D0%B0%D0%BB%D0%B0%D1%87%D0%B8%D0%BD%D0%BA%D0%B8-908-%D0%B3",
-      "image": "https://static.framar.bg/thumbs/4/products/amiks-kliar-izo-uei-protein-1000g.jpg",
-      "price_bgn": 40.0,
-      "price_eur": 20.45,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 908.0,
-      "servings": 25,
-      "count": null,
-      "active": {
-        "protein_g": 14.8
-      },
-      "label_text": "Енергийна стойност | Дневен прием от 35 g | 100 g | 766 kJ/182 kcal | 1626 kJ/385 kcal | Мазнини | 4.5 g | 8.5 g | От които наситени мастни киселини | 1.7 g | 1.9 g | Въглехидрати | 19.4 g | 41.8 g | От които захари | 6.3 g | 4.4 g | Белтъци | 14.8 g | 32.5 g | Сол | 0.60 g | 1.4 g / Активни съставки: | Есенциални амино киселини | L-левцин BCAA | 9.44 g | L-изолевцин BCAA | 5.73 g | L-валин BCAA | 5.91 g | L-триптофан | 1.77 g | L-треонин | 5.27 g | L-лизин | 7.29 g | L-фенилаланин | 4.28 g | L-метионин | 2.11 g | Условно есенциални киселини | L-аргинин | 3.68 g | L-цистеин | 1.79 g | L-тирозин | 3.28 g | L-хистидин | 2.04 g | L-пролин | 6.90 g | L-глутаминова киселина | 18.0 g | Неесенциални киселини | L-аспарагинова киселина | 9.57 g | L-серин | 5.10 g | L-глицин | 2.96 g | L-аланин | 4.88 g",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 2.7
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "high",
-      "scraped_at": "2026-06-21T11:34:09.615834Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 40.0,
-          "price_eur": 20.45,
-          "unit_value": 2.7
-        }
-      ]
-    },
-    {
-      "id": "framar-пюр-нутришън-протеин-палачинки-454-г",
-      "store": "Framar",
-      "name": "ПЮР НУТРИШЪН ПРОТЕИН ПАЛАЧИНКИ 454 г",
-      "brand": "PURE NUTRITION",
-      "category": "protein",
-      "url": "https://apteka.framar.bg/30104443/%D0%BF%D1%8E%D1%80-%D0%BD%D1%83%D1%82%D1%80-%D0%BF%D1%80%D0%BE%D1%82%D0%B5%D0%B8%D0%BD-%D0%BF%D0%B0%D0%BB%D0%B0%D1%87%D0%B8%D0%BD%D0%BA%D0%B8-454%D0%B3",
-      "image": "https://static.framar.bg/thumbs/4/products/amiks-kliar-izo-uei-protein-1000g.jpg",
-      "price_bgn": 25.0,
-      "price_eur": 12.78,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 454.0,
-      "servings": 12,
-      "count": null,
-      "active": {
-        "protein_g": 14.8
-      },
-      "label_text": "Енергийна стойност | Дневен прием от 35 g | 100 g | 766 kJ/182 kcal | 1626 kJ/385 kcal | Мазнини | 4.5 g | 8.5 g | От които наситени мастни киселини | 1.7 g | 1.9 g | Въглехидрати | 19.4 g | 41.8 g | От които захари | 6.3 g | 4.4 g | Белтъци | 14.8 g | 32.5 g | Сол | 0.60 g | 1.4 g / Активни съставки: | Есенциални амино киселини | L-левцин BCAA | 9.44 g | L-изолевцин BCAA | 5.73 g | L-валин BCAA | 5.91 g | L-триптофан | 1.77 g | L-треонин | 5.27 g | L-лизин | 7.29 g | L-фенилаланин | 4.28 g | L-метионин | 2.11 g | Условно есенциални киселини | L-аргинин | 3.68 g | L-цистеин | 1.79 g | L-тирозин | 3.28 g | L-хистидин | 2.04 g | L-пролин | 6.90 g | L-глутаминова киселина | 18.0 g | Неесенциални киселини | L-аспарагинова киселина | 9.57 g | L-серин | 5.10 g | L-глицин | 2.96 g | L-аланин | 4.88 g",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 3.52
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "high",
-      "scraped_at": "2026-06-21T11:34:09.890395Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 25.0,
-          "price_eur": 12.78,
-          "unit_value": 3.52
         }
       ]
     },
@@ -96478,42 +96229,6 @@ const SUPPLEMENTS_DATA = {
       ]
     },
     {
-      "id": "silabg-biotech-usa-protein-pancake",
-      "store": "SilaBG",
-      "name": "BIOTECH USA Protein Pancake",
-      "brand": "BIOTECH USA",
-      "category": "protein",
-      "url": "https://www.silabg.com/bg/35337-biotech-usa-protein-pancake.html",
-      "image": "https://www.silabg.com/uf/product/34020_panc.jpg",
-      "price_bgn": 58.01,
-      "price_eur": 29.66,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 1000.0,
-      "servings": 25,
-      "count": 120,
-      "active": {
-        "estimated_total_protein_g": 850.0,
-        "estimated_protein_ratio_pct": 85
-      },
-      "label_text": null,
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 1.71
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T11:44:00.314499Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 58.01,
-          "price_eur": 29.66,
-          "unit_value": 1.71
-        }
-      ]
-    },
-    {
       "id": "silabg-animal-100-whey-protein",
       "store": "SilaBG",
       "name": "ANIMAL 100% Whey Protein",
@@ -97049,42 +96764,6 @@ const SUPPLEMENTS_DATA = {
           "price_bgn": 30.3,
           "price_eur": 15.49,
           "unit_value": 2.23
-        }
-      ]
-    },
-    {
-      "id": "silabg-quamtrax-nutrition-protein-pancake",
-      "store": "SilaBG",
-      "name": "QUAMTRAX NUTRITION Protein Pancake",
-      "brand": "QUAMTRAX NUTRITION",
-      "category": "protein",
-      "url": "https://www.silabg.com/bg/31334-quamtrax-nutrition-protein-pancake.html",
-      "image": "https://www.silabg.com/uf/product/31334_pm_Protein_Pancake.jpg",
-      "price_bgn": 35.01,
-      "price_eur": 17.9,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 1000.0,
-      "servings": 33,
-      "count": 120,
-      "active": {
-        "estimated_total_protein_g": 850.0,
-        "estimated_protein_ratio_pct": 85
-      },
-      "label_text": null,
-      "label_image": "https://www.silabg.com/uf/product/31334_pm_Protein_Pancake.jpg",
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 1.03
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T11:44:54.128088Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 35.01,
-          "price_eur": 17.9,
-          "unit_value": 1.03
         }
       ]
     },
@@ -97952,42 +97631,6 @@ const SUPPLEMENTS_DATA = {
       ]
     },
     {
-      "id": "silabg-nutrend-protein-pancake",
-      "store": "SilaBG",
-      "name": "NUTREND Protein Pancake",
-      "brand": "NUTREND",
-      "category": "protein",
-      "url": "https://www.silabg.com/bg/26511-nutrend-protein-pancake.html",
-      "image": "https://www.silabg.com/uf/product/25418_pancake_protein_750g_unflavoured_en.jpg",
-      "price_bgn": 50.01,
-      "price_eur": 25.57,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 750.0,
-      "servings": 15,
-      "count": 120,
-      "active": {
-        "estimated_total_protein_g": 637.5,
-        "estimated_protein_ratio_pct": 85
-      },
-      "label_text": null,
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 1.96
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T11:46:01.226464Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 50.01,
-          "price_eur": 25.57,
-          "unit_value": 1.96
-        }
-      ]
-    },
-    {
       "id": "silabg-4-nutrition-protein-plant",
       "store": "SilaBG",
       "name": "4+ NUTRITION Protein Plant +",
@@ -98416,42 +98059,6 @@ const SUPPLEMENTS_DATA = {
           "price_bgn": 71.72,
           "price_eur": 36.67,
           "unit_value": 3.7
-        }
-      ]
-    },
-    {
-      "id": "silabg-amix-high-protein-pancakes",
-      "store": "SilaBG",
-      "name": "AMIX High Protein Pancakes",
-      "brand": "AMIX",
-      "category": "protein",
-      "url": "https://www.silabg.com/bg/21116-amix-high-protein-pancakes.html",
-      "image": "https://www.silabg.com/uf/product/20102_HIGH_PROTEIN_PANCAKES.jpg",
-      "price_bgn": 27.75,
-      "price_eur": 14.19,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 600.0,
-      "servings": null,
-      "count": 120,
-      "active": {
-        "estimated_total_protein_g": 510.0,
-        "estimated_protein_ratio_pct": 85
-      },
-      "label_text": null,
-      "label_image": "https://www.silabg.com/uf/stickers/thumb-21116_HIGH_PROTEIN_PANCAKES_facts.jpg",
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 1.36
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T11:46:44.158896Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 27.75,
-          "price_eur": 14.19,
-          "unit_value": 1.36
         }
       ]
     },
@@ -121264,41 +120871,6 @@ const SUPPLEMENTS_DATA = {
       ]
     },
     {
-      "id": "gymbeam-диетични-протеинови-палачинки---the-protein-works",
-      "store": "GymBeam",
-      "name": "Диетични протеинови палачинки - The Protein Works",
-      "brand": "The Protein Works",
-      "category": "protein",
-      "url": "https://gymbeam.bg/dietichni-proteinovi-palachinki-the-protein-works.html",
-      "image": "https://gymbeam.bg/media/catalog/product/cache/70f742f66feec18cb83790f14444a3d1/d/i/diet_protein_pancakes-1kg_side_1_1.png",
-      "price_bgn": 35.11,
-      "price_eur": 17.95,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 500.0,
-      "servings": 20,
-      "count": null,
-      "active": {
-        "protein_g": 24.4
-      },
-      "label_text": "Хранителни стойности за вкус на златен сироп) | 1 доза (40 гр) | Енергийна стойност | 601 kJ / 144 kcal | Мазнини | 2.2 гр | от които наситени мазнини | 0.9 гр | Въглехидрати | 5.6 гр | от които захари | 2 гр | Фибри | 1.9 гр | Протеини | 24.4 гр | Сол | 1.5 гр / Хранителни стойности (за вкус на двоен шоколад) | 1 доза (40 гр) | Енергийна стойност | 600 kJ / 148 kcal | Мазнини | 2.4 гр | от които наситени мазнини | 1 гр | Въглехидрати | 4.7 гр | от които захари | 1.7 гр | Фибри | 2.7 гр | Протеини | 24.4 гр | Сол | 1.5 гр / Хранителни стойности (за натурален вкус) | 1 доза (40 гр) | Енергийна стойност | 572kJ / 136 kcal | Мазнини | 1.3 гр | от които наситени мазнини | 0,4 гр | Въглехидрати | 15 гр | от които захари | 0,9 гр | Фибри | 2.6 гр | Протеини | 14 гр | Сол | 1.1 гр / Главна категория : | Смеси за готвене и печене | Производител: | Производител: | The Protein Works | Дистрибутор: | Дистрибутор: | GymBeam, s.r.o. Rastislavova 93, Košice 04001, Slovakia | Правна категория на продукта: | Правна категория на продукта: | хранителни продукти | Форма: | Форма: | на прах | Смес: | Смес: | смес | Вкус: | Вкус: | естествен | Съвместим с GLP-1: | Съвместим с GLP-1: | Да | Други категории : | Продукти | Готварски съставки | Храна | Диетични продукти | Вегетариански продукти / Класиране в категорията | Класиране в категорията | 8 в Смеси за готвене и печене | 63 в Готварски съставки | 263 в Вегетариански продукти | 305 в Диетични продукти | 414 в Храна",
-      "label_image": "https://gymbeam.bg/media/catalog/product/cache/bf5a31e851f50f3ed6850cbbf183db11/d/i/diet_protein_pancakes-1kg_back_2_1.png",
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 1.8
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "high",
-      "scraped_at": "2026-06-21T11:59:23.003503Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 35.11,
-          "price_eur": 17.95,
-          "unit_value": 1.8
-        }
-      ]
-    },
-    {
       "id": "gymbeam-100-whey---stacker2",
       "store": "GymBeam",
       "name": "100% Whey - Stacker2",
@@ -121763,41 +121335,6 @@ const SUPPLEMENTS_DATA = {
           "price_bgn": 72.27,
           "price_eur": 36.95,
           "unit_value": 2.13
-        }
-      ]
-    },
-    {
-      "id": "gymbeam-протеинов-микс-за-палачинки-pancake-waffle-mix-500-гр---gymbeam",
-      "store": "GymBeam",
-      "name": "Протеинов микс за палачинки Pancake & Waffle Mix 500 гр - GymBeam",
-      "brand": "GymBeam Food",
-      "category": "protein",
-      "url": "https://gymbeam.bg/proteinovi-palachinki-pancake-mix-gymbeam.html",
-      "image": "https://gymbeam.bg/media/catalog/product/cache/70f742f66feec18cb83790f14444a3d1/p/r/protein_pancake___waffle_mix_chocolate_500_g_gymbeam.png",
-      "price_bgn": 15.35,
-      "price_eur": 7.85,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 500.0,
-      "servings": 10,
-      "count": null,
-      "active": {
-        "protein_g": 42.0
-      },
-      "label_text": "Хранителни стойности | (шоколад) | 100 g | 1 доза (50 g) | Енергийна стойност | 1698 kJ/ 382 kcal | 799 kJ / 191 kcal | Мазнини | 8 g | 4 g | от тях наситени мазнини | 2,4 g | 1,2 g | Въглехидрати | 33 g | 16,5 g | от тях захари | 6,3 g | 3,1 g | Фибри | 6,2 g | 3,1 g | Протеини | 41 g | 20,5 g | Сол | 0,39 g | 0,19 g / Хранителни стойности | (ванилия) | 100 g | 1 доза (50 g) | Енергийна стойност | 1614 kJ/ 386 kcal | 807 kJ / 193 kcal | Мазнини | 7,4 g | 3,7 g | от тях наситени мазнини | 1,8 g | 0,9 g | Въглехидрати | 36 g | 18 g | от тях захари | 6,4 g | 3,2 g | Фибри | 4,9 g | 2,5 g | Протеини | 42 g | 21 g | Сол | 0,39 g | 0,19 g / Хранителни стойности | (боровинки) | 100 g | 1 доза (50 g) | Енергийна стойност | 1580 kJ / 378 kcal | 790 kJ / 189 kcal | Мазнини | 7,2 g | 3,6 g | от тях наситени мазнини | 1,8 g | 0,9 g | Въглехидрати | 35 g | 17,5 g | от тях захари | 6,9 g | 3,5 g | Фибри | 5 g | 2,5 g | Протеини | 41 g | 20,5 g | Сол | 0,39 g | 0,19 g / Хранителни стойности | (неовкусен) | 100 g | 1 доза (50 g) | Енергийна стойност | 1622 kJ/ 388 kcal | 811 kJ / 194 kcal | Мазнини | 7,4 g | 3,7 g | от тях наситени мазнини | 1,8 g | 0,9 g | Въглехидрати | 36 g | 18 g | от тях захари | 6,4 g | 3,2 g | Фибри | 4,9 g | 2,5 g | Протеини | 42 g | 21 g | Сол | 0,39 g | 0,19 g / Главна категория : | Смеси за готвене и печене | Производител: | Производител: | GymBeam Food | Правна категория на продукта: | Правна категория на продукта: | хранителни продукти | Форма: | Форма: | на прах | Смес: | Смес: | чист | Вкус: | Вкус: | шоколад | Съдържа стимуланти: | Съдържа стимуланти: | Да | Захар на доза (г): | Захар на доза (г): | 3.1 | Стандартизиран екстракт: | Стандартизиран екстракт: | Не | Протеин на доза (г): | Протеин на доза (г): | 20.5 | Основна цел: | Основна цел: | Покачва",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 0.91
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "high",
-      "scraped_at": "2026-06-21T12:00:10.996991Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 15.35,
-          "price_eur": 7.85,
-          "unit_value": 0.91
         }
       ]
     },

@@ -1591,8 +1591,11 @@ def is_relevant_product(category: str, name: str, url: str) -> bool:
         # Exclude medical/clinical nutrition and breastfeeding products
         if re.search(r"кърмене|след.раждане|fresubin|diben.drink|диабетик|диабетиц|pregnaco", haystack, re.I):
             return False
-        # Exclude food products: granola, muesli, protein spreads/creams, pancake mixes
-        if re.search(r"\bgranola\b|гранола|\bмюсли\b|мюесли|creametto|protein.spread|protein.pancake|pancake.mix", haystack, re.I):
+        # Exclude food products: granola, muesli, protein spreads/creams, pancake/waffle mixes
+        if re.search(r"\bgranola\b|гранола|\bмюсли\b|мюесли|creametto|protein.spread|палачинки|\bpancake\b|\bwaffle\b", haystack, re.I):
+            return False
+        # Exclude RTD (ready-to-drink) protein shakes with volume in mL
+        if re.search(r"шейк.{0,20}(?:х|x)\s*\d{3,}\s*мл", haystack, re.I):
             return False
         # Exclude oatmeal and instant oats
         if re.search(r"инстант.овесени|instant.овесени|овесени.ядки", haystack, re.I):
