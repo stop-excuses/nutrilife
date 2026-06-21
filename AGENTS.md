@@ -25,6 +25,10 @@ Main navbar principle: keep one top-level nav across product/core pages, with th
 
 Keep this section short and update it after hands-on QA/fixes so future sessions do not repeat the same discovery work.
 
+**Git workflow**
+- Push directly to `master`. Do NOT create feature branches or PRs unless the user explicitly asks.
+- Do NOT add "Co-Authored-By: Claude" or "Claude-Session" lines to commit messages.
+
 **Token/context hygiene**
 - Keep `AGENTS.md` short. Add only stable decisions, commands, and known traps that prevent rediscovery; avoid long research notes or full QA transcripts.
 - Prefer updating the newest relevant note instead of appending a new long dated block for every small UI tweak.
