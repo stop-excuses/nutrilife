@@ -98,6 +98,6 @@ jobs:
           git add data/pazarko.json data/market_memory.json data/market_memory.js data/all_products.json data/all_products.js
           git diff --cached --quiet && echo "No changes" || (
             git commit -m "chore: refresh pazarko catalog $(date -u '+%Y-%m-%d %H:%M') UTC"
-            git pull --rebase origin master
+            git pull --rebase --autostash origin master
             git push
           )

@@ -111,6 +111,6 @@ jobs:
           git diff --cached --quiet && echo "No changes" || (
             COUNT=$(python3 -c "import json; d=json.load(open('data/supplements.json')); print(d.get('total_supplements',0))")
             git commit -m "chore: update supplements [$COUNT products] $(date -u '+%Y-%m-%d')"
-            git pull --rebase origin master
+            git pull --rebase --autostash origin master
             git push
           )

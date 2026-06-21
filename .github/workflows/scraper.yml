@@ -117,6 +117,6 @@ jobs:
           git add data/offers.json data/offers.js data/all_products.json data/all_products.js data/market_memory.json data/market_memory.js
           git diff --cached --quiet && echo "No changes — offers unchanged" || (
             git commit -m "chore: update offers [${{ steps.stores.outputs.stores }}] $(date -u '+%Y-%m-%d %H:%M') UTC"
-            git pull --rebase origin master
+            git pull --rebase --autostash origin master
             git push
           )
