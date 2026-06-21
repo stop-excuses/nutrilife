@@ -931,7 +931,24 @@
             return form('Желязо', 'neutral');
         }
 
-        return form('неприложимо', 'neutral');
+        if (item.category === 'l_carnitine') {
+            if (hasAny(text, ['acetyl', 'ацетил', 'alcar'])) return form('Ацетил Л-карнитин', 'preferred');
+            if (hasAny(text, ['tartrate', 'тартрат', 'lclt'])) return form('Л-карнитин тартрат', 'good');
+            if (hasAny(text, ['fumarate', 'фумарат'])) return form('Л-карнитин фумарат', 'standard');
+            if (hasAny(text, ['liquid', 'течн', 'shot', 'ampule'])) return form('Течен Л-карнитин', 'good');
+            if (active.l_carnitine_mg) return form('Л-карнитин по етикет', 'neutral');
+            return form('Л-карнитин', 'neutral');
+        }
+
+        if (item.category === 'melatonin') {
+            if (hasAny(text, ['extended release', 'prolonged release', 'slow release', 'удължено освобождаване'])) return form('Мелатонин забавено действие', 'standard');
+            if (hasAny(text, ['sublingual', 'drops', 'капки', 'liquid', 'течн'])) return form('Мелатонин капки', 'good');
+            if (hasAny(text, ['fast', 'quick', 'rapid', 'мини', 'мелатонин 0.', 'мелатонин 1'])) return form('Мелатонин бързодействащ', 'good');
+            if (active.melatonin_mg) return form('Мелатонин по етикет', 'neutral');
+            return form('Мелатонин', 'neutral');
+        }
+
+        return form('—', 'neutral');
     }
     function form(label, tier) {
         return { label, tier };

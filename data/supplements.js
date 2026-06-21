@@ -1,6 +1,6 @@
 const SUPPLEMENTS_DATA = {
   "generated_at": "2026-06-21T12:27:40.079184Z",
-  "total_supplements": 3840,
+  "total_supplements": 3787,
   "sources": [
     "FHL",
     "Framar",
@@ -3807,42 +3807,6 @@ const SUPPLEMENTS_DATA = {
       ]
     },
     {
-      "id": "healthstore-origens---био-закуска-с-гранола-и-червени-боровинки---300-г",
-      "store": "HealthStore",
-      "name": "ORIGENS - БИО ЗАКУСКА С ГРАНОЛА И ЧЕРВЕНИ БОРОВИНКИ - 300 г",
-      "brand": "ORIGENS",
-      "category": "protein",
-      "url": "https://healthstore.bg/origens-bio-zakuska-s-granola-shokolad-i-protein-275-g-5993",
-      "image": "https://healthstore.bg/image/cache/cache/data/Origens/OR1108-600x600-600x300.jpg",
-      "price_bgn": 13.5,
-      "price_eur": 6.9,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 300.0,
-      "servings": null,
-      "count": 9,
-      "active": {
-        "estimated_total_protein_g": 255.0,
-        "estimated_protein_ratio_pct": 85
-      },
-      "label_text": "Потопете се в света на вкусните и хранителни закуски с Гранола с червени плодове Origens Bio – хрупкава и ароматна комбинация, която ще събуди сетивата ви и ще ви зареди с енергия за целия ден. Цена: 6.90 € с ДДС Отзиви: 0 Продукт на: ORIGENS Добавен на: 2025-03-31 В Наличност ИЗБЕРИ ВАРИАНТ {{value.name | andFilter}} {{value.sku}} / {{value.real_quantity}} КУПИ ДОБАВИ В ЛЮБИМИ (ВЗЕМИ СЕГА, ПЛАТИ ПО-КЪСНО) ДОБАВИ ЗА СРАВНЕНИЕ СРАВНИ ПРОДУКТИТЕ ЗАДАЙ ВЪПРОС ЗА ТОЗИ ПРОДУКТ Наличен в {{product.store_name ? product.store_name : product.store_name_en}} ✓ ✓ ✖ / ОПИСАНИЕ Гранолата с червени плодове Origens Bio е истинско изкушение за любителите на естествените вкусове и свежестта на плодовете. Произведена с изцяло биологични съставки, тя предлага уникален баланс между хрупкавостта на овесените ядки и сладко-киселата свежест на червените плодове. Съдържа: Пълнозърнести овесени ядки – богати на фибри и основа на всяка качествена гранола. Червени плодове (ягоди, малини и червени боровинки) – осигуряват приятен кисело-сладък вкус и ценни антиоксиданти. Ядки и семена – за допълнителна хрупкавост и хранителна стойност. Натурален подсладител – лек намек за сладост, който не натоварва организма с излишни захари. Ползи: Богата на фибри – подпомага доброто храносмилане и регулира нивата на кръвната захар. Източник на антиоксиданти – благодарение на червените плодове, които предпазват клетките от оксидативен стрес. Поддържа енергийния баланс – идеална за активни хора и спортуващи. Ниско съдържание на добавена захар – запазва натуралния вкус и свежест на съставките. Подходяща за вегетарианци и вегани – само растителни съставки с висока хранителна стойност. Как да я консумирате: Закуска: Смесете с кисело или растително мляко за балансиран старт на деня. Смути: Поръсете върху свежо смути з",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 1.32
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T11:06:01.149935Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 13.5,
-          "price_eur": 6.9,
-          "unit_value": 1.32
-        }
-      ]
-    },
-    {
       "id": "healthstore-mars-protein---twix-protein-powder-chocolate-biscuit-caramel---455-g",
       "store": "HealthStore",
       "name": "Mars Protein - Twix Protein Powder Chocolate Biscuit Caramel - 455 g",
@@ -4908,43 +4872,6 @@ const SUPPLEMENTS_DATA = {
           "price_bgn": 103.21,
           "price_eur": 52.77,
           "unit_value": 1.52
-        }
-      ]
-    },
-    {
-      "id": "healthstore-gym-beam---protein-pancake-mix---500-g",
-      "store": "HealthStore",
-      "name": "GYM BEAM - Protein Pancake Mix - 500 g",
-      "brand": "GYM BEAM",
-      "category": "protein",
-      "url": "https://healthstore.bg/gym-beam-protein-pancake-mix-500-g",
-      "image": "https://healthstore.bg/image/cache/cache/data/-GYM BEAM/GB0378-600x600-600x300.jpg",
-      "price_bgn": 20.79,
-      "price_eur": 10.63,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 500.0,
-      "servings": 10,
-      "count": 9,
-      "active": {
-        "estimated_total_protein_g": 295.0,
-        "estimated_protein_ratio_pct": 59
-      },
-      "label_text": "Информация за продукта | Производител | GYM BEAM | Разфасовка | 500 g | Тип продукт | Смес за протеинови палачинки | ➤ виж повече / Информация за продукта | Производител | GYM BEAM | Разфасовка | 500 g | Тип продукт | Смес за протеинови палачинки / Смес за приготвяне на домашни протеинови палачинки. Идеалната закуска за спортисти и хора на диета. Вкусен и нискокалоричен вариант на диетични палачинки. Цена: 13.29 € (- 20%) 10.63 € с ДДС Отзиви: 0 Продукт на: GYM BEAM Добавен на: 2025-03-18 В Наличност ИЗБЕРИ ВАРИАНТ {{value.name | andFilter}} {{value.sku}} / {{value.real_quantity}} КУПИ ДОБАВИ В ЛЮБИМИ (ВЗЕМИ СЕГА, ПЛАТИ ПО-КЪСНО) ДОБАВИ ЗА СРАВНЕНИЕ СРАВНИ ПРОДУКТИТЕ ЗАДАЙ ВЪПРОС ЗА ТОЗИ ПРОДУКТ Наличен в {{product.store_name ? product.store_name : product.store_name_en}} ✓ ✓ ✖ / ОПИСАНИЕ Protein Pancake Mix от GymBeam е перфектният продукт за всички, които искат да се насладят на вкусни и питателни палачинки, без да правят компромис с качеството на своето хранене. С високото си съдържание на протеин, този микс е идеален за подкрепа на мускулния растеж и възстановяване след тренировка, като същевременно предлага балансиран и вкусен начин за допълване на ежедневния ви хранителен режим. Protein Pancake Mix е перфектен както за закуска, така и за следтренировъчно хранене, и може да бъде персонализиран с добавки по ваш избор. Ползи: Подпомага мускулния растеж: Благодарение на високото съдържание на протеин, тези палачинки осигуряват на тялото ви необходимите аминокиселини за растеж и възстановяване на мускулите. Енергия за целия ден: Овесеното брашно в състава осигурява бавни въглехидрати, които дават продължителна енергия, без да водят до рязко покачване на кръвната захар. Вкусна и питателна закуска: Protein Pancake Mix предлага вкусен начин за започване на деня, като съще",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 1.76
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "medium",
-      "scraped_at": "2026-06-21T11:06:13.711084Z",
-      "promo_label": "-27%",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 20.79,
-          "price_eur": 10.63,
-          "unit_value": 1.76
         }
       ]
     },
@@ -18343,51 +18270,6 @@ const SUPPLEMENTS_DATA = {
       ]
     },
     {
-      "id": "remedium-ziaja-душ-гел-за-тяло-с-протеин-от-коприна-х500-мл",
-      "store": "Remedium",
-      "name": "Ziaja Душ-гел за тяло с протеин от коприна х500 мл",
-      "brand": "Ziaja",
-      "category": "protein",
-      "url": "https://remedium.bg/ziaja-dush-gel-za-tyalo-s-protein-ot-koprina-h500-ml-67355/p",
-      "image": "https://remedium.bg/media/catalog/product/cache/78704a56964180e81f7d6f49c56d8067/a/5/a550be039c655e59b973fe701709ea9c.jpg",
-      "price_bgn": 6.2,
-      "price_eur": 3.17,
-      "currency_source": "EUR",
-      "availability_status": "unknown",
-      "weight_grams": 550.0,
-      "servings": null,
-      "count": null,
-      "active": {
-        "estimated_total_protein_g": 412.5,
-        "estimated_protein_ratio_pct": 75
-      },
-      "label_text": "Описание Ziaja Creamy Shower Soap Silk е нежен кремообразен душ-гел за тяло с копринени протеини, който деликатно почиства, омекотява и изглажда кожата, като ѝ придава лек приятен аромат. Натуралните съставки защитават кожата от вредното влияние на свободните радикали, а глицерина я предпазват от дехидратация. Благодарение на Ziaja Душ-гел, кожата ви е защитена, мека и хидратирана през целия ден. Внимание: Продуктът е само за външна употреба. Избягвайте контакт с очите. В случай на контакт с очите, изплакнете обилно с вода. Съхранявайте на сухо и прохладно място, далеч от пряка слънчева светлина. Съхранявайте далеч от деца. Не използвайте след изтичане срока на годност на продукта.",
-      "label_image": "https://remedium.bg/media/amasty/amlabel/shape2_e31837.svg",
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 0.38
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T11:11:24.973459Z",
-      "old_price_bgn": 7.65,
-      "discount_pct": 19,
-      "promo_label": "-19%",
-      "price_history": [
-        {
-          "date": "2026-06-20",
-          "price_bgn": 6.2,
-          "price_eur": 3.17,
-          "unit_value": 0.38
-        },
-        {
-          "date": "2026-06-21",
-          "price_bgn": 6.2,
-          "price_eur": 3.17,
-          "unit_value": 0.38
-        }
-      ]
-    },
-    {
       "id": "remedium-gold-standard-100-суроватъчен-протеин-шоколад-х2270-грама-optimum-nutrition",
       "store": "Remedium",
       "name": "Gold Standard 100% Суроватъчен протеин Шоколад х2270 грама Optimum Nutrition",
@@ -18755,51 +18637,6 @@ const SUPPLEMENTS_DATA = {
           "price_bgn": 84.39,
           "price_eur": 43.15,
           "unit_value": 2.67
-        }
-      ]
-    },
-    {
-      "id": "remedium-ziaja-лосион-за-тяло-с-протеини-от-коприна-за-суха-кожа-х400-мл",
-      "store": "Remedium",
-      "name": "Ziaja Лосион за тяло с протеини от коприна за суха кожа х400 мл",
-      "brand": "Ziaja",
-      "category": "protein",
-      "url": "https://remedium.bg/ziaja-losion-za-tyalo-s-proteini-ot-koprina-za-suha-kozha-h400-ml-78572/p",
-      "image": "https://remedium.bg/media/catalog/product/cache/78704a56964180e81f7d6f49c56d8067/c/a/ca1314618db3d2abce289ee53800155a.jpg",
-      "price_bgn": 7.76,
-      "price_eur": 3.97,
-      "currency_source": "EUR",
-      "availability_status": "unknown",
-      "weight_grams": 420.0,
-      "servings": null,
-      "count": null,
-      "active": {
-        "estimated_total_protein_g": 315.0,
-        "estimated_protein_ratio_pct": 75
-      },
-      "label_text": "Описание Ziaja Moisturising Body Lotion Silk Proteins e овлажняващ лосион за тяло с протеини от коприна и масло от шеа, който възстановява хидролипидния баланс на сухата кожа, като я прави мека и гладка. Ziaja Лосион за тяло с протеини от коприна увеличава нивото на влажност на кожата с цели 36%. Внимание: Продуктът е само за външна употреба. Избягвайте контакт с очите. В случай на контакт с очите, изплакнете обилно с вода. Съхранявайте на сухо и прохладно място, далеч от пряка слънчева светлина. Съхранявайте далеч от деца. Не използвайте след изтичане срока на годност на продукта.",
-      "label_image": "https://remedium.bg/media/amasty/amlabel/shape2_e31837.svg",
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 0.62
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T11:11:40.925670Z",
-      "old_price_bgn": 9.58,
-      "discount_pct": 19,
-      "promo_label": "-19%",
-      "price_history": [
-        {
-          "date": "2026-06-20",
-          "price_bgn": 7.76,
-          "price_eur": 3.97,
-          "unit_value": 0.62
-        },
-        {
-          "date": "2026-06-21",
-          "price_bgn": 7.76,
-          "price_eur": 3.97,
-          "unit_value": 0.62
         }
       ]
     },
@@ -19846,42 +19683,6 @@ const SUPPLEMENTS_DATA = {
       ]
     },
     {
-      "id": "remedium-bjorg-био-протеиново-мюсли-х375-г",
-      "store": "Remedium",
-      "name": "Bjorg Био протеиново мюсли х375 г",
-      "brand": "Bjorg",
-      "category": "protein",
-      "url": "https://remedium.bg/myusli-proteinovo-bio-375gr-bjorg-061283/p",
-      "image": "https://remedium.bg/media/catalog/product/cache/78704a56964180e81f7d6f49c56d8067/3/4/343fa4cdf6d51c805d7d76c065c5cb4d.jpg",
-      "price_bgn": 9.39,
-      "price_eur": 4.8,
-      "currency_source": "EUR",
-      "availability_status": "unknown",
-      "weight_grams": 375.0,
-      "servings": null,
-      "count": null,
-      "active": {
-        "estimated_total_protein_g": 281.2,
-        "estimated_protein_ratio_pct": 75
-      },
-      "label_text": "Описание Открийте протеиновото мюсли на Bjorg и заредете батериите си за деня. Органично, без добавени захари (съдържа естествени захари), богато на фибри и протеини и съставено от пълнозърнести храни, това мюсли от соя и плодове (фурми и червени плодове) се вписва идеално в балансираната Ви диета за закуска или друго хранене през деня. Внимание: Продуктът не е заместител на разнообразното хранене. Да се съхранява на сухо и прохладно място, при стайна температура. Да не се използва след изтичане срока на годност, посочен върху опаковката.",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 0.83
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T11:12:29.782644Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 9.39,
-          "price_eur": 4.8,
-          "unit_value": 0.83
-        }
-      ]
-    },
-    {
       "id": "remedium-конопен-протеин-на-прах-х300-г-biotona",
       "store": "Remedium",
       "name": "Конопен протеин на прах х300 г Biotona",
@@ -20032,42 +19833,6 @@ const SUPPLEMENTS_DATA = {
       ]
     },
     {
-      "id": "remedium-nature-of-agiva-hair-vege-salad-възстановяваща-маска-за-суха-и-третирана-коса-с-маслина",
-      "store": "Remedium",
-      "name": "Nature of Agiva Hair Vege Salad Възстановяваща маска за суха и третирана коса с маслина и протеин x350 мл",
-      "brand": "Nature of Agiva",
-      "category": "protein",
-      "url": "https://remedium.bg/agiva-vs-maska-za-kosa-maslina-protein-350ml-072073/p",
-      "image": "https://remedium.bg/media/catalog/product/cache/78704a56964180e81f7d6f49c56d8067/6/a/6ac61ad973fe090c1de46559f562d205.jpg",
-      "price_bgn": 6.36,
-      "price_eur": 3.25,
-      "currency_source": "EUR",
-      "availability_status": "unknown",
-      "weight_grams": 380.0,
-      "servings": null,
-      "count": null,
-      "active": {
-        "estimated_total_protein_g": 285.0,
-        "estimated_protein_ratio_pct": 75
-      },
-      "label_text": "Описание Възстановяваща маска за суха и третирана коса VEGE SALAD. Храна за сетивата и косата с 100% натурално масло от маслина, глицерин и пантенол. Възвръща силите и възстановява изтощената и тънка коса от корените до върха. Добавените протеини хидратират и заглаждат косъма и придават неустоим блясък и жизненост. Образува се защитен филм, който изпълва структурата му, уплътнява краищата и предотвратява цъфтежа. Внимание: Продуктът е само за външна употреба. Да се съхранява на място, недостъпно за деца и далеч от пряка слънчева светлина. Да няма пряк контакт с очите.",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 0.56
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T11:12:49.571206Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 6.36,
-          "price_eur": 3.25,
-          "unit_value": 0.56
-        }
-      ]
-    },
-    {
       "id": "remedium-био-протеинов-шеик-с-какао-и-ванилия-х500-г-dragon-superfoods",
       "store": "Remedium",
       "name": "Био Протеинов шейк с какао и ванилия х500 г Dragon Superfoods",
@@ -20103,42 +19868,6 @@ const SUPPLEMENTS_DATA = {
           "price_bgn": 28.89,
           "price_eur": 14.77,
           "unit_value": 2.33
-        }
-      ]
-    },
-    {
-      "id": "remedium-nature-of-agiva-hair-vege-salad-mаска-против-косопад-за-тънка-коса-с-чесън-и-протеин-x3",
-      "store": "Remedium",
-      "name": "Nature of Agiva Hair Vege Salad Mаска против косопад за тънка коса с чесън и протеин x350 мл",
-      "brand": "Nature of Agiva",
-      "category": "protein",
-      "url": "https://remedium.bg/agiva-vs-maska-za-kosa-chesan-protein-350ml-072074/p",
-      "image": "https://remedium.bg/media/catalog/product/cache/78704a56964180e81f7d6f49c56d8067/5/0/503836ae1f06a5f690ca5962b28797f3.jpg",
-      "price_bgn": 6.36,
-      "price_eur": 3.25,
-      "currency_source": "EUR",
-      "availability_status": "unknown",
-      "weight_grams": 380.0,
-      "servings": null,
-      "count": null,
-      "active": {
-        "estimated_total_protein_g": 285.0,
-        "estimated_protein_ratio_pct": 75
-      },
-      "label_text": "Описание Възстановяваща маска за тънка коса VEGE SALAD. Храна за сетивата и косата със 100% натурален екстракт от чесън, глицерин и пантенол. Добавените протеини възвръщат силите и възстановяват изтощената и тънка коса от корените до върха. Богатото съдържание на селен и витамини в чесъна, стимулира растежа и допълва грижите при косопад. В резултат косата е мека, блестяща, укрепена и без сухи краища. Внимание: Продуктът е само за външна употреба. Да се съхранява на място, недостъпно за деца и далеч от пряка слънчева светлина. Да няма пряк контакт с очите.",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 0.56
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T11:12:49.430536Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 6.36,
-          "price_eur": 3.25,
-          "unit_value": 0.56
         }
       ]
     },
@@ -20964,78 +20693,6 @@ const SUPPLEMENTS_DATA = {
           "price_bgn": 56.09,
           "price_eur": 28.68,
           "unit_value": 5.06
-        }
-      ]
-    },
-    {
-      "id": "remedium-здраве-актив-шампоан-за-коса-против-пърхот-с-биотин-и-протеин-x390-мл",
-      "store": "Remedium",
-      "name": "Здраве Актив Шампоан за коса против пърхот с биотин и протеин x390 мл",
-      "brand": "Здраве",
-      "category": "protein",
-      "url": "https://remedium.bg/zdrave-aktiv-shampoan-biotin-i-protein-390ml-087219/p",
-      "image": "https://remedium.bg/media/catalog/product/cache/78704a56964180e81f7d6f49c56d8067/8/d/8da4b7c2208ec7f51796f35c9e4530f3.jpg",
-      "price_bgn": 9.54,
-      "price_eur": 4.88,
-      "currency_source": "EUR",
-      "availability_status": "unknown",
-      "weight_grams": 410.0,
-      "servings": null,
-      "count": null,
-      "active": {
-        "estimated_total_protein_g": 307.5,
-        "estimated_protein_ratio_pct": 75
-      },
-      "label_text": "Описание Шампоан с противопърхотно действие, който освен това увеличава блясъка и обема на косата, като същевременно укрепва космените фоликули и предотвратява загубата на коса. Противопърхотният ефект се дължи на комбинацията на активни съставки с доказан ефект: Пироктон оламин- ефективна нетоксична съставка със силно изразено антимикробно действие, която предотвратява развитието на микроорганизмите, причиняващи пърхот. Алкил лактат – естер на млечната киселина и мастен алкохол, който проявява повечето от характерните особености на производните на млечната киселина – овлажняващо и леко кератолитечно действие. Намалява раздразнението и сърбежа и има кондициониращо действие. Д-пантенол– про-витамин В5, активира и нормализира клетъчния метаболизъм, стимулира регенерацията на клетките, увеличава силата на колагеновите влакна и придава здрав и свеж вид на косата и кожата на скалпа. Притежава успокояващи свойства, оказва противовъзпалително действие. Дълготрайно овлажнявя косата, придава и блясък и жизненост. Допълнително шампоанът е обогатен с: Оризов протеин - Подхранва косата от корена до върха. Придава обем и блясък. Улеснява разресването и помага за оформянето. Биотин - известен също като витамин H или коензим R, често се препоръчван за здрава коса, тъй като дефицитът на биотин може да доведе до изтъняване на косата. Увеличава блясъка и обема на косата, като същевременно укрепва космените фоликули и предотвратява загубата на коса. Внимание: Да се съхранява на сухо и прохладно място, недостъпно за деца. Да няма пряк контакт с очите. Да не се използва след изтичане на крайния срок.",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 0.78
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T11:13:39.342998Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 9.54,
-          "price_eur": 4.88,
-          "unit_value": 0.78
-        }
-      ]
-    },
-    {
-      "id": "remedium-здраве-актив-шампоан-за-коса-против-пърхот-с-биотин-и-протеин-x600-мл",
-      "store": "Remedium",
-      "name": "Здраве Актив Шампоан за коса против пърхот с биотин и протеин x600 мл",
-      "brand": "Здраве",
-      "category": "protein",
-      "url": "https://remedium.bg/zdrave-aktiv-shampoan-biotin-i-protein-600ml-087218/p",
-      "image": "https://remedium.bg/media/catalog/product/cache/78704a56964180e81f7d6f49c56d8067/5/3/5331709ab19cd896150429f177dad82f.jpg",
-      "price_bgn": 13.4,
-      "price_eur": 6.85,
-      "currency_source": "EUR",
-      "availability_status": "unknown",
-      "weight_grams": 620.0,
-      "servings": null,
-      "count": null,
-      "active": {
-        "estimated_total_protein_g": 465.0,
-        "estimated_protein_ratio_pct": 75
-      },
-      "label_text": "Описание Шампоан с противопърхотно действие, който освен това увеличава блясъка и обема на косата, като същевременно укрепва космените фоликули и предотвратява загубата на коса. Противопърхотният ефект се дължи на комбинацията на активни съставки с доказан ефект: Пироктон оламин- ефективна нетоксична съставка със силно изразено антимикробно действие, която предотвратява развитието на микроорганизмите, причиняващи пърхот. Алкил лактат – естер на млечната киселина и мастен алкохол, който проявява повечето от характерните особености на производните на млечната киселина – овлажняващо и леко кератолитечно действие. Намалява раздразнението и сърбежа и има кондициониращо действие. Д-пантенол– про-витамин В5, активира и нормализира клетъчния метаболизъм, стимулира регенерацията на клетките, увеличава силата на колагеновите влакна и придава здрав и свеж вид на косата и кожата на скалпа. Притежава успокояващи свойства, оказва противовъзпалително действие. Дълготрайно овлажнявя косата, придава и блясък и жизненост. Допълнително шампоанът е обогатен с: Оризов протеин - Подхранва косата от корена до върха. Придава обем и блясък. Улеснява разресването и помага за оформянето. Биотин - известен също като витамин H или коензим R, често се препоръчван за здрава коса, тъй като дефицитът на биотин може да доведе до изтъняване на косата. Увеличава блясъка и обема на косата, като същевременно укрепва космените фоликули и предотвратява загубата на коса. Внимание: Да се съхранява на сухо и прохладно място, недостъпно за деца. Да няма пряк контакт с очите. Да не се използва след изтичане на крайния срок.",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 0.72
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T11:13:42.336109Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 13.4,
-          "price_eur": 6.85,
-          "unit_value": 0.72
         }
       ]
     },
@@ -22023,42 +21680,6 @@ const SUPPLEMENTS_DATA = {
           "price_bgn": 89.99,
           "price_eur": 46.01,
           "unit_value": 3.23
-        }
-      ]
-    },
-    {
-      "id": "remedium-kundal-protein-bonding-възстановяващ-шампоан-за-коса-х500-мл",
-      "store": "Remedium",
-      "name": "Kundal Protein Bonding Възстановяващ шампоан за коса х500 мл",
-      "brand": "Kundal",
-      "category": "protein",
-      "url": "https://remedium.bg/kundal-protein-bonding-shampoan-500ml/p",
-      "image": "https://remedium.bg/media/catalog/product/cache/78704a56964180e81f7d6f49c56d8067/p/r/protein_bonding_shampoo.jpg",
-      "price_bgn": 37.34,
-      "price_eur": 19.09,
-      "currency_source": "EUR",
-      "availability_status": "unknown",
-      "weight_grams": 530.0,
-      "servings": null,
-      "count": null,
-      "active": {
-        "estimated_total_protein_g": 397.5,
-        "estimated_protein_ratio_pct": 75
-      },
-      "label_text": "Описание Възстановяващ шампоан с патентована технология Bonding TechnologyTM, която съдържа комбинация от екстракти от водорасли и растителни протеини, които проникват дълбоко и заздравяват косъма. Със съдържание на 8 вида Хиалуронова киселина, които хидратират и специален Pink Complex (комбинация от екстракти на Роза, Лале и Хибискус), който прави косата здрава и бляскава. Внимание: Продуктът е само за външна употреба. Избягвайте контакт с очите. Не използвайте след изтичане срока на годност. Съхранявайте на място, недостъпно за деца. Съхранявайте на сухо и прохладно място, далеч от пряка слънчева светлина и източници на топлина.",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 2.35
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T11:14:31.520406Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 37.34,
-          "price_eur": 19.09,
-          "unit_value": 2.35
         }
       ]
     },
@@ -95450,41 +95071,6 @@ const SUPPLEMENTS_DATA = {
       ]
     },
     {
-      "id": "silabg-forcelab-ophop-protein-pancake-mix",
-      "store": "SilaBG",
-      "name": "FORCELAB OpHop Protein Pancake Mix",
-      "brand": "FORCELAB",
-      "category": "protein",
-      "url": "https://www.silabg.com/bg/41526-forcelab-ophop-protein-pancake-mix.html",
-      "image": "https://www.silabg.com/uf/product/40083_hop.jpg",
-      "price_bgn": 64.54,
-      "price_eur": 33.0,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 1000.0,
-      "servings": 20,
-      "count": 120,
-      "active": {
-        "protein_g": 25.0
-      },
-      "label_text": null,
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 3.23
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "high",
-      "scraped_at": "2026-06-21T11:42:16.707355Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 64.54,
-          "price_eur": 33.0,
-          "unit_value": 3.23
-        }
-      ]
-    },
-    {
       "id": "silabg-dense-beef-whey-protein",
       "store": "SilaBG",
       "name": "DENSE Beef Whey Protein",
@@ -97036,42 +96622,6 @@ const SUPPLEMENTS_DATA = {
       ]
     },
     {
-      "id": "silabg-go-on-nutrition-protein-peanut-butter",
-      "store": "SilaBG",
-      "name": "GO ON NUTRITION Protein Peanut Butter",
-      "brand": "GO ON NUTRITION",
-      "category": "protein",
-      "url": "https://www.silabg.com/bg/35258-go-on-nutrition-protein-peanut-butter.html",
-      "image": "https://www.silabg.com/uf/product/33940_coco.jpg",
-      "price_bgn": 9.6,
-      "price_eur": 4.91,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 350.0,
-      "servings": null,
-      "count": 120,
-      "active": {
-        "estimated_total_protein_g": 297.5,
-        "estimated_protein_ratio_pct": 85
-      },
-      "label_text": null,
-      "label_image": "https://www.silabg.com/uf/product/33940_coco.jpg",
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 0.81
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T11:44:06.891360Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 9.6,
-          "price_eur": 4.91,
-          "unit_value": 0.81
-        }
-      ]
-    },
-    {
       "id": "silabg-4-nutrition-whey",
       "store": "SilaBG",
       "name": "4+ NUTRITION WHEY+",
@@ -97104,42 +96654,6 @@ const SUPPLEMENTS_DATA = {
           "price_bgn": 185.0,
           "price_eur": 94.59,
           "unit_value": 3.02
-        }
-      ]
-    },
-    {
-      "id": "silabg-go-on-nutrition-protein-granola",
-      "store": "SilaBG",
-      "name": "GO ON NUTRITION Protein Granola",
-      "brand": "GO ON NUTRITION",
-      "category": "protein",
-      "url": "https://www.silabg.com/bg/35256-go-on-nutrition-protein-granola.html",
-      "image": "https://www.silabg.com/uf/product/33938_1.jpg",
-      "price_bgn": 8.41,
-      "price_eur": 4.3,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 300.0,
-      "servings": null,
-      "count": 120,
-      "active": {
-        "estimated_total_protein_g": 255.0,
-        "estimated_protein_ratio_pct": 85
-      },
-      "label_text": null,
-      "label_image": "https://www.silabg.com/uf/product/33938_1.jpg",
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 0.82
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T11:44:07.604151Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 8.41,
-          "price_eur": 4.3,
-          "unit_value": 0.82
         }
       ]
     },
@@ -98254,42 +97768,6 @@ const SUPPLEMENTS_DATA = {
           "price_bgn": 185.78,
           "price_eur": 94.99,
           "unit_value": 6.02
-        }
-      ]
-    },
-    {
-      "id": "silabg-ostrovit-pharma-creametto-protein-spread",
-      "store": "SilaBG",
-      "name": "OSTROVIT PHARMA Creametto / Protein Spread",
-      "brand": "OSTROVIT PHARMA",
-      "category": "protein",
-      "url": "https://www.silabg.com/bg/28567-ostrovit-pharma-creametto-protein-spread.html",
-      "image": "https://www.silabg.com/uf/product/27397_choco.jpg",
-      "price_bgn": 9.76,
-      "price_eur": 4.99,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 350.0,
-      "servings": null,
-      "count": 120,
-      "active": {
-        "estimated_total_protein_g": 297.5,
-        "estimated_protein_ratio_pct": 85
-      },
-      "label_text": null,
-      "label_image": "https://www.silabg.com/uf/product/27595_allnutrition-coconut-oil-unrefined_small.jpg",
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 0.82
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T11:45:41.745321Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 9.76,
-          "price_eur": 4.99,
-          "unit_value": 0.82
         }
       ]
     },
@@ -131928,78 +131406,6 @@ const SUPPLEMENTS_DATA = {
       ]
     },
     {
-      "id": "proteinbg-optimum-nutrition-serious-mass",
-      "store": "ProteinBG",
-      "name": "Optimum Nutrition Serious Mass",
-      "brand": "Optimum Nutrition",
-      "category": "protein",
-      "url": "https://protein.bg/optimum-nutrition-serious-mass",
-      "image": "https://protein.bg/image/cache/catalog/proteini/optimum-nutrition/serious-mass/optimum-nutrition-serious-mass-predstavlqva-gainer-s-visoko-kachestvo-1000x1149.jpg.webp",
-      "price_bgn": 63.0,
-      "price_eur": 32.21,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": 2720.0,
-      "servings": 54,
-      "count": 5,
-      "active": {
-        "estimated_total_protein_g": 2040.0,
-        "estimated_protein_ratio_pct": 75
-      },
-      "label_text": "Калории | - от мазнини | 1250 | 35 | Фосфор | 460 mg | Мазнини | - наситени | 4 g | 2.5 g | Йод | 150 mcg | Холестерол | 80 mg | Магнезий | 140 mg | Въглехидрати | - захари | 254 g | 21 g | Цинк | 15 mg | Протеини | 50 g | Селен | 70 mcg | Витамин А | 5000 I.U. | Мед | 1 mg | Витамин С | 60 mg | Манган | 2 mg | Витамин D | 200 I.U. | Хром | 120 mcg | Витамин Е | 30 I.U. | Молибден | 75 mcg | Тиамин | 4.8 mg | Натрий | 430 mg | Рибофлавин | 4 mg | Калий | 940 mg | Ниацин | 50 mg | Креатин монохидрат | 1 g | Витамин В6 | 5 mg | L-глутамин | 500 mg | Фолиева киселина | 400 mcg | Глутаминови пептиди | 500 mg | Витамин В12 | 10 mcg | Холин | 250 mg | Биотин | 300 mcg | Инозитол | 250 mg | Пантотенова киселина | 25 mg | PABA (пара-аминобензоена к-на) | 5 mg | Калций | 630 mg | Желязо | 5 mg / Протеини | Желязо | 8 мг. | Калций | 590 мг. | Фосфор | 252 гр. | Доза | 334 гр. | Калории | 1250 | Мазнини | 4.5 гр. | Дози в разфасовка | 8 | Протеин | 50 гр. | Холестерол | 80 мг. | Натрий | 410 мг. | Калий | 1560 мг. | Други съставки | Какао,протеинов концентрат,оцветители,подсладители | Фибри | 4 гр. | Захар | 20 гр. | Алергени | Съдържа Мляко и Соя / Гейнъри > Optimum Nutrition Serious Mass Serious Mass е гейнър на марката Optimum Nutrition - един от най-добрите продукти на пазара за качване на теглото . Със своите 1250 калории за доза и 50 грама протеини , които ви осигуряват бърз мускулен растеж и бързо възстановяване, подобрената формула на гейнъра на Optimum Nutrition го прави идеалният избор за прием след тренировка или между основните хранения. Изключително лесното разтваряне на Serious Mass ще ви помогне много по-бързо да усвоите необходимите вещества от продукта и да постигнете по-бързо своите цели. Гейнърът ви предоставя възможността да се сдобиете с физиката, която винаги",
-      "label_image": "https://protein.bg/image/cache/catalog/proteini/optimum-nutrition/serious-mass/optimum-nutrition-serious-mass-predstavlqva-gainer-s-visoko-kachestvo-509x509h.jpg.webp",
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 0.77
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T12:16:14.773934Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 63.0,
-          "price_eur": 32.21,
-          "unit_value": 0.77
-        }
-      ]
-    },
-    {
-      "id": "proteinbg-myprotein-protein-pancake-mix",
-      "store": "ProteinBG",
-      "name": "Myprotein Protein Pancake Mix",
-      "brand": "Myprotein",
-      "category": "protein",
-      "url": "https://protein.bg/protein-pancake-mix-myprotein",
-      "image": "https://protein.bg/image/cache/catalog/proteini/myprotein/protein-pancake-mix/protein-pancake-mix-myprotein-cena-sastav-priem-600x600.jpg.webp",
-      "price_bgn": 32.49,
-      "price_eur": 16.61,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": 500.0,
-      "servings": 14,
-      "count": null,
-      "active": {
-        "estimated_total_protein_g": 340.0,
-        "estimated_protein_ratio_pct": 68
-      },
-      "label_text": "Състав | Стойност на 100 гр | Стойност на порция (50 гр) | ПДД | Енергия | 1612 кДж / 382 ккал | 806 кДж / 191 ккал | 10% | Мазнини | от които наситени | 6.4 гр | 2.2 гр | 3.2 гр | 1.1 гр | 5% | 6% | Въглехидрати | от които захари | 12 гр | 4,2 гр | 6 гр | 2,1 гр | 2% | 2% | Протеин | 69 гр | 34 гр | 68% | Сол | 1,7 гр | 0,9 гр | 15% / Хранителна информация | Дозировка | 1 1/2 лъжички (50 гр) | Дози в опаковка | 4 (200гр); 10 (500 гр) | Протеини | Енергия | 1 | Мазнини | 1 | Наситените мазнини | 1 | Протеин | 1 | Сол | 1 | Общо въглехидрати | 1 | Захар | 1 / Протеини > Myprotein Protein Pancake Mix Защо да изберем Myprotein Pancake Mix? Високo протеиново съдържание Идеален избор за закуска Лесно за приготвяне Protein.bg ви дава достъпна цена и бърза доставка Прием и дозировка: XX грама / от X до X дози на ден. Какво представлява Палачинковият микс Pancake Mix на Myprotein? Myprotein създават един страхотен продукт Pancake Mix – готов палачинков микс , лесен за направа, подходящ за една страхотна и вкусна протеинова закуска. Pancake Mix съдържа комбинация от три различни вида протеин: суроватка, мляко и яйчен протеин. Високото съдържание на протеини в палачинковия микс на Myprotein допринася за растежа и поддържането на чиста мускулна маса, като в същото време осигурява нисък гликемичен индекс (GI) и ви осигурява една страхотна на вкус протеинова закуска. Всяка 50гр порция ще ви предостави над 34 грама чист протеин. За кого е най-подходящ Pancake Mix – палачинковият микс на Myprotein? Продуктът на Myprotein Pancake Mix е идеален за всеки, който търси лесен начин за увеличване на приема на протеини. Тези протеинови палачинки на Myprotein могат да се консумират на закуска или като хранителна закуска между основните хранения. Употреба и дозировка на Myprotein Pancake Mix: Д",
-      "label_image": "https://protein.bg/image/cache/catalog/product/4D_Nutrition/24478/4d_nutrition_hydro_matrix-5586ddd-60x60h.jpg.webp",
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 2.39
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "medium",
-      "scraped_at": "2026-06-21T12:16:14.470034Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 32.49,
-          "price_eur": 16.61,
-          "unit_value": 2.39
-        }
-      ]
-    },
-    {
       "id": "proteinbg-optimum-nutrition-100-whey-gold-standard",
       "store": "ProteinBG",
       "name": "Optimum Nutrition 100% Whey Gold Standard",
@@ -132423,41 +131829,6 @@ const SUPPLEMENTS_DATA = {
       ]
     },
     {
-      "id": "proteinbg-mex-nutrition-size-max",
-      "store": "ProteinBG",
-      "name": "Mex Nutrition Size Max",
-      "brand": "Mex Nutrition",
-      "category": "protein",
-      "url": "https://protein.bg/size-max-mex-nutrition",
-      "image": "https://protein.bg/image/cache/catalog/proteini/mex/size-max/size-max-powder-mex-600x315w.jpg.webp",
-      "price_bgn": 67.0,
-      "price_eur": 34.26,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": 2724.0,
-      "servings": 20,
-      "count": null,
-      "active": {
-        "protein_g": 25.0
-      },
-      "label_text": "Състав | за доза 131 гр | за 100 гр | %ПДД | Калории | 1867 kJ / 435 kcal | 1654 kJ / | 384 kcal | 25% | Общо мазнини | 3.5 g | 3 g | 5% | Наситените мазнини | 2 g | 2 g | 12% | Транс мазнини | 0 g | 0 g | 0% | Холестерол | 55 mg | 48 mg | 20% | Натрий | 90 mg | 80 mg | 4% | Калий | 145мг | 126 mg | 3% | Общо въглехидрати | 77 g | 68 g | 25% | Диетични фибри | 7 g | 6 g | 28% | Захар | 6 g | 5 g | ** | Протеин | 25 g | 22 g | 48% | VITAMINS / Минерали: | Витамин А | 675 I.U. | 25% | Витамин D | 40 I.U. | 10% | Витамин Е | 3.5 I.U. | 25% | Витамин С | 18 mg | 30% | Тиамин (витамин В1) | 1.1 mg | 80% | Рибофлавин (витамин В2) | 300 mcg | 19% | Ниацин (витамин B3) | 3.6 mg | 20% | Витамин В6 | 1.4 mg | 70% | Витамин В12 | 2.5 mcg | 41% | Фолиева киселина | 50 mcg | 25% | Биотин | 100 mcg | 70% | Калций | 20 mg | 2% | Магнезий | 13 mg | 4% | Цинк | 1.1 mg | 7% | Мед | 250 mcg | 12.5% | Селен | 7 мкг | 10% / Гейнъри > Mex Nutrition Size Max Ако ви се струва, че тъпчете на едно място в фитнеса и не подобрявате резултатите си, значи е време да опитате Size Max на Mex Nutrition. Това е гейнър с много добро съдържание. Без добавен захар, но с подсилен състав от сложни въглехидрати, което от голямо значение. SIZE MAX е идеалната пpoтeинoвa мaтpицa c виcoĸa биoлoгичнa cтoйнocт, която се усвоява бързо и лесно. Гейнърът Size Max ви дава 100% сигурност при възcтaнoвявaнe дopи и cлeд много тежки тpeниpoвĸи. Size Max на Mex Nutrition cъдъpжa пpeцизнa дoзa oт пpoтeини c бъpзo и бaвнo ocвoбoждaвaнe, ĸoитo ocигypявaт ĸaчecтвeн aминoĸиceлинeн пpитoĸ. Защо да изберем Mex Nutrition Size Max? Висококачествена формула за покачване на тегло; Набавя около 450 калории с всяка доза; Подпомага качването на чиста мускулна маса; Повишава нивата на енергия; Ускорява възстановяването след тренировка; У",
-      "label_image": "https://protein.bg/image/cache/catalog/proteini/mex/size-max/size-max-powder-mex-509x509h.jpg.webp",
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 3.35
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "high",
-      "scraped_at": "2026-06-21T12:16:58.613606Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 67.0,
-          "price_eur": 34.26,
-          "unit_value": 3.35
-        }
-      ]
-    },
-    {
       "id": "proteinbg-mex-nutrition-flex-wheeler-s-isolate-pro",
       "store": "ProteinBG",
       "name": "Mex Nutrition Flex Wheeler’s Isolate Pro",
@@ -132666,42 +132037,6 @@ const SUPPLEMENTS_DATA = {
           "price_bgn": 85.0,
           "price_eur": 43.46,
           "unit_value": 0.92
-        }
-      ]
-    },
-    {
-      "id": "proteinbg-mex-flex-wheeler-s-pro-line-carbo-blast-pro-powder",
-      "store": "ProteinBG",
-      "name": "Mex Flex Wheeler's Pro Line Carbo Blast Pro Powder",
-      "brand": "Mex Nutrition",
-      "category": "protein",
-      "url": "https://protein.bg/carbo-blast-pro-powder-protein-wheelers-men-flex",
-      "image": "https://protein.bg/image/cache/catalog/proteini/mex/flex-wheelers-pro-line-carbo-blast/carbo-blast-pro-powder-mex-600x315w.jpg.webp",
-      "price_bgn": 37.0,
-      "price_eur": 18.92,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": 2000.0,
-      "servings": 40,
-      "count": null,
-      "active": {
-        "estimated_total_protein_g": 1700.0,
-        "estimated_protein_ratio_pct": 85
-      },
-      "label_text": "Състав | Съдържание в 50 гр | Съдържание в 100 гр | %ПДД | Калории 821 kJ/ 196 kcal | Калории 1641 Kj/ 392 kcal | 25% | Мазнини | 0 гр | 0 гр | 0% | Холестерол | 0 мг | 0 мг | 0% | Въглехидрати | 49 гр | 98 гр | 16% | Фибри | 0 гр | 0 гр | 0% | Захари | 0 гр | 0 гр | 0% | Протеин | 0 гр | 0 гр | 0% | Натрий | 0 мг | 0 мг | 0% / Въглехидрати > Mex Flex Wheeler s Pro Line Carbo Blast Pro Powder Продуктът е хранителна добавка, осигуряваща подобряване на спортните резултати . Висококачествената формула увеличава силата по време на натоварване и подобрява възстановяването на гликогеновите запаси след това. Mex Flex Wheeler's​ Carbo Blast Pro Powder на добра цена осигурява повече издръжливост , сила и енергия. Усвоява се много бързо от тялото. Защо да изберем Mex Flex Wheeler's Pro Line Carbo Blast Pro Powder? Предлага мощна енергизираща формула Повишава силата и тонуса Набавя комплексни въглехидрати Разполага с овкусен и неутрален на вкус вариант Protein.bg ви дава достъпна цена и бърза доставка Какво представлява Карбо про Mex (Carbo Blast Pro Powder)? Като хранителна добавка Carbo Blast Pro Powder н абавя нужните калории за покачване на теглото. Освен това ще набави необходимите въглехидрати. Mex Flex Wheeler's Pro Line Carbo Blast Pro Powder н е съдържа мазнини и холестерол, освен това при нас в PROTEIN.BG е на изгодна цена . За кого е най-подходящ Карбо Про от Mex? Продуктът Carbo Blast Pro Powder на марката Mex е подходящ и предназначен за хора, които имат желанието и амбицията да подобрят и изваят своите тела. Помага за подобряване на енергията. Свойствата на комплексните въглехидрати в продукта са известни и с това, че участват в регулирането нивата на захар в кръвта. Карбо про на изгодна цена в Protein.bg ви гарантира повече тонус и издръжливост. Състав и ползи от пр",
-      "label_image": "https://protein.bg/image/cache/catalog/proteini/mex/flex-wheelers-pro-line-carbo-blast/carbo-blast-pro-powder-mex-509x509h.jpg.webp",
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 0.54
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T12:17:05.076236Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 37.0,
-          "price_eur": 18.92,
-          "unit_value": 0.54
         }
       ]
     },
@@ -132917,42 +132252,6 @@ const SUPPLEMENTS_DATA = {
       ]
     },
     {
-      "id": "proteinbg-myprotein-creapump",
-      "store": "ProteinBG",
-      "name": "Myprotein Creapump",
-      "brand": "Myprotein",
-      "category": "protein",
-      "url": "https://protein.bg/myprotein-creapump",
-      "image": "https://protein.bg/image/cache/catalog/proteini/myprotein/creapump/creapump-powder-myprotein-povishava-silata-600x315w.jpg.webp",
-      "price_bgn": 49.0,
-      "price_eur": 25.05,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": 750.0,
-      "servings": 25,
-      "count": 60,
-      "active": {
-        "estimated_total_protein_g": 562.5,
-        "estimated_protein_ratio_pct": 75
-      },
-      "label_text": "Състав: | Стойност за 1 доза: | %ПДД | Енергия | 348 kJ/82 ккал | 4% | Мазнини | 0 гр | - | Наситени мазнини | 0 гр | - | Въглехидрати | 21 гр | 8% | Захари | 20 гр | 22% | Протеин | 0 гр | - | Сол | 0 гр | - | Креатин монохидрат | 5 гр | - | Цитрулин малат | 2 гр | - | ААКГ | 2 гр | - | Таурин | 600 мг | - / Креатинови добавки > Myprotein Creapump Creapump на е Myprotein предтренировъчен суплемент, който повишава енергията, фокуса, издръжливостта и подпомага възстановяването. Подходящ е за всеки спортист, независимо дали става дума за бодибилдинг или друг силов спорт. Защо да изберем Creapump Myprotein ? Мощна креатинова формула; Предтренировъчен суплемент; Повишава силата и енергията; Подобрява фокуса и кондицията; Осигурява антиоксидантна протекция; Стимулира метаболизма; Подобрява кръвообращението; Повишава нивата на азот; Бори се с катаболните процеси; Подпомага мускулното нарастване; Ускорява регенерирането на мускулната тъкан; PROTEIN.BG ви предлага достъпна цена и бърза доставка. Какво представлява Creapump от Myprotein? Creapump на мараката Myprotein представлява мощен предтренировъчен суплемент, включващ патентованата формула Creapure®. Тя осигурява лесен за усвояване креатин монохидрат . Creapump съдържа креатин монохидрат , въглехидрати с висок гликемичен индекс, цитрулин малат, аргинин алфа-кетоглутарат (АКГ) и таурин. Креатин монохидратът е заменима аминокиселина , известна със свойствата си да повишава енергията, силата, издръжливостта и обема на мускулите. Във формулата на Creapump са включени и бързоусвоими въглехидрати (декстроза и изомалтулоза), които моментално повишават енергията и предпазват от катаболни процеси. Цитрулин малатът е неесенциална аминокиселина, която се бори с мускулната умора. Тя има способността да забавя отлагането на млечна кисел",
-      "label_image": "https://protein.bg/image/cache/catalog/product/Dorian_Yates_Nutrition/42724/CreatineMonohydrate-Unflavoured-Bulgaria-600ml-300mg-smallbottle_06-eb5fa32-200x250-60x60h.jpg.webp",
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 2.18
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T12:17:41.135195Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 49.0,
-          "price_eur": 25.05,
-          "unit_value": 2.18
-        }
-      ]
-    },
-    {
       "id": "proteinbg-myprotein-micellar-casein",
       "store": "ProteinBG",
       "name": "Myprotein Micellar Casein",
@@ -132985,78 +132284,6 @@ const SUPPLEMENTS_DATA = {
           "price_bgn": 65.99,
           "price_eur": 33.74,
           "unit_value": 2.2
-        }
-      ]
-    },
-    {
-      "id": "proteinbg-prozis-acetyl-l-carnitine",
-      "store": "ProteinBG",
-      "name": "Prozis Acetyl L-Carnitine",
-      "brand": "Prozis",
-      "category": "protein",
-      "url": "https://protein.bg/acetyl-l-carnitine-prozis",
-      "image": "https://protein.bg/image/cache/catalog/proteini/prozis/acetyl-l-carnitine/acetyl-l-carnitine-prozis-sport-1000x1000.png.webp",
-      "price_bgn": 24.0,
-      "price_eur": 12.27,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": 1905.0,
-      "servings": null,
-      "count": 20,
-      "active": {
-        "estimated_total_protein_g": 1428.8,
-        "estimated_protein_ratio_pct": 75
-      },
-      "label_text": "Състав: | Стойност | %ПДД | Ацетил Л-Карнитин | 500 мг | ** / > Prozis Acetyl L-Carnitine Acetyl L-Carnitine на Prozis Sport е продукт, който е предназначен за изгаряне на мазнините . Той е необходим за производството на енергия в нервните клетки и играе основна роля в подкрепата на имунната система. Защо да изберем Acetyl L-Carnitine? Спомага за бързото изгаряне на мазнините Увеличава енергийните нива Регулира нивото на захар в кръвта Спомага за натрупване на мускулна маса Укрепва организма и увеличава съпротивителните сили при бактериални и вирусни инфекции Подобрява когнитивните функции и мисловните процеси Забавя процесите на стареене Стимулира производството на тестостерон при мъжете Препоръчва се при депресии и емоционално натоварване Има антиоксидантно действие Антидепресант и невропротектор Protein.bg предлага Acetyl L-Carnitine от PROZIS на изключителна цена Какво представлява Prozis Acetyl L-Carnitine? L-карнитин (левокарнитин) е витаминоподобно вещество, образувано от комбинацията на две аминокиселини – лизин и метионин. То е открито през 1905 г. от двама руски учени - Гюлевич и Кримберг, в екстракт от набраздена мускулна тъкан на бозайник. Името му идва от латинската дума \"carnis\", което в превод означава \"месо\". През 1927 г. е получено експериментално потвърждение на химическата му структура. Започват десетилетия на интинзивни изследвания за определяне на физиологичните свойства на карнитин и неговото действие. През 1958 г. немският химик Фриц установил в своите проучвания, че левокарнитин засилва изгарянето на мазнини в митохондриите. Това фундаментално откритие определя ролята и терапевтичен потенциал на това средство. Така постепенно започва да навлиза употребата му и в медицината. За пръв път в спорта L -карнитин се използва на Олимпийските игри 1980 г.",
-      "label_image": "https://protein.bg/image/cache/catalog/product/Dorian_Yates_Nutrition/41482/00_l-carnitine_pineapple-83e7e68-200x250-60x60h.jpg.webp",
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 0.42
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T12:17:51.862235Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 24.0,
-          "price_eur": 12.27,
-          "unit_value": 0.42
-        }
-      ]
-    },
-    {
-      "id": "proteinbg-battery-shocker-booster",
-      "store": "ProteinBG",
-      "name": "Battery Shocker Booster",
-      "brand": "Battery Nutrition",
-      "category": "protein",
-      "url": "https://protein.bg/battery-shocker-booster",
-      "image": "https://protein.bg/image/cache/catalog/proteini/battery-nutrition/shocker-booster/battery-shocker-booster-predstavlqva-buster-na-prah-600x315w.png.webp",
-      "price_bgn": 68.0,
-      "price_eur": 34.77,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": 360.0,
-      "servings": 30,
-      "count": 120,
-      "active": {
-        "estimated_total_protein_g": 270.0,
-        "estimated_protein_ratio_pct": 75
-      },
-      "label_text": "Състав: | Количество в една доза (15/7,5 гр.) | Бета-аланин | 4000/2000 mg | Креатин монохидрат | - от който чист креатин | 3391/1695,5 mg | 2998/1499 mg | L-цитрулин DL-малат | 2000/1000 mg | L-аргинин Алфа-кетоглутарат 2:1 | 1000/500 mg | L-тирозин | 750/375 mg | L-орнитин HCl | 500/250 mg | L-ябълчна киселина | 350/175 mg | Кафеин | 300/150 mg | Rhodiola rosea екстракт | 200/100 mg | Холин битартарат | 175/87.5 mg | Екстракт от борова кора (95% проантоцианидин) | 120/60 mg | Екстракт от Citrus Aurantium | - от който чист синефрин | 100/50 mg | 4/2 mg | Citrus Paradisi плодов екстракт (Нарингин 93%) | 50/25 mg / Напомпващи Азотни Бустери > Battery Shocker Booster Shocker Booster представлява нов клас бустер , произведен от Battеry , който съдържа специално селекционирана формула от качествени и доказани съставки, които подобряват вашето представяне по време на тренировки. Shocker Booster съдържа 13 съставки с доказан положителен ефект, гарантиращи по-добри резултати. Бустера на Battery ще ви помогне да постигнете оптимално напомпване, бързо възстановяване, като също така ще подобри вашият фокус. В състава на Shocker Booster са включени кафеин, синефрин и тирозин. Кафеинът е добре познат със своят стимулиращ ефект, който се изразява в повишаване на вниманието и готовността. В комбинация със синефрин (от Citrus Aurantium) и аминокиселината тирозин, която чрез серия от междинни съединения се превръща в адреналин, стимулиращият ефект на Shocker Booster е несъмнен. Креатинът , който също е с добре познати и доказани свойства, осигурява енергия на мускулите, чрез която става тяхното съкращаване. Креатинът е необходим по време на продължително мускулно натоварване, когато нивата на АТФ (аденозин трифосфат) се изчерпат. Тогава от фосфокреатин (формата, под която креатинът се ",
-      "label_image": "https://protein.bg/image/cache/catalog/proteini/battery-nutrition/shocker-booster/battery-shocker-booster-predstavlqva-buster-na-prah-509x509h.png.webp",
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 6.3
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T12:17:56.383583Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 68.0,
-          "price_eur": 34.77,
-          "unit_value": 6.3
         }
       ]
     },
@@ -133096,42 +132323,6 @@ const SUPPLEMENTS_DATA = {
       ]
     },
     {
-      "id": "proteinbg-battery-maltodextrin",
-      "store": "ProteinBG",
-      "name": "Battery Maltodextrin",
-      "brand": "Battery Nutrition",
-      "category": "protein",
-      "url": "https://protein.bg/battery-maltodextrin",
-      "image": "https://protein.bg/image/cache/catalog/proteini/battery-nutrition/maltodextrin/battery-maltodextrin-predstavlqva-polizaharidat-maltodekstrin-na-prah-600x315w.jpg.webp",
-      "price_bgn": 42.99,
-      "price_eur": 21.98,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": 2000.0,
-      "servings": 40,
-      "count": null,
-      "active": {
-        "estimated_total_protein_g": 1500.0,
-        "estimated_protein_ratio_pct": 75
-      },
-      "label_text": "Състав: | Количество в една доза: | Малтодекстрин | 50 гр / Въглехидрати > Battery Maltodextrin Малтодекстринът е висококачествен и ефективен продукт на марката Battery , който представлява глюкозен полимер (голям брой глюкозни молекули свързани една с друга) и спада към комплексните въглехидратни източници. Малтодекстрина също така има и доста висок гликемичен индекс (GI - 110), което ви гарантира значително освобождаване на енергия. Това е предимство за малтодекстрина , когато го приемате след тренировка и особено в комбинация със суроватъчен протеин , креатин или аминокиселини с разклонени вериги (ВСАА). Малтодекстринът е захарен полимер или полизахарид. Той се произвежда от нишесте, а наименованието му идва от неговото формиране от различен брой декстрозни полимери. За разлика от декстрозата обаче, малтодекстринът няма сладък вкус. Той се използва често като източник на въглехидрати във формулите на гейнърите , като присъствието на протеини и мазнини намалява неговия гликемичен индекс (GI). Малтодекстринът не е естествен продукт, а се произвежда от различни суровини като оризово, царевично и картофено нишесте и се среща във формулите на много продукти за качване на тегло, различни заместители на храна, както и при някои протеини (на прах). Освен това малтодекстринът се използва като пълнител в капсулирани продукти, тъй като е много лесен за използване и притежава неутрален вкус. Основната роля на малтодекстрина и главното му предимство е неговото използване за повишаване на теглото , и именно поради тази причина можете да го откриете като главна съставка в състава на голям брой гейнъри . Въпреки, че малтодекстринът е въглехидрат с виокс гликемичен индекс, GI стойността се определя за даденото вещество само в изолирано състояние. В случаите, когато се комбинира с дру",
-      "label_image": "https://protein.bg/image/cache/catalog/proteini/battery-nutrition/maltodextrin/battery-maltodextrin-predstavlqva-polizaharidat-maltodekstrin-na-prah-509x509h.jpg.webp",
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 0.72
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T12:17:58.819725Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 42.99,
-          "price_eur": 21.98,
-          "unit_value": 0.72
-        }
-      ]
-    },
-    {
       "id": "proteinbg-battery-whey-gold-isolate",
       "store": "ProteinBG",
       "name": "Battery Whey Gold Isolate",
@@ -133163,41 +132354,6 @@ const SUPPLEMENTS_DATA = {
           "price_bgn": 58.99,
           "price_eur": 30.16,
           "unit_value": 2.93
-        }
-      ]
-    },
-    {
-      "id": "proteinbg-battery-nutrition-pancake-mix",
-      "store": "ProteinBG",
-      "name": "Battery Nutrition Pancake Mix",
-      "brand": "Battery Nutrition",
-      "category": "protein",
-      "url": "https://protein.bg/battery-pancake-mix",
-      "image": "https://protein.bg/image/cache/catalog/proteini/battery-nutrition/pancake-mix/battery-pancake-mix-predstavlqva-proteinov-miks-za-palachinki-na-prah-600x315w.png.webp",
-      "price_bgn": 32.99,
-      "price_eur": 16.87,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": 500.0,
-      "servings": 13,
-      "count": null,
-      "active": {
-        "protein_g": 11.0
-      },
-      "label_text": "Състав: | Количество в една доза (37гр) | : | Енергия | 659 KJ/157 kcal | Мазнини | - наситени | 5.4 g | 2.3 g | Въглехидрати | - захари | 16 g | 4.1 g | Протеини | 11 g | Соли | 0.37 g | Фибри | <0.5 g / Протеини > Battery Nutrition Pancake Mix Pancake Mix е продукт на компанията Battery Nutrition и представлява протеинов микс за палачинки , съдържащ добре балансирана комбинация от висококачествени протеини и въглехидрати , с които можете да си приготвите невероятно вкусна и високопротеинова закуска. Протеиновият микс за палачинки не съдържа изкуствени аромати - неговият уникален вкус се дължи на наличието на овесено брашно, кокосови стърготини богати на MCT (средноверижни триглицериди), бял шоколад на прах, както и разнообразието от протеинови източници с висока биологична стойност. Pancake Mix е много лесен за приготвяне (само за няколко минути) и може да ви достави невероятно удоволствие с отличните си вкусове на кокос и бял шоколад, ягода и бял шоколад и шоколад. Като въглехидратен източник в състава на протеиновия микс за палачинки е добавен малтодекстрин . Той спада към комплексните въглехидратни източници (състои се от последователно свързани молекули глюкоза) и за разлика от глюкозата не е сладък на вкус. Малтодекстринът е предпочитан въглехидрат сред хранителните добавки, като често присъства като основен въглехидрат в гейнъри и други подобни продукти. Протеиновите източници в Pancake Mix са доста разнообразни. Основен протеин в състава е суроватъчният протеин концентрат (от мляко), който съдържа лактоглобулин, лактоферин, лакталбумин и имуноглобулинови протеинои фракции. Суроватъчните протеини имат най-висока биологична стойност, а освен това съдържат и високо количество биологично активни пептиди с разнообразни функции, подпомагащи организма. Високата биолог",
-      "label_image": "https://protein.bg/image/cache/catalog/product/4D_Nutrition/24478/4d_nutrition_hydro_matrix-5586ddd-60x60h.jpg.webp",
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 5.77
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "high",
-      "scraped_at": "2026-06-21T12:18:02.076462Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 32.99,
-          "price_eur": 16.87,
-          "unit_value": 5.77
         }
       ]
     },
@@ -133344,42 +132500,6 @@ const SUPPLEMENTS_DATA = {
       ]
     },
     {
-      "id": "proteinbg-now-foods-waxy-maize-starch",
-      "store": "ProteinBG",
-      "name": "Now Foods Waxy Maize Starch",
-      "brand": "Now Foods",
-      "category": "protein",
-      "url": "https://protein.bg/now-foods-waxy-maize-starch",
-      "image": "https://protein.bg/image/cache/catalog/proteini/now/waxy-maize-starch/waxy-maize-starch-powder-now-foods-povishava-energiata-600x315w.png.webp",
-      "price_bgn": 100.0,
-      "price_eur": 51.13,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": 2495.0,
-      "servings": 62,
-      "count": null,
-      "active": {
-        "estimated_total_protein_g": 1871.2,
-        "estimated_protein_ratio_pct": 75
-      },
-      "label_text": "Състав | Стойност за 1 доза | %ПДД | Калории | 150 | Въглехидрати | 37 г | 12%* | Нишесте от восъчна царевица | 40 г | ** / Въглехидрати > Now Foods Waxy Maize Starch Now Foods Waxy Maize Starch представлява висококачествен суплемент за повишаване на енергията, ускоряване на възстановяването и напълно веган/вегетарианско съдържание. Формулата съдържа комплексни въглехидрати , извлечени от негенно модифицирана царевица. Постигнато е високо съдържание на амилопектин (силно разклонен полизахарид). В сравнение с обикновеното царевично нишесте се съдържат 70%, а във формулата на Waxy Maize Starch са цели 90% амилопектин . Този въглехидрат е с бавно разграждане в стомаха, създавайки усещане за ситост, а след това се складира бързо като гликоген в мускулните депа. Защо да изберем Waxy Maize Starch Now Foods? Съдържа бавноусвоим въглехидрат; 90% амилопектин; Повишава енергийните нива; Бавно освобождаване на енергия; Подпомага възстановяването; Ускорява редуцирането на мазнините; Повишава силата и издръжливостта; Подобрява дейността на мозъка; Повишава концентрацията и паметта; Съдържа 37 г въглехидрати в 40-грамова доза; НЕ съдържа ГМО, захар, сол, мая, соя, мляко, яйца, глутен и консерванти; Веган/вегетариански продукт; PROTEIN.BG ви предлага достъпна цена и бърза доставка. Какво представлява Now Foods Waxy Maize Starch? Now Foods Waxy Maize Starch съдържа нишесте от восъчна царевица. Формулата е веган/вегетарианска и не съдържа ГМО. Нишестето от царевица съдържа високо количество амилопектин . Това е полизахарид със силно разклонена структура и високо молекулно тегло. Разгражда се бавно в стомаха и отделя продължително енергия. Повишава нивата на гликогеновите запаси в мускулите, с което прави тренировката интензивна, защитава мускулите от разпад и създава условия разграждане",
-      "label_image": "https://protein.bg/image/cache/catalog/proteini/battery-nutrition/maltodextrin/battery-maltodextrin-predstavlqva-polizaharidat-maltodekstrin-na-prah-60x60h.jpg.webp",
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 1.34
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T12:18:38.899473Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 100.0,
-          "price_eur": 51.13,
-          "unit_value": 1.34
-        }
-      ]
-    },
-    {
       "id": "proteinbg-now-foods-whey-hydrolysate",
       "store": "ProteinBG",
       "name": "Now Foods Whey Hydrolysate",
@@ -133482,42 +132602,6 @@ const SUPPLEMENTS_DATA = {
           "price_bgn": 77.0,
           "price_eur": 39.37,
           "unit_value": 2.14
-        }
-      ]
-    },
-    {
-      "id": "proteinbg-athlete-s-l-carnitine",
-      "store": "ProteinBG",
-      "name": "Athlete’s L-Carnitine",
-      "brand": "Athlete's Nutrition",
-      "category": "protein",
-      "url": "https://protein.bg/athletes-l-carnitine",
-      "image": "https://protein.bg/image/cache/catalog/proteini/athletes/l-carnitine/l-carnitine-athletes-600x315w.png.webp",
-      "price_bgn": 36.0,
-      "price_eur": 18.41,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": 1979.0,
-      "servings": null,
-      "count": 20,
-      "active": {
-        "estimated_total_protein_g": 1484.2,
-        "estimated_protein_ratio_pct": 75
-      },
-      "label_text": "Количество в доза: | %Дневен прием | Л-Карнитин (като Л-карнитин тартарат) | 1000 мг / Изгаряне на Мазнини > Athlete’s L-Carnitine Л-Карнитин, или наричан още Левокарнитин ( Levocarnitinum) е естествено вещество, което увеличава скоростта на метаболизма на мазнините в тялото. С други думи – функционира като „мазна горелка“ и е изключително популярно в света на професионалния и аматьорския фитнес. Той сам се синтезира от организма предимно в мозъка, бъбреците и черния дроб, с помощта на необходимите за производството му витамини и ензими. За да се произвежда тази аминокиселина в достатъчно количество е нужна балансирана диета и редовна консумация на протеинови продукти с висока стойност. Пример за такива продукти са всякакъв вид месо, риба и млечни продукти. Възможно е в тялото да се появи недостиг на карнитин. Признаците за това обикновено са умора, намален имунитет, поява на наднормено тегло, сърдечно-съдови заболявания и т.н. Затова хора, подложени на диета и активно занимаващи се със спорт задължително трябва да приемат L-Carnitine допълнително под формата на капсули или напитки. Защо трябва да изберем L-Carnitine на Athlete‘s? Засилва процесите на изгаряне на мазнини; Трансформира мазнините в енергия; Унищожава натрупаните тлъстини и предотвратява натрупването на нови; Понижава нивата на триглицериди в кръвта; Увеличава естественото ниво на аденозит трифосфат (АТФ); Стимулира на сърдечно-мускулната сила; Повишава ефективността на тренировката; Насища клетките с кислород; Намалява периода на възстановяване; Усилва имунитета; L-Carnitine на Athlete‘ s сега на топ цена от Protein.bg Какво представлява Л-Карнитин на фирма Athlete‘s ? Athlete‘ s L-Carnitine на страхотна цена е добавка, която стимулира естествените метаболитни процеси. Много е важен моментът с окисляванет",
-      "label_image": "https://protein.bg/image/cache/catalog/product/Dorian_Yates_Nutrition/41482/00_l-carnitine_pineapple-83e7e68-200x250-60x60h.jpg.webp",
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 0.61
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T12:18:55.310635Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 36.0,
-          "price_eur": 18.41,
-          "unit_value": 0.61
         }
       ]
     },
@@ -133627,114 +132711,6 @@ const SUPPLEMENTS_DATA = {
       ]
     },
     {
-      "id": "proteinbg-pure-nutrition-black-jack",
-      "store": "ProteinBG",
-      "name": "Pure Nutrition Black Jack",
-      "brand": "Pure Nutrition",
-      "category": "protein",
-      "url": "https://protein.bg/pure-nutrition-black-jack",
-      "image": "https://protein.bg/image/cache/catalog/proteini/pure-nutrition/black-jack/black-jack-powder-pure-nutrition-e-azoten-buster-700x700.jpg.webp",
-      "price_bgn": 72.0,
-      "price_eur": 36.81,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": 375.0,
-      "servings": 30,
-      "count": null,
-      "active": {
-        "estimated_total_protein_g": 281.2,
-        "estimated_protein_ratio_pct": 75
-      },
-      "label_text": "Състав | Стойност за 1 доза | %ПДД | Ниацин (витамин B3) | 25 мг | 125%* | Холин битарат (витамин B4) | 250 мг | ** | Пиридоксин (витамин B6) | 10 мг | 500%* | Цитрулин | 2000 мг | ** | Цитрулин малат | 500 мг | ** | Бета-аланин | 2000 мг | ** | Креатин монохидрат | 1000 мг | ** | Тирозин | 750 мг | ** | Кофеин | 300 мг | ** | Б-фенилетиламин хидрохлорид | 100 мг | ** | Теанин | 70 мг | ** | Екстракт от горчив портокал | 70 мг | ** | Теобромин | 70 мг | ** | Аргинин хидрохлорид | 500 мг | ** | Аргинин алфа-кетоглутарат | 500 мг | ** / Хардкор и Хормоно-стимулиращи продукти > Pure Nutrition Black Jack Pure Nutrition Black Jack е невероятно мощен предтренировъчен продукт. Във формулата му са концентрирани подбрани съставки – витамини, аминокиселини и плодови екстракти, които гарантират забележителни резултати. Суплементът може да се окачестви като азотен бустер , който подобрява осезаемо спортното представяне. Страхотен избор за сериозно трениращи и атлети. Витамини – формулата на Блек Джек съдържа ниацин (витамин B3), холин (витамин B4 като битарат) и пиридоксин (витамин B6 като хидрохлорид) . Всички те са насочени към подобряване функциите на нервната система, метаболизма и синтеза на някои хормони. Холин битаратът има огромно значение за здравето на черния дроб. Защитава го от заболявания, детоксикира и подобрява неговата дейност. Пиридоксинът участва в производството на енергия, а също и както останалите от групата, подпомага образуването на червени кръвни телца. Аминокиселини – продуктът включва цитрулин, цитулин малат, бета-аланин, аргинин, аргинин алфа-кетоглутарат и теанин. Цитрулинът е аминокиселина, която не участва в структурата на протеините, ензими и други, но нейната роля в тялото е да повишава нивата на аргинин и съответно на азотен оксид. Последният действ",
-      "label_image": "https://protein.bg/image/cache/catalog/proteini/pure-nutrition/black-jack/black-jack-powder-pure-nutrition-e-azoten-buster-509x509.jpg.webp",
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 6.4
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T12:19:14.809572Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 72.0,
-          "price_eur": 36.81,
-          "unit_value": 6.4
-        }
-      ]
-    },
-    {
-      "id": "proteinbg-натурален-витамин-c-с-шипка-500-мг-110-таблетки",
-      "store": "ProteinBG",
-      "name": "Натурален Витамин C с Шипка 500 мг 110 Таблетки",
-      "brand": "21st Century Health Care USA",
-      "category": "protein",
-      "url": "https://protein.bg/21st-century-natural-c-500-with-rose-hips",
-      "image": "https://protein.bg/image/cache/catalog/products/21-st-century-vitamins/Vitamin-c-500-rose-hips-110tabs/C-500_Rose-Hips_110-300x400.png.webp",
-      "price_bgn": 25.99,
-      "price_eur": 13.29,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": 1928.0,
-      "servings": null,
-      "count": 110,
-      "active": {
-        "estimated_total_protein_g": 1446.0,
-        "estimated_protein_ratio_pct": 75
-      },
-      "label_text": "Състав: | Стойност: | %ПДД | Vitamin C (as ascorbic Acid) | 500 mg | 833% | Rose Hips | 37 mg | ** / Витамини > Натурален Витамин C с Шипка 500 мг 110 Таблетки Natural C-500 with Rose Hips от 21st Century ще ви помогне да сте здрави през цялата година, чрез укрепващото си действие върху имунната система, предложен на отлична цена . Това е възможно благодарение на основната му хранителна съставка Витамин С – силен антиоксидант, който помага за неутрализиране на свободните форми на кислорода, които причиняват увреждане на клетките. Ще си осигурите устойчивост на организма срещу вируси и ще усилите съпротивителните му сили. 21st Century ви предлага чудесен естествен източник на Витамин С с продукта Natural C-500 with Rose Hips за здрава имунна система. Ние всички знаем, че витамините са жизненоважни за всеки. Нищо чудно, че дори и името им произлиза от латинската дума «Вита» - живот. Недостигът на витамини може да доведе до витаминна недостатъчност, а тяхната пълна липса сериозното заболяване авитаминоза. Най-добре познатият витамин, изпълняващ много важни функции в тялото ни е, разбира се витамин С . Той се отнася към водноразтворимите витамини. Участва в синтеза на аминокиселини и формирането и развитието на кръвните клетки, в метаболизма на протеини и въглехидрати, стимулира регенерацията на тъканите и усвояването на желязо . С него са свързани много интересни факти, за които много хора не знаят. Ето някои от тях: За откривател на Витамин С се счита унгарският биохимик Алберт Сент-Дьорди, който през 1928 г. за пръв път изолирал веществото от портокали, червени чушки и зеле. Американецът Чарлс Глен Кинг отишъл по-далеч: той е съумял да докаже, че изолираното вещество от зелето представлява витамин С, а по-късно установил и неговата структура. Една от най-смъртоносните бо",
-      "label_image": "https://protein.bg/image/cache/catalog/product/Dorian_Yates_Nutrition/39959/BCOMPLEX_900x-65793d6-200x250-60x60h.jpg.webp",
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 0.45
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T12:19:36.559560Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 25.99,
-          "price_eur": 13.29,
-          "unit_value": 0.45
-        }
-      ]
-    },
-    {
-      "id": "proteinbg-течен-витамин-е-30000-iu-74-мл",
-      "store": "ProteinBG",
-      "name": "Течен Витамин Е 30000 IU 74 мл",
-      "brand": "21st Century Health Care USA",
-      "category": "protein",
-      "url": "https://protein.bg/21st-century-vitamin-e-oil-30000-iu",
-      "image": "https://protein.bg/image/cache/catalog/products/21-st-century-vitamins/Vitamin-E-Oil-Liquid-30000IU-74ml/Vitamin_E_Oil_30000IU_74ml_Liquid-600x315w.png.webp",
-      "price_bgn": 36.0,
-      "price_eur": 18.41,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": 1936.0,
-      "servings": null,
-      "count": 100,
-      "active": {
-        "estimated_total_protein_g": 1452.0,
-        "estimated_protein_ratio_pct": 75
-      },
-      "label_text": "Състав: | Стойност: | %ПДД | Vitamin E (as dl-Alpha Tocopheryl Acetate) | 100 IU | 333% / Витамини > Течен Витамин Е 30000 IU 74 мл 21st Century ви предлага масло с Vitamin E на топ цена , което е специално разработено, за да омекоти и хидратира кожата ви. То притежава свойства, способни да ви помогнат да се справите с преждевременното стареене на кожата и появата на фини линии и бръчки. Хранителната добавка е 100% вегетариански продукт и е достатъчно пречистена, за да се приема и през устата. Ако искате да защитите своето тяло от вредното въздействие на свободните радикали, може да опитате маслото с Vitamin E, което също така може да се използва за заздравяване на белези. Витамин Е е едно от трите вещества, от които тялото ни се нуждае, за да даде уверен отпор на различни болестотворни фактори от околната среда. Именно този витамин предпазва от заплашителните свободни форми на кислорода, явяващи се причина за огромен брой заболявания, включително и рак. Витамин Е е група от вещества, мастно-разтворими витамини , които лесно губят своите полезни свойства на светлината. Една част от тези вещества се наричат токофероли и включват алфа, бета и гама-токофероли. Другата част от групата вещества на витамините Е са токотриенолите и включват алфа, бета, гама и делта – токотриенол. През 1936 г. е получен първият препарат с витамин Е , чрез екстракция от царевичен зародиш. Синтез на витамина е направен през 1938 г. от швейцарския химик Паул Карер. През 1997 г. е установена способността на витамин Е за облекчаване на болестта на Алцхаймер и диабет, както и за подобряване на имунната функция. Формулата на продукта Vitamin E oil 30000 IU 2,5 fl . Oz . (74 ml ) от 21st Century ви осигурява един от най-силните антиоксиданти – витамин Е , при това е на изгодна цена . Защо да изберем ма",
-      "label_image": "https://protein.bg/image/cache/catalog/product/Dorian_Yates_Nutrition/39959/BCOMPLEX_900x-65793d6-200x250-60x60h.jpg.webp",
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 0.62
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T12:19:38.642988Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 36.0,
-          "price_eur": 18.41,
-          "unit_value": 0.62
-        }
-      ]
-    },
-    {
       "id": "proteinbg-myprotein-hemp-protein-unflavoured",
       "store": "ProteinBG",
       "name": "Myprotein Hemp protein unflavoured",
@@ -133767,42 +132743,6 @@ const SUPPLEMENTS_DATA = {
           "price_bgn": 47.99,
           "price_eur": 24.54,
           "unit_value": 1.6
-        }
-      ]
-    },
-    {
-      "id": "proteinbg-myprotein-beta-ecdysterone",
-      "store": "ProteinBG",
-      "name": "Myprotein Beta Ecdysterone",
-      "brand": "Myprotein",
-      "category": "protein",
-      "url": "https://protein.bg/myprotein-beta-ecdysterone-capsules",
-      "image": "https://protein.bg/image/cache/catalog/proteini/myprotein/beta-ecdysterone-capsules/myprotein-beta-alanine-90capsules-600x600.jpg.webp",
-      "price_bgn": 56.99,
-      "price_eur": 29.14,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": 1976.0,
-      "servings": null,
-      "count": 60,
-      "active": {
-        "estimated_total_protein_g": 1482.0,
-        "estimated_protein_ratio_pct": 75
-      },
-      "label_text": "Състав: | Стойност за 1 доза: | %ПДД | Beta Ecdysterone | 300 мг | † / Качване на тегло > Myprotein Beta Ecdysterone Може би се стремите към по-спортна фигура, или просто да подобрите здравето си, да увеличите обема на мускулите и да ускорите изгарянето на мазнините по здравословен начин. Ако обаче тежкият труд в залата за спорт, не дава търсените резултати по отношение на повишаване силата, загубата на мазнини и по-добро здраве, ви е нужно още нещо. За да получите тези ефекти може да ви помогне Екдистерон , растителен стерол с анаболно влияние. Действа така, както действат анаболните стероиди, но без да има общо с тях, както и с отрицателните последици, които причиняват. Екдистерон увеличава производството на мускулните белтъци и предпазва от загуба на мускулен обем, като същевременно насърчава растежа на мускулните влакна. За да постигнете това ви предлагаме продукта Beta Ecdysterone 60 капсули от My P rotein, който съдържа растителния стерол Екдистерон на страхотна цена. Beta Ecdysterone е естествено образуващ се фитохимикал, който присъства в растенията или корените, като например при Cyanotis Vaga. Неговата функция според учените е да възпрепятства размножаването на насекомите вредители. Екдистерон за първи път е изследван от съветски учени през 1976 г., разкривайки неговата анаболна активност и увеличаване синтеза на белтъци. След това, подобно изследване е проведено през 1988 година, при което се сравнява анаболната активност на стероида Метандростенолон и Екдистерон , като получените резултатите са изненадващи. Растителният стерол показва по-висока активност на синтеза на контрактилните протеини в сравнение със стероида Метандростенолон. Опитите върху животни показват, че той демонстрира изразени анаболни свойства. През 1998 година, руски учен оценил ефективност",
-      "label_image": "https://protein.bg/image/cache/catalog/proteini/battery-nutrition/gainer/battery-gainer-predstavlqva-produkt-za-kachvane-na-teglo-60x60h.jpg.webp",
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 0.96
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T12:19:46.949261Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 56.99,
-          "price_eur": 29.14,
-          "unit_value": 0.96
         }
       ]
     },
@@ -133878,77 +132818,6 @@ const SUPPLEMENTS_DATA = {
       ]
     },
     {
-      "id": "proteinbg-myprotein-instant-oats-flavoured",
-      "store": "ProteinBG",
-      "name": "Myprotein Instant Oats Flavoured",
-      "brand": "Myprotein",
-      "category": "protein",
-      "url": "https://protein.bg/myprotein-instant-oats-flavoured",
-      "image": "https://protein.bg/image/cache/catalog/proteini/myprotein/instant-oats-flavoured/myprotein-instant-oats-flavoured-na-prah-600x600.jpg.webp",
-      "price_bgn": 37.49,
-      "price_eur": 19.17,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": 2500.0,
-      "servings": 25,
-      "count": null,
-      "active": {
-        "protein_g": 11.0
-      },
-      "label_text": "Състав: | Стойност за 1 доза: | %ПДД | Енергия | 1525kJ/364kcal | 18% | Мазнини | от които наситени | 7 гр | 1.1 гр | 10% | 6% | Въглехидрати | от които захари | 69 гр | 0.5 гр | 27% | 0% | Протеин | 10 гр | 20% | Сол | 0 гр | 0% / Растителни Екстракти > Myprotein Instant Oats Flavoured Myprotein ви предлага продукта Instant Oats Flavoured , който е отличен начин да повишите дневния прием на комплексни въглехидрати. Те освобождават бавно енергия в удължен период от време. Овесените ядки са от фермите в Шотландия смлени до ултра-фин прах и могат лесно да се консумират като напитка, когато се смесят с предпочитаната от вас течност. Всяка доза на Instant Oats (100 гр) има забележителен хранителен профил, който е насочен към всичките ви изисквания за въглехидрати, мазнини и протеини , а ние ви го предлагаме на чудесна цена . Instant Oats са фино смлени овесени ядки , изключително здравословен източник на въглехидрати , тъй като осигуряват траен поток от енергия за тялото. Това ги прави идеален избор за всеки, който иска да увеличи въглехидратния прием през целия ден. За да постигнете качествен ефект от спортните си занимания е необходимо да осигурите на тялото си нужните хранителни елементи за производството на енергия. Главният енергиен източник за човешкия организъм са въглехидратите, като за предпочитане са бавно усвояващите се. Овесените ядки съдържат именно такива, които се усвояват постепенно в кръвообращението, тъй като са пълни с фибри и техния гликемичен индекс е изключително нисък. По този начин докато тренирате се поддържат стабилни енергийните нива, благодарение на които можете активно да спортувате. Като бавно усвояваща се форма на въглехидрати, Instant Oats от Myprotein не предизвиква скокове в нивата на кръвната захар, в сравнение с декстрозата или малтодекст",
-      "label_image": "https://protein.bg/image/cache/catalog/product/Cheat_Meal/42022/pol_pl_Cheat-Meal-Nutrition-Baking-Protein-500g-Maka-Proteinowa-36427_1-ae99ec8-200x250-60x60h.jpg.webp",
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 3.41
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "high",
-      "scraped_at": "2026-06-21T12:19:49.070220Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 37.49,
-          "price_eur": 19.17,
-          "unit_value": 3.41
-        }
-      ]
-    },
-    {
-      "id": "proteinbg-myprotein-maltodextrin",
-      "store": "ProteinBG",
-      "name": "Myprotein Maltodextrin",
-      "brand": "Myprotein",
-      "category": "protein",
-      "url": "https://protein.bg/myprotein-maltodextrin",
-      "image": "https://protein.bg/image/cache/catalog/proteini/myprotein/maltodextrin/myprotein-maltodextrin-predstavlqva-maltodekstrin-pod-formata-na-prah-600x600.jpg.webp",
-      "price_bgn": 14.99,
-      "price_eur": 7.66,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": 1000.0,
-      "servings": 20,
-      "count": null,
-      "active": {
-        "estimated_total_protein_g": 750.0,
-        "estimated_protein_ratio_pct": 75
-      },
-      "label_text": "Състав: | Стойност за 1 доза: | Енергия | 200 kcal/850 KJ | Мазнини | 0 гр | Въглехидрати | - захари | 50 | гр | 0 | гр | Протеини | 0 | гр | Соли | <0.01 | гр / Качване на тегло > Myprotein Maltodextrin Когато трябва да се увеличи телесното тегло, много хора прибягват до използването на гейнъри или продукти, съдържащи въглехидрати . Maltodextrin на Myprotein представлява именно продукт, който съдържа въглехидрати и по-точно малтодекстрин . Той е произведен под формата на прах, който ще ви помогне по-бързо и лесно да повишите теглото си. Малтодекстринът представлява полимер от последователно свързани молекули глюкоза, който спада към групата на сложните въглехидрати . Малтодекстринът е въглехидрат с висок гликемичен индекс, което означава, че много бързо се усвоява в организма и ви осигурява освобождаване на повече енергия. Това прави малтодекстринът отличен избор за прием след тренировка, като подчетава неговият ефект в комбинация със суроватъчни протеини или ВСАА. Малтодекстринът е полизахарид, който се произвежда от друг полизахарид - нишесте, а името му идва от неговата структура, съдържаща различен брой свързани молекули декстроза. Малтодекстринът е безвкусен бял прах (за разлика от декстрозата) и често се използва като основен въглехидратен източник във формулите на различни гейнъри, където обаче присъствието на протеини и мазнини намаляват неговият гликемичен индекс. Малтодекстринът не е естествен въглехидратен източник. Той се произвежда от други, често срещани суровини като например нишесте (оризово, царевично или картофено) и се влага в състава на голям брой продукти, свързани с качването на килограми, както и в много продукти - заместители на храна и дори в състава на някои протеинови продукти на прах. Причината за голямото използване на малтодекстринът е удо",
-      "label_image": "https://protein.bg/image/cache/catalog/proteini/battery-nutrition/gainer/battery-gainer-predstavlqva-produkt-za-kachvane-na-teglo-60x60h.jpg.webp",
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 0.5
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T12:19:52.493253Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 14.99,
-          "price_eur": 7.66,
-          "unit_value": 0.5
-        }
-      ]
-    },
-    {
       "id": "proteinbg-myprotein-protein-smoothie",
       "store": "ProteinBG",
       "name": "Myprotein Protein Smoothie",
@@ -133981,42 +132850,6 @@ const SUPPLEMENTS_DATA = {
           "price_bgn": 59.49,
           "price_eur": 30.42,
           "unit_value": 2.01
-        }
-      ]
-    },
-    {
-      "id": "proteinbg-myprotein-maca",
-      "store": "ProteinBG",
-      "name": "Myprotein Maca",
-      "brand": "Myprotein",
-      "category": "protein",
-      "url": "https://protein.bg/myprotein-maca-capsules",
-      "image": "https://protein.bg/image/cache/catalog/proteini/myprotein/maca-capsules/myprotein-maca-capsules-600x600.jpg.webp",
-      "price_bgn": 17.99,
-      "price_eur": 9.2,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": 1600.0,
-      "servings": null,
-      "count": 30,
-      "active": {
-        "estimated_total_protein_g": 1200.0,
-        "estimated_protein_ratio_pct": 75
-      },
-      "label_text": "Състав: | Стойност за 1 доза: | Maca Extract (10:1) | 500 mg / Растителни Екстракти > Myprotein Maca My P rotein ви предлага капсули с екстракт от „суперхраната на Андите” Мака , древно лечебно растение от вълшебната земя на инките. Съвременните изследвания показват, че перуанската Мака повишава либидото, подобрява сексуалната потентност, увеличава физическата сила и издръжливост. Тя е от най-силните афродизиаци и адаптогени в природата, а нейните лечебни качества са незаменими. Вие може да опитате това уникално растение чрез продукта Maca от My P rotein на добра цена. Перуанска Мака - екзотичен корен, който прилича на ряпа. Расте по платата на Перуанските и Боливийските Анди на височина от 3800 - 4500 м над морското равнище, където дава значителен и надежден добив и е единственото култивирано растение на тази височина. Климатичните условия в тези райони се характеризират с силна слънчева светлина, студ пронизващ до костите и бурни ветрове. Дневните температурни колебания са огромни, повече от 20 ° С - при залез температурата е + 18 ° С и пада до -10 ° С. Това са най-неподходящите места в света за селско стопанство, представляващи скалисти почвени области, изложени постоянно на неблагоприятните природни фактори - вятър, дъжд и слънце. Мака е единственото растение, виреещо като у дома си в този суров край. Около 2000 година тази устойчива билка е и храна и лекарство в районите, където расте. Първо, има висока хранителна ценност, която несъмнено определя използването й в продължение на векове в хранителния режим на хората по тези места. От друга страна, издръжливостта на Перуанската Мака и приспособимостта й към суровите условия, се отразяват в нейното действие върху организма като адаптоген и афродизиак, способствайки за увеличаване издръжливостта, силата, физическата и ",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 0.37
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T12:19:53.535995Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 17.99,
-          "price_eur": 9.2,
-          "unit_value": 0.37
         }
       ]
     },
@@ -134093,365 +132926,6 @@ const SUPPLEMENTS_DATA = {
       ]
     },
     {
-      "id": "proteinbg-myprotein-vegan-superfood-blend",
-      "store": "ProteinBG",
-      "name": "Myprotein Vegan Superfood Blend",
-      "brand": "Myprotein",
-      "category": "protein",
-      "url": "https://protein.bg/myprotein-vegan-superfood-blend",
-      "image": "https://protein.bg/image/cache/catalog/proteini/myprotein/vegan-superfood-blend/vegan-superfood-blend-powder-myprotein-stimulira-muskulnia-rastej-600x315w.jpg.webp",
-      "price_bgn": 73.99,
-      "price_eur": 37.83,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": 1000.0,
-      "servings": 33,
-      "count": null,
-      "active": {
-        "protein_g": 16.0
-      },
-      "label_text": "Състав | Стойност за 1 доза | %ПДД | Енергия | 136 ккал | - | Мазнини | 2.6 г | - | от които наситени | 0.4 г | - | Въглехидрати | 8.9 г | - | от които захари | 6.7 г | - | Фибри | 6.8 г | - | Протеин | 16 г | - | Сол | 0.62 г | - | Витамин К | 59 мкг | 79%* | Витамин C | 32 мг | 40%* | Витамин B-12 | 2 мкг | 80%* / Протеини > Myprotein Vegan Superfood Blend Myprotein Vegan Superfood Blend е хранителна добавка, съдържаща растителен протеин на прах . Основните съставки в продукта са грахов протеин изолат и оризов протеин. Освен него, формулата изобилства от полезни за здравето компоненти. Такива са спирулина, цвекло, нар, сибирски жен-шен, зеленчукови екстракти, Гинко Билоба, зелен чай, черни боровинки, оризов протеин и други. Граховият и оризовият протеин са основните източници на белтъчини във формулата на Myprotein Vegan Superfood Blend . Те са изключително подходящи за хора, които по една или друга причина не консумират животински продукти. Набавянето на достатъчни количества от този макронутриент е от основно значение за функционирането на организма и добрата визия. Добавките с протеин заемат централно място в областта на спортната суплеменция. Всеки активен спортист и атлет се е насочил към определен продукт, но за веганите и вегетарианците намирането на подходящ често е по-трудно. Граховият и оризовият протеин са отличен избор за тях. Ежедневният прием на протеин осигурява нужните елементи за изграждане на чиста мускулатура , оформяне на тялото и постигане на релеф. Разбира се, всичко това наред с подходящ хранителен режим и тренировки. Спирулина представлява група едноклетъчни микроводорасли, които притежават невероятни ползи за здравето. В състава си крият неподозирано изобилие от полезни вещества – протеини, магнезий, хлорофил, витамини и минерали. Спирулина по",
-      "label_image": "https://protein.bg/image/cache/catalog/product/Cheat_Meal/42022/pol_pl_Cheat-Meal-Nutrition-Baking-Protein-500g-Maka-Proteinowa-36427_1-ae99ec8-200x250-60x60h.jpg.webp",
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 3.5
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "high",
-      "scraped_at": "2026-06-21T12:19:57.224919Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 73.99,
-          "price_eur": 37.83,
-          "unit_value": 3.5
-        }
-      ]
-    },
-    {
-      "id": "proteinbg-myprotein-active-woman-diet-blend",
-      "store": "ProteinBG",
-      "name": "Myprotein Active Woman Diet Blend",
-      "brand": "Myprotein",
-      "category": "protein",
-      "url": "https://protein.bg/myprotein-active-woman-diet-blend",
-      "image": "https://protein.bg/image/cache/catalog/proteini/myprotein/active-woman-diet-blend/myprotein-active-woman-diet-blend-600x600.jpg.webp",
-      "price_bgn": 34.49,
-      "price_eur": 17.63,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": 500.0,
-      "servings": 25,
-      "count": null,
-      "active": {
-        "estimated_total_protein_g": 445.0,
-        "estimated_protein_ratio_pct": 89
-      },
-      "label_text": "Състав: | Стойност: | %ПДД | Енергия | 1615 kj/381 kcal | 408 kj/96 kcal | Мазнини | от които наситени | 2.5 гр | 0.6 гр | 0.6 гр | 0.2 гр | Въглехидрати | от които захари | 6.5 гр | 2.7 гр | 1.6 гр | 0.7 гр | Белтъчини | 83 гр | 21 гр | Сол | 0.4 гр | 0.1 гр | Vitamin A | 1568 μg (196% RI*) | 392 μg (49% RI*) | Vitamin D | 4 μg (80% RI*) | 1μg (20% RI*) | Vitamin E | 24 мг (200% RI*) | 6 мг (50% RI*) | Vitamin C | 160 мг (200% RI*) | 40 мг (50% RI*) | Тиамин | 2.4 мг (218% RI*) | 0.6 мг (54.5% RI*) | Рибофлавин | 2.8 мг (200% RI*) | 0.7 мг (50% RI*) | Ниацин | 32 мг (200% RI*) | 8 мг (50% RI*) | Vitamin B6 | 2.84 мг (203% RI*) | 0.71 мг (50.7% RI*) | Vitamin B12 | 5 μg (200% RI*) | 1.25 μg (50% RI*) | Магнезий | 756 мг (202% RI*) | 189 мг (50.4% RI*) | Желязо | 28 мг (200% RI*) | 7 мг (50% RI*) | Цинк | 20 мг (200% RI*) | 5 мг (50% RI*) | Йод | 300 μg (200% RI*) | 75 μg (50% RI*) / Протеини > Myprotein Active Woman Diet Blend Използването на протеинови добавки в комбинация с ежедневни тренировки ще ви помогнат да изградите мускулна маса и ще задоволи нуждите на вашия организъм от по-високи нива на протеини , при усилените физически натоварвания. Това създава основа за синтезиране на аминокиселини в организма, нужни за изграждането на мускулната тъкан. MYPROTEIN създаде специално за жените поддържащи правилен режим на хранене и с добра двигателна активност продукта Active Woman Diet Blend въз основа на научни разработки. Това е вкусна напитка, богата на протеини , която лесно ще бъде усвоена. Експертите от MYPROTEIN са разработили по нов, модерен начин протеинов шейк , който ще даде възможност за по-бързо изгаряне на ненужните мазнини благодарение на добавените съставки CLA, Choline и ALCAR (Ацетил Л-Карнитин) и са го реализирали в цяла гама от прекрасни естествени аром",
-      "label_image": "https://protein.bg/image/cache/catalog/product/4D_Nutrition/24474/4d_nutrition_whey_phase_1lb-c4f2a2f-60x60h.jpg.webp",
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 1.94
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "medium",
-      "scraped_at": "2026-06-21T12:19:58.107989Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 34.49,
-          "price_eur": 17.63,
-          "unit_value": 1.94
-        }
-      ]
-    },
-    {
-      "id": "proteinbg-myprotein-tri-carb-800-гр",
-      "store": "ProteinBG",
-      "name": "Myprotein Tri Carb 800 гр",
-      "brand": "Myprotein",
-      "category": "protein",
-      "url": "https://protein.bg/myprotein-tri-carb-800g",
-      "image": "https://protein.bg/image/cache/catalog/proteini/myprotein/tri-carb-800g/myprotein-tri-carb-800g-na-prah-600x600.jpg.webp",
-      "price_bgn": 33.99,
-      "price_eur": 17.38,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": 800.0,
-      "servings": null,
-      "count": null,
-      "active": {
-        "estimated_total_protein_g": 600.0,
-        "estimated_protein_ratio_pct": 75
-      },
-      "label_text": "Състав: | Стойност за 100гр: | Стойност за 1 доза: | %ПДД | Енергия | 1293 kJ/305 kcal | 802 kJ/188 kcal | 10% | Мазнини | от които наситени | 0 гр | 0 гр | 0 гр | 0 гр | 0% | 0% | въглехидрати | от които захари | 88 гр | 60 гр | 44 гр | 30 гр | 17% | 33% | Белтъчини | 0 гр | 0 гр | 0% | Сол | 0.8 гр | 0.4 гр | 7% / Въглехидрати > Myprotein Tri Carb 800 гр Myprotein ви предлага продукта Tri Carb 800 g , който доставя три вида въглехидрати с висок гликемичен индекс и електролити на отлична цена . С тази освежаваща въглехидратна напитка лесно ще поддържате издръжливостта си през цялата тренировка. Ако вашите тренировки са продължителни, изискващи много издръжливост и ви е необходима добавка, която ви дава енергия през цялото време, то Tri Carb 800 g ще е идеалният отговор за вас. Tri Carb е висококачествена енергийна напитка на въглехидратна база, създадена специално, да ви зарежда енергийно от началото до края на спортните упражнения. Нейната иновативна формула е предназначена да осигури максималното въглехидратно усвояване, чрез уникалното съчетание от три вида въглехидрати . Тя е бленд от три различни източници - Малтодекстрин , Фруктоза и Палатиноза в комбинация с 500 мг Електролити. Една група от химически съединения, известни като \" въглехидрати \" извършва в тялото няколко функции, чиято важност не трябва да се подценява: енергетична (основно клетъчно гориво), защитна (влиза в състава на имуноглобулините), структурна (незаменим компонент на повечето вътреклетъчни и междуклетъчни структури). Недостигът им и смущенията в техния метаболизъм, предизвикват нарушения на системата за складиране на гликоген, непоносимост към млечни продукти, заболяванията диабет и галактоземия. Основният източник на енергия в тялото са въглехидратите , осигуряващи около 60% от използваната ",
-      "label_image": "https://protein.bg/image/cache/catalog/proteini/battery-nutrition/maltodextrin/battery-maltodextrin-predstavlqva-polizaharidat-maltodekstrin-na-prah-60x60h.jpg.webp",
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 1.42
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T12:20:03.036991Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 33.99,
-          "price_eur": 17.38,
-          "unit_value": 1.42
-        }
-      ]
-    },
-    {
-      "id": "proteinbg-doctor-s-best-best-alpha-lipoic-acid-600-mg",
-      "store": "ProteinBG",
-      "name": "Doctor`s Best Best Alpha-Lipoic Acid 600 mg",
-      "brand": "Doctor's Best",
-      "category": "protein",
-      "url": "https://protein.bg/doctors-best-best-alpha-lipoic-acid-600mg",
-      "image": "https://protein.bg/image/cache/catalog/proteini/doctors-best/best-alpha-lipoic-acid-600mg/doctors-best-best-alpha-lipoic-acid-600mg-1600x1600.jpg.webp",
-      "price_bgn": 59.9,
-      "price_eur": 30.63,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": 1988.0,
-      "servings": null,
-      "count": 60,
-      "active": {
-        "estimated_total_protein_g": 1491.0,
-        "estimated_protein_ratio_pct": 75
-      },
-      "label_text": "Състав: | Стойност: | %ПДД | Alpha lipoic acid | 600 мг | † / Здравословни добавки > Doctor`s Best Best Alpha-Lipoic Acid 600 mg Организмът на всеки човек се нуждае от подкрепа в борбата с отпадните елементи от протеклите метаболитни процеси, които имат възможност да причинят сериозни вреди на здравето. Освен това човешкото тяло е изложено ежедневно и на различни радикални окисления, генерирани от стреса, радиацията, вредните храни, автомобилните газови и др. За да се избегне увреждане на клетки и органи е необходимо присъствието на вещества, наречени антиоксиданти, в хранителния режим. Best Alpha-Lipoic Acid 600 mg, 60 капсули е продукт, който може да снабди вашия организъм с антиоксидантна защита на страхотна цена. Откритието на Алфа-липоевата киселина (ALA, витамин N) става през 1948 години, а първият й синтез в лабораторни условия е направен през 1953 година. През 1988 г. са открити нейните антиоксидантни свойства. Липоевата киселина спада към класа на мастните киселини и е постоянно присъстваща в човешкото тяло. Това вещество би могло да се класифицира като витамин, ако не е факта, че се синтезира в човешкото тяло. Изпълнява функцията на антиоксидант и се намира преимуществено вътре в клетките. Основната задача на Липоевата киселина е преобразуването на глюкозата в непосредствени енергийни източници. Молекулата на ALA съдържа сяра, като са й присъщи всички свойства, характерни за мастните киселини. Антиоксидантната й функция е да неутрализира вредни химични съединения, известни като свободни радикали. Липоева киселина има уникални характеристики, тъй като е с широк спектър на действие. Тя оказва своят ефект както във водна среда, така и в мастните тъкани, докато по-голямата част от антиоксидантите са ефективни само в една от посочените среди. Алфа-липоевата киселин",
-      "label_image": "https://protein.bg/image/cache/catalog/proteini/doctors-best/best-alpha-lipoic-acid-600mg/doctors-best-best-alpha-lipoic-acid-600mg-ingredients-509x509.jpg.webp",
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 1.0
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T12:20:07.062102Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 59.9,
-          "price_eur": 30.63,
-          "unit_value": 1.0
-        }
-      ]
-    },
-    {
-      "id": "proteinbg-battery-isotonic-660g",
-      "store": "ProteinBG",
-      "name": "Battery Isotonic+ 660g",
-      "brand": "Battery Nutrition",
-      "category": "protein",
-      "url": "https://protein.bg/battery-isotonic-plus-660g",
-      "image": "https://protein.bg/image/cache/catalog/proteini/battery-nutrition/isotonic-plus/battery-isotonic-plus-predstavlqva-izotonichna-formula-pod-formata-na-prah-600x315w.jpg.webp",
-      "price_bgn": 35.99,
-      "price_eur": 18.4,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": 660.0,
-      "servings": 20,
-      "count": 10,
-      "active": {
-        "estimated_total_protein_g": 495.0,
-        "estimated_protein_ratio_pct": 75
-      },
-      "label_text": "Състав: | Съдържание в една доза (33гр) | : | Енергия | 336KJ/80kcal | Мазнини | - наситени | 0 g | 0 g | Въглехидрати | - захари | 20 g | 9,4 g | Протеини | 0 g | Соли | 0,63 g | Витамин С | 200 mg | Витамин Е | 15mg | L-глутамин | 2000 mg | L-левцин | 1500 mg | L-изолевцин | 750 mg | L-валин | 750 mg | Калий | 200 mg | Магнезий | 90 mg | Фосфор | 442 mg / Енергийни Продукти > Battery Isotonic+ 660g По време на тренировка тялото се нуждае от основни вещества, които да поддържат нормалните функции на организма и да подобрят неговата издръжливост. Isotonic+ съдържа в състава си различни вещества - електролити, въглехидрати, витамини и аминокиселини , които ще ви помогнат да поддържате своята енергия по време и след тренировка. Внимателно селектираната формула на Isotonic+ хидратира тялото и спомага за по-ефективното усвояване на водата по време на продължителни тренировки. Витамин С - единият от двата витамина в състава на Isotonic+ влияе благоприятно върху имунната система и подпомага нормална и функция. Витамин С притежава и антиоксидантни свойства, с което участва в неутрализирането на токсичните кислородни радикали, образуващи се по време не физическо натоварване на организма. Тези радикали всъщност са реактивни форми на кислорода, които могат да причинят необратимо увреждане на клетки и тъкани. Витамин С е необходим на организма и за производството на някои други важни вещества като колаген, карнитин и някои невротрансмитери. Витамин Е - другият витамин в състава на Isotonic+ също има своята роля като антиоксидант, но освен това регулира активността на някои ензими, влияе върху нервната функция на очите и предотвратява кръвосъсирването. В електролитният матрикс на Isotonic+ се съдържат магнезий, калий и фосфор. Магнезият е много важен елемент, който е необходим на г",
-      "label_image": "https://protein.bg/image/cache/catalog/proteini/battery-nutrition/isotonic-plus/battery-isotonic-plus-predstavlqva-izotonichna-formula-pod-formata-na-prah-509x509h.jpg.webp",
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 1.82
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T12:20:12.655079Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 35.99,
-          "price_eur": 18.4,
-          "unit_value": 1.82
-        }
-      ]
-    },
-    {
-      "id": "proteinbg-battery-peanut-butter",
-      "store": "ProteinBG",
-      "name": "Battery Peanut Butter",
-      "brand": "Battery Nutrition",
-      "category": "protein",
-      "url": "https://protein.bg/battery-nutrition-peanut-butter",
-      "image": "https://protein.bg/image/cache/catalog/proteini/battery-nutrition/peanut-butter/battery-peanut-butter-600x315w.jpg.webp",
-      "price_bgn": 18.49,
-      "price_eur": 9.45,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": 500.0,
-      "servings": null,
-      "count": null,
-      "active": {
-        "estimated_total_protein_g": 375.0,
-        "estimated_protein_ratio_pct": 75
-      },
-      "label_text": "Състав | Стойност на 25 гр | %ПДД | Стойност на 100 гр | Енергия | 606kJ/146kcal | 7% | 2425kJ/585kcal | Мазнини | от които наситени | от които мононенаситени | от които полиненаситени | 11.5 гр | 1.8 гр | 6.5 гр | 3.3 гр | 16% | 9% | ** | ** | 46 гр | 7.0 гр | 26 гр | 13 гр | Въглехидрати | от които захари | 3.5 гр | 0.8 гр | 1% | 1% | 14 гр | 3.0 гр | Протеини | 6.3 гр | 13% | 25 гр | Сол | <0.01 гр | 0% | 0.01 гр / Протеинови барове и десерти > Battery Peanut Butter Днес, във времената на енергийните десерти, протеиновите коктейли и гейнерите, много спортисти забравят за реалните продукти, като фъстъчената паста . Според нас, това е един от най-добрите хранителни продукти за спортистите. Вкусно и удовлетворяващо хранителните нужди на организма, Фъстъченото масло много рядко влиза в режима на хранене на културистите. Те се стараят да го избягват, като се мотивират с това, че е много мазно и провокира напълняване. Да, Фъстъченото масло съдържа много калории, но може да повлияе положително върху спортната Ви диета . Фактите по-долу ще Ви обяснят, защо атлетите трябва да добавят и това масло в режима си на хранене. Battery Peanut Butter е идеалният вариант да си подарите това полезно и вкусно удоволствие. Фъстъченото масло намалява чувството на глад. За да утолим глада си, е най-добре да изядем продукт, който предизвиква чувство на ситост. Към тях се отнася такава рана, която съдържа белтъчини и влакна, точно като Peanut Butter 500 g . Ще се почувствате много по-сит ако изядете една поничка с Фъстъчено масло , отколкото поничка с глазура, като те са е еднакво съдържание на калории. Изследванията показват, че хората, които регулярно ползват Фъстъчено масло на закуска, се хранят по-малко през деня. Също така Peanut Butter намалява рисковете от сърдечно-съдови патологии. Пр",
-      "label_image": "https://protein.bg/image/cache/catalog/proteini/battery-nutrition/peanut-butter/battery-peanut-butter-509x509h.jpg.webp",
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 1.23
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T12:20:13.231470Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 18.49,
-          "price_eur": 9.45,
-          "unit_value": 1.23
-        }
-      ]
-    },
-    {
-      "id": "proteinbg-prolab-caffeine-200-mg",
-      "store": "ProteinBG",
-      "name": "Prolab Caffeine 200 mg",
-      "brand": "Prolab",
-      "category": "protein",
-      "url": "https://protein.bg/prolab-caffeine-200mg-tablets",
-      "image": "https://protein.bg/image/cache/catalog/proteini/prolab/caffeine-200mg-tablets/prolab-caffeine-200mg-100-tablets-1600x1600.jpg.webp",
-      "price_bgn": 22.0,
-      "price_eur": 11.25,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": 1902.0,
-      "servings": null,
-      "count": 100,
-      "active": {
-        "estimated_total_protein_g": 1426.5,
-        "estimated_protein_ratio_pct": 75
-      },
-      "label_text": "Състав: | Стойност за 1 доза: | %ПДД | Calcium (from Dibasic Calcium Phosphate) | 75 мг | 8% | Caffeine | 200 мг | * / Здравословни добавки > Prolab Caffeine 200 mg Caffeine 200 mg, 100 таблетки е кофеинова добавка под формата на таблетки , с мощно стимулиращо действие, предложена на топ цена . Кофеинът е естествено вещество, най-популярният и широко използван стимулант. Предлагаме ви да опитате този първокачествен продукт от Prolab , който ще стимулира вашия организъм, ще ви даде енергия и помага за изгаряне на мазнините. Кофеинът е вещество, което в естествен вид се произвежда в листата и семената на много растения. За първи път е изолиран в лаборатория от немския химик Херман Емил Фишер, получил Нобелова награда през 1902 г. за своята научна дейност. Кофеинът е алкалоид – азотосъдържащо органично вещество, което има физиологично въздействие върху нервната система на хората и животните. Този алкалоид в природата не съществува в чист вид, необходимо е да се извлича по различни начини. Има лечебни свойства и се използва като стимулант на централната нервна система, предизвикващ повишена активност. Повечето хора реагират на това вещество с увеличена енергия и подобрено настроение. Кофеинът се съдържа в чая, кафето, шоколада, в различни безалкохолни напитки, а също влиза в състава на обезболяващи препарати. Натуралният кофеин е бял кристален прах, с горчив вкус. В медицината се използва като сърдечен стимулант и диуретик. Също така се ползва още за да предизвика „прилив на енергия”, или повишена активност. Много често хората консумират кофеин , за да останат будни по-дълго време и да не заспиват. Предлагаме ви продукта Caffeine 200 mg 100 таблетки от Prolab , който е бързодействаща кофеинова добавка със стимулиращо действие на чудесна цена . Защо да изберем Caffeine 200 m",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 0.39
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T12:20:20.851835Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 22.0,
-          "price_eur": 11.25,
-          "unit_value": 0.39
-        }
-      ]
-    },
-    {
-      "id": "proteinbg-universal-nutrition-gain-fast-3100",
-      "store": "ProteinBG",
-      "name": "Universal Nutrition Gain Fast 3100",
-      "brand": "Universal Nutrition",
-      "category": "protein",
-      "url": "https://protein.bg/universal-nutrition-gain-fast-3100",
-      "image": "https://protein.bg/image/cache/catalog/proteini/universal/gain-fast-3100/universal-nutrition-gain-fast-3100-600x315w.jpg.webp",
-      "price_bgn": 160.0,
-      "price_eur": 81.81,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": 4500.0,
-      "servings": 19,
-      "count": null,
-      "active": {
-        "estimated_total_protein_g": 3375.0,
-        "estimated_protein_ratio_pct": 75
-      },
-      "label_text": "Състав в 1 доза (229 гр) | Стойност | %ПДД | Състав в 1 доза (229 гр) | Стойност | %ПДД | Калории | калории от мазнини | 868 | 72 | Витамин B6 | 1.9 мг | 95% | Общо мазнини | наситени мазнини | транс мазнини | 8 гр | 1 гр | 0 гр | 14%† | 5%† | 0%† | Фолиева киселина | 380 мкг | 95% | Холестерол | 3 мг | 1%† | Витамин B12 | 5.7 мкг | 95% | Натрий | 920 мг | 38%† | Калций | 1000 мг | 100% | Общо въглехидрати | Диетични фибри | захари | 162 гр | 4 гр | 77 гр | 54%† | 16%† | ** | Фосфор | 950 мг | 95% | Прротеини | 37 гр | 74%† | Магнезий | 100 мг | 25% | Витамин A | 3750 IU | 95% | Цинк | 7.5 мг | 50% | Витамин C | 60 мг | 100% | Селен | 10.5 мкг | 15% | Витамин D | 380 IU | 95% | Калий | 700 мг | 20% | Витамин E | 30 IU | 100% | Анаболитни фактори за растеж | аргинин алфа-кетоглутарат | бета ситостерол | Маура пуама | Кудзу (екстракт от корен) | 5-метил-7-метоксиизофлавон | 7-изопропокси-ипрафлавон | алфа-липоева киселина | л-орнитин | Сао палмето | 2000 мг | ** | ** | ** | ** | ** | ** | ** | ** | ** | Тиамин | 1.5 мг | 100% | Метаболитни оптимизатори и производствени фактори | ядки кола (прах) | корейски женшен | магарешки бодил | бета аланин | бромелаин | 750 мг | ** | ** | ** | ** | ** | Рибофлавин | 2.04 мг | 120% | Липотропни и Ергогенни фактори | креатин монохидрат | инозитол | холин битартрат | л-глутамин | л-карнитин | 900 мг | ** | ** | ** | ** | ** | Ниацин | 19 мг | 95% | Специален амино комплекс за бърз растеж | л-глутаминова киселина | л-левцин | л-аспарагинова киселина | л-лизин | л-треонин | л-левцин | л-валинл-пролин | л-аланин | л-серин | л-фенилаланин | л-тирозин | л-цистин | л-аргинин | л-метионин | л-хистидин | л-глицин | л-триптофан | 37000 мг | ** | ** | ** | ** | ** | ** | ** | ** | ** | ** | ** | ** | ** | ** | ** | ** | ** / Минерали > Universal ",
-      "label_image": "https://protein.bg/image/cache/catalog/proizvoditeli/universal-70x70.png.webp",
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 1.19
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T12:20:25.110413Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 160.0,
-          "price_eur": 81.81,
-          "unit_value": 1.19
-        }
-      ]
-    },
-    {
-      "id": "proteinbg-universal-nutrition-animal-pump-30-packs",
-      "store": "ProteinBG",
-      "name": "Universal Nutrition Animal Pump 30 packs",
-      "brand": "Universal Nutrition",
-      "category": "protein",
-      "url": "https://protein.bg/universal-nutrition-animal-pump-30packs",
-      "image": "https://protein.bg/image/cache/catalog/proteini/universal/animal-pump-30packs/universal-nutrition-animal-pump-30packs-600x315w.jpg.webp",
-      "price_bgn": 128.0,
-      "price_eur": 65.45,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": 390.0,
-      "servings": null,
-      "count": 60,
-      "active": {
-        "estimated_total_protein_g": 292.5,
-        "estimated_protein_ratio_pct": 75
-      },
-      "label_text": "Състав в 1 доза (1 пакет) | Стойност | %ПДД | Витамин С | 60 мг | 100% | Селен | 100 мкг | 143% | Креатинова матрица | магнезиев креатин хелат | трикриетин малат | креатин етил естер | 3000 мг | ** | ** | ** | Азотен оксид взривен комплекс | аргинин алфа-кетоглутарат | орнитин алфа-кетоглутарат | цитрулин малат | л-карнозин | л-норвалин | 2000 мг | ** | ** | ** | ** | ** | комплекс прилив на енергия | метилксантин комплекс (кофеин, | теобромин, теофилин) | еводиамин | винпоцетин | 500 мг | ** | ** | ** | Антиоксидантен комплекс | екстракт от гроздови семена | н-ацетил цистеин | екстракт от зелен чай | К-Р алфа липоева киселина | 700 мг | ** | ** | ** | ** | Напомпващ транспортен комплекс | таурин | екстракт от корен на джинджифил | цинулин | биоперин | 1000 мг | ** | ** | ** | ** / Здравословни добавки > Universal Nutrition Animal Pump 30 packs В света не съществува аналог на това усещане, което изпитване когато вдигаме тежести. Именно това усещане ни кара всеки път да се връщаме в тренировъчната зала. Този, който го изпитва всеки ден, изпълнявайки силови упражнения с щанги или с гири, или с каквото и друго да е, знае че няма нищо по-добро от чувството на мускулното помпане. С тези усещания ние събираме кураж, стремим се да правим още едно непосилно повторение или да сложим още една тежест на щангата. Само че мускулното помпане не е просто чувство, това е важен сигнал за всеки спортист, който говори за началото на растежа на мускулите. Този процес представлява прилив на кръв, който се движи устремено от кръвоносните съдове към работещите мускулни влакна, напълвайки клетките, които носят кръвния поток с хранителни вещества, включително и с кислород. Все едно пушка се зарежда с поредния снаряд – това са мускулите , които се помпят. Напълвайки се с всички необходими питате",
-      "label_image": "https://protein.bg/image/cache/catalog/product/Dorian_Yates_Nutrition/42724/CreatineMonohydrate-Unflavoured-Bulgaria-600ml-300mg-smallbottle_06-eb5fa32-200x250-60x60h.jpg.webp",
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 10.94
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T12:20:30.854361Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 128.0,
-          "price_eur": 65.45,
-          "unit_value": 10.94
-        }
-      ]
-    },
-    {
-      "id": "proteinbg-universal-nutrition-animal-pak-powder-342-g",
-      "store": "ProteinBG",
-      "name": "Universal Nutrition Animal Pak Powder 342 g",
-      "brand": "Universal Nutrition",
-      "category": "protein",
-      "url": "https://protein.bg/universal-nutrition-animal-pak-powder",
-      "image": "https://protein.bg/image/cache/catalog/proteini/universal/animal-pak-powder/animal-pak-powder-universal-nutrition-uvelichava-muskulite-380x500.jpg.webp",
-      "price_bgn": 110.0,
-      "price_eur": 56.24,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": 342.0,
-      "servings": null,
-      "count": 12,
-      "active": {
-        "estimated_total_protein_g": 290.7,
-        "estimated_protein_ratio_pct": 85
-      },
-      "label_text": "Състав | Стойност за 1 доза | %ПДД | Енергия | 24 ккал | Въглехидрати | 3 г | <2%* | от които фибри | 3 г | 1%* | Протеин | 3 г | 6%* | Витамин A | 9900 IU | 198%* | Витамин C | 1 г | 1667%* | Витамин D | 680 IU | 170%* | Витамин E | 300 IU | 1000%* | Тиамин | 76 мг | 5067%* | Рибофлавин | 76 мг | 4471%* | Ниацин | 82 мг | 410%* | Витамин B6 | 180 мг | 9000%* | Фолиева киселина | 400 мкг | 100%* | Витамин B12 | 50 мкг | 833%* | Биотин | 300 мкг | 100%* | Пантотенова киселина | 76 мг | 760%* | Калций | 170 мг | 17%* | Фосфор | 30 мг | 3%* | Йод | 150 мкг | 100%* | Магнезий | 400 мг | 100%* | Цинк | 30 мг | 200%* | Селен | 50 мкг | 71%* | Мед | 600 мкг | 30%* | Манган | 5 мг | 250%* | Хром | 60 мкг | 50%* | Калий | 250 мг | 7%* | Аланин | 147 мг | ** | Аргинин | 1370 мг | ** | Аспаратова киселина | 318 мг | ** | Цистин | 75 мг | ** | Глутаминова киселина | 364 мг | ** | Глицин | 56 мг | ** | Глутамин | 139 мг | ** | Хистидин | 58 мг | ** | Изолевцин | 185 мг | ** | Левцин | 325 мг | ** | Лизин | 269 мг | ** | Метионин | 62 мг | ** | Фенилаланин | 101 мг | ** | Пролин | 166 мг | ** | Серин | 140 мг | ** | Треонин | 191 мг | ** | Триптофан | 49 мг | ** | Тирозин | 88 мг | ** | Валин | 175 мг | ** | Uni-Pro Blend (суроватъчен протеин изолат, | телешки протеин изолат, екстракт от магарешки бодил и други) | 3270 мг | ** | Карнитин | 25 мг | ** | Холин | 250 мг | ** | Инозитол | 125 мг | ** | ПАБА | 400 мг | ** | Пиридоксин Кетоглутарат | 210 мг | ** | Алфа-липоева киселина | 100 мг | ** | Коензим Q10 | 5 мг | ** | Екстракт от гроздови семена | 50 мг | ** | Лутеин | 1 мг | ** | Ликопен | 1 мг | ** | Екстракт от кора на Крайбрежен бор | 200 мг | ** | Келп | 10 мг | ** | Бромелаин | 100 мг | ** | Инулин | 250 мг | ** | Липаза | 10 мг | ** | Папаин | 64 мг | ** | Протеаза | 64 мг ",
-      "label_image": "https://protein.bg/image/cache/catalog/product/FA_Nutrition/18353/fa_xtreme_beef_protein_isolate_new_large-60x60h.jpg.webp",
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 9.46
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T12:20:31.442871Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 110.0,
-          "price_eur": 56.24,
-          "unit_value": 9.46
-        }
-      ]
-    },
-    {
       "id": "proteinbg-universal-nutrition-animal-whey",
       "store": "ProteinBG",
       "name": "Universal Nutrition Animal Whey",
@@ -134483,42 +132957,6 @@ const SUPPLEMENTS_DATA = {
           "price_bgn": 102.0,
           "price_eur": 52.15,
           "unit_value": 3.78
-        }
-      ]
-    },
-    {
-      "id": "proteinbg-universal-nutrition-animal-juiced-aminos",
-      "store": "ProteinBG",
-      "name": "Universal Nutrition Animal – Juiced Aminos",
-      "brand": "Universal Nutrition",
-      "category": "protein",
-      "url": "https://protein.bg/universal-nutrition-animal-juiced-aminos",
-      "image": "https://protein.bg/image/cache/catalog/proteini/universal/animal-juiced-aminos/universal-nutrition-animal-juiced-aminos-grape-juced-695x1000.jpg.webp",
-      "price_bgn": 70.0,
-      "price_eur": 35.79,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": 375.0,
-      "servings": 30,
-      "count": 90,
-      "active": {
-        "estimated_total_protein_g": 281.2,
-        "estimated_protein_ratio_pct": 75
-      },
-      "label_text": "Състав в 1 доза (12.29гр) | Стойност | %ПДД | Състав в 1 доза (12.29гр) | Стойност | %ПДД | Анаболитна BCAA и ЕАА матрица | Смес от BCAA (левцин, изолевцин, валин) | Лизин | Аргинин | Метионин | Фенилаланин | Треонин | Хистидин | 6000 мг | ** | ** | ** | ** | ** | ** | ** | Ароматизирана смес за ефективност на АА | Л-таурин | Цитрулин малат | Л-глутамин | AgmaPureTM (агматин сулфат) | GlycoCarn® (глицин пропионил Л-карнитин) | AgrinoCarn® (ацетил Л-карнитин аргинат дихлорид) | SustamineTM (Л-аланил Л-глутамин) | 4000 мг | ** | ** | ** | ** | ** | ** | ** / Аминокиселини в свободна форма > Universal Nutrition Animal – Juiced Aminos 6 грама най-вкусните BCAA в доза! Повишена работоспособност! Ускорено възстановяване! Увеличавай ефикасността на тренировките с Animal Juiced Aminos !!! Това са мощни аминокиселини в комплекс с BCAA , които са предназначени за стратегическо увеличаване на силовите тренировки. Какво влиза в съдържанието? Всяка доза аминокиселини е заредена с „основните” аминокиселини с разклонена верига БЦАА , а също и с незаменимите аминокиселини ЕАА. Animal Juiced Aminos може да се използва преди, във времено на и след тренировки, или дори през деня, за да може постоянно да се приемат важните анаболитни нутриенти. Това е стабилен поток на сочни високооктанови амини, който тече по вените Ви, който със сигурност ще Ви помогне в най-трудните битки с щангите... Смисълът от работата и мисията от първия ден на Animal е да снабдява най-усърдно трениращите се атлети в света със средства, необходими за достигането на целите им. Най-новият в дългосрочен план сериозен продукт за бодибилдърите, в който живее едно здраво наследство е Animal Juiced Aminos . Пробвайте този сок! Той е с прекрасен вкус и има призванието да Ви помогне да постигнете целите си в залата и извън н",
-      "label_image": "https://protein.bg/image/cache/catalog/proizvoditeli/universal-70x70.png.webp",
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 6.22
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T12:20:32.748485Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 70.0,
-          "price_eur": 35.79,
-          "unit_value": 6.22
         }
       ]
     },
@@ -134558,222 +132996,6 @@ const SUPPLEMENTS_DATA = {
       ]
     },
     {
-      "id": "proteinbg-universal-nutrition-amino-2700",
-      "store": "ProteinBG",
-      "name": "Universal Nutrition Amino 2700",
-      "brand": "Universal Nutrition",
-      "category": "protein",
-      "url": "https://protein.bg/universal-nutrition-amino-2700",
-      "image": "https://protein.bg/image/cache/catalog/proteini/universal/amino-2700/universal-nutrition-amino-2700-225x225.jpg.webp",
-      "price_bgn": 74.0,
-      "price_eur": 37.84,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": 1977.0,
-      "servings": 2,
-      "count": 120,
-      "active": {
-        "estimated_total_protein_g": 1482.8,
-        "estimated_protein_ratio_pct": 75
-      },
-      "label_text": "Състав: | Стойност за 1 доза: | %ПДД | Калории | 24 | Протеин | 6 g | 12% | Витамин B-6 (Pyridoxine) | 15 mg | 750% | Л-Валин (L-Valine) | 354 mg | Л-Изолевцин (L-Isoleucine) | 378 mg | Л-Левцин (L-Leucine) | 668 mg | Л-Лизин (L-Lysine) | 555 mg | Л-Метионин (L-Methionine) | 129 mg | Л-Треонин (L-Threonine) | 394 mg | Л-Триптофан (L-Tryptophan) | 105 mg | Л-Фенилаланин (L-Phenylalanine) | 209 mg | Л-Хистидин (L-Histidine) | 121 mg | Аспарагинова киселина (L-Aspartic Acid) | 652 mg | Глутаминова киселина (L-Glutamic Acid) | 1,038 mg | Л-Аланин (L-Alanine) | 298 mg | Л-Аргинин (L-Arginine) | 145 mg | Л-Глицин (L-Glycine) | 113 mg | Л-Пролин (L-Proline) | 338 mg | Л-Серин (L-Serine) | 290 mg | Л-Цистеин (L-Cysteine) | 153 mg / Комплексни Аминокиселини > Universal Nutrition Amino 2700 Universal Nutrition е сред най-известните брандове, специализирани в производството на хранителни добавки. От старта на своята дейност през 1977г., марката успява да натрупа богат асортимент от продукти, в доказано качество, което я прави изключително популярна и у нас. Серията добавки за оптимални резултати \"Анимал\" е добре разпознаваема от всички спортуващи , тъй като резултатите са изпробвани и гарантирани. Защо да изберем Universal Animal Amino 2700? Universal Nutrition Animal Amino 2700 e аминокиселина с наистина висока степен на усвояване. Amino 2700 е продукт със силно мускулно изграждащ ефект. Продуктът е допълнително обогатен с L-Ornitine HCL и витамин В6. Protein.bg ви дава достъпна цена и бърза доставка. Прием и дозировка : 1-2 таблетки на ден. Какво представлява Animal Amino 2700 на Universal Nutrition? Amino 2700 на Universal Nutrition е хранителна добавка , в разфасовка от 120 таблетки , с високо съдържание на аминокиселини в Л-форма и пептидни вериги, допълнително обогатени с Ви",
-      "label_image": "https://protein.bg/image/cache/catalog/proizvoditeli/universal-70x70.png.webp",
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 1.25
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T12:20:34.754690Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 74.0,
-          "price_eur": 37.84,
-          "unit_value": 1.25
-        }
-      ]
-    },
-    {
-      "id": "proteinbg-universal-nutrition-fat-burners-easy-to-swallow",
-      "store": "ProteinBG",
-      "name": "Universal Nutrition Fat Burners Easy To Swallow",
-      "brand": "Universal Nutrition",
-      "category": "protein",
-      "url": "https://protein.bg/universal-nutrition-fat-burners-easy-to-swallow",
-      "image": "https://protein.bg/image/cache/catalog/proteini/universal/fat-burners-easy-to-slallow/fat-burners-easy-to-swallow-tablets-universal-nutrition-izgaria-mazninite-380x500.jpg.webp",
-      "price_bgn": 31.0,
-      "price_eur": 15.85,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": 544.2,
-      "servings": null,
-      "count": 60,
-      "active": {
-        "estimated_total_protein_g": 408.2,
-        "estimated_protein_ratio_pct": 75
-      },
-      "label_text": "Състав | Стойност за 1 доза | Желязо | 500 мкг | Хром | 25 мкг | Холин | 544.2 г | Екстракт от Мечо грозде | 200 мг | L-карнитин | 50 мг | Ленено семе на прах | 50 мг | Метионин | 200 мг | Лизин | 100 мг | Инозитол | 500 мг | Бетаин | 200 мг | Соев лецитин | 100 мг / Изгаряне на Мазнини > Universal Nutrition Fat Burners Easy To Swallow Universal Nutrition Fat Burners Easy To Swallow представлява липотропен фетбърнър , съдържащ изцяло натурални съставки, които не стимулират нервната система и не са забранени за използване по време на състезания. Това е изключително добре за всеки атлет, желаещ да подобри своите постижения – ефективно и напълно естествено. Формулата съдържа хром, холин, карнитин, метионин, лизин, инозитол, бетаин, ленено семе на прах, както и екстракт от Мечо грозде. Разликата между термогенните и липотропните фет бърнъри , е че последните дават възможност за горене на мазнини и без тренировки. Разбира се, най-добри и много по-бързи резултати се постигат в комбинация със спортуване. Начинът, по който действат е чрез подобряване на обмяната и използването на мазнините като източник на енергия. Хромът е жизненоважен минерал, който има изключително значение за здравето. Има потенциал да регулира нивата на кръвна захар при диабет, както и холестерола. В спортната суплеменция се радва на особен успех, тъй като потиска апетита и намалява калорийния прием. Действа като естествен антидепресант, подобрява настроението, либидото и укрепва имунната система. Холинът , заедно с инозитола , действат пречистващо върху черния дроб . Тези две субстанции всъщност представляват витамини B4 и B8. Ефективността им се простира върху целия организъм, но за черния дроб ползите са най-големи – регенерират го, подкрепят неговата работа и защитават от увреждане. Холин и инозитол вл",
-      "label_image": "https://protein.bg/image/cache/catalog/proizvoditeli/universal-70x70.png.webp",
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 1.9
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T12:20:36.211041Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 31.0,
-          "price_eur": 15.85,
-          "unit_value": 1.9
-        }
-      ]
-    },
-    {
-      "id": "proteinbg-universal-nutrition-storm",
-      "store": "ProteinBG",
-      "name": "Universal Nutrition Storm",
-      "brand": "Universal Nutrition",
-      "category": "protein",
-      "url": "https://protein.bg/universal-nutrition-storm",
-      "image": "https://protein.bg/image/cache/catalog/proteini/universal/storm/universal-nutrition-storm-800x800.jpg.webp",
-      "price_bgn": 140.0,
-      "price_eur": 71.58,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": 756.0,
-      "servings": 2,
-      "count": null,
-      "active": {
-        "estimated_total_protein_g": 567.0,
-        "estimated_protein_ratio_pct": 75
-      },
-      "label_text": "Състав в 1 доза (1 мер.л. - 10 гр) | Стойност | %ПДД | Калории | 0 | Общо въглехидрати | захари | 0 гр | 0 гр | 0%† | ** | Магнезий | 5 мг | <2% | Hypervol ComplexTM | Креатин монохидрат | Дикреатин малат | Трикреатинова матрица | Магнезиев креатин малат | 5000 мг | ** | ** | ** | ** | iNOXsulin-7TM | Л-таурин | Цитрулин малат | Аргинин | Бета-аланин | Алфа-липоева киселина | 4-хидроксиизолевцин (20%) | 3750 мг | ** | ** | ** | ** | ** | ** / Креатинови добавки > Universal Nutrition Storm Работата над създаването на продукт, който ви увеличил производителността в тренировъчната зала, а също и би уголемил в пъти мускулатурата на тялото на атлетите, довела компанията Universal Nutrition до нова креатиносъдържаща формула – Storm . Това е пълна и иновативна смес, която се състои от магнезий креатин хелат, креатин монохидрат, дикреатин малат и трикомпонентна матрица, включваща креатин глюконат, креатин алфа-кетоглутарат и креатин оротат, а също и собствена транспортна система, която заслужава да и бъде обърнато специално внимание. Креатин монохидратът е научно доказана форма на креатин, която е потвърдена с клинични опити, насочена към ефективното увеличаване на силите и размера на мускулните клетки. Но тази форма има редица недостатъци за някои спортисти, които влизат в групата на невъзприемчивите към действието на това вещество и които нямат никаква изгода от употребата му. Освен това, някои хора, които приемат креатин монохидрат, изпитват дискомфорт в стомашно-чревния тракт, предизвикан от подуването му. Плюс това в много хранителни добавки с креатин монохидрат, като транспортна система се използва захар, чийто допълнителен прием повечето хора се опитват да избягват, камо ли спортистите. Хората, разработили Storm са отчели всички недостатъци, свързани с въпроса за усвоява",
-      "label_image": "https://protein.bg/image/cache/catalog/product/Dorian_Yates_Nutrition/38256/TEMPRO_2270g_VANILLA-ICE-CREAM-5cb9daa-200x250-60x60h.jpg.webp",
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 6.17
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T12:20:43.495721Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 140.0,
-          "price_eur": 71.58,
-          "unit_value": 6.17
-        }
-      ]
-    },
-    {
-      "id": "proteinbg-universal-nutrition-shock-therapy",
-      "store": "ProteinBG",
-      "name": "Universal Nutrition Shock Therapy",
-      "brand": "Universal Nutrition",
-      "category": "protein",
-      "url": "https://protein.bg/universal-nutrition-shock-therapy",
-      "image": "https://protein.bg/image/cache/catalog/proteini/universal/shock-therapy/universal-nutrition-shock-therapy-800x800.jpg.webp",
-      "price_bgn": 95.0,
-      "price_eur": 48.57,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": 840.0,
-      "servings": 42,
-      "count": 10,
-      "active": {
-        "estimated_total_protein_g": 630.0,
-        "estimated_protein_ratio_pct": 75
-      },
-      "label_text": "Състав в 1 доза (20 гр) | Стойност | %ПДД | Състав в 1 доза (20 гр) | Стойност | %ПДД | Калории | 20 | SustamineTM | ** | Общо въглехирати | 5 гр | 2%† | Ацетил Л-карнитин | ** | Захар | 0 гр | ** | Energtropic & Antioxidant Complex | 1200 мг | Ниацин | 10 мг | 50% | Л-тирозин | ** | Витамин B6 | 10 мг | 500% | Холин битартрат | ** | Витамин В12 | 10 мкг | 167% | Безводен кофеин | ** | Калций | 25 мг | 3% | Гуарана семена | ** | Магнезий | 25 мг | 6% | Йерба мате лист | ** | Натрий | 120 мг | 5%† | Кола ядки на прах | ** | Калий | 60 мг | 2% | Екстракт от зелен чай | ** | Shok Therapy® патентована формула | Екстракт от гроздови семена | ** | NO Super Pump Volumizing Complex | 5000 мг | Л-цистеин | ** | Креатин комплекс | ** | R-алфа-липоева киселина | ** | Аргинин Матрикс | ** | НАД (никотинамида аденин динуклеотид) | ** | Цитрулин малат | ** | Electrolyte & Delivery Complex | 5265 мг | GlycoCarn® | ** | Shok Therapy® въглехидратна смес | ** | Екстракт от борова кора | ** | Натриев бикарбонат | ** | Глюкоронолактон | ** | Калиев фосфат | ** | Muscle Strenght Blend | 5500 мг | Тринатриев фосфат | ** | BCAA комплекс | ** | Калциев карбонат | ** | CarnoSyn® бета аланин | ** | Магнезиев оксид | ** / Енергийни Продукти > Universal Nutrition Shock Therapy Shock Therapy е мощен, универсален предтренировъчен комплекс, който ще Ви помогне да се избавите от скучните тренировки, за които не намирате сили и мотивация. В състава на вкусната не съдържаща захар формула влизат патентовани тествани компоненти, енергетична основа, нов комплекс на креатин и антиоксиданти, а също и вещества, които подобряват съсредоточеността и увеличават обема на клетките. Shock Therapy е отлична предтренировъчна смес от Universal Nutrition . Тя ще Ви предостави много енергия и мотивация за тежка и резулт",
-      "label_image": "https://protein.bg/image/cache/catalog/proizvoditeli/universal-70x70.png.webp",
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 3.77
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T12:20:43.730534Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 95.0,
-          "price_eur": 48.57,
-          "unit_value": 3.77
-        }
-      ]
-    },
-    {
-      "id": "proteinbg-all-american-efx-kre-alkalyn-hardcore",
-      "store": "ProteinBG",
-      "name": "All American EFX Kre-Alkalyn Hardcore",
-      "brand": "All American EFX",
-      "category": "protein",
-      "url": "https://protein.bg/all-american-efx-kre-alkalyn-hardcore",
-      "image": "https://protein.bg/image/cache/catalog/proteini/all-american/kre-alkalyn-hardcore/kre-alkalyn-hardcore-capsules-all-american-efx-uvelichava-silata-510x600.png.webp",
-      "price_bgn": 88.2,
-      "price_eur": 45.1,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": 390.0,
-      "servings": null,
-      "count": 60,
-      "active": {
-        "estimated_total_protein_g": 292.5,
-        "estimated_protein_ratio_pct": 75
-      },
-      "label_text": "Състав | Хранителна стойност за 3 капсули: | Кре-Алкалин (буфериран креатин монохидрат) | 2000 мг | Кофеин | 180 мг | Екстракт от зелено кафе (84 мг кофеин) | 120 мг | Теобромин | 100 мг | Теофилин | 25 мг | Малинови кетони | 25 мг / Креатинови добавки > All American EFX Kre-Alkalyn Hardcore All American EFX Kre-Alkalyn Hardcore е креатинова добавка, специално насочена към сериозните и тежко трениращите атлети. Формулата съдържа стабилизирана форма на креатина, която позволява пълноценно усвояване без страничните ефекти. Последните често се изразяват във водна задръжка и подпухване. Освен креатин, добавката съдържа кофеин, екстракт от зелено кафе, теобромин, теофилин и малинови кетони. Креатинът е изключително популярен в спортните среди, тъй като има съвсем реални възможности да подобри резултатите от усилията в залата. Основното действие на креатина е, че участва във възстановяване на енергийните нива. Включва се в ресинтеза на АТФ и така увеличава енергията, силата и издръжливостта по време на натоварване. Съкращава времето за възстановяване и редуцира мускулната треска. Употребата на креатин е много ползотворна при начинаещи спортисти, тъй като увеличава издръжливостта и силата, съответно работните тежести и продължителността на тренировката се повишават. Това действа силно мотивиращо и създава чувство за удовлетворение. Освен това, стимулира мускулния растеж и подобрява когнитивните способности. Въпреки всички тези предимства, креатинът има и някои недостатъци. За да бъдат премахнати или поне намалени, производителите на спортни добавки непрекъснато изследват и разработват нови разновидности. Една не толкова нова, но много ефективна форма на креатина е кре-алкалинът. Кре-алкалинът представлява буфериран креатин , което означава, че е повишена неговата устойчивост н",
-      "label_image": "https://protein.bg/image/cache/catalog/product/Dorian_Yates_Nutrition/42724/CreatineMonohydrate-Unflavoured-Bulgaria-600ml-300mg-smallbottle_06-eb5fa32-200x250-60x60h.jpg.webp",
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 7.54
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T12:20:58.623743Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 88.2,
-          "price_eur": 45.1,
-          "unit_value": 7.54
-        }
-      ]
-    },
-    {
-      "id": "proteinbg-all-american-efx-kre-alkalyn",
-      "store": "ProteinBG",
-      "name": "All American EFX Kre-Alkalyn",
-      "brand": "All American EFX",
-      "category": "protein",
-      "url": "https://protein.bg/all-american-efx-kre-alkalyn",
-      "image": "https://protein.bg/image/cache/catalog/proteini/all-american/kre-alkalyn-efx/kre-alkalyn-efx-capsules-all-american-uvelichava-energiata-510x600.png.webp",
-      "price_bgn": 75.0,
-      "price_eur": 38.35,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": 390.0,
-      "servings": null,
-      "count": 60,
-      "active": {
-        "estimated_total_protein_g": 292.5,
-        "estimated_protein_ratio_pct": 75
-      },
-      "label_text": "Състав | Стойност за 2 капсули | Кре Алкалин (буфериран креатин монохидрат) | 1500 мг** / Креатинови добавки > All American EFX Kre-Alkalyn All American EFX Kre-Alkalyn е спортна добавка, която може да се включи перфектно в ежедневната суплеменция на всеки активен човек. Креатинът е сред най-ценените в спортните среди продукти. Причината е, че резултатите са бързи, стабилни и много харесвани – увеличаване на силата и издръжливостта, ускорено възстановяване и стимул за качване на мускулна маса. Формулата на добавката съдържа буфериран креатин монохидрат, един от най-ефективните видове креатин , които се предлагат на пазара. Креатинът е отличен избор както за тежко трениращи атлети, така и начинаещи спортисти. Оказва силен мотивиращ ефект, с което поддържа желанието за тренировки. Механизмът, по който действа е чрез увеличаване нивата на креатин в тялото. Той служи за възстановяване на енергийните нива (участва в синтеза на аденозин трифосфат - АТФ). Това пък увеличава издръжливостта и съответно работните тежести. Креатинът възстановява по-бързо тялото след тренировка, а това скъсява времето за регенериране на мускулите. Резултатът е изключително качествено и бързо качване на мускулна маса. Ефектите от тренировката се забелязват бързо и именно там се крие мотивиращият ефект на креатина . Кре-алкалин е буферирана форма на креатин монохидрата. Предлага подобрено усвояване, отличен стомашен комфорт и високи резултати. Всяка доза от All American EFX Kre-Alkalyn съдържа 1500 мг kre-alkalyn . Креатинът е подходящ избор при режим за качване на мускулна маса. Освен да повишава силата и издръжливостта, с което се влияе върху работните тежести, креатинът подобрява хидратацията вътре в клетката, а това е изключително важно за синтеза на протеин . Освен за визията, креатинът подобряв",
-      "label_image": "https://protein.bg/image/cache/catalog/product/Dorian_Yates_Nutrition/42724/CreatineMonohydrate-Unflavoured-Bulgaria-600ml-300mg-smallbottle_06-eb5fa32-200x250-60x60h.jpg.webp",
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 6.41
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T12:20:58.661001Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 75.0,
-          "price_eur": 38.35,
-          "unit_value": 6.41
-        }
-      ]
-    },
-    {
       "id": "proteinbg-dymatize-iso-100-2-lbs",
       "store": "ProteinBG",
       "name": "Dymatize ISO 100 2 lbs",
@@ -134805,114 +133027,6 @@ const SUPPLEMENTS_DATA = {
           "price_bgn": 125.0,
           "price_eur": 63.91,
           "unit_value": 4.07
-        }
-      ]
-    },
-    {
-      "id": "proteinbg-doctor-s-best-coq10-with-bioperine-200-mg",
-      "store": "ProteinBG",
-      "name": "Doctor's Best CoQ10 with BioPerine 200 mg",
-      "brand": "Doctor's Best",
-      "category": "protein",
-      "url": "https://protein.bg/doctors-best-coq10-with-bioperine-200mg-kapsuli",
-      "image": "https://protein.bg/image/cache/catalog/proteini/doctors-best/coq10-with-bioperine-200mg-kapsuli/doctors-best-coq10-with-bioperine-200mg-kapsuli-cena-1600x1600.jpg.webp",
-      "price_bgn": 69.9,
-      "price_eur": 35.74,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": 1957.0,
-      "servings": null,
-      "count": 60,
-      "active": {
-        "estimated_total_protein_g": 1467.8,
-        "estimated_protein_ratio_pct": 75
-      },
-      "label_text": "Състав: | Стойност за 1 доза: | %ПДД | Коензим Q10 | 200 мг | † | Екстракт от плод на черен пипер (BioPerine®) | 5 мг | † / Здравословни добавки > Doctor s Best CoQ10 with BioPerine 200 mg Предлагаме ви продукт, който в качеството си на универсална клетъчна храна може да въздейства върху причините предизвикващи здравословни проблеми. Той съчетава действието на две уникални съставки – коензим Q10 и Биоперин . CoQ10 with BioPerine 200 mg е много полезен суплемент, който ще ви помогне ако страдате от липса на енергия и тонус. Ще осигури възможност на активно занимаващите се със спорт хора да подобрят резултатите си във фитнеса и извън него, както и за доброто им здраве. Ще окаже невероятен ефект върху енергийните нива, издръжливостта, имунната система и функционалността на организма като цяло. Отличното качество и високата ефективност на CoQ10 with BioPerine 200 mg са гаранция на марката Doctor's Best, а ние ви го предлагаме на страхотно добра цена . Защо да изберем Doctor's Best CoQ10 with BioPerine 200 mg? Поддържа здравето и младостта на вашите клетки Има мощно антиоксидантно действие Осигурява клетъчната енергия Забавя процеса на стареене Подпомага сърдечната функция Засилва имунната защита Повишава тонуса Без ГМО и глутен Protein.bg ви дава супер цена и бърза доставка Какво представляват капсулите CoQ10 with BioPerine 200 mg на Doctor's Best? CoQ10 with BioPerine 200 mg е антиоксидант стимулиращ имунната защита, на производителя Doctor's Best и снабдява организма с коензима Q10 и Биоперин . Коензим Q10 е с универсално антиоксидантно действие и има пряка роля в синтеза на АТФ. Помага на клетките в усвояването на кислорода, от който над шестдесет процента тялото насочва за производството на АТФ. Аденозин трифосфат от своя страна е доставчик на енергия, която позволява н",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 1.19
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T12:21:25.417387Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 69.9,
-          "price_eur": 35.74,
-          "unit_value": 1.19
-        }
-      ]
-    },
-    {
-      "id": "proteinbg-doctor-s-best-best-pqq",
-      "store": "ProteinBG",
-      "name": "Doctor's Best Best PQQ",
-      "brand": "Doctor's Best",
-      "category": "protein",
-      "url": "https://protein.bg/doctors-best-best-pqq-kapsuli",
-      "image": "https://protein.bg/image/cache/catalog/proteini/doctors-best/best-pqq-30-kapsuli/doctors-best-best-pqq-30-kapsuli-cena-1600x1600.jpg.webp",
-      "price_bgn": 85.0,
-      "price_eur": 43.46,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": 2010.0,
-      "servings": null,
-      "count": 30,
-      "active": {
-        "estimated_total_protein_g": 1507.5,
-        "estimated_protein_ratio_pct": 75
-      },
-      "label_text": "Състав: | Стойност за 1 доза: | %ПДД | PQQ (пиролохинолин хинон) | (Като динатриева сол на PQQ) | 20 мг | † / Здравословни добавки > Doctor s Best Best PQQ За всяка програма против стареене, основните приоритети са здравословното хранене и физическото натоварване. Но съществуват и други инструменти. Природата ни ги представя под формата на антиоксиданти, които помагат в борбата със стареенето и дори обръщат този процес. Една от основните причини за стареенето е оксидативният стрес на митохондриите. Те са генератори на клетъчната енергия. Произвеждат АТФ (аденозин трифосфат), енергиен източник за всички биохимични процеси, осигуряващ най-малко 95% от енергията на клетките. В органите, активно консумиращи енергия, като сърцето и мозъка, има голяма концентрация на митохондрии. До неотдавна производството им в организма се е стимулирало чрез ограничаване приема на калории и интензивна физическа активност. Но и двата начина са твърде строги и непрактични за повечето възрастни хора. Коензим PQQ от Doctor's Best осигурява практична алтернатива за преустановяване на тяхната загубата, която е основната причина за преждевременно стареене и дегенеративните заболявания. Best PQQ инициира създаването на нови митохондрии и е на чудесна цена. Защо да изберем Doctor's Best Best PQQ? За по-дълъг живот Поддържа биогенезата на митохондриите Изключително ефективен антиоксидант Насърчава митохондиалното производство на енергия Има невропротективно действие Увеличава издръжливостта на тялото Укрепва имунната система Подкрепя сърдечното и мозъчно здраве Не съдържа ГМО и глутен Всяка капсула Best PQQ доставя 20 mg PQQ (пиролохинолин хинон) Protein.bg ви дава достъпна цена и бърза доставка Какво представляват капсулите Best PQQ на Doctor's Best? Best PQQ е антиоксидант на марката Doctor's Best ",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 1.41
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T12:21:29.160069Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 85.0,
-          "price_eur": 43.46,
-          "unit_value": 1.41
-        }
-      ]
-    },
-    {
-      "id": "proteinbg-куркума-екстракт-от-черен-пипер-60-веге-капсули",
-      "store": "ProteinBG",
-      "name": "Куркума + Екстракт от Черен Пипер 60 Веге Капсули",
-      "brand": "21st Century Health Care USA",
-      "category": "protein",
-      "url": "https://protein.bg/21st-century-turmeric-black-pepper",
-      "image": "https://protein.bg/image/cache/catalog/products/21-st-century-vitamins/turmeric-plus-black-pepper-extract/Turmeric_Complex_Plus_BioPerine-600x315w.png.webp",
-      "price_bgn": 40.49,
-      "price_eur": 20.7,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": 2018.0,
-      "servings": null,
-      "count": 60,
-      "active": {
-        "estimated_total_protein_g": 1513.5,
-        "estimated_protein_ratio_pct": 75
-      },
-      "label_text": "Състав в 1 доза (1 веге капсула) | Стойност | %ПДД | Смес от куркума, (Curcuma longa) (прах от корен от куркума и стандартизиран екстракт от куркума) | 500 мг | ** | BioPerine® екстракт от черен пипер (Piper nigrum) (плодове) | 5 мг | ** / Стави, кости и сухожилия > Куркума + Екстракт от Черен Пипер 60 Веге Капсули Turmeric Plus Black Pepper Extract 60 веге капсули | 21st Century Подкрепа за Вашето здраве и имунна система Мощен антиоксидант Облекчава стомашните проблеми Грижи се за здравето на ставите, намалява тяхната болка Съдейства за свалянето на излишни килограми Куркума + Екстракт от Черен Пипер на капсули е на топ цена от 21st Century Какво знаем за Куркума + Екстракт от Черен Пипер? Куркумата e златна подправка. Растението може да бъде намерено в Азия и Централна Америка. То придава на кърито жълтия му цвят и се използва в традиционната индийска медицина от хиляди години за предотвратяване и облекчаване на различни здравословни състояния. Проучванията подкрепят употребата на куркумата и показват, че тя може да бъде от полза за Вашето здраве. Комбинацията от куркума с черен пипер може да засили ефектите на тази необикновена подправка. Куркума + Екстракт от Черен Пипер на топ цена се грижи за здравето на ставите , като намалява появила се болка. Ключовите съединения в куркумата се наричат ​​куркуминоиди. Самият куркумин е най-активната и важна съставка. Като полифенол, куркуминът притежава множество предимства за здравето. Това е силен антиоксидант, който притежава противовъзпалителни, антибактериални и противогъбични свойства. Недостатък на куркумина е, че той не се абсорбира добре в тялото самостоятелно. Това става с помощта и добавянето на черен пипер. Turmeric Plus Black Pepper Extract 60 веге капсули на невероятна цена от 21st Century е напълно естeствен прод",
-      "label_image": "https://protein.bg/image/cache/catalog/proteini/battery-nutrition/glucosamine/battery-glucosamine-predstavlqva-glucosamin-sulfat-pod-formata-na-kapsuli-60x60h.jpg.webp",
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 0.67
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T12:22:11.897795Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 40.49,
-          "price_eur": 20.7,
-          "unit_value": 0.67
         }
       ]
     },
@@ -135273,42 +133387,6 @@ const SUPPLEMENTS_DATA = {
           "price_bgn": 132.95,
           "price_eur": 67.98,
           "unit_value": 2.61
-        }
-      ]
-    },
-    {
-      "id": "proteinbg-bad-ass-amino-450-грама",
-      "store": "ProteinBG",
-      "name": "BAD ASS Amino 450 грама",
-      "brand": "BAD ASS",
-      "category": "protein",
-      "url": "https://protein.bg/bad-ass-amino-450-grama",
-      "image": "https://protein.bg/image/cache/catalog/product/BAD_ASS/22867/bad-ass-amino-450-g-8dc0ef2-original-a2a4ae2-200x250-600x315w.jpg.webp",
-      "price_bgn": 52.95,
-      "price_eur": 27.07,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": 450.0,
-      "servings": 90,
-      "count": null,
-      "active": {
-        "estimated_total_protein_g": 337.5,
-        "estimated_protein_ratio_pct": 75
-      },
-      "label_text": "BAD ASS Amino 450 грама Открийте Истинската Сила на BAD ASS Amino с 450 г за Неповторимо Възстановяване и Мускулно Изграждане! Здравейте, спортуващи приятели! Като ваш личен фитнес инструктор, онлайн консултант в Protein.bg и специалист с медицинско образование, отлично разбирам колко е важно след всяка изтощителна тренировка вашето тяло да се снабди с необходимите аминокиселини. Ето защо смея да заявя, че с BAD ASS AMINO откривате формулата, която ще преобрази начина, по който се възстановявате и изграждате мускули! Потопете се в Света на Аминокиселините BAD ASS Amino не е просто добавка - това е вашето секретно оръжие в постигането на феноменални резултати. С 25 г аминокиселини във всяка доза, формулата е мощен концентрат, който осигурява на организма всичко необходимо за скоростно възстановяване и растеж на мускулните влакна. Най-Важните 5 Бенефита на BAD ASS AMINO Изключително Бързо Възстановяване: Освен че позволява на мускулите ви да се възстановят максимално бързо, формулата ускорява възстановяването, за да можете да тренирате още по-трудно и ефективно следващия ден. Богато Съдържание на БЦАА: Всяка доза съдържа 5 грама разклонени верижни аминокиселини (БЦАА), които са критично важни за насърчаване на мускулния анаболизъм и предотвратяване на катаболизъм. Енергия и Издръжливост: Със 5 грама бета-аланин, BAD ASS AMINO помага да увеличите вашата мускулна издръжливост, като намалява мускулната умора и ви позволява да упражнявате по-висока интензивност за по-дълго време. Без Аспартам: Тази формула е създадена така, че да не съдържа аспартам, уверявайки ви в по-здравословен прием без риска от потенциални нежелани ефекти, асоциирани с този подсладител. Удобство в Приема: Пудрата форма на BAD ASS Amino осигурява лекота и удобство при приемане, както и бързо усвояване в ",
-      "label_image": "https://protein.bg/image/cache/catalog/product/Dorian_Yates_Nutrition/40146/eaa_mint_a_600x-9c59bb0-200x250-60x60h.jpg.webp",
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 3.92
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T12:23:00.013895Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 52.95,
-          "price_eur": 27.07,
-          "unit_value": 3.92
         }
       ]
     },
@@ -135754,17 +133832,17 @@ const SUPPLEMENTS_DATA = {
       "price_eur": 1.51,
       "currency_source": "BGN",
       "availability_status": "in_stock",
-      "weight_grams": 900.0,
+      "weight_grams": 30.0,
       "servings": null,
       "count": 1,
       "active": {
-        "estimated_total_protein_g": 675.0,
+        "estimated_total_protein_g": 22.5,
         "estimated_protein_ratio_pct": 75
       },
       "label_text": "Суроватъчен протеин концентрат > BAD ASS / Whey / Premium Protein - Sample Открийте новата сила с BAD ASS Whey - Напреднал Суроватъчен Протеин! Като фитнес инструктор и представител на онлайн магазин за фитнес добавки с медицинско образование, знам, че всяка подробност има значение, когато става въпрос за изграждането на здравословно и атлетично тяло. Затова с гордост представям Bad Ass WHEY - премиум клас суроватъчен протеин концентрат, предназначен за истински бойци, които търсят качество и ефикасност в едно! Изключителен Източник на Протеин Когато тренирате усилено, вашата мускулатура има спешна нужда от качествен протеин за възстановяване и растеж. С 23 грама протеин на доза, Bad Ass WHEY осигурява идеалната подкрепа за вашите мускули, като спомага за тяхното бързо възстановяване и растеж. Богат на Аминокиселини Ключовите аминокиселини БЦАА и глутамин са задължителни за оптимално мускулно възстановяване. С 5.6 грама БЦАА и 3.4 грама глутамин на доза, Bad Ass Whey стимулира синтеза на протеини в тялото за максимални резултати от всяка ваша тренировка. Изключителни Вкусове Вашето протеиново пътешествие трябва да бъде и вълнуващо преживяване за сетивата. Затова предлагаме 10 неустоими вкуса , които ще удовлетворят всяко предпочитание и ще направят консумацията на протеин вкусно удоволствие. Лесна Разтворимост Благодарение на съвременните технологии, Bad Ass WHEY се отличава с перфектна разтворимост , позволяваща лесното приготвяне на протеиновата ви шейка без нежелани грудки или остатъци. Подкрепа за Имунната Система Повече от просто протеин, Bad Ass Whey съдържа лактоферин и гликомакро пептиди, които подкрепят имунната система и спомагат за анаболните функции на тялото, правейки тази добавка истински защитник на вашето здраве. За да гарантираме, че получавате само най",
       "label_image": "https://protein.bg/image/cache/catalog/product/Dorian_Yates_Nutrition/38363/renew_-_whey_protein_concentrate_-_left_1000x1000-db5ae0a-200x250-60x60h.jpg.webp",
       "price_per_active_unit": {
-        "bgn_per_25g_protein": 0.11
+        "bgn_per_25g_protein": 3.28
       },
       "unit_label": "лв / 25 g протеин",
       "confidence": "low",
@@ -135790,17 +133868,17 @@ const SUPPLEMENTS_DATA = {
       "price_eur": 2.02,
       "currency_source": "BGN",
       "availability_status": "in_stock",
-      "weight_grams": 900.0,
+      "weight_grams": 30.0,
       "servings": null,
       "count": 1,
       "active": {
-        "estimated_total_protein_g": 765.0,
+        "estimated_total_protein_g": 25.5,
         "estimated_protein_ratio_pct": 85
       },
       "label_text": "Суроватъчен изолат > BAD ASS / Zero / Premium Isolate - Sample Открийте мощта на Bad Ass ZERO: Ултимативната формула за Вашата сила и възстановяване Като фитнес инструктор с медицинско образование и представител на онлайн магазин за фитнес добавки, разбирам колко е важно правилното хранене и подходящите добавки за вашите спортни цели. Bad Ass ZERO е повече от протеинова порция - той е ключът към оптималното възстановяване и максималната издръжливост на вашето тяло. 5 основни причини да изберете Bad Ass ZERO Чист протеин: Всеки пакетче съдържа 25 грама висококачествен суроватъчен протеин изолат, без лактоза, захар и други добавки, гарантирайки вашето чисто мускулно изграждане. Бързо усвояване: Благодарение на своите фини молекулярни свойства, протеинът в Bad Ass ZERO се абсорбира светкавично, спомагайки за незабавното възстановяване след тренировка. Аминокиселинен профил: Обогатен с необходимите аминокиселини, този протеин ще подпомогне възстановяването и растежа на мускулите ви. Диетичен избор: Без съдържание на лактоза и с нулеви добавени захари, Bad Ass ZERO е идеален за тези, стремящи се към намаляване на телесните мазнини. Имунна поддръжка: Подкрепа за имунната система чрез поддържането на оптимално ниво на белтъци в организма, важно за защитния отговор на тялото. Ефективността на протеина: Науката зад Bad Ass ZERO Bad Ass ZERO изпреварва много други протеинови добавки по своята ефективност. Събира в себе си всичко, което вашето тяло има нужда след тренировка. Коефициентът на протеиновата ефективност, който се измерва по способността на протеина да се разгражда и усвоява, показва, че изолатът има висока стойност и е благоприятен за мускулен ремонт и растеж. Вкус и лесна употреба за вашето забързано ежедневие Bad Ass ZERO не само предлага отлични резултати, но и стра",
       "label_image": "https://protein.bg/image/cache/catalog/product/Dorian_Yates_Nutrition/38365/renew_-_whey_protein_isolate_-_light_1000x1000-9ba397c-200x250-60x60h.jpg.webp",
       "price_per_active_unit": {
-        "bgn_per_25g_protein": 0.13
+        "bgn_per_25g_protein": 3.87
       },
       "unit_label": "лв / 25 g протеин",
       "confidence": "low",
@@ -136330,17 +134408,17 @@ const SUPPLEMENTS_DATA = {
       "price_eur": 1.79,
       "currency_source": "BGN",
       "availability_status": "in_stock",
-      "weight_grams": 900.0,
+      "weight_grams": 30.0,
       "servings": null,
       "count": 1,
       "active": {
-        "estimated_total_protein_g": 765.0,
+        "estimated_total_protein_g": 25.5,
         "estimated_protein_ratio_pct": 85
       },
       "label_text": "Суроватъчен изолат > ShadoWhey Isolate / 100 Whey Protein Открийте силата на чистия протеин с Dorian Yates Nutrition ShadoWhey Isolate Когато искате максимални резултати от вашата тренировка, всяка лъжичка протеин трябва да работи за вас с пълните си сили. Откройте Shadowhey Isolate - формулата, създадена от легендарния бодибилдър Дориан Йейтс, която ви предоставя само чистия, най-висококачествен суроватъчен протеинов изолат. Вземете тази мощна доза от 26 грама протеин във всяка порция и почувствайте разликата във вашето възстановяване и растеж на мускулите. Пет главни причини да изберете Shadowhey Isolate за вашите протеинови нужди: 1. Максимална бионаличност - Използването на кръстосан поток от филтрация гарантира, че протеинът в Shadowhey Isolate се усвоява бързо и ефикасно от вашето тяло, което е критично след интензивни тренировки. 2. Идеален за мускулен растеж и възстановяване - След като сте изтощили мускулните си влакна с тежък тренинг, Shadowhey Isolate бързо осигурява необходимите аминокиселини за репарация и растеж. 3. Без захар и мазнини - Поддържане на чист и тонизиран физик е по-лесно, когато вашите протеинови разтвори са свободни от ненужни захари и мазнини. 4. Висока концентрация на BCAA и глутамин - Браншовете верижни аминокиселини и глутаминът са съществени за анаболния отговор на тялото и подпомагат имунната система. 5. Лесно смесване и перфектно усвояване - Прахът се смесва без усилие с вода или мляко, предоставяйки ви гладък и вкусен шейк без бучки или остатъци. По-добри резултати с всеки шейк Като инструктор по фитнес и представител на онлайн магазин за спортно хранене с медицинско образование, разбирам връзката между съставките в протеините и това, как те действат върху вашето тяло. Shadowhey Isolate е проектиран да предостави на тялото ви най-чис",
       "label_image": "https://protein.bg/image/cache/catalog/product/Dorian_Yates_Nutrition/38365/renew_-_whey_protein_isolate_-_light_1000x1000-9ba397c-200x250-60x60h.jpg.webp",
       "price_per_active_unit": {
-        "bgn_per_25g_protein": 0.11
+        "bgn_per_25g_protein": 3.43
       },
       "unit_label": "лв / 25 g протеин",
       "confidence": "low",

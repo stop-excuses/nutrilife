@@ -1554,6 +1554,15 @@ def is_relevant_product(category: str, name: str, url: str) -> bool:
     if category == "protein":
         if any(bad in haystack for bad in ("protein bar", "protein chips", "protein cookie", "протеинов бар", "чипс")):
             return False
+        # Exclude body care / cosmetic products that mention protein (silk protein, keratin, etc.)
+        if re.search(r"душ.гел|гел.за.тяло|лосион.за.тяло|крем.за.тяло|body.lotion|shower.gel|body.wash|шампоан|shampoo|козметик|масло.за.тяло", haystack, re.I):
+            return False
+        # Exclude caffeine and standalone stimulant products
+        if re.search(r"\bcaffeine\b|\bcafeine\b|кофеин(?!\w)", haystack, re.I) and not re.search(r"whey|протеин|protein|isolate", haystack, re.I):
+            return False
+        # Exclude maca, herbs, and adaptogens that are not protein supplements
+        if re.search(r"\bmaca\b|\bginseng\b|\bashwagandha\b|\btribulus\b|\bfenugreek\b", haystack, re.I) and not re.search(r"whey|isolate|суроват", haystack, re.I):
+            return False
         # Exclude sports accessories and equipment
         if re.search(r"ръкохватка|grip.trainer|exercise.equipment|resistance.band|training.band|foam.roller|yoga|нарукавник|бинт|\bwrap\b|\bband\b|\bgloves\b|\bracks?\b|дъмбел|барбел|barbell|dumbbell", haystack, re.I):
             return False
@@ -1582,6 +1591,9 @@ def is_relevant_product(category: str, name: str, url: str) -> bool:
         # Exclude medical/clinical nutrition and breastfeeding products
         if re.search(r"кърмене|след.раждане|fresubin|diben.drink|диабетик|диабетиц|pregnaco", haystack, re.I):
             return False
+        # Exclude food products: granola, muesli, protein spreads/creams, pancake mixes
+        if re.search(r"\bgranola\b|гранола|\bмюсли\b|мюесли|creametto|protein.spread|protein.pancake|pancake.mix", haystack, re.I):
+            return False
         # Exclude oatmeal and instant oats
         if re.search(r"инстант.овесени|instant.овесени|овесени.ядки", haystack, re.I):
             return False
@@ -1592,7 +1604,7 @@ def is_relevant_product(category: str, name: str, url: str) -> bool:
             return False
         if re.search(r"напитка.{0,30}(мл|литър|л\b)", haystack, re.I):
             return False
-        return bool(re.search(r"\bwhey\b|\bprotein\b|суроват|протеин|isolate|изолат", haystack, re.I))
+        return bool(re.search(r"\bwhey\b|\bprotein\b|суроват|протеин|isolate|изолат|\bcasein\b|\bказеин\b|egg.white|яйчен.белт", haystack, re.I))
     if category == "l_carnitine":
         if any(bad in haystack for bad in ("acetyl", "ацетил", "cream", "крем", "shampoo")):
             return False

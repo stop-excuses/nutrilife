@@ -90,13 +90,10 @@ const BASE = 'http://127.0.0.1:8000/smart-supplements.html';
     const oldCopy = lowProteinCards.filter(c => /не успяхме автоматично да прочетем/i.test(c.warning));
     step('No old "не успяхме автоматично да прочетем" copy', oldCopy.length === 0, `${oldCopy.length} cards still using old copy`);
 
-    // 4. Confidence filter
-    await page.click('[data-confidence="high"]');
-    await page.waitForTimeout(400);
-    const highOnly = await page.locator('.supplement-confidence').evaluateAll(nodes => nodes.map(n => n.className));
-    step('Confidence filter "high" shows only high', highOnly.every(c => /\bhigh\b/.test(c)), `${highOnly.filter(c => !/\bhigh\b/.test(c)).length} non-high leaked`);
-    await page.click('[data-confidence="all"]');
-    await page.waitForTimeout(300);
+    // 4. Confidence labels on cards (confidence filter buttons were removed; verify via card classes)
+    const confClasses = await page.locator('.supplement-confidence').evaluateAll(nodes => nodes.map(n => n.className));
+    const hasHighClass = confClasses.some(c => /\bhigh\b/.test(c));
+    step('Confidence CSS classes present on cards', confClasses.length > 0 && (hasHighClass || confClasses.some(c => /\blow\b|\bmedium\b/.test(c))), `${confClasses.length} confidence labels`);
 
     // Reset category back to all before broad searches
     await page.click('[data-category="all"]');
