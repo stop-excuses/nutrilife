@@ -141,6 +141,11 @@ SOURCES = (
         tuple(f"https://www.ozone.bg/media/sitemap-products-{i}.xml" for i in range(1, 11)),
         ("ozone.bg", "www.ozone.bg"),
     ),
+    Source(
+        "ProteinBG",
+        tuple(f"https://protein.bg/sitemap-product-{i}.xml" for i in range(1, 15)),
+        ("protein.bg",),
+    ),
 )
 
 
@@ -282,6 +287,11 @@ def is_product_url(source_name: str, decoded_url: str) -> bool:
         return bool(re.search(r"/[^/]+\.html$", decoded_url))
     if source_name == "Ozone":
         return "/product/" in decoded_url
+    if source_name == "ProteinBG":
+        # Product URLs are single-slug at root: protein.bg/product-name
+        # Category pages have extra path segments: protein.bg/sports/proteini/...
+        path = decoded_url.split("protein.bg", 1)[-1].strip("/")
+        return "/" not in path and bool(path)
     return True
 
 
