@@ -1506,6 +1506,11 @@ def is_relevant_product(category: str, name: str, url: str) -> bool:
     if category == "protein":
         if any(bad in haystack for bad in ("protein bar", "protein chips", "protein cookie", "протеинов бар", "чипс")):
             return False
+        # Exclude mass gainers — high-carb, not comparable to protein supplements
+        if re.search(r"гейнър|gainer|gayn|mass.gainer|weight.gainer|масово.покачване", haystack, re.I):
+            return False
+        if re.search(r"\bmass\b", haystack, re.I) and re.search(r"\bgain\b|гейн|въглехидрат|carbo|carb\b", haystack, re.I):
+            return False
         # Exclude ready-to-drink food beverages (soy/oat/almond/rice drinks, packaged juices)
         if re.search(r"(соева|оатмийлк|соево|бадемово|оризово|овесено)\s*(напитка|мляко|drink)", haystack, re.I):
             return False
