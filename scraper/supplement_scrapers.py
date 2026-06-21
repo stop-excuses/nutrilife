@@ -784,8 +784,10 @@ def extract_product_label_image(soup: BeautifulSoup, page_url: str) -> str | Non
     candidates = []
     signals = ("label", "nutrition", "supplement", "facts", "ingredient", "composition", "back", "etiket", "sustav")
     for img in soup.select("img"):
+        def _attr_str(v):
+            return " ".join(v) if isinstance(v, list) else (v or "")
         descriptor = " ".join(
-            img.get(attr, "") for attr in ("src", "data-src", "data-original", "data-zoom-image", "alt", "title", "class")
+            _attr_str(img.get(attr, "")) for attr in ("src", "data-src", "data-original", "data-zoom-image", "alt", "title", "class")
         ).lower()
         if any(signal in descriptor for signal in signals):
             for attr in ("data-zoom-image", "data-large_image", "data-original", "data-src", "src"):
@@ -950,6 +952,12 @@ def apply_label_overrides(url: str, category: str, active: dict, confidence: str
         "https://healthstore.bg/gym-beam-true-whey-2500-g": {
             "category": "protein",
             "active": {"protein_g": 22},
+            "confidence": "high",
+        },
+        # Stayfit product page has no nutrition text; ON bag + official label: 25 g protein / serving.
+        "https://stayfit.bg/product/optimum-nutrition-100-isolate-gold-standard": {
+            "category": "protein",
+            "active": {"protein_g": 25},
             "confidence": "high",
         },
     }
@@ -1627,7 +1635,7 @@ def write_output(
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Scrape supplement price-per-active-dose data.")
-    parser.add_argument("--per-category", type=int, default=8, help="Max candidate URLs per category per source.")
+    parser.add_argument("--per-category", type=int, default=50, help="Max candidate URLs per category per source.")
     parser.add_argument("--source", action="append", help="Limit to source name. Can be repeated.")
     parser.add_argument("--category", action="append", choices=sorted(CATEGORY_KEYWORDS), help="Limit to category. Can be repeated.")
     parser.add_argument("--url", action="append", help="Scrape a direct product URL. Can be repeated.")
