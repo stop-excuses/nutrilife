@@ -726,7 +726,11 @@ def parse_count(text: str) -> int | None:
     for pattern in patterns:
         match = re.search(pattern, text, re.I)
         if match:
-            return parse_int(match.group(1))
+            val = parse_int(match.group(1))
+            # Skip copyright years and implausibly large counts
+            if val and (2020 <= val <= 2030 or val > 500):
+                continue
+            return val
     return None
 
 
@@ -1523,6 +1527,17 @@ def is_relevant_product(category: str, name: str, url: str) -> bool:
             return False
         # Exclude recovery shakes and protein bars not meant as daily protein source
         if re.search(r"recovery.protein.shake|2.1.1.recovery|protein.break.bar", haystack, re.I):
+            return False
+        # Exclude pre-workouts and pump shots
+        if re.search(r"pre.?workout|pump.shot|blood.and.guts|pre.?extreme|ice.pump|shaaboom|animal.fury|\bmypre\b", haystack, re.I):
+            return False
+        # Exclude BCAA, amino acids, glutamine, arginine, beta-alanine — separate categories
+        if re.search(r"\bbcaa\b|branched.chain.amino|amino.acid|amino.9|cryo.beef.amino|myamino|myocell", haystack, re.I):
+            return False
+        if re.search(r"\bglutamin|l-glutamin|\bglutamine\b|\barginin|\bbeta.alan|beta-alan|animal.iso.whey", haystack, re.I):
+            return False
+        # Exclude oatmeal products
+        if re.search(r"oat.meal.with.protein|инстант.овесени|instant.овесени|овесени.ядки", haystack, re.I):
             return False
         # Exclude medical/clinical nutrition and breastfeeding products
         if re.search(r"кърмене|след.раждане|fresubin|diben.drink|диабетик|диабетиц|pregnaco", haystack, re.I):
