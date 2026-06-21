@@ -16,7 +16,9 @@
         fiber: 'Фибри',
         electrolytes: 'Електролити',
         collagen: 'Колаген',
-        iron: 'Желязо'
+        iron: 'Желязо',
+        l_carnitine: 'Л-карнитин',
+        melatonin: 'Мелатонин'
     };
     const confidenceLabels = {
         high: 'реален етикет',

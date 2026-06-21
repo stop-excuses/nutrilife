@@ -18,7 +18,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.parse import unquote, urljoin
+from urllib.parse import unquote, urljoin, urlparse
 
 import requests
 from bs4 import BeautifulSoup
@@ -231,7 +231,10 @@ def discover_urls(source: Source, per_category: int, categories: set[str] | None
                 continue
             if not is_product_url(source.name, decoded):
                 continue
-            category = detect_category(decoded)
+            # Use path-only for category detection so domain names (e.g. "protein.bg") don't
+            # falsely match keyword "protein" and pull in non-supplement products.
+            path_decoded = unquote(urlparse(url).path).lower()
+            category = detect_category(path_decoded)
             if not category or category not in allowed or url in seen or len(discovered[category]) >= per_category:
                 continue
             if any(blocked in decoded for blocked in ("/category/", "/brand/", "/blog/", "/media/")):
@@ -1377,7 +1380,14 @@ def parse_product(source: Source, url: str, forced_category: str | None = None) 
     product = find_product_json(load_json_ld(soup))
     text = normalize_text(soup.get_text(" ", strip=True))
     detail_text = extract_product_detail_text(soup)
-    name = normalize_text(product.get("name") or (soup.title.get_text(" ", strip=True) if soup.title else ""))
+    raw_name = product.get("name") or ""
+    if not raw_name:
+        h1 = soup.select_one("h1")
+        raw_name = h1.get_text(" ", strip=True) if h1 else (soup.title.get_text(" ", strip=True) if soup.title else "")
+        # Strip FHL/pharmacy page-title suffixes: "Name — Brand — цена, прием... | Site.bg"
+        raw_name = re.sub(r"\s*—\s*цена[\w,\s]*\|.*$", "", raw_name, flags=re.I).strip()
+        raw_name = re.sub(r"\s*\|\s*\S+\.bg\s*$", "", raw_name, flags=re.I).strip()
+    name = normalize_text(raw_name)
     if not name:
         return None
     category = forced_category or detect_category(name, url, text)
@@ -1446,21 +1456,25 @@ def parse_product(source: Source, url: str, forced_category: str | None = None) 
 
 
 def is_relevant_product(category: str, name: str, url: str) -> bool:
-    haystack = unquote(f"{name} {url}").lower()
+    # Use path-only from URL so domain keywords (e.g. "protein.bg") don't create false positives
+    path = urlparse(url).path
+    haystack = unquote(f"{name} {path}").lower()
     product_name = unquote(name).lower()
     if "::" in name or any(bad in haystack for bad in ("brow fiber", "microfiber", "cloth", "mascara")):
         return False
-    if category == "fiber" and "fiber" in haystack and not re.search(r"\bpsyllium\b|\bdaily-fiber\b", haystack, re.I):
+    if category == "fiber" and "fiber" in haystack and not re.search(r"\bpsyllium\b|\bdaily-fiber\b|\bfiber\s+\d|\d\s*g\s+fiber", haystack, re.I):
+        return False
+    if category == "fiber" and any(bad in haystack for bad in ("defibr", "дефибр", "electrode", "медицин", "medical device", "подложк")):
         return False
     keywords = CATEGORY_KEYWORDS[category]
     if category == "fiber":
         return bool(re.search(r"\b(psyllium|fiber)\b|псилиум|фибри", haystack, re.I))
     if category == "electrolytes":
-        if any(bad in haystack for bad in ("battery", "акумулатор", "коса", "shampoo")):
+        if any(bad in haystack for bad in ("battery", "акумулатор", "коса", "shampoo", "маска", "mask", "cream", "крем", "serum", "серум", "eye", "face", "facial", "moistur", "тоник", "toner")):
             return False
         if any(bad in haystack for bad in ("carbonated", "drink box", " drink /", "bcaa", "eaa", "amino", "vitargo", "carbo")):
             return False
-        return bool(re.search(r"електролит|electrolytes?|rehydration|hydration|натрий.{0,25}калий|sodium.{0,25}potassium", haystack, re.I))
+        return bool(re.search(r"електролит|electrolytes?|rehydration|натрий.{0,25}калий|sodium.{0,25}potassium", haystack, re.I))
     if category == "collagen":
         if any(bad in haystack for bad in ("collagen cream", "крем", "serum", "серум", "mask", "маска")):
             return False
