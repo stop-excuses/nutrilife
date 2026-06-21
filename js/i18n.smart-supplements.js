@@ -40,6 +40,8 @@
         'ss.cat.electrolytes': 'Електролити',
         'ss.cat.collagen': 'Колаген',
         'ss.cat.iron': 'Желязо',
+        'ss.cat.l_carnitine': 'Л-карнитин',
+        'ss.cat.melatonin': 'Мелатонин',
         'ss.cat.protein': 'Протеин',
         'ss.conf.all': 'Всички',
         'ss.conf.high': 'Ясен етикет',

@@ -50,6 +50,8 @@ CATEGORY_KEYWORDS = {
     "electrolytes": ("електролит", "electrolyte", "electrolytes", "rehydration", "hydration", "натрий калий"),
     "collagen": ("колаген", "collagen", "collagen peptides", "hydrolyzed collagen"),
     "iron": ("желязо", "iron", "ferrous", "ferrum", "iron bisglycinate"),
+    "l_carnitine": ("карнитин", "carnitine", "l-carnitine"),
+    "melatonin": ("мелатонин", "melatonin"),
 }
 
 CATEGORY_UNITS = {
@@ -66,6 +68,8 @@ CATEGORY_UNITS = {
     "electrolytes": {"key": "bgn_per_electrolyte_serving", "label": "лв / доза електролити"},
     "collagen": {"key": "bgn_per_10g_collagen", "label": "лв / 10 g колаген"},
     "iron": {"key": "bgn_per_14mg_iron", "label": "лв / 14 mg желязо"},
+    "l_carnitine": {"key": "bgn_per_1000mg_carnitine", "label": "лв / 1000 mg карнитин"},
+    "melatonin": {"key": "bgn_per_3mg_melatonin", "label": "лв / 3 mg мелатонин"},
 }
 
 
@@ -145,6 +149,11 @@ SOURCES = (
         "ProteinBG",
         tuple(f"https://protein.bg/sitemap-product-{i}.xml" for i in range(1, 15)),
         ("protein.bg",),
+    ),
+    Source(
+        "BodybuildingBG",
+        ("https://bodybuilding.bg/sitemap.xml", "https://bodybuilding.bg/sitemap_index.xml"),
+        ("bodybuilding.bg",),
     ),
 )
 
@@ -292,6 +301,9 @@ def is_product_url(source_name: str, decoded_url: str) -> bool:
         # Category pages have extra path segments: protein.bg/sports/proteini/...
         path = decoded_url.split("protein.bg", 1)[-1].strip("/")
         return "/" not in path and bool(path)
+    if source_name == "BodybuildingBG":
+        path = decoded_url.split("bodybuilding.bg", 1)[-1].strip("/")
+        return bool(path) and "?" not in path and path.count("/") <= 1
     return True
 
 
@@ -952,6 +964,20 @@ def extract_active(category: str, text: str, weight_grams: float | None, serving
             confidence = "high"
         return active, price_units, confidence
 
+    if category == "l_carnitine":
+        mg = extract_named_mg(text, ("карнитин", "carnitine", "l-carnitine"))
+        if mg and 100 <= mg <= 5000:
+            active["carnitine_mg"] = mg
+            confidence = "high"
+        return active, price_units, confidence
+
+    if category == "melatonin":
+        mg = extract_named_mg(text, ("мелатонин", "melatonin"))
+        if mg and 1 <= mg <= 20:
+            active["melatonin_mg"] = mg
+            confidence = "high"
+        return active, price_units, confidence
+
     return active, price_units, confidence
 
 
@@ -1311,6 +1337,18 @@ def calculate_price_units(category: str, price_bgn: float | None, active: dict, 
         multiplier = servings or count
         if per_serving and multiplier:
             units["bgn_per_14mg_iron"] = round(price_bgn / ((per_serving * multiplier) / 14), 2)
+    elif category == "l_carnitine":
+        per_serving = active.get("carnitine_mg")
+        multiplier = servings or count
+        if per_serving and multiplier:
+            units["bgn_per_1000mg_carnitine"] = round(price_bgn / ((per_serving * multiplier) / 1000), 2)
+        elif weight_grams and not count:
+            units["bgn_per_1000mg_carnitine"] = round(price_bgn / (weight_grams), 2)
+    elif category == "melatonin":
+        per_serving = active.get("melatonin_mg")
+        multiplier = servings or count
+        if per_serving and multiplier:
+            units["bgn_per_3mg_melatonin"] = round(price_bgn / ((per_serving * multiplier) / 3), 2)
     return units
 
 
@@ -1439,6 +1477,12 @@ def is_relevant_product(category: str, name: str, url: str) -> bool:
         if any(bad in haystack for bad in ("protein bar", "protein chips", "protein cookie", "протеинов бар", "чипс")):
             return False
         return bool(re.search(r"\bwhey\b|\bprotein\b|суроват|протеин|isolate|изолат", haystack, re.I))
+    if category == "l_carnitine":
+        if any(bad in haystack for bad in ("acetyl", "ацетил", "cream", "крем", "shampoo")):
+            return False
+        return bool(re.search(r"карнитин|l-carnitine|\bcarnitine\b", haystack, re.I))
+    if category == "melatonin":
+        return bool(re.search(r"мелатонин|melatonin", haystack, re.I))
     return any(keyword in haystack for keyword in keywords)
 
 
