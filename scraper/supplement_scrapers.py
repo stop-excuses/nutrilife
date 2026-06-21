@@ -747,6 +747,23 @@ def parse_servings(text: str) -> int | None:
     return None
 
 
+def extract_count_from_name(name: str) -> int | None:
+    """Extract tablet/capsule count from product name, e.g. '* 30', '× 20', '/ 90 Tabs'."""
+    patterns = (
+        r"[*×х]\s*(\d+)(?:\s*\+\s*\d+)?\s*$",            # "* 30", "× 20+2" at name end
+        r"(?<!\w)x\s+(\d+)(?:\s*\+\s*\d+)?\s*$",         # "x 30" — standalone x (space required, not "X8")
+        r"/\s*(\d+)\s*(?:Effervescent\s+)?(?:Tabs?|Caps?|капс|табл)\b",  # "/ 20 Tabs"
+        r"\b(\d+)\s*(?:Tabs?|Caps?)\s*$",                 # "90 Tabs" at name end
+    )
+    for pattern in patterns:
+        m = re.search(pattern, name, re.I)
+        if m:
+            val = int(m.group(1))
+            if 1 <= val <= 500:
+                return val
+    return None
+
+
 def extract_product_detail_text(soup: BeautifulSoup) -> str:
     selectors = (
         ".product-information",
@@ -1424,6 +1441,21 @@ def parse_product(source: Source, url: str, forced_category: str | None = None) 
         if not servings or servings < max(10, estimated_servings // 3) or servings > estimated_servings * 3:
             servings = estimated_servings
     count = parse_count(name) or parse_count(f"{name} {text}")
+    # Cross-check count against the product name (e.g. "* 20 tabs" in name wins over
+    # page-scraped 120 from a different size variant, or wrong blistered-pack count)
+    name_count = extract_count_from_name(name)
+    if name_count and count and count != name_count:
+        ratio = max(count, name_count) / min(count, name_count)
+        if ratio >= 2:
+            count = name_count
+    elif name_count and not count:
+        count = name_count
+    # If servings was extracted from page (e.g. "90 дози" from "90-day supply" text)
+    # but name clearly states a small count, trust the name count.
+    if servings and name_count and servings != name_count and servings > name_count * 2:
+        servings = None
+        if not count:
+            count = name_count
     active_text = normalize_text(f"{name} {detail_text or text} {text[:5000]}")
     active, _, confidence = extract_active(category, active_text, weight_grams, servings, count)
     active, confidence = apply_label_overrides(url, category, active, confidence)
@@ -1503,6 +1535,9 @@ def is_relevant_product(category: str, name: str, url: str) -> bool:
         return bool(re.search(r"витамин\s*d3?|vitamin[-\s]?d3?|\bd3\b|\b\d{3,5}\s*(?:iu|ме)\b", haystack, re.I))
     if category == "vitamin_c":
         if "vitamin case" in product_name:
+            return False
+        # Exclude collagen products that mention vitamin C as a secondary ingredient
+        if re.search(r"\bcollagen\b|колаген\b", product_name, re.I):
             return False
         return bool(re.search(r"vitamin[-\s]?c(?:\b|[-\s]?\d)|витамин[-\s]?c(?:\b|[-\s]?\d)|\bc[-\s]?1000\b|ascorbic", product_name, re.I))
     if category == "vitamin_b":

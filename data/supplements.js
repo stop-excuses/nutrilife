@@ -1,6 +1,6 @@
 const SUPPLEMENTS_DATA = {
   "generated_at": "2026-06-21T12:27:40.079184Z",
-  "total_supplements": 3847,
+  "total_supplements": 3841,
   "sources": [
     "FHL",
     "Framar",
@@ -36060,7 +36060,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 6,
+      "count": 180,
       "active": {
         "magnesium_mg": 200
       },
@@ -36130,7 +36130,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 360.0,
       "servings": null,
-      "count": 3,
+      "count": 60,
       "active": {
         "magnesium_mg": 70
       },
@@ -36445,7 +36445,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 18.0,
       "servings": null,
-      "count": 6,
+      "count": 180,
       "active": {
         "magnesium_mg": 180
       },
@@ -36550,7 +36550,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 6,
+      "count": 60,
       "active": {
         "magnesium_mg": 200
       },
@@ -36760,7 +36760,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 18.0,
       "servings": null,
-      "count": 6,
+      "count": 90,
       "active": {
         "magnesium_mg": 250
       },
@@ -36935,7 +36935,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 18.0,
       "servings": null,
-      "count": 6,
+      "count": 120,
       "active": {
         "magnesium_mg": 240
       },
@@ -37250,7 +37250,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 1,
+      "count": 17,
       "active": {
         "magnesium_mg": 400
       },
@@ -37565,7 +37565,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 6,
+      "count": 45,
       "active": {
         "magnesium_mg": 188
       },
@@ -37705,7 +37705,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 6,
+      "count": 90,
       "active": {
         "magnesium_mg": 180
       },
@@ -38335,7 +38335,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 6,
+      "count": 90,
       "active": {
         "magnesium_mg": 180
       },
@@ -38475,7 +38475,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 12,
+      "count": 90,
       "active": {
         "magnesium_mg": 57
       },
@@ -38790,7 +38790,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 3,
+      "count": 365,
       "active": {
         "magnesium_mg": 180
       },
@@ -38825,7 +38825,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 5.2016,
       "servings": null,
-      "count": 10,
+      "count": 100,
       "active": {
         "magnesium_mg": 60
       },
@@ -38930,7 +38930,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 300.0,
       "servings": null,
-      "count": 3,
+      "count": 60,
       "active": {
         "magnesium_mg": 132
       },
@@ -39175,7 +39175,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 45.0,
       "servings": null,
-      "count": 6,
+      "count": 120,
       "active": {
         "magnesium_mg": 188
       },
@@ -39315,7 +39315,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 2,
+      "count": 180,
       "active": {
         "magnesium_mg": 200
       },
@@ -39560,7 +39560,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 1,
+      "count": 90,
       "active": {
         "magnesium_mg": 28
       },
@@ -39595,7 +39595,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 12.0,
       "servings": null,
-      "count": 2,
+      "count": 10,
       "active": {
         "magnesium_mg": 200
       },
@@ -39630,7 +39630,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 3,
+      "count": 60,
       "active": {
         "magnesium_mg": 570
       },
@@ -39665,7 +39665,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 2,
+      "count": 90,
       "active": {
         "magnesium_mg": 28
       },
@@ -39910,7 +39910,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 2,
+      "count": 90,
       "active": {
         "magnesium_mg": 200
       },
@@ -40505,7 +40505,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 2.22,
       "servings": null,
-      "count": 6,
+      "count": 20,
       "active": {
         "magnesium_mg": 500
       },
@@ -40785,7 +40785,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 2.5,
       "servings": null,
-      "count": 3,
+      "count": 180,
       "active": {
         "magnesium_mg": 425
       },
@@ -40925,7 +40925,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 6,
+      "count": 90,
       "active": {
         "magnesium_mg": 400
       },
@@ -41100,7 +41100,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 6,
+      "count": 60,
       "active": {
         "magnesium_mg": 120
       },
@@ -41170,7 +41170,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 340.0,
       "servings": null,
-      "count": 6,
+      "count": 90,
       "active": {
         "magnesium_mg": 125
       },
@@ -42010,7 +42010,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 6,
+      "count": 90,
       "active": {
         "magnesium_mg": 260
       },
@@ -42045,7 +42045,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 6,
+      "count": 90,
       "active": {
         "magnesium_mg": 200
       },
@@ -42080,7 +42080,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 100.0,
       "servings": null,
-      "count": 6,
+      "count": 30,
       "active": {
         "magnesium_mg": 200
       },
@@ -42115,7 +42115,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 1,
+      "count": 30,
       "active": {
         "magnesium_mg": 200
       },
@@ -42885,7 +42885,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 3,
+      "count": 90,
       "active": {
         "magnesium_mg": 400
       },
@@ -43410,7 +43410,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 6,
+      "count": 90,
       "active": {
         "magnesium_mg": 200
       },
@@ -43515,7 +43515,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 1,
+      "count": 30,
       "active": {
         "magnesium_mg": 500
       },
@@ -43900,7 +43900,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 150.0,
       "servings": null,
-      "count": 1,
+      "count": 50,
       "active": {
         "magnesium_mg": 375
       },
@@ -44180,7 +44180,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 2008.0,
       "servings": null,
-      "count": 60,
+      "count": 250,
       "active": {
         "magnesium_mg": 400
       },
@@ -44425,7 +44425,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 6,
+      "count": 100,
       "active": {
         "magnesium_mg": 200
       },
@@ -44530,7 +44530,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 1,
+      "count": 150,
       "active": {
         "magnesium_mg": 375
       },
@@ -44810,7 +44810,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 5.0,
       "servings": null,
-      "count": 100,
+      "count": 20,
       "active": {
         "magnesium_mg": 300
       },
@@ -46794,14 +46794,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 100.0,
       "servings": null,
-      "count": 1,
+      "count": 20,
       "active": {
         "collagen_g": 1.0
       },
       "label_text": "Хранителна стойност | на 100 г | Въглехидрати | 13,75 г | Белтъчини | 12 г | Енергийна стойност | 876,75 kJ/208,75 kcal | Една таблетка съдържа | Хидролизиран рибен колаген | 500 mg",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_10g_collagen": 109.5
+        "bgn_per_10g_collagen": 5.47
       },
       "unit_label": "лв / 10 g колаген",
       "confidence": "high",
@@ -47844,14 +47844,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 500.0,
       "servings": null,
-      "count": 3,
+      "count": 120,
       "active": {
         "collagen_g": 2.5
       },
       "label_text": "Хранителна стойност | в 3 таблетки | Витамин С (като аскорбинова киселина) | 90 mg | Verisol ® - биоактивни колагенови пептиди | 2500 mg",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_10g_collagen": 67.67
+        "bgn_per_10g_collagen": 1.69
       },
       "unit_label": "лв / 10 g колаген",
       "confidence": "high",
@@ -47984,14 +47984,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 525.0,
       "servings": null,
-      "count": 2,
+      "count": 60,
       "active": {
         "collagen_g": 1.0
       },
       "label_text": "Съставки: | 1 доза | Екстракт от пилешки колаген | 1000 mg",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_10g_collagen": 307.45
+        "bgn_per_10g_collagen": 10.25
       },
       "unit_label": "лв / 10 g колаген",
       "confidence": "high",
@@ -48194,14 +48194,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 6.2013,
       "servings": null,
-      "count": 2,
+      "count": 80,
       "active": {
         "collagen_g": 1.2
       },
       "label_text": "Всяка желатинова капсула съдържа: | Колаген хидролизат | 200 mg | Сух екстракт от новозенландска зеленоуста мида | 100 mg | Сух екстракт кора от бяла върба (25% салицин) | 50 mg | Спомагателни вещества: магнезиев стеарат | Съдържание в максимална дневна доза от 6 капсули: | Колаген хидролизат | 1200 mg | Сух екстракт от новозенландска зеленоуста мида | 600 mg | Сух екстракт кора бяла върба (25% салицин) | 300 mg",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_10g_collagen": 153.62
+        "bgn_per_10g_collagen": 3.84
       },
       "unit_label": "лв / 10 g колаген",
       "confidence": "high",
@@ -51402,14 +51402,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 1,
+      "count": 20,
       "active": {
         "vitamin_c_mg": 1000
       },
       "label_text": "Съдържание | за 1 таблетка | Витамин С (като аскорбинова киселина) | 1000 mg | Цинк (като цинков сулфат) | 10 mg",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_vitamin_c": 10.76
+        "bgn_per_1000mg_vitamin_c": 0.54
       },
       "unit_label": "лв / 1000 mg витамин C",
       "confidence": "high",
@@ -52277,14 +52277,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 15000.0,
       "servings": null,
-      "count": 6,
+      "count": 20,
       "active": {
         "vitamin_c_mg": 330
       },
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_vitamin_c": 4.3
+        "bgn_per_1000mg_vitamin_c": 1.29
       },
       "unit_label": "лв / 1000 mg витамин C",
       "confidence": "high",
@@ -56862,14 +56862,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 1,
+      "count": 17,
       "active": {
         "multivitamin_serving": 1
       },
       "label_text": "Съставки | За 1 таблетка | Витамин E | 12 mg | Витамин C | 80 mg | Витамин B1 | 1.1 mg | Витамин B2 | 1.4 mg | Витамин B3 - Ниацин | 16 mg | Витамин B6 | 1.4 mg | Фолиева киселина | 200 μg | Витамин B12 | 2.5 μg | Витамин B7 - Биотин | 50 μg | Витамин B5 - Пантотенова киселина | 6 mg | Калий | 300 mg | Фосфор | 105 mg | Калций | 200 mg | Магнезий | 112.5 mg | Желязо | 2.1 mg",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_multivitamin_serving": 7.14
+        "bgn_per_multivitamin_serving": 0.42
       },
       "unit_label": "лв / доза мултивитамин",
       "confidence": "medium",
@@ -58402,14 +58402,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 1,
+      "count": 30,
       "active": {
         "multivitamin_serving": 1
       },
       "label_text": "Съдържание | в 1 таблетка | Калций | 200 mg | Витамин С | 100 mg | Saw palmetto | 60 mg | Магнезий | 50 mg | Tribulus terestris | 25 mg | Фосфор | 20 mg | Ниацин (Витамин В3) | 16 mg | Цинк | 15 mg | Витамин Е | 12 mg α-TE | Желязо | 10 mg | Пантотенова киселина (Витамин В5) | 6 mg | Манган | 2,3 mg | Витамин В6 | 1,4 mg | Рибофлавин (Витамин В2) | 1,4 mg | Тиамин (Витамин В1) | 1,1 mg | Витамин А | 800 μg | Мед | 500 μg | Йод | 150 μg | Фолиева киселина | 400 μg | Лутеин | 300 μg | Селен | 55 μg | Хром | 52 μg | Биотин | 50 μg | Молибден | 50 μg | Витамин К | 12,5 μg | Витамин Д3 | 5 μg | Витамин В12 | 2,5 μg",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_multivitamin_serving": 28.07
+        "bgn_per_multivitamin_serving": 0.94
       },
       "unit_label": "лв / доза мултивитамин",
       "confidence": "medium",
@@ -58472,14 +58472,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 1,
+      "count": 30,
       "active": {
         "multivitamin_serving": 1
       },
       "label_text": "Съдържание | в 1 таблетка | Калций | 200 | mg | Витамин С | 100 | mg | Магнезий | 50 | mg | Tribulus terestris | 25 | mg | Фосфор | 20 | mg | Ниацин (Витамин В3) | 16 | mg | Цинк | 15 | mg | Витамин Е | 12 | mg α-TE | Желязо | 10 | mg | Пантотенова киселина (Витамин В5) | 6 | mg | Манган | 2,3 | mg | Витамин В6 | 1,4 | mg | Рибофлавин (Витамин В2) | 1,4 | mg | Тиамин (Витамин В1) | 1,1 | mg | Витамин А | 800 | μg | Мед | 500 | μg | Йод | 150 | μg | Фолиева киселина | 100 | μg | Селен | 55 | μg | Хром | 52 | μg | Биотин | 50 | μg | Молибден | 50 | μg | Витамин К | 12,5 | μg | Витамин Д3 | 5 | μg | Витамин В12 | 2,5 | μg",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_multivitamin_serving": 28.07
+        "bgn_per_multivitamin_serving": 0.94
       },
       "unit_label": "лв / доза мултивитамин",
       "confidence": "medium",
@@ -58612,14 +58612,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 1,
+      "count": 30,
       "active": {
         "multivitamin_serving": 1
       },
       "label_text": "Съдържание | в 1 дъвчаща таблетка | Витамин С | 50 mg | Ниацин (Витамин В3) | 8 mg | Витамин Е | 6 mg α-TE | Пантотенова киселина (Витамин В5) | 3 mg | Цинк | 2,5 mg | Витамин В6 | 0,7 mg | Рибофлавин (Витамин В2) | 0,7 mg | Тиамин (Витамин В1) | 0,55 mg | Витамин А | 400 μg | Йод | 75 μg | Фолиева киселина | 100 μg | Селен | 10 μg | Биотин | 25 μg | Витамин К | 6,25 μg | Витамин Д3 | 2,5 μg | Витамин В12 | 1,25 μg",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_multivitamin_serving": 28.07
+        "bgn_per_multivitamin_serving": 0.94
       },
       "unit_label": "лв / доза мултивитамин",
       "confidence": "medium",
@@ -58857,14 +58857,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 1,
+      "count": 30,
       "active": {
         "multivitamin_serving": 1
       },
       "label_text": "Съдържание | в 1 таблетка | Калций | 200 mg | Витамин С | 100 | mg | Магнезий | 50 mg | Peonia lactiflora | 25 mg | Фосфор | 20 mg | Ниацин (Витамин В3) | 16 mg | Цинк | 15 mg | Витамин Е | 12 mg α-TE | Желязо | 10 mg | Пантотенова киселина (Витамин В5) | 6 mg | Манган | 2,3 mg | Витамин В6 | 1,4 mg | Рибофлавин (Витамин В2) | 1,4 mg | Тиамин (Витамин В1) | 1,1 mg | Витамин А | 800 μg | Мед | 500 μg | Йод | 150 μg | Фолиева киселина | 400 μg | Селен | 55 μg | Хром | 52 μg | Биотин | 50 μg | Молибден | 50 μg | Витамин К | 12,5 μg | Витамин Д3 | 5 μg | Витамин В12 | 2,5 μg",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_multivitamin_serving": 28.07
+        "bgn_per_multivitamin_serving": 0.94
       },
       "unit_label": "лв / доза мултивитамин",
       "confidence": "medium",
@@ -59032,14 +59032,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 30,
+      "count": 60,
       "active": {
         "multivitamin_serving": 1
       },
       "label_text": "Хранителна стойност: | За 1 мече: | Витамин А | 120 mcg | Витамин С | 12 mg | Витамин Е | 1.8 mg | Витамин К | 11.2 mcg | Витамин В1 | 0.17 mg | Витамин В2 | 0.2 mg | Витамин B3 | 2.4 mg | Витамин В5 | 0.9 mg | Витамин В6 | 0.2 mg | Витамин В8 | 7.5 mcg | Витамин В9 | 30 mcg | Витамин В12 | 0.37 mcg | Селен | 8.3 mcg | Цинк | 1.5 mg | Oxxynea® | (патентован екстракт от 22 плода и зеленчука) | 15 mg",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_multivitamin_serving": 1.24
+        "bgn_per_multivitamin_serving": 0.62
       },
       "unit_label": "лв / доза мултивитамин",
       "confidence": "medium",
@@ -59347,14 +59347,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 30,
+      "count": 90,
       "active": {
         "multivitamin_serving": 1
       },
       "label_text": "Съдържание | 1 капс. | Витамин А | (ретинил палмитат) | 50 μg RE | Витамин С | (аскорбинова киселина) | 33 mg | Витамин D | (D3, холекалциферол) | 10 μg | Витамин Е | (D-алфа токоферил ацетат) | 6,6 μg алфа ТЕ | Витамин К | (К2, менахинон-7) | 26,6 μg | Тиамин | (витамин В1) (хидрохлорид) | 14 mg | Рибофлавин | (витамин В2) | 16 mg | Ниацин | (витамин В3) | 6,6 mg NE | Ниацинамид | (витамин В3) | 10 mg NE | Витамин В6 | (пиридоксал-5-фосфат) | 6,6 mg | Витамин В6 | (пиридоксин хидрохлорид) | 10 mg | Фолиева киселина | (метилфолат / Quatrefolic®) | 133,3 μg | Витамин В12 | (метилкобаламин) | 50 μg | Биотин | 200 μg | Пантотенова киселина | (калциев пантотенат) | 30 μg | Калций | (пантотенат, цитрат, малат) | 3,3 mg | Йод | (калиев йодид) | 25 μg | Магнезий | (глицинат) | 33,3 mg | Цинк | (цитрат) | 33,3 mg | Селен | (натриев селенит) | 35 μg | Мед | (глицинат) | 0,33 μg | Манган | (глицинат) | 1,33 mg | Хром | (пиколинат) | 200 μg | Молибден | (глицинат) | 1,33 mg | Калий | (цитрат) | 35 μg | Гама, бета, делта токофероли | (витамин Е) | 30 mg | Холин | (битартарат) | 33,3 mg | Бор | (глицинат) | 1 mg | Силикон | (екстракт от хвощ) | 1 mg | Лутеин, каротеноид | 1 mg | Зеаксантин, каротеноиди | 100 μg",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_multivitamin_serving": 3.27
+        "bgn_per_multivitamin_serving": 1.09
       },
       "unit_label": "лв / доза мултивитамин",
       "confidence": "medium",
@@ -59452,14 +59452,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 30,
+      "count": 60,
       "active": {
         "multivitamin_serving": 1
       },
       "label_text": "Съдържание | 1 таблетка | Витамин А | 5.000 IU | Витамин С | 120 mg | Витамин D | 400 IU | Витамин Е | 45 IU | Витамин К | 40 mcg | Витамин В1 | 7.5 mg | Витамин В2 | 8.5 mg | Ниацин | 40 mg | Витамин В6 | 10 mg | Фолиева киселина | 400 mcg | Биотин | 300 mcg | Витамин В12 | 30 mcg | Пантотенова киселина | 20 mg | Калций | 146 mg | Желязо | 18 mg | Йод | 150 mcg | Магнезий | 50 mg | Цинк | 15 mg | Селен | 70 mcg | Мед | 2 mg | Манган | 2 mg | Молибден | 75 mcg | Бор | 200 mcg | Енергизиращ комплекс | (eкстракт от корен на дяволски храст, от листа на гинко билоба и от листа на зелен чай) | 310 mg | Chromax® (от хром пиколинат) | 50 mcg | UltraGreen Blend® (люцерна, градинска и обикнована мента, спанак, спирулина) | 50 mg",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_multivitamin_serving": 0.97
+        "bgn_per_multivitamin_serving": 0.49
       },
       "unit_label": "лв / доза мултивитамин",
       "confidence": "medium",
@@ -59592,14 +59592,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 1,
+      "count": 90,
       "active": {
         "multivitamin_serving": 1
       },
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_multivitamin_serving": 101.41
+        "bgn_per_multivitamin_serving": 1.13
       },
       "unit_label": "лв / доза мултивитамин",
       "confidence": "medium",
@@ -59697,14 +59697,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 1,
+      "count": 60,
       "active": {
         "multivitamin_serving": 1
       },
       "label_text": "Витамин А | 10 000 IU | Витамин C | 500 mg | Витамин D3 (като холекалциферол от лишей) | 100 IU | Витамин Е (като d-алфа токоферил сукцинат) | 100 IU | Витамин К (като фитонадион) | 150 mcg | Тиамин (витамин В1) (като тиамин НСL) | 50 mg | Рибофлавин (витамин В2) | 50 mg | Ниацин (като ниацинамид) | 50 mg | Витамин В6 (като пиридоксин | НСL | ) | 50 mg | Фолат (като калций-L-5-метилтетрпхндрофпдзтът) | 800 mcg | Витамин В12 (като метилкобаламин) | 200 mcg | Калций (като аминоатен комплекс) | 500 mg | Желязо (като аминоатен комплекс) | 18 mg | Магнезий (като аминоатен комплекс) | 250 mg | Пантотенова киселина (като калциев пантотенат) | 60 mg | Йод (от водорасли) | 150 mcg | Цинк (като монометионин **) | 15 mg | Биотин | 300 mcg | Мед (като аминоатен комплекс) | 1 mg | Селен (като аминоатен комплекс) | 100 mcg | Манган (като аминоатен комплекс) | 2 mg | Хром (като полиникотинат ***) | 120 mcg | Молибден (като аминоатен комплекс) | 50 mcg | Спирулина | 250 mg | Ostivone® (иприфлавон) | 50 mg | Бромелайн (от плодове от ананас) | 40 mg | Novasoy® (соев екстракт) (стойности до 40% [16 mg] изофлавони) | 40 mg | Fem-Effect Complex | Патентована смес от Chasteberry (Vitex плод от agnus-castus (50 mcg)), 0,4% аукубин - 40 mcg; Дамиана (листа); Dong Quai ((Angelica sinensis root); Черен кохош (Cimicifuga racemosa root)) | 40 mg | Холин (като битартрат) | 30 mg | Инозитол | 30 mg | Биофлавоноиден комплекс (от цитрусов лимон) | 25 mg | Билков антиоксидантен комплекс | Патентована смес от куркума (Curcuma longa) (4.75 mg) куркумин); боровинка (Vaccinium myrtillus) 1,25 mg; Зелен чай (лист от камелия синезис)(безкофеиново) | 15 mg | Липаза (от ферментация на Rhizopus oryzae) | 10 mg | Амилаза (от ферментация на Aspergillus oryzae) | 5 mg | Лактаза (DairyMate) | 5 mg | Протеаза (от фе",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_multivitamin_serving": 85.86
+        "bgn_per_multivitamin_serving": 1.43
       },
       "unit_label": "лв / доза мултивитамин",
       "confidence": "medium",
@@ -59837,14 +59837,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 1,
+      "count": 60,
       "active": {
         "multivitamin_serving": 1
       },
       "label_text": "Съставки | 1 таблетка | 2 таблетки | Витамин C | 35 mg | 70 mg | Витамин E | 4 mg | 8 mg | Витамин B1 | 0.4 mg | 0.8 mg | Витамин B2 | 0.45 mg | 0.9 mg | Витамин B6 | 0.25 mg | 0.5 mg | Витамин B12 | 0.75 μg | 1.5 μg | Витамин B3 – Ниацин | 5 mg | 10 mg | Пантотенова киселина | 2 mg | 4 mg | Фолиева киселина | 75 μg | 150 μg | Калций | 100 mg | 200 mg | Витамин D3 | 1.25 μg | 2.5 μg",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_multivitamin_serving": 16.8
+        "bgn_per_multivitamin_serving": 0.28
       },
       "unit_label": "лв / доза мултивитамин",
       "confidence": "medium",
@@ -59907,14 +59907,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 2,
+      "count": 60,
       "active": {
         "multivitamin_serving": 1
       },
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_multivitamin_serving": 42.93
+        "bgn_per_multivitamin_serving": 1.43
       },
       "unit_label": "лв / доза мултивитамин",
       "confidence": "medium",
@@ -60012,14 +60012,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 1,
+      "count": 60,
       "active": {
         "multivitamin_serving": 1
       },
       "label_text": "Съставки | 1 таблетка | Калций | 200 mg | Фосфор | 125 mg | Магнезий | 100 mg | Витамин C | 75 mg | Витамин B3 – Ниацин | 18 mg | Витамин Е | 10 mg | Витамин B5 – Пантотенова киселина | 6 mg | Желязо | 5 mg | Цинк | 5 mg | Витамин B6 | 2 mg | Витамин B2 | 1.6 mg | Витамин B1 | 1.4 mg | Манган | 1 mg | Лутеин | 1 mg | Мед | 1000 μg | Витамин A | 800 μg | Фолиева киселина | 200 μg | Витамин B7 – Биотин | 150 μg | Йод | 100 μg | Молибден | 80 μg | Хром | 60 μg | Витамин K1 | 30 μg | Селен | 30 μg | Витамин D3 | 5 μg | Витамин B12 | 1 μg",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_multivitamin_serving": 21.71
+        "bgn_per_multivitamin_serving": 0.36
       },
       "unit_label": "лв / доза мултивитамин",
       "confidence": "medium",
@@ -60327,14 +60327,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 1,
+      "count": 60,
       "active": {
         "multivitamin_serving": 1
       },
       "label_text": "Съдържание: | За 1 каплета: | Витамини: | Витамин B6 (пиридоксин HCL) | 3,5 мг | Минерали: | Магнезий (оксид) | 150 мг | Цинк (оксид) | 10 мг | Подхранващи хранителни вещества: | Бета-аланин | 50 мг | Бор (цитрат) | 230 мкг | Сминдух (Trigonella foenum-graecum, семена) | 33,3 мг",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_multivitamin_serving": 54.37
+        "bgn_per_multivitamin_serving": 0.91
       },
       "unit_label": "лв / доза мултивитамин",
       "confidence": "medium",
@@ -61517,7 +61517,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 60,
+      "count": 180,
       "active": {
         "zinc_mg": 15
       },
@@ -61972,7 +61972,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 90,
+      "count": 250,
       "active": {
         "zinc_mg": 50
       },
@@ -62357,7 +62357,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 1,
+      "count": 100,
       "active": {
         "zinc_mg": 15
       },
@@ -62637,7 +62637,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 18.0,
       "servings": null,
-      "count": 3,
+      "count": 180,
       "active": {
         "vitamin_d_iu": 1000
       },
@@ -62672,7 +62672,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 255.0,
       "servings": null,
-      "count": 1,
+      "count": 100,
       "active": {
         "vitamin_d_iu": 2000
       },
@@ -62847,7 +62847,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 3,
+      "count": 250,
       "active": {
         "vitamin_d_iu": 1000
       },
@@ -62917,7 +62917,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 18.0,
       "servings": null,
-      "count": 7,
+      "count": 365,
       "active": {
         "vitamin_d_iu": 4000
       },
@@ -63162,7 +63162,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 3,
+      "count": 60,
       "active": {
         "vitamin_d_iu": 2000
       },
@@ -63232,7 +63232,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 7,
+      "count": 120,
       "active": {
         "vitamin_d_iu": 1000
       },
@@ -63372,7 +63372,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 3,
+      "count": 250,
       "active": {
         "vitamin_d_iu": 5000
       },
@@ -64002,7 +64002,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 3,
+      "count": 200,
       "active": {
         "vitamin_d_iu": 1000
       },
@@ -64142,7 +64142,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 3,
+      "count": 250,
       "active": {
         "vitamin_d_iu": 2000
       },
@@ -64352,7 +64352,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 3,
+      "count": 60,
       "active": {
         "vitamin_d_iu": 400
       },
@@ -64807,7 +64807,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 3,
+      "count": 30,
       "active": {
         "vitamin_d_iu": 1000
       },
@@ -64982,7 +64982,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 10.2022,
       "servings": null,
-      "count": 3,
+      "count": 60,
       "active": {
         "vitamin_d_iu": 1200
       },
@@ -65017,7 +65017,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 10.2022,
       "servings": null,
-      "count": 3,
+      "count": 30,
       "active": {
         "vitamin_d_iu": 1200
       },
@@ -65087,7 +65087,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 3,
+      "count": 30,
       "active": {
         "vitamin_d_iu": 1000
       },
@@ -65542,7 +65542,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 0.15,
       "servings": null,
-      "count": 3,
+      "count": 80,
       "active": {
         "vitamin_d_iu": 1000
       },
@@ -65647,7 +65647,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 2,
+      "count": 120,
       "active": {
         "vitamin_d_iu": 1000
       },
@@ -65821,7 +65821,7 @@ const SUPPLEMENTS_DATA = {
       "currency_source": "EUR",
       "availability_status": "in_stock",
       "weight_grams": null,
-      "servings": 140,
+      "servings": null,
       "count": 20,
       "active": {
         "vitamin_d_iu": 400
@@ -65892,7 +65892,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 3,
+      "count": 60,
       "active": {
         "vitamin_d_iu": 400
       },
@@ -65962,7 +65962,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 3,
+      "count": 90,
       "active": {
         "vitamin_d_iu": 400
       },
@@ -66032,7 +66032,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 3,
+      "count": 100,
       "active": {
         "vitamin_d_iu": 4000
       },
@@ -66067,7 +66067,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 3,
+      "count": 100,
       "active": {
         "vitamin_d_iu": 4000
       },
@@ -66102,7 +66102,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 3,
+      "count": 250,
       "active": {
         "vitamin_d_iu": 4000
       },
@@ -66242,7 +66242,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 3,
+      "count": 30,
       "active": {
         "vitamin_d_iu": 2000
       },
@@ -66487,7 +66487,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 3,
+      "count": 90,
       "active": {
         "vitamin_d_iu": 4000
       },
@@ -66557,7 +66557,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 3,
+      "count": 60,
       "active": {
         "vitamin_d_iu": 1000
       },
@@ -66662,7 +66662,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 3,
+      "count": 250,
       "active": {
         "vitamin_d_iu": 1000
       },
@@ -66767,7 +66767,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 3,
+      "count": 360,
       "active": {
         "vitamin_d_iu": 2500
       },
@@ -66802,7 +66802,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 3,
+      "count": 90,
       "active": {
         "vitamin_d_iu": 2500
       },
@@ -67117,7 +67117,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": 90,
-      "count": 2,
+      "count": 90,
       "active": {
         "vitamin_d_iu": 2000
       },
@@ -67467,7 +67467,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 3,
+      "count": 30,
       "active": {
         "vitamin_d_iu": 1000
       },
@@ -67572,7 +67572,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 2009.0,
       "servings": null,
-      "count": 3,
+      "count": 180,
       "active": {
         "vitamin_d_iu": 1000
       },
@@ -67677,7 +67677,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 3,
+      "count": 180,
       "active": {
         "vitamin_d_iu": 2000
       },
@@ -67712,7 +67712,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 3,
+      "count": 90,
       "active": {
         "vitamin_d_iu": 2000
       },
@@ -67817,7 +67817,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 3,
+      "count": 100,
       "active": {
         "vitamin_d_iu": 1000
       },
@@ -68894,7 +68894,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 300.0,
       "servings": null,
-      "count": 2,
+      "count": 300,
       "active": {
         "creatine_total_mg": 300000
       },
@@ -69139,7 +69139,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 824.0,
       "servings": null,
-      "count": 6,
+      "count": 120,
       "active": {
         "creatine_total_mg": 824000
       },
@@ -69454,7 +69454,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 26.0,
       "servings": null,
-      "count": 5,
+      "count": 210,
       "active": {
         "creatine_total_mg": 26000
       },
@@ -69489,7 +69489,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 1000.0,
       "servings": null,
-      "count": 6,
+      "count": 120,
       "active": {
         "creatine_total_mg": 90000
       },
@@ -71557,39 +71557,6 @@ const SUPPLEMENTS_DATA = {
       ]
     },
     {
-      "id": "framar-детски-подложки-за-дефибрилатор-powerheart-g5",
-      "store": "Framar",
-      "name": "ДЕТСКИ ПОДЛОЖКИ ЗА ДЕФИБРИЛАТОР POWERHEART G5",
-      "brand": "FIRST AID",
-      "category": "fiber",
-      "url": "https://apteka.framar.bg/30107755/%D0%B4%D0%B5%D1%82%D1%81%D0%BA%D0%B8-%D0%BF%D0%BE%D0%B4%D0%BB%D0%BE%D0%B6%D0%BA%D0%B8-%D0%B7%D0%B0-%D0%B4%D0%B5%D1%84%D0%B8%D0%B1%D1%80%D0%B8%D0%BB%D0%B0%D1%82%D0%BE%D1%80-powerheart-g5",
-      "image": "https://static.framar.bg/product/powerheart-defibrilator-kids-pads.jpg",
-      "price_bgn": 324.0,
-      "price_eur": 165.66,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 25000.0,
-      "servings": null,
-      "count": null,
-      "active": {},
-      "label_text": null,
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_5g_fiber": 0.06
-      },
-      "unit_label": "лв / 5 g фибри",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T11:37:13.925075Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 324.0,
-          "price_eur": 165.66,
-          "unit_value": 0.06
-        }
-      ]
-    },
-    {
       "id": "framar-американ-крю-крем-с-фибри-за-средно-дълга-и-дълга-коса-100-мл",
       "store": "Framar",
       "name": "АМЕРИКАН КРЮ КРЕМ С ФИБРИ ЗА СРЕДНО ДЪЛГА И ДЪЛГА КОСА 100 мл",
@@ -71652,39 +71619,6 @@ const SUPPLEMENTS_DATA = {
           "price_bgn": 16.6,
           "price_eur": 8.49,
           "unit_value": 0.69
-        }
-      ]
-    },
-    {
-      "id": "framar-дефибрилатор-powerheart-g5-с-icpr",
-      "store": "Framar",
-      "name": "ДЕФИБРИЛАТОР POWERHEART G5 С ICPR",
-      "brand": "FIRST AID",
-      "category": "fiber",
-      "url": "https://apteka.framar.bg/30107752/%D0%B4%D0%B5%D1%84%D0%B8%D0%B1%D1%80%D0%B8%D0%BB%D0%B0%D1%82%D0%BE%D1%80-powerheart-g5-%D1%81-icpr",
-      "image": "https://static.framar.bg/product/defibrilator-powerheart-g5-aed.jpg",
-      "price_bgn": 5880.01,
-      "price_eur": 3006.4,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 2600.0,
-      "servings": null,
-      "count": null,
-      "active": {},
-      "label_text": null,
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_5g_fiber": 11.31
-      },
-      "unit_label": "лв / 5 g фибри",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T11:37:14.635931Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 5880.01,
-          "price_eur": 3006.4,
-          "unit_value": 11.31
         }
       ]
     },
@@ -71858,39 +71792,6 @@ const SUPPLEMENTS_DATA = {
       ]
     },
     {
-      "id": "framar-подложки-за-дефибрилатор-powerheart-g5",
-      "store": "Framar",
-      "name": "ПОДЛОЖКИ ЗА ДЕФИБРИЛАТОР POWERHEART G5",
-      "brand": "FIRST AID",
-      "category": "fiber",
-      "url": "https://apteka.framar.bg/30078617/%D0%BF%D0%BE%D0%B4%D0%BB%D0%BE%D0%B6%D0%BA%D0%B8-%D0%B7%D0%B0-%D0%B4%D0%B5%D1%84%D0%B8%D0%B1%D1%80%D0%B8%D0%BB%D0%B0%D1%82%D0%BE%D1%80-powerheart-g5",
-      "image": "https://static.framar.bg/product/electrode_g5_cardiac_science.jpg",
-      "price_bgn": 255.43,
-      "price_eur": 130.6,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 25000.0,
-      "servings": null,
-      "count": null,
-      "active": {},
-      "label_text": null,
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_5g_fiber": 0.05
-      },
-      "unit_label": "лв / 5 g фибри",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T11:37:17.492739Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 255.43,
-          "price_eur": 130.6,
-          "unit_value": 0.05
-        }
-      ]
-    },
-    {
       "id": "framar-островит-овесени-фибри-200-г",
       "store": "Framar",
       "name": "ОСТРОВИТ ОВЕСЕНИ ФИБРИ 200 г",
@@ -71994,39 +71895,6 @@ const SUPPLEMENTS_DATA = {
       ]
     },
     {
-      "id": "framar-дефибрилатор-powerheart-g5",
-      "store": "Framar",
-      "name": "ДЕФИБРИЛАТОР POWERHEART G5",
-      "brand": "FIRST AID",
-      "category": "fiber",
-      "url": "https://apteka.framar.bg/30078613/%D0%B4%D0%B5%D1%84%D0%B8%D0%B1%D1%80%D0%B8%D0%BB%D0%B0%D1%82%D0%BE%D1%80-powerheart-g5",
-      "image": "https://static.framar.bg/product/powerheart-img-g5.jpg",
-      "price_bgn": 5315.55,
-      "price_eur": 2717.8,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 2.0,
-      "servings": null,
-      "count": null,
-      "active": {},
-      "label_text": null,
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_5g_fiber": 13288.88
-      },
-      "unit_label": "лв / 5 g фибри",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T11:37:18.090703Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 5315.55,
-          "price_eur": 2717.8,
-          "unit_value": 13288.88
-        }
-      ]
-    },
-    {
       "id": "framar-суонсън-хуск-псилиум-капсули-610-мг-300",
       "store": "Framar",
       "name": "СУОНСЪН ХУСК ПСИЛИУМ капсули 610 мг * 300",
@@ -72058,39 +71926,6 @@ const SUPPLEMENTS_DATA = {
           "price_bgn": 46.74,
           "price_eur": 23.9,
           "unit_value": 1.28
-        }
-      ]
-    },
-    {
-      "id": "framar-подложки-с-icpr-за-дефибрилатор-powerheart-g5",
-      "store": "Framar",
-      "name": "ПОДЛОЖКИ С ICPR ЗА ДЕФИБРИЛАТОР POWERHEART G5",
-      "brand": "FIRST AID",
-      "category": "fiber",
-      "url": "https://apteka.framar.bg/30078616/%D0%BF%D0%BE%D0%B4%D0%BB%D0%BE%D0%B6%D0%BA%D0%B8-%D1%81-icpr-%D0%B7%D0%B0-%D0%B4%D0%B5%D1%84%D0%B8%D0%B1%D1%80%D0%B8%D0%BB%D0%B0%D1%82%D0%BE%D1%80-powerheart-g5",
-      "image": "https://static.framar.bg/product/electrode_cprd_g5_cardiac_science.jpg",
-      "price_bgn": 625.87,
-      "price_eur": 320.0,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 25000.0,
-      "servings": null,
-      "count": null,
-      "active": {},
-      "label_text": null,
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_5g_fiber": 0.13
-      },
-      "unit_label": "лв / 5 g фибри",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T11:37:18.608764Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 625.87,
-          "price_eur": 320.0,
-          "unit_value": 0.13
         }
       ]
     },
@@ -72384,7 +72219,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 400.0,
       "servings": null,
-      "count": 2,
+      "count": 60,
       "active": {
         "fiber_mg": 185
       },
@@ -72664,7 +72499,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 70.0,
       "servings": null,
-      "count": 2,
+      "count": 30,
       "active": {
         "melatonin_mg": 1
       },
@@ -73363,7 +73198,7 @@ const SUPPLEMENTS_DATA = {
       "currency_source": "EUR",
       "availability_status": "in_stock",
       "weight_grams": null,
-      "servings": 400,
+      "servings": null,
       "count": 100,
       "active": {
         "melatonin_mg": 1
@@ -73784,7 +73619,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 11.032014,
       "servings": null,
-      "count": 1,
+      "count": 75,
       "active": {
         "melatonin_mg": 1
       },
@@ -73959,7 +73794,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 18.0,
       "servings": null,
-      "count": 1,
+      "count": 14,
       "active": {
         "carnitine_mg": 200
       },
@@ -75497,7 +75332,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 1,
+      "count": 30,
       "active": {
         "carnitine_mg": 1500
       },
@@ -75742,7 +75577,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": 15,
-      "count": 2,
+      "count": 180,
       "active": {
         "carnitine_mg": 3000
       },
@@ -75917,7 +75752,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 2.0,
       "servings": null,
-      "count": 4,
+      "count": 60,
       "active": {
         "carnitine_mg": 500
       },
@@ -76094,7 +75929,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 2.0,
       "servings": null,
-      "count": 10,
+      "count": 120,
       "active": {
         "epa_mg": 650,
         "dha_mg": 450,
@@ -76103,7 +75938,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": "Съставки: | в 2 капсули/дневна доза | %NRV* | Калории | 20 | Общо мазнини | 2 g | Коензим (убиквинон) Q10 | 100 mg | ** | Общо Омега-3 | 1280 mg | ** | EPA (ейкозапентаенова киселина) | 650 mg | ** | DHA (докозахексаенова киселина) | 450 mg | **",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 21.16
+        "bgn_per_1000mg_epa_dha": 1.76
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -76131,7 +75966,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 2.0,
       "servings": null,
-      "count": 3,
+      "count": 60,
       "active": {
         "epa_mg": 330,
         "dha_mg": 220,
@@ -76140,7 +75975,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": "Съставки: | в 2 капсули/дневна доза | %NRV* | Общо мазнини | 2 g | Холестерол | 5 mg | Общо Омега-3 | 690 mg | ** | EPA (ейкозапентаенова киселина) | 330 mg | ** | DHA (докозахексаенова киселина) | 220 mg | **",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 36.15
+        "bgn_per_1000mg_epa_dha": 1.81
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -76277,7 +76112,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 2.0,
       "servings": null,
-      "count": 3,
+      "count": 120,
       "active": {
         "epa_mg": 330,
         "dha_mg": 220,
@@ -76286,7 +76121,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": "Съставки: | в 2 капсули/дневна доза | %NRV* | Общо мазнини | 2 g | Холестерол | 5 mg | Общо Омега-3 | 690 mg | ** | EPA (ейкозапентаенова киселина) | 330 mg | ** | DHA (докозахексаенова киселина) | 220 mg | **",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 61.05
+        "bgn_per_1000mg_epa_dha": 1.53
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -76351,7 +76186,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 2.0,
       "servings": null,
-      "count": 10,
+      "count": 60,
       "active": {
         "epa_mg": 650,
         "dha_mg": 650,
@@ -76360,7 +76195,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": "Съставки: | в 2 капсули/дневна доза | %NRV* | Калории | 20 | Общо мазнини | 2 g | Коензим (убиквинон) Q10 | 100 mg | ** | Общо Омега-3 | 1280 mg | ** | EPA (ейкозапентаенова киселина) | 650 mg | ** | DHA (докозахексаенова киселина) | 450 mg | **",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 9.93
+        "bgn_per_1000mg_epa_dha": 1.65
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -76647,7 +76482,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 3,
+      "count": 60,
       "active": {
         "epa_mg": 214,
         "dha_mg": 214,
@@ -76656,7 +76491,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": "Съставки: | в 1 капсула/дневна доза | %NRV* | Oмега-3 осигуряващи | EPA | DHA | 214 mg | 106 mg | 75 mg | **",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 27.11
+        "bgn_per_1000mg_epa_dha": 1.36
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -76721,7 +76556,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 4.0,
       "servings": null,
-      "count": 3,
+      "count": 120,
       "active": {
         "epa_mg": 707,
         "dha_mg": 368,
@@ -76730,7 +76565,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": "Хранителна стойност на Омега-3 Капсули | в дневна доза от 4 капсули | Основни вещества | Количество за 4 капсули | Рибено масло (масло от треска) | 4 g* | Витамин E | 2,4 mg алфа-ТЕ** | Състав на мастните киселини | Омега-3 мастни киселини, от които | 1500 mg* | EPA (Ейкозапентаенова киселина) | 707 mg* | DPA (Докозапентаенова киселина) | 84 mg* | DHA (Докозахексаенова киселина) | 368 mg*",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 21.56
+        "bgn_per_1000mg_epa_dha": 0.54
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -77202,7 +77037,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 90.0,
       "servings": null,
-      "count": 3,
+      "count": 400,
       "active": {
         "epa_mg": 180,
         "dha_mg": 120,
@@ -77211,7 +77046,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": "Съставки: | (в 1 капсула/дн. доза) | %NRV* | Рибено масло, Осигуряващо | 1000 mg | ** | Омега-3 | 350 mg | ** | ЕРА | 180 mg | ** | DHA | 120 mg | **",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 77.48
+        "bgn_per_1000mg_epa_dha": 0.58
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -77350,7 +77185,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 18.0,
       "servings": null,
-      "count": 3,
+      "count": 60,
       "active": {
         "epa_mg": 120,
         "dha_mg": 180,
@@ -77359,7 +77194,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": "Съставки: | (в 1 капсула/дн. доза) | %NRV* | Рибено масло | 500 mg | ** | DHA | 180 mg | ** | EPA | 120 mg | ** | Витамин D3 (холекалциферол) от ланолин | 800 IU (20 μg) | 400%",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 31.08
+        "bgn_per_1000mg_epa_dha": 1.55
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -77387,7 +77222,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 18.0,
       "servings": null,
-      "count": 9,
+      "count": 60,
       "active": {
         "epa_mg": 180,
         "dha_mg": 120,
@@ -77396,7 +77231,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": "Съставки: | (в 2 капсули/дн. доза) | NRV*% | Вечерна иглика /Oenothera biennis/, масло от семена | (осигуряващо EPA 18% 120 mg, DHA 12% 80 mg, GLA 10% 66.4 mg) | 664 mg | ** | Ленено масло /Linum usitatissimum/, от семена, осигуряващо | 664 mg | ** | Омега-3 | 644 mg | ** | Омега-6 | 636 mg | ** | Омега-9 | 172 mg | ** | Витамин Е (D-алфа токоферол) | 7.70 mg | 58%",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 24.23
+        "bgn_per_1000mg_epa_dha": 3.63
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -77424,7 +77259,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 3,
+      "count": 120,
       "active": {
         "epa_mg": 48,
         "dha_mg": 72,
@@ -77433,7 +77268,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": "Съставки: | в 2 капсули/дневна доза | %NRV* | Масло от дива сьомга осигуряващо: | 1000 mg | ** | Омега-3 мастни киселини | 215 mg | ** | EPA | 48 mg | ** | DHA | 72 mg | ** | DPA | 25 mg | ** | Други омега 3 мастни киселини | 70 mg | ** | Други мастни киселини | 785 mg | ** | Витамин A | 50.8 μg | 6% | Витамин E | 0.45 mg | 4% | Витамин D3 | 0.26 μg | 5% | Витамин K1 | 0.08 μg | 0.11% | Желатинова капсула",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 293.11
+        "bgn_per_1000mg_epa_dha": 7.33
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -77461,7 +77296,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 9,
+      "count": 120,
       "active": {
         "epa_mg": 314,
         "dha_mg": 184,
@@ -77470,7 +77305,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": "Съставки: | (в 1 капсула/дневна доза) | %NRV* | Рибено масло | 590 mg | ** | Норвежко тюленово масло | 200 mg | ** | Вечерна иглика | (масло от семена) /Oenothera erythrosepala/ | 200 mg | ** | Витамин E | 30 mg | 250% | Осигуряващо Омега 3-6-9 мастни киселини | EPA | 314 mg | ** | DHA | 184 mg | ** | DPA | 8 mg | ** | GLA | 18 mg | ** | OA | 53 mg | **",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 24.55
+        "bgn_per_1000mg_epa_dha": 1.84
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -77498,7 +77333,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 3,
+      "count": 120,
       "active": {
         "epa_mg": 120,
         "dha_mg": 57,
@@ -77507,7 +77342,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": "Съставки: | (в 1 капсула/дневна доза) | %NRV* | Крил (масло) SuperbaTM | /Euphausia superba/, източник на | 920 mg | ** | Омега-3 мастни киселини | 220 mg | ** | EPA | 120 mg | ** | DHA | 57 mg | ** | Фосфолипиди | 400 mg | ** | Холин | 50 mg | ** | Астаксантин | 100 μg | **",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 190.98
+        "bgn_per_1000mg_epa_dha": 4.77
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -78090,7 +77925,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 90.0,
       "servings": null,
-      "count": 3,
+      "count": 120,
       "active": {
         "epa_mg": 720,
         "dha_mg": 4000,
@@ -78099,7 +77934,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": "Съставки: | (в 4 капсули/дн. доза) | Рибено масло: | 4000 mg | DHA: | 720 mg | EPA: | 480 mg",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 4.55
+        "bgn_per_1000mg_epa_dha": 0.11
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -78386,7 +78221,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 2,
+      "count": 60,
       "active": {
         "epa_mg": 400,
         "dha_mg": 1000,
@@ -78395,7 +78230,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": "Състав | в една дневна доза (1 капсула) | Рибено масло (от див аляски минтай), предоставящо | 1 000 mg | Ейкозапентаенова киселина (EPA) | 400 mg | Докозахексаенова киселина (DHA) | 300 mg | Лутеин | 5 mg | Астаксантин | 1 mg | Менахинон MK-7 (Витамин K2) | 20 μg",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 28.68
+        "bgn_per_1000mg_epa_dha": 0.96
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -78645,7 +78480,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 3,
+      "count": 90,
       "active": {
         "epa_mg": 1000,
         "dha_mg": 180,
@@ -78654,7 +78489,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": "Състав | в препоръчителен дневна доза от 2 гел капсули | Рибено масло | 1000 mg | Ейкозапентаенова киселина (EPA) | 180 mg | Докозахексаенова киселина (DHA) | 120 mg | Витамин E | 9.1 mg",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 5.92
+        "bgn_per_1000mg_epa_dha": 0.2
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -78719,7 +78554,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": null,
+      "count": 90,
       "active": {
         "epa_mg": 102,
         "dha_mg": 120,
@@ -78728,7 +78563,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": "Съставки: | 1 желирано драже съдържа: | 3 желирани дражета съдържат: | Рибено масло (сардина, аншоа) | 75 mg | 225 mg | Осигурява Омега-3 мастни киселини, включително: | 40 mg | 120 mg | Докозахексаенова киселина (DHA) | 34 mg | 102 mg | Ейкозапентаенова киселина (ЕРА) | 6 mg | 18 mg | Витамин D (Холекалциферол) | 3.3 μg (133 IU), 66%* | 9.9 μg (399 IU), 198%*",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 270.9
+        "bgn_per_1000mg_epa_dha": 3.01
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -78941,7 +78776,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 3,
+      "count": 180,
       "active": {
         "epa_mg": 1000,
         "dha_mg": 1000,
@@ -78950,7 +78785,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": "Съставки: | в 2 капсули | Витамин E | 2 mg α-TE | Рибено масло | от което: | Ейкозапентаенова киселина | Докозахексаенова киселина | 1000 mg | 400 mg | 300 mg",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 8.33
+        "bgn_per_1000mg_epa_dha": 0.14
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -79015,7 +78850,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 0.5,
       "servings": null,
-      "count": 250,
+      "count": 30,
       "active": {
         "epa_mg": 1000,
         "dha_mg": 1000,
@@ -79024,7 +78859,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": "Съдържание в 1 капсула | Рибено масло, от което: | ейкозапентаенова киселина EPA | докозахексаенова киселина DHA | 1000 mg | 5 | 00 mg | 250 mg",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 0.04
+        "bgn_per_1000mg_epa_dha": 0.3
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -79200,7 +79035,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 0.5,
       "servings": null,
-      "count": 3,
+      "count": 90,
       "active": {
         "epa_mg": 420,
         "dha_mg": 420,
@@ -79209,7 +79044,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": "Съдържание: | 1 доза | Омега-3 Рибено масло | 1200 mg | От които Омега-3 мастни киселини | ЕПА | 420 mg | ДХА | 300 mg",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 22.07
+        "bgn_per_1000mg_epa_dha": 0.74
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -79237,7 +79072,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 2.0,
       "servings": null,
-      "count": 3,
+      "count": 60,
       "active": {
         "epa_mg": 787,
         "dha_mg": 394,
@@ -79246,7 +79081,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": "Дневна стойност: | % DV * | Калории | 20 | Общо мазнини | 2 гр | 3% * | Наситени мазнини | 0 гр | 2% * | Полиненаситени мазнини | 1 гр | ** | Мононенаситени мазнини | 0 гр | ** | Холестерол | 5 мг | 2% | 0mega-3 полиненаситени мазнини: | Ейкозапентаенова киселина (EPA) | 787 мг | ** | Докозахексаенова киселина (DHA) | 394 мг | ** | Други омега-3 мастни киселини | 197 мг | **",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 28.7
+        "bgn_per_1000mg_epa_dha": 1.44
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -79274,7 +79109,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 9,
+      "count": 30,
       "active": {
         "epa_mg": 400,
         "dha_mg": 400,
@@ -79283,7 +79118,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": "Състав: | В дневна препоръчителна доза от 1 гел капсула: | Рибено масло, от което, | ейкозапентаенова киселина (EPA) | докозахексаенова киселина (DHA) | 400 mg | 72 mg | 48 mg | Ленено масло, от което, | алфа-линоленова киселина (ALA) | линолова киселина (LA) | олеинова киселина (ОА) | 300 mg | 150 mg | 45 mg | 60 mg | Слънчогледово масло, от което, | линолова киселина (LA) | олеинова киселина (ОА) | 290 mg | 145 mg | 43,5 mg | Витамин Е | 10,5 mg (88%)",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 1.38
+        "bgn_per_1000mg_epa_dha": 0.42
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -79348,7 +79183,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 3,
+      "count": 30,
       "active": {
         "epa_mg": 105,
         "dha_mg": 500,
@@ -79357,7 +79192,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": "Съдържание: | за 1 капсула | Рибено масло | 1000 mg | Омега-3 мастни киселини | 670 mg | от които (DHA) | 500 mg | от които (EPA) | 100 mg",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 15.2
+        "bgn_per_1000mg_epa_dha": 1.52
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -79533,7 +79368,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 1.0,
       "servings": null,
-      "count": 9,
+      "count": 200,
       "active": {
         "epa_mg": 220,
         "dha_mg": 120,
@@ -79542,7 +79377,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": "Съставки: | В 1 драже: | Енергийност | 42 kJ/10 kCal | Мазнини | 1 г | Полиненаситени мазнини | 0,59 g | Масло от Пореч (семена) | 408 mg | Омега-3 Мастни киселинни | (Алфа-Линоленова киселина-220 mg | Ейкозапентаенова киселина-120 mg | Докозахексаенова киселина-80 mg) | 420 mg | Омега-6 Мастни киселини | (Линолова киселина-180 mg, | Гама-Линолова лиселина-80 mg) | 268 mg | Омега-9 Мастни киселини (Олеинова киселина) | 152 mg | Рибено масло (50% Омега-3) | 400 mg",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 11.77
+        "bgn_per_1000mg_epa_dha": 0.53
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -79755,7 +79590,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 3,
+      "count": 60,
       "active": {
         "epa_mg": 720,
         "dha_mg": 720,
@@ -79764,7 +79599,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": "в 1 капсула | в максимална дневна доза | от 3 капсули | Чисто рибено масло, което осигурява: | Екозапантаенова киселина (EPA) | Докозахексаенова киселина (DHA) | Други Омега 3 мастни киселини | 1200 mg | 388 mg | 260 mg | 72 mg | 3600 mg | 1164 mg | 780 mg | 216 mg",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 8.9
+        "bgn_per_1000mg_epa_dha": 0.44
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -79977,7 +79812,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 3,
+      "count": 180,
       "active": {
         "epa_mg": 180,
         "dha_mg": 120,
@@ -79986,7 +79821,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": "Съставки в дневна препоръчителна доза от 1 гел капсула | Рибено масло: | 1000 mg | от които ейкозапентаенова киселина | 180 mg | от които докозахексаенова киселина | 120 mg",
       "label_image": "https://static.framar.bg/thumbs/4/products/no_image.jpg",
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 42.16
+        "bgn_per_1000mg_epa_dha": 0.7
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -80162,7 +79997,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 9,
+      "count": 90,
       "active": {
         "epa_mg": 60,
         "dha_mg": 333,
@@ -80171,7 +80006,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": "Съдържание: | В 1 капсула: | Рибено масло | 333 мг | DHA (докозахексаенова киселина) | 40 мг | EPA (ейкозапентаенова киселина) | 60 мг | Масло от ленено семе | ALA (алфа линоленова киселина) | 334 мг | 167 мг | Масло от Пореч | ALA (алфа линоленова киселина) | 333 мг | 60 мг",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 8.2
+        "bgn_per_1000mg_epa_dha": 0.82
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -80310,7 +80145,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 1.0,
       "servings": null,
-      "count": 3,
+      "count": 90,
       "active": {
         "epa_mg": 470,
         "dha_mg": 235,
@@ -80319,7 +80154,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": "Енергия | 37 kJ/9 kcal | Общи мазнини | 1 g | Полиненаситени мазнини | 660 mg | Мононенаситени мазнини | 150 mg | Холестерол | 10 mg | Рибено масло | 1000 mg | Омега-3 мастни киселини | 470 mg | EPA (ейкозапентаенова киселина) | 235 mg | DHA (докозахексаенова киселина) | 165 mg",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 16.08
+        "bgn_per_1000mg_epa_dha": 0.54
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -80717,7 +80552,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 3,
+      "count": 80,
       "active": {
         "epa_mg": 160,
         "dha_mg": 106,
@@ -80726,7 +80561,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": "Съставки: | (в 2 капсули/дневна доза) | %NRV* | Рибено масло (от аншоа, сафрид, сардина, корюшка, скумрия), осигуряващо | 1000 mg | ** | Омега-3 | 336 mg | ** | EPA | 160 mg | ** | DHA | 106 mg | ** | Витамин Е (d-алфа токоферил ацетат) | 9.4 mg | 78% | Енергийна стойност | 42.8 kJ/ 10.4 kCal | Мазнини | 1000 mg | Наситени | 270 mg | Мононенаситени | 250 mg | Полиненаситени | 480 mg | Протеини | 240 mg | Въглехидрати | 50 mg",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 46.87
+        "bgn_per_1000mg_epa_dha": 1.76
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -80865,7 +80700,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 3.0,
       "servings": null,
-      "count": 3,
+      "count": 180,
       "active": {
         "epa_mg": 750,
         "dha_mg": 500,
@@ -80874,7 +80709,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": "Състав: | В 3 дражета: | Енергийност | 125,6 kJ/30 kcal | Мазнини | 3 g | Наситени мазнини | < 1,5 g | Полиненаситени мазнини | 2,7 g | Мононенаситени мазнини | < 1,5 g | Холестерол | 0 mg | Натурален концентрат от рибено масло | (Омега 3 мастни киселини - 750 mg | Ейкозапентаенова киселина - 500 mg | Докозахексаенова киселина - 250 mg | 1000 mg",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 14.93
+        "bgn_per_1000mg_epa_dha": 0.25
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -80902,7 +80737,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 1.0,
       "servings": null,
-      "count": 3,
+      "count": 100,
       "active": {
         "epa_mg": 1000,
         "dha_mg": 1000,
@@ -80911,7 +80746,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": "Съставки: | В 1 драже: | Енергийност | 42 kJ/10 kcal | Холестерол | 10 mg | Мазнини | 1 g | Рибено масло | Ейкозапентаенова киселина | Докозахексаенова Киселина | 1000 mg | 180 mg | 120 mg",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 3.07
+        "bgn_per_1000mg_epa_dha": 0.09
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -80939,7 +80774,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 1.0,
       "servings": null,
-      "count": 9,
+      "count": 100,
       "active": {
         "epa_mg": 220,
         "dha_mg": 120,
@@ -80948,7 +80783,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": "Съставки: | В 1 драже: | Енергийност | 42 kJ/10 kCal | Мазнини | 1 г | Полиненаситени мазнини | 0,59 g | Масло от Пореч (семена) | 408 mg | Омега-3 Мастни киселинни | (Алфа-Линоленова киселина-220 mg | Ейкозапентаенова киселина-120 mg | Докозахексаенова киселина-80 mg) | 420 mg | Омега-6 Мастни киселини | (Линолова киселина-180 mg, | Гама-Линолова лиселина-80 mg) | 268 mg | Омега-9 Мастни киселини (Олеинова киселина) | 152 mg | Рибено масло (50% Омега-3) | 400 mg",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 7.06
+        "bgn_per_1000mg_epa_dha": 0.64
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -81198,7 +81033,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 1.2024,
       "servings": null,
-      "count": 3,
+      "count": 200,
       "active": {
         "epa_mg": 2000,
         "dha_mg": 2000,
@@ -81207,7 +81042,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": "Съставки и количество | за дневен прием | Концентрат от рибено масло | Ейкозапентаенова киселина | Докозахексаенова киселина | 2000 mg | 360 mg | 240 mg",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 4.58
+        "bgn_per_1000mg_epa_dha": 0.07
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -81235,7 +81070,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 1.0,
       "servings": null,
-      "count": 3,
+      "count": 90,
       "active": {
         "epa_mg": 500,
         "dha_mg": 750,
@@ -81244,7 +81079,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": "Съставки: | Съдържание (1 драже) | Омега-3 мастни киселини: | 750 mg | DHA: | 500 mg | EPA: | 250 mg | Натурално рибено масло: | 1 g | Калории: | 10 kcal (42 kJ) | Мазнини: | 1 g | Полиненаситени мазнини: | 0.9 g | Наситени мазнини: | < 0.5 g | Мононенаситени мазнини: | < 0.5 g",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 16.8
+        "bgn_per_1000mg_epa_dha": 0.56
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -81272,7 +81107,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 3,
+      "count": 100,
       "active": {
         "epa_mg": 349,
         "dha_mg": 240,
@@ -81281,7 +81116,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": "Съставки и хранителни стойности: | на препоръчителна дневна доза (1 драже): | Рибено масло | 1000 mg | Омега 3 мастни киселини | 349 | mg | ЕРА (ейкозапентаноева киселина) | 180 | mg | DHA (докозахексаноева киселина) | 240 | mg | Други Омега 3 мастни киселини | 0,08 | mg | Калории | 20 kcal",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 16.98
+        "bgn_per_1000mg_epa_dha": 0.51
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -81420,7 +81255,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 9,
+      "count": 60,
       "active": {
         "epa_mg": 195,
         "dha_mg": 115,
@@ -81429,7 +81264,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": "Всяка капсула | съдържа | рибено масло | 433,3 mg | ленено масло | 433,3 mg | масло от пореч, които съдържат: | 433,3 mg | омега-3 мастни киселини: | алфа линолова киселина | 195 mg | ейкозапентаенова киселина (EPA) | 115 mg | докозахексаенова киселина (DHA) | 74 mg | омега-6 мастни киселини: | линолова киселина | 200 mg | гама-линоленова киселина | 82 mg | омега 9 мастни киселини: олеинова киселина | 108 mg",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 34.52
+        "bgn_per_1000mg_epa_dha": 5.18
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -81605,7 +81440,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 1.5,
       "servings": null,
-      "count": 15,
+      "count": 90,
       "active": {
         "epa_mg": 70,
         "dha_mg": 45,
@@ -81614,7 +81449,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": "Съдържание: | 1 капсула | % ПДП | Калории | 15 | ** | Калории от мазнини | 15 | ** | Общо мазнини | 1.5 g | 2% | Наситени мазнини | 0 g | 0% | Транс мазнини | 0 g | ** | Полиненаситени мазнини | 0.5 g | ** | Мононенаситени мазнини | 0 g | ** | Холестерол | 5 mg | 2% | Омега 3 рибено масло (от хамсия, атлантическа треска, скумрия, сардина) | 400 mg | ** | EPA | 70 mg | ** | DHA | 45 mg | ** | Ленено масло | 400 mg | ** | Алфа-линоленова киселина | 200 mg | ** | Линолова киселина | 50 mg | ** | Олеинова киселина | 60 mg | ** | Масло от пореч | 400 mg | ** | Гама линоленова киселина | 70 mg | ** | Линолова киселина | 125 mg | ** | Олеинова киселина | 55 mg | **",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 23.17
+        "bgn_per_1000mg_epa_dha": 3.86
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -81679,7 +81514,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 3,
+      "count": 60,
       "active": {
         "epa_mg": 1000,
         "dha_mg": 1000,
@@ -81688,7 +81523,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": "Съставки | За 1 капсула | Омега-3 концентрат от Рибено Масло | от които | Ейкозапентаенова киселина (EPA) | Докозахексаенова киселина (DHA) | 1000 mg | 180 mg | 120 mg | Витамин E | 5 mg",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 3.6
+        "bgn_per_1000mg_epa_dha": 0.18
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -81790,7 +81625,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 3,
+      "count": 30,
       "active": {
         "epa_mg": 190,
         "dha_mg": 250,
@@ -81799,7 +81634,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": "Съставки: | Дневна дозировка (= 1 капсула) | % от ХРС* | Масло от морски риби, съдържащо: | 580 mg | ** | DHA | 130 mg | EPA | 190 mg | Витамин C | 120 mg | 150 | Витамин E | 12 mg α-TE | 100 | Лутеин | 12 mg | ** | Цинк | 10 mg | 100 | Витамин B | 2 | 1,4 mg | 100 | Зеаксантин | 1 mg | ** | Мед | 0,5 mg | 50 | Витамин A | 400 μg RE | 50 | Селен | 55 μg | 100",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 18.15
+        "bgn_per_1000mg_epa_dha": 1.82
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -81864,7 +81699,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 3,
+      "count": 90,
       "active": {
         "epa_mg": 3000,
         "dha_mg": 900,
@@ -81873,7 +81708,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": "1 мека капсула съдържа: | Дива сьомга & комплекс рибено масло | осигуряващи Омега 3 мастни киселини - в това число: | 1000 mg | 300 mg | ЕРА (Eicosapentaenoic Acid TG) | 180 mg | DHA (Docosahexaenoic Acid TG) | 120 mg | 3 меки капсули съдържат: | Дива сьомга & комплекс рибено масло | осигуряващи Омега 3 мастни киселини - в това число: | EPA (Eicosapentaenoic Acid TG) | 3000 mg | 900 mg | DHA (Docosahexaenoic Acid TG) | 540 mg | (Добити от чисто молекулярно дестилирани сардини, аншоа и рибено масло от дива сьомга от Аляска, в натурално биоактивна TG триглицеридна форма) | 360 mg",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 4.57
+        "bgn_per_1000mg_epa_dha": 0.15
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -81938,7 +81773,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 11.0,
       "servings": null,
-      "count": 12,
+      "count": 60,
       "active": {
         "epa_mg": 250,
         "dha_mg": 360,
@@ -81947,7 +81782,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": "Съставки: | Съдържание в 1 капсула | Дневна дозировка (=2 капсули) | % от XPC* | Масло от морски риби | 1000 mg съдържат | 2000 mg съдържат | ** | 300 mg омега-3 мастни киселини | 600 mg омега-3 мастни киселини | ** | ЕРА | 180 mg | 360 mg | DHA | 120 mg | 240 mg | Витамин Е | 10 mg α-ТЕ | 20 mg α-ТЕ | 167 | Витамин B6 | 3 mg | 6 mg | 429 | Фолиева киселина | 300 μg | 600 μg | 300 | Витамин Β12 | 3 μg | 6 μg | 240",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 3.51
+        "bgn_per_1000mg_epa_dha": 0.7
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -81975,7 +81810,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 30,
+      "count": 60,
       "active": {
         "epa_mg": 180,
         "dha_mg": 360,
@@ -81984,7 +81819,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": "Съставки: | Съдържание в 1 капсула | Дневна дозировка (=2 капсули) | % отХРС* | Масло от морски риби | 1000 mg съдържат | 300 mg омега-3 мастни киселини | 2000 mg съдържат | 600 mg омега-3 мастни киселини | ** | ЕРА | 180 mg | 360 mg | DHA | 120 mg | 240 mg | Витамин Е | 12 mg a-ТЕ | 24 mg a-ТЕ | 200",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 1.59
+        "bgn_per_1000mg_epa_dha": 0.8
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -82012,7 +81847,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 3,
+      "count": 60,
       "active": {
         "epa_mg": 90,
         "dha_mg": 250,
@@ -82021,7 +81856,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": "Съставки: | Съдържание в 1 капсула | Дневна дозировка (= 2 капсули) | % от XPC* | Масло от морски риби | 500 mg съдържат | 150 mg омега-3 мастни киселини | 1000 mg съдържат | 300 mg омега-3 мастни киселини | ** | ЕРА | 90 mg | 180 mg | DHA | 60 mg | 120 mg | Екстракт от листа на гинко билоба | 50 mg | 100 mg | ** | Ниацин | 8 mg NE | 16 mg NE | 100 | Витамин Е | 6 mg (a-TE) | 12 mg (a-TE) | 100 | Пантотенова киселина | 4,5 mg | 9 mg | 150 | Витамин B1 | 0,55 mg | 1,1 mg | 100 | Витамин В12 | 1,25 μg | 2,5 μg | 100",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 25.31
+        "bgn_per_1000mg_epa_dha": 1.27
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -84022,7 +83857,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 1,
+      "count": 120,
       "active": {
         "iron_mg": 27
       },
@@ -84267,14 +84102,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 6,
+      "count": 100,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки | в дневна доза (=1 капсула) | %ХРС* | Екстракт от зеленоуста мида | 960 mg | ** | Витамин E | 6 mg | 50% | Рибофлавин | 1,5 mg | 107% | Тиамин | 1,2 mg | 109% | Витамин B6 | 1,2 mg | 85% | Хром | 60 mg | 150% | Фолиева киселина | 210 мцг | 105%",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 2.88
+        "bgn_per_b_complex_serving": 0.17
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -84407,14 +84242,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 1,
+      "count": 60,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки | 1 таблетка | 2 таблетки | Витамин B1 (Тиамин хидрохлорид) | 0.085 mg | 0.17 mg | Витамин B2 (Рибофлавин) | 0.105 mg | 0.21 mg | Витамин B6 (Пиридоксин хидрохлорид) | 0.105 mg | 0.21 mg | Витамин B12 (Цианокобаламин) | 250 μg | 500 μg | L-Глутамин | 15 mg | 30 mg | L-Серин | 10 mg | 20 mg",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 16.23
+        "bgn_per_b_complex_serving": 0.27
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -84477,14 +84312,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 18.0,
       "servings": null,
-      "count": 6,
+      "count": 60,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки | (в 1 капс./дн. доза) | %NRV* | GABA (гама-аминомаслена киселина) | 500 mg | ** | Витамин B6 (пиридоксин хидрохлорид) | 1.4 mg | 100%",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 5.79
+        "bgn_per_b_complex_serving": 0.58
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -84582,14 +84417,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 6,
+      "count": 100,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки | в дневна доза (=1 капсула) | %ХРС* | Черен Кохош корен | 280 mg | ** | Витамин B6 | 0,4 mg | 29%",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 3.52
+        "bgn_per_b_complex_serving": 0.21
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -84617,14 +84452,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 18.0,
       "servings": null,
-      "count": 12,
+      "count": 90,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки | (в 2 капс./дн. доза) | %NRV* | Грифония /Griffonia simplicifolia/ екстракт от семена на прах | 600 mg | ** | Афрон /Crocus sativus L./, екстракт от шафран (стигма) | 28 mg | ** | ГАБА (гама-аминомаслена киселина) | 300 mg | ** | Витамин B2 (рибофлавин) | 1.4 mg | 100% | Витамин B6 (пиридоксин хидрохлорид) | 1.4 mg | 100% | Витамин B12 (цианокобаламин) | 2.5 μg | 100%",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 3.97
+        "bgn_per_b_complex_serving": 0.53
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -84652,14 +84487,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 1,
+      "count": 180,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки: | (в 1 капсула/дневна доза) | %NRV* | Червен ориз /Monascus Purpureus/ (дрожди) | от които монаколин K | 290 mg | 2.9 mg | ** | ** | Коензим Q10 (убихинон) | 10 mg | ** | Витамин B1 (тиамин хидрохлорид) | 1.5 mg | 136%",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 74.13
+        "bgn_per_b_complex_serving": 0.41
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -84722,14 +84557,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 18.0,
       "servings": null,
-      "count": 12,
+      "count": 60,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки | (в 1 капс./дн. доза) | %NRV* | L-триптофан | 50 mg | ** | Мелатонин | 1 mg | ** | Витамин B6 (пиридоксин хидрохлорид) | 1.4 mg | 100% | Витамин B12 (цианокобаламин) | 2.5 μg | 100%",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 2.25
+        "bgn_per_b_complex_serving": 0.45
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -84897,14 +84732,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 18.0,
       "servings": null,
-      "count": 6,
+      "count": 60,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "1 таблетка от 1550 mg съдържа: | Магнезий | под формата на бисглицинат | 200 mg (53%) | 1000 mg | Витамин B6 | 0,7 mg (50%)",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 4.24
+        "bgn_per_b_complex_serving": 0.42
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -85037,14 +84872,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 6,
+      "count": 50,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки | (в 3 табл./дн.доза) | %NRV* | Валериана /Valeriana officinalis L./, екстракт от корен на 4:1 | 60 mg | ** | Витамин B6 (пиридоксин хидрохлорид) | 1.5 mg | 107%",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 1.58
+        "bgn_per_b_complex_serving": 0.19
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -85107,14 +84942,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 18.0,
       "servings": null,
-      "count": 3,
+      "count": 60,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки | (в 1 капс. / дн. доза) | %NRV* | Витамин B3 (никотинамид) | 500 mg | 3125%",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 8.78
+        "bgn_per_b_complex_serving": 0.44
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -85212,14 +85047,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 12,
+      "count": 50,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "В дневна доза 1 таблетка (1000 mcg) | количество | % дневна доза* | Витамин B-12 (метилкобаламин) | Vitamin B-12 (As Methylcobalamin) | 1000 mcg | 16667% | Други съставки: микрокристална целулоза, аерозил, магнезиев стеарат",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 1.17
+        "bgn_per_b_complex_serving": 0.28
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -85247,14 +85082,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 18.0,
       "servings": null,
-      "count": 5,
+      "count": 60,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки | (в 1 капс. / дн. доза) | %NRV* | Витамин B5 (калциев d пантотенат), осигуряващ | 542 mg | ** | Пантотенова киселина | 500 mg | 8333%",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 5.27
+        "bgn_per_b_complex_serving": 0.44
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -85317,14 +85152,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 12,
+      "count": 150,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "В дневна доза 1 таблетка (1000 mcg) | количество | % дневна доза* | Витамин B-12 (метилкобаламин) | Vitamin B-12 (As Methylcobalamin) | 1000 mcg | 16667% | Други съставки: микрокристална целулоза, аерозил, магнезиев стеарат",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 2.5
+        "bgn_per_b_complex_serving": 0.2
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -85387,14 +85222,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 12.2017,
       "servings": null,
-      "count": 6,
+      "count": 100,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки: | В дневна доза (= 2 капсули): | %РСХ*: | Хесперидин | 640 mg | ** | Витамин B6 | 0.6 mg | 43%",
       "label_image": "https://static.framar.bg/thumbs/4/products/no_image.jpg",
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 2.2
+        "bgn_per_b_complex_serving": 0.13
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -85597,14 +85432,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 1.2015,
       "servings": null,
-      "count": 6,
+      "count": 100,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки: | в дневна доза (= 4 капсули): | %РСХ* | Бял трън | от който силимарин | 1520 mg | 60.8 mg | ** | ** | Витамин B6 | 1200 μg | 86%",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 3.73
+        "bgn_per_b_complex_serving": 0.22
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -85912,14 +85747,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 6,
+      "count": 100,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки: | В дневна доза (= 3 капсули): | %NRV*: | Бромелаин от ананас | 1050 mg | ** | Витамин B6 | 1,2 mg | 86%",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 3.41
+        "bgn_per_b_complex_serving": 0.2
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -85947,14 +85782,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 1.2025,
       "servings": null,
-      "count": 12,
+      "count": 120,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки: | в дневна препоръчителна доза от 1 таблетка: | Витамин B12 (като метилкобаламин) | 100 mcg (4000%)",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 0.83
+        "bgn_per_b_complex_serving": 0.08
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -85982,14 +85817,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 6,
+      "count": 30,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Количество вещества с физиологичен ефект | в 1 капсула | Магнезий (магнезиев бисглицинат (магнезиев аминокиселинен хелат AlbionTM)) | 100 mg | Витамин B6 (пиридоксин хлорид) | 2,1 mg",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 2.67
+        "bgn_per_b_complex_serving": 0.53
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -86017,14 +85852,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 6,
+      "count": 100,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки: | в дневна доза (= 3 капсули) | %РСХ* | Лактобацилус ацидофилус | 1348.8 mg | ** | Витамин B6 | 1.2 mg | 86%",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 3.41
+        "bgn_per_b_complex_serving": 0.2
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -86052,14 +85887,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 10.2011,
       "servings": null,
-      "count": 6,
+      "count": 60,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки: | 1 капсула: | 2 капсули: | %ДРС* | Стандартизиран екстракт (надземни части) Бакопа Мониери /Bacopa monnieri extract whole piant - standardized to 50% Bacosides/ | 450 mg | 900 mg | ** | Витамин B6 - Пиридоксин /Pyridoxine hydrochloride 98%/ | 1,4 mg | 2,8 mg | 200%",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 7.15
+        "bgn_per_b_complex_serving": 0.71
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -86157,14 +85992,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 9.2023,
       "servings": null,
-      "count": 12,
+      "count": 30,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки: | Дневна дозировка (=1 таблетка): | % от ХРС** | Витамин B12 | 500 μg | 20.000",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 0.59
+        "bgn_per_b_complex_serving": 0.24
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -86192,14 +86027,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 6,
+      "count": 100,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки: | в дневна доза | (=2 капсула): | %РСХ*: | Родиола | 500 mg | ** | Витамин B6 | 1,4 mg | 100%",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 3.41
+        "bgn_per_b_complex_serving": 0.2
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -86297,14 +86132,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 6,
+      "count": 100,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки: | В дневна доза (= 4 капсула): | %РСХ*: | Пигеум | 1080 mg | ** | Витамин B6 | 800 μg | 57%",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 3.18
+        "bgn_per_b_complex_serving": 0.19
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -86367,14 +86202,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 6,
+      "count": 100,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки: | В дневна доза (= 2 капсули): | %РСХ*: | Жълт кантарион | 520 mg | ** | Витамин B6 | 0,8 mg | 57%",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 2.69
+        "bgn_per_b_complex_serving": 0.16
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -86402,14 +86237,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 30.0,
       "servings": null,
-      "count": 6,
+      "count": 100,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки: | В дневна доза (= 1 капсула): | %РСХ*: | L-метионин | 350 mg | ** | Витамин B6 | 1 mg | 71%",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 2.22
+        "bgn_per_b_complex_serving": 0.13
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -86437,14 +86272,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 12,
+      "count": 30,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Хранителни стойности | в препоръчваната доза за дневен прием (1 капсула): | Активно вещество | 1 капсула | Липозомен витамин В12 | 25 μg (1000%*)",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 1.7
+        "bgn_per_b_complex_serving": 0.68
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -86472,14 +86307,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 8.2018,
       "servings": null,
-      "count": 6,
+      "count": 100,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки: | В дневна доза (= 6 капсули): | %РСХ*: | Смирна | 2279 mg | ** | Витамин B6 | 1,2 mg | 86%",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 3.11
+        "bgn_per_b_complex_serving": 0.19
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -86577,14 +86412,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 6,
+      "count": 120,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки: | (в 2 капсули / дневна доза): | %NRV* | Босвелия (Bosswelia serrata) , екстракт от смола, осигуряващ | босвелиеви киселини | 1000 mg | 650 mg | ** | ** | Витамин В1 (тиамин хидрохлорид) | 3 mg | 272% | Витамин В2 (рибофлавин) | 2.8 mg | 200% | Витамин В6 (пиридоксин хидрохлорид) | 3.3 mg | 235%",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 10.97
+        "bgn_per_b_complex_serving": 0.55
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -86892,14 +86727,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 6,
+      "count": 100,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки: | В дневна доза (= 1 капсула): | %РСХ*: | Шатавари | 440 mg | ** | Витамин B6 | 400 μg | 29%",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 3.08
+        "bgn_per_b_complex_serving": 0.18
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -86962,14 +86797,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 6,
+      "count": 60,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки: | В дневна доза (= 1 капсула): | %РСХ*: | Черен кохош | 280 mg | ** | Витамин B6 | 400 μg | 29%",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 3.52
+        "bgn_per_b_complex_serving": 0.35
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -86997,14 +86832,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 18.0,
       "servings": null,
-      "count": 1,
+      "count": 60,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки: | (в 6 таблетки./ дн. доза) | %NRV* | ГАБА | (гама-аминобутирова киселина) | 6000 mg | ** | Витамин B1 | (тиамин хидрохлорид) | 1.2 mg | 109% | Цинков цитрат | Осигуряващ | Елементарен цинк | 29.04 mg | 9 mg | ** | 90%",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 69.82
+        "bgn_per_b_complex_serving": 1.16
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -87207,14 +87042,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 12,
+      "count": 100,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки: | В дневна доза (= 6 капсули): | %РСХ*: | Синя хвойна | 1800 mg | ** | Витамин B12 | 3 μg | 120%",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 1.5
+        "bgn_per_b_complex_serving": 0.18
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -87242,14 +87077,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 6,
+      "count": 100,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки: | В дневна доза (= 4 капсули): | %РСХ*: | Бяла ружа | 80 mg | ** | Витамин B6 | 840 μg | 60%",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 3.41
+        "bgn_per_b_complex_serving": 0.2
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -87277,14 +87112,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 325.0,
       "servings": null,
-      "count": 12,
+      "count": 60,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки: | В дневна доза (= 1 капсула): | %РСХ*: | Гуарана, | от която кофеин | 120 mg | 9,6 mg | ** | ** | Зелен чай, | от който | полифеноли | от който | кофеин | 80 mg | 40 mg | 5,6 mg | ** | ** | ** | Корейски жен шен, | от който женшеноиди | 40 mg | 800 μg | ** | ** | Ядки на кола | 30 mg | ** | Какао | 20 mg | ** | Пчелен прашец | 20 mg | ** | Елеутерокок | 20 mg | ** | Витамин B12 | 40 μg | 1600%",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 2.07
+        "bgn_per_b_complex_serving": 0.41
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -87487,14 +87322,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 6,
+      "count": 60,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки: | В дневна доза (= 3 капсули): | %РСХ*: | Инозитол | 525 mg | ** | L-Метионин | 525 mg | ** | Витамин B6 | 1 mg | 71%",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 2.69
+        "bgn_per_b_complex_serving": 0.27
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -87592,14 +87427,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 6,
+      "count": 100,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки: | В дневна доза (= 3 капсули): | %РСХ*: | Шлемник байкалски | 810 mg | ** | Витамин B6 | 4,2 mg | 300%",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 1.78
+        "bgn_per_b_complex_serving": 0.11
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -87697,14 +87532,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 10.0,
       "servings": null,
-      "count": 6,
+      "count": 100,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки: | в 1 таблетка/дневна доза | %NRV* | Мелатонин | 1 mg | ** | Витамин B6 (пиридоксин хидрохлорид) | 0,21 mg | 15%",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 1.94
+        "bgn_per_b_complex_serving": 0.12
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -87732,14 +87567,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 5.2016,
       "servings": null,
-      "count": 6,
+      "count": 100,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки: | В дневна доза (= 2 капсули): | %РСХ*: | Сминдух | 800 mg | ** | Витамин B6 | 400 μg | 29%",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 3.11
+        "bgn_per_b_complex_serving": 0.19
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -87767,14 +87602,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 2.2024,
       "servings": null,
-      "count": 6,
+      "count": 30,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки: | в 1/2 таблетка | *ПДП | в 1 таблетка | Магнезий | (Магнезиев оксид) | 242.25 mg | 64.5 % | 484.50 mg | 808 mg | Магнезий | (Магнезиев цитрат) | 7.75 mg | 2 % | 15.5 mg | 100 mg | Витамин B6 (Пиридоксин) | 2.5 mg | 178 % | 5 mg",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 2.54
+        "bgn_per_b_complex_serving": 0.51
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -87802,14 +87637,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 1.0,
       "servings": null,
-      "count": 6,
+      "count": 100,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки: | В дневна доза (= 2 капсули): | %РСХ*: | Инвертаза | 80 mg | ** | Целулаза | 80 mg | ** | Хемицелулаза | 80 mg | ** | Липаза | 80 mg | ** | Гъбична амилаза | 80 mg | ** | Киселинна протеаза | 80 mg | ** | Витамин B6 | 0,4 mg | 28%",
       "label_image": "https://static.framar.bg/thumbs/4/products/no_image.jpg",
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 2.85
+        "bgn_per_b_complex_serving": 0.17
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -87837,14 +87672,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 6,
+      "count": 60,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки: | В дневна доза (= 2 капсули): | %РСХ*: | DL-фенилаланин | 400 mg | ** | Витамин B6 | 1,4 mg | 100%",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 2.69
+        "bgn_per_b_complex_serving": 0.27
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -87907,14 +87742,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 8.2018,
       "servings": null,
-      "count": 6,
+      "count": 100,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки: | В дневна доза (= 6 капсули): | %РСХ*: | Благословен трън | 1500 mg | ** | Витамин B6 | 600 μg | 43%",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 2.59
+        "bgn_per_b_complex_serving": 0.16
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -88152,14 +87987,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 6,
+      "count": 60,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки: | В дневна доза (= 1 капсула): | %РСХ*: | L-метионин | 350 mg | ** | Витамин B6 | 1 mg | 71%",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 1.99
+        "bgn_per_b_complex_serving": 0.2
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -88257,14 +88092,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 6,
+      "count": 60,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки: | В дневна доза (= 1 капсула): | %РСХ*: | Бял трън, | от който Силимарин | 140 mg | 98 mg | ** | ** | Репей | 140 mg | ** | Глухарче | 140 mg | ** | Витамин B6 | 300 μg | 21%",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 2.07
+        "bgn_per_b_complex_serving": 0.21
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -88292,14 +88127,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 8.2018,
       "servings": null,
-      "count": 6,
+      "count": 60,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки: | В дневна доза (= 3 капсули): | %РСХ*: | L-Фенилаланин | 1260 mg | ** | Витамин B6 | 1,2 mg | 86%",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 2.95
+        "bgn_per_b_complex_serving": 0.29
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -88432,14 +88267,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 6,
+      "count": 60,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки: | В дневна доза (= 1 капсула): | %РСХ*: | L-аргинин | 160 mg | ** | Овес | 125 mg | ** | L-цитрулин | 100 mg | ** | Бабини зъби, от които | сапонини | 35 mg | 31,5 mg | ** | ** | Витамин B6 | 10 mg | 714%",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 3.52
+        "bgn_per_b_complex_serving": 0.35
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -88467,14 +88302,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 200.0,
       "servings": null,
-      "count": 12,
+      "count": 180,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Дневна доза 2 капсули | Състав в 2 капсули | % от NRV* | Витамин B6 (пиридоксин хидрохлорид) | 1.4 мг | 100% | Витамин B12 (метилкобаламин) | 200 мкг | 8000% | L-левцин (L-Leucine) | 500 мг | ** | L-валин (L-Valine) | 250 мг | ** | L-изолевцин (L-Isoleucine) | 250 мг | **",
       "label_image": "https://static.framar.bg/thumbs/4/products/no_image.jpg",
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 4.33
+        "bgn_per_b_complex_serving": 0.29
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -88502,14 +88337,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 6,
+      "count": 100,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки: | В дневна доза (= 2 капсули): | %РСХ*: | Ангелика | 540 mg | ** | Витамин B6 | 400 μg | 29%",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 1.97
+        "bgn_per_b_complex_serving": 0.12
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -88537,14 +88372,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 8.2018,
       "servings": null,
-      "count": 6,
+      "count": 100,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки: | В дневна доза (= 2 капсули): | %РСХ*: | D-рибоза | 1080 mg | ** | Витамин B6 | 800 μg | 57%",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 4.51
+        "bgn_per_b_complex_serving": 0.27
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -88642,14 +88477,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 225.0,
       "servings": null,
-      "count": 6,
+      "count": 100,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки: | В дневна доза (= 4 капсули): | %РСХ*: | Лецитин (от соя) | 600 mg | ** | Люцерна | 300 mg | ** | Ябълков оцет | 240 mg | ** | Атлантически келп | 120 mg | ** | Витамин B6 | 20 mg | 1430%",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 2.72
+        "bgn_per_b_complex_serving": 0.16
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -88677,14 +88512,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 6,
+      "count": 100,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки: | В дневна доза (= 4 капсули): | %РСХ*: | Хлорела | 1000 mg | ** | Витамин B6 | 1,2 mg | 86%",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 2.07
+        "bgn_per_b_complex_serving": 0.12
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -88782,14 +88617,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 12,
+      "count": 60,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки: | в дневна доза (= 4 капсули) | %РСХ* | Мента, от която | ментол | 332 mg | 1,32 mg | ** | Глог, от който | флавоноиди | 332 mg | 5 mg | ** | Валериана, от която | валерианова киселина | 332 mg | 0.33 mg | ** | Витамин B12 | 20 μg | 800%",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 1.03
+        "bgn_per_b_complex_serving": 0.21
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -88817,14 +88652,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 6,
+      "count": 100,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки: | В дневна доза (= 1 капсула): | %РСХ*: | Жълт кантарион | 260 mg | ** | Витамин B6 | 400 μg | 29%",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 1.66
+        "bgn_per_b_complex_serving": 0.1
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -88852,14 +88687,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 12,
+      "count": 100,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки: | В дневна доза (= 3 капсули): | %РСХ*: | Корейски жен шен, | от който женшеноиди | 960 mg | 19,2 mg | ** | ** | Витамин B12 | 3 μg | 120%",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 1.44
+        "bgn_per_b_complex_serving": 0.17
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -88887,14 +88722,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 6,
+      "count": 100,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки: | В дневна доза (= 2 капсула): | %РСХ*: | Муира пуама | 740 mg | ** | Витамин B6 | 800 μg | 57%",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 2.88
+        "bgn_per_b_complex_serving": 0.17
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -88957,14 +88792,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 30.0,
       "servings": null,
-      "count": 12,
+      "count": 100,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки: | В дневна доза (= 4 капсули): | %РСХ*: | Свещен босилек | 600 mg | ** | Витамин B12 | 2 μg | 80%",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 1.59
+        "bgn_per_b_complex_serving": 0.19
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -89062,14 +88897,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 6,
+      "count": 100,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки: | В дневна доза (= 1 капсула): | %РСХ*: | Родиола | 210 mg | ** | Витамин B6 | 1 mg | 71%",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 2.98
+        "bgn_per_b_complex_serving": 0.18
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -89272,14 +89107,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 6,
+      "count": 100,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки: | В дневна доза (= 1 капсула): | %РСХ*: | Червена детелина | 150 mg | ** | Витамин B6 | 1 mg | 71%",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 2.69
+        "bgn_per_b_complex_serving": 0.16
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -89307,14 +89142,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 6,
+      "count": 100,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки: | В дневна доза (= 2 капсули): | %РСХ*: | L-Аргинин | 900 mg | ** | Витамин B6 | 800 μg | 57%",
       "label_image": "https://static.framar.bg/thumbs/6/products/bioherba-l-arginin-b-shest-etiket-edno.jpg",
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 2.66
+        "bgn_per_b_complex_serving": 0.16
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -89482,14 +89317,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 6,
+      "count": 100,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки: | В дневна доза (= 3 капсули): | %РСХ*: | Спирулина, | от която Витамин B12 | 1080 mg | 0,1 μg | ** | 0,0001% | Витамин B6 | 900 | μg | 64%",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 2.2
+        "bgn_per_b_complex_serving": 0.13
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -89517,14 +89352,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 6,
+      "count": 60,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки: | В дневна доза (= 1 капсула): | %РСХ*: | Готу кола | 120 mg | ** | Гинко билоба, | от която флавоноиди | 59 mg | 14,2 mg | ** | ** | L-глутамин | 120 mg | ** | Хуперзин A | 0,2 mg | ** | Витамин B6 | 1 mg | 71%",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 3.11
+        "bgn_per_b_complex_serving": 0.31
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -89622,14 +89457,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 280.0,
       "servings": null,
-      "count": 6,
+      "count": 100,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки: | В дневна доза (= 3 капсули): | %РСХ*: | Глухарче | 1050 mg | ** | Витамин B6 | 900 μg | 64%",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 2.85
+        "bgn_per_b_complex_serving": 0.17
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -89692,14 +89527,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 6,
+      "count": 100,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки: | В дневна доза (= 4 капсули): | %РСХ*: | Див сладък картоф | 1320 mg | ** | Витамин B6 | 1,4 mg | 100%",
       "label_image": "https://static.framar.bg/thumbs/4/products/femi-health-yotovska.jpg",
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 1.88
+        "bgn_per_b_complex_serving": 0.11
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -89902,14 +89737,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 2,
+      "count": 90,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки | за 1 капсула | Витамин B2 (R-5-P/Рибофлавин-5-фосфат) | 100 mg",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 16.96
+        "bgn_per_b_complex_serving": 0.38
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -89972,14 +89807,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 6,
+      "count": 60,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки | в 1 капс. | дн. доза 2 капс. | Африканско манго екстракт | 150 mg | 300 mg | Витамин B6 | 0.7 mg | 1.4 mg | Хром | 20 μg | 40 μg",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 3.15
+        "bgn_per_b_complex_serving": 0.31
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -90252,14 +90087,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 10.0,
       "servings": null,
-      "count": 6,
+      "count": 30,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Дневната доза съдържа: | количество за 1 капсула | *% DRV | Мелатонин | 1 mg | ** | Витамин B6 (пиридоксин хидрохлорид) | 2 mg | 142,9%",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 2.9
+        "bgn_per_b_complex_serving": 0.58
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -90322,14 +90157,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 12,
+      "count": 30,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съдържание в 1 капсула | Дозировка | Фолат (1000 mcg фолиева киселина) | 1665 μg DFE 500% от реф.стойност | Витамин B12 (като цианокобаламин) | 1000 μg 40000% от реф. стойност",
       "label_image": "https://static.framar.bg/thumbs/4/products/no_image.jpg",
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 1.42
+        "bgn_per_b_complex_serving": 0.57
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -90392,14 +90227,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 14,
+      "count": 100,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съдържание в 1 капсула | Дозировка | Витамин B6 (от пиридоксин HCI) | 100 mg",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 1.45
+        "bgn_per_b_complex_serving": 0.2
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -90602,14 +90437,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 12,
+      "count": 30,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съдържание | в 1⁄2 таблетка / препоръчителна дневна доза | Тиамин - Витамин B1(Tiamin HCL) | 1.25 mg | Рибофлавин - Витамин B2 | 1.25 mg | Ниацин (Ниацинамид) | 2.5 mg | Витамин B12 (Цианкобаламин) | 50 mg | Протеаза (Папаин на прах) | 5 mg",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 0.66
+        "bgn_per_b_complex_serving": 0.26
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -90917,14 +90752,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 12,
+      "count": 60,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съдържание | в 1⁄2 таблетка / препоръчителна дневна доза | Тиамин - Витамин B1(Tiamin HCL) | 1.25 mg | Рибофлавин - Витамин B2 | 1.25 mg | Ниацин (Ниацинамид) | 2.5 mg | Витамин B12 (Цианкобаламин) | 50 mg | Протеаза (Папаин на прах) | 5 mg",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 1.3
+        "bgn_per_b_complex_serving": 0.26
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -90952,14 +90787,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 6,
+      "count": 60,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Препоръчителната дневна доза съдържа: | 1 таблетка | 2 таблетки | 3 таблетки | 4 таблетки | Екстракт от глог | 120 mg | 240 mg | 360 mg | 480 mg | Екстракт от валериана | 100 mg | 200 mg | 300 mg | 400 mg | Екстракт от мента | 30 mg 60 mg 90 mg 120 mg | Витамин B6 | 1 mg | (71% ХРС*) | 2 mg | (143% ХРС*) | 3 mg | (214% ХРС*) | 4 mg | (286% ХРС*)",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 0.83
+        "bgn_per_b_complex_serving": 0.08
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -91022,14 +90857,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 7.2021,
       "servings": null,
-      "count": 12,
+      "count": 100,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Витамини: | дневна доза | % РС* | Витамин B12 (метилкобаламин) | 100 μg | 4000%",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 2.29
+        "bgn_per_b_complex_serving": 0.27
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -91547,14 +91382,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 6,
+      "count": 100,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки: | в дневна доза (= 2 капсули) | % PCX* | Родиола | 500 mg | *** | Витамин B6 | 1,4 mg | 100%",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 3.29
+        "bgn_per_b_complex_serving": 0.2
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -91652,14 +91487,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 0.5,
       "servings": null,
-      "count": 6,
+      "count": 100,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки | в препоръчителна дневна доза: | ГАБА | 500 mg | Витамин B6 | 2 mg",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 6.0
+        "bgn_per_b_complex_serving": 0.36
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -91757,14 +91592,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 12,
+      "count": 30,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": "Съставки | Съдържание в една доза | Съдържание в максимална дневна доза | Витамин B12 (като цианокобаламин) | 500 мкг | 500 мкг",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 1.09
+        "bgn_per_b_complex_serving": 0.44
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -92306,7 +92141,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 120,
+      "count": 30,
       "active": {
         "magnesium_mg": 400
       },
@@ -93601,7 +93436,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 7,
+      "count": 100,
       "active": {
         "magnesium_mg": 200
       },
@@ -93811,7 +93646,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 120,
+      "count": 60,
       "active": {
         "magnesium_mg": 500
       },
@@ -94126,7 +93961,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 7,
+      "count": 250,
       "active": {
         "magnesium_mg": 200
       },
@@ -94202,7 +94037,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 7,
+      "count": 100,
       "active": {
         "magnesium_mg": 200
       },
@@ -100148,47 +99983,6 @@ const SUPPLEMENTS_DATA = {
       ]
     },
     {
-      "id": "silabg-neocell-grassfed-collagen-peptides-vitamin-c-biotin-6000-mg-90-tabs",
-      "store": "SilaBG",
-      "name": "NEOCELL Grassfed Collagen Peptides + Vitamin C & Biotin 6000 mg / 90 Tabs",
-      "brand": "NEOCELL",
-      "category": "vitamin_c",
-      "url": "https://www.silabg.com/bg/42232-neocell-grassfed-collagen-peptides-vitamin-c-biotin-6000-mg-90-tabs.html",
-      "image": "https://www.silabg.com/uf/product/40780_Collagen_Peptides_90.jpg",
-      "price_bgn": 41.93,
-      "price_eur": 21.44,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": null,
-      "servings": null,
-      "count": 120,
-      "active": {
-        "vitamin_c_mg": 6000
-      },
-      "label_text": null,
-      "label_image": "https://www.silabg.com/uf/product/27595_allnutrition-coconut-oil-unrefined_small.jpg",
-      "price_per_active_unit": {
-        "bgn_per_1000mg_vitamin_c": 0.06
-      },
-      "unit_label": "лв / 1000 mg витамин C",
-      "confidence": "high",
-      "scraped_at": "2026-06-21T11:48:36.280952Z",
-      "price_history": [
-        {
-          "date": "2026-06-20",
-          "price_bgn": 41.93,
-          "price_eur": 21.44,
-          "unit_value": 0.06
-        },
-        {
-          "date": "2026-06-21",
-          "price_bgn": 41.93,
-          "price_eur": 21.44,
-          "unit_value": 0.06
-        }
-      ]
-    },
-    {
       "id": "silabg-hot-promo-vitamin-c-1000-mg-with-rose-hips-100-caps",
       "store": "SilaBG",
       "name": "HOT PROMO Vitamin C 1000 mg with Rose Hips / 100 Caps",
@@ -100325,7 +100119,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": 30,
-      "count": 120,
+      "count": 30,
       "active": {
         "vitamin_c_mg": 1000
       },
@@ -101212,14 +101006,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 120,
+      "count": 60,
       "active": {
         "vitamin_c_mg": 1000
       },
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_vitamin_c": 0.13
+        "bgn_per_1000mg_vitamin_c": 0.26
       },
       "unit_label": "лв / 1000 mg витамин C",
       "confidence": "high",
@@ -101422,14 +101216,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 120,
+      "count": 20,
       "active": {
         "vitamin_c_mg": 1000
       },
       "label_text": null,
       "label_image": "https://www.silabg.com/uf/product/30168_allnutrition-vitamin-c-effervescent.jpg",
       "price_per_active_unit": {
-        "bgn_per_1000mg_vitamin_c": 0.06
+        "bgn_per_1000mg_vitamin_c": 0.34
       },
       "unit_label": "лв / 1000 mg витамин C",
       "confidence": "high",
@@ -101562,7 +101356,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": 2,
-      "count": 14,
+      "count": 100,
       "active": {
         "vitamin_c_mg": 1000
       },
@@ -101702,14 +101496,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 120,
+      "count": 20,
       "active": {
         "vitamin_c_mg": 1000
       },
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_vitamin_c": 0.03
+        "bgn_per_1000mg_vitamin_c": 0.21
       },
       "unit_label": "лв / 1000 mg витамин C",
       "confidence": "high",
@@ -102402,14 +102196,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 120,
+      "count": 250,
       "active": {
         "vitamin_c_mg": 1000
       },
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_vitamin_c": 0.41
+        "bgn_per_1000mg_vitamin_c": 0.19
       },
       "unit_label": "лв / 1000 mg витамин C",
       "confidence": "high",
@@ -102729,7 +102523,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": 2,
-      "count": 0,
+      "count": 100,
       "active": {
         "vitamin_c_mg": 1000
       },
@@ -102805,14 +102599,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 7,
+      "count": 100,
       "active": {
         "vitamin_c_mg": 1000
       },
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_vitamin_c": 3.53
+        "bgn_per_1000mg_vitamin_c": 0.25
       },
       "unit_label": "лв / 1000 mg витамин C",
       "confidence": "high",
@@ -103244,7 +103038,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": 30,
-      "count": 120,
+      "count": 60,
       "active": {
         "multivitamin_serving": 1
       },
@@ -103326,7 +103120,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": 30,
-      "count": 120,
+      "count": 60,
       "active": {
         "multivitamin_serving": 1
       },
@@ -103367,14 +103161,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 120,
+      "count": 60,
       "active": {
         "multivitamin_serving": 1
       },
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_multivitamin_serving": 0.47
+        "bgn_per_multivitamin_serving": 0.94
       },
       "unit_label": "лв / доза мултивитамин",
       "confidence": "medium",
@@ -103437,14 +103231,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 120,
+      "count": 60,
       "active": {
         "multivitamin_serving": 1
       },
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_multivitamin_serving": 0.16
+        "bgn_per_multivitamin_serving": 0.31
       },
       "unit_label": "лв / доза мултивитамин",
       "confidence": "medium",
@@ -103583,14 +103377,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 120,
+      "count": 30,
       "active": {
         "multivitamin_serving": 1
       },
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_multivitamin_serving": 0.21
+        "bgn_per_multivitamin_serving": 0.84
       },
       "unit_label": "лв / доза мултивитамин",
       "confidence": "medium",
@@ -103723,14 +103517,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 120,
+      "count": 30,
       "active": {
         "multivitamin_serving": 1
       },
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_multivitamin_serving": 0.21
+        "bgn_per_multivitamin_serving": 0.84
       },
       "unit_label": "лв / доза мултивитамин",
       "confidence": "medium",
@@ -103933,14 +103727,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 120,
+      "count": 365,
       "active": {
         "multivitamin_serving": 1
       },
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_multivitamin_serving": 0.58
+        "bgn_per_multivitamin_serving": 0.19
       },
       "unit_label": "лв / доза мултивитамин",
       "confidence": "medium",
@@ -104038,14 +103832,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 120,
+      "count": 60,
       "active": {
         "multivitamin_serving": 1
       },
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_multivitamin_serving": 0.55
+        "bgn_per_multivitamin_serving": 1.09
       },
       "unit_label": "лв / доза мултивитамин",
       "confidence": "medium",
@@ -104808,14 +104602,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 120,
+      "count": 60,
       "active": {
         "multivitamin_serving": 1
       },
       "label_text": null,
       "label_image": "https://www.silabg.com/uf/stickers/thumb-22976_alive_garden_goodness_facts.jpg",
       "price_per_active_unit": {
-        "bgn_per_multivitamin_serving": 0.49
+        "bgn_per_multivitamin_serving": 0.98
       },
       "unit_label": "лв / доза мултивитамин",
       "confidence": "medium",
@@ -104843,14 +104637,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 12.0,
       "servings": null,
-      "count": 120,
+      "count": 30,
       "active": {
         "multivitamin_serving": 1
       },
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_multivitamin_serving": 0.23
+        "bgn_per_multivitamin_serving": 0.93
       },
       "unit_label": "лв / доза мултивитамин",
       "confidence": "medium",
@@ -104913,14 +104707,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 120,
+      "count": 60,
       "active": {
         "multivitamin_serving": 1
       },
       "label_text": null,
       "label_image": "https://www.silabg.com/uf/stickers/thumb-22975_alive_garden_goodness_men_facts.jpg",
       "price_per_active_unit": {
-        "bgn_per_multivitamin_serving": 0.47
+        "bgn_per_multivitamin_serving": 0.93
       },
       "unit_label": "лв / доза мултивитамин",
       "confidence": "medium",
@@ -105263,14 +105057,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 7,
+      "count": 90,
       "active": {
         "multivitamin_serving": 1
       },
       "label_text": null,
       "label_image": "https://www.silabg.com/uf/product/28434_allnutrition-coconut-oil-unrefined_small.jpg",
       "price_per_active_unit": {
-        "bgn_per_multivitamin_serving": 2.36
+        "bgn_per_multivitamin_serving": 0.18
       },
       "unit_label": "лв / доза мултивитамин",
       "confidence": "medium",
@@ -105438,14 +105232,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 12,
+      "count": 30,
       "active": {
         "multivitamin_serving": 1
       },
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_multivitamin_serving": 2.51
+        "bgn_per_multivitamin_serving": 1.0
       },
       "unit_label": "лв / доза мултивитамин",
       "confidence": "medium",
@@ -105584,14 +105378,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 7,
+      "count": 100,
       "active": {
         "multivitamin_serving": 1
       },
       "label_text": null,
       "label_image": "https://www.silabg.com/uf/product/28434_allnutrition-coconut-oil-unrefined_small.jpg",
       "price_per_active_unit": {
-        "bgn_per_multivitamin_serving": 2.36
+        "bgn_per_multivitamin_serving": 0.17
       },
       "unit_label": "лв / доза мултивитамин",
       "confidence": "medium",
@@ -105619,7 +105413,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 120,
+      "count": 60,
       "active": {
         "zinc_mg": 25
       },
@@ -105689,7 +105483,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 120,
+      "count": 30,
       "active": {
         "zinc_mg": 10
       },
@@ -106424,7 +106218,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 7,
+      "count": 100,
       "active": {
         "zinc_mg": 30
       },
@@ -106757,7 +106551,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 120,
+      "count": 365,
       "active": {
         "vitamin_d_iu": 4000
       },
@@ -107072,7 +106866,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 120,
+      "count": 60,
       "active": {
         "vitamin_d_iu": 2000
       },
@@ -108122,7 +107916,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": 270,
-      "count": 120,
+      "count": 270,
       "active": {
         "vitamin_d_iu": 400
       },
@@ -108402,7 +108196,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 120,
+      "count": 250,
       "active": {
         "vitamin_d_iu": 5000
       },
@@ -110712,7 +110506,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 249.0,
       "servings": null,
-      "count": 120,
+      "count": null,
       "active": {},
       "label_text": null,
       "label_image": null,
@@ -112256,7 +112050,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 6,
+      "count": 20,
       "active": {
         "electrolyte_serving": 1
       },
@@ -112654,7 +112448,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 120,
+      "count": 20,
       "active": {
         "electrolyte_serving": 1
       },
@@ -112759,7 +112553,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 6,
+      "count": 20,
       "active": {
         "electrolyte_serving": 1
       },
@@ -112829,7 +112623,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 120,
+      "count": 20,
       "active": {
         "electrolyte_serving": 1
       },
@@ -112864,7 +112658,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": 2,
-      "count": 120,
+      "count": 20,
       "active": {
         "electrolyte_serving": 1
       },
@@ -112935,7 +112729,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 120,
+      "count": 30,
       "active": {
         "electrolyte_serving": 1
       },
@@ -113116,7 +112910,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 120,
+      "count": 10,
       "active": {
         "electrolyte_serving": 1
       },
@@ -114493,7 +114287,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 120,
+      "count": 60,
       "active": {
         "carnitine_mg": 500
       },
@@ -114596,7 +114390,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 120,
+      "count": 20,
       "active": {
         "carnitine_mg": 500
       },
@@ -116975,14 +116769,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 120,
+      "count": 450,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 0.43
+        "bgn_per_b_complex_serving": 0.11
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -117010,14 +116804,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 120,
+      "count": 365,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 0.47
+        "bgn_per_b_complex_serving": 0.15
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -117815,14 +117609,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 120,
+      "count": 60,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": null,
       "label_image": "https://www.silabg.com/uf/product/27595_allnutrition-coconut-oil-unrefined_small.jpg",
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 0.12
+        "bgn_per_b_complex_serving": 0.25
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -118935,14 +118729,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 120,
+      "count": 250,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 0.55
+        "bgn_per_b_complex_serving": 0.26
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -119180,14 +118974,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 120,
+      "count": 60,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 0.15
+        "bgn_per_b_complex_serving": 0.3
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -119215,14 +119009,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 2018.0,
       "servings": null,
-      "count": 120,
+      "count": 20,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": null,
       "label_image": "https://www.silabg.com/uf/product/30179_zma.jpg",
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 0.06
+        "bgn_per_b_complex_serving": 0.34
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -119495,14 +119289,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 120,
+      "count": 30,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 0.05
+        "bgn_per_b_complex_serving": 0.21
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -119600,14 +119394,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 120,
+      "count": 60,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 0.24
+        "bgn_per_b_complex_serving": 0.48
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -119635,14 +119429,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 120,
+      "count": 50,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 0.09
+        "bgn_per_b_complex_serving": 0.22
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -120020,14 +119814,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 120,
+      "count": 60,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 0.38
+        "bgn_per_b_complex_serving": 0.77
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -120055,14 +119849,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 120,
+      "count": 60,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": null,
       "label_image": "https://www.silabg.com/uf/product/28451_allnutrition-gaba_small.jpg",
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 0.31
+        "bgn_per_b_complex_serving": 0.62
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -120160,14 +119954,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 120,
+      "count": 60,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 0.4
+        "bgn_per_b_complex_serving": 0.8
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -120195,14 +119989,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 120,
+      "count": 250,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 0.35
+        "bgn_per_b_complex_serving": 0.17
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -120685,7 +120479,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": 4,
-      "count": 0,
+      "count": 340,
       "active": {
         "b_complex_serving": 1
       },
@@ -120720,14 +120514,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 120,
+      "count": 60,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 0.15
+        "bgn_per_b_complex_serving": 0.29
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -120790,14 +120584,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 120,
+      "count": 60,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": null,
       "label_image": "https://www.silabg.com/uf/stickers/thumb-20911_doctors_best_facts_new.jpg",
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 0.2
+        "bgn_per_b_complex_serving": 0.4
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -124688,7 +124482,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": 90,
-      "count": 5,
+      "count": 50,
       "active": {
         "magnesium_mg": 200
       },
@@ -124764,7 +124558,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 4,
+      "count": 100,
       "active": {
         "magnesium_mg": 100
       },
@@ -124881,7 +124675,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": 90,
-      "count": 3,
+      "count": 100,
       "active": {
         "magnesium_mg": 333
       },
@@ -124998,7 +124792,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 2,
+      "count": 60,
       "active": {
         "magnesium_mg": 200
       },
@@ -125074,7 +124868,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": 90,
-      "count": 2,
+      "count": 90,
       "active": {
         "magnesium_mg": 250
       },
@@ -125109,7 +124903,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": 90,
-      "count": 3,
+      "count": 90,
       "active": {
         "magnesium_mg": 150
       },
@@ -125144,7 +124938,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": 90,
-      "count": 2,
+      "count": 90,
       "active": {
         "magnesium_mg": 125
       },
@@ -125179,7 +124973,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": 90,
-      "count": null,
+      "count": 100,
       "active": {
         "magnesium_mg": 250
       },
@@ -125296,7 +125090,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": 90,
-      "count": null,
+      "count": 90,
       "active": {
         "magnesium_mg": 250
       },
@@ -125495,7 +125289,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 3,
+      "count": 100,
       "active": {
         "magnesium_mg": 133
       },
@@ -125530,7 +125324,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": 90,
-      "count": 2,
+      "count": 60,
       "active": {
         "magnesium_mg": 250
       },
@@ -125606,7 +125400,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": 90,
-      "count": 2,
+      "count": 120,
       "active": {
         "magnesium_mg": 100
       },
@@ -125641,7 +125435,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": 90,
-      "count": 2,
+      "count": 240,
       "active": {
         "magnesium_mg": 100
       },
@@ -125675,15 +125469,15 @@ const SUPPLEMENTS_DATA = {
       "currency_source": "BGN",
       "availability_status": "in_stock",
       "weight_grams": null,
-      "servings": 90,
-      "count": 2,
+      "servings": null,
+      "count": 30,
       "active": {
         "collagen_g": 1.1
       },
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_10g_collagen": 1.45
+        "bgn_per_10g_collagen": 4.36
       },
       "unit_label": "лв / 10 g колаген",
       "confidence": "high",
@@ -125834,7 +125628,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": 90,
-      "count": 3,
+      "count": 90,
       "active": {
         "vitamin_c_mg": 1500
       },
@@ -125869,7 +125663,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": 90,
-      "count": 2,
+      "count": 100,
       "active": {
         "vitamin_c_mg": 1000
       },
@@ -125945,7 +125739,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": 90,
-      "count": null,
+      "count": 50,
       "active": {
         "vitamin_c_mg": 500
       },
@@ -125980,7 +125774,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": 90,
-      "count": 1,
+      "count": 100,
       "active": {
         "vitamin_c_mg": 500
       },
@@ -126015,7 +125809,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": 90,
-      "count": 1,
+      "count": 90,
       "active": {
         "vitamin_c_mg": 1000
       },
@@ -126050,7 +125844,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "unknown",
       "weight_grams": 300.0,
       "servings": 90,
-      "count": 1,
+      "count": 60,
       "active": {
         "vitamin_c_mg": 500
       },
@@ -126085,14 +125879,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 120.0,
       "servings": null,
-      "count": 2,
+      "count": 20,
       "active": {
         "vitamin_c_mg": 1000
       },
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_vitamin_c": 1.98
+        "bgn_per_1000mg_vitamin_c": 0.2
       },
       "unit_label": "лв / 1000 mg витамин C",
       "confidence": "high",
@@ -126120,14 +125914,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 3.0,
       "servings": null,
-      "count": 2,
+      "count": 60,
       "active": {
         "multivitamin_serving": 1
       },
       "label_text": null,
       "label_image": "https://mypharmacy.bg/images/thumbnails/260/260/detailed/4/csm_bulgaria-easydropper-box-label_dd71a00c2d.png",
       "price_per_active_unit": {
-        "bgn_per_multivitamin_serving": 13.04
+        "bgn_per_multivitamin_serving": 0.43
       },
       "unit_label": "лв / доза мултивитамин",
       "confidence": "medium",
@@ -126155,7 +125949,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": 90,
-      "count": null,
+      "count": 75,
       "active": {
         "multivitamin_serving": 1
       },
@@ -126190,7 +125984,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": 90,
-      "count": 1,
+      "count": 60,
       "active": {
         "multivitamin_serving": 1
       },
@@ -126225,14 +126019,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 180.0,
       "servings": null,
-      "count": 1,
+      "count": 60,
       "active": {
         "multivitamin_serving": 1
       },
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_multivitamin_serving": 26.09
+        "bgn_per_multivitamin_serving": 0.43
       },
       "unit_label": "лв / доза мултивитамин",
       "confidence": "medium",
@@ -126260,7 +126054,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": 90,
-      "count": null,
+      "count": 75,
       "active": {
         "multivitamin_serving": 1
       },
@@ -126294,15 +126088,15 @@ const SUPPLEMENTS_DATA = {
       "currency_source": "BGN",
       "availability_status": "in_stock",
       "weight_grams": null,
-      "servings": 90,
-      "count": 1,
+      "servings": null,
+      "count": 30,
       "active": {
         "multivitamin_serving": 1
       },
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_multivitamin_serving": 0.31
+        "bgn_per_multivitamin_serving": 0.92
       },
       "unit_label": "лв / доза мултивитамин",
       "confidence": "medium",
@@ -126330,14 +126124,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 1.5,
       "servings": null,
-      "count": 1,
+      "count": 90,
       "active": {
         "multivitamin_serving": 1
       },
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_multivitamin_serving": 53.75
+        "bgn_per_multivitamin_serving": 0.6
       },
       "unit_label": "лв / доза мултивитамин",
       "confidence": "medium",
@@ -126365,14 +126159,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 2,
+      "count": 60,
       "active": {
         "multivitamin_serving": 1
       },
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_multivitamin_serving": 17.93
+        "bgn_per_multivitamin_serving": 0.6
       },
       "unit_label": "лв / доза мултивитамин",
       "confidence": "medium",
@@ -126400,7 +126194,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": 90,
-      "count": null,
+      "count": 75,
       "active": {
         "multivitamin_serving": 1
       },
@@ -126435,7 +126229,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": 90,
-      "count": null,
+      "count": 75,
       "active": {
         "multivitamin_serving": 1
       },
@@ -126470,7 +126264,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": 90,
-      "count": 1,
+      "count": 60,
       "active": {
         "multivitamin_serving": 1
       },
@@ -126539,15 +126333,15 @@ const SUPPLEMENTS_DATA = {
       "currency_source": "BGN",
       "availability_status": "in_stock",
       "weight_grams": null,
-      "servings": 90,
-      "count": 1,
+      "servings": null,
+      "count": 30,
       "active": {
         "multivitamin_serving": 1
       },
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_multivitamin_serving": 0.33
+        "bgn_per_multivitamin_serving": 1.0
       },
       "unit_label": "лв / доза мултивитамин",
       "confidence": "medium",
@@ -126574,15 +126368,15 @@ const SUPPLEMENTS_DATA = {
       "currency_source": "BGN",
       "availability_status": "in_stock",
       "weight_grams": 0.67,
-      "servings": 90,
-      "count": 1,
+      "servings": null,
+      "count": 30,
       "active": {
         "multivitamin_serving": 1
       },
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_multivitamin_serving": 0.3
+        "bgn_per_multivitamin_serving": 0.89
       },
       "unit_label": "лв / доза мултивитамин",
       "confidence": "medium",
@@ -126610,7 +126404,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": 90,
-      "count": null,
+      "count": 90,
       "active": {
         "multivitamin_serving": 1
       },
@@ -126644,15 +126438,15 @@ const SUPPLEMENTS_DATA = {
       "currency_source": "BGN",
       "availability_status": "in_stock",
       "weight_grams": null,
-      "servings": 90,
-      "count": 1,
+      "servings": null,
+      "count": 15,
       "active": {
         "multivitamin_serving": 1
       },
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_multivitamin_serving": 0.08
+        "bgn_per_multivitamin_serving": 0.49
       },
       "unit_label": "лв / доза мултивитамин",
       "confidence": "medium",
@@ -126680,7 +126474,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": 90,
-      "count": null,
+      "count": 60,
       "active": {
         "multivitamin_serving": 1
       },
@@ -126714,15 +126508,15 @@ const SUPPLEMENTS_DATA = {
       "currency_source": "BGN",
       "availability_status": "in_stock",
       "weight_grams": null,
-      "servings": 90,
-      "count": 1,
+      "servings": null,
+      "count": 20,
       "active": {
         "multivitamin_serving": 1
       },
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_multivitamin_serving": 0.07
+        "bgn_per_multivitamin_serving": 0.31
       },
       "unit_label": "лв / доза мултивитамин",
       "confidence": "medium",
@@ -126750,14 +126544,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 3.0,
       "servings": null,
-      "count": 2,
+      "count": 120,
       "active": {
         "multivitamin_serving": 1
       },
       "label_text": null,
       "label_image": "https://mypharmacy.bg/images/thumbnails/260/260/detailed/4/csm_bulgaria-easydropper-box-label_dd71a00c2d.png",
       "price_per_active_unit": {
-        "bgn_per_multivitamin_serving": 21.98
+        "bgn_per_multivitamin_serving": 0.37
       },
       "unit_label": "лв / доза мултивитамин",
       "confidence": "medium",
@@ -126785,7 +126579,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": 90,
-      "count": null,
+      "count": 60,
       "active": {
         "multivitamin_serving": 1
       },
@@ -126820,7 +126614,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": 90,
-      "count": 1,
+      "count": 60,
       "active": {
         "multivitamin_serving": 1
       },
@@ -126855,14 +126649,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "unknown",
       "weight_grams": 3.0,
       "servings": null,
-      "count": 1,
+      "count": 100,
       "active": {
         "multivitamin_serving": 1
       },
       "label_text": null,
       "label_image": "https://mypharmacy.bg/images/thumbnails/260/260/detailed/4/csm_bulgaria-easydropper-box-label_dd71a00c2d.png",
       "price_per_active_unit": {
-        "bgn_per_multivitamin_serving": 31.88
+        "bgn_per_multivitamin_serving": 0.32
       },
       "unit_label": "лв / доза мултивитамин",
       "confidence": "medium",
@@ -126890,7 +126684,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "unknown",
       "weight_grams": null,
       "servings": 90,
-      "count": 1,
+      "count": 100,
       "active": {
         "multivitamin_serving": 1
       },
@@ -126924,15 +126718,15 @@ const SUPPLEMENTS_DATA = {
       "currency_source": "BGN",
       "availability_status": "in_stock",
       "weight_grams": null,
-      "servings": 90,
-      "count": 1,
+      "servings": null,
+      "count": 30,
       "active": {
         "multivitamin_serving": 1
       },
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_multivitamin_serving": 0.21
+        "bgn_per_multivitamin_serving": 0.63
       },
       "unit_label": "лв / доза мултивитамин",
       "confidence": "medium",
@@ -126995,7 +126789,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "unknown",
       "weight_grams": null,
       "servings": 90,
-      "count": 1,
+      "count": 100,
       "active": {
         "multivitamin_serving": 1
       },
@@ -127064,15 +126858,15 @@ const SUPPLEMENTS_DATA = {
       "currency_source": "BGN",
       "availability_status": "in_stock",
       "weight_grams": null,
-      "servings": 90,
-      "count": 1,
+      "servings": null,
+      "count": 20,
       "active": {
         "multivitamin_serving": 1
       },
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_multivitamin_serving": 0.04
+        "bgn_per_multivitamin_serving": 0.2
       },
       "unit_label": "лв / доза мултивитамин",
       "confidence": "medium",
@@ -127100,7 +126894,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": 90,
-      "count": 1,
+      "count": 90,
       "active": {
         "multivitamin_serving": 1
       },
@@ -127135,7 +126929,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "unknown",
       "weight_grams": null,
       "servings": 90,
-      "count": 1,
+      "count": 60,
       "active": {
         "multivitamin_serving": 1
       },
@@ -127170,7 +126964,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": 90,
-      "count": null,
+      "count": 60,
       "active": {
         "vitamin_d_iu": 1000
       },
@@ -127205,7 +126999,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": 90,
-      "count": null,
+      "count": 180,
       "active": {
         "vitamin_d_iu": 1000
       },
@@ -127240,7 +127034,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": 90,
-      "count": null,
+      "count": 100,
       "active": {
         "vitamin_d_iu": 400
       },
@@ -127310,7 +127104,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": 90,
-      "count": null,
+      "count": 180,
       "active": {
         "vitamin_d_iu": 2000
       },
@@ -127380,7 +127174,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": 90,
-      "count": null,
+      "count": 100,
       "active": {
         "vitamin_d_iu": 1000
       },
@@ -127415,7 +127209,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 1,
+      "count": 90,
       "active": {
         "vitamin_d_iu": 1000
       },
@@ -127485,7 +127279,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": 90,
-      "count": 4,
+      "count": 60,
       "active": {
         "vitamin_d_iu": 150
       },
@@ -127520,7 +127314,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 3.0,
       "servings": null,
-      "count": 1,
+      "count": 10,
       "active": {
         "vitamin_d_iu": 400
       },
@@ -127555,7 +127349,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": 90,
-      "count": 2,
+      "count": 180,
       "active": {
         "vitamin_d_iu": 5000
       },
@@ -127590,7 +127384,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": 90,
-      "count": null,
+      "count": 60,
       "active": {
         "vitamin_d_iu": 2500
       },
@@ -127625,7 +127419,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": 90,
-      "count": null,
+      "count": 500,
       "active": {
         "vitamin_d_iu": 1000
       },
@@ -127660,7 +127454,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": 90,
-      "count": 3,
+      "count": 180,
       "active": {
         "vitamin_d_iu": 1000
       },
@@ -127695,7 +127489,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": 90,
-      "count": 3,
+      "count": 90,
       "active": {
         "vitamin_d_iu": 1000
       },
@@ -127730,7 +127524,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": 90,
-      "count": null,
+      "count": 180,
       "active": {
         "vitamin_d_iu": 1000
       },
@@ -127765,7 +127559,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": 90,
-      "count": null,
+      "count": 360,
       "active": {
         "vitamin_d_iu": 1000
       },
@@ -127800,7 +127594,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": 90,
-      "count": null,
+      "count": 120,
       "active": {
         "vitamin_d_iu": 5000
       },
@@ -127870,7 +127664,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": 90,
-      "count": null,
+      "count": 60,
       "active": {
         "vitamin_d_iu": 600
       },
@@ -127905,7 +127699,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": 90,
-      "count": 3,
+      "count": 90,
       "active": {
         "vitamin_d_iu": 2000
       },
@@ -127940,7 +127734,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "unknown",
       "weight_grams": null,
       "servings": 90,
-      "count": null,
+      "count": 60,
       "active": {
         "vitamin_d_iu": 1000
       },
@@ -128080,7 +127874,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": 90,
-      "count": 1,
+      "count": 50,
       "active": {
         "vitamin_d_iu": 1000
       },
@@ -128115,7 +127909,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "unknown",
       "weight_grams": null,
       "servings": 90,
-      "count": 1,
+      "count": 100,
       "active": {
         "vitamin_d_iu": 1000
       },
@@ -128185,7 +127979,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": 90,
-      "count": 3,
+      "count": 90,
       "active": {
         "vitamin_d_iu": 100
       },
@@ -128220,7 +128014,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 1,
+      "count": 90,
       "active": {
         "melatonin_mg": 1
       },
@@ -128290,7 +128084,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 5,
+      "count": 60,
       "active": {
         "epa_mg": 630,
         "dha_mg": 400,
@@ -128299,7 +128093,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 10.27
+        "bgn_per_1000mg_epa_dha": 0.86
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -128327,7 +128121,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 120.0,
       "servings": null,
-      "count": null,
+      "count": 30,
       "active": {
         "epa_mg": 150,
         "dha_mg": 1000,
@@ -128336,7 +128130,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 46.44
+        "bgn_per_1000mg_epa_dha": 1.55
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -128399,7 +128193,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": null,
+      "count": 60,
       "active": {
         "epa_mg": 215,
         "dha_mg": 145,
@@ -128408,7 +128202,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 167.97
+        "bgn_per_1000mg_epa_dha": 2.8
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -128436,7 +128230,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": null,
+      "count": 90,
       "active": {
         "epa_mg": 263,
         "dha_mg": 107,
@@ -128445,7 +128239,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 184.05
+        "bgn_per_1000mg_epa_dha": 2.05
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -128473,7 +128267,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 120.0,
       "servings": null,
-      "count": null,
+      "count": 30,
       "active": {
         "epa_mg": 360,
         "dha_mg": 360,
@@ -128482,7 +128276,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 54.51
+        "bgn_per_1000mg_epa_dha": 1.82
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -128510,7 +128304,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": null,
+      "count": 60,
       "active": {
         "epa_mg": 360,
         "dha_mg": 360,
@@ -128519,7 +128313,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 88.61
+        "bgn_per_1000mg_epa_dha": 1.48
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -128547,7 +128341,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": 2,
-      "count": 3,
+      "count": 60,
       "active": {
         "epa_mg": 320,
         "dha_mg": 200,
@@ -128584,7 +128378,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": null,
+      "count": 120,
       "active": {
         "epa_mg": 250,
         "dha_mg": 108,
@@ -128593,7 +128387,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 142.26
+        "bgn_per_1000mg_epa_dha": 1.19
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -128621,7 +128415,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 50.0,
       "servings": null,
-      "count": null,
+      "count": 30,
       "active": {
         "epa_mg": 320,
         "dha_mg": 580,
@@ -128630,7 +128424,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 17.78
+        "bgn_per_1000mg_epa_dha": 0.59
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -128658,7 +128452,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 2,
+      "count": 60,
       "active": {
         "epa_mg": 1000,
         "dha_mg": 180,
@@ -128667,7 +128461,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 16.58
+        "bgn_per_1000mg_epa_dha": 0.55
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -128695,7 +128489,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 1,
+      "count": 27,
       "active": {
         "epa_mg": 54,
         "dha_mg": 254,
@@ -128704,7 +128498,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 79.87
+        "bgn_per_1000mg_epa_dha": 2.96
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -128732,7 +128526,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": null,
+      "count": 100,
       "active": {
         "epa_mg": 360,
         "dha_mg": 360,
@@ -128741,7 +128535,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": null,
       "label_image": "https://mypharmacy.bg/images/thumbnails/350/350/detailed/11/Barleans_FishOil_100ctSoftgels_Label_900x900_300dpi.jpg",
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 44.36
+        "bgn_per_1000mg_epa_dha": 0.44
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -128806,7 +128600,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": null,
+      "count": 30,
       "active": {
         "epa_mg": 240,
         "dha_mg": 120,
@@ -128815,7 +128609,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 140.83
+        "bgn_per_1000mg_epa_dha": 4.69
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -128843,7 +128637,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 3,
+      "count": 90,
       "active": {
         "epa_mg": 180,
         "dha_mg": 120,
@@ -128852,7 +128646,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 33.56
+        "bgn_per_1000mg_epa_dha": 1.12
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -128917,7 +128711,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 2,
+      "count": 120,
       "active": {
         "epa_mg": 800,
         "dha_mg": 1400,
@@ -128926,7 +128720,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 18.02
+        "bgn_per_1000mg_epa_dha": 0.3
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -128954,7 +128748,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "unknown",
       "weight_grams": null,
       "servings": null,
-      "count": 5,
+      "count": 90,
       "active": {
         "epa_mg": 5000,
         "dha_mg": 450,
@@ -128963,7 +128757,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": "Съставки: | В 1 капс.: | Дн. доза: | Дива сьомга масло | 1000 mg | 5000 mg | Ейкозапентаенова киселина (EPА) | 90 mg | 450 mg | Докозахексаенова киселина (DHА) | 110 mg | 550 mg",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 0.76
+        "bgn_per_1000mg_epa_dha": 0.04
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -129065,7 +128859,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "unknown",
       "weight_grams": null,
       "servings": null,
-      "count": 2,
+      "count": 150,
       "active": {
         "epa_mg": 250,
         "dha_mg": 250,
@@ -129074,7 +128868,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 80.97
+        "bgn_per_1000mg_epa_dha": 1.08
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -129102,7 +128896,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "unknown",
       "weight_grams": 180.0,
       "servings": null,
-      "count": null,
+      "count": 36,
       "active": {
         "epa_mg": 280,
         "dha_mg": 280,
@@ -129111,7 +128905,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 65.11
+        "bgn_per_1000mg_epa_dha": 1.81
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -129176,7 +128970,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "unknown",
       "weight_grams": null,
       "servings": null,
-      "count": null,
+      "count": 36,
       "active": {
         "epa_mg": 280,
         "dha_mg": 280,
@@ -129185,7 +128979,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 65.11
+        "bgn_per_1000mg_epa_dha": 1.81
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -129213,7 +129007,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": null,
+      "count": 90,
       "active": {
         "epa_mg": 542,
         "dha_mg": 400,
@@ -129222,7 +129016,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": null,
       "label_image": "https://mypharmacy.bg/images/thumbnails/350/350/detailed/13/Barleans_TotalOmega_90ct_Label_900x900_300dpi.jpg",
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 72.96
+        "bgn_per_1000mg_epa_dha": 0.81
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -129250,7 +129044,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": null,
+      "count": 60,
       "active": {
         "epa_mg": 750,
         "dha_mg": 750,
@@ -129259,7 +129053,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": "Състав в 1(една) капсула: | Омега-3 полиненаситени киселини: | Ейкозапентаенова киселина (ЕРА) 750 мг | Докозахексаенова киселина (DHA) 250 мг | Други Омега-3 мастни киселини: 60 мг | Предназначение: | Подпомага дейността на сърдечно-съдовата система | Поддържа здравословни нива на холестерола и триглицеридите | Поддържа здравословни нива на артериалното кръвно налягане | Поддържа здравословни нива на глюкозата в кръвта | Осигурява стабилна защита на мозъка и нервната система | Поддържа здравословни нива на психо-емоционалното състояние | Въздейства върху зрението като намялява умората и съдейства за зрителната острота | Препоръчителна доза за дневен прием: | 1(една) капсула дневно по време на храна.",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 71.41
+        "bgn_per_1000mg_epa_dha": 1.19
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -129287,7 +129081,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": null,
+      "count": 150,
       "active": {
         "epa_mg": 600,
         "dha_mg": 600,
@@ -129296,7 +129090,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": "Съставки: | В 1 капс.: | Дн. доза: | Рибено масло концентрат (аншоа, сардина и/или скумрия) | / | молекурярно дестилиран, супер пречистен/ | 1425 mg | 1425 mg | съдържащ: Омега 3 мастни киселини, от които: | Ейкозапентаенова киселина (EPА) – 600 mg | Докозахексаенова киселина (DHА) – 300 mg | 900 mg | 900 mg",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 69.98
+        "bgn_per_1000mg_epa_dha": 0.47
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -129324,7 +129118,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 2,
+      "count": 120,
       "active": {
         "epa_mg": 112,
         "dha_mg": 100,
@@ -129333,7 +129127,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 360.45
+        "bgn_per_1000mg_epa_dha": 6.01
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -129361,7 +129155,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "unknown",
       "weight_grams": 120.0,
       "servings": null,
-      "count": null,
+      "count": 90,
       "active": {
         "epa_mg": 54,
         "dha_mg": 54,
@@ -129370,7 +129164,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 278.7
+        "bgn_per_1000mg_epa_dha": 3.1
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -129398,7 +129192,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": null,
+      "count": 30,
       "active": {
         "epa_mg": 750,
         "dha_mg": 750,
@@ -129407,7 +129201,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": "Състав в 1(една) капсула: | Омега-3 полиненаситени киселини: | Ейкозапентаенова киселина (ЕРА) 750 мг | Докозахексаенова киселина (DHA) 250 мг | Други Омега-3 мастни киселини: 60 мг | Предназначение: | Подпомага дейността на сърдечно-съдовата система | Поддържа здравословни нива на холестерола и триглицеридите | Поддържа здравословни нива на артериалното кръвно налягане | Поддържа здравословни нива на глюкозата в кръвта | Осигурява стабилна защита на мозъка и нервната система | Поддържа здравословни нива на психо-емоционалното състояние | Въздейства върху зрението като намaлява умората и съдейства за зрителната острота | Препоръчителна доза за дневен прием: | 1(една) капсула дневно по време на храна.",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 39.94
+        "bgn_per_1000mg_epa_dha": 1.33
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -129472,7 +129266,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": null,
+      "count": 150,
       "active": {
         "epa_mg": 400,
         "dha_mg": 70,
@@ -129481,7 +129275,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 112.11
+        "bgn_per_1000mg_epa_dha": 0.75
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -129509,7 +129303,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 50.0,
       "servings": null,
-      "count": 3,
+      "count": 30,
       "active": {
         "epa_mg": 617,
         "dha_mg": 360,
@@ -129518,7 +129312,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 10.3
+        "bgn_per_1000mg_epa_dha": 1.03
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -129546,7 +129340,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "unknown",
       "weight_grams": null,
       "servings": null,
-      "count": null,
+      "count": 80,
       "active": {
         "epa_mg": 900,
         "dha_mg": 600,
@@ -129555,7 +129349,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 31.79
+        "bgn_per_1000mg_epa_dha": 0.4
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -129583,7 +129377,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "unknown",
       "weight_grams": null,
       "servings": null,
-      "count": null,
+      "count": 30,
       "active": {
         "epa_mg": 60,
         "dha_mg": 35,
@@ -129592,7 +129386,7 @@ const SUPPLEMENTS_DATA = {
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 837.26
+        "bgn_per_1000mg_epa_dha": 27.91
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
@@ -129657,7 +129451,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": 90,
-      "count": 1,
+      "count": 90,
       "active": {
         "iron_mg": 25
       },
@@ -129698,14 +129492,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 1,
+      "count": 30,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 31.18
+        "bgn_per_b_complex_serving": 1.04
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -129733,14 +129527,14 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": null,
-      "count": 1,
+      "count": 100,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 19.17
+        "bgn_per_b_complex_serving": 0.19
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -129768,7 +129562,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": 90,
-      "count": null,
+      "count": 100,
       "active": {
         "b_complex_serving": 1
       },
@@ -129803,7 +129597,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": 90,
-      "count": null,
+      "count": 100,
       "active": {
         "b_complex_serving": 1
       },
@@ -129838,7 +129632,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": 90,
-      "count": null,
+      "count": 100,
       "active": {
         "b_complex_serving": 1
       },
@@ -129872,15 +129666,15 @@ const SUPPLEMENTS_DATA = {
       "currency_source": "BGN",
       "availability_status": "in_stock",
       "weight_grams": null,
-      "servings": 90,
-      "count": null,
+      "servings": null,
+      "count": 30,
       "active": {
         "b_complex_serving": 1
       },
       "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 0.44
+        "bgn_per_b_complex_serving": 1.31
       },
       "unit_label": "лв / доза B-комплекс",
       "confidence": "medium",
@@ -129908,7 +129702,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "unknown",
       "weight_grams": null,
       "servings": 90,
-      "count": 1,
+      "count": 50,
       "active": {
         "b_complex_serving": 1
       },
@@ -129943,7 +129737,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": null,
       "servings": 90,
-      "count": null,
+      "count": 60,
       "active": {
         "b_complex_serving": 1
       },
@@ -132746,7 +132540,7 @@ const SUPPLEMENTS_DATA = {
       "currency_source": "BGN",
       "availability_status": "in_stock",
       "weight_grams": 2272.0,
-      "servings": 81,
+      "servings": null,
       "count": null,
       "active": {
         "estimated_total_protein_g": 1931.2,
