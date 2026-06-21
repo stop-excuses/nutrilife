@@ -1573,7 +1573,19 @@ def parse_price_update(source: Source, url: str, existing: dict) -> dict | None:
     return updated
 
 
-def scrape_one(source: Source, category: str, url: str, cache: dict | None = None, use_cache: bool = False, existing_by_url: dict | None = None) -> dict | None:
+def needs_full_scrape(existing: dict, full_refresh_days: int) -> bool:
+    """Return True if the product hasn't had a full scrape within full_refresh_days."""
+    last_full = existing.get("last_full_scrape")
+    if not last_full:
+        return True
+    try:
+        age = (datetime.now(timezone.utc).date() - datetime.fromisoformat(last_full[:10]).date()).days
+        return age >= full_refresh_days
+    except (ValueError, TypeError):
+        return True
+
+
+def scrape_one(source: Source, category: str, url: str, cache: dict | None = None, use_cache: bool = False, existing_by_url: dict | None = None, full_refresh_days: int = 30) -> dict | None:
     if use_cache and cache is not None:
         cached = cache.get(url)
         if isinstance(cached, dict) and cached.get("item"):
@@ -1582,13 +1594,17 @@ def scrape_one(source: Source, category: str, url: str, cache: dict | None = Non
             return item
 
     if existing_by_url and url in existing_by_url:
-        item = parse_price_update(source, url, existing_by_url[url])
-        if item:
-            print(f"    ~ {item['name'][:70]} | price {item['price_bgn']} BGN")
-            return item
-        # Fall through to full parse if price-only fails
+        existing = existing_by_url[url]
+        if not needs_full_scrape(existing, full_refresh_days):
+            item = parse_price_update(source, url, existing)
+            if item:
+                print(f"    ~ {item['name'][:70]} | price {item['price_bgn']} BGN")
+                return item
+            # Fall through to full parse if price-only fails
 
     item = parse_product(source, url, category)
+    if item:
+        item["last_full_scrape"] = datetime.now(timezone.utc).date().isoformat()
     if use_cache and cache is not None and item:
         cache[url] = {
             "cached_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
@@ -1607,6 +1623,7 @@ def scrape(
     concurrency: int = 1,
     use_cache: bool = False,
     existing_by_url: dict | None = None,
+    full_refresh_days: int = 30,
 ) -> list[dict]:
     products: list[dict] = []
     seen_ids: set[str] = set()
@@ -1624,7 +1641,7 @@ def scrape(
         jobs = [(src, cat, url) for src, cat, url in jobs if cat]
         print(f"[*] Direct URL mode: {len(jobs)} product URLs")
         with ThreadPoolExecutor(max_workers=concurrency) as executor:
-            futures = [executor.submit(scrape_one, src, cat, url, cache, use_cache, existing_by_url) for src, cat, url in jobs]
+            futures = [executor.submit(scrape_one, src, cat, url, cache, use_cache, existing_by_url, full_refresh_days) for src, cat, url in jobs]
             for future in as_completed(futures):
                 item = future.result()
                 if not item or item["id"] in seen_ids:
@@ -1653,7 +1670,7 @@ def scrape(
     if concurrency <= 1:
         for source, category, url in all_jobs:
             time.sleep(REQUEST_DELAY_SECONDS)
-            item = scrape_one(source, category, url, cache, use_cache, existing_by_url)
+            item = scrape_one(source, category, url, cache, use_cache, existing_by_url, full_refresh_days)
             if item and item["id"] not in seen_ids:
                 seen_ids.add(item["id"])
                 products.append(item)
@@ -1663,7 +1680,7 @@ def scrape(
         with ThreadPoolExecutor(max_workers=concurrency) as executor:
             future_to_job = {}
             for source, category, url in all_jobs:
-                f = executor.submit(scrape_one, source, category, url, cache, use_cache, existing_by_url)
+                f = executor.submit(scrape_one, source, category, url, cache, use_cache, existing_by_url, full_refresh_days)
                 future_to_job[f] = (source.name, category)
             done = 0
             for future in as_completed(future_to_job):
@@ -1786,6 +1803,7 @@ def main() -> None:
     parser.add_argument("--cache", action="store_true", help="Reuse/write data/supplement_scrape_cache.json for faster repeated runs.")
     parser.add_argument("--merge-existing", action="store_true", help="Merge refreshed rows into existing supplements.json instead of replacing all rows.")
     parser.add_argument("--replace-scope", action="store_true", help="With --merge-existing, replace every existing row in the selected source/category scope.")
+    parser.add_argument("--full-refresh-days", type=int, default=30, help="With --merge-existing, re-scrape full label/image data for products older than N days (default: 30).")
     args = parser.parse_args()
 
     selected_sources = {s.lower() for s in args.source} if args.source else None
@@ -1811,6 +1829,7 @@ def main() -> None:
         args.concurrency,
         args.cache,
         existing_by_url or None,
+        args.full_refresh_days,
     )
     write_output(products, args.merge_existing, selected_sources, selected_categories, args.replace_scope)
 
