@@ -954,6 +954,12 @@ def apply_label_overrides(url: str, category: str, active: dict, confidence: str
             "active": {"protein_g": 22},
             "confidence": "high",
         },
+        # Stayfit product page has no nutrition text; ON bag + official label: 25 g protein / serving.
+        "https://stayfit.bg/product/optimum-nutrition-100-isolate-gold-standard": {
+            "category": "protein",
+            "active": {"protein_g": 25},
+            "confidence": "high",
+        },
     }
     override = overrides.get(url)
     if not override or override["category"] != category:
@@ -1629,7 +1635,7 @@ def write_output(
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Scrape supplement price-per-active-dose data.")
-    parser.add_argument("--per-category", type=int, default=8, help="Max candidate URLs per category per source.")
+    parser.add_argument("--per-category", type=int, default=50, help="Max candidate URLs per category per source.")
     parser.add_argument("--source", action="append", help="Limit to source name. Can be repeated.")
     parser.add_argument("--category", action="append", choices=sorted(CATEGORY_KEYWORDS), help="Limit to category. Can be repeated.")
     parser.add_argument("--url", action="append", help="Scrape a direct product URL. Can be repeated.")
