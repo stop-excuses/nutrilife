@@ -1456,6 +1456,11 @@ def parse_product(source: Source, url: str, forced_category: str | None = None) 
         servings = None
         if not count:
             count = name_count
+    # Single-dose samples ("1 Доза", "Sample") should have count=1 regardless of what
+    # the product page says about the full box (e.g. "60 sachets" in product description)
+    if re.search(r"\b1\s*Доза\b|(?<!\w)sample(?!\w)", name, re.I):
+        count = 1
+        servings = None
     active_text = normalize_text(f"{name} {detail_text or text} {text[:5000]}")
     active, _, confidence = extract_active(category, active_text, weight_grams, servings, count)
     active, confidence = apply_label_overrides(url, category, active, confidence)

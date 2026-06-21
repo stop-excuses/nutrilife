@@ -1,6 +1,6 @@
 const SUPPLEMENTS_DATA = {
   "generated_at": "2026-06-21T12:27:40.079184Z",
-  "total_supplements": 3841,
+  "total_supplements": 3840,
   "sources": [
     "FHL",
     "Framar",
@@ -135756,7 +135756,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 900.0,
       "servings": null,
-      "count": 30,
+      "count": 1,
       "active": {
         "estimated_total_protein_g": 675.0,
         "estimated_protein_ratio_pct": 75
@@ -135792,7 +135792,7 @@ const SUPPLEMENTS_DATA = {
       "availability_status": "in_stock",
       "weight_grams": 900.0,
       "servings": null,
-      "count": 30,
+      "count": 1,
       "active": {
         "estimated_total_protein_g": 765.0,
         "estimated_protein_ratio_pct": 85
@@ -136331,8 +136331,8 @@ const SUPPLEMENTS_DATA = {
       "currency_source": "BGN",
       "availability_status": "in_stock",
       "weight_grams": 900.0,
-      "servings": 34,
-      "count": 30,
+      "servings": null,
+      "count": 1,
       "active": {
         "estimated_total_protein_g": 765.0,
         "estimated_protein_ratio_pct": 85
@@ -138352,41 +138352,6 @@ const SUPPLEMENTS_DATA = {
           "price_bgn": 51.99,
           "price_eur": 26.58,
           "unit_value": 0.33
-        }
-      ]
-    },
-    {
-      "id": "proteinbg-dorian-yates-nutrition-renew-creatine-complex-sachets-4-component-creatine-matrix-60x6",
-      "store": "ProteinBG",
-      "name": "Dorian Yates Nutrition Renew Creatine Complex Sachets 4-Component Creatine Matrix 60x6,5 грама",
-      "brand": "Dorian Yates Nutrition",
-      "category": "creatine",
-      "url": "https://protein.bg/renew-creatine-complex-sachets-4-component-creatine-matrix-1350315780",
-      "image": "https://protein.bg/image/cache/catalog/product/Dorian_Yates_Nutrition/40156/DYNutritionCreatineComplex-Mango-1NEW_1500x750-9eeceb0-200x250-200x250.jpg.webp",
-      "price_bgn": 1.19,
-      "price_eur": 0.61,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": 390.0,
-      "servings": null,
-      "count": 60,
-      "active": {
-        "creatine_total_mg": 390000
-      },
-      "label_text": "Креатинови матрици с креатин монохидрат > Renew Creatine Complex Sachets | 4-Component Creatine Matrix Открийте новите възможности с Renew Creatine Complex Sachets - трансформацията започва тук Като фитнес инструктор и представител на онлайн магазина за фитнес добавки Protein.bg, с медицинско образование, съм наясно с това колко е важно да разбирате пълните ползи от хранителните добавки, които избирате за вашата тренировъчна програма. Renew Creatine Complex Sachets е изключителна формула, която умело комбинира различни форми на креатин, за да максимизира вашите спортни постижения и физическо развитие. Креатинът е ключов елемент за подобряване на атлетичната издръжливост, сила и общата способност за извършване на високоинтензивни упражнения. Но не всеки креатин е създаден еднакво. В Renew Creatine Complex сме събрали мощта на 4 вида креатин, за да предложим на спортистите един завършен и цялостно действащ продукт. Най-важните предимства на Renew Creatine Complex: Разнообразие на креатиновите форми: Сместа съдържа висококачествени форми на креатин, включително Kre-Alkalyn, креатин хидрохлорид, креатин етилов естер, три-креатин малат и др., които заедно гарантират оптималното усвояване на креатин в тялото. Подобрено усвояване: Благодарение на уникалните своиства на всяка форма, креатинът от сашетата се усвоява по-добре от традиционния креатин монохидрат, което можете да усетите чрез увеличената ефикасност при тренировка. Увеличение на силата и мускулния обем: Редовният прием на креатин може да ви помогне да изведете вашите тренировки на следващото ниво, увеличавайки физическата ви мощ и стимулирайки растежа на мускулите. Бързо възстановяване: Креатиновите съединения ускоряват възстановяването на мускулите след интензивни натоварвания, като същевременно намаляват болката и ",
-      "label_image": "https://protein.bg/image/cache/catalog/product/Dorian_Yates_Nutrition/40156/DYNutritionCreatineComplex-Mango-1NEW_1500x750-9eeceb0-200x250-509x509h.jpg.webp",
-      "price_per_active_unit": {
-        "bgn_per_5g_creatine": 0.02
-      },
-      "unit_label": "лв / 5 g креатин",
-      "confidence": "high",
-      "scraped_at": "2026-06-21T12:27:19.336098Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 1.19,
-          "price_eur": 0.61,
-          "unit_value": 0.02
         }
       ]
     },
