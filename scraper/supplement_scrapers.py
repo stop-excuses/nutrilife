@@ -1513,35 +1513,45 @@ def scrape(
         save_cache(cache, use_cache)
         return products
 
+    # Phase 1: discover all URLs from all sources (sequential, fast)
+    all_jobs: list[tuple[Source, str, str]] = []
     for source in SOURCES:
         if sources and source.name.lower() not in sources:
             continue
-        print(f"\n== {source.name} ==")
+        print(f"\n== {source.name} — discovering URLs ==")
         discovered = discover_urls(source, per_category, categories)
-        for category, urls in discovered.items():
-            print(f"  {category}: {len(urls)} candidates")
-            if concurrency <= 1:
-                results = []
-                for url in urls:
-                    time.sleep(REQUEST_DELAY_SECONDS)
-                    results.append(scrape_one(source, category, url, cache, use_cache))
-            else:
-                with ThreadPoolExecutor(max_workers=concurrency) as executor:
-                    futures = []
-                    for url in urls:
-                        time.sleep(REQUEST_DELAY_SECONDS / concurrency)
-                        futures.append(executor.submit(scrape_one, source, category, url, cache, use_cache))
-                    results = [future.result() for future in as_completed(futures)]
+        for category, cat_urls in discovered.items():
+            print(f"  {category}: {len(cat_urls)} candidates")
+            all_jobs.extend((source, category, url) for url in cat_urls)
 
-            for item in results:
-                if not item:
-                    continue
-                if item["id"] in seen_ids:
-                    continue
+    print(f"\n[*] Total jobs: {len(all_jobs)} — scraping with concurrency={concurrency}")
+
+    # Phase 2: scrape all jobs in one flat pool across all sources/categories
+    if concurrency <= 1:
+        for source, category, url in all_jobs:
+            time.sleep(REQUEST_DELAY_SECONDS)
+            item = scrape_one(source, category, url, cache, use_cache)
+            if item and item["id"] not in seen_ids:
                 seen_ids.add(item["id"])
                 products.append(item)
                 unit_key = next(iter(item["price_per_active_unit"]))
-                print(f"    + {item['name'][:70]} | {item['price_per_active_unit'][unit_key]} {unit_key}")
+                print(f"  + {item['name'][:70]} | {item['price_per_active_unit'][unit_key]} {unit_key}")
+    else:
+        with ThreadPoolExecutor(max_workers=concurrency) as executor:
+            future_to_job = {}
+            for source, category, url in all_jobs:
+                f = executor.submit(scrape_one, source, category, url, cache, use_cache)
+                future_to_job[f] = (source.name, category)
+            done = 0
+            for future in as_completed(future_to_job):
+                done += 1
+                item = future.result()
+                if item and item["id"] not in seen_ids:
+                    seen_ids.add(item["id"])
+                    products.append(item)
+                    unit_key = next(iter(item["price_per_active_unit"]))
+                    src_name, cat = future_to_job[future]
+                    print(f"  [{done}/{len(all_jobs)}] {src_name}/{cat} + {item['name'][:55]} | {item['price_per_active_unit'][unit_key]} {unit_key}")
 
     save_cache(cache, use_cache)
     return products
