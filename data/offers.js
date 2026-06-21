@@ -1,8 +1,8 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-06-21T11:46:43.593524Z",
-  "content_hash": "13b7b5ada06fe54b7372cd7869c44883",
-  "total_offers": 4276,
-  "promo_offers": 1330,
+  "generated_at": "2026-06-21T13:04:24.477349Z",
+  "content_hash": "e59b03299aef222c37aac3fd14c494f7",
+  "total_offers": 4275,
+  "promo_offers": 1329,
   "assortment_offers": 2946,
   "stores": [
     "Billa",
@@ -10902,70 +10902,6 @@ const OFFERS_DATA = {
           1.74,
           2.33,
           25
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 1.94,
-      "new_price_eur": 0.99,
-      "old_price": 3.89,
-      "old_price_eur": 1.99,
-      "discount_pct": 50,
-      "valid_from": "2026-06-08",
-      "valid_until": "2026-07-05",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 1.94,
-          "price_eur": 0.99,
-          "old_price": 3.89,
-          "old_price_eur": 1.99,
-          "discount_pct": 50,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 1.94,
-      "comparison_count": 1,
-      "product_id": "kaufland-сладка-царевица",
-      "name": "Сладка царевица",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/09701111_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "legume",
-      "emoji": "🫘",
-      "health_score": 6,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": true,
-      "is_long_lasting": true,
-      "macros": {
-        "kcal": 86,
-        "p": 3.3,
-        "f": 1.4,
-        "c": 19
-      },
-      "avg_price": 1.94,
-      "lowest_price": 1.94,
-      "lowest_price_date": "2026-06-15",
-      "price_history": [
-        [
-          "2026-06-15",
-          1.94,
-          3.89,
-          50
         ]
       ],
       "price_seen_count": 1,
@@ -50930,6 +50866,63 @@ const OFFERS_DATA = {
       "address": null,
       "new_price": 17.0,
       "new_price_eur": 8.69,
+      "old_price": 34.21,
+      "old_price_eur": 17.49,
+      "discount_pct": 50,
+      "valid_from": "2026-06-08",
+      "valid_until": "2026-07-05",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 17.0,
+          "price_eur": 8.69,
+          "old_price": 34.21,
+          "old_price_eur": 17.49,
+          "discount_pct": 50,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 17.0,
+      "comparison_count": 1,
+      "product_id": "kaufland-brio-тава-red-passion-ø32-х-7-см",
+      "name": "BRIO Тава Red Passion Ø32 х 7 см",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20951170?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 17.0,
+      "lowest_price": 17.0,
+      "lowest_price_date": "2026-06-15",
+      "price_history": [
+        [
+          "2026-06-15",
+          17.0,
+          34.21,
+          50
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 17.0,
+      "new_price_eur": 8.69,
       "old_price": null,
       "old_price_eur": null,
       "discount_pct": null,
@@ -51242,63 +51235,6 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 3,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 17.0,
-      "new_price_eur": 8.69,
-      "old_price": 34.21,
-      "old_price_eur": 17.49,
-      "discount_pct": 50,
-      "valid_from": "2026-06-08",
-      "valid_until": "2026-07-05",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 17.0,
-          "price_eur": 8.69,
-          "old_price": 34.21,
-          "old_price_eur": 17.49,
-          "discount_pct": 50,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 17.0,
-      "comparison_count": 1,
-      "product_id": "kaufland-brio-тава-red-passion-ø32-х-7-см",
-      "name": "BRIO Тава Red Passion Ø32 х 7 см",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20951170?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 17.0,
-      "lowest_price": 17.0,
-      "lowest_price_date": "2026-06-15",
-      "price_history": [
-        [
-          "2026-06-15",
-          17.0,
-          34.21,
-          50
-        ]
-      ],
-      "price_seen_count": 1,
       "price_signal": "buy"
     },
     {
