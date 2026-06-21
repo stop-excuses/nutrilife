@@ -166,7 +166,7 @@
         summary.innerHTML = `
             <div class="supplements-summary-item">
                 <strong>${items.length}</strong>
-                <span>продукта с ясна сметка</span>
+                <span>сравними продукта</span>
             </div>
             <div class="supplements-summary-item">
                 <strong>${stores}</strong>

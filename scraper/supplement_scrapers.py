@@ -1411,9 +1411,13 @@ def parse_product(source: Source, url: str, forced_category: str | None = None) 
     weight_grams = offer_weight_grams or parse_weight_grams(f"{name} {text}")
     servings = parse_servings(text)
     serving_grams = parse_serving_grams(text)
+    # Sanity-check: protein powder must have ≥10g/serving; cap impossible values
+    # (catches "606 servings" scraped from a larger variant listed on the same page)
+    if category == "protein" and servings and weight_grams and servings > weight_grams / 10:
+        servings = None
     if category == "protein" and weight_grams and serving_grams and weight_grams > serving_grams:
         estimated_servings = max(1, int(weight_grams // serving_grams))
-        if not servings or servings < max(10, estimated_servings // 3):
+        if not servings or servings < max(10, estimated_servings // 3) or servings > estimated_servings * 3:
             servings = estimated_servings
     count = parse_count(name) or parse_count(f"{name} {text}")
     active_text = normalize_text(f"{name} {detail_text or text} {text[:5000]}")
@@ -1506,13 +1510,21 @@ def is_relevant_product(category: str, name: str, url: str) -> bool:
     if category == "protein":
         if any(bad in haystack for bad in ("protein bar", "protein chips", "protein cookie", "протеинов бар", "чипс")):
             return False
+        # Exclude sports accessories and equipment
+        if re.search(r"ръкохватка|grip.trainer|exercise.equipment|resistance.band|training.band|foam.roller|yoga|нарукавник|бинт|\bwrap\b|\bband\b|\bgloves\b|\bracks?\b|дъмбел|барбел|barbell|dumbbell", haystack, re.I):
+            return False
+        # Exclude recovery/carbohydrate bars
+        if re.search(r"\bcarborad\b|recovery.bar|carbo.bar|maltodextrin.*bar", haystack, re.I):
+            return False
         # Exclude mass gainers — high-carb, not comparable to protein supplements
         if re.search(r"гейнър|gainer|gayn|mass.gainer|weight.gainer|масово.покачване", haystack, re.I):
             return False
         if re.search(r"\bmass\b", haystack, re.I) and re.search(r"\bgain\b|гейн|въглехидрат|carbo|carb\b", haystack, re.I):
             return False
-        # Exclude ready-to-drink food beverages (soy/oat/almond/rice drinks, packaged juices)
-        if re.search(r"(соева|оатмийлк|соево|бадемово|оризово|овесено)\s*(напитка|мляко|drink)", haystack, re.I):
+        # Exclude ready-to-drink food beverages — ASCII and Cyrillic "x/х" before volume
+        if re.search(r"(соева|соево|бадемово|оризово|овесено| овесена|almond|oat|soy|rice)\s*(напитка|мляко|drink)", haystack, re.I):
+            return False
+        if re.search(r"напитка.{0,40}[хx]\s*\d+\s*(литър|мл|л\b|l\b)", haystack, re.I):
             return False
         if re.search(r"напитка.{0,30}(мл|литър|л\b)", haystack, re.I):
             return False
