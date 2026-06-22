@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-06-21T12:27:40.079184Z",
-  "total_supplements": 3774,
+  "total_supplements": 3766,
   "sources": [
     "FHL",
     "Framar",
@@ -4028,43 +4028,6 @@
       ]
     },
     {
-      "id": "healthstore-origens---био-супер-закуска-с-протеин-фъстъци-банан-и-какао---300-г",
-      "store": "HealthStore",
-      "name": "ORIGENS - БИО СУПЕР ЗАКУСКА С ПРОТЕИН, ФЪСТЪЦИ, БАНАН И КАКАО - 300 г",
-      "brand": "ORIGENS",
-      "category": "protein",
-      "url": "https://healthstore.bg/origens-bio-super-zakuska-s-protein-fstci-banan-i-kakao-300-g",
-      "image": "https://healthstore.bg/image/cache/cache/data/Origens/OR1043-600x600-600x300.jpg",
-      "price_bgn": 14.9,
-      "price_eur": 7.62,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 300.0,
-      "servings": null,
-      "count": 9,
-      "active": {
-        "estimated_total_protein_g": 255.0,
-        "estimated_protein_ratio_pct": 85
-      },
-      "label_text": "БИО СУПЕР ЗАКУСКА С ПРОТЕИН, ФЪСТЪЦИ, БАНАН И КАКАО - 300 г е специално създадена за активни хора, които се нуждаят от бързо и питателно решение преди тренировка. Цена: 7.62 € с ДДС Отзиви: 0 Продукт на: ORIGENS Добавен на: 2025-03-25 В Наличност ИЗБЕРИ ВАРИАНТ {{value.name | andFilter}} {{value.sku}} / {{value.real_quantity}} КУПИ ДОБАВИ В ЛЮБИМИ (ВЗЕМИ СЕГА, ПЛАТИ ПО-КЪСНО) ДОБАВИ ЗА СРАВНЕНИЕ СРАВНИ ПРОДУКТИТЕ ЗАДАЙ ВЪПРОС ЗА ТОЗИ ПРОДУКТ Наличен в {{product.store_name ? product.store_name : product.store_name_en}} ✓ ✓ ✖ / ОПИСАНИЕ Със своите 100% натурални съставки, включително банан, фъстъци и какао, тази смес предлага не само отличен вкус, но и необходимите хранителни вещества за оптимална физическа активност. Основни характеристики: Бързо приготвяне: Само за 1 минута получавате готова закуска. Високо съдържание на протеини: Подпомага изграждането и поддържането на мускулна маса. Богат на фибри: Спомага за дълготрайна ситост и добро храносмилане. Без добавена захар: Естествената сладост идва от зряла бананова брашно. Съдържа желязо и магнезий: Подпомага производството на енергия и намалява умората. Препоръчителен начин на приготвяне: Добавете 4 супени лъжици от сместа. Смесете с 90 мл растително мляко или мляко по избор. Разбъркайте добре и се насладете. Съставки: Пълнозърнест елда, бананово брашно (20%), брашно от печени фъстъци (20%), ленено семе, грахов протеин (11%), цели зърна елда, какао на прах (4%), какаови парченца (3%). Всички съставки са от биологично земеделие. Съхранение: Съхранявайте на хладно и сухо място, защитено от пряка слънчева светлина. Алергенна информация: Съдържа фъстъци. Може да съдържа следи от соя, други ядки и сусамови семена. Не съдържа глутен. С БИО СУПЕР ЗАКУСКА С ПРОТЕИН, ФЪСТЪЦИ, БАНАН И КАКАО - 300 г можете лесно да започнете деня",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 1.46
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T11:06:03.204290Z",
-      "promo_label": "-20%",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 14.9,
-          "price_eur": 7.62,
-          "unit_value": 1.46
-        }
-      ]
-    },
-    {
       "id": "healthstore-mars-protein---hubba-bubba-clear-whey---405-g",
       "store": "HealthStore",
       "name": "Mars Protein - Hubba Bubba Clear Whey - 405 g",
@@ -4687,43 +4650,6 @@
           "price_bgn": 84.8,
           "price_eur": 43.36,
           "unit_value": 2.49
-        }
-      ]
-    },
-    {
-      "id": "healthstore-gym-beam---protein-porridge---1000-g",
-      "store": "HealthStore",
-      "name": "GYM BEAM - Protein Porridge - 1000 g",
-      "brand": "GYM BEAM",
-      "category": "protein",
-      "url": "https://healthstore.bg/gym-beam-protein-porridge-1000-g",
-      "image": "https://healthstore.bg/image/cache/cache/data/-GYM BEAM/GB0415-600x600-600x300.jpg",
-      "price_bgn": 26.4,
-      "price_eur": 13.5,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 1000.0,
-      "servings": null,
-      "count": 9,
-      "active": {
-        "estimated_total_protein_g": 590.0,
-        "estimated_protein_ratio_pct": 59
-      },
-      "label_text": "Информация за продукта | Разфасовка | 1000 g | Производител | GYM BEAM | Тип продукт | Смес за протеинова закуска | ➤ виж повече / Информация за продукта | Разфасовка | 1000 g | Производител | GYM BEAM | Тип продукт | Смес за протеинова закуска / Смес за приготвяне на домашна протеинова закуска. Идеалната овесена каша с протеин за спортисти и хора на диета. Вкусен и нискокалоричен вариант на диетични каши. Цена: 16.87 € (- 20%) 13.50 € с ДДС Отзиви: 0 Продукт на: GYM BEAM Добавен на: 2025-03-18 В Наличност ИЗБЕРИ ВАРИАНТ {{value.name | andFilter}} {{value.sku}} / {{value.real_quantity}} КУПИ ДОБАВИ В ЛЮБИМИ (ВЗЕМИ СЕГА, ПЛАТИ ПО-КЪСНО) ДОБАВИ ЗА СРАВНЕНИЕ СРАВНИ ПРОДУКТИТЕ ЗАДАЙ ВЪПРОС ЗА ТОЗИ ПРОДУКТ Наличен в {{product.store_name ? product.store_name : product.store_name_en}} ✓ ✓ ✖ / ОПИСАНИЕ Protein Porridge от GymBeam е хранителна и вкусна закуска, която съчетава висококачествени протеини и фибри за максимална подкрепа на мускулния растеж и енергийния баланс през целия ден. Тази овесена каша е перфектен избор за започване на деня с пълноценно и балансирано хранене, като осигурява необходимите макронутриенти, които поддържат високи нива на енергия и подпомагат възстановяването след тренировка. Protein Porridge е отличен избор както за закуска, така и за следобедна енергийна закуска. Ползи: Високопротеинова закуска: Protein Porridge предлага високо съдържание на протеин, което е важно за възстановяването на мускулите и растежа, особено след физическа активност. Стабилна енергия: Овесеното брашно осигурява бавни въглехидрати, които осигуряват стабилна енергия през целия ден, без да водят до резки колебания в нивата на кръвната захар. Поддържа храносмилането: Високото съдържание на фибри подпомага храносмилането и поддържа здравословното функциониране на червата. Удобен",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 1.12
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "medium",
-      "scraped_at": "2026-06-21T11:06:11.915506Z",
-      "promo_label": "-20%",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 26.4,
-          "price_eur": 13.5,
-          "unit_value": 1.12
         }
       ]
     },
@@ -5997,42 +5923,6 @@
           "price_bgn": 41.99,
           "price_eur": 21.47,
           "unit_value": 3.04
-        }
-      ]
-    },
-    {
-      "id": "healthstore-iswari---био-закуска-с-протеин---360-г",
-      "store": "HealthStore",
-      "name": "ISWARI - БИО ЗАКУСКА С ПРОТЕИН - 360 г",
-      "brand": "ISWARI",
-      "category": "protein",
-      "url": "https://healthstore.bg/iswari-bio-zakuska-s-protein-360-g",
-      "image": "https://healthstore.bg/image/cache/cache/data/-BIO-MARKET-/ISWARI/IS9022-600x600-600x300.png",
-      "price_bgn": 18.21,
-      "price_eur": 9.31,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 360.0,
-      "servings": null,
-      "count": 9,
-      "active": {
-        "estimated_total_protein_g": 306.0,
-        "estimated_protein_ratio_pct": 85
-      },
-      "label_text": "ОПИСАНИЕ Какво представлява Био закуска с протеин? Пробудете се с тази закуска с протеин, която ще ви даде силен старт на деня. Taзи био cмec е подходяща зa бъpзa и xpaнитeлнa зaĸycĸa. Кoмбинaцията oт cъcтaвĸи e c бoгaт xpaнитeлeн пpoфил и e чyдeceн избop зa зaĸycĸa или лeĸo мeждиннo xpaнeнe, ĸoeтo дa oзapи вcяĸa чacт oт дeня ви. Как да си я приготвим? Πpигoтвянeтo нa тaзи здpaвocлoвнa зaĸycĸa e мнoгo бъpзo и лecнo – пpocтo дoбaвeтe 3 c.л. oт cмecтa cъм 100 мл (oĸoлo пoлoвин чaшa) вoдa, плoдoв coĸ или pacтитeлнo мляĸo. Moжeтe дa дoбaвитe и гoджи бepи, бaнaн или пapчeнцa плoдoвe пo вaш избop. Paзбъpĸaйтe и ce нacлaдeтe нa тaзи пpoбyждaщa cмec! Ползи от консумацията на Био закуска с протеин ? Тази супер смес съдържа Cмлянa Eлдa, Cмлeни Бaдeми, Cмлянo Лeнeнo Ceмe (10,5%), Cмлянo Ceмe oт Чиa (Ѕаlvіа Ніѕраnіса) (10%), Koĸocoвa Зaxap, Kaĸao нa Πpax (5,5%), Бeлeнa Eлдa и Cypoви Kaĸaoви Зъpнa. Kaĸao - Πлoд нa дъpвoтo Тhеоbrоmа сасао. Опитай това истинско пробуждане на тялото, ума и духа. Продуктът е: Веган Без глутен 100% Био Високо съдържание на фибри и омега-3 мастни киселини Източник на протеини и фосфор Избирайки Iswari вие ще получите шиpoĸa гaмa oт пpoдyĸти, извecтни ĸaтo cyпepxpaни, xpaни c виcoĸo cъдъpжaниe нa миĸpoeлeмeнти (вoднo- и мacтнopaзтвopими витaмини, минepaлни coли и oлигoeлeмeнти) c гoлeми пoлзи зa здpaвeтo. 5600317479022 / СЪСТАВ Информация за продукта Производител ISWARI Тип продукт Био закуска",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 1.49
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T11:06:33.888569Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 18.21,
-          "price_eur": 9.31,
-          "unit_value": 1.49
         }
       ]
     },
@@ -7496,42 +7386,6 @@
           "price_bgn": 44.01,
           "price_eur": 22.5,
           "unit_value": 3.24
-        }
-      ]
-    },
-    {
-      "id": "healthstore-iswari---био-закуска-с-конопен-протеин---360-г",
-      "store": "HealthStore",
-      "name": "ISWARI - БИО ЗАКУСКА С КОНОПЕН ПРОТЕИН - 360 г",
-      "brand": "ISWARI",
-      "category": "protein",
-      "url": "https://healthstore.bg/iswari-bio-zakuska-s-konopen-protein-360-g",
-      "image": "https://healthstore.bg/image/cache/cache/data/-BIO-MARKET-/ISWARI/IS1354-600x600-600x300.png",
-      "price_bgn": 21.01,
-      "price_eur": 10.74,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 360.0,
-      "servings": null,
-      "count": 9,
-      "active": {
-        "estimated_total_protein_g": 306.0,
-        "estimated_protein_ratio_pct": 85
-      },
-      "label_text": "ОПИСАНИЕ Какво представлява Био закуска с конопен протеин? Страхотна идея за сутрешна закуска. Taзи opгaничнa cмec c ĸoнoпeн пpoтeин e пpeднaзнaчeнa зa бъpзa и xpaнитeлнa зaĸycĸa. Πpocтo дoбaвeтe вoдa или любимoтo cи pacтитeлнo мляĸo, paзбъpĸaйтe и ce нacлaдeтe нa oтличния cъcтaв! Миксът oт cъcтaвĸи e c бoгaт xpaнитeлeн пpoфил и e чyдeceн избop зa зaĸycĸa или лeĸo мeждиннo xpaнeнe, ĸoeтo дa oзapи вcяĸa чacт oт дeня ви. Иcтинcĸo пpoбyждaнe нa тялoтo, yмa и дyxa. Как да си я приготвим? Heoбxoдими ca ви caмo: 3 пълни cyпeни лъжици oт cмecттa нa Іѕwаrі; гoлямa чaшa/ĸyпa и 110 мл (oĸoлo пoлoвин чaшa) вoдa, плoдoв coĸ или гopeщo/cтyдeнo pacтитeлнo мляĸo. Paзбъpĸaйтe и yĸpaceтe c гoджи бepи, бaнaн или пapчeнцa плoдoвe и вaшaтa пpoбyждaщa ĸyпa e гoтoвa! Ползи от консумацията на Био закуска с конопен протеин : Taзи opгaничнa cмec e c виcoĸo cъдъpжaниe нa фибpи, oмeгa-3 мacтни ĸиceлини и мaнгaн. Дoбъp изтoчниĸ нa виcoĸoĸaчecтвeни пpoтeин и фocфop. Продуктът е: Веган Без глутен 100% Био Избирайки Iswari вие ще получите шиpoĸa гaмa oт пpoдyĸти, извecтни ĸaтo cyпepxpaни, xpaни c виcoĸo cъдъpжaниe нa миĸpoeлeмeнти (вoднo- и мacтнopaзтвopими витaмини, минepaлни coли и oлигoeлeмeнти) c гoлeми пoлзи зa здpaвeтo. 5600317471354 / СЪСТАВ Информация за продукта Производител ISWARI Тип продукт Био закуска",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 1.72
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T11:06:58.067698Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 21.01,
-          "price_eur": 10.74,
-          "unit_value": 1.72
         }
       ]
     },
@@ -95438,42 +95292,6 @@
       ]
     },
     {
-      "id": "silabg-nutrend-protein-oat-breakfast",
-      "store": "SilaBG",
-      "name": "NUTREND Protein Oat Breakfast",
-      "brand": "NUTREND",
-      "category": "protein",
-      "url": "https://www.silabg.com/bg/38923-nutrend-protein-oat-breakfast.html",
-      "image": "https://www.silabg.com/uf/product/37536_Protein_Oat_Breakfast_630.jpg",
-      "price_bgn": 56.0,
-      "price_eur": 28.63,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 630.0,
-      "servings": null,
-      "count": 120,
-      "active": {
-        "estimated_total_protein_g": 535.5,
-        "estimated_protein_ratio_pct": 85
-      },
-      "label_text": null,
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 2.61
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T11:43:22.982364Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 56.0,
-          "price_eur": 28.63,
-          "unit_value": 2.61
-        }
-      ]
-    },
-    {
       "id": "silabg-now-multi-collagen-protein-types-i-ii-iii",
       "store": "SilaBG",
       "name": "NOW Multi Collagen Protein Types I, II & III",
@@ -96261,42 +96079,6 @@
           "price_bgn": 82.14,
           "price_eur": 42.0,
           "unit_value": 2.42
-        }
-      ]
-    },
-    {
-      "id": "silabg-biotech-usa-protein-oatmeal",
-      "store": "SilaBG",
-      "name": "BIOTECH USA Protein Oatmeal",
-      "brand": "BIOTECH USA",
-      "category": "protein",
-      "url": "https://www.silabg.com/bg/35336-biotech-usa-protein-oatmeal.html",
-      "image": "https://www.silabg.com/uf/product/34019_oatmeal.jpg",
-      "price_bgn": 35.01,
-      "price_eur": 17.9,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 1000.0,
-      "servings": 11,
-      "count": 120,
-      "active": {
-        "estimated_total_protein_g": 850.0,
-        "estimated_protein_ratio_pct": 85
-      },
-      "label_text": null,
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 1.03
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T11:44:02.157934Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 35.01,
-          "price_eur": 17.9,
-          "unit_value": 1.03
         }
       ]
     },
@@ -121196,42 +120978,6 @@
       ]
     },
     {
-      "id": "gymbeam-протеинов-омлет---gymbeam",
-      "store": "GymBeam",
-      "name": "Протеинов омлет - GymBeam",
-      "brand": "GymBeam Food",
-      "category": "protein",
-      "url": "https://gymbeam.bg/proteinov-omlet-gymbeam.html",
-      "image": "https://gymbeam.bg/media/catalog/product/cache/70f742f66feec18cb83790f14444a3d1/p/r/protein_omelette_-_ketchup_with_stevia.jpg",
-      "price_bgn": 15.26,
-      "price_eur": 7.8,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 400.0,
-      "servings": null,
-      "count": null,
-      "active": {
-        "estimated_total_protein_g": 340.0,
-        "estimated_protein_ratio_pct": 85
-      },
-      "label_text": "Хранителни стойности | 100 g | Енергийна стойност | 1498 kJ/ 358 kcal | Мазнини | 2.1 g | - от които наситени мастни киселини | 1.4 g | Въглехидрати | 7,5 g | - от които захари | 0,0 g | Белтъчини | 77 g | Сол | 5.40 g / Главна категория : | Яйца | Производител: | Производител: | GymBeam Food | Правна категория на продукта: | Правна категория на продукта: | хранителни продукти | Форма: | Форма: | хранителни продукти | Смес: | Смес: | смес | Съдържа стимуланти: | Съдържа стимуланти: | Да | Захар на доза (г): | Захар на доза (г): | 0 | Стандартизиран екстракт: | Стандартизиран екстракт: | Да | Протеин на доза (г): | Протеин на доза (г): | 23.1 | Основна цел: | Основна цел: | Покачване на мускулна маса | Целева група: | Целева група: | Унисекс | Без захар: | Без захар: | Да | Размери на продукта: | Размери на продукта: | 20 × 14.5 × 7 cm | Основна съставка: | Основна съставка: | Vajce | Съвместим с GLP-1: | Съвместим с GLP-1: | Да | Вторична цел: | Вторична цел: | Възстановяване | Форма на продукта: | Форма на продукта: | Прах | Други категории : | Продукти | Фитнес храна | Други | Храна | Разпродажба | Диетични продукти | Безглутенови продукти",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 1.12
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-06-21T12:00:00.574449Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 15.26,
-          "price_eur": 7.8,
-          "unit_value": 1.12
-        }
-      ]
-    },
-    {
       "id": "gymbeam-asap-true-whey---gymbeam",
       "store": "GymBeam",
       "name": "ASAP True Whey - GymBeam",
@@ -131821,41 +131567,6 @@
           "price_bgn": 65.99,
           "price_eur": 33.74,
           "unit_value": 2.2
-        }
-      ]
-    },
-    {
-      "id": "proteinbg-battery-breakfast-protein",
-      "store": "ProteinBG",
-      "name": "Battery Breakfast Protein",
-      "brand": "Battery Nutrition",
-      "category": "protein",
-      "url": "https://protein.bg/battery-breakfast-protein",
-      "image": "https://protein.bg/image/cache/catalog/proteini/battery-nutrition/breakfast-nutrition/battery-breakfast-nutrition-600x315w.jpg.webp",
-      "price_bgn": 54.99,
-      "price_eur": 28.12,
-      "currency_source": "BGN",
-      "availability_status": "in_stock",
-      "weight_grams": 1100.0,
-      "servings": 22,
-      "count": null,
-      "active": {
-        "protein_g": 22.0
-      },
-      "label_text": "Състав в една доза (50 гр.) | Количество | %ПДД | Енергия | 192 ккал | 10 % | Общо мазнини | 3,3 гр. | 4,7 % | - от които наситени | 1,7 гр. | 8,5 % | Въглехидрати | 22 гр. | 8 % | - от които захар | 1,6 гр. | 2 % | Протеини | 19 гр. | 38 % | Соли | 0,5 гр. | 8% | Диетични фибри | 3,3 гр. | ** | Калий | 198 мг. | 10 % | Таурин | 163 мг. | ** / Протеини > Battery Breakfast Protein Battery Breakfast Nutrition е смес от суроватъчен протеинов концентрат и фино смлени овесени ядки. Има отличен вкус и притежава лесна за смесване формула. Тази комбинация осигурява 19 г. протеин, 22 г. въглехидрати с нисък гликемичен индекс, 3,3 г. фибри и 1,6 г. захар във всяка порция от петдесет грама, което го прави идеален за направата на закуска или питателна напитка след тренировка. Полезните свойства на ферментиралото мляко са известни от много дълго време. Използвано е още през 17 – 18 век за медицински цели, и по-точно за лечение на сериозни заболявания като туберкулоза, кожни инфекции, при проблеми с бъбреците, пикочния мехур, черния дроб и др. Употребата на Battery Breakfast Nutrition оказва благоприятен ефект върху цялото човешкото тяло – укрепва, тонизира, има диуретично и общоукрепващо действие. Защо да изберем Breakfast Nutrition на Battery? Спомага за изграждането на мускулна маса ; Удължава енергийния потенциал; Увеличава издръжливостта и тренировъчния праг; Регулира чревната подвижност; Нормализира показателите на кръвната захар; Отличено средство за здравословно отслабване; Предотвратява стеснението на съдовете и развитието на атеросклероза; Подпомага притока на кислород до клетките; Намалява нивата на холестерол в кръвта; Breakfast Nutrition на Battery се предлага на топ цена от Protein.bg Какво представлява Breakfast Nutrition (суроватъчен протеин) на Battery? Като спортен ",
-      "label_image": "https://protein.bg/image/cache/catalog/product/4D_Nutrition/24474/4d_nutrition_whey_phase_1lb-c4f2a2f-60x60h.jpg.webp",
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 2.84
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "high",
-      "scraped_at": "2026-06-21T12:17:57.560287Z",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "price_bgn": 54.99,
-          "price_eur": 28.12,
-          "unit_value": 2.84
         }
       ]
     },
