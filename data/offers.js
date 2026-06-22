@@ -1,8 +1,8 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-06-22T12:51:03.867353Z",
-  "content_hash": "4e7923d3a90f8669f676b844084e8ab1",
-  "total_offers": 4422,
-  "promo_offers": 1481,
+  "generated_at": "2026-06-22T14:43:25.498526Z",
+  "content_hash": "e3b5293b9df0d5df9b6e436ccc499e5c",
+  "total_offers": 4423,
+  "promo_offers": 1482,
   "assortment_offers": 2941,
   "stores": [
     "Billa",
@@ -6780,6 +6780,70 @@ const OFFERS_DATA = {
           5.85,
           8.45,
           31
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 6.45,
+      "new_price_eur": 3.3,
+      "old_price": 7.61,
+      "old_price_eur": 3.89,
+      "discount_pct": 15,
+      "valid_from": "2026-06-08",
+      "valid_until": "2026-07-05",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 6.45,
+          "price_eur": 3.3,
+          "old_price": 7.61,
+          "old_price_eur": 3.89,
+          "discount_pct": 15,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 6.45,
+      "comparison_count": 1,
+      "product_id": "kaufland-домати",
+      "name": "Домати",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/2830030000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "vegetable",
+      "emoji": "🥦",
+      "health_score": 7,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 18,
+        "p": 0.9,
+        "f": 0.2,
+        "c": 3.9
+      },
+      "avg_price": 6.45,
+      "lowest_price": 6.45,
+      "lowest_price_date": "2026-06-09",
+      "price_history": [
+        [
+          "2026-06-09",
+          6.45,
+          7.61,
+          15
         ]
       ],
       "price_seen_count": 1,
