@@ -1,9 +1,9 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-06-23T15:14:09.165596Z",
-  "content_hash": "f444283f9f0bcedbe57e949e612b75f9",
+  "generated_at": "2026-06-23T17:20:57.736910Z",
+  "content_hash": "63f2809719f0d250ba4a23419ea40c44",
   "total_offers": 4433,
-  "promo_offers": 1481,
-  "assortment_offers": 2952,
+  "promo_offers": 1482,
+  "assortment_offers": 2951,
   "stores": [
     "Billa",
     "Dar",
@@ -17054,7 +17054,7 @@ const OFFERS_DATA = {
       "weight_grams": 500,
       "weight_raw": "500 г",
       "name": "MLEKPOL Моцарела настъргана",
-      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20921580_P.jpg",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20921580-1?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "dairy",
       "emoji": "🥛",
       "health_score": 5,
@@ -22073,6 +22073,66 @@ const OFFERS_DATA = {
           1.0,
           1.19,
           16
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 1.15,
+      "new_price_eur": 0.59,
+      "old_price": 1.58,
+      "old_price_eur": 0.81,
+      "discount_pct": 27,
+      "valid_from": "2026-06-08",
+      "valid_until": "2026-07-05",
+      "price_per_kg": 15.97,
+      "price_per_kg_eur": 8.17,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 1.15,
+          "price_eur": 0.59,
+          "old_price": 1.58,
+          "old_price_eur": 0.81,
+          "discount_pct": 27,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 1.15,
+      "comparison_count": 1,
+      "product_id": "kaufland-raxi-крекер-бекон-72g",
+      "weight_grams": 72,
+      "weight_raw": "72 г",
+      "name": "RAXI Крекер бекон",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4770179989173_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "protein",
+      "emoji": "🍗",
+      "health_score": 2,
+      "is_food": true,
+      "is_junk": true,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 1.15,
+      "lowest_price": 1.15,
+      "lowest_price_date": "2026-06-23",
+      "price_history": [
+        [
+          "2026-06-23",
+          1.15,
+          1.58,
+          27
         ]
       ],
       "price_seen_count": 1,
@@ -40969,63 +41029,6 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 7.28,
-      "new_price_eur": 3.72,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-06-08",
-      "valid_until": "2026-07-05",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 7.28,
-          "price_eur": 3.72,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 7.28,
-      "comparison_count": 1,
-      "product_id": "kaufland-penelope-цяла-патица-охладена",
-      "name": "Penelope Цяла патица охладена",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/2811660000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 7.28,
-      "lowest_price": 7.28,
-      "lowest_price_date": "2026-05-18",
-      "price_history": [
-        [
-          "2026-05-18",
-          7.28,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
       "price_signal": "buy"
     },
     {
