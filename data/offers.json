@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-26T07:59:25.125081Z",
-  "content_hash": "6bcd41711edee3ed33cf3b41958c6cb6",
-  "total_offers": 4478,
-  "promo_offers": 1429,
+  "generated_at": "2026-06-26T14:37:10.195993Z",
+  "content_hash": "49060cbc28c21a6686e12bd6dfa99389",
+  "total_offers": 4476,
+  "promo_offers": 1427,
   "assortment_offers": 3049,
   "stores": [
     "Billa",
@@ -24186,75 +24186,6 @@
           3.5,
           4.87,
           28
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 3.89,
-      "new_price_eur": 1.99,
-      "old_price": 9.0,
-      "old_price_eur": 4.6,
-      "discount_pct": 57,
-      "valid_from": "2026-06-08",
-      "valid_until": "2026-07-05",
-      "price_per_kg": 7.78,
-      "price_per_kg_eur": 3.98,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 3.89,
-          "price_eur": 1.99,
-          "old_price": 9.0,
-          "old_price_eur": 4.6,
-          "discount_pct": 57,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 3.89,
-      "comparison_count": 1,
-      "product_id": "kaufland-череши-клас-i-500g",
-      "weight_grams": 500,
-      "weight_raw": "500 г",
-      "name": "Череши Клас: I",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800087203113_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "vegetable",
-      "emoji": "🥦",
-      "health_score": 8,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "diet_tags": [
-        "budget"
-      ],
-      "macros": {
-        "kcal": 63,
-        "p": 1.1,
-        "f": 0.3,
-        "c": 16
-      },
-      "avg_price": 3.89,
-      "lowest_price": 3.89,
-      "lowest_price_date": "2026-06-05",
-      "price_history": [
-        [
-          "2026-06-05",
-          3.89,
-          9.0,
-          57
         ]
       ],
       "price_seen_count": 1,
@@ -121298,72 +121229,6 @@
       ],
       "price_seen_count": 5,
       "price_signal": "wait"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 9.76,
-      "new_price_eur": 4.99,
-      "old_price": 14.18,
-      "old_price_eur": 7.25,
-      "discount_pct": 31,
-      "valid_from": "2026-06-08",
-      "valid_until": "2026-07-05",
-      "price_per_kg": 19.52,
-      "price_per_kg_eur": 9.98,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 9.76,
-          "price_eur": 4.99,
-          "old_price": 14.18,
-          "old_price_eur": 7.25,
-          "discount_pct": 31,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 9.76,
-      "comparison_count": 1,
-      "product_id": "kaufland-mlekpol-моцарела-настъргана-500g",
-      "weight_grams": 500,
-      "weight_raw": "500 г",
-      "name": "MLEKPOL Моцарела настъргана",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20921580-1?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
-      "category": "dairy",
-      "emoji": "🥛",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "macros": {
-        "kcal": 280,
-        "p": 28,
-        "f": 17,
-        "c": 3.1
-      },
-      "avg_price": 9.76,
-      "lowest_price": 9.76,
-      "lowest_price_date": "2026-05-18",
-      "price_history": [
-        [
-          "2026-05-18",
-          9.76,
-          14.18,
-          31
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
     },
     {
       "store": "Kaufland",
