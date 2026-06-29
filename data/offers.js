@@ -1,8 +1,8 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-06-29T11:18:25.882404Z",
-  "content_hash": "be20bdb01459e1a701cbac11002ddd0f",
-  "total_offers": 4339,
-  "promo_offers": 1289,
+  "generated_at": "2026-06-29T12:00:07.513252Z",
+  "content_hash": "7cbc3e3a3785df0b50ee2c966bc6161e",
+  "total_offers": 4336,
+  "promo_offers": 1286,
   "assortment_offers": 3050,
   "stores": [
     "Billa",
@@ -26963,8 +26963,8 @@ const OFFERS_DATA = {
       "best_price_store": "Kaufland",
       "best_price": 2.91,
       "comparison_count": 1,
-      "product_id": "kaufland-праскови",
-      "name": "Праскови",
+      "product_id": "kaufland-български-праскови",
+      "name": "Български праскови",
       "image": "https://kaufland.media.schwarz/is/image/schwarz/25013474_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
@@ -26976,22 +26976,10 @@ const OFFERS_DATA = {
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
-      "avg_price": 4.22,
+      "avg_price": 2.91,
       "lowest_price": 2.91,
       "lowest_price_date": "2026-06-29",
       "price_history": [
-        [
-          "2026-06-01",
-          5.85,
-          8.78,
-          33
-        ],
-        [
-          "2026-06-15",
-          3.89,
-          7.8,
-          50
-        ],
         [
           "2026-06-29",
           2.91,
@@ -26999,7 +26987,7 @@ const OFFERS_DATA = {
           63
         ]
       ],
-      "price_seen_count": 3,
+      "price_seen_count": 1,
       "price_signal": "buy"
     },
     {
@@ -31198,63 +31186,6 @@ const OFFERS_DATA = {
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
-      "avg_price": 4.48,
-      "lowest_price": 4.48,
-      "lowest_price_date": "2026-06-29",
-      "price_history": [
-        [
-          "2026-06-29",
-          4.48,
-          5.98,
-          25
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 4.48,
-      "new_price_eur": 2.29,
-      "old_price": 5.98,
-      "old_price_eur": 3.06,
-      "discount_pct": 25,
-      "valid_from": "2026-06-08",
-      "valid_until": "2026-07-05",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 4.48,
-          "price_eur": 2.29,
-          "old_price": 5.98,
-          "old_price_eur": 3.06,
-          "discount_pct": 25,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 4.48,
-      "comparison_count": 1,
-      "product_id": "kaufland-palette-delux-боя-за-коса",
-      "name": "PALETTE DELUX Боя за коса",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00078028_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "hygiene",
-      "emoji": "🧴",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
       "avg_price": 4.48,
       "lowest_price": 4.48,
       "lowest_price_date": "2026-06-29",
@@ -37255,8 +37186,8 @@ const OFFERS_DATA = {
       "best_price": 7.49,
       "comparison_count": 1,
       "product_id": "kaufland-palette-deluxe-боя-за-коса",
-      "name": "PALETTE DELUXE Боя за коса",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/632_20078329_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "name": "Palette Deluxe Боя за коса",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3838824086576_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "hygiene",
       "emoji": "🧴",
       "is_food": false,
@@ -38606,63 +38537,6 @@ const OFFERS_DATA = {
     {
       "store": "Kaufland",
       "address": null,
-      "new_price": 8.1,
-      "new_price_eur": 4.14,
-      "old_price": 10.8,
-      "old_price_eur": 5.52,
-      "discount_pct": 25,
-      "valid_from": "2026-06-08",
-      "valid_until": "2026-07-05",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 8.1,
-          "price_eur": 4.14,
-          "old_price": 10.8,
-          "old_price_eur": 5.52,
-          "discount_pct": 25,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 8.1,
-      "comparison_count": 1,
-      "product_id": "kaufland-syoss-спреи-за-корени-различни-видове",
-      "name": "SYOSS Спрей за корени различни видове",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00055547_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 8.1,
-      "lowest_price": 8.1,
-      "lowest_price_date": "2026-06-29",
-      "price_history": [
-        [
-          "2026-06-29",
-          8.1,
-          10.8,
-          25
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
       "new_price": 8.19,
       "new_price_eur": 4.19,
       "old_price": null,
@@ -38858,63 +38732,6 @@ const OFFERS_DATA = {
           8.49,
           null,
           null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 8.61,
-      "new_price_eur": 4.4,
-      "old_price": 11.48,
-      "old_price_eur": 5.87,
-      "discount_pct": 25,
-      "valid_from": "2026-06-08",
-      "valid_until": "2026-07-05",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 8.61,
-          "price_eur": 4.4,
-          "old_price": 11.48,
-          "old_price_eur": 5.87,
-          "discount_pct": 25,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 8.61,
-      "comparison_count": 1,
-      "product_id": "kaufland-syoss-боя-за-коса-oleo-intense-различни-цветове",
-      "name": "Syoss Боя за коса Oleo Intense различни цветове",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/9000101660104_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "hygiene",
-      "emoji": "🧴",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "avg_price": 8.61,
-      "lowest_price": 8.61,
-      "lowest_price_date": "2026-06-29",
-      "price_history": [
-        [
-          "2026-06-29",
-          8.61,
-          11.48,
-          25
         ]
       ],
       "price_seen_count": 1,
@@ -321817,5 +321634,5 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     }
   ],
-  "catalog_products": 53517
+  "catalog_products": 53518
 };
