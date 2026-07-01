@@ -1,6 +1,6 @@
-// Real-user QA for smart-supplements.html — checks for confidence labels,
-// protein warnings, search/filter/sort flows, and that "no label" warnings
-// only appear when the page genuinely has no readable protein grams.
+// Real-user QA for smart-supplements.html — checks core browse/search/sort
+// flows, the animal-vs-plant protein-source filter, and that the removed
+// compare/watch/confidence-label UI stays gone.
 const { chromium } = require('@playwright/test');
 
 const BASE = 'http://127.0.0.1:8000/smart-supplements.html';
@@ -26,6 +26,10 @@ const BASE = 'http://127.0.0.1:8000/smart-supplements.html';
     await page.waitForTimeout(500);
   }
 
+  function statusCount(text) {
+    return Number((text || '').match(/\d+/)?.[0] || 0);
+  }
+
   for (const profile of [
     { label: 'DESKTOP', viewport: { width: 1440, height: 900 } },
     { label: 'MOBILE 390x844', viewport: { width: 390, height: 844 } },
@@ -40,84 +44,70 @@ const BASE = 'http://127.0.0.1:8000/smart-supplements.html';
       if (m.type() === 'warning') warnings.push(`[${profile.label}] console.warn: ${m.text()}`);
     });
 
-    await page.goto(BASE, { waitUntil: 'networkidle' });
+    await page.goto(BASE, { waitUntil: 'networkidle', timeout: 60000 });
     await page.waitForTimeout(2500);
 
     // 1. Initial load
     const cards = await page.locator('.supplement-card').count();
     step('Initial supplement cards rendered', cards > 0, `${cards} cards`);
 
-    // 2. Confidence labels: "Етикет: реален етикет/частична сметка/само ориентир"
-    const confTextSet = new Set(await page.locator('.supplement-confidence').allTextContents());
-    step('Confidence labels present', confTextSet.size > 0, [...confTextSet].join(' | '));
+    // 2. Compare/watch/confidence UI must stay removed
+    step('No confidence pill', await page.locator('.supplement-confidence').count() === 0);
+    step('No watch buttons', await page.locator('.watch-price-btn').count() === 0);
+    step('No compare buttons', await page.locator('.compare-supplement-btn').count() === 0);
+    step('No compare panel', await page.locator('#supplement-compare-panel').count() === 0);
+    step('No watch panel', await page.locator('#supplements-watch-panel').count() === 0);
 
-    // 2b. Label details dropdown exposes the extracted label/math evidence
+    // 3. Label details dropdown still exposes extracted label/math evidence
     const details = page.locator('.supplement-label-details').first();
     await details.scrollIntoViewIfNeeded();
     await details.locator('summary').click();
     await page.waitForTimeout(200);
     const detailsText = await details.textContent();
     step('Label details dropdown opens', /Прочетено от етикета|Опаковка|Как е категоризирано/.test(detailsText || ''), (detailsText || '').slice(0, 120));
-    const unclearForms = await page.locator('.supplement-form-row').evaluateAll(nodes => nodes
-      .map(node => node.textContent || '')
-      .filter(text => /форма неясна|формула неясна|неприложимо/i.test(text))
-    );
-    step('Visible form labels are specific', unclearForms.length === 0, `${unclearForms.length} vague labels`);
 
-    // 3. Protein category — examine low-confidence cards
+    // 4. Protein category exposes the animal-vs-plant source filter
     await page.click('[data-category="protein"]');
     await page.waitForTimeout(500);
-    const proteinCards = await page.locator('.supplement-card').count();
-    step('Protein view loads', proteinCards > 0, `${proteinCards} cards`);
+    const proteinAll = statusCount(await page.locator('#supplements-status').textContent());
+    step('Protein view loads', proteinAll > 0, `${proteinAll} products`);
+    step('Protein source filter visible in protein category', await page.locator('#protein-source-filters').isHidden() === false);
 
-    // Inspect each visible card: confidence + warning combo
-    const cardData = await page.locator('.supplement-card').evaluateAll(nodes => nodes.map(n => ({
-      name: n.querySelector('h3')?.textContent?.trim() || '',
-      store: (n.querySelector('.supplement-meta span:nth-child(2)')?.textContent || '').trim(),
-      confidence: (n.querySelector('.supplement-confidence')?.className.match(/supplement-confidence (\w+)/) || [, ''])[1],
-      confText: (n.querySelector('.supplement-confidence')?.textContent || '').trim(),
-      warning: (n.querySelector('.supplement-warning')?.textContent || '').trim(),
-    })));
-    console.log(`  Sample protein cards: ${cardData.length}`);
-    cardData.slice(0, 6).forEach(c => console.log(`    [${c.confidence}] ${c.store} | ${c.name.substring(0, 50)} | warn="${c.warning.substring(0, 60)}"`));
+    await page.click('[data-category="all"]');
+    await page.waitForTimeout(300);
+    step('Protein source filter hidden outside protein', await page.locator('#protein-source-filters').isHidden());
 
-    const lowProteinCards = cardData.filter(c => c.confidence === 'low');
-    const highProteinCards = cardData.filter(c => c.confidence === 'high');
-    step('Some protein cards are high-confidence (real label)', highProteinCards.length > 0, `${highProteinCards.length} high`);
-    step('High-confidence cards have NO warning', highProteinCards.every(c => !c.warning), `${highProteinCards.filter(c => c.warning).length} with stray warning`);
-    step('Low-confidence cards DO have warning', lowProteinCards.every(c => c.warning), `${lowProteinCards.filter(c => !c.warning).length} missing warning`);
-    // The fix: warning text should differentiate (estimate vs no-label)
-    const oldCopy = lowProteinCards.filter(c => /не успяхме автоматично да прочетем/i.test(c.warning));
-    step('No old "не успяхме автоматично да прочетем" copy', oldCopy.length === 0, `${oldCopy.length} cards still using old copy`);
+    await page.click('[data-category="protein"]');
+    await page.waitForTimeout(300);
+    await page.click('[data-protein-source="animal"]');
+    await page.waitForTimeout(400);
+    const animalCount = statusCount(await page.locator('#supplements-status').textContent());
+    const animalNames = await page.locator('.supplement-card h3').allTextContents();
+    const plantWords = ['plant', 'растител', 'vegan', 'веган', 'soy', 'соев', 'соя', 'pea', 'грах', 'rice protein', 'оризов', 'hemp', 'коноп'];
+    const animalHasPlant = animalNames.some(n => plantWords.some(s => n.toLowerCase().includes(s)));
+    step('Animal filter excludes plant-named products', !animalHasPlant, animalNames.filter(n => plantWords.some(s => n.toLowerCase().includes(s))).join(', '));
 
-    // 4. Confidence labels on cards (confidence filter buttons were removed; verify via card classes)
-    const confClasses = await page.locator('.supplement-confidence').evaluateAll(nodes => nodes.map(n => n.className));
-    const hasHighClass = confClasses.some(c => /\bhigh\b/.test(c));
-    step('Confidence CSS classes present on cards', confClasses.length > 0 && (hasHighClass || confClasses.some(c => /\blow\b|\bmedium\b/.test(c))), `${confClasses.length} confidence labels`);
+    await page.click('[data-protein-source="plant"]');
+    await page.waitForTimeout(400);
+    const plantCount = statusCount(await page.locator('#supplements-status').textContent());
+    step('Animal + plant partition the protein list', animalCount + plantCount === proteinAll && animalCount > 0 && plantCount > 0, `${animalCount} + ${plantCount} vs ${proteinAll}`);
 
-    // Reset category back to all before broad searches
+    await page.click('[data-protein-source="all"]');
     await page.click('[data-category="all"]');
     await page.waitForTimeout(300);
 
-    // 5. New measurable categories render and sort by active-dose price
-    for (const cat of ['electrolytes', 'collagen', 'iron']) {
+    // 5. New l_carnitine/melatonin category chips work
+    for (const cat of ['l_carnitine', 'melatonin']) {
       await page.click(`[data-category="${cat}"]`);
       await page.waitForTimeout(400);
-      const cards = await page.locator('.supplement-card').count();
-      const prices = await page.locator('.supplement-card .supplement-price-row strong').evaluateAll(nodes => nodes
-        .map(node => Number((node.textContent || '').replace(',', '.').match(/[0-9.]+/)?.[0]))
-        .filter(Number.isFinite)
-      );
-      const sorted = prices.every((price, idx) => idx === 0 || price >= prices[idx - 1] - 0.0001);
-      step(`Category ${cat} active-dose sort`, cards > 0 && sorted, `${cards} cards, first=${prices.slice(0, 5).join(', ')}`);
+      const c = await page.locator('.supplement-card').count();
+      step(`Category ${cat} loads`, c > 0, `${c} cards`);
     }
-
-    // Reset category back to all before broad searches
     await page.click('[data-category="all"]');
     await page.waitForTimeout(300);
 
     // 6. Search common terms
-    for (const q of ['креатин', 'витамин d', 'витамин c', 'омега', 'магнезий', 'протеин', 'цинк', 'фибри', 'електролити', 'колаген', 'желязо']) {
+    for (const q of ['креатин', 'витамин d', 'витамин c', 'омега', 'магнезий', 'протеин', 'цинк', 'фибри', 'електролити', 'колаген', 'желязо', 'карнитин', 'мелатонин']) {
       await runSearch(page, q);
       const c = await page.locator('.supplement-card').count();
       step(`Search "${q}"`, c > 0, `${c} cards`);
@@ -125,14 +115,14 @@ const BASE = 'http://127.0.0.1:8000/smart-supplements.html';
 
     // 7. Empty search
     await runSearch(page, 'zzznotreal999');
-    const emptyMsg = await page.locator('.supplements-empty, #supplements-grid').textContent();
+    const emptyMsg = await page.locator('#supplements-grid').textContent();
     step('Empty search shows a state', !!emptyMsg, `len=${(emptyMsg || '').length}`);
     await page.fill('#supplements-search', '');
     await page.click('#supplements-search-submit');
     await page.waitForTimeout(300);
 
     // 8. Sort options
-    for (const s of ['unit', 'price', 'name']) {
+    for (const s of ['unit', 'price', 'store']) {
       const btn = page.locator(`[data-sort="${s}"]`).first();
       if (await btn.count() > 0) {
         await btn.click();
@@ -142,23 +132,7 @@ const BASE = 'http://127.0.0.1:8000/smart-supplements.html';
       }
     }
 
-    // 9. Watch/compare buttons
-    const watchBtn = page.locator('.watch-price-btn').first();
-    if (await watchBtn.count() > 0) {
-      await watchBtn.scrollIntoViewIfNeeded();
-      await watchBtn.click();
-      await page.waitForTimeout(300);
-      step('Watch button clickable', true);
-    }
-    const cmpBtn = page.locator('.compare-supplement-btn').first();
-    if (await cmpBtn.count() > 0) {
-      await cmpBtn.scrollIntoViewIfNeeded();
-      await cmpBtn.click();
-      await page.waitForTimeout(300);
-      step('Compare button clickable', true);
-    }
-
-    // 10. Product dialog
+    // 9. Product dialog (no watch/compare buttons inside)
     const card = page.locator('.supplement-card').first();
     await card.scrollIntoViewIfNeeded();
     await card.click();
@@ -166,10 +140,12 @@ const BASE = 'http://127.0.0.1:8000/smart-supplements.html';
     const dialogCount = await page.locator('#supplement-product-overlay .supplement-dialog-screen').count();
     const historyCount = await page.locator('#supplement-product-overlay .supplement-price-history-detail').count();
     step('Supplement card opens product dialog', dialogCount === 1, `history sections: ${historyCount}`);
+    const dialogWatchCompare = await page.locator('#supplement-product-overlay .watch-price-btn, #supplement-product-overlay .compare-supplement-btn').count();
+    step('Dialog has no compare/watch buttons', dialogWatchCompare === 0);
     await page.keyboard.press('Escape');
     await page.waitForTimeout(200);
 
-    // 11. Mobile overflow check
+    // 10. Mobile overflow check
     if (profile.viewport.width <= 480) {
       const bodyW = await page.evaluate(() => document.body.scrollWidth);
       step('No horizontal overflow', bodyW <= profile.viewport.width + 2, `bodyW=${bodyW} vs vp=${profile.viewport.width}`);

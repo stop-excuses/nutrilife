@@ -27,9 +27,9 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Умни добавки — кое излиза най-изгодно">
 <meta name="twitter:description" content="Лесно сравнение на хранителни добавки: колко плащаш за креатин, омега-3, магнезий, витамини, фибри и протеин.">
-<link href="css/style.css?v=47" rel="stylesheet"/>
+<link href="css/style.css?v=48" rel="stylesheet"/>
 <script src="js/i18n.js?v=3"></script>
-<script src="js/i18n.smart-supplements.js?v=6"></script>
+<script src="js/i18n.smart-supplements.js?v=7"></script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -155,7 +155,16 @@
 <button class="filter-btn" data-category="electrolytes" type="button" data-i18n="ss.cat.electrolytes">Електролити</button>
 <button class="filter-btn" data-category="collagen" type="button" data-i18n="ss.cat.collagen">Колаген</button>
 <button class="filter-btn" data-category="iron" type="button" data-i18n="ss.cat.iron">Желязо</button>
+<button class="filter-btn" data-category="l_carnitine" type="button" data-i18n="ss.cat.l_carnitine">Л-карнитин</button>
+<button class="filter-btn" data-category="melatonin" type="button" data-i18n="ss.cat.melatonin">Мелатонин</button>
 <button class="filter-btn" data-category="protein" type="button" data-i18n="ss.cat.protein">Протеин</button>
+</div>
+
+<div class="filters supplements-filters protein-source-filters" id="protein-source-filters" hidden>
+<span class="filter-group-label" data-i18n="ss.source.label">Източник</span>
+<button class="filter-btn active" data-protein-source="all" type="button" data-i18n="ss.source.all">Всички</button>
+<button class="filter-btn" data-protein-source="animal" type="button" data-i18n="ss.source.animal">Животински</button>
+<button class="filter-btn" data-protein-source="plant" type="button" data-i18n="ss.source.plant">Растителен</button>
 </div>
 
 <div class="filters supplements-filters" id="supplements-store-filters">
@@ -171,12 +180,9 @@
 </div>
 </div>
 
-<div class="supplement-compare-panel" id="supplement-compare-panel" aria-live="polite"></div>
 <div class="supplements-grid" id="supplements-grid"></div>
 <div class="pagination" id="supplements-pagination"></div>
 </section>
-
-<section id="supplements-watch-panel"></section>
 
 <section>
 <div class="section-title">
@@ -198,7 +204,7 @@
 
 <script src="js/main.js?v=19"></script>
 <script src="data/supplements.js"></script>
-<script src="js/supplements.js?v=33"></script>
+<script src="js/supplements.js?v=34"></script>
 <script>if('serviceWorker' in navigator){navigator.serviceWorker.register('sw.js?v=35');}</script>
 </body>
 </html>

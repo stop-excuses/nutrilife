@@ -3754,6 +3754,10 @@ body.fav-product-open {
     margin: 20px 0;
 }
 
+.filters[hidden] {
+    display: none;
+}
+
 /* Nut sub-filter row — indented, smaller gap, no top margin (sits right under category row) */
 .nut-subfilters {
     margin-top: -12px;

@@ -20,16 +20,20 @@
         l_carnitine: 'Л-карнитин',
         melatonin: 'Мелатонин'
     };
-    const confidenceLabels = {
-        high: 'реален етикет',
-        medium: 'частична сметка',
-        low: 'само ориентир'
-    };
     const availabilityLabels = {
         in_stock: 'наличен',
         limited: 'ограничена наличност',
         unknown: 'наличност непотвърдена'
     };
+    const proteinSourceLabels = {
+        animal: 'животински протеин',
+        plant: 'растителен протеин'
+    };
+    const plantProteinSignals = [
+        'plant', 'растител', 'vegan', 'веган', 'soy', 'соев', 'соя',
+        'pea', 'грах', 'rice protein', 'оризов', 'hemp', 'коноп', 'vegetable',
+        'sunwarrior', 'garden of life', 'orgain', 'nuzest', 'vega protein', 'iron vegan'
+    ];
     const searchCategoryIntents = {
         'креатин': 'creatine',
         'creatine': 'creatine',
@@ -68,7 +72,13 @@
         'колаген': 'collagen',
         'collagen': 'collagen',
         'желязо': 'iron',
-        'iron': 'iron'
+        'iron': 'iron',
+        'карнитин': 'l_carnitine',
+        'л-карнитин': 'l_carnitine',
+        'l-carnitine': 'l_carnitine',
+        'carnitine': 'l_carnitine',
+        'мелатонин': 'melatonin',
+        'melatonin': 'melatonin'
     };
     const brokenImageMarkers = [
         'stayfit.bg/cdn/img/products/'
@@ -78,12 +88,12 @@
     let selectedSupplementId = '';
     let filters = {
         category: 'all',
+        proteinSource: 'all',
         store: 'all',
         sort: 'unit',
         query: '',
         page: 1
     };
-    let compareIds = [];
 
     document.addEventListener('DOMContentLoaded', initSupplements);
 
@@ -101,10 +111,27 @@
         renderStoreFilters();
         bindControls();
         applySmartValueCategoryIntent();
+        updateProteinSourceVisibility();
         applyFilters();
         renderBestByCategory();
-        renderWatchPanel();
-        renderComparePanel();
+    }
+
+    function detectProteinSource(item) {
+        const text = `${item.name || ''} ${item.brand || ''}`.toLowerCase();
+        if (plantProteinSignals.some(signal => text.includes(signal))) return 'plant';
+        return 'animal';
+    }
+
+    function updateProteinSourceVisibility() {
+        const panel = document.getElementById('protein-source-filters');
+        if (!panel) return;
+        const show = filters.category === 'protein';
+        panel.hidden = !show;
+        if (!show && filters.proteinSource !== 'all') {
+            filters.proteinSource = 'all';
+            document.querySelectorAll('button[data-protein-source]').forEach(btn =>
+                btn.classList.toggle('active', btn.dataset.proteinSource === 'all'));
+        }
     }
 
     function normalizeItem(item) {
@@ -114,9 +141,11 @@
         const oldPrice = Number(item.old_price_bgn);
         const discountPct = Number(item.discount_pct);
         const priceEur = Number(item.price_eur);
+        const proteinSource = item.category === 'protein' ? detectProteinSource(item) : null;
         return {
             ...item,
             unitKey,
+            proteinSource,
             unitValue: Number.isFinite(unitValue) ? unitValue : null,
             price_eur: Number.isFinite(priceEur) ? priceEur : null,
             old_price_bgn: Number.isFinite(oldPrice) && oldPrice > Number(item.price_bgn) ? oldPrice : null,
@@ -219,6 +248,16 @@
                 setActive(button, 'button[data-category]');
                 filters.category = button.dataset.category;
                 filters.page = 1;
+                updateProteinSourceVisibility();
+                applyFilters();
+            });
+        });
+
+        document.querySelectorAll('button[data-protein-source]').forEach(button => {
+            button.addEventListener('click', () => {
+                setActive(button, 'button[data-protein-source]');
+                filters.proteinSource = button.dataset.proteinSource;
+                filters.page = 1;
                 applyFilters();
             });
         });
@@ -242,50 +281,9 @@
         });
 
         document.addEventListener('click', event => {
-            const watchButton = event.target.closest('[data-watch-supplement]');
-            if (watchButton) {
-                event.preventDefault();
-                event.stopPropagation();
-                toggleWatchItem(watchButton.dataset.watchSupplement);
-                return;
-            }
-
             const outbound = event.target.closest('[data-affiliate-out]');
             if (outbound) {
                 trackOutboundClick(outbound);
-                return;
-            }
-
-            const removeWatch = event.target.closest('[data-remove-watch]');
-            if (removeWatch) {
-                event.preventDefault();
-                event.stopPropagation();
-                removeWatchItem(removeWatch.dataset.removeWatch);
-                return;
-            }
-
-            const compareButton = event.target.closest('[data-compare-supplement]');
-            if (compareButton) {
-                event.preventDefault();
-                event.stopPropagation();
-                toggleCompareItem(compareButton.dataset.compareSupplement);
-                return;
-            }
-
-            const removeCompare = event.target.closest('[data-remove-compare]');
-            if (removeCompare) {
-                event.preventDefault();
-                event.stopPropagation();
-                removeCompareItem(removeCompare.dataset.removeCompare);
-                return;
-            }
-
-            const clearCompare = event.target.closest('[data-clear-compare]');
-            if (clearCompare) {
-                event.preventDefault();
-                compareIds = [];
-                applyFilters();
-                renderComparePanel();
                 return;
             }
 
@@ -346,6 +344,9 @@
         if (filters.category !== 'all') {
             filtered = filtered.filter(item => item.category === filters.category);
         }
+        if (filters.category === 'protein' && filters.proteinSource !== 'all') {
+            filtered = filtered.filter(item => item.proteinSource === filters.proteinSource);
+        }
         if (filters.store !== 'all') {
             filtered = filtered.filter(item => item.store === filters.store);
         }
@@ -375,7 +376,9 @@
             fiber: 8,
             electrolytes: 8,
             collagen: 8,
-            iron: 3
+            iron: 3,
+            l_carnitine: 15,
+            melatonin: 8
         };
         const limit = limits[item.category];
         return Boolean(limit && item.unitValue > limit);
@@ -449,8 +452,6 @@
         const image = imageSrc
             ? `<img src="${escapeAttr(imageSrc)}" alt="${escapeAttr(item.name)}" loading="lazy" decoding="async" onerror="this.parentElement.classList.add('fallback');this.outerHTML='<span>${fallbackLabel}</span>'">`
             : `<span>${categoryLabels[item.category] || 'Добавка'}</span>`;
-        const watched = isWatched(item.id);
-        const compared = compareIds.includes(item.id);
         const outboundUrl = buildOutboundUrl(item.url, item);
         const valueBadge = getValueBadge(item);
         const tradeoffBadge = getTradeoffBadge(item, valueBadge);
@@ -487,16 +488,12 @@
                             ${item.count ? `<span>Брой в опаковка: <strong>${item.count}</strong></span>` : ''}
                         </div>
                         <div class="supplement-active">${activeRows}</div>
-                        <div class="supplement-confidence ${escapeAttr(item.confidence)}">Етикет: ${escapeHtml(confidenceLabels[item.confidence] || item.confidence)}</div>
                         ${renderSupplementPriceHistory(item)}
-                        ${renderProteinWarning(item)}
                     </div>
                 </div>
                 ${renderLabelDetails(item, valueBadge, tradeoffBadge)}
                 <div class="supplement-card-actions">
                     <a class="supplement-store-link" href="${escapeAttr(outboundUrl)}" target="_blank" rel="noopener" data-affiliate-out data-product-id="${escapeAttr(item.id)}" data-store="${escapeAttr(item.store)}" data-category="${escapeAttr(item.category)}">Към магазина</a>
-                    <button class="watch-price-btn ${watched ? 'active' : ''}" type="button" data-watch-supplement="${escapeAttr(item.id)}">${watched ? 'Следиш цената' : 'Следи цена'}</button>
-                    <button class="compare-supplement-btn ${compared ? 'active' : ''}" type="button" data-compare-supplement="${escapeAttr(item.id)}">${compared ? 'В сравнение' : 'Сравни'}</button>
                 </div>
             </article>
         `;
@@ -524,18 +521,17 @@
         `).join('');
         const methodRows = [
             ['Категория', categoryLabels[item.category] || item.category],
-            ['Етикет', confidenceLabels[item.confidence] || item.confidence],
+            item.proteinSource ? ['Източник', proteinSourceLabels[item.proteinSource]] : null,
             ['Форма', item.formInfo.label],
             ['Оценка цена', valueBadge.label],
             ['Баланс', tradeoffBadge.label],
             ['Сметка', `${formatMoney(item.unitValue)} ${formatUnitLabel(item)}`]
-        ].map(([label, value]) => `
+        ].filter(Boolean).map(([label, value]) => `
             <div>
                 <span>${escapeHtml(label)}</span>
                 <strong>${escapeHtml(value)}</strong>
             </div>
         `).join('');
-        const note = getLabelMethodNote(item);
         const sourceLabel = (item.label_text || item.label_image) ? `
                     <div class="supplement-label-section">
                         <h4>Етикет от сайта</h4>
@@ -560,21 +556,10 @@
                     <div class="supplement-label-section">
                         <h4>Как е категоризирано</h4>
                         <div class="supplement-label-grid">${methodRows}</div>
-                        <p>${escapeHtml(note)}</p>
                     </div>
                 </div>
             </details>
         `;
-    }
-
-    function getLabelMethodNote(item) {
-        if (item.confidence === 'high') {
-            return 'Категорията и цената са вързани към конкретна активна стойност от етикета или ясно разчетена доза.';
-        }
-        if (item.confidence === 'medium') {
-            return 'Има частична етикетна информация; използваме я за по-добро подреждане, но оставяме продукта като проверка преди покупка.';
-        }
-        return 'Няма достатъчно ясен етикет от страницата. Продуктът остава в правилната категория по име/контекст, но сметката е по-слабо надеждна.';
     }
 
     function renderPromoBadge(item) {
@@ -674,13 +659,11 @@
                             <div class="fav-preview-facts">
                                 <span>${escapeHtml(getValueBadge(item).label)}</span>
                                 <span>Форма: ${escapeHtml(item.formInfo.label)}</span>
-                                <span>Етикет: ${escapeHtml(confidenceLabels[item.confidence] || item.confidence)}</span>
+                                ${item.proteinSource ? `<span>Източник: ${escapeHtml(proteinSourceLabels[item.proteinSource])}</span>` : ''}
                                 ${item.brand ? `<span>Марка: ${escapeHtml(item.brand)}</span>` : ''}
                             </div>
                             <div class="supplement-dialog-actions">
                                 <a class="btn btn-green" href="${escapeAttr(outboundUrl)}" target="_blank" rel="noopener" data-affiliate-out data-product-id="${escapeAttr(item.id)}" data-store="${escapeAttr(item.store)}" data-category="${escapeAttr(item.category)}">Към магазина</a>
-                                <button class="watch-price-btn ${isWatched(item.id) ? 'active' : ''}" type="button" data-watch-supplement="${escapeAttr(item.id)}">${isWatched(item.id) ? 'Следиш цената' : 'Следи цена'}</button>
-                                <button class="compare-supplement-btn ${compareIds.includes(item.id) ? 'active' : ''}" type="button" data-compare-supplement="${escapeAttr(item.id)}">${compareIds.includes(item.id) ? 'В сравнение' : 'Сравни'}</button>
                             </div>
                         </div>
                     </div>
@@ -705,7 +688,6 @@
                                 ${item.label_text ? `<p class="supplement-label-source">${escapeHtml(item.label_text)}</p>` : ''}
                             </section>
                         ` : ''}
-                        ${renderProteinWarning(item)}
                     </div>
                 </div>
             </div>
@@ -774,17 +756,6 @@
         const match = String(dateString || '').match(/^(\d{4})-(\d{2})-(\d{2})/);
         if (!match) return String(dateString || '');
         return `${match[3]}.${match[2]}.${match[1]}`;
-    }
-
-    function renderProteinWarning(item) {
-        if (item.category !== 'protein' || item.confidence !== 'low') return '';
-        const active = item.active || {};
-        const hasEstimate = active.estimated_total_protein_g != null || active.estimated_protein_ratio_pct != null;
-        if (hasEstimate) {
-            const pct = active.estimated_protein_ratio_pct || 85;
-            return `<div class="supplement-warning">Ориентировъчна сметка: ${pct}% усреднено белтъчно съдържание (типично за whey/растителен изолат). Провери етикета за точните стойности.</div>`;
-        }
-        return '<div class="supplement-warning">На страницата на продукта не открихме ясни грамове белтъчини на доза. Сметката е ориентир — провери етикета.</div>';
     }
 
     function getValueBadge(item) {
@@ -1044,153 +1015,15 @@
     }
 
     function resetFilters() {
-        filters = { category: 'all', store: 'all', sort: 'unit', query: '', page: 1 };
+        filters = { category: 'all', proteinSource: 'all', store: 'all', sort: 'unit', query: '', page: 1 };
         const search = document.getElementById('supplements-search');
         if (search) search.value = '';
         document.querySelectorAll('button[data-category]').forEach(btn => btn.classList.toggle('active', btn.dataset.category === 'all'));
+        document.querySelectorAll('button[data-protein-source]').forEach(btn => btn.classList.toggle('active', btn.dataset.proteinSource === 'all'));
         document.querySelectorAll('button[data-store]').forEach(btn => btn.classList.toggle('active', btn.dataset.store === 'all'));
         document.querySelectorAll('button[data-sort]').forEach(btn => btn.classList.toggle('active', btn.dataset.sort === 'unit'));
+        updateProteinSourceVisibility();
         applyFilters();
-    }
-
-    function toggleWatchItem(id) {
-        const item = items.find(entry => entry.id === id);
-        if (!item) return;
-        const watch = getWatchList();
-        const exists = watch.some(entry => entry.id === id);
-        const next = exists
-            ? watch.filter(entry => entry.id !== id)
-            : [{
-                id: item.id,
-                name: item.name,
-                store: item.store,
-                category: item.category,
-                unitValue: item.unitValue,
-                unitLabel: formatUnitLabel(item),
-                price: item.price_bgn,
-                url: item.url,
-                savedAt: new Date().toISOString()
-            }, ...watch].slice(0, 30);
-        setWatchList(next);
-        applyFilters();
-        renderWatchPanel();
-    }
-
-    function removeWatchItem(id) {
-        setWatchList(getWatchList().filter(entry => entry.id !== id));
-        applyFilters();
-        renderWatchPanel();
-    }
-
-    function toggleCompareItem(id) {
-        if (compareIds.includes(id)) {
-            compareIds = compareIds.filter(entryId => entryId !== id);
-        } else if (compareIds.length < 3) {
-            compareIds = [...compareIds, id];
-        }
-        applyFilters();
-        renderComparePanel();
-    }
-
-    function removeCompareItem(id) {
-        compareIds = compareIds.filter(entryId => entryId !== id);
-        applyFilters();
-        renderComparePanel();
-    }
-
-    function renderComparePanel() {
-        const panel = document.getElementById('supplement-compare-panel');
-        if (!panel) return;
-        const selected = compareIds
-            .map(id => items.find(item => item.id === id))
-            .filter(Boolean);
-
-        if (!selected.length) {
-            panel.innerHTML = `
-                <div class="compare-empty">
-                    <strong>Сравни до 3 продукта</strong>
-                    <span>Избери “Сравни” на картите, за да видиш цена за доза, опаковка, етикет и магазин един до друг.</span>
-                </div>
-            `;
-            return;
-        }
-
-        panel.innerHTML = `
-            <div class="compare-head">
-                        <span><strong>${selected.length}/3</strong> продукта за сравнение · ${selected.length < 3 ? 'избери още' : 'готово'}</span>
-                <button class="filter-btn" type="button" data-clear-compare>Изчисти</button>
-            </div>
-            <div class="compare-table">
-                ${selected.map(item => `
-                    <article class="compare-product">
-                        <button class="compare-remove" type="button" data-remove-compare="${escapeAttr(item.id)}" aria-label="Премахни от сравнение">×</button>
-                        <span>${escapeHtml(categoryLabels[item.category] || item.category)} · ${escapeHtml(item.store)}</span>
-                        <h3>${escapeHtml(item.name)}</h3>
-                        <strong>${formatMoney(item.unitValue)}</strong>
-                        <small>${escapeHtml(formatUnitLabel(item))}</small>
-                        <div class="compare-facts">
-                            <span>Цена: <b>${formatProductPrice(item)}</b></span>
-                            ${item.servings ? `<span>Приеми: <b>${item.servings}</b></span>` : ''}
-                            ${item.count ? `<span>Брой: <b>${item.count}</b></span>` : ''}
-                            <span>Етикет: <b>${escapeHtml(confidenceLabels[item.confidence] || item.confidence)}</b></span>
-                            <span>Форма: <b>${escapeHtml(item.formInfo.label)}</b></span>
-                            ${renderAvailabilityPill(item)}
-                        </div>
-                    </article>
-                `).join('')}
-            </div>
-        `;
-    }
-
-    function renderWatchPanel() {
-        const panel = document.getElementById('supplements-watch-panel');
-        if (!panel) return;
-        const watch = getWatchList();
-        if (!watch.length) {
-            panel.innerHTML = '';
-            return;
-        }
-        panel.innerHTML = `
-            <div class="section-title compact-section-top">
-                <h2>Следене на цени</h2>
-                <p class="section-subtitle">Твоят списък за продукти, които искаш да провериш пак по-късно.</p>
-            </div>
-            <div class="watch-list">
-                ${watch.map(entry => `
-                    <div class="watch-row">
-                        <span>
-                            <strong>${escapeHtml(entry.name)}</strong>
-                            <small>${escapeHtml(entry.store)} · ${escapeHtml(categoryLabels[entry.category] || entry.category)}</small>
-                        </span>
-                        <span>
-                            <strong>${formatMoney(entry.unitValue)}</strong>
-                            <small>${escapeHtml(entry.unitLabel)}</small>
-                        </span>
-                        <button class="filter-btn" type="button" data-remove-watch="${escapeAttr(entry.id)}">Премахни</button>
-                    </div>
-                `).join('')}
-            </div>
-        `;
-    }
-
-    function isWatched(id) {
-        return getWatchList().some(entry => entry.id === id);
-    }
-
-    function getWatchList() {
-        try {
-            return JSON.parse(localStorage.getItem('nutrilife-supplement-watch') || '[]');
-        } catch (error) {
-            return [];
-        }
-    }
-
-    function setWatchList(list) {
-        try {
-            localStorage.setItem('nutrilife-supplement-watch', JSON.stringify(list));
-        } catch (error) {
-            // localStorage may be disabled.
-        }
     }
 
     function buildOutboundUrl(url, item, placement = 'card') {
@@ -1270,7 +1103,9 @@
             bgn_per_5g_fiber: 'за 5 g фибри',
             bgn_per_electrolyte_serving: 'за 1 доза електролити',
             bgn_per_10g_collagen: 'за 10 g колаген',
-            bgn_per_14mg_iron: 'за 14 mg желязо'
+            bgn_per_14mg_iron: 'за 14 mg желязо',
+            bgn_per_1000mg_carnitine: 'за 1000 mg л-карнитин',
+            bgn_per_3mg_melatonin: 'за 3 mg мелатонин'
         };
         return labels[item.unitKey] || item.unit_label || '';
     }
@@ -1299,7 +1134,9 @@
             collagen_total_g: 'колаген общо',
             iron_mg: 'желязо в доза',
             electrolyte_serving: '1 прием',
-            package_weight_g: 'грамаж'
+            package_weight_g: 'грамаж',
+            carnitine_mg: 'л-карнитин в доза',
+            melatonin_mg: 'мелатонин в доза'
         };
         return labels[key] || key.replaceAll('_', ' ');
     }
