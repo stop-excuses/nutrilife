@@ -405,7 +405,22 @@ def parse_structured_offer(product: dict) -> tuple[float | None, float | None, s
     if not parsed:
         return None, None, None, None, None
 
-    price, currency, offer = min(parsed, key=lambda row: row[0])
+    # A page listing several package-size variants as separate offers (common
+    # on GymBeam/SilaBG-style stores) should not just pick the cheapest
+    # ABSOLUTE price — that always selects the smallest pack, usually the
+    # worst value per gram. Rank each offer by its own price-per-gram (weight
+    # parsed from that specific offer's name) and take the best value; fall
+    # back to cheapest price when no offer name yields a parseable weight.
+    weighted = []
+    for row in parsed:
+        row_price, _, row_offer = row
+        row_weight = parse_largest_weight_grams(str(row_offer.get("name") or ""))
+        if row_weight:
+            weighted.append((row_price / row_weight, row))
+    if weighted:
+        price, currency, offer = min(weighted, key=lambda pair: pair[0])[1]
+    else:
+        price, currency, offer = min(parsed, key=lambda row: row[0])
     availability_status = offer_availability_status(offer)
     offer_name = normalize_text(str(offer.get("name", ""))) if offer.get("name") else None
     if currency == "EUR":
@@ -1450,7 +1465,11 @@ def parse_product(source: Source, url: str, forced_category: str | None = None) 
     image = extract_product_image(product, soup, url)
 
     offer_weight_grams = parse_largest_weight_grams(offer_name or "") if offer_name else None
-    weight_grams = offer_weight_grams or parse_weight_grams(f"{name} {text}")
+    # Last-resort fallback (no weight in the specific offer's own name): take the
+    # largest weight-like number across name+text, not the first one. The first
+    # match is often a per-serving amount ("1 порция (30 г)") mentioned before
+    # the actual package weight further down the page.
+    weight_grams = offer_weight_grams or parse_largest_weight_grams(f"{name} {text}")
     servings = parse_servings(text)
     serving_grams = parse_serving_grams(text)
     # Sanity-bound serving_grams itself: a protein-powder scoop is realistically
