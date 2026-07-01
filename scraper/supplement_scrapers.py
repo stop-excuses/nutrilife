@@ -1641,6 +1641,16 @@ def is_relevant_product(category: str, name: str, url: str) -> bool:
         # Exclude food products: granola, muesli, protein spreads/creams, pancake/waffle mixes, porridge, oatmeal, omelette, breakfast products
         if re.search(r"\bgranola\b|гранола|\bмюсли\b|мюесли|creametto|protein.spread|палачинки|\bpancake\b|\bwaffle\b|\bporridge\b|\boatmeal\b|овесен.*протеин|протеинов.омлет|\bomelette\b|\bbreakfast\b", haystack, re.I):
             return False
+        # Exclude snack/baked-food formats: pasta, bread, pizza, cookies/crackers,
+        # spreads/cream, porridge — their real protein-by-weight ratio is much
+        # lower than powder, so the assumed-serving fallback math overstates
+        # value for them (they are not comparable to whey/isolate powder anyway).
+        # Only check the product-type part of the name, not a flavor description
+        # ("... с вкус на бисквитки и крем" is a normal whey powder flavored
+        # cookies-and-cream, not an actual cookie/cream food product).
+        product_type_part = re.split(r"с\s+вкус\s+на|with\s+.{0,3}\s*flavor", haystack, maxsplit=1, flags=re.I)[0]
+        if re.search(r"паста\b|\bбисквитк|крекер|пица\b|каша\b|хляб\b|\bbread\b|\bcookies?\b|\bcrackers?\b|\bpizza\b|фъстъчено.масло|peanut.butter|крем\b", product_type_part, re.I):
+            return False
         # Exclude RTD (ready-to-drink) protein shakes with volume in mL
         if re.search(r"шейк.{0,20}(?:х|x)\s*\d{3,}\s*мл", haystack, re.I):
             return False

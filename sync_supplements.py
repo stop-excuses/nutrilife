@@ -35,6 +35,22 @@ def is_hair_cosmetic_junk(name):
     return bool(re.search(r"коса\b|косопад|hair\s*mask|hair\s*conditioner", low))
 
 
+def is_snack_food_junk(name):
+    """Snack/baked-food formats (pasta, bread, pizza, cookies/crackers, cream
+    spreads, porridge) have a much lower real protein-by-weight ratio than
+    powder, so the assumed-serving fallback overstates their value — and
+    they are not comparable to whey/isolate powder anyway. Only checks the
+    product-type part of the name, not a flavor description ("... с вкус на
+    бисквитки и крем" is a normal whey powder flavored cookies-and-cream,
+    not an actual cookie/cream food product)."""
+    low = (name or "").lower()
+    product_type_part = re.split(r"с\s+вкус\s+на|with\s+.{0,3}\s*flavor", low, maxsplit=1)[0]
+    return bool(re.search(
+        r"паста\b|\bбисквитк|крекер|пица\b|каша\b|хляб\b|\bbread\b|\bcookies?\b|\bcrackers?\b|\bpizza\b|фъстъчено.масло|peanut.butter|крем\b",
+        product_type_part,
+    ))
+
+
 def resolve_weight_grams(item):
     """Product pages sometimes yield an unrelated small number as weight_grams
     (e.g. grams of protein per serving instead of the package size, or an
@@ -90,6 +106,8 @@ def repair_protein_units(item):
     if item.get("category") != "protein":
         return True
     if is_hair_cosmetic_junk(item.get("name")):
+        return False
+    if is_snack_food_junk(item.get("name")):
         return False
     price = item.get("price_bgn")
     if not price:
