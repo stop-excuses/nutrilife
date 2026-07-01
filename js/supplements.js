@@ -372,7 +372,7 @@
             vitamin_b: 6,
             multivitamin: 8,
             zinc: 2,
-            protein: 8,
+            protein: 20,
             fiber: 8,
             electrolytes: 8,
             collagen: 8,

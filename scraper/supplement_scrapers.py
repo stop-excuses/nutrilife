@@ -673,10 +673,22 @@ def parse_int(value: str) -> int | None:
     return int(number) if number is not None else None
 
 
+WEIGHT_UNIT_TOKEN = r"(килограма|кг|kg|грама|грам|гр|(?<!м)г|паунда|lbs|lb|(?<!m)g)"
+
+
+def _weight_unit_to_grams(amount: float, unit: str) -> float:
+    unit = unit.lower()
+    if unit in {"килограма", "кг", "kg"}:
+        return round(amount * 1000, 2)
+    if unit in {"паунда", "lbs", "lb"}:
+        return round(amount * 453.592, 2)
+    return amount
+
+
 def parse_weight_grams(text: str) -> float | None:
     patterns = (
-        r"разфасовка:?\s*(\d+(?:[,.]\d+)?)\s*(кг|kg|гр|(?<!м)г|(?<!m)g)",
-        r"(\d+(?:[,.]\d+)?)\s*(кг|kg|гр|(?<!м)г|(?<!m)g)\b",
+        rf"разфасовка:?\s*(\d+(?:[,.]\d+)?)\s*{WEIGHT_UNIT_TOKEN}",
+        rf"(\d+(?:[,.]\d+)?)\s*{WEIGHT_UNIT_TOKEN}\b",
         r"(\d+(?:[,.]\d+)?)\s*(?:x|х)\s*(\d+(?:[,.]\d+)?)\s*(гр|(?<!м)г|(?<!m)g)",
     )
     for pattern in patterns:
@@ -688,17 +700,16 @@ def parse_weight_grams(text: str) -> float | None:
             right = parse_number(match.group(2)) or 0
             return round(left * right, 2) if left and right else None
         amount = parse_number(match.group(1))
-        unit = match.group(2).lower()
         if amount is None:
             continue
-        return round(amount * 1000, 2) if unit in {"кг", "kg"} else amount
+        return _weight_unit_to_grams(amount, match.group(2))
     return None
 
 
 def parse_largest_weight_grams(text: str) -> float | None:
     weights = []
     patterns = (
-        r"(\d+(?:[,.]\d+)?)\s*(кг|kg|гр|(?<!м)г|(?<!m)g)\b",
+        rf"(\d+(?:[,.]\d+)?)\s*{WEIGHT_UNIT_TOKEN}\b",
         r"(\d+(?:[,.]\d+)?)\s*(?:x|х)\s*(\d+(?:[,.]\d+)?)\s*(гр|(?<!м)г|(?<!m)g)",
     )
     for pattern in patterns:
@@ -710,9 +721,8 @@ def parse_largest_weight_grams(text: str) -> float | None:
                     weights.append(round(left * right, 2))
                 continue
             amount = parse_number(match.group(1))
-            unit = match.group(2).lower()
             if amount is not None:
-                weights.append(round(amount * 1000, 2) if unit in {"кг", "kg"} else amount)
+                weights.append(_weight_unit_to_grams(amount, match.group(2)))
     return max(weights) if weights else None
 
 
@@ -1339,10 +1349,21 @@ def calculate_price_units(category: str, price_bgn: float | None, active: dict, 
         protein_g = active.get("protein_g")
         total_protein_g = active.get("estimated_total_protein_g")
         multiplier = servings or None
+        total = None
         if protein_g and multiplier:
-            units["bgn_per_25g_protein"] = round(price_bgn / ((protein_g * multiplier) / 25), 2)
+            total = protein_g * multiplier
+        elif protein_g and weight_grams:
+            # Servings couldn't be trusted (see sanity checks above) — assume a
+            # standard 30 g scoop rather than leave the dose price incomputable.
+            total = protein_g * max(1, round(weight_grams / 30))
         elif total_protein_g:
-            units["bgn_per_25g_protein"] = round(price_bgn / (total_protein_g / 25), 2)
+            total = total_protein_g
+        if total:
+            # A powder cannot hold more protein than it weighs (isolate tops out
+            # ~95%); an impossible total means the serving math was still wrong.
+            if weight_grams and total > weight_grams * 0.95:
+                total = weight_grams * 0.9
+            units["bgn_per_25g_protein"] = round(price_bgn / (total / 25), 2)
     elif category == "fiber":
         fiber_g = active.get("fiber_g")
         fiber_mg = active.get("fiber_mg")
@@ -1432,9 +1453,16 @@ def parse_product(source: Source, url: str, forced_category: str | None = None) 
     weight_grams = offer_weight_grams or parse_weight_grams(f"{name} {text}")
     servings = parse_servings(text)
     serving_grams = parse_serving_grams(text)
-    # Sanity-check: protein powder must have ≥10g/serving; cap impossible values
-    # (catches "606 servings" scraped from a larger variant listed on the same page)
-    if category == "protein" and servings and weight_grams and servings > weight_grams / 10:
+    # Sanity-bound serving_grams itself: a protein-powder scoop is realistically
+    # 15-90 g. A value outside that (e.g. "1 g" misread from unrelated text)
+    # would make the estimated-servings fallback below wildly wrong.
+    if category == "protein" and serving_grams is not None and not (15 <= serving_grams <= 90):
+        serving_grams = None
+    # Sanity-check servings against weight both ways: a protein serving cannot
+    # imply <15g (too many servings, e.g. "606 servings" scraped from a larger
+    # variant on the same page) or >90g (too few servings, e.g. a review count
+    # or promo number mistaken for the serving count).
+    if category == "protein" and servings and weight_grams and not (15 <= weight_grams / servings <= 90):
         servings = None
     if category == "protein" and weight_grams and serving_grams and weight_grams > serving_grams:
         estimated_servings = max(1, int(weight_grams // serving_grams))
@@ -1555,7 +1583,7 @@ def is_relevant_product(category: str, name: str, url: str) -> bool:
         if any(bad in haystack for bad in ("protein bar", "protein chips", "protein cookie", "протеинов бар", "чипс")):
             return False
         # Exclude body care / cosmetic products that mention protein (silk protein, keratin, etc.)
-        if re.search(r"душ.гел|гел.за.тяло|лосион.за.тяло|крем.за.тяло|body.lotion|shower.gel|body.wash|шампоан|shampoo|козметик|масло.за.тяло", haystack, re.I):
+        if re.search(r"душ.гел|гел.за.тяло|лосион.за.тяло|крем.за.тяло|body.lotion|shower.gel|body.wash|шампоан|shampoo|козметик|масло.за.тяло|коса\b|косопад|hair.mask|hair.conditioner", haystack, re.I):
             return False
         # Exclude caffeine and standalone stimulant products
         if re.search(r"\bcaffeine\b|\bcafeine\b|кофеин(?!\w)", haystack, re.I) and not re.search(r"whey|протеин|protein|isolate", haystack, re.I):
