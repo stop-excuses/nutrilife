@@ -46,9 +46,17 @@ def is_snack_food_junk(name):
     low = (name or "").lower()
     product_type_part = re.split(r"с\s+вкус\s+на|with\s+.{0,3}\s*flavor", low, maxsplit=1)[0]
     return bool(re.search(
-        r"паста\b|\bбисквитк|крекер|пица\b|каша\b|хляб\b|\bbread\b|\bcookies?\b|\bcrackers?\b|\bpizza\b|фъстъчено.масло|peanut.butter|крем\b",
+        r"паста\b|\bбисквитк|крекер|пица\b|каша\b|хляб\b|\bbread\b|\bcookies?\b|\bcrackers?\b|\bpizza\b|фъстъчено.масло|peanut.butter|крем\b"
+        r"|вафл|\bwafers?\b|\bbrownies?\b|брауни|сладолед|ice.cream|mug.cake|флапджак|flapjack|\boats\b|\bbars?\b|батон|\bdrinks?\b|\bbottle\b|бутилка|\bshakers?\b|шейкър",
         product_type_part,
     ))
+
+
+def is_sample_junk(name):
+    """Single-serving samples are not a package you can buy for value — their
+    (often very low) per-dose price pollutes the top of the ranking."""
+    low = (name or "").lower()
+    return bool(re.search(r"\bsamples?\b|мостра|еднократна\s+доза", low))
 
 
 def resolve_weight_grams(item):
@@ -137,6 +145,7 @@ def main():
     supplements = data.get("supplements", [])
     for item in supplements:
         item.setdefault("availability_status", "unknown")
+    supplements = [item for item in supplements if not is_sample_junk(item.get("name"))]
     supplements = [item for item in supplements if repair_protein_units(item)]
     data["supplements"] = supplements
     data["total_supplements"] = len(supplements)

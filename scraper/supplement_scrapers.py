@@ -160,6 +160,11 @@ SOURCES = (
         ("https://musclepower.bg/product-sitemap1.xml", "https://musclepower.bg/product-sitemap2.xml"),
         ("musclepower.bg",),
     ),
+    Source(
+        "MyProtein",
+        ("https://www.myprotein.bg/sitemap-product-0.xml.gz",),
+        ("myprotein.bg", "www.myprotein.bg"),
+    ),
 )
 
 
@@ -169,6 +174,10 @@ def fetch(url: str, timeout: int = 25) -> str | None:
         if response.status_code != 200:
             print(f"[skip] {response.status_code} {url}")
             return None
+        # Servers that omit charset (e.g. MyProtein) default to ISO-8859-1 in
+        # requests, garbling Bulgarian text; all scraped BG stores are UTF-8.
+        if "charset" not in (response.headers.get("Content-Type") or "").lower():
+            response.encoding = "utf-8"
         return response.text
     except requests.RequestException as exc:
         print(f"[skip] {type(exc).__name__}: {url}")
@@ -203,6 +212,10 @@ def html_unescape(value: str) -> str:
 
 def detect_category(*parts: str) -> str | None:
     haystack = " ".join(unquote(p or "").lower() for p in parts)
+    # The MyProtein brand token itself contains "protein" — without stripping
+    # it, every URL/name from that store (water bottles, brownies, clothing)
+    # would classify as the protein category.
+    haystack = haystack.replace("myprotein", " ")
     for category, keywords in CATEGORY_KEYWORDS.items():
         if any(category_keyword_matches(haystack, keyword) for keyword in keywords):
             return category
@@ -315,6 +328,9 @@ def is_product_url(source_name: str, decoded_url: str) -> bool:
         return path.endswith("-cena") and "/" not in path
     if source_name == "MusclePower":
         return "/porachka/" in decoded_url and decoded_url.count("/") >= 5
+    if source_name == "MyProtein":
+        # Product URLs: /p/<department>/<slug>/<numeric-id>/
+        return "/p/" in decoded_url and "/sports-accessories/" not in decoded_url
     return True
 
 
@@ -340,12 +356,52 @@ def load_json_ld(soup: BeautifulSoup) -> list[dict]:
     return results
 
 
+def strip_invisible_text(soup: BeautifulSoup) -> None:
+    """Remove script/style/noscript before text extraction. get_text() otherwise
+    swallows JS hydration state — on MyProtein that includes cross-sell carousel
+    product names ("Impact Whey Protein - 900G - 30Порции"), which poison
+    weight/servings parsing for the actual product on the page. Must run AFTER
+    load_json_ld (JSON-LD lives in script tags)."""
+    for tag in soup.find_all(["script", "style", "noscript"]):
+        tag.decompose()
+
+
 def find_product_json(json_ld: list[dict]) -> dict:
     for item in json_ld:
         item_type = item.get("@type")
         if item_type == "Product" or (isinstance(item_type, list) and "Product" in item_type):
             return item
+    for item in json_ld:
+        if item.get("@type") == "ProductGroup":
+            return product_group_to_product(item)
     return {}
+
+
+def product_group_to_product(group: dict) -> dict:
+    """Flatten a schema.org ProductGroup (MyProtein-style: one page, hasVariant
+    list of flavor x package-size Products, each with its own single Offer)
+    into a plain Product dict whose offers carry the variant names — so the
+    best-value-per-gram offer selection sees every package size."""
+    offers = []
+    for variant in group.get("hasVariant") or []:
+        if not isinstance(variant, dict):
+            continue
+        offer = variant.get("offers")
+        if isinstance(offer, list):
+            offer = offer[0] if offer else None
+        if not isinstance(offer, dict):
+            continue
+        offer = dict(offer)
+        offer.setdefault("name", variant.get("name"))
+        offers.append(offer)
+    return {
+        "@type": "Product",
+        "name": group.get("name"),
+        "description": group.get("description"),
+        "brand": group.get("brand"),
+        "image": group.get("image"),
+        "offers": offers,
+    }
 
 
 def flatten_offers(offers) -> list[dict]:
@@ -406,19 +462,28 @@ def parse_structured_offer(product: dict) -> tuple[float | None, float | None, s
         return None, None, None, None, None
 
     # A page listing several package-size variants as separate offers (common
-    # on GymBeam/SilaBG-style stores) should not just pick the cheapest
+    # on GymBeam/MyProtein-style stores) should not just pick the cheapest
     # ABSOLUTE price — that always selects the smallest pack, usually the
     # worst value per gram. Rank each offer by its own price-per-gram (weight
-    # parsed from that specific offer's name) and take the best value; fall
-    # back to cheapest price when no offer name yields a parseable weight.
+    # parsed from that specific offer's name); for capsule/tablet variants
+    # without a weight, rank by price-per-unit instead. Fall back to cheapest
+    # price only when no offer name yields either.
     weighted = []
+    counted = []
     for row in parsed:
         row_price, _, row_offer = row
-        row_weight = parse_largest_weight_grams(str(row_offer.get("name") or ""))
+        offer_label = str(row_offer.get("name") or "")
+        row_weight = parse_largest_weight_grams(offer_label)
         if row_weight:
             weighted.append((row_price / row_weight, row))
+            continue
+        row_count = parse_count(offer_label)
+        if row_count:
+            counted.append((row_price / row_count, row))
     if weighted:
         price, currency, offer = min(weighted, key=lambda pair: pair[0])[1]
+    elif counted:
+        price, currency, offer = min(counted, key=lambda pair: pair[0])[1]
     else:
         price, currency, offer = min(parsed, key=lambda row: row[0])
     availability_status = offer_availability_status(offer)
@@ -743,9 +808,9 @@ def parse_largest_weight_grams(text: str) -> float | None:
 
 def parse_count(text: str) -> int | None:
     patterns = (
-        r"(?:х|x|\*)\s*(\d{1,4})\s*(?:капсули|таблетки|табл|caps|vcaps|softgels|дражета|sticks?|sachets?)",
+        r"(?:х|x|\*)\s*(\d{1,4})\s*(?:капсули|таблетки|табл|caps|vcaps|softgels|софтгел|дражета|sticks?|sachets?)",
         r"(\d{1,4})\s*(?:бр\.?\s*)?(?:х|x|\*)",
-        r"(\d{1,4})\s*(?:капсули|таблетки|табл|caps|vcaps|softgels|дражета)",
+        r"(\d{1,4})\s*(?:капсули|таблетки|табл|caps|vcaps|softgels|софтгел|дражета)",
         r"(\d{1,4})\s*(?:sticks?|sachets?)",
     )
     for pattern in patterns:
@@ -764,6 +829,7 @@ def parse_servings(text: str) -> int | None:
         r"(\d{1,4})\s*дози",
         r"дози\s+в\s+опаковка\s+(\d{1,4})",
         r"(\d{1,4})\s*servings",
+        r"(\d{1,4})\s*порци[ия]",
     )
     for pattern in patterns:
         match = re.search(pattern, text, re.I)
@@ -1324,6 +1390,12 @@ def calculate_price_units(category: str, price_bgn: float | None, active: dict, 
             total_mg = active["creatine_mg_per_serving"] * servings
         if not total_mg and weight_grams and weight_grams >= 50:
             total_mg = weight_grams * 1000
+        # Powder-tub consistency: creatine powder is nearly all creatine, so a
+        # servings-derived total far below (bogus servings scraped from another
+        # variant's tile) or above the net weight means the servings were junk.
+        if total_mg and weight_grams and weight_grams >= 250:
+            if not (weight_grams * 1000 / 3 <= total_mg <= weight_grams * 1000):
+                total_mg = weight_grams * 1000
         if total_mg:
             units["bgn_per_5g_creatine"] = round(price_bgn / (total_mg / 5000), 2)
     elif category == "omega3":
@@ -1435,6 +1507,7 @@ def parse_product(source: Source, url: str, forced_category: str | None = None) 
         return None
     soup = BeautifulSoup(html, "html.parser")
     product = find_product_json(load_json_ld(soup))
+    strip_invisible_text(soup)
     text = normalize_text(soup.get_text(" ", strip=True))
     detail_text = extract_product_detail_text(soup)
     raw_name = product.get("name") or ""
@@ -1470,7 +1543,11 @@ def parse_product(source: Source, url: str, forced_category: str | None = None) 
     # match is often a per-serving amount ("1 порция (30 г)") mentioned before
     # the actual package weight further down the page.
     weight_grams = offer_weight_grams or parse_largest_weight_grams(f"{name} {text}")
-    servings = parse_servings(text)
+    # Servings from the selected offer's own name win over page text: the page
+    # describes the default variant, not the best-value package size we picked
+    # (e.g. MyProtein "4.2kg - 150Порции" vs the page's default "83 порции").
+    offer_servings = parse_servings(offer_name or "") if offer_name else None
+    servings = offer_servings or parse_servings(text)
     serving_grams = parse_serving_grams(text)
     # Sanity-bound serving_grams itself: a protein-powder scoop is realistically
     # 15-90 g. A value outside that (e.g. "1 g" misread from unrelated text)
@@ -1483,11 +1560,23 @@ def parse_product(source: Source, url: str, forced_category: str | None = None) 
     # or promo number mistaken for the serving count).
     if category == "protein" and servings and weight_grams and not (15 <= weight_grams / servings <= 90):
         servings = None
-    if category == "protein" and weight_grams and serving_grams and weight_grams > serving_grams:
+    # When both the package weight and the per-dose grams are known, the real
+    # serving count must be roughly weight/dose — replace a text-scraped count
+    # that is wildly off (variant-picker or cross-sell text for OTHER package
+    # sizes on the same page, e.g. MyProtein's "100g - 22servings" tile
+    # polluting the 1 kg variant). Applies to any gram-dosed powder category.
+    if weight_grams and serving_grams and weight_grams > serving_grams:
         estimated_servings = max(1, int(weight_grams // serving_grams))
         if not servings or servings < max(10, estimated_servings // 3) or servings > estimated_servings * 3:
             servings = estimated_servings
-    count = parse_count(name) or parse_count(f"{name} {text}")
+    # The selected offer's own name describes exactly the variant priced —
+    # a count parsed from it beats anything scraped from the page text.
+    offer_count = parse_count(offer_name or "") if offer_name else None
+    count = offer_count or parse_count(name) or parse_count(f"{name} {text}")
+    # Capsule/tablet variant chosen by count: page-text servings can't be
+    # trusted (same cross-sell pollution), let the count drive the math.
+    if offer_count and not offer_servings:
+        servings = None
     # Cross-check count against the product name (e.g. "* 20 tabs" in name wins over
     # page-scraped 120 from a different size variant, or wrong blistered-pack count)
     name_count = extract_count_from_name(name)
@@ -1550,12 +1639,18 @@ def parse_product(source: Source, url: str, forced_category: str | None = None) 
 def is_relevant_product(category: str, name: str, url: str) -> bool:
     # Use path-only from URL so domain keywords (e.g. "protein.bg") don't create false positives
     path = urlparse(url).path
-    haystack = unquote(f"{name} {path}").lower()
+    # The MyProtein brand token contains "protein" — strip it so brand-named
+    # accessories ("Myprotein Water Bottle") don't pass the protein keyword.
+    haystack = unquote(f"{name} {path}").lower().replace("myprotein", " ").replace("myvegan", " ")
     product_name = unquote(name).lower()
     if "::" in name or any(bad in haystack for bad in ("brow fiber", "microfiber", "cloth", "mascara")):
         return False
     # Global: exclude pharmaceutical formulations (oral solutions, injections, IV infusions)
     if any(bad in haystack for bad in ("за перорален разтвор", "перорален разтвор", "oral solution", "solution for injection", "инфузионен разтвор", "инжекционен разтвор", "инфузия", "ампули за инжектиране")):
+        return False
+    # Global: single-serving samples are not a package you can buy for value —
+    # their (often very low) per-dose price pollutes the top of the ranking.
+    if re.search(r"\bsamples?\b|мостра|еднократна\s+доза", haystack, re.I):
         return False
     if category == "fiber" and "fiber" in haystack and not re.search(r"\bpsyllium\b|\bdaily-fiber\b|\bfiber\s+\d|\d\s*g\s+fiber", haystack, re.I):
         return False
@@ -1611,7 +1706,7 @@ def is_relevant_product(category: str, name: str, url: str) -> bool:
         if re.search(r"\bmaca\b|\bginseng\b|\bashwagandha\b|\btribulus\b|\bfenugreek\b", haystack, re.I) and not re.search(r"whey|isolate|суроват", haystack, re.I):
             return False
         # Exclude sports accessories and equipment
-        if re.search(r"ръкохватка|grip.trainer|exercise.equipment|resistance.band|training.band|foam.roller|yoga|нарукавник|бинт|\bwrap\b|\bband\b|\bgloves\b|\bracks?\b|дъмбел|барбел|barbell|dumbbell", haystack, re.I):
+        if re.search(r"ръкохватка|grip.trainer|exercise.equipment|resistance.band|training.band|foam.roller|yoga|нарукавник|бинт|\bwrap\b|\bband\b|\bgloves\b|\bracks?\b|дъмбел|барбел|barbell|dumbbell|\bbottle\b|бутилка|\bshakers?\b|шейкър", haystack, re.I):
             return False
         # Exclude recovery/carbohydrate bars
         if re.search(r"\bcarborad\b|recovery.bar|carbo.bar|maltodextrin.*bar", haystack, re.I):
@@ -1649,7 +1744,11 @@ def is_relevant_product(category: str, name: str, url: str) -> bool:
         # ("... с вкус на бисквитки и крем" is a normal whey powder flavored
         # cookies-and-cream, not an actual cookie/cream food product).
         product_type_part = re.split(r"с\s+вкус\s+на|with\s+.{0,3}\s*flavor", haystack, maxsplit=1, flags=re.I)[0]
-        if re.search(r"паста\b|\bбисквитк|крекер|пица\b|каша\b|хляб\b|\bbread\b|\bcookies?\b|\bcrackers?\b|\bpizza\b|фъстъчено.масло|peanut.butter|крем\b", product_type_part, re.I):
+        if re.search(r"паста\b|\bбисквитк|крекер|пица\b|каша\b|хляб\b|\bbread\b|\bcookies?\b|\bcrackers?\b|\bpizza\b|фъстъчено.масло|peanut.butter|крем\b|вафл|\bwafers?\b|\bbrownies?\b|брауни|сладолед|ice.cream|mug.cake|флапджак|flapjack|\boats\b|\bbars?\b|батон", product_type_part, re.I):
+            return False
+        # Exclude ready-to-drink cans/bottles sold as "... Drink" — their real
+        # protein-by-weight is nothing like powder, so estimates overstate them.
+        if re.search(r"\bdrinks?\b", product_type_part, re.I):
             return False
         # Exclude RTD (ready-to-drink) protein shakes with volume in mL
         if re.search(r"шейк.{0,20}(?:х|x)\s*\d{3,}\s*мл", haystack, re.I):
@@ -1701,6 +1800,7 @@ def parse_price_update(source: Source, url: str, existing: dict) -> dict | None:
     price_bgn, price_eur, currency_source, availability_status, offer_name = parse_source_price(source.name, soup)
     if price_bgn is None:
         product_json = find_product_json(load_json_ld(soup))
+        strip_invisible_text(soup)
         text = normalize_text(soup.get_text(" ", strip=True))
         price_bgn, price_eur, currency_source, availability_status, offer_name = parse_price(product_json, text)
     if price_bgn is None or price_bgn < 1:
