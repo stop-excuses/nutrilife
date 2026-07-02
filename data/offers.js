@@ -1,9 +1,9 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-07-02T14:10:12.306126Z",
-  "content_hash": "b9b57fb08a022ba7200e9c6f68d6c118",
-  "total_offers": 4406,
-  "promo_offers": 1644,
-  "assortment_offers": 2762,
+  "generated_at": "2026-07-02T18:28:50.556589Z",
+  "content_hash": "12f68de63862b15e717a859e930df2ed",
+  "total_offers": 4399,
+  "promo_offers": 1643,
+  "assortment_offers": 2756,
   "stores": [
     "Billa",
     "Dar",
@@ -133616,64 +133616,6 @@ const OFFERS_DATA = {
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8000070038974_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 37.14,
-      "new_price_eur": 18.99,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-06-08",
-      "valid_until": "2026-07-05",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 37.14,
-          "price_eur": 18.99,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 37.14,
-      "comparison_count": 1,
-      "product_id": "kaufland-кокосова-палма-ø19-см",
-      "name": "Кокосова палма Ø19 см",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8713626063619_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "nuts",
-      "emoji": "🥜",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": true,
-      "is_long_lasting": true,
-      "avg_price": 37.14,
-      "lowest_price": 37.14,
-      "lowest_price_date": "2026-06-30",
-      "price_history": [
-        [
-          "2026-06-30",
-          37.14,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
       "store": "Fantastico",
       "address": null,
       "new_price": 39.31,
@@ -224726,63 +224668,6 @@ const OFFERS_DATA = {
       "best_price_store": "Kaufland",
       "best_price": 5.24,
       "comparison_count": 1,
-      "product_id": "kaufland-wilkinson-xtreme3-самобръсначка-black",
-      "name": "Wilkinson Xtreme3 Самобръсначка Black",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/4027800072248_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 5.24,
-      "lowest_price": 5.24,
-      "lowest_price_date": "2026-05-18",
-      "price_history": [
-        [
-          "2026-05-18",
-          5.24,
-          7.49,
-          30
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 5.24,
-      "new_price_eur": 2.68,
-      "old_price": 7.49,
-      "old_price_eur": 3.83,
-      "discount_pct": 30,
-      "valid_from": "2026-06-08",
-      "valid_until": "2026-07-05",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 5.24,
-          "price_eur": 2.68,
-          "old_price": 7.49,
-          "old_price_eur": 3.83,
-          "discount_pct": 30,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 5.24,
-      "comparison_count": 1,
       "product_id": "kaufland-wilkinson-xtreme3-самобръсначка-различни-видове",
       "name": "Wilkinson Xtreme3 Самобръсначка различни видове",
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00069762_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
@@ -228581,75 +228466,6 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 5,
-      "price_signal": "normal"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 5.85,
-      "new_price_eur": 2.99,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-06-08",
-      "valid_until": "2026-07-05",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 5.85,
-          "price_eur": 2.99,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 5.85,
-      "comparison_count": 1,
-      "product_id": "kaufland-каланхое-ø10-5-см",
-      "name": "Каланхое Ø10,5 см",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/09902124_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 5.44,
-      "lowest_price": 4.48,
-      "lowest_price_date": "2026-06-02",
-      "price_history": [
-        [
-          "2026-04-30",
-          5.98,
-          null,
-          null
-        ],
-        [
-          "2026-06-02",
-          4.48,
-          null,
-          null
-        ],
-        [
-          "2026-06-30",
-          5.85,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 3,
       "price_signal": "normal"
     },
     {
@@ -240905,63 +240721,6 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 7.8,
-      "new_price_eur": 3.99,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-06-08",
-      "valid_until": "2026-07-05",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 7.8,
-          "price_eur": 3.99,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 7.8,
-      "comparison_count": 1,
-      "product_id": "kaufland-гаура-ø13-см",
-      "name": "Гаура Ø13 см",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20178338_Prachtkerze_2C_20Gaura_lindheimeri?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 7.8,
-      "lowest_price": 7.8,
-      "lowest_price_date": "2026-06-30",
-      "price_history": [
-        [
-          "2026-06-30",
-          7.8,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
       "store": "Billa",
       "address": null,
       "new_price": 7.8,
@@ -247266,63 +247025,6 @@ const OFFERS_DATA = {
       "price_seen_count": 6,
       "price_signal": "wait",
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20895674_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 9.74,
-      "new_price_eur": 4.98,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-06-08",
-      "valid_until": "2026-07-05",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 9.74,
-          "price_eur": 4.98,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 9.74,
-      "comparison_count": 1,
-      "product_id": "kaufland-монстера-стаино-растение",
-      "name": "Монстера Стайно растение",
-      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_00106908_P.jpg",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 9.74,
-      "lowest_price": 9.74,
-      "lowest_price_date": "2026-06-30",
-      "price_history": [
-        [
-          "2026-06-30",
-          9.74,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
     },
     {
       "store": "Kaufland",
@@ -259246,63 +258948,6 @@ const OFFERS_DATA = {
       "best_price_store": "Kaufland",
       "best_price": 15.63,
       "comparison_count": 1,
-      "product_id": "kaufland-спатифилум-ø9-см",
-      "name": "Спатифилум Ø9 см",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 15.63,
-      "lowest_price": 15.63,
-      "lowest_price_date": "2026-06-30",
-      "price_history": [
-        [
-          "2026-06-30",
-          15.63,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/4002420851770_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 15.63,
-      "new_price_eur": 7.99,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-06-08",
-      "valid_until": "2026-07-05",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 15.63,
-          "price_eur": 7.99,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 15.63,
-      "comparison_count": 1,
       "product_id": "kaufland-фикус-бенджамин",
       "name": "Фикус Бенджамин",
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8717191071383_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
@@ -264848,63 +264493,6 @@ const OFFERS_DATA = {
       "price_history": [
         [
           "2026-06-29",
-          22.98,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 22.98,
-      "new_price_eur": 11.75,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-06-08",
-      "valid_until": "2026-07-05",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 22.98,
-          "price_eur": 11.75,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 22.98,
-      "comparison_count": 1,
-      "product_id": "kaufland-роза-в-купа",
-      "name": "Роза в купа",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/Rosen_20Schale_20_28Rosa_20Hybr__29_2020cm_gelb_00102048?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 22.98,
-      "lowest_price": 22.98,
-      "lowest_price_date": "2026-06-16",
-      "price_history": [
-        [
-          "2026-06-16",
           22.98,
           null,
           null
