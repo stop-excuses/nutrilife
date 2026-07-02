@@ -1,8 +1,8 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-07-02T06:59:32.257619Z",
-  "content_hash": "b9b57fb08a022ba7200e9c6f68d6c118",
-  "total_offers": 4406,
-  "promo_offers": 1644,
+  "generated_at": "2026-07-02T10:39:40.157993Z",
+  "content_hash": "412a50dec27e5779efa2ed81c5406d7b",
+  "total_offers": 4405,
+  "promo_offers": 1643,
   "assortment_offers": 2762,
   "stores": [
     "Billa",
@@ -224672,63 +224672,6 @@ const OFFERS_DATA = {
       "product_id": "kaufland-wilkinson-самобръсначка-xtreme3",
       "name": "Wilkinson Самобръсначка Xtreme3",
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4027800319626_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 5.24,
-      "lowest_price": 5.24,
-      "lowest_price_date": "2026-05-18",
-      "price_history": [
-        [
-          "2026-05-18",
-          5.24,
-          7.49,
-          30
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 5.24,
-      "new_price_eur": 2.68,
-      "old_price": 7.49,
-      "old_price_eur": 3.83,
-      "discount_pct": 30,
-      "valid_from": "2026-06-08",
-      "valid_until": "2026-07-05",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 5.24,
-          "price_eur": 2.68,
-          "old_price": 7.49,
-          "old_price_eur": 3.83,
-          "discount_pct": 30,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 5.24,
-      "comparison_count": 1,
-      "product_id": "kaufland-wilkinson-xtreme3-самобръсначка-black",
-      "name": "Wilkinson Xtreme3 Самобръсначка Black",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/4027800072248_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
