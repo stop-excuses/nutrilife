@@ -366,6 +366,22 @@ def strip_invisible_text(soup: BeautifulSoup) -> None:
         tag.decompose()
 
 
+def extract_sale_event_label(json_ld: list[dict]) -> str | None:
+    """Some stores (MyProtein) announce a sitewide discount code as a JSON-LD
+    SaleEvent on every product page, e.g. "42% ОТСТЪПКА | КОД: MYPBG". Shown as
+    an informational promo badge only — the comparison keeps list prices,
+    because the code excludes an unknown subset of products and changes often."""
+    for item in json_ld:
+        if item.get("@type") != "SaleEvent":
+            continue
+        name = normalize_text(str(item.get("name") or ""))
+        pct = re.search(r"(\d{1,2})\s*%", name)
+        code = re.search(r"(?:КОД|CODE):\s*([A-ZА-Я0-9]+)", name, re.I)
+        if pct and code:
+            return f"-{pct.group(1)}% с код {code.group(1).upper()}"
+    return None
+
+
 def find_product_json(json_ld: list[dict]) -> dict:
     for item in json_ld:
         item_type = item.get("@type")
@@ -1506,7 +1522,8 @@ def parse_product(source: Source, url: str, forced_category: str | None = None) 
     if not html:
         return None
     soup = BeautifulSoup(html, "html.parser")
-    product = find_product_json(load_json_ld(soup))
+    json_ld = load_json_ld(soup)
+    product = find_product_json(json_ld)
     strip_invisible_text(soup)
     text = normalize_text(soup.get_text(" ", strip=True))
     detail_text = extract_product_detail_text(soup)
@@ -1633,6 +1650,10 @@ def parse_product(source: Source, url: str, forced_category: str | None = None) 
         "scraped_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
     }
     item.update(extract_promo_info(soup, price_bgn, source.name))
+    if not item.get("promo_label"):
+        sale_label = extract_sale_event_label(json_ld)
+        if sale_label:
+            item["promo_label"] = sale_label
     return item
 
 
@@ -1797,9 +1818,10 @@ def parse_price_update(source: Source, url: str, existing: dict) -> dict | None:
     if not html:
         return None
     soup = BeautifulSoup(html, "html.parser")
+    json_ld = load_json_ld(soup)
     price_bgn, price_eur, currency_source, availability_status, offer_name = parse_source_price(source.name, soup)
     if price_bgn is None:
-        product_json = find_product_json(load_json_ld(soup))
+        product_json = find_product_json(json_ld)
         strip_invisible_text(soup)
         text = normalize_text(soup.get_text(" ", strip=True))
         price_bgn, price_eur, currency_source, availability_status, offer_name = parse_price(product_json, text)
@@ -1822,7 +1844,15 @@ def parse_price_update(source: Source, url: str, existing: dict) -> dict | None:
     updated["availability_status"] = availability_status or "unknown"
     updated["price_per_active_unit"] = price_units
     updated["scraped_at"] = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
+    # Promo state must reflect the page as it is NOW — carrying over stale
+    # old_price/discount/code labels would show ended campaigns as active.
+    for key in ("old_price_bgn", "discount_pct", "promo_label"):
+        updated.pop(key, None)
     updated.update(extract_promo_info(soup, price_bgn, source.name))
+    if not updated.get("promo_label"):
+        sale_label = extract_sale_event_label(json_ld)
+        if sale_label:
+            updated["promo_label"] = sale_label
     return updated
 
 

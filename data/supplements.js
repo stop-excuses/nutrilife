@@ -1,5 +1,5 @@
 const SUPPLEMENTS_DATA = {
-  "generated_at": "2026-07-02T12:49:27.488074Z",
+  "generated_at": "2026-07-02T13:20:06.214792Z",
   "total_supplements": 4549,
   "sources": [
     "FHL",
@@ -187278,762 +187278,6 @@ const SUPPLEMENTS_DATA = {
       ]
     },
     {
-      "id": "myprotein-л-карнитин-аминокиселина",
-      "store": "MyProtein",
-      "name": "Л-Карнитин аминокиселина",
-      "brand": "Myprotein",
-      "category": "l_carnitine",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/l-carnitine-tablets/10530146/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/10530147-1985263157466660.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 45.49,
-      "price_eur": 23.26,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 900.0,
-      "servings": null,
-      "count": 180,
-      "active": {
-        "carnitine_mg": 682
-      },
-      "label_text": "Активни съставки | Типични стойности | На дневна доза | L‐карнитин тартрат | 1,0g | от който L‐карнитин | 682,0mg / Активни съставки | Типични стойности | На дневна доза / L‐карнитин тартрат | 1,0g | от който L‐карнитин | 682,0mg / Активни съставки Типични стойности На дневна доза L‐карнитин тартрат 1,0g от който L‐карнитин 682,0mg",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_1000mg_carnitine": 0.37
-      },
-      "unit_label": "лв / 1000 mg карнитин",
-      "confidence": "high",
-      "scraped_at": "2026-07-02T12:44:53.995779Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 45.49,
-          "price_eur": 23.26,
-          "unit_value": 0.37
-        }
-      ]
-    },
-    {
-      "id": "myprotein-100-л-карнитин-аминокиселина",
-      "store": "MyProtein",
-      "name": "100% Л-Карнитин аминокиселина",
-      "brand": "Myprotein",
-      "category": "l_carnitine",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/l-carnitine-amino-acid-powder/10529729/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/10529733-5365199715247889.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 123.2,
-      "price_eur": 62.99,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 500.0,
-      "servings": 30,
-      "count": 2,
-      "active": {
-        "carnitine_mg": 500
-      },
-      "label_text": "Per Serving | Acetyl L Carnitine | 500 mg / Serving Size - 1/8 tsp (500 mg) Servings Per Container - 500 (250g), 1000 (500g), 2000 (1kg) Nutritional Information Per Serving Acetyl L Carnitine 500 mg Хранителната информация е базирана на Неовкусената версия на продукта. При избор на някой от вкусовете, хранителните характеристики може да варират. / Nutritional Information Per Serving Acetyl L Carnitine 500 mg",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_1000mg_carnitine": 8.21
-      },
-      "unit_label": "лв / 1000 mg карнитин",
-      "confidence": "high",
-      "scraped_at": "2026-07-02T12:44:56.256392Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 123.2,
-          "price_eur": 62.99,
-          "unit_value": 8.21
-        }
-      ]
-    },
-    {
-      "id": "myprotein-колагенов-шот-за-красота",
-      "store": "MyProtein",
-      "name": "Колагенов шот за красота",
-      "brand": "Myvitamins",
-      "category": "collagen",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/beauty-collagen-shot/11410202/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/11410202-1435013014934021.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 79.0,
-      "price_eur": 40.39,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 900.0,
-      "servings": 30,
-      "count": null,
-      "active": {
-        "collagen_g": 5.0
-      },
-      "label_text": "В доза | Енергия | 87 kJ/20 kcal | Мазнини | 0 g | Въглехидрати | 0 g | Белтъчини | 5 g | Сол | 0.30 g | В доза | Vitamin A | 160 μg (20%RI*) | Vitamin D | 2.5 μg (50%RI*) | Vitamin E | 2.4 mg (20%RI*) | Тиамин | 0.5 mg (50%RI*) | Рибофлавин | 0.55mg (39%RI*) | Ниацин | 8.0 mg (50%RI*) | Vitamin B6 | 0.7mg (50%RI*) | Фолиева киселина | 100 μg (50%RI*) | Vitamin B12 | 1.2 μg (50%RI*) | Биотин | ​ | 25 μg (50%RI*) | Пантотенова киселина | 3.0mg (50%RI*) | Магнезий | 56mg (15%RI*) | Цинк | 1.5mg (15%RI*) | Селен | 8.2 μg (15%RI*) / В доза | Морски Колаген | 5000mg | Хиалуронова киселина | 25mg / Доза - 1 шо т(60ml) Дози в опаковка - 12 шота Хранителни стойности В доза Енергия 87 kJ/20 kcal Мазнини 0 g Въглехидрати 0 g Белтъчини 5 g Сол 0.30 g В доза Vitamin A 160 μg (20%RI*) Vitamin D 2.5 μg (50%RI*) Vitamin E 2.4 mg (20%RI*) Тиамин 0.5 mg (50%RI*) Рибофлавин 0.55mg (39%RI*) Ниацин 8.0 mg (50%RI*) Vitamin B6 0.7mg (50%RI*) Фолиева киселина 100 μg (50%RI*) Vitamin B12 1.2 μg (50%RI*) Биотин ​ 25 μg (50%RI*) Пантотенова киселина 3.0mg (50%RI*) Магнезий 56mg (15%RI*) Цинк 1.5mg (15%RI*) Селен 8.2 μg (15%RI*) Активни вещества В доза Морски Колаген 5000mg Хиалуронова киселина 25mg * Ориентировъчен прием за възрастен (8400 kJ/2000 kcal) Хранителни стойности са базирани на вкус Mixed Berry, като може да варират с до 15% спрямо други вкусове. / Хранителни стойности В доза Енергия 87 kJ/20 kcal Мазнини 0 g Въглехидрати 0 g Белтъчини 5 g Сол 0.30 g В доза Vitamin A 160 μg (20%RI*) Vitamin D 2.5 μg (50%RI*) Vitamin E 2.4 mg (20%RI*) Тиамин 0.5 mg (50%RI*) Рибофлавин 0.55mg (39%RI*) Ниацин 8.0 mg (50%RI*) Vitamin B6 0.7mg (50%RI*) Фолиева киселина 100 μg (50%RI*) Vitamin B12 1.2 μg (50%RI*) Биотин ​ 25 μg (50%RI*) Пантотенова киселина 3.0mg (50%RI*) Магнезий 56mg (15%RI*) Цинк 1.5mg (",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_10g_collagen": 5.27
-      },
-      "unit_label": "лв / 10 g колаген",
-      "confidence": "high",
-      "scraped_at": "2026-07-02T12:45:06.309055Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 79.0,
-          "price_eur": 40.39,
-          "unit_value": 5.27
-        }
-      ]
-    },
-    {
-      "id": "myprotein-морски-колаген",
-      "store": "MyProtein",
-      "name": "Морски колаген",
-      "brand": "Myvitamins",
-      "category": "collagen",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/marine-collagen/12376959/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/16633270-6195274316018071.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 111.46,
-      "price_eur": 56.99,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 360.0,
-      "servings": 30,
-      "count": null,
-      "active": {
-        "collagen_total_g": 360.0
-      },
-      "label_text": "За 100g | За порция | Енергийна стойност | 1445kJ/340kcal | 173kJ/41kcal | Мазнини | <0,1g | <0,1g | от които наситени | <0,1g | <0,1g | Въглехидрати | 9,8g | 1,2g | от които захари | <0,5g | <0,1g | Протеини | 75g | 9,0g | Сол | 0,34g | 0,04g | АКТИВНИ СЪСТАВКИ | Колаген | 83g | 10g / Морски колаген — розов грейпфрут — 360g Размер на порцията: 12g Порции в опаковка: 30 За 100g За порция Енергийна стойност 1445kJ/340kcal 173kJ/41kcal Мазнини <0,1g <0,1g от които наситени <0,1g <0,1g Въглехидрати 9,8g 1,2g от които захари <0,5g <0,1g Протеини 75g 9,0g Сол 0,34g 0,04g АКТИВНИ СЪСТАВКИ Колаген 83g 10g Хранителната стойност се изчислява въз основа на аромат на розов грейпфрут. Ако изберете друг аромат, хранителната стойност може да се различава.",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_10g_collagen": 3.1
-      },
-      "unit_label": "лв / 10 g колаген",
-      "confidence": "medium",
-      "scraped_at": "2026-07-02T12:45:09.391585Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 111.46,
-          "price_eur": 56.99,
-          "unit_value": 3.1
-        }
-      ]
-    },
-    {
-      "id": "myprotein-collagen-beauty-на-прах",
-      "store": "MyProtein",
-      "name": "Collagen Beauty на прах",
-      "brand": "Myvitamins",
-      "category": "collagen",
-      "url": "https://www.myprotein.bg/p/vitamins/collagen-beauty-powder/12042337/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/12104229-2085093189162076.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 58.66,
-      "price_eur": 29.99,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 165.0,
-      "servings": 22,
-      "count": null,
-      "active": {
-        "collagen_total_g": 165.0
-      },
-      "label_text": "На порция | Енергийна стойност | 167kJ/39kcal | Мазнини | 0g | от които наситени | 0g | Въглехидрати | 0g | от които захари | 0g | Протеини | 9,6g | Сол | 0,07g / На порция | Хиалуронова киселина | 120mg | Витамин C | 40mg (50%*) | Ниацин | 2,4mg (15%*) | Пантотенова киселина | 0,90mg (15%*) | Витамин B2 | 0,21mg (15%*) | Витамин B6 | 0,21mg (15%*) | Витамин B1 | 0,17mg (15%*) | Фолиева киселина | 30,0μg (15%*) | Биотин | 7,5μg (15%*) | Витамин B12 | 0,38μg (15%*) / На порция | Енергийна стойност | 172kJ/41kcal | Мазнини | 0g | от които наситени | 0g | Въглехидрати | 0,9g | от които захари | 0g | Протеини | 9,1g | Сол | 0,07g / На порция | Енергийна стойност | 159kJ/37kcal | Мазнини | 0g | от които наситени | 0g | Въглехидрати | 0g | от които захари | 0g | Протеини | 9,1g | Сол | 0,07g / На порция | Енергийна стойност | 183kJ/43kcal | Мазнини | 0g | от които наситени | 0g | Въглехидрати | 1,4g | от които захари | 0g | Протеини | 9,0g | Сол | 0,07g / Без аромат Размер на порция - 1 лъжица (11g) ИНФОРМАЦИЯ ЗА ХРАНИТЕЛНАТА СТОЙНОСТ На порция Енергийна стойност 167kJ/39kcal Мазнини 0g от които наситени 0g Въглехидрати 0g от които захари 0g Протеини 9,6g Сол 0,07g АКТИВНИ СЪСТАВКИ На порция Хиалуронова киселина 120mg Витамин C 40mg (50%*) Ниацин 2,4mg (15%*) Пантотенова киселина 0,90mg (15%*) Витамин B2 0,21mg (15%*) Витамин B6 0,21mg (15%*) Витамин B1 0,17mg (15%*) Фолиева киселина 30,0μg (15%*) Биотин 7,5μg (15%*) Витамин B12 0,38μg (15%*) * Референтна стойност на хранителните вещества. Аромат на лимон и лайм Размер на порция - 1 лъжица (12g) ИНФОРМАЦИЯ ЗА ХРАНИТЕЛНАТА СТОЙНОСТ На порция Енергийна стойност 172kJ/41kcal Мазнини 0g от които наситени 0g Въглехидрати 0,9g от които захари 0g Протеини 9,1g Сол 0,07g АКТИВНИ СЪСТАВКИ На порция Хиалуронова киселина 120mg Витамин C",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_10g_collagen": 3.56
-      },
-      "unit_label": "лв / 10 g колаген",
-      "confidence": "medium",
-      "scraped_at": "2026-07-02T12:45:10.009261Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 58.66,
-          "price_eur": 29.99,
-          "unit_value": 3.56
-        }
-      ]
-    },
-    {
-      "id": "myprotein-калции-магнезии",
-      "store": "MyProtein",
-      "name": "Калций & Магнезий",
-      "brand": "Myvitamins",
-      "category": "magnesium",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/calcium-magnesium-tablets/12457546/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/12457546-1884951374285912.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 40.0,
-      "price_eur": 20.45,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 100.0,
-      "servings": null,
-      "count": 270,
-      "active": {
-        "magnesium_mg": 800
-      },
-      "label_text": "В една доза | *RI | Калций | 800 mg | 100% | Магнезий | 375 mg | 100 % / Доза - 3 Tablets Дози в опаковка - 30 (90 Tablets), 90 (270 Tablets) Типични хранителни стойностиs В една доза *RI Калций 800 mg 100% Магнезий 375 mg 100 % * Reference intake of an average adult (8400 kJ/2000 kcal) / Типични хранителни стойностиs В една доза *RI Калций 800 mg 100% Магнезий 375 mg 100 %",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_100mg_magnesium": 0.02
-      },
-      "unit_label": "лв / 100 mg магнезий",
-      "confidence": "high",
-      "scraped_at": "2026-07-02T12:45:20.385327Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 40.0,
-          "price_eur": 20.45,
-          "unit_value": 0.02
-        }
-      ]
-    },
-    {
-      "id": "myprotein-магнезиеви-дъвчащи-таблетки",
-      "store": "MyProtein",
-      "name": "Магнезиеви дъвчащи таблетки",
-      "brand": "Myvitamins",
-      "category": "magnesium",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/magnesium-gummies/15352141/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/15352142-2125182324934751.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 36.5,
-      "price_eur": 18.66,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 900.0,
-      "servings": 30,
-      "count": null,
-      "active": {
-        "magnesium_mg": 150
-      },
-      "label_text": "АКТИВНИ СЪСТАВКИ | Дневна доза | 1 дъвчаща таблетка | Магнезий | 150mg (40%*) | Витамин B6 | 0,7mg (50%*) | * Хранителна референтна стойност / АКТИВНИ СЪСТАВКИ Дневна доза 1 дъвчаща таблетка Магнезий 150mg (40%*) Витамин B6 0,7mg (50%*) * Хранителна референтна стойност",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_100mg_magnesium": 0.81
-      },
-      "unit_label": "лв / 100 mg магнезий",
-      "confidence": "high",
-      "scraped_at": "2026-07-02T12:45:20.870935Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 36.5,
-          "price_eur": 18.66,
-          "unit_value": 0.81
-        }
-      ]
-    },
-    {
-      "id": "myprotein-магнезиев-бисглицинат-на-таблетки",
-      "store": "MyProtein",
-      "name": "Магнезиев бисглицинат на таблетки",
-      "brand": "Myvitamins",
-      "category": "magnesium",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/1000mg-magnesium-bisglycinate-tablets/15736555/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/15736555-1975229004099851.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 42.99,
-      "price_eur": 21.98,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 900.0,
-      "servings": 90,
-      "count": 1,
-      "active": {
-        "magnesium_mg": 113
-      },
-      "label_text": "Активни съставки | В дневна доза | 1 таблетка | АКТИВНИ СЪСТАВКИ | ~ | Магнезиев бисглицинат | 1000mg | от който магнезий | 113mg (30%*) / Размер на порцията: 1 таблетка Порции в кутия – 90 Активни съставки В дневна доза 1 таблетка АКТИВНИ СЪСТАВКИ ~ Магнезиев бисглицинат 1000mg от който магнезий 113mg (30%*) * Хранителна референтна стойност",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_100mg_magnesium": 0.42
-      },
-      "unit_label": "лв / 100 mg магнезий",
-      "confidence": "high",
-      "scraped_at": "2026-07-02T12:45:23.583880Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 42.99,
-          "price_eur": 21.98,
-          "unit_value": 0.42
-        }
-      ]
-    },
-    {
-      "id": "myprotein-магнезии-глицинат-дъвчета",
-      "store": "MyProtein",
-      "name": "Магнезий Глицинат Дъвчета",
-      "brand": "Myprotein",
-      "category": "magnesium",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/magnesium-glycinate-gummies-sugar-free/17748967/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/17748967-1555345589561561.png&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 42.54,
-      "price_eur": 21.75,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 900.0,
-      "servings": 30,
-      "count": null,
-      "active": {
-        "magnesium_mg": 70
-      },
-      "label_text": "nbsp; | За 100g | За порция | Енергийна стойност | 1150kJ/275kcal | 58kJ/14kcal | Мазнини | <0,5g | <0,1g | от които наситени мазнини | 0g | 0g | Въглехидрати | 72g | 3,6g | от които захари | <0,1g | 0g | Протеини | 12g | 0,6g | Сол | 1,96g | <0,1g | Активни съставки | Магнезиев бисглицинат | 721mg | от който магнезий | 70mg / Магнезиев бисглицинат без захар, дъвчащи таблетки - 30 дъвчащи таблетки - С вкус на смес от горски плодове Размер на порцията: 1 дъвчаща таблетка Брой порции в опаковка: 30 nbsp; За 100g За порция Енергийна стойност 1150kJ/275kcal 58kJ/14kcal Мазнини <0,5g <0,1g от които наситени мазнини 0g 0g Въглехидрати 72g 3,6g от които захари <0,1g 0g Протеини 12g 0,6g Сол 1,96g <0,1g Активни съставки Магнезиев бисглицинат 721mg от който магнезий 70mg Информацията за хранителната стойност е за вкус Смес от горски плодове. Ако изберете друг вкус, хранителната стойност може да се различава.",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_100mg_magnesium": 2.03
-      },
-      "unit_label": "лв / 100 mg магнезий",
-      "confidence": "high",
-      "scraped_at": "2026-07-02T12:45:25.025754Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 42.54,
-          "price_eur": 21.75,
-          "unit_value": 2.03
-        }
-      ]
-    },
-    {
-      "id": "myprotein-creapure-креатин",
-      "store": "MyProtein",
-      "name": "Creapure® Креатин",
-      "brand": "MyPRO",
-      "category": "creatine",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/creapure-creatine-powder/12456548/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/12456548-1395323601967762.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 166.23,
-      "price_eur": 84.99,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 1000.0,
-      "servings": 333,
-      "count": 90,
-      "active": {
-        "creatine_mg_per_serving": 3003
-      },
-      "label_text": "Per | 3g/3.86g/3.96g/4g* | Creapure® Креатин монохидрат | 3g / Активни вещества Per 3g/3.86g/3.96g/4g* Creapure® Креатин монохидрат 3g *Дозата зависи според вкуса. ВАЖНА ИНФОРМАЦИЯ:: Не превишавайте посоченотопрепоръчителна дневна доза. Този продукт е хранителна добавка и затова не трябва да се използвакато заместител на разнообразното хранене и здравословния начин на живот. Да се съхранява на хладно и сухо място, на място, недостъпнона малки деца. Подходящ за вегетарианци и вегани. ВНИМАНИЕ: Поради наличието на креатин, продуктът е предназначен само за възрастни. Ако сте бременна или кърмите, моля, потърсете лекарска помощ, преди да приемете този продукт.",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_5g_creatine": 0.83
-      },
-      "unit_label": "лв / 5 g креатин",
-      "confidence": "high",
-      "scraped_at": "2026-07-02T12:45:30.141265Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 166.23,
-          "price_eur": 84.99,
-          "unit_value": 0.83
-        }
-      ]
-    },
-    {
-      "id": "myprotein-креатин-монохидрат",
-      "store": "MyProtein",
-      "name": "Креатин Монохидрат",
-      "brand": "Myprotein",
-      "category": "creatine",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/creatine-monohydrate-powder/12456626/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/12456626-1425344551540423.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 142.99,
-      "price_eur": 73.11,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 1000.0,
-      "servings": 22,
-      "count": 90,
-      "active": {
-        "creatine_mg_per_serving": 3000
-      },
-      "label_text": "В една доза | Креатин Монохидрат | 3 g / Доза - 1 scoop (3g) Дози в опаковка - 83 (250g), 166 (500g), 333 (1kg) хранителни стойности В една доза Креатин Монохидрат 3 g Хранителни стойности са базирани на неовкусения вариант, като може да варират спрямо отделните вкусове. / хранителни стойности В една доза Креатин Монохидрат 3 g",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_5g_creatine": 0.71
-      },
-      "unit_label": "лв / 5 g креатин",
-      "confidence": "high",
-      "scraped_at": "2026-07-02T12:45:31.931440Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 142.99,
-          "price_eur": 73.11,
-          "unit_value": 0.71
-        }
-      ]
-    },
-    {
-      "id": "myprotein-creapure-микронизиран-креатин",
-      "store": "MyProtein",
-      "name": "Creapure® микронизиран креатин",
-      "brand": "MyPRO",
-      "category": "creatine",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/creapure-micronised-creatine-capsules/12457077/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/10574930-2114860399336489.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 55.49,
-      "price_eur": 28.37,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 900.0,
-      "servings": null,
-      "count": 245,
-      "active": {
-        "creatine_total_mg": 900000
-      },
-      "label_text": "В дневна доза | 4 capsules | Креатин Монохидрат | 2.8 g / Доза - 4 капсули Дози в опаковка - 61 (245 капсули) Активни вещества В дневна доза 4 capsules Креатин Монохидрат 2.8 g / Активни вещества В дневна доза 4 capsules Креатин Монохидрат 2.8 g",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_5g_creatine": 0.31
-      },
-      "unit_label": "лв / 5 g креатин",
-      "confidence": "medium",
-      "scraped_at": "2026-07-02T12:45:32.529573Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 55.49,
-          "price_eur": 28.37,
-          "unit_value": 0.31
-        }
-      ]
-    },
-    {
-      "id": "myprotein-дъвчащи-таблетки-с-креатин",
-      "store": "MyProtein",
-      "name": "Дъвчащи таблетки с креатин",
-      "brand": "Myprotein",
-      "category": "creatine",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/creatine-gummies/13528283/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/16194624-1525340189918789.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 21.98,
-      "price_eur": 11.24,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 900.0,
-      "servings": 300,
-      "count": null,
-      "active": {
-        "creatine_mg_per_serving": 3000
-      },
-      "label_text": "Активни съставки | В дневна доза | 3 Дъвчащи таблетки | Креатин | 3,0g / Дъвчащи таблетки с креатин — Лимон — 21 дъвчащи таблетки Размер на порцията: 3 дъвчащи таблетки Порции в опаковка: 7 Активни съставки В дневна доза 3 Дъвчащи таблетки Креатин 3,0g Хранителната стойност се изчислява въз основа на аромат на Лимон. Ако изберете друг аромат, хранителната стойност може да се различава.",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_5g_creatine": 0.12
-      },
-      "unit_label": "лв / 5 g креатин",
-      "confidence": "high",
-      "scraped_at": "2026-07-02T12:45:36.731186Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 21.98,
-          "price_eur": 11.24,
-          "unit_value": 0.12
-        }
-      ]
-    },
-    {
-      "id": "myprotein-impact-креатин-креатин-сашета",
-      "store": "MyProtein",
-      "name": "Impact креатин | Креатин сашета",
-      "brand": "Myprotein",
-      "category": "creatine",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/impact-creatine-sachets/16242460/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/16242464-7705344585317117.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 58.66,
-      "price_eur": 29.99,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 225.0,
-      "servings": null,
-      "count": 30,
-      "active": {
-        "creatine_mg_per_serving": 5700
-      },
-      "label_text": "Активни съставки | На дневна порция | 5,7 g | Креатин монохидрат | 5.7g | от който креатин | 5.0g / Активни съставки | На дневна порция | 5,7 g / Креатин монохидрат | 5.7g | от който креатин | 5.0g / Активни съставки На дневна порция 5,7 g Креатин монохидрат 5.7g от който креатин 5.0g",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_5g_creatine": 1.3
-      },
-      "unit_label": "лв / 5 g креатин",
-      "confidence": "high",
-      "scraped_at": "2026-07-02T12:45:39.755471Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 58.66,
-          "price_eur": 29.99,
-          "unit_value": 1.3
-        }
-      ]
-    },
-    {
-      "id": "myprotein-origin-protein",
-      "store": "MyProtein",
-      "name": "Origin Protein",
-      "brand": "Myprotein",
-      "category": "creatine",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/origin-protein-with-creatine/15245849/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/16003861-8035272806383313.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 138.84,
-      "price_eur": 70.99,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 900.0,
-      "servings": 180,
-      "count": null,
-      "active": {
-        "creatine_mg_per_serving": 5000
-      },
-      "label_text": null,
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_5g_creatine": 0.77
-      },
-      "unit_label": "лв / 5 g креатин",
-      "confidence": "high",
-      "scraped_at": "2026-07-02T12:45:40.406152Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 138.84,
-          "price_eur": 70.99,
-          "unit_value": 0.77
-        }
-      ]
-    },
-    {
-      "id": "myprotein-the-creatine-creapure-опаковка-със-стикове",
-      "store": "MyProtein",
-      "name": "THE Creatine (Creapure) Опаковка със стикове",
-      "brand": "Myprotein",
-      "category": "creatine",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/the-creatine-creapure-sachets/16630358/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/16630363-1975271206626359.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 41.05,
-      "price_eur": 20.99,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 114.0,
-      "servings": null,
-      "count": 20,
-      "active": {
-        "creatine_mg_per_serving": 5700
-      },
-      "label_text": "Активни съставки | В дневна доза | 5,7g | Креатин монохидрат (Creapure®) | 5,7g | от който креатин | 5,0g / THE CREATINE (Креатин монохидрат съдържа Creapure®) — Без аромат — 20 x 5,7g ℮ (114g) Размер на порцията: 5,7g Порции в кутия: 20 Активни съставки В дневна доза 5,7g Креатин монохидрат (Creapure®) 5,7g от който креатин 5,0g Хранителната стойност се изчислява въз основа на протеин без аромат. Ако изберете друг аромат, хранителната стойност може да се различава.",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_5g_creatine": 1.8
-      },
-      "unit_label": "лв / 5 g креатин",
-      "confidence": "high",
-      "scraped_at": "2026-07-02T12:45:44.700475Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 41.05,
-          "price_eur": 20.99,
-          "unit_value": 1.8
-        }
-      ]
-    },
-    {
-      "id": "myprotein-the-electropower",
-      "store": "MyProtein",
-      "name": "THE ElectroPower",
-      "brand": "Myprotein",
-      "category": "creatine",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/the-electropower-creatine-electrolytes/16273531/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/16273532-1425272464936642.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 72.99,
-      "price_eur": 37.32,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 510.0,
-      "servings": 102,
-      "count": null,
-      "active": {
-        "creatine_mg_per_serving": 5000
-      },
-      "label_text": "Активни съставки | Дневна доза | 17g | Креатин монохидрат (Creapure®) | 5,7g | от който креатин | 5,0g | HMB | 3,0g | Натрий | 500mg | Калий | 300mg (15%*) | Хлорид | 257mg (32%*) | Калций | 120mg (15%*) | Магнезий | 60,0mg (15%*) | Парааминобензоена киселина | 19mg | Ниацин | 12mg NE (73%*) | Витамин B6 | 1,3mg (93%*) | Витамин B2 | 1,2mg (109%*) | Витамин B1 | 1,0mg (74%*) | Фолиева киселина | 129μg (65%*) | Биотин | 96μg (192%*) | Витамин B12 | 6,4μg (256%*) / The ElectroPower — Пиня Колада — 510g Размер на порцията: 17g Порции в опаковка: 30 Активни съставки Дневна доза 17g Креатин монохидрат (Creapure®) 5,7g от който креатин 5,0g HMB 3,0g Натрий 500mg Калий 300mg (15%*) Хлорид 257mg (32%*) Калций 120mg (15%*) Магнезий 60,0mg (15%*) Парааминобензоена киселина 19mg Ниацин 12mg NE (73%*) Витамин B6 1,3mg (93%*) Витамин B2 1,2mg (109%*) Витамин B1 1,0mg (74%*) Фолиева киселина 129μg (65%*) Биотин 96μg (192%*) Витамин B12 6,4μg (256%*) * Хранителна референтна стойност Хранителната стойност се изчислява въз основа на аромат на Пиня Колада. Ако изберете друг аромат, хранителната стойност може да се различава.",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_5g_creatine": 0.72
-      },
-      "unit_label": "лв / 5 g креатин",
-      "confidence": "high",
-      "scraped_at": "2026-07-02T12:45:44.594955Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 72.99,
-          "price_eur": 37.32,
-          "unit_value": 0.72
-        }
-      ]
-    },
-    {
-      "id": "myprotein-the-creatine-дъвчащи-таблетки-creapure",
-      "store": "MyProtein",
-      "name": "The Creatine | Дъвчащи таблетки Creapure®",
-      "brand": "Myprotein",
-      "category": "creatine",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/the-creatine-creapure-chewable-tablets/17028263/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/17028264-5305286539450160.png&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 75.98,
-      "price_eur": 38.85,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 900.0,
-      "servings": 257,
-      "count": 4,
-      "active": {
-        "creatine_mg_per_serving": 3502
-      },
-      "label_text": "Активни съставки | Дневна доза | 4 | Креатин монохидрат (Creapure®) | 4g | от който креатин | 3,5g / Таблетки Creapure – Лимон – Таблетки Creapure Размер на порцията: 4g Порции в опаковка: 120 Активни съставки Дневна доза 4 Креатин монохидрат (Creapure®) 4g от който креатин 3,5g Хранителната стойност се изчислява въз основа на аромат на лимон. Ако изберете друг аромат, хранителната стойност може да се различава.",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_5g_creatine": 0.42
-      },
-      "unit_label": "лв / 5 g креатин",
-      "confidence": "high",
-      "scraped_at": "2026-07-02T12:45:48.628394Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 75.98,
-          "price_eur": 38.85,
-          "unit_value": 0.42
-        }
-      ]
-    },
-    {
-      "id": "myprotein-креатин-hcl",
-      "store": "MyProtein",
-      "name": "Креатин HCL",
-      "brand": "Myprotein",
-      "category": "creatine",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/creatine-hcl/17169974/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/17169975-1215288608638756.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 50.05,
-      "price_eur": 25.59,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 500.0,
-      "servings": 121,
-      "count": null,
-      "active": {
-        "creatine_mg_per_serving": 4100
-      },
-      "label_text": "Активни съставки | Дневна доза | 4,1g | Креатин хидрохлорид | 4,1g | от който креатин | 3,0g / Креатин HCL — без аромат — 100g ℮ Размер на порцията: 4,1g Порции в опаковка: 24 Активни съставки Дневна доза 4,1g Креатин хидрохлорид 4,1g от който креатин 3,0g Хранителната стойност се изчислява въз основа на продукт Без аромат. Ако изберете друг аромат, хранителната стойност може да се различава.",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_5g_creatine": 0.5
-      },
-      "unit_label": "лв / 5 g креатин",
-      "confidence": "high",
-      "scraped_at": "2026-07-02T12:45:52.193176Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 50.05,
-          "price_eur": 25.59,
-          "unit_value": 0.5
-        }
-      ]
-    },
-    {
-      "id": "myprotein-impact-креатин-chupa-chups-близалка-с-диня",
-      "store": "MyProtein",
-      "name": "Impact Креатин — Chupa Chups Близалка с диня",
-      "brand": "Myprotein",
-      "category": "creatine",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/impact-creatine-x-chupa-chups/17526822/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/17526823-1475284671213735.png&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 44.98,
-      "price_eur": 23.0,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 250.0,
-      "servings": 55,
-      "count": null,
-      "active": {
-        "creatine_mg_per_serving": 4500
-      },
-      "label_text": "Активни съставки | В дневна доза | 4,5g | Креатин монохидрат | 3,4g | от който креатин | 3,0g / Impact Креатин — Chupa Chups Диня — 250g ℮ Размер на порцията: 4,5g Порции в опаковка: 55 Активни съставки В дневна доза 4,5g Креатин монохидрат 3,4g от който креатин 3,0g Хранителната стойност се изчислява въз основа на Chupa Chups Диня. Ако изберете друг аромат, хранителната стойност може да се различава.",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_5g_creatine": 0.91
-      },
-      "unit_label": "лв / 5 g креатин",
-      "confidence": "high",
-      "scraped_at": "2026-07-02T12:45:52.896848Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 44.98,
-          "price_eur": 23.0,
-          "unit_value": 0.91
-        }
-      ]
-    },
-    {
-      "id": "myprotein-креатин-3-в-1-колаген-електролити",
-      "store": "MyProtein",
-      "name": "Креатин 3 в 1 + Колаген + Електролити",
-      "brand": "Myvitamins",
-      "category": "creatine",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/3-in-1-creatine-collagen-electrolytes/17691717/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/17670898-1735324107777671.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 78.21,
-      "price_eur": 39.99,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 237.0,
-      "servings": 20,
-      "count": null,
-      "active": {
-        "creatine_total_mg": 237000
-      },
-      "label_text": "Активни съставки | За дневна порция | 11,8g | Телешки колаген | 5,0g | Креатин монохидрат (Creapure®) | 3,4g | от който креатин | 3,0g | Хлорид | 304mg (38%*) | Натрий | 270mg | Калций | 120mg (15%*) | Витамин C | 80mg (100%*) | Магнезий | 56,3mg (15%*) | Желязо | 2,1mg (15%*) | Витамин B6 | 1,4mg (100%*) | Фолиева киселина | 60,0μg (30%*) | Биотин | 50μg (100%*) | Витамин D3 | 10μg (200%*) / Myvitamins Креатин, колаген, смес от електролити 3-в-1, горски плодове и лайм, 20 порции Размер на порцията: 11,8g Брой порции в опаковка: 20 Активни съставки За дневна порция 11,8g Телешки колаген 5,0g Креатин монохидрат (Creapure®) 3,4g от който креатин 3,0g Хлорид 304mg (38%*) Натрий 270mg Калций 120mg (15%*) Витамин C 80mg (100%*) Магнезий 56,3mg (15%*) Желязо 2,1mg (15%*) Витамин B6 1,4mg (100%*) Фолиева киселина 60,0μg (30%*) Биотин 50μg (100%*) Витамин D3 10μg (200%*) * Хранителна референтна стойност",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_5g_creatine": 1.65
-      },
-      "unit_label": "лв / 5 g креатин",
-      "confidence": "medium",
-      "scraped_at": "2026-07-02T12:45:56.911356Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 78.21,
-          "price_eur": 39.99,
-          "unit_value": 1.65
-        }
-      ]
-    },
-    {
       "id": "myprotein-есенциални-омега-3",
       "store": "MyProtein",
       "name": "Есенциални Омега-3",
@@ -188060,7 +187304,7 @@ const SUPPLEMENTS_DATA = {
       },
       "unit_label": "лв / 1000 mg EPA+DHA",
       "confidence": "high",
-      "scraped_at": "2026-07-02T12:45:59.635690Z",
+      "scraped_at": "2026-07-02T13:17:56.871642Z",
       "last_full_scrape": "2026-07-02",
       "price_history": [
         {
@@ -188069,1589 +187313,415 @@ const SUPPLEMENTS_DATA = {
           "price_eur": 21.98,
           "unit_value": 0.36
         }
-      ]
+      ],
+      "promo_label": "-42% с код MYPBG"
     },
     {
-      "id": "myprotein-грахов-протеин-изолат",
+      "id": "myprotein-желязо-фолиева-киселина",
       "store": "MyProtein",
-      "name": "Грахов протеин изолат",
-      "brand": "Myvegan",
-      "category": "protein",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/impact-pea-protein/10530136/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/10530136-1065180485568151.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 148.62,
-      "price_eur": 75.99,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 2500.0,
-      "servings": null,
-      "count": null,
-      "active": {
-        "estimated_total_protein_g": 2125.0,
-        "estimated_protein_ratio_pct": 85
-      },
-      "label_text": "ХРАНИТЕЛНА ИНФОРМАЦИЯ | Типични стойности | За 100 g | За 32 g | % Референтен прием | Референтен прием | Енергийна стойност | 1616 kJ | 517 kJ | 6 % | 8400 kJ | Енергийна стойност | 383 kcal | 122 kcal | 6 % | 2000 kcal | Мазнини | 7,0 g | 2,2 g | 3 % | 70 g | от които наситени | 1,6 g | 0,5 g | 3 % | 20 g | Въглехидрати | 9,8 g | 3,1 g | 1 % | 260 g | от които захари | 0 g | 0 g | По-малко от 1 % | 90 g | Фибри | 3,2 g | 1,0 g | Протеини | 69 g | 22 g | 44 % | 50 g | Сол | 2,70 g | 0,86 g | 14 % | 6 g | Съдържа 15 порции | Референтен прием на среден възрастен (8400 kJ/2000 kcal) / ХРАНИТЕЛНА ИНФОРМАЦИЯ Типични стойности За 100 g За 32 g % Референтен прием Референтен прием Енергийна стойност 1616 kJ 517 kJ 6 % 8400 kJ Енергийна стойност 383 kcal 122 kcal 6 % 2000 kcal Мазнини 7,0 g 2,2 g 3 % 70 g от които наситени 1,6 g 0,5 g 3 % 20 g Въглехидрати 9,8 g 3,1 g 1 % 260 g от които захари 0 g 0 g По-малко от 1 % 90 g Фибри 3,2 g 1,0 g Протеини 69 g 22 g 44 % 50 g Сол 2,70 g 0,86 g 14 % 6 g Съдържа 15 порции Референтен прием на среден възрастен (8400 kJ/2000 kcal)",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 1.75
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-07-02T12:46:08.328523Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 148.62,
-          "price_eur": 75.99,
-          "unit_value": 1.75
-        }
-      ]
-    },
-    {
-      "id": "myprotein-impact-diet-whey",
-      "store": "MyProtein",
-      "name": "Impact Diet Whey",
-      "brand": "Myprotein",
-      "category": "protein",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/impact-diet-whey/10530657/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/10530657-8765180485606041.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 203.39,
-      "price_eur": 103.99,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 2500.0,
-      "servings": null,
-      "count": null,
-      "active": {
-        "estimated_total_protein_g": 2125.0,
-        "estimated_protein_ratio_pct": 85
-      },
-      "label_text": "ХРАНИТЕЛНА ИНФОРМАЦИЯ | Типични стойности | За 100 g | За 60 g | Енергийна стойност | 1513 kJ | 908 kJ | Енергийна стойност | 359 kcal | 215 kcal | Мазнини | 6,1 g | 3,7 g | от които наситени | 2,6 g | 1,6 g | Въглехидрати | 13 g | 7,7 g | от които захари | 4,6 g | 2,7 g | Фибри | 7,9 g | 4,7 g | Протеини | 59 g | 36 g | Сол | 0,35 g | 0,21 g | Витамини и минерали | Кофеин | 30,3 mg | 18,2 mg | Холин | 138,0 mg | 82,8 mg | Екстракт от зелен чай | 450,0 mg | 270,0 mg | L-Глутамин | 1,9 g | 1,1 g | CLA (конюгирана линолова киселина) | 624,0 mg | 374,4 mg | NRV=Референтна стойност на хранителното вещество | Съдържа 16 порции / ХРАНИТЕЛНА ИНФОРМАЦИЯ Типични стойности За 100 g За 60 g Енергийна стойност 1513 kJ 908 kJ Енергийна стойност 359 kcal 215 kcal Мазнини 6,1 g 3,7 g от които наситени 2,6 g 1,6 g Въглехидрати 13 g 7,7 g от които захари 4,6 g 2,7 g Фибри 7,9 g 4,7 g Протеини 59 g 36 g Сол 0,35 g 0,21 g Витамини и минерали Кофеин 30,3 mg 18,2 mg Холин 138,0 mg 82,8 mg Екстракт от зелен чай 450,0 mg 270,0 mg L-Глутамин 1,9 g 1,1 g CLA (конюгирана линолова киселина) 624,0 mg 374,4 mg NRV=Референтна стойност на хранителното вещество Съдържа 16 порции",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 2.39
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-07-02T12:46:08.885506Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 203.39,
-          "price_eur": 103.99,
-          "unit_value": 2.39
-        }
-      ]
-    },
-    {
-      "id": "myprotein-impact-whey-isolate",
-      "store": "MyProtein",
-      "name": "Impact Whey Isolate",
-      "brand": "Myprotein",
-      "category": "protein",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/impact-whey-isolate-powder/10530911/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/10530911-1925330627456118.png&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 389.19,
-      "price_eur": 198.99,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 2500.0,
-      "servings": 83,
-      "count": 1,
-      "active": {
-        "estimated_total_protein_g": 2125.0,
-        "estimated_protein_ratio_pct": 85
-      },
-      "label_text": "ХРАНИТЕЛНА ИНФОРМАЦИЯ | Типични стойности | За 100 g | За 30 g | Енергийна стойност | 1533 kJ | 460 kJ | Енергийна стойност | 361 kcal | 108 kcal | Мазнини | 0,9 g | <0,5 g | от които наситени | 0,4 g | 0,1 g | Въглехидрати | 6,1 g | 1,8 g | от които захари | 1,9 g | 0,6 g | Протеини | 82 g | 25 g | Сол | 0,65 g | 0,20 g | Съдържа 30 порции | Референтен прием на среден възрастен (8400 kJ/2000 kcal) / ХРАНИТЕЛНА ИНФОРМАЦИЯ Типични стойности За 100 g За 30 g Енергийна стойност 1533 kJ 460 kJ Енергийна стойност 361 kcal 108 kcal Мазнини 0,9 g <0,5 g от които наситени 0,4 g 0,1 g Въглехидрати 6,1 g 1,8 g от които захари 1,9 g 0,6 g Протеини 82 g 25 g Сол 0,65 g 0,20 g Съдържа 30 порции Референтен прием на среден възрастен (8400 kJ/2000 kcal)",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 4.58
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-07-02T12:46:11.279719Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 389.19,
-          "price_eur": 198.99,
-          "unit_value": 4.58
-        }
-      ]
-    },
-    {
-      "id": "myprotein-impact-whey-protein",
-      "store": "MyProtein",
-      "name": "Impact Whey Protein",
-      "brand": "Myprotein",
-      "category": "protein",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/impact-whey-protein-powder/10530943/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/17712277-9585336566430211.png&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 442.0,
-      "price_eur": 225.99,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 4500.0,
-      "servings": 150,
-      "count": null,
-      "active": {
-        "estimated_total_protein_g": 3825.0,
-        "estimated_protein_ratio_pct": 85
-      },
-      "label_text": "ХРАНИТЕЛНА ИНФОРМАЦИЯ | Типични стойности | За 100 g | За 30 g | Енергийна стойност | 1602 kJ | 481 kJ | Енергийна стойност | 379 kcal | 114 kcal | Мазнини | 5.9 g | 1.8 g | от които наситени | 3.6 g | 1.1 g | Въглехидрати | 8.9 g | 2.7 g | от които захари | 5.1 g | 1.5 g | Протеини | 72 g | 22 g | Сол | 0.44 g | 0.13 g | Съдържа 30 порции / ХРАНИТЕЛНА ИНФОРМАЦИЯ Типични стойности За 100 g За 30 g Енергийна стойност 1602 kJ 481 kJ Енергийна стойност 379 kcal 114 kcal Мазнини 5.9 g 1.8 g от които наситени 3.6 g 1.1 g Въглехидрати 8.9 g 2.7 g от които захари 5.1 g 1.5 g Протеини 72 g 22 g Сол 0.44 g 0.13 g Съдържа 30 порции",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 2.89
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-07-02T12:46:15.856656Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 442.0,
-          "price_eur": 225.99,
-          "unit_value": 2.89
-        }
-      ]
-    },
-    {
-      "id": "myprotein-essential-whey-protein",
-      "store": "MyProtein",
-      "name": "Essential Whey Protein",
-      "brand": "Myprotein",
-      "category": "protein",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/essential-whey-protein/11052699/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/11052707-1435182337034759.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 13.77,
-      "price_eur": 7.04,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 375.0,
-      "servings": 15,
-      "count": null,
-      "active": {
-        "estimated_total_protein_g": 318.8,
-        "estimated_protein_ratio_pct": 85
-      },
-      "label_text": "За 100g | За 25g | Енергийна стойност | 1832kJ/436kcal | 458kJ/109kcal | Мазнини | 16g | 4,0g | от които наситени | 9,5g | 2,4g | Въглехидрати | 5,0g | 1,2g | от които захари | 0,8g | <0,5g | Протеини | 68g | 17g | Сол | 0,21g | 0,05g / ВАНИЛИЯ Размер на порцията – 25g Порции в кутия – 52 порции (1,3kg) Информация за хранителната стойност За 100g За 25g Енергийна стойност 1832kJ/436kcal 458kJ/109kcal Мазнини 16g 4,0g от които наситени 9,5g 2,4g Въглехидрати 5,0g 1,2g от които захари 0,8g <0,5g Протеини 68g 17g Сол 0,21g 0,05g Информацията за хранителната стойност е въз основа на аромат на ванилия. Ако изберете друг аромат, хранителната стойност може да се различава. / Информация за хранителната стойност За 100g За 25g Енергийна стойност 1832kJ/436kcal 458kJ/109kcal Мазнини 16g 4,0g от които наситени 9,5g 2,4g Въглехидрати 5,0g 1,2g от които захари 0,8g <0,5g Протеини 68g 17g Сол 0,21g 0,05g Информацията за хранителната стойност е въз основа на аромат на ванилия. Ако изберете друг аромат, хранителната стойност може да се различава. / Информация за хранителната стойност",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 1.08
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-07-02T12:46:18.672374Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 13.77,
-          "price_eur": 7.04,
-          "unit_value": 1.08
-        }
-      ]
-    },
-    {
-      "id": "myprotein-impact-whey-protein-elite",
-      "store": "MyProtein",
-      "name": "Impact Whey Protein Elite",
-      "brand": "Myprotein",
-      "category": "protein",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/impact-whey-elite-informed-sport-certified/11243021/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/16546732-9425283626523261.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 97.77,
-      "price_eur": 49.99,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 1000.0,
-      "servings": 22,
-      "count": null,
-      "active": {
-        "estimated_total_protein_g": 850.0,
-        "estimated_protein_ratio_pct": 85
-      },
-      "label_text": "За 100g | За порция | Енергийна стойност | 1600kJ/378kcal | 480kJ/113kcal | Мазнини | 6,0g | 1,8g | от които наситени | 3,7g | 1,1g | Въглехидрати | 7,1g | 2,1g | от които захари | 5,3g | 1,6g | Протеини | 74g | 22g | Сол | 0,45g | 0,14g / НАТУРАЛЕН АРОМАТ НА ЯГОДА Размер на порцията: 30g Порции в кутия: 33 порции (1kg) За 100g За порция Енергийна стойност 1600kJ/378kcal 480kJ/113kcal Мазнини 6,0g 1,8g от които наситени 3,7g 1,1g Въглехидрати 7,1g 2,1g от които захари 5,3g 1,6g Протеини 74g 22g Сол 0,45g 0,14g Информацията за хранителната стойност е въз основа на натурален АРОМАТ НА ЯГОДА. Ако изберете друг аромат, хранителната стойност може да се различава.",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 2.88
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-07-02T12:46:25.432860Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 97.77,
-          "price_eur": 49.99,
-          "unit_value": 2.88
-        }
-      ]
-    },
-    {
-      "id": "myprotein-нискокалоричен-заместител-на-хранене",
-      "store": "MyProtein",
-      "name": "Нискокалоричен заместител на хранене",
-      "brand": "Myprotein",
-      "category": "protein",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/protein-meal-replacement-blend/11324199/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/11324200-1895239567169448.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 158.4,
-      "price_eur": 80.99,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 2500.0,
-      "servings": 49,
-      "count": null,
-      "active": {
-        "protein_g": 34.0
-      },
-      "label_text": "На 100g | В една доза | Енергия | 1663 kJ/392 kcal | 848 kJ/200 kcal | Мазнини | 13 g | 6.7 g | От които наситени | 6.2 g | 3.1 g | Въглехидрати | 34 g | 17 g | От които захари | 27 g | 14 g | Фибри | 8.0 g | 4.1 g | Белтъчини | 34 g | 18 g | Сол | 1.8 g | 0.90g | На 100g | В една доза | Витамин A | 550μg RE (69% RI*) | 280 μg RE (35% RI*) | Витамин D | 4.3 μg (86% RI*) | 2.2 μg(44% RI*) | Витамин E | 9.4 mg a-TE (78% RI*) | 4.8 mg a-TE (40% RI*) | Витамин K | 58μg (77% RI*) | 30μg (40% RI*) | Витамин C | 64mg (81% RI*) | 33 mg (45% RI*) | Тиамин | 0.9mg (82% RI*) | 0.5mg (45%RI*) | Рибофлавин | 1.9mg (136% RI*) | 1.0mg (71% RI*) | Ниацин | 15mg NE (94% RI*) | 7.4mg NE (46% RI*) | Витамин B6 | 1.3 mg (93% RI*) | 0.7 mg (50% RI*) | Фолиева киселина | 166 μg (83% RI*) | 84.6 mg (42% RI*) | Витамин B12 | 2.5 μg (100% RI*) | 1.3 μg (52% RI*) | Биотин | 41 μg (82% RI*) | 21μg (42% RI*) | Пантотенова киселина | 5.2 mg (87% RI*) | 2.6mg (43% RI*) | Калий | 2057 mg (102% RI*) | 1049 mg (52% RI*) | Хлорид | 1016 mg (127% RI*) | 518 mg (65% RI*) | Калций | 758 mg (95% RI*) | 387 mg (48% RI*) | Фосфор | 523mg (75% RI*) | 267 mg (38% RI*) | Магнезий | 265mg (70%RI*) | 135 mg (36%RI*) | Желязо | 15mg (107%RI*) | 7.4 mg (53%RI*) | Цинк | 8.7mg (87%RI*) | 4.4 mg(44%RI*) | Мед | 0.7mg (70%RI*) | 0.4 mg (40%RI*) | Манган | 1.6mg (80%RI*) | 0.8 mg (40%RI*) | флуорид | 2.8mg (80%RI*) | 1.4 mg (40%RI*) | Селен | 47μg( 85%RI*) | 24 μg (43%RI*) | Хром | 31μg (78%RI*) | 16μg (40%RI*) | Молибден | 53μg (107%RI*) | 27μg (54%RI*) | Йод | 114μg (76%RI*) | 58.0μg (39%RI*) / Доза - 2 scoops (51g) Дози в опаковка - 9 (500g), 19 (1kg), 49 (2.5kg) Х На 100g В една доза Енергия 1663 kJ/392 kcal 848 kJ/200 kcal Мазнини 13 g 6.7 g От които наситени 6.2 g 3.1 g Въглехидрати 34 g 17 g От които захари 27 g ",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 2.38
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "high",
-      "scraped_at": "2026-07-02T12:46:29.842058Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 158.4,
-          "price_eur": 80.99,
-          "unit_value": 2.38
-        }
-      ]
-    },
-    {
-      "id": "myprotein-the-whey",
-      "store": "MyProtein",
-      "name": "THE Whey",
-      "brand": "Myprotein",
-      "category": "protein",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/the-whey/11353515/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/15053476-4655253818713854.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 122.24,
-      "price_eur": 62.5,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 1920.0,
-      "servings": 60,
-      "count": null,
-      "active": {
-        "estimated_total_protein_g": 1632.0,
-        "estimated_protein_ratio_pct": 85
-      },
-      "label_text": "Xранителна информация | За 100g | На порция от 34g | Енергийна стойност | 1575kJ/372kcal | 536kJ/126kcal | Мазнини | 3,9g | 1,3g | (от които наситени) | 2,5g | 0,8g | Въглехидрати | 11g | 3,6g | (от които захари) | 3,6g | 1,2g | Протеини | 73g | 25g | Сол | 1,40g | 0,49g | Активни съставки | L-левцин | 8,1g | 2,8g | L-изолевцин | 4,8g | 1,6g | L-валин | 4,3g | 1,5g | BC30 | TM | 2,9 милиарда CFU** | 1 милиарда CFU** | * Естествен произход от протеин | ** Единица за формиране на колония / Xранителна информация За 100g На порция от 34g Енергийна стойност 1575kJ/372kcal 536kJ/126kcal Мазнини 3,9g 1,3g (от които наситени) 2,5g 0,8g Въглехидрати 11g 3,6g (от които захари) 3,6g 1,2g Протеини 73g 25g Сол 1,40g 0,49g Активни съставки L-левцин 8,1g 2,8g L-изолевцин 4,8g 1,6g L-валин 4,3g 1,5g BC30 TM 2,9 милиарда CFU** 1 милиарда CFU** * Естествен произход от протеин ** Единица за формиране на колония",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 1.87
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-07-02T12:46:33.613304Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 122.24,
-          "price_eur": 62.5,
-          "unit_value": 1.87
-        }
-      ]
-    },
-    {
-      "id": "myprotein-веган-протеинов-бленд",
-      "store": "MyProtein",
-      "name": "Веган Протеинов Бленд",
-      "brand": "Myvegan",
-      "category": "protein",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/impact-vegan-protein/11776868/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/11776868-3235180485987971.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 146.67,
-      "price_eur": 74.99,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 2500.0,
-      "servings": 33,
-      "count": null,
-      "active": {
-        "estimated_total_protein_g": 2125.0,
-        "estimated_protein_ratio_pct": 85
-      },
-      "label_text": "ХРАНИТЕЛНА ИНФОРМАЦИЯ | Типични стойности | За 100 g | За 30 g | % Референтен прием | Референтен прием | Енергийна стойност | 1638 kJ | 491 kJ | 6 % | 8400 kJ | Енергийна стойност | 388 kcal | 116 kcal | 6 % | 2000 kcal | Мазнини | 7,2 g | 2,1 g | 3 % | 70 g | от които наситени | 1,3 g | 0,4 g | 2 % | 20 g | Въглехидрати | 7,6 g | 2,3 g | 1 % | 260 g | от които захари | 1,8 g | 0,5 g | 1 % | 90 g | Фибри | 2,5 g | 0,8 g | Протеини | 72 g | 22 g | 44 % | 50 g | Сол | 1,8 g | 0,53 g | 9 % | 6 g | Съдържа 33 порции | Референтен прием на среден възрастен човек (8400 kJ/2000 kcal) / ХРАНИТЕЛНА ИНФОРМАЦИЯ Типични стойности За 100 g За 30 g % Референтен прием Референтен прием Енергийна стойност 1638 kJ 491 kJ 6 % 8400 kJ Енергийна стойност 388 kcal 116 kcal 6 % 2000 kcal Мазнини 7,2 g 2,1 g 3 % 70 g от които наситени 1,3 g 0,4 g 2 % 20 g Въглехидрати 7,6 g 2,3 g 1 % 260 g от които захари 1,8 g 0,5 g 1 % 90 g Фибри 2,5 g 0,8 g Протеини 72 g 22 g 44 % 50 g Сол 1,8 g 0,53 g 9 % 6 g Съдържа 33 порции Референтен прием на среден възрастен човек (8400 kJ/2000 kcal)",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 1.73
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-07-02T12:46:36.665579Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 146.67,
-          "price_eur": 74.99,
-          "unit_value": 1.73
-        }
-      ]
-    },
-    {
-      "id": "myprotein-vegan-carb-crusher",
-      "store": "MyProtein",
-      "name": "Vegan Carb Crusher",
-      "brand": "Myprotein",
-      "category": "protein",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/vegan-carb-crusher-protein-bar/11994676/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/11994678-4015181253047846.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 70.0,
-      "price_eur": 35.79,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 1000.0,
-      "servings": 30,
-      "count": 12,
-      "active": {
-        "protein_g": 26.0
-      },
-      "label_text": "За 100g | За порция | Енергийна стойност | 1615kJ/387kcal | 969kJ/232kcal | Мазнини | 17g | 10g | от които наситени | 7,2g | 4,3g | Въглехидрати | 26g | 16g | от които захари | 2,2g | 1,3g | Фибри | 18g | 11g | Протеини | 26g | 16g | Сол | 1,2g | 0,72g / Vegan Carb Crusher - Аромат на шоколад с морска сол - 12 x 60g ℮ (720g) Размер на порция 60g Порции в опаковка: 12 За 100g За порция Енергийна стойност 1615kJ/387kcal 969kJ/232kcal Мазнини 17g 10g от които наситени 7,2g 4,3g Въглехидрати 26g 16g от които захари 2,2g 1,3g Фибри 18g 11g Протеини 26g 16g Сол 1,2g 0,72g Хранителната информация се дава въз основа на аромат на шоколад и морска сол. Ако изберете друг аромат, хранителната стойност може да се различава.",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 2.24
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "high",
-      "scraped_at": "2026-07-02T12:46:40.543244Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 70.0,
-          "price_eur": 35.79,
-          "unit_value": 2.24
-        }
-      ]
-    },
-    {
-      "id": "myprotein-myprotein-clear-whey-protein",
-      "store": "MyProtein",
-      "name": "Myprotein Clear Whey Protein",
-      "brand": "Myprotein",
-      "category": "protein",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/clear-whey-protein-powder/12081395/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/12081395-8195329354502922.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 128.91,
-      "price_eur": 65.91,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 1000.0,
-      "servings": 40,
-      "count": null,
-      "active": {
-        "estimated_total_protein_g": 860.0,
-        "estimated_protein_ratio_pct": 86
-      },
-      "label_text": "nbsp; | За 100g | За порция | Енергийна стойност | 1525kJ/359kcal | 381kJ/90kcal | Мазнини | 0g | 0g | от които наситени мазнини | 0g | 0g | Въглехидрати | 9,4g | 2,3g | от които захари | 0,8g | <0,5g | Протеини | 80g | 20g | Сол | 0,26g | 0,07g | Витамин C | 210mg (260%*) | 52mg (65%*) | Активни съставки | Колаген | 40g | 10g / Clear Whey Protein Collagen - Студен чай с лимон Размер на порцията: 25g nbsp; За 100g За порция Енергийна стойност 1525kJ/359kcal 381kJ/90kcal Мазнини 0g 0g от които наситени мазнини 0g 0g Въглехидрати 9,4g 2,3g от които захари 0,8g <0,5g Протеини 80g 20g Сол 0,26g 0,07g Витамин C 210mg (260%*) 52mg (65%*) Активни съставки Колаген 40g 10g * Хранителна референтна стойност. Информацията за хранителната стойност е за вкус Студен чай с лимон. Ако изберете друг вкус, хранителната стойност може да се различава.",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 3.75
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "medium",
-      "scraped_at": "2026-07-02T12:46:42.202961Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 128.91,
-          "price_eur": 65.91,
-          "unit_value": 3.75
-        }
-      ]
-    },
-    {
-      "id": "myprotein-соев-протеин-изолат",
-      "store": "MyProtein",
-      "name": "Соев протеин изолат",
-      "brand": "Myvegan",
-      "category": "protein",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/soy-protein-isolate/12456512/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/12456528-1915193236087724.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 304.99,
-      "price_eur": 155.94,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 5000.0,
-      "servings": null,
-      "count": null,
-      "active": {
-        "estimated_total_protein_g": 2700.0,
-        "estimated_protein_ratio_pct": 54
-      },
-      "label_text": "Per 100g | Per Serving | *RI | Energy | 1642 kJ/387 kcal | 485 kJ/116 kcal | 6% | Fat | 0.5 g | 0.2 g | 0% | of which saturates | 0.1 g | 0 g | 0% | въглехидратs | 5 g | 1.5 g | 1% | of which sugars | 0.1 g | 0 g | 0% | protein | 90 g | 27 g | 54% | Salt | 3.8 g | 1.1 g | 18% / Serving Size - 1 1⁄4 Scoop (30g) Servings Per Container - 33 (1kg) Nutritional Information Per 100g Per Serving *RI Energy 1642 kJ/387 kcal 485 kJ/116 kcal 6% Fat 0.5 g 0.2 g 0% of which saturates 0.1 g 0 g 0% въглехидратs 5 g 1.5 g 1% of which sugars 0.1 g 0 g 0% protein 90 g 27 g 54% Salt 3.8 g 1.1 g 18% * Reference intake of an average adult (8400 kJ/2000 kcal) The nutritional information is based on the Unflavoured version, when choosing an alternative flavour the nutritional values may vary / Nutritional Information Per 100g Per Serving *RI Energy 1642 kJ/387 kcal 485 kJ/116 kcal 6% Fat 0.5 g 0.2 g 0% of which saturates 0.1 g 0 g 0% въглехидратs 5 g 1.5 g 1% of which sugars 0.1 g 0 g 0% protein 90 g 27 g 54% Salt 3.8 g 1.1 g 18%",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 2.82
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "medium",
-      "scraped_at": "2026-07-02T12:46:50.033065Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 304.99,
-          "price_eur": 155.94,
-          "unit_value": 2.82
-        }
-      ]
-    },
-    {
-      "id": "myprotein-хидролизиран-суроватъчен-протеин",
-      "store": "MyProtein",
-      "name": "Хидролизиран суроватъчен протеин",
-      "brand": "Myprotein",
-      "category": "protein",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/myprotein-hydrolysed-whey-protein-cee/12456583/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/12456583-1655179481077479.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 233.0,
-      "price_eur": 119.13,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 2500.0,
-      "servings": null,
-      "count": null,
-      "active": {
-        "estimated_total_protein_g": 1200.0,
-        "estimated_protein_ratio_pct": 48
-      },
-      "label_text": "Per 100g | Per Serving | *RI | Energy | 1588 kJ/375 kcal | 476 kJ/113 kcal | 6% | Fat | 4.7 g | 1.4 g | 2% | of which saturates | 1.6 g | 0.5 g | 3% | въглехидратs | 3.2 g | 1 g | 0% | of which sugars | 3.2 g | 1 g | 1% | protein | 80 g | 24 g | 48% | Salt | 1.5 g | 0.45 g | 8% / Serving Size - 1 Scoop (30g) Servings Per Container - 33 (1kg) Nutritional Information Per 100g Per Serving *RI Energy 1588 kJ/375 kcal 476 kJ/113 kcal 6% Fat 4.7 g 1.4 g 2% of which saturates 1.6 g 0.5 g 3% въглехидратs 3.2 g 1 g 0% of which sugars 3.2 g 1 g 1% protein 80 g 24 g 48% Salt 1.5 g 0.45 g 8% * Reference intake of an average adult (8400 kJ/2000 kcal) The nutritional information is based on the Unflavoured version, when choosing an alternative flavour the nutritional values may vary / Nutritional Information Per 100g Per Serving *RI Energy 1588 kJ/375 kcal 476 kJ/113 kcal 6% Fat 4.7 g 1.4 g 2% of which saturates 1.6 g 0.5 g 3% въглехидратs 3.2 g 1 g 0% of which sugars 3.2 g 1 g 1% protein 80 g 24 g 48% Salt 1.5 g 0.45 g 8%",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 4.85
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "medium",
-      "scraped_at": "2026-07-02T12:46:50.750679Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 233.0,
-          "price_eur": 119.13,
-          "unit_value": 4.85
-        }
-      ]
-    },
-    {
-      "id": "myprotein-total-protein-blend",
-      "store": "MyProtein",
-      "name": "Total Protein Blend",
-      "brand": "Myprotein",
-      "category": "protein",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/total-protein-blend/12456603/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/12456603-1085193952241007.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 619.98,
-      "price_eur": 316.99,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 5000.0,
-      "servings": null,
-      "count": null,
-      "active": {
-        "estimated_total_protein_g": 4250.0,
-        "estimated_protein_ratio_pct": 85
-      },
-      "label_text": "На 100гр. | В една доза | Енергия | 1639 kJ/392 kcal | 492 kJ/118 ккал | Мазнини | 4.7 g | 1.4 g | от които наситени | 1.5 g | 0.44 g | Въглехидрати | 4.0 g | 1.2 g | от които захари | 3.0 g | 0.89 g | Белтъчини | 83 g | 25 g | сол | 0.16 g | 0.05 g / Доза - 1 лъжици (30гр.) Дози в опаковкаr - 83 (2.5kg) Хранителна информация На 100гр. В една доза Енергия 1639 kJ/392 kcal 492 kJ/118 ккал Мазнини 4.7 g 1.4 g от които наситени 1.5 g 0.44 g Въглехидрати 4.0 g 1.2 g от които захари 3.0 g 0.89 g Белтъчини 83 g 25 g сол 0.16 g 0.05 g *Ориентировъчен прием на средностатистически възрастен (8400 kJ/2000 ккал) Хранителна информация е базирана на версията без вкус, като хранителните стойности на различните вкусове може да варират.. / Хранителна информация На 100гр. В една доза Енергия 1639 kJ/392 kcal 492 kJ/118 ккал Мазнини 4.7 g 1.4 g от които наситени 1.5 g 0.44 g Въглехидрати 4.0 g 1.2 g от които захари 3.0 g 0.89 g Белтъчини 83 g 25 g сол 0.16 g 0.05 g",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 3.65
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-07-02T12:46:54.236233Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 619.98,
-          "price_eur": 316.99,
-          "unit_value": 3.65
-        }
-      ]
-    },
-    {
-      "id": "myprotein-pop-rolls",
-      "store": "MyProtein",
-      "name": "Pop Rolls",
-      "brand": "Myprotein",
-      "category": "protein",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/pop-roll-protein-snack/12590683/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/15294373-7195204114030328.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 39.0,
-      "price_eur": 19.94,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 324.0,
-      "servings": null,
-      "count": 12,
-      "active": {
-        "protein_g": 29.0
-      },
-      "label_text": "За 100g | За 27g | Енергийна стойност | 1470kJ/350kcal | 397kJ/95kcal | Мазнини | 8,5g | 2,3g | от които наситени | 4,7g | 1,3g | Въглехидрати | 36g | 9,8g | от които захари | 3,8g | 1,0g | Фибри | 14g | 3,7g | Протеини | 29g | 8,0g | Сол | 0,28g | 0,08g | --> / ШАМФЪСТЪК Размер на порцията – 27g Порции в кутия – 6 порции (6 x 27g ℮ (162g)) Информация за хранителната стойност За 100g За 27g Енергийна стойност 1470kJ/350kcal 397kJ/95kcal Мазнини 8,5g 2,3g от които наситени 4,7g 1,3g Въглехидрати 36g 9,8g от които захари 3,8g 1,0g Фибри 14g 3,7g Протеини 29g 8,0g Сол 0,28g 0,08g --> Хранителната стойност се изчислява въз основа на аромат на шамфъстък. Ако изберете друг аромат, хранителната стойност може да се различава. / Информация за хранителната стойност За 100g За 27g Енергийна стойност 1470kJ/350kcal 397kJ/95kcal Мазнини 8,5g 2,3g от които наситени 4,7g 1,3g Въглехидрати 36g 9,8g от които захари 3,8g 1,0g Фибри 14g 3,7g Протеини 29g 8,0g Сол 0,28g 0,08g --> Хранителната стойност се изчислява въз основа на аромат на шамфъстък. Ако изберете друг аромат, хранителната стойност може да се различава. / Информация за хранителната стойност",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 3.34
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "high",
-      "scraped_at": "2026-07-02T12:46:58.841431Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 39.0,
-          "price_eur": 19.94,
-          "unit_value": 3.34
-        }
-      ]
-    },
-    {
-      "id": "myprotein-чист-веган-протеин",
-      "store": "MyProtein",
-      "name": "Чист веган протеин",
-      "brand": "Myvegan",
-      "category": "protein",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/clear-vegan-protein/12650592/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/12650594-1105152745412699.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 125.0,
-      "price_eur": 63.91,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 640.0,
-      "servings": 22,
-      "count": 3,
-      "active": {
-        "estimated_total_protein_g": 320.0,
-        "estimated_protein_ratio_pct": 50
-      },
-      "label_text": "На 100g | На порция | Енергийна стойност | 1369kJ/337kcal | 220kJ/54kcal | Мазнини | 0,5g | 0,1g | от които наситени | 0,1g | 0g | Въглехидрати | 16g | 2,6g | от които захари | 3g | 0,5g | Фибри | 0,5g | 0,1g | Протеини | 63g | 10g | Сол | 2,8g | 0,4g / На порция | NRV | Ниацин | 8mg | (50%*) | Пантотенова киселина | 3mg | (50%*) | Рибофлавин | 0,7mg | (50%*) | Витамин B6 | 0,7mg | (50%*) | Тиамин | 0,55mg | (50%*) | Фолиева киселина | 100μg | (50%*) | Биотин | 25μg | (50%*) | Витамин B12 | 1,25μg | (50%*) / Размер на порцията - 16 g Порции в опаковка – 20 (320g) Xранителна информация На 100g На порция Енергийна стойност 1369kJ/337kcal 220kJ/54kcal Мазнини 0,5g 0,1g от които наситени 0,1g 0g Въглехидрати 16g 2,6g от които захари 3g 0,5g Фибри 0,5g 0,1g Протеини 63g 10g Сол 2,8g 0,4g Активни съставки На порция NRV Ниацин 8mg (50%*) Пантотенова киселина 3mg (50%*) Рибофлавин 0,7mg (50%*) Витамин B6 0,7mg (50%*) Тиамин 0,55mg (50%*) Фолиева киселина 100μg (50%*) Биотин 25μg (50%*) Витамин B12 1,25μg (50%*) * Референтна стойност на хранителните вещества / Xранителна информация На 100g На порция Енергийна стойност 1369kJ/337kcal 220kJ/54kcal Мазнини 0,5g 0,1g от които наситени 0,1g 0g Въглехидрати 16g 2,6g от които захари 3g 0,5g Фибри 0,5g 0,1g Протеини 63g 10g Сол 2,8g 0,4g / Активни съставки На порция NRV Ниацин 8mg (50%*) Пантотенова киселина 3mg (50%*) Рибофлавин 0,7mg (50%*) Витамин B6 0,7mg (50%*) Тиамин 0,55mg (50%*) Фолиева киселина 100μg (50%*) Биотин 25μg (50%*) Витамин B12 1,25μg (50%*)",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 9.77
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "medium",
-      "scraped_at": "2026-07-02T12:47:04.301762Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 125.0,
-          "price_eur": 63.91,
-          "unit_value": 9.77
-        }
-      ]
-    },
-    {
-      "id": "myprotein-колаген-на-прах-кутия",
-      "store": "MyProtein",
-      "name": "Колаген на прах кутия",
-      "brand": "Myprotein",
-      "category": "protein",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/clear-collagen-protein-powder/12865492/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/12917286-6135284726106559.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 74.3,
-      "price_eur": 37.99,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 900.0,
-      "servings": 30,
-      "count": null,
-      "active": {
-        "estimated_total_protein_g": 765.0,
-        "estimated_protein_ratio_pct": 85
-      },
-      "label_text": "ХРАНИТЕЛНА ИНФОРМАЦИЯ | Типични стойности | 100 g съдържа | Една порция съдържа | Енергийна стойност | 1530 kJ | 306 kJ | Енергийна стойност | 360 kcal | 72 kcal | Мазнини | 0 g | 0 g | . | от които наситени | 0 g | 0 g | Въглехидрати | 0 g | 0 g | . | от които захари | 0 g | 0 g | Протеини | 90 g | 18 g | Сол | 0.10 g | 0.02 g | Референтен прием на среден възрастен (8400 kJ/2000 kcal) | Забележка: Това представяне на декларацията за хранителна стойност не е ръководство за форматиране, а е предназначено единствено за извеждане на съответстващи данни. / ХРАНИТЕЛНА ИНФОРМАЦИЯ Типични стойности 100 g съдържа Една порция съдържа Енергийна стойност 1530 kJ 306 kJ Енергийна стойност 360 kcal 72 kcal Мазнини 0 g 0 g . от които наситени 0 g 0 g Въглехидрати 0 g 0 g . от които захари 0 g 0 g Протеини 90 g 18 g Сол 0.10 g 0.02 g Референтен прием на среден възрастен (8400 kJ/2000 kcal) Забележка: Това представяне на декларацията за хранителна стойност не е ръководство за форматиране, а е предназначено единствено за извеждане на съответстващи данни.",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 2.43
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-07-02T12:47:06.649758Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 74.3,
-          "price_eur": 37.99,
-          "unit_value": 2.43
-        }
-      ]
-    },
-    {
-      "id": "myprotein-чист-суроватъчен-електролит",
-      "store": "MyProtein",
-      "name": "Чист суроватъчен електролит",
-      "brand": "Myprotein",
-      "category": "protein",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/clear-whey-hydrate/12869895/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/12869896-1205178695301210.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 66.48,
-      "price_eur": 33.99,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 900.0,
-      "servings": 20,
-      "count": null,
-      "active": {
-        "estimated_total_protein_g": 765.0,
-        "estimated_protein_ratio_pct": 85
-      },
-      "label_text": "На 100g | На порция | Енергийна стойност | 1328kJ/313kcal | 199kJ/47kcal | Мазнини | <0,5g | <0,5g | от които наситени | 0,2g | <0,1g | Въглехидрати | 6,9g | 1,0g | от които захари | 1,1g | <0,5g | Протеини | 70g | 11g | Сол | 2,80g | 0,42g / На 100g | На порция | Витамин C | 1333mg (1666%*) | 200mg (250%*) | Натрий | 1126mg | 168,9mg | Калий | 332mg | 49,8mg | Калций | 200mg (25%*) | 30,0mg (4%*) | Магнезий | 32,0mg (9%*) | 4,80mg (1%*) | Ниацин | 21mg (131%*) | 3,2mg (20%*) | Пантотенова киселина | 8,0mg (133%*) | 1,2mg (20%*) | Витамин B2 | 1,9mg (134%*) | 0,28mg (20%*) | Витамин B6 | 1,9mg (136%*) | 0,28mg (20%*) | Витамин B1 | 1,5mg (134%*) | 0,22mg (20%*) | Фолиева киселина | 267μg (134%*) | 40,0μg (20%*) | Биотин | 67μg (134%*) | 10μg (20%*) | Витамин B12 | 3,3μg (132%*) | 0,50μg (20%*) / Аромат на розов грейпфрут Размер на порция – 1 лъжица (15g) Порции в опаковка - 20 (300g) Xранителна информация На 100g На порция Енергийна стойност 1328kJ/313kcal 199kJ/47kcal Мазнини <0,5g <0,5g от които наситени 0,2g <0,1g Въглехидрати 6,9g 1,0g от които захари 1,1g <0,5g Протеини 70g 11g Сол 2,80g 0,42g Активни съставки На 100g На порция Витамин C 1333mg (1666%*) 200mg (250%*) Натрий 1126mg 168,9mg Калий 332mg 49,8mg Калций 200mg (25%*) 30,0mg (4%*) Магнезий 32,0mg (9%*) 4,80mg (1%*) Ниацин 21mg (131%*) 3,2mg (20%*) Пантотенова киселина 8,0mg (133%*) 1,2mg (20%*) Витамин B2 1,9mg (134%*) 0,28mg (20%*) Витамин B6 1,9mg (136%*) 0,28mg (20%*) Витамин B1 1,5mg (134%*) 0,22mg (20%*) Фолиева киселина 267μg (134%*) 40,0μg (20%*) Биотин 67μg (134%*) 10μg (20%*) Витамин B12 3,3μg (132%*) 0,50μg (20%*) *NRV = Референтна стойност на хранителните вещества / Xранителна информация На 100g На порция Енергийна стойност 1328kJ/313kcal 199kJ/47kcal Мазнини <0,5g <0,5g от които наситени 0,2g <",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 2.17
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-07-02T12:47:08.307109Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 66.48,
-          "price_eur": 33.99,
-          "unit_value": 2.17
-        }
-      ]
-    },
-    {
-      "id": "myprotein-plant-protein-superblend",
-      "store": "MyProtein",
-      "name": "Plant Protein Superblend",
-      "brand": "Myvegan",
-      "category": "protein",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/plant-protein-superblend/13972449/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/13972449-9835179481059557.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 35.19,
-      "price_eur": 17.99,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 1000.0,
-      "servings": 50,
-      "count": null,
-      "active": {
-        "estimated_total_protein_g": 850.0,
-        "estimated_protein_ratio_pct": 85
-      },
-      "label_text": "За 100g | На порция от 28g | Енергийна стойност | 1596kJ/376kcal | 447kJ/105kcal | Мазнини | 1,6g | <0,5g | от които наситени | 0,3g | < 0,1g | Въглехидрати | 15g | 4,2g | от които захари | 1,3g | <0,5g | Фибри | 2,9g | 0,8g | Протеини | 74g | 21g | Сол | 0g | 0g | Калий | 680mg (34%*) | 190mg (10%*) | Фосфор | 126mg (18%*) | 35,2mg (5%*) | Мед | 2,2mg (220%*) | 0,62mg (62%*) | Цинк | 1,5mg (15%*) | 0,41mg (4%*) | Витамин B6 | 0,26mg (19%*) | 0,07mg (5%*) | Витамин B12 | 0,85μg (34%*) | 0,24μg (10%*) / Карамел Размер на порция – 1 лъжица (28g) Xранителна информация * Хранителна референтна стойност. За 100g На порция от 28g Енергийна стойност 1596kJ/376kcal 447kJ/105kcal Мазнини 1,6g <0,5g от които наситени 0,3g < 0,1g Въглехидрати 15g 4,2g от които захари 1,3g <0,5g Фибри 2,9g 0,8g Протеини 74g 21g Сол 0g 0g Калий 680mg (34%*) 190mg (10%*) Фосфор 126mg (18%*) 35,2mg (5%*) Мед 2,2mg (220%*) 0,62mg (62%*) Цинк 1,5mg (15%*) 0,41mg (4%*) Витамин B6 0,26mg (19%*) 0,07mg (5%*) Витамин B12 0,85μg (34%*) 0,24μg (10%*) Хранителната стойност се изчислява въз основа на аромата на карамел. Ако изберете друг аромат, хранителната стойност може да се различава. / Xранителна информация * Хранителна референтна стойност. За 100g На порция от 28g Енергийна стойност 1596kJ/376kcal 447kJ/105kcal Мазнини 1,6g <0,5g от които наситени 0,3g < 0,1g Въглехидрати 15g 4,2g от които захари 1,3g <0,5g Фибри 2,9g 0,8g Протеини 74g 21g Сол 0g 0g Калий 680mg (34%*) 190mg (10%*) Фосфор 126mg (18%*) 35,2mg (5%*) Мед 2,2mg (220%*) 0,62mg (62%*) Цинк 1,5mg (15%*) 0,41mg (4%*) Витамин B6 0,26mg (19%*) 0,07mg (5%*) Витамин B12 0,85μg (34%*) 0,24μg (10%*) Хранителната стойност се изчислява въз основа на аромата на карамел. Ако изберете друг аромат, хранителната стойност може да се различава.",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 1.03
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-07-02T12:47:24.452343Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 35.19,
-          "price_eur": 17.99,
-          "unit_value": 1.03
-        }
-      ]
-    },
-    {
-      "id": "myprotein-myprotein-колан-за-повдигане-на-тежести-черен",
-      "store": "MyProtein",
-      "name": "Myprotein Колан за повдигане на тежести — черен",
-      "brand": "Myprotein",
-      "category": "protein",
-      "url": "https://www.myprotein.bg/p/protein-accessories/myprotein-lever-lifting-belt-black/14759538/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/14759538-2035128675131666.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 159.01,
-      "price_eur": 81.3,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 900.0,
-      "servings": 30,
-      "count": null,
-      "active": {
-        "estimated_total_protein_g": 765.0,
-        "estimated_protein_ratio_pct": 85
-      },
-      "label_text": null,
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 5.2
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-07-02T12:47:26.884511Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 159.01,
-          "price_eur": 81.3,
-          "unit_value": 5.2
-        }
-      ]
-    },
-    {
-      "id": "myprotein-clear-protein-superblend",
-      "store": "MyProtein",
-      "name": "Clear Protein Superblend",
-      "brand": "Myvegan",
-      "category": "protein",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/clear-protein-superblend/14843629/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/14843631-7105129158864953.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 70.39,
-      "price_eur": 35.99,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 1000.0,
-      "servings": 20,
-      "count": null,
-      "active": {
-        "estimated_total_protein_g": 850.0,
-        "estimated_protein_ratio_pct": 85
-      },
-      "label_text": "За 100g | На порция от 24g | Енергийна стойност | 1542kJ/363kcal | 370kJ/87kcal | Мазнини | <0,5g | <0,5g | от които наситени | 0,2g | < 0,1g | Въглехидрати | 14g | 3,4g | от които захари | 2,9g | 0,7g | Протеини | 74g | 18g | Сол | 1,1g | 0,26g | Фосфор | 125mg (18%*) | 30,0mg (4%*) | Магнезий | 65,1mg (17%*) | 15,6mg (4%*) | Желязо | 5,9mg (42%*) | 1,4mg (10%*) | Мед | 2,2mg (220%*) | 0,53mg (53%*) | Манган | 1,4mg (70%*) | 0,35mg (18%*) / Ягода Размер на порцията 2 1/2 лъжици (24g) Xранителна информация * Хранителна референтна стойност. За 100g На порция от 24g Енергийна стойност 1542kJ/363kcal 370kJ/87kcal Мазнини <0,5g <0,5g от които наситени 0,2g < 0,1g Въглехидрати 14g 3,4g от които захари 2,9g 0,7g Протеини 74g 18g Сол 1,1g 0,26g Фосфор 125mg (18%*) 30,0mg (4%*) Магнезий 65,1mg (17%*) 15,6mg (4%*) Желязо 5,9mg (42%*) 1,4mg (10%*) Мед 2,2mg (220%*) 0,53mg (53%*) Манган 1,4mg (70%*) 0,35mg (18%*) Хранителната стойност се изчислява въз основа на аромат на ягода. Ако изберете друг аромат, хранителната стойност може да се различава.",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 2.07
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-07-02T12:47:30.598668Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 70.39,
-          "price_eur": 35.99,
-          "unit_value": 2.07
-        }
-      ]
-    },
-    {
-      "id": "myprotein-crispy-square",
-      "store": "MyProtein",
-      "name": "Crispy Square",
-      "brand": "Myprotein",
-      "category": "protein",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/crispy-square-protein-snack/14853231/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/14853232-1765214749243277.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 39.0,
-      "price_eur": 19.94,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 360.0,
-      "servings": null,
-      "count": 12,
-      "active": {
-        "protein_g": 20.0
-      },
-      "label_text": "За 100g | За 30g | Енергийна стойност | 1357kJ/323kcal | 407kJ/97kcal | Мазнини | 4,4g | 1,3g | от които наситени | 3,1g | 0,9g | Въглехидрати | 43g | 13g | от които захари | 19g | 5,6g | Фибри | 17g | 5,0g | Протеини | 20g | 6,0g | Сол | 0,58g | 0,17g / Crispy Squares — 6х30g ℮ (180g) — Аромат на ванилия и маршмелоу Размер на порцията: 30g Порции в опаковка: 6 За 100g За 30g Енергийна стойност 1357kJ/323kcal 407kJ/97kcal Мазнини 4,4g 1,3g от които наситени 3,1g 0,9g Въглехидрати 43g 13g от които захари 19g 5,6g Фибри 17g 5,0g Протеини 20g 6,0g Сол 0,58g 0,17g Хранителната информация се дава въз основа на Ванилия и маршмелоу. Ако изберете друг аромат, хранителната стойност може да се различава.",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 4.06
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "high",
-      "scraped_at": "2026-07-02T12:47:32.383237Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 39.0,
-          "price_eur": 19.94,
-          "unit_value": 4.06
-        }
-      ]
-    },
-    {
-      "id": "myprotein-суроватъчен-протеин-clear---marvel",
-      "store": "MyProtein",
-      "name": "Суроватъчен протеин Clear - MARVEL",
-      "brand": "Myprotein",
-      "category": "protein",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/clear-whey-protein-marvel/14866265/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/14866266-1605138291165553.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 142.76,
-      "price_eur": 72.99,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 2022.0,
-      "servings": 80,
-      "count": null,
-      "active": {
-        "estimated_total_protein_g": 1718.7,
-        "estimated_protein_ratio_pct": 85
-      },
-      "label_text": "За 100g | За порция от 25,0g | Енергийна стойност | 1443kJ/340kcal | 361kJ/85kcal | Мазнини | 0g | 0g | от които наситени | 0g | 0g | Въглехидрати | 6,4g | 1,6g | от които захари | 0g | 0g | Протеини | 78g | 20g | Сол | 0,10g | 0,03g / Черна пантера Размер на порция 25,0g Хранителна информация За 100g За порция от 25,0g Енергийна стойност 1443kJ/340kcal 361kJ/85kcal Мазнини 0g 0g от които наситени 0g 0g Въглехидрати 6,4g 1,6g от които захари 0g 0g Протеини 78g 20g Сол 0,10g 0,03g Хранителната стойност се изчислява въз основа на Черната пантера, аромат на синя малина. Ако изберете друг аромат, хранителната стойност може да се различава. / Хранителна информация За 100g За порция от 25,0g Енергийна стойност 1443kJ/340kcal 361kJ/85kcal Мазнини 0g 0g от които наситени 0g 0g Въглехидрати 6,4g 1,6g от които захари 0g 0g Протеини 78g 20g Сол 0,10g 0,03g Хранителната стойност се изчислява въз основа на Черната пантера, аромат на синя малина. Ако изберете друг аромат, хранителната стойност може да се различава.",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 2.08
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-07-02T12:47:32.904207Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 142.76,
-          "price_eur": 72.99,
-          "unit_value": 2.08
-        }
-      ]
-    },
-    {
-      "id": "myprotein-clear-whey-chupa-chups-аромат-на-ягода",
-      "store": "MyProtein",
-      "name": "Clear Whey – Chupa Chups® Аромат на ягода",
-      "brand": "Myprotein",
-      "category": "protein",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/clear-whey-chupa-chups-strawberry-flavour/14866282/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/14866283-8215093356645251.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 87.6,
-      "price_eur": 44.79,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 900.0,
-      "servings": 20,
-      "count": null,
-      "active": {
-        "estimated_total_protein_g": 765.0,
-        "estimated_protein_ratio_pct": 85
-      },
-      "label_text": "За 100g | За 25g порция | Енергийна стойност | 1480kJ/348kcal | 348kJ/87kcal | Мазнини | <0,5g | <0,5g | от които наситени | 0,2g | <0,1g | Въглехидрати | 2,0g | <0,5g | от които захари | 1,2g | <0,5g | Протеини | 84g | 21g | Сол | 0,09g | 0,02g / Chupa Chups Clear Whey с аромат на ягода Размер на порция 25g Xранителна информация За 100g За 25g порция Енергийна стойност 1480kJ/348kcal 348kJ/87kcal Мазнини <0,5g <0,5g от които наситени 0,2g <0,1g Въглехидрати 2,0g <0,5g от които захари 1,2g <0,5g Протеини 84g 21g Сол 0,09g 0,02g Хранителната стойност се изчислява въз основа на Chupa Chups с аромат на ягода. Ако изберете друг аромат, хранителната стойност може да се различава.",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 2.86
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-07-02T12:47:35.735976Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 87.6,
-          "price_eur": 44.79,
-          "unit_value": 2.86
-        }
-      ]
-    },
-    {
-      "id": "myprotein-myprotein-shakesphere-решение-за-съхранение",
-      "store": "MyProtein",
-      "name": "Myprotein Shakesphere решение за съхранение",
-      "brand": "Myprotein",
-      "category": "protein",
-      "url": "https://www.myprotein.bg/p/protein-accessories/myprotein-shakesphere-stackable-storage/14900136/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/14900136-1985121450276015.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 59.01,
-      "price_eur": 30.17,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 900.0,
-      "servings": 30,
-      "count": null,
-      "active": {
-        "estimated_total_protein_g": 765.0,
-        "estimated_protein_ratio_pct": 85
-      },
-      "label_text": null,
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 1.93
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-07-02T12:47:38.701575Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 59.01,
-          "price_eur": 30.17,
-          "unit_value": 1.93
-        }
-      ]
-    },
-    {
-      "id": "myprotein-impact-protein-пакет",
-      "store": "MyProtein",
-      "name": "Impact Protein пакет",
-      "brand": "Myprotein",
-      "category": "protein",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/impact-protein-bundle/14914642/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/17793399-1715326969990596.png&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 87.6,
-      "price_eur": 44.79,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 900.0,
-      "servings": 30,
-      "count": null,
-      "active": {
-        "protein_g": 20.0
-      },
-      "label_text": "За повече информация, моля, вижте страниците за отделните продукти. Impact Whey Protein — аромат на ванилия Impact Whey Protein — аромат на натурален шоколад Impact Whey Protein — аромат на бисквитки с крем Impact Whey Protein — аромат на бял шоколад Impact Whey Protein - без аромат",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 3.65
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "high",
-      "scraped_at": "2026-07-02T12:47:43.012885Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 87.6,
-          "price_eur": 44.79,
-          "unit_value": 3.65
-        }
-      ]
-    },
-    {
-      "id": "myprotein-clear-protein-пакет",
-      "store": "MyProtein",
-      "name": "Clear Protein Пакет",
-      "brand": "Myprotein",
-      "category": "protein",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/myprotein-clear-protein-starter-bundle-cee/14920070/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/14920071-7765108956974660.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 70.39,
-      "price_eur": 35.99,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 900.0,
-      "servings": 20,
-      "count": null,
-      "active": {
-        "protein_g": 20.0
-      },
-      "label_text": "За повече информация, моля, вижте страниците за отделните продукти. Clear Whey Protein — аромат на портокал и манго Clear Whey Protein — аромат на ягода и киви Clear Whey Protein — аромат на малинова лимонада Clear Whey Protein — аромат на червена боровинка и малина Clear Whey Protein — аромат на чай от праскова",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 4.4
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "high",
-      "scraped_at": "2026-07-02T12:47:43.492732Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 70.39,
-          "price_eur": 35.99,
-          "unit_value": 4.4
-        }
-      ]
-    },
-    {
-      "id": "myprotein-the-recovery---hyrox",
-      "store": "MyProtein",
-      "name": "THE Recovery - HYROX",
-      "brand": "Myprotein",
-      "category": "protein",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/the-recovery-x-hyrox-protein-carbohydrate-electrolyte-powder/15206602/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/15206608-1405151207219162.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 82.13,
-      "price_eur": 41.99,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 900.0,
-      "servings": 16,
-      "count": null,
-      "active": {
-        "protein_g": 45.0
-      },
-      "label_text": "За 100g | За 43g | Енергийна стойност | 1391kJ/327kcal | 598kJ/141kcal | Мазнини | 0g | 0g | от които наситени | 0g | 0g | Въглехидрати | 36g | 15g | от които захари | 3,0g | 1,3g | Протеини | 45g | 20g | Сол | 1,30g | 0,56g | Калий | 693mg (35%*) | 298mg (15%*) | Хлорид | 618mg (77%*) | 266mg (33%*) | Натрий | 520mg | 220mg | Калций | 279mg (35%*) | 120mg (15%*) | Магнезий | 140mg (37%*) | 60,0mg (16%*) / ПОРТОКАЛ И МАНГО Хранителна информация За 100g За 43g Енергийна стойност 1391kJ/327kcal 598kJ/141kcal Мазнини 0g 0g от които наситени 0g 0g Въглехидрати 36g 15g от които захари 3,0g 1,3g Протеини 45g 20g Сол 1,30g 0,56g Калий 693mg (35%*) 298mg (15%*) Хлорид 618mg (77%*) 266mg (33%*) Натрий 520mg 220mg Калций 279mg (35%*) 120mg (15%*) Магнезий 140mg (37%*) 60,0mg (16%*)",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 2.85
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "high",
-      "scraped_at": "2026-07-02T12:47:45.255529Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 82.13,
-          "price_eur": 41.99,
-          "unit_value": 2.85
-        }
-      ]
-    },
-    {
-      "id": "myprotein-протеинови-гофрети",
-      "store": "MyProtein",
-      "name": "Протеинови гофрети",
-      "brand": "Myprotein",
-      "category": "protein",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/protein-waffles/15402393/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/15402394-1605304689613588.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 75.98,
-      "price_eur": 38.85,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 600.0,
-      "servings": null,
-      "count": 12,
-      "active": {
-        "protein_g": 20.0
-      },
-      "label_text": "За 100g | За порция | Енергийна стойност | 1712kJ/411kcal | 856kJ/205kcal | Мазнини | 23g | 12g | от които наситени | 13g | 6,5g | Въглехидрати | 37g | 18g | от които захари | 1,2g | 0,6g | Фибри | 3,4g | 1,7g | Протеини | 20g | 10g | Сол | 0,59g | 0,30g / Протеинови гофрети — Канела — 12x50g ℮ (600g) Размер на порцията: 50g Порции в опаковка: 12 За 100g За порция Енергийна стойност 1712kJ/411kcal 856kJ/205kcal Мазнини 23g 12g от които наситени 13g 6,5g Въглехидрати 37g 18g от които захари 1,2g 0,6g Фибри 3,4g 1,7g Протеини 20g 10g Сол 0,59g 0,30g Хранителната стойност се изчислява въз основа на аромат на канела. Ако изберете друг аромат, хранителната стойност може да се различава.",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 4.75
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "high",
-      "scraped_at": "2026-07-02T12:47:47.883421Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 75.98,
-          "price_eur": 38.85,
-          "unit_value": 4.75
-        }
-      ]
-    },
-    {
-      "id": "myprotein-чист-суроватъчен-протеин-x-chupa-chups-cola",
-      "store": "MyProtein",
-      "name": "Чист суроватъчен протеин x Chupa Chups Cola",
-      "brand": "Myprotein",
-      "category": "protein",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/clear-whey-protein-x-chupa-chups-cola/15921022/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/16400831-1515243459093841.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 92.61,
-      "price_eur": 47.35,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 500.0,
-      "servings": 20,
-      "count": null,
-      "active": {
-        "estimated_total_protein_g": 425.0,
-        "estimated_protein_ratio_pct": 85
-      },
-      "label_text": "За 100g | За порция | Енергийна стойност | 1445kJ/340kcal | 376kJ/88kcal | Мазнини | <0,5g | <0,5g | от които наситени | 0,1g | <0,1g | Въглехидрати | 6,1g | 1,6g | от които захари | 0,8g | <0,5g | Протеини | 78g | 20g | Сол | 0,09g | 0,02g / CHUPA CHUPS COLA Размер на порцията: 26g Порции в кутия: 20 порции (520g) За 100g За порция Енергийна стойност 1445kJ/340kcal 376kJ/88kcal Мазнини <0,5g <0,5g от които наситени 0,1g <0,1g Въглехидрати 6,1g 1,6g от които захари 0,8g <0,5g Протеини 78g 20g Сол 0,09g 0,02g * Хранителна референтна стойност Хранителната стойност се изчислява въз основа на аромат на CHUPA CHUPS COLA. Ако изберете друг аромат, хранителната стойност може да се различава.",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 5.45
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-07-02T12:47:54.442342Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 92.61,
-          "price_eur": 47.35,
-          "unit_value": 5.45
-        }
-      ]
-    },
-    {
-      "id": "myprotein-impact-whey-isolate-капитан-америка-ванилия-и-малина",
-      "store": "MyProtein",
-      "name": "Impact Whey Isolate — Капитан Америка — ванилия и малина",
-      "brand": "Myprotein",
-      "category": "protein",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/impact-whey-isolate-captain-america-vanilla-raspberry/15867731/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/15867731-1875215968618363.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 88.99,
-      "price_eur": 45.5,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 2023.0,
-      "servings": 67,
-      "count": null,
-      "active": {
-        "estimated_total_protein_g": 1719.5,
-        "estimated_protein_ratio_pct": 85
-      },
-      "label_text": "За 100g | За порция | Енергийна стойност | 1470kJ/346kcal | 441kJ/104kcal | Мазнини | 0,9g | <0,5g | от които наситени | 0,4g | 0,1g | Въглехидрати | 4,8g | 1,4g | от които захари | 1,9g | 0,6g | Протеини | 80g | 24g | Сол | 0,63g | 0,19g / Размер на порцията: 30g Порции в кутия: 20 За 100g За порция Енергийна стойност 1470kJ/346kcal 441kJ/104kcal Мазнини 0,9g <0,5g от които наситени 0,4g 0,1g Въглехидрати 4,8g 1,4g от които захари 1,9g 0,6g Протеини 80g 24g Сол 0,63g 0,19g Хранителната информация се дава въз основа на аромат Капитан Америка. Ако изберете друг аромат, хранителната стойност може да се различава.",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 1.29
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-07-02T12:47:54.753038Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 88.99,
-          "price_eur": 45.5,
-          "unit_value": 1.29
-        }
-      ]
-    },
-    {
-      "id": "myprotein-протеин-от-костен-бульон",
-      "store": "MyProtein",
-      "name": "Протеин от костен бульон",
-      "brand": "Myprotein",
-      "category": "protein",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/bone-broth-protein/15980633/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/15980633-2445303879900649.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 46.92,
-      "price_eur": 23.99,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 300.0,
-      "servings": null,
-      "count": null,
-      "active": {
-        "protein_g": 11.0
-      },
-      "label_text": "За 100g | За порция | Енергийна стойност | 1597kJ/377kcal | 319kJ/75kcal | Мазнини | 3,4g | 0,7g | от които наситени | 0,6g | 0,1g | Въглехидрати | 24g | 4,9g | от които захари | 3,8g | 0,8g | Протеини | 61g | 12g | Сол | 3,8g | 0,77g | Активни съставки | Колаген | 54g | 11g / Костен бульон на прах — говежди и зеленчуков — 300g e Размер на порция: 20g Порции в опаковка: 15 За 100g За порция Енергийна стойност 1597kJ/377kcal 319kJ/75kcal Мазнини 3,4g 0,7g от които наситени 0,6g 0,1g Въглехидрати 24g 4,9g от които захари 3,8g 0,8g Протеини 61g 12g Сол 3,8g 0,77g Активни съставки Колаген 54g 11g Хранителната стойност се изчислява въз основа на аромат на говеждо и зеленчуци. Ако изберете друг аромат, хранителната стойност може да се различава.",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 10.66
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "high",
-      "scraped_at": "2026-07-02T12:47:58.991314Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 46.92,
-          "price_eur": 23.99,
-          "unit_value": 10.66
-        }
-      ]
-    },
-    {
-      "id": "myprotein-origin-protein-железния-човек-торта-червено-кадифе-marvel",
-      "store": "MyProtein",
-      "name": "Origin Protein – Железния човек – Торта червено кадифе | MARVEL",
-      "brand": "Myprotein",
-      "category": "protein",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/origin-protein-marvel/16003857/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/17538714-1625281534811889.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 138.84,
-      "price_eur": 70.99,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 900.0,
-      "servings": 25,
-      "count": null,
-      "active": {
-        "estimated_total_protein_g": 765.0,
-        "estimated_protein_ratio_pct": 85
-      },
-      "label_text": "За 100g | За порция | Енергийна стойност | 1343kJ/317kcal | 645kJ/152kcal | Мазнини | 4,5g | 2,1g | от които наситени | 2,7g | 1,3g | Въглехидрати | 7,0g | 3,3g | от които захари | 4,2g | 2,0g | Протеини | 62g | 30g | Сол | 0,33g | 0,16g | АКТИВНИ СЪСТАВКИ | Креатин монохидрат | 11,9g | 5,7g | от който креатин | 10,4g | 5,0g / Размер на порцията: 48g Порции в опаковка: 25 За 100g За порция Енергийна стойност 1343kJ/317kcal 645kJ/152kcal Мазнини 4,5g 2,1g от които наситени 2,7g 1,3g Въглехидрати 7,0g 3,3g от които захари 4,2g 2,0g Протеини 62g 30g Сол 0,33g 0,16g АКТИВНИ СЪСТАВКИ Креатин монохидрат 11,9g 5,7g от който креатин 10,4g 5,0g Хранителната стойност се изчислява въз основа на Железен човек. Ако изберете друг аромат, хранителната стойност може да се различава.",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 4.54
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-07-02T12:47:59.490905Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 138.84,
-          "price_eur": 70.99,
-          "unit_value": 4.54
-        }
-      ]
-    },
-    {
-      "id": "myprotein-clear-whey-splash",
-      "store": "MyProtein",
-      "name": "Clear Whey Splash",
-      "brand": "Myprotein",
-      "category": "protein",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/clear-whey-protein-splash-of-flavour/16111658/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/17113631-1645261592711069.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 123.2,
-      "price_eur": 62.99,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 390.0,
-      "servings": 15,
-      "count": null,
-      "active": {
-        "estimated_total_protein_g": 331.5,
-        "estimated_protein_ratio_pct": 85
-      },
-      "label_text": "За 100g | За порция | Енергийна стойност | 1404kJ/330kcal | 365kJ/86kcal | Мазнини | <0,5g | <0,5g | от които наситени | 0,1g | <0,1g | Въглехидрати | 5,1g | 1,3g | от които захари | 0,9g | <0,5g | Протеини | 77g | 20g | Сол | 1,1g | 0,29g / Clear Whey Splash — Ананас — 390g Размер на порцията: 26g Порции в опаковка: 15 За 100g За порция Енергийна стойност 1404kJ/330kcal 365kJ/86kcal Мазнини <0,5g <0,5g от които наситени 0,1g <0,1g Въглехидрати 5,1g 1,3g от които захари 0,9g <0,5g Протеини 77g 20g Сол 1,1g 0,29g Хранителната стойност се изчислява въз основа на аромат на ананас. Ако изберете друг аромат, хранителната стойност може да се различава.",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 9.29
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-07-02T12:48:03.171359Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 123.2,
-          "price_eur": 62.99,
-          "unit_value": 9.29
-        }
-      ]
-    },
-    {
-      "id": "myprotein-основни-шеикове",
-      "store": "MyProtein",
-      "name": "Основни шейкове",
-      "brand": "Myprotein",
-      "category": "protein",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/essential-whey-protein-shake/16670299/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/16670299-1755257697924550.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 158.4,
-      "price_eur": 80.99,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 2500.0,
-      "servings": 70,
-      "count": null,
-      "active": {
-        "estimated_total_protein_g": 2125.0,
-        "estimated_protein_ratio_pct": 85
-      },
-      "label_text": "За 100g | За доза | Енергийна стойност | 1667kJ/395kcal | 583kJ/138kcal | Мазнини | 9,3g | 3,2g | от които наситени мазнини | 5,5g | 1,9g | Въглехидрати | 19g | 6,7g | от които захари | 13g | 4,6g | Белтъци | 58g | 20g | Сол | 0,45g | 0,16g / МЛЕЧЕН ШЕЙК С АРОМАТ НА БАНАН Размер на дозата: 35g За 100g За доза Енергийна стойност 1667kJ/395kcal 583kJ/138kcal Мазнини 9,3g 3,2g от които наситени мазнини 5,5g 1,9g Въглехидрати 19g 6,7g от които захари 13g 4,6g Белтъци 58g 20g Сол 0,45g 0,16g *Хранителна референтна стойност Хранителната стойност се изчислява въз основа на МЛЕЧЕН ШЕЙК С АРОМАТ НА БАНАН. Ако изберете друг аромат, хранителната стойност може да се различава.",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 1.86
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-07-02T12:48:04.059797Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 158.4,
-          "price_eur": 80.99,
-          "unit_value": 1.86
-        }
-      ]
-    },
-    {
-      "id": "myprotein-myprotein-рециклирана-метална-чаша-за-кафе-350ml---розова",
-      "store": "MyProtein",
-      "name": "Myprotein рециклирана метална чаша за кафе 350ml - розова",
-      "brand": "Myprotein",
-      "category": "protein",
-      "url": "https://www.myprotein.bg/p/protein-accessories/myprotein-recycled-metal-coffee-cup-350ml-blush/17134836/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/17134836-1835303368957608.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 66.5,
-      "price_eur": 34.0,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 900.0,
-      "servings": 30,
-      "count": null,
-      "active": {
-        "estimated_total_protein_g": 765.0,
-        "estimated_protein_ratio_pct": 85
-      },
-      "label_text": null,
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 2.17
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-07-02T12:48:07.711286Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 66.5,
-          "price_eur": 34.0,
-          "unit_value": 2.17
-        }
-      ]
-    },
-    {
-      "id": "myprotein-grass-fed-impact-whey-isolate",
-      "store": "MyProtein",
-      "name": "Grass-Fed Impact Whey Isolate",
-      "brand": "Myprotein",
-      "category": "protein",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/grass-fed-impact-whey-isolate/16795191/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/17007126-7775343294807582.png&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 179.92,
-      "price_eur": 91.99,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 1000.0,
-      "servings": 30,
-      "count": null,
-      "active": {
-        "estimated_total_protein_g": 850.0,
-        "estimated_protein_ratio_pct": 85
-      },
-      "label_text": "За 100g | За порция | Енергийна стойност | 1537kJ/362kcal | 461kJ/109kcal | Мазнини | 1,0g | <0,5g | от които наситени | 0,3g | <0,1g | Въглехидрати | 3,8g | 1,1g | от които захари | 2,5g | 0,8g | Протеини | 85g | 26g | Сол | 0,66g | 0,20g / Grass Fed Impact Whey Isolate — Без аромат — 1kg Размер на порцията: 30g Порции в кутия: 33 За 100g За порция Енергийна стойност 1537kJ/362kcal 461kJ/109kcal Мазнини 1,0g <0,5g от които наситени 0,3g <0,1g Въглехидрати 3,8g 1,1g от които захари 2,5g 0,8g Протеини 85g 26g Сол 0,66g 0,20g Хранителната стойност се изчислява въз основа на протеин без аромат. Ако изберете друг аромат, хранителната стойност може да се различава.",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 5.29
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-07-02T12:48:08.481473Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 179.92,
-          "price_eur": 91.99,
-          "unit_value": 5.29
-        }
-      ]
-    },
-    {
-      "id": "myprotein-clear-protein-суроватъчен-протеин-и-колаген",
-      "store": "MyProtein",
-      "name": "Clear Protein | Суроватъчен протеин и колаген",
-      "brand": "Myprotein",
-      "category": "protein",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/clear-whey-protein-collagen/17263290/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/17263290-1975330294785212.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 128.91,
-      "price_eur": 65.91,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 1000.0,
-      "servings": 40,
-      "count": null,
-      "active": {
-        "estimated_total_protein_g": 600.0,
-        "estimated_protein_ratio_pct": 60
-      },
-      "label_text": "За 100g | За порция | Енергийна стойност | 1509kJ/355kcal | 377kJ/89kcal | Мазнини | 0g | 0g | от които наситени мазнини | 0g | 0g | Въглехидрати | 3,4g | 0,9g | от които захари | 0g | 0g | Протеини | 85g | 21g | Сол | 0,25g | 0,06g | Витамин C | 210mg (260%*) | 52mg (65%*) | Активни съставки | Колаген | 40g | 10g / Clear Protein - 500g - С аромат на малинова лимонада Размер на порцията: 25g Порции в опаковка: 20 За 100g За порция Енергийна стойност 1509kJ/355kcal 377kJ/89kcal Мазнини 0g 0g от които наситени мазнини 0g 0g Въглехидрати 3,4g 0,9g от които захари 0g 0g Протеини 85g 21g Сол 0,25g 0,06g Витамин C 210mg (260%*) 52mg (65%*) Активни съставки Колаген 40g 10g *Хранителна референтна стойност Информацията за хранителната стойност е въз основа на аромат на малинова лимонада. Ако изберете друг аромат, хранителната стойност може да се различава.",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 5.37
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "medium",
-      "scraped_at": "2026-07-02T12:48:11.523289Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 128.91,
-          "price_eur": 65.91,
-          "unit_value": 5.37
-        }
-      ]
-    },
-    {
-      "id": "myprotein-protein-iced-coffee",
-      "store": "MyProtein",
-      "name": "Protein Iced Coffee",
-      "brand": "Myprotein",
-      "category": "protein",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/protein-iced-coffee/17631051/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/17631052-1125343232497633.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 93.86,
-      "price_eur": 47.99,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 640.0,
-      "servings": 20,
-      "count": null,
-      "active": {
-        "estimated_total_protein_g": 544.0,
-        "estimated_protein_ratio_pct": 85
-      },
-      "label_text": "Хранителна информация | Типични стойности | За 100 g | За 32 g | Енергийна стойност | 1579 kJ | 505 kJ | Енергийна стойност | 374 kcal | 120 kcal | Мазнини | 5,5 g | 1,8 g | от които наситени | 3,4 g | 1,1 g | Въглехидрати | 16 g | 5,1 g | от които захари | 11 g | 3,5 g | Протеини | 63 g | 20 g | Сол | 0,42 g | 0,13 g | Витамини и минерали | Общо кофеин - от всички източници | 231,9 mg | 74,2 mg | НРС=Референтна стойност за хранителен прием | Съдържа 20 порции / Хранителна информация Типични стойности За 100 g За 32 g Енергийна стойност 1579 kJ 505 kJ Енергийна стойност 374 kcal 120 kcal Мазнини 5,5 g 1,8 g от които наситени 3,4 g 1,1 g Въглехидрати 16 g 5,1 g от които захари 11 g 3,5 g Протеини 63 g 20 g Сол 0,42 g 0,13 g Витамини и минерали Общо кофеин - от всички източници 231,9 mg 74,2 mg НРС=Референтна стойност за хранителен прием Съдържа 20 порции",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 4.31
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-07-02T12:48:15.502366Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 93.86,
-          "price_eur": 47.99,
-          "unit_value": 4.31
-        }
-      ]
-    },
-    {
-      "id": "myprotein-impact-whey-isolate-matcha",
-      "store": "MyProtein",
-      "name": "Impact Whey Isolate | Matcha",
-      "brand": "Myprotein",
-      "category": "protein",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/impact-whey-isolate-powder-matcha/17682631/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/17682631-2135303112239400.png&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 213.17,
-      "price_eur": 108.99,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 2500.0,
-      "servings": 83,
-      "count": 1,
-      "active": {
-        "estimated_total_protein_g": 2125.0,
-        "estimated_protein_ratio_pct": 85
-      },
-      "label_text": "За 100g | За порция | Енергийна стойност | 1534kJ/362kcal | 460kJ/109kcal | Мазнини | 2,0g | 0,6g | от които наситени мазнини | 0,5g | 0,2g | Въглехидрати | 9,5g | 2,9g | от които захари | 2,9g | 0,9g | Фибри | 3,5g | 1,1g | Протеини | 75g | 22g | Сол | 0,59g | 0,18g / Impact Whey Isolate — Аромат на чай матча и манго Размер на порцията: 30g За 100g За порция Енергийна стойност 1534kJ/362kcal 460kJ/109kcal Мазнини 2,0g 0,6g от които наситени мазнини 0,5g 0,2g Въглехидрати 9,5g 2,9g от които захари 2,9g 0,9g Фибри 3,5g 1,1g Протеини 75g 22g Сол 0,59g 0,18g Хранителната стойност се изчислява въз основа на аромат Чай матча и манго. Ако изберете друг аромат, хранителната стойност може да се различава.",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 2.51
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-07-02T12:48:17.014989Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 213.17,
-          "price_eur": 108.99,
-          "unit_value": 2.51
-        }
-      ]
-    },
-    {
-      "id": "myprotein-clear-whey-protein-and-collagen-plus",
-      "store": "MyProtein",
-      "name": "Clear Whey Protein and Collagen Plus",
+      "name": "Желязо § Фолиева киселина",
       "brand": "Myvitamins",
-      "category": "protein",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/clear-whey-protein-and-collagen-plus/17709010/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/17709011-1115339863170918.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 102.62,
-      "price_eur": 52.47,
+      "category": "iron",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/iron-folic-acid-tablets/12457459/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/12457459-2104883728043028.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 5.85,
+      "price_eur": 2.99,
       "currency_source": "EUR",
       "availability_status": "in_stock",
-      "weight_grams": 486.0,
-      "servings": 20,
-      "count": null,
+      "weight_grams": 100.0,
+      "servings": null,
+      "count": 30,
       "active": {
-        "estimated_total_protein_g": 413.1,
-        "estimated_protein_ratio_pct": 85
+        "iron_mg": 14
       },
-      "label_text": "nbsp; | За 100g | За порция | Енергийна стойност | 1464kJ/345kcal | 369kJ/87kcal | Мазнини | <0,5g | <0,1g | от които наситени мазнини | <0,5g | <0,1g | Въглехидрати | 14g | 3,6g | от които захари | 4,7g | 1,2g | Фибри | 2,3g | 0,6g | Протеини | 70g | 18g | Сол | 0,51g | 0,13g | Активни съставки | Морски колаген | 40g | 10g | Плодове на киви на прах (като Actazin®) | 2200mg | 555mg | Ашваганда KSM-66® | 1980mg | 500mg | Ниацин | 19mg (119%*) | 4,8mg (30%*) | Желязо | 8,3mg (59%*) | 2,1mg (15%*) | Пантотенова киселина | 7,1mg (118%*) | 1,8mg (30%*) | Мака | 4,0g | 1,0g | Рибофлавин | 1,7mg (121%*) | 0,42mg (30%*) | Витамин B6 | 1,67mg (121%*) | 0,42mg (30%*) | Тиамин | 1,3mg (118%*) | 0,34mg (31%*) | Фолиева киселина | 238μg (119%*) | 60μg (30%*) | Биотин | 60μg (119%*) | 15μg (30%*) | Витамин B12 | 3,0μg (120%*) | 0,75μg (30%*) / Myvitamins 2-in-1 Clear Whey Protein + Collagen - 504g - Череша и малина Размер на порцията: 25,2g Брой порции в опаковка: 20 nbsp; За 100g За порция Енергийна стойност 1464kJ/345kcal 369kJ/87kcal Мазнини <0,5g <0,1g от които наситени мазнини <0,5g <0,1g Въглехидрати 14g 3,6g от които захари 4,7g 1,2g Фибри 2,3g 0,6g Протеини 70g 18g Сол 0,51g 0,13g Активни съставки Морски колаген 40g 10g Плодове на киви на прах (като Actazin®) 2200mg 555mg Ашваганда KSM-66® 1980mg 500mg Ниацин 19mg (119%*) 4,8mg (30%*) Желязо 8,3mg (59%*) 2,1mg (15%*) Пантотенова киселина 7,1mg (118%*) 1,8mg (30%*) Мака 4,0g 1,0g Рибофлавин 1,7mg (121%*) 0,42mg (30%*) Витамин B6 1,67mg (121%*) 0,42mg (30%*) Тиамин 1,3mg (118%*) 0,34mg (31%*) Фолиева киселина 238μg (119%*) 60μg (30%*) Биотин 60μg (119%*) 15μg (30%*) Витамин B12 3,0μg (120%*) 0,75μg (30%*) Информацията за хранителната стойност е за вкус Череша и малина. Ако изберете друг вкус, хранителната стойност може да се ра",
+      "label_text": "В една доза | *RI | витамин А | 400 μg | 50% | витамин Ц | 80 mg | 100% | Рибофлавин | 0.7 mg | 50% | Фолиева киселина | 800 μg | 400% | Желязо | 14 mg | 100% | Мед | 1 mg | 100% / Доза - 1 tablet Дози в опаковка - 30 (30 Tablets), 90 (90 Tablets) Хранителни стойности В една доза *RI витамин А 400 μg 50% витамин Ц 80 mg 100% Рибофлавин 0.7 mg 50% Фолиева киселина 800 μg 400% Желязо 14 mg 100% Мед 1 mg 100% * Reference intake of an average adult (8400 kJ/2000 kcal) / Хранителни стойности В една доза *RI витамин А 400 μg 50% витамин Ц 80 mg 100% Рибофлавин 0.7 mg 50% Фолиева киселина 800 μg 400% Желязо 14 mg 100% Мед 1 mg 100%",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_25g_protein": 6.21
+        "bgn_per_14mg_iron": 0.19
       },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-07-02T12:48:17.939271Z",
+      "unit_label": "лв / 14 mg желязо",
+      "confidence": "high",
+      "scraped_at": "2026-07-02T13:18:13.913123Z",
       "last_full_scrape": "2026-07-02",
       "price_history": [
         {
           "date": "2026-07-02",
-          "price_bgn": 102.62,
-          "price_eur": 52.47,
-          "unit_value": 6.21
+          "price_bgn": 5.85,
+          "price_eur": 2.99,
+          "unit_value": 0.19
         }
-      ]
+      ],
+      "promo_label": "-42% с код MYPBG"
     },
     {
-      "id": "myprotein-impact-whey-протеин-колаген",
+      "id": "myprotein-дъвчащи-таблетки-с-желязо",
       "store": "MyProtein",
-      "name": "Impact Whey Протеин + Колаген",
-      "brand": "Myprotein",
-      "category": "protein",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/impact-whey-protein-collagen/17725536/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/17725536-1595330613532623.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 424.4,
-      "price_eur": 216.99,
+      "name": "Дъвчащи таблетки с желязо",
+      "brand": "Myvitamins",
+      "category": "iron",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/iron-gummies/15599954/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/15599955-1135240327248911.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 29.98,
+      "price_eur": 15.33,
       "currency_source": "EUR",
       "availability_status": "in_stock",
-      "weight_grams": 3750.0,
-      "servings": 150,
+      "weight_grams": 900.0,
+      "servings": 30,
       "count": null,
       "active": {
-        "estimated_total_protein_g": 2250.0,
-        "estimated_protein_ratio_pct": 60
+        "iron_mg": 7
       },
-      "label_text": "За 100g | За порция | Енергийна стойност | 1636kJ/386kcal | 409kJ/96kcal | Мазнини | 3,0g | 0,7g | от които наситени мазнини | 1,8g | 0,5g | Въглехидрати | 10g | 2,6g | от които захари | 2,9g | 0,7g | Протеини | 79g | 20g | Сол | 0,41g | 0,10g | Витамин C | 210mg (260%*) | 52mg (65%*) | Активни съставки | Колаген | 40g | 10g / Impact Whey Protein & Collagen – Ванилия Размер на порцията: 25g За 100g За порция Енергийна стойност 1636kJ/386kcal 409kJ/96kcal Мазнини 3,0g 0,7g от които наситени мазнини 1,8g 0,5g Въглехидрати 10g 2,6g от които захари 2,9g 0,7g Протеини 79g 20g Сол 0,41g 0,10g Витамин C 210mg (260%*) 52mg (65%*) Активни съставки Колаген 40g 10g * Хранителна референтна стойност Информацията за хранителната стойност е за вкус Ванилия. Ако изберете друг вкус, хранителната стойност може да се различава.",
+      "label_text": "Активни съставки | В дневна доза | 2 дъвчащи таблетки | Желязо | 7,0mg (50%*) / СМЕСЕНИ ГОРСКИ ПЛОДОВЕ Размер на порцията: 2 дъвчащи таблетки Порции в опаковка: 30 Активни съставки В дневна доза 2 дъвчащи таблетки Желязо 7,0mg (50%*) * Хранителна референтна стойност",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_25g_protein": 4.72
+        "bgn_per_14mg_iron": 2.0
       },
-      "unit_label": "лв / 25 g протеин",
+      "unit_label": "лв / 14 mg желязо",
+      "confidence": "high",
+      "scraped_at": "2026-07-02T13:18:14.292608Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 29.98,
+          "price_eur": 15.33,
+          "unit_value": 2.0
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-myvitamins-iron-tablets",
+      "store": "MyProtein",
+      "name": "Myvitamins Iron Tablets",
+      "brand": "Myvitamins",
+      "category": "iron",
+      "url": "https://www.myprotein.bg/p/vitamins/myvitamins-iron-tablets/11338700/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/11338700-9725054554296177.png&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 22.47,
+      "price_eur": 11.49,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 900.0,
+      "servings": null,
+      "count": 90,
+      "active": {
+        "iron_mg": 14
+      },
+      "label_text": "АКТИВНИ СЪСТАВКИ | За дневна порция | 1 таблетка | Мед | 1,0mg (100%*) | Витамин B2 (μg) | 0,70mg (50%*) | Витамин А | 400μg (50%*) | Витамин C | 80mg (100%*) | Желязо | 14mg (100%*) / АКТИВНИ СЪСТАВКИ За дневна порция 1 таблетка Мед 1,0mg (100%*) Витамин B2 (μg) 0,70mg (50%*) Витамин А 400μg (50%*) Витамин C 80mg (100%*) Желязо 14mg (100%*) * Хранителна референтна стойност",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_14mg_iron": 0.25
+      },
+      "unit_label": "лв / 14 mg желязо",
+      "confidence": "high",
+      "scraped_at": "2026-07-02T13:18:15.072500Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 22.47,
+          "price_eur": 11.49,
+          "unit_value": 0.25
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-мултивитамин",
+      "store": "MyProtein",
+      "name": "Мултивитамин",
+      "brand": "Myprotein",
+      "category": "multivitamin",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/multivitamins-for-women/10530541/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/10530541-1714918710659604.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 34.99,
+      "price_eur": 17.89,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 900.0,
+      "servings": null,
+      "count": 120,
+      "active": {
+        "multivitamin_serving": 1
+      },
+      "label_text": "Per Serving | *RI | Vitamin D | 5 μg | 100% | Vitamin E | 32 mg | 267% | Vitamin K | 13 μg | 170% | Vitamin C | 40 mg | 50% | Тиамин | 6.3 mg | 573% | Рибофлавин | 6.3 mg | 450% | Ниацин | 12.5 mg | 78% | Vitamin B6 | 6.3 mg | 450% | Фолиева киселина | 200 μg | 100% | Vitamin B12 | 260 μg | 10400% | Биотин | 75 μg | 150% | Пантоненова киселина | 25 mg | 417% | Калций | 175 mg | 22% | Желязо | 7 mg | 50% | Цинк | 7.5 mg | 75% | Мед | 0.25 mg | 25% | Селен | 50 μg | 91% | Хром | 48 μg | 120% | Per Serving | Корейски женшен | 1 g | Екстракт от гроздови семки | 312 mg | Пчелно млечице | 38.25 mg | Алфа Липоева Киселина | 12.75 mg | Цитрусови биофлавоноиди | 12.5 mg | Холин | 12.5 mg | Бромелаин | 6.25 mg | Инозитол | 6.25 mg | Липаза | 6.25 mg | Папаин | 6.25 mg | Бета Каротен | 1.5 mg | коензим Q10 | 1.25 mg | Амилаза | 1.25 mg | Лутеин | 250 μg / Доза - 1 Таблетка Servings Per Container - 120 (120 Tablets) Typical Nutritional Values Per Serving *RI Vitamin D 5 μg 100% Vitamin E 32 mg 267% Vitamin K 13 μg 170% Vitamin C 40 mg 50% Тиамин 6.3 mg 573% Рибофлавин 6.3 mg 450% Ниацин 12.5 mg 78% Vitamin B6 6.3 mg 450% Фолиева киселина 200 μg 100% Vitamin B12 260 μg 10400% Биотин 75 μg 150% Пантоненова киселина 25 mg 417% Калций 175 mg 22% Желязо 7 mg 50% Цинк 7.5 mg 75% Мед 0.25 mg 25% Селен 50 μg 91% Хром 48 μg 120% Per Serving Корейски женшен 1 g Екстракт от гроздови семки 312 mg Пчелно млечице 38.25 mg Алфа Липоева Киселина 12.75 mg Цитрусови биофлавоноиди 12.5 mg Холин 12.5 mg Бромелаин 6.25 mg Инозитол 6.25 mg Липаза 6.25 mg Папаин 6.25 mg Бета Каротен 1.5 mg коензим Q10 1.25 mg Амилаза 1.25 mg Лутеин 250 μg * Reference intake of an average adult (8400 kJ/2000 kcal) / Typical Nutritional Values Per Serving *RI Vitamin D 5 μg 100% Vitamin E 32 mg 267% Vitamin K 13 μg 170% Vi",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_multivitamin_serving": 0.29
+      },
+      "unit_label": "лв / доза мултивитамин",
       "confidence": "medium",
-      "scraped_at": "2026-07-02T12:48:21.071816Z",
+      "scraped_at": "2026-07-02T13:18:17.263179Z",
       "last_full_scrape": "2026-07-02",
       "price_history": [
         {
           "date": "2026-07-02",
-          "price_bgn": 424.4,
-          "price_eur": 216.99,
-          "unit_value": 4.72
+          "price_bgn": 34.99,
+          "price_eur": 17.89,
+          "unit_value": 0.29
         }
-      ]
+      ],
+      "promo_label": "-42% с код MYPBG"
     },
     {
-      "id": "myprotein-impact-whey-protein-milkshake",
+      "id": "myprotein-мултивитамини-дъвчащи-таблетки",
       "store": "MyProtein",
-      "name": "Impact Whey Protein Milkshake",
-      "brand": "Myprotein",
-      "category": "protein",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/impact-whey-protein-milkshake/17755445/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/17755459-1215335464288657.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 442.0,
-      "price_eur": 225.99,
+      "name": "Мултивитамини дъвчащи таблетки",
+      "brand": "Myvitamins",
+      "category": "multivitamin",
+      "url": "https://www.myprotein.bg/p/vitamins/multivitamin-gummies-for-adults/12088106/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/12088107-1775306762697738.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 22.98,
+      "price_eur": 11.75,
       "currency_source": "EUR",
       "availability_status": "in_stock",
-      "weight_grams": 4500.0,
-      "servings": 150,
-      "count": null,
+      "weight_grams": 900.0,
+      "servings": 3,
+      "count": 100,
       "active": {
-        "estimated_total_protein_g": 3825.0,
-        "estimated_protein_ratio_pct": 85
+        "multivitamin_serving": 1
       },
-      "label_text": "nbsp; | За 100g | За порция | Енергийна стойност | 1554kJ/367kcal | 451kJ/168kcal | Мазнини | 4,1g | 1,2g | от които наситени мазнини | 2,7g | 0,8g | Въглехидрати | 14g | 3,9g | от които захари | 8,9g | 2,6g | Протеини | 68g | 20g | Сол | 1,5g | 0,43g / Impact Whey Protein Shake - Солен карамел Размер на порцията: 29g nbsp; За 100g За порция Енергийна стойност 1554kJ/367kcal 451kJ/168kcal Мазнини 4,1g 1,2g от които наситени мазнини 2,7g 0,8g Въглехидрати 14g 3,9g от които захари 8,9g 2,6g Протеини 68g 20g Сол 1,5g 0,43g Хранителната стойност се изчислява въз основа на вкус на солен карамел. Ако изберете друг вкус, хранителната стойност може да се различава.",
+      "label_text": "За дневна порция | 1 дъвчаща таблетка | Витамин C | 40mg (50%*) | Витамин Е | 6,7mg a-TE (56%*) | Пантотенова киселина | 1,5mg (25%*) | Витамин B6 | 0,5mg (36%*) | Витамин А | 300μg RE (38%*) | Фолиева киселина | 120μg (60%*) | Биотин | 30μg (60%*) | Йод | 20μg (13%*) | Инозитол | 10μg | Витамин D | 5μg (100%*) | Витамин B12 | 2μg (80%*) / Размер на 1 порция - 1 дъвчаща таблетка Брой порции в опаковка - 30 (30 дъвчащи таблетки), 60 (60 дъвчащи таблетки) Активни съставки За дневна порция 1 дъвчаща таблетка Витамин C 40mg (50%*) Витамин Е 6,7mg a-TE (56%*) Пантотенова киселина 1,5mg (25%*) Витамин B6 0,5mg (36%*) Витамин А 300μg RE (38%*) Фолиева киселина 120μg (60%*) Биотин 30μg (60%*) Йод 20μg (13%*) Инозитол 10μg Витамин D 5μg (100%*) Витамин B12 2μg (80%*) * NRV – хранителна референтна стойност / Активни съставки За дневна порция 1 дъвчаща таблетка Витамин C 40mg (50%*) Витамин Е 6,7mg a-TE (56%*) Пантотенова киселина 1,5mg (25%*) Витамин B6 0,5mg (36%*) Витамин А 300μg RE (38%*) Фолиева киселина 120μg (60%*) Биотин 30μg (60%*) Йод 20μg (13%*) Инозитол 10μg Витамин D 5μg (100%*) Витамин B12 2μg (80%*)",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_25g_protein": 2.89
+        "bgn_per_multivitamin_serving": 7.66
       },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-07-02T12:48:24.323344Z",
+      "unit_label": "лв / доза мултивитамин",
+      "confidence": "medium",
+      "scraped_at": "2026-07-02T13:18:17.812867Z",
       "last_full_scrape": "2026-07-02",
       "price_history": [
         {
           "date": "2026-07-02",
-          "price_bgn": 442.0,
-          "price_eur": 225.99,
-          "unit_value": 2.89
+          "price_bgn": 22.98,
+          "price_eur": 11.75,
+          "unit_value": 7.66
         }
-      ]
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-дневни-мултивитамини",
+      "store": "MyProtein",
+      "name": "Дневни мултивитамини",
+      "brand": "Myvitamins",
+      "category": "multivitamin",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/daily-multivitamin-tablets/12456644/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/12456644-1624951340194773.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 21.98,
+      "price_eur": 11.24,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 900.0,
+      "servings": null,
+      "count": 180,
+      "active": {
+        "multivitamin_serving": 1
+      },
+      "label_text": "Per Serving | *RI | Витамин A | 800 μg RE | 100% | Витамин D | 5 μg | 100% | Витамин E | 10 mg a-TE | 83% | Витамин C | 60 mg | 75% | Thiamin | 1.8 mg | 164% | Riboflavin | 1.6 mg | 114% | Niacin | 18 mg NE | 113% / Serving Size - 1 Tablet Servings Per Container - 60 (60 Tablets), 180 (180 Tablets) Nutritional Information Per Serving *RI Витамин A 800 μg RE 100% Витамин D 5 μg 100% Витамин E 10 mg a-TE 83% Витамин C 60 mg 75% Thiamin 1.8 mg 164% Riboflavin 1.6 mg 114% Niacin 18 mg NE 113% * Reference intake of an average adult (8400 kJ/2000 kcal) / Nutritional Information Per Serving *RI Витамин A 800 μg RE 100% Витамин D 5 μg 100% Витамин E 10 mg a-TE 83% Витамин C 60 mg 75% Thiamin 1.8 mg 164% Riboflavin 1.6 mg 114% Niacin 18 mg NE 113%",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_multivitamin_serving": 0.12
+      },
+      "unit_label": "лв / доза мултивитамин",
+      "confidence": "medium",
+      "scraped_at": "2026-07-02T13:18:18.663456Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 21.98,
+          "price_eur": 11.24,
+          "unit_value": 0.12
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-alpha-men-мултивитамини-за-мъже",
+      "store": "MyProtein",
+      "name": "Alpha Men мултивитамини за мъже",
+      "brand": "Myprotein",
+      "category": "multivitamin",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/alpha-men-multivitamin-tablets/12456739/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/13155750-1105277984655959.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 83.98,
+      "price_eur": 42.94,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 100.0,
+      "servings": null,
+      "count": 240,
+      "active": {
+        "multivitamin_serving": 1
+      },
+      "label_text": "За дневна порция | Калций | 360mg (45%*) | Фосфор | 194mg (28%*) | Инозитол | 150mg | Витамин C | 80mg (100%*) | Холин | 75mg | Магнезий | 56,0mg (15%*) | Алфа-липоева киселина | 26mg | Ниацин | 25mg NE (156%*) | Водорасли на прах | 20mg | Пантотенова киселина | 18mg (300%*) | Цинк | 15mg (150%*) | Витамин Е | 12mg a-TE (100%*) | Екстракт от листа на коприва | 6,3mg | Екстракт от семена на грозде | 6,0mg | Витамин B2 | 4,2mg (300%*) | Витамин B6 | 4,2mg (300%*) | Витамин B1 | 3,3mg (300%*) | Лутеин | 3,0mg | Манган | 1,0mg (50%*) | Липаза | 0,8mg | Мед | 0,25mg (25%*) | Витамин А | 500μg RE (63%*) | Фолиева киселина | 400μg (200%*) | Биотин | 150μg (300%*) | Селен | 80μg (145%*) | Хром | 60μg (150%*) | Молибден | 25μg (50%*) | Витамин K1 | 25μg (33%*) | Витамин B12 | 7,5μg (300%*) | Витамин D3 | 5,0μg (100%*) | Папаин | 2400 USP** | Амилаза | 675 USP** | Липаза | 115 USP** | Бромелаин | 15 GDU*** / Размер на порцията - 2 таблетки Порции в опаковка - 60 (120 таблетки), 120 (240 таблетки) Активни съставки За дневна порция Калций 360mg (45%*) Фосфор 194mg (28%*) Инозитол 150mg Витамин C 80mg (100%*) Холин 75mg Магнезий 56,0mg (15%*) Алфа-липоева киселина 26mg Ниацин 25mg NE (156%*) Водорасли на прах 20mg Пантотенова киселина 18mg (300%*) Цинк 15mg (150%*) Витамин Е 12mg a-TE (100%*) Екстракт от листа на коприва 6,3mg Екстракт от семена на грозде 6,0mg Витамин B2 4,2mg (300%*) Витамин B6 4,2mg (300%*) Витамин B1 3,3mg (300%*) Лутеин 3,0mg Манган 1,0mg (50%*) Липаза 0,8mg Мед 0,25mg (25%*) Витамин А 500μg RE (63%*) Фолиева киселина 400μg (200%*) Биотин 150μg (300%*) Селен 80μg (145%*) Хром 60μg (150%*) Молибден 25μg (50%*) Витамин K1 25μg (33%*) Витамин B12 7,5μg (300%*) Витамин D3 5,0μg (100%*) Папаин 2400 USP** Амилаза 675 USP** Липаза 115 USP** Бромелаин 15 GDU*** * NRV =",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_multivitamin_serving": 0.35
+      },
+      "unit_label": "лв / доза мултивитамин",
+      "confidence": "medium",
+      "scraped_at": "2026-07-02T13:18:19.282785Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 83.98,
+          "price_eur": 42.94,
+          "unit_value": 0.35
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-мултивитамини-за-деца-дъвчащи-таблетки",
+      "store": "MyProtein",
+      "name": "Мултивитамини за деца дъвчащи таблетки",
+      "brand": "Myvitamins",
+      "category": "multivitamin",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/kids-multivitamin-gummies/13125586/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/13125587-1245287066630743.png&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 21.98,
+      "price_eur": 11.24,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 900.0,
+      "servings": 1,
+      "count": 35,
+      "active": {
+        "multivitamin_serving": 1
+      },
+      "label_text": "За дневна порция | *NRV | Витамин C | 28mg | 35*% | Ниацин | 8,2mg | 51%* | Пантотенова киселина | 6,2mg | 103%* | Витамин Е | 2,6mg | 22%* | Витамин B6 | 1,4mg | 100%* | Витамин А | 233μg | 29%* | Витамин D3 | 10μg | 200%* | Витамин B12 | 1,5μg | 60%* / \" Размер на 1 порция - 1 дъвчаща таблетка Брой порции за кутия - 30 (30 дъвчащи таблетки) Активни съставки За дневна порция *NRV Витамин C 28mg 35*% Ниацин 8,2mg 51%* Пантотенова киселина 6,2mg 103%* Витамин Е 2,6mg 22%* Витамин B6 1,4mg 100%* Витамин А 233μg 29%* Витамин D3 10μg 200%* Витамин B12 1,5μg 60%* * Препоръчителен прием на средностатистически възрастен (8400kJ/2000kcal) \"",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_multivitamin_serving": 21.98
+      },
+      "unit_label": "лв / доза мултивитамин",
+      "confidence": "medium",
+      "scraped_at": "2026-07-02T13:18:19.905969Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 21.98,
+          "price_eur": 11.24,
+          "unit_value": 21.98
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-myvitamins-myvitamins-a-z-multivitamin-cee",
+      "store": "MyProtein",
+      "name": "Myvitamins Myvitamins A-Z Multivitamin (CEE)",
+      "brand": "Myvitamins",
+      "category": "multivitamin",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/a-z-multivitamin-tablets/12457689/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/11521278-1274854679742985.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 28.99,
+      "price_eur": 14.82,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 900.0,
+      "servings": null,
+      "count": 90,
+      "active": {
+        "multivitamin_serving": 1
+      },
+      "label_text": "Active Ingredients | За порция | За порция | %RI* | Калций | 200mg | 25%* | Магнезий | 100mg | 27%* | Витамин C | 80mg | 100%* | Ниацин | 16mg NE | 100%* | Желязо | 14mg | 100%* | Витамин Е | 12mg a-TE | 100%* | Цинк | 10mg | 100%* | Пантотенова киселина | 6,0mg | 100%* | Манган | 2,0mg | 100%* | Витамин B2 | 1,4mg | 100%* | Витамин B6 | 1,4mg | 100%* | Витамин B1 | 1,1mg | 100%* | Мед | 1,0mg | 100%* | Витамин А | 800μg RE | 100%* | Бор | 0,50mg | Фолиева киселина | 200μg | 100%* | Йод | 150μg | 100%* | Витамин K1 | 75μg | 100%* | Селен | 55μg | 100%* | Биотин | 50μg | 100%* | Молибден | 50μg | 100%* | Хром | 40μg | 100%* | Витамин D3 | 10μg | 200%* | Витамин B12 | 2,5μg | 100%* | КРАЙ | *RI = Reference Intake / Active Ingredients За порция За порция %RI* Калций 200mg 25%* Магнезий 100mg 27%* Витамин C 80mg 100%* Ниацин 16mg NE 100%* Желязо 14mg 100%* Витамин Е 12mg a-TE 100%* Цинк 10mg 100%* Пантотенова киселина 6,0mg 100%* Манган 2,0mg 100%* Витамин B2 1,4mg 100%* Витамин B6 1,4mg 100%* Витамин B1 1,1mg 100%* Мед 1,0mg 100%* Витамин А 800μg RE 100%* Бор 0,50mg Фолиева киселина 200μg 100%* Йод 150μg 100%* Витамин K1 75μg 100%* Селен 55μg 100%* Биотин 50μg 100%* Молибден 50μg 100%* Хром 40μg 100%* Витамин D3 10μg 200%* Витамин B12 2,5μg 100%* КРАЙ *RI = Reference Intake",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_multivitamin_serving": 0.32
+      },
+      "unit_label": "лв / доза мултивитамин",
+      "confidence": "medium",
+      "scraped_at": "2026-07-02T13:18:20.701252Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 28.99,
+          "price_eur": 14.82,
+          "unit_value": 0.32
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-мултивитамини-дъвчащи-таблетки-без-захар",
+      "store": "MyProtein",
+      "name": "Мултивитамини, дъвчащи таблетки без захар",
+      "brand": "Myvitamins",
+      "category": "multivitamin",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/sugar-free-multivitamin-gummies-for-adults/15600214/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/15600214-1345234679789333.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 40.0,
+      "price_eur": 20.45,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 900.0,
+      "servings": 30,
+      "count": null,
+      "active": {
+        "multivitamin_serving": 1
+      },
+      "label_text": "Активни съставки | В дневна доза | 1 дъвчаща таблетка | Витамин C | 40mg (50%*) | Ниацин | 8,0mg NE (50%*) | Витамин Е | 6,7mg a-TE (56%*) | Цинк | 5,0mg (50%*) | Витамин B6 | 0,50mg (36%*) | Витамин А | 300μg RE (38%*) | Биотин | 30μg (60%*) | Витамин D3 | 5,0μg (100%*) / ЯГОДА Размер на порцията: 1 дъвчаща таблетка Порции в кутия: 60 Активни съставки В дневна доза 1 дъвчаща таблетка Витамин C 40mg (50%*) Ниацин 8,0mg NE (50%*) Витамин Е 6,7mg a-TE (56%*) Цинк 5,0mg (50%*) Витамин B6 0,50mg (36%*) Витамин А 300μg RE (38%*) Биотин 30μg (60%*) Витамин D3 5,0μg (100%*) * Хранителна референтна стойност",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_multivitamin_serving": 1.33
+      },
+      "unit_label": "лв / доза мултивитамин",
+      "confidence": "medium",
+      "scraped_at": "2026-07-02T13:18:23.221319Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 40.0,
+          "price_eur": 20.45,
+          "unit_value": 1.33
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-мултивитамини-желирани-таблетки",
+      "store": "MyProtein",
+      "name": "Мултивитамини желирани таблетки",
+      "brand": "Myvitamins",
+      "category": "multivitamin",
+      "url": "https://www.myprotein.bg/p/vitamins/multivitamin-jellybeans-for-adults/14540073/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/14540074-4575241903005583.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 38.12,
+      "price_eur": 19.49,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 900.0,
+      "servings": 30,
+      "count": null,
+      "active": {
+        "multivitamin_serving": 1
+      },
+      "label_text": "АКТИВНИ СЪСТАВКИ | За дневна порция | 3 желирани бонбона | Витамин C | 40mg (50%*) | Ниацин | 8,0mg NE (50%*) | Витамин Е | 6,0mg a-TE (50%*) | Цинк | 1,5mg (15%*) | Витамин B6 | 0,7mg (50%*) | Витамин А | 200μg RE (25%*) | Фолиева киселина | 100μg (50%*) | Витамин K1 | 37,5μg (50%*) | Биотин | 25μg (50%*) | Йод | 22,5μg (15%*) | Витамин D3 | 2,5μg (50%*) | Витамин B12 | 1,25μg (50%*) / АКТИВНИ СЪСТАВКИ За дневна порция 3 желирани бонбона Витамин C 40mg (50%*) Ниацин 8,0mg NE (50%*) Витамин Е 6,0mg a-TE (50%*) Цинк 1,5mg (15%*) Витамин B6 0,7mg (50%*) Витамин А 200μg RE (25%*) Фолиева киселина 100μg (50%*) Витамин K1 37,5μg (50%*) Биотин 25μg (50%*) Йод 22,5μg (15%*) Витамин D3 2,5μg (50%*) Витамин B12 1,25μg (50%*)",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_multivitamin_serving": 1.27
+      },
+      "unit_label": "лв / доза мултивитамин",
+      "confidence": "medium",
+      "scraped_at": "2026-07-02T13:18:23.848672Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 38.12,
+          "price_eur": 19.49,
+          "unit_value": 1.27
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
     },
     {
       "id": "myprotein-the-electro---hyrox",
@@ -189681,7 +187751,7 @@ const SUPPLEMENTS_DATA = {
       },
       "unit_label": "лв / доза електролити",
       "confidence": "high",
-      "scraped_at": "2026-07-02T12:48:25.240756Z",
+      "scraped_at": "2026-07-02T13:18:25.121494Z",
       "last_full_scrape": "2026-07-02",
       "price_history": [
         {
@@ -189689,45 +187759,6 @@ const SUPPLEMENTS_DATA = {
           "price_bgn": 72.35,
           "price_eur": 36.99,
           "unit_value": 0.35
-        }
-      ]
-    },
-    {
-      "id": "myprotein-the-electro-разтворими-таблетки",
-      "store": "MyProtein",
-      "name": "THE Electro Разтворими таблетки",
-      "brand": "MyPRO",
-      "category": "electrolytes",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/the-electro-electrolyte-tablets/15373751/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/15373752-7315316304119339.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 7.8,
-      "price_eur": 3.99,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 900.0,
-      "servings": null,
-      "count": 12,
-      "active": {
-        "sodium_mg": 500,
-        "potassium_mg": 500,
-        "magnesium_mg": 25,
-        "electrolyte_serving": 1
-      },
-      "label_text": "Активни съставки | В дневна доза | 7,3g | Енергийна стойност | 62kJ/15kcal | Мазнини | 0g | от които наситени | 0g | Въглехидрати | 0,8g | от които захари | <0,1g | Протеини | 0g | Сол | 1,3g | АКТИВНИ СЪСТАВКИ | Натрий | 500mg | Калий | 100mg (5%*) | Витамин C | 80mg (100%*) | Магнезий | 25,0mg (6,7%*) | Витамин B12 | 2,5μg (100%) / ГОРСКИ ПЛОДОВЕ Размер на порцията: 7,3g Порции в опаковка: 12 Активни съставки В дневна доза 7,3g Енергийна стойност 62kJ/15kcal Мазнини 0g от които наситени 0g Въглехидрати 0,8g от които захари <0,1g Протеини 0g Сол 1,3g АКТИВНИ СЪСТАВКИ Натрий 500mg Калий 100mg (5%*) Витамин C 80mg (100%*) Магнезий 25,0mg (6,7%*) Витамин B12 2,5μg (100%) * Хранителна референтна стойност Хранителната стойност се изчислява въз основа на аромат на ГОРСКИ ПЛОДОВЕ. Ако изберете друг аромат, хранителната стойност може да се различава.",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_electrolyte_serving": 0.65
-      },
-      "unit_label": "лв / доза електролити",
-      "confidence": "high",
-      "scraped_at": "2026-07-02T12:48:31.293131Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 7.8,
-          "price_eur": 3.99,
-          "unit_value": 0.65
         }
       ]
     },
@@ -189759,7 +187790,7 @@ const SUPPLEMENTS_DATA = {
       },
       "unit_label": "лв / доза електролити",
       "confidence": "high",
-      "scraped_at": "2026-07-02T12:48:35.081358Z",
+      "scraped_at": "2026-07-02T13:18:29.012885Z",
       "last_full_scrape": "2026-07-02",
       "price_history": [
         {
@@ -189767,6 +187798,46 @@ const SUPPLEMENTS_DATA = {
           "price_bgn": 62.57,
           "price_eur": 31.99,
           "unit_value": 1.56
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-the-electro-разтворими-таблетки",
+      "store": "MyProtein",
+      "name": "THE Electro Разтворими таблетки",
+      "brand": "MyPRO",
+      "category": "electrolytes",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/the-electro-electrolyte-tablets/15373751/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/15373752-7315316304119339.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 7.8,
+      "price_eur": 3.99,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 900.0,
+      "servings": null,
+      "count": 12,
+      "active": {
+        "sodium_mg": 500,
+        "potassium_mg": 500,
+        "magnesium_mg": 25,
+        "electrolyte_serving": 1
+      },
+      "label_text": "Активни съставки | В дневна доза | 7,3g | Енергийна стойност | 62kJ/15kcal | Мазнини | 0g | от които наситени | 0g | Въглехидрати | 0,8g | от които захари | <0,1g | Протеини | 0g | Сол | 1,3g | АКТИВНИ СЪСТАВКИ | Натрий | 500mg | Калий | 100mg (5%*) | Витамин C | 80mg (100%*) | Магнезий | 25,0mg (6,7%*) | Витамин B12 | 2,5μg (100%) / ГОРСКИ ПЛОДОВЕ Размер на порцията: 7,3g Порции в опаковка: 12 Активни съставки В дневна доза 7,3g Енергийна стойност 62kJ/15kcal Мазнини 0g от които наситени 0g Въглехидрати 0,8g от които захари <0,1g Протеини 0g Сол 1,3g АКТИВНИ СЪСТАВКИ Натрий 500mg Калий 100mg (5%*) Витамин C 80mg (100%*) Магнезий 25,0mg (6,7%*) Витамин B12 2,5μg (100%) * Хранителна референтна стойност Хранителната стойност се изчислява въз основа на аромат на ГОРСКИ ПЛОДОВЕ. Ако изберете друг аромат, хранителната стойност може да се различава.",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_electrolyte_serving": 0.65
+      },
+      "unit_label": "лв / доза електролити",
+      "confidence": "high",
+      "scraped_at": "2026-07-02T13:18:29.632877Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 7.8,
+          "price_eur": 3.99,
+          "unit_value": 0.65
         }
       ]
     },
@@ -189797,7 +187868,7 @@ const SUPPLEMENTS_DATA = {
       },
       "unit_label": "лв / доза електролити",
       "confidence": "high",
-      "scraped_at": "2026-07-02T12:48:36.500880Z",
+      "scraped_at": "2026-07-02T13:18:30.865706Z",
       "last_full_scrape": "2026-07-02",
       "price_history": [
         {
@@ -189806,7 +187877,8 @@ const SUPPLEMENTS_DATA = {
           "price_eur": 20.45,
           "unit_value": 2.67
         }
-      ]
+      ],
+      "promo_label": "-42% с код MYPBG"
     },
     {
       "id": "myprotein-the-electro-опаковка-със-стикове",
@@ -189836,7 +187908,7 @@ const SUPPLEMENTS_DATA = {
       },
       "unit_label": "лв / доза електролити",
       "confidence": "high",
-      "scraped_at": "2026-07-02T12:48:40.993092Z",
+      "scraped_at": "2026-07-02T13:18:32.201731Z",
       "last_full_scrape": "2026-07-02",
       "price_history": [
         {
@@ -189875,7 +187947,7 @@ const SUPPLEMENTS_DATA = {
       },
       "unit_label": "лв / доза електролити",
       "confidence": "high",
-      "scraped_at": "2026-07-02T12:48:42.453181Z",
+      "scraped_at": "2026-07-02T13:18:32.812955Z",
       "last_full_scrape": "2026-07-02",
       "price_history": [
         {
@@ -189884,7 +187956,8 @@ const SUPPLEMENTS_DATA = {
           "price_eur": 30.99,
           "unit_value": 2.02
         }
-      ]
+      ],
+      "promo_label": "-42% с код MYPBG"
     },
     {
       "id": "myprotein-the-electro",
@@ -189914,7 +187987,7 @@ const SUPPLEMENTS_DATA = {
       },
       "unit_label": "лв / доза електролити",
       "confidence": "high",
-      "scraped_at": "2026-07-02T12:48:45.621286Z",
+      "scraped_at": "2026-07-02T13:18:35.132818Z",
       "last_full_scrape": "2026-07-02",
       "price_history": [
         {
@@ -189926,211 +187999,2096 @@ const SUPPLEMENTS_DATA = {
       ]
     },
     {
-      "id": "myprotein-myvitamins-iron-tablets",
+      "id": "myprotein-колагенов-шот-за-красота",
       "store": "MyProtein",
-      "name": "Myvitamins Iron Tablets",
+      "name": "Колагенов шот за красота",
       "brand": "Myvitamins",
-      "category": "iron",
-      "url": "https://www.myprotein.bg/p/vitamins/myvitamins-iron-tablets/11338700/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/11338700-9725054554296177.png&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 22.47,
-      "price_eur": 11.49,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 900.0,
-      "servings": null,
-      "count": 90,
-      "active": {
-        "iron_mg": 14
-      },
-      "label_text": "АКТИВНИ СЪСТАВКИ | За дневна порция | 1 таблетка | Мед | 1,0mg (100%*) | Витамин B2 (μg) | 0,70mg (50%*) | Витамин А | 400μg (50%*) | Витамин C | 80mg (100%*) | Желязо | 14mg (100%*) / АКТИВНИ СЪСТАВКИ За дневна порция 1 таблетка Мед 1,0mg (100%*) Витамин B2 (μg) 0,70mg (50%*) Витамин А 400μg (50%*) Витамин C 80mg (100%*) Желязо 14mg (100%*) * Хранителна референтна стойност",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_14mg_iron": 0.25
-      },
-      "unit_label": "лв / 14 mg желязо",
-      "confidence": "high",
-      "scraped_at": "2026-07-02T12:48:56.354038Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 22.47,
-          "price_eur": 11.49,
-          "unit_value": 0.25
-        }
-      ]
-    },
-    {
-      "id": "myprotein-желязо-фолиева-киселина",
-      "store": "MyProtein",
-      "name": "Желязо § Фолиева киселина",
-      "brand": "Myvitamins",
-      "category": "iron",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/iron-folic-acid-tablets/12457459/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/12457459-2104883728043028.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 5.85,
-      "price_eur": 2.99,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 100.0,
-      "servings": null,
-      "count": 30,
-      "active": {
-        "iron_mg": 14
-      },
-      "label_text": "В една доза | *RI | витамин А | 400 μg | 50% | витамин Ц | 80 mg | 100% | Рибофлавин | 0.7 mg | 50% | Фолиева киселина | 800 μg | 400% | Желязо | 14 mg | 100% | Мед | 1 mg | 100% / Доза - 1 tablet Дози в опаковка - 30 (30 Tablets), 90 (90 Tablets) Хранителни стойности В една доза *RI витамин А 400 μg 50% витамин Ц 80 mg 100% Рибофлавин 0.7 mg 50% Фолиева киселина 800 μg 400% Желязо 14 mg 100% Мед 1 mg 100% * Reference intake of an average adult (8400 kJ/2000 kcal) / Хранителни стойности В една доза *RI витамин А 400 μg 50% витамин Ц 80 mg 100% Рибофлавин 0.7 mg 50% Фолиева киселина 800 μg 400% Желязо 14 mg 100% Мед 1 mg 100%",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_14mg_iron": 0.19
-      },
-      "unit_label": "лв / 14 mg желязо",
-      "confidence": "high",
-      "scraped_at": "2026-07-02T12:48:57.136940Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 5.85,
-          "price_eur": 2.99,
-          "unit_value": 0.19
-        }
-      ]
-    },
-    {
-      "id": "myprotein-дъвчащи-таблетки-с-желязо",
-      "store": "MyProtein",
-      "name": "Дъвчащи таблетки с желязо",
-      "brand": "Myvitamins",
-      "category": "iron",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/iron-gummies/15599954/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/15599955-1135240327248911.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 29.98,
-      "price_eur": 15.33,
+      "category": "collagen",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/beauty-collagen-shot/11410202/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/11410202-1435013014934021.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 79.0,
+      "price_eur": 40.39,
       "currency_source": "EUR",
       "availability_status": "in_stock",
       "weight_grams": 900.0,
       "servings": 30,
       "count": null,
       "active": {
-        "iron_mg": 7
+        "collagen_g": 5.0
       },
-      "label_text": "Активни съставки | В дневна доза | 2 дъвчащи таблетки | Желязо | 7,0mg (50%*) / СМЕСЕНИ ГОРСКИ ПЛОДОВЕ Размер на порцията: 2 дъвчащи таблетки Порции в опаковка: 30 Активни съставки В дневна доза 2 дъвчащи таблетки Желязо 7,0mg (50%*) * Хранителна референтна стойност",
+      "label_text": "В доза | Енергия | 87 kJ/20 kcal | Мазнини | 0 g | Въглехидрати | 0 g | Белтъчини | 5 g | Сол | 0.30 g | В доза | Vitamin A | 160 μg (20%RI*) | Vitamin D | 2.5 μg (50%RI*) | Vitamin E | 2.4 mg (20%RI*) | Тиамин | 0.5 mg (50%RI*) | Рибофлавин | 0.55mg (39%RI*) | Ниацин | 8.0 mg (50%RI*) | Vitamin B6 | 0.7mg (50%RI*) | Фолиева киселина | 100 μg (50%RI*) | Vitamin B12 | 1.2 μg (50%RI*) | Биотин | ​ | 25 μg (50%RI*) | Пантотенова киселина | 3.0mg (50%RI*) | Магнезий | 56mg (15%RI*) | Цинк | 1.5mg (15%RI*) | Селен | 8.2 μg (15%RI*) / В доза | Морски Колаген | 5000mg | Хиалуронова киселина | 25mg / Доза - 1 шо т(60ml) Дози в опаковка - 12 шота Хранителни стойности В доза Енергия 87 kJ/20 kcal Мазнини 0 g Въглехидрати 0 g Белтъчини 5 g Сол 0.30 g В доза Vitamin A 160 μg (20%RI*) Vitamin D 2.5 μg (50%RI*) Vitamin E 2.4 mg (20%RI*) Тиамин 0.5 mg (50%RI*) Рибофлавин 0.55mg (39%RI*) Ниацин 8.0 mg (50%RI*) Vitamin B6 0.7mg (50%RI*) Фолиева киселина 100 μg (50%RI*) Vitamin B12 1.2 μg (50%RI*) Биотин ​ 25 μg (50%RI*) Пантотенова киселина 3.0mg (50%RI*) Магнезий 56mg (15%RI*) Цинк 1.5mg (15%RI*) Селен 8.2 μg (15%RI*) Активни вещества В доза Морски Колаген 5000mg Хиалуронова киселина 25mg * Ориентировъчен прием за възрастен (8400 kJ/2000 kcal) Хранителни стойности са базирани на вкус Mixed Berry, като може да варират с до 15% спрямо други вкусове. / Хранителни стойности В доза Енергия 87 kJ/20 kcal Мазнини 0 g Въглехидрати 0 g Белтъчини 5 g Сол 0.30 g В доза Vitamin A 160 μg (20%RI*) Vitamin D 2.5 μg (50%RI*) Vitamin E 2.4 mg (20%RI*) Тиамин 0.5 mg (50%RI*) Рибофлавин 0.55mg (39%RI*) Ниацин 8.0 mg (50%RI*) Vitamin B6 0.7mg (50%RI*) Фолиева киселина 100 μg (50%RI*) Vitamin B12 1.2 μg (50%RI*) Биотин ​ 25 μg (50%RI*) Пантотенова киселина 3.0mg (50%RI*) Магнезий 56mg (15%RI*) Цинк 1.5mg (",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_14mg_iron": 2.0
+        "bgn_per_10g_collagen": 5.27
       },
-      "unit_label": "лв / 14 mg желязо",
+      "unit_label": "лв / 10 g колаген",
       "confidence": "high",
-      "scraped_at": "2026-07-02T12:48:58.957748Z",
+      "scraped_at": "2026-07-02T13:18:39.361316Z",
       "last_full_scrape": "2026-07-02",
       "price_history": [
         {
           "date": "2026-07-02",
-          "price_bgn": 29.98,
-          "price_eur": 15.33,
-          "unit_value": 2.0
+          "price_bgn": 79.0,
+          "price_eur": 40.39,
+          "unit_value": 5.27
         }
-      ]
+      ],
+      "promo_label": "-42% с код MYPBG"
     },
     {
-      "id": "myprotein-мултивитамини-дъвчащи-таблетки",
+      "id": "myprotein-морски-колаген",
       "store": "MyProtein",
-      "name": "Мултивитамини дъвчащи таблетки",
+      "name": "Морски колаген",
       "brand": "Myvitamins",
-      "category": "multivitamin",
-      "url": "https://www.myprotein.bg/p/vitamins/multivitamin-gummies-for-adults/12088106/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/12088107-1775306762697738.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 22.98,
-      "price_eur": 11.75,
+      "category": "collagen",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/marine-collagen/12376959/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/16633270-6195274316018071.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 111.46,
+      "price_eur": 56.99,
       "currency_source": "EUR",
       "availability_status": "in_stock",
-      "weight_grams": 900.0,
-      "servings": 3,
-      "count": 100,
+      "weight_grams": 360.0,
+      "servings": 30,
+      "count": null,
       "active": {
-        "multivitamin_serving": 1
+        "collagen_total_g": 360.0
       },
-      "label_text": "За дневна порция | 1 дъвчаща таблетка | Витамин C | 40mg (50%*) | Витамин Е | 6,7mg a-TE (56%*) | Пантотенова киселина | 1,5mg (25%*) | Витамин B6 | 0,5mg (36%*) | Витамин А | 300μg RE (38%*) | Фолиева киселина | 120μg (60%*) | Биотин | 30μg (60%*) | Йод | 20μg (13%*) | Инозитол | 10μg | Витамин D | 5μg (100%*) | Витамин B12 | 2μg (80%*) / Размер на 1 порция - 1 дъвчаща таблетка Брой порции в опаковка - 30 (30 дъвчащи таблетки), 60 (60 дъвчащи таблетки) Активни съставки За дневна порция 1 дъвчаща таблетка Витамин C 40mg (50%*) Витамин Е 6,7mg a-TE (56%*) Пантотенова киселина 1,5mg (25%*) Витамин B6 0,5mg (36%*) Витамин А 300μg RE (38%*) Фолиева киселина 120μg (60%*) Биотин 30μg (60%*) Йод 20μg (13%*) Инозитол 10μg Витамин D 5μg (100%*) Витамин B12 2μg (80%*) * NRV – хранителна референтна стойност / Активни съставки За дневна порция 1 дъвчаща таблетка Витамин C 40mg (50%*) Витамин Е 6,7mg a-TE (56%*) Пантотенова киселина 1,5mg (25%*) Витамин B6 0,5mg (36%*) Витамин А 300μg RE (38%*) Фолиева киселина 120μg (60%*) Биотин 30μg (60%*) Йод 20μg (13%*) Инозитол 10μg Витамин D 5μg (100%*) Витамин B12 2μg (80%*)",
+      "label_text": "За 100g | За порция | Енергийна стойност | 1445kJ/340kcal | 173kJ/41kcal | Мазнини | <0,1g | <0,1g | от които наситени | <0,1g | <0,1g | Въглехидрати | 9,8g | 1,2g | от които захари | <0,5g | <0,1g | Протеини | 75g | 9,0g | Сол | 0,34g | 0,04g | АКТИВНИ СЪСТАВКИ | Колаген | 83g | 10g / Морски колаген — розов грейпфрут — 360g Размер на порцията: 12g Порции в опаковка: 30 За 100g За порция Енергийна стойност 1445kJ/340kcal 173kJ/41kcal Мазнини <0,1g <0,1g от които наситени <0,1g <0,1g Въглехидрати 9,8g 1,2g от които захари <0,5g <0,1g Протеини 75g 9,0g Сол 0,34g 0,04g АКТИВНИ СЪСТАВКИ Колаген 83g 10g Хранителната стойност се изчислява въз основа на аромат на розов грейпфрут. Ако изберете друг аромат, хранителната стойност може да се различава.",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_multivitamin_serving": 7.66
+        "bgn_per_10g_collagen": 3.1
       },
-      "unit_label": "лв / доза мултивитамин",
+      "unit_label": "лв / 10 g колаген",
       "confidence": "medium",
-      "scraped_at": "2026-07-02T12:49:07.973882Z",
+      "scraped_at": "2026-07-02T13:18:40.320638Z",
       "last_full_scrape": "2026-07-02",
       "price_history": [
         {
           "date": "2026-07-02",
-          "price_bgn": 22.98,
-          "price_eur": 11.75,
-          "unit_value": 7.66
+          "price_bgn": 111.46,
+          "price_eur": 56.99,
+          "unit_value": 3.1
         }
-      ]
+      ],
+      "promo_label": "-42% с код MYPBG"
     },
     {
-      "id": "myprotein-мултивитамин",
+      "id": "myprotein-collagen-beauty-на-прах",
       "store": "MyProtein",
-      "name": "Мултивитамин",
+      "name": "Collagen Beauty на прах",
+      "brand": "Myvitamins",
+      "category": "collagen",
+      "url": "https://www.myprotein.bg/p/vitamins/collagen-beauty-powder/12042337/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/12104229-2085093189162076.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 58.66,
+      "price_eur": 29.99,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 165.0,
+      "servings": 22,
+      "count": null,
+      "active": {
+        "collagen_total_g": 165.0
+      },
+      "label_text": "На порция | Енергийна стойност | 167kJ/39kcal | Мазнини | 0g | от които наситени | 0g | Въглехидрати | 0g | от които захари | 0g | Протеини | 9,6g | Сол | 0,07g / На порция | Хиалуронова киселина | 120mg | Витамин C | 40mg (50%*) | Ниацин | 2,4mg (15%*) | Пантотенова киселина | 0,90mg (15%*) | Витамин B2 | 0,21mg (15%*) | Витамин B6 | 0,21mg (15%*) | Витамин B1 | 0,17mg (15%*) | Фолиева киселина | 30,0μg (15%*) | Биотин | 7,5μg (15%*) | Витамин B12 | 0,38μg (15%*) / На порция | Енергийна стойност | 172kJ/41kcal | Мазнини | 0g | от които наситени | 0g | Въглехидрати | 0,9g | от които захари | 0g | Протеини | 9,1g | Сол | 0,07g / На порция | Енергийна стойност | 159kJ/37kcal | Мазнини | 0g | от които наситени | 0g | Въглехидрати | 0g | от които захари | 0g | Протеини | 9,1g | Сол | 0,07g / На порция | Енергийна стойност | 183kJ/43kcal | Мазнини | 0g | от които наситени | 0g | Въглехидрати | 1,4g | от които захари | 0g | Протеини | 9,0g | Сол | 0,07g / Без аромат Размер на порция - 1 лъжица (11g) ИНФОРМАЦИЯ ЗА ХРАНИТЕЛНАТА СТОЙНОСТ На порция Енергийна стойност 167kJ/39kcal Мазнини 0g от които наситени 0g Въглехидрати 0g от които захари 0g Протеини 9,6g Сол 0,07g АКТИВНИ СЪСТАВКИ На порция Хиалуронова киселина 120mg Витамин C 40mg (50%*) Ниацин 2,4mg (15%*) Пантотенова киселина 0,90mg (15%*) Витамин B2 0,21mg (15%*) Витамин B6 0,21mg (15%*) Витамин B1 0,17mg (15%*) Фолиева киселина 30,0μg (15%*) Биотин 7,5μg (15%*) Витамин B12 0,38μg (15%*) * Референтна стойност на хранителните вещества. Аромат на лимон и лайм Размер на порция - 1 лъжица (12g) ИНФОРМАЦИЯ ЗА ХРАНИТЕЛНАТА СТОЙНОСТ На порция Енергийна стойност 172kJ/41kcal Мазнини 0g от които наситени 0g Въглехидрати 0,9g от които захари 0g Протеини 9,1g Сол 0,07g АКТИВНИ СЪСТАВКИ На порция Хиалуронова киселина 120mg Витамин C",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_10g_collagen": 3.56
+      },
+      "unit_label": "лв / 10 g колаген",
+      "confidence": "medium",
+      "scraped_at": "2026-07-02T13:18:40.402862Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 58.66,
+          "price_eur": 29.99,
+          "unit_value": 3.56
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-100-л-карнитин-аминокиселина",
+      "store": "MyProtein",
+      "name": "100% Л-Карнитин аминокиселина",
       "brand": "Myprotein",
-      "category": "multivitamin",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/multivitamins-for-women/10530541/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/10530541-1714918710659604.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 34.99,
-      "price_eur": 17.89,
+      "category": "l_carnitine",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/l-carnitine-amino-acid-powder/10529729/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/10529733-5365199715247889.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 123.2,
+      "price_eur": 62.99,
       "currency_source": "EUR",
       "availability_status": "in_stock",
-      "weight_grams": 900.0,
-      "servings": null,
-      "count": 120,
+      "weight_grams": 500.0,
+      "servings": 30,
+      "count": 2,
       "active": {
-        "multivitamin_serving": 1
+        "carnitine_mg": 500
       },
-      "label_text": "Per Serving | *RI | Vitamin D | 5 μg | 100% | Vitamin E | 32 mg | 267% | Vitamin K | 13 μg | 170% | Vitamin C | 40 mg | 50% | Тиамин | 6.3 mg | 573% | Рибофлавин | 6.3 mg | 450% | Ниацин | 12.5 mg | 78% | Vitamin B6 | 6.3 mg | 450% | Фолиева киселина | 200 μg | 100% | Vitamin B12 | 260 μg | 10400% | Биотин | 75 μg | 150% | Пантоненова киселина | 25 mg | 417% | Калций | 175 mg | 22% | Желязо | 7 mg | 50% | Цинк | 7.5 mg | 75% | Мед | 0.25 mg | 25% | Селен | 50 μg | 91% | Хром | 48 μg | 120% | Per Serving | Корейски женшен | 1 g | Екстракт от гроздови семки | 312 mg | Пчелно млечице | 38.25 mg | Алфа Липоева Киселина | 12.75 mg | Цитрусови биофлавоноиди | 12.5 mg | Холин | 12.5 mg | Бромелаин | 6.25 mg | Инозитол | 6.25 mg | Липаза | 6.25 mg | Папаин | 6.25 mg | Бета Каротен | 1.5 mg | коензим Q10 | 1.25 mg | Амилаза | 1.25 mg | Лутеин | 250 μg / Доза - 1 Таблетка Servings Per Container - 120 (120 Tablets) Typical Nutritional Values Per Serving *RI Vitamin D 5 μg 100% Vitamin E 32 mg 267% Vitamin K 13 μg 170% Vitamin C 40 mg 50% Тиамин 6.3 mg 573% Рибофлавин 6.3 mg 450% Ниацин 12.5 mg 78% Vitamin B6 6.3 mg 450% Фолиева киселина 200 μg 100% Vitamin B12 260 μg 10400% Биотин 75 μg 150% Пантоненова киселина 25 mg 417% Калций 175 mg 22% Желязо 7 mg 50% Цинк 7.5 mg 75% Мед 0.25 mg 25% Селен 50 μg 91% Хром 48 μg 120% Per Serving Корейски женшен 1 g Екстракт от гроздови семки 312 mg Пчелно млечице 38.25 mg Алфа Липоева Киселина 12.75 mg Цитрусови биофлавоноиди 12.5 mg Холин 12.5 mg Бромелаин 6.25 mg Инозитол 6.25 mg Липаза 6.25 mg Папаин 6.25 mg Бета Каротен 1.5 mg коензим Q10 1.25 mg Амилаза 1.25 mg Лутеин 250 μg * Reference intake of an average adult (8400 kJ/2000 kcal) / Typical Nutritional Values Per Serving *RI Vitamin D 5 μg 100% Vitamin E 32 mg 267% Vitamin K 13 μg 170% Vi",
+      "label_text": "Per Serving | Acetyl L Carnitine | 500 mg / Serving Size - 1/8 tsp (500 mg) Servings Per Container - 500 (250g), 1000 (500g), 2000 (1kg) Nutritional Information Per Serving Acetyl L Carnitine 500 mg Хранителната информация е базирана на Неовкусената версия на продукта. При избор на някой от вкусовете, хранителните характеристики може да варират. / Nutritional Information Per Serving Acetyl L Carnitine 500 mg",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_multivitamin_serving": 0.29
+        "bgn_per_1000mg_carnitine": 8.21
       },
-      "unit_label": "лв / доза мултивитамин",
-      "confidence": "medium",
-      "scraped_at": "2026-07-02T12:49:08.471047Z",
+      "unit_label": "лв / 1000 mg карнитин",
+      "confidence": "high",
+      "scraped_at": "2026-07-02T13:18:44.815803Z",
       "last_full_scrape": "2026-07-02",
       "price_history": [
         {
           "date": "2026-07-02",
-          "price_bgn": 34.99,
-          "price_eur": 17.89,
-          "unit_value": 0.29
+          "price_bgn": 123.2,
+          "price_eur": 62.99,
+          "unit_value": 8.21
         }
-      ]
+      ],
+      "promo_label": "-42% с код MYPBG"
     },
     {
-      "id": "myprotein-дневни-мултивитамини",
+      "id": "myprotein-л-карнитин-аминокиселина",
       "store": "MyProtein",
-      "name": "Дневни мултивитамини",
-      "brand": "Myvitamins",
-      "category": "multivitamin",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/daily-multivitamin-tablets/12456644/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/12456644-1624951340194773.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 21.98,
-      "price_eur": 11.24,
+      "name": "Л-Карнитин аминокиселина",
+      "brand": "Myprotein",
+      "category": "l_carnitine",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/l-carnitine-tablets/10530146/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/10530147-1985263157466660.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 45.49,
+      "price_eur": 23.26,
       "currency_source": "EUR",
       "availability_status": "in_stock",
       "weight_grams": 900.0,
       "servings": null,
       "count": 180,
       "active": {
-        "multivitamin_serving": 1
+        "carnitine_mg": 682
       },
-      "label_text": "Per Serving | *RI | Витамин A | 800 μg RE | 100% | Витамин D | 5 μg | 100% | Витамин E | 10 mg a-TE | 83% | Витамин C | 60 mg | 75% | Thiamin | 1.8 mg | 164% | Riboflavin | 1.6 mg | 114% | Niacin | 18 mg NE | 113% / Serving Size - 1 Tablet Servings Per Container - 60 (60 Tablets), 180 (180 Tablets) Nutritional Information Per Serving *RI Витамин A 800 μg RE 100% Витамин D 5 μg 100% Витамин E 10 mg a-TE 83% Витамин C 60 mg 75% Thiamin 1.8 mg 164% Riboflavin 1.6 mg 114% Niacin 18 mg NE 113% * Reference intake of an average adult (8400 kJ/2000 kcal) / Nutritional Information Per Serving *RI Витамин A 800 μg RE 100% Витамин D 5 μg 100% Витамин E 10 mg a-TE 83% Витамин C 60 mg 75% Thiamin 1.8 mg 164% Riboflavin 1.6 mg 114% Niacin 18 mg NE 113%",
+      "label_text": "Активни съставки | Типични стойности | На дневна доза | L‐карнитин тартрат | 1,0g | от който L‐карнитин | 682,0mg / Активни съставки | Типични стойности | На дневна доза / L‐карнитин тартрат | 1,0g | от който L‐карнитин | 682,0mg / Активни съставки Типични стойности На дневна доза L‐карнитин тартрат 1,0g от който L‐карнитин 682,0mg",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_multivitamin_serving": 0.12
+        "bgn_per_1000mg_carnitine": 0.37
       },
-      "unit_label": "лв / доза мултивитамин",
+      "unit_label": "лв / 1000 mg карнитин",
+      "confidence": "high",
+      "scraped_at": "2026-07-02T13:18:47.123161Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 45.49,
+          "price_eur": 23.26,
+          "unit_value": 0.37
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-грахов-протеин-изолат",
+      "store": "MyProtein",
+      "name": "Грахов протеин изолат",
+      "brand": "Myvegan",
+      "category": "protein",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/impact-pea-protein/10530136/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/10530136-1065180485568151.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 148.62,
+      "price_eur": 75.99,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 2500.0,
+      "servings": null,
+      "count": null,
+      "active": {
+        "estimated_total_protein_g": 2125.0,
+        "estimated_protein_ratio_pct": 85
+      },
+      "label_text": "ХРАНИТЕЛНА ИНФОРМАЦИЯ | Типични стойности | За 100 g | За 32 g | % Референтен прием | Референтен прием | Енергийна стойност | 1616 kJ | 517 kJ | 6 % | 8400 kJ | Енергийна стойност | 383 kcal | 122 kcal | 6 % | 2000 kcal | Мазнини | 7,0 g | 2,2 g | 3 % | 70 g | от които наситени | 1,6 g | 0,5 g | 3 % | 20 g | Въглехидрати | 9,8 g | 3,1 g | 1 % | 260 g | от които захари | 0 g | 0 g | По-малко от 1 % | 90 g | Фибри | 3,2 g | 1,0 g | Протеини | 69 g | 22 g | 44 % | 50 g | Сол | 2,70 g | 0,86 g | 14 % | 6 g | Съдържа 15 порции | Референтен прием на среден възрастен (8400 kJ/2000 kcal) / ХРАНИТЕЛНА ИНФОРМАЦИЯ Типични стойности За 100 g За 32 g % Референтен прием Референтен прием Енергийна стойност 1616 kJ 517 kJ 6 % 8400 kJ Енергийна стойност 383 kcal 122 kcal 6 % 2000 kcal Мазнини 7,0 g 2,2 g 3 % 70 g от които наситени 1,6 g 0,5 g 3 % 20 g Въглехидрати 9,8 g 3,1 g 1 % 260 g от които захари 0 g 0 g По-малко от 1 % 90 g Фибри 3,2 g 1,0 g Протеини 69 g 22 g 44 % 50 g Сол 2,70 g 0,86 g 14 % 6 g Съдържа 15 порции Референтен прием на среден възрастен (8400 kJ/2000 kcal)",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 1.75
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "low",
+      "scraped_at": "2026-07-02T13:18:49.365615Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 148.62,
+          "price_eur": 75.99,
+          "unit_value": 1.75
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-impact-diet-whey",
+      "store": "MyProtein",
+      "name": "Impact Diet Whey",
+      "brand": "Myprotein",
+      "category": "protein",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/impact-diet-whey/10530657/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/10530657-8765180485606041.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 203.39,
+      "price_eur": 103.99,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 2500.0,
+      "servings": null,
+      "count": null,
+      "active": {
+        "estimated_total_protein_g": 2125.0,
+        "estimated_protein_ratio_pct": 85
+      },
+      "label_text": "ХРАНИТЕЛНА ИНФОРМАЦИЯ | Типични стойности | За 100 g | За 60 g | Енергийна стойност | 1513 kJ | 908 kJ | Енергийна стойност | 359 kcal | 215 kcal | Мазнини | 6,1 g | 3,7 g | от които наситени | 2,6 g | 1,6 g | Въглехидрати | 13 g | 7,7 g | от които захари | 4,6 g | 2,7 g | Фибри | 7,9 g | 4,7 g | Протеини | 59 g | 36 g | Сол | 0,35 g | 0,21 g | Витамини и минерали | Кофеин | 30,3 mg | 18,2 mg | Холин | 138,0 mg | 82,8 mg | Екстракт от зелен чай | 450,0 mg | 270,0 mg | L-Глутамин | 1,9 g | 1,1 g | CLA (конюгирана линолова киселина) | 624,0 mg | 374,4 mg | NRV=Референтна стойност на хранителното вещество | Съдържа 16 порции / ХРАНИТЕЛНА ИНФОРМАЦИЯ Типични стойности За 100 g За 60 g Енергийна стойност 1513 kJ 908 kJ Енергийна стойност 359 kcal 215 kcal Мазнини 6,1 g 3,7 g от които наситени 2,6 g 1,6 g Въглехидрати 13 g 7,7 g от които захари 4,6 g 2,7 g Фибри 7,9 g 4,7 g Протеини 59 g 36 g Сол 0,35 g 0,21 g Витамини и минерали Кофеин 30,3 mg 18,2 mg Холин 138,0 mg 82,8 mg Екстракт от зелен чай 450,0 mg 270,0 mg L-Глутамин 1,9 g 1,1 g CLA (конюгирана линолова киселина) 624,0 mg 374,4 mg NRV=Референтна стойност на хранителното вещество Съдържа 16 порции",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 2.39
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "low",
+      "scraped_at": "2026-07-02T13:18:50.651613Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 203.39,
+          "price_eur": 103.99,
+          "unit_value": 2.39
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-impact-whey-protein",
+      "store": "MyProtein",
+      "name": "Impact Whey Protein",
+      "brand": "Myprotein",
+      "category": "protein",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/impact-whey-protein-powder/10530943/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/17712277-9585336566430211.png&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 442.0,
+      "price_eur": 225.99,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 4500.0,
+      "servings": 150,
+      "count": null,
+      "active": {
+        "estimated_total_protein_g": 3825.0,
+        "estimated_protein_ratio_pct": 85
+      },
+      "label_text": "ХРАНИТЕЛНА ИНФОРМАЦИЯ | Типични стойности | За 100 g | За 30 g | Енергийна стойност | 1602 kJ | 481 kJ | Енергийна стойност | 379 kcal | 114 kcal | Мазнини | 5.9 g | 1.8 g | от които наситени | 3.6 g | 1.1 g | Въглехидрати | 8.9 g | 2.7 g | от които захари | 5.1 g | 1.5 g | Протеини | 72 g | 22 g | Сол | 0.44 g | 0.13 g | Съдържа 30 порции / ХРАНИТЕЛНА ИНФОРМАЦИЯ Типични стойности За 100 g За 30 g Енергийна стойност 1602 kJ 481 kJ Енергийна стойност 379 kcal 114 kcal Мазнини 5.9 g 1.8 g от които наситени 3.6 g 1.1 g Въглехидрати 8.9 g 2.7 g от които захари 5.1 g 1.5 g Протеини 72 g 22 g Сол 0.44 g 0.13 g Съдържа 30 порции",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 2.89
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "low",
+      "scraped_at": "2026-07-02T13:18:52.111302Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 442.0,
+          "price_eur": 225.99,
+          "unit_value": 2.89
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-impact-whey-isolate",
+      "store": "MyProtein",
+      "name": "Impact Whey Isolate",
+      "brand": "Myprotein",
+      "category": "protein",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/impact-whey-isolate-powder/10530911/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/10530911-1925330627456118.png&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 389.19,
+      "price_eur": 198.99,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 2500.0,
+      "servings": 83,
+      "count": 1,
+      "active": {
+        "estimated_total_protein_g": 2125.0,
+        "estimated_protein_ratio_pct": 85
+      },
+      "label_text": "ХРАНИТЕЛНА ИНФОРМАЦИЯ | Типични стойности | За 100 g | За 30 g | Енергийна стойност | 1533 kJ | 460 kJ | Енергийна стойност | 361 kcal | 108 kcal | Мазнини | 0,9 g | <0,5 g | от които наситени | 0,4 g | 0,1 g | Въглехидрати | 6,1 g | 1,8 g | от които захари | 1,9 g | 0,6 g | Протеини | 82 g | 25 g | Сол | 0,65 g | 0,20 g | Съдържа 30 порции | Референтен прием на среден възрастен (8400 kJ/2000 kcal) / ХРАНИТЕЛНА ИНФОРМАЦИЯ Типични стойности За 100 g За 30 g Енергийна стойност 1533 kJ 460 kJ Енергийна стойност 361 kcal 108 kcal Мазнини 0,9 g <0,5 g от които наситени 0,4 g 0,1 g Въглехидрати 6,1 g 1,8 g от които захари 1,9 g 0,6 g Протеини 82 g 25 g Сол 0,65 g 0,20 g Съдържа 30 порции Референтен прием на среден възрастен (8400 kJ/2000 kcal)",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 4.58
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "low",
+      "scraped_at": "2026-07-02T13:18:52.741437Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 389.19,
+          "price_eur": 198.99,
+          "unit_value": 4.58
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-essential-whey-protein",
+      "store": "MyProtein",
+      "name": "Essential Whey Protein",
+      "brand": "Myprotein",
+      "category": "protein",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/essential-whey-protein/11052699/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/11052707-1435182337034759.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 13.77,
+      "price_eur": 7.04,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 375.0,
+      "servings": 15,
+      "count": null,
+      "active": {
+        "estimated_total_protein_g": 318.8,
+        "estimated_protein_ratio_pct": 85
+      },
+      "label_text": "За 100g | За 25g | Енергийна стойност | 1832kJ/436kcal | 458kJ/109kcal | Мазнини | 16g | 4,0g | от които наситени | 9,5g | 2,4g | Въглехидрати | 5,0g | 1,2g | от които захари | 0,8g | <0,5g | Протеини | 68g | 17g | Сол | 0,21g | 0,05g / ВАНИЛИЯ Размер на порцията – 25g Порции в кутия – 52 порции (1,3kg) Информация за хранителната стойност За 100g За 25g Енергийна стойност 1832kJ/436kcal 458kJ/109kcal Мазнини 16g 4,0g от които наситени 9,5g 2,4g Въглехидрати 5,0g 1,2g от които захари 0,8g <0,5g Протеини 68g 17g Сол 0,21g 0,05g Информацията за хранителната стойност е въз основа на аромат на ванилия. Ако изберете друг аромат, хранителната стойност може да се различава. / Информация за хранителната стойност За 100g За 25g Енергийна стойност 1832kJ/436kcal 458kJ/109kcal Мазнини 16g 4,0g от които наситени 9,5g 2,4g Въглехидрати 5,0g 1,2g от които захари 0,8g <0,5g Протеини 68g 17g Сол 0,21g 0,05g Информацията за хранителната стойност е въз основа на аромат на ванилия. Ако изберете друг аромат, хранителната стойност може да се различава. / Информация за хранителната стойност",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 1.08
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "low",
+      "scraped_at": "2026-07-02T13:18:55.641684Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 13.77,
+          "price_eur": 7.04,
+          "unit_value": 1.08
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-impact-whey-protein-elite",
+      "store": "MyProtein",
+      "name": "Impact Whey Protein Elite",
+      "brand": "Myprotein",
+      "category": "protein",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/impact-whey-elite-informed-sport-certified/11243021/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/16546732-9425283626523261.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 97.77,
+      "price_eur": 49.99,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 1000.0,
+      "servings": 22,
+      "count": null,
+      "active": {
+        "estimated_total_protein_g": 850.0,
+        "estimated_protein_ratio_pct": 85
+      },
+      "label_text": "За 100g | За порция | Енергийна стойност | 1600kJ/378kcal | 480kJ/113kcal | Мазнини | 6,0g | 1,8g | от които наситени | 3,7g | 1,1g | Въглехидрати | 7,1g | 2,1g | от които захари | 5,3g | 1,6g | Протеини | 74g | 22g | Сол | 0,45g | 0,14g / НАТУРАЛЕН АРОМАТ НА ЯГОДА Размер на порцията: 30g Порции в кутия: 33 порции (1kg) За 100g За порция Енергийна стойност 1600kJ/378kcal 480kJ/113kcal Мазнини 6,0g 1,8g от които наситени 3,7g 1,1g Въглехидрати 7,1g 2,1g от които захари 5,3g 1,6g Протеини 74g 22g Сол 0,45g 0,14g Информацията за хранителната стойност е въз основа на натурален АРОМАТ НА ЯГОДА. Ако изберете друг аромат, хранителната стойност може да се различава.",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 2.88
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "low",
+      "scraped_at": "2026-07-02T13:18:59.713228Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 97.77,
+          "price_eur": 49.99,
+          "unit_value": 2.88
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-нискокалоричен-заместител-на-хранене",
+      "store": "MyProtein",
+      "name": "Нискокалоричен заместител на хранене",
+      "brand": "Myprotein",
+      "category": "protein",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/protein-meal-replacement-blend/11324199/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/11324200-1895239567169448.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 158.4,
+      "price_eur": 80.99,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 2500.0,
+      "servings": 49,
+      "count": null,
+      "active": {
+        "protein_g": 34.0
+      },
+      "label_text": "На 100g | В една доза | Енергия | 1663 kJ/392 kcal | 848 kJ/200 kcal | Мазнини | 13 g | 6.7 g | От които наситени | 6.2 g | 3.1 g | Въглехидрати | 34 g | 17 g | От които захари | 27 g | 14 g | Фибри | 8.0 g | 4.1 g | Белтъчини | 34 g | 18 g | Сол | 1.8 g | 0.90g | На 100g | В една доза | Витамин A | 550μg RE (69% RI*) | 280 μg RE (35% RI*) | Витамин D | 4.3 μg (86% RI*) | 2.2 μg(44% RI*) | Витамин E | 9.4 mg a-TE (78% RI*) | 4.8 mg a-TE (40% RI*) | Витамин K | 58μg (77% RI*) | 30μg (40% RI*) | Витамин C | 64mg (81% RI*) | 33 mg (45% RI*) | Тиамин | 0.9mg (82% RI*) | 0.5mg (45%RI*) | Рибофлавин | 1.9mg (136% RI*) | 1.0mg (71% RI*) | Ниацин | 15mg NE (94% RI*) | 7.4mg NE (46% RI*) | Витамин B6 | 1.3 mg (93% RI*) | 0.7 mg (50% RI*) | Фолиева киселина | 166 μg (83% RI*) | 84.6 mg (42% RI*) | Витамин B12 | 2.5 μg (100% RI*) | 1.3 μg (52% RI*) | Биотин | 41 μg (82% RI*) | 21μg (42% RI*) | Пантотенова киселина | 5.2 mg (87% RI*) | 2.6mg (43% RI*) | Калий | 2057 mg (102% RI*) | 1049 mg (52% RI*) | Хлорид | 1016 mg (127% RI*) | 518 mg (65% RI*) | Калций | 758 mg (95% RI*) | 387 mg (48% RI*) | Фосфор | 523mg (75% RI*) | 267 mg (38% RI*) | Магнезий | 265mg (70%RI*) | 135 mg (36%RI*) | Желязо | 15mg (107%RI*) | 7.4 mg (53%RI*) | Цинк | 8.7mg (87%RI*) | 4.4 mg(44%RI*) | Мед | 0.7mg (70%RI*) | 0.4 mg (40%RI*) | Манган | 1.6mg (80%RI*) | 0.8 mg (40%RI*) | флуорид | 2.8mg (80%RI*) | 1.4 mg (40%RI*) | Селен | 47μg( 85%RI*) | 24 μg (43%RI*) | Хром | 31μg (78%RI*) | 16μg (40%RI*) | Молибден | 53μg (107%RI*) | 27μg (54%RI*) | Йод | 114μg (76%RI*) | 58.0μg (39%RI*) / Доза - 2 scoops (51g) Дози в опаковка - 9 (500g), 19 (1kg), 49 (2.5kg) Х На 100g В една доза Енергия 1663 kJ/392 kcal 848 kJ/200 kcal Мазнини 13 g 6.7 g От които наситени 6.2 g 3.1 g Въглехидрати 34 g 17 g От които захари 27 g ",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 2.38
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "high",
+      "scraped_at": "2026-07-02T13:19:01.633242Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 158.4,
+          "price_eur": 80.99,
+          "unit_value": 2.38
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-the-whey",
+      "store": "MyProtein",
+      "name": "THE Whey",
+      "brand": "Myprotein",
+      "category": "protein",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/the-whey/11353515/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/15053476-4655253818713854.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 122.24,
+      "price_eur": 62.5,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 1920.0,
+      "servings": 60,
+      "count": null,
+      "active": {
+        "estimated_total_protein_g": 1632.0,
+        "estimated_protein_ratio_pct": 85
+      },
+      "label_text": "Xранителна информация | За 100g | На порция от 34g | Енергийна стойност | 1575kJ/372kcal | 536kJ/126kcal | Мазнини | 3,9g | 1,3g | (от които наситени) | 2,5g | 0,8g | Въглехидрати | 11g | 3,6g | (от които захари) | 3,6g | 1,2g | Протеини | 73g | 25g | Сол | 1,40g | 0,49g | Активни съставки | L-левцин | 8,1g | 2,8g | L-изолевцин | 4,8g | 1,6g | L-валин | 4,3g | 1,5g | BC30 | TM | 2,9 милиарда CFU** | 1 милиарда CFU** | * Естествен произход от протеин | ** Единица за формиране на колония / Xранителна информация За 100g На порция от 34g Енергийна стойност 1575kJ/372kcal 536kJ/126kcal Мазнини 3,9g 1,3g (от които наситени) 2,5g 0,8g Въглехидрати 11g 3,6g (от които захари) 3,6g 1,2g Протеини 73g 25g Сол 1,40g 0,49g Активни съставки L-левцин 8,1g 2,8g L-изолевцин 4,8g 1,6g L-валин 4,3g 1,5g BC30 TM 2,9 милиарда CFU** 1 милиарда CFU** * Естествен произход от протеин ** Единица за формиране на колония",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 1.87
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "low",
+      "scraped_at": "2026-07-02T13:19:03.411635Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 122.24,
+          "price_eur": 62.5,
+          "unit_value": 1.87
+        }
+      ]
+    },
+    {
+      "id": "myprotein-веган-протеинов-бленд",
+      "store": "MyProtein",
+      "name": "Веган Протеинов Бленд",
+      "brand": "Myvegan",
+      "category": "protein",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/impact-vegan-protein/11776868/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/11776868-3235180485987971.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 146.67,
+      "price_eur": 74.99,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 2500.0,
+      "servings": 33,
+      "count": null,
+      "active": {
+        "estimated_total_protein_g": 2125.0,
+        "estimated_protein_ratio_pct": 85
+      },
+      "label_text": "ХРАНИТЕЛНА ИНФОРМАЦИЯ | Типични стойности | За 100 g | За 30 g | % Референтен прием | Референтен прием | Енергийна стойност | 1638 kJ | 491 kJ | 6 % | 8400 kJ | Енергийна стойност | 388 kcal | 116 kcal | 6 % | 2000 kcal | Мазнини | 7,2 g | 2,1 g | 3 % | 70 g | от които наситени | 1,3 g | 0,4 g | 2 % | 20 g | Въглехидрати | 7,6 g | 2,3 g | 1 % | 260 g | от които захари | 1,8 g | 0,5 g | 1 % | 90 g | Фибри | 2,5 g | 0,8 g | Протеини | 72 g | 22 g | 44 % | 50 g | Сол | 1,8 g | 0,53 g | 9 % | 6 g | Съдържа 33 порции | Референтен прием на среден възрастен човек (8400 kJ/2000 kcal) / ХРАНИТЕЛНА ИНФОРМАЦИЯ Типични стойности За 100 g За 30 g % Референтен прием Референтен прием Енергийна стойност 1638 kJ 491 kJ 6 % 8400 kJ Енергийна стойност 388 kcal 116 kcal 6 % 2000 kcal Мазнини 7,2 g 2,1 g 3 % 70 g от които наситени 1,3 g 0,4 g 2 % 20 g Въглехидрати 7,6 g 2,3 g 1 % 260 g от които захари 1,8 g 0,5 g 1 % 90 g Фибри 2,5 g 0,8 g Протеини 72 g 22 g 44 % 50 g Сол 1,8 g 0,53 g 9 % 6 g Съдържа 33 порции Референтен прием на среден възрастен човек (8400 kJ/2000 kcal)",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 1.73
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "low",
+      "scraped_at": "2026-07-02T13:19:04.801508Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 146.67,
+          "price_eur": 74.99,
+          "unit_value": 1.73
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-vegan-carb-crusher",
+      "store": "MyProtein",
+      "name": "Vegan Carb Crusher",
+      "brand": "Myprotein",
+      "category": "protein",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/vegan-carb-crusher-protein-bar/11994676/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/11994678-4015181253047846.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 70.0,
+      "price_eur": 35.79,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 1000.0,
+      "servings": 30,
+      "count": 12,
+      "active": {
+        "protein_g": 26.0
+      },
+      "label_text": "За 100g | За порция | Енергийна стойност | 1615kJ/387kcal | 969kJ/232kcal | Мазнини | 17g | 10g | от които наситени | 7,2g | 4,3g | Въглехидрати | 26g | 16g | от които захари | 2,2g | 1,3g | Фибри | 18g | 11g | Протеини | 26g | 16g | Сол | 1,2g | 0,72g / Vegan Carb Crusher - Аромат на шоколад с морска сол - 12 x 60g ℮ (720g) Размер на порция 60g Порции в опаковка: 12 За 100g За порция Енергийна стойност 1615kJ/387kcal 969kJ/232kcal Мазнини 17g 10g от които наситени 7,2g 4,3g Въглехидрати 26g 16g от които захари 2,2g 1,3g Фибри 18g 11g Протеини 26g 16g Сол 1,2g 0,72g Хранителната информация се дава въз основа на аромат на шоколад и морска сол. Ако изберете друг аромат, хранителната стойност може да се различава.",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 2.24
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "high",
+      "scraped_at": "2026-07-02T13:19:05.991611Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 70.0,
+          "price_eur": 35.79,
+          "unit_value": 2.24
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-myprotein-clear-whey-protein",
+      "store": "MyProtein",
+      "name": "Myprotein Clear Whey Protein",
+      "brand": "Myprotein",
+      "category": "protein",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/clear-whey-protein-powder/12081395/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/12081395-8195329354502922.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 128.91,
+      "price_eur": 65.91,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 1000.0,
+      "servings": 40,
+      "count": null,
+      "active": {
+        "estimated_total_protein_g": 860.0,
+        "estimated_protein_ratio_pct": 86
+      },
+      "label_text": "nbsp; | За 100g | За порция | Енергийна стойност | 1525kJ/359kcal | 381kJ/90kcal | Мазнини | 0g | 0g | от които наситени мазнини | 0g | 0g | Въглехидрати | 9,4g | 2,3g | от които захари | 0,8g | <0,5g | Протеини | 80g | 20g | Сол | 0,26g | 0,07g | Витамин C | 210mg (260%*) | 52mg (65%*) | Активни съставки | Колаген | 40g | 10g / Clear Whey Protein Collagen - Студен чай с лимон Размер на порцията: 25g nbsp; За 100g За порция Енергийна стойност 1525kJ/359kcal 381kJ/90kcal Мазнини 0g 0g от които наситени мазнини 0g 0g Въглехидрати 9,4g 2,3g от които захари 0,8g <0,5g Протеини 80g 20g Сол 0,26g 0,07g Витамин C 210mg (260%*) 52mg (65%*) Активни съставки Колаген 40g 10g * Хранителна референтна стойност. Информацията за хранителната стойност е за вкус Студен чай с лимон. Ако изберете друг вкус, хранителната стойност може да се различава.",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 3.75
+      },
+      "unit_label": "лв / 25 g протеин",
       "confidence": "medium",
-      "scraped_at": "2026-07-02T12:49:10.845315Z",
+      "scraped_at": "2026-07-02T13:19:07.941226Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 128.91,
+          "price_eur": 65.91,
+          "unit_value": 3.75
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-соев-протеин-изолат",
+      "store": "MyProtein",
+      "name": "Соев протеин изолат",
+      "brand": "Myvegan",
+      "category": "protein",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/soy-protein-isolate/12456512/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/12456528-1915193236087724.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 304.99,
+      "price_eur": 155.94,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 5000.0,
+      "servings": null,
+      "count": null,
+      "active": {
+        "estimated_total_protein_g": 2700.0,
+        "estimated_protein_ratio_pct": 54
+      },
+      "label_text": "Per 100g | Per Serving | *RI | Energy | 1642 kJ/387 kcal | 485 kJ/116 kcal | 6% | Fat | 0.5 g | 0.2 g | 0% | of which saturates | 0.1 g | 0 g | 0% | въглехидратs | 5 g | 1.5 g | 1% | of which sugars | 0.1 g | 0 g | 0% | protein | 90 g | 27 g | 54% | Salt | 3.8 g | 1.1 g | 18% / Serving Size - 1 1⁄4 Scoop (30g) Servings Per Container - 33 (1kg) Nutritional Information Per 100g Per Serving *RI Energy 1642 kJ/387 kcal 485 kJ/116 kcal 6% Fat 0.5 g 0.2 g 0% of which saturates 0.1 g 0 g 0% въглехидратs 5 g 1.5 g 1% of which sugars 0.1 g 0 g 0% protein 90 g 27 g 54% Salt 3.8 g 1.1 g 18% * Reference intake of an average adult (8400 kJ/2000 kcal) The nutritional information is based on the Unflavoured version, when choosing an alternative flavour the nutritional values may vary / Nutritional Information Per 100g Per Serving *RI Energy 1642 kJ/387 kcal 485 kJ/116 kcal 6% Fat 0.5 g 0.2 g 0% of which saturates 0.1 g 0 g 0% въглехидратs 5 g 1.5 g 1% of which sugars 0.1 g 0 g 0% protein 90 g 27 g 54% Salt 3.8 g 1.1 g 18%",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 2.82
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "medium",
+      "scraped_at": "2026-07-02T13:19:11.150606Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 304.99,
+          "price_eur": 155.94,
+          "unit_value": 2.82
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-хидролизиран-суроватъчен-протеин",
+      "store": "MyProtein",
+      "name": "Хидролизиран суроватъчен протеин",
+      "brand": "Myprotein",
+      "category": "protein",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/myprotein-hydrolysed-whey-protein-cee/12456583/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/12456583-1655179481077479.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 233.0,
+      "price_eur": 119.13,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 2500.0,
+      "servings": null,
+      "count": null,
+      "active": {
+        "estimated_total_protein_g": 1200.0,
+        "estimated_protein_ratio_pct": 48
+      },
+      "label_text": "Per 100g | Per Serving | *RI | Energy | 1588 kJ/375 kcal | 476 kJ/113 kcal | 6% | Fat | 4.7 g | 1.4 g | 2% | of which saturates | 1.6 g | 0.5 g | 3% | въглехидратs | 3.2 g | 1 g | 0% | of which sugars | 3.2 g | 1 g | 1% | protein | 80 g | 24 g | 48% | Salt | 1.5 g | 0.45 g | 8% / Serving Size - 1 Scoop (30g) Servings Per Container - 33 (1kg) Nutritional Information Per 100g Per Serving *RI Energy 1588 kJ/375 kcal 476 kJ/113 kcal 6% Fat 4.7 g 1.4 g 2% of which saturates 1.6 g 0.5 g 3% въглехидратs 3.2 g 1 g 0% of which sugars 3.2 g 1 g 1% protein 80 g 24 g 48% Salt 1.5 g 0.45 g 8% * Reference intake of an average adult (8400 kJ/2000 kcal) The nutritional information is based on the Unflavoured version, when choosing an alternative flavour the nutritional values may vary / Nutritional Information Per 100g Per Serving *RI Energy 1588 kJ/375 kcal 476 kJ/113 kcal 6% Fat 4.7 g 1.4 g 2% of which saturates 1.6 g 0.5 g 3% въглехидратs 3.2 g 1 g 0% of which sugars 3.2 g 1 g 1% protein 80 g 24 g 48% Salt 1.5 g 0.45 g 8%",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 4.85
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "medium",
+      "scraped_at": "2026-07-02T13:19:11.891507Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 233.0,
+          "price_eur": 119.13,
+          "unit_value": 4.85
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-total-protein-blend",
+      "store": "MyProtein",
+      "name": "Total Protein Blend",
+      "brand": "Myprotein",
+      "category": "protein",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/total-protein-blend/12456603/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/12456603-1085193952241007.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 619.98,
+      "price_eur": 316.99,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 5000.0,
+      "servings": null,
+      "count": null,
+      "active": {
+        "estimated_total_protein_g": 4250.0,
+        "estimated_protein_ratio_pct": 85
+      },
+      "label_text": "На 100гр. | В една доза | Енергия | 1639 kJ/392 kcal | 492 kJ/118 ккал | Мазнини | 4.7 g | 1.4 g | от които наситени | 1.5 g | 0.44 g | Въглехидрати | 4.0 g | 1.2 g | от които захари | 3.0 g | 0.89 g | Белтъчини | 83 g | 25 g | сол | 0.16 g | 0.05 g / Доза - 1 лъжици (30гр.) Дози в опаковкаr - 83 (2.5kg) Хранителна информация На 100гр. В една доза Енергия 1639 kJ/392 kcal 492 kJ/118 ккал Мазнини 4.7 g 1.4 g от които наситени 1.5 g 0.44 g Въглехидрати 4.0 g 1.2 g от които захари 3.0 g 0.89 g Белтъчини 83 g 25 g сол 0.16 g 0.05 g *Ориентировъчен прием на средностатистически възрастен (8400 kJ/2000 ккал) Хранителна информация е базирана на версията без вкус, като хранителните стойности на различните вкусове може да варират.. / Хранителна информация На 100гр. В една доза Енергия 1639 kJ/392 kcal 492 kJ/118 ккал Мазнини 4.7 g 1.4 g от които наситени 1.5 g 0.44 g Въглехидрати 4.0 g 1.2 g от които захари 3.0 g 0.89 g Белтъчини 83 g 25 g сол 0.16 g 0.05 g",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 3.65
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "low",
+      "scraped_at": "2026-07-02T13:19:12.513023Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 619.98,
+          "price_eur": 316.99,
+          "unit_value": 3.65
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-pop-rolls",
+      "store": "MyProtein",
+      "name": "Pop Rolls",
+      "brand": "Myprotein",
+      "category": "protein",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/pop-roll-protein-snack/12590683/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/15294373-7195204114030328.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 39.0,
+      "price_eur": 19.94,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 324.0,
+      "servings": null,
+      "count": 12,
+      "active": {
+        "protein_g": 29.0
+      },
+      "label_text": "За 100g | За 27g | Енергийна стойност | 1470kJ/350kcal | 397kJ/95kcal | Мазнини | 8,5g | 2,3g | от които наситени | 4,7g | 1,3g | Въглехидрати | 36g | 9,8g | от които захари | 3,8g | 1,0g | Фибри | 14g | 3,7g | Протеини | 29g | 8,0g | Сол | 0,28g | 0,08g | --> / ШАМФЪСТЪК Размер на порцията – 27g Порции в кутия – 6 порции (6 x 27g ℮ (162g)) Информация за хранителната стойност За 100g За 27g Енергийна стойност 1470kJ/350kcal 397kJ/95kcal Мазнини 8,5g 2,3g от които наситени 4,7g 1,3g Въглехидрати 36g 9,8g от които захари 3,8g 1,0g Фибри 14g 3,7g Протеини 29g 8,0g Сол 0,28g 0,08g --> Хранителната стойност се изчислява въз основа на аромат на шамфъстък. Ако изберете друг аромат, хранителната стойност може да се различава. / Информация за хранителната стойност За 100g За 27g Енергийна стойност 1470kJ/350kcal 397kJ/95kcal Мазнини 8,5g 2,3g от които наситени 4,7g 1,3g Въглехидрати 36g 9,8g от които захари 3,8g 1,0g Фибри 14g 3,7g Протеини 29g 8,0g Сол 0,28g 0,08g --> Хранителната стойност се изчислява въз основа на аромат на шамфъстък. Ако изберете друг аромат, хранителната стойност може да се различава. / Информация за хранителната стойност",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 3.34
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "high",
+      "scraped_at": "2026-07-02T13:19:16.215464Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 39.0,
+          "price_eur": 19.94,
+          "unit_value": 3.34
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-колаген-на-прах-кутия",
+      "store": "MyProtein",
+      "name": "Колаген на прах кутия",
+      "brand": "Myprotein",
+      "category": "protein",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/clear-collagen-protein-powder/12865492/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/12917286-6135284726106559.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 74.3,
+      "price_eur": 37.99,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 900.0,
+      "servings": 30,
+      "count": null,
+      "active": {
+        "estimated_total_protein_g": 765.0,
+        "estimated_protein_ratio_pct": 85
+      },
+      "label_text": "ХРАНИТЕЛНА ИНФОРМАЦИЯ | Типични стойности | 100 g съдържа | Една порция съдържа | Енергийна стойност | 1530 kJ | 306 kJ | Енергийна стойност | 360 kcal | 72 kcal | Мазнини | 0 g | 0 g | . | от които наситени | 0 g | 0 g | Въглехидрати | 0 g | 0 g | . | от които захари | 0 g | 0 g | Протеини | 90 g | 18 g | Сол | 0.10 g | 0.02 g | Референтен прием на среден възрастен (8400 kJ/2000 kcal) | Забележка: Това представяне на декларацията за хранителна стойност не е ръководство за форматиране, а е предназначено единствено за извеждане на съответстващи данни. / ХРАНИТЕЛНА ИНФОРМАЦИЯ Типични стойности 100 g съдържа Една порция съдържа Енергийна стойност 1530 kJ 306 kJ Енергийна стойност 360 kcal 72 kcal Мазнини 0 g 0 g . от които наситени 0 g 0 g Въглехидрати 0 g 0 g . от които захари 0 g 0 g Протеини 90 g 18 g Сол 0.10 g 0.02 g Референтен прием на среден възрастен (8400 kJ/2000 kcal) Забележка: Това представяне на декларацията за хранителна стойност не е ръководство за форматиране, а е предназначено единствено за извеждане на съответстващи данни.",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 2.43
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "low",
+      "scraped_at": "2026-07-02T13:19:18.861435Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 74.3,
+          "price_eur": 37.99,
+          "unit_value": 2.43
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-чист-веган-протеин",
+      "store": "MyProtein",
+      "name": "Чист веган протеин",
+      "brand": "Myvegan",
+      "category": "protein",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/clear-vegan-protein/12650592/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/12650594-1105152745412699.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 125.0,
+      "price_eur": 63.91,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 640.0,
+      "servings": 22,
+      "count": 3,
+      "active": {
+        "estimated_total_protein_g": 320.0,
+        "estimated_protein_ratio_pct": 50
+      },
+      "label_text": "На 100g | На порция | Енергийна стойност | 1369kJ/337kcal | 220kJ/54kcal | Мазнини | 0,5g | 0,1g | от които наситени | 0,1g | 0g | Въглехидрати | 16g | 2,6g | от които захари | 3g | 0,5g | Фибри | 0,5g | 0,1g | Протеини | 63g | 10g | Сол | 2,8g | 0,4g / На порция | NRV | Ниацин | 8mg | (50%*) | Пантотенова киселина | 3mg | (50%*) | Рибофлавин | 0,7mg | (50%*) | Витамин B6 | 0,7mg | (50%*) | Тиамин | 0,55mg | (50%*) | Фолиева киселина | 100μg | (50%*) | Биотин | 25μg | (50%*) | Витамин B12 | 1,25μg | (50%*) / Размер на порцията - 16 g Порции в опаковка – 20 (320g) Xранителна информация На 100g На порция Енергийна стойност 1369kJ/337kcal 220kJ/54kcal Мазнини 0,5g 0,1g от които наситени 0,1g 0g Въглехидрати 16g 2,6g от които захари 3g 0,5g Фибри 0,5g 0,1g Протеини 63g 10g Сол 2,8g 0,4g Активни съставки На порция NRV Ниацин 8mg (50%*) Пантотенова киселина 3mg (50%*) Рибофлавин 0,7mg (50%*) Витамин B6 0,7mg (50%*) Тиамин 0,55mg (50%*) Фолиева киселина 100μg (50%*) Биотин 25μg (50%*) Витамин B12 1,25μg (50%*) * Референтна стойност на хранителните вещества / Xранителна информация На 100g На порция Енергийна стойност 1369kJ/337kcal 220kJ/54kcal Мазнини 0,5g 0,1g от които наситени 0,1g 0g Въглехидрати 16g 2,6g от които захари 3g 0,5g Фибри 0,5g 0,1g Протеини 63g 10g Сол 2,8g 0,4g / Активни съставки На порция NRV Ниацин 8mg (50%*) Пантотенова киселина 3mg (50%*) Рибофлавин 0,7mg (50%*) Витамин B6 0,7mg (50%*) Тиамин 0,55mg (50%*) Фолиева киселина 100μg (50%*) Биотин 25μg (50%*) Витамин B12 1,25μg (50%*)",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 9.77
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "medium",
+      "scraped_at": "2026-07-02T13:19:18.952576Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 125.0,
+          "price_eur": 63.91,
+          "unit_value": 9.77
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-чист-суроватъчен-електролит",
+      "store": "MyProtein",
+      "name": "Чист суроватъчен електролит",
+      "brand": "Myprotein",
+      "category": "protein",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/clear-whey-hydrate/12869895/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/12869896-1205178695301210.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 66.48,
+      "price_eur": 33.99,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 900.0,
+      "servings": 20,
+      "count": null,
+      "active": {
+        "estimated_total_protein_g": 765.0,
+        "estimated_protein_ratio_pct": 85
+      },
+      "label_text": "На 100g | На порция | Енергийна стойност | 1328kJ/313kcal | 199kJ/47kcal | Мазнини | <0,5g | <0,5g | от които наситени | 0,2g | <0,1g | Въглехидрати | 6,9g | 1,0g | от които захари | 1,1g | <0,5g | Протеини | 70g | 11g | Сол | 2,80g | 0,42g / На 100g | На порция | Витамин C | 1333mg (1666%*) | 200mg (250%*) | Натрий | 1126mg | 168,9mg | Калий | 332mg | 49,8mg | Калций | 200mg (25%*) | 30,0mg (4%*) | Магнезий | 32,0mg (9%*) | 4,80mg (1%*) | Ниацин | 21mg (131%*) | 3,2mg (20%*) | Пантотенова киселина | 8,0mg (133%*) | 1,2mg (20%*) | Витамин B2 | 1,9mg (134%*) | 0,28mg (20%*) | Витамин B6 | 1,9mg (136%*) | 0,28mg (20%*) | Витамин B1 | 1,5mg (134%*) | 0,22mg (20%*) | Фолиева киселина | 267μg (134%*) | 40,0μg (20%*) | Биотин | 67μg (134%*) | 10μg (20%*) | Витамин B12 | 3,3μg (132%*) | 0,50μg (20%*) / Аромат на розов грейпфрут Размер на порция – 1 лъжица (15g) Порции в опаковка - 20 (300g) Xранителна информация На 100g На порция Енергийна стойност 1328kJ/313kcal 199kJ/47kcal Мазнини <0,5g <0,5g от които наситени 0,2g <0,1g Въглехидрати 6,9g 1,0g от които захари 1,1g <0,5g Протеини 70g 11g Сол 2,80g 0,42g Активни съставки На 100g На порция Витамин C 1333mg (1666%*) 200mg (250%*) Натрий 1126mg 168,9mg Калий 332mg 49,8mg Калций 200mg (25%*) 30,0mg (4%*) Магнезий 32,0mg (9%*) 4,80mg (1%*) Ниацин 21mg (131%*) 3,2mg (20%*) Пантотенова киселина 8,0mg (133%*) 1,2mg (20%*) Витамин B2 1,9mg (134%*) 0,28mg (20%*) Витамин B6 1,9mg (136%*) 0,28mg (20%*) Витамин B1 1,5mg (134%*) 0,22mg (20%*) Фолиева киселина 267μg (134%*) 40,0μg (20%*) Биотин 67μg (134%*) 10μg (20%*) Витамин B12 3,3μg (132%*) 0,50μg (20%*) *NRV = Референтна стойност на хранителните вещества / Xранителна информация На 100g На порция Енергийна стойност 1328kJ/313kcal 199kJ/47kcal Мазнини <0,5g <0,5g от които наситени 0,2g <",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 2.17
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "low",
+      "scraped_at": "2026-07-02T13:19:20.022911Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 66.48,
+          "price_eur": 33.99,
+          "unit_value": 2.17
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-plant-protein-superblend",
+      "store": "MyProtein",
+      "name": "Plant Protein Superblend",
+      "brand": "Myvegan",
+      "category": "protein",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/plant-protein-superblend/13972449/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/13972449-9835179481059557.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 35.19,
+      "price_eur": 17.99,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 1000.0,
+      "servings": 50,
+      "count": null,
+      "active": {
+        "estimated_total_protein_g": 850.0,
+        "estimated_protein_ratio_pct": 85
+      },
+      "label_text": "За 100g | На порция от 28g | Енергийна стойност | 1596kJ/376kcal | 447kJ/105kcal | Мазнини | 1,6g | <0,5g | от които наситени | 0,3g | < 0,1g | Въглехидрати | 15g | 4,2g | от които захари | 1,3g | <0,5g | Фибри | 2,9g | 0,8g | Протеини | 74g | 21g | Сол | 0g | 0g | Калий | 680mg (34%*) | 190mg (10%*) | Фосфор | 126mg (18%*) | 35,2mg (5%*) | Мед | 2,2mg (220%*) | 0,62mg (62%*) | Цинк | 1,5mg (15%*) | 0,41mg (4%*) | Витамин B6 | 0,26mg (19%*) | 0,07mg (5%*) | Витамин B12 | 0,85μg (34%*) | 0,24μg (10%*) / Карамел Размер на порция – 1 лъжица (28g) Xранителна информация * Хранителна референтна стойност. За 100g На порция от 28g Енергийна стойност 1596kJ/376kcal 447kJ/105kcal Мазнини 1,6g <0,5g от които наситени 0,3g < 0,1g Въглехидрати 15g 4,2g от които захари 1,3g <0,5g Фибри 2,9g 0,8g Протеини 74g 21g Сол 0g 0g Калий 680mg (34%*) 190mg (10%*) Фосфор 126mg (18%*) 35,2mg (5%*) Мед 2,2mg (220%*) 0,62mg (62%*) Цинк 1,5mg (15%*) 0,41mg (4%*) Витамин B6 0,26mg (19%*) 0,07mg (5%*) Витамин B12 0,85μg (34%*) 0,24μg (10%*) Хранителната стойност се изчислява въз основа на аромата на карамел. Ако изберете друг аромат, хранителната стойност може да се различава. / Xранителна информация * Хранителна референтна стойност. За 100g На порция от 28g Енергийна стойност 1596kJ/376kcal 447kJ/105kcal Мазнини 1,6g <0,5g от които наситени 0,3g < 0,1g Въглехидрати 15g 4,2g от които захари 1,3g <0,5g Фибри 2,9g 0,8g Протеини 74g 21g Сол 0g 0g Калий 680mg (34%*) 190mg (10%*) Фосфор 126mg (18%*) 35,2mg (5%*) Мед 2,2mg (220%*) 0,62mg (62%*) Цинк 1,5mg (15%*) 0,41mg (4%*) Витамин B6 0,26mg (19%*) 0,07mg (5%*) Витамин B12 0,85μg (34%*) 0,24μg (10%*) Хранителната стойност се изчислява въз основа на аромата на карамел. Ако изберете друг аромат, хранителната стойност може да се различава.",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 1.03
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "low",
+      "scraped_at": "2026-07-02T13:19:27.151362Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 35.19,
+          "price_eur": 17.99,
+          "unit_value": 1.03
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-myprotein-колан-за-повдигане-на-тежести-черен",
+      "store": "MyProtein",
+      "name": "Myprotein Колан за повдигане на тежести — черен",
+      "brand": "Myprotein",
+      "category": "protein",
+      "url": "https://www.myprotein.bg/p/protein-accessories/myprotein-lever-lifting-belt-black/14759538/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/14759538-2035128675131666.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 159.01,
+      "price_eur": 81.3,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 900.0,
+      "servings": 30,
+      "count": null,
+      "active": {
+        "estimated_total_protein_g": 765.0,
+        "estimated_protein_ratio_pct": 85
+      },
+      "label_text": null,
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 5.2
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "low",
+      "scraped_at": "2026-07-02T13:19:28.072265Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 159.01,
+          "price_eur": 81.3,
+          "unit_value": 5.2
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-clear-protein-superblend",
+      "store": "MyProtein",
+      "name": "Clear Protein Superblend",
+      "brand": "Myvegan",
+      "category": "protein",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/clear-protein-superblend/14843629/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/14843631-7105129158864953.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 70.39,
+      "price_eur": 35.99,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 1000.0,
+      "servings": 20,
+      "count": null,
+      "active": {
+        "estimated_total_protein_g": 850.0,
+        "estimated_protein_ratio_pct": 85
+      },
+      "label_text": "За 100g | На порция от 24g | Енергийна стойност | 1542kJ/363kcal | 370kJ/87kcal | Мазнини | <0,5g | <0,5g | от които наситени | 0,2g | < 0,1g | Въглехидрати | 14g | 3,4g | от които захари | 2,9g | 0,7g | Протеини | 74g | 18g | Сол | 1,1g | 0,26g | Фосфор | 125mg (18%*) | 30,0mg (4%*) | Магнезий | 65,1mg (17%*) | 15,6mg (4%*) | Желязо | 5,9mg (42%*) | 1,4mg (10%*) | Мед | 2,2mg (220%*) | 0,53mg (53%*) | Манган | 1,4mg (70%*) | 0,35mg (18%*) / Ягода Размер на порцията 2 1/2 лъжици (24g) Xранителна информация * Хранителна референтна стойност. За 100g На порция от 24g Енергийна стойност 1542kJ/363kcal 370kJ/87kcal Мазнини <0,5g <0,5g от които наситени 0,2g < 0,1g Въглехидрати 14g 3,4g от които захари 2,9g 0,7g Протеини 74g 18g Сол 1,1g 0,26g Фосфор 125mg (18%*) 30,0mg (4%*) Магнезий 65,1mg (17%*) 15,6mg (4%*) Желязо 5,9mg (42%*) 1,4mg (10%*) Мед 2,2mg (220%*) 0,53mg (53%*) Манган 1,4mg (70%*) 0,35mg (18%*) Хранителната стойност се изчислява въз основа на аромат на ягода. Ако изберете друг аромат, хранителната стойност може да се различава.",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 2.07
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "low",
+      "scraped_at": "2026-07-02T13:19:28.773287Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 70.39,
+          "price_eur": 35.99,
+          "unit_value": 2.07
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-суроватъчен-протеин-clear---marvel",
+      "store": "MyProtein",
+      "name": "Суроватъчен протеин Clear - MARVEL",
+      "brand": "Myprotein",
+      "category": "protein",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/clear-whey-protein-marvel/14866265/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/14866266-1605138291165553.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 142.76,
+      "price_eur": 72.99,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 2022.0,
+      "servings": 80,
+      "count": null,
+      "active": {
+        "estimated_total_protein_g": 1718.7,
+        "estimated_protein_ratio_pct": 85
+      },
+      "label_text": "За 100g | За порция от 25,0g | Енергийна стойност | 1443kJ/340kcal | 361kJ/85kcal | Мазнини | 0g | 0g | от които наситени | 0g | 0g | Въглехидрати | 6,4g | 1,6g | от които захари | 0g | 0g | Протеини | 78g | 20g | Сол | 0,10g | 0,03g / Черна пантера Размер на порция 25,0g Хранителна информация За 100g За порция от 25,0g Енергийна стойност 1443kJ/340kcal 361kJ/85kcal Мазнини 0g 0g от които наситени 0g 0g Въглехидрати 6,4g 1,6g от които захари 0g 0g Протеини 78g 20g Сол 0,10g 0,03g Хранителната стойност се изчислява въз основа на Черната пантера, аромат на синя малина. Ако изберете друг аромат, хранителната стойност може да се различава. / Хранителна информация За 100g За порция от 25,0g Енергийна стойност 1443kJ/340kcal 361kJ/85kcal Мазнини 0g 0g от които наситени 0g 0g Въглехидрати 6,4g 1,6g от които захари 0g 0g Протеини 78g 20g Сол 0,10g 0,03g Хранителната стойност се изчислява въз основа на Черната пантера, аромат на синя малина. Ако изберете друг аромат, хранителната стойност може да се различава.",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 2.08
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "low",
+      "scraped_at": "2026-07-02T13:19:29.485443Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 142.76,
+          "price_eur": 72.99,
+          "unit_value": 2.08
+        }
+      ]
+    },
+    {
+      "id": "myprotein-crispy-square",
+      "store": "MyProtein",
+      "name": "Crispy Square",
+      "brand": "Myprotein",
+      "category": "protein",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/crispy-square-protein-snack/14853231/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/14853232-1765214749243277.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 39.0,
+      "price_eur": 19.94,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 360.0,
+      "servings": null,
+      "count": 12,
+      "active": {
+        "protein_g": 20.0
+      },
+      "label_text": "За 100g | За 30g | Енергийна стойност | 1357kJ/323kcal | 407kJ/97kcal | Мазнини | 4,4g | 1,3g | от които наситени | 3,1g | 0,9g | Въглехидрати | 43g | 13g | от които захари | 19g | 5,6g | Фибри | 17g | 5,0g | Протеини | 20g | 6,0g | Сол | 0,58g | 0,17g / Crispy Squares — 6х30g ℮ (180g) — Аромат на ванилия и маршмелоу Размер на порцията: 30g Порции в опаковка: 6 За 100g За 30g Енергийна стойност 1357kJ/323kcal 407kJ/97kcal Мазнини 4,4g 1,3g от които наситени 3,1g 0,9g Въглехидрати 43g 13g от които захари 19g 5,6g Фибри 17g 5,0g Протеини 20g 6,0g Сол 0,58g 0,17g Хранителната информация се дава въз основа на Ванилия и маршмелоу. Ако изберете друг аромат, хранителната стойност може да се различава.",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 4.06
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "high",
+      "scraped_at": "2026-07-02T13:19:30.101786Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 39.0,
+          "price_eur": 19.94,
+          "unit_value": 4.06
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-clear-whey-chupa-chups-аромат-на-ягода",
+      "store": "MyProtein",
+      "name": "Clear Whey – Chupa Chups® Аромат на ягода",
+      "brand": "Myprotein",
+      "category": "protein",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/clear-whey-chupa-chups-strawberry-flavour/14866282/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/14866283-8215093356645251.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 87.6,
+      "price_eur": 44.79,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 900.0,
+      "servings": 20,
+      "count": null,
+      "active": {
+        "estimated_total_protein_g": 765.0,
+        "estimated_protein_ratio_pct": 85
+      },
+      "label_text": "За 100g | За 25g порция | Енергийна стойност | 1480kJ/348kcal | 348kJ/87kcal | Мазнини | <0,5g | <0,5g | от които наситени | 0,2g | <0,1g | Въглехидрати | 2,0g | <0,5g | от които захари | 1,2g | <0,5g | Протеини | 84g | 21g | Сол | 0,09g | 0,02g / Chupa Chups Clear Whey с аромат на ягода Размер на порция 25g Xранителна информация За 100g За 25g порция Енергийна стойност 1480kJ/348kcal 348kJ/87kcal Мазнини <0,5g <0,5g от които наситени 0,2g <0,1g Въглехидрати 2,0g <0,5g от които захари 1,2g <0,5g Протеини 84g 21g Сол 0,09g 0,02g Хранителната стойност се изчислява въз основа на Chupa Chups с аромат на ягода. Ако изберете друг аромат, хранителната стойност може да се различава.",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 2.86
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "low",
+      "scraped_at": "2026-07-02T13:19:30.732670Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 87.6,
+          "price_eur": 44.79,
+          "unit_value": 2.86
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-myprotein-shakesphere-решение-за-съхранение",
+      "store": "MyProtein",
+      "name": "Myprotein Shakesphere решение за съхранение",
+      "brand": "Myprotein",
+      "category": "protein",
+      "url": "https://www.myprotein.bg/p/protein-accessories/myprotein-shakesphere-stackable-storage/14900136/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/14900136-1985121450276015.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 59.01,
+      "price_eur": 30.17,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 900.0,
+      "servings": 30,
+      "count": null,
+      "active": {
+        "estimated_total_protein_g": 765.0,
+        "estimated_protein_ratio_pct": 85
+      },
+      "label_text": null,
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 1.93
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "low",
+      "scraped_at": "2026-07-02T13:19:31.855798Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 59.01,
+          "price_eur": 30.17,
+          "unit_value": 1.93
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-impact-protein-пакет",
+      "store": "MyProtein",
+      "name": "Impact Protein пакет",
+      "brand": "Myprotein",
+      "category": "protein",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/impact-protein-bundle/14914642/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/17793399-1715326969990596.png&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 87.6,
+      "price_eur": 44.79,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 900.0,
+      "servings": 30,
+      "count": null,
+      "active": {
+        "protein_g": 20.0
+      },
+      "label_text": "За повече информация, моля, вижте страниците за отделните продукти. Impact Whey Protein — аромат на ванилия Impact Whey Protein — аромат на натурален шоколад Impact Whey Protein — аромат на бисквитки с крем Impact Whey Protein — аромат на бял шоколад Impact Whey Protein - без аромат",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 3.65
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "high",
+      "scraped_at": "2026-07-02T13:19:32.941543Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 87.6,
+          "price_eur": 44.79,
+          "unit_value": 3.65
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-the-recovery---hyrox",
+      "store": "MyProtein",
+      "name": "THE Recovery - HYROX",
+      "brand": "Myprotein",
+      "category": "protein",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/the-recovery-x-hyrox-protein-carbohydrate-electrolyte-powder/15206602/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/15206608-1405151207219162.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 82.13,
+      "price_eur": 41.99,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 900.0,
+      "servings": 16,
+      "count": null,
+      "active": {
+        "protein_g": 45.0
+      },
+      "label_text": "За 100g | За 43g | Енергийна стойност | 1391kJ/327kcal | 598kJ/141kcal | Мазнини | 0g | 0g | от които наситени | 0g | 0g | Въглехидрати | 36g | 15g | от които захари | 3,0g | 1,3g | Протеини | 45g | 20g | Сол | 1,30g | 0,56g | Калий | 693mg (35%*) | 298mg (15%*) | Хлорид | 618mg (77%*) | 266mg (33%*) | Натрий | 520mg | 220mg | Калций | 279mg (35%*) | 120mg (15%*) | Магнезий | 140mg (37%*) | 60,0mg (16%*) / ПОРТОКАЛ И МАНГО Хранителна информация За 100g За 43g Енергийна стойност 1391kJ/327kcal 598kJ/141kcal Мазнини 0g 0g от които наситени 0g 0g Въглехидрати 36g 15g от които захари 3,0g 1,3g Протеини 45g 20g Сол 1,30g 0,56g Калий 693mg (35%*) 298mg (15%*) Хлорид 618mg (77%*) 266mg (33%*) Натрий 520mg 220mg Калций 279mg (35%*) 120mg (15%*) Магнезий 140mg (37%*) 60,0mg (16%*)",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 2.85
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "high",
+      "scraped_at": "2026-07-02T13:19:34.183186Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 82.13,
+          "price_eur": 41.99,
+          "unit_value": 2.85
+        }
+      ]
+    },
+    {
+      "id": "myprotein-clear-protein-пакет",
+      "store": "MyProtein",
+      "name": "Clear Protein Пакет",
+      "brand": "Myprotein",
+      "category": "protein",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/myprotein-clear-protein-starter-bundle-cee/14920070/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/14920071-7765108956974660.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 70.39,
+      "price_eur": 35.99,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 900.0,
+      "servings": 20,
+      "count": null,
+      "active": {
+        "protein_g": 20.0
+      },
+      "label_text": "За повече информация, моля, вижте страниците за отделните продукти. Clear Whey Protein — аромат на портокал и манго Clear Whey Protein — аромат на ягода и киви Clear Whey Protein — аромат на малинова лимонада Clear Whey Protein — аромат на червена боровинка и малина Clear Whey Protein — аромат на чай от праскова",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 4.4
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "high",
+      "scraped_at": "2026-07-02T13:19:34.913187Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 70.39,
+          "price_eur": 35.99,
+          "unit_value": 4.4
+        }
+      ]
+    },
+    {
+      "id": "myprotein-протеинови-гофрети",
+      "store": "MyProtein",
+      "name": "Протеинови гофрети",
+      "brand": "Myprotein",
+      "category": "protein",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/protein-waffles/15402393/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/15402394-1605304689613588.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 75.98,
+      "price_eur": 38.85,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 600.0,
+      "servings": null,
+      "count": 12,
+      "active": {
+        "protein_g": 20.0
+      },
+      "label_text": "За 100g | За порция | Енергийна стойност | 1712kJ/411kcal | 856kJ/205kcal | Мазнини | 23g | 12g | от които наситени | 13g | 6,5g | Въглехидрати | 37g | 18g | от които захари | 1,2g | 0,6g | Фибри | 3,4g | 1,7g | Протеини | 20g | 10g | Сол | 0,59g | 0,30g / Протеинови гофрети — Канела — 12x50g ℮ (600g) Размер на порцията: 50g Порции в опаковка: 12 За 100g За порция Енергийна стойност 1712kJ/411kcal 856kJ/205kcal Мазнини 23g 12g от които наситени 13g 6,5g Въглехидрати 37g 18g от които захари 1,2g 0,6g Фибри 3,4g 1,7g Протеини 20g 10g Сол 0,59g 0,30g Хранителната стойност се изчислява въз основа на аромат на канела. Ако изберете друг аромат, хранителната стойност може да се различава.",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 4.75
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "high",
+      "scraped_at": "2026-07-02T13:19:35.505696Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 75.98,
+          "price_eur": 38.85,
+          "unit_value": 4.75
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-impact-whey-isolate-капитан-америка-ванилия-и-малина",
+      "store": "MyProtein",
+      "name": "Impact Whey Isolate — Капитан Америка — ванилия и малина",
+      "brand": "Myprotein",
+      "category": "protein",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/impact-whey-isolate-captain-america-vanilla-raspberry/15867731/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/15867731-1875215968618363.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 88.99,
+      "price_eur": 45.5,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 2023.0,
+      "servings": 67,
+      "count": null,
+      "active": {
+        "estimated_total_protein_g": 1719.5,
+        "estimated_protein_ratio_pct": 85
+      },
+      "label_text": "За 100g | За порция | Енергийна стойност | 1470kJ/346kcal | 441kJ/104kcal | Мазнини | 0,9g | <0,5g | от които наситени | 0,4g | 0,1g | Въглехидрати | 4,8g | 1,4g | от които захари | 1,9g | 0,6g | Протеини | 80g | 24g | Сол | 0,63g | 0,19g / Размер на порцията: 30g Порции в кутия: 20 За 100g За порция Енергийна стойност 1470kJ/346kcal 441kJ/104kcal Мазнини 0,9g <0,5g от които наситени 0,4g 0,1g Въглехидрати 4,8g 1,4g от които захари 1,9g 0,6g Протеини 80g 24g Сол 0,63g 0,19g Хранителната информация се дава въз основа на аромат Капитан Америка. Ако изберете друг аромат, хранителната стойност може да се различава.",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 1.29
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "low",
+      "scraped_at": "2026-07-02T13:19:38.671279Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 88.99,
+          "price_eur": 45.5,
+          "unit_value": 1.29
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-чист-суроватъчен-протеин-x-chupa-chups-cola",
+      "store": "MyProtein",
+      "name": "Чист суроватъчен протеин x Chupa Chups Cola",
+      "brand": "Myprotein",
+      "category": "protein",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/clear-whey-protein-x-chupa-chups-cola/15921022/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/16400831-1515243459093841.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 92.61,
+      "price_eur": 47.35,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 500.0,
+      "servings": 20,
+      "count": null,
+      "active": {
+        "estimated_total_protein_g": 425.0,
+        "estimated_protein_ratio_pct": 85
+      },
+      "label_text": "За 100g | За порция | Енергийна стойност | 1445kJ/340kcal | 376kJ/88kcal | Мазнини | <0,5g | <0,5g | от които наситени | 0,1g | <0,1g | Въглехидрати | 6,1g | 1,6g | от които захари | 0,8g | <0,5g | Протеини | 78g | 20g | Сол | 0,09g | 0,02g / CHUPA CHUPS COLA Размер на порцията: 26g Порции в кутия: 20 порции (520g) За 100g За порция Енергийна стойност 1445kJ/340kcal 376kJ/88kcal Мазнини <0,5g <0,5g от които наситени 0,1g <0,1g Въглехидрати 6,1g 1,6g от които захари 0,8g <0,5g Протеини 78g 20g Сол 0,09g 0,02g * Хранителна референтна стойност Хранителната стойност се изчислява въз основа на аромат на CHUPA CHUPS COLA. Ако изберете друг аромат, хранителната стойност може да се различава.",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 5.45
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "low",
+      "scraped_at": "2026-07-02T13:19:39.290788Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 92.61,
+          "price_eur": 47.35,
+          "unit_value": 5.45
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-протеин-от-костен-бульон",
+      "store": "MyProtein",
+      "name": "Протеин от костен бульон",
+      "brand": "Myprotein",
+      "category": "protein",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/bone-broth-protein/15980633/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/15980633-2445303879900649.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 46.92,
+      "price_eur": 23.99,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 300.0,
+      "servings": null,
+      "count": null,
+      "active": {
+        "protein_g": 11.0
+      },
+      "label_text": "За 100g | За порция | Енергийна стойност | 1597kJ/377kcal | 319kJ/75kcal | Мазнини | 3,4g | 0,7g | от които наситени | 0,6g | 0,1g | Въглехидрати | 24g | 4,9g | от които захари | 3,8g | 0,8g | Протеини | 61g | 12g | Сол | 3,8g | 0,77g | Активни съставки | Колаген | 54g | 11g / Костен бульон на прах — говежди и зеленчуков — 300g e Размер на порция: 20g Порции в опаковка: 15 За 100g За порция Енергийна стойност 1597kJ/377kcal 319kJ/75kcal Мазнини 3,4g 0,7g от които наситени 0,6g 0,1g Въглехидрати 24g 4,9g от които захари 3,8g 0,8g Протеини 61g 12g Сол 3,8g 0,77g Активни съставки Колаген 54g 11g Хранителната стойност се изчислява въз основа на аромат на говеждо и зеленчуци. Ако изберете друг аромат, хранителната стойност може да се различава.",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 10.66
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "high",
+      "scraped_at": "2026-07-02T13:19:39.924095Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 46.92,
+          "price_eur": 23.99,
+          "unit_value": 10.66
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-origin-protein-железния-човек-торта-червено-кадифе-marvel",
+      "store": "MyProtein",
+      "name": "Origin Protein – Железния човек – Торта червено кадифе | MARVEL",
+      "brand": "Myprotein",
+      "category": "protein",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/origin-protein-marvel/16003857/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/17538714-1625281534811889.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 138.84,
+      "price_eur": 70.99,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 900.0,
+      "servings": 25,
+      "count": null,
+      "active": {
+        "estimated_total_protein_g": 765.0,
+        "estimated_protein_ratio_pct": 85
+      },
+      "label_text": "За 100g | За порция | Енергийна стойност | 1343kJ/317kcal | 645kJ/152kcal | Мазнини | 4,5g | 2,1g | от които наситени | 2,7g | 1,3g | Въглехидрати | 7,0g | 3,3g | от които захари | 4,2g | 2,0g | Протеини | 62g | 30g | Сол | 0,33g | 0,16g | АКТИВНИ СЪСТАВКИ | Креатин монохидрат | 11,9g | 5,7g | от който креатин | 10,4g | 5,0g / Размер на порцията: 48g Порции в опаковка: 25 За 100g За порция Енергийна стойност 1343kJ/317kcal 645kJ/152kcal Мазнини 4,5g 2,1g от които наситени 2,7g 1,3g Въглехидрати 7,0g 3,3g от които захари 4,2g 2,0g Протеини 62g 30g Сол 0,33g 0,16g АКТИВНИ СЪСТАВКИ Креатин монохидрат 11,9g 5,7g от който креатин 10,4g 5,0g Хранителната стойност се изчислява въз основа на Железен човек. Ако изберете друг аромат, хранителната стойност може да се различава.",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 4.54
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "low",
+      "scraped_at": "2026-07-02T13:19:40.652717Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 138.84,
+          "price_eur": 70.99,
+          "unit_value": 4.54
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-основни-шеикове",
+      "store": "MyProtein",
+      "name": "Основни шейкове",
+      "brand": "Myprotein",
+      "category": "protein",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/essential-whey-protein-shake/16670299/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/16670299-1755257697924550.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 158.4,
+      "price_eur": 80.99,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 2500.0,
+      "servings": 70,
+      "count": null,
+      "active": {
+        "estimated_total_protein_g": 2125.0,
+        "estimated_protein_ratio_pct": 85
+      },
+      "label_text": "За 100g | За доза | Енергийна стойност | 1667kJ/395kcal | 583kJ/138kcal | Мазнини | 9,3g | 3,2g | от които наситени мазнини | 5,5g | 1,9g | Въглехидрати | 19g | 6,7g | от които захари | 13g | 4,6g | Белтъци | 58g | 20g | Сол | 0,45g | 0,16g / МЛЕЧЕН ШЕЙК С АРОМАТ НА БАНАН Размер на дозата: 35g За 100g За доза Енергийна стойност 1667kJ/395kcal 583kJ/138kcal Мазнини 9,3g 3,2g от които наситени мазнини 5,5g 1,9g Въглехидрати 19g 6,7g от които захари 13g 4,6g Белтъци 58g 20g Сол 0,45g 0,16g *Хранителна референтна стойност Хранителната стойност се изчислява въз основа на МЛЕЧЕН ШЕЙК С АРОМАТ НА БАНАН. Ако изберете друг аромат, хранителната стойност може да се различава.",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 1.86
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "low",
+      "scraped_at": "2026-07-02T13:19:41.592941Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 158.4,
+          "price_eur": 80.99,
+          "unit_value": 1.86
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-clear-whey-splash",
+      "store": "MyProtein",
+      "name": "Clear Whey Splash",
+      "brand": "Myprotein",
+      "category": "protein",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/clear-whey-protein-splash-of-flavour/16111658/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/17113631-1645261592711069.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 123.2,
+      "price_eur": 62.99,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 390.0,
+      "servings": 15,
+      "count": null,
+      "active": {
+        "estimated_total_protein_g": 331.5,
+        "estimated_protein_ratio_pct": 85
+      },
+      "label_text": "За 100g | За порция | Енергийна стойност | 1404kJ/330kcal | 365kJ/86kcal | Мазнини | <0,5g | <0,5g | от които наситени | 0,1g | <0,1g | Въглехидрати | 5,1g | 1,3g | от които захари | 0,9g | <0,5g | Протеини | 77g | 20g | Сол | 1,1g | 0,29g / Clear Whey Splash — Ананас — 390g Размер на порцията: 26g Порции в опаковка: 15 За 100g За порция Енергийна стойност 1404kJ/330kcal 365kJ/86kcal Мазнини <0,5g <0,5g от които наситени 0,1g <0,1g Въглехидрати 5,1g 1,3g от които захари 0,9g <0,5g Протеини 77g 20g Сол 1,1g 0,29g Хранителната стойност се изчислява въз основа на аромат на ананас. Ако изберете друг аромат, хранителната стойност може да се различава.",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 9.29
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "low",
+      "scraped_at": "2026-07-02T13:19:41.531525Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 123.2,
+          "price_eur": 62.99,
+          "unit_value": 9.29
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-grass-fed-impact-whey-isolate",
+      "store": "MyProtein",
+      "name": "Grass-Fed Impact Whey Isolate",
+      "brand": "Myprotein",
+      "category": "protein",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/grass-fed-impact-whey-isolate/16795191/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/17007126-7775343294807582.png&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 179.92,
+      "price_eur": 91.99,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 1000.0,
+      "servings": 30,
+      "count": null,
+      "active": {
+        "estimated_total_protein_g": 850.0,
+        "estimated_protein_ratio_pct": 85
+      },
+      "label_text": "За 100g | За порция | Енергийна стойност | 1537kJ/362kcal | 461kJ/109kcal | Мазнини | 1,0g | <0,5g | от които наситени | 0,3g | <0,1g | Въглехидрати | 3,8g | 1,1g | от които захари | 2,5g | 0,8g | Протеини | 85g | 26g | Сол | 0,66g | 0,20g / Grass Fed Impact Whey Isolate — Без аромат — 1kg Размер на порцията: 30g Порции в кутия: 33 За 100g За порция Енергийна стойност 1537kJ/362kcal 461kJ/109kcal Мазнини 1,0g <0,5g от които наситени 0,3g <0,1g Въглехидрати 3,8g 1,1g от които захари 2,5g 0,8g Протеини 85g 26g Сол 0,66g 0,20g Хранителната стойност се изчислява въз основа на протеин без аромат. Ако изберете друг аромат, хранителната стойност може да се различава.",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 5.29
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "low",
+      "scraped_at": "2026-07-02T13:19:42.581464Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 179.92,
+          "price_eur": 91.99,
+          "unit_value": 5.29
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-myprotein-рециклирана-метална-чаша-за-кафе-350ml---розова",
+      "store": "MyProtein",
+      "name": "Myprotein рециклирана метална чаша за кафе 350ml - розова",
+      "brand": "Myprotein",
+      "category": "protein",
+      "url": "https://www.myprotein.bg/p/protein-accessories/myprotein-recycled-metal-coffee-cup-350ml-blush/17134836/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/17134836-1835303368957608.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 66.5,
+      "price_eur": 34.0,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 900.0,
+      "servings": 30,
+      "count": null,
+      "active": {
+        "estimated_total_protein_g": 765.0,
+        "estimated_protein_ratio_pct": 85
+      },
+      "label_text": null,
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 2.17
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "low",
+      "scraped_at": "2026-07-02T13:19:43.193063Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 66.5,
+          "price_eur": 34.0,
+          "unit_value": 2.17
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-clear-protein-суроватъчен-протеин-и-колаген",
+      "store": "MyProtein",
+      "name": "Clear Protein | Суроватъчен протеин и колаген",
+      "brand": "Myprotein",
+      "category": "protein",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/clear-whey-protein-collagen/17263290/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/17263290-1975330294785212.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 128.91,
+      "price_eur": 65.91,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 1000.0,
+      "servings": 40,
+      "count": null,
+      "active": {
+        "estimated_total_protein_g": 600.0,
+        "estimated_protein_ratio_pct": 60
+      },
+      "label_text": "За 100g | За порция | Енергийна стойност | 1509kJ/355kcal | 377kJ/89kcal | Мазнини | 0g | 0g | от които наситени мазнини | 0g | 0g | Въглехидрати | 3,4g | 0,9g | от които захари | 0g | 0g | Протеини | 85g | 21g | Сол | 0,25g | 0,06g | Витамин C | 210mg (260%*) | 52mg (65%*) | Активни съставки | Колаген | 40g | 10g / Clear Protein - 500g - С аромат на малинова лимонада Размер на порцията: 25g Порции в опаковка: 20 За 100g За порция Енергийна стойност 1509kJ/355kcal 377kJ/89kcal Мазнини 0g 0g от които наситени мазнини 0g 0g Въглехидрати 3,4g 0,9g от които захари 0g 0g Протеини 85g 21g Сол 0,25g 0,06g Витамин C 210mg (260%*) 52mg (65%*) Активни съставки Колаген 40g 10g *Хранителна референтна стойност Информацията за хранителната стойност е въз основа на аромат на малинова лимонада. Ако изберете друг аромат, хранителната стойност може да се различава.",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 5.37
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "medium",
+      "scraped_at": "2026-07-02T13:19:44.691263Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 128.91,
+          "price_eur": 65.91,
+          "unit_value": 5.37
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-protein-iced-coffee",
+      "store": "MyProtein",
+      "name": "Protein Iced Coffee",
+      "brand": "Myprotein",
+      "category": "protein",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/protein-iced-coffee/17631051/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/17631052-1125343232497633.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 93.86,
+      "price_eur": 47.99,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 640.0,
+      "servings": 20,
+      "count": null,
+      "active": {
+        "estimated_total_protein_g": 544.0,
+        "estimated_protein_ratio_pct": 85
+      },
+      "label_text": "Хранителна информация | Типични стойности | За 100 g | За 32 g | Енергийна стойност | 1579 kJ | 505 kJ | Енергийна стойност | 374 kcal | 120 kcal | Мазнини | 5,5 g | 1,8 g | от които наситени | 3,4 g | 1,1 g | Въглехидрати | 16 g | 5,1 g | от които захари | 11 g | 3,5 g | Протеини | 63 g | 20 g | Сол | 0,42 g | 0,13 g | Витамини и минерали | Общо кофеин - от всички източници | 231,9 mg | 74,2 mg | НРС=Референтна стойност за хранителен прием | Съдържа 20 порции / Хранителна информация Типични стойности За 100 g За 32 g Енергийна стойност 1579 kJ 505 kJ Енергийна стойност 374 kcal 120 kcal Мазнини 5,5 g 1,8 g от които наситени 3,4 g 1,1 g Въглехидрати 16 g 5,1 g от които захари 11 g 3,5 g Протеини 63 g 20 g Сол 0,42 g 0,13 g Витамини и минерали Общо кофеин - от всички източници 231,9 mg 74,2 mg НРС=Референтна стойност за хранителен прием Съдържа 20 порции",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 4.31
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "low",
+      "scraped_at": "2026-07-02T13:19:45.251358Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 93.86,
+          "price_eur": 47.99,
+          "unit_value": 4.31
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-impact-whey-isolate-matcha",
+      "store": "MyProtein",
+      "name": "Impact Whey Isolate | Matcha",
+      "brand": "Myprotein",
+      "category": "protein",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/impact-whey-isolate-powder-matcha/17682631/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/17682631-2135303112239400.png&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 213.17,
+      "price_eur": 108.99,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 2500.0,
+      "servings": 83,
+      "count": 1,
+      "active": {
+        "estimated_total_protein_g": 2125.0,
+        "estimated_protein_ratio_pct": 85
+      },
+      "label_text": "За 100g | За порция | Енергийна стойност | 1534kJ/362kcal | 460kJ/109kcal | Мазнини | 2,0g | 0,6g | от които наситени мазнини | 0,5g | 0,2g | Въглехидрати | 9,5g | 2,9g | от които захари | 2,9g | 0,9g | Фибри | 3,5g | 1,1g | Протеини | 75g | 22g | Сол | 0,59g | 0,18g / Impact Whey Isolate — Аромат на чай матча и манго Размер на порцията: 30g За 100g За порция Енергийна стойност 1534kJ/362kcal 460kJ/109kcal Мазнини 2,0g 0,6g от които наситени мазнини 0,5g 0,2g Въглехидрати 9,5g 2,9g от които захари 2,9g 0,9g Фибри 3,5g 1,1g Протеини 75g 22g Сол 0,59g 0,18g Хранителната стойност се изчислява въз основа на аромат Чай матча и манго. Ако изберете друг аромат, хранителната стойност може да се различава.",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 2.51
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "low",
+      "scraped_at": "2026-07-02T13:19:46.022804Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 213.17,
+          "price_eur": 108.99,
+          "unit_value": 2.51
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-clear-whey-protein-and-collagen-plus",
+      "store": "MyProtein",
+      "name": "Clear Whey Protein and Collagen Plus",
+      "brand": "Myvitamins",
+      "category": "protein",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/clear-whey-protein-and-collagen-plus/17709010/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/17709011-1115339863170918.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 102.62,
+      "price_eur": 52.47,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 486.0,
+      "servings": 20,
+      "count": null,
+      "active": {
+        "estimated_total_protein_g": 413.1,
+        "estimated_protein_ratio_pct": 85
+      },
+      "label_text": "nbsp; | За 100g | За порция | Енергийна стойност | 1464kJ/345kcal | 369kJ/87kcal | Мазнини | <0,5g | <0,1g | от които наситени мазнини | <0,5g | <0,1g | Въглехидрати | 14g | 3,6g | от които захари | 4,7g | 1,2g | Фибри | 2,3g | 0,6g | Протеини | 70g | 18g | Сол | 0,51g | 0,13g | Активни съставки | Морски колаген | 40g | 10g | Плодове на киви на прах (като Actazin®) | 2200mg | 555mg | Ашваганда KSM-66® | 1980mg | 500mg | Ниацин | 19mg (119%*) | 4,8mg (30%*) | Желязо | 8,3mg (59%*) | 2,1mg (15%*) | Пантотенова киселина | 7,1mg (118%*) | 1,8mg (30%*) | Мака | 4,0g | 1,0g | Рибофлавин | 1,7mg (121%*) | 0,42mg (30%*) | Витамин B6 | 1,67mg (121%*) | 0,42mg (30%*) | Тиамин | 1,3mg (118%*) | 0,34mg (31%*) | Фолиева киселина | 238μg (119%*) | 60μg (30%*) | Биотин | 60μg (119%*) | 15μg (30%*) | Витамин B12 | 3,0μg (120%*) | 0,75μg (30%*) / Myvitamins 2-in-1 Clear Whey Protein + Collagen - 504g - Череша и малина Размер на порцията: 25,2g Брой порции в опаковка: 20 nbsp; За 100g За порция Енергийна стойност 1464kJ/345kcal 369kJ/87kcal Мазнини <0,5g <0,1g от които наситени мазнини <0,5g <0,1g Въглехидрати 14g 3,6g от които захари 4,7g 1,2g Фибри 2,3g 0,6g Протеини 70g 18g Сол 0,51g 0,13g Активни съставки Морски колаген 40g 10g Плодове на киви на прах (като Actazin®) 2200mg 555mg Ашваганда KSM-66® 1980mg 500mg Ниацин 19mg (119%*) 4,8mg (30%*) Желязо 8,3mg (59%*) 2,1mg (15%*) Пантотенова киселина 7,1mg (118%*) 1,8mg (30%*) Мака 4,0g 1,0g Рибофлавин 1,7mg (121%*) 0,42mg (30%*) Витамин B6 1,67mg (121%*) 0,42mg (30%*) Тиамин 1,3mg (118%*) 0,34mg (31%*) Фолиева киселина 238μg (119%*) 60μg (30%*) Биотин 60μg (119%*) 15μg (30%*) Витамин B12 3,0μg (120%*) 0,75μg (30%*) Информацията за хранителната стойност е за вкус Череша и малина. Ако изберете друг вкус, хранителната стойност може да се ра",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 6.21
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "low",
+      "scraped_at": "2026-07-02T13:19:46.623095Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 102.62,
+          "price_eur": 52.47,
+          "unit_value": 6.21
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-impact-whey-протеин-колаген",
+      "store": "MyProtein",
+      "name": "Impact Whey Протеин + Колаген",
+      "brand": "Myprotein",
+      "category": "protein",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/impact-whey-protein-collagen/17725536/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/17725536-1595330613532623.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 424.4,
+      "price_eur": 216.99,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 3750.0,
+      "servings": 150,
+      "count": null,
+      "active": {
+        "estimated_total_protein_g": 2250.0,
+        "estimated_protein_ratio_pct": 60
+      },
+      "label_text": "За 100g | За порция | Енергийна стойност | 1636kJ/386kcal | 409kJ/96kcal | Мазнини | 3,0g | 0,7g | от които наситени мазнини | 1,8g | 0,5g | Въглехидрати | 10g | 2,6g | от които захари | 2,9g | 0,7g | Протеини | 79g | 20g | Сол | 0,41g | 0,10g | Витамин C | 210mg (260%*) | 52mg (65%*) | Активни съставки | Колаген | 40g | 10g / Impact Whey Protein & Collagen – Ванилия Размер на порцията: 25g За 100g За порция Енергийна стойност 1636kJ/386kcal 409kJ/96kcal Мазнини 3,0g 0,7g от които наситени мазнини 1,8g 0,5g Въглехидрати 10g 2,6g от които захари 2,9g 0,7g Протеини 79g 20g Сол 0,41g 0,10g Витамин C 210mg (260%*) 52mg (65%*) Активни съставки Колаген 40g 10g * Хранителна референтна стойност Информацията за хранителната стойност е за вкус Ванилия. Ако изберете друг вкус, хранителната стойност може да се различава.",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 4.72
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "medium",
+      "scraped_at": "2026-07-02T13:19:47.424171Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 424.4,
+          "price_eur": 216.99,
+          "unit_value": 4.72
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-impact-whey-protein-milkshake",
+      "store": "MyProtein",
+      "name": "Impact Whey Protein Milkshake",
+      "brand": "Myprotein",
+      "category": "protein",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/impact-whey-protein-milkshake/17755445/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/17755459-1215335464288657.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 442.0,
+      "price_eur": 225.99,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 4500.0,
+      "servings": 150,
+      "count": null,
+      "active": {
+        "estimated_total_protein_g": 3825.0,
+        "estimated_protein_ratio_pct": 85
+      },
+      "label_text": "nbsp; | За 100g | За порция | Енергийна стойност | 1554kJ/367kcal | 451kJ/168kcal | Мазнини | 4,1g | 1,2g | от които наситени мазнини | 2,7g | 0,8g | Въглехидрати | 14g | 3,9g | от които захари | 8,9g | 2,6g | Протеини | 68g | 20g | Сол | 1,5g | 0,43g / Impact Whey Protein Shake - Солен карамел Размер на порцията: 29g nbsp; За 100g За порция Енергийна стойност 1554kJ/367kcal 451kJ/168kcal Мазнини 4,1g 1,2g от които наситени мазнини 2,7g 0,8g Въглехидрати 14g 3,9g от които захари 8,9g 2,6g Протеини 68g 20g Сол 1,5g 0,43g Хранителната стойност се изчислява въз основа на вкус на солен карамел. Ако изберете друг вкус, хранителната стойност може да се различава.",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 2.89
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "low",
+      "scraped_at": "2026-07-02T13:19:47.992549Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 442.0,
+          "price_eur": 225.99,
+          "unit_value": 2.89
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-калции-магнезии",
+      "store": "MyProtein",
+      "name": "Калций & Магнезий",
+      "brand": "Myvitamins",
+      "category": "magnesium",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/calcium-magnesium-tablets/12457546/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/12457546-1884951374285912.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 40.0,
+      "price_eur": 20.45,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 100.0,
+      "servings": null,
+      "count": 270,
+      "active": {
+        "magnesium_mg": 800
+      },
+      "label_text": "В една доза | *RI | Калций | 800 mg | 100% | Магнезий | 375 mg | 100 % / Доза - 3 Tablets Дози в опаковка - 30 (90 Tablets), 90 (270 Tablets) Типични хранителни стойностиs В една доза *RI Калций 800 mg 100% Магнезий 375 mg 100 % * Reference intake of an average adult (8400 kJ/2000 kcal) / Типични хранителни стойностиs В една доза *RI Калций 800 mg 100% Магнезий 375 mg 100 %",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_100mg_magnesium": 0.02
+      },
+      "unit_label": "лв / 100 mg магнезий",
+      "confidence": "high",
+      "scraped_at": "2026-07-02T13:19:48.981403Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 40.0,
+          "price_eur": 20.45,
+          "unit_value": 0.02
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-магнезиев-бисглицинат-на-таблетки",
+      "store": "MyProtein",
+      "name": "Магнезиев бисглицинат на таблетки",
+      "brand": "Myvitamins",
+      "category": "magnesium",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/1000mg-magnesium-bisglycinate-tablets/15736555/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/15736555-1975229004099851.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 42.99,
+      "price_eur": 21.98,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 900.0,
+      "servings": 90,
+      "count": 1,
+      "active": {
+        "magnesium_mg": 113
+      },
+      "label_text": "Активни съставки | В дневна доза | 1 таблетка | АКТИВНИ СЪСТАВКИ | ~ | Магнезиев бисглицинат | 1000mg | от който магнезий | 113mg (30%*) / Размер на порцията: 1 таблетка Порции в кутия – 90 Активни съставки В дневна доза 1 таблетка АКТИВНИ СЪСТАВКИ ~ Магнезиев бисглицинат 1000mg от който магнезий 113mg (30%*) * Хранителна референтна стойност",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_100mg_magnesium": 0.42
+      },
+      "unit_label": "лв / 100 mg магнезий",
+      "confidence": "high",
+      "scraped_at": "2026-07-02T13:19:51.240656Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 42.99,
+          "price_eur": 21.98,
+          "unit_value": 0.42
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-магнезиеви-дъвчащи-таблетки",
+      "store": "MyProtein",
+      "name": "Магнезиеви дъвчащи таблетки",
+      "brand": "Myvitamins",
+      "category": "magnesium",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/magnesium-gummies/15352141/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/15352142-2125182324934751.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 36.5,
+      "price_eur": 18.66,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 900.0,
+      "servings": 30,
+      "count": null,
+      "active": {
+        "magnesium_mg": 150
+      },
+      "label_text": "АКТИВНИ СЪСТАВКИ | Дневна доза | 1 дъвчаща таблетка | Магнезий | 150mg (40%*) | Витамин B6 | 0,7mg (50%*) | * Хранителна референтна стойност / АКТИВНИ СЪСТАВКИ Дневна доза 1 дъвчаща таблетка Магнезий 150mg (40%*) Витамин B6 0,7mg (50%*) * Хранителна референтна стойност",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_100mg_magnesium": 0.81
+      },
+      "unit_label": "лв / 100 mg магнезий",
+      "confidence": "high",
+      "scraped_at": "2026-07-02T13:19:51.904319Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 36.5,
+          "price_eur": 18.66,
+          "unit_value": 0.81
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-магнезии-глицинат-дъвчета",
+      "store": "MyProtein",
+      "name": "Магнезий Глицинат Дъвчета",
+      "brand": "Myprotein",
+      "category": "magnesium",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/magnesium-glycinate-gummies-sugar-free/17748967/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/17748967-1555345589561561.png&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 42.54,
+      "price_eur": 21.75,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 900.0,
+      "servings": 30,
+      "count": null,
+      "active": {
+        "magnesium_mg": 70
+      },
+      "label_text": "nbsp; | За 100g | За порция | Енергийна стойност | 1150kJ/275kcal | 58kJ/14kcal | Мазнини | <0,5g | <0,1g | от които наситени мазнини | 0g | 0g | Въглехидрати | 72g | 3,6g | от които захари | <0,1g | 0g | Протеини | 12g | 0,6g | Сол | 1,96g | <0,1g | Активни съставки | Магнезиев бисглицинат | 721mg | от който магнезий | 70mg / Магнезиев бисглицинат без захар, дъвчащи таблетки - 30 дъвчащи таблетки - С вкус на смес от горски плодове Размер на порцията: 1 дъвчаща таблетка Брой порции в опаковка: 30 nbsp; За 100g За порция Енергийна стойност 1150kJ/275kcal 58kJ/14kcal Мазнини <0,5g <0,1g от които наситени мазнини 0g 0g Въглехидрати 72g 3,6g от които захари <0,1g 0g Протеини 12g 0,6g Сол 1,96g <0,1g Активни съставки Магнезиев бисглицинат 721mg от който магнезий 70mg Информацията за хранителната стойност е за вкус Смес от горски плодове. Ако изберете друг вкус, хранителната стойност може да се различава.",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_100mg_magnesium": 2.03
+      },
+      "unit_label": "лв / 100 mg магнезий",
+      "confidence": "high",
+      "scraped_at": "2026-07-02T13:19:52.541184Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 42.54,
+          "price_eur": 21.75,
+          "unit_value": 2.03
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-creapure-креатин",
+      "store": "MyProtein",
+      "name": "Creapure® Креатин",
+      "brand": "MyPRO",
+      "category": "creatine",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/creapure-creatine-powder/12456548/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/12456548-1395323601967762.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 166.23,
+      "price_eur": 84.99,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 1000.0,
+      "servings": 333,
+      "count": 90,
+      "active": {
+        "creatine_mg_per_serving": 3003
+      },
+      "label_text": "Per | 3g/3.86g/3.96g/4g* | Creapure® Креатин монохидрат | 3g / Активни вещества Per 3g/3.86g/3.96g/4g* Creapure® Креатин монохидрат 3g *Дозата зависи според вкуса. ВАЖНА ИНФОРМАЦИЯ:: Не превишавайте посоченотопрепоръчителна дневна доза. Този продукт е хранителна добавка и затова не трябва да се използвакато заместител на разнообразното хранене и здравословния начин на живот. Да се съхранява на хладно и сухо място, на място, недостъпнона малки деца. Подходящ за вегетарианци и вегани. ВНИМАНИЕ: Поради наличието на креатин, продуктът е предназначен само за възрастни. Ако сте бременна или кърмите, моля, потърсете лекарска помощ, преди да приемете този продукт.",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_5g_creatine": 0.83
+      },
+      "unit_label": "лв / 5 g креатин",
+      "confidence": "high",
+      "scraped_at": "2026-07-02T13:19:53.141284Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 166.23,
+          "price_eur": 84.99,
+          "unit_value": 0.83
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-creapure-микронизиран-креатин",
+      "store": "MyProtein",
+      "name": "Creapure® микронизиран креатин",
+      "brand": "MyPRO",
+      "category": "creatine",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/creapure-micronised-creatine-capsules/12457077/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/10574930-2114860399336489.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 55.49,
+      "price_eur": 28.37,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 900.0,
+      "servings": null,
+      "count": 245,
+      "active": {
+        "creatine_total_mg": 900000
+      },
+      "label_text": "В дневна доза | 4 capsules | Креатин Монохидрат | 2.8 g / Доза - 4 капсули Дози в опаковка - 61 (245 капсули) Активни вещества В дневна доза 4 capsules Креатин Монохидрат 2.8 g / Активни вещества В дневна доза 4 capsules Креатин Монохидрат 2.8 g",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_5g_creatine": 0.31
+      },
+      "unit_label": "лв / 5 g креатин",
+      "confidence": "medium",
+      "scraped_at": "2026-07-02T13:19:54.251856Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 55.49,
+          "price_eur": 28.37,
+          "unit_value": 0.31
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-креатин-монохидрат",
+      "store": "MyProtein",
+      "name": "Креатин Монохидрат",
+      "brand": "Myprotein",
+      "category": "creatine",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/creatine-monohydrate-powder/12456626/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/12456626-1425344551540423.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 142.99,
+      "price_eur": 73.11,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 1000.0,
+      "servings": 22,
+      "count": 90,
+      "active": {
+        "creatine_mg_per_serving": 3000
+      },
+      "label_text": "В една доза | Креатин Монохидрат | 3 g / Доза - 1 scoop (3g) Дози в опаковка - 83 (250g), 166 (500g), 333 (1kg) хранителни стойности В една доза Креатин Монохидрат 3 g Хранителни стойности са базирани на неовкусения вариант, като може да варират спрямо отделните вкусове. / хранителни стойности В една доза Креатин Монохидрат 3 g",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_5g_creatine": 0.71
+      },
+      "unit_label": "лв / 5 g креатин",
+      "confidence": "high",
+      "scraped_at": "2026-07-02T13:19:54.002667Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 142.99,
+          "price_eur": 73.11,
+          "unit_value": 0.71
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-дъвчащи-таблетки-с-креатин",
+      "store": "MyProtein",
+      "name": "Дъвчащи таблетки с креатин",
+      "brand": "Myprotein",
+      "category": "creatine",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/creatine-gummies/13528283/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/16194624-1525340189918789.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 21.98,
+      "price_eur": 11.24,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 900.0,
+      "servings": 300,
+      "count": null,
+      "active": {
+        "creatine_mg_per_serving": 3000
+      },
+      "label_text": "Активни съставки | В дневна доза | 3 Дъвчащи таблетки | Креатин | 3,0g / Дъвчащи таблетки с креатин — Лимон — 21 дъвчащи таблетки Размер на порцията: 3 дъвчащи таблетки Порции в опаковка: 7 Активни съставки В дневна доза 3 Дъвчащи таблетки Креатин 3,0g Хранителната стойност се изчислява въз основа на аромат на Лимон. Ако изберете друг аромат, хранителната стойност може да се различава.",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_5g_creatine": 0.12
+      },
+      "unit_label": "лв / 5 g креатин",
+      "confidence": "high",
+      "scraped_at": "2026-07-02T13:19:55.571344Z",
       "last_full_scrape": "2026-07-02",
       "price_history": [
         {
@@ -190139,187 +190097,304 @@ const SUPPLEMENTS_DATA = {
           "price_eur": 11.24,
           "unit_value": 0.12
         }
-      ]
+      ],
+      "promo_label": "-42% с код MYPBG"
     },
     {
-      "id": "myprotein-alpha-men-мултивитамини-за-мъже",
+      "id": "myprotein-origin-protein",
       "store": "MyProtein",
-      "name": "Alpha Men мултивитамини за мъже",
+      "name": "Origin Protein",
       "brand": "Myprotein",
-      "category": "multivitamin",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/alpha-men-multivitamin-tablets/12456739/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/13155750-1105277984655959.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 83.98,
-      "price_eur": 42.94,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 100.0,
-      "servings": null,
-      "count": 240,
-      "active": {
-        "multivitamin_serving": 1
-      },
-      "label_text": "За дневна порция | Калций | 360mg (45%*) | Фосфор | 194mg (28%*) | Инозитол | 150mg | Витамин C | 80mg (100%*) | Холин | 75mg | Магнезий | 56,0mg (15%*) | Алфа-липоева киселина | 26mg | Ниацин | 25mg NE (156%*) | Водорасли на прах | 20mg | Пантотенова киселина | 18mg (300%*) | Цинк | 15mg (150%*) | Витамин Е | 12mg a-TE (100%*) | Екстракт от листа на коприва | 6,3mg | Екстракт от семена на грозде | 6,0mg | Витамин B2 | 4,2mg (300%*) | Витамин B6 | 4,2mg (300%*) | Витамин B1 | 3,3mg (300%*) | Лутеин | 3,0mg | Манган | 1,0mg (50%*) | Липаза | 0,8mg | Мед | 0,25mg (25%*) | Витамин А | 500μg RE (63%*) | Фолиева киселина | 400μg (200%*) | Биотин | 150μg (300%*) | Селен | 80μg (145%*) | Хром | 60μg (150%*) | Молибден | 25μg (50%*) | Витамин K1 | 25μg (33%*) | Витамин B12 | 7,5μg (300%*) | Витамин D3 | 5,0μg (100%*) | Папаин | 2400 USP** | Амилаза | 675 USP** | Липаза | 115 USP** | Бромелаин | 15 GDU*** / Размер на порцията - 2 таблетки Порции в опаковка - 60 (120 таблетки), 120 (240 таблетки) Активни съставки За дневна порция Калций 360mg (45%*) Фосфор 194mg (28%*) Инозитол 150mg Витамин C 80mg (100%*) Холин 75mg Магнезий 56,0mg (15%*) Алфа-липоева киселина 26mg Ниацин 25mg NE (156%*) Водорасли на прах 20mg Пантотенова киселина 18mg (300%*) Цинк 15mg (150%*) Витамин Е 12mg a-TE (100%*) Екстракт от листа на коприва 6,3mg Екстракт от семена на грозде 6,0mg Витамин B2 4,2mg (300%*) Витамин B6 4,2mg (300%*) Витамин B1 3,3mg (300%*) Лутеин 3,0mg Манган 1,0mg (50%*) Липаза 0,8mg Мед 0,25mg (25%*) Витамин А 500μg RE (63%*) Фолиева киселина 400μg (200%*) Биотин 150μg (300%*) Селен 80μg (145%*) Хром 60μg (150%*) Молибден 25μg (50%*) Витамин K1 25μg (33%*) Витамин B12 7,5μg (300%*) Витамин D3 5,0μg (100%*) Папаин 2400 USP** Амилаза 675 USP** Липаза 115 USP** Бромелаин 15 GDU*** * NRV =",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_multivitamin_serving": 0.35
-      },
-      "unit_label": "лв / доза мултивитамин",
-      "confidence": "medium",
-      "scraped_at": "2026-07-02T12:49:12.768497Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 83.98,
-          "price_eur": 42.94,
-          "unit_value": 0.35
-        }
-      ]
-    },
-    {
-      "id": "myprotein-myvitamins-myvitamins-a-z-multivitamin-cee",
-      "store": "MyProtein",
-      "name": "Myvitamins Myvitamins A-Z Multivitamin (CEE)",
-      "brand": "Myvitamins",
-      "category": "multivitamin",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/a-z-multivitamin-tablets/12457689/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/11521278-1274854679742985.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 28.99,
-      "price_eur": 14.82,
+      "category": "creatine",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/origin-protein-with-creatine/15245849/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/16003861-8035272806383313.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 138.84,
+      "price_eur": 70.99,
       "currency_source": "EUR",
       "availability_status": "in_stock",
       "weight_grams": 900.0,
-      "servings": null,
-      "count": 90,
-      "active": {
-        "multivitamin_serving": 1
-      },
-      "label_text": "Active Ingredients | За порция | За порция | %RI* | Калций | 200mg | 25%* | Магнезий | 100mg | 27%* | Витамин C | 80mg | 100%* | Ниацин | 16mg NE | 100%* | Желязо | 14mg | 100%* | Витамин Е | 12mg a-TE | 100%* | Цинк | 10mg | 100%* | Пантотенова киселина | 6,0mg | 100%* | Манган | 2,0mg | 100%* | Витамин B2 | 1,4mg | 100%* | Витамин B6 | 1,4mg | 100%* | Витамин B1 | 1,1mg | 100%* | Мед | 1,0mg | 100%* | Витамин А | 800μg RE | 100%* | Бор | 0,50mg | Фолиева киселина | 200μg | 100%* | Йод | 150μg | 100%* | Витамин K1 | 75μg | 100%* | Селен | 55μg | 100%* | Биотин | 50μg | 100%* | Молибден | 50μg | 100%* | Хром | 40μg | 100%* | Витамин D3 | 10μg | 200%* | Витамин B12 | 2,5μg | 100%* | КРАЙ | *RI = Reference Intake / Active Ingredients За порция За порция %RI* Калций 200mg 25%* Магнезий 100mg 27%* Витамин C 80mg 100%* Ниацин 16mg NE 100%* Желязо 14mg 100%* Витамин Е 12mg a-TE 100%* Цинк 10mg 100%* Пантотенова киселина 6,0mg 100%* Манган 2,0mg 100%* Витамин B2 1,4mg 100%* Витамин B6 1,4mg 100%* Витамин B1 1,1mg 100%* Мед 1,0mg 100%* Витамин А 800μg RE 100%* Бор 0,50mg Фолиева киселина 200μg 100%* Йод 150μg 100%* Витамин K1 75μg 100%* Селен 55μg 100%* Биотин 50μg 100%* Молибден 50μg 100%* Хром 40μg 100%* Витамин D3 10μg 200%* Витамин B12 2,5μg 100%* КРАЙ *RI = Reference Intake",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_multivitamin_serving": 0.32
-      },
-      "unit_label": "лв / доза мултивитамин",
-      "confidence": "medium",
-      "scraped_at": "2026-07-02T12:49:17.904406Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 28.99,
-          "price_eur": 14.82,
-          "unit_value": 0.32
-        }
-      ]
-    },
-    {
-      "id": "myprotein-мултивитамини-за-деца-дъвчащи-таблетки",
-      "store": "MyProtein",
-      "name": "Мултивитамини за деца дъвчащи таблетки",
-      "brand": "Myvitamins",
-      "category": "multivitamin",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/kids-multivitamin-gummies/13125586/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/13125587-1245287066630743.png&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 21.98,
-      "price_eur": 11.24,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 900.0,
-      "servings": 1,
-      "count": 35,
-      "active": {
-        "multivitamin_serving": 1
-      },
-      "label_text": "За дневна порция | *NRV | Витамин C | 28mg | 35*% | Ниацин | 8,2mg | 51%* | Пантотенова киселина | 6,2mg | 103%* | Витамин Е | 2,6mg | 22%* | Витамин B6 | 1,4mg | 100%* | Витамин А | 233μg | 29%* | Витамин D3 | 10μg | 200%* | Витамин B12 | 1,5μg | 60%* / \" Размер на 1 порция - 1 дъвчаща таблетка Брой порции за кутия - 30 (30 дъвчащи таблетки) Активни съставки За дневна порция *NRV Витамин C 28mg 35*% Ниацин 8,2mg 51%* Пантотенова киселина 6,2mg 103%* Витамин Е 2,6mg 22%* Витамин B6 1,4mg 100%* Витамин А 233μg 29%* Витамин D3 10μg 200%* Витамин B12 1,5μg 60%* * Препоръчителен прием на средностатистически възрастен (8400kJ/2000kcal) \"",
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_multivitamin_serving": 21.98
-      },
-      "unit_label": "лв / доза мултивитамин",
-      "confidence": "medium",
-      "scraped_at": "2026-07-02T12:49:19.877352Z",
-      "last_full_scrape": "2026-07-02",
-      "price_history": [
-        {
-          "date": "2026-07-02",
-          "price_bgn": 21.98,
-          "price_eur": 11.24,
-          "unit_value": 21.98
-        }
-      ]
-    },
-    {
-      "id": "myprotein-мултивитамини-желирани-таблетки",
-      "store": "MyProtein",
-      "name": "Мултивитамини желирани таблетки",
-      "brand": "Myvitamins",
-      "category": "multivitamin",
-      "url": "https://www.myprotein.bg/p/vitamins/multivitamin-jellybeans-for-adults/14540073/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/14540074-4575241903005583.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 38.12,
-      "price_eur": 19.49,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 900.0,
-      "servings": 30,
+      "servings": 180,
       "count": null,
       "active": {
-        "multivitamin_serving": 1
+        "creatine_mg_per_serving": 5000
       },
-      "label_text": "АКТИВНИ СЪСТАВКИ | За дневна порция | 3 желирани бонбона | Витамин C | 40mg (50%*) | Ниацин | 8,0mg NE (50%*) | Витамин Е | 6,0mg a-TE (50%*) | Цинк | 1,5mg (15%*) | Витамин B6 | 0,7mg (50%*) | Витамин А | 200μg RE (25%*) | Фолиева киселина | 100μg (50%*) | Витамин K1 | 37,5μg (50%*) | Биотин | 25μg (50%*) | Йод | 22,5μg (15%*) | Витамин D3 | 2,5μg (50%*) | Витамин B12 | 1,25μg (50%*) / АКТИВНИ СЪСТАВКИ За дневна порция 3 желирани бонбона Витамин C 40mg (50%*) Ниацин 8,0mg NE (50%*) Витамин Е 6,0mg a-TE (50%*) Цинк 1,5mg (15%*) Витамин B6 0,7mg (50%*) Витамин А 200μg RE (25%*) Фолиева киселина 100μg (50%*) Витамин K1 37,5μg (50%*) Биотин 25μg (50%*) Йод 22,5μg (15%*) Витамин D3 2,5μg (50%*) Витамин B12 1,25μg (50%*)",
+      "label_text": null,
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_multivitamin_serving": 1.27
+        "bgn_per_5g_creatine": 0.77
       },
-      "unit_label": "лв / доза мултивитамин",
-      "confidence": "medium",
-      "scraped_at": "2026-07-02T12:49:22.340881Z",
+      "unit_label": "лв / 5 g креатин",
+      "confidence": "high",
+      "scraped_at": "2026-07-02T13:19:57.705534Z",
       "last_full_scrape": "2026-07-02",
       "price_history": [
         {
           "date": "2026-07-02",
-          "price_bgn": 38.12,
-          "price_eur": 19.49,
-          "unit_value": 1.27
+          "price_bgn": 138.84,
+          "price_eur": 70.99,
+          "unit_value": 0.77
         }
-      ]
+      ],
+      "promo_label": "-42% с код MYPBG"
     },
     {
-      "id": "myprotein-мултивитамини-дъвчащи-таблетки-без-захар",
+      "id": "myprotein-impact-креатин-креатин-сашета",
       "store": "MyProtein",
-      "name": "Мултивитамини, дъвчащи таблетки без захар",
-      "brand": "Myvitamins",
-      "category": "multivitamin",
-      "url": "https://www.myprotein.bg/p/sports-nutrition/sugar-free-multivitamin-gummies-for-adults/15600214/",
-      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/15600214-1345234679789333.jpg&format=webp&width=1500&height=1500&fit=cover",
-      "price_bgn": 40.0,
-      "price_eur": 20.45,
+      "name": "Impact креатин | Креатин сашета",
+      "brand": "Myprotein",
+      "category": "creatine",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/impact-creatine-sachets/16242460/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/16242464-7705344585317117.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 58.66,
+      "price_eur": 29.99,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 225.0,
+      "servings": null,
+      "count": 30,
+      "active": {
+        "creatine_mg_per_serving": 5700
+      },
+      "label_text": "Активни съставки | На дневна порция | 5,7 g | Креатин монохидрат | 5.7g | от който креатин | 5.0g / Активни съставки | На дневна порция | 5,7 g / Креатин монохидрат | 5.7g | от който креатин | 5.0g / Активни съставки На дневна порция 5,7 g Креатин монохидрат 5.7g от който креатин 5.0g",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_5g_creatine": 1.3
+      },
+      "unit_label": "лв / 5 g креатин",
+      "confidence": "high",
+      "scraped_at": "2026-07-02T13:19:58.423205Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 58.66,
+          "price_eur": 29.99,
+          "unit_value": 1.3
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-the-electropower",
+      "store": "MyProtein",
+      "name": "THE ElectroPower",
+      "brand": "Myprotein",
+      "category": "creatine",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/the-electropower-creatine-electrolytes/16273531/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/16273532-1425272464936642.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 72.99,
+      "price_eur": 37.32,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 510.0,
+      "servings": 102,
+      "count": null,
+      "active": {
+        "creatine_mg_per_serving": 5000
+      },
+      "label_text": "Активни съставки | Дневна доза | 17g | Креатин монохидрат (Creapure®) | 5,7g | от който креатин | 5,0g | HMB | 3,0g | Натрий | 500mg | Калий | 300mg (15%*) | Хлорид | 257mg (32%*) | Калций | 120mg (15%*) | Магнезий | 60,0mg (15%*) | Парааминобензоена киселина | 19mg | Ниацин | 12mg NE (73%*) | Витамин B6 | 1,3mg (93%*) | Витамин B2 | 1,2mg (109%*) | Витамин B1 | 1,0mg (74%*) | Фолиева киселина | 129μg (65%*) | Биотин | 96μg (192%*) | Витамин B12 | 6,4μg (256%*) / The ElectroPower — Пиня Колада — 510g Размер на порцията: 17g Порции в опаковка: 30 Активни съставки Дневна доза 17g Креатин монохидрат (Creapure®) 5,7g от който креатин 5,0g HMB 3,0g Натрий 500mg Калий 300mg (15%*) Хлорид 257mg (32%*) Калций 120mg (15%*) Магнезий 60,0mg (15%*) Парааминобензоена киселина 19mg Ниацин 12mg NE (73%*) Витамин B6 1,3mg (93%*) Витамин B2 1,2mg (109%*) Витамин B1 1,0mg (74%*) Фолиева киселина 129μg (65%*) Биотин 96μg (192%*) Витамин B12 6,4μg (256%*) * Хранителна референтна стойност Хранителната стойност се изчислява въз основа на аромат на Пиня Колада. Ако изберете друг аромат, хранителната стойност може да се различава.",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_5g_creatine": 0.72
+      },
+      "unit_label": "лв / 5 g креатин",
+      "confidence": "high",
+      "scraped_at": "2026-07-02T13:19:59.051373Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 72.99,
+          "price_eur": 37.32,
+          "unit_value": 0.72
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-the-creatine-creapure-опаковка-със-стикове",
+      "store": "MyProtein",
+      "name": "THE Creatine (Creapure) Опаковка със стикове",
+      "brand": "Myprotein",
+      "category": "creatine",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/the-creatine-creapure-sachets/16630358/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/16630363-1975271206626359.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 41.05,
+      "price_eur": 20.99,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 114.0,
+      "servings": null,
+      "count": 20,
+      "active": {
+        "creatine_mg_per_serving": 5700
+      },
+      "label_text": "Активни съставки | В дневна доза | 5,7g | Креатин монохидрат (Creapure®) | 5,7g | от който креатин | 5,0g / THE CREATINE (Креатин монохидрат съдържа Creapure®) — Без аромат — 20 x 5,7g ℮ (114g) Размер на порцията: 5,7g Порции в кутия: 20 Активни съставки В дневна доза 5,7g Креатин монохидрат (Creapure®) 5,7g от който креатин 5,0g Хранителната стойност се изчислява въз основа на протеин без аромат. Ако изберете друг аромат, хранителната стойност може да се различава.",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_5g_creatine": 1.8
+      },
+      "unit_label": "лв / 5 g креатин",
+      "confidence": "high",
+      "scraped_at": "2026-07-02T13:19:59.642625Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 41.05,
+          "price_eur": 20.99,
+          "unit_value": 1.8
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-the-creatine-дъвчащи-таблетки-creapure",
+      "store": "MyProtein",
+      "name": "The Creatine | Дъвчащи таблетки Creapure®",
+      "brand": "Myprotein",
+      "category": "creatine",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/the-creatine-creapure-chewable-tablets/17028263/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/17028264-5305286539450160.png&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 75.98,
+      "price_eur": 38.85,
       "currency_source": "EUR",
       "availability_status": "in_stock",
       "weight_grams": 900.0,
-      "servings": 30,
-      "count": null,
+      "servings": 257,
+      "count": 4,
       "active": {
-        "multivitamin_serving": 1
+        "creatine_mg_per_serving": 3502
       },
-      "label_text": "Активни съставки | В дневна доза | 1 дъвчаща таблетка | Витамин C | 40mg (50%*) | Ниацин | 8,0mg NE (50%*) | Витамин Е | 6,7mg a-TE (56%*) | Цинк | 5,0mg (50%*) | Витамин B6 | 0,50mg (36%*) | Витамин А | 300μg RE (38%*) | Биотин | 30μg (60%*) | Витамин D3 | 5,0μg (100%*) / ЯГОДА Размер на порцията: 1 дъвчаща таблетка Порции в кутия: 60 Активни съставки В дневна доза 1 дъвчаща таблетка Витамин C 40mg (50%*) Ниацин 8,0mg NE (50%*) Витамин Е 6,7mg a-TE (56%*) Цинк 5,0mg (50%*) Витамин B6 0,50mg (36%*) Витамин А 300μg RE (38%*) Биотин 30μg (60%*) Витамин D3 5,0μg (100%*) * Хранителна референтна стойност",
+      "label_text": "Активни съставки | Дневна доза | 4 | Креатин монохидрат (Creapure®) | 4g | от който креатин | 3,5g / Таблетки Creapure – Лимон – Таблетки Creapure Размер на порцията: 4g Порции в опаковка: 120 Активни съставки Дневна доза 4 Креатин монохидрат (Creapure®) 4g от който креатин 3,5g Хранителната стойност се изчислява въз основа на аромат на лимон. Ако изберете друг аромат, хранителната стойност може да се различава.",
       "label_image": null,
       "price_per_active_unit": {
-        "bgn_per_multivitamin_serving": 1.33
+        "bgn_per_5g_creatine": 0.42
       },
-      "unit_label": "лв / доза мултивитамин",
-      "confidence": "medium",
-      "scraped_at": "2026-07-02T12:49:26.039320Z",
+      "unit_label": "лв / 5 g креатин",
+      "confidence": "high",
+      "scraped_at": "2026-07-02T13:20:01.974750Z",
       "last_full_scrape": "2026-07-02",
       "price_history": [
         {
           "date": "2026-07-02",
-          "price_bgn": 40.0,
-          "price_eur": 20.45,
-          "unit_value": 1.33
+          "price_bgn": 75.98,
+          "price_eur": 38.85,
+          "unit_value": 0.42
         }
-      ]
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-креатин-hcl",
+      "store": "MyProtein",
+      "name": "Креатин HCL",
+      "brand": "Myprotein",
+      "category": "creatine",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/creatine-hcl/17169974/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/17169975-1215288608638756.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 50.05,
+      "price_eur": 25.59,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 500.0,
+      "servings": 121,
+      "count": null,
+      "active": {
+        "creatine_mg_per_serving": 4100
+      },
+      "label_text": "Активни съставки | Дневна доза | 4,1g | Креатин хидрохлорид | 4,1g | от който креатин | 3,0g / Креатин HCL — без аромат — 100g ℮ Размер на порцията: 4,1g Порции в опаковка: 24 Активни съставки Дневна доза 4,1g Креатин хидрохлорид 4,1g от който креатин 3,0g Хранителната стойност се изчислява въз основа на продукт Без аромат. Ако изберете друг аромат, хранителната стойност може да се различава.",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_5g_creatine": 0.5
+      },
+      "unit_label": "лв / 5 g креатин",
+      "confidence": "high",
+      "scraped_at": "2026-07-02T13:20:02.811459Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 50.05,
+          "price_eur": 25.59,
+          "unit_value": 0.5
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-impact-креатин-chupa-chups-близалка-с-диня",
+      "store": "MyProtein",
+      "name": "Impact Креатин — Chupa Chups Близалка с диня",
+      "brand": "Myprotein",
+      "category": "creatine",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/impact-creatine-x-chupa-chups/17526822/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/17526823-1475284671213735.png&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 44.98,
+      "price_eur": 23.0,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 250.0,
+      "servings": 55,
+      "count": null,
+      "active": {
+        "creatine_mg_per_serving": 4500
+      },
+      "label_text": "Активни съставки | В дневна доза | 4,5g | Креатин монохидрат | 3,4g | от който креатин | 3,0g / Impact Креатин — Chupa Chups Диня — 250g ℮ Размер на порцията: 4,5g Порции в опаковка: 55 Активни съставки В дневна доза 4,5g Креатин монохидрат 3,4g от който креатин 3,0g Хранителната стойност се изчислява въз основа на Chupa Chups Диня. Ако изберете друг аромат, хранителната стойност може да се различава.",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_5g_creatine": 0.91
+      },
+      "unit_label": "лв / 5 g креатин",
+      "confidence": "high",
+      "scraped_at": "2026-07-02T13:20:03.431719Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 44.98,
+          "price_eur": 23.0,
+          "unit_value": 0.91
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
+    },
+    {
+      "id": "myprotein-креатин-3-в-1-колаген-електролити",
+      "store": "MyProtein",
+      "name": "Креатин 3 в 1 + Колаген + Електролити",
+      "brand": "Myvitamins",
+      "category": "creatine",
+      "url": "https://www.myprotein.bg/p/sports-nutrition/3-in-1-creatine-collagen-electrolytes/17691717/",
+      "image": "https://main.thgimages.com?url=https://static.thcdn.com/productimg/original/17670898-1735324107777671.jpg&format=webp&width=1500&height=1500&fit=cover",
+      "price_bgn": 78.21,
+      "price_eur": 39.99,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 237.0,
+      "servings": 20,
+      "count": null,
+      "active": {
+        "creatine_total_mg": 237000
+      },
+      "label_text": "Активни съставки | За дневна порция | 11,8g | Телешки колаген | 5,0g | Креатин монохидрат (Creapure®) | 3,4g | от който креатин | 3,0g | Хлорид | 304mg (38%*) | Натрий | 270mg | Калций | 120mg (15%*) | Витамин C | 80mg (100%*) | Магнезий | 56,3mg (15%*) | Желязо | 2,1mg (15%*) | Витамин B6 | 1,4mg (100%*) | Фолиева киселина | 60,0μg (30%*) | Биотин | 50μg (100%*) | Витамин D3 | 10μg (200%*) / Myvitamins Креатин, колаген, смес от електролити 3-в-1, горски плодове и лайм, 20 порции Размер на порцията: 11,8g Брой порции в опаковка: 20 Активни съставки За дневна порция 11,8g Телешки колаген 5,0g Креатин монохидрат (Creapure®) 3,4g от който креатин 3,0g Хлорид 304mg (38%*) Натрий 270mg Калций 120mg (15%*) Витамин C 80mg (100%*) Магнезий 56,3mg (15%*) Желязо 2,1mg (15%*) Витамин B6 1,4mg (100%*) Фолиева киселина 60,0μg (30%*) Биотин 50μg (100%*) Витамин D3 10μg (200%*) * Хранителна референтна стойност",
+      "label_image": null,
+      "price_per_active_unit": {
+        "bgn_per_5g_creatine": 1.65
+      },
+      "unit_label": "лв / 5 g креатин",
+      "confidence": "medium",
+      "scraped_at": "2026-07-02T13:20:05.031300Z",
+      "last_full_scrape": "2026-07-02",
+      "price_history": [
+        {
+          "date": "2026-07-02",
+          "price_bgn": 78.21,
+          "price_eur": 39.99,
+          "unit_value": 1.65
+        }
+      ],
+      "promo_label": "-42% с код MYPBG"
     }
   ]
 };
