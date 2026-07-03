@@ -1,9 +1,9 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-07-03T10:33:20.841074Z",
-  "content_hash": "ebc7cde42a2d809da5801afd86ac5c51",
-  "total_offers": 4400,
-  "promo_offers": 1647,
-  "assortment_offers": 2753,
+  "generated_at": "2026-07-03T14:22:37.414159Z",
+  "content_hash": "24f4cf3165400d6cff5c8a704ebda367",
+  "total_offers": 4403,
+  "promo_offers": 1648,
+  "assortment_offers": 2755,
   "stores": [
     "Billa",
     "Dar",
@@ -24378,6 +24378,76 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 11,
       "price_signal": "wait"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 2.99,
+      "new_price_eur": 1.53,
+      "old_price": 3.48,
+      "old_price_eur": 1.78,
+      "discount_pct": 14,
+      "valid_from": "2026-06-08",
+      "valid_until": "2026-07-05",
+      "price_per_kg": 19.93,
+      "price_per_kg_eur": 10.19,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 2.99,
+          "price_eur": 1.53,
+          "old_price": 3.48,
+          "old_price_eur": 1.78,
+          "discount_pct": 14,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 2.99,
+      "comparison_count": 1,
+      "product_id": "kaufland-аржентински-бургер-от-премиум-говеждо-месо-150g",
+      "weight_grams": 150,
+      "weight_raw": "150 г",
+      "name": "Аржентински бургер от премиум говеждо месо",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20867303_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "protein",
+      "emoji": "🍗",
+      "health_score": 8,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "high_protein",
+        "keto"
+      ],
+      "macros": {
+        "kcal": 250,
+        "p": 26,
+        "f": 15,
+        "c": 0
+      },
+      "avg_price": 2.99,
+      "lowest_price": 2.99,
+      "lowest_price_date": "2026-05-07",
+      "price_history": [
+        [
+          "2026-05-07",
+          2.99,
+          3.48,
+          14
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
     },
     {
       "store": "Fantastico",
@@ -117139,6 +117209,72 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 6,
       "price_signal": "wait"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 8.98,
+      "new_price_eur": 4.59,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-06-08",
+      "valid_until": "2026-07-05",
+      "price_per_kg": 23.63,
+      "price_per_kg_eur": 12.08,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 8.98,
+          "price_eur": 4.59,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 8.98,
+      "comparison_count": 1,
+      "product_id": "kaufland-шеф-месар-кълцан-медальон-380g",
+      "weight_grams": 380,
+      "weight_raw": "380 г",
+      "name": "Шеф Месар Кълцан медальон",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/186_00098725_1_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 304,
+        "p": 0.3,
+        "f": 0,
+        "c": 82
+      },
+      "avg_price": 8.98,
+      "lowest_price": 8.98,
+      "lowest_price_date": "2026-06-29",
+      "price_history": [
+        [
+          "2026-06-29",
+          8.98,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
     },
     {
       "store": "Fantastico",
@@ -232610,6 +232746,65 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 6.49,
+      "new_price_eur": 3.32,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-06-08",
+      "valid_until": "2026-07-05",
+      "price_per_kg": 25.96,
+      "price_per_kg_eur": 13.27,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 6.49,
+          "price_eur": 3.32,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 6.49,
+      "comparison_count": 1,
+      "product_id": "kaufland-meat-revolution-бургер-black-angus-250g",
+      "weight_grams": 250,
+      "weight_raw": "250 г",
+      "name": "MEAT REVOLUTION Бургер Black Angus",
+      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20715416_P.jpg",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 6.49,
+      "lowest_price": 6.49,
+      "lowest_price_date": "2026-06-29",
+      "price_history": [
+        [
+          "2026-06-29",
+          6.49,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 1,
       "price_signal": "buy"
     },
     {
