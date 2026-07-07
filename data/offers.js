@@ -1,6 +1,6 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-07-07T07:49:11.882724Z",
-  "content_hash": "f7cc711332c0de168a4f40323950dc25",
+  "generated_at": "2026-07-07T12:28:18.408382Z",
+  "content_hash": "b089a094eed9e918e9d81bb35d9d9f57",
   "total_offers": 4590,
   "promo_offers": 1912,
   "assortment_offers": 2678,
@@ -11237,7 +11237,7 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "kaufland-манго",
       "name": "Манго",
-      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_09700123_P.jpg",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/25013313_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "vegetable",
       "emoji": "🥦",
       "health_score": 5,
@@ -30767,8 +30767,8 @@ const OFFERS_DATA = {
       "best_price_store": "Kaufland",
       "best_price": 2.84,
       "comparison_count": 1,
-      "product_id": "kaufland-каисии-клас-i",
-      "name": "Кайсии Клас: I",
+      "product_id": "kaufland-български-каисии-клас-i",
+      "name": "Български кайсии Клас: I",
       "image": "https://kaufland.media.schwarz/is/image/schwarz/09700060_P-2?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
@@ -30780,54 +30780,18 @@ const OFFERS_DATA = {
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
-      "avg_price": 3.7,
+      "avg_price": 2.84,
       "lowest_price": 2.84,
-      "lowest_price_date": "2026-07-06",
+      "lowest_price_date": "2026-07-07",
       "price_history": [
         [
-          "2026-05-18",
-          3.89,
-          4.99,
-          22
-        ],
-        [
-          "2026-05-25",
-          4.28,
-          9.76,
-          56
-        ],
-        [
-          "2026-06-01",
-          3.89,
-          4.99,
-          22
-        ],
-        [
-          "2026-06-08",
-          3.7,
-          9.76,
-          62
-        ],
-        [
-          "2026-06-15",
-          3.89,
-          4.99,
-          22
-        ],
-        [
-          "2026-06-22",
-          3.42,
-          5.61,
-          39
-        ],
-        [
-          "2026-07-06",
+          "2026-07-07",
           2.84,
           5.61,
           49
         ]
       ],
-      "price_seen_count": 7,
+      "price_seen_count": 1,
       "price_signal": "buy"
     },
     {
@@ -39096,7 +39060,7 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "kaufland-sleepme-възглавница-aloe-harmony-50-х-70-см",
       "name": "SleepMe Възглавница Aloe Harmony 50 х 70 см",
-      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_00075462_P.jpg",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800140151801_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -340100,5 +340064,5 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     }
   ],
-  "catalog_products": 54187
+  "catalog_products": 54188
 };
