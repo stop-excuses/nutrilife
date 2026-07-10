@@ -1,9 +1,9 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-07-10T07:43:24.870738Z",
-  "content_hash": "305d4eaa8a33bc8d0771d5fa826e4c5d",
-  "total_offers": 4604,
+  "generated_at": "2026-07-10T14:41:35.836780Z",
+  "content_hash": "dd99141ac4753882200c3eecdbeb7897",
+  "total_offers": 4603,
   "promo_offers": 1865,
-  "assortment_offers": 2739,
+  "assortment_offers": 2738,
   "stores": [
     "Billa",
     "Dar",
@@ -231194,7 +231194,7 @@ const OFFERS_DATA = {
       "weight_grams": 100,
       "weight_raw": "100 г",
       "name": "Milka Шоколад избрани видове",
-      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_00023698_P.jpg",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00023698_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "grain",
       "emoji": "🌾",
       "is_food": false,
@@ -253229,63 +253229,6 @@ const OFFERS_DATA = {
         [
           "2026-05-04",
           17.49,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 17.58,
-      "new_price_eur": 8.99,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-07-06",
-      "valid_until": "2026-07-12",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 17.58,
-          "price_eur": 8.99,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 17.58,
-      "comparison_count": 1,
-      "product_id": "kaufland-букет-рози-и-гербери",
-      "name": "Букет рози и гербери",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20960582_20_282_29?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 17.58,
-      "lowest_price": 17.58,
-      "lowest_price_date": "2026-07-06",
-      "price_history": [
-        [
-          "2026-07-06",
-          17.58,
           null,
           null
         ]
