@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-07-05T09:02:12.885976+00:00",
+  "scraped_at": "2026-07-12T08:16:20.053699+00:00",
   "products": [
     {
       "product_name": "#NA",
@@ -79,7 +79,16 @@
       "old_price_eur": null,
       "image_url": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/943253d2-735c-4597-951c-19d6228c9987.png",
       "store": "Billa",
-      "db_sub_category": "Основни храни",
+      "db_sub_category": "Снаксове и сладки изкушения",
+      "_pazarko_store": "Billa"
+    },
+    {
+      "product_name": "7 Days Bake rolls със сол 80 ГР",
+      "price_eur": 0.76,
+      "old_price_eur": null,
+      "image_url": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/6f13fdb4-a3a7-4de3-833e-9b760a43d99b.png",
+      "store": "Billa",
+      "db_sub_category": "Снаксове и сладки изкушения",
       "_pazarko_store": "Billa"
     },
     {
@@ -174,8 +183,8 @@
     },
     {
       "product_name": "7-Up Газирана напитка 2 Л",
-      "price_eur": 0.97,
-      "old_price_eur": 1.73,
+      "price_eur": 1.73,
+      "old_price_eur": null,
       "image_url": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/2fea5b52-2f4d-4f0e-938b-74b5f496e5ec.png",
       "store": "Billa",
       "db_sub_category": "Напитки",
@@ -200,21 +209,12 @@
       "_pazarko_store": "Billa"
     },
     {
-      "product_name": "ABSOLUT Алкохолна Напитка Малинова Лимонада 0.25 Л",
-      "price_eur": 1.89,
-      "old_price_eur": null,
-      "image_url": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/666c0237-b9bf-4e8b-b18b-1e02648639f9.png",
-      "store": "Billa",
-      "db_sub_category": "Вино и алкохол",
-      "_pazarko_store": "Billa"
-    },
-    {
       "product_name": "Actimel Ягода и банан 400 МЛ",
       "price_eur": 2.38,
       "old_price_eur": null,
       "image_url": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/7a659518-a0cc-4275-b554-b99d5b8d7eb5.png",
       "store": "Billa",
-      "db_sub_category": "Мляко и Млечни продукти",
+      "db_sub_category": "Основни храни",
       "_pazarko_store": "Billa"
     },
     {
@@ -223,7 +223,7 @@
       "old_price_eur": null,
       "image_url": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/42467265-cd89-46be-94f5-b945395671e5.png",
       "store": "Billa",
-      "db_sub_category": "Мляко и Млечни продукти",
+      "db_sub_category": "Основни храни",
       "_pazarko_store": "Billa"
     },
     {
@@ -232,7 +232,7 @@
       "old_price_eur": null,
       "image_url": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/e379dcb6-c967-44d0-ab62-d391bb9f0463.png",
       "store": "Billa",
-      "db_sub_category": "Мляко и Млечни продукти",
+      "db_sub_category": "Основни храни",
       "_pazarko_store": "Billa"
     },
     {
@@ -264,8 +264,8 @@
     },
     {
       "product_name": "Aea Тарали натурални 280 ГР",
-      "price_eur": 2.15,
-      "old_price_eur": null,
+      "price_eur": 1.55,
+      "old_price_eur": 2.15,
       "image_url": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/91c34c2c-2310-40b9-b885-6419a9d1a55b.png",
       "store": "Billa",
       "db_sub_category": "Снаксове и сладки изкушения",
@@ -417,8 +417,8 @@
     },
     {
       "product_name": "ACTIVIA фибри 3+ с горски плодове и зърнени култури 280 г",
-      "price_eur": 1.15,
-      "old_price_eur": 1.32,
+      "price_eur": 1.32,
+      "old_price_eur": null,
       "image_url": "https://tmarketonline.bg/cdn/img/products/48558/activia-fibri-s-gorski-plodove-280-g-677639e92d0e8.png?width=1920&height=1920&v=1777590013",
       "store": "TMarket",
       "db_sub_category": "Мляко и Млечни продукти",
@@ -426,8 +426,8 @@
     },
     {
       "product_name": "ACTIVIA фибри 3+ с киноа и лешници 280 г",
-      "price_eur": 1.15,
-      "old_price_eur": 1.32,
+      "price_eur": 1.32,
+      "old_price_eur": null,
       "image_url": "https://tmarketonline.bg/cdn/img/products/40012/activia-fibri-s-kinoa-i-lesnici-280-g-677639ac30bc4.png?width=1920&height=1920&v=1777590013",
       "store": "TMarket",
       "db_sub_category": "Мляко и Млечни продукти",
@@ -435,8 +435,8 @@
     },
     {
       "product_name": "ACTIVIA фибри 3+ с мюсли 280 г",
-      "price_eur": 1.15,
-      "old_price_eur": 1.32,
+      "price_eur": 1.32,
+      "old_price_eur": null,
       "image_url": "https://tmarketonline.bg/cdn/img/products/55029/activia-fibri-3-s-musli-280-g-6776417c1bb63.png?width=1920&height=1920&v=1777590014",
       "store": "TMarket",
       "db_sub_category": "Мляко и Млечни продукти",
@@ -444,8 +444,8 @@
     },
     {
       "product_name": "ACTIVIA фибри 3+ с орехи и овес 280 г",
-      "price_eur": 1.15,
-      "old_price_eur": 1.32,
+      "price_eur": 1.32,
+      "old_price_eur": null,
       "image_url": "https://tmarketonline.bg/cdn/img/products/39998/activia-fibri-s-orehi-i-oves-280-g-67763900c12e2.png?width=1920&height=1920&v=1777590012",
       "store": "TMarket",
       "db_sub_category": "Мляко и Млечни продукти",
@@ -453,8 +453,8 @@
     },
     {
       "product_name": "ACTIVIA фибри 3+ с ягоди и мюсли 280 г",
-      "price_eur": 1.15,
-      "old_price_eur": 1.32,
+      "price_eur": 1.32,
+      "old_price_eur": null,
       "image_url": "https://tmarketonline.bg/cdn/img/products/39864/activia-fibri-s-agodi-i-musli-280-g-6776397ba4abb.png?width=1920&height=1920&v=1777590012",
       "store": "TMarket",
       "db_sub_category": "Мляко и Млечни продукти",
@@ -570,7 +570,7 @@
     },
     {
       "product_name": "0.5Л ШВЕПС ЛИЛАВ ТОНИК",
-      "price_eur": 8.18,
+      "price_eur": 5.72,
       "old_price_eur": 10.68,
       "image_url": "https://cdn.metro-group.com/bg/bg_pim_351949001001_01.png?format=jpg&quality=80&dpi=72",
       "store": "Metro",
@@ -644,7 +644,7 @@
       "product_name": "1.288Л=56ПР ОМЕК.COCC.",
       "price_eur": 5.99,
       "old_price_eur": null,
-      "image_url": "https://cdn.metro-group.com/bg/bg_pim_355441006001_01.png?format=jpg&quality=80&dpi=72",
+      "image_url": "https://cdn.metro-group.com/bg/bg_pim_355441001001_01.png?format=jpg&quality=80&dpi=72",
       "store": "Metro",
       "db_sub_category": "Пране и гладене",
       "_pazarko_store": "Metro"
@@ -662,7 +662,7 @@
       "product_name": "1.403Л=61ПР ОМЕК.COCC.",
       "price_eur": 5.99,
       "old_price_eur": null,
-      "image_url": "https://cdn.metro-group.com/bg/bg_pim_355440002001_01.png?format=jpg&quality=80&dpi=72",
+      "image_url": "https://cdn.metro-group.com/bg/bg_pim_355440001001_01.png?format=jpg&quality=80&dpi=72",
       "store": "Metro",
       "db_sub_category": "Пране и гладене",
       "_pazarko_store": "Metro"
@@ -671,7 +671,7 @@
       "product_name": "1.5Л=60ПР ОМЕК.SAVEX",
       "price_eur": 3.29,
       "old_price_eur": null,
-      "image_url": "https://cdn.metro-group.com/bg/bg_pim_355453001001_01.png?format=jpg&quality=80&dpi=72",
+      "image_url": "https://cdn.metro-group.com/bg/bg_pim_355453002001_01.png?format=jpg&quality=80&dpi=72",
       "store": "Metro",
       "db_sub_category": "Пране и гладене",
       "_pazarko_store": "Metro"
@@ -689,7 +689,7 @@
       "product_name": "1.702Л=74ПР ОМЕК COCC.",
       "price_eur": 6.48,
       "old_price_eur": null,
-      "image_url": "https://cdn.metro-group.com/bg/bg_pim_355443001001_01.png?format=jpg&quality=80&dpi=72",
+      "image_url": "https://cdn.metro-group.com/bg/bg_pim_355443004001_01.png?format=jpg&quality=80&dpi=72",
       "store": "Metro",
       "db_sub_category": "Пране и гладене",
       "_pazarko_store": "Metro"
@@ -803,12 +803,12 @@
       "_pazarko_store": "Metro"
     },
     {
-      "product_name": "10КГ ПАНГАСИУС ФИЛЕ БЕЗ КОЖА 0% ГЛАЗИРОВКА КАШОН",
-      "price_eur": 51.13,
+      "product_name": "10Л МАСЛО ПЪРЖЕНЕ MC ДЪЛГ.УП",
+      "price_eur": 28.63,
       "old_price_eur": null,
-      "image_url": "https://cdn.metro-group.com/bg/bg_pim_292558001001_01.png?format=jpg&quality=80&dpi=72",
+      "image_url": "https://cdn.metro-group.com/bg/bg_pim_355799001001_01?format=jpg&quality=80&dpi=72",
       "store": "Metro",
-      "db_sub_category": "Замразени продукти",
+      "db_sub_category": "Основни храни",
       "_pazarko_store": "Metro"
     },
     {
@@ -974,15 +974,6 @@
       "_pazarko_store": "BulMag"
     },
     {
-      "product_name": "5-минутни приказки на баба 7.65",
-      "price_eur": 7.65,
-      "old_price_eur": null,
-      "image_url": "https://api.bulmag.org/thumbnails/247e8e5b895268f95239ed50cee861bf.png",
-      "store": "BulMag",
-      "db_sub_category": "Бебе, дете и играчки",
-      "_pazarko_store": "BulMag"
-    },
-    {
       "product_name": "50 хартиени форми за печене на мъфини",
       "price_eur": 2.06,
       "old_price_eur": null,
@@ -1077,6 +1068,15 @@
       "price_eur": 7.23,
       "old_price_eur": null,
       "image_url": "https://api.bulmag.org/thumbnails/d84f13fd05d3142bc99ac3e828e9d5a6.png",
+      "store": "BulMag",
+      "db_sub_category": "Почистване",
+      "_pazarko_store": "BulMag"
+    },
+    {
+      "product_name": "Air wick ел. пълн.лавандула/камбанки 19мл",
+      "price_eur": 6.71,
+      "old_price_eur": null,
+      "image_url": "https://api.bulmag.org/thumbnails/48cc5ff28ef7742caa0fe85e286ac291.png",
       "store": "BulMag",
       "db_sub_category": "Почистване",
       "_pazarko_store": "BulMag"
