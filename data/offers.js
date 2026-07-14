@@ -1,6 +1,6 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-07-14T09:43:13.532949Z",
-  "content_hash": "e73988101e40678705f7a260c9a6c413",
+  "generated_at": "2026-07-14T13:57:31.731314Z",
+  "content_hash": "b7cabc5fec04c92e0b66358f5eb2ad42",
   "total_offers": 4398,
   "promo_offers": 1575,
   "assortment_offers": 2823,
@@ -6631,10 +6631,10 @@ const OFFERS_DATA = {
       "best_price_store": "Kaufland",
       "best_price": 8.0,
       "comparison_count": 1,
-      "product_id": "kaufland-саяна-сирене-от-овче-или-козе-мляко-400g",
+      "product_id": "kaufland-саяна-сирене-от-овче-мляко-400g",
       "weight_grams": 400,
       "weight_raw": "400 г",
-      "name": "САЯНА Сирене от овче или козе мляко",
+      "name": "Саяна Сирене от овче мляко",
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00055561_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "dairy",
       "emoji": "🥛",
@@ -6659,10 +6659,10 @@ const OFFERS_DATA = {
       },
       "avg_price": 8.0,
       "lowest_price": 8.0,
-      "lowest_price_date": "2026-05-18",
+      "lowest_price_date": "2026-07-13",
       "price_history": [
         [
-          "2026-05-18",
+          "2026-07-13",
           8.0,
           10.89,
           27
