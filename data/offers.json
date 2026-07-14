@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-14T06:18:54.144170Z",
-  "content_hash": "25354d190e3b190f1fe57eb859ece7be",
+  "generated_at": "2026-07-14T08:22:15.465385Z",
+  "content_hash": "b7cabc5fec04c92e0b66358f5eb2ad42",
   "total_offers": 4398,
   "promo_offers": 1575,
   "assortment_offers": 2823,
@@ -20449,69 +20449,6 @@
     {
       "store": "Kaufland",
       "address": null,
-      "new_price": 1.49,
-      "new_price_eur": 0.76,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-07-13",
-      "valid_until": "2026-07-19",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 1.49,
-          "price_eur": 0.76,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 1.49,
-      "comparison_count": 1,
-      "product_id": "kaufland-хризантема-ø9-см",
-      "name": "Хризантема Ø9 см",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/4011261012622_BG_P-2?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 2.24,
-      "lowest_price": 1.49,
-      "lowest_price_date": "2026-07-14",
-      "price_history": [
-        [
-          "2026-05-12",
-          2.99,
-          null,
-          null
-        ],
-        [
-          "2026-07-14",
-          1.49,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
       "new_price": 1.55,
       "new_price_eur": 0.79,
       "old_price": 2.21,
@@ -25986,6 +25923,69 @@
       ],
       "price_seen_count": 1,
       "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 2.99,
+      "new_price_eur": 1.53,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-07-13",
+      "valid_until": "2026-07-19",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 2.99,
+          "price_eur": 1.53,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 2.99,
+      "comparison_count": 1,
+      "product_id": "kaufland-хризантема-ø9-см",
+      "name": "Хризантема Ø9 см",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4011261012622_BG_P-2?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 2.24,
+      "lowest_price": 1.49,
+      "lowest_price_date": "2026-07-14",
+      "price_history": [
+        [
+          "2026-05-12",
+          2.99,
+          null,
+          null
+        ],
+        [
+          "2026-07-14",
+          1.49,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "wait"
     },
     {
       "store": "Kaufland",
@@ -40392,6 +40392,69 @@
       "address": null,
       "new_price": 12.69,
       "new_price_eur": 6.49,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-07-13",
+      "valid_until": "2026-07-19",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 12.69,
+          "price_eur": 6.49,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 12.69,
+      "comparison_count": 1,
+      "product_id": "kaufland-букет-рози",
+      "name": "Букет рози",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20292579_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 11.29,
+      "lowest_price": 4.99,
+      "lowest_price_date": "2026-04-14",
+      "price_history": [
+        [
+          "2026-04-14",
+          4.99,
+          null,
+          null
+        ],
+        [
+          "2026-07-14",
+          17.58,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "wait"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 12.69,
+      "new_price_eur": 6.49,
       "old_price": 14.45,
       "old_price_eur": 7.39,
       "discount_pct": 12,
@@ -42346,69 +42409,6 @@
       ],
       "price_seen_count": 1,
       "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 17.58,
-      "new_price_eur": 8.99,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-07-13",
-      "valid_until": "2026-07-19",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 17.58,
-          "price_eur": 8.99,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 17.58,
-      "comparison_count": 1,
-      "product_id": "kaufland-букет-рози",
-      "name": "Букет рози",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20292579_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 11.29,
-      "lowest_price": 4.99,
-      "lowest_price_date": "2026-04-14",
-      "price_history": [
-        [
-          "2026-04-14",
-          4.99,
-          null,
-          null
-        ],
-        [
-          "2026-07-14",
-          17.58,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "wait"
     },
     {
       "store": "Kaufland",
