@@ -1,8 +1,8 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-07-16T06:09:38.745599Z",
-  "content_hash": "55d88a1e7bb4b009aff0afd87778d421",
-  "total_offers": 4394,
-  "promo_offers": 1570,
+  "generated_at": "2026-07-16T07:50:55.984315Z",
+  "content_hash": "ca63281fbea83af998dba48a367b76bf",
+  "total_offers": 4393,
+  "promo_offers": 1569,
   "assortment_offers": 2824,
   "stores": [
     "Billa",
@@ -217846,63 +217846,6 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 3,
       "price_signal": "wait"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 4.87,
-      "new_price_eur": 2.49,
-      "old_price": 6.98,
-      "old_price_eur": 3.57,
-      "discount_pct": 30,
-      "valid_from": "2026-07-13",
-      "valid_until": "2026-07-19",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 4.87,
-          "price_eur": 2.49,
-          "old_price": 6.98,
-          "old_price_eur": 3.57,
-          "discount_pct": 30,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 4.87,
-      "comparison_count": 1,
-      "product_id": "kaufland-my-project-течност-за-чистачки-лятна",
-      "name": "MY PROJECT® Течност за чистачки лятна",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/4063367645341_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 4.87,
-      "lowest_price": 4.87,
-      "lowest_price_date": "2026-06-15",
-      "price_history": [
-        [
-          "2026-06-15",
-          4.87,
-          6.98,
-          30
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
     },
     {
       "store": "Kaufland",
