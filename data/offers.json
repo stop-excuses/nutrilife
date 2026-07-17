@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-16T16:20:04.656178Z",
-  "content_hash": "ca63281fbea83af998dba48a367b76bf",
-  "total_offers": 4393,
-  "promo_offers": 1569,
-  "assortment_offers": 2824,
+  "generated_at": "2026-07-17T06:23:30.412548Z",
+  "content_hash": "51b786b125938129ba61736ab1517ef6",
+  "total_offers": 4386,
+  "promo_offers": 1568,
+  "assortment_offers": 2818,
   "stores": [
     "Billa",
     "Dar",
@@ -757,100 +757,6 @@
       "price_signal": "buy"
     },
     {
-      "store": "Dar",
-      "address": null,
-      "new_price": 5.99,
-      "new_price_eur": 3.06,
-      "old_price": 7.99,
-      "old_price_eur": 4.09,
-      "discount_pct": 25,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Dar"
-      ],
-      "store_prices": [
-        {
-          "store": "Dar",
-          "price": 5.99,
-          "price_eur": 3.06,
-          "old_price": 7.99,
-          "old_price_eur": 4.09,
-          "discount_pct": 25,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Dar",
-      "best_price": 5.99,
-      "comparison_count": 1,
-      "product_id": "dar-пъстърва-чистена-пр-д-българия-кг-охл-морски-дар-дар",
-      "name": "ПЪСТЪРВА ЧИСТЕНА ПР-Д БЪЛГАРИЯ КГ ОХЛ. МОРСКИ ДАР ДАР",
-      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_00105244_P.jpg",
-      "category": "protein",
-      "emoji": "🍗",
-      "health_score": 10,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "macros": {
-        "kcal": 119,
-        "p": 20,
-        "f": 3.5,
-        "c": 0
-      },
-      "avg_price": 6.99,
-      "lowest_price": 5.99,
-      "lowest_price_date": "2026-05-07",
-      "price_history": [
-        [
-          "2026-04-20",
-          7.99,
-          null,
-          null
-        ],
-        [
-          "2026-05-07",
-          5.99,
-          7.99,
-          25
-        ],
-        [
-          "2026-05-14",
-          7.99,
-          null,
-          null
-        ],
-        [
-          "2026-06-25",
-          5.99,
-          7.99,
-          25
-        ],
-        [
-          "2026-07-02",
-          7.99,
-          null,
-          null
-        ],
-        [
-          "2026-07-09",
-          5.99,
-          7.99,
-          25
-        ]
-      ],
-      "price_seen_count": 6,
-      "price_signal": "buy"
-    },
-    {
       "store": "Billa",
       "address": null,
       "new_price": 7.0,
@@ -1085,6 +991,106 @@
         ],
         [
           "2026-07-16",
+          7.99,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 7,
+      "price_signal": "wait"
+    },
+    {
+      "store": "Dar",
+      "address": null,
+      "new_price": 7.99,
+      "new_price_eur": 4.09,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Dar"
+      ],
+      "store_prices": [
+        {
+          "store": "Dar",
+          "price": 7.99,
+          "price_eur": 4.09,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Dar",
+      "best_price": 7.99,
+      "comparison_count": 1,
+      "product_id": "dar-пъстърва-чистена-пр-д-българия-кг-охл-морски-дар-дар",
+      "name": "ПЪСТЪРВА ЧИСТЕНА ПР-Д БЪЛГАРИЯ КГ ОХЛ. МОРСКИ ДАР ДАР",
+      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_00105244_P.jpg",
+      "category": "protein",
+      "emoji": "🍗",
+      "health_score": 10,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 119,
+        "p": 20,
+        "f": 3.5,
+        "c": 0
+      },
+      "avg_price": 7.13,
+      "lowest_price": 5.99,
+      "lowest_price_date": "2026-05-07",
+      "price_history": [
+        [
+          "2026-04-20",
+          7.99,
+          null,
+          null
+        ],
+        [
+          "2026-05-07",
+          5.99,
+          7.99,
+          25
+        ],
+        [
+          "2026-05-14",
+          7.99,
+          null,
+          null
+        ],
+        [
+          "2026-06-25",
+          5.99,
+          7.99,
+          25
+        ],
+        [
+          "2026-07-02",
+          7.99,
+          null,
+          null
+        ],
+        [
+          "2026-07-09",
+          5.99,
+          7.99,
+          25
+        ],
+        [
+          "2026-07-17",
           7.99,
           null,
           null
@@ -17208,9 +17214,19 @@
       "price_per_kg_eur": 9.95,
       "source_type": "assortment",
       "available_stores": [
+        "Dar",
         "Fantastico"
       ],
       "store_prices": [
+        {
+          "store": "Dar",
+          "price": 7.79,
+          "price_eur": 3.98,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        },
         {
           "store": "Fantastico",
           "price": 7.79,
@@ -17221,9 +17237,9 @@
           "source_type": "assortment"
         }
       ],
-      "best_price_store": "Fantastico",
+      "best_price_store": "Dar",
       "best_price": 7.79,
-      "comparison_count": 1,
+      "comparison_count": 2,
       "product_id": "fantastico-кашкавал-от-краве-мляко-кърнаре-400-гр-вакуум-farm-400g",
       "weight_grams": 400,
       "weight_raw": "400 гр",
@@ -39629,88 +39645,6 @@
       "price_signal": "buy"
     },
     {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 2.52,
-      "new_price_eur": 1.29,
-      "old_price": 5.85,
-      "old_price_eur": 2.99,
-      "discount_pct": 57,
-      "valid_from": "2026-07-13",
-      "valid_until": "2026-07-19",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 2.52,
-          "price_eur": 1.29,
-          "old_price": 5.85,
-          "old_price_eur": 2.99,
-          "discount_pct": 57,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 2.52,
-      "comparison_count": 1,
-      "product_id": "kaufland-розови-домати",
-      "name": "Розови домати",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/2830920000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "vegetable",
-      "emoji": "🥦",
-      "health_score": 7,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "macros": {
-        "kcal": 18,
-        "p": 0.9,
-        "f": 0.2,
-        "c": 3.9
-      },
-      "avg_price": 4.42,
-      "lowest_price": 2.52,
-      "lowest_price_date": "2026-07-13",
-      "price_history": [
-        [
-          "2026-04-27",
-          6.59,
-          9.99,
-          34
-        ],
-        [
-          "2026-05-11",
-          4.67,
-          9.99,
-          53
-        ],
-        [
-          "2026-05-25",
-          3.89,
-          9.37,
-          58
-        ],
-        [
-          "2026-07-13",
-          2.52,
-          6.83,
-          63
-        ]
-      ],
-      "price_seen_count": 4,
-      "price_signal": "buy"
-    },
-    {
       "store": "Billa",
       "address": null,
       "new_price": 2.52,
@@ -46789,9 +46723,19 @@
       "price_per_kg_eur": 4.77,
       "source_type": "promo",
       "available_stores": [
+        "Dar",
         "Fantastico"
       ],
       "store_prices": [
+        {
+          "store": "Dar",
+          "price": 5.59,
+          "price_eur": 2.86,
+          "old_price": 6.59,
+          "old_price_eur": 3.37,
+          "discount_pct": 15,
+          "source_type": "promo"
+        },
         {
           "store": "Fantastico",
           "price": 5.59,
@@ -46802,9 +46746,9 @@
           "source_type": "promo"
         }
       ],
-      "best_price_store": "Fantastico",
+      "best_price_store": "Dar",
       "best_price": 5.59,
-      "comparison_count": 1,
+      "comparison_count": 2,
       "product_id": "fantastico-сирене-от-краве-мляко-родопско-чудо-600-гр-вакуум-600g",
       "weight_grams": 600,
       "weight_raw": "600 гр",
@@ -50729,6 +50673,100 @@
       ],
       "price_seen_count": 5,
       "price_signal": "normal"
+    },
+    {
+      "store": "Dar",
+      "address": null,
+      "new_price": 8.99,
+      "new_price_eur": 4.6,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 9.99,
+      "price_per_kg_eur": 5.11,
+      "source_type": "assortment",
+      "available_stores": [
+        "Dar"
+      ],
+      "store_prices": [
+        {
+          "store": "Dar",
+          "price": 8.99,
+          "price_eur": 4.6,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Dar",
+      "best_price": 8.99,
+      "comparison_count": 1,
+      "product_id": "dar-сирене-краве-натрошено-900-гр-маджаров-кутия-дар-900g",
+      "weight_grams": 900,
+      "weight_raw": "900 гр",
+      "name": "СИРЕНЕ КРАВЕ НАТРОШЕНО 900 ГР МАДЖАРОВ КУТИЯ ДАР",
+      "image": "https://tmarketonline.bg/cdn/img/products/54609/balo-salamureno-sirene-verea-na-gramaz-6697cc85adf73.png?width=1920&height=1920&v=1777590002",
+      "category": "dairy",
+      "emoji": "🥛",
+      "health_score": 7,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "keto",
+        "vegetarian"
+      ],
+      "macros": {
+        "kcal": 264,
+        "p": 14,
+        "f": 22,
+        "c": 2
+      },
+      "avg_price": 8.16,
+      "lowest_price": 6.64,
+      "lowest_price_date": "2026-05-14",
+      "price_history": [
+        [
+          "2026-04-20",
+          8.99,
+          null,
+          null
+        ],
+        [
+          "2026-04-25",
+          7.19,
+          8.99,
+          20
+        ],
+        [
+          "2026-04-30",
+          8.99,
+          null,
+          null
+        ],
+        [
+          "2026-05-14",
+          6.64,
+          8.99,
+          26
+        ],
+        [
+          "2026-07-17",
+          8.99,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 5,
+      "price_signal": "wait"
     },
     {
       "store": "Fantastico",
@@ -56674,9 +56712,19 @@
       "price_per_kg_eur": 1.56,
       "source_type": "assortment",
       "available_stores": [
+        "Dar",
         "Fantastico"
       ],
       "store_prices": [
+        {
+          "store": "Dar",
+          "price": 1.53,
+          "price_eur": 0.78,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        },
         {
           "store": "Fantastico",
           "price": 1.53,
@@ -56687,9 +56735,9 @@
           "source_type": "assortment"
         }
       ],
-      "best_price_store": "Fantastico",
+      "best_price_store": "Dar",
       "best_price": 1.53,
-      "comparison_count": 1,
+      "comparison_count": 2,
       "product_id": "fantastico-хляб-бял-с-квас-500-гр-симид-500g",
       "weight_grams": 500,
       "weight_raw": "500 гр",
@@ -86018,19 +86066,9 @@
       "price_per_kg_eur": 0.86,
       "source_type": "promo",
       "available_stores": [
-        "Dar",
         "Fantastico"
       ],
       "store_prices": [
-        {
-          "store": "Dar",
-          "price": 1.69,
-          "price_eur": 0.86,
-          "old_price": 1.99,
-          "old_price_eur": 1.02,
-          "discount_pct": 15,
-          "source_type": "promo"
-        },
         {
           "store": "Fantastico",
           "price": 1.69,
@@ -86041,9 +86079,9 @@
           "source_type": "promo"
         }
       ],
-      "best_price_store": "Dar",
+      "best_price_store": "Fantastico",
       "best_price": 1.69,
-      "comparison_count": 2,
+      "comparison_count": 1,
       "product_id": "fantastico-мляко-прясно-mlekovita-без-лактоза-3-2-1-л-uht-1000g",
       "weight_grams": 1000,
       "weight_raw": "1 л",
@@ -90291,19 +90329,9 @@
       "price_per_kg_eur": 1.02,
       "source_type": "assortment",
       "available_stores": [
-        "Dar",
         "Fantastico"
       ],
       "store_prices": [
-        {
-          "store": "Dar",
-          "price": 1.99,
-          "price_eur": 1.02,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        },
         {
           "store": "Fantastico",
           "price": 1.99,
@@ -90314,9 +90342,9 @@
           "source_type": "assortment"
         }
       ],
-      "best_price_store": "Dar",
+      "best_price_store": "Fantastico",
       "best_price": 1.99,
-      "comparison_count": 2,
+      "comparison_count": 1,
       "product_id": "fantastico-мляко-прясно-meggle-barista-3-5-1л-uht-1000g",
       "weight_grams": 1000,
       "weight_raw": "1л",
@@ -94719,19 +94747,9 @@
       "price_per_kg_eur": 1.44,
       "source_type": "assortment",
       "available_stores": [
-        "Dar",
         "Fantastico"
       ],
       "store_prices": [
-        {
-          "store": "Dar",
-          "price": 2.81,
-          "price_eur": 1.44,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        },
         {
           "store": "Fantastico",
           "price": 2.81,
@@ -94742,9 +94760,9 @@
           "source_type": "assortment"
         }
       ],
-      "best_price_store": "Dar",
+      "best_price_store": "Fantastico",
       "best_price": 2.81,
-      "comparison_count": 2,
+      "comparison_count": 1,
       "product_id": "fantastico-мляко-прясно-био-harmonica-3-6-1-л-бутилка-рп-1000g",
       "weight_grams": 1000,
       "weight_raw": "1 л",
@@ -95020,9 +95038,19 @@
       "price_per_kg_eur": 7.29,
       "source_type": "assortment",
       "available_stores": [
+        "Dar",
         "Fantastico"
       ],
       "store_prices": [
+        {
+          "store": "Dar",
+          "price": 2.85,
+          "price_eur": 1.46,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        },
         {
           "store": "Fantastico",
           "price": 2.85,
@@ -95033,9 +95061,9 @@
           "source_type": "assortment"
         }
       ],
-      "best_price_store": "Fantastico",
+      "best_price_store": "Dar",
       "best_price": 2.85,
-      "comparison_count": 1,
+      "comparison_count": 2,
       "product_id": "fantastico-масло-краве-beliisa-83-200-гр-200g",
       "weight_grams": 200,
       "weight_raw": "200 гр",
@@ -108653,9 +108681,19 @@
       "price_per_kg_eur": 7.49,
       "source_type": "assortment",
       "available_stores": [
+        "Dar",
         "Fantastico"
       ],
       "store_prices": [
+        {
+          "store": "Dar",
+          "price": 5.86,
+          "price_eur": 3.0,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        },
         {
           "store": "Fantastico",
           "price": 5.86,
@@ -108666,9 +108704,9 @@
           "source_type": "assortment"
         }
       ],
-      "best_price_store": "Fantastico",
+      "best_price_store": "Dar",
       "best_price": 5.86,
-      "comparison_count": 1,
+      "comparison_count": 2,
       "product_id": "fantastico-кашкавал-от-краве-мляко-беленско-400-гр-вакуум-400g",
       "weight_grams": 400,
       "weight_raw": "400 гр",
@@ -110238,9 +110276,19 @@
       "price_per_kg_eur": 13.27,
       "source_type": "assortment",
       "available_stores": [
+        "Dar",
         "Fantastico"
       ],
       "store_prices": [
+        {
+          "store": "Dar",
+          "price": 6.49,
+          "price_eur": 3.32,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        },
         {
           "store": "Fantastico",
           "price": 6.49,
@@ -110251,9 +110299,9 @@
           "source_type": "assortment"
         }
       ],
-      "best_price_store": "Fantastico",
+      "best_price_store": "Dar",
       "best_price": 6.49,
-      "comparison_count": 1,
+      "comparison_count": 2,
       "product_id": "fantastico-масло-краве-elle-vire-ролка-82-250-гр-250g",
       "weight_grams": 250,
       "weight_raw": "250 гр",
@@ -112893,9 +112941,19 @@
       "price_per_kg_eur": 18.28,
       "source_type": "assortment",
       "available_stores": [
+        "Dar",
         "Fantastico"
       ],
       "store_prices": [
+        {
+          "store": "Dar",
+          "price": 7.15,
+          "price_eur": 3.66,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        },
         {
           "store": "Fantastico",
           "price": 7.15,
@@ -112906,9 +112964,9 @@
           "source_type": "assortment"
         }
       ],
-      "best_price_store": "Fantastico",
+      "best_price_store": "Dar",
       "best_price": 7.15,
-      "comparison_count": 1,
+      "comparison_count": 2,
       "product_id": "fantastico-масло-био-краве-harmonica-200-гр-200g",
       "weight_grams": 200,
       "weight_raw": "200 гр",
@@ -125737,9 +125795,19 @@
       "price_per_kg_eur": 9.48,
       "source_type": "assortment",
       "available_stores": [
+        "Dar",
         "Fantastico"
       ],
       "store_prices": [
+        {
+          "store": "Dar",
+          "price": 12.98,
+          "price_eur": 6.64,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        },
         {
           "store": "Fantastico",
           "price": 12.98,
@@ -125750,9 +125818,9 @@
           "source_type": "assortment"
         }
       ],
-      "best_price_store": "Fantastico",
+      "best_price_store": "Dar",
       "best_price": 12.98,
-      "comparison_count": 1,
+      "comparison_count": 2,
       "product_id": "fantastico-кашкавал-от-краве-мляко-лесидрен-700-г-вакуум-рп-farm-700g",
       "weight_grams": 700,
       "weight_raw": "700 г",
@@ -147831,6 +147899,117 @@
       "address": null,
       "new_price": 0.55,
       "new_price_eur": 0.28,
+      "old_price": 0.95,
+      "old_price_eur": 0.49,
+      "discount_pct": 42,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 0.55,
+      "price_per_kg_eur": 0.28,
+      "source_type": "promo",
+      "available_stores": [
+        "Dar",
+        "Fantastico"
+      ],
+      "store_prices": [
+        {
+          "store": "Dar",
+          "price": 0.55,
+          "price_eur": 0.28,
+          "old_price": 0.95,
+          "old_price_eur": 0.49,
+          "discount_pct": 42,
+          "source_type": "promo"
+        },
+        {
+          "store": "Fantastico",
+          "price": 0.55,
+          "price_eur": 0.28,
+          "old_price": 0.95,
+          "old_price_eur": 0.49,
+          "discount_pct": 42,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Dar",
+      "best_price": 0.55,
+      "comparison_count": 2,
+      "product_id": "fantastico-захар-кристал-1-кг-митекс-1000g",
+      "weight_grams": 1000,
+      "weight_raw": "1 кг",
+      "name": "ЗАХАР КРИСТАЛ 1 КГ МИТЕКС",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 0.76,
+      "lowest_price": 0.55,
+      "lowest_price_date": "2026-07-17",
+      "price_history": [
+        [
+          "2026-04-20",
+          0.95,
+          null,
+          null
+        ],
+        [
+          "2026-04-25",
+          0.58,
+          0.95,
+          39
+        ],
+        [
+          "2026-04-27",
+          0.95,
+          null,
+          null
+        ],
+        [
+          "2026-05-22",
+          0.58,
+          0.95,
+          39
+        ],
+        [
+          "2026-05-28",
+          0.95,
+          null,
+          null
+        ],
+        [
+          "2026-06-19",
+          0.58,
+          0.95,
+          39
+        ],
+        [
+          "2026-06-25",
+          0.95,
+          null,
+          null
+        ],
+        [
+          "2026-07-17",
+          0.55,
+          0.95,
+          42
+        ]
+      ],
+      "price_seen_count": 8,
+      "price_signal": "buy",
+      "image": "https://tmarketonline.bg/cdn/img/products/47658/zahar-dr-oetker-vanilena-8gr-image_616439f5ce75c.jpeg?width=600&height=600&v=1777589950"
+    },
+    {
+      "store": "Fantastico",
+      "address": null,
+      "new_price": 0.55,
+      "new_price_eur": 0.28,
       "old_price": 0.66,
       "old_price_eur": 0.34,
       "discount_pct": 17,
@@ -154355,111 +154534,6 @@
       ],
       "price_seen_count": 7,
       "price_signal": "buy"
-    },
-    {
-      "store": "Fantastico",
-      "address": null,
-      "new_price": 0.95,
-      "new_price_eur": 0.49,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 0.95,
-      "price_per_kg_eur": 0.49,
-      "source_type": "assortment",
-      "available_stores": [
-        "Dar",
-        "Fantastico"
-      ],
-      "store_prices": [
-        {
-          "store": "Dar",
-          "price": 0.95,
-          "price_eur": 0.49,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        },
-        {
-          "store": "Fantastico",
-          "price": 0.95,
-          "price_eur": 0.49,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Dar",
-      "best_price": 0.95,
-      "comparison_count": 2,
-      "product_id": "fantastico-захар-кристал-1-кг-митекс-1000g",
-      "weight_grams": 1000,
-      "weight_raw": "1 кг",
-      "name": "ЗАХАР КРИСТАЛ 1 КГ МИТЕКС",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 0.79,
-      "lowest_price": 0.58,
-      "lowest_price_date": "2026-04-25",
-      "price_history": [
-        [
-          "2026-04-20",
-          0.95,
-          null,
-          null
-        ],
-        [
-          "2026-04-25",
-          0.58,
-          0.95,
-          39
-        ],
-        [
-          "2026-04-27",
-          0.95,
-          null,
-          null
-        ],
-        [
-          "2026-05-22",
-          0.58,
-          0.95,
-          39
-        ],
-        [
-          "2026-05-28",
-          0.95,
-          null,
-          null
-        ],
-        [
-          "2026-06-19",
-          0.58,
-          0.95,
-          39
-        ],
-        [
-          "2026-06-25",
-          0.95,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 7,
-      "price_signal": "wait",
-      "image": "https://tmarketonline.bg/cdn/img/products/47658/zahar-dr-oetker-vanilena-8gr-image_616439f5ce75c.jpeg?width=600&height=600&v=1777589950"
     },
     {
       "store": "Kaufland",
@@ -179507,63 +179581,6 @@
       "best_price_store": "Kaufland",
       "best_price": 2.52,
       "comparison_count": 1,
-      "product_id": "kaufland-миникаланхое-различни-видове",
-      "name": "Миникаланхое различни видове",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/174_09902285_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 2.52,
-      "lowest_price": 2.52,
-      "lowest_price_date": "2026-07-14",
-      "price_history": [
-        [
-          "2026-07-14",
-          2.52,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 2.52,
-      "new_price_eur": 1.29,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-07-13",
-      "valid_until": "2026-07-19",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 2.52,
-          "price_eur": 1.29,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 2.52,
-      "comparison_count": 1,
       "product_id": "kaufland-семпервивум",
       "name": "Семпервивум",
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8717496116000_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
@@ -189586,75 +189603,6 @@
       "discount_pct": null,
       "valid_from": "2026-07-13",
       "valid_until": "2026-07-19",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 2.99,
-          "price_eur": 1.53,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 2.99,
-      "comparison_count": 1,
-      "product_id": "kaufland-хризантема-ø9-см",
-      "name": "Хризантема Ø9 см",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/4011261012622_BG_P-2?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 2.49,
-      "lowest_price": 1.49,
-      "lowest_price_date": "2026-07-14",
-      "price_history": [
-        [
-          "2026-05-12",
-          2.99,
-          null,
-          null
-        ],
-        [
-          "2026-07-14",
-          1.49,
-          null,
-          null
-        ],
-        [
-          "2026-07-16",
-          2.99,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "wait"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 2.99,
-      "new_price_eur": 1.53,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-07-13",
-      "valid_until": "2026-07-19",
       "price_per_kg": 8.79,
       "price_per_kg_eur": 4.49,
       "source_type": "assortment",
@@ -194296,75 +194244,6 @@
       ],
       "price_seen_count": 1,
       "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 3.11,
-      "new_price_eur": 1.59,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-07-13",
-      "valid_until": "2026-07-19",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 3.11,
-          "price_eur": 1.59,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 3.11,
-      "comparison_count": 1,
-      "product_id": "kaufland-минихризантема",
-      "name": "Минихризантема",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/5708869000869_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 2.86,
-      "lowest_price": 2.48,
-      "lowest_price_date": "2026-04-25",
-      "price_history": [
-        [
-          "2026-04-25",
-          2.48,
-          null,
-          null
-        ],
-        [
-          "2026-05-12",
-          2.99,
-          null,
-          null
-        ],
-        [
-          "2026-07-14",
-          3.11,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "wait"
     },
     {
       "store": "Billa",
@@ -201900,6 +201779,71 @@
       "address": null,
       "new_price": 3.89,
       "new_price_eur": 1.99,
+      "old_price": 8.0,
+      "old_price_eur": 4.09,
+      "discount_pct": 51,
+      "valid_from": "2026-07-13",
+      "valid_until": "2026-07-19",
+      "price_per_kg": 9.73,
+      "price_per_kg_eur": 4.97,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 3.89,
+          "price_eur": 1.99,
+          "old_price": 8.0,
+          "old_price_eur": 4.09,
+          "discount_pct": 51,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 3.89,
+      "comparison_count": 1,
+      "product_id": "kaufland-schauma-шампоан-или-балсам-различни-видове-400g",
+      "weight_grams": 400,
+      "weight_raw": "400 мл",
+      "name": "SCHAUMA Шампоан или Балсам различни видове",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/631_04701080?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "hygiene",
+      "emoji": "🧴",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "avg_price": 4.44,
+      "lowest_price": 3.89,
+      "lowest_price_date": "2026-06-22",
+      "price_history": [
+        [
+          "2026-05-11",
+          4.99,
+          null,
+          null
+        ],
+        [
+          "2026-06-22",
+          3.89,
+          8.0,
+          51
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 3.89,
+      "new_price_eur": 1.99,
       "old_price": 7.8,
       "old_price_eur": 3.99,
       "discount_pct": 50,
@@ -202452,71 +202396,6 @@
       ],
       "price_seen_count": 6,
       "price_signal": "normal"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 3.89,
-      "new_price_eur": 1.99,
-      "old_price": 8.0,
-      "old_price_eur": 4.09,
-      "discount_pct": 51,
-      "valid_from": "2026-07-13",
-      "valid_until": "2026-07-19",
-      "price_per_kg": 9.73,
-      "price_per_kg_eur": 4.97,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 3.89,
-          "price_eur": 1.99,
-          "old_price": 8.0,
-          "old_price_eur": 4.09,
-          "discount_pct": 51,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 3.89,
-      "comparison_count": 1,
-      "product_id": "kaufland-schauma-шампоан-или-балсам-различни-видове-400g",
-      "weight_grams": 400,
-      "weight_raw": "400 мл",
-      "name": "SCHAUMA Шампоан или Балсам различни видове",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/631_04701080?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "hygiene",
-      "emoji": "🧴",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "avg_price": 4.44,
-      "lowest_price": 3.89,
-      "lowest_price_date": "2026-06-22",
-      "price_history": [
-        [
-          "2026-05-11",
-          4.99,
-          null,
-          null
-        ],
-        [
-          "2026-06-22",
-          3.89,
-          8.0,
-          51
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
     },
     {
       "store": "Kaufland",
@@ -218136,69 +218015,6 @@
       ],
       "price_seen_count": 3,
       "price_signal": "normal"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 4.87,
-      "new_price_eur": 2.49,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-07-13",
-      "valid_until": "2026-07-19",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 4.87,
-          "price_eur": 2.49,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 4.87,
-      "comparison_count": 1,
-      "product_id": "kaufland-минироза-ø7-см",
-      "name": "Минироза Ø7 см",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/Mini_20Rose_2C_20zweifarbig_20_28Rosa_20Hybr__29_207cm_02?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 5.93,
-      "lowest_price": 4.87,
-      "lowest_price_date": "2026-07-14",
-      "price_history": [
-        [
-          "2026-05-12",
-          6.98,
-          null,
-          null
-        ],
-        [
-          "2026-07-14",
-          4.87,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
     },
     {
       "store": "Billa",
@@ -242893,63 +242709,6 @@
       "price_signal": "wait"
     },
     {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 7.8,
-      "new_price_eur": 3.99,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-07-13",
-      "valid_until": "2026-07-19",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 7.8,
-          "price_eur": 3.99,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 7.8,
-      "comparison_count": 1,
-      "product_id": "kaufland-драцена-маргината-ø10-5-см",
-      "name": "Драцена Маргината Ø10,5 см",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8717191062657_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 7.8,
-      "lowest_price": 7.8,
-      "lowest_price_date": "2026-07-14",
-      "price_history": [
-        [
-          "2026-07-14",
-          7.8,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
       "store": "Billa",
       "address": null,
       "new_price": 7.8,
@@ -254798,63 +254557,6 @@
       "price_signal": "buy"
     },
     {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 10.74,
-      "new_price_eur": 5.49,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-07-13",
-      "valid_until": "2026-07-19",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 10.74,
-          "price_eur": 5.49,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 10.74,
-      "comparison_count": 1,
-      "product_id": "kaufland-конифери-микс-ø13-см",
-      "name": "Конифери микс Ø13 см",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/09900416B_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 10.74,
-      "lowest_price": 10.74,
-      "lowest_price_date": "2026-07-14",
-      "price_history": [
-        [
-          "2026-07-14",
-          10.74,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
       "store": "Billa",
       "address": null,
       "new_price": 10.74,
@@ -265073,63 +264775,6 @@
           21.49,
           28.99,
           26
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 21.49,
-      "new_price_eur": 10.99,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-07-13",
-      "valid_until": "2026-07-19",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 21.49,
-          "price_eur": 10.99,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 21.49,
-      "comparison_count": 1,
-      "product_id": "kaufland-орхидея-дендробиум",
-      "name": "Орхидея Дендробиум",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/09902172_P-1?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 21.49,
-      "lowest_price": 21.49,
-      "lowest_price_date": "2026-06-02",
-      "price_history": [
-        [
-          "2026-06-02",
-          21.49,
-          null,
-          null
         ]
       ],
       "price_seen_count": 1,
