@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-21T06:36:01.244567Z",
-  "content_hash": "094a1da4c92b91761706ca0124b4e972",
-  "total_offers": 4334,
-  "promo_offers": 1543,
+  "generated_at": "2026-07-21T10:11:34.420289Z",
+  "content_hash": "dd8a82d78ac63e0842d9e85f84f2d53d",
+  "total_offers": 4333,
+  "promo_offers": 1542,
   "assortment_offers": 2791,
   "stores": [
     "Billa",
@@ -4457,70 +4457,6 @@
         ]
       ],
       "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 3.89,
-      "new_price_eur": 1.99,
-      "old_price": 7.8,
-      "old_price_eur": 3.99,
-      "discount_pct": 50,
-      "valid_from": "2026-07-20",
-      "valid_until": "2026-07-26",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 3.89,
-          "price_eur": 1.99,
-          "old_price": 7.8,
-          "old_price_eur": 3.99,
-          "discount_pct": 50,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 3.89,
-      "comparison_count": 1,
-      "product_id": "kaufland-домати-розова-магия",
-      "name": "Домати розова магия",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/2834790000000_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "vegetable",
-      "emoji": "🥦",
-      "health_score": 7,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "macros": {
-        "kcal": 18,
-        "p": 0.9,
-        "f": 0.2,
-        "c": 3.9
-      },
-      "avg_price": 3.89,
-      "lowest_price": 3.89,
-      "lowest_price_date": "2026-07-20",
-      "price_history": [
-        [
-          "2026-07-20",
-          3.89,
-          7.8,
-          50
-        ]
-      ],
-      "price_seen_count": 1,
       "price_signal": "buy"
     },
     {
@@ -19923,69 +19859,6 @@
       "best_price_store": "Kaufland",
       "best_price": 1.94,
       "comparison_count": 1,
-      "product_id": "kaufland-астера-градинско-растение",
-      "name": "Астера Градинско растение",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/09902590_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 3.46,
-      "lowest_price": 1.94,
-      "lowest_price_date": "2026-07-21",
-      "price_history": [
-        [
-          "2026-06-30",
-          4.99,
-          null,
-          null
-        ],
-        [
-          "2026-07-21",
-          1.94,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 1.94,
-      "new_price_eur": 0.99,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-07-20",
-      "valid_until": "2026-07-26",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 1.94,
-          "price_eur": 0.99,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 1.94,
-      "comparison_count": 1,
       "product_id": "kaufland-домашни-потреби-различни-видове",
       "name": "Домашни потреби различни видове",
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4049726100379_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
@@ -27437,6 +27310,69 @@
     {
       "store": "Kaufland",
       "address": null,
+      "new_price": 4.99,
+      "new_price_eur": 2.55,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-07-20",
+      "valid_until": "2026-07-26",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 4.99,
+          "price_eur": 2.55,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 4.99,
+      "comparison_count": 1,
+      "product_id": "kaufland-астера-градинско-растение",
+      "name": "Астера Градинско растение",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/09902590_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 3.46,
+      "lowest_price": 1.94,
+      "lowest_price_date": "2026-07-21",
+      "price_history": [
+        [
+          "2026-06-30",
+          4.99,
+          null,
+          null
+        ],
+        [
+          "2026-07-21",
+          1.94,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "wait"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
       "new_price": 5.1,
       "new_price_eur": 2.61,
       "old_price": 6.83,
@@ -32119,7 +32055,7 @@
       "comparison_count": 1,
       "product_id": "kaufland-френско-петле",
       "name": "Френско петле",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/272_00101969_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_00101969_P.jpg",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -35320,7 +35256,7 @@
       "comparison_count": 1,
       "product_id": "kaufland-пикантна-разядка-тирокафтери-от-свежата-витрина",
       "name": "Пикантна разядка Тирокафтери от свежата витрина",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20769898B_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20769898_P.jpg",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
