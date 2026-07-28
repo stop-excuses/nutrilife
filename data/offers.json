@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-28T06:34:04.473824Z",
-  "content_hash": "07064c538c01bf6db5f01e3500d51160",
-  "total_offers": 4350,
+  "generated_at": "2026-07-28T16:44:24.425774Z",
+  "content_hash": "0773e6a769956c732e8b889c1c9ad5c3",
+  "total_offers": 4349,
   "promo_offers": 1542,
-  "assortment_offers": 2808,
+  "assortment_offers": 2807,
   "stores": [
     "Billa",
     "Dar",
@@ -1384,6 +1384,84 @@
       ],
       "price_seen_count": 2,
       "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 3.11,
+      "new_price_eur": 1.59,
+      "old_price": 7.49,
+      "old_price_eur": 3.83,
+      "discount_pct": 58,
+      "valid_from": "2026-07-27",
+      "valid_until": "2026-08-02",
+      "price_per_kg": 24.88,
+      "price_per_kg_eur": 12.72,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 3.11,
+          "price_eur": 1.59,
+          "old_price": 7.49,
+          "old_price_eur": 3.83,
+          "discount_pct": 58,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 3.11,
+      "comparison_count": 1,
+      "product_id": "kaufland-малини-125g",
+      "weight_grams": 125,
+      "weight_raw": "125 г",
+      "name": "Малини",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/AdobeStock_144770773?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "vegetable",
+      "emoji": "🥦",
+      "health_score": 9,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 52,
+        "p": 1.2,
+        "f": 0.7,
+        "c": 12
+      },
+      "avg_price": 3.11,
+      "lowest_price": 2.52,
+      "lowest_price_date": "2026-05-22",
+      "price_history": [
+        [
+          "2026-05-07",
+          3.7,
+          7.49,
+          51
+        ],
+        [
+          "2026-05-22",
+          2.52,
+          7.49,
+          66
+        ],
+        [
+          "2026-07-28",
+          3.11,
+          7.49,
+          58
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "normal"
     },
     {
       "store": "Kaufland",
@@ -4066,106 +4144,6 @@
     {
       "store": "Kaufland",
       "address": null,
-      "new_price": 0.63,
-      "new_price_eur": 0.32,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-07-27",
-      "valid_until": "2026-08-02",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 0.63,
-          "price_eur": 0.32,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 0.63,
-      "comparison_count": 1,
-      "product_id": "kaufland-диня-кг-клас-i",
-      "name": "Диня кг Клас: I",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/09700050_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "vegetable",
-      "emoji": "🥦",
-      "health_score": 7,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "macros": {
-        "kcal": 30,
-        "p": 0.6,
-        "f": 0.2,
-        "c": 7.6
-      },
-      "avg_price": 0.69,
-      "lowest_price": 0.57,
-      "lowest_price_date": "2026-07-16",
-      "price_history": [
-        [
-          "2026-06-18",
-          0.88,
-          2.52,
-          65
-        ],
-        [
-          "2026-06-25",
-          0.76,
-          2.52,
-          70
-        ],
-        [
-          "2026-07-02",
-          0.65,
-          2.33,
-          72
-        ],
-        [
-          "2026-07-06",
-          0.59,
-          0.72,
-          18
-        ],
-        [
-          "2026-07-16",
-          0.57,
-          1.55,
-          63
-        ],
-        [
-          "2026-07-20",
-          0.74,
-          1.55,
-          52
-        ],
-        [
-          "2026-07-27",
-          0.63,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 7,
-      "price_signal": "good"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
       "new_price": 0.76,
       "new_price_eur": 0.39,
       "old_price": 1.39,
@@ -6810,88 +6788,6 @@
       ],
       "price_seen_count": 3,
       "price_signal": "wait"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 1.35,
-      "new_price_eur": 0.69,
-      "old_price": 2.52,
-      "old_price_eur": 1.29,
-      "discount_pct": 46,
-      "valid_from": "2026-07-27",
-      "valid_until": "2026-08-02",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 1.35,
-          "price_eur": 0.69,
-          "old_price": 2.52,
-          "old_price_eur": 1.29,
-          "discount_pct": 46,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 1.35,
-      "comparison_count": 1,
-      "product_id": "kaufland-сладка-царевица",
-      "name": "Сладка царевица",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/09701111_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "legume",
-      "emoji": "🫘",
-      "health_score": 6,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": true,
-      "is_long_lasting": true,
-      "macros": {
-        "kcal": 86,
-        "p": 3.3,
-        "f": 1.4,
-        "c": 19
-      },
-      "avg_price": 1.44,
-      "lowest_price": 1.08,
-      "lowest_price_date": "2026-07-13",
-      "price_history": [
-        [
-          "2026-06-15",
-          1.94,
-          3.89,
-          50
-        ],
-        [
-          "2026-07-06",
-          1.41,
-          2.52,
-          44
-        ],
-        [
-          "2026-07-13",
-          1.08,
-          null,
-          null
-        ],
-        [
-          "2026-07-27",
-          1.35,
-          2.52,
-          46
-        ]
-      ],
-      "price_seen_count": 4,
-      "price_signal": "normal"
     },
     {
       "store": "Kaufland",
@@ -12530,7 +12426,7 @@
       "comparison_count": 1,
       "product_id": "kaufland-fino-алуминиево-фолио-30-м",
       "name": "Fino Алуминиево фолио 30 м",
-      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20960933_P.jpg",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20960933_609?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "household",
       "emoji": "🧹",
       "health_score": 5,
@@ -28134,7 +28030,7 @@
       "comparison_count": 1,
       "product_id": "kaufland-fino-хартия-за-печене-42х38-см-30-бр",
       "name": "Fino Хартия за печене 42х38 см, 30 бр.",
-      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20703980_P.jpg",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20703980_609?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -34182,7 +34078,7 @@
       "weight_grams": 150,
       "weight_raw": "3x50 г",
       "name": "Domestos Power 5 WС блокче Pine 3x50 г",
-      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20772167_P.jpg",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20772167_625?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -39142,7 +39038,7 @@
       "weight_grams": 700,
       "weight_raw": "0,7 л",
       "name": "Kalganoff Водка lux 40% vol",
-      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20876509_P.jpg",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/568_20876509?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
