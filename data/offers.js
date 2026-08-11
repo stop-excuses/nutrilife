@@ -1,9 +1,9 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-08-10T14:17:35.447747Z",
-  "content_hash": "ca3eabfd1eb43a89b63dca265cec750f",
-  "total_offers": 4393,
-  "promo_offers": 1590,
-  "assortment_offers": 2803,
+  "generated_at": "2026-08-11T10:51:27.892400Z",
+  "content_hash": "ec3d6bb720efa52032207b5f4a50ebc6",
+  "total_offers": 4399,
+  "promo_offers": 1588,
+  "assortment_offers": 2811,
   "stores": [
     "Billa",
     "Dar",
@@ -4369,75 +4369,6 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 0.91,
-      "new_price_eur": 0.47,
-      "old_price": 1.3,
-      "old_price_eur": 0.66,
-      "discount_pct": 30,
-      "valid_from": "2026-08-10",
-      "valid_until": "2026-08-16",
-      "price_per_kg": 13.0,
-      "price_per_kg_eur": 6.65,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 0.91,
-          "price_eur": 0.47,
-          "old_price": 1.3,
-          "old_price_eur": 0.66,
-          "discount_pct": 30,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 0.91,
-      "comparison_count": 1,
-      "product_id": "kaufland-riceup-овесено-барче-различни-видове-70g",
-      "weight_grams": 70,
-      "weight_raw": "70 г",
-      "name": "RiceUP! Овесено барче различни видове",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20270175_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "grain",
-      "emoji": "🌾",
-      "health_score": 8,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": true,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "diet_tags": [
-        "vegetarian"
-      ],
-      "macros": {
-        "kcal": 389,
-        "p": 16.9,
-        "f": 6.9,
-        "c": 66
-      },
-      "avg_price": 0.91,
-      "lowest_price": 0.91,
-      "lowest_price_date": "2026-08-10",
-      "price_history": [
-        [
-          "2026-08-10",
-          0.91,
-          1.3,
-          30
-        ]
-      ],
-      "price_seen_count": 1,
       "price_signal": "buy"
     },
     {
@@ -11174,132 +11105,6 @@ const OFFERS_DATA = {
       "address": null,
       "new_price": 0.62,
       "new_price_eur": 0.32,
-      "old_price": 0.89,
-      "old_price_eur": 0.46,
-      "discount_pct": 30,
-      "valid_from": "2026-08-10",
-      "valid_until": "2026-08-16",
-      "price_per_kg": 15.5,
-      "price_per_kg_eur": 7.93,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 0.62,
-          "price_eur": 0.32,
-          "old_price": 0.89,
-          "old_price_eur": 0.46,
-          "discount_pct": 30,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 0.62,
-      "comparison_count": 1,
-      "product_id": "kaufland-riceup-протеинов-стик-различни-видове-40g",
-      "weight_grams": 40,
-      "weight_raw": "40 г",
-      "name": "RICEUP Протеинов стик различни видове",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/653_20758562_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": true,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 0.62,
-      "lowest_price": 0.62,
-      "lowest_price_date": "2026-08-10",
-      "price_history": [
-        [
-          "2026-08-10",
-          0.62,
-          0.89,
-          30
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 0.62,
-      "new_price_eur": 0.32,
-      "old_price": 0.89,
-      "old_price_eur": 0.46,
-      "discount_pct": 30,
-      "valid_from": "2026-08-10",
-      "valid_until": "2026-08-16",
-      "price_per_kg": 15.5,
-      "price_per_kg_eur": 7.93,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 0.62,
-          "price_eur": 0.32,
-          "old_price": 0.89,
-          "old_price_eur": 0.46,
-          "discount_pct": 30,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 0.62,
-      "comparison_count": 1,
-      "product_id": "kaufland-rice-up-протеинов-стик-различни-вкусове-40g",
-      "weight_grams": 40,
-      "weight_raw": "40 г",
-      "name": "RICE UP! Протеинов стик различни вкусове",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/653_20758500_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": true,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 1.18,
-      "lowest_price": 0.62,
-      "lowest_price_date": "2026-08-10",
-      "price_history": [
-        [
-          "2026-06-22",
-          1.74,
-          2.48,
-          30
-        ],
-        [
-          "2026-08-10",
-          0.62,
-          0.89,
-          30
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 0.62,
-      "new_price_eur": 0.32,
       "old_price": 0.66,
       "old_price_eur": 0.34,
       "discount_pct": 6,
@@ -12375,6 +12180,96 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 1.07,
+      "new_price_eur": 0.55,
+      "old_price": 1.53,
+      "old_price_eur": 0.78,
+      "discount_pct": 30,
+      "valid_from": "2026-08-10",
+      "valid_until": "2026-08-16",
+      "price_per_kg": 21.4,
+      "price_per_kg_eur": 10.94,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 1.07,
+          "price_eur": 0.55,
+          "old_price": 1.53,
+          "old_price_eur": 0.78,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 1.07,
+      "comparison_count": 1,
+      "product_id": "kaufland-rice-up-протеиново-барче-collagen-различни-вкусове-50g-2",
+      "weight_grams": 50,
+      "weight_raw": "50 г",
+      "name": "Rice UP Протеиново барче Collagen различни вкусове",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800233076219_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": true,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 2.06,
+      "lowest_price": 1.07,
+      "lowest_price_date": "2026-08-11",
+      "price_history": [
+        [
+          "2026-04-20",
+          2.29,
+          2.99,
+          23
+        ],
+        [
+          "2026-06-01",
+          2.23,
+          2.99,
+          25
+        ],
+        [
+          "2026-06-22",
+          2.33,
+          2.99,
+          22
+        ],
+        [
+          "2026-07-20",
+          2.09,
+          2.99,
+          30
+        ],
+        [
+          "2026-07-27",
+          2.33,
+          2.99,
+          22
+        ],
+        [
+          "2026-08-11",
+          1.07,
+          1.53,
+          30
+        ]
+      ],
+      "price_seen_count": 6,
       "price_signal": "buy"
     },
     {
@@ -17784,7 +17679,7 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "kaufland-finish-таблетки-за-съдомиялна-all-in-one-лимон-150бр-2",
       "name": "FINISH Таблетки за съдомиялна All in One лимон- 150бр.",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20868196_619?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20868196_619?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "household",
       "emoji": "🧹",
       "health_score": 5,
@@ -19912,72 +19807,6 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 4,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 0.69,
-      "new_price_eur": 0.35,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-08-10",
-      "valid_until": "2026-08-16",
-      "price_per_kg": 11.5,
-      "price_per_kg_eur": 5.88,
-      "source_type": "assortment",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 0.69,
-          "price_eur": 0.35,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 0.69,
-      "comparison_count": 1,
-      "product_id": "kaufland-rice-up-протеинов-чипс-различни-вкусове-60g",
-      "weight_grams": 60,
-      "weight_raw": "60 г",
-      "name": "Rice UP! Протеинов чипс различни вкусове",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800233078091_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "health_score": 2,
-      "is_food": true,
-      "is_junk": true,
-      "is_healthy": false,
-      "is_high_protein": true,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 1.31,
-      "lowest_price": 0.69,
-      "lowest_price_date": "2026-08-10",
-      "price_history": [
-        [
-          "2026-06-22",
-          1.94,
-          null,
-          null
-        ],
-        [
-          "2026-08-10",
-          0.69,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 2,
       "price_signal": "buy"
     },
     {
@@ -32371,6 +32200,69 @@ const OFFERS_DATA = {
     {
       "store": "Kaufland",
       "address": null,
+      "new_price": 2.04,
+      "new_price_eur": 1.04,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-08-10",
+      "valid_until": "2026-08-16",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 2.04,
+          "price_eur": 1.04,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 2.04,
+      "comparison_count": 1,
+      "product_id": "kaufland-каланхое-ø7-см",
+      "name": "Каланхое Ø7 см",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/8714098590351_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 3.02,
+      "lowest_price": 2.04,
+      "lowest_price_date": "2026-08-11",
+      "price_history": [
+        [
+          "2026-06-23",
+          3.99,
+          null,
+          null
+        ],
+        [
+          "2026-08-11",
+          2.04,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
       "new_price": 2.09,
       "new_price_eur": 1.07,
       "old_price": 2.45,
@@ -34553,6 +34445,87 @@ const OFFERS_DATA = {
     {
       "store": "Kaufland",
       "address": null,
+      "new_price": 2.55,
+      "new_price_eur": 1.3,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-08-10",
+      "valid_until": "2026-08-16",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 2.55,
+          "price_eur": 1.3,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 2.55,
+      "comparison_count": 1,
+      "product_id": "kaufland-хризантема-трио-ø12-см",
+      "name": "Хризантема Трио Ø12 см",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/8717191510417_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 4.97,
+      "lowest_price": 2.55,
+      "lowest_price_date": "2026-08-11",
+      "price_history": [
+        [
+          "2026-05-12",
+          5.98,
+          null,
+          null
+        ],
+        [
+          "2026-06-02",
+          5.48,
+          null,
+          null
+        ],
+        [
+          "2026-06-16",
+          5.85,
+          null,
+          null
+        ],
+        [
+          "2026-07-28",
+          4.99,
+          null,
+          null
+        ],
+        [
+          "2026-08-11",
+          2.55,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 5,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
       "new_price": 2.59,
       "new_price_eur": 1.32,
       "old_price": null,
@@ -36293,6 +36266,126 @@ const OFFERS_DATA = {
     {
       "store": "Kaufland",
       "address": null,
+      "new_price": 2.99,
+      "new_price_eur": 1.53,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-08-10",
+      "valid_until": "2026-08-16",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 2.99,
+          "price_eur": 1.53,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 2.99,
+      "comparison_count": 1,
+      "product_id": "kaufland-циклама-стаино-растение-ø10-5-см",
+      "name": "Циклама Стайно растение Ø10,5 см",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/5708869100361_CZ_CU_9930-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 2.99,
+      "lowest_price": 2.99,
+      "lowest_price_date": "2026-08-11",
+      "price_history": [
+        [
+          "2026-08-11",
+          2.99,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 2.99,
+      "new_price_eur": 1.53,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-08-10",
+      "valid_until": "2026-08-16",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 2.99,
+          "price_eur": 1.53,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 2.99,
+      "comparison_count": 1,
+      "product_id": "kaufland-сентполия-ø10-см",
+      "name": "Сентполия Ø10 см",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 4.49,
+      "lowest_price": 2.99,
+      "lowest_price_date": "2026-08-11",
+      "price_history": [
+        [
+          "2026-05-26",
+          5.98,
+          null,
+          null
+        ],
+        [
+          "2026-08-11",
+          2.99,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4011261073227_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
       "new_price": 3.01,
       "new_price_eur": 1.54,
       "old_price": null,
@@ -37868,6 +37961,69 @@ const OFFERS_DATA = {
         [
           "2026-08-10",
           3.45,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 3.48,
+      "new_price_eur": 1.78,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-08-10",
+      "valid_until": "2026-08-16",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 3.48,
+          "price_eur": 1.78,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 3.48,
+      "comparison_count": 1,
+      "product_id": "kaufland-хризантема-ø14-см",
+      "name": "Хризантема Ø14 см",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/09902125_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 5.14,
+      "lowest_price": 3.48,
+      "lowest_price_date": "2026-08-11",
+      "price_history": [
+        [
+          "2026-07-21",
+          6.81,
+          null,
+          null
+        ],
+        [
+          "2026-08-11",
+          3.48,
           null,
           null
         ]
@@ -41664,6 +41820,63 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 4.59,
+      "new_price_eur": 2.35,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-08-10",
+      "valid_until": "2026-08-16",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 4.59,
+          "price_eur": 2.35,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 4.59,
+      "comparison_count": 1,
+      "product_id": "kaufland-драцена-ø11-см",
+      "name": "Драцена Ø11 см",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/8717191061384_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 4.59,
+      "lowest_price": 4.59,
+      "lowest_price_date": "2026-08-11",
+      "price_history": [
+        [
+          "2026-08-11",
+          4.59,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 1,
       "price_signal": "buy"
     },
     {
@@ -46594,6 +46807,81 @@ const OFFERS_DATA = {
     {
       "store": "Kaufland",
       "address": null,
+      "new_price": 6.99,
+      "new_price_eur": 3.57,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-08-10",
+      "valid_until": "2026-08-16",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 6.99,
+          "price_eur": 3.57,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 6.99,
+      "comparison_count": 1,
+      "product_id": "kaufland-хризантема",
+      "name": "Хризантема",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00014724M_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 8.91,
+      "lowest_price": 3.68,
+      "lowest_price_date": "2026-04-14",
+      "price_history": [
+        [
+          "2026-04-14",
+          3.68,
+          null,
+          null
+        ],
+        [
+          "2026-05-07",
+          9.99,
+          null,
+          null
+        ],
+        [
+          "2026-06-16",
+          14.98,
+          null,
+          null
+        ],
+        [
+          "2026-08-11",
+          6.99,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "good"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
       "new_price": 7.15,
       "new_price_eur": 3.66,
       "old_price": null,
@@ -47142,6 +47430,63 @@ const OFFERS_DATA = {
       "price_history": [
         [
           "2026-08-10",
+          7.66,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 7.66,
+      "new_price_eur": 3.92,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-08-10",
+      "valid_until": "2026-08-16",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 7.66,
+          "price_eur": 3.92,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 7.66,
+      "comparison_count": 1,
+      "product_id": "kaufland-антуриум-ø9-см",
+      "name": "Антуриум Ø9 см",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/8714098118012_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 7.66,
+      "lowest_price": 7.66,
+      "lowest_price_date": "2026-08-11",
+      "price_history": [
+        [
+          "2026-08-11",
           7.66,
           null,
           null
@@ -50849,6 +51194,63 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 11.49,
+      "new_price_eur": 5.87,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-08-10",
+      "valid_until": "2026-08-16",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 11.49,
+          "price_eur": 5.87,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 11.49,
+      "comparison_count": 1,
+      "product_id": "kaufland-каскадна-орхидея-фаленопсис-ø12-см",
+      "name": "Каскадна орхидея фаленопсис Ø12 см",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00027827_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 11.49,
+      "lowest_price": 11.49,
+      "lowest_price_date": "2026-08-11",
+      "price_history": [
+        [
+          "2026-08-11",
+          11.49,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 1,
       "price_signal": "buy"
     },
     {
@@ -343326,5 +343728,5 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     }
   ],
-  "catalog_products": 55849
+  "catalog_products": 55853
 };
