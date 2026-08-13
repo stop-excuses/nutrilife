@@ -1,9 +1,9 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-08-13T05:26:40.475022Z",
-  "content_hash": "f6c60278954f2a193f32a8b378f97ba6",
-  "total_offers": 4132,
-  "promo_offers": 1327,
-  "assortment_offers": 2805,
+  "generated_at": "2026-08-13T14:13:27.232972Z",
+  "content_hash": "a5d0ac548eabe11f31d8fc0c58adaa8b",
+  "total_offers": 4129,
+  "promo_offers": 1325,
+  "assortment_offers": 2804,
   "stores": [
     "Billa",
     "Dar",
@@ -53888,94 +53888,6 @@ const OFFERS_DATA = {
     {
       "store": "Kaufland",
       "address": null,
-      "new_price": 0.49,
-      "new_price_eur": 0.25,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-08-10",
-      "valid_until": "2026-08-16",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 0.49,
-          "price_eur": 0.25,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 0.49,
-      "comparison_count": 1,
-      "product_id": "kaufland-сладка-царевица",
-      "name": "Сладка царевица",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/09701111_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "legume",
-      "emoji": "🫘",
-      "health_score": 6,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": true,
-      "is_long_lasting": true,
-      "macros": {
-        "kcal": 86,
-        "p": 3.3,
-        "f": 1.4,
-        "c": 19
-      },
-      "avg_price": 1.25,
-      "lowest_price": 0.49,
-      "lowest_price_date": "2026-08-10",
-      "price_history": [
-        [
-          "2026-06-15",
-          1.94,
-          3.89,
-          50
-        ],
-        [
-          "2026-07-06",
-          1.41,
-          2.52,
-          44
-        ],
-        [
-          "2026-07-13",
-          1.08,
-          null,
-          null
-        ],
-        [
-          "2026-07-27",
-          1.35,
-          2.52,
-          46
-        ],
-        [
-          "2026-08-10",
-          0.49,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 5,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
       "new_price": 0.61,
       "new_price_eur": 0.31,
       "old_price": 0.76,
@@ -70562,88 +70474,6 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 7,
       "price_signal": "wait"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 0.85,
-      "new_price_eur": 0.43,
-      "old_price": 1.09,
-      "old_price_eur": 0.56,
-      "discount_pct": 22,
-      "valid_from": "2026-08-10",
-      "valid_until": "2026-08-16",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 0.85,
-          "price_eur": 0.43,
-          "old_price": 1.09,
-          "old_price_eur": 0.56,
-          "discount_pct": 22,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 0.85,
-      "comparison_count": 1,
-      "product_id": "kaufland-пъпеш",
-      "name": "Пъпеш",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/2831420000000_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "vegetable",
-      "emoji": "🥦",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "macros": {
-        "kcal": 34,
-        "p": 0.8,
-        "f": 0.2,
-        "c": 8
-      },
-      "avg_price": 1.76,
-      "lowest_price": 0.85,
-      "lowest_price_date": "2026-08-13",
-      "price_history": [
-        [
-          "2026-07-09",
-          2.52,
-          6.43,
-          61
-        ],
-        [
-          "2026-07-13",
-          1.94,
-          4.87,
-          60
-        ],
-        [
-          "2026-07-20",
-          1.74,
-          null,
-          null
-        ],
-        [
-          "2026-08-13",
-          0.85,
-          1.09,
-          22
-        ]
-      ],
-      "price_seen_count": 4,
-      "price_signal": "buy"
     },
     {
       "store": "Fantastico",
@@ -155484,69 +155314,6 @@ const OFFERS_DATA = {
       "address": null,
       "new_price": 0.99,
       "new_price_eur": 0.51,
-      "old_price": 1.99,
-      "old_price_eur": 1.02,
-      "discount_pct": 50,
-      "valid_from": "2026-08-10",
-      "valid_until": "2026-08-16",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 0.99,
-          "price_eur": 0.51,
-          "old_price": 1.99,
-          "old_price_eur": 1.02,
-          "discount_pct": 50,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 0.99,
-      "comparison_count": 1,
-      "product_id": "kaufland-сини-сливи",
-      "name": "Сини сливи",
-      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_09701130_P.jpg",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 1.85,
-      "lowest_price": 0.99,
-      "lowest_price_date": "2026-08-13",
-      "price_history": [
-        [
-          "2026-07-13",
-          2.72,
-          5.85,
-          54
-        ],
-        [
-          "2026-08-13",
-          0.99,
-          1.99,
-          50
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 0.99,
-      "new_price_eur": 0.51,
       "old_price": 1.53,
       "old_price_eur": 0.78,
       "discount_pct": 35,
@@ -162212,63 +161979,6 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 1.27,
-      "new_price_eur": 0.65,
-      "old_price": 2.29,
-      "old_price_eur": 1.17,
-      "discount_pct": 45,
-      "valid_from": "2026-08-10",
-      "valid_until": "2026-08-16",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 1.27,
-          "price_eur": 0.65,
-          "old_price": 2.29,
-          "old_price_eur": 1.17,
-          "discount_pct": 45,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 1.27,
-      "comparison_count": 1,
-      "product_id": "kaufland-talentus-тетрадка",
-      "name": "Talentus Тетрадка",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/4337185751127_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 1.27,
-      "lowest_price": 1.27,
-      "lowest_price_date": "2026-08-10",
-      "price_history": [
-        [
-          "2026-08-10",
-          1.27,
-          2.29,
-          45
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
       "store": "Fantastico",
       "address": null,
       "new_price": 1.27,
@@ -165888,6 +165598,69 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 5,
       "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 1.39,
+      "new_price_eur": 0.71,
+      "old_price": 1.99,
+      "old_price_eur": 1.02,
+      "discount_pct": 30,
+      "valid_from": "2026-08-10",
+      "valid_until": "2026-08-16",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 1.39,
+          "price_eur": 0.71,
+          "old_price": 1.99,
+          "old_price_eur": 1.02,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 1.39,
+      "comparison_count": 1,
+      "product_id": "kaufland-сини-сливи",
+      "name": "Сини сливи",
+      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_09701130_P.jpg",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 1.85,
+      "lowest_price": 0.99,
+      "lowest_price_date": "2026-08-13",
+      "price_history": [
+        [
+          "2026-07-13",
+          2.72,
+          5.85,
+          54
+        ],
+        [
+          "2026-08-13",
+          0.99,
+          1.99,
+          50
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "good"
     },
     {
       "store": "Fantastico",
@@ -183108,8 +182881,8 @@ const OFFERS_DATA = {
       "best_price_store": "Kaufland",
       "best_price": 2.3,
       "comparison_count": 1,
-      "product_id": "kaufland-talentus-тетрадка-a-4-2-бр-или-a5-3-бр",
-      "name": "Talentus Тетрадка A 4 2 бр. или A5 3 бр.",
+      "product_id": "kaufland-talentus-тетрадка-a5",
+      "name": "Talentus Тетрадка A5",
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20734422_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
@@ -183123,10 +182896,10 @@ const OFFERS_DATA = {
       "is_long_lasting": false,
       "avg_price": 2.3,
       "lowest_price": 2.3,
-      "lowest_price_date": "2026-08-10",
+      "lowest_price_date": "2026-08-13",
       "price_history": [
         [
-          "2026-08-10",
+          "2026-08-13",
           2.3,
           3.57,
           36
@@ -329418,5 +329191,5 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     }
   ],
-  "catalog_products": 55872
+  "catalog_products": 55873
 };
