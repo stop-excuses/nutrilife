@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-13T14:13:27.232972Z",
-  "content_hash": "a5d0ac548eabe11f31d8fc0c58adaa8b",
-  "total_offers": 4129,
-  "promo_offers": 1325,
+  "generated_at": "2026-08-13T18:00:21.579607Z",
+  "content_hash": "7ff28ab3daa18b635087db51ee7474cf",
+  "total_offers": 4128,
+  "promo_offers": 1324,
   "assortment_offers": 2804,
   "stores": [
     "Billa",
@@ -18209,10 +18209,10 @@
       "best_price_store": "Kaufland",
       "best_price": 7.69,
       "comparison_count": 1,
-      "product_id": "kaufland-сами-м-пилешко-филе-1000g",
+      "product_id": "kaufland-сами-м-пилешко-филе-различни-видове-1000g",
       "weight_grams": 1000,
       "weight_raw": "1 кг",
-      "name": "Сами М Пилешко филе",
+      "name": "Сами М Пилешко филе различни видове",
       "image": "https://kaufland.media.schwarz/is/image/schwarz/272_203800791540016_1_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "protein",
       "emoji": "🍗",
@@ -18238,10 +18238,10 @@
       },
       "avg_price": 7.69,
       "lowest_price": 7.69,
-      "lowest_price_date": "2026-08-10",
+      "lowest_price_date": "2026-08-13",
       "price_history": [
         [
-          "2026-08-10",
+          "2026-08-13",
           7.69,
           10.99,
           30
@@ -38654,93 +38654,6 @@
       ],
       "price_seen_count": 5,
       "price_signal": "normal"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 1.99,
-      "new_price_eur": 1.02,
-      "old_price": 2.99,
-      "old_price_eur": 1.53,
-      "discount_pct": 33,
-      "valid_from": "2026-08-10",
-      "valid_until": "2026-08-16",
-      "price_per_kg": 1.99,
-      "price_per_kg_eur": 1.02,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 1.99,
-          "price_eur": 1.02,
-          "old_price": 2.99,
-          "old_price_eur": 1.53,
-          "discount_pct": 33,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 1.99,
-      "comparison_count": 1,
-      "product_id": "kaufland-бреи-краставици-1000g",
-      "weight_grams": 1000,
-      "weight_raw": "1 кг",
-      "name": "Брей! Краставици",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20283944_1_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "vegetable",
-      "emoji": "🥦",
-      "health_score": 7,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "diet_tags": [
-        "budget"
-      ],
-      "macros": {
-        "kcal": 15,
-        "p": 0.7,
-        "f": 0.1,
-        "c": 3.6
-      },
-      "avg_price": 3.2,
-      "lowest_price": 1.99,
-      "lowest_price_date": "2026-08-10",
-      "price_history": [
-        [
-          "2026-05-18",
-          3.89,
-          7.59,
-          49
-        ],
-        [
-          "2026-06-15",
-          3.7,
-          7.59,
-          51
-        ],
-        [
-          "2026-07-06",
-          3.23,
-          7.59,
-          57
-        ],
-        [
-          "2026-08-10",
-          1.99,
-          2.99,
-          33
-        ]
-      ],
-      "price_seen_count": 4,
-      "price_signal": "buy"
     },
     {
       "store": "Kaufland",
