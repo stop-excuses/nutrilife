@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-13T18:00:21.579607Z",
-  "content_hash": "7ff28ab3daa18b635087db51ee7474cf",
-  "total_offers": 4128,
-  "promo_offers": 1324,
-  "assortment_offers": 2804,
+  "generated_at": "2026-08-14T05:42:40.759097Z",
+  "content_hash": "f0a4c473e53a8ea72089745d37fd12dd",
+  "total_offers": 4129,
+  "promo_offers": 1328,
+  "assortment_offers": 2801,
   "stores": [
     "Billa",
     "Dar",
@@ -37765,6 +37765,86 @@
       "address": null,
       "new_price": 1.79,
       "new_price_eur": 0.92,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Dar",
+        "Fantastico"
+      ],
+      "store_prices": [
+        {
+          "store": "Dar",
+          "price": 1.79,
+          "price_eur": 0.92,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        },
+        {
+          "store": "Fantastico",
+          "price": 1.79,
+          "price_eur": 0.92,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Dar",
+      "best_price": 1.79,
+      "comparison_count": 2,
+      "product_id": "fantastico-ябълки-зелени-пр-д-италия-клас-i",
+      "name": "ЯБЪЛКИ ЗЕЛЕНИ ПР-Д  ИТАЛИЯ  КЛАС I",
+      "image": "https://tmarketonline.bg/cdn/img/products/50940/abalki-zeleni-italia-br-klas-i-64672321493cf.jpeg?width=600&height=600&v=1777589974",
+      "category": "vegetable",
+      "emoji": "🥦",
+      "health_score": 7,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 52,
+        "p": 0.3,
+        "f": 0.2,
+        "c": 14
+      },
+      "avg_price": 1.89,
+      "lowest_price": 1.79,
+      "lowest_price_date": "2026-08-14",
+      "price_history": [
+        [
+          "2026-07-09",
+          1.99,
+          null,
+          null
+        ],
+        [
+          "2026-08-14",
+          1.79,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Fantastico",
+      "address": null,
+      "new_price": 1.79,
+      "new_price_eur": 0.92,
       "old_price": 2.19,
       "old_price_eur": 1.12,
       "discount_pct": 18,
@@ -38892,9 +38972,9 @@
       "best_price_store": "Dar",
       "best_price": 1.99,
       "comparison_count": 2,
-      "product_id": "fantastico-ябълки-зелени-пр-д-италия-клас-i",
-      "name": "ЯБЪЛКИ ЗЕЛЕНИ ПР-Д  ИТАЛИЯ  КЛАС I",
-      "image": "https://tmarketonline.bg/cdn/img/products/50940/abalki-zeleni-italia-br-klas-i-64672321493cf.jpeg?width=600&height=600&v=1777589974",
+      "product_id": "fantastico-ябълки-червени-клас-i-пр-д-италия",
+      "name": "ЯБЪЛКИ ЧЕРВЕНИ КЛАС I ПР-Д ИТАЛИЯ",
+      "image": "https://imgproxy-retcat.assets.schwarz/IkrRD_1mifstdguhl7fNuO1ZzEa4WOyfHrQk5NoMn_E/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS82RUFDRTE0NTc1RDBENDRCOTNDMDNBQjh/CRTQzMkREODY5MTNCNDZGRkQyOUYzRDVFN0I3OTdGOTk3NDQ2MzRGLnBuZw.png",
       "category": "vegetable",
       "emoji": "🥦",
       "health_score": 7,
@@ -38903,7 +38983,7 @@
       "is_healthy": true,
       "is_high_protein": false,
       "is_good_carb": false,
-      "is_good_fat": true,
+      "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
       "macros": {
@@ -38912,18 +38992,24 @@
         "f": 0.2,
         "c": 14
       },
-      "avg_price": 1.99,
+      "avg_price": 2.02,
       "lowest_price": 1.99,
-      "lowest_price_date": "2026-07-09",
+      "lowest_price_date": "2026-08-14",
       "price_history": [
         [
-          "2026-07-09",
+          "2026-04-20",
+          2.04,
+          null,
+          null
+        ],
+        [
+          "2026-08-14",
           1.99,
           null,
           null
         ]
       ],
-      "price_seen_count": 1,
+      "price_seen_count": 2,
       "price_signal": "buy"
     },
     {
@@ -39207,80 +39293,6 @@
         ]
       ],
       "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Fantastico",
-      "address": null,
-      "new_price": 2.04,
-      "new_price_eur": 1.04,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Dar",
-        "Fantastico"
-      ],
-      "store_prices": [
-        {
-          "store": "Dar",
-          "price": 2.04,
-          "price_eur": 1.04,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        },
-        {
-          "store": "Fantastico",
-          "price": 2.04,
-          "price_eur": 1.04,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Dar",
-      "best_price": 2.04,
-      "comparison_count": 2,
-      "product_id": "fantastico-ябълки-червени-клас-i-пр-д-италия",
-      "name": "ЯБЪЛКИ ЧЕРВЕНИ КЛАС I ПР-Д ИТАЛИЯ",
-      "image": "https://imgproxy-retcat.assets.schwarz/IkrRD_1mifstdguhl7fNuO1ZzEa4WOyfHrQk5NoMn_E/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS82RUFDRTE0NTc1RDBENDRCOTNDMDNBQjh/CRTQzMkREODY5MTNCNDZGRkQyOUYzRDVFN0I3OTdGOTk3NDQ2MzRGLnBuZw.png",
-      "category": "vegetable",
-      "emoji": "🥦",
-      "health_score": 7,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "macros": {
-        "kcal": 52,
-        "p": 0.3,
-        "f": 0.2,
-        "c": 14
-      },
-      "avg_price": 2.04,
-      "lowest_price": 2.04,
-      "lowest_price_date": "2026-04-20",
-      "price_history": [
-        [
-          "2026-04-20",
-          2.04,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
       "price_signal": "buy"
     },
     {
@@ -56173,9 +56185,19 @@
       "price_per_kg_eur": 1.56,
       "source_type": "assortment",
       "available_stores": [
+        "Dar",
         "Fantastico"
       ],
       "store_prices": [
+        {
+          "store": "Dar",
+          "price": 1.53,
+          "price_eur": 0.78,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        },
         {
           "store": "Fantastico",
           "price": 1.53,
@@ -56186,9 +56208,9 @@
           "source_type": "assortment"
         }
       ],
-      "best_price_store": "Fantastico",
+      "best_price_store": "Dar",
       "best_price": 1.53,
-      "comparison_count": 1,
+      "comparison_count": 2,
       "product_id": "fantastico-хляб-бял-с-квас-500-гр-симид-500g",
       "weight_grams": 500,
       "weight_raw": "500 гр",
@@ -91862,6 +91884,112 @@
       "image": "https://tmarketonline.bg/cdn/img/products/47515/caj-bioset-sipka-20-h-2-gr-6375f4c5cffcd.jpeg?width=600&height=600&v=1777589966"
     },
     {
+      "store": "Fantastico",
+      "address": null,
+      "new_price": 2.25,
+      "new_price_eur": 1.15,
+      "old_price": 4.55,
+      "old_price_eur": 2.33,
+      "discount_pct": 51,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 11.25,
+      "price_per_kg_eur": 5.75,
+      "source_type": "promo",
+      "available_stores": [
+        "Dar",
+        "Fantastico"
+      ],
+      "store_prices": [
+        {
+          "store": "Dar",
+          "price": 2.25,
+          "price_eur": 1.15,
+          "old_price": 4.55,
+          "old_price_eur": 2.33,
+          "discount_pct": 51,
+          "source_type": "promo"
+        },
+        {
+          "store": "Fantastico",
+          "price": 2.25,
+          "price_eur": 1.15,
+          "old_price": 4.55,
+          "old_price_eur": 2.33,
+          "discount_pct": 51,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Dar",
+      "best_price": 2.25,
+      "comparison_count": 2,
+      "product_id": "fantastico-масло-краве-lurpak-200-гр-200g",
+      "weight_grams": 200,
+      "weight_raw": "200 гр",
+      "name": "МАСЛО КРАВЕ LURPAK 200 ГР",
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/2058fdf8-806c-47c0-8752-d6485d055dad.png",
+      "category": "dairy",
+      "emoji": "🥛",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 717,
+        "p": 0.9,
+        "f": 81,
+        "c": 0.1
+      },
+      "avg_price": 3.59,
+      "lowest_price": 2.25,
+      "lowest_price_date": "2026-08-14",
+      "price_history": [
+        [
+          "2026-04-20",
+          4.55,
+          null,
+          null
+        ],
+        [
+          "2026-04-25",
+          3.15,
+          4.55,
+          31
+        ],
+        [
+          "2026-05-07",
+          4.55,
+          null,
+          null
+        ],
+        [
+          "2026-06-11",
+          2.49,
+          4.55,
+          45
+        ],
+        [
+          "2026-07-09",
+          4.55,
+          null,
+          null
+        ],
+        [
+          "2026-08-14",
+          2.25,
+          4.55,
+          51
+        ]
+      ],
+      "price_seen_count": 6,
+      "price_signal": "buy"
+    },
+    {
       "store": "Kaufland",
       "address": null,
       "new_price": 2.29,
@@ -103212,106 +103340,6 @@
     {
       "store": "Fantastico",
       "address": null,
-      "new_price": 4.55,
-      "new_price_eur": 2.33,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 22.75,
-      "price_per_kg_eur": 11.63,
-      "source_type": "assortment",
-      "available_stores": [
-        "Dar",
-        "Fantastico"
-      ],
-      "store_prices": [
-        {
-          "store": "Dar",
-          "price": 4.55,
-          "price_eur": 2.33,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        },
-        {
-          "store": "Fantastico",
-          "price": 4.55,
-          "price_eur": 2.33,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Dar",
-      "best_price": 4.55,
-      "comparison_count": 2,
-      "product_id": "fantastico-масло-краве-lurpak-200-гр-200g",
-      "weight_grams": 200,
-      "weight_raw": "200 гр",
-      "name": "МАСЛО КРАВЕ LURPAK 200 ГР",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/2058fdf8-806c-47c0-8752-d6485d055dad.png",
-      "category": "dairy",
-      "emoji": "🥛",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": true,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "macros": {
-        "kcal": 717,
-        "p": 0.9,
-        "f": 81,
-        "c": 0.1
-      },
-      "avg_price": 3.86,
-      "lowest_price": 2.49,
-      "lowest_price_date": "2026-06-11",
-      "price_history": [
-        [
-          "2026-04-20",
-          4.55,
-          null,
-          null
-        ],
-        [
-          "2026-04-25",
-          3.15,
-          4.55,
-          31
-        ],
-        [
-          "2026-05-07",
-          4.55,
-          null,
-          null
-        ],
-        [
-          "2026-06-11",
-          2.49,
-          4.55,
-          45
-        ],
-        [
-          "2026-07-09",
-          4.55,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 5,
-      "price_signal": "wait"
-    },
-    {
-      "store": "Fantastico",
-      "address": null,
       "new_price": 4.58,
       "new_price_eur": 2.34,
       "old_price": null,
@@ -105641,6 +105669,106 @@
         ]
       ],
       "price_seen_count": 3,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Fantastico",
+      "address": null,
+      "new_price": 4.99,
+      "new_price_eur": 2.55,
+      "old_price": 9.45,
+      "old_price_eur": 4.83,
+      "discount_pct": 47,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 19.96,
+      "price_per_kg_eur": 10.21,
+      "source_type": "promo",
+      "available_stores": [
+        "Dar",
+        "Fantastico"
+      ],
+      "store_prices": [
+        {
+          "store": "Dar",
+          "price": 4.99,
+          "price_eur": 2.55,
+          "old_price": 9.45,
+          "old_price_eur": 4.83,
+          "discount_pct": 47,
+          "source_type": "promo"
+        },
+        {
+          "store": "Fantastico",
+          "price": 4.99,
+          "price_eur": 2.55,
+          "old_price": 9.45,
+          "old_price_eur": 4.83,
+          "discount_pct": 47,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Dar",
+      "best_price": 4.99,
+      "comparison_count": 2,
+      "product_id": "fantastico-кафе-kimbo-espresso-napoli-250-г-мляно-вакуум-250g",
+      "weight_grams": 250,
+      "weight_raw": "250 г",
+      "name": "КАФЕ KIMBO ESPRESSO NAPOLI 250 Г МЛЯНО ВАКУУМ",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4046234567137_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "protein",
+      "emoji": "🍗",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 250,
+        "p": 18,
+        "f": 20,
+        "c": 0
+      },
+      "avg_price": 8.17,
+      "lowest_price": 4.99,
+      "lowest_price_date": "2026-08-14",
+      "price_history": [
+        [
+          "2026-04-14",
+          8.49,
+          9.45,
+          10
+        ],
+        [
+          "2026-04-30",
+          9.45,
+          null,
+          null
+        ],
+        [
+          "2026-05-21",
+          8.49,
+          9.45,
+          10
+        ],
+        [
+          "2026-06-11",
+          9.45,
+          null,
+          null
+        ],
+        [
+          "2026-08-14",
+          4.99,
+          9.45,
+          47
+        ]
+      ],
+      "price_seen_count": 5,
       "price_signal": "buy"
     },
     {
@@ -119071,6 +119199,72 @@
       "price_signal": "buy"
     },
     {
+      "store": "Dar",
+      "address": null,
+      "new_price": 8.99,
+      "new_price_eur": 4.6,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 12.84,
+      "price_per_kg_eur": 6.56,
+      "source_type": "assortment",
+      "available_stores": [
+        "Dar"
+      ],
+      "store_prices": [
+        {
+          "store": "Dar",
+          "price": 8.99,
+          "price_eur": 4.6,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Dar",
+      "best_price": 8.99,
+      "comparison_count": 1,
+      "product_id": "dar-кашкавал-от-краве-мляко-сакарела-700-г-дар-700g",
+      "weight_grams": 700,
+      "weight_raw": "700 г",
+      "name": "КАШКАВАЛ ОТ КРАВЕ МЛЯКО САКАРЕЛА 700 Г ДАР",
+      "image": "https://tmarketonline.bg/cdn/img/products/48215/kaskaval-ot-krave-mlako-bulgarce-400gr-image_620bb1499db0e.png?width=1920&height=1920&v=1777589952",
+      "category": "dairy",
+      "emoji": "🥛",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 350,
+        "p": 25,
+        "f": 27,
+        "c": 1
+      },
+      "avg_price": 8.99,
+      "lowest_price": 8.99,
+      "lowest_price_date": "2026-08-14",
+      "price_history": [
+        [
+          "2026-08-14",
+          8.99,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
       "store": "Fantastico",
       "address": null,
       "new_price": 9.2,
@@ -119375,100 +119569,6 @@
       ],
       "price_seen_count": 4,
       "price_signal": "wait"
-    },
-    {
-      "store": "Fantastico",
-      "address": null,
-      "new_price": 9.45,
-      "new_price_eur": 4.83,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 37.8,
-      "price_per_kg_eur": 19.33,
-      "source_type": "assortment",
-      "available_stores": [
-        "Dar",
-        "Fantastico"
-      ],
-      "store_prices": [
-        {
-          "store": "Dar",
-          "price": 9.45,
-          "price_eur": 4.83,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        },
-        {
-          "store": "Fantastico",
-          "price": 9.45,
-          "price_eur": 4.83,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Dar",
-      "best_price": 9.45,
-      "comparison_count": 2,
-      "product_id": "fantastico-кафе-kimbo-espresso-napoli-250-г-мляно-вакуум-250g",
-      "weight_grams": 250,
-      "weight_raw": "250 г",
-      "name": "КАФЕ KIMBO ESPRESSO NAPOLI 250 Г МЛЯНО ВАКУУМ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/4046234567137_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "protein",
-      "emoji": "🍗",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "macros": {
-        "kcal": 250,
-        "p": 18,
-        "f": 20,
-        "c": 0
-      },
-      "avg_price": 8.97,
-      "lowest_price": 8.49,
-      "lowest_price_date": "2026-04-14",
-      "price_history": [
-        [
-          "2026-04-14",
-          8.49,
-          9.45,
-          10
-        ],
-        [
-          "2026-04-30",
-          9.45,
-          null,
-          null
-        ],
-        [
-          "2026-05-21",
-          8.49,
-          9.45,
-          10
-        ],
-        [
-          "2026-06-11",
-          9.45,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 4,
-      "price_signal": "normal"
     },
     {
       "store": "Fantastico",
@@ -124667,15 +124767,15 @@
     {
       "store": "Fantastico",
       "address": null,
-      "new_price": 11.89,
-      "new_price_eur": 6.08,
+      "new_price": 11.85,
+      "new_price_eur": 6.06,
       "old_price": null,
       "old_price_eur": null,
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": 11.89,
-      "price_per_kg_eur": 6.08,
+      "price_per_kg": 11.85,
+      "price_per_kg_eur": 6.06,
       "source_type": "assortment",
       "available_stores": [
         "Dar",
@@ -124684,8 +124784,8 @@
       "store_prices": [
         {
           "store": "Dar",
-          "price": 11.89,
-          "price_eur": 6.08,
+          "price": 11.85,
+          "price_eur": 6.06,
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
@@ -124693,8 +124793,8 @@
         },
         {
           "store": "Fantastico",
-          "price": 11.89,
-          "price_eur": 6.08,
+          "price": 11.85,
+          "price_eur": 6.06,
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
@@ -124702,7 +124802,7 @@
         }
       ],
       "best_price_store": "Dar",
-      "best_price": 11.89,
+      "best_price": 11.85,
       "comparison_count": 2,
       "product_id": "fantastico-маслин-масло-екстра-върдж-нефилтрир-1л-коста-доро-import-1000g",
       "weight_grams": 1000,
@@ -124726,7 +124826,7 @@
         "f": 11,
         "c": 6
       },
-      "avg_price": 11.09,
+      "avg_price": 11.28,
       "lowest_price": 9.49,
       "lowest_price_date": "2026-05-14",
       "price_history": [
@@ -124747,9 +124847,15 @@
           11.89,
           null,
           null
+        ],
+        [
+          "2026-08-14",
+          11.85,
+          null,
+          null
         ]
       ],
-      "price_seen_count": 3,
+      "price_seen_count": 4,
       "price_signal": "normal"
     },
     {
@@ -127169,6 +127275,106 @@
     {
       "store": "Fantastico",
       "address": null,
+      "new_price": 14.45,
+      "new_price_eur": 7.39,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 14.45,
+      "price_per_kg_eur": 7.39,
+      "source_type": "assortment",
+      "available_stores": [
+        "Dar",
+        "Fantastico"
+      ],
+      "store_prices": [
+        {
+          "store": "Dar",
+          "price": 14.45,
+          "price_eur": 7.39,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        },
+        {
+          "store": "Fantastico",
+          "price": 14.45,
+          "price_eur": 7.39,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Dar",
+      "best_price": 14.45,
+      "comparison_count": 2,
+      "product_id": "fantastico-маслин-масло-екстра-върдж-нефилтр-1-л-il-casolare-import-1000g",
+      "weight_grams": 1000,
+      "weight_raw": "1 л",
+      "name": "МАСЛИН. МАСЛО ЕКСТРА ВЪРДЖ. НЕФИЛТР. 1 Л IL CASOLARE IMPORT",
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/10d44d70-bfbf-4b29-88b2-9829f4cb37bf.png",
+      "category": "fat",
+      "emoji": "🫒",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": true,
+      "is_long_lasting": true,
+      "macros": {
+        "kcal": 115,
+        "p": 0.8,
+        "f": 11,
+        "c": 6
+      },
+      "avg_price": 14.43,
+      "lowest_price": 11.59,
+      "lowest_price_date": "2026-06-04",
+      "price_history": [
+        [
+          "2026-04-20",
+          14.99,
+          null,
+          null
+        ],
+        [
+          "2026-04-25",
+          15.55,
+          null,
+          null
+        ],
+        [
+          "2026-06-04",
+          11.59,
+          15.55,
+          25
+        ],
+        [
+          "2026-06-11",
+          15.55,
+          null,
+          null
+        ],
+        [
+          "2026-08-14",
+          14.45,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 5,
+      "price_signal": "normal"
+    },
+    {
+      "store": "Fantastico",
+      "address": null,
       "new_price": 14.59,
       "new_price_eur": 7.46,
       "old_price": null,
@@ -128071,100 +128277,6 @@
       ],
       "price_seen_count": 1,
       "price_signal": "buy"
-    },
-    {
-      "store": "Fantastico",
-      "address": null,
-      "new_price": 15.55,
-      "new_price_eur": 7.95,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 15.55,
-      "price_per_kg_eur": 7.95,
-      "source_type": "assortment",
-      "available_stores": [
-        "Dar",
-        "Fantastico"
-      ],
-      "store_prices": [
-        {
-          "store": "Dar",
-          "price": 15.55,
-          "price_eur": 7.95,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        },
-        {
-          "store": "Fantastico",
-          "price": 15.55,
-          "price_eur": 7.95,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Dar",
-      "best_price": 15.55,
-      "comparison_count": 2,
-      "product_id": "fantastico-маслин-масло-екстра-върдж-нефилтр-1-л-il-casolare-import-1000g",
-      "weight_grams": 1000,
-      "weight_raw": "1 л",
-      "name": "МАСЛИН. МАСЛО ЕКСТРА ВЪРДЖ. НЕФИЛТР. 1 Л IL CASOLARE IMPORT",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/10d44d70-bfbf-4b29-88b2-9829f4cb37bf.png",
-      "category": "fat",
-      "emoji": "🫒",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": true,
-      "is_long_lasting": true,
-      "macros": {
-        "kcal": 115,
-        "p": 0.8,
-        "f": 11,
-        "c": 6
-      },
-      "avg_price": 14.42,
-      "lowest_price": 11.59,
-      "lowest_price_date": "2026-06-04",
-      "price_history": [
-        [
-          "2026-04-20",
-          14.99,
-          null,
-          null
-        ],
-        [
-          "2026-04-25",
-          15.55,
-          null,
-          null
-        ],
-        [
-          "2026-06-04",
-          11.59,
-          15.55,
-          25
-        ],
-        [
-          "2026-06-11",
-          15.55,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 4,
-      "price_signal": "normal"
     },
     {
       "store": "Fantastico",
@@ -133516,9 +133628,19 @@
       "price_per_kg_eur": 17.38,
       "source_type": "assortment",
       "available_stores": [
+        "Dar",
         "Fantastico"
       ],
       "store_prices": [
+        {
+          "store": "Dar",
+          "price": 33.99,
+          "price_eur": 17.38,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        },
         {
           "store": "Fantastico",
           "price": 33.99,
@@ -133529,9 +133651,9 @@
           "source_type": "assortment"
         }
       ],
-      "best_price_store": "Fantastico",
+      "best_price_store": "Dar",
       "best_price": 33.99,
-      "comparison_count": 1,
+      "comparison_count": 2,
       "product_id": "fantastico-кафе-kimbo-amalfi-1-кг-зърна-in-out-1000g",
       "weight_grams": 1000,
       "weight_raw": "1 кг",
@@ -135564,9 +135686,19 @@
       "price_per_kg_eur": 5.66,
       "source_type": "assortment",
       "available_stores": [
+        "Dar",
         "Fantastico"
       ],
       "store_prices": [
+        {
+          "store": "Dar",
+          "price": 3.32,
+          "price_eur": 1.7,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        },
         {
           "store": "Fantastico",
           "price": 3.32,
@@ -135577,9 +135709,9 @@
           "source_type": "assortment"
         }
       ],
-      "best_price_store": "Fantastico",
+      "best_price_store": "Dar",
       "best_price": 3.32,
-      "comparison_count": 1,
+      "comparison_count": 2,
       "product_id": "fantastico-салам-шпек-пресен-300-гр-вакуум-мк-братя-радеви-300g",
       "weight_grams": 300,
       "weight_raw": "300 гр",
@@ -138715,6 +138847,116 @@
       "price_signal": "buy"
     },
     {
+      "store": "Fantastico",
+      "address": null,
+      "new_price": 6.49,
+      "new_price_eur": 3.32,
+      "old_price": 8.18,
+      "old_price_eur": 4.18,
+      "discount_pct": 21,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 6.49,
+      "price_per_kg_eur": 3.32,
+      "source_type": "promo",
+      "available_stores": [
+        "Dar",
+        "Fantastico"
+      ],
+      "store_prices": [
+        {
+          "store": "Fantastico",
+          "price": 6.49,
+          "price_eur": 3.32,
+          "old_price": 8.18,
+          "old_price_eur": 4.18,
+          "discount_pct": 21,
+          "source_type": "promo"
+        },
+        {
+          "store": "Dar",
+          "price": 8.18,
+          "price_eur": 4.18,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Fantastico",
+      "best_price": 6.49,
+      "comparison_count": 2,
+      "product_id": "fantastico-наденица-пиперица-цър-пър-витрина-пр-д-българия",
+      "name": "НАДЕНИЦА ПИПЕРИЦА ЦЪР-ПЪР ВИТРИНА , ПР-Д - БЪЛГАРИЯ",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/2820600000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "protein",
+      "emoji": "🍗",
+      "health_score": 3,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 7.13,
+      "lowest_price": 5.69,
+      "lowest_price_date": "2026-06-18",
+      "price_history": [
+        [
+          "2026-04-25",
+          8.18,
+          null,
+          null
+        ],
+        [
+          "2026-05-07",
+          5.79,
+          8.18,
+          29
+        ],
+        [
+          "2026-05-14",
+          8.18,
+          null,
+          null
+        ],
+        [
+          "2026-05-21",
+          6.49,
+          8.18,
+          21
+        ],
+        [
+          "2026-05-28",
+          8.18,
+          null,
+          null
+        ],
+        [
+          "2026-06-18",
+          5.69,
+          8.18,
+          30
+        ],
+        [
+          "2026-06-25",
+          8.18,
+          null,
+          null
+        ],
+        [
+          "2026-08-14",
+          6.49,
+          8.18,
+          21
+        ]
+      ],
+      "price_seen_count": 9,
+      "price_signal": "good"
+    },
+    {
       "store": "Dar",
       "address": null,
       "new_price": 6.49,
@@ -139948,116 +140190,6 @@
         ]
       ],
       "price_seen_count": 5,
-      "price_signal": "wait"
-    },
-    {
-      "store": "Fantastico",
-      "address": null,
-      "new_price": 8.18,
-      "new_price_eur": 4.18,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 8.18,
-      "price_per_kg_eur": 4.18,
-      "source_type": "assortment",
-      "available_stores": [
-        "Dar",
-        "Fantastico"
-      ],
-      "store_prices": [
-        {
-          "store": "Dar",
-          "price": 8.18,
-          "price_eur": 4.18,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        },
-        {
-          "store": "Fantastico",
-          "price": 8.18,
-          "price_eur": 4.18,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Dar",
-      "best_price": 8.18,
-      "comparison_count": 2,
-      "product_id": "fantastico-наденица-пиперица-цър-пър-витрина-пр-д-българия",
-      "name": "НАДЕНИЦА ПИПЕРИЦА ЦЪР-ПЪР ВИТРИНА , ПР-Д - БЪЛГАРИЯ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/2820600000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "protein",
-      "emoji": "🍗",
-      "health_score": 3,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 7.21,
-      "lowest_price": 5.69,
-      "lowest_price_date": "2026-06-18",
-      "price_history": [
-        [
-          "2026-04-14",
-          6.99,
-          8.18,
-          15
-        ],
-        [
-          "2026-04-25",
-          8.18,
-          null,
-          null
-        ],
-        [
-          "2026-05-07",
-          5.79,
-          8.18,
-          29
-        ],
-        [
-          "2026-05-14",
-          8.18,
-          null,
-          null
-        ],
-        [
-          "2026-05-21",
-          6.49,
-          8.18,
-          21
-        ],
-        [
-          "2026-05-28",
-          8.18,
-          null,
-          null
-        ],
-        [
-          "2026-06-18",
-          5.69,
-          8.18,
-          30
-        ],
-        [
-          "2026-06-25",
-          8.18,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 8,
       "price_signal": "wait"
     },
     {
@@ -147132,19 +147264,9 @@
       "price_per_kg_eur": 4.09,
       "source_type": "assortment",
       "available_stores": [
-        "Dar",
         "Fantastico"
       ],
       "store_prices": [
-        {
-          "store": "Dar",
-          "price": 0.56,
-          "price_eur": 0.29,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        },
         {
           "store": "Fantastico",
           "price": 0.56,
@@ -147155,9 +147277,9 @@
           "source_type": "assortment"
         }
       ],
-      "best_price_store": "Dar",
+      "best_price_store": "Fantastico",
       "best_price": 0.56,
-      "comparison_count": 2,
+      "comparison_count": 1,
       "product_id": "fantastico-сапун-тео-exotic-70-г-70g",
       "weight_grams": 70,
       "weight_raw": "70 г",
@@ -149139,19 +149261,9 @@
       "price_per_kg_eur": 3.35,
       "source_type": "promo",
       "available_stores": [
-        "Dar",
         "Fantastico"
       ],
       "store_prices": [
-        {
-          "store": "Dar",
-          "price": 0.59,
-          "price_eur": 0.3,
-          "old_price": 1.02,
-          "old_price_eur": 0.52,
-          "discount_pct": 42,
-          "source_type": "promo"
-        },
         {
           "store": "Fantastico",
           "price": 0.59,
@@ -149162,9 +149274,9 @@
           "source_type": "promo"
         }
       ],
-      "best_price_store": "Dar",
+      "best_price_store": "Fantastico",
       "best_price": 0.59,
-      "comparison_count": 2,
+      "comparison_count": 1,
       "product_id": "fantastico-сапун-тео-gentle-care-90-г-90g",
       "weight_grams": 90,
       "weight_raw": "90 г",
@@ -149238,19 +149350,9 @@
       "price_per_kg_eur": 3.35,
       "source_type": "promo",
       "available_stores": [
-        "Dar",
         "Fantastico"
       ],
       "store_prices": [
-        {
-          "store": "Dar",
-          "price": 0.59,
-          "price_eur": 0.3,
-          "old_price": 1.02,
-          "old_price_eur": 0.52,
-          "discount_pct": 42,
-          "source_type": "promo"
-        },
         {
           "store": "Fantastico",
           "price": 0.59,
@@ -149261,9 +149363,9 @@
           "source_type": "promo"
         }
       ],
-      "best_price_store": "Dar",
+      "best_price_store": "Fantastico",
       "best_price": 0.59,
-      "comparison_count": 2,
+      "comparison_count": 1,
       "product_id": "fantastico-сапун-тео-milk-ultra-hygiene-90-г-антибакт-съставка-90g",
       "weight_grams": 90,
       "weight_raw": "90 г",
@@ -150722,6 +150824,117 @@
       ],
       "price_seen_count": 1,
       "price_signal": "buy"
+    },
+    {
+      "store": "Fantastico",
+      "address": null,
+      "new_price": 0.69,
+      "new_price_eur": 0.35,
+      "old_price": 0.95,
+      "old_price_eur": 0.49,
+      "discount_pct": 27,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 0.69,
+      "price_per_kg_eur": 0.35,
+      "source_type": "promo",
+      "available_stores": [
+        "Dar",
+        "Fantastico"
+      ],
+      "store_prices": [
+        {
+          "store": "Dar",
+          "price": 0.69,
+          "price_eur": 0.35,
+          "old_price": 0.95,
+          "old_price_eur": 0.49,
+          "discount_pct": 27,
+          "source_type": "promo"
+        },
+        {
+          "store": "Fantastico",
+          "price": 0.69,
+          "price_eur": 0.35,
+          "old_price": 0.95,
+          "old_price_eur": 0.49,
+          "discount_pct": 27,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Dar",
+      "best_price": 0.69,
+      "comparison_count": 2,
+      "product_id": "fantastico-захар-кристал-1-кг-митекс-1000g",
+      "weight_grams": 1000,
+      "weight_raw": "1 кг",
+      "name": "ЗАХАР КРИСТАЛ 1 КГ МИТЕКС",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 0.77,
+      "lowest_price": 0.55,
+      "lowest_price_date": "2026-07-17",
+      "price_history": [
+        [
+          "2026-04-27",
+          0.95,
+          null,
+          null
+        ],
+        [
+          "2026-05-22",
+          0.58,
+          0.95,
+          39
+        ],
+        [
+          "2026-05-28",
+          0.95,
+          null,
+          null
+        ],
+        [
+          "2026-06-19",
+          0.58,
+          0.95,
+          39
+        ],
+        [
+          "2026-06-25",
+          0.95,
+          null,
+          null
+        ],
+        [
+          "2026-07-17",
+          0.55,
+          0.95,
+          42
+        ],
+        [
+          "2026-07-23",
+          0.95,
+          null,
+          null
+        ],
+        [
+          "2026-08-14",
+          0.69,
+          0.95,
+          27
+        ]
+      ],
+      "price_seen_count": 10,
+      "price_signal": "good",
+      "image": "https://tmarketonline.bg/cdn/img/products/47658/zahar-dr-oetker-vanilena-8gr-image_616439f5ce75c.jpeg?width=600&height=600&v=1777589950"
     },
     {
       "store": "Fantastico",
@@ -154912,117 +155125,6 @@
       ],
       "price_seen_count": 2,
       "price_signal": "buy"
-    },
-    {
-      "store": "Fantastico",
-      "address": null,
-      "new_price": 0.95,
-      "new_price_eur": 0.49,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 0.95,
-      "price_per_kg_eur": 0.49,
-      "source_type": "assortment",
-      "available_stores": [
-        "Dar",
-        "Fantastico"
-      ],
-      "store_prices": [
-        {
-          "store": "Dar",
-          "price": 0.95,
-          "price_eur": 0.49,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        },
-        {
-          "store": "Fantastico",
-          "price": 0.95,
-          "price_eur": 0.49,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Dar",
-      "best_price": 0.95,
-      "comparison_count": 2,
-      "product_id": "fantastico-захар-кристал-1-кг-митекс-1000g",
-      "weight_grams": 1000,
-      "weight_raw": "1 кг",
-      "name": "ЗАХАР КРИСТАЛ 1 КГ МИТЕКС",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 0.78,
-      "lowest_price": 0.55,
-      "lowest_price_date": "2026-07-17",
-      "price_history": [
-        [
-          "2026-04-25",
-          0.58,
-          0.95,
-          39
-        ],
-        [
-          "2026-04-27",
-          0.95,
-          null,
-          null
-        ],
-        [
-          "2026-05-22",
-          0.58,
-          0.95,
-          39
-        ],
-        [
-          "2026-05-28",
-          0.95,
-          null,
-          null
-        ],
-        [
-          "2026-06-19",
-          0.58,
-          0.95,
-          39
-        ],
-        [
-          "2026-06-25",
-          0.95,
-          null,
-          null
-        ],
-        [
-          "2026-07-17",
-          0.55,
-          0.95,
-          42
-        ],
-        [
-          "2026-07-23",
-          0.95,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 9,
-      "price_signal": "wait",
-      "image": "https://tmarketonline.bg/cdn/img/products/47658/zahar-dr-oetker-vanilena-8gr-image_616439f5ce75c.jpeg?width=600&height=600&v=1777589950"
     },
     {
       "store": "Fantastico",
@@ -165555,7 +165657,7 @@
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
-      "avg_price": 1.85,
+      "avg_price": 1.7,
       "lowest_price": 0.99,
       "lowest_price_date": "2026-08-13",
       "price_history": [
@@ -165570,9 +165672,15 @@
           0.99,
           1.99,
           50
+        ],
+        [
+          "2026-08-14",
+          1.39,
+          1.99,
+          30
         ]
       ],
-      "price_seen_count": 2,
+      "price_seen_count": 3,
       "price_signal": "good"
     },
     {
