@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-17T04:47:59.886464Z",
-  "content_hash": "3ee7dd0c0a358e3ed5571b66ad66aa99",
-  "total_offers": 3959,
+  "generated_at": "2026-08-18T04:42:03.341976Z",
+  "content_hash": "9999c36d8af326bd8a6a41a200f23174",
+  "total_offers": 3968,
   "promo_offers": 1282,
-  "assortment_offers": 2677,
+  "assortment_offers": 2686,
   "stores": [
     "Billa",
     "Dar",
@@ -9618,8 +9618,8 @@
       "best_price_store": "Kaufland",
       "best_price": 0.69,
       "comparison_count": 1,
-      "product_id": "kaufland-тиква-матилда",
-      "name": "Тиква Матилда",
+      "product_id": "kaufland-българска-тиква-матилда",
+      "name": "Българска тиква Матилда",
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00026544D_A?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "vegetable",
       "emoji": "🥦",
@@ -9640,10 +9640,10 @@
       },
       "avg_price": 0.69,
       "lowest_price": 0.69,
-      "lowest_price_date": "2026-08-17",
+      "lowest_price_date": "2026-08-18",
       "price_history": [
         [
-          "2026-08-17",
+          "2026-08-18",
           0.69,
           1.39,
           50
@@ -21609,6 +21609,71 @@
     {
       "store": "Kaufland",
       "address": null,
+      "new_price": 0.51,
+      "new_price_eur": 0.26,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-08-17",
+      "valid_until": "2026-08-23",
+      "price_per_kg": 7.39,
+      "price_per_kg_eur": 3.78,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 0.51,
+          "price_eur": 0.26,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 0.51,
+      "comparison_count": 1,
+      "product_id": "kaufland-донът-с-пълнеж-69g",
+      "weight_grams": 69,
+      "weight_raw": "69 г",
+      "name": "Донът с пълнеж",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/1338_BG_P?JGstbGVnYWN5LW9uc2l0ZS0xJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 0.93,
+      "lowest_price": 0.51,
+      "lowest_price_date": "2026-08-18",
+      "price_history": [
+        [
+          "2026-07-27",
+          1.35,
+          null,
+          null
+        ],
+        [
+          "2026-08-18",
+          0.51,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
       "new_price": 0.53,
       "new_price_eur": 0.27,
       "old_price": 0.76,
@@ -27325,6 +27390,81 @@
       "address": null,
       "new_price": 1.49,
       "new_price_eur": 0.76,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-08-17",
+      "valid_until": "2026-08-23",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 1.49,
+          "price_eur": 0.76,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 1.49,
+      "comparison_count": 1,
+      "product_id": "kaufland-хризантема-ø9-см",
+      "name": "Хризантема Ø9 см",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4011261012622_BG_P-2?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 2.24,
+      "lowest_price": 1.49,
+      "lowest_price_date": "2026-07-14",
+      "price_history": [
+        [
+          "2026-05-12",
+          2.99,
+          null,
+          null
+        ],
+        [
+          "2026-07-14",
+          1.49,
+          null,
+          null
+        ],
+        [
+          "2026-07-16",
+          2.99,
+          null,
+          null
+        ],
+        [
+          "2026-08-18",
+          1.49,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 1.49,
+      "new_price_eur": 0.76,
       "old_price": 2.81,
       "old_price_eur": 1.44,
       "discount_pct": 47,
@@ -28684,6 +28824,69 @@
     {
       "store": "Kaufland",
       "address": null,
+      "new_price": 1.85,
+      "new_price_eur": 0.95,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-08-17",
+      "valid_until": "2026-08-23",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 1.85,
+          "price_eur": 0.95,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 1.85,
+      "comparison_count": 1,
+      "product_id": "kaufland-лавандула-ø10-5-см",
+      "name": "Лавандула Ø10,5 см",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/25288858_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 2.74,
+      "lowest_price": 1.85,
+      "lowest_price_date": "2026-08-18",
+      "price_history": [
+        [
+          "2026-07-27",
+          3.62,
+          null,
+          null
+        ],
+        [
+          "2026-08-18",
+          1.85,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
       "new_price": 1.89,
       "new_price_eur": 0.97,
       "old_price": 2.35,
@@ -29260,6 +29463,132 @@
         ]
       ],
       "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 2.04,
+      "new_price_eur": 1.04,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-08-17",
+      "valid_until": "2026-08-23",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 2.04,
+          "price_eur": 1.04,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 2.04,
+      "comparison_count": 1,
+      "product_id": "kaufland-бегония-ø9-см",
+      "name": "Бегония Ø9 см",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/09902116P_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 4.27,
+      "lowest_price": 2.04,
+      "lowest_price_date": "2026-08-18",
+      "price_history": [
+        [
+          "2026-05-26",
+          5.98,
+          null,
+          null
+        ],
+        [
+          "2026-07-21",
+          4.79,
+          null,
+          null
+        ],
+        [
+          "2026-08-18",
+          2.04,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 2.04,
+      "new_price_eur": 1.04,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-08-17",
+      "valid_until": "2026-08-23",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 2.04,
+          "price_eur": 1.04,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 2.04,
+      "comparison_count": 1,
+      "product_id": "kaufland-гербер-ø9-см",
+      "name": "Гербер Ø9 см",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/8713626209697_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 2.04,
+      "lowest_price": 2.04,
+      "lowest_price_date": "2026-08-18",
+      "price_history": [
+        [
+          "2026-08-18",
+          2.04,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 1,
       "price_signal": "buy"
     },
     {
@@ -31403,6 +31732,69 @@
         ]
       ],
       "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 2.55,
+      "new_price_eur": 1.3,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-08-17",
+      "valid_until": "2026-08-23",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 2.55,
+          "price_eur": 1.3,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 2.55,
+      "comparison_count": 1,
+      "product_id": "kaufland-розов-карамфил-ø10-5-см",
+      "name": "Розов карамфил Ø10,5 см",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4011261186101_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 3.77,
+      "lowest_price": 2.55,
+      "lowest_price_date": "2026-08-18",
+      "price_history": [
+        [
+          "2026-04-25",
+          4.99,
+          null,
+          null
+        ],
+        [
+          "2026-08-18",
+          2.55,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 2,
       "price_signal": "buy"
     },
     {
@@ -38157,6 +38549,69 @@
     {
       "store": "Kaufland",
       "address": null,
+      "new_price": 4.34,
+      "new_price_eur": 2.22,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-08-17",
+      "valid_until": "2026-08-23",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 4.34,
+          "price_eur": 2.22,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 4.34,
+      "comparison_count": 1,
+      "product_id": "kaufland-еустома-ø12-см",
+      "name": "Еустома Ø12 см",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/09900800_a?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 6.42,
+      "lowest_price": 4.34,
+      "lowest_price_date": "2026-08-18",
+      "price_history": [
+        [
+          "2026-07-21",
+          8.49,
+          null,
+          null
+        ],
+        [
+          "2026-08-18",
+          4.34,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
       "new_price": 4.35,
       "new_price_eur": 2.22,
       "old_price": null,
@@ -38999,6 +39454,69 @@
       ],
       "price_seen_count": 5,
       "price_signal": "good"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 4.59,
+      "new_price_eur": 2.35,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-08-17",
+      "valid_until": "2026-08-23",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 4.59,
+          "price_eur": 2.35,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 4.59,
+      "comparison_count": 1,
+      "product_id": "kaufland-насекомоядно-растение-микс-ø9-см",
+      "name": "Насекомоядно растение микс Ø9 см",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/P_607-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 6.79,
+      "lowest_price": 4.59,
+      "lowest_price_date": "2026-08-18",
+      "price_history": [
+        [
+          "2026-07-28",
+          8.98,
+          null,
+          null
+        ],
+        [
+          "2026-08-18",
+          4.59,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy"
     },
     {
       "store": "Kaufland",
@@ -47624,6 +48142,63 @@
       "price_history": [
         [
           "2026-08-17",
+          12.99,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 12.99,
+      "new_price_eur": 6.64,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-08-17",
+      "valid_until": "2026-08-23",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 12.99,
+          "price_eur": 6.64,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 12.99,
+      "comparison_count": 1,
+      "product_id": "kaufland-орхидея-дендробиум-ø12-см",
+      "name": "Орхидея Дендробиум Ø12 см",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/8713626073106_RO_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 12.99,
+      "lowest_price": 12.99,
+      "lowest_price_date": "2026-08-18",
+      "price_history": [
+        [
+          "2026-08-18",
           12.99,
           null,
           null
