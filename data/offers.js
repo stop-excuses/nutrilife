@@ -5937,7 +5937,7 @@ const OFFERS_DATA = {
       "weight_grams": 120,
       "weight_raw": "120 г",
       "name": "La Vache Qui Rit Топено сирене различни вкусове",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00500196_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_00500196_P.jpg",
       "category": "dairy",
       "emoji": "🥛",
       "health_score": 7,
