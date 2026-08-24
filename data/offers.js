@@ -1,6 +1,6 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-08-24T04:50:41.792874Z",
-  "content_hash": "71e6c2130ff3767b46cc8bd5f84522bd",
+  "generated_at": "2026-08-24T15:43:41.489281Z",
+  "content_hash": "685c3502554f602aa8c691b8d2237811",
   "total_offers": 4101,
   "promo_offers": 1353,
   "assortment_offers": 2748,
@@ -35591,107 +35591,6 @@ const OFFERS_DATA = {
     {
       "store": "Kaufland",
       "address": null,
-      "new_price": 3.06,
-      "new_price_eur": 1.56,
-      "old_price": 6.12,
-      "old_price_eur": 3.13,
-      "discount_pct": 50,
-      "valid_from": "2026-08-24",
-      "valid_until": "2026-08-30",
-      "price_per_kg": 38.73,
-      "price_per_kg_eur": 19.8,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 3.06,
-          "price_eur": 1.56,
-          "old_price": 6.12,
-          "old_price_eur": 3.13,
-          "discount_pct": 50,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 3.06,
-      "comparison_count": 1,
-      "product_id": "kaufland-nuii-сладолед-различни-вкусове-79g",
-      "weight_grams": 79,
-      "weight_raw": "79 г",
-      "name": "NUII Сладолед различни вкусове",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/264_00108409_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "dairy",
-      "emoji": "🥛",
-      "is_food": false,
-      "is_junk": true,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 6.26,
-      "lowest_price": 2.91,
-      "lowest_price_date": "2026-07-20",
-      "price_history": [
-        [
-          "2026-06-01",
-          11.72,
-          19.7,
-          41
-        ],
-        [
-          "2026-06-08",
-          3.89,
-          5.98,
-          35
-        ],
-        [
-          "2026-07-06",
-          2.99,
-          5.98,
-          50
-        ],
-        [
-          "2026-07-20",
-          2.91,
-          5.98,
-          51
-        ],
-        [
-          "2026-07-27",
-          9.84,
-          19.7,
-          50
-        ],
-        [
-          "2026-08-03",
-          5.98,
-          11.97,
-          50
-        ],
-        [
-          "2026-08-10",
-          5.03,
-          10.07,
-          50
-        ],
-        [
-          "2026-08-24",
-          3.06,
-          6.12,
-          50
-        ]
-      ],
-      "price_seen_count": 11,
-      "price_signal": "good"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
       "new_price": 3.09,
       "new_price_eur": 1.58,
       "old_price": 3.83,
@@ -39229,6 +39128,107 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 1,
       "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 4.34,
+      "new_price_eur": 2.22,
+      "old_price": 8.69,
+      "old_price_eur": 4.44,
+      "discount_pct": 50,
+      "valid_from": "2026-08-24",
+      "valid_until": "2026-08-30",
+      "price_per_kg": 16.07,
+      "price_per_kg_eur": 8.22,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 4.34,
+          "price_eur": 2.22,
+          "old_price": 8.69,
+          "old_price_eur": 4.44,
+          "discount_pct": 50,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 4.34,
+      "comparison_count": 1,
+      "product_id": "kaufland-nuii-сладолед-различни-вкусове-270g",
+      "weight_grams": 270,
+      "weight_raw": "3 х 90 мл",
+      "name": "NUII Сладолед различни вкусове",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20437013_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "dairy",
+      "emoji": "🥛",
+      "is_food": false,
+      "is_junk": true,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 6.26,
+      "lowest_price": 2.91,
+      "lowest_price_date": "2026-07-20",
+      "price_history": [
+        [
+          "2026-06-01",
+          11.72,
+          19.7,
+          41
+        ],
+        [
+          "2026-06-08",
+          3.89,
+          5.98,
+          35
+        ],
+        [
+          "2026-07-06",
+          2.99,
+          5.98,
+          50
+        ],
+        [
+          "2026-07-20",
+          2.91,
+          5.98,
+          51
+        ],
+        [
+          "2026-07-27",
+          9.84,
+          19.7,
+          50
+        ],
+        [
+          "2026-08-03",
+          5.98,
+          11.97,
+          50
+        ],
+        [
+          "2026-08-10",
+          5.03,
+          10.07,
+          50
+        ],
+        [
+          "2026-08-24",
+          3.06,
+          6.12,
+          50
+        ]
+      ],
+      "price_seen_count": 11,
+      "price_signal": "good"
     },
     {
       "store": "Kaufland",
