@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-25T10:33:56.293777Z",
-  "content_hash": "d47b29b6175e56a12b441b1f81d3e66d",
-  "total_offers": 4113,
-  "promo_offers": 1353,
+  "generated_at": "2026-08-25T12:56:32.256918Z",
+  "content_hash": "15be87569f75ceba8842ad4e74d9eba3",
+  "total_offers": 4112,
+  "promo_offers": 1352,
   "assortment_offers": 2760,
   "stores": [
     "Billa",
@@ -17308,96 +17308,6 @@
         ]
       ],
       "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 24.99,
-      "new_price_eur": 12.78,
-      "old_price": 40.9,
-      "old_price_eur": 20.91,
-      "discount_pct": 39,
-      "valid_from": "2026-08-24",
-      "valid_until": "2026-08-30",
-      "price_per_kg": 24.99,
-      "price_per_kg_eur": 12.78,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 24.99,
-          "price_eur": 12.78,
-          "old_price": 40.9,
-          "old_price_eur": 20.91,
-          "discount_pct": 39,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 24.99,
-      "comparison_count": 1,
-      "product_id": "kaufland-davidoff-кафе-на-зърна-различни-видове-1000g",
-      "weight_grams": 1000,
-      "weight_raw": "1 кг",
-      "name": "Davidoff Кафе на зърна различни видове",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20213872_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "drinks",
-      "emoji": "🍺",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 39.58,
-      "lowest_price": 24.99,
-      "lowest_price_date": "2026-08-24",
-      "price_history": [
-        [
-          "2026-05-21",
-          48.88,
-          79.99,
-          39
-        ],
-        [
-          "2026-05-25",
-          59.99,
-          79.99,
-          25
-        ],
-        [
-          "2026-06-08",
-          27.36,
-          49.99,
-          45
-        ],
-        [
-          "2026-07-06",
-          48.88,
-          79.99,
-          39
-        ],
-        [
-          "2026-07-27",
-          27.36,
-          49.99,
-          45
-        ],
-        [
-          "2026-08-24",
-          24.99,
-          40.9,
-          39
-        ]
-      ],
-      "price_seen_count": 6,
       "price_signal": "buy"
     },
     {
