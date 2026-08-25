@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-25T12:56:32.256918Z",
-  "content_hash": "15be87569f75ceba8842ad4e74d9eba3",
-  "total_offers": 4112,
+  "generated_at": "2026-08-25T15:48:15.399368Z",
+  "content_hash": "22c29e04acaa7c47c01063ed57e1a1c4",
+  "total_offers": 4111,
   "promo_offers": 1352,
-  "assortment_offers": 2760,
+  "assortment_offers": 2759,
   "stores": [
     "Billa",
     "Dar",
@@ -118,77 +118,6 @@
         ]
       ],
       "price_seen_count": 7,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 4.99,
-      "new_price_eur": 2.55,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-08-24",
-      "valid_until": "2026-08-30",
-      "price_per_kg": 16.63,
-      "price_per_kg_eur": 8.5,
-      "source_type": "assortment",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 4.99,
-          "price_eur": 2.55,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 4.99,
-      "comparison_count": 1,
-      "product_id": "kaufland-поке-боул-риба-тон-300g",
-      "weight_grams": 300,
-      "weight_raw": "300 г",
-      "name": "Поке Боул риба тон",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20968232?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "protein",
-      "emoji": "🍗",
-      "health_score": 10,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": true,
-      "is_good_carb": false,
-      "is_good_fat": true,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "diet_tags": [
-        "high_protein",
-        "keto",
-        "mediterranean"
-      ],
-      "macros": {
-        "kcal": 132,
-        "p": 28,
-        "f": 0.6,
-        "c": 0
-      },
-      "avg_price": 4.99,
-      "lowest_price": 4.99,
-      "lowest_price_date": "2026-08-24",
-      "price_history": [
-        [
-          "2026-08-24",
-          4.99,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
       "price_signal": "buy"
     },
     {
@@ -21987,7 +21916,6 @@
       "weight_grams": 80,
       "weight_raw": "80 г",
       "name": "Chio Крекери Fischli Gold",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/5996253001237_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -22016,7 +21944,8 @@
         ]
       ],
       "price_seen_count": 2,
-      "price_signal": "buy"
+      "price_signal": "buy",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/5941445677684_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Kaufland",
