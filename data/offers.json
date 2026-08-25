@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-25T04:46:15.590343Z",
-  "content_hash": "39059b14908cfed1decd90c97b1e95fd",
-  "total_offers": 4112,
+  "generated_at": "2026-08-25T10:33:56.293777Z",
+  "content_hash": "d47b29b6175e56a12b441b1f81d3e66d",
+  "total_offers": 4113,
   "promo_offers": 1353,
-  "assortment_offers": 2759,
+  "assortment_offers": 2760,
   "stores": [
     "Billa",
     "Dar",
@@ -16100,6 +16100,96 @@
         ]
       ],
       "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 8.69,
+      "new_price_eur": 4.44,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-08-24",
+      "valid_until": "2026-08-30",
+      "price_per_kg": 36.51,
+      "price_per_kg_eur": 18.67,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 8.69,
+          "price_eur": 4.44,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 8.69,
+      "comparison_count": 1,
+      "product_id": "kaufland-nescafe-кафе-капсули-dolce-gusto-различни-видове-238g",
+      "weight_grams": 238,
+      "weight_raw": "238 г",
+      "name": "Nescafe Кафе капсули Dolce Gusto различни видове",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20280757_P-6?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "drinks",
+      "emoji": "🍺",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 14.17,
+      "lowest_price": 8.69,
+      "lowest_price_date": "2026-08-25",
+      "price_history": [
+        [
+          "2026-05-07",
+          17.0,
+          25.0,
+          32
+        ],
+        [
+          "2026-06-01",
+          16.92,
+          25.0,
+          32
+        ],
+        [
+          "2026-06-08",
+          8.98,
+          12.65,
+          29
+        ],
+        [
+          "2026-06-29",
+          16.6,
+          25.0,
+          34
+        ],
+        [
+          "2026-08-03",
+          16.8,
+          25.0,
+          33
+        ],
+        [
+          "2026-08-25",
+          8.69,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 6,
       "price_signal": "buy"
     },
     {
