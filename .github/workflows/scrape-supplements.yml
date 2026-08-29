@@ -18,6 +18,10 @@ on:
         description: "Max products per category per source (default: unlimited)"
         required: false
         default: "9999"
+      full_refresh_days:
+        description: "Full page refresh age in days (0 = force full scan; default: 30)"
+        required: false
+        default: "30"
 
 jobs:
   scrape:
@@ -48,9 +52,10 @@ jobs:
           CATS="${{ github.event.inputs.categories || 'all' }}"
           SRCS="${{ github.event.inputs.sources || 'all' }}"
           PER="${{ github.event.inputs.per_category || '9999' }}"
+          FULL="${{ github.event.inputs.full_refresh_days || '30' }}"
           CONCURRENCY=20
 
-          ARGS="--per-category $PER --concurrency $CONCURRENCY --merge-existing --replace-scope"
+          ARGS="--per-category $PER --concurrency $CONCURRENCY --merge-existing --replace-scope --full-refresh-days $FULL"
 
           if [ "$CATS" != "all" ]; then
             for cat in $(echo $CATS | tr ',' ' '); do

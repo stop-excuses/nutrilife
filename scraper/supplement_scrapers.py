@@ -1920,7 +1920,16 @@ def scrape(
                 return next((s for s in SOURCES if s.name.lower() in sources), SOURCES[0])
             return next((s for s in SOURCES if any(host in decoded for host in s.include_hosts)), SOURCES[0])
 
-        jobs = [(source_for_url(url), detect_category(url) or next(iter(categories or []), None), url) for url in urls]
+        jobs = [
+            (
+                source_for_url(url),
+                (existing_by_url.get(url, {}).get("category") if existing_by_url else None)
+                or detect_category(url)
+                or next(iter(categories or []), None),
+                url,
+            )
+            for url in urls
+        ]
         jobs = [(src, cat, url) for src, cat, url in jobs if cat]
         print(f"[*] Direct URL mode: {len(jobs)} product URLs")
         with ThreadPoolExecutor(max_workers=concurrency) as executor:
@@ -2087,6 +2096,7 @@ def main() -> None:
     parser.add_argument("--merge-existing", action="store_true", help="Merge refreshed rows into existing supplements.json instead of replacing all rows.")
     parser.add_argument("--replace-scope", action="store_true", help="With --merge-existing, replace every existing row in the selected source/category scope.")
     parser.add_argument("--full-refresh-days", type=int, default=30, help="With --merge-existing, re-scrape full label/image data for products older than N days (default: 30).")
+    parser.add_argument("--existing-only", action="store_true", help="Refresh only URLs already present in data/supplements.json; useful for a fast forced full scan without discovering the entire catalog.")
     args = parser.parse_args()
 
     selected_sources = {s.lower() for s in args.source} if args.source else None
@@ -2104,11 +2114,23 @@ def main() -> None:
         except Exception as e:
             print(f"[!] Could not load existing products: {e}")
 
+    if args.existing_only and not existing_by_url:
+        parser.error("--existing-only requires --merge-existing and an existing data/supplements.json")
+
+    refresh_urls = None
+    if args.existing_only:
+        refresh_urls = [
+            url for url, product in existing_by_url.items()
+            if (not selected_sources or product.get("store", "").lower() in selected_sources)
+            and (not selected_categories or product.get("category") in selected_categories)
+        ]
+        print(f"[*] Existing-only mode: {len(refresh_urls)} URLs")
+
     products = scrape(
         args.per_category,
         selected_sources,
         selected_categories,
-        args.url,
+        args.url or refresh_urls,
         args.concurrency,
         args.cache,
         existing_by_url or None,
