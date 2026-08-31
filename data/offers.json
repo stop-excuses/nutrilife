@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-31T16:47:57.109700Z",
-  "content_hash": "1f689c323884fa68b279199a1af874d8",
+  "generated_at": "2026-08-31T17:47:05.583231Z",
+  "content_hash": "ffbfab2f9d0330179ec625aff6281e52",
   "total_offers": 3969,
   "promo_offers": 955,
   "assortment_offers": 3014,
@@ -4967,8 +4967,8 @@
       "discount_pct": 45,
       "valid_from": "2026-08-24",
       "valid_until": "2026-09-06",
-      "price_per_kg": 0.99,
-      "price_per_kg_eur": 0.51,
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
       "source_type": "promo",
       "available_stores": [
         "Kaufland"
@@ -4987,8 +4987,8 @@
       "best_price_store": "Kaufland",
       "best_price": 0.99,
       "comparison_count": 1,
-      "product_id": "kaufland-ябълки-гала-кг",
-      "name": "Ябълки Гала кг",
+      "product_id": "kaufland-български-ябълки-гала",
+      "name": "Български ябълки Гала",
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00078285_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "vegetable",
       "emoji": "🥦",
@@ -5001,9 +5001,6 @@
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
-      "diet_tags": [
-        "budget"
-      ],
       "macros": {
         "kcal": 52,
         "p": 0.3,
