@@ -1,6 +1,6 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-09-01T16:22:19.104062Z",
-  "content_hash": "a341da6e9d8cb39053990e5997121ef4",
+  "generated_at": "2026-09-01T18:16:54.943828Z",
+  "content_hash": "dad228dc11d61733903103fe3d702fff",
   "total_offers": 3974,
   "promo_offers": 950,
   "assortment_offers": 3024,
@@ -4225,8 +4225,8 @@ const OFFERS_DATA = {
       "best_price_store": "Kaufland",
       "best_price": 0.25,
       "comparison_count": 1,
-      "product_id": "kaufland-българска-диня-кг",
-      "name": "Българска диня кг",
+      "product_id": "kaufland-диня-кг-кг",
+      "name": "Диня кг кг",
       "image": "https://kaufland.media.schwarz/is/image/schwarz/09700050_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "vegetable",
       "emoji": "🥦",
@@ -4248,31 +4248,19 @@ const OFFERS_DATA = {
         "f": 0.2,
         "c": 7.6
       },
-      "avg_price": 0.24,
-      "lowest_price": 0.22,
-      "lowest_price_date": "2026-08-21",
+      "avg_price": 0.25,
+      "lowest_price": 0.25,
+      "lowest_price_date": "2026-09-01",
       "price_history": [
         [
-          "2026-08-10",
+          "2026-09-01",
           0.25,
-          0.52,
-          52
-        ],
-        [
-          "2026-08-21",
-          0.22,
-          0.52,
-          58
-        ],
-        [
-          "2026-08-24",
-          0.25,
-          0.52,
-          52
+          null,
+          null
         ]
       ],
-      "price_seen_count": 3,
-      "price_signal": "normal"
+      "price_seen_count": 1,
+      "price_signal": "buy"
     },
     {
       "store": "Kaufland",
@@ -324359,5 +324347,5 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     }
   ],
-  "catalog_products": 56631
+  "catalog_products": 56632
 };
