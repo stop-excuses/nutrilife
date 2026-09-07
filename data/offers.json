@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-07T09:08:25.565118Z",
-  "content_hash": "5e683d1629b29d11a5d7507c0fb62926",
-  "total_offers": 4060,
-  "promo_offers": 1238,
+  "generated_at": "2026-09-07T13:19:28.088020Z",
+  "content_hash": "fafa7d2668b7cd47f62732635dfab79c",
+  "total_offers": 4052,
+  "promo_offers": 1230,
   "assortment_offers": 2822,
   "stores": [
     "Billa",
@@ -12059,70 +12059,6 @@
     {
       "store": "Kaufland",
       "address": null,
-      "new_price": 0.91,
-      "new_price_eur": 0.47,
-      "old_price": 1.3,
-      "old_price_eur": 0.66,
-      "discount_pct": 30,
-      "valid_from": "2026-09-07",
-      "valid_until": "2026-09-13",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 0.91,
-          "price_eur": 0.47,
-          "old_price": 1.3,
-          "old_price_eur": 0.66,
-          "discount_pct": 30,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 0.91,
-      "comparison_count": 1,
-      "product_id": "kaufland-fit-spo-протеин-на-прах-coconut",
-      "name": "FIT SPO Протеин на прах Coconut",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800224891364_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": true,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 1.34,
-      "lowest_price": 0.91,
-      "lowest_price_date": "2026-09-07",
-      "price_history": [
-        [
-          "2026-04-20",
-          1.78,
-          2.54,
-          30
-        ],
-        [
-          "2026-09-07",
-          0.91,
-          1.3,
-          30
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
       "new_price": 0.99,
       "new_price_eur": 0.51,
       "old_price": 1.63,
@@ -12583,204 +12519,6 @@
     {
       "store": "Kaufland",
       "address": null,
-      "new_price": 1.08,
-      "new_price_eur": 0.55,
-      "old_price": 1.55,
-      "old_price_eur": 0.79,
-      "discount_pct": 30,
-      "valid_from": "2026-09-07",
-      "valid_until": "2026-09-13",
-      "price_per_kg": 13.5,
-      "price_per_kg_eur": 6.9,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 1.08,
-          "price_eur": 0.55,
-          "old_price": 1.55,
-          "old_price_eur": 0.79,
-          "discount_pct": 30,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 1.08,
-      "comparison_count": 1,
-      "product_id": "kaufland-bezzo-протеиново-барче-различни-вкусове-80g",
-      "weight_grams": 80,
-      "weight_raw": "80 г",
-      "name": "Bezzo Протеиново барче различни вкусове",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00065887B_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": true,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 1.59,
-      "lowest_price": 1.08,
-      "lowest_price_date": "2026-09-07",
-      "price_history": [
-        [
-          "2026-05-11",
-          2.11,
-          3.03,
-          30
-        ],
-        [
-          "2026-09-07",
-          1.08,
-          1.55,
-          30
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 1.08,
-      "new_price_eur": 0.55,
-      "old_price": 1.55,
-      "old_price_eur": 0.79,
-      "discount_pct": 30,
-      "valid_from": "2026-09-07",
-      "valid_until": "2026-09-13",
-      "price_per_kg": 13.5,
-      "price_per_kg_eur": 6.9,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 1.08,
-          "price_eur": 0.55,
-          "old_price": 1.55,
-          "old_price_eur": 0.79,
-          "discount_pct": 30,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 1.08,
-      "comparison_count": 1,
-      "product_id": "kaufland-bezzo-протеинов-бар-различни-видове-80g",
-      "weight_grams": 80,
-      "weight_raw": "80 г",
-      "name": "Bezzo Протеинов бар различни видове",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800224891029_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "grain",
-      "emoji": "🌾",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": true,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "avg_price": 1.59,
-      "lowest_price": 1.08,
-      "lowest_price_date": "2026-09-07",
-      "price_history": [
-        [
-          "2026-05-11",
-          2.11,
-          3.03,
-          30
-        ],
-        [
-          "2026-09-07",
-          1.08,
-          1.55,
-          30
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 1.08,
-      "new_price_eur": 0.55,
-      "old_price": 1.55,
-      "old_price_eur": 0.79,
-      "discount_pct": 30,
-      "valid_from": "2026-09-07",
-      "valid_until": "2026-09-13",
-      "price_per_kg": 21.6,
-      "price_per_kg_eur": 11.04,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 1.08,
-          "price_eur": 0.55,
-          "old_price": 1.55,
-          "old_price_eur": 0.79,
-          "discount_pct": 30,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 1.08,
-      "comparison_count": 1,
-      "product_id": "kaufland-fit-spo-протеиново-барче-50g",
-      "weight_grams": 50,
-      "weight_raw": "50 г",
-      "name": "Fit Spo Протеиново барче",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800224890107_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": true,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 1.59,
-      "lowest_price": 1.08,
-      "lowest_price_date": "2026-09-07",
-      "price_history": [
-        [
-          "2026-05-11",
-          2.11,
-          3.03,
-          30
-        ],
-        [
-          "2026-09-07",
-          1.08,
-          1.55,
-          30
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
       "new_price": 1.12,
       "new_price_eur": 0.57,
       "old_price": 1.57,
@@ -12845,72 +12583,6 @@
         ]
       ],
       "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 1.14,
-      "new_price_eur": 0.58,
-      "old_price": 1.63,
-      "old_price_eur": 0.83,
-      "discount_pct": 30,
-      "valid_from": "2026-09-07",
-      "valid_until": "2026-09-13",
-      "price_per_kg": 33.53,
-      "price_per_kg_eur": 17.14,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 1.14,
-          "price_eur": 0.58,
-          "old_price": 1.63,
-          "old_price_eur": 0.83,
-          "discount_pct": 30,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 1.14,
-      "comparison_count": 1,
-      "product_id": "kaufland-fit-spo-протеин-на-прах-различни-вкусове-34g",
-      "weight_grams": 34,
-      "weight_raw": "34 г",
-      "name": "FIT SPO Протеин на прах различни вкусове",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800224891395_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": true,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 1.69,
-      "lowest_price": 1.14,
-      "lowest_price_date": "2026-09-07",
-      "price_history": [
-        [
-          "2026-05-11",
-          2.23,
-          3.19,
-          30
-        ],
-        [
-          "2026-09-07",
-          1.14,
-          1.63,
-          30
-        ]
-      ],
-      "price_seen_count": 2,
       "price_signal": "buy"
     },
     {
@@ -13096,132 +12768,6 @@
     {
       "store": "Kaufland",
       "address": null,
-      "new_price": 1.17,
-      "new_price_eur": 0.6,
-      "old_price": 1.68,
-      "old_price_eur": 0.86,
-      "discount_pct": 30,
-      "valid_from": "2026-09-07",
-      "valid_until": "2026-09-13",
-      "price_per_kg": 21.27,
-      "price_per_kg_eur": 10.88,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 1.17,
-          "price_eur": 0.6,
-          "old_price": 1.68,
-          "old_price_eur": 0.86,
-          "discount_pct": 30,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 1.17,
-      "comparison_count": 1,
-      "product_id": "kaufland-fit-spo-протеиново-барче-strawberrychoco-55g",
-      "weight_grams": 55,
-      "weight_raw": "55 г",
-      "name": "Fit Spo Протеиново барче StrawberryChoco",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20342553_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": true,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 1.17,
-      "lowest_price": 1.17,
-      "lowest_price_date": "2026-09-07",
-      "price_history": [
-        [
-          "2026-09-07",
-          1.17,
-          1.68,
-          30
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 1.19,
-      "new_price_eur": 0.61,
-      "old_price": 1.71,
-      "old_price_eur": 0.87,
-      "discount_pct": 30,
-      "valid_from": "2026-09-07",
-      "valid_until": "2026-09-13",
-      "price_per_kg": 17.0,
-      "price_per_kg_eur": 8.69,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 1.19,
-          "price_eur": 0.61,
-          "old_price": 1.71,
-          "old_price_eur": 0.87,
-          "discount_pct": 30,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 1.19,
-      "comparison_count": 1,
-      "product_id": "kaufland-fit-spo-протеинова-бисквита-различни-видове-70g",
-      "weight_grams": 70,
-      "weight_raw": "70 г",
-      "name": "FIT SPO Протеинова бисквита различни видове",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800233076318_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "grain",
-      "emoji": "🌾",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": true,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "avg_price": 1.76,
-      "lowest_price": 1.19,
-      "lowest_price_date": "2026-09-07",
-      "price_history": [
-        [
-          "2026-05-11",
-          2.33,
-          3.34,
-          30
-        ],
-        [
-          "2026-09-07",
-          1.19,
-          1.71,
-          30
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
       "new_price": 1.25,
       "new_price_eur": 0.64,
       "old_price": 1.48,
@@ -13283,72 +12829,6 @@
         ]
       ],
       "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 1.28,
-      "new_price_eur": 0.65,
-      "old_price": 1.84,
-      "old_price_eur": 0.94,
-      "discount_pct": 30,
-      "valid_from": "2026-09-07",
-      "valid_until": "2026-09-13",
-      "price_per_kg": 25.6,
-      "price_per_kg_eur": 13.09,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 1.28,
-          "price_eur": 0.65,
-          "old_price": 1.84,
-          "old_price_eur": 0.94,
-          "discount_pct": 30,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 1.28,
-      "comparison_count": 1,
-      "product_id": "kaufland-fitspo-power-протеинов-бар-dubai-choco-50g",
-      "weight_grams": 50,
-      "weight_raw": "50 г",
-      "name": "FitSpo Power Протеинов бар Dubai Choco",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800224892385_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "grain",
-      "emoji": "🌾",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": true,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "avg_price": 1.89,
-      "lowest_price": 1.28,
-      "lowest_price_date": "2026-09-07",
-      "price_history": [
-        [
-          "2026-05-11",
-          2.5,
-          3.6,
-          31
-        ],
-        [
-          "2026-09-07",
-          1.28,
-          1.84,
-          30
-        ]
-      ],
-      "price_seen_count": 2,
       "price_signal": "buy"
     },
     {
@@ -13831,6 +13311,84 @@
           "2026-08-13",
           1.53,
           2.19,
+          30
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 1.56,
+      "new_price_eur": 0.8,
+      "old_price": 2.24,
+      "old_price_eur": 1.15,
+      "discount_pct": 30,
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-13",
+      "price_per_kg": 18.35,
+      "price_per_kg_eur": 9.38,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 1.56,
+          "price_eur": 0.8,
+          "old_price": 2.24,
+          "old_price_eur": 1.15,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 1.56,
+      "comparison_count": 1,
+      "product_id": "kaufland-fit-spo-протеиново-барче-salted-carame-85g",
+      "weight_grams": 85,
+      "weight_raw": "85 г",
+      "name": "Fit Spo Протеиново барче Salted Carame",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20342556_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": true,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 2.74,
+      "lowest_price": 1.56,
+      "lowest_price_date": "2026-08-13",
+      "price_history": [
+        [
+          "2026-05-16",
+          3.05,
+          4.38,
+          30
+        ],
+        [
+          "2026-06-01",
+          3.29,
+          4.38,
+          25
+        ],
+        [
+          "2026-07-06",
+          3.05,
+          4.38,
+          30
+        ],
+        [
+          "2026-08-13",
+          1.56,
+          2.24,
           30
         ]
       ],
@@ -21935,72 +21493,6 @@
         ]
       ],
       "price_seen_count": 3,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 1.17,
-      "new_price_eur": 0.6,
-      "old_price": 1.68,
-      "old_price_eur": 0.86,
-      "discount_pct": 30,
-      "valid_from": "2026-09-07",
-      "valid_until": "2026-09-13",
-      "price_per_kg": 21.27,
-      "price_per_kg_eur": 10.88,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 1.17,
-          "price_eur": 0.6,
-          "old_price": 1.68,
-          "old_price_eur": 0.86,
-          "discount_pct": 30,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 1.17,
-      "comparison_count": 1,
-      "product_id": "kaufland-fit-spo-протеиново-барче-chocolate-55g",
-      "weight_grams": 55,
-      "weight_raw": "55 г",
-      "name": "Fit Spo Протеиново барче Chocolate",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20342554_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "health_score": 2,
-      "is_food": true,
-      "is_junk": true,
-      "is_healthy": false,
-      "is_high_protein": true,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 1.73,
-      "lowest_price": 1.17,
-      "lowest_price_date": "2026-09-07",
-      "price_history": [
-        [
-          "2026-05-11",
-          2.29,
-          3.29,
-          30
-        ],
-        [
-          "2026-09-07",
-          1.17,
-          1.68,
-          30
-        ]
-      ],
-      "price_seen_count": 2,
       "price_signal": "buy"
     },
     {
@@ -32363,6 +31855,71 @@
       "address": null,
       "new_price": 1.53,
       "new_price_eur": 0.78,
+      "old_price": 2.19,
+      "old_price_eur": 1.12,
+      "discount_pct": 30,
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-13",
+      "price_per_kg": 20.4,
+      "price_per_kg_eur": 10.43,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 1.53,
+          "price_eur": 0.78,
+          "old_price": 2.19,
+          "old_price_eur": 1.12,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 1.53,
+      "comparison_count": 1,
+      "product_id": "kaufland-fit-spo-maxx-бисквита-с-крем-cookies-cream-75g",
+      "weight_grams": 75,
+      "weight_raw": "75 г",
+      "name": "FIT SPO MAXX Бисквита с крем Cookies&Cream",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800224890114_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "grain",
+      "emoji": "🌾",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "avg_price": 2.26,
+      "lowest_price": 1.53,
+      "lowest_price_date": "2026-08-13",
+      "price_history": [
+        [
+          "2026-05-16",
+          2.99,
+          4.28,
+          30
+        ],
+        [
+          "2026-08-13",
+          1.53,
+          2.19,
+          30
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 1.53,
+      "new_price_eur": 0.78,
       "old_price": 2.24,
       "old_price_eur": 1.15,
       "discount_pct": 32,
@@ -39010,63 +38567,6 @@
           2.8,
           3.57,
           22
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 2.81,
-      "new_price_eur": 1.44,
-      "old_price": 3.52,
-      "old_price_eur": 1.8,
-      "discount_pct": 20,
-      "valid_from": "2026-09-07",
-      "valid_until": "2026-09-13",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 2.81,
-          "price_eur": 1.44,
-          "old_price": 3.52,
-          "old_price_eur": 1.8,
-          "discount_pct": 20,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 2.81,
-      "comparison_count": 1,
-      "product_id": "kaufland-scholl-пластири-за-премахване-на-мазоли",
-      "name": "Scholl Пластири за премахване на мазоли",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/5000288301160_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 2.81,
-      "lowest_price": 2.81,
-      "lowest_price_date": "2026-09-07",
-      "price_history": [
-        [
-          "2026-09-07",
-          2.81,
-          3.52,
-          20
         ]
       ],
       "price_seen_count": 1,
