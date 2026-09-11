@@ -1,9 +1,9 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-09-11T12:34:19.225283Z",
-  "content_hash": "de7e5e98415a359cb9c652e3732de42d",
-  "total_offers": 4090,
+  "generated_at": "2026-09-11T16:32:23.152641Z",
+  "content_hash": "eeaff055185d36e968ad0f24be9c78d9",
+  "total_offers": 4085,
   "promo_offers": 1285,
-  "assortment_offers": 2805,
+  "assortment_offers": 2800,
   "stores": [
     "Billa",
     "Dar",
@@ -4473,6 +4473,76 @@ const OFFERS_DATA = {
           1.12,
           null,
           null
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 1.13,
+      "new_price_eur": 0.58,
+      "old_price": 1.42,
+      "old_price_eur": 0.73,
+      "discount_pct": 20,
+      "valid_from": "2026-09-07",
+      "valid_until": "2026-09-13",
+      "price_per_kg": 11.3,
+      "price_per_kg_eur": 5.78,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 1.13,
+          "price_eur": 0.58,
+          "old_price": 1.42,
+          "old_price_eur": 0.73,
+          "discount_pct": 20,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 1.13,
+      "comparison_count": 1,
+      "product_id": "kaufland-k-classic-филирани-бадеми-100g",
+      "weight_grams": 100,
+      "weight_raw": "100 г",
+      "name": "K-Classic Филирани бадеми",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4337185152221_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "nuts",
+      "emoji": "🥜",
+      "health_score": 9,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": true,
+      "is_bulk_worthy": true,
+      "is_long_lasting": true,
+      "diet_tags": [
+        "keto",
+        "mediterranean"
+      ],
+      "macros": {
+        "kcal": 579,
+        "p": 21,
+        "f": 49,
+        "c": 22
+      },
+      "avg_price": 1.13,
+      "lowest_price": 1.13,
+      "lowest_price_date": "2026-09-11",
+      "price_history": [
+        [
+          "2026-09-11",
+          1.13,
+          1.42,
+          20
         ]
       ],
       "price_seen_count": 1,
@@ -15943,87 +16013,6 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 5.11,
-      "new_price_eur": 2.61,
-      "old_price": 6.64,
-      "old_price_eur": 3.39,
-      "discount_pct": 23,
-      "valid_from": "2026-09-07",
-      "valid_until": "2026-09-13",
-      "price_per_kg": 5.11,
-      "price_per_kg_eur": 2.61,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 5.11,
-          "price_eur": 2.61,
-          "old_price": 6.64,
-          "old_price_eur": 3.39,
-          "discount_pct": 23,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 5.11,
-      "comparison_count": 1,
-      "product_id": "kaufland-la-provincia-царевично-пиле-кг",
-      "name": "La Provincia Царевично пиле кг",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/185_2020840307_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "protein",
-      "emoji": "🍗",
-      "health_score": 9,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": true,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "diet_tags": [
-        "high_protein",
-        "keto",
-        "budget"
-      ],
-      "macros": {
-        "kcal": 165,
-        "p": 31,
-        "f": 3.6,
-        "c": 0
-      },
-      "avg_price": 8.42,
-      "lowest_price": 5.11,
-      "lowest_price_date": "2026-08-10",
-      "price_history": [
-        [
-          "2026-05-07",
-          9.76,
-          12.99,
-          25
-        ],
-        [
-          "2026-07-06",
-          10.39,
-          12.99,
-          20
-        ],
-        [
-          "2026-08-10",
-          5.11,
-          6.64,
-          23
-        ]
-      ],
-      "price_seen_count": 3,
       "price_signal": "buy"
     },
     {
@@ -57980,7 +57969,7 @@ const OFFERS_DATA = {
       "weight_grams": 1000,
       "weight_raw": "1 кг",
       "name": "Krina Ориз Кристалино",
-      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20759104_P.jpg",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20759104_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "grain",
       "emoji": "🌾",
       "health_score": 6,
@@ -106603,78 +106592,6 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 4.59,
-      "new_price_eur": 2.35,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-09-07",
-      "valid_until": "2026-09-13",
-      "price_per_kg": 12.08,
-      "price_per_kg_eur": 6.18,
-      "source_type": "assortment",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 4.59,
-          "price_eur": 2.35,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 4.59,
-      "comparison_count": 1,
-      "product_id": "kaufland-шеф-месар-кълцан-медальон-380g",
-      "weight_grams": 380,
-      "weight_raw": "380 г",
-      "name": "Шеф Месар Кълцан медальон",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/186_00098725_1_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "macros": {
-        "kcal": 304,
-        "p": 0.3,
-        "f": 0,
-        "c": 82
-      },
-      "avg_price": 6.79,
-      "lowest_price": 4.59,
-      "lowest_price_date": "2026-09-07",
-      "price_history": [
-        [
-          "2026-06-29",
-          8.98,
-          null,
-          null
-        ],
-        [
-          "2026-09-07",
-          4.59,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 2,
       "price_signal": "buy"
     },
     {
@@ -244207,69 +244124,6 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 6.49,
-      "new_price_eur": 3.32,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-09-07",
-      "valid_until": "2026-09-13",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 6.49,
-          "price_eur": 3.32,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 6.49,
-      "comparison_count": 1,
-      "product_id": "kaufland-кала",
-      "name": "Кала",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8717435600874_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 9.24,
-      "lowest_price": 6.49,
-      "lowest_price_date": "2026-09-08",
-      "price_history": [
-        [
-          "2026-04-30",
-          11.99,
-          null,
-          null
-        ],
-        [
-          "2026-09-08",
-          6.49,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
       "store": "Fantastico",
       "address": null,
       "new_price": 6.49,
@@ -253719,69 +253573,6 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 7.99,
-      "new_price_eur": 4.09,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-09-07",
-      "valid_until": "2026-09-13",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 7.99,
-          "price_eur": 4.09,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 7.99,
-      "comparison_count": 1,
-      "product_id": "kaufland-миниорхидея-в-керамика",
-      "name": "Миниорхидея в керамика",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/5708869224821_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 11.48,
-      "lowest_price": 7.99,
-      "lowest_price_date": "2026-09-08",
-      "price_history": [
-        [
-          "2026-05-26",
-          14.98,
-          null,
-          null
-        ],
-        [
-          "2026-09-08",
-          7.99,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
       "store": "Fantastico",
       "address": null,
       "new_price": 7.99,
@@ -259284,7 +259075,7 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "kaufland-bic-комплект-за-оцветяване",
       "name": "BIC Комплект за оцветяване",
-      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20973044_P.jpg",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20973044_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -261380,120 +261171,6 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 3,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 9.99,
-      "new_price_eur": 5.11,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-09-07",
-      "valid_until": "2026-09-13",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 9.99,
-          "price_eur": 5.11,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 9.99,
-      "comparison_count": 1,
-      "product_id": "kaufland-каланхое-стаино-растение-ø12-см",
-      "name": "Каланхое Стайно растение Ø12 см",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20922247_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 9.99,
-      "lowest_price": 9.99,
-      "lowest_price_date": "2026-09-08",
-      "price_history": [
-        [
-          "2026-09-08",
-          9.99,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 9.99,
-      "new_price_eur": 5.11,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-09-07",
-      "valid_until": "2026-09-13",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 9.99,
-          "price_eur": 5.11,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 9.99,
-      "comparison_count": 1,
-      "product_id": "kaufland-орхидея-фаленопсис-в-керамика-ø9-см",
-      "name": "Орхидея Фаленопсис в керамика Ø9 см",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8714098091025_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": true,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 9.99,
-      "lowest_price": 9.99,
-      "lowest_price_date": "2026-09-08",
-      "price_history": [
-        [
-          "2026-09-08",
-          9.99,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
       "price_signal": "buy"
     },
     {
