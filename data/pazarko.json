@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-08-30T11:09:17.589130+00:00",
+  "scraped_at": "2026-09-13T10:54:15.813399+00:00",
   "products": [
     {
       "product_name": "42/25 Вино Розе 0.75 Л",
@@ -70,7 +70,7 @@
       "old_price_eur": null,
       "image_url": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/06926144-6003-469a-bee2-90644a70c5fb.png",
       "store": "Billa",
-      "db_sub_category": "Основни храни",
+      "db_sub_category": "Снаксове и сладки изкушения",
       "_pazarko_store": "Billa"
     },
     {
@@ -79,7 +79,7 @@
       "old_price_eur": null,
       "image_url": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/8005e230-2898-4c3c-ab55-5d989b4f6383.png",
       "store": "Billa",
-      "db_sub_category": "Основни храни",
+      "db_sub_category": "Снаксове и сладки изкушения",
       "_pazarko_store": "Billa"
     },
     {
@@ -88,7 +88,7 @@
       "old_price_eur": null,
       "image_url": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/a28f3684-0192-4f30-b724-ad5fc10726b3.png",
       "store": "Billa",
-      "db_sub_category": "Основни храни",
+      "db_sub_category": "Снаксове и сладки изкушения",
       "_pazarko_store": "Billa"
     },
     {
@@ -97,7 +97,7 @@
       "old_price_eur": null,
       "image_url": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/c2d39b62-1b91-447e-8551-ae38868dad19.png",
       "store": "Billa",
-      "db_sub_category": "Основни храни",
+      "db_sub_category": "Снаксове и сладки изкушения",
       "_pazarko_store": "Billa"
     },
     {
@@ -106,7 +106,7 @@
       "old_price_eur": null,
       "image_url": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/5c9137b1-5b57-412f-8b19-40a3040d94cc.png",
       "store": "Billa",
-      "db_sub_category": "Основни храни",
+      "db_sub_category": "Снаксове и сладки изкушения",
       "_pazarko_store": "Billa"
     },
     {
@@ -115,7 +115,7 @@
       "old_price_eur": null,
       "image_url": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/00710e00-fe66-46bc-8144-409f829cfb54.png",
       "store": "Billa",
-      "db_sub_category": "Основни храни",
+      "db_sub_category": "Снаксове и сладки изкушения",
       "_pazarko_store": "Billa"
     },
     {
@@ -124,7 +124,7 @@
       "old_price_eur": null,
       "image_url": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/72bf0d5a-40e4-46b5-9060-77d1fc11cb17.png",
       "store": "Billa",
-      "db_sub_category": "Основни храни",
+      "db_sub_category": "Снаксове и сладки изкушения",
       "_pazarko_store": "Billa"
     },
     {
@@ -133,7 +133,7 @@
       "old_price_eur": null,
       "image_url": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/f7f7dd1a-04b2-453c-a208-75fb68d52446.png",
       "store": "Billa",
-      "db_sub_category": "Основни храни",
+      "db_sub_category": "Снаксове и сладки изкушения",
       "_pazarko_store": "Billa"
     },
     {
@@ -142,13 +142,13 @@
       "old_price_eur": null,
       "image_url": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/2aa87485-1ddb-43c7-aa21-34c6815702b0.png",
       "store": "Billa",
-      "db_sub_category": "Основни храни",
+      "db_sub_category": "Снаксове и сладки изкушения",
       "_pazarko_store": "Billa"
     },
     {
       "product_name": "7-UP Газирана напитка 1.5 Л",
-      "price_eur": 0.75,
-      "old_price_eur": 1.44,
+      "price_eur": 1.44,
+      "old_price_eur": null,
       "image_url": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/1a930e02-efd7-49f5-b04e-25d85d7fc6af.png",
       "store": "Billa",
       "db_sub_category": "Напитки",
@@ -156,20 +156,20 @@
     },
     {
       "product_name": "7-Up Газирана напитка 2 Л",
-      "price_eur": 1.73,
-      "old_price_eur": null,
+      "price_eur": 0.99,
+      "old_price_eur": 1.73,
       "image_url": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/2fea5b52-2f4d-4f0e-938b-74b5f496e5ec.png",
       "store": "Billa",
-      "db_sub_category": "Напитки",
+      "db_sub_category": "Основни храни",
       "_pazarko_store": "Billa"
     },
     {
       "product_name": "ABSOLUT BLUE ВОДКА 1 Л",
-      "price_eur": 11.75,
-      "old_price_eur": 15.64,
+      "price_eur": 15.64,
+      "old_price_eur": null,
       "image_url": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/3d1309e4-2803-4b85-b273-47890556501b.png",
       "store": "Billa",
-      "db_sub_category": "Напитки",
+      "db_sub_category": "Вино и алкохол",
       "_pazarko_store": "Billa"
     },
     {
@@ -179,6 +179,24 @@
       "image_url": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/8588a66d-9dd4-45f8-8e5e-19b832facbca.png",
       "store": "Billa",
       "db_sub_category": "Вино и алкохол",
+      "_pazarko_store": "Billa"
+    },
+    {
+      "product_name": "ABSOLUT Алкохолна Напитка Малинова Лимонада 0.25 Л",
+      "price_eur": 1.89,
+      "old_price_eur": null,
+      "image_url": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/666c0237-b9bf-4e8b-b18b-1e02648639f9.png",
+      "store": "Billa",
+      "db_sub_category": "Вино и алкохол",
+      "_pazarko_store": "Billa"
+    },
+    {
+      "product_name": "Ace Белина Стандарт 1 Л",
+      "price_eur": 1.94,
+      "old_price_eur": null,
+      "image_url": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/3c8dad0e-289a-4948-9345-11c1ffe4cfbb.png",
+      "store": "Billa",
+      "db_sub_category": "Почистване",
       "_pazarko_store": "Billa"
     },
     {
@@ -254,291 +272,273 @@
       "_pazarko_store": "Billa"
     },
     {
-      "product_name": "Ahmad tea Билков чай ройбос и канела 40 ГР",
-      "price_eur": 3.25,
-      "old_price_eur": null,
-      "image_url": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/061393c5-1886-4416-9d2e-119d47d5f15b.png",
-      "store": "Billa",
-      "db_sub_category": "Кафе и чай",
-      "_pazarko_store": "Billa"
-    },
-    {
-      "product_name": "Ahmad tea Зелен чай селекция 40 ГР",
-      "price_eur": 3.22,
-      "old_price_eur": null,
-      "image_url": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/0f1ac0f7-4241-4324-845c-533d3a39b6c0.png",
-      "store": "Billa",
-      "db_sub_category": "Кафе и чай",
-      "_pazarko_store": "Billa"
-    },
-    {
-      "product_name": "ACTIMEL различни видове",
-      "price_eur": 1.89,
-      "old_price_eur": 2.21,
-      "image_url": "https://pazarko.bg/api/brochure-images/TMarketBrochure_actimel_различни_видове_4x100г.jpg",
+      "product_name": "ACTIVIA закуска различни видове 163-165 г",
+      "price_eur": 0.85,
+      "old_price_eur": 0.98,
+      "image_url": "https://pazarko.bg/api/brochure-images/TMarketBrochure_activia_закуска_различни_видове_163_165_г_163_165г.jpg",
       "store": "TMarket",
       "db_sub_category": "Мляко и Млечни продукти",
       "_pazarko_store": "TMarket"
     },
     {
-      "product_name": "DANONINO различни видове",
-      "price_eur": 1.49,
-      "old_price_eur": 1.71,
-      "image_url": "https://pazarko.bg/api/brochure-images/TMarketBrochure_danonino_различни_видове_4x50г.jpg",
-      "store": "TMarket",
-      "db_sub_category": "Мляко и Млечни продукти",
-      "_pazarko_store": "TMarket"
-    },
-    {
-      "product_name": "Авокадо едро",
-      "price_eur": 0.99,
-      "old_price_eur": null,
-      "image_url": "https://pazarko.bg/api/brochure-images/TMarketBrochure_авокадо_едро_бр.jpg",
-      "store": "TMarket",
-      "db_sub_category": "Плодове и зеленчуци",
-      "_pazarko_store": "TMarket"
-    },
-    {
-      "product_name": "Ароматизатор за тоалетна BREF Color Aktiv+ Eucalyptus",
-      "price_eur": 5.11,
-      "old_price_eur": 10.22,
-      "image_url": "https://pazarko.bg/api/brochure-images/TMarketBrochure_ароматизатор_за_тоалетна_bref_color_aktiv_eucalyptus_5x50г.jpg",
-      "store": "TMarket",
-      "db_sub_category": "Почистване",
-      "_pazarko_store": "TMarket"
-    },
-    {
-      "product_name": "Бадем или кашу ROIS различни видове 70 г",
-      "price_eur": 1.29,
-      "old_price_eur": 2.3,
-      "image_url": "https://pazarko.bg/api/brochure-images/TMarketBrochure_бадем_или_кашу_rois_различни_видове_70_г_70г.jpg",
+      "product_name": "BAKE ROLLS 7 DAYS различни видове",
+      "price_eur": 0.59,
+      "old_price_eur": 0.79,
+      "image_url": "https://pazarko.bg/api/brochure-images/TMarketBrochure_bake_rolls_7_days_различни_видове_80г.jpg",
       "store": "TMarket",
       "db_sub_category": "Снаксове и сладки изкушения",
       "_pazarko_store": "TMarket"
     },
     {
-      "product_name": "Баничка пура със сирене",
-      "price_eur": 0.32,
-      "old_price_eur": 0.63,
-      "image_url": "https://pazarko.bg/api/brochure-images/TMarketBrochure_баничка_пура_със_сирене_бр.jpg",
+      "product_name": "Агнешка дроб сарма, кг",
+      "price_eur": 6.99,
+      "old_price_eur": 8.69,
+      "image_url": "https://pazarko.bg/api/brochure-images/TMarketBrochure_агнешка_дроб_сарма_кг_кг.jpg",
+      "store": "TMarket",
+      "db_sub_category": "Деликатеси",
+      "_pazarko_store": "TMarket"
+    },
+    {
+      "product_name": "Багета с чесън, бр.",
+      "price_eur": 0.69,
+      "old_price_eur": 1.02,
+      "image_url": "https://pazarko.bg/api/brochure-images/TMarketBrochure_багета_с_чесън_бр_бр.jpg",
       "store": "TMarket",
       "db_sub_category": "Хляб и тестени изделия",
       "_pazarko_store": "TMarket"
     },
     {
-      "product_name": "Бейби картофи със самардала",
-      "price_eur": 3.59,
-      "old_price_eur": 4.8,
-      "image_url": "https://pazarko.bg/api/brochure-images/TMarketBrochure_бейби_картофи_със_самардала_кг_400гвоп.jpg",
+      "product_name": "Бадем печен",
+      "price_eur": 10.99,
+      "old_price_eur": 15.33,
+      "image_url": "https://pazarko.bg/api/brochure-images/TMarketBrochure_бадем_печен_кг.jpg",
       "store": "TMarket",
-      "db_sub_category": "Плодове и зеленчуци",
+      "db_sub_category": "Снаксове и сладки изкушения",
       "_pazarko_store": "TMarket"
     },
     {
-      "product_name": "Бира BARLEY classic",
+      "product_name": "Баничка със сирене, бр.",
+      "price_eur": 0.51,
+      "old_price_eur": 1,
+      "image_url": "https://pazarko.bg/api/brochure-images/TMarketBrochure_баничка_със_сирене_бр_бр.jpg",
+      "store": "TMarket",
+      "db_sub_category": "Хляб и тестени изделия",
+      "_pazarko_store": "TMarket"
+    },
+    {
+      "product_name": "Бира BARLEY 4% кен",
       "price_eur": 0.43,
       "old_price_eur": 0.46,
-      "image_url": "https://pazarko.bg/api/brochure-images/TMarketBrochure_бира_barley_classic_500мл.jpg",
+      "image_url": "https://pazarko.bg/api/brochure-images/TMarketBrochure_бира_barley_4_кен_500мл.jpg",
       "store": "TMarket",
       "db_sub_category": "Вино и алкохол",
       "_pazarko_store": "TMarket"
     },
     {
-      "product_name": "Бира HEINEKEN кен, различни видове 500 мл",
+      "product_name": "Бира CORONA 4.5%, 330 мл",
       "price_eur": 0.89,
-      "old_price_eur": 1.35,
-      "image_url": "https://pazarko.bg/api/brochure-images/TMarketBrochure_бира_heineken_кен_различни_видове_500_мл_500мл.jpg",
+      "old_price_eur": 1.89,
+      "image_url": "https://pazarko.bg/api/brochure-images/TMarketBrochure_бира_corona_4_5_330_мл_330мл.jpg",
       "store": "TMarket",
       "db_sub_category": "Напитки",
       "_pazarko_store": "TMarket"
     },
     {
-      "product_name": "Бира АРИАНА Лятно, кен 500 мл",
-      "price_eur": 0.59,
+      "product_name": "Бира HEINEKEN бутилка",
+      "price_eur": 0.75,
+      "old_price_eur": 1.26,
+      "image_url": "https://pazarko.bg/api/brochure-images/TMarketBrochure_бира_heineken_бутилка_500мл.jpg",
+      "store": "TMarket",
+      "db_sub_category": "Вино и алкохол",
+      "_pazarko_store": "TMarket"
+    },
+    {
+      "product_name": "Бира MORETTI кен бутилка",
+      "price_eur": 0.79,
       "old_price_eur": 0.95,
-      "image_url": "https://pazarko.bg/api/brochure-images/TMarketBrochure_бира_ариана_лятно_кен_500_мл_500мл.jpg",
+      "image_url": "https://pazarko.bg/api/brochure-images/TMarketBrochure_бира_moretti_кен_бутилка_500мл.jpg",
       "store": "TMarket",
-      "db_sub_category": "Напитки",
+      "db_sub_category": "Вино и алкохол",
       "_pazarko_store": "TMarket"
     },
     {
-      "product_name": "Бира АРИАНА РЕТ 1.2 л",
-      "price_eur": 0.89,
-      "old_price_eur": 1.15,
-      "image_url": "https://pazarko.bg/api/brochure-images/TMarketBrochure_бира_ариана_рет_1_2_л_1_2л.jpg",
+      "product_name": "Бира АРИАНА РЕТ",
+      "price_eur": 1.09,
+      "old_price_eur": 1.51,
+      "image_url": "https://pazarko.bg/api/brochure-images/TMarketBrochure_бира_ариана_рет_2л.jpg",
       "store": "TMarket",
-      "db_sub_category": "Напитки",
+      "db_sub_category": "Вино и алкохол",
       "_pazarko_store": "TMarket"
     },
     {
-      "product_name": "Бира КАМЕНИЦА РЕТ 1.9 л",
-      "price_eur": 0.99,
-      "old_price_eur": 1.55,
-      "image_url": "https://pazarko.bg/api/brochure-images/TMarketBrochure_бира_каменица_рет_1_9_л_1_9л.jpg",
+      "product_name": "Бира БУРГАСКО кен",
+      "price_eur": 0.55,
+      "old_price_eur": 0.97,
+      "image_url": "https://pazarko.bg/api/brochure-images/TMarketBrochure_бира_бургаско_кен_500мл.jpg",
       "store": "TMarket",
-      "db_sub_category": "Напитки",
+      "db_sub_category": "Вино и алкохол",
       "_pazarko_store": "TMarket"
     },
     {
-      "product_name": "Бира ПИРИНСКО кен 500 мл",
-      "price_eur": 0.65,
-      "old_price_eur": 0.81,
-      "image_url": "https://pazarko.bg/api/brochure-images/TMarketBrochure_бира_пиринско_кен_500_мл_500мл.jpg",
-      "store": "TMarket",
-      "db_sub_category": "Напитки",
-      "_pazarko_store": "TMarket"
-    },
-    {
-      "product_name": "Бири STELLA ARTOIS",
-      "price_eur": null,
-      "old_price_eur": null,
-      "image_url": "https://pazarko.bg/api/brochure-images/TMarketBrochure_бири_stella_artois.jpg",
-      "store": "TMarket",
-      "db_sub_category": "Напитки",
-      "_pazarko_store": "TMarket"
-    },
-    {
-      "product_name": "Бисквити LAMBERTZ микс 200 г",
-      "price_eur": 1.99,
-      "old_price_eur": 2.59,
-      "image_url": "https://pazarko.bg/api/brochure-images/TMarketBrochure_бисквити_lambertz_микс_200_г_200г.jpg",
+      "product_name": "Бисквити LAMBERTZ TOSCANA",
+      "price_eur": 3.99,
+      "old_price_eur": 4.99,
+      "image_url": "https://pazarko.bg/api/brochure-images/TMarketBrochure_бисквити_lambertz_toscana_450г.jpg",
       "store": "TMarket",
       "db_sub_category": "Снаксове и сладки изкушения",
       "_pazarko_store": "TMarket"
     },
     {
-      "product_name": "Бисквити MILKA",
-      "price_eur": 1.45,
-      "old_price_eur": 2.04,
-      "image_url": "https://pazarko.bg/api/brochure-images/TMarketBrochure_бисквити_milka_112_150г.jpg",
+      "product_name": "Бисквити MULTICAKE различни видове",
+      "price_eur": 0.79,
+      "old_price_eur": 1.12,
+      "image_url": "https://pazarko.bg/api/brochure-images/TMarketBrochure_бисквити_multicake_различни_видове_180г.jpg",
       "store": "TMarket",
       "db_sub_category": "Снаксове и сладки изкушения",
       "_pazarko_store": "TMarket"
     },
     {
-      "product_name": "Бисквити WELL DONE Cookies drops 150 г",
-      "price_eur": 1.69,
-      "old_price_eur": 2.04,
-      "image_url": "https://pazarko.bg/api/brochure-images/TMarketBrochure_бисквити_well_done_cookies_drops_150_г_150г.jpg",
+      "product_name": "Бисквити WELL DONE с лешников пълнеж",
+      "price_eur": 1.49,
+      "old_price_eur": 1.82,
+      "image_url": "https://pazarko.bg/api/brochure-images/TMarketBrochure_бисквити_well_done_с_лешников_пълнеж_175г.jpg",
       "store": "TMarket",
       "db_sub_category": "Снаксове и сладки изкушения",
       "_pazarko_store": "TMarket"
     },
     {
-      "product_name": "Бисквити ДО КАВИ различни видове 185 г",
+      "product_name": "Бисквити ДО КАВИ различни видове",
       "price_eur": 0.65,
       "old_price_eur": 0.86,
-      "image_url": "https://pazarko.bg/api/brochure-images/TMarketBrochure_бисквити_до_кави_различни_видове_185_г_185г.jpg",
+      "image_url": "https://pazarko.bg/api/brochure-images/TMarketBrochure_бисквити_до_кави_различни_видове_185г.jpg",
       "store": "TMarket",
       "db_sub_category": "Снаксове и сладки изкушения",
       "_pazarko_store": "TMarket"
     },
     {
-      "product_name": "Бишкоти SAVOIARDI с 26% яйца 400 г",
-      "price_eur": 2.19,
-      "old_price_eur": 2.5,
-      "image_url": "https://pazarko.bg/api/brochure-images/TMarketBrochure_бишкоти_savoiardi_с_26_яйца_400_г_400г.jpg",
+      "product_name": "Бонбони BONNY FRUIT различни видове",
+      "price_eur": 0.89,
+      "old_price_eur": 1.04,
+      "image_url": "https://pazarko.bg/api/brochure-images/TMarketBrochure_бонбони_bonny_fruit_различни_видове_200г.jpg",
       "store": "TMarket",
       "db_sub_category": "Снаксове и сладки изкушения",
       "_pazarko_store": "TMarket"
     },
     {
-      "product_name": "Боб FIORRE Добруджанка",
-      "price_eur": 1.29,
-      "old_price_eur": 1.73,
-      "image_url": "https://pazarko.bg/api/brochure-images/TMarketBrochure_боб_fiorre_добруджанка_500г.jpg",
+      "product_name": "Бонбони MERCI различни видове",
+      "price_eur": 4.89,
+      "old_price_eur": 5.56,
+      "image_url": "https://pazarko.bg/api/brochure-images/TMarketBrochure_бонбони_merci_различни_видове_250г.jpg",
+      "store": "TMarket",
+      "db_sub_category": "Снаксове и сладки изкушения",
+      "_pazarko_store": "TMarket"
+    },
+    {
+      "product_name": "Бонбониера ROSHEN Assortment различни видове",
+      "price_eur": 2.49,
+      "old_price_eur": 3.48,
+      "image_url": "https://pazarko.bg/api/brochure-images/TMarketBrochure_бонбониера_roshen_assortment_различни_видове_145_154г.jpg",
+      "store": "TMarket",
+      "db_sub_category": "Снаксове и сладки изкушения",
+      "_pazarko_store": "TMarket"
+    },
+    {
+      "product_name": "Брашно СОФИЯ МЕЛ Екстра",
+      "price_eur": 0.95,
+      "old_price_eur": 1.15,
+      "image_url": "https://pazarko.bg/api/brochure-images/TMarketBrochure_брашно_софия_мел_екстра_1кг.jpg",
       "store": "TMarket",
       "db_sub_category": "Основни храни",
       "_pazarko_store": "TMarket"
     },
     {
-      "product_name": "Бонбони RAFFAELLO",
-      "price_eur": 4.59,
-      "old_price_eur": 5.14,
-      "image_url": "https://pazarko.bg/api/brochure-images/TMarketBrochure_бонбони_raffaello_230г.jpg",
+      "product_name": "Българска царевица бр.",
+      "price_eur": 0.35,
+      "old_price_eur": null,
+      "image_url": "https://pazarko.bg/api/brochure-images/TMarketBrochure_българска_царевица_бр_бр.jpg",
       "store": "TMarket",
-      "db_sub_category": "Снаксове и сладки изкушения",
+      "db_sub_category": "Плодове и зеленчуци",
       "_pazarko_store": "TMarket"
     },
     {
-      "product_name": "Бонбони TOFFIFEE",
-      "price_eur": 2.69,
-      "old_price_eur": 3.03,
-      "image_url": "https://pazarko.bg/api/brochure-images/TMarketBrochure_бонбони_toffifee_200г.jpg",
-      "store": "TMarket",
-      "db_sub_category": "Снаксове и сладки изкушения",
-      "_pazarko_store": "TMarket"
-    },
-    {
-      "product_name": "Бонбониера ROSHEN асорти",
-      "price_eur": 3.59,
-      "old_price_eur": 5.21,
-      "image_url": "https://pazarko.bg/api/brochure-images/TMarketBrochure_бонбониера_roshen_асорти_194г.jpg",
-      "store": "TMarket",
-      "db_sub_category": "Снаксове и сладки изкушения",
-      "_pazarko_store": "TMarket"
-    },
-    {
-      "product_name": "Брашно СИМИД екстра",
-      "price_eur": 0.69,
-      "old_price_eur": 0.97,
-      "image_url": "https://pazarko.bg/api/brochure-images/TMarketBrochure_брашно_симид_екстра_1кг.jpg",
-      "store": "TMarket",
-      "db_sub_category": "Основни храни",
-      "_pazarko_store": "TMarket"
-    },
-    {
-      "product_name": "Българска царевица",
+      "product_name": "Български картофи четвъртини",
       "price_eur": 0.45,
       "old_price_eur": null,
-      "image_url": "https://pazarko.bg/api/brochure-images/TMarketBrochure_българска_царевица_1кг.jpg",
+      "image_url": "https://pazarko.bg/api/brochure-images/TMarketBrochure_български_картофи_четвъртини_кг.jpg",
       "store": "TMarket",
       "db_sub_category": "Плодове и зеленчуци",
       "_pazarko_store": "TMarket"
     },
     {
-      "product_name": "Български картофи четкани",
-      "price_eur": 0.49,
-      "old_price_eur": 0.66,
-      "image_url": "https://pazarko.bg/api/brochure-images/TMarketBrochure_български_картофи_четкани_1кг.jpg",
-      "store": "TMarket",
-      "db_sub_category": "Плодове и зеленчуци",
-      "_pazarko_store": "TMarket"
-    },
-    {
-      "product_name": "Български краставици",
-      "price_eur": 1.49,
+      "product_name": "Български краставици кг",
+      "price_eur": 1.19,
       "old_price_eur": null,
-      "image_url": "https://pazarko.bg/api/brochure-images/TMarketBrochure_български_краставици_1кг.jpg",
+      "image_url": "https://pazarko.bg/api/brochure-images/TMarketBrochure_български_краставици_кг_кг.jpg",
       "store": "TMarket",
       "db_sub_category": "Плодове и зеленчуци",
       "_pazarko_store": "TMarket"
     },
     {
-      "product_name": "Български люти чушки сорт Рибка",
-      "price_eur": 1.79,
+      "product_name": "Български сливи кг",
+      "price_eur": 0.99,
       "old_price_eur": null,
-      "image_url": "https://pazarko.bg/api/brochure-images/TMarketBrochure_български_люти_чушки_сорт_рибка_1кг.jpg",
+      "image_url": "https://pazarko.bg/api/brochure-images/TMarketBrochure_български_сливи_кг_кг.jpg",
       "store": "TMarket",
       "db_sub_category": "Плодове и зеленчуци",
       "_pazarko_store": "TMarket"
     },
     {
-      "product_name": "Български червен лук",
+      "product_name": "Български червен лук кг",
       "price_eur": 0.79,
       "old_price_eur": null,
-      "image_url": "https://pazarko.bg/api/brochure-images/TMarketBrochure_български_червен_лук_1кг.jpg",
+      "image_url": "https://pazarko.bg/api/brochure-images/TMarketBrochure_български_червен_лук_кг_кг.jpg",
       "store": "TMarket",
       "db_sub_category": "Плодове и зеленчуци",
       "_pazarko_store": "TMarket"
     },
     {
-      "product_name": "Бърбън JIM BEAM 40%, 700 мл",
-      "price_eur": 9.99,
-      "old_price_eur": 16.79,
-      "image_url": "https://pazarko.bg/api/brochure-images/TMarketBrochure_бърбън_jim_beam_40_700_мл_700мл.jpg",
+      "product_name": "Българско зеле кг",
+      "price_eur": 0.59,
+      "old_price_eur": null,
+      "image_url": "https://pazarko.bg/api/brochure-images/TMarketBrochure_българско_зеле_кг_кг.jpg",
+      "store": "TMarket",
+      "db_sub_category": "Плодове и зеленчуци",
+      "_pazarko_store": "TMarket"
+    },
+    {
+      "product_name": "Бърбън JIM BEAM 40%, 1 л",
+      "price_eur": 13.79,
+      "old_price_eur": 20.24,
+      "image_url": "https://pazarko.bg/api/brochure-images/TMarketBrochure_бърбън_jim_beam_40_1_л_1л.jpg",
       "store": "TMarket",
       "db_sub_category": "Вино и алкохол",
+      "_pazarko_store": "TMarket"
+    },
+    {
+      "product_name": "Бяло грозде кг",
+      "price_eur": 1.99,
+      "old_price_eur": null,
+      "image_url": "https://pazarko.bg/api/brochure-images/TMarketBrochure_бяло_грозде_кг_кг.jpg",
+      "store": "TMarket",
+      "db_sub_category": "Плодове и зеленчуци",
+      "_pazarko_store": "TMarket"
+    },
+    {
+      "product_name": "Бяло саламурено сирене ДОН ЧЕПЕЛАРЕ",
+      "price_eur": 6.19,
+      "old_price_eur": 7.82,
+      "image_url": "https://pazarko.bg/api/brochure-images/TMarketBrochure_бяло_саламурено_сирене_дон_чепеларе_кг.jpg",
+      "store": "TMarket",
+      "db_sub_category": "Мляко и Млечни продукти",
+      "_pazarko_store": "TMarket"
+    },
+    {
+      "product_name": "Вафла МОРЕНИ maxx",
+      "price_eur": 0.39,
+      "old_price_eur": 0.59,
+      "image_url": "https://pazarko.bg/api/brochure-images/TMarketBrochure_вафла_морени_maxx_49г.jpg",
+      "store": "TMarket",
+      "db_sub_category": "Снаксове и сладки изкушения",
       "_pazarko_store": "TMarket"
     },
     {
@@ -588,17 +588,17 @@
     },
     {
       "product_name": "1.288Л=56ПР ОМЕК.COCC.",
-      "price_eur": 3.49,
-      "old_price_eur": 5.99,
-      "image_url": "https://cdn.metro-group.com/bg/bg_pim_355441001001_01.png?format=jpg&quality=80&dpi=72",
+      "price_eur": 5.99,
+      "old_price_eur": null,
+      "image_url": "https://cdn.metro-group.com/bg/bg_pim_355441003001_01.png?format=jpg&quality=80&dpi=72",
       "store": "Metro",
       "db_sub_category": "Пране и гладене",
       "_pazarko_store": "Metro"
     },
     {
       "product_name": "1.350Л ПРЕП/СЪДОВЕ CHAM&VITE",
-      "price_eur": 4.44,
-      "old_price_eur": null,
+      "price_eur": 3.56,
+      "old_price_eur": 4.44,
       "image_url": "https://cdn.metro-group.com/bg/bg_pim_355452001001_01.png?format=jpg&quality=80&dpi=72",
       "store": "Metro",
       "db_sub_category": "Почистване",
@@ -606,8 +606,8 @@
     },
     {
       "product_name": "1.403Л=61ПР ОМЕК.COCC.",
-      "price_eur": 3.49,
-      "old_price_eur": 5.99,
+      "price_eur": 5.99,
+      "old_price_eur": null,
       "image_url": "https://cdn.metro-group.com/bg/bg_pim_355440001001_01.png?format=jpg&quality=80&dpi=72",
       "store": "Metro",
       "db_sub_category": "Пране и гладене",
@@ -668,15 +668,6 @@
       "_pazarko_store": "Metro"
     },
     {
-      "product_name": "100гр Бейби Спанак",
-      "price_eur": 1.36,
-      "old_price_eur": null,
-      "image_url": "https://cdn.metro-group.com/bg/bg_pim_181142001001_01.png?format=jpg&quality=80&dpi=72",
-      "store": "Metro",
-      "db_sub_category": "Плодове и зеленчуци",
-      "_pazarko_store": "Metro"
-    },
-    {
       "product_name": "100гр. Бисквити Бътерфлай Кембли / Kambly",
       "price_eur": 3.06,
       "old_price_eur": null,
@@ -714,9 +705,18 @@
     },
     {
       "product_name": "1100МЛ БОЧКО ТЕЧ.ПЕР.ПРЕП",
-      "price_eur": 7.78,
-      "old_price_eur": null,
+      "price_eur": 5.78,
+      "old_price_eur": 7.78,
       "image_url": "https://cdn.metro-group.com/bg/bg_pim_356140001001_01.png?format=jpg&quality=80&dpi=72",
+      "store": "Metro",
+      "db_sub_category": "Пране и гладене",
+      "_pazarko_store": "Metro"
+    },
+    {
+      "product_name": "120БР PERSIL DISCS COLOR",
+      "price_eur": 33.44,
+      "old_price_eur": null,
+      "image_url": "https://cdn.metro-group.com/bg/bg_pim_355954001001_01.png?format=jpg&quality=80&dpi=72",
       "store": "Metro",
       "db_sub_category": "Пране и гладене",
       "_pazarko_store": "Metro"
@@ -767,9 +767,18 @@
       "_pazarko_store": "Metro"
     },
     {
+      "product_name": "150Г ПЮРЕ ОТ АВОКАДО MC",
+      "price_eur": 1.2,
+      "old_price_eur": null,
+      "image_url": "https://cdn.metro-group.com/bg/bg_pim_355585001001_01.png?format=jpg&quality=80&dpi=72",
+      "store": "Metro",
+      "db_sub_category": "Плодове и зеленчуци",
+      "_pazarko_store": "Metro"
+    },
+    {
       "product_name": "16КГ=200ПР ПР.ПРАНЕ SAVEX FRЕSH",
-      "price_eur": 25.99,
-      "old_price_eur": 32.99,
+      "price_eur": 32.99,
+      "old_price_eur": null,
       "image_url": "https://cdn.metro-group.com/bg/bg_pim_355716001001_01.png?format=jpg&quality=80&dpi=72",
       "store": "Metro",
       "db_sub_category": "Пране и гладене",
@@ -788,7 +797,7 @@
       "product_name": "1Л Ш-Н SCHAUMA",
       "price_eur": 6.98,
       "old_price_eur": null,
-      "image_url": "https://cdn.metro-group.com/bg/bg_pim_356224002001_01.png?format=jpg&quality=80&dpi=72",
+      "image_url": "https://cdn.metro-group.com/bg/bg_pim_356224001001_01.png?format=jpg&quality=80&dpi=72",
       "store": "Metro",
       "db_sub_category": "Некатегоризирано",
       "_pazarko_store": "Metro"
@@ -803,13 +812,22 @@
       "_pazarko_store": "Metro"
     },
     {
-      "product_name": "1бр Чаша за Крем Карамел 200мл Horecano",
-      "price_eur": 1.79,
+      "product_name": "10-годишно бяло вино Tcherga 750мл",
+      "price_eur": 11.07,
       "old_price_eur": null,
-      "image_url": "https://cdn.metro-group.com/bg/bg_pim_184447001001_01.png?format=jpg&quality=80&dpi=72",
-      "store": "Metro",
-      "db_sub_category": "Кухненски помощници",
-      "_pazarko_store": "Metro"
+      "image_url": "https://api.bulmag.org/thumbnails/ef3c2ef99b89a22778e745e4dbf6ac14.jpg",
+      "store": "BulMag",
+      "db_sub_category": "Вино и алкохол",
+      "_pazarko_store": "BulMag"
+    },
+    {
+      "product_name": "10-годишно сюрприз бренди Квит 500мл",
+      "price_eur": 19.9,
+      "old_price_eur": null,
+      "image_url": "https://api.bulmag.org/thumbnails/98aa5c36e8090c67fe74a45b4fbad712.jpg",
+      "store": "BulMag",
+      "db_sub_category": "Вино и алкохол",
+      "_pazarko_store": "BulMag"
     },
     {
       "product_name": "10-годишно червено вино Tcherga 750мл",
@@ -839,12 +857,12 @@
       "_pazarko_store": "BulMag"
     },
     {
-      "product_name": "1001 лепенки - Пес патрул",
-      "price_eur": 6.6,
+      "product_name": "100% Ръжен хляб Рехе 390гр",
+      "price_eur": 1.79,
       "old_price_eur": null,
-      "image_url": "https://api.bulmag.org/thumbnails/621a133b711bd8b84f2e27745c95e1a1.jpeg",
+      "image_url": "https://api.bulmag.org/thumbnails/3b1ce3557eb4941854f07fc09bbb156f.png",
       "store": "BulMag",
-      "db_sub_category": "Бебе, дете и играчки",
+      "db_sub_category": "Хляб и тестени изделия",
       "_pazarko_store": "BulMag"
     },
     {
@@ -854,6 +872,15 @@
       "image_url": "https://api.bulmag.org/thumbnails/49eeb112b593993524fc7c27263171a0.png",
       "store": "BulMag",
       "db_sub_category": "Фитнес",
+      "_pazarko_store": "BulMag"
+    },
+    {
+      "product_name": "15-годишно бренди Gremi 0.7л",
+      "price_eur": 30.63,
+      "old_price_eur": null,
+      "image_url": "https://api.bulmag.org/thumbnails/3aaa2ca291dfe0edf86b4569c7d70583.png",
+      "store": "BulMag",
+      "db_sub_category": "Вино и алкохол",
       "_pazarko_store": "BulMag"
     },
     {
@@ -902,19 +929,37 @@
       "_pazarko_store": "BulMag"
     },
     {
-      "product_name": "365 образователни игри 6+",
+      "product_name": "365 образователни игри 4+",
       "price_eur": 9.2,
       "old_price_eur": null,
-      "image_url": "https://api.bulmag.org/thumbnails/478451233e6469999ef05699e26fa9f8.jpeg",
+      "image_url": "https://api.bulmag.org/thumbnails/f240f5cdbd5a66a79a55d6d6a5066b9b.png",
       "store": "BulMag",
       "db_sub_category": "Бебе, дете и играчки",
       "_pazarko_store": "BulMag"
     },
     {
-      "product_name": "5-минутни истории за принцеси",
-      "price_eur": 15.29,
+      "product_name": "5-минутни приказки за лека нощ/пан/",
+      "price_eur": 8.64,
       "old_price_eur": null,
-      "image_url": "https://api.bulmag.org/thumbnails/52a7a63e4ee178cab4e75534801dadb1.jpeg",
+      "image_url": "https://api.bulmag.org/thumbnails/39f30a7bcbcfeabf82239c968a107ae4.png",
+      "store": "BulMag",
+      "db_sub_category": "Бебе, дете и играчки",
+      "_pazarko_store": "BulMag"
+    },
+    {
+      "product_name": "5-минутни приказки на баба",
+      "price_eur": 12.22,
+      "old_price_eur": null,
+      "image_url": "https://api.bulmag.org/thumbnails/6e68408ce7c32d40fc5c1bb762f357a2.jpeg",
+      "store": "BulMag",
+      "db_sub_category": "Бебе, дете и играчки",
+      "_pazarko_store": "BulMag"
+    },
+    {
+      "product_name": "5-минутни приказки на баба 7.65",
+      "price_eur": 7.65,
+      "old_price_eur": null,
+      "image_url": "https://api.bulmag.org/thumbnails/247e8e5b895268f95239ed50cee861bf.png",
       "store": "BulMag",
       "db_sub_category": "Бебе, дете и играчки",
       "_pazarko_store": "BulMag"
@@ -965,9 +1010,18 @@
       "_pazarko_store": "BulMag"
     },
     {
-      "product_name": "Adventuros Nuggets куче глиган. месо 90гр",
-      "price_eur": 2.01,
+      "product_name": "5минутни приказки за принцове,принцеси",
+      "price_eur": 8.64,
       "old_price_eur": null,
+      "image_url": "https://api.bulmag.org/thumbnails/5f5bea9fc3c89058d4fd367fb996245e.png",
+      "store": "BulMag",
+      "db_sub_category": "Бебе, дете и играчки",
+      "_pazarko_store": "BulMag"
+    },
+    {
+      "product_name": "Adventuros Nuggets куче глиган. месо 90гр",
+      "price_eur": 1.71,
+      "old_price_eur": 2.01,
       "image_url": "https://api.bulmag.org/thumbnails/d3397b63067e296d89003bcaf86b1bba.png",
       "store": "BulMag",
       "db_sub_category": "За домашните любимци",
@@ -975,8 +1029,8 @@
     },
     {
       "product_name": "Adventuros куче ленти елен. месо 90гр",
-      "price_eur": 2.01,
-      "old_price_eur": null,
+      "price_eur": 1.71,
+      "old_price_eur": 2.01,
       "image_url": "https://api.bulmag.org/thumbnails/fbcd8ed377e335284644b1ed190a3f7f.png",
       "store": "BulMag",
       "db_sub_category": "За домашните любимци",
@@ -984,20 +1038,11 @@
     },
     {
       "product_name": "Adventuros куче пръч. биволско месо 120гр",
-      "price_eur": 2.01,
-      "old_price_eur": null,
+      "price_eur": 1.71,
+      "old_price_eur": 2.01,
       "image_url": "https://api.bulmag.org/thumbnails/3d656e18935ac92f50c8aa44aa390d8f.png",
       "store": "BulMag",
       "db_sub_category": "За домашните любимци",
-      "_pazarko_store": "BulMag"
-    },
-    {
-      "product_name": "Air Fryer подл.харт.на дупки кр. Ф18/100бр",
-      "price_eur": 1.81,
-      "old_price_eur": null,
-      "image_url": "https://api.bulmag.org/thumbnails/542b4bfb0cbd3d20915ab943738d449a.jpeg",
-      "store": "BulMag",
-      "db_sub_category": "Кухненски помощници",
       "_pazarko_store": "BulMag"
     },
     {
@@ -1019,64 +1064,19 @@
       "_pazarko_store": "BulMag"
     },
     {
-      "product_name": "Air wick ел. компл.божур/жасмин 19мл",
-      "price_eur": 6.62,
-      "old_price_eur": 7.23,
-      "image_url": "https://api.bulmag.org/thumbnails/96439490601f7491929a616906637528.png",
-      "store": "BulMag",
-      "db_sub_category": "Почистване",
-      "_pazarko_store": "BulMag"
-    },
-    {
-      "product_name": "Air wick ел. компл.кедър/евкалипт 19мл",
-      "price_eur": 6.62,
-      "old_price_eur": 7.23,
-      "image_url": "https://api.bulmag.org/thumbnails/d84f13fd05d3142bc99ac3e828e9d5a6.png",
-      "store": "BulMag",
-      "db_sub_category": "Почистване",
-      "_pazarko_store": "BulMag"
-    },
-    {
-      "product_name": "Air wick ел. пълн.лавандула/камбанки 19мл",
-      "price_eur": 6.71,
+      "product_name": "Air wick акт.фреш пълн.бяла орхидея 228мл",
+      "price_eur": 7.23,
       "old_price_eur": null,
-      "image_url": "https://api.bulmag.org/thumbnails/48cc5ff28ef7742caa0fe85e286ac291.png",
+      "image_url": "https://api.bulmag.org/thumbnails/dfd2f86b028077d5d56786aa2b24b6e3.png",
       "store": "BulMag",
       "db_sub_category": "Почистване",
       "_pazarko_store": "BulMag"
     },
     {
-      "product_name": "Air wick ел.компл.лавандула 19мл",
-      "price_eur": 6.62,
-      "old_price_eur": 7.23,
-      "image_url": "https://api.bulmag.org/thumbnails/cfee45c773e2f432ea126cd131882ee5.png",
-      "store": "BulMag",
-      "db_sub_category": "Почистване",
-      "_pazarko_store": "BulMag"
-    },
-    {
-      "product_name": "Air wick ел.пълн. ванилия/масло ший 19мл",
-      "price_eur": 6.71,
+      "product_name": "Air wick ел.пъл.дуо л.магия/сатен 2брх19мл",
+      "price_eur": 11.11,
       "old_price_eur": null,
-      "image_url": "https://api.bulmag.org/thumbnails/1678cba6b6bff43cf2b87f2930868a67.png",
-      "store": "BulMag",
-      "db_sub_category": "Почистване",
-      "_pazarko_store": "BulMag"
-    },
-    {
-      "product_name": "Air wick ел.пълн.кедър/евкалипт 19мл",
-      "price_eur": 6.71,
-      "old_price_eur": null,
-      "image_url": "https://api.bulmag.org/thumbnails/76c95cd68cd6a1fbc702d753af074246.png",
-      "store": "BulMag",
-      "db_sub_category": "Почистване",
-      "_pazarko_store": "BulMag"
-    },
-    {
-      "product_name": "Air wick ел.пълн.цвят череши/малини 19мл",
-      "price_eur": 6.71,
-      "old_price_eur": null,
-      "image_url": "https://api.bulmag.org/thumbnails/5157a3a4c7b56298bb7a3fb64574bb1b.png",
+      "image_url": "https://api.bulmag.org/thumbnails/b15442cf762365e7725b16d60ee99d61.png",
       "store": "BulMag",
       "db_sub_category": "Почистване",
       "_pazarko_store": "BulMag"
