@@ -1,8 +1,8 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-09-14T10:15:50.912940Z",
-  "content_hash": "776454343c9852ffdf36a46d4aafb730",
-  "total_offers": 3963,
-  "promo_offers": 1089,
+  "generated_at": "2026-09-14T12:31:03.734527Z",
+  "content_hash": "af71bb49059791b5c69bc6bc4c5f85da",
+  "total_offers": 3962,
+  "promo_offers": 1088,
   "assortment_offers": 2874,
   "stores": [
     "Billa",
@@ -1729,81 +1729,6 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 3,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 1.99,
-      "new_price_eur": 1.02,
-      "old_price": 2.25,
-      "old_price_eur": 1.15,
-      "discount_pct": 12,
-      "valid_from": "2026-09-14",
-      "valid_until": "2026-09-20",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 1.99,
-          "price_eur": 1.02,
-          "old_price": 2.25,
-          "old_price_eur": 1.15,
-          "discount_pct": 12,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 1.99,
-      "comparison_count": 1,
-      "product_id": "kaufland-яица-размер-s",
-      "name": "Яйца размер S",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20684181__P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "protein",
-      "emoji": "🍗",
-      "health_score": 9,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": true,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "diet_tags": [
-        "high_protein",
-        "keto",
-        "vegetarian"
-      ],
-      "macros": {
-        "kcal": 155,
-        "p": 13,
-        "f": 11,
-        "c": 1.1
-      },
-      "avg_price": 2.99,
-      "lowest_price": 1.99,
-      "lowest_price_date": "2026-09-14",
-      "price_history": [
-        [
-          "2026-09-10",
-          3.99,
-          null,
-          null
-        ],
-        [
-          "2026-09-14",
-          1.99,
-          2.25,
-          12
-        ]
-      ],
-      "price_seen_count": 2,
       "price_signal": "buy"
     },
     {
@@ -7564,11 +7489,11 @@ const OFFERS_DATA = {
     {
       "store": "Kaufland",
       "address": null,
-      "new_price": 2.99,
-      "new_price_eur": 1.53,
+      "new_price": 2.55,
+      "new_price_eur": 1.3,
       "old_price": 6.64,
       "old_price_eur": 3.39,
-      "discount_pct": 55,
+      "discount_pct": 62,
       "valid_from": "2026-09-14",
       "valid_until": "2026-09-20",
       "price_per_kg": null,
@@ -7580,16 +7505,16 @@ const OFFERS_DATA = {
       "store_prices": [
         {
           "store": "Kaufland",
-          "price": 2.99,
-          "price_eur": 1.53,
+          "price": 2.55,
+          "price_eur": 1.3,
           "old_price": 6.64,
           "old_price_eur": 3.39,
-          "discount_pct": 55,
+          "discount_pct": 62,
           "source_type": "promo"
         }
       ],
       "best_price_store": "Kaufland",
-      "best_price": 2.99,
+      "best_price": 2.55,
       "comparison_count": 1,
       "product_id": "kaufland-свинска-плешка-без-кост-до-5-кг-на-покупка",
       "name": "Свинска плешка без кост до 5 кг на покупка",
@@ -7663,7 +7588,7 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 7,
-      "price_signal": "good"
+      "price_signal": "buy"
     },
     {
       "store": "Kaufland",
