@@ -1,9 +1,9 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-09-24T17:37:37.483436Z",
-  "content_hash": "e11714d4d8a729607604524a5b406664",
-  "total_offers": 4060,
+  "generated_at": "2026-09-24T20:20:01.899446Z",
+  "content_hash": "11fdb8b35c6ea3a98e58473b1d65ea65",
+  "total_offers": 4063,
   "promo_offers": 1316,
-  "assortment_offers": 2744,
+  "assortment_offers": 2747,
   "stores": [
     "Billa",
     "Dar",
@@ -15597,6 +15597,69 @@ const OFFERS_DATA = {
         [
           "2026-04-20",
           4.6,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 4.99,
+      "new_price_eur": 2.55,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-09-14",
+      "valid_until": "2026-10-11",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 4.99,
+          "price_eur": 2.55,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 4.99,
+      "comparison_count": 1,
+      "product_id": "kaufland-каланхое-в-керамика-гъбка",
+      "name": "Каланхое в керамика гъбка",
+      "category": "vegetable",
+      "emoji": "🥦",
+      "health_score": 9,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 22,
+        "p": 3.1,
+        "f": 0.3,
+        "c": 3.3
+      },
+      "avg_price": 4.99,
+      "lowest_price": 4.99,
+      "lowest_price_date": "2026-09-20",
+      "price_history": [
+        [
+          "2026-09-20",
+          4.99,
           null,
           null
         ]
@@ -240197,6 +240260,75 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 5.65,
+      "new_price_eur": 2.89,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-09-14",
+      "valid_until": "2026-10-11",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 5.65,
+          "price_eur": 2.89,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 5.65,
+      "comparison_count": 1,
+      "product_id": "kaufland-лилиум-ø13-см",
+      "name": "Лилиум Ø13 см",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/175_09902371_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 9.19,
+      "lowest_price": 5.65,
+      "lowest_price_date": "2026-09-20",
+      "price_history": [
+        [
+          "2026-06-02",
+          10.99,
+          null,
+          null
+        ],
+        [
+          "2026-07-14",
+          10.93,
+          null,
+          null
+        ],
+        [
+          "2026-09-20",
+          5.65,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "buy"
+    },
+    {
       "store": "Fantastico",
       "address": null,
       "new_price": 5.75,
@@ -267902,6 +268034,69 @@ const OFFERS_DATA = {
         [
           "2026-08-24",
           13.59,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 13.69,
+      "new_price_eur": 7.0,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-09-14",
+      "valid_until": "2026-10-11",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 13.69,
+          "price_eur": 7.0,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 13.69,
+      "comparison_count": 1,
+      "product_id": "kaufland-бромелия-в-керамика",
+      "name": "Бромелия в керамика",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/174_00053383_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "drinks",
+      "emoji": "🍺",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 19.55,
+      "lowest_price": 13.69,
+      "lowest_price_date": "2026-09-20",
+      "price_history": [
+        [
+          "2026-08-04",
+          25.41,
+          null,
+          null
+        ],
+        [
+          "2026-09-20",
+          13.69,
           null,
           null
         ]
