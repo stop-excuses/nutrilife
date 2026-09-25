@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-25T09:31:45.889597Z",
-  "content_hash": "500673ceba0f8cf448a2213e5cabd0be",
-  "total_offers": 4059,
-  "promo_offers": 1317,
+  "generated_at": "2026-09-25T16:58:10.540965Z",
+  "content_hash": "1af7e323660c1c9846dfef4236bda792",
+  "total_offers": 4058,
+  "promo_offers": 1316,
   "assortment_offers": 2742,
   "stores": [
     "Billa",
@@ -158909,63 +158909,6 @@
       ],
       "price_seen_count": 4,
       "price_signal": "normal"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 0.89,
-      "new_price_eur": 0.46,
-      "old_price": 1.39,
-      "old_price_eur": 0.71,
-      "discount_pct": 36,
-      "valid_from": "2026-09-14",
-      "valid_until": "2026-10-11",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 0.89,
-          "price_eur": 0.46,
-          "old_price": 1.39,
-          "old_price_eur": 0.71,
-          "discount_pct": 36,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 0.89,
-      "comparison_count": 1,
-      "product_id": "kaufland-бреи-риган-бр",
-      "name": "Брей! Риган бр",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20729305_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 0.89,
-      "lowest_price": 0.89,
-      "lowest_price_date": "2026-09-20",
-      "price_history": [
-        [
-          "2026-09-20",
-          0.89,
-          1.39,
-          36
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
     },
     {
       "store": "Kaufland",
