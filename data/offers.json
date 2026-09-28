@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-28T10:43:52.373080Z",
-  "content_hash": "f4915c97e7d8fa0cf7f3431a4553292b",
-  "total_offers": 4202,
-  "promo_offers": 1451,
+  "generated_at": "2026-09-28T11:23:31.848149Z",
+  "content_hash": "191d16442ad7d6fd99a7209794e362f1",
+  "total_offers": 4201,
+  "promo_offers": 1450,
   "assortment_offers": 2751,
   "stores": [
     "Billa",
@@ -1864,116 +1864,6 @@
       ],
       "price_seen_count": 3,
       "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 1.89,
-      "new_price_eur": 0.97,
-      "old_price": 3.06,
-      "old_price_eur": 1.56,
-      "discount_pct": 38,
-      "valid_from": "2026-09-14",
-      "valid_until": "2026-10-11",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 1.89,
-          "price_eur": 0.97,
-          "old_price": 3.06,
-          "old_price_eur": 1.56,
-          "discount_pct": 38,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 1.89,
-      "comparison_count": 1,
-      "product_id": "kaufland-пилешко-бутче",
-      "name": "Пилешко бутче",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/01000431_A?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "protein",
-      "emoji": "🍗",
-      "health_score": 9,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": true,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "diet_tags": [
-        "high_protein",
-        "keto"
-      ],
-      "macros": {
-        "kcal": 165,
-        "p": 31,
-        "f": 3.6,
-        "c": 0
-      },
-      "avg_price": 2.8,
-      "lowest_price": 1.65,
-      "lowest_price_date": "2026-08-17",
-      "price_history": [
-        [
-          "2026-04-14",
-          2.97,
-          5.98,
-          50
-        ],
-        [
-          "2026-04-20",
-          4.77,
-          5.98,
-          20
-        ],
-        [
-          "2026-06-18",
-          3.31,
-          5.98,
-          45
-        ],
-        [
-          "2026-06-22",
-          3.7,
-          5.98,
-          38
-        ],
-        [
-          "2026-08-17",
-          1.65,
-          3.06,
-          46
-        ],
-        [
-          "2026-08-31",
-          1.89,
-          3.06,
-          38
-        ],
-        [
-          "2026-09-03",
-          2.19,
-          3.06,
-          28
-        ],
-        [
-          "2026-09-14",
-          1.89,
-          3.06,
-          38
-        ]
-      ],
-      "price_seen_count": 8,
-      "price_signal": "good"
     },
     {
       "store": "Kaufland",
