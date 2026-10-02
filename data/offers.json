@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-02T10:25:44.197059Z",
-  "content_hash": "3bb312c13ba5cf77364de94776df64ba",
-  "total_offers": 4227,
-  "promo_offers": 1560,
-  "assortment_offers": 2667,
+  "generated_at": "2026-10-02T14:25:58.415267Z",
+  "content_hash": "c31c201594257c645e839661057a2023",
+  "total_offers": 4222,
+  "promo_offers": 1559,
+  "assortment_offers": 2663,
   "stores": [
     "Billa",
     "Dar",
@@ -149383,64 +149383,6 @@
       "price_signal": "normal"
     },
     {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 6.64,
-      "new_price_eur": 3.39,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-09-14",
-      "valid_until": "2026-10-11",
-      "price_per_kg": 6.64,
-      "price_per_kg_eur": 3.39,
-      "source_type": "assortment",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 6.64,
-          "price_eur": 3.39,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 6.64,
-      "comparison_count": 1,
-      "product_id": "kaufland-балканска-наденица-за-скара-от-нашата-витрина",
-      "name": "Балканска наденица за скара от нашата витрина",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00089335A_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "protein",
-      "emoji": "🍗",
-      "health_score": 3,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 6.64,
-      "lowest_price": 6.64,
-      "lowest_price_date": "2026-09-28",
-      "price_history": [
-        [
-          "2026-09-28",
-          6.64,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
       "store": "Dar",
       "address": null,
       "new_price": 6.79,
@@ -194615,8 +194557,8 @@
       "discount_pct": 29,
       "valid_from": "2026-09-14",
       "valid_until": "2026-10-11",
-      "price_per_kg": 5.47,
-      "price_per_kg_eur": 2.8,
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
       "source_type": "promo",
       "available_stores": [
         "Kaufland"
@@ -194635,9 +194577,7 @@
       "best_price_store": "Kaufland",
       "best_price": 2.19,
       "comparison_count": 1,
-      "product_id": "kaufland-къпани-кори-400g",
-      "weight_grams": 400,
-      "weight_raw": "400 г",
+      "product_id": "kaufland-къпани-кори",
       "name": "Къпани кори",
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800206530175_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
@@ -256429,75 +256369,6 @@
       "address": null,
       "new_price": 5.99,
       "new_price_eur": 3.06,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-09-14",
-      "valid_until": "2026-10-11",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 5.99,
-          "price_eur": 3.06,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 5.99,
-      "comparison_count": 1,
-      "product_id": "kaufland-букет-микс-40-см",
-      "name": "Букет микс 40 см",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00103841__20IMG_0091_20_281_29?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 9.8,
-      "lowest_price": 5.99,
-      "lowest_price_date": "2026-09-29",
-      "price_history": [
-        [
-          "2026-05-19",
-          11.68,
-          null,
-          null
-        ],
-        [
-          "2026-06-30",
-          11.72,
-          null,
-          null
-        ],
-        [
-          "2026-09-29",
-          5.99,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 5.99,
-      "new_price_eur": 3.06,
       "old_price": 9.71,
       "old_price_eur": 4.96,
       "discount_pct": 38,
@@ -263398,63 +263269,6 @@
       "address": null,
       "new_price": 6.99,
       "new_price_eur": 3.57,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-09-14",
-      "valid_until": "2026-10-11",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 6.99,
-          "price_eur": 3.57,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 6.99,
-      "comparison_count": 1,
-      "product_id": "kaufland-букет-рози-50-см",
-      "name": "Букет рози 50 см",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/IMG_0001?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 6.99,
-      "lowest_price": 6.99,
-      "lowest_price_date": "2026-09-29",
-      "price_history": [
-        [
-          "2026-09-29",
-          6.99,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 6.99,
-      "new_price_eur": 3.57,
       "old_price": 9.53,
       "old_price_eur": 4.87,
       "discount_pct": 27,
@@ -269668,69 +269482,6 @@
         ]
       ],
       "price_seen_count": 3,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 7.99,
-      "new_price_eur": 4.09,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-09-14",
-      "valid_until": "2026-10-11",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 7.99,
-          "price_eur": 4.09,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 7.99,
-      "comparison_count": 1,
-      "product_id": "kaufland-amadori-младо-петле",
-      "name": "Amadori Младо петле",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/2502253_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 11.81,
-      "lowest_price": 7.99,
-      "lowest_price_date": "2026-09-28",
-      "price_history": [
-        [
-          "2026-04-27",
-          15.63,
-          19.54,
-          20
-        ],
-        [
-          "2026-09-28",
-          7.99,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 2,
       "price_signal": "buy"
     },
     {
@@ -279349,107 +279100,6 @@
       "price_seen_count": 9,
       "price_signal": "normal",
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 11.0,
-      "new_price_eur": 5.62,
-      "old_price": 18.0,
-      "old_price_eur": 9.2,
-      "discount_pct": 39,
-      "valid_from": "2026-09-14",
-      "valid_until": "2026-10-11",
-      "price_per_kg": 22.0,
-      "price_per_kg_eur": 11.25,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 11.0,
-          "price_eur": 5.62,
-          "old_price": 18.0,
-          "old_price_eur": 9.2,
-          "discount_pct": 39,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 11.0,
-      "comparison_count": 1,
-      "product_id": "kaufland-загорка-бира-различни-видове-500g",
-      "weight_grams": 500,
-      "weight_raw": "0,5 л",
-      "name": "Загорка Бира различни видове",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/02300312_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
-      "category": "drinks",
-      "emoji": "🍺",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 4.4,
-      "lowest_price": 0.55,
-      "lowest_price_date": "2026-09-07",
-      "price_history": [
-        [
-          "2026-06-01",
-          5.46,
-          9.15,
-          40
-        ],
-        [
-          "2026-06-08",
-          1.08,
-          1.76,
-          39
-        ],
-        [
-          "2026-06-29",
-          5.46,
-          9.15,
-          40
-        ],
-        [
-          "2026-07-06",
-          1.08,
-          1.76,
-          39
-        ],
-        [
-          "2026-08-24",
-          10.0,
-          18.0,
-          44
-        ],
-        [
-          "2026-08-31",
-          2.79,
-          4.68,
-          40
-        ],
-        [
-          "2026-09-07",
-          0.55,
-          0.9,
-          39
-        ],
-        [
-          "2026-09-28",
-          11.0,
-          18.0,
-          39
-        ]
-      ],
-      "price_seen_count": 10,
-      "price_signal": "wait"
     },
     {
       "store": "Kaufland",
