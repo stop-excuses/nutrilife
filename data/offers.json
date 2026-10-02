@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-01T10:43:31.602563Z",
-  "content_hash": "27589e90534994bdb2c797eb0333d8aa",
-  "total_offers": 4226,
-  "promo_offers": 1557,
-  "assortment_offers": 2669,
+  "generated_at": "2026-10-02T10:25:44.197059Z",
+  "content_hash": "3bb312c13ba5cf77364de94776df64ba",
+  "total_offers": 4227,
+  "promo_offers": 1560,
+  "assortment_offers": 2667,
   "stores": [
     "Billa",
     "Dar",
@@ -2820,6 +2820,122 @@
       "price_signal": "buy"
     },
     {
+      "store": "Fantastico",
+      "address": null,
+      "new_price": 0.55,
+      "new_price_eur": 0.28,
+      "old_price": 0.74,
+      "old_price_eur": 0.38,
+      "discount_pct": 26,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 1.38,
+      "price_per_kg_eur": 0.71,
+      "source_type": "promo",
+      "available_stores": [
+        "Dar",
+        "Fantastico"
+      ],
+      "store_prices": [
+        {
+          "store": "Dar",
+          "price": 0.55,
+          "price_eur": 0.28,
+          "old_price": 0.74,
+          "old_price_eur": 0.38,
+          "discount_pct": 26,
+          "source_type": "promo"
+        },
+        {
+          "store": "Fantastico",
+          "price": 0.55,
+          "price_eur": 0.28,
+          "old_price": 0.74,
+          "old_price_eur": 0.38,
+          "discount_pct": 26,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Dar",
+      "best_price": 0.55,
+      "comparison_count": 2,
+      "product_id": "fantastico-боб-ф-вкус-червен-400-г-import-400g",
+      "weight_grams": 400,
+      "weight_raw": "400 г",
+      "name": "БОБ Ф ВКУС ЧЕРВЕН 400 Г IMPORT",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/5601474212743_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "legume",
+      "emoji": "🫘",
+      "health_score": 9,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": true,
+      "is_good_fat": false,
+      "is_bulk_worthy": true,
+      "is_long_lasting": true,
+      "diet_tags": [
+        "vegetarian",
+        "budget"
+      ],
+      "macros": {
+        "kcal": 139,
+        "p": 9,
+        "f": 0.5,
+        "c": 25
+      },
+      "avg_price": 0.69,
+      "lowest_price": 0.55,
+      "lowest_price_date": "2026-10-02",
+      "price_history": [
+        [
+          "2026-04-20",
+          0.79,
+          null,
+          null
+        ],
+        [
+          "2026-05-14",
+          0.59,
+          0.79,
+          25
+        ],
+        [
+          "2026-05-21",
+          0.79,
+          null,
+          null
+        ],
+        [
+          "2026-07-02",
+          0.59,
+          0.79,
+          25
+        ],
+        [
+          "2026-07-09",
+          0.79,
+          null,
+          null
+        ],
+        [
+          "2026-08-27",
+          0.74,
+          null,
+          null
+        ],
+        [
+          "2026-10-02",
+          0.55,
+          0.74,
+          26
+        ]
+      ],
+      "price_seen_count": 7,
+      "price_signal": "buy"
+    },
+    {
       "store": "Kaufland",
       "address": null,
       "new_price": 0.56,
@@ -3413,116 +3529,6 @@
         [
           "2026-08-27",
           0.67,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 6,
-      "price_signal": "normal"
-    },
-    {
-      "store": "Fantastico",
-      "address": null,
-      "new_price": 0.74,
-      "new_price_eur": 0.38,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 1.85,
-      "price_per_kg_eur": 0.95,
-      "source_type": "assortment",
-      "available_stores": [
-        "Dar",
-        "Fantastico"
-      ],
-      "store_prices": [
-        {
-          "store": "Dar",
-          "price": 0.74,
-          "price_eur": 0.38,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        },
-        {
-          "store": "Fantastico",
-          "price": 0.74,
-          "price_eur": 0.38,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Dar",
-      "best_price": 0.74,
-      "comparison_count": 2,
-      "product_id": "fantastico-боб-ф-вкус-червен-400-г-import-400g",
-      "weight_grams": 400,
-      "weight_raw": "400 г",
-      "name": "БОБ Ф ВКУС ЧЕРВЕН 400 Г IMPORT",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/5601474212743_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "legume",
-      "emoji": "🫘",
-      "health_score": 9,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": true,
-      "is_good_fat": false,
-      "is_bulk_worthy": true,
-      "is_long_lasting": true,
-      "diet_tags": [
-        "vegetarian",
-        "budget"
-      ],
-      "macros": {
-        "kcal": 139,
-        "p": 9,
-        "f": 0.5,
-        "c": 25
-      },
-      "avg_price": 0.71,
-      "lowest_price": 0.59,
-      "lowest_price_date": "2026-05-14",
-      "price_history": [
-        [
-          "2026-04-20",
-          0.79,
-          null,
-          null
-        ],
-        [
-          "2026-05-14",
-          0.59,
-          0.79,
-          25
-        ],
-        [
-          "2026-05-21",
-          0.79,
-          null,
-          null
-        ],
-        [
-          "2026-07-02",
-          0.59,
-          0.79,
-          25
-        ],
-        [
-          "2026-07-09",
-          0.79,
-          null,
-          null
-        ],
-        [
-          "2026-08-27",
-          0.74,
           null,
           null
         ]
@@ -12671,6 +12677,127 @@
       "address": null,
       "new_price": 2.49,
       "new_price_eur": 1.27,
+      "old_price": 3.24,
+      "old_price_eur": 1.66,
+      "discount_pct": 23,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Dar",
+        "Fantastico"
+      ],
+      "store_prices": [
+        {
+          "store": "Dar",
+          "price": 2.49,
+          "price_eur": 1.27,
+          "old_price": 3.24,
+          "old_price_eur": 1.66,
+          "discount_pct": 23,
+          "source_type": "promo"
+        },
+        {
+          "store": "Fantastico",
+          "price": 2.49,
+          "price_eur": 1.27,
+          "old_price": 3.24,
+          "old_price_eur": 1.66,
+          "discount_pct": 23,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Dar",
+      "best_price": 2.49,
+      "comparison_count": 2,
+      "product_id": "fantastico-яица-размер-m-10-бр-искам-яица-2-подово-отгл",
+      "name": "ЯЙЦА РАЗМЕР M 10 БР ИСКАМ ЯЙЦА 2 ПОДОВО ОТГЛ.",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20894355?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
+      "category": "protein",
+      "emoji": "🍗",
+      "health_score": 9,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": true,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "high_protein",
+        "keto",
+        "vegetarian"
+      ],
+      "macros": {
+        "kcal": 155,
+        "p": 13,
+        "f": 11,
+        "c": 1.1
+      },
+      "avg_price": 2.84,
+      "lowest_price": 2.29,
+      "lowest_price_date": "2026-07-09",
+      "price_history": [
+        [
+          "2026-07-16",
+          3.24,
+          null,
+          null
+        ],
+        [
+          "2026-07-23",
+          2.69,
+          3.24,
+          17
+        ],
+        [
+          "2026-08-06",
+          3.24,
+          null,
+          null
+        ],
+        [
+          "2026-09-03",
+          2.49,
+          3.24,
+          23
+        ],
+        [
+          "2026-09-10",
+          3.24,
+          null,
+          null
+        ],
+        [
+          "2026-09-17",
+          2.49,
+          3.24,
+          23
+        ],
+        [
+          "2026-09-24",
+          3.24,
+          null,
+          null
+        ],
+        [
+          "2026-10-02",
+          2.49,
+          3.24,
+          23
+        ]
+      ],
+      "price_seen_count": 11,
+      "price_signal": "good"
+    },
+    {
+      "store": "Fantastico",
+      "address": null,
+      "new_price": 2.49,
+      "new_price_eur": 1.27,
       "old_price": null,
       "old_price_eur": null,
       "discount_pct": null,
@@ -14551,127 +14678,6 @@
       ],
       "price_seen_count": 6,
       "price_signal": "buy"
-    },
-    {
-      "store": "Fantastico",
-      "address": null,
-      "new_price": 3.24,
-      "new_price_eur": 1.66,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Dar",
-        "Fantastico"
-      ],
-      "store_prices": [
-        {
-          "store": "Dar",
-          "price": 3.24,
-          "price_eur": 1.66,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        },
-        {
-          "store": "Fantastico",
-          "price": 3.24,
-          "price_eur": 1.66,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Dar",
-      "best_price": 3.24,
-      "comparison_count": 2,
-      "product_id": "fantastico-яица-размер-m-10-бр-искам-яица-2-подово-отгл",
-      "name": "ЯЙЦА РАЗМЕР M 10 БР ИСКАМ ЯЙЦА 2 ПОДОВО ОТГЛ.",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20894355?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
-      "category": "protein",
-      "emoji": "🍗",
-      "health_score": 9,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": true,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "diet_tags": [
-        "high_protein",
-        "keto",
-        "vegetarian"
-      ],
-      "macros": {
-        "kcal": 155,
-        "p": 13,
-        "f": 11,
-        "c": 1.1
-      },
-      "avg_price": 2.87,
-      "lowest_price": 2.29,
-      "lowest_price_date": "2026-07-09",
-      "price_history": [
-        [
-          "2026-07-09",
-          2.29,
-          3.24,
-          29
-        ],
-        [
-          "2026-07-16",
-          3.24,
-          null,
-          null
-        ],
-        [
-          "2026-07-23",
-          2.69,
-          3.24,
-          17
-        ],
-        [
-          "2026-08-06",
-          3.24,
-          null,
-          null
-        ],
-        [
-          "2026-09-03",
-          2.49,
-          3.24,
-          23
-        ],
-        [
-          "2026-09-10",
-          3.24,
-          null,
-          null
-        ],
-        [
-          "2026-09-17",
-          2.49,
-          3.24,
-          23
-        ],
-        [
-          "2026-09-24",
-          3.24,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 10,
-      "price_signal": "wait"
     },
     {
       "store": "Kaufland",
@@ -18824,6 +18830,88 @@
     {
       "store": "Fantastico",
       "address": null,
+      "new_price": 8.29,
+      "new_price_eur": 4.24,
+      "old_price": 10.96,
+      "old_price_eur": 5.6,
+      "discount_pct": 24,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 10.36,
+      "price_per_kg_eur": 5.3,
+      "source_type": "promo",
+      "available_stores": [
+        "Fantastico"
+      ],
+      "store_prices": [
+        {
+          "store": "Fantastico",
+          "price": 8.29,
+          "price_eur": 4.24,
+          "old_price": 10.96,
+          "old_price_eur": 5.6,
+          "discount_pct": 24,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Fantastico",
+      "best_price": 8.29,
+      "comparison_count": 1,
+      "product_id": "fantastico-сирене-краве-кърнаре-800-г-вакуум-farm-800g",
+      "weight_grams": 800,
+      "weight_raw": "800 г",
+      "name": "СИРЕНЕ КРАВЕ КЪРНАРЕ 800 Г ВАКУУМ FARM",
+      "image": "https://tmarketonline.bg/cdn/img/products/54609/balo-salamureno-sirene-verea-na-gramaz-6697cc85adf73.png?width=1920&height=1920&v=1777590002",
+      "category": "dairy",
+      "emoji": "🥛",
+      "health_score": 9,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "keto",
+        "vegetarian"
+      ],
+      "macros": {
+        "kcal": 264,
+        "p": 14,
+        "f": 22,
+        "c": 2
+      },
+      "avg_price": 10.28,
+      "lowest_price": 8.29,
+      "lowest_price_date": "2026-10-02",
+      "price_history": [
+        [
+          "2026-06-11",
+          11.59,
+          null,
+          null
+        ],
+        [
+          "2026-08-27",
+          10.96,
+          null,
+          null
+        ],
+        [
+          "2026-10-02",
+          8.29,
+          10.96,
+          24
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Fantastico",
+      "address": null,
       "new_price": 8.49,
       "new_price_eur": 4.34,
       "old_price": null,
@@ -19386,82 +19474,6 @@
       ],
       "price_seen_count": 5,
       "price_signal": "normal"
-    },
-    {
-      "store": "Fantastico",
-      "address": null,
-      "new_price": 10.96,
-      "new_price_eur": 5.6,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 13.7,
-      "price_per_kg_eur": 7.0,
-      "source_type": "assortment",
-      "available_stores": [
-        "Fantastico"
-      ],
-      "store_prices": [
-        {
-          "store": "Fantastico",
-          "price": 10.96,
-          "price_eur": 5.6,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Fantastico",
-      "best_price": 10.96,
-      "comparison_count": 1,
-      "product_id": "fantastico-сирене-краве-кърнаре-800-г-вакуум-farm-800g",
-      "weight_grams": 800,
-      "weight_raw": "800 г",
-      "name": "СИРЕНЕ КРАВЕ КЪРНАРЕ 800 Г ВАКУУМ FARM",
-      "image": "https://tmarketonline.bg/cdn/img/products/54609/balo-salamureno-sirene-verea-na-gramaz-6697cc85adf73.png?width=1920&height=1920&v=1777590002",
-      "category": "dairy",
-      "emoji": "🥛",
-      "health_score": 9,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "diet_tags": [
-        "keto",
-        "vegetarian"
-      ],
-      "macros": {
-        "kcal": 264,
-        "p": 14,
-        "f": 22,
-        "c": 2
-      },
-      "avg_price": 11.28,
-      "lowest_price": 10.96,
-      "lowest_price_date": "2026-08-27",
-      "price_history": [
-        [
-          "2026-06-11",
-          11.59,
-          null,
-          null
-        ],
-        [
-          "2026-08-27",
-          10.96,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
     },
     {
       "store": "Fantastico",
@@ -89388,6 +89400,127 @@
       "address": null,
       "new_price": 1.49,
       "new_price_eur": 0.76,
+      "old_price": 1.68,
+      "old_price_eur": 0.86,
+      "discount_pct": 11,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 1.49,
+      "price_per_kg_eur": 0.76,
+      "source_type": "promo",
+      "available_stores": [
+        "Dar",
+        "Fantastico"
+      ],
+      "store_prices": [
+        {
+          "store": "Dar",
+          "price": 1.49,
+          "price_eur": 0.76,
+          "old_price": 1.68,
+          "old_price_eur": 0.86,
+          "discount_pct": 11,
+          "source_type": "promo"
+        },
+        {
+          "store": "Fantastico",
+          "price": 1.49,
+          "price_eur": 0.76,
+          "old_price": 1.68,
+          "old_price_eur": 0.86,
+          "discount_pct": 11,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Dar",
+      "best_price": 1.49,
+      "comparison_count": 2,
+      "product_id": "fantastico-олио-слънчогледово-ф-вкус-1-л-рет-1000g",
+      "weight_grams": 1000,
+      "weight_raw": "1 л",
+      "name": "ОЛИО СЛЪНЧОГЛЕДОВО Ф ВКУС 1 Л РЕТ",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00039341_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
+      "category": "fat",
+      "emoji": "🫒",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": true,
+      "is_long_lasting": true,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 584,
+        "p": 21,
+        "f": 51,
+        "c": 20
+      },
+      "avg_price": 1.55,
+      "lowest_price": 1.29,
+      "lowest_price_date": "2026-05-16",
+      "price_history": [
+        [
+          "2026-06-18",
+          1.68,
+          null,
+          null
+        ],
+        [
+          "2026-06-25",
+          1.49,
+          1.68,
+          11
+        ],
+        [
+          "2026-07-02",
+          1.68,
+          null,
+          null
+        ],
+        [
+          "2026-09-04",
+          1.49,
+          1.68,
+          11
+        ],
+        [
+          "2026-09-10",
+          1.68,
+          null,
+          null
+        ],
+        [
+          "2026-09-18",
+          1.49,
+          1.68,
+          11
+        ],
+        [
+          "2026-09-24",
+          1.68,
+          null,
+          null
+        ],
+        [
+          "2026-10-02",
+          1.49,
+          1.68,
+          11
+        ]
+      ],
+      "price_seen_count": 12,
+      "price_signal": "normal"
+    },
+    {
+      "store": "Fantastico",
+      "address": null,
+      "new_price": 1.49,
+      "new_price_eur": 0.76,
       "old_price": 1.73,
       "old_price_eur": 0.88,
       "discount_pct": 14,
@@ -92126,127 +92259,6 @@
         ]
       ],
       "price_seen_count": 6,
-      "price_signal": "normal"
-    },
-    {
-      "store": "Fantastico",
-      "address": null,
-      "new_price": 1.68,
-      "new_price_eur": 0.86,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 1.68,
-      "price_per_kg_eur": 0.86,
-      "source_type": "assortment",
-      "available_stores": [
-        "Dar",
-        "Fantastico"
-      ],
-      "store_prices": [
-        {
-          "store": "Dar",
-          "price": 1.68,
-          "price_eur": 0.86,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        },
-        {
-          "store": "Fantastico",
-          "price": 1.68,
-          "price_eur": 0.86,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Dar",
-      "best_price": 1.68,
-      "comparison_count": 2,
-      "product_id": "fantastico-олио-слънчогледово-ф-вкус-1-л-рет-1000g",
-      "weight_grams": 1000,
-      "weight_raw": "1 л",
-      "name": "ОЛИО СЛЪНЧОГЛЕДОВО Ф ВКУС 1 Л РЕТ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00039341_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
-      "category": "fat",
-      "emoji": "🫒",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": true,
-      "is_long_lasting": true,
-      "diet_tags": [
-        "budget"
-      ],
-      "macros": {
-        "kcal": 584,
-        "p": 21,
-        "f": 51,
-        "c": 20
-      },
-      "avg_price": 1.56,
-      "lowest_price": 1.29,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-06-12",
-          1.29,
-          1.68,
-          23
-        ],
-        [
-          "2026-06-18",
-          1.68,
-          null,
-          null
-        ],
-        [
-          "2026-06-25",
-          1.49,
-          1.68,
-          11
-        ],
-        [
-          "2026-07-02",
-          1.68,
-          null,
-          null
-        ],
-        [
-          "2026-09-04",
-          1.49,
-          1.68,
-          11
-        ],
-        [
-          "2026-09-10",
-          1.68,
-          null,
-          null
-        ],
-        [
-          "2026-09-18",
-          1.49,
-          1.68,
-          11
-        ],
-        [
-          "2026-09-24",
-          1.68,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 11,
       "price_signal": "normal"
     },
     {
@@ -149629,6 +149641,64 @@
       "price_signal": "wait"
     },
     {
+      "store": "Dar",
+      "address": null,
+      "new_price": 6.89,
+      "new_price_eur": 3.52,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 6.89,
+      "price_per_kg_eur": 3.52,
+      "source_type": "assortment",
+      "available_stores": [
+        "Dar"
+      ],
+      "store_prices": [
+        {
+          "store": "Dar",
+          "price": 6.89,
+          "price_eur": 3.52,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Dar",
+      "best_price": 6.89,
+      "comparison_count": 1,
+      "product_id": "dar-наденица-шункова-крум-мушев-витрина-пр-д-българия-дар",
+      "name": "НАДЕНИЦА ШУНКОВА КРУМ МУШЕВ ВИТРИНА ПР-Д БЪЛГАРИЯ ДАР",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/2820600000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "protein",
+      "emoji": "🍗",
+      "health_score": 3,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 6.89,
+      "lowest_price": 6.89,
+      "lowest_price_date": "2026-10-02",
+      "price_history": [
+        [
+          "2026-10-02",
+          6.89,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
       "store": "Fantastico",
       "address": null,
       "new_price": 6.99,
@@ -150268,9 +150338,19 @@
       "price_per_kg_eur": 3.92,
       "source_type": "assortment",
       "available_stores": [
+        "Dar",
         "Fantastico"
       ],
       "store_prices": [
+        {
+          "store": "Dar",
+          "price": 7.66,
+          "price_eur": 3.92,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        },
         {
           "store": "Fantastico",
           "price": 7.66,
@@ -150281,9 +150361,9 @@
           "source_type": "assortment"
         }
       ],
-      "best_price_store": "Fantastico",
+      "best_price_store": "Dar",
       "best_price": 7.66,
-      "comparison_count": 1,
+      "comparison_count": 2,
       "product_id": "fantastico-наденица-хаидушка-мц-класик-насипна-витрина-лалов-пр-д-б-я",
       "name": "НАДЕНИЦА ХАЙДУШКА МЦ КЛАСИК НАСИПНА ВИТРИНА ЛАЛОВ ПР-Д Б-Я",
       "image": "https://kaufland.media.schwarz/is/image/schwarz/2820600000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
@@ -244970,8 +245050,8 @@
       "best_price_store": "Dar",
       "best_price": 4.95,
       "comparison_count": 2,
-      "product_id": "fantastico-тх-milde-premium-energy-green-8-бр-3-пласта",
-      "name": "ТХ MILDE PREMIUM ENERGY GREEN 8 БР 3 ПЛАСТА  **",
+      "product_id": "fantastico-тх-milde-premium-energy-green-8-бр-3-пласта-2",
+      "name": "** ТХ MILDE PREMIUM ENERGY GREEN 8 БР 3 ПЛАСТА",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -244984,10 +245064,10 @@
       "is_long_lasting": false,
       "avg_price": 4.95,
       "lowest_price": 4.95,
-      "lowest_price_date": "2026-10-01",
+      "lowest_price_date": "2026-10-02",
       "price_history": [
         [
-          "2026-10-01",
+          "2026-10-02",
           4.95,
           null,
           null
@@ -254962,6 +255042,63 @@
       "price_signal": "wait"
     },
     {
+      "store": "Dar",
+      "address": null,
+      "new_price": 5.69,
+      "new_price_eur": 2.91,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Dar"
+      ],
+      "store_prices": [
+        {
+          "store": "Dar",
+          "price": 5.69,
+          "price_eur": 2.91,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Dar",
+      "best_price": 5.69,
+      "comparison_count": 1,
+      "product_id": "dar-колбас-хамбургски-изк-обвивка-кг-крум-мушев-пр-д-б-я-дар",
+      "name": "КОЛБАС ХАМБУРГСКИ ИЗК. ОБВИВКА КГ КРУМ МУШЕВ ПР-Д Б-Я ДАР",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 5.69,
+      "lowest_price": 5.69,
+      "lowest_price_date": "2026-10-02",
+      "price_history": [
+        [
+          "2026-10-02",
+          5.69,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy",
+      "image": "https://api.bulmag.org/thumbnails/3985b92cdeea7e755084dea1ae51cb46.jpeg"
+    },
+    {
       "store": "Kaufland",
       "address": null,
       "new_price": 5.73,
@@ -260707,83 +260844,6 @@
       ],
       "price_seen_count": 1,
       "price_signal": "buy"
-    },
-    {
-      "store": "Fantastico",
-      "address": null,
-      "new_price": 6.49,
-      "new_price_eur": 3.32,
-      "old_price": 10.22,
-      "old_price_eur": 5.23,
-      "discount_pct": 36,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 8.65,
-      "price_per_kg_eur": 4.42,
-      "source_type": "promo",
-      "available_stores": [
-        "Fantastico"
-      ],
-      "store_prices": [
-        {
-          "store": "Fantastico",
-          "price": 6.49,
-          "price_eur": 3.32,
-          "old_price": 10.22,
-          "old_price_eur": 5.23,
-          "discount_pct": 36,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Fantastico",
-      "best_price": 6.49,
-      "comparison_count": 1,
-      "product_id": "fantastico-вино-мерло-галерия-750-мл-тодоров-750g",
-      "weight_grams": 750,
-      "weight_raw": "750 мл",
-      "name": "ВИНО МЕРЛО ГАЛЕРИЯ 750 МЛ ТОДОРОВ",
-      "category": "drinks",
-      "emoji": "🍺",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 8.48,
-      "lowest_price": 6.49,
-      "lowest_price_date": "2026-08-13",
-      "price_history": [
-        [
-          "2026-04-20",
-          10.22,
-          null,
-          null
-        ],
-        [
-          "2026-07-09",
-          6.99,
-          10.22,
-          32
-        ],
-        [
-          "2026-08-06",
-          10.22,
-          null,
-          null
-        ],
-        [
-          "2026-08-13",
-          6.49,
-          10.22,
-          36
-        ]
-      ],
-      "price_seen_count": 4,
-      "price_signal": "buy",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218585729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
     },
     {
       "store": "Kaufland",
