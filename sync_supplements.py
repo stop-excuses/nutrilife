@@ -4,7 +4,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent / "scraper"))
-from supplement_scrapers import parse_largest_weight_grams  # noqa: E402
+from supplement_scrapers import calculate_price_units, parse_largest_weight_grams  # noqa: E402
 
 SOURCE_PATH = Path("data/supplements.json")
 OUTPUT_PATH = Path("data/supplements.js")
@@ -140,11 +140,31 @@ def repair_protein_units(item):
     return True
 
 
+def repair_vitamin_c_units(item):
+    """Repair names like `Vitamin C 1000` when the label parser grabbed a
+    nearby tablet/count number instead of the explicit dose in the name."""
+    if item.get("category") != "vitamin_c":
+        return
+    name = (item.get("name") or "").lower()
+    if not re.search(r"(?:vitamin[\s-]*c|витамин[\s-]*c|\bc)\s*[-:]?\s*1000(?:\s*(?:mg|мг))?\b", name, re.I):
+        return
+    active = item.setdefault("active", {})
+    if (active.get("vitamin_c_mg") or 0) < 50:
+        active["vitamin_c_mg"] = 1000
+        units = calculate_price_units(
+            item.get("category"), item.get("price_bgn"), active,
+            item.get("weight_grams"), item.get("servings"), item.get("count"),
+        )
+        if units:
+            item["price_per_active_unit"] = units
+
+
 def main():
     data = json.loads(SOURCE_PATH.read_text(encoding="utf-8"))
     supplements = data.get("supplements", [])
     for item in supplements:
         item.setdefault("availability_status", "unknown")
+        repair_vitamin_c_units(item)
     supplements = [item for item in supplements if not is_sample_junk(item.get("name"))]
     supplements = [item for item in supplements if repair_protein_units(item)]
     data["supplements"] = supplements

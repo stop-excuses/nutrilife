@@ -1014,6 +1014,11 @@ def extract_active(category: str, text: str, weight_grams: float | None, serving
 
     if category == "vitamin_c":
         mg = extract_named_mg(text, ("vitamin c", "vitamin-c", "c-1000", "ascorbic"))
+        # Product names such as "Vitamin C 1000" often omit the mg unit.
+        # Prefer that explicit dose over a nearby unrelated number (e.g. 10
+        # tablets) picked up by the generic extractor.
+        if re.search(r"(?:vitamin[\s-]*c|витамин[\s-]*c|\bc)\s*[-:]?\s*1000(?:\s*(?:mg|мг))?\b", text, re.I):
+            mg = 1000
         if not mg:
             mg = extract_amount_near_category(text, "c")
         if mg:
