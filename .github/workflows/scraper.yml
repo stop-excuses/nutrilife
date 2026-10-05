@@ -1,5 +1,9 @@
 name: Scrape Offers
 
+concurrency:
+  group: scrape-offers
+  cancel-in-progress: false
+
 on:
   schedule:
     # Thursday — Kaufland, Billa, Fantastico, Dar publish new catalogs

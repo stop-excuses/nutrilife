@@ -1,5 +1,9 @@
 name: Scrape Supplements
 
+concurrency:
+  group: scrape-supplements
+  cancel-in-progress: false
+
 on:
   schedule:
     # Every Sunday at 06:00 UTC (09:00 Sofia)

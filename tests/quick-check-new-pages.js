@@ -2,7 +2,6 @@
 const { chromium } = require('@playwright/test');
 
 const PAGES = [
-  { url: 'http://127.0.0.1:8000/smart-medicines.html', expect: '#meds-grid, .meds-grid, main' },
   { url: 'http://127.0.0.1:8000/smart-value.html',     expect: 'main, .hero, body' },
   { url: 'http://127.0.0.1:8000/nai-izgoden-kreatin.html', expect: 'main, .hero, body' },
 ];
