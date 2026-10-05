@@ -81,7 +81,10 @@
         'melatonin': 'melatonin'
     };
     const brokenImageMarkers = [
-        'stayfit.bg/cdn/img/products/'
+        'stayfit.bg/cdn/img/products/',
+        'musclepower.bg/wp-content/uploads/',
+        'musclepower.bg/wp-content/uploads/2016/11/%D0%B8%D0%B7%D1%82%D0%B5%D0%B3%D0%BB%D0%B5%D0%BD-%D1%84%D0%B0%D0%B9%D0%BB-34.jpg',
+        'musclepower.bg/wp-content/uploads/2016/11/изтеглен-файл-34.jpg'
     ];
 
     let items = [];
