@@ -83,16 +83,30 @@ jobs:
 
       - name: Validate output
         run: |
+          EXPECTED_SOURCES="${{ github.event.inputs.sources || 'all' }}"
+          export EXPECTED_SOURCES
           python3 - <<'EOF'
-          import json, sys
+          import json, os, subprocess, sys
           with open("data/supplements.json", encoding="utf-8") as f:
               data = json.load(f)
           total = data.get("total_supplements", 0)
-          sources = data.get("sources", [])
+          sources = set(data.get("sources", []))
+          expected_sources = os.environ.get("EXPECTED_SOURCES", "all")
+          previous = json.loads(subprocess.check_output(["git", "show", "HEAD:data/supplements.json"], text=True))
+          previous_total = previous.get("total_supplements", 0)
+          previous_sources = set(previous.get("sources", []))
           print(f"Supplements: {total} | Sources: {sources}")
           if total < 200:
               print(f"ERROR: only {total} supplements — scraper likely failed")
               sys.exit(1)
+          if expected_sources == "all" and previous_total and total < int(previous_total * 0.8):
+              print(f"ERROR: catalog dropped from {previous_total} to {total} products")
+              sys.exit(1)
+          if expected_sources == "all":
+              missing_sources = sorted(previous_sources - sources)
+              if missing_sources:
+                  print(f"ERROR: previously healthy sources disappeared: {missing_sources}")
+                  sys.exit(1)
           print("Validation passed.")
           EOF
 

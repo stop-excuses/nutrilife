@@ -1995,6 +1995,7 @@ def merge_with_existing(products: list[dict], sources: set[str] | None, categori
     existing = json.loads(OUTPUT_PATH.read_text(encoding="utf-8")).get("supplements", [])
     existing_by_key = {(p.get("store", "").lower(), p.get("category"), p.get("url")): p for p in existing}
     new_keys = {(p["store"].lower(), p["category"], p["url"]) for p in products}
+    refreshed_scopes = {(p["store"].lower(), p["category"]) for p in products}
 
     for product in products:
         key = (product["store"].lower(), product["category"], product["url"])
@@ -2010,7 +2011,10 @@ def merge_with_existing(products: list[dict], sources: set[str] | None, categori
             return False
         if categories and item.get("category") not in categories:
             return False
-        return True
+        # Never delete a source/category just because discovery or the site
+        # temporarily returned zero URLs. Keep its last known rows until a
+        # successful refresh for that exact scope replaces them.
+        return (item.get("store", "").lower(), item.get("category")) in refreshed_scopes
 
     kept = [item for item in existing if not replaced_by_scope(item)]
     return kept + products
