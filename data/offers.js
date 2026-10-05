@@ -1,6 +1,6 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-10-05T14:21:48.460386Z",
-  "content_hash": "4093649d7c187140b169320cbf18a7f9",
+  "generated_at": "2026-10-05T19:27:50.818515Z",
+  "content_hash": "b7f1b643a3860653fdb8b5831d4ee1f0",
   "total_offers": 4060,
   "promo_offers": 1551,
   "assortment_offers": 2509,
@@ -5426,8 +5426,8 @@ const OFFERS_DATA = {
       "best_price_store": "Kaufland",
       "best_price": 0.57,
       "comparison_count": 1,
-      "product_id": "kaufland-моркови",
-      "name": "Моркови",
+      "product_id": "kaufland-български-моркови",
+      "name": "Български моркови",
       "image": "https://kaufland.media.schwarz/is/image/schwarz/09702481_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "vegetable",
       "emoji": "🥦",
@@ -5449,39 +5449,39 @@ const OFFERS_DATA = {
         "f": 0.2,
         "c": 10
       },
-      "avg_price": 1.37,
+      "avg_price": 0.99,
       "lowest_price": 0.57,
-      "lowest_price_date": "2026-10-05",
+      "lowest_price_date": "2026-09-28",
       "price_history": [
         [
-          "2026-04-14",
-          1.74,
-          2.25,
-          23
-        ],
-        [
-          "2026-05-11",
-          1.35,
-          2.48,
-          46
-        ],
-        [
-          "2026-06-29",
-          1.47,
-          2.8,
-          48
-        ],
-        [
-          "2026-07-13",
-          1.74,
-          2.8,
+          "2026-07-27",
+          1.55,
+          2.52,
           38
         ],
         [
-          "2026-10-05",
+          "2026-08-06",
+          1.47,
+          2.52,
+          42
+        ],
+        [
+          "2026-08-17",
+          0.69,
+          1.29,
+          47
+        ],
+        [
+          "2026-09-14",
+          0.65,
+          1.29,
+          50
+        ],
+        [
+          "2026-09-28",
           0.57,
-          null,
-          null
+          1.29,
+          56
         ]
       ],
       "price_seen_count": 5,
