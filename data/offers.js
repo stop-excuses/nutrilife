@@ -1,8 +1,8 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-10-06T11:10:34.994887Z",
-  "content_hash": "0ec192447c7cbcd2ce352e9cf5a0b9eb",
-  "total_offers": 4071,
-  "promo_offers": 1551,
+  "generated_at": "2026-10-06T16:33:00.364290Z",
+  "content_hash": "4076a4a6d1d7e72e91f900b9448dcd06",
+  "total_offers": 4070,
+  "promo_offers": 1550,
   "assortment_offers": 2520,
   "stores": [
     "Billa",
@@ -40504,65 +40504,6 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 9,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 4.99,
-      "new_price_eur": 2.55,
-      "old_price": 8.69,
-      "old_price_eur": 4.44,
-      "discount_pct": 43,
-      "valid_from": "2026-09-14",
-      "valid_until": "2026-10-11",
-      "price_per_kg": 39.92,
-      "price_per_kg_eur": 20.41,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 4.99,
-          "price_eur": 2.55,
-          "old_price": 8.69,
-          "old_price_eur": 4.44,
-          "discount_pct": 43,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 4.99,
-      "comparison_count": 1,
-      "product_id": "kaufland-lindt-thins-шоколадови-бонбони-различни-видове-125g",
-      "weight_grams": 125,
-      "weight_raw": "125 г",
-      "name": "Lindt Thins Шоколадови бонбони различни видове",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/518_00067525B_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "grain",
-      "emoji": "🌾",
-      "is_food": false,
-      "is_junk": true,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "avg_price": 4.99,
-      "lowest_price": 4.99,
-      "lowest_price_date": "2026-09-20",
-      "price_history": [
-        [
-          "2026-09-20",
-          4.99,
-          8.69,
-          43
-        ]
-      ],
-      "price_seen_count": 1,
       "price_signal": "buy"
     },
     {
