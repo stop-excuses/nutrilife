@@ -1,6 +1,6 @@
 const ALL_PRODUCTS_DATA = {
-  "generated_at": "2026-10-11T20:51:05.286678Z",
-  "total_products": 59645,
+  "generated_at": "2026-10-11T22:44:47.068142Z",
+  "total_products": 59847,
   "products": [
     {
       "name": "Пушена риба тон",
@@ -1608,7 +1608,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/01000431_A?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-пилешко-бутче",
-      "last_seen": "2026-09-28",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-14",
       "price_history": [
         {
@@ -1674,11 +1674,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.97,
           "old_price": 3.06,
           "discount_pct": 38
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.65,
+          "price_eur": 0.84,
+          "old_price": 3.06,
+          "discount_pct": 46
         }
       ],
       "lowest_price": 1.65,
       "lowest_price_date": "2026-08-17",
-      "avg_price": 2.8
+      "avg_price": 2.67
     },
     {
       "name": "Гъби печурки",
@@ -72393,7 +72401,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00034455_P_%281%29?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-сьомгова-пъстърва-филе",
-      "last_seen": "2026-10-02",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -72427,11 +72435,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 6.03,
           "old_price": 14.99,
           "discount_pct": 21
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 11.99,
+          "price_eur": 6.13,
+          "old_price": 14.99,
+          "discount_pct": 20
         }
       ],
       "lowest_price": 11.79,
       "lowest_price_date": "2026-10-01",
-      "avg_price": 17.55
+      "avg_price": 16.44
     },
     {
       "name": "Сьомгoва пъстърва",
@@ -72847,7 +72863,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00064671_P-3?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-гъби-печурки-кг",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -75285,7 +75301,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/2855410000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-едам-или-гауда-от-свежата-витрина",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -75311,11 +75327,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 3.88,
           "old_price": 9.69,
           "discount_pct": 22
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 7.65,
+          "price_eur": 3.91,
+          "old_price": 9.69,
+          "discount_pct": 21
         }
       ],
       "lowest_price": 7.59,
       "lowest_price_date": "2026-09-14",
-      "avg_price": 12.51
+      "avg_price": 11.29
     },
     {
       "id": "kaufland-сом-филе-06adfc",
@@ -86679,39 +86703,41 @@ const ALL_PRODUCTS_DATA = {
       "product_id": "kaufland-kerrygold"
     },
     {
-      "id": "kaufland-vileda-моп-pva-тип-пеперуда-0c1098",
-      "store": "Kaufland",
-      "address": null,
       "name": "Vileda Моп PVA тип пеперуда",
-      "emoji": "🛒",
-      "category": "other",
-      "new_price": 27.99,
-      "new_price_eur": 14.31,
-      "old_price": 39.99,
-      "old_price_eur": 20.45,
-      "discount_pct": 30,
-      "valid_until": null,
+      "store": "Kaufland",
+      "emoji": "🧹",
+      "category": "household",
       "weight_raw": null,
       "weight_grams": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "shelf_life": null,
+      "shelf_life": "1-2г",
       "is_food": false,
       "is_healthy": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
+      "is_bulk_worthy": true,
+      "is_long_lasting": true,
       "health_score": null,
       "diet_tags": [],
       "macros": null,
       "is_junk": false,
       "is_high_protein": false,
-      "image": "https://media.marktjagd.com/17349786_138x384.webp",
-      "source": "structured",
-      "confidence": "high",
-      "available_stores": [
-        "Kaufland"
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/8690803750701_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-vileda-моп-pva-тип-пеперуда",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 14.49,
+          "price_eur": 7.41,
+          "old_price": 20.45,
+          "discount_pct": 29
+        }
       ],
-      "product_id": "kaufland-vileda-моп-pva-тип-пеперуда"
+      "lowest_price": 14.49,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 14.49
     },
     {
       "id": "kaufland-akita-7b0d9c",
@@ -274643,7 +274669,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/2879340000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-хек-филе",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -475153,7 +475179,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/148_2020825957_1_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-ципура-чистена-прясна",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -478827,7 +478853,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00090038_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-зелени-маслини-от-свежата-витрина",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -478861,11 +478887,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 2.76,
           "old_price": 6.64,
           "discount_pct": 19
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 5.59,
+          "price_eur": 2.86,
+          "old_price": 6.64,
+          "discount_pct": 16
         }
       ],
       "lowest_price": 5.39,
       "lowest_price_date": "2026-09-28",
-      "avg_price": 7.92
+      "avg_price": 7.45
     },
     {
       "name": "LACRIMA Сирене Екстра от краве мляко",
@@ -480064,7 +480098,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/09700166_Promo_436578?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-червено-цвекло-клас-i",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -480090,11 +480124,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.3,
           "old_price": 1.19,
           "discount_pct": 50
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.69,
+          "price_eur": 0.35,
+          "old_price": 1.19,
+          "discount_pct": 42
         }
       ],
       "lowest_price": 0.59,
       "lowest_price_date": "2026-09-14",
-      "avg_price": 1.04
+      "avg_price": 0.95
     },
     {
       "name": "Nestle Мюсли барче\nразлични видове",
@@ -482261,7 +482303,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/2840660000000_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-червени-маслини-услу-280-360",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -482730,7 +482772,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20716856_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-маслини-каламата-джъмбо-181-260",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -482764,11 +482806,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 2.55,
           "old_price": 8.89,
           "discount_pct": 44
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 5.19,
+          "price_eur": 2.65,
+          "old_price": 8.89,
+          "discount_pct": 42
         }
       ],
       "lowest_price": 4.99,
       "lowest_price_date": "2026-08-10",
-      "avg_price": 8.36
+      "avg_price": 7.72
     },
     {
       "name": "Melitta Мляно кафе CaféBar\nразлични видове",
@@ -483868,7 +483918,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00044479_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-бабекова-наденица-от-свежата-витрина",
-      "last_seen": "2026-06-21",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -483886,11 +483936,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 3.99,
           "old_price": 8.98,
           "discount_pct": 13
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.99,
+          "price_eur": 2.04,
+          "old_price": 4.59,
+          "discount_pct": 13
         }
       ],
-      "lowest_price": 7.8,
-      "lowest_price_date": "2026-06-15",
-      "avg_price": 7.89
+      "lowest_price": 3.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 6.59
     },
     {
       "name": "Народен Шунка\nпромопакет",
@@ -483950,7 +484008,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/2800810000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-наденица-по-домашна-рецепта-от-свежата-витрина",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -495800,7 +495858,7 @@ const ALL_PRODUCTS_DATA = {
       "store": "Kaufland"
     },
     {
-      "name": "Pampers Пелени или Гащички",
+      "name": "PAMPERS Пелени или Гащички",
       "store": "Kaufland",
       "emoji": "🛒",
       "category": "other",
@@ -495818,9 +495876,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": true,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8001090951892_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20940302_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-pampers-пелени-или-гащички",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -495950,11 +496008,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 11.75,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 15.29,
+          "price_eur": 7.82,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
-      "lowest_price": 17.35,
-      "lowest_price_date": "2026-09-07",
-      "avg_price": 34.2
+      "lowest_price": 15.29,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 33.08
     },
     {
       "name": "Pampers Бебешки пелени или гащички",
@@ -496480,7 +496546,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_00105244_P.jpg",
       "product_id": "kaufland-сьомгова-пъстърва-филенца",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -496522,11 +496588,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 8.64,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 16.99,
+          "price_eur": 8.69,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 16.89,
       "lowest_price_date": "2026-08-17",
-      "avg_price": 30.61
+      "avg_price": 28.34
     },
     {
       "name": "RawBrani Фреш нар и мандарина 330мл",
@@ -497515,7 +497589,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20914882_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-мургаш-извара-от-свежата-витрина-2",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -498079,7 +498153,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00048069C_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-саяна-сирене-от-краве-мляко-от-свежата-витрина-2",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -498105,11 +498179,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 3.01,
           "old_price": 9.08,
           "discount_pct": 35
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 5.59,
+          "price_eur": 2.86,
+          "old_price": 9.08,
+          "discount_pct": 38
         }
       ],
-      "lowest_price": 5.89,
-      "lowest_price_date": "2026-09-07",
-      "avg_price": 9.53
+      "lowest_price": 5.59,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 8.55
     },
     {
       "name": "PHILADELPHIA Крема сирене от свежата витрина",
@@ -499268,75 +499350,6 @@ const ALL_PRODUCTS_DATA = {
       "store": "Kaufland"
     },
     {
-      "name": "NESCAFE Кафе капсули Dolce Gusto",
-      "store": "Kaufland",
-      "emoji": "🍺",
-      "category": "drinks",
-      "weight_raw": null,
-      "weight_grams": null,
-      "shelf_life": "малотраен",
-      "is_food": true,
-      "is_healthy": true,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": 5,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20709501_P-2?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "product_id": "kaufland-nescafe-кафе-капсули-dolce-gusto-2",
-      "last_seen": "2026-10-11",
-      "first_seen": "2026-04-20",
-      "price_history": [
-        {
-          "date": "2026-04-20",
-          "store": "Kaufland",
-          "price": 9.0,
-          "price_eur": 4.6,
-          "old_price": 12.65,
-          "discount_pct": 29
-        },
-        {
-          "date": "2026-05-11",
-          "store": "Kaufland",
-          "price": 25.99,
-          "price_eur": 13.29,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-08-10",
-          "store": "Kaufland",
-          "price": 13.29,
-          "price_eur": 6.8,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-08-31",
-          "store": "Kaufland",
-          "price": 13.25,
-          "price_eur": 6.77,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-10-05",
-          "store": "Kaufland",
-          "price": 4.59,
-          "price_eur": 2.35,
-          "old_price": 6.47,
-          "discount_pct": 29
-        }
-      ],
-      "lowest_price": 4.59,
-      "lowest_price_date": "2026-10-05",
-      "avg_price": 13.22
-    },
-    {
       "name": "Ocean Pick Разбит хайвер от свежата витрина",
       "store": "Kaufland",
       "emoji": "🍗",
@@ -499820,7 +499833,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20868195_619?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-finish-таблетки-за-съдомиялна-all-in-one-лимон-120бр-2",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -499870,7 +499883,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20868196_619?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-finish-таблетки-за-съдомиялна-all-in-one-лимон-150бр-2",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -500026,7 +500039,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/01000182_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-леки-кренвирши-от-свинско-месо-от-свежата-витрина-2",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -500124,7 +500137,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20824755_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-браво-шунка-тип-чешка-бохемио-2",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -500158,11 +500171,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 4.85,
           "old_price": 12.99,
           "discount_pct": 27
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 9.69,
+          "price_eur": 4.95,
+          "old_price": 12.99,
+          "discount_pct": 25
         }
       ],
       "lowest_price": 9.19,
       "lowest_price_date": "2026-08-10",
-      "avg_price": 13.66
+      "avg_price": 12.87
     },
     {
       "name": "Орехите Луканка различни видове",
@@ -500976,7 +500997,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5900273112521_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-colgate-четка-за-зъби-extra-clean-2",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -502906,7 +502927,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20848751_597?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-alvina-омекотител-различни-видове-2",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -504754,7 +504775,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20723308_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-savex-прах-гел-или-капсули-избрани-видове-2",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -505098,7 +505119,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00104334_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-zebra-тоалетна-хартия-различни-видове-2",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -505148,11 +505169,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 4.6,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 8.89,
+          "price_eur": 4.55,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 8.89,
       "lowest_price_date": "2026-08-31",
-      "avg_price": 12.04
+      "avg_price": 11.59
     },
     {
       "name": "MusicMan LED Колонка различни видове",
@@ -505660,7 +505689,7 @@ const ALL_PRODUCTS_DATA = {
       "store": "Kaufland"
     },
     {
-      "name": "Gillette Самобръсначка Blue 3 различни видове",
+      "name": "GILLETTE Самобръсначка Blue 3 различни видове",
       "store": "Kaufland",
       "emoji": "🛒",
       "category": "other",
@@ -505678,9 +505707,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/637_20624586_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00065299_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-gillette-самобръсначка-blue-3-различни-видове-2",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -505714,11 +505743,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 5.62,
           "old_price": 14.82,
           "discount_pct": 26
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 8.69,
+          "price_eur": 4.44,
+          "old_price": 10.73,
+          "discount_pct": 19
         }
       ],
-      "lowest_price": 10.99,
-      "lowest_price_date": "2026-09-20",
-      "avg_price": 16.59
+      "lowest_price": 8.69,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 15.01
     },
     {
       "name": "Spice&Soul Уок тиган Ø32 см / Тиган с капак Ø28 см",
@@ -506737,9 +506774,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20700961_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20696853_595_Perwoll______________Color_2__40__?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-perwoll-гел-различни-видове-2",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -506805,11 +506842,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 6.8,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 13.8,
+          "price_eur": 7.06,
+          "old_price": 27.6,
+          "discount_pct": 50
         }
       ],
       "lowest_price": 13.29,
       "lowest_price_date": "2026-09-07",
-      "avg_price": 24.86
+      "avg_price": 23.63
     },
     {
       "name": "MEBUS Лампа за проектор Астронавт 37313",
@@ -510462,7 +510507,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/2830240000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-краставици-кг",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-25",
       "price_history": [
         {
@@ -510520,11 +510565,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.61,
           "old_price": 1.99,
           "discount_pct": 40
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.49,
+          "price_eur": 0.76,
+          "old_price": 2.35,
+          "discount_pct": 37
         }
       ],
       "lowest_price": 0.99,
       "lowest_price_date": "2026-09-03",
-      "avg_price": 2.12
+      "avg_price": 2.04
     },
     {
       "name": "Billa Руло от крема сирене 100 г Продукт, маркиран със синя звезда",
@@ -514946,7 +514999,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20916192_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/143_00032403_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-маслини-каламата-от-свежата-витрина",
       "last_seen": "2026-10-11",
       "first_seen": "2026-04-25",
@@ -515118,11 +515171,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 2.55,
           "old_price": 7.15,
           "discount_pct": 30
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.99,
+          "price_eur": 2.04,
+          "old_price": 7.79,
+          "discount_pct": 49
         }
       ],
       "lowest_price": 3.72,
       "lowest_price_date": "2026-08-31",
-      "avg_price": 6.82
+      "avg_price": 6.69
     },
     {
       "name": "Карпачо от октопод",
@@ -525777,7 +525838,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800501185650_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-аквилон-яица",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -526038,9 +526099,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": true,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20284322_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/AdobeStock_428113414?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-пилешко-бонфиле-от-свежата-витрина",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -526074,11 +526135,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 2.86,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 5.99,
+          "price_eur": 3.06,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 5.55,
       "lowest_price_date": "2026-08-21",
-      "avg_price": 8.22
+      "avg_price": 7.77
     },
     {
       "name": "Fragedo Пилешко горно бутче обезкостено, без кожа",
@@ -526489,7 +526558,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/137_00107712_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-маистор-цветко-пуешки-гърди-от-свежата-витрина",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -526523,11 +526592,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 3.66,
           "old_price": 10.22,
           "discount_pct": 30
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 7.59,
+          "price_eur": 3.88,
+          "old_price": 10.22,
+          "discount_pct": 26
         }
       ],
       "lowest_price": 7.15,
       "lowest_price_date": "2026-09-24",
-      "avg_price": 11.14
+      "avg_price": 10.43
     },
     {
       "name": "Телешки джолан Осо буко от свежата витрина",
@@ -527489,7 +527566,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00065899_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-bauer-сирене-от-свежата-витрина",
-      "last_seen": "2026-08-30",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -527783,9 +527860,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/2805000000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00100100F_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-каима-от-свинско-месо-от-свежата-витрина",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -527851,11 +527928,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 2.03,
           "old_price": 4.59,
           "discount_pct": 13
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.83,
+          "price_eur": 1.96,
+          "old_price": 4.49,
+          "discount_pct": 15
         }
       ],
       "lowest_price": 3.83,
       "lowest_price_date": "2026-08-31",
-      "avg_price": 6.69
+      "avg_price": 6.37
     },
     {
       "name": "Свински врат от свежата витрина",
@@ -529542,7 +529627,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_00110955_P.jpg",
       "product_id": "kaufland-мариновани-стекове-от-бут-от-свежата-витрина",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -534146,7 +534231,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5201314931102_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-fino-торби-за-отпадъци",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -534196,11 +534281,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.45,
           "old_price": 1.27,
           "discount_pct": 31
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.95,
+          "price_eur": 0.49,
+          "old_price": 1.27,
+          "discount_pct": 25
         }
       ],
       "lowest_price": 0.88,
       "lowest_price_date": "2026-09-07",
-      "avg_price": 2.5
+      "avg_price": 2.28
     },
     {
       "name": "Aqua Nova Помпа за вода",
@@ -534358,7 +534451,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4015400436058_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-naturella-дамски-превръзки-различни-видове",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -535896,11 +535989,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.16,
           "old_price": 3.23,
           "discount_pct": 30
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.19,
+          "price_eur": 1.12,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 2.19,
       "lowest_price_date": "2026-09-07",
-      "avg_price": 5.15
+      "avg_price": 4.82
     },
     {
       "name": "Parkside® Комплект за боядисване 6 части или 13 части",
@@ -537073,11 +537174,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 2.32,
           "old_price": 6.49,
           "discount_pct": 30
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.99,
+          "price_eur": 2.04,
+          "old_price": 6.49,
+          "discount_pct": 39
         }
       ],
-      "lowest_price": 4.29,
-      "lowest_price_date": "2026-10-05",
-      "avg_price": 5.38
+      "lowest_price": 3.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 5.03
     },
     {
       "name": "Palette Deluxe Боя за коса",
@@ -540283,7 +540392,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/637_20078269?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-gillette-самобръсначка-blue-3",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -540352,7 +540461,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/637_20061989?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-gillette-самобръсначка-sensor3-blue3-различни-видове",
-      "last_seen": "2026-07-26",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -540370,11 +540479,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 8.69,
           "old_price": 20.99,
           "discount_pct": 19
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 8.69,
+          "price_eur": 4.44,
+          "old_price": 10.73,
+          "discount_pct": 19
         }
       ],
-      "lowest_price": 16.98,
-      "lowest_price_date": "2026-04-27",
-      "avg_price": 16.99
+      "lowest_price": 8.69,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 14.22
     },
     {
       "name": "Familia Тоалетна хартия Magic Flower",
@@ -540488,9 +540605,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_00080582_P.jpg",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00065039_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-familia-тоалетна-хартия-различни-видове",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -540604,11 +540721,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 4.7,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 8.68,
+          "price_eur": 4.44,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 2.04,
       "lowest_price_date": "2026-09-14",
-      "avg_price": 14.18
+      "avg_price": 13.82
     },
     {
       "name": "Маринован барбекю микс",
@@ -541571,7 +541696,7 @@ const ALL_PRODUCTS_DATA = {
       "avg_price": 17.04
     },
     {
-      "name": "MILDE Тоалетна хартия трипластова",
+      "name": "Milde Тоалетна хартия трипластова",
       "store": "Kaufland",
       "emoji": "🧴",
       "category": "hygiene",
@@ -541589,7 +541714,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20946818_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20694348_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-milde-тоалетна-хартия-трипластова",
       "last_seen": "2026-10-11",
       "first_seen": "2026-04-27",
@@ -541649,11 +541774,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 7.58,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 12.26,
+          "price_eur": 6.27,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 9.99,
       "lowest_price_date": "2026-08-10",
-      "avg_price": 17.03
+      "avg_price": 16.43
     },
     {
       "name": "Tabiet Гроздова ракия 42% vol",
@@ -542480,7 +542613,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00044640_606?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-emeka-тоалетна-хартия",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -542530,11 +542663,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 2.86,
           "old_price": 11.24,
           "discount_pct": 50
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 11.24,
+          "price_eur": 5.75,
+          "old_price": 22.48,
+          "discount_pct": 50
         }
       ],
       "lowest_price": 5.59,
       "lowest_price_date": "2026-09-24",
-      "avg_price": 13.79
+      "avg_price": 13.43
     },
     {
       "name": "Ferrero Rocher Шоколадови бонбони 375 г",
@@ -542654,43 +542795,6 @@ const ALL_PRODUCTS_DATA = {
       "lowest_price": 11.75,
       "lowest_price_date": "2026-09-20",
       "avg_price": 17.37
-    },
-    {
-      "name": "Cipriani Prosecco Brut DOC",
-      "emoji": "🛒",
-      "category": "other",
-      "weight_raw": null,
-      "weight_grams": null,
-      "shelf_life": null,
-      "is_food": false,
-      "is_healthy": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": null,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20343406_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "product_id": "kaufland-cipriani-prosecco-brut-doc",
-      "last_seen": "2026-04-30",
-      "first_seen": "2026-04-27",
-      "price_history": [
-        {
-          "date": "2026-04-27",
-          "store": "Kaufland",
-          "price": 23.08,
-          "price_eur": 11.8,
-          "old_price": 32.99,
-          "discount_pct": 30
-        }
-      ],
-      "lowest_price": 23.08,
-      "lowest_price_date": "2026-04-27",
-      "avg_price": 23.08,
-      "store": "Kaufland"
     },
     {
       "name": "Ferrero Prestige Шоколадови бонбони",
@@ -543080,6 +543184,7 @@ const ALL_PRODUCTS_DATA = {
     },
     {
       "name": "Parkside® Лазерна ролетка",
+      "store": "Kaufland",
       "emoji": "🛒",
       "category": "other",
       "weight_raw": null,
@@ -543096,9 +543201,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627741944_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627646539_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-parkside-лазерна-ролетка",
-      "last_seen": "2026-04-30",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -543108,12 +543213,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 13.29,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 14.99,
+          "price_eur": 7.66,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
-      "lowest_price": 25.99,
-      "lowest_price_date": "2026-04-27",
-      "avg_price": 25.99,
-      "store": "Kaufland"
+      "lowest_price": 14.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 20.49
     },
     {
       "name": "PERWOLL Гел избрани видове",
@@ -543488,7 +543600,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00074705_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-pampers-active-baby-бебешки-пелени",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -543522,11 +543634,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 7.84,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 15.29,
+          "price_eur": 7.82,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 14.99,
       "lowest_price_date": "2026-09-03",
-      "avg_price": 18.91
+      "avg_price": 18.18
     },
     {
       "name": "SWITCH ON Ултразвуков дифузер за ароматерапия",
@@ -545236,6 +545356,7 @@ const ALL_PRODUCTS_DATA = {
     },
     {
       "name": "SWITCH ON Шевна машина SONM33C1 33 шева,",
+      "store": "Kaufland",
       "emoji": "🛒",
       "category": "other",
       "weight_raw": null,
@@ -545252,9 +545373,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20737008_P.jpg",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627383144_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-switch-on-шевна-машина-sonm33c1-33-шева",
-      "last_seen": "2026-04-30",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -545264,12 +545385,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 127.82,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 99.99,
+          "price_eur": 51.12,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
-      "lowest_price": 249.99,
-      "lowest_price_date": "2026-04-27",
-      "avg_price": 249.99,
-      "store": "Kaufland"
+      "lowest_price": 99.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 174.99
     },
     {
       "name": "Бургер от сьомга",
@@ -559681,7 +559809,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20668403_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-деликатес-житница-хамбургски-колбас-от-свежата-витрина",
-      "last_seen": "2026-06-28",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-30",
       "price_history": [
         {
@@ -559699,11 +559827,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 4.59,
           "old_price": 14.98,
           "discount_pct": 40
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 4.59,
+          "price_eur": 2.35,
+          "old_price": 7.66,
+          "discount_pct": 40
         }
       ],
-      "lowest_price": 8.78,
-      "lowest_price_date": "2026-04-30",
-      "avg_price": 8.88
+      "lowest_price": 4.59,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 7.45
     },
     {
       "name": "Syoss Oleo Боя за коса - различни цветове 1 опаковка",
@@ -561844,6 +561980,7 @@ const ALL_PRODUCTS_DATA = {
     },
     {
       "name": "CLASSIC MAX Боб яхния 330 г",
+      "store": "Kaufland",
       "emoji": "🫘",
       "category": "legume",
       "weight_raw": "330 г",
@@ -561870,7 +562007,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20900702_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-classic-max-боб-яхния-330-г-330g",
-      "last_seen": "2026-05-07",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-04",
       "price_history": [
         {
@@ -561880,12 +562017,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.26,
           "old_price": 3.29,
           "discount_pct": 25
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.49,
+          "price_eur": 0.76,
+          "old_price": 1.68,
+          "discount_pct": 11
         }
       ],
-      "lowest_price": 2.46,
-      "lowest_price_date": "2026-05-04",
-      "avg_price": 2.46,
-      "store": "Kaufland"
+      "lowest_price": 1.49,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 1.98
     },
     {
       "name": "Krina Боб, Нахут или Леща",
@@ -565387,9 +565531,10 @@ const ALL_PRODUCTS_DATA = {
     },
     {
       "name": "Здравец Сирене от краве мляко от свежата витрина",
+      "store": "Kaufland",
       "emoji": "🥛",
       "category": "dairy",
-      "weight_raw": null,
+      "weight_raw": "на кг",
       "weight_grams": null,
       "shelf_life": "малотраен",
       "is_food": true,
@@ -565399,7 +565544,8 @@ const ALL_PRODUCTS_DATA = {
       "health_score": 7,
       "diet_tags": [
         "keto",
-        "vegetarian"
+        "vegetarian",
+        "budget"
       ],
       "macros": {
         "kcal": 264,
@@ -565413,7 +565559,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00033534_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-здравец-сирене-от-краве-мляко-от-свежата-витрина",
-      "last_seen": "2026-05-07",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-04",
       "price_history": [
         {
@@ -565423,12 +565569,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 6.29,
           "old_price": 17.99,
           "discount_pct": 32
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 6.99,
+          "price_eur": 3.57,
+          "old_price": 9.2,
+          "discount_pct": 24
         }
       ],
-      "lowest_price": 12.3,
-      "lowest_price_date": "2026-05-04",
-      "avg_price": 12.3,
-      "store": "Kaufland"
+      "lowest_price": 6.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 9.64
     },
     {
       "name": "Кенана Сирене от овче мляко от свежата витрина",
@@ -569895,7 +570048,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/2840830000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-черни-маслини-супер-супер-мамут",
-      "last_seen": "2026-10-02",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-04",
       "price_history": [
         {
@@ -569985,11 +570138,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.82,
           "old_price": 7.15,
           "discount_pct": 50
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 4.09,
+          "price_eur": 2.09,
+          "old_price": 7.15,
+          "discount_pct": 43
         }
       ],
       "lowest_price": 3.55,
       "lowest_price_date": "2026-10-01",
-      "avg_price": 6.48
+      "avg_price": 6.28
     },
     {
       "name": "Meggle Сметана за готвене",
@@ -571240,7 +571401,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00029026_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-стария-ловец-филе-елена-от-свежата-витрина",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-04",
       "price_history": [
         {
@@ -576263,7 +576424,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/649_00102579_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-happy-мокри-кърпички",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-04",
       "price_history": [
         {
@@ -577086,7 +577247,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00061805_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-zebra-кухненска-ролка-decor",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-04",
       "price_history": [
         {
@@ -581157,7 +581318,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20867908_597?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-savex-омекотител",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-04",
       "price_history": [
         {
@@ -582889,7 +583050,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/281_00110343_2_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-атлантическа-мерлуза-изчистена",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-04",
       "price_history": [
         {
@@ -582923,11 +583084,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.68,
           "old_price": 4.52,
           "discount_pct": 27
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.49,
+          "price_eur": 1.78,
+          "old_price": 4.69,
+          "discount_pct": 26
         }
       ],
       "lowest_price": 3.29,
       "lowest_price_date": "2026-09-03",
-      "avg_price": 5.51
+      "avg_price": 5.11
     },
     {
       "name": "Menada Червено, Бяло вино или Розе различни сортове",
@@ -587600,9 +587769,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00022843_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00101043_607?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-papia-кухненска-ролка",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-04",
       "price_history": [
         {
@@ -587668,11 +587837,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.65,
           "old_price": 2.55,
           "discount_pct": 50
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 6.13,
+          "price_eur": 3.13,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 1.27,
       "lowest_price_date": "2026-09-28",
-      "avg_price": 5.94
+      "avg_price": 5.96
     },
     {
       "name": "Papia Кухненска ролка различни видове",
@@ -587695,7 +587872,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00078089_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-papia-кухненска-ролка-различни-видове",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-04",
       "price_history": [
         {
@@ -589039,7 +589216,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20837881_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-lenor-парфюмни-перли-gold-orchid-270-гр-270g",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-04",
       "price_history": [
         {
@@ -589084,7 +589261,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20837886_597?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-lenor-омекотител-spring-awakening",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-04",
       "price_history": [
         {
@@ -589952,7 +590129,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800090304784_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-maliva-тоалетна-хартия",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-04",
       "price_history": [
         {
@@ -595455,7 +595632,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20683906_596?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-persil-гел-различни-видове",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-04",
       "price_history": [
         {
@@ -599200,7 +599377,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00101802_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-леки-свинска-флеика-от-свежата-витрина",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -599234,11 +599411,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 2.7,
           "old_price": 8.99,
           "discount_pct": 41
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 5.59,
+          "price_eur": 2.86,
+          "old_price": 8.99,
+          "discount_pct": 38
         }
       ],
       "lowest_price": 5.29,
       "lowest_price_date": "2026-08-21",
-      "avg_price": 8.85
+      "avg_price": 8.2
     },
     {
       "name": "Свински ребра Spare Ribs",
@@ -620931,7 +621116,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800222421006_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-vernada-салата-хумус-различни-вкусове-250g",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -621402,7 +621587,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/FR_OuG_Spinat_Jung_1-2?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-спанак-листа-500g",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -621564,7 +621749,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00109429_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-frangosul-пилешки-дробчета-замразени-1000g",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -621681,7 +621866,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20900696_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-classic-max-паеля-с-пиле-и-зеленчуци-330g",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -621967,7 +622152,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/272_00102769_1_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-сами-м-пилешки-шницели-панирани-замразени-1000g",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -621985,11 +622170,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.63,
           "old_price": 6.38,
           "discount_pct": 50
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 6.38,
+          "price_eur": 3.26,
+          "old_price": 12.76,
+          "discount_pct": 50
         }
       ],
       "lowest_price": 3.19,
       "lowest_price_date": "2026-08-17",
-      "avg_price": 4.71
+      "avg_price": 5.27
     },
     {
       "name": "Смути Frudada Малина и боровинка 750ml.",
@@ -623197,7 +623390,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/256_2020925288_1_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-eat-good-пуешко-филе-с-ориз-и-зеленчуци-300g",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -623583,9 +623776,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": true,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/283_00400239_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/283_00402500?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-верея-кисело-мляко-400g",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -623635,11 +623828,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.35,
           "old_price": 0.95,
           "discount_pct": 27
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.65,
+          "price_eur": 0.33,
+          "old_price": 0.89,
+          "discount_pct": 27
         }
       ],
-      "lowest_price": 0.69,
-      "lowest_price_date": "2026-08-31",
-      "avg_price": 1.19
+      "lowest_price": 0.65,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 1.12
     },
     {
       "name": "Picantina Подправка за агнешко и дроб сърма",
@@ -624400,7 +624601,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20900697_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-classic-max-кюфтета-с-доматен-сос-330g",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -625935,7 +626136,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3228021010014_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-president-топено-сирене-натурално-400g",
-      "last_seen": "2026-08-30",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -626190,7 +626391,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/285_2020791732_1_1_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-zott-мляко-с-ориз-различни-видове-200g",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -626208,11 +626409,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.49,
           "old_price": 1.19,
           "discount_pct": 20
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.89,
+          "price_eur": 0.46,
+          "old_price": 1.19,
+          "discount_pct": 25
         }
       ],
-      "lowest_price": 0.95,
-      "lowest_price_date": "2026-09-07",
-      "avg_price": 1.34
+      "lowest_price": 0.89,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 1.19
     },
     {
       "name": "Бабин хляб различни видове",
@@ -626242,7 +626451,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/156_2004021239B_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-бабин-хляб-различни-видове-220g",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -626302,7 +626511,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/2777_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-хляб-със-семена-от-нашата-пекарна-700g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -627824,11 +628033,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.46,
           "old_price": 1.0,
           "discount_pct": 11
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.85,
+          "price_eur": 0.43,
+          "old_price": 1.0,
+          "discount_pct": 15
         }
       ],
       "lowest_price": 0.85,
       "lowest_price_date": "2026-09-07",
-      "avg_price": 1.31
+      "avg_price": 1.23
     },
     {
       "name": "Victoria Студен чай различни вкусове",
@@ -629090,7 +629307,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800047701598_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-тракия-бутертесто-замразено-800g",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -629132,11 +629349,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.81,
           "old_price": 2.35,
           "discount_pct": 32
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.69,
+          "price_eur": 0.86,
+          "old_price": 2.35,
+          "discount_pct": 28
         }
       ],
       "lowest_price": 1.59,
       "lowest_price_date": "2026-08-17",
-      "avg_price": 2.74
+      "avg_price": 2.57
     },
     {
       "name": "My Day Заквасена сметана",
@@ -629211,7 +629436,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": true,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00023561B_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20685420?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-deutsche-markenbutter-краве-масло-250g",
       "last_seen": "2026-10-11",
       "first_seen": "2026-05-07",
@@ -629295,11 +629520,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.81,
           "old_price": 3.79,
           "discount_pct": 58
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.79,
+          "price_eur": 0.92,
+          "old_price": 3.29,
+          "discount_pct": 46
         }
       ],
       "lowest_price": 1.59,
       "lowest_price_date": "2026-10-05",
-      "avg_price": 3.66
+      "avg_price": 3.49
     },
     {
       "name": "K-Classic Плодова напитка различни вкусове",
@@ -630589,7 +630822,7 @@ const ALL_PRODUCTS_DATA = {
       "store": "T-Market"
     },
     {
-      "name": "Bojana o_ye Бургер сос, Трюфел майонеза или Фъстъчено масло",
+      "name": "BOJANA O_YE Бургер сос, Трюфел майонеза или Фъстъчено масло",
       "store": "Kaufland",
       "emoji": "🥜",
       "category": "nuts",
@@ -630612,9 +630845,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/257_2020933191B_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/257_2020933192B_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-bojana-o_ye-бургер-сос-трюфел-маионеза-или-фъстъчено-масло-200g",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -631035,6 +631268,7 @@ const ALL_PRODUCTS_DATA = {
     },
     {
       "name": "Олинеза Майонеза за салати",
+      "store": "Kaufland",
       "emoji": "🥦",
       "category": "vegetable",
       "weight_raw": "1,2 кг",
@@ -631060,7 +631294,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800012111506_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-олинеза-маионеза-за-салати-1200g",
-      "last_seen": "2026-05-07",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -631070,12 +631304,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 3.57,
           "old_price": 9.99,
           "discount_pct": 30
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.49,
+          "price_eur": 1.78,
+          "old_price": 5.11,
+          "discount_pct": 32
         }
       ],
-      "lowest_price": 6.98,
-      "lowest_price_date": "2026-05-07",
-      "avg_price": 6.98,
-      "store": "Kaufland"
+      "lowest_price": 3.49,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 5.24
     },
     {
       "name": "Смути Frudada Манго и ананас 750 ml.",
@@ -631683,7 +631924,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/269_00084343_1_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-сами-м-панирани-пръчици-с-кашкавал-замразени-1000g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -632747,7 +632988,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00063329_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-melitta-кафе-на-зърна-различни-видове-1000g",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -632789,11 +633030,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 8.89,
           "old_price": 32.99,
           "discount_pct": 47
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 32.99,
+          "price_eur": 16.87,
+          "old_price": 65.98,
+          "discount_pct": 50
         }
       ],
       "lowest_price": 17.38,
       "lowest_price_date": "2026-08-24",
-      "avg_price": 30.58
+      "avg_price": 30.98
     },
     {
       "name": "Lavazza Кафе на зърна Crema e gusto Classico",
@@ -633181,7 +633430,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800047759681_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-крали-марко-салам-различни-видове-700g",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -633207,11 +633456,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.2,
           "old_price": 3.55,
           "discount_pct": 34
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.39,
+          "price_eur": 1.22,
+          "old_price": 3.55,
+          "discount_pct": 33
         }
       ],
       "lowest_price": 2.35,
       "lowest_price_date": "2026-08-10",
-      "avg_price": 3.74
+      "avg_price": 3.4
     },
     {
       "name": "Майстор Цветко Салам закуска слайс",
@@ -633806,7 +634063,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20668401_P?JGstbGVnYWN5LW9uc2l0ZS0xJA==",
       "product_id": "kaufland-молерите-панагюрска-луканка-400g",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -635392,7 +635649,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/155_01004053B_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-баничка-тип-пура-от-нашата-пекарна-85g",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -635458,6 +635715,14 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.15,
           "old_price": 0.61,
           "discount_pct": 51
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.61,
+          "price_eur": 0.31,
+          "old_price": 1.22,
+          "discount_pct": 50
         }
       ],
       "lowest_price": 0.27,
@@ -635546,7 +635811,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4063367304347_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-k-classic-пастет-за-котки-100g",
-      "last_seen": "2026-08-07",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -635564,11 +635829,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.26,
           "old_price": 0.65,
           "discount_pct": 22
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.36,
+          "price_eur": 0.18,
+          "old_price": 0.45,
+          "discount_pct": 20
         }
       ],
-      "lowest_price": 0.51,
-      "lowest_price_date": "2026-08-03",
-      "avg_price": 0.6
+      "lowest_price": 0.36,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 0.52
     },
     {
       "name": "Picantina Подправка чили",
@@ -636725,7 +636998,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5201314304302_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-tub-o-flo-препарат-за-канали-различни-видове-60g",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -637504,7 +637777,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/512_027_02550_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-chio-пуканки-за-микровълнова-различни-вкусове-90g",
-      "last_seen": "2026-07-05",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -637530,11 +637803,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.49,
           "old_price": 1.99,
           "discount_pct": 52
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.02,
+          "price_eur": 0.52,
+          "old_price": 2.04,
+          "discount_pct": 50
         }
       ],
       "lowest_price": 0.96,
       "lowest_price_date": "2026-06-29",
-      "avg_price": 1.14
+      "avg_price": 1.11
     },
     {
       "name": "Veda Оцет различни видове",
@@ -637769,7 +638050,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20866614_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-k-classic-храна-за-кучета-различни-видове-415g",
-      "last_seen": "2026-08-09",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -637779,11 +638060,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.89,
           "old_price": 2.19,
           "discount_pct": 21
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.89,
+          "price_eur": 0.46,
+          "old_price": 1.12,
+          "discount_pct": 21
         }
       ],
-      "lowest_price": 1.74,
-      "lowest_price_date": "2026-05-07",
-      "avg_price": 1.74
+      "lowest_price": 0.89,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 1.31
     },
     {
       "name": "Cornetto Сладолед различни вкусове",
@@ -638108,7 +638397,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00113714_P-2?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-grand-commerce-кифлички-различни-видове-250g",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -638487,7 +638776,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/02902993_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-barni-кексче-различни-вкусове-150g",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -638608,51 +638897,6 @@ const ALL_PRODUCTS_DATA = {
       "lowest_price": 1.12,
       "lowest_price_date": "2026-09-07",
       "avg_price": 1.53
-    },
-    {
-      "name": "Мираж Тунквани бисквити различни видове",
-      "store": "Kaufland",
-      "emoji": "🌾",
-      "category": "grain",
-      "weight_raw": "178 г",
-      "weight_grams": 178,
-      "shelf_life": "1-2г",
-      "is_food": false,
-      "is_healthy": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "health_score": null,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20663445_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "product_id": "kaufland-мираж-тунквани-бисквити-различни-видове-178g",
-      "last_seen": "2026-09-27",
-      "first_seen": "2026-05-07",
-      "price_history": [
-        {
-          "date": "2026-05-07",
-          "store": "Kaufland",
-          "price": 2.29,
-          "price_eur": 1.17,
-          "old_price": 3.38,
-          "discount_pct": 32
-        },
-        {
-          "date": "2026-09-20",
-          "store": "Kaufland",
-          "price": 1.35,
-          "price_eur": 0.69,
-          "old_price": 1.88,
-          "discount_pct": 28
-        }
-      ],
-      "lowest_price": 1.35,
-      "lowest_price_date": "2026-09-20",
-      "avg_price": 1.82
     },
     {
       "name": "Eti Popkek Кейк различни видове",
@@ -639292,7 +639536,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/04805060_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-medix-течен-сапун-sensitive-900g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -639951,7 +640195,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/254_01200130_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-фамилия-точени-кори-500g",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -645097,7 +645341,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20114558-2?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-lotus-biscoff-бисквитен-крем-различни-видове-400g",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -646784,7 +647028,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20738451_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-castillo-del-moro-червено-бяло-вино-или-розе-различни-сортове-750g",
-      "last_seen": "2026-06-07",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -646794,11 +647038,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 6.13,
           "old_price": 17.0,
           "discount_pct": 29
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 5.99,
+          "price_eur": 3.06,
+          "old_price": 8.69,
+          "discount_pct": 31
         }
       ],
-      "lowest_price": 11.99,
-      "lowest_price_date": "2026-05-07",
-      "avg_price": 11.99
+      "lowest_price": 5.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 8.99
     },
     {
       "name": "Ида Торта Червено кадифе",
@@ -646927,7 +647179,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5000299210048_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-passport-шотландско-уиски-700g",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -646961,11 +647213,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 3.32,
           "old_price": 11.24,
           "discount_pct": 42
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 6.99,
+          "price_eur": 3.57,
+          "old_price": 11.24,
+          "discount_pct": 38
         }
       ],
       "lowest_price": 6.49,
       "lowest_price_date": "2026-09-24",
-      "avg_price": 9.89
+      "avg_price": 9.31
     },
     {
       "name": "Old Spice Душ гел Epic Legend",
@@ -647139,7 +647399,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800097107050_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-logodaj-бяло-вино-керацуда-5000g",
-      "last_seen": "2026-06-07",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -647149,11 +647409,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 7.15,
           "old_price": 21.98,
           "discount_pct": 36
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 7.49,
+          "price_eur": 3.83,
+          "old_price": 11.68,
+          "discount_pct": 36
         }
       ],
-      "lowest_price": 13.98,
-      "lowest_price_date": "2026-05-07",
-      "avg_price": 13.98
+      "lowest_price": 7.49,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 10.73
     },
     {
       "name": "Логодаж Керацуда/ Широка мелнишка лоза Червено или Бяло вино",
@@ -647176,7 +647444,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800097107067_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-логодаж-керацуда-широка-мелнишка-лоза-червено-или-бяло-вино-5000g",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -647303,7 +647571,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00048225_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-шуменско-бира-5-3-vol-330g",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -647345,11 +647613,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.23,
           "old_price": 0.71,
           "discount_pct": 37
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.49,
+          "price_eur": 0.25,
+          "old_price": 0.71,
+          "discount_pct": 31
         }
       ],
       "lowest_price": 0.4,
       "lowest_price_date": "2026-08-10",
-      "avg_price": 3.61
+      "avg_price": 3.09
     },
     {
       "name": "Durex Play Масажен гел",
@@ -648437,7 +648713,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/261_2020881875_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-feelo-пушена-сьомга-100g",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -648495,11 +648771,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.27,
           "old_price": 4.15,
           "discount_pct": 40
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.99,
+          "price_eur": 1.53,
+          "old_price": 5.98,
+          "discount_pct": 50
         }
       ],
       "lowest_price": 2.49,
       "lowest_price_date": "2026-08-24",
-      "avg_price": 5.83
+      "avg_price": 5.47
     },
     {
       "name": "EAT GOOD Филе от сьомга с лимонено орзо",
@@ -648986,9 +649270,7 @@ const ALL_PRODUCTS_DATA = {
       "is_bulk_worthy": false,
       "is_long_lasting": false,
       "health_score": 9,
-      "diet_tags": [
-        "budget"
-      ],
+      "diet_tags": [],
       "macros": {
         "kcal": 158,
         "p": 18,
@@ -649001,7 +649283,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00115704_P-2?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-ocean-fish-херинга-филе-различни-видове-200g",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -649051,11 +649333,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.76,
           "old_price": 2.7,
           "discount_pct": 45
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.7,
+          "price_eur": 1.38,
+          "old_price": 5.4,
+          "discount_pct": 50
         }
       ],
       "lowest_price": 1.49,
       "lowest_price_date": "2026-08-31",
-      "avg_price": 2.9
+      "avg_price": 2.87
     },
     {
       "name": "Ribella Хумус различни видове",
@@ -650935,7 +651225,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/283_3800106211341_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-димитър-маджаров-кисело-мляко-lacto-free-400g",
-      "last_seen": "2026-05-31",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -650945,11 +651235,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.99,
           "old_price": 2.58,
           "discount_pct": 25
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.05,
+          "price_eur": 0.54,
+          "old_price": 1.32,
+          "discount_pct": 20
         }
       ],
-      "lowest_price": 1.94,
-      "lowest_price_date": "2026-05-11",
-      "avg_price": 1.94
+      "lowest_price": 1.05,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 1.5
     },
     {
       "name": "Валбес Зеленчуков микс Президент",
@@ -651455,7 +651753,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800153701826_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-иовчев-домашно-кисело-мляко-990g",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -651473,11 +651771,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.17,
           "old_price": 3.06,
           "discount_pct": 25
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.45,
+          "price_eur": 1.25,
+          "old_price": 3.06,
+          "discount_pct": 20
         }
       ],
       "lowest_price": 2.29,
       "lowest_price_date": "2026-09-07",
-      "avg_price": 3.39
+      "avg_price": 3.07
     },
     {
       "name": "OLYMPUS Сирене Халуми",
@@ -651622,7 +651928,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/7622210590473_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-philadelphia-крем-сирене-различни-видове-300g",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -651745,7 +652051,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800100301284_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-лесно-свински-кебап-с-картофено-пюре-300g",
-      "last_seen": "2026-08-09",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -651763,11 +652069,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 2.99,
           "old_price": 7.8,
           "discount_pct": 25
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.99,
+          "price_eur": 1.53,
+          "old_price": 3.99,
+          "discount_pct": 25
         }
       ],
-      "lowest_price": 5.85,
-      "lowest_price_date": "2026-06-22",
-      "avg_price": 6.04
+      "lowest_price": 2.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 5.03
     },
     {
       "name": "SCHARDINGER Сирене котидж",
@@ -652337,7 +652651,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/2854250000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-маклер-нашето-домашно-сирене-от-свежата-витрина",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -652504,7 +652818,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00067598_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-елена-сирене-от-овче-мляко-от-свежата-витрина",
-      "last_seen": "2026-08-30",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -652936,7 +653250,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/2800260000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-свински-врат-до-5-кг-на-покупка",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -653166,7 +653480,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/157_00021453_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-бял-земел-от-нашата-пекарна-60g",
-      "last_seen": "2026-10-02",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -653300,7 +653614,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5233_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-френска-багета-от-нашата-пекарна-300g",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -653350,11 +653664,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.23,
           "old_price": 0.5,
           "discount_pct": 10
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.39,
+          "price_eur": 0.2,
+          "old_price": 0.5,
+          "discount_pct": 22
         }
       ],
-      "lowest_price": 0.45,
-      "lowest_price_date": "2026-09-14",
-      "avg_price": 0.64
+      "lowest_price": 0.39,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 0.61
     },
     {
       "name": "Брей! Пшенично брашно тип 500",
@@ -653481,7 +653803,9 @@ const ALL_PRODUCTS_DATA = {
       "is_bulk_worthy": false,
       "is_long_lasting": true,
       "health_score": 5,
-      "diet_tags": [],
+      "diet_tags": [
+        "budget"
+      ],
       "macros": {
         "kcal": 131,
         "p": 5,
@@ -653494,7 +653818,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00029253B_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-maggi-инстантни-спагети-различни-видове-59g",
-      "last_seen": "2026-07-26",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -653512,11 +653836,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.49,
           "old_price": 1.29,
           "discount_pct": 26
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.33,
+          "price_eur": 0.17,
+          "old_price": 0.66,
+          "discount_pct": 50
         }
       ],
-      "lowest_price": 0.96,
-      "lowest_price_date": "2026-06-15",
-      "avg_price": 1.12
+      "lowest_price": 0.33,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 0.86
     },
     {
       "name": "ICE COFFEE Кафе напитка различни вкусове",
@@ -653656,7 +653988,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800748003304_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-wave-млечна-напитка-различни-вкусове-500g",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -653682,11 +654014,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.4,
           "old_price": 1.07,
           "discount_pct": 26
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.85,
+          "price_eur": 0.43,
+          "old_price": 0.99,
+          "discount_pct": 14
         }
       ],
       "lowest_price": 0.79,
       "lowest_price_date": "2026-09-07",
-      "avg_price": 1.33
+      "avg_price": 1.21
     },
     {
       "name": "БАЛКАН Прясно мляко 3% масленост",
@@ -654359,7 +654699,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800748051206_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-верея-чудно-прясно-мляко-1000g",
-      "last_seen": "2026-08-30",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -654377,11 +654717,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.74,
           "old_price": 1.89,
           "discount_pct": 23
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.49,
+          "price_eur": 0.76,
+          "old_price": 1.89,
+          "discount_pct": 21
         }
       ],
       "lowest_price": 1.45,
       "lowest_price_date": "2026-08-24",
-      "avg_price": 2.08
+      "avg_price": 1.89
     },
     {
       "name": "Fit Spo Протеиново барче Cookies&Caramel",
@@ -655079,7 +655427,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/04300450_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-hipp-пюре-различни-видове-220g",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -655113,11 +655461,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.1,
           "old_price": 2.45,
           "discount_pct": 12
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.08,
+          "price_eur": 1.06,
+          "old_price": 2.45,
+          "discount_pct": 15
         }
       ],
-      "lowest_price": 2.15,
-      "lowest_price_date": "2026-09-07",
-      "avg_price": 3.65
+      "lowest_price": 2.08,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 3.34
     },
     {
       "name": "Hipp Пюре за деца над 8 месеца",
@@ -655292,7 +655648,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20737386_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-beliisa-едам-гауда-или-ементалер-слаис-150g",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -655326,11 +655682,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.3,
           "old_price": 5.1,
           "discount_pct": 50
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.69,
+          "price_eur": 0.86,
+          "old_price": 2.55,
+          "discount_pct": 34
         }
       ],
-      "lowest_price": 2.48,
-      "lowest_price_date": "2026-07-27",
-      "avg_price": 5.0
+      "lowest_price": 1.69,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 4.34
     },
     {
       "name": "ALPRO Напитка на растителна основа избрани видовене",
@@ -655716,7 +656080,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00095005_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-белла-бутертесто-1000g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -655766,11 +656130,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.46,
           "old_price": 5.75,
           "discount_pct": 50
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 5.75,
+          "price_eur": 2.94,
+          "old_price": 11.5,
+          "discount_pct": 50
         }
       ],
       "lowest_price": 2.85,
       "lowest_price_date": "2026-09-28",
-      "avg_price": 5.42
+      "avg_price": 5.47
     },
     {
       "name": "Бор Чвор Сметана за готвене",
@@ -656297,7 +656669,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/02400203_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-nescafe-разтворимо-кафе-classic-250g",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -656331,11 +656703,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 3.52,
           "old_price": 11.96,
           "discount_pct": 42
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 7.15,
+          "price_eur": 3.66,
+          "old_price": 11.96,
+          "discount_pct": 40
         }
       ],
       "lowest_price": 6.89,
       "lowest_price_date": "2026-09-17",
-      "avg_price": 10.42
+      "avg_price": 9.77
     },
     {
       "name": "Friso 3 Адаптирано мляко за деца от 12 до 36 мес.",
@@ -657397,7 +657777,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/9427_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-кроасан-с-пуешки-кренвирш-95g",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -657630,7 +658010,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800837413694_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-тандем-шунка-финес-300g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -657664,11 +658044,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.17,
           "old_price": 4.6,
           "discount_pct": 50
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.45,
+          "price_eur": 1.76,
+          "old_price": 4.6,
+          "discount_pct": 25
         }
       ],
       "lowest_price": 2.29,
       "lowest_price_date": "2026-09-28",
-      "avg_price": 4.39
+      "avg_price": 4.2
     },
     {
       "name": "Градус Кренвирши от птиче месо",
@@ -657789,7 +658177,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/146_00091225_1_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-бреи-карначе-от-свинско-месо-400g",
-      "last_seen": "2026-06-14",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -657807,11 +658195,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 3.03,
           "old_price": 6.98,
           "discount_pct": 15
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.85,
+          "price_eur": 1.46,
+          "old_price": 3.57,
+          "discount_pct": 20
         }
       ],
-      "lowest_price": 5.85,
-      "lowest_price_date": "2026-05-11",
-      "avg_price": 5.89
+      "lowest_price": 2.85,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 4.88
     },
     {
       "name": "Народен Кренвирши от свежата витрина",
@@ -658687,7 +659083,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/513_02802210_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-хрус-хрус-солети-избрани-видове-60g",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -658705,11 +659101,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.09,
           "old_price": 0.25,
           "discount_pct": 28
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.2,
+          "price_eur": 0.1,
+          "old_price": 0.25,
+          "discount_pct": 20
         }
       ],
       "lowest_price": 0.18,
       "lowest_price_date": "2026-09-07",
-      "avg_price": 0.27
+      "avg_price": 0.24
     },
     {
       "name": "Хрус-хрус Солети за деца",
@@ -658732,7 +659136,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800116400124_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-хрус-хрус-солети-за-деца-60g",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -658750,11 +659154,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.09,
           "old_price": 0.25,
           "discount_pct": 28
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.2,
+          "price_eur": 0.1,
+          "old_price": 0.25,
+          "discount_pct": 20
         }
       ],
       "lowest_price": 0.18,
       "lowest_price_date": "2026-09-07",
-      "avg_price": 0.27
+      "avg_price": 0.24
     },
     {
       "name": "Eti Рорkеk различни вкусове",
@@ -658777,7 +659189,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20844721_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-eti-рорkеk-различни-вкусове-35g",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -658811,11 +659223,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.13,
           "old_price": 0.5,
           "discount_pct": 50
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.5,
+          "price_eur": 0.26,
+          "old_price": 1.0,
+          "discount_pct": 50
         }
       ],
       "lowest_price": 0.25,
       "lowest_price_date": "2026-09-07",
-      "avg_price": 0.55
+      "avg_price": 0.54
     },
     {
       "name": "Avengers/ Frozen Портмоне",
@@ -659093,9 +659513,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/326_2020878897_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/326_2020878898_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-престиж-миникеик-различни-видове-50g",
-      "last_seen": "2026-08-02",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -659113,11 +659533,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.29,
           "old_price": 0.78,
           "discount_pct": 27
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.29,
+          "price_eur": 0.15,
+          "old_price": 0.4,
+          "discount_pct": 28
         }
       ],
-      "lowest_price": 0.57,
-      "lowest_price_date": "2026-06-08",
-      "avg_price": 0.58
+      "lowest_price": 0.29,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 0.48
     },
     {
       "name": "Брецел различни видове",
@@ -659230,7 +659658,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20790818_P.jpg",
       "product_id": "kaufland-поничка-с-плодов-пълнеж-65g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -659280,11 +659708,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.21,
           "old_price": 0.55,
           "discount_pct": 25
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.39,
+          "price_eur": 0.2,
+          "old_price": 0.55,
+          "discount_pct": 29
         }
       ],
       "lowest_price": 0.39,
       "lowest_price_date": "2026-08-31",
-      "avg_price": 0.64
+      "avg_price": 0.6
     },
     {
       "name": "Баничка с шоколад от нашата пекарна",
@@ -659773,7 +660209,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/323_02900547_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-7-days-bake-rolls-различни-видове-80g",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -659840,7 +660276,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8595606410923_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/8595606410893_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-dante-храна-за-котки-различни-видове-415g",
       "last_seen": "2026-10-11",
       "first_seen": "2026-05-11",
@@ -659900,11 +660336,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.35,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.59,
+          "price_eur": 0.3,
+          "old_price": 0.74,
+          "discount_pct": 20
         }
       ],
-      "lowest_price": 0.66,
-      "lowest_price_date": "2026-08-31",
-      "avg_price": 1.09
+      "lowest_price": 0.59,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 1.02
     },
     {
       "name": "Kit Kat chunky/ Lion Десерт различни вкусове",
@@ -659927,7 +660371,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800020456293_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-kit-kat-chunky-lion-десерт-различни-вкусове-42g",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -660348,7 +660792,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4823077626227_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-roshen-аерошоколад-различни-видове-80g",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -660770,9 +661214,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800061608675_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800061608682_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-ная-обикновени-бисквити-различни-видове-180g",
-      "last_seen": "2026-05-17",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -660782,11 +661226,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.85,
           "old_price": 2.19,
           "discount_pct": 24
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.71,
+          "price_eur": 0.36,
+          "old_price": 1.19,
+          "discount_pct": 40
         }
       ],
-      "lowest_price": 1.66,
-      "lowest_price_date": "2026-05-11",
-      "avg_price": 1.66
+      "lowest_price": 0.71,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 1.19
     },
     {
       "name": "Heineken Silver Бира 4% vol",
@@ -660830,7 +661282,7 @@ const ALL_PRODUCTS_DATA = {
       "store": "Kaufland",
       "emoji": "🍺",
       "category": "drinks",
-      "weight_raw": "1 х 0,5 л",
+      "weight_raw": "0,5 л",
       "weight_grams": 500,
       "shelf_life": "малотраен",
       "is_food": false,
@@ -660844,9 +661296,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20787837_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00107516_FPM7205_Purple_Silver_single_bot_500_visual_BIG?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-heineken-бира-4-vol-500g",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -660872,11 +661324,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 4.59,
           "old_price": 13.1,
           "discount_pct": 31
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.89,
+          "price_eur": 0.46,
+          "old_price": 1.28,
+          "discount_pct": 30
         }
       ],
-      "lowest_price": 1.74,
-      "lowest_price_date": "2026-05-11",
-      "avg_price": 6.5
+      "lowest_price": 0.89,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 5.1
     },
     {
       "name": "Papadopoulos Бисквити Petit Beurre избрани видове",
@@ -661479,7 +661939,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800061607456_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-роден-краи-тунквани-бисквити-различни-видове-135g",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -661521,11 +661981,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.55,
           "old_price": 1.65,
           "discount_pct": 35
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.99,
+          "price_eur": 0.51,
+          "old_price": 1.65,
+          "discount_pct": 40
         }
       ],
       "lowest_price": 0.96,
       "lowest_price_date": "2026-08-31",
-      "avg_price": 1.6
+      "avg_price": 1.49
     },
     {
       "name": "Schweppes различни видове",
@@ -662147,7 +662615,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00107280_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-felix-pouch-храна-за-котки-различни-видове-320g",
-      "last_seen": "2026-09-28",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -662197,11 +662665,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.88,
           "old_price": 2.3,
           "discount_pct": 25
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.42,
+          "price_eur": 0.73,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 1.35,
       "lowest_price_date": "2026-08-31",
-      "avg_price": 1.89
+      "avg_price": 1.82
     },
     {
       "name": "PARADISE Тунквани бисквити различни видове",
@@ -662224,7 +662700,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20769489_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-paradise-тунквани-бисквити-различни-видове-147g",
-      "last_seen": "2026-05-17",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -662234,11 +662710,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.35,
           "old_price": 3.48,
           "discount_pct": 24
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.42,
+          "price_eur": 0.73,
+          "old_price": 1.89,
+          "discount_pct": 25
         }
       ],
-      "lowest_price": 2.64,
-      "lowest_price_date": "2026-05-11",
-      "avg_price": 2.64
+      "lowest_price": 1.42,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 2.03
     },
     {
       "name": "Моята Природа Течен сапун различни видове",
@@ -662759,7 +663243,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00108162_P?JGstbGVnYWN5LW9uc2l0ZS0xJA==",
       "product_id": "kaufland-medix-wc-гел-total-power-guard-различни-видове-750g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -663659,7 +664143,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4770179998366_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-pergale-бонбони-асорти-избрани-видове-117g",
-      "last_seen": "2026-08-30",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -663685,11 +664169,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.97,
           "old_price": 3.06,
           "discount_pct": 38
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.99,
+          "price_eur": 1.02,
+          "old_price": 3.06,
+          "discount_pct": 35
         }
       ],
       "lowest_price": 1.89,
       "lowest_price_date": "2026-08-24",
-      "avg_price": 3.09
+      "avg_price": 2.82
     },
     {
       "name": "Еко Мес Минисушеница",
@@ -664589,7 +665081,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00093218_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-dante-храна-за-кучета-с-вкус-на-говеждо-2000g",
-      "last_seen": "2026-07-05",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -664599,11 +665091,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 2.04,
           "old_price": 4.99,
           "discount_pct": 20
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.04,
+          "price_eur": 1.04,
+          "old_price": 2.55,
+          "discount_pct": 20
         }
       ],
-      "lowest_price": 3.99,
-      "lowest_price_date": "2026-05-11",
-      "avg_price": 3.99
+      "lowest_price": 2.04,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 3.02
     },
     {
       "name": "Tasty Еклер с шоколад",
@@ -664783,9 +665283,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627670244_BG_P?JGstbGVnYWN5LW9uc2l0ZS0xJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627806636_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-parkside-винтове-различни-видове",
-      "last_seen": "2026-05-17",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -665375,7 +665875,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4063367005657_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-k-classic-бургер-различни-видове-300g",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -665502,7 +666002,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/273_20690691_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-passionata-пица-thin-crunchy-различни-видове-335g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -665568,11 +666068,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.3,
           "old_price": 4.09,
           "discount_pct": 38
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 4.09,
+          "price_eur": 2.09,
+          "old_price": 8.18,
+          "discount_pct": 50
         }
       ],
       "lowest_price": 2.55,
       "lowest_price_date": "2026-08-17",
-      "avg_price": 5.01
+      "avg_price": 4.9
     },
     {
       "name": "Брей! Сух шпек",
@@ -667758,7 +668266,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5201314170457_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-str8-дезодорант-спреи-150g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -667808,11 +668316,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.7,
           "old_price": 4.44,
           "discount_pct": 25
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 4.44,
+          "price_eur": 2.27,
+          "old_price": 8.88,
+          "discount_pct": 50
         }
       ],
       "lowest_price": 3.33,
       "lowest_price_date": "2026-08-31",
-      "avg_price": 4.88
+      "avg_price": 4.82
     },
     {
       "name": "STR8 Дезодорант различни видове",
@@ -667835,7 +668351,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20835480_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-str8-дезодорант-различни-видове-150g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -667901,11 +668417,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.7,
           "old_price": 4.44,
           "discount_pct": 25
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 4.44,
+          "price_eur": 2.27,
+          "old_price": 8.88,
+          "discount_pct": 50
         }
       ],
       "lowest_price": 3.33,
       "lowest_price_date": "2026-08-31",
-      "avg_price": 5.3
+      "avg_price": 5.21
     },
     {
       "name": "Libresse Дамски превръзки различни видове",
@@ -668026,7 +668550,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5999518571308_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-lactacyd-гел-за-интимна-хигиена-различни-видове-200g",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -668087,7 +668611,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/638_20272849_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-lactacyd-интимен-гел-различни-видове-200g",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -668866,9 +669390,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": true,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/636_00074022?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3830029293629_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-sensodyne-паста-за-зъби-различни-видове-75g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -668966,11 +669490,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.53,
           "old_price": 3.5,
           "discount_pct": 15
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 4.25,
+          "price_eur": 2.17,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 2.99,
       "lowest_price_date": "2026-08-10",
-      "avg_price": 5.7
+      "avg_price": 5.59
     },
     {
       "name": "Сами-М Кордон бльо",
@@ -668993,7 +669525,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800791550015_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-сами-м-кордон-бльо-400g",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -669019,11 +669551,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.09,
           "old_price": 4.27,
           "discount_pct": 50
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 4.27,
+          "price_eur": 2.18,
+          "old_price": 8.54,
+          "discount_pct": 50
         }
       ],
       "lowest_price": 2.13,
       "lowest_price_date": "2026-08-31",
-      "avg_price": 4.88
+      "avg_price": 4.73
     },
     {
       "name": "Friskies Суха храна за котки различни видове",
@@ -669264,9 +669804,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20710068_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20710065_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-raffy-сладолед-различни-вкусове-560g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -669707,7 +670247,7 @@ const ALL_PRODUCTS_DATA = {
       "avg_price": 7.52
     },
     {
-      "name": "Four Friends Червено, Бяло вино или Розе различни сортове",
+      "name": "Four Friends Червено, бяло вино или розе различни сортове",
       "store": "Kaufland",
       "emoji": "🍺",
       "category": "drinks",
@@ -669725,9 +670265,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800229861973_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/571_00093403_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-four-friends-червено-бяло-вино-или-розе-различни-сортове-750g",
-      "last_seen": "2026-08-30",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -669745,11 +670285,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 2.5,
           "old_price": 7.66,
           "discount_pct": 36
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 4.99,
+          "price_eur": 2.55,
+          "old_price": 7.66,
+          "discount_pct": 35
         }
       ],
       "lowest_price": 4.89,
       "lowest_price_date": "2026-08-24",
-      "avg_price": 7.19
+      "avg_price": 6.46
     },
     {
       "name": "PEDIGREE Храна за кучета",
@@ -669907,7 +670455,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20782168_619?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-fairy-препарат-за-съдове-различни-видове-2х900мл-1800g",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -670026,7 +670574,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800215059896_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-домашни-сладки-1000g",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -672123,7 +672671,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00093209_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-dante-суха-храна-за-кучета-10000g",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -672149,11 +672697,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 3.66,
           "old_price": 10.22,
           "discount_pct": 30
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 8.17,
+          "price_eur": 4.18,
+          "old_price": 10.22,
+          "discount_pct": 20
         }
       ],
       "lowest_price": 7.15,
       "lowest_price_date": "2026-09-24",
-      "avg_price": 12.37
+      "avg_price": 11.32
     },
     {
       "name": "Peros Прах различни видове",
@@ -672626,7 +673182,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800024050664_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-teo-bebe-future-гел",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -672769,7 +673325,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627593277_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-my-project-комплект-автомобилни-стелки",
-      "last_seen": "2026-06-21",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -672779,11 +673335,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 9.71,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 8.99,
+          "price_eur": 4.6,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
-      "lowest_price": 18.99,
-      "lowest_price_date": "2026-05-11",
-      "avg_price": 18.99
+      "lowest_price": 8.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 13.99
     },
     {
       "name": "K-Classic Суха храна за кучета различни видове",
@@ -674167,7 +674731,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5011026108019_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-tullamore-dew-ирландско-уиски-1000g",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -674193,11 +674757,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 8.07,
           "old_price": 24.03,
           "discount_pct": 34
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 12.99,
+          "price_eur": 6.64,
+          "old_price": 24.03,
+          "discount_pct": 46
         }
       ],
-      "lowest_price": 15.79,
-      "lowest_price_date": "2026-08-31",
-      "avg_price": 25.88
+      "lowest_price": 12.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 22.66
     },
     {
       "name": "Crivit Надуваем дюшек 135 x 80 x 10 см",
@@ -688633,7 +689205,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/281_00098565_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-цаца-замразена-500g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-16",
       "price_history": [
         {
@@ -718917,7 +719489,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/185_2020917517B_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-цяло-пиле-кг",
-      "last_seen": "2026-08-09",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -718927,11 +719499,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 2.55,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.55,
+          "price_eur": 1.3,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
-      "lowest_price": 4.99,
-      "lowest_price_date": "2026-05-18",
-      "avg_price": 4.99
+      "lowest_price": 2.55,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 3.77
     },
     {
       "name": "Michik Миди ядки замразени",
@@ -719102,7 +719682,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20284400_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-kronos-печени-ядки-микс-делукс-400g",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -720284,7 +720864,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20909079_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-браво-деликатес-с-пуешки-бут",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -720494,7 +721074,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20676081C_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-закуска-с-топено-сирене-от-нашата-пекарна-110g",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -720520,11 +721100,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.26,
           "old_price": 0.81,
           "discount_pct": 38
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.49,
+          "price_eur": 0.25,
+          "old_price": 0.81,
+          "discount_pct": 40
         }
       ],
-      "lowest_price": 0.5,
-      "lowest_price_date": "2026-09-20",
-      "avg_price": 0.68
+      "lowest_price": 0.49,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 0.63
     },
     {
       "name": "Болярче Кисело мляко",
@@ -722780,7 +723368,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20824746_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-el-pastor-сирене-от-козе-мляко-испания",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -722814,11 +723402,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 9.04,
           "old_price": 24.03,
           "discount_pct": 26
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 16.89,
+          "price_eur": 8.64,
+          "old_price": 24.03,
+          "discount_pct": 30
         }
       ],
-      "lowest_price": 17.69,
-      "lowest_price_date": "2026-08-17",
-      "avg_price": 30.71
+      "lowest_price": 16.89,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 27.95
     },
     {
       "name": "President Сирене Ементал от нашата витрина",
@@ -724723,7 +725319,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00401836_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-my-day-прясно-мляко-3-5-масленост-1000g",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -724749,11 +725345,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.69,
           "old_price": 2.19,
           "discount_pct": 38
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.19,
+          "price_eur": 1.12,
+          "old_price": 4.38,
+          "discount_pct": 50
         }
       ],
       "lowest_price": 1.35,
       "lowest_price_date": "2026-08-17",
-      "avg_price": 2.24
+      "avg_price": 2.23
     },
     {
       "name": "Tostaki Пушено филе различни видове",
@@ -725227,7 +725831,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/286_00048077_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-actimel-млечна-напитка-различни-вкусове-400g",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -725261,11 +725865,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.97,
           "old_price": 2.43,
           "discount_pct": 22
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.82,
+          "price_eur": 0.93,
+          "old_price": 2.43,
+          "discount_pct": 25
         }
       ],
-      "lowest_price": 1.89,
-      "lowest_price_date": "2026-09-07",
-      "avg_price": 3.2
+      "lowest_price": 1.82,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 2.92
     },
     {
       "name": "Tchibo Турско мляно кафе",
@@ -726696,7 +727308,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/312_208002733010006_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-bonizzi-маскарпоне-500g",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -726833,7 +727445,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4008167004455_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-dallmayr-мляно-кафе-classic-250g",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -726928,7 +727540,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20921580-1?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-mlekpol-моцарела-настъргана-500g",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -727630,7 +728242,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00099533_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-mlekpol-моцарела-твърда-от-свежата-витрина",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -728251,7 +728863,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/492_00062077_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-kimbo-кафе-на-зърна-espresso-napoli-1000g",
-      "last_seen": "2026-06-28",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -728269,11 +728881,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 25.69,
           "old_price": 71.8,
           "discount_pct": 30
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 22.52,
+          "price_eur": 11.51,
+          "old_price": 36.71,
+          "discount_pct": 39
         }
       ],
-      "lowest_price": 44.96,
-      "lowest_price_date": "2026-05-18",
-      "avg_price": 47.61
+      "lowest_price": 22.52,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 39.24
     },
     {
       "name": "DOLCE GUSTO Кафе капсули различни видове",
@@ -728608,11 +729228,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.43,
           "old_price": 4.09,
           "discount_pct": 32
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.06,
+          "price_eur": 1.56,
+          "old_price": 4.09,
+          "discount_pct": 25
         }
       ],
       "lowest_price": 2.79,
       "lowest_price_date": "2026-08-17",
-      "avg_price": 4.83
+      "avg_price": 4.47
     },
     {
       "name": "Tostaki Наденица за грил",
@@ -728717,7 +729345,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20669352_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-мегдана-наденица",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -729157,7 +729785,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/01003579_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-орехите-шпек-от-свежата-витрина",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -729183,11 +729811,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 5.87,
           "old_price": 17.75,
           "discount_pct": 35
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 11.69,
+          "price_eur": 5.98,
+          "old_price": 17.75,
+          "discount_pct": 34
         }
       ],
       "lowest_price": 11.49,
       "lowest_price_date": "2026-09-07",
-      "avg_price": 18.62
+      "avg_price": 16.89
     },
     {
       "name": "Орехите Луканка Смядовска от свежата витрина",
@@ -730073,7 +730709,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/7622300331283_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-морени-maxx-тунквана-вафла-49g",
-      "last_seen": "2026-08-30",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -730115,11 +730751,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.17,
           "old_price": 0.66,
           "discount_pct": 48
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.39,
+          "price_eur": 0.2,
+          "old_price": 0.66,
+          "discount_pct": 41
         }
       ],
       "lowest_price": 0.34,
       "lowest_price_date": "2026-08-24",
-      "avg_price": 0.65
+      "avg_price": 0.61
     },
     {
       "name": "Донът с млечен шоколад",
@@ -730142,7 +730786,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20689556_P.jpg",
       "product_id": "kaufland-донът-с-млечен-шоколад-55g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -730232,11 +730876,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.19,
           "old_price": 0.5,
           "discount_pct": 26
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.35,
+          "price_eur": 0.18,
+          "old_price": 0.5,
+          "discount_pct": 30
         }
       ],
       "lowest_price": 0.35,
       "lowest_price_date": "2026-08-10",
-      "avg_price": 0.55
+      "avg_price": 0.53
     },
     {
       "name": "Вита баничка различни видове",
@@ -730773,7 +731425,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00053918_P-2?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-кроасан-с-нуга-крем-и-лешници-86g",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -732134,7 +732786,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00079220_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-stella-artois-бира-0-vol-330g",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -732179,7 +732831,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/Stella_Artois_Winter_Can?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-stella-artois-бира-500g",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -732963,7 +733615,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20693421_P.jpg",
       "product_id": "kaufland-lovita-бисквити-различни-видове-168g",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -733159,7 +733811,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/7622300320768_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-своге-десерт-република-различни-видове-40g",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -733185,56 +733837,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.17,
           "old_price": 0.56,
           "discount_pct": 41
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.35,
+          "price_eur": 0.18,
+          "old_price": 0.56,
+          "discount_pct": 38
         }
       ],
       "lowest_price": 0.33,
       "lowest_price_date": "2026-09-07",
-      "avg_price": 0.98
-    },
-    {
-      "name": "Doritos Царевичен чипс различни вкусове",
-      "store": "Kaufland",
-      "emoji": "🛒",
-      "category": "other",
-      "weight_raw": "90 г",
-      "weight_grams": 90,
-      "shelf_life": null,
-      "is_food": false,
-      "is_healthy": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": null,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20314635_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "product_id": "kaufland-doritos-царевичен-чипс-различни-вкусове-90g",
-      "last_seen": "2026-09-20",
-      "first_seen": "2026-05-18",
-      "price_history": [
-        {
-          "date": "2026-05-18",
-          "store": "Kaufland",
-          "price": 1.98,
-          "price_eur": 1.01,
-          "old_price": 3.13,
-          "discount_pct": 37
-        },
-        {
-          "date": "2026-09-14",
-          "store": "Kaufland",
-          "price": 0.99,
-          "price_eur": 0.51,
-          "old_price": 1.6,
-          "discount_pct": 38
-        }
-      ],
-      "lowest_price": 0.99,
-      "lowest_price_date": "2026-09-14",
-      "avg_price": 1.48
+      "avg_price": 0.82
     },
     {
       "name": "Руен Бисквити различни видове",
@@ -733257,7 +733872,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800093581274_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-руен-бисквити-различни-видове-266g",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -733307,11 +733922,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.66,
           "old_price": 2.04,
           "discount_pct": 37
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.04,
+          "price_eur": 1.04,
+          "old_price": 4.08,
+          "discount_pct": 50
         }
       ],
       "lowest_price": 1.02,
       "lowest_price_date": "2026-08-17",
-      "avg_price": 2.11
+      "avg_price": 2.1
     },
     {
       "name": "OLYMPUS Млечен десерт различни видове",
@@ -733782,9 +734405,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": true,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/636_20276782?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20341732_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-colgate-паста-или-четка-за-зъби-различни-видове-75g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -733914,11 +734537,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.1,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.09,
+          "price_eur": 0.56,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 1.09,
       "lowest_price_date": "2026-08-10",
-      "avg_price": 2.57
+      "avg_price": 2.49
     },
     {
       "name": "Colgate Паста за зъби Whitening",
@@ -733941,7 +734572,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20341734_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-colgate-паста-за-зъби-whitening-75g",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -734331,9 +734962,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00023698_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20834531_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-milka-шоколад-избрани-видове-100g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -734399,11 +735030,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.71,
           "old_price": 2.45,
           "discount_pct": 43
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.49,
+          "price_eur": 0.76,
+          "old_price": 2.55,
+          "discount_pct": 42
         }
       ],
       "lowest_price": 1.39,
       "lowest_price_date": "2026-08-24",
-      "avg_price": 3.09
+      "avg_price": 2.91
     },
     {
       "name": "LEONTIADIS FAMILY Гръцка пита пшенична",
@@ -734969,7 +735608,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20854352_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-мираж-тунквани-бисквити-макси-245g",
-      "last_seen": "2026-06-14",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -734987,11 +735626,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.53,
           "old_price": 4.38,
           "discount_pct": 32
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.65,
+          "price_eur": 0.84,
+          "old_price": 2.36,
+          "discount_pct": 30
         }
       ],
-      "lowest_price": 2.91,
-      "lowest_price_date": "2026-05-18",
-      "avg_price": 2.95
+      "lowest_price": 1.65,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 2.52
     },
     {
       "name": "Whiskas Пауч за котки различни видове",
@@ -735467,7 +736114,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20604352_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-soft-kings-бисквити-различни-видове-160g",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -735493,11 +736140,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.92,
           "old_price": 2.4,
           "discount_pct": 25
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.59,
+          "price_eur": 0.81,
+          "old_price": 2.4,
+          "discount_pct": 34
         }
       ],
-      "lowest_price": 1.79,
-      "lowest_price_date": "2026-09-20",
-      "avg_price": 2.92
+      "lowest_price": 1.59,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 2.59
     },
     {
       "name": "FAMILIA Кухненска ролка 4 бр.",
@@ -738161,59 +738816,6 @@ const ALL_PRODUCTS_DATA = {
       "avg_price": 5.32
     },
     {
-      "name": "Nivea Дезодорант, рол он или стик различни видове",
-      "store": "Kaufland",
-      "emoji": "🧴",
-      "category": "hygiene",
-      "weight_raw": null,
-      "weight_grams": null,
-      "shelf_life": "1-2г",
-      "is_food": false,
-      "is_healthy": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "health_score": null,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/04804687_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "product_id": "kaufland-nivea-дезодорант-рол-он-или-стик-различни-видове",
-      "last_seen": "2026-08-23",
-      "first_seen": "2026-05-18",
-      "price_history": [
-        {
-          "date": "2026-05-18",
-          "store": "Kaufland",
-          "price": 5.48,
-          "price_eur": 2.8,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-06-15",
-          "store": "Kaufland",
-          "price": 5.46,
-          "price_eur": 2.79,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-08-17",
-          "store": "Kaufland",
-          "price": 2.79,
-          "price_eur": 1.43,
-          "old_price": null,
-          "discount_pct": null
-        }
-      ],
-      "lowest_price": 2.79,
-      "lowest_price_date": "2026-08-17",
-      "avg_price": 4.58
-    },
-    {
       "name": "Spice&Soul Силиконова подложка",
       "store": "Kaufland",
       "emoji": "🛒",
@@ -739240,7 +739842,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20813287_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-пиринско-бира-6-х-0-5-л-кен-3000g",
-      "last_seen": "2026-08-30",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -739266,11 +739868,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.68,
           "old_price": 4.6,
           "discount_pct": 28
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.39,
+          "price_eur": 1.73,
+          "old_price": 4.75,
+          "discount_pct": 29
         }
       ],
       "lowest_price": 3.29,
       "lowest_price_date": "2026-08-24",
-      "avg_price": 5.4
+      "avg_price": 4.9
     },
     {
       "name": "JOHN COTTON Възглавница 50 x 70 см",
@@ -739473,7 +740083,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/518_02700981_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-mieszko-бонбони-chocoladorro-различни-видове-178g",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -739499,11 +740109,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.84,
           "old_price": 5.26,
           "discount_pct": 32
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.68,
+          "price_eur": 1.88,
+          "old_price": 5.26,
+          "discount_pct": 30
         }
       ],
       "lowest_price": 3.59,
       "lowest_price_date": "2026-09-20",
-      "avg_price": 5.82
+      "avg_price": 5.29
     },
     {
       "name": "JOLI Кухненска ролка Еlеgаnсе трипластова",
@@ -739981,7 +740599,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20347127_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-laica-универсален-филтър-bi-flux-различни-видове",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -741503,7 +742121,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627927812_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627899157_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-lupilu-детски-клин-98-128",
       "last_seen": "2026-10-11",
       "first_seen": "2026-05-18",
@@ -741539,11 +742157,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 3.06,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.99,
+          "price_eur": 2.04,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 2.91,
       "lowest_price_date": "2026-06-29",
-      "avg_price": 5.97
+      "avg_price": 5.57
     },
     {
       "name": "Игра Азбуката от 4-7 години",
@@ -741603,7 +742229,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5900353623459_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-mieszko-шоколадови-бонбони-magnifique-194g",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -741621,11 +742247,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 5.72,
           "old_price": 16.0,
           "discount_pct": 30
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 5.72,
+          "price_eur": 2.92,
+          "old_price": 8.18,
+          "discount_pct": 30
         }
       ],
-      "lowest_price": 10.39,
-      "lowest_price_date": "2026-05-18",
-      "avg_price": 10.79
+      "lowest_price": 5.72,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 9.1
     },
     {
       "name": "Stella Artois Бира промопакет",
@@ -742080,9 +742714,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627808807_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627886775_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-lupilu-детска-рокля-98-128",
-      "last_seen": "2026-07-05",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -742108,11 +742742,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 2.55,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 6.49,
+          "price_eur": 3.32,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 4.99,
       "lowest_price_date": "2026-06-29",
-      "avg_price": 7.99
+      "avg_price": 7.61
     },
     {
       "name": "L'оrеаl Боя за коса Excellence различни цветове",
@@ -742135,7 +742777,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/632_00068096?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-l-оrеаl-боя-за-коса-excellence-различни-цветове",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -742185,11 +742827,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 2.93,
           "old_price": 7.64,
           "discount_pct": 25
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 5.69,
+          "price_eur": 2.91,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 5.69,
       "lowest_price_date": "2026-09-07",
-      "avg_price": 8.46
+      "avg_price": 8.06
     },
     {
       "name": "L'OREAL EXCELLENCE Боя за коса без амоняк",
@@ -742212,7 +742862,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3600523998173_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-l-oreal-excellence-боя-за-коса-без-амоняк",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -742273,7 +742923,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/632_00068001?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-lоrеаl-боя-коса-различни-цветове",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -742620,7 +743270,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/02201393_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-ямболска-гроздова-1000g",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -742678,11 +743328,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 3.47,
           "old_price": 9.33,
           "discount_pct": 27
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 7.29,
+          "price_eur": 3.73,
+          "old_price": 9.33,
+          "discount_pct": 22
         }
       ],
       "lowest_price": 6.79,
       "lowest_price_date": "2026-09-20",
-      "avg_price": 11.78
+      "avg_price": 11.22
     },
     {
       "name": "Elode Парфюмна или Тоалетна вода различни аромати",
@@ -743661,7 +744319,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800124222862_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-economic-суха-храна-за-кучета-10000g",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -745966,7 +746624,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00108949B_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-laica-филтрираща-кана-или-филтър",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -748038,7 +748696,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5099873045367_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-jack-daniel-s-tennessee-уиски-1000g",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -748263,7 +748921,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627438103_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-parkside-куфар-за-инструменти-80-части",
-      "last_seen": "2026-05-24",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -748273,11 +748931,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 33.23,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 33.23,
+          "price_eur": 16.99,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
-      "lowest_price": 64.99,
-      "lowest_price_date": "2026-05-18",
-      "avg_price": 64.99
+      "lowest_price": 33.23,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 49.11
     },
     {
       "name": "BERLINGER HAUS Електрическа скара Rose Gold",
@@ -749486,7 +750152,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00033309_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-бяла-река-сьомгова-пъстърва-от-свежата-витрина",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -749560,7 +750226,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00033235_Promo_1469349?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-лаврак-изчистен",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -749646,7 +750312,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/2860730000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-сьомга-филе-с-кожа-от-свежата-витрина",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -749688,11 +750354,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 7.92,
           "old_price": 21.98,
           "discount_pct": 30
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 15.79,
+          "price_eur": 8.07,
+          "old_price": 21.98,
+          "discount_pct": 28
         }
       ],
       "lowest_price": 15.33,
       "lowest_price_date": "2026-08-17",
-      "avg_price": 19.19
+      "avg_price": 18.62
     },
     {
       "name": "Херинга филе размразено",
@@ -749720,7 +750394,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/148_00107917B_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-херинга-филе-размразено",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -749754,11 +750428,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 2.82,
           "old_price": 6.89,
           "discount_pct": 20
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 4.59,
+          "price_eur": 2.35,
+          "old_price": 6.89,
+          "discount_pct": 33
         }
       ],
       "lowest_price": 4.59,
       "lowest_price_date": "2026-08-17",
-      "avg_price": 6.15
+      "avg_price": 5.84
     },
     {
       "name": "Калмари пипала от свежата витрина",
@@ -757020,7 +757702,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/Velingrad_6x1_5L_Promo_Pack_3D_new?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-велинград-минерална-вода-промопакет-1500g",
-      "last_seen": "2026-08-30",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -759765,7 +760447,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20922400_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-гирос-различни-видове-380g",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-21",
       "price_history": [
         {
@@ -759775,11 +760457,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 4.99,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 4.99,
+          "price_eur": 2.55,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
-      "lowest_price": 9.76,
-      "lowest_price_date": "2026-05-21",
-      "avg_price": 9.76
+      "lowest_price": 4.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 7.38
     },
     {
       "name": "Пъстърва изчистена, прясна",
@@ -759974,7 +760664,8 @@ const ALL_PRODUCTS_DATA = {
       "health_score": 7,
       "diet_tags": [
         "keto",
-        "vegetarian"
+        "vegetarian",
+        "budget"
       ],
       "macros": {
         "kcal": 264,
@@ -759988,7 +760679,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20928384_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-родопея-сирене-от-краве-мляко-1000g",
-      "last_seen": "2026-07-19",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-22",
       "price_history": [
         {
@@ -760006,11 +760697,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 7.79,
           "old_price": 19.26,
           "discount_pct": 21
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 6.99,
+          "price_eur": 3.57,
+          "old_price": 9.85,
+          "discount_pct": 29
         }
       ],
-      "lowest_price": 13.67,
-      "lowest_price_date": "2026-05-22",
-      "avg_price": 14.46
+      "lowest_price": 6.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 11.97
     },
     {
       "name": "Бял хляб с квас от нашата пекарна",
@@ -760040,7 +760739,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/6608_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-бял-хляб-с-квас-от-нашата-пекарна-500g",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-22",
       "price_history": [
         {
@@ -763436,7 +764135,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800047702168_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-народен-каима-различни-видове-250g",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -763470,11 +764169,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.52,
           "old_price": 1.65,
           "discount_pct": 38
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.99,
+          "price_eur": 0.51,
+          "old_price": 1.65,
+          "discount_pct": 40
         }
       ],
-      "lowest_price": 1.02,
-      "lowest_price_date": "2026-08-24",
-      "avg_price": 1.73
+      "lowest_price": 0.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 1.59
     },
     {
       "name": "Народен Кайма за принцеси",
@@ -764379,7 +765086,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/183_00103969_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-пилешки-обезкостен-бут-от-свежата-витрина",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -764580,7 +765287,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/2840340000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-ocean-pick-пушена-сельодка-розова-от-свежата-витрина",
-      "last_seen": "2026-08-30",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -764598,11 +765305,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 4.6,
           "old_price": 13.8,
           "discount_pct": 35
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 8.68,
+          "price_eur": 4.44,
+          "old_price": 13.8,
+          "discount_pct": 37
         }
       ],
-      "lowest_price": 8.99,
-      "lowest_price_date": "2026-08-24",
-      "avg_price": 13.0
+      "lowest_price": 8.68,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 11.56
     },
     {
       "name": "Tedi Нектар морков, праскова и ябълка",
@@ -764838,7 +765553,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20269018_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-mlekovita-скир-различни-видове-500g",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -764856,11 +765571,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.07,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.19,
+          "price_eur": 1.12,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 2.09,
       "lowest_price_date": "2026-08-31",
-      "avg_price": 3.09
+      "avg_price": 2.79
     },
     {
       "name": "Люти чушки",
@@ -765252,7 +765975,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/283_3800000110504_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-lb-bulgaricum-кисело-мляко-proway-с-пробиотик-400g",
-      "last_seen": "2026-08-30",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -765352,7 +766075,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00500743B_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-хелиос-топено-сирене-различни-видове-200g",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -765514,7 +766237,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800201980067_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-пършевица-овче-кисело-мляко-от-собствена-ферма-400g",
-      "last_seen": "2026-08-30",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -765540,11 +766263,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.51,
           "old_price": 1.53,
           "discount_pct": 35
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.19,
+          "price_eur": 0.61,
+          "old_price": 1.53,
+          "discount_pct": 22
         }
       ],
       "lowest_price": 0.99,
       "lowest_price_date": "2026-08-24",
-      "avg_price": 1.85
+      "avg_price": 1.69
     },
     {
       "name": "PRESIDENT Сирене Котидж различни видове",
@@ -765719,7 +766450,8 @@ const ALL_PRODUCTS_DATA = {
       "health_score": 7,
       "diet_tags": [
         "high_protein",
-        "vegetarian"
+        "vegetarian",
+        "budget"
       ],
       "macros": {
         "kcal": 61,
@@ -765733,7 +766465,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/283_3800151900092_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-здравец-кисело-мляко-с-протеин-300g",
-      "last_seen": "2026-05-31",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -765743,11 +766475,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.55,
           "old_price": 3.79,
           "discount_pct": 20
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.55,
+          "price_eur": 0.79,
+          "old_price": 1.94,
+          "discount_pct": 20
         }
       ],
-      "lowest_price": 3.03,
-      "lowest_price_date": "2026-05-25",
-      "avg_price": 3.03
+      "lowest_price": 1.55,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 2.29
     },
     {
       "name": "Бор Чвор Цедено кисело мляко",
@@ -766164,7 +766904,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20028633_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-cheesupers-сирене-на-пръчици-80g",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -766762,7 +767502,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00042345_Promo_553463?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-castello-синьо-сирене-от-свежата-витрина",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -766780,11 +767520,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 8.12,
           "old_price": 24.54,
           "discount_pct": 35
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 14.99,
+          "price_eur": 7.66,
+          "old_price": 24.54,
+          "discount_pct": 39
         }
       ],
-      "lowest_price": 15.89,
-      "lowest_price_date": "2026-09-14",
-      "avg_price": 23.48
+      "lowest_price": 14.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 20.65
     },
     {
       "name": "Бял пшеничен хляб",
@@ -767404,7 +768152,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00068247B_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-рогче-с-маслини-от-нашата-пекарна-70g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -767438,11 +768186,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.13,
           "old_price": 0.51,
           "discount_pct": 51
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.51,
+          "price_eur": 0.26,
+          "old_price": 1.02,
+          "discount_pct": 50
         }
       ],
       "lowest_price": 0.25,
       "lowest_price_date": "2026-08-24",
-      "avg_price": 0.56
+      "avg_price": 0.55
     },
     {
       "name": "Florina Нектар или Плодова напитка различни видове",
@@ -767511,7 +768267,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20878465_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-златен-клас-макаронени-изделия-различни-видове-400g",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -767537,11 +768293,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.2,
           "old_price": 0.71,
           "discount_pct": 45
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.49,
+          "price_eur": 0.25,
+          "old_price": 0.71,
+          "discount_pct": 31
         }
       ],
       "lowest_price": 0.39,
       "lowest_price_date": "2026-08-31",
-      "avg_price": 0.64
+      "avg_price": 0.6
     },
     {
       "name": "ZOTT Плодов йогурт Jogobella различни видове",
@@ -767647,7 +768411,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/638_04805344?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-palmolive-тоалетен-сапун-лаика-с-витамин-с-90g",
-      "last_seen": "2026-08-16",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -767715,7 +768479,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8693495034180_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-palmolive-тоалетен-сапун-мляко-и-мед-90g",
-      "last_seen": "2026-08-16",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -767991,7 +768755,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4008432022023_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-k-classic-моцарела-класик-125g",
-      "last_seen": "2026-08-30",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -768009,11 +768773,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.46,
           "old_price": 1.47,
           "discount_pct": 39
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.99,
+          "price_eur": 0.51,
+          "old_price": 1.47,
+          "discount_pct": 33
         }
       ],
       "lowest_price": 0.89,
       "lowest_price_date": "2026-08-24",
-      "avg_price": 1.31
+      "avg_price": 1.21
     },
     {
       "name": "Eisberg Салата Айсберг",
@@ -768188,45 +768960,6 @@ const ALL_PRODUCTS_DATA = {
       "avg_price": 2.19
     },
     {
-      "name": "Prisun Плодова напитка различни вкусове",
-      "store": "Kaufland",
-      "emoji": "🍞",
-      "category": "bread",
-      "weight_raw": "2 л",
-      "weight_grams": 2000,
-      "shelf_life": "малотраен",
-      "is_food": true,
-      "is_healthy": true,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": 5,
-      "diet_tags": [
-        "budget"
-      ],
-      "macros": null,
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800746001326_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "product_id": "kaufland-prisun-плодова-напитка-различни-вкусове-2000g",
-      "last_seen": "2026-08-02",
-      "first_seen": "2026-05-25",
-      "price_history": [
-        {
-          "date": "2026-05-25",
-          "store": "Kaufland",
-          "price": 2.19,
-          "price_eur": 1.12,
-          "old_price": null,
-          "discount_pct": null
-        }
-      ],
-      "lowest_price": 2.19,
-      "lowest_price_date": "2026-05-25",
-      "avg_price": 2.19
-    },
-    {
       "name": "Prisun Плодова напитка различни видове",
       "store": "Kaufland",
       "emoji": "🍞",
@@ -768346,7 +769079,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00037650_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-queen-s-diamond-фурми-без-костилка-350g",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -768372,11 +769105,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.76,
           "old_price": 1.73,
           "discount_pct": 14
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.19,
+          "price_eur": 0.61,
+          "old_price": 1.73,
+          "discount_pct": 31
         }
       ],
-      "lowest_price": 1.49,
-      "lowest_price_date": "2026-08-31",
-      "avg_price": 2.04
+      "lowest_price": 1.19,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 1.83
     },
     {
       "name": "Ариел Фиш Разбит хайвер различни видове",
@@ -768404,7 +769145,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00108711_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-ариел-фиш-разбит-хаивер-различни-видове-150g",
-      "last_seen": "2026-06-21",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -768422,11 +769163,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 2.04,
           "old_price": 7.98,
           "discount_pct": 50
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.04,
+          "price_eur": 1.04,
+          "old_price": 4.08,
+          "discount_pct": 50
         }
       ],
-      "lowest_price": 2.33,
-      "lowest_price_date": "2026-05-25",
-      "avg_price": 3.16
+      "lowest_price": 2.04,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 2.79
     },
     {
       "name": "RICE UP! Протеиново барче Collagen различни вкусове",
@@ -769232,7 +769981,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00091979_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-алфатар-заквасена-сметана-500g",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -769455,7 +770204,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/282_00070232_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-olympus-carpos-напитка-на-растителна-основа-различни-видове-1000g",
-      "last_seen": "2026-05-31",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -769465,11 +770214,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 2.55,
           "old_price": 6.98,
           "discount_pct": 29
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.85,
+          "price_eur": 1.46,
+          "old_price": 3.57,
+          "discount_pct": 20
         }
       ],
-      "lowest_price": 4.99,
-      "lowest_price_date": "2026-05-25",
-      "avg_price": 4.99
+      "lowest_price": 2.85,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 3.92
     },
     {
       "name": "SILVERCREST Миксер за мляко",
@@ -770433,9 +771190,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/493_02401600_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/493_00073520?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-davidoff-кафе-различни-видове-250g",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -770493,11 +771250,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 3.57,
           "old_price": 12.27,
           "discount_pct": 43
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 6.89,
+          "price_eur": 3.52,
+          "old_price": 12.27,
+          "discount_pct": 44
         }
       ],
       "lowest_price": 6.89,
       "lowest_price_date": "2026-08-17",
-      "avg_price": 11.36
+      "avg_price": 10.8
     },
     {
       "name": "Маklеr Моцарела от свежата витрина",
@@ -770972,7 +771737,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/2822510000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-ивет-кренвирши-от-пилешко-месо",
-      "last_seen": "2026-10-09",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -771030,11 +771795,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.98,
           "old_price": 2.55,
           "discount_pct": 25
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.99,
+          "price_eur": 1.02,
+          "old_price": 2.55,
+          "discount_pct": 22
         }
       ],
       "lowest_price": 1.91,
       "lowest_price_date": "2026-10-08",
-      "avg_price": 3.27
+      "avg_price": 3.11
     },
     {
       "name": "Меско Пражка шунка",
@@ -771139,7 +771912,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00203402_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-кен-шунка-300g",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -771184,7 +771957,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/238_20741501_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-стария-ловец-луканков-салам-амбарица-600g",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -771335,7 +772108,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00038452_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-орехите-суджук-различни-видове-180g",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -771494,7 +772267,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/01001725_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-деликатес-житница-наденица-от-свежата-витрина",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -771520,11 +772293,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 3.16,
           "old_price": 9.2,
           "discount_pct": 33
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 5.99,
+          "price_eur": 3.06,
+          "old_price": 9.2,
+          "discount_pct": 35
         }
       ],
-      "lowest_price": 6.19,
-      "lowest_price_date": "2026-09-07",
-      "avg_price": 9.97
+      "lowest_price": 5.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 8.97
     },
     {
       "name": "КЕН Жарена шунка от свежата витрина",
@@ -771608,7 +772389,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00064400_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-димитър-маджаров-луканка-от-свежата-витрина",
-      "last_seen": "2026-08-09",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -771618,11 +772399,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 18.89,
           "old_price": 49.99,
           "discount_pct": 26
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 18.99,
+          "price_eur": 9.71,
+          "old_price": 25.56,
+          "discount_pct": 26
         }
       ],
-      "lowest_price": 36.95,
-      "lowest_price_date": "2026-05-25",
-      "avg_price": 36.95
+      "lowest_price": 18.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 27.97
     },
     {
       "name": "Шоколадово яйце с играчка PAW Patrol",
@@ -772029,7 +772818,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20843238_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-elit-кеик-milkiss-различни-вкусове-42g",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -772071,11 +772860,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.18,
           "old_price": 0.51,
           "discount_pct": 31
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.51,
+          "price_eur": 0.26,
+          "old_price": 1.02,
+          "discount_pct": 50
         }
       ],
       "lowest_price": 0.35,
       "lowest_price_date": "2026-08-31",
-      "avg_price": 0.68
+      "avg_price": 0.65
     },
     {
       "name": "Bg Line Суха паста Ретро различни видове",
@@ -772439,7 +773236,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00401182_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-бор-чвор-млечнокисел-десерт-200g",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -772749,7 +773546,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/511_00073127_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-star-снакс-микс-различни-вкусове-90g",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -772791,11 +773588,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.35,
           "old_price": 1.02,
           "discount_pct": 32
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.65,
+          "price_eur": 0.33,
+          "old_price": 1.02,
+          "discount_pct": 36
         }
       ],
       "lowest_price": 0.65,
       "lowest_price_date": "2026-08-10",
-      "avg_price": 1.05
+      "avg_price": 0.98
     },
     {
       "name": "СЛАДЕЯ Пудра захар",
@@ -773247,7 +774052,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00052035_P_%282%29?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-житен-път-бисквити-biskvitko-различни-видове-350g",
-      "last_seen": "2026-08-02",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -773273,11 +774078,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.95,
           "old_price": 3.72,
           "discount_pct": 50
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.9,
+          "price_eur": 0.97,
+          "old_price": 3.8,
+          "discount_pct": 50
         }
       ],
       "lowest_price": 1.78,
       "lowest_price_date": "2026-05-25",
-      "avg_price": 2.45
+      "avg_price": 2.31
     },
     {
       "name": "Победа Бисквити Еверест различни видове",
@@ -773298,9 +774111,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800008604487_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800008604470_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-победа-бисквити-еверест-различни-видове-220g",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -773318,11 +774131,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.47,
           "old_price": 1.32,
           "discount_pct": 30
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.99,
+          "price_eur": 0.51,
+          "old_price": 1.32,
+          "discount_pct": 25
         }
       ],
       "lowest_price": 0.92,
       "lowest_price_date": "2026-08-17",
-      "avg_price": 1.36
+      "avg_price": 1.24
     },
     {
       "name": "Karo Кюфтета различни видове",
@@ -773467,7 +774288,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/284_00054361_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-danone-activia-пълнозърнеста-различни-видове-280g",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -773512,7 +774333,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20354978_20_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-exquisa-чиизкеик-различни-видове-70g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -773687,7 +774508,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/404_01400704_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-compass-пастет-различни-видове-240g",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -773710,51 +774531,6 @@ const ALL_PRODUCTS_DATA = {
       "lowest_price": 1.15,
       "lowest_price_date": "2026-08-17",
       "avg_price": 1.7
-    },
-    {
-      "name": "PEPSI/ MIRINDA/ 7 UP",
-      "store": "Kaufland",
-      "emoji": "🛒",
-      "category": "other",
-      "weight_raw": "2,5 л",
-      "weight_grams": 2500,
-      "shelf_life": null,
-      "is_food": false,
-      "is_healthy": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": null,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/02300244_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "product_id": "kaufland-pepsi-mirinda-7-up-2500g",
-      "last_seen": "2026-08-02",
-      "first_seen": "2026-04-20",
-      "price_history": [
-        {
-          "date": "2026-04-20",
-          "store": "Kaufland",
-          "price": 0.88,
-          "price_eur": 0.45,
-          "old_price": 1.7,
-          "discount_pct": 48
-        },
-        {
-          "date": "2026-05-25",
-          "store": "Kaufland",
-          "price": 2.29,
-          "price_eur": 1.17,
-          "old_price": null,
-          "discount_pct": null
-        }
-      ],
-      "lowest_price": 0.88,
-      "lowest_price_date": "2026-04-20",
-      "avg_price": 1.58
     },
     {
       "name": "АЕА Соленки различни видове",
@@ -774235,7 +775011,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/245_20777670_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-k-classic-кабаноси-различни-видове-120g",
-      "last_seen": "2026-08-16",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -774253,11 +775029,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.71,
           "old_price": 2.04,
           "discount_pct": 32
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.49,
+          "price_eur": 0.76,
+          "old_price": 2.04,
+          "discount_pct": 27
         }
       ],
       "lowest_price": 1.39,
       "lowest_price_date": "2026-08-10",
-      "avg_price": 2.06
+      "avg_price": 1.87
     },
     {
       "name": "Целувки различни видове",
@@ -774280,7 +775064,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20663534_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-целувки-различни-видове-110g",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -774370,7 +775154,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/638_04805061?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-medix-течен-сапун-различни-видове-800g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -774431,7 +775215,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/638_04805039?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-medix-течен-сапун-800g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -774905,7 +775689,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20821058_585?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-pedigree-пауч-за-куче-различни-видове-4-х-100-гр-400g",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -774923,11 +775707,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.78,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.55,
+          "price_eur": 0.79,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 1.53,
       "lowest_price_date": "2026-09-14",
-      "avg_price": 2.26
+      "avg_price": 2.02
     },
     {
       "name": "Pedigree Храна за кучета пауч",
@@ -774950,7 +775742,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5900951249426_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-pedigree-храна-за-кучета-пауч-340g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -775016,11 +775808,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.87,
           "old_price": 2.28,
           "discount_pct": 25
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.55,
+          "price_eur": 0.79,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 1.53,
       "lowest_price_date": "2026-08-10",
-      "avg_price": 2.23
+      "avg_price": 2.15
     },
     {
       "name": "Aroma Крем за лице",
@@ -777236,7 +778036,7 @@ const ALL_PRODUCTS_DATA = {
       "avg_price": 5.15
     },
     {
-      "name": "K-Carinura Суха храна за котки различни видове",
+      "name": "K-CARINURA Суха храна за котки различни видове",
       "store": "Kaufland",
       "emoji": "🐾",
       "category": "pet",
@@ -777254,9 +778054,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/4067776016846_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4067776016860_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-k-carinura-суха-храна-за-котки-различни-видове-800g",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -777318,7 +778118,7 @@ const ALL_PRODUCTS_DATA = {
       "avg_price": 4.99
     },
     {
-      "name": "SilverCrest Нож различни видове",
+      "name": "SILVERCREST Нож различни видове",
       "store": "Kaufland",
       "emoji": "🛒",
       "category": "other",
@@ -777336,9 +778136,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627819308_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627940415_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-silvercrest-нож-различни-видове",
-      "last_seen": "2026-07-05",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -777348,11 +778148,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 2.55,
           "old_price": 7.8,
           "discount_pct": 36
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.49,
+          "price_eur": 0.25,
+          "old_price": 0.99,
+          "discount_pct": 51
         }
       ],
-      "lowest_price": 4.99,
-      "lowest_price_date": "2026-05-25",
-      "avg_price": 4.99
+      "lowest_price": 0.49,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 2.74
     },
     {
       "name": "SILVERCREST Капак 3в1",
@@ -777531,7 +778339,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5201314107095_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-str8-дезодорант-спреи-red-code-150g",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -778185,7 +778993,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20813286_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-carlsberg-бира-5-vol-2000g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -778235,11 +779043,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.55,
           "old_price": 4.33,
           "discount_pct": 30
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.69,
+          "price_eur": 1.38,
+          "old_price": 4.33,
+          "discount_pct": 38
         }
       ],
-      "lowest_price": 2.93,
-      "lowest_price_date": "2026-08-17",
-      "avg_price": 4.66
+      "lowest_price": 2.69,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 4.38
     },
     {
       "name": "NESQUIK Сладолед на клечка",
@@ -778445,7 +779261,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00112999_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-бреи-кебапчета-или-кюфтета-стандарт-стара-планина-480g",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -778743,7 +779559,7 @@ const ALL_PRODUCTS_DATA = {
       "avg_price": 4.98
     },
     {
-      "name": "Livarno Четка за тоалетна чиния",
+      "name": "LIVARNO Четка за тоалетна чиния",
       "store": "Kaufland",
       "emoji": "🧹",
       "category": "household",
@@ -778761,9 +779577,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627783784_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627949371_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-livarno-четка-за-тоалетна-чиния",
-      "last_seen": "2026-05-31",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -778773,11 +779589,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 3.06,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 5.99,
+          "price_eur": 3.06,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 5.98,
       "lowest_price_date": "2026-05-25",
-      "avg_price": 5.98
+      "avg_price": 5.99
     },
     {
       "name": "ESMARA Тениска S - XL",
@@ -779881,9 +780705,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627794209_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627920684_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-lupilu-детска-пижама-98-128",
-      "last_seen": "2026-05-31",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -779893,11 +780717,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 3.57,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 4.99,
+          "price_eur": 2.55,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
-      "lowest_price": 6.98,
-      "lowest_price_date": "2026-05-25",
-      "avg_price": 6.98
+      "lowest_price": 4.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 5.99
     },
     {
       "name": "GLISS Шампоан или Балсам спрей различни видове",
@@ -780161,7 +780993,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00095004_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-фамилия-минибанички-замразени-1200g",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -780219,11 +781051,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 2.19,
           "old_price": 7.35,
           "discount_pct": 42
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 4.39,
+          "price_eur": 2.24,
+          "old_price": 7.35,
+          "discount_pct": 40
         }
       ],
       "lowest_price": 4.29,
       "lowest_price_date": "2026-08-10",
-      "avg_price": 7.83
+      "avg_price": 7.4
     },
     {
       "name": "K-CLASSIC Сладолед Мини Макс различни вкусове",
@@ -781123,7 +781963,7 @@ const ALL_PRODUCTS_DATA = {
       "avg_price": 8.98
     },
     {
-      "name": "Crivit Чехли 36 - 45",
+      "name": "CRIVIT Чехли 36 - 45",
       "store": "Kaufland",
       "emoji": "🛒",
       "category": "other",
@@ -781141,9 +781981,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627804588_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627946271_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-crivit-чехли-36-45",
-      "last_seen": "2026-05-31",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -781153,11 +781993,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 4.59,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.99,
+          "price_eur": 2.04,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
-      "lowest_price": 8.98,
-      "lowest_price_date": "2026-05-25",
-      "avg_price": 8.98
+      "lowest_price": 3.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 6.49
     },
     {
       "name": "Esmara Kids Детски къси чорапи 31 - 42",
@@ -782857,7 +783705,7 @@ const ALL_PRODUCTS_DATA = {
       "avg_price": 9.99
     },
     {
-      "name": "Crivit Къс панталон M - XL",
+      "name": "CRIVIT Къс панталон M - XL",
       "store": "Kaufland",
       "emoji": "🛒",
       "category": "other",
@@ -782875,9 +783723,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627915246_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627873829_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-crivit-къс-панталон-m-xl",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -782895,11 +783743,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 3.32,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.99,
+          "price_eur": 2.04,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
-      "lowest_price": 6.49,
-      "lowest_price_date": "2026-09-14",
-      "avg_price": 9.74
+      "lowest_price": 3.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 7.82
     },
     {
       "name": "Crivit Къс панталон S - L",
@@ -783470,9 +784326,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627757013_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627900631_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-livarno-седалка-за-тоалетна-чиния",
-      "last_seen": "2026-05-31",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -783482,11 +784338,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 8.18,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 16.99,
+          "price_eur": 8.69,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 16.0,
       "lowest_price_date": "2026-05-25",
-      "avg_price": 16.0
+      "avg_price": 16.49
     },
     {
       "name": "LIVARNO Душ комплект с 5 функции",
@@ -783618,9 +784482,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627831249_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627960710_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-silvercrest-чаши-6-бр",
-      "last_seen": "2026-05-31",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -783630,11 +784494,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 9.2,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.53,
+          "price_eur": 0.78,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
-      "lowest_price": 17.99,
-      "lowest_price_date": "2026-05-25",
-      "avg_price": 17.99
+      "lowest_price": 1.53,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 9.76
     },
     {
       "name": "LUPILU Детски сандали 25 - 30",
@@ -783885,9 +784757,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": true,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627809668_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627809903_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-crivit-маратонки-37-46",
-      "last_seen": "2026-05-31",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -783897,11 +784769,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 10.22,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 10.99,
+          "price_eur": 5.62,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
-      "lowest_price": 19.99,
-      "lowest_price_date": "2026-05-25",
-      "avg_price": 19.99
+      "lowest_price": 10.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 15.49
     },
     {
       "name": "Ballantine's Finest Шотландско уиски",
@@ -783924,7 +784804,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5010106113578_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-ballantine-s-finest-шотландско-уиски-700g",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -784478,7 +785358,7 @@ const ALL_PRODUCTS_DATA = {
       "avg_price": 29.32
     },
     {
-      "name": "Silvercrest Тиган Ø28 см",
+      "name": "SILVERCREST Тиган Ø28 см",
       "store": "Kaufland",
       "emoji": "🛒",
       "category": "other",
@@ -784496,9 +785376,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627808296_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627947650_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-silvercrest-тиган-ø28-см",
-      "last_seen": "2026-05-31",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -784508,11 +785388,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 15.33,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 10.99,
+          "price_eur": 5.62,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
-      "lowest_price": 29.98,
-      "lowest_price_date": "2026-05-25",
-      "avg_price": 29.98
+      "lowest_price": 10.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 20.48
     },
     {
       "name": "PARKSIDE®PERFORMANCE Градинска пръскачка четириъгълна",
@@ -785075,9 +785963,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627786136_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627910524_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-livarno-душ-комплект",
-      "last_seen": "2026-05-31",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -785087,11 +785975,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 25.55,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 29.99,
+          "price_eur": 15.33,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
-      "lowest_price": 49.97,
-      "lowest_price_date": "2026-05-25",
-      "avg_price": 49.97
+      "lowest_price": 29.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 39.98
     },
     {
       "name": "PARKSIDE®PERFORMANCE Акумулаторна батерия Smart PAP20",
@@ -787441,7 +788337,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800837414035_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-тандем-колбас-телешки-хамбургски-камчия-300g",
-      "last_seen": "2026-08-16",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -792643,7 +793539,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800837424638_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-тандем-филе-елена",
-      "last_seen": "2026-05-29",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-28",
       "price_history": [
         {
@@ -792653,11 +793549,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 2.44,
           "old_price": 6.83,
           "discount_pct": 30
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.61,
+          "price_eur": 1.33,
+          "old_price": 3.49,
+          "discount_pct": 25
         }
       ],
-      "lowest_price": 4.77,
-      "lowest_price_date": "2026-05-28",
-      "avg_price": 4.77
+      "lowest_price": 2.61,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 3.69
     },
     {
       "name": "Супер цена - Alpro Напитка соева или кокосова 1 л",
@@ -793973,7 +794877,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20347656_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-тандем-миникренвирши-200g",
-      "last_seen": "2026-06-05",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-28",
       "price_history": [
         {
@@ -793983,11 +794887,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 2.14,
           "old_price": 5.98,
           "discount_pct": 30
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.29,
+          "price_eur": 1.17,
+          "old_price": 3.06,
+          "discount_pct": 25
         }
       ],
-      "lowest_price": 4.19,
-      "lowest_price_date": "2026-05-28",
-      "avg_price": 4.19
+      "lowest_price": 2.29,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 3.24
     },
     {
       "name": "Тандем Кренвирши",
@@ -794010,7 +794922,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800837413304_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-тандем-кренвирши-250g",
-      "last_seen": "2026-10-09",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-28",
       "price_history": [
         {
@@ -794137,7 +795049,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/235_203800837314847_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-тандем-свинско-филе-или-бекон-слаис-160g",
-      "last_seen": "2026-05-29",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-28",
       "price_history": [
         {
@@ -794147,11 +795059,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 2.3,
           "old_price": 6.43,
           "discount_pct": 30
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.46,
+          "price_eur": 1.26,
+          "old_price": 3.29,
+          "discount_pct": 25
         }
       ],
-      "lowest_price": 4.5,
-      "lowest_price_date": "2026-05-28",
-      "avg_price": 4.5
+      "lowest_price": 2.46,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 3.48
     },
     {
       "name": "Grill Party Ущипци с бекон и кашкавал 320 г",
@@ -794211,7 +795131,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/41250_______________200______?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-тандем-шунка-класик-слаис-200g",
-      "last_seen": "2026-05-29",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-28",
       "price_history": [
         {
@@ -794221,11 +795141,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 2.86,
           "old_price": 8.0,
           "discount_pct": 30
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.06,
+          "price_eur": 1.56,
+          "old_price": 4.09,
+          "discount_pct": 25
         }
       ],
-      "lowest_price": 5.59,
-      "lowest_price_date": "2026-05-28",
-      "avg_price": 5.59
+      "lowest_price": 3.06,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 4.33
     },
     {
       "name": "Тандем Бекон",
@@ -794248,7 +795176,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20349385_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-тандем-бекон-200g",
-      "last_seen": "2026-06-14",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-28",
       "price_history": [
         {
@@ -794266,11 +795194,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 4.09,
           "old_price": 16.0,
           "discount_pct": 50
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.06,
+          "price_eur": 1.56,
+          "old_price": 4.09,
+          "discount_pct": 25
         }
       ],
-      "lowest_price": 5.59,
-      "lowest_price_date": "2026-05-28",
-      "avg_price": 6.79
+      "lowest_price": 3.06,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 5.55
     },
     {
       "name": "ЛИВАДИЦА БЯЛО САЛАМУРЕНО СИРЕНЕ ОТ КРАВЕ МЛЯКО Б-Я",
@@ -794439,7 +795375,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800837402438_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-тандем-кренвирши-стара-планина-320g",
-      "last_seen": "2026-06-05",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-28",
       "price_history": [
         {
@@ -794449,11 +795385,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 3.22,
           "old_price": 9.0,
           "discount_pct": 30
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.45,
+          "price_eur": 1.76,
+          "old_price": 4.6,
+          "discount_pct": 25
         }
       ],
-      "lowest_price": 6.3,
-      "lowest_price_date": "2026-05-28",
-      "avg_price": 6.3
+      "lowest_price": 3.45,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 4.88
     },
     {
       "name": "Тандем Шунка или Пилешко филе Via Natura",
@@ -794476,7 +795420,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800837314472_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-тандем-шунка-или-пилешко-филе-via-natura-160g",
-      "last_seen": "2026-05-29",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-28",
       "price_history": [
         {
@@ -794486,11 +795430,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 3.22,
           "old_price": 9.0,
           "discount_pct": 30
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.45,
+          "price_eur": 1.76,
+          "old_price": 4.6,
+          "discount_pct": 25
         }
       ],
-      "lowest_price": 6.3,
-      "lowest_price_date": "2026-05-28",
-      "avg_price": 6.3
+      "lowest_price": 3.45,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 4.88
     },
     {
       "name": "Тандем Луканка или Роле",
@@ -794513,7 +795465,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800837435825_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-тандем-луканка-или-роле-120g",
-      "last_seen": "2026-05-29",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-28",
       "price_history": [
         {
@@ -794523,11 +795475,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 3.22,
           "old_price": 9.0,
           "discount_pct": 30
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.45,
+          "price_eur": 1.76,
+          "old_price": 4.6,
+          "discount_pct": 25
         }
       ],
-      "lowest_price": 6.3,
-      "lowest_price_date": "2026-05-28",
-      "avg_price": 6.3
+      "lowest_price": 3.45,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 4.88
     },
     {
       "name": "Супер цена - Еко Мес Салам закуска 400 г",
@@ -794624,7 +795584,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800837436327_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-тандем-луканка-или-суджук-170g",
-      "last_seen": "2026-05-29",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-28",
       "price_history": [
         {
@@ -794634,11 +795594,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 5.0,
           "old_price": 13.98,
           "discount_pct": 30
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 5.36,
+          "price_eur": 2.74,
+          "old_price": 7.15,
+          "discount_pct": 25
         }
       ],
-      "lowest_price": 9.78,
-      "lowest_price_date": "2026-05-28",
-      "avg_price": 9.78
+      "lowest_price": 5.36,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 7.57
     },
     {
       "name": "Кен Кренвирш От деликатесната витрина За 1 кг",
@@ -796636,7 +797604,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_00081731_P.jpg",
       "product_id": "kaufland-тандем-пастет-апетит-180g",
-      "last_seen": "2026-05-29",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-28",
       "price_history": [
         {
@@ -796646,11 +797614,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.07,
           "old_price": 2.99,
           "discount_pct": 30
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.14,
+          "price_eur": 0.58,
+          "old_price": 1.53,
+          "discount_pct": 25
         }
       ],
-      "lowest_price": 2.09,
-      "lowest_price_date": "2026-05-28",
-      "avg_price": 2.09
+      "lowest_price": 1.14,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 1.61
     },
     {
       "name": "McGold Хот дог хлебчета 4 x 65 г Произход - България",
@@ -798744,7 +799720,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00081475_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-тандем-шпек-бургас-210g",
-      "last_seen": "2026-07-05",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-28",
       "price_history": [
         {
@@ -798762,11 +799738,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 3.45,
           "old_price": 9.0,
           "discount_pct": 25
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.45,
+          "price_eur": 1.76,
+          "old_price": 4.6,
+          "discount_pct": 25
         }
       ],
-      "lowest_price": 6.3,
-      "lowest_price_date": "2026-05-28",
-      "avg_price": 6.53
+      "lowest_price": 3.45,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 5.5
     },
     {
       "name": "K-Classic Въглища",
@@ -799755,7 +800739,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800837314861_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-тандем-деликатесен-или-планински-колбас-500g",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-28",
       "price_history": [
         {
@@ -799781,11 +800765,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 3.42,
           "old_price": 8.99,
           "discount_pct": 26
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 6.74,
+          "price_eur": 3.45,
+          "old_price": 8.99,
+          "discount_pct": 25
         }
       ],
       "lowest_price": 6.69,
       "lowest_price_date": "2026-09-07",
-      "avg_price": 10.69
+      "avg_price": 9.7
     },
     {
       "name": "Lenor Промопакет омекотител 2 х 71 пранета или 2 х 59 пранета - 1 опаковка Продукт, маркиран със синя звезда 1 изпиране = 0,06 €/0,12 лв./ 2 х 59 пранета, 0,05 €/0,10 лв./2 х 71 пранета",
@@ -804214,7 +805206,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/2830950000000_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-зелени-чушки",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-01",
       "price_history": [
         {
@@ -804256,11 +805248,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.61,
           "old_price": 1.79,
           "discount_pct": 34
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.29,
+          "price_eur": 0.66,
+          "old_price": 2.1,
+          "discount_pct": 39
         }
       ],
       "lowest_price": 1.19,
       "lowest_price_date": "2026-09-07",
-      "avg_price": 3.19
+      "avg_price": 2.88
     },
     {
       "name": "Olympus Извара от свежата витрина",
@@ -804703,7 +805703,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20867078_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-monarch-топено-сирене-различни-видове-140g",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -805233,7 +806233,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3083680014441_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-bonduelle-сладка-царевица-или-млечен-грах-400g",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -805339,7 +806339,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/137_202826320000000_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-тандем-свинско-филе-жарено",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-01",
       "price_history": [
         {
@@ -806394,7 +807394,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5449000236067_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-fuze-tea-студен-чаи-горски-плодове-1500g",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -806412,11 +807412,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.29,
           "old_price": 3.48,
           "discount_pct": 28
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.29,
+          "price_eur": 0.66,
+          "old_price": 1.78,
+          "discount_pct": 28
         }
       ],
-      "lowest_price": 2.48,
-      "lowest_price_date": "2026-04-27",
-      "avg_price": 2.5
+      "lowest_price": 1.29,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 2.1
     },
     {
       "name": "Fuze Tea Студен чай манго и ананас",
@@ -806483,9 +807491,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/5449000236630_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/664_00082702_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-fuze-tea-студен-чаи-различни-видове-1500g",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -806546,7 +807554,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800207948160_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-elit-протеиново-барче-различни-вкусове-67g",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -807149,7 +808157,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4006067943676_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-tchibo-мляно-кафе-250g",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-01",
       "price_history": [
         {
@@ -807167,64 +808175,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 2.09,
           "old_price": 8.18,
           "discount_pct": 50
-        }
-      ],
-      "lowest_price": 4.09,
-      "lowest_price_date": "2026-09-14",
-      "avg_price": 6.04
-    },
-    {
-      "name": "Bianchi Nero Кафе капсули различни видове",
-      "store": "Kaufland",
-      "emoji": "🍺",
-      "category": "drinks",
-      "weight_raw": "128 г",
-      "weight_grams": 128,
-      "shelf_life": "малотраен",
-      "is_food": true,
-      "is_healthy": true,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": 5,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20674610_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "product_id": "kaufland-bianchi-nero-кафе-капсули-различни-видове-128g",
-      "last_seen": "2026-09-06",
-      "first_seen": "2026-06-01",
-      "price_history": [
-        {
-          "date": "2026-06-01",
-          "store": "Kaufland",
-          "price": 8.49,
-          "price_eur": 4.34,
-          "old_price": 11.6,
-          "discount_pct": 27
         },
         {
-          "date": "2026-07-06",
+          "date": "2026-10-11",
           "store": "Kaufland",
-          "price": 7.8,
-          "price_eur": 3.99,
-          "old_price": 11.6,
-          "discount_pct": 33
-        },
-        {
-          "date": "2026-08-31",
-          "store": "Kaufland",
-          "price": 3.99,
-          "price_eur": 2.04,
-          "old_price": 5.93,
-          "discount_pct": 33
+          "price": 3.79,
+          "price_eur": 1.94,
+          "old_price": 8.18,
+          "discount_pct": 54
         }
       ],
-      "lowest_price": 3.99,
-      "lowest_price_date": "2026-08-31",
-      "avg_price": 6.76
+      "lowest_price": 3.79,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 5.29
     },
     {
       "name": "Kimbo Мляно кафе избрани видове",
@@ -807405,7 +808368,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20047302_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-dallmayr-prodomo-мляно-кафе-100-арабика-250g",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-01",
       "price_history": [
         {
@@ -807623,7 +808586,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20707615_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-eduscho-мляно-кафе-classic-различни-видове-500g",
-      "last_seen": "2026-07-05",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -807641,11 +808604,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 6.69,
           "old_price": 23.45,
           "discount_pct": 44
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 5.99,
+          "price_eur": 3.06,
+          "old_price": 11.99,
+          "discount_pct": 50
         }
       ],
-      "lowest_price": 12.5,
-      "lowest_price_date": "2026-04-27",
-      "avg_price": 12.79
+      "lowest_price": 5.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 10.52
     },
     {
       "name": "Filippo Berio Маслиново масло екстра върджин",
@@ -807723,7 +808694,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800106203193_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-димитър-маджаров-кашкавал-от-козе-овче-или-биволско-мляко-380g",
-      "last_seen": "2026-08-16",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-01",
       "price_history": [
         {
@@ -807741,11 +808712,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 3.57,
           "old_price": 10.48,
           "discount_pct": 33
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 7.39,
+          "price_eur": 3.78,
+          "old_price": 10.48,
+          "discount_pct": 29
         }
       ],
       "lowest_price": 6.99,
       "lowest_price_date": "2026-08-10",
-      "avg_price": 10.48
+      "avg_price": 9.45
     },
     {
       "name": "Белииса Кашкавал от свежата витрина",
@@ -807942,7 +808921,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/DE20916298_23P-5901211000238-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-k-gold-edition-кафе-на-зърна-различни-видове-500g",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-01",
       "price_history": [
         {
@@ -807960,11 +808939,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 4.09,
           "old_price": 10.22,
           "discount_pct": 22
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 7.49,
+          "price_eur": 3.83,
+          "old_price": 10.22,
+          "discount_pct": 27
         }
       ],
-      "lowest_price": 7.99,
-      "lowest_price_date": "2026-08-31",
-      "avg_price": 12.79
+      "lowest_price": 7.49,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 11.02
     },
     {
       "name": "Lavazza Мляно кафе Еsрrеssо Italiano Classico",
@@ -810710,7 +811697,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800084604012_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-велико-търново-оцет-различни-видове-700g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-01",
       "price_history": [
         {
@@ -810728,11 +811715,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.46,
           "old_price": 1.46,
           "discount_pct": 39
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.99,
+          "price_eur": 0.51,
+          "old_price": 1.46,
+          "discount_pct": 32
         }
       ],
       "lowest_price": 0.89,
       "lowest_price_date": "2026-09-14",
-      "avg_price": 1.31
+      "avg_price": 1.21
     },
     {
       "name": "Home Practic Сгъваем гевгир 24,5 x 20 x 8,5 см",
@@ -812791,9 +813786,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20812122?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20812123?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-cima-zero-плодов-деликатес-различни-видове-230g",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-01",
       "price_history": [
         {
@@ -812811,11 +813806,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.17,
           "old_price": 2.81,
           "discount_pct": 19
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.1,
+          "price_eur": 1.07,
+          "old_price": 2.81,
+          "discount_pct": 25
         }
       ],
-      "lowest_price": 2.29,
-      "lowest_price_date": "2026-09-14",
-      "avg_price": 3.09
+      "lowest_price": 2.1,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 2.76
     },
     {
       "name": "Filippo Berio Песто различни видове",
@@ -813055,7 +814058,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00017658?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-every-day-sensitive-дамски-превръзки-economy",
-      "last_seen": "2026-06-07",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-01",
       "price_history": [
         {
@@ -813065,11 +814068,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 2.12,
           "old_price": 5.98,
           "discount_pct": 31
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.19,
+          "price_eur": 1.12,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
-      "lowest_price": 4.15,
-      "lowest_price_date": "2026-06-01",
-      "avg_price": 4.15
+      "lowest_price": 2.19,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 3.17
     },
     {
       "name": "Kotanyi Къри",
@@ -813129,7 +814140,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20658728_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-balkan-сандвич-чабата-различни-видове-260g",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-01",
       "price_history": [
         {
@@ -814687,7 +815698,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/518_02700220?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-melbon-шоколадови-бонбони-морски-фигури-250g",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-01",
       "price_history": [
         {
@@ -814952,7 +815963,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/518_02700176_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-after-eight-шоколадови-блокчета-различни-видове-200g",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -814970,11 +815981,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.73,
           "old_price": 5.11,
           "discount_pct": 34
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.29,
+          "price_eur": 1.68,
+          "old_price": 5.11,
+          "discount_pct": 36
         }
       ],
-      "lowest_price": 3.39,
-      "lowest_price_date": "2026-09-20",
-      "avg_price": 4.93
+      "lowest_price": 3.29,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 4.38
     },
     {
       "name": "Bref WC ароматизатор Power Active Classic",
@@ -815386,7 +816405,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5010724527481_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-batiste-сух-шампоан-различни-видове-200g",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-01",
       "price_history": [
         {
@@ -815632,7 +816651,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/148_5941872102438_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-суши-филаделфия-от-витрина-на-самообслужване-241g",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-30",
       "price_history": [
         {
@@ -815666,11 +816685,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.84,
           "old_price": 4.6,
           "discount_pct": 22
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.49,
+          "price_eur": 1.78,
+          "old_price": 4.6,
+          "discount_pct": 24
         }
       ],
-      "lowest_price": 3.59,
-      "lowest_price_date": "2026-08-24",
-      "avg_price": 6.21
+      "lowest_price": 3.49,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 5.66
     },
     {
       "name": "Pasabahce Комплект чаши Luzia 300 мл",
@@ -818585,7 +819612,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800062302169_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-beta-pet-суха-храна-за-кучета-15000g",
-      "last_seen": "2026-10-02",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -818884,7 +819911,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5010103800457_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-j-b-шотландско-уиски-1000g",
-      "last_seen": "2026-07-19",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -818910,11 +819937,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 12.29,
           "old_price": 39.0,
           "discount_pct": 38
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 12.29,
+          "price_eur": 6.28,
+          "old_price": 19.94,
+          "discount_pct": 38
         }
       ],
-      "lowest_price": 23.96,
-      "lowest_price_date": "2026-06-01",
-      "avg_price": 24.01
+      "lowest_price": 12.29,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 21.08
     },
     {
       "name": "Russell Hobbs Тиган Diamond Stone Gold Ø24 см",
@@ -819556,7 +820591,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/2823430000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-деликатесен-бански-старец-от-свежата-витрина",
-      "last_seen": "2026-06-28",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-01",
       "price_history": [
         {
@@ -819574,11 +820609,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 15.29,
           "old_price": 44.98,
           "discount_pct": 34
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 14.99,
+          "price_eur": 7.66,
+          "old_price": 23.0,
+          "discount_pct": 35
         }
       ],
-      "lowest_price": 29.9,
-      "lowest_price_date": "2026-06-22",
-      "avg_price": 30.7
+      "lowest_price": 14.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 25.46
     },
     {
       "name": "Шкаф Bella пластмасов",
@@ -832766,7 +833809,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/1002263_1_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-шеф-месар-пилешки-крила-ориенталски-xxl",
-      "last_seen": "2026-06-14",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -832776,11 +833819,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 4.08,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 4.08,
+          "price_eur": 2.09,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
-      "lowest_price": 7.98,
-      "lowest_price_date": "2026-06-08",
-      "avg_price": 7.98
+      "lowest_price": 4.08,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 6.03
     },
     {
       "name": "Coco Rico Пилешко филе",
@@ -833950,7 +835001,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/01002240_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-paturages-comtois-сирене-бри-от-свежата-витрина",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -833984,11 +835035,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 8.18,
           "old_price": 23.72,
           "discount_pct": 33
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 13.79,
+          "price_eur": 7.05,
+          "old_price": 23.72,
+          "discount_pct": 42
         }
       ],
       "lowest_price": 13.79,
       "lowest_price_date": "2026-08-10",
-      "avg_price": 20.93
+      "avg_price": 19.51
     },
     {
       "name": "Heinz Сладка царевица или Грах",
@@ -834592,7 +835651,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800221033767_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-bg-line-меденка-ретро-различни-видове-70g",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -834610,11 +835669,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.15,
           "old_price": 0.49,
           "discount_pct": 39
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.39,
+          "price_eur": 0.2,
+          "old_price": 0.49,
+          "discount_pct": 20
         }
       ],
       "lowest_price": 0.3,
       "lowest_price_date": "2026-09-07",
-      "avg_price": 0.44
+      "avg_price": 0.43
     },
     {
       "name": "Донът с канела и пълнеж круша",
@@ -835859,7 +836926,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/493_20745812?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-nescafe-разтворимо-кафе-3в1-310g",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -835885,11 +836952,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.48,
           "old_price": 5.41,
           "discount_pct": 47
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.99,
+          "price_eur": 1.53,
+          "old_price": 5.41,
+          "discount_pct": 45
         }
       ],
       "lowest_price": 2.89,
       "lowest_price_date": "2026-08-31",
-      "avg_price": 4.84
+      "avg_price": 4.38
     },
     {
       "name": "Palmolive Душ крем маслина",
@@ -835956,7 +837031,9 @@ const ALL_PRODUCTS_DATA = {
       "is_bulk_worthy": false,
       "is_long_lasting": false,
       "health_score": 5,
-      "diet_tags": [],
+      "diet_tags": [
+        "budget"
+      ],
       "macros": {
         "kcal": 250,
         "p": 18,
@@ -835969,7 +837046,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00091224_1_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-бреи-каима-смес-стандарт-стара-планина-500g",
-      "last_seen": "2026-06-14",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -835979,11 +837056,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 3.47,
           "old_price": 8.0,
           "discount_pct": 15
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.27,
+          "price_eur": 1.67,
+          "old_price": 4.09,
+          "discount_pct": 20
         }
       ],
-      "lowest_price": 6.79,
-      "lowest_price_date": "2026-06-08",
-      "avg_price": 6.79
+      "lowest_price": 3.27,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 5.03
     },
     {
       "name": "K-Classic Моцарела Maxi 45% масленост",
@@ -836609,7 +837694,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/516_20892892?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-кашу-печено-1000g",
-      "last_seen": "2026-08-30",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -836643,11 +837728,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 6.54,
           "old_price": 16.36,
           "discount_pct": 22
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 12.99,
+          "price_eur": 6.64,
+          "old_price": 16.36,
+          "discount_pct": 21
         }
       ],
       "lowest_price": 12.79,
       "lowest_price_date": "2026-08-24",
-      "avg_price": 20.93
+      "avg_price": 19.34
     },
     {
       "name": "CIRIO Маслиново масло extra virgin",
@@ -837445,7 +838538,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4000980720413_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-k-classic-грис-пудинг-протеинов-500g",
-      "last_seen": "2026-08-02",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -837463,11 +838556,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.79,
           "old_price": 4.48,
           "discount_pct": 22
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.79,
+          "price_eur": 0.92,
+          "old_price": 2.29,
+          "discount_pct": 22
         }
       ],
-      "lowest_price": 3.48,
-      "lowest_price_date": "2026-06-08",
-      "avg_price": 3.49
+      "lowest_price": 1.79,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 2.92
     },
     {
       "name": "Троя Тунквана вафла Брауни",
@@ -838581,7 +839682,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4049726017455_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-закуска-болонезе-от-нашата-пекарна-115g",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -839896,7 +840997,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/9003579302552_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-pedigree-лакомство-за-куче-различни-видове-150g",
-      "last_seen": "2026-08-30",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -839986,7 +841087,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5941445677455_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-chio-intense-чипс-различни-вкусове-120g",
-      "last_seen": "2026-08-02",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -840012,11 +841113,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.22,
           "old_price": 3.99,
           "discount_pct": 40
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.53,
+          "price_eur": 0.78,
+          "old_price": 2.04,
+          "discount_pct": 25
         }
       ],
-      "lowest_price": 2.39,
-      "lowest_price_date": "2026-07-27",
-      "avg_price": 2.61
+      "lowest_price": 1.53,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 2.34
     },
     {
       "name": "Cici Bebe Бисквити различни видове",
@@ -840227,7 +841336,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800121435609_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-bingo-fresh-почистващ-препарат-различни-видове-1000g",
-      "last_seen": "2026-08-16",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -840245,11 +841354,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.76,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.53,
+          "price_eur": 0.78,
+          "old_price": 1.87,
+          "discount_pct": 18
         }
       ],
       "lowest_price": 1.49,
       "lowest_price_date": "2026-08-10",
-      "avg_price": 2.2
+      "avg_price": 1.98
     },
     {
       "name": "Rocket Food Биобоза",
@@ -840764,11 +841881,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.88,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.75,
+          "price_eur": 0.89,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 0.94,
       "lowest_price_date": "2026-06-01",
-      "avg_price": 2.2
+      "avg_price": 2.15
     },
     {
       "name": "Четка за съдове",
@@ -841006,9 +842131,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20888010?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20888011?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-cima-сладко-100-различни-видове-280g",
-      "last_seen": "2026-06-14",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -841018,11 +842143,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 2.04,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.53,
+          "price_eur": 0.78,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
-      "lowest_price": 3.99,
-      "lowest_price_date": "2026-06-08",
-      "avg_price": 3.99
+      "lowest_price": 1.53,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 2.76
     },
     {
       "name": "LIV&BO Калъф за дрехи 60 x 92 см",
@@ -841238,7 +842371,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00069167_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-gourmet-mon-petit-храна-за-котки-300g",
-      "last_seen": "2026-09-28",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -841256,11 +842389,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.27,
           "old_price": 3.32,
           "discount_pct": 25
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.29,
+          "price_eur": 1.17,
+          "old_price": 3.32,
+          "discount_pct": 31
         }
       ],
-      "lowest_price": 2.49,
-      "lowest_price_date": "2026-09-28",
-      "avg_price": 3.49
+      "lowest_price": 2.29,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 3.09
     },
     {
       "name": "Sheba Храна за котки пауч 4 x 85 гр.",
@@ -842360,7 +843501,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/146_2020840696_1_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-бреи-кюфтета-за-пържене-480g",
-      "last_seen": "2026-06-14",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -842370,11 +843511,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 3.03,
           "old_price": 6.98,
           "discount_pct": 15
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.85,
+          "price_eur": 1.46,
+          "old_price": 3.57,
+          "discount_pct": 20
         }
       ],
-      "lowest_price": 5.93,
-      "lowest_price_date": "2026-06-08",
-      "avg_price": 5.93
+      "lowest_price": 2.85,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 4.39
     },
     {
       "name": "Lamis Парфюмен спрей различни видове",
@@ -843024,7 +844173,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/146_2020840301_1_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-бреи-суров-петрохан-500g",
-      "last_seen": "2026-06-14",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -843034,11 +844183,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 3.47,
           "old_price": 8.0,
           "discount_pct": 15
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.27,
+          "price_eur": 1.67,
+          "old_price": 4.09,
+          "discount_pct": 20
         }
       ],
-      "lowest_price": 6.79,
-      "lowest_price_date": "2026-06-08",
-      "avg_price": 6.79
+      "lowest_price": 3.27,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 5.03
     },
     {
       "name": "BERTOLLI Спрей различни видове",
@@ -843331,7 +844488,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00091226_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-бреи-кебапчета-или-кюфтета-смес-480g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -843365,11 +844522,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.7,
           "old_price": 4.34,
           "discount_pct": 24
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.47,
+          "price_eur": 1.77,
+          "old_price": 4.34,
+          "discount_pct": 20
         }
       ],
       "lowest_price": 3.32,
       "lowest_price_date": "2026-08-31",
-      "avg_price": 5.88
+      "avg_price": 5.39
     },
     {
       "name": "Ziaja Гланц за устни Pineapple",
@@ -843810,7 +844975,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800209838735_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-nucrema-какаов-крем-различни-видове-1000g",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -844133,7 +845298,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/146_2020840695_1_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-бреи-суджук-смес-600g",
-      "last_seen": "2026-06-14",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -844143,11 +845308,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 4.34,
           "old_price": 9.99,
           "discount_pct": 15
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 4.08,
+          "price_eur": 2.09,
+          "old_price": 5.11,
+          "discount_pct": 20
         }
       ],
-      "lowest_price": 8.49,
-      "lowest_price_date": "2026-06-08",
-      "avg_price": 8.49
+      "lowest_price": 4.08,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 6.29
     },
     {
       "name": "BRIO Ръчен чопър Easy&Cosy 900 мл",
@@ -851943,7 +853116,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4049726011385_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-бреи-зелен-лук-клас-i",
-      "last_seen": "2026-07-05",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-09",
       "price_history": [
         {
@@ -851953,11 +853126,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.6,
           "old_price": 1.39,
           "discount_pct": 16
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.55,
+          "price_eur": 0.28,
+          "old_price": 0.69,
+          "discount_pct": 20
         }
       ],
-      "lowest_price": 1.17,
-      "lowest_price_date": "2026-06-09",
-      "avg_price": 1.17
+      "lowest_price": 0.55,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 0.86
     },
     {
       "name": "Лук",
@@ -864153,7 +865334,7 @@ const ALL_PRODUCTS_DATA = {
       "avg_price": 1.76
     },
     {
-      "name": "Amadori Пилешки шницели или хапки панирани",
+      "name": "Amadori Пилешки шницели или Хапки панирани",
       "store": "Kaufland",
       "emoji": "🍗",
       "category": "protein",
@@ -864182,7 +865363,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/185_00098756_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-amadori-пилешки-шницели-или-хапки-панирани-300g",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -864261,7 +865442,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800106402053_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-крина-леща-500g",
-      "last_seen": "2026-08-30",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -864295,11 +865476,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.82,
           "old_price": 2.14,
           "discount_pct": 25
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.14,
+          "price_eur": 1.09,
+          "old_price": 4.28,
+          "discount_pct": 50
         }
       ],
       "lowest_price": 1.6,
       "lowest_price_date": "2026-08-24",
-      "avg_price": 3.01
+      "avg_price": 2.84
     },
     {
       "name": "КОКО Биояйца размер М",
@@ -864362,7 +865551,8 @@ const ALL_PRODUCTS_DATA = {
       "health_score": 9,
       "diet_tags": [
         "high_protein",
-        "keto"
+        "keto",
+        "budget"
       ],
       "macros": {
         "kcal": 165,
@@ -864376,7 +865566,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/2503261_1_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-la-provincia-пилешко-филе-нарязано-500g",
-      "last_seen": "2026-08-09",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-15",
       "price_history": [
         {
@@ -864386,11 +865576,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 3.39,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.39,
+          "price_eur": 1.73,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
-      "lowest_price": 6.63,
-      "lowest_price_date": "2026-06-15",
-      "avg_price": 6.63
+      "lowest_price": 3.39,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 5.01
     },
     {
       "name": "Fragedo Пилешко долно бутче",
@@ -866205,11 +867403,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.2,
           "old_price": 0.79,
           "discount_pct": 49
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.35,
+          "price_eur": 0.18,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 0.35,
       "lowest_price_date": "2026-08-24",
-      "avg_price": 0.93
+      "avg_price": 0.86
     },
     {
       "name": "ЛЕСНО Доматена супа с босилек",
@@ -866686,7 +867892,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8445290619198_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-nescafe-напитка-с-кафе-различни-видове-250g",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-15",
       "price_history": [
         {
@@ -866712,11 +867918,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.57,
           "old_price": 1.43,
           "discount_pct": 22
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.99,
+          "price_eur": 0.51,
+          "old_price": 1.43,
+          "discount_pct": 31
         }
       ],
-      "lowest_price": 1.12,
-      "lowest_price_date": "2026-08-17",
-      "avg_price": 1.83
+      "lowest_price": 0.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 1.62
     },
     {
       "name": "Hipp Биопюре избрани видове",
@@ -868285,7 +869499,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_00202030_P.jpg",
       "product_id": "kaufland-бони-луканков-салам-290g",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-15",
       "price_history": [
         {
@@ -868303,11 +869517,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.27,
           "old_price": 4.6,
           "discount_pct": 46
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.59,
+          "price_eur": 1.32,
+          "old_price": 4.6,
+          "discount_pct": 44
         }
       ],
       "lowest_price": 2.49,
       "lowest_price_date": "2026-09-07",
-      "avg_price": 3.68
+      "avg_price": 3.32
     },
     {
       "name": "Орехите Шпеков салам различни видове",
@@ -868669,7 +869891,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00012766_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-орехите-луканков-салам-вакуум-опаковка-230g",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -868695,11 +869917,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.61,
           "old_price": 6.29,
           "discount_pct": 50
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 6.29,
+          "price_eur": 3.22,
+          "old_price": 12.58,
+          "discount_pct": 50
         }
       ],
       "lowest_price": 3.14,
       "lowest_price_date": "2026-09-14",
-      "avg_price": 7.14
+      "avg_price": 6.93
     },
     {
       "name": "НИДЕЯ Биокрекери спелта и домат",
@@ -869119,7 +870349,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5900020008121_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-nestle-зърнен-десерт-избрани-видове-25g",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-15",
       "price_history": [
         {
@@ -869328,7 +870558,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5902335756186_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-nevos-торби-за-смет-с-дръжки",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-15",
       "price_history": [
         {
@@ -869354,11 +870584,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.39,
           "old_price": 1.1,
           "discount_pct": 30
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.82,
+          "price_eur": 0.42,
+          "old_price": 1.1,
+          "discount_pct": 25
         }
       ],
       "lowest_price": 0.77,
       "lowest_price_date": "2026-08-24",
-      "avg_price": 1.24
+      "avg_price": 1.14
     },
     {
       "name": "Chio Пелети със сол",
@@ -869471,7 +870709,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800061607470_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-престиж-тунквани-бисквити-роден-краи-135g",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-15",
       "price_history": [
         {
@@ -869497,11 +870735,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.49,
           "old_price": 1.65,
           "discount_pct": 42
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.99,
+          "price_eur": 0.51,
+          "old_price": 1.65,
+          "discount_pct": 40
         }
       ],
       "lowest_price": 0.96,
       "lowest_price_date": "2026-08-31",
-      "avg_price": 1.59
+      "avg_price": 1.44
     },
     {
       "name": "Капачки тип Туист оф Ø5,3 см",
@@ -869720,7 +870966,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8692806015382_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-simsek-windy-бисквити-сандвич-с-какаов-крем-150g",
-      "last_seen": "2026-08-02",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-15",
       "price_history": [
         {
@@ -869738,11 +870984,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.57,
           "old_price": 2.25,
           "discount_pct": 51
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.15,
+          "price_eur": 0.59,
+          "old_price": 2.3,
+          "discount_pct": 50
         }
       ],
       "lowest_price": 1.11,
       "lowest_price_date": "2026-07-27",
-      "avg_price": 1.68
+      "avg_price": 1.5
     },
     {
       "name": "Coca-Cola/Fanta/Sprite",
@@ -869974,7 +871228,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/7613035516298_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-adventuros-лакомство-за-кучета-120g",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -870027,7 +871281,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/635_20796074?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-adventuros-храна-за-куче-различни-видове-115g",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -871657,7 +872911,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/7614500010013_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-toblerone-шоколад-различни-видове-100g",
-      "last_seen": "2026-06-21",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-15",
       "price_history": [
         {
@@ -871667,11 +872921,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 2.81,
           "old_price": 10.99,
           "discount_pct": 50
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.69,
+          "price_eur": 0.86,
+          "old_price": 2.81,
+          "discount_pct": 40
         }
       ],
-      "lowest_price": 5.5,
-      "lowest_price_date": "2026-06-15",
-      "avg_price": 5.5
+      "lowest_price": 1.69,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 3.59
     },
     {
       "name": "Раrоdоntах Паста за зъби или Четка за зъби",
@@ -872713,7 +873975,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20738072_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-astika-бира-промопакет-4000g",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -872938,7 +874200,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/518_20871115?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-suchard-figaro-шоколадова-бонбониера-276g",
-      "last_seen": "2026-08-16",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-15",
       "price_history": [
         {
@@ -874237,9 +875499,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20767829_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800226210309_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-angel-червено-бяло-вино-или-розе-различни-сортове-750g",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -874456,7 +875718,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627576607_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-my-project-покривало-или-органаизер-за-багажник",
-      "last_seen": "2026-06-21",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-15",
       "price_history": [
         {
@@ -874466,11 +875728,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 6.13,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 5.99,
+          "price_eur": 3.06,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
-      "lowest_price": 11.99,
-      "lowest_price_date": "2026-06-15",
-      "avg_price": 11.99
+      "lowest_price": 5.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 8.99
     },
     {
       "name": "SHERON Автомобилна чистачка Uni Flat",
@@ -874919,7 +876189,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20348126_606?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-zewa-тоалетна-хартия",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-15",
       "price_history": [
         {
@@ -874964,7 +876234,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20348062_606?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-zewa-тоалетна-хартия-24бр",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-15",
       "price_history": [
         {
@@ -875292,7 +876562,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800024050671_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-teo-bebe-future-гел-45-пранета",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-15",
       "price_history": [
         {
@@ -2050554,9 +2051824,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20601367_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00099266_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-рафтис-кашкавал-от-краве-мляко",
-      "last_seen": "2026-10-09",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-19",
       "price_history": [
         {
@@ -2050582,11 +2051852,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 3.88,
           "old_price": 11.24,
           "discount_pct": 32
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 6.64,
+          "price_eur": 3.39,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
-      "lowest_price": 7.59,
-      "lowest_price_date": "2026-10-08",
-      "avg_price": 9.9
+      "lowest_price": 6.64,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 9.08
     },
     {
       "name": "Био филе от сьомга",
@@ -2053701,7 +2054979,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20921014_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-лесно-ризото-с-манатарки-300g",
-      "last_seen": "2026-08-09",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -2053735,11 +2055013,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 3.36,
           "old_price": 8.78,
           "discount_pct": 25
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.69,
+          "price_eur": 1.89,
+          "old_price": 4.49,
+          "discount_pct": 18
         }
       ],
-      "lowest_price": 6.57,
-      "lowest_price_date": "2026-06-22",
-      "avg_price": 6.88
+      "lowest_price": 3.69,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 6.25
     },
     {
       "name": "Coco Rico Пилешко мляно месо от филе",
@@ -2054780,7 +2056066,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20899464_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-parmareggio-твърдо-сирене-parmigiano-reggiano-80g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -2054814,11 +2056100,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 2.04,
           "old_price": 5.11,
           "discount_pct": 22
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.29,
+          "price_eur": 1.68,
+          "old_price": 5.11,
+          "discount_pct": 36
         }
       ],
-      "lowest_price": 3.99,
-      "lowest_price_date": "2026-09-28",
-      "avg_price": 6.4
+      "lowest_price": 3.29,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 5.78
     },
     {
       "name": "MONARCH Топено сирене слайс",
@@ -2056242,7 +2057536,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800207948184_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-elit-протеинов-бар-различни-вкусове-67g",
-      "last_seen": "2026-08-02",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -2056260,11 +2057554,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.29,
           "old_price": 3.38,
           "discount_pct": 25
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.29,
+          "price_eur": 0.66,
+          "old_price": 1.73,
+          "discount_pct": 25
         }
       ],
-      "lowest_price": 2.48,
-      "lowest_price_date": "2026-04-20",
-      "avg_price": 2.5
+      "lowest_price": 1.29,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 2.1
     },
     {
       "name": "Elit Pro Bar Протеинов бар Strawberry Choc",
@@ -2056287,7 +2057589,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800207948146_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-elit-pro-bar-протеинов-бар-strawberry-choc-67g",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -2057095,7 +2058397,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5900617039262_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-go-on-протеинова-гранола-различни-вкусове-300g",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -2058926,7 +2060228,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/238_3800837436801_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-тандем-габровска-луканка-или-пастърма-130g",
-      "last_seen": "2026-06-28",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-22",
       "price_history": [
         {
@@ -2058936,11 +2060238,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 2.99,
           "old_price": 8.98,
           "discount_pct": 35
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.44,
+          "price_eur": 1.76,
+          "old_price": 4.59,
+          "discount_pct": 25
         }
       ],
-      "lowest_price": 5.85,
-      "lowest_price_date": "2026-06-22",
-      "avg_price": 5.85
+      "lowest_price": 3.44,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 4.64
     },
     {
       "name": "Тандем Шпеков салам от нашата витрина",
@@ -2059363,7 +2060673,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8594071653132_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-marlenka-медена-торта-различни-видове-100g",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -2059572,7 +2060882,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/02800543_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-боровец-вафла-различни-вкусове-52g",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-22",
       "price_history": [
         {
@@ -2059590,11 +2060900,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.11,
           "old_price": 0.35,
           "discount_pct": 37
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.23,
+          "price_eur": 0.12,
+          "old_price": 0.35,
+          "discount_pct": 34
         }
       ],
       "lowest_price": 0.22,
       "lowest_price_date": "2026-09-14",
-      "avg_price": 0.34
+      "avg_price": 0.3
     },
     {
       "name": "Nestle Вафла Мура Mega bite или Choco dreams",
@@ -2061559,7 +2062877,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800040800359_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-цима-конфитюр-360g",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -2061593,11 +2062911,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.86,
           "old_price": 2.32,
           "discount_pct": 27
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.74,
+          "price_eur": 0.89,
+          "old_price": 2.32,
+          "discount_pct": 25
         }
       ],
       "lowest_price": 1.69,
       "lowest_price_date": "2026-09-20",
-      "avg_price": 2.52
+      "avg_price": 2.36
     },
     {
       "name": "Леген 15 л",
@@ -2062153,9 +2063479,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800040802308_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800040802322_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-cima-топинг-различни-видове-360g",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-22",
       "price_history": [
         {
@@ -2062173,11 +2063499,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.86,
           "old_price": 2.7,
           "discount_pct": 37
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.02,
+          "price_eur": 1.03,
+          "old_price": 2.7,
+          "discount_pct": 25
         }
       ],
       "lowest_price": 1.69,
       "lowest_price_date": "2026-09-07",
-      "avg_price": 2.7
+      "avg_price": 2.47
     },
     {
       "name": "Loacker Шоколад различни видове",
@@ -2064500,7 +2065834,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20814537_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-goodyear-чистачка-45-60-см",
-      "last_seen": "2026-06-28",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-22",
       "price_history": [
         {
@@ -2064510,11 +2065844,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 3.29,
           "old_price": 9.99,
           "discount_pct": 36
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.29,
+          "price_eur": 1.68,
+          "old_price": 5.11,
+          "discount_pct": 36
         }
       ],
-      "lowest_price": 6.43,
-      "lowest_price_date": "2026-06-22",
-      "avg_price": 6.43
+      "lowest_price": 3.29,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 4.86
     },
     {
       "name": "GOODYEAR Чистачка 48 см",
@@ -2064535,9 +2065877,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20814538_P.jpg",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20818227_P-2?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-goodyear-чистачка-48-см",
-      "last_seen": "2026-06-28",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-22",
       "price_history": [
         {
@@ -2064547,11 +2065889,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 3.29,
           "old_price": 9.99,
           "discount_pct": 36
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.29,
+          "price_eur": 1.68,
+          "old_price": 5.11,
+          "discount_pct": 36
         }
       ],
-      "lowest_price": 6.43,
-      "lowest_price_date": "2026-06-22",
-      "avg_price": 6.43
+      "lowest_price": 3.29,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 4.86
     },
     {
       "name": "Goodyear Права чистачка",
@@ -2064572,9 +2065922,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20814539_P.jpg",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20818227_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-goodyear-права-чистачка",
-      "last_seen": "2026-06-28",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-22",
       "price_history": [
         {
@@ -2064584,11 +2065934,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 3.29,
           "old_price": 9.99,
           "discount_pct": 36
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.29,
+          "price_eur": 1.68,
+          "old_price": 5.11,
+          "discount_pct": 36
         }
       ],
-      "lowest_price": 6.43,
-      "lowest_price_date": "2026-06-22",
-      "avg_price": 6.43
+      "lowest_price": 3.29,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 4.86
     },
     {
       "name": "Комплект щори за автомобил 2 бр.",
@@ -2064783,7 +2066141,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00022482_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-loacker-tortina-тунквани-вафли-126g",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -2064817,11 +2066175,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.78,
           "old_price": 4.6,
           "discount_pct": 24
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.45,
+          "price_eur": 1.76,
+          "old_price": 4.58,
+          "discount_pct": 25
         }
       ],
-      "lowest_price": 3.49,
-      "lowest_price_date": "2026-09-20",
-      "avg_price": 6.06
+      "lowest_price": 3.45,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 5.54
     },
     {
       "name": "Loacker Tortina Тунквани бисквити различни видове",
@@ -2066776,7 +2068142,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20880782_20?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-goodyear-комплект-за-премахвне-на-драскотини",
-      "last_seen": "2026-06-28",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-22",
       "price_history": [
         {
@@ -2066786,11 +2068152,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 6.09,
           "old_price": 17.99,
           "discount_pct": 34
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 6.09,
+          "price_eur": 3.11,
+          "old_price": 9.2,
+          "discount_pct": 34
         }
       ],
-      "lowest_price": 11.91,
-      "lowest_price_date": "2026-06-22",
-      "avg_price": 11.91
+      "lowest_price": 6.09,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 9.0
     },
     {
       "name": "Corona Бира различни видове",
@@ -2068512,7 +2069886,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20779117_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-goodyear-прахосмукачка-за-кола-12-v-60-w",
-      "last_seen": "2026-06-28",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-22",
       "price_history": [
         {
@@ -2068522,11 +2069896,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 10.19,
           "old_price": 34.99,
           "discount_pct": 43
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 10.19,
+          "price_eur": 5.21,
+          "old_price": 17.89,
+          "discount_pct": 43
         }
       ],
-      "lowest_price": 19.93,
-      "lowest_price_date": "2026-06-22",
-      "avg_price": 19.93
+      "lowest_price": 10.19,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 15.06
     },
     {
       "name": "MALIVA, тоалетна хартия Тоалетна хартия Romance, 32+16бр.",
@@ -2068978,7 +2070360,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20779111_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-goodyear-компресор-17-атмосфери",
-      "last_seen": "2026-06-28",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-22",
       "price_history": [
         {
@@ -2068988,11 +2070370,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 11.19,
           "old_price": 40.0,
           "discount_pct": 45
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 11.19,
+          "price_eur": 5.72,
+          "old_price": 20.45,
+          "discount_pct": 45
         }
       ],
-      "lowest_price": 21.89,
-      "lowest_price_date": "2026-06-22",
-      "avg_price": 21.89
+      "lowest_price": 11.19,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 16.54
     },
     {
       "name": "Aperol Аперитив",
@@ -2070200,7 +2071590,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4023103143890_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-vileda-комплект-за-почистване",
-      "last_seen": "2026-06-28",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-22",
       "price_history": [
         {
@@ -2070210,11 +2071600,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 25.56,
           "old_price": 74.99,
           "discount_pct": 33
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 23.99,
+          "price_eur": 12.27,
+          "old_price": 38.34,
+          "discount_pct": 37
         }
       ],
-      "lowest_price": 49.99,
-      "lowest_price_date": "2026-06-22",
-      "avg_price": 49.99
+      "lowest_price": 23.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 36.99
     },
     {
       "name": "Parkside® Акумулаторна ударна бормашина",
@@ -2079521,9 +2080919,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/5999884034469_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20917922_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-hell-напитка-различни-видове-250g",
-      "last_seen": "2026-08-30",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-26",
       "price_history": [
         {
@@ -2085021,7 +2086419,7 @@ const ALL_PRODUCTS_DATA = {
       "avg_price": 1.97
     },
     {
-      "name": "АЛАДИН Хумус различни видове",
+      "name": "Аладин Хумус различни видове",
       "store": "Kaufland",
       "emoji": "🛒",
       "category": "other",
@@ -2085046,9 +2086444,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/257_00076902_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/257_00076901_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-аладин-хумус-различни-видове-225g",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-29",
       "price_history": [
         {
@@ -2086462,7 +2087860,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800091740352_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-вита-баланс-хляб-различни-видове-450g",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -2086851,7 +2088249,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5102_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-кашкавалка-220g",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-29",
       "price_history": [
         {
@@ -2088841,7 +2090239,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00071593_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-k-classic-торби-за-смет-с-връзки-25000g",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-29",
       "price_history": [
         {
@@ -2088875,11 +2090273,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.29,
           "old_price": 0.81,
           "discount_pct": 31
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.6,
+          "price_eur": 0.31,
+          "old_price": 0.81,
+          "discount_pct": 26
         }
       ],
       "lowest_price": 0.56,
       "lowest_price_date": "2026-08-24",
-      "avg_price": 1.0
+      "avg_price": 0.92
     },
     {
       "name": "Мегапорт Чували за смет",
@@ -2088902,7 +2090308,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/05100333_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-мегапорт-чували-за-смет",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-29",
       "price_history": [
         {
@@ -2088928,11 +2090334,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.3,
           "old_price": 0.84,
           "discount_pct": 31
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.63,
+          "price_eur": 0.32,
+          "old_price": 0.84,
+          "discount_pct": 25
         }
       ],
       "lowest_price": 0.58,
       "lowest_price_date": "2026-08-24",
-      "avg_price": 1.27
+      "avg_price": 1.11
     },
     {
       "name": "Simit Турски геврек от нашата пекарна",
@@ -2089389,7 +2090803,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00098536?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-vigo-чували-за-смет-35000g",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-29",
       "price_history": [
         {
@@ -2089407,11 +2090821,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.51,
           "old_price": 1.43,
           "discount_pct": 30
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.07,
+          "price_eur": 0.55,
+          "old_price": 1.43,
+          "discount_pct": 25
         }
       ],
       "lowest_price": 1.0,
       "lowest_price_date": "2026-08-24",
-      "avg_price": 1.54
+      "avg_price": 1.39
     },
     {
       "name": "MC GOLD Хлебчета за хотдог или бургер",
@@ -2089479,7 +2090901,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20860599_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-пица-от-нашата-пекарна-220g",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-29",
       "price_history": [
         {
@@ -2089723,9 +2091145,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627762017_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627886201_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-w5-почистващи-продукти-различни-видове",
-      "last_seen": "2026-07-05",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-29",
       "price_history": [
         {
@@ -2089735,11 +2091157,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.27,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.0,
+          "price_eur": 0.51,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
-      "lowest_price": 2.48,
-      "lowest_price_date": "2026-06-29",
-      "avg_price": 2.48
+      "lowest_price": 1.0,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 1.74
     },
     {
       "name": "Lacmi Шоколад различни видове",
@@ -2090450,7 +2091880,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/517_02502337?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-ritter-sport-шоколад-различни-видове-100g",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-29",
       "price_history": [
         {
@@ -2090468,11 +2091898,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.97,
           "old_price": 2.55,
           "discount_pct": 26
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.79,
+          "price_eur": 0.92,
+          "old_price": 2.55,
+          "discount_pct": 30
         }
       ],
-      "lowest_price": 1.89,
-      "lowest_price_date": "2026-09-20",
-      "avg_price": 2.79
+      "lowest_price": 1.79,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 2.46
     },
     {
       "name": "Кайсии червени",
@@ -2091800,9 +2093238,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627758041_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627906411_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-w5-закачалки-10-бр",
-      "last_seen": "2026-07-05",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-29",
       "price_history": [
         {
@@ -2091812,11 +2093250,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 3.06,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.99,
+          "price_eur": 1.02,
+          "old_price": 2.99,
+          "discount_pct": 33
         }
       ],
-      "lowest_price": 5.98,
-      "lowest_price_date": "2026-06-29",
-      "avg_price": 5.98
+      "lowest_price": 1.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 3.99
     },
     {
       "name": "LIVARNO Кухненски кърпи 50 x 70 см",
@@ -2091913,7 +2093359,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800220283019_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-елит-мес-сушеница-360g",
-      "last_seen": "2026-08-16",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -2094050,7 +2095496,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5010327605005_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-old-smuggler-шотландско-уиски-40-vol-700g",
-      "last_seen": "2026-07-26",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-29",
       "price_history": [
         {
@@ -2094060,11 +2095506,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 6.99,
           "old_price": 24.0,
           "discount_pct": 43
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 6.99,
+          "price_eur": 3.57,
+          "old_price": 12.27,
+          "discount_pct": 43
         }
       ],
-      "lowest_price": 13.67,
-      "lowest_price_date": "2026-06-29",
-      "avg_price": 13.67
+      "lowest_price": 6.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 10.33
     },
     {
       "name": "COCCOLINO Омекотител Blue Splash промопакет",
@@ -2095706,9 +2097160,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627774812_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627900952_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-w5-сушилник",
-      "last_seen": "2026-07-05",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-29",
       "price_history": [
         {
@@ -2095718,11 +2097172,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 20.44,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 24.99,
+          "price_eur": 12.78,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
-      "lowest_price": 39.98,
-      "lowest_price_date": "2026-06-29",
-      "avg_price": 39.98
+      "lowest_price": 24.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 32.48
     },
     {
       "name": "Майстор Цветко Пастърма от свежата витрина",
@@ -2107562,7 +2109024,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/286_5711953100345_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-starbucks-напитка-с-кафе-различни-видове-220g",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-07-05",
       "price_history": [
         {
@@ -2109905,7 +2111367,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/403_00063609_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-novi-домати-на-кубчета-400g",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-07-06",
       "price_history": [
         {
@@ -2110351,7 +2111813,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00011589_P-2?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-хляб-добруджа-500g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -2110425,11 +2111887,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.31,
           "old_price": 0.79,
           "discount_pct": 23
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.66,
+          "price_eur": 0.34,
+          "old_price": 0.79,
+          "discount_pct": 16
         }
       ],
       "lowest_price": 0.61,
       "lowest_price_date": "2026-08-17",
-      "avg_price": 1.03
+      "avg_price": 0.99
     },
     {
       "name": "Izzi Ориз бисерен екстра",
@@ -2110605,7 +2112075,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/2828830000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-лотос-свински-врат-древяна-от-свежата-витрина",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-07-06",
       "price_history": [
         {
@@ -2111779,7 +2113249,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20338623_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-dallmayr-мляно-кафе-monaco-100-арабика-200g",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-07-06",
       "price_history": [
         {
@@ -2112968,7 +2114438,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/654_00103913_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-lovita-бисквити-какао-и-шоколад-портокал-с-лешников-пълнеж-170g",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-07-06",
       "price_history": [
         {
@@ -2113701,7 +2115171,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/511_00073128_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-star-снакс-90g",
-      "last_seen": "2026-08-16",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-07-06",
       "price_history": [
         {
@@ -2114824,43 +2116294,6 @@ const ALL_PRODUCTS_DATA = {
       "lowest_price": 2.33,
       "lowest_price_date": "2026-07-06",
       "avg_price": 2.33
-    },
-    {
-      "name": "Medix Препарат за съдове Max Power",
-      "store": "Kaufland",
-      "emoji": "🧹",
-      "category": "household",
-      "weight_raw": "750 мл",
-      "weight_grams": 750,
-      "shelf_life": "1-2г",
-      "is_food": false,
-      "is_healthy": false,
-      "is_bulk_worthy": true,
-      "is_long_lasting": true,
-      "health_score": null,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20625994_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
-      "product_id": "kaufland-medix-препарат-за-съдове-max-power-750g",
-      "last_seen": "2026-07-12",
-      "first_seen": "2026-07-06",
-      "price_history": [
-        {
-          "date": "2026-07-06",
-          "store": "Kaufland",
-          "price": 2.58,
-          "price_eur": 1.32,
-          "old_price": null,
-          "discount_pct": null
-        }
-      ],
-      "lowest_price": 2.58,
-      "lowest_price_date": "2026-07-06",
-      "avg_price": 2.58
     },
     {
       "name": "PARKSIDE® Саксия различни видове",
@@ -2116800,7 +2118233,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/635_00090626?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-nature-of-agiva-мицеларна-вода-различни-видове-400g",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-07-06",
       "price_history": [
         {
@@ -2116810,11 +2118243,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 2.79,
           "old_price": 7.39,
           "discount_pct": 26
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.79,
+          "price_eur": 1.43,
+          "old_price": 3.78,
+          "discount_pct": 26
         }
       ],
-      "lowest_price": 5.46,
-      "lowest_price_date": "2026-07-06",
-      "avg_price": 5.46
+      "lowest_price": 2.79,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 4.12
     },
     {
       "name": "Гевгир Ø28 см",
@@ -2120936,7 +2122377,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00105623_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-bref-wc-блокче-color-aktiv-различни-видове-200g",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -2120962,11 +2122403,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 2.09,
           "old_price": 8.18,
           "discount_pct": 50
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 8.18,
+          "price_eur": 4.18,
+          "old_price": 16.36,
+          "discount_pct": 50
         }
       ],
       "lowest_price": 4.08,
       "lowest_price_date": "2026-09-07",
-      "avg_price": 9.35
+      "avg_price": 9.06
     },
     {
       "name": "Home Practic Комплект гедоре 1/4",
@@ -2123469,7 +2124918,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20825236_596?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-ariel-гел-прах-или-капсули",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-07-06",
       "price_history": [
         {
@@ -2128180,7 +2129629,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4049726006060_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-шеф-месар-пилешко-долно-бутче-600g",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-07-13",
       "price_history": [
         {
@@ -2128190,11 +2129639,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 2.04,
           "old_price": 4.99,
           "discount_pct": 20
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.29,
+          "price_eur": 1.17,
+          "old_price": 2.55,
+          "discount_pct": 10
         }
       ],
-      "lowest_price": 3.99,
-      "lowest_price_date": "2026-07-13",
-      "avg_price": 3.99
+      "lowest_price": 2.29,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 3.14
     },
     {
       "name": "Amadori Пилешки хапки панирани",
@@ -2129985,7 +2131442,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/DE00463934_P_01120903_01475596-4063367405921?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-k-bio-био-прясно-мляко-3-8-масленост-1000g",
-      "last_seen": "2026-07-19",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-07-13",
       "price_history": [
         {
@@ -2129995,11 +2131452,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.49,
           "old_price": 3.48,
           "discount_pct": 16
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.78,
+          "price_eur": 0.91,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
-      "lowest_price": 2.91,
-      "lowest_price_date": "2026-07-13",
-      "avg_price": 2.91
+      "lowest_price": 1.78,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 2.35
     },
     {
       "name": "ВВВ Плодова напитка различни вкусове",
@@ -2130277,7 +2131742,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4337185518799_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-k-classic-иогурт-различни-видове-1000g",
-      "last_seen": "2026-07-19",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-07-13",
       "price_history": [
         {
@@ -2130287,11 +2131752,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 3.06,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.06,
+          "price_eur": 1.56,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
-      "lowest_price": 5.98,
-      "lowest_price_date": "2026-07-13",
-      "avg_price": 5.98
+      "lowest_price": 3.06,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 4.52
     },
     {
       "name": "K-CLASSIC Йогурт със страчатела",
@@ -2130361,7 +2131834,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/494_20383974?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-dallmayr-кафе-капсули-различни-видове-56g",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-07-13",
       "price_history": [
         {
@@ -2130440,7 +2131913,9 @@ const ALL_PRODUCTS_DATA = {
       "is_bulk_worthy": true,
       "is_long_lasting": true,
       "health_score": 5,
-      "diet_tags": [],
+      "diet_tags": [
+        "budget"
+      ],
       "macros": {
         "kcal": 115,
         "p": 0.8,
@@ -2130453,7 +2131928,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00098566_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-маслини-мамут-голд-от-свежата-витрина",
-      "last_seen": "2026-07-19",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-07-13",
       "price_history": [
         {
@@ -2130463,11 +2131938,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 4.99,
           "old_price": 16.0,
           "discount_pct": 39
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 4.99,
+          "price_eur": 2.55,
+          "old_price": 8.18,
+          "discount_pct": 39
         }
       ],
-      "lowest_price": 9.76,
-      "lowest_price_date": "2026-07-13",
-      "avg_price": 9.76
+      "lowest_price": 4.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 7.38
     },
     {
       "name": "FIVEPI Маскарпоне Италия",
@@ -2130545,7 +2132028,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4008167082002_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-dallmayr-мляно-кафе-espresso-d-oro-250g",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-07-13",
       "price_history": [
         {
@@ -2131314,7 +2132797,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4008167043904_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-dallmayr-кафе-на-зърна-barista-различни-видове-1000g",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-07-13",
       "price_history": [
         {
@@ -2131359,7 +2132842,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4008167154679_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-dallmayr-кафе-на-зърна-d-oro-1000g",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-07-13",
       "price_history": [
         {
@@ -2132023,7 +2133506,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800020403631_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-kit-kat-chunky-десерт-различни-видове",
-      "last_seen": "2026-07-19",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-07-13",
       "price_history": [
         {
@@ -2132033,11 +2133516,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.59,
           "old_price": 1.74,
           "discount_pct": 34
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.59,
+          "price_eur": 0.3,
+          "old_price": 0.89,
+          "discount_pct": 34
         }
       ],
-      "lowest_price": 1.15,
-      "lowest_price_date": "2026-07-13",
-      "avg_price": 1.15
+      "lowest_price": 0.59,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 0.87
     },
     {
       "name": "Nestle Lion Десерт различни видове",
@@ -2132060,7 +2133551,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/7613287757067_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-nestle-lion-десерт-различни-видове-42g",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-07-13",
       "price_history": [
         {
@@ -2132391,7 +2133882,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800232080644_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-atani-червен-пипер-сладък-200g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -2132417,11 +2133908,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.72,
           "old_price": 1.89,
           "discount_pct": 25
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.89,
+          "price_eur": 0.97,
+          "old_price": 3.78,
+          "discount_pct": 50
         }
       ],
       "lowest_price": 0.99,
       "lowest_price_date": "2026-09-07",
-      "avg_price": 1.38
+      "avg_price": 1.51
     },
     {
       "name": "Haribo Желирани бонбони различни вкусове",
@@ -2133386,7 +2134885,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20825830_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-млечен-шоколад-мега-160g",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-07-13",
       "price_history": [
         {
@@ -2133431,7 +2134930,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8690526060224_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-eti-бисквити-petit-beurre-различни-видове-400g",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-07-13",
       "price_history": [
         {
@@ -2134193,7 +2135692,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4770179998281_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-pergale-шоколадови-бонбони-асорти-117g",
-      "last_seen": "2026-08-30",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-07-13",
       "price_history": [
         {
@@ -2134211,11 +2135710,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.97,
           "old_price": 3.06,
           "discount_pct": 38
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.99,
+          "price_eur": 1.02,
+          "old_price": 3.06,
+          "discount_pct": 35
         }
       ],
       "lowest_price": 1.89,
       "lowest_price_date": "2026-08-24",
-      "avg_price": 2.89
+      "avg_price": 2.59
     },
     {
       "name": "Oral-B Паста за зъби Pro Expert Protection",
@@ -2135688,7 +2137195,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800009402556_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-targovishte-мускат-или-шардоне-750g",
-      "last_seen": "2026-07-19",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-07-13",
       "price_history": [
         {
@@ -2135698,11 +2137205,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 3.29,
           "old_price": 8.31,
           "discount_pct": 23
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.29,
+          "price_eur": 1.68,
+          "old_price": 4.25,
+          "discount_pct": 23
         }
       ],
-      "lowest_price": 6.43,
-      "lowest_price_date": "2026-07-13",
-      "avg_price": 6.43
+      "lowest_price": 3.29,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 4.86
     },
     {
       "name": "Targovishte Червено, бяло вино или розе",
@@ -2135725,7 +2137240,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800009402310_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-targovishte-червено-бяло-вино-или-розе-750g",
-      "last_seen": "2026-07-19",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-07-13",
       "price_history": [
         {
@@ -2135735,11 +2137250,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 3.29,
           "old_price": 8.31,
           "discount_pct": 23
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.29,
+          "price_eur": 1.68,
+          "old_price": 4.25,
+          "discount_pct": 23
         }
       ],
-      "lowest_price": 6.43,
-      "lowest_price_date": "2026-07-13",
-      "avg_price": 6.43
+      "lowest_price": 3.29,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 4.86
     },
     {
       "name": "Четка за стъкла",
@@ -2143763,7 +2145286,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5999884034445_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-hell-енергиина-напитка-различни-видове-250g",
-      "last_seen": "2026-07-19",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-07-16",
       "price_history": [
         {
@@ -2143773,11 +2145296,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.45,
           "old_price": 1.39,
           "discount_pct": 37
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.49,
+          "price_eur": 0.25,
+          "old_price": 0.71,
+          "discount_pct": 31
         }
       ],
-      "lowest_price": 0.88,
-      "lowest_price_date": "2026-07-16",
-      "avg_price": 0.88
+      "lowest_price": 0.49,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 0.69
     },
     {
       "name": "Hell Енергийна напитка Фокус",
@@ -2151007,7 +2152538,8 @@ const ALL_PRODUCTS_DATA = {
       "health_score": 7,
       "diet_tags": [
         "keto",
-        "vegetarian"
+        "vegetarian",
+        "budget"
       ],
       "macros": {
         "kcal": 264,
@@ -2151021,7 +2152553,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/312_00038050_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-milram-сирене-котидж-200g",
-      "last_seen": "2026-07-26",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-07-20",
       "price_history": [
         {
@@ -2151031,11 +2152563,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.45,
           "old_price": 4.28,
           "discount_pct": 34
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.49,
+          "price_eur": 0.76,
+          "old_price": 2.19,
+          "discount_pct": 32
         }
       ],
-      "lowest_price": 2.84,
-      "lowest_price_date": "2026-07-20",
-      "avg_price": 2.84
+      "lowest_price": 1.49,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 2.17
     },
     {
       "name": "Домати розова магия",
@@ -2151736,7 +2153276,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20732838_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-olympus-натурален-сок-различни-видове-250g",
-      "last_seen": "2026-07-26",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-07-20",
       "price_history": [
         {
@@ -2151746,11 +2153286,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.81,
           "old_price": 1.99,
           "discount_pct": 21
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.81,
+          "price_eur": 0.41,
+          "old_price": 1.02,
+          "discount_pct": 21
         }
       ],
-      "lowest_price": 1.58,
-      "lowest_price_date": "2026-07-20",
-      "avg_price": 1.58
+      "lowest_price": 0.81,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 1.2
     },
     {
       "name": "Olympus Чай различни видове",
@@ -2151775,7 +2153323,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00083298_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-olympus-чаи-различни-видове-500g",
-      "last_seen": "2026-07-26",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-07-20",
       "price_history": [
         {
@@ -2151785,11 +2153333,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.81,
           "old_price": 1.99,
           "discount_pct": 21
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.81,
+          "price_eur": 0.41,
+          "old_price": 1.02,
+          "discount_pct": 21
         }
       ],
-      "lowest_price": 1.58,
-      "lowest_price_date": "2026-07-20",
-      "avg_price": 1.58
+      "lowest_price": 0.81,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 1.2
     },
     {
       "name": "OLYMPUS Йогурт с протеин различни видове",
@@ -2152641,7 +2154197,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20933874_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-olympus-натурален-сок-цитрус-100-1500g",
-      "last_seen": "2026-07-26",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-07-20",
       "price_history": [
         {
@@ -2152651,11 +2154207,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 3.68,
           "old_price": 9.0,
           "discount_pct": 20
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.68,
+          "price_eur": 1.88,
+          "old_price": 4.6,
+          "discount_pct": 20
         }
       ],
-      "lowest_price": 7.2,
-      "lowest_price_date": "2026-07-20",
-      "avg_price": 7.2
+      "lowest_price": 3.68,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 5.44
     },
     {
       "name": "Кутии за съхранение",
@@ -2152765,7 +2154329,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8001090448095_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-pantene-олио-маска-или-серум-за-коса-300g",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-07-20",
       "price_history": [
         {
@@ -2152799,11 +2154363,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 3.06,
           "old_price": 8.18,
           "discount_pct": 27
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 6.13,
+          "price_eur": 3.13,
+          "old_price": 8.18,
+          "discount_pct": 25
         }
       ],
       "lowest_price": 5.99,
       "lowest_price_date": "2026-09-14",
-      "avg_price": 8.96
+      "avg_price": 8.39
     },
     {
       "name": "Lacrima Кашкавал от краве мляко",
@@ -2153695,7 +2155267,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/02300324_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-загорка-бира-0-5-vol-500g",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-07-20",
       "price_history": [
         {
@@ -2153721,11 +2155293,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.28,
           "old_price": 0.94,
           "discount_pct": 41
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.59,
+          "price_eur": 0.3,
+          "old_price": 0.94,
+          "discount_pct": 37
         }
       ],
       "lowest_price": 0.55,
       "lowest_price_date": "2026-09-20",
-      "avg_price": 0.72
+      "avg_price": 0.69
     },
     {
       "name": "Gama Салфетки 33 х 33 см",
@@ -2154364,7 +2155944,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/148_2020956718B_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-mowi-суши-онигири-различни-видове-100g",
-      "last_seen": "2026-08-30",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-07-20",
       "price_history": [
         {
@@ -2154382,11 +2155962,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.92,
           "old_price": 2.19,
           "discount_pct": 18
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.85,
+          "price_eur": 0.95,
+          "old_price": 2.19,
+          "discount_pct": 16
         }
       ],
       "lowest_price": 1.79,
       "lowest_price_date": "2026-08-24",
-      "avg_price": 2.65
+      "avg_price": 2.38
     },
     {
       "name": "Spice&Soul Комплект мерителни съдове",
@@ -2155991,7 +2157579,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/9000100341943_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-taft-стилизиращи-продукти-за-коса-различни-видове-250g",
-      "last_seen": "2026-08-30",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-07-20",
       "price_history": [
         {
@@ -2158141,7 +2159729,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20928229_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-persil-капсули-избрани-видове",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-07-20",
       "price_history": [
         {
@@ -2159512,7 +2161100,7 @@ const ALL_PRODUCTS_DATA = {
       "avg_price": 6.61
     },
     {
-      "name": "Pantene Шампоан, Балсам, Маска или Крем за коса",
+      "name": "PANTENE Шампоан, Балсам, Маска или Крем за коса",
       "store": "Kaufland",
       "emoji": "🧴",
       "category": "hygiene",
@@ -2159530,9 +2161118,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/content/schwarz/8700216420839_BG_P",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/631_20891931?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-pantene-шампоан-балсам-маска-или-крем-за-коса-400g",
-      "last_seen": "2026-08-16",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-07-21",
       "price_history": [
         {
@@ -2162569,50 +2164157,6 @@ const ALL_PRODUCTS_DATA = {
       "avg_price": 0.88
     },
     {
-      "name": "Саяна Прясно мляко",
-      "store": "Kaufland",
-      "emoji": "🥛",
-      "category": "dairy",
-      "weight_raw": "500 мл",
-      "weight_grams": 500,
-      "shelf_life": "малотраен",
-      "is_food": true,
-      "is_healthy": true,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": 5,
-      "diet_tags": [
-        "budget"
-      ],
-      "macros": {
-        "kcal": 60,
-        "p": 3.2,
-        "f": 3.2,
-        "c": 4.8
-      },
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800226522853_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "product_id": "kaufland-саяна-прясно-мляко-500g",
-      "last_seen": "2026-08-02",
-      "first_seen": "2026-07-27",
-      "price_history": [
-        {
-          "date": "2026-07-27",
-          "store": "Kaufland",
-          "price": 1.0,
-          "price_eur": 0.51,
-          "old_price": 1.99,
-          "discount_pct": 50
-        }
-      ],
-      "lowest_price": 1.0,
-      "lowest_price_date": "2026-07-27",
-      "avg_price": 1.0
-    },
-    {
       "name": "Бутилка 0,75 л",
       "store": "Kaufland",
       "emoji": "🍗",
@@ -2163144,7 +2164688,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/249_20658865_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-balkan-протеинов-сандвич-различни-видове-220g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-07-27",
       "price_history": [
         {
@@ -2163457,7 +2165001,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4006067089848_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-tchibo-eduscho-мляно-кафе-различни-видове-500g",
-      "last_seen": "2026-08-02",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-07-27",
       "price_history": [
         {
@@ -2163467,11 +2165011,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 5.99,
           "old_price": 21.49,
           "discount_pct": 45
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 5.99,
+          "price_eur": 3.06,
+          "old_price": 10.99,
+          "discount_pct": 45
         }
       ],
-      "lowest_price": 11.72,
-      "lowest_price_date": "2026-07-27",
-      "avg_price": 11.72
+      "lowest_price": 5.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 8.86
     },
     {
       "name": "Nescafe Gold Разтворимо кафе различни видове",
@@ -2164076,7 +2165628,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/02300090_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-хисар-минерална-вода-натурална-500g",
-      "last_seen": "2026-08-02",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-07-27",
       "price_history": [
         {
@@ -2164086,11 +2165638,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.25,
           "old_price": 1.02,
           "discount_pct": 52
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.52,
+          "price_eur": 0.27,
+          "old_price": 1.04,
+          "discount_pct": 50
         }
       ],
       "lowest_price": 0.49,
       "lowest_price_date": "2026-07-27",
-      "avg_price": 0.49
+      "avg_price": 0.51
     },
     {
       "name": "Радиком Черен пипер или Кимион",
@@ -2164285,7 +2165845,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/02300260B_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-pepsi-mirinda-7-up-evervess-330g",
-      "last_seen": "2026-08-02",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-07-27",
       "price_history": [
         {
@@ -2164295,11 +2165855,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.43,
           "old_price": 1.7,
           "discount_pct": 51
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.87,
+          "price_eur": 0.44,
+          "old_price": 1.74,
+          "discount_pct": 50
         }
       ],
       "lowest_price": 0.84,
       "lowest_price_date": "2026-07-27",
-      "avg_price": 0.84
+      "avg_price": 0.85
     },
     {
       "name": "Радиком Шарена сол",
@@ -2164449,7 +2166017,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4823077626364_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-roshen-шоколад-различни-видове-80g",
-      "last_seen": "2026-08-02",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-07-27",
       "price_history": [
         {
@@ -2164459,11 +2166027,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.74,
           "old_price": 2.91,
           "discount_pct": 50
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.75,
+          "price_eur": 0.38,
+          "old_price": 1.49,
+          "discount_pct": 50
         }
       ],
-      "lowest_price": 1.45,
-      "lowest_price_date": "2026-07-27",
-      "avg_price": 1.45
+      "lowest_price": 0.75,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 1.1
     },
     {
       "name": "Ади Червен пипер",
@@ -2165597,7 +2167173,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20824975_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-felix-супа-за-коте-различни-видове-288g",
-      "last_seen": "2026-09-28",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-07-27",
       "price_history": [
         {
@@ -2165623,11 +2167199,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.98,
           "old_price": 2.55,
           "discount_pct": 25
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.79,
+          "price_eur": 0.92,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 1.79,
       "lowest_price_date": "2026-08-24",
-      "avg_price": 2.39
+      "avg_price": 2.24
     },
     {
       "name": "Лавандула Ø10,5 см",
@@ -2165882,91 +2167466,6 @@ const ALL_PRODUCTS_DATA = {
       "lowest_price": 3.99,
       "lowest_price_date": "2026-07-27",
       "avg_price": 4.55
-    },
-    {
-      "name": "HEINZ Майонеза класик",
-      "store": "Kaufland",
-      "emoji": "🛒",
-      "category": "other",
-      "weight_raw": "480 мл",
-      "weight_grams": 480,
-      "shelf_life": null,
-      "is_food": false,
-      "is_healthy": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": null,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8715700422480_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "product_id": "kaufland-heinz-маионеза-класик-480g",
-      "last_seen": "2026-09-27",
-      "first_seen": "2026-05-11",
-      "price_history": [
-        {
-          "date": "2026-05-11",
-          "store": "Kaufland",
-          "price": 7.49,
-          "price_eur": 3.83,
-          "old_price": 11.99,
-          "discount_pct": 38
-        },
-        {
-          "date": "2026-06-01",
-          "store": "Kaufland",
-          "price": 4.67,
-          "price_eur": 2.39,
-          "old_price": 8.49,
-          "discount_pct": 45
-        },
-        {
-          "date": "2026-06-08",
-          "store": "Kaufland",
-          "price": 7.49,
-          "price_eur": 3.83,
-          "old_price": 11.99,
-          "discount_pct": 38
-        },
-        {
-          "date": "2026-07-09",
-          "store": "Kaufland",
-          "price": 4.24,
-          "price_eur": 2.17,
-          "old_price": 8.49,
-          "discount_pct": 50
-        },
-        {
-          "date": "2026-07-20",
-          "store": "Kaufland",
-          "price": 7.41,
-          "price_eur": 3.79,
-          "old_price": 11.99,
-          "discount_pct": 38
-        },
-        {
-          "date": "2026-07-27",
-          "store": "Kaufland",
-          "price": 4.24,
-          "price_eur": 2.17,
-          "old_price": 8.49,
-          "discount_pct": 50
-        },
-        {
-          "date": "2026-08-17",
-          "store": "Kaufland",
-          "price": 2.17,
-          "price_eur": 1.11,
-          "old_price": 4.34,
-          "discount_pct": 50
-        }
-      ],
-      "lowest_price": 2.17,
-      "lowest_price_date": "2026-08-17",
-      "avg_price": 5.39
     },
     {
       "name": "Fino Хартия за печене 42х38 см, 30 бр.",
@@ -2173866,9 +2175365,7 @@ const ALL_PRODUCTS_DATA = {
       "is_bulk_worthy": true,
       "is_long_lasting": true,
       "health_score": 9,
-      "diet_tags": [
-        "budget"
-      ],
+      "diet_tags": [],
       "macros": {
         "kcal": 595,
         "p": 17,
@@ -2173881,7 +2175378,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800060172122_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-balcho-сусамов-тахан-различни-видове-350g",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -2173931,11 +2175428,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.41,
           "old_price": 3.57,
           "discount_pct": 23
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.57,
+          "price_eur": 1.83,
+          "old_price": 7.14,
+          "discount_pct": 50
         }
       ],
       "lowest_price": 2.75,
       "lowest_price_date": "2026-08-31",
-      "avg_price": 4.95
+      "avg_price": 4.75
     },
     {
       "name": "Rois Бадем печен с морска сол",
@@ -2177027,7 +2178532,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/631_20891933?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-pantene-олио-маска-серум-за-коса-различни-видове-300g",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-08-03",
       "price_history": [
         {
@@ -2177045,11 +2178550,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 3.06,
           "old_price": 8.18,
           "discount_pct": 27
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 6.13,
+          "price_eur": 3.13,
+          "old_price": 8.18,
+          "discount_pct": 25
         }
       ],
       "lowest_price": 5.99,
       "lowest_price_date": "2026-09-14",
-      "avg_price": 8.86
+      "avg_price": 7.95
     },
     {
       "name": "Galbani Маскарпоне",
@@ -2179461,7 +2180974,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00068883_P?JGstbGVnYWN5LW9uc2l0ZS0xJA==",
       "product_id": "kaufland-pedigree-лакомство-за-кучета-различни-видове-200g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-08-03",
       "price_history": [
         {
@@ -2180138,7 +2181651,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20336803_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-my-love-храна-за-котки-пауч-различни-видове-340g",
-      "last_seen": "2026-09-28",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-08-03",
       "price_history": [
         {
@@ -2180156,11 +2181669,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.64,
           "old_price": 1.68,
           "discount_pct": 25
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.68,
+          "price_eur": 0.86,
+          "old_price": 3.36,
+          "discount_pct": 50
         }
       ],
       "lowest_price": 1.26,
       "lowest_price_date": "2026-09-28",
-      "avg_price": 2.27
+      "avg_price": 2.08
     },
     {
       "name": "Grisbi Бисквити различни видове",
@@ -2182700,67 +2184221,6 @@ const ALL_PRODUCTS_DATA = {
       "lowest_price": 4.19,
       "lowest_price_date": "2026-08-17",
       "avg_price": 6.19
-    },
-    {
-      "name": "Purina ONE Суха храна за котки различни видове",
-      "store": "Kaufland",
-      "emoji": "🐾",
-      "category": "pet",
-      "weight_raw": "750 г",
-      "weight_grams": 750,
-      "shelf_life": "6м-1г",
-      "is_food": false,
-      "is_healthy": false,
-      "is_bulk_worthy": true,
-      "is_long_lasting": true,
-      "health_score": null,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8445291799660_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "product_id": "kaufland-purina-one-суха-храна-за-котки-различни-видове-750g",
-      "last_seen": "2026-10-04",
-      "first_seen": "2026-06-29",
-      "price_history": [
-        {
-          "date": "2026-06-29",
-          "store": "Kaufland",
-          "price": 8.19,
-          "price_eur": 4.19,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-07-27",
-          "store": "Kaufland",
-          "price": 5.85,
-          "price_eur": 2.99,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-08-03",
-          "store": "Kaufland",
-          "price": 8.19,
-          "price_eur": 4.19,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-08-17",
-          "store": "Kaufland",
-          "price": 4.19,
-          "price_eur": 2.14,
-          "old_price": null,
-          "discount_pct": null
-        }
-      ],
-      "lowest_price": 4.19,
-      "lowest_price_date": "2026-08-17",
-      "avg_price": 6.6
     },
     {
       "name": "Garnier Мицеларна вода Sensitive Skin",
@@ -2185711,7 +2187171,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20694349_606?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-milde-тоал-хартия-3-пластова-32-8бр",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-08-03",
       "price_history": [
         {
@@ -2187600,7 +2189060,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00107589_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-сурови-скариди-от-свежата-витрина",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-08-04",
       "price_history": [
         {
@@ -2187642,11 +2189102,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 5.11,
           "old_price": 15.33,
           "discount_pct": 35
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 10.29,
+          "price_eur": 5.26,
+          "old_price": 15.33,
+          "discount_pct": 33
         }
       ],
       "lowest_price": 9.99,
       "lowest_price_date": "2026-08-24",
-      "avg_price": 12.81
+      "avg_price": 12.39
     },
     {
       "name": "Бромелия в керамика",
@@ -2191202,7 +2192670,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800718501755_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-magic-clean-домакинска-гъба-с-канал",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-08-10",
       "price_history": [
         {
@@ -2192754,7 +2194222,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/2800590000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-свинско-месо-от-свежата-витрина",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-08-10",
       "price_history": [
         {
@@ -2192874,7 +2194342,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800050302928_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-detelina-s-слънчоглед-500g",
-      "last_seen": "2026-08-16",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-08-10",
       "price_history": [
         {
@@ -2192884,11 +2194352,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.51,
           "old_price": 2.04,
           "discount_pct": 51
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.53,
+          "price_eur": 0.78,
+          "old_price": 2.04,
+          "discount_pct": 25
         }
       ],
       "lowest_price": 1.0,
       "lowest_price_date": "2026-08-10",
-      "avg_price": 1.0
+      "avg_price": 1.27
     },
     {
       "name": "Uludag Плодова напитка различни видове",
@@ -2193945,7 +2195421,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00033302_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-тилапия-филе-размразено",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-08-10",
       "price_history": [
         {
@@ -2193955,11 +2195431,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 5.12,
           "old_price": 12.52,
           "discount_pct": 20
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 9.19,
+          "price_eur": 4.7,
+          "old_price": 12.52,
+          "discount_pct": 27
         }
       ],
-      "lowest_price": 10.01,
-      "lowest_price_date": "2026-08-10",
-      "avg_price": 10.01
+      "lowest_price": 9.19,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 9.6
     },
     {
       "name": "Hipp Junior Combiotic Мляко за деца над 1 год.",
@@ -2194351,9 +2195835,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800103431421_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/538_00013658?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-derby-газирана-напитка-различни-вкусове-500g",
-      "last_seen": "2026-08-16",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -2194371,11 +2195855,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.12,
           "old_price": 0.48,
           "discount_pct": 50
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.48,
+          "price_eur": 0.25,
+          "old_price": 0.96,
+          "discount_pct": 50
         }
       ],
       "lowest_price": 0.24,
       "lowest_price_date": "2026-08-10",
-      "avg_price": 0.35
+      "avg_price": 0.4
     },
     {
       "name": "K-Classic Картофен чипс различни вкусове",
@@ -2194779,7 +2196271,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00108762_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-mega-pet-храна-за-котки-различни-видове-415g",
-      "last_seen": "2026-08-16",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-08-10",
       "price_history": [
         {
@@ -2195525,7 +2197017,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8690526010571_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-eti-бисквити-petit-beurre-370g",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -2196655,59 +2198147,6 @@ const ALL_PRODUCTS_DATA = {
       "avg_price": 2.14
     },
     {
-      "name": "Doritos Царевичен чипс различни видове",
-      "store": "Kaufland",
-      "emoji": "🛒",
-      "category": "other",
-      "weight_raw": "300 г",
-      "weight_grams": 300,
-      "shelf_life": null,
-      "is_food": false,
-      "is_healthy": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": null,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/5941000034242_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
-      "product_id": "kaufland-doritos-царевичен-чипс-различни-видове-300g",
-      "last_seen": "2026-09-13",
-      "first_seen": "2026-05-07",
-      "price_history": [
-        {
-          "date": "2026-05-07",
-          "store": "Kaufland",
-          "price": 4.28,
-          "price_eur": 2.19,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-06-22",
-          "store": "Kaufland",
-          "price": 2.52,
-          "price_eur": 1.29,
-          "old_price": 3.99,
-          "discount_pct": 37
-        },
-        {
-          "date": "2026-08-10",
-          "store": "Kaufland",
-          "price": 2.19,
-          "price_eur": 1.12,
-          "old_price": null,
-          "discount_pct": null
-        }
-      ],
-      "lowest_price": 2.19,
-      "lowest_price_date": "2026-08-10",
-      "avg_price": 3.0
-    },
-    {
       "name": "TALENTUS Перманентни маркери 6 бр.",
       "store": "Kaufland",
       "emoji": "🛒",
@@ -2196874,9 +2198313,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/6425929000827_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/6425929000896_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-my-sushi-гьоза-различни-видове-180g",
-      "last_seen": "2026-08-30",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-08-10",
       "price_history": [
         {
@@ -2199082,9 +2200521,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627909054_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627899812_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-lupilu-детски-панталон-98-128",
-      "last_seen": "2026-08-16",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-08-10",
       "price_history": [
         {
@@ -2199094,11 +2200533,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 2.81,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.99,
+          "price_eur": 2.04,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
-      "lowest_price": 5.49,
-      "lowest_price_date": "2026-08-10",
-      "avg_price": 5.49
+      "lowest_price": 3.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 4.74
     },
     {
       "name": "Писия",
@@ -2202511,7 +2203958,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627687044_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-switch-on-минифурна",
-      "last_seen": "2026-08-16",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-08-10",
       "price_history": [
         {
@@ -2202521,11 +2203968,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 30.67,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 49.99,
+          "price_eur": 25.56,
+          "old_price": 59.99,
+          "discount_pct": 17
         }
       ],
-      "lowest_price": 59.99,
-      "lowest_price_date": "2026-08-10",
-      "avg_price": 59.99
+      "lowest_price": 49.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 54.99
     },
     {
       "name": "Minecraft Ученическа раница с пособия",
@@ -2204074,8 +2205529,7 @@ const ALL_PRODUCTS_DATA = {
       "health_score": 8,
       "diet_tags": [
         "high_protein",
-        "vegetarian",
-        "budget"
+        "vegetarian"
       ],
       "macros": {
         "kcal": 66,
@@ -2204089,7 +2205543,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20736957-1?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-bakoma-плодов-скир-различни-видове-150g",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-08-17",
       "price_history": [
         {
@@ -2204099,11 +2205553,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.59,
           "old_price": 1.69,
           "discount_pct": 32
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.38,
+          "price_eur": 1.73,
+          "old_price": 5.07,
+          "discount_pct": 33
         }
       ],
       "lowest_price": 1.15,
       "lowest_price_date": "2026-08-17",
-      "avg_price": 1.15
+      "avg_price": 2.26
     },
     {
       "name": "БРАВО Пуешко филе слайс",
@@ -2204893,7 +2206355,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00061916_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-detelina-s-фурми-сушени-200g",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-08-17",
       "price_history": [
         {
@@ -2204903,11 +2206365,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.61,
           "old_price": 1.53,
           "discount_pct": 22
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.14,
+          "price_eur": 0.58,
+          "old_price": 1.53,
+          "discount_pct": 25
         }
       ],
-      "lowest_price": 1.19,
-      "lowest_price_date": "2026-08-17",
-      "avg_price": 1.19
+      "lowest_price": 1.14,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 1.17
     },
     {
       "name": "ВВВ Нектар или Плодова напитка",
@@ -2206098,7 +2207568,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20972614?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-tedex-sport-2000-моторно-масло-15w-40",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-08-17",
       "price_history": [
         {
@@ -2206140,7 +2207610,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20972588?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-tedex-runner-моторно-масло-10w40",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-08-17",
       "price_history": [
         {
@@ -2206182,7 +2207652,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20972591?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-tedex-synthetic-моторно-масло-5w-40-vw511-sae",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-08-17",
       "price_history": [
         {
@@ -2207177,9 +2208647,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/02300235_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20917669_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-pepsi-mirinda-7-up-различни-видове-2000g",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -2207237,11 +2208707,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.49,
           "old_price": 1.66,
           "discount_pct": 43
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.99,
+          "price_eur": 0.51,
+          "old_price": 1.66,
+          "discount_pct": 40
         }
       ],
       "lowest_price": 0.84,
       "lowest_price_date": "2026-07-27",
-      "avg_price": 1.5
+      "avg_price": 1.43
     },
     {
       "name": "Kronos Фъстъци",
@@ -2207753,7 +2209231,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800061630898_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-престиж-бисквити-сандвич-wellness-различни-видове-103g",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-08-17",
       "price_history": [
         {
@@ -2207763,11 +2209241,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.71,
           "old_price": 1.84,
           "discount_pct": 24
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.29,
+          "price_eur": 0.66,
+          "old_price": 1.84,
+          "discount_pct": 30
         }
       ],
-      "lowest_price": 1.39,
-      "lowest_price_date": "2026-08-17",
-      "avg_price": 1.39
+      "lowest_price": 1.29,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 1.34
     },
     {
       "name": "Dentalife Лакомство за кучета различни видове",
@@ -2209088,7 +2210574,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800009401719_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-targovishte-червено-бяло-вино-или-розе-избрани-сортове-750g",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-06-01",
       "price_history": [
         {
@@ -2209130,11 +2210616,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.73,
           "old_price": 4.25,
           "discount_pct": 20
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.29,
+          "price_eur": 1.68,
+          "old_price": 4.25,
+          "discount_pct": 23
         }
       ],
-      "lowest_price": 3.39,
-      "lowest_price_date": "2026-08-17",
-      "avg_price": 7.15
+      "lowest_price": 3.29,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 6.5
     },
     {
       "name": "Targovishte Бяло вино Совиньон Блан",
@@ -2209157,7 +2210651,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/01800192_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-targovishte-бяло-вино-совиньон-блан-750g",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-08-17",
       "price_history": [
         {
@@ -2209167,11 +2210661,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.73,
           "old_price": 4.25,
           "discount_pct": 20
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.29,
+          "price_eur": 1.68,
+          "old_price": 4.25,
+          "discount_pct": 23
         }
       ],
-      "lowest_price": 3.39,
-      "lowest_price_date": "2026-08-17",
-      "avg_price": 3.39
+      "lowest_price": 3.29,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 3.34
     },
     {
       "name": "Silvercrest Резачка различни видове",
@@ -2209490,7 +2210992,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20347105_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-laica-филтър-bi-flux-различни-видове",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-08-17",
       "price_history": [
         {
@@ -2210077,7 +2211579,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8720181466465_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-dove-душ-гел-различни-видове-720g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -2213669,7 +2215171,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/2830930000000_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-черно-грозде",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-08-21",
       "price_history": [
         {
@@ -2213687,11 +2215189,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.81,
           "old_price": 2.99,
           "discount_pct": 47
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.69,
+          "price_eur": 0.86,
+          "old_price": 2.99,
+          "discount_pct": 43
         }
       ],
       "lowest_price": 1.59,
       "lowest_price_date": "2026-09-28",
-      "avg_price": 1.79
+      "avg_price": 1.76
     },
     {
       "name": "MY PROJECT® Лятна течност за чистачки",
@@ -2219358,7 +2220868,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800218250238_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-harmonica-био-кисело-мляко-3-6-масленост-400g",
-      "last_seen": "2026-08-30",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-08-24",
       "price_history": [
         {
@@ -2219368,11 +2220878,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.56,
           "old_price": 1.41,
           "discount_pct": 23
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.15,
+          "price_eur": 0.59,
+          "old_price": 1.41,
+          "discount_pct": 18
         }
       ],
       "lowest_price": 1.09,
       "lowest_price_date": "2026-08-24",
-      "avg_price": 1.09
+      "avg_price": 1.12
     },
     {
       "name": "Димитър Маджаров Кисело мляко Protein plus",
@@ -2219989,7 +2221507,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800106403531_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-krina-ориз-balance-800g",
-      "last_seen": "2026-08-30",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-08-24",
       "price_history": [
         {
@@ -2219999,11 +2221517,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.96,
           "old_price": 2.5,
           "discount_pct": 25
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.5,
+          "price_eur": 1.28,
+          "old_price": 5.0,
+          "discount_pct": 50
         }
       ],
       "lowest_price": 1.87,
       "lowest_price_date": "2026-08-24",
-      "avg_price": 1.87
+      "avg_price": 2.19
     },
     {
       "name": "Krina Ориз Кристалино",
@@ -2220221,7 +2221747,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800107801015_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-топаз-мел-пшенично-брашно-1000g",
-      "last_seen": "2026-08-30",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-08-24",
       "price_history": [
         {
@@ -2220231,11 +2221757,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.4,
           "old_price": 1.02,
           "discount_pct": 23
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.75,
+          "price_eur": 0.38,
+          "old_price": 1.02,
+          "discount_pct": 26
         }
       ],
-      "lowest_price": 0.79,
-      "lowest_price_date": "2026-08-24",
-      "avg_price": 0.79
+      "lowest_price": 0.75,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 0.77
     },
     {
       "name": "Hipp Биопюре за деца над 4 мес.",
@@ -2221435,7 +2222969,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800061804688_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-хели-вафли-ретро-различни-видове-168g",
-      "last_seen": "2026-08-30",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-08-24",
       "price_history": [
         {
@@ -2221445,11 +2222979,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.35,
           "old_price": 0.92,
           "discount_pct": 25
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.79,
+          "price_eur": 0.4,
+          "old_price": 0.92,
+          "discount_pct": 14
         }
       ],
       "lowest_price": 0.69,
       "lowest_price_date": "2026-08-24",
-      "avg_price": 0.69
+      "avg_price": 0.74
     },
     {
       "name": "Лед на кубчета",
@@ -2222249,7 +2223791,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00102020_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-pedigree-лакомство-за-куче-избрани-видове-200g",
-      "last_seen": "2026-08-30",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-08-24",
       "price_history": [
         {
@@ -2225104,11 +2226646,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 2.86,
           "old_price": 9.37,
           "discount_pct": 40
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 6.55,
+          "price_eur": 3.35,
+          "old_price": 9.37,
+          "discount_pct": 30
         }
       ],
       "lowest_price": 0.89,
       "lowest_price_date": "2026-08-10",
-      "avg_price": 7.03
+      "avg_price": 6.99
     },
     {
       "name": "LIVARNO Чаршаф с ластик 140-160 x 200 см",
@@ -2233343,7 +2234893,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20627069_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-lovita-бисквити-cake-cookies-различни-видове-168g",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-08-31",
       "price_history": [
         {
@@ -2236152,7 +2237702,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/268_2020954906_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-puree-foods-смути-различни-видове-400g",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-08-31",
       "price_history": [
         {
@@ -2236863,7 +2238413,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20977049_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-alvina-гел-color-deluxe-perfume",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-08-31",
       "price_history": [
         {
@@ -2238174,7 +2239724,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/25009415_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-жълт-лук-кг-клас-i",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-09-03",
       "price_history": [
         {
@@ -2238218,9 +2239768,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": true,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00024981_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800226520361_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-саяна-кисело-мляко-400g",
-      "last_seen": "2026-09-04",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -2238238,11 +2239788,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.29,
           "old_price": 0.92,
           "discount_pct": 38
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.97,
+          "price_eur": 0.5,
+          "old_price": 1.94,
+          "discount_pct": 50
         }
       ],
       "lowest_price": 0.57,
       "lowest_price_date": "2026-09-03",
-      "avg_price": 0.88
+      "avg_price": 0.91
     },
     {
       "name": "*ДОМАТИ FIORRE НА КУБЧЕТА 400 ГР КОНСЕРВА",
@@ -2239125,7 +2240683,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8006530226592_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-ariel-капсули-80-бр-различни-видове",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-09-03",
       "price_history": [
         {
@@ -2241570,7 +2243128,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/516_20892906?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-печени-бадеми-1000g",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-09-07",
       "price_history": [
         {
@@ -2241580,11 +2243138,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 6.54,
           "old_price": 15.33,
           "discount_pct": 17
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 10.99,
+          "price_eur": 5.62,
+          "old_price": 15.33,
+          "discount_pct": 28
         }
       ],
-      "lowest_price": 12.79,
-      "lowest_price_date": "2026-09-07",
-      "avg_price": 12.79
+      "lowest_price": 10.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 11.89
     },
     {
       "name": "ВВВ Нектар праскова 50%",
@@ -2242214,7 +2243780,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800091785124_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-вита-баланс-пълнозърнест-хляб",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-09-07",
       "price_history": [
         {
@@ -2242506,45 +2244072,6 @@ const ALL_PRODUCTS_DATA = {
       "lowest_price": 1.35,
       "lowest_price_date": "2026-09-07",
       "avg_price": 2.0
-    },
-    {
-      "name": "Actimel Млечна напитка различни видове",
-      "store": "Kaufland",
-      "emoji": "🍞",
-      "category": "bread",
-      "weight_raw": "4 х 100 г",
-      "weight_grams": 400,
-      "shelf_life": "малотраен",
-      "is_food": true,
-      "is_healthy": true,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": 5,
-      "diet_tags": [
-        "budget"
-      ],
-      "macros": null,
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/286_5997536134314_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "product_id": "kaufland-actimel-млечна-напитка-различни-видове-400g",
-      "last_seen": "2026-09-13",
-      "first_seen": "2026-09-07",
-      "price_history": [
-        {
-          "date": "2026-09-07",
-          "store": "Kaufland",
-          "price": 1.89,
-          "price_eur": 0.97,
-          "old_price": 2.43,
-          "discount_pct": 22
-        }
-      ],
-      "lowest_price": 1.89,
-      "lowest_price_date": "2026-09-07",
-      "avg_price": 1.89
     },
     {
       "name": "OLYMPUS Прясно мляко",
@@ -2242971,99 +2244498,6 @@ const ALL_PRODUCTS_DATA = {
       "avg_price": 4.02
     },
     {
-      "name": "Nescafe Кафе капсули Dolce Gusto различни видове",
-      "store": "Kaufland",
-      "emoji": "🍺",
-      "category": "drinks",
-      "weight_raw": "256 г",
-      "weight_grams": 256,
-      "shelf_life": "малотраен",
-      "is_food": true,
-      "is_healthy": true,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": 5,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/7613031526406_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "product_id": "kaufland-nescafe-кафе-капсули-dolce-gusto-различни-видове-256g",
-      "last_seen": "2026-10-11",
-      "first_seen": "2026-05-07",
-      "price_history": [
-        {
-          "date": "2026-05-07",
-          "store": "Kaufland",
-          "price": 17.0,
-          "price_eur": 8.69,
-          "old_price": 25.0,
-          "discount_pct": 32
-        },
-        {
-          "date": "2026-06-01",
-          "store": "Kaufland",
-          "price": 16.92,
-          "price_eur": 8.65,
-          "old_price": 25.0,
-          "discount_pct": 32
-        },
-        {
-          "date": "2026-06-08",
-          "store": "Kaufland",
-          "price": 8.98,
-          "price_eur": 4.59,
-          "old_price": 12.65,
-          "discount_pct": 29
-        },
-        {
-          "date": "2026-06-29",
-          "store": "Kaufland",
-          "price": 16.6,
-          "price_eur": 8.49,
-          "old_price": 25.0,
-          "discount_pct": 34
-        },
-        {
-          "date": "2026-08-03",
-          "store": "Kaufland",
-          "price": 16.8,
-          "price_eur": 8.59,
-          "old_price": 25.0,
-          "discount_pct": 33
-        },
-        {
-          "date": "2026-08-25",
-          "store": "Kaufland",
-          "price": 8.69,
-          "price_eur": 4.44,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-09-07",
-          "store": "Kaufland",
-          "price": 4.39,
-          "price_eur": 2.24,
-          "old_price": 6.47,
-          "discount_pct": 32
-        },
-        {
-          "date": "2026-10-05",
-          "store": "Kaufland",
-          "price": 4.59,
-          "price_eur": 2.35,
-          "old_price": 6.47,
-          "discount_pct": 29
-        }
-      ],
-      "lowest_price": 4.39,
-      "lowest_price_date": "2026-09-07",
-      "avg_price": 11.75
-    },
-    {
       "name": "Maped Кутия за храна 1,4 л",
       "store": "Kaufland",
       "emoji": "🛒",
@@ -2243443,7 +2244877,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/238_20283975_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-орехите-луканка-смядовска-180g",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-09-07",
       "price_history": [
         {
@@ -2243453,11 +2244887,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.58,
           "old_price": 6.25,
           "discount_pct": 51
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 6.25,
+          "price_eur": 3.2,
+          "old_price": 12.5,
+          "discount_pct": 50
         }
       ],
       "lowest_price": 3.09,
       "lowest_price_date": "2026-09-07",
-      "avg_price": 3.09
+      "avg_price": 4.67
     },
     {
       "name": "ТАНДЕМ Шунка, Бекон или Филе слайс",
@@ -2246265,7 +2247707,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/326_00043865_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-ида-чиизкеик-различни-видове-220g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -2248777,7 +2250219,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00056532_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-listerine-вода-за-уста-coolmint-1000g",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-09-07",
       "price_history": [
         {
@@ -2250249,11 +2251691,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 7.65,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 11.49,
+          "price_eur": 5.87,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 11.49,
       "lowest_price_date": "2026-09-07",
-      "avg_price": 13.23
+      "avg_price": 12.65
     },
     {
       "name": "MINECRAFT Двоен несесер без аксесоари",
@@ -2250975,7 +2252425,7 @@ const ALL_PRODUCTS_DATA = {
       "avg_price": 19.99
     },
     {
-      "name": "CAROTINA Led проектор Училище по писане",
+      "name": "CAROTINA LED проектор Училище по писане",
       "store": "Kaufland",
       "emoji": "🛒",
       "category": "other",
@@ -2250995,7 +2252445,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20975509_4?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-carotina-led-проектор-училище-по-писане",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-09-07",
       "price_history": [
         {
@@ -2306717,7 +2308167,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/09700133_P-2?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-нар-клас-i",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-09-14",
       "price_history": [
         {
@@ -2306735,11 +2308185,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.4,
           "old_price": 1.79,
           "discount_pct": 56
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.69,
+          "price_eur": 0.35,
+          "old_price": 1.79,
+          "discount_pct": 61
         }
       ],
-      "lowest_price": 0.79,
-      "lowest_price_date": "2026-09-28",
-      "avg_price": 0.89
+      "lowest_price": 0.69,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 0.82
     },
     {
       "name": "Vernada Булгур с тиквени семки и хумус",
@@ -2306895,7 +2308353,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/AdobeStock_38803584?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-боровинки-клас-i-125g",
-      "last_seen": "2026-10-02",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -2307025,11 +2308483,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.97,
           "old_price": 2.99,
           "discount_pct": 37
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.09,
+          "price_eur": 1.07,
+          "old_price": 2.99,
+          "discount_pct": 30
         }
       ],
       "lowest_price": 1.39,
       "lowest_price_date": "2026-08-24",
-      "avg_price": 4.92
+      "avg_price": 4.75
     },
     {
       "name": "Barilla Лазаня с яйца",
@@ -2307200,7 +2308666,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4063367583643_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-k-classic-десерт-с-извара-различни-видове-40g",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-09-14",
       "price_history": [
         {
@@ -2307562,7 +2309028,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20911941_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-шеф-месар-мариновани-свински-гърди-с-кост",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-09-14",
       "price_history": [
         {
@@ -2307753,7 +2309219,7 @@ const ALL_PRODUCTS_DATA = {
       "avg_price": 1.39
     },
     {
-      "name": "VITAE D'ORO Олио слънчогледово",
+      "name": "Vitae d'Oro Олио слънчогледово",
       "store": "Kaufland",
       "emoji": "🫒",
       "category": "fat",
@@ -2307778,9 +2309244,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20760986_P-1?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4049726031789_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-vitae-d-oro-олио-слънчогледово-1000g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -2308665,107 +2310131,6 @@ const ALL_PRODUCTS_DATA = {
       "avg_price": 4.79
     },
     {
-      "name": "Фермата Луканка",
-      "store": "Kaufland",
-      "emoji": "🍗",
-      "category": "protein",
-      "weight_raw": "700 г",
-      "weight_grams": 700,
-      "shelf_life": "малотраен",
-      "is_food": true,
-      "is_healthy": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": 3,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/Lukanka_Gastro_XXL_%281%29?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
-      "product_id": "kaufland-фермата-луканка-700g",
-      "last_seen": "2026-10-11",
-      "first_seen": "2026-05-07",
-      "price_history": [
-        {
-          "date": "2026-05-07",
-          "store": "Kaufland",
-          "price": 10.99,
-          "price_eur": 5.62,
-          "old_price": 21.98,
-          "discount_pct": 50
-        },
-        {
-          "date": "2026-05-18",
-          "store": "Kaufland",
-          "price": 6.49,
-          "price_eur": 3.32,
-          "old_price": 12.99,
-          "discount_pct": 50
-        },
-        {
-          "date": "2026-06-08",
-          "store": "Kaufland",
-          "price": 10.99,
-          "price_eur": 5.62,
-          "old_price": 21.98,
-          "discount_pct": 50
-        },
-        {
-          "date": "2026-06-22",
-          "store": "Kaufland",
-          "price": 6.63,
-          "price_eur": 3.39,
-          "old_price": 13.28,
-          "discount_pct": 50
-        },
-        {
-          "date": "2026-07-13",
-          "store": "Kaufland",
-          "price": 11.23,
-          "price_eur": 5.74,
-          "old_price": 22.47,
-          "discount_pct": 50
-        },
-        {
-          "date": "2026-07-27",
-          "store": "Kaufland",
-          "price": 6.63,
-          "price_eur": 3.39,
-          "old_price": 13.28,
-          "discount_pct": 50
-        },
-        {
-          "date": "2026-08-10",
-          "store": "Kaufland",
-          "price": 5.74,
-          "price_eur": 2.93,
-          "old_price": 11.49,
-          "discount_pct": 50
-        },
-        {
-          "date": "2026-08-31",
-          "store": "Kaufland",
-          "price": 3.39,
-          "price_eur": 1.73,
-          "old_price": 6.79,
-          "discount_pct": 50
-        },
-        {
-          "date": "2026-09-14",
-          "store": "Kaufland",
-          "price": 5.74,
-          "price_eur": 2.93,
-          "old_price": 11.49,
-          "discount_pct": 50
-        }
-      ],
-      "lowest_price": 3.39,
-      "lowest_price_date": "2026-08-31",
-      "avg_price": 7.54
-    },
-    {
       "name": "ASPASIA Негазирана напитка различни вкусове",
       "store": "Kaufland",
       "emoji": "🍞",
@@ -2308831,7 +2310196,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/02800030_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-боровец-вафла-различни-видове-55g",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-09-14",
       "price_history": [
         {
@@ -2308841,11 +2310206,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.11,
           "old_price": 0.35,
           "discount_pct": 37
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.23,
+          "price_eur": 0.12,
+          "old_price": 0.35,
+          "discount_pct": 34
         }
       ],
       "lowest_price": 0.22,
       "lowest_price_date": "2026-09-14",
-      "avg_price": 0.22
+      "avg_price": 0.23
     },
     {
       "name": "Joli Салфетки",
@@ -2309002,155 +2310375,6 @@ const ALL_PRODUCTS_DATA = {
       "lowest_price": 0.59,
       "lowest_price_date": "2026-09-14",
       "avg_price": 0.59
-    },
-    {
-      "name": "Gourmet Gold Храна за котки различни видове",
-      "store": "Kaufland",
-      "emoji": "🐾",
-      "category": "pet",
-      "weight_raw": "85 г",
-      "weight_grams": 85,
-      "shelf_life": "6м-1г",
-      "is_food": false,
-      "is_healthy": false,
-      "is_bulk_worthy": true,
-      "is_long_lasting": true,
-      "health_score": null,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/03400114_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "product_id": "kaufland-gourmet-gold-храна-за-котки-различни-видове-85g",
-      "last_seen": "2026-10-11",
-      "first_seen": "2026-05-07",
-      "price_history": [
-        {
-          "date": "2026-05-07",
-          "store": "Kaufland",
-          "price": 1.19,
-          "price_eur": 0.61,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-05-18",
-          "store": "Kaufland",
-          "price": 4.48,
-          "price_eur": 2.29,
-          "old_price": 6.49,
-          "discount_pct": 31
-        },
-        {
-          "date": "2026-05-25",
-          "store": "Kaufland",
-          "price": 1.27,
-          "price_eur": 0.65,
-          "old_price": 1.68,
-          "discount_pct": 24
-        },
-        {
-          "date": "2026-06-08",
-          "store": "Kaufland",
-          "price": 4.48,
-          "price_eur": 2.29,
-          "old_price": 6.49,
-          "discount_pct": 31
-        },
-        {
-          "date": "2026-06-15",
-          "store": "Kaufland",
-          "price": 1.27,
-          "price_eur": 0.65,
-          "old_price": 1.68,
-          "discount_pct": 24
-        },
-        {
-          "date": "2026-06-29",
-          "store": "Kaufland",
-          "price": 4.48,
-          "price_eur": 2.29,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-07-06",
-          "store": "Kaufland",
-          "price": 1.15,
-          "price_eur": 0.59,
-          "old_price": 1.68,
-          "discount_pct": 32
-        },
-        {
-          "date": "2026-07-20",
-          "store": "Kaufland",
-          "price": 4.48,
-          "price_eur": 2.29,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-07-27",
-          "store": "Kaufland",
-          "price": 1.15,
-          "price_eur": 0.59,
-          "old_price": 1.68,
-          "discount_pct": 32
-        },
-        {
-          "date": "2026-08-03",
-          "store": "Kaufland",
-          "price": 4.48,
-          "price_eur": 2.29,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-08-17",
-          "store": "Kaufland",
-          "price": 0.64,
-          "price_eur": 0.33,
-          "old_price": 0.86,
-          "discount_pct": 26
-        },
-        {
-          "date": "2026-08-24",
-          "store": "Kaufland",
-          "price": 0.65,
-          "price_eur": 0.33,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-08-31",
-          "store": "Kaufland",
-          "price": 2.29,
-          "price_eur": 1.17,
-          "old_price": 3.32,
-          "discount_pct": 31
-        },
-        {
-          "date": "2026-09-14",
-          "store": "Kaufland",
-          "price": 0.65,
-          "price_eur": 0.33,
-          "old_price": 0.86,
-          "discount_pct": 24
-        },
-        {
-          "date": "2026-10-05",
-          "store": "Kaufland",
-          "price": 0.59,
-          "price_eur": 0.3,
-          "old_price": 0.86,
-          "discount_pct": 31
-        }
-      ],
-      "lowest_price": 0.59,
-      "lowest_price_date": "2026-10-05",
-      "avg_price": 2.22
     },
     {
       "name": "Калиев метабисулфит 20 г",
@@ -2311579,7 +2312803,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20983047_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-tasty-еклери-шоколадова-заливка-400g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-09-14",
       "price_history": [
         {
@@ -2311597,6 +2312821,14 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.22,
           "old_price": 3.25,
           "discount_pct": 26
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.59,
+          "price_eur": 1.32,
+          "old_price": 3.25,
+          "discount_pct": 20
         }
       ],
       "lowest_price": 2.39,
@@ -2312992,9 +2314224,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00095246_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/9000100398619_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-gliss-шампоан-или-балсам-избрани-видове-250g",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-09-14",
       "price_history": [
         {
@@ -2313656,99 +2314888,6 @@ const ALL_PRODUCTS_DATA = {
       "avg_price": 5.29
     },
     {
-      "name": "Здраве Актив Шампоан различни видове",
-      "store": "Kaufland",
-      "emoji": "🧴",
-      "category": "hygiene",
-      "weight_raw": "600 мл",
-      "weight_grams": 600,
-      "shelf_life": "1-2г",
-      "is_food": false,
-      "is_healthy": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "health_score": null,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800013525890_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "product_id": "kaufland-здраве-актив-шампоан-различни-видове-600g",
-      "last_seen": "2026-10-04",
-      "first_seen": "2026-06-01",
-      "price_history": [
-        {
-          "date": "2026-06-01",
-          "store": "Kaufland",
-          "price": 6.49,
-          "price_eur": 3.32,
-          "old_price": 9.15,
-          "discount_pct": 29
-        },
-        {
-          "date": "2026-06-08",
-          "store": "Kaufland",
-          "price": 9.76,
-          "price_eur": 4.99,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-07-06",
-          "store": "Kaufland",
-          "price": 6.55,
-          "price_eur": 3.35,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-07-13",
-          "store": "Kaufland",
-          "price": 10.68,
-          "price_eur": 5.46,
-          "old_price": 14.26,
-          "discount_pct": 25
-        },
-        {
-          "date": "2026-08-17",
-          "store": "Kaufland",
-          "price": 4.99,
-          "price_eur": 2.55,
-          "old_price": 7.29,
-          "discount_pct": 32
-        },
-        {
-          "date": "2026-08-31",
-          "store": "Kaufland",
-          "price": 3.35,
-          "price_eur": 1.71,
-          "old_price": 4.68,
-          "discount_pct": 28
-        },
-        {
-          "date": "2026-09-14",
-          "store": "Kaufland",
-          "price": 5.46,
-          "price_eur": 2.79,
-          "old_price": 7.29,
-          "discount_pct": 25
-        },
-        {
-          "date": "2026-09-28",
-          "store": "Kaufland",
-          "price": 4.99,
-          "price_eur": 2.55,
-          "old_price": 7.29,
-          "discount_pct": 32
-        }
-      ],
-      "lowest_price": 3.35,
-      "lowest_price_date": "2026-08-31",
-      "avg_price": 6.53
-    },
-    {
       "name": "Буркан 3 л",
       "store": "Kaufland",
       "emoji": "🛒",
@@ -2313880,7 +2315019,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/326_20270834B_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-торта-с-бял-шоколад-и-ванилия-1200g",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-09-14",
       "price_history": [
         {
@@ -2313969,91 +2315108,6 @@ const ALL_PRODUCTS_DATA = {
       "lowest_price": 5.99,
       "lowest_price_date": "2026-09-14",
       "avg_price": 5.99
-    },
-    {
-      "name": "HEINEKEN Бира различни видове",
-      "store": "Kaufland",
-      "emoji": "🍺",
-      "category": "drinks",
-      "weight_raw": "9 x 0,5 л",
-      "weight_grams": 4500,
-      "shelf_life": "малотраен",
-      "is_food": false,
-      "is_healthy": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": null,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20930358_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "product_id": "kaufland-heineken-бира-различни-видове-4500g",
-      "last_seen": "2026-10-11",
-      "first_seen": "2026-05-11",
-      "price_history": [
-        {
-          "date": "2026-05-11",
-          "store": "Kaufland",
-          "price": 1.74,
-          "price_eur": 0.89,
-          "old_price": 2.5,
-          "discount_pct": 30
-        },
-        {
-          "date": "2026-07-13",
-          "store": "Kaufland",
-          "price": 11.99,
-          "price_eur": 6.13,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-08-03",
-          "store": "Kaufland",
-          "price": 1.47,
-          "price_eur": 0.75,
-          "old_price": 2.5,
-          "discount_pct": 41
-        },
-        {
-          "date": "2026-08-10",
-          "store": "Kaufland",
-          "price": 5.99,
-          "price_eur": 3.06,
-          "old_price": 10.08,
-          "discount_pct": 41
-        },
-        {
-          "date": "2026-08-31",
-          "store": "Kaufland",
-          "price": 17.8,
-          "price_eur": 9.1,
-          "old_price": 25.6,
-          "discount_pct": 30
-        },
-        {
-          "date": "2026-09-07",
-          "store": "Kaufland",
-          "price": 5.99,
-          "price_eur": 3.06,
-          "old_price": 10.08,
-          "discount_pct": 41
-        },
-        {
-          "date": "2026-09-14",
-          "store": "Kaufland",
-          "price": 6.13,
-          "price_eur": 3.13,
-          "old_price": null,
-          "discount_pct": null
-        }
-      ],
-      "lowest_price": 1.47,
-      "lowest_price_date": "2026-08-03",
-      "avg_price": 7.3
     },
     {
       "name": "CRELANDO Детско куфарче за рисуване",
@@ -2314150,7 +2315204,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8720181455926_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-clear-шампоан-различни-видове-360g",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-09-14",
       "price_history": [
         {
@@ -2314335,7 +2315389,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/7610400013857_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-lindt-млечен-шоколад-300g",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-09-14",
       "price_history": [
         {
@@ -2314345,11 +2315399,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 3.63,
           "old_price": 9.71,
           "discount_pct": 27
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 7.29,
+          "price_eur": 3.73,
+          "old_price": 9.71,
+          "discount_pct": 25
         }
       ],
       "lowest_price": 7.09,
       "lowest_price_date": "2026-09-14",
-      "avg_price": 7.09
+      "avg_price": 7.19
     },
     {
       "name": "Lindt Млечен шоколад различни видове",
@@ -2314372,7 +2315434,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/7610400013864_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-lindt-млечен-шоколад-различни-видове-300g",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -2314390,11 +2315452,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 3.63,
           "old_price": 9.71,
           "discount_pct": 27
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 7.29,
+          "price_eur": 3.73,
+          "old_price": 9.71,
+          "discount_pct": 25
         }
       ],
       "lowest_price": 7.09,
       "lowest_price_date": "2026-09-14",
-      "avg_price": 10.77
+      "avg_price": 9.61
     },
     {
       "name": "Esmara/ Esmara men Потник S - XL",
@@ -2314922,7 +2315992,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8606108597200_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-perfex-тоалетна-хартия-трипластова",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-09-14",
       "price_history": [
         {
@@ -2320876,7 +2321946,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/2849760000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-negro-разбит-хаивер-със-сьомга-от-свежата-витрина",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-09-20",
       "price_history": [
         {
@@ -2321835,107 +2322905,6 @@ const ALL_PRODUCTS_DATA = {
       "avg_price": 5.49
     },
     {
-      "name": "Lacrima Сирене Екстра от краве мляко",
-      "store": "Kaufland",
-      "emoji": "🥛",
-      "category": "dairy",
-      "weight_raw": "700 г",
-      "weight_grams": 700,
-      "shelf_life": "малотраен",
-      "is_food": true,
-      "is_healthy": true,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": 7,
-      "diet_tags": [
-        "keto",
-        "vegetarian"
-      ],
-      "macros": {
-        "kcal": 264,
-        "p": 14,
-        "f": 22,
-        "c": 2
-      },
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/304_00041980_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "product_id": "kaufland-lacrima-сирене-екстра-от-краве-мляко-700g",
-      "last_seen": "2026-09-27",
-      "first_seen": "2026-05-07",
-      "price_history": [
-        {
-          "date": "2026-05-07",
-          "store": "Kaufland",
-          "price": 12.79,
-          "price_eur": 6.54,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-06-15",
-          "store": "Kaufland",
-          "price": 10.58,
-          "price_eur": 5.41,
-          "old_price": 21.16,
-          "discount_pct": 50
-        },
-        {
-          "date": "2026-06-22",
-          "store": "Kaufland",
-          "price": 12.79,
-          "price_eur": 6.54,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-07-13",
-          "store": "Kaufland",
-          "price": 11.72,
-          "price_eur": 5.99,
-          "old_price": 16.59,
-          "discount_pct": 29
-        },
-        {
-          "date": "2026-08-03",
-          "store": "Kaufland",
-          "price": 12.79,
-          "price_eur": 6.54,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-08-24",
-          "store": "Kaufland",
-          "price": 5.41,
-          "price_eur": 2.77,
-          "old_price": 10.82,
-          "discount_pct": 50
-        },
-        {
-          "date": "2026-09-14",
-          "store": "Kaufland",
-          "price": 6.54,
-          "price_eur": 3.34,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-09-20",
-          "store": "Kaufland",
-          "price": 5.99,
-          "price_eur": 3.06,
-          "old_price": 8.48,
-          "discount_pct": 29
-        }
-      ],
-      "lowest_price": 5.41,
-      "lowest_price_date": "2026-08-24",
-      "avg_price": 9.83
-    },
-    {
       "name": "СИТОВО Сирене от краве мляко",
       "store": "Kaufland",
       "emoji": "🥛",
@@ -2322733,50 +2323702,6 @@ const ALL_PRODUCTS_DATA = {
       "avg_price": 2.24
     },
     {
-      "name": "K-Classic Меденки различни видове",
-      "store": "Kaufland",
-      "emoji": "🛒",
-      "category": "other",
-      "weight_raw": "500 г",
-      "weight_grams": 500,
-      "shelf_life": null,
-      "is_food": true,
-      "is_healthy": true,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": 5,
-      "diet_tags": [
-        "budget"
-      ],
-      "macros": {
-        "kcal": 304,
-        "p": 0.3,
-        "f": 0,
-        "c": 82
-      },
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/4337185054693_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "product_id": "kaufland-k-classic-меденки-различни-видове-500g",
-      "last_seen": "2026-09-27",
-      "first_seen": "2026-09-20",
-      "price_history": [
-        {
-          "date": "2026-09-20",
-          "store": "Kaufland",
-          "price": 2.55,
-          "price_eur": 1.3,
-          "old_price": null,
-          "discount_pct": null
-        }
-      ],
-      "lowest_price": 2.55,
-      "lowest_price_date": "2026-09-20",
-      "avg_price": 2.55
-    },
-    {
       "name": "W5 Кутия за съхранение",
       "store": "Kaufland",
       "emoji": "🛒",
@@ -2323561,131 +2324486,6 @@ const ALL_PRODUCTS_DATA = {
       "avg_price": 1.29
     },
     {
-      "name": "Ruffles Картофен чипс различни вкусове",
-      "store": "Kaufland",
-      "emoji": "🥦",
-      "category": "vegetable",
-      "weight_raw": "140 г",
-      "weight_grams": 140,
-      "shelf_life": "малотраен",
-      "is_food": true,
-      "is_healthy": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": 2,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20728459_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "product_id": "kaufland-ruffles-картофен-чипс-различни-вкусове-140g",
-      "last_seen": "2026-09-27",
-      "first_seen": "2026-05-07",
-      "price_history": [
-        {
-          "date": "2026-05-07",
-          "store": "Kaufland",
-          "price": 2.19,
-          "price_eur": 1.12,
-          "old_price": 3.97,
-          "discount_pct": 45
-        },
-        {
-          "date": "2026-05-18",
-          "store": "Kaufland",
-          "price": 3.68,
-          "price_eur": 1.88,
-          "old_price": 6.18,
-          "discount_pct": 40
-        },
-        {
-          "date": "2026-05-29",
-          "store": "Kaufland",
-          "price": 1.94,
-          "price_eur": 0.99,
-          "old_price": 3.97,
-          "discount_pct": 51
-        },
-        {
-          "date": "2026-06-15",
-          "store": "Kaufland",
-          "price": 3.42,
-          "price_eur": 1.75,
-          "old_price": 6.18,
-          "discount_pct": 45
-        },
-        {
-          "date": "2026-06-29",
-          "store": "Kaufland",
-          "price": 1.99,
-          "price_eur": 1.02,
-          "old_price": 3.97,
-          "discount_pct": 50
-        },
-        {
-          "date": "2026-07-13",
-          "store": "Kaufland",
-          "price": 3.5,
-          "price_eur": 1.79,
-          "old_price": 6.18,
-          "discount_pct": 43
-        },
-        {
-          "date": "2026-07-27",
-          "store": "Kaufland",
-          "price": 2.33,
-          "price_eur": 1.19,
-          "old_price": 3.97,
-          "discount_pct": 41
-        },
-        {
-          "date": "2026-08-10",
-          "store": "Kaufland",
-          "price": 1.58,
-          "price_eur": 0.81,
-          "old_price": 3.16,
-          "discount_pct": 50
-        },
-        {
-          "date": "2026-08-24",
-          "store": "Kaufland",
-          "price": 1.15,
-          "price_eur": 0.59,
-          "old_price": 2.03,
-          "discount_pct": 43
-        },
-        {
-          "date": "2026-09-03",
-          "store": "Kaufland",
-          "price": 1.69,
-          "price_eur": 0.86,
-          "old_price": 3.16,
-          "discount_pct": 47
-        },
-        {
-          "date": "2026-09-14",
-          "store": "Kaufland",
-          "price": 1.89,
-          "price_eur": 0.97,
-          "old_price": 3.16,
-          "discount_pct": 40
-        },
-        {
-          "date": "2026-09-20",
-          "store": "Kaufland",
-          "price": 1.29,
-          "price_eur": 0.66,
-          "old_price": 2.03,
-          "discount_pct": 36
-        }
-      ],
-      "lowest_price": 1.15,
-      "lowest_price_date": "2026-08-24",
-      "avg_price": 2.22
-    },
-    {
       "name": "Xara Сладолед на клечка с вкус на праскова",
       "store": "Kaufland",
       "emoji": "🥛",
@@ -2323817,7 +2324617,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20075730_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-k-classic-вафла-marienna-различни-видове-40g",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-09-20",
       "price_history": [
         {
@@ -2324212,99 +2325012,6 @@ const ALL_PRODUCTS_DATA = {
       "avg_price": 0.49
     },
     {
-      "name": "Ариана Бира",
-      "store": "Kaufland",
-      "emoji": "🍺",
-      "category": "drinks",
-      "weight_raw": "0,5 л",
-      "weight_grams": 500,
-      "shelf_life": "малотраен",
-      "is_food": false,
-      "is_healthy": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": null,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800022404018_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
-      "product_id": "kaufland-ариана-бира-500g",
-      "last_seen": "2026-09-27",
-      "first_seen": "2026-05-07",
-      "price_history": [
-        {
-          "date": "2026-05-07",
-          "store": "Kaufland",
-          "price": 0.98,
-          "price_eur": 0.5,
-          "old_price": 1.62,
-          "discount_pct": 40
-        },
-        {
-          "date": "2026-05-18",
-          "store": "Kaufland",
-          "price": 2.19,
-          "price_eur": 1.12,
-          "old_price": 2.95,
-          "discount_pct": 26
-        },
-        {
-          "date": "2026-06-08",
-          "store": "Kaufland",
-          "price": 19.56,
-          "price_eur": 10.0,
-          "old_price": 32.47,
-          "discount_pct": 40
-        },
-        {
-          "date": "2026-07-27",
-          "store": "Kaufland",
-          "price": 1.94,
-          "price_eur": 0.99,
-          "old_price": 2.95,
-          "discount_pct": 34
-        },
-        {
-          "date": "2026-08-03",
-          "store": "Kaufland",
-          "price": 19.56,
-          "price_eur": 10.0,
-          "old_price": 32.47,
-          "discount_pct": 40
-        },
-        {
-          "date": "2026-08-17",
-          "store": "Kaufland",
-          "price": 1.12,
-          "price_eur": 0.57,
-          "old_price": 1.51,
-          "discount_pct": 26
-        },
-        {
-          "date": "2026-09-14",
-          "store": "Kaufland",
-          "price": 1.15,
-          "price_eur": 0.59,
-          "old_price": 1.51,
-          "discount_pct": 24
-        },
-        {
-          "date": "2026-09-20",
-          "store": "Kaufland",
-          "price": 0.5,
-          "price_eur": 0.26,
-          "old_price": 0.83,
-          "discount_pct": 40
-        }
-      ],
-      "lowest_price": 0.5,
-      "lowest_price_date": "2026-09-20",
-      "avg_price": 5.87
-    },
-    {
       "name": "Harmonica Биовафла",
       "store": "Kaufland",
       "emoji": "🌾",
@@ -2324340,139 +2325047,6 @@ const ALL_PRODUCTS_DATA = {
       "lowest_price": 0.53,
       "lowest_price_date": "2026-09-20",
       "avg_price": 0.53
-    },
-    {
-      "name": "Staropramen Бира 5% vol",
-      "store": "Kaufland",
-      "emoji": "🍺",
-      "category": "drinks",
-      "weight_raw": "0,33 л",
-      "weight_grams": 330,
-      "shelf_life": "малотраен",
-      "is_food": false,
-      "is_healthy": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": null,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/STP_CAN33?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "product_id": "kaufland-staropramen-бира-5-vol-330g",
-      "last_seen": "2026-09-27",
-      "first_seen": "2026-04-20",
-      "price_history": [
-        {
-          "date": "2026-04-20",
-          "store": "Kaufland",
-          "price": 9.8,
-          "price_eur": 5.01,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-05-04",
-          "store": "Kaufland",
-          "price": 11.13,
-          "price_eur": 5.69,
-          "old_price": 15.92,
-          "discount_pct": 30
-        },
-        {
-          "date": "2026-05-29",
-          "store": "Kaufland",
-          "price": 9.56,
-          "price_eur": 4.89,
-          "old_price": 15.92,
-          "discount_pct": 40
-        },
-        {
-          "date": "2026-06-01",
-          "store": "Kaufland",
-          "price": 1.13,
-          "price_eur": 0.58,
-          "old_price": 1.62,
-          "discount_pct": 30
-        },
-        {
-          "date": "2026-06-08",
-          "store": "Kaufland",
-          "price": 9.76,
-          "price_eur": 4.99,
-          "old_price": 15.92,
-          "discount_pct": 39
-        },
-        {
-          "date": "2026-06-15",
-          "store": "Kaufland",
-          "price": 11.13,
-          "price_eur": 5.69,
-          "old_price": 15.92,
-          "discount_pct": 30
-        },
-        {
-          "date": "2026-06-29",
-          "store": "Kaufland",
-          "price": 9.76,
-          "price_eur": 4.99,
-          "old_price": 15.92,
-          "discount_pct": 39
-        },
-        {
-          "date": "2026-07-13",
-          "store": "Kaufland",
-          "price": 1.13,
-          "price_eur": 0.58,
-          "old_price": 1.62,
-          "discount_pct": 30
-        },
-        {
-          "date": "2026-08-03",
-          "store": "Kaufland",
-          "price": 9.76,
-          "price_eur": 4.99,
-          "old_price": 15.92,
-          "discount_pct": 39
-        },
-        {
-          "date": "2026-08-21",
-          "store": "Kaufland",
-          "price": 4.89,
-          "price_eur": 2.5,
-          "old_price": 8.14,
-          "discount_pct": 40
-        },
-        {
-          "date": "2026-08-31",
-          "store": "Kaufland",
-          "price": 0.58,
-          "price_eur": 0.3,
-          "old_price": 0.83,
-          "discount_pct": 30
-        },
-        {
-          "date": "2026-09-14",
-          "store": "Kaufland",
-          "price": 5.29,
-          "price_eur": 2.7,
-          "old_price": 8.14,
-          "discount_pct": 35
-        },
-        {
-          "date": "2026-09-20",
-          "store": "Kaufland",
-          "price": 0.58,
-          "price_eur": 0.3,
-          "old_price": 0.83,
-          "discount_pct": 30
-        }
-      ],
-      "lowest_price": 0.58,
-      "lowest_price_date": "2026-08-31",
-      "avg_price": 6.5
     },
     {
       "name": "ТОНУС Айрян 1,6% масленост",
@@ -2324614,7 +2325188,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20861243_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-eti-dare-млечен-шоколад-различни-видове-45g",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-09-20",
       "price_history": [
         {
@@ -2324624,11 +2325198,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.35,
           "old_price": 1.12,
           "discount_pct": 38
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.84,
+          "price_eur": 0.43,
+          "old_price": 1.12,
+          "discount_pct": 25
         }
       ],
       "lowest_price": 0.69,
       "lowest_price_date": "2026-09-20",
-      "avg_price": 0.69
+      "avg_price": 0.76
     },
     {
       "name": "Kinder Pingui Млечен десерт различни видове",
@@ -2325037,83 +2325619,6 @@ const ALL_PRODUCTS_DATA = {
       "lowest_price": 0.89,
       "lowest_price_date": "2026-09-20",
       "avg_price": 0.89
-    },
-    {
-      "name": "Salza Гризини различни видове",
-      "store": "Kaufland",
-      "emoji": "🛒",
-      "category": "other",
-      "weight_raw": "190 г",
-      "weight_grams": 190,
-      "shelf_life": null,
-      "is_food": false,
-      "is_healthy": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": null,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/325_20751818_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "product_id": "kaufland-salza-гризини-различни-видове-190g",
-      "last_seen": "2026-09-27",
-      "first_seen": "2026-05-07",
-      "price_history": [
-        {
-          "date": "2026-05-07",
-          "store": "Kaufland",
-          "price": 1.99,
-          "price_eur": 1.02,
-          "old_price": 2.99,
-          "discount_pct": 33
-        },
-        {
-          "date": "2026-05-18",
-          "store": "Kaufland",
-          "price": 1.96,
-          "price_eur": 1.0,
-          "old_price": 2.99,
-          "discount_pct": 34
-        },
-        {
-          "date": "2026-07-06",
-          "store": "Kaufland",
-          "price": 1.94,
-          "price_eur": 0.99,
-          "old_price": 2.99,
-          "discount_pct": 35
-        },
-        {
-          "date": "2026-08-17",
-          "store": "Kaufland",
-          "price": 0.99,
-          "price_eur": 0.51,
-          "old_price": 1.53,
-          "discount_pct": 35
-        },
-        {
-          "date": "2026-09-07",
-          "store": "Kaufland",
-          "price": 1.05,
-          "price_eur": 0.54,
-          "old_price": 1.53,
-          "discount_pct": 31
-        },
-        {
-          "date": "2026-09-20",
-          "store": "Kaufland",
-          "price": 0.99,
-          "price_eur": 0.51,
-          "old_price": 1.53,
-          "discount_pct": 35
-        }
-      ],
-      "lowest_price": 0.99,
-      "lowest_price_date": "2026-08-17",
-      "avg_price": 1.49
     },
     {
       "name": "Марица Вафли без захар",
@@ -2326226,7 +2326731,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/518_00081003_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-milka-шоколадови-бонбони-различни-видове-114g",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-09-20",
       "price_history": [
         {
@@ -2326236,11 +2326741,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.92,
           "old_price": 2.91,
           "discount_pct": 38
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.99,
+          "price_eur": 1.02,
+          "old_price": 2.91,
+          "discount_pct": 32
         }
       ],
       "lowest_price": 1.79,
       "lowest_price_date": "2026-09-20",
-      "avg_price": 1.79
+      "avg_price": 1.89
     },
     {
       "name": "Milka Бонбони различни видове",
@@ -2326924,7 +2327437,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/05000411?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-domestos-почистващ-препарат-различни-видове-750g",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -2327030,7 +2327543,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/517_20864006?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-ferrero-rocher-млечен-шоколад-различни-видове-90g",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-09-20",
       "price_history": [
         {
@@ -2327040,11 +2327553,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.17,
           "old_price": 3.01,
           "discount_pct": 24
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.99,
+          "price_eur": 1.02,
+          "old_price": 3.01,
+          "discount_pct": 34
         }
       ],
-      "lowest_price": 2.29,
-      "lowest_price_date": "2026-09-20",
-      "avg_price": 2.29
+      "lowest_price": 1.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 2.14
     },
     {
       "name": "Ferrero Rocher/ Raffaello Шоколад различни видове",
@@ -2327067,7 +2327588,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20093896_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-ferrero-rocher-raffaello-шоколад-различни-видове-90g",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-09-20",
       "price_history": [
         {
@@ -2327077,11 +2327598,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.17,
           "old_price": 3.01,
           "discount_pct": 24
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.99,
+          "price_eur": 1.02,
+          "old_price": 3.01,
+          "discount_pct": 34
         }
       ],
-      "lowest_price": 2.29,
-      "lowest_price_date": "2026-09-20",
-      "avg_price": 2.29
+      "lowest_price": 1.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 2.14
     },
     {
       "name": "Colgate Паста за зъби различни видове",
@@ -2327143,115 +2327672,6 @@ const ALL_PRODUCTS_DATA = {
       "lowest_price": 2.39,
       "lowest_price_date": "2026-09-20",
       "avg_price": 3.53
-    },
-    {
-      "name": "Suchard Шоколадови бонбони различни видове",
-      "store": "Kaufland",
-      "emoji": "🌾",
-      "category": "grain",
-      "weight_raw": "138 г",
-      "weight_grams": 138,
-      "shelf_life": "1-2г",
-      "is_food": false,
-      "is_healthy": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "health_score": null,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20871116_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "product_id": "kaufland-suchard-шоколадови-бонбони-различни-видове-138g",
-      "last_seen": "2026-09-27",
-      "first_seen": "2026-05-07",
-      "price_history": [
-        {
-          "date": "2026-05-07",
-          "store": "Kaufland",
-          "price": 4.79,
-          "price_eur": 2.45,
-          "old_price": 7.49,
-          "discount_pct": 36
-        },
-        {
-          "date": "2026-05-18",
-          "store": "Kaufland",
-          "price": 7.78,
-          "price_eur": 3.98,
-          "old_price": 12.5,
-          "discount_pct": 38
-        },
-        {
-          "date": "2026-06-01",
-          "store": "Kaufland",
-          "price": 4.79,
-          "price_eur": 2.45,
-          "old_price": 7.49,
-          "discount_pct": 36
-        },
-        {
-          "date": "2026-06-15",
-          "store": "Kaufland",
-          "price": 7.78,
-          "price_eur": 3.98,
-          "old_price": 12.5,
-          "discount_pct": 38
-        },
-        {
-          "date": "2026-07-06",
-          "store": "Kaufland",
-          "price": 4.79,
-          "price_eur": 2.45,
-          "old_price": 7.49,
-          "discount_pct": 36
-        },
-        {
-          "date": "2026-08-03",
-          "store": "Kaufland",
-          "price": 4.87,
-          "price_eur": 2.49,
-          "old_price": 7.49,
-          "discount_pct": 35
-        },
-        {
-          "date": "2026-08-10",
-          "store": "Kaufland",
-          "price": 3.89,
-          "price_eur": 1.99,
-          "old_price": 6.39,
-          "discount_pct": 39
-        },
-        {
-          "date": "2026-08-21",
-          "store": "Kaufland",
-          "price": 2.39,
-          "price_eur": 1.22,
-          "old_price": 3.83,
-          "discount_pct": 38
-        },
-        {
-          "date": "2026-09-14",
-          "store": "Kaufland",
-          "price": 3.99,
-          "price_eur": 2.04,
-          "old_price": 6.39,
-          "discount_pct": 38
-        },
-        {
-          "date": "2026-09-20",
-          "store": "Kaufland",
-          "price": 2.45,
-          "price_eur": 1.25,
-          "old_price": 3.83,
-          "discount_pct": 36
-        }
-      ],
-      "lowest_price": 2.39,
-      "lowest_price_date": "2026-08-21",
-      "avg_price": 4.75
     },
     {
       "name": "ROSHEN Шоколадови бонбони Assortment",
@@ -2327866,7 +2328286,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20966846B_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-лесно-ригатоне-болонезе-300g",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-09-20",
       "price_history": [
         {
@@ -2328409,99 +2328829,6 @@ const ALL_PRODUCTS_DATA = {
       "avg_price": 3.49
     },
     {
-      "name": "Царевец Обикновени вафли",
-      "store": "Kaufland",
-      "emoji": "🌾",
-      "category": "grain",
-      "weight_raw": "1 кг",
-      "weight_grams": 1000,
-      "shelf_life": "1-2г",
-      "is_food": false,
-      "is_healthy": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "health_score": null,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800061607906_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "product_id": "kaufland-царевец-обикновени-вафли-1000g",
-      "last_seen": "2026-09-27",
-      "first_seen": "2026-05-11",
-      "price_history": [
-        {
-          "date": "2026-05-11",
-          "store": "Kaufland",
-          "price": 3.48,
-          "price_eur": 1.78,
-          "old_price": 6.98,
-          "discount_pct": 50
-        },
-        {
-          "date": "2026-05-18",
-          "store": "Kaufland",
-          "price": 6.98,
-          "price_eur": 3.57,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-06-15",
-          "store": "Kaufland",
-          "price": 3.48,
-          "price_eur": 1.78,
-          "old_price": 6.98,
-          "discount_pct": 50
-        },
-        {
-          "date": "2026-07-13",
-          "store": "Kaufland",
-          "price": 7.8,
-          "price_eur": 3.99,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-07-27",
-          "store": "Kaufland",
-          "price": 3.48,
-          "price_eur": 1.78,
-          "old_price": 6.98,
-          "discount_pct": 50
-        },
-        {
-          "date": "2026-08-10",
-          "store": "Kaufland",
-          "price": 3.99,
-          "price_eur": 2.04,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-08-31",
-          "store": "Kaufland",
-          "price": 1.79,
-          "price_eur": 0.92,
-          "old_price": 3.83,
-          "discount_pct": 53
-        },
-        {
-          "date": "2026-09-20",
-          "store": "Kaufland",
-          "price": 3.57,
-          "price_eur": 1.83,
-          "old_price": null,
-          "discount_pct": null
-        }
-      ],
-      "lowest_price": 1.79,
-      "lowest_price_date": "2026-08-31",
-      "avg_price": 4.32
-    },
-    {
       "name": "Форма за пай /Подложка за тесто",
       "store": "Kaufland",
       "emoji": "🛒",
@@ -2328576,115 +2328903,6 @@ const ALL_PRODUCTS_DATA = {
       "avg_price": 3.57
     },
     {
-      "name": "Nivea Дезодорант различни видове",
-      "store": "Kaufland",
-      "emoji": "🧴",
-      "category": "hygiene",
-      "weight_raw": "250 мл",
-      "weight_grams": 250,
-      "shelf_life": "1-2г",
-      "is_food": false,
-      "is_healthy": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "health_score": null,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/4005900653611_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "product_id": "kaufland-nivea-дезодорант-различни-видове-250g",
-      "last_seen": "2026-09-27",
-      "first_seen": "2026-04-20",
-      "price_history": [
-        {
-          "date": "2026-04-20",
-          "store": "Kaufland",
-          "price": 6.98,
-          "price_eur": 3.57,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-05-18",
-          "store": "Kaufland",
-          "price": 5.48,
-          "price_eur": 2.8,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-06-08",
-          "store": "Kaufland",
-          "price": 6.98,
-          "price_eur": 3.57,
-          "old_price": 8.19,
-          "discount_pct": 15
-        },
-        {
-          "date": "2026-06-15",
-          "store": "Kaufland",
-          "price": 5.46,
-          "price_eur": 2.79,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-06-29",
-          "store": "Kaufland",
-          "price": 7.02,
-          "price_eur": 3.59,
-          "old_price": 8.19,
-          "discount_pct": 14
-        },
-        {
-          "date": "2026-07-20",
-          "store": "Kaufland",
-          "price": 5.46,
-          "price_eur": 2.79,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-08-17",
-          "store": "Kaufland",
-          "price": 2.79,
-          "price_eur": 1.43,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-08-27",
-          "store": "Kaufland",
-          "price": 3.39,
-          "price_eur": 1.73,
-          "old_price": 4.19,
-          "discount_pct": 19
-        },
-        {
-          "date": "2026-09-14",
-          "store": "Kaufland",
-          "price": 2.79,
-          "price_eur": 1.43,
-          "old_price": 3.2,
-          "discount_pct": 13
-        },
-        {
-          "date": "2026-09-20",
-          "store": "Kaufland",
-          "price": 3.59,
-          "price_eur": 1.84,
-          "old_price": null,
-          "discount_pct": null
-        }
-      ],
-      "lowest_price": 2.79,
-      "lowest_price_date": "2026-08-17",
-      "avg_price": 4.99
-    },
-    {
       "name": "MIESZKO Бонбони Chocoladorro",
       "store": "Kaufland",
       "emoji": "🌾",
@@ -2328740,9 +2328958,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627924774_CZ_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/a_3D515957_S-A-Handtuchhalter-3in1-WC-Garnitur-Metall-schwarz-66cm-v01__23XX1A_FS_EU-KL_NFVP?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-livarno-аксесоари-за-баня-различни-видове",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-09-20",
       "price_history": [
         {
@@ -2328752,11 +2328970,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 2.04,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 8.99,
+          "price_eur": 4.6,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 3.99,
       "lowest_price_date": "2026-09-20",
-      "avg_price": 3.99
+      "avg_price": 6.49
     },
     {
       "name": "Kinder Бисквити Kinderini",
@@ -2329202,7 +2329428,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20782165_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-fairy-препарат-за-съдове-различни-видове-1800g",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -2329464,7 +2329690,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20973897_P_20copy?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-eat-good-орзо-със-скариди-300g",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-09-20",
       "price_history": [
         {
@@ -2329828,216 +2330054,6 @@ const ALL_PRODUCTS_DATA = {
       "lowest_price": 5.99,
       "lowest_price_date": "2026-09-20",
       "avg_price": 5.99
-    },
-    {
-      "name": "Whiskas Суха храна за котки различни видове",
-      "store": "Kaufland",
-      "emoji": "🐾",
-      "category": "pet",
-      "weight_raw": "1,4 кг",
-      "weight_grams": 1400,
-      "shelf_life": "6м-1г",
-      "is_food": false,
-      "is_healthy": false,
-      "is_bulk_worthy": true,
-      "is_long_lasting": true,
-      "health_score": null,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/589_00052010_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "product_id": "kaufland-whiskas-суха-храна-за-котки-различни-видове-1400g",
-      "last_seen": "2026-10-11",
-      "first_seen": "2026-05-11",
-      "price_history": [
-        {
-          "date": "2026-05-11",
-          "store": "Kaufland",
-          "price": 2.89,
-          "price_eur": 1.48,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-05-18",
-          "store": "Kaufland",
-          "price": 12.48,
-          "price_eur": 6.38,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-05-25",
-          "store": "Kaufland",
-          "price": 2.99,
-          "price_eur": 1.53,
-          "old_price": 3.99,
-          "discount_pct": 25
-        },
-        {
-          "date": "2026-06-01",
-          "store": "Kaufland",
-          "price": 12.48,
-          "price_eur": 6.38,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-06-08",
-          "store": "Kaufland",
-          "price": 2.89,
-          "price_eur": 1.48,
-          "old_price": 3.99,
-          "discount_pct": 28
-        },
-        {
-          "date": "2026-06-15",
-          "store": "Kaufland",
-          "price": 12.48,
-          "price_eur": 6.38,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-06-29",
-          "store": "Kaufland",
-          "price": 2.89,
-          "price_eur": 1.48,
-          "old_price": 3.99,
-          "discount_pct": 28
-        },
-        {
-          "date": "2026-07-06",
-          "store": "Kaufland",
-          "price": 12.48,
-          "price_eur": 6.38,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-07-13",
-          "store": "Kaufland",
-          "price": 2.89,
-          "price_eur": 1.48,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-07-27",
-          "store": "Kaufland",
-          "price": 12.48,
-          "price_eur": 6.38,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-08-03",
-          "store": "Kaufland",
-          "price": 2.89,
-          "price_eur": 1.48,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-08-24",
-          "store": "Kaufland",
-          "price": 1.48,
-          "price_eur": 0.76,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-09-20",
-          "store": "Kaufland",
-          "price": 6.39,
-          "price_eur": 3.27,
-          "old_price": null,
-          "discount_pct": null
-        }
-      ],
-      "lowest_price": 1.48,
-      "lowest_price_date": "2026-08-24",
-      "avg_price": 6.75
-    },
-    {
-      "name": "Whiskas Суха храна за котка",
-      "store": "Kaufland",
-      "emoji": "🐾",
-      "category": "pet",
-      "weight_raw": null,
-      "weight_grams": null,
-      "shelf_life": "6м-1г",
-      "is_food": false,
-      "is_healthy": false,
-      "is_bulk_worthy": true,
-      "is_long_lasting": true,
-      "health_score": null,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/589_00052008_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "product_id": "kaufland-whiskas-суха-храна-за-котка",
-      "last_seen": "2026-09-27",
-      "first_seen": "2026-05-11",
-      "price_history": [
-        {
-          "date": "2026-05-11",
-          "store": "Kaufland",
-          "price": 2.89,
-          "price_eur": 1.48,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-06-01",
-          "store": "Kaufland",
-          "price": 12.48,
-          "price_eur": 6.38,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-07-13",
-          "store": "Kaufland",
-          "price": 2.89,
-          "price_eur": 1.48,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-07-27",
-          "store": "Kaufland",
-          "price": 12.48,
-          "price_eur": 6.38,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-08-24",
-          "store": "Kaufland",
-          "price": 1.48,
-          "price_eur": 0.76,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-09-20",
-          "store": "Kaufland",
-          "price": 6.39,
-          "price_eur": 3.27,
-          "old_price": null,
-          "discount_pct": null
-        }
-      ],
-      "lowest_price": 1.48,
-      "lowest_price_date": "2026-08-24",
-      "avg_price": 6.43
     },
     {
       "name": "PARKSIDE® Лазерен магнитен нивелир PLW A6",
@@ -2332566,159 +2332582,6 @@ const ALL_PRODUCTS_DATA = {
       "avg_price": 1.53
     },
     {
-      "name": "Салата Снежанка",
-      "store": "Kaufland",
-      "emoji": "🥦",
-      "category": "vegetable",
-      "weight_raw": "700 г",
-      "weight_grams": 700,
-      "shelf_life": "малотраен",
-      "is_food": true,
-      "is_healthy": true,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": 5,
-      "diet_tags": [
-        "budget"
-      ],
-      "macros": {
-        "kcal": 15,
-        "p": 1.4,
-        "f": 0.2,
-        "c": 2.9
-      },
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20281386_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "product_id": "kaufland-салата-снежанка-700g",
-      "last_seen": "2026-09-27",
-      "ingredients_raw": "49% цедено кисело мляко, 30% краставици, 20% млечна майонеза (вода, слънчогледово масло, сухо обезмаслено мляко, сгъстители: ацетилиран динишестен адипат, натриев октенил сукцинат на нишестето, гума гуар, ксантанова гума; винен оцет, регулатори на киселинността: лимонена киселина, млечна киселина; трапезна сол, захар, консервант: калиев сорбат), трапезна сол, 0,3% копър, 0,1% чесън, консервант: калиев сорбат; бамбукови фибри. Може да съдържа следи от синап, яйца, соя, пшеница и целина.",
-      "ingredients_flags": [],
-      "junk_count": 0,
-      "amber_count": 0,
-      "clean_label": true,
-      "first_seen": "2026-04-14",
-      "price_history": [
-        {
-          "date": "2026-04-14",
-          "store": "Kaufland",
-          "price": 5.65,
-          "price_eur": 2.89,
-          "old_price": 6.59,
-          "discount_pct": 14
-        },
-        {
-          "date": "2026-04-20",
-          "store": "Kaufland",
-          "price": 4.67,
-          "price_eur": 2.39,
-          "old_price": 5.65,
-          "discount_pct": 17
-        },
-        {
-          "date": "2026-04-27",
-          "store": "Kaufland",
-          "price": 5.26,
-          "price_eur": 2.69,
-          "old_price": 6.59,
-          "discount_pct": 20
-        },
-        {
-          "date": "2026-05-18",
-          "store": "Kaufland",
-          "price": 5.65,
-          "price_eur": 2.89,
-          "old_price": 6.59,
-          "discount_pct": 14
-        },
-        {
-          "date": "2026-05-25",
-          "store": "Kaufland",
-          "price": 4.67,
-          "price_eur": 2.39,
-          "old_price": 5.65,
-          "discount_pct": 17
-        },
-        {
-          "date": "2026-06-15",
-          "store": "Kaufland",
-          "price": 5.65,
-          "price_eur": 2.89,
-          "old_price": 6.59,
-          "discount_pct": 14
-        },
-        {
-          "date": "2026-06-29",
-          "store": "Kaufland",
-          "price": 4.67,
-          "price_eur": 2.39,
-          "old_price": 5.65,
-          "discount_pct": 17
-        },
-        {
-          "date": "2026-07-13",
-          "store": "Kaufland",
-          "price": 5.65,
-          "price_eur": 2.89,
-          "old_price": 6.59,
-          "discount_pct": 14
-        },
-        {
-          "date": "2026-07-27",
-          "store": "Kaufland",
-          "price": 4.67,
-          "price_eur": 2.39,
-          "old_price": 5.65,
-          "discount_pct": 17
-        },
-        {
-          "date": "2026-08-03",
-          "store": "Kaufland",
-          "price": 5.65,
-          "price_eur": 2.89,
-          "old_price": 6.59,
-          "discount_pct": 14
-        },
-        {
-          "date": "2026-08-10",
-          "store": "Kaufland",
-          "price": 2.39,
-          "price_eur": 1.22,
-          "old_price": 2.89,
-          "discount_pct": 17
-        },
-        {
-          "date": "2026-08-31",
-          "store": "Kaufland",
-          "price": 2.89,
-          "price_eur": 1.48,
-          "old_price": 3.37,
-          "discount_pct": 14
-        },
-        {
-          "date": "2026-09-14",
-          "store": "Kaufland",
-          "price": 2.39,
-          "price_eur": 1.22,
-          "old_price": 2.89,
-          "discount_pct": 17
-        },
-        {
-          "date": "2026-09-24",
-          "store": "Kaufland",
-          "price": 1.91,
-          "price_eur": 0.98,
-          "old_price": 2.55,
-          "discount_pct": 25
-        }
-      ],
-      "lowest_price": 1.91,
-      "lowest_price_date": "2026-09-24",
-      "avg_price": 4.41
-    },
-    {
       "name": "Класик Салата Снежанка",
       "store": "Kaufland",
       "emoji": "🥦",
@@ -2333879,9 +2333742,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/518_02701280_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/8003340098920_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-lindt-lindor-шоколадови-бонбони-различни-видове-200g",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -2333939,11 +2333802,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 2.48,
           "old_price": 7.15,
           "discount_pct": 32
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 5.29,
+          "price_eur": 2.7,
+          "old_price": 7.15,
+          "discount_pct": 26
         }
       ],
       "lowest_price": 4.85,
       "lowest_price_date": "2026-09-24",
-      "avg_price": 10.31
+      "avg_price": 9.68
     },
     {
       "name": "Майстор Цветко Гърди без кост от свежата витрина",
@@ -2338743,7 +2338614,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/09700108_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-круши-лукас",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-09-28",
       "price_history": [
         {
@@ -2338753,11 +2338624,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.92,
           "old_price": 2.55,
           "discount_pct": 30
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.59,
+          "price_eur": 0.81,
+          "old_price": 2.55,
+          "discount_pct": 38
         }
       ],
-      "lowest_price": 1.79,
-      "lowest_price_date": "2026-09-28",
-      "avg_price": 1.79
+      "lowest_price": 1.59,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 1.69
     },
     {
       "name": "APARANICIO Портокалов ликьор 11% vol",
@@ -2339009,7 +2338888,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800201452342_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-елена-сирене-от-краве-мляко-на-шаиби-400g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-09-28",
       "price_history": [
         {
@@ -2339160,75 +2339039,6 @@ const ALL_PRODUCTS_DATA = {
       "lowest_price": 6.64,
       "lowest_price_date": "2026-09-28",
       "avg_price": 6.64
-    },
-    {
-      "name": "РОДОПСКО ЧУДО Сирене от краве мляко",
-      "store": "Kaufland",
-      "emoji": "🥛",
-      "category": "dairy",
-      "weight_raw": "800 г",
-      "weight_grams": 800,
-      "shelf_life": "малотраен",
-      "is_food": true,
-      "is_healthy": true,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": 7,
-      "diet_tags": [
-        "keto",
-        "vegetarian"
-      ],
-      "macros": {
-        "kcal": 264,
-        "p": 14,
-        "f": 22,
-        "c": 2
-      },
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20746953_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "product_id": "kaufland-родопско-чудо-сирене-от-краве-мляко-800g",
-      "last_seen": "2026-10-04",
-      "first_seen": "2026-05-07",
-      "price_history": [
-        {
-          "date": "2026-05-07",
-          "store": "Kaufland",
-          "price": 4.99,
-          "price_eur": 2.55,
-          "old_price": 8.29,
-          "discount_pct": 40
-        },
-        {
-          "date": "2026-06-08",
-          "store": "Kaufland",
-          "price": 5.85,
-          "price_eur": 2.99,
-          "old_price": 8.29,
-          "discount_pct": 29
-        },
-        {
-          "date": "2026-09-14",
-          "store": "Kaufland",
-          "price": 2.99,
-          "price_eur": 1.53,
-          "old_price": 4.24,
-          "discount_pct": 29
-        },
-        {
-          "date": "2026-09-28",
-          "store": "Kaufland",
-          "price": 6.89,
-          "price_eur": 3.52,
-          "old_price": 8.69,
-          "discount_pct": 21
-        }
-      ],
-      "lowest_price": 2.99,
-      "lowest_price_date": "2026-09-14",
-      "avg_price": 5.18
     },
     {
       "name": "Димитър Маджаров Сирене от краве мляко",
@@ -2340231,109 +2340041,6 @@ const ALL_PRODUCTS_DATA = {
       "lowest_price": 1.99,
       "lowest_price_date": "2026-09-28",
       "avg_price": 1.99
-    },
-    {
-      "name": "Palmolive Тоалетен сапун различни видове",
-      "store": "Kaufland",
-      "emoji": "🧴",
-      "category": "hygiene",
-      "weight_raw": "4 х 90 г",
-      "weight_grams": 360,
-      "shelf_life": "1-2г",
-      "is_food": true,
-      "is_healthy": true,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "health_score": 5,
-      "diet_tags": [
-        "budget"
-      ],
-      "macros": null,
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8718951597693_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "product_id": "kaufland-palmolive-тоалетен-сапун-различни-видове-360g",
-      "last_seen": "2026-10-04",
-      "first_seen": "2026-04-20",
-      "price_history": [
-        {
-          "date": "2026-04-20",
-          "store": "Kaufland",
-          "price": 4.48,
-          "price_eur": 2.29,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-04-27",
-          "store": "Kaufland",
-          "price": 1.29,
-          "price_eur": 0.66,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-05-25",
-          "store": "Kaufland",
-          "price": 1.27,
-          "price_eur": 0.65,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-06-08",
-          "store": "Kaufland",
-          "price": 4.48,
-          "price_eur": 2.29,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-06-22",
-          "store": "Kaufland",
-          "price": 1.27,
-          "price_eur": 0.65,
-          "old_price": 2.25,
-          "discount_pct": 44
-        },
-        {
-          "date": "2026-07-09",
-          "store": "Kaufland",
-          "price": 1.15,
-          "price_eur": 0.59,
-          "old_price": 2.25,
-          "discount_pct": 49
-        },
-        {
-          "date": "2026-07-27",
-          "store": "Kaufland",
-          "price": 4.48,
-          "price_eur": 2.29,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-08-10",
-          "store": "Kaufland",
-          "price": 0.59,
-          "price_eur": 0.3,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-09-28",
-          "store": "Kaufland",
-          "price": 2.29,
-          "price_eur": 1.17,
-          "old_price": null,
-          "discount_pct": null
-        }
-      ],
-      "lowest_price": 0.59,
-      "lowest_price_date": "2026-08-10",
-      "avg_price": 2.37
     },
     {
       "name": "PALMOLIVE Сапун мляко&роза",
@@ -2342578,131 +2342285,6 @@ const ALL_PRODUCTS_DATA = {
       "avg_price": 2.99
     },
     {
-      "name": "Горна Баня Минерална вода",
-      "store": "Kaufland",
-      "emoji": "🍺",
-      "category": "drinks",
-      "weight_raw": "0,5 л",
-      "weight_grams": 500,
-      "shelf_life": "малотраен",
-      "is_food": false,
-      "is_healthy": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": null,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800051700020_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
-      "product_id": "kaufland-горна-баня-минерална-вода-500g",
-      "last_seen": "2026-10-04",
-      "first_seen": "2026-05-07",
-      "price_history": [
-        {
-          "date": "2026-05-07",
-          "store": "Kaufland",
-          "price": 2.99,
-          "price_eur": 1.53,
-          "old_price": 4.85,
-          "discount_pct": 38
-        },
-        {
-          "date": "2026-05-18",
-          "store": "Kaufland",
-          "price": 2.84,
-          "price_eur": 1.45,
-          "old_price": 4.85,
-          "discount_pct": 41
-        },
-        {
-          "date": "2026-06-08",
-          "store": "Kaufland",
-          "price": 2.91,
-          "price_eur": 1.49,
-          "old_price": 4.85,
-          "discount_pct": 40
-        },
-        {
-          "date": "2026-06-15",
-          "store": "Kaufland",
-          "price": 0.49,
-          "price_eur": 0.25,
-          "old_price": 0.9,
-          "discount_pct": 46
-        },
-        {
-          "date": "2026-06-22",
-          "store": "Kaufland",
-          "price": 0.68,
-          "price_eur": 0.35,
-          "old_price": 1.19,
-          "discount_pct": 43
-        },
-        {
-          "date": "2026-07-27",
-          "store": "Kaufland",
-          "price": 0.65,
-          "price_eur": 0.33,
-          "old_price": 1.19,
-          "discount_pct": 45
-        },
-        {
-          "date": "2026-08-03",
-          "store": "Kaufland",
-          "price": 2.91,
-          "price_eur": 1.49,
-          "old_price": 4.97,
-          "discount_pct": 41
-        },
-        {
-          "date": "2026-08-10",
-          "store": "Kaufland",
-          "price": 0.25,
-          "price_eur": 0.13,
-          "old_price": 0.46,
-          "discount_pct": 46
-        },
-        {
-          "date": "2026-08-24",
-          "store": "Kaufland",
-          "price": 1.55,
-          "price_eur": 0.79,
-          "old_price": 2.54,
-          "discount_pct": 39
-        },
-        {
-          "date": "2026-09-07",
-          "store": "Kaufland",
-          "price": 0.39,
-          "price_eur": 0.2,
-          "old_price": 0.61,
-          "discount_pct": 36
-        },
-        {
-          "date": "2026-09-14",
-          "store": "Kaufland",
-          "price": 1.49,
-          "price_eur": 0.76,
-          "old_price": 2.54,
-          "discount_pct": 41
-        },
-        {
-          "date": "2026-09-28",
-          "store": "Kaufland",
-          "price": 0.25,
-          "price_eur": 0.13,
-          "old_price": 0.46,
-          "discount_pct": 46
-        }
-      ],
-      "lowest_price": 0.25,
-      "lowest_price_date": "2026-08-10",
-      "avg_price": 1.45
-    },
-    {
       "name": "Mentos Бонбони discovery",
       "store": "Kaufland",
       "emoji": "🌾",
@@ -2342982,83 +2342564,6 @@ const ALL_PRODUCTS_DATA = {
       "lowest_price": 0.49,
       "lowest_price_date": "2026-09-28",
       "avg_price": 0.49
-    },
-    {
-      "name": "Felix Храна за котки различни видове",
-      "store": "Kaufland",
-      "emoji": "🐾",
-      "category": "pet",
-      "weight_raw": "85 г",
-      "weight_grams": 85,
-      "shelf_life": "6м-1г",
-      "is_food": false,
-      "is_healthy": false,
-      "is_bulk_worthy": true,
-      "is_long_lasting": true,
-      "health_score": null,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/7613287489975_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "product_id": "kaufland-felix-храна-за-котки-различни-видове-85g",
-      "last_seen": "2026-10-11",
-      "first_seen": "2026-04-20",
-      "price_history": [
-        {
-          "date": "2026-04-20",
-          "store": "Kaufland",
-          "price": 2.78,
-          "price_eur": 1.42,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-05-18",
-          "store": "Kaufland",
-          "price": 0.98,
-          "price_eur": 0.5,
-          "old_price": 1.35,
-          "discount_pct": 27
-        },
-        {
-          "date": "2026-07-13",
-          "store": "Kaufland",
-          "price": 2.78,
-          "price_eur": 1.42,
-          "old_price": 4.5,
-          "discount_pct": 38
-        },
-        {
-          "date": "2026-08-10",
-          "store": "Kaufland",
-          "price": 1.42,
-          "price_eur": 0.73,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-09-28",
-          "store": "Kaufland",
-          "price": 0.51,
-          "price_eur": 0.26,
-          "old_price": 0.69,
-          "discount_pct": 26
-        },
-        {
-          "date": "2026-10-05",
-          "store": "Kaufland",
-          "price": 0.49,
-          "price_eur": 0.25,
-          "old_price": 0.69,
-          "discount_pct": 29
-        }
-      ],
-      "lowest_price": 0.49,
-      "lowest_price_date": "2026-10-05",
-      "avg_price": 1.49
     },
     {
       "name": "Vitakraft Poesie Храна за котки",
@@ -2343743,99 +2343248,6 @@ const ALL_PRODUCTS_DATA = {
       "avg_price": 0.87
     },
     {
-      "name": "Крео Русенско варено",
-      "store": "Kaufland",
-      "emoji": "🛒",
-      "category": "other",
-      "weight_raw": "300 г",
-      "weight_grams": 300,
-      "shelf_life": null,
-      "is_food": false,
-      "is_healthy": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": null,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800078008550_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "product_id": "kaufland-крео-русенско-варено-300g",
-      "last_seen": "2026-10-04",
-      "first_seen": "2026-05-07",
-      "price_history": [
-        {
-          "date": "2026-05-07",
-          "store": "Kaufland",
-          "price": 1.49,
-          "price_eur": 0.76,
-          "old_price": 2.99,
-          "discount_pct": 50
-        },
-        {
-          "date": "2026-05-25",
-          "store": "Kaufland",
-          "price": 1.74,
-          "price_eur": 0.89,
-          "old_price": 3.48,
-          "discount_pct": 50
-        },
-        {
-          "date": "2026-06-15",
-          "store": "Kaufland",
-          "price": 3.48,
-          "price_eur": 1.78,
-          "old_price": 6.96,
-          "discount_pct": 50
-        },
-        {
-          "date": "2026-07-13",
-          "store": "Kaufland",
-          "price": 1.74,
-          "price_eur": 0.89,
-          "old_price": 3.48,
-          "discount_pct": 50
-        },
-        {
-          "date": "2026-08-17",
-          "store": "Kaufland",
-          "price": 0.75,
-          "price_eur": 0.38,
-          "old_price": 1.53,
-          "discount_pct": 51
-        },
-        {
-          "date": "2026-09-07",
-          "store": "Kaufland",
-          "price": 0.89,
-          "price_eur": 0.46,
-          "old_price": 1.78,
-          "discount_pct": 50
-        },
-        {
-          "date": "2026-09-14",
-          "store": "Kaufland",
-          "price": 0.75,
-          "price_eur": 0.38,
-          "old_price": 1.53,
-          "discount_pct": 51
-        },
-        {
-          "date": "2026-09-28",
-          "store": "Kaufland",
-          "price": 0.89,
-          "price_eur": 0.46,
-          "old_price": 1.78,
-          "discount_pct": 50
-        }
-      ],
-      "lowest_price": 0.75,
-      "lowest_price_date": "2026-08-17",
-      "avg_price": 1.47
-    },
-    {
       "name": "Dove Крем сапун Pampering Shea",
       "store": "Kaufland",
       "emoji": "🧴",
@@ -2343871,75 +2343283,6 @@ const ALL_PRODUCTS_DATA = {
       "lowest_price": 0.89,
       "lowest_price_date": "2026-09-28",
       "avg_price": 0.89
-    },
-    {
-      "name": "Tommi Продукт за мазане",
-      "store": "Kaufland",
-      "emoji": "🛒",
-      "category": "other",
-      "weight_raw": "250 г",
-      "weight_grams": 250,
-      "shelf_life": null,
-      "is_food": false,
-      "is_healthy": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": null,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/283_00107725_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "product_id": "kaufland-tommi-продукт-за-мазане-250g",
-      "last_seen": "2026-10-04",
-      "first_seen": "2026-04-27",
-      "price_history": [
-        {
-          "date": "2026-04-27",
-          "store": "Kaufland",
-          "price": 2.19,
-          "price_eur": 1.12,
-          "old_price": 3.19,
-          "discount_pct": 31
-        },
-        {
-          "date": "2026-06-15",
-          "store": "Kaufland",
-          "price": 2.25,
-          "price_eur": 1.15,
-          "old_price": 3.23,
-          "discount_pct": 30
-        },
-        {
-          "date": "2026-07-27",
-          "store": "Kaufland",
-          "price": 2.13,
-          "price_eur": 1.09,
-          "old_price": 3.23,
-          "discount_pct": 34
-        },
-        {
-          "date": "2026-08-31",
-          "store": "Kaufland",
-          "price": 1.15,
-          "price_eur": 0.59,
-          "old_price": 1.65,
-          "discount_pct": 30
-        },
-        {
-          "date": "2026-09-28",
-          "store": "Kaufland",
-          "price": 0.89,
-          "price_eur": 0.46,
-          "old_price": 1.15,
-          "discount_pct": 23
-        }
-      ],
-      "lowest_price": 0.89,
-      "lowest_price_date": "2026-09-28",
-      "avg_price": 1.72
     },
     {
       "name": "Benlian Царевичен снакс различни вкусове",
@@ -2344073,7 +2343416,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20719829_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-zielona-budka-сладолед-различни-вкусове-59g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-09-28",
       "price_history": [
         {
@@ -2344362,7 +2343705,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5010394984577_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-pedigree-dentastix-лакомство-за-куче-110g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-09-28",
       "price_history": [
         {
@@ -2344467,131 +2343810,6 @@ const ALL_PRODUCTS_DATA = {
       "lowest_price": 0.51,
       "lowest_price_date": "2026-08-31",
       "avg_price": 1.0
-    },
-    {
-      "name": "NIRVANA Сладолед различни вкусове",
-      "store": "Kaufland",
-      "emoji": "🥛",
-      "category": "dairy",
-      "weight_raw": "104 г",
-      "weight_grams": 104,
-      "shelf_life": "малотраен",
-      "is_food": false,
-      "is_healthy": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": null,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00110108_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "product_id": "kaufland-nirvana-сладолед-различни-вкусове-104g",
-      "last_seen": "2026-10-04",
-      "first_seen": "2026-05-07",
-      "price_history": [
-        {
-          "date": "2026-05-07",
-          "store": "Kaufland",
-          "price": 9.39,
-          "price_eur": 4.8,
-          "old_price": 18.8,
-          "discount_pct": 50
-        },
-        {
-          "date": "2026-05-16",
-          "store": "Kaufland",
-          "price": 9.17,
-          "price_eur": 4.69,
-          "old_price": 18.8,
-          "discount_pct": 51
-        },
-        {
-          "date": "2026-05-18",
-          "store": "Kaufland",
-          "price": 3.91,
-          "price_eur": 2.0,
-          "old_price": 5.98,
-          "discount_pct": 35
-        },
-        {
-          "date": "2026-06-01",
-          "store": "Kaufland",
-          "price": 13.08,
-          "price_eur": 6.69,
-          "old_price": 18.8,
-          "discount_pct": 30
-        },
-        {
-          "date": "2026-06-12",
-          "store": "Kaufland",
-          "price": 12.69,
-          "price_eur": 6.49,
-          "old_price": 26.48,
-          "discount_pct": 52
-        },
-        {
-          "date": "2026-06-22",
-          "store": "Kaufland",
-          "price": 5.98,
-          "price_eur": 3.06,
-          "old_price": 11.97,
-          "discount_pct": 50
-        },
-        {
-          "date": "2026-07-23",
-          "store": "Kaufland",
-          "price": 9.39,
-          "price_eur": 4.8,
-          "old_price": 18.8,
-          "discount_pct": 50
-        },
-        {
-          "date": "2026-07-27",
-          "store": "Kaufland",
-          "price": 12.69,
-          "price_eur": 6.49,
-          "old_price": 26.48,
-          "discount_pct": 52
-        },
-        {
-          "date": "2026-08-10",
-          "store": "Kaufland",
-          "price": 4.79,
-          "price_eur": 2.45,
-          "old_price": 9.61,
-          "discount_pct": 50
-        },
-        {
-          "date": "2026-08-21",
-          "store": "Kaufland",
-          "price": 4.8,
-          "price_eur": 2.45,
-          "old_price": 9.61,
-          "discount_pct": 50
-        },
-        {
-          "date": "2026-09-14",
-          "store": "Kaufland",
-          "price": 4.79,
-          "price_eur": 2.45,
-          "old_price": 9.61,
-          "discount_pct": 50
-        },
-        {
-          "date": "2026-09-28",
-          "store": "Kaufland",
-          "price": 1.53,
-          "price_eur": 0.78,
-          "old_price": 3.06,
-          "discount_pct": 50
-        }
-      ],
-      "lowest_price": 1.53,
-      "lowest_price_date": "2026-09-28",
-      "avg_price": 7.68
     },
     {
       "name": "K-Classic Кисели краставички",
@@ -2344904,163 +2344122,6 @@ const ALL_PRODUCTS_DATA = {
       "lowest_price": 1.79,
       "lowest_price_date": "2026-09-28",
       "avg_price": 1.79
-    },
-    {
-      "name": "Familia Сладолед различни вкусове",
-      "store": "Kaufland",
-      "emoji": "🥛",
-      "category": "dairy",
-      "weight_raw": "505 г",
-      "weight_grams": 505,
-      "shelf_life": "малотраен",
-      "is_food": false,
-      "is_healthy": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": null,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00900843_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "product_id": "kaufland-familia-сладолед-различни-вкусове-505g",
-      "last_seen": "2026-10-04",
-      "first_seen": "2026-05-07",
-      "price_history": [
-        {
-          "date": "2026-05-07",
-          "store": "Kaufland",
-          "price": 4.99,
-          "price_eur": 2.55,
-          "old_price": 7.49,
-          "discount_pct": 33
-        },
-        {
-          "date": "2026-05-18",
-          "store": "Kaufland",
-          "price": 4.87,
-          "price_eur": 2.49,
-          "old_price": 7.49,
-          "discount_pct": 35
-        },
-        {
-          "date": "2026-06-01",
-          "store": "Kaufland",
-          "price": 4.99,
-          "price_eur": 2.55,
-          "old_price": 7.49,
-          "discount_pct": 33
-        },
-        {
-          "date": "2026-06-19",
-          "store": "Kaufland",
-          "price": 4.67,
-          "price_eur": 2.39,
-          "old_price": 7.49,
-          "discount_pct": 38
-        },
-        {
-          "date": "2026-06-22",
-          "store": "Kaufland",
-          "price": 1.35,
-          "price_eur": 0.69,
-          "old_price": 1.99,
-          "discount_pct": 32
-        },
-        {
-          "date": "2026-07-02",
-          "store": "Kaufland",
-          "price": 4.48,
-          "price_eur": 2.29,
-          "old_price": 7.49,
-          "discount_pct": 40
-        },
-        {
-          "date": "2026-07-09",
-          "store": "Kaufland",
-          "price": 3.31,
-          "price_eur": 1.69,
-          "old_price": 6.98,
-          "discount_pct": 53
-        },
-        {
-          "date": "2026-07-13",
-          "store": "Kaufland",
-          "price": 3.89,
-          "price_eur": 1.99,
-          "old_price": 7.49,
-          "discount_pct": 48
-        },
-        {
-          "date": "2026-07-20",
-          "store": "Kaufland",
-          "price": 3.31,
-          "price_eur": 1.69,
-          "old_price": 6.98,
-          "discount_pct": 53
-        },
-        {
-          "date": "2026-07-27",
-          "store": "Kaufland",
-          "price": 7.49,
-          "price_eur": 3.83,
-          "old_price": 14.98,
-          "discount_pct": 50
-        },
-        {
-          "date": "2026-08-03",
-          "store": "Kaufland",
-          "price": 3.42,
-          "price_eur": 1.75,
-          "old_price": 6.98,
-          "discount_pct": 51
-        },
-        {
-          "date": "2026-08-10",
-          "store": "Kaufland",
-          "price": 1.89,
-          "price_eur": 0.97,
-          "old_price": 3.83,
-          "discount_pct": 51
-        },
-        {
-          "date": "2026-08-17",
-          "store": "Kaufland",
-          "price": 1.75,
-          "price_eur": 0.89,
-          "old_price": 3.57,
-          "discount_pct": 51
-        },
-        {
-          "date": "2026-08-24",
-          "store": "Kaufland",
-          "price": 1.89,
-          "price_eur": 0.97,
-          "old_price": 3.83,
-          "discount_pct": 51
-        },
-        {
-          "date": "2026-09-03",
-          "store": "Kaufland",
-          "price": 1.75,
-          "price_eur": 0.89,
-          "old_price": 3.57,
-          "discount_pct": 51
-        },
-        {
-          "date": "2026-09-28",
-          "store": "Kaufland",
-          "price": 1.99,
-          "price_eur": 1.02,
-          "old_price": 3.83,
-          "discount_pct": 48
-        }
-      ],
-      "lowest_price": 1.35,
-      "lowest_price_date": "2026-06-22",
-      "avg_price": 3.5
     },
     {
       "name": "DERMOMED Течен сапун ирис",
@@ -2346875,91 +2345936,6 @@ const ALL_PRODUCTS_DATA = {
       "avg_price": 3.59
     },
     {
-      "name": "Пица различни видове",
-      "store": "Kaufland",
-      "emoji": "🛒",
-      "category": "other",
-      "weight_raw": "1 кг",
-      "weight_grams": 1000,
-      "shelf_life": null,
-      "is_food": false,
-      "is_healthy": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": null,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20867967_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "product_id": "kaufland-пица-различни-видове-1000g",
-      "last_seen": "2026-10-04",
-      "first_seen": "2026-05-07",
-      "price_history": [
-        {
-          "date": "2026-05-07",
-          "store": "Kaufland",
-          "price": 8.98,
-          "price_eur": 4.59,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-05-25",
-          "store": "Kaufland",
-          "price": 6.98,
-          "price_eur": 3.57,
-          "old_price": 9.0,
-          "discount_pct": 22
-        },
-        {
-          "date": "2026-06-15",
-          "store": "Kaufland",
-          "price": 6.75,
-          "price_eur": 3.45,
-          "old_price": 9.0,
-          "discount_pct": 25
-        },
-        {
-          "date": "2026-07-20",
-          "store": "Kaufland",
-          "price": 7.02,
-          "price_eur": 3.59,
-          "old_price": 9.0,
-          "discount_pct": 22
-        },
-        {
-          "date": "2026-08-17",
-          "store": "Kaufland",
-          "price": 3.59,
-          "price_eur": 1.84,
-          "old_price": 4.6,
-          "discount_pct": 22
-        },
-        {
-          "date": "2026-09-20",
-          "store": "Kaufland",
-          "price": 1.09,
-          "price_eur": 0.56,
-          "old_price": 1.53,
-          "discount_pct": 29
-        },
-        {
-          "date": "2026-09-28",
-          "store": "Kaufland",
-          "price": 3.59,
-          "price_eur": 1.84,
-          "old_price": 4.6,
-          "discount_pct": 22
-        }
-      ],
-      "lowest_price": 1.09,
-      "lowest_price_date": "2026-09-20",
-      "avg_price": 5.43
-    },
-    {
       "name": "Nocciolata Био какаов крем различни видове",
       "store": "Kaufland",
       "emoji": "🌾",
@@ -2347402,131 +2346378,6 @@ const ALL_PRODUCTS_DATA = {
       "lowest_price": 3.99,
       "lowest_price_date": "2026-09-28",
       "avg_price": 3.99
-    },
-    {
-      "name": "Nestle Зърнена закуска различни видове",
-      "store": "Kaufland",
-      "emoji": "🛒",
-      "category": "other",
-      "weight_raw": "625 г",
-      "weight_grams": 625,
-      "shelf_life": null,
-      "is_food": false,
-      "is_healthy": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": null,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/469_00026617_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "product_id": "kaufland-nestle-зърнена-закуска-различни-видове-625g",
-      "last_seen": "2026-10-11",
-      "first_seen": "2026-04-20",
-      "price_history": [
-        {
-          "date": "2026-04-20",
-          "store": "Kaufland",
-          "price": 6.75,
-          "price_eur": 3.45,
-          "old_price": 9.0,
-          "discount_pct": 25
-        },
-        {
-          "date": "2026-04-27",
-          "store": "Kaufland",
-          "price": 5.85,
-          "price_eur": 2.99,
-          "old_price": 9.0,
-          "discount_pct": 35
-        },
-        {
-          "date": "2026-05-25",
-          "store": "Kaufland",
-          "price": 7.98,
-          "price_eur": 4.08,
-          "old_price": 11.6,
-          "discount_pct": 31
-        },
-        {
-          "date": "2026-06-01",
-          "store": "Kaufland",
-          "price": 5.85,
-          "price_eur": 2.99,
-          "old_price": 9.0,
-          "discount_pct": 35
-        },
-        {
-          "date": "2026-06-22",
-          "store": "Kaufland",
-          "price": 6.75,
-          "price_eur": 3.45,
-          "old_price": 9.0,
-          "discount_pct": 25
-        },
-        {
-          "date": "2026-06-29",
-          "store": "Kaufland",
-          "price": 7.8,
-          "price_eur": 3.99,
-          "old_price": 11.6,
-          "discount_pct": 33
-        },
-        {
-          "date": "2026-07-06",
-          "store": "Kaufland",
-          "price": 5.85,
-          "price_eur": 2.99,
-          "old_price": 9.0,
-          "discount_pct": 35
-        },
-        {
-          "date": "2026-07-27",
-          "store": "Kaufland",
-          "price": 7.8,
-          "price_eur": 3.99,
-          "old_price": 11.6,
-          "discount_pct": 33
-        },
-        {
-          "date": "2026-08-10",
-          "store": "Kaufland",
-          "price": 2.99,
-          "price_eur": 1.53,
-          "old_price": 4.6,
-          "discount_pct": 35
-        },
-        {
-          "date": "2026-09-07",
-          "store": "Kaufland",
-          "price": 3.99,
-          "price_eur": 2.04,
-          "old_price": 5.93,
-          "discount_pct": 33
-        },
-        {
-          "date": "2026-09-14",
-          "store": "Kaufland",
-          "price": 2.99,
-          "price_eur": 1.53,
-          "old_price": 4.6,
-          "discount_pct": 35
-        },
-        {
-          "date": "2026-09-28",
-          "store": "Kaufland",
-          "price": 3.99,
-          "price_eur": 2.04,
-          "old_price": 5.93,
-          "discount_pct": 33
-        }
-      ],
-      "lowest_price": 2.99,
-      "lowest_price_date": "2026-08-10",
-      "avg_price": 5.72
     },
     {
       "name": "COOKIE CRISP Зърнена закуска",
@@ -2348092,67 +2346943,6 @@ const ALL_PRODUCTS_DATA = {
       "avg_price": 4.85
     },
     {
-      "name": "Roshen Шоколадови бонбони различни видове",
-      "store": "Kaufland",
-      "emoji": "🌾",
-      "category": "grain",
-      "weight_raw": "1 кг",
-      "weight_grams": 1000,
-      "shelf_life": "1-2г",
-      "is_food": false,
-      "is_healthy": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "health_score": null,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/4823077604478_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "product_id": "kaufland-roshen-шоколадови-бонбони-различни-видове-1000g",
-      "last_seen": "2026-10-04",
-      "first_seen": "2026-05-18",
-      "price_history": [
-        {
-          "date": "2026-05-18",
-          "store": "Kaufland",
-          "price": 4.87,
-          "price_eur": 2.49,
-          "old_price": 8.0,
-          "discount_pct": 39
-        },
-        {
-          "date": "2026-05-25",
-          "store": "Kaufland",
-          "price": 5.65,
-          "price_eur": 2.89,
-          "old_price": 7.98,
-          "discount_pct": 29
-        },
-        {
-          "date": "2026-09-20",
-          "store": "Kaufland",
-          "price": 2.49,
-          "price_eur": 1.27,
-          "old_price": 4.09,
-          "discount_pct": 39
-        },
-        {
-          "date": "2026-09-28",
-          "store": "Kaufland",
-          "price": 4.85,
-          "price_eur": 2.48,
-          "old_price": null,
-          "discount_pct": null
-        }
-      ],
-      "lowest_price": 2.49,
-      "lowest_price_date": "2026-09-20",
-      "avg_price": 4.46
-    },
-    {
       "name": "SCHAUMA Шампоан различни видове",
       "store": "Kaufland",
       "emoji": "🧴",
@@ -2348566,99 +2347356,6 @@ const ALL_PRODUCTS_DATA = {
       "lowest_price": 4.99,
       "lowest_price_date": "2026-09-28",
       "avg_price": 4.99
-    },
-    {
-      "name": "MILKA/ OREO/ TOBLERONE Сладолед различни вкусове",
-      "store": "Kaufland",
-      "emoji": "🥛",
-      "category": "dairy",
-      "weight_raw": "6 x 50 мл",
-      "weight_grams": 300,
-      "shelf_life": "малотраен",
-      "is_food": false,
-      "is_healthy": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": null,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/4007993014317_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "product_id": "kaufland-milka-oreo-toblerone-сладолед-различни-вкусове-300g",
-      "last_seen": "2026-10-04",
-      "first_seen": "2026-05-07",
-      "price_history": [
-        {
-          "date": "2026-05-07",
-          "store": "Kaufland",
-          "price": 11.13,
-          "price_eur": 5.69,
-          "old_price": 16.9,
-          "discount_pct": 34
-        },
-        {
-          "date": "2026-05-18",
-          "store": "Kaufland",
-          "price": 3.91,
-          "price_eur": 2.0,
-          "old_price": 5.98,
-          "discount_pct": 35
-        },
-        {
-          "date": "2026-05-25",
-          "store": "Kaufland",
-          "price": 11.72,
-          "price_eur": 5.99,
-          "old_price": 16.9,
-          "discount_pct": 31
-        },
-        {
-          "date": "2026-06-29",
-          "store": "Kaufland",
-          "price": 10.35,
-          "price_eur": 5.29,
-          "old_price": 16.9,
-          "discount_pct": 39
-        },
-        {
-          "date": "2026-07-13",
-          "store": "Kaufland",
-          "price": 2.91,
-          "price_eur": 1.49,
-          "old_price": 5.98,
-          "discount_pct": 51
-        },
-        {
-          "date": "2026-08-13",
-          "store": "Kaufland",
-          "price": 1.69,
-          "price_eur": 0.86,
-          "old_price": 3.06,
-          "discount_pct": 45
-        },
-        {
-          "date": "2026-09-14",
-          "store": "Kaufland",
-          "price": 1.59,
-          "price_eur": 0.81,
-          "old_price": 3.06,
-          "discount_pct": 48
-        },
-        {
-          "date": "2026-09-28",
-          "store": "Kaufland",
-          "price": 4.99,
-          "price_eur": 2.55,
-          "old_price": 8.64,
-          "discount_pct": 42
-        }
-      ],
-      "lowest_price": 1.59,
-      "lowest_price_date": "2026-09-14",
-      "avg_price": 6.04
     },
     {
       "name": "Forte+ Почистващ препарат за печки",
@@ -2350846,107 +2349543,6 @@ const ALL_PRODUCTS_DATA = {
       "avg_price": 11.19
     },
     {
-      "name": "Plomari Узо",
-      "store": "Kaufland",
-      "emoji": "🛒",
-      "category": "other",
-      "weight_raw": "1 л",
-      "weight_grams": 1000,
-      "shelf_life": null,
-      "is_food": false,
-      "is_healthy": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": null,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00091238_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "product_id": "kaufland-plomari-узо-1000g",
-      "last_seen": "2026-10-04",
-      "first_seen": "2026-04-27",
-      "price_history": [
-        {
-          "date": "2026-04-27",
-          "store": "Kaufland",
-          "price": 22.49,
-          "price_eur": 11.5,
-          "old_price": 33.99,
-          "discount_pct": 34
-        },
-        {
-          "date": "2026-06-18",
-          "store": "Kaufland",
-          "price": 15.63,
-          "price_eur": 7.99,
-          "old_price": 25.0,
-          "discount_pct": 37
-        },
-        {
-          "date": "2026-06-29",
-          "store": "Kaufland",
-          "price": 22.47,
-          "price_eur": 11.49,
-          "old_price": 34.74,
-          "discount_pct": 35
-        },
-        {
-          "date": "2026-07-20",
-          "store": "Kaufland",
-          "price": 16.02,
-          "price_eur": 8.19,
-          "old_price": 25.52,
-          "discount_pct": 37
-        },
-        {
-          "date": "2026-08-03",
-          "store": "Kaufland",
-          "price": 22.47,
-          "price_eur": 11.49,
-          "old_price": 34.74,
-          "discount_pct": 35
-        },
-        {
-          "date": "2026-08-31",
-          "store": "Kaufland",
-          "price": 8.19,
-          "price_eur": 4.19,
-          "old_price": 13.05,
-          "discount_pct": 37
-        },
-        {
-          "date": "2026-09-07",
-          "store": "Kaufland",
-          "price": 11.99,
-          "price_eur": 6.13,
-          "old_price": 17.76,
-          "discount_pct": 32
-        },
-        {
-          "date": "2026-09-14",
-          "store": "Kaufland",
-          "price": 8.49,
-          "price_eur": 4.34,
-          "old_price": 13.05,
-          "discount_pct": 35
-        },
-        {
-          "date": "2026-09-28",
-          "store": "Kaufland",
-          "price": 11.49,
-          "price_eur": 5.87,
-          "old_price": 17.76,
-          "discount_pct": 35
-        }
-      ],
-      "lowest_price": 8.19,
-      "lowest_price_date": "2026-08-31",
-      "avg_price": 15.47
-    },
-    {
       "name": "Ditex Одеяло Дарси 180 х 220 см",
       "store": "Kaufland",
       "emoji": "🛒",
@@ -2352463,7 +2351059,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627421266_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-parkside-акумулаторен-led-прожектор",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-09-28",
       "price_history": [
         {
@@ -2354427,7 +2353023,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20917928_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-bebelan-бебешки-влажни-кърпички-различни-видове",
-      "last_seen": "2026-10-02",
+      "last_seen": "2026-10-11",
       "first_seen": "2026-10-01",
       "price_history": [
         {
@@ -2354437,11 +2353033,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.74,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.53,
+          "price_eur": 0.78,
+          "old_price": 2.16,
+          "discount_pct": 29
         }
       ],
       "lowest_price": 1.45,
       "lowest_price_date": "2026-10-01",
-      "avg_price": 1.45
+      "avg_price": 1.49
     },
     {
       "name": "BEBELAN Бебешки влажни кърпички различни видове, 80 бр.",
@@ -2359574,7 +2358178,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": true,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/4049726002086_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20702962_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-авокадо",
       "last_seen": "2026-10-11",
       "first_seen": "2026-04-14",
@@ -2359778,11 +2358382,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.3,
           "old_price": 0.89,
           "discount_pct": 34
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.09,
+          "price_eur": 0.56,
+          "old_price": 1.49,
+          "discount_pct": 27
         }
       ],
       "lowest_price": 0.55,
       "lowest_price_date": "2026-09-07",
-      "avg_price": 1.57
+      "avg_price": 1.55
     },
     {
       "name": "Брей! Леща",
@@ -2360141,112 +2358753,6 @@ const ALL_PRODUCTS_DATA = {
       "lowest_price": 2.44,
       "lowest_price_date": "2026-10-05",
       "avg_price": 2.44
-    },
-    {
-      "name": "Шеф месар Телешко мляно месо",
-      "store": "Kaufland",
-      "emoji": "🍗",
-      "category": "protein",
-      "weight_raw": "400 г",
-      "weight_grams": 400,
-      "shelf_life": "малотраен",
-      "is_food": true,
-      "is_healthy": true,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": 8,
-      "diet_tags": [],
-      "macros": {
-        "kcal": 172,
-        "p": 24,
-        "f": 8,
-        "c": 0
-      },
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/4049726005957_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "product_id": "kaufland-шеф-месар-телешко-мляно-месо-400g",
-      "last_seen": "2026-10-11",
-      "first_seen": "2026-05-11",
-      "price_history": [
-        {
-          "date": "2026-05-11",
-          "store": "Kaufland",
-          "price": 7.63,
-          "price_eur": 3.9,
-          "old_price": 8.98,
-          "discount_pct": 15
-        },
-        {
-          "date": "2026-06-19",
-          "store": "Kaufland",
-          "price": 16.6,
-          "price_eur": 8.49,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-07-02",
-          "store": "Kaufland",
-          "price": 7.18,
-          "price_eur": 3.67,
-          "old_price": 8.98,
-          "discount_pct": 20
-        },
-        {
-          "date": "2026-07-13",
-          "store": "Kaufland",
-          "price": 17.99,
-          "price_eur": 9.2,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-08-10",
-          "store": "Kaufland",
-          "price": 3.9,
-          "price_eur": 1.99,
-          "old_price": 4.59,
-          "discount_pct": 15
-        },
-        {
-          "date": "2026-08-31",
-          "store": "Kaufland",
-          "price": 9.2,
-          "price_eur": 4.7,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-09-07",
-          "store": "Kaufland",
-          "price": 3.9,
-          "price_eur": 1.99,
-          "old_price": 4.59,
-          "discount_pct": 15
-        },
-        {
-          "date": "2026-09-24",
-          "store": "Kaufland",
-          "price": 9.2,
-          "price_eur": 4.7,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-10-05",
-          "store": "Kaufland",
-          "price": 3.9,
-          "price_eur": 1.99,
-          "old_price": 4.59,
-          "discount_pct": 15
-        }
-      ],
-      "lowest_price": 3.9,
-      "lowest_price_date": "2026-08-10",
-      "avg_price": 8.83
     },
     {
       "name": "Meat Revolution Патешко бутче 300 г",
@@ -2361058,11 +2359564,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.56,
           "old_price": 1.99,
           "discount_pct": 45
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.99,
+          "price_eur": 0.51,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 0.79,
       "lowest_price_date": "2026-09-28",
-      "avg_price": 2.2
+      "avg_price": 2.12
     },
     {
       "name": "K-Bio Бебешко пюре различни видове",
@@ -2361548,7 +2360062,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/04301136_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00013763_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-gerber-пюре-различни-видове-190g",
       "last_seen": "2026-10-11",
       "first_seen": "2026-04-27",
@@ -2361640,11 +2360154,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.81,
           "old_price": 2.24,
           "discount_pct": 29
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.9,
+          "price_eur": 0.97,
+          "old_price": 2.24,
+          "discount_pct": 15
         }
       ],
       "lowest_price": 1.12,
       "lowest_price_date": "2026-09-28",
-      "avg_price": 2.13
+      "avg_price": 2.11
     },
     {
       "name": "Биопрограма Селекция билкови чайове",
@@ -2362800,99 +2361322,6 @@ const ALL_PRODUCTS_DATA = {
       "avg_price": 0.59
     },
     {
-      "name": "Орехите Луканка различни видове",
-      "store": "Kaufland",
-      "emoji": "🍗",
-      "category": "protein",
-      "weight_raw": "210 г",
-      "weight_grams": 210,
-      "shelf_life": "малотраен",
-      "is_food": true,
-      "is_healthy": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": 3,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": true,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00065069_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
-      "product_id": "kaufland-орехите-луканка-различни-видове-210g",
-      "last_seen": "2026-10-11",
-      "first_seen": "2026-05-07",
-      "price_history": [
-        {
-          "date": "2026-05-07",
-          "store": "Kaufland",
-          "price": 8.39,
-          "price_eur": 4.29,
-          "old_price": 11.99,
-          "discount_pct": 30
-        },
-        {
-          "date": "2026-05-25",
-          "store": "Kaufland",
-          "price": 19.99,
-          "price_eur": 10.22,
-          "old_price": 29.98,
-          "discount_pct": 33
-        },
-        {
-          "date": "2026-06-29",
-          "store": "Kaufland",
-          "price": 20.52,
-          "price_eur": 10.49,
-          "old_price": 30.61,
-          "discount_pct": 33
-        },
-        {
-          "date": "2026-07-20",
-          "store": "Kaufland",
-          "price": 8.19,
-          "price_eur": 4.19,
-          "old_price": 12.3,
-          "discount_pct": 33
-        },
-        {
-          "date": "2026-08-03",
-          "store": "Kaufland",
-          "price": 20.52,
-          "price_eur": 10.49,
-          "old_price": 30.61,
-          "discount_pct": 33
-        },
-        {
-          "date": "2026-08-31",
-          "store": "Kaufland",
-          "price": 4.49,
-          "price_eur": 2.3,
-          "old_price": 6.29,
-          "discount_pct": 29
-        },
-        {
-          "date": "2026-09-07",
-          "store": "Kaufland",
-          "price": 10.49,
-          "price_eur": 5.36,
-          "old_price": 15.65,
-          "discount_pct": 33
-        },
-        {
-          "date": "2026-10-05",
-          "store": "Kaufland",
-          "price": 4.49,
-          "price_eur": 2.3,
-          "old_price": 6.29,
-          "discount_pct": 29
-        }
-      ],
-      "lowest_price": 4.49,
-      "lowest_price_date": "2026-08-31",
-      "avg_price": 12.13
-    },
-    {
       "name": "Перелик Луканка + Родопска сушеница",
       "store": "Kaufland",
       "emoji": "🍗",
@@ -2363012,107 +2361441,6 @@ const ALL_PRODUCTS_DATA = {
       "avg_price": 1.33
     },
     {
-      "name": "Raffaello Бонбони кокос",
-      "store": "Kaufland",
-      "emoji": "🌾",
-      "category": "grain",
-      "weight_raw": "230 г",
-      "weight_grams": 230,
-      "shelf_life": "1-2г",
-      "is_food": true,
-      "is_healthy": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "health_score": 2,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/518_02701460_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "product_id": "kaufland-raffaello-бонбони-кокос-230g",
-      "last_seen": "2026-10-11",
-      "first_seen": "2026-05-07",
-      "price_history": [
-        {
-          "date": "2026-05-07",
-          "store": "Kaufland",
-          "price": 6.24,
-          "price_eur": 3.19,
-          "old_price": 8.29,
-          "discount_pct": 25
-        },
-        {
-          "date": "2026-05-18",
-          "store": "Kaufland",
-          "price": 8.98,
-          "price_eur": 4.59,
-          "old_price": 11.99,
-          "discount_pct": 25
-        },
-        {
-          "date": "2026-06-05",
-          "store": "Kaufland",
-          "price": 5.65,
-          "price_eur": 2.89,
-          "old_price": 8.29,
-          "discount_pct": 32
-        },
-        {
-          "date": "2026-06-22",
-          "store": "Kaufland",
-          "price": 6.63,
-          "price_eur": 3.39,
-          "old_price": 8.29,
-          "discount_pct": 20
-        },
-        {
-          "date": "2026-07-06",
-          "store": "Kaufland",
-          "price": 8.98,
-          "price_eur": 4.59,
-          "old_price": 11.99,
-          "discount_pct": 25
-        },
-        {
-          "date": "2026-07-20",
-          "store": "Kaufland",
-          "price": 6.63,
-          "price_eur": 3.39,
-          "old_price": 8.29,
-          "discount_pct": 20
-        },
-        {
-          "date": "2026-08-03",
-          "store": "Kaufland",
-          "price": 8.98,
-          "price_eur": 4.59,
-          "old_price": 11.99,
-          "discount_pct": 25
-        },
-        {
-          "date": "2026-08-17",
-          "store": "Kaufland",
-          "price": 3.29,
-          "price_eur": 1.68,
-          "old_price": 4.24,
-          "discount_pct": 22
-        },
-        {
-          "date": "2026-10-05",
-          "store": "Kaufland",
-          "price": 4.59,
-          "price_eur": 2.35,
-          "old_price": 6.13,
-          "discount_pct": 25
-        }
-      ],
-      "lowest_price": 3.29,
-      "lowest_price_date": "2026-08-17",
-      "avg_price": 6.66
-    },
-    {
       "name": "Picantina Млян кимион",
       "store": "Kaufland",
       "emoji": "🛒",
@@ -2363148,123 +2361476,6 @@ const ALL_PRODUCTS_DATA = {
       "lowest_price": 0.24,
       "lowest_price_date": "2026-10-05",
       "avg_price": 0.24
-    },
-    {
-      "name": "Пърленка от нашата пекарна",
-      "store": "Kaufland",
-      "emoji": "🛒",
-      "category": "other",
-      "weight_raw": "160 г",
-      "weight_grams": 160,
-      "shelf_life": null,
-      "is_food": false,
-      "is_healthy": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": null,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": true,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00103741B_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "product_id": "kaufland-пърленка-от-нашата-пекарна-160g",
-      "last_seen": "2026-10-11",
-      "first_seen": "2026-05-18",
-      "price_history": [
-        {
-          "date": "2026-05-18",
-          "store": "Kaufland",
-          "price": 0.2,
-          "price_eur": 0.1,
-          "old_price": 0.39,
-          "discount_pct": 49
-        },
-        {
-          "date": "2026-06-01",
-          "store": "Kaufland",
-          "price": 0.68,
-          "price_eur": 0.35,
-          "old_price": 0.98,
-          "discount_pct": 31
-        },
-        {
-          "date": "2026-07-06",
-          "store": "Kaufland",
-          "price": 0.18,
-          "price_eur": 0.09,
-          "old_price": 0.39,
-          "discount_pct": 54
-        },
-        {
-          "date": "2026-07-20",
-          "store": "Kaufland",
-          "price": 0.68,
-          "price_eur": 0.35,
-          "old_price": 0.98,
-          "discount_pct": 31
-        },
-        {
-          "date": "2026-08-10",
-          "store": "Kaufland",
-          "price": 0.35,
-          "price_eur": 0.18,
-          "old_price": 0.5,
-          "discount_pct": 30
-        },
-        {
-          "date": "2026-08-17",
-          "store": "Kaufland",
-          "price": 0.1,
-          "price_eur": 0.05,
-          "old_price": 0.2,
-          "discount_pct": 50
-        },
-        {
-          "date": "2026-08-31",
-          "store": "Kaufland",
-          "price": 0.35,
-          "price_eur": 0.18,
-          "old_price": 0.5,
-          "discount_pct": 30
-        },
-        {
-          "date": "2026-09-07",
-          "store": "Kaufland",
-          "price": 0.1,
-          "price_eur": 0.05,
-          "old_price": 0.2,
-          "discount_pct": 50
-        },
-        {
-          "date": "2026-09-14",
-          "store": "Kaufland",
-          "price": 0.35,
-          "price_eur": 0.18,
-          "old_price": 0.5,
-          "discount_pct": 30
-        },
-        {
-          "date": "2026-09-28",
-          "store": "Kaufland",
-          "price": 0.1,
-          "price_eur": 0.05,
-          "old_price": 0.2,
-          "discount_pct": 50
-        },
-        {
-          "date": "2026-10-05",
-          "store": "Kaufland",
-          "price": 0.39,
-          "price_eur": 0.2,
-          "old_price": 0.5,
-          "discount_pct": 22
-        }
-      ],
-      "lowest_price": 0.1,
-      "lowest_price_date": "2026-08-17",
-      "avg_price": 0.32
     },
     {
       "name": "Toblerone Млечен шоколад",
@@ -2363487,155 +2361698,6 @@ const ALL_PRODUCTS_DATA = {
       "lowest_price": 0.59,
       "lowest_price_date": "2026-10-05",
       "avg_price": 0.59
-    },
-    {
-      "name": "Dante Храна за кучета различни видове",
-      "store": "Kaufland",
-      "emoji": "🐾",
-      "category": "pet",
-      "weight_raw": "415 г",
-      "weight_grams": 415,
-      "shelf_life": "6м-1г",
-      "is_food": false,
-      "is_healthy": false,
-      "is_bulk_worthy": true,
-      "is_long_lasting": true,
-      "health_score": null,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8595606410978_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "product_id": "kaufland-dante-храна-за-кучета-различни-видове-415g",
-      "last_seen": "2026-10-11",
-      "first_seen": "2026-05-11",
-      "price_history": [
-        {
-          "date": "2026-05-11",
-          "store": "Kaufland",
-          "price": 1.41,
-          "price_eur": 0.72,
-          "old_price": 1.78,
-          "discount_pct": 21
-        },
-        {
-          "date": "2026-05-25",
-          "store": "Kaufland",
-          "price": 1.25,
-          "price_eur": 0.64,
-          "old_price": 1.78,
-          "discount_pct": 30
-        },
-        {
-          "date": "2026-06-01",
-          "store": "Kaufland",
-          "price": 1.41,
-          "price_eur": 0.72,
-          "old_price": 1.78,
-          "discount_pct": 21
-        },
-        {
-          "date": "2026-06-08",
-          "store": "Kaufland",
-          "price": 2.78,
-          "price_eur": 1.42,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-06-15",
-          "store": "Kaufland",
-          "price": 1.25,
-          "price_eur": 0.64,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-06-29",
-          "store": "Kaufland",
-          "price": 2.78,
-          "price_eur": 1.42,
-          "old_price": 3.95,
-          "discount_pct": 30
-        },
-        {
-          "date": "2026-07-13",
-          "store": "Kaufland",
-          "price": 1.25,
-          "price_eur": 0.64,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-07-20",
-          "store": "Kaufland",
-          "price": 2.78,
-          "price_eur": 1.42,
-          "old_price": 3.95,
-          "discount_pct": 30
-        },
-        {
-          "date": "2026-08-03",
-          "store": "Kaufland",
-          "price": 1.25,
-          "price_eur": 0.64,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-08-10",
-          "store": "Kaufland",
-          "price": 1.39,
-          "price_eur": 0.71,
-          "old_price": 2.02,
-          "discount_pct": 31
-        },
-        {
-          "date": "2026-08-17",
-          "store": "Kaufland",
-          "price": 1.51,
-          "price_eur": 0.77,
-          "old_price": 2.02,
-          "discount_pct": 25
-        },
-        {
-          "date": "2026-08-24",
-          "store": "Kaufland",
-          "price": 1.49,
-          "price_eur": 0.76,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-09-20",
-          "store": "Kaufland",
-          "price": 0.72,
-          "price_eur": 0.37,
-          "old_price": 0.91,
-          "discount_pct": 21
-        },
-        {
-          "date": "2026-09-28",
-          "store": "Kaufland",
-          "price": 1.39,
-          "price_eur": 0.71,
-          "old_price": 2.02,
-          "discount_pct": 31
-        },
-        {
-          "date": "2026-10-05",
-          "store": "Kaufland",
-          "price": 0.65,
-          "price_eur": 0.33,
-          "old_price": 0.91,
-          "discount_pct": 29
-        }
-      ],
-      "lowest_price": 0.65,
-      "lowest_price_date": "2026-10-05",
-      "avg_price": 1.55
     },
     {
       "name": "Брей! Българска пшеница грухана",
@@ -2364975,91 +2363037,6 @@ const ALL_PRODUCTS_DATA = {
       "avg_price": 1.55
     },
     {
-      "name": "Caprice Шоколадови пури",
-      "store": "Kaufland",
-      "emoji": "🌾",
-      "category": "grain",
-      "weight_raw": "115 г",
-      "weight_grams": 115,
-      "shelf_life": "1-2г",
-      "is_food": false,
-      "is_healthy": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "health_score": null,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/5201004021328_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "product_id": "kaufland-caprice-шоколадови-пури-115g",
-      "last_seen": "2026-10-11",
-      "first_seen": "2026-05-18",
-      "price_history": [
-        {
-          "date": "2026-05-18",
-          "store": "Kaufland",
-          "price": 5.28,
-          "price_eur": 2.7,
-          "old_price": 7.49,
-          "discount_pct": 30
-        },
-        {
-          "date": "2026-06-29",
-          "store": "Kaufland",
-          "price": 2.78,
-          "price_eur": 1.42,
-          "old_price": 3.85,
-          "discount_pct": 28
-        },
-        {
-          "date": "2026-07-06",
-          "store": "Kaufland",
-          "price": 5.26,
-          "price_eur": 2.69,
-          "old_price": 7.49,
-          "discount_pct": 30
-        },
-        {
-          "date": "2026-08-31",
-          "store": "Kaufland",
-          "price": 4.29,
-          "price_eur": 2.19,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-09-07",
-          "store": "Kaufland",
-          "price": 1.55,
-          "price_eur": 0.79,
-          "old_price": 1.97,
-          "discount_pct": 21
-        },
-        {
-          "date": "2026-09-14",
-          "store": "Kaufland",
-          "price": 2.69,
-          "price_eur": 1.38,
-          "old_price": 3.83,
-          "discount_pct": 30
-        },
-        {
-          "date": "2026-10-05",
-          "store": "Kaufland",
-          "price": 1.55,
-          "price_eur": 0.79,
-          "old_price": 1.97,
-          "discount_pct": 21
-        }
-      ],
-      "lowest_price": 1.55,
-      "lowest_price_date": "2026-09-07",
-      "avg_price": 3.34
-    },
-    {
       "name": "Schogetten Шоколад различни видове",
       "store": "Kaufland",
       "emoji": "🌾",
@@ -2365979,115 +2363956,6 @@ const ALL_PRODUCTS_DATA = {
       "lowest_price": 2.79,
       "lowest_price_date": "2026-10-05",
       "avg_price": 2.79
-    },
-    {
-      "name": "K-Classic Котешка тоалетна",
-      "store": "Kaufland",
-      "emoji": "🐾",
-      "category": "pet",
-      "weight_raw": "5 кг",
-      "weight_grams": 5000,
-      "shelf_life": "6м-1г",
-      "is_food": false,
-      "is_healthy": false,
-      "is_bulk_worthy": true,
-      "is_long_lasting": true,
-      "health_score": null,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20835552_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "product_id": "kaufland-k-classic-котешка-тоалетна-5000g",
-      "last_seen": "2026-10-11",
-      "first_seen": "2026-05-07",
-      "price_history": [
-        {
-          "date": "2026-05-07",
-          "store": "Kaufland",
-          "price": 6.49,
-          "price_eur": 3.32,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-06-01",
-          "store": "Kaufland",
-          "price": 5.48,
-          "price_eur": 2.8,
-          "old_price": 10.95,
-          "discount_pct": 50
-        },
-        {
-          "date": "2026-06-08",
-          "store": "Kaufland",
-          "price": 6.49,
-          "price_eur": 3.32,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-06-29",
-          "store": "Kaufland",
-          "price": 5.48,
-          "price_eur": 2.8,
-          "old_price": 10.95,
-          "discount_pct": 50
-        },
-        {
-          "date": "2026-07-13",
-          "store": "Kaufland",
-          "price": 6.49,
-          "price_eur": 3.32,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-07-27",
-          "store": "Kaufland",
-          "price": 2.74,
-          "price_eur": 1.4,
-          "old_price": 5.48,
-          "discount_pct": 50
-        },
-        {
-          "date": "2026-08-03",
-          "store": "Kaufland",
-          "price": 6.49,
-          "price_eur": 3.32,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-08-17",
-          "store": "Kaufland",
-          "price": 2.8,
-          "price_eur": 1.43,
-          "old_price": 5.6,
-          "discount_pct": 50
-        },
-        {
-          "date": "2026-08-24",
-          "store": "Kaufland",
-          "price": 3.35,
-          "price_eur": 1.71,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-10-05",
-          "store": "Kaufland",
-          "price": 2.8,
-          "price_eur": 1.43,
-          "old_price": 5.6,
-          "discount_pct": 50
-        }
-      ],
-      "lowest_price": 2.74,
-      "lowest_price_date": "2026-07-27",
-      "avg_price": 4.86
     },
     {
       "name": "Colgate Паста за зъби",
@@ -2367275,59 +2365143,6 @@ const ALL_PRODUCTS_DATA = {
       "avg_price": 4.19
     },
     {
-      "name": "Zahir Червено, Бяло вино или Розе различни сортове",
-      "store": "Kaufland",
-      "emoji": "🍺",
-      "category": "drinks",
-      "weight_raw": "0,75 л",
-      "weight_grams": 750,
-      "shelf_life": "малотраен",
-      "is_food": false,
-      "is_healthy": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": null,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00109988_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
-      "product_id": "kaufland-zahir-червено-бяло-вино-или-розе-различни-сортове-750g",
-      "last_seen": "2026-10-11",
-      "first_seen": "2026-05-11",
-      "price_history": [
-        {
-          "date": "2026-05-11",
-          "store": "Kaufland",
-          "price": 20.99,
-          "price_eur": 10.73,
-          "old_price": 35.99,
-          "discount_pct": 42
-        },
-        {
-          "date": "2026-09-20",
-          "store": "Kaufland",
-          "price": 10.75,
-          "price_eur": 5.5,
-          "old_price": 18.4,
-          "discount_pct": 42
-        },
-        {
-          "date": "2026-10-05",
-          "store": "Kaufland",
-          "price": 4.39,
-          "price_eur": 2.24,
-          "old_price": 6.13,
-          "discount_pct": 28
-        }
-      ],
-      "lowest_price": 4.39,
-      "lowest_price_date": "2026-10-05",
-      "avg_price": 12.04
-    },
-    {
       "name": "Paulaner Бира различни видове",
       "store": "Kaufland",
       "emoji": "🍺",
@@ -2367749,75 +2365564,6 @@ const ALL_PRODUCTS_DATA = {
       "avg_price": 4.99
     },
     {
-      "name": "Extra Zytnia Водка",
-      "store": "Kaufland",
-      "emoji": "🍺",
-      "category": "drinks",
-      "weight_raw": "0,7 л",
-      "weight_grams": 700,
-      "shelf_life": "малотраен",
-      "is_food": false,
-      "is_healthy": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": null,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00014981_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
-      "product_id": "kaufland-extra-zytnia-водка-700g",
-      "last_seen": "2026-10-11",
-      "first_seen": "2026-05-11",
-      "price_history": [
-        {
-          "date": "2026-05-11",
-          "store": "Kaufland",
-          "price": 12.99,
-          "price_eur": 6.64,
-          "old_price": 18.29,
-          "discount_pct": 29
-        },
-        {
-          "date": "2026-05-18",
-          "store": "Kaufland",
-          "price": 9.99,
-          "price_eur": 5.11,
-          "old_price": 14.98,
-          "discount_pct": 33
-        },
-        {
-          "date": "2026-07-06",
-          "store": "Kaufland",
-          "price": 13.01,
-          "price_eur": 6.65,
-          "old_price": 18.54,
-          "discount_pct": 30
-        },
-        {
-          "date": "2026-08-10",
-          "store": "Kaufland",
-          "price": 6.65,
-          "price_eur": 3.4,
-          "old_price": 9.48,
-          "discount_pct": 30
-        },
-        {
-          "date": "2026-10-05",
-          "store": "Kaufland",
-          "price": 5.11,
-          "price_eur": 2.61,
-          "old_price": 7.81,
-          "discount_pct": 35
-        }
-      ],
-      "lowest_price": 5.11,
-      "lowest_price_date": "2026-10-05",
-      "avg_price": 9.55
-    },
-    {
       "name": "Пещера Мастика",
       "store": "Kaufland",
       "emoji": "🍺",
@@ -2368076,107 +2365822,6 @@ const ALL_PRODUCTS_DATA = {
       "lowest_price": 5.59,
       "lowest_price_date": "2026-10-05",
       "avg_price": 5.59
-    },
-    {
-      "name": "FRISKIES Суха храна за кучета различни видове",
-      "store": "Kaufland",
-      "emoji": "🐾",
-      "category": "pet",
-      "weight_raw": "2,4 кг",
-      "weight_grams": 2400,
-      "shelf_life": "6м-1г",
-      "is_food": false,
-      "is_healthy": false,
-      "is_bulk_worthy": true,
-      "is_long_lasting": true,
-      "health_score": null,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00026219_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "product_id": "kaufland-friskies-суха-храна-за-кучета-различни-видове-2400g",
-      "last_seen": "2026-10-11",
-      "first_seen": "2026-05-11",
-      "price_history": [
-        {
-          "date": "2026-05-11",
-          "store": "Kaufland",
-          "price": 8.49,
-          "price_eur": 4.34,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-06-08",
-          "store": "Kaufland",
-          "price": 2.43,
-          "price_eur": 1.24,
-          "old_price": 3.48,
-          "discount_pct": 30
-        },
-        {
-          "date": "2026-07-13",
-          "store": "Kaufland",
-          "price": 8.49,
-          "price_eur": 4.34,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-07-20",
-          "store": "Kaufland",
-          "price": 2.43,
-          "price_eur": 1.24,
-          "old_price": 3.48,
-          "discount_pct": 30
-        },
-        {
-          "date": "2026-07-27",
-          "store": "Kaufland",
-          "price": 10.99,
-          "price_eur": 5.62,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-08-03",
-          "store": "Kaufland",
-          "price": 2.52,
-          "price_eur": 1.29,
-          "old_price": 3.48,
-          "discount_pct": 28
-        },
-        {
-          "date": "2026-08-24",
-          "store": "Kaufland",
-          "price": 5.62,
-          "price_eur": 2.87,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-08-31",
-          "store": "Kaufland",
-          "price": 4.34,
-          "price_eur": 2.22,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-10-05",
-          "store": "Kaufland",
-          "price": 5.65,
-          "price_eur": 2.89,
-          "old_price": 7.66,
-          "discount_pct": 26
-        }
-      ],
-      "lowest_price": 2.43,
-      "lowest_price_date": "2026-06-08",
-      "avg_price": 5.66
     },
     {
       "name": "OVOMALTINE Какаов крем Crunchy",
@@ -2381302,6 +2378947,12885 @@ const ALL_PRODUCTS_DATA = {
       "lowest_price": 3.57,
       "lowest_price_date": "2026-10-04",
       "avg_price": 6.24
+    },
+    {
+      "name": "Detelina's Сурови бадеми белени",
+      "store": "Kaufland",
+      "emoji": "🥜",
+      "category": "nuts",
+      "weight_raw": "80 г",
+      "weight_grams": 80,
+      "shelf_life": "6м-1г",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": true,
+      "is_long_lasting": true,
+      "health_score": 9,
+      "diet_tags": [
+        "keto",
+        "mediterranean"
+      ],
+      "macros": {
+        "kcal": 579,
+        "p": 21,
+        "f": 49,
+        "c": 22
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": true,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800139113889_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-detelina-s-сурови-бадеми-белени-80g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.53,
+          "price_eur": 0.78,
+          "old_price": 2.04,
+          "discount_pct": 25
+        }
+      ],
+      "lowest_price": 1.53,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 1.53
+    },
+    {
+      "name": "Classic Max Пиле с прясно зеле",
+      "store": "Kaufland",
+      "emoji": "🍗",
+      "category": "protein",
+      "weight_raw": "330 г",
+      "weight_grams": 330,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 9,
+      "diet_tags": [
+        "high_protein",
+        "keto",
+        "budget"
+      ],
+      "macros": {
+        "kcal": 165,
+        "p": 31,
+        "f": 3.6,
+        "c": 0
+      },
+      "is_junk": false,
+      "is_high_protein": true,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20900700_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-classic-max-пиле-с-прясно-зеле-330g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.09,
+          "price_eur": 1.07,
+          "old_price": 2.55,
+          "discount_pct": 18
+        }
+      ],
+      "lowest_price": 2.09,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 2.09
+    },
+    {
+      "name": "Detelina's Кедрови ядки",
+      "store": "Kaufland",
+      "emoji": "🥜",
+      "category": "nuts",
+      "weight_raw": "45 г",
+      "weight_grams": 45,
+      "shelf_life": "6м-1г",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": true,
+      "is_long_lasting": true,
+      "health_score": 9,
+      "diet_tags": [
+        "keto",
+        "mediterranean"
+      ],
+      "macros": {
+        "kcal": 607,
+        "p": 20,
+        "f": 54,
+        "c": 20
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": true,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00110443_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-detelina-s-кедрови-ядки-45g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.1,
+          "price_eur": 1.07,
+          "old_price": 2.81,
+          "discount_pct": 25
+        }
+      ],
+      "lowest_price": 2.1,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 2.1
+    },
+    {
+      "name": "Balcho Сусамов тахан",
+      "store": "Kaufland",
+      "emoji": "🥜",
+      "category": "nuts",
+      "weight_raw": "350 г",
+      "weight_grams": 350,
+      "shelf_life": "6м-1г",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": true,
+      "is_long_lasting": true,
+      "health_score": 9,
+      "diet_tags": [],
+      "macros": {
+        "kcal": 595,
+        "p": 17,
+        "f": 54,
+        "c": 21
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800060151288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-balcho-сусамов-тахан-350g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.57,
+          "price_eur": 1.83,
+          "old_price": 7.14,
+          "discount_pct": 50
+        }
+      ],
+      "lowest_price": 3.57,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 3.57
+    },
+    {
+      "name": "Vileda Резервна гъба за моп тип пеперуда",
+      "store": "Kaufland",
+      "emoji": "🧹",
+      "category": "household",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": "1-2г",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": true,
+      "is_long_lasting": true,
+      "health_score": 9,
+      "diet_tags": [],
+      "macros": {
+        "kcal": 22,
+        "p": 3.1,
+        "f": 0.3,
+        "c": 3.3
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20773941?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-vileda-резервна-гъба-за-моп-тип-пеперуда",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 4.99,
+          "price_eur": 2.55,
+          "old_price": 7.15,
+          "discount_pct": 30
+        }
+      ],
+      "lowest_price": 4.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 4.99
+    },
+    {
+      "name": "Сами М Пилешки хапки с филе замразени",
+      "store": "Kaufland",
+      "emoji": "🍗",
+      "category": "protein",
+      "weight_raw": "1 кг",
+      "weight_grams": 1000,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 9,
+      "diet_tags": [
+        "high_protein",
+        "keto",
+        "budget"
+      ],
+      "macros": {
+        "kcal": 165,
+        "p": 31,
+        "f": 3.6,
+        "c": 0
+      },
+      "is_junk": false,
+      "is_high_protein": true,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/272_203800791540139_1_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-сами-м-пилешки-хапки-с-филе-замразени-1000g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 6.99,
+          "price_eur": 3.57,
+          "old_price": 9.99,
+          "discount_pct": 30
+        }
+      ],
+      "lowest_price": 6.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 6.99
+    },
+    {
+      "name": "Закуска с кайсия и крем от нашата пекарна",
+      "store": "Kaufland",
+      "emoji": "🥦",
+      "category": "vegetable",
+      "weight_raw": "85 г",
+      "weight_grams": 85,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 8,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 48,
+        "p": 1.4,
+        "f": 0.4,
+        "c": 11
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20676146B_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-закуска-с-каисия-и-крем-от-нашата-пекарна-85g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.49,
+          "price_eur": 0.25,
+          "old_price": 0.64,
+          "discount_pct": 23
+        }
+      ],
+      "lowest_price": 0.49,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 0.49
+    },
+    {
+      "name": "Argeta Пуешки пастет",
+      "store": "Kaufland",
+      "emoji": "🍗",
+      "category": "protein",
+      "weight_raw": "95 г",
+      "weight_grams": 95,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 8,
+      "diet_tags": [
+        "high_protein"
+      ],
+      "macros": {
+        "kcal": 189,
+        "p": 29,
+        "f": 7,
+        "c": 0
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3838975566927_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-argeta-пуешки-пастет-95g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.35,
+          "price_eur": 0.69,
+          "old_price": 1.82,
+          "discount_pct": 26
+        }
+      ],
+      "lowest_price": 1.35,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 1.35
+    },
+    {
+      "name": "Monarch Скир натурален",
+      "store": "Kaufland",
+      "emoji": "🥛",
+      "category": "dairy",
+      "weight_raw": "500 г",
+      "weight_grams": 500,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 8,
+      "diet_tags": [
+        "high_protein",
+        "vegetarian",
+        "budget"
+      ],
+      "macros": {
+        "kcal": 66,
+        "p": 11,
+        "f": 0.2,
+        "c": 4
+      },
+      "is_junk": false,
+      "is_high_protein": true,
+      "is_good_carb": false,
+      "is_good_fat": true,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/284_203800235753934_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-monarch-скир-натурален-500g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.39,
+          "price_eur": 1.22,
+          "old_price": 2.99,
+          "discount_pct": 20
+        }
+      ],
+      "lowest_price": 2.39,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 2.39
+    },
+    {
+      "name": "Ловджийски наденички от свинско и говеждо месо",
+      "store": "Kaufland",
+      "emoji": "🍗",
+      "category": "protein",
+      "weight_raw": "400 г",
+      "weight_grams": 400,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 8,
+      "diet_tags": [
+        "high_protein",
+        "keto",
+        "budget"
+      ],
+      "macros": {
+        "kcal": 250,
+        "p": 26,
+        "f": 15,
+        "c": 0
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20857719_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-ловджииски-наденички-от-свинско-и-говеждо-месо-400g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.05,
+          "price_eur": 1.56,
+          "old_price": 3.83,
+          "discount_pct": 20
+        }
+      ],
+      "lowest_price": 3.05,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 3.05
+    },
+    {
+      "name": "Шеф Месар Телешко мляно месо",
+      "store": "Kaufland",
+      "emoji": "🍗",
+      "category": "protein",
+      "weight_raw": "1 кг",
+      "weight_grams": 1000,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 8,
+      "diet_tags": [],
+      "macros": {
+        "kcal": 172,
+        "p": 24,
+        "f": 8,
+        "c": 0
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00101436__P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-шеф-месар-телешко-мляно-месо-1000g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-05-11",
+      "price_history": [
+        {
+          "date": "2026-05-11",
+          "store": "Kaufland",
+          "price": 7.63,
+          "price_eur": 3.9,
+          "old_price": 8.98,
+          "discount_pct": 15
+        },
+        {
+          "date": "2026-06-19",
+          "store": "Kaufland",
+          "price": 16.6,
+          "price_eur": 8.49,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-07-02",
+          "store": "Kaufland",
+          "price": 7.18,
+          "price_eur": 3.67,
+          "old_price": 8.98,
+          "discount_pct": 20
+        },
+        {
+          "date": "2026-07-13",
+          "store": "Kaufland",
+          "price": 17.99,
+          "price_eur": 9.2,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-08-10",
+          "store": "Kaufland",
+          "price": 3.9,
+          "price_eur": 1.99,
+          "old_price": 4.59,
+          "discount_pct": 15
+        },
+        {
+          "date": "2026-08-31",
+          "store": "Kaufland",
+          "price": 9.2,
+          "price_eur": 4.7,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-09-07",
+          "store": "Kaufland",
+          "price": 3.9,
+          "price_eur": 1.99,
+          "old_price": 4.59,
+          "discount_pct": 15
+        },
+        {
+          "date": "2026-09-24",
+          "store": "Kaufland",
+          "price": 9.2,
+          "price_eur": 4.7,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-10-05",
+          "store": "Kaufland",
+          "price": 3.9,
+          "price_eur": 1.99,
+          "old_price": 4.59,
+          "discount_pct": 15
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 9.2,
+          "price_eur": 4.7,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 3.9,
+      "lowest_price_date": "2026-08-10",
+      "avg_price": 8.87
+    },
+    {
+      "name": "Бяло зеле Клас: I",
+      "store": "Kaufland",
+      "emoji": "🥦",
+      "category": "vegetable",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 7,
+      "diet_tags": [],
+      "macros": {
+        "kcal": 25,
+        "p": 1.3,
+        "f": 0.1,
+        "c": 6
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/2830130000000_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-бяло-зеле-клас-i",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.55,
+          "price_eur": 0.28,
+          "old_price": 0.99,
+          "discount_pct": 44
+        }
+      ],
+      "lowest_price": 0.55,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 0.55
+    },
+    {
+      "name": "Алфатар Кисело мляко 4% масленост",
+      "store": "Kaufland",
+      "emoji": "🥛",
+      "category": "dairy",
+      "weight_raw": "300 г",
+      "weight_grams": 300,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 7,
+      "diet_tags": [
+        "high_protein",
+        "vegetarian",
+        "budget"
+      ],
+      "macros": {
+        "kcal": 61,
+        "p": 3.5,
+        "f": 3.3,
+        "c": 4.7
+      },
+      "is_junk": false,
+      "is_high_protein": true,
+      "is_good_carb": false,
+      "is_good_fat": true,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/PGV95156-v1_copy?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-алфатар-кисело-мляко-4-масленост-300g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.59,
+          "price_eur": 0.3,
+          "old_price": 0.76,
+          "discount_pct": 22
+        }
+      ],
+      "lowest_price": 0.59,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 0.59
+    },
+    {
+      "name": "Райска ябълка",
+      "store": "Kaufland",
+      "emoji": "🥦",
+      "category": "vegetable",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 7,
+      "diet_tags": [],
+      "macros": {
+        "kcal": 52,
+        "p": 0.3,
+        "f": 0.2,
+        "c": 14
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/09700782B_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-раиска-ябълка",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.65,
+          "price_eur": 0.33,
+          "old_price": 1.09,
+          "discount_pct": 40
+        }
+      ],
+      "lowest_price": 0.65,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 0.65
+    },
+    {
+      "name": "Тонус Кисело мляко 3,6% масленост",
+      "store": "Kaufland",
+      "emoji": "🥛",
+      "category": "dairy",
+      "weight_raw": "400 г",
+      "weight_grams": 400,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 7,
+      "diet_tags": [
+        "high_protein",
+        "vegetarian",
+        "budget"
+      ],
+      "macros": {
+        "kcal": 61,
+        "p": 3.5,
+        "f": 3.3,
+        "c": 4.7
+      },
+      "is_junk": false,
+      "is_high_protein": true,
+      "is_good_carb": false,
+      "is_good_fat": true,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800237790029_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-тонус-кисело-мляко-3-6-масленост-400g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.65,
+          "price_eur": 0.33,
+          "old_price": 0.79,
+          "discount_pct": 18
+        }
+      ],
+      "lowest_price": 0.65,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 0.65
+    },
+    {
+      "name": "Olympus Зелен чай тропически вкус",
+      "store": "Kaufland",
+      "emoji": "🥦",
+      "category": "vegetable",
+      "weight_raw": "500 мл",
+      "weight_grams": 500,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 7,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 25,
+        "p": 1.3,
+        "f": 0.1,
+        "c": 6
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": true,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4049726108092_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
+      "product_id": "kaufland-olympus-зелен-чаи-тропически-вкус-500g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.81,
+          "price_eur": 0.41,
+          "old_price": 1.02,
+          "discount_pct": 21
+        }
+      ],
+      "lowest_price": 0.81,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 0.81
+    },
+    {
+      "name": "Olympus Зелен чай с роза",
+      "store": "Kaufland",
+      "emoji": "🥦",
+      "category": "vegetable",
+      "weight_raw": "500 мл",
+      "weight_grams": 500,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 7,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 25,
+        "p": 1.3,
+        "f": 0.1,
+        "c": 6
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": true,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4049726108085_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
+      "product_id": "kaufland-olympus-зелен-чаи-с-роза-500g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.81,
+          "price_eur": 0.41,
+          "old_price": 1.02,
+          "discount_pct": 21
+        }
+      ],
+      "lowest_price": 0.81,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 0.81
+    },
+    {
+      "name": "MADETA Синьо сирене 60% масленост",
+      "store": "Kaufland",
+      "emoji": "🥛",
+      "category": "dairy",
+      "weight_raw": "100 г",
+      "weight_grams": 100,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 7,
+      "diet_tags": [
+        "keto",
+        "vegetarian"
+      ],
+      "macros": {
+        "kcal": 264,
+        "p": 14,
+        "f": 22,
+        "c": 2
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": true,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20656339_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-madeta-синьо-сирене-60-масленост-100g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.59,
+          "price_eur": 0.81,
+          "old_price": 1.99,
+          "discount_pct": 20
+        }
+      ],
+      "lowest_price": 1.59,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 1.59
+    },
+    {
+      "name": "LACTEA Топено сирене различни видове",
+      "store": "Kaufland",
+      "emoji": "🥛",
+      "category": "dairy",
+      "weight_raw": "140 г",
+      "weight_grams": 140,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 7,
+      "diet_tags": [
+        "keto",
+        "vegetarian"
+      ],
+      "macros": {
+        "kcal": 264,
+        "p": 14,
+        "f": 22,
+        "c": 2
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/306_20693589_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-lactea-топено-сирене-различни-видове-140g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.79,
+          "price_eur": 0.92,
+          "old_price": 2.25,
+          "discount_pct": 20
+        }
+      ],
+      "lowest_price": 1.79,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 1.79
+    },
+    {
+      "name": "РОДОПСКО ЧУДО Сирене от краве мляко",
+      "store": "Kaufland",
+      "emoji": "🥛",
+      "category": "dairy",
+      "weight_raw": "450 г",
+      "weight_grams": 450,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 7,
+      "diet_tags": [
+        "keto",
+        "vegetarian",
+        "budget"
+      ],
+      "macros": {
+        "kcal": 264,
+        "p": 14,
+        "f": 22,
+        "c": 2
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20350353_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-родопско-чудо-сирене-от-краве-мляко-450g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-05-07",
+      "price_history": [
+        {
+          "date": "2026-05-07",
+          "store": "Kaufland",
+          "price": 4.99,
+          "price_eur": 2.55,
+          "old_price": 8.29,
+          "discount_pct": 40
+        },
+        {
+          "date": "2026-06-08",
+          "store": "Kaufland",
+          "price": 5.85,
+          "price_eur": 2.99,
+          "old_price": 8.29,
+          "discount_pct": 29
+        },
+        {
+          "date": "2026-09-14",
+          "store": "Kaufland",
+          "price": 2.99,
+          "price_eur": 1.53,
+          "old_price": 4.24,
+          "discount_pct": 29
+        },
+        {
+          "date": "2026-09-28",
+          "store": "Kaufland",
+          "price": 6.89,
+          "price_eur": 3.52,
+          "old_price": 8.69,
+          "discount_pct": 21
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.69,
+          "price_eur": 1.38,
+          "old_price": 4.24,
+          "discount_pct": 37
+        }
+      ],
+      "lowest_price": 2.69,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 4.68
+    },
+    {
+      "name": "Lacrima Сирене Екстра от краве мляко",
+      "store": "Kaufland",
+      "emoji": "🥛",
+      "category": "dairy",
+      "weight_raw": "350 г",
+      "weight_grams": 350,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 7,
+      "diet_tags": [
+        "keto",
+        "vegetarian"
+      ],
+      "macros": {
+        "kcal": 264,
+        "p": 14,
+        "f": 22,
+        "c": 2
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/304_00033530_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-lacrima-сирене-екстра-от-краве-мляко-350g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-05-07",
+      "price_history": [
+        {
+          "date": "2026-05-07",
+          "store": "Kaufland",
+          "price": 12.79,
+          "price_eur": 6.54,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-06-15",
+          "store": "Kaufland",
+          "price": 10.58,
+          "price_eur": 5.41,
+          "old_price": 21.16,
+          "discount_pct": 50
+        },
+        {
+          "date": "2026-06-22",
+          "store": "Kaufland",
+          "price": 12.79,
+          "price_eur": 6.54,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-07-13",
+          "store": "Kaufland",
+          "price": 11.72,
+          "price_eur": 5.99,
+          "old_price": 16.59,
+          "discount_pct": 29
+        },
+        {
+          "date": "2026-08-03",
+          "store": "Kaufland",
+          "price": 12.79,
+          "price_eur": 6.54,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-08-24",
+          "store": "Kaufland",
+          "price": 5.41,
+          "price_eur": 2.77,
+          "old_price": 10.82,
+          "discount_pct": 50
+        },
+        {
+          "date": "2026-09-14",
+          "store": "Kaufland",
+          "price": 6.54,
+          "price_eur": 3.34,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-09-20",
+          "store": "Kaufland",
+          "price": 5.99,
+          "price_eur": 3.06,
+          "old_price": 8.48,
+          "discount_pct": 29
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 5.41,
+          "price_eur": 2.77,
+          "old_price": 10.82,
+          "discount_pct": 50
+        }
+      ],
+      "lowest_price": 5.41,
+      "lowest_price_date": "2026-08-24",
+      "avg_price": 9.34
+    },
+    {
+      "name": "ЛЕСНО Пилешка супа със зеленчуци",
+      "store": "Kaufland",
+      "emoji": "🍗",
+      "category": "protein",
+      "weight_raw": "350 г",
+      "weight_grams": 350,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 6,
+      "diet_tags": [
+        "high_protein",
+        "keto"
+      ],
+      "macros": {
+        "kcal": 165,
+        "p": 31,
+        "f": 3.6,
+        "c": 0
+      },
+      "is_junk": false,
+      "is_high_protein": true,
+      "is_good_carb": false,
+      "is_good_fat": true,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20988477_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-лесно-пилешка-супа-със-зеленчуци-350g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.99,
+          "price_eur": 2.04,
+          "old_price": 4.99,
+          "discount_pct": 20
+        }
+      ],
+      "lowest_price": 3.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 3.99
+    },
+    {
+      "name": "Свински гърди Аризона от свежата витрина",
+      "store": "Kaufland",
+      "emoji": "🍗",
+      "category": "protein",
+      "weight_raw": "на кг",
+      "weight_grams": null,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 6,
+      "diet_tags": [
+        "high_protein",
+        "keto",
+        "budget"
+      ],
+      "macros": {
+        "kcal": 242,
+        "p": 27,
+        "f": 14,
+        "c": 0
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00057833_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-свински-гърди-аризона-от-свежата-витрина",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 6.19,
+          "price_eur": 3.16,
+          "old_price": 7.41,
+          "discount_pct": 16
+        }
+      ],
+      "lowest_price": 6.19,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 6.19
+    },
+    {
+      "name": "Palmolive Тоалетен сапун различни видове",
+      "store": "Kaufland",
+      "emoji": "🧴",
+      "category": "hygiene",
+      "weight_raw": "90 г",
+      "weight_grams": 90,
+      "shelf_life": "1-2г",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "health_score": 5,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/638_04805340?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-palmolive-тоалетен-сапун-различни-видове-90g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-04-20",
+      "price_history": [
+        {
+          "date": "2026-04-20",
+          "store": "Kaufland",
+          "price": 4.48,
+          "price_eur": 2.29,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-04-27",
+          "store": "Kaufland",
+          "price": 1.29,
+          "price_eur": 0.66,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-05-25",
+          "store": "Kaufland",
+          "price": 1.27,
+          "price_eur": 0.65,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-06-08",
+          "store": "Kaufland",
+          "price": 4.48,
+          "price_eur": 2.29,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-06-22",
+          "store": "Kaufland",
+          "price": 1.27,
+          "price_eur": 0.65,
+          "old_price": 2.25,
+          "discount_pct": 44
+        },
+        {
+          "date": "2026-07-09",
+          "store": "Kaufland",
+          "price": 1.15,
+          "price_eur": 0.59,
+          "old_price": 2.25,
+          "discount_pct": 49
+        },
+        {
+          "date": "2026-07-27",
+          "store": "Kaufland",
+          "price": 4.48,
+          "price_eur": 2.29,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-08-10",
+          "store": "Kaufland",
+          "price": 0.59,
+          "price_eur": 0.3,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-09-28",
+          "store": "Kaufland",
+          "price": 2.29,
+          "price_eur": 1.17,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.59,
+          "price_eur": 0.3,
+          "old_price": 1.15,
+          "discount_pct": 49
+        }
+      ],
+      "lowest_price": 0.59,
+      "lowest_price_date": "2026-08-10",
+      "avg_price": 2.19
+    },
+    {
+      "name": "БАЛКАН Прясно мляко овкусено",
+      "store": "Kaufland",
+      "emoji": "🥛",
+      "category": "dairy",
+      "weight_raw": "250 мл",
+      "weight_grams": 250,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 5,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 60,
+        "p": 3.2,
+        "f": 3.2,
+        "c": 4.8
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800200793217_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-балкан-прясно-мляко-овкусено-250g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.65,
+          "price_eur": 0.33,
+          "old_price": 0.81,
+          "discount_pct": 20
+        }
+      ],
+      "lowest_price": 0.65,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 0.65
+    },
+    {
+      "name": "Prisun Лимонада",
+      "store": "Kaufland",
+      "emoji": "🥦",
+      "category": "vegetable",
+      "weight_raw": "0,5 л",
+      "weight_grams": 500,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 5,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 29,
+        "p": 1.1,
+        "f": 0.3,
+        "c": 9
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00111054_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-prisun-лимонада-500g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.86,
+          "price_eur": 0.44,
+          "old_price": 1.72,
+          "discount_pct": 50
+        }
+      ],
+      "lowest_price": 0.86,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 0.86
+    },
+    {
+      "name": "Prisun Плодова напитка различни вкусове",
+      "store": "Kaufland",
+      "emoji": "🍞",
+      "category": "bread",
+      "weight_raw": "0,5 л",
+      "weight_grams": 500,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 5,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800747600344_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-prisun-плодова-напитка-различни-вкусове-500g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-05-25",
+      "price_history": [
+        {
+          "date": "2026-05-25",
+          "store": "Kaufland",
+          "price": 2.19,
+          "price_eur": 1.12,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.86,
+          "price_eur": 0.44,
+          "old_price": 1.72,
+          "discount_pct": 50
+        }
+      ],
+      "lowest_price": 0.86,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 1.52
+    },
+    {
+      "name": "BioNino Био плодово пюре за деца над 4 месеца",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "120 г",
+      "weight_grams": 120,
+      "shelf_life": null,
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 5,
+      "diet_tags": [],
+      "macros": {
+        "kcal": 82,
+        "p": 1.8,
+        "f": 4,
+        "c": 11
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20886202_P.jpg",
+      "product_id": "kaufland-bionino-био-плодово-пюре-за-деца-над-4-месеца-120g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.07,
+          "price_eur": 0.55,
+          "old_price": 1.27,
+          "discount_pct": 16
+        }
+      ],
+      "lowest_price": 1.07,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 1.07
+    },
+    {
+      "name": "K-Classic Меденки различни видове",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "200 г",
+      "weight_grams": 200,
+      "shelf_life": null,
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 5,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 304,
+        "p": 0.3,
+        "f": 0,
+        "c": 82
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4337185054662_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-k-classic-меденки-различни-видове-200g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-09-20",
+      "price_history": [
+        {
+          "date": "2026-09-20",
+          "store": "Kaufland",
+          "price": 2.55,
+          "price_eur": 1.3,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.09,
+          "price_eur": 0.56,
+          "old_price": 1.27,
+          "discount_pct": 14
+        }
+      ],
+      "lowest_price": 1.09,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 1.82
+    },
+    {
+      "name": "Detelina's Сурово кашу",
+      "store": "Kaufland",
+      "emoji": "🥜",
+      "category": "nuts",
+      "weight_raw": "80 г",
+      "weight_grams": 80,
+      "shelf_life": "6м-1г",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": true,
+      "is_long_lasting": true,
+      "health_score": 5,
+      "diet_tags": [],
+      "macros": {
+        "kcal": 553,
+        "p": 18,
+        "f": 44,
+        "c": 30
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": true,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00058581_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-detelina-s-сурово-кашу-80g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.45,
+          "price_eur": 0.74,
+          "old_price": 1.94,
+          "discount_pct": 25
+        }
+      ],
+      "lowest_price": 1.45,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 1.45
+    },
+    {
+      "name": "Bona Vita Мюсли крънч различни видове",
+      "store": "Kaufland",
+      "emoji": "🌾",
+      "category": "grain",
+      "weight_raw": "375 г",
+      "weight_grams": 375,
+      "shelf_life": "1-2г",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "health_score": 5,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 370,
+        "p": 10,
+        "f": 7,
+        "c": 67
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": true,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/8595564509226_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-bona-vita-мюсли-крънч-различни-видове-375g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.79,
+          "price_eur": 0.92,
+          "old_price": 2.65,
+          "discount_pct": 32
+        }
+      ],
+      "lowest_price": 1.79,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 1.79
+    },
+    {
+      "name": "Саяна Прясно мляко",
+      "store": "Kaufland",
+      "emoji": "🥛",
+      "category": "dairy",
+      "weight_raw": "1,4 л",
+      "weight_grams": 1400,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 5,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 60,
+        "p": 3.2,
+        "f": 3.2,
+        "c": 4.8
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800226524222_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-саяна-прясно-мляко-1400g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-07-27",
+      "price_history": [
+        {
+          "date": "2026-07-27",
+          "store": "Kaufland",
+          "price": 1.0,
+          "price_eur": 0.51,
+          "old_price": 1.99,
+          "discount_pct": 50
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.99,
+          "price_eur": 1.02,
+          "old_price": 2.5,
+          "discount_pct": 20
+        }
+      ],
+      "lowest_price": 1.0,
+      "lowest_price_date": "2026-07-27",
+      "avg_price": 1.5
+    },
+    {
+      "name": "RISO SCOTTI Растителна напитка Barista различни видове",
+      "store": "Kaufland",
+      "emoji": "🍞",
+      "category": "bread",
+      "weight_raw": "1 л",
+      "weight_grams": 1000,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 5,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20841948_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-riso-scotti-растителна-напитка-barista-различни-видове-1000g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.25,
+          "price_eur": 1.15,
+          "old_price": 2.81,
+          "discount_pct": 20
+        }
+      ],
+      "lowest_price": 2.25,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 2.25
+    },
+    {
+      "name": "OLYMPUS Прясно мляко с протеин",
+      "store": "Kaufland",
+      "emoji": "🥛",
+      "category": "dairy",
+      "weight_raw": "1 л",
+      "weight_grams": 1000,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 5,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 60,
+        "p": 3.2,
+        "f": 3.2,
+        "c": 4.8
+      },
+      "is_junk": false,
+      "is_high_protein": true,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20901679?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-olympus-прясно-мляко-с-протеин-1000g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.29,
+          "price_eur": 1.17,
+          "old_price": 2.86,
+          "discount_pct": 20
+        }
+      ],
+      "lowest_price": 2.29,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 2.29
+    },
+    {
+      "name": "BODY&FUTURE Напитка на растителна основа различни вкусове",
+      "store": "Kaufland",
+      "emoji": "🍞",
+      "category": "bread",
+      "weight_raw": "400 мл",
+      "weight_grams": 400,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 5,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20860613_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-body-future-напитка-на-растителна-основа-различни-вкусове-400g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.75,
+          "price_eur": 1.41,
+          "old_price": 3.45,
+          "discount_pct": 20
+        }
+      ],
+      "lowest_price": 2.75,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 2.75
+    },
+    {
+      "name": "Салата Снежанка",
+      "store": "Kaufland",
+      "emoji": "🥦",
+      "category": "vegetable",
+      "weight_raw": "1 кг",
+      "weight_grams": 1000,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 5,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 15,
+        "p": 1.4,
+        "f": 0.2,
+        "c": 2.9
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800058537469_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-салата-снежанка-1000g",
+      "last_seen": "2026-10-11",
+      "ingredients_raw": "49% цедено кисело мляко, 30% краставици, 20% млечна майонеза (вода, слънчогледово масло, сухо обезмаслено мляко, сгъстители: ацетилиран динишестен адипат, натриев октенил сукцинат на нишестето, гума гуар, ксантанова гума; винен оцет, регулатори на киселинността: лимонена киселина, млечна киселина; трапезна сол, захар, консервант: калиев сорбат), трапезна сол, 0,3% копър, 0,1% чесън, консервант: калиев сорбат; бамбукови фибри. Може да съдържа следи от синап, яйца, соя, пшеница и целина.",
+      "ingredients_flags": [],
+      "junk_count": 0,
+      "amber_count": 0,
+      "clean_label": true,
+      "first_seen": "2026-04-14",
+      "price_history": [
+        {
+          "date": "2026-04-14",
+          "store": "Kaufland",
+          "price": 5.65,
+          "price_eur": 2.89,
+          "old_price": 6.59,
+          "discount_pct": 14
+        },
+        {
+          "date": "2026-04-20",
+          "store": "Kaufland",
+          "price": 4.67,
+          "price_eur": 2.39,
+          "old_price": 5.65,
+          "discount_pct": 17
+        },
+        {
+          "date": "2026-04-27",
+          "store": "Kaufland",
+          "price": 5.26,
+          "price_eur": 2.69,
+          "old_price": 6.59,
+          "discount_pct": 20
+        },
+        {
+          "date": "2026-05-18",
+          "store": "Kaufland",
+          "price": 5.65,
+          "price_eur": 2.89,
+          "old_price": 6.59,
+          "discount_pct": 14
+        },
+        {
+          "date": "2026-05-25",
+          "store": "Kaufland",
+          "price": 4.67,
+          "price_eur": 2.39,
+          "old_price": 5.65,
+          "discount_pct": 17
+        },
+        {
+          "date": "2026-06-15",
+          "store": "Kaufland",
+          "price": 5.65,
+          "price_eur": 2.89,
+          "old_price": 6.59,
+          "discount_pct": 14
+        },
+        {
+          "date": "2026-06-29",
+          "store": "Kaufland",
+          "price": 4.67,
+          "price_eur": 2.39,
+          "old_price": 5.65,
+          "discount_pct": 17
+        },
+        {
+          "date": "2026-07-13",
+          "store": "Kaufland",
+          "price": 5.65,
+          "price_eur": 2.89,
+          "old_price": 6.59,
+          "discount_pct": 14
+        },
+        {
+          "date": "2026-07-27",
+          "store": "Kaufland",
+          "price": 4.67,
+          "price_eur": 2.39,
+          "old_price": 5.65,
+          "discount_pct": 17
+        },
+        {
+          "date": "2026-08-03",
+          "store": "Kaufland",
+          "price": 5.65,
+          "price_eur": 2.89,
+          "old_price": 6.59,
+          "discount_pct": 14
+        },
+        {
+          "date": "2026-08-10",
+          "store": "Kaufland",
+          "price": 2.39,
+          "price_eur": 1.22,
+          "old_price": 2.89,
+          "discount_pct": 17
+        },
+        {
+          "date": "2026-08-31",
+          "store": "Kaufland",
+          "price": 2.89,
+          "price_eur": 1.48,
+          "old_price": 3.37,
+          "discount_pct": 14
+        },
+        {
+          "date": "2026-09-14",
+          "store": "Kaufland",
+          "price": 2.39,
+          "price_eur": 1.22,
+          "old_price": 2.89,
+          "discount_pct": 17
+        },
+        {
+          "date": "2026-09-24",
+          "store": "Kaufland",
+          "price": 1.91,
+          "price_eur": 0.98,
+          "old_price": 2.55,
+          "discount_pct": 25
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.89,
+          "price_eur": 1.48,
+          "old_price": 3.37,
+          "discount_pct": 14
+        }
+      ],
+      "lowest_price": 1.91,
+      "lowest_price_date": "2026-09-24",
+      "avg_price": 4.31
+    },
+    {
+      "name": "OSRAM Автомобилна крушка Н1",
+      "store": "Kaufland",
+      "emoji": "🥦",
+      "category": "vegetable",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 5,
+      "diet_tags": [],
+      "macros": {
+        "kcal": 57,
+        "p": 0.4,
+        "f": 0.1,
+        "c": 15
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4062172395427_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-osram-автомобилна-крушка-н1",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.99,
+          "price_eur": 1.53,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 2.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 2.99
+    },
+    {
+      "name": "ACTIMEL Млечна напитка различни видове",
+      "store": "Kaufland",
+      "emoji": "🍞",
+      "category": "bread",
+      "weight_raw": "8 х 100 г",
+      "weight_grams": 800,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 5,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20978700_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-actimel-млечна-напитка-различни-видове-800g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-09-07",
+      "price_history": [
+        {
+          "date": "2026-09-07",
+          "store": "Kaufland",
+          "price": 1.89,
+          "price_eur": 0.97,
+          "old_price": 2.43,
+          "discount_pct": 22
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.18,
+          "price_eur": 1.63,
+          "old_price": 4.24,
+          "discount_pct": 25
+        }
+      ],
+      "lowest_price": 1.89,
+      "lowest_price_date": "2026-09-07",
+      "avg_price": 2.54
+    },
+    {
+      "name": "OSRAM Автомобилна крушка Н4",
+      "store": "Kaufland",
+      "emoji": "🥦",
+      "category": "vegetable",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 5,
+      "diet_tags": [],
+      "macros": {
+        "kcal": 57,
+        "p": 0.4,
+        "f": 0.1,
+        "c": 15
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4062172395649_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-osram-автомобилна-крушка-н4",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.29,
+          "price_eur": 1.68,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 3.29,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 3.29
+    },
+    {
+      "name": "Fresh & Cool Салата Капрезе",
+      "store": "Kaufland",
+      "emoji": "🥦",
+      "category": "vegetable",
+      "weight_raw": "250 г",
+      "weight_grams": 250,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 5,
+      "diet_tags": [],
+      "macros": {
+        "kcal": 15,
+        "p": 1.4,
+        "f": 0.2,
+        "c": 2.9
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20782961_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-fresh-cool-салата-капрезе-250g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.39,
+          "price_eur": 1.73,
+          "old_price": 4.09,
+          "discount_pct": 17
+        }
+      ],
+      "lowest_price": 3.39,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 3.39
+    },
+    {
+      "name": "Fresh & Cool Салата Цезар",
+      "store": "Kaufland",
+      "emoji": "🥦",
+      "category": "vegetable",
+      "weight_raw": "260 г",
+      "weight_grams": 260,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 5,
+      "diet_tags": [],
+      "macros": {
+        "kcal": 15,
+        "p": 1.4,
+        "f": 0.2,
+        "c": 2.9
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/5205461214125_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-fresh-cool-салата-цезар-260g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.39,
+          "price_eur": 1.73,
+          "old_price": 4.09,
+          "discount_pct": 17
+        }
+      ],
+      "lowest_price": 3.39,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 3.39
+    },
+    {
+      "name": "K-CLASSIC Кутия за съхранение различни видове",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 5,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627598616_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-k-classic-кутия-за-съхранение-различни-видове",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.99,
+          "price_eur": 2.04,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 3.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 3.99
+    },
+    {
+      "name": "OSRAM Автомобилна крушка Н7",
+      "store": "Kaufland",
+      "emoji": "🥦",
+      "category": "vegetable",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 5,
+      "diet_tags": [],
+      "macros": {
+        "kcal": 57,
+        "p": 0.4,
+        "f": 0.1,
+        "c": 15
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4062172395052_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-osram-автомобилна-крушка-н7",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 4.19,
+          "price_eur": 2.14,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 4.19,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 4.19
+    },
+    {
+      "name": "Bianchi Nero Кафе капсули различни видове",
+      "store": "Kaufland",
+      "emoji": "🍺",
+      "category": "drinks",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 5,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20674610_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-bianchi-nero-кафе-капсули-различни-видове",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-06-01",
+      "price_history": [
+        {
+          "date": "2026-06-01",
+          "store": "Kaufland",
+          "price": 8.49,
+          "price_eur": 4.34,
+          "old_price": 11.6,
+          "discount_pct": 27
+        },
+        {
+          "date": "2026-07-06",
+          "store": "Kaufland",
+          "price": 7.8,
+          "price_eur": 3.99,
+          "old_price": 11.6,
+          "discount_pct": 33
+        },
+        {
+          "date": "2026-08-31",
+          "store": "Kaufland",
+          "price": 3.99,
+          "price_eur": 2.04,
+          "old_price": 5.93,
+          "discount_pct": 33
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 4.29,
+          "price_eur": 2.19,
+          "old_price": 5.93,
+          "discount_pct": 28
+        }
+      ],
+      "lowest_price": 3.99,
+      "lowest_price_date": "2026-08-31",
+      "avg_price": 6.14
+    },
+    {
+      "name": "Parkside® Покривно фолио",
+      "store": "Kaufland",
+      "emoji": "🫒",
+      "category": "fat",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": "1-2г",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": true,
+      "is_long_lasting": true,
+      "health_score": 5,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20277691_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-parkside-покривно-фолио",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 4.59,
+          "price_eur": 2.35,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 4.59,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 4.59
+    },
+    {
+      "name": "JACOBS Разтворимо кафе различни видове",
+      "store": "Kaufland",
+      "emoji": "🍺",
+      "category": "drinks",
+      "weight_raw": "485 мл",
+      "weight_grams": 485,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 5,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/8711000622223_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-jacobs-разтворимо-кафе-различни-видове-485g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 5.29,
+          "price_eur": 2.7,
+          "old_price": 6.99,
+          "discount_pct": 24
+        }
+      ],
+      "lowest_price": 5.29,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 5.29
+    },
+    {
+      "name": "Laica Филтрираща бутилка Fast Disk",
+      "store": "Kaufland",
+      "emoji": "🍗",
+      "category": "protein",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 5,
+      "diet_tags": [],
+      "macros": {
+        "kcal": 160,
+        "p": 20,
+        "f": 9,
+        "c": 0
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00109600_P-2?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-laica-филтрираща-бутилка-fast-disk",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 5.49,
+          "price_eur": 2.81,
+          "old_price": 12.27,
+          "discount_pct": 55
+        }
+      ],
+      "lowest_price": 5.49,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 5.49
+    },
+    {
+      "name": "SILVERCREST Касерола за мляко",
+      "store": "Kaufland",
+      "emoji": "🥛",
+      "category": "dairy",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 5,
+      "diet_tags": [],
+      "macros": {
+        "kcal": 60,
+        "p": 3.2,
+        "f": 3.2,
+        "c": 4.8
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627948800_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-silvercrest-касерола-за-мляко",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 5.99,
+          "price_eur": 3.06,
+          "old_price": 9.99,
+          "discount_pct": 40
+        }
+      ],
+      "lowest_price": 5.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 5.99
+    },
+    {
+      "name": "Laica Филтър за бутилка Fast Disk",
+      "store": "Kaufland",
+      "emoji": "🍗",
+      "category": "protein",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 5,
+      "diet_tags": [],
+      "macros": {
+        "kcal": 160,
+        "p": 20,
+        "f": 9,
+        "c": 0
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00109604_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-laica-филтър-за-бутилка-fast-disk",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 8.17,
+          "price_eur": 4.18,
+          "old_price": 14.31,
+          "discount_pct": 43
+        }
+      ],
+      "lowest_price": 8.17,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 8.17
+    },
+    {
+      "name": "Nescafe Кафе капсули Dolce Gusto различни видове",
+      "store": "Kaufland",
+      "emoji": "🍺",
+      "category": "drinks",
+      "weight_raw": "210 г",
+      "weight_grams": 210,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 5,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00067423__P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-nescafe-кафе-капсули-dolce-gusto-различни-видове-210g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-05-07",
+      "price_history": [
+        {
+          "date": "2026-05-07",
+          "store": "Kaufland",
+          "price": 17.0,
+          "price_eur": 8.69,
+          "old_price": 25.0,
+          "discount_pct": 32
+        },
+        {
+          "date": "2026-06-01",
+          "store": "Kaufland",
+          "price": 16.92,
+          "price_eur": 8.65,
+          "old_price": 25.0,
+          "discount_pct": 32
+        },
+        {
+          "date": "2026-06-08",
+          "store": "Kaufland",
+          "price": 8.98,
+          "price_eur": 4.59,
+          "old_price": 12.65,
+          "discount_pct": 29
+        },
+        {
+          "date": "2026-06-29",
+          "store": "Kaufland",
+          "price": 16.6,
+          "price_eur": 8.49,
+          "old_price": 25.0,
+          "discount_pct": 34
+        },
+        {
+          "date": "2026-08-03",
+          "store": "Kaufland",
+          "price": 16.8,
+          "price_eur": 8.59,
+          "old_price": 25.0,
+          "discount_pct": 33
+        },
+        {
+          "date": "2026-08-25",
+          "store": "Kaufland",
+          "price": 8.69,
+          "price_eur": 4.44,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-09-07",
+          "store": "Kaufland",
+          "price": 4.39,
+          "price_eur": 2.24,
+          "old_price": 6.47,
+          "discount_pct": 32
+        },
+        {
+          "date": "2026-10-05",
+          "store": "Kaufland",
+          "price": 4.59,
+          "price_eur": 2.35,
+          "old_price": 6.47,
+          "discount_pct": 29
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 8.69,
+          "price_eur": 4.44,
+          "old_price": 12.78,
+          "discount_pct": 32
+        }
+      ],
+      "lowest_price": 4.39,
+      "lowest_price_date": "2026-09-07",
+      "avg_price": 11.41
+    },
+    {
+      "name": "NESCAFE Кафе капсули Dolce Gusto",
+      "store": "Kaufland",
+      "emoji": "🍺",
+      "category": "drinks",
+      "weight_raw": "210 г",
+      "weight_grams": 210,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 5,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20716211_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-nescafe-кафе-капсули-dolce-gusto-210g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-04-20",
+      "price_history": [
+        {
+          "date": "2026-04-20",
+          "store": "Kaufland",
+          "price": 9.0,
+          "price_eur": 4.6,
+          "old_price": 12.65,
+          "discount_pct": 29
+        },
+        {
+          "date": "2026-05-11",
+          "store": "Kaufland",
+          "price": 25.99,
+          "price_eur": 13.29,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-08-10",
+          "store": "Kaufland",
+          "price": 13.29,
+          "price_eur": 6.8,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-08-31",
+          "store": "Kaufland",
+          "price": 13.25,
+          "price_eur": 6.77,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-10-05",
+          "store": "Kaufland",
+          "price": 4.59,
+          "price_eur": 2.35,
+          "old_price": 6.47,
+          "discount_pct": 29
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 8.69,
+          "price_eur": 4.44,
+          "old_price": 12.78,
+          "discount_pct": 32
+        }
+      ],
+      "lowest_price": 4.59,
+      "lowest_price_date": "2026-10-05",
+      "avg_price": 12.47
+    },
+    {
+      "name": "LAVAZZA Кафе на зърна",
+      "store": "Kaufland",
+      "emoji": "🍺",
+      "category": "drinks",
+      "weight_raw": "1 кг",
+      "weight_grams": 1000,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 5,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/8000070035904_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-lavazza-кафе-на-зърна-1000g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 23.99,
+          "price_eur": 12.27,
+          "old_price": 33.74,
+          "discount_pct": 29
+        }
+      ],
+      "lowest_price": 23.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 23.99
+    },
+    {
+      "name": "SILVERCREST Сервиз за хранене 18 части",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 5,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627900549_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-silvercrest-сервиз-за-хранене-18-части",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 31.99,
+          "price_eur": 16.36,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 31.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 31.99
+    },
+    {
+      "name": "КФМ Печено филе или Шунка Чиста храна",
+      "store": "Kaufland",
+      "emoji": "🍗",
+      "category": "protein",
+      "weight_raw": "80 г",
+      "weight_grams": 80,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 3,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20981030_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
+      "product_id": "kaufland-кфм-печено-филе-или-шунка-чиста-храна-80g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.39,
+          "price_eur": 1.22,
+          "old_price": 4.78,
+          "discount_pct": 50
+        }
+      ],
+      "lowest_price": 2.39,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 2.39
+    },
+    {
+      "name": "Фермата Луканка",
+      "store": "Kaufland",
+      "emoji": "🍗",
+      "category": "protein",
+      "weight_raw": "350 г",
+      "weight_grams": 350,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 3,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00110617_P-2?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
+      "product_id": "kaufland-фермата-луканка-350g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-05-07",
+      "price_history": [
+        {
+          "date": "2026-05-07",
+          "store": "Kaufland",
+          "price": 10.99,
+          "price_eur": 5.62,
+          "old_price": 21.98,
+          "discount_pct": 50
+        },
+        {
+          "date": "2026-05-18",
+          "store": "Kaufland",
+          "price": 6.49,
+          "price_eur": 3.32,
+          "old_price": 12.99,
+          "discount_pct": 50
+        },
+        {
+          "date": "2026-06-08",
+          "store": "Kaufland",
+          "price": 10.99,
+          "price_eur": 5.62,
+          "old_price": 21.98,
+          "discount_pct": 50
+        },
+        {
+          "date": "2026-06-22",
+          "store": "Kaufland",
+          "price": 6.63,
+          "price_eur": 3.39,
+          "old_price": 13.28,
+          "discount_pct": 50
+        },
+        {
+          "date": "2026-07-13",
+          "store": "Kaufland",
+          "price": 11.23,
+          "price_eur": 5.74,
+          "old_price": 22.47,
+          "discount_pct": 50
+        },
+        {
+          "date": "2026-07-27",
+          "store": "Kaufland",
+          "price": 6.63,
+          "price_eur": 3.39,
+          "old_price": 13.28,
+          "discount_pct": 50
+        },
+        {
+          "date": "2026-08-10",
+          "store": "Kaufland",
+          "price": 5.74,
+          "price_eur": 2.93,
+          "old_price": 11.49,
+          "discount_pct": 50
+        },
+        {
+          "date": "2026-08-31",
+          "store": "Kaufland",
+          "price": 3.39,
+          "price_eur": 1.73,
+          "old_price": 6.79,
+          "discount_pct": 50
+        },
+        {
+          "date": "2026-09-14",
+          "store": "Kaufland",
+          "price": 5.74,
+          "price_eur": 2.93,
+          "old_price": 11.49,
+          "discount_pct": 50
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.39,
+          "price_eur": 1.73,
+          "old_price": 6.79,
+          "discount_pct": 50
+        }
+      ],
+      "lowest_price": 3.39,
+      "lowest_price_date": "2026-08-31",
+      "avg_price": 7.12
+    },
+    {
+      "name": "Орехите Луканка различни видове",
+      "store": "Kaufland",
+      "emoji": "🍗",
+      "category": "protein",
+      "weight_raw": "550 г",
+      "weight_grams": 550,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 3,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": true,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20738076_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
+      "product_id": "kaufland-орехите-луканка-различни-видове-550g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-05-07",
+      "price_history": [
+        {
+          "date": "2026-05-07",
+          "store": "Kaufland",
+          "price": 8.39,
+          "price_eur": 4.29,
+          "old_price": 11.99,
+          "discount_pct": 30
+        },
+        {
+          "date": "2026-05-25",
+          "store": "Kaufland",
+          "price": 19.99,
+          "price_eur": 10.22,
+          "old_price": 29.98,
+          "discount_pct": 33
+        },
+        {
+          "date": "2026-06-29",
+          "store": "Kaufland",
+          "price": 20.52,
+          "price_eur": 10.49,
+          "old_price": 30.61,
+          "discount_pct": 33
+        },
+        {
+          "date": "2026-07-20",
+          "store": "Kaufland",
+          "price": 8.19,
+          "price_eur": 4.19,
+          "old_price": 12.3,
+          "discount_pct": 33
+        },
+        {
+          "date": "2026-08-03",
+          "store": "Kaufland",
+          "price": 20.52,
+          "price_eur": 10.49,
+          "old_price": 30.61,
+          "discount_pct": 33
+        },
+        {
+          "date": "2026-08-31",
+          "store": "Kaufland",
+          "price": 4.49,
+          "price_eur": 2.3,
+          "old_price": 6.29,
+          "discount_pct": 29
+        },
+        {
+          "date": "2026-09-07",
+          "store": "Kaufland",
+          "price": 10.49,
+          "price_eur": 5.36,
+          "old_price": 15.65,
+          "discount_pct": 33
+        },
+        {
+          "date": "2026-10-05",
+          "store": "Kaufland",
+          "price": 4.49,
+          "price_eur": 2.3,
+          "old_price": 6.29,
+          "discount_pct": 29
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 10.69,
+          "price_eur": 5.47,
+          "old_price": 15.65,
+          "discount_pct": 32
+        }
+      ],
+      "lowest_price": 4.49,
+      "lowest_price_date": "2026-08-31",
+      "avg_price": 11.97
+    },
+    {
+      "name": "Ruffles Картофен чипс различни вкусове",
+      "store": "Kaufland",
+      "emoji": "🥦",
+      "category": "vegetable",
+      "weight_raw": "230 г",
+      "weight_grams": 230,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 2,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20728463_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-ruffles-картофен-чипс-различни-вкусове-230g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-05-07",
+      "price_history": [
+        {
+          "date": "2026-05-07",
+          "store": "Kaufland",
+          "price": 2.19,
+          "price_eur": 1.12,
+          "old_price": 3.97,
+          "discount_pct": 45
+        },
+        {
+          "date": "2026-05-18",
+          "store": "Kaufland",
+          "price": 3.68,
+          "price_eur": 1.88,
+          "old_price": 6.18,
+          "discount_pct": 40
+        },
+        {
+          "date": "2026-05-29",
+          "store": "Kaufland",
+          "price": 1.94,
+          "price_eur": 0.99,
+          "old_price": 3.97,
+          "discount_pct": 51
+        },
+        {
+          "date": "2026-06-15",
+          "store": "Kaufland",
+          "price": 3.42,
+          "price_eur": 1.75,
+          "old_price": 6.18,
+          "discount_pct": 45
+        },
+        {
+          "date": "2026-06-29",
+          "store": "Kaufland",
+          "price": 1.99,
+          "price_eur": 1.02,
+          "old_price": 3.97,
+          "discount_pct": 50
+        },
+        {
+          "date": "2026-07-13",
+          "store": "Kaufland",
+          "price": 3.5,
+          "price_eur": 1.79,
+          "old_price": 6.18,
+          "discount_pct": 43
+        },
+        {
+          "date": "2026-07-27",
+          "store": "Kaufland",
+          "price": 2.33,
+          "price_eur": 1.19,
+          "old_price": 3.97,
+          "discount_pct": 41
+        },
+        {
+          "date": "2026-08-10",
+          "store": "Kaufland",
+          "price": 1.58,
+          "price_eur": 0.81,
+          "old_price": 3.16,
+          "discount_pct": 50
+        },
+        {
+          "date": "2026-08-24",
+          "store": "Kaufland",
+          "price": 1.15,
+          "price_eur": 0.59,
+          "old_price": 2.03,
+          "discount_pct": 43
+        },
+        {
+          "date": "2026-09-03",
+          "store": "Kaufland",
+          "price": 1.69,
+          "price_eur": 0.86,
+          "old_price": 3.16,
+          "discount_pct": 47
+        },
+        {
+          "date": "2026-09-14",
+          "store": "Kaufland",
+          "price": 1.89,
+          "price_eur": 0.97,
+          "old_price": 3.16,
+          "discount_pct": 40
+        },
+        {
+          "date": "2026-09-20",
+          "store": "Kaufland",
+          "price": 1.29,
+          "price_eur": 0.66,
+          "old_price": 2.03,
+          "discount_pct": 36
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.79,
+          "price_eur": 0.92,
+          "old_price": 3.16,
+          "discount_pct": 43
+        }
+      ],
+      "lowest_price": 1.15,
+      "lowest_price_date": "2026-08-24",
+      "avg_price": 2.19
+    },
+    {
+      "name": "Pergale Бонбони лешник",
+      "store": "Kaufland",
+      "emoji": "🌾",
+      "category": "grain",
+      "weight_raw": "110 г",
+      "weight_grams": 110,
+      "shelf_life": "1-2г",
+      "is_food": true,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "health_score": 2,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": true,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00106498_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-pergale-бонбони-лешник-110g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.99,
+          "price_eur": 1.02,
+          "old_price": 3.06,
+          "discount_pct": 35
+        }
+      ],
+      "lowest_price": 1.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 1.99
+    },
+    {
+      "name": "Raffaello Бонбони кокос",
+      "store": "Kaufland",
+      "emoji": "🌾",
+      "category": "grain",
+      "weight_raw": "150 г",
+      "weight_grams": 150,
+      "shelf_life": "1-2г",
+      "is_food": true,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "health_score": 2,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/518_02700021_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-raffaello-бонбони-кокос-150g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-05-07",
+      "price_history": [
+        {
+          "date": "2026-05-07",
+          "store": "Kaufland",
+          "price": 6.24,
+          "price_eur": 3.19,
+          "old_price": 8.29,
+          "discount_pct": 25
+        },
+        {
+          "date": "2026-05-18",
+          "store": "Kaufland",
+          "price": 8.98,
+          "price_eur": 4.59,
+          "old_price": 11.99,
+          "discount_pct": 25
+        },
+        {
+          "date": "2026-06-05",
+          "store": "Kaufland",
+          "price": 5.65,
+          "price_eur": 2.89,
+          "old_price": 8.29,
+          "discount_pct": 32
+        },
+        {
+          "date": "2026-06-22",
+          "store": "Kaufland",
+          "price": 6.63,
+          "price_eur": 3.39,
+          "old_price": 8.29,
+          "discount_pct": 20
+        },
+        {
+          "date": "2026-07-06",
+          "store": "Kaufland",
+          "price": 8.98,
+          "price_eur": 4.59,
+          "old_price": 11.99,
+          "discount_pct": 25
+        },
+        {
+          "date": "2026-07-20",
+          "store": "Kaufland",
+          "price": 6.63,
+          "price_eur": 3.39,
+          "old_price": 8.29,
+          "discount_pct": 20
+        },
+        {
+          "date": "2026-08-03",
+          "store": "Kaufland",
+          "price": 8.98,
+          "price_eur": 4.59,
+          "old_price": 11.99,
+          "discount_pct": 25
+        },
+        {
+          "date": "2026-08-17",
+          "store": "Kaufland",
+          "price": 3.29,
+          "price_eur": 1.68,
+          "old_price": 4.24,
+          "discount_pct": 22
+        },
+        {
+          "date": "2026-10-05",
+          "store": "Kaufland",
+          "price": 4.59,
+          "price_eur": 2.35,
+          "old_price": 6.13,
+          "discount_pct": 25
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.19,
+          "price_eur": 1.63,
+          "old_price": 4.24,
+          "discount_pct": 25
+        }
+      ],
+      "lowest_price": 3.19,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 6.32
+    },
+    {
+      "name": "ИДА Торта Матча-лате с малини",
+      "store": "Kaufland",
+      "emoji": "🌾",
+      "category": "grain",
+      "weight_raw": "850 г",
+      "weight_grams": 850,
+      "shelf_life": "1-2г",
+      "is_food": true,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "health_score": 2,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20985438_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-ида-торта-матча-лате-с-малини-850g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 7.49,
+          "price_eur": 3.83,
+          "old_price": 9.99,
+          "discount_pct": 25
+        }
+      ],
+      "lowest_price": 7.49,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 7.49
+    },
+    {
+      "name": "Пърленка от нашата пекарна",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "50 г",
+      "weight_grams": 50,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": true,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00105448_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-пърленка-от-нашата-пекарна-50g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-05-18",
+      "price_history": [
+        {
+          "date": "2026-05-18",
+          "store": "Kaufland",
+          "price": 0.2,
+          "price_eur": 0.1,
+          "old_price": 0.39,
+          "discount_pct": 49
+        },
+        {
+          "date": "2026-06-01",
+          "store": "Kaufland",
+          "price": 0.68,
+          "price_eur": 0.35,
+          "old_price": 0.98,
+          "discount_pct": 31
+        },
+        {
+          "date": "2026-07-06",
+          "store": "Kaufland",
+          "price": 0.18,
+          "price_eur": 0.09,
+          "old_price": 0.39,
+          "discount_pct": 54
+        },
+        {
+          "date": "2026-07-20",
+          "store": "Kaufland",
+          "price": 0.68,
+          "price_eur": 0.35,
+          "old_price": 0.98,
+          "discount_pct": 31
+        },
+        {
+          "date": "2026-08-10",
+          "store": "Kaufland",
+          "price": 0.35,
+          "price_eur": 0.18,
+          "old_price": 0.5,
+          "discount_pct": 30
+        },
+        {
+          "date": "2026-08-17",
+          "store": "Kaufland",
+          "price": 0.1,
+          "price_eur": 0.05,
+          "old_price": 0.2,
+          "discount_pct": 50
+        },
+        {
+          "date": "2026-08-31",
+          "store": "Kaufland",
+          "price": 0.35,
+          "price_eur": 0.18,
+          "old_price": 0.5,
+          "discount_pct": 30
+        },
+        {
+          "date": "2026-09-07",
+          "store": "Kaufland",
+          "price": 0.1,
+          "price_eur": 0.05,
+          "old_price": 0.2,
+          "discount_pct": 50
+        },
+        {
+          "date": "2026-09-14",
+          "store": "Kaufland",
+          "price": 0.35,
+          "price_eur": 0.18,
+          "old_price": 0.5,
+          "discount_pct": 30
+        },
+        {
+          "date": "2026-09-28",
+          "store": "Kaufland",
+          "price": 0.1,
+          "price_eur": 0.05,
+          "old_price": 0.2,
+          "discount_pct": 50
+        },
+        {
+          "date": "2026-10-05",
+          "store": "Kaufland",
+          "price": 0.39,
+          "price_eur": 0.2,
+          "old_price": 0.5,
+          "discount_pct": 22
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.2,
+          "price_eur": 0.1,
+          "old_price": 0.4,
+          "discount_pct": 50
+        }
+      ],
+      "lowest_price": 0.1,
+      "lowest_price_date": "2026-08-17",
+      "avg_price": 0.31
+    },
+    {
+      "name": "Kubeti Ръжени кубчета различни вкусове",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "35 г",
+      "weight_grams": 35,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/02901881_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-kubeti-ръжени-кубчета-различни-вкусове-35g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.29,
+          "price_eur": 0.15,
+          "old_price": 0.38,
+          "discount_pct": 24
+        }
+      ],
+      "lowest_price": 0.29,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 0.29
+    },
+    {
+      "name": "Kubeti Ръжени кубчета",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "35 г",
+      "weight_grams": 35,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00061202_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-kubeti-ръжени-кубчета-35g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.29,
+          "price_eur": 0.15,
+          "old_price": 0.38,
+          "discount_pct": 24
+        }
+      ],
+      "lowest_price": 0.29,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 0.29
+    },
+    {
+      "name": "Горна Баня Минерална вода",
+      "store": "Kaufland",
+      "emoji": "🍺",
+      "category": "drinks",
+      "weight_raw": "1,5 л",
+      "weight_grams": 1500,
+      "shelf_life": "малотраен",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800051700013_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
+      "product_id": "kaufland-горна-баня-минерална-вода-1500g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-05-07",
+      "price_history": [
+        {
+          "date": "2026-05-07",
+          "store": "Kaufland",
+          "price": 2.99,
+          "price_eur": 1.53,
+          "old_price": 4.85,
+          "discount_pct": 38
+        },
+        {
+          "date": "2026-05-18",
+          "store": "Kaufland",
+          "price": 2.84,
+          "price_eur": 1.45,
+          "old_price": 4.85,
+          "discount_pct": 41
+        },
+        {
+          "date": "2026-06-08",
+          "store": "Kaufland",
+          "price": 2.91,
+          "price_eur": 1.49,
+          "old_price": 4.85,
+          "discount_pct": 40
+        },
+        {
+          "date": "2026-06-15",
+          "store": "Kaufland",
+          "price": 0.49,
+          "price_eur": 0.25,
+          "old_price": 0.9,
+          "discount_pct": 46
+        },
+        {
+          "date": "2026-06-22",
+          "store": "Kaufland",
+          "price": 0.68,
+          "price_eur": 0.35,
+          "old_price": 1.19,
+          "discount_pct": 43
+        },
+        {
+          "date": "2026-07-27",
+          "store": "Kaufland",
+          "price": 0.65,
+          "price_eur": 0.33,
+          "old_price": 1.19,
+          "discount_pct": 45
+        },
+        {
+          "date": "2026-08-03",
+          "store": "Kaufland",
+          "price": 2.91,
+          "price_eur": 1.49,
+          "old_price": 4.97,
+          "discount_pct": 41
+        },
+        {
+          "date": "2026-08-10",
+          "store": "Kaufland",
+          "price": 0.25,
+          "price_eur": 0.13,
+          "old_price": 0.46,
+          "discount_pct": 46
+        },
+        {
+          "date": "2026-08-24",
+          "store": "Kaufland",
+          "price": 1.55,
+          "price_eur": 0.79,
+          "old_price": 2.54,
+          "discount_pct": 39
+        },
+        {
+          "date": "2026-09-07",
+          "store": "Kaufland",
+          "price": 0.39,
+          "price_eur": 0.2,
+          "old_price": 0.61,
+          "discount_pct": 36
+        },
+        {
+          "date": "2026-09-14",
+          "store": "Kaufland",
+          "price": 1.49,
+          "price_eur": 0.76,
+          "old_price": 2.54,
+          "discount_pct": 41
+        },
+        {
+          "date": "2026-09-28",
+          "store": "Kaufland",
+          "price": 0.25,
+          "price_eur": 0.13,
+          "old_price": 0.46,
+          "discount_pct": 46
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.35,
+          "price_eur": 0.18,
+          "old_price": 0.61,
+          "discount_pct": 43
+        }
+      ],
+      "lowest_price": 0.25,
+      "lowest_price_date": "2026-08-10",
+      "avg_price": 1.37
+    },
+    {
+      "name": "ETI DARE Вафлено барче различни видове",
+      "store": "Kaufland",
+      "emoji": "🌾",
+      "category": "grain",
+      "weight_raw": "44 г",
+      "weight_grams": 44,
+      "shelf_life": "1-2г",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": true,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20959778_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-eti-dare-вафлено-барче-различни-видове-44g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.59,
+          "price_eur": 0.3,
+          "old_price": 0.68,
+          "discount_pct": 13
+        }
+      ],
+      "lowest_price": 0.59,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 0.59
+    },
+    {
+      "name": "Загорка Безалкохолна бира",
+      "store": "Kaufland",
+      "emoji": "🍺",
+      "category": "drinks",
+      "weight_raw": "0,5 л",
+      "weight_grams": 500,
+      "shelf_life": "малотраен",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800022402922_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-загорка-безалкохолна-бира-500g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.59,
+          "price_eur": 0.3,
+          "old_price": 0.94,
+          "discount_pct": 37
+        }
+      ],
+      "lowest_price": 0.59,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 0.59
+    },
+    {
+      "name": "Roshen Шоколад натурален аеро",
+      "store": "Kaufland",
+      "emoji": "🌾",
+      "category": "grain",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": "1-2г",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": true,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4823077626203_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-roshen-шоколад-натурален-аеро",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.75,
+          "price_eur": 0.38,
+          "old_price": 1.49,
+          "discount_pct": 50
+        }
+      ],
+      "lowest_price": 0.75,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 0.75
+    },
+    {
+      "name": "PEPSI/MIRINDA/7 UP/EVERVESS",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "0,33 л",
+      "weight_grams": 330,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00021729B_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
+      "product_id": "kaufland-pepsi-mirinda-7-up-evervess-330g-2",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.87,
+          "price_eur": 0.44,
+          "old_price": 1.74,
+          "discount_pct": 50
+        }
+      ],
+      "lowest_price": 0.87,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 0.87
+    },
+    {
+      "name": "Heineken Бира различни видове",
+      "store": "Kaufland",
+      "emoji": "🍺",
+      "category": "drinks",
+      "weight_raw": "0,5 л",
+      "weight_grams": 500,
+      "shelf_life": "малотраен",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800022407019_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-heineken-бира-различни-видове-500g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-05-11",
+      "price_history": [
+        {
+          "date": "2026-05-11",
+          "store": "Kaufland",
+          "price": 1.74,
+          "price_eur": 0.89,
+          "old_price": 2.5,
+          "discount_pct": 30
+        },
+        {
+          "date": "2026-07-13",
+          "store": "Kaufland",
+          "price": 11.99,
+          "price_eur": 6.13,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-08-03",
+          "store": "Kaufland",
+          "price": 1.47,
+          "price_eur": 0.75,
+          "old_price": 2.5,
+          "discount_pct": 41
+        },
+        {
+          "date": "2026-08-10",
+          "store": "Kaufland",
+          "price": 5.99,
+          "price_eur": 3.06,
+          "old_price": 10.08,
+          "discount_pct": 41
+        },
+        {
+          "date": "2026-08-31",
+          "store": "Kaufland",
+          "price": 17.8,
+          "price_eur": 9.1,
+          "old_price": 25.6,
+          "discount_pct": 30
+        },
+        {
+          "date": "2026-09-07",
+          "store": "Kaufland",
+          "price": 5.99,
+          "price_eur": 3.06,
+          "old_price": 10.08,
+          "discount_pct": 41
+        },
+        {
+          "date": "2026-09-14",
+          "store": "Kaufland",
+          "price": 6.13,
+          "price_eur": 3.13,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.89,
+          "price_eur": 0.46,
+          "old_price": 1.28,
+          "discount_pct": 30
+        }
+      ],
+      "lowest_price": 0.89,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 6.5
+    },
+    {
+      "name": "Medix Препарат за съдове Max Power",
+      "store": "Kaufland",
+      "emoji": "🧹",
+      "category": "household",
+      "weight_raw": "415 мл",
+      "weight_grams": 415,
+      "shelf_life": "1-2г",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": true,
+      "is_long_lasting": true,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800069404545_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-medix-препарат-за-съдове-max-power-415g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-07-06",
+      "price_history": [
+        {
+          "date": "2026-07-06",
+          "store": "Kaufland",
+          "price": 2.58,
+          "price_eur": 1.32,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.89,
+          "price_eur": 0.46,
+          "old_price": 1.02,
+          "discount_pct": 13
+        }
+      ],
+      "lowest_price": 0.89,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 1.74
+    },
+    {
+      "name": "PEPSI/ MIRINDA/ 7 UP",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "2 л",
+      "weight_grams": 2000,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800747001264_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-pepsi-mirinda-7-up-2000g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-04-20",
+      "price_history": [
+        {
+          "date": "2026-04-20",
+          "store": "Kaufland",
+          "price": 0.88,
+          "price_eur": 0.45,
+          "old_price": 1.7,
+          "discount_pct": 48
+        },
+        {
+          "date": "2026-05-25",
+          "store": "Kaufland",
+          "price": 2.29,
+          "price_eur": 1.17,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.99,
+          "price_eur": 0.51,
+          "old_price": 1.66,
+          "discount_pct": 40
+        }
+      ],
+      "lowest_price": 0.88,
+      "lowest_price_date": "2026-04-20",
+      "avg_price": 1.39
+    },
+    {
+      "name": "Veggie Terra Корнишони",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "680 г",
+      "weight_grams": 680,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/406_00114600_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-veggie-terra-корнишони-680g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.99,
+          "price_eur": 0.51,
+          "old_price": 1.48,
+          "discount_pct": 33
+        }
+      ],
+      "lowest_price": 0.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 0.99
+    },
+    {
+      "name": "PAPIA Кърпи за лице Platinum четирипластови",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20961663_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-papia-кърпи-за-лице-platinum-четирипластови",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.99,
+          "price_eur": 0.51,
+          "old_price": 1.49,
+          "discount_pct": 34
+        }
+      ],
+      "lowest_price": 0.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 0.99
+    },
+    {
+      "name": "Schaebens Маска лице различни видове",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "2 x 5 мл",
+      "weight_grams": 10,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4003573021874_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-schaebens-маска-лице-различни-видове-10g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 0.99,
+          "price_eur": 0.51,
+          "old_price": 1.53,
+          "discount_pct": 35
+        }
+      ],
+      "lowest_price": 0.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 0.99
+    },
+    {
+      "name": "Salza Гризини различни видове",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "220 г",
+      "weight_grams": 220,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800065723022_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-salza-гризини-различни-видове-220g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-05-07",
+      "price_history": [
+        {
+          "date": "2026-05-07",
+          "store": "Kaufland",
+          "price": 1.99,
+          "price_eur": 1.02,
+          "old_price": 2.99,
+          "discount_pct": 33
+        },
+        {
+          "date": "2026-05-18",
+          "store": "Kaufland",
+          "price": 1.96,
+          "price_eur": 1.0,
+          "old_price": 2.99,
+          "discount_pct": 34
+        },
+        {
+          "date": "2026-07-06",
+          "store": "Kaufland",
+          "price": 1.94,
+          "price_eur": 0.99,
+          "old_price": 2.99,
+          "discount_pct": 35
+        },
+        {
+          "date": "2026-08-17",
+          "store": "Kaufland",
+          "price": 0.99,
+          "price_eur": 0.51,
+          "old_price": 1.53,
+          "discount_pct": 35
+        },
+        {
+          "date": "2026-09-07",
+          "store": "Kaufland",
+          "price": 1.05,
+          "price_eur": 0.54,
+          "old_price": 1.53,
+          "discount_pct": 31
+        },
+        {
+          "date": "2026-09-20",
+          "store": "Kaufland",
+          "price": 0.99,
+          "price_eur": 0.51,
+          "old_price": 1.53,
+          "discount_pct": 35
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.05,
+          "price_eur": 0.54,
+          "old_price": 1.53,
+          "discount_pct": 31
+        }
+      ],
+      "lowest_price": 0.99,
+      "lowest_price_date": "2026-08-17",
+      "avg_price": 1.42
+    },
+    {
+      "name": "Пица различни видове",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "240 г",
+      "weight_grams": 240,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3641_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-пица-различни-видове-240g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-05-07",
+      "price_history": [
+        {
+          "date": "2026-05-07",
+          "store": "Kaufland",
+          "price": 8.98,
+          "price_eur": 4.59,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-05-25",
+          "store": "Kaufland",
+          "price": 6.98,
+          "price_eur": 3.57,
+          "old_price": 9.0,
+          "discount_pct": 22
+        },
+        {
+          "date": "2026-06-15",
+          "store": "Kaufland",
+          "price": 6.75,
+          "price_eur": 3.45,
+          "old_price": 9.0,
+          "discount_pct": 25
+        },
+        {
+          "date": "2026-07-20",
+          "store": "Kaufland",
+          "price": 7.02,
+          "price_eur": 3.59,
+          "old_price": 9.0,
+          "discount_pct": 22
+        },
+        {
+          "date": "2026-08-17",
+          "store": "Kaufland",
+          "price": 3.59,
+          "price_eur": 1.84,
+          "old_price": 4.6,
+          "discount_pct": 22
+        },
+        {
+          "date": "2026-09-20",
+          "store": "Kaufland",
+          "price": 1.09,
+          "price_eur": 0.56,
+          "old_price": 1.53,
+          "discount_pct": 29
+        },
+        {
+          "date": "2026-09-28",
+          "store": "Kaufland",
+          "price": 3.59,
+          "price_eur": 1.84,
+          "old_price": 4.6,
+          "discount_pct": 22
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.09,
+          "price_eur": 0.56,
+          "old_price": 1.53,
+          "discount_pct": 29
+        }
+      ],
+      "lowest_price": 1.09,
+      "lowest_price_date": "2026-09-20",
+      "avg_price": 4.89
+    },
+    {
+      "name": "Ариана Бира",
+      "store": "Kaufland",
+      "emoji": "🍺",
+      "category": "drinks",
+      "weight_raw": "2 л",
+      "weight_grams": 2000,
+      "shelf_life": "малотраен",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/02300325_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-ариана-бира-2000g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-05-07",
+      "price_history": [
+        {
+          "date": "2026-05-07",
+          "store": "Kaufland",
+          "price": 0.98,
+          "price_eur": 0.5,
+          "old_price": 1.62,
+          "discount_pct": 40
+        },
+        {
+          "date": "2026-05-18",
+          "store": "Kaufland",
+          "price": 2.19,
+          "price_eur": 1.12,
+          "old_price": 2.95,
+          "discount_pct": 26
+        },
+        {
+          "date": "2026-06-08",
+          "store": "Kaufland",
+          "price": 19.56,
+          "price_eur": 10.0,
+          "old_price": 32.47,
+          "discount_pct": 40
+        },
+        {
+          "date": "2026-07-27",
+          "store": "Kaufland",
+          "price": 1.94,
+          "price_eur": 0.99,
+          "old_price": 2.95,
+          "discount_pct": 34
+        },
+        {
+          "date": "2026-08-03",
+          "store": "Kaufland",
+          "price": 19.56,
+          "price_eur": 10.0,
+          "old_price": 32.47,
+          "discount_pct": 40
+        },
+        {
+          "date": "2026-08-17",
+          "store": "Kaufland",
+          "price": 1.12,
+          "price_eur": 0.57,
+          "old_price": 1.51,
+          "discount_pct": 26
+        },
+        {
+          "date": "2026-09-14",
+          "store": "Kaufland",
+          "price": 1.15,
+          "price_eur": 0.59,
+          "old_price": 1.51,
+          "discount_pct": 24
+        },
+        {
+          "date": "2026-09-20",
+          "store": "Kaufland",
+          "price": 0.5,
+          "price_eur": 0.26,
+          "old_price": 0.83,
+          "discount_pct": 40
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.09,
+          "price_eur": 0.56,
+          "old_price": 1.51,
+          "discount_pct": 28
+        }
+      ],
+      "lowest_price": 0.5,
+      "lowest_price_date": "2026-09-20",
+      "avg_price": 5.34
+    },
+    {
+      "name": "RawBrani Шот различни видове",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "100 мл",
+      "weight_grams": 100,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800502417248_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-rawbrani-шот-различни-видове-100g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.19,
+          "price_eur": 0.61,
+          "old_price": 1.59,
+          "discount_pct": 25
+        }
+      ],
+      "lowest_price": 1.19,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 1.19
+    },
+    {
+      "name": "SILVERCREST Миниформа за печене",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627906336_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-silvercrest-миниформа-за-печене",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.19,
+          "price_eur": 0.61,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 1.19,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 1.19
+    },
+    {
+      "name": "Pedigree Лакомство за куче Родео различни видове",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/5998749137109_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-pedigree-лакомство-за-куче-родео-различни-видове",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.26,
+          "price_eur": 0.64,
+          "old_price": 1.68,
+          "discount_pct": 25
+        }
+      ],
+      "lowest_price": 1.26,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 1.26
+    },
+    {
+      "name": "PARKSIDE® Комплект битове или Отвертка с битове",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627890079_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-parkside-комплект-битове-или-отвертка-с-битове",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.29,
+          "price_eur": 0.66,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 1.29,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 1.29
+    },
+    {
+      "name": "Tommi Продукт за мазане",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "500 г",
+      "weight_grams": 500,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/314_01600030_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-tommi-продукт-за-мазане-500g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-04-27",
+      "price_history": [
+        {
+          "date": "2026-04-27",
+          "store": "Kaufland",
+          "price": 2.19,
+          "price_eur": 1.12,
+          "old_price": 3.19,
+          "discount_pct": 31
+        },
+        {
+          "date": "2026-06-15",
+          "store": "Kaufland",
+          "price": 2.25,
+          "price_eur": 1.15,
+          "old_price": 3.23,
+          "discount_pct": 30
+        },
+        {
+          "date": "2026-07-27",
+          "store": "Kaufland",
+          "price": 2.13,
+          "price_eur": 1.09,
+          "old_price": 3.23,
+          "discount_pct": 34
+        },
+        {
+          "date": "2026-08-31",
+          "store": "Kaufland",
+          "price": 1.15,
+          "price_eur": 0.59,
+          "old_price": 1.65,
+          "discount_pct": 30
+        },
+        {
+          "date": "2026-09-28",
+          "store": "Kaufland",
+          "price": 0.89,
+          "price_eur": 0.46,
+          "old_price": 1.15,
+          "discount_pct": 23
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.29,
+          "price_eur": 0.66,
+          "old_price": 1.65,
+          "discount_pct": 22
+        }
+      ],
+      "lowest_price": 0.89,
+      "lowest_price_date": "2026-09-28",
+      "avg_price": 1.65
+    },
+    {
+      "name": "Doritos Царевичен чипс различни видове",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "160 г",
+      "weight_grams": 160,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/512_20604451?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-doritos-царевичен-чипс-различни-видове-160g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-05-07",
+      "price_history": [
+        {
+          "date": "2026-05-07",
+          "store": "Kaufland",
+          "price": 4.28,
+          "price_eur": 2.19,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-06-22",
+          "store": "Kaufland",
+          "price": 2.52,
+          "price_eur": 1.29,
+          "old_price": 3.99,
+          "discount_pct": 37
+        },
+        {
+          "date": "2026-08-10",
+          "store": "Kaufland",
+          "price": 2.19,
+          "price_eur": 1.12,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.29,
+          "price_eur": 0.66,
+          "old_price": 2.04,
+          "discount_pct": 37
+        }
+      ],
+      "lowest_price": 1.29,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 2.57
+    },
+    {
+      "name": "Doritos Царевичен чипс различни вкусове",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "160 г",
+      "weight_grams": 160,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20906326?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-doritos-царевичен-чипс-различни-вкусове-160g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-05-18",
+      "price_history": [
+        {
+          "date": "2026-05-18",
+          "store": "Kaufland",
+          "price": 1.98,
+          "price_eur": 1.01,
+          "old_price": 3.13,
+          "discount_pct": 37
+        },
+        {
+          "date": "2026-09-14",
+          "store": "Kaufland",
+          "price": 0.99,
+          "price_eur": 0.51,
+          "old_price": 1.6,
+          "discount_pct": 38
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.29,
+          "price_eur": 0.66,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 0.99,
+      "lowest_price_date": "2026-09-14",
+      "avg_price": 1.42
+    },
+    {
+      "name": "Argeta Птичи пастет различни видове",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "95 г",
+      "weight_grams": 95,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3838975566903_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-argeta-птичи-пастет-различни-видове-95g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.35,
+          "price_eur": 0.69,
+          "old_price": 1.82,
+          "discount_pct": 26
+        }
+      ],
+      "lowest_price": 1.35,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 1.35
+    },
+    {
+      "name": "Felix Храна за котки различни видове",
+      "store": "Kaufland",
+      "emoji": "🐾",
+      "category": "pet",
+      "weight_raw": "4 х 80 г",
+      "weight_grams": 320,
+      "shelf_life": "6м-1г",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": true,
+      "is_long_lasting": true,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00107279_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-felix-храна-за-котки-различни-видове-320g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-04-20",
+      "price_history": [
+        {
+          "date": "2026-04-20",
+          "store": "Kaufland",
+          "price": 2.78,
+          "price_eur": 1.42,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-05-18",
+          "store": "Kaufland",
+          "price": 0.98,
+          "price_eur": 0.5,
+          "old_price": 1.35,
+          "discount_pct": 27
+        },
+        {
+          "date": "2026-07-13",
+          "store": "Kaufland",
+          "price": 2.78,
+          "price_eur": 1.42,
+          "old_price": 4.5,
+          "discount_pct": 38
+        },
+        {
+          "date": "2026-08-10",
+          "store": "Kaufland",
+          "price": 1.42,
+          "price_eur": 0.73,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-09-28",
+          "store": "Kaufland",
+          "price": 0.51,
+          "price_eur": 0.26,
+          "old_price": 0.69,
+          "discount_pct": 26
+        },
+        {
+          "date": "2026-10-05",
+          "store": "Kaufland",
+          "price": 0.49,
+          "price_eur": 0.25,
+          "old_price": 0.69,
+          "discount_pct": 29
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.42,
+          "price_eur": 0.73,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 0.49,
+      "lowest_price_date": "2026-10-05",
+      "avg_price": 1.48
+    },
+    {
+      "name": "HOGARENAS Бисквити различни видове",
+      "store": "Kaufland",
+      "emoji": "🌾",
+      "category": "grain",
+      "weight_raw": "207 г",
+      "weight_grams": 207,
+      "shelf_life": "1-2г",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20828710_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-hogarenas-бисквити-различни-видове-207g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.46,
+          "price_eur": 0.75,
+          "old_price": 1.94,
+          "discount_pct": 25
+        }
+      ],
+      "lowest_price": 1.46,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 1.46
+    },
+    {
+      "name": "SILVERCREST Кухненски помощници различни видове",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627952463_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-silvercrest-кухненски-помощници-различни-видове",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.49,
+          "price_eur": 0.76,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 1.49,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 1.49
+    },
+    {
+      "name": "W5 Закачалки 3 бр.",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627906428_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-w5-закачалки-3-бр",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.49,
+          "price_eur": 0.76,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 1.49,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 1.49
+    },
+    {
+      "name": "Goldies Пшеничен сухар 255 г",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "255 г",
+      "weight_grams": 255,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20270553_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-goldies-пшеничен-сухар-255-г-255g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.49,
+          "price_eur": 0.76,
+          "old_price": 1.87,
+          "discount_pct": 20
+        }
+      ],
+      "lowest_price": 1.49,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 1.49
+    },
+    {
+      "name": "Крео Русенско варено",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "180 г",
+      "weight_grams": 180,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800078008543_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-крео-русенско-варено-180g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-05-07",
+      "price_history": [
+        {
+          "date": "2026-05-07",
+          "store": "Kaufland",
+          "price": 1.49,
+          "price_eur": 0.76,
+          "old_price": 2.99,
+          "discount_pct": 50
+        },
+        {
+          "date": "2026-05-25",
+          "store": "Kaufland",
+          "price": 1.74,
+          "price_eur": 0.89,
+          "old_price": 3.48,
+          "discount_pct": 50
+        },
+        {
+          "date": "2026-06-15",
+          "store": "Kaufland",
+          "price": 3.48,
+          "price_eur": 1.78,
+          "old_price": 6.96,
+          "discount_pct": 50
+        },
+        {
+          "date": "2026-07-13",
+          "store": "Kaufland",
+          "price": 1.74,
+          "price_eur": 0.89,
+          "old_price": 3.48,
+          "discount_pct": 50
+        },
+        {
+          "date": "2026-08-17",
+          "store": "Kaufland",
+          "price": 0.75,
+          "price_eur": 0.38,
+          "old_price": 1.53,
+          "discount_pct": 51
+        },
+        {
+          "date": "2026-09-07",
+          "store": "Kaufland",
+          "price": 0.89,
+          "price_eur": 0.46,
+          "old_price": 1.78,
+          "discount_pct": 50
+        },
+        {
+          "date": "2026-09-14",
+          "store": "Kaufland",
+          "price": 0.75,
+          "price_eur": 0.38,
+          "old_price": 1.53,
+          "discount_pct": 51
+        },
+        {
+          "date": "2026-09-28",
+          "store": "Kaufland",
+          "price": 0.89,
+          "price_eur": 0.46,
+          "old_price": 1.78,
+          "discount_pct": 50
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.53,
+          "price_eur": 0.78,
+          "old_price": 3.06,
+          "discount_pct": 50
+        }
+      ],
+      "lowest_price": 0.75,
+      "lowest_price_date": "2026-08-17",
+      "avg_price": 1.47
+    },
+    {
+      "name": "Whiskas Суха храна за котки различни видове",
+      "store": "Kaufland",
+      "emoji": "🐾",
+      "category": "pet",
+      "weight_raw": "300 г",
+      "weight_grams": 300,
+      "shelf_life": "6м-1г",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": true,
+      "is_long_lasting": true,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/5900951014055_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-whiskas-суха-храна-за-котки-различни-видове-300g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-05-11",
+      "price_history": [
+        {
+          "date": "2026-05-11",
+          "store": "Kaufland",
+          "price": 2.89,
+          "price_eur": 1.48,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-05-18",
+          "store": "Kaufland",
+          "price": 12.48,
+          "price_eur": 6.38,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-05-25",
+          "store": "Kaufland",
+          "price": 2.99,
+          "price_eur": 1.53,
+          "old_price": 3.99,
+          "discount_pct": 25
+        },
+        {
+          "date": "2026-06-01",
+          "store": "Kaufland",
+          "price": 12.48,
+          "price_eur": 6.38,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-06-08",
+          "store": "Kaufland",
+          "price": 2.89,
+          "price_eur": 1.48,
+          "old_price": 3.99,
+          "discount_pct": 28
+        },
+        {
+          "date": "2026-06-15",
+          "store": "Kaufland",
+          "price": 12.48,
+          "price_eur": 6.38,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-06-29",
+          "store": "Kaufland",
+          "price": 2.89,
+          "price_eur": 1.48,
+          "old_price": 3.99,
+          "discount_pct": 28
+        },
+        {
+          "date": "2026-07-06",
+          "store": "Kaufland",
+          "price": 12.48,
+          "price_eur": 6.38,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-07-13",
+          "store": "Kaufland",
+          "price": 2.89,
+          "price_eur": 1.48,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-07-27",
+          "store": "Kaufland",
+          "price": 12.48,
+          "price_eur": 6.38,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-08-03",
+          "store": "Kaufland",
+          "price": 2.89,
+          "price_eur": 1.48,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-08-24",
+          "store": "Kaufland",
+          "price": 1.48,
+          "price_eur": 0.76,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-09-20",
+          "store": "Kaufland",
+          "price": 6.39,
+          "price_eur": 3.27,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.55,
+          "price_eur": 0.79,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 1.48,
+      "lowest_price_date": "2026-08-24",
+      "avg_price": 6.38
+    },
+    {
+      "name": "Whiskas Суха храна за котка",
+      "store": "Kaufland",
+      "emoji": "🐾",
+      "category": "pet",
+      "weight_raw": "300 г",
+      "weight_grams": 300,
+      "shelf_life": "6м-1г",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": true,
+      "is_long_lasting": true,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/03400296_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-whiskas-суха-храна-за-котка-300g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-05-11",
+      "price_history": [
+        {
+          "date": "2026-05-11",
+          "store": "Kaufland",
+          "price": 2.89,
+          "price_eur": 1.48,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-06-01",
+          "store": "Kaufland",
+          "price": 12.48,
+          "price_eur": 6.38,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-07-13",
+          "store": "Kaufland",
+          "price": 2.89,
+          "price_eur": 1.48,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-07-27",
+          "store": "Kaufland",
+          "price": 12.48,
+          "price_eur": 6.38,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-08-24",
+          "store": "Kaufland",
+          "price": 1.48,
+          "price_eur": 0.76,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-09-20",
+          "store": "Kaufland",
+          "price": 6.39,
+          "price_eur": 3.27,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.55,
+          "price_eur": 0.79,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 1.48,
+      "lowest_price_date": "2026-08-24",
+      "avg_price": 5.74
+    },
+    {
+      "name": "W5 Дръжка за моп",
+      "store": "Kaufland",
+      "emoji": "🧹",
+      "category": "household",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": "1-2г",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": true,
+      "is_long_lasting": true,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627866173_BG_P",
+      "product_id": "kaufland-w5-дръжка-за-моп",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.59,
+          "price_eur": 0.81,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 1.59,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 1.59
+    },
+    {
+      "name": "W5 Четка за прах",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627866944_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-w5-четка-за-прах",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.59,
+          "price_eur": 0.81,
+          "old_price": 2.39,
+          "discount_pct": 33
+        }
+      ],
+      "lowest_price": 1.59,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 1.59
+    },
+    {
+      "name": "THOMY Сос Холандез",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "250 мл",
+      "weight_grams": 250,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20035090_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-thomy-сос-холандез-250g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.59,
+          "price_eur": 0.81,
+          "old_price": 2.24,
+          "discount_pct": 29
+        }
+      ],
+      "lowest_price": 1.59,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 1.59
+    },
+    {
+      "name": "Detelina's Микс Витал",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "80 г",
+      "weight_grams": 80,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800139115104_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-detelina-s-микс-витал-80g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.6,
+          "price_eur": 0.82,
+          "old_price": 2.14,
+          "discount_pct": 25
+        }
+      ],
+      "lowest_price": 1.6,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 1.6
+    },
+    {
+      "name": "Dante Храна за кучета различни видове",
+      "store": "Kaufland",
+      "emoji": "🐾",
+      "category": "pet",
+      "weight_raw": "1240 г",
+      "weight_grams": 1240,
+      "shelf_life": "6м-1г",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": true,
+      "is_long_lasting": true,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/8595606411029_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-dante-храна-за-кучета-различни-видове-1240g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-05-11",
+      "price_history": [
+        {
+          "date": "2026-05-11",
+          "store": "Kaufland",
+          "price": 1.41,
+          "price_eur": 0.72,
+          "old_price": 1.78,
+          "discount_pct": 21
+        },
+        {
+          "date": "2026-05-25",
+          "store": "Kaufland",
+          "price": 1.25,
+          "price_eur": 0.64,
+          "old_price": 1.78,
+          "discount_pct": 30
+        },
+        {
+          "date": "2026-06-01",
+          "store": "Kaufland",
+          "price": 1.41,
+          "price_eur": 0.72,
+          "old_price": 1.78,
+          "discount_pct": 21
+        },
+        {
+          "date": "2026-06-08",
+          "store": "Kaufland",
+          "price": 2.78,
+          "price_eur": 1.42,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-06-15",
+          "store": "Kaufland",
+          "price": 1.25,
+          "price_eur": 0.64,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-06-29",
+          "store": "Kaufland",
+          "price": 2.78,
+          "price_eur": 1.42,
+          "old_price": 3.95,
+          "discount_pct": 30
+        },
+        {
+          "date": "2026-07-13",
+          "store": "Kaufland",
+          "price": 1.25,
+          "price_eur": 0.64,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-07-20",
+          "store": "Kaufland",
+          "price": 2.78,
+          "price_eur": 1.42,
+          "old_price": 3.95,
+          "discount_pct": 30
+        },
+        {
+          "date": "2026-08-03",
+          "store": "Kaufland",
+          "price": 1.25,
+          "price_eur": 0.64,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-08-10",
+          "store": "Kaufland",
+          "price": 1.39,
+          "price_eur": 0.71,
+          "old_price": 2.02,
+          "discount_pct": 31
+        },
+        {
+          "date": "2026-08-17",
+          "store": "Kaufland",
+          "price": 1.51,
+          "price_eur": 0.77,
+          "old_price": 2.02,
+          "discount_pct": 25
+        },
+        {
+          "date": "2026-08-24",
+          "store": "Kaufland",
+          "price": 1.49,
+          "price_eur": 0.76,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-09-20",
+          "store": "Kaufland",
+          "price": 0.72,
+          "price_eur": 0.37,
+          "old_price": 0.91,
+          "discount_pct": 21
+        },
+        {
+          "date": "2026-09-28",
+          "store": "Kaufland",
+          "price": 1.39,
+          "price_eur": 0.71,
+          "old_price": 2.02,
+          "discount_pct": 31
+        },
+        {
+          "date": "2026-10-05",
+          "store": "Kaufland",
+          "price": 0.65,
+          "price_eur": 0.33,
+          "old_price": 0.91,
+          "discount_pct": 29
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.61,
+          "price_eur": 0.82,
+          "old_price": 2.02,
+          "discount_pct": 20
+        }
+      ],
+      "lowest_price": 0.65,
+      "lowest_price_date": "2026-10-05",
+      "avg_price": 1.56
+    },
+    {
+      "name": "Мираж Тунквани бисквити различни видове",
+      "store": "Kaufland",
+      "emoji": "🌾",
+      "category": "grain",
+      "weight_raw": "245 г",
+      "weight_grams": 245,
+      "shelf_life": "1-2г",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/654_20854371?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-мираж-тунквани-бисквити-различни-видове-245g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-05-07",
+      "price_history": [
+        {
+          "date": "2026-05-07",
+          "store": "Kaufland",
+          "price": 2.29,
+          "price_eur": 1.17,
+          "old_price": 3.38,
+          "discount_pct": 32
+        },
+        {
+          "date": "2026-09-20",
+          "store": "Kaufland",
+          "price": 1.35,
+          "price_eur": 0.69,
+          "old_price": 1.88,
+          "discount_pct": 28
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.65,
+          "price_eur": 0.84,
+          "old_price": 2.36,
+          "discount_pct": 30
+        }
+      ],
+      "lowest_price": 1.35,
+      "lowest_price_date": "2026-09-20",
+      "avg_price": 1.76
+    },
+    {
+      "name": "Loacker Вафли различни видове",
+      "store": "Kaufland",
+      "emoji": "🌾",
+      "category": "grain",
+      "weight_raw": "175 г",
+      "weight_grams": 175,
+      "shelf_life": "1-2г",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20649551_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-loacker-вафли-различни-видове-175g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.68,
+          "price_eur": 0.86,
+          "old_price": 2.24,
+          "discount_pct": 25
+        }
+      ],
+      "lowest_price": 1.68,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 1.68
+    },
+    {
+      "name": "Milka/ Oreo/ Toblerone Сладолед различни вкусове",
+      "store": "Kaufland",
+      "emoji": "🥛",
+      "category": "dairy",
+      "weight_raw": "94 г",
+      "weight_grams": 94,
+      "shelf_life": "малотраен",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00098041_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-milka-oreo-toblerone-сладолед-различни-вкусове-94g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-05-07",
+      "price_history": [
+        {
+          "date": "2026-05-07",
+          "store": "Kaufland",
+          "price": 11.13,
+          "price_eur": 5.69,
+          "old_price": 16.9,
+          "discount_pct": 34
+        },
+        {
+          "date": "2026-05-18",
+          "store": "Kaufland",
+          "price": 3.91,
+          "price_eur": 2.0,
+          "old_price": 5.98,
+          "discount_pct": 35
+        },
+        {
+          "date": "2026-05-25",
+          "store": "Kaufland",
+          "price": 11.72,
+          "price_eur": 5.99,
+          "old_price": 16.9,
+          "discount_pct": 31
+        },
+        {
+          "date": "2026-06-29",
+          "store": "Kaufland",
+          "price": 10.35,
+          "price_eur": 5.29,
+          "old_price": 16.9,
+          "discount_pct": 39
+        },
+        {
+          "date": "2026-07-13",
+          "store": "Kaufland",
+          "price": 2.91,
+          "price_eur": 1.49,
+          "old_price": 5.98,
+          "discount_pct": 51
+        },
+        {
+          "date": "2026-08-13",
+          "store": "Kaufland",
+          "price": 1.69,
+          "price_eur": 0.86,
+          "old_price": 3.06,
+          "discount_pct": 45
+        },
+        {
+          "date": "2026-09-14",
+          "store": "Kaufland",
+          "price": 1.59,
+          "price_eur": 0.81,
+          "old_price": 3.06,
+          "discount_pct": 48
+        },
+        {
+          "date": "2026-09-28",
+          "store": "Kaufland",
+          "price": 4.99,
+          "price_eur": 2.55,
+          "old_price": 8.64,
+          "discount_pct": 42
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.69,
+          "price_eur": 0.86,
+          "old_price": 3.06,
+          "discount_pct": 45
+        }
+      ],
+      "lowest_price": 1.59,
+      "lowest_price_date": "2026-09-14",
+      "avg_price": 5.55
+    },
+    {
+      "name": "Toblerone Натурален шоколад",
+      "store": "Kaufland",
+      "emoji": "🌾",
+      "category": "grain",
+      "weight_raw": "100 г",
+      "weight_grams": 100,
+      "shelf_life": "1-2г",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": true,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/7614500010617_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-toblerone-натурален-шоколад-100g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.69,
+          "price_eur": 0.86,
+          "old_price": 2.81,
+          "discount_pct": 40
+        }
+      ],
+      "lowest_price": 1.69,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 1.69
+    },
+    {
+      "name": "Кутия с капак 5,5 л",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "5,5 л",
+      "weight_grams": 5500,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4063367446825_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-кутия-с-капак-5-5-л-5500g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.69,
+          "price_eur": 0.86,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 1.69,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 1.69
+    },
+    {
+      "name": "Цима Конфитюр различни вкусове",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "360 г",
+      "weight_grams": 360,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800040800403_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-цима-конфитюр-различни-вкусове-360g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.74,
+          "price_eur": 0.89,
+          "old_price": 2.32,
+          "discount_pct": 25
+        }
+      ],
+      "lowest_price": 1.74,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 1.74
+    },
+    {
+      "name": "Familia Сладолед различни вкусове",
+      "store": "Kaufland",
+      "emoji": "🥛",
+      "category": "dairy",
+      "weight_raw": "345 г",
+      "weight_grams": 345,
+      "shelf_life": "малотраен",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800029130989_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-familia-сладолед-различни-вкусове-345g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-05-07",
+      "price_history": [
+        {
+          "date": "2026-05-07",
+          "store": "Kaufland",
+          "price": 4.99,
+          "price_eur": 2.55,
+          "old_price": 7.49,
+          "discount_pct": 33
+        },
+        {
+          "date": "2026-05-18",
+          "store": "Kaufland",
+          "price": 4.87,
+          "price_eur": 2.49,
+          "old_price": 7.49,
+          "discount_pct": 35
+        },
+        {
+          "date": "2026-06-01",
+          "store": "Kaufland",
+          "price": 4.99,
+          "price_eur": 2.55,
+          "old_price": 7.49,
+          "discount_pct": 33
+        },
+        {
+          "date": "2026-06-19",
+          "store": "Kaufland",
+          "price": 4.67,
+          "price_eur": 2.39,
+          "old_price": 7.49,
+          "discount_pct": 38
+        },
+        {
+          "date": "2026-06-22",
+          "store": "Kaufland",
+          "price": 1.35,
+          "price_eur": 0.69,
+          "old_price": 1.99,
+          "discount_pct": 32
+        },
+        {
+          "date": "2026-07-02",
+          "store": "Kaufland",
+          "price": 4.48,
+          "price_eur": 2.29,
+          "old_price": 7.49,
+          "discount_pct": 40
+        },
+        {
+          "date": "2026-07-09",
+          "store": "Kaufland",
+          "price": 3.31,
+          "price_eur": 1.69,
+          "old_price": 6.98,
+          "discount_pct": 53
+        },
+        {
+          "date": "2026-07-13",
+          "store": "Kaufland",
+          "price": 3.89,
+          "price_eur": 1.99,
+          "old_price": 7.49,
+          "discount_pct": 48
+        },
+        {
+          "date": "2026-07-20",
+          "store": "Kaufland",
+          "price": 3.31,
+          "price_eur": 1.69,
+          "old_price": 6.98,
+          "discount_pct": 53
+        },
+        {
+          "date": "2026-07-27",
+          "store": "Kaufland",
+          "price": 7.49,
+          "price_eur": 3.83,
+          "old_price": 14.98,
+          "discount_pct": 50
+        },
+        {
+          "date": "2026-08-03",
+          "store": "Kaufland",
+          "price": 3.42,
+          "price_eur": 1.75,
+          "old_price": 6.98,
+          "discount_pct": 51
+        },
+        {
+          "date": "2026-08-10",
+          "store": "Kaufland",
+          "price": 1.89,
+          "price_eur": 0.97,
+          "old_price": 3.83,
+          "discount_pct": 51
+        },
+        {
+          "date": "2026-08-17",
+          "store": "Kaufland",
+          "price": 1.75,
+          "price_eur": 0.89,
+          "old_price": 3.57,
+          "discount_pct": 51
+        },
+        {
+          "date": "2026-08-24",
+          "store": "Kaufland",
+          "price": 1.89,
+          "price_eur": 0.97,
+          "old_price": 3.83,
+          "discount_pct": 51
+        },
+        {
+          "date": "2026-09-03",
+          "store": "Kaufland",
+          "price": 1.75,
+          "price_eur": 0.89,
+          "old_price": 3.57,
+          "discount_pct": 51
+        },
+        {
+          "date": "2026-09-28",
+          "store": "Kaufland",
+          "price": 1.99,
+          "price_eur": 1.02,
+          "old_price": 3.83,
+          "discount_pct": 48
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.89,
+          "price_eur": 0.97,
+          "old_price": 3.57,
+          "discount_pct": 47
+        }
+      ],
+      "lowest_price": 1.35,
+      "lowest_price_date": "2026-06-22",
+      "avg_price": 3.41
+    },
+    {
+      "name": "БРЕЙ! Компот различни видове",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "680 г",
+      "weight_grams": 680,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20969482?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-бреи-компот-различни-видове-680g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.89,
+          "price_eur": 0.97,
+          "old_price": 2.19,
+          "discount_pct": 14
+        }
+      ],
+      "lowest_price": 1.89,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 1.89
+    },
+    {
+      "name": "PARMALAT BOBBASTIC Bubble drink на млечна основа",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "300 г",
+      "weight_grams": 300,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/286_2020987970_20Parmalat_20_D0_9D_D0_B0_D0_BF_D0_B8_D1_82_D0_BA_D0_B0_20Bobbastic_20_D0_BB_D0_B0_D0_B9_D0_BC_20-DTEn1pMuEY?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-parmalat-bobbastic-bubble-drink-на-млечна-основа-300g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.95,
+          "price_eur": 1.0,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 1.95,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 1.95
+    },
+    {
+      "name": "Amoretta Шоколадови бонбони различни видове",
+      "store": "Kaufland",
+      "emoji": "🌾",
+      "category": "grain",
+      "weight_raw": "109 г",
+      "weight_grams": 109,
+      "shelf_life": "1-2г",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20760329_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-amoretta-шоколадови-бонбони-различни-видове-109g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.96,
+          "price_eur": 1.0,
+          "old_price": 2.81,
+          "discount_pct": 30
+        }
+      ],
+      "lowest_price": 1.96,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 1.96
+    },
+    {
+      "name": "AREON Ароматизатор X Cards",
+      "store": "Kaufland",
+      "emoji": "🍺",
+      "category": "drinks",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": "малотраен",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20929431_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
+      "product_id": "kaufland-areon-ароматизатор-x-cards",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.99,
+          "price_eur": 1.02,
+          "old_price": 3.49,
+          "discount_pct": 43
+        }
+      ],
+      "lowest_price": 1.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 1.99
+    },
+    {
+      "name": "Merci Шоколад различни видове",
+      "store": "Kaufland",
+      "emoji": "🌾",
+      "category": "grain",
+      "weight_raw": "100 г",
+      "weight_grams": 100,
+      "shelf_life": "1-2г",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4014400914252_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-merci-шоколад-различни-видове-100g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.99,
+          "price_eur": 1.02,
+          "old_price": 3.22,
+          "discount_pct": 38
+        }
+      ],
+      "lowest_price": 1.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 1.99
+    },
+    {
+      "name": "PAPADOPOULOS Бисквити Digestive",
+      "store": "Kaufland",
+      "emoji": "🌾",
+      "category": "grain",
+      "weight_raw": "200 г",
+      "weight_grams": 200,
+      "shelf_life": "1-2г",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00100953_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-papadopoulos-бисквити-digestive-200g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.99,
+          "price_eur": 1.02,
+          "old_price": 2.31,
+          "discount_pct": 14
+        }
+      ],
+      "lowest_price": 1.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 1.99
+    },
+    {
+      "name": "K-CLASSIC Мрежа за пране",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627639647_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-k-classic-мрежа-за-пране",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.99,
+          "price_eur": 1.02,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 1.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 1.99
+    },
+    {
+      "name": "K-CLASSIC Мрежа за пране различни видове",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627639630_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-k-classic-мрежа-за-пране-различни-видове",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 1.99,
+          "price_eur": 1.02,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 1.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 1.99
+    },
+    {
+      "name": "Schär Бисквити с шоколад без глутен",
+      "store": "Kaufland",
+      "emoji": "🌾",
+      "category": "grain",
+      "weight_raw": "150 г",
+      "weight_grams": 150,
+      "shelf_life": "1-2г",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/654_00059415?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-schar-бисквити-с-шоколад-без-глутен-150g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.09,
+          "price_eur": 1.07,
+          "old_price": 2.55,
+          "discount_pct": 18
+        }
+      ],
+      "lowest_price": 2.09,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 2.09
+    },
+    {
+      "name": "Balkan Чабата различни видове",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "260 г",
+      "weight_grams": 260,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20658560_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-balkan-чабата-различни-видове-260g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.19,
+          "price_eur": 1.12,
+          "old_price": 2.79,
+          "discount_pct": 22
+        }
+      ],
+      "lowest_price": 2.19,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 2.19
+    },
+    {
+      "name": "Царевец Обикновени вафли",
+      "store": "Kaufland",
+      "emoji": "🌾",
+      "category": "grain",
+      "weight_raw": "504 г",
+      "weight_grams": 504,
+      "shelf_life": "1-2г",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800061600907_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-царевец-обикновени-вафли-504g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-05-11",
+      "price_history": [
+        {
+          "date": "2026-05-11",
+          "store": "Kaufland",
+          "price": 3.48,
+          "price_eur": 1.78,
+          "old_price": 6.98,
+          "discount_pct": 50
+        },
+        {
+          "date": "2026-05-18",
+          "store": "Kaufland",
+          "price": 6.98,
+          "price_eur": 3.57,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-06-15",
+          "store": "Kaufland",
+          "price": 3.48,
+          "price_eur": 1.78,
+          "old_price": 6.98,
+          "discount_pct": 50
+        },
+        {
+          "date": "2026-07-13",
+          "store": "Kaufland",
+          "price": 7.8,
+          "price_eur": 3.99,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-07-27",
+          "store": "Kaufland",
+          "price": 3.48,
+          "price_eur": 1.78,
+          "old_price": 6.98,
+          "discount_pct": 50
+        },
+        {
+          "date": "2026-08-10",
+          "store": "Kaufland",
+          "price": 3.99,
+          "price_eur": 2.04,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-08-31",
+          "store": "Kaufland",
+          "price": 1.79,
+          "price_eur": 0.92,
+          "old_price": 3.83,
+          "discount_pct": 53
+        },
+        {
+          "date": "2026-09-20",
+          "store": "Kaufland",
+          "price": 3.57,
+          "price_eur": 1.83,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.19,
+          "price_eur": 1.12,
+          "old_price": 3.83,
+          "discount_pct": 43
+        }
+      ],
+      "lowest_price": 1.79,
+      "lowest_price_date": "2026-08-31",
+      "avg_price": 4.08
+    },
+    {
+      "name": "Тандем Бирени наденички",
+      "store": "Kaufland",
+      "emoji": "🍺",
+      "category": "drinks",
+      "weight_raw": "320 г",
+      "weight_grams": 320,
+      "shelf_life": "малотраен",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20937102_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-тандем-бирени-наденички-320g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.24,
+          "price_eur": 1.15,
+          "old_price": 2.99,
+          "discount_pct": 25
+        }
+      ],
+      "lowest_price": 2.24,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 2.24
+    },
+    {
+      "name": "Cima Конфитюр",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "360 г",
+      "weight_grams": 360,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800040800328_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-cima-конфитюр-360g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.25,
+          "price_eur": 1.15,
+          "old_price": 3.0,
+          "discount_pct": 25
+        }
+      ],
+      "lowest_price": 2.25,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 2.25
+    },
+    {
+      "name": "Gourmet Gold Храна за котки различни видове",
+      "store": "Kaufland",
+      "emoji": "🐾",
+      "category": "pet",
+      "weight_raw": "4 х 85 г",
+      "weight_grams": 340,
+      "shelf_life": "6м-1г",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": true,
+      "is_long_lasting": true,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/03400930_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-gourmet-gold-храна-за-котки-различни-видове-340g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-05-07",
+      "price_history": [
+        {
+          "date": "2026-05-07",
+          "store": "Kaufland",
+          "price": 1.19,
+          "price_eur": 0.61,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-05-18",
+          "store": "Kaufland",
+          "price": 4.48,
+          "price_eur": 2.29,
+          "old_price": 6.49,
+          "discount_pct": 31
+        },
+        {
+          "date": "2026-05-25",
+          "store": "Kaufland",
+          "price": 1.27,
+          "price_eur": 0.65,
+          "old_price": 1.68,
+          "discount_pct": 24
+        },
+        {
+          "date": "2026-06-08",
+          "store": "Kaufland",
+          "price": 4.48,
+          "price_eur": 2.29,
+          "old_price": 6.49,
+          "discount_pct": 31
+        },
+        {
+          "date": "2026-06-15",
+          "store": "Kaufland",
+          "price": 1.27,
+          "price_eur": 0.65,
+          "old_price": 1.68,
+          "discount_pct": 24
+        },
+        {
+          "date": "2026-06-29",
+          "store": "Kaufland",
+          "price": 4.48,
+          "price_eur": 2.29,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-07-06",
+          "store": "Kaufland",
+          "price": 1.15,
+          "price_eur": 0.59,
+          "old_price": 1.68,
+          "discount_pct": 32
+        },
+        {
+          "date": "2026-07-20",
+          "store": "Kaufland",
+          "price": 4.48,
+          "price_eur": 2.29,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-07-27",
+          "store": "Kaufland",
+          "price": 1.15,
+          "price_eur": 0.59,
+          "old_price": 1.68,
+          "discount_pct": 32
+        },
+        {
+          "date": "2026-08-03",
+          "store": "Kaufland",
+          "price": 4.48,
+          "price_eur": 2.29,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-08-17",
+          "store": "Kaufland",
+          "price": 0.64,
+          "price_eur": 0.33,
+          "old_price": 0.86,
+          "discount_pct": 26
+        },
+        {
+          "date": "2026-08-24",
+          "store": "Kaufland",
+          "price": 0.65,
+          "price_eur": 0.33,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-08-31",
+          "store": "Kaufland",
+          "price": 2.29,
+          "price_eur": 1.17,
+          "old_price": 3.32,
+          "discount_pct": 31
+        },
+        {
+          "date": "2026-09-14",
+          "store": "Kaufland",
+          "price": 0.65,
+          "price_eur": 0.33,
+          "old_price": 0.86,
+          "discount_pct": 24
+        },
+        {
+          "date": "2026-10-05",
+          "store": "Kaufland",
+          "price": 0.59,
+          "price_eur": 0.3,
+          "old_price": 0.86,
+          "discount_pct": 31
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.29,
+          "price_eur": 1.17,
+          "old_price": 3.32,
+          "discount_pct": 31
+        }
+      ],
+      "lowest_price": 0.59,
+      "lowest_price_date": "2026-10-05",
+      "avg_price": 2.22
+    },
+    {
+      "name": "SWIFT Почистващи кърпи различни видове",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20977058_614?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-swift-почистващи-кърпи-различни-видове",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.39,
+          "price_eur": 1.22,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 2.39,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 2.39
+    },
+    {
+      "name": "ROSHEN Шоколадови бонбони различни видове",
+      "store": "Kaufland",
+      "emoji": "🌾",
+      "category": "grain",
+      "weight_raw": "154 г",
+      "weight_grams": 154,
+      "shelf_life": "1-2г",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20037790_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-roshen-шоколадови-бонбони-различни-видове-154g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-05-18",
+      "price_history": [
+        {
+          "date": "2026-05-18",
+          "store": "Kaufland",
+          "price": 4.87,
+          "price_eur": 2.49,
+          "old_price": 8.0,
+          "discount_pct": 39
+        },
+        {
+          "date": "2026-05-25",
+          "store": "Kaufland",
+          "price": 5.65,
+          "price_eur": 2.89,
+          "old_price": 7.98,
+          "discount_pct": 29
+        },
+        {
+          "date": "2026-09-20",
+          "store": "Kaufland",
+          "price": 2.49,
+          "price_eur": 1.27,
+          "old_price": 4.09,
+          "discount_pct": 39
+        },
+        {
+          "date": "2026-09-28",
+          "store": "Kaufland",
+          "price": 4.85,
+          "price_eur": 2.48,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.49,
+          "price_eur": 1.27,
+          "old_price": 4.09,
+          "discount_pct": 39
+        }
+      ],
+      "lowest_price": 2.49,
+      "lowest_price_date": "2026-09-20",
+      "avg_price": 4.07
+    },
+    {
+      "name": "SILVERCREST Чаша 380 мл",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "380 мл",
+      "weight_grams": 380,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627907722_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-silvercrest-чаша-380-мл-380g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.49,
+          "price_eur": 1.27,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 2.49,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 2.49
+    },
+    {
+      "name": "PARKSIDE® Текстилна лента различни видове",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": true,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627414459_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-parkside-текстилна-лента-различни-видове",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.49,
+          "price_eur": 1.27,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 2.49,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 2.49
+    },
+    {
+      "name": "Сгъваема касетка 51 x 34 x 23 см",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/5900791000010_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-сгъваема-касетка-51-x-34-x-23-см",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.55,
+          "price_eur": 1.3,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 2.55,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 2.55
+    },
+    {
+      "name": "W5 Четка",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627707346_BG_P?JGstbGVnYWN5LW9uc2l0ZS0xJA==",
+      "product_id": "kaufland-w5-четка",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.55,
+          "price_eur": 1.3,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 2.55,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 2.55
+    },
+    {
+      "name": "Nivea Дезодорант различни видове",
+      "store": "Kaufland",
+      "emoji": "🧴",
+      "category": "hygiene",
+      "weight_raw": "150 мл",
+      "weight_grams": 150,
+      "shelf_life": "1-2г",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/04800771_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-nivea-дезодорант-различни-видове-150g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-04-20",
+      "price_history": [
+        {
+          "date": "2026-04-20",
+          "store": "Kaufland",
+          "price": 6.98,
+          "price_eur": 3.57,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-05-18",
+          "store": "Kaufland",
+          "price": 5.48,
+          "price_eur": 2.8,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-06-08",
+          "store": "Kaufland",
+          "price": 6.98,
+          "price_eur": 3.57,
+          "old_price": 8.19,
+          "discount_pct": 15
+        },
+        {
+          "date": "2026-06-15",
+          "store": "Kaufland",
+          "price": 5.46,
+          "price_eur": 2.79,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-06-29",
+          "store": "Kaufland",
+          "price": 7.02,
+          "price_eur": 3.59,
+          "old_price": 8.19,
+          "discount_pct": 14
+        },
+        {
+          "date": "2026-07-20",
+          "store": "Kaufland",
+          "price": 5.46,
+          "price_eur": 2.79,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-08-17",
+          "store": "Kaufland",
+          "price": 2.79,
+          "price_eur": 1.43,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-08-27",
+          "store": "Kaufland",
+          "price": 3.39,
+          "price_eur": 1.73,
+          "old_price": 4.19,
+          "discount_pct": 19
+        },
+        {
+          "date": "2026-09-14",
+          "store": "Kaufland",
+          "price": 2.79,
+          "price_eur": 1.43,
+          "old_price": 3.2,
+          "discount_pct": 13
+        },
+        {
+          "date": "2026-09-20",
+          "store": "Kaufland",
+          "price": 3.59,
+          "price_eur": 1.84,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.89,
+          "price_eur": 1.48,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 2.79,
+      "lowest_price_date": "2026-08-17",
+      "avg_price": 4.8
+    },
+    {
+      "name": "Nivea Дезодорант, рол он или стик различни видове",
+      "store": "Kaufland",
+      "emoji": "🧴",
+      "category": "hygiene",
+      "weight_raw": "150 мл",
+      "weight_grams": 150,
+      "shelf_life": "1-2г",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/9005800400198_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-nivea-дезодорант-рол-он-или-стик-различни-видове-150g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-05-18",
+      "price_history": [
+        {
+          "date": "2026-05-18",
+          "store": "Kaufland",
+          "price": 5.48,
+          "price_eur": 2.8,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-06-15",
+          "store": "Kaufland",
+          "price": 5.46,
+          "price_eur": 2.79,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-08-17",
+          "store": "Kaufland",
+          "price": 2.79,
+          "price_eur": 1.43,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.89,
+          "price_eur": 1.48,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 2.79,
+      "lowest_price_date": "2026-08-17",
+      "avg_price": 4.16
+    },
+    {
+      "name": "Chante Clair Универсален обезмаслител",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "750 мл",
+      "weight_grams": 750,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": true,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/8015194525149_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-chante-clair-универсален-обезмаслител-750g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.89,
+          "price_eur": 1.48,
+          "old_price": 3.57,
+          "discount_pct": 19
+        }
+      ],
+      "lowest_price": 2.89,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 2.89
+    },
+    {
+      "name": "Nestle Зърнена закуска различни видове",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "480 г",
+      "weight_grams": 480,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/04000310_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-nestle-зърнена-закуска-различни-видове-480g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-04-20",
+      "price_history": [
+        {
+          "date": "2026-04-20",
+          "store": "Kaufland",
+          "price": 6.75,
+          "price_eur": 3.45,
+          "old_price": 9.0,
+          "discount_pct": 25
+        },
+        {
+          "date": "2026-04-27",
+          "store": "Kaufland",
+          "price": 5.85,
+          "price_eur": 2.99,
+          "old_price": 9.0,
+          "discount_pct": 35
+        },
+        {
+          "date": "2026-05-25",
+          "store": "Kaufland",
+          "price": 7.98,
+          "price_eur": 4.08,
+          "old_price": 11.6,
+          "discount_pct": 31
+        },
+        {
+          "date": "2026-06-01",
+          "store": "Kaufland",
+          "price": 5.85,
+          "price_eur": 2.99,
+          "old_price": 9.0,
+          "discount_pct": 35
+        },
+        {
+          "date": "2026-06-22",
+          "store": "Kaufland",
+          "price": 6.75,
+          "price_eur": 3.45,
+          "old_price": 9.0,
+          "discount_pct": 25
+        },
+        {
+          "date": "2026-06-29",
+          "store": "Kaufland",
+          "price": 7.8,
+          "price_eur": 3.99,
+          "old_price": 11.6,
+          "discount_pct": 33
+        },
+        {
+          "date": "2026-07-06",
+          "store": "Kaufland",
+          "price": 5.85,
+          "price_eur": 2.99,
+          "old_price": 9.0,
+          "discount_pct": 35
+        },
+        {
+          "date": "2026-07-27",
+          "store": "Kaufland",
+          "price": 7.8,
+          "price_eur": 3.99,
+          "old_price": 11.6,
+          "discount_pct": 33
+        },
+        {
+          "date": "2026-08-10",
+          "store": "Kaufland",
+          "price": 2.99,
+          "price_eur": 1.53,
+          "old_price": 4.6,
+          "discount_pct": 35
+        },
+        {
+          "date": "2026-09-07",
+          "store": "Kaufland",
+          "price": 3.99,
+          "price_eur": 2.04,
+          "old_price": 5.93,
+          "discount_pct": 33
+        },
+        {
+          "date": "2026-09-14",
+          "store": "Kaufland",
+          "price": 2.99,
+          "price_eur": 1.53,
+          "old_price": 4.6,
+          "discount_pct": 35
+        },
+        {
+          "date": "2026-09-28",
+          "store": "Kaufland",
+          "price": 3.99,
+          "price_eur": 2.04,
+          "old_price": 5.93,
+          "discount_pct": 33
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.99,
+          "price_eur": 1.53,
+          "old_price": 4.6,
+          "discount_pct": 35
+        }
+      ],
+      "lowest_price": 2.99,
+      "lowest_price_date": "2026-08-10",
+      "avg_price": 5.51
+    },
+    {
+      "name": "Deroni Едросмляна лютеница различни видове",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "520 г",
+      "weight_grams": 520,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20893694_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-deroni-едросмляна-лютеница-различни-видове-520g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.99,
+          "price_eur": 1.53,
+          "old_price": 4.09,
+          "discount_pct": 27
+        }
+      ],
+      "lowest_price": 2.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 2.99
+    },
+    {
+      "name": "Purina One Суха храна за котки различни видове",
+      "store": "Kaufland",
+      "emoji": "🐾",
+      "category": "pet",
+      "weight_raw": "450 г",
+      "weight_grams": 450,
+      "shelf_life": "6м-1г",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": true,
+      "is_long_lasting": true,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/030_589_20334339?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-purina-one-суха-храна-за-котки-различни-видове-450g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-06-29",
+      "price_history": [
+        {
+          "date": "2026-06-29",
+          "store": "Kaufland",
+          "price": 8.19,
+          "price_eur": 4.19,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-07-27",
+          "store": "Kaufland",
+          "price": 5.85,
+          "price_eur": 2.99,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-08-03",
+          "store": "Kaufland",
+          "price": 8.19,
+          "price_eur": 4.19,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-08-17",
+          "store": "Kaufland",
+          "price": 4.19,
+          "price_eur": 2.14,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.99,
+          "price_eur": 1.53,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 2.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 5.88
+    },
+    {
+      "name": "SILVERCREST Чаша 480 мл",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "480 мл",
+      "weight_grams": 480,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627907746_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-silvercrest-чаша-480-мл-480g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.99,
+          "price_eur": 1.53,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 2.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 2.99
+    },
+    {
+      "name": "SILVERCREST Чаша",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627907739_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-silvercrest-чаша",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.99,
+          "price_eur": 1.53,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 2.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 2.99
+    },
+    {
+      "name": "LIV&BO Душ слушалка",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627593697_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-liv-bo-душ-слушалка",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.99,
+          "price_eur": 1.53,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 2.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 2.99
+    },
+    {
+      "name": "Кутия с капак 18 л",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "18 л",
+      "weight_grams": 18000,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4063367446801_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-кутия-с-капак-18-л-18000g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.99,
+          "price_eur": 1.53,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 2.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 2.99
+    },
+    {
+      "name": "LUPILU Детска блуза 98 - 128",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627899393_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-lupilu-детска-блуза-98-128",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 2.99,
+          "price_eur": 1.53,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 2.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 2.99
+    },
+    {
+      "name": "W5 Домашни потреби",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/a_3D544915_B-V01__23DA00_FS_EU-KL_NFVP?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-w5-домашни-потреби",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.0,
+          "price_eur": 1.53,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 3.0,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 3.0
+    },
+    {
+      "name": "Mieszko Шоколадови бонбони Cherrissimo Classic",
+      "store": "Kaufland",
+      "emoji": "🌾",
+      "category": "grain",
+      "weight_raw": "142 г",
+      "weight_grams": 142,
+      "shelf_life": "1-2г",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/518_00090376_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-mieszko-шоколадови-бонбони-cherrissimo-classic-142g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.14,
+          "price_eur": 1.61,
+          "old_price": 4.49,
+          "discount_pct": 30
+        }
+      ],
+      "lowest_price": 3.14,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 3.14
+    },
+    {
+      "name": "Търговище Червено вино различни сортове",
+      "store": "Kaufland",
+      "emoji": "🍺",
+      "category": "drinks",
+      "weight_raw": "0,75 л",
+      "weight_grams": 750,
+      "shelf_life": "малотраен",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800009405465_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-търговище-червено-вино-различни-сортове-750g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.29,
+          "price_eur": 1.68,
+          "old_price": 4.25,
+          "discount_pct": 23
+        }
+      ],
+      "lowest_price": 3.29,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 3.29
+    },
+    {
+      "name": "CRIVIT Спортен топ ХS",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627939167_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-crivit-спортен-топ-хs",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.29,
+          "price_eur": 1.68,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 3.29,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 3.29
+    },
+    {
+      "name": "CRIVIT Топ S - L",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627903557_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-crivit-топ-s-l",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.29,
+          "price_eur": 1.68,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 3.29,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 3.29
+    },
+    {
+      "name": "K-CLASSIC Котешка тоалетна",
+      "store": "Kaufland",
+      "emoji": "🐾",
+      "category": "pet",
+      "weight_raw": "10 кг",
+      "weight_grams": 10000,
+      "shelf_life": "6м-1г",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": true,
+      "is_long_lasting": true,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20835551_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-k-classic-котешка-тоалетна-10000g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-05-07",
+      "price_history": [
+        {
+          "date": "2026-05-07",
+          "store": "Kaufland",
+          "price": 6.49,
+          "price_eur": 3.32,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-06-01",
+          "store": "Kaufland",
+          "price": 5.48,
+          "price_eur": 2.8,
+          "old_price": 10.95,
+          "discount_pct": 50
+        },
+        {
+          "date": "2026-06-08",
+          "store": "Kaufland",
+          "price": 6.49,
+          "price_eur": 3.32,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-06-29",
+          "store": "Kaufland",
+          "price": 5.48,
+          "price_eur": 2.8,
+          "old_price": 10.95,
+          "discount_pct": 50
+        },
+        {
+          "date": "2026-07-13",
+          "store": "Kaufland",
+          "price": 6.49,
+          "price_eur": 3.32,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-07-27",
+          "store": "Kaufland",
+          "price": 2.74,
+          "price_eur": 1.4,
+          "old_price": 5.48,
+          "discount_pct": 50
+        },
+        {
+          "date": "2026-08-03",
+          "store": "Kaufland",
+          "price": 6.49,
+          "price_eur": 3.32,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-08-17",
+          "store": "Kaufland",
+          "price": 2.8,
+          "price_eur": 1.43,
+          "old_price": 5.6,
+          "discount_pct": 50
+        },
+        {
+          "date": "2026-08-24",
+          "store": "Kaufland",
+          "price": 3.35,
+          "price_eur": 1.71,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-10-05",
+          "store": "Kaufland",
+          "price": 2.8,
+          "price_eur": 1.43,
+          "old_price": 5.6,
+          "discount_pct": 50
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.35,
+          "price_eur": 1.71,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 2.74,
+      "lowest_price_date": "2026-07-27",
+      "avg_price": 4.72
+    },
+    {
+      "name": "Здраве Актив Шампоан различни видове",
+      "store": "Kaufland",
+      "emoji": "🧴",
+      "category": "hygiene",
+      "weight_raw": "390 мл",
+      "weight_grams": 390,
+      "shelf_life": "1-2г",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00044764_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
+      "product_id": "kaufland-здраве-актив-шампоан-различни-видове-390g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-06-01",
+      "price_history": [
+        {
+          "date": "2026-06-01",
+          "store": "Kaufland",
+          "price": 6.49,
+          "price_eur": 3.32,
+          "old_price": 9.15,
+          "discount_pct": 29
+        },
+        {
+          "date": "2026-06-08",
+          "store": "Kaufland",
+          "price": 9.76,
+          "price_eur": 4.99,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-07-06",
+          "store": "Kaufland",
+          "price": 6.55,
+          "price_eur": 3.35,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-07-13",
+          "store": "Kaufland",
+          "price": 10.68,
+          "price_eur": 5.46,
+          "old_price": 14.26,
+          "discount_pct": 25
+        },
+        {
+          "date": "2026-08-17",
+          "store": "Kaufland",
+          "price": 4.99,
+          "price_eur": 2.55,
+          "old_price": 7.29,
+          "discount_pct": 32
+        },
+        {
+          "date": "2026-08-31",
+          "store": "Kaufland",
+          "price": 3.35,
+          "price_eur": 1.71,
+          "old_price": 4.68,
+          "discount_pct": 28
+        },
+        {
+          "date": "2026-09-14",
+          "store": "Kaufland",
+          "price": 5.46,
+          "price_eur": 2.79,
+          "old_price": 7.29,
+          "discount_pct": 25
+        },
+        {
+          "date": "2026-09-28",
+          "store": "Kaufland",
+          "price": 4.99,
+          "price_eur": 2.55,
+          "old_price": 7.29,
+          "discount_pct": 32
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.35,
+          "price_eur": 1.71,
+          "old_price": 4.68,
+          "discount_pct": 28
+        }
+      ],
+      "lowest_price": 3.35,
+      "lowest_price_date": "2026-08-31",
+      "avg_price": 6.18
+    },
+    {
+      "name": "Corega Антибактериални почистващи таблетки за зъбни протези",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_04802424_P.jpg",
+      "product_id": "kaufland-corega-антибактериални-почистващи-таблетки-за-зъбни-протези",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.45,
+          "price_eur": 1.76,
+          "old_price": 4.6,
+          "discount_pct": 25
+        }
+      ],
+      "lowest_price": 3.45,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 3.45
+    },
+    {
+      "name": "LUPILU/ KUNIBOO Детски бикини 98 - 128",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627891991_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-lupilu-kuniboo-детски-бикини-98-128",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.49,
+          "price_eur": 1.78,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 3.49,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 3.49
+    },
+    {
+      "name": "CRIVIT Тениска S",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627883446_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-crivit-тениска-s",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.49,
+          "price_eur": 1.78,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 3.49,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 3.49
+    },
+    {
+      "name": "CRIVIT Кинезиолента",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": true,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4250527629765_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-crivit-кинезиолента",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.49,
+          "price_eur": 1.78,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 3.49,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 3.49
+    },
+    {
+      "name": "Spice&Soul Табла за сервиране 51 х 38 см",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627436703_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-spice-soul-табла-за-сервиране-51-х-38-см",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.59,
+          "price_eur": 1.84,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 3.59,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 3.59
+    },
+    {
+      "name": "Targovishte Бяло вино",
+      "store": "Kaufland",
+      "emoji": "🍺",
+      "category": "drinks",
+      "weight_raw": "0,75 л",
+      "weight_grams": 750,
+      "shelf_life": "малотраен",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800009402433_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-targovishte-бяло-вино-750g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.75,
+          "price_eur": 1.92,
+          "old_price": 4.81,
+          "discount_pct": 22
+        }
+      ],
+      "lowest_price": 3.75,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 3.75
+    },
+    {
+      "name": "COREGA Фиксиращ крем за зъбни протези",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "40 г",
+      "weight_grams": 40,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/5054563155788_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-corega-фиксиращ-крем-за-зъбни-протези-40g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.79,
+          "price_eur": 1.94,
+          "old_price": 5.06,
+          "discount_pct": 25
+        }
+      ],
+      "lowest_price": 3.79,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 3.79
+    },
+    {
+      "name": "Heinz Майонеза класик",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "800 мл",
+      "weight_grams": 800,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20674946_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-heinz-маионеза-класик-800g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-05-11",
+      "price_history": [
+        {
+          "date": "2026-05-11",
+          "store": "Kaufland",
+          "price": 7.49,
+          "price_eur": 3.83,
+          "old_price": 11.99,
+          "discount_pct": 38
+        },
+        {
+          "date": "2026-06-01",
+          "store": "Kaufland",
+          "price": 4.67,
+          "price_eur": 2.39,
+          "old_price": 8.49,
+          "discount_pct": 45
+        },
+        {
+          "date": "2026-06-08",
+          "store": "Kaufland",
+          "price": 7.49,
+          "price_eur": 3.83,
+          "old_price": 11.99,
+          "discount_pct": 38
+        },
+        {
+          "date": "2026-07-09",
+          "store": "Kaufland",
+          "price": 4.24,
+          "price_eur": 2.17,
+          "old_price": 8.49,
+          "discount_pct": 50
+        },
+        {
+          "date": "2026-07-20",
+          "store": "Kaufland",
+          "price": 7.41,
+          "price_eur": 3.79,
+          "old_price": 11.99,
+          "discount_pct": 38
+        },
+        {
+          "date": "2026-07-27",
+          "store": "Kaufland",
+          "price": 4.24,
+          "price_eur": 2.17,
+          "old_price": 8.49,
+          "discount_pct": 50
+        },
+        {
+          "date": "2026-08-17",
+          "store": "Kaufland",
+          "price": 2.17,
+          "price_eur": 1.11,
+          "old_price": 4.34,
+          "discount_pct": 50
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.79,
+          "price_eur": 1.94,
+          "old_price": 6.13,
+          "discount_pct": 38
+        }
+      ],
+      "lowest_price": 2.17,
+      "lowest_price_date": "2026-08-17",
+      "avg_price": 5.19
+    },
+    {
+      "name": "SILVERCREST Форма за печене различни видове",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627906282_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-silvercrest-форма-за-печене-различни-видове",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.79,
+          "price_eur": 1.94,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 3.79,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 3.79
+    },
+    {
+      "name": "Suchard Шоколадови бонбони различни видове",
+      "store": "Kaufland",
+      "emoji": "🌾",
+      "category": "grain",
+      "weight_raw": "276 г",
+      "weight_grams": 276,
+      "shelf_life": "1-2г",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00081012_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-suchard-шоколадови-бонбони-различни-видове-276g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-05-07",
+      "price_history": [
+        {
+          "date": "2026-05-07",
+          "store": "Kaufland",
+          "price": 4.79,
+          "price_eur": 2.45,
+          "old_price": 7.49,
+          "discount_pct": 36
+        },
+        {
+          "date": "2026-05-18",
+          "store": "Kaufland",
+          "price": 7.78,
+          "price_eur": 3.98,
+          "old_price": 12.5,
+          "discount_pct": 38
+        },
+        {
+          "date": "2026-06-01",
+          "store": "Kaufland",
+          "price": 4.79,
+          "price_eur": 2.45,
+          "old_price": 7.49,
+          "discount_pct": 36
+        },
+        {
+          "date": "2026-06-15",
+          "store": "Kaufland",
+          "price": 7.78,
+          "price_eur": 3.98,
+          "old_price": 12.5,
+          "discount_pct": 38
+        },
+        {
+          "date": "2026-07-06",
+          "store": "Kaufland",
+          "price": 4.79,
+          "price_eur": 2.45,
+          "old_price": 7.49,
+          "discount_pct": 36
+        },
+        {
+          "date": "2026-08-03",
+          "store": "Kaufland",
+          "price": 4.87,
+          "price_eur": 2.49,
+          "old_price": 7.49,
+          "discount_pct": 35
+        },
+        {
+          "date": "2026-08-10",
+          "store": "Kaufland",
+          "price": 3.89,
+          "price_eur": 1.99,
+          "old_price": 6.39,
+          "discount_pct": 39
+        },
+        {
+          "date": "2026-08-21",
+          "store": "Kaufland",
+          "price": 2.39,
+          "price_eur": 1.22,
+          "old_price": 3.83,
+          "discount_pct": 38
+        },
+        {
+          "date": "2026-09-14",
+          "store": "Kaufland",
+          "price": 3.99,
+          "price_eur": 2.04,
+          "old_price": 6.39,
+          "discount_pct": 38
+        },
+        {
+          "date": "2026-09-20",
+          "store": "Kaufland",
+          "price": 2.45,
+          "price_eur": 1.25,
+          "old_price": 3.83,
+          "discount_pct": 36
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.89,
+          "price_eur": 1.99,
+          "old_price": 6.39,
+          "discount_pct": 39
+        }
+      ],
+      "lowest_price": 2.39,
+      "lowest_price_date": "2026-08-21",
+      "avg_price": 4.67
+    },
+    {
+      "name": "Amoretta Classic Бонбони шоколадови",
+      "store": "Kaufland",
+      "emoji": "🌾",
+      "category": "grain",
+      "weight_raw": "215 г",
+      "weight_grams": 215,
+      "shelf_life": "1-2г",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20760326-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-amoretta-classic-бонбони-шоколадови-215g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.93,
+          "price_eur": 2.01,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 3.93,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 3.93
+    },
+    {
+      "name": "САКАРЕЛА Гюбек с подправки различни видове",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "400 г",
+      "weight_grams": 400,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20724490_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-сакарела-гюбек-с-подправки-различни-видове-400g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.99,
+          "price_eur": 2.04,
+          "old_price": 5.36,
+          "discount_pct": 26
+        }
+      ],
+      "lowest_price": 3.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 3.99
+    },
+    {
+      "name": "САКАРЕЛА Сакарски гюбек различни видове",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "400 г",
+      "weight_grams": 400,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20724491_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-сакарела-сакарски-гюбек-различни-видове-400g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.99,
+          "price_eur": 2.04,
+          "old_price": 5.36,
+          "discount_pct": 26
+        }
+      ],
+      "lowest_price": 3.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 3.99
+    },
+    {
+      "name": "LIVARNO Етажерки за баня",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627919275_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-livarno-етажерки-за-баня",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.99,
+          "price_eur": 2.04,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 3.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 3.99
+    },
+    {
+      "name": "LIVARNO Постелка 65 х 100 см",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627924965_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-livarno-постелка-65-х-100-см",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.99,
+          "price_eur": 2.04,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 3.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 3.99
+    },
+    {
+      "name": "CRIVIT Къс панталон М - XL",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627873799_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-crivit-къс-панталон-м-xl",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.99,
+          "price_eur": 2.04,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 3.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 3.99
+    },
+    {
+      "name": "CRIVIT ЧехлиЧехли 36 - 45",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627951985_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-crivit-чехличехли-36-45",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.99,
+          "price_eur": 2.04,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 3.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 3.99
+    },
+    {
+      "name": "SENSIPLAST Колан за гръб S - XL",
+      "store": "Kaufland",
+      "emoji": "🍺",
+      "category": "drinks",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": "малотраен",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4250527630235_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-sensiplast-колан-за-гръб-s-xl",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 3.99,
+          "price_eur": 2.04,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 3.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 3.99
+    },
+    {
+      "name": "CRIVIT Спортен потник S",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627883477_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-crivit-спортен-потник-s",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 4.09,
+          "price_eur": 2.09,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 4.09,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 4.09
+    },
+    {
+      "name": "TRISA Паста за зъби",
+      "store": "Kaufland",
+      "emoji": "🧴",
+      "category": "hygiene",
+      "weight_raw": "2 x 75 мл",
+      "weight_grams": 150,
+      "shelf_life": "1-2г",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": true,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/636_2020860601_1_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-trisa-паста-за-зъби-150g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 4.09,
+          "price_eur": 2.09,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 4.09,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 4.09
+    },
+    {
+      "name": "Caprice Шоколадови пури",
+      "store": "Kaufland",
+      "emoji": "🌾",
+      "category": "grain",
+      "weight_raw": "400 г",
+      "weight_grams": 400,
+      "shelf_life": "1-2г",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/655_02802450_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-caprice-шоколадови-пури-400g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-05-18",
+      "price_history": [
+        {
+          "date": "2026-05-18",
+          "store": "Kaufland",
+          "price": 5.28,
+          "price_eur": 2.7,
+          "old_price": 7.49,
+          "discount_pct": 30
+        },
+        {
+          "date": "2026-06-29",
+          "store": "Kaufland",
+          "price": 2.78,
+          "price_eur": 1.42,
+          "old_price": 3.85,
+          "discount_pct": 28
+        },
+        {
+          "date": "2026-07-06",
+          "store": "Kaufland",
+          "price": 5.26,
+          "price_eur": 2.69,
+          "old_price": 7.49,
+          "discount_pct": 30
+        },
+        {
+          "date": "2026-08-31",
+          "store": "Kaufland",
+          "price": 4.29,
+          "price_eur": 2.19,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-09-07",
+          "store": "Kaufland",
+          "price": 1.55,
+          "price_eur": 0.79,
+          "old_price": 1.97,
+          "discount_pct": 21
+        },
+        {
+          "date": "2026-09-14",
+          "store": "Kaufland",
+          "price": 2.69,
+          "price_eur": 1.38,
+          "old_price": 3.83,
+          "discount_pct": 30
+        },
+        {
+          "date": "2026-10-05",
+          "store": "Kaufland",
+          "price": 1.55,
+          "price_eur": 0.79,
+          "old_price": 1.97,
+          "discount_pct": 21
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 4.29,
+          "price_eur": 2.19,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 1.55,
+      "lowest_price_date": "2026-09-07",
+      "avg_price": 3.46
+    },
+    {
+      "name": "W5 Калъф за дъска за гладене",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627900921_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-w5-калъф-за-дъска-за-гладене",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 4.59,
+          "price_eur": 2.35,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 4.59,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 4.59
+    },
+    {
+      "name": "W5 Калъф за дъска за гладане",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627900914_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-w5-калъф-за-дъска-за-гладане",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 4.59,
+          "price_eur": 2.35,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 4.59,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 4.59
+    },
+    {
+      "name": "Lyre Червено, Бяло вино или Розе различни сортове",
+      "store": "Kaufland",
+      "emoji": "🍺",
+      "category": "drinks",
+      "weight_raw": "0,75 л",
+      "weight_grams": 750,
+      "shelf_life": "малотраен",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800137005322_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-lyre-червено-бяло-вино-или-розе-различни-сортове-750g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 4.59,
+          "price_eur": 2.35,
+          "old_price": 7.66,
+          "discount_pct": 40
+        }
+      ],
+      "lowest_price": 4.59,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 4.59
+    },
+    {
+      "name": "SILVERCREST Кутии за сандвичи",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627926631_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-silvercrest-кутии-за-сандвичи",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 4.59,
+          "price_eur": 2.35,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 4.59,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 4.59
+    },
+    {
+      "name": "NIRVANA Сладолед различни вкусове",
+      "store": "Kaufland",
+      "emoji": "🥛",
+      "category": "dairy",
+      "weight_raw": "322 г",
+      "weight_grams": 322,
+      "shelf_life": "малотраен",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20707583_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-nirvana-сладолед-различни-вкусове-322g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-05-07",
+      "price_history": [
+        {
+          "date": "2026-05-07",
+          "store": "Kaufland",
+          "price": 9.39,
+          "price_eur": 4.8,
+          "old_price": 18.8,
+          "discount_pct": 50
+        },
+        {
+          "date": "2026-05-16",
+          "store": "Kaufland",
+          "price": 9.17,
+          "price_eur": 4.69,
+          "old_price": 18.8,
+          "discount_pct": 51
+        },
+        {
+          "date": "2026-05-18",
+          "store": "Kaufland",
+          "price": 3.91,
+          "price_eur": 2.0,
+          "old_price": 5.98,
+          "discount_pct": 35
+        },
+        {
+          "date": "2026-06-01",
+          "store": "Kaufland",
+          "price": 13.08,
+          "price_eur": 6.69,
+          "old_price": 18.8,
+          "discount_pct": 30
+        },
+        {
+          "date": "2026-06-12",
+          "store": "Kaufland",
+          "price": 12.69,
+          "price_eur": 6.49,
+          "old_price": 26.48,
+          "discount_pct": 52
+        },
+        {
+          "date": "2026-06-22",
+          "store": "Kaufland",
+          "price": 5.98,
+          "price_eur": 3.06,
+          "old_price": 11.97,
+          "discount_pct": 50
+        },
+        {
+          "date": "2026-07-23",
+          "store": "Kaufland",
+          "price": 9.39,
+          "price_eur": 4.8,
+          "old_price": 18.8,
+          "discount_pct": 50
+        },
+        {
+          "date": "2026-07-27",
+          "store": "Kaufland",
+          "price": 12.69,
+          "price_eur": 6.49,
+          "old_price": 26.48,
+          "discount_pct": 52
+        },
+        {
+          "date": "2026-08-10",
+          "store": "Kaufland",
+          "price": 4.79,
+          "price_eur": 2.45,
+          "old_price": 9.61,
+          "discount_pct": 50
+        },
+        {
+          "date": "2026-08-21",
+          "store": "Kaufland",
+          "price": 4.8,
+          "price_eur": 2.45,
+          "old_price": 9.61,
+          "discount_pct": 50
+        },
+        {
+          "date": "2026-09-14",
+          "store": "Kaufland",
+          "price": 4.79,
+          "price_eur": 2.45,
+          "old_price": 9.61,
+          "discount_pct": 50
+        },
+        {
+          "date": "2026-09-28",
+          "store": "Kaufland",
+          "price": 1.53,
+          "price_eur": 0.78,
+          "old_price": 3.06,
+          "discount_pct": 50
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 4.79,
+          "price_eur": 2.45,
+          "old_price": 9.61,
+          "discount_pct": 50
+        }
+      ],
+      "lowest_price": 1.53,
+      "lowest_price_date": "2026-09-28",
+      "avg_price": 7.46
+    },
+    {
+      "name": "Скариди белени, варени",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "250 г",
+      "weight_grams": 250,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": true,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20968228?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-скариди-белени-варени-250g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 4.99,
+          "price_eur": 2.55,
+          "old_price": 5.99,
+          "discount_pct": 17
+        }
+      ],
+      "lowest_price": 4.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 4.99
+    },
+    {
+      "name": "STAROPRAMEN Бира 5% vol",
+      "store": "Kaufland",
+      "emoji": "🍺",
+      "category": "drinks",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": "малотраен",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800014050643_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-staropramen-бира-5-vol-2",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-04-20",
+      "price_history": [
+        {
+          "date": "2026-04-20",
+          "store": "Kaufland",
+          "price": 9.8,
+          "price_eur": 5.01,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-05-04",
+          "store": "Kaufland",
+          "price": 11.13,
+          "price_eur": 5.69,
+          "old_price": 15.92,
+          "discount_pct": 30
+        },
+        {
+          "date": "2026-05-29",
+          "store": "Kaufland",
+          "price": 9.56,
+          "price_eur": 4.89,
+          "old_price": 15.92,
+          "discount_pct": 40
+        },
+        {
+          "date": "2026-06-01",
+          "store": "Kaufland",
+          "price": 1.13,
+          "price_eur": 0.58,
+          "old_price": 1.62,
+          "discount_pct": 30
+        },
+        {
+          "date": "2026-06-08",
+          "store": "Kaufland",
+          "price": 9.76,
+          "price_eur": 4.99,
+          "old_price": 15.92,
+          "discount_pct": 39
+        },
+        {
+          "date": "2026-06-15",
+          "store": "Kaufland",
+          "price": 11.13,
+          "price_eur": 5.69,
+          "old_price": 15.92,
+          "discount_pct": 30
+        },
+        {
+          "date": "2026-06-29",
+          "store": "Kaufland",
+          "price": 9.76,
+          "price_eur": 4.99,
+          "old_price": 15.92,
+          "discount_pct": 39
+        },
+        {
+          "date": "2026-07-13",
+          "store": "Kaufland",
+          "price": 1.13,
+          "price_eur": 0.58,
+          "old_price": 1.62,
+          "discount_pct": 30
+        },
+        {
+          "date": "2026-08-03",
+          "store": "Kaufland",
+          "price": 9.76,
+          "price_eur": 4.99,
+          "old_price": 15.92,
+          "discount_pct": 39
+        },
+        {
+          "date": "2026-08-21",
+          "store": "Kaufland",
+          "price": 4.89,
+          "price_eur": 2.5,
+          "old_price": 8.14,
+          "discount_pct": 40
+        },
+        {
+          "date": "2026-08-31",
+          "store": "Kaufland",
+          "price": 0.58,
+          "price_eur": 0.3,
+          "old_price": 0.83,
+          "discount_pct": 30
+        },
+        {
+          "date": "2026-09-14",
+          "store": "Kaufland",
+          "price": 5.29,
+          "price_eur": 2.7,
+          "old_price": 8.14,
+          "discount_pct": 35
+        },
+        {
+          "date": "2026-09-20",
+          "store": "Kaufland",
+          "price": 0.58,
+          "price_eur": 0.3,
+          "old_price": 0.83,
+          "discount_pct": 30
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 4.99,
+          "price_eur": 2.55,
+          "old_price": 8.14,
+          "discount_pct": 39
+        }
+      ],
+      "lowest_price": 0.58,
+      "lowest_price_date": "2026-08-31",
+      "avg_price": 6.39
+    },
+    {
+      "name": "SILVERCREST Електрическа мелничка",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627943065_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-silvercrest-електрическа-мелничка",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 4.99,
+          "price_eur": 2.55,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 4.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 4.99
+    },
+    {
+      "name": "SILVERCREST Чаши 4 бр,",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627919664_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-silvercrest-чаши-4-бр-2",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 4.99,
+          "price_eur": 2.55,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 4.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 4.99
+    },
+    {
+      "name": "MILA'S WORLD Котешка драскалка",
+      "store": "Kaufland",
+      "emoji": "🐾",
+      "category": "pet",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": "6м-1г",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": true,
+      "is_long_lasting": true,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066628104656_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-mila-s-world-котешка-драскалка",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 4.99,
+          "price_eur": 2.55,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 4.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 4.99
+    },
+    {
+      "name": "MILA'S WORLD Котешка драскалка различни видове",
+      "store": "Kaufland",
+      "emoji": "🐾",
+      "category": "pet",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": "6м-1г",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": true,
+      "is_long_lasting": true,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066628104670_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-mila-s-world-котешка-драскалка-различни-видове",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 4.99,
+          "price_eur": 2.55,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 4.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 4.99
+    },
+    {
+      "name": "LUPILU Детска пижама 98 - 116",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627920707_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-lupilu-детска-пижама-98-116",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 4.99,
+          "price_eur": 2.55,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 4.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 4.99
+    },
+    {
+      "name": "LUPILU Детска пола с клин 98 - 128",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627886560_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-lupilu-детска-пола-с-клин-98-128",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 4.99,
+          "price_eur": 2.55,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 4.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 4.99
+    },
+    {
+      "name": "CRIVIT Клин capri S - L",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627917783_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-crivit-клин-capri-s-l",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 4.99,
+          "price_eur": 2.55,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 4.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 4.99
+    },
+    {
+      "name": "NEWCENTIAL Фитнес аксесоари различни видове",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627623851_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-newcential-фитнес-аксесоари-различни-видове",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 4.99,
+          "price_eur": 2.55,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 4.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 4.99
+    },
+    {
+      "name": "CRIVIT LED челник 400 lm",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627914034_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-crivit-led-челник-400-lm",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 4.99,
+          "price_eur": 2.55,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 4.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 4.99
+    },
+    {
+      "name": "ESMARA Компресионни чорапи 35 - 46",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627871689_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-esmara-компресионни-чорапи-35-46",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 4.99,
+          "price_eur": 2.55,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 4.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 4.99
+    },
+    {
+      "name": "W5 Кош или Леген за пране",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627923029_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-w5-кош-или-леген-за-пране",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 5.09,
+          "price_eur": 2.6,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 5.09,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 5.09
+    },
+    {
+      "name": "K-GOLD EDITION Шоколадови бонбони различни видове",
+      "store": "Kaufland",
+      "emoji": "🌾",
+      "category": "grain",
+      "weight_raw": "300 г",
+      "weight_grams": 300,
+      "shelf_life": "1-2г",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4000415002862_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-k-gold-edition-шоколадови-бонбони-различни-видове-300g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 5.29,
+          "price_eur": 2.7,
+          "old_price": 6.64,
+          "discount_pct": 20
+        }
+      ],
+      "lowest_price": 5.29,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 5.29
+    },
+    {
+      "name": "Liv&Bo Електронен кантар до 180 кг",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "на кг",
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627670923_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-liv-bo-електронен-кантар-до-180-кг",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 5.49,
+          "price_eur": 2.81,
+          "old_price": 11.24,
+          "discount_pct": 51
+        }
+      ],
+      "lowest_price": 5.49,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 5.49
+    },
+    {
+      "name": "Parkside® Комплект битове PBS S3 A1 различни видове",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627157431_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-parkside-комплект-битове-pbs-s3-a1-различни-видове",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 5.49,
+          "price_eur": 2.81,
+          "old_price": 7.66,
+          "discount_pct": 28
+        }
+      ],
+      "lowest_price": 5.49,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 5.49
+    },
+    {
+      "name": "SILVERCREST Купи 3 бр.",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627891878_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-silvercrest-купи-3-бр",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 5.49,
+          "price_eur": 2.81,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 5.49,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 5.49
+    },
+    {
+      "name": "LUPILU Детски дънки 98 - 128",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627888366_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-lupilu-детски-дънки-98-128",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 5.59,
+          "price_eur": 2.86,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 5.59,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 5.59
+    },
+    {
+      "name": "PARKSIDE® Фазомер или Тестер",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627424267_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
+      "product_id": "kaufland-parkside-фазомер-или-тестер",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 5.62,
+          "price_eur": 2.87,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 5.62,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 5.62
+    },
+    {
+      "name": "Nutella Крем за мазане с фъстъци",
+      "store": "Kaufland",
+      "emoji": "🌾",
+      "category": "grain",
+      "weight_raw": "371 г",
+      "weight_grams": 371,
+      "shelf_life": "1-2г",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20967465_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-nutella-крем-за-мазане-с-фъстъци-371g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 5.99,
+          "price_eur": 3.06,
+          "old_price": 7.99,
+          "discount_pct": 25
+        }
+      ],
+      "lowest_price": 5.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 5.99
+    },
+    {
+      "name": "SILVERCREST Касерола",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627947292_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-silvercrest-касерола",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 5.99,
+          "price_eur": 3.06,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 5.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 5.99
+    },
+    {
+      "name": "LIVARNO Душ слушалка различни видове",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627883859_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-livarno-душ-слушалка-различни-видове",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 5.99,
+          "price_eur": 3.06,
+          "old_price": 8.99,
+          "discount_pct": 33
+        }
+      ],
+      "lowest_price": 5.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 5.99
+    },
+    {
+      "name": "Кутия с капак 58 л",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4063367446788_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-кутия-с-капак-58-л",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 5.99,
+          "price_eur": 3.06,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 5.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 5.99
+    },
+    {
+      "name": "Esmara Kids Детски панталон 134 - 164",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627896552_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-esmara-kids-детски-панталон-134-164",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 5.99,
+          "price_eur": 3.06,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 5.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 5.99
+    },
+    {
+      "name": "CRIVIT Спортен клин ХS",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627873942_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-crivit-спортен-клин-хs",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 5.99,
+          "price_eur": 3.06,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 5.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 5.99
+    },
+    {
+      "name": "CRIVIT Къс панталон S",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627903632_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-crivit-къс-панталон-s",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 6.19,
+          "price_eur": 3.16,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 6.19,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 6.19
+    },
+    {
+      "name": "Esmara Kids Детски суитшърт 134 - 164",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627896446_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-esmara-kids-детски-суитшърт-134-164",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 6.49,
+          "price_eur": 3.32,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 6.49,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 6.49
+    },
+    {
+      "name": "VAT 69 Шотландско уиски",
+      "store": "Kaufland",
+      "emoji": "🍺",
+      "category": "drinks",
+      "weight_raw": "0,7 л",
+      "weight_grams": 700,
+      "shelf_life": "малотраен",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/02100104_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-vat-69-шотландско-уиски-700g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 6.49,
+          "price_eur": 3.32,
+          "old_price": 11.5,
+          "discount_pct": 44
+        }
+      ],
+      "lowest_price": 6.49,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 6.49
+    },
+    {
+      "name": "Extra Zytnia Водка",
+      "store": "Kaufland",
+      "emoji": "🍺",
+      "category": "drinks",
+      "weight_raw": "1 л",
+      "weight_grams": 1000,
+      "shelf_life": "малотраен",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00029192_P-1?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
+      "product_id": "kaufland-extra-zytnia-водка-1000g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-05-11",
+      "price_history": [
+        {
+          "date": "2026-05-11",
+          "store": "Kaufland",
+          "price": 12.99,
+          "price_eur": 6.64,
+          "old_price": 18.29,
+          "discount_pct": 29
+        },
+        {
+          "date": "2026-05-18",
+          "store": "Kaufland",
+          "price": 9.99,
+          "price_eur": 5.11,
+          "old_price": 14.98,
+          "discount_pct": 33
+        },
+        {
+          "date": "2026-07-06",
+          "store": "Kaufland",
+          "price": 13.01,
+          "price_eur": 6.65,
+          "old_price": 18.54,
+          "discount_pct": 30
+        },
+        {
+          "date": "2026-08-10",
+          "store": "Kaufland",
+          "price": 6.65,
+          "price_eur": 3.4,
+          "old_price": 9.48,
+          "discount_pct": 30
+        },
+        {
+          "date": "2026-10-05",
+          "store": "Kaufland",
+          "price": 5.11,
+          "price_eur": 2.61,
+          "old_price": 7.81,
+          "discount_pct": 35
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 6.65,
+          "price_eur": 3.4,
+          "old_price": 9.48,
+          "discount_pct": 30
+        }
+      ],
+      "lowest_price": 5.11,
+      "lowest_price_date": "2026-10-05",
+      "avg_price": 9.07
+    },
+    {
+      "name": "LUPILU Детски пуловер 98 - 128",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627899652_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-lupilu-детски-пуловер-98-128",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 6.99,
+          "price_eur": 3.57,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 6.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 6.99
+    },
+    {
+      "name": "Sensiplast Охлаждащ бандаж за гръб",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4250527629918_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-sensiplast-охлаждащ-бандаж-за-гръб",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 6.99,
+          "price_eur": 3.57,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 6.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 6.99
+    },
+    {
+      "name": "SENSIPLAST Охлаждащ бандаж за гръб M - XXL",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4250527629925_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-sensiplast-охлаждащ-бандаж-за-гръб-m-xxl",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 6.99,
+          "price_eur": 3.57,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 6.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 6.99
+    },
+    {
+      "name": "NEWCENTIAL Фитнес аксесоари",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627585616_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-newcential-фитнес-аксесоари",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 6.99,
+          "price_eur": 3.57,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 6.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 6.99
+    },
+    {
+      "name": "PARKSIDE® Комплект триони",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627920066_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-parkside-комплект-триони",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 6.99,
+          "price_eur": 3.57,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 6.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 6.99
+    },
+    {
+      "name": "Savoy Ром 37,5% vol",
+      "store": "Kaufland",
+      "emoji": "🍺",
+      "category": "drinks",
+      "weight_raw": "1 л",
+      "weight_grams": 1000,
+      "shelf_life": "малотраен",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800008905065_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-savoy-ром-37-5-vol-1000g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 6.99,
+          "price_eur": 3.57,
+          "old_price": 9.39,
+          "discount_pct": 26
+        }
+      ],
+      "lowest_price": 6.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 6.99
+    },
+    {
+      "name": "SAVEX Капсули за пране Fresh",
+      "store": "Kaufland",
+      "emoji": "🧹",
+      "category": "household",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": "1-2г",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": true,
+      "is_long_lasting": true,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_00104141_P.jpg",
+      "product_id": "kaufland-savex-капсули-за-пране-fresh",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 7.15,
+          "price_eur": 3.66,
+          "old_price": 9.71,
+          "discount_pct": 26
+        }
+      ],
+      "lowest_price": 7.15,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 7.15
+    },
+    {
+      "name": "SILVERCREST Тиган Ø24 см",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627947582_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-silvercrest-тиган-ø24-см",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 7.99,
+          "price_eur": 4.09,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 7.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 7.99
+    },
+    {
+      "name": "MAX'S WORLD Автоматичен LED повод различни видове",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066628125002_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-max-s-world-автоматичен-led-повод-различни-видове",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 7.99,
+          "price_eur": 4.09,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 7.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 7.99
+    },
+    {
+      "name": "LUPILU Бебешко яке 62 - 92",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627933318_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-lupilu-бебешко-яке-62-92",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 7.99,
+          "price_eur": 4.09,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 7.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 7.99
+    },
+    {
+      "name": "Plomari Узо",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "0,7 л",
+      "weight_grams": 700,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/02200162_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-plomari-узо-700g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-04-27",
+      "price_history": [
+        {
+          "date": "2026-04-27",
+          "store": "Kaufland",
+          "price": 22.49,
+          "price_eur": 11.5,
+          "old_price": 33.99,
+          "discount_pct": 34
+        },
+        {
+          "date": "2026-06-18",
+          "store": "Kaufland",
+          "price": 15.63,
+          "price_eur": 7.99,
+          "old_price": 25.0,
+          "discount_pct": 37
+        },
+        {
+          "date": "2026-06-29",
+          "store": "Kaufland",
+          "price": 22.47,
+          "price_eur": 11.49,
+          "old_price": 34.74,
+          "discount_pct": 35
+        },
+        {
+          "date": "2026-07-20",
+          "store": "Kaufland",
+          "price": 16.02,
+          "price_eur": 8.19,
+          "old_price": 25.52,
+          "discount_pct": 37
+        },
+        {
+          "date": "2026-08-03",
+          "store": "Kaufland",
+          "price": 22.47,
+          "price_eur": 11.49,
+          "old_price": 34.74,
+          "discount_pct": 35
+        },
+        {
+          "date": "2026-08-31",
+          "store": "Kaufland",
+          "price": 8.19,
+          "price_eur": 4.19,
+          "old_price": 13.05,
+          "discount_pct": 37
+        },
+        {
+          "date": "2026-09-07",
+          "store": "Kaufland",
+          "price": 11.99,
+          "price_eur": 6.13,
+          "old_price": 17.76,
+          "discount_pct": 32
+        },
+        {
+          "date": "2026-09-14",
+          "store": "Kaufland",
+          "price": 8.49,
+          "price_eur": 4.34,
+          "old_price": 13.05,
+          "discount_pct": 35
+        },
+        {
+          "date": "2026-09-28",
+          "store": "Kaufland",
+          "price": 11.49,
+          "price_eur": 5.87,
+          "old_price": 17.76,
+          "discount_pct": 35
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 8.19,
+          "price_eur": 4.19,
+          "old_price": 13.05,
+          "discount_pct": 37
+        }
+      ],
+      "lowest_price": 8.19,
+      "lowest_price_date": "2026-08-31",
+      "avg_price": 14.74
+    },
+    {
+      "name": "Vileda Резерва за моп Ultramax",
+      "store": "Kaufland",
+      "emoji": "🧹",
+      "category": "household",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": "1-2г",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": true,
+      "is_long_lasting": true,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4023103086623_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-vileda-резерва-за-моп-ultramax",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 8.49,
+          "price_eur": 4.34,
+          "old_price": 14.82,
+          "discount_pct": 43
+        }
+      ],
+      "lowest_price": 8.49,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 8.49
+    },
+    {
+      "name": "MAX'S WORLD Легло за домашен любимец различни видове",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066628100740_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-max-s-world-легло-за-домашен-любимец-различни-видове",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 8.99,
+          "price_eur": 4.6,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 8.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 8.99
+    },
+    {
+      "name": "LUPILU Детско яке 98 - 128",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627886416_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-lupilu-детско-яке-98-128",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 8.99,
+          "price_eur": 4.6,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 8.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 8.99
+    },
+    {
+      "name": "ULTIMATE SPEED Комплект калъфи за гуми",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627902314_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-ultimate-speed-комплект-калъфи-за-гуми",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 8.99,
+          "price_eur": 4.6,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 8.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 8.99
+    },
+    {
+      "name": "ULTIMATE SPEED Комплект за почистване на фарове",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627913938_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-ultimate-speed-комплект-за-почистване-на-фарове",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 8.99,
+          "price_eur": 4.6,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 8.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 8.99
+    },
+    {
+      "name": "Parkside® Строителни пособия",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627412936_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-parkside-строителни-пособия",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 8.99,
+          "price_eur": 4.6,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 8.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 8.99
+    },
+    {
+      "name": "Parkside® Строителни пособия различни видове",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627412929_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-parkside-строителни-пособия-различни-видове",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 8.99,
+          "price_eur": 4.6,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 8.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 8.99
+    },
+    {
+      "name": "PARKSIDE® Органайзер различни видове",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627929755_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-parkside-органаизер-различни-видове",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 9.2,
+          "price_eur": 4.7,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 9.2,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 9.2
+    },
+    {
+      "name": "FUTURE Гел различни видове",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20988218_595?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-future-гел-различни-видове",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 9.59,
+          "price_eur": 4.9,
+          "old_price": 11.69,
+          "discount_pct": 18
+        }
+      ],
+      "lowest_price": 9.59,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 9.59
+    },
+    {
+      "name": "LUPILU Детско яке Softshell 98 - 128",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627909016_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-lupilu-детско-яке-softshell-98-128",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 9.99,
+          "price_eur": 5.11,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 9.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 9.99
+    },
+    {
+      "name": "ULTIMATE SPEED Покривало за автомобил различни размери",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627933936_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-ultimate-speed-покривало-за-автомобил-различни-размери",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 9.99,
+          "price_eur": 5.11,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 9.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 9.99
+    },
+    {
+      "name": "PARKSIDE® Отвертка с битове 5в1",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627908651_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-parkside-отвертка-с-битове-5в1",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 9.99,
+          "price_eur": 5.11,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 9.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 9.99
+    },
+    {
+      "name": "Cipriani Prosecco Brut DOC",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "0,75 л",
+      "weight_grams": 750,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20343406_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-cipriani-prosecco-brut-doc-750g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-04-27",
+      "price_history": [
+        {
+          "date": "2026-04-27",
+          "store": "Kaufland",
+          "price": 23.08,
+          "price_eur": 11.8,
+          "old_price": 32.99,
+          "discount_pct": 30
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 9.99,
+          "price_eur": 5.11,
+          "old_price": 16.87,
+          "discount_pct": 41
+        }
+      ],
+      "lowest_price": 9.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 16.54
+    },
+    {
+      "name": "SILVERCREST Сандвич тостер SSWM 750",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627852268_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-silvercrest-сандвич-тостер-sswm-750",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 10.22,
+          "price_eur": 5.23,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 10.22,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 10.22
+    },
+    {
+      "name": "ULTIMATE SPEED Маслена помпа 12 V",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": true,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627902697_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-ultimate-speed-маслена-помпа-12-v",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 10.69,
+          "price_eur": 5.47,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 10.69,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 10.69
+    },
+    {
+      "name": "ZAHIR Червено, Бяло вино или Розе различни сортове",
+      "store": "Kaufland",
+      "emoji": "🍺",
+      "category": "drinks",
+      "weight_raw": "3 л",
+      "weight_grams": 3000,
+      "shelf_life": "малотраен",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00109985_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-zahir-червено-бяло-вино-или-розе-различни-сортове-3000g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-05-11",
+      "price_history": [
+        {
+          "date": "2026-05-11",
+          "store": "Kaufland",
+          "price": 20.99,
+          "price_eur": 10.73,
+          "old_price": 35.99,
+          "discount_pct": 42
+        },
+        {
+          "date": "2026-09-20",
+          "store": "Kaufland",
+          "price": 10.75,
+          "price_eur": 5.5,
+          "old_price": 18.4,
+          "discount_pct": 42
+        },
+        {
+          "date": "2026-10-05",
+          "store": "Kaufland",
+          "price": 4.39,
+          "price_eur": 2.24,
+          "old_price": 6.13,
+          "discount_pct": 28
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 10.75,
+          "price_eur": 5.5,
+          "old_price": 18.4,
+          "discount_pct": 42
+        }
+      ],
+      "lowest_price": 4.39,
+      "lowest_price_date": "2026-10-05",
+      "avg_price": 11.72
+    },
+    {
+      "name": "ESMARA KIDS Детско яке 134 - 164",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627895869_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-esmara-kids-детско-яке-134-164",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 10.99,
+          "price_eur": 5.62,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 10.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 10.99
+    },
+    {
+      "name": "FELIX Суха храна за котки различни видове",
+      "store": "Kaufland",
+      "emoji": "🐾",
+      "category": "pet",
+      "weight_raw": "3 кг",
+      "weight_grams": 3000,
+      "shelf_life": "6м-1г",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": true,
+      "is_long_lasting": true,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/030_589_20966147?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-felix-суха-храна-за-котки-различни-видове-3000g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 11.99,
+          "price_eur": 6.13,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 11.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 11.99
+    },
+    {
+      "name": "PARKSIDE® Мултицет клещи или щифт",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627652912_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-parkside-мултицет-клещи-или-щифт",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 11.99,
+          "price_eur": 6.13,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 11.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 11.99
+    },
+    {
+      "name": "ULTIMATE SPEED Зарядно за акумулатори Заряден ток: до 5 A",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627925061_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-ultimate-speed-зарядно-за-акумулатори-заряден-ток-до-5-a",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 12.49,
+          "price_eur": 6.39,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 12.49,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 12.49
+    },
+    {
+      "name": "NEWCENTIAL Push-up дъска или Пудовка",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627607837_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-newcential-push-up-дъска-или-пудовка",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 12.69,
+          "price_eur": 6.49,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 12.69,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 12.69
+    },
+    {
+      "name": "PARKSIDE® Комплект гедоре 46 части",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627856716_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-parkside-комплект-гедоре-46-части",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 12.99,
+          "price_eur": 6.64,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 12.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 12.99
+    },
+    {
+      "name": "Maxima Гел за пране различни видове",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20620342_596?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-maxima-гел-за-пране-различни-видове",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 13.79,
+          "price_eur": 7.05,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 13.79,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 13.79
+    },
+    {
+      "name": "Parkside® Телескопична подпора за таван",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627646201_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
+      "product_id": "kaufland-parkside-телескопична-подпора-за-таван",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 13.99,
+          "price_eur": 7.15,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 13.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 13.99
+    },
+    {
+      "name": "SILVERCREST Мултифункционален чопър SMZC 500",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": true,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627850660_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-silvercrest-мултифункционален-чопър-smzc-500",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 14.49,
+          "price_eur": 7.41,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 14.49,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 14.49
+    },
+    {
+      "name": "SILVERCREST Съд за печене и сервиране",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627948893_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-silvercrest-съд-за-печене-и-сервиране",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 14.49,
+          "price_eur": 7.41,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 14.49,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 14.49
+    },
+    {
+      "name": "SILVERCREST Тиган",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627948824_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-silvercrest-тиган",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 14.99,
+          "price_eur": 7.66,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 14.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 14.99
+    },
+    {
+      "name": "Friskies Суха храна за кучета различни видове",
+      "store": "Kaufland",
+      "emoji": "🐾",
+      "category": "pet",
+      "weight_raw": "3 кг",
+      "weight_grams": 3000,
+      "shelf_life": "6м-1г",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": true,
+      "is_long_lasting": true,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800020480946_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-friskies-суха-храна-за-кучета-различни-видове-3000g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-05-11",
+      "price_history": [
+        {
+          "date": "2026-05-11",
+          "store": "Kaufland",
+          "price": 8.49,
+          "price_eur": 4.34,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-06-08",
+          "store": "Kaufland",
+          "price": 2.43,
+          "price_eur": 1.24,
+          "old_price": 3.48,
+          "discount_pct": 30
+        },
+        {
+          "date": "2026-07-13",
+          "store": "Kaufland",
+          "price": 8.49,
+          "price_eur": 4.34,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-07-20",
+          "store": "Kaufland",
+          "price": 2.43,
+          "price_eur": 1.24,
+          "old_price": 3.48,
+          "discount_pct": 30
+        },
+        {
+          "date": "2026-07-27",
+          "store": "Kaufland",
+          "price": 10.99,
+          "price_eur": 5.62,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-08-03",
+          "store": "Kaufland",
+          "price": 2.52,
+          "price_eur": 1.29,
+          "old_price": 3.48,
+          "discount_pct": 28
+        },
+        {
+          "date": "2026-08-24",
+          "store": "Kaufland",
+          "price": 5.62,
+          "price_eur": 2.87,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-08-31",
+          "store": "Kaufland",
+          "price": 4.34,
+          "price_eur": 2.22,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-10-05",
+          "store": "Kaufland",
+          "price": 5.65,
+          "price_eur": 2.89,
+          "old_price": 7.66,
+          "discount_pct": 26
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 15.99,
+          "price_eur": 8.18,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 2.43,
+      "lowest_price_date": "2026-06-08",
+      "avg_price": 6.7
+    },
+    {
+      "name": "PARKSIDE® Ключ за автомобилни колела с възглавница",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627438820_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-parkside-ключ-за-автомобилни-колела-с-възглавница",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 16.29,
+          "price_eur": 8.33,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 16.29,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 16.29
+    },
+    {
+      "name": "SILVERCREST Тенджера",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627948848_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-silvercrest-тенджера",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 17.99,
+          "price_eur": 9.2,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 17.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 17.99
+    },
+    {
+      "name": "LIVARNO Смесител различни размери",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627943201_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-livarno-смесител-различни-размери",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 17.99,
+          "price_eur": 9.2,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 17.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 17.99
+    },
+    {
+      "name": "SILVERCREST Електрическа кана за вода",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627850080_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-silvercrest-електрическа-кана-за-вода",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 19.99,
+          "price_eur": 10.22,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 19.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 19.99
+    },
+    {
+      "name": "Масажна възглавница безжична",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4017805379954_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-масажна-възглавница-безжична",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 19.99,
+          "price_eur": 10.22,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 19.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 19.99
+    },
+    {
+      "name": "SILVERCREST Тенджери 3 бр.",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627948855_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-silvercrest-тенджери-3-бр",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 19.99,
+          "price_eur": 10.22,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 19.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 19.99
+    },
+    {
+      "name": "Ultimate Flex Сушилник",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/9007741026307_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-ultimate-flex-сушилник",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 19.99,
+          "price_eur": 10.22,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 19.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 19.99
+    },
+    {
+      "name": "W5 Маса за гладене",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627900983_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-w5-маса-за-гладене",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 23.49,
+          "price_eur": 12.01,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 23.49,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 23.49
+    },
+    {
+      "name": "PARKSIDE® Фрезерни битове 30 части",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627551154_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-parkside-фрезерни-битове-30-части",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 24.99,
+          "price_eur": 12.78,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 24.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 24.99
+    },
+    {
+      "name": "SILVERCREST Ютия с парогенератор SDSB2400",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627850578_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-silvercrest-ютия-с-парогенератор-sdsb2400",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 49.99,
+          "price_eur": 25.56,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 49.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 49.99
+    },
+    {
+      "name": "LIVARNO Долен шкаф Монреал за мивка",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": true,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627977114_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-livarno-долен-шкаф-монреал-за-мивка",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 49.99,
+          "price_eur": 25.56,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 49.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 49.99
+    },
+    {
+      "name": "ULTIMATE SPEED Външна батерия с компресор",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627925115_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-ultimate-speed-външна-батерия-с-компресор",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 52.99,
+          "price_eur": 27.09,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 52.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 52.99
+    },
+    {
+      "name": "SILVERCREST Микровълнова фурна SMWC700",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627842948_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-silvercrest-микровълнова-фурна-smwc700",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 54.99,
+          "price_eur": 28.12,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 54.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 54.99
+    },
+    {
+      "name": "SWITCH ON Фритюрник с горещ въздух 3,6 л",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "3,6 л",
+      "weight_grams": 3600,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627880490_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-switch-on-фритюрник-с-горещ-въздух-3-6-л-3600g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 55.99,
+          "price_eur": 28.63,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 55.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 55.99
+    },
+    {
+      "name": "LIVARNO Шкаф за баня Монреал",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627975554_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-livarno-шкаф-за-баня-монреал",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 59.99,
+          "price_eur": 30.67,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 59.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 59.99
+    },
+    {
+      "name": "SILVERCREST Еспресо машина SHFD",
+      "store": "Kaufland",
+      "emoji": "🍺",
+      "category": "drinks",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": "малотраен",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627939709_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-silvercrest-еспресо-машина-shfd",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 69.99,
+          "price_eur": 35.79,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 69.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 69.99
+    },
+    {
+      "name": "LIVARNO Шкаф Монреал 32,2 x 180,2 x 28 см",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627975523_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
+      "product_id": "kaufland-livarno-шкаф-монреал-32-2-x-180-2-x-28-см",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 79.99,
+          "price_eur": 40.9,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 79.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 79.99
+    },
+    {
+      "name": "SILVERCREST Акумулаторна прахосмукачка 24V SASG 24",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627847851_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
+      "product_id": "kaufland-silvercrest-акумулаторна-прахосмукачка-24v-sasg-24",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 89.99,
+          "price_eur": 46.01,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 89.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 89.99
+    },
+    {
+      "name": "LIVARNO Шкаф Монреал страничен",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627977107_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-livarno-шкаф-монреал-страничен",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "store": "Kaufland",
+          "price": 89.99,
+          "price_eur": 46.01,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 89.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 89.99
     }
   ]
 };
