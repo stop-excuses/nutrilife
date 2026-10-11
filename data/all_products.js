@@ -1,5 +1,5 @@
 const ALL_PRODUCTS_DATA = {
-  "generated_at": "2026-10-11T15:21:17.525432Z",
+  "generated_at": "2026-10-11T16:31:07.141902Z",
   "total_products": 59613,
   "products": [
     {
@@ -2366838,7 +2366838,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_00106623_P.jpg",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00106623_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-bosch-автомобилна-чистачка-eco",
       "last_seen": "2026-10-11",
       "first_seen": "2026-10-05",
