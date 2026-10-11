@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T17:56:19.140128Z",
+  "generated_at": "2026-10-11T19:16:47.447123Z",
   "total_products": 59636,
   "products": [
     {
@@ -2080414,56 +2080414,6 @@
       "avg_price": 3.5
     },
     {
-      "name": "Моцарела",
-      "store": "Lidl",
-      "emoji": "🥛",
-      "category": "dairy",
-      "weight_raw": "140 g",
-      "weight_grams": 140,
-      "shelf_life": "малотраен",
-      "is_food": true,
-      "is_healthy": true,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": 5,
-      "diet_tags": [],
-      "macros": {
-        "kcal": 280,
-        "p": 28,
-        "f": 17,
-        "c": 3.1
-      },
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://imgproxy-retcat.assets.schwarz/3SVNupfZbDkRVOk8rWluWT2VqO98E2TLKiwe-D7dcRE/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS8yQjRBQzcyRjg4OERCNDc1ODkxODVEN0Q/xODFBODhFNDhGRUVGRjk5QzQ3MjY4M0ZEMDM1MkQ4RkM1MUIxOTc1LnBuZw.png",
-      "product_id": "lidl-моцарела-140g",
-      "last_seen": "2026-10-11",
-      "first_seen": "2026-06-28",
-      "price_history": [
-        {
-          "date": "2026-06-28",
-          "store": "Lidl",
-          "price": 3.5,
-          "price_eur": 1.79,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-10-04",
-          "store": "Lidl",
-          "price": 1.89,
-          "price_eur": 0.97,
-          "old_price": null,
-          "discount_pct": null
-        }
-      ],
-      "lowest_price": 1.89,
-      "lowest_price_date": "2026-10-04",
-      "avg_price": 2.69
-    },
-    {
       "name": "Български деликатесен пъпеш",
       "store": "Lidl",
       "emoji": "🥦",
@@ -2380787,6 +2380737,64 @@
       "lowest_price": 34.99,
       "lowest_price_date": "2026-10-11",
       "avg_price": 34.99
+    },
+    {
+      "name": "Моцарела",
+      "store": "Lidl",
+      "emoji": "🥛",
+      "category": "dairy",
+      "weight_raw": "200 g",
+      "weight_grams": 200,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 5,
+      "diet_tags": [],
+      "macros": {
+        "kcal": 280,
+        "p": 28,
+        "f": 17,
+        "c": 3.1
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://imgproxy-retcat.assets.schwarz/NkPnTq8V-3Yeb6OWCyDjNIVCsr2bseSKudTGsnyGXls/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS82QTIxNTE3MjgzQUQ4NUEyM0EyODFCNTQ/wNTAyNkU3RjFFNkJCNjgxNTZFMTk1QjM0MTlFMDlFNzk1NTdBRDc5LnBuZw.png",
+      "product_id": "lidl-моцарела-200g",
+      "last_seen": "2026-10-11",
+      "first_seen": "2026-06-28",
+      "price_history": [
+        {
+          "date": "2026-06-28",
+          "store": "Lidl",
+          "price": 3.5,
+          "price_eur": 1.79,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-10-04",
+          "store": "Lidl",
+          "price": 1.89,
+          "price_eur": 0.97,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Lidl",
+          "price": 2.59,
+          "price_eur": 1.32,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 1.89,
+      "lowest_price_date": "2026-10-04",
+      "avg_price": 2.66
     }
   ]
 }
