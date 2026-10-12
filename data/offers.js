@@ -1,9 +1,9 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-10-12T15:09:14.618819Z",
-  "content_hash": "136655312aec44444aba7576e902ad68",
-  "total_offers": 4003,
-  "promo_offers": 1431,
-  "assortment_offers": 2572,
+  "generated_at": "2026-10-12T16:31:56.631295Z",
+  "content_hash": "ad15b27c823cdfc82838e15cf741d174",
+  "total_offers": 4002,
+  "promo_offers": 1429,
+  "assortment_offers": 2573,
   "stores": [
     "Billa",
     "Dar",
@@ -397,8 +397,8 @@ const OFFERS_DATA = {
       "discount_pct": 28,
       "valid_from": "2026-10-12",
       "valid_until": "2026-10-18",
-      "price_per_kg": 10.29,
-      "price_per_kg_eur": 5.26,
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
       "source_type": "promo",
       "available_stores": [
         "Kaufland"
@@ -417,8 +417,8 @@ const OFFERS_DATA = {
       "best_price_store": "Kaufland",
       "best_price": 10.29,
       "comparison_count": 1,
-      "product_id": "kaufland-лаврак-от-свежата-витрина",
-      "name": "Лаврак от свежата витрина",
+      "product_id": "kaufland-лаврак-изчистен",
+      "name": "Лаврак изчистен",
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00033235_Promo_1469349?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "protein",
       "emoji": "🍗",
@@ -437,25 +437,49 @@ const OFFERS_DATA = {
         "f": 2,
         "c": 0
       },
-      "avg_price": 9.95,
-      "lowest_price": 9.6,
-      "lowest_price_date": "2026-08-10",
+      "avg_price": 12.12,
+      "lowest_price": 9.29,
+      "lowest_price_date": "2026-08-17",
       "price_history": [
         [
+          "2026-05-18",
+          19.99,
+          26.99,
+          26
+        ],
+        [
           "2026-08-10",
-          9.6,
-          12.01,
+          11.43,
+          14.29,
           20
         ],
         [
-          "2026-10-12",
+          "2026-08-17",
+          9.29,
+          14.29,
+          35
+        ],
+        [
+          "2026-08-31",
+          10.29,
+          14.29,
+          28
+        ],
+        [
+          "2026-09-15",
+          11.43,
+          14.29,
+          20
+        ],
+        [
+          "2026-09-28",
           10.29,
           14.29,
           28
         ]
       ],
-      "price_seen_count": 2,
-      "price_signal": "normal"
+      "price_seen_count": 6,
+      "price_signal": "good"
     },
     {
       "store": "Kaufland",
@@ -1839,10 +1863,10 @@ const OFFERS_DATA = {
       "best_price_store": "Kaufland",
       "best_price": 2.09,
       "comparison_count": 1,
-      "product_id": "kaufland-боровинки-или-малини-клас-i-125g",
+      "product_id": "kaufland-боровинки-клас-i-125g",
       "weight_grams": 125,
       "weight_raw": "125 г",
-      "name": "Боровинки или Малини Клас: I",
+      "name": "Боровинки Клас: I",
       "image": "https://kaufland.media.schwarz/is/image/schwarz/AdobeStock_38803584?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "vegetable",
       "emoji": "🥦",
@@ -1861,19 +1885,61 @@ const OFFERS_DATA = {
         "f": 0.3,
         "c": 14
       },
-      "avg_price": 2.09,
-      "lowest_price": 2.09,
-      "lowest_price_date": "2026-10-12",
+      "avg_price": 4.75,
+      "lowest_price": 1.39,
+      "lowest_price_date": "2026-08-24",
       "price_history": [
         [
-          "2026-10-12",
+          "2026-07-27",
+          6.16,
+          10.48,
+          41
+        ],
+        [
+          "2026-08-04",
+          4.48,
+          7.8,
+          43
+        ],
+        [
+          "2026-08-17",
+          2.29,
+          3.99,
+          43
+        ],
+        [
+          "2026-08-24",
+          1.39,
+          1.75,
+          21
+        ],
+        [
+          "2026-08-31",
+          3.59,
+          4.99,
+          28
+        ],
+        [
+          "2026-09-14",
+          2.39,
+          2.99,
+          20
+        ],
+        [
+          "2026-10-01",
+          1.89,
+          2.99,
+          37
+        ],
+        [
+          "2026-10-11",
           2.09,
           2.99,
           30
         ]
       ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
+      "price_seen_count": 17,
+      "price_signal": "good"
     },
     {
       "store": "Kaufland",
@@ -49769,71 +49835,6 @@ const OFFERS_DATA = {
       "address": null,
       "new_price": 8.99,
       "new_price_eur": 4.6,
-      "old_price": 11.99,
-      "old_price_eur": 6.13,
-      "discount_pct": 25,
-      "valid_from": "2026-10-12",
-      "valid_until": "2026-10-18",
-      "price_per_kg": 3.0,
-      "price_per_kg_eur": 1.53,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 8.99,
-          "price_eur": 4.6,
-          "old_price": 11.99,
-          "old_price_eur": 6.13,
-          "discount_pct": 25,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 8.99,
-      "comparison_count": 1,
-      "product_id": "kaufland-felix-суха-храна-за-котки-различни-видове-3000g",
-      "weight_grams": 3000,
-      "weight_raw": "3 кг",
-      "name": "FELIX Суха храна за котки различни видове",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/030_589_20966147?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "pet",
-      "emoji": "🐾",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": true,
-      "is_long_lasting": true,
-      "avg_price": 10.49,
-      "lowest_price": 8.99,
-      "lowest_price_date": "2026-10-12",
-      "price_history": [
-        [
-          "2026-10-11",
-          11.99,
-          null,
-          null
-        ],
-        [
-          "2026-10-12",
-          8.99,
-          11.99,
-          25
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 8.99,
-      "new_price_eur": 4.6,
       "old_price": null,
       "old_price_eur": null,
       "discount_pct": null,
@@ -51794,6 +51795,71 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": "2026-10-12",
       "valid_until": "2026-10-18",
+      "price_per_kg": 4.0,
+      "price_per_kg_eur": 2.05,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 11.99,
+          "price_eur": 6.13,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 11.99,
+      "comparison_count": 1,
+      "product_id": "kaufland-felix-суха-храна-за-котки-различни-видове-3000g",
+      "weight_grams": 3000,
+      "weight_raw": "3 кг",
+      "name": "FELIX Суха храна за котки различни видове",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/030_589_20966147?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "pet",
+      "emoji": "🐾",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": true,
+      "is_long_lasting": true,
+      "avg_price": 10.49,
+      "lowest_price": 8.99,
+      "lowest_price_date": "2026-10-12",
+      "price_history": [
+        [
+          "2026-10-11",
+          11.99,
+          null,
+          null
+        ],
+        [
+          "2026-10-12",
+          8.99,
+          11.99,
+          25
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "wait"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 11.99,
+      "new_price_eur": 6.13,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-10-12",
+      "valid_until": "2026-10-18",
       "price_per_kg": null,
       "price_per_kg_eur": null,
       "source_type": "assortment",
@@ -52380,65 +52446,6 @@ const OFFERS_DATA = {
           12.99,
           null,
           null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 12.99,
-      "new_price_eur": 6.64,
-      "old_price": 19.99,
-      "old_price_eur": 10.22,
-      "discount_pct": 35,
-      "valid_from": "2026-10-12",
-      "valid_until": "2026-10-18",
-      "price_per_kg": 17.32,
-      "price_per_kg_eur": 8.86,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 12.99,
-          "price_eur": 6.64,
-          "old_price": 19.99,
-          "old_price_eur": 10.22,
-          "discount_pct": 35,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 12.99,
-      "comparison_count": 1,
-      "product_id": "kaufland-cavalier-provence-розе-750g",
-      "weight_grams": 750,
-      "weight_raw": "0,75 л",
-      "name": "Cavalier Provence Розе",
-      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20952015_P.jpg",
-      "category": "drinks",
-      "emoji": "🍺",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 12.99,
-      "lowest_price": 12.99,
-      "lowest_price_date": "2026-10-12",
-      "price_history": [
-        [
-          "2026-10-12",
-          12.99,
-          19.99,
-          35
         ]
       ],
       "price_seen_count": 1,
