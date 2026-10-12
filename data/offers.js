@@ -1,6 +1,6 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-10-12T11:46:51.419506Z",
-  "content_hash": "40d17954fc8b28908d46c0bf7ad6316d",
+  "generated_at": "2026-10-12T15:09:14.618819Z",
+  "content_hash": "136655312aec44444aba7576e902ad68",
   "total_offers": 4003,
   "promo_offers": 1431,
   "assortment_offers": 2572,
@@ -1839,10 +1839,10 @@ const OFFERS_DATA = {
       "best_price_store": "Kaufland",
       "best_price": 2.09,
       "comparison_count": 1,
-      "product_id": "kaufland-боровинки-клас-i-125g",
+      "product_id": "kaufland-боровинки-или-малини-клас-i-125g",
       "weight_grams": 125,
       "weight_raw": "125 г",
-      "name": "Боровинки Клас: I",
+      "name": "Боровинки или Малини Клас: I",
       "image": "https://kaufland.media.schwarz/is/image/schwarz/AdobeStock_38803584?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "vegetable",
       "emoji": "🥦",
@@ -1861,61 +1861,19 @@ const OFFERS_DATA = {
         "f": 0.3,
         "c": 14
       },
-      "avg_price": 4.75,
-      "lowest_price": 1.39,
-      "lowest_price_date": "2026-08-24",
+      "avg_price": 2.09,
+      "lowest_price": 2.09,
+      "lowest_price_date": "2026-10-12",
       "price_history": [
         [
-          "2026-07-27",
-          6.16,
-          10.48,
-          41
-        ],
-        [
-          "2026-08-04",
-          4.48,
-          7.8,
-          43
-        ],
-        [
-          "2026-08-17",
-          2.29,
-          3.99,
-          43
-        ],
-        [
-          "2026-08-24",
-          1.39,
-          1.75,
-          21
-        ],
-        [
-          "2026-08-31",
-          3.59,
-          4.99,
-          28
-        ],
-        [
-          "2026-09-14",
-          2.39,
-          2.99,
-          20
-        ],
-        [
-          "2026-10-01",
-          1.89,
-          2.99,
-          37
-        ],
-        [
-          "2026-10-11",
+          "2026-10-12",
           2.09,
           2.99,
           30
         ]
       ],
-      "price_seen_count": 17,
-      "price_signal": "good"
+      "price_seen_count": 1,
+      "price_signal": "buy"
     },
     {
       "store": "Kaufland",
@@ -336929,5 +336887,5 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     }
   ],
-  "catalog_products": 59848
+  "catalog_products": 59849
 };

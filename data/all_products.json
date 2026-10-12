@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-12T11:46:49.322538Z",
-  "total_products": 59848,
+  "generated_at": "2026-10-12T15:09:12.409897Z",
+  "total_products": 59849,
   "products": [
     {
       "name": "Пушена риба тон",
@@ -2391879,6 +2391879,48 @@
       "lowest_price": 12.99,
       "lowest_price_date": "2026-10-12",
       "avg_price": 12.99
+    },
+    {
+      "name": "Боровинки или Малини Клас: I",
+      "store": "Kaufland",
+      "emoji": "🥦",
+      "category": "vegetable",
+      "weight_raw": "125 г",
+      "weight_grams": 125,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 9,
+      "diet_tags": [],
+      "macros": {
+        "kcal": 57,
+        "p": 0.7,
+        "f": 0.3,
+        "c": 14
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/AdobeStock_38803584?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-боровинки-или-малини-клас-i-125g",
+      "last_seen": "2026-10-12",
+      "first_seen": "2026-10-12",
+      "price_history": [
+        {
+          "date": "2026-10-12",
+          "store": "Kaufland",
+          "price": 2.09,
+          "price_eur": 1.07,
+          "old_price": 2.99,
+          "discount_pct": 30
+        }
+      ],
+      "lowest_price": 2.09,
+      "lowest_price_date": "2026-10-12",
+      "avg_price": 2.09
     }
   ]
 }
