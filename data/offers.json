@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-12T18:42:35.837970Z",
-  "content_hash": "136655312aec44444aba7576e902ad68",
+  "generated_at": "2026-10-12T20:04:27.943390Z",
+  "content_hash": "1b075ef0f8ee311816607291ac1f6ebf",
   "total_offers": 4003,
   "promo_offers": 1431,
   "assortment_offers": 2572,
@@ -16778,10 +16778,10 @@
       "best_price_store": "Kaufland",
       "best_price": 5.29,
       "comparison_count": 1,
-      "product_id": "kaufland-jacobs-разтворимо-кафе-различни-видове-485g",
+      "product_id": "kaufland-jacobs-кафе-концентрат-различни-видове-485g",
       "weight_grams": 485,
       "weight_raw": "485 мл",
-      "name": "JACOBS Разтворимо кафе различни видове",
+      "name": "JACOBS Кафе концентрат различни видове",
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8711000622223_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
@@ -16796,10 +16796,10 @@
       "is_long_lasting": false,
       "avg_price": 5.29,
       "lowest_price": 5.29,
-      "lowest_price_date": "2026-10-11",
+      "lowest_price_date": "2026-10-12",
       "price_history": [
         [
-          "2026-10-11",
+          "2026-10-12",
           5.29,
           6.99,
           24
@@ -27050,10 +27050,10 @@
       "best_price_store": "Kaufland",
       "best_price": 0.99,
       "comparison_count": 1,
-      "product_id": "kaufland-veggie-terra-корнишони-680g",
+      "product_id": "kaufland-veggie-terra-корнишони-различни-видове-680g",
       "weight_grams": 680,
       "weight_raw": "680 г",
-      "name": "Veggie Terra Корнишони",
+      "name": "Veggie Terra Корнишони различни видове",
       "image": "https://kaufland.media.schwarz/is/image/schwarz/406_00114600_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
@@ -27067,10 +27067,10 @@
       "is_long_lasting": false,
       "avg_price": 0.99,
       "lowest_price": 0.99,
-      "lowest_price_date": "2026-10-11",
+      "lowest_price_date": "2026-10-12",
       "price_history": [
         [
-          "2026-10-11",
+          "2026-10-12",
           0.99,
           1.48,
           33

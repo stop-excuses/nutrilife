@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-12T18:42:33.886653Z",
-  "total_products": 59849,
+  "generated_at": "2026-10-12T20:04:25.854400Z",
+  "total_products": 59851,
   "products": [
     {
       "name": "Пушена риба тон",
@@ -2391921,6 +2391921,80 @@
       "lowest_price": 2.09,
       "lowest_price_date": "2026-10-12",
       "avg_price": 2.09
+    },
+    {
+      "name": "JACOBS Кафе концентрат различни видове",
+      "store": "Kaufland",
+      "emoji": "🍺",
+      "category": "drinks",
+      "weight_raw": "485 мл",
+      "weight_grams": 485,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 5,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/8711000622223_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-jacobs-кафе-концентрат-различни-видове-485g",
+      "last_seen": "2026-10-12",
+      "first_seen": "2026-10-12",
+      "price_history": [
+        {
+          "date": "2026-10-12",
+          "store": "Kaufland",
+          "price": 5.29,
+          "price_eur": 2.7,
+          "old_price": 6.99,
+          "discount_pct": 24
+        }
+      ],
+      "lowest_price": 5.29,
+      "lowest_price_date": "2026-10-12",
+      "avg_price": 5.29
+    },
+    {
+      "name": "Veggie Terra Корнишони различни видове",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "680 г",
+      "weight_grams": 680,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/406_00114600_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-veggie-terra-корнишони-различни-видове-680g",
+      "last_seen": "2026-10-12",
+      "first_seen": "2026-10-12",
+      "price_history": [
+        {
+          "date": "2026-10-12",
+          "store": "Kaufland",
+          "price": 0.99,
+          "price_eur": 0.51,
+          "old_price": 1.48,
+          "discount_pct": 33
+        }
+      ],
+      "lowest_price": 0.99,
+      "lowest_price_date": "2026-10-12",
+      "avg_price": 0.99
     }
   ]
 }
