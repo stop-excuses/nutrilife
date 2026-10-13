@@ -1,6 +1,6 @@
 const ALL_PRODUCTS_DATA = {
-  "generated_at": "2026-10-13T15:21:12.959449Z",
-  "total_products": 59857,
+  "generated_at": "2026-10-13T17:24:49.944949Z",
+  "total_products": 59859,
   "products": [
     {
       "name": "Пушена риба тон",
@@ -660207,7 +660207,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_02900547_P.jpg",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/323_02900547_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-7-days-bake-rolls-различни-видове-80g",
       "last_seen": "2026-10-13",
       "first_seen": "2026-05-11",
@@ -2392197,7 +2392197,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20995491_P.jpg",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/K_C3_BCrbis_20mit_20gef_C3_A4rbte_20Sukkulente_206cm?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-миниешеверия-стаино-растение",
       "last_seen": "2026-10-13",
       "first_seen": "2026-10-13",
@@ -2392251,6 +2392251,87 @@ const ALL_PRODUCTS_DATA = {
       "lowest_price": 8.99,
       "lowest_price_date": "2026-10-13",
       "avg_price": 8.99
+    },
+    {
+      "name": "DANONE Активиа с фибри",
+      "store": "Kaufland",
+      "emoji": "🥛",
+      "category": "dairy",
+      "weight_raw": "280 г",
+      "weight_grams": 280,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 5,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 334,
+        "p": 21,
+        "f": 28,
+        "c": 0.5
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/284_00054361_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-danone-активиа-с-фибри-280g",
+      "last_seen": "2026-10-13",
+      "first_seen": "2026-10-13",
+      "price_history": [
+        {
+          "date": "2026-10-13",
+          "store": "Kaufland",
+          "price": 0.99,
+          "price_eur": 0.51,
+          "old_price": 1.34,
+          "discount_pct": 26
+        }
+      ],
+      "lowest_price": 0.99,
+      "lowest_price_date": "2026-10-13",
+      "avg_price": 0.99
+    },
+    {
+      "name": "Kit Kat chunky Десерт различни вкусове",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "42 г",
+      "weight_grams": 42,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800020456293_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-kit-kat-chunky-десерт-различни-вкусове-42g",
+      "last_seen": "2026-10-13",
+      "first_seen": "2026-10-13",
+      "price_history": [
+        {
+          "date": "2026-10-13",
+          "store": "Kaufland",
+          "price": 0.59,
+          "price_eur": 0.3,
+          "old_price": 0.89,
+          "discount_pct": 34
+        }
+      ],
+      "lowest_price": 0.59,
+      "lowest_price_date": "2026-10-13",
+      "avg_price": 0.59
     }
   ]
 };
