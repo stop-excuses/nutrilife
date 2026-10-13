@@ -1,6 +1,6 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-10-13T17:24:52.077554Z",
-  "content_hash": "3919b289e36e044c920eaba03fed2f43",
+  "generated_at": "2026-10-13T20:34:13.782290Z",
+  "content_hash": "1c54624f980d66134074d1985cb7d345",
   "total_offers": 4014,
   "promo_offers": 1431,
   "assortment_offers": 2583,
@@ -11839,75 +11839,6 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 14,
       "price_signal": "good"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 0.99,
-      "new_price_eur": 0.51,
-      "old_price": 1.34,
-      "old_price_eur": 0.69,
-      "discount_pct": 26,
-      "valid_from": "2026-10-12",
-      "valid_until": "2026-10-18",
-      "price_per_kg": 3.54,
-      "price_per_kg_eur": 1.81,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 0.99,
-          "price_eur": 0.51,
-          "old_price": 1.34,
-          "old_price_eur": 0.69,
-          "discount_pct": 26,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 0.99,
-      "comparison_count": 1,
-      "product_id": "kaufland-danone-активиа-с-фибри-280g",
-      "weight_grams": 280,
-      "weight_raw": "280 г",
-      "name": "DANONE Активиа с фибри",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/284_00054361_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "dairy",
-      "emoji": "🥛",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "diet_tags": [
-        "budget"
-      ],
-      "macros": {
-        "kcal": 334,
-        "p": 21,
-        "f": 28,
-        "c": 0.5
-      },
-      "avg_price": 0.99,
-      "lowest_price": 0.99,
-      "lowest_price_date": "2026-10-13",
-      "price_history": [
-        [
-          "2026-10-13",
-          0.99,
-          1.34,
-          26
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
     },
     {
       "store": "Kaufland",
@@ -24951,10 +24882,10 @@ const OFFERS_DATA = {
       "best_price_store": "Kaufland",
       "best_price": 0.59,
       "comparison_count": 1,
-      "product_id": "kaufland-kit-kat-chunky-десерт-различни-вкусове-42g",
+      "product_id": "kaufland-kit-kat-chunky-lion-десерт-различни-вкусове-42g",
       "weight_grams": 42,
       "weight_raw": "42 г",
-      "name": "Kit Kat chunky Десерт различни вкусове",
+      "name": "Kit Kat chunky/ Lion Десерт различни вкусове",
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800020456293_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
@@ -24966,18 +24897,24 @@ const OFFERS_DATA = {
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
-      "avg_price": 0.59,
+      "avg_price": 0.87,
       "lowest_price": 0.59,
-      "lowest_price_date": "2026-10-13",
+      "lowest_price_date": "2026-09-14",
       "price_history": [
         [
-          "2026-10-13",
+          "2026-05-11",
+          1.15,
+          1.74,
+          34
+        ],
+        [
+          "2026-09-14",
           0.59,
           0.89,
           34
         ]
       ],
-      "price_seen_count": 1,
+      "price_seen_count": 2,
       "price_signal": "buy"
     },
     {
@@ -27403,6 +27340,71 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 0.99,
+      "new_price_eur": 0.51,
+      "old_price": 1.34,
+      "old_price_eur": 0.69,
+      "discount_pct": 26,
+      "valid_from": "2026-10-12",
+      "valid_until": "2026-10-18",
+      "price_per_kg": 3.54,
+      "price_per_kg_eur": 1.81,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 0.99,
+          "price_eur": 0.51,
+          "old_price": 1.34,
+          "old_price_eur": 0.69,
+          "discount_pct": 26,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 0.99,
+      "comparison_count": 1,
+      "product_id": "kaufland-danone-activia-пълнозърнеста-различни-видове-280g",
+      "weight_grams": 280,
+      "weight_raw": "280 г",
+      "name": "Danone Activia пълнозърнеста различни видове",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/284_00054361_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": true,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 1.46,
+      "lowest_price": 0.99,
+      "lowest_price_date": "2026-09-07",
+      "price_history": [
+        [
+          "2026-04-20",
+          1.94,
+          2.56,
+          24
+        ],
+        [
+          "2026-09-07",
+          0.99,
+          1.34,
+          26
+        ]
+      ],
+      "price_seen_count": 2,
       "price_signal": "buy"
     },
     {
