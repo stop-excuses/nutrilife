@@ -1,9 +1,9 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-10-13T11:37:51.080642Z",
-  "content_hash": "cf748e31726ee2cfc34efc585a453494",
-  "total_offers": 4015,
+  "generated_at": "2026-10-13T14:02:44.962796Z",
+  "content_hash": "1c54624f980d66134074d1985cb7d345",
+  "total_offers": 4014,
   "promo_offers": 1431,
-  "assortment_offers": 2584,
+  "assortment_offers": 2583,
   "stores": [
     "Billa",
     "Dar",
@@ -24580,7 +24580,7 @@ const OFFERS_DATA = {
       "weight_grams": 80,
       "weight_raw": "80 г",
       "name": "7 DAYS Bake Rolls различни видове",
-      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_02900547_P.jpg",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/323_02900547_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -40389,63 +40389,6 @@ const OFFERS_DATA = {
     {
       "store": "Kaufland",
       "address": null,
-      "new_price": 3.49,
-      "new_price_eur": 1.78,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-10-12",
-      "valid_until": "2026-10-18",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 3.49,
-          "price_eur": 1.78,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 3.49,
-      "comparison_count": 1,
-      "product_id": "kaufland-crivit-кинезиолента",
-      "name": "CRIVIT Кинезиолента",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/4250527629765_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": true,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 3.49,
-      "lowest_price": 3.49,
-      "lowest_price_date": "2026-10-11",
-      "price_history": [
-        [
-          "2026-10-11",
-          3.49,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
       "new_price": 3.59,
       "new_price_eur": 1.84,
       "old_price": null,
@@ -46513,7 +46456,7 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "kaufland-миниешеверия-стаино-растение",
       "name": "Миниешеверия Стайно растение",
-      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20995491_P.jpg",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/K_C3_BCrbis_20mit_20gef_C3_A4rbte_20Sukkulente_206cm?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
