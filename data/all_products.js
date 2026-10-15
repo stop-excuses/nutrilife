@@ -1,5 +1,5 @@
 const ALL_PRODUCTS_DATA = {
-  "generated_at": "2026-10-15T10:25:40.132223Z",
+  "generated_at": "2026-10-15T13:05:38.596590Z",
   "total_products": 59890,
   "products": [
     {

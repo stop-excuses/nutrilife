@@ -1,9 +1,9 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-10-15T08:39:45.222995Z",
-  "content_hash": "2b24b5267ae10e85134d394964b4b045",
-  "total_offers": 4046,
+  "generated_at": "2026-10-15T13:05:40.709192Z",
+  "content_hash": "849a7ca1de587bbce28e20527ab55ac5",
+  "total_offers": 4040,
   "promo_offers": 1465,
-  "assortment_offers": 2581,
+  "assortment_offers": 2575,
   "stores": [
     "Billa",
     "Dar",
@@ -90333,82 +90333,6 @@ const OFFERS_DATA = {
       "price_signal": "normal"
     },
     {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 1.59,
-      "new_price_eur": 0.81,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-10-12",
-      "valid_until": "2026-10-18",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 1.59,
-          "price_eur": 0.81,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 1.59,
-      "comparison_count": 1,
-      "product_id": "kaufland-хамедорея-ø6-см",
-      "name": "Хамедорея Ø6 см",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/09902303_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "macros": {
-        "kcal": 304,
-        "p": 0.3,
-        "f": 0,
-        "c": 82
-      },
-      "avg_price": 2.73,
-      "lowest_price": 1.59,
-      "lowest_price_date": "2026-10-13",
-      "price_history": [
-        [
-          "2026-05-12",
-          3.48,
-          null,
-          null
-        ],
-        [
-          "2026-07-14",
-          3.11,
-          null,
-          null
-        ],
-        [
-          "2026-10-13",
-          1.59,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "buy"
-    },
-    {
       "store": "Fantastico",
       "address": null,
       "new_price": 1.59,
@@ -95920,7 +95844,7 @@ const OFFERS_DATA = {
       "weight_grams": 1400,
       "weight_raw": "1,4 л",
       "name": "Саяна Прясно мляко",
-      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_00094893_P.jpg",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800226524222_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "dairy",
       "emoji": "🥛",
       "health_score": 5,
@@ -112924,70 +112848,6 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 4.99,
-      "new_price_eur": 2.55,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-10-12",
-      "valid_until": "2026-10-18",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 4.99,
-          "price_eur": 2.55,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 4.99,
-      "comparison_count": 1,
-      "product_id": "kaufland-мини-сукулент-или-калахое-в-керамика-тиква-6-см-стаино-растение",
-      "name": "Мини сукулент или калахое в керамика \"Тиква\" 6 см Стайно растение",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/Mini_20Kalanchoe_20in_20K_C3_BCrbis_20Keramik_206cm?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "vegetable",
-      "emoji": "🥦",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": true,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "macros": {
-        "kcal": 26,
-        "p": 1,
-        "f": 0.1,
-        "c": 7
-      },
-      "avg_price": 4.99,
-      "lowest_price": 4.99,
-      "lowest_price_date": "2026-10-13",
-      "price_history": [
-        [
-          "2026-10-13",
-          4.99,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
       "price_signal": "buy"
     },
     {
@@ -197935,87 +197795,6 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 2.49,
-      "new_price_eur": 1.27,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-10-12",
-      "valid_until": "2026-10-18",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 2.49,
-          "price_eur": 1.27,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 2.49,
-      "comparison_count": 1,
-      "product_id": "kaufland-каланхое-ø10-5-см",
-      "name": "Каланхое Ø10,5 см",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/09902124_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 4.16,
-      "lowest_price": 1.99,
-      "lowest_price_date": "2026-08-25",
-      "price_history": [
-        [
-          "2026-04-30",
-          5.98,
-          null,
-          null
-        ],
-        [
-          "2026-06-02",
-          4.48,
-          null,
-          null
-        ],
-        [
-          "2026-06-30",
-          5.85,
-          null,
-          null
-        ],
-        [
-          "2026-08-25",
-          1.99,
-          null,
-          null
-        ],
-        [
-          "2026-09-15",
-          2.49,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 5,
-      "price_signal": "good"
-    },
-    {
       "store": "Fantastico",
       "address": null,
       "new_price": 2.49,
@@ -240434,63 +240213,6 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 4.99,
-      "new_price_eur": 2.55,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-10-12",
-      "valid_until": "2026-10-18",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 4.99,
-          "price_eur": 2.55,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 4.99,
-      "comparison_count": 1,
-      "product_id": "kaufland-минисукулент-стаино-растение",
-      "name": "Минисукулент Стайно растение",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/Geister_20Keramik_20mit_20sukkulente_206cm?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": true,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 4.99,
-      "lowest_price": 4.99,
-      "lowest_price_date": "2026-10-13",
-      "price_history": [
-        [
-          "2026-10-13",
-          4.99,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
       "store": "Fantastico",
       "address": null,
       "new_price": 4.99,
@@ -247077,81 +246799,6 @@ const OFFERS_DATA = {
       "best_price_store": "Kaufland",
       "best_price": 5.49,
       "comparison_count": 1,
-      "product_id": "kaufland-хризантема-ø13-см",
-      "name": "Хризантема Ø13 см",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00094340_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 6.33,
-      "lowest_price": 4.99,
-      "lowest_price_date": "2026-10-06",
-      "price_history": [
-        [
-          "2026-07-21",
-          9.35,
-          null,
-          null
-        ],
-        [
-          "2026-09-29",
-          5.49,
-          null,
-          null
-        ],
-        [
-          "2026-10-06",
-          4.99,
-          null,
-          null
-        ],
-        [
-          "2026-10-13",
-          5.49,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 4,
-      "price_signal": "good"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 5.49,
-      "new_price_eur": 2.81,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-10-12",
-      "valid_until": "2026-10-18",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 5.49,
-          "price_eur": 2.81,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 5.49,
-      "comparison_count": 1,
       "product_id": "kaufland-silvercrest-купи-3-бр",
       "name": "SILVERCREST Купи 3 бр.",
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627891878_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
@@ -250151,69 +249798,6 @@ const OFFERS_DATA = {
           5.99,
           8.69,
           31
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 5.99,
-      "new_price_eur": 3.06,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-10-12",
-      "valid_until": "2026-10-18",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 5.99,
-          "price_eur": 3.06,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 5.99,
-      "comparison_count": 1,
-      "product_id": "kaufland-миникаланхое-ø6-см",
-      "name": "Миникаланхое Ø6 см",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/Kalanchoe_20in_20Halloween-Keramik_20Zaubertrank_Lundager?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 8.86,
-      "lowest_price": 5.99,
-      "lowest_price_date": "2026-10-13",
-      "price_history": [
-        [
-          "2026-06-09",
-          11.72,
-          null,
-          null
-        ],
-        [
-          "2026-10-13",
-          5.99,
-          null,
-          null
         ]
       ],
       "price_seen_count": 2,
@@ -280242,7 +279826,7 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "kaufland-parkside-куфар-за-инструменти-80-части",
       "name": "PARKSIDE® Куфар за инструменти 80 части",
-      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20828183_P.jpg",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627438103_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
