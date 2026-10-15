@@ -1,8 +1,8 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-10-15T13:05:40.709192Z",
-  "content_hash": "849a7ca1de587bbce28e20527ab55ac5",
-  "total_offers": 4040,
-  "promo_offers": 1465,
+  "generated_at": "2026-10-15T18:58:07.958820Z",
+  "content_hash": "ce35670131af3bdd59d68fab5c3a8be4",
+  "total_offers": 4039,
+  "promo_offers": 1464,
   "assortment_offers": 2575,
   "stores": [
     "Billa",
@@ -37574,76 +37574,6 @@ const OFFERS_DATA = {
           1.55,
           1.94,
           20
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 1.59,
-      "new_price_eur": 0.81,
-      "old_price": 2.55,
-      "old_price_eur": 1.3,
-      "discount_pct": 38,
-      "valid_from": "2026-10-12",
-      "valid_until": "2026-10-18",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 1.59,
-          "price_eur": 0.81,
-          "old_price": 2.55,
-          "old_price_eur": 1.3,
-          "discount_pct": 38,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 1.59,
-      "comparison_count": 1,
-      "product_id": "kaufland-круши-лукас",
-      "name": "Круши Лукас",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/09700108_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "vegetable",
-      "emoji": "🥦",
-      "health_score": 7,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "macros": {
-        "kcal": 57,
-        "p": 0.4,
-        "f": 0.1,
-        "c": 15
-      },
-      "avg_price": 1.69,
-      "lowest_price": 1.59,
-      "lowest_price_date": "2026-10-11",
-      "price_history": [
-        [
-          "2026-09-28",
-          1.79,
-          2.55,
-          30
-        ],
-        [
-          "2026-10-11",
-          1.59,
-          2.55,
-          38
         ]
       ],
       "price_seen_count": 2,
@@ -279403,7 +279333,7 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "kaufland-parkside-фрезерни-битове-30-части",
       "name": "PARKSIDE® Фрезерни битове 30 части",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627551154_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20758714_P.jpg",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,

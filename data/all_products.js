@@ -1,5 +1,5 @@
 const ALL_PRODUCTS_DATA = {
-  "generated_at": "2026-10-15T17:26:59.129664Z",
+  "generated_at": "2026-10-15T18:58:05.846108Z",
   "total_products": 59890,
   "products": [
     {
@@ -2395649,7 +2395649,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627551154_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20758714_P.jpg",
       "product_id": "kaufland-parkside-фрезерни-битове-30-части",
       "last_seen": "2026-10-15",
       "first_seen": "2026-10-11",
