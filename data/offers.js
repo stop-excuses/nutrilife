@@ -1,9 +1,9 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-10-16T13:00:11.809088Z",
-  "content_hash": "018bf6d1e04d192cbfa7877a0d286d2a",
+  "generated_at": "2026-10-16T16:25:42.053402Z",
+  "content_hash": "7796f6473d4271713ea99d8fae7034bd",
   "total_offers": 4039,
-  "promo_offers": 1468,
-  "assortment_offers": 2571,
+  "promo_offers": 1467,
+  "assortment_offers": 2572,
   "stores": [
     "Billa",
     "Dar",
@@ -100289,8 +100289,8 @@ const OFFERS_DATA = {
       "product_id": "kaufland-bojana-o_ye-бургер-сос-трюфел-маионеза-или-фъстъчено-масло-200g",
       "weight_grams": 200,
       "weight_raw": "200 г",
-      "name": "Bojana o_ye Бургер сос, Трюфел майонеза или Фъстъчено масло",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/257_2020933191B_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "name": "BOJANA O_YE Бургер сос, Трюфел майонеза или Фъстъчено масло",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/257_2020933192B_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "nuts",
       "emoji": "🥜",
       "health_score": 5,
@@ -200044,65 +200044,6 @@ const OFFERS_DATA = {
       "price_signal": "normal"
     },
     {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 2.59,
-      "new_price_eur": 1.32,
-      "old_price": 3.59,
-      "old_price_eur": 1.84,
-      "discount_pct": 28,
-      "valid_from": "2026-10-12",
-      "valid_until": "2026-10-18",
-      "price_per_kg": 12.95,
-      "price_per_kg_eur": 6.62,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 2.59,
-          "price_eur": 1.32,
-          "old_price": 3.59,
-          "old_price_eur": 1.84,
-          "discount_pct": 28,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 2.59,
-      "comparison_count": 1,
-      "product_id": "kaufland-bojana-o_ye-сос-различни-видове-200g",
-      "weight_grams": 200,
-      "weight_raw": "200 г",
-      "name": "BOJANA O_YE Сос различни видове",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/257_2020933192B_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 2.59,
-      "lowest_price": 2.59,
-      "lowest_price_date": "2026-10-16",
-      "price_history": [
-        [
-          "2026-10-16",
-          2.59,
-          3.59,
-          28
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
       "store": "Fantastico",
       "address": null,
       "new_price": 2.59,
@@ -264851,6 +264792,63 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 7,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 8.99,
+      "new_price_eur": 4.6,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-10-12",
+      "valid_until": "2026-10-18",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 8.99,
+          "price_eur": 4.6,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 8.99,
+      "comparison_count": 1,
+      "product_id": "kaufland-букет-рози-с-хиперикум",
+      "name": "Букет Рози с хиперикум",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/Flower_20Direct_20Rosen_20Hypericum_20Nr__20134_20mit_20T_C3_BCte_202?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 8.99,
+      "lowest_price": 8.99,
+      "lowest_price_date": "2026-10-13",
+      "price_history": [
+        [
+          "2026-10-13",
+          8.99,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 1,
       "price_signal": "buy"
     },
     {

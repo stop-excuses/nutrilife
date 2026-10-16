@@ -1,5 +1,5 @@
 const ALL_PRODUCTS_DATA = {
-  "generated_at": "2026-10-16T13:00:09.686083Z",
+  "generated_at": "2026-10-16T16:25:39.393685Z",
   "total_products": 59891,
   "products": [
     {
@@ -634809,7 +634809,7 @@ const ALL_PRODUCTS_DATA = {
       "store": "T-Market"
     },
     {
-      "name": "Bojana o_ye Бургер сос, Трюфел майонеза или Фъстъчено масло",
+      "name": "BOJANA O_YE Бургер сос, Трюфел майонеза или Фъстъчено масло",
       "store": "Kaufland",
       "emoji": "🥜",
       "category": "nuts",
@@ -634832,7 +634832,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/257_2020933191B_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/257_2020933192B_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-bojana-o_ye-бургер-сос-трюфел-маионеза-или-фъстъчено-масло-200g",
       "last_seen": "2026-10-16",
       "first_seen": "2026-05-07",
