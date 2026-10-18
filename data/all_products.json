@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-10-16T16:25:39.393685Z",
-  "total_products": 59891,
+  "total_products": 59895,
   "products": [
     {
       "name": "Пушена риба тон",
@@ -2398050,6 +2398050,146 @@
       "lowest_price": 2.59,
       "lowest_price_date": "2026-10-16",
       "avg_price": 2.59
+    },
+    {
+      "product_id": "metro-100гр-шоколад-снежни-топки-мини-милка-milka",
+      "name": "100гр Шоколад Снежни Топки Мини Милка / Milka",
+      "store": "Metro",
+      "emoji": "🛒",
+      "category": "sweets",
+      "weight_raw": "100 г",
+      "weight_grams": 100,
+      "image": "https://cdn.metro-group.com/bg/bg_pim_291672001001_01.png?format=jpg&quality=80&dpi=72",
+      "is_food": true,
+      "is_healthy": false,
+      "health_score": 5,
+      "diet_tags": [],
+      "macros": null,
+      "first_seen": "2026-10-18T10:27:45.346710+00:00",
+      "last_seen": "2026-10-18T10:27:45.346710+00:00",
+      "new_price": 4.79,
+      "new_price_eur": 2.45,
+      "price_per_kg": 47.9,
+      "price_per_kg_eur": 24.49,
+      "avg_price": 4.79,
+      "lowest_price": 4.79,
+      "lowest_price_date": "2026-10-18",
+      "price_seen_count": 1,
+      "price_history": [
+        {
+          "date": "2026-10-18",
+          "price": 4.79,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "price_signal": null,
+      "_source": "pazarko"
+    },
+    {
+      "product_id": "metro-125гр-боровинки",
+      "name": "125гр Боровинки",
+      "store": "Metro",
+      "emoji": "🛒",
+      "category": "vegetable",
+      "weight_raw": "125 г",
+      "weight_grams": 125,
+      "image": "https://cdn.metro-group.com/bg/bg_pim_176592001001_01.png?format=jpg&quality=80&dpi=72",
+      "is_food": true,
+      "is_healthy": false,
+      "health_score": 5,
+      "diet_tags": [],
+      "macros": null,
+      "first_seen": "2026-10-18T10:27:45.346710+00:00",
+      "last_seen": "2026-10-18T10:27:45.346710+00:00",
+      "new_price": 4.89,
+      "new_price_eur": 2.5,
+      "price_per_kg": 39.12,
+      "price_per_kg_eur": 20.0,
+      "avg_price": 4.89,
+      "lowest_price": 4.89,
+      "lowest_price_date": "2026-10-18",
+      "price_seen_count": 1,
+      "price_history": [
+        {
+          "date": "2026-10-18",
+          "price": 4.89,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "price_signal": null,
+      "_source": "pazarko"
+    },
+    {
+      "product_id": "metro-125гр-шоколадов-дядо-коледа-линдт-lindt",
+      "name": "125гр. Шоколадов Дядо Коледа Линдт / Lindt",
+      "store": "Metro",
+      "emoji": "🛒",
+      "category": "sweets",
+      "weight_raw": "125 г",
+      "weight_grams": 125,
+      "image": "https://cdn.metro-group.com/bg/bg_pim_291877001001_01.png?format=jpg&quality=80&dpi=72",
+      "is_food": true,
+      "is_healthy": false,
+      "health_score": 5,
+      "diet_tags": [],
+      "macros": null,
+      "first_seen": "2026-10-18T10:27:45.346710+00:00",
+      "last_seen": "2026-10-18T10:27:45.346710+00:00",
+      "new_price": 10.99,
+      "new_price_eur": 5.62,
+      "price_per_kg": 87.92,
+      "price_per_kg_eur": 44.95,
+      "avg_price": 10.99,
+      "lowest_price": 10.99,
+      "lowest_price_date": "2026-10-18",
+      "price_seen_count": 1,
+      "price_history": [
+        {
+          "date": "2026-10-18",
+          "price": 10.99,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "price_signal": null,
+      "_source": "pazarko"
+    },
+    {
+      "product_id": "bulmag-50-забравени-места-в-българия",
+      "name": "50 забравени места в България",
+      "store": "BulMag",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "image": "https://api.bulmag.org/thumbnails/fa0199090545e112d8c349213cb3043b.jpeg",
+      "is_food": true,
+      "is_healthy": false,
+      "health_score": 5,
+      "diet_tags": [],
+      "macros": null,
+      "first_seen": "2026-10-18T10:27:45.346710+00:00",
+      "last_seen": "2026-10-18T10:27:45.346710+00:00",
+      "new_price": 27.99,
+      "new_price_eur": 14.31,
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "avg_price": 27.99,
+      "lowest_price": 27.99,
+      "lowest_price_date": "2026-10-18",
+      "price_seen_count": 1,
+      "price_history": [
+        {
+          "date": "2026-10-18",
+          "price": 27.99,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "price_signal": null,
+      "_source": "pazarko"
     }
   ]
 }
