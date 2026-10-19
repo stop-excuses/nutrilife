@@ -1,5 +1,5 @@
 const ALL_PRODUCTS_DATA = {
-  "generated_at": "2026-10-19T16:16:49.089076Z",
+  "generated_at": "2026-10-19T17:20:48.639862Z",
   "total_products": 60191,
   "products": [
     {
@@ -2163913,7 +2163913,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "/etc.clientlibs/kaufland/clientlibs/clientlib-klsite/resources/frontend/assets/img/fallback-2afd874ba0.png",
+      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_00104503_P.jpg",
       "product_id": "kaufland-морски-риболов-несебър-паламуд-кг",
       "last_seen": "2026-10-19",
       "first_seen": "2026-07-20",
