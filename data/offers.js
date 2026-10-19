@@ -1,9 +1,9 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-10-19T09:44:06.908634Z",
-  "content_hash": "82f48c92e4be4b9d5bd393aaf1b373c6",
-  "total_offers": 4067,
-  "promo_offers": 1426,
-  "assortment_offers": 2641,
+  "generated_at": "2026-10-19T12:52:16.892209Z",
+  "content_hash": "569b89311c28ebb4d1c328b373b024a3",
+  "total_offers": 4099,
+  "promo_offers": 1435,
+  "assortment_offers": 2664,
   "stores": [
     "Billa",
     "Dar",
@@ -123,32 +123,32 @@ const OFFERS_DATA = {
     {
       "store": "Kaufland",
       "address": null,
-      "new_price": 5.99,
-      "new_price_eur": 3.06,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
+      "new_price": 4.49,
+      "new_price_eur": 2.3,
+      "old_price": 5.99,
+      "old_price_eur": 3.06,
+      "discount_pct": 25,
       "valid_from": "2026-10-19",
       "valid_until": "2026-10-25",
-      "price_per_kg": 29.95,
-      "price_per_kg_eur": 15.31,
-      "source_type": "assortment",
+      "price_per_kg": 22.45,
+      "price_per_kg_eur": 11.48,
+      "source_type": "promo",
       "available_stores": [
         "Kaufland"
       ],
       "store_prices": [
         {
           "store": "Kaufland",
-          "price": 5.99,
-          "price_eur": 3.06,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
+          "price": 4.49,
+          "price_eur": 2.3,
+          "old_price": 5.99,
+          "old_price_eur": 3.06,
+          "discount_pct": 25,
+          "source_type": "promo"
         }
       ],
       "best_price_store": "Kaufland",
-      "best_price": 5.99,
+      "best_price": 4.49,
       "comparison_count": 1,
       "product_id": "kaufland-суши-поп-ъп-сьомга-крема-сирене-200g",
       "weight_grams": 200,
@@ -4737,6 +4737,145 @@ const OFFERS_DATA = {
     {
       "store": "Kaufland",
       "address": null,
+      "new_price": 0.3,
+      "new_price_eur": 0.15,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-10-19",
+      "valid_until": "2026-10-25",
+      "price_per_kg": 5.36,
+      "price_per_kg_eur": 2.74,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 0.3,
+          "price_eur": 0.15,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 0.3,
+      "comparison_count": 1,
+      "product_id": "kaufland-великденски-донът-с-глазура-ябълка-56g",
+      "weight_grams": 56,
+      "weight_raw": "56 г",
+      "name": "Великденски донът с глазура ябълка",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4151_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "vegetable",
+      "emoji": "🥦",
+      "health_score": 7,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 52,
+        "p": 0.3,
+        "f": 0.2,
+        "c": 14
+      },
+      "avg_price": 0.44,
+      "lowest_price": 0.3,
+      "lowest_price_date": "2026-08-17",
+      "price_history": [
+        [
+          "2026-06-08",
+          0.59,
+          null,
+          null
+        ],
+        [
+          "2026-08-17",
+          0.3,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 0.44,
+      "new_price_eur": 0.22,
+      "old_price": 0.59,
+      "old_price_eur": 0.3,
+      "discount_pct": 25,
+      "valid_from": "2026-10-19",
+      "valid_until": "2026-10-25",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 0.44,
+          "price_eur": 0.22,
+          "old_price": 0.59,
+          "old_price_eur": 0.3,
+          "discount_pct": 25,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 0.44,
+      "comparison_count": 1,
+      "product_id": "kaufland-донът-с-ягодов-аромат",
+      "name": "Донът с ягодов аромат",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20924113_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "vegetable",
+      "emoji": "🥦",
+      "health_score": 7,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 32,
+        "p": 0.7,
+        "f": 0.3,
+        "c": 7.7
+      },
+      "avg_price": 0.44,
+      "lowest_price": 0.44,
+      "lowest_price_date": "2026-09-28",
+      "price_history": [
+        [
+          "2026-09-28",
+          0.44,
+          0.59,
+          25
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
       "new_price": 0.45,
       "new_price_eur": 0.23,
       "old_price": 0.61,
@@ -4819,6 +4958,75 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 4,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 0.53,
+      "new_price_eur": 0.27,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-10-19",
+      "valid_until": "2026-10-25",
+      "price_per_kg": 6.63,
+      "price_per_kg_eur": 3.39,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 0.53,
+          "price_eur": 0.27,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 0.53,
+      "comparison_count": 1,
+      "product_id": "kaufland-поничка-с-пълнеж-горчив-портокал-80g",
+      "weight_grams": 80,
+      "weight_raw": "80 г",
+      "name": "Поничка с пълнеж горчив портокал",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20829389_P-3?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "vegetable",
+      "emoji": "🥦",
+      "health_score": 7,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 47,
+        "p": 0.9,
+        "f": 0.1,
+        "c": 12
+      },
+      "avg_price": 0.53,
+      "lowest_price": 0.53,
+      "lowest_price_date": "2026-08-17",
+      "price_history": [
+        [
+          "2026-08-17",
+          0.53,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 1,
       "price_signal": "buy"
     },
     {
@@ -5012,6 +5220,78 @@ const OFFERS_DATA = {
     {
       "store": "Kaufland",
       "address": null,
+      "new_price": 0.57,
+      "new_price_eur": 0.29,
+      "old_price": 0.76,
+      "old_price_eur": 0.39,
+      "discount_pct": 25,
+      "valid_from": "2026-10-19",
+      "valid_until": "2026-10-25",
+      "price_per_kg": 8.51,
+      "price_per_kg_eur": 4.35,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 0.57,
+          "price_eur": 0.29,
+          "old_price": 0.76,
+          "old_price_eur": 0.39,
+          "discount_pct": 25,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 0.57,
+      "comparison_count": 1,
+      "product_id": "kaufland-донът-с-ябълка-от-нашата-пекарна-67g",
+      "weight_grams": 67,
+      "weight_raw": "67 г",
+      "name": "Донът с ябълка от нашата пекарна",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20284062_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "vegetable",
+      "emoji": "🥦",
+      "health_score": 7,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 52,
+        "p": 0.3,
+        "f": 0.2,
+        "c": 14
+      },
+      "avg_price": 0.84,
+      "lowest_price": 0.57,
+      "lowest_price_date": "2026-08-17",
+      "price_history": [
+        [
+          "2026-06-08",
+          1.11,
+          1.49,
+          26
+        ],
+        [
+          "2026-08-17",
+          0.57,
+          0.76,
+          25
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
       "new_price": 0.59,
       "new_price_eur": 0.3,
       "old_price": 0.66,
@@ -5078,6 +5358,81 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 0.66,
+      "new_price_eur": 0.34,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-10-19",
+      "valid_until": "2026-10-25",
+      "price_per_kg": 7.33,
+      "price_per_kg_eur": 3.75,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 0.66,
+          "price_eur": 0.34,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 0.66,
+      "comparison_count": 1,
+      "product_id": "kaufland-донът-пица-с-домат-и-босилек-90g",
+      "weight_grams": 90,
+      "weight_raw": "90 г",
+      "name": "Донът пица с домат и босилек",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/9866_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "vegetable",
+      "emoji": "🥦",
+      "health_score": 7,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 18,
+        "p": 0.9,
+        "f": 0.2,
+        "c": 3.9
+      },
+      "avg_price": 1.2,
+      "lowest_price": 0.66,
+      "lowest_price_date": "2026-08-17",
+      "price_history": [
+        [
+          "2026-06-22",
+          1.74,
+          null,
+          null
+        ],
+        [
+          "2026-08-17",
+          0.66,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 2,
       "price_signal": "buy"
     },
     {
@@ -5657,6 +6012,82 @@ const OFFERS_DATA = {
           0.89,
           1.37,
           35
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 0.89,
+      "new_price_eur": 0.46,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-10-19",
+      "valid_until": "2026-10-25",
+      "price_per_kg": 8.9,
+      "price_per_kg_eur": 4.55,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 0.89,
+          "price_eur": 0.46,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 0.89,
+      "comparison_count": 1,
+      "product_id": "kaufland-донът-с-пълнеж-крема-сирене-100g",
+      "weight_grams": 100,
+      "weight_raw": "100 г",
+      "name": "Донът с пълнеж крема сирене",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4721_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "dairy",
+      "emoji": "🥛",
+      "health_score": 7,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "keto",
+        "vegetarian"
+      ],
+      "macros": {
+        "kcal": 264,
+        "p": 14,
+        "f": 22,
+        "c": 2
+      },
+      "avg_price": 1.31,
+      "lowest_price": 0.89,
+      "lowest_price_date": "2026-08-17",
+      "price_history": [
+        [
+          "2026-06-08",
+          1.74,
+          null,
+          null
+        ],
+        [
+          "2026-08-17",
+          0.89,
+          null,
+          null
         ]
       ],
       "price_seen_count": 2,
@@ -9640,6 +10071,81 @@ const OFFERS_DATA = {
     {
       "store": "Kaufland",
       "address": null,
+      "new_price": 0.07,
+      "new_price_eur": 0.04,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-10-19",
+      "valid_until": "2026-10-25",
+      "price_per_kg": 2.8,
+      "price_per_kg_eur": 1.43,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 0.07,
+          "price_eur": 0.04,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 0.07,
+      "comparison_count": 1,
+      "product_id": "kaufland-минипоничка-с-лешников-пълнеж-25g",
+      "weight_grams": 25,
+      "weight_raw": "25 г",
+      "name": "Минипоничка с лешников пълнеж",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20776500_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "nuts",
+      "emoji": "🥜",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": true,
+      "is_bulk_worthy": true,
+      "is_long_lasting": true,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 628,
+        "p": 15,
+        "f": 61,
+        "c": 17
+      },
+      "avg_price": 0.11,
+      "lowest_price": 0.07,
+      "lowest_price_date": "2026-08-17",
+      "price_history": [
+        [
+          "2026-06-08",
+          0.14,
+          null,
+          null
+        ],
+        [
+          "2026-08-17",
+          0.07,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
       "new_price": 0.14,
       "new_price_eur": 0.07,
       "old_price": 0.28,
@@ -9835,6 +10341,162 @@ const OFFERS_DATA = {
     {
       "store": "Kaufland",
       "address": null,
+      "new_price": 0.29,
+      "new_price_eur": 0.15,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-10-19",
+      "valid_until": "2026-10-25",
+      "price_per_kg": 4.46,
+      "price_per_kg_eur": 2.28,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 0.29,
+          "price_eur": 0.15,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 0.29,
+      "comparison_count": 1,
+      "product_id": "kaufland-донът-с-канела-и-пълнеж-круша-65g",
+      "weight_grams": 65,
+      "weight_raw": "65 г",
+      "name": "Донът с канела и пълнеж круша",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20215350_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "vegetable",
+      "emoji": "🥦",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 57,
+        "p": 0.4,
+        "f": 0.1,
+        "c": 15
+      },
+      "avg_price": 0.42,
+      "lowest_price": 0.29,
+      "lowest_price_date": "2026-10-19",
+      "price_history": [
+        [
+          "2026-06-08",
+          0.65,
+          null,
+          null
+        ],
+        [
+          "2026-08-17",
+          0.33,
+          null,
+          null
+        ],
+        [
+          "2026-10-19",
+          0.29,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 0.3,
+      "new_price_eur": 0.15,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-10-19",
+      "valid_until": "2026-10-25",
+      "price_per_kg": 4.35,
+      "price_per_kg_eur": 2.22,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 0.3,
+          "price_eur": 0.15,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 0.3,
+      "comparison_count": 1,
+      "product_id": "kaufland-b-b-донът-лимонов-чиизкеик-от-нашата-пекарна-69g",
+      "weight_grams": 69,
+      "weight_raw": "69 г",
+      "name": "B&B Донът лимонов чийзкейк от нашата пекарна",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20826047_P-2?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
+      "category": "vegetable",
+      "emoji": "🥦",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 29,
+        "p": 1.1,
+        "f": 0.3,
+        "c": 9
+      },
+      "avg_price": 0.44,
+      "lowest_price": 0.3,
+      "lowest_price_date": "2026-08-17",
+      "price_history": [
+        [
+          "2026-06-08",
+          0.59,
+          null,
+          null
+        ],
+        [
+          "2026-08-17",
+          0.3,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
       "new_price": 0.34,
       "new_price_eur": 0.17,
       "old_price": 0.45,
@@ -9936,6 +10598,151 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 7,
       "price_signal": "good"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 0.34,
+      "new_price_eur": 0.17,
+      "old_price": 0.46,
+      "old_price_eur": 0.24,
+      "discount_pct": 26,
+      "valid_from": "2026-10-19",
+      "valid_until": "2026-10-25",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 0.34,
+          "price_eur": 0.17,
+          "old_price": 0.46,
+          "old_price_eur": 0.24,
+          "discount_pct": 26,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 0.34,
+      "comparison_count": 1,
+      "product_id": "kaufland-минипоничка-с-пълнеж-шамфъстък",
+      "name": "Минипоничка с пълнеж шамфъстък",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20924071_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "nuts",
+      "emoji": "🥜",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": true,
+      "is_long_lasting": true,
+      "macros": {
+        "kcal": 567,
+        "p": 25,
+        "f": 49,
+        "c": 16
+      },
+      "avg_price": 0.34,
+      "lowest_price": 0.34,
+      "lowest_price_date": "2026-09-28",
+      "price_history": [
+        [
+          "2026-09-28",
+          0.34,
+          0.46,
+          26
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 0.51,
+      "new_price_eur": 0.26,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-10-19",
+      "valid_until": "2026-10-25",
+      "price_per_kg": 7.39,
+      "price_per_kg_eur": 3.78,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 0.51,
+          "price_eur": 0.26,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 0.51,
+      "comparison_count": 1,
+      "product_id": "kaufland-донът-с-пълнеж-маскарпоне-и-юзу-69g",
+      "weight_grams": 69,
+      "weight_raw": "69 г",
+      "name": "Донът с пълнеж маскарпоне и юзу",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20916688_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "dairy",
+      "emoji": "🥛",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 429,
+        "p": 4.8,
+        "f": 44,
+        "c": 3.5
+      },
+      "avg_price": 0.95,
+      "lowest_price": 0.51,
+      "lowest_price_date": "2026-08-17",
+      "price_history": [
+        [
+          "2026-05-18",
+          1.35,
+          null,
+          null
+        ],
+        [
+          "2026-06-08",
+          1.0,
+          null,
+          null
+        ],
+        [
+          "2026-08-17",
+          0.51,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "buy"
     },
     {
       "store": "Kaufland",
@@ -10097,6 +10904,87 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 0.59,
+      "new_price_eur": 0.3,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-10-19",
+      "valid_until": "2026-10-25",
+      "price_per_kg": 7.38,
+      "price_per_kg_eur": 3.77,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 0.59,
+          "price_eur": 0.3,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 0.59,
+      "comparison_count": 1,
+      "product_id": "kaufland-поничка-с-пълнеж-манго-80g",
+      "weight_grams": 80,
+      "weight_raw": "80 г",
+      "name": "Поничка с пълнеж манго",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20922670_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
+      "category": "vegetable",
+      "emoji": "🥦",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 60,
+        "p": 0.8,
+        "f": 0.4,
+        "c": 15
+      },
+      "avg_price": 1.1,
+      "lowest_price": 0.59,
+      "lowest_price_date": "2026-08-17",
+      "price_history": [
+        [
+          "2026-05-11",
+          1.55,
+          null,
+          null
+        ],
+        [
+          "2026-06-08",
+          1.15,
+          null,
+          null
+        ],
+        [
+          "2026-08-17",
+          0.59,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
       "price_signal": "buy"
     },
     {
@@ -17227,6 +18115,88 @@ const OFFERS_DATA = {
     {
       "store": "Kaufland",
       "address": null,
+      "new_price": 0.73,
+      "new_price_eur": 0.37,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-10-19",
+      "valid_until": "2026-10-25",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 0.73,
+          "price_eur": 0.37,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 0.73,
+      "comparison_count": 1,
+      "product_id": "kaufland-донът-пица-с-моцарела-и-шунка",
+      "name": "Донът пица с моцарела и шунка",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4085_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "protein",
+      "emoji": "🍗",
+      "health_score": 3,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 1.11,
+      "lowest_price": 0.71,
+      "lowest_price_date": "2026-09-28",
+      "price_history": [
+        [
+          "2026-05-04",
+          1.94,
+          null,
+          null
+        ],
+        [
+          "2026-06-08",
+          1.45,
+          null,
+          null
+        ],
+        [
+          "2026-08-17",
+          0.74,
+          null,
+          null
+        ],
+        [
+          "2026-09-28",
+          0.71,
+          null,
+          null
+        ],
+        [
+          "2026-10-19",
+          0.73,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 5,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
       "new_price": 1.19,
       "new_price_eur": 0.61,
       "old_price": null,
@@ -18455,6 +19425,66 @@ const OFFERS_DATA = {
       "address": null,
       "new_price": 0.76,
       "new_price_eur": 0.39,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-10-19",
+      "valid_until": "2026-10-25",
+      "price_per_kg": 9.87,
+      "price_per_kg_eur": 5.05,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 0.76,
+          "price_eur": 0.39,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 0.76,
+      "comparison_count": 1,
+      "product_id": "kaufland-донът-с-шоколад-и-пълнеж-крем-шамфъстък-77g",
+      "weight_grams": 77,
+      "weight_raw": "77 г",
+      "name": "Донът с шоколад и пълнеж крем шамфъстък",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20809505_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "grain",
+      "emoji": "🌾",
+      "health_score": 2,
+      "is_food": true,
+      "is_junk": true,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "avg_price": 0.76,
+      "lowest_price": 0.76,
+      "lowest_price_date": "2026-08-17",
+      "price_history": [
+        [
+          "2026-08-17",
+          0.76,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 0.76,
+      "new_price_eur": 0.39,
       "old_price": 1.02,
       "old_price_eur": 0.52,
       "discount_pct": 25,
@@ -19339,6 +20369,65 @@ const OFFERS_DATA = {
       "address": null,
       "new_price": 0.26,
       "new_price_eur": 0.13,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-10-19",
+      "valid_until": "2026-10-25",
+      "price_per_kg": 4.64,
+      "price_per_kg_eur": 2.37,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 0.26,
+          "price_eur": 0.13,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 0.26,
+      "comparison_count": 1,
+      "product_id": "kaufland-донът-с-бяла-глазура-и-захарни-снежинки-56g",
+      "weight_grams": 56,
+      "weight_raw": "56 г",
+      "name": "Донът с бяла глазура и захарни снежинки",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20832614_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 0.26,
+      "lowest_price": 0.26,
+      "lowest_price_date": "2026-08-17",
+      "price_history": [
+        [
+          "2026-08-17",
+          0.26,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 0.26,
+      "new_price_eur": 0.13,
       "old_price": 0.35,
       "old_price_eur": 0.18,
       "discount_pct": 26,
@@ -20155,6 +21244,71 @@ const OFFERS_DATA = {
       "discount_pct": 26,
       "valid_from": "2026-10-19",
       "valid_until": "2026-10-25",
+      "price_per_kg": 13.08,
+      "price_per_kg_eur": 6.69,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 0.34,
+          "price_eur": 0.17,
+          "old_price": 0.46,
+          "old_price_eur": 0.24,
+          "discount_pct": 26,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 0.34,
+      "comparison_count": 1,
+      "product_id": "kaufland-минипоничка-с-глазура-26g",
+      "weight_grams": 26,
+      "weight_raw": "26 г",
+      "name": "Минипоничка с глазура",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20348419_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 0.5,
+      "lowest_price": 0.34,
+      "lowest_price_date": "2026-08-17",
+      "price_history": [
+        [
+          "2026-06-08",
+          0.66,
+          0.9,
+          27
+        ],
+        [
+          "2026-08-17",
+          0.34,
+          0.46,
+          26
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 0.34,
+      "new_price_eur": 0.17,
+      "old_price": 0.46,
+      "old_price_eur": 0.24,
+      "discount_pct": 26,
+      "valid_from": "2026-10-19",
+      "valid_until": "2026-10-25",
       "price_per_kg": 6.18,
       "price_per_kg_eur": 3.16,
       "source_type": "promo",
@@ -20464,6 +21618,65 @@ const OFFERS_DATA = {
       "address": null,
       "new_price": 0.41,
       "new_price_eur": 0.21,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-10-19",
+      "valid_until": "2026-10-25",
+      "price_per_kg": 5.94,
+      "price_per_kg_eur": 3.04,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 0.41,
+          "price_eur": 0.21,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 0.41,
+      "comparison_count": 1,
+      "product_id": "kaufland-донът-бенисимо-с-пълнеж-69g",
+      "weight_grams": 69,
+      "weight_raw": "69 г",
+      "name": "Донът Бенисимо с пълнеж",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20845801_P-2?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 0.41,
+      "lowest_price": 0.41,
+      "lowest_price_date": "2026-08-17",
+      "price_history": [
+        [
+          "2026-08-17",
+          0.41,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 0.41,
+      "new_price_eur": 0.21,
       "old_price": 0.55,
       "old_price_eur": 0.28,
       "discount_pct": 25,
@@ -20559,6 +21772,77 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 8,
       "price_signal": "good"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 0.42,
+      "new_price_eur": 0.21,
+      "old_price": 0.56,
+      "old_price_eur": 0.29,
+      "discount_pct": 25,
+      "valid_from": "2026-10-19",
+      "valid_until": "2026-10-25",
+      "price_per_kg": 6.46,
+      "price_per_kg_eur": 3.3,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 0.42,
+          "price_eur": 0.21,
+          "old_price": 0.56,
+          "old_price_eur": 0.29,
+          "discount_pct": 25,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 0.42,
+      "comparison_count": 1,
+      "product_id": "kaufland-поничка-с-плодов-пълнеж-от-нашата-пекарна-65g",
+      "weight_grams": 65,
+      "weight_raw": "65 г",
+      "name": "Поничка с плодов пълнеж от нашата пекарна",
+      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20625293_P.jpg",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 0.55,
+      "lowest_price": 0.41,
+      "lowest_price_date": "2026-08-17",
+      "price_history": [
+        [
+          "2026-06-08",
+          0.82,
+          1.1,
+          25
+        ],
+        [
+          "2026-08-17",
+          0.41,
+          0.56,
+          27
+        ],
+        [
+          "2026-09-28",
+          0.42,
+          0.56,
+          25
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "buy"
     },
     {
       "store": "Kaufland",
@@ -20693,6 +21977,71 @@ const OFFERS_DATA = {
     {
       "store": "Kaufland",
       "address": null,
+      "new_price": 0.42,
+      "new_price_eur": 0.21,
+      "old_price": 0.56,
+      "old_price_eur": 0.29,
+      "discount_pct": 25,
+      "valid_from": "2026-10-19",
+      "valid_until": "2026-10-25",
+      "price_per_kg": 7.5,
+      "price_per_kg_eur": 3.83,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 0.42,
+          "price_eur": 0.21,
+          "old_price": 0.56,
+          "old_price_eur": 0.29,
+          "discount_pct": 25,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 0.42,
+      "comparison_count": 1,
+      "product_id": "kaufland-донът-от-нашата-пекарна-56g",
+      "weight_grams": 56,
+      "weight_raw": "56 г",
+      "name": "Донът от нашата пекарна",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/8359_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 0.62,
+      "lowest_price": 0.42,
+      "lowest_price_date": "2026-08-17",
+      "price_history": [
+        [
+          "2026-06-08",
+          0.82,
+          1.1,
+          25
+        ],
+        [
+          "2026-08-17",
+          0.42,
+          0.56,
+          25
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
       "new_price": 0.44,
       "new_price_eur": 0.22,
       "old_price": 0.59,
@@ -20756,6 +22105,77 @@ const OFFERS_DATA = {
           0.44,
           0.59,
           25
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 0.44,
+      "new_price_eur": 0.22,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-10-19",
+      "valid_until": "2026-10-25",
+      "price_per_kg": 7.72,
+      "price_per_kg_eur": 3.95,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 0.44,
+          "price_eur": 0.22,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 0.44,
+      "comparison_count": 1,
+      "product_id": "kaufland-донът-с-бяла-глазура-и-бонбони-57g",
+      "weight_grams": 57,
+      "weight_raw": "57 г",
+      "name": "Донът с бяла глазура и бонбони",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20802496_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "grain",
+      "emoji": "🌾",
+      "is_food": false,
+      "is_junk": true,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "avg_price": 0.82,
+      "lowest_price": 0.44,
+      "lowest_price_date": "2026-08-17",
+      "price_history": [
+        [
+          "2026-05-25",
+          1.15,
+          null,
+          null
+        ],
+        [
+          "2026-06-08",
+          0.86,
+          null,
+          null
+        ],
+        [
+          "2026-08-17",
+          0.44,
+          null,
+          null
         ]
       ],
       "price_seen_count": 3,
@@ -20867,6 +22287,65 @@ const OFFERS_DATA = {
       "address": null,
       "new_price": 0.45,
       "new_price_eur": 0.23,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-10-19",
+      "valid_until": "2026-10-25",
+      "price_per_kg": 6.52,
+      "price_per_kg_eur": 3.33,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 0.45,
+          "price_eur": 0.23,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 0.45,
+      "comparison_count": 1,
+      "product_id": "kaufland-донът-с-бисквитена-поръска-и-пълнеж-69g",
+      "weight_grams": 69,
+      "weight_raw": "69 г",
+      "name": "Донът с бисквитена поръска и пълнеж",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/2521_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "grain",
+      "emoji": "🌾",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "avg_price": 0.45,
+      "lowest_price": 0.45,
+      "lowest_price_date": "2026-08-17",
+      "price_history": [
+        [
+          "2026-08-17",
+          0.45,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 0.45,
+      "new_price_eur": 0.23,
       "old_price": 0.61,
       "old_price_eur": 0.31,
       "discount_pct": 26,
@@ -20897,6 +22376,71 @@ const OFFERS_DATA = {
       "weight_raw": "71 г",
       "name": "Донът с ванилов пълнеж",
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20693199D_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 0.67,
+      "lowest_price": 0.45,
+      "lowest_price_date": "2026-08-17",
+      "price_history": [
+        [
+          "2026-06-08",
+          0.88,
+          1.19,
+          26
+        ],
+        [
+          "2026-08-17",
+          0.45,
+          0.61,
+          26
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 0.45,
+      "new_price_eur": 0.23,
+      "old_price": 0.61,
+      "old_price_eur": 0.31,
+      "discount_pct": 26,
+      "valid_from": "2026-10-19",
+      "valid_until": "2026-10-25",
+      "price_per_kg": 6.43,
+      "price_per_kg_eur": 3.29,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 0.45,
+          "price_eur": 0.23,
+          "old_price": 0.61,
+          "old_price_eur": 0.31,
+          "discount_pct": 26,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 0.45,
+      "comparison_count": 1,
+      "product_id": "kaufland-донът-с-ванилов-пълнеж-от-нашата-пекарна-70g",
+      "weight_grams": 70,
+      "weight_raw": "70 г",
+      "name": "Донът с ванилов пълнеж от нашата пекарна",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/153_00033406B_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -21014,6 +22558,148 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 6,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 0.49,
+      "new_price_eur": 0.25,
+      "old_price": 0.66,
+      "old_price_eur": 0.34,
+      "discount_pct": 26,
+      "valid_from": "2026-10-19",
+      "valid_until": "2026-10-25",
+      "price_per_kg": 7.31,
+      "price_per_kg_eur": 3.74,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 0.49,
+          "price_eur": 0.25,
+          "old_price": 0.66,
+          "old_price_eur": 0.34,
+          "discount_pct": 26,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 0.49,
+      "comparison_count": 1,
+      "product_id": "kaufland-донът-с-шоколадов-пълнеж-67g",
+      "weight_grams": 67,
+      "weight_raw": "67 г",
+      "name": "Донът с шоколадов пълнеж",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20906176_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "grain",
+      "emoji": "🌾",
+      "is_food": false,
+      "is_junk": true,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "avg_price": 0.82,
+      "lowest_price": 0.49,
+      "lowest_price_date": "2026-08-17",
+      "price_history": [
+        [
+          "2026-06-08",
+          0.96,
+          1.29,
+          26
+        ],
+        [
+          "2026-07-06",
+          0.88,
+          1.29,
+          32
+        ],
+        [
+          "2026-08-03",
+          0.96,
+          1.29,
+          26
+        ],
+        [
+          "2026-08-17",
+          0.49,
+          0.66,
+          26
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 0.49,
+      "new_price_eur": 0.25,
+      "old_price": 0.66,
+      "old_price_eur": 0.34,
+      "discount_pct": 26,
+      "valid_from": "2026-10-19",
+      "valid_until": "2026-10-25",
+      "price_per_kg": 6.81,
+      "price_per_kg_eur": 3.48,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 0.49,
+          "price_eur": 0.25,
+          "old_price": 0.66,
+          "old_price_eur": 0.34,
+          "discount_pct": 26,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 0.49,
+      "comparison_count": 1,
+      "product_id": "kaufland-донът-с-пълнеж-от-нуга-от-нашата-пекарна-72g",
+      "weight_grams": 72,
+      "weight_raw": "72 г",
+      "name": "Донът с пълнеж от нуга от нашата пекарна",
+      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_00107665_P.jpg",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 0.72,
+      "lowest_price": 0.49,
+      "lowest_price_date": "2026-08-17",
+      "price_history": [
+        [
+          "2026-06-08",
+          0.96,
+          1.29,
+          26
+        ],
+        [
+          "2026-08-17",
+          0.49,
+          0.66,
+          26
+        ]
+      ],
+      "price_seen_count": 2,
       "price_signal": "buy"
     },
     {
@@ -21145,148 +22831,6 @@ const OFFERS_DATA = {
           0.49,
           0.76,
           36
-        ]
-      ],
-      "price_seen_count": 4,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 0.49,
-      "new_price_eur": 0.25,
-      "old_price": 0.66,
-      "old_price_eur": 0.34,
-      "discount_pct": 26,
-      "valid_from": "2026-10-19",
-      "valid_until": "2026-10-25",
-      "price_per_kg": 6.81,
-      "price_per_kg_eur": 3.48,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 0.49,
-          "price_eur": 0.25,
-          "old_price": 0.66,
-          "old_price_eur": 0.34,
-          "discount_pct": 26,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 0.49,
-      "comparison_count": 1,
-      "product_id": "kaufland-донът-с-пълнеж-от-нуга-от-нашата-пекарна-72g",
-      "weight_grams": 72,
-      "weight_raw": "72 г",
-      "name": "Донът с пълнеж от нуга от нашата пекарна",
-      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_00107665_P.jpg",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 0.72,
-      "lowest_price": 0.49,
-      "lowest_price_date": "2026-08-17",
-      "price_history": [
-        [
-          "2026-06-08",
-          0.96,
-          1.29,
-          26
-        ],
-        [
-          "2026-08-17",
-          0.49,
-          0.66,
-          26
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 0.49,
-      "new_price_eur": 0.25,
-      "old_price": 0.66,
-      "old_price_eur": 0.34,
-      "discount_pct": 26,
-      "valid_from": "2026-10-19",
-      "valid_until": "2026-10-25",
-      "price_per_kg": 7.31,
-      "price_per_kg_eur": 3.74,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 0.49,
-          "price_eur": 0.25,
-          "old_price": 0.66,
-          "old_price_eur": 0.34,
-          "discount_pct": 26,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 0.49,
-      "comparison_count": 1,
-      "product_id": "kaufland-донът-с-шоколадов-пълнеж-67g",
-      "weight_grams": 67,
-      "weight_raw": "67 г",
-      "name": "Донът с шоколадов пълнеж",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/7664_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "grain",
-      "emoji": "🌾",
-      "is_food": false,
-      "is_junk": true,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "avg_price": 0.82,
-      "lowest_price": 0.49,
-      "lowest_price_date": "2026-08-17",
-      "price_history": [
-        [
-          "2026-06-08",
-          0.96,
-          1.29,
-          26
-        ],
-        [
-          "2026-07-06",
-          0.88,
-          1.29,
-          32
-        ],
-        [
-          "2026-08-03",
-          0.96,
-          1.29,
-          26
-        ],
-        [
-          "2026-08-17",
-          0.49,
-          0.66,
-          26
         ]
       ],
       "price_seen_count": 4,
@@ -21599,6 +23143,284 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": "2026-10-19",
       "valid_until": "2026-10-25",
+      "price_per_kg": 6.38,
+      "price_per_kg_eur": 3.26,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 0.51,
+          "price_eur": 0.26,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 0.51,
+      "comparison_count": 1,
+      "product_id": "kaufland-поничка-с-яичен-ликьор-от-нашата-пекарна-80g",
+      "weight_grams": 80,
+      "weight_raw": "80 г",
+      "name": "Поничка с яйчен ликьор от нашата пекарна",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/325_20268916B_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "drinks",
+      "emoji": "🍺",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 0.61,
+      "lowest_price": 0.45,
+      "lowest_price_date": "2026-08-17",
+      "price_history": [
+        [
+          "2026-06-08",
+          0.88,
+          null,
+          null
+        ],
+        [
+          "2026-08-17",
+          0.45,
+          null,
+          null
+        ],
+        [
+          "2026-10-19",
+          0.51,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "good"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 0.51,
+      "new_price_eur": 0.26,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-10-19",
+      "valid_until": "2026-10-25",
+      "price_per_kg": 7.39,
+      "price_per_kg_eur": 3.78,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 0.51,
+          "price_eur": 0.26,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 0.51,
+      "comparison_count": 1,
+      "product_id": "kaufland-донът-с-ванилия-и-лавандула-69g",
+      "weight_grams": 69,
+      "weight_raw": "69 г",
+      "name": "Донът с ванилия и лавандула",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/8305_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 0.97,
+      "lowest_price": 0.51,
+      "lowest_price_date": "2026-08-17",
+      "price_history": [
+        [
+          "2026-06-08",
+          1.0,
+          null,
+          null
+        ],
+        [
+          "2026-06-15",
+          1.35,
+          null,
+          null
+        ],
+        [
+          "2026-07-06",
+          1.0,
+          null,
+          null
+        ],
+        [
+          "2026-08-17",
+          0.51,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 0.51,
+      "new_price_eur": 0.26,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-10-19",
+      "valid_until": "2026-10-25",
+      "price_per_kg": 6.89,
+      "price_per_kg_eur": 3.52,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 0.51,
+          "price_eur": 0.26,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 0.51,
+      "comparison_count": 1,
+      "product_id": "kaufland-донът-буено-от-нашата-пекарна-74g",
+      "weight_grams": 74,
+      "weight_raw": "74 г",
+      "name": "Донът Буено от нашата пекарна",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/7864_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 0.93,
+      "lowest_price": 0.51,
+      "lowest_price_date": "2026-08-17",
+      "price_history": [
+        [
+          "2026-07-13",
+          1.35,
+          null,
+          null
+        ],
+        [
+          "2026-08-17",
+          0.51,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 0.51,
+      "new_price_eur": 0.26,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-10-19",
+      "valid_until": "2026-10-25",
+      "price_per_kg": 7.39,
+      "price_per_kg_eur": 3.78,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 0.51,
+          "price_eur": 0.26,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 0.51,
+      "comparison_count": 1,
+      "product_id": "kaufland-донът-с-пълнеж-69g",
+      "weight_grams": 69,
+      "weight_raw": "69 г",
+      "name": "Донът с пълнеж",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/1338_BG_P?JGstbGVnYWN5LW9uc2l0ZS0xJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 0.93,
+      "lowest_price": 0.51,
+      "lowest_price_date": "2026-08-18",
+      "price_history": [
+        [
+          "2026-07-27",
+          1.35,
+          null,
+          null
+        ],
+        [
+          "2026-08-18",
+          0.51,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 0.51,
+      "new_price_eur": 0.26,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-10-19",
+      "valid_until": "2026-10-25",
       "price_per_kg": 0.71,
       "price_per_kg_eur": 0.36,
       "source_type": "assortment",
@@ -21652,6 +23474,65 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 0.53,
+      "new_price_eur": 0.27,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-10-19",
+      "valid_until": "2026-10-25",
+      "price_per_kg": 6.63,
+      "price_per_kg_eur": 3.39,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 0.53,
+          "price_eur": 0.27,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 0.53,
+      "comparison_count": 1,
+      "product_id": "kaufland-поничка-с-пълнеж-цитрус-80g",
+      "weight_grams": 80,
+      "weight_raw": "80 г",
+      "name": "Поничка с пълнеж цитрус",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20829430_P-3?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 0.53,
+      "lowest_price": 0.53,
+      "lowest_price_date": "2026-08-17",
+      "price_history": [
+        [
+          "2026-08-17",
+          0.53,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 1,
       "price_signal": "buy"
     },
     {
@@ -22200,6 +24081,71 @@ const OFFERS_DATA = {
           0.59,
           0.76,
           22
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 0.6,
+      "new_price_eur": 0.31,
+      "old_price": 0.81,
+      "old_price_eur": 0.41,
+      "discount_pct": 26,
+      "valid_from": "2026-10-19",
+      "valid_until": "2026-10-25",
+      "price_per_kg": 8.7,
+      "price_per_kg_eur": 4.45,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 0.6,
+          "price_eur": 0.31,
+          "old_price": 0.81,
+          "old_price_eur": 0.41,
+          "discount_pct": 26,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 0.6,
+      "comparison_count": 1,
+      "product_id": "kaufland-донът-с-крем-брюле-от-нашата-пекарна-69g",
+      "weight_grams": 69,
+      "weight_raw": "69 г",
+      "name": "Донът с крем Брюле от нашата пекарна",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/7671_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 0.89,
+      "lowest_price": 0.6,
+      "lowest_price_date": "2026-08-17",
+      "price_history": [
+        [
+          "2026-06-08",
+          1.17,
+          1.58,
+          26
+        ],
+        [
+          "2026-08-17",
+          0.6,
+          0.81,
+          26
         ]
       ],
       "price_seen_count": 2,
@@ -22788,6 +24734,136 @@ const OFFERS_DATA = {
     {
       "store": "Kaufland",
       "address": null,
+      "new_price": 0.66,
+      "new_price_eur": 0.34,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-10-19",
+      "valid_until": "2026-10-25",
+      "price_per_kg": 9.57,
+      "price_per_kg_eur": 4.89,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 0.66,
+          "price_eur": 0.34,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 0.66,
+      "comparison_count": 1,
+      "product_id": "kaufland-донът-с-пълнеж-пистачио-и-ванилия-69g",
+      "weight_grams": 69,
+      "weight_raw": "69 г",
+      "name": "Донът с пълнеж пистачио и ванилия",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/5311_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 1.2,
+      "lowest_price": 0.66,
+      "lowest_price_date": "2026-08-17",
+      "price_history": [
+        [
+          "2026-06-29",
+          1.74,
+          null,
+          null
+        ],
+        [
+          "2026-08-17",
+          0.66,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 0.66,
+      "new_price_eur": 0.34,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-10-19",
+      "valid_until": "2026-10-25",
+      "price_per_kg": 7.33,
+      "price_per_kg_eur": 3.75,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 0.66,
+          "price_eur": 0.34,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 0.66,
+      "comparison_count": 1,
+      "product_id": "kaufland-донът-пица-с-пълнеж-от-нашата-пекарна-90g",
+      "weight_grams": 90,
+      "weight_raw": "90 г",
+      "name": "Донът пица с пълнеж от нашата пекарна",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20903654_P-4?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 0.69,
+      "lowest_price": 0.66,
+      "lowest_price_date": "2026-09-28",
+      "price_history": [
+        [
+          "2026-08-17",
+          0.72,
+          null,
+          null
+        ],
+        [
+          "2026-09-28",
+          0.66,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
       "new_price": 0.68,
       "new_price_eur": 0.35,
       "old_price": 0.91,
@@ -23045,6 +25121,107 @@ const OFFERS_DATA = {
       "address": null,
       "new_price": 0.69,
       "new_price_eur": 0.35,
+      "old_price": 0.92,
+      "old_price_eur": 0.47,
+      "discount_pct": 25,
+      "valid_from": "2026-10-19",
+      "valid_until": "2026-10-25",
+      "price_per_kg": 9.45,
+      "price_per_kg_eur": 4.83,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 0.69,
+          "price_eur": 0.35,
+          "old_price": 0.92,
+          "old_price_eur": 0.47,
+          "discount_pct": 25,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 0.69,
+      "comparison_count": 1,
+      "product_id": "kaufland-milka-oreo-донът-от-нашата-пекарна-73g",
+      "weight_grams": 73,
+      "weight_raw": "73 г",
+      "name": "MILKA/ OREO Донът от нашата пекарна",
+      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_00107666_P.jpg",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 1.09,
+      "lowest_price": 0.65,
+      "lowest_price_date": "2026-09-07",
+      "price_history": [
+        [
+          "2026-06-08",
+          1.35,
+          1.8,
+          25
+        ],
+        [
+          "2026-06-22",
+          1.27,
+          1.8,
+          29
+        ],
+        [
+          "2026-07-06",
+          1.35,
+          1.8,
+          25
+        ],
+        [
+          "2026-07-13",
+          1.27,
+          null,
+          null
+        ],
+        [
+          "2026-08-03",
+          1.35,
+          1.8,
+          25
+        ],
+        [
+          "2026-08-17",
+          0.69,
+          0.92,
+          25
+        ],
+        [
+          "2026-09-07",
+          0.65,
+          0.92,
+          29
+        ],
+        [
+          "2026-09-28",
+          0.69,
+          0.92,
+          25
+        ]
+      ],
+      "price_seen_count": 9,
+      "price_signal": "good"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 0.69,
+      "new_price_eur": 0.35,
       "old_price": 0.85,
       "old_price_eur": 0.43,
       "discount_pct": 19,
@@ -23198,107 +25375,6 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 8,
-      "price_signal": "good"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 0.69,
-      "new_price_eur": 0.35,
-      "old_price": 0.92,
-      "old_price_eur": 0.47,
-      "discount_pct": 25,
-      "valid_from": "2026-10-19",
-      "valid_until": "2026-10-25",
-      "price_per_kg": 9.45,
-      "price_per_kg_eur": 4.83,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 0.69,
-          "price_eur": 0.35,
-          "old_price": 0.92,
-          "old_price_eur": 0.47,
-          "discount_pct": 25,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 0.69,
-      "comparison_count": 1,
-      "product_id": "kaufland-milka-oreo-донът-от-нашата-пекарна-73g",
-      "weight_grams": 73,
-      "weight_raw": "73 г",
-      "name": "MILKA/ OREO Донът от нашата пекарна",
-      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_00107666_P.jpg",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 1.09,
-      "lowest_price": 0.65,
-      "lowest_price_date": "2026-09-07",
-      "price_history": [
-        [
-          "2026-06-08",
-          1.35,
-          1.8,
-          25
-        ],
-        [
-          "2026-06-22",
-          1.27,
-          1.8,
-          29
-        ],
-        [
-          "2026-07-06",
-          1.35,
-          1.8,
-          25
-        ],
-        [
-          "2026-07-13",
-          1.27,
-          null,
-          null
-        ],
-        [
-          "2026-08-03",
-          1.35,
-          1.8,
-          25
-        ],
-        [
-          "2026-08-17",
-          0.69,
-          0.92,
-          25
-        ],
-        [
-          "2026-09-07",
-          0.65,
-          0.92,
-          29
-        ],
-        [
-          "2026-09-28",
-          0.69,
-          0.92,
-          25
-        ]
-      ],
-      "price_seen_count": 9,
       "price_signal": "good"
     },
     {
@@ -23797,14 +25873,14 @@ const OFFERS_DATA = {
       "address": null,
       "new_price": 0.72,
       "new_price_eur": 0.37,
-      "old_price": 0.97,
-      "old_price_eur": 0.5,
-      "discount_pct": 26,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
       "valid_from": "2026-10-19",
       "valid_until": "2026-10-25",
-      "price_per_kg": 11.08,
-      "price_per_kg_eur": 5.67,
-      "source_type": "promo",
+      "price_per_kg": 7.58,
+      "price_per_kg_eur": 3.88,
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -23813,20 +25889,20 @@ const OFFERS_DATA = {
           "store": "Kaufland",
           "price": 0.72,
           "price_eur": 0.37,
-          "old_price": 0.97,
-          "old_price_eur": 0.5,
-          "discount_pct": 26,
-          "source_type": "promo"
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
       "best_price": 0.72,
       "comparison_count": 1,
-      "product_id": "kaufland-крулер-с-глазура-от-нашата-пекарна-65g",
-      "weight_grams": 65,
-      "weight_raw": "65 г",
-      "name": "Крулер с глазура от нашата пекарна",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/153_06122024B_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-пица-донът-с-пълнеж-95g",
+      "weight_grams": 95,
+      "weight_raw": "95 г",
+      "name": "Пица донът с пълнеж",
+      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20743400_P.jpg",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -23837,18 +25913,95 @@ const OFFERS_DATA = {
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
-      "avg_price": 0.72,
+      "avg_price": 1.06,
       "lowest_price": 0.72,
-      "lowest_price_date": "2026-10-19",
+      "lowest_price_date": "2026-08-17",
       "price_history": [
         [
-          "2026-10-19",
+          "2026-06-08",
+          1.41,
+          null,
+          null
+        ],
+        [
+          "2026-08-17",
           0.72,
-          0.97,
-          26
+          null,
+          null
         ]
       ],
-      "price_seen_count": 1,
+      "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 0.74,
+      "new_price_eur": 0.38,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-10-19",
+      "valid_until": "2026-10-25",
+      "price_per_kg": 7.79,
+      "price_per_kg_eur": 3.98,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 0.74,
+          "price_eur": 0.38,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 0.74,
+      "comparison_count": 1,
+      "product_id": "kaufland-поничка-parkside-с-пълнеж-95g",
+      "weight_grams": 95,
+      "weight_raw": "95 г",
+      "name": "Поничка Parkside с пълнеж",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20958901?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 0.82,
+      "lowest_price": 0.74,
+      "lowest_price_date": "2026-08-17",
+      "price_history": [
+        [
+          "2026-08-17",
+          0.74,
+          null,
+          null
+        ],
+        [
+          "2026-08-31",
+          0.99,
+          null,
+          null
+        ],
+        [
+          "2026-09-28",
+          0.74,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
       "price_signal": "buy"
     },
     {
@@ -23896,71 +26049,6 @@ const OFFERS_DATA = {
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
-      "avg_price": 1.12,
-      "lowest_price": 0.76,
-      "lowest_price_date": "2026-08-17",
-      "price_history": [
-        [
-          "2026-06-08",
-          1.49,
-          1.99,
-          25
-        ],
-        [
-          "2026-08-17",
-          0.76,
-          1.02,
-          25
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 0.76,
-      "new_price_eur": 0.39,
-      "old_price": 1.02,
-      "old_price_eur": 0.52,
-      "discount_pct": 25,
-      "valid_from": "2026-10-19",
-      "valid_until": "2026-10-25",
-      "price_per_kg": 8.0,
-      "price_per_kg_eur": 4.09,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 0.76,
-          "price_eur": 0.39,
-          "old_price": 1.02,
-          "old_price_eur": 0.52,
-          "discount_pct": 25,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 0.76,
-      "comparison_count": 1,
-      "product_id": "kaufland-кронът-с-кафяв-шоколад-от-нашата-пекарна-95g",
-      "weight_grams": 95,
-      "weight_raw": "95 г",
-      "name": "Кронът с кафяв шоколад от нашата пекарна",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/153_20560735B_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "grain",
-      "emoji": "🌾",
-      "is_food": false,
-      "is_junk": true,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
       "avg_price": 1.12,
       "lowest_price": 0.76,
       "lowest_price_date": "2026-08-17",
@@ -24057,6 +26145,71 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 4,
       "price_signal": "good"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 0.76,
+      "new_price_eur": 0.39,
+      "old_price": 1.02,
+      "old_price_eur": 0.52,
+      "discount_pct": 25,
+      "valid_from": "2026-10-19",
+      "valid_until": "2026-10-25",
+      "price_per_kg": 8.0,
+      "price_per_kg_eur": 4.09,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 0.76,
+          "price_eur": 0.39,
+          "old_price": 1.02,
+          "old_price_eur": 0.52,
+          "discount_pct": 25,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 0.76,
+      "comparison_count": 1,
+      "product_id": "kaufland-кронът-с-кафяв-шоколад-от-нашата-пекарна-95g",
+      "weight_grams": 95,
+      "weight_raw": "95 г",
+      "name": "Кронът с кафяв шоколад от нашата пекарна",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/153_20560735B_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "grain",
+      "emoji": "🌾",
+      "is_food": false,
+      "is_junk": true,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "avg_price": 1.12,
+      "lowest_price": 0.76,
+      "lowest_price_date": "2026-08-17",
+      "price_history": [
+        [
+          "2026-06-08",
+          1.49,
+          1.99,
+          25
+        ],
+        [
+          "2026-08-17",
+          0.76,
+          1.02,
+          25
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy"
     },
     {
       "store": "Kaufland",
@@ -34724,11 +36877,70 @@ const OFFERS_DATA = {
       "best_price_store": "Kaufland",
       "best_price": 2.79,
       "comparison_count": 1,
+      "product_id": "kaufland-pepsi-mirinda-6-x-0-33-л-кен-1980g",
+      "weight_grams": 1980,
+      "weight_raw": "6 x 0,33 л",
+      "name": "PEPSI/MIRINDA 6 x 0,33 л кен",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20939313_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": true,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 2.79,
+      "lowest_price": 2.79,
+      "lowest_price_date": "2026-10-19",
+      "price_history": [
+        [
+          "2026-10-19",
+          2.79,
+          4.99,
+          44
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 2.79,
+      "new_price_eur": 1.43,
+      "old_price": 4.99,
+      "old_price_eur": 2.55,
+      "discount_pct": 44,
+      "valid_from": "2026-10-19",
+      "valid_until": "2026-10-25",
+      "price_per_kg": 1.41,
+      "price_per_kg_eur": 0.72,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 2.79,
+          "price_eur": 1.43,
+          "old_price": 4.99,
+          "old_price_eur": 2.55,
+          "discount_pct": 44,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 2.79,
+      "comparison_count": 1,
       "product_id": "kaufland-pepsi-mirinda-1980g",
       "weight_grams": 1980,
       "weight_raw": "6 x 0,33 л",
       "name": "PEPSI/MIRINDA",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20939313_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20939334_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -37713,7 +39925,7 @@ const OFFERS_DATA = {
       "weight_grams": 70,
       "weight_raw": "70 мл",
       "name": "Gillette Део гел различни видове",
-      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_04804061_P.jpg",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/7702018978120_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -341538,5 +343750,5 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     }
   ],
-  "catalog_products": 60190
+  "catalog_products": 60191
 };

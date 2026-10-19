@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-19T10:27:04.740249Z",
-  "total_products": 60190,
+  "generated_at": "2026-10-19T12:52:14.980485Z",
+  "total_products": 60191,
   "products": [
     {
       "name": "Пушена риба тон",
@@ -576261,7 +576261,7 @@
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4085_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-донът-пица-с-моцарела-и-шунка",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-19",
       "first_seen": "2026-05-04",
       "price_history": [
         {
@@ -576295,11 +576295,19 @@
           "price_eur": 0.36,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-10-19",
+          "store": "Kaufland",
+          "price": 0.73,
+          "price_eur": 0.37,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 0.71,
       "lowest_price_date": "2026-09-28",
-      "avg_price": 1.21
+      "avg_price": 1.11
     },
     {
       "name": "Майстор Цветко Салам Бургас слайс",
@@ -658128,7 +658136,7 @@
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20922670_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-поничка-с-пълнеж-манго-80g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-19",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -728989,7 +728997,7 @@
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20916688_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-донът-с-пълнеж-маскарпоне-и-юзу-69g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-19",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -778263,7 +778271,7 @@
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20802496_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-донът-с-бяла-глазура-и-бонбони-57g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-19",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -785015,7 +785023,7 @@
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_04804061_P.jpg",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/7702018978120_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-gillette-део-гел-различни-видове-70g",
       "last_seen": "2026-10-19",
       "first_seen": "2026-05-25",
@@ -839248,7 +839256,7 @@
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4151_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-великденски-донът-с-глазура-ябълка-56g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-19",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -839298,7 +839306,7 @@
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20284062_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-донът-с-ябълка-от-нашата-пекарна-67g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-19",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -839351,7 +839359,7 @@
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4721_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-донът-с-пълнеж-крема-сирене-100g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-19",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -840756,7 +840764,7 @@
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20776500_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-минипоничка-с-лешников-пълнеж-25g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-19",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -840847,7 +840855,7 @@
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20826047_P-2?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-b-b-донът-лимонов-чиизкеик-от-нашата-пекарна-69g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-19",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -840959,7 +840967,7 @@
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20215350_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-донът-с-канела-и-пълнеж-круша-65g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-19",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -840977,11 +840985,19 @@
           "price_eur": 0.17,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-10-19",
+          "store": "Kaufland",
+          "price": 0.29,
+          "price_eur": 0.15,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
-      "lowest_price": 0.33,
-      "lowest_price_date": "2026-08-17",
-      "avg_price": 0.49
+      "lowest_price": 0.29,
+      "lowest_price_date": "2026-10-19",
+      "avg_price": 0.42
     },
     {
       "name": "Донът манго",
@@ -844091,7 +844107,7 @@
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20348419_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-минипоничка-с-глазура-26g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-19",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -844226,7 +844242,7 @@
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8359_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-донът-от-нашата-пекарна-56g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-19",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -844271,7 +844287,7 @@
       "is_good_fat": false,
       "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20625293_P.jpg",
       "product_id": "kaufland-поничка-с-плодов-пълнеж-от-нашата-пекарна-65g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-19",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -844414,7 +844430,7 @@
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/325_20268916B_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-поничка-с-яичен-ликьор-от-нашата-пекарна-80g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-19",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -844432,11 +844448,19 @@
           "price_eur": 0.23,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-10-19",
+          "store": "Kaufland",
+          "price": 0.51,
+          "price_eur": 0.26,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 0.45,
       "lowest_price_date": "2026-08-17",
-      "avg_price": 0.67
+      "avg_price": 0.61
     },
     {
       "name": "Донът с ванилов пълнеж от нашата пекарна",
@@ -844459,7 +844483,7 @@
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/153_00033406B_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-донът-с-ванилов-пълнеж-от-нашата-пекарна-70g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-19",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -844502,7 +844526,7 @@
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/7664_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20906176_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-донът-с-шоколадов-пълнеж-67g",
       "last_seen": "2026-10-19",
       "first_seen": "2026-06-08",
@@ -844610,7 +844634,7 @@
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8305_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-донът-с-ванилия-и-лавандула-69g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-19",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -844761,7 +844785,7 @@
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/7671_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-донът-с-крем-брюле-от-нашата-пекарна-69g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-19",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -845095,7 +845119,7 @@
       "is_good_fat": false,
       "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20743400_P.jpg",
       "product_id": "kaufland-пица-донът-с-пълнеж-95g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-19",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -2060803,7 +2060827,7 @@
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/9866_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-донът-пица-с-домат-и-босилек-90g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-19",
       "first_seen": "2026-06-22",
       "price_history": [
         {
@@ -2070214,7 +2070238,7 @@
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20939313_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20939334_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-pepsi-mirinda-1980g",
       "last_seen": "2026-10-19",
       "first_seen": "2026-04-14",
@@ -2095747,7 +2095771,7 @@
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5311_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-донът-с-пълнеж-пистачио-и-ванилия-69g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-19",
       "first_seen": "2026-06-29",
       "price_history": [
         {
@@ -2138652,7 +2138676,7 @@
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/7864_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-донът-буено-от-нашата-пекарна-74g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-19",
       "first_seen": "2026-07-13",
       "price_history": [
         {
@@ -2170880,7 +2170904,7 @@
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/1338_BG_P?JGstbGVnYWN5LW9uc2l0ZS0xJA==",
       "product_id": "kaufland-донът-с-пълнеж-69g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-19",
       "first_seen": "2026-07-27",
       "price_history": [
         {
@@ -2210646,7 +2210670,7 @@
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20829389_P-3?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-поничка-с-пълнеж-горчив-портокал-80g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-19",
       "first_seen": "2026-08-17",
       "price_history": [
         {
@@ -2212881,7 +2212905,7 @@
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20809505_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-донът-с-шоколад-и-пълнеж-крем-шамфъстък-77g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-19",
       "first_seen": "2026-08-17",
       "price_history": [
         {
@@ -2213069,7 +2213093,7 @@
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20832614_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-донът-с-бяла-глазура-и-захарни-снежинки-56g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-19",
       "first_seen": "2026-08-17",
       "price_history": [
         {
@@ -2213180,7 +2213204,7 @@
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20845801_P-2?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-донът-бенисимо-с-пълнеж-69g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-19",
       "first_seen": "2026-08-17",
       "price_history": [
         {
@@ -2213217,7 +2213241,7 @@
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/2521_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-донът-с-бисквитена-поръска-и-пълнеж-69g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-19",
       "first_seen": "2026-08-17",
       "price_history": [
         {
@@ -2213410,7 +2213434,7 @@
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20829430_P-3?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-поничка-с-пълнеж-цитрус-80g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-19",
       "first_seen": "2026-08-17",
       "price_history": [
         {
@@ -2213521,7 +2213545,7 @@
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20903654_P-4?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-донът-пица-с-пълнеж-от-нашата-пекарна-90g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-19",
       "first_seen": "2026-08-17",
       "price_history": [
         {
@@ -2213566,7 +2213590,7 @@
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20958901?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-поничка-parkside-с-пълнеж-95g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-19",
       "first_seen": "2026-08-17",
       "price_history": [
         {
@@ -2341988,7 +2342012,7 @@
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20924113_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-донът-с-ягодов-аромат",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-19",
       "first_seen": "2026-09-28",
       "price_history": [
         {
@@ -2343146,7 +2343170,7 @@
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20924071_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-минипоничка-с-пълнеж-шамфъстък",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-19",
       "first_seen": "2026-09-28",
       "price_history": [
         {
@@ -2412591,6 +2412615,43 @@
       "lowest_price": 149.9,
       "lowest_price_date": "2026-10-19",
       "avg_price": 149.9
+    },
+    {
+      "name": "PEPSI/MIRINDA 6 x 0,33 л кен",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "6 x 0,33 л",
+      "weight_grams": 1980,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20939313_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-pepsi-mirinda-6-x-0-33-л-кен-1980g",
+      "last_seen": "2026-10-19",
+      "first_seen": "2026-10-19",
+      "price_history": [
+        {
+          "date": "2026-10-19",
+          "store": "Kaufland",
+          "price": 2.79,
+          "price_eur": 1.43,
+          "old_price": 4.99,
+          "discount_pct": 44
+        }
+      ],
+      "lowest_price": 2.79,
+      "lowest_price_date": "2026-10-19",
+      "avg_price": 2.79
     }
   ]
 }
