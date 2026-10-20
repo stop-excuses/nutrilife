@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-20T14:45:19.803585Z",
-  "content_hash": "b27d88ef3552196e9f5e9094f0dc8ba9",
-  "total_offers": 4081,
-  "promo_offers": 1409,
+  "generated_at": "2026-10-20T16:38:59.793455Z",
+  "content_hash": "457284999493b2a9e4e5762616901523",
+  "total_offers": 4078,
+  "promo_offers": 1406,
   "assortment_offers": 2672,
   "stores": [
     "Billa",
@@ -12761,64 +12761,6 @@
       ],
       "price_seen_count": 5,
       "price_signal": "good"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 1.91,
-      "new_price_eur": 0.98,
-      "old_price": 2.55,
-      "old_price_eur": 1.3,
-      "discount_pct": 25,
-      "valid_from": "2026-10-19",
-      "valid_until": "2026-10-25",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 1.91,
-          "price_eur": 0.98,
-          "old_price": 2.55,
-          "old_price_eur": 1.3,
-          "discount_pct": 25,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 1.91,
-      "comparison_count": 1,
-      "product_id": "kaufland-rispet-влажни-кърпи-куче-коте-кокос-54бр",
-      "name": "Rispet Влажни кърпи куче/коте кокос 54бр",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/5201263078309_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "nuts",
-      "emoji": "🥜",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": true,
-      "is_long_lasting": true,
-      "avg_price": 1.91,
-      "lowest_price": 1.91,
-      "lowest_price_date": "2026-10-19",
-      "price_history": [
-        [
-          "2026-10-19",
-          1.91,
-          2.55,
-          25
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
     },
     {
       "store": "Kaufland",
@@ -34009,71 +33951,6 @@
       "discount_pct": 25,
       "valid_from": "2026-10-19",
       "valid_until": "2026-10-25",
-      "price_per_kg": 6.73,
-      "price_per_kg_eur": 3.44,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 2.49,
-          "price_eur": 1.27,
-          "old_price": 3.32,
-          "old_price_eur": 1.7,
-          "discount_pct": 25,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 2.49,
-      "comparison_count": 1,
-      "product_id": "kaufland-rispet-шампоан-с-балсам-за-куче-370g",
-      "weight_grams": 370,
-      "weight_raw": "370 мл",
-      "name": "Rispet Шампоан с балсам за куче",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/5201263021831_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "hygiene",
-      "emoji": "🧴",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "avg_price": 3.74,
-      "lowest_price": 2.49,
-      "lowest_price_date": "2026-10-19",
-      "price_history": [
-        [
-          "2026-05-25",
-          4.99,
-          null,
-          null
-        ],
-        [
-          "2026-10-19",
-          2.49,
-          3.32,
-          25
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 2.49,
-      "new_price_eur": 1.27,
-      "old_price": 3.32,
-      "old_price_eur": 1.7,
-      "discount_pct": 25,
-      "valid_from": "2026-10-19",
-      "valid_until": "2026-10-25",
       "price_per_kg": 7.32,
       "price_per_kg_eur": 3.74,
       "source_type": "promo",
@@ -42083,63 +41960,6 @@
           4.49,
           4.99,
           10
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 4.59,
-      "new_price_eur": 2.35,
-      "old_price": 6.13,
-      "old_price_eur": 3.13,
-      "discount_pct": 25,
-      "valid_from": "2026-10-19",
-      "valid_until": "2026-10-25",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 4.59,
-          "price_eur": 2.35,
-          "old_price": 6.13,
-          "old_price_eur": 3.13,
-          "discount_pct": 25,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 4.59,
-      "comparison_count": 1,
-      "product_id": "kaufland-rispet-подложки-за-куче-или-котка-14-бр",
-      "name": "Rispet подложки за куче или котка, 14 бр.",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/5201263838927_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 4.59,
-      "lowest_price": 4.59,
-      "lowest_price_date": "2026-10-19",
-      "price_history": [
-        [
-          "2026-10-19",
-          4.59,
-          6.13,
-          25
         ]
       ],
       "price_seen_count": 1,
