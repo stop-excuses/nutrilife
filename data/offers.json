@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-20T11:22:32.274130Z",
-  "content_hash": "976e41f2193038ed38c9ffe56c91d57c",
-  "total_offers": 4107,
-  "promo_offers": 1432,
+  "generated_at": "2026-10-20T13:05:53.245395Z",
+  "content_hash": "d9841df9dd7983f0273da145118d1c29",
+  "total_offers": 4110,
+  "promo_offers": 1435,
   "assortment_offers": 2675,
   "stores": [
     "Billa",
@@ -1071,6 +1071,83 @@
         ]
       ],
       "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 1.16,
+      "new_price_eur": 0.59,
+      "old_price": 1.46,
+      "old_price_eur": 0.75,
+      "discount_pct": 21,
+      "valid_from": "2026-10-19",
+      "valid_until": "2026-10-25",
+      "price_per_kg": 2.9,
+      "price_per_kg_eur": 1.48,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 1.16,
+          "price_eur": 0.59,
+          "old_price": 1.46,
+          "old_price_eur": 0.75,
+          "discount_pct": 21,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 1.16,
+      "comparison_count": 1,
+      "product_id": "kaufland-бреи-броколи-замразени-400g",
+      "weight_grams": 400,
+      "weight_raw": "400 г",
+      "name": "БРЕЙ! Броколи замразени",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/268_20601231_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "vegetable",
+      "emoji": "🥦",
+      "health_score": 9,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "mediterranean",
+        "vegetarian",
+        "budget"
+      ],
+      "macros": {
+        "kcal": 34,
+        "p": 2.8,
+        "f": 0.4,
+        "c": 7
+      },
+      "avg_price": 1.71,
+      "lowest_price": 1.16,
+      "lowest_price_date": "2026-09-28",
+      "price_history": [
+        [
+          "2026-06-22",
+          2.27,
+          2.86,
+          21
+        ],
+        [
+          "2026-09-28",
+          1.16,
+          1.46,
+          21
+        ]
+      ],
+      "price_seen_count": 2,
       "price_signal": "buy"
     },
     {
@@ -5736,6 +5813,75 @@
       "address": null,
       "new_price": 0.85,
       "new_price_eur": 0.43,
+      "old_price": 1.07,
+      "old_price_eur": 0.55,
+      "discount_pct": 21,
+      "valid_from": "2026-10-19",
+      "valid_until": "2026-10-25",
+      "price_per_kg": 2.12,
+      "price_per_kg_eur": 1.08,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 0.85,
+          "price_eur": 0.43,
+          "old_price": 1.07,
+          "old_price_eur": 0.55,
+          "discount_pct": 21,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 0.85,
+      "comparison_count": 1,
+      "product_id": "kaufland-бреи-зеленчуци-за-гювеч-замразени-400g",
+      "weight_grams": 400,
+      "weight_raw": "400 г",
+      "name": "БРЕЙ! Зеленчуци за гювеч замразени",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/268_20601304_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "vegetable",
+      "emoji": "🥦",
+      "health_score": 7,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 25,
+        "p": 1.3,
+        "f": 0.1,
+        "c": 6
+      },
+      "avg_price": 0.85,
+      "lowest_price": 0.85,
+      "lowest_price_date": "2026-10-19",
+      "price_history": [
+        [
+          "2026-10-19",
+          0.85,
+          1.07,
+          21
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 0.85,
+      "new_price_eur": 0.43,
       "old_price": 1.73,
       "old_price_eur": 0.88,
       "discount_pct": 51,
@@ -5951,6 +6097,76 @@
         ]
       ],
       "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 0.93,
+      "new_price_eur": 0.48,
+      "old_price": 1.17,
+      "old_price_eur": 0.6,
+      "discount_pct": 21,
+      "valid_from": "2026-10-19",
+      "valid_until": "2026-10-25",
+      "price_per_kg": 2.33,
+      "price_per_kg_eur": 1.19,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 0.93,
+          "price_eur": 0.48,
+          "old_price": 1.17,
+          "old_price_eur": 0.6,
+          "discount_pct": 21,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 0.93,
+      "comparison_count": 1,
+      "product_id": "kaufland-бреи-грах-или-зелен-фасул-замразен-400g",
+      "weight_grams": 400,
+      "weight_raw": "400 г",
+      "name": "БРЕЙ! Грах или Зелен фасул замразен",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/268_20601302_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "legume",
+      "emoji": "🫘",
+      "health_score": 7,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": true,
+      "is_good_fat": true,
+      "is_bulk_worthy": true,
+      "is_long_lasting": true,
+      "diet_tags": [
+        "vegetarian",
+        "budget"
+      ],
+      "macros": {
+        "kcal": 127,
+        "p": 8.7,
+        "f": 0.5,
+        "c": 22
+      },
+      "avg_price": 0.93,
+      "lowest_price": 0.93,
+      "lowest_price_date": "2026-10-19",
+      "price_history": [
+        [
+          "2026-10-19",
+          0.93,
+          1.17,
+          21
+        ]
+      ],
+      "price_seen_count": 1,
       "price_signal": "buy"
     },
     {
@@ -6615,7 +6831,7 @@
       "weight_grams": 150,
       "weight_raw": "150 г",
       "name": "Meggle Топено сирене различни видове",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/4034900028822_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_00500822_P.jpg",
       "category": "dairy",
       "emoji": "🥛",
       "health_score": 7,
