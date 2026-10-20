@@ -1,5 +1,5 @@
 const ALL_PRODUCTS_DATA = {
-  "generated_at": "2026-10-20T09:19:59.261064Z",
+  "generated_at": "2026-10-20T11:22:30.140608Z",
   "total_products": 60195,
   "products": [
     {
@@ -726445,7 +726445,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_00500822_P.jpg",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4034900028822_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-meggle-топено-сирене-различни-видове-150g",
       "last_seen": "2026-10-20",
       "first_seen": "2026-05-18",
