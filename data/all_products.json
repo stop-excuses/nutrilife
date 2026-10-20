@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T13:05:51.196031Z",
+  "generated_at": "2026-10-20T14:45:17.676534Z",
   "total_products": 60195,
   "products": [
     {
@@ -667564,7 +667564,7 @@
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00108164_P-1?JGstbGVnYWN5LW9uc2l0ZS0xJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00108162_P?JGstbGVnYWN5LW9uc2l0ZS0xJA==",
       "product_id": "kaufland-medix-wc-гел-total-power-guard-различни-видове-750g",
       "last_seen": "2026-10-20",
       "first_seen": "2026-05-11",
@@ -726445,7 +726445,7 @@
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_00500822_P.jpg",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4034900028822_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-meggle-топено-сирене-различни-видове-150g",
       "last_seen": "2026-10-20",
       "first_seen": "2026-05-18",
@@ -2068591,7 +2068591,7 @@
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00067549_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-medix-препарат-за-съдове-с-балсам-750g",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-20",
       "first_seen": "2026-06-22",
       "price_history": [
         {
@@ -2068625,11 +2068625,19 @@
           "price_eur": 0.97,
           "old_price": 2.63,
           "discount_pct": 28
+        },
+        {
+          "date": "2026-10-20",
+          "store": "Kaufland",
+          "price": 1.97,
+          "price_eur": 1.01,
+          "old_price": 2.63,
+          "discount_pct": 25
         }
       ],
       "lowest_price": 1.89,
       "lowest_price_date": "2026-09-14",
-      "avg_price": 3.18
+      "avg_price": 2.94
     },
     {
       "name": "Citterio Гуанчале или Панчета",

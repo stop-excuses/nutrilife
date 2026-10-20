@@ -1,9 +1,9 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-10-20T13:05:53.245395Z",
-  "content_hash": "d9841df9dd7983f0273da145118d1c29",
-  "total_offers": 4110,
-  "promo_offers": 1435,
-  "assortment_offers": 2675,
+  "generated_at": "2026-10-20T14:45:19.803585Z",
+  "content_hash": "b27d88ef3552196e9f5e9094f0dc8ba9",
+  "total_offers": 4081,
+  "promo_offers": 1409,
+  "assortment_offers": 2672,
   "stores": [
     "Billa",
     "Dar",
@@ -1071,83 +1071,6 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 1.16,
-      "new_price_eur": 0.59,
-      "old_price": 1.46,
-      "old_price_eur": 0.75,
-      "discount_pct": 21,
-      "valid_from": "2026-10-19",
-      "valid_until": "2026-10-25",
-      "price_per_kg": 2.9,
-      "price_per_kg_eur": 1.48,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 1.16,
-          "price_eur": 0.59,
-          "old_price": 1.46,
-          "old_price_eur": 0.75,
-          "discount_pct": 21,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 1.16,
-      "comparison_count": 1,
-      "product_id": "kaufland-бреи-броколи-замразени-400g",
-      "weight_grams": 400,
-      "weight_raw": "400 г",
-      "name": "БРЕЙ! Броколи замразени",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/268_20601231_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "vegetable",
-      "emoji": "🥦",
-      "health_score": 9,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "diet_tags": [
-        "mediterranean",
-        "vegetarian",
-        "budget"
-      ],
-      "macros": {
-        "kcal": 34,
-        "p": 2.8,
-        "f": 0.4,
-        "c": 7
-      },
-      "avg_price": 1.71,
-      "lowest_price": 1.16,
-      "lowest_price_date": "2026-09-28",
-      "price_history": [
-        [
-          "2026-06-22",
-          2.27,
-          2.86,
-          21
-        ],
-        [
-          "2026-09-28",
-          1.16,
-          1.46,
-          21
-        ]
-      ],
-      "price_seen_count": 2,
       "price_signal": "buy"
     },
     {
@@ -5813,75 +5736,6 @@ const OFFERS_DATA = {
       "address": null,
       "new_price": 0.85,
       "new_price_eur": 0.43,
-      "old_price": 1.07,
-      "old_price_eur": 0.55,
-      "discount_pct": 21,
-      "valid_from": "2026-10-19",
-      "valid_until": "2026-10-25",
-      "price_per_kg": 2.12,
-      "price_per_kg_eur": 1.08,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 0.85,
-          "price_eur": 0.43,
-          "old_price": 1.07,
-          "old_price_eur": 0.55,
-          "discount_pct": 21,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 0.85,
-      "comparison_count": 1,
-      "product_id": "kaufland-бреи-зеленчуци-за-гювеч-замразени-400g",
-      "weight_grams": 400,
-      "weight_raw": "400 г",
-      "name": "БРЕЙ! Зеленчуци за гювеч замразени",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/268_20601304_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "vegetable",
-      "emoji": "🥦",
-      "health_score": 7,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": true,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "diet_tags": [
-        "budget"
-      ],
-      "macros": {
-        "kcal": 25,
-        "p": 1.3,
-        "f": 0.1,
-        "c": 6
-      },
-      "avg_price": 0.85,
-      "lowest_price": 0.85,
-      "lowest_price_date": "2026-10-19",
-      "price_history": [
-        [
-          "2026-10-19",
-          0.85,
-          1.07,
-          21
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 0.85,
-      "new_price_eur": 0.43,
       "old_price": 1.73,
       "old_price_eur": 0.88,
       "discount_pct": 51,
@@ -6097,76 +5951,6 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 0.93,
-      "new_price_eur": 0.48,
-      "old_price": 1.17,
-      "old_price_eur": 0.6,
-      "discount_pct": 21,
-      "valid_from": "2026-10-19",
-      "valid_until": "2026-10-25",
-      "price_per_kg": 2.33,
-      "price_per_kg_eur": 1.19,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 0.93,
-          "price_eur": 0.48,
-          "old_price": 1.17,
-          "old_price_eur": 0.6,
-          "discount_pct": 21,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 0.93,
-      "comparison_count": 1,
-      "product_id": "kaufland-бреи-грах-или-зелен-фасул-замразен-400g",
-      "weight_grams": 400,
-      "weight_raw": "400 г",
-      "name": "БРЕЙ! Грах или Зелен фасул замразен",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/268_20601302_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "legume",
-      "emoji": "🫘",
-      "health_score": 7,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": true,
-      "is_good_fat": true,
-      "is_bulk_worthy": true,
-      "is_long_lasting": true,
-      "diet_tags": [
-        "vegetarian",
-        "budget"
-      ],
-      "macros": {
-        "kcal": 127,
-        "p": 8.7,
-        "f": 0.5,
-        "c": 22
-      },
-      "avg_price": 0.93,
-      "lowest_price": 0.93,
-      "lowest_price_date": "2026-10-19",
-      "price_history": [
-        [
-          "2026-10-19",
-          0.93,
-          1.17,
-          21
-        ]
-      ],
-      "price_seen_count": 1,
       "price_signal": "buy"
     },
     {
@@ -6721,87 +6505,6 @@ const OFFERS_DATA = {
       "address": null,
       "new_price": 1.59,
       "new_price_eur": 0.81,
-      "old_price": 2.12,
-      "old_price_eur": 1.08,
-      "discount_pct": 25,
-      "valid_from": "2026-10-19",
-      "valid_until": "2026-10-25",
-      "price_per_kg": 3.18,
-      "price_per_kg_eur": 1.63,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 1.59,
-          "price_eur": 0.81,
-          "old_price": 2.12,
-          "old_price_eur": 1.08,
-          "discount_pct": 25,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 1.59,
-      "comparison_count": 1,
-      "product_id": "kaufland-medix-обезмаслител-пълнител-multi-action-портокал-500g",
-      "weight_grams": 500,
-      "weight_raw": "500 мл",
-      "name": "Medix Обезмаслител пълнител Multi Action портокал",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/05001014_614?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "vegetable",
-      "emoji": "🥦",
-      "health_score": 7,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "diet_tags": [
-        "budget"
-      ],
-      "macros": {
-        "kcal": 47,
-        "p": 0.9,
-        "f": 0.1,
-        "c": 12
-      },
-      "avg_price": 2.49,
-      "lowest_price": 1.59,
-      "lowest_price_date": "2026-10-19",
-      "price_history": [
-        [
-          "2026-05-25",
-          2.99,
-          4.15,
-          28
-        ],
-        [
-          "2026-08-03",
-          2.89,
-          4.15,
-          30
-        ],
-        [
-          "2026-10-19",
-          1.59,
-          2.12,
-          25
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 1.59,
-      "new_price_eur": 0.81,
       "old_price": 2.4,
       "old_price_eur": 1.23,
       "discount_pct": 34,
@@ -6831,7 +6534,7 @@ const OFFERS_DATA = {
       "weight_grams": 150,
       "weight_raw": "150 г",
       "name": "Meggle Топено сирене различни видове",
-      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_00500822_P.jpg",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4034900028822_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "dairy",
       "emoji": "🥛",
       "health_score": 7,
@@ -25458,83 +25161,6 @@ const OFFERS_DATA = {
       "address": null,
       "new_price": 0.71,
       "new_price_eur": 0.36,
-      "old_price": 0.95,
-      "old_price_eur": 0.49,
-      "discount_pct": 25,
-      "valid_from": "2026-10-19",
-      "valid_until": "2026-10-25",
-      "price_per_kg": 1.42,
-      "price_per_kg_eur": 0.73,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 0.71,
-          "price_eur": 0.36,
-          "old_price": 0.95,
-          "old_price_eur": 0.49,
-          "discount_pct": 25,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 0.71,
-      "comparison_count": 1,
-      "product_id": "kaufland-medix-препарат-за-съдове-classic-различни-видове-500g",
-      "weight_grams": 500,
-      "weight_raw": "500 мл",
-      "name": "Medix Препарат за съдове Classic различни видове",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/05000366_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "household",
-      "emoji": "🧹",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": true,
-      "is_long_lasting": true,
-      "avg_price": 0.83,
-      "lowest_price": 0.65,
-      "lowest_price_date": "2026-09-28",
-      "price_history": [
-        [
-          "2026-05-11",
-          1.29,
-          1.86,
-          31
-        ],
-        [
-          "2026-08-10",
-          0.66,
-          0.95,
-          31
-        ],
-        [
-          "2026-09-28",
-          0.65,
-          0.95,
-          32
-        ],
-        [
-          "2026-10-19",
-          0.71,
-          0.95,
-          25
-        ]
-      ],
-      "price_seen_count": 4,
-      "price_signal": "good"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 0.71,
-      "new_price_eur": 0.36,
       "old_price": 1.02,
       "old_price_eur": 0.52,
       "discount_pct": 30,
@@ -27227,71 +26853,6 @@ const OFFERS_DATA = {
       "address": null,
       "new_price": 1.02,
       "new_price_eur": 0.52,
-      "old_price": 1.37,
-      "old_price_eur": 0.7,
-      "discount_pct": 26,
-      "valid_from": "2026-10-19",
-      "valid_until": "2026-10-25",
-      "price_per_kg": 2.04,
-      "price_per_kg_eur": 1.04,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 1.02,
-          "price_eur": 0.52,
-          "old_price": 1.37,
-          "old_price_eur": 0.7,
-          "discount_pct": 26,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 1.02,
-      "comparison_count": 1,
-      "product_id": "kaufland-medix-препарат-за-стъкла-пълнител-500g",
-      "weight_grams": 500,
-      "weight_raw": "500 мл",
-      "name": "Medix Препарат за стъкла пълнител",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00019978_618?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 1.48,
-      "lowest_price": 1.02,
-      "lowest_price_date": "2026-10-19",
-      "price_history": [
-        [
-          "2026-05-18",
-          1.94,
-          2.68,
-          28
-        ],
-        [
-          "2026-10-19",
-          1.02,
-          1.37,
-          26
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 1.02,
-      "new_price_eur": 0.52,
       "old_price": 1.46,
       "old_price_eur": 0.75,
       "discount_pct": 30,
@@ -27674,71 +27235,6 @@ const OFFERS_DATA = {
           1.09,
           1.99,
           45
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 1.14,
-      "new_price_eur": 0.58,
-      "old_price": 1.53,
-      "old_price_eur": 0.78,
-      "discount_pct": 25,
-      "valid_from": "2026-10-19",
-      "valid_until": "2026-10-25",
-      "price_per_kg": 2.75,
-      "price_per_kg_eur": 1.41,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 1.14,
-          "price_eur": 0.58,
-          "old_price": 1.53,
-          "old_price_eur": 0.78,
-          "discount_pct": 25,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 1.14,
-      "comparison_count": 1,
-      "product_id": "kaufland-medix-препарат-за-съдове-избрани-видове-415g",
-      "weight_grams": 415,
-      "weight_raw": "415 мл",
-      "name": "Medix Препарат за съдове избрани видове",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00067548_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "household",
-      "emoji": "🧹",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": true,
-      "is_long_lasting": true,
-      "avg_price": 1.63,
-      "lowest_price": 1.14,
-      "lowest_price_date": "2026-10-19",
-      "price_history": [
-        [
-          "2026-04-20",
-          2.13,
-          2.99,
-          29
-        ],
-        [
-          "2026-10-19",
-          1.14,
-          1.53,
-          25
         ]
       ],
       "price_seen_count": 2,
@@ -28232,65 +27728,6 @@ const OFFERS_DATA = {
     {
       "store": "Kaufland",
       "address": null,
-      "new_price": 1.24,
-      "new_price_eur": 0.63,
-      "old_price": 1.66,
-      "old_price_eur": 0.85,
-      "discount_pct": 25,
-      "valid_from": "2026-10-19",
-      "valid_until": "2026-10-25",
-      "price_per_kg": 22.55,
-      "price_per_kg_eur": 11.53,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 1.24,
-          "price_eur": 0.63,
-          "old_price": 1.66,
-          "old_price_eur": 0.85,
-          "discount_pct": 25,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 1.24,
-      "comparison_count": 1,
-      "product_id": "kaufland-medix-wc-ароматизатор-55g",
-      "weight_grams": 55,
-      "weight_raw": "55 г",
-      "name": "Medix WC ароматизатор",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800069404828_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "drinks",
-      "emoji": "🍺",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 1.24,
-      "lowest_price": 1.24,
-      "lowest_price_date": "2026-10-19",
-      "price_history": [
-        [
-          "2026-10-19",
-          1.24,
-          1.66,
-          25
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
       "new_price": 1.25,
       "new_price_eur": 0.64,
       "old_price": 1.6,
@@ -28464,65 +27901,6 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 5,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 1.29,
-      "new_price_eur": 0.66,
-      "old_price": 1.73,
-      "old_price_eur": 0.88,
-      "discount_pct": 25,
-      "valid_from": "2026-10-19",
-      "valid_until": "2026-10-25",
-      "price_per_kg": 2.58,
-      "price_per_kg_eur": 1.32,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 1.29,
-          "price_eur": 0.66,
-          "old_price": 1.73,
-          "old_price_eur": 0.88,
-          "discount_pct": 25,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 1.29,
-      "comparison_count": 1,
-      "product_id": "kaufland-medix-препарати-за-почистване-на-дома-500g",
-      "weight_grams": 500,
-      "weight_raw": "500 мл",
-      "name": "Medix Препарати за почистване на дома",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/05000351-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 1.29,
-      "lowest_price": 1.29,
-      "lowest_price_date": "2026-10-19",
-      "price_history": [
-        [
-          "2026-10-19",
-          1.29,
-          1.73,
-          25
-        ]
-      ],
-      "price_seen_count": 1,
       "price_signal": "buy"
     },
     {
@@ -28821,77 +28199,6 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 4,
-      "price_signal": "good"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 1.33,
-      "new_price_eur": 0.68,
-      "old_price": 1.78,
-      "old_price_eur": 0.91,
-      "discount_pct": 25,
-      "valid_from": "2026-10-19",
-      "valid_until": "2026-10-25",
-      "price_per_kg": 1.77,
-      "price_per_kg_eur": 0.9,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 1.33,
-          "price_eur": 0.68,
-          "old_price": 1.78,
-          "old_price_eur": 0.91,
-          "discount_pct": 25,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 1.33,
-      "comparison_count": 1,
-      "product_id": "kaufland-medix-препарат-за-съдове-max-power-750g",
-      "weight_grams": 750,
-      "weight_raw": "750 мл",
-      "name": "Medix Препарат за съдове Max Power",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20625994_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
-      "category": "household",
-      "emoji": "🧹",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": true,
-      "is_long_lasting": true,
-      "avg_price": 1.6,
-      "lowest_price": 0.89,
-      "lowest_price_date": "2026-10-11",
-      "price_history": [
-        [
-          "2026-07-06",
-          2.58,
-          null,
-          null
-        ],
-        [
-          "2026-10-11",
-          0.89,
-          1.02,
-          13
-        ],
-        [
-          "2026-10-19",
-          1.33,
-          1.78,
-          25
-        ]
-      ],
-      "price_seen_count": 3,
       "price_signal": "good"
     },
     {
@@ -29539,71 +28846,6 @@ const OFFERS_DATA = {
     {
       "store": "Kaufland",
       "address": null,
-      "new_price": 1.41,
-      "new_price_eur": 0.72,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-10-19",
-      "valid_until": "2026-10-25",
-      "price_per_kg": 2.82,
-      "price_per_kg_eur": 1.44,
-      "source_type": "assortment",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 1.41,
-          "price_eur": 0.72,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 1.41,
-      "comparison_count": 1,
-      "product_id": "kaufland-medix-expert-препарат-активна-пяна-500g",
-      "weight_grams": 500,
-      "weight_raw": "500 мл",
-      "name": "Medix Expert Препарат активна пяна",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00092988_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 2.0,
-      "lowest_price": 1.41,
-      "lowest_price_date": "2026-10-19",
-      "price_history": [
-        [
-          "2026-06-22",
-          2.58,
-          null,
-          null
-        ],
-        [
-          "2026-10-19",
-          1.41,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
       "new_price": 1.43,
       "new_price_eur": 0.73,
       "old_price": 2.04,
@@ -30219,65 +29461,6 @@ const OFFERS_DATA = {
       "discount_pct": 25,
       "valid_from": "2026-10-19",
       "valid_until": "2026-10-25",
-      "price_per_kg": 27.82,
-      "price_per_kg_eur": 14.22,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 1.53,
-          "price_eur": 0.78,
-          "old_price": 2.04,
-          "old_price_eur": 1.04,
-          "discount_pct": 25,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 1.53,
-      "comparison_count": 1,
-      "product_id": "kaufland-medix-wc-блокче-blue-power-55-г-55g",
-      "weight_grams": 55,
-      "weight_raw": "55 г",
-      "name": "MEDIX WC блокче Blue power , 55 г",
-      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20845910_P.jpg",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 1.53,
-      "lowest_price": 1.53,
-      "lowest_price_date": "2026-10-19",
-      "price_history": [
-        [
-          "2026-10-19",
-          1.53,
-          2.04,
-          25
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 1.53,
-      "new_price_eur": 0.78,
-      "old_price": 2.04,
-      "old_price_eur": 1.04,
-      "discount_pct": 25,
-      "valid_from": "2026-10-19",
-      "valid_until": "2026-10-25",
       "price_per_kg": 6.8,
       "price_per_kg_eur": 3.48,
       "source_type": "promo",
@@ -30468,7 +29651,7 @@ const OFFERS_DATA = {
       "weight_grams": 750,
       "weight_raw": "750 мл",
       "name": "Medix WC гел Total Power Guard различни видове",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00108164_P-1?JGstbGVnYWN5LW9uc2l0ZS0xJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00108162_P?JGstbGVnYWN5LW9uc2l0ZS0xJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -31291,124 +30474,6 @@ const OFFERS_DATA = {
       "discount_pct": 25,
       "valid_from": "2026-10-19",
       "valid_until": "2026-10-25",
-      "price_per_kg": 1.72,
-      "price_per_kg_eur": 0.88,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 1.72,
-          "price_eur": 0.88,
-          "old_price": 2.3,
-          "old_price_eur": 1.18,
-          "discount_pct": 25,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 1.72,
-      "comparison_count": 1,
-      "product_id": "kaufland-medix-универсален-препарат-различни-видове-1000g",
-      "weight_grams": 1000,
-      "weight_raw": "1 л",
-      "name": "Medix Универсален препарат различни видове",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00104339_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": true,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 1.72,
-      "lowest_price": 1.72,
-      "lowest_price_date": "2026-10-19",
-      "price_history": [
-        [
-          "2026-10-19",
-          1.72,
-          2.3,
-          25
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 1.72,
-      "new_price_eur": 0.88,
-      "old_price": 2.3,
-      "old_price_eur": 1.18,
-      "discount_pct": 25,
-      "valid_from": "2026-10-19",
-      "valid_until": "2026-10-25",
-      "price_per_kg": 1.72,
-      "price_per_kg_eur": 0.88,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 1.72,
-          "price_eur": 0.88,
-          "old_price": 2.3,
-          "old_price_eur": 1.18,
-          "discount_pct": 25,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 1.72,
-      "comparison_count": 1,
-      "product_id": "kaufland-medix-универсален-почистващ-препарат-различни-видове-1000g",
-      "weight_grams": 1000,
-      "weight_raw": "1 л",
-      "name": "Medix Универсален почистващ препарат, различни видове",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00011489_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": true,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 1.72,
-      "lowest_price": 1.72,
-      "lowest_price_date": "2026-10-19",
-      "price_history": [
-        [
-          "2026-10-19",
-          1.72,
-          2.3,
-          25
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 1.72,
-      "new_price_eur": 0.88,
-      "old_price": 2.3,
-      "old_price_eur": 1.18,
-      "discount_pct": 25,
-      "valid_from": "2026-10-19",
-      "valid_until": "2026-10-25",
       "price_per_kg": 5.38,
       "price_per_kg_eur": 2.75,
       "source_type": "promo",
@@ -32010,130 +31075,6 @@ const OFFERS_DATA = {
     {
       "store": "Kaufland",
       "address": null,
-      "new_price": 1.8,
-      "new_price_eur": 0.92,
-      "old_price": 2.4,
-      "old_price_eur": 1.23,
-      "discount_pct": 25,
-      "valid_from": "2026-10-19",
-      "valid_until": "2026-10-25",
-      "price_per_kg": 5.14,
-      "price_per_kg_eur": 2.63,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 1.8,
-          "price_eur": 0.92,
-          "old_price": 2.4,
-          "old_price_eur": 1.23,
-          "discount_pct": 25,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 1.8,
-      "comparison_count": 1,
-      "product_id": "kaufland-medix-препарат-за-мебели-350g",
-      "weight_grams": 350,
-      "weight_raw": "350 мл",
-      "name": "Medix Препарат за мебели",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800069405887_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 1.8,
-      "lowest_price": 1.8,
-      "lowest_price_date": "2026-10-19",
-      "price_history": [
-        [
-          "2026-10-19",
-          1.8,
-          2.4,
-          25
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 1.83,
-      "new_price_eur": 0.94,
-      "old_price": 2.45,
-      "old_price_eur": 1.25,
-      "discount_pct": 25,
-      "valid_from": "2026-10-19",
-      "valid_until": "2026-10-25",
-      "price_per_kg": 2.44,
-      "price_per_kg_eur": 1.25,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 1.83,
-          "price_eur": 0.94,
-          "old_price": 2.45,
-          "old_price_eur": 1.25,
-          "discount_pct": 25,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 1.83,
-      "comparison_count": 1,
-      "product_id": "kaufland-medix-обезмаслител-пълнител-citrus-750g",
-      "weight_grams": 750,
-      "weight_raw": "750 мл",
-      "name": "Medix Обезмаслител пълнител Citrus",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/05003400_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 1.86,
-      "lowest_price": 1.83,
-      "lowest_price_date": "2026-10-19",
-      "price_history": [
-        [
-          "2026-08-10",
-          1.89,
-          2.45,
-          23
-        ],
-        [
-          "2026-10-19",
-          1.83,
-          2.45,
-          25
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
       "new_price": 1.85,
       "new_price_eur": 0.95,
       "old_price": 2.65,
@@ -32194,65 +31135,6 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 1.86,
-      "new_price_eur": 0.95,
-      "old_price": 2.48,
-      "old_price_eur": 1.27,
-      "discount_pct": 25,
-      "valid_from": "2026-10-19",
-      "valid_until": "2026-10-25",
-      "price_per_kg": 3.72,
-      "price_per_kg_eur": 1.9,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 1.86,
-          "price_eur": 0.95,
-          "old_price": 2.48,
-          "old_price_eur": 1.27,
-          "discount_pct": 25,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 1.86,
-      "comparison_count": 1,
-      "product_id": "kaufland-medix-обезмаслител-multi-action-orange-500g",
-      "weight_grams": 500,
-      "weight_raw": "500 мл",
-      "name": "Medix Обезмаслител Multi Action Orange",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/05001013_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 1.86,
-      "lowest_price": 1.86,
-      "lowest_price_date": "2026-10-19",
-      "price_history": [
-        [
-          "2026-10-19",
-          1.86,
-          2.48,
-          25
-        ]
-      ],
-      "price_seen_count": 1,
       "price_signal": "buy"
     },
     {
@@ -32780,11 +31662,11 @@ const OFFERS_DATA = {
       "best_price_store": "Kaufland",
       "best_price": 1.97,
       "comparison_count": 1,
-      "product_id": "kaufland-medix-препарат-за-съдове-green-apple-750g",
+      "product_id": "kaufland-medix-препарат-за-съдове-с-балсам-750g",
       "weight_grams": 750,
       "weight_raw": "750 мл",
-      "name": "Medix Препарат за съдове Green Apple",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00107499_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "name": "Medix Препарат за съдове с балсам",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00067549_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "household",
       "emoji": "🧹",
       "is_food": false,
@@ -32795,145 +31677,27 @@ const OFFERS_DATA = {
       "is_good_fat": false,
       "is_bulk_worthy": true,
       "is_long_lasting": true,
-      "avg_price": 1.97,
-      "lowest_price": 1.97,
-      "lowest_price_date": "2026-10-19",
-      "price_history": [
-        [
-          "2026-10-19",
-          1.97,
-          2.63,
-          25
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 1.97,
-      "new_price_eur": 1.01,
-      "old_price": 2.63,
-      "old_price_eur": 1.34,
-      "discount_pct": 25,
-      "valid_from": "2026-10-19",
-      "valid_until": "2026-10-25",
-      "price_per_kg": 2.46,
-      "price_per_kg_eur": 1.26,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 1.97,
-          "price_eur": 1.01,
-          "old_price": 2.63,
-          "old_price_eur": 1.34,
-          "discount_pct": 25,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 1.97,
-      "comparison_count": 1,
-      "product_id": "kaufland-medix-premium-препарат-за-миене-на-съдове-800g",
-      "weight_grams": 800,
-      "weight_raw": "800 мл",
-      "name": "Medix Premium Препарат за миене на съдове",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00107498_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 2.83,
-      "lowest_price": 1.97,
-      "lowest_price_date": "2026-10-19",
-      "price_history": [
-        [
-          "2026-08-02",
-          3.7,
-          null,
-          null
-        ],
-        [
-          "2026-10-19",
-          1.97,
-          2.63,
-          25
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 1.97,
-      "new_price_eur": 1.01,
-      "old_price": 2.63,
-      "old_price_eur": 1.34,
-      "discount_pct": 25,
-      "valid_from": "2026-10-19",
-      "valid_until": "2026-10-25",
-      "price_per_kg": 2.46,
-      "price_per_kg_eur": 1.26,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 1.97,
-          "price_eur": 1.01,
-          "old_price": 2.63,
-          "old_price_eur": 1.34,
-          "discount_pct": 25,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 1.97,
-      "comparison_count": 1,
-      "product_id": "kaufland-medix-препарат-за-съдове-различни-видове-800g",
-      "weight_grams": 800,
-      "weight_raw": "800 мл",
-      "name": "Medix Препарат за съдове различни видове",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00104341_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "household",
-      "emoji": "🧹",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": true,
-      "is_long_lasting": true,
-      "avg_price": 2.8,
+      "avg_price": 2.94,
       "lowest_price": 1.89,
       "lowest_price_date": "2026-09-14",
       "price_history": [
         [
-          "2026-05-07",
-          3.62,
+          "2026-06-22",
+          3.6,
           5.14,
           30
         ],
         [
-          "2026-07-27",
-          3.7,
+          "2026-07-06",
+          3.62,
           null,
           null
+        ],
+        [
+          "2026-08-03",
+          3.6,
+          5.14,
+          30
         ],
         [
           "2026-09-14",
@@ -32942,13 +31706,13 @@ const OFFERS_DATA = {
           28
         ],
         [
-          "2026-10-19",
+          "2026-10-20",
           1.97,
           2.63,
           25
         ]
       ],
-      "price_seen_count": 4,
+      "price_seen_count": 5,
       "price_signal": "good"
     },
     {
@@ -33427,65 +32191,6 @@ const OFFERS_DATA = {
           1.99,
           null,
           null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 2.05,
-      "new_price_eur": 1.05,
-      "old_price": 2.74,
-      "old_price_eur": 1.4,
-      "discount_pct": 25,
-      "valid_from": "2026-10-19",
-      "valid_until": "2026-10-25",
-      "price_per_kg": 2.73,
-      "price_per_kg_eur": 1.4,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 2.05,
-          "price_eur": 1.05,
-          "old_price": 2.74,
-          "old_price_eur": 1.4,
-          "discount_pct": 25,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 2.05,
-      "comparison_count": 1,
-      "product_id": "kaufland-medix-razor-дезинфекциращ-препарат-750g",
-      "weight_grams": 750,
-      "weight_raw": "750 мл",
-      "name": "Medix Razor Дезинфекциращ препарат",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800069405269_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 2.05,
-      "lowest_price": 2.05,
-      "lowest_price_date": "2026-10-19",
-      "price_history": [
-        [
-          "2026-10-19",
-          2.05,
-          2.74,
-          25
         ]
       ],
       "price_seen_count": 1,
@@ -35019,65 +33724,6 @@ const OFFERS_DATA = {
     {
       "store": "Kaufland",
       "address": null,
-      "new_price": 2.35,
-      "new_price_eur": 1.2,
-      "old_price": 3.14,
-      "old_price_eur": 1.61,
-      "discount_pct": 25,
-      "valid_from": "2026-10-19",
-      "valid_until": "2026-10-25",
-      "price_per_kg": 3.13,
-      "price_per_kg_eur": 1.6,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 2.35,
-          "price_eur": 1.2,
-          "old_price": 3.14,
-          "old_price_eur": 1.61,
-          "discount_pct": 25,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 2.35,
-      "comparison_count": 1,
-      "product_id": "kaufland-medix-обезмаслител-с-помпа-citrus-750g",
-      "weight_grams": 750,
-      "weight_raw": "750 мл",
-      "name": "Medix Обезмаслител с помпа Citrus",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800069405146_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 2.35,
-      "lowest_price": 2.35,
-      "lowest_price_date": "2026-10-19",
-      "price_history": [
-        [
-          "2026-10-19",
-          2.35,
-          3.14,
-          25
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
       "new_price": 2.39,
       "new_price_eur": 1.22,
       "old_price": 3.47,
@@ -36311,272 +34957,6 @@ const OFFERS_DATA = {
     {
       "store": "Kaufland",
       "address": null,
-      "new_price": 2.56,
-      "new_price_eur": 1.31,
-      "old_price": 3.42,
-      "old_price_eur": 1.75,
-      "discount_pct": 25,
-      "valid_from": "2026-10-19",
-      "valid_until": "2026-10-25",
-      "price_per_kg": 2.56,
-      "price_per_kg_eur": 1.31,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 2.56,
-          "price_eur": 1.31,
-          "old_price": 3.42,
-          "old_price_eur": 1.75,
-          "discount_pct": 25,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 2.56,
-      "comparison_count": 1,
-      "product_id": "kaufland-medix-razor-препарат-за-почистване-дезинфекциращ-1000g",
-      "weight_grams": 1000,
-      "weight_raw": "1 л",
-      "name": "Medix Razor Препарат за почистване дезинфекциращ",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/05003405_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "household",
-      "emoji": "🧹",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": true,
-      "is_long_lasting": true,
-      "avg_price": 3.71,
-      "lowest_price": 2.56,
-      "lowest_price_date": "2026-10-19",
-      "price_history": [
-        [
-          "2026-07-20",
-          4.87,
-          6.69,
-          27
-        ],
-        [
-          "2026-10-19",
-          2.56,
-          3.42,
-          25
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 2.58,
-      "new_price_eur": 1.32,
-      "old_price": 3.45,
-      "old_price_eur": 1.76,
-      "discount_pct": 25,
-      "valid_from": "2026-10-19",
-      "valid_until": "2026-10-25",
-      "price_per_kg": 23.45,
-      "price_per_kg_eur": 11.99,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 2.58,
-          "price_eur": 1.32,
-          "old_price": 3.45,
-          "old_price_eur": 1.76,
-          "discount_pct": 25,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 2.58,
-      "comparison_count": 1,
-      "product_id": "kaufland-medix-wc-блокче-total-power-guard-110g",
-      "weight_grams": 110,
-      "weight_raw": "2 х 55 г",
-      "name": "Medix WC блокче Total Power Guard",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800069404859_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 3.68,
-      "lowest_price": 2.58,
-      "lowest_price_date": "2026-10-19",
-      "price_history": [
-        [
-          "2026-06-08",
-          5.48,
-          null,
-          null
-        ],
-        [
-          "2026-08-10",
-          2.99,
-          null,
-          null
-        ],
-        [
-          "2026-10-19",
-          2.58,
-          3.45,
-          25
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 2.67,
-      "new_price_eur": 1.37,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-10-19",
-      "valid_until": "2026-10-25",
-      "price_per_kg": 3.56,
-      "price_per_kg_eur": 1.82,
-      "source_type": "assortment",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 2.67,
-          "price_eur": 1.37,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 2.67,
-      "comparison_count": 1,
-      "product_id": "kaufland-medix-обезмаслител-пълнител-и-помпа-750g",
-      "weight_grams": 750,
-      "weight_raw": "750 мл",
-      "name": "Medix Обезмаслител пълнител и помпа",
-      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20752423_P.jpg",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 2.67,
-      "lowest_price": 2.67,
-      "lowest_price_date": "2026-10-19",
-      "price_history": [
-        [
-          "2026-10-19",
-          2.67,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 2.67,
-      "new_price_eur": 1.37,
-      "old_price": 3.57,
-      "old_price_eur": 1.83,
-      "discount_pct": 25,
-      "valid_from": "2026-10-19",
-      "valid_until": "2026-10-25",
-      "price_per_kg": 1.78,
-      "price_per_kg_eur": 0.91,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 2.67,
-          "price_eur": 1.37,
-          "old_price": 3.57,
-          "old_price_eur": 1.83,
-          "discount_pct": 25,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 2.67,
-      "comparison_count": 1,
-      "product_id": "kaufland-medix-сол-за-съдомиялни-машини-1500g",
-      "weight_grams": 1500,
-      "weight_raw": "1,5 кг",
-      "name": "Medix Сол за съдомиялни машини",
-      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_05001017_P.jpg",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 3.44,
-      "lowest_price": 2.67,
-      "lowest_price_date": "2026-10-19",
-      "price_history": [
-        [
-          "2026-08-03",
-          4.87,
-          6.98,
-          30
-        ],
-        [
-          "2026-08-17",
-          2.79,
-          3.57,
-          22
-        ],
-        [
-          "2026-10-19",
-          2.67,
-          3.57,
-          25
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
       "new_price": 2.69,
       "new_price_eur": 1.38,
       "old_price": 5.62,
@@ -37578,63 +35958,6 @@ const OFFERS_DATA = {
           2.85,
           3.57,
           20
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 2.87,
-      "new_price_eur": 1.47,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-10-19",
-      "valid_until": "2026-10-25",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 2.87,
-          "price_eur": 1.47,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 2.87,
-      "comparison_count": 1,
-      "product_id": "kaufland-medix-razor-гел-и-препарат-за-баня-промопакет",
-      "name": "Medix Razor Гел и Препарат за баня промопакет",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20813300_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "household",
-      "emoji": "🧹",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": true,
-      "is_long_lasting": true,
-      "avg_price": 2.87,
-      "lowest_price": 2.87,
-      "lowest_price_date": "2026-10-19",
-      "price_history": [
-        [
-          "2026-10-19",
-          2.87,
-          null,
-          null
         ]
       ],
       "price_seen_count": 1,
@@ -43270,65 +41593,6 @@ const OFFERS_DATA = {
       "discount_pct": 25,
       "valid_from": "2026-10-19",
       "valid_until": "2026-10-25",
-      "price_per_kg": 7.02,
-      "price_per_kg_eur": 3.59,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 4.21,
-          "price_eur": 2.15,
-          "old_price": 5.62,
-          "old_price_eur": 2.87,
-          "discount_pct": 25,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 4.21,
-      "comparison_count": 1,
-      "product_id": "kaufland-medix-гел-за-съдомиялна-600g",
-      "weight_grams": 600,
-      "weight_raw": "600 мл",
-      "name": "Medix Гел за съдомиялна",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800069407904_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 4.21,
-      "lowest_price": 4.21,
-      "lowest_price_date": "2026-10-19",
-      "price_history": [
-        [
-          "2026-10-19",
-          4.21,
-          5.62,
-          25
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 4.21,
-      "new_price_eur": 2.15,
-      "old_price": 5.62,
-      "old_price_eur": 2.87,
-      "discount_pct": 25,
-      "valid_from": "2026-10-19",
-      "valid_until": "2026-10-25",
       "price_per_kg": null,
       "price_per_kg_eur": null,
       "source_type": "promo",
@@ -46328,95 +44592,6 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 2,
       "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 5.74,
-      "new_price_eur": 2.93,
-      "old_price": 7.66,
-      "old_price_eur": 3.92,
-      "discount_pct": 25,
-      "valid_from": "2026-10-19",
-      "valid_until": "2026-10-25",
-      "price_per_kg": 20.87,
-      "price_per_kg_eur": 10.67,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 5.74,
-          "price_eur": 2.93,
-          "old_price": 7.66,
-          "old_price_eur": 3.92,
-          "discount_pct": 25,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 5.74,
-      "comparison_count": 1,
-      "product_id": "kaufland-medix-wc-блокче-различни-видове-275g",
-      "weight_grams": 275,
-      "weight_raw": "5 x 55 г",
-      "name": "MEDIX WC блокче различни видове",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20876335_625?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 6.34,
-      "lowest_price": 2.99,
-      "lowest_price_date": "2026-08-10",
-      "price_history": [
-        [
-          "2026-06-01",
-          8.98,
-          null,
-          null
-        ],
-        [
-          "2026-06-08",
-          5.48,
-          null,
-          null
-        ],
-        [
-          "2026-07-06",
-          8.98,
-          null,
-          null
-        ],
-        [
-          "2026-07-13",
-          5.85,
-          null,
-          null
-        ],
-        [
-          "2026-08-10",
-          2.99,
-          null,
-          null
-        ],
-        [
-          "2026-10-19",
-          5.74,
-          7.66,
-          25
-        ]
-      ],
-      "price_seen_count": 6,
-      "price_signal": "good"
     },
     {
       "store": "Kaufland",
@@ -56251,63 +54426,6 @@ const OFFERS_DATA = {
           15.99,
           24.99,
           36
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 16.48,
-      "new_price_eur": 8.43,
-      "old_price": 21.98,
-      "old_price_eur": 11.24,
-      "discount_pct": 25,
-      "valid_from": "2026-10-19",
-      "valid_until": "2026-10-25",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 16.48,
-          "price_eur": 8.43,
-          "old_price": 21.98,
-          "old_price_eur": 11.24,
-          "discount_pct": 25,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 16.48,
-      "comparison_count": 1,
-      "product_id": "kaufland-medix-таблетки-за-съдомиялна-различни-видове",
-      "name": "MEDIX Таблетки за съдомиялна различни видове",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20708326_619?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "household",
-      "emoji": "🧹",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": true,
-      "is_long_lasting": true,
-      "avg_price": 16.48,
-      "lowest_price": 16.48,
-      "lowest_price_date": "2026-10-19",
-      "price_history": [
-        [
-          "2026-10-19",
-          16.48,
-          21.98,
-          25
         ]
       ],
       "price_seen_count": 1,
