@@ -110,6 +110,17 @@ STORE_SLUGS = {
 }
 
 
+def merge_unavailable_stores(
+    previous_unavailable: set[str] | list[str],
+    attempted_stores: set[str],
+    scraped_stores: set[str],
+) -> list[str]:
+    """Keep failures visible until a later successful scrape clears them."""
+    still_unavailable = set(previous_unavailable) - scraped_stores
+    still_unavailable.update(attempted_stores - scraped_stores)
+    return sorted(still_unavailable)
+
+
 def make_product_id(store: str, name: str, weight_grams) -> str:
     """Stable product key: {store}-{normalized_name}-{weight}g  (max 80 chars)."""
     import unicodedata
@@ -2175,7 +2186,13 @@ async def main():
             display_name for display_name, slug in STORE_SLUGS.items()
             if slug in stores_filter
         }
-    unavailable_stores = sorted(attempted_stores - scraped_stores)
+    # Partial scheduled runs must not clear a prior failure for an unattempted
+    # store; only a successful scrape makes that store available again.
+    unavailable_stores = merge_unavailable_stores(
+        existing_data.get("unavailable_stores", []),
+        attempted_stores,
+        scraped_stores,
+    )
 
     # Avoid churn from frequent scheduled retries; still persist changed freshness
     # metadata even when prices and offers themselves did not change.

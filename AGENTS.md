@@ -167,7 +167,7 @@ python sync_offers.py       # → data/offers.js (required for GitHub Pages)
 
 Supports: Lidl, Kaufland, Billa, Fantastico, T-Market, Dar. Kaufland also has a PDF scraper (`kaufland_pdf_scraper.py`). Read `scraper/NOTES.md` before touching scraper code.
 
-- 2026-10-22: Offers Actions timed out at 30 min during product snapshots; timeout is now 120 min and `resolve_product_id_collision()` prevents repeated truncated-ID collisions from looping. On a failed store scrape, keep its last offers and publish `unavailable_stores`/`store_last_scraped`; Smart Food must warn users before trusting those prices. GitHub Actions T-Market requests may get 403 even when a local scan succeeds.
+- 2026-10-22: Offers Actions timeout is 120 min; `resolve_product_id_collision()` prevents truncated-ID collision loops. Preserve last-known offers on failure and keep `unavailable_stores` set across partial runs until that store succeeds; Smart Food warns with `store_last_scraped`. GitHub runners may get T-Market 403 despite local success. Verify status logic with `python tests/test_scraper_freshness.py`.
 
 ## Supplement scraper workflow
 

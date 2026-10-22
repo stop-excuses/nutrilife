@@ -33,7 +33,7 @@ python sync_offers.py         # sync offers.json → data/offers.js (for GitHub 
 - broshura.bg returns 403 intermittently → retry+backoff is in place
 - tmarketonline.bg returns Cloudflare 403/JS challenge to Python/Playwright as of May 2026;
   use the official T-Market CSV instead of the online-shop category pages.
-- GitHub Actions can also receive 403 from the official T-Market CSV while local requests succeed. Full scans preserve last-known offers for stores with no usable scrape and mark them in `unavailable_stores`/`store_last_scraped`; keep the Smart Food warning visible so retained prices are not mistaken for fresh data.
+- GitHub Actions can also receive 403 from the official T-Market CSV while local requests succeed. Scans preserve last-known offers and keep a store in `unavailable_stores` until a later successful scrape (including across partial runs); Smart Food warns users so retained prices are not mistaken for fresh data. Test with `python tests/test_scraper_freshness.py`.
 - Billa full catalog not available via ssbbilla.site (weekly brochure only)
 - Kaufland catalog pages not yet scraped (only offers page)
 
