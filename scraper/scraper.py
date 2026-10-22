@@ -122,6 +122,24 @@ def make_product_id(store: str, name: str, weight_grams) -> str:
     return f"{store_slug}-{norm}{weight_part}"[:80]
 
 
+def resolve_product_id_collision(pid: str, name: str, by_pid: dict) -> str:
+    """Return a stable unused ID when distinct names truncate to the same key."""
+    normalized_name = (name or "").lower().strip()
+    existing = by_pid.get(pid)
+    if existing is None or (existing.get("name") or "").lower().strip() == normalized_name:
+        return pid
+
+    base_pid = pid
+    suffix_number = 2
+    while True:
+        suffix = f"-{suffix_number}"
+        candidate = f"{base_pid[:80 - len(suffix)]}{suffix}"
+        existing = by_pid.get(candidate)
+        if existing is None or (existing.get("name") or "").lower().strip() == normalized_name:
+            return candidate
+        suffix_number += 1
+
+
 def load_all_products() -> tuple[dict, dict]:
     """
     Returns (by_pid, by_name_store).
@@ -2106,10 +2124,7 @@ async def main():
 
     for offer in all_offers:
         pid = make_product_id(offer.get("store", ""), offer.get("name", ""), offer.get("weight_grams"))
-
-        # Collision guard: if stable pid already taken by a different product, suffix it
-        while pid in by_pid and (by_pid[pid].get("name") or "").lower().strip() != (offer.get("name") or "").lower().strip():
-            pid = pid[:78] + "-2" if not pid.endswith("-2") else pid[:-2] + "-3"
+        pid = resolve_product_id_collision(pid, offer.get("name", ""), by_pid)
 
         # Migration: look up existing entry by (name, store) if stable pid is new
         existing = by_pid.get(pid)
