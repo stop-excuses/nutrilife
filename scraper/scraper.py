@@ -332,7 +332,7 @@ JUNK_KEYWORDS = [
     "кола", "cola", "pepsi", "фанта", "спрайт",
     "вафл", "шоколад", "бонбон", "гуми", "желе",
     "чипс", "снак", "крекер", "пуканки",
-    "торта", "сладкиш", "кекс", "мъфин",
+    "торта", "сладкиш", "кекс", "мъфин", "пастет",
     "газирана", "енергийна напитка",
     "сладолед", "пудинг", "raffaello", "рафаело", "lambertz",
 ]
@@ -2149,23 +2149,50 @@ async def main():
     write_all_products(by_pid, today)
     print("[*] all_products.json written", flush=True)
 
-    # Partial scrape: keep existing thin offers from unscraped stores
-    if stores_filter:
-        scraped_stores = {r["store"] for r in store_results if r}
-        kept = [o for o in existing_data.get("offers", []) if o.get("store") not in scraped_stores]
-        if kept:
-            print(f"[*] Merging {len(kept)} existing offers from unscraped stores")
-        thin_offers = thin_offers + kept
+    # Keep last-known data for any source that returned no usable result, including
+    # full scans. A temporary 403 must not silently erase an entire store catalog.
+    scraped_stores = {r["store"] for r in store_results if r}
+    kept = [o for o in existing_data.get("offers", []) if o.get("store") not in scraped_stores]
+    if kept:
+        print(f"[*] Keeping {len(kept)} last-known offers from stores without fresh results")
+    thin_offers = thin_offers + kept
 
-    # Skip write if offers content is identical to previous run
+    # Record per-store freshness so a partial failure is visible in the app.
+    generated_at = datetime.utcnow().isoformat() + "Z"
+    today_utc = datetime.utcnow().strftime("%Y-%m-%d")
+    store_last_scraped = dict(existing_data.get("store_last_scraped") or {})
+    if not store_last_scraped and existing_data.get("generated_at"):
+        store_last_scraped = {
+            store: existing_data["generated_at"]
+            for store in existing_data.get("stores", [])
+        }
+    for store in scraped_stores:
+        store_last_scraped[store] = today_utc
+
+    attempted_stores = set(STORE_SLUGS)
+    if stores_filter:
+        attempted_stores = {
+            display_name for display_name, slug in STORE_SLUGS.items()
+            if slug in stores_filter
+        }
+    unavailable_stores = sorted(attempted_stores - scraped_stores)
+
+    # Avoid churn from frequent scheduled retries; still persist changed freshness
+    # metadata even when prices and offers themselves did not change.
     new_hash = _content_hash(thin_offers)
     old_hash = existing_data.get("content_hash") or _content_hash(existing_data.get("offers", []))
-    if old_hash and old_hash == new_hash:
-        print("[*] NO_CHANGE: offers unchanged since last scrape — skipping write")
+    freshness_unchanged = (
+        existing_data.get("store_last_scraped") == store_last_scraped
+        and existing_data.get("unavailable_stores", []) == unavailable_stores
+    )
+    if old_hash and old_hash == new_hash and freshness_unchanged:
+        print("[*] NO_CHANGE: offers and store freshness unchanged — skipping write")
         return
 
     output = {
-        "generated_at": datetime.utcnow().isoformat() + "Z",
+        "generated_at": generated_at,
+        "store_last_scraped": store_last_scraped,
+        "unavailable_stores": unavailable_stores,
         "content_hash": new_hash,
         "total_offers": len(thin_offers),
         "promo_offers": sum(1 for o in thin_offers if o.get("source_type") == "promo"),

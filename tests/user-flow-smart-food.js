@@ -9,6 +9,7 @@ function log(msg) { console.log('[FLOW] ' + msg); }
 (async () => {
   const errors = [];
   const warnings = [];
+  const imageFailures = [];
   let totalSteps = 0, passed = 0;
 
   function step(name, ok, detail) {
@@ -35,8 +36,22 @@ function log(msg) { console.log('[FLOW] ' + msg); }
     const ctx = await browser.newContext({ viewport: profile.viewport });
     const page = await ctx.newPage();
     page.on('pageerror', e => errors.push(`[${profile.label}] pageerror: ${e.message}`));
+    page.on('response', response => {
+      if (response.status() < 400) return;
+      const request = response.request();
+      const detail = `${response.status()} ${response.url()}`;
+      if (request.resourceType() === 'image') imageFailures.push(`[${profile.label}] ${detail}`);
+      else errors.push(`[${profile.label}] resource ${detail}`);
+    });
+    page.on('requestfailed', request => {
+      const detail = `${request.failure()?.errorText || 'request failed'} ${request.url()}`;
+      if (request.resourceType() === 'image') imageFailures.push(`[${profile.label}] ${detail}`);
+      else errors.push(`[${profile.label}] ${detail}`);
+    });
     page.on('console', m => {
-      if (m.type() === 'error') errors.push(`[${profile.label}] console.error: ${m.text()}`);
+      // HTTP failures are classified by resource type above, so broken image
+      // CDNs do not masquerade as application errors when the local fallback works.
+      if (m.type() === 'error' && !m.text().startsWith('Failed to load resource:')) errors.push(`[${profile.label}] console.error: ${m.text()}`);
       if (m.type() === 'warning') warnings.push(`[${profile.label}] console.warn: ${m.text()}`);
     });
 
@@ -70,6 +85,30 @@ function log(msg) { console.log('[FLOW] ' + msg); }
     );
     step('Search "яйца" excludes dessert eggs', eggSweetMatches.length === 0, `${eggSweetMatches.length} bad matches`);
     step('Search "яйца" shows real egg packs', eggCards.length > 0 && eggPackMatches.length === eggCards.length, `${eggPackMatches.length}/${eggCards.length} real packs`);
+
+    // Health-minded relevance: prefer basic/lean products over cheap lower-quality matches.
+    await runSearch(page, 'пиле');
+    const chickenFirst = (await page.locator('#offers-grid .offer-card').first().innerText().catch(() => '')).toLowerCase();
+    step('Chicken search prefers fillet/breast over fenner/pâté',
+      /филе|гърд/.test(chickenFirst) && !/фенер|пастет|крила/.test(chickenFirst), chickenFirst.slice(0, 100));
+    await runSearch(page, 'овес');
+    const oatsFirst = (await page.locator('#offers-grid .offer-card').first().innerText().catch(() => '')).toLowerCase();
+    step('Oats search prefers plain oats over bars/breakfast sweets',
+      /овесени ядки|чист овес/.test(oatsFirst) && !/закуска|бар/.test(oatsFirst), oatsFirst.slice(0, 100));
+
+    const freshnessWarningWorks = await page.evaluate(() => {
+      const previousUnavailable = OFFERS_DATA.unavailable_stores;
+      const previousFreshness = OFFERS_DATA.store_last_scraped;
+      OFFERS_DATA.unavailable_stores = ['T-Market'];
+      OFFERS_DATA.store_last_scraped = { 'T-Market': '2026-10-20' };
+      renderOffersStatus();
+      const visible = document.querySelector('.offers-stale-warning')?.textContent || '';
+      OFFERS_DATA.unavailable_stores = previousUnavailable;
+      OFFERS_DATA.store_last_scraped = previousFreshness;
+      renderOffersStatus();
+      return visible.includes('T-Market') && visible.includes('20.10.2026') && visible.includes('последните налични цени');
+    });
+    step('Store outage displays last-scan warning', freshnessWarningWorks);
 
     // 3. Empty/nonexistent search → reset works
     await runSearch(page, 'zzznotreal999');
@@ -167,6 +206,11 @@ function log(msg) { console.log('[FLOW] ' + msg); }
     const shortlistCount = await page.locator('#weekly-shortlist-section, #protein-value-section, #price-comparison, #bulk-section, #watchout-section').count();
     step('No editorial shortlist on utility page', shortlistCount === 0, `sections: ${shortlistCount}`);
 
+    const brokenVisibleImages = await page.locator('#offers-grid .offer-card img').evaluateAll(images =>
+      images.filter(img => img.getClientRects().length > 0 && img.complete && img.naturalWidth === 0).length
+    );
+    step('Visible product images have loaded or fallen back', brokenVisibleImages === 0, `${brokenVisibleImages} broken visible images`);
+
     // 12. Overflow check (mobile only)
     if (profile.viewport.width <= 480) {
       const bodyW = await page.evaluate(() => document.body.scrollWidth);
@@ -179,6 +223,7 @@ function log(msg) { console.log('[FLOW] ' + msg); }
   console.log(`\n[FLOW] Passed ${passed}/${totalSteps} steps`);
   console.log(`[FLOW] Console errors: ${errors.length}`);
   if (errors.length) errors.forEach(e => console.log('  ' + e));
+  console.log(`[FLOW] External image failures handled by fallback: ${imageFailures.length}`);
   console.log(`[FLOW] Console warnings: ${warnings.length}`);
   if (warnings.length) warnings.slice(0, 10).forEach(w => console.log('  ' + w));
 

@@ -3793,6 +3793,16 @@ body.fav-product-open {
     color: var(--text);
 }
 
+.offers-stale-warning {
+    flex-basis: 100%;
+    padding: 8px 10px;
+    border-left: 3px solid #d99a36;
+    border-radius: 4px;
+    background: rgba(217, 154, 54, 0.1);
+    color: var(--text);
+    font-weight: 600;
+}
+
 .offers-status small {
     width: 100%;
     color: var(--muted2);

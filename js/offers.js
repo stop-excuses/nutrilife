@@ -50,7 +50,7 @@ function getCatalogProductsData() {
 
 let catalogReady = false;
 let catalogLoadPromise = null;
-const CATALOG_SCRIPT_URL = "data/market_memory.js?v=5";
+const CATALOG_SCRIPT_URL = "data/market_memory.js?v=6";
 
 function isCatalogAvailable() {
     return typeof MARKET_MEMORY_DATA !== "undefined" || typeof ALL_PRODUCTS_DATA !== "undefined";
@@ -136,7 +136,7 @@ const NON_EDIBLE_PRODUCT_KEYWORDS = [
 ];
 
 const ULTRA_PROCESSED_HEALTH_KEYWORDS = [
-    "топено сирене", "вафл", "шоколад", "бонбон", "raffaello", "рафаело", "lambertz"
+    "топено сирене", "вафл", "шоколад", "бонбон", "пастет", "raffaello", "рафаело", "lambertz"
 ];
 
 const BASELINE_RECOMMENDATION_EXCLUDE_KEYWORDS = [
@@ -751,7 +751,7 @@ function normalizeOfferForUi(offer) {
         price_history: normalizePriceHistoryEntries(offer.price_history),
         category,
         is_food: isCuredLeanMeat ? true : (isNonEdible ? false : (offer.is_food ?? category !== "other")),
-        is_junk: isNonEdible ? false : (offer.is_junk || isJunkByName),
+        is_junk: isNonEdible ? false : (offer.is_junk || isJunkByName || ULTRA_PROCESSED_HEALTH_KEYWORDS.some(kw => nameLower.includes(kw))),
         health_score: isNonEdible ? null : healthScore,
         diet_tags: [...new Set(dietTags)],
         macros: macros || offer.macros,
@@ -1036,6 +1036,7 @@ function getSearchRank(offer, query) {
     const q = normalizeSearchQuery(query);
     const nameLower = getOfferNameLower(offer);
     const intent = getSearchIntent(q);
+    const profile = getOfferProfile(offer);
     let score = 100;
     if (nameLower === q) score -= 80;
     if (nameLower.startsWith(q)) score -= 60;
@@ -1044,7 +1045,28 @@ function getSearchRank(offer, query) {
     if (intent?.include?.some(term => nameLower.includes(term))) score -= 15;
     if (Array.isArray(intent?.category) && intent.category.includes(offer.category)) score -= 10;
     if (intent?.category && !Array.isArray(intent.category) && offer.category === intent.category) score -= 10;
-    score -= Math.min(getOfferProfile(offer).health_score || 0, 10);
+    score -= Math.min(profile.health_score || 0, 10);
+    // A keyword match alone must not put pâté, processed meat, or other
+    // low-quality matches ahead of fresh/basic foods for a health-minded search.
+    if (!profile.is_healthy) score += 35;
+    if (profile.is_ultra_processed) score += 20;
+    if (profile.is_processed_meat) score += 15;
+    if (intent?.canonical === "пиле") {
+        if (/пилешк[оаи]?\s+филе|пилешки гърд|бяло месо/.test(nameLower)) score -= 12;
+        if (/фенер|крила|пастет|кожа/.test(nameLower)) score += 18;
+    }
+    if (intent?.canonical === "овес") {
+        if (/овесени ядки|чист овес/.test(nameLower)) score -= 10;
+        if (/закуска|мюсли бар|овесен бар/.test(nameLower)) score += 12;
+    }
+    if (/зехтин|маслиново масло|olive oil/.test(q)) {
+        if (/extra\s*virgin|екстра\s*върджин/.test(nameLower)) score -= 12;
+        if (/pomace|рафиниран|рафинирано/.test(nameLower)) score += 10;
+    }
+    if (/риба тон|туна|tuna/.test(q)) {
+        if (/собствен сос|във вода|натурален/.test(nameLower)) score -= 5;
+        if (/растително масло|слънчогледово масло|в олио/.test(nameLower)) score += 5;
+    }
     score += Math.min(offer.new_price || 0, 20) / 10;
     return score;
 }
@@ -1790,6 +1812,19 @@ function renderOffersStatus() {
         ? generatedAt.toLocaleString("bg-BG", { day: "2-digit", month: "2-digit", year: "numeric", hour: "2-digit", minute: "2-digit" })
         : "неизвестно";
     const promo = allOffers.filter(o => o.source_type === "promo").length;
+    const unavailable = Array.isArray(OFFERS_DATA.unavailable_stores)
+        ? OFFERS_DATA.unavailable_stores
+        : [];
+    const freshness = OFFERS_DATA.store_last_scraped || {};
+    const unavailableNote = unavailable.length
+        ? `<span class="offers-stale-warning" role="status">⚠️ Не успях да обновя: ${unavailable.map(store => {
+            const lastSeen = freshness[store];
+            const lastSeenText = lastSeen
+                ? new Date(lastSeen).toLocaleDateString("bg-BG")
+                : "няма последни данни";
+            return `${escapeHtml(store)} (последни данни: ${escapeHtml(lastSeenText)})`;
+        }).join(", ")}. Показвам последните налични цени — провери ги в магазина.</span>`
+        : "";
 
     let productCount, storeList;
     if (catalogReady) {
@@ -1808,6 +1843,7 @@ function renderOffersStatus() {
         <span><strong>${promo}</strong> промоции</span>
         <span><strong>${productCount}</strong> продукта</span>
         <span><strong>${storeList.length}</strong> магазина</span>
+        ${unavailableNote}
         <small>Цените може да се различават по град и конкретен обект.</small>
     `;
 }
