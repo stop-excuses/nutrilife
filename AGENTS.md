@@ -167,6 +167,8 @@ python sync_offers.py       # → data/offers.js (required for GitHub Pages)
 
 Supports: Lidl, Kaufland, Billa, Fantastico, T-Market, Dar. Kaufland also has a PDF scraper (`kaufland_pdf_scraper.py`). Read `scraper/NOTES.md` before touching scraper code.
 
+- 2026-10-22: Offers Actions were canceled at 30 min while building product snapshots. Workflow timeout is now 120 min; `resolve_product_id_collision()` uses increasing suffixes to avoid the old `-2`/`-3` infinite loop on repeated truncated-ID collisions. Verify live workflow runs before treating refreshed data as published.
+
 ## Supplement scraper workflow
 
 ```
