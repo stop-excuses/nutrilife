@@ -53,7 +53,8 @@ on:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    # Full multi-store scans can exceed 30 minutes; GitHub otherwise cancels them mid-scrape.
+    timeout-minutes: 120
 
     permissions:
       contents: write
