@@ -1720,7 +1720,7 @@ def is_relevant_product(category: str, name: str, url: str) -> bool:
     if category == "zinc":
         return bool(re.search(r"\bzinc\b|цинк|cink", product_name, re.I))
     if category == "protein":
-        if any(bad in haystack for bad in ("protein bar", "protein chips", "protein cookie", "протеинов бар", "чипс")):
+        if any(bad in haystack for bad in ("protein bar", "protein chips", "protein cookie", "protein stick", "protein sticks", "протеинов бар", "протеинов стик", "чипс")):
             return False
         # Exclude body care / cosmetic products that mention protein (silk protein, keratin, etc.)
         if re.search(r"душ.гел|гел.за.тяло|лосион.за.тяло|крем.за.тяло|body.lotion|shower.gel|body.wash|шампоан|shampoo|козметик|масло.за.тяло|коса\b|косопад|hair.mask|hair.conditioner", haystack, re.I):

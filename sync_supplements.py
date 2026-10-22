@@ -46,7 +46,7 @@ def is_snack_food_junk(name):
     low = (name or "").lower()
     product_type_part = re.split(r"с\s+вкус\s+на|with\s+.{0,3}\s*flavor", low, maxsplit=1)[0]
     return bool(re.search(
-        r"паста\b|\bбисквитк|крекер|пица\b|каша\b|хляб\b|\bbread\b|\bcookies?\b|\bcrackers?\b|\bpizza\b|фъстъчено.масло|peanut.butter|крем\b"
+        r"паста\b|\bбисквитк|крекер|пица\b|каша\b|хляб\b|\bbread\b|\bcookies?\b|\bcrackers?\b|\bpizza\b|протеинов\s+стик|\bprotein\s+sticks?\b|фъстъчено.масло|peanut.butter|крем\b"
         r"|вафл|\bwafers?\b|\bbrownies?\b|брауни|сладолед|ice.cream|mug.cake|флапджак|flapjack|\boats\b|\bbars?\b|батон|\bdrinks?\b|\bbottle\b|бутилка|\bshakers?\b|шейкър",
         product_type_part,
     ))
