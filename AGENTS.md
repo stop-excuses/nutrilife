@@ -30,6 +30,7 @@ Keep this section short and update it after hands-on QA/fixes so future sessions
 - Do NOT add "Co-Authored-By: Claude" or "Claude-Session" lines to commit messages.
 
 **Token/context hygiene**
+- 2026-10-22 QA: product data must bypass permanent versioned-asset caching; `sw.js?v=36` revalidates every 30 minutes and keeps offline fallback. Run `node --test tests/service-worker-data.js`. Supplements show per-product check dates and exclude stale rows from best picks. FHL now uses `.fhl-product-card__title` listings and `.fhl-price-output .opt1` EUR prices; prefer package weight in the product name over related-card text. Empty discovery retries known URLs within the selected scope. Full-page smoke QA: `node tests/quick-check-new-pages.js` (18 pages at 1440/390/320px).
 - Keep `AGENTS.md` short. Add only stable decisions, commands, and known traps that prevent rediscovery; avoid long research notes or full QA transcripts.
 - Prefer updating the newest relevant note instead of appending a new long dated block for every small UI tweak.
 - For Smart Supplements work, start from `js/supplements.js`, `scraper/supplement_scrapers.py`, `data/supplements.json`, and `tests/user-flow-smart-supplements.js`; do not re-audit labels from scratch unless product data changed.

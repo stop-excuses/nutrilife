@@ -1,21 +1,26 @@
 // Бърз smoke-тест на новите страници: load, без console errors, очаквани елементи.
 const { chromium } = require('@playwright/test');
+const fs = require('node:fs');
+const path = require('node:path');
 
-const PAGES = [
-  { url: 'http://127.0.0.1:8000/smart-value.html',     expect: 'main, .hero, body' },
-  { url: 'http://127.0.0.1:8000/nai-izgoden-kreatin.html', expect: 'main, .hero, body' },
-];
+const BASE = process.env.QA_BASE_URL || 'http://127.0.0.1:8000/';
+const PAGES = fs.readdirSync(path.join(__dirname, '..'))
+  .filter(file => file.endsWith('.html'))
+  .map(file => ({ url: new URL(file, BASE).href }));
 
 (async () => {
   const browser = await chromium.launch();
   let fails = 0;
-  for (const vp of [{w:1440,h:900,name:'desktop'},{w:390,h:844,name:'mobile'}]) {
+  for (const vp of [{w:1440,h:900,name:'desktop'},{w:390,h:844,name:'mobile'},{w:320,h:740,name:'small-mobile'}]) {
     for (const p of PAGES) {
       const ctx = await browser.newContext({ viewport: { width: vp.w, height: vp.h } });
       const page = await ctx.newPage();
       const errors = [];
       page.on('pageerror', e => errors.push('pageerror: ' + e.message));
-      page.on('console', m => { if (m.type()==='error') errors.push('console: '+m.text()); });
+      page.on('console', m => { if (m.type()==='error' && !m.text().startsWith('Failed to load resource:')) errors.push('console: '+m.text()); });
+      page.on('response', r => {
+        if (r.status() >= 400 && new URL(r.url()).origin === new URL(BASE).origin) errors.push(`${r.status()} ${r.url()}`);
+      });
       try {
         const r = await page.goto(p.url, { waitUntil: 'domcontentloaded', timeout: 15000 });
         await page.waitForTimeout(1500);

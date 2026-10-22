@@ -282,7 +282,7 @@ def discover_fhl_urls(source: Source, per_category: int, allowed: set[str]) -> d
         if not html:
             continue
         soup = BeautifulSoup(html, "html.parser")
-        for link in soup.select('.gall-products a[href*="/products/product/"]'):
+        for link in soup.select('.gall-products a[href*="/products/product/"], .fhl-product-card__title a[href*="/products/product/"]'):
             href = urljoin(listing_url, link.get("href") or "")
             decoded = unquote(href).lower()
             if "fhl.bg/products/product/" not in decoded or href in seen:
@@ -529,6 +529,12 @@ def parse_money_bgn_from_text(value: str) -> float | None:
 
 def parse_source_price(source_name: str, soup: BeautifulSoup) -> tuple[float | None, float | None, str | None, str | None, str | None]:
     if source_name == "FHL":
+        current_price = soup.select_one('.fhl-price-output .opt1')
+        if current_price:
+            match = re.search(r'(\d+(?:[,.]\d{1,2})?)\s*€', current_price.get_text(' ', strip=True))
+            if match:
+                price_eur = parse_number(match.group(1))
+                return round(price_eur * BGN_TO_EUR, 2), price_eur, 'EUR', None, None
         page_text = normalize_text(soup.get_text(" ", strip=True))
         main_match = re.search(r"Цена:\s*(?:\d+(?:[,.]\d{1,2})?\s*€\s*/\s*)?(\d+(?:[,.]\d{1,2})?)\s*лв", page_text, re.I)
         if main_match:
@@ -592,6 +598,11 @@ def extract_promo_info(soup: BeautifulSoup, price_bgn: float | None, source_name
 
     old_price = None
     if source_name == "FHL":
+        old_eur = soup.select_one('.fhl-price-output del')
+        if old_eur:
+            match = re.search(r'(\d+(?:[,.]\d{1,2})?)\s*€', old_eur.get_text(' ', strip=True))
+            if match:
+                old_price = round(parse_number(match.group(1)) * BGN_TO_EUR, 2)
         first_price = soup.select_one(".prod-sec .price, .price")
         old_nodes = first_price.select(".old_value") if first_price else []
         for node in old_nodes:
@@ -857,6 +868,7 @@ def parse_servings(text: str) -> int | None:
 def extract_count_from_name(name: str) -> int | None:
     """Extract tablet/capsule count from product name, e.g. '* 30', '× 20', '/ 90 Tabs'."""
     patterns = (
+        r"(\d{1,3})\s*(?:ампули|ampoules?|ampules?)\b",
         r"[*×х]\s*(\d+)(?:\s*\+\s*\d+)?\s*$",            # "* 30", "× 20+2" at name end
         r"(?<!\w)x\s+(\d+)(?:\s*\+\s*\d+)?\s*$",         # "x 30" — standalone x (space required, not "X8")
         r"/\s*(\d+)\s*(?:Effervescent\s+)?(?:Tabs?|Caps?|капс|табл)\b",  # "/ 20 Tabs"
@@ -1545,7 +1557,12 @@ def parse_product(source: Source, url: str, forced_category: str | None = None) 
     category = forced_category or detect_category(name, url, text)
     if not category:
         return None
-    if not (forced_category and source.name == "FHL") and not is_relevant_product(category, name, url):
+    # FHL listings identify categories for brand-only names, but must still pass
+    # the same sample/snack/cosmetic exclusions as every other source.
+    relevance_name = name
+    if forced_category and source.name == "FHL" and not detect_category(name, urlparse(url).path):
+        relevance_name = f"{name} {CATEGORY_KEYWORDS[category][0]}"
+    if not is_relevant_product(category, relevance_name, url):
         return None
     price_bgn, price_eur, currency_source, availability_status, offer_name = parse_source_price(source.name, soup)
     if price_bgn is None:
@@ -1560,11 +1577,11 @@ def parse_product(source: Source, url: str, forced_category: str | None = None) 
     image = extract_product_image(product, soup, url)
 
     offer_weight_grams = parse_largest_weight_grams(offer_name or "") if offer_name else None
-    # Last-resort fallback (no weight in the specific offer's own name): take the
-    # largest weight-like number across name+text, not the first one. The first
-    # match is often a per-serving amount ("1 порция (30 г)") mentioned before
-    # the actual package weight further down the page.
-    weight_grams = offer_weight_grams or parse_largest_weight_grams(f"{name} {text}")
+    # Prefer the priced variant, then the product name. Related-product cards
+    # can advertise larger packs; only use detail/page text as a last resort.
+    weight_grams = offer_weight_grams or parse_largest_weight_grams(name) or parse_largest_weight_grams(detail_text or text)
+    if not offer_weight_grams and not parse_largest_weight_grams(name) and re.search(r'\d\s*(?:мл|ml)\b', name, re.I):
+        weight_grams = None  # Volume is not package mass; ignore related powder weights.
     # Servings from the selected offer's own name win over page text: the page
     # describes the default variant, not the best-value package size we picked
     # (e.g. MyProtein "4.2kg - 150Порции" vs the page's default "83 порции").
@@ -1601,7 +1618,7 @@ def parse_product(source: Source, url: str, forced_category: str | None = None) 
         servings = None
     # Cross-check count against the product name (e.g. "* 20 tabs" in name wins over
     # page-scraped 120 from a different size variant, or wrong blistered-pack count)
-    name_count = extract_count_from_name(name)
+    name_count = extract_count_from_name(name) or parse_count(name)
     if name_count and count and count != name_count:
         ratio = max(count, name_count) / min(count, name_count)
         if ratio >= 2:
@@ -1920,10 +1937,9 @@ def scrape(
 
     if urls:
         def source_for_url(url: str) -> Source:
-            decoded = unquote(url).lower()
-            if sources:
-                return next((s for s in SOURCES if s.name.lower() in sources), SOURCES[0])
-            return next((s for s in SOURCES if any(host in decoded for host in s.include_hosts)), SOURCES[0])
+            candidates = [s for s in SOURCES if not sources or s.name.lower() in sources]
+            hostname = urlparse(url).hostname or ''
+            return next((s for s in candidates if any(hostname == host or hostname.endswith('.' + host) for host in s.include_hosts)), candidates[0] if candidates else SOURCES[0])
 
         jobs = [
             (
@@ -1955,6 +1971,20 @@ def scrape(
             continue
         print(f"\n== {source.name} — discovering URLs ==")
         discovered = discover_urls(source, per_category, categories)
+        # A changed listing/sitemap must not stop refreshing known product URLs.
+        # Fall back only for categories with no discovery results, respecting scope.
+        fallback: dict[str, list[str]] = {}
+        for url, item in (existing_by_url or {}).items():
+            category = item.get("category")
+            if item.get("store") != source.name or not category:
+                continue
+            if categories and category not in categories:
+                continue
+            if not discovered.get(category):
+                fallback.setdefault(category, []).append(url)
+        for category, known_urls in fallback.items():
+            discovered[category] = known_urls[:per_category]
+            print(f"  {category}: discovery empty; retrying {len(discovered[category])} known URLs")
         for category, cat_urls in discovered.items():
             print(f"  {category}: {len(cat_urls)} candidates")
             all_jobs.extend((source, category, url) for url in cat_urls)

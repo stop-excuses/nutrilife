@@ -145,18 +145,24 @@
         const discountPct = Number(item.discount_pct);
         const priceEur = Number(item.price_eur);
         const proteinSource = item.category === 'protein' ? detectProteinSource(item) : null;
+        const checkedAt = Date.parse(item.scraped_at || '');
+        const generatedAt = Date.parse(DATA.generated_at || '');
+        const priceStale = !Number.isFinite(checkedAt)
+            || Date.now() - checkedAt > 8 * 24 * 60 * 60 * 1000
+            || (Number.isFinite(generatedAt) && new Date(checkedAt).toISOString().slice(0, 10) < new Date(generatedAt).toISOString().slice(0, 10));
         return {
             ...item,
             unitKey,
             proteinSource,
+            priceStale,
             unitValue: Number.isFinite(unitValue) ? unitValue : null,
             price_eur: Number.isFinite(priceEur) ? priceEur : null,
-            old_price_bgn: Number.isFinite(oldPrice) && oldPrice > Number(item.price_bgn) ? oldPrice : null,
-            discount_pct: Number.isFinite(discountPct) && discountPct > 0 ? Math.round(discountPct) : null,
-            promo_label: item.promo_label || '',
+            old_price_bgn: !priceStale && Number.isFinite(oldPrice) && oldPrice > Number(item.price_bgn) ? oldPrice : null,
+            discount_pct: !priceStale && Number.isFinite(discountPct) && discountPct > 0 ? Math.round(discountPct) : null,
+            promo_label: priceStale ? '' : (item.promo_label || ''),
             price_history: normalizePriceHistory(item.price_history),
             formInfo,
-            availability_status: normalizeAvailability(item.availability_status),
+            availability_status: priceStale && item.availability_status !== 'out_of_stock' ? 'unknown' : normalizeAvailability(item.availability_status),
             searchText: [
                 item.name,
                 item.brand,
@@ -411,11 +417,13 @@
         const generated = DATA.generated_at ? new Date(DATA.generated_at).toLocaleString('bg-BG') : 'неизвестно';
         const confirmed = items.filter(item => item.availability_status === 'in_stock' || item.availability_status === 'limited').length;
         const unknown = items.filter(item => item.availability_status === 'unknown').length;
+        const stale = items.filter(item => item.priceStale).length;
         status.innerHTML = `
             <span><strong>${count}</strong> показани продукта</span>
             <span>от <strong>${items.length}</strong> общо</span>
             <span><strong>${DATA.sources.length}</strong> магазина</span>
-            <small>Обновено на ${escapeHtml(generated)}. Потвърдено налични: ${confirmed}; с непотвърдена наличност: ${unknown}.</small>
+            <small>Последен скан: ${escapeHtml(generated)}. Потвърдено налични: ${confirmed}; с непотвърдена наличност: ${unknown}.</small>
+            ${stale ? `<small class="offers-stale-warning"><strong>${stale}</strong> <span data-i18n="ss.freshness.summary">${escapeHtml(window.I18N.t('ss.freshness.summary'))}</span></small>` : ''}
         `;
     }
 
@@ -486,6 +494,7 @@
                             <span>Цена: <strong>${formatProductPrice(item)}</strong></span>
                             ${oldPriceFact}
                             ${availabilityPill}
+                            ${renderPriceFreshness(item)}
                             ${item.brand ? `<span>Марка: <strong>${escapeHtml(item.brand)}</strong></span>` : ''}
                             ${item.servings ? `<span>Приеми: <strong>${item.servings}</strong></span>` : ''}
                             ${item.count ? `<span>Брой в опаковка: <strong>${item.count}</strong></span>` : ''}
@@ -569,6 +578,12 @@
         if (!item.old_price_bgn && !item.discount_pct && !item.promo_label) return '';
         const label = item.discount_pct ? `Промо -${item.discount_pct}%` : (item.promo_label ? `Промо ${item.promo_label}` : 'Промо');
         return `<span class="supplement-promo-badge">${escapeHtml(label)}</span>`;
+    }
+
+    function renderPriceFreshness(item) {
+        const date = Date.parse(item.scraped_at || '');
+        const checked = Number.isFinite(date) ? new Date(date).toLocaleDateString('bg-BG') : '—';
+        return `<span class="supplement-freshness"><span data-i18n="ss.freshness.checked">${escapeHtml(window.I18N.t('ss.freshness.checked'))}</span> <strong>${escapeHtml(checked)}</strong>${item.priceStale ? ` · <span data-i18n="ss.freshness.stale">${escapeHtml(window.I18N.t('ss.freshness.stale'))}</span>` : ''}</span>`;
     }
 
     function renderAvailabilityPill(item) {
@@ -660,6 +675,7 @@
                                 ${item.discount_pct ? `<span class="fav-disc">−${item.discount_pct}%</span>` : ''}
                             </div>
                             <div class="fav-preview-facts">
+                                ${renderPriceFreshness(item)}
                                 <span>${escapeHtml(getValueBadge(item).label)}</span>
                                 <span>Форма: ${escapeHtml(item.formInfo.label)}</span>
                                 ${item.proteinSource ? `<span>Източник: ${escapeHtml(proteinSourceLabels[item.proteinSource])}</span>` : ''}
@@ -762,6 +778,7 @@
     }
 
     function getValueBadge(item) {
+        if (item.priceStale) return { tone: 'neutral', label: window.I18N.t('ss.freshness.stale') };
         const ranges = {
             creatine: [0.6, 1.5],
             omega3: [1.5, 12],
@@ -929,6 +946,7 @@
     }
 
     function getTradeoffBadge(item, valueBadge) {
+        if (item.priceStale) return { tone: 'neutral', label: window.I18N.t('ss.freshness.stale') };
         const tier = item.formInfo ? item.formInfo.tier : 'unknown';
         if (tier === 'preferred' && valueBadge.tone === 'good') return { tone: 'good', label: 'добра форма, добра цена' };
         if (tier === 'preferred' && valueBadge.tone === 'neutral') return { tone: 'good', label: 'добра форма, разумна цена' };
@@ -995,6 +1013,7 @@
         const container = document.getElementById('supplements-best');
         if (!container) return;
         const best = Object.values(items.reduce((acc, item) => {
+            if (item.priceStale || isOutlierPrice(item)) return acc;
             const current = acc[item.category];
             if (!current || compareBestCandidate(item, current) < 0) acc[item.category] = item;
             return acc;

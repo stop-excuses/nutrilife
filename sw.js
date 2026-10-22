@@ -1,5 +1,7 @@
-const CACHE_NAME = 'nutrilife-v35';
+const CACHE_NAME = 'nutrilife-v36';
 const DATA_CACHE = 'nutrilife-data-v1';
+const DATA_MAX_AGE_MS = 30 * 60 * 1000;
+const dataRequests = new Map();
 const RUNTIME_CACHE = 'nutrilife-runtime-v1';
 const IMAGE_CACHE = 'nutrilife-images-v1';
 const OFFLINE_URL = 'offline.html';
@@ -60,16 +62,38 @@ async function cacheFirst(request, cacheName) {
   return response;
 }
 
-async function staleWhileRevalidate(request, cacheName) {
-  const cache = await caches.open(cacheName);
-  const cached = await cache.match(request);
-  const refresh = fetch(request)
-    .then(response => {
-      if (response.ok) cache.put(request, response.clone());
+async function productData(request) {
+  const url = new URL(request.url);
+  // Scrapers update these files without changing the HTML's version query.
+  url.search = '';
+  const key = url.href;
+  if (dataRequests.has(key)) return (await dataRequests.get(key)).clone();
+  const pending = (async () => {
+    const cache = await caches.open(DATA_CACHE);
+    const cached = await cache.match(key);
+    const checked = await cache.match(`${key}?checked`);
+    const checkedAt = checked ? Number(await checked.text()) : 0;
+    const age = Date.now() - checkedAt;
+    if (cached && checkedAt > 0 && age >= 0 && age < DATA_MAX_AGE_MS) return cached;
+    try {
+      // Conditional HTTP revalidation keeps unchanged multi-MB files cheap.
+      const response = await fetch(request, { cache: 'no-cache' });
+      if (!response.ok) return cached || response;
+      await cache.put(key, response.clone())
+        .then(() => cache.put(`${key}?checked`, new Response(String(Date.now()))))
+        .catch(() => {}); // A full device cache must not hide a successful response.
       return response;
-    })
-    .catch(() => cached);
-  return cached || refresh;
+    } catch (error) {
+      if (cached) return cached;
+      throw error;
+    }
+  })();
+  dataRequests.set(key, pending);
+  try {
+    return (await pending).clone();
+  } finally {
+    dataRequests.delete(key);
+  }
 }
 
 async function networkFirst(request) {
@@ -80,7 +104,7 @@ async function networkFirst(request) {
     return response;
   } catch (error) {
     if (request.mode === 'navigate') {
-      return (await cache.match(request)) || caches.match(OFFLINE_URL);
+      return (await caches.match(request)) || caches.match(OFFLINE_URL);
     }
     return cache.match(request);
   }
@@ -139,13 +163,13 @@ self.addEventListener('fetch', event => {
     return;
   }
 
-  if (isVersionedAsset(url)) {
-    event.respondWith(cacheFirst(event.request, CACHE_NAME));
+  if (isProductData(url)) {
+    event.respondWith(productData(event.request));
     return;
   }
 
-  if (isProductData(url)) {
-    event.respondWith(staleWhileRevalidate(event.request, DATA_CACHE));
+  if (isVersionedAsset(url)) {
+    event.respondWith(cacheFirst(event.request, CACHE_NAME));
     return;
   }
 

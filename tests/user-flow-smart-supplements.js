@@ -154,6 +154,33 @@ const BASE = 'http://127.0.0.1:8000/smart-supplements.html';
     await browser.close();
   }
 
+  // Fixed fixtures ensure old promo/stock claims cannot look current, even when
+  // the live dataset happens to have no stale products after a successful scan.
+  const browser = await chromium.launch();
+  const context = await browser.newContext({ serviceWorkers: 'block' });
+  const page = await context.newPage();
+  const fresh = {
+    id: 'fresh', store: 'QA', name: 'Current creatine', category: 'creatine',
+    url: 'https://example.com/current', price_bgn: 20, price_eur: 10.23,
+    price_per_active_unit: { bgn_per_5g_creatine: 1 }, active: {},
+    confidence: 'high', availability_status: 'in_stock', scraped_at: new Date().toISOString()
+  };
+  const stale = { ...fresh, id: 'stale', name: 'Old creatine', scraped_at: '2020-01-01T00:00:00Z',
+    price_per_active_unit: { bgn_per_5g_creatine: 0.01 }, old_price_bgn: 40, discount_pct: 50, promo_label: '-50%' };
+  await page.route('**/data/supplements.js', route => route.fulfill({ contentType: 'application/javascript', body:
+    'window.SUPPLEMENTS_DATA=' + JSON.stringify({ generated_at: new Date().toISOString(), sources: ['QA'], supplements: [fresh, stale] }) }));
+  page.on('pageerror', e => errors.push(e.message));
+  await page.goto(BASE, { waitUntil: 'networkidle' });
+  const oldCard = page.locator('[data-supplement-id="stale"]');
+  step('Stale prices show their original check date', (await oldCard.locator('.supplement-freshness').textContent()).includes('2020'));
+  step('Stale products hide old promo and stock claims', await oldCard.locator('.supplement-promo-badge, .availability-pill').count() === 0);
+  step('Stale prices are excluded from best picks', await page.locator('#supplements-best [data-product-id="stale"]').count() === 0);
+  step('Fresh products remain eligible for best picks', await page.locator('#supplements-best [data-product-id="fresh"]').count() === 1);
+  step('Summary distinguishes old prices from the latest scan', (await page.locator('#supplements-status').textContent()).includes('предишни проверки'));
+  await oldCard.click();
+  step('Product dialog also shows the check date', (await page.locator('#supplement-product-overlay .supplement-freshness').textContent()).includes('2020'));
+  await browser.close();
+
   console.log(`\n[FLOW] Passed ${pass}/${total} steps`);
   console.log(`[FLOW] Console errors: ${errors.length}`);
   errors.forEach(e => console.log('  ' + e));

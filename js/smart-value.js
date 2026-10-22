@@ -20,6 +20,12 @@
     function initSmartValue() {
         if (!DATA || !Array.isArray(DATA.supplements)) return;
         const items = DATA.supplements
+            .filter(item => {
+                const checked = Date.parse(item.scraped_at || '');
+                return Number.isFinite(checked)
+                    && Date.now() - checked <= 8 * 24 * 60 * 60 * 1000
+                    && (!DATA.generated_at || item.scraped_at.slice(0, 10) >= DATA.generated_at.slice(0, 10));
+            })
             .map(normalizeItem)
             .filter(item => item.unitValue && item.unitValue > 0 && item.availability_status !== 'out_of_stock');
 

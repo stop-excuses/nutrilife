@@ -139,7 +139,12 @@ function cssEscape(value) {
     step('Before any click: all tuna hearts inactive', allTunaInactiveBefore.every(x => x === false));
 
     await clickHeart(page, tunaIds[0]);
-    await page.waitForTimeout(500);
+    // Wait for the real CSS transition, which can start late on a busy render.
+    await page.waitForFunction(id => {
+      const card = [...document.querySelectorAll('#offers-grid .offer-card')].find(el => el.dataset.offerId === id);
+      const heart = card?.querySelector('.fav-btn');
+      return heart && getComputedStyle(heart).filter === 'none';
+    }, tunaIds[0]);
     const clickedVis = await heartLooksDistinct(page, tunaIds[0]);
     step('Clicked heart now .active', clickedVis?.active === true);
     step('Clicked heart: filter none (full color)', clickedVis?.filter === 'none', clickedVis?.filter);

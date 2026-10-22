@@ -4,7 +4,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent / "scraper"))
-from supplement_scrapers import calculate_price_units, parse_largest_weight_grams  # noqa: E402
+from supplement_scrapers import calculate_price_units, parse_largest_weight_grams, extract_count_from_name, parse_count, detect_category, is_relevant_product  # noqa: E402
 
 SOURCE_PATH = Path("data/supplements.json")
 OUTPUT_PATH = Path("data/supplements.js")
@@ -63,10 +63,10 @@ def resolve_weight_grams(item):
     """Product pages sometimes yield an unrelated small number as weight_grams
     (e.g. grams of protein per serving instead of the package size, or an
     older regex missing "lbs"/full-word "грама" units). Re-derive from the
-    (short, reliable) name text and prefer it when clearly larger."""
+    (short, reliable) name text when the stored size differs substantially."""
     name_weight = parse_largest_weight_grams(item.get("name") or "")
     weight = item.get("weight_grams")
-    if name_weight and (not weight or name_weight > weight * 1.5):
+    if name_weight and (not weight or name_weight > weight * 1.5 or weight > name_weight * 1.5):
         return name_weight
     return weight
 
@@ -94,7 +94,8 @@ def protein_total_g(item, weight):
     elif protein_g and weight:
         total = protein_g * max(1, round(weight / ASSUMED_SERVING_G))
     elif active.get("estimated_total_protein_g"):
-        total = active.get("estimated_total_protein_g")
+        ratio = active.get("estimated_protein_ratio_pct")
+        total = weight * ratio / 100 if weight and ratio else active.get("estimated_total_protein_g")
 
     if not total:
         return None
@@ -128,6 +129,10 @@ def repair_protein_units(item):
     total = protein_total_g(item, weight)
     if not total:
         return True
+    if item.get('active', {}).get('estimated_total_protein_g'):
+        item['active']['estimated_total_protein_g'] = round(total, 2)
+    if weight and item.get('servings') and not (MIN_SERVING_G <= weight / item['servings'] <= MAX_SERVING_G):
+        item['servings'] = None
     unit_value = round(price / (total / 25), 2)
     units = item.setdefault("price_per_active_unit", {})
     units["bgn_per_25g_protein"] = unit_value
@@ -159,12 +164,42 @@ def repair_vitamin_c_units(item):
             item["price_per_active_unit"] = units
 
 
+def repair_package_count(item):
+    name = item.get('name', '')
+    if re.search(r'\d\s*(?:мл|ml)\b', name, re.I) and not parse_largest_weight_grams(name):
+        item['weight_grams'] = None
+    count = extract_count_from_name(item.get('name', '')) or parse_count(item.get('name', ''))
+    if not count or not item.get('servings') or item['servings'] <= count * 2:
+        return
+    # A ten-ampoule box cannot provide 1,666 full ampoules; page text included
+    # another product's weight. Reuse the explicit package count, not that text.
+    item['count'] = count
+    item['servings'] = None
+    units = calculate_price_units(item['category'], item.get('price_bgn'), item.get('active') or {}, item.get('weight_grams'), None, count)
+    if units:
+        item['price_per_active_unit'] = units
+        history = item.get('price_history') or []
+        if history and history[-1].get('price_bgn') == item.get('price_bgn'):
+            history[-1]['unit_value'] = next(iter(units.values()))
+
+
+def has_usable_package_price(item):
+    # Reject a single sachet price paired with an entire creatine box's weight.
+    # Keep it out of comparisons until its priced variant can be identified.
+    if item.get('category') == 'creatine' and item.get('weight_grams'):
+        return (item.get('price_bgn') or 0) / item['weight_grams'] >= 0.005
+    return True
+
+
 def main():
     data = json.loads(SOURCE_PATH.read_text(encoding="utf-8"))
     supplements = data.get("supplements", [])
     for item in supplements:
         item.setdefault("availability_status", "unknown")
+        repair_package_count(item)
         repair_vitamin_c_units(item)
+    supplements = [item for item in supplements if has_usable_package_price(item)]
+    supplements = [item for item in supplements if item.get('store') != 'FHL' or not detect_category(item.get('name', '')) or is_relevant_product(item['category'], item['name'], item.get('url', ''))]
     supplements = [item for item in supplements if not is_sample_junk(item.get("name"))]
     supplements = [item for item in supplements if repair_protein_units(item)]
     data["supplements"] = supplements
