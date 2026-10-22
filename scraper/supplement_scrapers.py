@@ -1539,6 +1539,10 @@ def parse_product(source: Source, url: str, forced_category: str | None = None) 
     if not html:
         return None
     soup = BeautifulSoup(html, "html.parser")
+    if source.name == 'WorkoutBG' and soup.select_one('.product-info.out-of-stock, .product-stock.out-of-stock'):
+        return None
+    if source.name == 'FHL' and 'Не е намерен такъв продукт' in soup.get_text(' ', strip=True):
+        return None
     json_ld = load_json_ld(soup)
     product = find_product_json(json_ld)
     strip_invisible_text(soup)
@@ -1840,6 +1844,13 @@ def parse_price_update(source: Source, url: str, existing: dict) -> dict | None:
     if not html:
         return None
     soup = BeautifulSoup(html, "html.parser")
+    if source.name == 'WorkoutBG' and soup.select_one('.product-info.out-of-stock, .product-stock.out-of-stock'):
+        updated = dict(existing)
+        updated['availability_status'] = 'out_of_stock'
+        updated['availability_checked_at'] = datetime.now(timezone.utc).isoformat().replace('+00:00', 'Z')
+        return updated
+    if source.name == 'FHL' and 'Не е намерен такъв продукт' in soup.get_text(' ', strip=True):
+        return None
     json_ld = load_json_ld(soup)
     price_bgn, price_eur, currency_source, availability_status, offer_name = parse_source_price(source.name, soup)
     if price_bgn is None:
@@ -1908,6 +1919,28 @@ def scrape_one(source: Source, category: str, url: str, cache: dict | None = Non
             # Fall through to full parse if price-only fails
 
     item = parse_product(source, url, category)
+    if item is None and existing_by_url and url in existing_by_url and source.name in {'FHL', 'WorkoutBG'}:
+        html = fetch(url)
+        if html:
+            soup = BeautifulSoup(html, 'html.parser')
+            text = soup.get_text(' ', strip=True)
+            removed = source.name == 'FHL' and 'Не е намерен такъв продукт' in text
+            sold_out = source.name == 'WorkoutBG' and soup.select_one('.product-info.out-of-stock, .product-stock.out-of-stock') is not None
+            if removed or sold_out:
+                item = dict(existing_by_url[url])
+                item['availability_status'] = 'out_of_stock'
+                item['availability_checked_at'] = datetime.now(timezone.utc).isoformat().replace('+00:00', 'Z')
+                return item
+            price, euro, currency, availability, _ = parse_source_price(source.name, soup)
+            if price and price >= 1:
+                item = dict(existing_by_url[url])
+                item.update(price_bgn=price, price_eur=euro, currency_source=currency,
+                            availability_status=availability or 'unknown', active={},
+                            price_per_active_unit={}, label_status='unverified',
+                            scraped_at=datetime.now(timezone.utc).isoformat().replace('+00:00', 'Z'))
+                for key in ('old_price_bgn', 'discount_pct', 'promo_label'):
+                    item.pop(key, None)
+                return item
     if item:
         item["last_full_scrape"] = datetime.now(timezone.utc).date().isoformat()
     if use_cache and cache is not None and item:
@@ -2035,7 +2068,7 @@ def merge_with_existing(products: list[dict], sources: set[str] | None, categori
     for product in products:
         key = (product["store"].lower(), product["category"], product["url"])
         previous = existing_by_key.get(key, {})
-        product["price_history"] = build_price_history(previous, product)
+        product["price_history"] = previous.get('price_history', []) if product.get('scraped_at') == previous.get('scraped_at') else build_price_history(previous, product)
 
     def replaced_by_scope(item: dict) -> bool:
         if (item.get("store", "").lower(), item.get("category"), item.get("url")) in new_keys:

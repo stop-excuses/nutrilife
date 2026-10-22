@@ -16,6 +16,23 @@ PROTEIN_STICK = "ВИТАМИНОВ ПРОТЕИНОВ СТИК ХРУПКАВА
 
 
 class SupplementQualityTests(unittest.TestCase):
+    def test_removed_product_keeps_price_date_but_is_hidden_as_out_of_stock(self):
+        source = next(s for s in scraper.SOURCES if s.name == 'FHL')
+        old = {'id': 'old', 'name': 'Old', 'price_bgn': 20, 'scraped_at': '2020-01-01'}
+        with patch.object(scraper, 'parse_product', return_value=None), patch.object(scraper, 'fetch', return_value='Не е намерен такъв продукт'):
+            result = scraper.scrape_one(source, 'omega3', 'https://fhl.bg/old', existing_by_url={'https://fhl.bg/old': old}, full_refresh_days=0)
+        self.assertEqual(result['availability_status'], 'out_of_stock')
+        self.assertEqual(result['scraped_at'], old['scraped_at'])
+
+    def test_missing_label_does_not_reuse_old_active_dose(self):
+        source = next(s for s in scraper.SOURCES if s.name == 'FHL')
+        old = {'id': 'old', 'name': 'Omega', 'price_bgn': 20, 'scraped_at': '2020-01-01', 'active': {'epa_dha_mg': 3300}}
+        html = '<span class="fhl-price-output"><span class="opt1">25.56 €</span></span>'
+        with patch.object(scraper, 'parse_product', return_value=None), patch.object(scraper, 'fetch', return_value=html):
+            result = scraper.scrape_one(source, 'omega3', 'https://fhl.bg/old', existing_by_url={'https://fhl.bg/old': old}, full_refresh_days=0)
+        self.assertEqual(result['price_per_active_unit'], {})
+        self.assertEqual(result['active'], {})
+
     def test_ten_ampoules_do_not_become_1666_servings(self):
         item = {'name': 'Витамин C ампули за пиене 5 мл х10 ампули Дансон', 'category': 'vitamin_c', 'price_bgn': 13.03, 'servings': 1666, 'active': {'vitamin_c_mg': 500}, 'weight_grams': 30000}
         repair_package_count(item)

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T15:44:29.359815Z",
+  "generated_at": "2026-10-22T17:31:35.672342Z",
   "total_supplements": 4542,
   "sources": [
     "FHL",
@@ -31,748 +31,6 @@
   ],
   "disclaimer": "Данните сравняват цена и етикетна активна съставка. Не са медицински съвет.",
   "supplements": [
-    {
-      "id": "fhl-omega-3-strong-90-softgels",
-      "store": "FHL",
-      "name": "Omega 3 Strong 90 Softgels",
-      "brand": null,
-      "category": "omega3",
-      "url": "https://www.fhl.bg/products/product/6447/omega-3-strong-90-softgels.html",
-      "image": "https://www.fhl.bg/files/products/6447/11661_1.jpg",
-      "price_bgn": 27.5,
-      "price_eur": 14.06,
-      "currency_source": "BGN",
-      "availability_status": "unknown",
-      "weight_grams": null,
-      "servings": null,
-      "count": 90,
-      "active": {
-        "epa_mg": 330,
-        "dha_mg": 220,
-        "epa_dha_mg": 550
-      },
-      "label_text": null,
-      "label_image": "https://www.fhl.bg/files/products/6447/11661_1.jpg",
-      "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 0.56
-      },
-      "unit_label": "лв / 1000 mg EPA+DHA",
-      "confidence": "high",
-      "scraped_at": "2026-09-20T10:53:06.306839Z",
-      "last_full_scrape": "2026-08-29",
-      "price_history": [
-        {
-          "date": "2026-07-12",
-          "price_bgn": 27.5,
-          "price_eur": 14.06,
-          "unit_value": 0.56
-        },
-        {
-          "date": "2026-07-19",
-          "price_bgn": 27.5,
-          "price_eur": 14.06,
-          "unit_value": 0.56
-        },
-        {
-          "date": "2026-07-26",
-          "price_bgn": 27.5,
-          "price_eur": 14.06,
-          "unit_value": 0.56
-        },
-        {
-          "date": "2026-08-02",
-          "price_bgn": 27.5,
-          "price_eur": 14.06,
-          "unit_value": 0.56
-        },
-        {
-          "date": "2026-08-09",
-          "price_bgn": 27.5,
-          "price_eur": 14.06,
-          "unit_value": 0.56
-        },
-        {
-          "date": "2026-08-16",
-          "price_bgn": 27.5,
-          "price_eur": 14.06,
-          "unit_value": 0.56
-        },
-        {
-          "date": "2026-08-23",
-          "price_bgn": 27.5,
-          "price_eur": 14.06,
-          "unit_value": 0.56
-        },
-        {
-          "date": "2026-08-29",
-          "price_bgn": 27.5,
-          "price_eur": 14.06,
-          "unit_value": 0.56
-        },
-        {
-          "date": "2026-08-30",
-          "price_bgn": 27.5,
-          "price_eur": 14.06,
-          "unit_value": 0.56
-        },
-        {
-          "date": "2026-09-06",
-          "price_bgn": 27.5,
-          "price_eur": 14.06,
-          "unit_value": 0.56
-        },
-        {
-          "date": "2026-09-13",
-          "price_bgn": 27.5,
-          "price_eur": 14.06,
-          "unit_value": 0.56
-        },
-        {
-          "date": "2026-09-20",
-          "price_bgn": 27.5,
-          "price_eur": 14.06,
-          "unit_value": 0.56
-        }
-      ],
-      "old_price_bgn": 63.0,
-      "discount_pct": 56,
-      "promo_label": "-56%"
-    },
-    {
-      "id": "fhl-омега-3-дха-500-от-калмари-500-500mg---60-капсули",
-      "store": "FHL",
-      "name": "ОМЕГА-3, ДХА 500 от калмари 500; 500mg - 60 капсули",
-      "brand": null,
-      "category": "omega3",
-      "url": "https://www.fhl.bg/products/product/6068/omega-3-dha-500-ot-kalmari-500-500mg-60-kapsuli.html",
-      "image": "https://www.fhl.bg/files/products/6068/11051_1.jpg",
-      "price_bgn": 49.99,
-      "price_eur": 25.56,
-      "currency_source": "BGN",
-      "availability_status": "unknown",
-      "weight_grams": null,
-      "servings": null,
-      "count": 60,
-      "active": {
-        "epa_mg": 1640,
-        "dha_mg": 1660,
-        "epa_dha_mg": 3300
-      },
-      "label_text": null,
-      "label_image": null,
-      "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 0.25
-      },
-      "unit_label": "лв / 1000 mg EPA+DHA",
-      "confidence": "high",
-      "scraped_at": "2026-09-20T10:53:07.941340Z",
-      "last_full_scrape": "2026-09-20",
-      "price_history": [
-        {
-          "date": "2026-09-20",
-          "price_bgn": 49.99,
-          "price_eur": 25.56,
-          "unit_value": 0.25
-        }
-      ]
-    },
-    {
-      "id": "fhl-allnutrition-omega-3-k2-d3",
-      "store": "FHL",
-      "name": "Allnutrition Omega 3 K2+D3",
-      "brand": null,
-      "category": "omega3",
-      "url": "https://www.fhl.bg/products/product/6263/allnutrition-omega-3-k2-d3.html",
-      "image": "https://www.fhl.bg/files/products/6263/11287_1.jpg",
-      "price_bgn": 12.0,
-      "price_eur": 6.14,
-      "currency_source": "BGN",
-      "availability_status": "unknown",
-      "weight_grams": null,
-      "servings": null,
-      "count": 30,
-      "active": {
-        "epa_mg": 180,
-        "dha_mg": 120,
-        "epa_dha_mg": 300
-      },
-      "label_text": null,
-      "label_image": "https://www.fhl.bg/files/products/6263/11287_1.jpg",
-      "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 1.33
-      },
-      "unit_label": "лв / 1000 mg EPA+DHA",
-      "confidence": "high",
-      "scraped_at": "2026-09-20T10:53:09.692596Z",
-      "last_full_scrape": "2026-08-29",
-      "price_history": [
-        {
-          "date": "2026-07-12",
-          "price_bgn": 12.0,
-          "price_eur": 6.14,
-          "unit_value": 1.33
-        },
-        {
-          "date": "2026-07-19",
-          "price_bgn": 12.0,
-          "price_eur": 6.14,
-          "unit_value": 1.33
-        },
-        {
-          "date": "2026-07-26",
-          "price_bgn": 12.0,
-          "price_eur": 6.14,
-          "unit_value": 1.33
-        },
-        {
-          "date": "2026-08-02",
-          "price_bgn": 12.0,
-          "price_eur": 6.14,
-          "unit_value": 1.33
-        },
-        {
-          "date": "2026-08-09",
-          "price_bgn": 12.0,
-          "price_eur": 6.14,
-          "unit_value": 1.33
-        },
-        {
-          "date": "2026-08-16",
-          "price_bgn": 12.0,
-          "price_eur": 6.14,
-          "unit_value": 1.33
-        },
-        {
-          "date": "2026-08-23",
-          "price_bgn": 12.0,
-          "price_eur": 6.14,
-          "unit_value": 1.33
-        },
-        {
-          "date": "2026-08-29",
-          "price_bgn": 12.0,
-          "price_eur": 6.14,
-          "unit_value": 1.33
-        },
-        {
-          "date": "2026-08-30",
-          "price_bgn": 12.0,
-          "price_eur": 6.14,
-          "unit_value": 1.33
-        },
-        {
-          "date": "2026-09-06",
-          "price_bgn": 12.0,
-          "price_eur": 6.14,
-          "unit_value": 1.33
-        },
-        {
-          "date": "2026-09-13",
-          "price_bgn": 12.0,
-          "price_eur": 6.14,
-          "unit_value": 1.33
-        },
-        {
-          "date": "2026-09-20",
-          "price_bgn": 12.0,
-          "price_eur": 6.14,
-          "unit_value": 1.33
-        }
-      ],
-      "old_price_bgn": 151.01,
-      "discount_pct": 20,
-      "promo_label": "-20%"
-    },
-    {
-      "id": "fhl-дива-тихоокеанска-сьомга-o-f-wild-pacific-salmon-oil",
-      "store": "FHL",
-      "name": "Дива тихоокеанска сьомга |O.F.Wild Pacific Salmon Oil",
-      "brand": null,
-      "category": "omega3",
-      "url": "https://www.fhl.bg/products/product/2290/diva-tihookeanska-syomga-ofwild-pacific-salmon-oil.html",
-      "image": "https://www.fhl.bg/files/products/2290/5449_1.jpg",
-      "price_bgn": 25.99,
-      "price_eur": 13.29,
-      "currency_source": "BGN",
-      "availability_status": "unknown",
-      "weight_grams": null,
-      "servings": 2,
-      "count": 90,
-      "active": {
-        "epa_mg": 107,
-        "dha_mg": 535,
-        "epa_dha_mg": 642
-      },
-      "label_text": null,
-      "label_image": "https://www.fhl.bg/files/products/6263/11287_1.jpg",
-      "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 20.24
-      },
-      "unit_label": "лв / 1000 mg EPA+DHA",
-      "confidence": "high",
-      "scraped_at": "2026-09-20T10:53:10.016774Z",
-      "last_full_scrape": "2026-08-29",
-      "price_history": [
-        {
-          "date": "2026-07-12",
-          "price_bgn": 25.99,
-          "price_eur": 13.29,
-          "unit_value": 20.24
-        },
-        {
-          "date": "2026-07-19",
-          "price_bgn": 25.99,
-          "price_eur": 13.29,
-          "unit_value": 20.24
-        },
-        {
-          "date": "2026-07-26",
-          "price_bgn": 25.99,
-          "price_eur": 13.29,
-          "unit_value": 20.24
-        },
-        {
-          "date": "2026-08-02",
-          "price_bgn": 25.99,
-          "price_eur": 13.29,
-          "unit_value": 20.24
-        },
-        {
-          "date": "2026-08-09",
-          "price_bgn": 25.99,
-          "price_eur": 13.29,
-          "unit_value": 20.24
-        },
-        {
-          "date": "2026-08-16",
-          "price_bgn": 25.99,
-          "price_eur": 13.29,
-          "unit_value": 20.24
-        },
-        {
-          "date": "2026-08-23",
-          "price_bgn": 25.99,
-          "price_eur": 13.29,
-          "unit_value": 20.24
-        },
-        {
-          "date": "2026-08-29",
-          "price_bgn": 25.99,
-          "price_eur": 13.29,
-          "unit_value": 20.24
-        },
-        {
-          "date": "2026-08-30",
-          "price_bgn": 25.99,
-          "price_eur": 13.29,
-          "unit_value": 20.24
-        },
-        {
-          "date": "2026-09-06",
-          "price_bgn": 25.99,
-          "price_eur": 13.29,
-          "unit_value": 20.24
-        },
-        {
-          "date": "2026-09-13",
-          "price_bgn": 25.99,
-          "price_eur": 13.29,
-          "unit_value": 20.24
-        },
-        {
-          "date": "2026-09-20",
-          "price_bgn": 25.99,
-          "price_eur": 13.29,
-          "unit_value": 20.24
-        }
-      ],
-      "old_price_bgn": 31.29,
-      "discount_pct": 17,
-      "promo_label": "-17%"
-    },
-    {
-      "id": "fhl-дива-риба-o-f-wild-fish-oil",
-      "store": "FHL",
-      "name": "Дива риба O.F. Wild fish oil",
-      "brand": null,
-      "category": "omega3",
-      "url": "https://www.fhl.bg/products/product/2293/diva-riba-of-wild-fish-oil.html",
-      "image": "https://www.fhl.bg/files/products/2293/5452_1.jpg",
-      "price_bgn": 25.99,
-      "price_eur": 13.29,
-      "currency_source": "BGN",
-      "availability_status": "unknown",
-      "weight_grams": null,
-      "servings": 2,
-      "count": 4,
-      "active": {
-        "epa_mg": 180,
-        "dha_mg": 540,
-        "epa_dha_mg": 720
-      },
-      "label_text": null,
-      "label_image": "https://www.fhl.bg/files/products/6263/11287_1.jpg",
-      "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 18.05
-      },
-      "unit_label": "лв / 1000 mg EPA+DHA",
-      "confidence": "high",
-      "scraped_at": "2026-09-20T10:53:10.578636Z",
-      "last_full_scrape": "2026-08-29",
-      "price_history": [
-        {
-          "date": "2026-07-12",
-          "price_bgn": 25.99,
-          "price_eur": 13.29,
-          "unit_value": 18.05
-        },
-        {
-          "date": "2026-07-19",
-          "price_bgn": 25.99,
-          "price_eur": 13.29,
-          "unit_value": 18.05
-        },
-        {
-          "date": "2026-07-26",
-          "price_bgn": 25.99,
-          "price_eur": 13.29,
-          "unit_value": 18.05
-        },
-        {
-          "date": "2026-08-02",
-          "price_bgn": 25.99,
-          "price_eur": 13.29,
-          "unit_value": 18.05
-        },
-        {
-          "date": "2026-08-09",
-          "price_bgn": 25.99,
-          "price_eur": 13.29,
-          "unit_value": 18.05
-        },
-        {
-          "date": "2026-08-16",
-          "price_bgn": 25.99,
-          "price_eur": 13.29,
-          "unit_value": 18.05
-        },
-        {
-          "date": "2026-08-23",
-          "price_bgn": 25.99,
-          "price_eur": 13.29,
-          "unit_value": 18.05
-        },
-        {
-          "date": "2026-08-29",
-          "price_bgn": 25.99,
-          "price_eur": 13.29,
-          "unit_value": 18.05
-        },
-        {
-          "date": "2026-08-30",
-          "price_bgn": 25.99,
-          "price_eur": 13.29,
-          "unit_value": 18.05
-        },
-        {
-          "date": "2026-09-06",
-          "price_bgn": 25.99,
-          "price_eur": 13.29,
-          "unit_value": 18.05
-        },
-        {
-          "date": "2026-09-13",
-          "price_bgn": 25.99,
-          "price_eur": 13.29,
-          "unit_value": 18.05
-        },
-        {
-          "date": "2026-09-20",
-          "price_bgn": 25.99,
-          "price_eur": 13.29,
-          "unit_value": 18.05
-        }
-      ]
-    },
-    {
-      "id": "workoutbg-creatine-xplode-креатинова-матрица",
-      "store": "WorkoutBG",
-      "name": "CREATINE XPLODE – креатинова матрица",
-      "brand": "Olimp Sport Nutrition",
-      "category": "creatine",
-      "url": "https://workout.bg/olimp-sport-nutrition-creatine-xplode-cena",
-      "image": "https://workout.bg/image/cache/catalog/olimp-sport-nutrition-creatine-xplode-workout-bg-online-cena-600x315w.webp",
-      "price_bgn": 98.01,
-      "price_eur": 50.11,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 500.0,
-      "servings": 100,
-      "count": null,
-      "active": {
-        "creatine_mg_per_serving": 5000
-      },
-      "label_text": "Информация за продукта | Разфасовка | 500 Г | Производител | Olimp Sport Nutrition | Дозировка | Една доза | 5 Г | Дози в опаковка | 100 дози | Препоръчителен дневен прием | 2 дози дневно | Хранителни стойности | Калории | 18.3 ккал | Белтъчини | Протеин | 0 Г | Въглехидрати | Въглехидрати | 0 Г | От които захари | 0 Г | Мазнини | Мазнини | < 0.1 Г | От които наситени | < 0.1 Г | Аминокиселини | Таурин | 500 МГ | Сол | Сол | 0.01 Г / Знаете точно от какво имате нужда и то е снабдяване с експлозивна доза креатин за осезаемо насърчаване на мускулния растеж? Неслучайно името на продукта насочва точно към това - той осигурява взривяваща тренировките и резултатите от тях формула, получена при комбинацията на най-ефективните форми на аминокиселината в един продукт. Искате да разберете повече за него? В Workout.bg сме събрали най-важната информация за суплемента. Уникалната формула на Olimp Sport Nutrition CREATINE XPLODE Olimp Sport Nutrition CREATINE XPLODE е прахообразна хранителна добавка с наистина уникален състав. В нея се съдържа силова матрица с бленд от магнезиев креатин хелат (патентования Creatine Magna Power), креатин малат, креатин алфа кетоглутарат, креатин етил естер HCl, креатин цитрат и креатин пируват. За увеличаване на енергизиращия ефект на добавката е включена и доза таурин. Защо в комплекса са включени 6 разновидности на креатина? Целта е да се постигне оптимален ефект на съставките, с цел възползване от максималната анаболна ефективност на комбинацията. В резултат на това добавката дарява с по-голямо количество свободни молекули креатин и се минимизира загубата на аминокиселината чрез ограничаване преобразуването ѝ в неактивна форма в тракта. Страхотните предимства на CREATINE XPLODE: 1 опаковка = 500 гр; 1 доза (5 гр) съдържа 3670 мг от силовия бленд; 6",
-      "label_image": "https://workout.bg/image/cache/catalog/products/olimp-sport-nutrition-glutamine-xplode-500-amino-wokrout-bg-250x250.webp",
-      "price_per_active_unit": {
-        "bgn_per_5g_creatine": 0.98
-      },
-      "unit_label": "лв / 5 g креатин",
-      "confidence": "high",
-      "scraped_at": "2026-10-11T12:33:20.448440Z",
-      "last_full_scrape": "2026-10-11",
-      "price_history": [
-        {
-          "date": "2026-10-11",
-          "price_bgn": 98.01,
-          "price_eur": 50.11,
-          "unit_value": 0.98
-        }
-      ]
-    },
-    {
-      "id": "workoutbg-creatine-zero-effervescent-tabs",
-      "store": "WorkoutBG",
-      "name": "Creatine Zero Effervescent Tabs",
-      "brand": "Biotech USA",
-      "category": "creatine",
-      "url": "https://workout.bg/biotech-usa-creatine-zero-effervescent-tabs-cena",
-      "image": "https://workout.bg/image/cache/catalog/products/biotech-usa-creatine-zero-effervescent-tabs-workout-bg-online-cena-600x315w.webp",
-      "price_bgn": 9.0,
-      "price_eur": 4.6,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 250.0,
-      "servings": 9,
-      "count": 18,
-      "active": {
-        "creatine_total_mg": 250000
-      },
-      "label_text": "Информация за продукта | Разфасовка | 18 таблетки | Производител | Biotech USA | Дозировка | Една доза | 2 таблетки | Дози в опаковка | 9 дози | Препоръчителен дневен прием | 1 доза дневно | Аминокиселини | Креатин монохидрат | 2500 мг, от които креатин 2198 мг / 100% Pure Whey 21.00 € Купи Creatine PH-X – буфериран креатин 16.36 € Купи Instant Oats 9.00 € Купи Amino Liquid 23.00 € Купи Protein Cream 7.16 € Купи / Вашите здрави мускули са най-добрият аксесоар към Вашата спортна визия? Ако искате да бъдете съвременния Аполон, трябва да имате волята да работите усърдно върху Вашата мускулна маса. Много често, обаче, физическите тренировки водят до преумора и усложнения в мускулните тъкани. Това може да доведе до стрес, болезнени мускулни травми и бавно възстановяване, от което се губи желаният ефект. Приемът на хранителни добавки, като BIOTECH USA Creatine Zero Effervescent Tabs / 18 Tabs позволяват на Вас и Вашите мускули да се справите бързо и максимално с мускулните травми и изтощаващото напрежение . Ако искате да разгледате повече продукти от марката BIOTECH USA , можете да го направите от нашия сайт Workout . bg и да се доверите максимално на високото качество и грижа за здравето. Какво представлява хранителната добавка BIOTECH USA Creatine Zero Effervescent Tabs / 18 Tabs Хранителната добавка е под формата на разтворими таблетки и помага за набавянето на качествена мускулна маса, благодарение на свойствата на креатина, като основна съставка. Креатинът осигурява лекота при вдигането на тежки уреди и активно произвежда енергия в мускулите , която допринася за тази лекота. Той хидратира мускулите, увеличава техния размер и редуцира тяхното разграждане . За растежа на мускулите е важен инсулиноподобният растежен факктор, който бива повишен именно от креатина. Освен за п",
-      "label_image": "https://workout.bg/image/cache/catalog/products/double-wood-supplements-nitric-oxide-booster-with-nitrosigine-workout-bg-online-cena-250x250.webp",
-      "price_per_active_unit": {
-        "bgn_per_5g_creatine": 0.18
-      },
-      "unit_label": "лв / 5 g креатин",
-      "confidence": "medium",
-      "scraped_at": "2026-10-11T12:33:22.708359Z",
-      "last_full_scrape": "2026-10-11",
-      "price_history": [
-        {
-          "date": "2026-10-11",
-          "price_bgn": 9.0,
-          "price_eur": 4.6,
-          "unit_value": 0.18
-        }
-      ]
-    },
-    {
-      "id": "workoutbg-100-pure-all-natural-whey-protein-stevia",
-      "store": "WorkoutBG",
-      "name": "100% Pure All Natural Whey Protein / Stevia",
-      "brand": "HAYA LABS",
-      "category": "protein",
-      "url": "https://workout.bg/haya-labs-100-pure-all-natural-whey-protein-stevia-cena",
-      "image": "https://workout.bg/image/cache/catalog/products/haya-labs-100-pure-all-natural-whey-protein-stevia-workout-bg-online-cena-600x315w.webp",
-      "price_bgn": 43.03,
-      "price_eur": 22.0,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 454.0,
-      "servings": 14,
-      "count": 30,
-      "active": {
-        "protein_g": 25.0
-      },
-      "label_text": "Холестерол | Холестерол | 40 мг | Информация за продукта | Разфасовка | 454 г | Производител | HAYA LABS | Дозировка | Една доза | 1 мерителна лъжица (32 г) | Дози в опаковка | 14 дози | Препоръчителен дневен прием | 1 доза на ден | Продуктът съдържа следните съставки | Съставки | Захар - 1 г | Хранителни стойности | Калории | 112 ккал | Белтъчини | Протеин | 25 г | Въглехидрати | Фибри | 0 г | Въглехидрати | 2 г | Мазнини | Мазнини | 0.5 г | Минерали | Желязо | 2.5 мг | Калций | 120 мг | Натрий | 50 мг | Витамини | Витамин C | 0 мг | Витамин А | 0 мг / Всеки професионален спортист или фитнес ентусиаст иска да бъде в отлична форма, за да може да изпълнява тренировките си и да постига желаните спортни резултати. Това обаче изисква допълнителна подкрепа за тялото – ето защо, ако и вие искате да се погрижите за издръжливостта си, можете да се доверите на продукта HAYA LABS 100% Pure All Natural Whey Protein / Stevia . Тази хранителна добавка се подкрепи силата ви и несъмнено ще ви помогне да бъдете своята по-добра версия! Уеб магазинът на Workout.bg разполага с редица продукти, чрез които можете да се погрижите за здравето си или пък за спортната си форма. Суроватъчен протеин от 100% Pure All Natural Whey Protein / Stevia Хранителната добавка съдържа натурален суроватъчен протеин , който ефикасно може да повиши издръжливостта и силата на цялото тяло . Продуктът включва и естествена стевия, която придава чудесен вкус. Добавката съдържа изключително малко мазнини и въглехидрати, което пък я прави подходяща за хора, които спазват по-строг режим на хранене. Чрез приема на този продукт се подпомага възстановяването на мускулатурата след интензивни тренировки и се подпомага растежа на мускулната маса . Суроватъчният протеин е чудесен източник на аминокиселини, който се усвоява б",
-      "label_image": "https://workout.bg/image/cache/catalog/products/swedish-supplements-creavolution-powder-500-grama-workout-bg-online-cena-250x250.webp",
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 3.07
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "high",
-      "scraped_at": "2026-10-11T12:33:58.735069Z",
-      "last_full_scrape": "2026-09-13",
-      "price_history": [
-        {
-          "date": "2026-09-13",
-          "price_bgn": 39.1,
-          "price_eur": 19.99,
-          "unit_value": 2.79
-        },
-        {
-          "date": "2026-09-20",
-          "price_bgn": 39.1,
-          "price_eur": 19.99,
-          "unit_value": 2.79
-        },
-        {
-          "date": "2026-09-27",
-          "price_bgn": 43.03,
-          "price_eur": 22.0,
-          "unit_value": 3.07
-        },
-        {
-          "date": "2026-10-04",
-          "price_bgn": 43.03,
-          "price_eur": 22.0,
-          "unit_value": 3.07
-        },
-        {
-          "date": "2026-10-11",
-          "price_bgn": 43.03,
-          "price_eur": 22.0,
-          "unit_value": 3.07
-        }
-      ]
-    },
-    {
-      "id": "workoutbg-100-beef-protein-isolate",
-      "store": "WorkoutBG",
-      "name": "100% Beef Protein Isolate",
-      "brand": "Everbuild",
-      "category": "protein",
-      "url": "https://workout.bg/everbuild-100-beef-protein-isolate-cena",
-      "image": "https://workout.bg/image/cache/catalog/products/everbuild-100-beef-protein-isolate-workout-bg-online-cena-600x315w.webp",
-      "price_bgn": 68.0,
-      "price_eur": 34.77,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 1816.0,
-      "servings": 51,
-      "count": 15,
-      "active": {
-        "estimated_total_protein_g": 1543.6,
-        "estimated_protein_ratio_pct": 85
-      },
-      "label_text": "Холестерол | Холестерол | 0 г | Информация за продукта | Разфасовка | 908 / 1816 г | Производител | Everbuild | Дозировка | Една доза | 35 г | Дози в опаковка | 25 / 51 дози | Препоръчителен дневен прием | 1 лъжица от 35 г | Въглехидрати | от които полиоли | 0 г | Въглехидрати | 2.1 г | От които захари | 0 г | Мазнини | Мазнини | 0.7 г | От които наситени | 0 г | Минерали | Натрий | 52 г / Нуждаете се от продукт, който да подпомогне работата на мускулите и цялата опорно-двигателна система? Несъмнено хранителната добавка EVERBUILD 100% Beef Protein Isolate ще ви помогне да подобрите своето представяне по време на тренировка и да постигнете своите цели. Съставките в този продукт подпомагат възстановяването на мускулите и подпомагат техния растеж. Нашият онлайн магазин разполага с богато разнообразние от здравословни добавк и с които да се погрижите за здравето си по най-добрия начин . В Workout.bg ще намерите добавки за подкрепа както на ума, така и на тялото. Какво представлява продуктът EVERBUILD 100% Beef Protein Isolate Хранителната добавка съдържа хидролизиран телешки протеин изолат , който се абсорбира бързо и лесно от организма. С негова помощ можете да подпомогнете растежа на мускулите – ефект, който се търси от голяма част от спортистите . Чрез употребата на този продукт, както вече стана дума, можете да ускорите възстановяването на мускулите след тренировка – това е от особено значение, тъй като по този начин се ограничава риска от болка и спазми. Хранителната добавка е подходяща за хора, които имат непоносимост към лактоза – телешкият протеин е чудесен начин, чрез който може да се замести млечния протеин, без това да води до неразположения. Продуктът има изключително ниско съдържание на мазнини и въглехидрати – неговата формула е чиста и именно затова е подходя",
-      "label_image": "https://workout.bg/image/cache/catalog/products/olimp-sport-nutrition-glutamine-xplode-500-amino-wokrout-bg-250x250.webp",
-      "price_per_active_unit": {
-        "bgn_per_25g_protein": 1.1
-      },
-      "unit_label": "лв / 25 g протеин",
-      "confidence": "low",
-      "scraped_at": "2026-10-11T12:33:59.022142Z",
-      "last_full_scrape": "2026-09-13",
-      "price_history": [
-        {
-          "date": "2026-09-13",
-          "price_bgn": 51.01,
-          "price_eur": 26.08,
-          "unit_value": 0.83
-        },
-        {
-          "date": "2026-09-20",
-          "price_bgn": 51.01,
-          "price_eur": 26.08,
-          "unit_value": 0.83
-        },
-        {
-          "date": "2026-09-27",
-          "price_bgn": 51.01,
-          "price_eur": 26.08,
-          "unit_value": 0.83
-        },
-        {
-          "date": "2026-10-04",
-          "price_bgn": 68.0,
-          "price_eur": 34.77,
-          "unit_value": 1.1
-        },
-        {
-          "date": "2026-10-11",
-          "price_bgn": 68.0,
-          "price_eur": 34.77,
-          "unit_value": 1.1
-        }
-      ]
-    },
-    {
-      "id": "workoutbg-b12-1000-mcg-with-folate",
-      "store": "WorkoutBG",
-      "name": "B12 1000 mcg with Folate",
-      "brand": "SWANSON",
-      "category": "vitamin_b",
-      "url": "https://workout.bg/swanson-b12-1000-mcg-with-folate-cena",
-      "image": "https://workout.bg/image/cache/catalog/products/swanson-b12-1000-mcg-with-folate-workout-bg-online-cena-550x550.webp",
-      "price_bgn": 19.42,
-      "price_eur": 9.93,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": null,
-      "servings": 60,
-      "count": 60,
-      "active": {
-        "b_complex_serving": 1
-      },
-      "label_text": "Информация за продукта | Разфасовка | 60 таблетки | Производител | SWANSON | Дозировка | Една доза | 1 таблетка | Дози в опаковка | 60 дози | Препоръчителен дневен прием | 1 таблетка на ден | Витамини | Витамин B12 | 1000 мкг | Фолат | 680 мкг / Събудете се с усмивка и благодарност за Вашето отлично здраве! Това е ефект от здрав сън, редовна физическа активност и балансирано хранене. Понякога обаче забързаното ежедневие и натоварващите задачи на работното място, в университета или в училище могат да объркат Вашия здравословен режим, което да доведе до редица усложнения в здравето. За щастие съществуват и други полезни алтернативи, като прием на хранителни добавки, богати на витамини, минерали и различни хранителни вещества. Нашият здравословен продукт SWANSON B 12 1000 mcg with Folate притежава редица лечебни свойства, които ще укрепят Вашия организъм и ще Ви накара да посрещнете живота с усмивка . За повече продукти като този можете да разгледате онлайн магазина на Workout.bg . Какво представлява хранителната добавка SWANSON B12 1000 mcg with Folate Всяка таблетка от продукта съдържа по 1000mcg витамин B-12 и 400mcg фолиева киселина . Освен тези две основни съставки, е добавен ребаудиозид А от стевия, който допринася за приятния ягодов вкус. Този здравословен артикул не съдържа допълнителни подсладители. Витамин B-12 е изключително важен за здравето на нервната система и за производството на червени кръвни клетки. Той играе роля в производството на миелин, който отговаря за пренасянето на нервни импулси и защитата на нервните клетки. Освен за нервната система, витамин B-12 поддържа здравето на косата, кожата и ноктите , стимулирайки непрекъснатия процес на обновяване и клетъчен растеж. Свойствата на фолиевата киселина се характеризират с отговорност към нормалния ДНК с",
-      "label_image": "https://workout.bg/image/cache/catalog/products/swanson-b12-1000-mcg-with-folate-supplement-facts-workout-bg-online-cena-550x550h.webp",
-      "price_per_active_unit": {
-        "bgn_per_b_complex_serving": 0.32
-      },
-      "unit_label": "лв / доза B-комплекс",
-      "confidence": "medium",
-      "scraped_at": "2026-10-18T10:48:12.454381Z",
-      "last_full_scrape": "2026-09-20",
-      "price_history": [
-        {
-          "date": "2026-09-20",
-          "price_bgn": 19.42,
-          "price_eur": 9.93,
-          "unit_value": 0.32
-        },
-        {
-          "date": "2026-10-18",
-          "price_bgn": 19.42,
-          "price_eur": 9.93,
-          "unit_value": 0.32
-        }
-      ]
-    },
-    {
-      "id": "workoutbg-ultra-omega-3-fish-oil",
-      "store": "WorkoutBG",
-      "name": "Ultra Omega-3 Fish Oil",
-      "brand": "Everbuild",
-      "category": "omega3",
-      "url": "https://workout.bg/everbuild-ultra-omega-3-fish-oil-cena",
-      "image": "https://workout.bg/image/cache/catalog/products/everbuild-ultra-omega-3-fish-oil-workout-bg-online-cena-600x315w.webp",
-      "price_bgn": 29.26,
-      "price_eur": 14.96,
-      "currency_source": "EUR",
-      "availability_status": "in_stock",
-      "weight_grams": 200.0,
-      "servings": 90,
-      "count": 90,
-      "active": {
-        "epa_mg": 500,
-        "dha_mg": 450,
-        "epa_dha_mg": 950
-      },
-      "label_text": "Холестерол | Холестерол | 0 мг | Информация за продукта | Разфасовка | 90 капсули | Производител | Everbuild | Дозировка | Една доза | 1 капсула | Дози в опаковка | 90 дози | Препоръчителен дневен прием | 1 капсула дневно | Продуктът съдържа следните съставки | Съставки | Наситени мазнини - < 0.5 г, Транс мазнини - 0 г, Полиненаситени мазнин - 0.9 г, Мононенаситени мазнини - < 0.5 г, Рибено масло - 1000 мг, Омега-3 мастни киселини - 750 мг, EPA (елкозапентаенова киселина) - 500 мг, DHA (дикохексаенова киселина) - 250 мг | Хранителни стойности | Калории | 10 | Мазнини | Мазнини | 10 | Витамини | Витамин Е | 2 IU / Здравето на организма зависи от набавянето на витамини, минерали, аминокиселини и т.н. Всички тези компоненти подпомагат протичането на важни биохимични процеси в организма и също така подкрепят работата на отделните органи. За да се погрижите по най-добрия начин за здравето си, можете да се доверите на добавката EVERBUILD Ultra Omega-3 Fish Oil . Този продукт съдържа висококачествено рибно масло, което е богато на омега-3 мастни киселини, които имат редица ползи за организма. В онлайн магазина на Workout.bg можете да намерите още много продукти, чрез които да подобрите здравословното си състояние. С какво се характеризира добавката Ultra Omega-3 Fish Oil Както стана ясно, хранителната добавка съдържа рибено масло , което е богато на омега-3 мастни киселини. Те не се произвеждат от организма – трябва да се набавят допълнително чрез храната или пък чрез употребата на този продукт. Приема на тази хранителна добавка може да има благоприятен ефект върху здравето на сърцето и кръвоносните съдове . Омега-3 мастните киселини могат да понижат „лошия“ холестерол в кръвта, а това пък подобрява кръвообращението и редуцира риска от образуване на плаки по стените на вените ",
-      "label_image": "https://workout.bg/image/cache/catalog/products/allnutrition-vitamin-c-1000-d3-2000-iu-workout-bg-online-cena-250x250.webp",
-      "price_per_active_unit": {
-        "bgn_per_1000mg_epa_dha": 0.34
-      },
-      "unit_label": "лв / 1000 mg EPA+DHA",
-      "confidence": "high",
-      "scraped_at": "2026-10-18T10:48:41.641768Z",
-      "last_full_scrape": "2026-09-20",
-      "price_history": [
-        {
-          "date": "2026-09-20",
-          "price_bgn": 29.26,
-          "price_eur": 14.96,
-          "unit_value": 0.34
-        },
-        {
-          "date": "2026-10-18",
-          "price_bgn": 29.26,
-          "price_eur": 14.96,
-          "unit_value": 0.34
-        }
-      ]
-    },
     {
       "id": "healthstore-hs-labs---l-carnitine-3000---with-caffeine-and-chromium---500-ml",
       "store": "HealthStore",
@@ -394730,6 +393988,765 @@
           "unit_value": 0.27
         }
       ]
+    },
+    {
+      "id": "fhl-allnutrition-omega-3-k2-d3",
+      "store": "FHL",
+      "name": "Allnutrition Omega 3 K2+D3",
+      "brand": null,
+      "category": "omega3",
+      "url": "https://www.fhl.bg/products/product/6263/allnutrition-omega-3-k2-d3.html",
+      "image": "https://www.fhl.bg/files/products/6263/11287_1.jpg",
+      "price_bgn": 15.0,
+      "price_eur": 7.67,
+      "currency_source": "EUR",
+      "availability_status": "unknown",
+      "weight_grams": null,
+      "servings": null,
+      "count": 30,
+      "active": {
+        "epa_mg": 180,
+        "dha_mg": 120,
+        "epa_dha_mg": 300
+      },
+      "label_text": null,
+      "label_image": "https://www.fhl.bg/files/products/6263/11287_1.jpg",
+      "price_per_active_unit": {
+        "bgn_per_1000mg_epa_dha": 1.67
+      },
+      "unit_label": "лв / 1000 mg EPA+DHA",
+      "confidence": "high",
+      "scraped_at": "2026-10-22T17:29:53.344410Z",
+      "last_full_scrape": "2026-10-22",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_bgn": 12.0,
+          "price_eur": 6.14,
+          "unit_value": 1.33
+        },
+        {
+          "date": "2026-07-26",
+          "price_bgn": 12.0,
+          "price_eur": 6.14,
+          "unit_value": 1.33
+        },
+        {
+          "date": "2026-08-02",
+          "price_bgn": 12.0,
+          "price_eur": 6.14,
+          "unit_value": 1.33
+        },
+        {
+          "date": "2026-08-09",
+          "price_bgn": 12.0,
+          "price_eur": 6.14,
+          "unit_value": 1.33
+        },
+        {
+          "date": "2026-08-16",
+          "price_bgn": 12.0,
+          "price_eur": 6.14,
+          "unit_value": 1.33
+        },
+        {
+          "date": "2026-08-23",
+          "price_bgn": 12.0,
+          "price_eur": 6.14,
+          "unit_value": 1.33
+        },
+        {
+          "date": "2026-08-29",
+          "price_bgn": 12.0,
+          "price_eur": 6.14,
+          "unit_value": 1.33
+        },
+        {
+          "date": "2026-08-30",
+          "price_bgn": 12.0,
+          "price_eur": 6.14,
+          "unit_value": 1.33
+        },
+        {
+          "date": "2026-09-06",
+          "price_bgn": 12.0,
+          "price_eur": 6.14,
+          "unit_value": 1.33
+        },
+        {
+          "date": "2026-09-13",
+          "price_bgn": 12.0,
+          "price_eur": 6.14,
+          "unit_value": 1.33
+        },
+        {
+          "date": "2026-09-20",
+          "price_bgn": 12.0,
+          "price_eur": 6.14,
+          "unit_value": 1.33
+        },
+        {
+          "date": "2026-10-22",
+          "price_bgn": 15.0,
+          "price_eur": 7.67,
+          "unit_value": 1.67
+        }
+      ]
+    },
+    {
+      "id": "fhl-дива-тихоокеанска-сьомга-o-f-wild-pacific-salmon-oil",
+      "store": "FHL",
+      "name": "Дива тихоокеанска сьомга |O.F.Wild Pacific Salmon Oil",
+      "brand": null,
+      "category": "omega3",
+      "url": "https://www.fhl.bg/products/product/2290/diva-tihookeanska-syomga-ofwild-pacific-salmon-oil.html",
+      "image": "https://www.fhl.bg/files/products/2290/5449_1.jpg",
+      "price_bgn": 25.99,
+      "price_eur": 13.29,
+      "currency_source": "BGN",
+      "availability_status": "out_of_stock",
+      "weight_grams": null,
+      "servings": 2,
+      "count": 90,
+      "active": {
+        "epa_mg": 107,
+        "dha_mg": 535,
+        "epa_dha_mg": 642
+      },
+      "label_text": null,
+      "label_image": "https://www.fhl.bg/files/products/6263/11287_1.jpg",
+      "price_per_active_unit": {
+        "bgn_per_1000mg_epa_dha": 20.24
+      },
+      "unit_label": "лв / 1000 mg EPA+DHA",
+      "confidence": "high",
+      "scraped_at": "2026-09-20T10:53:10.016774Z",
+      "last_full_scrape": "2026-08-29",
+      "price_history": [
+        {
+          "date": "2026-07-12",
+          "price_bgn": 25.99,
+          "price_eur": 13.29,
+          "unit_value": 20.24
+        },
+        {
+          "date": "2026-07-19",
+          "price_bgn": 25.99,
+          "price_eur": 13.29,
+          "unit_value": 20.24
+        },
+        {
+          "date": "2026-07-26",
+          "price_bgn": 25.99,
+          "price_eur": 13.29,
+          "unit_value": 20.24
+        },
+        {
+          "date": "2026-08-02",
+          "price_bgn": 25.99,
+          "price_eur": 13.29,
+          "unit_value": 20.24
+        },
+        {
+          "date": "2026-08-09",
+          "price_bgn": 25.99,
+          "price_eur": 13.29,
+          "unit_value": 20.24
+        },
+        {
+          "date": "2026-08-16",
+          "price_bgn": 25.99,
+          "price_eur": 13.29,
+          "unit_value": 20.24
+        },
+        {
+          "date": "2026-08-23",
+          "price_bgn": 25.99,
+          "price_eur": 13.29,
+          "unit_value": 20.24
+        },
+        {
+          "date": "2026-08-29",
+          "price_bgn": 25.99,
+          "price_eur": 13.29,
+          "unit_value": 20.24
+        },
+        {
+          "date": "2026-08-30",
+          "price_bgn": 25.99,
+          "price_eur": 13.29,
+          "unit_value": 20.24
+        },
+        {
+          "date": "2026-09-06",
+          "price_bgn": 25.99,
+          "price_eur": 13.29,
+          "unit_value": 20.24
+        },
+        {
+          "date": "2026-09-13",
+          "price_bgn": 25.99,
+          "price_eur": 13.29,
+          "unit_value": 20.24
+        },
+        {
+          "date": "2026-09-20",
+          "price_bgn": 25.99,
+          "price_eur": 13.29,
+          "unit_value": 20.24
+        }
+      ],
+      "old_price_bgn": 31.29,
+      "discount_pct": 17,
+      "promo_label": "-17%",
+      "availability_checked_at": "2026-10-22T17:29:53.844221Z"
+    },
+    {
+      "id": "fhl-omega-3-strong-90-softgels",
+      "store": "FHL",
+      "name": "Omega 3 Strong 90 Softgels",
+      "brand": null,
+      "category": "omega3",
+      "url": "https://www.fhl.bg/products/product/6447/omega-3-strong-90-softgels.html",
+      "image": "https://www.fhl.bg/files/products/6447/11661_1.jpg",
+      "price_bgn": 27.5,
+      "price_eur": 14.06,
+      "currency_source": "BGN",
+      "availability_status": "out_of_stock",
+      "weight_grams": null,
+      "servings": null,
+      "count": 90,
+      "active": {
+        "epa_mg": 330,
+        "dha_mg": 220,
+        "epa_dha_mg": 550
+      },
+      "label_text": null,
+      "label_image": "https://www.fhl.bg/files/products/6447/11661_1.jpg",
+      "price_per_active_unit": {
+        "bgn_per_1000mg_epa_dha": 0.56
+      },
+      "unit_label": "лв / 1000 mg EPA+DHA",
+      "confidence": "high",
+      "scraped_at": "2026-09-20T10:53:06.306839Z",
+      "last_full_scrape": "2026-08-29",
+      "price_history": [
+        {
+          "date": "2026-07-12",
+          "price_bgn": 27.5,
+          "price_eur": 14.06,
+          "unit_value": 0.56
+        },
+        {
+          "date": "2026-07-19",
+          "price_bgn": 27.5,
+          "price_eur": 14.06,
+          "unit_value": 0.56
+        },
+        {
+          "date": "2026-07-26",
+          "price_bgn": 27.5,
+          "price_eur": 14.06,
+          "unit_value": 0.56
+        },
+        {
+          "date": "2026-08-02",
+          "price_bgn": 27.5,
+          "price_eur": 14.06,
+          "unit_value": 0.56
+        },
+        {
+          "date": "2026-08-09",
+          "price_bgn": 27.5,
+          "price_eur": 14.06,
+          "unit_value": 0.56
+        },
+        {
+          "date": "2026-08-16",
+          "price_bgn": 27.5,
+          "price_eur": 14.06,
+          "unit_value": 0.56
+        },
+        {
+          "date": "2026-08-23",
+          "price_bgn": 27.5,
+          "price_eur": 14.06,
+          "unit_value": 0.56
+        },
+        {
+          "date": "2026-08-29",
+          "price_bgn": 27.5,
+          "price_eur": 14.06,
+          "unit_value": 0.56
+        },
+        {
+          "date": "2026-08-30",
+          "price_bgn": 27.5,
+          "price_eur": 14.06,
+          "unit_value": 0.56
+        },
+        {
+          "date": "2026-09-06",
+          "price_bgn": 27.5,
+          "price_eur": 14.06,
+          "unit_value": 0.56
+        },
+        {
+          "date": "2026-09-13",
+          "price_bgn": 27.5,
+          "price_eur": 14.06,
+          "unit_value": 0.56
+        },
+        {
+          "date": "2026-09-20",
+          "price_bgn": 27.5,
+          "price_eur": 14.06,
+          "unit_value": 0.56
+        }
+      ],
+      "old_price_bgn": 63.0,
+      "discount_pct": 56,
+      "promo_label": "-56%",
+      "availability_checked_at": "2026-10-22T17:29:53.984888Z"
+    },
+    {
+      "id": "workoutbg-creatine-zero-effervescent-tabs",
+      "store": "WorkoutBG",
+      "name": "Creatine Zero Effervescent Tabs",
+      "brand": "Biotech USA",
+      "category": "creatine",
+      "url": "https://workout.bg/biotech-usa-creatine-zero-effervescent-tabs-cena",
+      "image": "https://workout.bg/image/cache/catalog/products/biotech-usa-creatine-zero-effervescent-tabs-workout-bg-online-cena-600x315w.webp",
+      "price_bgn": 9.0,
+      "price_eur": 4.6,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": 250.0,
+      "servings": 9,
+      "count": 18,
+      "active": {
+        "creatine_total_mg": 250000
+      },
+      "label_text": "Информация за продукта | Разфасовка | 18 таблетки | Производител | Biotech USA | Дозировка | Една доза | 2 таблетки | Дози в опаковка | 9 дози | Препоръчителен дневен прием | 1 доза дневно | Аминокиселини | Креатин монохидрат | 2500 мг, от които креатин 2198 мг / 100% Pure Whey 21.00 € Купи Creatine PH-X – буфериран креатин 16.36 € Купи Instant Oats 9.00 € Купи Amino Liquid 23.00 € Купи Protein Cream 7.16 € Купи / Вашите здрави мускули са най-добрият аксесоар към Вашата спортна визия? Ако искате да бъдете съвременния Аполон, трябва да имате волята да работите усърдно върху Вашата мускулна маса. Много често, обаче, физическите тренировки водят до преумора и усложнения в мускулните тъкани. Това може да доведе до стрес, болезнени мускулни травми и бавно възстановяване, от което се губи желаният ефект. Приемът на хранителни добавки, като BIOTECH USA Creatine Zero Effervescent Tabs / 18 Tabs позволяват на Вас и Вашите мускули да се справите бързо и максимално с мускулните травми и изтощаващото напрежение . Ако искате да разгледате повече продукти от марката BIOTECH USA , можете да го направите от нашия сайт Workout . bg и да се доверите максимално на високото качество и грижа за здравето. Какво представлява хранителната добавка BIOTECH USA Creatine Zero Effervescent Tabs / 18 Tabs Хранителната добавка е под формата на разтворими таблетки и помага за набавянето на качествена мускулна маса, благодарение на свойствата на креатина, като основна съставка. Креатинът осигурява лекота при вдигането на тежки уреди и активно произвежда енергия в мускулите , която допринася за тази лекота. Той хидратира мускулите, увеличава техния размер и редуцира тяхното разграждане . За растежа на мускулите е важен инсулиноподобният растежен факктор, който бива повишен именно от креатина. Освен за п",
+      "label_image": "https://workout.bg/image/cache/catalog/products/double-wood-supplements-nitric-oxide-booster-with-nitrosigine-workout-bg-online-cena-250x250.webp",
+      "price_per_active_unit": {
+        "bgn_per_5g_creatine": 0.18
+      },
+      "unit_label": "лв / 5 g креатин",
+      "confidence": "medium",
+      "scraped_at": "2026-10-22T17:29:55.749714Z",
+      "last_full_scrape": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "price_bgn": 9.0,
+          "price_eur": 4.6,
+          "unit_value": 0.18
+        },
+        {
+          "date": "2026-10-22",
+          "price_bgn": 9.0,
+          "price_eur": 4.6,
+          "unit_value": 0.18
+        }
+      ]
+    },
+    {
+      "id": "fhl-дива-риба-o-f-wild-fish-oil",
+      "store": "FHL",
+      "name": "Дива риба O.F. Wild fish oil",
+      "brand": null,
+      "category": "omega3",
+      "url": "https://www.fhl.bg/products/product/2293/diva-riba-of-wild-fish-oil.html",
+      "image": "https://www.fhl.bg/files/products/2293/5452_1.jpg",
+      "price_bgn": 25.99,
+      "price_eur": 13.29,
+      "currency_source": "BGN",
+      "availability_status": "out_of_stock",
+      "weight_grams": null,
+      "servings": 2,
+      "count": 4,
+      "active": {
+        "epa_mg": 180,
+        "dha_mg": 540,
+        "epa_dha_mg": 720
+      },
+      "label_text": null,
+      "label_image": "https://www.fhl.bg/files/products/6263/11287_1.jpg",
+      "price_per_active_unit": {
+        "bgn_per_1000mg_epa_dha": 18.05
+      },
+      "unit_label": "лв / 1000 mg EPA+DHA",
+      "confidence": "high",
+      "scraped_at": "2026-09-20T10:53:10.578636Z",
+      "last_full_scrape": "2026-08-29",
+      "price_history": [
+        {
+          "date": "2026-07-12",
+          "price_bgn": 25.99,
+          "price_eur": 13.29,
+          "unit_value": 18.05
+        },
+        {
+          "date": "2026-07-19",
+          "price_bgn": 25.99,
+          "price_eur": 13.29,
+          "unit_value": 18.05
+        },
+        {
+          "date": "2026-07-26",
+          "price_bgn": 25.99,
+          "price_eur": 13.29,
+          "unit_value": 18.05
+        },
+        {
+          "date": "2026-08-02",
+          "price_bgn": 25.99,
+          "price_eur": 13.29,
+          "unit_value": 18.05
+        },
+        {
+          "date": "2026-08-09",
+          "price_bgn": 25.99,
+          "price_eur": 13.29,
+          "unit_value": 18.05
+        },
+        {
+          "date": "2026-08-16",
+          "price_bgn": 25.99,
+          "price_eur": 13.29,
+          "unit_value": 18.05
+        },
+        {
+          "date": "2026-08-23",
+          "price_bgn": 25.99,
+          "price_eur": 13.29,
+          "unit_value": 18.05
+        },
+        {
+          "date": "2026-08-29",
+          "price_bgn": 25.99,
+          "price_eur": 13.29,
+          "unit_value": 18.05
+        },
+        {
+          "date": "2026-08-30",
+          "price_bgn": 25.99,
+          "price_eur": 13.29,
+          "unit_value": 18.05
+        },
+        {
+          "date": "2026-09-06",
+          "price_bgn": 25.99,
+          "price_eur": 13.29,
+          "unit_value": 18.05
+        },
+        {
+          "date": "2026-09-13",
+          "price_bgn": 25.99,
+          "price_eur": 13.29,
+          "unit_value": 18.05
+        },
+        {
+          "date": "2026-09-20",
+          "price_bgn": 25.99,
+          "price_eur": 13.29,
+          "unit_value": 18.05
+        }
+      ],
+      "availability_checked_at": "2026-10-22T17:29:56.386250Z"
+    },
+    {
+      "id": "workoutbg-creatine-xplode-креатинова-матрица",
+      "store": "WorkoutBG",
+      "name": "CREATINE XPLODE – креатинова матрица",
+      "brand": "Olimp Sport Nutrition",
+      "category": "creatine",
+      "url": "https://workout.bg/olimp-sport-nutrition-creatine-xplode-cena",
+      "image": "https://workout.bg/image/cache/catalog/olimp-sport-nutrition-creatine-xplode-workout-bg-online-cena-600x315w.webp",
+      "price_bgn": 98.01,
+      "price_eur": 50.11,
+      "currency_source": "EUR",
+      "availability_status": "out_of_stock",
+      "weight_grams": 500.0,
+      "servings": 100,
+      "count": null,
+      "active": {
+        "creatine_mg_per_serving": 5000
+      },
+      "label_text": "Информация за продукта | Разфасовка | 500 Г | Производител | Olimp Sport Nutrition | Дозировка | Една доза | 5 Г | Дози в опаковка | 100 дози | Препоръчителен дневен прием | 2 дози дневно | Хранителни стойности | Калории | 18.3 ккал | Белтъчини | Протеин | 0 Г | Въглехидрати | Въглехидрати | 0 Г | От които захари | 0 Г | Мазнини | Мазнини | < 0.1 Г | От които наситени | < 0.1 Г | Аминокиселини | Таурин | 500 МГ | Сол | Сол | 0.01 Г / Знаете точно от какво имате нужда и то е снабдяване с експлозивна доза креатин за осезаемо насърчаване на мускулния растеж? Неслучайно името на продукта насочва точно към това - той осигурява взривяваща тренировките и резултатите от тях формула, получена при комбинацията на най-ефективните форми на аминокиселината в един продукт. Искате да разберете повече за него? В Workout.bg сме събрали най-важната информация за суплемента. Уникалната формула на Olimp Sport Nutrition CREATINE XPLODE Olimp Sport Nutrition CREATINE XPLODE е прахообразна хранителна добавка с наистина уникален състав. В нея се съдържа силова матрица с бленд от магнезиев креатин хелат (патентования Creatine Magna Power), креатин малат, креатин алфа кетоглутарат, креатин етил естер HCl, креатин цитрат и креатин пируват. За увеличаване на енергизиращия ефект на добавката е включена и доза таурин. Защо в комплекса са включени 6 разновидности на креатина? Целта е да се постигне оптимален ефект на съставките, с цел възползване от максималната анаболна ефективност на комбинацията. В резултат на това добавката дарява с по-голямо количество свободни молекули креатин и се минимизира загубата на аминокиселината чрез ограничаване преобразуването ѝ в неактивна форма в тракта. Страхотните предимства на CREATINE XPLODE: 1 опаковка = 500 гр; 1 доза (5 гр) съдържа 3670 мг от силовия бленд; 6",
+      "label_image": "https://workout.bg/image/cache/catalog/products/olimp-sport-nutrition-glutamine-xplode-500-amino-wokrout-bg-250x250.webp",
+      "price_per_active_unit": {
+        "bgn_per_5g_creatine": 0.98
+      },
+      "unit_label": "лв / 5 g креатин",
+      "confidence": "high",
+      "scraped_at": "2026-10-11T12:33:20.448440Z",
+      "last_full_scrape": "2026-10-11",
+      "price_history": [
+        {
+          "date": "2026-10-11",
+          "price_bgn": 98.01,
+          "price_eur": 50.11,
+          "unit_value": 0.98
+        }
+      ],
+      "availability_checked_at": "2026-10-22T17:29:56.738046Z"
+    },
+    {
+      "id": "workoutbg-100-pure-all-natural-whey-protein-stevia",
+      "store": "WorkoutBG",
+      "name": "100% Pure All Natural Whey Protein / Stevia",
+      "brand": "HAYA LABS",
+      "category": "protein",
+      "url": "https://workout.bg/haya-labs-100-pure-all-natural-whey-protein-stevia-cena",
+      "image": "https://workout.bg/image/cache/catalog/products/haya-labs-100-pure-all-natural-whey-protein-stevia-workout-bg-online-cena-600x315w.webp",
+      "price_bgn": 43.03,
+      "price_eur": 22.0,
+      "currency_source": "EUR",
+      "availability_status": "out_of_stock",
+      "weight_grams": 454.0,
+      "servings": 14,
+      "count": 30,
+      "active": {
+        "protein_g": 25.0
+      },
+      "label_text": "Холестерол | Холестерол | 40 мг | Информация за продукта | Разфасовка | 454 г | Производител | HAYA LABS | Дозировка | Една доза | 1 мерителна лъжица (32 г) | Дози в опаковка | 14 дози | Препоръчителен дневен прием | 1 доза на ден | Продуктът съдържа следните съставки | Съставки | Захар - 1 г | Хранителни стойности | Калории | 112 ккал | Белтъчини | Протеин | 25 г | Въглехидрати | Фибри | 0 г | Въглехидрати | 2 г | Мазнини | Мазнини | 0.5 г | Минерали | Желязо | 2.5 мг | Калций | 120 мг | Натрий | 50 мг | Витамини | Витамин C | 0 мг | Витамин А | 0 мг / Всеки професионален спортист или фитнес ентусиаст иска да бъде в отлична форма, за да може да изпълнява тренировките си и да постига желаните спортни резултати. Това обаче изисква допълнителна подкрепа за тялото – ето защо, ако и вие искате да се погрижите за издръжливостта си, можете да се доверите на продукта HAYA LABS 100% Pure All Natural Whey Protein / Stevia . Тази хранителна добавка се подкрепи силата ви и несъмнено ще ви помогне да бъдете своята по-добра версия! Уеб магазинът на Workout.bg разполага с редица продукти, чрез които можете да се погрижите за здравето си или пък за спортната си форма. Суроватъчен протеин от 100% Pure All Natural Whey Protein / Stevia Хранителната добавка съдържа натурален суроватъчен протеин , който ефикасно може да повиши издръжливостта и силата на цялото тяло . Продуктът включва и естествена стевия, която придава чудесен вкус. Добавката съдържа изключително малко мазнини и въглехидрати, което пък я прави подходяща за хора, които спазват по-строг режим на хранене. Чрез приема на този продукт се подпомага възстановяването на мускулатурата след интензивни тренировки и се подпомага растежа на мускулната маса . Суроватъчният протеин е чудесен източник на аминокиселини, който се усвоява б",
+      "label_image": "https://workout.bg/image/cache/catalog/products/swedish-supplements-creavolution-powder-500-grama-workout-bg-online-cena-250x250.webp",
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 3.07
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "high",
+      "scraped_at": "2026-10-11T12:33:58.735069Z",
+      "last_full_scrape": "2026-09-13",
+      "price_history": [
+        {
+          "date": "2026-09-13",
+          "price_bgn": 39.1,
+          "price_eur": 19.99,
+          "unit_value": 2.79
+        },
+        {
+          "date": "2026-09-20",
+          "price_bgn": 39.1,
+          "price_eur": 19.99,
+          "unit_value": 2.79
+        },
+        {
+          "date": "2026-09-27",
+          "price_bgn": 43.03,
+          "price_eur": 22.0,
+          "unit_value": 3.07
+        },
+        {
+          "date": "2026-10-04",
+          "price_bgn": 43.03,
+          "price_eur": 22.0,
+          "unit_value": 3.07
+        },
+        {
+          "date": "2026-10-11",
+          "price_bgn": 43.03,
+          "price_eur": 22.0,
+          "unit_value": 3.07
+        }
+      ],
+      "availability_checked_at": "2026-10-22T17:29:57.077443Z"
+    },
+    {
+      "id": "workoutbg-b12-1000-mcg-with-folate",
+      "store": "WorkoutBG",
+      "name": "B12 1000 mcg with Folate",
+      "brand": "SWANSON",
+      "category": "vitamin_b",
+      "url": "https://workout.bg/swanson-b12-1000-mcg-with-folate-cena",
+      "image": "https://workout.bg/image/cache/catalog/products/swanson-b12-1000-mcg-with-folate-workout-bg-online-cena-550x550.webp",
+      "price_bgn": 19.42,
+      "price_eur": 9.93,
+      "currency_source": "EUR",
+      "availability_status": "in_stock",
+      "weight_grams": null,
+      "servings": 60,
+      "count": 60,
+      "active": {
+        "b_complex_serving": 1
+      },
+      "label_text": "Информация за продукта | Разфасовка | 60 таблетки | Производител | SWANSON | Дозировка | Една доза | 1 таблетка | Дози в опаковка | 60 дози | Препоръчителен дневен прием | 1 таблетка на ден | Витамини | Витамин B12 | 1000 мкг | Фолат | 680 мкг / Събудете се с усмивка и благодарност за Вашето отлично здраве! Това е ефект от здрав сън, редовна физическа активност и балансирано хранене. Понякога обаче забързаното ежедневие и натоварващите задачи на работното място, в университета или в училище могат да объркат Вашия здравословен режим, което да доведе до редица усложнения в здравето. За щастие съществуват и други полезни алтернативи, като прием на хранителни добавки, богати на витамини, минерали и различни хранителни вещества. Нашият здравословен продукт SWANSON B 12 1000 mcg with Folate притежава редица лечебни свойства, които ще укрепят Вашия организъм и ще Ви накара да посрещнете живота с усмивка . За повече продукти като този можете да разгледате онлайн магазина на Workout.bg . Какво представлява хранителната добавка SWANSON B12 1000 mcg with Folate Всяка таблетка от продукта съдържа по 1000mcg витамин B-12 и 400mcg фолиева киселина . Освен тези две основни съставки, е добавен ребаудиозид А от стевия, който допринася за приятния ягодов вкус. Този здравословен артикул не съдържа допълнителни подсладители. Витамин B-12 е изключително важен за здравето на нервната система и за производството на червени кръвни клетки. Той играе роля в производството на миелин, който отговаря за пренасянето на нервни импулси и защитата на нервните клетки. Освен за нервната система, витамин B-12 поддържа здравето на косата, кожата и ноктите , стимулирайки непрекъснатия процес на обновяване и клетъчен растеж. Свойствата на фолиевата киселина се характеризират с отговорност към нормалния ДНК с",
+      "label_image": "https://workout.bg/image/cache/catalog/products/swanson-b12-1000-mcg-with-folate-supplement-facts-workout-bg-online-cena-550x550h.webp",
+      "price_per_active_unit": {
+        "bgn_per_b_complex_serving": 0.32
+      },
+      "unit_label": "лв / доза B-комплекс",
+      "confidence": "medium",
+      "scraped_at": "2026-10-22T17:29:58.189094Z",
+      "last_full_scrape": "2026-10-22",
+      "price_history": [
+        {
+          "date": "2026-09-20",
+          "price_bgn": 19.42,
+          "price_eur": 9.93,
+          "unit_value": 0.32
+        },
+        {
+          "date": "2026-10-18",
+          "price_bgn": 19.42,
+          "price_eur": 9.93,
+          "unit_value": 0.32
+        },
+        {
+          "date": "2026-10-22",
+          "price_bgn": 19.42,
+          "price_eur": 9.93,
+          "unit_value": 0.32
+        }
+      ]
+    },
+    {
+      "id": "workoutbg-100-beef-protein-isolate",
+      "store": "WorkoutBG",
+      "name": "100% Beef Protein Isolate",
+      "brand": "Everbuild",
+      "category": "protein",
+      "url": "https://workout.bg/everbuild-100-beef-protein-isolate-cena",
+      "image": "https://workout.bg/image/cache/catalog/products/everbuild-100-beef-protein-isolate-workout-bg-online-cena-600x315w.webp",
+      "price_bgn": 68.0,
+      "price_eur": 34.77,
+      "currency_source": "EUR",
+      "availability_status": "out_of_stock",
+      "weight_grams": 1816.0,
+      "servings": 51,
+      "count": 15,
+      "active": {
+        "estimated_total_protein_g": 1543.6,
+        "estimated_protein_ratio_pct": 85
+      },
+      "label_text": "Холестерол | Холестерол | 0 г | Информация за продукта | Разфасовка | 908 / 1816 г | Производител | Everbuild | Дозировка | Една доза | 35 г | Дози в опаковка | 25 / 51 дози | Препоръчителен дневен прием | 1 лъжица от 35 г | Въглехидрати | от които полиоли | 0 г | Въглехидрати | 2.1 г | От които захари | 0 г | Мазнини | Мазнини | 0.7 г | От които наситени | 0 г | Минерали | Натрий | 52 г / Нуждаете се от продукт, който да подпомогне работата на мускулите и цялата опорно-двигателна система? Несъмнено хранителната добавка EVERBUILD 100% Beef Protein Isolate ще ви помогне да подобрите своето представяне по време на тренировка и да постигнете своите цели. Съставките в този продукт подпомагат възстановяването на мускулите и подпомагат техния растеж. Нашият онлайн магазин разполага с богато разнообразние от здравословни добавк и с които да се погрижите за здравето си по най-добрия начин . В Workout.bg ще намерите добавки за подкрепа както на ума, така и на тялото. Какво представлява продуктът EVERBUILD 100% Beef Protein Isolate Хранителната добавка съдържа хидролизиран телешки протеин изолат , който се абсорбира бързо и лесно от организма. С негова помощ можете да подпомогнете растежа на мускулите – ефект, който се търси от голяма част от спортистите . Чрез употребата на този продукт, както вече стана дума, можете да ускорите възстановяването на мускулите след тренировка – това е от особено значение, тъй като по този начин се ограничава риска от болка и спазми. Хранителната добавка е подходяща за хора, които имат непоносимост към лактоза – телешкият протеин е чудесен начин, чрез който може да се замести млечния протеин, без това да води до неразположения. Продуктът има изключително ниско съдържание на мазнини и въглехидрати – неговата формула е чиста и именно затова е подходя",
+      "label_image": "https://workout.bg/image/cache/catalog/products/olimp-sport-nutrition-glutamine-xplode-500-amino-wokrout-bg-250x250.webp",
+      "price_per_active_unit": {
+        "bgn_per_25g_protein": 1.1
+      },
+      "unit_label": "лв / 25 g протеин",
+      "confidence": "low",
+      "scraped_at": "2026-10-11T12:33:59.022142Z",
+      "last_full_scrape": "2026-09-13",
+      "price_history": [
+        {
+          "date": "2026-09-13",
+          "price_bgn": 51.01,
+          "price_eur": 26.08,
+          "unit_value": 0.83
+        },
+        {
+          "date": "2026-09-20",
+          "price_bgn": 51.01,
+          "price_eur": 26.08,
+          "unit_value": 0.83
+        },
+        {
+          "date": "2026-09-27",
+          "price_bgn": 51.01,
+          "price_eur": 26.08,
+          "unit_value": 0.83
+        },
+        {
+          "date": "2026-10-04",
+          "price_bgn": 68.0,
+          "price_eur": 34.77,
+          "unit_value": 1.1
+        },
+        {
+          "date": "2026-10-11",
+          "price_bgn": 68.0,
+          "price_eur": 34.77,
+          "unit_value": 1.1
+        }
+      ],
+      "availability_checked_at": "2026-10-22T17:29:58.889159Z"
+    },
+    {
+      "id": "workoutbg-ultra-omega-3-fish-oil",
+      "store": "WorkoutBG",
+      "name": "Ultra Omega-3 Fish Oil",
+      "brand": "Everbuild",
+      "category": "omega3",
+      "url": "https://workout.bg/everbuild-ultra-omega-3-fish-oil-cena",
+      "image": "https://workout.bg/image/cache/catalog/products/everbuild-ultra-omega-3-fish-oil-workout-bg-online-cena-600x315w.webp",
+      "price_bgn": 29.26,
+      "price_eur": 14.96,
+      "currency_source": "EUR",
+      "availability_status": "out_of_stock",
+      "weight_grams": 200.0,
+      "servings": 90,
+      "count": 90,
+      "active": {
+        "epa_mg": 500,
+        "dha_mg": 450,
+        "epa_dha_mg": 950
+      },
+      "label_text": "Холестерол | Холестерол | 0 мг | Информация за продукта | Разфасовка | 90 капсули | Производител | Everbuild | Дозировка | Една доза | 1 капсула | Дози в опаковка | 90 дози | Препоръчителен дневен прием | 1 капсула дневно | Продуктът съдържа следните съставки | Съставки | Наситени мазнини - < 0.5 г, Транс мазнини - 0 г, Полиненаситени мазнин - 0.9 г, Мононенаситени мазнини - < 0.5 г, Рибено масло - 1000 мг, Омега-3 мастни киселини - 750 мг, EPA (елкозапентаенова киселина) - 500 мг, DHA (дикохексаенова киселина) - 250 мг | Хранителни стойности | Калории | 10 | Мазнини | Мазнини | 10 | Витамини | Витамин Е | 2 IU / Здравето на организма зависи от набавянето на витамини, минерали, аминокиселини и т.н. Всички тези компоненти подпомагат протичането на важни биохимични процеси в организма и също така подкрепят работата на отделните органи. За да се погрижите по най-добрия начин за здравето си, можете да се доверите на добавката EVERBUILD Ultra Omega-3 Fish Oil . Този продукт съдържа висококачествено рибно масло, което е богато на омега-3 мастни киселини, които имат редица ползи за организма. В онлайн магазина на Workout.bg можете да намерите още много продукти, чрез които да подобрите здравословното си състояние. С какво се характеризира добавката Ultra Omega-3 Fish Oil Както стана ясно, хранителната добавка съдържа рибено масло , което е богато на омега-3 мастни киселини. Те не се произвеждат от организма – трябва да се набавят допълнително чрез храната или пък чрез употребата на този продукт. Приема на тази хранителна добавка може да има благоприятен ефект върху здравето на сърцето и кръвоносните съдове . Омега-3 мастните киселини могат да понижат „лошия“ холестерол в кръвта, а това пък подобрява кръвообращението и редуцира риска от образуване на плаки по стените на вените ",
+      "label_image": "https://workout.bg/image/cache/catalog/products/allnutrition-vitamin-c-1000-d3-2000-iu-workout-bg-online-cena-250x250.webp",
+      "price_per_active_unit": {
+        "bgn_per_1000mg_epa_dha": 0.34
+      },
+      "unit_label": "лв / 1000 mg EPA+DHA",
+      "confidence": "high",
+      "scraped_at": "2026-10-18T10:48:41.641768Z",
+      "last_full_scrape": "2026-09-20",
+      "price_history": [
+        {
+          "date": "2026-09-20",
+          "price_bgn": 29.26,
+          "price_eur": 14.96,
+          "unit_value": 0.34
+        },
+        {
+          "date": "2026-10-18",
+          "price_bgn": 29.26,
+          "price_eur": 14.96,
+          "unit_value": 0.34
+        }
+      ],
+      "availability_checked_at": "2026-10-22T17:29:59.297199Z"
+    },
+    {
+      "id": "fhl-омега-3-дха-500-от-калмари-500-500mg---60-капсули",
+      "store": "FHL",
+      "name": "ОМЕГА-3, ДХА 500 от калмари 500; 500mg - 60 капсули",
+      "brand": null,
+      "category": "omega3",
+      "url": "https://www.fhl.bg/products/product/6068/omega-3-dha-500-ot-kalmari-500-500mg-60-kapsuli.html",
+      "image": "https://www.fhl.bg/files/products/6068/11051_1.jpg",
+      "price_bgn": 49.99,
+      "price_eur": 25.56,
+      "currency_source": "EUR",
+      "availability_status": "unknown",
+      "weight_grams": null,
+      "servings": null,
+      "count": 60,
+      "active": {},
+      "label_text": null,
+      "label_image": null,
+      "price_per_active_unit": {},
+      "unit_label": "лв / 1000 mg EPA+DHA",
+      "confidence": "high",
+      "scraped_at": "2026-10-22T17:31:35.375076Z",
+      "last_full_scrape": "2026-09-20",
+      "price_history": [
+        {
+          "date": "2026-09-20",
+          "price_bgn": 49.99,
+          "price_eur": 25.56,
+          "unit_value": 0.25
+        },
+        {
+          "date": "2026-10-22",
+          "price_bgn": 49.99,
+          "price_eur": 25.56,
+          "unit_value": null
+        }
+      ],
+      "label_status": "unverified"
     }
   ]
 }

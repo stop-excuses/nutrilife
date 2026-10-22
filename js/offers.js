@@ -38,9 +38,8 @@ let liveFallbackByCategory = new Map(); // category → real CDN image URL
 
 const OFFERS_PER_PAGE = 36;
 const PLACEHOLDER_IMAGE_MARKER = "No-Image-Placeholder.svg";
-// Hosts that were temporarily flaky but currently serve real product images.
-// Empty: trust the CDN, let <img onerror> swap to the local SVG fallback if a request fails.
-const BROKEN_IMAGE_HOST_MARKERS = [];
+// These paths are already rejected by the service worker; use local images directly.
+const BROKEN_IMAGE_HOST_MARKERS = ['imgproxy-retcat.assets.schwarz', '/etc.clientlibs/kaufland/', 'stayfit.bg/cdn/img/products/'];
 
 function getCatalogProductsData() {
     if (typeof MARKET_MEMORY_DATA !== "undefined") return MARKET_MEMORY_DATA.products || [];
