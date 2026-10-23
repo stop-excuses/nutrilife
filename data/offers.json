@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T09:14:39.631244Z",
+  "generated_at": "2026-10-23T13:14:43.238764Z",
   "store_last_scraped": {
     "Billa": "2026-10-23",
     "Dar": "2026-10-23",
@@ -9,9 +9,9 @@
     "T-Market": "2026-10-22"
   },
   "unavailable_stores": [],
-  "content_hash": "8dde009fbbcd5786d2a6f065c3748e29",
-  "total_offers": 4069,
-  "promo_offers": 1385,
+  "content_hash": "a840dafbff72cbd365cb1305188e73e2",
+  "total_offers": 4068,
+  "promo_offers": 1384,
   "assortment_offers": 2684,
   "stores": [
     "Billa",
@@ -38528,105 +38528,6 @@
       ],
       "price_seen_count": 2,
       "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 1.69,
-      "new_price_eur": 0.86,
-      "old_price": 3.69,
-      "old_price_eur": 1.89,
-      "discount_pct": 54,
-      "valid_from": "2026-10-19",
-      "valid_until": "2026-10-25",
-      "price_per_kg": 1.69,
-      "price_per_kg_eur": 0.86,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 1.69,
-          "price_eur": 0.86,
-          "old_price": 3.69,
-          "old_price_eur": 1.89,
-          "discount_pct": 54,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 1.69,
-      "comparison_count": 1,
-      "product_id": "kaufland-бреи-краставици-1000g",
-      "weight_grams": 1000,
-      "weight_raw": "1 кг",
-      "name": "Брей! Краставици",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20283944_1_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "vegetable",
-      "emoji": "🥦",
-      "health_score": 7,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "diet_tags": [
-        "budget"
-      ],
-      "macros": {
-        "kcal": 15,
-        "p": 0.7,
-        "f": 0.1,
-        "c": 3.6
-      },
-      "avg_price": 2.67,
-      "lowest_price": 1.49,
-      "lowest_price_date": "2026-08-24",
-      "price_history": [
-        [
-          "2026-05-18",
-          3.89,
-          7.59,
-          49
-        ],
-        [
-          "2026-06-15",
-          3.7,
-          7.59,
-          51
-        ],
-        [
-          "2026-07-06",
-          3.23,
-          7.59,
-          57
-        ],
-        [
-          "2026-08-10",
-          1.99,
-          2.99,
-          33
-        ],
-        [
-          "2026-08-24",
-          1.49,
-          2.99,
-          50
-        ],
-        [
-          "2026-10-19",
-          1.69,
-          3.69,
-          54
-        ]
-      ],
-      "price_seen_count": 6,
-      "price_signal": "good"
     },
     {
       "store": "Fantastico",
