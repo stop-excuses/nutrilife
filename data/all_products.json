@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-10-23T16:58:35.334811Z",
-  "total_products": 60293,
+  "total_products": 60297,
   "products": [
     {
       "name": "Пушена риба тон",
@@ -2424397,6 +2424397,146 @@
       "lowest_price": 3.53,
       "lowest_price_date": "2026-10-23",
       "avg_price": 3.53
+    },
+    {
+      "product_id": "metro-15кг-лимони-мрежа-mc",
+      "name": "1,5КГ ЛИМОНИ МРЕЖА MC",
+      "store": "Metro",
+      "emoji": "🛒",
+      "category": "vegetable",
+      "weight_raw": "1,5 КГ",
+      "weight_grams": 1500,
+      "image": "https://cdn.metro-group.com/bg/bg_pim_357595001001_01.png?format=jpg&quality=80&dpi=72",
+      "is_food": true,
+      "is_healthy": false,
+      "health_score": 5,
+      "diet_tags": [],
+      "macros": null,
+      "first_seen": "2026-10-25T10:35:06.485164+00:00",
+      "last_seen": "2026-10-25T10:35:06.485164+00:00",
+      "new_price": 6.06,
+      "new_price_eur": 3.1,
+      "price_per_kg": 4.04,
+      "price_per_kg_eur": 2.07,
+      "avg_price": 6.06,
+      "lowest_price": 6.06,
+      "lowest_price_date": "2026-10-25",
+      "price_seen_count": 1,
+      "price_history": [
+        {
+          "date": "2026-10-25",
+          "price": 6.06,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "price_signal": null,
+      "_source": "pazarko"
+    },
+    {
+      "product_id": "metro-125гр-къпини",
+      "name": "125гр Къпини",
+      "store": "Metro",
+      "emoji": "🛒",
+      "category": "vegetable",
+      "weight_raw": "125 г",
+      "weight_grams": 125,
+      "image": "https://cdn.metro-group.com/bg/bg_pim_154029001001_01.png?format=jpg&quality=80&dpi=72",
+      "is_food": true,
+      "is_healthy": false,
+      "health_score": 5,
+      "diet_tags": [],
+      "macros": null,
+      "first_seen": "2026-10-25T10:35:06.485164+00:00",
+      "last_seen": "2026-10-25T10:35:06.485164+00:00",
+      "new_price": 7.78,
+      "new_price_eur": 3.98,
+      "price_per_kg": 62.24,
+      "price_per_kg_eur": 31.82,
+      "avg_price": 7.78,
+      "lowest_price": 7.78,
+      "lowest_price_date": "2026-10-25",
+      "price_seen_count": 1,
+      "price_history": [
+        {
+          "date": "2026-10-25",
+          "price": 7.78,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "price_signal": null,
+      "_source": "pazarko"
+    },
+    {
+      "product_id": "metro-125гр-малини",
+      "name": "125гр Малини",
+      "store": "Metro",
+      "emoji": "🛒",
+      "category": "vegetable",
+      "weight_raw": "125 г",
+      "weight_grams": 125,
+      "image": "https://cdn.metro-group.com/bg/bg_pim_150466001001_01.png?format=jpg&quality=80&dpi=72",
+      "is_food": true,
+      "is_healthy": false,
+      "health_score": 5,
+      "diet_tags": [],
+      "macros": null,
+      "first_seen": "2026-10-25T10:35:06.485164+00:00",
+      "last_seen": "2026-10-25T10:35:06.485164+00:00",
+      "new_price": 6.81,
+      "new_price_eur": 3.48,
+      "price_per_kg": 54.48,
+      "price_per_kg_eur": 27.86,
+      "avg_price": 6.81,
+      "lowest_price": 6.81,
+      "lowest_price_date": "2026-10-25",
+      "price_seen_count": 1,
+      "price_history": [
+        {
+          "date": "2026-10-25",
+          "price": 6.81,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "price_signal": null,
+      "_source": "pazarko"
+    },
+    {
+      "product_id": "bulmag-5-минутни-приказки-светът-на-зайчето-питър",
+      "name": "5 минутни приказки-светът на Зайчето Питър",
+      "store": "BulMag",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "image": "https://api.bulmag.org/thumbnails/58f4f91d56719dfd160cc79eb42d2451.jpeg",
+      "is_food": true,
+      "is_healthy": false,
+      "health_score": 5,
+      "diet_tags": [],
+      "macros": null,
+      "first_seen": "2026-10-25T10:35:06.485164+00:00",
+      "last_seen": "2026-10-25T10:35:06.485164+00:00",
+      "new_price": 32.27,
+      "new_price_eur": 16.5,
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "avg_price": 32.27,
+      "lowest_price": 32.27,
+      "lowest_price_date": "2026-10-25",
+      "price_seen_count": 1,
+      "price_history": [
+        {
+          "date": "2026-10-25",
+          "price": 32.27,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "price_signal": null,
+      "_source": "pazarko"
     }
   ]
 }
