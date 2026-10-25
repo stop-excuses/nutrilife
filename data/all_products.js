@@ -1,5 +1,5 @@
 const ALL_PRODUCTS_DATA = {
-  "generated_at": "2026-10-25T17:00:05.283276Z",
+  "generated_at": "2026-10-25T17:58:01.154562Z",
   "total_products": 60325,
   "products": [
     {
@@ -2331874,7 +2331874,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://imgproxy-retcat.assets.schwarz/rJMrh2tV9BHjK5cT9mGrJRFKwFeyJHwSi0BKjeDHdf4/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9GNTM4RjY1RjE5MkVEQTA1MDYxMDNCNTc/0QUUwQkY3NjQwODU0NTAzRkY5QjYxRTk1ODQ2RjRERkRBMTEwMjY2LnBuZw.png",
+      "image": "https://imgproxy-retcat.assets.schwarz/LTFAnej5u9H2kJ5kERj8FHLzkh8Xiv5ZxubfsY1lNjs/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS83OEQyOTQzN0RBMUI1RjU3MEQ3MTYwNTh/BNDlENkI1QUQxRjU0MUE2M0UxQzc1NDcyNThEOEVBNkMyNkVBMUJELnBuZw.png",
       "product_id": "lidl-бульон-120g",
       "last_seen": "2026-10-25",
       "first_seen": "2026-09-20",
@@ -2424243,77 +2424243,6 @@ const ALL_PRODUCTS_DATA = {
       "avg_price": 0.08
     },
     {
-      "name": "Високопротеинов йогурт",
-      "store": "Lidl",
-      "emoji": "🥛",
-      "category": "dairy",
-      "weight_raw": "330 g",
-      "weight_grams": 330,
-      "shelf_life": "малотраен",
-      "is_food": true,
-      "is_healthy": true,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": 5,
-      "diet_tags": [
-        "budget"
-      ],
-      "macros": null,
-      "is_junk": false,
-      "is_high_protein": true,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://imgproxy-retcat.assets.schwarz/9bQvFep71QMJR_ttjj1OJ_JLJSb-JdRccuEMInONonw/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS82NEI0RTMxRUQ5OTI4OUQ0MDQyMUI4RjQ/zRUUyOTZCNTk5ODQyNDZCMzk2NjdGQzZFNkYwOTU1MUUzMUQ1QzU0LnBuZw.png",
-      "product_id": "lidl-високопротеинов-иогурт-330g",
-      "last_seen": "2026-10-25",
-      "first_seen": "2026-04-14",
-      "price_history": [
-        {
-          "date": "2026-04-14",
-          "store": "Lidl",
-          "price": 3.31,
-          "price_eur": 1.69,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-07-12",
-          "store": "Lidl",
-          "price": 1.13,
-          "price_eur": 0.58,
-          "old_price": 2.29,
-          "discount_pct": 51
-        },
-        {
-          "date": "2026-08-23",
-          "store": "Lidl",
-          "price": 1.69,
-          "price_eur": 0.86,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-10-11",
-          "store": "Lidl",
-          "price": 0.58,
-          "price_eur": 0.3,
-          "old_price": 1.17,
-          "discount_pct": 50
-        },
-        {
-          "date": "2026-10-25",
-          "store": "Lidl",
-          "price": 0.79,
-          "price_eur": 0.4,
-          "old_price": 1.19,
-          "discount_pct": 34
-        }
-      ],
-      "lowest_price": 0.58,
-      "lowest_price_date": "2026-10-11",
-      "avg_price": 1.5
-    },
-    {
       "name": "Макарони микс",
       "store": "Lidl",
       "emoji": "🌾",
@@ -2425285,99 +2425214,6 @@ const ALL_PRODUCTS_DATA = {
       "avg_price": 6.13
     },
     {
-      "name": "Лютеница",
-      "store": "Lidl",
-      "emoji": "🛒",
-      "category": "other",
-      "weight_raw": "4 х 305 g",
-      "weight_grams": 1220,
-      "shelf_life": null,
-      "is_food": false,
-      "is_healthy": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": null,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://imgproxy-retcat.assets.schwarz/FjzkNq9WP6ewVLfZfwUVQtI59PnLbWl1N45RyWhABr8/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9CMDhFQTQ2ODEyM0U0QUNFNDMwRDMzMDk/0REI4QzZDREUzMEFEOTdDNDBFM0VBQTA0RjAwRkE4RkRBMUExMjAyLnBuZw.png",
-      "product_id": "lidl-лютеница-1220g",
-      "last_seen": "2026-10-25",
-      "first_seen": "2026-04-14",
-      "price_history": [
-        {
-          "date": "2026-04-14",
-          "store": "Lidl",
-          "price": 6.69,
-          "price_eur": 3.42,
-          "old_price": 13.38,
-          "discount_pct": 50
-        },
-        {
-          "date": "2026-05-31",
-          "store": "Lidl",
-          "price": 3.48,
-          "price_eur": 1.78,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-06-07",
-          "store": "Lidl",
-          "price": 6.69,
-          "price_eur": 3.42,
-          "old_price": 13.38,
-          "discount_pct": 50
-        },
-        {
-          "date": "2026-06-28",
-          "store": "Lidl",
-          "price": 2.89,
-          "price_eur": 1.48,
-          "old_price": 3.99,
-          "discount_pct": 28
-        },
-        {
-          "date": "2026-08-02",
-          "store": "Lidl",
-          "price": 6.61,
-          "price_eur": 3.38,
-          "old_price": 13.22,
-          "discount_pct": 50
-        },
-        {
-          "date": "2026-09-27",
-          "store": "Lidl",
-          "price": 3.38,
-          "price_eur": 1.73,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-10-11",
-          "store": "Lidl",
-          "price": 1.99,
-          "price_eur": 1.02,
-          "old_price": 2.55,
-          "discount_pct": 22
-        },
-        {
-          "date": "2026-10-25",
-          "store": "Lidl",
-          "price": 6.87,
-          "price_eur": 3.51,
-          "old_price": null,
-          "discount_pct": null
-        }
-      ],
-      "lowest_price": 1.99,
-      "lowest_price_date": "2026-10-11",
-      "avg_price": 4.82
-    },
-    {
       "name": "Детски термоблузи",
       "store": "Lidl",
       "emoji": "🛒",
@@ -2425672,6 +2425508,170 @@ const ALL_PRODUCTS_DATA = {
       "lowest_price": 24.99,
       "lowest_price_date": "2026-10-25",
       "avg_price": 24.99
+    },
+    {
+      "name": "Високопротеинов йогурт",
+      "store": "Lidl",
+      "emoji": "🥛",
+      "category": "dairy",
+      "weight_raw": "200 g",
+      "weight_grams": 200,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 5,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": true,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://imgproxy-retcat.assets.schwarz/7szH00cUrA7FGZBbD_4OYgnavVK3wJ2reYP_Q0QE_cg/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS8yNUU5RjNBQThEQUE1QjUyM0NDRjRCOUY/1RTlCRDRDNjM2MjQ0MEE4QjRERDlBMjM5RkZENkRCMEE1MTMyOTVGLnBuZw.png",
+      "product_id": "lidl-високопротеинов-иогурт-200g",
+      "last_seen": "2026-10-25",
+      "first_seen": "2026-04-14",
+      "price_history": [
+        {
+          "date": "2026-04-14",
+          "store": "Lidl",
+          "price": 3.31,
+          "price_eur": 1.69,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-07-12",
+          "store": "Lidl",
+          "price": 1.13,
+          "price_eur": 0.58,
+          "old_price": 2.29,
+          "discount_pct": 51
+        },
+        {
+          "date": "2026-08-23",
+          "store": "Lidl",
+          "price": 1.69,
+          "price_eur": 0.86,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Lidl",
+          "price": 0.58,
+          "price_eur": 0.3,
+          "old_price": 1.17,
+          "discount_pct": 50
+        },
+        {
+          "date": "2026-10-25",
+          "store": "Lidl",
+          "price": 0.79,
+          "price_eur": 0.4,
+          "old_price": 1.19,
+          "discount_pct": 34
+        }
+      ],
+      "lowest_price": 0.58,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 1.5
+    },
+    {
+      "name": "Лютеница",
+      "store": "Lidl",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "580 g",
+      "weight_grams": 580,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://imgproxy-retcat.assets.schwarz/BbxxKWIwDSYzDMoOnEWTRZMV9v80x29Jwx3YKFeEzU4/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS8wNDE4NTAzRDgwMEZEQUMyODY1ODNDRTc/xQjFBNkYzMDRCN0VGNkQ2RUI1NTMzNkYzNEJCNzQxRjY0RTA0Q0RFLnBuZw.png",
+      "product_id": "lidl-лютеница-580g",
+      "last_seen": "2026-10-25",
+      "first_seen": "2026-04-14",
+      "price_history": [
+        {
+          "date": "2026-04-14",
+          "store": "Lidl",
+          "price": 6.69,
+          "price_eur": 3.42,
+          "old_price": 13.38,
+          "discount_pct": 50
+        },
+        {
+          "date": "2026-05-31",
+          "store": "Lidl",
+          "price": 3.48,
+          "price_eur": 1.78,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-06-07",
+          "store": "Lidl",
+          "price": 6.69,
+          "price_eur": 3.42,
+          "old_price": 13.38,
+          "discount_pct": 50
+        },
+        {
+          "date": "2026-06-28",
+          "store": "Lidl",
+          "price": 2.89,
+          "price_eur": 1.48,
+          "old_price": 3.99,
+          "discount_pct": 28
+        },
+        {
+          "date": "2026-08-02",
+          "store": "Lidl",
+          "price": 6.61,
+          "price_eur": 3.38,
+          "old_price": 13.22,
+          "discount_pct": 50
+        },
+        {
+          "date": "2026-09-27",
+          "store": "Lidl",
+          "price": 3.38,
+          "price_eur": 1.73,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Lidl",
+          "price": 1.99,
+          "price_eur": 1.02,
+          "old_price": 2.55,
+          "discount_pct": 22
+        },
+        {
+          "date": "2026-10-25",
+          "store": "Lidl",
+          "price": 6.87,
+          "price_eur": 3.51,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 1.99,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 4.82
     }
   ]
 };
