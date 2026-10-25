@@ -1,5 +1,5 @@
 const ALL_PRODUCTS_DATA = {
-  "generated_at": "2026-10-25T17:58:01.154562Z",
+  "generated_at": "2026-10-25T19:29:13.394223Z",
   "total_products": 60325,
   "products": [
     {
@@ -875247,7 +875247,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://imgproxy-retcat.assets.schwarz/O3catLpnD9shvaoTGrFmzYbRczbpHPq7KExMAwvfylM/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS85NzQ3QTI3ODI0Rjc5Mzg1RUVDRjMxQTQ/yRDQzNEMwREJGQjBEQkVDQjMwRTRGREI4RjY1REE1MjQzNkQ0MUNFLnBuZw.png",
+      "image": "https://imgproxy-retcat.assets.schwarz/vmx40BV96mI5xJS4t9FYxdNCbsmHDYBpM0JVmBaxN1Q/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS8yOUJFMjgzNkNFNDEyRUQ2MDM4RjE1QjV/EMkRGQ0YwQzdEM0UwRTVFMTA4NUJCQzQ1Njk5MzI0MjJEM0Q1N0I2LnBuZw.png",
       "product_id": "lidl-скариди-100g",
       "last_seen": "2026-10-25",
       "first_seen": "2026-05-07",
@@ -875283,11 +875283,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.32,
           "old_price": 3.06,
           "discount_pct": 15
+        },
+        {
+          "date": "2026-10-25",
+          "store": "Lidl",
+          "price": 2.49,
+          "price_eur": 1.27,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
-      "lowest_price": 2.55,
-      "lowest_price_date": "2026-08-23",
-      "avg_price": 4.48
+      "lowest_price": 2.49,
+      "lowest_price_date": "2026-10-25",
+      "avg_price": 4.08
     },
     {
       "name": "Мини сладолед във фунийка",
@@ -2425514,8 +2425522,8 @@ const ALL_PRODUCTS_DATA = {
       "store": "Lidl",
       "emoji": "🥛",
       "category": "dairy",
-      "weight_raw": "200 g",
-      "weight_grams": 200,
+      "weight_raw": "330 g",
+      "weight_grams": 330,
       "shelf_life": "малотраен",
       "is_food": true,
       "is_healthy": true,
@@ -2425530,8 +2425538,8 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": true,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://imgproxy-retcat.assets.schwarz/7szH00cUrA7FGZBbD_4OYgnavVK3wJ2reYP_Q0QE_cg/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS8yNUU5RjNBQThEQUE1QjUyM0NDRjRCOUY/1RTlCRDRDNjM2MjQ0MEE4QjRERDlBMjM5RkZENkRCMEE1MTMyOTVGLnBuZw.png",
-      "product_id": "lidl-високопротеинов-иогурт-200g",
+      "image": "https://imgproxy-retcat.assets.schwarz/9bQvFep71QMJR_ttjj1OJ_JLJSb-JdRccuEMInONonw/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS82NEI0RTMxRUQ5OTI4OUQ0MDQyMUI4RjQ/zRUUyOTZCNTk5ODQyNDZCMzk2NjdGQzZFNkYwOTU1MUUzMUQ1QzU0LnBuZw.png",
+      "product_id": "lidl-високопротеинов-иогурт-330g",
       "last_seen": "2026-10-25",
       "first_seen": "2026-04-14",
       "price_history": [
@@ -2425585,8 +2425593,8 @@ const ALL_PRODUCTS_DATA = {
       "store": "Lidl",
       "emoji": "🛒",
       "category": "other",
-      "weight_raw": "580 g",
-      "weight_grams": 580,
+      "weight_raw": "4 х 305 g",
+      "weight_grams": 1220,
       "shelf_life": null,
       "is_food": false,
       "is_healthy": false,
@@ -2425599,8 +2425607,8 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://imgproxy-retcat.assets.schwarz/BbxxKWIwDSYzDMoOnEWTRZMV9v80x29Jwx3YKFeEzU4/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS8wNDE4NTAzRDgwMEZEQUMyODY1ODNDRTc/xQjFBNkYzMDRCN0VGNkQ2RUI1NTMzNkYzNEJCNzQxRjY0RTA0Q0RFLnBuZw.png",
-      "product_id": "lidl-лютеница-580g",
+      "image": "https://imgproxy-retcat.assets.schwarz/FjzkNq9WP6ewVLfZfwUVQtI59PnLbWl1N45RyWhABr8/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9CMDhFQTQ2ODEyM0U0QUNFNDMwRDMzMDk/0REI4QzZDREUzMEFEOTdDNDBFM0VBQTA0RjAwRkE4RkRBMUExMjAyLnBuZw.png",
+      "product_id": "lidl-лютеница-1220g",
       "last_seen": "2026-10-25",
       "first_seen": "2026-04-14",
       "price_history": [
