@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-26T13:56:13.746834Z",
-  "total_products": 60581,
+  "generated_at": "2026-10-26T15:55:58.063455Z",
+  "total_products": 60582,
   "products": [
     {
       "name": "Пушена риба тон",
@@ -2438368,6 +2438368,51 @@
       "lowest_price": 52.99,
       "lowest_price_date": "2026-10-26",
       "avg_price": 52.99
+    },
+    {
+      "name": "Пилешко бутче до 5 кг на покупка",
+      "store": "Kaufland",
+      "emoji": "🍗",
+      "category": "protein",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 9,
+      "diet_tags": [
+        "high_protein",
+        "keto"
+      ],
+      "macros": {
+        "kcal": 165,
+        "p": 31,
+        "f": 3.6,
+        "c": 0
+      },
+      "is_junk": false,
+      "is_high_protein": true,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/01000431_A?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-пилешко-бутче-до-5-кг-на-покупка",
+      "last_seen": "2026-10-26",
+      "first_seen": "2026-10-26",
+      "price_history": [
+        {
+          "date": "2026-10-26",
+          "store": "Kaufland",
+          "price": 1.99,
+          "price_eur": 1.02,
+          "old_price": 3.06,
+          "discount_pct": 35
+        }
+      ],
+      "lowest_price": 1.99,
+      "lowest_price_date": "2026-10-26",
+      "avg_price": 1.99
     }
   ]
 }

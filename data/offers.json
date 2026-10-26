@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T12:44:29.532979Z",
+  "generated_at": "2026-10-26T15:55:59.850785Z",
   "store_last_scraped": {
     "Billa": "2026-10-23",
     "Dar": "2026-10-23",
@@ -11,7 +11,7 @@
   "unavailable_stores": [
     "T-Market"
   ],
-  "content_hash": "93014be9327169c025bcf18800c16c4e",
+  "content_hash": "f14668b4a3b6a8e92272a95ee7fb783a",
   "total_offers": 4089,
   "promo_offers": 1452,
   "assortment_offers": 2637,
@@ -1911,8 +1911,8 @@
       "best_price_store": "Kaufland",
       "best_price": 1.99,
       "comparison_count": 1,
-      "product_id": "kaufland-пилешко-бутче",
-      "name": "Пилешко бутче",
+      "product_id": "kaufland-пилешко-бутче-до-5-кг-на-покупка",
+      "name": "Пилешко бутче до 5 кг на покупка",
       "image": "https://kaufland.media.schwarz/is/image/schwarz/01000431_A?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "protein",
       "emoji": "🍗",
@@ -1935,52 +1935,10 @@
         "f": 3.6,
         "c": 0
       },
-      "avg_price": 2.6,
-      "lowest_price": 1.65,
-      "lowest_price_date": "2026-08-17",
+      "avg_price": 1.99,
+      "lowest_price": 1.99,
+      "lowest_price_date": "2026-10-26",
       "price_history": [
-        [
-          "2026-06-18",
-          3.31,
-          5.98,
-          45
-        ],
-        [
-          "2026-06-22",
-          3.7,
-          5.98,
-          38
-        ],
-        [
-          "2026-08-17",
-          1.65,
-          3.06,
-          46
-        ],
-        [
-          "2026-08-31",
-          1.89,
-          3.06,
-          38
-        ],
-        [
-          "2026-09-03",
-          2.19,
-          3.06,
-          28
-        ],
-        [
-          "2026-09-14",
-          1.89,
-          3.06,
-          38
-        ],
-        [
-          "2026-10-11",
-          1.65,
-          3.06,
-          46
-        ],
         [
           "2026-10-26",
           1.99,
@@ -1988,8 +1946,8 @@
           35
         ]
       ],
-      "price_seen_count": 10,
-      "price_signal": "good"
+      "price_seen_count": 1,
+      "price_signal": "buy"
     },
     {
       "store": "Kaufland",
