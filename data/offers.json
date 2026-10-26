@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T15:55:59.850785Z",
+  "generated_at": "2026-10-26T17:05:25.314733Z",
   "store_last_scraped": {
     "Billa": "2026-10-23",
     "Dar": "2026-10-23",
@@ -11,10 +11,10 @@
   "unavailable_stores": [
     "T-Market"
   ],
-  "content_hash": "f14668b4a3b6a8e92272a95ee7fb783a",
-  "total_offers": 4089,
-  "promo_offers": 1452,
-  "assortment_offers": 2637,
+  "content_hash": "85544130b9da377dcd00398d9eb23a7a",
+  "total_offers": 4077,
+  "promo_offers": 1438,
+  "assortment_offers": 2639,
   "stores": [
     "Billa",
     "Dar",
@@ -763,15 +763,15 @@
     {
       "store": "Kaufland",
       "address": null,
-      "new_price": 0.21,
-      "new_price_eur": 0.11,
+      "new_price": 0.19,
+      "new_price_eur": 0.1,
       "old_price": null,
       "old_price_eur": null,
       "discount_pct": null,
       "valid_from": "2026-10-26",
       "valid_until": "2026-11-01",
-      "price_per_kg": 2.62,
-      "price_per_kg_eur": 1.34,
+      "price_per_kg": 2.38,
+      "price_per_kg_eur": 1.22,
       "source_type": "assortment",
       "available_stores": [
         "Kaufland"
@@ -779,8 +779,8 @@
       "store_prices": [
         {
           "store": "Kaufland",
-          "price": 0.21,
-          "price_eur": 0.11,
+          "price": 0.19,
+          "price_eur": 0.1,
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
@@ -788,7 +788,7 @@
         }
       ],
       "best_price_store": "Kaufland",
-      "best_price": 0.21,
+      "best_price": 0.19,
       "comparison_count": 1,
       "product_id": "kaufland-кроасан-с-бадемов-пълнеж-от-нашата-пекарна-80g",
       "weight_grams": 80,
@@ -3317,6 +3317,93 @@
     {
       "store": "Kaufland",
       "address": null,
+      "new_price": 0.33,
+      "new_price_eur": 0.17,
+      "old_price": 0.51,
+      "old_price_eur": 0.26,
+      "discount_pct": 35,
+      "valid_from": "2026-10-26",
+      "valid_until": "2026-11-01",
+      "price_per_kg": 3.88,
+      "price_per_kg_eur": 1.98,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 0.33,
+          "price_eur": 0.17,
+          "old_price": 0.51,
+          "old_price_eur": 0.26,
+          "discount_pct": 35,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 0.33,
+      "comparison_count": 1,
+      "product_id": "kaufland-веган-кроасан-с-пълнеж-каисия-85g",
+      "weight_grams": 85,
+      "weight_raw": "85 г",
+      "name": "Веган кроасан с пълнеж кайсия",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20132053C_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "grain",
+      "emoji": "🌾",
+      "health_score": 8,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 48,
+        "p": 1.4,
+        "f": 0.4,
+        "c": 11
+      },
+      "avg_price": 0.62,
+      "lowest_price": 0.35,
+      "lowest_price_date": "2026-10-26",
+      "price_history": [
+        [
+          "2026-05-11",
+          0.78,
+          1.0,
+          22
+        ],
+        [
+          "2026-06-22",
+          0.88,
+          1.0,
+          12
+        ],
+        [
+          "2026-08-17",
+          0.45,
+          0.51,
+          12
+        ],
+        [
+          "2026-10-26",
+          0.35,
+          0.51,
+          31
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
       "new_price": 0.35,
       "new_price_eur": 0.18,
       "old_price": 0.56,
@@ -3450,93 +3537,6 @@
         ]
       ],
       "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 0.35,
-      "new_price_eur": 0.18,
-      "old_price": 0.51,
-      "old_price_eur": 0.26,
-      "discount_pct": 31,
-      "valid_from": "2026-10-26",
-      "valid_until": "2026-11-01",
-      "price_per_kg": 4.12,
-      "price_per_kg_eur": 2.11,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 0.35,
-          "price_eur": 0.18,
-          "old_price": 0.51,
-          "old_price_eur": 0.26,
-          "discount_pct": 31,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 0.35,
-      "comparison_count": 1,
-      "product_id": "kaufland-веган-кроасан-с-пълнеж-каисия-85g",
-      "weight_grams": 85,
-      "weight_raw": "85 г",
-      "name": "Веган кроасан с пълнеж кайсия",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20132053C_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "grain",
-      "emoji": "🌾",
-      "health_score": 8,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "diet_tags": [
-        "budget"
-      ],
-      "macros": {
-        "kcal": 48,
-        "p": 1.4,
-        "f": 0.4,
-        "c": 11
-      },
-      "avg_price": 0.62,
-      "lowest_price": 0.35,
-      "lowest_price_date": "2026-10-26",
-      "price_history": [
-        [
-          "2026-05-11",
-          0.78,
-          1.0,
-          22
-        ],
-        [
-          "2026-06-22",
-          0.88,
-          1.0,
-          12
-        ],
-        [
-          "2026-08-17",
-          0.45,
-          0.51,
-          12
-        ],
-        [
-          "2026-10-26",
-          0.35,
-          0.51,
-          31
-        ]
-      ],
-      "price_seen_count": 4,
       "price_signal": "buy"
     },
     {
@@ -5995,15 +5995,15 @@
     {
       "store": "Kaufland",
       "address": null,
-      "new_price": 1.28,
-      "new_price_eur": 0.65,
+      "new_price": 1.18,
+      "new_price_eur": 0.6,
       "old_price": null,
       "old_price_eur": null,
       "discount_pct": null,
       "valid_from": "2026-10-26",
       "valid_until": "2026-11-01",
-      "price_per_kg": 11.64,
-      "price_per_kg_eur": 5.95,
+      "price_per_kg": 10.73,
+      "price_per_kg_eur": 5.49,
       "source_type": "assortment",
       "available_stores": [
         "Kaufland"
@@ -6011,8 +6011,8 @@
       "store_prices": [
         {
           "store": "Kaufland",
-          "price": 1.28,
-          "price_eur": 0.65,
+          "price": 1.18,
+          "price_eur": 0.6,
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
@@ -6020,7 +6020,7 @@
         }
       ],
       "best_price_store": "Kaufland",
-      "best_price": 1.28,
+      "best_price": 1.18,
       "comparison_count": 1,
       "product_id": "kaufland-кроасан-с-песто-и-сушени-домати-110g",
       "weight_grams": 110,
@@ -10234,15 +10234,15 @@
     {
       "store": "Kaufland",
       "address": null,
-      "new_price": 0.17,
-      "new_price_eur": 0.09,
+      "new_price": 0.16,
+      "new_price_eur": 0.08,
       "old_price": 0.25,
       "old_price_eur": 0.13,
-      "discount_pct": 32,
+      "discount_pct": 36,
       "valid_from": "2026-10-26",
       "valid_until": "2026-11-01",
-      "price_per_kg": 6.8,
-      "price_per_kg_eur": 3.48,
+      "price_per_kg": 6.4,
+      "price_per_kg_eur": 3.27,
       "source_type": "promo",
       "available_stores": [
         "Kaufland"
@@ -10250,16 +10250,16 @@
       "store_prices": [
         {
           "store": "Kaufland",
-          "price": 0.17,
-          "price_eur": 0.09,
+          "price": 0.16,
+          "price_eur": 0.08,
           "old_price": 0.25,
           "old_price_eur": 0.13,
-          "discount_pct": 32,
+          "discount_pct": 36,
           "source_type": "promo"
         }
       ],
       "best_price_store": "Kaufland",
-      "best_price": 0.17,
+      "best_price": 0.16,
       "comparison_count": 1,
       "product_id": "kaufland-миникроасан-с-масло-25g",
       "weight_grams": 25,
@@ -10303,32 +10303,32 @@
     {
       "store": "Kaufland",
       "address": null,
-      "new_price": 0.31,
-      "new_price_eur": 0.16,
-      "old_price": 0.45,
-      "old_price_eur": 0.23,
-      "discount_pct": 31,
+      "new_price": 0.29,
+      "new_price_eur": 0.15,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
       "valid_from": "2026-10-26",
       "valid_until": "2026-11-01",
-      "price_per_kg": 5.64,
-      "price_per_kg_eur": 2.88,
-      "source_type": "promo",
+      "price_per_kg": 5.27,
+      "price_per_kg_eur": 2.69,
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
       "store_prices": [
         {
           "store": "Kaufland",
-          "price": 0.31,
-          "price_eur": 0.16,
-          "old_price": 0.45,
-          "old_price_eur": 0.23,
-          "discount_pct": 31,
-          "source_type": "promo"
+          "price": 0.29,
+          "price_eur": 0.15,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
-      "best_price": 0.31,
+      "best_price": 0.29,
       "comparison_count": 1,
       "product_id": "kaufland-кроасан-с-24-масло-от-нашата-пекарна-55g",
       "weight_grams": 55,
@@ -10414,15 +10414,15 @@
     {
       "store": "Kaufland",
       "address": null,
-      "new_price": 0.32,
-      "new_price_eur": 0.16,
+      "new_price": 0.29,
+      "new_price_eur": 0.15,
       "old_price": null,
       "old_price_eur": null,
       "discount_pct": null,
       "valid_from": "2026-10-26",
       "valid_until": "2026-11-01",
-      "price_per_kg": 4.1,
-      "price_per_kg_eur": 2.1,
+      "price_per_kg": 3.72,
+      "price_per_kg_eur": 1.9,
       "source_type": "assortment",
       "available_stores": [
         "Kaufland"
@@ -10430,8 +10430,8 @@
       "store_prices": [
         {
           "store": "Kaufland",
-          "price": 0.32,
-          "price_eur": 0.16,
+          "price": 0.29,
+          "price_eur": 0.15,
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
@@ -10439,7 +10439,7 @@
         }
       ],
       "best_price_store": "Kaufland",
-      "best_price": 0.32,
+      "best_price": 0.29,
       "comparison_count": 1,
       "product_id": "kaufland-кроасан-с-шамфъстък-от-нашата-пекарна-78g",
       "weight_grams": 78,
@@ -10544,6 +10544,75 @@
           0.35,
           0.56,
           38
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 0.36,
+      "new_price_eur": 0.18,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-10-26",
+      "valid_until": "2026-11-01",
+      "price_per_kg": 4.0,
+      "price_per_kg_eur": 2.05,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 0.36,
+          "price_eur": 0.18,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 0.36,
+      "comparison_count": 1,
+      "product_id": "kaufland-кроасан-с-крем-шамфъстък-90g",
+      "weight_grams": 90,
+      "weight_raw": "90 г",
+      "name": "Кроасан с крем шамфъстък",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3122_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "grain",
+      "emoji": "🌾",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 567,
+        "p": 25,
+        "f": 49,
+        "c": 16
+      },
+      "avg_price": 0.39,
+      "lowest_price": 0.39,
+      "lowest_price_date": "2026-10-26",
+      "price_history": [
+        [
+          "2026-10-26",
+          0.39,
+          null,
+          null
         ]
       ],
       "price_seen_count": 1,
@@ -10802,75 +10871,6 @@
         ]
       ],
       "price_seen_count": 7,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 0.39,
-      "new_price_eur": 0.2,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-10-26",
-      "valid_until": "2026-11-01",
-      "price_per_kg": 4.33,
-      "price_per_kg_eur": 2.21,
-      "source_type": "assortment",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 0.39,
-          "price_eur": 0.2,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 0.39,
-      "comparison_count": 1,
-      "product_id": "kaufland-кроасан-с-крем-шамфъстък-90g",
-      "weight_grams": 90,
-      "weight_raw": "90 г",
-      "name": "Кроасан с крем шамфъстък",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3122_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "grain",
-      "emoji": "🌾",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "diet_tags": [
-        "budget"
-      ],
-      "macros": {
-        "kcal": 567,
-        "p": 25,
-        "f": 49,
-        "c": 16
-      },
-      "avg_price": 0.39,
-      "lowest_price": 0.39,
-      "lowest_price_date": "2026-10-26",
-      "price_history": [
-        [
-          "2026-10-26",
-          0.39,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
       "price_signal": "buy"
     },
     {
@@ -11261,15 +11261,15 @@
     {
       "store": "Kaufland",
       "address": null,
-      "new_price": 0.62,
-      "new_price_eur": 0.32,
+      "new_price": 0.57,
+      "new_price_eur": 0.29,
       "old_price": 0.89,
       "old_price_eur": 0.46,
-      "discount_pct": 30,
+      "discount_pct": 36,
       "valid_from": "2026-10-26",
       "valid_until": "2026-11-01",
-      "price_per_kg": 6.89,
-      "price_per_kg_eur": 3.52,
+      "price_per_kg": 6.33,
+      "price_per_kg_eur": 3.24,
       "source_type": "promo",
       "available_stores": [
         "Kaufland"
@@ -11277,16 +11277,16 @@
       "store_prices": [
         {
           "store": "Kaufland",
-          "price": 0.62,
-          "price_eur": 0.32,
+          "price": 0.57,
+          "price_eur": 0.29,
           "old_price": 0.89,
           "old_price_eur": 0.46,
-          "discount_pct": 30,
+          "discount_pct": 36,
           "source_type": "promo"
         }
       ],
       "best_price_store": "Kaufland",
-      "best_price": 0.62,
+      "best_price": 0.57,
       "comparison_count": 1,
       "product_id": "kaufland-кроасан-с-крем-брюле-и-масло-90g",
       "weight_grams": 90,
@@ -18772,66 +18772,6 @@
     {
       "store": "Kaufland",
       "address": null,
-      "new_price": 13.59,
-      "new_price_eur": 6.95,
-      "old_price": 19.99,
-      "old_price_eur": 10.22,
-      "discount_pct": 32,
-      "valid_from": "2026-10-26",
-      "valid_until": "2026-11-01",
-      "price_per_kg": 67.95,
-      "price_per_kg_eur": 34.74,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 13.59,
-          "price_eur": 6.95,
-          "old_price": 19.99,
-          "old_price_eur": 10.22,
-          "discount_pct": 32,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 13.59,
-      "comparison_count": 1,
-      "product_id": "kaufland-skin1004-почистващо-олио-за-лице-200g",
-      "weight_grams": 200,
-      "weight_raw": "200 мл",
-      "name": "Skin1004 Почистващо олио за лице",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8809913830481_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "fat",
-      "emoji": "🫒",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": true,
-      "is_long_lasting": true,
-      "avg_price": 13.59,
-      "lowest_price": 13.59,
-      "lowest_price_date": "2026-10-26",
-      "price_history": [
-        [
-          "2026-10-26",
-          13.59,
-          19.99,
-          32
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
       "new_price": 13.79,
       "new_price_eur": 7.05,
       "old_price": 19.42,
@@ -20272,15 +20212,15 @@
     {
       "store": "Kaufland",
       "address": null,
-      "new_price": 0.63,
-      "new_price_eur": 0.32,
-      "old_price": 0.91,
+      "new_price": 0.59,
+      "new_price_eur": 0.3,
+      "old_price": 0.92,
       "old_price_eur": 0.47,
-      "discount_pct": 31,
+      "discount_pct": 36,
       "valid_from": "2026-10-26",
       "valid_until": "2026-11-01",
-      "price_per_kg": 6.63,
-      "price_per_kg_eur": 3.39,
+      "price_per_kg": 6.21,
+      "price_per_kg_eur": 3.18,
       "source_type": "promo",
       "available_stores": [
         "Kaufland"
@@ -20288,16 +20228,88 @@
       "store_prices": [
         {
           "store": "Kaufland",
-          "price": 0.63,
-          "price_eur": 0.32,
-          "old_price": 0.91,
+          "price": 0.59,
+          "price_eur": 0.3,
+          "old_price": 0.92,
           "old_price_eur": 0.47,
-          "discount_pct": 31,
+          "discount_pct": 36,
           "source_type": "promo"
         }
       ],
       "best_price_store": "Kaufland",
-      "best_price": 0.63,
+      "best_price": 0.59,
+      "comparison_count": 1,
+      "product_id": "kaufland-кроасан-с-пуешки-кренвирш-95g",
+      "weight_grams": 95,
+      "weight_raw": "95 г",
+      "name": "Кроасан с пуешки кренвирш",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/9427_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "protein",
+      "emoji": "🍗",
+      "health_score": 3,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 0.85,
+      "lowest_price": 0.64,
+      "lowest_price_date": "2026-10-26",
+      "price_history": [
+        [
+          "2026-05-11",
+          1.27,
+          1.8,
+          29
+        ],
+        [
+          "2026-09-20",
+          0.65,
+          0.92,
+          29
+        ],
+        [
+          "2026-10-26",
+          0.64,
+          0.92,
+          30
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 0.59,
+      "new_price_eur": 0.3,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-10-26",
+      "valid_until": "2026-11-01",
+      "price_per_kg": 6.21,
+      "price_per_kg_eur": 3.18,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 0.59,
+          "price_eur": 0.3,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 0.59,
       "comparison_count": 1,
       "product_id": "kaufland-кроасан-с-шунка-и-кашкавал-от-нашата-пекарна-95g",
       "weight_grams": 95,
@@ -20351,78 +20363,6 @@
         ]
       ],
       "price_seen_count": 5,
-      "price_signal": "good"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 0.64,
-      "new_price_eur": 0.33,
-      "old_price": 0.92,
-      "old_price_eur": 0.47,
-      "discount_pct": 30,
-      "valid_from": "2026-10-26",
-      "valid_until": "2026-11-01",
-      "price_per_kg": 6.74,
-      "price_per_kg_eur": 3.45,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 0.64,
-          "price_eur": 0.33,
-          "old_price": 0.92,
-          "old_price_eur": 0.47,
-          "discount_pct": 30,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 0.64,
-      "comparison_count": 1,
-      "product_id": "kaufland-кроасан-с-пуешки-кренвирш-95g",
-      "weight_grams": 95,
-      "weight_raw": "95 г",
-      "name": "Кроасан с пуешки кренвирш",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/9427_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "protein",
-      "emoji": "🍗",
-      "health_score": 3,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 0.85,
-      "lowest_price": 0.64,
-      "lowest_price_date": "2026-10-26",
-      "price_history": [
-        [
-          "2026-05-11",
-          1.27,
-          1.8,
-          29
-        ],
-        [
-          "2026-09-20",
-          0.65,
-          0.92,
-          29
-        ],
-        [
-          "2026-10-26",
-          0.64,
-          0.92,
-          30
-        ]
-      ],
-      "price_seen_count": 3,
       "price_signal": "buy"
     },
     {
@@ -20498,15 +20438,15 @@
     {
       "store": "Kaufland",
       "address": null,
-      "new_price": 1.35,
-      "new_price_eur": 0.69,
+      "new_price": 1.26,
+      "new_price_eur": 0.64,
       "old_price": null,
       "old_price_eur": null,
       "discount_pct": null,
       "valid_from": "2026-10-26",
       "valid_until": "2026-11-01",
-      "price_per_kg": 12.27,
-      "price_per_kg_eur": 6.27,
+      "price_per_kg": 11.45,
+      "price_per_kg_eur": 5.85,
       "source_type": "assortment",
       "available_stores": [
         "Kaufland"
@@ -20514,8 +20454,8 @@
       "store_prices": [
         {
           "store": "Kaufland",
-          "price": 1.35,
-          "price_eur": 0.69,
+          "price": 1.26,
+          "price_eur": 0.64,
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
@@ -20523,7 +20463,7 @@
         }
       ],
       "best_price_store": "Kaufland",
-      "best_price": 1.35,
+      "best_price": 1.26,
       "comparison_count": 1,
       "product_id": "kaufland-кроасан-с-бекон-и-яица-110g",
       "weight_grams": 110,
@@ -22984,135 +22924,15 @@
     {
       "store": "Kaufland",
       "address": null,
-      "new_price": 10.99,
-      "new_price_eur": 5.62,
-      "old_price": 14.99,
-      "old_price_eur": 7.66,
-      "discount_pct": 27,
-      "valid_from": "2026-10-26",
-      "valid_until": "2026-11-01",
-      "price_per_kg": 439.6,
-      "price_per_kg_eur": 224.76,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 10.99,
-          "price_eur": 5.62,
-          "old_price": 14.99,
-          "old_price_eur": 7.66,
-          "discount_pct": 27,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 10.99,
-      "comparison_count": 1,
-      "product_id": "kaufland-farmstay-околоочен-серум-с-колаген-25g",
-      "weight_grams": 25,
-      "weight_raw": "25 мл",
-      "name": "FarmStay Околоочен серум с колаген",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8809480772504_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "hygiene",
-      "emoji": "🧴",
-      "health_score": 2,
-      "is_food": true,
-      "is_junk": true,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "avg_price": 10.99,
-      "lowest_price": 10.99,
-      "lowest_price_date": "2026-10-26",
-      "price_history": [
-        [
-          "2026-10-26",
-          10.99,
-          14.99,
-          27
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 15.99,
-      "new_price_eur": 8.18,
-      "old_price": 21.99,
-      "old_price_eur": 11.24,
-      "discount_pct": 27,
-      "valid_from": "2026-10-26",
-      "valid_until": "2026-11-01",
-      "price_per_kg": 199.88,
-      "price_per_kg_eur": 102.2,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 15.99,
-          "price_eur": 8.18,
-          "old_price": 21.99,
-          "old_price_eur": 11.24,
-          "discount_pct": 27,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 15.99,
-      "comparison_count": 1,
-      "product_id": "kaufland-farmstay-крем-за-лице-с-колаген-80g",
-      "weight_grams": 80,
-      "weight_raw": "80 мл",
-      "name": "FarmStay Крем за лице с колаген",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8809635230231_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "hygiene",
-      "emoji": "🧴",
-      "health_score": 2,
-      "is_food": true,
-      "is_junk": true,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "avg_price": 15.99,
-      "lowest_price": 15.99,
-      "lowest_price_date": "2026-10-26",
-      "price_history": [
-        [
-          "2026-10-26",
-          15.99,
-          21.99,
-          27
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 0.14,
+      "new_price": 0.13,
       "new_price_eur": 0.07,
       "old_price": null,
       "old_price_eur": null,
       "discount_pct": null,
       "valid_from": "2026-10-26",
       "valid_until": "2026-11-01",
-      "price_per_kg": 2.22,
-      "price_per_kg_eur": 1.14,
+      "price_per_kg": 2.06,
+      "price_per_kg_eur": 1.05,
       "source_type": "assortment",
       "available_stores": [
         "Kaufland"
@@ -23120,7 +22940,7 @@
       "store_prices": [
         {
           "store": "Kaufland",
-          "price": 0.14,
+          "price": 0.13,
           "price_eur": 0.07,
           "old_price": null,
           "old_price_eur": null,
@@ -23129,7 +22949,7 @@
         }
       ],
       "best_price_store": "Kaufland",
-      "best_price": 0.14,
+      "best_price": 0.13,
       "comparison_count": 1,
       "product_id": "kaufland-кроасан-с-канела-63g",
       "weight_grams": 63,
@@ -23317,6 +23137,124 @@
     {
       "store": "Kaufland",
       "address": null,
+      "new_price": 0.29,
+      "new_price_eur": 0.15,
+      "old_price": 0.46,
+      "old_price_eur": 0.24,
+      "discount_pct": 37,
+      "valid_from": "2026-10-26",
+      "valid_until": "2026-11-01",
+      "price_per_kg": 4.26,
+      "price_per_kg_eur": 2.18,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 0.29,
+          "price_eur": 0.15,
+          "old_price": 0.46,
+          "old_price_eur": 0.24,
+          "discount_pct": 37,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 0.29,
+      "comparison_count": 1,
+      "product_id": "kaufland-кроасан-от-бретцелово-тесто-68g",
+      "weight_grams": 68,
+      "weight_raw": "68 г",
+      "name": "Кроасан от бретцелово тесто",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20124736C_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "grain",
+      "emoji": "🌾",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "avg_price": 0.32,
+      "lowest_price": 0.32,
+      "lowest_price_date": "2026-10-26",
+      "price_history": [
+        [
+          "2026-10-26",
+          0.32,
+          0.46,
+          30
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 0.29,
+      "new_price_eur": 0.15,
+      "old_price": 0.45,
+      "old_price_eur": 0.23,
+      "discount_pct": 36,
+      "valid_from": "2026-10-26",
+      "valid_until": "2026-11-01",
+      "price_per_kg": 4.46,
+      "price_per_kg_eur": 2.28,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 0.29,
+          "price_eur": 0.15,
+          "old_price": 0.45,
+          "old_price_eur": 0.23,
+          "discount_pct": 36,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 0.29,
+      "comparison_count": 1,
+      "product_id": "kaufland-многозърнест-кроасан-от-нашата-пекарна-65g",
+      "weight_grams": 65,
+      "weight_raw": "65 г",
+      "name": "Многозърнест кроасан от нашата пекарна",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20819938C_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "grain",
+      "emoji": "🌾",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "avg_price": 0.31,
+      "lowest_price": 0.31,
+      "lowest_price_date": "2026-10-26",
+      "price_history": [
+        [
+          "2026-10-26",
+          0.31,
+          0.45,
+          31
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
       "new_price": 0.3,
       "new_price_eur": 0.15,
       "old_price": 0.5,
@@ -23384,14 +23322,14 @@
       "address": null,
       "new_price": 0.31,
       "new_price_eur": 0.16,
-      "old_price": 0.45,
-      "old_price_eur": 0.23,
-      "discount_pct": 31,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
       "valid_from": "2026-10-26",
       "valid_until": "2026-11-01",
-      "price_per_kg": 4.77,
-      "price_per_kg_eur": 2.44,
-      "source_type": "promo",
+      "price_per_kg": 4.25,
+      "price_per_kg_eur": 2.17,
+      "source_type": "assortment",
       "available_stores": [
         "Kaufland"
       ],
@@ -23400,20 +23338,20 @@
           "store": "Kaufland",
           "price": 0.31,
           "price_eur": 0.16,
-          "old_price": 0.45,
-          "old_price_eur": 0.23,
-          "discount_pct": 31,
-          "source_type": "promo"
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "Kaufland",
       "best_price": 0.31,
       "comparison_count": 1,
-      "product_id": "kaufland-многозърнест-кроасан-от-нашата-пекарна-65g",
-      "weight_grams": 65,
-      "weight_raw": "65 г",
-      "name": "Многозърнест кроасан от нашата пекарна",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20819938C_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-двуцветен-кроасан-горски-плод-73g",
+      "weight_grams": 73,
+      "weight_raw": "73 г",
+      "name": "Двуцветен кроасан горски плод",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20807834_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "grain",
       "emoji": "🌾",
       "is_food": false,
@@ -23424,18 +23362,24 @@
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": true,
-      "avg_price": 0.31,
-      "lowest_price": 0.31,
+      "avg_price": 0.42,
+      "lowest_price": 0.34,
       "lowest_price_date": "2026-10-26",
       "price_history": [
         [
+          "2026-08-17",
+          0.49,
+          null,
+          null
+        ],
+        [
           "2026-10-26",
-          0.31,
-          0.45,
-          31
+          0.34,
+          null,
+          null
         ]
       ],
-      "price_seen_count": 1,
+      "price_seen_count": 2,
       "price_signal": "buy"
     },
     {
@@ -23526,65 +23470,6 @@
       ],
       "price_seen_count": 6,
       "price_signal": "good"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 0.32,
-      "new_price_eur": 0.16,
-      "old_price": 0.46,
-      "old_price_eur": 0.24,
-      "discount_pct": 30,
-      "valid_from": "2026-10-26",
-      "valid_until": "2026-11-01",
-      "price_per_kg": 4.71,
-      "price_per_kg_eur": 2.41,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 0.32,
-          "price_eur": 0.16,
-          "old_price": 0.46,
-          "old_price_eur": 0.24,
-          "discount_pct": 30,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 0.32,
-      "comparison_count": 1,
-      "product_id": "kaufland-кроасан-от-бретцелово-тесто-68g",
-      "weight_grams": 68,
-      "weight_raw": "68 г",
-      "name": "Кроасан от бретцелово тесто",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20124736C_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "grain",
-      "emoji": "🌾",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "avg_price": 0.32,
-      "lowest_price": 0.32,
-      "lowest_price_date": "2026-10-26",
-      "price_history": [
-        [
-          "2026-10-26",
-          0.32,
-          0.46,
-          30
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
     },
     {
       "store": "Kaufland",
@@ -23768,71 +23653,6 @@
           0.34,
           0.46,
           26
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 0.34,
-      "new_price_eur": 0.17,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-10-26",
-      "valid_until": "2026-11-01",
-      "price_per_kg": 4.66,
-      "price_per_kg_eur": 2.38,
-      "source_type": "assortment",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 0.34,
-          "price_eur": 0.17,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 0.34,
-      "comparison_count": 1,
-      "product_id": "kaufland-двуцветен-кроасан-горски-плод-73g",
-      "weight_grams": 73,
-      "weight_raw": "73 г",
-      "name": "Двуцветен кроасан горски плод",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20807834_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "grain",
-      "emoji": "🌾",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "avg_price": 0.42,
-      "lowest_price": 0.34,
-      "lowest_price_date": "2026-10-26",
-      "price_history": [
-        [
-          "2026-08-17",
-          0.49,
-          null,
-          null
-        ],
-        [
-          "2026-10-26",
-          0.34,
-          null,
-          null
         ]
       ],
       "price_seen_count": 2,
@@ -24522,6 +24342,77 @@
       "address": null,
       "new_price": 0.49,
       "new_price_eur": 0.25,
+      "old_price": 0.76,
+      "old_price_eur": 0.39,
+      "discount_pct": 36,
+      "valid_from": "2026-10-26",
+      "valid_until": "2026-11-01",
+      "price_per_kg": 5.7,
+      "price_per_kg_eur": 2.91,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 0.49,
+          "price_eur": 0.25,
+          "old_price": 0.76,
+          "old_price_eur": 0.39,
+          "discount_pct": 36,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 0.49,
+      "comparison_count": 1,
+      "product_id": "kaufland-кроасан-с-нуга-крем-и-лешници-86g",
+      "weight_grams": 86,
+      "weight_raw": "86 г",
+      "name": "Кроасан с нуга крем и лешници",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00053918_P-2?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "grain",
+      "emoji": "🌾",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "avg_price": 0.67,
+      "lowest_price": 0.49,
+      "lowest_price_date": "2026-08-10",
+      "price_history": [
+        [
+          "2026-04-27",
+          0.98,
+          1.49,
+          34
+        ],
+        [
+          "2026-08-10",
+          0.49,
+          0.76,
+          36
+        ],
+        [
+          "2026-10-26",
+          0.53,
+          0.76,
+          30
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 0.49,
+      "new_price_eur": 0.25,
       "old_price": null,
       "old_price_eur": null,
       "discount_pct": null,
@@ -24759,77 +24650,6 @@
       ],
       "price_seen_count": 13,
       "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 0.53,
-      "new_price_eur": 0.27,
-      "old_price": 0.76,
-      "old_price_eur": 0.39,
-      "discount_pct": 30,
-      "valid_from": "2026-10-26",
-      "valid_until": "2026-11-01",
-      "price_per_kg": 6.16,
-      "price_per_kg_eur": 3.15,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 0.53,
-          "price_eur": 0.27,
-          "old_price": 0.76,
-          "old_price_eur": 0.39,
-          "discount_pct": 30,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 0.53,
-      "comparison_count": 1,
-      "product_id": "kaufland-кроасан-с-нуга-крем-и-лешници-86g",
-      "weight_grams": 86,
-      "weight_raw": "86 г",
-      "name": "Кроасан с нуга крем и лешници",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00053918_P-2?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "grain",
-      "emoji": "🌾",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "avg_price": 0.67,
-      "lowest_price": 0.49,
-      "lowest_price_date": "2026-08-10",
-      "price_history": [
-        [
-          "2026-04-27",
-          0.98,
-          1.49,
-          34
-        ],
-        [
-          "2026-08-10",
-          0.49,
-          0.76,
-          36
-        ],
-        [
-          "2026-10-26",
-          0.53,
-          0.76,
-          30
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "good"
     },
     {
       "store": "Kaufland",
@@ -26122,63 +25942,6 @@
         ]
       ],
       "price_seen_count": 3,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 0.69,
-      "new_price_eur": 0.35,
-      "old_price": 0.99,
-      "old_price_eur": 0.51,
-      "discount_pct": 30,
-      "valid_from": "2026-10-26",
-      "valid_until": "2026-11-01",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 0.69,
-          "price_eur": 0.35,
-          "old_price": 0.99,
-          "old_price_eur": 0.51,
-          "discount_pct": 30,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 0.69,
-      "comparison_count": 1,
-      "product_id": "kaufland-jigott-ампулна-маска-за-лице-различни-видове",
-      "name": "JIGOTT Ампулна маска за лице различни видове",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8809541280160_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "hygiene",
-      "emoji": "🧴",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "avg_price": 0.69,
-      "lowest_price": 0.69,
-      "lowest_price_date": "2026-10-26",
-      "price_history": [
-        [
-          "2026-10-26",
-          0.69,
-          0.99,
-          30
-        ]
-      ],
-      "price_seen_count": 1,
       "price_signal": "buy"
     },
     {
@@ -32200,63 +31963,6 @@
         ]
       ],
       "price_seen_count": 3,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 1.59,
-      "new_price_eur": 0.81,
-      "old_price": 1.99,
-      "old_price_eur": 1.02,
-      "discount_pct": 20,
-      "valid_from": "2026-10-26",
-      "valid_until": "2026-11-01",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 1.59,
-          "price_eur": 0.81,
-          "old_price": 1.99,
-          "old_price_eur": 1.02,
-          "discount_pct": 20,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 1.59,
-      "comparison_count": 1,
-      "product_id": "kaufland-skin1004-шиит-маска-за-лице-centella",
-      "name": "Skin1004 Шийт маска за лице Centella",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8809576260496_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "hygiene",
-      "emoji": "🧴",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "avg_price": 1.59,
-      "lowest_price": 1.59,
-      "lowest_price_date": "2026-10-26",
-      "price_history": [
-        [
-          "2026-10-26",
-          1.59,
-          1.99,
-          20
-        ]
-      ],
-      "price_seen_count": 1,
       "price_signal": "buy"
     },
     {
@@ -42128,63 +41834,6 @@
           3.29,
           null,
           null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 3.39,
-      "new_price_eur": 1.73,
-      "old_price": 4.6,
-      "old_price_eur": 2.35,
-      "discount_pct": 26,
-      "valid_from": "2026-10-26",
-      "valid_until": "2026-11-01",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 3.39,
-          "price_eur": 1.73,
-          "old_price": 4.6,
-          "old_price_eur": 2.35,
-          "discount_pct": 26,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 3.39,
-      "comparison_count": 1,
-      "product_id": "kaufland-skin1004-пластири-против-пъпки",
-      "name": "Skin1004 Пластири против пъпки",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8809576261691_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 3.39,
-      "lowest_price": 3.39,
-      "lowest_price_date": "2026-10-26",
-      "price_history": [
-        [
-          "2026-10-26",
-          3.39,
-          4.6,
-          26
         ]
       ],
       "price_seen_count": 1,
@@ -53321,65 +52970,6 @@
       "address": null,
       "new_price": 8.99,
       "new_price_eur": 4.6,
-      "old_price": 13.19,
-      "old_price_eur": 6.74,
-      "discount_pct": 32,
-      "valid_from": "2026-10-26",
-      "valid_until": "2026-11-01",
-      "price_per_kg": 71.92,
-      "price_per_kg_eur": 36.77,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 8.99,
-          "price_eur": 4.6,
-          "old_price": 13.19,
-          "old_price_eur": 6.74,
-          "discount_pct": 32,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 8.99,
-      "comparison_count": 1,
-      "product_id": "kaufland-skin1004-почистваща-пяна-за-лице-125g",
-      "weight_grams": 125,
-      "weight_raw": "125 мл",
-      "name": "Skin1004 Почистваща пяна за лице",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8809913830818_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 8.99,
-      "lowest_price": 8.99,
-      "lowest_price_date": "2026-10-26",
-      "price_history": [
-        [
-          "2026-10-26",
-          8.99,
-          13.19,
-          32
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 8.99,
-      "new_price_eur": 4.6,
       "old_price": null,
       "old_price_eur": null,
       "discount_pct": null,
@@ -55708,63 +55298,6 @@
       "best_price_store": "Kaufland",
       "best_price": 10.99,
       "comparison_count": 1,
-      "product_id": "kaufland-farmstay-пачове-за-очи-черна-перла-злато",
-      "name": "FarmStay Пачове за очи черна перла,злато",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8809460461107_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 10.99,
-      "lowest_price": 10.99,
-      "lowest_price_date": "2026-10-26",
-      "price_history": [
-        [
-          "2026-10-26",
-          10.99,
-          14.99,
-          27
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 10.99,
-      "new_price_eur": 5.62,
-      "old_price": 14.99,
-      "old_price_eur": 7.66,
-      "discount_pct": 27,
-      "valid_from": "2026-10-26",
-      "valid_until": "2026-11-01",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 10.99,
-          "price_eur": 5.62,
-          "old_price": 14.99,
-          "old_price_eur": 7.66,
-          "discount_pct": 27,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 10.99,
-      "comparison_count": 1,
       "product_id": "kaufland-silvercrest-тенджера-ø24-см",
       "name": "SILVERCREST Тенджера Ø24 см",
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627948831_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
@@ -56095,65 +55628,6 @@
     {
       "store": "Kaufland",
       "address": null,
-      "new_price": 11.49,
-      "new_price_eur": 5.87,
-      "old_price": 15.99,
-      "old_price_eur": 8.18,
-      "discount_pct": 28,
-      "valid_from": "2026-10-26",
-      "valid_until": "2026-11-01",
-      "price_per_kg": 208.91,
-      "price_per_kg_eur": 106.81,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 11.49,
-          "price_eur": 5.87,
-          "old_price": 15.99,
-          "old_price_eur": 8.18,
-          "discount_pct": 28,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 11.49,
-      "comparison_count": 1,
-      "product_id": "kaufland-skin1004-ампула-за-лице-centella-55g",
-      "weight_grams": 55,
-      "weight_raw": "55 мл",
-      "name": "Skin1004 Ампула за лице Centella",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8809576260601_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 11.49,
-      "lowest_price": 11.49,
-      "lowest_price_date": "2026-10-26",
-      "price_history": [
-        [
-          "2026-10-26",
-          11.49,
-          15.99,
-          28
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
       "new_price": 11.99,
       "new_price_eur": 6.13,
       "old_price": 19.99,
@@ -56203,65 +55677,6 @@
           11.99,
           19.99,
           40
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 11.99,
-      "new_price_eur": 6.13,
-      "old_price": 15.29,
-      "old_price_eur": 7.82,
-      "discount_pct": 22,
-      "valid_from": "2026-10-26",
-      "valid_until": "2026-11-01",
-      "price_per_kg": 239.8,
-      "price_per_kg_eur": 122.61,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 11.99,
-          "price_eur": 6.13,
-          "old_price": 15.29,
-          "old_price_eur": 7.82,
-          "discount_pct": 22,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 11.99,
-      "comparison_count": 1,
-      "product_id": "kaufland-skin1004-слънцезащитен-крем-centella-50g",
-      "weight_grams": 50,
-      "weight_raw": "50 мл",
-      "name": "Skin1004 Слънцезащитен крем Centella",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8809576261592_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "hygiene",
-      "emoji": "🧴",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "avg_price": 11.99,
-      "lowest_price": 11.99,
-      "lowest_price_date": "2026-10-26",
-      "price_history": [
-        [
-          "2026-10-26",
-          11.99,
-          15.29,
-          22
         ]
       ],
       "price_seen_count": 1,
@@ -57355,63 +56770,6 @@
       "address": null,
       "new_price": 13.29,
       "new_price_eur": 6.8,
-      "old_price": 18.99,
-      "old_price_eur": 9.71,
-      "discount_pct": 30,
-      "valid_from": "2026-10-26",
-      "valid_until": "2026-11-01",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 13.29,
-          "price_eur": 6.8,
-          "old_price": 18.99,
-          "old_price_eur": 9.71,
-          "discount_pct": 30,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 13.29,
-      "comparison_count": 1,
-      "product_id": "kaufland-skin1004-маска-с-отмиване-тип-стик",
-      "name": "Skin1004 Маска с отмиване тип стик",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8809913830085_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 13.29,
-      "lowest_price": 13.29,
-      "lowest_price_date": "2026-10-26",
-      "price_history": [
-        [
-          "2026-10-26",
-          13.29,
-          18.99,
-          30
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 13.29,
-      "new_price_eur": 6.8,
       "old_price": null,
       "old_price_eur": null,
       "discount_pct": null,
@@ -58495,63 +57853,6 @@
         ]
       ],
       "price_seen_count": 3,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 15.99,
-      "new_price_eur": 8.18,
-      "old_price": 19.99,
-      "old_price_eur": 10.22,
-      "discount_pct": 20,
-      "valid_from": "2026-10-26",
-      "valid_until": "2026-11-01",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 15.99,
-          "price_eur": 8.18,
-          "old_price": 19.99,
-          "old_price_eur": 10.22,
-          "discount_pct": 20,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 15.99,
-      "comparison_count": 1,
-      "product_id": "kaufland-medi-peel-пачове-за-очи-с-9-вида-пептиди",
-      "name": "Medi-Peel Пачове за очи с 9 вида пептиди",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8809409343655_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 15.99,
-      "lowest_price": 15.99,
-      "lowest_price_date": "2026-10-26",
-      "price_history": [
-        [
-          "2026-10-26",
-          15.99,
-          19.99,
-          20
-        ]
-      ],
-      "price_seen_count": 1,
       "price_signal": "buy"
     },
     {
