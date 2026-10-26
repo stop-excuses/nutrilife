@@ -1,5 +1,5 @@
 const ALL_PRODUCTS_DATA = {
-  "generated_at": "2026-10-26T10:42:19.178424Z",
+  "generated_at": "2026-10-26T12:44:27.408680Z",
   "total_products": 60581,
   "products": [
     {
@@ -668670,7 +668670,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_02900547_P.jpg",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/323_02900547_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-7-days-bake-rolls-различни-видове-80g",
       "last_seen": "2026-10-26",
       "first_seen": "2026-05-11",

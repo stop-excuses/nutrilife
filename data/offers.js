@@ -1,5 +1,5 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-10-26T09:56:14.323669Z",
+  "generated_at": "2026-10-26T12:44:29.532979Z",
   "store_last_scraped": {
     "Billa": "2026-10-23",
     "Dar": "2026-10-23",
@@ -11,10 +11,10 @@ const OFFERS_DATA = {
   "unavailable_stores": [
     "T-Market"
   ],
-  "content_hash": "7182e50462b1b75e333738c9f37c2eec",
-  "total_offers": 4091,
+  "content_hash": "93014be9327169c025bcf18800c16c4e",
+  "total_offers": 4089,
   "promo_offers": 1452,
-  "assortment_offers": 2639,
+  "assortment_offers": 2637,
   "stores": [
     "Billa",
     "Dar",
@@ -24907,7 +24907,7 @@ const OFFERS_DATA = {
       "weight_grams": 80,
       "weight_raw": "80 г",
       "name": "7 DAYS Bake Rolls различни видове",
-      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_02900547_P.jpg",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/323_02900547_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -60380,63 +60380,6 @@ const OFFERS_DATA = {
       "best_price_store": "Kaufland",
       "best_price": 23.99,
       "comparison_count": 1,
-      "product_id": "kaufland-osram-компресор-за-гуми-oti-2110",
-      "name": "OSRAM Компресор за гуми OTI 2110",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20998744_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": true,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 23.99,
-      "lowest_price": 23.99,
-      "lowest_price_date": "2026-10-26",
-      "price_history": [
-        [
-          "2026-10-26",
-          23.99,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 23.99,
-      "new_price_eur": 12.27,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-10-26",
-      "valid_until": "2026-11-01",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 23.99,
-          "price_eur": 12.27,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 23.99,
-      "comparison_count": 1,
       "product_id": "kaufland-parkside-акумулаторен-ударен-гаиковерт-pds",
       "name": "PARKSIDE® Акумулаторен ударен гайковерт PDS",
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627852640_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
@@ -60813,63 +60756,6 @@ const OFFERS_DATA = {
         [
           "2026-10-26",
           25.99,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 29.99,
-      "new_price_eur": 15.33,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-10-26",
-      "valid_until": "2026-11-01",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 29.99,
-          "price_eur": 15.33,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 29.99,
-      "comparison_count": 1,
-      "product_id": "kaufland-osram-зарядно-за-акумулатор-5-а",
-      "name": "OSRAM Зарядно за акумулатор 5 А",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20998743_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 29.99,
-      "lowest_price": 29.99,
-      "lowest_price_date": "2026-10-26",
-      "price_history": [
-        [
-          "2026-10-26",
-          29.99,
           null,
           null
         ]
