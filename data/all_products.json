@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T13:41:15.917124Z",
+  "generated_at": "2026-10-27T15:46:25.699554Z",
   "total_products": 60590,
   "products": [
     {
@@ -754785,7 +754785,7 @@
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800118141773_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-сандански-мелникъ-червено-вино-5000g",
-      "last_seen": "2026-09-20",
+      "last_seen": "2026-10-27",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -754811,11 +754811,19 @@
           "price_eur": 3.32,
           "old_price": 9.99,
           "discount_pct": 35
+        },
+        {
+          "date": "2026-10-27",
+          "store": "Kaufland",
+          "price": 6.29,
+          "price_eur": 3.22,
+          "old_price": 9.99,
+          "discount_pct": 37
         }
       ],
-      "lowest_price": 6.49,
-      "lowest_price_date": "2026-09-14",
-      "avg_price": 10.17
+      "lowest_price": 6.29,
+      "lowest_price_date": "2026-10-27",
+      "avg_price": 9.2
     },
     {
       "name": "САНДАНСКИ МЕЛНИКЪ/ КЕРАЦУДА Червено или Бяло вино",
