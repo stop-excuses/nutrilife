@@ -102,7 +102,7 @@
 
     function initSupplements() {
         if (!DATA || !Array.isArray(DATA.supplements)) {
-            renderError('Няма заредени данни за добавки. Пусни python scraper/supplement_scrapers.py и python sync_supplements.py.');
+            renderError(window.I18N.t('data.error'));
             return;
         }
 
@@ -185,12 +185,12 @@
 
     function normalizePriceHistory(history) {
         if (!Array.isArray(history)) return [];
-        return history.map(entry => ({
+        return history.filter(entry => entry && typeof entry === 'object').map(entry => ({
             date: entry.date || '',
-            price_bgn: Number(entry.price_bgn),
+            price_bgn: entry.price_bgn == null ? NaN : Number(entry.price_bgn),
             price_eur: Number(entry.price_eur),
             unit_value: Number(entry.unit_value)
-        })).filter(entry => entry.date && Number.isFinite(entry.price_bgn));
+        })).filter(entry => entry.date && Number.isFinite(entry.price_bgn) && entry.price_bgn > 0);
     }
 
     function renderSummary() {
@@ -421,7 +421,7 @@
         status.innerHTML = `
             <span><strong>${count}</strong> показани продукта</span>
             <span>от <strong>${items.length}</strong> общо</span>
-            <span><strong>${DATA.sources.length}</strong> магазина</span>
+            <span><strong>${new Set(items.map(item => item.store)).size}</strong> магазина</span>
             <small>Последен скан: ${escapeHtml(generated)}. Потвърдено налични: ${confirmed}; с непотвърдена наличност: ${unknown}.</small>
             ${stale ? `<small class="offers-stale-warning"><strong>${stale}</strong> <span data-i18n="ss.freshness.summary">${escapeHtml(window.I18N.t('ss.freshness.summary'))}</span></small>` : ''}
         `;
@@ -1052,13 +1052,14 @@
         if (!url || url === '#') return '#';
         try {
             const parsed = new URL(url, window.location.href);
+            if (!['https:', 'http:'].includes(parsed.protocol)) return '#';
             parsed.searchParams.set('utm_source', 'nutrilife');
             parsed.searchParams.set('utm_medium', 'smart_value');
             parsed.searchParams.set('utm_campaign', 'smart_supplements');
             parsed.searchParams.set('utm_content', `${placement}_${item.category}_${item.store}`.toLowerCase().replace(/[^a-z0-9_]+/g, '_'));
             return parsed.toString();
         } catch (error) {
-            return url;
+            return '#';
         }
     }
 
@@ -1088,7 +1089,9 @@
 
     function renderError(message) {
         const status = document.getElementById('supplements-status');
-        if (status) status.innerHTML = `<span>${escapeHtml(message)}</span>`;
+        if (status) status.textContent = message;
+        const grid = document.getElementById('supplements-grid');
+        if (grid) grid.innerHTML = `<div class="offers-empty"><p>${escapeHtml(message)}</p><button class="filter-btn" type="button" data-reload-page data-i18n="data.retry">${escapeHtml(window.I18N.t('data.retry'))}</button></div>`;
     }
 
     function formatMoney(value) {

@@ -8945,3 +8945,22 @@ section + section::before {
 [data-theme="light"] .ingredients-block {
     border-top-color: var(--surface-border);
 }
+[hidden] { display: none !important; }
+:focus-visible { outline: 3px solid var(--green, #97c459); outline-offset: 4px; }
+.tracker-toolbar, .tracker-backup { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 12px; margin: 24px 0; }
+.tracker-date-label { display: grid; gap: 6px; font-size: .85rem; color: var(--muted); }
+.tracker-date-label input { max-width: 100%; padding: 10px 12px; border: 1px solid var(--border, #555); border-radius: 10px; background: var(--bg); color: var(--text); font: inherit; color-scheme: dark; }
+[data-theme="light"] .tracker-date-label input { color-scheme: light; }
+.tracker-toolbar button:disabled { opacity: .4; cursor: default; }
+.tracker-backup p { flex-basis: 100%; text-align: center; font-size: .85rem; }
+.tracker-import-label { position: relative; cursor: pointer; }
+.tracker-import-label input { position: absolute; width: 1px; height: 1px; opacity: 0; }
+.tracker-import-label:focus-within { outline: 3px solid var(--green, #97c459); outline-offset: 4px; }
+.quiz-progress { margin: 16px 0; color: var(--muted); }
+@media (max-width: 480px) {
+    .navbar .streak-badge { display: none; }
+    .navbar .dot-label { white-space: normal; overflow: visible; text-overflow: clip; font-size: .52rem; line-height: 1.15; }
+    .navbar .dot-wrapper { justify-content: flex-start; }
+    .utility-hero .utility-hero-media { display: none; }
+    .utility-hero { min-height: 0; padding-top: 88px; padding-bottom: 24px; }
+}

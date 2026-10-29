@@ -3,6 +3,53 @@
    Accordion, age selector, sliders, etc.
    ======================================== */
 
+const NutriLifeStorage = (() => {
+    const memory = new Map();
+    return {
+        get(key) {
+            if (memory.has(key)) return memory.get(key);
+            try { return localStorage.getItem(key); } catch { return null; }
+        },
+        set(key, value) {
+            try { localStorage.setItem(key, value); memory.delete(key); return true; }
+            catch { memory.set(key, value); return false; }
+        },
+        json(key, fallback) {
+            try { return JSON.parse(this.get(key)) ?? fallback; } catch { return fallback; }
+        },
+        keys() {
+            const keys = new Set(memory.keys());
+            try { for (let i = 0; i < localStorage.length; i++) keys.add(localStorage.key(i)); } catch {}
+            return [...keys];
+        }
+    };
+})();
+window.NutriLifeStorage = NutriLifeStorage;
+
+function localDayKey(date = new Date()) {
+    return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, "0")}-${String(date.getDate()).padStart(2, "0")}`;
+}
+
+const TRACKER_HABITS = ["protein", "water", "movement", "sleep", "no-sugar", "no-junk"];
+function readTrackerDay(day) {
+    const value = NutriLifeStorage.json("nutrilife-tracker-" + day, {});
+    return Object.fromEntries(TRACKER_HABITS.map(habit => [habit, value?.[habit] === true]));
+}
+
+function parseTrackerBackup(value, today = localDayKey()) {
+    if (!value || value.version !== 1 || !value.days || typeof value.days !== "object" || Array.isArray(value.days)) throw new Error("format");
+    const entries = Object.entries(value.days);
+    if (entries.length > 3650) throw new Error("size");
+    const days = {};
+    for (const [day, habits] of entries) {
+        const date = new Date(day + "T12:00:00");
+        if (!/^\d{4}-\d{2}-\d{2}$/.test(day) || !Number.isFinite(date.getTime()) || localDayKey(date) !== day || day > today || day < "2000-01-01") throw new Error("date");
+        if (!habits || typeof habits !== "object" || Array.isArray(habits) || Object.entries(habits).some(([key, checked]) => !TRACKER_HABITS.includes(key) || typeof checked !== "boolean")) throw new Error("habit");
+        days[day] = Object.fromEntries(Object.entries(habits));
+    }
+    return days;
+}
+
 document.addEventListener("DOMContentLoaded", () => {
     initTopControls();
     initPwaInstallPrompt();
@@ -13,6 +60,7 @@ document.addEventListener("DOMContentLoaded", () => {
     initBmiCalculator();
     initTracker();
     initStreakBadge();
+    initProductDialogs();
     initVisitorCounter();
     hydrateTierListImages();
     initTierSections();
@@ -20,7 +68,43 @@ document.addEventListener("DOMContentLoaded", () => {
     initDiagnosisQuiz();
     initPageMotion();
     initScrollReveal();
+    document.addEventListener("click", event => {
+        if (event.target.closest("[data-reload-page]")) window.location.reload();
+    });
 });
+
+function initProductDialogs() {
+    let current = null, trigger = null;
+    const focusable = dialog => [...dialog.querySelectorAll('button, a[href], input, select, textarea, [tabindex="0"]')].filter(el => !el.disabled && el.getClientRects().length);
+    const update = () => {
+        const dialog = document.querySelector('.fav-product-screen, .supplement-dialog-screen');
+        if (dialog === current) return;
+        if (!dialog) {
+            current = null;
+            if (trigger?.isConnected) trigger.focus();
+            return;
+        }
+        if (!current) trigger = document.activeElement;
+        current = dialog;
+        const heading = dialog.querySelector("h3");
+        if (heading) { heading.id = "product-dialog-heading"; dialog.setAttribute("aria-labelledby", heading.id); }
+        const close = dialog.querySelector(".fav-screen-close");
+        close?.setAttribute("aria-label", "Затвори продукта");
+        (focusable(dialog)[0] || dialog).focus();
+    };
+    new MutationObserver(update).observe(document.body, { childList: true, subtree: true });
+    document.addEventListener("keydown", event => {
+        if (!current || event.key !== "Tab") return;
+        const controls = focusable(current);
+        if (!controls.length) { event.preventDefault(); return; }
+        const first = controls[0], last = controls[controls.length - 1];
+        if (!current.contains(document.activeElement) || (!event.shiftKey && document.activeElement === last)) {
+            event.preventDefault(); first.focus();
+        } else if (event.shiftKey && document.activeElement === first) {
+            event.preventDefault(); last.focus();
+        }
+    });
+}
 
 const TIER_PRODUCT_IMAGES = {
     "яйца": "https://kaufland.media.schwarz/is/image/schwarz/00099137_Promo_358751?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
@@ -244,11 +328,11 @@ function initTopControls() {
     // Theme toggle
     const themeBtn = document.createElement("button");
     themeBtn.className = "theme-toggle";
-    themeBtn.setAttribute("aria-label", "Toggle theme");
+    themeBtn.setAttribute("aria-label", "Смени цветната тема");
     wrapper.appendChild(themeBtn);
 
     // ── Theme logic ──────────────────────────────────────────────────────
-    const savedTheme = localStorage.getItem("nutrilife-theme");
+    const savedTheme = NutriLifeStorage.get("nutrilife-theme");
     if (savedTheme !== "dark") {
         document.documentElement.setAttribute("data-theme", "light");
     }
@@ -258,10 +342,10 @@ function initTopControls() {
         const isLight = document.documentElement.getAttribute("data-theme") === "light";
         if (isLight) {
             document.documentElement.removeAttribute("data-theme");
-            localStorage.setItem("nutrilife-theme", "dark");
+            NutriLifeStorage.set("nutrilife-theme", "dark");
         } else {
             document.documentElement.setAttribute("data-theme", "light");
-            localStorage.setItem("nutrilife-theme", "light");
+            NutriLifeStorage.set("nutrilife-theme", "light");
         }
         updateThemeIcon();
     });
@@ -385,7 +469,31 @@ async function initVisitorCounter() {
 
 /* --- Accordion --- */
 function initAccordions() {
-    document.querySelectorAll(".accordion-header").forEach(header => {
+    function setOpen(item, open) {
+        const body = item.querySelector(".accordion-body");
+        const header = item.querySelector(".accordion-header");
+        if (!body || !header) return;
+        item.classList.toggle("open", open);
+        header.setAttribute("aria-expanded", String(open));
+        body.hidden = !open;
+        body.style.maxHeight = open ? "none" : null;
+    }
+    document.querySelectorAll(".accordion-header").forEach((header, index) => {
+        const body = header.parentElement.querySelector(".accordion-body");
+        if (!body) return;
+        body.id ||= "accordion-panel-" + index;
+        header.id ||= "accordion-trigger-" + index;
+        header.setAttribute("role", "button");
+        header.tabIndex = 0;
+        header.setAttribute("aria-controls", body.id);
+        body.setAttribute("aria-labelledby", header.id);
+        setOpen(header.parentElement, header.parentElement.classList.contains("open"));
+        header.addEventListener("keydown", event => {
+            if (event.target === header && (event.key === "Enter" || event.key === " ")) {
+                event.preventDefault();
+                header.click();
+            }
+        });
         header.addEventListener("click", () => {
             const item = header.parentElement;
             const body = item.querySelector(".accordion-body");
@@ -396,19 +504,12 @@ function initAccordions() {
             if (accordion) {
                 accordion.querySelectorAll(".accordion-item.open").forEach(openItem => {
                     if (openItem !== item) {
-                        openItem.classList.remove("open");
-                        openItem.querySelector(".accordion-body").style.maxHeight = null;
+                        setOpen(openItem, false);
                     }
                 });
             }
 
-            if (isOpen) {
-                item.classList.remove("open");
-                body.style.maxHeight = null;
-            } else {
-                item.classList.add("open");
-                body.style.maxHeight = body.scrollHeight + "px";
-            }
+            setOpen(item, !isOpen);
         });
     });
 }
@@ -576,7 +677,7 @@ function initBmiCalculator() {
     if (!document.getElementById("bmi-age-years")) {
         const ageField = document.createElement("label");
         ageField.className = "bmi-field";
-        ageField.innerHTML = `${buildFieldLabel("Години")}<input id="bmi-age-years" type="number" min="8" max="99" step="1" value="35"/>`;
+        ageField.innerHTML = `${buildFieldLabel("Години")}<input id="bmi-age-years" type="number" min="8" max="99" step="1" value="" placeholder="35"/>`;
 
         const sexField = document.createElement("label");
         sexField.className = "bmi-field";
@@ -604,7 +705,7 @@ function initBmiCalculator() {
 
         const stepsField = document.createElement("label");
         stepsField.className = "bmi-field";
-        stepsField.innerHTML = `${buildFieldLabel("Крачки / ден", "Погледни телефона или часовника за средните крачки от последните 7 дни, а не за един случаен ден. Това оценява реалното ти ежедневно движение. Под 4000 значи много ниска база; 4000-6999 е средно; 7000-9000 е добра ежедневна база за повечето хора.")}<input id="bmi-steps" type="number" min="0" max="30000" step="100" value="4500"/>`;
+        stepsField.innerHTML = `${buildFieldLabel("Крачки / ден", "Погледни телефона или часовника за средните крачки от последните 7 дни, а не за един случаен ден. Това оценява реалното ти ежедневно движение. Под 4000 значи много ниска база; 4000-6999 е средно; 7000-9000 е добра ежедневна база за повечето хора.")}<input id="bmi-steps" type="number" min="0" max="30000" step="100" value="" placeholder="4500"/>`;
 
         const pulseField = document.createElement("label");
         pulseField.className = "bmi-field";
@@ -655,7 +756,16 @@ function initBmiCalculator() {
     const ageGroupField = ageGroup.closest(".bmi-field");
     if (ageGroupField) ageGroupField.style.display = "none";
 
+    calcGrid.querySelectorAll(".bmi-field").forEach(field => {
+        const control = field.querySelector("input,select");
+        const label = field.querySelector(".field-label-text, span");
+        if (control && label) control.setAttribute("aria-label", label.textContent.trim());
+    });
     const render = () => {
+        if (!ageYearsInput.value || !heightInput.value || !weightInput.value) {
+            output.textContent = window.I18N.t("health.enter");
+            return;
+        }
         const ageYears = Number(ageYearsInput.value);
         const age = ageYears < 18 ? "child" : "adult";
         const heightCm = Number(heightInput.value);
@@ -676,22 +786,22 @@ function initBmiCalculator() {
         const stairs = stairsInput.value;
         const tug = tugInput.value;
 
-        if (!ageYears || ageYears < 8 || ageYears > 99 || !heightCm || !weightKg || heightCm < 120 || heightCm > 230 || weightKg < 25 || weightKg > 250) {
+        if (!Number.isInteger(ageYears) || ageYears < 8 || ageYears > 99 || !Number.isFinite(heightCm) || !Number.isFinite(weightKg) || heightCm < 120 || heightCm > 230 || weightKg < 25 || weightKg > 250) {
             output.innerHTML = '<div class="stat-pills"><span class="stat-pill amber">Въведи реални стойности</span></div>';
             return;
         }
 
-        if (waistCm !== null && (waistCm < 40 || waistCm > 200)) {
+        if (waistCm !== null && (!Number.isFinite(waistCm) || waistCm < 40 || waistCm > 200)) {
             output.innerHTML = '<div class="stat-pills"><span class="stat-pill amber">Провери талията в см</span></div>';
             return;
         }
 
-        if (!stepsInput.value || steps < 0 || steps > 30000) {
+        if (!stepsInput.value || !Number.isFinite(steps) || steps < 0 || steps > 30000) {
             output.innerHTML = '<div class="stat-pills"><span class="stat-pill amber">Въведи ориентировъчни крачки на ден</span></div>';
             return;
         }
 
-        if (restingPulse !== null && (restingPulse < 35 || restingPulse > 140)) {
+        if (restingPulse !== null && (!Number.isFinite(restingPulse) || restingPulse < 35 || restingPulse > 140)) {
             output.innerHTML = '<div class="stat-pills"><span class="stat-pill amber">Провери пулса в покой</span></div>';
             return;
         }
@@ -699,8 +809,8 @@ function initBmiCalculator() {
         const heightM = heightCm / 100;
         const bmi = weightKg / (heightM * heightM);
         const underweightMax = 18.5 * heightM * heightM;
-        const normalMax = 24.9 * heightM * heightM;
-        const overweightMax = 29.9 * heightM * heightM;
+        const normalMax = 25 * heightM * heightM;
+        const overweightMax = 30 * heightM * heightM;
         const waistToHeight = waistCm === null ? null : waistCm / heightCm;
 
         const issues = [];
@@ -718,12 +828,10 @@ function initBmiCalculator() {
         const waistBorderline = waistCm === null ? null : (sex === "female" ? 80 : 94);
         const waistHigh = waistCm === null ? null : (sex === "female" ? 88 : 102);
 
-        const ageAwareChair = (() => {
-            if (ageYears < 40) return { good: "15+", mid: "11-14", poor: "10 или по-малко" };
-            if (ageYears < 60) return { good: "13+", mid: "10-12", poor: "9 или по-малко" };
-            return { good: sex === "female" ? "12+" : "14+", mid: sex === "female" ? "10-11" : "12-13", poor: sex === "female" ? "под 10" : "под 12" };
-        })();
-
+        const balanceLabels = ageYears >= 60
+            ? { poor: "Под 10 сек / нестабилно", mid: "10 сек с трудност", good: "10 сек стабилно" }
+            : { poor: "Под 10 сек / нестабилно", mid: "10–19 сек", good: "20+ сек / стабилно" };
+        [...balanceInput.options].forEach(option => { if (balanceLabels[option.value]) option.textContent = balanceLabels[option.value]; });
         const chairCategory = chair;
         const balanceCategory = balance;
         const tugCategory = tug;
@@ -741,7 +849,7 @@ function initBmiCalculator() {
                 profiles.fitness += stairs === "hard" ? 3 : 1;
                 issues.push("има задух при елементарно усилие");
             }
-            if (bmi >= 25 || (waistToHeight !== null && waistToHeight >= 0.5)) {
+            if (waistToHeight !== null && waistToHeight >= 0.5) {
                 profiles.metabolic += 3;
                 issues.push("талията или килограмите вече вървят в грешна посока");
             }
@@ -758,8 +866,8 @@ function initBmiCalculator() {
                         <div class="stat-label">години</div>
                     </div>
                     <div class="info-box purple" style="margin:0;">
-                        <h3>Под 18: това вече е сигнал, не „ще го израсте“</h3>
-                        <p style="margin-top:8px;">При деца и тийнейджъри това не е диагноза. Но ако има корем, задух, ниско движение и лош сън, проблемът вече започва рано.</p>
+                        <h3>Под 18: използвай оценка за възрастта</h3>
+                        <p>При деца и тийнейджъри BMI се оценява по възраст и пол, чрез растежни криви. Праговете за възрастни не се прилагат. Обсъди теглото и растежа с родител и педиатър; не започвай ограничителна диета по този инструмент.</p>
                         <ul style="margin-top:10px; padding-left:18px; line-height:1.7;">${childSignals || "<li>на този етап няма силни предупредителни сигнали</li>"}</ul>
                     </div>
                 </div>
@@ -882,7 +990,7 @@ function initBmiCalculator() {
 
         if (balanceCategory === "mid") {
             profiles.fitness += 2;
-            issues.push("балансът е среден: 10-19 сек");
+            issues.push("балансът е затруднен: " + balanceInput.selectedOptions[0].textContent);
         } else if (balanceCategory === "poor") {
             profiles.fitness += 3;
             issues.push("балансът е слаб: под 10 сек");
@@ -899,7 +1007,7 @@ function initBmiCalculator() {
             profiles.metabolic += 2;
             profiles.cardio += 3;
             issues.push("кондицията вече е под базата");
-            recommendations.push("вкарай 20-30 мин бързо ходене в 5 дни от седмицата");
+            recommendations.push("провери причината за силния задух преди по-тежко натоварване");
         }
 
         if (tugCategory === "mid") {
@@ -950,14 +1058,14 @@ function initBmiCalculator() {
         const [topKey, topScore] = sortedProfiles[0];
 
         let statusClass = "green";
-        let statusTitle = "Нисък проблем засега";
+        let statusTitle = "Поддържай добрите навици";
         let message = "Нямаш силен предупредителен профил в тази проверка. Това не значи „перфектно здраве“, а че още имаш база.";
 
         const profileMeta = {
             metabolic: {
                 className: "red",
                 title: "Коремен метаболитен риск",
-                message: "Комбинацията от тегло, талия, ниско движение и задух подсказва, че рискът е по-скоро метаболитен, не само естетичен."
+                message: "Проследявай талията, теглото и хранителните навици заедно. Те не са достатъчни за оценка на метаболитното ти здраве."
             },
             fitness: {
                 className: "amber",
@@ -967,12 +1075,12 @@ function initBmiCalculator() {
             recovery: {
                 className: "amber",
                 title: "Лошо възстановяване",
-                message: "Сънят, стресът и навиците пречат да се възстановяваш. Без това и доброто хранене, и движението работят по-слабо."
+                message: "Пробвай редовен час за сън и поносима вечерна рутина. Постоянната умора може да има и други причини."
             },
             cardio: {
                 className: "red",
                 title: "Кардио и ежедневна функция изостават",
-                message: "Ниските крачки, задухът, кръвното или слабият тест с 3 метра подсказват, че способността ти за ежедневно движение пада по-бързо, отколкото трябва."
+                message: "Разгледай движението и въведеното кръвно поотделно. Задухът не може да се обясни само с липса на тренировки."
             },
             smoking: {
                 className: "red",
@@ -997,21 +1105,21 @@ function initBmiCalculator() {
             message = profileMeta[topKey].message;
         }
 
-        let futureText = "Ако не промениш нищо, следващите години най-често носят още по-малко движение, още повече корем и още по-трудно връщане назад.";
-        if (topKey === "metabolic") {
-            futureText = "Ако не промениш нищо, най-вероятно следват още корем, по-лоша захар, по-лошо кръвно, по-лош сън и повече умора.";
-        } else if (topKey === "fitness") {
-            futureText = "Ако този тест ти е труден още сега, има риск да влезеш в следващото десетилетие с по-слаби крака, повече болки и по-малка независимост в ежедневни неща като изправяне, стълби и дълго ходене.";
-        } else if (topKey === "recovery") {
-            futureText = "Ако не промениш нищо, ще ставаш все по-уморен, по-гладен, по-нервен и все по-труден за изваждане от лошия цикъл.";
-        } else if (topKey === "cardio") {
-            futureText = "Ако ходенето, стълбите и ставането от стол вече са трудни, това е знак за ускорено функционално стареене, не просто за \"липса на спорт\".";
-        } else if (topKey === "smoking") {
-            futureText = "Ако не промениш нищо, пушенето ще продължи да сваля кондицията, възстановяването и капацитета ти за движение.";
-        } else if (topKey === "alcohol") {
-            futureText = "Ако не промениш нищо, алкохолът ще продължи да дърпа надолу съня, апетита, талията и самоконтрола.";
-        } else if (topKey === "underweight") {
-            futureText = "Ако не промениш нищо, ниският мускулен резерв ще значи още по-слаба сила, по-лоша форма и по-трудно възстановяване.";
+        const focusLabels = {
+            metabolic: "Хранене и талия", fitness: "Движение и сила",
+            recovery: "Сън и възстановяване", cardio: "Ежедневно движение и кръвно",
+            smoking: "Спиране на цигарите", alcohol: "Намаляване на алкохола",
+            underweight: "Хранене и проследяване на теглото"
+        };
+        if (topScore >= 3) statusTitle = "Фокус: " + focusLabels[topKey];
+        const clinicalSignals = [];
+        if (pressure === "stage1" || pressure === "stage2") clinicalSignals.push("Едно измерване не поставя диагноза. Измервай кръвното в покой няколко дни и обсъди повтарящи се високи стойности с лекар.");
+        if (stairs === "hard") clinicalSignals.push("Не увеличавай интензивността при необясним силен задух. Болка в гърдите, припадък или задух в покой изискват спешна оценка.");
+        if (restingPulse !== null && (restingPulse > 100 || (restingPulse < 50 && activity === "low"))) clinicalSignals.push("Повтори пулса след покой. Необичайно нисък или висок пулс, особено със замайване или слабост, заслужава медицинска оценка.");
+        if (clinicalSignals.length) {
+            statusClass = "amber";
+            statusTitle = "Първо провери тези сигнали";
+            message = clinicalSignals.join(" ");
         }
 
         const issueList = issues.slice(0, 4).map((item) => `<li>${item}</li>`).join("");
@@ -1019,7 +1127,7 @@ function initBmiCalculator() {
         const secondaryProfiles = sortedProfiles
             .slice(1, 3)
             .filter(([, score]) => score >= 2)
-            .map(([key]) => `<span class="stat-pill">${profileMeta[key]?.title || key}</span>`)
+            .map(([key]) => `<span class="stat-pill">${focusLabels[key] || key}</span>`)
             .join("");
 
         const waistNote = waistCm === null
@@ -1035,7 +1143,7 @@ function initBmiCalculator() {
 
         let movementPlan = "Пази 150+ минути движение седмично и 2 силови дни.";
         if (profiles.fitness >= 4 || profiles.cardio >= 4) {
-            movementPlan = "Първо: ходене 20-30 мин в 5 дни, ставане от стол, качване на ниско стъпало и баланс. После вкарай 2 силови дни.";
+            movementPlan = "Започни с поносимо ходене за 5–10 минути и постепенно увеличавай. Добави леки силови упражнения и баланс до опора.";
         } else if (profiles.metabolic >= 4) {
             movementPlan = "Първо: вдигни крачките, свали ежедневните захари и пази талията под 1/2 от ръста.";
         }
@@ -1051,14 +1159,11 @@ function initBmiCalculator() {
             low: "Добре е, защото засега не се вижда силен предупредителен профил. Това не значи идеално здраве, а че още имаш база и е по-лесно да пазиш нещата добри."
         };
 
-        const issueInfo = "Това са главните сигнали, по които скринингът преценява, че вече има проблемна посока. Не са диагноза, а ориентир какво вече личи.";
-        const actionInfo = "Това са първите неща, които дават най-голям ефект с най-малко сложност. Не идеалният план, а най-умният първи ход.";
-        const futureInfo = "Това не е точна прогноза по възраст. Това е най-вероятната посока, ако оставиш нещата както са.";
+        const issueInfo = "Условна насока по въведените навици. Не измерва медицински риск и не заменя кръвни изследвания или преглед.";
+        const futureInfo = "Условни точки подреждат навиците. Това не е валидиран медицински скрининг и не прогнозира заболявания.";
         const testsInfo = "Тези тестове имат смисъл, защото могат да се направят самостоятелно у дома и дават по-полезен сигнал за ежедневна функция от кантара сам по себе си.";
 
-        const chairGuide = ageYears >= 60
-            ? `CDC ориентир за ${ageYears} г. ${sex === "female" ? "жена" : "мъж"}: под ${ageAwareChair.poor} = слаб резултат; около ${ageAwareChair.mid} = средно; ${ageAwareChair.good} = добра база.`
-            : `Практичен ориентир под 60 г.: под ${ageAwareChair.poor} = слабо; ${ageAwareChair.mid} = средно; ${ageAwareChair.good} = добра база.`;
+        const chairGuide = "Диапазоните са за запис, не клинична норма. Нормите зависят от възрастта, пола и изпълнението; сравнявай и собствения си напредък.";
 
         const balanceGuide = ageYears >= 60
             ? "Баланс: застани с единия крак точно пред другия. Ако не можеш да стоиш 10 секунди без да мръднеш или да се хванеш, балансът е слаб."
@@ -1067,7 +1172,7 @@ function initBmiCalculator() {
         const tugGuide = "Тест с 3 метра: ставаш от стол, минаваш 3 метра, връщаш се и сядаш. Под 10 секунди е добра база, 10-12 е средно, 12+ или нестабилност е предупредителен сигнал.";
         const stepsGuide = "Крачки: под 4000 = много ниска база; 4000-6999 = средно; 7000-9000 = добра база за повечето; 9000+ = много добре.";
         const chairResultText = chairCategory === "skip" ? "не е въведен" : chairCategory === "good" ? "15+ повторения (добре)" : chairCategory === "mid" ? "10-14 повторения (средно)" : "под 10 повторения (зле)";
-        const balanceResultText = balanceCategory === "skip" ? "не е въведен" : balanceCategory === "good" ? "20+ сек / стабилно (добре)" : balanceCategory === "mid" ? "10-19 сек / трудно (средно)" : "под 10 сек / нестабилно (зле)";
+        const balanceResultText = balanceCategory === "skip" ? "не е въведен" : balanceInput.selectedOptions[0].textContent;
         const tugResultText = tugCategory === "skip" ? "не е въведен" : tugCategory === "good" ? "под 10 сек (добре)" : tugCategory === "mid" ? "10-12 сек (средно)" : "12+ сек / нестабилно (зле)";
 
         const followupMap = {
@@ -1089,7 +1194,7 @@ function initBmiCalculator() {
                 </div>
                 <div class="info-box ${statusClass}" style="margin:0;">
                     <div class="info-heading-row"><h3>${statusTitle}</h3>${buildInfoButton(statusTitle, statusInfo[topKey] || statusInfo.low)}</div>
-                    <p style="margin-top:8px;">${message}</p>
+                    <p style="margin-top:8px;">${message}</p><p data-i18n="health.method">${window.I18N.t("health.method")}</p>
                     <p style="margin-top:10px;"><strong>За твоя ръст:</strong> под <span class="amber">${underweightMax.toFixed(0)} кг</span> е твърде ниско тегло, <span class="green">${underweightMax.toFixed(0)}–${normalMax.toFixed(0)} кг</span> е базова зона, <span class="amber">${normalMax.toFixed(0)}–${overweightMax.toFixed(0)} кг</span> е предупредителна зона, <span class="red">${overweightMax.toFixed(0)}+ кг</span> е затлъстяване.</p>
                 </div>
             </div>
@@ -1101,8 +1206,8 @@ function initBmiCalculator() {
                 <a class="btn btn-green" href="${followup.link}" style="margin-top:14px; display:inline-block;">${followup.label} →</a>
             </div>
             <div class="info-box mt-16 ${statusClass}" style="margin-bottom:0;">
-                <div class="info-heading-row"><h3>Ако оставиш нещата така</h3>${buildInfoButton("Какво ще стане, ако не направиш нищо", futureInfo)}</div>
-                <p style="margin-top:8px;">${futureText}</p>
+                <div class="info-heading-row"><h3>Как да следиш напредъка</h3>${buildInfoButton("Как се използва резултатът", futureInfo)}</div>
+                <p style="margin-top:8px;">Повтори измерванията при сходни условия след 2–4 седмици. Записвай талията и реалните резултати от тестовете. Този инструмент не изключва заболяване.</p>
             </div>
             <div class="info-box mt-16" style="margin-bottom:0;">
                 <div class="info-heading-row"><h3>Бърз ориентир</h3>${buildInfoButton("Домашни тестове", testsInfo)}</div>
@@ -1111,6 +1216,7 @@ function initBmiCalculator() {
                 <p style="margin-top:10px;"><strong>Тест с 3 метра:</strong> ${tugResultText}. ${tugGuide}</p>
                 <p style="margin-top:10px;"><strong>Крачки:</strong> ${stepsGuide}</p>
             </div>
+            <p class="mt-16"><a href="https://www.nice.org.uk/guidance/ng246/chapter/Identifying-and-assessing-overweight-obesity-and-central-adiposity" target="_blank" rel="noopener" data-i18n="health.source">${window.I18N.t("health.source")}</a></p>
             <div class="stat-pills mt-16">
                 <span class="stat-pill ${statusClass}">${statusTitle}</span>
                 ${waistNote}
@@ -1134,54 +1240,130 @@ function initBmiCalculator() {
 /* --- Tracker (localStorage) --- */
 function initTracker() {
     const trackerItems = document.querySelectorAll(".tracker-item");
-    if (trackerItems.length === 0) return;
+    if (!trackerItems.length) return;
+    const dateInput = document.getElementById("tracker-date");
+    const status = document.getElementById("tracker-storage-status");
+    const next = document.getElementById("tracker-next");
+    let selectedDay = localDayKey();
+    let lastToday = selectedDay;
 
-    const today = new Date().toISOString().slice(0, 10);
-    const storageKey = "nutrilife-tracker-" + today;
-    const saved = JSON.parse(localStorage.getItem(storageKey) || "{}");
+    const announce = (key, count) => {
+        if (status) status.textContent = window.I18N.t(key).replace("{n}", count ?? "");
+    };
+    const loadDay = () => {
+        if (dateInput) {
+            dateInput.max = localDayKey();
+            dateInput.value = selectedDay;
+        }
+        if (next) next.disabled = selectedDay >= localDayKey();
+        const saved = readTrackerDay(selectedDay);
+        trackerItems.forEach(item => {
+            const checkbox = item.querySelector("input[data-habit]");
+            checkbox.checked = saved[checkbox.dataset.habit] === true;
+            item.classList.toggle("checked", checkbox.checked);
+        });
+        updateTrackerProgress();
+        updateWeekChart();
+        updateStreakBadge();
+    };
+    const moveDay = delta => {
+        const date = new Date(selectedDay + "T12:00:00");
+        date.setDate(date.getDate() + delta);
+        const day = localDayKey(date);
+        if (day >= "2000-01-01" && day <= localDayKey()) { selectedDay = day; loadDay(); }
+    };
+
+    dateInput?.addEventListener("change", () => {
+        try { parseTrackerBackup({ version: 1, days: { [dateInput.value]: {} } }); }
+        catch { dateInput.value = selectedDay; return; }
+        selectedDay = dateInput.value;
+        loadDay();
+    });
+    document.getElementById("tracker-prev")?.addEventListener("click", () => moveDay(-1));
+    next?.addEventListener("click", () => moveDay(1));
+    document.getElementById("tracker-today")?.addEventListener("click", () => { selectedDay = localDayKey(); loadDay(); });
 
     trackerItems.forEach(item => {
-        const checkbox = item.querySelector("input[type='checkbox']");
-        const id = checkbox.dataset.habit;
-
-        if (saved[id]) {
-            checkbox.checked = true;
-            item.classList.add("checked");
-        }
-
+        const checkbox = item.querySelector("input[data-habit]");
         checkbox.addEventListener("change", () => {
+            const checked = checkbox.checked;
+            const today = localDayKey();
+            if (today !== lastToday) {
+                if (selectedDay === lastToday) selectedDay = today;
+                lastToday = today;
+                loadDay();
+                checkbox.checked = checked;
+            }
+            const saved = readTrackerDay(selectedDay);
+            saved[checkbox.dataset.habit] = checkbox.checked;
+            const persistent = NutriLifeStorage.set("nutrilife-tracker-" + selectedDay, JSON.stringify(saved));
             item.classList.toggle("checked", checkbox.checked);
-            saved[id] = checkbox.checked;
-            localStorage.setItem(storageKey, JSON.stringify(saved));
+            announce(persistent ? "tracker.saved" : "tracker.temporary");
             updateTrackerProgress();
             updateWeekChart();
             updateStreakBadge();
         });
     });
-
-    updateTrackerProgress();
-    updateWeekChart();
+    document.getElementById("tracker-export")?.addEventListener("click", () => {
+        const days = {};
+        try {
+            for (const key of NutriLifeStorage.keys()) {
+                if (/^nutrilife-tracker-\d{4}-\d{2}-\d{2}$/.test(key)) days[key.slice(18)] = readTrackerDay(key.slice(18));
+            }
+        } catch { /* The current session can still be exported. */ }
+        days[selectedDay] = readTrackerDay(selectedDay);
+        const blob = new Blob([JSON.stringify({ version: 1, days }, null, 2)], { type: "application/json" });
+        const url = URL.createObjectURL(blob);
+        const link = document.createElement("a");
+        link.href = url;
+        link.download = "nutrilife-diary-" + localDayKey() + ".json";
+        link.click();
+        setTimeout(() => URL.revokeObjectURL(url), 1000);
+        announce("tracker.exported");
+    });
+    document.getElementById("tracker-import")?.addEventListener("change", async event => {
+        const file = event.target.files?.[0];
+        if (!file) return;
+        try {
+            if (file.size > 2 * 1024 * 1024) throw new Error("size");
+            const days = parseTrackerBackup(JSON.parse(await file.text()));
+            let persistent = true;
+            for (const [day, habits] of Object.entries(days)) {
+                const merged = { ...readTrackerDay(day), ...habits };
+                persistent = NutriLifeStorage.set("nutrilife-tracker-" + day, JSON.stringify(merged)) && persistent;
+            }
+            loadDay();
+            announce(persistent ? "tracker.imported" : "tracker.temporary", Object.keys(days).length);
+        } catch { announce("tracker.invalid"); }
+        finally { event.target.value = ""; }
+    });
+    const refresh = () => {
+        const today = localDayKey();
+        if (selectedDay === lastToday) selectedDay = today;
+        lastToday = today;
+        loadDay();
+    };
+    window.addEventListener("focus", refresh);
+    window.addEventListener("storage", refresh);
+    document.addEventListener("visibilitychange", () => { if (!document.hidden) refresh(); });
+    const scheduleMidnight = () => {
+        const now = new Date();
+        const midnight = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1);
+        setTimeout(() => { refresh(); scheduleMidnight(); }, midnight - now + 100);
+    };
+    scheduleMidnight();
+    loadDay();
 }
 
 /* --- Cross-page streak badge --- */
-function calculateStreak() {
-    const MS_PER_DAY = 86400000;
-    const now = new Date();
-    now.setHours(0, 0, 0, 0);
+function calculateStreak(now = new Date()) {
     let streak = 0;
-    let started = false;
-    for (let i = 0; i < 365; i++) {
-        const d = new Date(now.getTime() - i * MS_PER_DAY);
-        const key = "nutrilife-tracker-" + d.toISOString().slice(0, 10);
-        const data = JSON.parse(localStorage.getItem(key) || "{}");
-        const done = Object.values(data).filter(Boolean).length;
-        if (done >= 1) {
-            streak++;
-            started = true;
-        } else {
-            if (i === 0 && !started) continue;
-            break;
-        }
+    for (let i = 0; i < 3650; i++) {
+        const date = new Date(now);
+        date.setDate(now.getDate() - i);
+        const done = Object.values(readTrackerDay(localDayKey(date))).some(Boolean);
+        if (done) streak++;
+        else if (i > 0) break;
     }
     return streak;
 }
@@ -1229,23 +1411,28 @@ function updateWeekChart() {
     const bars = document.querySelectorAll(".week-bar .bar");
     if (bars.length === 0) return;
 
-    const today = new Date();
+    const selectedDay = document.getElementById("tracker-date")?.value;
+    const today = selectedDay ? new Date(selectedDay + "T12:00:00") : new Date();
     const dayOfWeek = today.getDay(); // 0=Sun
     const mondayOffset = dayOfWeek === 0 ? -6 : 1 - dayOfWeek;
 
     bars.forEach((bar, i) => {
         const date = new Date(today);
         date.setDate(today.getDate() + mondayOffset + i);
-        const key = "nutrilife-tracker-" + date.toISOString().slice(0, 10);
-        const data = JSON.parse(localStorage.getItem(key) || "{}");
+        const day = localDayKey(date);
+        const data = readTrackerDay(day);
 
-        const total = 6;
+        const total = TRACKER_HABITS.length;
         const done = Object.values(data).filter(Boolean).length;
         const pct = (done / total) * 100;
 
         bar.style.height = Math.max(pct, 4) + "%";
         bar.classList.toggle("filled", done > 0 && done < total);
         bar.classList.toggle("full", done === total);
+        const label = day + ": " + done + " / " + total;
+        bar.setAttribute("role", "img");
+        bar.setAttribute("aria-label", label);
+        bar.title = label;
     });
 }
 
@@ -1257,15 +1444,7 @@ window.updateSteps = function (value, output) {
     const lang = window.I18N ? window.I18N.getLang() : "bg";
     const isEn = lang === "en";
 
-    let risk;
-    if (steps < 4000) {
-        risk = isEn ? "High risk" : "Висок риск";
-    } else if (steps < 7000) {
-        risk = isEn ? "Moderate risk (−40%)" : "Умерен риск (−40%)";
-    } else {
-        risk = isEn ? "Low risk (−60%)" : "Нисък риск (−60%)";
-    }
-    const calories = Math.round(steps * 0.04);
+    const risk = steps < 4000 ? "Започни от сегашното си ниво" : steps < 7000 ? "Надграждай постепенно" : "Добра база за ежедневно движение";
     const minutes = Math.round(steps / 100);
     const stepsLabel = isEn ? "steps" : "крачки";
     const minLabel = isEn ? "min" : "мин";
@@ -1274,7 +1453,6 @@ window.updateSteps = function (value, output) {
         '<div class="stat-pills">' +
         '<span class="stat-pill green">' + steps.toLocaleString() + ' ' + stepsLabel + '</span>' +
         '<span class="stat-pill ' + (steps < 4000 ? '' : 'green') + '">' + risk + '</span>' +
-        '<span class="stat-pill amber">~' + calories + ' kcal</span>' +
         '<span class="stat-pill green">~' + minutes + ' ' + minLabel + '</span>' +
         '</div>';
 };
@@ -1283,26 +1461,48 @@ window.updateSteps = function (value, output) {
 function initDiagnosisQuiz() {
     const quiz = document.getElementById("diagnosis-quiz");
     if (!quiz) return;
-
-    const questions = quiz.querySelectorAll(".quiz-question");
+    const questions = [...quiz.querySelectorAll(".quiz-question")];
+    const stored = NutriLifeStorage.json("nutrilife-diagnosis", {});
     const scores = {};
-
+    const progress = document.createElement("p");
+    progress.className = "quiz-progress";
+    progress.setAttribute("role", "status");
+    const reset = document.createElement("button");
+    reset.type = "button";
+    reset.className = "filter-btn";
+    reset.dataset.i18n = "quiz.reset";
+    reset.textContent = window.I18N.t("quiz.reset");
+    quiz.append(progress, reset);
+    const update = (scroll = false) => {
+        questions.forEach(q => q.querySelectorAll(".quiz-btn").forEach(btn => {
+            const selected = scores[q.dataset.area] === Number(btn.dataset.points);
+            btn.classList.toggle("selected", selected);
+            btn.setAttribute("aria-pressed", String(selected));
+        }));
+        progress.textContent = window.I18N.t("quiz.progress").replace("{n}", Object.keys(scores).length).replace("{total}", questions.length);
+        NutriLifeStorage.set("nutrilife-diagnosis", JSON.stringify({ scores }));
+        if (Object.keys(scores).length === questions.length) renderQuizResult(scores, scroll);
+    };
     questions.forEach(q => {
         const area = q.dataset.area;
+        if ([0, 1, 2].includes(stored.scores?.[area])) scores[area] = stored.scores[area];
         q.querySelectorAll(".quiz-btn").forEach(btn => {
             btn.addEventListener("click", () => {
-                q.querySelectorAll(".quiz-btn").forEach(b => b.classList.remove("selected"));
-                btn.classList.add("selected");
-                scores[area] = parseInt(btn.dataset.points, 10);
-                if (Object.keys(scores).length === questions.length) {
-                    renderQuizResult(scores);
-                }
+                scores[area] = Number(btn.dataset.points);
+                update(true);
             });
         });
     });
+    reset.addEventListener("click", () => {
+        Object.keys(scores).forEach(key => delete scores[key]);
+        document.getElementById("quiz-result").hidden = true;
+        update();
+        questions[0]?.querySelector("button")?.focus();
+    });
+    update();
 }
 
-function renderQuizResult(scores) {
+function renderQuizResult(scores, scroll = true) {
     const total = Object.values(scores).reduce((a, b) => a + b, 0);
     const max = Object.keys(scores).length * 2;
 
@@ -1341,10 +1541,10 @@ function renderQuizResult(scores) {
             '</div>' +
         '</div>';
     result.hidden = false;
-    result.scrollIntoView({ behavior: "smooth", block: "center" });
+    if (scroll) result.scrollIntoView({ behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "center" });
 
     try {
-        localStorage.setItem("nutrilife-diagnosis", JSON.stringify({
+        NutriLifeStorage.set("nutrilife-diagnosis", JSON.stringify({
             scores: scores, priority: priority, total: total, date: new Date().toISOString()
         }));
     } catch (e) { /* storage disabled */ }
@@ -1354,7 +1554,7 @@ function renderQuizResult(scores) {
 function initScrollReveal() {
     // Auto-tag sections that aren't the hero (hero is always visible)
     document.querySelectorAll("section:not(.hero):not(.hero-index):not(.page-hero)").forEach(s => {
-        if (s.querySelector("#offers-grid, #supplements-grid, #medicines-grid, .product-controls-panel")) return;
+        if (s.matches("#tracker-section") || s.querySelector("#diagnosis-quiz, .bmi-calc-grid, #offers-grid, #supplements-grid, .product-controls-panel")) return;
         if (!s.hasAttribute("data-reveal") && !s.hasAttribute("data-reveal-stagger")) {
             s.setAttribute("data-reveal", "");
         }
@@ -1392,7 +1592,7 @@ function initPageMotion() {
     document.body.classList.add("motion-ready");
     addMotionChrome();
 
-    document.querySelectorAll(".cards-grid, .excuse-grid, .accordion, .visual-story-grid, .stat-pills, .tracker, .week-chart").forEach(g => {
+    document.querySelectorAll(".cards-grid, .excuse-grid, .accordion, .visual-story-grid, .stat-pills, .week-chart").forEach(g => {
         if (!g.hasAttribute("data-reveal-stagger") && !g.closest(".hero, .hero-index, .page-hero")) {
             g.setAttribute("data-reveal-stagger", "");
         }
@@ -1535,7 +1735,7 @@ window.updateProtein = function (value, output) {
     const isEn = lang === "en";
     const label = isEn
         ? "protein per day for " + weight + "kg"
-        : "протеин на ден за " + weight + "кг";
+        : "протеин на ден за " + weight + "кг при редовни силови тренировки";
 
     output.innerHTML =
         '<div style="text-align:center; margin-top:12px;">' +

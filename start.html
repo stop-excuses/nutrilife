@@ -2,7 +2,7 @@
 
 <html lang="bg">
 <head>
-<script>if(localStorage.getItem('nutrilife-theme')!=='dark'){document.documentElement.setAttribute('data-theme','light');}</script>
+<script>try{if(localStorage.getItem('nutrilife-theme')!=='dark'){document.documentElement.setAttribute('data-theme','light');}}catch{document.documentElement.setAttribute('data-theme','light');}</script>
 <script>if(navigator.onLine&&location.hostname!=='localhost'&&location.hostname!=='127.0.0.1'){const s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-2JKGNXCY6W';document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-2JKGNXCY6W');}</script>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
@@ -28,9 +28,9 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="NutriLife — Започни сега">
 <meta name="twitter:description" content="7-дневен план за здравословен живот. Изгради навици стъпка по стъпка с дневен трекер.">
-<link href="css/style.css?v=45" rel="stylesheet"/>
-<script src="js/i18n.js?v=3"></script>
-<script src="js/i18n.start.js?v=2"></script>
+<link href="css/style.css?v=56" rel="stylesheet"/>
+<script src="js/i18n.js?v=4"></script>
+<script src="js/i18n.start.js?v=4"></script>
 </head>
 <body>
 <!-- Navbar -->
@@ -57,16 +57,13 @@
 <div class="stat-number" style="font-size:1.6rem;">30 мин</div>
 <div class="stat-label" data-i18n="s.hero.c1">движение/ден</div>
 </div>
-<div class="stat-card purple" data-i18n-html="s.stat_card.2">
-<div class="stat-number" style="font-size:1.6rem;">7 лв</div>
-<div class="stat-label" data-i18n="s.hero.c2">хранене/ден</div>
-</div>
+<div class="stat-card purple" data-i18n-html="s.stat_card.2"><div class="stat-number">По план</div><div class="stat-label">хранене според нуждите и бюджета</div></div>
 <div class="stat-card purple" data-i18n-html="s.stat_card.3">
 <div class="stat-number" style="font-size:1.6rem;">0 лв</div>
 <div class="stat-label" data-i18n="s.hero.c3">фитнес</div>
 </div>
 </div>
-<p class="note mt-24" data-i18n="s.hero.note">21 дни за нов навик — ти правиш само първите 7.</p>
+<p class="note mt-24" data-i18n="s.hero.note">Навикът се изгражда с повторение. Първите 7 дни са начало, не краен срок.</p>
 </div>
 <div class="page-visual">
 <img src="images/start-hero.jpg" alt="Обувки, вода и план до отворена врата" data-i18n-alt="s.hero.image_alt"/>
@@ -113,10 +110,7 @@
 <div class="stat-number" style="font-size:1.25rem;">Минимум</div>
 <div class="stat-label">10 мин ходене · 1 протеиново хранене · вода</div>
 </div>
-<div class="stat-card purple" data-i18n-html="s.mode_card.2">
-<div class="stat-number" style="font-size:1.25rem;">Нормален ден</div>
-<div class="stat-label">30 мин движение · 3 хранения · 130г+ протеин</div>
-</div>
+<div class="stat-card purple" data-i18n-html="s.mode_card.2"><div class="stat-number">Нормален ден</div><div class="stat-label">30 мин движение · редовни хранения · време за възстановяване</div></div>
 <div class="stat-card purple" data-i18n-html="s.mode_card.3">
 <div class="stat-number" style="font-size:1.25rem;">Силен ден</div>
 <div class="stat-label">Тренировка · чисто хранене · сън · подготовка за утре</div>
@@ -127,7 +121,7 @@
 <section>
 <div class="section-title">
 <h2 data-i18n="s.plan.h2">7-дневен план</h2>
-<p class="section-subtitle" data-i18n="s.plan.sub">Всичко е решено. Просто следвай.</p>
+<p class="section-subtitle" data-i18n="s.plan.sub">Примерни идеи за здрави възрастни. Порциите се избират според апетита и нуждите; менюто няма изчислени дневни калории или цена.</p>
 </div>
 <div class="accordion">
 <!-- Ден 1 -->
@@ -143,7 +137,7 @@
 <strong>Закуска:</strong> 3 яйца + овесена каша с банан<br/>
 <strong>Обяд:</strong> Пилешки бутчета + ориз + салата<br/>
 <strong>Вечеря:</strong> Леща яхния + кисело мляко
-                        <div class="meal-protein">~132г протеин · ~6.80 лв</div>
+                        <div class="meal-protein">Порциите определят протеина и бюджета</div>
 </div>
 <div class="info-box purple">
 <strong>Движение:</strong> 15 мин разходка (сутрин или вечер)
@@ -165,10 +159,10 @@
 <strong>Закуска:</strong> Овесена каша + скир + орехи<br/>
 <strong>Обяд:</strong> Риба тон + ориз + домати<br/>
 <strong>Вечеря:</strong> Пилешко + варени картофи
-                        <div class="meal-protein">~128г протеин · ~7.20 лв</div>
+                        <div class="meal-protein">Порциите определят протеина и бюджета</div>
 </div>
 <div class="info-box purple">
-<strong>Движение:</strong> 3×10 клека + 3×10 лицеви + 3×30сек планк
+<strong>Движение:</strong> 1–2 леки серии ставане от стол и лицеви на стена; спри преди силна умора
                     </div>
 <p style="margin-top:12px;"><strong>Цел на деня:</strong> Усети как тялото реагира. Няма грешен брой.</p>
 </div>
@@ -177,20 +171,20 @@
 <!-- Ден 3 -->
 <div class="accordion-item purple">
 <div class="accordion-header">
-<h3 data-i18n-html="s.h3.2">Ден 3 — ⚠️ Средата е най-трудна</h3>
+<h3 data-i18n-html="s.h3.2">Ден 3 — Продължи с малкото</h3>
 <span class="accordion-arrow">▼</span>
 </div>
 <div class="accordion-body">
 <div class="accordion-body-inner" data-i18n-html="s.body.2">
 <div class="info-box amber">
-<p style="color:var(--amber);"><strong>Предупреждение:</strong> Ден 3 е моментът, в който повечето хора се отказват. Очаквай го. Не се отказвай.</p>
+<p style="color:var(--amber);"><strong>Предупреждение:</strong> Труден ден може да има по всяко време. Намали задачата и продължи с поносимото.</p>
 </div>
 <div class="meal-card" style="background:var(--bg-card-purple); border-color:var(--border-purple);">
 <div class="meal-label" style="color:#7F77DD;">Хранене</div>
 <strong>Закуска:</strong> 3 яйца + хляб пълнозърнест<br/>
 <strong>Обяд:</strong> Нахут яхния + ориз<br/>
 <strong>Вечеря:</strong> Извара + орехи + банан
-                        <div class="meal-protein">~118г протеин · ~5.90 лв</div>
+                        <div class="meal-protein">Порциите определят протеина и бюджета</div>
 </div>
 <div class="info-box purple">
 <strong>Движение:</strong> 20 мин разходка + стълби вместо асансьор
@@ -212,10 +206,10 @@
 <strong>Закуска:</strong> Скир + овесена каша + банан<br/>
 <strong>Обяд:</strong> Пилешко + леща + зеленчуци<br/>
 <strong>Вечеря:</strong> Яйца (омлет) + сирене + домати
-                        <div class="meal-protein">~130г протеин · ~6.50 лв</div>
+                        <div class="meal-protein">Порциите определят протеина и бюджета</div>
 </div>
 <div class="info-box purple">
-<strong>Движение:</strong> 3×12 клека + 3×8 лицеви + 3×40сек планк
+<strong>Движение:</strong> Повтори леките упражнения от Ден 2, ако се възстановяваш добре
                     </div>
 <p style="margin-top:12px;"><strong>Цел на деня:</strong> Запитай се — спиш ли по-добре? Имаш ли повече енергия?</p>
 </div>
@@ -237,7 +231,7 @@
 <strong>Закуска:</strong> 3 яйца + овесена каша<br/>
 <strong>Обяд:</strong> Риба тон + картофи + салата<br/>
 <strong>Вечеря:</strong> Навън — грилована салата
-                        <div class="meal-protein">~110г протеин · бюджет варира</div>
+                        <div class="meal-protein">Порциите определят протеина и бюджета</div>
 </div>
 <div class="info-box purple">
 <strong>Движение:</strong> 25 мин разходка
@@ -249,7 +243,7 @@
 <!-- Ден 6 -->
 <div class="accordion-item purple">
 <div class="accordion-header">
-<h3 data-i18n-html="s.h3.5">Ден 6 — По-интензивно</h3>
+<h3 data-i18n-html="s.h3.5">Ден 6 — Повтори работещото</h3>
 <span class="accordion-arrow">▼</span>
 </div>
 <div class="accordion-body">
@@ -259,10 +253,10 @@
 <strong>Закуска:</strong> Овес + яйца + орехи<br/>
 <strong>Обяд:</strong> Пилешко + нахут + зеленчуци<br/>
 <strong>Вечеря:</strong> Боб яхния + кисело мляко
-                        <div class="meal-protein">~136г протеин · ~6.90 лв</div>
+                        <div class="meal-protein">Порциите определят протеина и бюджета</div>
 </div>
 <div class="info-box purple">
-<strong>Движение:</strong> HIIT — 4 × (30сек клекове + 30сек почивка + 30сек лицеви + 30сек почивка) = 8 мин + 10 мин разходка
+<strong>Движение:</strong> 10–20 минути поносима разходка. За първата седмица не е нужен HIIT
                     </div>
 <p style="margin-top:12px;"><strong>Цел на деня:</strong> Усети какво тялото ти може. Почивен ден утре е ОК.</p>
 </div>
@@ -281,7 +275,7 @@
 <strong>Закуска:</strong> Скир + банан + орехи<br/>
 <strong>Обяд:</strong> Пилешко + ориз + салата<br/>
 <strong>Вечеря:</strong> Леща + яйца + кисело мляко
-                        <div class="meal-protein">~134г протеин · ~6.70 лв</div>
+                        <div class="meal-protein">Порциите определят протеина и бюджета</div>
 </div>
 <div class="info-box purple">
 <strong>Движение:</strong> 30 мин разходка — разходка за размисъл
@@ -305,15 +299,15 @@
 <h2 data-i18n="s.tracker.h2">Днешен прогрес</h2>
 <p class="section-subtitle" data-i18n="s.tracker.sub">Отбележи какво направи днес</p>
 </div>
+<div class="tracker-toolbar">
+<button class="filter-btn" id="tracker-prev" type="button" aria-label="Предишен ден">←</button>
+<label class="tracker-date-label"><span data-i18n="tracker.date">Ден от дневника</span><input id="tracker-date" type="date" min="2000-01-01"/></label>
+<button class="filter-btn" id="tracker-next" type="button" aria-label="Следващ ден">→</button>
+<button class="filter-btn" id="tracker-today" type="button" data-i18n="tracker.today">Днес</button>
+</div>
 <div class="tracker">
-<label class="tracker-item" data-i18n-html="s.tracker_item.1">
-<input data-habit="protein" type="checkbox"/>
-<span class="tracker-label" data-i18n="s.habit.protein">🥩 130г+ протеин</span>
-</label>
-<label class="tracker-item" data-i18n-html="s.tracker_item.2">
-<input data-habit="water" type="checkbox"/>
-<span class="tracker-label" data-i18n="s.habit.water">💧 2л+ вода</span>
-</label>
+<label class="tracker-item" data-i18n-html="s.tracker_item.1"><input data-habit="protein" type="checkbox"/><span class="tracker-label" data-i18n="s.habit.protein">🥩 Протеин в основните хранения</span></label>
+<label class="tracker-item" data-i18n-html="s.tracker_item.2"><input data-habit="water" type="checkbox"/><span class="tracker-label" data-i18n="s.habit.water">💧 Пих вода редовно</span></label>
 <label class="tracker-item" data-i18n-html="s.tracker_item.3">
 <input data-habit="movement" type="checkbox"/>
 <span class="tracker-label" data-i18n="s.habit.movement">🏃 30 мин движение</span>
@@ -322,20 +316,20 @@
 <input data-habit="sleep" type="checkbox"/>
 <span class="tracker-label" data-i18n="s.habit.sleep">😴 7+ часа сън</span>
 </label>
-<label class="tracker-item" data-i18n-html="s.tracker_item.5">
-<input data-habit="no-sugar" type="checkbox"/>
-<span class="tracker-label" data-i18n="s.habit.no_sugar">🚫 Без добавена захар</span>
-</label>
-<label class="tracker-item" data-i18n-html="s.tracker_item.6">
-<input data-habit="no-junk" type="checkbox"/>
-<span class="tracker-label" data-i18n="s.habit.no_junk">🚫 Без боклуци за ядене</span>
-</label>
+<label class="tracker-item" data-i18n-html="s.tracker_item.5"><input data-habit="no-sugar" type="checkbox"/><span class="tracker-label" data-i18n="s.habit.no_sugar">🚫 Ограничих добавената захар</span></label>
+<label class="tracker-item" data-i18n-html="s.tracker_item.6"><input data-habit="no-junk" type="checkbox"/><span class="tracker-label" data-i18n="s.habit.no_junk">🥗 Основните хранения бяха пълноценни</span></label>
 </div>
 <div style="text-align:center; margin-top:16px;">
 <span data-i18n-html="s.span.1" id="tracker-progress" style="color:#7F77DD; font-weight:600;">0 от 6 завършени</span>
 <div class="progress-bar mt-16">
 <div class="fill purple" id="tracker-bar-fill" style="width:0%; transition: width 0.5s ease;"></div>
 </div>
+</div>
+<div class="tracker-backup">
+<button class="filter-btn" id="tracker-export" type="button" data-i18n="tracker.export">Изтегли дневника</button>
+<label class="filter-btn tracker-import-label"><span data-i18n="tracker.import">Възстанови от файл</span><input id="tracker-import" type="file" accept=".json,application/json"/></label>
+<p data-i18n="tracker.backup_hint">Архивът съдържа само навиците. При възстановяване съвпадащите дни се обновяват. Пази файла на лично място.</p>
+<p id="tracker-storage-status" role="status" aria-live="polite"></p>
 </div>
 </section>
 <!-- 4. Когато изпуснеш -->
@@ -426,7 +420,7 @@
 <footer class="site-footer">
     Направено от <a href="mailto:ivvmilev@gmail.com">Иван Милев</a> · <a href="privacy.html">Поверителност</a> · <a href="za-proekta.html">За проекта</a> · <a href="ne-e-meditsinski-savet.html">Не е медицински съвет</a>
 </footer>
-<script src="js/main.js?v=19"></script>
-<script>if('serviceWorker' in navigator){navigator.serviceWorker.register('sw.js?v=36');}</script>
+<script src="js/main.js?v=20"></script>
+<script>if('serviceWorker' in navigator){navigator.serviceWorker.register('sw.js?v=37');}</script>
 </body>
 </html>

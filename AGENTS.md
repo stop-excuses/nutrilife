@@ -25,6 +25,8 @@ Main navbar principle: keep one top-level nav across product/core pages, with th
 
 Keep this section short and update it after hands-on QA/fixes so future sessions do not repeat the same discovery work.
 
+- 2026-10-29: Diary uses local calendar dates, strict habit booleans, date navigation and version-1 JSON backups. Storage failures keep session data and show a temporary-data notice. Run `node --test tests/core-behavior.js tests/service-worker-data.js tests/service-worker-shell.js` and `python tests/site-integrity.py`; `.github/workflows/quality.yml` runs these plus scraper regression tests. SW activation must only remove caches prefixed `nutrilife-` because other GitHub Pages projects share this origin.
+
 **Git workflow**
 - Push directly to `master`. Do NOT create feature branches or PRs unless the user explicitly asks.
 - Do NOT add "Co-Authored-By: Claude" or "Claude-Session" lines to commit messages.

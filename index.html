@@ -2,7 +2,7 @@
 
 <html lang="bg">
 <head>
-<script>if(localStorage.getItem('nutrilife-theme')!=='dark'){document.documentElement.setAttribute('data-theme','light');}</script>
+<script>try{if(localStorage.getItem('nutrilife-theme')!=='dark'){document.documentElement.setAttribute('data-theme','light');}}catch{document.documentElement.setAttribute('data-theme','light');}</script>
 <script>if(navigator.onLine&&location.hostname!=='localhost'&&location.hostname!=='127.0.0.1'){const s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-2JKGNXCY6W';document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-2JKGNXCY6W');}</script>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
@@ -30,9 +30,9 @@
 <meta name="twitter:title" content="NutriLife — Все още имаш контрол">
 <meta name="twitter:description" content="Не е за диети и фитнес. За това как спираш бавното влошаване — с малки неща, правени редовно.">
 <meta name="twitter:image" content="https://stop-excuses.github.io/nutrilife/og-image.png?v=20260523">
-<link href="css/style.css?v=45" rel="stylesheet"/>
-<script src="js/i18n.js?v=3"></script>
-<script src="js/i18n.index.js?v=2"></script>
+<link href="css/style.css?v=56" rel="stylesheet"/>
+<script src="js/i18n.js?v=4"></script>
+<script src="js/i18n.index.js?v=3"></script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -79,8 +79,8 @@
 <span data-i18n="i.hero.proof.1.label">ходене днес</span>
 </div>
 <div>
-<strong data-i18n="i.hero.proof.2.num">72 часа</strong>
-<span data-i18n="i.hero.proof.2.label">за първи сигнал</span>
+<strong data-i18n="i.hero.proof.2.num">Днес</strong>
+<span data-i18n="i.hero.proof.2.label">първо действие</span>
 </div>
 <div>
 <strong data-i18n="i.hero.proof.3.num">7 дни</strong>
@@ -177,171 +177,38 @@
 <p class="section-subtitle" data-i18n="i.s5.sub">Реалните промени — не само на кантара</p>
 </div>
 <div class="info-box mt-16" style="border-color:var(--green-dark); background:var(--bg-card-green);">
-<p>Не искам да те убеждавам с цифри. Просто опитай <strong>72 часа</strong> — без захар, с 10 минути ходене на ден. Ако не усетиш нищо различно, забрави за сайта. Ако усетиш — ще разбереш сам.</p>
+<p>Опитай една малка промяна за седмица и следи как се получава. Липсата на бърз ефект не означава липса на полза. Не са нужни забрани на цели храни.</p>
 </div>
 <div class="cards-grid three mt-16" style="margin-bottom:24px;">
-<div class="stat-card green" data-i18n-html="i.stat_card.5">
-<div class="stat-number" style="font-size:2rem;">⚡</div>
-<h3 data-i18n="i.gain.energy.h3" style="margin-top:8px;">Енергия</h3>
-<p style="margin-top:6px;">Буден до края на деня без кафе. Не се събуждаш уморен. +30% субективна енергия след 1 месец.</p>
+<div class="stat-card green" data-i18n-html="i.stat_card.5"><div class="stat-number">⚡</div><h3>Енергия</h3><p>Редовните навици могат да помогнат за ежедневната енергия. Следи собствената си промяна, без обещан процент.</p></div>
+<div class="stat-card green" data-i18n-html="i.stat_card.6"><div class="stat-number">🎯</div><h3>Постоянство</h3><p>Малка стъпка, свързана с точен час и място, е по-лесна за повторение.</p></div>
+<div class="stat-card green" data-i18n-html="i.stat_card.7"><div class="stat-number">🧠</div><h3>Фокус</h3><p>Почивките от седене, движението и достатъчният сън подкрепят работоспособността.</p></div>
+<div class="stat-card green" data-i18n-html="i.stat_card.8"><div class="stat-number">🤝</div><h3>Общуване</h3><p>Разходка с приятел е едновременно движение и време с човек.</p></div>
+<div class="stat-card green" data-i18n-html="i.stat_card.9"><div class="stat-number">💪</div><h3>Самочувствие</h3><p>Напредъкът в конкретно действие може да ти даде увереност и преди промяна във външния вид.</p></div>
+<div class="stat-card green" data-i18n-html="i.stat_card.10"><div class="stat-number">😴</div><h3>Сън</h3><p>Движението може да подобри съня. Постоянните проблеми със съня имат различни причини.</p></div>
+<div class="stat-card green" data-i18n-html="i.stat_card.11"><div class="stat-number">😌</div><h3>Настроение</h3><p>Физическата активност може да намали симптоми на тревожност и депресия; не е гарантирано лечение за всеки.</p></div>
+<div class="stat-card green" data-i18n-html="i.stat_card.12"><div class="stat-number">🩺</div><h3>Здраве</h3><p>Движението и балансираното хранене подпомагат профилактиката. Показателите се проследяват, не се обещават.</p></div>
+<div class="stat-card green" data-i18n-html="i.stat_card.13"><div class="stat-number">💰</div><h3>Бюджет</h3><p>Планирането и по-малкото разхищение могат да намалят разходите. Сравнявай реалната си кошница.</p></div>
 </div>
-<div class="stat-card green" data-i18n-html="i.stat_card.6">
-<div class="stat-number" style="font-size:2rem;">🎯</div>
-<h3 data-i18n="i.gain.motivation.h3" style="margin-top:8px;">Мотивация</h3>
-<p style="margin-top:6px;">Физическата активност повишава допамина. Поставяш цели и ги постигаш. Спираш да отлагаш.</p>
-</div>
-<div class="stat-card green" data-i18n-html="i.stat_card.7">
-<div class="stat-number" style="font-size:2rem;">🧠</div>
-<h3 data-i18n="i.gain.focus.h3" style="margin-top:8px;">Фокус</h3>
-<p style="margin-top:6px;">Мозъкът спира да „замръзва" след обяд. Работиш остро до края на деня.</p>
-</div>
-<div class="stat-card green" data-i18n-html="i.stat_card.8">
-<div class="stat-number" style="font-size:2rem;">🤝</div>
-<h3 data-i18n="i.gain.social.h3" style="margin-top:8px;">Социалност</h3>
-<p style="margin-top:6px;">Излизаш повече. Играеш с децата без задъхване. Хората около теб питат какво правиш.</p>
-</div>
-<div class="stat-card green" data-i18n-html="i.stat_card.9">
-<div class="stat-number" style="font-size:2rem;">💪</div>
-<h3 data-i18n="i.gain.confidence.h3" style="margin-top:8px;">Самочувствие</h3>
-<p style="margin-top:6px;">Огледалото е различно. Дрехите седят по-добре. Влизаш в стаята по-уверено.</p>
-</div>
-<div class="stat-card green" data-i18n-html="i.stat_card.10">
-<div class="stat-number" style="font-size:2rem;">😴</div>
-<h3 data-i18n="i.gain.sleep.h3" style="margin-top:8px;">Сън</h3>
-<p style="margin-top:6px;">Будиш се преди будилника. По-дълбок сън. Заспиваш за минути, не за час.</p>
-</div>
-<div class="stat-card green" data-i18n-html="i.stat_card.11">
-<div class="stat-number" style="font-size:2rem;">😌</div>
-<h3 data-i18n="i.gain.mood.h3" style="margin-top:8px;">Настроение</h3>
-<p style="margin-top:6px;">Baseline-то е добро. Не зависиш от кафето за да функционираш. Тревожността пада.</p>
-</div>
-<div class="stat-card green" data-i18n-html="i.stat_card.12">
-<div class="stat-number" style="font-size:2rem;">🩺</div>
-<h3 data-i18n="i.gain.health.h3" style="margin-top:8px;">Здраве</h3>
-<p style="margin-top:6px;">Кръвната захар, холестеролът и налягането се нормализират. Лекарят те пита какво правиш.</p>
-</div>
-<div class="stat-card green" data-i18n-html="i.stat_card.13">
-<div class="stat-number" style="font-size:2rem;">💰</div>
-<h3 data-i18n="i.gain.money.h3" style="margin-top:8px;">Пари</h3>
-<p style="margin-top:6px;">По-малко болнични. По-малко лекарства. По-малко загубени работни дни. Здравето е инвестиция.</p>
-</div>
-</div>
-<div class="timeline" data-i18n-html="i.timeline.1">
-<div class="timeline-item">
-<div class="timeline-label">72 часа</div>
-<h3>Тялото реагира веднага</h3>
-<p>Спираш захарта → кръвната захар се стабилизира → кортизолът намалява. Вече на 3-тия ден спиш по-дълбоко.</p>
-<div class="stat-pills">
-<span class="stat-pill green">По-добър сън</span>
-<span class="stat-pill green">−Захарни желания</span>
-</div>
-</div>
-<div class="timeline-item">
-<div class="timeline-label">1 месец</div>
-<h3>Първите резултати</h3>
-<p>−3–5кг. Колегите забелязват нещо. Изкачваш стълбите без задъхване. Апетитът за захар е изчезнал почти напълно.</p>
-<div class="stat-pills">
-<span class="stat-pill green">−3–5 кг</span>
-<span class="stat-pill green">+30% енергия</span>
-<span class="stat-pill green">−40% захарен апетит</span>
-</div>
-</div>
-<div class="timeline-item">
-<div class="timeline-label">3 месеца</div>
-<h3>Видима промяна</h3>
-<p>Огледалото е различно. Кръвната захар е нормална. Фокусът на работа е на ниво, което не си имал от години.</p>
-<div class="stat-pills">
-<span class="stat-pill green">−8–12 кг</span>
-<span class="stat-pill green">−18% кръвна захар</span>
-<span class="stat-pill green">Мускулите са видими</span>
-</div>
-</div>
-<div class="timeline-item">
-<div class="timeline-label">1 година</div>
-<h3>Нов човек. Буквално.</h3>
-<p>Играеш с децата без задъхване. Лекарят не те гледа загрижено. Имаш енергия след 8 часа работа. Хората от обкръжението ти питат как си го направил.</p>
-<div class="stat-pills">
-<span class="stat-pill green">−15–20 кг</span>
-<span class="stat-pill green">Кръвно налягане — норма</span>
-<span class="stat-pill green">Холестерол — норма</span>
-<span class="stat-pill green">+5–7 години живот</span>
-</div>
-</div>
-<div class="timeline-item">
-<div class="timeline-label">5 години</div>
-<h3>Докато другите деградират — ти се подобряваш</h3>
-<p>На 45 си по-свеж от 35. Ставите не те болят, когато другите в офиса се оплакват. Тялото ти работи за теб, не срещу теб.</p>
-<div class="stat-pills">
-<span class="stat-pill green">По-малко болести</span>
-<span class="stat-pill green">По-малко лекарства</span>
-<span class="stat-pill green">По-добро качество на живот</span>
-</div>
-</div>
-</div>
-<div class="info-box" data-i18n-html="i.info_box.2">
-<h3>Гени vs начин на живот</h3>
-<div class="progress-bar-wrapper mt-16">
-<div class="progress-bar-label"><span>Начин на живот</span><span style="color:#97C459;">70%</span></div>
-<div class="progress-bar"><div class="fill green" data-width="70"></div></div>
-</div>
-<div class="progress-bar-wrapper">
-<div class="progress-bar-label"><span>Генетика</span><span style="color:#E24B4A;">30%</span></div>
-<div class="progress-bar"><div class="fill" data-width="30"></div></div>
-</div>
-</div>
+<div class="timeline" data-i18n-html="i.timeline.1"><div class="timeline-item"><div class="timeline-label">Днес</div><h3>Една изпълнима стъпка</h3><p>Избери 10 минути ходене, ако ги понасяш, или едно хранене с повече разнообразие.</p></div><div class="timeline-item"><div class="timeline-label">След седмица</div><h3>Провери повторението</h3><p>Колко дни успя? Кое ти попречи? Направи плана по-лесен там, където се къса.</p></div><div class="timeline-item"><div class="timeline-label">След месец</div><h3>Сравни със себе си</h3><p>Проследи ходене, сила, сън и талия при еднакви условия. Няма задължителни килограми за сваляне.</p></div><div class="timeline-item"><div class="timeline-label">След три месеца</div><h3>Надгради според резултата</h3><p>Увеличи натоварването постепенно, ако сегашното е поносимо. При нужда обсъди изследвания и симптоми със специалист.</p></div><div class="timeline-item"><div class="timeline-label">Дългосрочно</div><h3>Запази работещото</h3><p>Целта е режим, който се побира в живота ти. Пропуснат ден не занулява напредъка.</p></div></div>
+<div class="info-box" data-i18n-html="i.info_box.2"><h3>Гени и среда</h3><p>Гените влияят на предразположението, а средата и навиците влияят на това как живееш с него. Няма универсално съотношение „70% начин на живот, 30% генетика“. Работи върху нещата, които можеш да промениш.</p></div>
 <div class="cards-grid mt-24">
-<div class="info-box" data-i18n-html="i.info_box.3">
-<h3>💪 За мъжете</h3>
-<p style="margin-top:10px;">Редовното движение и правилното хранене са буквално хормонална терапия — безплатна и без странични ефекти.</p>
-<p style="margin-top:8px;">• <strong>Тестостерон:</strong> силовите тренировки го покачват с 15–25%. Затлъстяването и заседналият начин на живот го потискат значително.</p>
-<p style="margin-top:8px;">• <strong>Либидо и сексуален живот:</strong> кардиофитнесът подобрява еректилната функция — ефектът е сравним с медикамент. Хроничният стрес и липсата на сън са водещи причини за намалено сексуално желание.</p>
-<p style="margin-top:8px;">• <strong>Енергия и мотивация:</strong> мъжете с ниски нива на тестостерон описват умора, апатия и липса на желание — симптоми, погрешно приписвани на „стрес" или „характер".</p>
-<p style="margin-top:8px;">• <strong>Социалния живот:</strong> физически активните мъже показват по-висока увереност, по-добри социални умения и по-ниска социална тревожност.</p>
-<div class="stat-pills mt-16">
-<span class="stat-pill green">Тестостерон +15–25%</span>
-<span class="stat-pill green">Либидо и ерекция — директен ефект</span>
-<span class="stat-pill green">Повече енергия и мотивация</span>
-</div>
-</div>
-<div class="info-box" data-i18n-html="i.info_box.4">
-<h3>🌸 За жените</h3>
-<p style="margin-top:10px;">Женската хормонална система е по-сложна — и по-чувствителна към начина на живот. Добрите навици я успокояват, лошите често усилват проблемите.</p>
-<p style="margin-top:8px;">• <strong>Хормонален баланс:</strong> физическата активност регулира естроген и прогестерон, намалява симптомите на ПМС с до 50% при редовни тренировки.</p>
-<p style="margin-top:8px;">• <strong>Енергия и настроение:</strong> жените с активен начин на живот съобщават значително по-малко умора, по-добро настроение и по-добра концентрация в цикъла.</p>
-<p style="margin-top:8px;">• <strong>Тегло и метаболизъм:</strong> протеинът и силовите тренировки запазват мускулна маса — особено важно след 35, когато метаболизмът се забавя.</p>
-<p style="margin-top:8px;">• <strong>Самочувствие и социален живот:</strong> движението е клинично доказан антидепресант — ефектът е особено силен при жени с хормонален дисбаланс и стрес.</p>
-<div class="stat-pills mt-16">
-<span class="stat-pill green">−50% ПМС симптоми</span>
-<span class="stat-pill green">По-добро настроение и концентрация</span>
-<span class="stat-pill green">Метаболизъм и мускули след 35</span>
-</div>
-</div>
+<div class="info-box" data-i18n-html="i.info_box.3"><h3>Сила за ежедневието</h3><p>Силовите упражнения помагат да запазваш сила и мускули. Започни с поносима трудност и постепенно напредвай. Това не е хормонална терапия и не гарантира определен ръст на тестостерона.</p></div>
+<div class="info-box" data-i18n-html="i.info_box.4"><h3>Режим, който можеш да повториш</h3><p>Движението, достатъчното хранене и възстановяването са полезна основа и за жените, и за мъжете. Няма универсален режим за „хормонален баланс“. Постоянни симптоми като силна умора, нарушения в цикъла или промени в либидото имат нужда от индивидуална оценка.</p></div>
 </div>
 <p class="quote mt-32" data-i18n-html="i.quote.1">„Не тренираш за да изглеждаш. Тренираш за да живееш."</p>
 </section>
 <!-- 3. Огледалото -->
 <section>
 <div class="section-title">
-<h2 data-i18n="i.s2.h2">Огледалото</h2>
-<p class="section-subtitle" data-i18n="i.s2.sub">Числата, които не искаш да видиш</p>
+<h2 data-i18n="i.s2.h2">База, която можеш да изградиш</h2>
+<p class="section-subtitle" data-i18n="i.s2.sub">Практични ориентири за възрастни, не обещания за резултат</p>
 </div>
 <div class="cards-grid">
-<div class="stat-card" data-i18n-html="i.stat_card.1">
-<div class="stat-number">1 от 2</div>
-<div class="stat-label" data-i18n="i.s2.c1">българи с наднормено тегло</div>
-</div>
-<div class="stat-card" data-i18n-html="i.stat_card.2">
-<div class="stat-number">+340%</div>
-<div class="stat-label" data-i18n="i.s2.c2">диабет от 1980г</div>
-</div>
-<div class="stat-card" data-i18n-html="i.stat_card.3">
-<div class="stat-number">23ч</div>
-<div class="stat-label" data-i18n="i.s2.c3">на ден сме в статично положение (седим, лежим, гледаме екран)</div>
-</div>
-<div class="stat-card" data-i18n-html="i.stat_card.4">
-<div class="stat-number">8/10</div>
-<div class="stat-label" data-i18n="i.s2.c4">сърдечни болести предотвратими</div>
-</div>
+<div class="stat-card" data-i18n-html="i.stat_card.1"><div class="stat-number">150–300</div><div class="stat-label">минути умерено движение седмично за възрастни</div></div>
+<div class="stat-card" data-i18n-html="i.stat_card.2"><div class="stat-number">2 дни</div><div class="stat-label">силови упражнения седмично</div></div>
+<div class="stat-card" data-i18n-html="i.stat_card.3"><div class="stat-number">По малко</div><div class="stat-label">движение е по-добре от никакво</div></div>
+<div class="stat-card" data-i18n-html="i.stat_card.4"><div class="stat-number">Постепенно</div><div class="stat-label">увеличавай според възможностите си</div></div>
 </div>
 <p class="note" data-i18n="i.s2.note">Бавно се е случило. Бавно се обръща.</p>
 </section>
@@ -364,7 +231,7 @@
 <section>
 <div class="section-title">
 <h2 data-i18n="i.s3.h2">Колко те засяга?</h2>
-<p class="section-subtitle" data-i18n="i.s3.sub">Избери възрастта си. Това не са проценти, а ориентир кое става по-често, ако си заседнал, с корем и без силова тренировка.</p>
+<p class="section-subtitle" data-i18n="i.s3.sub">Възрастта дава контекст, но не поставя диагноза и не предсказва личния ти риск.</p>
 </div>
 <div class="age-buttons">
 <button class="age-btn" data-age="kids">Под 18</button>
@@ -387,11 +254,11 @@
 <section>
 <div class="section-title">
 <h2 data-i18n="i.quiz.h2">Твоят приоритет</h2>
-<p class="section-subtitle" data-i18n="i.quiz.sub">4 въпроса · 30 секунди · конкретен старт</p>
+<p class="section-subtitle" data-i18n="i.quiz.sub">4 въпроса за навици · ориентир за следваща стъпка, не оценка на здравето</p>
 </div>
 <div class="quiz" id="diagnosis-quiz">
 <div class="quiz-question" data-area="movement">
-<h3 data-i18n="i.quiz.q1">1. Колко пъти седмично се движиш поне 30 минути (ходене, тренировка, спорт)?</h3>
+<h3 data-i18n="i.quiz.q1">Дни с 30+ минути движение през последната седмица:</h3>
 <div class="quiz-options">
 <button class="quiz-btn" data-points="0" data-i18n="i.quiz.q1.a0">0 пъти</button>
 <button class="quiz-btn" data-points="1" data-i18n="i.quiz.q1.a1">1–2 пъти</button>
@@ -399,11 +266,11 @@
 </div>
 </div>
 <div class="quiz-question" data-area="nutrition">
-<h3 data-i18n="i.quiz.q2">2. Закуската ти обикновено е:</h3>
+<h3 data-i18n="i.quiz.q2">Плодове и зеленчуци в основните хранения:</h3>
 <div class="quiz-options">
-<button class="quiz-btn" data-points="0" data-i18n="i.quiz.q2.a0">Кроасан / сладко / нищо</button>
-<button class="quiz-btn" data-points="1" data-i18n="i.quiz.q2.a1">Сандвич / мюсли</button>
-<button class="quiz-btn" data-points="2" data-i18n="i.quiz.q2.a2">Яйца / овес / извара</button>
+<button class="quiz-btn" data-points="0" data-i18n="i.quiz.q2.a0">Рядко</button>
+<button class="quiz-btn" data-points="1" data-i18n="i.quiz.q2.a1">В част от храненията</button>
+<button class="quiz-btn" data-points="2" data-i18n="i.quiz.q2.a2">В повечето дни</button>
 </div>
 </div>
 <div class="quiz-question" data-area="sleep">
@@ -438,9 +305,7 @@
 <span class="accordion-arrow">▼</span>
 </div>
 <div class="accordion-body">
-<div class="accordion-body-inner" data-i18n-html="i.e1.body">
-<p>Тялото се <strong>обновява изцяло на клетъчно ниво</strong> на всеки 3–7 години. Мастните клетки се свиват в рамките на седмици при промяна в храненето. „Такъв съм си" е избор, не биология.</p>
-</div>
+<div class="accordion-body-inner" data-i18n-html="i.e1.body"><p>Навиците могат да се променят с повторение и по-лесна среда. Не е нужно да чакаш да се почувстваш друг човек: избери малка стъпка, която можеш да изпълниш днес и утре.</p></div>
 </div>
 </div>
 <div class="accordion-item amber">
@@ -449,9 +314,7 @@
 <span class="accordion-arrow">▼</span>
 </div>
 <div class="accordion-body">
-<div class="accordion-body-inner" data-i18n-html="i.e2.body">
-<p>Вярно е — индустрията се е влошила. Но <strong>яйцата, броколито, овесената каша, лещата, орехите, авокадото, сьомгата, горските плодове, тъмният шоколад, гръцкото кисело мляко, сладкият картоф, бадемите, доматите, чесънът</strong> са същите от хиляди години. Цели храни все още съществуват — просто не ги избираш.</p>
-</div>
+<div class="accordion-body-inner" data-i18n-html="i.e2.body"><p>Изборът е труден, но основни продукти има: овес, яйца, бобови, кисело мляко, плодове и зеленчуци. Гледай състава, количеството и цялостния си режим. Замразеното и консервираното също могат да са удобен избор.</p></div>
 </div>
 </div>
 <div class="accordion-item amber">
@@ -460,16 +323,7 @@
 <span class="accordion-arrow">▼</span>
 </div>
 <div class="accordion-body">
-<div class="accordion-body-inner" data-i18n-html="i.e3.body">
-<p>Овесена каша, яйца, леща, боб, банани, моркови, замразени зеленчуци — <strong>всичко това е по-евтино от бургера и кафето</strong> за вкъщи.</p>
-<p class="mt-8">Реална сметка: <strong>Бургер меню = ~15лв. Яйца + овес + банан = ~3лв.</strong> За цената на един обяд в заведение се храниш здравословно 5 дни. Боклукът не е евтин — плащаш го двойно: веднъж на касата, втори път с болести след години.</p>
-<div class="stat-pills">
-<span class="stat-pill green">6.80 лв/ден здравословно</span>
-<span class="stat-pill">25 лв/ден типично</span>
-<span class="stat-pill green">~540 лв/мес спестяваш</span>
-<span class="stat-pill green">132г протеин за 6.80лв</span>
-</div>
-</div>
+<div class="accordion-body-inner" data-i18n-html="i.e3.body"><p>Бобови, овес, яйца, сезонни и замразени зеленчуци могат да помогнат за бюджета. Сравнявай пълноценно хранене с пълноценно хранене, еднакви количества и реални цени. Няма една дневна сума, която осигурява достатъчно храна за всеки.</p><p><a href="smart-food.html">Сравни наличните оферти →</a></p></div>
 </div>
 </div>
 <div class="accordion-item amber">
@@ -478,16 +332,7 @@
 <span class="accordion-arrow">▼</span>
 </div>
 <div class="accordion-body">
-<div class="accordion-body-inner" data-i18n-html="i.e4.body">
-<p>Овесена каша — <strong>3 минути</strong>. Яйца — <strong>5 минути</strong>. Варена леща за 4 дни — <strong>20 минути веднъж</strong>.</p>
-<p class="mt-8">Средният човек прекарва <strong>6-7 часа на ден в телефона</strong> — скролване, reels, TikTok, нищо. Според проучване на App Annie, <strong>България е в топ 10 по екранно време в Европа</strong>. Намираш 3 часа за Netflix и 2 часа за скролване, но не можеш да намериш 10 минути да сготвиш нещо нормално. <strong>Не е липса на време — липса на приоритет.</strong></p>
-<div class="stat-pills">
-<span class="stat-pill green">30 мин = 1 епизод</span>
-<span class="stat-pill green">−22% риск от ранна смърт</span>
-<span class="stat-pill">4ч/ден телевизия средно</span>
-<span class="stat-pill amber">21 мин ходене = минимум</span>
-</div>
-</div>
+<div class="accordion-body-inner" data-i18n-html="i.e4.body"><p>Започни с 10 минути, вързани към нещо, което така или иначе правиш: ходене след обяд, приготвяне на закуска вечерта или кратка пауза от седене. Времето за подготовка също се брои; избери лесна стъпка.</p></div>
 </div>
 </div>
 <div class="accordion-item amber">
@@ -507,10 +352,7 @@
 <span class="accordion-arrow">▼</span>
 </div>
 <div class="accordion-body">
-<div class="accordion-body-inner" data-i18n-html="i.e6.body">
-<p>Прав си — един бургер не убива. Но <strong>не е един бургер</strong>. Всеки ден е „само веднъж". Диабетът, сърдечните болести и затлъстяването не идват от едно хранене — идват от хиляди „само веднъж".</p>
-<p class="mt-8">И не е случайно. <strong>Вредните храни са проектирани да бъдат пристрастяващи.</strong> Хранителната индустрия харчи милиарди, за да намери точната комбинация от захар, сол и мазнини, която кара мозъка ти да иска още. Никога не е „едно парче" пица. Никога не е „една чипсова чанта". Не защото нямаш воля — а защото са <strong>направени точно така</strong>.</p>
-</div>
+<div class="accordion-body-inner" data-i18n-html="i.e6.body"><p>Едно хранене не определя здравето ти. По-важни са обичайният режим, количеството, разнообразието и това какво можеш да поддържаш. Няма нужда да „компенсираш“ един бургер с глад или наказателна тренировка.</p></div>
 </div>
 </div>
 <div class="accordion-item amber">
@@ -519,15 +361,7 @@
 <span class="accordion-arrow">▼</span>
 </div>
 <div class="accordion-body">
-<div class="accordion-body-inner" data-i18n-html="i.e7.body">
-<p>Генетиката определя <strong>предразположение, не съдба</strong>. Близнакови проучвания показват, че начинът на живот надвишава гените с 70–80% при диабет тип 2 и затлъстяване. Семейните навици са по-„заразни" от гените.</p>
-<div class="stat-pills">
-<span class="stat-pill green">70% начин на живот</span>
-<span class="stat-pill">30% генетика</span>
-<span class="stat-pill green">Епигенетика — гените се променят</span>
-<span class="stat-pill green">−50% диабет с движение</span>
-</div>
-</div>
+<div class="accordion-body-inner" data-i18n-html="i.e7.body"><p>Наследствеността влияе на теглото и здравето, но не обезсмисля движението и доброто хранене. Сравнявай напредъка със собствената си изходна точка, а не с човек с различни условия.</p></div>
 </div>
 </div>
 <div class="accordion-item amber">
@@ -536,11 +370,7 @@
 <span class="accordion-arrow">▼</span>
 </div>
 <div class="accordion-body">
-<div class="accordion-body-inner" data-i18n-html="i.e8.body">
-<p>Захарта удря кръвта бързо → инсулинът изстрелва → захарта пада рязко → <strong>мозъкът усеща това като заплаха и вдига кортизол</strong> — хормона на стреса — за да стабилизира ситуацията. Правиш го 3-4 пъти на ден с всяка захарна хапка.</p>
-<p class="mt-8">Резултатът: <strong>хронично повишен кортизол</strong> → по-лош сън → повече тревожност → по-малко търпение → по-лошо настроение. После пак посягаш към боклука за „утеха" и цикълът се затваря.</p>
-<p class="mt-8">Магнезият, омега-3 и протеинът директно намаляват кортизола. <strong>„Наградата" за стреса всъщност те стресира повече.</strong> Не е слабост — просто не знаеш как работи тялото ти.</p>
-</div>
+<div class="accordion-body-inner" data-i18n-html="i.e8.body"><p>Нормално е да търсиш отдушник след тежък ден. Подготви си лесна вечеря, кратка разходка или разговор с близък. Не е нужно храната да е награда, а тренировката — наказание.</p></div>
 </div>
 </div>
 <div class="accordion-item amber">
@@ -549,17 +379,7 @@
 <span class="accordion-arrow">▼</span>
 </div>
 <div class="accordion-body">
-<div class="accordion-body-inner" data-i18n-html="i.e9.body">
-<p><strong>95% от хората, които отиват на диета, връщат килограмите в рамките на 1-5 години.</strong> Не защото са слаби — а защото диетата е временно ограничение, не промяна на начина на живот.</p>
-<p class="mt-8">Ето как работи: Ограничаваш се → страдаш → издържаш → спираш → връщаш всичко + малко отгоре. После се чувстваш по-зле, отколкото преди. Цикълът на провал те кара да повярваш, че „не работи за теб".</p>
-<p class="mt-8"><strong>Мотивацията не е за диети — мотивацията е за изграждане на навици.</strong> Не се нуждаеш от перфектен хранителен план. Нуждаеш се от 3-4 малки навика, които можеш да правиш до края на живота си без усилие. Замени овесената каша вместо закуска с кроасан — завинаги, не за 30 дни. <strong>Устойчивата промяна не се усеща като жертва.</strong></p>
-<div class="stat-pills">
-<span class="stat-pill amber">4 седмици за първи резултати</span>
-<span class="stat-pill">80% се отказват след 2 седм.</span>
-<span class="stat-pill green">12 седмици за видима промяна</span>
-<span class="stat-pill green">21 дни за нов навик</span>
-</div>
-</div>
+<div class="accordion-body-inner" data-i18n-html="i.e9.body"><p>Неуспешен опит не доказва, че промяната е невъзможна. Виж какво те е спряло: глад, прекалено сложен план, неподходящ график или липса на подкрепа. Следващият опит трябва да решава конкретната пречка.</p></div>
 </div>
 </div>
 <div class="accordion-item amber">
@@ -586,16 +406,7 @@
 <span class="accordion-arrow">▼</span>
 </div>
 <div class="accordion-body">
-<div class="accordion-body-inner" data-i18n-html="i.e11.body">
-<p><strong>80% от болките в гърба не са от „дископатия"</strong> — а от слаби мускули около гръбначния стълб. Движението не вреди — слабостта вреди. Укрепването на мускулите около ставата е основното лечение при повечето ортопедични оплаквания.</p>
-<p class="mt-8">Имаш лошо коляно? Укрепи квадрицепсите и задните бедрени мускули — налягането върху ставата намалява. Имаш болки в гърба? Силен корем и гръб = край на болката в 70% от случаите без операция или хапчета.</p>
-<p class="mt-8"><strong>Почти всяка контузия има упражнения, които са безопасни.</strong> Контузено коляно → горна тренировка. Наранено рамо → крака и корем. Нулевото движение е единственото нещо, което гарантирано влошава нещата.</p>
-<div class="stat-pills">
-<span class="stat-pill green">80% болки в гърба = слаби мускули</span>
-<span class="stat-pill green">−60% хронична болка с упражнения</span>
-<span class="stat-pill amber">Почивката прави ставите по-слаби</span>
-</div>
-</div>
+<div class="accordion-body-inner" data-i18n-html="i.e11.body"><p>Болката не е автоматично оправдание, но не е и тест за характер. Избирай поносими движения и адаптирай натоварването според състоянието. При нова травма, изтръпване, слабост или нарастваща болка потърси оценка. Не всяка болка в гърба е от слаби мускули.</p></div>
 </div>
 </div>
 <div class="accordion-item amber">
@@ -604,9 +415,7 @@
 <span class="accordion-arrow">▼</span>
 </div>
 <div class="accordion-body">
-<div class="accordion-body-inner" data-i18n-html="i.e12.body">
-<p>Инсулиновата резистентност, която градиш <strong>сега</strong>, ще определи качеството ти на живот на 50, 60, 70. Артериите, черният дроб и панкреасът не чакат. <strong>Най-добрият момент е преди да се наложи.</strong></p>
-</div>
+<div class="accordion-body-inner" data-i18n-html="i.e12.body"><p>По-лесно е да изграждаш устойчиви навици постепенно, отколкото да чакаш конкретен проблем. Започни с нещо малко сега; няма нужда от обещания за заболявания, за да има смисъл.</p></div>
 </div>
 </div>
 <div class="accordion-item amber">
@@ -615,17 +424,7 @@
 <span class="accordion-arrow">▼</span>
 </div>
 <div class="accordion-body">
-<div class="accordion-body-inner" data-i18n-html="i.e13.body">
-<p>На <strong>60 години тялото още реагира на промяна</strong> в рамките на седмици. Проучвания показват, че хора над 70 качват мускулна маса и подобряват инсулинова чувствителност само с промяна в храненето.</p>
-<p class="mt-8">Реални примери: <strong>Fauja Singh започна да тича маратони на 89 години</strong> след промяна в начина на живот. Проучване на Harvard от 2020 показва, че хора над 60, които смениха диетата си, намалиха риска от сърдечна болест с <strong>40% само за 6 месеца</strong>.</p>
-<p class="mt-8">А сърдечните болести са <strong>#1 причина за смърт в света</strong> — убиват 17.9 милиона души годишно според СЗО. Повече от рак, катастрофи и войни взети заедно. И <strong>до 80% от случаите са предотвратими с начин на живот.</strong> Единственият момент, в който е наистина късно — е когато вече не дишаш.</p>
-<div class="stat-pills">
-<span class="stat-pill green">70+ години — мускулите растат</span>
-<span class="stat-pill green">−40% падания с баланс</span>
-<span class="stat-pill green">+3г живот с 150мин/седм.</span>
-<span class="stat-pill amber">Саркопения = 3-5% мускул/декада след 30</span>
-</div>
-</div>
+<div class="accordion-body-inner" data-i18n-html="i.e13.body"><p>Възрастта не премахва ползата от движението. Започни според сегашните си възможности. За по-възрастните хора сила и баланс са особено полезни за ежедневната самостоятелност. Подобрението не изисква маратон.</p></div>
 </div>
 </div>
 <div class="accordion-item amber">
@@ -634,9 +433,7 @@
 <span class="accordion-arrow">▼</span>
 </div>
 <div class="accordion-body">
-<div class="accordion-body-inner" data-i18n-html="i.e14.body">
-<p>Точно обратното. <strong>Инсулиновата резистентност, артериалните увреждания и чернодробното затлъстяване се градят с години — безшумно.</strong> На 20–30 не усещаш нищо. На 40–50 плащаш сметката. Младостта не те предпазва — просто отлага последствията. Колкото по-рано започнеш, толкова повече години живееш качествено.</p>
-</div>
+<div class="accordion-body-inner" data-i18n-html="i.e14.body"><p>Младостта не е гаранция за здраве, но не означава и че вече имаш заболяване. Използвай я, за да изградиш сън, движение и хранене, които ти помагат и след години.</p></div>
 </div>
 </div>
 <div class="accordion-item amber">
@@ -645,10 +442,7 @@
 <span class="accordion-arrow">▼</span>
 </div>
 <div class="accordion-body">
-<div class="accordion-body-inner" data-i18n-html="i.e15.body">
-<p>Пържола на тиган с чесън и розмарин. Яйца с авокадо и домат. Сьомга с лимон и масло. Тъмен шоколад 85%. Гръцко кисело мляко с мед и орехи. Карамелизиран сладък картоф.</p>
-<p class="mt-8"><strong>Не е скучна варена пиле и салата.</strong> Здравословното хранене е вкусно — просто не си го опитвал приготвено правилно. Боклукът е проектиран да е пристрастяващ с изкуствени аромати и усилватели на вкус. Истинската храна има реален вкус — трябват ти само 2-3 седмици без боклук, за да го усетиш отново.</p>
-</div>
+<div class="accordion-body-inner" data-i18n-html="i.e15.body"><p>Омлет с домати. Леща с подправки. Печени картофи с кисело мляко. Риба със зеленчуци. Вкусът зависи от приготвянето. И полезните храни имат калории — порцията също има значение.</p></div>
 </div>
 </div>
 <div class="accordion-item amber">
@@ -669,9 +463,7 @@
 <span class="accordion-arrow">▼</span>
 </div>
 <div class="accordion-body">
-<div class="accordion-body-inner" data-i18n-html="i.e17.body">
-<p>Точно. Затова <strong>не прекарвай последните 20 години с диабет, сърдечни болести и хронична умора</strong>. Хората с добро хранене живеят по-дълго И по-качествено — повече енергия, по-добро настроение, повече живот.</p>
-</div>
+<div class="accordion-body-inner" data-i18n-html="i.e17.body"><p>Наслаждението и грижата за себе си могат да вървят заедно. Целта е повече възможности в ежедневието, без да превръщаш храненето и спорта в постоянно наказание.</p></div>
 </div>
 </div>
 </div>
@@ -689,34 +481,7 @@
 <span class="accordion-arrow">▼</span>
 </div>
 <div class="accordion-body">
-<div class="accordion-body-inner" data-i18n-html="i.h1.body">
-<p><strong>Тютюнопушенето е единствената легална дейност, която убива всеки втори редовен потребител.</strong> Не е хипербола — това е официалната статистика на СЗО.</p>
-<p class="mt-8">Всяка цигара нанася увреждания, които не се усещат веднага. Артериите се стесняват. ДНК се уврежда. Белите дробове губят капацитет. Процесът е бавен, безшумен и необратим — докато не стане много видим.</p>
-<div class="research">
-<strong>WHO Global Report on Tobacco, 2023</strong><br/>
-                        Тютюнът убива 8 милиона души годишно. 50% от редовните пушачи умират от свързано с тютюна заболяване. Всяка изпушена цигара скъсява живота с ~11 минути.
-                    </div>
-<div class="research">
-<strong>New England Journal of Medicine, 2022</strong><br/>
-                        Хората, спрели до 35-годишна възраст, възстановяват почти пълната очаквана продължителност на живота. Спирането на всяка възраст носи значителна полза — дори на 60 печелиш 3+ години.
-                    </div>
-<table class="food-table mt-16">
-<thead><tr><th>Ефект</th><th>Факт</th></tr></thead>
-<tbody>
-<tr><td>Рак на белия дроб</td><td><em class="red">25× по-висок риск</em></td></tr>
-<tr><td>Сърдечна болест</td><td><em class="red">2–4× по-висок риск</em></td></tr>
-<tr><td>Инсулт</td><td><em class="red">2× по-висок риск</em></td></tr>
-<tr><td>Загубени години живот</td><td><em class="red">10–12 години средно</em></td></tr>
-</tbody>
-</table>
-<p class="mt-8">След спиране: <strong>20 мин</strong> — пулсът се нормализира. <strong>24 часа</strong> — риск от инфаркт спада. <strong>1 година</strong> — риск от коронарна болест е наполовина. <strong>10 години</strong> — риск от рак на белия дроб е наполовина.</p>
-<div class="stat-pills mt-16">
-<span class="stat-pill">8M смъртни случая/год.</span>
-<span class="stat-pill">50% умират от тютюн</span>
-<span class="stat-pill">−11 мин живот/цигара</span>
-<span class="stat-pill green">Спирането работи на всяка възраст</span>
-</div>
-</div>
+<div class="accordion-body-inner" data-i18n-html="i.h1.body"><p>Тютюнопушенето повишава риска от рак, сърдечни и белодробни заболявания. Спирането носи полза на всяка възраст. Ако самостоятелните опити не вървят, потърси подкрепа и обсъди доказани методи за отказване.</p><p><a href="https://www.who.int/news-room/fact-sheets/detail/tobacco" target="_blank" rel="noopener">Източник: СЗО — тютюн</a></p></div>
 </div>
 </div>
 <div class="accordion-item amber">
@@ -725,34 +490,7 @@
 <span class="accordion-arrow">▼</span>
 </div>
 <div class="accordion-body">
-<div class="accordion-body-inner" data-i18n-html="i.h2.body">
-<p>Чаша вино на празник с близките е напълно различно нещо от ежедневния алкохол. Тази разлика е важна и честна. <strong>Проблемът не е „наздраве" — проблемът е нормализираното ежедневно пиене.</strong></p>
-<p class="mt-8">Алкохолът е класифициран като <strong>канцероген от Група 1</strong> от Световната здравна организация — в една категория с тютюна и азбеста. Дори умерената консумация (1 чаша/ден) е свързана с повишен риск от рак на гърдата и дебелото черво.</p>
-<div class="research">
-<strong>Lancet, 2022 (Global Burden of Disease Study)</strong><br/>
-                        Не съществува безопасен праг на алкохол за мозъчното здраве. Дори 1 питие/ден намалява обема на сивото вещество. Рискът нараства линейно с консумацията.
-                    </div>
-<div class="research">
-<strong>British Medical Journal, 2023</strong><br/>
-                        Мета-анализ на 107 проучвания: редовната консумация на алкохол е свързана с +18% риск от рак на гърдата, +21% рак на черния дроб и +17% рак на дебелото черво.
-                    </div>
-<p class="mt-8"><strong>Алкохолът разваля дълбокия сън</strong> — дори 1–2 питиета намаляват качеството на съня. Събуждаш се "отпочинал" по часовник, но мозъкът ти не се е възстановил.</p>
-<p class="mt-8">Черният дроб е основният ти детоксикиращ орган. При редовно пиене &gt;2 питиета/ден → мастен черен дроб → цироза. Процесът е обратим в ранните стадии — черният дроб се регенерира.</p>
-<div class="info-box mt-16" style="border-color:var(--green-dark); background:var(--bg-card-green);">
-<h3>Ако пиеш — пий по-умно</h3>
-<p style="margin-top:8px;">• <strong>Яж преди</strong> — никога не пий на гладно. Протеинът и мазнините забавят усвояването.</p>
-<p>• <strong>Редувай с вода</strong> — по 1 чаша вода между напитките. Намалява общото количество и предотвратява махмурлука.</p>
-<p>• <strong>Избирай по-чисти варианти</strong> — сухо вино, уиски/водка с минерална вода. Избягвай коктейли с много захар.</p>
-<p>• <strong>2 дни пауза след пиене</strong> — черният дроб се нуждае от почивка за пълно възстановяване.</p>
-<p>• <strong>Сутринта след</strong> — вода, електролити, протеин. Не „лекувай" с мазна храна и кафе.</p>
-</div>
-<div class="stat-pills mt-16">
-<span class="stat-pill">Канцероген Група 1 (СЗО)</span>
-<span class="stat-pill">по-лош дълбок сън</span>
-<span class="stat-pill amber">Редовното е рисково</span>
-<span class="stat-pill green">Случайно „наздраве" — ОК</span>
-</div>
-</div>
+<div class="accordion-body-inner" data-i18n-html="i.h2.body"><p>Рискът зависи от количеството и начина на пиене. По-малко алкохол означава по-малък риск, но рядкото пиене също не е безрисково. Водата и храната не обезвреждат алкохола и не гарантират липса на махмурлук.</p><p>Няма правило, че два дни почивка „възстановяват напълно“ черния дроб. При ежедневна тежка употреба и симптоми при пропускане потърси медицинска помощ за безопасно намаляване.</p><p><a href="https://www.who.int/news-room/fact-sheets/detail/alcohol" target="_blank" rel="noopener">Източник: СЗО — алкохол</a></p></div>
 </div>
 </div>
 <div class="accordion-item red">
@@ -761,40 +499,7 @@
 <span class="accordion-arrow">▼</span>
 </div>
 <div class="accordion-body">
-<div class="accordion-body-inner" data-i18n-html="i.h3.body">
-<p>Хазартът е единствената зависимост, при която мозъкът реагира <strong>идентично на кокаин</strong> по отношение на допаминовия скок. Не е въпрос на слаба воля — това е клинично призната поведенческа зависимост.</p>
-<p class="mt-8">Онлайн залаганията, спортните бонуси и казино приложенията са проектирани от поведенчески психолози с една цел: <strong>да те върнат обратно</strong>. Всяка „почти печалба" е програмирана. Всеки безплатен завой е примамка.</p>
-<div class="research">
-<strong>Българска академия на науките / OFFNews, 2024</strong><br/>
-                        Между 4% и 7% от възрастните българи страдат от хазартна зависимост — двойно повече от глобалната средна стойност. 12% от гимназистите в България са проблемни играчи. Над 54 000 са се регистрирали официално като хазартно зависими (Евроком / Novinite, края на 2025 г.) — а реалният брой е многократно по-голям, тъй като повечето хора не признават проблема дори пред себе си.
-                    </div>
-<div class="research">
-<strong>Lancet Psychiatry, 2023</strong><br/>
-                        Мозъчните скенери показват, че при хора с хазартна зависимост префронталният кортекс (отговорен за контрол на импулсите) е структурно увреден — същото като при дългогодишна употреба на алкохол.
-                    </div>
-<table class="food-table mt-16">
-<thead><tr><th>Признак</th><th>Реалност</th></tr></thead>
-<tbody>
-<tr><td>„Ще си върна парите"</td><td><em class="red">Средно: човек с проблемно залагане губи повече при опит да възстанови загуби</em></td></tr>
-<tr><td>„Имам система"</td><td><em class="red">Казиното е математически проектирано — няма печеливша система</em></td></tr>
-<tr><td>„Само за забавление"</td><td><em class="amber">Безплатните залагания водят до платени — умишлено</em></td></tr>
-<tr><td>Спиране</td><td><em class="green">Когнитивно-поведенческата терапия има 60–80% успеваемост</em></td></tr>
-</tbody>
-</table>
-<div class="info-box red mt-16">
-<h3>Признаци на проблем</h3>
-<p style="margin-top:8px;">• Мислиш за залагане дори когато не залагаш</p>
-<p>• Криеш загубите от близки</p>
-<p>• Залагаш с пари, предназначени за сметки или храна</p>
-<p>• Опитвал си се да спреш и не си успял</p>
-<p>• Залагаш за да „избягаш" от стрес или негативни емоции</p>
-</div>
-<div class="stat-pills mt-16">
-<span class="stat-pill red">3× по-висок суициден риск</span>
-<span class="stat-pill red">Допамин = кокаин по ефект</span>
-<span class="stat-pill green">КПТ работи в 60–80%</span>
-</div>
-</div>
+<div class="accordion-body-inner" data-i18n-html="i.h3.body"><p>Хазартът може да доведе до зависимост, финансови загуби и проблеми в отношенията. Предупредителни сигнали са преследване на загубите, криене на залози, използване на пари за сметки и неуспешни опити за спиране.</p><p>При такъв модел ограничи достъпа до залози и плащания, сподели с доверен човек и потърси професионална подкрепа. Това не е доказателство за „слаб характер“.</p><p><a href="https://www.who.int/news-room/fact-sheets/detail/gambling" target="_blank" rel="noopener">Източник: СЗО — хазарт</a></p></div>
 </div>
 </div>
 </div>
@@ -821,7 +526,7 @@
 <footer class="site-footer">
     Направено от <a href="mailto:ivvmilev@gmail.com">Иван Милев</a> · <a href="privacy.html">Поверителност</a> · <a href="za-proekta.html">За проекта</a> · <a href="ne-e-meditsinski-savet.html">Не е медицински съвет</a>
 </footer>
-<script src="js/main.js?v=19"></script>
-<script>if('serviceWorker' in navigator){navigator.serviceWorker.register('sw.js?v=36');}</script>
+<script src="js/main.js?v=20"></script>
+<script>if('serviceWorker' in navigator){navigator.serviceWorker.register('sw.js?v=37');}</script>
 </body>
 </html>

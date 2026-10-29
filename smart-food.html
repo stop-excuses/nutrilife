@@ -2,7 +2,7 @@
 
 <html lang="bg">
 <head>
-<script>if(localStorage.getItem('nutrilife-theme')!=='dark'){document.documentElement.setAttribute('data-theme','light');}</script>
+<script>try{if(localStorage.getItem('nutrilife-theme')!=='dark'){document.documentElement.setAttribute('data-theme','light');}}catch{document.documentElement.setAttribute('data-theme','light');}</script>
 <script>if(navigator.onLine&&location.hostname!=='localhost'&&location.hostname!=='127.0.0.1'){const s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-2JKGNXCY6W';document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-2JKGNXCY6W');}</script>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
@@ -28,9 +28,9 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Умна храна — Храни се добре. Пазарувай разумно.">
 <meta name="twitter:description" content="Седмични промоции от Lidl, Kaufland, Billa и повече. Пазарувай умно, яж здравословно на по-ниска цена.">
-<link href="css/style.css?v=55" rel="stylesheet"/>
-<script src="js/i18n.js?v=3"></script>
-<script src="js/i18n.smart-food.js?v=12"></script>
+<link href="css/style.css?v=56" rel="stylesheet"/>
+<script src="js/i18n.js?v=4"></script>
+<script src="js/i18n.smart-food.js?v=13"></script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -68,22 +68,7 @@
 <div class="utility-hero-content">
 <h1 data-i18n-html="sf.hero.h1">Храни се добре.<br/><em class="green">Пазарувай умно.</em></h1>
 <p data-i18n="sf.hero.p">Тук събираме оферти, сравнения и по-разумни покупки за нормална храна.</p>
-<div class="comparison mt-24" data-i18n-html="c.comparison.1">
-<div class="comparison-col bad">
-<div class="label" data-i18n="c.comp.bad">Типичен ден</div>
-<div class="price">25 лв</div>
-<p style="font-size:0.8rem;">43г протеин</p>
-</div>
-<div class="comparison-col good">
-<div class="label" data-i18n="c.comp.good">Здравословен ден</div>
-<div class="price">7 лв</div>
-<p style="font-size:0.8rem;">132г протеин</p>
-</div>
-</div>
-<div class="savings-box" data-i18n-html="c.savings_box.1">
-<p data-i18n="c.savings.label" style="color:#b0afa6; margin-bottom:8px;">Спестяваш на месец:</p>
-<div class="savings-amount">~540 лв</div>
-</div>
+<div class="info-box mt-24" data-i18n-html="sf.hero.utility"><h3>Сравни преди покупка</h3><p>Търси продукт, провери грамажа и срока на офертата и запази в пазарния списък. Историята показва засечени цени, а не гарантирана цена във всеки магазин.</p></div>
 </div>
 <div class="utility-hero-media food-hero-media" aria-label="Примерни продукти за умно пазаруване">
 <img src="images/smart-food-hero.jpg" alt="Умно пазаруване и планиране на храна у дома" data-i18n-alt="sf.visual.hero.alt"/>
@@ -223,9 +208,9 @@
     Направено от <a href="mailto:ivvmilev@gmail.com">Иван Милев</a> · <a href="privacy.html">Поверителност</a> · <a href="za-proekta.html">За проекта</a> · <a href="ne-e-meditsinski-savet.html">Не е медицински съвет</a>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
-<script src="js/main.js?v=19"></script>
+<script src="js/main.js?v=20"></script>
 <script src="data/offers.js?v=8"></script>
-<script src="js/offers.js?v=82"></script>
-<script>if('serviceWorker' in navigator){navigator.serviceWorker.register('sw.js?v=36');}</script>
+<script src="js/offers.js?v=83"></script>
+<script>if('serviceWorker' in navigator){navigator.serviceWorker.register('sw.js?v=37');}</script>
 </body>
 </html>

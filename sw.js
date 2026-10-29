@@ -1,4 +1,4 @@
-const CACHE_NAME = 'nutrilife-v36';
+const CACHE_NAME = 'nutrilife-v37';
 const DATA_CACHE = 'nutrilife-data-v1';
 const DATA_MAX_AGE_MS = 30 * 60 * 1000;
 const dataRequests = new Map();
@@ -21,8 +21,18 @@ const APP_SHELL = [
   'manifest.json',
   'favicon.svg',
   IMAGE_FALLBACK_URL,
-  'css/style.css?v=45',
-  'js/main.js?v=19',
+  'health-check.html',
+  'mental.html',
+  'privacy.html',
+  'css/style.css?v=56',
+  'js/main.js?v=20',
+  'js/i18n.js?v=4',
+  'js/i18n.index.js?v=3',
+  'js/i18n.move.js?v=2',
+  'js/i18n.eat.js?v=2',
+  'js/i18n.start.js?v=4',
+  'js/i18n.mental.js?v=2',
+  'js/i18n.health-check.js?v=3',
   'images/pwa/icon-192.png',
   'images/pwa/icon-512.png',
   'images/pwa/icon-maskable-192.png',
@@ -58,7 +68,7 @@ async function cacheFirst(request, cacheName) {
   const cached = await cache.match(request);
   if (cached) return cached;
   const response = await fetch(request);
-  if (response.ok || response.type === 'opaque') cache.put(request, response.clone());
+  if (response.ok || response.type === 'opaque') await cache.put(request, response.clone()).catch(() => {});
   return response;
 }
 
@@ -100,7 +110,11 @@ async function networkFirst(request) {
   const cache = await caches.open(RUNTIME_CACHE);
   try {
     const response = await fetch(request);
-    if (response.ok) cache.put(request, response.clone());
+    if (response.status >= 500) {
+      const cached = await caches.match(request);
+      if (cached) return cached;
+    }
+    if (response.ok) await cache.put(request, response.clone()).catch(() => {});
     return response;
   } catch (error) {
     if (request.mode === 'navigate') {
@@ -123,7 +137,7 @@ async function imageFallback(request) {
   try {
     const response = await fetch(request);
     if (response.ok || response.type === 'opaque') {
-      cache.put(request, response.clone());
+      await cache.put(request, response.clone()).catch(() => {});
     }
     return response;
   } catch {
@@ -142,7 +156,7 @@ self.addEventListener('install', event => {
 self.addEventListener('activate', event => {
   event.waitUntil(
     caches.keys()
-      .then(keys => Promise.all(keys.map(key => CACHE_NAMES.has(key) ? null : caches.delete(key))))
+      .then(keys => Promise.all(keys.map(key => key.startsWith('nutrilife-') && !CACHE_NAMES.has(key) ? caches.delete(key) : null)))
       .then(() => self.clients.claim())
   );
 });

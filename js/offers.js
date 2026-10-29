@@ -21,15 +21,15 @@ let allCatalogProducts = [];
 let selectedFavoriteOfferId = "";
 let selectedProductOfferId = "";
 let favoriteItems = (() => {
-    const raw = JSON.parse(localStorage.getItem('nutrilife-favorites') || '[]');
+    const raw = window.NutriLifeStorage.json('nutrilife-favorites', []);
     if (!Array.isArray(raw)) return [];
     return raw
-        .filter(f => f && typeof f === 'object' && f.kw)
+        .filter(f => f && typeof f === 'object' && typeof f.kw === 'string' && f.kw.length <= 200)
         .map(f => {
             const ids = Array.isArray(f.seedOfferIds) && f.seedOfferIds.length
                 ? f.seedOfferIds
                 : [f.seedOfferId || f.offerId].filter(Boolean);
-            return { kw: f.kw, seedOfferIds: [...new Set(ids)], emoji: f.emoji || '🍽️', cat: f.cat || null };
+            return { kw: f.kw, seedOfferIds: [...new Set(ids.filter(id => typeof id === 'string'))], emoji: typeof f.emoji === 'string' ? f.emoji : '🍽️', cat: typeof f.cat === 'string' ? f.cat : null };
         })
         .filter(f => f.seedOfferIds.length > 0);
 })();
@@ -74,6 +74,20 @@ function ensureCatalogLoaded() {
         s.onerror = (err) => {
             hideCatalogLoadingHint();
             catalogLoadPromise = null;
+            s.remove();
+            const status = document.getElementById("offers-status");
+            if (status) {
+                const notice = document.createElement("span");
+                notice.setAttribute("role", "status");
+                notice.dataset.i18n = "catalog.error";
+                notice.textContent = window.I18N.t("catalog.error");
+                const retry = document.createElement("button");
+                retry.type = "button";
+                retry.className = "filter-btn";
+                retry.textContent = window.I18N.t("data.retry");
+                retry.addEventListener("click", () => ensureCatalogLoaded().catch(() => {}));
+                status.append(notice, retry);
+            }
             reject(err);
         };
         document.body.appendChild(s);
@@ -547,6 +561,8 @@ function getSpecialCaseMacros(nameLower) {
  */
 function getMacros(offer) {
     const nameLower = (offer.name || "").toLowerCase();
+    // A named ingredient does not determine nutrition for a prepared product.
+    if (hasAmbiguousNutrition(nameLower)) return null;
     // Hard-block known non-food names
     if (NON_FOOD_MACRO_OVERRIDE.some(kw => nameLower.includes(kw))) return null;
     const specialCaseMacros = getSpecialCaseMacros(nameLower);
@@ -556,6 +572,18 @@ function getMacros(offer) {
         if (nameLower.includes(keyword)) return { ...(offer.macros || {}), ...nutrition };
     }
     return offer.macros || null;
+}
+
+function hasAmbiguousNutrition(name) {
+    return /бульон|нудли|супа|шницел|паниран|кебап с|талиател|спагети|макарон|равиол|лазан|пица|кекс|вафл|бисквит|салата|паста с|сос с/.test(name)
+        || (/(?:леща|нахут|боб|фасул)/.test(name) && !/консерв|варен|стерилизиран|буркан/.test(name));
+}
+
+function isWellnessDeal(offer) {
+    const name = getOfferNameLower(offer);
+    return isHealthyOffer(offer) && !hasAmbiguousNutrition(name)
+        && !/(?:^|[\s,(])(?:бира|вино|водка|уиски|ракия|джин|ром|текила|ликьор|просеко|beer|wine)(?=$|[\s,).])/.test(name)
+        && offer.category !== "sweets";
 }
 
 function getOfferNameLower(offer) {
@@ -1320,6 +1348,10 @@ function getNormalizedWeightInfo(offer) {
     return { raw: `${m[1]}${unit}`, grams: parsedGrams };
 }
 
+function getUnitPriceLabel(offer) {
+    return /(?:[0-9]\s*|\s)(?:мл|ml|л|l)(?=$|[\s.,;])/i.test((offer.name || "") + " " + (offer.weight_raw || "")) ? "лв/л" : "лв/кг";
+}
+
 function getReliablePricePerKg(offer) {
     const weightInfo = getNormalizedWeightInfo(offer);
     const derivedPpk = weightInfo && offer.new_price != null && offer.new_price > 0
@@ -1360,6 +1392,7 @@ function buildOfferProfile(offer) {
     const proteinSource = PROTEIN_SOURCE_KEYWORDS.some(kw => nameLower.includes(kw)) || strictHighProtein;
     const reliablePricePerKg = getReliablePricePerKg(offer);
     const validProteinValue = healthy
+        && !!macros
         && healthScore >= 6
         && !!reliablePricePerKg
         && hasCanonicalNutritionValue
@@ -1438,7 +1471,7 @@ function getPricePerKgEstimate(offer) {
 function getProteinMetrics(offer, strictWeight = false) {
     const profile = getOfferProfile(offer);
     const macros = profile.macros;
-    if (!macros || macros.p < 1) return null;
+    if (!macros || macros.p < 1 || getUnitPriceLabel(offer) === "лв/л") return null;
 
     let pricePerKg;
     if (strictWeight) {
@@ -1592,11 +1625,8 @@ function applyCatalogEnrichment() {
     if (typeof Fuse !== 'undefined') {
         fuseIndex = new Fuse(allOffers, {
             keys: [
-                { name: 'name', weight: 0.55 },
-                { name: 'store', weight: 0.12 },
-                { name: 'category', weight: 0.1 },
-                { name: 'diet_tags', weight: 0.08 },
-                { name: '_searchText', weight: 0.15 },
+                { name: 'name', weight: 0.8 },
+                { name: 'store', weight: 0.2 },
             ],
             threshold: 0.28,
             distance: 200,
@@ -1663,7 +1693,7 @@ async function loadOffers() {
     } else {
         const grid = document.getElementById("offers-grid");
         if (grid) {
-            grid.innerHTML = '<p style="text-align:center; color:var(--muted);">Проблем при зареждане на данните.</p>';
+            grid.innerHTML = '<div class="offers-empty"><p data-i18n="data.error">' + window.I18N.t("data.error") + '</p><button class="filter-btn" type="button" data-reload-page data-i18n="data.retry">' + window.I18N.t("data.retry") + '</button></div>';
         }
     }
 }
@@ -1874,7 +1904,15 @@ function diversifyOffers(offers, limitPerGroup = 3) {
    FAVORITES
    ----------------------------------------------------------------------- */
 function saveFavorites() {
-    localStorage.setItem('nutrilife-favorites', JSON.stringify(favoriteItems));
+    const saved = window.NutriLifeStorage.set('nutrilife-favorites', JSON.stringify(favoriteItems));
+    if (!saved) {
+        const panel = document.getElementById("fav-panel");
+        if (panel) {
+            let notice = document.getElementById("favorites-storage-status");
+            if (!notice) { notice = document.createElement("p"); notice.id = "favorites-storage-status"; notice.setAttribute("role", "status"); panel.before(notice); }
+            notice.textContent = window.I18N.t("favorites.temporary");
+        }
+    }
 }
 
 const FAVORITE_KEYWORD_ALIASES = {
@@ -2394,7 +2432,7 @@ function renderFavoriteProductScreen(offerId) {
     const detailFallbackSrc = hasRealImage(offer.image) ? getLocalFallbackImage(offer) : "";
     const metaParts = [];
     if (weightInfo?.raw) metaParts.push(weightInfo.raw);
-    if (displayPpk) metaParts.push(`${displayPpk.toFixed(2)} лв/кг`);
+    if (displayPpk) metaParts.push(`${displayPpk.toFixed(2)} ${getUnitPriceLabel(offer)}`);
 
     return `
         <div class="fav-product-screen" data-offer-id="${getOfferDomId(offer)}" role="dialog" aria-modal="true">
@@ -2413,7 +2451,7 @@ function renderFavoriteProductScreen(offerId) {
                             ${offer.discount_pct ? `<span class="fav-disc">−${offer.discount_pct}%</span>` : ""}
                         </div>
                         <div class="fav-preview-facts">
-                            ${healthyOffer && offer.health_score != null ? `<span>Рейтинг ${offer.health_score}/10</span>` : ""}
+
                             ${metaParts.length ? `<span>${escapeHtml(metaParts.join(" · "))}</span>` : ""}
                             ${validity ? `<span>${validity}</span>` : ""}
                             ${macros ? `<span>${macros.p}г протеин · ${macros.f}г мазнини · ${macros.c}г въгл.</span>` : ""}
@@ -2426,7 +2464,7 @@ function renderFavoriteProductScreen(offerId) {
                     ${validity ? `<div class="details-row"><strong>Оферта:</strong> <span>${validity}</span></div>` : ""}
                     ${metaParts.length ? `<div class="details-row"><strong>Детайли:</strong> <span>${escapeHtml(metaParts.join(" · "))}</span></div>` : ""}
                     ${macros ? `
-                        <div class="macros-grid fav-screen-macros">
+                        <p data-i18n="food.macros_estimate">${window.I18N.t("food.macros_estimate")}</p><div class="macros-grid fav-screen-macros">
                             <div class="macro-item"><div class="macro-val">${macros.kcal}</div><div class="macro-label">ккал</div></div>
                             <div class="macro-item"><div class="macro-val">${macros.p}г</div><div class="macro-label">протеин</div></div>
                             <div class="macro-item"><div class="macro-val">${macros.f}г</div><div class="macro-label">мазнини</div></div>
@@ -2452,11 +2490,8 @@ function initSearch() {
     if (typeof Fuse !== 'undefined') {
         fuseIndex = new Fuse(allOffers, {
             keys: [
-                { name: 'name', weight: 0.55 },
-                { name: 'store', weight: 0.12 },
-                { name: 'category', weight: 0.1 },
-                { name: 'diet_tags', weight: 0.08 },
-                { name: '_searchText', weight: 0.15 },
+                { name: 'name', weight: 0.8 },
+                { name: 'store', weight: 0.2 },
             ],
             threshold: 0.28,       // 0=exact, 1=match anything
             distance: 200,
@@ -2508,9 +2543,10 @@ function applyFilters() {
             filtered = filtered.filter(o => o.category === categoryShortcut);
         } else if (fuseIndex) {
             const precise = filtered.filter(o => matchesPreciseSearch(o, searchQuery));
-            const fuseMatches = getFuseQueries(searchQuery).flatMap(q => fuseIndex.search(q)
+            const needsFuzzy = !precise.length && !getSearchIntent(searchQuery) && searchQuery.length <= 32;
+            const fuseMatches = needsFuzzy ? fuseIndex.search(searchQuery, { limit: 120 })
                 .filter(r => r.score == null || r.score <= 0.18)
-                .map(r => r.item));
+                .map(r => r.item) : [];
             const candidates = precise.length || STRICT_SEARCH_TERMS.has(searchQuery)
                 ? precise
                 : [...precise, ...fuseMatches];
@@ -2798,20 +2834,14 @@ function initProfileFilters() {
    RENDER OFFER CARDS
    ----------------------------------------------------------------------- */
 function getComparableOffers(offer) {
+    if (!offer._comparisonKey || !getReliablePricePerKg(offer)) return [];
     const bestPerStore = new Map();
-
-    allOffers
-        .filter(item => item._comparisonKey && item._comparisonKey === offer._comparisonKey && item.new_price != null && isHealthyOffer(item))
+    allOffers.filter(item => item._comparisonKey === offer._comparisonKey && getUnitPriceLabel(item) === getUnitPriceLabel(offer) && isHealthyOffer(item) && getReliablePricePerKg(item))
         .forEach(item => {
             const existing = bestPerStore.get(item.store);
-            if (!existing || item.new_price < existing.new_price) {
-                bestPerStore.set(item.store, item);
-            }
+            if (!existing || getReliablePricePerKg(item) < getReliablePricePerKg(existing)) bestPerStore.set(item.store, item);
         });
-
-    return Array.from(bestPerStore.values())
-        .sort((a, b) => a.new_price - b.new_price)
-        .map((item, index) => ({ ...item, isBest: index === 0 }));
+    return [...bestPerStore.values()].sort((a, b) => getReliablePricePerKg(a) - getReliablePricePerKg(b)).map((item, index) => ({ ...item, isBest: index === 0 }));
 }
 
 function getBestComparableOffersByStore(comparisonKey) {
@@ -2835,11 +2865,11 @@ function renderStoreComparisonList(offer) {
 
     return `
         <div class="comparison-mini">
-            <div class="comparison-mini-title">Сравнение по магазини</div>
+            <div class="comparison-mini-title">Сходни продукти — сравнявай единичната цена</div>
             ${comparisons.map(item => `
                 <div class="comparison-mini-row ${item.isBest ? "best" : ""}">
-                    <span>${escapeHtml(item.store)}</span>
-                    <span>${item.new_price.toFixed(2)} лв${item.source_type === "promo" ? " · промо" : ""}</span>
+                    <span>${escapeHtml(item.store)} · ${escapeHtml(item.name)}</span>
+                    <span>${getReliablePricePerKg(item).toFixed(2)} ${getUnitPriceLabel(item)} · опаковка ${item.new_price.toFixed(2)} лв</span>
                 </div>
             `).join("")}
         </div>
@@ -2954,9 +2984,9 @@ function renderPriceHistory(offer) {
     if (points.length === 0) return "";
 
     const lastInHistory = points[points.length - 1];
-    const today = new Date().toISOString().slice(0, 10);
-    if (currentPrice != null && (lastInHistory.price !== currentPrice || lastInHistory.date !== today)) {
-        points.push({ date: today, price: currentPrice, discount_pct: offer.discount_pct || 0, _current: true });
+    const observedDay = String(offer.last_seen || offer.scraped_at || (typeof OFFERS_DATA !== "undefined" ? OFFERS_DATA.generated_at : "") || lastInHistory.date).slice(0, 10);
+    if (currentPrice != null && observedDay >= lastInHistory.date && (lastInHistory.price !== currentPrice || lastInHistory.date !== observedDay)) {
+        points.push({ date: observedDay, price: currentPrice, discount_pct: offer.discount_pct || 0, _current: true });
     }
 
     const prices = points.map(e => e.price);
@@ -3025,7 +3055,7 @@ function renderPriceHistory(offer) {
         const cls = [isCurrent ? "current" : "", isPromo ? "promo" : isLow ? "low" : ""].filter(Boolean).join(" ");
         const label = `${e.date}\n${e.price.toFixed(2)} лв${e.discount_pct ? ` · -${e.discount_pct}%` : ""}`;
         const showDate = showAllDates || i === 0 || i === chartPoints.length - 1 || isCurrent;
-        const dateStr = showDate && e.date ? e.date.slice(5).replace("-", ".") : "";
+        const dateStr = showDate && e.date ? formatOfferDate(e.date).slice(0, 5) : "";
         return `
             <g class="ph-dot-wrap ${cls}" tabindex="0">
                 <title>${escapeHtml(label)}</title>
@@ -3273,7 +3303,7 @@ function renderOffers(offers) {
 
         let metaParts = [];
         if (weightInfo?.raw) metaParts.push(weightInfo.raw);
-        if (displayPpk) metaParts.push(`${displayPpk.toFixed(2)} лв/кг`);
+        if (displayPpk) metaParts.push(`${displayPpk.toFixed(2)} ${getUnitPriceLabel(o)}`);
 
         const stores = o.available_stores && o.available_stores.length > 1
             ? o.available_stores.join(", ")
@@ -3290,12 +3320,12 @@ function renderOffers(offers) {
             const bgnPer100g = (100 / pm.rawProteinPerLev).toFixed(2);
             proteinValueHtml = `<div class="details-row"><strong>Цена на протеина:</strong> <span class="green">${bgnPer100g} лв/100г протеин</span></div>`;
             if (activeSort === "protein_value" && isValidProteinValueOffer(o)) {
-                proteinBadgeHtml = `<div class="offer-ppk green">${bgnPer100g} лв/100г протеин</div>`;
+                proteinBadgeHtml = `<div class="offer-ppk green">~${bgnPer100g} лв/100г протеин</div>`;
             }
         }
 
         return `
-            <div class="offer-card" data-offer-id="${getOfferDomId(o)}">
+            <div class="offer-card" data-offer-id="${getOfferDomId(o)}" tabindex="0" role="button" aria-label="Виж ${escapeHtml(nameParts.full)}">
                 <div class="offer-header">
                     <div class="offer-img-area">
                         ${imgTag}
@@ -3314,45 +3344,13 @@ function renderOffers(offers) {
                             ${o.old_price ? `<span class="offer-old-price">${o.old_price.toFixed(2)} лв</span>` : ""}
                         </div>
                         ${renderDiscountHonesty(o)}
-                        ${displayPpk ? `<div class="offer-ppk">${displayPpk.toFixed(2)} лв/кг</div>` : ""}
+                        ${displayPpk ? `<div class="offer-ppk">${displayPpk.toFixed(2)} ${getUnitPriceLabel(o)}</div>` : ""}
                         ${proteinBadgeHtml}
                         ${validityShort ? `<div class="offer-validity">${validityShort}</div>` : ""}
                         <div class="offer-badges">${badges.join("")}</div>
                         ${renderSparkline(o)}
                     </div>
                     <span class="offer-arrow">▼</span>
-                </div>
-                <div class="offer-details">
-                    <div class="details-inner">
-                        <div class="details-content">
-                            ${imgSrc ? `<img src="${imgSrc}" class="offer-big-img${!hasRealImage(o.image) ? " fallback" : ""}" ${detailFallbackSrc ? `data-fallback-src="${detailFallbackSrc}"` : ""} onerror="${detailFallbackSrc ? `if(this.dataset.fallbackSrc&&this.src!==this.dataset.fallbackSrc){this.src=this.dataset.fallbackSrc;this.classList.add('fallback');}else{this.style.display='none';}` : "this.style.display='none'"}">` : ""}
-                            ${hasHealthScore ? `<div class="details-row"><strong>Здравен рейтинг:</strong> <span>${o.health_score}/10</span></div>` : ""}
-                            ${isCuredLeanMeat(o) ? `<div class="details-row"><strong>Бележка:</strong> <span>Висок протеин, но лек penalty за сол и сушене.</span></div>` : ""}
-                            <div class="details-row"><strong>Продукт:</strong> <span>${escapeHtml(nameParts.full)}</span></div>
-                            <div class="details-row"><strong>Магазин:</strong> <span>${stores}${o.address ? ' (' + o.address + ')' : ''}</span></div>
-                            ${validityDetail ? `<div class="details-row"><strong>Оферта:</strong> <span>${validityDetail}</span></div>` : ""}
-                            ${metaParts.length ? `<div class="details-row"><strong>Детайли:</strong> <span>${metaParts.join(" · ")}</span></div>` : ""}
-                            ${o.shelf_life && o.shelf_life !== "малотраен" ? `<div class="details-row"><strong>Годност:</strong> <span>${o.shelf_life}</span></div>` : ""}
-                            ${proteinValueHtml}
-                            ${renderStoreComparisonList(o)}
-                            ${macros ? `
-                            <div class="details-row macros-header">
-                                <strong>Хранителни стойности (на 100г):</strong>
-                                <span class="est-badge">стандартни</span>
-                            </div>
-                            <div class="macros-grid">
-                                <div class="macro-item"><div class="macro-val">${macros.kcal}</div><div class="macro-label">ккал</div></div>
-                                <div class="macro-item"><div class="macro-val">${macros.p}г</div><div class="macro-label">протеин</div></div>
-                                <div class="macro-item"><div class="macro-val">${macros.f}г</div><div class="macro-label">мазнини</div></div>
-                                <div class="macro-item"><div class="macro-val">${macros.c}г</div><div class="macro-label">въгл.</div></div>
-                                ${macros.sugar != null ? `<div class="macro-item"><div class="macro-val">${macros.sugar}г</div><div class="macro-label">захар</div></div>` : ""}
-                                ${macros.fiber != null ? `<div class="macro-item"><div class="macro-val">${macros.fiber}г</div><div class="macro-label">фибри</div></div>` : ""}
-                            </div>` : ""}
-                            ${renderIngredientsFlags(o)}
-                            ${renderPriceHistory(o)}
-                            ${renderIngredientsBlock(o)}
-                        </div>
-                    </div>
                 </div>
             </div>
         `;
@@ -4070,12 +4068,12 @@ function buildDstripCard(o, badgeHtml) {
     return `
         <div class="dstrip-card" data-offer-link="${offerId}" tabindex="0">
             <div class="dstrip-img-area">
-                <img src="${img}" alt="${o.name}" loading="lazy" onerror="if(this.src!=='${fallback}')this.src='${fallback}'">
+                <img src="${img}" alt="${escapeHtml(o.name)}" loading="lazy" onerror="if(this.src!=='${fallback}')this.src='${fallback}'">
                 ${badgeHtml}
                 <button class="fav-btn${favActive}" data-offer-id="${offerId}" title="${favTitle}" onclick="event.stopPropagation()">❤️</button>
             </div>
             <div class="dstrip-body">
-                <div class="dstrip-name">${o.name}</div>
+                <div class="dstrip-name">${escapeHtml(o.name)}</div>
                 <div class="dstrip-price">${o.new_price != null ? o.new_price.toFixed(2) + ' лв' : '—'}</div>
                 <div class="dstrip-store">${o.store}</div>
             </div>
@@ -4099,6 +4097,7 @@ function renderTopDeals() {
 
     const deals = allOffers
         .filter(o => o.source_type === "promo" && o.discount_pct >= 15 && o.new_price != null && FOOD_CATEGORIES.has(o.category))
+        .filter(isWellnessDeal)
         // Drop inflated-base "−50%" theatre — a top deal must be a real saving.
         .filter(o => { const v = evaluateDiscountHonesty(o); return !(v && v.kind === "weak"); })
         .map(o => ({ o, score: dealQualityScore(o) }))
@@ -4172,6 +4171,13 @@ function initOfferAccordion() {
     const grid = document.getElementById("offers-grid");
     if (!grid || grid.dataset.accordionBound === "1") return;
     grid.dataset.accordionBound = "1";
+    grid.addEventListener("keydown", event => {
+        const card = event.target.closest(".offer-card");
+        if (card && event.target === card && (event.key === "Enter" || event.key === " ")) {
+            event.preventDefault();
+            openOfferProductScreen(card.dataset.offerId);
+        }
+    });
     grid.addEventListener("click", (e) => {
         const favBtn = e.target.closest(".fav-btn");
         if (favBtn && grid.contains(favBtn)) {

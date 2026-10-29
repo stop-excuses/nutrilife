@@ -1,0 +1,37 @@
+name: Site quality
+
+on:
+  push:
+    branches: [master]
+    paths: ["*.html", "css/**", "js/**", "sw.js", "tests/**", ".github/workflows/quality.yml"]
+  pull_request:
+    paths: ["*.html", "css/**", "js/**", "sw.js", "tests/**", ".github/workflows/quality.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install test dependencies
+        run: python -m pip install requests beautifulsoup4 playwright
+      - name: Check JavaScript syntax
+        run: |
+          for file in js/*.js sw.js; do node --check "$file"; done
+      - name: Test browser-independent behavior
+        run: node --test tests/core-behavior.js tests/service-worker-data.js tests/service-worker-shell.js
+      - name: Check pages and scraper regressions
+        run: |
+          python tests/site-integrity.py
+          python tests/test_scraper_freshness.py
+          python tests/test_supplement_quality.py
