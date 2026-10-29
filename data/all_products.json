@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-29T16:33:09.320154Z",
-  "total_products": 60655,
+  "generated_at": "2026-10-29T18:13:37.981349Z",
+  "total_products": 60656,
   "products": [
     {
       "name": "Пушена риба тон",
@@ -2447464,6 +2447464,48 @@
       "lowest_price": 69.99,
       "lowest_price_date": "2026-10-29",
       "avg_price": 69.99
+    },
+    {
+      "name": "TENDER FOOD Телешко дърпано Су Вид",
+      "store": "Kaufland",
+      "emoji": "🍗",
+      "category": "protein",
+      "weight_raw": "500 г",
+      "weight_grams": 500,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 8,
+      "diet_tags": [],
+      "macros": {
+        "kcal": 172,
+        "p": 24,
+        "f": 8,
+        "c": 0
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20966896_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-tender-food-телешко-дърпано-су-вид-500g",
+      "last_seen": "2026-10-29",
+      "first_seen": "2026-10-29",
+      "price_history": [
+        {
+          "date": "2026-10-29",
+          "store": "Kaufland",
+          "price": 9.99,
+          "price_eur": 5.11,
+          "old_price": 11.99,
+          "discount_pct": 17
+        }
+      ],
+      "lowest_price": 9.99,
+      "lowest_price_date": "2026-10-29",
+      "avg_price": 9.99
     }
   ]
 }
