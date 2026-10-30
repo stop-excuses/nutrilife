@@ -1,5 +1,5 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-10-30T14:48:38.515047Z",
+  "generated_at": "2026-10-30T17:54:48.852923Z",
   "store_last_scraped": {
     "Billa": "2026-10-30",
     "Dar": "2026-10-30",
@@ -11,10 +11,10 @@ const OFFERS_DATA = {
   "unavailable_stores": [
     "T-Market"
   ],
-  "content_hash": "9ee902cf11955c64297ceef619a818c1",
-  "total_offers": 4216,
-  "promo_offers": 1417,
-  "assortment_offers": 2799,
+  "content_hash": "6c55f7e0f17d40e8bd71c5581cb9a73a",
+  "total_offers": 4218,
+  "promo_offers": 1418,
+  "assortment_offers": 2800,
   "stores": [
     "Billa",
     "Dar",
@@ -64846,6 +64846,117 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 3.99,
+      "new_price_eur": 2.04,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-10-26",
+      "valid_until": "2026-11-01",
+      "price_per_kg": 3.99,
+      "price_per_kg_eur": 2.04,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 3.99,
+          "price_eur": 2.04,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 3.99,
+      "comparison_count": 1,
+      "product_id": "kaufland-свински-ребра-от-свежата-витрина",
+      "name": "Свински ребра от свежата витрина",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/BD-217_Schaelrippen_v_Schwein_FS?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "protein",
+      "emoji": "🍗",
+      "health_score": 6,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "high_protein",
+        "keto",
+        "budget"
+      ],
+      "macros": {
+        "kcal": 242,
+        "p": 27,
+        "f": 14,
+        "c": 0
+      },
+      "avg_price": 7.46,
+      "lowest_price": 3.99,
+      "lowest_price_date": "2026-10-26",
+      "price_history": [
+        [
+          "2026-04-30",
+          7.98,
+          null,
+          null
+        ],
+        [
+          "2026-05-28",
+          7.8,
+          null,
+          null
+        ],
+        [
+          "2026-06-11",
+          7.61,
+          null,
+          null
+        ],
+        [
+          "2026-06-22",
+          7.98,
+          null,
+          null
+        ],
+        [
+          "2026-07-09",
+          7.41,
+          null,
+          null
+        ],
+        [
+          "2026-08-03",
+          7.8,
+          null,
+          null
+        ],
+        [
+          "2026-10-05",
+          5.62,
+          null,
+          null
+        ],
+        [
+          "2026-10-26",
+          3.99,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 9,
       "price_signal": "buy"
     },
     {
@@ -204559,6 +204670,71 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 9,
       "price_signal": "good"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 2.69,
+      "new_price_eur": 1.38,
+      "old_price": 3.59,
+      "old_price_eur": 1.84,
+      "discount_pct": 25,
+      "valid_from": "2026-10-26",
+      "valid_until": "2026-11-01",
+      "price_per_kg": 19.21,
+      "price_per_kg_eur": 9.82,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 2.69,
+          "price_eur": 1.38,
+          "old_price": 3.59,
+          "old_price_eur": 1.84,
+          "discount_pct": 25,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 2.69,
+      "comparison_count": 1,
+      "product_id": "kaufland-gioiella-страчатела-140g",
+      "weight_grams": 140,
+      "weight_raw": "140 г",
+      "name": "Gioiella Страчатела",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20966974_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 3.97,
+      "lowest_price": 2.69,
+      "lowest_price_date": "2026-10-26",
+      "price_history": [
+        [
+          "2026-08-03",
+          5.26,
+          7.02,
+          25
+        ],
+        [
+          "2026-10-26",
+          2.69,
+          3.59,
+          25
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy"
     },
     {
       "store": "Fantastico",
