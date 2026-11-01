@@ -1,6 +1,6 @@
 const ALL_PRODUCTS_DATA = {
-  "generated_at": "2026-11-01T21:00:02.706432Z",
-  "total_products": 60659,
+  "generated_at": "2026-11-01T22:39:04.029658Z",
+  "total_products": 60674,
   "products": [
     {
       "name": "Пушена риба тон",
@@ -652561,9 +652561,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://imgproxy-retcat.assets.schwarz/rgbjXWkcw7XxtRSI2rQXYjwT5eBSfrrbZsMaTGyzg8E/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS80RTc2MEVGOEZFN0YyMjJCOENFNkJFQjB/CNkM4RkU3RUE2Qjc1MzFBRDI2RTBFMEE2QTRFODMyM0RFQjY4QUM3LnBuZw.png",
+      "image": "https://www.lidl.bg/assets/gcp5ff4632d74db48e2a56cd23177ab713d.png",
       "product_id": "lidl-фини-точени-кори-за-баница-xxl-500g",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -655979,7 +655979,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/nnCEgof0zirVDm3FyUbnWpEn9TOZX2GeOQbJioP55aI/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS8xOTlCRTk3NDc4OEMwMTQ1MzlGODg4N0Q/wREM1NjcyNzZBRTEzMTJGNDRCQ0ZFNjQyQjg3QUY1MDNGRDVDQjFDLnBuZw.png",
       "product_id": "lidl-чиизбургери-320g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -658529,51 +658529,6 @@ const ALL_PRODUCTS_DATA = {
       "store": "Kaufland"
     },
     {
-      "name": "Лютеница XXL",
-      "store": "Lidl",
-      "emoji": "🛒",
-      "category": "other",
-      "weight_raw": "700 g",
-      "weight_grams": 700,
-      "shelf_life": null,
-      "is_food": false,
-      "is_healthy": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": null,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://imgproxy-retcat.assets.schwarz/8z_hwmKEHvqx3hBd8E6RVbPEb1CMad00CCI6uEPL1Wo/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS8wN0U3MzJERERFQjcwNzY3NDZCRTVBMTM/5QkRFNDUzRUY5QjI3NDg5MEIxNjJBOUExNzVDQTYyNjVDN0E2NEM4LnBuZw.png",
-      "product_id": "lidl-лютеница-xxl-700g",
-      "last_seen": "2026-09-06",
-      "first_seen": "2026-05-07",
-      "price_history": [
-        {
-          "date": "2026-05-07",
-          "store": "Lidl",
-          "price": 7.8,
-          "price_eur": 3.99,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-08-30",
-          "store": "Lidl",
-          "price": 3.99,
-          "price_eur": 2.04,
-          "old_price": null,
-          "discount_pct": null
-        }
-      ],
-      "lowest_price": 3.99,
-      "lowest_price_date": "2026-08-30",
-      "avg_price": 5.89
-    },
-    {
       "name": "Готово ястие XXL",
       "store": "Lidl",
       "emoji": "🛒",
@@ -659323,9 +659278,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://imgproxy-retcat.assets.schwarz/VpMKpo4Pn6XmdiVjJ4J5HrTnkFqpm_imt-QDO9Uemn8/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS8xMjdGM0U3RkUxOThCNDdBRUZCRTVDNEE/wN0IwOUZDQjhGNUI1NEI0NjFGNkFGOEIyRUQ2RkYxNzE2NDMzNjgwLnBuZw.png",
+      "image": "https://www.lidl.bg/assets/gcpf7783b80b0544fba96098a9250d9364e.png",
       "product_id": "lidl-мини-сладолед-на-клечка-xxl-800g",
-      "last_seen": "2026-08-16",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -659343,11 +659298,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 4.59,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-01",
+          "store": "Lidl",
+          "price": 4.59,
+          "price_eur": 2.35,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
-      "lowest_price": 8.98,
-      "lowest_price_date": "2026-08-09",
-      "avg_price": 8.99
+      "lowest_price": 4.59,
+      "lowest_price_date": "2026-11-01",
+      "avg_price": 7.52
     },
     {
       "name": "Зърнена закуска NESTLÉ® LION®  400g",
@@ -703342,7 +703305,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/Y8ziAY7dMFsHda1i7g8-3Tj8LANVoILSTfP9eFSkxhU/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS85ODMxOUVDQzhEMTc5OTBBMEVFQTAwNzY/zMjgzQkRBQUFEMjRDNDgwOUREMzU1RjM1REM0OTkyNEJGQzlCNzVFLnBuZw.png",
       "product_id": "lidl-енергиина-напитка-500g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-05-16",
       "price_history": [
         {
@@ -778982,59 +778945,6 @@ const ALL_PRODUCTS_DATA = {
       "avg_price": 4.5
     },
     {
-      "name": "Картофи по селски XXL",
-      "store": "Lidl",
-      "emoji": "🥦",
-      "category": "vegetable",
-      "weight_raw": "1 kg",
-      "weight_grams": 1000,
-      "shelf_life": "малотраен",
-      "is_food": true,
-      "is_healthy": true,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": 7,
-      "diet_tags": [
-        "vegetarian",
-        "budget"
-      ],
-      "macros": {
-        "kcal": 77,
-        "p": 2,
-        "f": 0.1,
-        "c": 17
-      },
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://imgproxy-retcat.assets.schwarz/GYV_vHIbwkTHuIL6XYisvywynU5QYoGSw1A2-kdIInE/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9DQ0JBQTk1QURDNERCNjc2MzQ5QjZCOEF/EQ0U2RThBRDNCRTBBNjI0MzAzRDY3MUY2NEI5NzA5MTlFNkQ0NzlELnBuZw.png",
-      "product_id": "lidl-картофи-по-селски-xxl-1000g",
-      "last_seen": "2026-08-09",
-      "first_seen": "2026-05-24",
-      "price_history": [
-        {
-          "date": "2026-05-24",
-          "store": "Lidl",
-          "price": 4.5,
-          "price_eur": 2.3,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-08-02",
-          "store": "Lidl",
-          "price": 4.48,
-          "price_eur": 2.29,
-          "old_price": null,
-          "discount_pct": null
-        }
-      ],
-      "lowest_price": 4.48,
-      "lowest_price_date": "2026-08-02",
-      "avg_price": 4.49
-    },
-    {
       "name": "Пръчици от сирене",
       "store": "Lidl",
       "emoji": "🥛",
@@ -779343,7 +779253,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/jSvnX9EEFHKXMw2RFlBGFuwbsxaG2B6QjwecNCqhAh0/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS81OUNDNTU4ODlENDhBMzExRUU1RDIzMUZ/BODNBN0FFMEFGRDJENkRGRkVFMzgzMTk0RTVDMEVDQ0RDMjBBMjM1LnBuZw.png",
       "product_id": "lidl-иогурт-по-гръцка-рецепта-400g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-05-24",
       "price_history": [
         {
@@ -779621,9 +779531,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://imgproxy-retcat.assets.schwarz/HQKSJKmjbCHX9fizo_lzZzY_uiu4kZl8KSqCXENAkVM/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS8zRjQwMjZBOUFCRkVENzU0QUMxNkQ2MzQ/zRjJCRjA4NTZEMjM0QjhBOTM4NEQ1NEJCMTI2ODgxQkY0MjRDQUQ1LnBuZw.png",
+      "image": "https://www.lidl.bg/assets/gcpd2fe101638e94842acbf7c743f369d3c.png",
       "product_id": "lidl-българско-бяло-саламурено-сирене-xxl-600g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-05-24",
       "price_history": [
         {
@@ -779703,9 +779613,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://imgproxy-retcat.assets.schwarz/9Bigk6Lf81kUJK1yWy825JxD9OCHceSg2UXFRu4hAy4/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9DNDQ5QUYyQjE4OTM1Q0FEMjc4ODdCRjB/GNkJGNkQ3MzIyM0E2NTlEMDc5NzRFNUFBNzVGOTk1M0Y5QzUyMTcxLnBuZw.png",
+      "image": "https://www.lidl.bg/assets/gcp93ffdbb5490748cb83357d6e818fc738.png",
       "product_id": "lidl-грухана-пшеница-500g",
-      "last_seen": "2026-05-31",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-05-24",
       "price_history": [
         {
@@ -779715,11 +779625,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.59,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-01",
+          "store": "Lidl",
+          "price": 0.59,
+          "price_eur": 0.3,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
-      "lowest_price": 1.15,
-      "lowest_price_date": "2026-05-24",
-      "avg_price": 1.15
+      "lowest_price": 0.59,
+      "lowest_price_date": "2026-11-01",
+      "avg_price": 0.87
     },
     {
       "name": "Фини точени кори за баница",
@@ -780968,51 +780886,6 @@ const ALL_PRODUCTS_DATA = {
       "lowest_price": 10.99,
       "lowest_price_date": "2026-05-24",
       "avg_price": 10.99
-    },
-    {
-      "name": "Кордон бльо XXL",
-      "store": "Lidl",
-      "emoji": "🛒",
-      "category": "other",
-      "weight_raw": "1.5 kg",
-      "weight_grams": 1500,
-      "shelf_life": null,
-      "is_food": false,
-      "is_healthy": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": null,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://imgproxy-retcat.assets.schwarz/ejPEv8OxProc3iMO7l6gzI2MpiYgGq9FJdkgL-uXPYE/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS81NDlCNjVCNThEMjIwNkQzREM0OUEwQjE/5NjU2REQ3RDY3MUYzRkUyNTE5RjMwNTJCNTBBNzEyRDNBN0FBNTg1LmpwZw.jpg",
-      "product_id": "lidl-кордон-бльо-xxl-1500g",
-      "last_seen": "2026-06-28",
-      "first_seen": "2026-05-24",
-      "price_history": [
-        {
-          "date": "2026-05-24",
-          "store": "Lidl",
-          "price": 10.99,
-          "price_eur": 5.62,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-06-21",
-          "store": "Lidl",
-          "price": 10.54,
-          "price_eur": 5.39,
-          "old_price": null,
-          "discount_pct": null
-        }
-      ],
-      "lowest_price": 10.54,
-      "lowest_price_date": "2026-06-21",
-      "avg_price": 10.77
     },
     {
       "name": "Пица на пещ Специале XXL",
@@ -821658,7 +821531,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/nlGn2om9RKI7A_hdEdM-_wHhy6v_QSLm9_-76Vnmqow/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50Lzc3RUIyQTRGNUI4M0QxOTE3RkQ5NTA5QU/E5REY0RUYzMDAxNzRCMzNCMTU4N0FCNTBCRkZEQ0UxMUU4Rjk5QzAucG5n.png",
       "product_id": "lidl-топинг-150g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-05-31",
       "price_history": [
         {
@@ -881771,7 +881644,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/O3catLpnD9shvaoTGrFmzYbRczbpHPq7KExMAwvfylM/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS85NzQ3QTI3ODI0Rjc5Mzg1RUVDRjMxQTQ/yRDQzNEMwREJGQjBEQkVDQjMwRTRGREI4RjY1REE1MjQzNkQ0MUNFLnBuZw.png",
       "product_id": "lidl-скариди-100g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -881813,11 +881686,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.27,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-01",
+          "store": "Lidl",
+          "price": 2.59,
+          "price_eur": 1.32,
+          "old_price": 3.06,
+          "discount_pct": 15
         }
       ],
       "lowest_price": 2.49,
       "lowest_price_date": "2026-10-25",
-      "avg_price": 4.08
+      "avg_price": 3.84
     },
     {
       "name": "Мини сладолед във фунийка",
@@ -2072186,9 +2072067,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://imgproxy-retcat.assets.schwarz/g9tqo5ZPouSSVut_VFdi5BFwfUek2_o92c6PGcKyW8c/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9GRjlERkY3RjExREQ4REZCMzUwMkNBMjd/CM0I5RDA1RTFENTM4QjBFOTI2QTI1NDQ0MDlFRjc0NjAxNDdDQTNBLnBuZw.png",
+      "image": "https://www.lidl.bg/assets/gcp2c00b804ca0e45ad8749f5ebd7d54a22.png",
       "product_id": "lidl-бурата-xxl-250g",
-      "last_seen": "2026-08-09",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-06-21",
       "price_history": [
         {
@@ -2072198,11 +2072079,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 2.99,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-01",
+          "store": "Lidl",
+          "price": 2.99,
+          "price_eur": 1.53,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
-      "lowest_price": 5.85,
-      "lowest_price_date": "2026-06-21",
-      "avg_price": 5.85
+      "lowest_price": 2.99,
+      "lowest_price_date": "2026-11-01",
+      "avg_price": 4.42
     },
     {
       "name": "Прошуто Кото XXL",
@@ -2100122,7 +2100011,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/Ck4woCY5GasZMWkRG6-ZPadtWjAVVkh-0DHul1h-mTA/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS84QkMwQTk2MTk3RDNDMkU2QkI3ODU2REI/wQ0ZBNjA3Q0MyOUNDRTg1OEU2NUY5NzNFMUJGMEY5MkY4NzEzODk5LnBuZw.png",
       "product_id": "lidl-кефир-с-плодове-250g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-06-28",
       "price_history": [
         {
@@ -2102079,7 +2101968,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/_tMsbQEPJRTEczv0PP_1dhDUslKxKE8s-M-Ur6jVWQI/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS8zM0U0MzY4NzBCNEFGQjE2Nzk4MDczQjM/3MkZFRUM5OTJERkE4QjE4RTUxNzQxODNFQzkyMjk1OEFCNEE4QzJFLnBuZw.png",
       "product_id": "lidl-бирени-пръчици-280g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-06-28",
       "price_history": [
         {
@@ -2103282,7 +2103171,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/UyczHBCcmXwYfeXfoBR0GRjNmfc1pVDiuM6j5TuOl30/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS8yQjBDRkVFOTk4RkQ5MjI2NkM2ODE5Nzk/yMTQ4QUY4NEY1OEU3NzA4MkQ2RUNDOTE2N0FFRDUxQTQxRjhBMzIxLnBuZw.png",
       "product_id": "lidl-чеснов-сос-410g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-06-28",
       "price_history": [
         {
@@ -2128139,9 +2128028,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": true,
       "is_good_fat": false,
-      "image": "https://imgproxy-retcat.assets.schwarz/0qBAGthmgs1g7E_1KAIlCK5OmFV7PNFUTi7a9LkRwfg/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS8wMzhEQjVFRDVCNEM1MEMyRUIwODA0MzE/zRjUyQjg3MjdFMTFFMTJGOEZGOTkyRTJDNkVCOTdDM0MxRUQ5RjhCLnBuZw.png",
+      "image": "https://www.lidl.bg/assets/gcpe5ce6f54bf834b36abb6358d32d64630.png",
       "product_id": "lidl-прясна-паста-250g",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-04-25",
       "price_history": [
         {
@@ -2128167,11 +2128056,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.61,
           "old_price": 1.53,
           "discount_pct": 22
+        },
+        {
+          "date": "2026-11-01",
+          "store": "Lidl",
+          "price": 2.29,
+          "price_eur": 1.17,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 1.19,
       "lowest_price_date": "2026-08-30",
-      "avg_price": 2.34
+      "avg_price": 2.33
     },
     {
       "name": "Български нектарини",
@@ -2146575,7 +2146472,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/-BSuDTt6qiT8ME77GXUQu2ys7EfiKGP4f0AZUkTOn4o/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS8xN0FGNjBFOUQwNUEzMkFDQUE3NjhEMDg/yMDNBRDVGMkNERjEwQTBGQTNCOEZBOEM3Q0ZBQzY5OTlDRkMyMUI3LnBuZw.png",
       "product_id": "lidl-пилешки-мини-шницели-540g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-07-12",
       "price_history": [
         {
@@ -2181134,7 +2181031,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/nlh7sFfK9eK_Xvzq0qZKsoyItHH-sizXmwBNBCWuGIU/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzM4ODU1MzlDQTM5OEU4MTRGNDI1NzBDMD/c3QTY2NEFCODU0NjAxM0Y2MEJGNUYxQUEwNjNBRTQwRDJGMEQyQ0QucG5n.png",
       "product_id": "lidl-гръцко-маслиново-масло-500g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-04-14",
       "price_history": [
         {
@@ -2181425,7 +2181322,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/SZVj6R3AKcRds3QRvJmo7KrZYybkwCVMNOCnsUXLK4E/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS8yN0E3ODFDRjFDNzU5REYyODg1QUI0RUJ/EN0JCNkFBRTBFQzMzQTdEQkU0RjAwODEwRDVFOTUwQ0VGRTZFMUVFLnBuZw.png",
       "product_id": "lidl-паста-500g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-07-26",
       "price_history": [
         {
@@ -2191805,7 +2191702,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/Mcml54aMbssuDtyMJzX-3fnLt9kTMTK4XWIReROzLW8/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9EQTYzQzI4MDIwMkE0NkU3NDk0Q0U2RDQ/2NzkxMTEwQUQzOTU0ODFFRkYxRjFDRDcxMUY2RjE3MTM4RUVBNjBDLnBuZw.png",
       "product_id": "lidl-студен-чаи-праскова-1500g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-08-02",
       "price_history": [
         {
@@ -2193237,43 +2193134,6 @@ const ALL_PRODUCTS_DATA = {
       "lowest_price": 5.85,
       "lowest_price_date": "2026-08-02",
       "avg_price": 5.85
-    },
-    {
-      "name": "Замразени плодове XXL",
-      "store": "Lidl",
-      "emoji": "🛒",
-      "category": "other",
-      "weight_raw": "750 g",
-      "weight_grams": 750,
-      "shelf_life": null,
-      "is_food": false,
-      "is_healthy": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": null,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://imgproxy-retcat.assets.schwarz/BSPC0s74gCyLKOANbAmLEzob6w8kt2fhdUTdKbuSKg4/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9EQzQ2QzM0M0YyQkUzRUI4NDE5RjA0ODk/5RTRENDcwOURBMTYyNTgyMDY1QzdDN0M5RkE1N0VFNUFDQzA3MDU4LnBuZw.png",
-      "product_id": "lidl-замразени-плодове-xxl-750g",
-      "last_seen": "2026-08-09",
-      "first_seen": "2026-08-02",
-      "price_history": [
-        {
-          "date": "2026-08-02",
-          "store": "Lidl",
-          "price": 7.49,
-          "price_eur": 3.83,
-          "old_price": null,
-          "discount_pct": null
-        }
-      ],
-      "lowest_price": 7.49,
-      "lowest_price_date": "2026-08-02",
-      "avg_price": 7.49
     },
     {
       "name": "Суши",
@@ -2209477,9 +2209337,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://imgproxy-retcat.assets.schwarz/gdvjmrXUQsSWOH6ToNMUOfxr1q3EYSkQvq9UxqQB904/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS8yODFFRTdCNjMzN0NDMEZEM0E0ODU5Qjk/0OEZDODA3RTYwRDU1RDc5MEVENkI3NUVGMjQ2NzczRTk0RDc4M0JFLnBuZw.png",
+      "image": "https://www.lidl.bg/assets/gcp2de74b594dda4e3d95468d5f6c6ece37.png",
       "product_id": "lidl-френско-сирене-бри-xxl-250g",
-      "last_seen": "2026-08-16",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-08-09",
       "price_history": [
         {
@@ -2209489,11 +2209349,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 3.06,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-01",
+          "store": "Lidl",
+          "price": 3.06,
+          "price_eur": 1.56,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
-      "lowest_price": 5.98,
-      "lowest_price_date": "2026-08-09",
-      "avg_price": 5.98
+      "lowest_price": 3.06,
+      "lowest_price_date": "2026-11-01",
+      "avg_price": 4.52
     },
     {
       "name": "Полутвърдо сирене",
@@ -2210447,9 +2210315,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://imgproxy-retcat.assets.schwarz/z5GBsUwgIwgUwlyiK1c1l00jYzpOdjNIusBkPT5oDbs/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS8yNEM3NUYwNjdBN0E1NkIxMzhEOURDMDN/CNzRGOTkxMTA4NDkzOUQ3OTg1NkVEQ0NFRkNGMTI5QTIyRUE0MTI0LnBuZw.png",
+      "image": "https://www.lidl.bg/assets/gcpba036f1cfdf54d188a1909549ba24bf2.png",
       "product_id": "lidl-франкфуртери-xxl-450g",
-      "last_seen": "2026-08-16",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-08-09",
       "price_history": [
         {
@@ -2210459,11 +2210327,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 4.34,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-01",
+          "store": "Lidl",
+          "price": 4.34,
+          "price_eur": 2.22,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
-      "lowest_price": 8.49,
-      "lowest_price_date": "2026-08-09",
-      "avg_price": 8.49
+      "lowest_price": 4.34,
+      "lowest_price_date": "2026-11-01",
+      "avg_price": 6.42
     },
     {
       "name": "Хамон Серрано XXL",
@@ -2210521,9 +2210397,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://imgproxy-retcat.assets.schwarz/f39JbBMSBprGhJvnAAAEYll7zxvt1Y65Yg-yh60GOAw/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS83RjE1Q0NBQUM1RDQ3ODFGQzVEMkQwQUN/DODE5NEMwQkMzMEJBOUY1RURGMkE3Rjc2RkYwMDA1RTJCQkNDMkFGLnBuZw.png",
+      "image": "https://www.lidl.bg/assets/gcp2d808586d2e848e5ad523a7977398d01.png",
       "product_id": "lidl-зрял-чедър-xxl-500g",
-      "last_seen": "2026-08-16",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -2210549,11 +2210425,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 5.59,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-01",
+          "store": "Lidl",
+          "price": 5.59,
+          "price_eur": 2.86,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
-      "lowest_price": 10.93,
-      "lowest_price_date": "2026-08-09",
-      "avg_price": 13.82
+      "lowest_price": 5.59,
+      "lowest_price_date": "2026-11-01",
+      "avg_price": 11.76
     },
     {
       "name": "Суши Хатацу",
@@ -2235654,7 +2235538,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/k933qXVXTuM-9y6pqgPzteo1j6Np8vxGIhTKd9s246A/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9DNjQwNjFFMENGRTMzMzlGRjM4QjdGM0I/4RjJCNjIwQUZGMTA3OEY5REMyOEYyQTJFRDk1NTg1M0MxOUNDNUYzLnBuZw.png",
       "product_id": "lidl-мляко-uht-1000g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-08-23",
       "price_history": [
         {
@@ -2236218,7 +2236102,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/eus_I9DO0gHJUibBLTcYATHyN2q5HwtVwpo_VUCgcyk/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS8zODk2QjczRDQ5QjlGQ0VENjdFRDM3Rjd/EOEU5RkJFOUU0QTgxMzdBQjZCQ0MwMzc0OTc5MTRGQjY2QkYxMzg0LnBuZw.png",
       "product_id": "lidl-черни-маслини-350g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-08-23",
       "price_history": [
         {
@@ -2237595,7 +2237479,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/0VOVT-8wEDHhnpMMq71Qktt3h02XZe-wWDLQ0v5ARD0/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0ZFQzQ2MjgwQTM1QUI4NTBFMUM3NjAzNz/ZBNEUxQjhFQjk2MkQyMTQ1NEI0ODUwNjNFNDBDQUE1Rjk2MjNDMzcucG5n.png",
       "product_id": "lidl-сладолед-тартуфо-180g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-04-25",
       "price_history": [
         {
@@ -2249045,7 +2248929,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/SwEVJCa1tOLZIp4K5oVI3QOenbhxMSKcetswbe8xj5Y/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS81M0RDMTE4RUE2ODIzNjgxNzA1MDZFQkZ/GRDg1Q0U0RkY1OUM2OTQyMTYyQjY3MjM1OUI5RUZFQTU3QUQ1REE5LnBuZw.png",
       "product_id": "lidl-леща-500g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "ingredients_raw": "Леща",
       "ingredients_flags": [],
       "junk_count": 0,
@@ -2338127,7 +2338011,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/Ns-wysCCkdkkU1ZwZV5-vV-CRY8LjWERdB5gvPsCg4g/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS8wM0NERjNCNUY0RjVFNzhGQkEyMjczM0Y/xRjVDNzFENkJGRkNDQ0FGOEZDMjVFMEJDNjEzQkQ2ODBBRjVFQUFFLnBuZw.png",
       "product_id": "lidl-слънчогледово-масло-1000g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -2338541,7 +2338425,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/LTFAnej5u9H2kJ5kERj8FHLzkh8Xiv5ZxubfsY1lNjs/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS83OEQyOTQzN0RBMUI1RjU3MEQ3MTYwNTh/BNDlENkI1QUQxRjU0MUE2M0UxQzc1NDcyNThEOEVBNkMyNkVBMUJELnBuZw.png",
       "product_id": "lidl-бульон-120g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-09-20",
       "price_history": [
         {
@@ -2353933,51 +2353817,6 @@ const ALL_PRODUCTS_DATA = {
       "avg_price": 5.62
     },
     {
-      "name": "Копа",
-      "store": "Lidl",
-      "emoji": "🛒",
-      "category": "other",
-      "weight_raw": "600 g",
-      "weight_grams": 600,
-      "shelf_life": null,
-      "is_food": false,
-      "is_healthy": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": null,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://imgproxy-retcat.assets.schwarz/VTA-IfGbOjgCjzxGWyEtKDImiCrSQceYksthe2bjPxI/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS8wMjVEODJERjNFREZBQkMxRENGOTBCRjZ/BMzA3RUQwMTJCRDNDN0MyREU1MjQ5NEU2QkM5QTQxQUU4RjRCRDYyLnBuZw.png",
-      "product_id": "lidl-копа-600g",
-      "last_seen": "2026-10-04",
-      "first_seen": "2026-08-30",
-      "price_history": [
-        {
-          "date": "2026-08-30",
-          "store": "Lidl",
-          "price": 2.39,
-          "price_eur": 1.22,
-          "old_price": 3.06,
-          "discount_pct": 22
-        },
-        {
-          "date": "2026-09-27",
-          "store": "Lidl",
-          "price": 18.9,
-          "price_eur": 9.66,
-          "old_price": null,
-          "discount_pct": null
-        }
-      ],
-      "lowest_price": 2.39,
-      "lowest_price_date": "2026-08-30",
-      "avg_price": 10.64
-    },
-    {
       "name": "Хамон Серрано с нож и дъска за рязане",
       "store": "Lidl",
       "emoji": "🛒",
@@ -2354230,59 +2354069,6 @@ const ALL_PRODUCTS_DATA = {
       "lowest_price": 1.49,
       "lowest_price_date": "2026-09-20",
       "avg_price": 8.27
-    },
-    {
-      "name": "Колбас XXL",
-      "store": "Lidl",
-      "emoji": "🛒",
-      "category": "other",
-      "weight_raw": "1 kg",
-      "weight_grams": 1000,
-      "shelf_life": null,
-      "is_food": false,
-      "is_healthy": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": null,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://imgproxy-retcat.assets.schwarz/Q46iMpw9V-1GzZ4_2Mbzw5Dl-BZ1hnrQCPKKGsk5oGA/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9DOTA0RjVDMDRCRTI1MkJFMDMzNTEzRjF/DNDYxRTcxMkNBMjM3RENGQjA1M0U1Qjc4MjE0NDQ3OUEzQ0NBMDI4LnBuZw.png",
-      "product_id": "lidl-колбас-xxl-1000g",
-      "last_seen": "2026-10-04",
-      "first_seen": "2026-07-05",
-      "price_history": [
-        {
-          "date": "2026-07-05",
-          "store": "Lidl",
-          "price": 5.4,
-          "price_eur": 2.76,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-08-09",
-          "store": "Lidl",
-          "price": 3.48,
-          "price_eur": 1.78,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-09-27",
-          "store": "Lidl",
-          "price": 2.76,
-          "price_eur": 1.41,
-          "old_price": null,
-          "discount_pct": null
-        }
-      ],
-      "lowest_price": 2.76,
-      "lowest_price_date": "2026-09-27",
-      "avg_price": 3.88
     },
     {
       "name": "Пролетни рулца",
@@ -2371426,7 +2371212,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/XbQoGQY48c-oOz3-BXIXRjdQL1lL10c3S0LQpmUbgxY/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS83QjAyMjg1RkU4RUExOEU0MjE0Mjc0MjJ/ERThGMzg4REY1OENCQUM2NUNCRTVEMjY4NzE0NjhBQTREODI5NkM5LnBuZw.png",
       "product_id": "lidl-изворна-вода-500g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-05-16",
       "price_history": [
         {
@@ -2371814,9 +2371600,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://imgproxy-retcat.assets.schwarz/bA1cA_qmgpO2Ec7_LQsvT5UQSgmiHV_nhcpFHiOVv6g/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS8wQTM1NTE4MTIxM0M3RkRGRTEzOTE4Njk/1QTkzMTE5MDNGNjhFMDI5Njg3NTk5REFGNjc1Njc3MzdDMDNBNTc1LnBuZw.png",
+      "image": "https://imgproxy-retcat.assets.schwarz/MZvxYt9UeZgUzPzcI81N9VNS0SL1k-pG0Zt8JXoHtpg/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9COTczNTFDNTM4QkUyOTY2MTRFRUNBMkY/2QTBGODJGNTAwQjJCQjJFMDc0MjZBM0M0RUYwNzRBQzdFRDA5QzUyLnBuZw.png",
       "product_id": "lidl-сладолед-500g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-05-16",
       "price_history": [
         {
@@ -2373286,7 +2373072,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/iNlq8H4hXtf3LSwqcEGVBTvUe4knQjc9e-85jFhrVss/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9ERkVEMUQ1RURFNzdDMDFBREIxQUIwNzc/zODcwNjEyQjRFQUI4NjEzNDJDNTBBNkQ4OTVDQjY1N0FBOEUyMTMyLnBuZw.png",
       "product_id": "lidl-пшенично-брашно-1000g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-06-14",
       "price_history": [
         {
@@ -2387392,7 +2387178,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://imgproxy-retcat.assets.schwarz/HIyyh62OEVlTWZVZsaUAD2XkT2WQqCP-gIXZoxwAOoU/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS8xMkUwQjRCQzQwMTM1MzIzRjc4Nzg3OUU/5OTBENTQ2QjIzMjkxMDM5RTExOTc5NDE1N0ZBMEZFNzU5NERENDA3LnBuZw.png",
       "product_id": "lidl-обезмаслена-извара-250g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-10-11",
       "price_history": [
         {
@@ -2387490,7 +2387276,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://imgproxy-retcat.assets.schwarz/TO9qVw4otmmMTbHnO5dIlwfmwc5Tyi-SFjw47Th0lQY/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS8xQ0E0NkQ2OUYzREZCOTExMUU0RTdFNzY/wNDNDRkEyRjAyRTI1NkU4NUYxNTgyN0FEOTFBNTM0REIyQ0Q2Q0RDLnBuZw.png",
       "product_id": "lidl-зеленчуков-микс-мексико-450g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-10-11",
       "price_history": [
         {
@@ -2387668,7 +2387454,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/L1cvGUKBUbrqIWLUytl4jFopkDXZQh4oqZ4qBd4TiOw/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS80NUMxNzVEMDQ4NjYzM0ZENUYyNEYzNEU/wMEY2OUYyN0Y1OTdGNDgxNkRBM0MxOURBRjUwREFFNDJDQTBGRDVELnBuZw.png",
       "product_id": "lidl-картофи-по-селски-750g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-10-11",
       "price_history": [
         {
@@ -2387714,7 +2387500,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/GRwSszoZfIpq5yhQD5J1EGr7ciEJhkGMHUhePnPv5GM/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9BNDE3RDk0RDY5QjJDMDFENzIxODkzMjE/0M0U5MTAzMjk4MDlFMkEyMUEyQTgzM0M2MjRDOUQ5MUIwMDIwQjQ1LnBuZw.png",
       "product_id": "lidl-крем-сирене-300g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-07-26",
       "price_history": [
         {
@@ -2387891,7 +2387677,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/RkBZfLSXoFd7FH7_Gfy5TN6PvlkPUwP7HjMIBtYVbKc/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS8yMUI3MDA1OUUwMUM2OTMxRTVBQjk0QzU/zRDNBQzRFODJFMzNEQzk3MjVEODRFQTcwRkUyNDVBODJDODFEMDMwLnBuZw.png",
       "product_id": "lidl-свинско-контрафиле-400g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-04-14",
       "price_history": [
         {
@@ -2387962,7 +2387748,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/uHE5UIEEpnDcoNlnuUhQYpKbfRGDqgknE4d_XEc7p8Y/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS8xNjA4NDdGQkI1NEYyRkFGQkY0RERBQTA/4MDE4RUQ3RTQwNDA1NzlCNzM3OUU3NzM4RDE3NTk4MzIwQ0JBNzU3LnBuZw.png",
       "product_id": "lidl-иогурт-с-плодове-150g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-07-05",
       "price_history": [
         {
@@ -2388014,7 +2387800,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/zlAIlpXTAmk4oUDhMvmmx4rLHi-wLOGP3pmB6wzmhyQ/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS84MzU3RkJDQTU5QTg5RTU3NDAwOTg3OTl/BQjQzOTVBNzZCMzVCOEMzREVEOTZDNDgwN0I5RUI0RkI3MEU4RTc3LnBuZw.png",
       "product_id": "lidl-студен-чаи-лимон-1500g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-10-11",
       "price_history": [
         {
@@ -2388121,7 +2387907,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/NgCGwmlFKY0CP9GoqZYWEdaolOs17Cz8IQ0FcEl6hm4/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS8xNDY2ODNCRjk0MTE5NjRBMzE0MDY4MTc/1OTVBNTdDNTMyODgyNzA1M0QyNTZCRTQ4NkU2MUY2REI4NTVCOEM1LnBuZw.png",
       "product_id": "lidl-заквасена-сметана-400g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-10-11",
       "price_history": [
         {
@@ -2388512,7 +2388298,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/mHWrRHXUd1-2tuFs2Q8rcLDxk6zyPbFcuaKS5tGinKY/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9GOEJCRUIzRDQ5MENENUJERDY0OEEzNzA/yMUQ4RTBBQTJEMTM1NzUwM0VGRDBGRDEyQjgzMjM2OEMzQUI3M0E0LnBuZw.png",
       "product_id": "lidl-плодова-напитка-2800g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -2388578,7 +2388364,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/o83oBWWcomDv04y1cBGZtEKEUdpO7LSwNwwgppVDba0/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS85MUVDM0U3OEQzMzRENzAxMzQ2MzZFQUV/FQzJDRkYyODQ2QzVCMkIyMDBEQTI1RUQ1MTAxNzQyQTBBODgzREJCLnBuZw.png",
       "product_id": "lidl-био-маслиново-масло-500g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-10-11",
       "price_history": [
         {
@@ -2388754,7 +2388540,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/zymnwqBrSSxwUpkrDlPCbY5MfHmnDxsKoHcuER_lC90/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS83QUFDNjE2OTU1NzNDMTNFRDFCRDIzQzI/xNjBEMEQ1ODcwRTNDQjMyQUNFMDU2NjQ0MjE5RkQ5MjMzODhCNkNDLnBuZw.png",
       "product_id": "lidl-маслиново-масло-750g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -2388835,67 +2388621,6 @@ const ALL_PRODUCTS_DATA = {
       "avg_price": 9.72
     },
     {
-      "name": "Кренвирши",
-      "store": "Lidl",
-      "emoji": "🍗",
-      "category": "protein",
-      "weight_raw": "200 g",
-      "weight_grams": 200,
-      "shelf_life": "малотраен",
-      "is_food": true,
-      "is_healthy": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": 3,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://imgproxy-retcat.assets.schwarz/Mpi7N1sn2Z2RRAQw1gN_yNnjhBC9JJtEgDrV_qnBEKs/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS81Mzk0NUEwMUMzNTAyRUNENzg4QjE3NDQ/1NTJEMDY1Qzk4ODdBOTk2MUJBQ0I2NjMyNzBENkI1OTc5M0NEQURELnBuZw.png",
-      "product_id": "lidl-кренвирши-200g",
-      "last_seen": "2026-10-25",
-      "first_seen": "2026-06-28",
-      "price_history": [
-        {
-          "date": "2026-06-28",
-          "store": "Lidl",
-          "price": 2.91,
-          "price_eur": 1.49,
-          "old_price": 4.5,
-          "discount_pct": 35
-        },
-        {
-          "date": "2026-09-06",
-          "store": "Lidl",
-          "price": 1.59,
-          "price_eur": 0.81,
-          "old_price": 2.3,
-          "discount_pct": 31
-        },
-        {
-          "date": "2026-09-20",
-          "store": "Lidl",
-          "price": 5.09,
-          "price_eur": 2.6,
-          "old_price": 7.36,
-          "discount_pct": 31
-        },
-        {
-          "date": "2026-10-11",
-          "store": "Lidl",
-          "price": 1.15,
-          "price_eur": 0.59,
-          "old_price": 2.3,
-          "discount_pct": 50
-        }
-      ],
-      "lowest_price": 1.15,
-      "lowest_price_date": "2026-10-11",
-      "avg_price": 2.69
-    },
-    {
       "name": "Лионски салам",
       "store": "Lidl",
       "emoji": "🍗",
@@ -2388916,7 +2388641,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/j05OSn0Gzl8DxiU1ytD1gcrtQnDLl4Cutf2z41P9yWo/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS85M0REM0RENDgzRDg0RjM4QkQ2QzExMzJ/GRDM4MDMzODJGRjE5NkM1OTBFMUE1OTU2RUEzNjYzQzFGREQ4QkMxLnBuZw.png",
       "product_id": "lidl-лионски-салам-1000g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-06-28",
       "price_history": [
         {
@@ -2389112,7 +2388837,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/0Cw50np199WWA1DeSMppsvfQOPq5qlWTP5lGROtFTVw/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS8zOTgyRjc3RTMwMUNGN0ZFM0ExRDk3QTB/DN0U0RkU0Njc1OUY2MjhDM0Q3NkE3QzE1RUNCRTkzNDI4NjY5QjI0LnBuZw.png",
       "product_id": "lidl-чифери-500g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-10-11",
       "price_history": [
         {
@@ -2389186,7 +2388911,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/E-cEmi6R8wfNHflolRbxpSDIGoYZjYPWI1jXuiudlHQ/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9GOTk4OEY3QjU5NjU5OEM1Nzc2QzA2MzV/DOEIyMTgwNDc4OERDMkExNTgwRDFCNEVGMEM4QUMwNTlBODA3RkQ2LnBuZw.png",
       "product_id": "lidl-пастет-апетит-300g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-10-11",
       "price_history": [
         {
@@ -2389223,7 +2388948,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/lPMMsgzApohbQO_e88pQ-sAdel-f2MBoJ3PqGN2eMh0/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9DNzc4NzkzRkNCOTFBNEI4RDAwOUFBMEY/xOTc5Q0RCQ0U3MTgzMzgzMUZDMDIwMDFDNEQwQTZCMDc1ODQ3MkE4LnBuZw.png",
       "product_id": "lidl-маионеза-200g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-06-28",
       "price_history": [
         {
@@ -2389366,7 +2389091,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/Wntetj54fCLU2229YZXq8FRFFkkMwxauMolsXKN4YAY/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9BNEJGM0Q4MkExQjhBNDc1RjczQzFCNDY/2QTVFRUI3RDE1OUZFMDM5RDRDQTIxOEVFMzEwMzEwMjREQTRDODkwLnBuZw.png",
       "product_id": "lidl-беиби-пеперони-190g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-04-14",
       "price_history": [
         {
@@ -2389411,7 +2389136,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/amEBNyYsRVXB4QWHmOLeDi8HYgeu7rM_izec8uDMods/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9BMUNGMUU1QkYxNjRCQjQxNDFCNzIyN0J/GMENEREU0NDJEMkM3QzFBMDAyQzgyMTZCQkY5ODVBREM3NTI0RDI5LnBuZw.png",
       "product_id": "lidl-конфитюр-450g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-09-06",
       "price_history": [
         {
@@ -2389546,7 +2389271,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/3aGrhBqJ41kEPtNAbE_XpjGj2D77i6Rd36d2pzf0GzA/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9CNUU3QzNFNzEzNEQ2NDkwRERDRDExODM/xNEVCRDI0OEQ0NjQwQTEwQjlBMjBFOUE1MzRCMjYzRUQ2REI3NjAxLnBuZw.png",
       "product_id": "lidl-специалитет-с-паста-350g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-10-11",
       "price_history": [
         {
@@ -2389930,7 +2389655,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/fpyyuyd2Y6DUoFhNfzsmJcPO9DWOerz9xWhnrjPInk0/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS84MTQ1QkFFOEY5RUREOEU5NUEzNjlFQTN/BMUM5QUE4OEZFRTU2RENDMTY2NkJFRURDNTE0OTQ1MEVDMjIwQkIzLnBuZw.png",
       "product_id": "lidl-готово-ястие-400g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -2390184,7 +2389909,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/dbVuoUtJFJ6qgY7VzWDtA34VaUod6AUzQsMUG6ll9x8/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS8zOUE0NkNCRjE5OUI5M0Y2OTI2MzM1RUZ/BQUQ4RjZFN0FCNTI4MEEyNEQzRTA5Q0EyMjIxMTVENkM4REYyRTgyLnBuZw.png",
       "product_id": "lidl-италианско-тирамису-500g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-10-11",
       "price_history": [
         {
@@ -2390221,7 +2389946,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/dxigSWvJPtayhNBtGaiNg3jBFExqnw8FI6KiHAOKMWg/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9CMzk1NURCNUQ3RUNBODk4QTdBQTI1NTl/BQ0EzMDk1RUFGMEMwNDJFMUYyREIzRTMwNjEzNDYwMkM3MThDMTU4LnBuZw.png",
       "product_id": "lidl-пица-на-пещ-маргарита-xxl-1200g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-10-11",
       "price_history": [
         {
@@ -2391350,7 +2391075,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/zaXdGjkWrS9iZ_0tCnPvIbLV_QCshe5nMvchRINPNKw/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9BNTg5QjY5QjExQUYwMDFDMTQ5RkU2OTN/GRkE3QjJBQTY4RjNFRjhFRTJGNEREQzY1OThGRkY3NzhGMDE3NzhBLnBuZw.png",
       "product_id": "lidl-топено-сирене-250g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "ingredients_raw": "44% сирене* (от което 52% кашкавал), обезмаслено мляко, сухо обезмаслено мляко, краве масло, емулгаторни соли: полифосфати; трапезна сол, киселина: лимонена киселина. *Съдържа сирищни ензими с микробиален и животински произход.",
       "ingredients_flags": [],
       "junk_count": 0,
@@ -2391448,7 +2391173,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/eMftHbmK46bo2gJVLBvkVHjmgbZksWjO4fDOCYduBAw/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9BQzUwMDcxODdDNDdDMjU1REJCNzk5QzJ/CMkVEQzc0QTg1OEQ2OTE2MzIzOTZEQ0EzRUZBRTM2NzMwMzQ2RkUzLnBuZw.png",
       "product_id": "lidl-синьо-сирене-120g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-10-11",
       "price_history": [
         {
@@ -2391494,7 +2391219,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/u-I01E6s1L61Uk80Oq6RJYYcwa2utW0LP1qMNocZ_Es/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS8yNTdBOTEwMTJBNUNERDgzQUI5NEEwREE/yQ0UzNDgxOTBFQURGQUEyNTRERjI2QTY0MUNBQzVEMTg5NjAzMURCLnBuZw.png",
       "product_id": "lidl-прясно-сирене-адриатикос-500g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -2391712,7 +2391437,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/-owEVRMzKDtyCBbBf6x_V7ozTye9QL5ODRjxj1jLlSU/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS8yMkQ2OTJBMDE1QzRCN0JBRDU3REFFNTY/wRDIwRjVBRTNBMTRBRjkyQ0Q3RjQ4MDM2N0IzNjcyOTM1NDQ4Nzc0LnBuZw.png",
       "product_id": "lidl-мляко-1000g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-10-11",
       "price_history": [
         {
@@ -2405027,7 +2404752,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://imgproxy-retcat.assets.schwarz/hkp1mVQWhb-6a8ypzeMMHwVjwor9cEladhUcaB3WMtI/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9FMDUwRjBENEVDQjJFMUE4RTY1MDM3NjE/2NEM2REQ0QUUwMTZGNjgyQ0M2OUNFQUJDMkI0NTVBNzYwREJFRDk5LnBuZw.png",
       "product_id": "lidl-сьомга-в-бутертесто-300g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-10-18",
       "price_history": [
         {
@@ -2405172,7 +2404897,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/1R0ySoBtwsHqMA-nsKrsvPNjt92ARyXKer_2M0LzPl0/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS81Nzg5MjNBMDg2MkJCMjM4REY4QTE1MTI/zMzJCODA4MEUwQzQ3MzhFN0FGOTVFRjRGQURGQTJFNEE3RTk5MTIzLnBuZw.png",
       "product_id": "lidl-паста-с-манатарки-и-патладжан-180g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-10-18",
       "price_history": [
         {
@@ -2405219,7 +2404944,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/WkGsydfpcfKlIcDP9wtYq7HAzvo5TPW0MZebn7DjLSg/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0NDNDIzMDQ1NzA5NkY2Njg4RkYyMUE5ND/U1MkJGQ0RCODY1RDFBMDY5MkY2RjdGMDgwODNBQkQxM0M1NzRBN0UucG5n.png",
       "product_id": "lidl-леща-белуга-500g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-10-18",
       "price_history": [
         {
@@ -2405261,7 +2404986,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/bgAUz881Oe6HPjrTdWFlbeeLwuzi1r3LhhFGlSqKp6Y/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0RFRDYzRjNCRUNBRDlFQTQ3OEU2Mjg0OD/I5QzE3RjQwOEUzQTI1QzcxM0Q1M0JCNjU2MjZEMkQ0RUU0RTE5QTQucG5n.png",
       "product_id": "lidl-мариновани-гъби-155g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-10-18",
       "price_history": [
         {
@@ -2405364,7 +2405089,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/RzKOts1v5bgclh2qxyyEixeUS8lonPQjkG2ZKwMrQD8/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzgwNDYyRDQxM0Y1ODg5QUEwN0NBRjA5Q0/UwQjc3MzFCRjkxQjcwNjk2MTMyRUVDRTA0NjJDNEE1MDE5MEEyRjUucG5n.png",
       "product_id": "lidl-мариновани-аспержи-на-грил-185g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-10-18",
       "price_history": [
         {
@@ -2405610,7 +2405335,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/S2EY5b8hxp98I8VtH4SHAZdz1O9fE7brJUwL3vE_6QE/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS80NDU3M0NFM0VDMEYzMENDQTdCQTFDRDE/5QkY4MkI4MjE5QURBMTA0NDU4MDI5MjQ3NzU3NjgwMEVBMUEzNEY1LnBuZw.png",
       "product_id": "lidl-картофени-дукеси-600g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-10-18",
       "price_history": [
         {
@@ -2405654,7 +2405379,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://imgproxy-retcat.assets.schwarz/0TFIObmeKqLskCLPPfOKMu9563xoRi975G5SWjzPJhA/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzFDMThCOTBFOUQ1RDE0OTBBQTk0Q0Y0Mz/g0QzdGN0YyRUMxRUUyRjIwRUQyRDhFMzFCMDBGMTIzQjU4QzY3MUYucG5n.png",
       "product_id": "lidl-замразени-зеленчуци-750g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-10-18",
       "price_history": [
         {
@@ -2405804,7 +2405529,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/5ZhjacmiSk_iZrXE5Zn5oG4oh-5UO8PxeGGCib9H5uM/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzQ4ODlGMzBEOTVEMDdEMDcyQ0E5QzcyRj/A3NjNEODIxQkRCNzAzOUJGN0FBNzEwRjk0NkJEOTZDNTdDMzlBREEucG5n.png",
       "product_id": "lidl-гурме-ориз-500g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-10-18",
       "price_history": [
         {
@@ -2406155,7 +2405880,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/jA5miZxoR9BKLQy6ZGeLk70pueqOnpTFwy0Q9yrxja4/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzRENTBBRjUyMjczRUZERjU5MTk5NURERT/NGNzE0REU2QzA5NTY4QTI2MjJGNDg4QkRDMzUxNTFDQThBQ0Y0N0UucG5n.png",
       "product_id": "lidl-паста-от-артишок-180g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-10-18",
       "price_history": [
         {
@@ -2406192,7 +2405917,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/iqivsln7nlxd2qLhCcf9MasFv-_NCSF08BfJzQy-F2g/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzlFQUVEQ0Q5OUMyNjFEMDA2NzFGNkI2ME/ZFQjEzNjM0NjgyQjFCRDhDRUQxRDU2MkJDOEJFMDNFREVCNzY3Q0YucG5n.png",
       "product_id": "lidl-подправки-за-кафе-90g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-10-18",
       "price_history": [
         {
@@ -2406520,7 +2406245,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/ifhTVjnLsUZlEzyal1g5P2APpoXyPuGYgOcRNI823pg/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS81MjlGN0Q4M0VCN0U3Njg4QjA4N0EwRTI/3QzlEMEFDNzAwNzdENTI1REUzQUNCQTBDMjU4MDgxMTVDNTA5MDhDLnBuZw.png",
       "product_id": "lidl-хапки-от-бутертесто-микс-320g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-10-18",
       "price_history": [
         {
@@ -2406562,7 +2406287,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/y35J-6qLvUcDOcnl8QNNtFuuwj9-P_qxyLqa4Pcnyb8/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzVEMkMxMzg5MzlBOTdENUQ2RkE1OUNDMj/VDMjhGQUZDRjc5Q0I2ODA4QjU1Q0NDOTFFOUJENDg2MjMzQzZGNDEucG5n.png",
       "product_id": "lidl-стек-от-жълтоперест-тон-250g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-10-18",
       "price_history": [
         {
@@ -2406826,7 +2406551,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/MOeL2QYM1xtk18-389BzYnlL3s5hdjR3M-nq-6SYmpQ/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9EMTJBMkYyMzQ4NDEzOUM2QjNFMDYyNzE/xQjAzMDgyRERBODgwMEQ2RDJCQThBNzM5OUFEM0VCQzQ1RUVEQjBCLnBuZw.png",
       "product_id": "lidl-крекери-от-бутертесто-65g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-10-18",
       "price_history": [
         {
@@ -2407162,7 +2406887,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/xApg3NxKRvunw3TTNv-RhEMB7mIL9wGud6_d9Hscisk/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzQyODAzNTREMTAzNTA3QTE3MjczNzUyRU/QyMzM2MjgyNzg5NDgwOEE4Q0VCREVCMzYxMUZCMzc5MEYwQjc5RjQucG5n.png",
       "product_id": "lidl-сос-за-паста-350g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-06-28",
       "price_history": [
         {
@@ -2407231,7 +2406956,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/FiTayP2Ok2jCukS7Q1xM92pTbPOkFvhYFMx8VcP89KE/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0U5MzU5MzI1Q0Q0NzhFMUFBMDNEMDhDQz/k4MjJFRjFCMjBFRThENTE5QkIyQzM1NEJBNDI2ODZBRjk4NTk2NjAucG5n.png",
       "product_id": "lidl-гурме-песто-190g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-10-18",
       "price_history": [
         {
@@ -2407268,7 +2406993,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/Cv17rzlpAzBn3kcZlNehdQNiPIP18x6C4dO1i5zj0Ps/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzlCMjVEQUQwN0I2QjBGNDc0QTdCODNEMk/E3RjkyMDNDQTJGNTRDOUE2ODFGMkI4RkYyOUVBNEJEOUU1MkI0NTMucG5n.png",
       "product_id": "lidl-мелничка-с-подправки-69g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-08-23",
       "price_history": [
         {
@@ -2407374,7 +2407099,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/DBDO_o3BrorjLablyvFI4V9kbTYbDoK0sGch00WSQ0M/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9CQzQ3MDlENEY5MUJFQzlDRDg5M0UxOEY/0OEYyNDkzRjA2N0Q1QUNDRjgyQkVBMTIwRjZENjc4QTQ2OUJCOTRBLnBuZw.png",
       "product_id": "lidl-пикантен-дип-170g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-10-18",
       "price_history": [
         {
@@ -2407448,7 +2407173,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/P_HdO75AsQqKmDFm2xqJl2D0NHUkbxVtcOi1sfzXijg/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS83RDA0M0MyRTNCRkI5QkRERDI2MkY3QkE/yMjUzNDI0NDgwMkVDMEQzRTNBRjhBM0M4MkY4RDgxNjgyMjAyNEQ3LnBuZw.png",
       "product_id": "lidl-tалиатели-500g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-10-18",
       "price_history": [
         {
@@ -2407485,7 +2407210,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/Y1dJBTQv4prSvkDKGC-l-2Bj1uZUifNJ8nRaja8d9QA/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9DRTJDMzMwQTc5N0ZCRjVBNzQ1MkQ0OTU/xMDE5MDBDRTM4QkIxNURFMEVFOTc1NzQ1Q0QwRDQwOEVCMTFDOTIwLnBuZw.png",
       "product_id": "lidl-ризото-300g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-04-25",
       "price_history": [
         {
@@ -2407694,7 +2407419,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/RAjABkc_uLAIyULf9J_eza8oEup5PIVZE8wBpVRprQs/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzM2RjlFNzBGMDNDQzkxQ0IwMjJDREEyMz/NBNTY0RERBODJFNDc3MUI5NURBNTMxOTg3NzVEMzgwRDRCMURDRjAucG5n.png",
       "product_id": "lidl-пица-премиум-400g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-10-18",
       "price_history": [
         {
@@ -2407731,7 +2407456,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/lcIy7xtMqhWK3DcnwihqMyUALb9qR_UhUO7zruJ-Afw/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9EQjUzRTFCNDQwMTExQjYyRDkyMkVGMTU/yRDc2NDdERUEzN0ZDNDVCRUJEN0ZBOEMxRTc1QUQ2RUM1RkFEOEIwLnBuZw.png",
       "product_id": "lidl-пинса-премиум-399g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-10-18",
       "price_history": [
         {
@@ -2407783,75 +2407508,6 @@ const ALL_PRODUCTS_DATA = {
       "lowest_price": 3.79,
       "lowest_price_date": "2026-10-18",
       "avg_price": 3.79
-    },
-    {
-      "name": "Десерт",
-      "store": "Lidl",
-      "emoji": "🛒",
-      "category": "other",
-      "weight_raw": "500 g",
-      "weight_grams": 500,
-      "shelf_life": null,
-      "is_food": false,
-      "is_healthy": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": null,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://imgproxy-retcat.assets.schwarz/kKdDquEx4Wt1_3eCL3phIvdqerh-cutLAyUyONU-3q4/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS81NkUyQzZBQzNCODgyRkNFRjU0QUU1OUM/wMkUyNzI3RjU3MUQ2NTI2QTc1RTRERUVGQjQxNTc1QUM0N0IwOTY1LnBuZw.png",
-      "product_id": "lidl-десерт-500g",
-      "last_seen": "2026-10-25",
-      "first_seen": "2026-07-19",
-      "price_history": [
-        {
-          "date": "2026-07-19",
-          "store": "Lidl",
-          "price": 7.59,
-          "price_eur": 3.88,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-08-23",
-          "store": "Lidl",
-          "price": 1.79,
-          "price_eur": 0.92,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-09-13",
-          "store": "Lidl",
-          "price": 3.88,
-          "price_eur": 1.98,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-10-04",
-          "store": "Lidl",
-          "price": 1.79,
-          "price_eur": 0.92,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-10-18",
-          "store": "Lidl",
-          "price": 3.99,
-          "price_eur": 2.04,
-          "old_price": null,
-          "discount_pct": null
-        }
-      ],
-      "lowest_price": 1.79,
-      "lowest_price_date": "2026-08-23",
-      "avg_price": 3.81
     },
     {
       "name": "Мини шницели или мини Кордон бльо",
@@ -2408022,7 +2407678,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/0ejaVAqrsWL6RxGbT2PbhJKfiuXW7hv_bxSCtY48CL0/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzdEQTk3OTQ0Mzc2NzFERTdEN0I0MTg1QT/FERjYxOTA0N0IwRjc2QTdFOUU3QjNDRTVGODA2MEVDMUU4RkE2NDUucG5n.png",
       "product_id": "lidl-селекция-от-сосове-650g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-10-18",
       "price_history": [
         {
@@ -2408059,7 +2407715,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/fV9Ixqp4qN-0ILi6MnMTTF0B3r6fK7c5eU38szE9XfY/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS84NzMzNUJFNkQ1QTFDRUUzQjc1ODE0RTA/4OUU0ODRBMjNFQjJDQUJFMEIwQ0Y1OTNFQzQ0NzZGQjkzNThBNzM0LnBuZw.png",
       "product_id": "lidl-сладоледен-десерт-троен-шоколад-1000g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-10-18",
       "price_history": [
         {
@@ -2408133,7 +2407789,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/ho0-gfBI66jJ0GmaUH6dqUaClRJwh_RJuAx5aq95vVQ/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS80NTUxNUE2RTczNUIxRUI4RjM2MUY5MUE/5MjUwNEI4OTcxMDE0NENCOTREQzE0MTZDM0ZGNzAxN0YwNzEyMUVFLnBuZw.png",
       "product_id": "lidl-селекция-пастети-540g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-10-18",
       "price_history": [
         {
@@ -2408252,7 +2407908,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/bIsrMINB36lYRWPG1AehYCPZJq4LxZ7_9zTi6kfF6S4/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0FGODE5NjE5RkE1RjdFNTZEMzhBMEUzOE/MyMjI2RUY1RjgyN0MyQUVCQjBDRTBDRTE3QzM2QjE1RUNDRDg0NzIucG5n.png",
       "product_id": "lidl-аржентински-червени-скариди-400g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-10-18",
       "price_history": [
         {
@@ -2409203,7 +2408859,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/OsZRwR2moCuHvJ4vxw1YfHlHjPuoXUWIvLlCK67eN_s/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS85OTIxNjRBMDQ4Q0E0NEFEQ0ZGQkM3Rjh/ENUMyREI1RUIxNjRERjg5NzIzRDJCQkM4MjgwMEEyMDFCQ0NFRUY1LnBuZw.png",
       "product_id": "lidl-замразени-гъби-350g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-10-18",
       "price_history": [
         {
@@ -2409289,9 +2408945,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": true,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://imgproxy-retcat.assets.schwarz/Il6Lm4E-cufClAr0sROkKSIJF-7-kgbM76F6Fga2wFE/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS8xNDdDMkQwNDA0Q0VBOTU1RkVCREFENDB/DQkIwREY1Nzc4RjlGMkFCQjY1Q0U0QzVEM0E3QTY5MkJGMUU1NTU4LnBuZw.png",
+      "image": "https://www.lidl.bg/assets/gcp95cfeda5c9ff401bbc4c65258de7037a.png",
       "product_id": "lidl-прясно-пилешко-бедро-xxl-800g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-10-18",
       "price_history": [
         {
@@ -2409301,11 +2408957,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.83,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-01",
+          "store": "Lidl",
+          "price": 3.69,
+          "price_eur": 1.89,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 3.57,
       "lowest_price_date": "2026-10-18",
-      "avg_price": 3.57
+      "avg_price": 3.63
     },
     {
       "name": "Кошнички от бутертесто",
@@ -2409445,7 +2409109,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/HAGT8rTDI9i3eyH-sU9VTbtSAbim4enQmeaiAtdiK2w/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS81RjNDNjdFQjM1QkY3REVEMDUwNDUwNzQ/1REU5QjZDOUIwMUE3MDU0RjM2QzA1RDY5N0ZGQTJBRkVGNjQzMkY5LnBuZw.png",
       "product_id": "lidl-едамаме-500g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -2409646,7 +2409310,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/nmNOVECEVnkl9MLAixn14csdEisv4RrL9qlat3zpyYw/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS85REYyMjQ1MTU2QTUyMDgyMEMwMkM2QTk/1NEUxOUM2RkZDQzIxODcwNUZBOTA5QUNDNzA5ODQwQ0M5RUFDMUE0LnBuZw.png",
       "product_id": "lidl-тирамису-70g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-06-07",
       "price_history": [
         {
@@ -2409768,7 +2409432,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/sUNT2wq9Zg5leoGEIZIfVVCKuRD8JrKAeANEpiNze6E/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9CMzg1NDYyQzY2QkExMTVEQTVCQUEyMDc/xQzYwOERENkIwQzVCNUMwQTIwMzhGQzAyMkUyMEZFQjkyOUNBMDYzLnBuZw.png",
       "product_id": "lidl-пастет-от-дивеч-110g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-10-18",
       "price_history": [
         {
@@ -2409805,7 +2409469,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/tBjHl6yFTunrIzZbjGFKd8H-OWiHC0btnemSLmCnh2c/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS81QjY0NjkyRTdEMEYwQkQ4MTEyQTUzNTQ/5MDZFOEMwNDgyMDhFMzY0REM4NTk2RTE1MEZBRDQwMkQ2RDg1MTQzLnBuZw.png",
       "product_id": "lidl-пастет-110g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-10-18",
       "price_history": [
         {
@@ -2410054,7 +2409718,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/NtKowueNALV7_vodaK2Y9fQTznsV_6bmZqqTbSGZ-KQ/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzM4REEyNjgyRjEwRUQ1ODVGNTE1MzIwNj/NFRUMzNjFENzY0QTEwOUE1OTQ3QzU3MURENEQwNEQ1RkFFMDlCRjEucG5n.png",
       "product_id": "lidl-суфле-200g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-10-18",
       "price_history": [
         {
@@ -2410091,7 +2409755,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/WDg58vTd9lcLzkt-JRmhSN07nyBYepLWSD-ltlOUQ68/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9DQzRDNUQ3MEQ2MTBCQUFCMTI3OUU0REM/2OTVBQTYwRjM1OUMzRDU2QTZGNjFGOEYxQUI2QTA1QUY4RjkyOEQ4LnBuZw.png",
       "product_id": "lidl-шоколадов-десерт-180g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-06-14",
       "price_history": [
         {
@@ -2410213,7 +2409877,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/C5u66DkmJLzfc3zik5_JmmmJYx2alWxk3HSCLgQpuTw/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9GNTVGMTU3M0VGNjNGRENDMjg5OUYzQjU/2Q0U1REQ0RjYzRDgwMDg2Q0UyQ0Y2MTg4RkQ1MjlGNTBEOEZCRDI5LnBuZw.png",
       "product_id": "lidl-сос-от-морски-дарове-300g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-10-18",
       "price_history": [
         {
@@ -2410250,7 +2409914,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/vlejhWS58hoUnG7UoOS_pebMz-QTr6h4MWZ0K4E5iic/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS8yMEZFNEUyRUNFM0VFNTNBOTkwQUYyREE/2MEE3MDBGQ0FBQzNFQUQxMTUzMTA1QUMyRjI3MjlBOUU1NDdDN0U1LnBuZw.png",
       "product_id": "lidl-пица-пинса-390g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-10-18",
       "price_history": [
         {
@@ -2410369,7 +2410033,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/THH0i44r23fbWgdMq5k9O4MBrvRGnnn5_UMw3zR46u8/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS83OTdBODgwQ0VFOTdCOUQ5QTNFRDE5QTN/BN0FCMTQ3OUVGN0VFNDQ2NUNDNTExRUMwNDI2RkQ2OTVDODEwNDAxLnBuZw.png",
       "product_id": "lidl-фокача-330g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-06-28",
       "price_history": [
         {
@@ -2410414,7 +2410078,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/hsSRLt3BDCFn8xgb50QyhrF2JgV7JdpqS7PyaTwX_PA/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS83NjY3Qzk1OTlFRkYxMTM1RTIwNDlCRkV/GODJCQTQ0MUZFREVENTg3RDJFMjNFQzBDRjQwQkE1MUZCMzA4N0I3LnBuZw.png",
       "product_id": "lidl-лазаня-500g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-04-25",
       "price_history": [
         {
@@ -2422691,74 +2422355,6 @@ const ALL_PRODUCTS_DATA = {
       "avg_price": 0.99
     },
     {
-      "name": "Моцарела",
-      "store": "Lidl",
-      "emoji": "🥛",
-      "category": "dairy",
-      "weight_raw": "125 g",
-      "weight_grams": 125,
-      "shelf_life": "малотраен",
-      "is_food": true,
-      "is_healthy": true,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": 5,
-      "diet_tags": [
-        "budget"
-      ],
-      "macros": {
-        "kcal": 280,
-        "p": 28,
-        "f": 17,
-        "c": 3.1
-      },
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://www.lidl.bg/assets/gcp9e845c0875b2432c890a2ca75894da54.png",
-      "product_id": "lidl-моцарела-125g",
-      "last_seen": "2026-10-25",
-      "first_seen": "2026-06-28",
-      "price_history": [
-        {
-          "date": "2026-06-28",
-          "store": "Lidl",
-          "price": 3.5,
-          "price_eur": 1.79,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-10-04",
-          "store": "Lidl",
-          "price": 1.89,
-          "price_eur": 0.97,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-10-11",
-          "store": "Lidl",
-          "price": 2.59,
-          "price_eur": 1.32,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-10-22",
-          "store": "Lidl",
-          "price": 0.99,
-          "price_eur": 0.51,
-          "old_price": 1.47,
-          "discount_pct": 33
-        }
-      ],
-      "lowest_price": 0.99,
-      "lowest_price_date": "2026-10-22",
-      "avg_price": 2.24
-    },
-    {
       "name": "Салата микс",
       "store": "Lidl",
       "emoji": "🥦",
@@ -2424264,59 +2423860,6 @@ const ALL_PRODUCTS_DATA = {
       "lowest_price": 7.66,
       "lowest_price_date": "2026-10-22",
       "avg_price": 11.32
-    },
-    {
-      "name": "Лазаня Болонезе XXL",
-      "store": "Lidl",
-      "emoji": "🛒",
-      "category": "other",
-      "weight_raw": "2 kg",
-      "weight_grams": 2000,
-      "shelf_life": null,
-      "is_food": false,
-      "is_healthy": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": null,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://www.lidl.bg/assets/gcp749d3c0256eb42b6ab5d4f686cbcd3ff.png",
-      "product_id": "lidl-лазаня-болонезе-xxl-2000g",
-      "last_seen": "2026-10-25",
-      "first_seen": "2026-05-24",
-      "price_history": [
-        {
-          "date": "2026-05-24",
-          "store": "Lidl",
-          "price": 15.49,
-          "price_eur": 7.92,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-06-21",
-          "store": "Lidl",
-          "price": 10.99,
-          "price_eur": 5.62,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-10-22",
-          "store": "Lidl",
-          "price": 7.89,
-          "price_eur": 4.03,
-          "old_price": null,
-          "discount_pct": null
-        }
-      ],
-      "lowest_price": 7.89,
-      "lowest_price_date": "2026-10-22",
-      "avg_price": 11.46
     },
     {
       "name": "Супер цена - Familia Тоалетна хартия 32 + 8 бр. в опаковка",
@@ -2429062,7 +2428605,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/7szH00cUrA7FGZBbD_4OYgnavVK3wJ2reYP_Q0QE_cg/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS8yNUU5RjNBQThEQUE1QjUyM0NDRjRCOUY/1RTlCRDRDNjM2MjQ0MEE4QjRERDlBMjM5RkZENkRCMEE1MTMyOTVGLnBuZw.png",
       "product_id": "lidl-високопротеинов-иогурт-200g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-04-14",
       "price_history": [
         {
@@ -2429104,11 +2428647,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.4,
           "old_price": 1.19,
           "discount_pct": 34
+        },
+        {
+          "date": "2026-11-01",
+          "store": "Lidl",
+          "price": 0.58,
+          "price_eur": 0.3,
+          "old_price": 1.17,
+          "discount_pct": 50
         }
       ],
       "lowest_price": 0.58,
       "lowest_price_date": "2026-10-11",
-      "avg_price": 1.5
+      "avg_price": 1.35
     },
     {
       "name": "Български кашкавал БДС",
@@ -2429242,7 +2428793,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/zaK6017ArTPvLgfnZkgW8LdkUQXvsb7MFcPMZZPW8OQ/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS82Nzc5NjU0RThFMTlDMEM0QjczNUUwMEZ/GMkRCMEU3Q0RFODNCRkJDOTg2RjM1OTlDMDAzOTQwMDMwOThCODFGLnBuZw.png",
       "product_id": "lidl-газирана-безалкохолна-напитка-1250g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-05-16",
       "price_history": [
         {
@@ -2429380,11 +2428931,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.84,
           "old_price": 1.87,
           "discount_pct": 12
+        },
+        {
+          "date": "2026-11-01",
+          "store": "Lidl",
+          "price": 1.24,
+          "price_eur": 0.63,
+          "old_price": 1.56,
+          "discount_pct": 21
         }
       ],
       "lowest_price": 0.66,
       "lowest_price_date": "2026-09-13",
-      "avg_price": 2.26
+      "avg_price": 2.21
     },
     {
       "name": "Лютеница",
@@ -2429407,7 +2428966,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/BbxxKWIwDSYzDMoOnEWTRZMV9v80x29Jwx3YKFeEzU4/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS8wNDE4NTAzRDgwMEZEQUMyODY1ODNDRTc/xQjFBNkYzMDRCN0VGNkQ2RUI1NTMzNkYzNEJCNzQxRjY0RTA0Q0RFLnBuZw.png",
       "product_id": "lidl-лютеница-580g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-04-14",
       "price_history": [
         {
@@ -2429473,11 +2429032,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 3.51,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-01",
+          "store": "Lidl",
+          "price": 1.99,
+          "price_eur": 1.02,
+          "old_price": 2.55,
+          "discount_pct": 22
         }
       ],
       "lowest_price": 1.99,
       "lowest_price_date": "2026-10-11",
-      "avg_price": 4.82
+      "avg_price": 4.51
     },
     {
       "name": "Подправки",
@@ -2429500,7 +2429067,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/GwqaUjznirzEY22rZNEXlRBFTsZZXy6jdQonqeHFUps/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9GRkI1ODIwRUVEMkY5NUFERjU0Njg1RkZ/DODE0MzQ2OTk5QkZFODQ2REI3OEMwMjcyNkYxNzc4NkNCMjhFRjUzLnBuZw.png",
       "product_id": "lidl-подправки-100g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-08-23",
       "price_history": [
         {
@@ -2430051,7 +2429618,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://imgproxy-retcat.assets.schwarz/nWD0mtpHUhYPRh4LnzY3NHhZXQFZgsbnKGUYJJnFVU4/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS8yMTk5RkIyRkNGM0EyQkYzOTFGMDcxNDg/2RUVDQzk2Q0RGRDJFMjI4QTcyRTQ1Rjc5NzY3NTlCN0JDMjkxNDRDLnBuZw.png",
       "product_id": "lidl-чиизкеик-450g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-01",
       "first_seen": "2026-06-21",
       "price_history": [
         {
@@ -2430093,11 +2429660,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.76,
           "old_price": 1.99,
           "discount_pct": 25
+        },
+        {
+          "date": "2026-11-01",
+          "store": "Lidl",
+          "price": 5.99,
+          "price_eur": 3.06,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 1.49,
       "lowest_price_date": "2026-10-25",
-      "avg_price": 3.88
+      "avg_price": 4.23
     },
     {
       "name": "Промопакет",
@@ -2447710,6 +2447285,1191 @@ const ALL_PRODUCTS_DATA = {
       "lowest_price": 0.44,
       "lowest_price_date": "2026-10-30",
       "avg_price": 0.44
+    },
+    {
+      "name": "Моркови",
+      "store": "Lidl",
+      "emoji": "🥦",
+      "category": "vegetable",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 7,
+      "diet_tags": [
+        "mediterranean"
+      ],
+      "macros": {
+        "kcal": 41,
+        "p": 0.9,
+        "f": 0.2,
+        "c": 10
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://www.lidl.bg/assets/gcp0913012973f840b69283f2a87315bccd.jpg",
+      "product_id": "lidl-моркови",
+      "last_seen": "2026-11-01",
+      "first_seen": "2026-11-01",
+      "price_history": [
+        {
+          "date": "2026-11-01",
+          "store": "Lidl",
+          "price": 0.49,
+          "price_eur": 0.25,
+          "old_price": 0.99,
+          "discount_pct": 51
+        }
+      ],
+      "lowest_price": 0.49,
+      "lowest_price_date": "2026-11-01",
+      "avg_price": 0.49
+    },
+    {
+      "name": "Картофи по селски XXL",
+      "store": "Lidl",
+      "emoji": "🥦",
+      "category": "vegetable",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 7,
+      "diet_tags": [
+        "vegetarian"
+      ],
+      "macros": {
+        "kcal": 77,
+        "p": 2,
+        "f": 0.1,
+        "c": 17
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://www.lidl.bg/assets/gcp6380a7f4c1864322b9d83ed7ff321ce3.png",
+      "product_id": "lidl-картофи-по-селски-xxl",
+      "last_seen": "2026-11-01",
+      "first_seen": "2026-05-24",
+      "price_history": [
+        {
+          "date": "2026-05-24",
+          "store": "Lidl",
+          "price": 4.5,
+          "price_eur": 2.3,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-08-02",
+          "store": "Lidl",
+          "price": 4.48,
+          "price_eur": 2.29,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-11-01",
+          "store": "Lidl",
+          "price": 2.29,
+          "price_eur": 1.17,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 2.29,
+      "lowest_price_date": "2026-11-01",
+      "avg_price": 3.76
+    },
+    {
+      "name": "Замразени зеленчуци микс XXL",
+      "store": "Lidl",
+      "emoji": "🥦",
+      "category": "vegetable",
+      "weight_raw": "1 kg",
+      "weight_grams": 1000,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 7,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 25,
+        "p": 1.3,
+        "f": 0.1,
+        "c": 6
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": true,
+      "image": "https://www.lidl.bg/assets/gcp9434fd87075c49e2a93e1a8a32fbe6e0.png",
+      "product_id": "lidl-замразени-зеленчуци-микс-xxl-1000g",
+      "last_seen": "2026-11-01",
+      "first_seen": "2026-11-01",
+      "price_history": [
+        {
+          "date": "2026-11-01",
+          "store": "Lidl",
+          "price": 2.55,
+          "price_eur": 1.3,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 2.55,
+      "lowest_price_date": "2026-11-01",
+      "avg_price": 2.55
+    },
+    {
+      "name": "Мини моцарела XXL",
+      "store": "Lidl",
+      "emoji": "🥛",
+      "category": "dairy",
+      "weight_raw": "150 g",
+      "weight_grams": 150,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 5,
+      "diet_tags": [],
+      "macros": {
+        "kcal": 280,
+        "p": 28,
+        "f": 17,
+        "c": 3.1
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://www.lidl.bg/assets/gcpe12a324ed6bf447098482dde6ad0b7ab.png",
+      "product_id": "lidl-мини-моцарела-xxl-150g-2",
+      "last_seen": "2026-11-01",
+      "first_seen": "2026-11-01",
+      "price_history": [
+        {
+          "date": "2026-11-01",
+          "store": "Lidl",
+          "price": 1.63,
+          "price_eur": 0.83,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 1.63,
+      "lowest_price_date": "2026-11-01",
+      "avg_price": 1.63
+    },
+    {
+      "name": "Моцарела",
+      "store": "Lidl",
+      "emoji": "🥛",
+      "category": "dairy",
+      "weight_raw": "250 g",
+      "weight_grams": 250,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 5,
+      "diet_tags": [],
+      "macros": {
+        "kcal": 280,
+        "p": 28,
+        "f": 17,
+        "c": 3.1
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://www.lidl.bg/assets/gcpfc3051a76e8e4c0cbf95df1a68fa2486.png",
+      "product_id": "lidl-моцарела-250g",
+      "last_seen": "2026-11-01",
+      "first_seen": "2026-06-28",
+      "price_history": [
+        {
+          "date": "2026-06-28",
+          "store": "Lidl",
+          "price": 3.5,
+          "price_eur": 1.79,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-10-04",
+          "store": "Lidl",
+          "price": 1.89,
+          "price_eur": 0.97,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Lidl",
+          "price": 2.59,
+          "price_eur": 1.32,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-10-22",
+          "store": "Lidl",
+          "price": 0.99,
+          "price_eur": 0.51,
+          "old_price": 1.47,
+          "discount_pct": 33
+        },
+        {
+          "date": "2026-11-01",
+          "store": "Lidl",
+          "price": 3.57,
+          "price_eur": 1.83,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 0.99,
+      "lowest_price_date": "2026-10-22",
+      "avg_price": 2.51
+    },
+    {
+      "name": "Едам XXL",
+      "store": "Lidl",
+      "emoji": "🥛",
+      "category": "dairy",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 5,
+      "diet_tags": [],
+      "macros": {
+        "kcal": 357,
+        "p": 25,
+        "f": 28,
+        "c": 1.4
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://www.lidl.bg/assets/gcp9dcd2053a4914c43bf93fd9c618e2688.jpg",
+      "product_id": "lidl-едам-xxl",
+      "last_seen": "2026-11-01",
+      "first_seen": "2026-11-01",
+      "price_history": [
+        {
+          "date": "2026-11-01",
+          "store": "Lidl",
+          "price": 7.99,
+          "price_eur": 4.09,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 7.99,
+      "lowest_price_date": "2026-11-01",
+      "avg_price": 7.99
+    },
+    {
+      "name": "Кренвирши",
+      "store": "Lidl",
+      "emoji": "🍗",
+      "category": "protein",
+      "weight_raw": "750 g",
+      "weight_grams": 750,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 3,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://imgproxy-retcat.assets.schwarz/U2LT-rUGX6rDKkkJ67tTesTjtFdMQKAxPcIdR2HsOU0/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9FNjNCRjk5MTY1NTE0MjE2MkE2RkZCMDZ/DODdDMkJFQzM4M0JEOUQ0MTY4NzFCNUFBRjZFRkRFNDQyMUFBRDEzLnBuZw.png",
+      "product_id": "lidl-кренвирши-750g",
+      "last_seen": "2026-11-01",
+      "first_seen": "2026-06-28",
+      "price_history": [
+        {
+          "date": "2026-06-28",
+          "store": "Lidl",
+          "price": 2.91,
+          "price_eur": 1.49,
+          "old_price": 4.5,
+          "discount_pct": 35
+        },
+        {
+          "date": "2026-09-06",
+          "store": "Lidl",
+          "price": 1.59,
+          "price_eur": 0.81,
+          "old_price": 2.3,
+          "discount_pct": 31
+        },
+        {
+          "date": "2026-09-20",
+          "store": "Lidl",
+          "price": 5.09,
+          "price_eur": 2.6,
+          "old_price": 7.36,
+          "discount_pct": 31
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Lidl",
+          "price": 1.15,
+          "price_eur": 0.59,
+          "old_price": 2.3,
+          "discount_pct": 50
+        },
+        {
+          "date": "2026-11-01",
+          "store": "Lidl",
+          "price": 3.99,
+          "price_eur": 2.04,
+          "old_price": 5.11,
+          "discount_pct": 22
+        }
+      ],
+      "lowest_price": 1.15,
+      "lowest_price_date": "2026-10-11",
+      "avg_price": 2.95
+    },
+    {
+      "name": "Селекция салами",
+      "store": "Lidl",
+      "emoji": "🍗",
+      "category": "protein",
+      "weight_raw": "3 x 120 g",
+      "weight_grams": 360,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 3,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://www.lidl.bg/assets/gcpa155f411783442fc8568dc13be1cd17e.png",
+      "product_id": "lidl-селекция-салами-360g",
+      "last_seen": "2026-11-01",
+      "first_seen": "2026-11-01",
+      "price_history": [
+        {
+          "date": "2026-11-01",
+          "store": "Lidl",
+          "price": 7.59,
+          "price_eur": 3.88,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 7.59,
+      "lowest_price_date": "2026-11-01",
+      "avg_price": 7.59
+    },
+    {
+      "name": "Сода бикарбонат",
+      "store": "Lidl",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "100 g",
+      "weight_grams": 100,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://www.lidl.bg/assets/gcp4920aa0f4ad741b481b423a61c7d14a3.png",
+      "product_id": "lidl-сода-бикарбонат-100g",
+      "last_seen": "2026-11-01",
+      "first_seen": "2026-11-01",
+      "price_history": [
+        {
+          "date": "2026-11-01",
+          "store": "Lidl",
+          "price": 0.19,
+          "price_eur": 0.1,
+          "old_price": 0.28,
+          "discount_pct": 32
+        }
+      ],
+      "lowest_price": 0.19,
+      "lowest_price_date": "2026-11-01",
+      "avg_price": 0.19
+    },
+    {
+      "name": "Сладко жито",
+      "store": "Lidl",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "200 g",
+      "weight_grams": 200,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://www.lidl.bg/assets/gcp075cd1c5f58847a881e775541936850c.png",
+      "product_id": "lidl-сладко-жито-200g",
+      "last_seen": "2026-11-01",
+      "first_seen": "2026-11-01",
+      "price_history": [
+        {
+          "date": "2026-11-01",
+          "store": "Lidl",
+          "price": 1.02,
+          "price_eur": 0.52,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 1.02,
+      "lowest_price_date": "2026-11-01",
+      "avg_price": 1.02
+    },
+    {
+      "name": "Колбас XXL",
+      "store": "Lidl",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "250 g",
+      "weight_grams": 250,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://www.lidl.bg/assets/gcp26d75ef660b744df9887b8d254857c36.png",
+      "product_id": "lidl-колбас-xxl-250g",
+      "last_seen": "2026-11-01",
+      "first_seen": "2026-07-05",
+      "price_history": [
+        {
+          "date": "2026-07-05",
+          "store": "Lidl",
+          "price": 5.4,
+          "price_eur": 2.76,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-08-09",
+          "store": "Lidl",
+          "price": 3.48,
+          "price_eur": 1.78,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-09-27",
+          "store": "Lidl",
+          "price": 2.76,
+          "price_eur": 1.41,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-11-01",
+          "store": "Lidl",
+          "price": 1.78,
+          "price_eur": 0.91,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 1.78,
+      "lowest_price_date": "2026-11-01",
+      "avg_price": 3.35
+    },
+    {
+      "name": "Захарна декорация",
+      "store": "Lidl",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "100 g",
+      "weight_grams": 100,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://www.lidl.bg/assets/gcp28045b9bb894487fa764708bf0dc8199.png",
+      "product_id": "lidl-захарна-декорация-100g",
+      "last_seen": "2026-11-01",
+      "first_seen": "2026-11-01",
+      "price_history": [
+        {
+          "date": "2026-11-01",
+          "store": "Lidl",
+          "price": 1.89,
+          "price_eur": 0.97,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 1.89,
+      "lowest_price_date": "2026-11-01",
+      "avg_price": 1.89
+    },
+    {
+      "name": "Фондан",
+      "store": "Lidl",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "250 g",
+      "weight_grams": 250,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://www.lidl.bg/assets/gcp68fa8ee9d1d24033968dcde4082b8d16.png",
+      "product_id": "lidl-фондан-250g",
+      "last_seen": "2026-11-01",
+      "first_seen": "2026-11-01",
+      "price_history": [
+        {
+          "date": "2026-11-01",
+          "store": "Lidl",
+          "price": 2.04,
+          "price_eur": 1.04,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 2.04,
+      "lowest_price_date": "2026-11-01",
+      "avg_price": 2.04
+    },
+    {
+      "name": "Блатове за торта",
+      "store": "Lidl",
+      "emoji": "🌾",
+      "category": "grain",
+      "weight_raw": "400 g",
+      "weight_grams": 400,
+      "shelf_life": "1-2г",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://www.lidl.bg/assets/gcpf3c87920b4c34f86822dc815093e5339.png",
+      "product_id": "lidl-блатове-за-торта-400g",
+      "last_seen": "2026-11-01",
+      "first_seen": "2026-11-01",
+      "price_history": [
+        {
+          "date": "2026-11-01",
+          "store": "Lidl",
+          "price": 2.04,
+          "price_eur": 1.04,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 2.04,
+      "lowest_price_date": "2026-11-01",
+      "avg_price": 2.04
+    },
+    {
+      "name": "Бял марципан",
+      "store": "Lidl",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "200 g",
+      "weight_grams": 200,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://www.lidl.bg/assets/gcpe505f073c99f4f439cc35952b01dcf8a.png",
+      "product_id": "lidl-бял-марципан-200g",
+      "last_seen": "2026-11-01",
+      "first_seen": "2026-11-01",
+      "price_history": [
+        {
+          "date": "2026-11-01",
+          "store": "Lidl",
+          "price": 2.09,
+          "price_eur": 1.07,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 2.09,
+      "lowest_price_date": "2026-11-01",
+      "avg_price": 2.09
+    },
+    {
+      "name": "Десерт",
+      "store": "Lidl",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "125 g",
+      "weight_grams": 125,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://www.lidl.bg/assets/gcped805c53e95046e28faee40707c315d3.png",
+      "product_id": "lidl-десерт-125g",
+      "last_seen": "2026-11-01",
+      "first_seen": "2026-07-19",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "store": "Lidl",
+          "price": 7.59,
+          "price_eur": 3.88,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-08-23",
+          "store": "Lidl",
+          "price": 1.79,
+          "price_eur": 0.92,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-09-13",
+          "store": "Lidl",
+          "price": 3.88,
+          "price_eur": 1.98,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-10-04",
+          "store": "Lidl",
+          "price": 1.79,
+          "price_eur": 0.92,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-10-18",
+          "store": "Lidl",
+          "price": 3.99,
+          "price_eur": 2.04,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-11-01",
+          "store": "Lidl",
+          "price": 2.55,
+          "price_eur": 1.3,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 1.79,
+      "lowest_price_date": "2026-08-23",
+      "avg_price": 3.6
+    },
+    {
+      "name": "Смес за сладки",
+      "store": "Lidl",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "455 g",
+      "weight_grams": 455,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://www.lidl.bg/assets/gcpadffeb043bf54e36a8ec594916bfdd47.png",
+      "product_id": "lidl-смес-за-сладки-455g",
+      "last_seen": "2026-11-01",
+      "first_seen": "2026-11-01",
+      "price_history": [
+        {
+          "date": "2026-11-01",
+          "store": "Lidl",
+          "price": 2.79,
+          "price_eur": 1.43,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 2.79,
+      "lowest_price_date": "2026-11-01",
+      "avg_price": 2.79
+    },
+    {
+      "name": "Копа",
+      "store": "Lidl",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "100 g",
+      "weight_grams": 100,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://www.lidl.bg/assets/gcpd1e1b99b18644c2983afa70dcaf7a726.png",
+      "product_id": "lidl-копа-100g",
+      "last_seen": "2026-11-01",
+      "first_seen": "2026-08-30",
+      "price_history": [
+        {
+          "date": "2026-08-30",
+          "store": "Lidl",
+          "price": 2.39,
+          "price_eur": 1.22,
+          "old_price": 3.06,
+          "discount_pct": 22
+        },
+        {
+          "date": "2026-09-27",
+          "store": "Lidl",
+          "price": 18.9,
+          "price_eur": 9.66,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-11-01",
+          "store": "Lidl",
+          "price": 2.95,
+          "price_eur": 1.51,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 2.39,
+      "lowest_price_date": "2026-08-30",
+      "avg_price": 8.08
+    },
+    {
+      "name": "Тесто за сладкиши",
+      "store": "Lidl",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "600 g",
+      "weight_grams": 600,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://www.lidl.bg/assets/gcpd9735234bb3a4abf9f3fdd9c5a7d8912.png",
+      "product_id": "lidl-тесто-за-сладкиши-600g",
+      "last_seen": "2026-11-01",
+      "first_seen": "2026-11-01",
+      "price_history": [
+        {
+          "date": "2026-11-01",
+          "store": "Lidl",
+          "price": 3.19,
+          "price_eur": 1.63,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 3.19,
+      "lowest_price_date": "2026-11-01",
+      "avg_price": 3.19
+    },
+    {
+      "name": "Замразени плодове XXL",
+      "store": "Lidl",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "1 kg",
+      "weight_grams": 1000,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://www.lidl.bg/assets/gcpba24222771994f26aae04d37642068bf.png",
+      "product_id": "lidl-замразени-плодове-xxl-1000g",
+      "last_seen": "2026-11-01",
+      "first_seen": "2026-08-02",
+      "price_history": [
+        {
+          "date": "2026-08-02",
+          "store": "Lidl",
+          "price": 7.49,
+          "price_eur": 3.83,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-11-01",
+          "store": "Lidl",
+          "price": 3.83,
+          "price_eur": 1.96,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 3.83,
+      "lowest_price_date": "2026-11-01",
+      "avg_price": 5.66
+    },
+    {
+      "name": "Лютеница XXL",
+      "store": "Lidl",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "1.03 kg",
+      "weight_grams": 1030,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://www.lidl.bg/assets/gcp5b773f744d6c4625b020d86a051ce807.png",
+      "product_id": "lidl-лютеница-xxl-1030g",
+      "last_seen": "2026-11-01",
+      "first_seen": "2026-05-07",
+      "price_history": [
+        {
+          "date": "2026-05-07",
+          "store": "Lidl",
+          "price": 7.8,
+          "price_eur": 3.99,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-08-30",
+          "store": "Lidl",
+          "price": 3.99,
+          "price_eur": 2.04,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-11-01",
+          "store": "Lidl",
+          "price": 4.99,
+          "price_eur": 2.55,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 3.99,
+      "lowest_price_date": "2026-08-30",
+      "avg_price": 5.59
+    },
+    {
+      "name": "Кордон бльо XXL",
+      "store": "Lidl",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://www.lidl.bg/assets/gcp4ad3937e71e74482bdc55ff73787d45d.png",
+      "product_id": "lidl-кордон-бльо-xxl",
+      "last_seen": "2026-11-01",
+      "first_seen": "2026-05-24",
+      "price_history": [
+        {
+          "date": "2026-05-24",
+          "store": "Lidl",
+          "price": 10.99,
+          "price_eur": 5.62,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-06-21",
+          "store": "Lidl",
+          "price": 10.54,
+          "price_eur": 5.39,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-11-01",
+          "store": "Lidl",
+          "price": 5.39,
+          "price_eur": 2.76,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 5.39,
+      "lowest_price_date": "2026-11-01",
+      "avg_price": 8.97
+    },
+    {
+      "name": "Лазаня Болонезе XXL",
+      "store": "Lidl",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "1.6 kg",
+      "weight_grams": 1600,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://www.lidl.bg/assets/gcp090c0e453d4d4c9ab25ed692cf2e50ae.png",
+      "product_id": "lidl-лазаня-болонезе-xxl-1600g",
+      "last_seen": "2026-11-01",
+      "first_seen": "2026-05-24",
+      "price_history": [
+        {
+          "date": "2026-05-24",
+          "store": "Lidl",
+          "price": 15.49,
+          "price_eur": 7.92,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-06-21",
+          "store": "Lidl",
+          "price": 10.99,
+          "price_eur": 5.62,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-10-22",
+          "store": "Lidl",
+          "price": 7.89,
+          "price_eur": 4.03,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-11-01",
+          "store": "Lidl",
+          "price": 7.49,
+          "price_eur": 3.83,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 7.49,
+      "lowest_price_date": "2026-11-01",
+      "avg_price": 10.46
+    },
+    {
+      "name": "Пъдпъдъци",
+      "store": "Lidl",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "600 g",
+      "weight_grams": 600,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://www.lidl.bg/assets/gcpe03831de8bcb4c04b4f8c9cc859a963d.png",
+      "product_id": "lidl-пъдпъдъци-600g",
+      "last_seen": "2026-11-01",
+      "first_seen": "2026-11-01",
+      "price_history": [
+        {
+          "date": "2026-11-01",
+          "store": "Lidl",
+          "price": 7.66,
+          "price_eur": 3.92,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 7.66,
+      "lowest_price_date": "2026-11-01",
+      "avg_price": 7.66
+    },
+    {
+      "name": "Деликатесни наденички XXL",
+      "store": "Lidl",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "1.2 kg",
+      "weight_grams": 1200,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://www.lidl.bg/assets/gcpe0990b5706ef4b3fafd15488a22d9904.png",
+      "product_id": "lidl-деликатесни-наденички-xxl-1200g",
+      "last_seen": "2026-11-01",
+      "first_seen": "2026-11-01",
+      "price_history": [
+        {
+          "date": "2026-11-01",
+          "store": "Lidl",
+          "price": 8.18,
+          "price_eur": 4.18,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 8.18,
+      "lowest_price_date": "2026-11-01",
+      "avg_price": 8.18
     }
   ]
 };
