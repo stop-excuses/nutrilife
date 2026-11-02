@@ -1,5 +1,5 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-11-02T16:51:47.851970Z",
+  "generated_at": "2026-11-02T19:16:05.432875Z",
   "store_last_scraped": {
     "Billa": "2026-10-30",
     "Dar": "2026-10-30",
@@ -11,9 +11,9 @@ const OFFERS_DATA = {
   "unavailable_stores": [
     "T-Market"
   ],
-  "content_hash": "6704a02180bdb4a93a8d28ea110432a0",
-  "total_offers": 4058,
-  "promo_offers": 1300,
+  "content_hash": "d05c1894dbc914be74a0dc87d6616f1a",
+  "total_offers": 4059,
+  "promo_offers": 1301,
   "assortment_offers": 2758,
   "stores": [
     "Billa",
@@ -30435,6 +30435,107 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 10,
       "price_signal": "normal"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 1.42,
+      "new_price_eur": 0.73,
+      "old_price": 2.3,
+      "old_price_eur": 1.18,
+      "discount_pct": 38,
+      "valid_from": "2026-11-02",
+      "valid_until": "2026-11-08",
+      "price_per_kg": 4.44,
+      "price_per_kg_eur": 2.27,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 1.42,
+          "price_eur": 0.73,
+          "old_price": 2.3,
+          "old_price_eur": 1.18,
+          "discount_pct": 38,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 1.42,
+      "comparison_count": 1,
+      "product_id": "kaufland-felix-pouch-храна-за-котки-различни-видове-320g",
+      "weight_grams": 320,
+      "weight_raw": "4 х 80 г",
+      "name": "Felix Pouch Храна за котки различни видове",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00107280_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "pet",
+      "emoji": "🐾",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": true,
+      "is_long_lasting": true,
+      "avg_price": 1.77,
+      "lowest_price": 1.35,
+      "lowest_price_date": "2026-08-31",
+      "price_history": [
+        [
+          "2026-06-01",
+          2.78,
+          4.5,
+          38
+        ],
+        [
+          "2026-08-10",
+          1.42,
+          null,
+          null
+        ],
+        [
+          "2026-08-31",
+          1.35,
+          2.3,
+          41
+        ],
+        [
+          "2026-09-20",
+          1.42,
+          2.3,
+          38
+        ],
+        [
+          "2026-09-28",
+          1.72,
+          2.3,
+          25
+        ],
+        [
+          "2026-10-11",
+          1.42,
+          null,
+          null
+        ],
+        [
+          "2026-10-19",
+          1.72,
+          2.3,
+          25
+        ],
+        [
+          "2026-11-02",
+          1.42,
+          2.3,
+          38
+        ]
+      ],
+      "price_seen_count": 9,
+      "price_signal": "good"
     },
     {
       "store": "Kaufland",
