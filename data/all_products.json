@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-02T13:00:46.582218Z",
-  "total_products": 60914,
+  "generated_at": "2026-11-02T15:30:19.475103Z",
+  "total_products": 60915,
   "products": [
     {
       "name": "Пушена риба тон",
@@ -557465,7 +557465,7 @@
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/5997321736280_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00064566_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-finish-таблетки-за-съдомиялна-избрани-видове",
       "last_seen": "2026-11-02",
       "first_seen": "2026-04-27",
@@ -2460711,6 +2460711,43 @@
       "lowest_price": 119.9,
       "lowest_price_date": "2026-11-02",
       "avg_price": 119.9
+    },
+    {
+      "name": "K-WINTER EDITION Щолен с марципан",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "1000 г",
+      "weight_grams": 1000,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": true,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4101540776076_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-k-winter-edition-щолен-с-марципан-1000g",
+      "last_seen": "2026-11-02",
+      "first_seen": "2026-11-02",
+      "price_history": [
+        {
+          "date": "2026-11-02",
+          "store": "Kaufland",
+          "price": 6.99,
+          "price_eur": 3.57,
+          "old_price": 9.69,
+          "discount_pct": 28
+        }
+      ],
+      "lowest_price": 6.99,
+      "lowest_price_date": "2026-11-02",
+      "avg_price": 6.99
     }
   ]
 }

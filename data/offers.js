@@ -1,5 +1,5 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-11-02T12:08:20.551523Z",
+  "generated_at": "2026-11-02T15:30:21.612169Z",
   "store_last_scraped": {
     "Billa": "2026-10-30",
     "Dar": "2026-10-30",
@@ -11,10 +11,10 @@ const OFFERS_DATA = {
   "unavailable_stores": [
     "T-Market"
   ],
-  "content_hash": "bbc27617313a58ac19750abbf726be9b",
-  "total_offers": 4060,
+  "content_hash": "d05c1894dbc914be74a0dc87d6616f1a",
+  "total_offers": 4059,
   "promo_offers": 1301,
-  "assortment_offers": 2759,
+  "assortment_offers": 2758,
   "stores": [
     "Billa",
     "Dar",
@@ -53333,10 +53333,10 @@ const OFFERS_DATA = {
       "best_price_store": "Kaufland",
       "best_price": 6.99,
       "comparison_count": 1,
-      "product_id": "kaufland-марципан-щолен-1000g",
+      "product_id": "kaufland-k-winter-edition-щолен-с-марципан-1000g",
       "weight_grams": 1000,
       "weight_raw": "1000 г",
-      "name": "Марципан щолен",
+      "name": "K-WINTER EDITION Щолен с марципан",
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4101540776076_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
@@ -60101,105 +60101,6 @@ const OFFERS_DATA = {
     {
       "store": "Kaufland",
       "address": null,
-      "new_price": 14.64,
-      "new_price_eur": 7.49,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-11-02",
-      "valid_until": "2026-11-08",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 14.64,
-          "price_eur": 7.49,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 14.64,
-      "comparison_count": 1,
-      "product_id": "kaufland-finish-таблетки-за-съдомиялна-избрани-видове",
-      "name": "Finish Таблетки за съдомиялна избрани видове",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/5997321736280_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
-      "category": "household",
-      "emoji": "🧹",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": true,
-      "is_long_lasting": true,
-      "avg_price": 28.18,
-      "lowest_price": 14.64,
-      "lowest_price_date": "2026-10-19",
-      "price_history": [
-        [
-          "2026-05-25",
-          38.88,
-          79.99,
-          51
-        ],
-        [
-          "2026-06-15",
-          38.98,
-          null,
-          null
-        ],
-        [
-          "2026-07-27",
-          28.63,
-          57.29,
-          50
-        ],
-        [
-          "2026-08-03",
-          38.98,
-          null,
-          null
-        ],
-        [
-          "2026-09-07",
-          19.93,
-          null,
-          null
-        ],
-        [
-          "2026-10-19",
-          14.64,
-          29.29,
-          50
-        ],
-        [
-          "2026-10-26",
-          19.93,
-          null,
-          null
-        ],
-        [
-          "2026-11-02",
-          14.64,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 9,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
       "new_price": 14.99,
       "new_price_eur": 7.66,
       "old_price": null,
@@ -60461,8 +60362,8 @@ const OFFERS_DATA = {
       "best_price_store": "Kaufland",
       "best_price": 14.99,
       "comparison_count": 1,
-      "product_id": "kaufland-finishtabs-таблетки-за-съдомиялна-избрани-видове",
-      "name": "FinishTabs Таблетки за съдомиялна избрани видове",
+      "product_id": "kaufland-finish-таблетки-за-съдомиялна-избрани-видове",
+      "name": "Finish Таблетки за съдомиялна избрани видове",
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00064566_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "category": "household",
       "emoji": "🧹",
@@ -60474,10 +60375,40 @@ const OFFERS_DATA = {
       "is_good_fat": false,
       "is_bulk_worthy": true,
       "is_long_lasting": true,
-      "avg_price": 14.82,
+      "avg_price": 28.18,
       "lowest_price": 14.64,
       "lowest_price_date": "2026-10-19",
       "price_history": [
+        [
+          "2026-05-25",
+          38.88,
+          79.99,
+          51
+        ],
+        [
+          "2026-06-15",
+          38.98,
+          null,
+          null
+        ],
+        [
+          "2026-07-27",
+          28.63,
+          57.29,
+          50
+        ],
+        [
+          "2026-08-03",
+          38.98,
+          null,
+          null
+        ],
+        [
+          "2026-09-07",
+          19.93,
+          null,
+          null
+        ],
         [
           "2026-10-19",
           14.64,
@@ -60485,13 +60416,19 @@ const OFFERS_DATA = {
           50
         ],
         [
+          "2026-10-26",
+          19.93,
+          null,
+          null
+        ],
+        [
           "2026-11-02",
-          14.99,
+          14.64,
           null,
           null
         ]
       ],
-      "price_seen_count": 2,
+      "price_seen_count": 9,
       "price_signal": "buy"
     },
     {
@@ -346699,5 +346636,5 @@ const OFFERS_DATA = {
       "price_signal": "normal"
     }
   ],
-  "catalog_products": 60914
+  "catalog_products": 60915
 };
