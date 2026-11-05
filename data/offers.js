@@ -1,5 +1,5 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-11-05T11:42:01.869296Z",
+  "generated_at": "2026-11-05T17:48:32.718518Z",
   "store_last_scraped": {
     "Billa": "2026-11-05",
     "Dar": "2026-11-05",
@@ -11,10 +11,10 @@ const OFFERS_DATA = {
   "unavailable_stores": [
     "T-Market"
   ],
-  "content_hash": "14f607497afeba841fa92dc4d9e5f77f",
-  "total_offers": 4103,
+  "content_hash": "be988a570229683f560f2a5b70981c4a",
+  "total_offers": 4104,
   "promo_offers": 1308,
-  "assortment_offers": 2795,
+  "assortment_offers": 2796,
   "stores": [
     "Billa",
     "Dar",
@@ -168161,6 +168161,69 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 3,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 1.0,
+      "new_price_eur": 0.51,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-11-02",
+      "valid_until": "2026-11-08",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 1.0,
+          "price_eur": 0.51,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 1.0,
+      "comparison_count": 1,
+      "product_id": "kaufland-домашни-потреби",
+      "name": "Домашни потреби",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20020623S_P-32?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 1.5,
+      "lowest_price": 1.0,
+      "lowest_price_date": "2026-09-20",
+      "price_history": [
+        [
+          "2026-05-18",
+          1.99,
+          null,
+          null
+        ],
+        [
+          "2026-09-20",
+          1.0,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 2,
       "price_signal": "buy"
     },
     {
