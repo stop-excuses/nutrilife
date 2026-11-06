@@ -1,5 +1,5 @@
 const ALL_PRODUCTS_DATA = {
-  "generated_at": "2026-11-06T15:38:52.064039Z",
+  "generated_at": "2026-11-06T19:12:26.303539Z",
   "total_products": 60984,
   "products": [
     {
@@ -655166,7 +655166,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/519_00044280?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_00044280_P.jpg",
       "product_id": "kaufland-nestle-lion-kit-kat-chunky-шоколадов-десерт-различни-видове-64g",
       "last_seen": "2026-11-06",
       "first_seen": "2026-05-07",
@@ -755769,7 +755769,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20682926_P.jpg",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4009017105247_CZ_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-домашни-потреби-различни-видове",
       "last_seen": "2026-11-06",
       "first_seen": "2026-05-18",
