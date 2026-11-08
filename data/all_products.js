@@ -1,5 +1,5 @@
 const ALL_PRODUCTS_DATA = {
-  "generated_at": "2026-11-08T16:56:17.034776Z",
+  "generated_at": "2026-11-08T18:14:27.598196Z",
   "total_products": 61046,
   "products": [
     {
@@ -2363064,7 +2363064,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_00042541_P.jpg",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800200452503_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-karuzo-кремпита-различни-видове-82g",
       "last_seen": "2026-11-08",
       "first_seen": "2026-09-28",
@@ -2456076,7 +2456076,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20345183_P.jpg",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800022409129_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-starobrno-бира-промопакет-2000g",
       "last_seen": "2026-11-08",
       "first_seen": "2026-11-02",
@@ -2466693,7 +2466693,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://www.lidl.bg/assets/gcpeb1ff6fad5b14e83a2b3f6fdbfdd87b6.png",
+      "image": "https://www.lidl.bg/assets/gcp53902d4de820405eac2888aadbbdd6ec.png",
       "product_id": "lidl-прясно-мляко-1000g",
       "last_seen": "2026-11-08",
       "first_seen": "2026-05-07",
@@ -2470111,120 +2470111,6 @@ const ALL_PRODUCTS_DATA = {
       "avg_price": 1.62
     },
     {
-      "name": "Маслиново масло",
-      "store": "Lidl",
-      "emoji": "🫒",
-      "category": "fat",
-      "weight_raw": "750 ml",
-      "weight_grams": 750,
-      "shelf_life": "1-2г",
-      "is_food": true,
-      "is_healthy": true,
-      "is_bulk_worthy": true,
-      "is_long_lasting": true,
-      "health_score": 5,
-      "diet_tags": [],
-      "macros": {
-        "kcal": 115,
-        "p": 0.8,
-        "f": 11,
-        "c": 6
-      },
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://www.lidl.bg/assets/gcp42f06f0f30674ef08325c21fcf1a191f.png",
-      "product_id": "lidl-маслиново-масло-750g",
-      "last_seen": "2026-11-08",
-      "first_seen": "2026-05-07",
-      "price_history": [
-        {
-          "date": "2026-05-07",
-          "store": "Lidl",
-          "price": 8.74,
-          "price_eur": 4.47,
-          "old_price": 10.93,
-          "discount_pct": 20
-        },
-        {
-          "date": "2026-06-14",
-          "store": "Lidl",
-          "price": 13.26,
-          "price_eur": 6.78,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-06-28",
-          "store": "Lidl",
-          "price": 12.69,
-          "price_eur": 6.49,
-          "old_price": 14.98,
-          "discount_pct": 15
-        },
-        {
-          "date": "2026-08-02",
-          "store": "Lidl",
-          "price": 13.26,
-          "price_eur": 6.78,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-08-16",
-          "store": "Lidl",
-          "price": 14.45,
-          "price_eur": 7.39,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-08-23",
-          "store": "Lidl",
-          "price": 5.19,
-          "price_eur": 2.65,
-          "old_price": 6.49,
-          "discount_pct": 20
-        },
-        {
-          "date": "2026-09-20",
-          "store": "Lidl",
-          "price": 7.39,
-          "price_eur": 3.78,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-10-04",
-          "store": "Lidl",
-          "price": 5.99,
-          "price_eur": 3.06,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-10-11",
-          "store": "Lidl",
-          "price": 6.49,
-          "price_eur": 3.32,
-          "old_price": 7.66,
-          "discount_pct": 15
-        },
-        {
-          "date": "2026-11-08",
-          "store": "Lidl",
-          "price": 3.59,
-          "price_eur": 1.84,
-          "old_price": 4.34,
-          "discount_pct": 17
-        }
-      ],
-      "lowest_price": 3.59,
-      "lowest_price_date": "2026-11-08",
-      "avg_price": 9.1
-    },
-    {
       "name": "Български кашкавал БДС",
       "store": "Lidl",
       "emoji": "🥛",
@@ -2471001,12 +2470887,128 @@ const ALL_PRODUCTS_DATA = {
       "avg_price": 3.98
     },
     {
+      "name": "Маслиново масло",
+      "store": "Lidl",
+      "emoji": "🫒",
+      "category": "fat",
+      "weight_raw": "1 l",
+      "weight_grams": 1000,
+      "shelf_life": "1-2г",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": true,
+      "is_long_lasting": true,
+      "health_score": 5,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 115,
+        "p": 0.8,
+        "f": 11,
+        "c": 6
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://www.lidl.bg/assets/gcp6158fb816ee34b9596cdc599e590da8b.png",
+      "product_id": "lidl-маслиново-масло-1000g",
+      "last_seen": "2026-11-08",
+      "first_seen": "2026-05-07",
+      "price_history": [
+        {
+          "date": "2026-05-07",
+          "store": "Lidl",
+          "price": 8.74,
+          "price_eur": 4.47,
+          "old_price": 10.93,
+          "discount_pct": 20
+        },
+        {
+          "date": "2026-06-14",
+          "store": "Lidl",
+          "price": 13.26,
+          "price_eur": 6.78,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-06-28",
+          "store": "Lidl",
+          "price": 12.69,
+          "price_eur": 6.49,
+          "old_price": 14.98,
+          "discount_pct": 15
+        },
+        {
+          "date": "2026-08-02",
+          "store": "Lidl",
+          "price": 13.26,
+          "price_eur": 6.78,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-08-16",
+          "store": "Lidl",
+          "price": 14.45,
+          "price_eur": 7.39,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-08-23",
+          "store": "Lidl",
+          "price": 5.19,
+          "price_eur": 2.65,
+          "old_price": 6.49,
+          "discount_pct": 20
+        },
+        {
+          "date": "2026-09-20",
+          "store": "Lidl",
+          "price": 7.39,
+          "price_eur": 3.78,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-10-04",
+          "store": "Lidl",
+          "price": 5.99,
+          "price_eur": 3.06,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Lidl",
+          "price": 6.49,
+          "price_eur": 3.32,
+          "old_price": 7.66,
+          "discount_pct": 15
+        },
+        {
+          "date": "2026-11-08",
+          "store": "Lidl",
+          "price": 3.59,
+          "price_eur": 1.84,
+          "old_price": 4.34,
+          "discount_pct": 17
+        }
+      ],
+      "lowest_price": 3.59,
+      "lowest_price_date": "2026-11-08",
+      "avg_price": 9.1
+    },
+    {
       "name": "Майонеза",
       "store": "Lidl",
       "emoji": "🛒",
       "category": "other",
-      "weight_raw": "855 ml",
-      "weight_grams": 855,
+      "weight_raw": "625 ml",
+      "weight_grams": 625,
       "shelf_life": null,
       "is_food": false,
       "is_healthy": false,
@@ -2471019,8 +2471021,8 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://www.lidl.bg/assets/gcp004697d589e34625b35964aaae2c342d.png",
-      "product_id": "lidl-маионеза-855g",
+      "image": "https://www.lidl.bg/assets/gcp2a9fa6f6d92f42caa8522f4a13dfc785.jpg",
+      "product_id": "lidl-маионеза-625g",
       "last_seen": "2026-11-08",
       "first_seen": "2026-06-28",
       "price_history": [
