@@ -1,5 +1,5 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-11-08T20:59:57.201391Z",
+  "generated_at": "2026-11-08T22:43:41.907580Z",
   "store_last_scraped": {
     "Billa": "2026-11-06",
     "Dar": "2026-11-06",
@@ -11,10 +11,10 @@ const OFFERS_DATA = {
   "unavailable_stores": [
     "T-Market"
   ],
-  "content_hash": "0241676a01b075c66713324ce6f30ddb",
-  "total_offers": 4040,
-  "promo_offers": 1258,
-  "assortment_offers": 2782,
+  "content_hash": "6741610de9aece821b1fcac4cd2bb6b3",
+  "total_offers": 4060,
+  "promo_offers": 1302,
+  "assortment_offers": 2758,
   "stores": [
     "Billa",
     "Dar",
@@ -347,88 +347,78 @@ const OFFERS_DATA = {
     {
       "store": "Lidl",
       "address": null,
-      "new_price": 5.99,
-      "new_price_eur": 3.06,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
+      "new_price": 5.69,
+      "new_price_eur": 2.91,
+      "old_price": 6.64,
+      "old_price_eur": 3.39,
+      "discount_pct": 14,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": 5.99,
-      "price_per_kg_eur": 3.06,
-      "source_type": "assortment",
+      "price_per_kg": 22.76,
+      "price_per_kg_eur": 11.64,
+      "source_type": "promo",
       "available_stores": [
         "Lidl"
       ],
       "store_prices": [
         {
           "store": "Lidl",
-          "price": 5.99,
-          "price_eur": 3.06,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
+          "price": 5.69,
+          "price_eur": 2.91,
+          "old_price": 6.64,
+          "old_price_eur": 3.39,
+          "discount_pct": 14,
+          "source_type": "promo"
         }
       ],
       "best_price_store": "Lidl",
-      "best_price": 5.99,
+      "best_price": 5.69,
       "comparison_count": 1,
-      "product_id": "lidl-прясна-дъгова-пъстърва-xxl-1000g",
-      "weight_grams": 1000,
-      "weight_raw": "1 kg",
-      "name": "Прясна дъгова пъстърва XXL",
-      "image": "https://www.lidl.bg/assets/gcp9cf9a9f17cf94f0e97d0fe9b42a06d62.png",
+      "product_id": "lidl-прясно-филе-от-сьомга-250g",
+      "weight_grams": 250,
+      "weight_raw": "250 g",
+      "name": "Прясно филе от сьомга",
+      "image": "https://www.lidl.bg/assets/gcp251edbfdc7794612bdd46afac965db42.png",
       "category": "protein",
       "emoji": "🍗",
       "health_score": 10,
       "is_food": true,
       "is_junk": false,
       "is_healthy": true,
-      "is_high_protein": false,
+      "is_high_protein": true,
       "is_good_carb": false,
-      "is_good_fat": false,
+      "is_good_fat": true,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
       "diet_tags": [
-        "budget"
+        "high_protein",
+        "keto",
+        "mediterranean"
       ],
       "macros": {
-        "kcal": 119,
+        "kcal": 208,
         "p": 20,
-        "f": 3.5,
+        "f": 13,
         "c": 0
       },
-      "avg_price": 8.78,
-      "lowest_price": 5.99,
+      "avg_price": 10.54,
+      "lowest_price": 5.69,
       "lowest_price_date": "2026-11-08",
       "price_history": [
         [
-          "2026-06-28",
-          11.7,
-          null,
-          null
-        ],
-        [
-          "2026-07-19",
-          11.32,
-          null,
-          null
-        ],
-        [
-          "2026-10-11",
-          6.09,
+          "2026-09-27",
+          15.39,
           null,
           null
         ],
         [
           "2026-11-08",
-          5.99,
-          null,
-          null
+          5.69,
+          6.64,
+          14
         ]
       ],
-      "price_seen_count": 4,
+      "price_seen_count": 2,
       "price_signal": "buy"
     },
     {
@@ -623,72 +613,73 @@ const OFFERS_DATA = {
     {
       "store": "Lidl",
       "address": null,
-      "new_price": 9.69,
-      "new_price_eur": 4.95,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
+      "new_price": 11.49,
+      "new_price_eur": 5.87,
+      "old_price": 14.99,
+      "old_price_eur": 7.66,
+      "discount_pct": 23,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": 30.28,
-      "price_per_kg_eur": 15.48,
-      "source_type": "assortment",
+      "price_per_kg": 19.15,
+      "price_per_kg_eur": 9.79,
+      "source_type": "promo",
       "available_stores": [
         "Lidl"
       ],
       "store_prices": [
         {
           "store": "Lidl",
-          "price": 9.69,
-          "price_eur": 4.95,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
+          "price": 11.49,
+          "price_eur": 5.87,
+          "old_price": 14.99,
+          "old_price_eur": 7.66,
+          "discount_pct": 23,
+          "source_type": "promo"
         }
       ],
       "best_price_store": "Lidl",
-      "best_price": 9.69,
+      "best_price": 11.49,
       "comparison_count": 1,
-      "product_id": "lidl-шотландска-пушена-сьомга-320g",
-      "weight_grams": 320,
-      "weight_raw": "320 g",
-      "name": "Шотландска пушена сьомга",
-      "image": "https://www.lidl.bg/assets/gcp8054674428904f739c85e9d400e6fec5.png",
-      "category": "canned",
-      "emoji": "🥫",
+      "product_id": "lidl-филе-от-сьомгова-пъстърва-600g",
+      "weight_grams": 600,
+      "weight_raw": "600 g",
+      "name": "Филе от сьомгова пъстърва",
+      "image": "https://www.lidl.bg/assets/gcpb594315a0a8b44d0bcb51eafa8dec882.png",
+      "category": "protein",
+      "emoji": "🍗",
       "health_score": 10,
       "is_food": true,
       "is_junk": false,
       "is_healthy": true,
-      "is_high_protein": true,
+      "is_high_protein": false,
       "is_good_carb": false,
-      "is_good_fat": true,
-      "is_bulk_worthy": true,
-      "is_long_lasting": true,
-      "diet_tags": [
-        "high_protein",
-        "keto",
-        "mediterranean"
-      ],
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
       "macros": {
-        "kcal": 208,
+        "kcal": 119,
         "p": 20,
-        "f": 13,
+        "f": 3.5,
         "c": 0
       },
-      "avg_price": 9.69,
-      "lowest_price": 9.69,
+      "avg_price": 20.21,
+      "lowest_price": 11.49,
       "lowest_price_date": "2026-11-08",
       "price_history": [
         [
-          "2026-11-08",
-          9.69,
+          "2026-05-07",
+          28.93,
           null,
           null
+        ],
+        [
+          "2026-11-08",
+          11.49,
+          14.99,
+          23
         ]
       ],
-      "price_seen_count": 1,
+      "price_seen_count": 2,
       "price_signal": "buy"
     },
     {
@@ -908,82 +899,6 @@ const OFFERS_DATA = {
       "price_signal": "good"
     },
     {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 0.49,
-      "new_price_eur": 0.25,
-      "old_price": 0.99,
-      "old_price_eur": 0.51,
-      "discount_pct": 51,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 0.49,
-          "price_eur": 0.25,
-          "old_price": 0.99,
-          "old_price_eur": 0.51,
-          "discount_pct": 51,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 0.49,
-      "comparison_count": 1,
-      "product_id": "lidl-авокадо",
-      "name": "Авокадо",
-      "image": "https://www.lidl.bg/assets/gcp65141e12139c4d97859f194d8cc4ede3.png",
-      "category": "vegetable",
-      "emoji": "🥦",
-      "health_score": 9,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": true,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "macros": {
-        "kcal": 160,
-        "p": 2,
-        "f": 15,
-        "c": 9
-      },
-      "avg_price": 2.24,
-      "lowest_price": 0.49,
-      "lowest_price_date": "2026-11-08",
-      "price_history": [
-        [
-          "2026-05-10",
-          4.87,
-          6.79,
-          28
-        ],
-        [
-          "2026-05-24",
-          1.35,
-          2.99,
-          55
-        ],
-        [
-          "2026-11-08",
-          0.49,
-          0.99,
-          51
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "buy"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 0.55,
@@ -1118,6 +1033,84 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 0.81,
+      "new_price_eur": 0.41,
+      "old_price": 1.63,
+      "old_price_eur": 0.83,
+      "discount_pct": 50,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 1.62,
+      "price_per_kg_eur": 0.83,
+      "source_type": "promo",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 0.81,
+          "price_eur": 0.41,
+          "old_price": 1.63,
+          "old_price_eur": 0.83,
+          "discount_pct": 50,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 0.81,
+      "comparison_count": 1,
+      "product_id": "lidl-червена-леща-500g",
+      "weight_grams": 500,
+      "weight_raw": "500 g",
+      "name": "Червена леща",
+      "image": "https://www.lidl.bg/assets/gcp50755b7fce044b2b8b15f29324445036.png",
+      "category": "legume",
+      "emoji": "🫘",
+      "health_score": 9,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": true,
+      "is_good_fat": false,
+      "is_bulk_worthy": true,
+      "is_long_lasting": true,
+      "diet_tags": [
+        "high_protein",
+        "mediterranean",
+        "vegetarian",
+        "budget"
+      ],
+      "macros": {
+        "kcal": 116,
+        "p": 9,
+        "f": 0.4,
+        "c": 20
+      },
+      "avg_price": 2.0,
+      "lowest_price": 0.81,
+      "lowest_price_date": "2026-11-08",
+      "price_history": [
+        [
+          "2026-04-14",
+          3.19,
+          6.38,
+          50
+        ],
+        [
+          "2026-11-08",
+          0.81,
+          1.63,
+          50
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
       "store": "Kaufland",
       "address": null,
       "new_price": 0.85,
@@ -1203,6 +1196,82 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 4,
       "price_signal": "good"
+    },
+    {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 0.85,
+      "new_price_eur": 0.43,
+      "old_price": 0.99,
+      "old_price_eur": 0.51,
+      "discount_pct": 14,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 11.33,
+      "price_per_kg_eur": 5.79,
+      "source_type": "promo",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 0.85,
+          "price_eur": 0.43,
+          "old_price": 0.99,
+          "old_price_eur": 0.51,
+          "discount_pct": 14,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 0.85,
+      "comparison_count": 1,
+      "product_id": "lidl-печени-пилешки-гърди-75g",
+      "weight_grams": 75,
+      "weight_raw": "75 g",
+      "name": "Печени пилешки гърди",
+      "image": "https://www.lidl.bg/assets/gcpab3c4657bcc745a892c3e5c0b11aca0f.png",
+      "category": "protein",
+      "emoji": "🍗",
+      "health_score": 9,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": true,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "high_protein",
+        "keto"
+      ],
+      "macros": {
+        "kcal": 165,
+        "p": 31,
+        "f": 3.6,
+        "c": 0
+      },
+      "avg_price": 1.42,
+      "lowest_price": 0.85,
+      "lowest_price_date": "2026-11-08",
+      "price_history": [
+        [
+          "2026-09-27",
+          1.98,
+          2.97,
+          33
+        ],
+        [
+          "2026-11-08",
+          0.85,
+          0.99,
+          14
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy"
     },
     {
       "store": "Kaufland",
@@ -1931,6 +2000,95 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 1.65,
+      "new_price_eur": 0.84,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 0.82,
+      "price_per_kg_eur": 0.42,
+      "source_type": "assortment",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 1.65,
+          "price_eur": 0.84,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 1.65,
+      "comparison_count": 1,
+      "product_id": "lidl-прясно-пилешко-бутче-xxl-2000g",
+      "weight_grams": 2000,
+      "weight_raw": "2 kg",
+      "name": "Прясно пилешко бутче XXL",
+      "image": "https://www.lidl.bg/assets/gcp466e57b48b07416eb485cc6bf48b0b65.png",
+      "category": "protein",
+      "emoji": "🍗",
+      "health_score": 9,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": true,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "high_protein",
+        "keto",
+        "budget"
+      ],
+      "macros": {
+        "kcal": 165,
+        "p": 31,
+        "f": 3.6,
+        "c": 0
+      },
+      "avg_price": 2.08,
+      "lowest_price": 1.65,
+      "lowest_price_date": "2026-08-30",
+      "price_history": [
+        [
+          "2026-05-16",
+          3.31,
+          null,
+          null
+        ],
+        [
+          "2026-08-30",
+          1.65,
+          null,
+          null
+        ],
+        [
+          "2026-09-27",
+          1.69,
+          null,
+          null
+        ],
+        [
+          "2026-11-08",
+          1.65,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "buy"
+    },
+    {
       "store": "Kaufland",
       "address": null,
       "new_price": 1.69,
@@ -2170,83 +2328,6 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 1.79,
-      "new_price_eur": 0.92,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 3.58,
-      "price_per_kg_eur": 1.83,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 1.79,
-          "price_eur": 0.92,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 1.79,
-      "comparison_count": 1,
-      "product_id": "lidl-спанак-500g",
-      "weight_grams": 500,
-      "weight_raw": "500 g",
-      "name": "Спанак",
-      "image": "https://www.lidl.bg/assets/gcp438d4f310af942adae347d0832ed202e.png",
-      "category": "vegetable",
-      "emoji": "🥦",
-      "health_score": 9,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "diet_tags": [
-        "mediterranean",
-        "vegetarian",
-        "budget"
-      ],
-      "macros": {
-        "kcal": 23,
-        "p": 2.9,
-        "f": 0.4,
-        "c": 3.6
-      },
-      "avg_price": 1.57,
-      "lowest_price": 1.35,
-      "lowest_price_date": "2026-10-18",
-      "price_history": [
-        [
-          "2026-10-18",
-          1.35,
-          1.73,
-          22
-        ],
-        [
-          "2026-11-08",
-          1.79,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "wait"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 1.84,
@@ -2320,106 +2401,16 @@ const OFFERS_DATA = {
     {
       "store": "Lidl",
       "address": null,
-      "new_price": 1.89,
-      "new_price_eur": 0.97,
-      "old_price": 2.39,
-      "old_price_eur": 1.22,
-      "discount_pct": 21,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 15.12,
-      "price_per_kg_eur": 7.73,
-      "source_type": "promo",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 1.89,
-          "price_eur": 0.97,
-          "old_price": 2.39,
-          "old_price_eur": 1.22,
-          "discount_pct": 21,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 1.89,
-      "comparison_count": 1,
-      "product_id": "lidl-малини-125g",
-      "weight_grams": 125,
-      "weight_raw": "125 g",
-      "name": "Малини",
-      "image": "https://www.lidl.bg/assets/gcpc9cc83c3f25f44178c9146c4e703f5a3.png",
-      "category": "vegetable",
-      "emoji": "🥦",
-      "health_score": 9,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "macros": {
-        "kcal": 52,
-        "p": 1.2,
-        "f": 0.7,
-        "c": 12
-      },
-      "avg_price": 2.94,
-      "lowest_price": 1.89,
-      "lowest_price_date": "2026-11-08",
-      "price_history": [
-        [
-          "2026-05-10",
-          3.7,
-          4.89,
-          24
-        ],
-        [
-          "2026-05-16",
-          3.89,
-          5.07,
-          23
-        ],
-        [
-          "2026-05-24",
-          2.52,
-          5.07,
-          50
-        ],
-        [
-          "2026-06-14",
-          2.72,
-          4.48,
-          39
-        ],
-        [
-          "2026-11-08",
-          1.89,
-          2.39,
-          21
-        ]
-      ],
-      "price_seen_count": 5,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
       "new_price": 1.99,
       "new_price_eur": 1.02,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
+      "old_price": 3.23,
+      "old_price_eur": 1.65,
+      "discount_pct": 38,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": 99.5,
-      "price_per_kg_eur": 50.87,
-      "source_type": "assortment",
+      "price_per_kg": 2.84,
+      "price_per_kg_eur": 1.45,
+      "source_type": "promo",
       "available_stores": [
         "Lidl"
       ],
@@ -2428,20 +2419,20 @@ const OFFERS_DATA = {
           "store": "Lidl",
           "price": 1.99,
           "price_eur": 1.02,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
+          "old_price": 3.23,
+          "old_price_eur": 1.65,
+          "discount_pct": 38,
+          "source_type": "promo"
         }
       ],
       "best_price_store": "Lidl",
       "best_price": 1.99,
       "comparison_count": 1,
-      "product_id": "lidl-кулинарна-есенция-20g",
-      "weight_grams": 20,
-      "weight_raw": "20 ml",
-      "name": "Кулинарна есенция",
-      "image": "https://www.lidl.bg/assets/gcp4ffed2e46fec4e8cbf45f26de2570b45.png",
+      "product_id": "lidl-авокадо-700g",
+      "weight_grams": 700,
+      "weight_raw": "700 g",
+      "name": "Авокадо",
+      "image": "https://www.lidl.bg/assets/gcp7b038487079c4884b97d2231e096b601.png",
       "category": "vegetable",
       "emoji": "🥦",
       "health_score": 9,
@@ -2450,28 +2441,43 @@ const OFFERS_DATA = {
       "is_healthy": true,
       "is_high_protein": false,
       "is_good_carb": false,
-      "is_good_fat": false,
+      "is_good_fat": true,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
+      "diet_tags": [
+        "budget"
+      ],
       "macros": {
-        "kcal": 83,
-        "p": 1.7,
-        "f": 1.2,
-        "c": 19
+        "kcal": 160,
+        "p": 2,
+        "f": 15,
+        "c": 9
       },
-      "avg_price": 1.99,
-      "lowest_price": 1.99,
+      "avg_price": 2.24,
+      "lowest_price": 0.49,
       "lowest_price_date": "2026-11-08",
       "price_history": [
         [
+          "2026-05-10",
+          4.87,
+          6.79,
+          28
+        ],
+        [
+          "2026-05-24",
+          1.35,
+          2.99,
+          55
+        ],
+        [
           "2026-11-08",
-          1.99,
-          null,
-          null
+          0.49,
+          0.99,
+          51
         ]
       ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
+      "price_seen_count": 3,
+      "price_signal": "good"
     },
     {
       "store": "Kaufland",
@@ -2914,76 +2920,6 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 2.39,
-      "new_price_eur": 1.22,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 11.95,
-      "price_per_kg_eur": 6.11,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 2.39,
-          "price_eur": 1.22,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 2.39,
-      "comparison_count": 1,
-      "product_id": "lidl-смлени-орехи-200g",
-      "weight_grams": 200,
-      "weight_raw": "200 g",
-      "name": "Смлени орехи",
-      "image": "https://www.lidl.bg/assets/gcp54912b53d45a489e9b692697db26f94e.png",
-      "category": "nuts",
-      "emoji": "🥜",
-      "health_score": 9,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": true,
-      "is_bulk_worthy": true,
-      "is_long_lasting": true,
-      "diet_tags": [
-        "keto",
-        "mediterranean"
-      ],
-      "macros": {
-        "kcal": 654,
-        "p": 15,
-        "f": 65,
-        "c": 14
-      },
-      "avg_price": 2.39,
-      "lowest_price": 2.39,
-      "lowest_price_date": "2026-11-08",
-      "price_history": [
-        [
-          "2026-11-08",
-          2.39,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 2.44,
@@ -3144,6 +3080,93 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 2.69,
+      "new_price_eur": 1.38,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 2.69,
+          "price_eur": 1.38,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 2.69,
+      "comparison_count": 1,
+      "product_id": "lidl-пресни-яица-xxl",
+      "name": "Пресни яйца XXL",
+      "image": "https://www.lidl.bg/assets/gcpdcda3183a91744f48e87cd4619729427.png",
+      "category": "protein",
+      "emoji": "🍗",
+      "health_score": 9,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": true,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "high_protein",
+        "keto",
+        "vegetarian"
+      ],
+      "macros": {
+        "kcal": 155,
+        "p": 13,
+        "f": 11,
+        "c": 1.1
+      },
+      "avg_price": 2.96,
+      "lowest_price": 2.19,
+      "lowest_price_date": "2026-10-25",
+      "price_history": [
+        [
+          "2026-07-26",
+          4.6,
+          null,
+          null
+        ],
+        [
+          "2026-08-30",
+          2.35,
+          null,
+          null
+        ],
+        [
+          "2026-10-25",
+          2.19,
+          null,
+          null
+        ],
+        [
+          "2026-11-08",
+          2.69,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "good"
+    },
+    {
       "store": "Kaufland",
       "address": null,
       "new_price": 2.95,
@@ -3252,89 +3275,6 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 8,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 2.95,
-      "new_price_eur": 1.51,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 1.48,
-      "price_per_kg_eur": 0.76,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 2.95,
-          "price_eur": 1.51,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 2.95,
-      "comparison_count": 1,
-      "product_id": "lidl-прясна-пилешка-подбедрица-xxl-2000g",
-      "weight_grams": 2000,
-      "weight_raw": "2 kg",
-      "name": "Прясна пилешка подбедрица XXL",
-      "image": "https://www.lidl.bg/assets/gcpc1e3ca395fde44aabeb796475249c73b.png",
-      "category": "protein",
-      "emoji": "🍗",
-      "health_score": 9,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": true,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "diet_tags": [
-        "high_protein",
-        "keto",
-        "budget"
-      ],
-      "macros": {
-        "kcal": 165,
-        "p": 31,
-        "f": 3.6,
-        "c": 0
-      },
-      "avg_price": 3.93,
-      "lowest_price": 2.95,
-      "lowest_price_date": "2026-11-08",
-      "price_history": [
-        [
-          "2026-04-20",
-          5.85,
-          null,
-          null
-        ],
-        [
-          "2026-08-30",
-          2.99,
-          null,
-          null
-        ],
-        [
-          "2026-11-08",
-          2.95,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 3,
       "price_signal": "buy"
     },
     {
@@ -4677,6 +4617,76 @@ const OFFERS_DATA = {
       "price_signal": "good"
     },
     {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 4.85,
+      "new_price_eur": 2.48,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 2.92,
+      "price_per_kg_eur": 1.49,
+      "source_type": "assortment",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 4.85,
+          "price_eur": 2.48,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 4.85,
+      "comparison_count": 1,
+      "product_id": "lidl-печен-боб-1660g",
+      "weight_grams": 1660,
+      "weight_raw": "4 x 415 g",
+      "name": "Печен боб",
+      "image": "https://www.lidl.bg/assets/gcp517c4e97aef040b4bab7712e64985a58.png",
+      "category": "legume",
+      "emoji": "🫘",
+      "health_score": 9,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": true,
+      "is_good_fat": false,
+      "is_bulk_worthy": true,
+      "is_long_lasting": true,
+      "diet_tags": [
+        "vegetarian",
+        "budget"
+      ],
+      "macros": {
+        "kcal": 139,
+        "p": 9,
+        "f": 0.5,
+        "c": 25
+      },
+      "avg_price": 4.85,
+      "lowest_price": 4.85,
+      "lowest_price_date": "2026-09-27",
+      "price_history": [
+        [
+          "2026-09-27",
+          4.85,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
       "store": "Kaufland",
       "address": null,
       "new_price": 5.69,
@@ -4786,6 +4796,88 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 9,
       "price_signal": "good"
+    },
+    {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 6.69,
+      "new_price_eur": 3.42,
+      "old_price": 8.99,
+      "old_price_eur": 4.6,
+      "discount_pct": 26,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 8.36,
+      "price_per_kg_eur": 4.27,
+      "source_type": "promo",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 6.69,
+          "price_eur": 3.42,
+          "old_price": 8.99,
+          "old_price_eur": 4.6,
+          "discount_pct": 26,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 6.69,
+      "comparison_count": 1,
+      "product_id": "lidl-прясно-пилешко-филе-800g",
+      "weight_grams": 800,
+      "weight_raw": "800 g",
+      "name": "Прясно пилешко филе",
+      "image": "https://www.lidl.bg/assets/gcpc30db41f3289481b925549546693072b.png",
+      "category": "protein",
+      "emoji": "🍗",
+      "health_score": 9,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": true,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "high_protein",
+        "keto"
+      ],
+      "macros": {
+        "kcal": 165,
+        "p": 31,
+        "f": 3.6,
+        "c": 0
+      },
+      "avg_price": 11.15,
+      "lowest_price": 6.69,
+      "lowest_price_date": "2026-11-08",
+      "price_history": [
+        [
+          "2026-05-31",
+          17.97,
+          22.63,
+          21
+        ],
+        [
+          "2026-08-02",
+          8.78,
+          10.99,
+          20
+        ],
+        [
+          "2026-11-08",
+          6.69,
+          8.99,
+          26
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "buy"
     },
     {
       "store": "Kaufland",
@@ -5080,6 +5172,95 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 0.69,
+      "new_price_eur": 0.35,
+      "old_price": 0.86,
+      "old_price_eur": 0.44,
+      "discount_pct": 20,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 4.6,
+      "price_per_kg_eur": 2.35,
+      "source_type": "promo",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 0.69,
+          "price_eur": 0.35,
+          "old_price": 0.86,
+          "old_price_eur": 0.44,
+          "discount_pct": 20,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 0.69,
+      "comparison_count": 1,
+      "product_id": "lidl-скир-150g",
+      "weight_grams": 150,
+      "weight_raw": "150 g",
+      "name": "Скир",
+      "image": "https://www.lidl.bg/assets/gcpc675f3cffb9a4836aa5635b60f5be20d.png",
+      "category": "dairy",
+      "emoji": "🥛",
+      "health_score": 8,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": true,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "high_protein",
+        "vegetarian",
+        "budget"
+      ],
+      "macros": {
+        "kcal": 66,
+        "p": 11,
+        "f": 0.2,
+        "c": 4
+      },
+      "avg_price": 3.34,
+      "lowest_price": 0.69,
+      "lowest_price_date": "2026-11-08",
+      "price_history": [
+        [
+          "2026-05-07",
+          7.8,
+          null,
+          null
+        ],
+        [
+          "2026-08-30",
+          3.99,
+          null,
+          null
+        ],
+        [
+          "2026-10-11",
+          0.89,
+          1.13,
+          21
+        ],
+        [
+          "2026-11-08",
+          0.69,
+          0.86,
+          20
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "buy"
+    },
+    {
       "store": "Kaufland",
       "address": null,
       "new_price": 0.85,
@@ -5230,6 +5411,81 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 1,
       "price_signal": "buy"
+    },
+    {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 1.19,
+      "new_price_eur": 0.61,
+      "old_price": 1.53,
+      "old_price_eur": 0.78,
+      "discount_pct": 22,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 7.21,
+      "price_per_kg_eur": 3.69,
+      "source_type": "promo",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 1.19,
+          "price_eur": 0.61,
+          "old_price": 1.53,
+          "old_price_eur": 0.78,
+          "discount_pct": 22,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 1.19,
+      "comparison_count": 1,
+      "product_id": "lidl-пукани-люти-чушки-165g",
+      "weight_grams": 165,
+      "weight_raw": "165 g",
+      "name": "Пукани люти чушки",
+      "image": "https://www.lidl.bg/assets/gcpc86dbc3a3338402992f98cd94e1cba59.png",
+      "category": "vegetable",
+      "emoji": "🥦",
+      "health_score": 8,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 31,
+        "p": 1,
+        "f": 0.3,
+        "c": 6
+      },
+      "avg_price": 1.14,
+      "lowest_price": 1.09,
+      "lowest_price_date": "2026-08-30",
+      "price_history": [
+        [
+          "2026-08-30",
+          1.09,
+          1.53,
+          29
+        ],
+        [
+          "2026-11-08",
+          1.19,
+          1.53,
+          22
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "normal"
     },
     {
       "store": "Kaufland",
@@ -6372,15 +6628,6 @@ const OFFERS_DATA = {
       ],
       "store_prices": [
         {
-          "store": "Lidl",
-          "price": 0.49,
-          "price_eur": 0.25,
-          "old_price": 0.99,
-          "old_price_eur": 0.51,
-          "discount_pct": 51,
-          "source_type": "promo"
-        },
-        {
           "store": "Kaufland",
           "price": 0.59,
           "price_eur": 0.3,
@@ -6388,10 +6635,19 @@ const OFFERS_DATA = {
           "old_price_eur": 0.66,
           "discount_pct": 54,
           "source_type": "promo"
+        },
+        {
+          "store": "Lidl",
+          "price": 0.79,
+          "price_eur": 0.4,
+          "old_price": 0.95,
+          "old_price_eur": 0.49,
+          "discount_pct": 17,
+          "source_type": "promo"
         }
       ],
-      "best_price_store": "Lidl",
-      "best_price": 0.49,
+      "best_price_store": "Kaufland",
+      "best_price": 0.59,
       "comparison_count": 2,
       "product_id": "kaufland-моркови",
       "name": "Моркови",
@@ -6465,6 +6721,83 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 7,
       "price_signal": "good"
+    },
+    {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 0.59,
+      "new_price_eur": 0.3,
+      "old_price": 0.71,
+      "old_price_eur": 0.36,
+      "discount_pct": 17,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 1.47,
+      "price_per_kg_eur": 0.75,
+      "source_type": "promo",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 0.59,
+          "price_eur": 0.3,
+          "old_price": 0.71,
+          "old_price_eur": 0.36,
+          "discount_pct": 17,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 0.59,
+      "comparison_count": 1,
+      "product_id": "lidl-българско-кисело-мляко-400g",
+      "weight_grams": 400,
+      "weight_raw": "400 g",
+      "name": "Българско кисело мляко",
+      "image": "https://www.lidl.bg/assets/gcp104c7cdc06a44a22980128034a16ae28.png",
+      "category": "dairy",
+      "emoji": "🥛",
+      "health_score": 7,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": true,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "high_protein",
+        "vegetarian",
+        "budget"
+      ],
+      "macros": {
+        "kcal": 61,
+        "p": 3.5,
+        "f": 3.3,
+        "c": 4.7
+      },
+      "avg_price": 1.12,
+      "lowest_price": 0.59,
+      "lowest_price_date": "2026-11-08",
+      "price_history": [
+        [
+          "2026-04-14",
+          1.66,
+          null,
+          null
+        ],
+        [
+          "2026-11-08",
+          0.59,
+          0.71,
+          17
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy"
     },
     {
       "store": "Kaufland",
@@ -6784,6 +7117,81 @@ const OFFERS_DATA = {
     {
       "store": "Lidl",
       "address": null,
+      "new_price": 0.75,
+      "new_price_eur": 0.38,
+      "old_price": 1.12,
+      "old_price_eur": 0.57,
+      "discount_pct": 33,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 1.5,
+      "price_per_kg_eur": 0.77,
+      "source_type": "promo",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 0.75,
+          "price_eur": 0.38,
+          "old_price": 1.12,
+          "old_price_eur": 0.57,
+          "discount_pct": 33,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 0.75,
+      "comparison_count": 1,
+      "product_id": "lidl-пасирани-домати-500g",
+      "weight_grams": 500,
+      "weight_raw": "500 g",
+      "name": "Пасирани домати",
+      "image": "https://www.lidl.bg/assets/gcp2ca1b4772c6a451fb41a462af79a963b.png",
+      "category": "vegetable",
+      "emoji": "🥦",
+      "health_score": 7,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 18,
+        "p": 0.9,
+        "f": 0.2,
+        "c": 3.9
+      },
+      "avg_price": 0.8,
+      "lowest_price": 0.75,
+      "lowest_price_date": "2026-11-08",
+      "price_history": [
+        [
+          "2026-10-11",
+          0.85,
+          1.22,
+          30
+        ],
+        [
+          "2026-11-08",
+          0.75,
+          1.12,
+          33
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Lidl",
+      "address": null,
       "new_price": 0.79,
       "new_price_eur": 0.4,
       "old_price": 1.25,
@@ -6873,119 +7281,6 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 5,
       "price_signal": "buy"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 0.79,
-      "new_price_eur": 0.4,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 1.98,
-      "price_per_kg_eur": 1.01,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 0.79,
-          "price_eur": 0.4,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 0.79,
-      "comparison_count": 1,
-      "product_id": "lidl-кисело-мляко-400g",
-      "weight_grams": 400,
-      "weight_raw": "400 g",
-      "name": "Кисело мляко",
-      "image": "https://www.lidl.bg/assets/gcp86eceab305f84d30a0219b9fffd1dad6.png",
-      "category": "dairy",
-      "emoji": "🥛",
-      "health_score": 7,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": true,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "diet_tags": [
-        "high_protein",
-        "vegetarian",
-        "budget"
-      ],
-      "macros": {
-        "kcal": 61,
-        "p": 3.5,
-        "f": 3.3,
-        "c": 4.7
-      },
-      "avg_price": 1.32,
-      "lowest_price": 0.49,
-      "lowest_price_date": "2026-08-23",
-      "price_history": [
-        [
-          "2026-07-19",
-          2.99,
-          null,
-          null
-        ],
-        [
-          "2026-08-02",
-          1.35,
-          1.96,
-          31
-        ],
-        [
-          "2026-08-09",
-          1.27,
-          1.74,
-          27
-        ],
-        [
-          "2026-08-23",
-          0.49,
-          null,
-          null
-        ],
-        [
-          "2026-10-04",
-          0.75,
-          1.0,
-          25
-        ],
-        [
-          "2026-10-11",
-          0.69,
-          0.97,
-          29
-        ],
-        [
-          "2026-10-25",
-          0.65,
-          0.86,
-          24
-        ],
-        [
-          "2026-11-08",
-          0.79,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 13,
-      "price_signal": "good"
     },
     {
       "store": "Kaufland",
@@ -7137,13 +7432,13 @@ const OFFERS_DATA = {
       "address": null,
       "new_price": 0.89,
       "new_price_eur": 0.46,
-      "old_price": 1.19,
-      "old_price_eur": 0.61,
-      "discount_pct": 25,
+      "old_price": 1.17,
+      "old_price_eur": 0.6,
+      "discount_pct": 24,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 2.97,
+      "price_per_kg_eur": 1.52,
       "source_type": "promo",
       "available_stores": [
         "Lidl"
@@ -7153,18 +7448,20 @@ const OFFERS_DATA = {
           "store": "Lidl",
           "price": 0.89,
           "price_eur": 0.46,
-          "old_price": 1.19,
-          "old_price_eur": 0.61,
-          "discount_pct": 25,
+          "old_price": 1.17,
+          "old_price_eur": 0.6,
+          "discount_pct": 24,
           "source_type": "promo"
         }
       ],
       "best_price_store": "Lidl",
       "best_price": 0.89,
       "comparison_count": 1,
-      "product_id": "lidl-френски-мити-картофи",
-      "name": "Френски мити картофи",
-      "image": "https://www.lidl.bg/assets/gcpf3830e51f2954b869f4862973caa22e8.jpg",
+      "product_id": "lidl-зеленчуци-с-масло-300g",
+      "weight_grams": 300,
+      "weight_raw": "300 g",
+      "name": "Зеленчуци с масло",
+      "image": "https://www.lidl.bg/assets/gcp9c0660085f08483dbe172c4067402269.png",
       "category": "vegetable",
       "emoji": "🥦",
       "health_score": 7,
@@ -7173,30 +7470,36 @@ const OFFERS_DATA = {
       "is_healthy": true,
       "is_high_protein": false,
       "is_good_carb": false,
-      "is_good_fat": false,
+      "is_good_fat": true,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
       "diet_tags": [
-        "vegetarian"
+        "budget"
       ],
       "macros": {
-        "kcal": 77,
-        "p": 2,
-        "f": 0.1,
-        "c": 17
+        "kcal": 717,
+        "p": 0.9,
+        "f": 81,
+        "c": 0.1
       },
-      "avg_price": 0.89,
+      "avg_price": 1.35,
       "lowest_price": 0.89,
       "lowest_price_date": "2026-11-08",
       "price_history": [
         [
+          "2026-05-07",
+          1.82,
+          2.29,
+          21
+        ],
+        [
           "2026-11-08",
           0.89,
-          1.19,
-          25
+          1.17,
+          24
         ]
       ],
-      "price_seen_count": 1,
+      "price_seen_count": 2,
       "price_signal": "buy"
     },
     {
@@ -7742,6 +8045,81 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 1.29,
+      "new_price_eur": 0.66,
+      "old_price": 1.69,
+      "old_price_eur": 0.86,
+      "discount_pct": 24,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 1.79,
+      "price_per_kg_eur": 0.92,
+      "source_type": "promo",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 1.29,
+          "price_eur": 0.66,
+          "old_price": 1.69,
+          "old_price_eur": 0.86,
+          "discount_pct": 24,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 1.29,
+      "comparison_count": 1,
+      "product_id": "lidl-доматен-сос-720g",
+      "weight_grams": 720,
+      "weight_raw": "720 ml",
+      "name": "Доматен сос",
+      "image": "https://www.lidl.bg/assets/gcp0e1e613d540447d8b7194adf91452b59.png",
+      "category": "vegetable",
+      "emoji": "🥦",
+      "health_score": 7,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 18,
+        "p": 0.9,
+        "f": 0.2,
+        "c": 3.9
+      },
+      "avg_price": 1.41,
+      "lowest_price": 1.29,
+      "lowest_price_date": "2026-11-08",
+      "price_history": [
+        [
+          "2026-10-04",
+          1.53,
+          null,
+          null
+        ],
+        [
+          "2026-11-08",
+          1.29,
+          1.69,
+          24
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
       "store": "Kaufland",
       "address": null,
       "new_price": 1.38,
@@ -8019,6 +8397,76 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 4,
       "price_signal": "good"
+    },
+    {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 1.49,
+      "new_price_eur": 0.76,
+      "old_price": 1.99,
+      "old_price_eur": 1.02,
+      "discount_pct": 25,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 3.73,
+      "price_per_kg_eur": 1.91,
+      "source_type": "promo",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 1.49,
+          "price_eur": 0.76,
+          "old_price": 1.99,
+          "old_price_eur": 1.02,
+          "discount_pct": 25,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 1.49,
+      "comparison_count": 1,
+      "product_id": "lidl-сос-за-бургер-или-за-картофки-400g",
+      "weight_grams": 400,
+      "weight_raw": "400 ml",
+      "name": "Сос за бургер или за картофки",
+      "image": "https://www.lidl.bg/assets/gcp2e91a24ae4f549f0aaaab644e643a38d.png",
+      "category": "vegetable",
+      "emoji": "🥦",
+      "health_score": 7,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "vegetarian",
+        "budget"
+      ],
+      "macros": {
+        "kcal": 77,
+        "p": 2,
+        "f": 0.1,
+        "c": 17
+      },
+      "avg_price": 1.49,
+      "lowest_price": 1.49,
+      "lowest_price_date": "2026-11-08",
+      "price_history": [
+        [
+          "2026-11-08",
+          1.49,
+          1.99,
+          25
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
     },
     {
       "store": "Kaufland",
@@ -8336,85 +8784,6 @@ const OFFERS_DATA = {
     {
       "store": "Lidl",
       "address": null,
-      "new_price": 1.68,
-      "new_price_eur": 0.86,
-      "old_price": 2.04,
-      "old_price_eur": 1.04,
-      "discount_pct": 18,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 1.68,
-          "price_eur": 0.86,
-          "old_price": 2.04,
-          "old_price_eur": 1.04,
-          "discount_pct": 18,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 1.68,
-      "comparison_count": 1,
-      "product_id": "lidl-био-банани",
-      "name": "Био банани",
-      "image": "https://www.lidl.bg/assets/gcp0d085a5aeac34e51a35546503e0f90b9.jpg",
-      "category": "vegetable",
-      "emoji": "🥦",
-      "health_score": 7,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "diet_tags": [
-        "vegetarian"
-      ],
-      "macros": {
-        "kcal": 89,
-        "p": 1.1,
-        "f": 0.3,
-        "c": 23
-      },
-      "avg_price": 2.23,
-      "lowest_price": 1.68,
-      "lowest_price_date": "2026-11-08",
-      "price_history": [
-        [
-          "2026-04-20",
-          3.31,
-          3.99,
-          17
-        ],
-        [
-          "2026-09-27",
-          1.69,
-          2.04,
-          17
-        ],
-        [
-          "2026-11-08",
-          1.68,
-          2.04,
-          18
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
       "new_price": 1.69,
       "new_price_eur": 0.86,
       "old_price": 2.04,
@@ -8477,6 +8846,83 @@ const OFFERS_DATA = {
           2.99,
           3.99,
           25
+        ],
+        [
+          "2026-11-08",
+          1.69,
+          2.04,
+          17
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 1.69,
+      "new_price_eur": 0.86,
+      "old_price": 2.04,
+      "old_price_eur": 1.04,
+      "discount_pct": 17,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 2.25,
+      "price_per_kg_eur": 1.15,
+      "source_type": "promo",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 1.69,
+          "price_eur": 0.86,
+          "old_price": 2.04,
+          "old_price_eur": 1.04,
+          "discount_pct": 17,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 1.69,
+      "comparison_count": 1,
+      "product_id": "lidl-зеленчуков-микс-750g",
+      "weight_grams": 750,
+      "weight_raw": "750 g",
+      "name": "Зеленчуков микс",
+      "image": "https://www.lidl.bg/assets/gcp65884321373a414091a0c8b917707b66.png",
+      "category": "vegetable",
+      "emoji": "🥦",
+      "health_score": 7,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "mediterranean",
+        "vegetarian",
+        "budget"
+      ],
+      "macros": {
+        "kcal": 25,
+        "p": 1.3,
+        "f": 0.1,
+        "c": 6
+      },
+      "avg_price": 2.04,
+      "lowest_price": 1.69,
+      "lowest_price_date": "2026-11-08",
+      "price_history": [
+        [
+          "2026-09-27",
+          2.39,
+          3.06,
+          22
         ],
         [
           "2026-11-08",
@@ -8840,6 +9286,100 @@ const OFFERS_DATA = {
       "price_signal": "wait"
     },
     {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 1.99,
+      "new_price_eur": 1.02,
+      "old_price": 2.35,
+      "old_price_eur": 1.2,
+      "discount_pct": 15,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 1.99,
+      "price_per_kg_eur": 1.02,
+      "source_type": "promo",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 1.99,
+          "price_eur": 1.02,
+          "old_price": 2.35,
+          "old_price_eur": 1.2,
+          "discount_pct": 15,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 1.99,
+      "comparison_count": 1,
+      "product_id": "lidl-бланширани-картофи-1000g",
+      "weight_grams": 1000,
+      "weight_raw": "1 kg",
+      "name": "Бланширани картофи",
+      "image": "https://www.lidl.bg/assets/gcp978519d961b34b4fa4542ac825e61438.png",
+      "category": "vegetable",
+      "emoji": "🥦",
+      "health_score": 7,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "vegetarian",
+        "budget"
+      ],
+      "macros": {
+        "kcal": 77,
+        "p": 2,
+        "f": 0.1,
+        "c": 17
+      },
+      "avg_price": 2.89,
+      "lowest_price": 1.59,
+      "lowest_price_date": "2026-10-18",
+      "price_history": [
+        [
+          "2026-05-31",
+          3.31,
+          4.28,
+          23
+        ],
+        [
+          "2026-07-12",
+          3.48,
+          null,
+          null
+        ],
+        [
+          "2026-08-23",
+          4.08,
+          5.11,
+          20
+        ],
+        [
+          "2026-10-18",
+          1.59,
+          null,
+          null
+        ],
+        [
+          "2026-11-08",
+          1.99,
+          2.35,
+          15
+        ]
+      ],
+      "price_seen_count": 5,
+      "price_signal": "good"
+    },
+    {
       "store": "Kaufland",
       "address": null,
       "new_price": 2.19,
@@ -9041,6 +9581,82 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 2.55,
+      "new_price_eur": 1.3,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 17.0,
+      "price_per_kg_eur": 8.69,
+      "source_type": "assortment",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 2.55,
+          "price_eur": 1.3,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 2.55,
+      "comparison_count": 1,
+      "product_id": "lidl-френско-меко-сирене-150g",
+      "weight_grams": 150,
+      "weight_raw": "150 g",
+      "name": "Френско меко сирене",
+      "image": "https://www.lidl.bg/assets/gcpfea6389b0e1d42bda919c686a77602da.png",
+      "category": "dairy",
+      "emoji": "🥛",
+      "health_score": 7,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "keto",
+        "vegetarian"
+      ],
+      "macros": {
+        "kcal": 264,
+        "p": 14,
+        "f": 22,
+        "c": 2
+      },
+      "avg_price": 3.67,
+      "lowest_price": 2.55,
+      "lowest_price_date": "2026-11-08",
+      "price_history": [
+        [
+          "2026-07-19",
+          4.79,
+          null,
+          null
+        ],
+        [
+          "2026-11-08",
+          2.55,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
       "store": "Kaufland",
       "address": null,
       "new_price": 2.99,
@@ -9211,13 +9827,13 @@ const OFFERS_DATA = {
       "address": null,
       "new_price": 3.49,
       "new_price_eur": 1.78,
-      "old_price": 4.87,
-      "old_price_eur": 2.49,
-      "discount_pct": 28,
+      "old_price": 4.09,
+      "old_price_eur": 2.09,
+      "discount_pct": 15,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 13.96,
+      "price_per_kg_eur": 7.14,
       "source_type": "promo",
       "available_stores": [
         "Lidl"
@@ -9227,20 +9843,22 @@ const OFFERS_DATA = {
           "store": "Lidl",
           "price": 3.49,
           "price_eur": 1.78,
-          "old_price": 4.87,
-          "old_price_eur": 2.49,
-          "discount_pct": 28,
+          "old_price": 4.09,
+          "old_price_eur": 2.09,
+          "discount_pct": 15,
           "source_type": "promo"
         }
       ],
       "best_price_store": "Lidl",
       "best_price": 3.49,
       "comparison_count": 1,
-      "product_id": "lidl-чери-домати",
-      "name": "Чери домати",
-      "image": "https://www.lidl.bg/assets/gcpae3dd1741e2c4a11bd728d24db1c6446.jpg",
-      "category": "vegetable",
-      "emoji": "🥦",
+      "product_id": "lidl-британско-сирене-чедър-250g",
+      "weight_grams": 250,
+      "weight_raw": "250 g",
+      "name": "Британско сирене чедър",
+      "image": "https://www.lidl.bg/assets/gcpcae9319449bb45d08614d5a470ceda1f.png",
+      "category": "dairy",
+      "emoji": "🥛",
       "health_score": 7,
       "is_food": true,
       "is_junk": false,
@@ -9250,37 +9868,29 @@ const OFFERS_DATA = {
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
+      "diet_tags": [
+        "keto",
+        "vegetarian"
+      ],
       "macros": {
-        "kcal": 18,
-        "p": 0.9,
-        "f": 0.2,
-        "c": 3.9
+        "kcal": 264,
+        "p": 14,
+        "f": 22,
+        "c": 2
       },
-      "avg_price": 3.15,
-      "lowest_price": 2.33,
-      "lowest_price_date": "2026-07-05",
+      "avg_price": 3.49,
+      "lowest_price": 3.49,
+      "lowest_price_date": "2026-11-08",
       "price_history": [
-        [
-          "2026-05-16",
-          3.62,
-          6.43,
-          44
-        ],
-        [
-          "2026-07-05",
-          2.33,
-          5.26,
-          56
-        ],
         [
           "2026-11-08",
           3.49,
-          4.87,
-          28
+          4.09,
+          15
         ]
       ],
-      "price_seen_count": 3,
-      "price_signal": "wait"
+      "price_seen_count": 1,
+      "price_signal": "buy"
     },
     {
       "store": "Kaufland",
@@ -10344,76 +10954,6 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 45.99,
-      "new_price_eur": 23.51,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 38.33,
-      "price_per_kg_eur": 19.6,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 45.99,
-          "price_eur": 23.51,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 45.99,
-      "comparison_count": 1,
-      "product_id": "lidl-уред-за-кисело-мляко-1200g",
-      "weight_grams": 1200,
-      "weight_raw": "1.2 l",
-      "name": "Уред за кисело мляко",
-      "image": "https://www.lidl.bg/assets/gcpba2c34b1023e4cb4a602f571f1f15394.png",
-      "category": "dairy",
-      "emoji": "🥛",
-      "health_score": 7,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": true,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "diet_tags": [
-        "high_protein",
-        "vegetarian"
-      ],
-      "macros": {
-        "kcal": 61,
-        "p": 3.5,
-        "f": 3.3,
-        "c": 4.7
-      },
-      "avg_price": 45.99,
-      "lowest_price": 45.99,
-      "lowest_price_date": "2026-11-08",
-      "price_history": [
-        [
-          "2026-11-08",
-          45.99,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 0.69,
@@ -11273,6 +11813,175 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 2.79,
+      "new_price_eur": 1.43,
+      "old_price": 3.29,
+      "old_price_eur": 1.68,
+      "discount_pct": 15,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 2.79,
+      "price_per_kg_eur": 1.43,
+      "source_type": "promo",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 2.79,
+          "price_eur": 1.43,
+          "old_price": 3.29,
+          "old_price_eur": 1.68,
+          "discount_pct": 15,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 2.79,
+      "comparison_count": 1,
+      "product_id": "lidl-ориз-арборио-1000g",
+      "weight_grams": 1000,
+      "weight_raw": "1 kg",
+      "name": "Ориз Арборио",
+      "image": "https://www.lidl.bg/assets/gcp8f82d2dcc1024795a3edba133bf0f777.png",
+      "category": "grain",
+      "emoji": "🌾",
+      "health_score": 6,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": true,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "diet_tags": [
+        "vegetarian",
+        "budget"
+      ],
+      "macros": {
+        "kcal": 130,
+        "p": 2.7,
+        "f": 0.3,
+        "c": 28
+      },
+      "avg_price": 4.61,
+      "lowest_price": 2.79,
+      "lowest_price_date": "2026-11-08",
+      "price_history": [
+        [
+          "2026-06-28",
+          6.43,
+          6.98,
+          8
+        ],
+        [
+          "2026-11-08",
+          2.79,
+          3.29,
+          15
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 2.99,
+      "new_price_eur": 1.53,
+      "old_price": 4.29,
+      "old_price_eur": 2.19,
+      "discount_pct": 30,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 10.68,
+      "price_per_kg_eur": 5.46,
+      "source_type": "promo",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 2.99,
+          "price_eur": 1.53,
+          "old_price": 4.29,
+          "old_price_eur": 2.19,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 2.99,
+      "comparison_count": 1,
+      "product_id": "lidl-чоризо-280g",
+      "weight_grams": 280,
+      "weight_raw": "280 g",
+      "name": "Чоризо",
+      "image": "https://www.lidl.bg/assets/gcp6027c6dca6704fdb96be2dfe5fb9b866.png",
+      "category": "grain",
+      "emoji": "🌾",
+      "health_score": 6,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": true,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "diet_tags": [
+        "vegetarian"
+      ],
+      "macros": {
+        "kcal": 130,
+        "p": 2.7,
+        "f": 0.3,
+        "c": 28
+      },
+      "avg_price": 3.46,
+      "lowest_price": 2.35,
+      "lowest_price_date": "2026-09-20",
+      "price_history": [
+        [
+          "2026-04-25",
+          3.29,
+          null,
+          null
+        ],
+        [
+          "2026-07-19",
+          5.46,
+          null,
+          null
+        ],
+        [
+          "2026-09-20",
+          2.35,
+          null,
+          null
+        ],
+        [
+          "2026-10-11",
+          3.19,
+          4.29,
+          26
+        ],
+        [
+          "2026-11-08",
+          2.99,
+          4.29,
+          30
+        ]
+      ],
+      "price_seen_count": 5,
+      "price_signal": "good"
+    },
+    {
       "store": "Kaufland",
       "address": null,
       "new_price": 3.49,
@@ -11560,36 +12269,38 @@ const OFFERS_DATA = {
     {
       "store": "Lidl",
       "address": null,
-      "new_price": 4.49,
-      "new_price_eur": 2.3,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
+      "new_price": 4.59,
+      "new_price_eur": 2.35,
+      "old_price": 5.59,
+      "old_price_eur": 2.86,
+      "discount_pct": 18,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
+      "price_per_kg": 6.56,
+      "price_per_kg_eur": 3.35,
+      "source_type": "promo",
       "available_stores": [
         "Lidl"
       ],
       "store_prices": [
         {
           "store": "Lidl",
-          "price": 4.49,
-          "price_eur": 2.3,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
+          "price": 4.59,
+          "price_eur": 2.35,
+          "old_price": 5.59,
+          "old_price_eur": 2.86,
+          "discount_pct": 18,
+          "source_type": "promo"
         }
       ],
       "best_price_store": "Lidl",
-      "best_price": 4.49,
+      "best_price": 4.59,
       "comparison_count": 1,
-      "product_id": "lidl-кълцано-свинско-месо-в-було",
-      "name": "Кълцано свинско месо в було",
-      "image": "https://www.lidl.bg/assets/gcpa3e4443ce195406ebb74fb14011ea23f.jpg",
+      "product_id": "lidl-свински-гърди-700g",
+      "weight_grams": 700,
+      "weight_raw": "700 g",
+      "name": "Свински гърди",
+      "image": "https://www.lidl.bg/assets/gcpb940aa9bc0f3464abb1a792ae549fb11.png",
       "category": "protein",
       "emoji": "🍗",
       "health_score": 6,
@@ -11603,7 +12314,8 @@ const OFFERS_DATA = {
       "is_long_lasting": false,
       "diet_tags": [
         "high_protein",
-        "keto"
+        "keto",
+        "budget"
       ],
       "macros": {
         "kcal": 242,
@@ -11611,18 +12323,36 @@ const OFFERS_DATA = {
         "f": 14,
         "c": 0
       },
-      "avg_price": 4.49,
-      "lowest_price": 4.49,
+      "avg_price": 6.93,
+      "lowest_price": 4.59,
       "lowest_price_date": "2026-11-08",
       "price_history": [
         [
-          "2026-11-08",
-          4.49,
+          "2026-06-21",
+          8.39,
+          10.93,
+          23
+        ],
+        [
+          "2026-07-05",
+          9.76,
           null,
           null
+        ],
+        [
+          "2026-10-11",
+          4.99,
+          null,
+          null
+        ],
+        [
+          "2026-11-08",
+          4.59,
+          5.59,
+          18
         ]
       ],
-      "price_seen_count": 1,
+      "price_seen_count": 4,
       "price_signal": "buy"
     },
     {
@@ -11778,6 +12508,76 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 3,
       "price_signal": "good"
+    },
+    {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 6.49,
+      "new_price_eur": 3.32,
+      "old_price": 8.69,
+      "old_price_eur": 4.44,
+      "discount_pct": 25,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 9.27,
+      "price_per_kg_eur": 4.74,
+      "source_type": "promo",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 6.49,
+          "price_eur": 3.32,
+          "old_price": 8.69,
+          "old_price_eur": 4.44,
+          "discount_pct": 25,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 6.49,
+      "comparison_count": 1,
+      "product_id": "lidl-пушени-свински-ребра-700g",
+      "weight_grams": 700,
+      "weight_raw": "700 g",
+      "name": "Пушени свински ребра",
+      "image": "https://www.lidl.bg/assets/gcpdaa52f126f0540a4869fa77704da9268.png",
+      "category": "protein",
+      "emoji": "🍗",
+      "health_score": 6,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "high_protein",
+        "keto"
+      ],
+      "macros": {
+        "kcal": 242,
+        "p": 27,
+        "f": 14,
+        "c": 0
+      },
+      "avg_price": 6.49,
+      "lowest_price": 6.49,
+      "lowest_price_date": "2026-11-08",
+      "price_history": [
+        [
+          "2026-11-08",
+          6.49,
+          8.69,
+          25
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
     },
     {
       "store": "Kaufland",
@@ -12091,70 +12891,6 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 3,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 17.99,
-      "new_price_eur": 9.2,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 17.99,
-          "price_eur": 9.2,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 17.99,
-      "comparison_count": 1,
-      "product_id": "lidl-кутия-за-хляб",
-      "name": "Кутия за хляб",
-      "image": "https://www.lidl.bg/assets/gcpec624752b7304f3b89468b95cf6c46b2.png",
-      "category": "bread",
-      "emoji": "🍞",
-      "health_score": 6,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "macros": {
-        "kcal": 265,
-        "p": 9,
-        "f": 3.2,
-        "c": 49
-      },
-      "avg_price": 17.99,
-      "lowest_price": 17.99,
-      "lowest_price_date": "2026-11-08",
-      "price_history": [
-        [
-          "2026-11-08",
-          17.99,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
       "price_signal": "buy"
     },
     {
@@ -12702,6 +13438,99 @@ const OFFERS_DATA = {
       "price_signal": "normal"
     },
     {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 0.79,
+      "new_price_eur": 0.4,
+      "old_price": 0.99,
+      "old_price_eur": 0.51,
+      "discount_pct": 20,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 1.58,
+      "price_per_kg_eur": 0.81,
+      "source_type": "promo",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 0.79,
+          "price_eur": 0.4,
+          "old_price": 0.99,
+          "old_price_eur": 0.51,
+          "discount_pct": 20,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 0.79,
+      "comparison_count": 1,
+      "product_id": "lidl-макарони-500g",
+      "weight_grams": 500,
+      "weight_raw": "500 g",
+      "name": "Макарони",
+      "image": "https://www.lidl.bg/assets/gcpca7b37f6474444fd999310d53a74e744.png",
+      "category": "grain",
+      "emoji": "🌾",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": true,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 131,
+        "p": 5,
+        "f": 1.1,
+        "c": 25
+      },
+      "avg_price": 4.39,
+      "lowest_price": 0.79,
+      "lowest_price_date": "2026-11-08",
+      "price_history": [
+        [
+          "2026-04-20",
+          7.8,
+          null,
+          null
+        ],
+        [
+          "2026-06-21",
+          7.41,
+          null,
+          null
+        ],
+        [
+          "2026-06-28",
+          1.94,
+          2.35,
+          17
+        ],
+        [
+          "2026-10-11",
+          3.99,
+          null,
+          null
+        ],
+        [
+          "2026-11-08",
+          0.79,
+          0.99,
+          20
+        ]
+      ],
+      "price_seen_count": 5,
+      "price_signal": "buy"
+    },
+    {
       "store": "Kaufland",
       "address": null,
       "new_price": 0.86,
@@ -12837,15 +13666,15 @@ const OFFERS_DATA = {
     {
       "store": "Lidl",
       "address": null,
-      "new_price": 0.89,
-      "new_price_eur": 0.46,
-      "old_price": 1.53,
-      "old_price_eur": 0.78,
-      "discount_pct": 42,
+      "new_price": 0.95,
+      "new_price_eur": 0.49,
+      "old_price": 1.12,
+      "old_price_eur": 0.57,
+      "discount_pct": 15,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": 3.56,
-      "price_per_kg_eur": 1.82,
+      "price_per_kg": 5.28,
+      "price_per_kg_eur": 2.7,
       "source_type": "promo",
       "available_stores": [
         "Lidl"
@@ -12853,96 +13682,54 @@ const OFFERS_DATA = {
       "store_prices": [
         {
           "store": "Lidl",
-          "price": 0.89,
-          "price_eur": 0.46,
-          "old_price": 1.53,
-          "old_price_eur": 0.78,
-          "discount_pct": 42,
+          "price": 0.95,
+          "price_eur": 0.49,
+          "old_price": 1.12,
+          "old_price_eur": 0.57,
+          "discount_pct": 15,
           "source_type": "promo"
         }
       ],
       "best_price_store": "Lidl",
-      "best_price": 0.89,
+      "best_price": 0.95,
       "comparison_count": 1,
-      "product_id": "lidl-печурки-250g",
-      "weight_grams": 250,
-      "weight_raw": "250 g",
-      "name": "Печурки",
-      "image": "https://www.lidl.bg/assets/gcp0c247ffc73f447fbb6f0855cd5ab3b5c.png",
-      "category": "vegetable",
-      "emoji": "🥦",
+      "product_id": "lidl-маслинова-паста-180g",
+      "weight_grams": 180,
+      "weight_raw": "180 g",
+      "name": "Маслинова паста",
+      "image": "https://www.lidl.bg/assets/gcp4245985ee9f54659ac1101e0bf375cb3.png",
+      "category": "fat",
+      "emoji": "🫒",
       "health_score": 5,
       "is_food": true,
       "is_junk": false,
       "is_healthy": true,
       "is_high_protein": false,
-      "is_good_carb": false,
+      "is_good_carb": true,
       "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
+      "is_bulk_worthy": true,
+      "is_long_lasting": true,
       "diet_tags": [
         "budget"
       ],
       "macros": {
-        "kcal": 22,
-        "p": 3.1,
-        "f": 0.3,
-        "c": 3.3
+        "kcal": 115,
+        "p": 0.8,
+        "f": 11,
+        "c": 6
       },
-      "avg_price": 1.82,
-      "lowest_price": 0.89,
-      "lowest_price_date": "2026-08-23",
+      "avg_price": 0.95,
+      "lowest_price": 0.95,
+      "lowest_price_date": "2026-11-08",
       "price_history": [
         [
-          "2026-05-16",
-          1.74,
-          2.99,
-          42
-        ],
-        [
-          "2026-05-24",
-          1.94,
-          2.99,
-          35
-        ],
-        [
-          "2026-07-05",
-          2.19,
-          2.99,
-          27
-        ],
-        [
-          "2026-08-09",
-          3.7,
-          4.99,
-          26
-        ],
-        [
-          "2026-08-23",
-          0.89,
-          1.53,
-          42
-        ],
-        [
-          "2026-10-04",
-          1.89,
-          2.55,
-          26
-        ],
-        [
-          "2026-10-18",
-          1.19,
-          1.53,
-          22
-        ],
-        [
           "2026-11-08",
-          0.89,
-          1.53,
-          42
+          0.95,
+          1.12,
+          15
         ]
       ],
-      "price_seen_count": 9,
+      "price_seen_count": 1,
       "price_signal": "buy"
     },
     {
@@ -14518,117 +15305,6 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 1.35,
-      "new_price_eur": 0.69,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 1.35,
-      "price_per_kg_eur": 0.69,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 1.35,
-          "price_eur": 0.69,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 1.35,
-      "comparison_count": 1,
-      "product_id": "lidl-прясно-мляко-1000g",
-      "weight_grams": 1000,
-      "weight_raw": "1 l",
-      "name": "Прясно мляко",
-      "image": "https://www.lidl.bg/assets/gcp53902d4de820405eac2888aadbbdd6ec.png",
-      "category": "dairy",
-      "emoji": "🥛",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "diet_tags": [
-        "budget"
-      ],
-      "macros": {
-        "kcal": 60,
-        "p": 3.2,
-        "f": 3.2,
-        "c": 4.8
-      },
-      "avg_price": 2.87,
-      "lowest_price": 1.35,
-      "lowest_price_date": "2026-08-23",
-      "price_history": [
-        [
-          "2026-06-28",
-          4.48,
-          null,
-          null
-        ],
-        [
-          "2026-07-05",
-          4.99,
-          null,
-          null
-        ],
-        [
-          "2026-08-09",
-          3.89,
-          null,
-          null
-        ],
-        [
-          "2026-08-23",
-          1.35,
-          null,
-          null
-        ],
-        [
-          "2026-09-20",
-          1.99,
-          null,
-          null
-        ],
-        [
-          "2026-09-27",
-          2.55,
-          null,
-          null
-        ],
-        [
-          "2026-10-18",
-          1.69,
-          null,
-          null
-        ],
-        [
-          "2026-11-08",
-          1.35,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 10,
-      "price_signal": "buy"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 1.39,
@@ -14927,6 +15603,228 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 1,
       "price_signal": "buy"
+    },
+    {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 1.49,
+      "new_price_eur": 0.76,
+      "old_price": 2.43,
+      "old_price_eur": 1.24,
+      "discount_pct": 39,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 2.98,
+      "price_per_kg_eur": 1.52,
+      "source_type": "promo",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 1.49,
+          "price_eur": 0.76,
+          "old_price": 2.43,
+          "old_price_eur": 1.24,
+          "discount_pct": 39,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 1.49,
+      "comparison_count": 1,
+      "product_id": "lidl-печурки-500g",
+      "weight_grams": 500,
+      "weight_raw": "500 g",
+      "name": "Печурки",
+      "image": "https://www.lidl.bg/assets/gcp6124ca5fd4ba42a393b28049b6188fdc.png",
+      "category": "vegetable",
+      "emoji": "🥦",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 22,
+        "p": 3.1,
+        "f": 0.3,
+        "c": 3.3
+      },
+      "avg_price": 1.82,
+      "lowest_price": 0.89,
+      "lowest_price_date": "2026-08-23",
+      "price_history": [
+        [
+          "2026-05-16",
+          1.74,
+          2.99,
+          42
+        ],
+        [
+          "2026-05-24",
+          1.94,
+          2.99,
+          35
+        ],
+        [
+          "2026-07-05",
+          2.19,
+          2.99,
+          27
+        ],
+        [
+          "2026-08-09",
+          3.7,
+          4.99,
+          26
+        ],
+        [
+          "2026-08-23",
+          0.89,
+          1.53,
+          42
+        ],
+        [
+          "2026-10-04",
+          1.89,
+          2.55,
+          26
+        ],
+        [
+          "2026-10-18",
+          1.19,
+          1.53,
+          22
+        ],
+        [
+          "2026-11-08",
+          0.89,
+          1.53,
+          42
+        ]
+      ],
+      "price_seen_count": 9,
+      "price_signal": "good"
+    },
+    {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 1.49,
+      "new_price_eur": 0.76,
+      "old_price": 1.73,
+      "old_price_eur": 0.88,
+      "discount_pct": 14,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 1.49,
+      "price_per_kg_eur": 0.76,
+      "source_type": "promo",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 1.49,
+          "price_eur": 0.76,
+          "old_price": 1.73,
+          "old_price_eur": 0.88,
+          "discount_pct": 14,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 1.49,
+      "comparison_count": 1,
+      "product_id": "lidl-прясно-мляко-1000g",
+      "weight_grams": 1000,
+      "weight_raw": "1 l",
+      "name": "Прясно мляко",
+      "image": "https://www.lidl.bg/assets/gcpeb1ff6fad5b14e83a2b3f6fdbfdd87b6.png",
+      "category": "dairy",
+      "emoji": "🥛",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 60,
+        "p": 3.2,
+        "f": 3.2,
+        "c": 4.8
+      },
+      "avg_price": 2.87,
+      "lowest_price": 1.35,
+      "lowest_price_date": "2026-08-23",
+      "price_history": [
+        [
+          "2026-06-28",
+          4.48,
+          null,
+          null
+        ],
+        [
+          "2026-07-05",
+          4.99,
+          null,
+          null
+        ],
+        [
+          "2026-08-09",
+          3.89,
+          null,
+          null
+        ],
+        [
+          "2026-08-23",
+          1.35,
+          null,
+          null
+        ],
+        [
+          "2026-09-20",
+          1.99,
+          null,
+          null
+        ],
+        [
+          "2026-09-27",
+          2.55,
+          null,
+          null
+        ],
+        [
+          "2026-10-18",
+          1.69,
+          null,
+          null
+        ],
+        [
+          "2026-11-08",
+          1.35,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 10,
+      "price_signal": "good"
     },
     {
       "store": "Kaufland",
@@ -15260,6 +16158,75 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 1.69,
+      "new_price_eur": 0.86,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 6.76,
+      "price_per_kg_eur": 3.46,
+      "source_type": "assortment",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 1.69,
+          "price_eur": 0.86,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 1.69,
+      "comparison_count": 1,
+      "product_id": "lidl-kраве-масло-250g",
+      "weight_grams": 250,
+      "weight_raw": "250 g",
+      "name": "Kраве масло",
+      "image": "https://www.lidl.bg/assets/gcp1208fe500f3f4f20ada4bdc9342d0fbc.jpg",
+      "category": "other",
+      "emoji": "🛒",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 717,
+        "p": 0.9,
+        "f": 81,
+        "c": 0.1
+      },
+      "avg_price": 1.69,
+      "lowest_price": 1.69,
+      "lowest_price_date": "2026-11-08",
+      "price_history": [
+        [
+          "2026-11-08",
+          1.69,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
       "store": "Kaufland",
       "address": null,
       "new_price": 1.79,
@@ -15579,6 +16546,111 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 2,
       "price_signal": "buy"
+    },
+    {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 1.99,
+      "new_price_eur": 1.02,
+      "old_price": 2.3,
+      "old_price_eur": 1.18,
+      "discount_pct": 13,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 3.98,
+      "price_per_kg_eur": 2.03,
+      "source_type": "promo",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 1.99,
+          "price_eur": 1.02,
+          "old_price": 2.3,
+          "old_price_eur": 1.18,
+          "discount_pct": 13,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 1.99,
+      "comparison_count": 1,
+      "product_id": "lidl-иогурт-500g",
+      "weight_grams": 500,
+      "weight_raw": "500 g",
+      "name": "Йогурт",
+      "image": "https://www.lidl.bg/assets/gcpedd4b809383e46d689844b85e09d2321.png",
+      "category": "dairy",
+      "emoji": "🥛",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": true,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "budget"
+      ],
+      "avg_price": 1.62,
+      "lowest_price": 0.66,
+      "lowest_price_date": "2026-08-30",
+      "price_history": [
+        [
+          "2026-05-31",
+          4.48,
+          null,
+          null
+        ],
+        [
+          "2026-06-28",
+          2.33,
+          2.8,
+          17
+        ],
+        [
+          "2026-08-02",
+          0.96,
+          null,
+          null
+        ],
+        [
+          "2026-08-23",
+          0.75,
+          null,
+          null
+        ],
+        [
+          "2026-08-30",
+          0.66,
+          null,
+          null
+        ],
+        [
+          "2026-10-04",
+          0.75,
+          null,
+          null
+        ],
+        [
+          "2026-10-11",
+          1.19,
+          null,
+          null
+        ],
+        [
+          "2026-11-08",
+          1.99,
+          2.3,
+          13
+        ]
+      ],
+      "price_seen_count": 9,
+      "price_signal": "wait"
     },
     {
       "store": "Kaufland",
@@ -17039,6 +18111,81 @@ const OFFERS_DATA = {
       "price_signal": "good"
     },
     {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 3.49,
+      "new_price_eur": 1.78,
+      "old_price": 4.09,
+      "old_price_eur": 2.09,
+      "discount_pct": 15,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 7.76,
+      "price_per_kg_eur": 3.97,
+      "source_type": "promo",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 3.49,
+          "price_eur": 1.78,
+          "old_price": 4.09,
+          "old_price_eur": 2.09,
+          "discount_pct": 15,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 3.49,
+      "comparison_count": 1,
+      "product_id": "lidl-замразени-вишни-450g",
+      "weight_grams": 450,
+      "weight_raw": "450 g",
+      "name": "Замразени вишни",
+      "image": "https://www.lidl.bg/assets/gcp0204f7b67d594f06958efcc9f7abc8de.png",
+      "category": "vegetable",
+      "emoji": "🥦",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 63,
+        "p": 1.1,
+        "f": 0.3,
+        "c": 16
+      },
+      "avg_price": 4.93,
+      "lowest_price": 3.49,
+      "lowest_price_date": "2026-11-08",
+      "price_history": [
+        [
+          "2026-05-07",
+          6.36,
+          8.0,
+          20
+        ],
+        [
+          "2026-11-08",
+          3.49,
+          4.09,
+          15
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
       "store": "Kaufland",
       "address": null,
       "new_price": 3.59,
@@ -17096,6 +18243,117 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 3.59,
+      "new_price_eur": 1.84,
+      "old_price": 4.34,
+      "old_price_eur": 2.22,
+      "discount_pct": 17,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 3.59,
+      "price_per_kg_eur": 1.84,
+      "source_type": "promo",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 3.59,
+          "price_eur": 1.84,
+          "old_price": 4.34,
+          "old_price_eur": 2.22,
+          "discount_pct": 17,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 3.59,
+      "comparison_count": 1,
+      "product_id": "lidl-маслиново-масло-1000g",
+      "weight_grams": 1000,
+      "weight_raw": "1 l",
+      "name": "Маслиново масло",
+      "image": "https://www.lidl.bg/assets/gcp6158fb816ee34b9596cdc599e590da8b.png",
+      "category": "fat",
+      "emoji": "🫒",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": true,
+      "is_long_lasting": true,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 115,
+        "p": 0.8,
+        "f": 11,
+        "c": 6
+      },
+      "avg_price": 9.1,
+      "lowest_price": 3.59,
+      "lowest_price_date": "2026-11-08",
+      "price_history": [
+        [
+          "2026-06-28",
+          12.69,
+          14.98,
+          15
+        ],
+        [
+          "2026-08-02",
+          13.26,
+          null,
+          null
+        ],
+        [
+          "2026-08-16",
+          14.45,
+          null,
+          null
+        ],
+        [
+          "2026-08-23",
+          5.19,
+          6.49,
+          20
+        ],
+        [
+          "2026-09-20",
+          7.39,
+          null,
+          null
+        ],
+        [
+          "2026-10-04",
+          5.99,
+          null,
+          null
+        ],
+        [
+          "2026-10-11",
+          6.49,
+          7.66,
+          15
+        ],
+        [
+          "2026-11-08",
+          3.59,
+          4.34,
+          17
+        ]
+      ],
+      "price_seen_count": 10,
       "price_signal": "buy"
     },
     {
@@ -18230,6 +19488,69 @@ const OFFERS_DATA = {
       "price_signal": "normal"
     },
     {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 5.99,
+      "new_price_eur": 3.06,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 2.6,
+      "price_per_kg_eur": 1.33,
+      "source_type": "assortment",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 5.99,
+          "price_eur": 3.06,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 5.99,
+      "comparison_count": 1,
+      "product_id": "lidl-котлет-с-ребра-от-малко-прасенце-2300g",
+      "weight_grams": 2300,
+      "weight_raw": "2.3 kg",
+      "name": "Котлет с ребра от малко прасенце",
+      "image": "https://www.lidl.bg/assets/gcp6fbe8fc9eaef419ba75e6255865cd158.png",
+      "category": "protein",
+      "emoji": "🍗",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "budget"
+      ],
+      "avg_price": 5.99,
+      "lowest_price": 5.99,
+      "lowest_price_date": "2026-11-08",
+      "price_history": [
+        [
+          "2026-11-08",
+          5.99,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
       "store": "Kaufland",
       "address": null,
       "new_price": 6.13,
@@ -18571,40 +19892,40 @@ const OFFERS_DATA = {
     {
       "store": "Lidl",
       "address": null,
-      "new_price": 6.78,
-      "new_price_eur": 3.47,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
+      "new_price": 6.49,
+      "new_price_eur": 3.32,
+      "old_price": 7.66,
+      "old_price_eur": 3.92,
+      "discount_pct": 15,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": 9.04,
-      "price_per_kg_eur": 4.62,
-      "source_type": "assortment",
+      "price_per_kg": 8.89,
+      "price_per_kg_eur": 4.55,
+      "source_type": "promo",
       "available_stores": [
         "Lidl"
       ],
       "store_prices": [
         {
           "store": "Lidl",
-          "price": 6.78,
-          "price_eur": 3.47,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
+          "price": 6.49,
+          "price_eur": 3.32,
+          "old_price": 7.66,
+          "old_price_eur": 3.92,
+          "discount_pct": 15,
+          "source_type": "promo"
         }
       ],
       "best_price_store": "Lidl",
-      "best_price": 6.78,
+      "best_price": 6.49,
       "comparison_count": 1,
-      "product_id": "lidl-маслиново-масло-750g",
-      "weight_grams": 750,
-      "weight_raw": "750 ml",
-      "name": "Маслиново масло",
-      "image": "https://www.lidl.bg/assets/gcp42f06f0f30674ef08325c21fcf1a191f.png",
-      "category": "fat",
-      "emoji": "🫒",
+      "product_id": "lidl-пушен-кашкавал-730g",
+      "weight_grams": 730,
+      "weight_raw": "730 g",
+      "name": "Пушен кашкавал",
+      "image": "https://www.lidl.bg/assets/gcp20c41993a03449bdb378555553fd7b8c.png",
+      "category": "dairy",
+      "emoji": "🥛",
       "health_score": 5,
       "is_food": true,
       "is_junk": false,
@@ -18612,69 +19933,33 @@ const OFFERS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "is_bulk_worthy": true,
-      "is_long_lasting": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
       "macros": {
-        "kcal": 115,
-        "p": 0.8,
-        "f": 11,
-        "c": 6
+        "kcal": 350,
+        "p": 25,
+        "f": 27,
+        "c": 1
       },
-      "avg_price": 9.1,
-      "lowest_price": 3.59,
+      "avg_price": 9.11,
+      "lowest_price": 6.49,
       "lowest_price_date": "2026-11-08",
       "price_history": [
         [
-          "2026-06-28",
-          12.69,
+          "2026-06-07",
+          11.72,
           14.98,
-          15
-        ],
-        [
-          "2026-08-02",
-          13.26,
-          null,
-          null
-        ],
-        [
-          "2026-08-16",
-          14.45,
-          null,
-          null
-        ],
-        [
-          "2026-08-23",
-          5.19,
-          6.49,
-          20
-        ],
-        [
-          "2026-09-20",
-          7.39,
-          null,
-          null
-        ],
-        [
-          "2026-10-04",
-          5.99,
-          null,
-          null
-        ],
-        [
-          "2026-10-11",
-          6.49,
-          7.66,
-          15
+          22
         ],
         [
           "2026-11-08",
-          3.59,
-          4.34,
-          17
+          6.49,
+          7.66,
+          15
         ]
       ],
-      "price_seen_count": 10,
-      "price_signal": "good"
+      "price_seen_count": 2,
+      "price_signal": "buy"
     },
     {
       "store": "Kaufland",
@@ -19030,70 +20315,6 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 2,
       "price_signal": "normal"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 7.99,
-      "new_price_eur": 4.09,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 7.99,
-          "price_eur": 4.09,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 7.99,
-      "comparison_count": 1,
-      "product_id": "lidl-едам-xxl",
-      "name": "Едам XXL",
-      "image": "https://www.lidl.bg/assets/gcp9dcd2053a4914c43bf93fd9c618e2688.jpg",
-      "category": "dairy",
-      "emoji": "🥛",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "macros": {
-        "kcal": 357,
-        "p": 25,
-        "f": 28,
-        "c": 1.4
-      },
-      "avg_price": 7.99,
-      "lowest_price": 7.99,
-      "lowest_price_date": "2026-11-01",
-      "price_history": [
-        [
-          "2026-11-01",
-          7.99,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
     },
     {
       "store": "Kaufland",
@@ -19498,6 +20719,96 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 3,
       "price_signal": "good"
+    },
+    {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 12.26,
+      "new_price_eur": 6.27,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 10.22,
+      "price_per_kg_eur": 5.23,
+      "source_type": "assortment",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 12.26,
+          "price_eur": 6.27,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 12.26,
+      "comparison_count": 1,
+      "product_id": "lidl-български-кашкавал-бдс-1200g",
+      "weight_grams": 1200,
+      "weight_raw": "3 х 400 g",
+      "name": "Български кашкавал БДС",
+      "image": "https://www.lidl.bg/assets/gcpa08feb1984124f8caed76b20708e6bf1.png",
+      "category": "dairy",
+      "emoji": "🥛",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 350,
+        "p": 25,
+        "f": 27,
+        "c": 1
+      },
+      "avg_price": 11.38,
+      "lowest_price": 10.12,
+      "lowest_price_date": "2026-10-25",
+      "price_history": [
+        [
+          "2026-06-28",
+          10.29,
+          11.99,
+          14
+        ],
+        [
+          "2026-08-02",
+          11.99,
+          23.98,
+          50
+        ],
+        [
+          "2026-08-30",
+          12.26,
+          null,
+          null
+        ],
+        [
+          "2026-10-25",
+          10.12,
+          null,
+          null
+        ],
+        [
+          "2026-11-08",
+          12.26,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 5,
+      "price_signal": "normal"
     },
     {
       "store": "Kaufland",
@@ -20514,66 +21825,6 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 39.99,
-      "new_price_eur": 20.45,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 20.0,
-      "price_per_kg_eur": 10.23,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 39.99,
-          "price_eur": 20.45,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 39.99,
-      "comparison_count": 1,
-      "product_id": "lidl-кафе-на-зърна-2000g",
-      "weight_grams": 2000,
-      "weight_raw": "2 x 1 kg",
-      "name": "Кафе на зърна",
-      "image": "https://www.lidl.bg/assets/gcp77931635d0fa49249de904bddb4d6cf3.png",
-      "category": "drinks",
-      "emoji": "🍺",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 39.99,
-      "lowest_price": 39.99,
-      "lowest_price_date": "2026-11-08",
-      "price_history": [
-        [
-          "2026-11-08",
-          39.99,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 56.19,
@@ -20866,38 +22117,38 @@ const OFFERS_DATA = {
     {
       "store": "Lidl",
       "address": null,
-      "new_price": 1.59,
-      "new_price_eur": 0.81,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
+      "new_price": 1.79,
+      "new_price_eur": 0.92,
+      "old_price": 2.22,
+      "old_price_eur": 1.14,
+      "discount_pct": 19,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": 15.9,
-      "price_per_kg_eur": 8.13,
-      "source_type": "assortment",
+      "price_per_kg": 17.9,
+      "price_per_kg_eur": 9.15,
+      "source_type": "promo",
       "available_stores": [
         "Lidl"
       ],
       "store_prices": [
         {
           "store": "Lidl",
-          "price": 1.59,
-          "price_eur": 0.81,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
+          "price": 1.79,
+          "price_eur": 0.92,
+          "old_price": 2.22,
+          "old_price_eur": 1.14,
+          "discount_pct": 19,
+          "source_type": "promo"
         }
       ],
       "best_price_store": "Lidl",
-      "best_price": 1.59,
+      "best_price": 1.79,
       "comparison_count": 1,
-      "product_id": "lidl-деликатесна-шунка-100g",
+      "product_id": "lidl-салам-100g",
       "weight_grams": 100,
       "weight_raw": "100 g",
-      "name": "Деликатесна шунка",
-      "image": "https://www.lidl.bg/assets/gcp8eeb5400a6894251a79b15ce5edde7a2.png",
+      "name": "Салам",
+      "image": "https://www.lidl.bg/assets/gcp6ee75f6acef9474b82e9ebca7f633dd2.png",
       "category": "protein",
       "emoji": "🍗",
       "health_score": 3,
@@ -20909,24 +22160,198 @@ const OFFERS_DATA = {
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
-      "avg_price": 5.39,
-      "lowest_price": 1.59,
+      "avg_price": 3.18,
+      "lowest_price": 1.79,
       "lowest_price_date": "2026-11-08",
       "price_history": [
         [
-          "2026-09-27",
-          9.2,
+          "2026-06-28",
+          3.89,
+          null,
+          null
+        ],
+        [
+          "2026-07-05",
+          4.99,
+          null,
+          null
+        ],
+        [
+          "2026-08-23",
+          3.57,
+          null,
+          null
+        ],
+        [
+          "2026-09-13",
+          2.29,
+          null,
+          null
+        ],
+        [
+          "2026-10-04",
+          2.55,
           null,
           null
         ],
         [
           "2026-11-08",
-          1.59,
-          null,
-          null
+          1.79,
+          2.22,
+          19
         ]
       ],
-      "price_seen_count": 2,
+      "price_seen_count": 6,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 1.79,
+      "new_price_eur": 0.92,
+      "old_price": 2.3,
+      "old_price_eur": 1.18,
+      "discount_pct": 22,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 9.94,
+      "price_per_kg_eur": 5.08,
+      "source_type": "promo",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 1.79,
+          "price_eur": 0.92,
+          "old_price": 2.3,
+          "old_price_eur": 1.18,
+          "discount_pct": 22,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 1.79,
+      "comparison_count": 1,
+      "product_id": "lidl-кренвирши-180g",
+      "weight_grams": 180,
+      "weight_raw": "2 x 90 g",
+      "name": "Кренвирши",
+      "image": "https://www.lidl.bg/assets/gcpdee7290d056d4a7eb1671c8aa412000c.png",
+      "category": "protein",
+      "emoji": "🍗",
+      "health_score": 3,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 2.75,
+      "lowest_price": 1.15,
+      "lowest_price_date": "2026-10-11",
+      "price_history": [
+        [
+          "2026-06-28",
+          2.91,
+          4.5,
+          35
+        ],
+        [
+          "2026-09-06",
+          1.59,
+          2.3,
+          31
+        ],
+        [
+          "2026-09-20",
+          5.09,
+          7.36,
+          31
+        ],
+        [
+          "2026-10-11",
+          1.15,
+          2.3,
+          50
+        ],
+        [
+          "2026-11-01",
+          3.99,
+          5.11,
+          22
+        ],
+        [
+          "2026-11-08",
+          1.79,
+          2.3,
+          22
+        ]
+      ],
+      "price_seen_count": 6,
+      "price_signal": "good"
+    },
+    {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 1.99,
+      "new_price_eur": 1.02,
+      "old_price": 2.55,
+      "old_price_eur": 1.3,
+      "discount_pct": 22,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 19.9,
+      "price_per_kg_eur": 10.17,
+      "source_type": "promo",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 1.99,
+          "price_eur": 1.02,
+          "old_price": 2.55,
+          "old_price_eur": 1.3,
+          "discount_pct": 22,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 1.99,
+      "comparison_count": 1,
+      "product_id": "lidl-тиролска-шунка-100g",
+      "weight_grams": 100,
+      "weight_raw": "100 g",
+      "name": "Тиролска шунка",
+      "image": "https://www.lidl.bg/assets/gcp7f1f66ba878c4cd49563f68e57f1ec51.png",
+      "category": "protein",
+      "emoji": "🍗",
+      "health_score": 3,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 1.99,
+      "lowest_price": 1.99,
+      "lowest_price_date": "2026-11-08",
+      "price_history": [
+        [
+          "2026-11-08",
+          1.99,
+          2.55,
+          22
+        ]
+      ],
+      "price_seen_count": 1,
       "price_signal": "buy"
     },
     {
@@ -21026,66 +22451,6 @@ const OFFERS_DATA = {
       "price_signal": "good"
     },
     {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 2.45,
-      "new_price_eur": 1.25,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 16.33,
-      "price_per_kg_eur": 8.35,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 2.45,
-          "price_eur": 1.25,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 2.45,
-      "comparison_count": 1,
-      "product_id": "lidl-салам-с-посипка-xxl-150g-2",
-      "weight_grams": 150,
-      "weight_raw": "150 g",
-      "name": "Салам с посипка XXL",
-      "image": "https://www.lidl.bg/assets/gcp7ca39fdf3d8a4cc294c47b20f3894b9d.png",
-      "category": "protein",
-      "emoji": "🍗",
-      "health_score": 3,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 2.45,
-      "lowest_price": 2.45,
-      "lowest_price_date": "2026-11-08",
-      "price_history": [
-        [
-          "2026-11-08",
-          2.45,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 2.51,
@@ -21155,6 +22520,66 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 3,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 2.55,
+      "new_price_eur": 1.3,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 21.25,
+      "price_per_kg_eur": 10.86,
+      "source_type": "assortment",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 2.55,
+          "price_eur": 1.3,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 2.55,
+      "comparison_count": 1,
+      "product_id": "lidl-салам-спианата-120g",
+      "weight_grams": 120,
+      "weight_raw": "120 g",
+      "name": "Салам Спианата",
+      "image": "https://www.lidl.bg/assets/gcp93e0f10e4c134c0a8cecf0df90c16f62.png",
+      "category": "protein",
+      "emoji": "🍗",
+      "health_score": 3,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 2.55,
+      "lowest_price": 2.55,
+      "lowest_price_date": "2026-11-08",
+      "price_history": [
+        [
+          "2026-11-08",
+          2.55,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 1,
       "price_signal": "buy"
     },
     {
@@ -21364,38 +22789,38 @@ const OFFERS_DATA = {
     {
       "store": "Lidl",
       "address": null,
-      "new_price": 2.99,
-      "new_price_eur": 1.53,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
+      "new_price": 2.89,
+      "new_price_eur": 1.48,
+      "old_price": 3.49,
+      "old_price_eur": 1.78,
+      "discount_pct": 17,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": 9.97,
-      "price_per_kg_eur": 5.1,
-      "source_type": "assortment",
+      "price_per_kg": 9.63,
+      "price_per_kg_eur": 4.92,
+      "source_type": "promo",
       "available_stores": [
         "Lidl"
       ],
       "store_prices": [
         {
           "store": "Lidl",
-          "price": 2.99,
-          "price_eur": 1.53,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
+          "price": 2.89,
+          "price_eur": 1.48,
+          "old_price": 3.49,
+          "old_price_eur": 1.78,
+          "discount_pct": 17,
+          "source_type": "promo"
         }
       ],
       "best_price_store": "Lidl",
-      "best_price": 2.99,
+      "best_price": 2.89,
       "comparison_count": 1,
-      "product_id": "lidl-пушен-бекон-xxl-300g",
+      "product_id": "lidl-шунка-300g",
       "weight_grams": 300,
-      "weight_raw": "2 x 150 g",
-      "name": "Пушен бекон XXL",
-      "image": "https://www.lidl.bg/assets/gcp0ece30b41acd4100b404c194decef202.png",
+      "weight_raw": "300 g",
+      "name": "Шунка",
+      "image": "https://www.lidl.bg/assets/gcped4ce8e882a843dfbb46adcd4eb8e4a3.jpg",
       "category": "protein",
       "emoji": "🍗",
       "health_score": 3,
@@ -21407,15 +22832,111 @@ const OFFERS_DATA = {
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
-      "avg_price": 2.99,
-      "lowest_price": 2.99,
+      "avg_price": 3.14,
+      "lowest_price": 1.15,
+      "lowest_price_date": "2026-09-06",
+      "price_history": [
+        [
+          "2026-06-21",
+          1.55,
+          1.99,
+          22
+        ],
+        [
+          "2026-07-26",
+          3.89,
+          null,
+          null
+        ],
+        [
+          "2026-08-16",
+          6.83,
+          null,
+          null
+        ],
+        [
+          "2026-08-23",
+          2.85,
+          3.57,
+          20
+        ],
+        [
+          "2026-09-06",
+          1.15,
+          1.59,
+          28
+        ],
+        [
+          "2026-09-13",
+          2.81,
+          null,
+          null
+        ],
+        [
+          "2026-11-08",
+          2.89,
+          3.49,
+          17
+        ]
+      ],
+      "price_seen_count": 7,
+      "price_signal": "normal"
+    },
+    {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 3.09,
+      "new_price_eur": 1.58,
+      "old_price": 3.88,
+      "old_price_eur": 1.98,
+      "discount_pct": 20,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 3.09,
+      "price_per_kg_eur": 1.58,
+      "source_type": "promo",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 3.09,
+          "price_eur": 1.58,
+          "old_price": 3.88,
+          "old_price_eur": 1.98,
+          "discount_pct": 20,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 3.09,
+      "comparison_count": 1,
+      "product_id": "lidl-наденица-1000g",
+      "weight_grams": 1000,
+      "weight_raw": "1 kg",
+      "name": "Наденица",
+      "image": "https://www.lidl.bg/assets/gcpa847401db02a47a99f2ce901be4ee6a4.png",
+      "category": "protein",
+      "emoji": "🍗",
+      "health_score": 3,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 3.09,
+      "lowest_price": 3.09,
       "lowest_price_date": "2026-11-08",
       "price_history": [
         [
           "2026-11-08",
-          2.99,
-          null,
-          null
+          3.09,
+          3.88,
+          20
         ]
       ],
       "price_seen_count": 1,
@@ -21918,6 +23439,72 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 4.8,
+      "new_price_eur": 2.45,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 6.4,
+      "price_per_kg_eur": 3.27,
+      "source_type": "assortment",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 4.8,
+          "price_eur": 2.45,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 4.8,
+      "comparison_count": 1,
+      "product_id": "lidl-луканка-xxl-750g",
+      "weight_grams": 750,
+      "weight_raw": "3 x 250 g",
+      "name": "Луканка XXL",
+      "image": "https://www.lidl.bg/assets/gcp740f81a2f93e417094fed6ba8c00883d.png",
+      "category": "protein",
+      "emoji": "🍗",
+      "health_score": 3,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 7.1,
+      "lowest_price": 4.8,
+      "lowest_price_date": "2026-09-27",
+      "price_history": [
+        [
+          "2026-07-19",
+          9.39,
+          null,
+          null
+        ],
+        [
+          "2026-09-27",
+          4.8,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
       "store": "Kaufland",
       "address": null,
       "new_price": 5.11,
@@ -22236,6 +23823,72 @@ const OFFERS_DATA = {
       "price_signal": "good"
     },
     {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 6.7,
+      "new_price_eur": 3.43,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 5.58,
+      "price_per_kg_eur": 2.85,
+      "source_type": "assortment",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 6.7,
+          "price_eur": 3.43,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 6.7,
+      "comparison_count": 1,
+      "product_id": "lidl-кренвирши-стара-планина-xxl-1200g",
+      "weight_grams": 1200,
+      "weight_raw": "3 x 400 g",
+      "name": "Кренвирши „Стара планина“ XXL",
+      "image": "https://www.lidl.bg/assets/gcpb0f2e094626245e5a9cde2e15731e85b.png",
+      "category": "protein",
+      "emoji": "🍗",
+      "health_score": 3,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 9.9,
+      "lowest_price": 6.7,
+      "lowest_price_date": "2026-08-30",
+      "price_history": [
+        [
+          "2026-07-19",
+          13.1,
+          null,
+          null
+        ],
+        [
+          "2026-08-30",
+          6.7,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
       "store": "Kaufland",
       "address": null,
       "new_price": 6.9,
@@ -22288,66 +23941,6 @@ const OFFERS_DATA = {
           6.9,
           9.2,
           25
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 7.59,
-      "new_price_eur": 3.88,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 21.08,
-      "price_per_kg_eur": 10.78,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 7.59,
-          "price_eur": 3.88,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 7.59,
-      "comparison_count": 1,
-      "product_id": "lidl-селекция-салами-360g",
-      "weight_grams": 360,
-      "weight_raw": "3 x 120 g",
-      "name": "Селекция салами",
-      "image": "https://www.lidl.bg/assets/gcpa155f411783442fc8568dc13be1cd17e.png",
-      "category": "protein",
-      "emoji": "🍗",
-      "health_score": 3,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 7.59,
-      "lowest_price": 7.59,
-      "lowest_price_date": "2026-11-01",
-      "price_history": [
-        [
-          "2026-11-01",
-          7.59,
-          null,
-          null
         ]
       ],
       "price_seen_count": 1,
@@ -22691,6 +24284,66 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 3,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 8.99,
+      "new_price_eur": 4.6,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 7.49,
+      "price_per_kg_eur": 3.83,
+      "source_type": "assortment",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 8.99,
+          "price_eur": 4.6,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 8.99,
+      "comparison_count": 1,
+      "product_id": "lidl-българско-бяло-саламурено-сиренe-1200g",
+      "weight_grams": 1200,
+      "weight_raw": "3 x 400 g",
+      "name": "Българско бяло саламурено сиренe",
+      "image": "https://www.lidl.bg/assets/gcpacecdcc2ba5c4f5f98172a80a66d69a1.png",
+      "category": "protein",
+      "emoji": "🍗",
+      "health_score": 3,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 8.99,
+      "lowest_price": 8.99,
+      "lowest_price_date": "2026-11-08",
+      "price_history": [
+        [
+          "2026-11-08",
+          8.99,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 1,
       "price_signal": "buy"
     },
     {
@@ -23617,6 +25270,72 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 0.89,
+      "new_price_eur": 0.46,
+      "old_price": 1.02,
+      "old_price_eur": 0.52,
+      "discount_pct": 13,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 5.93,
+      "price_per_kg_eur": 3.03,
+      "source_type": "promo",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 0.89,
+          "price_eur": 0.46,
+          "old_price": 1.02,
+          "old_price_eur": 0.52,
+          "discount_pct": 13,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 0.89,
+      "comparison_count": 1,
+      "product_id": "lidl-високопротеинов-пудинг-150g",
+      "weight_grams": 150,
+      "weight_raw": "150 g",
+      "name": "Високопротеинов пудинг",
+      "image": "https://www.lidl.bg/assets/gcpb3549504d69e4fa3ad9cf73d667d5625.png",
+      "category": "drinks",
+      "emoji": "🍺",
+      "health_score": 2,
+      "is_food": true,
+      "is_junk": true,
+      "is_healthy": false,
+      "is_high_protein": true,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 3.37,
+      "lowest_price": 0.89,
+      "lowest_price_date": "2026-11-08",
+      "price_history": [
+        [
+          "2026-08-09",
+          5.85,
+          null,
+          null
+        ],
+        [
+          "2026-11-08",
+          0.89,
+          1.02,
+          13
+        ]
+      ],
+      "price_seen_count": 2,
       "price_signal": "buy"
     },
     {
@@ -26151,6 +27870,65 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 0.29,
+      "new_price_eur": 0.15,
+      "old_price": 0.59,
+      "old_price_eur": 0.3,
+      "discount_pct": 51,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 7.84,
+      "price_per_kg_eur": 4.01,
+      "source_type": "promo",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 0.29,
+          "price_eur": 0.15,
+          "old_price": 0.59,
+          "old_price_eur": 0.3,
+          "discount_pct": 51,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 0.29,
+      "comparison_count": 1,
+      "product_id": "lidl-фикс-за-сос-болонезе-37g",
+      "weight_grams": 37,
+      "weight_raw": "37 g",
+      "name": "Фикс за сос Болонезе",
+      "image": "https://www.lidl.bg/assets/gcp08fab5155c9d4c7391fd1f304d3c71af.png",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 0.29,
+      "lowest_price": 0.29,
+      "lowest_price_date": "2026-11-08",
+      "price_history": [
+        [
+          "2026-11-08",
+          0.29,
+          0.59,
+          51
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
       "store": "Kaufland",
       "address": null,
       "new_price": 0.3,
@@ -26216,6 +27994,77 @@ const OFFERS_DATA = {
           0.3,
           0.51,
           41
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 0.3,
+      "new_price_eur": 0.15,
+      "old_price": 0.61,
+      "old_price_eur": 0.31,
+      "discount_pct": 51,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 0.75,
+      "price_per_kg_eur": 0.38,
+      "source_type": "promo",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 0.3,
+          "price_eur": 0.15,
+          "old_price": 0.61,
+          "old_price_eur": 0.31,
+          "discount_pct": 51,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 0.3,
+      "comparison_count": 1,
+      "product_id": "lidl-кускус-400g",
+      "weight_grams": 400,
+      "weight_raw": "400 g",
+      "name": "Кускус",
+      "image": "https://www.lidl.bg/assets/gcpbf24605f1e3146f89c5b01ee0e6fcc72.png",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 0.7,
+      "lowest_price": 0.3,
+      "lowest_price_date": "2026-11-08",
+      "price_history": [
+        [
+          "2026-04-14",
+          1.15,
+          1.29,
+          11
+        ],
+        [
+          "2026-06-28",
+          0.65,
+          1.29,
+          50
+        ],
+        [
+          "2026-11-08",
+          0.3,
+          0.61,
+          51
         ]
       ],
       "price_seen_count": 3,
@@ -26451,6 +28300,65 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 0.35,
+      "new_price_eur": 0.18,
+      "old_price": 0.48,
+      "old_price_eur": 0.25,
+      "discount_pct": 27,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 0.87,
+      "price_per_kg_eur": 0.44,
+      "source_type": "promo",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 0.35,
+          "price_eur": 0.18,
+          "old_price": 0.48,
+          "old_price_eur": 0.25,
+          "discount_pct": 27,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 0.35,
+      "comparison_count": 1,
+      "product_id": "lidl-морска-сол-400g",
+      "weight_grams": 400,
+      "weight_raw": "400 g",
+      "name": "Морска сол",
+      "image": "https://www.lidl.bg/assets/gcpb1553aa364f44dcfadbbf13a348f2f42.png",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 0.35,
+      "lowest_price": 0.35,
+      "lowest_price_date": "2026-11-08",
+      "price_history": [
+        [
+          "2026-11-08",
+          0.35,
+          0.48,
+          27
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
       "store": "Kaufland",
       "address": null,
       "new_price": 0.39,
@@ -26676,65 +28584,6 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 0.39,
-      "new_price_eur": 0.2,
-      "old_price": 0.59,
-      "old_price_eur": 0.3,
-      "discount_pct": 34,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 4.33,
-      "price_per_kg_eur": 2.21,
-      "source_type": "promo",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 0.39,
-          "price_eur": 0.2,
-          "old_price": 0.59,
-          "old_price_eur": 0.3,
-          "discount_pct": 34,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 0.39,
-      "comparison_count": 1,
-      "product_id": "lidl-закуска-пица-90g",
-      "weight_grams": 90,
-      "weight_raw": "90 g",
-      "name": "Закуска Пица",
-      "image": "https://www.lidl.bg/assets/gcp40d9b74626ea4a0b883d8336c90818e5.jpg",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 0.39,
-      "lowest_price": 0.39,
-      "lowest_price_date": "2026-11-08",
-      "price_history": [
-        [
-          "2026-11-08",
-          0.39,
-          0.59,
-          34
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 0.41,
@@ -26850,71 +28699,6 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 0.43,
-      "new_price_eur": 0.22,
-      "old_price": 0.89,
-      "old_price_eur": 0.46,
-      "discount_pct": 52,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 3.58,
-      "price_per_kg_eur": 1.83,
-      "source_type": "promo",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 0.43,
-          "price_eur": 0.22,
-          "old_price": 0.89,
-          "old_price_eur": 0.46,
-          "discount_pct": 52,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 0.43,
-      "comparison_count": 1,
-      "product_id": "lidl-баница-120g",
-      "weight_grams": 120,
-      "weight_raw": "120 g",
-      "name": "Баница",
-      "image": "https://www.lidl.bg/assets/gcp51566344eb1a4598bdc934a438360d07.jpg",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 4.41,
-      "lowest_price": 0.43,
-      "lowest_price_date": "2026-11-08",
-      "price_history": [
-        [
-          "2026-05-31",
-          8.39,
-          null,
-          null
-        ],
-        [
-          "2026-11-08",
-          0.43,
-          0.89,
-          52
-        ]
-      ],
-      "price_seen_count": 2,
       "price_signal": "buy"
     },
     {
@@ -28283,6 +30067,101 @@ const OFFERS_DATA = {
       "price_signal": "good"
     },
     {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 0.64,
+      "new_price_eur": 0.33,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 0.64,
+      "price_per_kg_eur": 0.33,
+      "source_type": "assortment",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 0.64,
+          "price_eur": 0.33,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 0.64,
+      "comparison_count": 1,
+      "product_id": "lidl-захар-1000g",
+      "weight_grams": 1000,
+      "weight_raw": "1 kg",
+      "name": "Захар",
+      "image": "https://www.lidl.bg/assets/gcpaa27da6a19704ef188f0e0608a51a1d8.png",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 2.25,
+      "lowest_price": 0.54,
+      "lowest_price_date": "2026-09-20",
+      "price_history": [
+        [
+          "2026-05-07",
+          10.93,
+          null,
+          null
+        ],
+        [
+          "2026-06-28",
+          1.86,
+          1.99,
+          7
+        ],
+        [
+          "2026-09-13",
+          0.55,
+          null,
+          null
+        ],
+        [
+          "2026-09-20",
+          0.54,
+          null,
+          null
+        ],
+        [
+          "2026-09-27",
+          0.55,
+          null,
+          null
+        ],
+        [
+          "2026-10-04",
+          0.65,
+          null,
+          null
+        ],
+        [
+          "2026-11-08",
+          0.64,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 7,
+      "price_signal": "good"
+    },
+    {
       "store": "Kaufland",
       "address": null,
       "new_price": 0.65,
@@ -29192,65 +31071,6 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 0.69,
-      "new_price_eur": 0.35,
-      "old_price": 0.99,
-      "old_price_eur": 0.51,
-      "discount_pct": 30,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 2.3,
-      "price_per_kg_eur": 1.18,
-      "source_type": "promo",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 0.69,
-          "price_eur": 0.35,
-          "old_price": 0.99,
-          "old_price_eur": 0.51,
-          "discount_pct": 30,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 0.69,
-      "comparison_count": 1,
-      "product_id": "lidl-чабата-300g",
-      "weight_grams": 300,
-      "weight_raw": "300 g",
-      "name": "Чабата",
-      "image": "https://www.lidl.bg/assets/gcp4b190637049b4bf983108b393ae1d390.jpg",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 0.69,
-      "lowest_price": 0.69,
-      "lowest_price_date": "2026-11-08",
-      "price_history": [
-        [
-          "2026-11-08",
-          0.69,
-          0.99,
-          30
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 0.71,
@@ -29384,6 +31204,77 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 0.74,
+      "new_price_eur": 0.38,
+      "old_price": 1.49,
+      "old_price_eur": 0.76,
+      "discount_pct": 50,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 3.7,
+      "price_per_kg_eur": 1.89,
+      "source_type": "promo",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 0.74,
+          "price_eur": 0.38,
+          "old_price": 1.49,
+          "old_price_eur": 0.76,
+          "discount_pct": 50,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 0.74,
+      "comparison_count": 1,
+      "product_id": "lidl-сурими-пръчици-200g",
+      "weight_grams": 200,
+      "weight_raw": "200 g",
+      "name": "Сурими пръчици",
+      "image": "https://www.lidl.bg/assets/gcpedd05e38b494470b93e7627c66ef9052.png",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 2.07,
+      "lowest_price": 0.74,
+      "lowest_price_date": "2026-11-08",
+      "price_history": [
+        [
+          "2026-05-07",
+          3.89,
+          null,
+          null
+        ],
+        [
+          "2026-06-28",
+          1.58,
+          3.19,
+          50
+        ],
+        [
+          "2026-11-08",
+          0.74,
+          1.49,
+          50
+        ]
+      ],
+      "price_seen_count": 3,
       "price_signal": "buy"
     },
     {
@@ -30261,6 +32152,107 @@ const OFFERS_DATA = {
     {
       "store": "Lidl",
       "address": null,
+      "new_price": 0.89,
+      "new_price_eur": 0.46,
+      "old_price": 1.78,
+      "old_price_eur": 0.91,
+      "discount_pct": 50,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 1.59,
+      "price_per_kg_eur": 0.81,
+      "source_type": "promo",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 0.89,
+          "price_eur": 0.46,
+          "old_price": 1.78,
+          "old_price_eur": 0.91,
+          "discount_pct": 50,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 0.89,
+      "comparison_count": 1,
+      "product_id": "lidl-кетчуп-560g",
+      "weight_grams": 560,
+      "weight_raw": "560 g",
+      "name": "Кетчуп",
+      "image": "https://www.lidl.bg/assets/gcp310a0acd9741415da51573463f8b1fe2.png",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 3.53,
+      "lowest_price": 0.85,
+      "lowest_price_date": "2026-09-06",
+      "price_history": [
+        [
+          "2026-07-19",
+          5.85,
+          null,
+          null
+        ],
+        [
+          "2026-08-02",
+          5.46,
+          null,
+          null
+        ],
+        [
+          "2026-09-06",
+          0.85,
+          1.27,
+          33
+        ],
+        [
+          "2026-09-13",
+          2.99,
+          null,
+          null
+        ],
+        [
+          "2026-09-27",
+          3.57,
+          null,
+          null
+        ],
+        [
+          "2026-10-11",
+          2.79,
+          3.83,
+          27
+        ],
+        [
+          "2026-10-18",
+          2.29,
+          null,
+          null
+        ],
+        [
+          "2026-11-08",
+          0.89,
+          1.78,
+          50
+        ]
+      ],
+      "price_seen_count": 10,
+      "price_signal": "good"
+    },
+    {
+      "store": "Lidl",
+      "address": null,
       "new_price": 0.92,
       "new_price_eur": 0.47,
       "old_price": null,
@@ -31031,6 +33023,65 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 0.99,
+      "new_price_eur": 0.51,
+      "old_price": 1.27,
+      "old_price_eur": 0.65,
+      "discount_pct": 22,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 1.98,
+      "price_per_kg_eur": 1.01,
+      "source_type": "promo",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 0.99,
+          "price_eur": 0.51,
+          "old_price": 1.27,
+          "old_price_eur": 0.65,
+          "discount_pct": 22,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 0.99,
+      "comparison_count": 1,
+      "product_id": "lidl-кори-за-лазаня-500g",
+      "weight_grams": 500,
+      "weight_raw": "500 g",
+      "name": "Кори за лазаня",
+      "image": "https://www.lidl.bg/assets/gcpe9f7472cc5ea49ab880cf5aa5ab70025.png",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 0.99,
+      "lowest_price": 0.99,
+      "lowest_price_date": "2026-11-08",
+      "price_history": [
+        [
+          "2026-11-08",
+          0.99,
+          1.27,
+          22
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
       "store": "Kaufland",
       "address": null,
       "new_price": 1.0,
@@ -31160,65 +33211,6 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 1.02,
-      "new_price_eur": 0.52,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 5.1,
-      "price_per_kg_eur": 2.61,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 1.02,
-          "price_eur": 0.52,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 1.02,
-      "comparison_count": 1,
-      "product_id": "lidl-сладко-жито-200g",
-      "weight_grams": 200,
-      "weight_raw": "200 g",
-      "name": "Сладко жито",
-      "image": "https://www.lidl.bg/assets/gcp075cd1c5f58847a881e775541936850c.png",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 1.02,
-      "lowest_price": 1.02,
-      "lowest_price_date": "2026-11-01",
-      "price_history": [
-        [
-          "2026-11-01",
-          1.02,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
       "price_signal": "buy"
     },
     {
@@ -32005,208 +33997,6 @@ const OFFERS_DATA = {
       "price_signal": "good"
     },
     {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 1.12,
-      "new_price_eur": 0.57,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 0.22,
-      "price_per_kg_eur": 0.11,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 1.12,
-          "price_eur": 0.57,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 1.12,
-      "comparison_count": 1,
-      "product_id": "lidl-изворна-вода-5000g",
-      "weight_grams": 5000,
-      "weight_raw": "5 l",
-      "name": "Изворна вода",
-      "image": "https://www.lidl.bg/assets/gcpe22ab456e3574ec49071dbe76b54849d.png",
-      "category": "drinks",
-      "emoji": "🍺",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 1.62,
-      "lowest_price": 0.21,
-      "lowest_price_date": "2026-10-11",
-      "price_history": [
-        [
-          "2026-08-09",
-          2.91,
-          3.89,
-          25
-        ],
-        [
-          "2026-08-23",
-          1.4,
-          null,
-          null
-        ],
-        [
-          "2026-09-06",
-          1.79,
-          2.49,
-          28
-        ],
-        [
-          "2026-09-13",
-          1.95,
-          2.81,
-          31
-        ],
-        [
-          "2026-09-27",
-          1.4,
-          null,
-          null
-        ],
-        [
-          "2026-10-04",
-          0.25,
-          null,
-          null
-        ],
-        [
-          "2026-10-11",
-          0.21,
-          0.25,
-          16
-        ],
-        [
-          "2026-11-08",
-          1.12,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 15,
-      "price_signal": "good"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 1.12,
-      "new_price_eur": 0.57,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 0.22,
-      "price_per_kg_eur": 0.11,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 1.12,
-          "price_eur": 0.57,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 1.12,
-      "comparison_count": 1,
-      "product_id": "lidl-минерална-вода-5000g",
-      "weight_grams": 5000,
-      "weight_raw": "5 l",
-      "name": "Минерална вода",
-      "image": "https://www.lidl.bg/assets/gcp9d444b26eef14a51a1757f66429c9bba.png",
-      "category": "drinks",
-      "emoji": "🍺",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 1.67,
-      "lowest_price": 0.24,
-      "lowest_price_date": "2026-08-23",
-      "price_history": [
-        [
-          "2026-09-06",
-          0.35,
-          null,
-          null
-        ],
-        [
-          "2026-09-13",
-          1.95,
-          null,
-          null
-        ],
-        [
-          "2026-09-27",
-          1.49,
-          null,
-          null
-        ],
-        [
-          "2026-10-04",
-          2.36,
-          null,
-          null
-        ],
-        [
-          "2026-10-11",
-          0.24,
-          null,
-          null
-        ],
-        [
-          "2026-10-18",
-          0.26,
-          null,
-          null
-        ],
-        [
-          "2026-10-25",
-          2.25,
-          null,
-          null
-        ],
-        [
-          "2026-11-08",
-          1.12,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 16,
-      "price_signal": "good"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 1.15,
@@ -32750,71 +34540,6 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 1.22,
-      "new_price_eur": 0.62,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 2.44,
-      "price_per_kg_eur": 1.25,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 1.22,
-          "price_eur": 0.62,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 1.22,
-      "comparison_count": 1,
-      "product_id": "lidl-фини-точени-кори-за-баница-xxl-500g",
-      "weight_grams": 500,
-      "weight_raw": "500 g",
-      "name": "Фини точени кори за баница XXL",
-      "image": "https://www.lidl.bg/assets/gcp5ff4632d74db48e2a56cd23177ab713d.png",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 1.81,
-      "lowest_price": 1.22,
-      "lowest_price_date": "2026-08-30",
-      "price_history": [
-        [
-          "2026-05-07",
-          2.39,
-          null,
-          null
-        ],
-        [
-          "2026-08-30",
-          1.22,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 2,
       "price_signal": "buy"
     },
     {
@@ -34472,6 +36197,130 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 1.39,
+      "new_price_eur": 0.71,
+      "old_price": 2.04,
+      "old_price_eur": 1.04,
+      "discount_pct": 32,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 2.78,
+      "price_per_kg_eur": 1.42,
+      "source_type": "promo",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 1.39,
+          "price_eur": 0.71,
+          "old_price": 2.04,
+          "old_price_eur": 1.04,
+          "discount_pct": 32,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 1.39,
+      "comparison_count": 1,
+      "product_id": "lidl-веган-крем-за-готвене-500g",
+      "weight_grams": 500,
+      "weight_raw": "500 ml",
+      "name": "Веган крем за готвене",
+      "image": "https://www.lidl.bg/assets/gcp46846211f9dd410f97fad1f6930917b0.png",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 2.06,
+      "lowest_price": 1.39,
+      "lowest_price_date": "2026-11-08",
+      "price_history": [
+        [
+          "2026-06-28",
+          2.72,
+          3.99,
+          32
+        ],
+        [
+          "2026-11-08",
+          1.39,
+          2.04,
+          32
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 1.39,
+      "new_price_eur": 0.71,
+      "old_price": 1.78,
+      "old_price_eur": 0.91,
+      "discount_pct": 22,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 6.95,
+      "price_per_kg_eur": 3.55,
+      "source_type": "promo",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 1.39,
+          "price_eur": 0.71,
+          "old_price": 1.78,
+          "old_price_eur": 0.91,
+          "discount_pct": 22,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 1.39,
+      "comparison_count": 1,
+      "product_id": "lidl-био-веган-блок-за-мазане-200g",
+      "weight_grams": 200,
+      "weight_raw": "200 g",
+      "name": "Био веган блок за мазане",
+      "image": "https://www.lidl.bg/assets/gcp0465793acc1d44ffb40135ddf5407a94.png",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 1.39,
+      "lowest_price": 1.39,
+      "lowest_price_date": "2026-11-08",
+      "price_history": [
+        [
+          "2026-11-08",
+          1.39,
+          1.78,
+          22
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
       "store": "Kaufland",
       "address": null,
       "new_price": 1.41,
@@ -34628,6 +36477,65 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 10,
       "price_signal": "normal"
+    },
+    {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 1.42,
+      "new_price_eur": 0.73,
+      "old_price": 1.78,
+      "old_price_eur": 0.91,
+      "discount_pct": 20,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 7.47,
+      "price_per_kg_eur": 3.82,
+      "source_type": "promo",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 1.42,
+          "price_eur": 0.73,
+          "old_price": 1.78,
+          "old_price_eur": 0.91,
+          "discount_pct": 20,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 1.42,
+      "comparison_count": 1,
+      "product_id": "lidl-песто-190g",
+      "weight_grams": 190,
+      "weight_raw": "190 g",
+      "name": "Песто",
+      "image": "https://www.lidl.bg/assets/gcp39d5337db76a4961a0920ff80b77f4a1.png",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 1.42,
+      "lowest_price": 1.42,
+      "lowest_price_date": "2026-08-23",
+      "price_history": [
+        [
+          "2026-08-23",
+          1.42,
+          1.78,
+          20
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
     },
     {
       "store": "Kaufland",
@@ -35830,6 +37738,101 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 2,
       "price_signal": "normal"
+    },
+    {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 1.59,
+      "new_price_eur": 0.81,
+      "old_price": 2.04,
+      "old_price_eur": 1.04,
+      "discount_pct": 22,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 12.72,
+      "price_per_kg_eur": 6.5,
+      "source_type": "promo",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 1.59,
+          "price_eur": 0.81,
+          "old_price": 2.04,
+          "old_price_eur": 1.04,
+          "discount_pct": 22,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 1.59,
+      "comparison_count": 1,
+      "product_id": "lidl-бурата-125g",
+      "weight_grams": 125,
+      "weight_raw": "125 g",
+      "name": "Бурата",
+      "image": "https://www.lidl.bg/assets/gcp2d29adf21a0e496f9d29b2381d2a9c23.png",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 3.39,
+      "lowest_price": 1.59,
+      "lowest_price_date": "2026-11-08",
+      "price_history": [
+        [
+          "2026-04-20",
+          3.89,
+          null,
+          null
+        ],
+        [
+          "2026-04-27",
+          4.99,
+          null,
+          null
+        ],
+        [
+          "2026-05-31",
+          3.99,
+          null,
+          null
+        ],
+        [
+          "2026-06-07",
+          2.72,
+          3.99,
+          32
+        ],
+        [
+          "2026-07-26",
+          3.99,
+          null,
+          null
+        ],
+        [
+          "2026-10-04",
+          2.55,
+          null,
+          null
+        ],
+        [
+          "2026-11-08",
+          1.59,
+          2.04,
+          22
+        ]
+      ],
+      "price_seen_count": 7,
+      "price_signal": "buy"
     },
     {
       "store": "Kaufland",
@@ -37287,83 +39290,6 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 1.78,
-      "new_price_eur": 0.91,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 7.12,
-      "price_per_kg_eur": 3.64,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 1.78,
-          "price_eur": 0.91,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 1.78,
-      "comparison_count": 1,
-      "product_id": "lidl-колбас-xxl-250g",
-      "weight_grams": 250,
-      "weight_raw": "250 g",
-      "name": "Колбас XXL",
-      "image": "https://www.lidl.bg/assets/gcp26d75ef660b744df9887b8d254857c36.png",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 3.35,
-      "lowest_price": 1.78,
-      "lowest_price_date": "2026-11-01",
-      "price_history": [
-        [
-          "2026-07-05",
-          5.4,
-          null,
-          null
-        ],
-        [
-          "2026-08-09",
-          3.48,
-          null,
-          null
-        ],
-        [
-          "2026-09-27",
-          2.76,
-          null,
-          null
-        ],
-        [
-          "2026-11-01",
-          1.78,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 4,
-      "price_signal": "buy"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 1.79,
@@ -37969,6 +39895,77 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 1.79,
+      "new_price_eur": 0.92,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 23.87,
+      "price_per_kg_eur": 12.2,
+      "source_type": "assortment",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 1.79,
+          "price_eur": 0.92,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 1.79,
+      "comparison_count": 1,
+      "product_id": "lidl-десерт-в-чаша-75g",
+      "weight_grams": 75,
+      "weight_raw": "75 g",
+      "name": "Десерт в чаша",
+      "image": "https://www.lidl.bg/assets/gcpd13929fdeca04f3e8af91574a04a2c18.png",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 3.11,
+      "lowest_price": 1.79,
+      "lowest_price_date": "2026-11-08",
+      "price_history": [
+        [
+          "2026-07-12",
+          4.99,
+          null,
+          null
+        ],
+        [
+          "2026-10-11",
+          2.55,
+          null,
+          null
+        ],
+        [
+          "2026-11-08",
+          1.79,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "buy"
+    },
+    {
       "store": "Kaufland",
       "address": null,
       "new_price": 1.8,
@@ -38180,6 +40177,65 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 5,
       "price_signal": "good"
+    },
+    {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 1.82,
+      "new_price_eur": 0.93,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 11.9,
+      "price_per_kg_eur": 6.08,
+      "source_type": "assortment",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 1.82,
+          "price_eur": 0.93,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 1.82,
+      "comparison_count": 1,
+      "product_id": "lidl-инстантно-ястие-153g",
+      "weight_grams": 153,
+      "weight_raw": "3 х 51 g",
+      "name": "Инстантно ястие",
+      "image": "https://www.lidl.bg/assets/gcpd1b5d11e60ea4c608324b9557a677e22.jpg",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 1.82,
+      "lowest_price": 1.82,
+      "lowest_price_date": "2026-11-08",
+      "price_history": [
+        [
+          "2026-11-08",
+          1.82,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
     },
     {
       "store": "Kaufland",
@@ -38602,6 +40658,178 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 1.89,
+      "new_price_eur": 0.97,
+      "old_price": 2.29,
+      "old_price_eur": 1.17,
+      "discount_pct": 17,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 6.2,
+      "price_per_kg_eur": 3.17,
+      "source_type": "promo",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 1.89,
+          "price_eur": 0.97,
+          "old_price": 2.29,
+          "old_price_eur": 1.17,
+          "discount_pct": 17,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 1.89,
+      "comparison_count": 1,
+      "product_id": "lidl-лютеница-305g",
+      "weight_grams": 305,
+      "weight_raw": "305 g",
+      "name": "Лютеница",
+      "image": "https://www.lidl.bg/assets/gcp70eeb9656aa545358424ae49f400a865.png",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 4.25,
+      "lowest_price": 1.89,
+      "lowest_price_date": "2026-11-08",
+      "price_history": [
+        [
+          "2026-06-07",
+          6.69,
+          13.38,
+          50
+        ],
+        [
+          "2026-06-28",
+          2.89,
+          3.99,
+          28
+        ],
+        [
+          "2026-08-02",
+          6.61,
+          13.22,
+          50
+        ],
+        [
+          "2026-09-27",
+          3.38,
+          null,
+          null
+        ],
+        [
+          "2026-10-11",
+          1.99,
+          2.55,
+          22
+        ],
+        [
+          "2026-10-25",
+          6.87,
+          null,
+          null
+        ],
+        [
+          "2026-11-01",
+          1.99,
+          2.55,
+          22
+        ],
+        [
+          "2026-11-08",
+          1.89,
+          2.29,
+          17
+        ]
+      ],
+      "price_seen_count": 10,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 1.89,
+      "new_price_eur": 0.97,
+      "old_price": 2.29,
+      "old_price_eur": 1.17,
+      "discount_pct": 17,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 12.6,
+      "price_per_kg_eur": 6.44,
+      "source_type": "promo",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 1.89,
+          "price_eur": 0.97,
+          "old_price": 2.29,
+          "old_price_eur": 1.17,
+          "discount_pct": 17,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 1.89,
+      "comparison_count": 1,
+      "product_id": "lidl-ементал-150g",
+      "weight_grams": 150,
+      "weight_raw": "150 g",
+      "name": "Ементал",
+      "image": "https://www.lidl.bg/assets/gcp7ab35a71e78f423babcac5bdb64007c9.png",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 3.75,
+      "lowest_price": 1.89,
+      "lowest_price_date": "2026-11-08",
+      "price_history": [
+        [
+          "2026-06-07",
+          3.5,
+          4.5,
+          22
+        ],
+        [
+          "2026-06-21",
+          5.85,
+          7.59,
+          23
+        ],
+        [
+          "2026-11-08",
+          1.89,
+          2.29,
+          17
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "buy"
+    },
+    {
       "store": "Kaufland",
       "address": null,
       "new_price": 1.91,
@@ -38720,6 +40948,65 @@ const OFFERS_DATA = {
           1.91,
           2.55,
           25
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 1.94,
+      "new_price_eur": 0.99,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 5.39,
+      "price_per_kg_eur": 2.76,
+      "source_type": "assortment",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 1.94,
+          "price_eur": 0.99,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 1.94,
+      "comparison_count": 1,
+      "product_id": "lidl-краставички-360g",
+      "weight_grams": 360,
+      "weight_raw": "360 g",
+      "name": "Краставички",
+      "image": "https://www.lidl.bg/assets/gcp4fbd9ba71c894062a5bee61e70256780.png",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 1.94,
+      "lowest_price": 1.94,
+      "lowest_price_date": "2026-11-08",
+      "price_history": [
+        [
+          "2026-11-08",
+          1.94,
+          null,
+          null
         ]
       ],
       "price_seen_count": 1,
@@ -39914,124 +42201,6 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 2.04,
-      "new_price_eur": 1.04,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 5.1,
-      "price_per_kg_eur": 2.61,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 2.04,
-          "price_eur": 1.04,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 2.04,
-      "comparison_count": 1,
-      "product_id": "lidl-блатове-за-торта-400g",
-      "weight_grams": 400,
-      "weight_raw": "400 g",
-      "name": "Блатове за торта",
-      "image": "https://www.lidl.bg/assets/gcpf3c87920b4c34f86822dc815093e5339.png",
-      "category": "grain",
-      "emoji": "🌾",
-      "is_food": false,
-      "is_junk": true,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "avg_price": 2.04,
-      "lowest_price": 2.04,
-      "lowest_price_date": "2026-11-01",
-      "price_history": [
-        [
-          "2026-11-01",
-          2.04,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 2.04,
-      "new_price_eur": 1.04,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 8.16,
-      "price_per_kg_eur": 4.17,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 2.04,
-          "price_eur": 1.04,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 2.04,
-      "comparison_count": 1,
-      "product_id": "lidl-фондан-250g",
-      "weight_grams": 250,
-      "weight_raw": "250 g",
-      "name": "Фондан",
-      "image": "https://www.lidl.bg/assets/gcp68fa8ee9d1d24033968dcde4082b8d16.png",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 2.04,
-      "lowest_price": 2.04,
-      "lowest_price_date": "2026-11-01",
-      "price_history": [
-        [
-          "2026-11-01",
-          2.04,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 2.05,
@@ -40833,6 +43002,77 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 2.19,
+      "new_price_eur": 1.12,
+      "old_price": 2.55,
+      "old_price_eur": 1.3,
+      "discount_pct": 14,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 6.44,
+      "price_per_kg_eur": 3.29,
+      "source_type": "promo",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 2.19,
+          "price_eur": 1.12,
+          "old_price": 2.55,
+          "old_price_eur": 1.3,
+          "discount_pct": 14,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 2.19,
+      "comparison_count": 1,
+      "product_id": "lidl-пица-на-пещ-340g",
+      "weight_grams": 340,
+      "weight_raw": "340 g",
+      "name": "Пица на пещ",
+      "image": "https://www.lidl.bg/assets/gcp06de4ff267154727a6df8398505b948a.png",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 2.58,
+      "lowest_price": 2.19,
+      "lowest_price_date": "2026-11-08",
+      "price_history": [
+        [
+          "2026-08-23",
+          3.06,
+          null,
+          null
+        ],
+        [
+          "2026-10-11",
+          2.49,
+          null,
+          null
+        ],
+        [
+          "2026-11-08",
+          2.19,
+          2.55,
+          14
+        ]
+      ],
+      "price_seen_count": 3,
       "price_signal": "buy"
     },
     {
@@ -42004,6 +44244,71 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 2.39,
+      "new_price_eur": 1.22,
+      "old_price": 2.99,
+      "old_price_eur": 1.53,
+      "discount_pct": 20,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 14.06,
+      "price_per_kg_eur": 7.19,
+      "source_type": "promo",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 2.39,
+          "price_eur": 1.22,
+          "old_price": 2.99,
+          "old_price_eur": 1.53,
+          "discount_pct": 20,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 2.39,
+      "comparison_count": 1,
+      "product_id": "lidl-болярски-пръчици-170g",
+      "weight_grams": 170,
+      "weight_raw": "170 g",
+      "name": "Болярски пръчици",
+      "image": "https://www.lidl.bg/assets/gcp2839aacdfb9349a598486a480c4d7386.png",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 4.25,
+      "lowest_price": 2.39,
+      "lowest_price_date": "2026-11-08",
+      "price_history": [
+        [
+          "2026-09-27",
+          6.12,
+          9.18,
+          33
+        ],
+        [
+          "2026-11-08",
+          2.39,
+          2.99,
+          20
+        ]
+      ],
+      "price_seen_count": 2,
       "price_signal": "buy"
     },
     {
@@ -43247,77 +45552,6 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 2.55,
-      "new_price_eur": 1.3,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 36.43,
-      "price_per_kg_eur": 18.63,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 2.55,
-          "price_eur": 1.3,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 2.55,
-      "comparison_count": 1,
-      "product_id": "lidl-хамон-серрано-гран-резерва-70g",
-      "weight_grams": 70,
-      "weight_raw": "70 g",
-      "name": "Хамон Серрано Гран Резерва",
-      "image": "https://www.lidl.bg/assets/gcpba7d58dab596480299cb4a12bf913f17.png",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 2.76,
-      "lowest_price": 1.94,
-      "lowest_price_date": "2026-09-20",
-      "price_history": [
-        [
-          "2026-07-05",
-          3.79,
-          null,
-          null
-        ],
-        [
-          "2026-09-20",
-          1.94,
-          null,
-          null
-        ],
-        [
-          "2026-11-08",
-          2.55,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "normal"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 2.59,
@@ -43433,6 +45667,77 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 2.59,
+      "new_price_eur": 1.32,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 32.38,
+      "price_per_kg_eur": 16.56,
+      "source_type": "assortment",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 2.59,
+          "price_eur": 1.32,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 2.59,
+      "comparison_count": 1,
+      "product_id": "lidl-фиокето-80g",
+      "weight_grams": 80,
+      "weight_raw": "80 g",
+      "name": "Фиокето",
+      "image": "https://www.lidl.bg/assets/gcp049ac959051f40989786342eb94fec62.png",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 3.38,
+      "lowest_price": 2.55,
+      "lowest_price_date": "2026-10-04",
+      "price_history": [
+        [
+          "2026-06-28",
+          4.99,
+          null,
+          null
+        ],
+        [
+          "2026-10-04",
+          2.55,
+          null,
+          null
+        ],
+        [
+          "2026-10-18",
+          2.59,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
       "price_signal": "buy"
     },
     {
@@ -44219,6 +46524,71 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 2.7,
+      "new_price_eur": 1.38,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 3.0,
+      "price_per_kg_eur": 1.53,
+      "source_type": "assortment",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 2.7,
+          "price_eur": 1.38,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 2.7,
+      "comparison_count": 1,
+      "product_id": "lidl-пастет-апетит-900g",
+      "weight_grams": 900,
+      "weight_raw": "3 x 300 g",
+      "name": "Пастет Апетит",
+      "image": "https://www.lidl.bg/assets/gcp41ca0e07c2f84cfdb9aa76673a410382.png",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": true,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 1.69,
+      "lowest_price": 0.67,
+      "lowest_price_date": "2026-10-11",
+      "price_history": [
+        [
+          "2026-10-11",
+          0.67,
+          1.35,
+          50
+        ],
+        [
+          "2026-11-08",
+          2.7,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "wait"
+    },
+    {
       "store": "Kaufland",
       "address": null,
       "new_price": 2.76,
@@ -44973,6 +47343,142 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 2,
       "price_signal": "normal"
+    },
+    {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 2.79,
+      "new_price_eur": 1.43,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 12.68,
+      "price_per_kg_eur": 6.48,
+      "source_type": "assortment",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 2.79,
+          "price_eur": 1.43,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 2.79,
+      "comparison_count": 1,
+      "product_id": "lidl-пастет-220g",
+      "weight_grams": 220,
+      "weight_raw": "220 g",
+      "name": "Пастет",
+      "image": "https://www.lidl.bg/assets/gcpced61239dc504382ac6f2a8677c12915.png",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": true,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 2.29,
+      "lowest_price": 1.79,
+      "lowest_price_date": "2026-10-18",
+      "price_history": [
+        [
+          "2026-10-18",
+          1.79,
+          null,
+          null
+        ],
+        [
+          "2026-11-08",
+          2.79,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "wait"
+    },
+    {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 2.79,
+      "new_price_eur": 1.43,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 19.93,
+      "price_per_kg_eur": 10.19,
+      "source_type": "assortment",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 2.79,
+          "price_eur": 1.43,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 2.79,
+      "comparison_count": 1,
+      "product_id": "lidl-прошуто-кото-140g",
+      "weight_grams": 140,
+      "weight_raw": "140 g",
+      "name": "Прошуто Кото",
+      "image": "https://www.lidl.bg/assets/gcp0e07674c83c74761987c91c804d1a2bd.png",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 2.46,
+      "lowest_price": 2.19,
+      "lowest_price_date": "2026-10-04",
+      "price_history": [
+        [
+          "2026-08-23",
+          2.39,
+          2.99,
+          20
+        ],
+        [
+          "2026-10-04",
+          2.19,
+          null,
+          null
+        ],
+        [
+          "2026-11-08",
+          2.79,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "wait"
     },
     {
       "store": "Kaufland",
@@ -45772,6 +48278,71 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 2.85,
+      "new_price_eur": 1.46,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 7.12,
+      "price_per_kg_eur": 3.64,
+      "source_type": "assortment",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 2.85,
+          "price_eur": 1.46,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 2.85,
+      "comparison_count": 1,
+      "product_id": "lidl-блатове-за-торта-400g",
+      "weight_grams": 400,
+      "weight_raw": "400 g",
+      "name": "Блатове за торта",
+      "image": "https://www.lidl.bg/assets/gcp536492d03ac8445eb4b92b76f8bb6f04.png",
+      "category": "grain",
+      "emoji": "🌾",
+      "is_food": false,
+      "is_junk": true,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "avg_price": 2.45,
+      "lowest_price": 2.04,
+      "lowest_price_date": "2026-11-01",
+      "price_history": [
+        [
+          "2026-11-01",
+          2.04,
+          null,
+          null
+        ],
+        [
+          "2026-11-08",
+          2.85,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "wait"
+    },
+    {
       "store": "Kaufland",
       "address": null,
       "new_price": 2.88,
@@ -46123,77 +48694,6 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 4,
-      "price_signal": "good"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 2.95,
-      "new_price_eur": 1.51,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 29.5,
-      "price_per_kg_eur": 15.08,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 2.95,
-          "price_eur": 1.51,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 2.95,
-      "comparison_count": 1,
-      "product_id": "lidl-копа-100g",
-      "weight_grams": 100,
-      "weight_raw": "100 g",
-      "name": "Копа",
-      "image": "https://www.lidl.bg/assets/gcpd1e1b99b18644c2983afa70dcaf7a726.png",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 8.08,
-      "lowest_price": 2.39,
-      "lowest_price_date": "2026-08-30",
-      "price_history": [
-        [
-          "2026-08-30",
-          2.39,
-          3.06,
-          22
-        ],
-        [
-          "2026-09-27",
-          18.9,
-          null,
-          null
-        ],
-        [
-          "2026-11-01",
-          2.95,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 3,
       "price_signal": "good"
     },
     {
@@ -47273,79 +49773,14 @@ const OFFERS_DATA = {
       "address": null,
       "new_price": 2.99,
       "new_price_eur": 1.53,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 12.46,
-      "price_per_kg_eur": 6.37,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 2.99,
-          "price_eur": 1.53,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 2.99,
-      "comparison_count": 1,
-      "product_id": "lidl-прошуто-кото-xxl-240g-2",
-      "weight_grams": 240,
-      "weight_raw": "240 g",
-      "name": "Прошуто Кото XXL",
-      "image": "https://www.lidl.bg/assets/gcpde710f9f205941e1b0aec8a7d08168a8.png",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 4.42,
-      "lowest_price": 2.99,
-      "lowest_price_date": "2026-11-08",
-      "price_history": [
-        [
-          "2026-08-02",
-          5.85,
-          null,
-          null
-        ],
-        [
-          "2026-11-08",
-          2.99,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 2.99,
-      "new_price_eur": 1.53,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
+      "old_price": 3.83,
+      "old_price_eur": 1.96,
+      "discount_pct": 22,
       "valid_from": null,
       "valid_until": null,
       "price_per_kg": 11.96,
       "price_per_kg_eur": 6.12,
-      "source_type": "assortment",
+      "source_type": "promo",
       "available_stores": [
         "Lidl"
       ],
@@ -47354,20 +49789,20 @@ const OFFERS_DATA = {
           "store": "Lidl",
           "price": 2.99,
           "price_eur": 1.53,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
+          "old_price": 3.83,
+          "old_price_eur": 1.96,
+          "discount_pct": 22,
+          "source_type": "promo"
         }
       ],
       "best_price_store": "Lidl",
       "best_price": 2.99,
       "comparison_count": 1,
-      "product_id": "lidl-бурата-xxl-250g",
+      "product_id": "lidl-лонганиса-250g",
       "weight_grams": 250,
       "weight_raw": "250 g",
-      "name": "Бурата XXL",
-      "image": "https://www.lidl.bg/assets/gcp2c00b804ca0e45ad8749f5ebd7d54a22.png",
+      "name": "Лонганиса",
+      "image": "https://www.lidl.bg/assets/gcp325ffea9a8034d44a570c3f62b9e96bd.png",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -47378,24 +49813,18 @@ const OFFERS_DATA = {
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
-      "avg_price": 4.42,
+      "avg_price": 2.99,
       "lowest_price": 2.99,
-      "lowest_price_date": "2026-11-01",
+      "lowest_price_date": "2026-11-08",
       "price_history": [
         [
-          "2026-06-21",
-          5.85,
-          null,
-          null
-        ],
-        [
-          "2026-11-01",
+          "2026-11-08",
           2.99,
-          null,
-          null
+          3.83,
+          22
         ]
       ],
-      "price_seen_count": 2,
+      "price_seen_count": 1,
       "price_signal": "buy"
     },
     {
@@ -47681,14 +50110,14 @@ const OFFERS_DATA = {
       "address": null,
       "new_price": 3.19,
       "new_price_eur": 1.63,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
+      "old_price": 3.83,
+      "old_price_eur": 1.96,
+      "discount_pct": 17,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": 5.32,
-      "price_per_kg_eur": 2.72,
-      "source_type": "assortment",
+      "price_per_kg": 10.63,
+      "price_per_kg_eur": 5.44,
+      "source_type": "promo",
       "available_stores": [
         "Lidl"
       ],
@@ -47697,24 +50126,24 @@ const OFFERS_DATA = {
           "store": "Lidl",
           "price": 3.19,
           "price_eur": 1.63,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
+          "old_price": 3.83,
+          "old_price_eur": 1.96,
+          "discount_pct": 17,
+          "source_type": "promo"
         }
       ],
       "best_price_store": "Lidl",
       "best_price": 3.19,
       "comparison_count": 1,
-      "product_id": "lidl-тесто-за-сладкиши-600g",
-      "weight_grams": 600,
-      "weight_raw": "600 g",
-      "name": "Тесто за сладкиши",
-      "image": "https://www.lidl.bg/assets/gcpd9735234bb3a4abf9f3fdd9c5a7d8912.png",
+      "product_id": "lidl-гурме-бургери-300g",
+      "weight_grams": 300,
+      "weight_raw": "300 g",
+      "name": "Гурме бургери",
+      "image": "https://www.lidl.bg/assets/gcp106912b2a0674ffaae5e0bd4ff2a2a4f.png",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
-      "is_junk": true,
+      "is_junk": false,
       "is_healthy": false,
       "is_high_protein": false,
       "is_good_carb": false,
@@ -47723,13 +50152,72 @@ const OFFERS_DATA = {
       "is_long_lasting": false,
       "avg_price": 3.19,
       "lowest_price": 3.19,
-      "lowest_price_date": "2026-11-01",
+      "lowest_price_date": "2026-11-08",
       "price_history": [
         [
-          "2026-11-01",
+          "2026-11-08",
           3.19,
-          null,
-          null
+          3.83,
+          17
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 3.19,
+      "new_price_eur": 1.63,
+      "old_price": 3.83,
+      "old_price_eur": 1.96,
+      "discount_pct": 17,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 4.25,
+      "price_per_kg_eur": 2.17,
+      "source_type": "promo",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 3.19,
+          "price_eur": 1.63,
+          "old_price": 3.83,
+          "old_price_eur": 1.96,
+          "discount_pct": 17,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 3.19,
+      "comparison_count": 1,
+      "product_id": "lidl-замразено-ястие-750g",
+      "weight_grams": 750,
+      "weight_raw": "750 g",
+      "name": "Замразено ястие",
+      "image": "https://www.lidl.bg/assets/gcp6d158480c412435ab5b9d635283eb219.png",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 3.19,
+      "lowest_price": 3.19,
+      "lowest_price_date": "2026-11-08",
+      "price_history": [
+        [
+          "2026-11-08",
+          3.19,
+          3.83,
+          17
         ]
       ],
       "price_seen_count": 1,
@@ -49595,130 +52083,6 @@ const OFFERS_DATA = {
       "price_signal": "good"
     },
     {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 3.57,
-      "new_price_eur": 1.83,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 17.85,
-      "price_per_kg_eur": 9.13,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 3.57,
-          "price_eur": 1.83,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 3.57,
-      "comparison_count": 1,
-      "product_id": "lidl-грана-падано-xxl-200g",
-      "weight_grams": 200,
-      "weight_raw": "200 g",
-      "name": "Грана Падано XXL",
-      "image": "https://www.lidl.bg/assets/gcpc5be53ef618645d58831fb3814d556f1.png",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 5.28,
-      "lowest_price": 3.57,
-      "lowest_price_date": "2026-11-08",
-      "price_history": [
-        [
-          "2026-06-21",
-          6.98,
-          null,
-          null
-        ],
-        [
-          "2026-11-08",
-          3.57,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 3.57,
-      "new_price_eur": 1.83,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 3.76,
-      "price_per_kg_eur": 1.92,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 3.57,
-          "price_eur": 1.83,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 3.57,
-      "comparison_count": 1,
-      "product_id": "lidl-компот-950g",
-      "weight_grams": 950,
-      "weight_raw": "950 g",
-      "name": "Компот",
-      "image": "https://www.lidl.bg/assets/gcp5437fb1a4c1b45768d3d8ba714c815ab.png",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 3.57,
-      "lowest_price": 3.57,
-      "lowest_price_date": "2026-09-27",
-      "price_history": [
-        [
-          "2026-09-27",
-          3.57,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 3.59,
@@ -49928,6 +52292,95 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 1,
       "price_signal": "buy"
+    },
+    {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 3.59,
+      "new_price_eur": 1.84,
+      "old_price": 5.62,
+      "old_price_eur": 2.87,
+      "discount_pct": 36,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 5.74,
+      "price_per_kg_eur": 2.93,
+      "source_type": "promo",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 3.59,
+          "price_eur": 1.84,
+          "old_price": 5.62,
+          "old_price_eur": 2.87,
+          "discount_pct": 36,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 3.59,
+      "comparison_count": 1,
+      "product_id": "lidl-маионеза-625g",
+      "weight_grams": 625,
+      "weight_raw": "625 ml",
+      "name": "Майонеза",
+      "image": "https://www.lidl.bg/assets/gcp2a9fa6f6d92f42caa8522f4a13dfc785.jpg",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 3.37,
+      "lowest_price": 0.75,
+      "lowest_price_date": "2026-10-11",
+      "price_history": [
+        [
+          "2026-06-28",
+          3.89,
+          4.28,
+          9
+        ],
+        [
+          "2026-08-23",
+          3.69,
+          null,
+          null
+        ],
+        [
+          "2026-08-30",
+          4.49,
+          null,
+          null
+        ],
+        [
+          "2026-09-27",
+          3.79,
+          null,
+          null
+        ],
+        [
+          "2026-10-11",
+          0.75,
+          0.89,
+          16
+        ],
+        [
+          "2026-11-08",
+          3.59,
+          5.62,
+          36
+        ]
+      ],
+      "price_seen_count": 6,
+      "price_signal": "normal"
     },
     {
       "store": "Kaufland",
@@ -50790,6 +53243,65 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 3.98,
+      "new_price_eur": 2.03,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 6.63,
+      "price_per_kg_eur": 3.39,
+      "source_type": "assortment",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 3.98,
+          "price_eur": 2.03,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 3.98,
+      "comparison_count": 1,
+      "product_id": "lidl-котидж-600g",
+      "weight_grams": 600,
+      "weight_raw": "3 x 200 g",
+      "name": "Котидж",
+      "image": "https://www.lidl.bg/assets/gcpa98525c50aa948d7846029a8bba422f4.png",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 3.98,
+      "lowest_price": 3.98,
+      "lowest_price_date": "2026-11-08",
+      "price_history": [
+        [
+          "2026-11-08",
+          3.98,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
       "store": "Kaufland",
       "address": null,
       "new_price": 3.99,
@@ -51631,6 +54143,65 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 3.99,
+      "new_price_eur": 2.04,
+      "old_price": 5.1,
+      "old_price_eur": 2.61,
+      "discount_pct": 22,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 5.96,
+      "price_per_kg_eur": 3.05,
+      "source_type": "promo",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 3.99,
+          "price_eur": 2.04,
+          "old_price": 5.1,
+          "old_price_eur": 2.61,
+          "discount_pct": 22,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 3.99,
+      "comparison_count": 1,
+      "product_id": "lidl-пица-капричоза-670g",
+      "weight_grams": 670,
+      "weight_raw": "2 х 335 g",
+      "name": "Пица Капричоза",
+      "image": "https://www.lidl.bg/assets/gcp2d642cff8891450aad176210934612f6.png",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 3.99,
+      "lowest_price": 3.99,
+      "lowest_price_date": "2026-11-08",
+      "price_history": [
+        [
+          "2026-11-08",
+          3.99,
+          5.1,
+          22
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
       "store": "Kaufland",
       "address": null,
       "new_price": 4.08,
@@ -51866,6 +54437,65 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 9,
       "price_signal": "good"
+    },
+    {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 4.09,
+      "new_price_eur": 2.09,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 34.08,
+      "price_per_kg_eur": 17.42,
+      "source_type": "assortment",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 4.09,
+          "price_eur": 2.09,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 4.09,
+      "comparison_count": 1,
+      "product_id": "lidl-плато-от-местни-специалитети-120g",
+      "weight_grams": 120,
+      "weight_raw": "120 g",
+      "name": "Плато от местни специалитети",
+      "image": "https://www.lidl.bg/assets/gcp66797bed5ab44942b56a2c8058f61dc4.png",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 4.09,
+      "lowest_price": 4.09,
+      "lowest_price_date": "2026-11-08",
+      "price_history": [
+        [
+          "2026-11-08",
+          4.09,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
     },
     {
       "store": "Kaufland",
@@ -52438,71 +55068,6 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 5,
       "price_signal": "good"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 4.34,
-      "new_price_eur": 2.22,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 9.64,
-      "price_per_kg_eur": 4.93,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 4.34,
-          "price_eur": 2.22,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 4.34,
-      "comparison_count": 1,
-      "product_id": "lidl-франкфуртери-xxl-450g",
-      "weight_grams": 450,
-      "weight_raw": "450 g",
-      "name": "Франкфуртери XXL",
-      "image": "https://www.lidl.bg/assets/gcpba036f1cfdf54d188a1909549ba24bf2.png",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 6.42,
-      "lowest_price": 4.34,
-      "lowest_price_date": "2026-11-01",
-      "price_history": [
-        [
-          "2026-08-09",
-          8.49,
-          null,
-          null
-        ],
-        [
-          "2026-11-01",
-          4.34,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
     },
     {
       "store": "Kaufland",
@@ -53562,8 +56127,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": 5.25,
-      "price_per_kg_eur": 2.68,
+      "price_per_kg": 23.63,
+      "price_per_kg_eur": 12.08,
       "source_type": "assortment",
       "available_stores": [
         "Lidl"
@@ -53582,11 +56147,11 @@ const OFFERS_DATA = {
       "best_price_store": "Lidl",
       "best_price": 4.49,
       "comparison_count": 1,
-      "product_id": "lidl-маионеза-855g",
-      "weight_grams": 855,
-      "weight_raw": "855 ml",
-      "name": "Майонеза",
-      "image": "https://www.lidl.bg/assets/gcp004697d589e34625b35964aaae2c342d.png",
+      "product_id": "lidl-скариди-190g",
+      "weight_grams": 190,
+      "weight_raw": "190 g",
+      "name": "Скариди",
+      "image": "https://www.lidl.bg/assets/gcp0937dd3b99aa438c8a5c7fce695716c5.png",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -53597,48 +56162,54 @@ const OFFERS_DATA = {
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
-      "avg_price": 3.37,
-      "lowest_price": 0.75,
-      "lowest_price_date": "2026-10-11",
+      "avg_price": 3.93,
+      "lowest_price": 2.49,
+      "lowest_price_date": "2026-10-25",
       "price_history": [
         [
-          "2026-06-28",
-          3.89,
-          4.28,
-          9
+          "2026-05-07",
+          7.8,
+          10.66,
+          27
+        ],
+        [
+          "2026-06-14",
+          4.99,
+          null,
+          null
         ],
         [
           "2026-08-23",
-          3.69,
-          null,
-          null
-        ],
-        [
-          "2026-08-30",
-          4.49,
-          null,
-          null
-        ],
-        [
-          "2026-09-27",
-          3.79,
+          2.55,
           null,
           null
         ],
         [
           "2026-10-11",
-          0.75,
-          0.89,
-          16
+          2.59,
+          3.06,
+          15
+        ],
+        [
+          "2026-10-25",
+          2.49,
+          null,
+          null
+        ],
+        [
+          "2026-11-01",
+          2.59,
+          3.06,
+          15
         ],
         [
           "2026-11-08",
-          3.59,
-          5.62,
-          36
+          4.49,
+          null,
+          null
         ]
       ],
-      "price_seen_count": 6,
+      "price_seen_count": 7,
       "price_signal": "wait"
     },
     {
@@ -54440,6 +57011,77 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 4.59,
+      "new_price_eur": 2.35,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 30.6,
+      "price_per_kg_eur": 15.65,
+      "source_type": "assortment",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 4.59,
+          "price_eur": 2.35,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 4.59,
+      "comparison_count": 1,
+      "product_id": "lidl-хамон-серрано-гран-резерва-150g",
+      "weight_grams": 150,
+      "weight_raw": "150 g",
+      "name": "Хамон Серрано Гран Резерва",
+      "image": "https://www.lidl.bg/assets/gcp4b55dbb9a0714fc7ba8e26a8598b1296.png",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 2.76,
+      "lowest_price": 1.94,
+      "lowest_price_date": "2026-09-20",
+      "price_history": [
+        [
+          "2026-07-05",
+          3.79,
+          null,
+          null
+        ],
+        [
+          "2026-09-20",
+          1.94,
+          null,
+          null
+        ],
+        [
+          "2026-11-08",
+          2.55,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "wait"
+    },
+    {
       "store": "Kaufland",
       "address": null,
       "new_price": 4.6,
@@ -54502,65 +57144,6 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 4.6,
-      "new_price_eur": 2.35,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 15.33,
-      "price_per_kg_eur": 7.84,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 4.6,
-          "price_eur": 2.35,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 4.6,
-      "comparison_count": 1,
-      "product_id": "lidl-какао-xxl-300g",
-      "weight_grams": 300,
-      "weight_raw": "300 g",
-      "name": "Какао XXL",
-      "image": "https://www.lidl.bg/assets/gcp6a41887eb960447ba6c67b14276c8400.png",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 4.6,
-      "lowest_price": 4.6,
-      "lowest_price_date": "2026-11-08",
-      "price_history": [
-        [
-          "2026-11-08",
-          4.6,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
       "price_signal": "buy"
     },
     {
@@ -55733,6 +58316,65 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 4.99,
+      "new_price_eur": 2.55,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 2.17,
+      "price_per_kg_eur": 1.11,
+      "source_type": "assortment",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 4.99,
+          "price_eur": 2.55,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 4.99,
+      "comparison_count": 1,
+      "product_id": "lidl-предна-четвърт-от-малко-прасенце-2300g",
+      "weight_grams": 2300,
+      "weight_raw": "2.3 kg",
+      "name": "Предна четвърт от малко прасенце",
+      "image": "https://www.lidl.bg/assets/gcp7b1bc965cb8d424ca2a03f726ef6926c.png",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 4.99,
+      "lowest_price": 4.99,
+      "lowest_price_date": "2026-11-08",
+      "price_history": [
+        [
+          "2026-11-08",
+          4.99,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
       "store": "Kaufland",
       "address": null,
       "new_price": 5.0,
@@ -56214,89 +58856,6 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 1,
       "price_signal": "buy"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 5.11,
-      "new_price_eur": 2.61,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 1.7,
-      "price_per_kg_eur": 0.87,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 5.11,
-          "price_eur": 2.61,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 5.11,
-      "comparison_count": 1,
-      "product_id": "lidl-бира-3000g",
-      "weight_grams": 3000,
-      "weight_raw": "6 х 0.5 l",
-      "name": "Бира",
-      "image": "https://www.lidl.bg/assets/gcp82639d5dab34448697d8540c06cf77eb.png",
-      "category": "drinks",
-      "emoji": "🍺",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 4.81,
-      "lowest_price": 1.12,
-      "lowest_price_date": "2026-10-18",
-      "price_history": [
-        [
-          "2026-06-14",
-          11.97,
-          null,
-          null
-        ],
-        [
-          "2026-06-28",
-          1.68,
-          null,
-          null
-        ],
-        [
-          "2026-10-18",
-          1.12,
-          1.63,
-          31
-        ],
-        [
-          "2026-10-25",
-          4.15,
-          4.85,
-          14
-        ],
-        [
-          "2026-11-08",
-          5.11,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 5,
-      "price_signal": "normal"
     },
     {
       "store": "Kaufland",
@@ -56821,6 +59380,124 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 5.49,
+      "new_price_eur": 2.81,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 2.03,
+      "price_per_kg_eur": 1.04,
+      "source_type": "assortment",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 5.49,
+          "price_eur": 2.81,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 5.49,
+      "comparison_count": 1,
+      "product_id": "lidl-пресен-суджук-xxl-2700g",
+      "weight_grams": 2700,
+      "weight_raw": "2.7 kg",
+      "name": "Пресен суджук XXL",
+      "image": "https://www.lidl.bg/assets/gcp3875b5b1a4294aada54a5d3d50d71ea8.png",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 5.49,
+      "lowest_price": 5.49,
+      "lowest_price_date": "2026-11-08",
+      "price_history": [
+        [
+          "2026-11-08",
+          5.49,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 5.49,
+      "new_price_eur": 2.81,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 2.39,
+      "price_per_kg_eur": 1.22,
+      "source_type": "assortment",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 5.49,
+          "price_eur": 2.81,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 5.49,
+      "comparison_count": 1,
+      "product_id": "lidl-задна-четвърт-от-малко-прасенце-2300g",
+      "weight_grams": 2300,
+      "weight_raw": "2.3 kg",
+      "name": "Задна четвърт от малко прасенце",
+      "image": "https://www.lidl.bg/assets/gcp22a9953ee5c84c329f7ad093f29eaef6.png",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 5.49,
+      "lowest_price": 5.49,
+      "lowest_price_date": "2026-11-08",
+      "price_history": [
+        [
+          "2026-11-08",
+          5.49,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
       "store": "Kaufland",
       "address": null,
       "new_price": 5.59,
@@ -56987,83 +59664,6 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 5.59,
-      "new_price_eur": 2.86,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 11.18,
-      "price_per_kg_eur": 5.72,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 5.59,
-          "price_eur": 2.86,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 5.59,
-      "comparison_count": 1,
-      "product_id": "lidl-зрял-чедър-xxl-500g",
-      "weight_grams": 500,
-      "weight_raw": "500 g",
-      "name": "Зрял чедър XXL",
-      "image": "https://www.lidl.bg/assets/gcp2d808586d2e848e5ad523a7977398d01.png",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 11.76,
-      "lowest_price": 5.59,
-      "lowest_price_date": "2026-11-01",
-      "price_history": [
-        [
-          "2026-05-07",
-          10.99,
-          null,
-          null
-        ],
-        [
-          "2026-06-21",
-          19.54,
-          null,
-          null
-        ],
-        [
-          "2026-08-09",
-          10.93,
-          null,
-          null
-        ],
-        [
-          "2026-11-01",
-          5.59,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 4,
-      "price_signal": "buy"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 5.62,
@@ -57176,6 +59776,71 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 1,
       "price_signal": "buy"
+    },
+    {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 5.69,
+      "new_price_eur": 2.91,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 4.06,
+      "price_per_kg_eur": 2.08,
+      "source_type": "assortment",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 5.69,
+          "price_eur": 2.91,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 5.69,
+      "comparison_count": 1,
+      "product_id": "lidl-пресен-шаран-1400g",
+      "weight_grams": 1400,
+      "weight_raw": "1.4 kg",
+      "name": "Пресен шаран",
+      "image": "https://www.lidl.bg/assets/gcp37be4743c6ed4ce58502c8000a6d9e96.png",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 5.4,
+      "lowest_price": 5.11,
+      "lowest_price_date": "2026-10-18",
+      "price_history": [
+        [
+          "2026-10-18",
+          5.11,
+          null,
+          null
+        ],
+        [
+          "2026-11-08",
+          5.69,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "normal"
     },
     {
       "store": "Kaufland",
@@ -60449,83 +63114,6 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 7.49,
-      "new_price_eur": 3.83,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 4.68,
-      "price_per_kg_eur": 2.39,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 7.49,
-          "price_eur": 3.83,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 7.49,
-      "comparison_count": 1,
-      "product_id": "lidl-лазаня-болонезе-xxl-1600g",
-      "weight_grams": 1600,
-      "weight_raw": "1.6 kg",
-      "name": "Лазаня Болонезе XXL",
-      "image": "https://www.lidl.bg/assets/gcp090c0e453d4d4c9ab25ed692cf2e50ae.png",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 10.46,
-      "lowest_price": 7.49,
-      "lowest_price_date": "2026-11-01",
-      "price_history": [
-        [
-          "2026-05-24",
-          15.49,
-          null,
-          null
-        ],
-        [
-          "2026-06-21",
-          10.99,
-          null,
-          null
-        ],
-        [
-          "2026-10-22",
-          7.89,
-          null,
-          null
-        ],
-        [
-          "2026-11-01",
-          7.49,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 4,
-      "price_signal": "buy"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 7.59,
@@ -60575,65 +63163,6 @@ const OFFERS_DATA = {
         [
           "2026-08-24",
           7.59,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 7.66,
-      "new_price_eur": 3.92,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 12.77,
-      "price_per_kg_eur": 6.53,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 7.66,
-          "price_eur": 3.92,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 7.66,
-      "comparison_count": 1,
-      "product_id": "lidl-пъдпъдъци-600g",
-      "weight_grams": 600,
-      "weight_raw": "600 g",
-      "name": "Пъдпъдъци",
-      "image": "https://www.lidl.bg/assets/gcpe03831de8bcb4c04b4f8c9cc859a963d.png",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 7.66,
-      "lowest_price": 7.66,
-      "lowest_price_date": "2026-11-01",
-      "price_history": [
-        [
-          "2026-11-01",
-          7.66,
           null,
           null
         ]
@@ -61499,65 +64028,6 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 3,
       "price_signal": "wait"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 8.18,
-      "new_price_eur": 4.18,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 6.82,
-      "price_per_kg_eur": 3.49,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 8.18,
-          "price_eur": 4.18,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 8.18,
-      "comparison_count": 1,
-      "product_id": "lidl-деликатесни-наденички-xxl-1200g",
-      "weight_grams": 1200,
-      "weight_raw": "1.2 kg",
-      "name": "Деликатесни наденички XXL",
-      "image": "https://www.lidl.bg/assets/gcpe0990b5706ef4b3fafd15488a22d9904.png",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 8.18,
-      "lowest_price": 8.18,
-      "lowest_price_date": "2026-11-01",
-      "price_history": [
-        [
-          "2026-11-01",
-          8.18,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
     },
     {
       "store": "Kaufland",
@@ -63068,6 +65538,65 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 8,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Lidl",
+      "address": null,
+      "new_price": 8.99,
+      "new_price_eur": 4.6,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 1.83,
+      "price_per_kg_eur": 0.94,
+      "source_type": "assortment",
+      "available_stores": [
+        "Lidl"
+      ],
+      "store_prices": [
+        {
+          "store": "Lidl",
+          "price": 8.99,
+          "price_eur": 4.6,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Lidl",
+      "best_price": 8.99,
+      "comparison_count": 1,
+      "product_id": "lidl-прясна-цяла-гъска-4900g",
+      "weight_grams": 4900,
+      "weight_raw": "4.9 kg",
+      "name": "Прясна цяла гъска",
+      "image": "https://www.lidl.bg/assets/gcp0e9546f1ab7e4094a3ac1876e1b74e95.png",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 8.99,
+      "lowest_price": 8.99,
+      "lowest_price_date": "2026-11-08",
+      "price_history": [
+        [
+          "2026-11-08",
+          8.99,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 1,
       "price_signal": "buy"
     },
     {
@@ -64787,63 +67316,6 @@ const OFFERS_DATA = {
           11.49,
           15.99,
           28
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 11.69,
-      "new_price_eur": 5.98,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 11.69,
-          "price_eur": 5.98,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 11.69,
-      "comparison_count": 1,
-      "product_id": "lidl-греика",
-      "name": "Грейка",
-      "image": "https://www.lidl.bg/assets/gcp2bdb70fbc7964cb9a0cca761d9f79473.png",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 11.69,
-      "lowest_price": 11.69,
-      "lowest_price_date": "2026-11-08",
-      "price_history": [
-        [
-          "2026-11-08",
-          11.69,
-          null,
-          null
         ]
       ],
       "price_seen_count": 1,
@@ -68075,120 +70547,6 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 16.99,
-      "new_price_eur": 8.69,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 16.99,
-          "price_eur": 8.69,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 16.99,
-      "comparison_count": 1,
-      "product_id": "lidl-3-в-1-уред",
-      "name": "3 в 1 уред",
-      "image": "https://www.lidl.bg/assets/gcp9fbbe2a94fac4aaf965d1e3924e0e510.png",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 16.99,
-      "lowest_price": 16.99,
-      "lowest_price_date": "2026-11-08",
-      "price_history": [
-        [
-          "2026-11-08",
-          16.99,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 16.99,
-      "new_price_eur": 8.69,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 16.99,
-          "price_eur": 8.69,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 16.99,
-      "comparison_count": 1,
-      "product_id": "lidl-разклонител-с-usb-портове",
-      "name": "Разклонител с USB портове",
-      "image": "https://www.lidl.bg/assets/gcp8271b19a300d43bf9916e3030efbfd8e.png",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 16.99,
-      "lowest_price": 16.99,
-      "lowest_price_date": "2026-11-08",
-      "price_history": [
-        [
-          "2026-11-08",
-          16.99,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 17.89,
@@ -69299,75 +71657,6 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 22.99,
-      "new_price_eur": 11.75,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 22.99,
-          "price_eur": 11.75,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 22.99,
-      "comparison_count": 1,
-      "product_id": "lidl-кримп-клещи",
-      "name": "Кримп клещи",
-      "image": "https://www.lidl.bg/assets/gcp02c81f9836fe48238e74c9a22d65a9f8.png",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 18.99,
-      "lowest_price": 15.98,
-      "lowest_price_date": "2026-06-14",
-      "price_history": [
-        [
-          "2026-06-14",
-          15.98,
-          null,
-          null
-        ],
-        [
-          "2026-10-18",
-          17.99,
-          null,
-          null
-        ],
-        [
-          "2026-11-08",
-          22.99,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "wait"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 24.02,
@@ -69659,122 +71948,6 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 27.99,
-      "new_price_eur": 14.31,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 1.4,
-      "price_per_kg_eur": 0.72,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 27.99,
-          "price_eur": 14.31,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 27.99,
-      "comparison_count": 1,
-      "product_id": "lidl-сушилник-за-дрехи-20000g",
-      "weight_grams": 20000,
-      "weight_raw": "20 kg",
-      "name": "Сушилник за дрехи",
-      "image": "https://www.lidl.bg/assets/gcp11efb63f30964f718751042f061c5426.png",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 27.99,
-      "lowest_price": 27.99,
-      "lowest_price_date": "2026-11-08",
-      "price_history": [
-        [
-          "2026-11-08",
-          27.99,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 29.99,
-      "new_price_eur": 15.33,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 29.99,
-          "price_eur": 15.33,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 29.99,
-      "comparison_count": 1,
-      "product_id": "lidl-гаечни-ключове",
-      "name": "Гаечни ключове",
-      "image": "https://www.lidl.bg/assets/gcpb3ecaa5b41fd4564a0f50f9297abfb37.png",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 29.99,
-      "lowest_price": 29.99,
-      "lowest_price_date": "2026-11-08",
-      "price_history": [
-        [
-          "2026-11-08",
-          29.99,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 30.67,
@@ -69950,65 +72123,6 @@ const OFFERS_DATA = {
         [
           "2026-11-02",
           31.99,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 33.99,
-      "new_price_eur": 17.38,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 22.66,
-      "price_per_kg_eur": 11.59,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 33.99,
-          "price_eur": 17.38,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 33.99,
-      "comparison_count": 1,
-      "product_id": "lidl-тенеси-уиски-1500g",
-      "weight_grams": 1500,
-      "weight_raw": "1.5 l",
-      "name": "Тенеси уиски",
-      "image": "https://www.lidl.bg/assets/gcpcc9ba02456de4c6f953582a412d278d4.png",
-      "category": "drinks",
-      "emoji": "🍺",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 33.99,
-      "lowest_price": 33.99,
-      "lowest_price_date": "2026-11-08",
-      "price_history": [
-        [
-          "2026-11-08",
-          33.99,
           null,
           null
         ]
@@ -70403,63 +72517,6 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 45.99,
-      "new_price_eur": 23.51,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 45.99,
-          "price_eur": 23.51,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 45.99,
-      "comparison_count": 1,
-      "product_id": "lidl-комбиниран-шлаиф",
-      "name": "Комбиниран шлайф",
-      "image": "https://www.lidl.bg/assets/gcp62b25fe713024bdf8d8e1914157100f7.png",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 45.99,
-      "lowest_price": 45.99,
-      "lowest_price_date": "2026-11-08",
-      "price_history": [
-        [
-          "2026-11-08",
-          45.99,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 46.01,
@@ -70757,65 +72814,6 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 66.99,
-      "new_price_eur": 34.25,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 3.35,
-      "price_per_kg_eur": 1.71,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 66.99,
-          "price_eur": 34.25,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 66.99,
-      "comparison_count": 1,
-      "product_id": "lidl-прахосмукачка-за-пепел-20000g",
-      "weight_grams": 20000,
-      "weight_raw": "20 l",
-      "name": "Прахосмукачка за пепел",
-      "image": "https://www.lidl.bg/assets/gcp5f6875a18f3a42bda2a21e4b4d154272.png",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 66.99,
-      "lowest_price": 66.99,
-      "lowest_price_date": "2026-11-08",
-      "price_history": [
-        [
-          "2026-11-08",
-          66.99,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 76.69,
@@ -70876,122 +72874,6 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 79.99,
-      "new_price_eur": 40.9,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 79.99,
-          "price_eur": 40.9,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 79.99,
-      "comparison_count": 1,
-      "product_id": "lidl-куфар-за-инструменти",
-      "name": "Куфар за инструменти",
-      "image": "https://www.lidl.bg/assets/gcp3e2958b98bd844c7a36c50d2fd05b50e.png",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 79.99,
-      "lowest_price": 79.99,
-      "lowest_price_date": "2026-11-08",
-      "price_history": [
-        [
-          "2026-11-08",
-          79.99,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 89.99,
-      "new_price_eur": 46.01,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 20.0,
-      "price_per_kg_eur": 10.23,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 89.99,
-          "price_eur": 46.01,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 89.99,
-      "comparison_count": 1,
-      "product_id": "lidl-еър-фраиър-4500g",
-      "weight_grams": 4500,
-      "weight_raw": "4.5 l",
-      "name": "Еър Фрайър",
-      "image": "https://www.lidl.bg/assets/gcp6b0b2378ef314dc5b98ca52fa7a95af5.png",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 89.99,
-      "lowest_price": 89.99,
-      "lowest_price_date": "2026-11-08",
-      "price_history": [
-        [
-          "2026-11-08",
-          89.99,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
       "price_signal": "buy"
     },
     {
@@ -71103,122 +72985,6 @@ const OFFERS_DATA = {
           119.9,
           169.9,
           29
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 239.99,
-      "new_price_eur": 122.7,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 239.99,
-          "price_eur": 122.7,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 239.99,
-      "comparison_count": 1,
-      "product_id": "lidl-оверлог",
-      "name": "Оверлог",
-      "image": "https://www.lidl.bg/assets/gcpd821453ab9b349d093cd3be04171ce05.png",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 239.99,
-      "lowest_price": 239.99,
-      "lowest_price_date": "2026-11-08",
-      "price_history": [
-        [
-          "2026-11-08",
-          239.99,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Lidl",
-      "address": null,
-      "new_price": 279.0,
-      "new_price_eur": 142.65,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 797.14,
-      "price_per_kg_eur": 407.57,
-      "source_type": "assortment",
-      "available_stores": [
-        "Lidl"
-      ],
-      "store_prices": [
-        {
-          "store": "Lidl",
-          "price": 279.0,
-          "price_eur": 142.65,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Lidl",
-      "best_price": 279.0,
-      "comparison_count": 1,
-      "product_id": "lidl-2-в-1-акумулаторна-прахосмукачка-350g",
-      "weight_grams": 350,
-      "weight_raw": "350 ml",
-      "name": "2 в 1 акумулаторна прахосмукачка",
-      "image": "https://www.lidl.bg/assets/gcpa4c1512ab4704909991fe026b0f4ccc9.png",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 279.0,
-      "lowest_price": 279.0,
-      "lowest_price_date": "2026-11-08",
-      "price_history": [
-        [
-          "2026-11-08",
-          279.0,
-          null,
-          null
         ]
       ],
       "price_seen_count": 1,
@@ -345618,5 +347384,5 @@ const OFFERS_DATA = {
       "price_signal": "normal"
     }
   ],
-  "catalog_products": 61046
+  "catalog_products": 61048
 };
