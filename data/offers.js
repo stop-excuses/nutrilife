@@ -1,5 +1,5 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-11-09T12:40:18.605982Z",
+  "generated_at": "2026-11-09T15:56:55.326833Z",
   "store_last_scraped": {
     "Billa": "2026-11-06",
     "Dar": "2026-11-06",
@@ -9,7 +9,7 @@ const OFFERS_DATA = {
     "T-Market": "2026-11-09"
   },
   "unavailable_stores": [],
-  "content_hash": "e536ca03937961fe00eed5cba069c253",
+  "content_hash": "6d816a62ec3067436820e7e47e8e375c",
   "total_offers": 4275,
   "promo_offers": 1610,
   "assortment_offers": 2665,
@@ -3015,10 +3015,10 @@ const OFFERS_DATA = {
       "best_price_store": "Kaufland",
       "best_price": 1.89,
       "comparison_count": 1,
-      "product_id": "kaufland-боровинки-или-малини-клас-i-125g",
+      "product_id": "kaufland-боровинки-клас-i-125g",
       "weight_grams": 125,
       "weight_raw": "125 г",
-      "name": "Боровинки или Малини Клас: I",
+      "name": "Боровинки Клас: I",
       "image": "https://kaufland.media.schwarz/is/image/schwarz/AdobeStock_38803584?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "vegetable",
       "emoji": "🥦",
@@ -3037,21 +3037,51 @@ const OFFERS_DATA = {
         "f": 0.3,
         "c": 14
       },
-      "avg_price": 1.99,
-      "lowest_price": 1.89,
-      "lowest_price_date": "2026-11-09",
+      "avg_price": 4.5,
+      "lowest_price": 1.39,
+      "lowest_price_date": "2026-08-24",
       "price_history": [
         [
-          "2026-10-12",
+          "2026-08-24",
+          1.39,
+          1.75,
+          21
+        ],
+        [
+          "2026-08-31",
+          3.59,
+          4.99,
+          28
+        ],
+        [
+          "2026-09-14",
+          2.39,
+          2.99,
+          20
+        ],
+        [
+          "2026-10-01",
+          1.89,
+          2.99,
+          37
+        ],
+        [
+          "2026-10-11",
           2.09,
           2.99,
           30
         ],
         [
-          "2026-10-26",
-          1.99,
-          2.99,
+          "2026-10-19",
+          3.32,
+          4.99,
           33
+        ],
+        [
+          "2026-11-02",
+          3.99,
+          4.99,
+          20
         ],
         [
           "2026-11-09",
@@ -3060,8 +3090,8 @@ const OFFERS_DATA = {
           37
         ]
       ],
-      "price_seen_count": 3,
-      "price_signal": "buy"
+      "price_seen_count": 20,
+      "price_signal": "good"
     },
     {
       "store": "T-Market",
@@ -71669,10 +71699,10 @@ const OFFERS_DATA = {
       "best_price_store": "Kaufland",
       "best_price": 1.12,
       "comparison_count": 1,
-      "product_id": "kaufland-galaxy-сладолед-във-фуниика-избрани-вкусове-74g",
+      "product_id": "kaufland-galaxy-сладолед-във-фуниика-различни-вкусове-74g",
       "weight_grams": 74,
       "weight_raw": "74,5 г",
-      "name": "Galaxy Сладолед във фунийка избрани вкусове",
+      "name": "Galaxy Сладолед във фунийка различни вкусове",
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800029104294_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "dairy",
       "emoji": "🥛",
@@ -71684,52 +71714,10 @@ const OFFERS_DATA = {
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
-      "avg_price": 0.92,
-      "lowest_price": 0.45,
-      "lowest_price_date": "2026-08-17",
+      "avg_price": 1.12,
+      "lowest_price": 1.12,
+      "lowest_price_date": "2026-11-09",
       "price_history": [
-        [
-          "2026-06-22",
-          0.92,
-          2.19,
-          58
-        ],
-        [
-          "2026-07-06",
-          0.96,
-          2.19,
-          56
-        ],
-        [
-          "2026-08-03",
-          0.92,
-          2.19,
-          58
-        ],
-        [
-          "2026-08-17",
-          0.45,
-          1.12,
-          60
-        ],
-        [
-          "2026-08-31",
-          0.47,
-          1.12,
-          58
-        ],
-        [
-          "2026-09-14",
-          0.49,
-          1.12,
-          56
-        ],
-        [
-          "2026-10-26",
-          0.55,
-          1.12,
-          51
-        ],
         [
           "2026-11-09",
           1.12,
@@ -71737,8 +71725,8 @@ const OFFERS_DATA = {
           50
         ]
       ],
-      "price_seen_count": 10,
-      "price_signal": "wait"
+      "price_seen_count": 1,
+      "price_signal": "buy"
     },
     {
       "store": "Kaufland",
@@ -362605,5 +362593,5 @@ const OFFERS_DATA = {
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800032070272_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     }
   ],
-  "catalog_products": 61403
+  "catalog_products": 61404
 };
