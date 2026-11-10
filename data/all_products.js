@@ -1,5 +1,5 @@
 const ALL_PRODUCTS_DATA = {
-  "generated_at": "2026-11-10T19:31:23.890630Z",
+  "generated_at": "2026-11-10T21:15:11.799904Z",
   "total_products": 61408,
   "products": [
     {
@@ -870133,7 +870133,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00401755?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
+      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_00401755_P.jpg",
       "product_id": "kaufland-alpro-soya-соев-пудинг-ванилия-или-шоколад-500g",
       "last_seen": "2026-11-10",
       "first_seen": "2026-06-08",
