@@ -1,12 +1,12 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-11-09T15:56:55.326833Z",
+  "generated_at": "2026-11-10T00:33:01.662267Z",
   "store_last_scraped": {
     "Billa": "2026-11-06",
     "Dar": "2026-11-06",
     "Fantastico": "2026-11-06",
-    "Kaufland": "2026-11-09",
+    "Kaufland": "2026-11-10",
     "Lidl": "2026-11-08",
-    "T-Market": "2026-11-09"
+    "T-Market": "2026-11-10"
   },
   "unavailable_stores": [],
   "content_hash": "6d816a62ec3067436820e7e47e8e375c",
@@ -82069,6 +82069,7 @@ const OFFERS_DATA = {
       "weight_grams": 500,
       "weight_raw": "4 х 125 г",
       "name": "Alpro Soya Соев пудинг ванилия или шоколад",
+      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_00401755_P.jpg",
       "category": "grain",
       "emoji": "🌾",
       "is_food": false,
@@ -82097,8 +82098,7 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 2,
-      "price_signal": "buy",
-      "image": "https://tmarketonline.bg/cdn/img/products/53968/puding-alpro-kokos-i-sokolad-135-gr-65dc654b2b37a.png?width=600&height=600&v=1777590000"
+      "price_signal": "buy"
     },
     {
       "store": "Kaufland",
