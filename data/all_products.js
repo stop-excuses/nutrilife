@@ -1,5 +1,5 @@
 const ALL_PRODUCTS_DATA = {
-  "generated_at": "2026-11-10T12:24:58.957519Z",
+  "generated_at": "2026-11-10T14:44:45.195587Z",
   "total_products": 61408,
   "products": [
     {
@@ -770853,7 +770853,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20754565_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20754569_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-stallion-selection-червено-или-бяло-вино-различни-сортове-750g",
       "last_seen": "2026-11-10",
       "first_seen": "2026-04-27",
@@ -770916,7 +770916,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20865876?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-stallion-selection-червено-бяло-вино-или-розе-различни-сортове-750g",
-      "last_seen": "2026-06-14",
+      "last_seen": "2026-11-10",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -770934,11 +770934,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 7.99,
           "old_price": 20.59,
           "discount_pct": 24
+        },
+        {
+          "date": "2026-11-10",
+          "store": "Kaufland",
+          "price": 7.99,
+          "price_eur": 4.09,
+          "old_price": 10.19,
+          "discount_pct": 22
         }
       ],
-      "lowest_price": 14.98,
-      "lowest_price_date": "2026-05-18",
-      "avg_price": 15.3
+      "lowest_price": 7.99,
+      "lowest_price_date": "2026-11-10",
+      "avg_price": 12.87
     },
     {
       "name": "Papia Тоалетна хартия различни видове",
@@ -870125,7 +870133,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_00401755_P.jpg",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00401755?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-alpro-soya-соев-пудинг-ванилия-или-шоколад-500g",
       "last_seen": "2026-11-10",
       "first_seen": "2026-06-08",
