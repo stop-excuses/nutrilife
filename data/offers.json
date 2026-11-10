@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T14:44:47.035649Z",
+  "generated_at": "2026-11-10T19:31:26.412196Z",
   "store_last_scraped": {
     "Billa": "2026-11-06",
     "Dar": "2026-11-06",
@@ -9,10 +9,10 @@
     "T-Market": "2026-11-10"
   },
   "unavailable_stores": [],
-  "content_hash": "772b2e15c0da12847fe2de20ee605fcf",
-  "total_offers": 4237,
-  "promo_offers": 1546,
-  "assortment_offers": 2691,
+  "content_hash": "a9f4a703c810d452c23da74b93e64f28",
+  "total_offers": 4283,
+  "promo_offers": 1590,
+  "assortment_offers": 2693,
   "stores": [
     "Billa",
     "Dar",
@@ -36846,6 +36846,198 @@
       "price_signal": "buy"
     },
     {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 1.78,
+      "new_price_eur": 0.91,
+      "old_price": 2.55,
+      "old_price_eur": 1.3,
+      "discount_pct": 30,
+      "valid_from": "2026-11-09",
+      "valid_until": "2026-11-15",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 1.78,
+          "price_eur": 0.91,
+          "old_price": 2.55,
+          "old_price_eur": 1.3,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 1.78,
+      "comparison_count": 1,
+      "product_id": "kaufland-osram-led-антибактериална-крушка-5-5w-e14",
+      "name": "OSRAM LED антибактериална крушка 5,5W, E14",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/781_00104024?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "vegetable",
+      "emoji": "🥦",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 57,
+        "p": 0.4,
+        "f": 0.1,
+        "c": 15
+      },
+      "avg_price": 1.78,
+      "lowest_price": 1.78,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-11-09",
+          1.78,
+          2.55,
+          30
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 1.78,
+      "new_price_eur": 0.91,
+      "old_price": 2.55,
+      "old_price_eur": 1.3,
+      "discount_pct": 30,
+      "valid_from": "2026-11-09",
+      "valid_until": "2026-11-15",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 1.78,
+          "price_eur": 0.91,
+          "old_price": 2.55,
+          "old_price_eur": 1.3,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 1.78,
+      "comparison_count": 1,
+      "product_id": "kaufland-osram-енергоспестяваща-крушка",
+      "name": "Osram Енергоспестяваща крушка",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4008321605986_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "vegetable",
+      "emoji": "🥦",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 57,
+        "p": 0.4,
+        "f": 0.1,
+        "c": 15
+      },
+      "avg_price": 1.78,
+      "lowest_price": 1.78,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-11-09",
+          1.78,
+          2.55,
+          30
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 1.78,
+      "new_price_eur": 0.91,
+      "old_price": 2.55,
+      "old_price_eur": 1.3,
+      "discount_pct": 30,
+      "valid_from": "2026-11-09",
+      "valid_until": "2026-11-15",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 1.78,
+          "price_eur": 0.91,
+          "old_price": 2.55,
+          "old_price_eur": 1.3,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 1.78,
+      "comparison_count": 1,
+      "product_id": "kaufland-osram-енергоспестяваща-крушка-12-w",
+      "name": "Osram Енергоспестяваща крушка 12 W",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4008321605955_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "vegetable",
+      "emoji": "🥦",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 57,
+        "p": 0.4,
+        "f": 0.1,
+        "c": 15
+      },
+      "avg_price": 1.78,
+      "lowest_price": 1.78,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-11-09",
+          1.78,
+          2.55,
+          30
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
       "store": "T-Market",
       "address": null,
       "new_price": 1.78,
@@ -37949,6 +38141,70 @@
     {
       "store": "Kaufland",
       "address": null,
+      "new_price": 1.96,
+      "new_price_eur": 1.0,
+      "old_price": 2.81,
+      "old_price_eur": 1.44,
+      "discount_pct": 30,
+      "valid_from": "2026-11-09",
+      "valid_until": "2026-11-15",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 1.96,
+          "price_eur": 1.0,
+          "old_price": 2.81,
+          "old_price_eur": 1.44,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 1.96,
+      "comparison_count": 1,
+      "product_id": "kaufland-osram-led-star-крушка-fillament",
+      "name": "Osram LED Star крушка Fillament",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4058075116054_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "vegetable",
+      "emoji": "🥦",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 57,
+        "p": 0.4,
+        "f": 0.1,
+        "c": 15
+      },
+      "avg_price": 1.96,
+      "lowest_price": 1.96,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-11-09",
+          1.96,
+          2.81,
+          30
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
       "new_price": 1.99,
       "new_price_eur": 1.02,
       "old_price": 2.61,
@@ -38528,6 +38784,198 @@
       ],
       "price_seen_count": 5,
       "price_signal": "good"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 2.1,
+      "new_price_eur": 1.07,
+      "old_price": 3.0,
+      "old_price_eur": 1.53,
+      "discount_pct": 30,
+      "valid_from": "2026-11-09",
+      "valid_until": "2026-11-15",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 2.1,
+          "price_eur": 1.07,
+          "old_price": 3.0,
+          "old_price_eur": 1.53,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 2.1,
+      "comparison_count": 1,
+      "product_id": "kaufland-osram-led-крушка-value-filament-e27",
+      "name": "Osram LED крушка Value Filament E27",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4058075153608_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "vegetable",
+      "emoji": "🥦",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 57,
+        "p": 0.4,
+        "f": 0.1,
+        "c": 15
+      },
+      "avg_price": 2.1,
+      "lowest_price": 2.1,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-11-09",
+          2.1,
+          3.0,
+          30
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 2.14,
+      "new_price_eur": 1.09,
+      "old_price": 3.06,
+      "old_price_eur": 1.56,
+      "discount_pct": 30,
+      "valid_from": "2026-11-09",
+      "valid_until": "2026-11-15",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 2.14,
+          "price_eur": 1.09,
+          "old_price": 3.06,
+          "old_price_eur": 1.56,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 2.14,
+      "comparison_count": 1,
+      "product_id": "kaufland-osram-led-крушка-value-filament-e14",
+      "name": "Osram LED крушка Value Filament E14",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4058075819672_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "vegetable",
+      "emoji": "🥦",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 57,
+        "p": 0.4,
+        "f": 0.1,
+        "c": 15
+      },
+      "avg_price": 2.14,
+      "lowest_price": 2.14,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-11-09",
+          2.14,
+          3.06,
+          30
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 2.14,
+      "new_price_eur": 1.09,
+      "old_price": 3.06,
+      "old_price_eur": 1.56,
+      "discount_pct": 30,
+      "valid_from": "2026-11-09",
+      "valid_until": "2026-11-15",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 2.14,
+          "price_eur": 1.09,
+          "old_price": 3.06,
+          "old_price_eur": 1.56,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 2.14,
+      "comparison_count": 1,
+      "product_id": "kaufland-osram-енергоспестяваща-крушка-23-w",
+      "name": "Osram Енергоспестяваща крушка 23 W",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4008321606044_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "vegetable",
+      "emoji": "🥦",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 57,
+        "p": 0.4,
+        "f": 0.1,
+        "c": 15
+      },
+      "avg_price": 2.14,
+      "lowest_price": 2.14,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-11-09",
+          2.14,
+          3.06,
+          30
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
     },
     {
       "store": "T-Market",
@@ -40085,6 +40533,198 @@
     {
       "store": "Kaufland",
       "address": null,
+      "new_price": 2.49,
+      "new_price_eur": 1.27,
+      "old_price": 3.57,
+      "old_price_eur": 1.83,
+      "discount_pct": 30,
+      "valid_from": "2026-11-09",
+      "valid_until": "2026-11-15",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 2.49,
+          "price_eur": 1.27,
+          "old_price": 3.57,
+          "old_price_eur": 1.83,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 2.49,
+      "comparison_count": 1,
+      "product_id": "kaufland-osram-led-антибактериална-крушка-4-9-w-e14",
+      "name": "OSRAM LED антибактериална крушка 4,9 W, E14",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00108787_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "vegetable",
+      "emoji": "🥦",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 57,
+        "p": 0.4,
+        "f": 0.1,
+        "c": 15
+      },
+      "avg_price": 2.49,
+      "lowest_price": 2.49,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-11-09",
+          2.49,
+          3.57,
+          30
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 2.49,
+      "new_price_eur": 1.27,
+      "old_price": 3.57,
+      "old_price_eur": 1.83,
+      "discount_pct": 30,
+      "valid_from": "2026-11-09",
+      "valid_until": "2026-11-15",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 2.49,
+          "price_eur": 1.27,
+          "old_price": 3.57,
+          "old_price_eur": 1.83,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 2.49,
+      "comparison_count": 1,
+      "product_id": "kaufland-osram-led-антибактериална-крушка-e27",
+      "name": "Osram LED антибактериална крушка E27",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00105806_P-2?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "vegetable",
+      "emoji": "🥦",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 57,
+        "p": 0.4,
+        "f": 0.1,
+        "c": 15
+      },
+      "avg_price": 2.49,
+      "lowest_price": 2.49,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-11-09",
+          2.49,
+          3.57,
+          30
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 2.49,
+      "new_price_eur": 1.27,
+      "old_price": 3.57,
+      "old_price_eur": 1.83,
+      "discount_pct": 30,
+      "valid_from": "2026-11-09",
+      "valid_until": "2026-11-15",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 2.49,
+          "price_eur": 1.27,
+          "old_price": 3.57,
+          "old_price_eur": 1.83,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 2.49,
+      "comparison_count": 1,
+      "product_id": "kaufland-osram-led-star-крушка",
+      "name": "Osram LED Star крушка",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4058075112568_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "vegetable",
+      "emoji": "🥦",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 57,
+        "p": 0.4,
+        "f": 0.1,
+        "c": 15
+      },
+      "avg_price": 2.49,
+      "lowest_price": 2.49,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-11-09",
+          2.49,
+          3.57,
+          30
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
       "new_price": 2.5,
       "new_price_eur": 1.28,
       "old_price": 3.57,
@@ -40738,6 +41378,134 @@
       ],
       "price_seen_count": 2,
       "price_signal": "wait"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 2.68,
+      "new_price_eur": 1.37,
+      "old_price": 3.83,
+      "old_price_eur": 1.96,
+      "discount_pct": 30,
+      "valid_from": "2026-11-09",
+      "valid_until": "2026-11-15",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 2.68,
+          "price_eur": 1.37,
+          "old_price": 3.83,
+          "old_price_eur": 1.96,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 2.68,
+      "comparison_count": 1,
+      "product_id": "kaufland-osram-led-крушка-против-насекоми-2700-k-cla-60",
+      "name": "Osram LED крушка против насекоми 2700 K, CLA 60",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00108794_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "vegetable",
+      "emoji": "🥦",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 57,
+        "p": 0.4,
+        "f": 0.1,
+        "c": 15
+      },
+      "avg_price": 2.68,
+      "lowest_price": 2.68,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-11-09",
+          2.68,
+          3.83,
+          30
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 2.68,
+      "new_price_eur": 1.37,
+      "old_price": 3.83,
+      "old_price_eur": 1.96,
+      "discount_pct": 30,
+      "valid_from": "2026-11-09",
+      "valid_until": "2026-11-15",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 2.68,
+          "price_eur": 1.37,
+          "old_price": 3.83,
+          "old_price_eur": 1.96,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 2.68,
+      "comparison_count": 1,
+      "product_id": "kaufland-osram-led-star-крушка-fillament-2700к-или-4000k",
+      "name": "Osram LED Star крушка Fillament 2700К или 4000K",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4058075112261_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "vegetable",
+      "emoji": "🥦",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 57,
+        "p": 0.4,
+        "f": 0.1,
+        "c": 15
+      },
+      "avg_price": 2.68,
+      "lowest_price": 2.68,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-11-09",
+          2.68,
+          3.83,
+          30
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
     },
     {
       "store": "Kaufland",
@@ -41811,6 +42579,70 @@
       "price_signal": "buy"
     },
     {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 3.03,
+      "new_price_eur": 1.55,
+      "old_price": 4.34,
+      "old_price_eur": 2.22,
+      "discount_pct": 30,
+      "valid_from": "2026-11-09",
+      "valid_until": "2026-11-15",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 3.03,
+          "price_eur": 1.55,
+          "old_price": 4.34,
+          "old_price_eur": 2.22,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 3.03,
+      "comparison_count": 1,
+      "product_id": "kaufland-osram-led-star-крушка-filament",
+      "name": "Osram LED Star крушка Filament",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4058075112360_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "vegetable",
+      "emoji": "🥦",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 57,
+        "p": 0.4,
+        "f": 0.1,
+        "c": 15
+      },
+      "avg_price": 3.03,
+      "lowest_price": 3.03,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-11-09",
+          3.03,
+          4.34,
+          30
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
       "store": "T-Market",
       "address": null,
       "new_price": 3.05,
@@ -41959,6 +42791,70 @@
         ]
       ],
       "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 3.22,
+      "new_price_eur": 1.65,
+      "old_price": 4.6,
+      "old_price_eur": 2.35,
+      "discount_pct": 30,
+      "valid_from": "2026-11-09",
+      "valid_until": "2026-11-15",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 3.22,
+          "price_eur": 1.65,
+          "old_price": 4.6,
+          "old_price_eur": 2.35,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 3.22,
+      "comparison_count": 1,
+      "product_id": "kaufland-osram-led-крушка-super-star-5-9-w",
+      "name": "Osram LED крушка Super Star 5,9 W",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4058075112544_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "vegetable",
+      "emoji": "🥦",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 57,
+        "p": 0.4,
+        "f": 0.1,
+        "c": 15
+      },
+      "avg_price": 3.22,
+      "lowest_price": 3.22,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-11-09",
+          3.22,
+          4.6,
+          30
+        ]
+      ],
+      "price_seen_count": 1,
       "price_signal": "buy"
     },
     {
@@ -45505,6 +46401,70 @@
     {
       "store": "Kaufland",
       "address": null,
+      "new_price": 5.36,
+      "new_price_eur": 2.74,
+      "old_price": 7.66,
+      "old_price_eur": 3.92,
+      "discount_pct": 30,
+      "valid_from": "2026-11-09",
+      "valid_until": "2026-11-15",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 5.36,
+          "price_eur": 2.74,
+          "old_price": 7.66,
+          "old_price_eur": 3.92,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 5.36,
+      "comparison_count": 1,
+      "product_id": "kaufland-osram-led-крушка-е27",
+      "name": "Osram LED крушка Е27",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00094481B_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "vegetable",
+      "emoji": "🥦",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 57,
+        "p": 0.4,
+        "f": 0.1,
+        "c": 15
+      },
+      "avg_price": 5.36,
+      "lowest_price": 5.36,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-11-09",
+          5.36,
+          7.66,
+          30
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
       "new_price": 5.49,
       "new_price_eur": 2.81,
       "old_price": 9.71,
@@ -45690,6 +46650,134 @@
         ]
       ],
       "price_seen_count": 5,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 5.72,
+      "new_price_eur": 2.92,
+      "old_price": 8.18,
+      "old_price_eur": 4.18,
+      "discount_pct": 30,
+      "valid_from": "2026-11-09",
+      "valid_until": "2026-11-15",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 5.72,
+          "price_eur": 2.92,
+          "old_price": 8.18,
+          "old_price_eur": 4.18,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 5.72,
+      "comparison_count": 1,
+      "product_id": "kaufland-osram-led-крушка-е27-19-w",
+      "name": "Osram LED крушка Е27, 19 W",
+      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_00082381_P.jpg",
+      "category": "vegetable",
+      "emoji": "🥦",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 57,
+        "p": 0.4,
+        "f": 0.1,
+        "c": 15
+      },
+      "avg_price": 5.72,
+      "lowest_price": 5.72,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-11-09",
+          5.72,
+          8.18,
+          30
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 5.72,
+      "new_price_eur": 2.92,
+      "old_price": 8.18,
+      "old_price_eur": 4.18,
+      "discount_pct": 30,
+      "valid_from": "2026-11-09",
+      "valid_until": "2026-11-15",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 5.72,
+          "price_eur": 2.92,
+          "old_price": 8.18,
+          "old_price_eur": 4.18,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 5.72,
+      "comparison_count": 1,
+      "product_id": "kaufland-osram-led-крушка",
+      "name": "OSRAM LED крушка",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4058075091023_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "vegetable",
+      "emoji": "🥦",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 57,
+        "p": 0.4,
+        "f": 0.1,
+        "c": 15
+      },
+      "avg_price": 5.72,
+      "lowest_price": 5.72,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-11-09",
+          5.72,
+          8.18,
+          30
+        ]
+      ],
+      "price_seen_count": 1,
       "price_signal": "buy"
     },
     {
@@ -62814,6 +63902,63 @@
     {
       "store": "Kaufland",
       "address": null,
+      "new_price": 0.31,
+      "new_price_eur": 0.16,
+      "old_price": 0.45,
+      "old_price_eur": 0.23,
+      "discount_pct": 31,
+      "valid_from": "2026-11-09",
+      "valid_until": "2026-11-15",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 0.31,
+          "price_eur": 0.16,
+          "old_price": 0.45,
+          "old_price_eur": 0.23,
+          "discount_pct": 31,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 0.31,
+      "comparison_count": 1,
+      "product_id": "kaufland-osram-led-лампа-go-green-е-14-2700k-или-4000к",
+      "name": "Osram LED Лампа Go Green Е 14, 2700K или 4000К",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20654619_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 0.31,
+      "lowest_price": 0.31,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-11-09",
+          0.31,
+          0.45,
+          31
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
       "new_price": 0.33,
       "new_price_eur": 0.17,
       "old_price": 0.45,
@@ -68700,6 +69845,63 @@
       "address": null,
       "new_price": 0.89,
       "new_price_eur": 0.46,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-11-09",
+      "valid_until": "2026-11-15",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 0.89,
+          "price_eur": 0.46,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 0.89,
+      "comparison_count": 1,
+      "product_id": "kaufland-osram-лампа-е27-матова",
+      "name": "Osram Лампа Е27, матова",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4099854046797_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 0.89,
+      "lowest_price": 0.89,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-11-09",
+          0.89,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 0.89,
+      "new_price_eur": 0.46,
       "old_price": 1.28,
       "old_price_eur": 0.65,
       "discount_pct": 30,
@@ -70608,6 +71810,63 @@
       "address": null,
       "new_price": 1.04,
       "new_price_eur": 0.53,
+      "old_price": 1.49,
+      "old_price_eur": 0.76,
+      "discount_pct": 30,
+      "valid_from": "2026-11-09",
+      "valid_until": "2026-11-15",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 1.04,
+          "price_eur": 0.53,
+          "old_price": 1.49,
+          "old_price_eur": 0.76,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 1.04,
+      "comparison_count": 1,
+      "product_id": "kaufland-osram-led-лампа-go-green-е-27-2700k",
+      "name": "Osram LED Лампа Go Green Е 27, 2700K",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20654636_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 1.04,
+      "lowest_price": 1.04,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-11-09",
+          1.04,
+          1.49,
+          30
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 1.04,
+      "new_price_eur": 0.53,
       "old_price": 1.39,
       "old_price_eur": 0.71,
       "discount_pct": 25,
@@ -70841,6 +72100,120 @@
       ],
       "price_seen_count": 2,
       "price_signal": "normal"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 1.07,
+      "new_price_eur": 0.55,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-11-09",
+      "valid_until": "2026-11-15",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 1.07,
+          "price_eur": 0.55,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 1.07,
+      "comparison_count": 1,
+      "product_id": "kaufland-osram-led-лампа-6-6-w",
+      "name": "Osram LED лампа 6,6 W",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4058075593824_BG_P?JGstbGVnYWN5LW9uc2l0ZS0xJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 1.07,
+      "lowest_price": 1.07,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-11-09",
+          1.07,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 1.07,
+      "new_price_eur": 0.55,
+      "old_price": 1.53,
+      "old_price_eur": 0.78,
+      "discount_pct": 30,
+      "valid_from": "2026-11-09",
+      "valid_until": "2026-11-15",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 1.07,
+          "price_eur": 0.55,
+          "old_price": 1.53,
+          "old_price_eur": 0.78,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 1.07,
+      "comparison_count": 1,
+      "product_id": "kaufland-osram-халогенна-лампа",
+      "name": "OSRAM Халогенна лампа",
+      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_00052005_P.jpg",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 1.07,
+      "lowest_price": 1.07,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-11-09",
+          1.07,
+          1.53,
+          30
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
     },
     {
       "store": "Kaufland",
@@ -74487,6 +75860,63 @@
       "address": null,
       "new_price": 1.39,
       "new_price_eur": 0.71,
+      "old_price": 1.99,
+      "old_price_eur": 1.02,
+      "discount_pct": 30,
+      "valid_from": "2026-11-09",
+      "valid_until": "2026-11-15",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 1.39,
+          "price_eur": 0.71,
+          "old_price": 1.99,
+          "old_price_eur": 1.02,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 1.39,
+      "comparison_count": 1,
+      "product_id": "kaufland-osram-led-лампа-fil-cla60-е27-840-lm",
+      "name": "OSRAM LED Лампа Fil CLA60 Е27, 840 lm",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4099854009976_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 1.39,
+      "lowest_price": 1.39,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-11-09",
+          1.39,
+          1.99,
+          30
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 1.39,
+      "new_price_eur": 0.71,
       "old_price": 2.04,
       "old_price_eur": 1.04,
       "discount_pct": 32,
@@ -75122,6 +76552,120 @@
         ]
       ],
       "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 1.43,
+      "new_price_eur": 0.73,
+      "old_price": 2.05,
+      "old_price_eur": 1.05,
+      "discount_pct": 30,
+      "valid_from": "2026-11-09",
+      "valid_until": "2026-11-15",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 1.43,
+          "price_eur": 0.73,
+          "old_price": 2.05,
+          "old_price_eur": 1.05,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 1.43,
+      "comparison_count": 1,
+      "product_id": "kaufland-osram-led-star-лампа-7w-e27",
+      "name": "Osram LED Star лампа 7W, E27",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00098750_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 1.43,
+      "lowest_price": 1.43,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-11-09",
+          1.43,
+          2.05,
+          30
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 1.43,
+      "new_price_eur": 0.73,
+      "old_price": 2.05,
+      "old_price_eur": 1.05,
+      "discount_pct": 30,
+      "valid_from": "2026-11-09",
+      "valid_until": "2026-11-15",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 1.43,
+          "price_eur": 0.73,
+          "old_price": 2.05,
+          "old_price_eur": 1.05,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 1.43,
+      "comparison_count": 1,
+      "product_id": "kaufland-osram-led-лампа-5-5-w",
+      "name": "OSRAM LED лампа 5,5 W",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4052899955509_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 1.43,
+      "lowest_price": 1.43,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-11-09",
+          1.43,
+          2.05,
+          30
+        ]
+      ],
+      "price_seen_count": 1,
       "price_signal": "buy"
     },
     {
@@ -78355,6 +79899,75 @@
       "address": null,
       "new_price": 1.71,
       "new_price_eur": 0.87,
+      "old_price": 2.45,
+      "old_price_eur": 1.25,
+      "discount_pct": 30,
+      "valid_from": "2026-11-09",
+      "valid_until": "2026-11-15",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 1.71,
+          "price_eur": 0.87,
+          "old_price": 2.45,
+          "old_price_eur": 1.25,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 1.71,
+      "comparison_count": 1,
+      "product_id": "kaufland-osram-led-value-лампа-е27",
+      "name": "Osram LED VALUE лампа Е27",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00052570?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 2.03,
+      "lowest_price": 1.48,
+      "lowest_price_date": "2026-09-07",
+      "price_history": [
+        [
+          "2026-07-06",
+          2.89,
+          4.79,
+          40
+        ],
+        [
+          "2026-09-07",
+          1.48,
+          2.45,
+          40
+        ],
+        [
+          "2026-11-09",
+          1.71,
+          2.45,
+          30
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "good"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 1.71,
+      "new_price_eur": 0.87,
       "old_price": 2.28,
       "old_price_eur": 1.17,
       "discount_pct": 25,
@@ -78959,6 +80572,177 @@
       ],
       "price_seen_count": 2,
       "price_signal": "normal"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 1.78,
+      "new_price_eur": 0.91,
+      "old_price": 2.55,
+      "old_price_eur": 1.3,
+      "discount_pct": 30,
+      "valid_from": "2026-11-09",
+      "valid_until": "2026-11-15",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 1.78,
+          "price_eur": 0.91,
+          "old_price": 2.55,
+          "old_price_eur": 1.3,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 1.78,
+      "comparison_count": 1,
+      "product_id": "kaufland-osram-led-лампа-par1650-gu10-3000к-4-5-w",
+      "name": "Osram LED Лампа PAR1650 GU10, 3000К, 4,5 W",
+      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_00108790_P.jpg",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 1.78,
+      "lowest_price": 1.78,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-11-09",
+          1.78,
+          2.55,
+          30
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 1.78,
+      "new_price_eur": 0.91,
+      "old_price": 2.55,
+      "old_price_eur": 1.3,
+      "discount_pct": 30,
+      "valid_from": "2026-11-09",
+      "valid_until": "2026-11-15",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 1.78,
+          "price_eur": 0.91,
+          "old_price": 2.55,
+          "old_price_eur": 1.3,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 1.78,
+      "comparison_count": 1,
+      "product_id": "kaufland-osram-led-star-лампа-4-9-w",
+      "name": "Osram LED Star лампа 4,9 W",
+      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_00082325_P.jpg",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 1.78,
+      "lowest_price": 1.78,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-11-09",
+          1.78,
+          2.55,
+          30
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 1.78,
+      "new_price_eur": 0.91,
+      "old_price": 2.55,
+      "old_price_eur": 1.3,
+      "discount_pct": 30,
+      "valid_from": "2026-11-09",
+      "valid_until": "2026-11-15",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 1.78,
+          "price_eur": 0.91,
+          "old_price": 2.55,
+          "old_price_eur": 1.3,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 1.78,
+      "comparison_count": 1,
+      "product_id": "kaufland-osram-led-star-лампа-e14",
+      "name": "Osram LED Star лампа E14",
+      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_00082169_P.jpg",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 1.78,
+      "lowest_price": 1.78,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-11-09",
+          1.78,
+          2.55,
+          30
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
     },
     {
       "store": "Kaufland",
@@ -79876,6 +81660,177 @@
         ]
       ],
       "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 1.96,
+      "new_price_eur": 1.0,
+      "old_price": 2.81,
+      "old_price_eur": 1.44,
+      "discount_pct": 30,
+      "valid_from": "2026-11-09",
+      "valid_until": "2026-11-15",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 1.96,
+          "price_eur": 1.0,
+          "old_price": 2.81,
+          "old_price_eur": 1.44,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 1.96,
+      "comparison_count": 1,
+      "product_id": "kaufland-osram-led-лампа-350-lm",
+      "name": "OSRAM LED Лампа 350 lm",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20272675_4058075766396?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 1.96,
+      "lowest_price": 1.96,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-11-09",
+          1.96,
+          2.81,
+          30
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 1.96,
+      "new_price_eur": 1.0,
+      "old_price": 2.81,
+      "old_price_eur": 1.44,
+      "discount_pct": 30,
+      "valid_from": "2026-11-09",
+      "valid_until": "2026-11-15",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 1.96,
+          "price_eur": 1.0,
+          "old_price": 2.81,
+          "old_price_eur": 1.44,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 1.96,
+      "comparison_count": 1,
+      "product_id": "kaufland-osram-led-star-лампа-8-w",
+      "name": "Osram LED Star лампа 8 W",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4058075127357_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 1.96,
+      "lowest_price": 1.96,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-11-09",
+          1.96,
+          2.81,
+          30
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 1.96,
+      "new_price_eur": 1.0,
+      "old_price": 2.81,
+      "old_price_eur": 1.44,
+      "discount_pct": 30,
+      "valid_from": "2026-11-09",
+      "valid_until": "2026-11-15",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 1.96,
+          "price_eur": 1.0,
+          "old_price": 2.81,
+          "old_price_eur": 1.44,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 1.96,
+      "comparison_count": 1,
+      "product_id": "kaufland-osram-led-star-лампа",
+      "name": "Osram LED Star лампа",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00082212_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 1.96,
+      "lowest_price": 1.96,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-11-09",
+          1.96,
+          2.81,
+          30
+        ]
+      ],
+      "price_seen_count": 1,
       "price_signal": "buy"
     },
     {
@@ -82627,6 +84582,234 @@
     {
       "store": "Kaufland",
       "address": null,
+      "new_price": 2.14,
+      "new_price_eur": 1.09,
+      "old_price": 3.06,
+      "old_price_eur": 1.56,
+      "discount_pct": 30,
+      "valid_from": "2026-11-09",
+      "valid_until": "2026-11-15",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 2.14,
+          "price_eur": 1.09,
+          "old_price": 3.06,
+          "old_price_eur": 1.56,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 2.14,
+      "comparison_count": 1,
+      "product_id": "kaufland-osram-енергоспестяваща-лампа-стик-20-w",
+      "name": "Osram Енергоспестяваща лампа стик 20 W",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4008321363855_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 2.14,
+      "lowest_price": 2.14,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-11-09",
+          2.14,
+          3.06,
+          30
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 2.14,
+      "new_price_eur": 1.09,
+      "old_price": 3.07,
+      "old_price_eur": 1.57,
+      "discount_pct": 30,
+      "valid_from": "2026-11-09",
+      "valid_until": "2026-11-15",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 2.14,
+          "price_eur": 1.09,
+          "old_price": 3.07,
+          "old_price_eur": 1.57,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 2.14,
+      "comparison_count": 1,
+      "product_id": "kaufland-osram-led-лампа",
+      "name": "Osram LED лампа",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4058075045736_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 2.14,
+      "lowest_price": 2.14,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-11-09",
+          2.14,
+          3.07,
+          30
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 2.14,
+      "new_price_eur": 1.09,
+      "old_price": 3.06,
+      "old_price_eur": 1.56,
+      "discount_pct": 30,
+      "valid_from": "2026-11-09",
+      "valid_until": "2026-11-15",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 2.14,
+          "price_eur": 1.09,
+          "old_price": 3.06,
+          "old_price_eur": 1.56,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 2.14,
+      "comparison_count": 1,
+      "product_id": "kaufland-osram-led-star-лампа-10-w",
+      "name": "Osram LED Star лампа 10 W",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4058075122529_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 2.14,
+      "lowest_price": 2.14,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-11-09",
+          2.14,
+          3.06,
+          30
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 2.14,
+      "new_price_eur": 1.09,
+      "old_price": 3.06,
+      "old_price_eur": 1.56,
+      "discount_pct": 30,
+      "valid_from": "2026-11-09",
+      "valid_until": "2026-11-15",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 2.14,
+          "price_eur": 1.09,
+          "old_price": 3.06,
+          "old_price_eur": 1.56,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 2.14,
+      "comparison_count": 1,
+      "product_id": "kaufland-osram-енергоспестяваща-спирала",
+      "name": "OSRAM Енергоспестяваща спирала",
+      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_00025245_P.jpg",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 2.14,
+      "lowest_price": 2.14,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-11-09",
+          2.14,
+          3.06,
+          30
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
       "new_price": 2.15,
       "new_price_eur": 1.1,
       "old_price": 2.55,
@@ -84735,6 +86918,75 @@
         ]
       ],
       "price_seen_count": 6,
+      "price_signal": "good"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 2.42,
+      "new_price_eur": 1.24,
+      "old_price": 3.47,
+      "old_price_eur": 1.77,
+      "discount_pct": 30,
+      "valid_from": "2026-11-09",
+      "valid_until": "2026-11-15",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 2.42,
+          "price_eur": 1.24,
+          "old_price": 3.47,
+          "old_price_eur": 1.77,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 2.42,
+      "comparison_count": 1,
+      "product_id": "kaufland-osram-led-value-лампа-e27",
+      "name": "Osram LED VALUE лампа E27",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00060472?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 2.82,
+      "lowest_price": 2.04,
+      "lowest_price_date": "2026-09-07",
+      "price_history": [
+        [
+          "2026-07-06",
+          3.99,
+          6.79,
+          41
+        ],
+        [
+          "2026-09-07",
+          2.04,
+          3.47,
+          41
+        ],
+        [
+          "2026-11-09",
+          2.42,
+          3.47,
+          30
+        ]
+      ],
+      "price_seen_count": 3,
       "price_signal": "good"
     },
     {
@@ -87511,6 +89763,120 @@
       "best_price_store": "Kaufland",
       "best_price": 2.86,
       "comparison_count": 1,
+      "product_id": "kaufland-osram-халогенна-лампа-g-9-48-w-2-бр",
+      "name": "Osram Халогенна лампа G 9, 48 W, 2 бр.",
+      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_00082226_P.jpg",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 2.86,
+      "lowest_price": 2.86,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-11-09",
+          2.86,
+          4.09,
+          30
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 2.86,
+      "new_price_eur": 1.46,
+      "old_price": 4.09,
+      "old_price_eur": 2.09,
+      "discount_pct": 30,
+      "valid_from": "2026-11-09",
+      "valid_until": "2026-11-15",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 2.86,
+          "price_eur": 1.46,
+          "old_price": 4.09,
+          "old_price_eur": 2.09,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 2.86,
+      "comparison_count": 1,
+      "product_id": "kaufland-osram-халогенна-лампа-g-9-33-w-2-бр",
+      "name": "Osram Халогенна лампа G 9, 33 W, 2 бр.",
+      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_00082223_P.jpg",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 2.86,
+      "lowest_price": 2.86,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-11-09",
+          2.86,
+          4.09,
+          30
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 2.86,
+      "new_price_eur": 1.46,
+      "old_price": 4.09,
+      "old_price_eur": 2.09,
+      "discount_pct": 30,
+      "valid_from": "2026-11-09",
+      "valid_until": "2026-11-15",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 2.86,
+          "price_eur": 1.46,
+          "old_price": 4.09,
+          "old_price_eur": 2.09,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 2.86,
+      "comparison_count": 1,
       "product_id": "kaufland-wilkinson-инструмент-за-вежди-intuition",
       "name": "Wilkinson Инструмент за вежди Intuition",
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4027800081158_BG_P?JGstbGVnYWN5LW9uc2l0ZS0xJA==",
@@ -89345,6 +91711,63 @@
       "price_seen_count": 3,
       "price_signal": "wait",
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00108162_P?JGstbGVnYWN5LW9uc2l0ZS0xJA=="
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 3.22,
+      "new_price_eur": 1.65,
+      "old_price": 4.6,
+      "old_price_eur": 2.35,
+      "discount_pct": 30,
+      "valid_from": "2026-11-09",
+      "valid_until": "2026-11-15",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 3.22,
+          "price_eur": 1.65,
+          "old_price": 4.6,
+          "old_price_eur": 2.35,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 3.22,
+      "comparison_count": 1,
+      "product_id": "kaufland-osram-led-sstar-лампа-5-3-w-e14",
+      "name": "Osram LED SStar лампа 5,3 W, E14",
+      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_00082330_P.jpg",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 3.22,
+      "lowest_price": 3.22,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-11-09",
+          3.22,
+          4.6,
+          30
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
     },
     {
       "store": "T-Market",
@@ -91889,6 +94312,63 @@
       "address": null,
       "new_price": 3.57,
       "new_price_eur": 1.83,
+      "old_price": 5.11,
+      "old_price_eur": 2.61,
+      "discount_pct": 30,
+      "valid_from": "2026-11-09",
+      "valid_until": "2026-11-15",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 3.57,
+          "price_eur": 1.83,
+          "old_price": 5.11,
+          "old_price_eur": 2.61,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 3.57,
+      "comparison_count": 1,
+      "product_id": "kaufland-osram-led-star-лампа-13-w",
+      "name": "Osram LED Star лампа 13 W",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4058075127029_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 3.57,
+      "lowest_price": 3.57,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-11-09",
+          3.57,
+          5.11,
+          30
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 3.57,
+      "new_price_eur": 1.83,
       "old_price": 7.14,
       "old_price_eur": 3.65,
       "discount_pct": 50,
@@ -93889,6 +96369,63 @@
         ]
       ],
       "price_seen_count": 3,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 3.93,
+      "new_price_eur": 2.01,
+      "old_price": 5.62,
+      "old_price_eur": 2.87,
+      "discount_pct": 30,
+      "valid_from": "2026-11-09",
+      "valid_until": "2026-11-15",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 3.93,
+          "price_eur": 2.01,
+          "old_price": 5.62,
+          "old_price_eur": 2.87,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 3.93,
+      "comparison_count": 1,
+      "product_id": "kaufland-osram-led-star-лампа-e27-2700к",
+      "name": "Osram LED Star лампа E27, 2700К",
+      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_00082303_P.jpg",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 3.93,
+      "lowest_price": 3.93,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-11-09",
+          3.93,
+          5.62,
+          30
+        ]
+      ],
+      "price_seen_count": 1,
       "price_signal": "buy"
     },
     {
@@ -96262,6 +98799,63 @@
       "best_price_store": "Kaufland",
       "best_price": 4.29,
       "comparison_count": 1,
+      "product_id": "kaufland-osram-led-star-лампа-e27-2700k",
+      "name": "Osram LED Star лампа E27, 2700K",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4058075132832_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 4.29,
+      "lowest_price": 4.29,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-11-09",
+          4.29,
+          6.13,
+          30
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 4.29,
+      "new_price_eur": 2.19,
+      "old_price": 6.13,
+      "old_price_eur": 3.13,
+      "discount_pct": 30,
+      "valid_from": "2026-11-09",
+      "valid_until": "2026-11-15",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 4.29,
+          "price_eur": 2.19,
+          "old_price": 6.13,
+          "old_price_eur": 3.13,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 4.29,
+      "comparison_count": 1,
       "product_id": "kaufland-colgate-четка-за-зъби-slim-soft-charcoal",
       "name": "Colgate Четка за зъби Slim Soft Charcoal",
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8714789940557_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
@@ -97037,6 +99631,63 @@
       "image": "https://tmarketonline.bg/cdn/img/products/46690/toceni-kori-familia-2h400gr-image_605220251dedd.jpeg?width=600&height=600&v=1777589936"
     },
     {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 4.55,
+      "new_price_eur": 2.33,
+      "old_price": 6.5,
+      "old_price_eur": 3.32,
+      "discount_pct": 30,
+      "valid_from": "2026-11-09",
+      "valid_until": "2026-11-15",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 4.55,
+          "price_eur": 2.33,
+          "old_price": 6.5,
+          "old_price_eur": 3.32,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 4.55,
+      "comparison_count": 1,
+      "product_id": "kaufland-osram-led-star-лампа-e27-7-5-w",
+      "name": "Osram LED Star лампа E27, 7,5 W",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00082388_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 4.55,
+      "lowest_price": 4.55,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-11-09",
+          4.55,
+          6.5,
+          30
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
       "store": "T-Market",
       "address": null,
       "new_price": 4.56,
@@ -97535,6 +100186,63 @@
           4.59,
           9.2,
           50
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 4.64,
+      "new_price_eur": 2.37,
+      "old_price": 6.64,
+      "old_price_eur": 3.39,
+      "discount_pct": 30,
+      "valid_from": "2026-11-09",
+      "valid_until": "2026-11-15",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 4.64,
+          "price_eur": 2.37,
+          "old_price": 6.64,
+          "old_price_eur": 3.39,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 4.64,
+      "comparison_count": 1,
+      "product_id": "kaufland-osram-led-star-лампа-e27-9-w",
+      "name": "Osram LED Star лампа E27, 9 W",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00082314_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 4.64,
+      "lowest_price": 4.64,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-11-09",
+          4.64,
+          6.64,
+          30
         ]
       ],
       "price_seen_count": 1,
@@ -99297,6 +102005,63 @@
       ],
       "price_seen_count": 5,
       "price_signal": "good"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 5.36,
+      "new_price_eur": 2.74,
+      "old_price": 7.66,
+      "old_price_eur": 3.92,
+      "discount_pct": 30,
+      "valid_from": "2026-11-09",
+      "valid_until": "2026-11-15",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 5.36,
+          "price_eur": 2.74,
+          "old_price": 7.66,
+          "old_price_eur": 3.92,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 5.36,
+      "comparison_count": 1,
+      "product_id": "kaufland-osram-led-star-лампа-e27-2700k-1521-lm-11-w",
+      "name": "Osram LED Star лампа E27, 2700K, 1521 Lm, 11 W",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4058075124707_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 5.36,
+      "lowest_price": 5.36,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-11-09",
+          5.36,
+          7.66,
+          30
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
     },
     {
       "store": "Kaufland",
@@ -104781,6 +107546,63 @@
       "best_price_store": "Kaufland",
       "best_price": 7.15,
       "comparison_count": 1,
+      "product_id": "kaufland-osram-led-осветление-за-контакт-със-сензор",
+      "name": "Osram LED осветление за контакт със сензор",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00082298_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 7.15,
+      "lowest_price": 7.15,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-11-09",
+          7.15,
+          10.22,
+          30
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 7.15,
+      "new_price_eur": 3.66,
+      "old_price": 10.22,
+      "old_price_eur": 5.23,
+      "discount_pct": 30,
+      "valid_from": "2026-11-09",
+      "valid_until": "2026-11-15",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 7.15,
+          "price_eur": 3.66,
+          "old_price": 10.22,
+          "old_price_eur": 5.23,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 7.15,
+      "comparison_count": 1,
       "product_id": "kaufland-wilkinson-самобръсначка-intuition-complete",
       "name": "Wilkinson Самобръсначка Intuition Complete",
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4027800656103_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
@@ -107036,82 +109858,11 @@
       "best_price_store": "Kaufland",
       "best_price": 7.99,
       "comparison_count": 1,
-      "product_id": "kaufland-stallion-selection-червено-бяло-вино-или-розе-различни-сортове-750g",
-      "weight_grams": 750,
-      "weight_raw": "0,75 л",
-      "name": "Stallion Selection Червено, Бяло вино или Розе различни сортове",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20865876?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "drinks",
-      "emoji": "🍺",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 12.87,
-      "lowest_price": 7.99,
-      "lowest_price_date": "2026-11-10",
-      "price_history": [
-        [
-          "2026-05-18",
-          14.98,
-          20.99,
-          29
-        ],
-        [
-          "2026-06-08",
-          15.63,
-          20.59,
-          24
-        ],
-        [
-          "2026-11-10",
-          7.99,
-          10.19,
-          22
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 7.99,
-      "new_price_eur": 4.09,
-      "old_price": 10.19,
-      "old_price_eur": 5.21,
-      "discount_pct": 22,
-      "valid_from": "2026-11-09",
-      "valid_until": "2026-11-15",
-      "price_per_kg": 10.65,
-      "price_per_kg_eur": 5.45,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 7.99,
-          "price_eur": 4.09,
-          "old_price": 10.19,
-          "old_price_eur": 5.21,
-          "discount_pct": 22,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 7.99,
-      "comparison_count": 1,
       "product_id": "kaufland-stallion-selection-червено-или-бяло-вино-различни-сортове-750g",
       "weight_grams": 750,
       "weight_raw": "0,75 л",
       "name": "Stallion Selection Червено или Бяло вино различни сортове",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20754569_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20754565_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "is_food": false,
