@@ -1,5 +1,5 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-11-10T00:33:01.662267Z",
+  "generated_at": "2026-11-10T12:25:00.849110Z",
   "store_last_scraped": {
     "Billa": "2026-11-06",
     "Dar": "2026-11-06",
@@ -9,10 +9,10 @@ const OFFERS_DATA = {
     "T-Market": "2026-11-10"
   },
   "unavailable_stores": [],
-  "content_hash": "6d816a62ec3067436820e7e47e8e375c",
-  "total_offers": 4275,
-  "promo_offers": 1610,
-  "assortment_offers": 2665,
+  "content_hash": "a9f4a703c810d452c23da74b93e64f28",
+  "total_offers": 4283,
+  "promo_offers": 1590,
+  "assortment_offers": 2693,
   "stores": [
     "Billa",
     "Dar",
@@ -4715,6 +4715,78 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 2.17,
+      "new_price_eur": 1.11,
+      "old_price": 2.89,
+      "old_price_eur": 1.48,
+      "discount_pct": 25,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 54.25,
+      "price_per_kg_eur": 27.74,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 2.17,
+          "price_eur": 1.11,
+          "old_price": 2.89,
+          "old_price_eur": 1.48,
+          "discount_pct": 25,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 2.17,
+      "comparison_count": 1,
+      "product_id": "tmarket-чаи-биопрограма-малина-шипка-40гр-40g",
+      "weight_grams": 40,
+      "weight_raw": "40гр",
+      "name": "Чай БИОПРОГРАМА малина,шипка 40гр",
+      "image": "https://tmarketonline.bg/cdn/img/products/49811/caj-bioprograma-malinasipka-40-gr-639328f22a37d.jpeg?width=1920&height=1920&v=1777589964",
+      "category": "vegetable",
+      "emoji": "🥦",
+      "health_score": 9,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 52,
+        "p": 1.2,
+        "f": 0.7,
+        "c": 12
+      },
+      "avg_price": 2.53,
+      "lowest_price": 2.17,
+      "lowest_price_date": "2026-11-10",
+      "price_history": [
+        [
+          "2026-05-16",
+          2.89,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          2.17,
+          2.89,
+          25
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
       "store": "Kaufland",
       "address": null,
       "new_price": 2.18,
@@ -6193,72 +6265,6 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 2.89,
-      "new_price_eur": 1.48,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 72.25,
-      "price_per_kg_eur": 36.94,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 2.89,
-          "price_eur": 1.48,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 2.89,
-      "comparison_count": 1,
-      "product_id": "tmarket-чаи-биопрограма-малина-шипка-40гр-40g",
-      "weight_grams": 40,
-      "weight_raw": "40гр",
-      "name": "Чай БИОПРОГРАМА малина,шипка 40гр",
-      "image": "https://tmarketonline.bg/cdn/img/products/49811/caj-bioprograma-malinasipka-40-gr-639328f22a37d.jpeg?width=1920&height=1920&v=1777589964",
-      "category": "vegetable",
-      "emoji": "🥦",
-      "health_score": 9,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "macros": {
-        "kcal": 52,
-        "p": 1.2,
-        "f": 0.7,
-        "c": 12
-      },
-      "avg_price": 2.89,
-      "lowest_price": 2.89,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          2.89,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
       "new_price": 2.95,
       "new_price_eur": 1.51,
       "old_price": null,
@@ -7609,6 +7615,82 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
+      "new_price": 4.22,
+      "new_price_eur": 2.16,
+      "old_price": 5.28,
+      "old_price_eur": 2.7,
+      "discount_pct": 20,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-30",
+      "price_per_kg": 19.18,
+      "price_per_kg_eur": 9.81,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 4.22,
+          "price_eur": 2.16,
+          "old_price": 5.28,
+          "old_price_eur": 2.7,
+          "discount_pct": 20,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 4.22,
+      "comparison_count": 1,
+      "product_id": "tmarket-пюре-hipp-bio-домат-картоф-пилешко-220г-220g",
+      "weight_grams": 220,
+      "weight_raw": "220г",
+      "name": "Пюре HIPP Bio домат/картоф/пилешко 220г",
+      "image": "https://tmarketonline.bg/cdn/img/products/51913/pure-hipp-bio-domatkartofpilesko-220-gr-image_64acfeaad0b26.jpeg?width=1920&height=1920&v=1777589981",
+      "category": "protein",
+      "emoji": "🍗",
+      "health_score": 9,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": true,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "high_protein",
+        "vegetarian"
+      ],
+      "macros": {
+        "kcal": 165,
+        "p": 31,
+        "f": 3.6,
+        "c": 0
+      },
+      "avg_price": 4.75,
+      "lowest_price": 4.22,
+      "lowest_price_date": "2026-11-10",
+      "price_history": [
+        [
+          "2026-05-16",
+          5.28,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          4.22,
+          5.28,
+          20
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
       "new_price": 4.46,
       "new_price_eur": 2.28,
       "old_price": null,
@@ -8200,38 +8282,36 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 5.28,
-      "new_price_eur": 2.7,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 24.0,
-      "price_per_kg_eur": 12.27,
-      "source_type": "assortment",
+      "new_price": 5.46,
+      "new_price_eur": 2.79,
+      "old_price": 6.98,
+      "old_price_eur": 3.57,
+      "discount_pct": 22,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 5.46,
+      "price_per_kg_eur": 2.79,
+      "source_type": "promo",
       "available_stores": [
         "T-Market"
       ],
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 5.28,
-          "price_eur": 2.7,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
+          "price": 5.46,
+          "price_eur": 2.79,
+          "old_price": 6.98,
+          "old_price_eur": 3.57,
+          "discount_pct": 22,
+          "source_type": "promo"
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 5.28,
+      "best_price": 5.46,
       "comparison_count": 1,
-      "product_id": "tmarket-пюре-hipp-bio-домат-картоф-пилешко-220г-220g",
-      "weight_grams": 220,
-      "weight_raw": "220г",
-      "name": "Пюре HIPP Bio домат/картоф/пилешко 220г",
-      "image": "https://tmarketonline.bg/cdn/img/products/51913/pure-hipp-bio-domatkartofpilesko-220-gr-image_64acfeaad0b26.jpeg?width=1920&height=1920&v=1777589981",
+      "product_id": "tmarket-пиле-месни-изкушения-тар-кг",
+      "name": "Пиле МЕСНИ ИЗКУШЕНИЯ, тар.,кг",
+      "image": "https://tmarketonline.bg/cdn/img/products/55733/pile-mesni-izkusenia-calo-ohladeno-kg-68573b2c227c4.jpeg?width=600&height=600&v=1777590020",
       "category": "protein",
       "emoji": "🍗",
       "health_score": 9,
@@ -8245,7 +8325,8 @@ const OFFERS_DATA = {
       "is_long_lasting": false,
       "diet_tags": [
         "high_protein",
-        "vegetarian"
+        "keto",
+        "budget"
       ],
       "macros": {
         "kcal": 165,
@@ -8253,18 +8334,24 @@ const OFFERS_DATA = {
         "f": 3.6,
         "c": 0
       },
-      "avg_price": 5.28,
-      "lowest_price": 5.28,
-      "lowest_price_date": "2026-05-16",
+      "avg_price": 6.22,
+      "lowest_price": 5.46,
+      "lowest_price_date": "2026-11-10",
       "price_history": [
         [
           "2026-05-16",
-          5.28,
+          6.98,
           null,
           null
+        ],
+        [
+          "2026-11-10",
+          5.46,
+          6.98,
+          22
         ]
       ],
-      "price_seen_count": 1,
+      "price_seen_count": 2,
       "price_signal": "buy"
     },
     {
@@ -8756,75 +8843,6 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 6.98,
-      "new_price_eur": 3.57,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 6.98,
-      "price_per_kg_eur": 3.57,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 6.98,
-          "price_eur": 3.57,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 6.98,
-      "comparison_count": 1,
-      "product_id": "tmarket-пиле-месни-изкушения-тар-кг",
-      "name": "Пиле МЕСНИ ИЗКУШЕНИЯ, тар.,кг",
-      "image": "https://tmarketonline.bg/cdn/img/products/55733/pile-mesni-izkusenia-calo-ohladeno-kg-68573b2c227c4.jpeg?width=600&height=600&v=1777590020",
-      "category": "protein",
-      "emoji": "🍗",
-      "health_score": 9,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": true,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "diet_tags": [
-        "high_protein",
-        "keto",
-        "budget"
-      ],
-      "macros": {
-        "kcal": 165,
-        "p": 31,
-        "f": 3.6,
-        "c": 0
-      },
-      "avg_price": 6.98,
-      "lowest_price": 6.98,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          6.98,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 7.49,
@@ -9190,15 +9208,15 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 11.13,
-      "new_price_eur": 5.69,
-      "old_price": 13.59,
-      "old_price_eur": 6.95,
-      "discount_pct": 18,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 11.13,
-      "price_per_kg_eur": 5.69,
+      "new_price": 11.72,
+      "new_price_eur": 5.99,
+      "old_price": 12.28,
+      "old_price_eur": 6.28,
+      "discount_pct": 5,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
       "source_type": "promo",
       "available_stores": [
         "T-Market"
@@ -9206,54 +9224,62 @@ const OFFERS_DATA = {
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 11.13,
-          "price_eur": 5.69,
-          "old_price": 13.59,
-          "old_price_eur": 6.95,
-          "discount_pct": 18,
+          "price": 11.72,
+          "price_eur": 5.99,
+          "old_price": 12.28,
+          "old_price_eur": 6.28,
+          "discount_pct": 5,
           "source_type": "promo"
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 11.13,
+      "best_price": 11.72,
       "comparison_count": 1,
-      "product_id": "tmarket-пилешко-филе-нас-кг",
-      "name": "Пилешко филе нас.кг",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/256_2020925272_1_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "protein",
-      "emoji": "🍗",
+      "product_id": "tmarket-св-врат-с-кост-биляна-мес-наряз-мап",
+      "name": "Св.врат с кост Биляна мес наряз.МАП",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20179878_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "vegetable",
+      "emoji": "🥦",
       "health_score": 9,
       "is_food": true,
       "is_junk": false,
       "is_healthy": true,
-      "is_high_protein": true,
+      "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
-      "diet_tags": [
-        "high_protein",
-        "keto"
-      ],
       "macros": {
-        "kcal": 165,
-        "p": 31,
-        "f": 3.6,
-        "c": 0
+        "kcal": 83,
+        "p": 1.7,
+        "f": 1.2,
+        "c": 19
       },
-      "avg_price": 11.13,
+      "avg_price": 11.71,
       "lowest_price": 11.13,
-      "lowest_price_date": "2026-05-16",
+      "lowest_price_date": "2026-10-22",
       "price_history": [
         [
-          "2026-05-16",
+          "2026-10-22",
           11.13,
-          13.59,
-          18
+          12.28,
+          9
+        ],
+        [
+          "2026-11-09",
+          12.28,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          11.72,
+          12.28,
+          5
         ]
       ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
+      "price_seen_count": 3,
+      "price_signal": "normal"
     },
     {
       "store": "Kaufland",
@@ -9340,76 +9366,6 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 12.28,
-      "new_price_eur": 6.28,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 12.28,
-          "price_eur": 6.28,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 12.28,
-      "comparison_count": 1,
-      "product_id": "tmarket-св-врат-с-кост-биляна-мес-наряз-мап",
-      "name": "Св.врат с кост Биляна мес наряз.МАП",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20179878_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "vegetable",
-      "emoji": "🥦",
-      "health_score": 9,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "macros": {
-        "kcal": 83,
-        "p": 1.7,
-        "f": 1.2,
-        "c": 19
-      },
-      "avg_price": 11.71,
-      "lowest_price": 11.13,
-      "lowest_price_date": "2026-10-22",
-      "price_history": [
-        [
-          "2026-10-22",
-          11.13,
-          12.28,
-          9
-        ],
-        [
-          "2026-11-09",
-          12.28,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "normal"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
       "new_price": 12.99,
       "new_price_eur": 6.64,
       "old_price": null,
@@ -9486,6 +9442,80 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 3,
       "price_signal": "normal"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 13.59,
+      "new_price_eur": 6.95,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 13.59,
+      "price_per_kg_eur": 6.95,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 13.59,
+          "price_eur": 6.95,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 13.59,
+      "comparison_count": 1,
+      "product_id": "tmarket-пилешко-филе-нас-кг",
+      "name": "Пилешко филе нас.кг",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/256_2020925272_1_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "protein",
+      "emoji": "🍗",
+      "health_score": 9,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": true,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "high_protein",
+        "keto"
+      ],
+      "macros": {
+        "kcal": 165,
+        "p": 31,
+        "f": 3.6,
+        "c": 0
+      },
+      "avg_price": 12.36,
+      "lowest_price": 11.13,
+      "lowest_price_date": "2026-05-16",
+      "price_history": [
+        [
+          "2026-05-16",
+          11.13,
+          13.59,
+          18
+        ],
+        [
+          "2026-11-10",
+          13.59,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "wait"
     },
     {
       "store": "Kaufland",
@@ -9693,32 +9723,32 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 0.68,
-      "new_price_eur": 0.35,
-      "old_price": 0.9,
-      "old_price_eur": 0.46,
-      "discount_pct": 24,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 11.33,
-      "price_per_kg_eur": 5.79,
-      "source_type": "promo",
+      "new_price": 0.9,
+      "new_price_eur": 0.46,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 15.0,
+      "price_per_kg_eur": 7.67,
+      "source_type": "assortment",
       "available_stores": [
         "T-Market"
       ],
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 0.68,
-          "price_eur": 0.35,
-          "old_price": 0.9,
-          "old_price_eur": 0.46,
-          "discount_pct": 24,
-          "source_type": "promo"
+          "price": 0.9,
+          "price_eur": 0.46,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 0.68,
+      "best_price": 0.9,
       "comparison_count": 1,
       "product_id": "tmarket-кроасан-well-done-ван-череша-60г-60g",
       "weight_grams": 60,
@@ -9742,7 +9772,7 @@ const OFFERS_DATA = {
         "f": 0.3,
         "c": 16
       },
-      "avg_price": 0.79,
+      "avg_price": 0.83,
       "lowest_price": 0.68,
       "lowest_price_date": "2026-11-09",
       "price_history": [
@@ -9757,10 +9787,16 @@ const OFFERS_DATA = {
           0.68,
           0.9,
           24
+        ],
+        [
+          "2026-11-10",
+          0.9,
+          null,
+          null
         ]
       ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
+      "price_seen_count": 3,
+      "price_signal": "wait"
     },
     {
       "store": "Kaufland",
@@ -10856,15 +10892,90 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 3.6,
-      "new_price_eur": 1.84,
+      "new_price": 3.19,
+      "new_price_eur": 1.63,
+      "old_price": 3.99,
+      "old_price_eur": 2.04,
+      "discount_pct": 20,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-30",
+      "price_per_kg": 16.79,
+      "price_per_kg_eur": 8.58,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 3.19,
+          "price_eur": 1.63,
+          "old_price": 3.99,
+          "old_price_eur": 2.04,
+          "discount_pct": 20,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 3.19,
+      "comparison_count": 1,
+      "product_id": "tmarket-пюре-hipp-bio-тиква-ябълка-пуешко-190гр-190g",
+      "weight_grams": 190,
+      "weight_raw": "190гр",
+      "name": "Пюре HIPP Bio тиква/ябълка/пуешко 190гр",
+      "image": "https://tmarketonline.bg/cdn/img/products/45176/pure-hipp-bio-tikva-kartofi-puesko-190-g-image_5f4d04ffb1903.png?width=1920&height=1920&v=1777589922",
+      "category": "protein",
+      "emoji": "🍗",
+      "health_score": 8,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "high_protein"
+      ],
+      "macros": {
+        "kcal": 189,
+        "p": 29,
+        "f": 7,
+        "c": 0
+      },
+      "avg_price": 3.59,
+      "lowest_price": 3.19,
+      "lowest_price_date": "2026-11-10",
+      "price_history": [
+        [
+          "2026-05-16",
+          3.99,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          3.19,
+          3.99,
+          20
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 3.19,
+      "new_price_eur": 1.63,
       "old_price": null,
       "old_price_eur": null,
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": 7.2,
-      "price_per_kg_eur": 3.68,
+      "price_per_kg": 12.76,
+      "price_per_kg_eur": 6.52,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -10872,8 +10983,8 @@ const OFFERS_DATA = {
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 3.6,
-          "price_eur": 1.84,
+          "price": 3.19,
+          "price_eur": 1.63,
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
@@ -10881,43 +10992,40 @@ const OFFERS_DATA = {
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 3.6,
+      "best_price": 3.19,
       "comparison_count": 1,
-      "product_id": "tmarket-извара-мое-твое-наше-500г-500g",
-      "weight_grams": 500,
-      "weight_raw": "500г",
-      "name": "Извара МОЕ ТВОЕ НАШЕ 500г",
-      "image": "https://tmarketonline.bg/cdn/img/products/54694/izvara-moe-tvoe-nase-500-g-66959f303cf87.jpeg?width=600&height=600&v=1777590007",
-      "category": "dairy",
-      "emoji": "🥛",
+      "product_id": "tmarket-био-пюре-bebivita-злнч-ориз-телешко-250г-250g",
+      "weight_grams": 250,
+      "weight_raw": "250г",
+      "name": "Био пюре BEBIVITA злнч,ориз,телешко 250г",
+      "image": "https://api.bulmag.org/thumbnails/5f70e4c7295cd25195af3baf41f3dcb1.jpeg",
+      "category": "protein",
+      "emoji": "🍗",
       "health_score": 8,
       "is_food": true,
       "is_junk": false,
       "is_healthy": true,
-      "is_high_protein": true,
-      "is_good_carb": false,
+      "is_high_protein": false,
+      "is_good_carb": true,
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
       "diet_tags": [
-        "high_protein",
-        "keto",
-        "vegetarian",
-        "budget"
+        "vegetarian"
       ],
       "macros": {
-        "kcal": 98,
-        "p": 11,
-        "f": 4,
-        "c": 3.4
+        "kcal": 172,
+        "p": 24,
+        "f": 8,
+        "c": 0
       },
-      "avg_price": 3.6,
-      "lowest_price": 3.6,
-      "lowest_price_date": "2026-11-09",
+      "avg_price": 3.19,
+      "lowest_price": 3.19,
+      "lowest_price_date": "2026-05-16",
       "price_history": [
         [
-          "2026-11-09",
-          3.6,
+          "2026-05-16",
+          3.19,
           null,
           null
         ]
@@ -10928,32 +11036,32 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 3.7,
-      "new_price_eur": 1.89,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 9.25,
-      "price_per_kg_eur": 4.73,
-      "source_type": "assortment",
+      "new_price": 3.31,
+      "new_price_eur": 1.69,
+      "old_price": 3.7,
+      "old_price_eur": 1.89,
+      "discount_pct": 11,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-30",
+      "price_per_kg": 8.27,
+      "price_per_kg_eur": 4.23,
+      "source_type": "promo",
       "available_stores": [
         "T-Market"
       ],
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 3.7,
-          "price_eur": 1.89,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
+          "price": 3.31,
+          "price_eur": 1.69,
+          "old_price": 3.7,
+          "old_price_eur": 1.89,
+          "discount_pct": 11,
+          "source_type": "promo"
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 3.7,
+      "best_price": 3.31,
       "comparison_count": 1,
       "product_id": "tmarket-извара-olympus-400гр-400g",
       "weight_grams": 400,
@@ -10982,32 +11090,38 @@ const OFFERS_DATA = {
         "f": 4,
         "c": 3.4
       },
-      "avg_price": 3.7,
-      "lowest_price": 3.7,
-      "lowest_price_date": "2026-05-16",
+      "avg_price": 3.5,
+      "lowest_price": 3.31,
+      "lowest_price_date": "2026-11-10",
       "price_history": [
         [
           "2026-05-16",
           3.7,
           null,
           null
+        ],
+        [
+          "2026-11-10",
+          3.31,
+          3.7,
+          11
         ]
       ],
-      "price_seen_count": 1,
+      "price_seen_count": 2,
       "price_signal": "buy"
     },
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 3.89,
-      "new_price_eur": 1.99,
-      "old_price": 5.98,
-      "old_price_eur": 3.06,
-      "discount_pct": 35,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 12.97,
-      "price_per_kg_eur": 6.63,
+      "new_price": 4.22,
+      "new_price_eur": 2.16,
+      "old_price": 5.28,
+      "old_price_eur": 2.7,
+      "discount_pct": 20,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-30",
+      "price_per_kg": 19.18,
+      "price_per_kg_eur": 9.81,
       "source_type": "promo",
       "available_stores": [
         "T-Market"
@@ -11015,22 +11129,22 @@ const OFFERS_DATA = {
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 3.89,
-          "price_eur": 1.99,
-          "old_price": 5.98,
-          "old_price_eur": 3.06,
-          "discount_pct": 35,
+          "price": 4.22,
+          "price_eur": 2.16,
+          "old_price": 5.28,
+          "old_price_eur": 2.7,
+          "discount_pct": 20,
           "source_type": "promo"
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 3.89,
+      "best_price": 4.22,
       "comparison_count": 1,
-      "product_id": "tmarket-колбас-тандем-телешки-300гр-300g",
-      "weight_grams": 300,
-      "weight_raw": "300гр",
-      "name": "Колбас ТАНДЕМ телешки 300гр",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800837414035_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
+      "product_id": "tmarket-пюре-hipp-ризото-брок-заешко-месо-220гр-220g",
+      "weight_grams": 220,
+      "weight_raw": "220гр",
+      "name": "Пюре HIPP ризото,брок.&заешко месо 220гр",
+      "image": "https://api.bulmag.org/thumbnails/cbcab03a93c0e6b2fd6c3086fc15c799.jpeg",
       "category": "protein",
       "emoji": "🍗",
       "health_score": 8,
@@ -11043,72 +11157,66 @@ const OFFERS_DATA = {
       "is_bulk_worthy": false,
       "is_long_lasting": false,
       "macros": {
-        "kcal": 172,
-        "p": 24,
-        "f": 8,
-        "c": 0
+        "kcal": 82,
+        "p": 1.8,
+        "f": 4,
+        "c": 11
       },
-      "avg_price": 4.79,
-      "lowest_price": 3.89,
-      "lowest_price_date": "2026-11-09",
+      "avg_price": 4.75,
+      "lowest_price": 4.22,
+      "lowest_price_date": "2026-11-10",
       "price_history": [
         [
           "2026-05-16",
-          4.49,
-          5.98,
-          25
-        ],
-        [
-          "2026-10-22",
-          5.98,
+          5.28,
           null,
           null
         ],
         [
-          "2026-11-09",
-          3.89,
-          5.98,
-          35
+          "2026-11-10",
+          4.22,
+          5.28,
+          20
         ]
       ],
-      "price_seen_count": 3,
+      "price_seen_count": 2,
       "price_signal": "buy"
     },
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 3.99,
-      "new_price_eur": 2.04,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 21.0,
-      "price_per_kg_eur": 10.74,
-      "source_type": "assortment",
+      "new_price": 4.22,
+      "new_price_eur": 2.16,
+      "old_price": 5.28,
+      "old_price_eur": 2.7,
+      "discount_pct": 20,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-30",
+      "price_per_kg": 19.18,
+      "price_per_kg_eur": 9.81,
+      "source_type": "promo",
       "available_stores": [
         "T-Market"
       ],
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 3.99,
-          "price_eur": 2.04,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
+          "price": 4.22,
+          "price_eur": 2.16,
+          "old_price": 5.28,
+          "old_price_eur": 2.7,
+          "discount_pct": 20,
+          "source_type": "promo"
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 3.99,
+      "best_price": 4.22,
       "comparison_count": 1,
-      "product_id": "tmarket-пюре-hipp-bio-тиква-ябълка-пуешко-190гр-190g",
-      "weight_grams": 190,
-      "weight_raw": "190гр",
-      "name": "Пюре HIPP Bio тиква/ябълка/пуешко 190гр",
-      "image": "https://tmarketonline.bg/cdn/img/products/45176/pure-hipp-bio-tikva-kartofi-puesko-190-g-image_5f4d04ffb1903.png?width=1920&height=1920&v=1777589922",
+      "product_id": "tmarket-пюре-hipp-bio-ориз-зеленчуци-пуешко-220г-220g",
+      "weight_grams": 220,
+      "weight_raw": "220г",
+      "name": "Пюре HIPP Bio ориз/зеленчуци/пуешко 220г",
+      "image": "https://tmarketonline.bg/cdn/img/products/45173/pure-hipp-bio-oriz-zelencuci-puesko-220-g-image_5f4d04fbecef6.jpeg?width=1920&height=1920&v=1777589922",
       "category": "protein",
       "emoji": "🍗",
       "health_score": 8,
@@ -11116,12 +11224,13 @@ const OFFERS_DATA = {
       "is_junk": false,
       "is_healthy": true,
       "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
+      "is_good_carb": true,
+      "is_good_fat": true,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
       "diet_tags": [
-        "high_protein"
+        "high_protein",
+        "vegetarian"
       ],
       "macros": {
         "kcal": 189,
@@ -11129,18 +11238,24 @@ const OFFERS_DATA = {
         "f": 7,
         "c": 0
       },
-      "avg_price": 3.99,
-      "lowest_price": 3.99,
-      "lowest_price_date": "2026-05-16",
+      "avg_price": 4.75,
+      "lowest_price": 4.22,
+      "lowest_price_date": "2026-11-10",
       "price_history": [
         [
           "2026-05-16",
-          3.99,
+          5.28,
           null,
           null
+        ],
+        [
+          "2026-11-10",
+          4.22,
+          5.28,
+          20
         ]
       ],
-      "price_seen_count": 1,
+      "price_seen_count": 2,
       "price_signal": "buy"
     },
     {
@@ -11210,142 +11325,6 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 5.28,
-      "new_price_eur": 2.7,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 24.0,
-      "price_per_kg_eur": 12.27,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 5.28,
-          "price_eur": 2.7,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 5.28,
-      "comparison_count": 1,
-      "product_id": "tmarket-пюре-hipp-ризото-брок-заешко-месо-220гр-220g",
-      "weight_grams": 220,
-      "weight_raw": "220гр",
-      "name": "Пюре HIPP ризото,брок.&заешко месо 220гр",
-      "image": "https://api.bulmag.org/thumbnails/cbcab03a93c0e6b2fd6c3086fc15c799.jpeg",
-      "category": "protein",
-      "emoji": "🍗",
-      "health_score": 8,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "macros": {
-        "kcal": 82,
-        "p": 1.8,
-        "f": 4,
-        "c": 11
-      },
-      "avg_price": 5.28,
-      "lowest_price": 5.28,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          5.28,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 5.28,
-      "new_price_eur": 2.7,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 24.0,
-      "price_per_kg_eur": 12.27,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 5.28,
-          "price_eur": 2.7,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 5.28,
-      "comparison_count": 1,
-      "product_id": "tmarket-пюре-hipp-bio-ориз-зеленчуци-пуешко-220г-220g",
-      "weight_grams": 220,
-      "weight_raw": "220г",
-      "name": "Пюре HIPP Bio ориз/зеленчуци/пуешко 220г",
-      "image": "https://tmarketonline.bg/cdn/img/products/45173/pure-hipp-bio-oriz-zelencuci-puesko-220-g-image_5f4d04fbecef6.jpeg?width=1920&height=1920&v=1777589922",
-      "category": "protein",
-      "emoji": "🍗",
-      "health_score": 8,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": true,
-      "is_good_fat": true,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "diet_tags": [
-        "high_protein",
-        "vegetarian"
-      ],
-      "macros": {
-        "kcal": 189,
-        "p": 29,
-        "f": 7,
-        "c": 0
-      },
-      "avg_price": 5.28,
-      "lowest_price": 5.28,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          5.28,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
       "new_price": 5.98,
       "new_price_eur": 3.06,
       "old_price": null,
@@ -11353,8 +11332,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": 7.97,
-      "price_per_kg_eur": 4.07,
+      "price_per_kg": 19.93,
+      "price_per_kg_eur": 10.19,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -11373,6 +11352,90 @@ const OFFERS_DATA = {
       "best_price_store": "T-Market",
       "best_price": 5.98,
       "comparison_count": 1,
+      "product_id": "tmarket-колбас-тандем-телешки-300гр-300g",
+      "weight_grams": 300,
+      "weight_raw": "300гр",
+      "name": "Колбас ТАНДЕМ телешки 300гр",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800837414035_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
+      "category": "protein",
+      "emoji": "🍗",
+      "health_score": 8,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 172,
+        "p": 24,
+        "f": 8,
+        "c": 0
+      },
+      "avg_price": 5.09,
+      "lowest_price": 3.89,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-05-16",
+          4.49,
+          5.98,
+          25
+        ],
+        [
+          "2026-10-22",
+          5.98,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          3.89,
+          5.98,
+          35
+        ],
+        [
+          "2026-11-10",
+          5.98,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "wait"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 6.12,
+      "new_price_eur": 3.13,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 8.16,
+      "price_per_kg_eur": 4.17,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 6.12,
+          "price_eur": 3.13,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 6.12,
+      "comparison_count": 1,
       "product_id": "tmarket-колбас-колбасо-телешки-750гр-750g",
       "weight_grams": 750,
       "weight_raw": "750гр",
@@ -11389,16 +11452,13 @@ const OFFERS_DATA = {
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
-      "diet_tags": [
-        "budget"
-      ],
       "macros": {
         "kcal": 172,
         "p": 24,
         "f": 8,
         "c": 0
       },
-      "avg_price": 4.86,
+      "avg_price": 5.17,
       "lowest_price": 4.09,
       "lowest_price_date": "2026-05-16",
       "price_history": [
@@ -11419,77 +11479,16 @@ const OFFERS_DATA = {
           5.98,
           null,
           null
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "wait"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 5.98,
-      "new_price_eur": 3.06,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 5.98,
-      "price_per_kg_eur": 3.06,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 5.98,
-          "price_eur": 3.06,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 5.98,
-      "comparison_count": 1,
-      "product_id": "tmarket-колбас-мити-телешки-нас-кг",
-      "name": "Колбас МИТИ телешки нас.кг",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800837414035_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
-      "category": "protein",
-      "emoji": "🍗",
-      "health_score": 8,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "diet_tags": [
-        "budget"
-      ],
-      "macros": {
-        "kcal": 172,
-        "p": 24,
-        "f": 8,
-        "c": 0
-      },
-      "avg_price": 5.98,
-      "lowest_price": 5.98,
-      "lowest_price_date": "2026-10-22",
-      "price_history": [
+        ],
         [
-          "2026-10-22",
-          5.98,
+          "2026-11-10",
+          6.12,
           null,
           null
         ]
       ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
+      "price_seen_count": 4,
+      "price_signal": "wait"
     },
     {
       "store": "T-Market",
@@ -11745,32 +11744,32 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 16.78,
-      "new_price_eur": 8.58,
-      "old_price": 20.99,
-      "old_price_eur": 10.73,
-      "discount_pct": 20,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 16.78,
-      "price_per_kg_eur": 8.58,
-      "source_type": "promo",
+      "new_price": 20.99,
+      "new_price_eur": 10.73,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 20.99,
+      "price_per_kg_eur": 10.73,
+      "source_type": "assortment",
       "available_stores": [
         "T-Market"
       ],
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 16.78,
-          "price_eur": 8.58,
-          "old_price": 20.99,
-          "old_price_eur": 10.73,
-          "discount_pct": 20,
-          "source_type": "promo"
+          "price": 20.99,
+          "price_eur": 10.73,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 16.78,
+      "best_price": 20.99,
       "comparison_count": 1,
       "product_id": "tmarket-колбас-ken-телешки-в-ест-черво-нас-кг",
       "name": "Колбас KEN Телешки в ест. черво нас.кг",
@@ -11792,7 +11791,7 @@ const OFFERS_DATA = {
         "f": 8,
         "c": 0
       },
-      "avg_price": 18.88,
+      "avg_price": 19.59,
       "lowest_price": 16.78,
       "lowest_price_date": "2026-11-09",
       "price_history": [
@@ -11807,77 +11806,16 @@ const OFFERS_DATA = {
           16.78,
           20.99,
           20
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 26.93,
-      "new_price_eur": 13.77,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 26.93,
-      "price_per_kg_eur": 13.77,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 26.93,
-          "price_eur": 13.77,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 26.93,
-      "comparison_count": 1,
-      "product_id": "tmarket-формован-деликатес-с-пуешко-филе-нас-кг",
-      "name": "Формован деликатес с пуешко филе нас.кг",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/235_00107805_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "protein",
-      "emoji": "🍗",
-      "health_score": 8,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "diet_tags": [
-        "high_protein"
-      ],
-      "macros": {
-        "kcal": 189,
-        "p": 29,
-        "f": 7,
-        "c": 0
-      },
-      "avg_price": 26.93,
-      "lowest_price": 26.93,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
+        ],
         [
-          "2026-11-09",
-          26.93,
+          "2026-11-10",
+          20.99,
           null,
           null
         ]
       ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
+      "price_seen_count": 3,
+      "price_signal": "normal"
     },
     {
       "store": "Kaufland",
@@ -12794,86 +12732,6 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 0.61,
-      "new_price_eur": 0.31,
-      "old_price": 1.23,
-      "old_price_eur": 0.63,
-      "discount_pct": 50,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 0.61,
-          "price_eur": 0.31,
-          "old_price": 1.23,
-          "old_price_eur": 0.63,
-          "discount_pct": 50,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 0.61,
-      "comparison_count": 1,
-      "product_id": "tmarket-баничка-пура-със-сирене-тт-бр",
-      "name": "Баничка пура със сирене ТТ бр",
-      "image": "https://pazarko.bg/api/brochure-images/TMarketBrochure_баничка_пура_със_сирене_бр.jpg",
-      "category": "dairy",
-      "emoji": "🥛",
-      "health_score": 7,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "diet_tags": [
-        "keto",
-        "vegetarian"
-      ],
-      "macros": {
-        "kcal": 264,
-        "p": 14,
-        "f": 22,
-        "c": 2
-      },
-      "avg_price": 1.01,
-      "lowest_price": 0.61,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
-        [
-          "2026-05-16",
-          1.19,
-          null,
-          null
-        ],
-        [
-          "2026-10-22",
-          1.23,
-          null,
-          null
-        ],
-        [
-          "2026-11-09",
-          0.61,
-          1.23,
-          50
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "buy"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 0.66,
@@ -13243,79 +13101,6 @@ const OFFERS_DATA = {
       "price_signal": "good"
     },
     {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 0.88,
-      "new_price_eur": 0.45,
-      "old_price": 1.29,
-      "old_price_eur": 0.66,
-      "discount_pct": 32,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 0.88,
-          "price_eur": 0.45,
-          "old_price": 1.29,
-          "old_price_eur": 0.66,
-          "discount_pct": 32,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 0.88,
-      "comparison_count": 1,
-      "product_id": "tmarket-картофи-българия-кг-опс",
-      "name": "Картофи, България, кг ОПС",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3000033039838_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "vegetable",
-      "emoji": "🥦",
-      "health_score": 7,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "diet_tags": [
-        "vegetarian"
-      ],
-      "macros": {
-        "kcal": 77,
-        "p": 2,
-        "f": 0.1,
-        "c": 17
-      },
-      "avg_price": 0.92,
-      "lowest_price": 0.88,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
-        [
-          "2026-10-22",
-          0.96,
-          1.29,
-          26
-        ],
-        [
-          "2026-11-09",
-          0.88,
-          1.29,
-          32
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 0.89,
@@ -13619,76 +13404,6 @@ const OFFERS_DATA = {
       "price_signal": "good"
     },
     {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 0.96,
-      "new_price_eur": 0.49,
-      "old_price": 1.29,
-      "old_price_eur": 0.66,
-      "discount_pct": 26,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 0.96,
-          "price_eur": 0.49,
-          "old_price": 1.29,
-          "old_price_eur": 0.66,
-          "discount_pct": 26,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 0.96,
-      "comparison_count": 1,
-      "product_id": "tmarket-кромид-лук-българия-кг-опс",
-      "name": "Кромид лук, България, кг.ОПС",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/25016109_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "vegetable",
-      "emoji": "🥦",
-      "health_score": 7,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "macros": {
-        "kcal": 40,
-        "p": 1.1,
-        "f": 0.1,
-        "c": 9.3
-      },
-      "avg_price": 1.12,
-      "lowest_price": 0.96,
-      "lowest_price_date": "2026-10-22",
-      "price_history": [
-        [
-          "2026-05-16",
-          1.29,
-          null,
-          null
-        ],
-        [
-          "2026-10-22",
-          0.96,
-          1.29,
-          26
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 0.99,
@@ -13839,6 +13554,95 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 2,
       "price_signal": "normal"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 1.08,
+      "new_price_eur": 0.55,
+      "old_price": 1.43,
+      "old_price_eur": 0.73,
+      "discount_pct": 24,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 2.7,
+      "price_per_kg_eur": 1.38,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 1.08,
+          "price_eur": 0.55,
+          "old_price": 1.43,
+          "old_price_eur": 0.73,
+          "discount_pct": 24,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 1.08,
+      "comparison_count": 1,
+      "product_id": "tmarket-кисело-мляко-булгарче-2-400гр-400g",
+      "weight_grams": 400,
+      "weight_raw": "400гр",
+      "name": "Кисело мляко БУЛГАРЧЕ 2% 400гр",
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/c09e1a9a-d1b0-4f75-be15-9ef0d341b501.png",
+      "category": "dairy",
+      "emoji": "🥛",
+      "health_score": 7,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": true,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "high_protein",
+        "vegetarian",
+        "budget"
+      ],
+      "macros": {
+        "kcal": 61,
+        "p": 3.5,
+        "f": 3.3,
+        "c": 4.7
+      },
+      "avg_price": 1.2,
+      "lowest_price": 1.08,
+      "lowest_price_date": "2026-10-22",
+      "price_history": [
+        [
+          "2026-05-16",
+          1.21,
+          1.43,
+          15
+        ],
+        [
+          "2026-10-22",
+          1.08,
+          1.43,
+          24
+        ],
+        [
+          "2026-11-09",
+          1.43,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          1.08,
+          1.43,
+          24
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "buy"
     },
     {
       "store": "Kaufland",
@@ -13995,6 +13799,430 @@ const OFFERS_DATA = {
       "price_signal": "normal"
     },
     {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 1.23,
+      "new_price_eur": 0.63,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 1.23,
+          "price_eur": 0.63,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 1.23,
+      "comparison_count": 1,
+      "product_id": "tmarket-баничка-пура-със-сирене-тт-бр",
+      "name": "Баничка пура със сирене ТТ бр",
+      "image": "https://pazarko.bg/api/brochure-images/TMarketBrochure_баничка_пура_със_сирене_бр.jpg",
+      "category": "dairy",
+      "emoji": "🥛",
+      "health_score": 7,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "keto",
+        "vegetarian"
+      ],
+      "macros": {
+        "kcal": 264,
+        "p": 14,
+        "f": 22,
+        "c": 2
+      },
+      "avg_price": 1.06,
+      "lowest_price": 0.61,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-05-16",
+          1.19,
+          null,
+          null
+        ],
+        [
+          "2026-10-22",
+          1.23,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          0.61,
+          1.23,
+          50
+        ],
+        [
+          "2026-11-10",
+          1.23,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "wait"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 1.27,
+      "new_price_eur": 0.65,
+      "old_price": 1.49,
+      "old_price_eur": 0.76,
+      "discount_pct": 15,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 3.17,
+      "price_per_kg_eur": 1.62,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 1.27,
+          "price_eur": 0.65,
+          "old_price": 1.49,
+          "old_price_eur": 0.76,
+          "discount_pct": 15,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 1.27,
+      "comparison_count": 1,
+      "product_id": "tmarket-кисело-мляко-белииса-3-6-400гр-400g",
+      "weight_grams": 400,
+      "weight_raw": "400гр",
+      "name": "Кисело мляко БЕЛИИСА 3.6% 400гр",
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/c09e1a9a-d1b0-4f75-be15-9ef0d341b501.png",
+      "category": "dairy",
+      "emoji": "🥛",
+      "health_score": 7,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": true,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "high_protein",
+        "vegetarian",
+        "budget"
+      ],
+      "macros": {
+        "kcal": 61,
+        "p": 3.5,
+        "f": 3.3,
+        "c": 4.7
+      },
+      "avg_price": 1.32,
+      "lowest_price": 1.26,
+      "lowest_price_date": "2026-05-16",
+      "price_history": [
+        [
+          "2026-05-16",
+          1.26,
+          1.49,
+          15
+        ],
+        [
+          "2026-10-22",
+          1.27,
+          1.49,
+          15
+        ],
+        [
+          "2026-11-09",
+          1.49,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          1.27,
+          1.49,
+          15
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 1.27,
+      "new_price_eur": 0.65,
+      "old_price": 1.51,
+      "old_price_eur": 0.77,
+      "discount_pct": 16,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 3.17,
+      "price_per_kg_eur": 1.62,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 1.27,
+          "price_eur": 0.65,
+          "old_price": 1.51,
+          "old_price_eur": 0.77,
+          "discount_pct": 16,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 1.27,
+      "comparison_count": 1,
+      "product_id": "tmarket-кисело-мляко-булгарче-3-6-400гр-400g",
+      "weight_grams": 400,
+      "weight_raw": "400гр",
+      "name": "Кисело мляко БУЛГАРЧЕ 3.6% 400гр",
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/c09e1a9a-d1b0-4f75-be15-9ef0d341b501.png",
+      "category": "dairy",
+      "emoji": "🥛",
+      "health_score": 7,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": true,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "high_protein",
+        "vegetarian",
+        "budget"
+      ],
+      "macros": {
+        "kcal": 61,
+        "p": 3.5,
+        "f": 3.3,
+        "c": 4.7
+      },
+      "avg_price": 1.33,
+      "lowest_price": 1.27,
+      "lowest_price_date": "2026-10-22",
+      "price_history": [
+        [
+          "2026-05-16",
+          1.28,
+          1.51,
+          15
+        ],
+        [
+          "2026-10-22",
+          1.27,
+          1.51,
+          16
+        ],
+        [
+          "2026-11-09",
+          1.51,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          1.27,
+          1.51,
+          16
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 1.27,
+      "new_price_eur": 0.65,
+      "old_price": 1.43,
+      "old_price_eur": 0.73,
+      "discount_pct": 11,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-30",
+      "price_per_kg": 3.17,
+      "price_per_kg_eur": 1.62,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 1.27,
+          "price_eur": 0.65,
+          "old_price": 1.43,
+          "old_price_eur": 0.73,
+          "discount_pct": 11,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 1.27,
+      "comparison_count": 1,
+      "product_id": "tmarket-кисело-мляко-верея-2-400гр-400g",
+      "weight_grams": 400,
+      "weight_raw": "400гр",
+      "name": "Кисело мляко ВЕРЕЯ 2% 400гр",
+      "image": "https://tmarketonline.bg/cdn/img/products/47457/kiselo-mlako-verea-3-6--1-kg-685884008ba26.png?width=1920&height=1920&v=1777590015",
+      "category": "dairy",
+      "emoji": "🥛",
+      "health_score": 7,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": true,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "high_protein",
+        "vegetarian",
+        "budget"
+      ],
+      "macros": {
+        "kcal": 61,
+        "p": 3.5,
+        "f": 3.3,
+        "c": 4.7
+      },
+      "avg_price": 1.35,
+      "lowest_price": 1.27,
+      "lowest_price_date": "2026-11-10",
+      "price_history": [
+        [
+          "2026-05-16",
+          1.43,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          1.27,
+          1.43,
+          11
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 1.27,
+      "new_price_eur": 0.65,
+      "old_price": 1.8,
+      "old_price_eur": 0.92,
+      "discount_pct": 29,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 3.17,
+      "price_per_kg_eur": 1.62,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 1.27,
+          "price_eur": 0.65,
+          "old_price": 1.8,
+          "old_price_eur": 0.92,
+          "discount_pct": 29,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 1.27,
+      "comparison_count": 1,
+      "product_id": "tmarket-кисело-мляко-балкан-3-6-400г-400g",
+      "weight_grams": 400,
+      "weight_raw": "400г",
+      "name": "Кисело мляко БАЛКАН 3,6% 400г",
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/c09e1a9a-d1b0-4f75-be15-9ef0d341b501.png",
+      "category": "dairy",
+      "emoji": "🥛",
+      "health_score": 7,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": true,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "high_protein",
+        "vegetarian",
+        "budget"
+      ],
+      "macros": {
+        "kcal": 61,
+        "p": 3.5,
+        "f": 3.3,
+        "c": 4.7
+      },
+      "avg_price": 1.58,
+      "lowest_price": 1.27,
+      "lowest_price_date": "2026-11-10",
+      "price_history": [
+        [
+          "2026-10-22",
+          1.66,
+          1.8,
+          8
+        ],
+        [
+          "2026-11-09",
+          1.8,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          1.27,
+          1.8,
+          29
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "buy"
+    },
+    {
       "store": "Kaufland",
       "address": null,
       "new_price": 1.29,
@@ -14068,14 +14296,14 @@ const OFFERS_DATA = {
       "address": null,
       "new_price": 1.29,
       "new_price_eur": 0.66,
-      "old_price": 1.53,
-      "old_price_eur": 0.78,
-      "discount_pct": 16,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 3.23,
-      "price_per_kg_eur": 1.65,
-      "source_type": "promo",
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
       "available_stores": [
         "T-Market"
       ],
@@ -14084,186 +14312,18 @@ const OFFERS_DATA = {
           "store": "T-Market",
           "price": 1.29,
           "price_eur": 0.66,
-          "old_price": 1.53,
-          "old_price_eur": 0.78,
-          "discount_pct": 16,
-          "source_type": "promo"
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "T-Market",
       "best_price": 1.29,
       "comparison_count": 1,
-      "product_id": "tmarket-кисело-мляко-саяна-2-400гр-400g",
-      "weight_grams": 400,
-      "weight_raw": "400гр",
-      "name": "Кисело мляко САЯНА 2% 400гр",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/c09e1a9a-d1b0-4f75-be15-9ef0d341b501.png",
-      "category": "dairy",
-      "emoji": "🥛",
-      "health_score": 7,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": true,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "diet_tags": [
-        "high_protein",
-        "vegetarian",
-        "budget"
-      ],
-      "macros": {
-        "kcal": 61,
-        "p": 3.5,
-        "f": 3.3,
-        "c": 4.7
-      },
-      "avg_price": 1.42,
-      "lowest_price": 1.29,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
-        [
-          "2026-05-16",
-          1.43,
-          null,
-          null
-        ],
-        [
-          "2026-10-22",
-          1.53,
-          null,
-          null
-        ],
-        [
-          "2026-11-09",
-          1.29,
-          1.53,
-          16
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 1.35,
-      "new_price_eur": 0.69,
-      "old_price": 1.62,
-      "old_price_eur": 0.83,
-      "discount_pct": 17,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 3.38,
-      "price_per_kg_eur": 1.73,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 1.35,
-          "price_eur": 0.69,
-          "old_price": 1.62,
-          "old_price_eur": 0.83,
-          "discount_pct": 17,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 1.35,
-      "comparison_count": 1,
-      "product_id": "tmarket-кисело-мляко-боженци-2-2-400гр-400g",
-      "weight_grams": 400,
-      "weight_raw": "400гр",
-      "name": "Кисело мляко БОЖЕНЦИ 2.2% 400гр",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/c09e1a9a-d1b0-4f75-be15-9ef0d341b501.png",
-      "category": "dairy",
-      "emoji": "🥛",
-      "health_score": 7,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": true,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "diet_tags": [
-        "high_protein",
-        "vegetarian",
-        "budget"
-      ],
-      "macros": {
-        "kcal": 61,
-        "p": 3.5,
-        "f": 3.3,
-        "c": 4.7
-      },
-      "avg_price": 1.48,
-      "lowest_price": 1.35,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
-        [
-          "2026-05-16",
-          1.62,
-          null,
-          null
-        ],
-        [
-          "2026-10-22",
-          1.47,
-          1.62,
-          9
-        ],
-        [
-          "2026-11-09",
-          1.35,
-          1.62,
-          17
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 1.35,
-      "new_price_eur": 0.69,
-      "old_price": 2.35,
-      "old_price_eur": 1.2,
-      "discount_pct": 43,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 3.38,
-      "price_per_kg_eur": 1.73,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 1.35,
-          "price_eur": 0.69,
-          "old_price": 2.35,
-          "old_price_eur": 1.2,
-          "discount_pct": 43,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 1.35,
-      "comparison_count": 1,
-      "product_id": "tmarket-домати-fiorre-на-кубчета-400гр-400g",
-      "weight_grams": 400,
-      "weight_raw": "400гр",
-      "name": "Домати FIORRE на кубчета 400гр",
-      "image": "https://tmarketonline.bg/cdn/img/products/48157/domati-fiorre-na-kubceta-400gr-image_61f9395bddc48.png?width=600&height=600&v=1777589952",
+      "product_id": "tmarket-картофи-българия-кг-опс",
+      "name": "Картофи, България, кг ОПС",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3000033039838_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "vegetable",
       "emoji": "🥦",
       "health_score": 7,
@@ -14276,33 +14336,115 @@ const OFFERS_DATA = {
       "is_bulk_worthy": false,
       "is_long_lasting": false,
       "diet_tags": [
-        "budget"
+        "vegetarian"
       ],
       "macros": {
-        "kcal": 18,
-        "p": 0.9,
-        "f": 0.2,
-        "c": 3.9
+        "kcal": 77,
+        "p": 2,
+        "f": 0.1,
+        "c": 17
       },
-      "avg_price": 1.85,
-      "lowest_price": 1.35,
+      "avg_price": 1.04,
+      "lowest_price": 0.88,
       "lowest_price_date": "2026-11-09",
       "price_history": [
         [
-          "2026-04-20",
-          2.35,
+          "2026-10-22",
+          0.96,
+          1.29,
+          26
+        ],
+        [
+          "2026-11-09",
+          0.88,
+          1.29,
+          32
+        ],
+        [
+          "2026-11-10",
+          1.29,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "wait"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 1.29,
+      "new_price_eur": 0.66,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 1.29,
+          "price_eur": 0.66,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 1.29,
+      "comparison_count": 1,
+      "product_id": "tmarket-кромид-лук-българия-кг-опс",
+      "name": "Кромид лук, България, кг.ОПС",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/25016109_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "vegetable",
+      "emoji": "🥦",
+      "health_score": 7,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 40,
+        "p": 1.1,
+        "f": 0.1,
+        "c": 9.3
+      },
+      "avg_price": 1.18,
+      "lowest_price": 0.96,
+      "lowest_price_date": "2026-10-22",
+      "price_history": [
+        [
+          "2026-05-16",
+          1.29,
           null,
           null
         ],
         [
-          "2026-11-09",
-          1.35,
-          2.35,
-          43
+          "2026-10-22",
+          0.96,
+          1.29,
+          26
+        ],
+        [
+          "2026-11-10",
+          1.29,
+          null,
+          null
         ]
       ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
+      "price_seen_count": 3,
+      "price_signal": "wait"
     },
     {
       "store": "Kaufland",
@@ -14375,83 +14517,6 @@ const OFFERS_DATA = {
           1.39,
           1.79,
           22
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 1.39,
-      "new_price_eur": 0.71,
-      "old_price": 1.62,
-      "old_price_eur": 0.83,
-      "discount_pct": 14,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 3.47,
-      "price_per_kg_eur": 1.77,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 1.39,
-          "price_eur": 0.71,
-          "old_price": 1.62,
-          "old_price_eur": 0.83,
-          "discount_pct": 14,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 1.39,
-      "comparison_count": 1,
-      "product_id": "tmarket-кисело-мляко-боженци-2-знп-400гр-400g",
-      "weight_grams": 400,
-      "weight_raw": "400гр",
-      "name": "Кисело мляко БОЖЕНЦИ 2% ЗНП 400гр",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/c09e1a9a-d1b0-4f75-be15-9ef0d341b501.png",
-      "category": "dairy",
-      "emoji": "🥛",
-      "health_score": 7,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": true,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "diet_tags": [
-        "high_protein",
-        "vegetarian",
-        "budget"
-      ],
-      "macros": {
-        "kcal": 61,
-        "p": 3.5,
-        "f": 3.3,
-        "c": 4.7
-      },
-      "avg_price": 1.5,
-      "lowest_price": 1.39,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
-        [
-          "2026-05-16",
-          1.62,
-          null,
-          null
-        ],
-        [
-          "2026-11-09",
-          1.39,
-          1.62,
-          14
         ]
       ],
       "price_seen_count": 2,
@@ -14614,252 +14679,15 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 1.43,
-      "new_price_eur": 0.73,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 3.58,
-      "price_per_kg_eur": 1.83,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 1.43,
-          "price_eur": 0.73,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 1.43,
-      "comparison_count": 1,
-      "product_id": "tmarket-кисело-мляко-булгарче-2-400гр-400g",
-      "weight_grams": 400,
-      "weight_raw": "400гр",
-      "name": "Кисело мляко БУЛГАРЧЕ 2% 400гр",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/c09e1a9a-d1b0-4f75-be15-9ef0d341b501.png",
-      "category": "dairy",
-      "emoji": "🥛",
-      "health_score": 7,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": true,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "diet_tags": [
-        "high_protein",
-        "vegetarian",
-        "budget"
-      ],
-      "macros": {
-        "kcal": 61,
-        "p": 3.5,
-        "f": 3.3,
-        "c": 4.7
-      },
-      "avg_price": 1.24,
-      "lowest_price": 1.08,
-      "lowest_price_date": "2026-10-22",
-      "price_history": [
-        [
-          "2026-05-16",
-          1.21,
-          1.43,
-          15
-        ],
-        [
-          "2026-10-22",
-          1.08,
-          1.43,
-          24
-        ],
-        [
-          "2026-11-09",
-          1.43,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "wait"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 1.43,
-      "new_price_eur": 0.73,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 3.58,
-      "price_per_kg_eur": 1.83,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 1.43,
-          "price_eur": 0.73,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 1.43,
-      "comparison_count": 1,
-      "product_id": "tmarket-кисело-мляко-верея-2-400гр-400g",
-      "weight_grams": 400,
-      "weight_raw": "400гр",
-      "name": "Кисело мляко ВЕРЕЯ 2% 400гр",
-      "image": "https://tmarketonline.bg/cdn/img/products/47457/kiselo-mlako-verea-3-6--1-kg-685884008ba26.png?width=1920&height=1920&v=1777590015",
-      "category": "dairy",
-      "emoji": "🥛",
-      "health_score": 7,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": true,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "diet_tags": [
-        "high_protein",
-        "vegetarian",
-        "budget"
-      ],
-      "macros": {
-        "kcal": 61,
-        "p": 3.5,
-        "f": 3.3,
-        "c": 4.7
-      },
-      "avg_price": 1.43,
-      "lowest_price": 1.43,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          1.43,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 1.45,
-      "new_price_eur": 0.74,
-      "old_price": 1.7,
-      "old_price_eur": 0.87,
-      "discount_pct": 15,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 3.62,
-      "price_per_kg_eur": 1.85,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 1.45,
-          "price_eur": 0.74,
-          "old_price": 1.7,
-          "old_price_eur": 0.87,
-          "discount_pct": 15,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 1.45,
-      "comparison_count": 1,
-      "product_id": "tmarket-кисело-мляко-саяна-2-знп-400гр-400g",
-      "weight_grams": 400,
-      "weight_raw": "400гр",
-      "name": "Кисело мляко САЯНА 2% ЗНП 400гр",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/c09e1a9a-d1b0-4f75-be15-9ef0d341b501.png",
-      "category": "dairy",
-      "emoji": "🥛",
-      "health_score": 7,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": true,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "diet_tags": [
-        "high_protein",
-        "vegetarian",
-        "budget"
-      ],
-      "macros": {
-        "kcal": 61,
-        "p": 3.5,
-        "f": 3.3,
-        "c": 4.7
-      },
-      "avg_price": 1.59,
-      "lowest_price": 1.45,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
-        [
-          "2026-05-16",
-          1.62,
-          null,
-          null
-        ],
-        [
-          "2026-10-22",
-          1.7,
-          null,
-          null
-        ],
-        [
-          "2026-11-09",
-          1.45,
-          1.7,
-          15
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
       "new_price": 1.47,
       "new_price_eur": 0.75,
-      "old_price": 1.72,
-      "old_price_eur": 0.88,
-      "discount_pct": 15,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 3.67,
-      "price_per_kg_eur": 1.88,
+      "old_price": 1.96,
+      "old_price_eur": 1.0,
+      "discount_pct": 25,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 49.0,
+      "price_per_kg_eur": 25.05,
       "source_type": "promo",
       "available_stores": [
         "T-Market"
@@ -14869,150 +14697,56 @@ const OFFERS_DATA = {
           "store": "T-Market",
           "price": 1.47,
           "price_eur": 0.75,
-          "old_price": 1.72,
-          "old_price_eur": 0.88,
-          "discount_pct": 15,
+          "old_price": 1.96,
+          "old_price_eur": 1.0,
+          "discount_pct": 25,
           "source_type": "promo"
         }
       ],
       "best_price_store": "T-Market",
       "best_price": 1.47,
       "comparison_count": 1,
-      "product_id": "tmarket-кисело-мляко-саяна-3-6-400гр-400g",
-      "weight_grams": 400,
-      "weight_raw": "400гр",
-      "name": "Кисело мляко САЯНА 3.6% 400гр",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/c09e1a9a-d1b0-4f75-be15-9ef0d341b501.png",
-      "category": "dairy",
-      "emoji": "🥛",
+      "product_id": "tmarket-чаи-биопрограма-зелен-20x1-5гр-30g",
+      "weight_grams": 30,
+      "weight_raw": "20x1.5гр",
+      "name": "Чай БИОПРОГРАМА зелен 20x1.5гр",
+      "image": "https://tmarketonline.bg/cdn/img/products/39475/caj-bioprograma-zelen-20x1-5-g-image_5ea2cd20e5acb.png?width=600&height=600&v=1777589877",
+      "category": "vegetable",
+      "emoji": "🥦",
       "health_score": 7,
       "is_food": true,
       "is_junk": false,
       "is_healthy": true,
-      "is_high_protein": true,
+      "is_high_protein": false,
       "is_good_carb": false,
-      "is_good_fat": false,
+      "is_good_fat": true,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
-      "diet_tags": [
-        "high_protein",
-        "vegetarian",
-        "budget"
-      ],
       "macros": {
-        "kcal": 61,
-        "p": 3.5,
-        "f": 3.3,
-        "c": 4.7
+        "kcal": 25,
+        "p": 1.3,
+        "f": 0.1,
+        "c": 6
       },
-      "avg_price": 1.41,
-      "lowest_price": 1.15,
-      "lowest_price_date": "2026-05-16",
+      "avg_price": 1.71,
+      "lowest_price": 1.47,
+      "lowest_price_date": "2026-11-10",
       "price_history": [
         [
           "2026-05-16",
-          1.15,
-          1.62,
-          29
-        ],
-        [
-          "2026-10-22",
-          1.62,
+          1.96,
           null,
           null
         ],
         [
-          "2026-11-09",
+          "2026-11-10",
           1.47,
-          1.72,
-          15
+          1.96,
+          25
         ]
       ],
-      "price_seen_count": 3,
-      "price_signal": "normal"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 1.47,
-      "new_price_eur": 0.75,
-      "old_price": 1.56,
-      "old_price_eur": 0.8,
-      "discount_pct": 6,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 3.67,
-      "price_per_kg_eur": 1.88,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 1.47,
-          "price_eur": 0.75,
-          "old_price": 1.56,
-          "old_price_eur": 0.8,
-          "discount_pct": 6,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 1.47,
-      "comparison_count": 1,
-      "product_id": "tmarket-кисело-мляко-верея-чудно-2-5-400гр-400g",
-      "weight_grams": 400,
-      "weight_raw": "400гр",
-      "name": "Кисело мляко ВЕРЕЯ Чудно 2.5% 400гр",
-      "image": "https://tmarketonline.bg/cdn/img/products/39184/kiselo-mlako-verea-cudno-2-5--400-g-image_63c11075e1b03.jpeg?width=1920&height=1920&v=1777589878",
-      "category": "dairy",
-      "emoji": "🥛",
-      "health_score": 7,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": true,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "diet_tags": [
-        "high_protein",
-        "vegetarian",
-        "budget"
-      ],
-      "macros": {
-        "kcal": 61,
-        "p": 3.5,
-        "f": 3.3,
-        "c": 4.7
-      },
-      "avg_price": 1.46,
-      "lowest_price": 1.35,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          1.35,
-          1.56,
-          13
-        ],
-        [
-          "2026-10-22",
-          1.56,
-          null,
-          null
-        ],
-        [
-          "2026-11-09",
-          1.47,
-          1.56,
-          6
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "normal"
+      "price_seen_count": 2,
+      "price_signal": "buy"
     },
     {
       "store": "Kaufland",
@@ -15111,89 +14845,6 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 1.49,
-      "new_price_eur": 0.76,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 3.73,
-      "price_per_kg_eur": 1.91,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 1.49,
-          "price_eur": 0.76,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 1.49,
-      "comparison_count": 1,
-      "product_id": "tmarket-кисело-мляко-белииса-3-6-400гр-400g",
-      "weight_grams": 400,
-      "weight_raw": "400гр",
-      "name": "Кисело мляко БЕЛИИСА 3.6% 400гр",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/c09e1a9a-d1b0-4f75-be15-9ef0d341b501.png",
-      "category": "dairy",
-      "emoji": "🥛",
-      "health_score": 7,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": true,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "diet_tags": [
-        "high_protein",
-        "vegetarian",
-        "budget"
-      ],
-      "macros": {
-        "kcal": 61,
-        "p": 3.5,
-        "f": 3.3,
-        "c": 4.7
-      },
-      "avg_price": 1.34,
-      "lowest_price": 1.26,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          1.26,
-          1.49,
-          15
-        ],
-        [
-          "2026-10-22",
-          1.27,
-          1.49,
-          15
-        ],
-        [
-          "2026-11-09",
-          1.49,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "wait"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
       "new_price": 1.51,
       "new_price_eur": 0.77,
       "old_price": null,
@@ -15271,15 +14922,15 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 1.51,
-      "new_price_eur": 0.77,
+      "new_price": 1.53,
+      "new_price_eur": 0.78,
       "old_price": null,
       "old_price_eur": null,
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": 3.78,
-      "price_per_kg_eur": 1.93,
+      "price_per_kg": 3.83,
+      "price_per_kg_eur": 1.96,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -15287,8 +14938,8 @@ const OFFERS_DATA = {
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 1.51,
-          "price_eur": 0.77,
+          "price": 1.53,
+          "price_eur": 0.78,
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
@@ -15296,12 +14947,12 @@ const OFFERS_DATA = {
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 1.51,
+      "best_price": 1.53,
       "comparison_count": 1,
-      "product_id": "tmarket-кисело-мляко-булгарче-3-6-400гр-400g",
+      "product_id": "tmarket-кисело-мляко-саяна-2-400гр-400g",
       "weight_grams": 400,
       "weight_raw": "400гр",
-      "name": "Кисело мляко БУЛГАРЧЕ 3.6% 400гр",
+      "name": "Кисело мляко САЯНА 2% 400гр",
       "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/c09e1a9a-d1b0-4f75-be15-9ef0d341b501.png",
       "category": "dairy",
       "emoji": "🥛",
@@ -15325,31 +14976,37 @@ const OFFERS_DATA = {
         "f": 3.3,
         "c": 4.7
       },
-      "avg_price": 1.35,
-      "lowest_price": 1.27,
-      "lowest_price_date": "2026-10-22",
+      "avg_price": 1.45,
+      "lowest_price": 1.29,
+      "lowest_price_date": "2026-11-09",
       "price_history": [
         [
           "2026-05-16",
-          1.28,
-          1.51,
-          15
+          1.43,
+          null,
+          null
         ],
         [
           "2026-10-22",
-          1.27,
-          1.51,
-          16
+          1.53,
+          null,
+          null
         ],
         [
           "2026-11-09",
-          1.51,
+          1.29,
+          1.53,
+          16
+        ],
+        [
+          "2026-11-10",
+          1.53,
           null,
           null
         ]
       ],
-      "price_seen_count": 3,
-      "price_signal": "wait"
+      "price_seen_count": 4,
+      "price_signal": "normal"
     },
     {
       "store": "T-Market",
@@ -15433,11 +15090,11 @@ const OFFERS_DATA = {
       "address": null,
       "new_price": 1.55,
       "new_price_eur": 0.79,
-      "old_price": 1.68,
-      "old_price_eur": 0.86,
-      "discount_pct": 8,
-      "valid_from": "2026-10-20",
-      "valid_until": "2026-11-09",
+      "old_price": 1.76,
+      "old_price_eur": 0.9,
+      "discount_pct": 12,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-30",
       "price_per_kg": 3.88,
       "price_per_kg_eur": 1.98,
       "source_type": "promo",
@@ -15449,19 +15106,19 @@ const OFFERS_DATA = {
           "store": "T-Market",
           "price": 1.55,
           "price_eur": 0.79,
-          "old_price": 1.68,
-          "old_price_eur": 0.86,
-          "discount_pct": 8,
+          "old_price": 1.76,
+          "old_price_eur": 0.9,
+          "discount_pct": 12,
           "source_type": "promo"
         }
       ],
       "best_price_store": "T-Market",
       "best_price": 1.55,
       "comparison_count": 1,
-      "product_id": "tmarket-кисело-мляко-елби-2-бдс-400гр-400g",
+      "product_id": "tmarket-кисело-мляко-елби-3-6-бдс-400гр-400g",
       "weight_grams": 400,
       "weight_raw": "400гр",
-      "name": "Кисело мляко ЕЛБИ 2% БДС 400гр",
+      "name": "Кисело мляко ЕЛБИ 3.6% БДС 400гр",
       "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/c09e1a9a-d1b0-4f75-be15-9ef0d341b501.png",
       "category": "dairy",
       "emoji": "🥛",
@@ -15485,21 +15142,21 @@ const OFFERS_DATA = {
         "f": 3.3,
         "c": 4.7
       },
-      "avg_price": 1.61,
+      "avg_price": 1.66,
       "lowest_price": 1.55,
-      "lowest_price_date": "2026-10-22",
+      "lowest_price_date": "2026-11-10",
       "price_history": [
         [
           "2026-05-16",
-          1.68,
+          1.76,
           null,
           null
         ],
         [
-          "2026-10-22",
+          "2026-11-10",
           1.55,
-          1.68,
-          8
+          1.76,
+          12
         ]
       ],
       "price_seen_count": 2,
@@ -15586,6 +15243,95 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 3,
+      "price_signal": "normal"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 1.56,
+      "new_price_eur": 0.8,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 3.9,
+      "price_per_kg_eur": 1.99,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 1.56,
+          "price_eur": 0.8,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 1.56,
+      "comparison_count": 1,
+      "product_id": "tmarket-кисело-мляко-верея-чудно-2-5-400гр-400g",
+      "weight_grams": 400,
+      "weight_raw": "400гр",
+      "name": "Кисело мляко ВЕРЕЯ Чудно 2.5% 400гр",
+      "image": "https://tmarketonline.bg/cdn/img/products/39184/kiselo-mlako-verea-cudno-2-5--400-g-image_63c11075e1b03.jpeg?width=1920&height=1920&v=1777589878",
+      "category": "dairy",
+      "emoji": "🥛",
+      "health_score": 7,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": true,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "high_protein",
+        "vegetarian",
+        "budget"
+      ],
+      "macros": {
+        "kcal": 61,
+        "p": 3.5,
+        "f": 3.3,
+        "c": 4.7
+      },
+      "avg_price": 1.48,
+      "lowest_price": 1.35,
+      "lowest_price_date": "2026-05-16",
+      "price_history": [
+        [
+          "2026-05-16",
+          1.35,
+          1.56,
+          13
+        ],
+        [
+          "2026-10-22",
+          1.56,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          1.47,
+          1.56,
+          6
+        ],
+        [
+          "2026-11-10",
+          1.56,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 4,
       "price_signal": "normal"
     },
     {
@@ -16025,6 +15771,350 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
+      "new_price": 1.62,
+      "new_price_eur": 0.83,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 4.05,
+      "price_per_kg_eur": 2.07,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 1.62,
+          "price_eur": 0.83,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 1.62,
+      "comparison_count": 1,
+      "product_id": "tmarket-кисело-мляко-боженци-2-знп-400гр-400g",
+      "weight_grams": 400,
+      "weight_raw": "400гр",
+      "name": "Кисело мляко БОЖЕНЦИ 2% ЗНП 400гр",
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/c09e1a9a-d1b0-4f75-be15-9ef0d341b501.png",
+      "category": "dairy",
+      "emoji": "🥛",
+      "health_score": 7,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": true,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "high_protein",
+        "vegetarian",
+        "budget"
+      ],
+      "macros": {
+        "kcal": 61,
+        "p": 3.5,
+        "f": 3.3,
+        "c": 4.7
+      },
+      "avg_price": 1.54,
+      "lowest_price": 1.39,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-05-16",
+          1.62,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          1.39,
+          1.62,
+          14
+        ],
+        [
+          "2026-11-10",
+          1.62,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "normal"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 1.62,
+      "new_price_eur": 0.83,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 4.05,
+      "price_per_kg_eur": 2.07,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 1.62,
+          "price_eur": 0.83,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 1.62,
+      "comparison_count": 1,
+      "product_id": "tmarket-кисело-мляко-боженци-2-2-400гр-400g",
+      "weight_grams": 400,
+      "weight_raw": "400гр",
+      "name": "Кисело мляко БОЖЕНЦИ 2.2% 400гр",
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/c09e1a9a-d1b0-4f75-be15-9ef0d341b501.png",
+      "category": "dairy",
+      "emoji": "🥛",
+      "health_score": 7,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": true,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "high_protein",
+        "vegetarian",
+        "budget"
+      ],
+      "macros": {
+        "kcal": 61,
+        "p": 3.5,
+        "f": 3.3,
+        "c": 4.7
+      },
+      "avg_price": 1.51,
+      "lowest_price": 1.35,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-05-16",
+          1.62,
+          null,
+          null
+        ],
+        [
+          "2026-10-22",
+          1.47,
+          1.62,
+          9
+        ],
+        [
+          "2026-11-09",
+          1.35,
+          1.62,
+          17
+        ],
+        [
+          "2026-11-10",
+          1.62,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "normal"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 1.68,
+      "new_price_eur": 0.86,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 4.2,
+      "price_per_kg_eur": 2.15,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 1.68,
+          "price_eur": 0.86,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 1.68,
+      "comparison_count": 1,
+      "product_id": "tmarket-кисело-мляко-елби-2-бдс-400гр-400g",
+      "weight_grams": 400,
+      "weight_raw": "400гр",
+      "name": "Кисело мляко ЕЛБИ 2% БДС 400гр",
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/c09e1a9a-d1b0-4f75-be15-9ef0d341b501.png",
+      "category": "dairy",
+      "emoji": "🥛",
+      "health_score": 7,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": true,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "high_protein",
+        "vegetarian",
+        "budget"
+      ],
+      "macros": {
+        "kcal": 61,
+        "p": 3.5,
+        "f": 3.3,
+        "c": 4.7
+      },
+      "avg_price": 1.64,
+      "lowest_price": 1.55,
+      "lowest_price_date": "2026-10-22",
+      "price_history": [
+        [
+          "2026-05-16",
+          1.68,
+          null,
+          null
+        ],
+        [
+          "2026-10-22",
+          1.55,
+          1.68,
+          8
+        ],
+        [
+          "2026-11-10",
+          1.68,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "normal"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 1.7,
+      "new_price_eur": 0.87,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 4.25,
+      "price_per_kg_eur": 2.17,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 1.7,
+          "price_eur": 0.87,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 1.7,
+      "comparison_count": 1,
+      "product_id": "tmarket-кисело-мляко-саяна-2-знп-400гр-400g",
+      "weight_grams": 400,
+      "weight_raw": "400гр",
+      "name": "Кисело мляко САЯНА 2% ЗНП 400гр",
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/c09e1a9a-d1b0-4f75-be15-9ef0d341b501.png",
+      "category": "dairy",
+      "emoji": "🥛",
+      "health_score": 7,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": true,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "high_protein",
+        "vegetarian",
+        "budget"
+      ],
+      "macros": {
+        "kcal": 61,
+        "p": 3.5,
+        "f": 3.3,
+        "c": 4.7
+      },
+      "avg_price": 1.62,
+      "lowest_price": 1.45,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-05-16",
+          1.62,
+          null,
+          null
+        ],
+        [
+          "2026-10-22",
+          1.7,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          1.45,
+          1.7,
+          15
+        ],
+        [
+          "2026-11-10",
+          1.7,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "normal"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
       "new_price": 1.7,
       "new_price_eur": 0.87,
       "old_price": null,
@@ -16179,15 +16269,15 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 1.76,
-      "new_price_eur": 0.9,
+      "new_price": 1.72,
+      "new_price_eur": 0.88,
       "old_price": null,
       "old_price_eur": null,
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": 4.4,
-      "price_per_kg_eur": 2.25,
+      "price_per_kg": 4.3,
+      "price_per_kg_eur": 2.2,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -16195,8 +16285,8 @@ const OFFERS_DATA = {
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 1.76,
-          "price_eur": 0.9,
+          "price": 1.72,
+          "price_eur": 0.88,
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
@@ -16204,12 +16294,12 @@ const OFFERS_DATA = {
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 1.76,
+      "best_price": 1.72,
       "comparison_count": 1,
-      "product_id": "tmarket-кисело-мляко-елби-3-6-бдс-400гр-400g",
+      "product_id": "tmarket-кисело-мляко-саяна-3-6-400гр-400g",
       "weight_grams": 400,
       "weight_raw": "400гр",
-      "name": "Кисело мляко ЕЛБИ 3.6% БДС 400гр",
+      "name": "Кисело мляко САЯНА 3.6% 400гр",
       "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/c09e1a9a-d1b0-4f75-be15-9ef0d341b501.png",
       "category": "dairy",
       "emoji": "🥛",
@@ -16233,18 +16323,106 @@ const OFFERS_DATA = {
         "f": 3.3,
         "c": 4.7
       },
-      "avg_price": 1.76,
-      "lowest_price": 1.76,
+      "avg_price": 1.49,
+      "lowest_price": 1.15,
       "lowest_price_date": "2026-05-16",
       "price_history": [
         [
           "2026-05-16",
-          1.76,
+          1.15,
+          1.62,
+          29
+        ],
+        [
+          "2026-10-22",
+          1.62,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          1.47,
+          1.72,
+          15
+        ],
+        [
+          "2026-11-10",
+          1.72,
           null,
           null
         ]
       ],
-      "price_seen_count": 1,
+      "price_seen_count": 4,
+      "price_signal": "wait"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 1.74,
+      "new_price_eur": 0.89,
+      "old_price": 2.99,
+      "old_price_eur": 1.53,
+      "discount_pct": 42,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 1.74,
+          "price_eur": 0.89,
+          "old_price": 2.99,
+          "old_price_eur": 1.53,
+          "discount_pct": 42,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 1.74,
+      "comparison_count": 1,
+      "product_id": "tmarket-ябълки-шарени-кг-опс",
+      "name": "Ябълки Шарени кг. ОПС",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00078285_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "vegetable",
+      "emoji": "🥦",
+      "health_score": 7,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 52,
+        "p": 0.3,
+        "f": 0.2,
+        "c": 14
+      },
+      "avg_price": 2.37,
+      "lowest_price": 1.74,
+      "lowest_price_date": "2026-11-10",
+      "price_history": [
+        [
+          "2026-11-09",
+          2.99,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          1.74,
+          2.99,
+          42
+        ]
+      ],
+      "price_seen_count": 2,
       "price_signal": "buy"
     },
     {
@@ -16550,83 +16728,6 @@ const OFFERS_DATA = {
       "price_signal": "wait"
     },
     {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 1.8,
-      "new_price_eur": 0.92,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 4.5,
-      "price_per_kg_eur": 2.3,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 1.8,
-          "price_eur": 0.92,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 1.8,
-      "comparison_count": 1,
-      "product_id": "tmarket-кисело-мляко-балкан-3-6-400г-400g",
-      "weight_grams": 400,
-      "weight_raw": "400г",
-      "name": "Кисело мляко БАЛКАН 3,6% 400г",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/c09e1a9a-d1b0-4f75-be15-9ef0d341b501.png",
-      "category": "dairy",
-      "emoji": "🥛",
-      "health_score": 7,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": true,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "diet_tags": [
-        "high_protein",
-        "vegetarian",
-        "budget"
-      ],
-      "macros": {
-        "kcal": 61,
-        "p": 3.5,
-        "f": 3.3,
-        "c": 4.7
-      },
-      "avg_price": 1.73,
-      "lowest_price": 1.66,
-      "lowest_price_date": "2026-10-22",
-      "price_history": [
-        [
-          "2026-10-22",
-          1.66,
-          1.8,
-          8
-        ],
-        [
-          "2026-11-09",
-          1.8,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "normal"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 1.89,
@@ -16737,92 +16838,11 @@ const OFFERS_DATA = {
       "address": null,
       "new_price": 1.94,
       "new_price_eur": 0.99,
-      "old_price": 2.99,
-      "old_price_eur": 1.53,
-      "discount_pct": 35,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 4.85,
-      "price_per_kg_eur": 2.48,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 1.94,
-          "price_eur": 0.99,
-          "old_price": 2.99,
-          "old_price_eur": 1.53,
-          "discount_pct": 35,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 1.94,
-      "comparison_count": 1,
-      "product_id": "tmarket-грах-well-done-зелен-400гр-е-о-400g",
-      "weight_grams": 400,
-      "weight_raw": "400гр",
-      "name": "Грах WELL DONE зелен 400гр е.о",
-      "image": "https://tmarketonline.bg/cdn/img/products/51470/grah-well-done-zelen-400gr-6495cbd547a9e.jpeg?width=1920&height=1920&v=1777589979",
-      "category": "legume",
-      "emoji": "🫘",
-      "health_score": 7,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": true,
-      "is_good_fat": true,
-      "is_bulk_worthy": true,
-      "is_long_lasting": true,
-      "diet_tags": [
-        "budget"
-      ],
-      "macros": {
-        "kcal": 81,
-        "p": 5.4,
-        "f": 0.4,
-        "c": 14
-      },
-      "avg_price": 2.42,
-      "lowest_price": 1.94,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
-        [
-          "2026-05-16",
-          2.33,
-          2.99,
-          22
-        ],
-        [
-          "2026-10-22",
-          2.99,
-          null,
-          null
-        ],
-        [
-          "2026-11-09",
-          1.94,
-          2.99,
-          35
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 1.94,
-      "new_price_eur": 0.99,
-      "old_price": 3.99,
-      "old_price_eur": 2.04,
-      "discount_pct": 51,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
+      "old_price": 2.8,
+      "old_price_eur": 1.43,
+      "discount_pct": 31,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
       "price_per_kg": null,
       "price_per_kg_eur": null,
       "source_type": "promo",
@@ -16834,18 +16854,90 @@ const OFFERS_DATA = {
           "store": "T-Market",
           "price": 1.94,
           "price_eur": 0.99,
-          "old_price": 3.99,
-          "old_price_eur": 2.04,
-          "discount_pct": 51,
+          "old_price": 2.8,
+          "old_price_eur": 1.43,
+          "discount_pct": 31,
           "source_type": "promo"
         }
       ],
       "best_price_store": "T-Market",
       "best_price": 1.94,
       "comparison_count": 1,
-      "product_id": "tmarket-ябълки-златни-кг-клас-i",
-      "name": "Ябълки Златни кг.(Клас I )",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00078285_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "tmarket-домати-cirio-белени-конс-е-о-4ooг",
+      "name": "Домати CIRIO белени конс.е.о 4OOг",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4300175630092_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "vegetable",
+      "emoji": "🥦",
+      "health_score": 7,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 18,
+        "p": 0.9,
+        "f": 0.2,
+        "c": 3.9
+      },
+      "avg_price": 2.37,
+      "lowest_price": 1.94,
+      "lowest_price_date": "2026-11-10",
+      "price_history": [
+        [
+          "2026-05-16",
+          2.8,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          1.94,
+          2.8,
+          31
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 1.94,
+      "new_price_eur": 0.99,
+      "old_price": 2.8,
+      "old_price_eur": 1.43,
+      "discount_pct": 31,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 4.85,
+      "price_per_kg_eur": 2.48,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 1.94,
+          "price_eur": 0.99,
+          "old_price": 2.8,
+          "old_price_eur": 1.43,
+          "discount_pct": 31,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 1.94,
+      "comparison_count": 1,
+      "product_id": "tmarket-домати-cirio-рязани-конс-e-o-400г-400g",
+      "weight_grams": 400,
+      "weight_raw": "400г",
+      "name": "Домати CIRIO рязани конс. e.o.400г",
+      "image": "https://tmarketonline.bg/cdn/img/products/49479/domati-cirio-razani-kons--e-o-400g-6368a83e49884.jpeg?width=600&height=600&v=1777589964",
       "category": "vegetable",
       "emoji": "🥦",
       "health_score": 7,
@@ -16857,24 +16949,39 @@ const OFFERS_DATA = {
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
+      "diet_tags": [
+        "budget"
+      ],
       "macros": {
-        "kcal": 52,
-        "p": 0.3,
+        "kcal": 18,
+        "p": 0.9,
         "f": 0.2,
-        "c": 14
+        "c": 3.9
       },
-      "avg_price": 1.94,
+      "avg_price": 2.23,
       "lowest_price": 1.94,
-      "lowest_price_date": "2026-11-09",
+      "lowest_price_date": "2026-04-20",
       "price_history": [
         [
-          "2026-11-09",
+          "2026-04-20",
           1.94,
-          3.99,
-          51
+          2.8,
+          31
+        ],
+        [
+          "2026-05-07",
+          2.8,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          1.94,
+          2.8,
+          31
         ]
       ],
-      "price_seen_count": 1,
+      "price_seen_count": 3,
       "price_signal": "buy"
     },
     {
@@ -17024,15 +17131,15 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 1.96,
-      "new_price_eur": 1.0,
+      "new_price": 1.98,
+      "new_price_eur": 1.01,
       "old_price": null,
       "old_price_eur": null,
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": 65.33,
-      "price_per_kg_eur": 33.4,
+      "price_per_kg": 4.95,
+      "price_per_kg_eur": 2.53,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -17040,8 +17147,8 @@ const OFFERS_DATA = {
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 1.96,
-          "price_eur": 1.0,
+          "price": 1.98,
+          "price_eur": 1.01,
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
@@ -17049,43 +17156,54 @@ const OFFERS_DATA = {
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 1.96,
+      "best_price": 1.98,
       "comparison_count": 1,
-      "product_id": "tmarket-чаи-биопрограма-зелен-20x1-5гр-30g",
-      "weight_grams": 30,
-      "weight_raw": "20x1.5гр",
-      "name": "Чай БИОПРОГРАМА зелен 20x1.5гр",
-      "image": "https://tmarketonline.bg/cdn/img/products/39475/caj-bioprograma-zelen-20x1-5-g-image_5ea2cd20e5acb.png?width=600&height=600&v=1777589877",
-      "category": "vegetable",
-      "emoji": "🥦",
+      "product_id": "tmarket-кисело-мляко-елена-3-6-400гр-400g",
+      "weight_grams": 400,
+      "weight_raw": "400гр",
+      "name": "Кисело мляко ЕЛЕНА 3.6% 400гр",
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/c09e1a9a-d1b0-4f75-be15-9ef0d341b501.png",
+      "category": "dairy",
+      "emoji": "🥛",
       "health_score": 7,
       "is_food": true,
       "is_junk": false,
       "is_healthy": true,
-      "is_high_protein": false,
+      "is_high_protein": true,
       "is_good_carb": false,
       "is_good_fat": true,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
+      "diet_tags": [
+        "high_protein",
+        "vegetarian",
+        "budget"
+      ],
       "macros": {
-        "kcal": 25,
-        "p": 1.3,
-        "f": 0.1,
-        "c": 6
+        "kcal": 61,
+        "p": 3.5,
+        "f": 3.3,
+        "c": 4.7
       },
-      "avg_price": 1.96,
-      "lowest_price": 1.96,
-      "lowest_price_date": "2026-05-16",
+      "avg_price": 1.83,
+      "lowest_price": 1.68,
+      "lowest_price_date": "2026-10-22",
       "price_history": [
         [
-          "2026-05-16",
-          1.96,
+          "2026-10-22",
+          1.68,
+          1.98,
+          15
+        ],
+        [
+          "2026-11-10",
+          1.98,
           null,
           null
         ]
       ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
+      "price_seen_count": 2,
+      "price_signal": "wait"
     },
     {
       "store": "Kaufland",
@@ -17319,6 +17437,162 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 2.25,
+      "new_price_eur": 1.15,
+      "old_price": 2.62,
+      "old_price_eur": 1.34,
+      "discount_pct": 14,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-30",
+      "price_per_kg": 93.75,
+      "price_per_kg_eur": 47.93,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 2.25,
+          "price_eur": 1.15,
+          "old_price": 2.62,
+          "old_price_eur": 1.34,
+          "discount_pct": 14,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 2.25,
+      "comparison_count": 1,
+      "product_id": "tmarket-чаи-лукчета-бронхо-12бр-24гр-24g",
+      "weight_grams": 24,
+      "weight_raw": "24гр",
+      "name": "Чай ЛУКЧЕТА бронхо 12бр,24гр",
+      "image": "https://tmarketonline.bg/cdn/img/products/49525/caj-lukceta-bronho-12br24gr-636e538a09607.jpeg?width=1920&height=1920&v=1777589961",
+      "category": "vegetable",
+      "emoji": "🥦",
+      "health_score": 7,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 40,
+        "p": 1.1,
+        "f": 0.1,
+        "c": 9.3
+      },
+      "avg_price": 2.44,
+      "lowest_price": 2.25,
+      "lowest_price_date": "2026-11-10",
+      "price_history": [
+        [
+          "2026-05-16",
+          2.44,
+          null,
+          null
+        ],
+        [
+          "2026-10-22",
+          2.62,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          2.25,
+          2.62,
+          14
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 2.25,
+      "new_price_eur": 1.15,
+      "old_price": 2.62,
+      "old_price_eur": 1.34,
+      "discount_pct": 14,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-30",
+      "price_per_kg": 93.75,
+      "price_per_kg_eur": 47.93,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 2.25,
+          "price_eur": 1.15,
+          "old_price": 2.62,
+          "old_price_eur": 1.34,
+          "discount_pct": 14,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 2.25,
+      "comparison_count": 1,
+      "product_id": "tmarket-чаи-лукчета-мента-и-лимон-12бр-24гр-24g",
+      "weight_grams": 24,
+      "weight_raw": "24гр",
+      "name": "Чай ЛУКЧЕТА мента и лимон 12бр, 24гр",
+      "image": "https://tmarketonline.bg/cdn/img/products/49526/caj-lukceta-menta-i-limon-12br-24gr-636e5422996fa.jpeg?width=1920&height=1920&v=1777589961",
+      "category": "vegetable",
+      "emoji": "🥦",
+      "health_score": 7,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 29,
+        "p": 1.1,
+        "f": 0.3,
+        "c": 9
+      },
+      "avg_price": 2.44,
+      "lowest_price": 2.25,
+      "lowest_price_date": "2026-11-10",
+      "price_history": [
+        [
+          "2026-05-16",
+          2.44,
+          null,
+          null
+        ],
+        [
+          "2026-10-22",
+          2.62,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          2.25,
+          2.62,
+          14
+        ]
+      ],
+      "price_seen_count": 3,
       "price_signal": "buy"
     },
     {
@@ -17609,6 +17883,87 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
+      "new_price": 2.35,
+      "new_price_eur": 1.2,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 5.88,
+      "price_per_kg_eur": 3.01,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 2.35,
+          "price_eur": 1.2,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 2.35,
+      "comparison_count": 1,
+      "product_id": "tmarket-домати-fiorre-на-кубчета-400гр-400g",
+      "weight_grams": 400,
+      "weight_raw": "400гр",
+      "name": "Домати FIORRE на кубчета 400гр",
+      "image": "https://tmarketonline.bg/cdn/img/products/48157/domati-fiorre-na-kubceta-400gr-image_61f9395bddc48.png?width=600&height=600&v=1777589952",
+      "category": "vegetable",
+      "emoji": "🥦",
+      "health_score": 7,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 18,
+        "p": 0.9,
+        "f": 0.2,
+        "c": 3.9
+      },
+      "avg_price": 2.02,
+      "lowest_price": 1.35,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-04-20",
+          2.35,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          1.35,
+          2.35,
+          43
+        ],
+        [
+          "2026-11-10",
+          2.35,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "wait"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
       "new_price": 2.44,
       "new_price_eur": 1.25,
       "old_price": null,
@@ -17668,6 +18023,77 @@ const OFFERS_DATA = {
         [
           "2026-05-16",
           2.44,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 2.48,
+      "new_price_eur": 1.27,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 6.2,
+      "price_per_kg_eur": 3.17,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 2.48,
+          "price_eur": 1.27,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 2.48,
+      "comparison_count": 1,
+      "product_id": "tmarket-био-кисело-мляко-harmonica-3-6-400гр-400g",
+      "weight_grams": 400,
+      "weight_raw": "400гр",
+      "name": "БИО Кисело мляко HARMONICA 3,6% 400гр",
+      "image": "https://tmarketonline.bg/cdn/img/products/42061/bio-kiselo-mlako-harmonica-2--400-g-image_5f4641aa5beb4.png?width=1920&height=1920&v=1777589900",
+      "category": "dairy",
+      "emoji": "🥛",
+      "health_score": 7,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": true,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "high_protein",
+        "vegetarian",
+        "budget"
+      ],
+      "macros": {
+        "kcal": 61,
+        "p": 3.5,
+        "f": 3.3,
+        "c": 4.7
+      },
+      "avg_price": 2.48,
+      "lowest_price": 2.48,
+      "lowest_price_date": "2026-05-16",
+      "price_history": [
+        [
+          "2026-05-16",
+          2.48,
           null,
           null
         ]
@@ -17828,6 +18254,91 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
+      "new_price": 2.52,
+      "new_price_eur": 1.29,
+      "old_price": 3.6,
+      "old_price_eur": 1.84,
+      "discount_pct": 30,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 2.52,
+          "price_eur": 1.29,
+          "old_price": 3.6,
+          "old_price_eur": 1.84,
+          "discount_pct": 30,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 2.52,
+      "comparison_count": 1,
+      "product_id": "tmarket-банани-еквадор-кг-клас-i",
+      "name": "Банани, Еквадор, кг.(Клас I)",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/09700011_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "vegetable",
+      "emoji": "🥦",
+      "health_score": 7,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "vegetarian"
+      ],
+      "macros": {
+        "kcal": 89,
+        "p": 1.1,
+        "f": 0.3,
+        "c": 23
+      },
+      "avg_price": 2.84,
+      "lowest_price": 2.52,
+      "lowest_price_date": "2026-10-22",
+      "price_history": [
+        [
+          "2026-05-16",
+          2.72,
+          3.6,
+          24
+        ],
+        [
+          "2026-10-22",
+          2.52,
+          3.6,
+          30
+        ],
+        [
+          "2026-11-09",
+          3.6,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          2.52,
+          3.6,
+          30
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
       "new_price": 2.54,
       "new_price_eur": 1.3,
       "old_price": null,
@@ -17968,150 +18479,6 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 2,
       "price_signal": "wait"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 2.62,
-      "new_price_eur": 1.34,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 109.17,
-      "price_per_kg_eur": 55.82,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 2.62,
-          "price_eur": 1.34,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 2.62,
-      "comparison_count": 1,
-      "product_id": "tmarket-чаи-лукчета-бронхо-12бр-24гр-24g",
-      "weight_grams": 24,
-      "weight_raw": "24гр",
-      "name": "Чай ЛУКЧЕТА бронхо 12бр,24гр",
-      "image": "https://tmarketonline.bg/cdn/img/products/49525/caj-lukceta-bronho-12br24gr-636e538a09607.jpeg?width=1920&height=1920&v=1777589961",
-      "category": "vegetable",
-      "emoji": "🥦",
-      "health_score": 7,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "macros": {
-        "kcal": 40,
-        "p": 1.1,
-        "f": 0.1,
-        "c": 9.3
-      },
-      "avg_price": 2.53,
-      "lowest_price": 2.44,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          2.44,
-          null,
-          null
-        ],
-        [
-          "2026-10-22",
-          2.62,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "normal"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 2.62,
-      "new_price_eur": 1.34,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 109.17,
-      "price_per_kg_eur": 55.82,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 2.62,
-          "price_eur": 1.34,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 2.62,
-      "comparison_count": 1,
-      "product_id": "tmarket-чаи-лукчета-мента-и-лимон-12бр-24гр-24g",
-      "weight_grams": 24,
-      "weight_raw": "24гр",
-      "name": "Чай ЛУКЧЕТА мента и лимон 12бр, 24гр",
-      "image": "https://tmarketonline.bg/cdn/img/products/49526/caj-lukceta-menta-i-limon-12br-24gr-636e5422996fa.jpeg?width=1920&height=1920&v=1777589961",
-      "category": "vegetable",
-      "emoji": "🥦",
-      "health_score": 7,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "macros": {
-        "kcal": 29,
-        "p": 1.1,
-        "f": 0.3,
-        "c": 9
-      },
-      "avg_price": 2.53,
-      "lowest_price": 2.44,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          2.44,
-          null,
-          null
-        ],
-        [
-          "2026-10-22",
-          2.62,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "normal"
     },
     {
       "store": "Kaufland",
@@ -18273,215 +18640,6 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 2.8,
-      "new_price_eur": 1.43,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 2.8,
-          "price_eur": 1.43,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 2.8,
-      "comparison_count": 1,
-      "product_id": "tmarket-домати-cirio-белени-конс-е-о-4ooг",
-      "name": "Домати CIRIO белени конс.е.о 4OOг",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/4300175630092_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "vegetable",
-      "emoji": "🥦",
-      "health_score": 7,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": true,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "macros": {
-        "kcal": 18,
-        "p": 0.9,
-        "f": 0.2,
-        "c": 3.9
-      },
-      "avg_price": 2.8,
-      "lowest_price": 2.8,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          2.8,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 2.8,
-      "new_price_eur": 1.43,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 7.0,
-      "price_per_kg_eur": 3.58,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 2.8,
-          "price_eur": 1.43,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 2.8,
-      "comparison_count": 1,
-      "product_id": "tmarket-домати-cirio-рязани-конс-e-o-400г-400g",
-      "weight_grams": 400,
-      "weight_raw": "400г",
-      "name": "Домати CIRIO рязани конс. e.o.400г",
-      "image": "https://tmarketonline.bg/cdn/img/products/49479/domati-cirio-razani-kons--e-o-400g-6368a83e49884.jpeg?width=600&height=600&v=1777589964",
-      "category": "vegetable",
-      "emoji": "🥦",
-      "health_score": 7,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "diet_tags": [
-        "budget"
-      ],
-      "macros": {
-        "kcal": 18,
-        "p": 0.9,
-        "f": 0.2,
-        "c": 3.9
-      },
-      "avg_price": 2.37,
-      "lowest_price": 1.94,
-      "lowest_price_date": "2026-04-20",
-      "price_history": [
-        [
-          "2026-04-20",
-          1.94,
-          2.8,
-          31
-        ],
-        [
-          "2026-05-07",
-          2.8,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "wait"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 2.86,
-      "new_price_eur": 1.46,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 15.05,
-      "price_per_kg_eur": 7.69,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 2.86,
-          "price_eur": 1.46,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 2.86,
-      "comparison_count": 1,
-      "product_id": "tmarket-био-пюре-bebivita-морков-ориз-пуика-190г-190g",
-      "weight_grams": 190,
-      "weight_raw": "190г",
-      "name": "Био пюре BEBIVITA морков,ориз,пуйка 190г",
-      "image": "https://tmarketonline.bg/cdn/img/products/54045/bio-pure-bebivita-morkovorizpujka-190-gr-65e07bff8827a.jpeg?width=1920&height=1920&v=1777589997",
-      "category": "grain",
-      "emoji": "🌾",
-      "health_score": 7,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": true,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "diet_tags": [
-        "mediterranean",
-        "vegetarian"
-      ],
-      "macros": {
-        "kcal": 41,
-        "p": 0.9,
-        "f": 0.2,
-        "c": 10
-      },
-      "avg_price": 2.86,
-      "lowest_price": 2.86,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          2.86,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
       "new_price": 2.89,
       "new_price_eur": 1.48,
       "old_price": null,
@@ -18578,72 +18736,8 @@ const OFFERS_DATA = {
       "best_price_store": "T-Market",
       "best_price": 2.99,
       "comparison_count": 1,
-      "product_id": "tmarket-ябълки-шарени-кг-опс",
-      "name": "Ябълки Шарени кг. ОПС",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00078285_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "vegetable",
-      "emoji": "🥦",
-      "health_score": 7,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "macros": {
-        "kcal": 52,
-        "p": 0.3,
-        "f": 0.2,
-        "c": 14
-      },
-      "avg_price": 2.99,
-      "lowest_price": 2.99,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
-        [
-          "2026-11-09",
-          2.99,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 2.99,
-      "new_price_eur": 1.53,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 2.99,
-          "price_eur": 1.53,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 2.99,
-      "comparison_count": 1,
-      "product_id": "tmarket-портокали-юар-кг-класii",
-      "name": "Портокали, Юар , кг (КласII)",
+      "product_id": "tmarket-портокали-кг-класii",
+      "name": "Портокали кг. (КласII)",
       "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_00112165_P.jpg",
       "category": "vegetable",
       "emoji": "🥦",
@@ -18664,10 +18758,10 @@ const OFFERS_DATA = {
       },
       "avg_price": 2.99,
       "lowest_price": 2.99,
-      "lowest_price_date": "2026-11-09",
+      "lowest_price_date": "2026-11-10",
       "price_history": [
         [
-          "2026-11-09",
+          "2026-11-10",
           2.99,
           null,
           null
@@ -18675,6 +18769,93 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 1,
       "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 2.99,
+      "new_price_eur": 1.53,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 7.48,
+      "price_per_kg_eur": 3.82,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 2.99,
+          "price_eur": 1.53,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 2.99,
+      "comparison_count": 1,
+      "product_id": "tmarket-грах-well-done-зелен-400гр-е-о-400g",
+      "weight_grams": 400,
+      "weight_raw": "400гр",
+      "name": "Грах WELL DONE зелен 400гр е.о",
+      "image": "https://tmarketonline.bg/cdn/img/products/51470/grah-well-done-zelen-400gr-6495cbd547a9e.jpeg?width=1920&height=1920&v=1777589979",
+      "category": "legume",
+      "emoji": "🫘",
+      "health_score": 7,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": true,
+      "is_good_fat": true,
+      "is_bulk_worthy": true,
+      "is_long_lasting": true,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 81,
+        "p": 5.4,
+        "f": 0.4,
+        "c": 14
+      },
+      "avg_price": 2.56,
+      "lowest_price": 1.94,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-05-16",
+          2.33,
+          2.99,
+          22
+        ],
+        [
+          "2026-10-22",
+          2.99,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          1.94,
+          2.99,
+          35
+        ],
+        [
+          "2026-11-10",
+          2.99,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "wait"
     },
     {
       "store": "Kaufland",
@@ -18914,6 +19095,153 @@ const OFFERS_DATA = {
       "price_signal": "wait"
     },
     {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 3.48,
+      "new_price_eur": 1.78,
+      "old_price": 4.34,
+      "old_price_eur": 2.22,
+      "discount_pct": 20,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-30",
+      "price_per_kg": 18.32,
+      "price_per_kg_eur": 9.37,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 3.48,
+          "price_eur": 1.78,
+          "old_price": 4.34,
+          "old_price_eur": 2.22,
+          "discount_pct": 20,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 3.48,
+      "comparison_count": 1,
+      "product_id": "tmarket-каша-hipp-bio-бисквити-яб-и-банан-190гр-190g",
+      "weight_grams": 190,
+      "weight_raw": "190гр",
+      "name": "Каша HIPP Bio бисквити яб. и банан 190гр",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20868619_626?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "grain",
+      "emoji": "🌾",
+      "health_score": 7,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": true,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "diet_tags": [
+        "vegetarian"
+      ],
+      "macros": {
+        "kcal": 89,
+        "p": 1.1,
+        "f": 0.3,
+        "c": 23
+      },
+      "avg_price": 3.91,
+      "lowest_price": 3.48,
+      "lowest_price_date": "2026-11-10",
+      "price_history": [
+        [
+          "2026-05-16",
+          4.34,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          3.48,
+          4.34,
+          20
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 3.48,
+      "new_price_eur": 1.78,
+      "old_price": 4.34,
+      "old_price_eur": 2.22,
+      "discount_pct": 20,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-30",
+      "price_per_kg": 18.32,
+      "price_per_kg_eur": 9.37,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 3.48,
+          "price_eur": 1.78,
+          "old_price": 4.34,
+          "old_price_eur": 2.22,
+          "discount_pct": 20,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 3.48,
+      "comparison_count": 1,
+      "product_id": "tmarket-пюре-hipp-bio-различни-зеленчуци-190гр-190g",
+      "weight_grams": 190,
+      "weight_raw": "190гр",
+      "name": "Пюре HIPP Bio различни зеленчуци 190гр",
+      "image": "https://tmarketonline.bg/cdn/img/products/45177/pure-hipp-bio-razlicni-zelencuci-190-g-image_5f4d0502bb958.jpeg?width=1920&height=1920&v=1777589923",
+      "category": "vegetable",
+      "emoji": "🥦",
+      "health_score": 7,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 25,
+        "p": 1.3,
+        "f": 0.1,
+        "c": 6
+      },
+      "avg_price": 3.91,
+      "lowest_price": 3.48,
+      "lowest_price_date": "2026-11-10",
+      "price_history": [
+        [
+          "2026-05-16",
+          4.34,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          3.48,
+          4.34,
+          20
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
       "store": "Kaufland",
       "address": null,
       "new_price": 3.59,
@@ -19028,8 +19356,8 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 3.6,
-      "new_price_eur": 1.84,
+      "new_price": 3.99,
+      "new_price_eur": 2.04,
       "old_price": null,
       "old_price_eur": null,
       "discount_pct": null,
@@ -19044,8 +19372,8 @@ const OFFERS_DATA = {
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 3.6,
-          "price_eur": 1.84,
+          "price": 3.99,
+          "price_eur": 2.04,
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
@@ -19053,90 +19381,11 @@ const OFFERS_DATA = {
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 3.6,
+      "best_price": 3.99,
       "comparison_count": 1,
-      "product_id": "tmarket-банани-еквадор-кг-клас-i",
-      "name": "Банани, Еквадор, кг.(Клас I)",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/09700011_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "vegetable",
-      "emoji": "🥦",
-      "health_score": 7,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "diet_tags": [
-        "vegetarian"
-      ],
-      "macros": {
-        "kcal": 89,
-        "p": 1.1,
-        "f": 0.3,
-        "c": 23
-      },
-      "avg_price": 2.95,
-      "lowest_price": 2.52,
-      "lowest_price_date": "2026-10-22",
-      "price_history": [
-        [
-          "2026-05-16",
-          2.72,
-          3.6,
-          24
-        ],
-        [
-          "2026-10-22",
-          2.52,
-          3.6,
-          30
-        ],
-        [
-          "2026-11-09",
-          3.6,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "wait"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 3.7,
-      "new_price_eur": 1.89,
-      "old_price": 4.48,
-      "old_price_eur": 2.29,
-      "discount_pct": 17,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 3.7,
-          "price_eur": 1.89,
-          "old_price": 4.48,
-          "old_price_eur": 2.29,
-          "discount_pct": 17,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 3.7,
-      "comparison_count": 1,
-      "product_id": "tmarket-краставици-българия-кг-опс",
-      "name": "Краставици България кг.ОПС",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/2830240000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "tmarket-ябълки-златни-кг-клас-i",
+      "name": "Ябълки Златни кг.(Клас I )",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00078285_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "vegetable",
       "emoji": "🥦",
       "health_score": 7,
@@ -19149,30 +19398,30 @@ const OFFERS_DATA = {
       "is_bulk_worthy": false,
       "is_long_lasting": false,
       "macros": {
-        "kcal": 15,
-        "p": 0.7,
-        "f": 0.1,
-        "c": 3.6
+        "kcal": 52,
+        "p": 0.3,
+        "f": 0.2,
+        "c": 14
       },
-      "avg_price": 4.09,
-      "lowest_price": 3.7,
+      "avg_price": 2.96,
+      "lowest_price": 1.94,
       "lowest_price_date": "2026-11-09",
       "price_history": [
         [
-          "2026-10-22",
-          4.48,
-          null,
-          null
+          "2026-11-09",
+          1.94,
+          3.99,
+          51
         ],
         [
-          "2026-11-09",
-          3.7,
-          4.48,
-          17
+          "2026-11-10",
+          3.99,
+          null,
+          null
         ]
       ],
       "price_seen_count": 2,
-      "price_signal": "buy"
+      "price_signal": "wait"
     },
     {
       "store": "T-Market",
@@ -19316,38 +19565,38 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 4.34,
-      "new_price_eur": 2.22,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 22.84,
-      "price_per_kg_eur": 11.68,
-      "source_type": "assortment",
+      "new_price": 4.22,
+      "new_price_eur": 2.16,
+      "old_price": 5.28,
+      "old_price_eur": 2.7,
+      "discount_pct": 20,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-30",
+      "price_per_kg": 19.18,
+      "price_per_kg_eur": 9.81,
+      "source_type": "promo",
       "available_stores": [
         "T-Market"
       ],
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 4.34,
-          "price_eur": 2.22,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
+          "price": 4.22,
+          "price_eur": 2.16,
+          "old_price": 5.28,
+          "old_price_eur": 2.7,
+          "discount_pct": 20,
+          "source_type": "promo"
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 4.34,
+      "best_price": 4.22,
       "comparison_count": 1,
-      "product_id": "tmarket-каша-hipp-bio-бисквити-яб-и-банан-190гр-190g",
-      "weight_grams": 190,
-      "weight_raw": "190гр",
-      "name": "Каша HIPP Bio бисквити яб. и банан 190гр",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20868619_626?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "tmarket-пюре-hipp-bio-зеленч-ориз-телеш-220гр-220g",
+      "weight_grams": 220,
+      "weight_raw": "220гр",
+      "name": "Пюре HIPP Bio зеленч/ориз/телеш. 220гр",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/285_2020791732_1_1_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "grain",
       "emoji": "🌾",
       "health_score": 7,
@@ -19356,96 +19605,36 @@ const OFFERS_DATA = {
       "is_healthy": true,
       "is_high_protein": false,
       "is_good_carb": true,
-      "is_good_fat": false,
+      "is_good_fat": true,
       "is_bulk_worthy": false,
       "is_long_lasting": true,
       "diet_tags": [
         "vegetarian"
       ],
       "macros": {
-        "kcal": 89,
-        "p": 1.1,
+        "kcal": 130,
+        "p": 2.7,
         "f": 0.3,
-        "c": 23
+        "c": 28
       },
-      "avg_price": 4.34,
-      "lowest_price": 4.34,
-      "lowest_price_date": "2026-05-16",
+      "avg_price": 4.75,
+      "lowest_price": 4.22,
+      "lowest_price_date": "2026-11-10",
       "price_history": [
         [
           "2026-05-16",
-          4.34,
+          5.28,
           null,
           null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 4.34,
-      "new_price_eur": 2.22,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 22.84,
-      "price_per_kg_eur": 11.68,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 4.34,
-          "price_eur": 2.22,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 4.34,
-      "comparison_count": 1,
-      "product_id": "tmarket-пюре-hipp-bio-различни-зеленчуци-190гр-190g",
-      "weight_grams": 190,
-      "weight_raw": "190гр",
-      "name": "Пюре HIPP Bio различни зеленчуци 190гр",
-      "image": "https://tmarketonline.bg/cdn/img/products/45177/pure-hipp-bio-razlicni-zelencuci-190-g-image_5f4d0502bb958.jpeg?width=1920&height=1920&v=1777589923",
-      "category": "vegetable",
-      "emoji": "🥦",
-      "health_score": 7,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": true,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "macros": {
-        "kcal": 25,
-        "p": 1.3,
-        "f": 0.1,
-        "c": 6
-      },
-      "avg_price": 4.34,
-      "lowest_price": 4.34,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
+        ],
         [
-          "2026-05-16",
-          4.34,
-          null,
-          null
+          "2026-11-10",
+          4.22,
+          5.28,
+          20
         ]
       ],
-      "price_seen_count": 1,
+      "price_seen_count": 2,
       "price_signal": "buy"
     },
     {
@@ -19517,6 +19706,82 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 1,
       "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 4.48,
+      "new_price_eur": 2.29,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 4.48,
+          "price_eur": 2.29,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 4.48,
+      "comparison_count": 1,
+      "product_id": "tmarket-краставици-българия-кг-опс",
+      "name": "Краставици България кг.ОПС",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/2830240000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "vegetable",
+      "emoji": "🥦",
+      "health_score": 7,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 15,
+        "p": 0.7,
+        "f": 0.1,
+        "c": 3.6
+      },
+      "avg_price": 4.22,
+      "lowest_price": 3.7,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-10-22",
+          4.48,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          3.7,
+          4.48,
+          17
+        ],
+        [
+          "2026-11-10",
+          4.48,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "normal"
     },
     {
       "store": "Kaufland",
@@ -19653,176 +19918,6 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 2,
       "price_signal": "normal"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 4.64,
-      "new_price_eur": 2.37,
-      "old_price": 5.46,
-      "old_price_eur": 2.79,
-      "discount_pct": 15,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 23.2,
-      "price_per_kg_eur": 11.86,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 4.64,
-          "price_eur": 2.37,
-          "old_price": 5.46,
-          "old_price_eur": 2.79,
-          "discount_pct": 15,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 4.64,
-      "comparison_count": 1,
-      "product_id": "tmarket-краве-сирене-верея-200г-200g",
-      "weight_grams": 200,
-      "weight_raw": "200г",
-      "name": "Краве сирене ВЕРЕЯ 200г",
-      "image": "https://tmarketonline.bg/cdn/img/products/48760/krave-sirene-verea-200g-62d6a927d6ed6.jpeg?width=600&height=600&v=1777589955",
-      "category": "dairy",
-      "emoji": "🥛",
-      "health_score": 7,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "diet_tags": [
-        "keto",
-        "vegetarian"
-      ],
-      "macros": {
-        "kcal": 264,
-        "p": 14,
-        "f": 22,
-        "c": 2
-      },
-      "avg_price": 5.05,
-      "lowest_price": 4.64,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-04-20",
-          5.46,
-          null,
-          null
-        ],
-        [
-          "2026-05-16",
-          4.64,
-          5.46,
-          15
-        ],
-        [
-          "2026-10-22",
-          5.46,
-          null,
-          null
-        ],
-        [
-          "2026-11-09",
-          4.64,
-          5.46,
-          15
-        ]
-      ],
-      "price_seen_count": 4,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 4.67,
-      "new_price_eur": 2.39,
-      "old_price": 5.75,
-      "old_price_eur": 2.94,
-      "discount_pct": 19,
-      "valid_from": "2026-10-20",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 23.35,
-      "price_per_kg_eur": 11.94,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 4.67,
-          "price_eur": 2.39,
-          "old_price": 5.75,
-          "old_price_eur": 2.94,
-          "discount_pct": 19,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 4.67,
-      "comparison_count": 1,
-      "product_id": "tmarket-краве-сирене-родопско-чудо-200гр-200g",
-      "weight_grams": 200,
-      "weight_raw": "200гр",
-      "name": "Краве сирене РОДОПСКО ЧУДО 200гр",
-      "image": "https://tmarketonline.bg/cdn/img/products/48263/krave-sirene-rodopsko-cudo-200gr-621fa2f194c56.jpeg?width=600&height=600&v=1777589951",
-      "category": "dairy",
-      "emoji": "🥛",
-      "health_score": 7,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "diet_tags": [
-        "keto",
-        "vegetarian"
-      ],
-      "macros": {
-        "kcal": 264,
-        "p": 14,
-        "f": 22,
-        "c": 2
-      },
-      "avg_price": 5.1,
-      "lowest_price": 4.67,
-      "lowest_price_date": "2026-10-22",
-      "price_history": [
-        [
-          "2026-04-20",
-          4.89,
-          5.75,
-          15
-        ],
-        [
-          "2026-05-07",
-          5.75,
-          null,
-          null
-        ],
-        [
-          "2026-10-22",
-          4.67,
-          5.75,
-          19
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "buy"
     },
     {
       "store": "T-Market",
@@ -20118,75 +20213,6 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 5.28,
-      "new_price_eur": 2.7,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 24.0,
-      "price_per_kg_eur": 12.27,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 5.28,
-          "price_eur": 2.7,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 5.28,
-      "comparison_count": 1,
-      "product_id": "tmarket-пюре-hipp-bio-зеленч-ориз-телеш-220гр-220g",
-      "weight_grams": 220,
-      "weight_raw": "220гр",
-      "name": "Пюре HIPP Bio зеленч/ориз/телеш. 220гр",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/285_2020791732_1_1_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "grain",
-      "emoji": "🌾",
-      "health_score": 7,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": true,
-      "is_good_fat": true,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "diet_tags": [
-        "vegetarian"
-      ],
-      "macros": {
-        "kcal": 130,
-        "p": 2.7,
-        "f": 0.3,
-        "c": 28
-      },
-      "avg_price": 5.28,
-      "lowest_price": 5.28,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          5.28,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
       "new_price": 5.4,
       "new_price_eur": 2.76,
       "old_price": null,
@@ -20392,6 +20418,100 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 5.46,
+      "new_price_eur": 2.79,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 27.3,
+      "price_per_kg_eur": 13.96,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 5.46,
+          "price_eur": 2.79,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 5.46,
+      "comparison_count": 1,
+      "product_id": "tmarket-краве-сирене-верея-200г-200g",
+      "weight_grams": 200,
+      "weight_raw": "200г",
+      "name": "Краве сирене ВЕРЕЯ 200г",
+      "image": "https://tmarketonline.bg/cdn/img/products/48760/krave-sirene-verea-200g-62d6a927d6ed6.jpeg?width=600&height=600&v=1777589955",
+      "category": "dairy",
+      "emoji": "🥛",
+      "health_score": 7,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "keto",
+        "vegetarian"
+      ],
+      "macros": {
+        "kcal": 264,
+        "p": 14,
+        "f": 22,
+        "c": 2
+      },
+      "avg_price": 5.13,
+      "lowest_price": 4.64,
+      "lowest_price_date": "2026-05-16",
+      "price_history": [
+        [
+          "2026-04-20",
+          5.46,
+          null,
+          null
+        ],
+        [
+          "2026-05-16",
+          4.64,
+          5.46,
+          15
+        ],
+        [
+          "2026-10-22",
+          5.46,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          4.64,
+          5.46,
+          15
+        ],
+        [
+          "2026-11-10",
+          5.46,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 5,
+      "price_signal": "normal"
+    },
+    {
       "store": "Kaufland",
       "address": null,
       "new_price": 5.49,
@@ -20552,6 +20672,94 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
+      "new_price": 6.06,
+      "new_price_eur": 3.1,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 30.3,
+      "price_per_kg_eur": 15.49,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 6.06,
+          "price_eur": 3.1,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 6.06,
+      "comparison_count": 1,
+      "product_id": "tmarket-краве-сирене-родопско-чудо-200гр-200g",
+      "weight_grams": 200,
+      "weight_raw": "200гр",
+      "name": "Краве сирене РОДОПСКО ЧУДО 200гр",
+      "image": "https://tmarketonline.bg/cdn/img/products/48263/krave-sirene-rodopsko-cudo-200gr-621fa2f194c56.jpeg?width=600&height=600&v=1777589951",
+      "category": "dairy",
+      "emoji": "🥛",
+      "health_score": 7,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "keto",
+        "vegetarian"
+      ],
+      "macros": {
+        "kcal": 264,
+        "p": 14,
+        "f": 22,
+        "c": 2
+      },
+      "avg_price": 5.34,
+      "lowest_price": 4.67,
+      "lowest_price_date": "2026-10-22",
+      "price_history": [
+        [
+          "2026-04-20",
+          4.89,
+          5.75,
+          15
+        ],
+        [
+          "2026-05-07",
+          5.75,
+          null,
+          null
+        ],
+        [
+          "2026-10-22",
+          4.67,
+          5.75,
+          19
+        ],
+        [
+          "2026-11-10",
+          6.06,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "wait"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
       "new_price": 6.36,
       "new_price_eur": 3.25,
       "old_price": null,
@@ -20686,15 +20894,15 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 7.02,
-      "new_price_eur": 3.59,
+      "new_price": 7.22,
+      "new_price_eur": 3.69,
       "old_price": 8.1,
       "old_price_eur": 4.14,
-      "discount_pct": 13,
-      "valid_from": "2026-10-20",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 17.55,
-      "price_per_kg_eur": 8.97,
+      "discount_pct": 11,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-30",
+      "price_per_kg": 28.88,
+      "price_per_kg_eur": 14.77,
       "source_type": "promo",
       "available_stores": [
         "T-Market"
@@ -20702,22 +20910,22 @@ const OFFERS_DATA = {
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 7.02,
-          "price_eur": 3.59,
+          "price": 7.22,
+          "price_eur": 3.69,
           "old_price": 8.1,
           "old_price_eur": 4.14,
-          "discount_pct": 13,
+          "discount_pct": 11,
           "source_type": "promo"
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 7.02,
+      "best_price": 7.22,
       "comparison_count": 1,
-      "product_id": "tmarket-краве-сирене-хаджииски-400г-400g",
-      "weight_grams": 400,
-      "weight_raw": "400г",
-      "name": "Краве сирене ХАДЖИЙСКИ 400г",
-      "image": "https://tmarketonline.bg/cdn/img/products/54932/krave-sirene-hadzijski-kg-670ba9a1524c2.jpeg?width=1920&height=1920&v=1777590003",
+      "product_id": "tmarket-сирене-president-salakis-250гр-250g",
+      "weight_grams": 250,
+      "weight_raw": "250гр",
+      "name": "Сирене PRESIDENT Salakis 250гр",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/2851300000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "dairy",
       "emoji": "🥛",
       "health_score": 7,
@@ -20739,9 +20947,9 @@ const OFFERS_DATA = {
         "f": 22,
         "c": 2
       },
-      "avg_price": 7.56,
-      "lowest_price": 7.02,
-      "lowest_price_date": "2026-10-22",
+      "avg_price": 7.66,
+      "lowest_price": 7.22,
+      "lowest_price_date": "2026-11-10",
       "price_history": [
         [
           "2026-05-16",
@@ -20750,177 +20958,13 @@ const OFFERS_DATA = {
           null
         ],
         [
-          "2026-10-22",
-          7.02,
+          "2026-11-10",
+          7.22,
           8.1,
-          13
+          11
         ]
       ],
       "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 7.08,
-      "new_price_eur": 3.62,
-      "old_price": 8.33,
-      "old_price_eur": 4.26,
-      "discount_pct": 15,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 17.7,
-      "price_per_kg_eur": 9.05,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 7.08,
-          "price_eur": 3.62,
-          "old_price": 8.33,
-          "old_price_eur": 4.26,
-          "discount_pct": 15,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 7.08,
-      "comparison_count": 1,
-      "product_id": "tmarket-краве-сирене-верея-400г-400g",
-      "weight_grams": 400,
-      "weight_raw": "400г",
-      "name": "Краве сирене ВЕРЕЯ 400г",
-      "image": "https://tmarketonline.bg/cdn/img/products/54609/balo-salamureno-sirene-verea-na-gramaz-6697cc85adf73.png?width=1920&height=1920&v=1777590002",
-      "category": "dairy",
-      "emoji": "🥛",
-      "health_score": 7,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "diet_tags": [
-        "keto",
-        "vegetarian"
-      ],
-      "macros": {
-        "kcal": 264,
-        "p": 14,
-        "f": 22,
-        "c": 2
-      },
-      "avg_price": 7.5,
-      "lowest_price": 7.08,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          7.08,
-          8.33,
-          15
-        ],
-        [
-          "2026-10-22",
-          8.33,
-          null,
-          null
-        ],
-        [
-          "2026-11-09",
-          7.08,
-          8.33,
-          15
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 7.1,
-      "new_price_eur": 3.63,
-      "old_price": 8.35,
-      "old_price_eur": 4.27,
-      "discount_pct": 15,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 17.75,
-      "price_per_kg_eur": 9.08,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 7.1,
-          "price_eur": 3.63,
-          "old_price": 8.35,
-          "old_price_eur": 4.27,
-          "discount_pct": 15,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 7.1,
-      "comparison_count": 1,
-      "product_id": "tmarket-краве-сирене-саяна-400гр-400g",
-      "weight_grams": 400,
-      "weight_raw": "400гр",
-      "name": "Краве сирене САЯНА 400гр",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00048069C_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "dairy",
-      "emoji": "🥛",
-      "health_score": 7,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "diet_tags": [
-        "keto",
-        "vegetarian"
-      ],
-      "macros": {
-        "kcal": 264,
-        "p": 14,
-        "f": 22,
-        "c": 2
-      },
-      "avg_price": 7.78,
-      "lowest_price": 7.1,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
-        [
-          "2026-05-16",
-          7.9,
-          null,
-          null
-        ],
-        [
-          "2026-10-22",
-          8.35,
-          null,
-          null
-        ],
-        [
-          "2026-11-09",
-          7.1,
-          8.35,
-          15
-        ]
-      ],
-      "price_seen_count": 3,
       "price_signal": "buy"
     },
     {
@@ -21070,8 +21114,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": 32.4,
-      "price_per_kg_eur": 16.57,
+      "price_per_kg": 20.25,
+      "price_per_kg_eur": 10.35,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -21090,11 +21134,11 @@ const OFFERS_DATA = {
       "best_price_store": "T-Market",
       "best_price": 8.1,
       "comparison_count": 1,
-      "product_id": "tmarket-сирене-president-salakis-250гр-250g",
-      "weight_grams": 250,
-      "weight_raw": "250гр",
-      "name": "Сирене PRESIDENT Salakis 250гр",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/2851300000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "tmarket-краве-сирене-хаджииски-400г-400g",
+      "weight_grams": 400,
+      "weight_raw": "400г",
+      "name": "Краве сирене ХАДЖИЙСКИ 400г",
+      "image": "https://tmarketonline.bg/cdn/img/products/54932/krave-sirene-hadzijski-kg-670ba9a1524c2.jpeg?width=1920&height=1920&v=1777590003",
       "category": "dairy",
       "emoji": "🥛",
       "health_score": 7,
@@ -21116,19 +21160,31 @@ const OFFERS_DATA = {
         "f": 22,
         "c": 2
       },
-      "avg_price": 8.1,
-      "lowest_price": 8.1,
-      "lowest_price_date": "2026-05-16",
+      "avg_price": 7.74,
+      "lowest_price": 7.02,
+      "lowest_price_date": "2026-10-22",
       "price_history": [
         [
           "2026-05-16",
           8.1,
           null,
           null
+        ],
+        [
+          "2026-10-22",
+          7.02,
+          8.1,
+          13
+        ],
+        [
+          "2026-11-10",
+          8.1,
+          null,
+          null
         ]
       ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
+      "price_seen_count": 3,
+      "price_signal": "normal"
     },
     {
       "store": "T-Market",
@@ -21203,37 +21259,37 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 8.61,
-      "new_price_eur": 4.4,
-      "old_price": 10.13,
-      "old_price_eur": 5.18,
-      "discount_pct": 15,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 21.52,
-      "price_per_kg_eur": 11.0,
-      "source_type": "promo",
+      "new_price": 8.33,
+      "new_price_eur": 4.26,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 20.82,
+      "price_per_kg_eur": 10.65,
+      "source_type": "assortment",
       "available_stores": [
         "T-Market"
       ],
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 8.61,
-          "price_eur": 4.4,
-          "old_price": 10.13,
-          "old_price_eur": 5.18,
-          "discount_pct": 15,
-          "source_type": "promo"
+          "price": 8.33,
+          "price_eur": 4.26,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 8.61,
+      "best_price": 8.33,
       "comparison_count": 1,
-      "product_id": "tmarket-краве-сирене-верея-кут-400гр-400g",
+      "product_id": "tmarket-краве-сирене-верея-400г-400g",
       "weight_grams": 400,
-      "weight_raw": "400гр",
-      "name": "Краве сирене ВЕРЕЯ кут.400гр",
+      "weight_raw": "400г",
+      "name": "Краве сирене ВЕРЕЯ 400г",
       "image": "https://tmarketonline.bg/cdn/img/products/54609/balo-salamureno-sirene-verea-na-gramaz-6697cc85adf73.png?width=1920&height=1920&v=1777590002",
       "category": "dairy",
       "emoji": "🥛",
@@ -21256,31 +21312,125 @@ const OFFERS_DATA = {
         "f": 22,
         "c": 2
       },
-      "avg_price": 9.12,
-      "lowest_price": 8.61,
+      "avg_price": 7.71,
+      "lowest_price": 7.08,
       "lowest_price_date": "2026-05-16",
       "price_history": [
         [
           "2026-05-16",
-          8.61,
-          10.13,
+          7.08,
+          8.33,
           15
         ],
         [
           "2026-10-22",
-          10.13,
+          8.33,
           null,
           null
         ],
         [
           "2026-11-09",
-          8.61,
-          10.13,
+          7.08,
+          8.33,
           15
+        ],
+        [
+          "2026-11-10",
+          8.33,
+          null,
+          null
         ]
       ],
-      "price_seen_count": 3,
-      "price_signal": "buy"
+      "price_seen_count": 4,
+      "price_signal": "wait"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 8.35,
+      "new_price_eur": 4.27,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 20.87,
+      "price_per_kg_eur": 10.67,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 8.35,
+          "price_eur": 4.27,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 8.35,
+      "comparison_count": 1,
+      "product_id": "tmarket-краве-сирене-саяна-400гр-400g",
+      "weight_grams": 400,
+      "weight_raw": "400гр",
+      "name": "Краве сирене САЯНА 400гр",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00048069C_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "dairy",
+      "emoji": "🥛",
+      "health_score": 7,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "keto",
+        "vegetarian"
+      ],
+      "macros": {
+        "kcal": 264,
+        "p": 14,
+        "f": 22,
+        "c": 2
+      },
+      "avg_price": 7.93,
+      "lowest_price": 7.1,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-05-16",
+          7.9,
+          null,
+          null
+        ],
+        [
+          "2026-10-22",
+          8.35,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          7.1,
+          8.35,
+          15
+        ],
+        [
+          "2026-11-10",
+          8.35,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "normal"
     },
     {
       "store": "Kaufland",
@@ -21523,6 +21673,182 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
+      "new_price": 9.17,
+      "new_price_eur": 4.69,
+      "old_price": 10.8,
+      "old_price_eur": 5.52,
+      "discount_pct": 15,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 22.93,
+      "price_per_kg_eur": 11.72,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 9.17,
+          "price_eur": 4.69,
+          "old_price": 10.8,
+          "old_price_eur": 5.52,
+          "discount_pct": 15,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 9.17,
+      "comparison_count": 1,
+      "product_id": "tmarket-краве-сирене-булгарче-400-гр-400g",
+      "weight_grams": 400,
+      "weight_raw": "400 гр",
+      "name": "Краве сирене БУЛГАРЧЕ 400 гр.",
+      "image": "https://tmarketonline.bg/cdn/img/products/55660/krave-sirene-bulgarce-400-g-6807807bf14db.jpeg?width=1920&height=1920&v=1777590015",
+      "category": "dairy",
+      "emoji": "🥛",
+      "health_score": 7,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "keto",
+        "vegetarian"
+      ],
+      "macros": {
+        "kcal": 264,
+        "p": 14,
+        "f": 22,
+        "c": 2
+      },
+      "avg_price": 9.04,
+      "lowest_price": 7.02,
+      "lowest_price_date": "2026-10-22",
+      "price_history": [
+        [
+          "2026-05-16",
+          9.18,
+          10.8,
+          15
+        ],
+        [
+          "2026-10-22",
+          7.02,
+          10.8,
+          35
+        ],
+        [
+          "2026-11-09",
+          10.8,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          9.17,
+          10.8,
+          15
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "normal"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 9.17,
+      "new_price_eur": 4.69,
+      "old_price": 10.8,
+      "old_price_eur": 5.52,
+      "discount_pct": 15,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 22.93,
+      "price_per_kg_eur": 11.72,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 9.17,
+          "price_eur": 4.69,
+          "old_price": 10.8,
+          "old_price_eur": 5.52,
+          "discount_pct": 15,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 9.17,
+      "comparison_count": 1,
+      "product_id": "tmarket-краве-сирене-белииса-400г-400g",
+      "weight_grams": 400,
+      "weight_raw": "400г",
+      "name": "Краве сирене БЕЛИИСА 400г",
+      "image": "https://tmarketonline.bg/cdn/img/products/47615/krave-sirene-beliisa-na-gramaz-image_615d7096a7313.jpeg?width=1920&height=1920&v=1777589945",
+      "category": "dairy",
+      "emoji": "🥛",
+      "health_score": 7,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "keto",
+        "vegetarian"
+      ],
+      "macros": {
+        "kcal": 264,
+        "p": 14,
+        "f": 22,
+        "c": 2
+      },
+      "avg_price": 9.58,
+      "lowest_price": 9.17,
+      "lowest_price_date": "2026-10-22",
+      "price_history": [
+        [
+          "2026-05-16",
+          9.18,
+          10.8,
+          15
+        ],
+        [
+          "2026-10-22",
+          9.17,
+          10.8,
+          15
+        ],
+        [
+          "2026-11-09",
+          10.8,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          9.17,
+          10.8,
+          15
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
       "new_price": 9.52,
       "new_price_eur": 4.87,
       "old_price": null,
@@ -21595,6 +21921,170 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 2,
       "price_signal": "normal"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 10.07,
+      "new_price_eur": 5.15,
+      "old_price": 11.15,
+      "old_price_eur": 5.7,
+      "discount_pct": 10,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-30",
+      "price_per_kg": 25.18,
+      "price_per_kg_eur": 12.87,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 10.07,
+          "price_eur": 5.15,
+          "old_price": 11.15,
+          "old_price_eur": 5.7,
+          "discount_pct": 10,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 10.07,
+      "comparison_count": 1,
+      "product_id": "tmarket-краве-сирене-елби-400г-400g",
+      "weight_grams": 400,
+      "weight_raw": "400г",
+      "name": "Краве сирене ЕЛБИ 400г",
+      "image": "https://tmarketonline.bg/cdn/img/products/54609/balo-salamureno-sirene-verea-na-gramaz-6697cc85adf73.png?width=1920&height=1920&v=1777590002",
+      "category": "dairy",
+      "emoji": "🥛",
+      "health_score": 7,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "keto",
+        "vegetarian"
+      ],
+      "macros": {
+        "kcal": 264,
+        "p": 14,
+        "f": 22,
+        "c": 2
+      },
+      "avg_price": 10.61,
+      "lowest_price": 10.07,
+      "lowest_price_date": "2026-11-10",
+      "price_history": [
+        [
+          "2026-05-16",
+          11.15,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          10.07,
+          11.15,
+          10
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 10.13,
+      "new_price_eur": 5.18,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 25.32,
+      "price_per_kg_eur": 12.95,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 10.13,
+          "price_eur": 5.18,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 10.13,
+      "comparison_count": 1,
+      "product_id": "tmarket-краве-сирене-верея-кут-400гр-400g",
+      "weight_grams": 400,
+      "weight_raw": "400гр",
+      "name": "Краве сирене ВЕРЕЯ кут.400гр",
+      "image": "https://tmarketonline.bg/cdn/img/products/54609/balo-salamureno-sirene-verea-na-gramaz-6697cc85adf73.png?width=1920&height=1920&v=1777590002",
+      "category": "dairy",
+      "emoji": "🥛",
+      "health_score": 7,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "keto",
+        "vegetarian"
+      ],
+      "macros": {
+        "kcal": 264,
+        "p": 14,
+        "f": 22,
+        "c": 2
+      },
+      "avg_price": 9.37,
+      "lowest_price": 8.61,
+      "lowest_price_date": "2026-05-16",
+      "price_history": [
+        [
+          "2026-05-16",
+          8.61,
+          10.13,
+          15
+        ],
+        [
+          "2026-10-22",
+          10.13,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          8.61,
+          10.13,
+          15
+        ],
+        [
+          "2026-11-10",
+          10.13,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "wait"
     },
     {
       "store": "T-Market",
@@ -21807,316 +22297,6 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 10.8,
-      "new_price_eur": 5.52,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 27.0,
-      "price_per_kg_eur": 13.8,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 10.8,
-          "price_eur": 5.52,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 10.8,
-      "comparison_count": 1,
-      "product_id": "tmarket-краве-сирене-булгарче-400-гр-400g",
-      "weight_grams": 400,
-      "weight_raw": "400 гр",
-      "name": "Краве сирене БУЛГАРЧЕ 400 гр.",
-      "image": "https://tmarketonline.bg/cdn/img/products/55660/krave-sirene-bulgarce-400-g-6807807bf14db.jpeg?width=1920&height=1920&v=1777590015",
-      "category": "dairy",
-      "emoji": "🥛",
-      "health_score": 7,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "diet_tags": [
-        "keto",
-        "vegetarian"
-      ],
-      "macros": {
-        "kcal": 264,
-        "p": 14,
-        "f": 22,
-        "c": 2
-      },
-      "avg_price": 9.0,
-      "lowest_price": 7.02,
-      "lowest_price_date": "2026-10-22",
-      "price_history": [
-        [
-          "2026-05-16",
-          9.18,
-          10.8,
-          15
-        ],
-        [
-          "2026-10-22",
-          7.02,
-          10.8,
-          35
-        ],
-        [
-          "2026-11-09",
-          10.8,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "wait"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 10.8,
-      "new_price_eur": 5.52,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 27.0,
-      "price_per_kg_eur": 13.8,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 10.8,
-          "price_eur": 5.52,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 10.8,
-      "comparison_count": 1,
-      "product_id": "tmarket-краве-сирене-белииса-400г-400g",
-      "weight_grams": 400,
-      "weight_raw": "400г",
-      "name": "Краве сирене БЕЛИИСА 400г",
-      "image": "https://tmarketonline.bg/cdn/img/products/47615/krave-sirene-beliisa-na-gramaz-image_615d7096a7313.jpeg?width=1920&height=1920&v=1777589945",
-      "category": "dairy",
-      "emoji": "🥛",
-      "health_score": 7,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "diet_tags": [
-        "keto",
-        "vegetarian"
-      ],
-      "macros": {
-        "kcal": 264,
-        "p": 14,
-        "f": 22,
-        "c": 2
-      },
-      "avg_price": 9.72,
-      "lowest_price": 9.17,
-      "lowest_price_date": "2026-10-22",
-      "price_history": [
-        [
-          "2026-05-16",
-          9.18,
-          10.8,
-          15
-        ],
-        [
-          "2026-10-22",
-          9.17,
-          10.8,
-          15
-        ],
-        [
-          "2026-11-09",
-          10.8,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "wait"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 10.93,
-      "new_price_eur": 5.59,
-      "old_price": 14.98,
-      "old_price_eur": 7.66,
-      "discount_pct": 27,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 10.93,
-      "price_per_kg_eur": 5.59,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 10.93,
-          "price_eur": 5.59,
-          "old_price": 14.98,
-          "old_price_eur": 7.66,
-          "discount_pct": 27,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 10.93,
-      "comparison_count": 1,
-      "product_id": "tmarket-маслини-зелени-гриловани-с-билки-нас-кг",
-      "name": "Маслини зелени гриловани с билки нас.кг",
-      "image": "https://tmarketonline.bg/cdn/img/products/55884/gracki-maslini-zel--grilov--s-bilki-350g-6876c5ea91dca.png?width=600&height=600&v=1777590030",
-      "category": "fat",
-      "emoji": "🫒",
-      "health_score": 7,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": true,
-      "is_bulk_worthy": true,
-      "is_long_lasting": true,
-      "macros": {
-        "kcal": 115,
-        "p": 0.8,
-        "f": 11,
-        "c": 6
-      },
-      "avg_price": 12.63,
-      "lowest_price": 10.93,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
-        [
-          "2026-05-16",
-          11.99,
-          14.98,
-          20
-        ],
-        [
-          "2026-10-22",
-          14.98,
-          null,
-          null
-        ],
-        [
-          "2026-11-09",
-          10.93,
-          14.98,
-          27
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 11.15,
-      "new_price_eur": 5.7,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 27.88,
-      "price_per_kg_eur": 14.25,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 11.15,
-          "price_eur": 5.7,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 11.15,
-      "comparison_count": 1,
-      "product_id": "tmarket-краве-сирене-елби-400г-400g",
-      "weight_grams": 400,
-      "weight_raw": "400г",
-      "name": "Краве сирене ЕЛБИ 400г",
-      "image": "https://tmarketonline.bg/cdn/img/products/54609/balo-salamureno-sirene-verea-na-gramaz-6697cc85adf73.png?width=1920&height=1920&v=1777590002",
-      "category": "dairy",
-      "emoji": "🥛",
-      "health_score": 7,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "diet_tags": [
-        "keto",
-        "vegetarian"
-      ],
-      "macros": {
-        "kcal": 264,
-        "p": 14,
-        "f": 22,
-        "c": 2
-      },
-      "avg_price": 11.15,
-      "lowest_price": 11.15,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          11.15,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 11.25,
@@ -22229,86 +22409,6 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 11.62,
-      "new_price_eur": 5.94,
-      "old_price": 13.67,
-      "old_price_eur": 6.99,
-      "discount_pct": 15,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 11.62,
-      "price_per_kg_eur": 5.94,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 11.62,
-          "price_eur": 5.94,
-          "old_price": 13.67,
-          "old_price_eur": 6.99,
-          "discount_pct": 15,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 11.62,
-      "comparison_count": 1,
-      "product_id": "tmarket-краве-сирене-соколово-обезмасл-вак-кг",
-      "name": "*Краве сирене СОКОЛОВО, обезмасл, вак,кг",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8945_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "dairy",
-      "emoji": "🥛",
-      "health_score": 7,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "diet_tags": [
-        "keto",
-        "vegetarian"
-      ],
-      "macros": {
-        "kcal": 264,
-        "p": 14,
-        "f": 22,
-        "c": 2
-      },
-      "avg_price": 12.63,
-      "lowest_price": 11.62,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
-        [
-          "2026-05-16",
-          12.6,
-          null,
-          null
-        ],
-        [
-          "2026-10-22",
-          13.67,
-          null,
-          null
-        ],
-        [
-          "2026-11-09",
-          11.62,
-          13.67,
-          15
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
       "new_price": 11.7,
       "new_price_eur": 5.98,
       "old_price": null,
@@ -22374,6 +22474,162 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 11.99,
+      "new_price_eur": 6.13,
+      "old_price": 14.98,
+      "old_price_eur": 7.66,
+      "discount_pct": 20,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 11.99,
+      "price_per_kg_eur": 6.13,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 11.99,
+          "price_eur": 6.13,
+          "old_price": 14.98,
+          "old_price_eur": 7.66,
+          "discount_pct": 20,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 11.99,
+      "comparison_count": 1,
+      "product_id": "tmarket-маслини-зелени-гриловани-с-билки-нас-кг",
+      "name": "Маслини зелени гриловани с билки нас.кг",
+      "image": "https://tmarketonline.bg/cdn/img/products/55884/gracki-maslini-zel--grilov--s-bilki-350g-6876c5ea91dca.png?width=600&height=600&v=1777590030",
+      "category": "fat",
+      "emoji": "🫒",
+      "health_score": 7,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": true,
+      "is_bulk_worthy": true,
+      "is_long_lasting": true,
+      "macros": {
+        "kcal": 115,
+        "p": 0.8,
+        "f": 11,
+        "c": 6
+      },
+      "avg_price": 12.47,
+      "lowest_price": 10.93,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-05-16",
+          11.99,
+          14.98,
+          20
+        ],
+        [
+          "2026-10-22",
+          14.98,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          10.93,
+          14.98,
+          27
+        ],
+        [
+          "2026-11-10",
+          11.99,
+          14.98,
+          20
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "normal"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 12.11,
+      "new_price_eur": 6.19,
+      "old_price": 15.29,
+      "old_price_eur": 7.82,
+      "discount_pct": 21,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 12.11,
+      "price_per_kg_eur": 6.19,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 12.11,
+          "price_eur": 6.19,
+          "old_price": 15.29,
+          "old_price_eur": 7.82,
+          "discount_pct": 21,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 12.11,
+      "comparison_count": 1,
+      "product_id": "tmarket-краве-сирене-дон-чепеларе-вак-кг",
+      "name": "*Краве сирене ДОН ЧЕПЕЛАРЕ вак,кг",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/8945_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "dairy",
+      "emoji": "🥛",
+      "health_score": 7,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "keto",
+        "vegetarian"
+      ],
+      "macros": {
+        "kcal": 264,
+        "p": 14,
+        "f": 22,
+        "c": 2
+      },
+      "avg_price": 13.7,
+      "lowest_price": 12.11,
+      "lowest_price_date": "2026-11-10",
+      "price_history": [
+        [
+          "2026-05-16",
+          15.29,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          12.11,
+          15.29,
+          21
+        ]
+      ],
+      "price_seen_count": 2,
       "price_signal": "buy"
     },
     {
@@ -22455,15 +22711,15 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 12.24,
-      "new_price_eur": 6.26,
-      "old_price": 14.41,
-      "old_price_eur": 7.37,
-      "discount_pct": 15,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 17.49,
-      "price_per_kg_eur": 8.94,
+      "new_price": 12.89,
+      "new_price_eur": 6.59,
+      "old_price": 14.92,
+      "old_price_eur": 7.63,
+      "discount_pct": 14,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 18.41,
+      "price_per_kg_eur": 9.41,
       "source_type": "promo",
       "available_stores": [
         "T-Market"
@@ -22471,22 +22727,22 @@ const OFFERS_DATA = {
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 12.24,
-          "price_eur": 6.26,
-          "old_price": 14.41,
-          "old_price_eur": 7.37,
-          "discount_pct": 15,
+          "price": 12.89,
+          "price_eur": 6.59,
+          "old_price": 14.92,
+          "old_price_eur": 7.63,
+          "discount_pct": 14,
           "source_type": "promo"
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 12.24,
+      "best_price": 12.89,
       "comparison_count": 1,
-      "product_id": "tmarket-краве-сирене-верея-700г-700g",
+      "product_id": "tmarket-краве-сирене-lacrima-екстра-700-гр-700g",
       "weight_grams": 700,
-      "weight_raw": "700г",
-      "name": "Краве сирене ВЕРЕЯ 700г",
-      "image": "https://tmarketonline.bg/cdn/img/products/54609/balo-salamureno-sirene-verea-na-gramaz-6697cc85adf73.png?width=1920&height=1920&v=1777590002",
+      "weight_raw": "700 гр",
+      "name": "Краве сирене LACRIMA екстра 700 гр",
+      "image": "https://tmarketonline.bg/cdn/img/products/39168/krave-sirene-lacrima-ekstra-700-gr-6454b798a5e15.jpeg?width=1920&height=1920&v=1777589972",
       "category": "dairy",
       "emoji": "🥛",
       "health_score": 7,
@@ -22508,44 +22764,50 @@ const OFFERS_DATA = {
         "f": 22,
         "c": 2
       },
-      "avg_price": 12.97,
-      "lowest_price": 12.24,
-      "lowest_price_date": "2026-11-09",
+      "avg_price": 14.0,
+      "lowest_price": 12.89,
+      "lowest_price_date": "2026-11-10",
       "price_history": [
         [
           "2026-05-16",
-          12.25,
-          14.41,
-          15
-        ],
-        [
-          "2026-10-22",
-          14.41,
+          14.92,
           null,
           null
         ],
         [
+          "2026-10-22",
+          13.28,
+          14.92,
+          11
+        ],
+        [
           "2026-11-09",
-          12.24,
-          14.41,
-          15
+          14.92,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          12.89,
+          14.92,
+          14
         ]
       ],
-      "price_seen_count": 3,
+      "price_seen_count": 4,
       "price_signal": "buy"
     },
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 12.93,
-      "new_price_eur": 6.61,
+      "new_price": 13.01,
+      "new_price_eur": 6.65,
       "old_price": 15.22,
       "old_price_eur": 7.78,
       "discount_pct": 15,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 18.47,
-      "price_per_kg_eur": 9.44,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-30",
+      "price_per_kg": 18.59,
+      "price_per_kg_eur": 9.5,
       "source_type": "promo",
       "available_stores": [
         "T-Market"
@@ -22553,8 +22815,8 @@ const OFFERS_DATA = {
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 12.93,
-          "price_eur": 6.61,
+          "price": 13.01,
+          "price_eur": 6.65,
           "old_price": 15.22,
           "old_price_eur": 7.78,
           "discount_pct": 15,
@@ -22562,7 +22824,7 @@ const OFFERS_DATA = {
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 12.93,
+      "best_price": 13.01,
       "comparison_count": 1,
       "product_id": "tmarket-краве-сирене-саяна-знп-700гр-700g",
       "weight_grams": 700,
@@ -22590,7 +22852,7 @@ const OFFERS_DATA = {
         "f": 22,
         "c": 2
       },
-      "avg_price": 14.18,
+      "avg_price": 13.89,
       "lowest_price": 12.93,
       "lowest_price_date": "2026-11-09",
       "price_history": [
@@ -22611,10 +22873,102 @@ const OFFERS_DATA = {
           12.93,
           15.22,
           15
+        ],
+        [
+          "2026-11-10",
+          13.01,
+          15.22,
+          15
         ]
       ],
-      "price_seen_count": 3,
+      "price_seen_count": 4,
       "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 13.67,
+      "new_price_eur": 6.99,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 13.67,
+      "price_per_kg_eur": 6.99,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 13.67,
+          "price_eur": 6.99,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 13.67,
+      "comparison_count": 1,
+      "product_id": "tmarket-краве-сирене-соколово-обезмасл-вак-кг",
+      "name": "*Краве сирене СОКОЛОВО, обезмасл, вак,кг",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/8945_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "dairy",
+      "emoji": "🥛",
+      "health_score": 7,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "keto",
+        "vegetarian"
+      ],
+      "macros": {
+        "kcal": 264,
+        "p": 14,
+        "f": 22,
+        "c": 2
+      },
+      "avg_price": 12.89,
+      "lowest_price": 11.62,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-05-16",
+          12.6,
+          null,
+          null
+        ],
+        [
+          "2026-10-22",
+          13.67,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          11.62,
+          13.67,
+          15
+        ],
+        [
+          "2026-11-10",
+          13.67,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "normal"
     },
     {
       "store": "T-Market",
@@ -22759,165 +23113,15 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 14.45,
-      "new_price_eur": 7.39,
-      "old_price": 17.0,
-      "old_price_eur": 8.69,
-      "discount_pct": 15,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 14.45,
-      "price_per_kg_eur": 7.39,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 14.45,
-          "price_eur": 7.39,
-          "old_price": 17.0,
-          "old_price_eur": 8.69,
-          "discount_pct": 15,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 14.45,
-      "comparison_count": 1,
-      "product_id": "tmarket-краве-сирене-саяна-вак-кг",
-      "name": "*Краве сирене САЯНА вак,кг",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00048069C_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "dairy",
-      "emoji": "🥛",
-      "health_score": 7,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "diet_tags": [
-        "keto",
-        "vegetarian"
-      ],
-      "macros": {
-        "kcal": 264,
-        "p": 14,
-        "f": 22,
-        "c": 2
-      },
-      "avg_price": 15.13,
-      "lowest_price": 14.45,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
-        [
-          "2026-05-16",
-          15.82,
-          null,
-          null
-        ],
-        [
-          "2026-11-09",
-          14.45,
-          17.0,
-          15
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 14.53,
-      "new_price_eur": 7.43,
-      "old_price": 17.09,
-      "old_price_eur": 8.74,
-      "discount_pct": 15,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 18.16,
-      "price_per_kg_eur": 9.29,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 14.53,
-          "price_eur": 7.43,
-          "old_price": 17.09,
-          "old_price_eur": 8.74,
-          "discount_pct": 15,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 14.53,
-      "comparison_count": 1,
-      "product_id": "tmarket-краве-сирене-саяна-знп-кутия-800гр-800g",
-      "weight_grams": 800,
-      "weight_raw": "800гр",
-      "name": "Краве сирене САЯНА ЗНП кутия 800гр",
-      "image": "https://tmarketonline.bg/cdn/img/products/48254/krave-sirene-saana-po-bds-v-kutia-800-gr-685885a4ea359.jpeg?width=1920&height=1920&v=1777590020",
-      "category": "dairy",
-      "emoji": "🥛",
-      "health_score": 7,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "diet_tags": [
-        "keto",
-        "vegetarian"
-      ],
-      "macros": {
-        "kcal": 264,
-        "p": 14,
-        "f": 22,
-        "c": 2
-      },
-      "avg_price": 15.81,
-      "lowest_price": 14.53,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
-        [
-          "2026-05-16",
-          17.09,
-          null,
-          null
-        ],
-        [
-          "2026-11-09",
-          14.53,
-          17.09,
-          15
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 14.92,
-      "new_price_eur": 7.63,
+      "new_price": 14.41,
+      "new_price_eur": 7.37,
       "old_price": null,
       "old_price_eur": null,
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": 21.31,
-      "price_per_kg_eur": 10.9,
+      "price_per_kg": 20.59,
+      "price_per_kg_eur": 10.53,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -22925,8 +23129,8 @@ const OFFERS_DATA = {
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 14.92,
-          "price_eur": 7.63,
+          "price": 14.41,
+          "price_eur": 7.37,
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
@@ -22934,13 +23138,13 @@ const OFFERS_DATA = {
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 14.92,
+      "best_price": 14.41,
       "comparison_count": 1,
-      "product_id": "tmarket-краве-сирене-lacrima-екстра-700-гр-700g",
+      "product_id": "tmarket-краве-сирене-верея-700г-700g",
       "weight_grams": 700,
-      "weight_raw": "700 гр",
-      "name": "Краве сирене LACRIMA екстра 700 гр",
-      "image": "https://tmarketonline.bg/cdn/img/products/39168/krave-sirene-lacrima-ekstra-700-gr-6454b798a5e15.jpeg?width=1920&height=1920&v=1777589972",
+      "weight_raw": "700г",
+      "name": "Краве сирене ВЕРЕЯ 700г",
+      "image": "https://tmarketonline.bg/cdn/img/products/54609/balo-salamureno-sirene-verea-na-gramaz-6697cc85adf73.png?width=1920&height=1920&v=1777590002",
       "category": "dairy",
       "emoji": "🥛",
       "health_score": 7,
@@ -22962,31 +23166,37 @@ const OFFERS_DATA = {
         "f": 22,
         "c": 2
       },
-      "avg_price": 14.37,
-      "lowest_price": 13.28,
-      "lowest_price_date": "2026-10-22",
+      "avg_price": 13.33,
+      "lowest_price": 12.24,
+      "lowest_price_date": "2026-11-09",
       "price_history": [
         [
           "2026-05-16",
-          14.92,
+          12.25,
+          14.41,
+          15
+        ],
+        [
+          "2026-10-22",
+          14.41,
           null,
           null
         ],
         [
-          "2026-10-22",
-          13.28,
-          14.92,
-          11
+          "2026-11-09",
+          12.24,
+          14.41,
+          15
         ],
         [
-          "2026-11-09",
-          14.92,
+          "2026-11-10",
+          14.41,
           null,
           null
         ]
       ],
-      "price_seen_count": 3,
-      "price_signal": "normal"
+      "price_seen_count": 4,
+      "price_signal": "wait"
     },
     {
       "store": "T-Market",
@@ -23069,74 +23279,6 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 3,
       "price_signal": "normal"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 15.29,
-      "new_price_eur": 7.82,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 15.29,
-      "price_per_kg_eur": 7.82,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 15.29,
-          "price_eur": 7.82,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 15.29,
-      "comparison_count": 1,
-      "product_id": "tmarket-краве-сирене-дон-чепеларе-вак-кг",
-      "name": "*Краве сирене ДОН ЧЕПЕЛАРЕ вак,кг",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8945_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "dairy",
-      "emoji": "🥛",
-      "health_score": 7,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "diet_tags": [
-        "keto",
-        "vegetarian"
-      ],
-      "macros": {
-        "kcal": 264,
-        "p": 14,
-        "f": 22,
-        "c": 2
-      },
-      "avg_price": 15.29,
-      "lowest_price": 15.29,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          15.29,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
     },
     {
       "store": "T-Market",
@@ -23365,80 +23507,6 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 16.06,
-      "new_price_eur": 8.21,
-      "old_price": 18.89,
-      "old_price_eur": 9.66,
-      "discount_pct": 15,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 16.06,
-      "price_per_kg_eur": 8.21,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 16.06,
-          "price_eur": 8.21,
-          "old_price": 18.89,
-          "old_price_eur": 9.66,
-          "discount_pct": 15,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 16.06,
-      "comparison_count": 1,
-      "product_id": "tmarket-краве-сирене-боженци-вак-кг",
-      "name": "*Краве сирене БОЖЕНЦИ вак. кг",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8945_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "dairy",
-      "emoji": "🥛",
-      "health_score": 7,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "diet_tags": [
-        "keto",
-        "vegetarian"
-      ],
-      "macros": {
-        "kcal": 264,
-        "p": 14,
-        "f": 22,
-        "c": 2
-      },
-      "avg_price": 17.48,
-      "lowest_price": 16.06,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
-        [
-          "2026-05-16",
-          18.89,
-          null,
-          null
-        ],
-        [
-          "2026-11-09",
-          16.06,
-          18.89,
-          15
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
       "new_price": 16.19,
       "new_price_eur": 8.28,
       "old_price": null,
@@ -23521,38 +23589,36 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 16.62,
-      "new_price_eur": 8.5,
-      "old_price": 19.56,
-      "old_price_eur": 10.0,
-      "discount_pct": 15,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 18.47,
-      "price_per_kg_eur": 9.44,
-      "source_type": "promo",
+      "new_price": 17.0,
+      "new_price_eur": 8.69,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 17.0,
+      "price_per_kg_eur": 8.69,
+      "source_type": "assortment",
       "available_stores": [
         "T-Market"
       ],
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 16.62,
-          "price_eur": 8.5,
-          "old_price": 19.56,
-          "old_price_eur": 10.0,
-          "discount_pct": 15,
-          "source_type": "promo"
+          "price": 17.0,
+          "price_eur": 8.69,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 16.62,
+      "best_price": 17.0,
       "comparison_count": 1,
-      "product_id": "tmarket-краве-сирене-верея-кутия-900-гр-900g-2",
-      "weight_grams": 900,
-      "weight_raw": "900 гр",
-      "name": "Краве сирене ВЕРЕЯ кутия 900 гр",
-      "image": "https://tmarketonline.bg/cdn/img/products/47738/krave-sirene-verea-kutia-900-gr-image_616610feb1b9f.jpeg?width=1920&height=1920&v=1777589946",
+      "product_id": "tmarket-краве-сирене-саяна-вак-кг",
+      "name": "*Краве сирене САЯНА вак,кг",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00048069C_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "dairy",
       "emoji": "🥛",
       "health_score": 7,
@@ -23574,31 +23640,31 @@ const OFFERS_DATA = {
         "f": 22,
         "c": 2
       },
-      "avg_price": 17.6,
-      "lowest_price": 16.62,
-      "lowest_price_date": "2026-05-16",
+      "avg_price": 15.76,
+      "lowest_price": 14.45,
+      "lowest_price_date": "2026-11-09",
       "price_history": [
         [
           "2026-05-16",
-          16.62,
-          19.56,
-          15
-        ],
-        [
-          "2026-10-22",
-          19.56,
+          15.82,
           null,
           null
         ],
         [
           "2026-11-09",
-          16.62,
-          19.56,
+          14.45,
+          17.0,
           15
+        ],
+        [
+          "2026-11-10",
+          17.0,
+          null,
+          null
         ]
       ],
       "price_seen_count": 3,
-      "price_signal": "buy"
+      "price_signal": "normal"
     },
     {
       "store": "T-Market",
@@ -23739,6 +23805,324 @@ const OFFERS_DATA = {
         [
           "2026-05-16",
           17.09,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 17.09,
+      "new_price_eur": 8.74,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 21.36,
+      "price_per_kg_eur": 10.92,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 17.09,
+          "price_eur": 8.74,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 17.09,
+      "comparison_count": 1,
+      "product_id": "tmarket-краве-сирене-саяна-знп-кутия-800гр-800g",
+      "weight_grams": 800,
+      "weight_raw": "800гр",
+      "name": "Краве сирене САЯНА ЗНП кутия 800гр",
+      "image": "https://tmarketonline.bg/cdn/img/products/48254/krave-sirene-saana-po-bds-v-kutia-800-gr-685885a4ea359.jpeg?width=1920&height=1920&v=1777590020",
+      "category": "dairy",
+      "emoji": "🥛",
+      "health_score": 7,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "keto",
+        "vegetarian"
+      ],
+      "macros": {
+        "kcal": 264,
+        "p": 14,
+        "f": 22,
+        "c": 2
+      },
+      "avg_price": 16.24,
+      "lowest_price": 14.53,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-05-16",
+          17.09,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          14.53,
+          17.09,
+          15
+        ],
+        [
+          "2026-11-10",
+          17.09,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "normal"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 18.89,
+      "new_price_eur": 9.66,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 18.89,
+      "price_per_kg_eur": 9.66,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 18.89,
+          "price_eur": 9.66,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 18.89,
+      "comparison_count": 1,
+      "product_id": "tmarket-краве-сирене-боженци-вак-кг",
+      "name": "*Краве сирене БОЖЕНЦИ вак. кг",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/8945_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "dairy",
+      "emoji": "🥛",
+      "health_score": 7,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "keto",
+        "vegetarian"
+      ],
+      "macros": {
+        "kcal": 264,
+        "p": 14,
+        "f": 22,
+        "c": 2
+      },
+      "avg_price": 17.95,
+      "lowest_price": 16.06,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-05-16",
+          18.89,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          16.06,
+          18.89,
+          15
+        ],
+        [
+          "2026-11-10",
+          18.89,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "normal"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 19.56,
+      "new_price_eur": 10.0,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 21.73,
+      "price_per_kg_eur": 11.11,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 19.56,
+          "price_eur": 10.0,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 19.56,
+      "comparison_count": 1,
+      "product_id": "tmarket-краве-сирене-верея-кутия-900-гр-900g-2",
+      "weight_grams": 900,
+      "weight_raw": "900 гр",
+      "name": "Краве сирене ВЕРЕЯ кутия 900 гр",
+      "image": "https://tmarketonline.bg/cdn/img/products/47738/krave-sirene-verea-kutia-900-gr-image_616610feb1b9f.jpeg?width=1920&height=1920&v=1777589946",
+      "category": "dairy",
+      "emoji": "🥛",
+      "health_score": 7,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "keto",
+        "vegetarian"
+      ],
+      "macros": {
+        "kcal": 264,
+        "p": 14,
+        "f": 22,
+        "c": 2
+      },
+      "avg_price": 18.09,
+      "lowest_price": 16.62,
+      "lowest_price_date": "2026-05-16",
+      "price_history": [
+        [
+          "2026-05-16",
+          16.62,
+          19.56,
+          15
+        ],
+        [
+          "2026-10-22",
+          19.56,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          16.62,
+          19.56,
+          15
+        ],
+        [
+          "2026-11-10",
+          19.56,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "wait"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 20.69,
+      "new_price_eur": 10.58,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 20.69,
+      "price_per_kg_eur": 10.58,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 20.69,
+          "price_eur": 10.58,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 20.69,
+      "comparison_count": 1,
+      "product_id": "tmarket-краве-сирене-борино-улан-вак-кг",
+      "name": "*Краве сирене БОРИНО УЛАН,вак.кг",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/8945_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "dairy",
+      "emoji": "🥛",
+      "health_score": 7,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "keto",
+        "vegetarian"
+      ],
+      "macros": {
+        "kcal": 264,
+        "p": 14,
+        "f": 22,
+        "c": 2
+      },
+      "avg_price": 20.69,
+      "lowest_price": 20.69,
+      "lowest_price_date": "2026-11-10",
+      "price_history": [
+        [
+          "2026-11-10",
+          20.69,
           null,
           null
         ]
@@ -26407,81 +26791,6 @@ const OFFERS_DATA = {
       "best_price_store": "T-Market",
       "best_price": 1.86,
       "comparison_count": 1,
-      "product_id": "tmarket-хляб-добруджа-650г-650g",
-      "weight_grams": 650,
-      "weight_raw": "650г",
-      "name": "Хляб Добруджа 650г",
-      "image": "https://tmarketonline.bg/cdn/img/products/50117/hlab-dobrudza-optima-linija-500-gr-67c6beb88a475.png?width=1920&height=1920&v=1777590012",
-      "category": "bread",
-      "emoji": "🍞",
-      "health_score": 6,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "diet_tags": [
-        "budget"
-      ],
-      "macros": {
-        "kcal": 265,
-        "p": 9,
-        "f": 3.2,
-        "c": 49
-      },
-      "avg_price": 1.8,
-      "lowest_price": 1.74,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          1.74,
-          null,
-          null
-        ],
-        [
-          "2026-10-22",
-          1.86,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "normal"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 1.86,
-      "new_price_eur": 0.95,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 2.86,
-      "price_per_kg_eur": 1.46,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 1.86,
-          "price_eur": 0.95,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 1.86,
-      "comparison_count": 1,
       "product_id": "tmarket-хляб-добруджа-стражица-650г-650g",
       "weight_grams": 650,
       "weight_raw": "650г",
@@ -28294,75 +28603,6 @@ const OFFERS_DATA = {
       "best_price_store": "T-Market",
       "best_price": 2.25,
       "comparison_count": 1,
-      "product_id": "tmarket-хляб-аетос-бял-700г-700g",
-      "weight_grams": 700,
-      "weight_raw": "700г",
-      "name": "Хляб АЕТОС бял 700г",
-      "image": "https://tmarketonline.bg/cdn/img/products/45483/hlab-simid-bal-narazan-650gr-image_5f8853412609f.jpeg?width=1920&height=1920&v=1777589930",
-      "category": "bread",
-      "emoji": "🍞",
-      "health_score": 6,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "diet_tags": [
-        "budget"
-      ],
-      "macros": {
-        "kcal": 265,
-        "p": 9,
-        "f": 3.2,
-        "c": 49
-      },
-      "avg_price": 2.25,
-      "lowest_price": 2.25,
-      "lowest_price_date": "2026-10-22",
-      "price_history": [
-        [
-          "2026-10-22",
-          2.25,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 2.25,
-      "new_price_eur": 1.15,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 3.21,
-      "price_per_kg_eur": 1.64,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 2.25,
-          "price_eur": 1.15,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 2.25,
-      "comparison_count": 1,
       "product_id": "tmarket-хляб-бял-700г-700g",
       "weight_grams": 700,
       "weight_raw": "700г",
@@ -28677,81 +28917,6 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 1,
       "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 2.52,
-      "new_price_eur": 1.29,
-      "old_price": 2.99,
-      "old_price_eur": 1.53,
-      "discount_pct": 16,
-      "valid_from": "2026-10-20",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 6.3,
-      "price_per_kg_eur": 3.22,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 2.52,
-          "price_eur": 1.29,
-          "old_price": 2.99,
-          "old_price_eur": 1.53,
-          "discount_pct": 16,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 2.52,
-      "comparison_count": 1,
-      "product_id": "tmarket-грах-chef-is-d-aucy-млад-400г-400g",
-      "weight_grams": 400,
-      "weight_raw": "400г",
-      "name": "Грах Chef is… D'AUCY млад 400г",
-      "image": "https://tmarketonline.bg/cdn/img/products/40788/grah-daucy-mlad-400gr-image_5ffecd077c933.jpeg?width=600&height=600&v=1777589932",
-      "category": "legume",
-      "emoji": "🫘",
-      "health_score": 6,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": true,
-      "is_good_fat": false,
-      "is_bulk_worthy": true,
-      "is_long_lasting": true,
-      "diet_tags": [
-        "budget"
-      ],
-      "macros": {
-        "kcal": 81,
-        "p": 5.4,
-        "f": 0.4,
-        "c": 14
-      },
-      "avg_price": 2.23,
-      "lowest_price": 1.94,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          1.94,
-          2.99,
-          35
-        ],
-        [
-          "2026-10-22",
-          2.52,
-          2.99,
-          16
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "wait"
     },
     {
       "store": "Kaufland",
@@ -29289,6 +29454,87 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
+      "price_per_kg": 7.48,
+      "price_per_kg_eur": 3.82,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 2.99,
+          "price_eur": 1.53,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 2.99,
+      "comparison_count": 1,
+      "product_id": "tmarket-грах-chef-is-d-aucy-млад-400г-400g",
+      "weight_grams": 400,
+      "weight_raw": "400г",
+      "name": "Грах Chef is… D'AUCY млад 400г",
+      "image": "https://tmarketonline.bg/cdn/img/products/40788/grah-daucy-mlad-400gr-image_5ffecd077c933.jpeg?width=600&height=600&v=1777589932",
+      "category": "legume",
+      "emoji": "🫘",
+      "health_score": 6,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": true,
+      "is_good_fat": false,
+      "is_bulk_worthy": true,
+      "is_long_lasting": true,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 81,
+        "p": 5.4,
+        "f": 0.4,
+        "c": 14
+      },
+      "avg_price": 2.48,
+      "lowest_price": 1.94,
+      "lowest_price_date": "2026-05-16",
+      "price_history": [
+        [
+          "2026-05-16",
+          1.94,
+          2.99,
+          35
+        ],
+        [
+          "2026-10-22",
+          2.52,
+          2.99,
+          16
+        ],
+        [
+          "2026-11-10",
+          2.99,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "wait"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 2.99,
+      "new_price_eur": 1.53,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
       "price_per_kg": 5.98,
       "price_per_kg_eur": 3.06,
       "source_type": "assortment",
@@ -29496,6 +29742,78 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 3,
+      "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 3.5,
+      "new_price_eur": 1.79,
+      "old_price": 4.5,
+      "old_price_eur": 2.3,
+      "discount_pct": 22,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 8.75,
+      "price_per_kg_eur": 4.47,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 3.5,
+          "price_eur": 1.79,
+          "old_price": 4.5,
+          "old_price_eur": 2.3,
+          "discount_pct": 22,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 3.5,
+      "comparison_count": 1,
+      "product_id": "tmarket-грах-bonduelle-400гр-400g",
+      "weight_grams": 400,
+      "weight_raw": "400гр",
+      "name": "Грах BONDUELLE 400гр",
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/53150b65-a545-4d20-bbbf-e781d0716707.png",
+      "category": "legume",
+      "emoji": "🫘",
+      "health_score": 6,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": true,
+      "is_good_fat": false,
+      "is_bulk_worthy": true,
+      "is_long_lasting": true,
+      "macros": {
+        "kcal": 81,
+        "p": 5.4,
+        "f": 0.4,
+        "c": 14
+      },
+      "avg_price": 4.0,
+      "lowest_price": 3.5,
+      "lowest_price_date": "2026-11-10",
+      "price_history": [
+        [
+          "2026-05-16",
+          4.5,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          3.5,
+          4.5,
+          22
+        ]
+      ],
+      "price_seen_count": 2,
       "price_signal": "buy"
     },
     {
@@ -29737,72 +30055,6 @@ const OFFERS_DATA = {
         [
           "2026-05-16",
           4.46,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 4.5,
-      "new_price_eur": 2.3,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 11.25,
-      "price_per_kg_eur": 5.75,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 4.5,
-          "price_eur": 2.3,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 4.5,
-      "comparison_count": 1,
-      "product_id": "tmarket-грах-bonduelle-400гр-400g",
-      "weight_grams": 400,
-      "weight_raw": "400гр",
-      "name": "Грах BONDUELLE 400гр",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/53150b65-a545-4d20-bbbf-e781d0716707.png",
-      "category": "legume",
-      "emoji": "🫘",
-      "health_score": 6,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": true,
-      "is_good_fat": false,
-      "is_bulk_worthy": true,
-      "is_long_lasting": true,
-      "macros": {
-        "kcal": 81,
-        "p": 5.4,
-        "f": 0.4,
-        "c": 14
-      },
-      "avg_price": 4.5,
-      "lowest_price": 4.5,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          4.5,
           null,
           null
         ]
@@ -32066,306 +32318,6 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 0.76,
-      "new_price_eur": 0.39,
-      "old_price": 1.29,
-      "old_price_eur": 0.66,
-      "discount_pct": 41,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 1.9,
-      "price_per_kg_eur": 0.97,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 0.76,
-          "price_eur": 0.39,
-          "old_price": 1.29,
-          "old_price_eur": 0.66,
-          "discount_pct": 41,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 0.76,
-      "comparison_count": 1,
-      "product_id": "tmarket-макарони-златен-клас-звездички-400г-400g",
-      "weight_grams": 400,
-      "weight_raw": "400г",
-      "name": "Макарони ЗЛАТЕН КЛАС звездички 400г",
-      "image": "https://tmarketonline.bg/cdn/img/products/55945/makaroni-zlaten-klas-zvezdicki-400g-6876be61d4564.gif?width=1920&height=1920&v=1777590025",
-      "category": "grain",
-      "emoji": "🌾",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": true,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "diet_tags": [
-        "budget"
-      ],
-      "macros": {
-        "kcal": 131,
-        "p": 5,
-        "f": 1.1,
-        "c": 25
-      },
-      "avg_price": 1.02,
-      "lowest_price": 0.76,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
-        [
-          "2026-05-16",
-          1.29,
-          null,
-          null
-        ],
-        [
-          "2026-11-09",
-          0.76,
-          1.29,
-          41
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 0.76,
-      "new_price_eur": 0.39,
-      "old_price": 1.29,
-      "old_price_eur": 0.66,
-      "discount_pct": 41,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 1.9,
-      "price_per_kg_eur": 0.97,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 0.76,
-          "price_eur": 0.39,
-          "old_price": 1.29,
-          "old_price_eur": 0.66,
-          "discount_pct": 41,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 0.76,
-      "comparison_count": 1,
-      "product_id": "tmarket-макарони-златен-клас-моливи-400г-400g",
-      "weight_grams": 400,
-      "weight_raw": "400г",
-      "name": "Макарони ЗЛАТЕН КЛАС моливи 400г",
-      "image": "https://tmarketonline.bg/cdn/img/products/55947/makaroni-zlaten-klas-molivi-400g-6876bdd972cde.gif?width=1920&height=1920&v=1777590023",
-      "category": "grain",
-      "emoji": "🌾",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": true,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "diet_tags": [
-        "budget"
-      ],
-      "macros": {
-        "kcal": 131,
-        "p": 5,
-        "f": 1.1,
-        "c": 25
-      },
-      "avg_price": 1.02,
-      "lowest_price": 0.76,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
-        [
-          "2026-05-16",
-          1.29,
-          null,
-          null
-        ],
-        [
-          "2026-11-09",
-          0.76,
-          1.29,
-          41
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 0.76,
-      "new_price_eur": 0.39,
-      "old_price": 1.29,
-      "old_price_eur": 0.66,
-      "discount_pct": 41,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 1.9,
-      "price_per_kg_eur": 0.97,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 0.76,
-          "price_eur": 0.39,
-          "old_price": 1.29,
-          "old_price_eur": 0.66,
-          "discount_pct": 41,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 0.76,
-      "comparison_count": 1,
-      "product_id": "tmarket-макарони-златен-клас-рогче-400г-400g",
-      "weight_grams": 400,
-      "weight_raw": "400г",
-      "name": "Макарони ЗЛАТЕН КЛАС рогче 400г",
-      "image": "https://tmarketonline.bg/cdn/img/products/55951/makaroni-zlaten-klas-spirala-400g-6876bb106c675.gif?width=600&height=600&v=1777590021",
-      "category": "grain",
-      "emoji": "🌾",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": true,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "diet_tags": [
-        "budget"
-      ],
-      "macros": {
-        "kcal": 131,
-        "p": 5,
-        "f": 1.1,
-        "c": 25
-      },
-      "avg_price": 1.02,
-      "lowest_price": 0.76,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
-        [
-          "2026-05-16",
-          1.29,
-          null,
-          null
-        ],
-        [
-          "2026-11-09",
-          0.76,
-          1.29,
-          41
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 0.76,
-      "new_price_eur": 0.39,
-      "old_price": 1.29,
-      "old_price_eur": 0.66,
-      "discount_pct": 41,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 1.9,
-      "price_per_kg_eur": 0.97,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 0.76,
-          "price_eur": 0.39,
-          "old_price": 1.29,
-          "old_price_eur": 0.66,
-          "discount_pct": 41,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 0.76,
-      "comparison_count": 1,
-      "product_id": "tmarket-макарони-златен-клас-спирала-400г-400g",
-      "weight_grams": 400,
-      "weight_raw": "400г",
-      "name": "Макарони ЗЛАТЕН КЛАС спирала 400г",
-      "image": "https://tmarketonline.bg/cdn/img/products/55951/makaroni-zlaten-klas-spirala-400g-6876bb106c675.gif?width=600&height=600&v=1777590021",
-      "category": "grain",
-      "emoji": "🌾",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": true,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "diet_tags": [
-        "budget"
-      ],
-      "macros": {
-        "kcal": 131,
-        "p": 5,
-        "f": 1.1,
-        "c": 25
-      },
-      "avg_price": 1.02,
-      "lowest_price": 0.76,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
-        [
-          "2026-05-16",
-          1.29,
-          null,
-          null
-        ],
-        [
-          "2026-11-09",
-          0.76,
-          1.29,
-          41
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 0.79,
@@ -34236,6 +34188,330 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 1.29,
+      "new_price_eur": 0.66,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 3.23,
+      "price_per_kg_eur": 1.65,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 1.29,
+          "price_eur": 0.66,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 1.29,
+      "comparison_count": 1,
+      "product_id": "tmarket-макарони-златен-клас-звездички-400г-400g",
+      "weight_grams": 400,
+      "weight_raw": "400г",
+      "name": "Макарони ЗЛАТЕН КЛАС звездички 400г",
+      "image": "https://tmarketonline.bg/cdn/img/products/55945/makaroni-zlaten-klas-zvezdicki-400g-6876be61d4564.gif?width=1920&height=1920&v=1777590025",
+      "category": "grain",
+      "emoji": "🌾",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": true,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 131,
+        "p": 5,
+        "f": 1.1,
+        "c": 25
+      },
+      "avg_price": 1.11,
+      "lowest_price": 0.76,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-05-16",
+          1.29,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          0.76,
+          1.29,
+          41
+        ],
+        [
+          "2026-11-10",
+          1.29,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "wait"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 1.29,
+      "new_price_eur": 0.66,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 3.23,
+      "price_per_kg_eur": 1.65,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 1.29,
+          "price_eur": 0.66,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 1.29,
+      "comparison_count": 1,
+      "product_id": "tmarket-макарони-златен-клас-моливи-400г-400g",
+      "weight_grams": 400,
+      "weight_raw": "400г",
+      "name": "Макарони ЗЛАТЕН КЛАС моливи 400г",
+      "image": "https://tmarketonline.bg/cdn/img/products/55947/makaroni-zlaten-klas-molivi-400g-6876bdd972cde.gif?width=1920&height=1920&v=1777590023",
+      "category": "grain",
+      "emoji": "🌾",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": true,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 131,
+        "p": 5,
+        "f": 1.1,
+        "c": 25
+      },
+      "avg_price": 1.11,
+      "lowest_price": 0.76,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-05-16",
+          1.29,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          0.76,
+          1.29,
+          41
+        ],
+        [
+          "2026-11-10",
+          1.29,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "wait"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 1.29,
+      "new_price_eur": 0.66,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 3.23,
+      "price_per_kg_eur": 1.65,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 1.29,
+          "price_eur": 0.66,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 1.29,
+      "comparison_count": 1,
+      "product_id": "tmarket-макарони-златен-клас-рогче-400г-400g",
+      "weight_grams": 400,
+      "weight_raw": "400г",
+      "name": "Макарони ЗЛАТЕН КЛАС рогче 400г",
+      "image": "https://tmarketonline.bg/cdn/img/products/55951/makaroni-zlaten-klas-spirala-400g-6876bb106c675.gif?width=600&height=600&v=1777590021",
+      "category": "grain",
+      "emoji": "🌾",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": true,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 131,
+        "p": 5,
+        "f": 1.1,
+        "c": 25
+      },
+      "avg_price": 1.11,
+      "lowest_price": 0.76,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-05-16",
+          1.29,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          0.76,
+          1.29,
+          41
+        ],
+        [
+          "2026-11-10",
+          1.29,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "wait"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 1.29,
+      "new_price_eur": 0.66,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 3.23,
+      "price_per_kg_eur": 1.65,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 1.29,
+          "price_eur": 0.66,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 1.29,
+      "comparison_count": 1,
+      "product_id": "tmarket-макарони-златен-клас-спирала-400г-400g",
+      "weight_grams": 400,
+      "weight_raw": "400г",
+      "name": "Макарони ЗЛАТЕН КЛАС спирала 400г",
+      "image": "https://tmarketonline.bg/cdn/img/products/55951/makaroni-zlaten-klas-spirala-400g-6876bb106c675.gif?width=600&height=600&v=1777590021",
+      "category": "grain",
+      "emoji": "🌾",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": true,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 131,
+        "p": 5,
+        "f": 1.1,
+        "c": 25
+      },
+      "avg_price": 1.11,
+      "lowest_price": 0.76,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-05-16",
+          1.29,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          0.76,
+          1.29,
+          41
+        ],
+        [
+          "2026-11-10",
+          1.29,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "wait"
+    },
+    {
       "store": "Kaufland",
       "address": null,
       "new_price": 1.35,
@@ -34308,6 +34584,87 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 1.35,
+      "new_price_eur": 0.69,
+      "old_price": 1.9,
+      "old_price_eur": 0.97,
+      "discount_pct": 29,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 1.35,
+      "price_per_kg_eur": 0.69,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 1.35,
+          "price_eur": 0.69,
+          "old_price": 1.9,
+          "old_price_eur": 0.97,
+          "discount_pct": 29,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 1.35,
+      "comparison_count": 1,
+      "product_id": "tmarket-брашно-мелко-тип-500-1кг-1000g",
+      "weight_grams": 1000,
+      "weight_raw": "1кг",
+      "name": "Брашно МЕЛКО тип 500 1кг",
+      "image": "https://tmarketonline.bg/cdn/img/products/48508/brasno-melko-tip-500-1kg-627eb14ecf1a4.jpeg?width=1920&height=1920&v=1777589953",
+      "category": "grain",
+      "emoji": "🌾",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 364,
+        "p": 10,
+        "f": 1,
+        "c": 76
+      },
+      "avg_price": 1.6,
+      "lowest_price": 1.35,
+      "lowest_price_date": "2026-11-10",
+      "price_history": [
+        [
+          "2026-05-16",
+          1.55,
+          1.9,
+          18
+        ],
+        [
+          "2026-10-22",
+          1.9,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          1.35,
+          1.9,
+          29
+        ]
+      ],
+      "price_seen_count": 3,
       "price_signal": "buy"
     },
     {
@@ -34654,6 +35011,138 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 1,
       "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 1.39,
+      "new_price_eur": 0.71,
+      "old_price": 1.86,
+      "old_price_eur": 0.95,
+      "discount_pct": 25,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 46.33,
+      "price_per_kg_eur": 23.69,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 1.39,
+          "price_eur": 0.71,
+          "old_price": 1.86,
+          "old_price_eur": 0.95,
+          "discount_pct": 25,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 1.39,
+      "comparison_count": 1,
+      "product_id": "tmarket-чаи-биопрограма-добро-утро-20x1-5гр-30g",
+      "weight_grams": 30,
+      "weight_raw": "20x1.5гр",
+      "name": "Чай БИОПРОГРАМА добро утро 20x1.5гр",
+      "image": "https://tmarketonline.bg/cdn/img/products/39467/caj-bioprograma-dobro-utro-20x1-5-g-image_5ea2cd07487f0.png?width=1920&height=1920&v=1777589875",
+      "category": "drinks",
+      "emoji": "🍺",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 1.62,
+      "lowest_price": 1.39,
+      "lowest_price_date": "2026-11-10",
+      "price_history": [
+        [
+          "2026-05-16",
+          1.86,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          1.39,
+          1.86,
+          25
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 1.39,
+      "new_price_eur": 0.71,
+      "old_price": 1.86,
+      "old_price_eur": 0.95,
+      "discount_pct": 25,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 46.33,
+      "price_per_kg_eur": 23.69,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 1.39,
+          "price_eur": 0.71,
+          "old_price": 1.86,
+          "old_price_eur": 0.95,
+          "discount_pct": 25,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 1.39,
+      "comparison_count": 1,
+      "product_id": "tmarket-чаи-биопрограма-алпинист-20x1-5гр-30g",
+      "weight_grams": 30,
+      "weight_raw": "20x1.5гр",
+      "name": "Чай БИОПРОГРАМА алпинист 20x1.5гр",
+      "category": "drinks",
+      "emoji": "🍺",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 1.62,
+      "lowest_price": 1.39,
+      "lowest_price_date": "2026-11-10",
+      "price_history": [
+        [
+          "2026-05-16",
+          1.86,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          1.39,
+          1.86,
+          25
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy",
+      "image": "https://tmarketonline.bg/cdn/img/products/39471/caj-bioprograma-alpinist-20x1-5-g-image_5ea2cd125fc47.png?width=600&height=600&v=1777589876"
     },
     {
       "store": "Kaufland",
@@ -35083,81 +35572,6 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 1.55,
-      "new_price_eur": 0.79,
-      "old_price": 1.9,
-      "old_price_eur": 0.97,
-      "discount_pct": 18,
-      "valid_from": "2026-10-20",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 1.55,
-      "price_per_kg_eur": 0.79,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 1.55,
-          "price_eur": 0.79,
-          "old_price": 1.9,
-          "old_price_eur": 0.97,
-          "discount_pct": 18,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 1.55,
-      "comparison_count": 1,
-      "product_id": "tmarket-брашно-симид-екстра-1кг-1000g",
-      "weight_grams": 1000,
-      "weight_raw": "1кг",
-      "name": "Брашно СИМИД екстра,1кг",
-      "image": "https://tmarketonline.bg/cdn/img/products/39195/brasno-simid-ekstra-1-kg-image_6061b42c73bfd.jpeg?width=600&height=600&v=1777589938",
-      "category": "grain",
-      "emoji": "🌾",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "diet_tags": [
-        "budget"
-      ],
-      "macros": {
-        "kcal": 364,
-        "p": 10,
-        "f": 1,
-        "c": 76
-      },
-      "avg_price": 1.73,
-      "lowest_price": 1.55,
-      "lowest_price_date": "2026-10-22",
-      "price_history": [
-        [
-          "2026-05-16",
-          1.9,
-          null,
-          null
-        ],
-        [
-          "2026-10-22",
-          1.55,
-          1.9,
-          18
-        ]
-      ],
-      "price_seen_count": 2,
       "price_signal": "buy"
     },
     {
@@ -35845,6 +36259,144 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 1.64,
+      "new_price_eur": 0.84,
+      "old_price": 2.19,
+      "old_price_eur": 1.12,
+      "discount_pct": 25,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 54.67,
+      "price_per_kg_eur": 27.95,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 1.64,
+          "price_eur": 0.84,
+          "old_price": 2.19,
+          "old_price_eur": 1.12,
+          "discount_pct": 25,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 1.64,
+      "comparison_count": 1,
+      "product_id": "tmarket-чаи-биопрограма-студ-и-зима-20x1-5гр-30g",
+      "weight_grams": 30,
+      "weight_raw": "20x1.5гр",
+      "name": "Чай БИОПРОГРАМА студ и зима 20x1.5гр",
+      "image": "https://tmarketonline.bg/cdn/img/products/39479/caj-bioprograma-stud-i-zima-20x1-5-g-image_5ea2cd2e51700.png?width=1920&height=1920&v=1777589877",
+      "category": "drinks",
+      "emoji": "🍺",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 1.92,
+      "lowest_price": 1.64,
+      "lowest_price_date": "2026-11-10",
+      "price_history": [
+        [
+          "2026-05-16",
+          2.19,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          1.64,
+          2.19,
+          25
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 1.66,
+      "new_price_eur": 0.85,
+      "old_price": 1.99,
+      "old_price_eur": 1.02,
+      "discount_pct": 17,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 15.09,
+      "price_per_kg_eur": 7.72,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 1.66,
+          "price_eur": 0.85,
+          "old_price": 1.99,
+          "old_price_eur": 1.02,
+          "discount_pct": 17,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 1.66,
+      "comparison_count": 1,
+      "product_id": "tmarket-кроасан-7dayssuperdouble-ван-вишна-110г-110g",
+      "weight_grams": 110,
+      "weight_raw": "110г",
+      "name": "Кроасан 7DAYSSuperDouble ван.&вишна 110г",
+      "image": "https://tmarketonline.bg/cdn/img/products/50067/kroasan-patisserie-family-van--300g-63d3d1223c8f7.jpeg?width=600&height=600&v=1777589966",
+      "category": "grain",
+      "emoji": "🌾",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "macros": {
+        "kcal": 63,
+        "p": 1.1,
+        "f": 0.3,
+        "c": 16
+      },
+      "avg_price": 1.7,
+      "lowest_price": 1.66,
+      "lowest_price_date": "2026-11-10",
+      "price_history": [
+        [
+          "2026-10-22",
+          1.74,
+          1.99,
+          13
+        ],
+        [
+          "2026-11-10",
+          1.66,
+          1.99,
+          17
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
       "store": "Kaufland",
       "address": null,
       "new_price": 1.67,
@@ -36061,42 +36613,40 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
-      "store": "T-Market",
+      "store": "Kaufland",
       "address": null,
-      "new_price": 1.74,
-      "new_price_eur": 0.89,
-      "old_price": 1.99,
-      "old_price_eur": 1.02,
-      "discount_pct": 13,
-      "valid_from": "2026-10-20",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 15.82,
-      "price_per_kg_eur": 8.09,
-      "source_type": "promo",
+      "new_price": 1.69,
+      "new_price_eur": 0.86,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-11-09",
+      "valid_until": "2026-11-15",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
       "available_stores": [
-        "T-Market"
+        "Kaufland"
       ],
       "store_prices": [
         {
-          "store": "T-Market",
-          "price": 1.74,
-          "price_eur": 0.89,
-          "old_price": 1.99,
-          "old_price_eur": 1.02,
-          "discount_pct": 13,
-          "source_type": "promo"
+          "store": "Kaufland",
+          "price": 1.69,
+          "price_eur": 0.86,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
         }
       ],
-      "best_price_store": "T-Market",
-      "best_price": 1.74,
+      "best_price_store": "Kaufland",
+      "best_price": 1.69,
       "comparison_count": 1,
-      "product_id": "tmarket-кроасан-7dayssuperdouble-ван-вишна-110г-110g",
-      "weight_grams": 110,
-      "weight_raw": "110г",
-      "name": "Кроасан 7DAYSSuperDouble ван.&вишна 110г",
-      "image": "https://tmarketonline.bg/cdn/img/products/50067/kroasan-patisserie-family-van--300g-63d3d1223c8f7.jpeg?width=600&height=600&v=1777589966",
-      "category": "grain",
-      "emoji": "🌾",
+      "product_id": "kaufland-хамедорея-ø6-см",
+      "name": "Хамедорея Ø6 см",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/09902303_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
       "health_score": 5,
       "is_food": true,
       "is_junk": false,
@@ -36105,101 +36655,44 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": true,
+      "is_long_lasting": false,
       "macros": {
-        "kcal": 63,
-        "p": 1.1,
-        "f": 0.3,
-        "c": 16
+        "kcal": 304,
+        "p": 0.3,
+        "f": 0,
+        "c": 82
       },
-      "avg_price": 1.74,
-      "lowest_price": 1.74,
-      "lowest_price_date": "2026-10-22",
+      "avg_price": 2.47,
+      "lowest_price": 1.59,
+      "lowest_price_date": "2026-10-13",
       "price_history": [
         [
-          "2026-10-22",
-          1.74,
-          1.99,
-          13
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 1.74,
-      "new_price_eur": 0.89,
-      "old_price": 2.15,
-      "old_price_eur": 1.1,
-      "discount_pct": 19,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 1.74,
-      "price_per_kg_eur": 0.89,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 1.74,
-          "price_eur": 0.89,
-          "old_price": 2.15,
-          "old_price_eur": 1.1,
-          "discount_pct": 19,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 1.74,
-      "comparison_count": 1,
-      "product_id": "tmarket-брашно-софия-мел-т-500-1-кг-1000g",
-      "weight_grams": 1000,
-      "weight_raw": "1 кг",
-      "name": "Брашно СОФИЯ МЕЛ т.500 1 кг",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800107801213_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "grain",
-      "emoji": "🌾",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "diet_tags": [
-        "budget"
-      ],
-      "macros": {
-        "kcal": 364,
-        "p": 10,
-        "f": 1,
-        "c": 76
-      },
-      "avg_price": 1.94,
-      "lowest_price": 1.74,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
-        [
-          "2026-05-16",
-          2.15,
+          "2026-05-12",
+          3.48,
           null,
           null
         ],
         [
-          "2026-11-09",
-          1.74,
-          2.15,
-          19
+          "2026-07-14",
+          3.11,
+          null,
+          null
+        ],
+        [
+          "2026-10-13",
+          1.59,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          1.69,
+          null,
+          null
         ]
       ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
+      "price_seen_count": 4,
+      "price_signal": "good"
     },
     {
       "store": "T-Market",
@@ -36545,6 +37038,354 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 1.78,
+      "new_price_eur": 0.91,
+      "old_price": 3.56,
+      "old_price_eur": 1.82,
+      "discount_pct": 50,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 3.56,
+      "price_per_kg_eur": 1.82,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 1.78,
+          "price_eur": 0.91,
+          "old_price": 3.56,
+          "old_price_eur": 1.82,
+          "discount_pct": 50,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 1.78,
+      "comparison_count": 1,
+      "product_id": "tmarket-спагети-divella-ristorante-500г-500g",
+      "weight_grams": 500,
+      "weight_raw": "500г",
+      "name": "Спагети DIVELLA ristorante 500г",
+      "image": "https://tmarketonline.bg/cdn/img/products/48869/spageti-divella-ristorante-500gr-62f3d726f34e2.jpeg?width=600&height=600&v=1777589959",
+      "category": "grain",
+      "emoji": "🌾",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": true,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 131,
+        "p": 5,
+        "f": 1.1,
+        "c": 25
+      },
+      "avg_price": 2.67,
+      "lowest_price": 1.78,
+      "lowest_price_date": "2026-10-22",
+      "price_history": [
+        [
+          "2026-05-16",
+          3.56,
+          null,
+          null
+        ],
+        [
+          "2026-10-22",
+          1.78,
+          3.56,
+          50
+        ],
+        [
+          "2026-11-09",
+          3.56,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          1.78,
+          3.56,
+          50
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 1.78,
+      "new_price_eur": 0.91,
+      "old_price": 3.56,
+      "old_price_eur": 1.82,
+      "discount_pct": 50,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 3.56,
+      "price_per_kg_eur": 1.82,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 1.78,
+          "price_eur": 0.91,
+          "old_price": 3.56,
+          "old_price_eur": 1.82,
+          "discount_pct": 50,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 1.78,
+      "comparison_count": 1,
+      "product_id": "tmarket-макарони-divella-pene-rigate-500г-500g",
+      "weight_grams": 500,
+      "weight_raw": "500г",
+      "name": "Макарони DIVELLA Pene Rigate 500г",
+      "image": "https://tmarketonline.bg/cdn/img/products/48870/makaroni-divella-pene-rigate-500gr-62f3d76ee71e9.jpeg?width=600&height=600&v=1777589959",
+      "category": "grain",
+      "emoji": "🌾",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": true,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 131,
+        "p": 5,
+        "f": 1.1,
+        "c": 25
+      },
+      "avg_price": 2.67,
+      "lowest_price": 1.78,
+      "lowest_price_date": "2026-10-22",
+      "price_history": [
+        [
+          "2026-05-16",
+          3.56,
+          null,
+          null
+        ],
+        [
+          "2026-10-22",
+          1.78,
+          3.56,
+          50
+        ],
+        [
+          "2026-11-09",
+          3.56,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          1.78,
+          3.56,
+          50
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 1.78,
+      "new_price_eur": 0.91,
+      "old_price": 3.56,
+      "old_price_eur": 1.82,
+      "discount_pct": 50,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 3.56,
+      "price_per_kg_eur": 1.82,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 1.78,
+          "price_eur": 0.91,
+          "old_price": 3.56,
+          "old_price_eur": 1.82,
+          "discount_pct": 50,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 1.78,
+      "comparison_count": 1,
+      "product_id": "tmarket-макарони-divella-gomiti-500г-500g",
+      "weight_grams": 500,
+      "weight_raw": "500г",
+      "name": "Макарони DIVELLA Gomiti 500г",
+      "image": "https://tmarketonline.bg/cdn/img/products/48871/makaroni-divella-gomiti-500gr-62f3d7c7599be.jpeg?width=600&height=600&v=1777589959",
+      "category": "grain",
+      "emoji": "🌾",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": true,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 131,
+        "p": 5,
+        "f": 1.1,
+        "c": 25
+      },
+      "avg_price": 2.67,
+      "lowest_price": 1.78,
+      "lowest_price_date": "2026-10-22",
+      "price_history": [
+        [
+          "2026-05-16",
+          3.56,
+          null,
+          null
+        ],
+        [
+          "2026-10-22",
+          1.78,
+          3.56,
+          50
+        ],
+        [
+          "2026-11-09",
+          3.56,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          1.78,
+          3.56,
+          50
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 1.78,
+      "new_price_eur": 0.91,
+      "old_price": 3.56,
+      "old_price_eur": 1.82,
+      "discount_pct": 50,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 3.56,
+      "price_per_kg_eur": 1.82,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 1.78,
+          "price_eur": 0.91,
+          "old_price": 3.56,
+          "old_price_eur": 1.82,
+          "discount_pct": 50,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 1.78,
+      "comparison_count": 1,
+      "product_id": "tmarket-макарони-divella-fusilli-500г-500g",
+      "weight_grams": 500,
+      "weight_raw": "500г",
+      "name": "Макарони DIVELLA Fusilli 500г",
+      "image": "https://tmarketonline.bg/cdn/img/products/48880/makaroni-divella-palnozarnesti-500-gr-62f3dade07263.jpeg?width=600&height=600&v=1777589957",
+      "category": "grain",
+      "emoji": "🌾",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": true,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 131,
+        "p": 5,
+        "f": 1.1,
+        "c": 25
+      },
+      "avg_price": 2.67,
+      "lowest_price": 1.78,
+      "lowest_price_date": "2026-10-22",
+      "price_history": [
+        [
+          "2026-05-16",
+          3.56,
+          null,
+          null
+        ],
+        [
+          "2026-10-22",
+          1.78,
+          3.56,
+          50
+        ],
+        [
+          "2026-11-09",
+          3.56,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          1.78,
+          3.56,
+          50
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "buy"
+    },
+    {
       "store": "Kaufland",
       "address": null,
       "new_price": 1.79,
@@ -36616,38 +37457,37 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 1.86,
-      "new_price_eur": 0.95,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 62.0,
-      "price_per_kg_eur": 31.7,
-      "source_type": "assortment",
+      "new_price": 1.8,
+      "new_price_eur": 0.92,
+      "old_price": 2.39,
+      "old_price_eur": 1.22,
+      "discount_pct": 25,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 90.0,
+      "price_per_kg_eur": 46.02,
+      "source_type": "promo",
       "available_stores": [
         "T-Market"
       ],
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 1.86,
-          "price_eur": 0.95,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
+          "price": 1.8,
+          "price_eur": 0.92,
+          "old_price": 2.39,
+          "old_price_eur": 1.22,
+          "discount_pct": 25,
+          "source_type": "promo"
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 1.86,
+      "best_price": 1.8,
       "comparison_count": 1,
-      "product_id": "tmarket-чаи-биопрограма-добро-утро-20x1-5гр-30g",
-      "weight_grams": 30,
-      "weight_raw": "20x1.5гр",
-      "name": "Чай БИОПРОГРАМА добро утро 20x1.5гр",
-      "image": "https://tmarketonline.bg/cdn/img/products/39467/caj-bioprograma-dobro-utro-20x1-5-g-image_5ea2cd07487f0.png?width=1920&height=1920&v=1777589875",
+      "product_id": "tmarket-чаи-биопрограма-лаика-20x1гр-20g",
+      "weight_grams": 20,
+      "weight_raw": "20x1гр",
+      "name": "Чай БИОПРОГРАМА лайка 20x1гр",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -36659,33 +37499,40 @@ const OFFERS_DATA = {
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
-      "avg_price": 1.86,
-      "lowest_price": 1.86,
-      "lowest_price_date": "2026-05-16",
+      "avg_price": 2.1,
+      "lowest_price": 1.8,
+      "lowest_price_date": "2026-11-10",
       "price_history": [
         [
           "2026-05-16",
-          1.86,
+          2.39,
           null,
           null
+        ],
+        [
+          "2026-11-10",
+          1.8,
+          2.39,
+          25
         ]
       ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
+      "price_seen_count": 2,
+      "price_signal": "buy",
+      "image": "https://tmarketonline.bg/cdn/img/products/39464/caj-bioprograma-lajka-20x1-g-image_5ea2ccfa58806.png?width=600&height=600&v=1777589882"
     },
     {
       "store": "T-Market",
       "address": null,
       "new_price": 1.86,
       "new_price_eur": 0.95,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 62.0,
-      "price_per_kg_eur": 31.7,
-      "source_type": "assortment",
+      "old_price": 2.48,
+      "old_price_eur": 1.27,
+      "discount_pct": 25,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 42.27,
+      "price_per_kg_eur": 21.61,
+      "source_type": "promo",
       "available_stores": [
         "T-Market"
       ],
@@ -36694,19 +37541,20 @@ const OFFERS_DATA = {
           "store": "T-Market",
           "price": 1.86,
           "price_eur": 0.95,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
+          "old_price": 2.48,
+          "old_price_eur": 1.27,
+          "discount_pct": 25,
+          "source_type": "promo"
         }
       ],
       "best_price_store": "T-Market",
       "best_price": 1.86,
       "comparison_count": 1,
-      "product_id": "tmarket-чаи-биопрограма-алпинист-20x1-5гр-30g",
-      "weight_grams": 30,
-      "weight_raw": "20x1.5гр",
-      "name": "Чай БИОПРОГРАМА алпинист 20x1.5гр",
+      "product_id": "tmarket-чаи-биопрограма-шипка-и-каркаде-44гр-44g",
+      "weight_grams": 44,
+      "weight_raw": "44гр",
+      "name": "Чай БИОПРОГРАМА шипка и каркаде, 44гр",
+      "image": "https://tmarketonline.bg/cdn/img/products/39858/caj-bioprograma-sipka-i-karkade-44-g-image_5ea2d44f62521.jpeg?width=1920&height=1920&v=1777589881",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -36718,20 +37566,25 @@ const OFFERS_DATA = {
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
-      "avg_price": 1.86,
+      "avg_price": 2.17,
       "lowest_price": 1.86,
-      "lowest_price_date": "2026-05-16",
+      "lowest_price_date": "2026-11-10",
       "price_history": [
         [
           "2026-05-16",
-          1.86,
+          2.48,
           null,
           null
+        ],
+        [
+          "2026-11-10",
+          1.86,
+          2.48,
+          25
         ]
       ],
-      "price_seen_count": 1,
-      "price_signal": "buy",
-      "image": "https://tmarketonline.bg/cdn/img/products/39471/caj-bioprograma-alpinist-20x1-5-g-image_5ea2cd125fc47.png?width=600&height=600&v=1777589876"
+      "price_seen_count": 2,
+      "price_signal": "buy"
     },
     {
       "store": "T-Market",
@@ -36898,11 +37751,11 @@ const OFFERS_DATA = {
       "best_price_store": "T-Market",
       "best_price": 1.9,
       "comparison_count": 1,
-      "product_id": "tmarket-брашно-мелко-тип-500-1кг-1000g",
+      "product_id": "tmarket-брашно-симид-екстра-1кг-1000g",
       "weight_grams": 1000,
       "weight_raw": "1кг",
-      "name": "Брашно МЕЛКО тип 500 1кг",
-      "image": "https://tmarketonline.bg/cdn/img/products/48508/brasno-melko-tip-500-1kg-627eb14ecf1a4.jpeg?width=1920&height=1920&v=1777589953",
+      "name": "Брашно СИМИД екстра,1кг",
+      "image": "https://tmarketonline.bg/cdn/img/products/39195/brasno-simid-ekstra-1-kg-image_6061b42c73bfd.jpeg?width=600&height=600&v=1777589938",
       "category": "grain",
       "emoji": "🌾",
       "health_score": 5,
@@ -36923,25 +37776,31 @@ const OFFERS_DATA = {
         "f": 1,
         "c": 76
       },
-      "avg_price": 1.73,
+      "avg_price": 1.78,
       "lowest_price": 1.55,
-      "lowest_price_date": "2026-05-16",
+      "lowest_price_date": "2026-10-22",
       "price_history": [
         [
           "2026-05-16",
+          1.9,
+          null,
+          null
+        ],
+        [
+          "2026-10-22",
           1.55,
           1.9,
           18
         ],
         [
-          "2026-10-22",
+          "2026-11-10",
           1.9,
           null,
           null
         ]
       ],
-      "price_seen_count": 2,
-      "price_signal": "wait"
+      "price_seen_count": 3,
+      "price_signal": "normal"
     },
     {
       "store": "Kaufland",
@@ -37765,6 +38624,75 @@ const OFFERS_DATA = {
       "price_signal": "wait"
     },
     {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 2.05,
+      "new_price_eur": 1.05,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 5.12,
+      "price_per_kg_eur": 2.62,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 2.05,
+          "price_eur": 1.05,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 2.05,
+      "comparison_count": 1,
+      "product_id": "tmarket-пробиотично-кис-мляко-bifipro-2-9-400гр-400g",
+      "weight_grams": 400,
+      "weight_raw": "400гр",
+      "name": "Пробиотично кис.мляко BiFiPro 2.9% 400гр",
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/c09e1a9a-d1b0-4f75-be15-9ef0d341b501.png",
+      "category": "dairy",
+      "emoji": "🥛",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 60,
+        "p": 3.2,
+        "f": 3.2,
+        "c": 4.8
+      },
+      "avg_price": 2.05,
+      "lowest_price": 2.05,
+      "lowest_price_date": "2026-05-16",
+      "price_history": [
+        [
+          "2026-05-16",
+          2.05,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
       "store": "Kaufland",
       "address": null,
       "new_price": 2.07,
@@ -38050,6 +38978,87 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 2.15,
+      "new_price_eur": 1.1,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 2.15,
+      "price_per_kg_eur": 1.1,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 2.15,
+          "price_eur": 1.1,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 2.15,
+      "comparison_count": 1,
+      "product_id": "tmarket-брашно-софия-мел-т-500-1-кг-1000g",
+      "weight_grams": 1000,
+      "weight_raw": "1 кг",
+      "name": "Брашно СОФИЯ МЕЛ т.500 1 кг",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800107801213_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "grain",
+      "emoji": "🌾",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 364,
+        "p": 10,
+        "f": 1,
+        "c": 76
+      },
+      "avg_price": 2.01,
+      "lowest_price": 1.74,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-05-16",
+          2.15,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          1.74,
+          2.15,
+          19
+        ],
+        [
+          "2026-11-10",
+          2.15,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "normal"
+    },
+    {
       "store": "Kaufland",
       "address": null,
       "new_price": 2.19,
@@ -38313,66 +39322,6 @@ const OFFERS_DATA = {
           2.19,
           4.09,
           46
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 2.19,
-      "new_price_eur": 1.12,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 73.0,
-      "price_per_kg_eur": 37.32,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 2.19,
-          "price_eur": 1.12,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 2.19,
-      "comparison_count": 1,
-      "product_id": "tmarket-чаи-биопрограма-студ-и-зима-20x1-5гр-30g",
-      "weight_grams": 30,
-      "weight_raw": "20x1.5гр",
-      "name": "Чай БИОПРОГРАМА студ и зима 20x1.5гр",
-      "image": "https://tmarketonline.bg/cdn/img/products/39479/caj-bioprograma-stud-i-zima-20x1-5-g-image_5ea2cd2e51700.png?width=1920&height=1920&v=1777589877",
-      "category": "drinks",
-      "emoji": "🍺",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 2.19,
-      "lowest_price": 2.19,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          2.19,
-          null,
-          null
         ]
       ],
       "price_seen_count": 1,
@@ -38989,70 +39938,6 @@ const OFFERS_DATA = {
       "address": null,
       "new_price": 2.33,
       "new_price_eur": 1.19,
-      "old_price": 6.2,
-      "old_price_eur": 3.17,
-      "discount_pct": 62,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 2.33,
-          "price_eur": 1.19,
-          "old_price": 6.2,
-          "old_price_eur": 3.17,
-          "discount_pct": 62,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 2.33,
-      "comparison_count": 1,
-      "product_id": "tmarket-лимони-турция-кг-клас-i-2",
-      "name": "Лимони, Турция кг.(Клас I)",
-      "image": "images/foods/apple.svg",
-      "category": "vegetable",
-      "emoji": "🥦",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "macros": {
-        "kcal": 29,
-        "p": 1.1,
-        "f": 0.3,
-        "c": 9
-      },
-      "avg_price": 2.33,
-      "lowest_price": 2.33,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
-        [
-          "2026-11-09",
-          2.33,
-          6.2,
-          62
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 2.33,
-      "new_price_eur": 1.19,
       "old_price": null,
       "old_price_eur": null,
       "discount_pct": null,
@@ -39580,66 +40465,6 @@ const OFFERS_DATA = {
       "price_signal": "normal"
     },
     {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 2.39,
-      "new_price_eur": 1.22,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 119.5,
-      "price_per_kg_eur": 61.1,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 2.39,
-          "price_eur": 1.22,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 2.39,
-      "comparison_count": 1,
-      "product_id": "tmarket-чаи-биопрограма-лаика-20x1гр-20g",
-      "weight_grams": 20,
-      "weight_raw": "20x1гр",
-      "name": "Чай БИОПРОГРАМА лайка 20x1гр",
-      "category": "drinks",
-      "emoji": "🍺",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 2.39,
-      "lowest_price": 2.39,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          2.39,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy",
-      "image": "https://tmarketonline.bg/cdn/img/products/39464/caj-bioprograma-lajka-20x1-g-image_5ea2ccfa58806.png?width=600&height=600&v=1777589882"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 2.46,
@@ -39700,66 +40525,6 @@ const OFFERS_DATA = {
           2.46,
           3.29,
           25
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 2.48,
-      "new_price_eur": 1.27,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 56.36,
-      "price_per_kg_eur": 28.82,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 2.48,
-          "price_eur": 1.27,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 2.48,
-      "comparison_count": 1,
-      "product_id": "tmarket-чаи-биопрограма-шипка-и-каркаде-44гр-44g",
-      "weight_grams": 44,
-      "weight_raw": "44гр",
-      "name": "Чай БИОПРОГРАМА шипка и каркаде, 44гр",
-      "image": "https://tmarketonline.bg/cdn/img/products/39858/caj-bioprograma-sipka-i-karkade-44-g-image_5ea2d44f62521.jpeg?width=1920&height=1920&v=1777589881",
-      "category": "drinks",
-      "emoji": "🍺",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 2.48,
-      "lowest_price": 2.48,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          2.48,
-          null,
-          null
         ]
       ],
       "price_seen_count": 1,
@@ -40545,40 +41310,40 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 2.64,
-      "new_price_eur": 1.35,
-      "old_price": 2.88,
-      "old_price_eur": 1.47,
-      "discount_pct": 8,
-      "valid_from": "2026-10-20",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 2.64,
-      "price_per_kg_eur": 1.35,
-      "source_type": "promo",
+      "new_price": 2.62,
+      "new_price_eur": 1.34,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 13.79,
+      "price_per_kg_eur": 7.05,
+      "source_type": "assortment",
       "available_stores": [
         "T-Market"
       ],
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 2.64,
-          "price_eur": 1.35,
-          "old_price": 2.88,
-          "old_price_eur": 1.47,
-          "discount_pct": 8,
-          "source_type": "promo"
+          "price": 2.62,
+          "price_eur": 1.34,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 2.64,
+      "best_price": 2.62,
       "comparison_count": 1,
-      "product_id": "tmarket-прясно-мляко-mizo-3-5-1л-1000g",
-      "weight_grams": 1000,
-      "weight_raw": "1л",
-      "name": "Прясно мляко MIZO 3.5% 1л",
-      "image": "https://tmarketonline.bg/cdn/img/products/55586/prasno-mlako-mizo-1-5--1-l-682b8d4588527.png?width=1920&height=1920&v=1777590013",
-      "category": "dairy",
-      "emoji": "🥛",
+      "product_id": "tmarket-пюре-bebelan-puree-манго-4-190гр-190g",
+      "weight_grams": 190,
+      "weight_raw": "190гр",
+      "name": "Пюре BEBELAN Puree Манго 4+ 190гр",
+      "image": "https://tmarketonline.bg/cdn/img/products/50226/kartofeno-pure-naturale-foods-4h100-gr-6400a67ac0528.jpeg?width=600&height=600&v=1777589969",
+      "category": "vegetable",
+      "emoji": "🥦",
       "health_score": 5,
       "is_food": true,
       "is_junk": false,
@@ -40588,34 +41353,31 @@ const OFFERS_DATA = {
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
-      "diet_tags": [
-        "budget"
-      ],
       "macros": {
         "kcal": 60,
-        "p": 3.2,
-        "f": 3.2,
-        "c": 4.8
+        "p": 0.8,
+        "f": 0.4,
+        "c": 15
       },
-      "avg_price": 2.58,
-      "lowest_price": 2.52,
+      "avg_price": 2.36,
+      "lowest_price": 2.1,
       "lowest_price_date": "2026-05-16",
       "price_history": [
         [
           "2026-05-16",
-          2.52,
-          2.88,
-          12
+          2.1,
+          2.62,
+          20
         ],
         [
           "2026-10-22",
-          2.64,
-          2.88,
-          8
+          2.62,
+          null,
+          null
         ]
       ],
       "price_seen_count": 2,
-      "price_signal": "normal"
+      "price_signal": "wait"
     },
     {
       "store": "Kaufland",
@@ -40809,81 +41571,6 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 2.72,
-      "new_price_eur": 1.39,
-      "old_price": 3.05,
-      "old_price_eur": 1.56,
-      "discount_pct": 11,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 2.72,
-      "price_per_kg_eur": 1.39,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 2.72,
-          "price_eur": 1.39,
-          "old_price": 3.05,
-          "old_price_eur": 1.56,
-          "discount_pct": 11,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 2.72,
-      "comparison_count": 1,
-      "product_id": "tmarket-прясно-мляко-верея-3-1л-1000g",
-      "weight_grams": 1000,
-      "weight_raw": "1л",
-      "name": "Прясно мляко ВЕРЕЯ 3% 1л",
-      "image": "https://tmarketonline.bg/cdn/img/products/39848/prasno-mlako-verea-1-5--1-l-63f77deabb022.jpeg?width=1920&height=1920&v=1777589969",
-      "category": "dairy",
-      "emoji": "🥛",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "diet_tags": [
-        "budget"
-      ],
-      "macros": {
-        "kcal": 60,
-        "p": 3.2,
-        "f": 3.2,
-        "c": 4.8
-      },
-      "avg_price": 2.88,
-      "lowest_price": 2.72,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
-        [
-          "2026-05-16",
-          3.05,
-          null,
-          null
-        ],
-        [
-          "2026-11-09",
-          2.72,
-          3.05,
-          11
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 2.75,
@@ -40944,81 +41631,6 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 2.76,
-      "new_price_eur": 1.41,
-      "old_price": 3.25,
-      "old_price_eur": 1.66,
-      "discount_pct": 15,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 2.76,
-      "price_per_kg_eur": 1.41,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 2.76,
-          "price_eur": 1.41,
-          "old_price": 3.25,
-          "old_price_eur": 1.66,
-          "discount_pct": 15,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 2.76,
-      "comparison_count": 1,
-      "product_id": "tmarket-прясно-мляко-саяна-3-1л-1000g",
-      "weight_grams": 1000,
-      "weight_raw": "1л",
-      "name": "Прясно мляко САЯНА 3% 1л",
-      "image": "https://tmarketonline.bg/cdn/img/products/39987/prasno-mlako-saana-3--1-l-image_5ea2d6a3e00b3.png?width=1920&height=1920&v=1777589883",
-      "category": "dairy",
-      "emoji": "🥛",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "diet_tags": [
-        "budget"
-      ],
-      "macros": {
-        "kcal": 60,
-        "p": 3.2,
-        "f": 3.2,
-        "c": 4.8
-      },
-      "avg_price": 3.0,
-      "lowest_price": 2.76,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
-        [
-          "2026-05-16",
-          3.25,
-          null,
-          null
-        ],
-        [
-          "2026-11-09",
-          2.76,
-          3.25,
-          15
-        ]
-      ],
-      "price_seen_count": 2,
       "price_signal": "buy"
     },
     {
@@ -41131,6 +41743,168 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 8,
       "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 2.88,
+      "new_price_eur": 1.47,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 2.88,
+      "price_per_kg_eur": 1.47,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 2.88,
+          "price_eur": 1.47,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 2.88,
+      "comparison_count": 1,
+      "product_id": "tmarket-прясно-мляко-mizo-3-5-1л-1000g",
+      "weight_grams": 1000,
+      "weight_raw": "1л",
+      "name": "Прясно мляко MIZO 3.5% 1л",
+      "image": "https://tmarketonline.bg/cdn/img/products/55586/prasno-mlako-mizo-1-5--1-l-682b8d4588527.png?width=1920&height=1920&v=1777590013",
+      "category": "dairy",
+      "emoji": "🥛",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 60,
+        "p": 3.2,
+        "f": 3.2,
+        "c": 4.8
+      },
+      "avg_price": 2.68,
+      "lowest_price": 2.52,
+      "lowest_price_date": "2026-05-16",
+      "price_history": [
+        [
+          "2026-05-16",
+          2.52,
+          2.88,
+          12
+        ],
+        [
+          "2026-10-22",
+          2.64,
+          2.88,
+          8
+        ],
+        [
+          "2026-11-10",
+          2.88,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "normal"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 2.91,
+      "new_price_eur": 1.49,
+      "old_price": 3.25,
+      "old_price_eur": 1.66,
+      "discount_pct": 10,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-30",
+      "price_per_kg": 2.91,
+      "price_per_kg_eur": 1.49,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 2.91,
+          "price_eur": 1.49,
+          "old_price": 3.25,
+          "old_price_eur": 1.66,
+          "discount_pct": 10,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 2.91,
+      "comparison_count": 1,
+      "product_id": "tmarket-прясно-мляко-саяна-3-1л-1000g",
+      "weight_grams": 1000,
+      "weight_raw": "1л",
+      "name": "Прясно мляко САЯНА 3% 1л",
+      "image": "https://tmarketonline.bg/cdn/img/products/39987/prasno-mlako-saana-3--1-l-image_5ea2d6a3e00b3.png?width=1920&height=1920&v=1777589883",
+      "category": "dairy",
+      "emoji": "🥛",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 60,
+        "p": 3.2,
+        "f": 3.2,
+        "c": 4.8
+      },
+      "avg_price": 2.97,
+      "lowest_price": 2.76,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-05-16",
+          3.25,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          2.76,
+          3.25,
+          15
+        ],
+        [
+          "2026-11-10",
+          2.91,
+          3.25,
+          10
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "normal"
     },
     {
       "store": "Kaufland",
@@ -41871,263 +42645,38 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 3.11,
-      "new_price_eur": 1.59,
-      "old_price": 3.66,
-      "old_price_eur": 1.87,
-      "discount_pct": 15,
-      "valid_from": "2026-10-20",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 6.22,
-      "price_per_kg_eur": 3.18,
-      "source_type": "promo",
+      "new_price": 3.05,
+      "new_price_eur": 1.56,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 3.05,
+      "price_per_kg_eur": 1.56,
+      "source_type": "assortment",
       "available_stores": [
         "T-Market"
       ],
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 3.11,
-          "price_eur": 1.59,
-          "old_price": 3.66,
-          "old_price_eur": 1.87,
-          "discount_pct": 15,
-          "source_type": "promo"
+          "price": 3.05,
+          "price_eur": 1.56,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 3.11,
+      "best_price": 3.05,
       "comparison_count": 1,
-      "product_id": "tmarket-макарони-barilla-fusilli-500г-500g",
-      "weight_grams": 500,
-      "weight_raw": "500г",
-      "name": "Макарони BARILLA fusilli 500г",
-      "image": "https://tmarketonline.bg/cdn/img/products/40146/makaroni-barilla-fusilli-500-g-6454c4d3accf4.png?width=600&height=600&v=1777589973",
-      "category": "grain",
-      "emoji": "🌾",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": true,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "diet_tags": [
-        "budget"
-      ],
-      "macros": {
-        "kcal": 131,
-        "p": 5,
-        "f": 1.1,
-        "c": 25
-      },
-      "avg_price": 3.38,
-      "lowest_price": 3.11,
-      "lowest_price_date": "2026-10-22",
-      "price_history": [
-        [
-          "2026-05-16",
-          3.66,
-          null,
-          null
-        ],
-        [
-          "2026-10-22",
-          3.11,
-          3.66,
-          15
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 3.11,
-      "new_price_eur": 1.59,
-      "old_price": 3.66,
-      "old_price_eur": 1.87,
-      "discount_pct": 15,
-      "valid_from": "2026-10-20",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 6.22,
-      "price_per_kg_eur": 3.18,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 3.11,
-          "price_eur": 1.59,
-          "old_price": 3.66,
-          "old_price_eur": 1.87,
-          "discount_pct": 15,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 3.11,
-      "comparison_count": 1,
-      "product_id": "tmarket-спагети-barilla-no5-500г-500g",
-      "weight_grams": 500,
-      "weight_raw": "500г",
-      "name": "Спагети BARILLA No5 500г",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00090840_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "grain",
-      "emoji": "🌾",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": true,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "diet_tags": [
-        "budget"
-      ],
-      "macros": {
-        "kcal": 131,
-        "p": 5,
-        "f": 1.1,
-        "c": 25
-      },
-      "avg_price": 3.38,
-      "lowest_price": 3.11,
-      "lowest_price_date": "2026-10-22",
-      "price_history": [
-        [
-          "2026-05-16",
-          3.66,
-          null,
-          null
-        ],
-        [
-          "2026-10-22",
-          3.11,
-          3.66,
-          15
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 3.11,
-      "new_price_eur": 1.59,
-      "old_price": 3.66,
-      "old_price_eur": 1.87,
-      "discount_pct": 15,
-      "valid_from": "2026-10-20",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 6.22,
-      "price_per_kg_eur": 3.18,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 3.11,
-          "price_eur": 1.59,
-          "old_price": 3.66,
-          "old_price_eur": 1.87,
-          "discount_pct": 15,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 3.11,
-      "comparison_count": 1,
-      "product_id": "tmarket-макарони-barilla-penne-rigate-500г-500g",
-      "weight_grams": 500,
-      "weight_raw": "500г",
-      "name": "Макарони BARILLA Penne Rigate 500г",
-      "image": "https://tmarketonline.bg/cdn/img/products/56212/makaroni-barilla-penne-rigate-1kg-696679f81d665.jpeg?width=1920&height=1920&v=1777590028",
-      "category": "grain",
-      "emoji": "🌾",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": true,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "diet_tags": [
-        "budget"
-      ],
-      "macros": {
-        "kcal": 131,
-        "p": 5,
-        "f": 1.1,
-        "c": 25
-      },
-      "avg_price": 3.38,
-      "lowest_price": 3.11,
-      "lowest_price_date": "2026-10-22",
-      "price_history": [
-        [
-          "2026-05-16",
-          3.66,
-          null,
-          null
-        ],
-        [
-          "2026-10-22",
-          3.11,
-          3.66,
-          15
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 3.13,
-      "new_price_eur": 1.6,
-      "old_price": 3.68,
-      "old_price_eur": 1.88,
-      "discount_pct": 15,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 25.04,
-      "price_per_kg_eur": 12.8,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 3.13,
-          "price_eur": 1.6,
-          "old_price": 3.68,
-          "old_price_eur": 1.88,
-          "discount_pct": 15,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 3.13,
-      "comparison_count": 1,
-      "product_id": "tmarket-краве-масло-саяна-82-125гр-125g",
-      "weight_grams": 125,
-      "weight_raw": "125гр",
-      "name": "Краве масло САЯНА 82%, 125гр",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/2058fdf8-806c-47c0-8752-d6485d055dad.png",
+      "product_id": "tmarket-прясно-мляко-верея-3-1л-1000g",
+      "weight_grams": 1000,
+      "weight_raw": "1л",
+      "name": "Прясно мляко ВЕРЕЯ 3% 1л",
+      "image": "https://tmarketonline.bg/cdn/img/products/39848/prasno-mlako-verea-1-5--1-l-63f77deabb022.jpeg?width=1920&height=1920&v=1777589969",
       "category": "dairy",
       "emoji": "🥛",
       "health_score": 5,
@@ -42136,34 +42685,43 @@ const OFFERS_DATA = {
       "is_healthy": true,
       "is_high_protein": false,
       "is_good_carb": false,
-      "is_good_fat": true,
+      "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
+      "diet_tags": [
+        "budget"
+      ],
       "macros": {
-        "kcal": 717,
-        "p": 0.9,
-        "f": 81,
-        "c": 0.1
+        "kcal": 60,
+        "p": 3.2,
+        "f": 3.2,
+        "c": 4.8
       },
-      "avg_price": 3.41,
-      "lowest_price": 3.13,
+      "avg_price": 2.94,
+      "lowest_price": 2.72,
       "lowest_price_date": "2026-11-09",
       "price_history": [
         [
           "2026-05-16",
-          3.68,
+          3.05,
           null,
           null
         ],
         [
           "2026-11-09",
-          3.13,
-          3.68,
-          15
+          2.72,
+          3.05,
+          11
+        ],
+        [
+          "2026-11-10",
+          3.05,
+          null,
+          null
         ]
       ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
+      "price_seen_count": 3,
+      "price_signal": "normal"
     },
     {
       "store": "Kaufland",
@@ -42434,81 +42992,6 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 3.42,
-      "new_price_eur": 1.75,
-      "old_price": 3.99,
-      "old_price_eur": 2.04,
-      "discount_pct": 14,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 3.42,
-      "price_per_kg_eur": 1.75,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 3.42,
-          "price_eur": 1.75,
-          "old_price": 3.99,
-          "old_price_eur": 2.04,
-          "discount_pct": 14,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 3.42,
-      "comparison_count": 1,
-      "product_id": "tmarket-олио-калиакра-слънчогледово-1л-1000g",
-      "weight_grams": 1000,
-      "weight_raw": "1л",
-      "name": "Олио КАЛИАКРА слънчогледово 1л",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00039341_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
-      "category": "fat",
-      "emoji": "🫒",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": true,
-      "is_long_lasting": true,
-      "diet_tags": [
-        "budget"
-      ],
-      "macros": {
-        "kcal": 584,
-        "p": 21,
-        "f": 51,
-        "c": 20
-      },
-      "avg_price": 3.71,
-      "lowest_price": 3.42,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
-        [
-          "2026-05-16",
-          3.99,
-          null,
-          null
-        ],
-        [
-          "2026-11-09",
-          3.42,
-          3.99,
-          14
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
       "new_price": 3.44,
       "new_price_eur": 1.76,
       "old_price": null,
@@ -42637,330 +43120,6 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 1,
       "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 3.56,
-      "new_price_eur": 1.82,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 7.12,
-      "price_per_kg_eur": 3.64,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 3.56,
-          "price_eur": 1.82,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 3.56,
-      "comparison_count": 1,
-      "product_id": "tmarket-спагети-divella-ristorante-500г-500g",
-      "weight_grams": 500,
-      "weight_raw": "500г",
-      "name": "Спагети DIVELLA ristorante 500г",
-      "image": "https://tmarketonline.bg/cdn/img/products/48869/spageti-divella-ristorante-500gr-62f3d726f34e2.jpeg?width=600&height=600&v=1777589959",
-      "category": "grain",
-      "emoji": "🌾",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": true,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "diet_tags": [
-        "budget"
-      ],
-      "macros": {
-        "kcal": 131,
-        "p": 5,
-        "f": 1.1,
-        "c": 25
-      },
-      "avg_price": 2.97,
-      "lowest_price": 1.78,
-      "lowest_price_date": "2026-10-22",
-      "price_history": [
-        [
-          "2026-05-16",
-          3.56,
-          null,
-          null
-        ],
-        [
-          "2026-10-22",
-          1.78,
-          3.56,
-          50
-        ],
-        [
-          "2026-11-09",
-          3.56,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "wait"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 3.56,
-      "new_price_eur": 1.82,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 7.12,
-      "price_per_kg_eur": 3.64,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 3.56,
-          "price_eur": 1.82,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 3.56,
-      "comparison_count": 1,
-      "product_id": "tmarket-макарони-divella-pene-rigate-500г-500g",
-      "weight_grams": 500,
-      "weight_raw": "500г",
-      "name": "Макарони DIVELLA Pene Rigate 500г",
-      "image": "https://tmarketonline.bg/cdn/img/products/48870/makaroni-divella-pene-rigate-500gr-62f3d76ee71e9.jpeg?width=600&height=600&v=1777589959",
-      "category": "grain",
-      "emoji": "🌾",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": true,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "diet_tags": [
-        "budget"
-      ],
-      "macros": {
-        "kcal": 131,
-        "p": 5,
-        "f": 1.1,
-        "c": 25
-      },
-      "avg_price": 2.97,
-      "lowest_price": 1.78,
-      "lowest_price_date": "2026-10-22",
-      "price_history": [
-        [
-          "2026-05-16",
-          3.56,
-          null,
-          null
-        ],
-        [
-          "2026-10-22",
-          1.78,
-          3.56,
-          50
-        ],
-        [
-          "2026-11-09",
-          3.56,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "wait"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 3.56,
-      "new_price_eur": 1.82,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 7.12,
-      "price_per_kg_eur": 3.64,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 3.56,
-          "price_eur": 1.82,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 3.56,
-      "comparison_count": 1,
-      "product_id": "tmarket-макарони-divella-gomiti-500г-500g",
-      "weight_grams": 500,
-      "weight_raw": "500г",
-      "name": "Макарони DIVELLA Gomiti 500г",
-      "image": "https://tmarketonline.bg/cdn/img/products/48871/makaroni-divella-gomiti-500gr-62f3d7c7599be.jpeg?width=600&height=600&v=1777589959",
-      "category": "grain",
-      "emoji": "🌾",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": true,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "diet_tags": [
-        "budget"
-      ],
-      "macros": {
-        "kcal": 131,
-        "p": 5,
-        "f": 1.1,
-        "c": 25
-      },
-      "avg_price": 2.97,
-      "lowest_price": 1.78,
-      "lowest_price_date": "2026-10-22",
-      "price_history": [
-        [
-          "2026-05-16",
-          3.56,
-          null,
-          null
-        ],
-        [
-          "2026-10-22",
-          1.78,
-          3.56,
-          50
-        ],
-        [
-          "2026-11-09",
-          3.56,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "wait"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 3.56,
-      "new_price_eur": 1.82,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 7.12,
-      "price_per_kg_eur": 3.64,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 3.56,
-          "price_eur": 1.82,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 3.56,
-      "comparison_count": 1,
-      "product_id": "tmarket-макарони-divella-fusilli-500г-500g",
-      "weight_grams": 500,
-      "weight_raw": "500г",
-      "name": "Макарони DIVELLA Fusilli 500г",
-      "image": "https://tmarketonline.bg/cdn/img/products/48880/makaroni-divella-palnozarnesti-500-gr-62f3dade07263.jpeg?width=600&height=600&v=1777589957",
-      "category": "grain",
-      "emoji": "🌾",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": true,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "diet_tags": [
-        "budget"
-      ],
-      "macros": {
-        "kcal": 131,
-        "p": 5,
-        "f": 1.1,
-        "c": 25
-      },
-      "avg_price": 2.97,
-      "lowest_price": 1.78,
-      "lowest_price_date": "2026-10-22",
-      "price_history": [
-        [
-          "2026-05-16",
-          3.56,
-          null,
-          null
-        ],
-        [
-          "2026-10-22",
-          1.78,
-          3.56,
-          50
-        ],
-        [
-          "2026-11-09",
-          3.56,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "wait"
     },
     {
       "store": "T-Market",
@@ -43219,6 +43378,327 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 3.66,
+      "new_price_eur": 1.87,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 7.32,
+      "price_per_kg_eur": 3.74,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 3.66,
+          "price_eur": 1.87,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 3.66,
+      "comparison_count": 1,
+      "product_id": "tmarket-макарони-barilla-fusilli-500г-500g",
+      "weight_grams": 500,
+      "weight_raw": "500г",
+      "name": "Макарони BARILLA fusilli 500г",
+      "image": "https://tmarketonline.bg/cdn/img/products/40146/makaroni-barilla-fusilli-500-g-6454c4d3accf4.png?width=600&height=600&v=1777589973",
+      "category": "grain",
+      "emoji": "🌾",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": true,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 131,
+        "p": 5,
+        "f": 1.1,
+        "c": 25
+      },
+      "avg_price": 3.48,
+      "lowest_price": 3.11,
+      "lowest_price_date": "2026-10-22",
+      "price_history": [
+        [
+          "2026-05-16",
+          3.66,
+          null,
+          null
+        ],
+        [
+          "2026-10-22",
+          3.11,
+          3.66,
+          15
+        ],
+        [
+          "2026-11-10",
+          3.66,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "normal"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 3.66,
+      "new_price_eur": 1.87,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 7.32,
+      "price_per_kg_eur": 3.74,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 3.66,
+          "price_eur": 1.87,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 3.66,
+      "comparison_count": 1,
+      "product_id": "tmarket-спагети-barilla-no5-500г-500g",
+      "weight_grams": 500,
+      "weight_raw": "500г",
+      "name": "Спагети BARILLA No5 500г",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00090840_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "grain",
+      "emoji": "🌾",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": true,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 131,
+        "p": 5,
+        "f": 1.1,
+        "c": 25
+      },
+      "avg_price": 3.48,
+      "lowest_price": 3.11,
+      "lowest_price_date": "2026-10-22",
+      "price_history": [
+        [
+          "2026-05-16",
+          3.66,
+          null,
+          null
+        ],
+        [
+          "2026-10-22",
+          3.11,
+          3.66,
+          15
+        ],
+        [
+          "2026-11-10",
+          3.66,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "normal"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 3.66,
+      "new_price_eur": 1.87,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 7.32,
+      "price_per_kg_eur": 3.74,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 3.66,
+          "price_eur": 1.87,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 3.66,
+      "comparison_count": 1,
+      "product_id": "tmarket-макарони-barilla-penne-rigate-500г-500g",
+      "weight_grams": 500,
+      "weight_raw": "500г",
+      "name": "Макарони BARILLA Penne Rigate 500г",
+      "image": "https://tmarketonline.bg/cdn/img/products/56212/makaroni-barilla-penne-rigate-1kg-696679f81d665.jpeg?width=1920&height=1920&v=1777590028",
+      "category": "grain",
+      "emoji": "🌾",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": true,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 131,
+        "p": 5,
+        "f": 1.1,
+        "c": 25
+      },
+      "avg_price": 3.48,
+      "lowest_price": 3.11,
+      "lowest_price_date": "2026-10-22",
+      "price_history": [
+        [
+          "2026-05-16",
+          3.66,
+          null,
+          null
+        ],
+        [
+          "2026-10-22",
+          3.11,
+          3.66,
+          15
+        ],
+        [
+          "2026-11-10",
+          3.66,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "normal"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 3.68,
+      "new_price_eur": 1.88,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 29.44,
+      "price_per_kg_eur": 15.05,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 3.68,
+          "price_eur": 1.88,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 3.68,
+      "comparison_count": 1,
+      "product_id": "tmarket-краве-масло-саяна-82-125гр-125g",
+      "weight_grams": 125,
+      "weight_raw": "125гр",
+      "name": "Краве масло САЯНА 82%, 125гр",
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/2058fdf8-806c-47c0-8752-d6485d055dad.png",
+      "category": "dairy",
+      "emoji": "🥛",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 717,
+        "p": 0.9,
+        "f": 81,
+        "c": 0.1
+      },
+      "avg_price": 3.5,
+      "lowest_price": 3.13,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-05-16",
+          3.68,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          3.13,
+          3.68,
+          15
+        ],
+        [
+          "2026-11-10",
+          3.68,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "normal"
+    },
+    {
       "store": "Kaufland",
       "address": null,
       "new_price": 3.69,
@@ -43359,6 +43839,270 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
+      "new_price": 3.74,
+      "new_price_eur": 1.91,
+      "old_price": 4.99,
+      "old_price_eur": 2.55,
+      "discount_pct": 25,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 110.0,
+      "price_per_kg_eur": 56.24,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 3.74,
+          "price_eur": 1.91,
+          "old_price": 4.99,
+          "old_price_eur": 2.55,
+          "discount_pct": 25,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 3.74,
+      "comparison_count": 1,
+      "product_id": "tmarket-чаи-биопрограма-премиум-кехлибар-20x1-7г-34g",
+      "weight_grams": 34,
+      "weight_raw": "20x1.7г",
+      "name": "Чай БИОПРОГРАМА Премиум Кехлибар 20x1.7г",
+      "category": "drinks",
+      "emoji": "🍺",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 4.37,
+      "lowest_price": 3.74,
+      "lowest_price_date": "2026-11-10",
+      "price_history": [
+        [
+          "2026-05-16",
+          4.99,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          3.74,
+          4.99,
+          25
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy",
+      "image": "https://tmarketonline.bg/cdn/img/products/39471/caj-bioprograma-alpinist-20x1-5-g-image_5ea2cd125fc47.png?width=600&height=600&v=1777589876"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 3.74,
+      "new_price_eur": 1.91,
+      "old_price": 4.99,
+      "old_price_eur": 2.55,
+      "discount_pct": 25,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 110.0,
+      "price_per_kg_eur": 56.24,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 3.74,
+          "price_eur": 1.91,
+          "old_price": 4.99,
+          "old_price_eur": 2.55,
+          "discount_pct": 25,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 3.74,
+      "comparison_count": 1,
+      "product_id": "tmarket-чаи-биопрограма-премиум-изгрев-20x1-7г-34g",
+      "weight_grams": 34,
+      "weight_raw": "20x1.7г",
+      "name": "Чай БИОПРОГРАМА Премиум Изгрев 20x1.7г",
+      "category": "drinks",
+      "emoji": "🍺",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 4.37,
+      "lowest_price": 3.74,
+      "lowest_price_date": "2026-11-10",
+      "price_history": [
+        [
+          "2026-05-16",
+          4.99,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          3.74,
+          4.99,
+          25
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy",
+      "image": "https://tmarketonline.bg/cdn/img/products/39471/caj-bioprograma-alpinist-20x1-5-g-image_5ea2cd125fc47.png?width=600&height=600&v=1777589876"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 3.74,
+      "new_price_eur": 1.91,
+      "old_price": 4.99,
+      "old_price_eur": 2.55,
+      "discount_pct": 25,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 93.5,
+      "price_per_kg_eur": 47.81,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 3.74,
+          "price_eur": 1.91,
+          "old_price": 4.99,
+          "old_price_eur": 2.55,
+          "discount_pct": 25,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 3.74,
+      "comparison_count": 1,
+      "product_id": "tmarket-чаи-биопрограма-премиум-гор-плодове20x2г-40g",
+      "weight_grams": 40,
+      "weight_raw": "20x2г",
+      "name": "Чай БИОПРОГРАМА Премиум гор.плодове20x2г",
+      "category": "drinks",
+      "emoji": "🍺",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 4.37,
+      "lowest_price": 3.74,
+      "lowest_price_date": "2026-11-10",
+      "price_history": [
+        [
+          "2026-05-16",
+          4.99,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          3.74,
+          4.99,
+          25
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy",
+      "image": "https://tmarketonline.bg/cdn/img/products/39471/caj-bioprograma-alpinist-20x1-5-g-image_5ea2cd125fc47.png?width=600&height=600&v=1777589876"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 3.74,
+      "new_price_eur": 1.91,
+      "old_price": 4.99,
+      "old_price_eur": 2.55,
+      "discount_pct": 25,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 110.0,
+      "price_per_kg_eur": 56.24,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 3.74,
+          "price_eur": 1.91,
+          "old_price": 4.99,
+          "old_price_eur": 2.55,
+          "discount_pct": 25,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 3.74,
+      "comparison_count": 1,
+      "product_id": "tmarket-чаи-биопрограма-премиум-добър-ден20x1-7г-34g",
+      "weight_grams": 34,
+      "weight_raw": "20x1.7г",
+      "name": "Чай БИОПРОГРАМА Премиум Добър ден20x1.7г",
+      "category": "drinks",
+      "emoji": "🍺",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 4.37,
+      "lowest_price": 3.74,
+      "lowest_price_date": "2026-11-10",
+      "price_history": [
+        [
+          "2026-05-16",
+          4.99,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          3.74,
+          4.99,
+          25
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy",
+      "image": "https://tmarketonline.bg/cdn/img/products/39471/caj-bioprograma-alpinist-20x1-5-g-image_5ea2cd125fc47.png?width=600&height=600&v=1777589876"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
       "new_price": 3.76,
       "new_price_eur": 1.92,
       "old_price": null,
@@ -43427,223 +44171,6 @@ const OFFERS_DATA = {
       "price_seen_count": 2,
       "price_signal": "wait",
       "image": "https://cdn.metro-group.com/bg/bg_pim_341809003001_01?format=jpg&quality=80&dpi=72"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 3.85,
-      "new_price_eur": 1.97,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 3.85,
-      "price_per_kg_eur": 1.97,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 3.85,
-          "price_eur": 1.97,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 3.85,
-      "comparison_count": 1,
-      "product_id": "tmarket-прясно-мляко-елби-3-6-1л-1000g",
-      "weight_grams": 1000,
-      "weight_raw": "1л",
-      "name": "Прясно мляко ЕЛБИ 3.6% 1л",
-      "image": "https://tmarketonline.bg/cdn/img/products/50231/prasno-mlako-elbi-3-6--1-l-6405081b3cb5a.jpeg?width=1920&height=1920&v=1777589970",
-      "category": "dairy",
-      "emoji": "🥛",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "diet_tags": [
-        "budget"
-      ],
-      "macros": {
-        "kcal": 60,
-        "p": 3.2,
-        "f": 3.2,
-        "c": 4.8
-      },
-      "avg_price": 3.85,
-      "lowest_price": 3.85,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          3.85,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 3.89,
-      "new_price_eur": 1.99,
-      "old_price": 5.98,
-      "old_price_eur": 3.06,
-      "discount_pct": 35,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 3.89,
-          "price_eur": 1.99,
-          "old_price": 5.98,
-          "old_price_eur": 3.06,
-          "discount_pct": 35,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 3.89,
-      "comparison_count": 1,
-      "product_id": "tmarket-пил-бутче-месни-изкушения-тар-охл-кг-мап",
-      "name": "Пил.бутче МЕСНИ ИЗКУШЕНИЯ тар.охл.кг МАП",
-      "image": "https://api.bulmag.org/thumbnails/befe43a656fe74aef0752ec988a48e80.jpeg",
-      "category": "protein",
-      "emoji": "🍗",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "macros": {
-        "kcal": 160,
-        "p": 20,
-        "f": 9,
-        "c": 0
-      },
-      "avg_price": 3.79,
-      "lowest_price": 3.7,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          3.7,
-          5.98,
-          38
-        ],
-        [
-          "2026-10-22",
-          3.89,
-          5.98,
-          35
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "normal"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 3.97,
-      "new_price_eur": 2.03,
-      "old_price": 4.67,
-      "old_price_eur": 2.39,
-      "discount_pct": 15,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 31.76,
-      "price_per_kg_eur": 16.24,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 3.97,
-          "price_eur": 2.03,
-          "old_price": 4.67,
-          "old_price_eur": 2.39,
-          "discount_pct": 15,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 3.97,
-      "comparison_count": 1,
-      "product_id": "tmarket-масло-верея-125гр-125g",
-      "weight_grams": 125,
-      "weight_raw": "125гр",
-      "name": "Масло ВЕРЕЯ 125гр",
-      "image": "https://tmarketonline.bg/cdn/img/products/42223/maslo-verea-125gr-image_5f46425078582.png?width=600&height=600&v=1777589902",
-      "category": "other",
-      "emoji": "🛒",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "macros": {
-        "kcal": 717,
-        "p": 0.9,
-        "f": 81,
-        "c": 0.1
-      },
-      "avg_price": 4.2,
-      "lowest_price": 3.97,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          3.97,
-          4.67,
-          15
-        ],
-        [
-          "2026-10-22",
-          4.67,
-          null,
-          null
-        ],
-        [
-          "2026-11-09",
-          3.97,
-          4.67,
-          15
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "buy"
     },
     {
       "store": "Kaufland",
@@ -44007,6 +44534,87 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 2,
       "price_signal": "wait"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 3.99,
+      "new_price_eur": 2.04,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 3.99,
+      "price_per_kg_eur": 2.04,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 3.99,
+          "price_eur": 2.04,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 3.99,
+      "comparison_count": 1,
+      "product_id": "tmarket-олио-калиакра-слънчогледово-1л-1000g",
+      "weight_grams": 1000,
+      "weight_raw": "1л",
+      "name": "Олио КАЛИАКРА слънчогледово 1л",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00039341_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
+      "category": "fat",
+      "emoji": "🫒",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": true,
+      "is_long_lasting": true,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 584,
+        "p": 21,
+        "f": 51,
+        "c": 20
+      },
+      "avg_price": 3.8,
+      "lowest_price": 3.42,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-05-16",
+          3.99,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          3.42,
+          3.99,
+          14
+        ],
+        [
+          "2026-11-10",
+          3.99,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "normal"
     },
     {
       "store": "Kaufland",
@@ -44401,6 +45009,84 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 4.32,
+      "new_price_eur": 2.21,
+      "old_price": 5.09,
+      "old_price_eur": 2.6,
+      "discount_pct": 15,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 21.6,
+      "price_per_kg_eur": 11.04,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 4.32,
+          "price_eur": 2.21,
+          "old_price": 5.09,
+          "old_price_eur": 2.6,
+          "discount_pct": 15,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 4.32,
+      "comparison_count": 1,
+      "product_id": "tmarket-кафе-santos-nova-мляно-200-гр-200g",
+      "weight_grams": 200,
+      "weight_raw": "200 гр",
+      "name": "Кафе SANTOS Nova мляно 200 гр",
+      "image": "https://tmarketonline.bg/cdn/img/products/43524/kafe-santos-nova-mlano-200-g-image_5f4cda1987258.png?width=1920&height=1920&v=1777589917",
+      "category": "protein",
+      "emoji": "🍗",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 250,
+        "p": 18,
+        "f": 20,
+        "c": 0
+      },
+      "avg_price": 4.58,
+      "lowest_price": 4.32,
+      "lowest_price_date": "2026-05-16",
+      "price_history": [
+        [
+          "2026-05-16",
+          4.32,
+          5.09,
+          15
+        ],
+        [
+          "2026-10-22",
+          5.09,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          4.32,
+          5.09,
+          15
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "buy"
+    },
+    {
       "store": "Kaufland",
       "address": null,
       "new_price": 4.39,
@@ -44729,6 +45415,72 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 4.46,
+      "new_price_eur": 2.28,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 23.47,
+      "price_per_kg_eur": 12.0,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 4.46,
+          "price_eur": 2.28,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 4.46,
+      "comparison_count": 1,
+      "product_id": "tmarket-пюре-gerber-зел-тел-макарони-190г-190g",
+      "weight_grams": 190,
+      "weight_raw": "190г",
+      "name": "Пюре GERBER зел/тел/макарони 190г",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20868619_626?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "grain",
+      "emoji": "🌾",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": true,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "macros": {
+        "kcal": 131,
+        "p": 5,
+        "f": 1.1,
+        "c": 25
+      },
+      "avg_price": 4.46,
+      "lowest_price": 4.46,
+      "lowest_price_date": "2026-05-16",
+      "price_history": [
+        [
+          "2026-05-16",
+          4.46,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
       "store": "Kaufland",
       "address": null,
       "new_price": 4.49,
@@ -45028,6 +45780,90 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 1,
       "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 4.67,
+      "new_price_eur": 2.39,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 37.36,
+      "price_per_kg_eur": 19.1,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 4.67,
+          "price_eur": 2.39,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 4.67,
+      "comparison_count": 1,
+      "product_id": "tmarket-масло-верея-125гр-125g",
+      "weight_grams": 125,
+      "weight_raw": "125гр",
+      "name": "Масло ВЕРЕЯ 125гр",
+      "image": "https://tmarketonline.bg/cdn/img/products/42223/maslo-verea-125gr-image_5f46425078582.png?width=600&height=600&v=1777589902",
+      "category": "other",
+      "emoji": "🛒",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 717,
+        "p": 0.9,
+        "f": 81,
+        "c": 0.1
+      },
+      "avg_price": 4.32,
+      "lowest_price": 3.97,
+      "lowest_price_date": "2026-05-16",
+      "price_history": [
+        [
+          "2026-05-16",
+          3.97,
+          4.67,
+          15
+        ],
+        [
+          "2026-10-22",
+          4.67,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          3.97,
+          4.67,
+          15
+        ],
+        [
+          "2026-11-10",
+          4.67,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "wait"
     },
     {
       "store": "Kaufland",
@@ -45387,314 +46223,80 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 4.99,
-      "new_price_eur": 2.55,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 146.76,
-      "price_per_kg_eur": 75.04,
-      "source_type": "assortment",
+      "new_price": 5.07,
+      "new_price_eur": 2.59,
+      "old_price": 7.0,
+      "old_price_eur": 3.58,
+      "discount_pct": 28,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-30",
+      "price_per_kg": 20.28,
+      "price_per_kg_eur": 10.37,
+      "source_type": "promo",
       "available_stores": [
         "T-Market"
       ],
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 4.99,
-          "price_eur": 2.55,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
+          "price": 5.07,
+          "price_eur": 2.59,
+          "old_price": 7.0,
+          "old_price_eur": 3.58,
+          "discount_pct": 28,
+          "source_type": "promo"
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 4.99,
+      "best_price": 5.07,
       "comparison_count": 1,
-      "product_id": "tmarket-чаи-биопрограма-премиум-кехлибар-20x1-7г-34g",
-      "weight_grams": 34,
-      "weight_raw": "20x1.7г",
-      "name": "Чай БИОПРОГРАМА Премиум Кехлибар 20x1.7г",
-      "category": "drinks",
-      "emoji": "🍺",
+      "product_id": "tmarket-кр-масло-deutsche-markenbutter-ор-250гр-250g",
+      "weight_grams": 250,
+      "weight_raw": "250гр",
+      "name": "Кр.масло DEUTSCHE MARKENBUTTER ор.,250гр",
+      "image": "https://tmarketonline.bg/cdn/img/products/56199/krave-maslo-deutsche-markenbutter-r-250-g-6935282ca2511.jpeg?width=600&height=600&v=1777590025",
+      "category": "other",
+      "emoji": "🛒",
       "health_score": 5,
       "is_food": true,
       "is_junk": false,
       "is_healthy": true,
       "is_high_protein": false,
       "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 4.99,
-      "lowest_price": 4.99,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          4.99,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy",
-      "image": "https://tmarketonline.bg/cdn/img/products/39471/caj-bioprograma-alpinist-20x1-5-g-image_5ea2cd125fc47.png?width=600&height=600&v=1777589876"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 4.99,
-      "new_price_eur": 2.55,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 146.76,
-      "price_per_kg_eur": 75.04,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 4.99,
-          "price_eur": 2.55,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 4.99,
-      "comparison_count": 1,
-      "product_id": "tmarket-чаи-биопрограма-премиум-изгрев-20x1-7г-34g",
-      "weight_grams": 34,
-      "weight_raw": "20x1.7г",
-      "name": "Чай БИОПРОГРАМА Премиум Изгрев 20x1.7г",
-      "category": "drinks",
-      "emoji": "🍺",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 4.99,
-      "lowest_price": 4.99,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          4.99,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy",
-      "image": "https://tmarketonline.bg/cdn/img/products/39471/caj-bioprograma-alpinist-20x1-5-g-image_5ea2cd125fc47.png?width=600&height=600&v=1777589876"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 4.99,
-      "new_price_eur": 2.55,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 124.75,
-      "price_per_kg_eur": 63.78,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 4.99,
-          "price_eur": 2.55,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 4.99,
-      "comparison_count": 1,
-      "product_id": "tmarket-чаи-биопрограма-премиум-гор-плодове20x2г-40g",
-      "weight_grams": 40,
-      "weight_raw": "20x2г",
-      "name": "Чай БИОПРОГРАМА Премиум гор.плодове20x2г",
-      "category": "drinks",
-      "emoji": "🍺",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 4.99,
-      "lowest_price": 4.99,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          4.99,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy",
-      "image": "https://tmarketonline.bg/cdn/img/products/39471/caj-bioprograma-alpinist-20x1-5-g-image_5ea2cd125fc47.png?width=600&height=600&v=1777589876"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 4.99,
-      "new_price_eur": 2.55,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 146.76,
-      "price_per_kg_eur": 75.04,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 4.99,
-          "price_eur": 2.55,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 4.99,
-      "comparison_count": 1,
-      "product_id": "tmarket-чаи-биопрограма-премиум-добър-ден20x1-7г-34g",
-      "weight_grams": 34,
-      "weight_raw": "20x1.7г",
-      "name": "Чай БИОПРОГРАМА Премиум Добър ден20x1.7г",
-      "category": "drinks",
-      "emoji": "🍺",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 4.99,
-      "lowest_price": 4.99,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          4.99,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy",
-      "image": "https://tmarketonline.bg/cdn/img/products/39471/caj-bioprograma-alpinist-20x1-5-g-image_5ea2cd125fc47.png?width=600&height=600&v=1777589876"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 5.09,
-      "new_price_eur": 2.6,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 25.45,
-      "price_per_kg_eur": 13.01,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 5.09,
-          "price_eur": 2.6,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 5.09,
-      "comparison_count": 1,
-      "product_id": "tmarket-кафе-santos-nova-мляно-200-гр-200g",
-      "weight_grams": 200,
-      "weight_raw": "200 гр",
-      "name": "Кафе SANTOS Nova мляно 200 гр",
-      "image": "https://tmarketonline.bg/cdn/img/products/43524/kafe-santos-nova-mlano-200-g-image_5f4cda1987258.png?width=1920&height=1920&v=1777589917",
-      "category": "protein",
-      "emoji": "🍗",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
+      "is_good_fat": true,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
       "macros": {
-        "kcal": 250,
-        "p": 18,
-        "f": 20,
-        "c": 0
+        "kcal": 717,
+        "p": 0.9,
+        "f": 81,
+        "c": 0.1
       },
-      "avg_price": 4.71,
-      "lowest_price": 4.32,
-      "lowest_price_date": "2026-05-16",
+      "avg_price": 5.97,
+      "lowest_price": 5.07,
+      "lowest_price_date": "2026-11-10",
       "price_history": [
         [
           "2026-05-16",
-          4.32,
-          5.09,
-          15
+          5.85,
+          7.0,
+          16
         ],
         [
           "2026-10-22",
-          5.09,
+          7.0,
           null,
           null
+        ],
+        [
+          "2026-11-10",
+          5.07,
+          7.0,
+          28
         ]
       ],
-      "price_seen_count": 2,
-      "price_signal": "wait"
+      "price_seen_count": 3,
+      "price_signal": "buy"
     },
     {
       "store": "Kaufland",
@@ -45795,78 +46397,6 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 7,
       "price_signal": "good"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 5.26,
-      "new_price_eur": 2.69,
-      "old_price": 7.2,
-      "old_price_eur": 3.68,
-      "discount_pct": 27,
-      "valid_from": "2026-10-20",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 21.04,
-      "price_per_kg_eur": 10.76,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 5.26,
-          "price_eur": 2.69,
-          "old_price": 7.2,
-          "old_price_eur": 3.68,
-          "discount_pct": 27,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 5.26,
-      "comparison_count": 1,
-      "product_id": "tmarket-кр-масло-deutsche-markenbutter-кр-250гр-250g",
-      "weight_grams": 250,
-      "weight_raw": "250гр",
-      "name": "Кр.масло DEUTSCHE MARKENBUTTER кр.,250гр",
-      "image": "https://tmarketonline.bg/cdn/img/products/56199/krave-maslo-deutsche-markenbutter-r-250-g-6935282ca2511.jpeg?width=600&height=600&v=1777590025",
-      "category": "other",
-      "emoji": "🛒",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": true,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "macros": {
-        "kcal": 717,
-        "p": 0.9,
-        "f": 81,
-        "c": 0.1
-      },
-      "avg_price": 6.23,
-      "lowest_price": 5.26,
-      "lowest_price_date": "2026-10-22",
-      "price_history": [
-        [
-          "2026-05-16",
-          7.2,
-          null,
-          null
-        ],
-        [
-          "2026-10-22",
-          5.26,
-          7.2,
-          27
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
     },
     {
       "store": "Kaufland",
@@ -46258,8 +46788,8 @@ const OFFERS_DATA = {
       "old_price": 6.57,
       "old_price_eur": 3.36,
       "discount_pct": 11,
-      "valid_from": "2026-10-20",
-      "valid_until": "2026-11-09",
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-30",
       "price_per_kg": 23.4,
       "price_per_kg_eur": 11.96,
       "source_type": "promo",
@@ -46320,6 +46850,90 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 5.85,
+      "new_price_eur": 2.99,
+      "old_price": 8.63,
+      "old_price_eur": 4.41,
+      "discount_pct": 32,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 29.25,
+      "price_per_kg_eur": 14.96,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 5.85,
+          "price_eur": 2.99,
+          "old_price": 8.63,
+          "old_price_eur": 4.41,
+          "discount_pct": 32,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 5.85,
+      "comparison_count": 1,
+      "product_id": "tmarket-краве-масло-president-82-200гр-200g",
+      "weight_grams": 200,
+      "weight_raw": "200гр",
+      "name": "Краве масло PRESIDENT 82% 200гр",
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/2058fdf8-806c-47c0-8752-d6485d055dad.png",
+      "category": "dairy",
+      "emoji": "🥛",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 717,
+        "p": 0.9,
+        "f": 81,
+        "c": 0.1
+      },
+      "avg_price": 7.24,
+      "lowest_price": 5.85,
+      "lowest_price_date": "2026-10-22",
+      "price_history": [
+        [
+          "2026-05-16",
+          8.63,
+          null,
+          null
+        ],
+        [
+          "2026-10-22",
+          5.85,
+          8.63,
+          32
+        ],
+        [
+          "2026-11-09",
+          8.63,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          5.85,
+          8.63,
+          32
+        ]
+      ],
+      "price_seen_count": 4,
       "price_signal": "buy"
     },
     {
@@ -46391,165 +47005,15 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 5.93,
-      "new_price_eur": 3.03,
-      "old_price": 6.96,
-      "old_price_eur": 3.56,
-      "discount_pct": 15,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 21.96,
-      "price_per_kg_eur": 11.23,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 5.93,
-          "price_eur": 3.03,
-          "old_price": 6.96,
-          "old_price_eur": 3.56,
-          "discount_pct": 15,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 5.93,
-      "comparison_count": 1,
-      "product_id": "tmarket-кашкавал-от-кр-мляко-боженци-270г-270g",
-      "weight_grams": 270,
-      "weight_raw": "270г",
-      "name": "Кашкавал от кр. мляко БОЖЕНЦИ 270г",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00032993_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "dairy",
-      "emoji": "🥛",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "macros": {
-        "kcal": 350,
-        "p": 25,
-        "f": 27,
-        "c": 1
-      },
-      "avg_price": 6.45,
-      "lowest_price": 5.93,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
-        [
-          "2026-05-16",
-          6.96,
-          null,
-          null
-        ],
-        [
-          "2026-11-09",
-          5.93,
-          6.96,
-          15
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 5.93,
-      "new_price_eur": 3.03,
-      "old_price": 6.96,
-      "old_price_eur": 3.56,
-      "discount_pct": 15,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 29.65,
-      "price_per_kg_eur": 15.16,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 5.93,
-          "price_eur": 3.03,
-          "old_price": 6.96,
-          "old_price_eur": 3.56,
-          "discount_pct": 15,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 5.93,
-      "comparison_count": 1,
-      "product_id": "tmarket-кашкавал-верея-200г-200g",
-      "weight_grams": 200,
-      "weight_raw": "200г",
-      "name": "Кашкавал ВЕРЕЯ 200г",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/c09e1a9a-d1b0-4f75-be15-9ef0d341b501.png",
-      "category": "dairy",
-      "emoji": "🥛",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "macros": {
-        "kcal": 350,
-        "p": 25,
-        "f": 27,
-        "c": 1
-      },
-      "avg_price": 6.27,
-      "lowest_price": 5.92,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          5.92,
-          6.96,
-          15
-        ],
-        [
-          "2026-10-22",
-          6.96,
-          null,
-          null
-        ],
-        [
-          "2026-11-09",
-          5.93,
-          6.96,
-          15
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 6.1,
-      "new_price_eur": 3.12,
+      "new_price": 5.98,
+      "new_price_eur": 3.06,
       "old_price": null,
       "old_price_eur": null,
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": 30.5,
-      "price_per_kg_eur": 15.59,
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -46557,8 +47021,8 @@ const OFFERS_DATA = {
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 6.1,
-          "price_eur": 3.12,
+          "price": 5.98,
+          "price_eur": 3.06,
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
@@ -46566,15 +47030,13 @@ const OFFERS_DATA = {
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 6.1,
+      "best_price": 5.98,
       "comparison_count": 1,
-      "product_id": "tmarket-кашкавал-родопско-чудо-200гр-200g",
-      "weight_grams": 200,
-      "weight_raw": "200гр",
-      "name": "Кашкавал РОДОПСКО ЧУДО 200гр",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20350353_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "dairy",
-      "emoji": "🥛",
+      "product_id": "tmarket-пил-бутче-месни-изкушения-тар-охл-кг-мап",
+      "name": "Пил.бутче МЕСНИ ИЗКУШЕНИЯ тар.охл.кг МАП",
+      "image": "https://api.bulmag.org/thumbnails/befe43a656fe74aef0752ec988a48e80.jpeg",
+      "category": "protein",
+      "emoji": "🍗",
       "health_score": 5,
       "is_food": true,
       "is_junk": false,
@@ -46585,36 +47047,36 @@ const OFFERS_DATA = {
       "is_bulk_worthy": false,
       "is_long_lasting": false,
       "macros": {
-        "kcal": 350,
-        "p": 25,
-        "f": 27,
-        "c": 1
+        "kcal": 160,
+        "p": 20,
+        "f": 9,
+        "c": 0
       },
-      "avg_price": 5.79,
-      "lowest_price": 5.18,
-      "lowest_price_date": "2026-10-22",
+      "avg_price": 4.52,
+      "lowest_price": 3.7,
+      "lowest_price_date": "2026-05-16",
       "price_history": [
         [
           "2026-05-16",
-          6.1,
-          null,
-          null
+          3.7,
+          5.98,
+          38
         ],
         [
           "2026-10-22",
-          5.18,
-          6.1,
-          15
+          3.89,
+          5.98,
+          35
         ],
         [
-          "2026-11-09",
-          6.1,
+          "2026-11-10",
+          5.98,
           null,
           null
         ]
       ],
       "price_seen_count": 3,
-      "price_signal": "normal"
+      "price_signal": "wait"
     },
     {
       "store": "Kaufland",
@@ -46697,6 +47159,76 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
+      "new_price": 6.2,
+      "new_price_eur": 3.17,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 6.2,
+          "price_eur": 3.17,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 6.2,
+      "comparison_count": 1,
+      "product_id": "tmarket-лимони-турция-кг-клас-i-2",
+      "name": "Лимони, Турция кг.(Клас I)",
+      "image": "images/foods/apple.svg",
+      "category": "vegetable",
+      "emoji": "🥦",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 29,
+        "p": 1.1,
+        "f": 0.3,
+        "c": 9
+      },
+      "avg_price": 4.27,
+      "lowest_price": 2.33,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-11-09",
+          2.33,
+          6.2,
+          62
+        ],
+        [
+          "2026-11-10",
+          6.2,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "wait"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
       "new_price": 6.28,
       "new_price_eur": 3.21,
       "old_price": null,
@@ -46775,72 +47307,6 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 6.28,
-      "new_price_eur": 3.21,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 31.4,
-      "price_per_kg_eur": 16.05,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 6.28,
-          "price_eur": 3.21,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 6.28,
-      "comparison_count": 1,
-      "product_id": "tmarket-кашкавал-от-краве-мляко-мероне-200гр-200g",
-      "weight_grams": 200,
-      "weight_raw": "200гр",
-      "name": "Кашкавал от краве мляко МЕРОНЕ 200гр",
-      "image": "https://tmarketonline.bg/cdn/img/products/42078/kaskaval-ot-krave-mlako-merone-200-g-image_5f4641c18f1c8.jpeg?width=1920&height=1920&v=1777589898",
-      "category": "dairy",
-      "emoji": "🥛",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "macros": {
-        "kcal": 350,
-        "p": 25,
-        "f": 27,
-        "c": 1
-      },
-      "avg_price": 6.28,
-      "lowest_price": 6.28,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          6.28,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
       "new_price": 6.36,
       "new_price_eur": 3.25,
       "old_price": null,
@@ -46897,6 +47363,162 @@ const OFFERS_DATA = {
       "price_seen_count": 1,
       "price_signal": "buy",
       "image": "https://tmarketonline.bg/cdn/img/products/46066/ahmad-bilkov-caj-detox-image_616d1a04282c7.jpeg?width=600&height=600&v=1777589949"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 6.43,
+      "new_price_eur": 3.29,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 32.15,
+      "price_per_kg_eur": 16.44,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 6.43,
+          "price_eur": 3.29,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 6.43,
+      "comparison_count": 1,
+      "product_id": "tmarket-кашкавал-родопско-чудо-200гр-200g",
+      "weight_grams": 200,
+      "weight_raw": "200гр",
+      "name": "Кашкавал РОДОПСКО ЧУДО 200гр",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20350353_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "dairy",
+      "emoji": "🥛",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 350,
+        "p": 25,
+        "f": 27,
+        "c": 1
+      },
+      "avg_price": 5.95,
+      "lowest_price": 5.18,
+      "lowest_price_date": "2026-10-22",
+      "price_history": [
+        [
+          "2026-05-16",
+          6.1,
+          null,
+          null
+        ],
+        [
+          "2026-10-22",
+          5.18,
+          6.1,
+          15
+        ],
+        [
+          "2026-11-09",
+          6.1,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          6.43,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "wait"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 6.47,
+      "new_price_eur": 3.31,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 32.35,
+      "price_per_kg_eur": 16.54,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 6.47,
+          "price_eur": 3.31,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 6.47,
+      "comparison_count": 1,
+      "product_id": "tmarket-кашкавал-от-краве-мляко-мероне-200гр-200g",
+      "weight_grams": 200,
+      "weight_raw": "200гр",
+      "name": "Кашкавал от краве мляко МЕРОНЕ 200гр",
+      "image": "https://tmarketonline.bg/cdn/img/products/42078/kaskaval-ot-krave-mlako-merone-200-g-image_5f4641c18f1c8.jpeg?width=1920&height=1920&v=1777589898",
+      "category": "dairy",
+      "emoji": "🥛",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 350,
+        "p": 25,
+        "f": 27,
+        "c": 1
+      },
+      "avg_price": 6.38,
+      "lowest_price": 6.28,
+      "lowest_price_date": "2026-05-16",
+      "price_history": [
+        [
+          "2026-05-16",
+          6.28,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          6.47,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "normal"
     },
     {
       "store": "Kaufland",
@@ -47002,84 +47624,6 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 8,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 6.73,
-      "new_price_eur": 3.44,
-      "old_price": 13.48,
-      "old_price_eur": 6.89,
-      "discount_pct": 50,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 16.82,
-      "price_per_kg_eur": 8.6,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 6.73,
-          "price_eur": 3.44,
-          "old_price": 13.48,
-          "old_price_eur": 6.89,
-          "discount_pct": 50,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 6.73,
-      "comparison_count": 1,
-      "product_id": "tmarket-кашкавал-от-краве-мляко-гаида-400гр-400g",
-      "weight_grams": 400,
-      "weight_raw": "400гр",
-      "name": "Кашкавал от краве мляко ГАЙДА 400гр",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00032993_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "dairy",
-      "emoji": "🥛",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "macros": {
-        "kcal": 350,
-        "p": 25,
-        "f": 27,
-        "c": 1
-      },
-      "avg_price": 10.38,
-      "lowest_price": 6.73,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
-        [
-          "2026-05-16",
-          10.93,
-          13.48,
-          19
-        ],
-        [
-          "2026-10-22",
-          13.48,
-          null,
-          null
-        ],
-        [
-          "2026-11-09",
-          6.73,
-          13.48,
-          50
-        ]
-      ],
-      "price_seen_count": 3,
       "price_signal": "buy"
     },
     {
@@ -47469,87 +48013,15 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 7.0,
-      "new_price_eur": 3.58,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 28.0,
-      "price_per_kg_eur": 14.32,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 7.0,
-          "price_eur": 3.58,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 7.0,
-      "comparison_count": 1,
-      "product_id": "tmarket-кр-масло-deutsche-markenbutter-ор-250гр-250g",
-      "weight_grams": 250,
-      "weight_raw": "250гр",
-      "name": "Кр.масло DEUTSCHE MARKENBUTTER ор.,250гр",
-      "image": "https://tmarketonline.bg/cdn/img/products/56199/krave-maslo-deutsche-markenbutter-r-250-g-6935282ca2511.jpeg?width=600&height=600&v=1777590025",
-      "category": "other",
-      "emoji": "🛒",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": true,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "macros": {
-        "kcal": 717,
-        "p": 0.9,
-        "f": 81,
-        "c": 0.1
-      },
-      "avg_price": 6.42,
-      "lowest_price": 5.85,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          5.85,
-          7.0,
-          16
-        ],
-        [
-          "2026-10-22",
-          7.0,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "wait"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 7.65,
-      "new_price_eur": 3.91,
-      "old_price": 9.0,
-      "old_price_eur": 4.6,
-      "discount_pct": 15,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 30.6,
-      "price_per_kg_eur": 15.65,
+      "new_price": 6.83,
+      "new_price_eur": 3.49,
+      "old_price": 12.6,
+      "old_price_eur": 6.44,
+      "discount_pct": 46,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
       "source_type": "promo",
       "available_stores": [
         "T-Market"
@@ -47557,60 +48029,58 @@ const OFFERS_DATA = {
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 7.65,
-          "price_eur": 3.91,
-          "old_price": 9.0,
-          "old_price_eur": 4.6,
-          "discount_pct": 15,
+          "price": 6.83,
+          "price_eur": 3.49,
+          "old_price": 12.6,
+          "old_price_eur": 6.44,
+          "discount_pct": 46,
           "source_type": "promo"
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 7.65,
+      "best_price": 6.83,
       "comparison_count": 1,
-      "product_id": "tmarket-краве-масло-верея-250гр-250g",
-      "weight_grams": 250,
-      "weight_raw": "250гр",
-      "name": "Краве масло ВЕРЕЯ 250гр",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/2058fdf8-806c-47c0-8752-d6485d055dad.png",
-      "category": "dairy",
-      "emoji": "🥛",
+      "product_id": "tmarket-св-бут-без-кост-нас-кг-пр-испания",
+      "name": "Св.бут без кост нас.кг пр. Испания",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00100054_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "protein",
+      "emoji": "🍗",
       "health_score": 5,
       "is_food": true,
       "is_junk": false,
       "is_healthy": true,
       "is_high_protein": false,
       "is_good_carb": false,
-      "is_good_fat": true,
+      "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
       "macros": {
-        "kcal": 717,
-        "p": 0.9,
-        "f": 81,
-        "c": 0.1
+        "kcal": 160,
+        "p": 20,
+        "f": 9,
+        "c": 0
       },
-      "avg_price": 8.1,
-      "lowest_price": 7.65,
-      "lowest_price_date": "2026-05-16",
+      "avg_price": 8.79,
+      "lowest_price": 6.83,
+      "lowest_price_date": "2026-11-10",
       "price_history": [
         [
           "2026-05-16",
-          7.65,
-          9.0,
-          15
+          6.94,
+          12.6,
+          45
         ],
         [
           "2026-10-22",
-          9.0,
+          12.6,
           null,
           null
         ],
         [
-          "2026-11-09",
-          7.65,
-          9.0,
-          15
+          "2026-11-10",
+          6.83,
+          12.6,
+          46
         ]
       ],
       "price_seen_count": 3,
@@ -47619,15 +48089,15 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 7.65,
-      "new_price_eur": 3.91,
-      "old_price": 9.0,
-      "old_price_eur": 4.6,
-      "discount_pct": 15,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 19.12,
-      "price_per_kg_eur": 9.78,
+      "new_price": 6.83,
+      "new_price_eur": 3.49,
+      "old_price": 12.5,
+      "old_price_eur": 6.39,
+      "discount_pct": 45,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
       "source_type": "promo",
       "available_stores": [
         "T-Market"
@@ -47635,21 +48105,97 @@ const OFFERS_DATA = {
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 7.65,
-          "price_eur": 3.91,
-          "old_price": 9.0,
-          "old_price_eur": 4.6,
-          "discount_pct": 15,
+          "price": 6.83,
+          "price_eur": 3.49,
+          "old_price": 12.5,
+          "old_price_eur": 6.39,
+          "discount_pct": 45,
           "source_type": "promo"
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 7.65,
+      "best_price": 6.83,
       "comparison_count": 1,
-      "product_id": "tmarket-кашкавал-от-краве-мляко-чифлика-400г-400g",
-      "weight_grams": 400,
-      "weight_raw": "400г",
-      "name": "Кашкавал от краве мляко ЧИФЛИКА, 400г",
+      "product_id": "tmarket-св-бут-без-кост-вак-пр-испания",
+      "name": "Св. бут без кост вак . пр.Испания",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00100054_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "protein",
+      "emoji": "🍗",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 160,
+        "p": 20,
+        "f": 9,
+        "c": 0
+      },
+      "avg_price": 8.76,
+      "lowest_price": 6.83,
+      "lowest_price_date": "2026-11-10",
+      "price_history": [
+        [
+          "2026-05-16",
+          6.94,
+          12.5,
+          44
+        ],
+        [
+          "2026-10-22",
+          12.5,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          6.83,
+          12.5,
+          45
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 6.96,
+      "new_price_eur": 3.56,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 25.78,
+      "price_per_kg_eur": 13.18,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 6.96,
+          "price_eur": 3.56,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 6.96,
+      "comparison_count": 1,
+      "product_id": "tmarket-кашкавал-от-кр-мляко-боженци-270г-270g",
+      "weight_grams": 270,
+      "weight_raw": "270г",
+      "name": "Кашкавал от кр. мляко БОЖЕНЦИ 270г",
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00032993_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "dairy",
       "emoji": "🥛",
@@ -47668,25 +48214,193 @@ const OFFERS_DATA = {
         "f": 27,
         "c": 1
       },
-      "avg_price": 8.32,
-      "lowest_price": 7.65,
+      "avg_price": 6.62,
+      "lowest_price": 5.93,
       "lowest_price_date": "2026-11-09",
       "price_history": [
         [
           "2026-05-16",
-          9.0,
+          6.96,
           null,
           null
         ],
         [
           "2026-11-09",
-          7.65,
-          9.0,
+          5.93,
+          6.96,
           15
+        ],
+        [
+          "2026-11-10",
+          6.96,
+          null,
+          null
         ]
       ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
+      "price_seen_count": 3,
+      "price_signal": "normal"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 6.96,
+      "new_price_eur": 3.56,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 34.8,
+      "price_per_kg_eur": 17.79,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 6.96,
+          "price_eur": 3.56,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 6.96,
+      "comparison_count": 1,
+      "product_id": "tmarket-кашкавал-верея-200г-200g",
+      "weight_grams": 200,
+      "weight_raw": "200г",
+      "name": "Кашкавал ВЕРЕЯ 200г",
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/c09e1a9a-d1b0-4f75-be15-9ef0d341b501.png",
+      "category": "dairy",
+      "emoji": "🥛",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 350,
+        "p": 25,
+        "f": 27,
+        "c": 1
+      },
+      "avg_price": 6.44,
+      "lowest_price": 5.92,
+      "lowest_price_date": "2026-05-16",
+      "price_history": [
+        [
+          "2026-05-16",
+          5.92,
+          6.96,
+          15
+        ],
+        [
+          "2026-10-22",
+          6.96,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          5.93,
+          6.96,
+          15
+        ],
+        [
+          "2026-11-10",
+          6.96,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "wait"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 7.2,
+      "new_price_eur": 3.68,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 28.8,
+      "price_per_kg_eur": 14.73,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 7.2,
+          "price_eur": 3.68,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 7.2,
+      "comparison_count": 1,
+      "product_id": "tmarket-кр-масло-deutsche-markenbutter-кр-250гр-250g",
+      "weight_grams": 250,
+      "weight_raw": "250гр",
+      "name": "Кр.масло DEUTSCHE MARKENBUTTER кр.,250гр",
+      "image": "https://tmarketonline.bg/cdn/img/products/56199/krave-maslo-deutsche-markenbutter-r-250-g-6935282ca2511.jpeg?width=600&height=600&v=1777590025",
+      "category": "other",
+      "emoji": "🛒",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 717,
+        "p": 0.9,
+        "f": 81,
+        "c": 0.1
+      },
+      "avg_price": 6.55,
+      "lowest_price": 5.26,
+      "lowest_price_date": "2026-10-22",
+      "price_history": [
+        [
+          "2026-05-16",
+          7.2,
+          null,
+          null
+        ],
+        [
+          "2026-10-22",
+          5.26,
+          7.2,
+          27
+        ],
+        [
+          "2026-11-10",
+          7.2,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "wait"
     },
     {
       "store": "T-Market",
@@ -47850,6 +48564,78 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
+      "new_price": 8.0,
+      "new_price_eur": 4.09,
+      "old_price": 9.8,
+      "old_price_eur": 5.01,
+      "discount_pct": 18,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 20.0,
+      "price_per_kg_eur": 10.23,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 8.0,
+          "price_eur": 4.09,
+          "old_price": 9.8,
+          "old_price_eur": 5.01,
+          "discount_pct": 18,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 8.0,
+      "comparison_count": 1,
+      "product_id": "tmarket-кашкавал-от-краве-мляко-наборъ-400гр-400g",
+      "weight_grams": 400,
+      "weight_raw": "400гр",
+      "name": "Кашкавал от краве мляко НАБОРЪ, 400гр",
+      "image": "https://tmarketonline.bg/cdn/img/products/49143/kaskaval-ot-krave-mlako-nabora-200g-633165ad0bc36.jpeg?width=1920&height=1920&v=1777589960",
+      "category": "dairy",
+      "emoji": "🥛",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 350,
+        "p": 25,
+        "f": 27,
+        "c": 1
+      },
+      "avg_price": 8.9,
+      "lowest_price": 8.0,
+      "lowest_price_date": "2026-11-10",
+      "price_history": [
+        [
+          "2026-05-16",
+          9.8,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          8.0,
+          9.8,
+          18
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
       "new_price": 8.1,
       "new_price_eur": 4.14,
       "old_price": null,
@@ -47912,156 +48698,6 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 1,
       "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 8.39,
-      "new_price_eur": 4.29,
-      "old_price": 9.0,
-      "old_price_eur": 4.6,
-      "discount_pct": 7,
-      "valid_from": "2026-10-20",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 27.97,
-      "price_per_kg_eur": 14.3,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 8.39,
-          "price_eur": 4.29,
-          "old_price": 9.0,
-          "old_price_eur": 4.6,
-          "discount_pct": 7,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 8.39,
-      "comparison_count": 1,
-      "product_id": "tmarket-кашкавал-от-кр-мляко-хаджииски-300г-300g",
-      "weight_grams": 300,
-      "weight_raw": "300г",
-      "name": "Кашкавал от кр.мляко ХАДЖИЙСКИ 300г",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00032993_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "dairy",
-      "emoji": "🥛",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "macros": {
-        "kcal": 350,
-        "p": 25,
-        "f": 27,
-        "c": 1
-      },
-      "avg_price": 8.7,
-      "lowest_price": 8.39,
-      "lowest_price_date": "2026-10-22",
-      "price_history": [
-        [
-          "2026-05-16",
-          9.0,
-          null,
-          null
-        ],
-        [
-          "2026-10-22",
-          8.39,
-          9.0,
-          7
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 8.63,
-      "new_price_eur": 4.41,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 43.15,
-      "price_per_kg_eur": 22.06,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 8.63,
-          "price_eur": 4.41,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 8.63,
-      "comparison_count": 1,
-      "product_id": "tmarket-краве-масло-president-82-200гр-200g",
-      "weight_grams": 200,
-      "weight_raw": "200гр",
-      "name": "Краве масло PRESIDENT 82% 200гр",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/2058fdf8-806c-47c0-8752-d6485d055dad.png",
-      "category": "dairy",
-      "emoji": "🥛",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": true,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "macros": {
-        "kcal": 717,
-        "p": 0.9,
-        "f": 81,
-        "c": 0.1
-      },
-      "avg_price": 7.7,
-      "lowest_price": 5.85,
-      "lowest_price_date": "2026-10-22",
-      "price_history": [
-        [
-          "2026-05-16",
-          8.63,
-          null,
-          null
-        ],
-        [
-          "2026-10-22",
-          5.85,
-          8.63,
-          32
-        ],
-        [
-          "2026-11-09",
-          8.63,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "wait"
     },
     {
       "store": "T-Market",
@@ -48134,6 +48770,88 @@ const OFFERS_DATA = {
       "price_seen_count": 3,
       "price_signal": "wait",
       "image": "https://tmarketonline.bg/cdn/img/products/55363/raztvorimo-kafe-jacobs-3in1-intense-11-1-g-6784f8638b866.jpeg?width=600&height=600&v=1777590012"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 8.9,
+      "new_price_eur": 4.55,
+      "old_price": 11.13,
+      "old_price_eur": 5.69,
+      "discount_pct": 20,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 8.9,
+      "price_per_kg_eur": 4.55,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 8.9,
+          "price_eur": 4.55,
+          "old_price": 11.13,
+          "old_price_eur": 5.69,
+          "discount_pct": 20,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 8.9,
+      "comparison_count": 1,
+      "product_id": "tmarket-маслини-черни-колосал-121-140-нас-кг",
+      "name": "Маслини черни Колосал 121-140 нас.кг",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/2840830000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "fat",
+      "emoji": "🫒",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": true,
+      "is_long_lasting": true,
+      "macros": {
+        "kcal": 115,
+        "p": 0.8,
+        "f": 11,
+        "c": 6
+      },
+      "avg_price": 9.33,
+      "lowest_price": 8.39,
+      "lowest_price_date": "2026-10-22",
+      "price_history": [
+        [
+          "2026-05-16",
+          8.9,
+          11.13,
+          20
+        ],
+        [
+          "2026-10-22",
+          8.39,
+          11.13,
+          25
+        ],
+        [
+          "2026-11-09",
+          11.13,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          8.9,
+          11.13,
+          20
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "normal"
     },
     {
       "store": "Kaufland",
@@ -48271,6 +48989,246 @@ const OFFERS_DATA = {
       "best_price_store": "T-Market",
       "best_price": 9.0,
       "comparison_count": 1,
+      "product_id": "tmarket-краве-масло-верея-250гр-250g",
+      "weight_grams": 250,
+      "weight_raw": "250гр",
+      "name": "Краве масло ВЕРЕЯ 250гр",
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/2058fdf8-806c-47c0-8752-d6485d055dad.png",
+      "category": "dairy",
+      "emoji": "🥛",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 717,
+        "p": 0.9,
+        "f": 81,
+        "c": 0.1
+      },
+      "avg_price": 8.32,
+      "lowest_price": 7.65,
+      "lowest_price_date": "2026-05-16",
+      "price_history": [
+        [
+          "2026-05-16",
+          7.65,
+          9.0,
+          15
+        ],
+        [
+          "2026-10-22",
+          9.0,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          7.65,
+          9.0,
+          15
+        ],
+        [
+          "2026-11-10",
+          9.0,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "wait"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 9.0,
+      "new_price_eur": 4.6,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 30.0,
+      "price_per_kg_eur": 15.34,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 9.0,
+          "price_eur": 4.6,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 9.0,
+      "comparison_count": 1,
+      "product_id": "tmarket-кашкавал-от-кр-мляко-хаджииски-300г-300g",
+      "weight_grams": 300,
+      "weight_raw": "300г",
+      "name": "Кашкавал от кр.мляко ХАДЖИЙСКИ 300г",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00032993_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "dairy",
+      "emoji": "🥛",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 350,
+        "p": 25,
+        "f": 27,
+        "c": 1
+      },
+      "avg_price": 8.8,
+      "lowest_price": 8.39,
+      "lowest_price_date": "2026-10-22",
+      "price_history": [
+        [
+          "2026-05-16",
+          9.0,
+          null,
+          null
+        ],
+        [
+          "2026-10-22",
+          8.39,
+          9.0,
+          7
+        ],
+        [
+          "2026-11-10",
+          9.0,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "normal"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 9.0,
+      "new_price_eur": 4.6,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 22.5,
+      "price_per_kg_eur": 11.5,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 9.0,
+          "price_eur": 4.6,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 9.0,
+      "comparison_count": 1,
+      "product_id": "tmarket-кашкавал-от-краве-мляко-чифлика-400г-400g",
+      "weight_grams": 400,
+      "weight_raw": "400г",
+      "name": "Кашкавал от краве мляко ЧИФЛИКА, 400г",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00032993_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "dairy",
+      "emoji": "🥛",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 350,
+        "p": 25,
+        "f": 27,
+        "c": 1
+      },
+      "avg_price": 8.55,
+      "lowest_price": 7.65,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-05-16",
+          9.0,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          7.65,
+          9.0,
+          15
+        ],
+        [
+          "2026-11-10",
+          9.0,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "normal"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 9.0,
+      "new_price_eur": 4.6,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 36.0,
+      "price_per_kg_eur": 18.41,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 9.0,
+          "price_eur": 4.6,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 9.0,
+      "comparison_count": 1,
       "product_id": "tmarket-кафе-bianchi-fam-d-oro-classic-250г-250g",
       "weight_grams": 250,
       "weight_raw": "250г",
@@ -48312,6 +49270,90 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 3,
       "price_signal": "wait"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 9.17,
+      "new_price_eur": 4.69,
+      "old_price": 10.8,
+      "old_price_eur": 5.52,
+      "discount_pct": 15,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 22.93,
+      "price_per_kg_eur": 11.72,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 9.17,
+          "price_eur": 4.69,
+          "old_price": 10.8,
+          "old_price_eur": 5.52,
+          "discount_pct": 15,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 9.17,
+      "comparison_count": 1,
+      "product_id": "tmarket-кашкавал-от-краве-мляко-булгарче-400гр-400g",
+      "weight_grams": 400,
+      "weight_raw": "400гр",
+      "name": "Кашкавал от краве мляко БУЛГАРЧЕ 400гр",
+      "image": "https://tmarketonline.bg/cdn/img/products/48215/kaskaval-ot-krave-mlako-bulgarce-400gr-image_620bb1499db0e.png?width=1920&height=1920&v=1777589952",
+      "category": "dairy",
+      "emoji": "🥛",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 350,
+        "p": 25,
+        "f": 27,
+        "c": 1
+      },
+      "avg_price": 9.58,
+      "lowest_price": 9.17,
+      "lowest_price_date": "2026-10-22",
+      "price_history": [
+        [
+          "2026-05-16",
+          9.18,
+          10.8,
+          15
+        ],
+        [
+          "2026-10-22",
+          9.17,
+          10.8,
+          15
+        ],
+        [
+          "2026-11-09",
+          10.8,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          9.17,
+          10.8,
+          15
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "buy"
     },
     {
       "store": "Kaufland",
@@ -48452,40 +49494,40 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 9.8,
-      "new_price_eur": 5.01,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 24.5,
-      "price_per_kg_eur": 12.53,
-      "source_type": "assortment",
+      "new_price": 9.76,
+      "new_price_eur": 4.99,
+      "old_price": 21.69,
+      "old_price_eur": 11.09,
+      "discount_pct": 55,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 9.76,
+      "price_per_kg_eur": 4.99,
+      "source_type": "promo",
       "available_stores": [
         "T-Market"
       ],
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 9.8,
-          "price_eur": 5.01,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
+          "price": 9.76,
+          "price_eur": 4.99,
+          "old_price": 21.69,
+          "old_price_eur": 11.09,
+          "discount_pct": 55,
+          "source_type": "promo"
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 9.8,
+      "best_price": 9.76,
       "comparison_count": 1,
-      "product_id": "tmarket-кашкавал-от-краве-мляко-наборъ-400гр-400g",
-      "weight_grams": 400,
-      "weight_raw": "400гр",
-      "name": "Кашкавал от краве мляко НАБОРЪ, 400гр",
-      "image": "https://tmarketonline.bg/cdn/img/products/49143/kaskaval-ot-krave-mlako-nabora-200g-633165ad0bc36.jpeg?width=1920&height=1920&v=1777589960",
-      "category": "dairy",
-      "emoji": "🥛",
+      "product_id": "tmarket-масл-масло-speroni-pomace-1л-1000g",
+      "weight_grams": 1000,
+      "weight_raw": "1л",
+      "name": "Масл.масло SPERONI Pomace 1л",
+      "image": "https://imgproxy-retcat.assets.schwarz/aO3Et2MKzilq4CahbOzkRZ9t6b9pdOx1DQ2hnH9E5TI/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9FMjc0RkI1MjE4NTIyREYyRDgyMjlGNDZ/CNjY1RjI1QzFGMzgzNTg4Q0VBODg4RkM1NENGRDY5RTA2MTJBRTgwLnBuZw.png",
+      "category": "other",
+      "emoji": "🛒",
       "health_score": 5,
       "is_food": true,
       "is_junk": false,
@@ -48496,23 +49538,105 @@ const OFFERS_DATA = {
       "is_bulk_worthy": false,
       "is_long_lasting": false,
       "macros": {
-        "kcal": 350,
-        "p": 25,
-        "f": 27,
-        "c": 1
+        "kcal": 717,
+        "p": 0.9,
+        "f": 81,
+        "c": 0.1
       },
-      "avg_price": 9.8,
-      "lowest_price": 9.8,
+      "avg_price": 15.73,
+      "lowest_price": 9.76,
+      "lowest_price_date": "2026-11-10",
+      "price_history": [
+        [
+          "2026-05-16",
+          21.69,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          9.76,
+          21.69,
+          55
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 9.88,
+      "new_price_eur": 5.05,
+      "old_price": 12.34,
+      "old_price_eur": 6.31,
+      "discount_pct": 20,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 9.88,
+      "price_per_kg_eur": 5.05,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 9.88,
+          "price_eur": 5.05,
+          "old_price": 12.34,
+          "old_price_eur": 6.31,
+          "discount_pct": 20,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 9.88,
+      "comparison_count": 1,
+      "product_id": "tmarket-маслини-черни-турски-услу-301-360-нас-кг",
+      "name": "Маслини черни Турски Услу 301-360 нас.кг",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/2840660000000_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "fat",
+      "emoji": "🫒",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": true,
+      "is_long_lasting": true,
+      "macros": {
+        "kcal": 115,
+        "p": 0.8,
+        "f": 11,
+        "c": 6
+      },
+      "avg_price": 10.7,
+      "lowest_price": 9.88,
       "lowest_price_date": "2026-05-16",
       "price_history": [
         [
           "2026-05-16",
-          9.8,
+          9.88,
+          12.34,
+          20
+        ],
+        [
+          "2026-10-22",
+          12.34,
           null,
           null
+        ],
+        [
+          "2026-11-10",
+          9.88,
+          12.34,
+          20
         ]
       ],
-      "price_seen_count": 1,
+      "price_seen_count": 3,
       "price_signal": "buy"
     },
     {
@@ -48576,15 +49700,15 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 10.07,
-      "new_price_eur": 5.15,
-      "old_price": 11.85,
-      "old_price_eur": 6.06,
-      "discount_pct": 15,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 25.18,
-      "price_per_kg_eur": 12.87,
+      "new_price": 10.35,
+      "new_price_eur": 5.29,
+      "old_price": 12.32,
+      "old_price_eur": 6.3,
+      "discount_pct": 16,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 41.4,
+      "price_per_kg_eur": 21.17,
       "source_type": "promo",
       "available_stores": [
         "T-Market"
@@ -48592,21 +49716,181 @@ const OFFERS_DATA = {
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 10.07,
-          "price_eur": 5.15,
-          "old_price": 11.85,
-          "old_price_eur": 6.06,
+          "price": 10.35,
+          "price_eur": 5.29,
+          "old_price": 12.32,
+          "old_price_eur": 6.3,
+          "discount_pct": 16,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 10.35,
+      "comparison_count": 1,
+      "product_id": "tmarket-кафе-lavazza-crema-gusto-250-гр-250g",
+      "weight_grams": 250,
+      "weight_raw": "250 гр",
+      "name": "Кафе LAVAZZA crema gusto 250 гр",
+      "image": "https://tmarketonline.bg/cdn/img/products/39400/kafe-lavazza-crema-e-gusto-250-gr-63c66183af3a4.jpeg?width=1920&height=1920&v=1777589966",
+      "category": "drinks",
+      "emoji": "🍺",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 10.89,
+      "lowest_price": 10.35,
+      "lowest_price_date": "2026-05-16",
+      "price_history": [
+        [
+          "2026-05-16",
+          10.35,
+          12.32,
+          16
+        ],
+        [
+          "2026-10-22",
+          10.54,
+          12.32,
+          14
+        ],
+        [
+          "2026-11-09",
+          12.32,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          10.35,
+          12.32,
+          16
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 10.39,
+      "new_price_eur": 5.31,
+      "old_price": 12.99,
+      "old_price_eur": 6.64,
+      "discount_pct": 20,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 10.39,
+      "price_per_kg_eur": 5.31,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 10.39,
+          "price_eur": 5.31,
+          "old_price": 12.99,
+          "old_price_eur": 6.64,
+          "discount_pct": 20,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 10.39,
+      "comparison_count": 1,
+      "product_id": "tmarket-маслини-червени-услу-нас-кг",
+      "name": "Маслини червени Услу нас.кг",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/2840660000000_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "fat",
+      "emoji": "🫒",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": true,
+      "is_long_lasting": true,
+      "macros": {
+        "kcal": 115,
+        "p": 0.8,
+        "f": 11,
+        "c": 6
+      },
+      "avg_price": 10.39,
+      "lowest_price": 7.8,
+      "lowest_price_date": "2026-10-22",
+      "price_history": [
+        [
+          "2026-05-16",
+          10.39,
+          12.99,
+          20
+        ],
+        [
+          "2026-10-22",
+          7.8,
+          12.99,
+          40
+        ],
+        [
+          "2026-11-09",
+          12.99,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          10.39,
+          12.99,
+          20
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "normal"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 10.7,
+      "new_price_eur": 5.47,
+      "old_price": 12.6,
+      "old_price_eur": 6.44,
+      "discount_pct": 15,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 26.75,
+      "price_per_kg_eur": 13.68,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 10.7,
+          "price_eur": 5.47,
+          "old_price": 12.6,
+          "old_price_eur": 6.44,
           "discount_pct": 15,
           "source_type": "promo"
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 10.07,
+      "best_price": 10.7,
       "comparison_count": 1,
-      "product_id": "tmarket-кашкавал-от-краве-мляко-саяна-400гр-400g",
+      "product_id": "tmarket-кашкавал-от-кр-мляко-белииса-400г-400g",
       "weight_grams": 400,
-      "weight_raw": "400гр",
-      "name": "Кашкавал от краве мляко САЯНА 400гр",
+      "weight_raw": "400г",
+      "name": "Кашкавал от кр. мляко БЕЛИИСА 400г",
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00032993_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "dairy",
       "emoji": "🥛",
@@ -48625,341 +49909,37 @@ const OFFERS_DATA = {
         "f": 27,
         "c": 1
       },
-      "avg_price": 10.1,
-      "lowest_price": 8.98,
+      "avg_price": 11.18,
+      "lowest_price": 10.7,
       "lowest_price_date": "2026-10-22",
       "price_history": [
         [
           "2026-05-16",
-          11.25,
+          10.71,
+          12.6,
+          15
+        ],
+        [
+          "2026-10-22",
+          10.7,
+          12.6,
+          15
+        ],
+        [
+          "2026-11-09",
+          12.6,
           null,
           null
         ],
         [
-          "2026-10-22",
-          8.98,
-          11.85,
-          24
-        ],
-        [
-          "2026-11-09",
-          10.07,
-          11.85,
+          "2026-11-10",
+          10.7,
+          12.6,
           15
         ]
       ],
-      "price_seen_count": 3,
-      "price_signal": "normal"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 10.15,
-      "new_price_eur": 5.19,
-      "old_price": 17.0,
-      "old_price_eur": 8.69,
-      "discount_pct": 40,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 10.15,
-      "price_per_kg_eur": 5.19,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 10.15,
-          "price_eur": 5.19,
-          "old_price": 17.0,
-          "old_price_eur": 8.69,
-          "discount_pct": 40,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 10.15,
-      "comparison_count": 1,
-      "product_id": "tmarket-маслини-черни-без-кост-181-230-нас-кг",
-      "name": "Маслини черни без кост. 181-230 нас.кг",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/2840830000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "fat",
-      "emoji": "🫒",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": true,
-      "is_long_lasting": true,
-      "macros": {
-        "kcal": 115,
-        "p": 0.8,
-        "f": 11,
-        "c": 6
-      },
-      "avg_price": 13.58,
-      "lowest_price": 10.15,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
-        [
-          "2026-05-16",
-          13.59,
-          17.0,
-          20
-        ],
-        [
-          "2026-10-22",
-          17.0,
-          null,
-          null
-        ],
-        [
-          "2026-11-09",
-          10.15,
-          17.0,
-          40
-        ]
-      ],
-      "price_seen_count": 3,
+      "price_seen_count": 4,
       "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 10.44,
-      "new_price_eur": 5.34,
-      "old_price": 12.28,
-      "old_price_eur": 6.28,
-      "discount_pct": 15,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 26.1,
-      "price_per_kg_eur": 13.34,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 10.44,
-          "price_eur": 5.34,
-          "old_price": 12.28,
-          "old_price_eur": 6.28,
-          "discount_pct": 15,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 10.44,
-      "comparison_count": 1,
-      "product_id": "tmarket-кашкавал-верея-400г-400g",
-      "weight_grams": 400,
-      "weight_raw": "400г",
-      "name": "Кашкавал ВЕРЕЯ 400г",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/c09e1a9a-d1b0-4f75-be15-9ef0d341b501.png",
-      "category": "dairy",
-      "emoji": "🥛",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "macros": {
-        "kcal": 350,
-        "p": 25,
-        "f": 27,
-        "c": 1
-      },
-      "avg_price": 11.05,
-      "lowest_price": 10.44,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          10.44,
-          12.28,
-          15
-        ],
-        [
-          "2026-10-22",
-          12.28,
-          null,
-          null
-        ],
-        [
-          "2026-11-09",
-          10.44,
-          12.28,
-          15
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 10.74,
-      "new_price_eur": 5.49,
-      "old_price": 11.7,
-      "old_price_eur": 5.98,
-      "discount_pct": 8,
-      "valid_from": "2026-10-20",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 26.85,
-      "price_per_kg_eur": 13.73,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 10.74,
-          "price_eur": 5.49,
-          "old_price": 11.7,
-          "old_price_eur": 5.98,
-          "discount_pct": 8,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 10.74,
-      "comparison_count": 1,
-      "product_id": "tmarket-кашкавал-витоша-елби-400г-400g",
-      "weight_grams": 400,
-      "weight_raw": "400г",
-      "name": "Кашкавал Витоша ЕЛБИ 400г",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/269_00084343_1_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "dairy",
-      "emoji": "🥛",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "macros": {
-        "kcal": 350,
-        "p": 25,
-        "f": 27,
-        "c": 1
-      },
-      "avg_price": 10.73,
-      "lowest_price": 9.76,
-      "lowest_price_date": "2026-10-22",
-      "price_history": [
-        [
-          "2026-05-16",
-          11.7,
-          null,
-          null
-        ],
-        [
-          "2026-10-22",
-          9.76,
-          11.7,
-          17
-        ],
-        [
-          "2026-11-09",
-          10.74,
-          11.7,
-          8
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "normal"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 10.8,
-      "new_price_eur": 5.52,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 27.0,
-      "price_per_kg_eur": 13.8,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 10.8,
-          "price_eur": 5.52,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 10.8,
-      "comparison_count": 1,
-      "product_id": "tmarket-кашкавал-от-краве-мляко-булгарче-400гр-400g",
-      "weight_grams": 400,
-      "weight_raw": "400гр",
-      "name": "Кашкавал от краве мляко БУЛГАРЧЕ 400гр",
-      "image": "https://tmarketonline.bg/cdn/img/products/48215/kaskaval-ot-krave-mlako-bulgarce-400gr-image_620bb1499db0e.png?width=1920&height=1920&v=1777589952",
-      "category": "dairy",
-      "emoji": "🥛",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "macros": {
-        "kcal": 350,
-        "p": 25,
-        "f": 27,
-        "c": 1
-      },
-      "avg_price": 9.72,
-      "lowest_price": 9.17,
-      "lowest_price_date": "2026-10-22",
-      "price_history": [
-        [
-          "2026-05-16",
-          9.18,
-          10.8,
-          15
-        ],
-        [
-          "2026-10-22",
-          9.17,
-          10.8,
-          15
-        ],
-        [
-          "2026-11-09",
-          10.8,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "wait"
     },
     {
       "store": "Kaufland",
@@ -49156,160 +50136,6 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 11.09,
-      "new_price_eur": 5.67,
-      "old_price": 13.05,
-      "old_price_eur": 6.67,
-      "discount_pct": 15,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 27.73,
-      "price_per_kg_eur": 14.18,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 11.09,
-          "price_eur": 5.67,
-          "old_price": 13.05,
-          "old_price_eur": 6.67,
-          "discount_pct": 15,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 11.09,
-      "comparison_count": 1,
-      "product_id": "tmarket-кашкавал-от-краве-мляко-саяна-бдс-400гр-400g",
-      "weight_grams": 400,
-      "weight_raw": "400гр",
-      "name": "Кашкавал от краве мляко САЯНА БДС 400гр",
-      "image": "https://tmarketonline.bg/cdn/img/products/48265/kaskaval-ot-krave-mlako-saana-bds-400-gr-653b9d4d5e074.jpeg?width=1920&height=1920&v=1777589989",
-      "category": "dairy",
-      "emoji": "🥛",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "macros": {
-        "kcal": 350,
-        "p": 25,
-        "f": 27,
-        "c": 1
-      },
-      "avg_price": 11.74,
-      "lowest_price": 11.09,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
-        [
-          "2026-05-16",
-          11.52,
-          12.6,
-          9
-        ],
-        [
-          "2026-10-22",
-          12.6,
-          null,
-          null
-        ],
-        [
-          "2026-11-09",
-          11.09,
-          13.05,
-          15
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 11.13,
-      "new_price_eur": 5.69,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 11.13,
-      "price_per_kg_eur": 5.69,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 11.13,
-          "price_eur": 5.69,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 11.13,
-      "comparison_count": 1,
-      "product_id": "tmarket-маслини-черни-колосал-121-140-нас-кг",
-      "name": "Маслини черни Колосал 121-140 нас.кг",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/2840830000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "fat",
-      "emoji": "🫒",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": true,
-      "is_long_lasting": true,
-      "macros": {
-        "kcal": 115,
-        "p": 0.8,
-        "f": 11,
-        "c": 6
-      },
-      "avg_price": 9.47,
-      "lowest_price": 8.39,
-      "lowest_price_date": "2026-10-22",
-      "price_history": [
-        [
-          "2026-05-16",
-          8.9,
-          11.13,
-          20
-        ],
-        [
-          "2026-10-22",
-          8.39,
-          11.13,
-          25
-        ],
-        [
-          "2026-11-09",
-          11.13,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "wait"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
       "new_price": 11.7,
       "new_price_eur": 5.98,
       "old_price": null,
@@ -49442,39 +50268,40 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 11.72,
-      "new_price_eur": 5.99,
-      "old_price": 13.34,
-      "old_price_eur": 6.82,
-      "discount_pct": 12,
-      "valid_from": "2026-10-20",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 46.88,
-      "price_per_kg_eur": 23.97,
-      "source_type": "promo",
+      "new_price": 11.7,
+      "new_price_eur": 5.98,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 29.25,
+      "price_per_kg_eur": 14.96,
+      "source_type": "assortment",
       "available_stores": [
         "T-Market"
       ],
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 11.72,
-          "price_eur": 5.99,
-          "old_price": 13.34,
-          "old_price_eur": 6.82,
-          "discount_pct": 12,
-          "source_type": "promo"
+          "price": 11.7,
+          "price_eur": 5.98,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 11.72,
+      "best_price": 11.7,
       "comparison_count": 1,
-      "product_id": "tmarket-кафе-lavazza-qualita-rossa-250гр-250g",
-      "weight_grams": 250,
-      "weight_raw": "250гр",
-      "name": "Кафе LAVAZZA Qualita rossa 250гр",
-      "category": "drinks",
-      "emoji": "🍺",
+      "product_id": "tmarket-кашкавал-витоша-елби-400г-400g",
+      "weight_grams": 400,
+      "weight_raw": "400г",
+      "name": "Кашкавал Витоша ЕЛБИ 400г",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/269_00084343_1_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "dairy",
+      "emoji": "🥛",
       "health_score": 5,
       "is_food": true,
       "is_junk": false,
@@ -49484,26 +50311,185 @@ const OFFERS_DATA = {
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
-      "avg_price": 12.53,
-      "lowest_price": 11.72,
+      "macros": {
+        "kcal": 350,
+        "p": 25,
+        "f": 27,
+        "c": 1
+      },
+      "avg_price": 10.98,
+      "lowest_price": 9.76,
       "lowest_price_date": "2026-10-22",
       "price_history": [
         [
           "2026-05-16",
-          13.34,
+          11.7,
           null,
           null
         ],
         [
           "2026-10-22",
+          9.76,
+          11.7,
+          17
+        ],
+        [
+          "2026-11-09",
+          10.74,
+          11.7,
+          8
+        ],
+        [
+          "2026-11-10",
+          11.7,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "normal"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 11.72,
+      "new_price_eur": 5.99,
+      "old_price": 12.6,
+      "old_price_eur": 6.44,
+      "discount_pct": 7,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-30",
+      "price_per_kg": 11.72,
+      "price_per_kg_eur": 5.99,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 11.72,
+          "price_eur": 5.99,
+          "old_price": 12.6,
+          "old_price_eur": 6.44,
+          "discount_pct": 7,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 11.72,
+      "comparison_count": 1,
+      "product_id": "tmarket-кашкавал-от-краве-мляко-кенана-вак-кг",
+      "name": "Кашкавал от краве мляко КЕНАНА,вак.кг",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00032993_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "dairy",
+      "emoji": "🥛",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 350,
+        "p": 25,
+        "f": 27,
+        "c": 1
+      },
+      "avg_price": 12.16,
+      "lowest_price": 11.72,
+      "lowest_price_date": "2026-11-10",
+      "price_history": [
+        [
+          "2026-05-16",
+          12.6,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
           11.72,
-          13.34,
-          12
+          12.6,
+          7
         ]
       ],
       "price_seen_count": 2,
-      "price_signal": "buy",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8000070048638_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
+      "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 11.72,
+      "new_price_eur": 5.99,
+      "old_price": 13.48,
+      "old_price_eur": 6.89,
+      "discount_pct": 13,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-30",
+      "price_per_kg": 29.3,
+      "price_per_kg_eur": 14.98,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 11.72,
+          "price_eur": 5.99,
+          "old_price": 13.48,
+          "old_price_eur": 6.89,
+          "discount_pct": 13,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 11.72,
+      "comparison_count": 1,
+      "product_id": "tmarket-кашкавал-от-кр-мляко-lacrima-бдс-400гр-400g",
+      "weight_grams": 400,
+      "weight_raw": "400гр",
+      "name": "Кашкавал от кр. мляко LACRIMA БДС 400гр",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00032993_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "dairy",
+      "emoji": "🥛",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 350,
+        "p": 25,
+        "f": 27,
+        "c": 1
+      },
+      "avg_price": 12.6,
+      "lowest_price": 11.72,
+      "lowest_price_date": "2026-11-10",
+      "price_history": [
+        [
+          "2026-05-16",
+          13.48,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          11.72,
+          13.48,
+          13
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy"
     },
     {
       "store": "Kaufland",
@@ -49574,6 +50560,90 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 2,
       "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 11.85,
+      "new_price_eur": 6.06,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 29.62,
+      "price_per_kg_eur": 15.14,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 11.85,
+          "price_eur": 6.06,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 11.85,
+      "comparison_count": 1,
+      "product_id": "tmarket-кашкавал-от-краве-мляко-саяна-400гр-400g",
+      "weight_grams": 400,
+      "weight_raw": "400гр",
+      "name": "Кашкавал от краве мляко САЯНА 400гр",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00032993_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "dairy",
+      "emoji": "🥛",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 350,
+        "p": 25,
+        "f": 27,
+        "c": 1
+      },
+      "avg_price": 10.54,
+      "lowest_price": 8.98,
+      "lowest_price_date": "2026-10-22",
+      "price_history": [
+        [
+          "2026-05-16",
+          11.25,
+          null,
+          null
+        ],
+        [
+          "2026-10-22",
+          8.98,
+          11.85,
+          24
+        ],
+        [
+          "2026-11-09",
+          10.07,
+          11.85,
+          15
+        ],
+        [
+          "2026-11-10",
+          11.85,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "wait"
     },
     {
       "store": "T-Market",
@@ -49700,6 +50770,82 @@ const OFFERS_DATA = {
       "address": null,
       "new_price": 11.99,
       "new_price_eur": 6.13,
+      "old_price": 14.98,
+      "old_price_eur": 7.66,
+      "discount_pct": 20,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 11.99,
+      "price_per_kg_eur": 6.13,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 11.99,
+          "price_eur": 6.13,
+          "old_price": 14.98,
+          "old_price_eur": 7.66,
+          "discount_pct": 20,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 11.99,
+      "comparison_count": 1,
+      "product_id": "tmarket-маслини-черни-супер-супер-мамут-71-90-кг",
+      "name": "Маслини черни Супер Супер Мамут 71-90 кг",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/143_01003681_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "fat",
+      "emoji": "🫒",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": true,
+      "is_long_lasting": true,
+      "macros": {
+        "kcal": 115,
+        "p": 0.8,
+        "f": 11,
+        "c": 6
+      },
+      "avg_price": 12.99,
+      "lowest_price": 11.99,
+      "lowest_price_date": "2026-05-16",
+      "price_history": [
+        [
+          "2026-05-16",
+          11.99,
+          14.98,
+          20
+        ],
+        [
+          "2026-10-22",
+          14.98,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          11.99,
+          14.98,
+          20
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 11.99,
+      "new_price_eur": 6.13,
       "old_price": null,
       "old_price_eur": null,
       "discount_pct": null,
@@ -49756,15 +50902,15 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 12.22,
-      "new_price_eur": 6.25,
-      "old_price": 13.48,
-      "old_price_eur": 6.89,
-      "discount_pct": 9,
-      "valid_from": "2026-10-20",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 32.16,
-      "price_per_kg_eur": 16.44,
+      "new_price": 12.03,
+      "new_price_eur": 6.15,
+      "old_price": 15.04,
+      "old_price_eur": 7.69,
+      "discount_pct": 20,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 12.03,
+      "price_per_kg_eur": 6.15,
       "source_type": "promo",
       "available_stores": [
         "T-Market"
@@ -49772,164 +50918,20 @@ const OFFERS_DATA = {
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 12.22,
-          "price_eur": 6.25,
-          "old_price": 13.48,
-          "old_price_eur": 6.89,
-          "discount_pct": 9,
+          "price": 12.03,
+          "price_eur": 6.15,
+          "old_price": 15.04,
+          "old_price_eur": 7.69,
+          "discount_pct": 20,
           "source_type": "promo"
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 12.22,
+      "best_price": 12.03,
       "comparison_count": 1,
-      "product_id": "tmarket-кашкавал-маджаров-бонония-пушен-380г-380g",
-      "weight_grams": 380,
-      "weight_raw": "380г",
-      "name": "Кашкавал МАДЖАРОВ Бонония пушен, 380г",
-      "image": "https://tmarketonline.bg/cdn/img/products/54443/kaskaval-madzarov-bononia-pusen-380-gr-6618e9f832e78.jpeg?width=1920&height=1920&v=1777590004",
-      "category": "dairy",
-      "emoji": "🥛",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "macros": {
-        "kcal": 350,
-        "p": 25,
-        "f": 27,
-        "c": 1
-      },
-      "avg_price": 12.85,
-      "lowest_price": 12.22,
-      "lowest_price_date": "2026-10-22",
-      "price_history": [
-        [
-          "2026-05-16",
-          13.48,
-          null,
-          null
-        ],
-        [
-          "2026-10-22",
-          12.22,
-          13.48,
-          9
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 12.32,
-      "new_price_eur": 6.3,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 49.28,
-      "price_per_kg_eur": 25.2,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 12.32,
-          "price_eur": 6.3,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 12.32,
-      "comparison_count": 1,
-      "product_id": "tmarket-кафе-lavazza-crema-gusto-250-гр-250g",
-      "weight_grams": 250,
-      "weight_raw": "250 гр",
-      "name": "Кафе LAVAZZA crema gusto 250 гр",
-      "image": "https://tmarketonline.bg/cdn/img/products/39400/kafe-lavazza-crema-e-gusto-250-gr-63c66183af3a4.jpeg?width=1920&height=1920&v=1777589966",
-      "category": "drinks",
-      "emoji": "🍺",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 11.07,
-      "lowest_price": 10.35,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          10.35,
-          12.32,
-          16
-        ],
-        [
-          "2026-10-22",
-          10.54,
-          12.32,
-          14
-        ],
-        [
-          "2026-11-09",
-          12.32,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "wait"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 12.34,
-      "new_price_eur": 6.31,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 12.34,
-      "price_per_kg_eur": 6.31,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 12.34,
-          "price_eur": 6.31,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 12.34,
-      "comparison_count": 1,
-      "product_id": "tmarket-маслини-черни-турски-услу-301-360-нас-кг",
-      "name": "Маслини черни Турски Услу 301-360 нас.кг",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/2840660000000_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "tmarket-маслини-черни-мамут-101-110-нас-кг",
+      "name": "Маслини черни Мамут 101-110 нас.кг",
+      "image": "https://tmarketonline.bg/cdn/img/products/50438/maslini-cerni-mamut-bez-kost--101-110-kg-641d9a6e3ecb3.jpeg?width=600&height=600&v=1777589968",
       "category": "fat",
       "emoji": "🫒",
       "health_score": 5,
@@ -49947,38 +50949,44 @@ const OFFERS_DATA = {
         "f": 11,
         "c": 6
       },
-      "avg_price": 11.11,
-      "lowest_price": 9.88,
+      "avg_price": 13.03,
+      "lowest_price": 12.03,
       "lowest_price_date": "2026-05-16",
       "price_history": [
         [
           "2026-05-16",
-          9.88,
-          12.34,
+          12.03,
+          15.04,
           20
         ],
         [
           "2026-10-22",
-          12.34,
+          15.04,
           null,
           null
+        ],
+        [
+          "2026-11-10",
+          12.03,
+          15.04,
+          20
         ]
       ],
-      "price_seen_count": 2,
-      "price_signal": "wait"
+      "price_seen_count": 3,
+      "price_signal": "buy"
     },
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 12.5,
-      "new_price_eur": 6.39,
+      "new_price": 12.28,
+      "new_price_eur": 6.28,
       "old_price": null,
       "old_price_eur": null,
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "price_per_kg": 30.7,
+      "price_per_kg_eur": 15.7,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -49986,8 +50994,8 @@ const OFFERS_DATA = {
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 12.5,
-          "price_eur": 6.39,
+          "price": 12.28,
+          "price_eur": 6.28,
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
@@ -49995,13 +51003,15 @@ const OFFERS_DATA = {
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 12.5,
+      "best_price": 12.28,
       "comparison_count": 1,
-      "product_id": "tmarket-св-бут-без-кост-вак-пр-испания",
-      "name": "Св. бут без кост вак . пр.Испания",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00100054_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "protein",
-      "emoji": "🍗",
+      "product_id": "tmarket-кашкавал-верея-400г-400g",
+      "weight_grams": 400,
+      "weight_raw": "400г",
+      "name": "Кашкавал ВЕРЕЯ 400г",
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/c09e1a9a-d1b0-4f75-be15-9ef0d341b501.png",
+      "category": "dairy",
+      "emoji": "🥛",
       "health_score": 5,
       "is_food": true,
       "is_junk": false,
@@ -50012,29 +51022,41 @@ const OFFERS_DATA = {
       "is_bulk_worthy": false,
       "is_long_lasting": false,
       "macros": {
-        "kcal": 160,
-        "p": 20,
-        "f": 9,
-        "c": 0
+        "kcal": 350,
+        "p": 25,
+        "f": 27,
+        "c": 1
       },
-      "avg_price": 9.72,
-      "lowest_price": 6.94,
+      "avg_price": 11.36,
+      "lowest_price": 10.44,
       "lowest_price_date": "2026-05-16",
       "price_history": [
         [
           "2026-05-16",
-          6.94,
-          12.5,
-          44
+          10.44,
+          12.28,
+          15
         ],
         [
           "2026-10-22",
-          12.5,
+          12.28,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          10.44,
+          12.28,
+          15
+        ],
+        [
+          "2026-11-10",
+          12.28,
           null,
           null
         ]
       ],
-      "price_seen_count": 2,
+      "price_seen_count": 4,
       "price_signal": "wait"
     },
     {
@@ -50111,148 +51133,6 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": 31.5,
-      "price_per_kg_eur": 16.11,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 12.6,
-          "price_eur": 6.44,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 12.6,
-      "comparison_count": 1,
-      "product_id": "tmarket-кашкавал-от-кр-мляко-белииса-400г-400g",
-      "weight_grams": 400,
-      "weight_raw": "400г",
-      "name": "Кашкавал от кр. мляко БЕЛИИСА 400г",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00032993_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "dairy",
-      "emoji": "🥛",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "macros": {
-        "kcal": 350,
-        "p": 25,
-        "f": 27,
-        "c": 1
-      },
-      "avg_price": 11.34,
-      "lowest_price": 10.7,
-      "lowest_price_date": "2026-10-22",
-      "price_history": [
-        [
-          "2026-05-16",
-          10.71,
-          12.6,
-          15
-        ],
-        [
-          "2026-10-22",
-          10.7,
-          12.6,
-          15
-        ],
-        [
-          "2026-11-09",
-          12.6,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "wait"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 12.6,
-      "new_price_eur": 6.44,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 12.6,
-      "price_per_kg_eur": 6.44,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 12.6,
-          "price_eur": 6.44,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 12.6,
-      "comparison_count": 1,
-      "product_id": "tmarket-кашкавал-от-краве-мляко-кенана-вак-кг",
-      "name": "Кашкавал от краве мляко КЕНАНА,вак.кг",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00032993_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "dairy",
-      "emoji": "🥛",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "macros": {
-        "kcal": 350,
-        "p": 25,
-        "f": 27,
-        "c": 1
-      },
-      "avg_price": 12.6,
-      "lowest_price": 12.6,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          12.6,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 12.6,
-      "new_price_eur": 6.44,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
       "price_per_kg": 33.16,
       "price_per_kg_eur": 16.95,
       "source_type": "assortment",
@@ -50312,38 +51192,38 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 12.6,
-      "new_price_eur": 6.44,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
+      "new_price": 12.69,
+      "new_price_eur": 6.49,
+      "old_price": 16.9,
+      "old_price_eur": 8.64,
+      "discount_pct": 25,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 12.69,
+      "price_per_kg_eur": 6.49,
+      "source_type": "promo",
       "available_stores": [
         "T-Market"
       ],
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 12.6,
-          "price_eur": 6.44,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
+          "price": 12.69,
+          "price_eur": 6.49,
+          "old_price": 16.9,
+          "old_price_eur": 8.64,
+          "discount_pct": 25,
+          "source_type": "promo"
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 12.6,
+      "best_price": 12.69,
       "comparison_count": 1,
-      "product_id": "tmarket-св-бут-без-кост-нас-кг-пр-испания",
-      "name": "Св.бут без кост нас.кг пр. Испания",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00100054_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "protein",
-      "emoji": "🍗",
+      "product_id": "tmarket-кашкавал-от-краве-мляко-ели-нас-кг",
+      "name": "Кашкавал от краве мляко ЕЛИ нас. кг",
+      "image": "https://tmarketonline.bg/cdn/img/products/54980/kaskaval-ot-krave-mlako-eli-400-g-67237a5b21593.jpeg?width=1920&height=1920&v=1777590006",
+      "category": "dairy",
+      "emoji": "🥛",
       "health_score": 5,
       "is_food": true,
       "is_junk": false,
@@ -50354,30 +51234,124 @@ const OFFERS_DATA = {
       "is_bulk_worthy": false,
       "is_long_lasting": false,
       "macros": {
-        "kcal": 160,
-        "p": 20,
-        "f": 9,
-        "c": 0
+        "kcal": 350,
+        "p": 25,
+        "f": 27,
+        "c": 1
       },
-      "avg_price": 9.77,
-      "lowest_price": 6.94,
-      "lowest_price_date": "2026-05-16",
+      "avg_price": 14.55,
+      "lowest_price": 11.72,
+      "lowest_price_date": "2026-10-22",
       "price_history": [
         [
           "2026-05-16",
-          6.94,
-          12.6,
-          45
+          16.9,
+          null,
+          null
         ],
         [
           "2026-10-22",
-          12.6,
+          11.72,
+          16.9,
+          31
+        ],
+        [
+          "2026-11-09",
+          16.9,
           null,
           null
+        ],
+        [
+          "2026-11-10",
+          12.69,
+          16.9,
+          25
         ]
       ],
-      "price_seen_count": 2,
-      "price_signal": "wait"
+      "price_seen_count": 4,
+      "price_signal": "good"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 12.69,
+      "new_price_eur": 6.49,
+      "old_price": 16.9,
+      "old_price_eur": 8.64,
+      "discount_pct": 25,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 12.69,
+      "price_per_kg_eur": 6.49,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 12.69,
+          "price_eur": 6.49,
+          "old_price": 16.9,
+          "old_price_eur": 8.64,
+          "discount_pct": 25,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 12.69,
+      "comparison_count": 1,
+      "product_id": "tmarket-кашкавал-ели-вак-кг",
+      "name": "*Кашкавал ЕЛИ вак. кг",
+      "image": "images/foods/yogurt.svg",
+      "category": "dairy",
+      "emoji": "🥛",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 350,
+        "p": 25,
+        "f": 27,
+        "c": 1
+      },
+      "avg_price": 14.55,
+      "lowest_price": 11.72,
+      "lowest_price_date": "2026-10-22",
+      "price_history": [
+        [
+          "2026-05-16",
+          16.9,
+          null,
+          null
+        ],
+        [
+          "2026-10-22",
+          11.72,
+          16.9,
+          31
+        ],
+        [
+          "2026-11-09",
+          16.9,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          12.69,
+          16.9,
+          25
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "good"
     },
     {
       "store": "Kaufland",
@@ -50464,82 +51438,6 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 12.99,
-      "new_price_eur": 6.64,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 12.99,
-      "price_per_kg_eur": 6.64,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 12.99,
-          "price_eur": 6.64,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 12.99,
-      "comparison_count": 1,
-      "product_id": "tmarket-маслини-червени-услу-нас-кг",
-      "name": "Маслини червени Услу нас.кг",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/2840660000000_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "fat",
-      "emoji": "🫒",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": true,
-      "is_long_lasting": true,
-      "macros": {
-        "kcal": 115,
-        "p": 0.8,
-        "f": 11,
-        "c": 6
-      },
-      "avg_price": 10.39,
-      "lowest_price": 7.8,
-      "lowest_price_date": "2026-10-22",
-      "price_history": [
-        [
-          "2026-05-16",
-          10.39,
-          12.99,
-          20
-        ],
-        [
-          "2026-10-22",
-          7.8,
-          12.99,
-          40
-        ],
-        [
-          "2026-11-09",
-          12.99,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "wait"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
       "new_price": 13.05,
       "new_price_eur": 6.67,
       "old_price": null,
@@ -50567,6 +51465,162 @@ const OFFERS_DATA = {
       "best_price_store": "T-Market",
       "best_price": 13.05,
       "comparison_count": 1,
+      "product_id": "tmarket-кашкавал-от-краве-мляко-саяна-бдс-400гр-400g",
+      "weight_grams": 400,
+      "weight_raw": "400гр",
+      "name": "Кашкавал от краве мляко САЯНА БДС 400гр",
+      "image": "https://tmarketonline.bg/cdn/img/products/48265/kaskaval-ot-krave-mlako-saana-bds-400-gr-653b9d4d5e074.jpeg?width=1920&height=1920&v=1777589989",
+      "category": "dairy",
+      "emoji": "🥛",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 350,
+        "p": 25,
+        "f": 27,
+        "c": 1
+      },
+      "avg_price": 12.06,
+      "lowest_price": 11.09,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-05-16",
+          11.52,
+          12.6,
+          9
+        ],
+        [
+          "2026-10-22",
+          12.6,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          11.09,
+          13.05,
+          15
+        ],
+        [
+          "2026-11-10",
+          13.05,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "wait"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 13.34,
+      "new_price_eur": 6.82,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 53.36,
+      "price_per_kg_eur": 27.28,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 13.34,
+          "price_eur": 6.82,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 13.34,
+      "comparison_count": 1,
+      "product_id": "tmarket-кафе-lavazza-qualita-rossa-250гр-250g",
+      "weight_grams": 250,
+      "weight_raw": "250гр",
+      "name": "Кафе LAVAZZA Qualita rossa 250гр",
+      "category": "drinks",
+      "emoji": "🍺",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 12.8,
+      "lowest_price": 11.72,
+      "lowest_price_date": "2026-10-22",
+      "price_history": [
+        [
+          "2026-05-16",
+          13.34,
+          null,
+          null
+        ],
+        [
+          "2026-10-22",
+          11.72,
+          13.34,
+          12
+        ],
+        [
+          "2026-11-10",
+          13.34,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "normal",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/8000070048638_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 13.44,
+      "new_price_eur": 6.87,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 33.6,
+      "price_per_kg_eur": 17.18,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 13.44,
+          "price_eur": 6.87,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 13.44,
+      "comparison_count": 1,
       "product_id": "tmarket-кашкавал-от-краве-мляко-мероне-бдс-400гр-400g",
       "weight_grams": 400,
       "weight_raw": "400гр",
@@ -50589,7 +51643,7 @@ const OFFERS_DATA = {
         "f": 27,
         "c": 1
       },
-      "avg_price": 13.05,
+      "avg_price": 13.25,
       "lowest_price": 13.05,
       "lowest_price_date": "2026-05-16",
       "price_history": [
@@ -50598,10 +51652,94 @@ const OFFERS_DATA = {
           13.05,
           null,
           null
+        ],
+        [
+          "2026-11-10",
+          13.44,
+          null,
+          null
         ]
       ],
-      "price_seen_count": 1,
+      "price_seen_count": 2,
       "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 13.48,
+      "new_price_eur": 6.89,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 35.47,
+      "price_per_kg_eur": 18.14,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 13.48,
+          "price_eur": 6.89,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 13.48,
+      "comparison_count": 1,
+      "product_id": "tmarket-кашкавал-маджаров-бонония-пушен-380г-380g",
+      "weight_grams": 380,
+      "weight_raw": "380г",
+      "name": "Кашкавал МАДЖАРОВ Бонония пушен, 380г",
+      "image": "https://tmarketonline.bg/cdn/img/products/54443/kaskaval-madzarov-bononia-pusen-380-gr-6618e9f832e78.jpeg?width=1920&height=1920&v=1777590004",
+      "category": "dairy",
+      "emoji": "🥛",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 350,
+        "p": 25,
+        "f": 27,
+        "c": 1
+      },
+      "avg_price": 13.06,
+      "lowest_price": 12.22,
+      "lowest_price_date": "2026-10-22",
+      "price_history": [
+        [
+          "2026-05-16",
+          13.48,
+          null,
+          null
+        ],
+        [
+          "2026-10-22",
+          12.22,
+          13.48,
+          9
+        ],
+        [
+          "2026-11-10",
+          13.48,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "normal"
     },
     {
       "store": "T-Market",
@@ -50633,10 +51771,10 @@ const OFFERS_DATA = {
       "best_price_store": "T-Market",
       "best_price": 13.48,
       "comparison_count": 1,
-      "product_id": "tmarket-кашкавал-от-кр-мляко-lacrima-бдс-400гр-400g",
+      "product_id": "tmarket-кашкавал-от-краве-мляко-гаида-400гр-400g",
       "weight_grams": 400,
       "weight_raw": "400гр",
-      "name": "Кашкавал от кр. мляко LACRIMA БДС 400гр",
+      "name": "Кашкавал от краве мляко ГАЙДА 400гр",
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00032993_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "dairy",
       "emoji": "🥛",
@@ -50655,19 +51793,37 @@ const OFFERS_DATA = {
         "f": 27,
         "c": 1
       },
-      "avg_price": 13.48,
-      "lowest_price": 13.48,
-      "lowest_price_date": "2026-05-16",
+      "avg_price": 11.16,
+      "lowest_price": 6.73,
+      "lowest_price_date": "2026-11-09",
       "price_history": [
         [
           "2026-05-16",
+          10.93,
+          13.48,
+          19
+        ],
+        [
+          "2026-10-22",
+          13.48,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          6.73,
+          13.48,
+          50
+        ],
+        [
+          "2026-11-10",
           13.48,
           null,
           null
         ]
       ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
+      "price_seen_count": 4,
+      "price_signal": "wait"
     },
     {
       "store": "T-Market",
@@ -50734,6 +51890,88 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 1,
       "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 13.59,
+      "new_price_eur": 6.95,
+      "old_price": 17.0,
+      "old_price_eur": 8.69,
+      "discount_pct": 20,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 13.59,
+      "price_per_kg_eur": 6.95,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 13.59,
+          "price_eur": 6.95,
+          "old_price": 17.0,
+          "old_price_eur": 8.69,
+          "discount_pct": 20,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 13.59,
+      "comparison_count": 1,
+      "product_id": "tmarket-маслини-черни-без-кост-181-230-нас-кг",
+      "name": "Маслини черни без кост. 181-230 нас.кг",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/2840830000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "fat",
+      "emoji": "🫒",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": true,
+      "is_long_lasting": true,
+      "macros": {
+        "kcal": 115,
+        "p": 0.8,
+        "f": 11,
+        "c": 6
+      },
+      "avg_price": 13.58,
+      "lowest_price": 10.15,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-05-16",
+          13.59,
+          17.0,
+          20
+        ],
+        [
+          "2026-10-22",
+          17.0,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          10.15,
+          17.0,
+          40
+        ],
+        [
+          "2026-11-10",
+          13.59,
+          17.0,
+          20
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "normal"
     },
     {
       "store": "T-Market",
@@ -50859,6 +52097,82 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 1,
+      "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 14.06,
+      "new_price_eur": 7.19,
+      "old_price": 17.58,
+      "old_price_eur": 8.99,
+      "discount_pct": 20,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 14.06,
+      "price_per_kg_eur": 7.19,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 14.06,
+          "price_eur": 7.19,
+          "old_price": 17.58,
+          "old_price_eur": 8.99,
+          "discount_pct": 20,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 14.06,
+      "comparison_count": 1,
+      "product_id": "tmarket-маслини-каламон-181-230-нас-кг",
+      "name": "Маслини Каламон 181-230 нас.кг",
+      "image": "https://tmarketonline.bg/cdn/img/products/50521/maslini-blond-razmer-180-230-kg-649aa3e3be088.jpeg?width=600&height=600&v=1777589982",
+      "category": "fat",
+      "emoji": "🫒",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": true,
+      "is_long_lasting": true,
+      "macros": {
+        "kcal": 115,
+        "p": 0.8,
+        "f": 11,
+        "c": 6
+      },
+      "avg_price": 15.23,
+      "lowest_price": 14.06,
+      "lowest_price_date": "2026-05-16",
+      "price_history": [
+        [
+          "2026-05-16",
+          14.06,
+          17.58,
+          20
+        ],
+        [
+          "2026-10-22",
+          17.58,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          14.06,
+          17.58,
+          20
+        ]
+      ],
+      "price_seen_count": 3,
       "price_signal": "buy"
     },
     {
@@ -51008,148 +52322,6 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 14.65,
-      "new_price_eur": 7.49,
-      "old_price": 27.67,
-      "old_price_eur": 14.15,
-      "discount_pct": 47,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 14.65,
-      "price_per_kg_eur": 7.49,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 14.65,
-          "price_eur": 7.49,
-          "old_price": 27.67,
-          "old_price_eur": 14.15,
-          "discount_pct": 47,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 14.65,
-      "comparison_count": 1,
-      "product_id": "tmarket-масл-масло-costa-d-oro-ev-1л-1000g",
-      "weight_grams": 1000,
-      "weight_raw": "1л",
-      "name": "Масл. масло COSTA D'ORO EV 1л",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/661_00091018_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "macros": {
-        "kcal": 717,
-        "p": 0.9,
-        "f": 81,
-        "c": 0.1
-      },
-      "avg_price": 21.16,
-      "lowest_price": 14.65,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
-        [
-          "2026-05-16",
-          27.67,
-          null,
-          null
-        ],
-        [
-          "2026-11-09",
-          14.65,
-          27.67,
-          47
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 14.98,
-      "new_price_eur": 7.66,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 14.98,
-      "price_per_kg_eur": 7.66,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 14.98,
-          "price_eur": 7.66,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 14.98,
-      "comparison_count": 1,
-      "product_id": "tmarket-маслини-черни-супер-супер-мамут-71-90-кг",
-      "name": "Маслини черни Супер Супер Мамут 71-90 кг",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/143_01003681_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "fat",
-      "emoji": "🫒",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": true,
-      "is_long_lasting": true,
-      "macros": {
-        "kcal": 115,
-        "p": 0.8,
-        "f": 11,
-        "c": 6
-      },
-      "avg_price": 13.48,
-      "lowest_price": 11.99,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          11.99,
-          14.98,
-          20
-        ],
-        [
-          "2026-10-22",
-          14.98,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "wait"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
       "new_price": 14.98,
       "new_price_eur": 7.66,
       "old_price": null,
@@ -51280,85 +52452,15 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 15.04,
-      "new_price_eur": 7.69,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 15.04,
-      "price_per_kg_eur": 7.69,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 15.04,
-          "price_eur": 7.69,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 15.04,
-      "comparison_count": 1,
-      "product_id": "tmarket-маслини-черни-мамут-101-110-нас-кг",
-      "name": "Маслини черни Мамут 101-110 нас.кг",
-      "image": "https://tmarketonline.bg/cdn/img/products/50438/maslini-cerni-mamut-bez-kost--101-110-kg-641d9a6e3ecb3.jpeg?width=600&height=600&v=1777589968",
-      "category": "fat",
-      "emoji": "🫒",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": true,
-      "is_long_lasting": true,
-      "macros": {
-        "kcal": 115,
-        "p": 0.8,
-        "f": 11,
-        "c": 6
-      },
-      "avg_price": 13.54,
-      "lowest_price": 12.03,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          12.03,
-          15.04,
-          20
-        ],
-        [
-          "2026-10-22",
-          15.04,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "wait"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 15.29,
-      "new_price_eur": 7.82,
-      "old_price": 17.99,
-      "old_price_eur": 9.2,
-      "discount_pct": 15,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 15.29,
-      "price_per_kg_eur": 7.82,
+      "new_price": 15.63,
+      "new_price_eur": 7.99,
+      "old_price": 18.7,
+      "old_price_eur": 9.56,
+      "discount_pct": 16,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-30",
+      "price_per_kg": 15.63,
+      "price_per_kg_eur": 7.99,
       "source_type": "promo",
       "available_stores": [
         "T-Market"
@@ -51366,22 +52468,24 @@ const OFFERS_DATA = {
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 15.29,
-          "price_eur": 7.82,
-          "old_price": 17.99,
-          "old_price_eur": 9.2,
-          "discount_pct": 15,
+          "price": 15.63,
+          "price_eur": 7.99,
+          "old_price": 18.7,
+          "old_price_eur": 9.56,
+          "discount_pct": 16,
           "source_type": "promo"
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 15.29,
+      "best_price": 15.63,
       "comparison_count": 1,
-      "product_id": "tmarket-кашкавал-от-краве-мляко-соколово-вак-кг",
-      "name": "Кашкавал от краве мляко СОКОЛОВО вак. кг",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00032993_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "dairy",
-      "emoji": "🥛",
+      "product_id": "tmarket-масл-масло-di-palio-pomace-1л-1000g",
+      "weight_grams": 1000,
+      "weight_raw": "1л",
+      "name": "Масл.масло DI PALIO Pomace 1л",
+      "image": "https://imgproxy-retcat.assets.schwarz/aO3Et2MKzilq4CahbOzkRZ9t6b9pdOx1DQ2hnH9E5TI/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9FMjc0RkI1MjE4NTIyREYyRDgyMjlGNDZ/CNjY1RjI1QzFGMzgzNTg4Q0VBODg4RkM1NENGRDY5RTA2MTJBRTgwLnBuZw.png",
+      "category": "other",
+      "emoji": "🛒",
       "health_score": 5,
       "is_food": true,
       "is_junk": false,
@@ -51392,36 +52496,36 @@ const OFFERS_DATA = {
       "is_bulk_worthy": false,
       "is_long_lasting": false,
       "macros": {
-        "kcal": 350,
-        "p": 25,
-        "f": 27,
-        "c": 1
+        "kcal": 717,
+        "p": 0.9,
+        "f": 81,
+        "c": 0.1
       },
-      "avg_price": 14.21,
-      "lowest_price": 11.72,
+      "avg_price": 16.65,
+      "lowest_price": 15.63,
       "lowest_price_date": "2026-05-16",
       "price_history": [
         [
           "2026-05-16",
-          11.72,
-          17.99,
-          35
+          15.63,
+          18.7,
+          16
         ],
         [
           "2026-10-22",
-          15.63,
-          17.99,
-          13
+          18.7,
+          null,
+          null
         ],
         [
-          "2026-11-09",
-          15.29,
-          17.99,
-          15
+          "2026-11-10",
+          15.63,
+          18.7,
+          16
         ]
       ],
       "price_seen_count": 3,
-      "price_signal": "normal"
+      "price_signal": "buy"
     },
     {
       "store": "T-Market",
@@ -51694,234 +52798,6 @@ const OFFERS_DATA = {
       "price_signal": "good"
     },
     {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 16.9,
-      "new_price_eur": 8.64,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 16.9,
-      "price_per_kg_eur": 8.64,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 16.9,
-          "price_eur": 8.64,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 16.9,
-      "comparison_count": 1,
-      "product_id": "tmarket-кашкавал-от-краве-мляко-ели-нас-кг",
-      "name": "Кашкавал от краве мляко ЕЛИ нас. кг",
-      "image": "https://tmarketonline.bg/cdn/img/products/54980/kaskaval-ot-krave-mlako-eli-400-g-67237a5b21593.jpeg?width=1920&height=1920&v=1777590006",
-      "category": "dairy",
-      "emoji": "🥛",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "macros": {
-        "kcal": 350,
-        "p": 25,
-        "f": 27,
-        "c": 1
-      },
-      "avg_price": 15.17,
-      "lowest_price": 11.72,
-      "lowest_price_date": "2026-10-22",
-      "price_history": [
-        [
-          "2026-05-16",
-          16.9,
-          null,
-          null
-        ],
-        [
-          "2026-10-22",
-          11.72,
-          16.9,
-          31
-        ],
-        [
-          "2026-11-09",
-          16.9,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "wait"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 16.9,
-      "new_price_eur": 8.64,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 16.9,
-      "price_per_kg_eur": 8.64,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 16.9,
-          "price_eur": 8.64,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 16.9,
-      "comparison_count": 1,
-      "product_id": "tmarket-кашкавал-ели-вак-кг",
-      "name": "*Кашкавал ЕЛИ вак. кг",
-      "image": "images/foods/yogurt.svg",
-      "category": "dairy",
-      "emoji": "🥛",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "macros": {
-        "kcal": 350,
-        "p": 25,
-        "f": 27,
-        "c": 1
-      },
-      "avg_price": 15.17,
-      "lowest_price": 11.72,
-      "lowest_price_date": "2026-10-22",
-      "price_history": [
-        [
-          "2026-05-16",
-          16.9,
-          null,
-          null
-        ],
-        [
-          "2026-10-22",
-          11.72,
-          16.9,
-          31
-        ],
-        [
-          "2026-11-09",
-          16.9,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "wait"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 17.0,
-      "new_price_eur": 8.69,
-      "old_price": 19.99,
-      "old_price_eur": 10.22,
-      "discount_pct": 15,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 17.0,
-      "price_per_kg_eur": 8.69,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 17.0,
-          "price_eur": 8.69,
-          "old_price": 19.99,
-          "old_price_eur": 10.22,
-          "discount_pct": 15,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 17.0,
-      "comparison_count": 1,
-      "product_id": "tmarket-кашкавал-от-кр-мляко-чифлика-нас-кг",
-      "name": "Кашкавал от кр. мляко ЧИФЛИКА,нас.кг",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00032993_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "dairy",
-      "emoji": "🥛",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "macros": {
-        "kcal": 350,
-        "p": 25,
-        "f": 27,
-        "c": 1
-      },
-      "avg_price": 16.24,
-      "lowest_price": 11.72,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          11.72,
-          19.99,
-          41
-        ],
-        [
-          "2026-10-22",
-          19.99,
-          null,
-          null
-        ],
-        [
-          "2026-11-09",
-          17.0,
-          19.99,
-          15
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "normal"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 17.49,
@@ -52092,142 +52968,6 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 17.58,
-      "new_price_eur": 8.99,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 17.58,
-      "price_per_kg_eur": 8.99,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 17.58,
-          "price_eur": 8.99,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 17.58,
-      "comparison_count": 1,
-      "product_id": "tmarket-маслини-каламон-181-230-нас-кг",
-      "name": "Маслини Каламон 181-230 нас.кг",
-      "image": "https://tmarketonline.bg/cdn/img/products/50521/maslini-blond-razmer-180-230-kg-649aa3e3be088.jpeg?width=600&height=600&v=1777589982",
-      "category": "fat",
-      "emoji": "🫒",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": true,
-      "is_long_lasting": true,
-      "macros": {
-        "kcal": 115,
-        "p": 0.8,
-        "f": 11,
-        "c": 6
-      },
-      "avg_price": 15.82,
-      "lowest_price": 14.06,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          14.06,
-          17.58,
-          20
-        ],
-        [
-          "2026-10-22",
-          17.58,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "wait"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 17.58,
-      "new_price_eur": 8.99,
-      "old_price": 20.69,
-      "old_price_eur": 10.58,
-      "discount_pct": 15,
-      "valid_from": "2026-10-20",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 17.58,
-      "price_per_kg_eur": 8.99,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 17.58,
-          "price_eur": 8.99,
-          "old_price": 20.69,
-          "old_price_eur": 10.58,
-          "discount_pct": 15,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 17.58,
-      "comparison_count": 1,
-      "product_id": "tmarket-маслиново-масло-di-palio-pomace-стъкло1л-1000g",
-      "weight_grams": 1000,
-      "weight_raw": "1л",
-      "name": "Маслиново масло DI PALIO Pomace стъкло1л",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/10d44d70-bfbf-4b29-88b2-9829f4cb37bf.png",
-      "category": "fat",
-      "emoji": "🫒",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": true,
-      "is_long_lasting": true,
-      "macros": {
-        "kcal": 115,
-        "p": 0.8,
-        "f": 11,
-        "c": 6
-      },
-      "avg_price": 17.58,
-      "lowest_price": 17.58,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          17.58,
-          20.69,
-          15
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
       "new_price": 17.99,
       "new_price_eur": 9.2,
       "old_price": null,
@@ -52360,6 +53100,88 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
+      "new_price": 17.99,
+      "new_price_eur": 9.2,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 17.99,
+      "price_per_kg_eur": 9.2,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 17.99,
+          "price_eur": 9.2,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 17.99,
+      "comparison_count": 1,
+      "product_id": "tmarket-кашкавал-от-краве-мляко-соколово-вак-кг",
+      "name": "Кашкавал от краве мляко СОКОЛОВО вак. кг",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00032993_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "dairy",
+      "emoji": "🥛",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 350,
+        "p": 25,
+        "f": 27,
+        "c": 1
+      },
+      "avg_price": 15.16,
+      "lowest_price": 11.72,
+      "lowest_price_date": "2026-05-16",
+      "price_history": [
+        [
+          "2026-05-16",
+          11.72,
+          17.99,
+          35
+        ],
+        [
+          "2026-10-22",
+          15.63,
+          17.99,
+          13
+        ],
+        [
+          "2026-11-09",
+          15.29,
+          17.99,
+          15
+        ],
+        [
+          "2026-11-10",
+          17.99,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "wait"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
       "new_price": 18.25,
       "new_price_eur": 9.33,
       "old_price": null,
@@ -52424,40 +53246,40 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 18.7,
-      "new_price_eur": 9.56,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 18.7,
-      "price_per_kg_eur": 9.56,
-      "source_type": "assortment",
+      "new_price": 18.93,
+      "new_price_eur": 9.68,
+      "old_price": 22.28,
+      "old_price_eur": 11.39,
+      "discount_pct": 15,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 23.66,
+      "price_per_kg_eur": 12.1,
+      "source_type": "promo",
       "available_stores": [
         "T-Market"
       ],
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 18.7,
-          "price_eur": 9.56,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
+          "price": 18.93,
+          "price_eur": 9.68,
+          "old_price": 22.28,
+          "old_price_eur": 11.39,
+          "discount_pct": 15,
+          "source_type": "promo"
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 18.7,
+      "best_price": 18.93,
       "comparison_count": 1,
-      "product_id": "tmarket-масл-масло-di-palio-pomace-1л-1000g",
-      "weight_grams": 1000,
-      "weight_raw": "1л",
-      "name": "Масл.масло DI PALIO Pomace 1л",
-      "image": "https://imgproxy-retcat.assets.schwarz/aO3Et2MKzilq4CahbOzkRZ9t6b9pdOx1DQ2hnH9E5TI/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9FMjc0RkI1MjE4NTIyREYyRDgyMjlGNDZ/CNjY1RjI1QzFGMzgzNTg4Q0VBODg4RkM1NENGRDY5RTA2MTJBRTgwLnBuZw.png",
-      "category": "other",
-      "emoji": "🛒",
+      "product_id": "tmarket-кашкавал-от-краве-мляко-булгарче-800гр-800g",
+      "weight_grams": 800,
+      "weight_raw": "800гр",
+      "name": "Кашкавал от краве мляко БУЛГАРЧЕ 800гр",
+      "image": "https://tmarketonline.bg/cdn/img/products/48215/kaskaval-ot-krave-mlako-bulgarce-400gr-image_620bb1499db0e.png?width=1920&height=1920&v=1777589952",
+      "category": "dairy",
+      "emoji": "🥛",
       "health_score": 5,
       "is_food": true,
       "is_junk": false,
@@ -52468,29 +53290,123 @@ const OFFERS_DATA = {
       "is_bulk_worthy": false,
       "is_long_lasting": false,
       "macros": {
-        "kcal": 717,
-        "p": 0.9,
-        "f": 81,
-        "c": 0.1
+        "kcal": 350,
+        "p": 25,
+        "f": 27,
+        "c": 1
       },
-      "avg_price": 17.16,
-      "lowest_price": 15.63,
+      "avg_price": 19.43,
+      "lowest_price": 17.58,
       "lowest_price_date": "2026-05-16",
       "price_history": [
         [
           "2026-05-16",
-          15.63,
-          18.7,
-          16
+          17.58,
+          22.28,
+          21
         ],
         [
           "2026-10-22",
-          18.7,
+          18.93,
+          22.28,
+          15
+        ],
+        [
+          "2026-11-09",
+          22.28,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          18.93,
+          22.28,
+          15
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "normal"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 19.99,
+      "new_price_eur": 10.22,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 19.99,
+      "price_per_kg_eur": 10.22,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 19.99,
+          "price_eur": 10.22,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 19.99,
+      "comparison_count": 1,
+      "product_id": "tmarket-кашкавал-от-кр-мляко-чифлика-нас-кг",
+      "name": "Кашкавал от кр. мляко ЧИФЛИКА,нас.кг",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00032993_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "dairy",
+      "emoji": "🥛",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "macros": {
+        "kcal": 350,
+        "p": 25,
+        "f": 27,
+        "c": 1
+      },
+      "avg_price": 17.18,
+      "lowest_price": 11.72,
+      "lowest_price_date": "2026-05-16",
+      "price_history": [
+        [
+          "2026-05-16",
+          11.72,
+          19.99,
+          41
+        ],
+        [
+          "2026-10-22",
+          19.99,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          17.0,
+          19.99,
+          15
+        ],
+        [
+          "2026-11-10",
+          19.99,
           null,
           null
         ]
       ],
-      "price_seen_count": 2,
+      "price_seen_count": 4,
       "price_signal": "wait"
     },
     {
@@ -52690,6 +53606,78 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 1,
       "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 20.69,
+      "new_price_eur": 10.58,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 20.69,
+      "price_per_kg_eur": 10.58,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 20.69,
+          "price_eur": 10.58,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 20.69,
+      "comparison_count": 1,
+      "product_id": "tmarket-маслиново-масло-di-palio-pomace-стъкло1л-1000g",
+      "weight_grams": 1000,
+      "weight_raw": "1л",
+      "name": "Маслиново масло DI PALIO Pomace стъкло1л",
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/10d44d70-bfbf-4b29-88b2-9829f4cb37bf.png",
+      "category": "fat",
+      "emoji": "🫒",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": true,
+      "is_long_lasting": true,
+      "macros": {
+        "kcal": 115,
+        "p": 0.8,
+        "f": 11,
+        "c": 6
+      },
+      "avg_price": 19.13,
+      "lowest_price": 17.58,
+      "lowest_price_date": "2026-05-16",
+      "price_history": [
+        [
+          "2026-05-16",
+          17.58,
+          20.69,
+          15
+        ],
+        [
+          "2026-11-10",
+          20.69,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "wait"
     },
     {
       "store": "T-Market",
@@ -52960,84 +53948,6 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 22.28,
-      "new_price_eur": 11.39,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 27.85,
-      "price_per_kg_eur": 14.24,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 22.28,
-          "price_eur": 11.39,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 22.28,
-      "comparison_count": 1,
-      "product_id": "tmarket-кашкавал-от-краве-мляко-булгарче-800гр-800g",
-      "weight_grams": 800,
-      "weight_raw": "800гр",
-      "name": "Кашкавал от краве мляко БУЛГАРЧЕ 800гр",
-      "image": "https://tmarketonline.bg/cdn/img/products/48215/kaskaval-ot-krave-mlako-bulgarce-400gr-image_620bb1499db0e.png?width=1920&height=1920&v=1777589952",
-      "category": "dairy",
-      "emoji": "🥛",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "macros": {
-        "kcal": 350,
-        "p": 25,
-        "f": 27,
-        "c": 1
-      },
-      "avg_price": 19.6,
-      "lowest_price": 17.58,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          17.58,
-          22.28,
-          21
-        ],
-        [
-          "2026-10-22",
-          18.93,
-          22.28,
-          15
-        ],
-        [
-          "2026-11-09",
-          22.28,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "wait"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
       "new_price": 22.49,
       "new_price_eur": 11.5,
       "old_price": null,
@@ -53234,15 +54144,15 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 23.45,
-      "new_price_eur": 11.99,
-      "old_price": 33.99,
-      "old_price_eur": 17.38,
-      "discount_pct": 31,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 26.06,
-      "price_per_kg_eur": 13.32,
+      "new_price": 23.57,
+      "new_price_eur": 12.05,
+      "old_price": 27.69,
+      "old_price_eur": 14.16,
+      "discount_pct": 15,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 23.57,
+      "price_per_kg_eur": 12.05,
       "source_type": "promo",
       "available_stores": [
         "T-Market"
@@ -53250,22 +54160,22 @@ const OFFERS_DATA = {
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 23.45,
-          "price_eur": 11.99,
-          "old_price": 33.99,
-          "old_price_eur": 17.38,
-          "discount_pct": 31,
+          "price": 23.57,
+          "price_eur": 12.05,
+          "old_price": 27.69,
+          "old_price_eur": 14.16,
+          "discount_pct": 15,
           "source_type": "promo"
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 23.45,
+      "best_price": 23.57,
       "comparison_count": 1,
-      "product_id": "tmarket-кафе-nova-brasilia-зърна-900г-900g",
-      "weight_grams": 900,
-      "weight_raw": "900г",
-      "name": "Кафе NOVA BRASILIA Зърна 900г",
-      "image": "https://tmarketonline.bg/cdn/img/products/41793/kafe-na-zarna-nova-brasilia-klasik-1-kg-63d20460d79f8.jpeg?width=1920&height=1920&v=1777589966",
+      "product_id": "tmarket-кафе-santos-rush-зърна-1-кг-1000g",
+      "weight_grams": 1000,
+      "weight_raw": "1 кг",
+      "name": "Кафе SANTOS rush зърна 1 кг",
+      "image": "https://tmarketonline.bg/cdn/img/products/43532/kafe-santos-rush-zarna-1-kg-image_5f4cdd45c851a.png?width=600&height=600&v=1777589921",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -53277,24 +54187,36 @@ const OFFERS_DATA = {
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
-      "avg_price": 28.72,
-      "lowest_price": 23.45,
-      "lowest_price_date": "2026-11-09",
+      "avg_price": 25.62,
+      "lowest_price": 23.54,
+      "lowest_price_date": "2026-05-16",
       "price_history": [
         [
-          "2026-05-16",
-          33.99,
+          "2026-04-20",
+          27.69,
           null,
           null
         ],
         [
-          "2026-11-09",
-          23.45,
-          33.99,
-          31
+          "2026-05-16",
+          23.54,
+          27.69,
+          15
+        ],
+        [
+          "2026-10-22",
+          27.69,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          23.57,
+          27.69,
+          15
         ]
       ],
-      "price_seen_count": 2,
+      "price_seen_count": 4,
       "price_signal": "buy"
     },
     {
@@ -53566,15 +54488,15 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 27.69,
-      "new_price_eur": 14.16,
+      "new_price": 27.67,
+      "new_price_eur": 14.15,
       "old_price": null,
       "old_price_eur": null,
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": 27.69,
-      "price_per_kg_eur": 14.16,
+      "price_per_kg": 27.67,
+      "price_per_kg_eur": 14.15,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -53582,8 +54504,8 @@ const OFFERS_DATA = {
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 27.69,
-          "price_eur": 14.16,
+          "price": 27.67,
+          "price_eur": 14.15,
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
@@ -53591,15 +54513,15 @@ const OFFERS_DATA = {
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 27.69,
+      "best_price": 27.67,
       "comparison_count": 1,
-      "product_id": "tmarket-кафе-santos-rush-зърна-1-кг-1000g",
+      "product_id": "tmarket-масл-масло-costa-d-oro-ev-1л-1000g",
       "weight_grams": 1000,
-      "weight_raw": "1 кг",
-      "name": "Кафе SANTOS rush зърна 1 кг",
-      "image": "https://tmarketonline.bg/cdn/img/products/43532/kafe-santos-rush-zarna-1-kg-image_5f4cdd45c851a.png?width=600&height=600&v=1777589921",
-      "category": "drinks",
-      "emoji": "🍺",
+      "weight_raw": "1л",
+      "name": "Масл. масло COSTA D'ORO EV 1л",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/661_00091018_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
       "health_score": 5,
       "is_food": true,
       "is_junk": false,
@@ -53609,31 +54531,37 @@ const OFFERS_DATA = {
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
-      "avg_price": 26.31,
-      "lowest_price": 23.54,
-      "lowest_price_date": "2026-05-16",
+      "macros": {
+        "kcal": 717,
+        "p": 0.9,
+        "f": 81,
+        "c": 0.1
+      },
+      "avg_price": 23.33,
+      "lowest_price": 14.65,
+      "lowest_price_date": "2026-11-09",
       "price_history": [
         [
-          "2026-04-20",
-          27.69,
+          "2026-05-16",
+          27.67,
           null,
           null
         ],
         [
-          "2026-05-16",
-          23.54,
-          27.69,
-          15
+          "2026-11-09",
+          14.65,
+          27.67,
+          47
         ],
         [
-          "2026-10-22",
-          27.69,
+          "2026-11-10",
+          27.67,
           null,
           null
         ]
       ],
       "price_seen_count": 3,
-      "price_signal": "normal"
+      "price_signal": "wait"
     },
     {
       "store": "T-Market",
@@ -53706,6 +54634,72 @@ const OFFERS_DATA = {
       "price_seen_count": 3,
       "price_signal": "wait",
       "image": "https://tmarketonline.bg/cdn/img/products/55363/raztvorimo-kafe-jacobs-3in1-intense-11-1-g-6784f8638b866.jpeg?width=600&height=600&v=1777590012"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 29.32,
+      "new_price_eur": 14.99,
+      "old_price": 51.99,
+      "old_price_eur": 26.58,
+      "discount_pct": 44,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 29.32,
+      "price_per_kg_eur": 14.99,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 29.32,
+          "price_eur": 14.99,
+          "old_price": 51.99,
+          "old_price_eur": 26.58,
+          "discount_pct": 44,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 29.32,
+      "comparison_count": 1,
+      "product_id": "tmarket-кафе-на-зърна-tchibo-family-1-кг-1000g",
+      "weight_grams": 1000,
+      "weight_raw": "1 кг",
+      "name": "Кафе на зърна TCHIBO family 1 кг",
+      "image": "https://tmarketonline.bg/cdn/img/products/41816/kafe-na-zarna-tchibo-family-1-kg-image_5f27c0e811f75.jpeg?width=600&height=600&v=1777589894",
+      "category": "drinks",
+      "emoji": "🍺",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 40.66,
+      "lowest_price": 29.32,
+      "lowest_price_date": "2026-11-10",
+      "price_history": [
+        [
+          "2026-04-20",
+          51.99,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          29.32,
+          51.99,
+          44
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy"
     },
     {
       "store": "T-Market",
@@ -53787,8 +54781,8 @@ const OFFERS_DATA = {
       "old_price": 35.69,
       "old_price_eur": 18.25,
       "discount_pct": 7,
-      "valid_from": "2026-10-20",
-      "valid_until": "2026-11-09",
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-30",
       "price_per_kg": 33.23,
       "price_per_kg_eur": 16.99,
       "source_type": "promo",
@@ -53850,6 +54844,78 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 3,
       "price_signal": "normal"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 33.99,
+      "new_price_eur": 17.38,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 37.77,
+      "price_per_kg_eur": 19.31,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 33.99,
+          "price_eur": 17.38,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 33.99,
+      "comparison_count": 1,
+      "product_id": "tmarket-кафе-nova-brasilia-зърна-900г-900g",
+      "weight_grams": 900,
+      "weight_raw": "900г",
+      "name": "Кафе NOVA BRASILIA Зърна 900г",
+      "image": "https://tmarketonline.bg/cdn/img/products/41793/kafe-na-zarna-nova-brasilia-klasik-1-kg-63d20460d79f8.jpeg?width=1920&height=1920&v=1777589966",
+      "category": "drinks",
+      "emoji": "🍺",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 30.48,
+      "lowest_price": 23.45,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-05-16",
+          33.99,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          23.45,
+          33.99,
+          31
+        ],
+        [
+          "2026-11-10",
+          33.99,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "wait"
     },
     {
       "store": "T-Market",
@@ -53926,15 +54992,15 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 35.97,
-      "new_price_eur": 18.39,
-      "old_price": 42.19,
-      "old_price_eur": 21.57,
-      "discount_pct": 15,
-      "valid_from": "2026-10-20",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 44.96,
-      "price_per_kg_eur": 22.99,
+      "new_price": 37.34,
+      "new_price_eur": 19.09,
+      "old_price": 41.56,
+      "old_price_eur": 21.25,
+      "discount_pct": 10,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 37.34,
+      "price_per_kg_eur": 19.09,
       "source_type": "promo",
       "available_stores": [
         "T-Market"
@@ -53942,16 +55008,94 @@ const OFFERS_DATA = {
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 35.97,
-          "price_eur": 18.39,
-          "old_price": 42.19,
-          "old_price_eur": 21.57,
-          "discount_pct": 15,
+          "price": 37.34,
+          "price_eur": 19.09,
+          "old_price": 41.56,
+          "old_price_eur": 21.25,
+          "discount_pct": 10,
           "source_type": "promo"
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 35.97,
+      "best_price": 37.34,
+      "comparison_count": 1,
+      "product_id": "tmarket-кафе-santos-emotion-зърна-1-кг-1000g",
+      "weight_grams": 1000,
+      "weight_raw": "1 кг",
+      "name": "Кафе SANTOS emotion зърна 1 кг",
+      "image": "https://tmarketonline.bg/cdn/img/products/43530/kafe-santos-emotion-zarna-1-kg-image_5f4cdcb14b2ad.png?width=600&height=600&v=1777589920",
+      "category": "drinks",
+      "emoji": "🍺",
+      "health_score": 5,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 38.95,
+      "lowest_price": 35.33,
+      "lowest_price_date": "2026-05-16",
+      "price_history": [
+        [
+          "2026-04-20",
+          41.56,
+          null,
+          null
+        ],
+        [
+          "2026-05-16",
+          35.33,
+          41.56,
+          15
+        ],
+        [
+          "2026-10-22",
+          41.56,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          37.34,
+          41.56,
+          10
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "normal"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 42.19,
+      "new_price_eur": 21.57,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 52.74,
+      "price_per_kg_eur": 26.97,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 42.19,
+          "price_eur": 21.57,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 42.19,
       "comparison_count": 1,
       "product_id": "tmarket-мляко-за-малки-деца-nan-op-3-12-м800г-800g",
       "weight_grams": 800,
@@ -53975,7 +55119,7 @@ const OFFERS_DATA = {
         "f": 3.2,
         "c": 4.8
       },
-      "avg_price": 35.97,
+      "avg_price": 39.08,
       "lowest_price": 35.97,
       "lowest_price_date": "2026-05-16",
       "price_history": [
@@ -53984,81 +55128,15 @@ const OFFERS_DATA = {
           35.97,
           42.19,
           15
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 41.56,
-      "new_price_eur": 21.25,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 41.56,
-      "price_per_kg_eur": 21.25,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 41.56,
-          "price_eur": 21.25,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 41.56,
-      "comparison_count": 1,
-      "product_id": "tmarket-кафе-santos-emotion-зърна-1-кг-1000g",
-      "weight_grams": 1000,
-      "weight_raw": "1 кг",
-      "name": "Кафе SANTOS emotion зърна 1 кг",
-      "image": "https://tmarketonline.bg/cdn/img/products/43530/kafe-santos-emotion-zarna-1-kg-image_5f4cdcb14b2ad.png?width=600&height=600&v=1777589920",
-      "category": "drinks",
-      "emoji": "🍺",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 39.48,
-      "lowest_price": 35.33,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-04-20",
-          41.56,
-          null,
-          null
         ],
         [
-          "2026-05-16",
-          35.33,
-          41.56,
-          15
-        ],
-        [
-          "2026-10-22",
-          41.56,
+          "2026-11-10",
+          42.19,
           null,
           null
         ]
       ],
-      "price_seen_count": 3,
+      "price_seen_count": 2,
       "price_signal": "normal"
     },
     {
@@ -54314,84 +55392,6 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 46.92,
-      "new_price_eur": 23.99,
-      "old_price": 56.09,
-      "old_price_eur": 28.68,
-      "discount_pct": 16,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 46.92,
-      "price_per_kg_eur": 23.99,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 46.92,
-          "price_eur": 23.99,
-          "old_price": 56.09,
-          "old_price_eur": 28.68,
-          "discount_pct": 16,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 46.92,
-      "comparison_count": 1,
-      "product_id": "tmarket-кафе-на-зърна-lavazza-rossa-1-кг-1000g",
-      "weight_grams": 1000,
-      "weight_raw": "1 кг",
-      "name": "Кафе на зърна LAVAZZA ROSSA 1 кг",
-      "image": "https://tmarketonline.bg/cdn/img/products/44627/kafe-na-zarna-lavazza-rossa-1-kg-image_5f4cbd43dea72.jpeg?width=600&height=600&v=1777589913",
-      "category": "drinks",
-      "emoji": "🍺",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 50.38,
-      "lowest_price": 46.92,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
-        [
-          "2026-04-20",
-          47.68,
-          56.09,
-          15
-        ],
-        [
-          "2026-05-07",
-          56.09,
-          null,
-          null
-        ],
-        [
-          "2026-05-16",
-          50.83,
-          56.09,
-          9
-        ],
-        [
-          "2026-11-09",
-          46.92,
-          56.09,
-          16
-        ]
-      ],
-      "price_seen_count": 4,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
       "new_price": 49.29,
       "new_price_eur": 25.2,
       "old_price": null,
@@ -54528,15 +55528,15 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 51.99,
-      "new_price_eur": 26.58,
+      "new_price": 56.09,
+      "new_price_eur": 28.68,
       "old_price": null,
       "old_price_eur": null,
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": 51.99,
-      "price_per_kg_eur": 26.58,
+      "price_per_kg": 56.09,
+      "price_per_kg_eur": 28.68,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -54544,8 +55544,8 @@ const OFFERS_DATA = {
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 51.99,
-          "price_eur": 26.58,
+          "price": 56.09,
+          "price_eur": 28.68,
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
@@ -54553,12 +55553,13 @@ const OFFERS_DATA = {
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 51.99,
+      "best_price": 56.09,
       "comparison_count": 1,
-      "product_id": "tmarket-кафе-на-зърна-eduscho-espresso-1кг-1000g",
+      "product_id": "tmarket-кафе-на-зърна-lavazza-rossa-1-кг-1000g",
       "weight_grams": 1000,
-      "weight_raw": "1кг",
-      "name": "Кафе на зърна EDUSCHO espresso 1кг",
+      "weight_raw": "1 кг",
+      "name": "Кафе на зърна LAVAZZA ROSSA 1 кг",
+      "image": "https://tmarketonline.bg/cdn/img/products/44627/kafe-na-zarna-lavazza-rossa-1-kg-image_5f4cbd43dea72.jpeg?width=600&height=600&v=1777589913",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
@@ -54570,20 +55571,43 @@ const OFFERS_DATA = {
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
-      "avg_price": 51.99,
-      "lowest_price": 51.99,
-      "lowest_price_date": "2026-05-16",
+      "avg_price": 51.52,
+      "lowest_price": 46.92,
+      "lowest_price_date": "2026-11-09",
       "price_history": [
         [
+          "2026-04-20",
+          47.68,
+          56.09,
+          15
+        ],
+        [
+          "2026-05-07",
+          56.09,
+          null,
+          null
+        ],
+        [
           "2026-05-16",
-          51.99,
+          50.83,
+          56.09,
+          9
+        ],
+        [
+          "2026-11-09",
+          46.92,
+          56.09,
+          16
+        ],
+        [
+          "2026-11-10",
+          56.09,
           null,
           null
         ]
       ],
-      "price_seen_count": 1,
-      "price_signal": "buy",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/4046234567113_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
+      "price_seen_count": 5,
+      "price_signal": "wait"
     },
     {
       "store": "Kaufland",
@@ -55900,6 +56924,300 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 4.58,
+      "new_price_eur": 2.34,
+      "old_price": 5.71,
+      "old_price_eur": 2.92,
+      "discount_pct": 20,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 14.31,
+      "price_per_kg_eur": 7.32,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 4.58,
+          "price_eur": 2.34,
+          "old_price": 5.71,
+          "old_price_eur": 2.92,
+          "discount_pct": 20,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 4.58,
+      "comparison_count": 1,
+      "product_id": "tmarket-салам-народен-телешки-320-г-320g",
+      "weight_grams": 320,
+      "weight_raw": "320 г",
+      "name": "Салам НАРОДЕН телешки 320 г",
+      "image": "https://tmarketonline.bg/cdn/img/products/43416/salam-naroden-teleski-320gr-image_5f479c30d37ce.jpeg?width=600&height=600&v=1777589904",
+      "category": "protein",
+      "emoji": "🍗",
+      "health_score": 3,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 5.26,
+      "lowest_price": 4.58,
+      "lowest_price_date": "2026-11-10",
+      "price_history": [
+        [
+          "2026-05-16",
+          5.5,
+          null,
+          null
+        ],
+        [
+          "2026-10-22",
+          5.71,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          4.58,
+          5.71,
+          20
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 4.58,
+      "new_price_eur": 2.34,
+      "old_price": 5.71,
+      "old_price_eur": 2.92,
+      "discount_pct": 20,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 14.31,
+      "price_per_kg_eur": 7.32,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 4.58,
+          "price_eur": 2.34,
+          "old_price": 5.71,
+          "old_price_eur": 2.92,
+          "discount_pct": 20,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 4.58,
+      "comparison_count": 1,
+      "product_id": "tmarket-салам-народен-хамбургски-320-г-320g",
+      "weight_grams": 320,
+      "weight_raw": "320 г",
+      "name": "Салам НАРОДЕН хамбургски 320 г",
+      "image": "https://tmarketonline.bg/cdn/img/products/43417/salam-naroden-hamburgski-320gr-image_5f479c32bd72b.jpeg?width=600&height=600&v=1777589904",
+      "category": "protein",
+      "emoji": "🍗",
+      "health_score": 3,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 5.26,
+      "lowest_price": 4.58,
+      "lowest_price_date": "2026-11-10",
+      "price_history": [
+        [
+          "2026-05-16",
+          5.5,
+          null,
+          null
+        ],
+        [
+          "2026-10-22",
+          5.71,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          4.58,
+          5.71,
+          20
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 4.58,
+      "new_price_eur": 2.34,
+      "old_price": 5.71,
+      "old_price_eur": 2.92,
+      "discount_pct": 20,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 14.31,
+      "price_per_kg_eur": 7.32,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 4.58,
+          "price_eur": 2.34,
+          "old_price": 5.71,
+          "old_price_eur": 2.92,
+          "discount_pct": 20,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 4.58,
+      "comparison_count": 1,
+      "product_id": "tmarket-салам-народен-камчия-320-г-320g",
+      "weight_grams": 320,
+      "weight_raw": "320 г",
+      "name": "Салам НАРОДЕН камчия 320 г",
+      "image": "https://tmarketonline.bg/cdn/img/products/43418/salam-naroden-kamcia-320gr-image_5f479c345e2c6.jpeg?width=600&height=600&v=1777589904",
+      "category": "protein",
+      "emoji": "🍗",
+      "health_score": 3,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 5.26,
+      "lowest_price": 4.58,
+      "lowest_price_date": "2026-11-10",
+      "price_history": [
+        [
+          "2026-05-16",
+          5.5,
+          null,
+          null
+        ],
+        [
+          "2026-10-22",
+          5.71,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          4.58,
+          5.71,
+          20
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 4.67,
+      "new_price_eur": 2.39,
+      "old_price": 6.08,
+      "old_price_eur": 3.11,
+      "discount_pct": 23,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-30",
+      "price_per_kg": 15.57,
+      "price_per_kg_eur": 7.96,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 4.67,
+          "price_eur": 2.39,
+          "old_price": 6.08,
+          "old_price_eur": 3.11,
+          "discount_pct": 23,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 4.67,
+      "comparison_count": 1,
+      "product_id": "tmarket-салам-нашата-трапеза-шпек-бургас-300г-300g",
+      "weight_grams": 300,
+      "weight_raw": "300г",
+      "name": "Салам НАШАТА ТРАПЕЗА Шпек Бургас 300г",
+      "image": "https://tmarketonline.bg/cdn/img/products/40493/salam-majstor-cvetko-spek-burgas-300gr-image_5ebbd3dc35a4b.jpeg?width=600&height=600&v=1777589887",
+      "category": "protein",
+      "emoji": "🍗",
+      "health_score": 3,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 5.31,
+      "lowest_price": 4.5,
+      "lowest_price_date": "2026-10-22",
+      "price_history": [
+        [
+          "2026-05-16",
+          5.98,
+          null,
+          null
+        ],
+        [
+          "2026-10-22",
+          4.5,
+          5.98,
+          25
+        ],
+        [
+          "2026-11-09",
+          6.08,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          4.67,
+          6.08,
+          23
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "good"
+    },
+    {
       "store": "Kaufland",
       "address": null,
       "new_price": 4.75,
@@ -55973,72 +57291,6 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 4,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 4.79,
-      "new_price_eur": 2.45,
-      "old_price": 5.98,
-      "old_price_eur": 3.06,
-      "discount_pct": 20,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 14.97,
-      "price_per_kg_eur": 7.65,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 4.79,
-          "price_eur": 2.45,
-          "old_price": 5.98,
-          "old_price_eur": 3.06,
-          "discount_pct": 20,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 4.79,
-      "comparison_count": 1,
-      "product_id": "tmarket-кренвирш-ken-320гр-320g",
-      "weight_grams": 320,
-      "weight_raw": "320гр",
-      "name": "Кренвирш KEN 320гр",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/9427_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "protein",
-      "emoji": "🍗",
-      "health_score": 3,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 5.38,
-      "lowest_price": 4.79,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
-        [
-          "2026-05-16",
-          5.98,
-          null,
-          null
-        ],
-        [
-          "2026-11-09",
-          4.79,
-          5.98,
-          20
-        ]
-      ],
-      "price_seen_count": 2,
       "price_signal": "buy"
     },
     {
@@ -56248,38 +57500,38 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 5.5,
-      "new_price_eur": 2.81,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 9.17,
-      "price_per_kg_eur": 4.69,
-      "source_type": "assortment",
+      "new_price": 5.4,
+      "new_price_eur": 2.76,
+      "old_price": 6.75,
+      "old_price_eur": 3.45,
+      "discount_pct": 20,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 18.0,
+      "price_per_kg_eur": 9.2,
+      "source_type": "promo",
       "available_stores": [
         "T-Market"
       ],
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 5.5,
-          "price_eur": 2.81,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
+          "price": 5.4,
+          "price_eur": 2.76,
+          "old_price": 6.75,
+          "old_price_eur": 3.45,
+          "discount_pct": 20,
+          "source_type": "promo"
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 5.5,
+      "best_price": 5.4,
       "comparison_count": 1,
-      "product_id": "tmarket-наденица-колбасо-вак-600-гр-600g",
-      "weight_grams": 600,
-      "weight_raw": "600 гр",
-      "name": "Наденица КОЛБАСО вак,600 гр",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/2800810000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "tmarket-кренвирш-леки-вак-3бр-300гр-300g",
+      "weight_grams": 300,
+      "weight_raw": "300гр",
+      "name": "Кренвирш ЛЕКИ вак 3бр, 300гр",
+      "image": "https://tmarketonline.bg/cdn/img/products/39528/krenvirs-leki-300gr-image_5ea46274bae6a.png?width=600&height=600&v=1777589887",
       "category": "protein",
       "emoji": "🍗",
       "health_score": 3,
@@ -56291,31 +57543,31 @@ const OFFERS_DATA = {
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
-      "avg_price": 4.57,
-      "lowest_price": 4.09,
-      "lowest_price_date": "2026-05-16",
+      "avg_price": 6.21,
+      "lowest_price": 5.4,
+      "lowest_price_date": "2026-11-10",
       "price_history": [
         [
           "2026-05-16",
-          4.09,
-          5.5,
-          26
+          6.49,
+          null,
+          null
         ],
         [
           "2026-10-22",
-          4.13,
-          5.5,
-          25
-        ],
-        [
-          "2026-11-09",
-          5.5,
+          6.75,
           null,
           null
+        ],
+        [
+          "2026-11-10",
+          5.4,
+          6.75,
+          20
         ]
       ],
       "price_seen_count": 3,
-      "price_signal": "wait"
+      "price_signal": "buy"
     },
     {
       "store": "Kaufland",
@@ -56396,72 +57648,6 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 5.59,
-      "new_price_eur": 2.86,
-      "old_price": 6.98,
-      "old_price_eur": 3.57,
-      "discount_pct": 20,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 18.63,
-      "price_per_kg_eur": 9.53,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 5.59,
-          "price_eur": 2.86,
-          "old_price": 6.98,
-          "old_price_eur": 3.57,
-          "discount_pct": 20,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 5.59,
-      "comparison_count": 1,
-      "product_id": "tmarket-шунка-ken-300-гр-300g",
-      "weight_grams": 300,
-      "weight_raw": "300 гр",
-      "name": "Шунка KEN 300 гр.",
-      "image": "https://tmarketonline.bg/cdn/img/products/56139/sunka-svinska-slajs-1-kg-xxl-vak-kg-68685012e321c.jpeg?width=600&height=600&v=1777590017",
-      "category": "protein",
-      "emoji": "🍗",
-      "health_score": 3,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 6.29,
-      "lowest_price": 5.59,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
-        [
-          "2026-05-16",
-          6.98,
-          null,
-          null
-        ],
-        [
-          "2026-11-09",
-          5.59,
-          6.98,
-          20
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
       "new_price": 5.65,
       "new_price_eur": 2.89,
       "old_price": null,
@@ -56516,6 +57702,84 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 1,
       "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 5.65,
+      "new_price_eur": 2.89,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 9.42,
+      "price_per_kg_eur": 4.82,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 5.65,
+          "price_eur": 2.89,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 5.65,
+      "comparison_count": 1,
+      "product_id": "tmarket-наденица-колбасо-вак-600-гр-600g",
+      "weight_grams": 600,
+      "weight_raw": "600 гр",
+      "name": "Наденица КОЛБАСО вак,600 гр",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/2800810000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "protein",
+      "emoji": "🍗",
+      "health_score": 3,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 4.84,
+      "lowest_price": 4.09,
+      "lowest_price_date": "2026-05-16",
+      "price_history": [
+        [
+          "2026-05-16",
+          4.09,
+          5.5,
+          26
+        ],
+        [
+          "2026-10-22",
+          4.13,
+          5.5,
+          25
+        ],
+        [
+          "2026-11-09",
+          5.5,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          5.65,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "wait"
     },
     {
       "store": "T-Market",
@@ -56576,204 +57840,6 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 1,
       "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 5.71,
-      "new_price_eur": 2.92,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 17.84,
-      "price_per_kg_eur": 9.12,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 5.71,
-          "price_eur": 2.92,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 5.71,
-      "comparison_count": 1,
-      "product_id": "tmarket-салам-народен-телешки-320-г-320g",
-      "weight_grams": 320,
-      "weight_raw": "320 г",
-      "name": "Салам НАРОДЕН телешки 320 г",
-      "image": "https://tmarketonline.bg/cdn/img/products/43416/salam-naroden-teleski-320gr-image_5f479c30d37ce.jpeg?width=600&height=600&v=1777589904",
-      "category": "protein",
-      "emoji": "🍗",
-      "health_score": 3,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 5.61,
-      "lowest_price": 5.5,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          5.5,
-          null,
-          null
-        ],
-        [
-          "2026-10-22",
-          5.71,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "normal"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 5.71,
-      "new_price_eur": 2.92,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 17.84,
-      "price_per_kg_eur": 9.12,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 5.71,
-          "price_eur": 2.92,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 5.71,
-      "comparison_count": 1,
-      "product_id": "tmarket-салам-народен-хамбургски-320-г-320g",
-      "weight_grams": 320,
-      "weight_raw": "320 г",
-      "name": "Салам НАРОДЕН хамбургски 320 г",
-      "image": "https://tmarketonline.bg/cdn/img/products/43417/salam-naroden-hamburgski-320gr-image_5f479c32bd72b.jpeg?width=600&height=600&v=1777589904",
-      "category": "protein",
-      "emoji": "🍗",
-      "health_score": 3,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 5.61,
-      "lowest_price": 5.5,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          5.5,
-          null,
-          null
-        ],
-        [
-          "2026-10-22",
-          5.71,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "normal"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 5.71,
-      "new_price_eur": 2.92,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 17.84,
-      "price_per_kg_eur": 9.12,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 5.71,
-          "price_eur": 2.92,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 5.71,
-      "comparison_count": 1,
-      "product_id": "tmarket-салам-народен-камчия-320-г-320g",
-      "weight_grams": 320,
-      "weight_raw": "320 г",
-      "name": "Салам НАРОДЕН камчия 320 г",
-      "image": "https://tmarketonline.bg/cdn/img/products/43418/salam-naroden-kamcia-320gr-image_5f479c345e2c6.jpeg?width=600&height=600&v=1777589904",
-      "category": "protein",
-      "emoji": "🍗",
-      "health_score": 3,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 5.61,
-      "lowest_price": 5.5,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          5.5,
-          null,
-          null
-        ],
-        [
-          "2026-10-22",
-          5.71,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "normal"
     },
     {
       "store": "Kaufland",
@@ -56858,13 +57924,13 @@ const OFFERS_DATA = {
       "address": null,
       "new_price": 5.85,
       "new_price_eur": 2.99,
-      "old_price": 9.49,
-      "old_price_eur": 4.85,
-      "discount_pct": 38,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 7.31,
-      "price_per_kg_eur": 3.74,
+      "old_price": 8.31,
+      "old_price_eur": 4.25,
+      "discount_pct": 30,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-30",
+      "price_per_kg": 5.85,
+      "price_per_kg_eur": 2.99,
       "source_type": "promo",
       "available_stores": [
         "T-Market"
@@ -56874,20 +57940,18 @@ const OFFERS_DATA = {
           "store": "T-Market",
           "price": 5.85,
           "price_eur": 2.99,
-          "old_price": 9.49,
-          "old_price_eur": 4.85,
-          "discount_pct": 38,
+          "old_price": 8.31,
+          "old_price_eur": 4.25,
+          "discount_pct": 30,
           "source_type": "promo"
         }
       ],
       "best_price_store": "T-Market",
       "best_price": 5.85,
       "comparison_count": 1,
-      "product_id": "tmarket-шунка-колбасо-свинска-800г-800g",
-      "weight_grams": 800,
-      "weight_raw": "800г",
-      "name": "Шунка КОЛБАСО свинска 800г",
-      "image": "https://tmarketonline.bg/cdn/img/products/56139/sunka-svinska-slajs-1-kg-xxl-vak-kg-68685012e321c.jpeg?width=600&height=600&v=1777590017",
+      "product_id": "tmarket-наденица-елит-мес-чубрикова-вак-кг-2",
+      "name": "*Наденица ЕЛИТ МЕС Чубрикова вак., кг",
+      "image": "https://tmarketonline.bg/cdn/img/products/48529/nadenica-elit-mes-cubrikova-vak--kg-6288b92eae816.jpeg?width=600&height=600&v=1777589953",
       "category": "protein",
       "emoji": "🍗",
       "health_score": 3,
@@ -56899,31 +57963,319 @@ const OFFERS_DATA = {
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
-      "avg_price": 6.86,
+      "avg_price": 6.9,
       "lowest_price": 5.85,
-      "lowest_price_date": "2026-11-09",
+      "lowest_price_date": "2026-11-10",
       "price_history": [
         [
           "2026-05-16",
-          7.61,
-          9.49,
-          20
+          6.55,
+          8.0,
+          18
         ],
         [
           "2026-10-22",
-          7.12,
-          9.49,
-          25
+          8.31,
+          null,
+          null
         ],
         [
-          "2026-11-09",
+          "2026-11-10",
           5.85,
-          9.49,
-          38
+          8.31,
+          30
         ]
       ],
       "price_seen_count": 3,
       "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 5.85,
+      "new_price_eur": 2.99,
+      "old_price": 7.55,
+      "old_price_eur": 3.86,
+      "discount_pct": 23,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 15.0,
+      "price_per_kg_eur": 7.67,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 5.85,
+          "price_eur": 2.99,
+          "old_price": 7.55,
+          "old_price_eur": 3.86,
+          "discount_pct": 23,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 5.85,
+      "comparison_count": 1,
+      "product_id": "tmarket-наденица-кен-лионска-вак-390-гр-390g",
+      "weight_grams": 390,
+      "weight_raw": "390 гр",
+      "name": "Наденица КЕН лионска вак.,390 гр",
+      "image": "https://tmarketonline.bg/cdn/img/products/43469/nadenica-ken-makedonska-vak390-gr-image_5f4cba222d45b.png?width=600&height=600&v=1777589908",
+      "category": "protein",
+      "emoji": "🍗",
+      "health_score": 3,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 6.48,
+      "lowest_price": 5.85,
+      "lowest_price_date": "2026-11-10",
+      "price_history": [
+        [
+          "2026-05-16",
+          7.55,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          6.04,
+          7.55,
+          20
+        ],
+        [
+          "2026-11-10",
+          5.85,
+          7.55,
+          23
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 5.85,
+      "new_price_eur": 2.99,
+      "old_price": 7.55,
+      "old_price_eur": 3.86,
+      "discount_pct": 23,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 15.0,
+      "price_per_kg_eur": 7.67,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 5.85,
+          "price_eur": 2.99,
+          "old_price": 7.55,
+          "old_price_eur": 3.86,
+          "discount_pct": 23,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 5.85,
+      "comparison_count": 1,
+      "product_id": "tmarket-наденица-кен-македонска-вак-390-гр-390g",
+      "weight_grams": 390,
+      "weight_raw": "390 гр",
+      "name": "Наденица КЕН Македонска вак,390 гр",
+      "image": "https://tmarketonline.bg/cdn/img/products/43469/nadenica-ken-makedonska-vak390-gr-image_5f4cba222d45b.png?width=600&height=600&v=1777589908",
+      "category": "protein",
+      "emoji": "🍗",
+      "health_score": 3,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 6.48,
+      "lowest_price": 5.85,
+      "lowest_price_date": "2026-11-10",
+      "price_history": [
+        [
+          "2026-04-20",
+          7.55,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          6.04,
+          7.55,
+          20
+        ],
+        [
+          "2026-11-10",
+          5.85,
+          7.55,
+          23
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 5.85,
+      "new_price_eur": 2.99,
+      "old_price": 9.0,
+      "old_price_eur": 4.6,
+      "discount_pct": 35,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-30",
+      "price_per_kg": 18.28,
+      "price_per_kg_eur": 9.35,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 5.85,
+          "price_eur": 2.99,
+          "old_price": 9.0,
+          "old_price_eur": 4.6,
+          "discount_pct": 35,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 5.85,
+      "comparison_count": 1,
+      "product_id": "tmarket-кренвирши-тандем-стара-планина-320г-320g",
+      "weight_grams": 320,
+      "weight_raw": "320г",
+      "name": "Кренвирши ТАНДЕМ Стара планина, 320г",
+      "image": "https://tmarketonline.bg/cdn/img/products/39694/krenvirsi-tandem-stara-planina-320-g-69c0f267e9ec5.jpeg?width=1920&height=1920&v=1777590033",
+      "category": "protein",
+      "emoji": "🍗",
+      "health_score": 3,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 7.2,
+      "lowest_price": 5.85,
+      "lowest_price_date": "2026-11-10",
+      "price_history": [
+        [
+          "2026-05-16",
+          6.75,
+          9.0,
+          25
+        ],
+        [
+          "2026-10-22",
+          9.0,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          5.85,
+          9.0,
+          35
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 5.98,
+      "new_price_eur": 3.06,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 18.69,
+      "price_per_kg_eur": 9.56,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 5.98,
+          "price_eur": 3.06,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 5.98,
+      "comparison_count": 1,
+      "product_id": "tmarket-кренвирш-ken-320гр-320g",
+      "weight_grams": 320,
+      "weight_raw": "320гр",
+      "name": "Кренвирш KEN 320гр",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/9427_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "protein",
+      "emoji": "🍗",
+      "health_score": 3,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 5.58,
+      "lowest_price": 4.79,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-05-16",
+          5.98,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          4.79,
+          5.98,
+          20
+        ],
+        [
+          "2026-11-10",
+          5.98,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "normal"
     },
     {
       "store": "Kaufland",
@@ -56988,15 +58340,15 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 6.04,
-      "new_price_eur": 3.09,
-      "old_price": 7.55,
-      "old_price_eur": 3.86,
+      "new_price": 6.32,
+      "new_price_eur": 3.23,
+      "old_price": 7.9,
+      "old_price_eur": 4.04,
       "discount_pct": 20,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 15.49,
-      "price_per_kg_eur": 7.92,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 15.8,
+      "price_per_kg_eur": 8.08,
       "source_type": "promo",
       "available_stores": [
         "T-Market"
@@ -57004,22 +58356,22 @@ const OFFERS_DATA = {
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 6.04,
-          "price_eur": 3.09,
-          "old_price": 7.55,
-          "old_price_eur": 3.86,
+          "price": 6.32,
+          "price_eur": 3.23,
+          "old_price": 7.9,
+          "old_price_eur": 4.04,
           "discount_pct": 20,
           "source_type": "promo"
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 6.04,
+      "best_price": 6.32,
       "comparison_count": 1,
-      "product_id": "tmarket-наденица-кен-лионска-вак-390-гр-390g",
-      "weight_grams": 390,
-      "weight_raw": "390 гр",
-      "name": "Наденица КЕН лионска вак.,390 гр",
-      "image": "https://tmarketonline.bg/cdn/img/products/43469/nadenica-ken-makedonska-vak390-gr-image_5f4cba222d45b.png?width=600&height=600&v=1777589908",
+      "product_id": "tmarket-наденица-леки-лионска-вак-400гр-400g",
+      "weight_grams": 400,
+      "weight_raw": "400гр",
+      "name": "Наденица ЛЕКИ лионска вак. 400гр",
+      "image": "https://tmarketonline.bg/cdn/img/products/39511/nadenica-leki-lionska-400gr-image_5ea2cdc4e9dce.png?width=600&height=600&v=1777589876",
       "category": "protein",
       "emoji": "🍗",
       "health_score": 3,
@@ -57031,229 +58383,37 @@ const OFFERS_DATA = {
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
-      "avg_price": 6.79,
-      "lowest_price": 6.04,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
-        [
-          "2026-05-16",
-          7.55,
-          null,
-          null
-        ],
-        [
-          "2026-11-09",
-          6.04,
-          7.55,
-          20
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 6.04,
-      "new_price_eur": 3.09,
-      "old_price": 7.55,
-      "old_price_eur": 3.86,
-      "discount_pct": 20,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 15.49,
-      "price_per_kg_eur": 7.92,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 6.04,
-          "price_eur": 3.09,
-          "old_price": 7.55,
-          "old_price_eur": 3.86,
-          "discount_pct": 20,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 6.04,
-      "comparison_count": 1,
-      "product_id": "tmarket-наденица-кен-македонска-вак-390-гр-390g",
-      "weight_grams": 390,
-      "weight_raw": "390 гр",
-      "name": "Наденица КЕН Македонска вак,390 гр",
-      "image": "https://tmarketonline.bg/cdn/img/products/43469/nadenica-ken-makedonska-vak390-gr-image_5f4cba222d45b.png?width=600&height=600&v=1777589908",
-      "category": "protein",
-      "emoji": "🍗",
-      "health_score": 3,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 6.79,
-      "lowest_price": 6.04,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
-        [
-          "2026-04-20",
-          7.55,
-          null,
-          null
-        ],
-        [
-          "2026-11-09",
-          6.04,
-          7.55,
-          20
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 6.08,
-      "new_price_eur": 3.11,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 20.27,
-      "price_per_kg_eur": 10.36,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 6.08,
-          "price_eur": 3.11,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 6.08,
-      "comparison_count": 1,
-      "product_id": "tmarket-салам-нашата-трапеза-шпек-бургас-300г-300g",
-      "weight_grams": 300,
-      "weight_raw": "300г",
-      "name": "Салам НАШАТА ТРАПЕЗА Шпек Бургас 300г",
-      "image": "https://tmarketonline.bg/cdn/img/products/40493/salam-majstor-cvetko-spek-burgas-300gr-image_5ebbd3dc35a4b.jpeg?width=600&height=600&v=1777589887",
-      "category": "protein",
-      "emoji": "🍗",
-      "health_score": 3,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 5.52,
-      "lowest_price": 4.5,
+      "avg_price": 6.99,
+      "lowest_price": 6.24,
       "lowest_price_date": "2026-10-22",
       "price_history": [
         [
           "2026-05-16",
-          5.98,
+          7.49,
           null,
           null
         ],
         [
           "2026-10-22",
-          4.5,
-          5.98,
-          25
+          6.24,
+          7.9,
+          21
         ],
         [
           "2026-11-09",
-          6.08,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "wait"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 6.75,
-      "new_price_eur": 3.45,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 22.5,
-      "price_per_kg_eur": 11.5,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 6.75,
-          "price_eur": 3.45,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 6.75,
-      "comparison_count": 1,
-      "product_id": "tmarket-кренвирш-леки-вак-3бр-300гр-300g",
-      "weight_grams": 300,
-      "weight_raw": "300гр",
-      "name": "Кренвирш ЛЕКИ вак 3бр, 300гр",
-      "image": "https://tmarketonline.bg/cdn/img/products/39528/krenvirs-leki-300gr-image_5ea46274bae6a.png?width=600&height=600&v=1777589887",
-      "category": "protein",
-      "emoji": "🍗",
-      "health_score": 3,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 6.62,
-      "lowest_price": 6.49,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          6.49,
+          7.9,
           null,
           null
         ],
         [
-          "2026-10-22",
-          6.75,
-          null,
-          null
+          "2026-11-10",
+          6.32,
+          7.9,
+          20
         ]
       ],
-      "price_seen_count": 2,
-      "price_signal": "normal"
+      "price_seen_count": 4,
+      "price_signal": "buy"
     },
     {
       "store": "T-Market",
@@ -57324,36 +58484,38 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 6.83,
-      "new_price_eur": 3.49,
-      "old_price": 8.08,
-      "old_price_eur": 4.13,
-      "discount_pct": 15,
-      "valid_from": "2026-10-20",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 6.83,
-      "price_per_kg_eur": 3.49,
-      "source_type": "promo",
+      "new_price": 6.98,
+      "new_price_eur": 3.57,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 23.27,
+      "price_per_kg_eur": 11.9,
+      "source_type": "assortment",
       "available_stores": [
         "T-Market"
       ],
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 6.83,
-          "price_eur": 3.49,
-          "old_price": 8.08,
-          "old_price_eur": 4.13,
-          "discount_pct": 15,
-          "source_type": "promo"
+          "price": 6.98,
+          "price_eur": 3.57,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 6.83,
+      "best_price": 6.98,
       "comparison_count": 1,
-      "product_id": "tmarket-кренвирш-вак-кг",
-      "name": "Кренвирш вак.кг",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/9427_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "tmarket-шунка-ken-300-гр-300g",
+      "weight_grams": 300,
+      "weight_raw": "300 гр",
+      "name": "Шунка KEN 300 гр.",
+      "image": "https://tmarketonline.bg/cdn/img/products/56139/sunka-svinska-slajs-1-kg-xxl-vak-kg-68685012e321c.jpeg?width=600&height=600&v=1777590017",
       "category": "protein",
       "emoji": "🍗",
       "health_score": 3,
@@ -57365,24 +58527,30 @@ const OFFERS_DATA = {
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
-      "avg_price": 6.34,
-      "lowest_price": 5.85,
-      "lowest_price_date": "2026-05-16",
+      "avg_price": 6.52,
+      "lowest_price": 5.59,
+      "lowest_price_date": "2026-11-09",
       "price_history": [
         [
           "2026-05-16",
-          5.85,
-          7.69,
-          24
+          6.98,
+          null,
+          null
         ],
         [
-          "2026-10-22",
-          6.83,
-          8.08,
-          15
+          "2026-11-09",
+          5.59,
+          6.98,
+          20
+        ],
+        [
+          "2026-11-10",
+          6.98,
+          null,
+          null
         ]
       ],
-      "price_seen_count": 2,
+      "price_seen_count": 3,
       "price_signal": "normal"
     },
     {
@@ -57502,144 +58670,6 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 1,
       "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 7.8,
-      "new_price_eur": 3.99,
-      "old_price": 9.76,
-      "old_price_eur": 4.99,
-      "discount_pct": 20,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 30.0,
-      "price_per_kg_eur": 15.34,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 7.8,
-          "price_eur": 3.99,
-          "old_price": 9.76,
-          "old_price_eur": 4.99,
-          "discount_pct": 20,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 7.8,
-      "comparison_count": 1,
-      "product_id": "tmarket-салам-маджаров-бургас-260гр-260g",
-      "weight_grams": 260,
-      "weight_raw": "260гр",
-      "name": "Салам МАДЖАРОВ Бургас, 260гр",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/236_3800203651187_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "protein",
-      "emoji": "🍗",
-      "health_score": 3,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 8.78,
-      "lowest_price": 7.8,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
-        [
-          "2026-05-16",
-          9.76,
-          null,
-          null
-        ],
-        [
-          "2026-11-09",
-          7.8,
-          9.76,
-          20
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 7.9,
-      "new_price_eur": 4.04,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 19.75,
-      "price_per_kg_eur": 10.1,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 7.9,
-          "price_eur": 4.04,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 7.9,
-      "comparison_count": 1,
-      "product_id": "tmarket-наденица-леки-лионска-вак-400гр-400g",
-      "weight_grams": 400,
-      "weight_raw": "400гр",
-      "name": "Наденица ЛЕКИ лионска вак. 400гр",
-      "image": "https://tmarketonline.bg/cdn/img/products/39511/nadenica-leki-lionska-400gr-image_5ea2cdc4e9dce.png?width=600&height=600&v=1777589876",
-      "category": "protein",
-      "emoji": "🍗",
-      "health_score": 3,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 7.21,
-      "lowest_price": 6.24,
-      "lowest_price_date": "2026-10-22",
-      "price_history": [
-        [
-          "2026-05-16",
-          7.49,
-          null,
-          null
-        ],
-        [
-          "2026-10-22",
-          6.24,
-          7.9,
-          21
-        ],
-        [
-          "2026-11-09",
-          7.9,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "wait"
     },
     {
       "store": "Kaufland",
@@ -57792,37 +58822,35 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 8.0,
-      "new_price_eur": 4.09,
-      "old_price": 9.99,
-      "old_price_eur": 5.11,
-      "discount_pct": 20,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 11.76,
-      "price_per_kg_eur": 6.01,
-      "source_type": "promo",
+      "new_price": 8.08,
+      "new_price_eur": 4.13,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 8.08,
+      "price_per_kg_eur": 4.13,
+      "source_type": "assortment",
       "available_stores": [
         "T-Market"
       ],
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 8.0,
-          "price_eur": 4.09,
-          "old_price": 9.99,
-          "old_price_eur": 5.11,
-          "discount_pct": 20,
-          "source_type": "promo"
+          "price": 8.08,
+          "price_eur": 4.13,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 8.0,
+      "best_price": 8.08,
       "comparison_count": 1,
-      "product_id": "tmarket-кренвирш-ken-680гр-680g",
-      "weight_grams": 680,
-      "weight_raw": "680гр",
-      "name": "Кренвирш KEN 680гр",
+      "product_id": "tmarket-кренвирш-вак-кг",
+      "name": "Кренвирш вак.кг",
       "image": "https://kaufland.media.schwarz/is/image/schwarz/9427_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "protein",
       "emoji": "🍗",
@@ -57835,164 +58863,30 @@ const OFFERS_DATA = {
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
-      "avg_price": 8.34,
-      "lowest_price": 7.02,
+      "avg_price": 6.92,
+      "lowest_price": 5.85,
       "lowest_price_date": "2026-05-16",
       "price_history": [
         [
           "2026-05-16",
-          7.02,
-          9.99,
-          30
+          5.85,
+          7.69,
+          24
         ],
         [
           "2026-10-22",
-          9.99,
-          null,
-          null
+          6.83,
+          8.08,
+          15
         ],
         [
-          "2026-11-09",
-          8.0,
-          9.99,
-          20
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "normal"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 8.29,
-      "new_price_eur": 4.24,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 8.29,
-      "price_per_kg_eur": 4.24,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 8.29,
-          "price_eur": 4.24,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 8.29,
-      "comparison_count": 1,
-      "product_id": "tmarket-кренвирши-колбасо-пилешки-нас-кг",
-      "name": "Кренвирши КОЛБАСО пилешки нас.кг",
-      "image": "https://tmarketonline.bg/cdn/img/products/48099/krenvirsi-kolbaso-pileski-nas-kg-image_61eed522c2676.jpeg?width=600&height=600&v=1777589949",
-      "category": "protein",
-      "emoji": "🍗",
-      "health_score": 3,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": true,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 7.6,
-      "lowest_price": 6.22,
-      "lowest_price_date": "2026-10-22",
-      "price_history": [
-        [
-          "2026-05-16",
-          8.29,
-          null,
-          null
-        ],
-        [
-          "2026-10-22",
-          6.22,
-          8.29,
-          25
-        ],
-        [
-          "2026-11-09",
-          8.29,
+          "2026-11-10",
+          8.08,
           null,
           null
         ]
       ],
       "price_seen_count": 3,
-      "price_signal": "wait"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 8.31,
-      "new_price_eur": 4.25,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 8.31,
-      "price_per_kg_eur": 4.25,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 8.31,
-          "price_eur": 4.25,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 8.31,
-      "comparison_count": 1,
-      "product_id": "tmarket-наденица-елит-мес-чубрикова-вак-кг-2",
-      "name": "*Наденица ЕЛИТ МЕС Чубрикова вак., кг",
-      "image": "https://tmarketonline.bg/cdn/img/products/48529/nadenica-elit-mes-cubrikova-vak--kg-6288b92eae816.jpeg?width=600&height=600&v=1777589953",
-      "category": "protein",
-      "emoji": "🍗",
-      "health_score": 3,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 7.43,
-      "lowest_price": 6.55,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          6.55,
-          8.0,
-          18
-        ],
-        [
-          "2026-10-22",
-          8.31,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 2,
       "price_signal": "wait"
     },
     {
@@ -58076,8 +58970,84 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 8.49,
-      "new_price_eur": 4.34,
+      "new_price": 8.51,
+      "new_price_eur": 4.35,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 8.51,
+      "price_per_kg_eur": 4.35,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 8.51,
+          "price_eur": 4.35,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 8.51,
+      "comparison_count": 1,
+      "product_id": "tmarket-кренвирши-колбасо-пилешки-нас-кг",
+      "name": "Кренвирши КОЛБАСО пилешки нас.кг",
+      "image": "https://tmarketonline.bg/cdn/img/products/48099/krenvirsi-kolbaso-pileski-nas-kg-image_61eed522c2676.jpeg?width=600&height=600&v=1777589949",
+      "category": "protein",
+      "emoji": "🍗",
+      "health_score": 3,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": true,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 7.83,
+      "lowest_price": 6.22,
+      "lowest_price_date": "2026-10-22",
+      "price_history": [
+        [
+          "2026-05-16",
+          8.29,
+          null,
+          null
+        ],
+        [
+          "2026-10-22",
+          6.22,
+          8.29,
+          25
+        ],
+        [
+          "2026-11-09",
+          8.29,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          8.51,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "wait"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 8.64,
+      "new_price_eur": 4.42,
       "old_price": null,
       "old_price_eur": null,
       "discount_pct": null,
@@ -58092,8 +59062,8 @@ const OFFERS_DATA = {
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 8.49,
-          "price_eur": 4.34,
+          "price": 8.64,
+          "price_eur": 4.42,
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
@@ -58101,7 +59071,7 @@ const OFFERS_DATA = {
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 8.49,
+      "best_price": 8.64,
       "comparison_count": 1,
       "product_id": "tmarket-наденица-колбасо-пушена-нас-кг",
       "name": "Наденица КОЛБАСО пушена нас. кг.",
@@ -58117,7 +59087,7 @@ const OFFERS_DATA = {
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
-      "avg_price": 7.78,
+      "avg_price": 8.0,
       "lowest_price": 6.36,
       "lowest_price_date": "2026-10-22",
       "price_history": [
@@ -58138,9 +59108,15 @@ const OFFERS_DATA = {
           8.49,
           null,
           null
+        ],
+        [
+          "2026-11-10",
+          8.64,
+          null,
+          null
         ]
       ],
-      "price_seen_count": 3,
+      "price_seen_count": 4,
       "price_signal": "wait"
     },
     {
@@ -58464,72 +59440,6 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 9.0,
-      "new_price_eur": 4.6,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 28.12,
-      "price_per_kg_eur": 14.38,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 9.0,
-          "price_eur": 4.6,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 9.0,
-      "comparison_count": 1,
-      "product_id": "tmarket-кренвирши-тандем-стара-планина-320г-320g",
-      "weight_grams": 320,
-      "weight_raw": "320г",
-      "name": "Кренвирши ТАНДЕМ Стара планина, 320г",
-      "image": "https://tmarketonline.bg/cdn/img/products/39694/krenvirsi-tandem-stara-planina-320-g-69c0f267e9ec5.jpeg?width=1920&height=1920&v=1777590033",
-      "category": "protein",
-      "emoji": "🍗",
-      "health_score": 3,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 7.88,
-      "lowest_price": 6.75,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          6.75,
-          9.0,
-          25
-        ],
-        [
-          "2026-10-22",
-          9.0,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "wait"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 9.19,
@@ -58602,6 +59512,76 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
+      "new_price": 9.23,
+      "new_price_eur": 4.72,
+      "old_price": 11.56,
+      "old_price_eur": 5.91,
+      "discount_pct": 20,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 9.23,
+      "price_per_kg_eur": 4.72,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 9.23,
+          "price_eur": 4.72,
+          "old_price": 11.56,
+          "old_price_eur": 5.91,
+          "discount_pct": 20,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 9.23,
+      "comparison_count": 1,
+      "product_id": "tmarket-кренвирши-народен-нас-кг",
+      "name": "Кренвирши НАРОДЕН нас.кг",
+      "image": "https://tmarketonline.bg/cdn/img/products/46644/krenvirsi-naroden-nas-kg-image_604b4d2c53ea7.jpeg?width=600&height=600&v=1777589936",
+      "category": "protein",
+      "emoji": "🍗",
+      "health_score": 3,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 10.59,
+      "lowest_price": 9.23,
+      "lowest_price_date": "2026-11-10",
+      "price_history": [
+        [
+          "2026-05-16",
+          10.99,
+          null,
+          null
+        ],
+        [
+          "2026-10-22",
+          11.56,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          9.23,
+          11.56,
+          20
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
       "new_price": 9.29,
       "new_price_eur": 4.75,
       "old_price": null,
@@ -58661,6 +59641,156 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 2,
+      "price_signal": "normal"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 9.7,
+      "new_price_eur": 4.96,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 12.12,
+      "price_per_kg_eur": 6.2,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 9.7,
+          "price_eur": 4.96,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 9.7,
+      "comparison_count": 1,
+      "product_id": "tmarket-шунка-колбасо-свинска-800г-800g",
+      "weight_grams": 800,
+      "weight_raw": "800г",
+      "name": "Шунка КОЛБАСО свинска 800г",
+      "image": "https://tmarketonline.bg/cdn/img/products/56139/sunka-svinska-slajs-1-kg-xxl-vak-kg-68685012e321c.jpeg?width=600&height=600&v=1777590017",
+      "category": "protein",
+      "emoji": "🍗",
+      "health_score": 3,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 7.57,
+      "lowest_price": 5.85,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-05-16",
+          7.61,
+          9.49,
+          20
+        ],
+        [
+          "2026-10-22",
+          7.12,
+          9.49,
+          25
+        ],
+        [
+          "2026-11-09",
+          5.85,
+          9.49,
+          38
+        ],
+        [
+          "2026-11-10",
+          9.7,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "wait"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 9.76,
+      "new_price_eur": 4.99,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 37.54,
+      "price_per_kg_eur": 19.19,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 9.76,
+          "price_eur": 4.99,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 9.76,
+      "comparison_count": 1,
+      "product_id": "tmarket-салам-маджаров-бургас-260гр-260g",
+      "weight_grams": 260,
+      "weight_raw": "260гр",
+      "name": "Салам МАДЖАРОВ Бургас, 260гр",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/236_3800203651187_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "protein",
+      "emoji": "🍗",
+      "health_score": 3,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 9.11,
+      "lowest_price": 7.8,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-05-16",
+          9.76,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          7.8,
+          9.76,
+          20
+        ],
+        [
+          "2026-11-10",
+          9.76,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
       "price_signal": "normal"
     },
     {
@@ -58736,36 +59866,38 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 10.03,
-      "new_price_eur": 5.13,
-      "old_price": 12.56,
-      "old_price_eur": 6.42,
-      "discount_pct": 20,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 10.03,
-      "price_per_kg_eur": 5.13,
-      "source_type": "promo",
+      "new_price": 9.99,
+      "new_price_eur": 5.11,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 14.69,
+      "price_per_kg_eur": 7.51,
+      "source_type": "assortment",
       "available_stores": [
         "T-Market"
       ],
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 10.03,
-          "price_eur": 5.13,
-          "old_price": 12.56,
-          "old_price_eur": 6.42,
-          "discount_pct": 20,
-          "source_type": "promo"
+          "price": 9.99,
+          "price_eur": 5.11,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 10.03,
+      "best_price": 9.99,
       "comparison_count": 1,
-      "product_id": "tmarket-наденица-оренда-македонска-нас-кг",
-      "name": "Наденица ОРЕНДА македонска нас.кг",
-      "image": "https://tmarketonline.bg/cdn/img/products/46654/nadenica-orenda-makedonska-nas-kg-image_604b60f5308a6.jpeg?width=600&height=600&v=1777589935",
+      "product_id": "tmarket-кренвирш-ken-680гр-680g",
+      "weight_grams": 680,
+      "weight_raw": "680гр",
+      "name": "Кренвирш KEN 680гр",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/9427_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "protein",
       "emoji": "🍗",
       "health_score": 3,
@@ -58777,44 +59909,50 @@ const OFFERS_DATA = {
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
-      "avg_price": 11.17,
-      "lowest_price": 10.03,
-      "lowest_price_date": "2026-11-09",
+      "avg_price": 8.75,
+      "lowest_price": 7.02,
+      "lowest_price_date": "2026-05-16",
       "price_history": [
         [
           "2026-05-16",
-          10.93,
-          12.56,
-          13
+          7.02,
+          9.99,
+          30
         ],
         [
           "2026-10-22",
-          12.56,
+          9.99,
           null,
           null
         ],
         [
           "2026-11-09",
-          10.03,
-          12.56,
+          8.0,
+          9.99,
           20
+        ],
+        [
+          "2026-11-10",
+          9.99,
+          null,
+          null
         ]
       ],
-      "price_seen_count": 3,
-      "price_signal": "buy"
+      "price_seen_count": 4,
+      "price_signal": "wait"
     },
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 10.48,
-      "new_price_eur": 5.36,
+      "new_price": 10.74,
+      "new_price_eur": 5.49,
       "old_price": null,
       "old_price_eur": null,
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": 10.48,
-      "price_per_kg_eur": 5.36,
+      "price_per_kg": 10.74,
+      "price_per_kg_eur": 5.49,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -58822,8 +59960,8 @@ const OFFERS_DATA = {
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 10.48,
-          "price_eur": 5.36,
+          "price": 10.74,
+          "price_eur": 5.49,
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
@@ -58831,7 +59969,7 @@ const OFFERS_DATA = {
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 10.48,
+      "best_price": 10.74,
       "comparison_count": 1,
       "product_id": "tmarket-кренвирш-колбасо-свински-нас-кг",
       "name": "Кренвирш КОЛБАСО свински нас.кг",
@@ -58847,7 +59985,7 @@ const OFFERS_DATA = {
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
-      "avg_price": 9.61,
+      "avg_price": 9.89,
       "lowest_price": 7.86,
       "lowest_price_date": "2026-10-22",
       "price_history": [
@@ -58868,43 +60006,49 @@ const OFFERS_DATA = {
           10.48,
           null,
           null
+        ],
+        [
+          "2026-11-10",
+          10.74,
+          null,
+          null
         ]
       ],
-      "price_seen_count": 3,
+      "price_seen_count": 4,
       "price_signal": "wait"
     },
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 10.48,
-      "new_price_eur": 5.36,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 10.48,
-      "price_per_kg_eur": 5.36,
-      "source_type": "assortment",
+      "new_price": 10.93,
+      "new_price_eur": 5.59,
+      "old_price": 16.19,
+      "old_price_eur": 8.28,
+      "discount_pct": 32,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 10.93,
+      "price_per_kg_eur": 5.59,
+      "source_type": "promo",
       "available_stores": [
         "T-Market"
       ],
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 10.48,
-          "price_eur": 5.36,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
+          "price": 10.93,
+          "price_eur": 5.59,
+          "old_price": 16.19,
+          "old_price_eur": 8.28,
+          "discount_pct": 32,
+          "source_type": "promo"
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 10.48,
+      "best_price": 10.93,
       "comparison_count": 1,
-      "product_id": "tmarket-бяло-саламурено-сирене-балканджииско-кг",
-      "name": "Бяло саламурено сирене БАЛКАНДЖИЙСКО, кг",
+      "product_id": "tmarket-бяло-саламурено-сирене-булгарче-кг",
+      "name": "Бяло саламурено сирене БУЛГАРЧЕ,кг",
       "image": "https://tmarketonline.bg/cdn/img/products/55453/balo-salamureno-sirene-medkovec-kg-67c62bf469ee7.jpeg?width=600&height=600&v=1777590025",
       "category": "protein",
       "emoji": "🍗",
@@ -58917,18 +60061,30 @@ const OFFERS_DATA = {
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
-      "avg_price": 10.48,
-      "lowest_price": 10.48,
+      "avg_price": 12.68,
+      "lowest_price": 10.93,
       "lowest_price_date": "2026-05-16",
       "price_history": [
         [
           "2026-05-16",
-          10.48,
+          10.93,
+          16.19,
+          32
+        ],
+        [
+          "2026-11-09",
+          16.19,
           null,
           null
+        ],
+        [
+          "2026-11-10",
+          10.93,
+          16.19,
+          32
         ]
       ],
-      "price_seen_count": 1,
+      "price_seen_count": 3,
       "price_signal": "buy"
     },
     {
@@ -58998,350 +60154,6 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 11.5,
-      "new_price_eur": 5.88,
-      "old_price": 14.39,
-      "old_price_eur": 7.36,
-      "discount_pct": 20,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 11.5,
-      "price_per_kg_eur": 5.88,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 11.5,
-          "price_eur": 5.88,
-          "old_price": 14.39,
-          "old_price_eur": 7.36,
-          "discount_pct": 20,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 11.5,
-      "comparison_count": 1,
-      "product_id": "tmarket-кренвирши-ken-нас-кг",
-      "name": "Кренвирши KEN нас.кг",
-      "image": "https://tmarketonline.bg/cdn/img/products/46648/krenvirsi-ken-641ad40e15b50.jpeg?width=600&height=600&v=1777589972",
-      "category": "protein",
-      "emoji": "🍗",
-      "health_score": 3,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 12.01,
-      "lowest_price": 10.15,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          10.15,
-          14.39,
-          29
-        ],
-        [
-          "2026-10-22",
-          14.39,
-          null,
-          null
-        ],
-        [
-          "2026-11-09",
-          11.5,
-          14.39,
-          20
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "normal"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 11.56,
-      "new_price_eur": 5.91,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 11.56,
-      "price_per_kg_eur": 5.91,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 11.56,
-          "price_eur": 5.91,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 11.56,
-      "comparison_count": 1,
-      "product_id": "tmarket-кренвирши-народен-нас-кг",
-      "name": "Кренвирши НАРОДЕН нас.кг",
-      "image": "https://tmarketonline.bg/cdn/img/products/46644/krenvirsi-naroden-nas-kg-image_604b4d2c53ea7.jpeg?width=600&height=600&v=1777589936",
-      "category": "protein",
-      "emoji": "🍗",
-      "health_score": 3,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 11.28,
-      "lowest_price": 10.99,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          10.99,
-          null,
-          null
-        ],
-        [
-          "2026-10-22",
-          11.56,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "normal"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 11.6,
-      "new_price_eur": 5.93,
-      "old_price": 13.65,
-      "old_price_eur": 6.98,
-      "discount_pct": 15,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 11.6,
-      "price_per_kg_eur": 5.93,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 11.6,
-          "price_eur": 5.93,
-          "old_price": 13.65,
-          "old_price_eur": 6.98,
-          "discount_pct": 15,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 11.6,
-      "comparison_count": 1,
-      "product_id": "tmarket-бяло-салам-сирене-соколово-обезмасл-кг",
-      "name": "Бяло салам. сирене СОКОЛОВО,обезмасл,кг",
-      "image": "https://tmarketonline.bg/cdn/img/products/55453/balo-salamureno-sirene-medkovec-kg-67c62bf469ee7.jpeg?width=600&height=600&v=1777590025",
-      "category": "protein",
-      "emoji": "🍗",
-      "health_score": 3,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 12.62,
-      "lowest_price": 11.6,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
-        [
-          "2026-05-16",
-          12.6,
-          null,
-          null
-        ],
-        [
-          "2026-10-22",
-          13.65,
-          null,
-          null
-        ],
-        [
-          "2026-11-09",
-          11.6,
-          13.65,
-          15
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 11.72,
-      "new_price_eur": 5.99,
-      "old_price": 17.43,
-      "old_price_eur": 8.91,
-      "discount_pct": 33,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 11.72,
-      "price_per_kg_eur": 5.99,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 11.72,
-          "price_eur": 5.99,
-          "old_price": 17.43,
-          "old_price_eur": 8.91,
-          "discount_pct": 33,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 11.72,
-      "comparison_count": 1,
-      "product_id": "tmarket-наденица-леки-македонска-нас-кг",
-      "name": "Наденица ЛЕКИ македонска нас.кг",
-      "image": "https://tmarketonline.bg/cdn/img/products/46647/makedonska-nadenica-leki-68815aad961ff.png?width=600&height=600&v=1777590025",
-      "category": "protein",
-      "emoji": "🍗",
-      "health_score": 3,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 15.25,
-      "lowest_price": 11.72,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
-        [
-          "2026-05-16",
-          16.59,
-          null,
-          null
-        ],
-        [
-          "2026-10-22",
-          17.43,
-          null,
-          null
-        ],
-        [
-          "2026-11-09",
-          11.72,
-          17.43,
-          33
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 11.72,
-      "new_price_eur": 5.99,
-      "old_price": 17.43,
-      "old_price_eur": 8.91,
-      "discount_pct": 33,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 11.72,
-      "price_per_kg_eur": 5.99,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 11.72,
-          "price_eur": 5.99,
-          "old_price": 17.43,
-          "old_price_eur": 8.91,
-          "discount_pct": 33,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 11.72,
-      "comparison_count": 1,
-      "product_id": "tmarket-наденица-леки-пак-кг",
-      "name": "*Наденица Леки пак.кг",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00109076_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "protein",
-      "emoji": "🍗",
-      "health_score": 3,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 15.25,
-      "lowest_price": 11.72,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
-        [
-          "2026-05-16",
-          16.59,
-          null,
-          null
-        ],
-        [
-          "2026-10-22",
-          17.43,
-          null,
-          null
-        ],
-        [
-          "2026-11-09",
-          11.72,
-          17.43,
-          33
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
       "new_price": 11.99,
       "new_price_eur": 6.13,
       "old_price": null,
@@ -59400,415 +60212,15 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 12.3,
-      "new_price_eur": 6.29,
-      "old_price": 16.0,
-      "old_price_eur": 8.18,
-      "discount_pct": 23,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 17.57,
-      "price_per_kg_eur": 8.98,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 12.3,
-          "price_eur": 6.29,
-          "old_price": 16.0,
-          "old_price_eur": 8.18,
-          "discount_pct": 23,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 12.3,
-      "comparison_count": 1,
-      "product_id": "tmarket-салам-kostelec-highland-700гр-700g",
-      "weight_grams": 700,
-      "weight_raw": "700гр",
-      "name": "Салам KOSTELEC Highland 700гр",
-      "image": "https://tmarketonline.bg/cdn/img/products/47743/salam-kostelec-highland-700gr-image_6166844b0a377.jpeg?width=600&height=600&v=1777589947",
-      "category": "protein",
-      "emoji": "🍗",
-      "health_score": 3,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 14.08,
-      "lowest_price": 12.03,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-04-20",
-          16.0,
-          null,
-          null
-        ],
-        [
-          "2026-05-16",
-          12.03,
-          16.0,
-          25
-        ],
-        [
-          "2026-10-22",
-          16.0,
-          null,
-          null
-        ],
-        [
-          "2026-11-09",
-          12.3,
-          16.0,
-          23
-        ]
-      ],
-      "price_seen_count": 4,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 12.79,
-      "new_price_eur": 6.54,
-      "old_price": 16.0,
-      "old_price_eur": 8.18,
-      "discount_pct": 20,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 12.79,
-      "price_per_kg_eur": 6.54,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 12.79,
-          "price_eur": 6.54,
-          "old_price": 16.0,
-          "old_price_eur": 8.18,
-          "discount_pct": 20,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 12.79,
-      "comparison_count": 1,
-      "product_id": "tmarket-наденица-ken-македонска-нас-кг",
-      "name": "Наденица KEN македонска нас.кг",
-      "image": "https://tmarketonline.bg/cdn/img/products/47770/nadenica-ken-makedonska-br-image_61924b20a12ce.jpeg?width=1920&height=1920&v=1777589947",
-      "category": "protein",
-      "emoji": "🍗",
-      "health_score": 3,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 14.39,
-      "lowest_price": 12.79,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
-        [
-          "2026-05-16",
-          16.0,
-          null,
-          null
-        ],
-        [
-          "2026-11-09",
-          12.79,
-          16.0,
-          20
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 12.79,
-      "new_price_eur": 6.54,
-      "old_price": 16.0,
-      "old_price_eur": 8.18,
-      "discount_pct": 20,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 12.79,
-      "price_per_kg_eur": 6.54,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 12.79,
-          "price_eur": 6.54,
-          "old_price": 16.0,
-          "old_price_eur": 8.18,
-          "discount_pct": 20,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 12.79,
-      "comparison_count": 1,
-      "product_id": "tmarket-наденица-ken-лионска-нас-кг",
-      "name": "Наденица KEN лионска нас.кг",
-      "image": "https://tmarketonline.bg/cdn/img/products/46642/nadenica-ken-lionska-nas-kg-image_604b4d2a13841.jpeg?width=600&height=600&v=1777589936",
-      "category": "protein",
-      "emoji": "🍗",
-      "health_score": 3,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 14.39,
-      "lowest_price": 12.79,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
-        [
-          "2026-05-16",
-          16.0,
-          null,
-          null
-        ],
-        [
-          "2026-11-09",
-          12.79,
-          16.0,
-          20
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 12.79,
-      "new_price_eur": 6.54,
-      "old_price": 16.0,
-      "old_price_eur": 8.18,
-      "discount_pct": 20,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 12.79,
-      "price_per_kg_eur": 6.54,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 12.79,
-          "price_eur": 6.54,
-          "old_price": 16.0,
-          "old_price_eur": 8.18,
-          "discount_pct": 20,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 12.79,
-      "comparison_count": 1,
-      "product_id": "tmarket-македонска-наденица-кен-пак-кг",
-      "name": "Македонска наденица КЕН пак.кг",
-      "image": "https://tmarketonline.bg/cdn/img/products/55953/makedonska-nadenica-ken-pak-kg-687645b4c4823.jpeg?width=1920&height=1920&v=1777590020",
-      "category": "protein",
-      "emoji": "🍗",
-      "health_score": 3,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 14.39,
-      "lowest_price": 12.79,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
-        [
-          "2026-05-16",
-          16.0,
-          null,
-          null
-        ],
-        [
-          "2026-11-09",
-          12.79,
-          16.0,
-          20
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 12.79,
-      "new_price_eur": 6.54,
-      "old_price": 16.0,
-      "old_price_eur": 8.18,
-      "discount_pct": 20,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 12.79,
-      "price_per_kg_eur": 6.54,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 12.79,
-          "price_eur": 6.54,
-          "old_price": 16.0,
-          "old_price_eur": 8.18,
-          "discount_pct": 20,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 12.79,
-      "comparison_count": 1,
-      "product_id": "tmarket-лионска-наденица-кен-пак-кг",
-      "name": "Лионска наденица КЕН пак.кг",
-      "image": "https://tmarketonline.bg/cdn/img/products/55952/lionska-nadenica-ken-pak-kg-6876462caf2c9.jpeg?width=1920&height=1920&v=1777590020",
-      "category": "protein",
-      "emoji": "🍗",
-      "health_score": 3,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 14.39,
-      "lowest_price": 12.79,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
-        [
-          "2026-05-16",
-          16.0,
-          null,
-          null
-        ],
-        [
-          "2026-11-09",
-          12.79,
-          16.0,
-          20
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 13.28,
-      "new_price_eur": 6.79,
-      "old_price": 16.0,
-      "old_price_eur": 8.18,
-      "discount_pct": 17,
-      "valid_from": "2026-10-20",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 26.56,
-      "price_per_kg_eur": 13.58,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 13.28,
-          "price_eur": 6.79,
-          "old_price": 16.0,
-          "old_price_eur": 8.18,
-          "discount_pct": 17,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 13.28,
-      "comparison_count": 1,
-      "product_id": "tmarket-салам-kostelec-ловджииски-500гр-500g",
-      "weight_grams": 500,
-      "weight_raw": "500гр",
-      "name": "Салам KOSTELEC Ловджийски 500гр",
-      "image": "https://tmarketonline.bg/cdn/img/products/47291/salam-kostelec-lovdzijski-500gr-image_60d979e3dc786.jpeg?width=600&height=600&v=1777589943",
-      "category": "protein",
-      "emoji": "🍗",
-      "health_score": 3,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 14.64,
-      "lowest_price": 13.28,
-      "lowest_price_date": "2026-10-22",
-      "price_history": [
-        [
-          "2026-04-20",
-          16.0,
-          null,
-          null
-        ],
-        [
-          "2026-10-22",
-          13.28,
-          16.0,
-          17
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 13.46,
-      "new_price_eur": 6.88,
-      "old_price": 17.0,
-      "old_price_eur": 8.69,
+      "new_price": 12.11,
+      "new_price_eur": 6.19,
+      "old_price": 15.29,
+      "old_price_eur": 7.82,
       "discount_pct": 21,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 13.46,
-      "price_per_kg_eur": 6.88,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 12.11,
+      "price_per_kg_eur": 6.19,
       "source_type": "promo",
       "available_stores": [
         "T-Market"
@@ -59816,20 +60228,20 @@ const OFFERS_DATA = {
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 13.46,
-          "price_eur": 6.88,
-          "old_price": 17.0,
-          "old_price_eur": 8.69,
+          "price": 12.11,
+          "price_eur": 6.19,
+          "old_price": 15.29,
+          "old_price_eur": 7.82,
           "discount_pct": 21,
           "source_type": "promo"
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 13.46,
+      "best_price": 12.11,
       "comparison_count": 1,
-      "product_id": "tmarket-бяло-саламурено-сирене-саяна-кг",
-      "name": "Бяло саламурено сирене САЯНА, кг",
-      "image": "https://tmarketonline.bg/cdn/img/products/55453/balo-salamureno-sirene-medkovec-kg-67c62bf469ee7.jpeg?width=600&height=600&v=1777590025",
+      "product_id": "tmarket-бяло-саламурено-сирене-дон-чепеларе-кг",
+      "name": "Бяло саламурено сирене ДОН ЧЕПЕЛАРЕ, кг",
+      "image": "https://pazarko.bg/api/brochure-images/TMarketBrochure_бяло_саламурено_сирене_дон_чепеларе_кг.jpg",
       "category": "protein",
       "emoji": "🍗",
       "health_score": 3,
@@ -59841,20 +60253,20 @@ const OFFERS_DATA = {
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
-      "avg_price": 14.64,
-      "lowest_price": 13.46,
-      "lowest_price_date": "2026-11-09",
+      "avg_price": 13.7,
+      "lowest_price": 12.11,
+      "lowest_price_date": "2026-11-10",
       "price_history": [
         [
           "2026-05-16",
-          15.82,
+          15.29,
           null,
           null
         ],
         [
-          "2026-11-09",
-          13.46,
-          17.0,
+          "2026-11-10",
+          12.11,
+          15.29,
           21
         ]
       ],
@@ -59864,15 +60276,85 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 13.83,
-      "new_price_eur": 7.07,
+      "new_price": 12.3,
+      "new_price_eur": 6.29,
+      "old_price": 17.99,
+      "old_price_eur": 9.2,
+      "discount_pct": 32,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 12.3,
+      "price_per_kg_eur": 6.29,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 12.3,
+          "price_eur": 6.29,
+          "old_price": 17.99,
+          "old_price_eur": 9.2,
+          "discount_pct": 32,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 12.3,
+      "comparison_count": 1,
+      "product_id": "tmarket-наденица-делик-житница-макед-нас-вак-кг",
+      "name": "Наденица ДЕЛИК. ЖИТНИЦА Макед.нас.вак.кг",
+      "image": "https://tmarketonline.bg/cdn/img/products/48620/krenvirsi-delikates-zitnica-nas-kg-62ac47a012c4e.png?width=1920&height=1920&v=1777589954",
+      "category": "protein",
+      "emoji": "🍗",
+      "health_score": 3,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 14.43,
+      "lowest_price": 12.3,
+      "lowest_price_date": "2026-11-10",
+      "price_history": [
+        [
+          "2026-05-16",
+          13.01,
+          17.99,
+          28
+        ],
+        [
+          "2026-10-22",
+          17.99,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          12.3,
+          17.99,
+          32
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 12.56,
+      "new_price_eur": 6.42,
       "old_price": null,
       "old_price_eur": null,
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": 13.83,
-      "price_per_kg_eur": 7.07,
+      "price_per_kg": 12.56,
+      "price_per_kg_eur": 6.42,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -59880,8 +60362,8 @@ const OFFERS_DATA = {
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 13.83,
-          "price_eur": 7.07,
+          "price": 12.56,
+          "price_eur": 6.42,
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
@@ -59889,10 +60371,156 @@ const OFFERS_DATA = {
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 13.83,
+      "best_price": 12.56,
       "comparison_count": 1,
-      "product_id": "tmarket-бяло-саламурено-сирене-ситово-кг",
-      "name": "Бяло саламурено сирене СИТОВО, кг",
+      "product_id": "tmarket-наденица-оренда-македонска-нас-кг",
+      "name": "Наденица ОРЕНДА македонска нас.кг",
+      "image": "https://tmarketonline.bg/cdn/img/products/46654/nadenica-orenda-makedonska-nas-kg-image_604b60f5308a6.jpeg?width=600&height=600&v=1777589935",
+      "category": "protein",
+      "emoji": "🍗",
+      "health_score": 3,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 11.52,
+      "lowest_price": 10.03,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-05-16",
+          10.93,
+          12.56,
+          13
+        ],
+        [
+          "2026-10-22",
+          12.56,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          10.03,
+          12.56,
+          20
+        ],
+        [
+          "2026-11-10",
+          12.56,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "wait"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 13.2,
+      "new_price_eur": 6.75,
+      "old_price": 16.51,
+      "old_price_eur": 8.44,
+      "discount_pct": 20,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 13.2,
+      "price_per_kg_eur": 6.75,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 13.2,
+          "price_eur": 6.75,
+          "old_price": 16.51,
+          "old_price_eur": 8.44,
+          "discount_pct": 20,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 13.2,
+      "comparison_count": 1,
+      "product_id": "tmarket-кренвирши-леки-нас-кг",
+      "name": "Кренвирши ЛЕКИ нас.кг",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/01000182_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "protein",
+      "emoji": "🍗",
+      "health_score": 3,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 15.24,
+      "lowest_price": 13.2,
+      "lowest_price_date": "2026-11-10",
+      "price_history": [
+        [
+          "2026-05-16",
+          16.0,
+          null,
+          null
+        ],
+        [
+          "2026-10-22",
+          16.51,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          13.2,
+          16.51,
+          20
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 13.65,
+      "new_price_eur": 6.98,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 13.65,
+      "price_per_kg_eur": 6.98,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 13.65,
+          "price_eur": 6.98,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 13.65,
+      "comparison_count": 1,
+      "product_id": "tmarket-бяло-салам-сирене-соколово-обезмасл-кг",
+      "name": "Бяло салам. сирене СОКОЛОВО,обезмасл,кг",
       "image": "https://tmarketonline.bg/cdn/img/products/55453/balo-salamureno-sirene-medkovec-kg-67c62bf469ee7.jpeg?width=600&height=600&v=1777590025",
       "category": "protein",
       "emoji": "🍗",
@@ -59905,19 +60533,113 @@ const OFFERS_DATA = {
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
-      "avg_price": 13.83,
-      "lowest_price": 13.83,
-      "lowest_price_date": "2026-05-16",
+      "avg_price": 12.88,
+      "lowest_price": 11.6,
+      "lowest_price_date": "2026-11-09",
       "price_history": [
         [
           "2026-05-16",
-          13.83,
+          12.6,
+          null,
+          null
+        ],
+        [
+          "2026-10-22",
+          13.65,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          11.6,
+          13.65,
+          15
+        ],
+        [
+          "2026-11-10",
+          13.65,
           null,
           null
         ]
       ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
+      "price_seen_count": 4,
+      "price_signal": "normal"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 13.93,
+      "new_price_eur": 7.12,
+      "old_price": 17.43,
+      "old_price_eur": 8.91,
+      "discount_pct": 20,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 13.93,
+      "price_per_kg_eur": 7.12,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 13.93,
+          "price_eur": 7.12,
+          "old_price": 17.43,
+          "old_price_eur": 8.91,
+          "discount_pct": 20,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 13.93,
+      "comparison_count": 1,
+      "product_id": "tmarket-наденица-леки-македонска-нас-кг",
+      "name": "Наденица ЛЕКИ македонска нас.кг",
+      "image": "https://tmarketonline.bg/cdn/img/products/46647/makedonska-nadenica-leki-68815aad961ff.png?width=600&height=600&v=1777590025",
+      "category": "protein",
+      "emoji": "🍗",
+      "health_score": 3,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 14.92,
+      "lowest_price": 11.72,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-05-16",
+          16.59,
+          null,
+          null
+        ],
+        [
+          "2026-10-22",
+          17.43,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          11.72,
+          17.43,
+          33
+        ],
+        [
+          "2026-11-10",
+          13.93,
+          17.43,
+          20
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "normal"
     },
     {
       "store": "T-Market",
@@ -59980,15 +60702,15 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 15.29,
-      "new_price_eur": 7.82,
+      "new_price": 14.39,
+      "new_price_eur": 7.36,
       "old_price": null,
       "old_price_eur": null,
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": 15.29,
-      "price_per_kg_eur": 7.82,
+      "price_per_kg": 14.39,
+      "price_per_kg_eur": 7.36,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -59996,8 +60718,8 @@ const OFFERS_DATA = {
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 15.29,
-          "price_eur": 7.82,
+          "price": 14.39,
+          "price_eur": 7.36,
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
@@ -60005,11 +60727,11 @@ const OFFERS_DATA = {
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 15.29,
+      "best_price": 14.39,
       "comparison_count": 1,
-      "product_id": "tmarket-бяло-саламурено-сирене-дон-чепеларе-кг",
-      "name": "Бяло саламурено сирене ДОН ЧЕПЕЛАРЕ, кг",
-      "image": "https://pazarko.bg/api/brochure-images/TMarketBrochure_бяло_саламурено_сирене_дон_чепеларе_кг.jpg",
+      "product_id": "tmarket-кренвирши-ken-нас-кг",
+      "name": "Кренвирши KEN нас.кг",
+      "image": "https://tmarketonline.bg/cdn/img/products/46648/krenvirsi-ken-641ad40e15b50.jpeg?width=600&height=600&v=1777589972",
       "category": "protein",
       "emoji": "🍗",
       "health_score": 3,
@@ -60021,19 +60743,37 @@ const OFFERS_DATA = {
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
-      "avg_price": 15.29,
-      "lowest_price": 15.29,
+      "avg_price": 12.61,
+      "lowest_price": 10.15,
       "lowest_price_date": "2026-05-16",
       "price_history": [
         [
           "2026-05-16",
-          15.29,
+          10.15,
+          14.39,
+          29
+        ],
+        [
+          "2026-10-22",
+          14.39,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          11.5,
+          14.39,
+          20
+        ],
+        [
+          "2026-11-10",
+          14.39,
           null,
           null
         ]
       ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
+      "price_seen_count": 4,
+      "price_signal": "wait"
     },
     {
       "store": "T-Market",
@@ -60096,15 +60836,15 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 16.19,
-      "new_price_eur": 8.28,
+      "new_price": 16.0,
+      "new_price_eur": 8.18,
       "old_price": null,
       "old_price_eur": null,
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": 16.19,
-      "price_per_kg_eur": 8.28,
+      "price_per_kg": 22.86,
+      "price_per_kg_eur": 11.69,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -60112,8 +60852,8 @@ const OFFERS_DATA = {
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 16.19,
-          "price_eur": 8.28,
+          "price": 16.0,
+          "price_eur": 8.18,
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
@@ -60121,11 +60861,13 @@ const OFFERS_DATA = {
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 16.19,
+      "best_price": 16.0,
       "comparison_count": 1,
-      "product_id": "tmarket-бяло-саламурено-сирене-булгарче-кг",
-      "name": "Бяло саламурено сирене БУЛГАРЧЕ,кг",
-      "image": "https://tmarketonline.bg/cdn/img/products/55453/balo-salamureno-sirene-medkovec-kg-67c62bf469ee7.jpeg?width=600&height=600&v=1777590025",
+      "product_id": "tmarket-салам-kostelec-highland-700гр-700g",
+      "weight_grams": 700,
+      "weight_raw": "700гр",
+      "name": "Салам KOSTELEC Highland 700гр",
+      "image": "https://tmarketonline.bg/cdn/img/products/47743/salam-kostelec-highland-700gr-image_6166844b0a377.jpeg?width=600&height=600&v=1777589947",
       "category": "protein",
       "emoji": "🍗",
       "health_score": 3,
@@ -60137,38 +60879,56 @@ const OFFERS_DATA = {
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
-      "avg_price": 13.56,
-      "lowest_price": 10.93,
+      "avg_price": 14.47,
+      "lowest_price": 12.03,
       "lowest_price_date": "2026-05-16",
       "price_history": [
         [
+          "2026-04-20",
+          16.0,
+          null,
+          null
+        ],
+        [
           "2026-05-16",
-          10.93,
-          16.19,
-          32
+          12.03,
+          16.0,
+          25
+        ],
+        [
+          "2026-10-22",
+          16.0,
+          null,
+          null
         ],
         [
           "2026-11-09",
-          16.19,
+          12.3,
+          16.0,
+          23
+        ],
+        [
+          "2026-11-10",
+          16.0,
           null,
           null
         ]
       ],
-      "price_seen_count": 2,
+      "price_seen_count": 5,
       "price_signal": "wait"
     },
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 16.51,
-      "new_price_eur": 8.44,
+      "new_price": 16.0,
+      "new_price_eur": 8.18,
       "old_price": null,
       "old_price_eur": null,
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": 16.51,
-      "price_per_kg_eur": 8.44,
+      "price_per_kg": 16.0,
+      "price_per_kg_eur": 8.18,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -60176,8 +60936,8 @@ const OFFERS_DATA = {
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 16.51,
-          "price_eur": 8.44,
+          "price": 16.0,
+          "price_eur": 8.18,
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
@@ -60185,11 +60945,11 @@ const OFFERS_DATA = {
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 16.51,
+      "best_price": 16.0,
       "comparison_count": 1,
-      "product_id": "tmarket-кренвирши-леки-нас-кг",
-      "name": "Кренвирши ЛЕКИ нас.кг",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/01000182_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "tmarket-наденица-ken-македонска-нас-кг",
+      "name": "Наденица KEN македонска нас.кг",
+      "image": "https://tmarketonline.bg/cdn/img/products/47770/nadenica-ken-makedonska-br-image_61924b20a12ce.jpeg?width=1920&height=1920&v=1777589947",
       "category": "protein",
       "emoji": "🍗",
       "health_score": 3,
@@ -60201,9 +60961,9 @@ const OFFERS_DATA = {
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
-      "avg_price": 16.26,
-      "lowest_price": 16.0,
-      "lowest_price_date": "2026-05-16",
+      "avg_price": 14.93,
+      "lowest_price": 12.79,
+      "lowest_price_date": "2026-11-09",
       "price_history": [
         [
           "2026-05-16",
@@ -60212,13 +60972,301 @@ const OFFERS_DATA = {
           null
         ],
         [
-          "2026-10-22",
-          16.51,
+          "2026-11-09",
+          12.79,
+          16.0,
+          20
+        ],
+        [
+          "2026-11-10",
+          16.0,
           null,
           null
         ]
       ],
-      "price_seen_count": 2,
+      "price_seen_count": 3,
+      "price_signal": "normal"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 16.0,
+      "new_price_eur": 8.18,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 32.0,
+      "price_per_kg_eur": 16.36,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 16.0,
+          "price_eur": 8.18,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 16.0,
+      "comparison_count": 1,
+      "product_id": "tmarket-салам-kostelec-ловджииски-500гр-500g",
+      "weight_grams": 500,
+      "weight_raw": "500гр",
+      "name": "Салам KOSTELEC Ловджийски 500гр",
+      "image": "https://tmarketonline.bg/cdn/img/products/47291/salam-kostelec-lovdzijski-500gr-image_60d979e3dc786.jpeg?width=600&height=600&v=1777589943",
+      "category": "protein",
+      "emoji": "🍗",
+      "health_score": 3,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 15.09,
+      "lowest_price": 13.28,
+      "lowest_price_date": "2026-10-22",
+      "price_history": [
+        [
+          "2026-04-20",
+          16.0,
+          null,
+          null
+        ],
+        [
+          "2026-10-22",
+          13.28,
+          16.0,
+          17
+        ],
+        [
+          "2026-11-10",
+          16.0,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "normal"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 16.0,
+      "new_price_eur": 8.18,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 16.0,
+      "price_per_kg_eur": 8.18,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 16.0,
+          "price_eur": 8.18,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 16.0,
+      "comparison_count": 1,
+      "product_id": "tmarket-наденица-ken-лионска-нас-кг",
+      "name": "Наденица KEN лионска нас.кг",
+      "image": "https://tmarketonline.bg/cdn/img/products/46642/nadenica-ken-lionska-nas-kg-image_604b4d2a13841.jpeg?width=600&height=600&v=1777589936",
+      "category": "protein",
+      "emoji": "🍗",
+      "health_score": 3,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 14.93,
+      "lowest_price": 12.79,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-05-16",
+          16.0,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          12.79,
+          16.0,
+          20
+        ],
+        [
+          "2026-11-10",
+          16.0,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "normal"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 16.0,
+      "new_price_eur": 8.18,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 16.0,
+      "price_per_kg_eur": 8.18,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 16.0,
+          "price_eur": 8.18,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 16.0,
+      "comparison_count": 1,
+      "product_id": "tmarket-македонска-наденица-кен-пак-кг",
+      "name": "Македонска наденица КЕН пак.кг",
+      "image": "https://tmarketonline.bg/cdn/img/products/55953/makedonska-nadenica-ken-pak-kg-687645b4c4823.jpeg?width=1920&height=1920&v=1777590020",
+      "category": "protein",
+      "emoji": "🍗",
+      "health_score": 3,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 14.93,
+      "lowest_price": 12.79,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-05-16",
+          16.0,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          12.79,
+          16.0,
+          20
+        ],
+        [
+          "2026-11-10",
+          16.0,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "normal"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 16.0,
+      "new_price_eur": 8.18,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 16.0,
+      "price_per_kg_eur": 8.18,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 16.0,
+          "price_eur": 8.18,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 16.0,
+      "comparison_count": 1,
+      "product_id": "tmarket-лионска-наденица-кен-пак-кг",
+      "name": "Лионска наденица КЕН пак.кг",
+      "image": "https://tmarketonline.bg/cdn/img/products/55952/lionska-nadenica-ken-pak-kg-6876462caf2c9.jpeg?width=1920&height=1920&v=1777590020",
+      "category": "protein",
+      "emoji": "🍗",
+      "health_score": 3,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 14.93,
+      "lowest_price": 12.79,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-05-16",
+          16.0,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          12.79,
+          16.0,
+          20
+        ],
+        [
+          "2026-11-10",
+          16.0,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
       "price_signal": "normal"
     },
     {
@@ -60315,6 +61363,76 @@ const OFFERS_DATA = {
       "best_price_store": "T-Market",
       "best_price": 17.0,
       "comparison_count": 1,
+      "product_id": "tmarket-бяло-саламурено-сирене-саяна-кг",
+      "name": "Бяло саламурено сирене САЯНА, кг",
+      "image": "https://tmarketonline.bg/cdn/img/products/55453/balo-salamureno-sirene-medkovec-kg-67c62bf469ee7.jpeg?width=600&height=600&v=1777590025",
+      "category": "protein",
+      "emoji": "🍗",
+      "health_score": 3,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 15.43,
+      "lowest_price": 13.46,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-05-16",
+          15.82,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          13.46,
+          17.0,
+          21
+        ],
+        [
+          "2026-11-10",
+          17.0,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "wait"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 17.0,
+      "new_price_eur": 8.69,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 17.0,
+      "price_per_kg_eur": 8.69,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 17.0,
+          "price_eur": 8.69,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 17.0,
+      "comparison_count": 1,
       "product_id": "tmarket-кренвирши-деликатес-житница-нас-вак-кг",
       "name": "Кренвирши ДЕЛИКАТЕС ЖИТНИЦА нас.вак.кг",
       "image": "https://tmarketonline.bg/cdn/img/products/48620/krenvirsi-delikates-zitnica-nas-kg-62ac47a012c4e.png?width=1920&height=1920&v=1777589954",
@@ -60346,149 +61464,15 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 17.49,
-      "new_price_eur": 8.94,
-      "old_price": 20.58,
-      "old_price_eur": 10.52,
-      "discount_pct": 15,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 17.49,
-      "price_per_kg_eur": 8.94,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 17.49,
-          "price_eur": 8.94,
-          "old_price": 20.58,
-          "old_price_eur": 10.52,
-          "discount_pct": 15,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 17.49,
-      "comparison_count": 1,
-      "product_id": "tmarket-бяло-саламурено-сирене-саяна-домашно-кг",
-      "name": "Бяло саламурено сирене САЯНА, домашно,кг",
-      "image": "https://tmarketonline.bg/cdn/img/products/55453/balo-salamureno-sirene-medkovec-kg-67c62bf469ee7.jpeg?width=600&height=600&v=1777590025",
-      "category": "protein",
-      "emoji": "🍗",
-      "health_score": 3,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 19.23,
-      "lowest_price": 17.49,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
-        [
-          "2026-05-16",
-          19.62,
-          null,
-          null
-        ],
-        [
-          "2026-10-22",
-          20.58,
-          null,
-          null
-        ],
-        [
-          "2026-11-09",
-          17.49,
-          20.58,
-          15
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 17.58,
-      "new_price_eur": 8.99,
-      "old_price": 21.98,
-      "old_price_eur": 11.24,
-      "discount_pct": 20,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 17.58,
-      "price_per_kg_eur": 8.99,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 17.58,
-          "price_eur": 8.99,
-          "old_price": 21.98,
-          "old_price_eur": 11.24,
-          "discount_pct": 20,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 17.58,
-      "comparison_count": 1,
-      "product_id": "tmarket-шунка-кен-жарена-вита-нас-кг",
-      "name": "Шунка КЕН жарена вита нас.кг",
-      "image": "https://tmarketonline.bg/cdn/img/products/48708/sunka-ken-zarena-vita-nas-kg-62ceb637bc1ed.jpeg?width=600&height=600&v=1777589955",
-      "category": "protein",
-      "emoji": "🍗",
-      "health_score": 3,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 19.78,
-      "lowest_price": 17.58,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
-        [
-          "2026-05-16",
-          21.98,
-          null,
-          null
-        ],
-        [
-          "2026-11-09",
-          17.58,
-          21.98,
-          20
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 17.99,
-      "new_price_eur": 9.2,
+      "new_price": 17.43,
+      "new_price_eur": 8.91,
       "old_price": null,
       "old_price_eur": null,
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": 17.99,
-      "price_per_kg_eur": 9.2,
+      "price_per_kg": 17.43,
+      "price_per_kg_eur": 8.91,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -60496,8 +61480,8 @@ const OFFERS_DATA = {
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 17.99,
-          "price_eur": 9.2,
+          "price": 17.43,
+          "price_eur": 8.91,
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
@@ -60505,11 +61489,11 @@ const OFFERS_DATA = {
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 17.99,
+      "best_price": 17.43,
       "comparison_count": 1,
-      "product_id": "tmarket-наденица-делик-житница-макед-нас-вак-кг",
-      "name": "Наденица ДЕЛИК. ЖИТНИЦА Макед.нас.вак.кг",
-      "image": "https://tmarketonline.bg/cdn/img/products/48620/krenvirsi-delikates-zitnica-nas-kg-62ac47a012c4e.png?width=1920&height=1920&v=1777589954",
+      "product_id": "tmarket-наденица-леки-пак-кг",
+      "name": "*Наденица Леки пак.кг",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00109076_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "protein",
       "emoji": "🍗",
       "health_score": 3,
@@ -60521,24 +61505,36 @@ const OFFERS_DATA = {
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
-      "avg_price": 15.5,
-      "lowest_price": 13.01,
-      "lowest_price_date": "2026-05-16",
+      "avg_price": 15.79,
+      "lowest_price": 11.72,
+      "lowest_price_date": "2026-11-09",
       "price_history": [
         [
           "2026-05-16",
-          13.01,
-          17.99,
-          28
+          16.59,
+          null,
+          null
         ],
         [
           "2026-10-22",
-          17.99,
+          17.43,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          11.72,
+          17.43,
+          33
+        ],
+        [
+          "2026-11-10",
+          17.43,
           null,
           null
         ]
       ],
-      "price_seen_count": 2,
+      "price_seen_count": 4,
       "price_signal": "wait"
     },
     {
@@ -60602,36 +61598,36 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 21.49,
-      "new_price_eur": 10.99,
-      "old_price": 27.93,
-      "old_price_eur": 14.28,
-      "discount_pct": 23,
-      "valid_from": "2026-10-20",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 21.49,
-      "price_per_kg_eur": 10.99,
-      "source_type": "promo",
+      "new_price": 20.58,
+      "new_price_eur": 10.52,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 20.58,
+      "price_per_kg_eur": 10.52,
+      "source_type": "assortment",
       "available_stores": [
         "T-Market"
       ],
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 21.49,
-          "price_eur": 10.99,
-          "old_price": 27.93,
-          "old_price_eur": 14.28,
-          "discount_pct": 23,
-          "source_type": "promo"
+          "price": 20.58,
+          "price_eur": 10.52,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 21.49,
+      "best_price": 20.58,
       "comparison_count": 1,
-      "product_id": "tmarket-салам-шпек-бургас-елко-нас-кг",
-      "name": "Салам Шпек Бургас ЕЛКО нас.кг",
-      "image": "https://tmarketonline.bg/cdn/img/products/48143/salam-spek-burgas-elko-nas--kg-image_61f7a5e4ce38b.jpeg?width=1920&height=1920&v=1777589949",
+      "product_id": "tmarket-бяло-саламурено-сирене-саяна-домашно-кг",
+      "name": "Бяло саламурено сирене САЯНА, домашно,кг",
+      "image": "https://tmarketonline.bg/cdn/img/products/55453/balo-salamureno-sirene-medkovec-kg-67c62bf469ee7.jpeg?width=600&height=600&v=1777590025",
       "category": "protein",
       "emoji": "🍗",
       "health_score": 3,
@@ -60643,59 +61639,71 @@ const OFFERS_DATA = {
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
-      "avg_price": 21.14,
-      "lowest_price": 20.79,
-      "lowest_price_date": "2026-05-16",
+      "avg_price": 19.57,
+      "lowest_price": 17.49,
+      "lowest_price_date": "2026-11-09",
       "price_history": [
         [
           "2026-05-16",
-          20.79,
-          25.99,
-          20
+          19.62,
+          null,
+          null
         ],
         [
           "2026-10-22",
-          21.49,
-          27.93,
-          23
+          20.58,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          17.49,
+          20.58,
+          15
+        ],
+        [
+          "2026-11-10",
+          20.58,
+          null,
+          null
         ]
       ],
-      "price_seen_count": 2,
+      "price_seen_count": 4,
       "price_signal": "normal"
     },
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 24.04,
-      "new_price_eur": 12.29,
-      "old_price": 37.3,
-      "old_price_eur": 19.07,
-      "discount_pct": 36,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 24.04,
-      "price_per_kg_eur": 12.29,
-      "source_type": "promo",
+      "new_price": 21.98,
+      "new_price_eur": 11.24,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 21.98,
+      "price_per_kg_eur": 11.24,
+      "source_type": "assortment",
       "available_stores": [
         "T-Market"
       ],
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 24.04,
-          "price_eur": 12.29,
-          "old_price": 37.3,
-          "old_price_eur": 19.07,
-          "discount_pct": 36,
-          "source_type": "promo"
+          "price": 21.98,
+          "price_eur": 11.24,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 24.04,
+      "best_price": 21.98,
       "comparison_count": 1,
-      "product_id": "tmarket-салам-орехите-шпек-гастро-нас-кг",
-      "name": "Салам ОРЕХИТЕ Шпек гастро нас.кг",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00065680_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "tmarket-шунка-кен-жарена-вита-нас-кг",
+      "name": "Шунка КЕН жарена вита нас.кг",
+      "image": "https://tmarketonline.bg/cdn/img/products/48708/sunka-ken-zarena-vita-nas-kg-62ceb637bc1ed.jpeg?width=600&height=600&v=1777589955",
       "category": "protein",
       "emoji": "🍗",
       "health_score": 3,
@@ -60704,104 +61712,34 @@ const OFFERS_DATA = {
       "is_healthy": false,
       "is_high_protein": false,
       "is_good_carb": false,
-      "is_good_fat": true,
+      "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
-      "avg_price": 28.46,
-      "lowest_price": 24.04,
-      "lowest_price_date": "2026-05-16",
+      "avg_price": 20.51,
+      "lowest_price": 17.58,
+      "lowest_price_date": "2026-11-09",
       "price_history": [
         [
           "2026-05-16",
-          24.04,
-          35.99,
-          33
-        ],
-        [
-          "2026-10-22",
-          37.3,
+          21.98,
           null,
           null
         ],
         [
           "2026-11-09",
-          24.04,
-          37.3,
-          36
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 24.04,
-      "new_price_eur": 12.29,
-      "old_price": 37.3,
-      "old_price_eur": 19.07,
-      "discount_pct": 36,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 24.04,
-      "price_per_kg_eur": 12.29,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 24.04,
-          "price_eur": 12.29,
-          "old_price": 37.3,
-          "old_price_eur": 19.07,
-          "discount_pct": 36,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 24.04,
-      "comparison_count": 1,
-      "product_id": "tmarket-салам-орехите-бургас-гастро-нас-кг",
-      "name": "Салам ОРЕХИТЕ Бургас гастро нас.кг",
-      "image": "https://tmarketonline.bg/cdn/img/products/48061/salam-orehite-burgas-gastro-nas-kg-image_61e17f5e0b826.jpeg?width=1920&height=1920&v=1777589948",
-      "category": "protein",
-      "emoji": "🍗",
-      "health_score": 3,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": true,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 28.46,
-      "lowest_price": 24.04,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          24.04,
-          35.99,
-          33
+          17.58,
+          21.98,
+          20
         ],
         [
-          "2026-10-22",
-          37.3,
+          "2026-11-10",
+          21.98,
           null,
           null
-        ],
-        [
-          "2026-11-09",
-          24.04,
-          37.3,
-          36
         ]
       ],
       "price_seen_count": 3,
-      "price_signal": "buy"
+      "price_signal": "normal"
     },
     {
       "store": "T-Market",
@@ -60866,6 +61804,76 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 2,
       "price_signal": "normal"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 27.93,
+      "new_price_eur": 14.28,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 27.93,
+      "price_per_kg_eur": 14.28,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 27.93,
+          "price_eur": 14.28,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 27.93,
+      "comparison_count": 1,
+      "product_id": "tmarket-салам-шпек-бургас-елко-нас-кг",
+      "name": "Салам Шпек Бургас ЕЛКО нас.кг",
+      "image": "https://tmarketonline.bg/cdn/img/products/48143/salam-spek-burgas-elko-nas--kg-image_61f7a5e4ce38b.jpeg?width=1920&height=1920&v=1777589949",
+      "category": "protein",
+      "emoji": "🍗",
+      "health_score": 3,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 23.4,
+      "lowest_price": 20.79,
+      "lowest_price_date": "2026-05-16",
+      "price_history": [
+        [
+          "2026-05-16",
+          20.79,
+          25.99,
+          20
+        ],
+        [
+          "2026-10-22",
+          21.49,
+          27.93,
+          23
+        ],
+        [
+          "2026-11-10",
+          27.93,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "wait"
     },
     {
       "store": "T-Market",
@@ -61121,6 +62129,158 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 2,
+      "price_signal": "wait"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 37.3,
+      "new_price_eur": 19.07,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 37.3,
+      "price_per_kg_eur": 19.07,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 37.3,
+          "price_eur": 19.07,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 37.3,
+      "comparison_count": 1,
+      "product_id": "tmarket-салам-орехите-шпек-гастро-нас-кг",
+      "name": "Салам ОРЕХИТЕ Шпек гастро нас.кг",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00065680_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "protein",
+      "emoji": "🍗",
+      "health_score": 3,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 30.67,
+      "lowest_price": 24.04,
+      "lowest_price_date": "2026-05-16",
+      "price_history": [
+        [
+          "2026-05-16",
+          24.04,
+          35.99,
+          33
+        ],
+        [
+          "2026-10-22",
+          37.3,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          24.04,
+          37.3,
+          36
+        ],
+        [
+          "2026-11-10",
+          37.3,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "wait"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 37.3,
+      "new_price_eur": 19.07,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 37.3,
+      "price_per_kg_eur": 19.07,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 37.3,
+          "price_eur": 19.07,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 37.3,
+      "comparison_count": 1,
+      "product_id": "tmarket-салам-орехите-бургас-гастро-нас-кг",
+      "name": "Салам ОРЕХИТЕ Бургас гастро нас.кг",
+      "image": "https://tmarketonline.bg/cdn/img/products/48061/salam-orehite-burgas-gastro-nas-kg-image_61e17f5e0b826.jpeg?width=1920&height=1920&v=1777589948",
+      "category": "protein",
+      "emoji": "🍗",
+      "health_score": 3,
+      "is_food": true,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 30.67,
+      "lowest_price": 24.04,
+      "lowest_price_date": "2026-05-16",
+      "price_history": [
+        [
+          "2026-05-16",
+          24.04,
+          35.99,
+          33
+        ],
+        [
+          "2026-10-22",
+          37.3,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          24.04,
+          37.3,
+          36
+        ],
+        [
+          "2026-11-10",
+          37.3,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 4,
       "price_signal": "wait"
     },
     {
@@ -66561,71 +67721,6 @@ const OFFERS_DATA = {
       "price_signal": "good"
     },
     {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 0.68,
-      "new_price_eur": 0.35,
-      "old_price": 0.9,
-      "old_price_eur": 0.46,
-      "discount_pct": 24,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 11.33,
-      "price_per_kg_eur": 5.79,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 0.68,
-          "price_eur": 0.35,
-          "old_price": 0.9,
-          "old_price_eur": 0.46,
-          "discount_pct": 24,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 0.68,
-      "comparison_count": 1,
-      "product_id": "tmarket-кроасан-well-done-какао-60г-60g",
-      "weight_grams": 60,
-      "weight_raw": "60г",
-      "name": "Кроасан WELL DONE какао 60г",
-      "image": "https://tmarketonline.bg/cdn/img/products/51193/kroasan-breamore-kakao-55-gr-64799cc2ba3a4.png?width=600&height=600&v=1777589977",
-      "category": "grain",
-      "emoji": "🌾",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "avg_price": 0.79,
-      "lowest_price": 0.68,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
-        [
-          "2026-05-16",
-          0.9,
-          null,
-          null
-        ],
-        [
-          "2026-11-09",
-          0.68,
-          0.9,
-          24
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 0.69,
@@ -68448,77 +69543,6 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 0.84,
-      "new_price_eur": 0.43,
-      "old_price": 1.68,
-      "old_price_eur": 0.86,
-      "discount_pct": 50,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 7.0,
-      "price_per_kg_eur": 3.58,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 0.84,
-          "price_eur": 0.43,
-          "old_price": 1.68,
-          "old_price_eur": 0.86,
-          "discount_pct": 50,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 0.84,
-      "comparison_count": 1,
-      "product_id": "tmarket-бисквити-роден-краи-обикновени-120г-120g",
-      "weight_grams": 120,
-      "weight_raw": "120г",
-      "name": "Бисквити РОДЕН КРАЙ обикновени 120г",
-      "image": "https://tmarketonline.bg/cdn/img/products/53171/biskviti-roden-kraj-obiknoveni-120-g-65741de7d8018.jpeg?width=1920&height=1920&v=1777589991",
-      "category": "grain",
-      "emoji": "🌾",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "avg_price": 1.28,
-      "lowest_price": 0.84,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
-        [
-          "2026-05-16",
-          1.64,
-          null,
-          null
-        ],
-        [
-          "2026-10-22",
-          1.35,
-          1.68,
-          20
-        ],
-        [
-          "2026-11-09",
-          0.84,
-          1.68,
-          50
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "buy"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 0.85,
@@ -69294,6 +70318,77 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 0.9,
+      "new_price_eur": 0.46,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 15.0,
+      "price_per_kg_eur": 7.67,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 0.9,
+          "price_eur": 0.46,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 0.9,
+      "comparison_count": 1,
+      "product_id": "tmarket-кроасан-well-done-какао-60г-60g",
+      "weight_grams": 60,
+      "weight_raw": "60г",
+      "name": "Кроасан WELL DONE какао 60г",
+      "image": "https://tmarketonline.bg/cdn/img/products/51193/kroasan-breamore-kakao-55-gr-64799cc2ba3a4.png?width=600&height=600&v=1777589977",
+      "category": "grain",
+      "emoji": "🌾",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "avg_price": 0.83,
+      "lowest_price": 0.68,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-05-16",
+          0.9,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          0.68,
+          0.9,
+          24
+        ],
+        [
+          "2026-11-10",
+          0.9,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "wait"
+    },
+    {
       "store": "Kaufland",
       "address": null,
       "new_price": 0.91,
@@ -69584,6 +70679,71 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 1,
       "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 0.96,
+      "new_price_eur": 0.49,
+      "old_price": 1.29,
+      "old_price_eur": 0.66,
+      "discount_pct": 26,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 0.64,
+      "price_per_kg_eur": 0.33,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 0.96,
+          "price_eur": 0.49,
+          "old_price": 1.29,
+          "old_price_eur": 0.66,
+          "discount_pct": 26,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 0.96,
+      "comparison_count": 1,
+      "product_id": "tmarket-вода-банкя-минерална-1-5л-1500g",
+      "weight_grams": 1500,
+      "weight_raw": "1.5л",
+      "name": "Вода БАНКЯ минерална 1.5л",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 1.12,
+      "lowest_price": 0.96,
+      "lowest_price_date": "2026-11-10",
+      "price_history": [
+        [
+          "2026-05-16",
+          1.29,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          0.96,
+          1.29,
+          26
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800202530056_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Kaufland",
@@ -74406,65 +75566,6 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 1.29,
-      "new_price_eur": 0.66,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 0.86,
-      "price_per_kg_eur": 0.44,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 1.29,
-          "price_eur": 0.66,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 1.29,
-      "comparison_count": 1,
-      "product_id": "tmarket-вода-банкя-минерална-1-5л-1500g",
-      "weight_grams": 1500,
-      "weight_raw": "1.5л",
-      "name": "Вода БАНКЯ минерална 1.5л",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 1.29,
-      "lowest_price": 1.29,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          1.29,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800202530056_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 1.33,
@@ -75328,6 +76429,69 @@ const OFFERS_DATA = {
     {
       "store": "Kaufland",
       "address": null,
+      "new_price": 1.39,
+      "new_price_eur": 0.71,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-11-09",
+      "valid_until": "2026-11-15",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 1.39,
+          "price_eur": 0.71,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 1.39,
+      "comparison_count": 1,
+      "product_id": "kaufland-миникаланхое-стаино-растение",
+      "name": "Миникаланхое Стайно растение",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/174_00064767C_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 1.34,
+      "lowest_price": 1.29,
+      "lowest_price_date": "2026-10-27",
+      "price_history": [
+        [
+          "2026-10-27",
+          1.29,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          1.39,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "normal"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
       "new_price": 1.42,
       "new_price_eur": 0.73,
       "old_price": 1.89,
@@ -75624,77 +76788,6 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 1.47,
-      "new_price_eur": 0.75,
-      "old_price": 2.72,
-      "old_price_eur": 1.39,
-      "discount_pct": 46,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 18.38,
-      "price_per_kg_eur": 9.4,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 1.47,
-          "price_eur": 0.75,
-          "old_price": 2.72,
-          "old_price_eur": 1.39,
-          "discount_pct": 46,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 1.47,
-      "comparison_count": 1,
-      "product_id": "tmarket-шоколад-roshen-milk-bubble-80гр-80g",
-      "weight_grams": 80,
-      "weight_raw": "80гр",
-      "name": "Шоколад ROSHEN milk bubble 80гр",
-      "image": "https://tmarketonline.bg/cdn/img/products/39770/sokolad-roshen-bubble-milk-chocolate-80-g-69aacde4db7f9.png?width=1920&height=1920&v=1777590040",
-      "category": "grain",
-      "emoji": "🌾",
-      "is_food": false,
-      "is_junk": true,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "avg_price": 2.04,
-      "lowest_price": 1.47,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
-        [
-          "2026-05-16",
-          2.72,
-          null,
-          null
-        ],
-        [
-          "2026-10-22",
-          1.94,
-          2.72,
-          29
-        ],
-        [
-          "2026-11-09",
-          1.47,
-          2.72,
-          46
-        ]
-      ],
-      "price_seen_count": 3,
       "price_signal": "buy"
     },
     {
@@ -77327,6 +78420,213 @@ const OFFERS_DATA = {
       "address": null,
       "new_price": 1.55,
       "new_price_eur": 0.79,
+      "old_price": 3.27,
+      "old_price_eur": 1.67,
+      "discount_pct": 53,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 17.22,
+      "price_per_kg_eur": 8.8,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 1.55,
+          "price_eur": 0.79,
+          "old_price": 3.27,
+          "old_price_eur": 1.67,
+          "discount_pct": 53,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 1.55,
+      "comparison_count": 1,
+      "product_id": "tmarket-шоколад-lacmi-млечен-90г-90g",
+      "weight_grams": 90,
+      "weight_raw": "90г",
+      "name": "Шоколад LACMI млечен 90г",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4823077632570_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "grain",
+      "emoji": "🌾",
+      "is_food": false,
+      "is_junk": true,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "avg_price": 2.41,
+      "lowest_price": 1.55,
+      "lowest_price_date": "2026-11-10",
+      "price_history": [
+        [
+          "2026-05-16",
+          3.27,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          1.55,
+          3.27,
+          53
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 1.55,
+      "new_price_eur": 0.79,
+      "old_price": 1.99,
+      "old_price_eur": 1.02,
+      "discount_pct": 22,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-30",
+      "price_per_kg": 17.22,
+      "price_per_kg_eur": 8.8,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 1.55,
+          "price_eur": 0.79,
+          "old_price": 1.99,
+          "old_price_eur": 1.02,
+          "discount_pct": 22,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 1.55,
+      "comparison_count": 1,
+      "product_id": "tmarket-сапун-тео-rich-milk-soft-care-90гр-90g",
+      "weight_grams": 90,
+      "weight_raw": "90гр",
+      "name": "Сапун ТЕО Rich Milk Soft Care 90гр",
+      "image": "https://tmarketonline.bg/cdn/img/products/48432/sapun-teo-rich-milk-soft-care-90gr-626c24783df52.png?width=1920&height=1920&v=1777589958",
+      "category": "hygiene",
+      "emoji": "🧴",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "avg_price": 1.6,
+      "lowest_price": 1.27,
+      "lowest_price_date": "2026-05-16",
+      "price_history": [
+        [
+          "2026-05-16",
+          1.27,
+          1.99,
+          36
+        ],
+        [
+          "2026-10-22",
+          1.99,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          1.55,
+          1.99,
+          22
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "normal"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 1.55,
+      "new_price_eur": 0.79,
+      "old_price": 1.99,
+      "old_price_eur": 1.02,
+      "discount_pct": 22,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-30",
+      "price_per_kg": 17.22,
+      "price_per_kg_eur": 8.8,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 1.55,
+          "price_eur": 0.79,
+          "old_price": 1.99,
+          "old_price_eur": 1.02,
+          "discount_pct": 22,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 1.55,
+      "comparison_count": 1,
+      "product_id": "tmarket-сапун-тео-rich-milk-sens-care-90гр-90g",
+      "weight_grams": 90,
+      "weight_raw": "90гр",
+      "name": "Сапун ТЕО Rich Milk Sens. Care 90гр",
+      "image": "https://tmarketonline.bg/cdn/img/products/48431/sapun-teo-rich-milk-sensual-care-90gr-626c243ce8878.png?width=1920&height=1920&v=1777589958",
+      "category": "hygiene",
+      "emoji": "🧴",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "avg_price": 1.6,
+      "lowest_price": 1.27,
+      "lowest_price_date": "2026-05-16",
+      "price_history": [
+        [
+          "2026-05-16",
+          1.27,
+          1.99,
+          36
+        ],
+        [
+          "2026-10-22",
+          1.99,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          1.55,
+          1.99,
+          22
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "normal"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 1.55,
+      "new_price_eur": 0.79,
       "old_price": null,
       "old_price_eur": null,
       "discount_pct": null,
@@ -77390,71 +78690,6 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 3,
       "price_signal": "normal"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 1.55,
-      "new_price_eur": 0.79,
-      "old_price": 2.33,
-      "old_price_eur": 1.19,
-      "discount_pct": 33,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 1.55,
-      "price_per_kg_eur": 0.79,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 1.55,
-          "price_eur": 0.79,
-          "old_price": 2.33,
-          "old_price_eur": 1.19,
-          "discount_pct": 33,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 1.55,
-      "comparison_count": 1,
-      "product_id": "tmarket-захар-инком-1-кг-1000g",
-      "weight_grams": 1000,
-      "weight_raw": "1 кг",
-      "name": "Захар Инком - 1 кг.",
-      "image": "https://tmarketonline.bg/cdn/img/products/56221/zahar-inkom-1-kg-6985d320d1f10.png?width=600&height=600&v=1777590024",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 1.77,
-      "lowest_price": 1.55,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
-        [
-          "2026-04-20",
-          1.99,
-          null,
-          null
-        ],
-        [
-          "2026-11-09",
-          1.55,
-          2.33,
-          33
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
     },
     {
       "store": "T-Market",
@@ -78108,13 +79343,13 @@ const OFFERS_DATA = {
       "address": null,
       "new_price": 1.66,
       "new_price_eur": 0.85,
-      "old_price": 1.99,
-      "old_price_eur": 1.02,
-      "discount_pct": 17,
-      "valid_from": "2026-10-20",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 3.32,
-      "price_per_kg_eur": 1.7,
+      "old_price": 2.07,
+      "old_price_eur": 1.06,
+      "discount_pct": 20,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 1.66,
+      "price_per_kg_eur": 0.85,
       "source_type": "promo",
       "available_stores": [
         "T-Market"
@@ -78124,49 +79359,55 @@ const OFFERS_DATA = {
           "store": "T-Market",
           "price": 1.66,
           "price_eur": 0.85,
-          "old_price": 1.99,
-          "old_price_eur": 1.02,
-          "discount_pct": 17,
+          "old_price": 2.07,
+          "old_price_eur": 1.06,
+          "discount_pct": 20,
           "source_type": "promo"
         }
       ],
       "best_price_store": "T-Market",
       "best_price": 1.66,
       "comparison_count": 1,
-      "product_id": "tmarket-препарат-за-съдове-medix-apple-500мл-500g",
-      "weight_grams": 500,
-      "weight_raw": "500мл",
-      "name": "Препарат за съдове MEDIX apple 500мл",
-      "image": "https://tmarketonline.bg/cdn/img/products/48612/preparat-za-sadove-medix-mp-apple-450ml-65420ab087600.jpeg?width=1920&height=1920&v=1777589991",
-      "category": "household",
-      "emoji": "🧹",
+      "product_id": "tmarket-захар-diamant-бяла-кристална-1-кг-1000g",
+      "weight_grams": 1000,
+      "weight_raw": "1 кг",
+      "name": "Захар DIAMANT бяла кристална 1 кг",
+      "image": "https://tmarketonline.bg/cdn/img/products/45482/zahar-diamant-bala-kristalna-1-kg-image_5f88c2ec9e765.jpeg?width=600&height=600&v=1777589930",
+      "category": "other",
+      "emoji": "🛒",
       "is_food": false,
       "is_junk": false,
       "is_healthy": false,
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "is_bulk_worthy": true,
-      "is_long_lasting": true,
-      "avg_price": 1.82,
-      "lowest_price": 1.66,
-      "lowest_price_date": "2026-10-22",
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 1.61,
+      "lowest_price": 1.19,
+      "lowest_price_date": "2026-04-20",
       "price_history": [
         [
-          "2026-05-16",
+          "2026-04-20",
+          1.19,
+          1.99,
+          40
+        ],
+        [
+          "2026-05-07",
           1.99,
           null,
           null
         ],
         [
-          "2026-10-22",
+          "2026-11-10",
           1.66,
-          1.99,
-          17
+          2.07,
+          20
         ]
       ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
+      "price_seen_count": 3,
+      "price_signal": "normal"
     },
     {
       "store": "T-Market",
@@ -78176,10 +79417,10 @@ const OFFERS_DATA = {
       "old_price": 1.99,
       "old_price_eur": 1.02,
       "discount_pct": 17,
-      "valid_from": "2026-10-20",
-      "valid_until": "2026-11-09",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 15.09,
+      "price_per_kg_eur": 7.72,
       "source_type": "promo",
       "available_stores": [
         "T-Market"
@@ -78198,22 +79439,24 @@ const OFFERS_DATA = {
       "best_price_store": "T-Market",
       "best_price": 1.66,
       "comparison_count": 1,
-      "product_id": "tmarket-препарат-за-съдове-medix-cl-orchid-500м",
-      "name": "Препарат за съдове MEDIX cl. orchid 500м",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00067548_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "household",
-      "emoji": "🧹",
+      "product_id": "tmarket-кроасан-7days-super-max-какао-110г-110g",
+      "weight_grams": 110,
+      "weight_raw": "110г",
+      "name": "Кроасан 7DAYS Super max какао 110г",
+      "image": "https://tmarketonline.bg/cdn/img/products/40382/kroasan-7days-super-max-kakao-127-g-646607b0b7e09.jpeg?width=1920&height=1920&v=1777589977",
+      "category": "grain",
+      "emoji": "🌾",
       "is_food": false,
       "is_junk": false,
       "is_healthy": false,
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "is_bulk_worthy": true,
+      "is_bulk_worthy": false,
       "is_long_lasting": true,
-      "avg_price": 1.82,
+      "avg_price": 1.8,
       "lowest_price": 1.66,
-      "lowest_price_date": "2026-10-22",
+      "lowest_price_date": "2026-11-10",
       "price_history": [
         [
           "2026-05-16",
@@ -78223,13 +79466,96 @@ const OFFERS_DATA = {
         ],
         [
           "2026-10-22",
+          1.74,
+          1.99,
+          13
+        ],
+        [
+          "2026-11-10",
           1.66,
           1.99,
           17
         ]
       ],
-      "price_seen_count": 2,
+      "price_seen_count": 3,
       "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 1.68,
+      "new_price_eur": 0.86,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 14.0,
+      "price_per_kg_eur": 7.16,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 1.68,
+          "price_eur": 0.86,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 1.68,
+      "comparison_count": 1,
+      "product_id": "tmarket-бисквити-роден-краи-обикновени-120г-120g",
+      "weight_grams": 120,
+      "weight_raw": "120г",
+      "name": "Бисквити РОДЕН КРАЙ обикновени 120г",
+      "image": "https://tmarketonline.bg/cdn/img/products/53171/biskviti-roden-kraj-obiknoveni-120-g-65741de7d8018.jpeg?width=1920&height=1920&v=1777589991",
+      "category": "grain",
+      "emoji": "🌾",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "avg_price": 1.38,
+      "lowest_price": 0.84,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-05-16",
+          1.64,
+          null,
+          null
+        ],
+        [
+          "2026-10-22",
+          1.35,
+          1.68,
+          20
+        ],
+        [
+          "2026-11-09",
+          0.84,
+          1.68,
+          50
+        ],
+        [
+          "2026-11-10",
+          1.68,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "wait"
     },
     {
       "store": "Kaufland",
@@ -79035,13 +80361,13 @@ const OFFERS_DATA = {
       "address": null,
       "new_price": 1.74,
       "new_price_eur": 0.89,
-      "old_price": 2.31,
-      "old_price_eur": 1.18,
-      "discount_pct": 25,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 9.16,
-      "price_per_kg_eur": 4.68,
+      "old_price": 1.99,
+      "old_price_eur": 1.02,
+      "discount_pct": 13,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-30",
+      "price_per_kg": 34.8,
+      "price_per_kg_eur": 17.79,
       "source_type": "promo",
       "available_stores": [
         "T-Market"
@@ -79051,20 +80377,97 @@ const OFFERS_DATA = {
           "store": "T-Market",
           "price": 1.74,
           "price_eur": 0.89,
-          "old_price": 2.31,
-          "old_price_eur": 1.18,
-          "discount_pct": 25,
+          "old_price": 1.99,
+          "old_price_eur": 1.02,
+          "discount_pct": 13,
           "source_type": "promo"
         }
       ],
       "best_price_store": "T-Market",
       "best_price": 1.74,
       "comparison_count": 1,
-      "product_id": "tmarket-бисквити-роден-краи-обикновени-190г-190g",
-      "weight_grams": 190,
-      "weight_raw": "190г",
-      "name": "Бисквити РОДЕН КРАЙ обикновени 190г",
-      "image": "https://tmarketonline.bg/cdn/img/products/48523/biskviti-roden-kraj-obiknoveni-190g-6288b5f3114e6.png?width=600&height=600&v=1777589952",
+      "product_id": "tmarket-кроасан-milka-шоколад-50г-50g",
+      "weight_grams": 50,
+      "weight_raw": "50г",
+      "name": "Кроасан MILKA шоколад 50г",
+      "image": "https://tmarketonline.bg/cdn/img/products/55664/kroasan-milka-sokolad-50-g-680f89729e24c.jpeg?width=1920&height=1920&v=1777590015",
+      "category": "grain",
+      "emoji": "🌾",
+      "is_food": false,
+      "is_junk": true,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "avg_price": 1.82,
+      "lowest_price": 1.55,
+      "lowest_price_date": "2026-10-22",
+      "price_history": [
+        [
+          "2026-05-16",
+          1.99,
+          null,
+          null
+        ],
+        [
+          "2026-10-22",
+          1.55,
+          1.99,
+          22
+        ],
+        [
+          "2026-11-09",
+          1.99,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          1.74,
+          1.99,
+          13
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "normal"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 1.74,
+      "new_price_eur": 0.89,
+      "old_price": 1.99,
+      "old_price_eur": 1.02,
+      "discount_pct": 13,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-30",
+      "price_per_kg": 34.8,
+      "price_per_kg_eur": 17.79,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 1.74,
+          "price_eur": 0.89,
+          "old_price": 1.99,
+          "old_price_eur": 1.02,
+          "discount_pct": 13,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 1.74,
+      "comparison_count": 1,
+      "product_id": "tmarket-кроасан-milka-ванилия-50г-50g",
+      "weight_grams": 50,
+      "weight_raw": "50г",
+      "name": "Кроасан MILKA ванилия 50г",
+      "image": "https://tmarketonline.bg/cdn/img/products/55665/kroasan-milka-vanilia-50-g-680f89b6254f7.png?width=1920&height=1920&v=1777590015",
       "category": "grain",
       "emoji": "🌾",
       "is_food": false,
@@ -79075,31 +80478,37 @@ const OFFERS_DATA = {
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": true,
-      "avg_price": 1.92,
-      "lowest_price": 1.74,
-      "lowest_price_date": "2026-11-09",
+      "avg_price": 1.82,
+      "lowest_price": 1.55,
+      "lowest_price_date": "2026-10-22",
       "price_history": [
         [
-          "2026-04-20",
-          2.19,
+          "2026-05-16",
+          1.99,
           null,
           null
         ],
         [
           "2026-10-22",
-          1.84,
-          2.31,
-          20
+          1.55,
+          1.99,
+          22
         ],
         [
           "2026-11-09",
+          1.99,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
           1.74,
-          2.31,
-          25
+          1.99,
+          13
         ]
       ],
-      "price_seen_count": 3,
-      "price_signal": "buy"
+      "price_seen_count": 4,
+      "price_signal": "normal"
     },
     {
       "store": "T-Market",
@@ -79163,71 +80572,6 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 2,
       "price_signal": "normal"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 1.74,
-      "new_price_eur": 0.89,
-      "old_price": 1.99,
-      "old_price_eur": 1.02,
-      "discount_pct": 13,
-      "valid_from": "2026-10-20",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 15.82,
-      "price_per_kg_eur": 8.09,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 1.74,
-          "price_eur": 0.89,
-          "old_price": 1.99,
-          "old_price_eur": 1.02,
-          "discount_pct": 13,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 1.74,
-      "comparison_count": 1,
-      "product_id": "tmarket-кроасан-7days-super-max-какао-110г-110g",
-      "weight_grams": 110,
-      "weight_raw": "110г",
-      "name": "Кроасан 7DAYS Super max какао 110г",
-      "image": "https://tmarketonline.bg/cdn/img/products/40382/kroasan-7days-super-max-kakao-127-g-646607b0b7e09.jpeg?width=1920&height=1920&v=1777589977",
-      "category": "grain",
-      "emoji": "🌾",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "avg_price": 1.86,
-      "lowest_price": 1.74,
-      "lowest_price_date": "2026-10-22",
-      "price_history": [
-        [
-          "2026-05-16",
-          1.99,
-          null,
-          null
-        ],
-        [
-          "2026-10-22",
-          1.74,
-          1.99,
-          13
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
     },
     {
       "store": "Kaufland",
@@ -80193,6 +81537,69 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 1.89,
+      "new_price_eur": 0.97,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-11-09",
+      "valid_until": "2026-11-15",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 1.89,
+          "price_eur": 0.97,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 1.89,
+      "comparison_count": 1,
+      "product_id": "kaufland-хризантема-ø10-5",
+      "name": "Хризантема Ø10,5",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800220421039_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 1.84,
+      "lowest_price": 1.79,
+      "lowest_price_date": "2026-09-29",
+      "price_history": [
+        [
+          "2026-09-29",
+          1.79,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          1.89,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "normal"
+    },
+    {
       "store": "T-Market",
       "address": null,
       "new_price": 1.9,
@@ -80250,71 +81657,6 @@ const OFFERS_DATA = {
           1.9,
           3.15,
           40
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 1.94,
-      "new_price_eur": 0.99,
-      "old_price": 2.46,
-      "old_price_eur": 1.26,
-      "discount_pct": 21,
-      "valid_from": "2026-10-20",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 24.25,
-      "price_per_kg_eur": 12.4,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 1.94,
-          "price_eur": 0.99,
-          "old_price": 2.46,
-          "old_price_eur": 1.26,
-          "discount_pct": 21,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 1.94,
-      "comparison_count": 1,
-      "product_id": "tmarket-шоколад-своге-млечен-80г-80g",
-      "weight_grams": 80,
-      "weight_raw": "80г",
-      "name": "Шоколад СВОГЕ млечен 80г",
-      "image": "https://tmarketonline.bg/cdn/img/products/41851/sokolad-svoge-mlecen-90-g-image_5f286fa507b24.png?width=1920&height=1920&v=1777589941",
-      "category": "grain",
-      "emoji": "🌾",
-      "is_food": false,
-      "is_junk": true,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "avg_price": 2.2,
-      "lowest_price": 1.94,
-      "lowest_price_date": "2026-10-22",
-      "price_history": [
-        [
-          "2026-05-16",
-          2.46,
-          null,
-          null
-        ],
-        [
-          "2026-10-22",
-          1.94,
-          2.46,
-          21
         ]
       ],
       "price_seen_count": 2,
@@ -82184,24 +83526,24 @@ const OFFERS_DATA = {
       "price_signal": "good"
     },
     {
-      "store": "T-Market",
+      "store": "Kaufland",
       "address": null,
       "new_price": 1.99,
       "new_price_eur": 1.02,
       "old_price": null,
       "old_price_eur": null,
       "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 39.8,
-      "price_per_kg_eur": 20.35,
+      "valid_from": "2026-11-09",
+      "valid_until": "2026-11-15",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
       "source_type": "assortment",
       "available_stores": [
-        "T-Market"
+        "Kaufland"
       ],
       "store_prices": [
         {
-          "store": "T-Market",
+          "store": "Kaufland",
           "price": 1.99,
           "price_eur": 1.02,
           "old_price": null,
@@ -82210,156 +83552,12 @@ const OFFERS_DATA = {
           "source_type": "assortment"
         }
       ],
-      "best_price_store": "T-Market",
+      "best_price_store": "Kaufland",
       "best_price": 1.99,
       "comparison_count": 1,
-      "product_id": "tmarket-кроасан-milka-шоколад-50г-50g",
-      "weight_grams": 50,
-      "weight_raw": "50г",
-      "name": "Кроасан MILKA шоколад 50г",
-      "image": "https://tmarketonline.bg/cdn/img/products/55664/kroasan-milka-sokolad-50-g-680f89729e24c.jpeg?width=1920&height=1920&v=1777590015",
-      "category": "grain",
-      "emoji": "🌾",
-      "is_food": false,
-      "is_junk": true,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "avg_price": 1.84,
-      "lowest_price": 1.55,
-      "lowest_price_date": "2026-10-22",
-      "price_history": [
-        [
-          "2026-05-16",
-          1.99,
-          null,
-          null
-        ],
-        [
-          "2026-10-22",
-          1.55,
-          1.99,
-          22
-        ],
-        [
-          "2026-11-09",
-          1.99,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "wait"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 1.99,
-      "new_price_eur": 1.02,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 39.8,
-      "price_per_kg_eur": 20.35,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 1.99,
-          "price_eur": 1.02,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 1.99,
-      "comparison_count": 1,
-      "product_id": "tmarket-кроасан-milka-ванилия-50г-50g",
-      "weight_grams": 50,
-      "weight_raw": "50г",
-      "name": "Кроасан MILKA ванилия 50г",
-      "image": "https://tmarketonline.bg/cdn/img/products/55665/kroasan-milka-vanilia-50-g-680f89b6254f7.png?width=1920&height=1920&v=1777590015",
-      "category": "grain",
-      "emoji": "🌾",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "avg_price": 1.84,
-      "lowest_price": 1.55,
-      "lowest_price_date": "2026-10-22",
-      "price_history": [
-        [
-          "2026-05-16",
-          1.99,
-          null,
-          null
-        ],
-        [
-          "2026-10-22",
-          1.55,
-          1.99,
-          22
-        ],
-        [
-          "2026-11-09",
-          1.99,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "wait"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 1.99,
-      "new_price_eur": 1.02,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 1.99,
-      "price_per_kg_eur": 1.02,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 1.99,
-          "price_eur": 1.02,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 1.99,
-      "comparison_count": 1,
-      "product_id": "tmarket-захар-diamant-бяла-кристална-1-кг-1000g",
-      "weight_grams": 1000,
-      "weight_raw": "1 кг",
-      "name": "Захар DIAMANT бяла кристална 1 кг",
-      "image": "https://tmarketonline.bg/cdn/img/products/45482/zahar-diamant-bala-kristalna-1-kg-image_5f88c2ec9e765.jpeg?width=600&height=600&v=1777589930",
+      "product_id": "kaufland-минирастение-ø6-см",
+      "name": "Минирастение Ø6 см",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/5708869004096_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -82370,18 +83568,18 @@ const OFFERS_DATA = {
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
-      "avg_price": 1.59,
-      "lowest_price": 1.19,
-      "lowest_price_date": "2026-04-20",
+      "avg_price": 1.5,
+      "lowest_price": 1.02,
+      "lowest_price_date": "2026-09-01",
       "price_history": [
         [
-          "2026-04-20",
-          1.19,
-          1.99,
-          40
+          "2026-09-01",
+          1.02,
+          null,
+          null
         ],
         [
-          "2026-05-07",
+          "2026-09-03",
           1.99,
           null,
           null
@@ -82400,8 +83598,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": 22.11,
-      "price_per_kg_eur": 11.3,
+      "price_per_kg": 3.98,
+      "price_per_kg_eur": 2.03,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -82420,40 +83618,46 @@ const OFFERS_DATA = {
       "best_price_store": "T-Market",
       "best_price": 1.99,
       "comparison_count": 1,
-      "product_id": "tmarket-сапун-тео-rich-milk-soft-care-90гр-90g",
-      "weight_grams": 90,
-      "weight_raw": "90гр",
-      "name": "Сапун ТЕО Rich Milk Soft Care 90гр",
-      "image": "https://tmarketonline.bg/cdn/img/products/48432/sapun-teo-rich-milk-soft-care-90gr-626c24783df52.png?width=1920&height=1920&v=1777589958",
-      "category": "hygiene",
-      "emoji": "🧴",
+      "product_id": "tmarket-препарат-за-съдове-medix-apple-500мл-500g",
+      "weight_grams": 500,
+      "weight_raw": "500мл",
+      "name": "Препарат за съдове MEDIX apple 500мл",
+      "image": "https://tmarketonline.bg/cdn/img/products/48612/preparat-za-sadove-medix-mp-apple-450ml-65420ab087600.jpeg?width=1920&height=1920&v=1777589991",
+      "category": "household",
+      "emoji": "🧹",
       "is_food": false,
       "is_junk": false,
       "is_healthy": false,
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "is_bulk_worthy": false,
+      "is_bulk_worthy": true,
       "is_long_lasting": true,
-      "avg_price": 1.63,
-      "lowest_price": 1.27,
-      "lowest_price_date": "2026-05-16",
+      "avg_price": 1.88,
+      "lowest_price": 1.66,
+      "lowest_price_date": "2026-10-22",
       "price_history": [
         [
           "2026-05-16",
-          1.27,
           1.99,
-          36
+          null,
+          null
         ],
         [
           "2026-10-22",
+          1.66,
+          1.99,
+          17
+        ],
+        [
+          "2026-11-10",
           1.99,
           null,
           null
         ]
       ],
-      "price_seen_count": 2,
-      "price_signal": "wait"
+      "price_seen_count": 3,
+      "price_signal": "normal"
     },
     {
       "store": "T-Market",
@@ -82513,71 +83717,6 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 1,
       "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 1.99,
-      "new_price_eur": 1.02,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 22.11,
-      "price_per_kg_eur": 11.3,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 1.99,
-          "price_eur": 1.02,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 1.99,
-      "comparison_count": 1,
-      "product_id": "tmarket-сапун-тео-rich-milk-sens-care-90гр-90g",
-      "weight_grams": 90,
-      "weight_raw": "90гр",
-      "name": "Сапун ТЕО Rich Milk Sens. Care 90гр",
-      "image": "https://tmarketonline.bg/cdn/img/products/48431/sapun-teo-rich-milk-sensual-care-90gr-626c243ce8878.png?width=1920&height=1920&v=1777589958",
-      "category": "hygiene",
-      "emoji": "🧴",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "avg_price": 1.63,
-      "lowest_price": 1.27,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          1.27,
-          1.99,
-          36
-        ],
-        [
-          "2026-10-22",
-          1.99,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "wait"
     },
     {
       "store": "T-Market",
@@ -82696,6 +83835,75 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 1,
       "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 1.99,
+      "new_price_eur": 1.02,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 1.99,
+          "price_eur": 1.02,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 1.99,
+      "comparison_count": 1,
+      "product_id": "tmarket-препарат-за-съдове-medix-cl-orchid-500м",
+      "name": "Препарат за съдове MEDIX cl. orchid 500м",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00067548_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "household",
+      "emoji": "🧹",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": true,
+      "is_long_lasting": true,
+      "avg_price": 1.88,
+      "lowest_price": 1.66,
+      "lowest_price_date": "2026-10-22",
+      "price_history": [
+        [
+          "2026-05-16",
+          1.99,
+          null,
+          null
+        ],
+        [
+          "2026-10-22",
+          1.66,
+          1.99,
+          17
+        ],
+        [
+          "2026-11-10",
+          1.99,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "normal"
     },
     {
       "store": "Kaufland",
@@ -83185,6 +84393,69 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 2.09,
+      "new_price_eur": 1.07,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-11-09",
+      "valid_until": "2026-11-15",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 2.09,
+          "price_eur": 1.07,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 2.09,
+      "comparison_count": 1,
+      "product_id": "kaufland-миниколедниче-шлумбергера-стаино-растение",
+      "name": "Миниколедниче (Шлумбергера) Стайно растение",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/09902102-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 2.04,
+      "lowest_price": 1.99,
+      "lowest_price_date": "2026-10-27",
+      "price_history": [
+        [
+          "2026-10-27",
+          1.99,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          2.09,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "normal"
+    },
+    {
       "store": "T-Market",
       "address": null,
       "new_price": 2.11,
@@ -83241,71 +84512,6 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 2.13,
-      "new_price_eur": 1.09,
-      "old_price": 3.56,
-      "old_price_eur": 1.82,
-      "discount_pct": 40,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 1.06,
-      "price_per_kg_eur": 0.54,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 2.13,
-          "price_eur": 1.09,
-          "old_price": 3.56,
-          "old_price_eur": 1.82,
-          "discount_pct": 40,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 2.13,
-      "comparison_count": 1,
-      "product_id": "tmarket-бира-бургаско-pet-2л-2000g",
-      "weight_grams": 2000,
-      "weight_raw": "2л",
-      "name": "Бира БУРГАСКО PET 2л",
-      "image": "https://pazarko.bg/api/brochure-images/TMarketBrochure_бира_бургаско_pet_2_л_2л.jpg",
-      "category": "drinks",
-      "emoji": "🍺",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 2.84,
-      "lowest_price": 2.13,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
-        [
-          "2026-05-16",
-          3.56,
-          null,
-          null
-        ],
-        [
-          "2026-11-09",
-          2.13,
-          3.56,
-          40
-        ]
-      ],
-      "price_seen_count": 2,
       "price_signal": "buy"
     },
     {
@@ -84054,6 +85260,71 @@ const OFFERS_DATA = {
       "address": null,
       "new_price": 2.25,
       "new_price_eur": 1.15,
+      "old_price": 2.95,
+      "old_price_eur": 1.51,
+      "discount_pct": 24,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 1.12,
+      "price_per_kg_eur": 0.57,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 2.25,
+          "price_eur": 1.15,
+          "old_price": 2.95,
+          "old_price_eur": 1.51,
+          "discount_pct": 24,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 2.25,
+      "comparison_count": 1,
+      "product_id": "tmarket-бира-ариана-pet-2л-2000g",
+      "weight_grams": 2000,
+      "weight_raw": "2л",
+      "name": "Бира АРИАНА PET 2л",
+      "category": "drinks",
+      "emoji": "🍺",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 2.6,
+      "lowest_price": 2.25,
+      "lowest_price_date": "2026-11-10",
+      "price_history": [
+        [
+          "2026-05-16",
+          2.95,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          2.25,
+          2.95,
+          24
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800022701032_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 2.25,
+      "new_price_eur": 1.15,
       "old_price": null,
       "old_price_eur": null,
       "discount_pct": null,
@@ -84710,6 +85981,225 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 1,
       "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 2.31,
+      "new_price_eur": 1.18,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 12.16,
+      "price_per_kg_eur": 6.22,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 2.31,
+          "price_eur": 1.18,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 2.31,
+      "comparison_count": 1,
+      "product_id": "tmarket-бисквити-роден-краи-обикновени-190г-190g",
+      "weight_grams": 190,
+      "weight_raw": "190г",
+      "name": "Бисквити РОДЕН КРАЙ обикновени 190г",
+      "image": "https://tmarketonline.bg/cdn/img/products/48523/biskviti-roden-kraj-obiknoveni-190g-6288b5f3114e6.png?width=600&height=600&v=1777589952",
+      "category": "grain",
+      "emoji": "🌾",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "avg_price": 2.02,
+      "lowest_price": 1.74,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-04-20",
+          2.19,
+          null,
+          null
+        ],
+        [
+          "2026-10-22",
+          1.84,
+          2.31,
+          20
+        ],
+        [
+          "2026-11-09",
+          1.74,
+          2.31,
+          25
+        ],
+        [
+          "2026-11-10",
+          2.31,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "wait"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 2.33,
+      "new_price_eur": 1.19,
+      "old_price": 3.17,
+      "old_price_eur": 1.62,
+      "discount_pct": 26,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 5.83,
+      "price_per_kg_eur": 2.98,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 2.33,
+          "price_eur": 1.19,
+          "old_price": 3.17,
+          "old_price_eur": 1.62,
+          "discount_pct": 26,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 2.33,
+      "comparison_count": 1,
+      "product_id": "tmarket-точени-кори-тракииски-400-гр-400g-2",
+      "weight_grams": 400,
+      "weight_raw": "400 гр",
+      "name": "Точени кори ТРАКИЙСКИ 400 гр",
+      "image": "https://tmarketonline.bg/cdn/img/products/51002/toceni-kori-trakijski-400-gr-646b675480518.png?width=1920&height=1920&v=1777589973",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 2.61,
+      "lowest_price": 2.33,
+      "lowest_price_date": "2026-11-10",
+      "price_history": [
+        [
+          "2026-05-16",
+          2.99,
+          null,
+          null
+        ],
+        [
+          "2026-10-22",
+          2.52,
+          3.17,
+          21
+        ],
+        [
+          "2026-11-10",
+          2.33,
+          3.17,
+          26
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 2.33,
+      "new_price_eur": 1.19,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 2.33,
+      "price_per_kg_eur": 1.19,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 2.33,
+          "price_eur": 1.19,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 2.33,
+      "comparison_count": 1,
+      "product_id": "tmarket-захар-инком-1-кг-1000g",
+      "weight_grams": 1000,
+      "weight_raw": "1 кг",
+      "name": "Захар Инком - 1 кг.",
+      "image": "https://tmarketonline.bg/cdn/img/products/56221/zahar-inkom-1-kg-6985d320d1f10.png?width=600&height=600&v=1777590024",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 1.96,
+      "lowest_price": 1.55,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-04-20",
+          1.99,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          1.55,
+          2.33,
+          33
+        ],
+        [
+          "2026-11-10",
+          2.33,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "wait"
     },
     {
       "store": "Kaufland",
@@ -85569,6 +87059,77 @@ const OFFERS_DATA = {
       "price_signal": "normal"
     },
     {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 2.46,
+      "new_price_eur": 1.26,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 30.75,
+      "price_per_kg_eur": 15.72,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 2.46,
+          "price_eur": 1.26,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 2.46,
+      "comparison_count": 1,
+      "product_id": "tmarket-шоколад-своге-млечен-80г-80g",
+      "weight_grams": 80,
+      "weight_raw": "80г",
+      "name": "Шоколад СВОГЕ млечен 80г",
+      "image": "https://tmarketonline.bg/cdn/img/products/41851/sokolad-svoge-mlecen-90-g-image_5f286fa507b24.png?width=1920&height=1920&v=1777589941",
+      "category": "grain",
+      "emoji": "🌾",
+      "is_food": false,
+      "is_junk": true,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "avg_price": 2.29,
+      "lowest_price": 1.94,
+      "lowest_price_date": "2026-10-22",
+      "price_history": [
+        [
+          "2026-05-16",
+          2.46,
+          null,
+          null
+        ],
+        [
+          "2026-10-22",
+          1.94,
+          2.46,
+          21
+        ],
+        [
+          "2026-11-10",
+          2.46,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "normal"
+    },
+    {
       "store": "Kaufland",
       "address": null,
       "new_price": 2.49,
@@ -86102,71 +87663,6 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 2.52,
-      "new_price_eur": 1.29,
-      "old_price": 3.17,
-      "old_price_eur": 1.62,
-      "discount_pct": 21,
-      "valid_from": "2026-10-20",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 6.3,
-      "price_per_kg_eur": 3.22,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 2.52,
-          "price_eur": 1.29,
-          "old_price": 3.17,
-          "old_price_eur": 1.62,
-          "discount_pct": 21,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 2.52,
-      "comparison_count": 1,
-      "product_id": "tmarket-точени-кори-тракииски-400-гр-400g-2",
-      "weight_grams": 400,
-      "weight_raw": "400 гр",
-      "name": "Точени кори ТРАКИЙСКИ 400 гр",
-      "image": "https://tmarketonline.bg/cdn/img/products/51002/toceni-kori-trakijski-400-gr-646b675480518.png?width=1920&height=1920&v=1777589973",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 2.75,
-      "lowest_price": 2.52,
-      "lowest_price_date": "2026-10-22",
-      "price_history": [
-        [
-          "2026-05-16",
-          2.99,
-          null,
-          null
-        ],
-        [
-          "2026-10-22",
-          2.52,
-          3.17,
-          21
-        ]
-      ],
-      "price_seen_count": 2,
       "price_signal": "buy"
     },
     {
@@ -86974,148 +88470,6 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 2.56,
-      "new_price_eur": 1.31,
-      "old_price": 3.42,
-      "old_price_eur": 1.75,
-      "discount_pct": 25,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 10.24,
-      "price_per_kg_eur": 5.24,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 2.56,
-          "price_eur": 1.31,
-          "old_price": 3.42,
-          "old_price_eur": 1.75,
-          "discount_pct": 25,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 2.56,
-      "comparison_count": 1,
-      "product_id": "tmarket-бисквити-роден-краи-250-гр-250g",
-      "weight_grams": 250,
-      "weight_raw": "250 гр",
-      "name": "Бисквити РОДЕН КРАЙ 250 гр",
-      "image": "https://tmarketonline.bg/cdn/img/products/48518/biskviti-roden-kraj-250-gr-6288b3fab1154.png?width=600&height=600&v=1777589951",
-      "category": "grain",
-      "emoji": "🌾",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "avg_price": 2.86,
-      "lowest_price": 2.56,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
-        [
-          "2026-04-20",
-          3.29,
-          null,
-          null
-        ],
-        [
-          "2026-10-22",
-          2.74,
-          3.42,
-          20
-        ],
-        [
-          "2026-11-09",
-          2.56,
-          3.42,
-          25
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 2.58,
-      "new_price_eur": 1.32,
-      "old_price": 3.23,
-      "old_price_eur": 1.65,
-      "discount_pct": 20,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 1.29,
-      "price_per_kg_eur": 0.66,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 2.58,
-          "price_eur": 1.32,
-          "old_price": 3.23,
-          "old_price_eur": 1.65,
-          "discount_pct": 20,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 2.58,
-      "comparison_count": 1,
-      "product_id": "tmarket-бира-пиринско-pet-2л-2000g",
-      "weight_grams": 2000,
-      "weight_raw": "2л",
-      "name": "Бира ПИРИНСКО PET 2л",
-      "image": "https://pazarko.bg/api/brochure-images/TMarketBrochure_бира_пиринско_pet_1_2_л_1_2л.jpg",
-      "category": "drinks",
-      "emoji": "🍺",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 2.94,
-      "lowest_price": 2.58,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
-        [
-          "2026-05-16",
-          3.01,
-          null,
-          null
-        ],
-        [
-          "2026-10-22",
-          3.23,
-          null,
-          null
-        ],
-        [
-          "2026-11-09",
-          2.58,
-          3.23,
-          20
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "buy"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 2.59,
@@ -87323,6 +88677,81 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 2.59,
+      "new_price_eur": 1.32,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-11-09",
+      "valid_until": "2026-11-15",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 2.59,
+          "price_eur": 1.32,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 2.59,
+      "comparison_count": 1,
+      "product_id": "kaufland-роза-микс-ø10-5-см",
+      "name": "Роза микс Ø10,5 см",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/09902226M_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 4.4,
+      "lowest_price": 2.49,
+      "lowest_price_date": "2026-08-25",
+      "price_history": [
+        [
+          "2026-04-25",
+          6.28,
+          null,
+          null
+        ],
+        [
+          "2026-06-29",
+          6.24,
+          null,
+          null
+        ],
+        [
+          "2026-08-25",
+          2.49,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          2.59,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "good"
+    },
+    {
       "store": "T-Market",
       "address": null,
       "new_price": 2.6,
@@ -87516,136 +88945,6 @@ const OFFERS_DATA = {
       "price_seen_count": 2,
       "price_signal": "wait",
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800211960356_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 2.64,
-      "new_price_eur": 1.35,
-      "old_price": 4.19,
-      "old_price_eur": 2.14,
-      "discount_pct": 37,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 6.6,
-      "price_per_kg_eur": 3.37,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 2.64,
-          "price_eur": 1.35,
-          "old_price": 4.19,
-          "old_price_eur": 2.14,
-          "discount_pct": 37,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 2.64,
-      "comparison_count": 1,
-      "product_id": "tmarket-преп-за-съдове-ехо-балсам-лаика-400мл-400g",
-      "weight_grams": 400,
-      "weight_raw": "400мл",
-      "name": "Преп. за съдове ЕХО Балсам Лайка 400мл",
-      "image": "https://api.bulmag.org/thumbnails/572cc548cce103e1ba25df2125212c5a.JPG",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 3.42,
-      "lowest_price": 2.64,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
-        [
-          "2026-05-16",
-          4.19,
-          null,
-          null
-        ],
-        [
-          "2026-11-09",
-          2.64,
-          4.19,
-          37
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 2.64,
-      "new_price_eur": 1.35,
-      "old_price": 4.19,
-      "old_price_eur": 2.14,
-      "discount_pct": 37,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 6.6,
-      "price_per_kg_eur": 3.37,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 2.64,
-          "price_eur": 1.35,
-          "old_price": 4.19,
-          "old_price_eur": 2.14,
-          "discount_pct": 37,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 2.64,
-      "comparison_count": 1,
-      "product_id": "tmarket-преп-за-съдове-ехо-балсам-люляк-400мл-400g",
-      "weight_grams": 400,
-      "weight_raw": "400мл",
-      "name": "Преп. за съдове ЕХО Балсам Люляк 400мл",
-      "image": "https://api.bulmag.org/thumbnails/ddd939749731353367c573079030c299.png",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 3.42,
-      "lowest_price": 2.64,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
-        [
-          "2026-05-16",
-          4.19,
-          null,
-          null
-        ],
-        [
-          "2026-11-09",
-          2.64,
-          4.19,
-          37
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
     },
     {
       "store": "Kaufland",
@@ -88206,6 +89505,83 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 2.72,
+      "new_price_eur": 1.39,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 34.0,
+      "price_per_kg_eur": 17.38,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 2.72,
+          "price_eur": 1.39,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 2.72,
+      "comparison_count": 1,
+      "product_id": "tmarket-шоколад-roshen-milk-bubble-80гр-80g",
+      "weight_grams": 80,
+      "weight_raw": "80гр",
+      "name": "Шоколад ROSHEN milk bubble 80гр",
+      "image": "https://tmarketonline.bg/cdn/img/products/39770/sokolad-roshen-bubble-milk-chocolate-80-g-69aacde4db7f9.png?width=1920&height=1920&v=1777590040",
+      "category": "grain",
+      "emoji": "🌾",
+      "is_food": false,
+      "is_junk": true,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "avg_price": 2.21,
+      "lowest_price": 1.47,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-05-16",
+          2.72,
+          null,
+          null
+        ],
+        [
+          "2026-10-22",
+          1.94,
+          2.72,
+          29
+        ],
+        [
+          "2026-11-09",
+          1.47,
+          2.72,
+          46
+        ],
+        [
+          "2026-11-10",
+          2.72,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "wait"
+    },
+    {
       "store": "Kaufland",
       "address": null,
       "new_price": 2.79,
@@ -88612,77 +89988,6 @@ const OFFERS_DATA = {
       "price_signal": "good"
     },
     {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 2.91,
-      "new_price_eur": 1.49,
-      "old_price": 5.69,
-      "old_price_eur": 2.91,
-      "discount_pct": 49,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 7.28,
-      "price_per_kg_eur": 3.72,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 2.91,
-          "price_eur": 1.49,
-          "old_price": 5.69,
-          "old_price_eur": 2.91,
-          "discount_pct": 49,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 2.91,
-      "comparison_count": 1,
-      "product_id": "tmarket-лютеница-bulcons-първомаи-бдс-400гр-400g",
-      "weight_grams": 400,
-      "weight_raw": "400гр",
-      "name": "Лютеница BULCONS Първомай БДС 400гр",
-      "image": "https://tmarketonline.bg/cdn/img/products/42931/lutenica-bulcons-parvomaj-bds-400gr-image_5f466ce6ac3a4.png?width=1920&height=1920&v=1777589903",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 4.18,
-      "lowest_price": 2.91,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
-        [
-          "2026-05-16",
-          5.36,
-          null,
-          null
-        ],
-        [
-          "2026-10-22",
-          4.28,
-          5.69,
-          25
-        ],
-        [
-          "2026-11-09",
-          2.91,
-          5.69,
-          49
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "buy"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 2.94,
@@ -88746,65 +90051,6 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 2,
       "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 2.95,
-      "new_price_eur": 1.51,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 1.48,
-      "price_per_kg_eur": 0.76,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 2.95,
-          "price_eur": 1.51,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 2.95,
-      "comparison_count": 1,
-      "product_id": "tmarket-бира-ариана-pet-2л-2000g",
-      "weight_grams": 2000,
-      "weight_raw": "2л",
-      "name": "Бира АРИАНА PET 2л",
-      "category": "drinks",
-      "emoji": "🍺",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 2.95,
-      "lowest_price": 2.95,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          2.95,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800022701032_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Kaufland",
@@ -89813,6 +91059,77 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 3.03,
+      "new_price_eur": 1.55,
+      "old_price": 3.76,
+      "old_price_eur": 1.92,
+      "discount_pct": 19,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-30",
+      "price_per_kg": 6.06,
+      "price_per_kg_eur": 3.1,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 3.03,
+          "price_eur": 1.55,
+          "old_price": 3.76,
+          "old_price_eur": 1.92,
+          "discount_pct": 19,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 3.03,
+      "comparison_count": 1,
+      "product_id": "tmarket-препарат-за-бебешки-съдове-бочко-500мл-500g",
+      "weight_grams": 500,
+      "weight_raw": "500мл",
+      "name": "Препарат за бебешки съдове БОЧКО 500мл",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00034390_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 3.45,
+      "lowest_price": 3.03,
+      "lowest_price_date": "2026-11-10",
+      "price_history": [
+        [
+          "2026-05-16",
+          3.56,
+          null,
+          null
+        ],
+        [
+          "2026-10-22",
+          3.76,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          3.03,
+          3.76,
+          19
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "buy"
+    },
+    {
       "store": "Kaufland",
       "address": null,
       "new_price": 3.05,
@@ -89888,6 +91205,71 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 4,
       "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 3.11,
+      "new_price_eur": 1.59,
+      "old_price": 4.75,
+      "old_price_eur": 2.43,
+      "discount_pct": 35,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 5.55,
+      "price_per_kg_eur": 2.84,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 3.11,
+          "price_eur": 1.59,
+          "old_price": 4.75,
+          "old_price_eur": 2.43,
+          "discount_pct": 35,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 3.11,
+      "comparison_count": 1,
+      "product_id": "tmarket-лютеница-първомаиски-оркестър-560г-560g",
+      "weight_grams": 560,
+      "weight_raw": "560г",
+      "name": "Лютеница ПЪРВОМАЙСКИ ОРКЕСТЪР 560г",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 3.93,
+      "lowest_price": 3.11,
+      "lowest_price_date": "2026-11-10",
+      "price_history": [
+        [
+          "2026-05-16",
+          4.75,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          3.11,
+          4.75,
+          35
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy",
+      "image": "https://tmarketonline.bg/cdn/img/products/43117/lutenica-pa̱rvomajski-orkesta̱r-310-g-69ae9a48cfeeb.jpeg?width=600&height=600&v=1777590041"
     },
     {
       "store": "T-Market",
@@ -90392,14 +91774,14 @@ const OFFERS_DATA = {
       "address": null,
       "new_price": 3.23,
       "new_price_eur": 1.65,
-      "old_price": 4.52,
-      "old_price_eur": 2.31,
-      "discount_pct": 29,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 6.46,
-      "price_per_kg_eur": 3.3,
-      "source_type": "promo",
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 1.61,
+      "price_per_kg_eur": 0.82,
+      "source_type": "assortment",
       "available_stores": [
         "T-Market"
       ],
@@ -90408,21 +91790,22 @@ const OFFERS_DATA = {
           "store": "T-Market",
           "price": 3.23,
           "price_eur": 1.65,
-          "old_price": 4.52,
-          "old_price_eur": 2.31,
-          "discount_pct": 29,
-          "source_type": "promo"
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "T-Market",
       "best_price": 3.23,
       "comparison_count": 1,
-      "product_id": "tmarket-точени-кори-фамилия-500гр-500g",
-      "weight_grams": 500,
-      "weight_raw": "500гр",
-      "name": "Точени кори ФАМИЛИЯ 500гр",
-      "category": "other",
-      "emoji": "🛒",
+      "product_id": "tmarket-бира-пиринско-pet-2л-2000g",
+      "weight_grams": 2000,
+      "weight_raw": "2л",
+      "name": "Бира ПИРИНСКО PET 2л",
+      "image": "https://pazarko.bg/api/brochure-images/TMarketBrochure_бира_пиринско_pet_1_2_л_1_2л.jpg",
+      "category": "drinks",
+      "emoji": "🍺",
       "is_food": false,
       "is_junk": false,
       "is_healthy": false,
@@ -90431,32 +91814,37 @@ const OFFERS_DATA = {
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
-      "avg_price": 4.01,
-      "lowest_price": 3.23,
+      "avg_price": 3.01,
+      "lowest_price": 2.58,
       "lowest_price_date": "2026-11-09",
       "price_history": [
         [
           "2026-05-16",
-          4.28,
+          3.01,
           null,
           null
         ],
         [
           "2026-10-22",
-          4.52,
+          3.23,
           null,
           null
         ],
         [
           "2026-11-09",
+          2.58,
           3.23,
-          4.52,
-          29
+          20
+        ],
+        [
+          "2026-11-10",
+          3.23,
+          null,
+          null
         ]
       ],
-      "price_seen_count": 3,
-      "price_signal": "buy",
-      "image": "https://tmarketonline.bg/cdn/img/products/46690/toceni-kori-familia-2h400gr-image_605220251dedd.jpeg?width=600&height=600&v=1777589936"
+      "price_seen_count": 4,
+      "price_signal": "normal"
     },
     {
       "store": "T-Market",
@@ -90812,65 +92200,6 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 9,
       "price_signal": "wait"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 3.27,
-      "new_price_eur": 1.67,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 36.33,
-      "price_per_kg_eur": 18.58,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 3.27,
-          "price_eur": 1.67,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 3.27,
-      "comparison_count": 1,
-      "product_id": "tmarket-шоколад-lacmi-млечен-90г-90g",
-      "weight_grams": 90,
-      "weight_raw": "90г",
-      "name": "Шоколад LACMI млечен 90г",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/4823077632570_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "grain",
-      "emoji": "🌾",
-      "is_food": false,
-      "is_junk": true,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "avg_price": 3.27,
-      "lowest_price": 3.27,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          3.27,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
     },
     {
       "store": "Kaufland",
@@ -91503,77 +92832,6 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 3.38,
-      "new_price_eur": 1.73,
-      "old_price": 4.22,
-      "old_price_eur": 2.16,
-      "discount_pct": 20,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 8.45,
-      "price_per_kg_eur": 4.32,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 3.38,
-          "price_eur": 1.73,
-          "old_price": 4.22,
-          "old_price_eur": 2.16,
-          "discount_pct": 20,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 3.38,
-      "comparison_count": 1,
-      "product_id": "tmarket-точени-кори-bella-400гр-400g",
-      "weight_grams": 400,
-      "weight_raw": "400гр",
-      "name": "Точени кори BELLA 400гр",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 3.4,
-      "lowest_price": 2.84,
-      "lowest_price_date": "2026-10-22",
-      "price_history": [
-        [
-          "2026-05-16",
-          3.99,
-          null,
-          null
-        ],
-        [
-          "2026-10-22",
-          2.84,
-          4.22,
-          33
-        ],
-        [
-          "2026-11-09",
-          3.38,
-          4.22,
-          20
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "normal",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/254_01201720_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 3.39,
@@ -91960,6 +93218,83 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 2,
       "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 3.42,
+      "new_price_eur": 1.75,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 13.68,
+      "price_per_kg_eur": 6.99,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 3.42,
+          "price_eur": 1.75,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 3.42,
+      "comparison_count": 1,
+      "product_id": "tmarket-бисквити-роден-краи-250-гр-250g",
+      "weight_grams": 250,
+      "weight_raw": "250 гр",
+      "name": "Бисквити РОДЕН КРАЙ 250 гр",
+      "image": "https://tmarketonline.bg/cdn/img/products/48518/biskviti-roden-kraj-250-gr-6288b3fab1154.png?width=600&height=600&v=1777589951",
+      "category": "grain",
+      "emoji": "🌾",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "avg_price": 3.0,
+      "lowest_price": 2.56,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-04-20",
+          3.29,
+          null,
+          null
+        ],
+        [
+          "2026-10-22",
+          2.74,
+          3.42,
+          20
+        ],
+        [
+          "2026-11-09",
+          2.56,
+          3.42,
+          25
+        ],
+        [
+          "2026-11-10",
+          3.42,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "wait"
     },
     {
       "store": "T-Market",
@@ -92854,6 +94189,77 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
+      "price_per_kg": 1.78,
+      "price_per_kg_eur": 0.91,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 3.56,
+          "price_eur": 1.82,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 3.56,
+      "comparison_count": 1,
+      "product_id": "tmarket-бира-бургаско-pet-2л-2000g",
+      "weight_grams": 2000,
+      "weight_raw": "2л",
+      "name": "Бира БУРГАСКО PET 2л",
+      "image": "https://pazarko.bg/api/brochure-images/TMarketBrochure_бира_бургаско_pet_2_л_2л.jpg",
+      "category": "drinks",
+      "emoji": "🍺",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 3.08,
+      "lowest_price": 2.13,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-05-16",
+          3.56,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          2.13,
+          3.56,
+          40
+        ],
+        [
+          "2026-11-10",
+          3.56,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "wait"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 3.56,
+      "new_price_eur": 1.82,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
       "price_per_kg": null,
       "price_per_kg_eur": null,
       "source_type": "assortment",
@@ -93056,6 +94462,81 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 12,
       "price_signal": "good"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 3.57,
+      "new_price_eur": 1.83,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-11-09",
+      "valid_until": "2026-11-15",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 3.57,
+          "price_eur": 1.83,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 3.57,
+      "comparison_count": 1,
+      "product_id": "kaufland-букет-рози",
+      "name": "Букет рози",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/09902898_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 9.71,
+      "lowest_price": 3.57,
+      "lowest_price_date": "2026-11-10",
+      "price_history": [
+        [
+          "2026-04-14",
+          4.99,
+          null,
+          null
+        ],
+        [
+          "2026-07-14",
+          17.58,
+          null,
+          null
+        ],
+        [
+          "2026-07-16",
+          12.69,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          3.57,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "buy"
     },
     {
       "store": "Kaufland",
@@ -93654,71 +95135,6 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 4,
       "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 3.76,
-      "new_price_eur": 1.92,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 7.52,
-      "price_per_kg_eur": 3.84,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 3.76,
-          "price_eur": 1.92,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 3.76,
-      "comparison_count": 1,
-      "product_id": "tmarket-препарат-за-бебешки-съдове-бочко-500мл-500g",
-      "weight_grams": 500,
-      "weight_raw": "500мл",
-      "name": "Препарат за бебешки съдове БОЧКО 500мл",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00034390_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 3.66,
-      "lowest_price": 3.56,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          3.56,
-          null,
-          null
-        ],
-        [
-          "2026-10-22",
-          3.76,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "normal"
     },
     {
       "store": "Kaufland",
@@ -94558,148 +95974,6 @@ const OFFERS_DATA = {
       "address": null,
       "new_price": 3.89,
       "new_price_eur": 1.99,
-      "old_price": 5.98,
-      "old_price_eur": 3.06,
-      "discount_pct": 35,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 12.97,
-      "price_per_kg_eur": 6.63,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 3.89,
-          "price_eur": 1.99,
-          "old_price": 5.98,
-          "old_price_eur": 3.06,
-          "discount_pct": 35,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 3.89,
-      "comparison_count": 1,
-      "product_id": "tmarket-колбас-тандем-камчия-300гр-300g",
-      "weight_grams": 300,
-      "weight_raw": "300гр",
-      "name": "Колбас ТАНДЕМ камчия 300гр",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 4.79,
-      "lowest_price": 3.89,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
-        [
-          "2026-05-16",
-          4.49,
-          5.98,
-          25
-        ],
-        [
-          "2026-10-22",
-          5.98,
-          null,
-          null
-        ],
-        [
-          "2026-11-09",
-          3.89,
-          5.98,
-          35
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "buy",
-      "image": "https://tmarketonline.bg/cdn/img/products/39482/kolbas-tandem-kamcia-300-g-69834297c3c12.jpeg?width=600&height=600&v=1777590031"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 3.89,
-      "new_price_eur": 1.99,
-      "old_price": 5.98,
-      "old_price_eur": 3.06,
-      "discount_pct": 35,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 12.97,
-      "price_per_kg_eur": 6.63,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 3.89,
-          "price_eur": 1.99,
-          "old_price": 5.98,
-          "old_price_eur": 3.06,
-          "discount_pct": 35,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 3.89,
-      "comparison_count": 1,
-      "product_id": "tmarket-колбас-тандем-хамбургски-300гр-300g",
-      "weight_grams": 300,
-      "weight_raw": "300гр",
-      "name": "Колбас ТАНДЕМ хамбургски 300гр",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 4.79,
-      "lowest_price": 3.89,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
-        [
-          "2026-05-16",
-          4.49,
-          5.98,
-          25
-        ],
-        [
-          "2026-10-22",
-          5.98,
-          null,
-          null
-        ],
-        [
-          "2026-11-09",
-          3.89,
-          5.98,
-          35
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "buy",
-      "image": "https://tmarketonline.bg/cdn/img/products/39485/kolbas-tandem-hamburgski-300-g-698342bf822e5.jpeg?width=600&height=600&v=1777590031"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 3.89,
-      "new_price_eur": 1.99,
       "old_price": null,
       "old_price_eur": null,
       "discount_pct": null,
@@ -94953,6 +96227,148 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 3.89,
+      "new_price_eur": 1.99,
+      "old_price": 4.75,
+      "old_price_eur": 2.43,
+      "discount_pct": 18,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-30",
+      "price_per_kg": 5.19,
+      "price_per_kg_eur": 2.65,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 3.89,
+          "price_eur": 1.99,
+          "old_price": 4.75,
+          "old_price_eur": 2.43,
+          "discount_pct": 18,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 3.89,
+      "comparison_count": 1,
+      "product_id": "tmarket-препарат-за-съдове-pur-aloe-vera-750мл-750g",
+      "weight_grams": 750,
+      "weight_raw": "750мл",
+      "name": "Препарат за съдове PUR Aloe Vera 750мл",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4337185196898_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "household",
+      "emoji": "🧹",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": true,
+      "is_long_lasting": true,
+      "avg_price": 4.15,
+      "lowest_price": 3.81,
+      "lowest_price_date": "2026-05-16",
+      "price_history": [
+        [
+          "2026-05-16",
+          3.81,
+          4.75,
+          20
+        ],
+        [
+          "2026-10-22",
+          4.75,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          3.89,
+          4.75,
+          18
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 3.89,
+      "new_price_eur": 1.99,
+      "old_price": 4.75,
+      "old_price_eur": 2.43,
+      "discount_pct": 18,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-30",
+      "price_per_kg": 5.19,
+      "price_per_kg_eur": 2.65,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 3.89,
+          "price_eur": 1.99,
+          "old_price": 4.75,
+          "old_price_eur": 2.43,
+          "discount_pct": 18,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 3.89,
+      "comparison_count": 1,
+      "product_id": "tmarket-препарат-за-съдове-pur-lemon-750мл-750g",
+      "weight_grams": 750,
+      "weight_raw": "750мл",
+      "name": "Препарат за съдове PUR Lemon 750мл",
+      "image": "https://tmarketonline.bg/cdn/img/products/55735/preparat-za-sadove-fairy-lemon-2x750-ml-68587b60b40af.jpeg?width=1920&height=1920&v=1777590016",
+      "category": "household",
+      "emoji": "🧹",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": true,
+      "is_long_lasting": true,
+      "avg_price": 4.15,
+      "lowest_price": 3.81,
+      "lowest_price_date": "2026-05-16",
+      "price_history": [
+        [
+          "2026-05-16",
+          3.81,
+          4.75,
+          20
+        ],
+        [
+          "2026-10-22",
+          4.75,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          3.89,
+          4.75,
+          18
+        ]
+      ],
+      "price_seen_count": 3,
       "price_signal": "buy"
     },
     {
@@ -96612,6 +98028,148 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 4.19,
+      "new_price_eur": 2.14,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 10.48,
+      "price_per_kg_eur": 5.36,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 4.19,
+          "price_eur": 2.14,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 4.19,
+      "comparison_count": 1,
+      "product_id": "tmarket-преп-за-съдове-ехо-балсам-лаика-400мл-400g",
+      "weight_grams": 400,
+      "weight_raw": "400мл",
+      "name": "Преп. за съдове ЕХО Балсам Лайка 400мл",
+      "image": "https://api.bulmag.org/thumbnails/572cc548cce103e1ba25df2125212c5a.JPG",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 3.67,
+      "lowest_price": 2.64,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-05-16",
+          4.19,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          2.64,
+          4.19,
+          37
+        ],
+        [
+          "2026-11-10",
+          4.19,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "wait"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 4.19,
+      "new_price_eur": 2.14,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 10.48,
+      "price_per_kg_eur": 5.36,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 4.19,
+          "price_eur": 2.14,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 4.19,
+      "comparison_count": 1,
+      "product_id": "tmarket-преп-за-съдове-ехо-балсам-люляк-400мл-400g",
+      "weight_grams": 400,
+      "weight_raw": "400мл",
+      "name": "Преп. за съдове ЕХО Балсам Люляк 400мл",
+      "image": "https://api.bulmag.org/thumbnails/ddd939749731353367c573079030c299.png",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 3.67,
+      "lowest_price": 2.64,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-05-16",
+          4.19,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          2.64,
+          4.19,
+          37
+        ],
+        [
+          "2026-11-10",
+          4.19,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "wait"
+    },
+    {
       "store": "Kaufland",
       "address": null,
       "new_price": 4.21,
@@ -96715,14 +98273,14 @@ const OFFERS_DATA = {
       "address": null,
       "new_price": 4.22,
       "new_price_eur": 2.16,
-      "old_price": 6.04,
-      "old_price_eur": 3.09,
-      "discount_pct": 30,
-      "valid_from": "2026-10-20",
-      "valid_until": "2026-11-09",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 10.55,
+      "price_per_kg_eur": 5.39,
+      "source_type": "assortment",
       "available_stores": [
         "T-Market"
       ],
@@ -96731,20 +98289,21 @@ const OFFERS_DATA = {
           "store": "T-Market",
           "price": 4.22,
           "price_eur": 2.16,
-          "old_price": 6.04,
-          "old_price_eur": 3.09,
-          "discount_pct": 30,
-          "source_type": "promo"
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "T-Market",
       "best_price": 4.22,
       "comparison_count": 1,
-      "product_id": "tmarket-четка-за-зъби-parodont-active-1бр",
-      "name": "Четка за зъби PARODONT Active 1бр",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/e2a65340-202f-43d4-bbb6-a3d715746799.png",
-      "category": "hygiene",
-      "emoji": "🧴",
+      "product_id": "tmarket-точени-кори-bella-400гр-400g",
+      "weight_grams": 400,
+      "weight_raw": "400гр",
+      "name": "Точени кори BELLA 400гр",
+      "category": "other",
+      "emoji": "🛒",
       "is_food": false,
       "is_junk": false,
       "is_healthy": false,
@@ -96752,26 +98311,39 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "avg_price": 5.13,
-      "lowest_price": 4.22,
+      "is_long_lasting": false,
+      "avg_price": 3.61,
+      "lowest_price": 2.84,
       "lowest_price_date": "2026-10-22",
       "price_history": [
         [
           "2026-05-16",
-          6.04,
+          3.99,
           null,
           null
         ],
         [
           "2026-10-22",
+          2.84,
           4.22,
-          6.04,
-          30
+          33
+        ],
+        [
+          "2026-11-09",
+          3.38,
+          4.22,
+          20
+        ],
+        [
+          "2026-11-10",
+          4.22,
+          null,
+          null
         ]
       ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
+      "price_seen_count": 4,
+      "price_signal": "wait",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/254_01201720_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Kaufland",
@@ -97785,136 +99357,6 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 4.4,
-      "new_price_eur": 2.25,
-      "old_price": 6.3,
-      "old_price_eur": 3.22,
-      "discount_pct": 30,
-      "valid_from": "2026-10-20",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 58.67,
-      "price_per_kg_eur": 30.0,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 4.4,
-          "price_eur": 2.25,
-          "old_price": 6.3,
-          "old_price_eur": 3.22,
-          "discount_pct": 30,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 4.4,
-      "comparison_count": 1,
-      "product_id": "tmarket-паста-за-зъби-parodont-active-75мл-75g",
-      "weight_grams": 75,
-      "weight_raw": "75мл",
-      "name": "Паста за зъби PARODONT Active 75мл",
-      "image": "https://tmarketonline.bg/cdn/img/products/39315/pasta-za-zabi-astera-parodont-active-75-ml-image_5ea2ca470ba9e.png?width=1920&height=1920&v=1777589875",
-      "category": "hygiene",
-      "emoji": "🧴",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": true,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "avg_price": 5.35,
-      "lowest_price": 4.4,
-      "lowest_price_date": "2026-10-22",
-      "price_history": [
-        [
-          "2026-05-16",
-          6.3,
-          null,
-          null
-        ],
-        [
-          "2026-10-22",
-          4.4,
-          6.3,
-          30
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 4.4,
-      "new_price_eur": 2.25,
-      "old_price": 6.3,
-      "old_price_eur": 3.22,
-      "discount_pct": 30,
-      "valid_from": "2026-10-20",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 58.67,
-      "price_per_kg_eur": 30.0,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 4.4,
-          "price_eur": 2.25,
-          "old_price": 6.3,
-          "old_price_eur": 3.22,
-          "discount_pct": 30,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 4.4,
-      "comparison_count": 1,
-      "product_id": "tmarket-паста-за-зъби-parodont-active-white-75мл-75g",
-      "weight_grams": 75,
-      "weight_raw": "75мл",
-      "name": "Паста за зъби PARODONT Active White 75мл",
-      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/e2a65340-202f-43d4-bbb6-a3d715746799.png",
-      "category": "hygiene",
-      "emoji": "🧴",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": true,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "avg_price": 5.35,
-      "lowest_price": 4.4,
-      "lowest_price_date": "2026-10-22",
-      "price_history": [
-        [
-          "2026-05-16",
-          6.3,
-          null,
-          null
-        ],
-        [
-          "2026-10-22",
-          4.4,
-          6.3,
-          30
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
       "new_price": 4.48,
       "new_price_eur": 2.29,
       "old_price": 7.41,
@@ -98110,6 +99552,83 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 1,
       "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 4.52,
+      "new_price_eur": 2.31,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 9.04,
+      "price_per_kg_eur": 4.62,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 4.52,
+          "price_eur": 2.31,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 4.52,
+      "comparison_count": 1,
+      "product_id": "tmarket-точени-кори-фамилия-500гр-500g",
+      "weight_grams": 500,
+      "weight_raw": "500гр",
+      "name": "Точени кори ФАМИЛИЯ 500гр",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 4.14,
+      "lowest_price": 3.23,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-05-16",
+          4.28,
+          null,
+          null
+        ],
+        [
+          "2026-10-22",
+          4.52,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          3.23,
+          4.52,
+          29
+        ],
+        [
+          "2026-11-10",
+          4.52,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "wait",
+      "image": "https://tmarketonline.bg/cdn/img/products/46690/toceni-kori-familia-2h400gr-image_605220251dedd.jpeg?width=600&height=600&v=1777589936"
     },
     {
       "store": "Kaufland",
@@ -98734,13 +100253,13 @@ const OFFERS_DATA = {
       "address": null,
       "new_price": 4.67,
       "new_price_eur": 2.39,
-      "old_price": 7.96,
-      "old_price_eur": 4.07,
-      "discount_pct": 41,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 5.84,
-      "price_per_kg_eur": 2.99,
+      "old_price": 8.0,
+      "old_price_eur": 4.09,
+      "discount_pct": 42,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-30",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
       "source_type": "promo",
       "available_stores": [
         "T-Market"
@@ -98750,20 +100269,17 @@ const OFFERS_DATA = {
           "store": "T-Market",
           "price": 4.67,
           "price_eur": 2.39,
-          "old_price": 7.96,
-          "old_price_eur": 4.07,
-          "discount_pct": 41,
+          "old_price": 8.0,
+          "old_price_eur": 4.09,
+          "discount_pct": 42,
           "source_type": "promo"
         }
       ],
       "best_price_store": "T-Market",
       "best_price": 4.67,
       "comparison_count": 1,
-      "product_id": "tmarket-варен-колбас-фермата-800-г-800g",
-      "weight_grams": 800,
-      "weight_raw": "800 г",
-      "name": "Варен колбас ФЕРМАТА 800 г",
-      "image": "https://tmarketonline.bg/cdn/img/products/49300/varen-kolbas-fermata-800-gr-634e80a162785.png?width=1920&height=1920&v=1777589959",
+      "product_id": "tmarket-тоал-хартия-familia-magic-fl-3пл-8бр",
+      "name": "Тоал.хартия FAMILIA Magic Fl.3пл 8бр.",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -98774,31 +100290,107 @@ const OFFERS_DATA = {
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
-      "avg_price": 6.77,
-      "lowest_price": 4.67,
-      "lowest_price_date": "2026-11-09",
+      "avg_price": 5.88,
+      "lowest_price": 4.0,
+      "lowest_price_date": "2026-05-16",
       "price_history": [
         [
           "2026-05-16",
-          7.69,
-          null,
-          null
+          4.0,
+          8.0,
+          50
         ],
         [
           "2026-10-22",
-          7.96,
+          6.83,
+          8.0,
+          15
+        ],
+        [
+          "2026-11-09",
+          8.0,
           null,
           null
         ],
         [
-          "2026-11-09",
+          "2026-11-10",
           4.67,
-          7.96,
-          41
+          8.0,
+          42
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "good",
+      "image": "https://api.bulmag.org/thumbnails/25919708a9694110d1c3d897d2578fe1.png"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 4.67,
+      "new_price_eur": 2.39,
+      "old_price": 8.0,
+      "old_price_eur": 4.09,
+      "discount_pct": 42,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-30",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 4.67,
+          "price_eur": 2.39,
+          "old_price": 8.0,
+          "old_price_eur": 4.09,
+          "discount_pct": 42,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 4.67,
+      "comparison_count": 1,
+      "product_id": "tmarket-тоал-хартия-familia-бяла-3пл-8бр",
+      "name": "Тоал.хартия FAMILIA бяла 3пл 8бр.",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 5.56,
+      "lowest_price": 4.0,
+      "lowest_price_date": "2026-05-16",
+      "price_history": [
+        [
+          "2026-05-16",
+          4.0,
+          8.0,
+          50
+        ],
+        [
+          "2026-10-22",
+          8.0,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          4.67,
+          8.0,
+          42
         ]
       ],
       "price_seen_count": 3,
-      "price_signal": "buy"
+      "price_signal": "good",
+      "image": "https://api.bulmag.org/thumbnails/502e2a38cbbd88f2c26f170a108cbf96.png"
     },
     {
       "store": "Kaufland",
@@ -98947,195 +100539,6 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 2,
       "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 4.75,
-      "new_price_eur": 2.43,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 8.48,
-      "price_per_kg_eur": 4.34,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 4.75,
-          "price_eur": 2.43,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 4.75,
-      "comparison_count": 1,
-      "product_id": "tmarket-лютеница-първомаиски-оркестър-560г-560g",
-      "weight_grams": 560,
-      "weight_raw": "560г",
-      "name": "Лютеница ПЪРВОМАЙСКИ ОРКЕСТЪР 560г",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 4.75,
-      "lowest_price": 4.75,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          4.75,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy",
-      "image": "https://tmarketonline.bg/cdn/img/products/43117/lutenica-pa̱rvomajski-orkesta̱r-310-g-69ae9a48cfeeb.jpeg?width=600&height=600&v=1777590041"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 4.75,
-      "new_price_eur": 2.43,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 6.33,
-      "price_per_kg_eur": 3.24,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 4.75,
-          "price_eur": 2.43,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 4.75,
-      "comparison_count": 1,
-      "product_id": "tmarket-препарат-за-съдове-pur-aloe-vera-750мл-750g",
-      "weight_grams": 750,
-      "weight_raw": "750мл",
-      "name": "Препарат за съдове PUR Aloe Vera 750мл",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/4337185196898_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "household",
-      "emoji": "🧹",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": true,
-      "is_long_lasting": true,
-      "avg_price": 4.28,
-      "lowest_price": 3.81,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          3.81,
-          4.75,
-          20
-        ],
-        [
-          "2026-10-22",
-          4.75,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "wait"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 4.75,
-      "new_price_eur": 2.43,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 6.33,
-      "price_per_kg_eur": 3.24,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 4.75,
-          "price_eur": 2.43,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 4.75,
-      "comparison_count": 1,
-      "product_id": "tmarket-препарат-за-съдове-pur-lemon-750мл-750g",
-      "weight_grams": 750,
-      "weight_raw": "750мл",
-      "name": "Препарат за съдове PUR Lemon 750мл",
-      "image": "https://tmarketonline.bg/cdn/img/products/55735/preparat-za-sadove-fairy-lemon-2x750-ml-68587b60b40af.jpeg?width=1920&height=1920&v=1777590016",
-      "category": "household",
-      "emoji": "🧹",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": true,
-      "is_long_lasting": true,
-      "avg_price": 4.28,
-      "lowest_price": 3.81,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          3.81,
-          4.75,
-          20
-        ],
-        [
-          "2026-10-22",
-          4.75,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "wait"
     },
     {
       "store": "Kaufland",
@@ -99300,15 +100703,15 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 4.87,
-      "new_price_eur": 2.49,
+      "new_price": 4.79,
+      "new_price_eur": 2.45,
       "old_price": 5.36,
       "old_price_eur": 2.74,
-      "discount_pct": 9,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 48.7,
-      "price_per_kg_eur": 24.9,
+      "discount_pct": 11,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-30",
+      "price_per_kg": 47.9,
+      "price_per_kg_eur": 24.49,
       "source_type": "promo",
       "available_stores": [
         "T-Market"
@@ -99316,16 +100719,16 @@ const OFFERS_DATA = {
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 4.87,
-          "price_eur": 2.49,
+          "price": 4.79,
+          "price_eur": 2.45,
           "old_price": 5.36,
           "old_price_eur": 2.74,
-          "discount_pct": 9,
+          "discount_pct": 11,
           "source_type": "promo"
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 4.87,
+      "best_price": 4.79,
       "comparison_count": 1,
       "product_id": "tmarket-шоколад-merci-млечен-100-гр-100g",
       "weight_grams": 100,
@@ -99342,9 +100745,9 @@ const OFFERS_DATA = {
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": true,
-      "avg_price": 5.03,
-      "lowest_price": 4.87,
-      "lowest_price_date": "2026-05-16",
+      "avg_price": 4.97,
+      "lowest_price": 4.79,
+      "lowest_price_date": "2026-11-10",
       "price_history": [
         [
           "2026-05-16",
@@ -99363,9 +100766,15 @@ const OFFERS_DATA = {
           4.87,
           5.36,
           9
+        ],
+        [
+          "2026-11-10",
+          4.79,
+          5.36,
+          11
         ]
       ],
-      "price_seen_count": 3,
+      "price_seen_count": 4,
       "price_signal": "buy"
     },
     {
@@ -99950,71 +101359,6 @@ const OFFERS_DATA = {
           4.99,
           10.59,
           53
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 4.99,
-      "new_price_eur": 2.55,
-      "old_price": 5.89,
-      "old_price_eur": 3.01,
-      "discount_pct": 15,
-      "valid_from": "2026-10-20",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 8.75,
-      "price_per_kg_eur": 4.47,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 4.99,
-          "price_eur": 2.55,
-          "old_price": 5.89,
-          "old_price_eur": 3.01,
-          "discount_pct": 15,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 4.99,
-      "comparison_count": 1,
-      "product_id": "tmarket-лютеница-селце-едро-смляна-570гр-570g",
-      "weight_grams": 570,
-      "weight_raw": "570гр",
-      "name": "Лютеница СЕЛЦЕ едро смляна 570гр",
-      "image": "https://tmarketonline.bg/cdn/img/products/43302/lutenica-selce-edro-smlana-570gr-image_5f466ef388240.jpeg?width=1920&height=1920&v=1777589903",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 5.44,
-      "lowest_price": 4.99,
-      "lowest_price_date": "2026-10-22",
-      "price_history": [
-        [
-          "2026-05-16",
-          5.89,
-          null,
-          null
-        ],
-        [
-          "2026-10-22",
-          4.99,
-          5.89,
-          15
         ]
       ],
       "price_seen_count": 2,
@@ -101090,6 +102434,136 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 5.57,
+      "new_price_eur": 2.85,
+      "old_price": 7.84,
+      "old_price_eur": 4.01,
+      "discount_pct": 29,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 6.19,
+      "price_per_kg_eur": 3.16,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 5.57,
+          "price_eur": 2.85,
+          "old_price": 7.84,
+          "old_price_eur": 4.01,
+          "discount_pct": 29,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 5.57,
+      "comparison_count": 1,
+      "product_id": "tmarket-препарат-за-съдове-fairy-pom-oran-900мл-900g",
+      "weight_grams": 900,
+      "weight_raw": "900мл",
+      "name": "Препарат за съдове FAIRY Pom&Oran 900мл",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00045043?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "household",
+      "emoji": "🧹",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": true,
+      "is_long_lasting": true,
+      "avg_price": 6.71,
+      "lowest_price": 5.57,
+      "lowest_price_date": "2026-11-10",
+      "price_history": [
+        [
+          "2026-05-16",
+          7.84,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          5.57,
+          7.84,
+          29
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 5.57,
+      "new_price_eur": 2.85,
+      "old_price": 7.84,
+      "old_price_eur": 4.01,
+      "discount_pct": 29,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 6.19,
+      "price_per_kg_eur": 3.16,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 5.57,
+          "price_eur": 2.85,
+          "old_price": 7.84,
+          "old_price_eur": 4.01,
+          "discount_pct": 29,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 5.57,
+      "comparison_count": 1,
+      "product_id": "tmarket-препарат-за-съдове-fairy-lemon-900мл-900g",
+      "weight_grams": 900,
+      "weight_raw": "900мл",
+      "name": "Препарат за съдове FAIRY Lemon 900мл",
+      "image": "https://tmarketonline.bg/cdn/img/products/55735/preparat-za-sadove-fairy-lemon-2x750-ml-68587b60b40af.jpeg?width=1920&height=1920&v=1777590016",
+      "category": "household",
+      "emoji": "🧹",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": true,
+      "is_long_lasting": true,
+      "avg_price": 6.71,
+      "lowest_price": 5.57,
+      "lowest_price_date": "2026-11-10",
+      "price_history": [
+        [
+          "2026-05-16",
+          7.84,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          5.57,
+          7.84,
+          29
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
       "store": "Kaufland",
       "address": null,
       "new_price": 5.59,
@@ -101488,6 +102962,65 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 1,
       "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 5.69,
+      "new_price_eur": 2.91,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 14.23,
+      "price_per_kg_eur": 7.28,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 5.69,
+          "price_eur": 2.91,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 5.69,
+      "comparison_count": 1,
+      "product_id": "tmarket-лютеница-bulcons-първомаи-400гр-400g",
+      "weight_grams": 400,
+      "weight_raw": "400гр",
+      "name": "Лютеница BULCONS Първомай 400гр",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 5.69,
+      "lowest_price": 5.69,
+      "lowest_price_date": "2026-11-10",
+      "price_history": [
+        [
+          "2026-11-10",
+          5.69,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20833383_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "Kaufland",
@@ -101890,35 +103423,38 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 5.85,
-      "new_price_eur": 2.99,
-      "old_price": 12.56,
-      "old_price_eur": 6.42,
-      "discount_pct": 53,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
+      "new_price": 5.89,
+      "new_price_eur": 3.01,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 10.33,
+      "price_per_kg_eur": 5.28,
+      "source_type": "assortment",
       "available_stores": [
         "T-Market"
       ],
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 5.85,
-          "price_eur": 2.99,
-          "old_price": 12.56,
-          "old_price_eur": 6.42,
-          "discount_pct": 53,
-          "source_type": "promo"
+          "price": 5.89,
+          "price_eur": 3.01,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 5.85,
+      "best_price": 5.89,
       "comparison_count": 1,
-      "product_id": "tmarket-св-плешка-без-кост-нас-кг-пр-испания",
-      "name": "Св.плешка без кост нас.кг пр. Испания",
+      "product_id": "tmarket-лютеница-селце-едро-смляна-570гр-570g",
+      "weight_grams": 570,
+      "weight_raw": "570гр",
+      "name": "Лютеница СЕЛЦЕ едро смляна 570гр",
+      "image": "https://tmarketonline.bg/cdn/img/products/43302/lutenica-selce-edro-smlana-570gr-image_5f466ef388240.jpeg?width=1920&height=1920&v=1777589903",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -101929,150 +103465,31 @@ const OFFERS_DATA = {
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
-      "avg_price": 9.21,
-      "lowest_price": 5.85,
+      "avg_price": 5.59,
+      "lowest_price": 4.99,
       "lowest_price_date": "2026-10-22",
       "price_history": [
         [
           "2026-05-16",
-          12.56,
+          5.89,
           null,
           null
         ],
         [
           "2026-10-22",
-          5.85,
-          12.56,
-          53
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 5.85,
-      "new_price_eur": 2.99,
-      "old_price": 12.56,
-      "old_price_eur": 6.42,
-      "discount_pct": 53,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 5.85,
-      "price_per_kg_eur": 2.99,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 5.85,
-          "price_eur": 2.99,
-          "old_price": 12.56,
-          "old_price_eur": 6.42,
-          "discount_pct": 53,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 5.85,
-      "comparison_count": 1,
-      "product_id": "tmarket-св-плешка-без-кост-пр-испания-вак-кг",
-      "name": "Св. плешка без кост пр. Испания вак.кг",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 9.21,
-      "lowest_price": 5.85,
-      "lowest_price_date": "2026-10-22",
-      "price_history": [
-        [
-          "2026-05-16",
-          12.56,
-          null,
-          null
+          4.99,
+          5.89,
+          15
         ],
         [
-          "2026-10-22",
-          5.85,
-          12.56,
-          53
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 5.97,
-      "new_price_eur": 3.05,
-      "old_price": 7.45,
-      "old_price_eur": 3.81,
-      "discount_pct": 20,
-      "valid_from": "2026-10-20",
-      "valid_until": "2026-11-09",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 5.97,
-          "price_eur": 3.05,
-          "old_price": 7.45,
-          "old_price_eur": 3.81,
-          "discount_pct": 20,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 5.97,
-      "comparison_count": 1,
-      "product_id": "tmarket-тоалетна-хартия-maliva-romance-8бр-3пл",
-      "name": "Тоалетна хартия MALIVA Romance 8бр 3пл",
-      "image": "https://tmarketonline.bg/cdn/img/products/47633/toaletna-hartia-maliva-romance-8br-3pl-image_615d89c77fdf2.jpeg?width=1920&height=1920&v=1777589945",
-      "category": "hygiene",
-      "emoji": "🧴",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "avg_price": 6.71,
-      "lowest_price": 5.97,
-      "lowest_price_date": "2026-10-22",
-      "price_history": [
-        [
-          "2026-05-16",
-          7.45,
+          "2026-11-10",
+          5.89,
           null,
           null
-        ],
-        [
-          "2026-10-22",
-          5.97,
-          7.45,
-          20
         ]
       ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
+      "price_seen_count": 3,
+      "price_signal": "normal"
     },
     {
       "store": "T-Market",
@@ -102084,8 +103501,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": 7.97,
-      "price_per_kg_eur": 4.07,
+      "price_per_kg": 19.93,
+      "price_per_kg_eur": 10.19,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -102104,10 +103521,10 @@ const OFFERS_DATA = {
       "best_price_store": "T-Market",
       "best_price": 5.98,
       "comparison_count": 1,
-      "product_id": "tmarket-колбас-колбасо-хамбургски-750гр-750g",
-      "weight_grams": 750,
-      "weight_raw": "750гр",
-      "name": "Колбас КОЛБАСО хамбургски 750гр",
+      "product_id": "tmarket-колбас-тандем-камчия-300гр-300g",
+      "weight_grams": 300,
+      "weight_raw": "300гр",
+      "name": "Колбас ТАНДЕМ камчия 300гр",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -102118,32 +103535,38 @@ const OFFERS_DATA = {
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
-      "avg_price": 4.86,
-      "lowest_price": 4.09,
-      "lowest_price_date": "2026-05-16",
+      "avg_price": 5.09,
+      "lowest_price": 3.89,
+      "lowest_price_date": "2026-11-09",
       "price_history": [
         [
           "2026-05-16",
-          4.09,
-          5.98,
-          32
-        ],
-        [
-          "2026-10-22",
-          4.5,
+          4.49,
           5.98,
           25
         ],
         [
+          "2026-10-22",
+          5.98,
+          null,
+          null
+        ],
+        [
           "2026-11-09",
+          3.89,
+          5.98,
+          35
+        ],
+        [
+          "2026-11-10",
           5.98,
           null,
           null
         ]
       ],
-      "price_seen_count": 3,
+      "price_seen_count": 4,
       "price_signal": "wait",
-      "image": "https://tmarketonline.bg/cdn/img/products/55708/kolbas-kolbaso-hamburski-500-g-6857b1923648c.jpeg?width=600&height=600&v=1777590015"
+      "image": "https://tmarketonline.bg/cdn/img/products/39482/kolbas-tandem-kamcia-300-g-69834297c3c12.jpeg?width=600&height=600&v=1777590031"
     },
     {
       "store": "T-Market",
@@ -102155,8 +103578,8 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": 7.97,
-      "price_per_kg_eur": 4.07,
+      "price_per_kg": 19.93,
+      "price_per_kg_eur": 10.19,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -102175,10 +103598,10 @@ const OFFERS_DATA = {
       "best_price_store": "T-Market",
       "best_price": 5.98,
       "comparison_count": 1,
-      "product_id": "tmarket-колбас-колбасо-камчия-750гр-750g",
-      "weight_grams": 750,
-      "weight_raw": "750гр",
-      "name": "Колбас КОЛБАСО камчия 750гр",
+      "product_id": "tmarket-колбас-тандем-хамбургски-300гр-300g",
+      "weight_grams": 300,
+      "weight_raw": "300гр",
+      "name": "Колбас ТАНДЕМ хамбургски 300гр",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -102189,32 +103612,38 @@ const OFFERS_DATA = {
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
-      "avg_price": 4.86,
-      "lowest_price": 4.09,
-      "lowest_price_date": "2026-05-16",
+      "avg_price": 5.09,
+      "lowest_price": 3.89,
+      "lowest_price_date": "2026-11-09",
       "price_history": [
         [
           "2026-05-16",
-          4.09,
-          5.98,
-          32
-        ],
-        [
-          "2026-10-22",
-          4.5,
+          4.49,
           5.98,
           25
         ],
         [
+          "2026-10-22",
+          5.98,
+          null,
+          null
+        ],
+        [
           "2026-11-09",
+          3.89,
+          5.98,
+          35
+        ],
+        [
+          "2026-11-10",
           5.98,
           null,
           null
         ]
       ],
-      "price_seen_count": 3,
+      "price_seen_count": 4,
       "price_signal": "wait",
-      "image": "https://tmarketonline.bg/cdn/img/products/55705/kolbas-kolbaso-kamcia-500-g-6857b208470ea.jpeg?width=600&height=600&v=1777590015"
+      "image": "https://tmarketonline.bg/cdn/img/products/39485/kolbas-tandem-hamburgski-300-g-698342bf822e5.jpeg?width=600&height=600&v=1777590031"
     },
     {
       "store": "T-Market",
@@ -102953,6 +104382,75 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 6.04,
+      "new_price_eur": 3.09,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 6.04,
+          "price_eur": 3.09,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 6.04,
+      "comparison_count": 1,
+      "product_id": "tmarket-четка-за-зъби-parodont-active-1бр",
+      "name": "Четка за зъби PARODONT Active 1бр",
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/e2a65340-202f-43d4-bbb6-a3d715746799.png",
+      "category": "hygiene",
+      "emoji": "🧴",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "avg_price": 5.43,
+      "lowest_price": 4.22,
+      "lowest_price_date": "2026-10-22",
+      "price_history": [
+        [
+          "2026-05-16",
+          6.04,
+          null,
+          null
+        ],
+        [
+          "2026-10-22",
+          4.22,
+          6.04,
+          30
+        ],
+        [
+          "2026-11-10",
+          6.04,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "wait"
+    },
+    {
       "store": "Kaufland",
       "address": null,
       "new_price": 6.09,
@@ -103014,6 +104512,217 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 2,
       "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 6.09,
+      "new_price_eur": 3.11,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-11-09",
+      "valid_until": "2026-11-15",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 6.09,
+          "price_eur": 3.11,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 6.09,
+      "comparison_count": 1,
+      "product_id": "kaufland-антуриум-оцветен-стаино-растение",
+      "name": "Антуриум оцветен Стайно растение",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 6.09,
+      "lowest_price": 6.09,
+      "lowest_price_date": "2026-11-10",
+      "price_history": [
+        [
+          "2026-11-10",
+          6.09,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/174_09902105_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 6.12,
+      "new_price_eur": 3.13,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 8.16,
+      "price_per_kg_eur": 4.17,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 6.12,
+          "price_eur": 3.13,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 6.12,
+      "comparison_count": 1,
+      "product_id": "tmarket-колбас-колбасо-хамбургски-750гр-750g",
+      "weight_grams": 750,
+      "weight_raw": "750гр",
+      "name": "Колбас КОЛБАСО хамбургски 750гр",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 5.17,
+      "lowest_price": 4.09,
+      "lowest_price_date": "2026-05-16",
+      "price_history": [
+        [
+          "2026-05-16",
+          4.09,
+          5.98,
+          32
+        ],
+        [
+          "2026-10-22",
+          4.5,
+          5.98,
+          25
+        ],
+        [
+          "2026-11-09",
+          5.98,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          6.12,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "wait",
+      "image": "https://tmarketonline.bg/cdn/img/products/55708/kolbas-kolbaso-hamburski-500-g-6857b1923648c.jpeg?width=600&height=600&v=1777590015"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 6.12,
+      "new_price_eur": 3.13,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 8.16,
+      "price_per_kg_eur": 4.17,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 6.12,
+          "price_eur": 3.13,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 6.12,
+      "comparison_count": 1,
+      "product_id": "tmarket-колбас-колбасо-камчия-750гр-750g",
+      "weight_grams": 750,
+      "weight_raw": "750гр",
+      "name": "Колбас КОЛБАСО камчия 750гр",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 5.17,
+      "lowest_price": 4.09,
+      "lowest_price_date": "2026-05-16",
+      "price_history": [
+        [
+          "2026-05-16",
+          4.09,
+          5.98,
+          32
+        ],
+        [
+          "2026-10-22",
+          4.5,
+          5.98,
+          25
+        ],
+        [
+          "2026-11-09",
+          5.98,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          6.12,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "wait",
+      "image": "https://tmarketonline.bg/cdn/img/products/55705/kolbas-kolbaso-kamcia-500-g-6857b208470ea.jpeg?width=600&height=600&v=1777590015"
     },
     {
       "store": "Kaufland",
@@ -103507,6 +105216,148 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
+      "new_price": 6.3,
+      "new_price_eur": 3.22,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 84.0,
+      "price_per_kg_eur": 42.95,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 6.3,
+          "price_eur": 3.22,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 6.3,
+      "comparison_count": 1,
+      "product_id": "tmarket-паста-за-зъби-parodont-active-75мл-75g",
+      "weight_grams": 75,
+      "weight_raw": "75мл",
+      "name": "Паста за зъби PARODONT Active 75мл",
+      "image": "https://tmarketonline.bg/cdn/img/products/39315/pasta-za-zabi-astera-parodont-active-75-ml-image_5ea2ca470ba9e.png?width=1920&height=1920&v=1777589875",
+      "category": "hygiene",
+      "emoji": "🧴",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": true,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "avg_price": 5.67,
+      "lowest_price": 4.4,
+      "lowest_price_date": "2026-10-22",
+      "price_history": [
+        [
+          "2026-05-16",
+          6.3,
+          null,
+          null
+        ],
+        [
+          "2026-10-22",
+          4.4,
+          6.3,
+          30
+        ],
+        [
+          "2026-11-10",
+          6.3,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "wait"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 6.3,
+      "new_price_eur": 3.22,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 84.0,
+      "price_per_kg_eur": 42.95,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 6.3,
+          "price_eur": 3.22,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 6.3,
+      "comparison_count": 1,
+      "product_id": "tmarket-паста-за-зъби-parodont-active-white-75мл-75g",
+      "weight_grams": 75,
+      "weight_raw": "75мл",
+      "name": "Паста за зъби PARODONT Active White 75мл",
+      "image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/xe/e2a65340-202f-43d4-bbb6-a3d715746799.png",
+      "category": "hygiene",
+      "emoji": "🧴",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": true,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "avg_price": 5.67,
+      "lowest_price": 4.4,
+      "lowest_price_date": "2026-10-22",
+      "price_history": [
+        [
+          "2026-05-16",
+          6.3,
+          null,
+          null
+        ],
+        [
+          "2026-10-22",
+          4.4,
+          6.3,
+          30
+        ],
+        [
+          "2026-11-10",
+          6.3,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "wait"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
       "new_price": 6.4,
       "new_price_eur": 3.27,
       "old_price": null,
@@ -103893,6 +105744,81 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 1,
       "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 6.45,
+      "new_price_eur": 3.3,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-11-09",
+      "valid_until": "2026-11-15",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 6.45,
+          "price_eur": 3.3,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 6.45,
+      "comparison_count": 1,
+      "product_id": "kaufland-букет-микс-40-см",
+      "name": "Букет микс 40 см",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00103841__20IMG_0091_20_281_29?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 8.96,
+      "lowest_price": 5.99,
+      "lowest_price_date": "2026-09-29",
+      "price_history": [
+        [
+          "2026-05-19",
+          11.68,
+          null,
+          null
+        ],
+        [
+          "2026-06-30",
+          11.72,
+          null,
+          null
+        ],
+        [
+          "2026-09-29",
+          5.99,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          6.45,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "good"
     },
     {
       "store": "Kaufland",
@@ -104464,6 +106390,69 @@ const OFFERS_DATA = {
     {
       "store": "Kaufland",
       "address": null,
+      "new_price": 6.59,
+      "new_price_eur": 3.37,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-11-09",
+      "valid_until": "2026-11-15",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 6.59,
+          "price_eur": 3.37,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 6.59,
+      "comparison_count": 1,
+      "product_id": "kaufland-монстера-стаино-растение",
+      "name": "Монстера Стайно растение",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20004734_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 8.16,
+      "lowest_price": 6.59,
+      "lowest_price_date": "2026-11-10",
+      "price_history": [
+        [
+          "2026-06-30",
+          9.74,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          6.59,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
       "new_price": 6.64,
       "new_price_eur": 3.39,
       "old_price": 13.28,
@@ -104723,6 +106712,136 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 4,
+      "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 6.96,
+      "new_price_eur": 3.56,
+      "old_price": 8.7,
+      "old_price_eur": 4.45,
+      "discount_pct": 20,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-30",
+      "price_per_kg": 92.8,
+      "price_per_kg_eur": 47.45,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 6.96,
+          "price_eur": 3.56,
+          "old_price": 8.7,
+          "old_price_eur": 4.45,
+          "discount_pct": 20,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 6.96,
+      "comparison_count": 1,
+      "product_id": "tmarket-паста-за-зъби-elmex-anticaries-75-мл-75g",
+      "weight_grams": 75,
+      "weight_raw": "75 мл",
+      "name": "Паста за зъби ELMEX Anticaries 75 мл",
+      "image": "https://tmarketonline.bg/cdn/img/products/50898/pasta-za-zabi-colgate-whitening-75ml-64550559b56ce.jpeg?width=1920&height=1920&v=1777589973",
+      "category": "hygiene",
+      "emoji": "🧴",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": true,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "avg_price": 7.83,
+      "lowest_price": 6.96,
+      "lowest_price_date": "2026-11-10",
+      "price_history": [
+        [
+          "2026-05-16",
+          8.7,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          6.96,
+          8.7,
+          20
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 6.96,
+      "new_price_eur": 3.56,
+      "old_price": 8.7,
+      "old_price_eur": 4.45,
+      "discount_pct": 20,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-30",
+      "price_per_kg": 92.8,
+      "price_per_kg_eur": 47.45,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 6.96,
+          "price_eur": 3.56,
+          "old_price": 8.7,
+          "old_price_eur": 4.45,
+          "discount_pct": 20,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 6.96,
+      "comparison_count": 1,
+      "product_id": "tmarket-паста-за-зъби-elmex-sensitive-75-мл-75g",
+      "weight_grams": 75,
+      "weight_raw": "75 мл",
+      "name": "Паста за зъби ELMEX Sensitive 75 мл",
+      "image": "https://tmarketonline.bg/cdn/img/products/55015/pasta-za-zabi-elmex-sensitive-75-ml-673e6655c51d5.jpeg?width=1920&height=1920&v=1777590010",
+      "category": "hygiene",
+      "emoji": "🧴",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": true,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "avg_price": 7.83,
+      "lowest_price": 6.96,
+      "lowest_price_date": "2026-11-10",
+      "price_history": [
+        [
+          "2026-05-16",
+          8.7,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          6.96,
+          8.7,
+          20
+        ]
+      ],
+      "price_seen_count": 2,
       "price_signal": "buy"
     },
     {
@@ -105656,15 +107775,15 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 7.41,
-      "new_price_eur": 3.79,
+      "new_price": 7.45,
+      "new_price_eur": 3.81,
       "old_price": null,
       "old_price_eur": null,
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": 98.8,
-      "price_per_kg_eur": 50.52,
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
       "source_type": "assortment",
       "available_stores": [
         "T-Market"
@@ -105672,8 +107791,8 @@ const OFFERS_DATA = {
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 7.41,
-          "price_eur": 3.79,
+          "price": 7.45,
+          "price_eur": 3.81,
           "old_price": null,
           "old_price_eur": null,
           "discount_pct": null,
@@ -105681,142 +107800,13 @@ const OFFERS_DATA = {
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 7.41,
+      "best_price": 7.45,
       "comparison_count": 1,
-      "product_id": "tmarket-паста-за-зъби-colgate-maxwhiteoptic-75мл-75g",
-      "weight_grams": 75,
-      "weight_raw": "75мл",
-      "name": "Паста за зъби COLGATE MaxWhiteOptic 75мл",
-      "image": "https://tmarketonline.bg/cdn/img/products/50898/pasta-za-zabi-colgate-whitening-75ml-64550559b56ce.jpeg?width=1920&height=1920&v=1777589973",
+      "product_id": "tmarket-тоалетна-хартия-maliva-romance-8бр-3пл",
+      "name": "Тоалетна хартия MALIVA Romance 8бр 3пл",
+      "image": "https://tmarketonline.bg/cdn/img/products/47633/toaletna-hartia-maliva-romance-8br-3pl-image_615d89c77fdf2.jpeg?width=1920&height=1920&v=1777589945",
       "category": "hygiene",
       "emoji": "🧴",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": true,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "avg_price": 5.95,
-      "lowest_price": 4.48,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          4.48,
-          7.41,
-          40
-        ],
-        [
-          "2026-10-22",
-          7.41,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "wait"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 7.41,
-      "new_price_eur": 3.79,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 98.8,
-      "price_per_kg_eur": 50.52,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 7.41,
-          "price_eur": 3.79,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 7.41,
-      "comparison_count": 1,
-      "product_id": "tmarket-паста-за-зъби-colgate-maxwhpurple-75мл-75g",
-      "weight_grams": 75,
-      "weight_raw": "75мл",
-      "name": "Паста за зъби COLGATE MaxWhPurple 75мл",
-      "image": "https://tmarketonline.bg/cdn/img/products/50898/pasta-za-zabi-colgate-whitening-75ml-64550559b56ce.jpeg?width=1920&height=1920&v=1777589973",
-      "category": "hygiene",
-      "emoji": "🧴",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": true,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "avg_price": 5.95,
-      "lowest_price": 4.48,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          4.48,
-          7.41,
-          40
-        ],
-        [
-          "2026-10-22",
-          7.41,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "wait"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 7.41,
-      "new_price_eur": 3.79,
-      "old_price": 9.54,
-      "old_price_eur": 4.88,
-      "discount_pct": 22,
-      "valid_from": "2026-10-20",
-      "valid_until": "2026-11-09",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 7.41,
-          "price_eur": 3.79,
-          "old_price": 9.54,
-          "old_price_eur": 4.88,
-          "discount_pct": 22,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 7.41,
-      "comparison_count": 1,
-      "product_id": "tmarket-тоал-хартия-milde-cool-blue-3пл-8бр",
-      "name": "Тоал.хартия MILDE Cool Blue 3пл 8бр",
-      "category": "other",
-      "emoji": "🛒",
       "is_food": false,
       "is_junk": false,
       "is_healthy": false,
@@ -105824,90 +107814,32 @@ const OFFERS_DATA = {
       "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 7.21,
-      "lowest_price": 7.02,
-      "lowest_price_date": "2026-05-16",
+      "is_long_lasting": true,
+      "avg_price": 6.96,
+      "lowest_price": 5.97,
+      "lowest_price_date": "2026-10-22",
       "price_history": [
         [
           "2026-05-16",
-          7.02,
-          9.54,
-          26
+          7.45,
+          null,
+          null
         ],
         [
           "2026-10-22",
-          7.41,
-          9.54,
-          22
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "normal",
-      "image": "https://api.bulmag.org/thumbnails/6093f08dd8f744d4d246e671de2ac735.jpeg"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 7.41,
-      "new_price_eur": 3.79,
-      "old_price": 9.54,
-      "old_price_eur": 4.88,
-      "discount_pct": 22,
-      "valid_from": "2026-10-20",
-      "valid_until": "2026-11-09",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 7.41,
-          "price_eur": 3.79,
-          "old_price": 9.54,
-          "old_price_eur": 4.88,
-          "discount_pct": 22,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 7.41,
-      "comparison_count": 1,
-      "product_id": "tmarket-тоал-хартия-milde-purple-relax-3пл-8бр",
-      "name": "Тоал.хартия MILDE Purple Relax 3пл 8бр",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 7.21,
-      "lowest_price": 7.02,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          7.02,
-          9.54,
-          26
+          5.97,
+          7.45,
+          20
         ],
         [
-          "2026-10-22",
-          7.41,
-          9.54,
-          22
+          "2026-11-10",
+          7.45,
+          null,
+          null
         ]
       ],
-      "price_seen_count": 2,
-      "price_signal": "normal",
-      "image": "https://api.bulmag.org/thumbnails/6b089dc799c101dc3438147d25cbb53e.jpeg"
+      "price_seen_count": 3,
+      "price_signal": "normal"
     },
     {
       "store": "Kaufland",
@@ -106817,6 +108749,99 @@ const OFFERS_DATA = {
     {
       "store": "Kaufland",
       "address": null,
+      "new_price": 7.66,
+      "new_price_eur": 3.92,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-11-09",
+      "valid_until": "2026-11-15",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 7.66,
+          "price_eur": 3.92,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 7.66,
+      "comparison_count": 1,
+      "product_id": "kaufland-орхидея-фаленопсис-ø12-см",
+      "name": "Орхидея Фаленопсис Ø12 см",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/09902123G_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 14.99,
+      "lowest_price": 7.66,
+      "lowest_price_date": "2026-08-25",
+      "price_history": [
+        [
+          "2026-05-07",
+          14.98,
+          null,
+          null
+        ],
+        [
+          "2026-05-12",
+          21.49,
+          null,
+          null
+        ],
+        [
+          "2026-05-19",
+          14.98,
+          null,
+          null
+        ],
+        [
+          "2026-06-30",
+          17.19,
+          21.49,
+          20
+        ],
+        [
+          "2026-07-06",
+          13.67,
+          null,
+          null
+        ],
+        [
+          "2026-07-28",
+          14.98,
+          null,
+          null
+        ],
+        [
+          "2026-08-25",
+          7.66,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 7,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
       "new_price": 7.69,
       "new_price_eur": 3.93,
       "old_price": 9.71,
@@ -107148,237 +109173,6 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 7.8,
-      "new_price_eur": 3.99,
-      "old_price": 13.89,
-      "old_price_eur": 7.1,
-      "discount_pct": 44,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 10.4,
-      "price_per_kg_eur": 5.32,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 7.8,
-          "price_eur": 3.99,
-          "old_price": 13.89,
-          "old_price_eur": 7.1,
-          "discount_pct": 44,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 7.8,
-      "comparison_count": 1,
-      "product_id": "tmarket-вино-emine-совиньон-блан-13-5-750мл-750g",
-      "weight_grams": 750,
-      "weight_raw": "750мл",
-      "name": "Вино EMINE Совиньон блан 13.5% 750мл",
-      "image": "https://tmarketonline.bg/cdn/img/products/56220/vino-emine-sovinon-blan-13-5--750ml-6981dd72377f3.webp?width=600&height=600&v=1777590031",
-      "category": "drinks",
-      "emoji": "🍺",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 12.54,
-      "lowest_price": 7.8,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
-        [
-          "2026-04-20",
-          14.98,
-          null,
-          null
-        ],
-        [
-          "2026-05-16",
-          13.48,
-          null,
-          null
-        ],
-        [
-          "2026-10-22",
-          13.89,
-          null,
-          null
-        ],
-        [
-          "2026-11-09",
-          7.8,
-          13.89,
-          44
-        ]
-      ],
-      "price_seen_count": 4,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 7.8,
-      "new_price_eur": 3.99,
-      "old_price": 13.89,
-      "old_price_eur": 7.1,
-      "discount_pct": 44,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 10.4,
-      "price_per_kg_eur": 5.32,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 7.8,
-          "price_eur": 3.99,
-          "old_price": 13.89,
-          "old_price_eur": 7.1,
-          "discount_pct": 44,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 7.8,
-      "comparison_count": 1,
-      "product_id": "tmarket-вино-emine-шардоне-резерва-13-5-750мл-750g",
-      "weight_grams": 750,
-      "weight_raw": "750мл",
-      "name": "Вино EMINE Шардоне резерва 13.5% 750мл",
-      "image": "https://tmarketonline.bg/cdn/img/products/55859/vino-emine-sardone-rezerva-13-5--750ml-68684a184bf90.png?width=600&height=600&v=1777590024",
-      "category": "drinks",
-      "emoji": "🍺",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 12.54,
-      "lowest_price": 7.8,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
-        [
-          "2026-04-20",
-          14.98,
-          null,
-          null
-        ],
-        [
-          "2026-05-16",
-          13.48,
-          null,
-          null
-        ],
-        [
-          "2026-10-22",
-          13.89,
-          null,
-          null
-        ],
-        [
-          "2026-11-09",
-          7.8,
-          13.89,
-          44
-        ]
-      ],
-      "price_seen_count": 4,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 7.8,
-      "new_price_eur": 3.99,
-      "old_price": 13.89,
-      "old_price_eur": 7.1,
-      "discount_pct": 44,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 10.4,
-      "price_per_kg_eur": 5.32,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 7.8,
-          "price_eur": 3.99,
-          "old_price": 13.89,
-          "old_price_eur": 7.1,
-          "discount_pct": 44,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 7.8,
-      "comparison_count": 1,
-      "product_id": "tmarket-вино-emine-каберне-сов-мерло12-750мл-750g",
-      "weight_grams": 750,
-      "weight_raw": "750мл",
-      "name": "Вино EMINE Каберне Сов.&Мерло12%750мл",
-      "image": "https://tmarketonline.bg/cdn/img/products/56219/vino-emine-kaberne-sov-merlo12-750ml-6981dc7056b07.webp?width=600&height=600&v=1777590031",
-      "category": "drinks",
-      "emoji": "🍺",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 12.54,
-      "lowest_price": 7.8,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
-        [
-          "2026-04-20",
-          14.98,
-          null,
-          null
-        ],
-        [
-          "2026-05-16",
-          13.48,
-          null,
-          null
-        ],
-        [
-          "2026-10-22",
-          13.89,
-          null,
-          null
-        ],
-        [
-          "2026-11-09",
-          7.8,
-          13.89,
-          44
-        ]
-      ],
-      "price_seen_count": 4,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
       "new_price": 7.84,
       "new_price_eur": 4.01,
       "old_price": null,
@@ -107525,124 +109319,6 @@ const OFFERS_DATA = {
       "price_signal": "wait"
     },
     {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 7.84,
-      "new_price_eur": 4.01,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 8.71,
-      "price_per_kg_eur": 4.45,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 7.84,
-          "price_eur": 4.01,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 7.84,
-      "comparison_count": 1,
-      "product_id": "tmarket-препарат-за-съдове-fairy-pom-oran-900мл-900g",
-      "weight_grams": 900,
-      "weight_raw": "900мл",
-      "name": "Препарат за съдове FAIRY Pom&Oran 900мл",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00045043?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "household",
-      "emoji": "🧹",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": true,
-      "is_long_lasting": true,
-      "avg_price": 7.84,
-      "lowest_price": 7.84,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          7.84,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 7.84,
-      "new_price_eur": 4.01,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 8.71,
-      "price_per_kg_eur": 4.45,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 7.84,
-          "price_eur": 4.01,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 7.84,
-      "comparison_count": 1,
-      "product_id": "tmarket-препарат-за-съдове-fairy-lemon-900мл-900g",
-      "weight_grams": 900,
-      "weight_raw": "900мл",
-      "name": "Препарат за съдове FAIRY Lemon 900мл",
-      "image": "https://tmarketonline.bg/cdn/img/products/55735/preparat-za-sadove-fairy-lemon-2x750-ml-68587b60b40af.jpeg?width=1920&height=1920&v=1777590016",
-      "category": "household",
-      "emoji": "🧹",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": true,
-      "is_long_lasting": true,
-      "avg_price": 7.84,
-      "lowest_price": 7.84,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          7.84,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 7.86,
@@ -107700,6 +109376,83 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 1,
       "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 7.96,
+      "new_price_eur": 4.07,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 9.95,
+      "price_per_kg_eur": 5.09,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 7.96,
+          "price_eur": 4.07,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 7.96,
+      "comparison_count": 1,
+      "product_id": "tmarket-варен-колбас-фермата-800-г-800g",
+      "weight_grams": 800,
+      "weight_raw": "800 г",
+      "name": "Варен колбас ФЕРМАТА 800 г",
+      "image": "https://tmarketonline.bg/cdn/img/products/49300/varen-kolbas-fermata-800-gr-634e80a162785.png?width=1920&height=1920&v=1777589959",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 7.07,
+      "lowest_price": 4.67,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-05-16",
+          7.69,
+          null,
+          null
+        ],
+        [
+          "2026-10-22",
+          7.96,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          4.67,
+          7.96,
+          41
+        ],
+        [
+          "2026-11-10",
+          7.96,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "wait"
     },
     {
       "store": "Kaufland",
@@ -108221,75 +109974,6 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 8.0,
-          "price_eur": 4.09,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 8.0,
-      "comparison_count": 1,
-      "product_id": "tmarket-тоал-хартия-familia-magic-fl-3пл-8бр",
-      "name": "Тоал.хартия FAMILIA Magic Fl.3пл 8бр.",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 6.28,
-      "lowest_price": 4.0,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          4.0,
-          8.0,
-          50
-        ],
-        [
-          "2026-10-22",
-          6.83,
-          8.0,
-          15
-        ],
-        [
-          "2026-11-09",
-          8.0,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "wait",
-      "image": "https://api.bulmag.org/thumbnails/25919708a9694110d1c3d897d2578fe1.png"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 8.0,
-      "new_price_eur": 4.09,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
       "price_per_kg": 20.0,
       "price_per_kg_eur": 10.23,
       "source_type": "assortment",
@@ -108397,69 +110081,6 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 1,
       "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 8.0,
-      "new_price_eur": 4.09,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 8.0,
-          "price_eur": 4.09,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 8.0,
-      "comparison_count": 1,
-      "product_id": "tmarket-тоал-хартия-familia-бяла-3пл-8бр",
-      "name": "Тоал.хартия FAMILIA бяла 3пл 8бр.",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 6.0,
-      "lowest_price": 4.0,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          4.0,
-          8.0,
-          50
-        ],
-        [
-          "2026-10-22",
-          8.0,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "wait",
-      "image": "https://api.bulmag.org/thumbnails/502e2a38cbbd88f2c26f170a108cbf96.png"
     },
     {
       "store": "Kaufland",
@@ -108584,15 +110205,15 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 8.31,
-      "new_price_eur": 4.25,
-      "old_price": 14.69,
-      "old_price_eur": 7.51,
-      "discount_pct": 43,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 110.8,
-      "price_per_kg_eur": 56.65,
+      "new_price": 8.39,
+      "new_price_eur": 4.29,
+      "old_price": 11.56,
+      "old_price_eur": 5.91,
+      "discount_pct": 27,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 16.29,
+      "price_per_kg_eur": 8.33,
       "source_type": "promo",
       "available_stores": [
         "T-Market"
@@ -108600,64 +110221,64 @@ const OFFERS_DATA = {
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 8.31,
-          "price_eur": 4.25,
-          "old_price": 14.69,
-          "old_price_eur": 7.51,
-          "discount_pct": 43,
+          "price": 8.39,
+          "price_eur": 4.29,
+          "old_price": 11.56,
+          "old_price_eur": 5.91,
+          "discount_pct": 27,
           "source_type": "promo"
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 8.31,
+      "best_price": 8.39,
       "comparison_count": 1,
-      "product_id": "tmarket-паста-за-зъби-sensodyne-sens-gum-75мл-75g",
-      "weight_grams": 75,
-      "weight_raw": "75мл",
-      "name": "Паста за зъби SENSODYNE Sens&Gum 75мл",
-      "image": "https://tmarketonline.bg/cdn/img/products/49047/pasta-za-zabi-sensodyne-sensgum-75ml-63230a052f0a9.png?width=1920&height=1920&v=1777589962",
-      "category": "hygiene",
-      "emoji": "🧴",
+      "product_id": "tmarket-лютеница-велика-едросмляна-515гр-515g",
+      "weight_grams": 515,
+      "weight_raw": "515гр",
+      "name": "Лютеница ВЕЛИКА едросмляна 515гр",
+      "category": "other",
+      "emoji": "🛒",
       "is_food": false,
       "is_junk": false,
       "is_healthy": false,
       "is_high_protein": false,
-      "is_good_carb": true,
+      "is_good_carb": false,
       "is_good_fat": false,
       "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "avg_price": 11.5,
-      "lowest_price": 8.31,
-      "lowest_price_date": "2026-11-09",
+      "is_long_lasting": false,
+      "avg_price": 9.98,
+      "lowest_price": 8.39,
+      "lowest_price_date": "2026-11-10",
       "price_history": [
         [
           "2026-05-16",
-          14.69,
+          11.56,
           null,
           null
         ],
         [
-          "2026-11-09",
-          8.31,
-          14.69,
-          43
+          "2026-11-10",
+          8.39,
+          11.56,
+          27
         ]
       ],
       "price_seen_count": 2,
-      "price_signal": "buy"
+      "price_signal": "buy",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/423_00089544_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 8.31,
-      "new_price_eur": 4.25,
-      "old_price": 14.69,
-      "old_price_eur": 7.51,
-      "discount_pct": 43,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 110.8,
-      "price_per_kg_eur": 56.65,
+      "new_price": 8.43,
+      "new_price_eur": 4.31,
+      "old_price": 10.54,
+      "old_price_eur": 5.39,
+      "discount_pct": 20,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-30",
+      "price_per_kg": 112.4,
+      "price_per_kg_eur": 57.47,
       "source_type": "promo",
       "available_stores": [
         "T-Market"
@@ -108665,22 +110286,22 @@ const OFFERS_DATA = {
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 8.31,
-          "price_eur": 4.25,
-          "old_price": 14.69,
-          "old_price_eur": 7.51,
-          "discount_pct": 43,
+          "price": 8.43,
+          "price_eur": 4.31,
+          "old_price": 10.54,
+          "old_price_eur": 5.39,
+          "discount_pct": 20,
           "source_type": "promo"
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 8.31,
+      "best_price": 8.43,
       "comparison_count": 1,
-      "product_id": "tmarket-паста-за-зъби-sensodyne-rep-prot-wh-75мл-75g",
+      "product_id": "tmarket-паста-за-зъби-elmex-sensitive-prof-75мл-75g",
       "weight_grams": 75,
       "weight_raw": "75мл",
-      "name": "Паста за зъби SENSODYNE Rep&Prot Wh 75мл",
-      "image": "https://tmarketonline.bg/cdn/img/products/49047/pasta-za-zabi-sensodyne-sensgum-75ml-63230a052f0a9.png?width=1920&height=1920&v=1777589962",
+      "name": "Паста за зъби ELMEX Sensitive Prof. 75мл",
+      "image": "https://tmarketonline.bg/cdn/img/products/55015/pasta-za-zabi-elmex-sensitive-75-ml-673e6655c51d5.jpeg?width=1920&height=1920&v=1777590010",
       "category": "hygiene",
       "emoji": "🧴",
       "is_food": false,
@@ -108691,30 +110312,24 @@ const OFFERS_DATA = {
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": true,
-      "avg_price": 10.92,
-      "lowest_price": 8.31,
-      "lowest_price_date": "2026-11-09",
+      "avg_price": 9.48,
+      "lowest_price": 8.43,
+      "lowest_price_date": "2026-11-10",
       "price_history": [
         [
           "2026-05-16",
-          9.76,
-          14.69,
-          34
-        ],
-        [
-          "2026-10-22",
-          14.69,
+          10.54,
           null,
           null
         ],
         [
-          "2026-11-09",
-          8.31,
-          14.69,
-          43
+          "2026-11-10",
+          8.43,
+          10.54,
+          20
         ]
       ],
-      "price_seen_count": 3,
+      "price_seen_count": 2,
       "price_signal": "buy"
     },
     {
@@ -109447,124 +111062,6 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 3,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 8.7,
-      "new_price_eur": 4.45,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 116.0,
-      "price_per_kg_eur": 59.31,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 8.7,
-          "price_eur": 4.45,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 8.7,
-      "comparison_count": 1,
-      "product_id": "tmarket-паста-за-зъби-elmex-anticaries-75-мл-75g",
-      "weight_grams": 75,
-      "weight_raw": "75 мл",
-      "name": "Паста за зъби ELMEX Anticaries 75 мл",
-      "image": "https://tmarketonline.bg/cdn/img/products/50898/pasta-za-zabi-colgate-whitening-75ml-64550559b56ce.jpeg?width=1920&height=1920&v=1777589973",
-      "category": "hygiene",
-      "emoji": "🧴",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": true,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "avg_price": 8.7,
-      "lowest_price": 8.7,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          8.7,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 8.7,
-      "new_price_eur": 4.45,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 116.0,
-      "price_per_kg_eur": 59.31,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 8.7,
-          "price_eur": 4.45,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 8.7,
-      "comparison_count": 1,
-      "product_id": "tmarket-паста-за-зъби-elmex-sensitive-75-мл-75g",
-      "weight_grams": 75,
-      "weight_raw": "75 мл",
-      "name": "Паста за зъби ELMEX Sensitive 75 мл",
-      "image": "https://tmarketonline.bg/cdn/img/products/55015/pasta-za-zabi-elmex-sensitive-75-ml-673e6655c51d5.jpeg?width=1920&height=1920&v=1777590010",
-      "category": "hygiene",
-      "emoji": "🧴",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": true,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "avg_price": 8.7,
-      "lowest_price": 8.7,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          8.7,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
       "price_signal": "buy"
     },
     {
@@ -111320,6 +112817,144 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 9.54,
+      "new_price_eur": 4.88,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 9.54,
+          "price_eur": 4.88,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 9.54,
+      "comparison_count": 1,
+      "product_id": "tmarket-тоал-хартия-milde-cool-blue-3пл-8бр",
+      "name": "Тоал.хартия MILDE Cool Blue 3пл 8бр",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 7.99,
+      "lowest_price": 7.02,
+      "lowest_price_date": "2026-05-16",
+      "price_history": [
+        [
+          "2026-05-16",
+          7.02,
+          9.54,
+          26
+        ],
+        [
+          "2026-10-22",
+          7.41,
+          9.54,
+          22
+        ],
+        [
+          "2026-11-10",
+          9.54,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "wait",
+      "image": "https://api.bulmag.org/thumbnails/6093f08dd8f744d4d246e671de2ac735.jpeg"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 9.54,
+      "new_price_eur": 4.88,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 9.54,
+          "price_eur": 4.88,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 9.54,
+      "comparison_count": 1,
+      "product_id": "tmarket-тоал-хартия-milde-purple-relax-3пл-8бр",
+      "name": "Тоал.хартия MILDE Purple Relax 3пл 8бр",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 7.99,
+      "lowest_price": 7.02,
+      "lowest_price_date": "2026-05-16",
+      "price_history": [
+        [
+          "2026-05-16",
+          7.02,
+          9.54,
+          26
+        ],
+        [
+          "2026-10-22",
+          7.41,
+          9.54,
+          22
+        ],
+        [
+          "2026-11-10",
+          9.54,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "wait",
+      "image": "https://api.bulmag.org/thumbnails/6b089dc799c101dc3438147d25cbb53e.jpeg"
+    },
+    {
       "store": "Kaufland",
       "address": null,
       "new_price": 9.59,
@@ -111616,131 +113251,6 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 4,
       "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 9.76,
-      "new_price_eur": 4.99,
-      "old_price": 16.0,
-      "old_price_eur": 8.18,
-      "discount_pct": 39,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 9.76,
-          "price_eur": 4.99,
-          "old_price": 16.0,
-          "old_price_eur": 8.18,
-          "discount_pct": 39,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 9.76,
-      "comparison_count": 1,
-      "product_id": "tmarket-св-врат-без-кост-нас-кг-пр-испания",
-      "name": "Св.врат без кост нас.кг пр.Испания",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 9.37,
-      "lowest_price": 8.98,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          8.98,
-          16.0,
-          44
-        ],
-        [
-          "2026-10-22",
-          9.76,
-          16.0,
-          39
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "normal",
-      "image": "https://tmarketonline.bg/cdn/img/products/48902/sv--pusen-vrat-kolbaso-nas-kg-6304ce87cc932.jpeg?width=600&height=600&v=1777589955"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 9.76,
-      "new_price_eur": 4.99,
-      "old_price": 16.0,
-      "old_price_eur": 8.18,
-      "discount_pct": 39,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 9.76,
-      "price_per_kg_eur": 4.99,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 9.76,
-          "price_eur": 4.99,
-          "old_price": 16.0,
-          "old_price_eur": 8.18,
-          "discount_pct": 39,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 9.76,
-      "comparison_count": 1,
-      "product_id": "tmarket-св-врат-без-кост-пр-испания-вак-кг",
-      "name": "Св. врат без кост пр. Испания вак. кг",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 9.37,
-      "lowest_price": 8.98,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          8.98,
-          16.0,
-          44
-        ],
-        [
-          "2026-10-22",
-          9.76,
-          16.0,
-          39
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "normal"
     },
     {
       "store": "Kaufland",
@@ -113428,6 +114938,75 @@ const OFFERS_DATA = {
     {
       "store": "Kaufland",
       "address": null,
+      "new_price": 10.39,
+      "new_price_eur": 5.31,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-11-09",
+      "valid_until": "2026-11-15",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 10.39,
+          "price_eur": 5.31,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 10.39,
+      "comparison_count": 1,
+      "product_id": "kaufland-фикус-женшен",
+      "name": "Фикус Женшен",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4025019304501_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 17.64,
+      "lowest_price": 10.39,
+      "lowest_price_date": "2026-11-10",
+      "price_history": [
+        [
+          "2026-06-02",
+          22.98,
+          null,
+          null
+        ],
+        [
+          "2026-08-04",
+          19.54,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          10.39,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
       "new_price": 10.49,
       "new_price_eur": 5.36,
       "old_price": 19.94,
@@ -113542,65 +115121,6 @@ const OFFERS_DATA = {
           10.49,
           20.45,
           49
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 10.54,
-      "new_price_eur": 5.39,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 140.53,
-      "price_per_kg_eur": 71.85,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 10.54,
-          "price_eur": 5.39,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 10.54,
-      "comparison_count": 1,
-      "product_id": "tmarket-паста-за-зъби-elmex-sensitive-prof-75мл-75g",
-      "weight_grams": 75,
-      "weight_raw": "75мл",
-      "name": "Паста за зъби ELMEX Sensitive Prof. 75мл",
-      "image": "https://tmarketonline.bg/cdn/img/products/55015/pasta-za-zabi-elmex-sensitive-75-ml-673e6655c51d5.jpeg?width=1920&height=1920&v=1777590010",
-      "category": "hygiene",
-      "emoji": "🧴",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": true,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": true,
-      "avg_price": 10.54,
-      "lowest_price": 10.54,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          10.54,
-          null,
-          null
         ]
       ],
       "price_seen_count": 1,
@@ -114781,37 +116301,35 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 11.56,
-      "new_price_eur": 5.91,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 22.45,
-      "price_per_kg_eur": 11.48,
-      "source_type": "assortment",
+      "new_price": 11.72,
+      "new_price_eur": 5.99,
+      "old_price": 12.6,
+      "old_price_eur": 6.44,
+      "discount_pct": 7,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "promo",
       "available_stores": [
         "T-Market"
       ],
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 11.56,
-          "price_eur": 5.91,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
+          "price": 11.72,
+          "price_eur": 5.99,
+          "old_price": 12.6,
+          "old_price_eur": 6.44,
+          "discount_pct": 7,
+          "source_type": "promo"
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 11.56,
+      "best_price": 11.72,
       "comparison_count": 1,
-      "product_id": "tmarket-лютеница-велика-едросмляна-515гр-515g",
-      "weight_grams": 515,
-      "weight_raw": "515гр",
-      "name": "Лютеница ВЕЛИКА едросмляна 515гр",
+      "product_id": "tmarket-св-врат-с-кост-нас-кг-пр-българия",
+      "name": "Св. врат с кост нас.кг пр.България",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -114822,20 +116340,38 @@ const OFFERS_DATA = {
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
-      "avg_price": 11.56,
-      "lowest_price": 11.56,
-      "lowest_price_date": "2026-05-16",
+      "avg_price": 12.01,
+      "lowest_price": 11.13,
+      "lowest_price_date": "2026-10-22",
       "price_history": [
         [
           "2026-05-16",
-          11.56,
+          12.6,
           null,
           null
+        ],
+        [
+          "2026-10-22",
+          11.13,
+          12.6,
+          12
+        ],
+        [
+          "2026-11-09",
+          12.6,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          11.72,
+          12.6,
+          7
         ]
       ],
-      "price_seen_count": 1,
-      "price_signal": "buy",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/423_00089544_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
+      "price_seen_count": 4,
+      "price_signal": "normal",
+      "image": "https://tmarketonline.bg/cdn/img/products/48902/sv--pusen-vrat-kolbaso-nas-kg-6304ce87cc932.jpeg?width=600&height=600&v=1777589955"
     },
     {
       "store": "Kaufland",
@@ -115135,6 +116671,77 @@ const OFFERS_DATA = {
       "price_seen_count": 1,
       "price_signal": "buy",
       "image": "https://tmarketonline.bg/cdn/img/products/43180/cesan-na-prah-bioset-8gr-image_5f466e143a5e8.jpeg?width=600&height=600&v=1777589907"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 12.11,
+      "new_price_eur": 6.19,
+      "old_price": 15.14,
+      "old_price_eur": 7.74,
+      "discount_pct": 20,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 17.3,
+      "price_per_kg_eur": 8.85,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 12.11,
+          "price_eur": 6.19,
+          "old_price": 15.14,
+          "old_price_eur": 7.74,
+          "discount_pct": 20,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 12.11,
+      "comparison_count": 1,
+      "product_id": "tmarket-ракия-пещерска-гроздова-40-700мл-700g",
+      "weight_grams": 700,
+      "weight_raw": "700мл",
+      "name": "Ракия ПЕЩЕРСКА гроздова 40% 700мл",
+      "image": "https://tmarketonline.bg/cdn/img/products/48132/rakia-peserska-grozdova-40--1-l-65aa660feae71.jpeg?width=1920&height=1920&v=1777589992",
+      "category": "drinks",
+      "emoji": "🍺",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 12.99,
+      "lowest_price": 11.72,
+      "lowest_price_date": "2026-05-16",
+      "price_history": [
+        [
+          "2026-05-16",
+          11.72,
+          14.65,
+          20
+        ],
+        [
+          "2026-10-22",
+          15.14,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          12.11,
+          15.14,
+          20
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "normal"
     },
     {
       "store": "Kaufland",
@@ -115724,6 +117331,142 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 12.56,
+          "price_eur": 6.42,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 12.56,
+      "comparison_count": 1,
+      "product_id": "tmarket-св-плешка-без-кост-нас-кг-пр-испания",
+      "name": "Св.плешка без кост нас.кг пр. Испания",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 10.32,
+      "lowest_price": 5.85,
+      "lowest_price_date": "2026-10-22",
+      "price_history": [
+        [
+          "2026-05-16",
+          12.56,
+          null,
+          null
+        ],
+        [
+          "2026-10-22",
+          5.85,
+          12.56,
+          53
+        ],
+        [
+          "2026-11-10",
+          12.56,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "wait"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 12.56,
+      "new_price_eur": 6.42,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 12.56,
+      "price_per_kg_eur": 6.42,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 12.56,
+          "price_eur": 6.42,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 12.56,
+      "comparison_count": 1,
+      "product_id": "tmarket-св-плешка-без-кост-пр-испания-вак-кг",
+      "name": "Св. плешка без кост пр. Испания вак.кг",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 10.32,
+      "lowest_price": 5.85,
+      "lowest_price_date": "2026-10-22",
+      "price_history": [
+        [
+          "2026-05-16",
+          12.56,
+          null,
+          null
+        ],
+        [
+          "2026-10-22",
+          5.85,
+          12.56,
+          53
+        ],
+        [
+          "2026-11-10",
+          12.56,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "wait"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 12.56,
+      "new_price_eur": 6.42,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
       "price_per_kg": 16.75,
       "price_per_kg_eur": 8.56,
       "source_type": "assortment",
@@ -115795,63 +117538,6 @@ const OFFERS_DATA = {
       "discount_pct": null,
       "valid_from": null,
       "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 12.56,
-          "price_eur": 6.42,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 12.56,
-      "comparison_count": 1,
-      "product_id": "tmarket-св-врат-с-кост-нас-кг-пр-българия-2",
-      "name": "Св.врат с кост нас.кг пр.България",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 12.56,
-      "lowest_price": 12.56,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
-        [
-          "2026-11-09",
-          12.56,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy",
-      "image": "https://tmarketonline.bg/cdn/img/products/48902/sv--pusen-vrat-kolbaso-nas-kg-6304ce87cc932.jpeg?width=600&height=600&v=1777589955"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 12.56,
-      "new_price_eur": 6.42,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
       "price_per_kg": 12.56,
       "price_per_kg_eur": 6.42,
       "source_type": "assortment",
@@ -115897,75 +117583,6 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 1,
       "price_signal": "buy"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 12.6,
-      "new_price_eur": 6.44,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 12.6,
-          "price_eur": 6.44,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 12.6,
-      "comparison_count": 1,
-      "product_id": "tmarket-св-врат-с-кост-нас-кг-пр-българия",
-      "name": "Св. врат с кост нас.кг пр.България",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 12.11,
-      "lowest_price": 11.13,
-      "lowest_price_date": "2026-10-22",
-      "price_history": [
-        [
-          "2026-05-16",
-          12.6,
-          null,
-          null
-        ],
-        [
-          "2026-10-22",
-          11.13,
-          12.6,
-          12
-        ],
-        [
-          "2026-11-09",
-          12.6,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "normal",
-      "image": "https://tmarketonline.bg/cdn/img/products/48902/sv--pusen-vrat-kolbaso-nas-kg-6304ce87cc932.jpeg?width=600&height=600&v=1777589955"
     },
     {
       "store": "T-Market",
@@ -116025,6 +117642,71 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 1,
       "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 12.6,
+      "new_price_eur": 6.44,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 168.0,
+      "price_per_kg_eur": 85.9,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 12.6,
+          "price_eur": 6.44,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 12.6,
+      "comparison_count": 1,
+      "product_id": "tmarket-паста-зъби-parodontax-active-repair-75мл-75g",
+      "weight_grams": 75,
+      "weight_raw": "75мл",
+      "name": "Паста зъби PARODONTAX Active Repair 75мл",
+      "image": "https://cdn.metro-group.com/bg/bg_pim_338518001001_02.png?format=jpg&quality=80&dpi=72",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": true,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 11.18,
+      "lowest_price": 9.76,
+      "lowest_price_date": "2026-05-16",
+      "price_history": [
+        [
+          "2026-05-16",
+          9.76,
+          12.6,
+          23
+        ],
+        [
+          "2026-10-22",
+          12.6,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "wait"
     },
     {
       "store": "T-Market",
@@ -116427,75 +118109,6 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 13.22,
-      "new_price_eur": 6.76,
-      "old_price": 16.55,
-      "old_price_eur": 8.46,
-      "discount_pct": 20,
-      "valid_from": "2026-11-03",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 13.22,
-      "price_per_kg_eur": 6.76,
-      "source_type": "promo",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 13.22,
-          "price_eur": 6.76,
-          "old_price": 16.55,
-          "old_price_eur": 8.46,
-          "discount_pct": 20,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 13.22,
-      "comparison_count": 1,
-      "product_id": "tmarket-колбас-ken-хамбургски-нас-кг",
-      "name": "Колбас KEN ХАМБУРГСКИ нас.кг",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 14.35,
-      "lowest_price": 13.22,
-      "lowest_price_date": "2026-11-09",
-      "price_history": [
-        [
-          "2026-05-16",
-          13.28,
-          16.55,
-          20
-        ],
-        [
-          "2026-10-22",
-          16.55,
-          null,
-          null
-        ],
-        [
-          "2026-11-09",
-          13.22,
-          16.55,
-          20
-        ]
-      ],
-      "price_seen_count": 3,
-      "price_signal": "buy",
-      "image": "https://tmarketonline.bg/cdn/img/products/46643/kolbas-ken-hamburgski-nas-kg-image_604b4d2d5d202.jpeg?width=600&height=600&v=1777589936"
-    },
-    {
-      "store": "T-Market",
-      "address": null,
       "new_price": 13.48,
       "new_price_eur": 6.89,
       "old_price": null,
@@ -116671,6 +118284,326 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 2,
       "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 13.89,
+      "new_price_eur": 7.1,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 18.52,
+      "price_per_kg_eur": 9.47,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 13.89,
+          "price_eur": 7.1,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 13.89,
+      "comparison_count": 1,
+      "product_id": "tmarket-вино-emine-совиньон-блан-13-5-750мл-750g",
+      "weight_grams": 750,
+      "weight_raw": "750мл",
+      "name": "Вино EMINE Совиньон блан 13.5% 750мл",
+      "image": "https://tmarketonline.bg/cdn/img/products/56220/vino-emine-sovinon-blan-13-5--750ml-6981dd72377f3.webp?width=600&height=600&v=1777590031",
+      "category": "drinks",
+      "emoji": "🍺",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 12.81,
+      "lowest_price": 7.8,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-04-20",
+          14.98,
+          null,
+          null
+        ],
+        [
+          "2026-05-16",
+          13.48,
+          null,
+          null
+        ],
+        [
+          "2026-10-22",
+          13.89,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          7.8,
+          13.89,
+          44
+        ],
+        [
+          "2026-11-10",
+          13.89,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 5,
+      "price_signal": "wait"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 13.89,
+      "new_price_eur": 7.1,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 18.52,
+      "price_per_kg_eur": 9.47,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 13.89,
+          "price_eur": 7.1,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 13.89,
+      "comparison_count": 1,
+      "product_id": "tmarket-вино-emine-шардоне-резерва-13-5-750мл-750g",
+      "weight_grams": 750,
+      "weight_raw": "750мл",
+      "name": "Вино EMINE Шардоне резерва 13.5% 750мл",
+      "image": "https://tmarketonline.bg/cdn/img/products/55859/vino-emine-sardone-rezerva-13-5--750ml-68684a184bf90.png?width=600&height=600&v=1777590024",
+      "category": "drinks",
+      "emoji": "🍺",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 12.81,
+      "lowest_price": 7.8,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-04-20",
+          14.98,
+          null,
+          null
+        ],
+        [
+          "2026-05-16",
+          13.48,
+          null,
+          null
+        ],
+        [
+          "2026-10-22",
+          13.89,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          7.8,
+          13.89,
+          44
+        ],
+        [
+          "2026-11-10",
+          13.89,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 5,
+      "price_signal": "wait"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 13.89,
+      "new_price_eur": 7.1,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 18.52,
+      "price_per_kg_eur": 9.47,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 13.89,
+          "price_eur": 7.1,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 13.89,
+      "comparison_count": 1,
+      "product_id": "tmarket-вино-emine-каберне-сов-мерло12-750мл-750g",
+      "weight_grams": 750,
+      "weight_raw": "750мл",
+      "name": "Вино EMINE Каберне Сов.&Мерло12%750мл",
+      "image": "https://tmarketonline.bg/cdn/img/products/56219/vino-emine-kaberne-sov-merlo12-750ml-6981dc7056b07.webp?width=600&height=600&v=1777590031",
+      "category": "drinks",
+      "emoji": "🍺",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 12.81,
+      "lowest_price": 7.8,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-04-20",
+          14.98,
+          null,
+          null
+        ],
+        [
+          "2026-05-16",
+          13.48,
+          null,
+          null
+        ],
+        [
+          "2026-10-22",
+          13.89,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          7.8,
+          13.89,
+          44
+        ],
+        [
+          "2026-11-10",
+          13.89,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 5,
+      "price_signal": "wait"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 13.96,
+      "new_price_eur": 7.14,
+      "old_price": 17.45,
+      "old_price_eur": 8.92,
+      "discount_pct": 20,
+      "valid_from": "2026-11-10",
+      "valid_until": "2026-11-16",
+      "price_per_kg": 19.94,
+      "price_per_kg_eur": 10.2,
+      "source_type": "promo",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 13.96,
+          "price_eur": 7.14,
+          "old_price": 17.45,
+          "old_price_eur": 8.92,
+          "discount_pct": 20,
+          "source_type": "promo"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 13.96,
+      "comparison_count": 1,
+      "product_id": "tmarket-ракия-пещерска-отлежала-40-700-мл-700g",
+      "weight_grams": 700,
+      "weight_raw": "700 мл",
+      "name": "Ракия ПЕЩЕРСКА отлежала 40% 700 мл",
+      "image": "https://tmarketonline.bg/cdn/img/products/39539/rakia-peserska-otlezala-40--700-ml-65aa68d8885c1.jpeg?width=1920&height=1920&v=1777589994",
+      "category": "drinks",
+      "emoji": "🍺",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 14.97,
+      "lowest_price": 13.5,
+      "lowest_price_date": "2026-05-16",
+      "price_history": [
+        [
+          "2026-05-16",
+          13.5,
+          16.88,
+          20
+        ],
+        [
+          "2026-10-22",
+          17.45,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          13.96,
+          17.45,
+          20
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "normal"
     },
     {
       "store": "T-Market",
@@ -117179,6 +119112,154 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
+      "new_price": 14.69,
+      "new_price_eur": 7.51,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 195.87,
+      "price_per_kg_eur": 100.15,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 14.69,
+          "price_eur": 7.51,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 14.69,
+      "comparison_count": 1,
+      "product_id": "tmarket-паста-за-зъби-sensodyne-sens-gum-75мл-75g",
+      "weight_grams": 75,
+      "weight_raw": "75мл",
+      "name": "Паста за зъби SENSODYNE Sens&Gum 75мл",
+      "image": "https://tmarketonline.bg/cdn/img/products/49047/pasta-za-zabi-sensodyne-sensgum-75ml-63230a052f0a9.png?width=1920&height=1920&v=1777589962",
+      "category": "hygiene",
+      "emoji": "🧴",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": true,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "avg_price": 12.56,
+      "lowest_price": 8.31,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-05-16",
+          14.69,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          8.31,
+          14.69,
+          43
+        ],
+        [
+          "2026-11-10",
+          14.69,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "wait"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 14.69,
+      "new_price_eur": 7.51,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 195.87,
+      "price_per_kg_eur": 100.15,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 14.69,
+          "price_eur": 7.51,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 14.69,
+      "comparison_count": 1,
+      "product_id": "tmarket-паста-за-зъби-sensodyne-rep-prot-wh-75мл-75g",
+      "weight_grams": 75,
+      "weight_raw": "75мл",
+      "name": "Паста за зъби SENSODYNE Rep&Prot Wh 75мл",
+      "image": "https://tmarketonline.bg/cdn/img/products/49047/pasta-za-zabi-sensodyne-sensgum-75ml-63230a052f0a9.png?width=1920&height=1920&v=1777589962",
+      "category": "hygiene",
+      "emoji": "🧴",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": true,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "avg_price": 11.86,
+      "lowest_price": 8.31,
+      "lowest_price_date": "2026-11-09",
+      "price_history": [
+        [
+          "2026-05-16",
+          9.76,
+          14.69,
+          34
+        ],
+        [
+          "2026-10-22",
+          14.69,
+          null,
+          null
+        ],
+        [
+          "2026-11-09",
+          8.31,
+          14.69,
+          43
+        ],
+        [
+          "2026-11-10",
+          14.69,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "wait"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
       "new_price": 14.98,
       "new_price_eur": 7.66,
       "old_price": null,
@@ -117606,71 +119687,6 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     },
     {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 15.14,
-      "new_price_eur": 7.74,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 21.63,
-      "price_per_kg_eur": 11.06,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 15.14,
-          "price_eur": 7.74,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 15.14,
-      "comparison_count": 1,
-      "product_id": "tmarket-ракия-пещерска-гроздова-40-700мл-700g",
-      "weight_grams": 700,
-      "weight_raw": "700мл",
-      "name": "Ракия ПЕЩЕРСКА гроздова 40% 700мл",
-      "image": "https://tmarketonline.bg/cdn/img/products/48132/rakia-peserska-grozdova-40--1-l-65aa660feae71.jpeg?width=1920&height=1920&v=1777589992",
-      "category": "drinks",
-      "emoji": "🍺",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 13.43,
-      "lowest_price": 11.72,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          11.72,
-          14.65,
-          20
-        ],
-        [
-          "2026-10-22",
-          15.14,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "wait"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 15.28,
@@ -117826,8 +119842,8 @@ const OFFERS_DATA = {
       "best_price_store": "T-Market",
       "best_price": 16.0,
       "comparison_count": 1,
-      "product_id": "tmarket-св-врат-без-кост-нас-кг-пр-българия",
-      "name": "Св.врат без кост нас.кг пр.България",
+      "product_id": "tmarket-св-врат-без-кост-нас-кг-пр-испания",
+      "name": "Св.врат без кост нас.кг пр.Испания",
       "category": "other",
       "emoji": "🛒",
       "is_food": false,
@@ -117838,20 +119854,100 @@ const OFFERS_DATA = {
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
-      "avg_price": 16.0,
-      "lowest_price": 16.0,
-      "lowest_price_date": "2026-10-22",
+      "avg_price": 11.58,
+      "lowest_price": 8.98,
+      "lowest_price_date": "2026-05-16",
       "price_history": [
         [
+          "2026-05-16",
+          8.98,
+          16.0,
+          44
+        ],
+        [
           "2026-10-22",
+          9.76,
+          16.0,
+          39
+        ],
+        [
+          "2026-11-10",
           16.0,
           null,
           null
         ]
       ],
-      "price_seen_count": 1,
-      "price_signal": "buy",
+      "price_seen_count": 3,
+      "price_signal": "wait",
       "image": "https://tmarketonline.bg/cdn/img/products/48902/sv--pusen-vrat-kolbaso-nas-kg-6304ce87cc932.jpeg?width=600&height=600&v=1777589955"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 16.0,
+      "new_price_eur": 8.18,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 16.0,
+      "price_per_kg_eur": 8.18,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 16.0,
+          "price_eur": 8.18,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 16.0,
+      "comparison_count": 1,
+      "product_id": "tmarket-св-врат-без-кост-пр-испания-вак-кг",
+      "name": "Св. врат без кост пр. Испания вак. кг",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 11.58,
+      "lowest_price": 8.98,
+      "lowest_price_date": "2026-05-16",
+      "price_history": [
+        [
+          "2026-05-16",
+          8.98,
+          16.0,
+          44
+        ],
+        [
+          "2026-10-22",
+          9.76,
+          16.0,
+          39
+        ],
+        [
+          "2026-11-10",
+          16.0,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "wait"
     },
     {
       "store": "T-Market",
@@ -117984,39 +120080,37 @@ const OFFERS_DATA = {
     {
       "store": "T-Market",
       "address": null,
-      "new_price": 16.6,
-      "new_price_eur": 8.49,
-      "old_price": 17.97,
-      "old_price_eur": 9.19,
-      "discount_pct": 8,
-      "valid_from": "2026-10-20",
-      "valid_until": "2026-11-09",
-      "price_per_kg": 22.13,
-      "price_per_kg_eur": 11.31,
-      "source_type": "promo",
+      "new_price": 16.55,
+      "new_price_eur": 8.46,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 16.55,
+      "price_per_kg_eur": 8.46,
+      "source_type": "assortment",
       "available_stores": [
         "T-Market"
       ],
       "store_prices": [
         {
           "store": "T-Market",
-          "price": 16.6,
-          "price_eur": 8.49,
-          "old_price": 17.97,
-          "old_price_eur": 9.19,
-          "discount_pct": 8,
-          "source_type": "promo"
+          "price": 16.55,
+          "price_eur": 8.46,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
         }
       ],
       "best_price_store": "T-Market",
-      "best_price": 16.6,
+      "best_price": 16.55,
       "comparison_count": 1,
-      "product_id": "tmarket-вино-midalidare-мерло-каберне-фран-750мл-750g",
-      "weight_grams": 750,
-      "weight_raw": "750мл",
-      "name": "Вино MIDALIDARE Мерло§Каберне Фран 750мл",
-      "category": "drinks",
-      "emoji": "🍺",
+      "product_id": "tmarket-колбас-ken-хамбургски-нас-кг",
+      "name": "Колбас KEN ХАМБУРГСКИ нас.кг",
+      "category": "other",
+      "emoji": "🛒",
       "is_food": false,
       "is_junk": false,
       "is_healthy": false,
@@ -118025,26 +120119,38 @@ const OFFERS_DATA = {
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
-      "avg_price": 16.84,
-      "lowest_price": 16.6,
-      "lowest_price_date": "2026-10-22",
+      "avg_price": 14.9,
+      "lowest_price": 13.22,
+      "lowest_price_date": "2026-11-09",
       "price_history": [
         [
           "2026-05-16",
-          17.09,
+          13.28,
+          16.55,
+          20
+        ],
+        [
+          "2026-10-22",
+          16.55,
           null,
           null
         ],
         [
-          "2026-10-22",
-          16.6,
-          17.97,
-          8
+          "2026-11-09",
+          13.22,
+          16.55,
+          20
+        ],
+        [
+          "2026-11-10",
+          16.55,
+          null,
+          null
         ]
       ],
-      "price_seen_count": 2,
-      "price_signal": "buy",
-      "image": "https://tmarketonline.bg/cdn/img/products/49163/vino-midalidare-4225-sovinon-blan750ml-63344040a4563.png?width=600&height=600&v=1777589961"
+      "price_seen_count": 4,
+      "price_signal": "wait",
+      "image": "https://tmarketonline.bg/cdn/img/products/46643/kolbas-ken-hamburgski-nas-kg-image_604b4d2d5d202.jpeg?width=600&height=600&v=1777589936"
     },
     {
       "store": "Kaufland",
@@ -118358,71 +120464,6 @@ const OFFERS_DATA = {
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800006905210_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     },
     {
-      "store": "T-Market",
-      "address": null,
-      "new_price": 17.45,
-      "new_price_eur": 8.92,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": null,
-      "valid_until": null,
-      "price_per_kg": 24.93,
-      "price_per_kg_eur": 12.75,
-      "source_type": "assortment",
-      "available_stores": [
-        "T-Market"
-      ],
-      "store_prices": [
-        {
-          "store": "T-Market",
-          "price": 17.45,
-          "price_eur": 8.92,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "T-Market",
-      "best_price": 17.45,
-      "comparison_count": 1,
-      "product_id": "tmarket-ракия-пещерска-отлежала-40-700-мл-700g",
-      "weight_grams": 700,
-      "weight_raw": "700 мл",
-      "name": "Ракия ПЕЩЕРСКА отлежала 40% 700 мл",
-      "image": "https://tmarketonline.bg/cdn/img/products/39539/rakia-peserska-otlezala-40--700-ml-65aa68d8885c1.jpeg?width=1920&height=1920&v=1777589994",
-      "category": "drinks",
-      "emoji": "🍺",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 15.47,
-      "lowest_price": 13.5,
-      "lowest_price_date": "2026-05-16",
-      "price_history": [
-        [
-          "2026-05-16",
-          13.5,
-          16.88,
-          20
-        ],
-        [
-          "2026-10-22",
-          17.45,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "wait"
-    },
-    {
       "store": "Kaufland",
       "address": null,
       "new_price": 17.49,
@@ -118541,6 +120582,77 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 2,
       "price_signal": "buy"
+    },
+    {
+      "store": "T-Market",
+      "address": null,
+      "new_price": 17.97,
+      "new_price_eur": 9.19,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": null,
+      "valid_until": null,
+      "price_per_kg": 23.96,
+      "price_per_kg_eur": 12.25,
+      "source_type": "assortment",
+      "available_stores": [
+        "T-Market"
+      ],
+      "store_prices": [
+        {
+          "store": "T-Market",
+          "price": 17.97,
+          "price_eur": 9.19,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "T-Market",
+      "best_price": 17.97,
+      "comparison_count": 1,
+      "product_id": "tmarket-вино-midalidare-мерло-каберне-фран-750мл-750g",
+      "weight_grams": 750,
+      "weight_raw": "750мл",
+      "name": "Вино MIDALIDARE Мерло§Каберне Фран 750мл",
+      "category": "drinks",
+      "emoji": "🍺",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 17.22,
+      "lowest_price": 16.6,
+      "lowest_price_date": "2026-10-22",
+      "price_history": [
+        [
+          "2026-05-16",
+          17.09,
+          null,
+          null
+        ],
+        [
+          "2026-10-22",
+          16.6,
+          17.97,
+          8
+        ],
+        [
+          "2026-11-10",
+          17.97,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "normal",
+      "image": "https://tmarketonline.bg/cdn/img/products/49163/vino-midalidare-4225-sovinon-blan750ml-63344040a4563.png?width=600&height=600&v=1777589961"
     },
     {
       "store": "Kaufland",
@@ -362593,5 +364705,5 @@ const OFFERS_DATA = {
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800032070272_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
     }
   ],
-  "catalog_products": 61404
+  "catalog_products": 61408
 };
