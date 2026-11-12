@@ -1,5 +1,5 @@
 const ALL_PRODUCTS_DATA = {
-  "generated_at": "2026-11-12T11:57:48.693132Z",
+  "generated_at": "2026-11-12T14:02:51.298110Z",
   "total_products": 61435,
   "products": [
     {
@@ -2481991,7 +2481991,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20943648_P.jpg",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/5418_BG_P",
       "product_id": "kaufland-коледен-донът-с-шоколадова-глазура-55g",
       "last_seen": "2026-11-12",
       "first_seen": "2026-11-09",
