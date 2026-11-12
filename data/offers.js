@@ -1,5 +1,5 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-11-12T17:50:42.518410Z",
+  "generated_at": "2026-11-12T19:42:13.896184Z",
   "store_last_scraped": {
     "Billa": "2026-11-12",
     "Dar": "2026-11-12",
@@ -9,9 +9,9 @@ const OFFERS_DATA = {
     "T-Market": "2026-11-10"
   },
   "unavailable_stores": [],
-  "content_hash": "8fadbd2465d85445739a5de04e9f78fc",
-  "total_offers": 4184,
-  "promo_offers": 1575,
+  "content_hash": "06159e3858a8d0bad5c2a6033e8bd098",
+  "total_offers": 4182,
+  "promo_offers": 1573,
   "assortment_offers": 2609,
   "stores": [
     "Billa",
@@ -39782,76 +39782,6 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 2,
       "price_signal": "wait"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 1.59,
-      "new_price_eur": 0.81,
-      "old_price": 2.55,
-      "old_price_eur": 1.3,
-      "discount_pct": 38,
-      "valid_from": "2026-11-09",
-      "valid_until": "2026-11-15",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 1.59,
-          "price_eur": 0.81,
-          "old_price": 2.55,
-          "old_price_eur": 1.3,
-          "discount_pct": 38,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 1.59,
-      "comparison_count": 1,
-      "product_id": "kaufland-круши-лукас",
-      "name": "Круши Лукас",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/09700108_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "vegetable",
-      "emoji": "🥦",
-      "health_score": 7,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "macros": {
-        "kcal": 57,
-        "p": 0.4,
-        "f": 0.1,
-        "c": 15
-      },
-      "avg_price": 1.69,
-      "lowest_price": 1.59,
-      "lowest_price_date": "2026-10-11",
-      "price_history": [
-        [
-          "2026-09-28",
-          1.79,
-          2.55,
-          30
-        ],
-        [
-          "2026-10-11",
-          1.59,
-          2.55,
-          38
-        ]
-      ],
-      "price_seen_count": 2,
-      "price_signal": "buy"
     },
     {
       "store": "Kaufland",
@@ -226016,95 +225946,6 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 2,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 3.59,
-      "new_price_eur": 1.84,
-      "old_price": 4.6,
-      "old_price_eur": 2.35,
-      "discount_pct": 22,
-      "valid_from": "2026-11-09",
-      "valid_until": "2026-11-15",
-      "price_per_kg": 14.9,
-      "price_per_kg_eur": 7.62,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 3.59,
-          "price_eur": 1.84,
-          "old_price": 4.6,
-          "old_price_eur": 2.35,
-          "discount_pct": 22,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 3.59,
-      "comparison_count": 1,
-      "product_id": "kaufland-суши-филаделфия-от-витрина-на-самообслужване-241g",
-      "weight_grams": 241,
-      "weight_raw": "241 г",
-      "name": "Суши Филаделфия от витрина на самообслужване",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/148_5941872102438_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "other",
-      "emoji": "🛒",
-      "is_food": false,
-      "is_junk": false,
-      "is_healthy": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "avg_price": 5.32,
-      "lowest_price": 3.49,
-      "lowest_price_date": "2026-10-11",
-      "price_history": [
-        [
-          "2026-04-30",
-          7.02,
-          9.0,
-          22
-        ],
-        [
-          "2026-06-01",
-          7.2,
-          9.0,
-          20
-        ],
-        [
-          "2026-06-15",
-          7.02,
-          9.0,
-          22
-        ],
-        [
-          "2026-08-24",
-          3.59,
-          4.6,
-          22
-        ],
-        [
-          "2026-10-11",
-          3.49,
-          4.6,
-          24
-        ],
-        [
-          "2026-11-09",
-          3.59,
-          4.6,
-          22
-        ]
-      ],
-      "price_seen_count": 6,
       "price_signal": "buy"
     },
     {
