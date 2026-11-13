@@ -1,5 +1,5 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-11-13T12:02:16.137999Z",
+  "generated_at": "2026-11-13T15:54:03.812072Z",
   "store_last_scraped": {
     "Billa": "2026-11-13",
     "Dar": "2026-11-13",
@@ -9,10 +9,10 @@ const OFFERS_DATA = {
     "T-Market": "2026-11-10"
   },
   "unavailable_stores": [],
-  "content_hash": "8eac54726d8c71043ba73e66fff336bf",
-  "total_offers": 4181,
+  "content_hash": "e10bfa149a0c62fae3b38de59d5affaf",
+  "total_offers": 4182,
   "promo_offers": 1577,
-  "assortment_offers": 2604,
+  "assortment_offers": 2605,
   "stores": [
     "Billa",
     "Dar",
@@ -263570,6 +263570,81 @@ const OFFERS_DATA = {
       "price_seen_count": 3,
       "price_signal": "normal",
       "image": "https://kaufland.media.schwarz/is/image/schwarz/571_01800702?JGstbGVnYWN5LW9uc2l0ZS0yJA=="
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 6.45,
+      "new_price_eur": 3.3,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-11-09",
+      "valid_until": "2026-11-15",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 6.45,
+          "price_eur": 3.3,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 6.45,
+      "comparison_count": 1,
+      "product_id": "kaufland-букет-микс-40-см",
+      "name": "Букет микс 40 см",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00103841__20IMG_0091_20_281_29?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 8.96,
+      "lowest_price": 5.99,
+      "lowest_price_date": "2026-09-29",
+      "price_history": [
+        [
+          "2026-05-19",
+          11.68,
+          null,
+          null
+        ],
+        [
+          "2026-06-30",
+          11.72,
+          null,
+          null
+        ],
+        [
+          "2026-09-29",
+          5.99,
+          null,
+          null
+        ],
+        [
+          "2026-11-10",
+          6.45,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 4,
+      "price_signal": "good"
     },
     {
       "store": "Fantastico",
