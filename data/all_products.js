@@ -1,6 +1,6 @@
 const ALL_PRODUCTS_DATA = {
-  "generated_at": "2026-11-13T19:27:10.719962Z",
-  "total_products": 61438,
+  "generated_at": "2026-11-15T16:05:46.798226Z",
+  "total_products": 61458,
   "products": [
     {
       "name": "Пушена риба тон",
@@ -5688,9 +5688,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://imgproxy-retcat.assets.schwarz/rKaCYZ1mLndWR_4Dy3ZZ3pDJhV6pp9HMoEOJhW84des/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9CMkRFNUUyNTcxQzgyOUE3MTVBOTUwN0F/FREZCNENBMkQ2RENBREM4REFEQjZCMTY1MDU2OTZFOTQzQzA2MzQ3LnBuZw.png",
+      "image": "https://www.lidl.bg/assets/gcp581bd77574e844a899079097724fa391.png",
       "product_id": "lidl-лук",
-      "last_seen": "2026-05-31",
+      "last_seen": "2026-11-15",
       "ingredients_raw": "wheat semolina 76%, vegetable oil (refined sunflower oil and non-hydrogenated palm olein in varying proportions), meal onion 1,6%, salt, natural coloring agent: annatto/e160b (ii), contains gluten,",
       "ingredients_flags": [],
       "junk_count": 0,
@@ -5737,11 +5737,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.39,
           "old_price": 1.29,
           "discount_pct": 41
+        },
+        {
+          "date": "2026-11-15",
+          "store": "Lidl",
+          "price": 0.39,
+          "price_eur": 0.2,
+          "old_price": 0.66,
+          "discount_pct": 41
         }
       ],
-      "lowest_price": 0.65,
-      "lowest_price_date": "2026-04-25",
-      "avg_price": 0.71
+      "lowest_price": 0.39,
+      "lowest_price_date": "2026-11-15",
+      "avg_price": 0.66
     },
     {
       "name": "КЪРПИ ВЛАЖНИ АНТИБАКТ. EVENT МАНДАРИНА 3Х15 БР",
@@ -19765,7 +19773,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3802913050748_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-салата-аисберг",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-14",
       "price_history": [
         {
@@ -60258,7 +60266,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/09902898_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-букет-рози",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-14",
       "price_history": [
         {
@@ -71738,7 +71746,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/06600403?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-подочистачка",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-14",
       "price_history": [
         {
@@ -78188,7 +78196,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/09700011_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-банани",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-31",
       "price_history": [
         {
@@ -84934,7 +84942,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8697409841390_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-комплект-четка-с-лопатка",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-13",
       "price_history": [
         {
@@ -163884,6 +163892,7 @@ const ALL_PRODUCTS_DATA = {
     },
     {
       "name": "Краставици",
+      "store": "Lidl",
       "emoji": "🥦",
       "category": "vegetable",
       "weight_raw": null,
@@ -163905,9 +163914,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://imgproxy-retcat.assets.schwarz/xyt6v1DmObdKmxohPKYOVHfuftMqIa1PNhvdorcGu5o/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9DQTVCNTc4NDYyRjhCQUVCMzhFRDk5NDV/DNDc1MjA2QTBGNEMwNTBDRTRDMUI0RTU5MEZGMzdEODI1ODE3NkRDLnBuZw.png",
+      "image": "https://www.lidl.bg/assets/gcp62a05b921fb34571bd987ad4747f2fad.png",
       "product_id": "lidl-краставици",
-      "last_seen": "2026-04-30",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -163925,12 +163934,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.69,
           "old_price": 2.52,
           "discount_pct": 46
+        },
+        {
+          "date": "2026-11-15",
+          "store": "Lidl",
+          "price": 0.85,
+          "price_eur": 0.43,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
-      "lowest_price": 1.35,
-      "lowest_price_date": "2026-04-25",
-      "avg_price": 1.9,
-      "store": "Lidl"
+      "lowest_price": 0.85,
+      "lowest_price_date": "2026-11-15",
+      "avg_price": 1.55
     },
     {
       "name": "Ябълков оцет VEDA 700 мл",
@@ -287299,7 +287315,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/2879340000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-хек-филе",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -363919,7 +363935,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/2830080000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-греипфрут",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -495225,7 +495241,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/148_2020825957_1_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-ципура-чистена-прясна",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -496291,7 +496307,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/2810840000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-пилешки-крила-от-свежата-витрина",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -500232,7 +500248,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/09700166_Promo_436578?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-червено-цвекло-клас-i",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -502469,7 +502485,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/2840660000000_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-червени-маслини-услу-280-360",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -502978,7 +502994,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20716856_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-маслини-каламата-джъмбо-181-260",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -505507,7 +505523,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800090303831_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-zebra-салфетки",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -516034,7 +516050,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8001090951892_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-pampers-пелени-или-гащички",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -516231,7 +516247,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00098358_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-pampers-бебешки-пелени-или-гащички",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -521212,7 +521228,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5900273112521_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-colgate-четка-за-зъби-extra-clean-2",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -522461,7 +522477,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/05101192_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-always-дамски-превръзки-различни-видове-2",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -524204,7 +524220,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00108621_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-браво-дебърцини-от-свежата-витрина-2",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -524474,7 +524490,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00064634_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-familia-кухненска-ролка-различни-видове-2",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -524755,7 +524771,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20977024_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-alvina-гел-различни-видове-2",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -525126,7 +525142,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20876266_596?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-bingo-гел-за-пране-промопакет-2",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -525216,7 +525232,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00071259_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-emeka-тоалетна-хартия-paradise-2",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -526391,7 +526407,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00098113_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-стария-ловец-пастърма-от-свежата-витрина-2",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -526815,7 +526831,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00095120_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-brio-комплект-прибори-metallica-2",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -535420,7 +535436,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/143_00032403_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-маслини-каламата-от-свежата-витрина",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-25",
       "price_history": [
         {
@@ -542688,7 +542704,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/09902226M_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-роза-микс-ø10-5-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-25",
       "price_history": [
         {
@@ -546098,7 +546114,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/06600404?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-резервна-гъба",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -546246,7 +546262,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/AdobeStock_198718474-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-броколи",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -546908,7 +546924,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/2830850000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-тиквички-клас-i",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -547675,7 +547691,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/2830920000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-розови-домати",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -548053,7 +548069,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/01004240_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-синьо-сирене-от-свежата-витрина",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -548223,7 +548239,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/132_01002732_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-cantorel-меко-сирене-от-свежата-витрина",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -548773,7 +548789,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00108602_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-леки-свинско-филе",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -549595,7 +549611,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/01003882_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-маслини-гръцка-салата-от-свежата-витрина",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -551172,7 +551188,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/01004172_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-народен-македонска-наденица-от-свежата-витрина",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -552818,7 +552834,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8584014862066_23P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-k-classic-носни-кърпички-трипластови",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -552937,7 +552953,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5201314961109_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-fino-пликове-за-печене",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -554310,7 +554326,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20768881_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-perfex-тоалетна-хартия-различни-видове",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -554937,7 +554953,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5201314931102_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-fino-торби-за-отпадъци",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -555933,7 +555949,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20808777_p_copy?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-моп-тип-пеперуда",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -556174,7 +556190,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/769_20785964?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-dilios-кухненски-кърпи-40-х-60-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -557526,7 +557542,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00111217_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-gillette-гел-за-бръснене",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -557722,7 +557738,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/7322540973112_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-zewa-кухненска-ролка-wisch-weg-различни-видове",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -557775,7 +557791,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/607_05102932_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-zewa-wisch-weg-кухненска-ролка-различни-видове",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -560101,7 +560117,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/597_20607926_Semana______Midnight_Blue_2x1_65__2x66__?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-semana-омекотител-различни-видове",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -561356,7 +561372,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/Familia_8rolls_white_tp?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-familia-тоалетна-хартия-различни-видове",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -562529,7 +562545,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20694348_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-milde-тоалетна-хартия-трипластова",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -564048,7 +564064,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20692967_596-1?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-perwoll-гел-избрани-видове",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -565578,7 +565594,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8720389029288_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-philips-уред-за-гладене-sth1010-10-k-900-w",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -566991,9 +567007,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": true,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://imgproxy-retcat.assets.schwarz/wAnc91GvQTzZINfkZy_bSFiBh_uvplTlrb0JfOM2AeE/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS85NkEwQjc2NjAzNDgwRDUyRUU0M0Y5ODh/CN0JDNzhENTc0QTU4NjUzQ0FGMDk5Q0ZFMkY3QUQ1NzVCOEE3QTQ2LnBuZw.png",
+      "image": "https://www.lidl.bg/assets/gcp11c51352afc14972a902837f0e802be6.png",
       "product_id": "lidl-пресни-яица",
-      "last_seen": "2026-10-11",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-30",
       "price_history": [
         {
@@ -567035,11 +567051,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 2.45,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-15",
+          "store": "Lidl",
+          "price": 2.35,
+          "price_eur": 1.2,
+          "old_price": 2.95,
+          "discount_pct": 20
         }
       ],
-      "lowest_price": 4.6,
-      "lowest_price_date": "2026-05-31",
-      "avg_price": 7.17
+      "lowest_price": 2.35,
+      "lowest_price_date": "2026-11-15",
+      "avg_price": 6.37
     },
     {
       "name": "Clever Суров орех 200 г",
@@ -573262,7 +573286,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/01003883_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-черни-маслини-колосал-от-свежата-витрина",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-30",
       "price_history": [
         {
@@ -584015,7 +584039,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4049726003472_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-яица-размер-м",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-04",
       "price_history": [
         {
@@ -584865,7 +584889,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/2801240000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-говеждо-месо-от-врат-от-свежата-витрина",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-04",
       "price_history": [
         {
@@ -586713,7 +586737,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/2854960000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-кенана-сирене-от-овче-мляко-от-свежата-витрина",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-04",
       "price_history": [
         {
@@ -591609,7 +591633,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/182_20682975_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-разбит-хаивер-от-свежата-витрина",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-04",
       "price_history": [
         {
@@ -593409,7 +593433,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4085_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-донът-пица-с-моцарела-и-шунка",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-04",
       "price_history": [
         {
@@ -594179,7 +594203,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00018744B_A?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-карначе-от-свежата-витрина",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-04",
       "price_history": [
         {
@@ -594388,7 +594412,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/2821360000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-бони-шунка-от-свежата-витрина",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-04",
       "price_history": [
         {
@@ -597328,7 +597352,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20685517_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-home-practic-комплект-микрофибърни-кърпи",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-04",
       "price_history": [
         {
@@ -599302,7 +599326,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00106433_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-loctite-лепило-super-bond-original",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-04",
       "price_history": [
         {
@@ -599760,7 +599784,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_00071591_P.jpg",
       "product_id": "kaufland-k-classic-хартия-за-печене",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-04",
       "price_history": [
         {
@@ -600109,7 +600133,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00037984_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-baby-crema-бебешки-влажни-кърпички",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-04",
       "price_history": [
         {
@@ -602762,7 +602786,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20845355?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-power-x-автоматична-помпа-за-вода",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-04",
       "price_history": [
         {
@@ -605317,7 +605341,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/782_00051604_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-аquарhоr-филтър-за-вода",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-04",
       "price_history": [
         {
@@ -606848,7 +606872,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00090206_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-domestos-универсален-почистващ-препарат-или-wc-блокчета",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-04",
       "price_history": [
         {
@@ -608121,7 +608145,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20685622-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-home-practic-сгъваем-стол",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-04",
       "price_history": [
         {
@@ -610129,7 +610153,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_21000574_P.jpg",
       "product_id": "kaufland-brio-сушилник",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-04",
       "price_history": [
         {
@@ -610375,7 +610399,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20695655_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-ayco-ютия-api20lil",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-04",
       "price_history": [
         {
@@ -610923,7 +610947,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20934212_P.jpg",
       "product_id": "kaufland-john-cotton-комплект-възглавници-50-x-70-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-04",
       "price_history": [
         {
@@ -612233,7 +612257,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800024036088_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-pufies-бебешки-пелени-или-гащички",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-04",
       "price_history": [
         {
@@ -612278,7 +612302,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800024035975_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-pufies-пелени-или-гащички-sensitive",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-04",
       "price_history": [
         {
@@ -612903,9 +612927,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8054633837597?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/8054633837597?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-dual-power-гел-различни-видове",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-04",
       "price_history": [
         {
@@ -613117,7 +613141,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/782_00107790_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-aquaphor-кана-за-вода-time-2-5-л-2500g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-04",
       "price_history": [
         {
@@ -613215,7 +613239,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20768932_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-ayco-гофретник-awm-1000b",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-04",
       "price_history": [
         {
@@ -614966,7 +614990,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20796988_596?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-savex-прах-гел-или-капсули-различни-видове",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-04",
       "price_history": [
         {
@@ -615426,7 +615450,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5702017228402_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-lego-конструктор-различни-видове",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-04",
       "price_history": [
         {
@@ -616236,7 +616260,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20898021_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-teo-bebe-future-гел-за-пране",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-04",
       "price_history": [
         {
@@ -616625,7 +616649,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00088262_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-somat-таблетки-за-съдомиялна-различни-видове",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-04",
       "price_history": [
         {
@@ -618173,7 +618197,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20805772?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-elite-шевна-машина-swm-1417",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-04",
       "price_history": [
         {
@@ -618377,7 +618401,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/788_00103283_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-crown-планетарен-миксер-cpm-5303",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-04",
       "price_history": [
         {
@@ -618533,7 +618557,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/1033118000005_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-crown-автомат-за-гореща-и-студена",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-04",
       "price_history": [
         {
@@ -618943,7 +618967,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20659973_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-crown-led-lcd-телевизор-32tf19bhd-32-80-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-04",
       "price_history": [
         {
@@ -619123,7 +619147,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20680546?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-tefal-комплект-съдове-за-готвене-ingenio-emotion",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-04",
       "price_history": [
         {
@@ -619184,7 +619208,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00113374_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-crown-фурна-за-вграждане-co-4kf",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-04",
       "price_history": [
         {
@@ -624384,7 +624408,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/09902123G_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-орхидея-фаленопсис-ø12-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -642236,7 +642260,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20838864_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-crown-хладилник-df91ew-90-л",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -643241,7 +643265,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/050_484_00090832?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-rois-орехи-сурови-100g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -643658,7 +643682,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp90e6f9921f27458ab702e24f2e85b4d6.jpg",
       "product_id": "lidl-гъби-портобело-400g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -644569,7 +644593,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20851218?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-бор-чвор-скир-400g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -644738,7 +644762,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/185_2020806506_1_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-делиа-пуешко-мляно-месо-от-бут-400g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -645806,7 +645830,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4063367449390?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-k-bio-биопюре-със-сливи-и-ябълки-190g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -645913,7 +645937,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20779265_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-тутманик-със-сирене-200g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -645965,7 +645989,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://www.lidl.bg/assets/gcp9c0660085f08483dbe172c4067402269.png",
       "product_id": "lidl-зеленчуци-с-масло-300g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -646389,7 +646413,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20900697_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-classic-max-кюфтета-с-доматен-сос-330g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -649450,7 +649474,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3791_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-поничка-с-лешников-крем-от-нашата-пекарна-65g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -649843,7 +649867,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4063367449529?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-k-bio-биопюре-избрани-видове-190g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -650112,7 +650136,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4250922601007_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-de-lucia-моцарела-125g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -650180,7 +650204,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5201193790210_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-melissa-макаронени-изделия-различни-видове-500g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -650445,7 +650469,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcpd6fa583d70e64be797c1b17fc8aaf02f.png",
       "product_id": "lidl-европеиска-салата-400g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -651889,7 +651913,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4337185317194_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-k-classic-маскарпоне-250g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -652028,7 +652052,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20814021_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-greno-плодов-сок-100-различни-видове-1500g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -652167,7 +652191,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/257_00089022?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-бреи-салата-кьопоолу-400g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -652283,7 +652307,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00100811_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-plasmon-пюре-различни-видове-160g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -653017,7 +653041,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp0204f7b67d594f06958efcc9f7abc8de.png",
       "product_id": "lidl-замразени-вишни-450g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -654055,7 +654079,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20154602_P.jpg",
       "product_id": "kaufland-nivea-мляко-или-лосион-за-тяло-различни-видове-625g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -654837,7 +654861,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00063329_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-melitta-кафе-на-зърна-различни-видове-1000g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -655250,7 +655274,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800058521444_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-кенар-руска-салата-с-шунка-400g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -655311,7 +655335,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800047759681_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-крали-марко-салам-различни-видове-700g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -655417,7 +655441,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20914251_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-маистор-цветко-луканка-леденика-слаис-200g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -655984,7 +656008,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20668401_P?JGstbGVnYWN5LW9uc2l0ZS0xJA==",
       "product_id": "kaufland-молерите-панагюрска-луканка-400g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -656490,7 +656514,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/509_20712008?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-lay-s-картофен-чипс-различни-вкусове-170g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -658760,7 +658784,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_00107666_P.jpg",
       "product_id": "kaufland-milka-oreo-донът-от-нашата-пекарна-73g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -659781,7 +659805,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/02303361_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-somersby-саидер-различни-вкусове-330g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -660873,7 +660897,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/02902993_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-barni-кексче-различни-вкусове-150g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -660918,7 +660942,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/02902994_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-barni-кексче-различни-видове-150g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -660963,7 +660987,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/509_20715407?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-lay-s-печен-чипс-различни-вкусове-105g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -662639,7 +662663,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/514_20883609?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-scala-крекери-различни-видове-100g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -663137,7 +663161,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/314_01600300_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-becel-продукт-за-мазане-400g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -663866,7 +663890,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp9496937e58334df698938abbab2ce2c0.png",
       "product_id": "lidl-сандвич-200g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -664218,7 +664242,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/626_00111425_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-jotis-инстантна-каша-200g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -664271,7 +664295,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/626_00111424_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-jotis-инстантна-каша-различни-видове-200g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -664324,7 +664348,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20872420_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-medix-универсален-почистващ-препарат-1400g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -664401,7 +664425,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/185_00113467B_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-amadori-кордон-бльо-замразено-250g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -664589,7 +664613,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp0540b02c0772499bb7c2de9af34602c5.png",
       "product_id": "lidl-чиизбургери-320g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -666701,7 +666725,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/326_2020905851_1_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-жанета-сладки-600g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -667305,7 +667329,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/638_00016451?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-nivea-душ-гел-различни-видове-500g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -667358,7 +667382,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/9005800307510_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-nivea-душ-гел-hawaii-flower-oil-500g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -667411,7 +667435,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/326_00045226C_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-кринос-торта-френска-селска-600g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -667838,9 +667862,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://imgproxy-retcat.assets.schwarz/IirRYMKIc_ltmS-Ews1-WS_M1yTiLzWn68wRB_EPd74/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS8wMjc2QjA4QUVDNUU3NzYzNTM0REI0M0Y/1REUxNTFGMEFEOTkzMDBFMUYzQ0E5NjJGOTUxNjhGQ0FEOTQ0N0Q0LnBuZw.png",
+      "image": "https://www.lidl.bg/assets/gcp4471c98c535d430ca037356877c1b3ec.png",
       "product_id": "lidl-кюфтета-или-кебапчета-xxl-1100g",
-      "last_seen": "2026-10-18",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -669188,7 +669212,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20852433?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-heineken-бира-4-5-vol-4500g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -669355,7 +669379,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20738451_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-castillo-del-moro-червено-бяло-вино-или-розе-различни-сортове-750g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -669400,7 +669424,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800085558529_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-ида-торта-червено-кадифе-900g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -671039,7 +671063,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/256_2020925289_1_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-eat-good-филе-от-сьомга-с-лимонено-орзо-300g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -672413,7 +672437,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3000001707813_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-целина-стъбла-400g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -674363,7 +674387,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800100301284_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-лесно-свински-кебап-с-картофено-пюре-300g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -674433,7 +674457,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20911928_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-schardinger-сирене-котидж-500g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -675387,7 +675411,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00062916C_A?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-хляб-със-закваска-от-нашата-пекарна-500g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -675578,7 +675602,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/2800260000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-свински-врат-до-5-кг-на-покупка",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -675816,7 +675840,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/157_00021453_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-бял-земел-от-нашата-пекарна-60g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -676289,7 +676313,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20922670_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-поничка-с-пълнеж-манго-80g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -676946,7 +676970,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/286_20813246_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-julius-meinl-кафе-напитка-различни-видове-240g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -677789,7 +677813,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_00400076_P.jpg",
       "product_id": "kaufland-danone-заквасена-сметана-380g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -678147,7 +678171,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00401960_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-alpro-напитка-на-растителна-основа-избрани-видовене-1000g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -678243,7 +678267,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20704997__P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-денито-салата-различни-видове-380g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -678532,7 +678556,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00095005_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-белла-бутертесто-1000g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -679295,7 +679319,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00059667_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-маистор-цветко-жарено-филе-от-свежата-витрина",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -680256,7 +680280,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/9427_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-кроасан-с-пуешки-кренвирш-95g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -680362,7 +680386,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/257_01200911_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-хапни-руска-салата-с-шунка-1000g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -680757,7 +680781,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/01000190_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-народен-кренвирши-от-свежата-витрина",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -681173,7 +681197,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/141_20274465_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-стария-ловец-луканка-чумерна-от-свежата-витрина",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -681226,7 +681250,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20282879_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-орехите-шпек-различни-видове-600g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -682225,7 +682249,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20790818_P.jpg",
       "product_id": "kaufland-поничка-с-плодов-пълнеж-65g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -682448,7 +682472,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00041301C_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-закуска-пица-от-нашата-пекарна-95g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -684369,7 +684393,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/325_02903247_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-тимс-кифлички-различни-видове-250g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -684695,7 +684719,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5449000044815_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-schweppes-различни-видове-1250g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -684976,7 +685000,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00061648?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-agiva-тампони-за-премахване-на-грим",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -685435,7 +685459,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20769489_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-paradise-тунквани-бисквити-различни-видове-147g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -685986,7 +686010,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00108162_P?JGstbGVnYWN5LW9uc2l0ZS0xJA==",
       "product_id": "kaufland-medix-wc-гел-total-power-guard-различни-видове-750g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -686534,7 +686558,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00035957_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-bella-продукт-за-мазане-избрани-видове-400g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -689064,7 +689088,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/638_04800504?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-rexona-дезодорант-различни-видове-150g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -689117,7 +689141,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8717644585429_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-rexona-дезодорант-спреи-различни-видове-150g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -689170,7 +689194,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/631_04701080?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-schauma-шампоан-или-балсам-различни-видове-400g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -690218,7 +690242,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8003510028726_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-nidra-интимен-гел-различни-видове-500g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -690263,7 +690287,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/633_04702594?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-taft-стилизиращи-продукти-за-коса-250g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -690316,7 +690340,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/633_00012828?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-taft-пяна-коса-volume-mega-200g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -690369,7 +690393,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/04700298_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-taft-гел-за-коса-различни-видове-150g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -691010,7 +691034,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/186_00098724_1_P-2?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-шеф-месар-парти-кюфтенца-500g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -691156,7 +691180,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5201314170457_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-str8-дезодорант-спреи-150g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -691249,7 +691273,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20835480_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-str8-дезодорант-различни-видове-150g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -692147,7 +692171,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5201314105961_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-str8-афтършеиф-red-code-50g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -692306,7 +692330,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3830029293629_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-sensodyne-паста-за-зъби-различни-видове-75g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -692516,7 +692540,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00016615_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-friskies-суха-храна-за-котки-различни-видове-1500g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -693954,7 +693978,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5941223000451_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-захира-захар-1000g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -694039,7 +694063,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/01701331_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-sofia-червено-бяло-вино-или-розе-различни-сортове-5000g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -694397,7 +694421,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20938011_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-coccolino-омекотител",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -694466,7 +694490,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/05102960_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-zebra-кухненска-ролка",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -695419,7 +695443,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20819946?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-str8-тоалетна-вода-wild-beat-50g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -695496,7 +695520,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20280190_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-essex-гел-или-прах-multi",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -695986,7 +696010,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20863732_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-bingo-таблетки-за-съдомиялна-pro",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -696428,7 +696452,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4337185498992_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-k-classic-суха-храна-за-кучета-различни-видове-10000g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -696648,7 +696672,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00093963_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-zlaten-rozhen-червено-бяло-вино-или-розе-различни-сортове-3000g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -696886,7 +696910,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/2821240000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-бони-бирени-пръчици-от-свежата-витрина",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -697204,7 +697228,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/01004259_Promo_515754?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-димитър-маджаров-сух-колбас-бургас-от-свежата-витрина",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -699255,7 +699279,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00093978_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-crown-прахосмукачка-cvc-233",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -699501,7 +699525,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3121040083055_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-tefal-парогенератор-sv611",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -699591,7 +699615,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5904680990758_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-стълба-3-x-7-стъпала",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -706815,7 +706839,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800234140018_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-реколта-кисели-краставички-680g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-14",
       "price_history": [
         {
@@ -710613,68 +710637,6 @@ const ALL_PRODUCTS_DATA = {
       "avg_price": 11.99
     },
     {
-      "name": "Филе от сьомга",
-      "store": "Lidl",
-      "emoji": "🍗",
-      "category": "protein",
-      "weight_raw": "1 kg",
-      "weight_grams": 1000,
-      "shelf_life": "малотраен",
-      "is_food": true,
-      "is_healthy": true,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": 10,
-      "diet_tags": [
-        "high_protein",
-        "keto",
-        "mediterranean"
-      ],
-      "macros": {
-        "kcal": 208,
-        "p": 20,
-        "f": 13,
-        "c": 0
-      },
-      "is_junk": false,
-      "is_high_protein": true,
-      "is_good_carb": false,
-      "is_good_fat": true,
-      "image": "https://www.lidl.bg/assets/gcp0caf067b43ab4a14a80c51b396a9bb16.png",
-      "product_id": "lidl-филе-от-сьомга-1000g",
-      "last_seen": "2026-10-25",
-      "first_seen": "2026-05-16",
-      "price_history": [
-        {
-          "date": "2026-05-16",
-          "store": "Lidl",
-          "price": 29.98,
-          "price_eur": 15.33,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-08-30",
-          "store": "Lidl",
-          "price": 15.33,
-          "price_eur": 7.84,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-10-22",
-          "store": "Lidl",
-          "price": 15.29,
-          "price_eur": 7.82,
-          "old_price": null,
-          "discount_pct": null
-        }
-      ],
-      "lowest_price": 15.29,
-      "lowest_price_date": "2026-10-22",
-      "avg_price": 20.2
-    },
-    {
       "name": "Нектар Нар",
       "store": "Lidl",
       "emoji": "🥦",
@@ -711952,7 +711914,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20342556_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-fit-spo-протеиново-барче-salted-carame-85g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-16",
       "price_history": [
         {
@@ -712740,7 +712702,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800224890114_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-fit-spo-maxx-бисквита-с-крем-cookies-cream-75g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-16",
       "price_history": [
         {
@@ -747773,7 +747735,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/2861020000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-сьомга-котлет",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -748269,7 +748231,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800058500180_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-кенар-салата-снежанка-400g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -748692,7 +748654,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20284400_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-kronos-печени-ядки-микс-делукс-400g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -748785,7 +748747,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00065171_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-орехите-сушеница-различни-видове-180g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -753397,7 +753359,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/152_2020676449C_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-кроасан-с-24-масло-от-нашата-пекарна-55g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -753664,7 +753626,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20916688_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-донът-с-пълнеж-маскарпоне-и-юзу-69g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -753719,7 +753681,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20790215_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-багета-от-нашата-пекарна-415g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -753999,7 +753961,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00051273_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-classic-max-салата-дзадзики-250g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -755311,7 +755273,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_00060486_P.jpg",
       "product_id": "kaufland-булмед-пчелен-мед-буркан-390g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -755728,7 +755690,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800040205024_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-денито-гирос-салата-250g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -756052,7 +756014,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800232100021_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-еs-брашно-от-лимец-пълнозърнесто-1000g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -757732,7 +757694,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/01003866_A?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-лотос-филе-елена-от-свежата-витрина",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -759456,7 +759418,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/665_20284785_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-prisun-негазирана-напитка-избрани-видове-1500g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -759914,7 +759876,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/6642_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-донът-с-розова-глазура-и-поръска-55g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -760044,7 +760006,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20689556_P.jpg",
       "product_id": "kaufland-донът-с-млечен-шоколад-55g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -760193,7 +760155,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00089053B_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-вита-баничка-различни-видове-120g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -760278,7 +760240,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/9486_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-селска-вита-баничка-от-нашата-пекарна-120g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -760890,7 +760852,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/02701130_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-orbit-дъвки-различни-вкусове-14g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -760988,7 +760950,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/638_00108971_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-rubis-тоалетен-сапун-различни-видове-140g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -761131,7 +761093,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/649_04703613?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-wet-hankies-мокри-кърпички-различни-видове",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -761303,7 +761265,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/02300322_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-ариана-бира-0-4-5-vol-500g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -761645,7 +761607,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800232225472_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-grivassini-царевичен-чипс-различни-видове-60g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -762066,7 +762028,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00046802_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-wilkinson-xtreme3-самобръсначка",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -762736,7 +762698,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5941341022113_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-чибин-пастет-или-русенско-варено-различни-видове-300g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -763735,7 +763697,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20341732_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-colgate-паста-или-четка-за-зъби-различни-видове-75g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -763924,7 +763886,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20341734_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-colgate-паста-за-зъби-whitening-75g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -764894,7 +764856,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4027800808144_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-wilkinson-quattro-самобръсначка-beauty",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -765665,7 +765627,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800208230387_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-мемо-баклава-различни-видове-350g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -766179,7 +766141,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/423_20674239_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-ббп-лютеница-първомаиски-оркестър-710g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -766309,7 +766271,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/636_04802020?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-astera-parodont-паста-за-зъби-75g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -767540,7 +767502,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20276691_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-стария-ловец-ловджииски-бабек-300g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -767749,7 +767711,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/05000148_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-meglio-обезмаслител-помпа-750g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -767868,7 +767830,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4027800319626_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-wilkinson-самобръсначка-xtreme3",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -767921,7 +767883,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4027800072248_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-wilkinson-xtreme3-самобръсначка-black",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -767982,7 +767944,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00069762_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-wilkinson-xtreme3-самобръсначка-различни-видове",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -768597,7 +768559,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4027800081158_BG_P?JGstbGVnYWN5LW9uc2l0ZS0xJA==",
       "product_id": "kaufland-wilkinson-инструмент-за-вежди-intuition",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -768846,7 +768808,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4335896756257_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-k-classic-суха-храна-за-котки-2000g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -768907,7 +768869,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4335896756479_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-k-classic-суха-храна-за-котки-различни-видове-2000g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -769725,7 +769687,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00112995_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-luminarc-тава-diwali-ø22-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -770638,7 +770600,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800022415151_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-загорка-бира-5-vol-4500g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -771342,7 +771304,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/644_20843510?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-nature-of-agiva-парфюмен-мист-различни-видове-150g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -772727,7 +772689,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00101094_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-emeka-кухненска-ролка-white-трипластова",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -773877,7 +773839,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4027800656103_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-wilkinson-самобръсначка-intuition-complete",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -773983,7 +773945,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800124222862_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-economic-суха-храна-за-кучета-10000g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -774393,7 +774355,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20818737_3-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-power-x-usb-мелница-за-сол-пипер",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -774475,7 +774437,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20754569_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-stallion-selection-червено-или-бяло-вино-различни-сортове-750g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -774536,7 +774498,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20865876?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-stallion-selection-червено-бяло-вино-или-розе-различни-сортове-750g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -774589,7 +774551,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8690536024292_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-papia-тоалетна-хартия-различни-видове",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -774698,7 +774660,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20864198_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-teno-тоалетна-хартия-fresh-breeze",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -775582,7 +775544,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4027800006304_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-wilkinson-ножчета-intuition-complete",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -775725,7 +775687,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20216517_P-3?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-brio-комплект-за-подправки-metallica",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -777335,7 +777297,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/129_00077484B_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-kerrygold-чедър-от-свежата-витрина",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -778462,7 +778424,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20777029_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-dilios-халат-за-баня-петра-s-xl",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -780016,7 +779978,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00033309_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-бяла-река-сьомгова-пъстърва-от-свежата-витрина",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -780176,7 +780138,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/2860730000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-сьомга-филе-с-кожа-от-свежата-витрина",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -780258,7 +780220,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/148_00107917B_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-херинга-филе-размразено",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -783213,7 +783175,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8767_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-хляб-ръжено-пшеничен-от-нашата-пекарна-800g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-30",
       "price_history": [
         {
@@ -793835,7 +793797,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/AdobeStock_203461098?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-сьомга-пушено-филе-от-свежата-витрина",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -794983,7 +794945,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/183_00103969_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-пилешки-обезкостен-бут-от-свежата-витрина",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -795772,7 +795734,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_00107679_P.jpg",
       "product_id": "kaufland-донът-с-ягодов-пълнеж-70g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -796272,7 +796234,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/275_00100605_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-булкарто-бланширани-картофи-замразени-1000g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -796780,7 +796742,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00093615_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-родопско-чудо-кисело-мляко-с-каимак-1200g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -797737,7 +797699,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/210126-2_1_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-шеф-месар-скалопини-от-свинско-каре-450g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -797931,7 +797893,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/2800780000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-шеф-месар-мляно-свинско-месо-от-свежата-витрина",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -798129,7 +798091,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00068247B_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-рогче-с-маслини-от-нашата-пекарна-70g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -798720,7 +798682,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_00105786_P.jpg",
       "product_id": "kaufland-содена-питка-от-нашата-пекарна-300g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -799585,7 +799547,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/552_00075757_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-ввв-плодова-напитка-различни-видове-2000g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -800701,7 +800663,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/2840960000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-черни-маслини-джаиънтс-лаит-от-свежата-витрина",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -801231,7 +801193,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/493_02401600_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-davidoff-кафе-различни-видове-250g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -801530,7 +801492,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00089993_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-aptamil-адаптирано-мляко-различни-видове-800g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -801620,7 +801582,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8712400113694_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-aptamil-адаптирано-мляко-800g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -801856,7 +801818,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/2822510000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-ивет-кренвирши-от-пилешко-месо",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -802047,7 +802009,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00203402_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-кен-шунка-300g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -802092,7 +802054,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/238_20741501_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-стария-ловец-луканков-салам-амбарица-600g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -802778,7 +802740,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00099492_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-кроасан-различни-видове-55g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -803663,7 +803625,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20802496_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-донът-с-бяла-глазура-и-бонбони-57g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -803838,7 +803800,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20924895_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-сладея-пудра-захар-500g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -804344,7 +804306,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800008604487_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-победа-бисквити-еверест-различни-видове-220g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -804572,7 +804534,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20354978_20_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-exquisa-чиизкеик-различни-видове-70g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -804649,7 +804611,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/325_00013392_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-кифлички-различни-видове-300g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -805213,7 +805175,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/245_20777670_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-k-classic-кабаноси-различни-видове-120g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -805274,7 +805236,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20663534_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-целувки-различни-видове-110g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -805364,7 +805326,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/638_04805061?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-medix-течен-сапун-различни-видове-800g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -805568,7 +805530,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20889788-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-indomie-инстантни-нудли-различни-видове-450g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -805976,7 +805938,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00031649_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-pedigree-храна-за-кучета-пауч-340g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -806244,7 +806206,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4300175675321_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-k-classic-пица-на-въглища-350g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -806305,7 +806267,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8718951610613_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-colgate-kids-паста-или-четка-за-зъби-различни-видове-50g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -806358,7 +806320,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8718951610583_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-colgate-паста-за-зъби-детска-50g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -806411,7 +806373,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8718951614024_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-colgate-kids-четка-за-зъби-паста-за-зъби-различни-видове-50g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -806456,7 +806418,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8718951613966_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-colgate-четка-за-зъби-различни-видове",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -806673,7 +806635,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/448_04001352_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-есе-булгур-различни-видове-900g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -806903,7 +806865,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/636_04801748?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-aquafresh-паста-за-зъби-50g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -808254,7 +808216,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800112160046_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-my-day-крем-за-разбиване-1000g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -808352,7 +808314,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4067776016846_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-k-carinura-суха-храна-за-котки-различни-видове-800g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -808916,7 +808878,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20844733_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-milka-млечен-шоколад-различни-видове-190g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -809337,7 +809299,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20813286_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-carlsberg-бира-5-vol-2000g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -811274,7 +811236,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00036168_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-nivea-шампоан-различни-видове-500g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -811364,7 +811326,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00095004_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-фамилия-минибанички-замразени-1200g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -813469,7 +813431,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/2878340000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-пуика-замразена",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -815255,7 +815217,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5010106113578_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-ballantine-s-finest-шотландско-уиски-700g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -816781,7 +816743,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627479502_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-parkside-performance-ударен-винтоверт",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -817167,7 +817129,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20929453_20-_20XIAOMI_20_D0_9F_D1_80_D0_B0_D1_85_D0_BE_D1_81_D0_BC_D1_83_D0_BA_20_D1_80_D0_BE_D0_B1_D0_BE_D1_82_-Wl1YI4JuyD?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-xiaomi-прахосмукачка-робот-bhr9664eu-s40c",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -819915,7 +819877,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00105391_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-хляб-сомун-от-нашата-пекарна-300g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -825010,7 +824972,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20652135_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-k-classic-пушен-кашкавал-45-масленост-730g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-28",
       "price_history": [
         {
@@ -831280,7 +831242,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20891696_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-coca-cola-8-x-0-33-л-кен-промопакет-2640g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -833652,67 +833614,6 @@ const ALL_PRODUCTS_DATA = {
       "avg_price": 3.48
     },
     {
-      "name": "Сирене",
-      "store": "Lidl",
-      "emoji": "🥛",
-      "category": "dairy",
-      "weight_raw": "175 g",
-      "weight_grams": 175,
-      "shelf_life": "малотраен",
-      "is_food": true,
-      "is_healthy": true,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": 7,
-      "diet_tags": [
-        "keto",
-        "vegetarian"
-      ],
-      "macros": {
-        "kcal": 264,
-        "p": 14,
-        "f": 22,
-        "c": 2
-      },
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://imgproxy-retcat.assets.schwarz/-9-JFSLeF7zeSPckXtzFbyFFLL5OlsHDiFPkOeAd6oA/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9FN0QwNzYyRDE0NTA5RkIwNzJGMDM1QTM/5OUE1MTVGODUwQkMwOTE3NTBDOEU3MzkzQTYyOEI0QjYzMzNBMUNDLnBuZw.png",
-      "product_id": "lidl-сирене-175g",
-      "last_seen": "2026-09-13",
-      "first_seen": "2026-05-16",
-      "price_history": [
-        {
-          "date": "2026-05-16",
-          "store": "Lidl",
-          "price": 17.97,
-          "price_eur": 9.19,
-          "old_price": 24.0,
-          "discount_pct": 25
-        },
-        {
-          "date": "2026-05-31",
-          "store": "Lidl",
-          "price": 4.79,
-          "price_eur": 2.45,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-09-06",
-          "store": "Lidl",
-          "price": 2.45,
-          "price_eur": 1.25,
-          "old_price": null,
-          "discount_pct": null
-        }
-      ],
-      "lowest_price": 2.45,
-      "lowest_price_date": "2026-09-06",
-      "avg_price": 8.4
-    },
-    {
       "name": "Козе сирене Дунавия",
       "store": "Lidl",
       "emoji": "🥛",
@@ -835921,7 +835822,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800058546423_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-кенар-сандвич-различни-видове-200g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -837295,7 +837196,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800203686196_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-живена-хляб-различни-видове-350g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -837615,7 +837516,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20937749_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-ивет-свински-врат-сурово-сушен",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-01",
       "price_history": [
         {
@@ -837857,7 +837758,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/03600390_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-софия-мел-пшенично-брашно-1000g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-01",
       "price_history": [
         {
@@ -838754,7 +838655,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800207948160_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-elit-протеиново-барче-различни-вкусове-67g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -839423,7 +839324,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/491_00062037?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-kimbo-мляно-кафе-избрани-видове-250g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-01",
       "price_history": [
         {
@@ -840487,7 +840388,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00113673_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-philips-кафеавтомат",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-01",
       "price_history": [
         {
@@ -840781,7 +840682,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/238_00110354_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-морените-луканка-750g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -840834,7 +840735,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00202950_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-орехите-шпек-бургас-шпек-класик-460g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -842131,7 +842032,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800002306554_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-бочко-сапун-различни-видове-75g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-01",
       "price_history": [
         {
@@ -842184,7 +842085,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800002300712_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-бочко-бебешки-сапун-различни-видове-75g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-01",
       "price_history": [
         {
@@ -844193,7 +844094,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800069406013_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-medix-glass-почистващ-препарат-за-стъкла-различни-видове-500g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -844381,7 +844282,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800024046728_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-teo-nature-шампоан-различни-видове-350g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-01",
       "price_history": [
         {
@@ -844434,7 +844335,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800024046759_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-teo-nature-шампоан-2-in-1-350g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-01",
       "price_history": [
         {
@@ -844979,7 +844880,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/614_00050295?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-medix-expert-препарат-за-почистване-на-дома",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-01",
       "price_history": [
         {
@@ -845773,7 +845674,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/631_20683503?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-hair-vege-salad-маска-за-коса-различни-видове-350g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-01",
       "price_history": [
         {
@@ -847766,7 +847667,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5010724527481_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-batiste-сух-шампоан-различни-видове-200g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-01",
       "price_history": [
         {
@@ -848290,7 +848191,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/04701766_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-gillette-series-venus-гел-за-бръснене-различни-видове-200g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -848404,7 +848305,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/638_00016455?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-nivea-душ-гел-pure-impact-500g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-01",
       "price_history": [
         {
@@ -852077,7 +851978,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20921732_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-шкаф-bella-пластмасов",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-01",
       "price_history": [
         {
@@ -852326,7 +852227,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/02100124_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-jack-daniels-tennesse-уиски-или-ликьор-700g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-01",
       "price_history": [
         {
@@ -863666,7 +863567,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://www.lidl.bg/assets/gcp45634d4d3ed1439b842929841606b39f.jpg",
       "product_id": "lidl-салата-с-риба-тон-220g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-07",
       "price_history": [
         {
@@ -864312,7 +864213,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp20c41993a03449bdb378555553fd7b8c.png",
       "product_id": "lidl-пушен-кашкавал-730g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-07",
       "price_history": [
         {
@@ -864880,7 +864781,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20153394_P.jpg",
       "product_id": "kaufland-донът-с-шамфъстък-шоко-ивици-и-бадем-77g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -864972,7 +864873,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/153_00041761B_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-донът-с-малинов-пълнеж-от-нашата-пекарна-67g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -865022,7 +864923,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_00107678_P.jpg",
       "product_id": "kaufland-донът-чиизкеик-с-малина-от-нашата-пекарна-69g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -865709,7 +865610,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4151_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-великденски-донът-с-глазура-ябълка-56g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -865759,7 +865660,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20284062_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-донът-с-ябълка-от-нашата-пекарна-67g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -865812,7 +865713,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4721_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-донът-с-пълнеж-крема-сирене-100g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -866481,7 +866382,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800110301168_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-домлян-сирене-от-краве-мляко-500g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -866733,7 +866634,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/403_03001701_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-heinz-сладка-царевица-или-грах-400g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -866831,7 +866732,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800100303035_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-лесно-супа-свински-джолан-350g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -867188,7 +867089,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20776500_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-минипоничка-с-лешников-пълнеж-25g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -867279,7 +867180,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20826047_P-2?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-b-b-донът-лимонов-чиизкеик-от-нашата-пекарна-69g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -867391,7 +867292,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20215350_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-донът-с-канела-и-пълнеж-круша-65g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -867457,7 +867358,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/7118_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-донът-манго-70g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -867546,7 +867447,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20153396_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-донът-с-лешников-крем-71g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -868245,7 +868146,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20892025?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-philips-led-крушка",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -868504,7 +868405,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20892026_P.jpg",
       "product_id": "kaufland-philips-led-крушка-e27-10-w",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -868866,7 +868767,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20892018?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-philips-led-крушка-e27-13-w",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -869235,7 +869136,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00067258_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-costa-d-oro-le-colline-маслиново-масло-1000g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -870010,7 +869911,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/509_20349055_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-long-chips-картофен-чипс-различни-вкусове-75g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -870370,7 +870271,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00020020_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-споко-тунквана-вафла-35g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -870521,7 +870422,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_00033408_P.jpg",
       "product_id": "kaufland-донът-с-поръска-захар-от-нашата-пекарна-49g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -870566,7 +870467,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20348419_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-минипоничка-с-глазура-26g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -870656,7 +870557,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/143_00103611B_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-донът-с-цветна-поръска-и-бял-шоколад-56g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -870701,7 +870602,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8359_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-донът-от-нашата-пекарна-56g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -870746,7 +870647,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20625293_P.jpg",
       "product_id": "kaufland-поничка-с-плодов-пълнеж-от-нашата-пекарна-65g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -870807,7 +870708,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/9111_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-поничка-с-пълнеж-различни-видове-65g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -870852,7 +870753,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20693199D_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-донът-с-ванилов-пълнеж-71g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -870897,7 +870798,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/325_20268916B_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-поничка-с-яичен-ликьор-от-нашата-пекарна-80g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -870950,7 +870851,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/153_00033406B_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-донът-с-ванилов-пълнеж-от-нашата-пекарна-70g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -870995,7 +870896,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20906176_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-донът-с-шоколадов-пълнеж-67g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -871056,7 +870957,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_00107665_P.jpg",
       "product_id": "kaufland-донът-с-пълнеж-от-нуга-от-нашата-пекарна-72g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -871101,7 +871002,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8305_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-донът-с-ванилия-и-лавандула-69g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -871252,7 +871153,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/7671_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-донът-с-крем-брюле-от-нашата-пекарна-69g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -871390,7 +871291,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20625377_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-кронът-със-захар-от-нашата-пекарна-80g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -871488,7 +871389,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3925_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-biscoff-донът-с-бял-шоколад-69g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -871549,7 +871450,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20707003_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-b-b-донът-от-нашата-пекарна-72g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -871594,7 +871495,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20743400_P.jpg",
       "product_id": "kaufland-пица-донът-с-пълнеж-95g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -871745,7 +871646,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20724061B_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-kit-kat-донът-от-нашата-пекарна-73g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -871790,7 +871691,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20302315_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-daim-донът-от-нашата-пекарна-68g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -871851,7 +871752,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/153_20560735B_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-кронът-с-кафяв-шоколад-от-нашата-пекарна-95g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -871896,7 +871797,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3020_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-донът-с-какаов-пълнеж-73g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -872729,7 +872630,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/9003579302545_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-pedigree-лакомство-за-кучета-избрани-видове-200g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -872782,7 +872683,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/9003579302552_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-pedigree-лакомство-за-куче-различни-видове-150g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -873235,7 +873136,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800065781206_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-varna-минивафли-различни-видове-260g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -873460,7 +873361,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20748718?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-резерва-за-моп-с-ресни-микрофибър",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -873722,7 +873623,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8054633839249_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-dual-power-препарат-за-съдове-1000g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -873939,7 +873840,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00401755?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-alpro-soya-соев-пудинг-ванилия-или-шоколад-500g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -874209,7 +874110,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/10420262_1_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-караманолев-мераклииско-кюфте-или-кебапче-480g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -875323,7 +875224,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20783591_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-gerber-каша-различни-видове-240g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -876006,7 +875907,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/769_20775297?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-png-калъфка-50-х-70-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -876390,7 +876291,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00063943_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-bref-wc-блокче-power-activ-различни-видове-200g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -876443,7 +876344,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00063944_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-bref-wc-блокче-power-activ-200g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -876578,7 +876479,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5201314170365_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-str8-дезодорант-game-85g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -876856,7 +876757,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8714789940557_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-colgate-четка-за-зъби-slim-soft-charcoal",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -877036,7 +876937,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20763958_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-brio-ръчен-чопър-easy-cosy-900-мл-900g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -878460,7 +878361,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/769_20775268_3?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-png-чаршаф-150-х-240-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -878907,7 +878808,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/597_20607927_Semana________Purple_Rain_2x1_65__2x66__?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-semana-омекотител",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -878989,7 +878890,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8716184079771_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-one-for-all-tv-стоика-за-стена",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -879235,7 +879136,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20775266_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-png-чаршаф-220-х-240-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -879473,7 +879374,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20775268_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-png-чаршаф-с-ластик-160-х-200-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -879727,7 +879628,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20684183?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-brio-касерола-metallica-2-3-л-2300g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -879854,7 +879755,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20775268_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-png-чаршаф-с-ластик-180-х-200-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -880026,7 +879927,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00111821_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-tefal-тиган-easy-cook-clean-ø24-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -880116,7 +880017,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3168430305106_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-tefal-тиган-за-палачинки-easy-cook-clean-ø25-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -880317,7 +880218,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20684242-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-brio-тенджера-metallica-3-1-л-3100g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -880592,7 +880493,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00111823_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-tefal-тиган-easy-cook-clean-ø28-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -880637,7 +880538,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20684180_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-brio-тенджера-metallica-4-2-л-4200g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -880891,7 +880792,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20684244_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-brio-тенджера-metallica-5-4-л-5400g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -880973,7 +880874,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00099446_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-philips-тример-за-нос-nt1650-16",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -881317,7 +881218,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20851097?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-neo-блендер-vb-500",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -881407,7 +881308,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00111822_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-tefal-уок-тиган-easy-cook-clean-ø28-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -881735,7 +881636,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00111824__p?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-tefal-грил-тиган-easy-cook-clean-26-х-26-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -881817,7 +881718,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627470790_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-parkside-performance-акумулаторен-прободен-трион",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -883092,7 +882993,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800916014088_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-neo-автомат-за-вода-wde-57ttw",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -883444,7 +883345,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4054278976396_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-karcher-уред-за-почистване-на-прозорци-wv-1-plus",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -883563,7 +883464,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3045380026384_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-tefal-контактен-грил-inicio-classic-gc271",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -883608,7 +883509,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3045387248307_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-tefal-фритюрник-с-горещ-въздух-ey1308",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -883698,7 +883599,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00113365_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-crown-керамичен-плот-за-вграждане",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -883891,7 +883792,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_00088434_P.jpg",
       "product_id": "kaufland-karcher-водоструика-k2-oj-universal-1400-w",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -884063,7 +883964,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20664336_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-tefal-комплект-тенджери-под-налягане-secure",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -884420,7 +884321,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20729398-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-ayco-климатик-12fp40bw",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -885229,7 +885130,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/01003040B_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-сирене-от-краве-мляко-от-свежата-витрина",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-09",
       "price_history": [
         {
@@ -893683,7 +893584,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/2823550000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-маистор-цветко-салам-от-свежата-витрина",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-12",
       "price_history": [
         {
@@ -897203,7 +897104,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20937578_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-fiorre-бял-боб-или-нахут-540g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-15",
       "price_history": [
         {
@@ -897715,7 +897616,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/257_00089018_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-бреи-салата-тиквички-с-млечен-сос-400g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-15",
       "price_history": [
         {
@@ -898492,7 +898393,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4607037120013_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-president-топено-сирене-различни-вкусове-140g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-15",
       "price_history": [
         {
@@ -898561,7 +898462,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00501260_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-hochland-крема-сирене-различни-видове-200g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -899804,7 +899705,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8445290619198_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-nescafe-напитка-с-кафе-различни-видове-250g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-15",
       "price_history": [
         {
@@ -900040,7 +899941,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00101214_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-димитър-маджаров-прясно-мляко-3-6-масленост-1000g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-15",
       "price_history": [
         {
@@ -901933,7 +901834,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00103146_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-lacmi-шоколад-с-цял-бадем-или-лешник-90g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-15",
       "price_history": [
         {
@@ -902518,7 +902419,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5902335756186_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-nevos-торби-за-смет-с-дръжки",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-15",
       "price_history": [
         {
@@ -902783,7 +902684,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00104639_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-magic-clean-попивателни-кърпи-размер-m",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-15",
       "price_history": [
         {
@@ -904882,7 +904783,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/7614500010013_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-toblerone-шоколад-различни-видове-100g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-15",
       "price_history": [
         {
@@ -905409,7 +905310,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20821303_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-benjamissimo-биошоколад-различни-видове-60g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-15",
       "price_history": [
         {
@@ -906007,7 +905908,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/9005800388908_HR_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-nivea-men-шампоан-strong-power",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-15",
       "price_history": [
         {
@@ -906052,7 +905953,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20879550-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-nivea-men-шампоан-deep",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-15",
       "price_history": [
         {
@@ -906269,7 +906170,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800132250154_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-parodontax-вода-за-уста-различни-видове-500g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-15",
       "price_history": [
         {
@@ -906655,7 +906556,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/883314665925_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-luminarc-тава-diwali-ø26-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-15",
       "price_history": [
         {
@@ -909993,7 +909894,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20895671_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-philips-машина-за-газиране-на-вода",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-15",
       "price_history": [
         {
@@ -2086609,7 +2086510,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800139114831_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-detelina-s-протеинов-микс-ядки-различни-вкусове-140g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -2086731,7 +2086632,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20854097_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-кокосов-орех-за-пиене",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-22",
       "price_history": [
         {
@@ -2087593,7 +2087494,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/9866_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-донът-пица-с-домат-и-босилек-90g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-22",
       "price_history": [
         {
@@ -2088138,7 +2088039,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20924081_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-monarch-топено-сирене-слаис-120g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-22",
       "price_history": [
         {
@@ -2089563,7 +2089464,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800207948184_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-elit-протеинов-бар-различни-вкусове-67g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -2089616,7 +2089517,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800207948146_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-elit-pro-bar-протеинов-бар-strawberry-choc-67g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -2090454,7 +2090355,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5900617039262_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-go-on-протеинова-гранола-различни-вкусове-300g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -2091698,7 +2091599,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/129_00115043_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-mlekpol-пушена-гауда-от-свежата-витрина",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-22",
       "price_history": [
         {
@@ -2093230,7 +2093131,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4337185414367_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-k-to-go-млечен-шеик-различни-видове-230g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-22",
       "price_history": [
         {
@@ -2095485,7 +2095386,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00067549_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-medix-препарат-за-съдове-с-балсам-750g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-22",
       "price_history": [
         {
@@ -2096621,7 +2096522,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20214926_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-barilla-веган-песто-с-босилек-195g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-22",
       "price_history": [
         {
@@ -2096666,7 +2096567,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/274_00027618_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-silva-кори-за-лазаня-500g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-22",
       "price_history": [
         {
@@ -2097902,7 +2097803,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00047857_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-бони-шпек-сандвич-330g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-22",
       "price_history": [
         {
@@ -2098826,7 +2098727,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20859979_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-amstel-бира-premium-pilsener-500g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -2099456,7 +2099357,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20783515_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-domestos-wc-блокче-250g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-22",
       "price_history": [
         {
@@ -2100515,7 +2100416,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20932159?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-sevan-антифриз-sg-12-или-sg-11",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-22",
       "price_history": [
         {
@@ -2113387,7 +2113288,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5999884034469_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-hell-напитка-различни-видове-250g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-26",
       "price_history": [
         {
@@ -2113746,7 +2113647,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp8f82d2dcc1024795a3edba133bf0f777.png",
       "product_id": "lidl-ориз-арборио-1000g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-28",
       "price_history": [
         {
@@ -2114716,7 +2114617,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcpbf24605f1e3146f89c5b01ee0e6fcc72.png",
       "product_id": "lidl-кускус-400g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-14",
       "price_history": [
         {
@@ -2115603,7 +2115504,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp049ac959051f40989786342eb94fec62.png",
       "product_id": "lidl-фиокето-80g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-28",
       "price_history": [
         {
@@ -2116650,7 +2116551,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcpa513546731ec4b1aa5b5be7cd94c324a.png",
       "product_id": "lidl-нектар-банан-1000g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-28",
       "price_history": [
         {
@@ -2116737,7 +2116638,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcpedd05e38b494470b93e7627c66ef9052.png",
       "product_id": "lidl-сурими-пръчици-200g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -2117533,7 +2117434,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp46846211f9dd410f97fad1f6930917b0.png",
       "product_id": "lidl-веган-крем-за-готвене-500g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-28",
       "price_history": [
         {
@@ -2118687,7 +2118588,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/257_00076902_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-аладин-хумус-различни-видове-225g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-29",
       "price_history": [
         {
@@ -2119024,7 +2118925,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/281_2020892028_2_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-vedenemo-скумрия-замразена",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-29",
       "price_history": [
         {
@@ -2119336,7 +2119237,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/186_00098752_1_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-amadori-пилешки-крила-различни-видове-500g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-29",
       "price_history": [
         {
@@ -2120020,7 +2119921,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20613873_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-пастир-сирене-от-козе-или-овче-мляко-400g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-29",
       "price_history": [
         {
@@ -2120125,7 +2120026,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800091740352_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-вита-баланс-хляб-различни-видове-450g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -2120530,7 +2120431,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5102_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-кашкавалка-220g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-29",
       "price_history": [
         {
@@ -2122562,7 +2122463,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00071593_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-k-classic-торби-за-смет-с-връзки-25000g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-29",
       "price_history": [
         {
@@ -2122631,7 +2122532,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/05100333_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-мегапорт-чували-за-смет",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-29",
       "price_history": [
         {
@@ -2122692,7 +2122593,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/7751_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-simit-турски-геврек-от-нашата-пекарна-110g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-29",
       "price_history": [
         {
@@ -2122872,7 +2122773,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5311_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-донът-с-пълнеж-пистачио-и-ванилия-69g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-29",
       "price_history": [
         {
@@ -2123134,7 +2123035,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00098536?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-vigo-чували-за-смет-35000g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-29",
       "price_history": [
         {
@@ -2124767,7 +2124668,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4063367321276_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-k-classic-фъстъчен-крем-различни-видове-350g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-29",
       "price_history": [
         {
@@ -2126897,7 +2126798,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627924149_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-livarno-изтривалка",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-29",
       "price_history": [
         {
@@ -2127791,7 +2127692,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3600524266998_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-l-oreal-elseve-маска-за-коса-различни-видове-300g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -2128016,7 +2127917,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20959281_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-coccolino-омекотител-blue-splash-промопакет",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-29",
       "price_history": [
         {
@@ -2131017,7 +2130918,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20859185_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-бреи-салата-боб-с-лютеница-от-свежата-витрина",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-02",
       "price_history": [
         {
@@ -2134689,7 +2134590,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/2840040000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-денито-салата-витамина-от-свежата-витрина",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-02",
       "price_history": [
         {
@@ -2142114,7 +2142015,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp8d543af32b2a4870961a570f5992919a.png",
       "product_id": "lidl-прясна-паста-250g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-25",
       "price_history": [
         {
@@ -2144366,7 +2144267,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00011589_P-2?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-хляб-добруджа-500g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -2144691,7 +2144592,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/01004045_P_%282%29?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-багета-пълнозърнеста-110g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-06",
       "price_history": [
         {
@@ -2145007,7 +2144908,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5201020521000_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-helios-макаронени-изделия-различни-видове-500g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-06",
       "price_history": [
         {
@@ -2145624,7 +2145525,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/491_00062044_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-kimbo-мляно-кафе-intenso-250g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-06",
       "price_history": [
         {
@@ -2146311,7 +2146212,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/2854220000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-димитър-маджаров-кашкавал-от-краве-мляко-от-свежата-витрина",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-06",
       "price_history": [
         {
@@ -2148571,7 +2148472,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00052568?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-osram-led-value-лампа-2700-k-4000-k-или-6500-к",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-06",
       "price_history": [
         {
@@ -2148698,7 +2148599,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20705024_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-brio-мелничка-за-сол-пипер-easy-cosy",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-06",
       "price_history": [
         {
@@ -2150007,7 +2149908,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/06304920_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-комплект-купички-ø8-5-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-06",
       "price_history": [
         {
@@ -2150216,7 +2150117,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800085559502_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-ида-торта-парче-различни-видове-170g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-06",
       "price_history": [
         {
@@ -2151782,7 +2151683,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/787_2000088189_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-стъклочистачка-с-микрофибърна-кърпа",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-06",
       "price_history": [
         {
@@ -2153932,7 +2153833,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5997321700267_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-calgon-омекотител-на-вода-прах-гел-или-таблетки-1000g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-06",
       "price_history": [
         {
@@ -2155019,7 +2154920,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/776_00108623_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-media-range-usb-памет-2-0-64-gb",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-06",
       "price_history": [
         {
@@ -2156500,7 +2156401,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00108624_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-media-range-microsd-карта-64-gb",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-06",
       "price_history": [
         {
@@ -2156939,7 +2156840,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00022724_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-meltemi-узо-2000g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-06",
       "price_history": [
         {
@@ -2157296,7 +2157197,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/191888618071_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-nike-тениска-m-xxl",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-06",
       "price_history": [
         {
@@ -2157542,7 +2157443,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/1042113000002_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-crown-скара-chg-2000pbs-25-5-x-35-5-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-06",
       "price_history": [
         {
@@ -2157833,7 +2157734,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/06400091_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-електрическа-скара-с-капак",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-06",
       "price_history": [
         {
@@ -2158198,7 +2158099,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20952656_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-куфар-ground-36-x-22-x-55-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-06",
       "price_history": [
         {
@@ -2158436,7 +2158337,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/DE20930471_23P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-nike-боксер-m-xxl",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-06",
       "price_history": [
         {
@@ -2158526,7 +2158427,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20952656_P-2?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-куфар-ground-43-x-26-x-66-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-06",
       "price_history": [
         {
@@ -2158846,7 +2158747,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20952656_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-куфар-ground-50-x-30-x-78-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-06",
       "price_history": [
         {
@@ -2158891,7 +2158792,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/1038632000005_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-ayco-абсорбатор-kk1077w",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-06",
       "price_history": [
         {
@@ -2158973,7 +2158874,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00107800b_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-karcher-прахосмукачка-wd2-plus",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-06",
       "price_history": [
         {
@@ -2159018,7 +2158919,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20846368?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-neo-микровълнова-фурна-mwo-mm7p012lw",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-06",
       "price_history": [
         {
@@ -2159063,7 +2158964,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800148486004_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-мултифункционална-стълба-4-х-3-стъпала",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-06",
       "price_history": [
         {
@@ -2159272,7 +2159173,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/788_00100002_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-bravissimo-малка-готварска-печка-br3812b",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-06",
       "price_history": [
         {
@@ -2159317,7 +2159218,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3221614007255_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-rowenta-прахосмукачка-ro2910ea",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-06",
       "price_history": [
         {
@@ -2163741,7 +2163642,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00019983_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-mestemacher-биохляб-избрани-видове-500g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-13",
       "price_history": [
         {
@@ -2163926,7 +2163827,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/03601110_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-balcho-ленено-брашно-180g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-13",
       "price_history": [
         {
@@ -2165232,7 +2165133,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/2850210000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-здравец-кашкавал-от-краве-мляко-от-свежата-витрина",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-13",
       "price_history": [
         {
@@ -2166263,7 +2166164,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/7864_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-донът-буено-от-нашата-пекарна-74g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-13",
       "price_history": [
         {
@@ -2166880,7 +2166781,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/509_00076337_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-k-classic-чипс-различни-вкусове-150g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-13",
       "price_history": [
         {
@@ -2168685,7 +2168586,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5000347084065_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-sensodyne-конец-за-зъби",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-13",
       "price_history": [
         {
@@ -2168828,7 +2168729,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20954506_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-ростар-сирена-различни-видове-200g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-13",
       "price_history": [
         {
@@ -2170111,7 +2170012,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8714789732671_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-colgate-вода-за-уста-различни-видове-500g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-13",
       "price_history": [
         {
@@ -2182157,9 +2182058,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": true,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://imgproxy-retcat.assets.schwarz/uBMjh_YBg4z_1wD9xZOwbgOwT0foKpSxoucogB7y2OM/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzBBQUU4N0Q1RjdDRDQwMjBEREE1NTk3RE/Y0QTI1MjkwOTk4RTc3QkZGNEJBQTUwRUI1RURFNjFFMjRFNDgxNjEucG5n.png",
+      "image": "https://www.lidl.bg/assets/gcp17dfb1146d95491aaaf6e6364624fe37.jpg",
       "product_id": "lidl-пресни-пилешки-крила-700g",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-31",
       "price_history": [
         {
@@ -2182273,9 +2182174,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": true,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://imgproxy-retcat.assets.schwarz/LuqSCoxRqurCszf43LiHwD4D3DYup0x4v266lWEzcw8/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS8zMDI1MzA5M0UwQjEyQTQ3MThCRkE4Njk/1NzM1RTdDRERFOEI5MzRGNzMyRURBQjlBNDdGRjNGODJGQzQ5OEU4LnBuZw.png",
+      "image": "https://www.lidl.bg/assets/gcp6750e798f8f5495fb0969734acf40e12.jpeg",
       "product_id": "lidl-прясно-пилешко-бутче-660g",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-31",
       "price_history": [
         {
@@ -2182335,9 +2182236,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": true,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://imgproxy-retcat.assets.schwarz/YS_szvDTCKfnEwDqcm_8ePy6nTrr_5zjo9B73ZBpkHE/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9FQzdCNkQxRkE4RDI4QzMxNTdBMzdCNjV/CRkI4N0VENzBGNzQwOEQ5QzFFQUVDNDM1ODlFMjE0OUQ0RkVGOUNCLnBuZw.png",
+      "image": "https://www.lidl.bg/assets/gcpf2f5c29d73be4b878fc2aeaf106abe75.jpg",
       "product_id": "lidl-прясно-пилешко-бонфиле-500g",
-      "last_seen": "2026-09-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-19",
       "price_history": [
         {
@@ -2183339,9 +2183240,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://imgproxy-retcat.assets.schwarz/6pDBJsnyR1ZrP9bGMX_yKHNGtUP7VmB0vkD3ndtKjB0/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9FRjdEOTc1RjAxNERENkVGQ0IxNTZERjA/zQjMxOTU3NDAwQjdFQjk1Rjg0QzVEMTE5NTEwRTdDRjRDMDc3NTZDLnBuZw.png",
+      "image": "https://www.lidl.bg/assets/gcp7d2e5c0b3dd44e6c89590e41446a0f84.png",
       "product_id": "lidl-бекон-xxl-300g",
-      "last_seen": "2026-07-19",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-19",
       "price_history": [
         {
@@ -2183351,11 +2183252,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 2.99,
           "old_price": 8.0,
           "discount_pct": 27
+        },
+        {
+          "date": "2026-11-15",
+          "store": "Lidl",
+          "price": 2.99,
+          "price_eur": 1.53,
+          "old_price": 4.09,
+          "discount_pct": 27
         }
       ],
-      "lowest_price": 5.85,
-      "lowest_price_date": "2026-07-19",
-      "avg_price": 5.85
+      "lowest_price": 2.99,
+      "lowest_price_date": "2026-11-15",
+      "avg_price": 4.42
     },
     {
       "name": "Пица с шунка",
@@ -2183534,7 +2183443,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp740f81a2f93e417094fed6ba8c00883d.png",
       "product_id": "lidl-луканка-xxl-750g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-19",
       "price_history": [
         {
@@ -2183579,7 +2183488,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcpb0f2e094626245e5a9cde2e15731e85b.png",
       "product_id": "lidl-кренвирши-стара-планина-xxl-1200g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-19",
       "price_history": [
         {
@@ -2184817,7 +2184726,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20958241_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-baltais-скир-напитка-овкусена-различни-видове-700g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-20",
       "price_history": [
         {
@@ -2186496,7 +2186405,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/DE01132312_P-4008900122903?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-k-classic-деликатесна-салата-400g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-20",
       "price_history": [
         {
@@ -2186600,7 +2186509,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800040204966_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-денито-турска-разядка-с-патладжан-250g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -2188562,7 +2188471,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/148_2020956718B_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-mowi-суши-онигири-различни-видове-100g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-20",
       "price_history": [
         {
@@ -2189030,7 +2188939,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20336340_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-wash-go-шампоан-lavender-360g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-20",
       "price_history": [
         {
@@ -2189075,7 +2188984,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20336341_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-wash-go-шампоан-menthol-360g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-20",
       "price_history": [
         {
@@ -2191242,7 +2191151,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/569_20781584?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-ем-червено-бяло-вино-или-розе-различни-сортове-750g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-20",
       "price_history": [
         {
@@ -2192250,7 +2192159,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20955354_20_606?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-zebra-тоалетна-хартия-четирипластова",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-20",
       "price_history": [
         {
@@ -2194404,76 +2194313,6 @@ const ALL_PRODUCTS_DATA = {
       "avg_price": 10.99
     },
     {
-      "name": "Норвежка пушена сьомга",
-      "store": "Lidl",
-      "emoji": "🥫",
-      "category": "canned",
-      "weight_raw": "300 g",
-      "weight_grams": 300,
-      "shelf_life": "2-3г",
-      "is_food": true,
-      "is_healthy": true,
-      "is_bulk_worthy": true,
-      "is_long_lasting": true,
-      "health_score": 10,
-      "diet_tags": [
-        "high_protein",
-        "keto",
-        "mediterranean"
-      ],
-      "macros": {
-        "kcal": 208,
-        "p": 20,
-        "f": 13,
-        "c": 0
-      },
-      "is_junk": false,
-      "is_high_protein": true,
-      "is_good_carb": false,
-      "is_good_fat": true,
-      "image": "https://imgproxy-retcat.assets.schwarz/ZP5n2UQsjF-VEex4g8fAuj5CRAme8tNiVcY3Cfz0PYA/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzAyRUFBRUQyOTFBOUI2RUM5ODhERDkzMz/A4RDU5N0MyQTZDNzk2NjdGNEMyOUZBQTMyNzVGRTlCRUM5MTc5RTkucG5n.png",
-      "product_id": "lidl-норвежка-пушена-сьомга-300g",
-      "last_seen": "2026-10-04",
-      "first_seen": "2026-05-07",
-      "price_history": [
-        {
-          "date": "2026-05-07",
-          "store": "Lidl",
-          "price": 5.26,
-          "price_eur": 2.69,
-          "old_price": 6.98,
-          "discount_pct": 25
-        },
-        {
-          "date": "2026-07-12",
-          "store": "Lidl",
-          "price": 7.8,
-          "price_eur": 3.99,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-07-26",
-          "store": "Lidl",
-          "price": 13.48,
-          "price_eur": 6.89,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-09-27",
-          "store": "Lidl",
-          "price": 6.89,
-          "price_eur": 3.52,
-          "old_price": null,
-          "discount_pct": null
-        }
-      ],
-      "lowest_price": 5.26,
-      "lowest_price_date": "2026-05-07",
-      "avg_price": 8.36
-    },
-    {
       "name": "Зелен боб или патладжан",
       "store": "Lidl",
       "emoji": "🫘",
@@ -2194547,7 +2194386,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcpdcda3183a91744f48e87cd4619729427.png",
       "product_id": "lidl-пресни-яица-xxl",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-26",
       "price_history": [
         {
@@ -2195531,7 +2195370,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcpe3cd18c28e664f87a777b3169caa67b2.jpg",
       "product_id": "lidl-трапезна-вода-9000g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-14",
       "price_history": [
         {
@@ -2195764,7 +2195603,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp2c1b7f36af614aa39287a8fa64ec8743.png",
       "product_id": "lidl-ястие-с-паста-550g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-26",
       "price_history": [
         {
@@ -2196814,7 +2196653,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4000446011376_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-mestemacher-протеинов-хляб-250g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-27",
       "price_history": [
         {
@@ -2197290,7 +2197129,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00039341_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-калиакра-слънчогледово-олио-1000g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-27",
       "price_history": [
         {
@@ -2197467,7 +2197306,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/249_20658865_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-balkan-протеинов-сандвич-различни-видове-220g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-27",
       "price_history": [
         {
@@ -2197514,7 +2197353,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00108396_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-alpro-not-milk-напитка-на-растителна-основа-избрани-видове-1000g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-27",
       "price_history": [
         {
@@ -2197688,7 +2197527,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5902884468059_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-one-day-more-протеиново-мюсли-или-гранола-400g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-27",
       "price_history": [
         {
@@ -2198079,7 +2197918,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00063330_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-melitta-кафе-на-зърна-1000g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-27",
       "price_history": [
         {
@@ -2198746,7 +2198585,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/1338_BG_P?JGstbGVnYWN5LW9uc2l0ZS0xJA==",
       "product_id": "kaufland-донът-с-пълнеж-69g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-27",
       "price_history": [
         {
@@ -2201841,7 +2201680,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20625914_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-chante-clair-гел-за-пране-различни-видове",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-27",
       "price_history": [
         {
@@ -2203351,7 +2203190,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/586_00053932_KLC_____________________________10__?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-k-classic-суха-храна-за-куче",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-27",
       "price_history": [
         {
@@ -2204679,7 +2204518,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4066628174413_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-livarno-етажерка-3-нива",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-27",
       "price_history": [
         {
@@ -2205666,7 +2205505,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp466e57b48b07416eb485cc6bf48b0b65.png",
       "product_id": "lidl-прясно-пилешко-бутче-xxl-2000g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-16",
       "price_history": [
         {
@@ -2207977,7 +2207816,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800106402367_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-krina-киноа-бяла-500g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-03",
       "price_history": [
         {
@@ -2208571,7 +2208410,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4049726011217_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-бреи-катък-с-печени-чушки-400g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-03",
       "price_history": [
         {
@@ -2209448,7 +2209287,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/324_00112881_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-златна-добруджа-хляб-за-тостер-различни-видове-500g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-03",
       "price_history": [
         {
@@ -2209510,7 +2209349,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/2800830000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-свински-джолан-от-свежата-витрина",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-03",
       "price_history": [
         {
@@ -2211107,7 +2210946,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20963122_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-muller-иогурт-плодов-асорти-1000g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-03",
       "price_history": [
         {
@@ -2211946,7 +2211785,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3016661159121_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-krups-кафемашина-kp1a3b10",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-03",
       "price_history": [
         {
@@ -2212438,7 +2212277,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5206542007353_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-green-газирана-напитка-различни-видове-330g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -2213298,7 +2213137,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20791593_P.jpg",
       "product_id": "kaufland-brio-буркан-0-27-л-270g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-03",
       "price_history": [
         {
@@ -2214004,7 +2213843,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20792605_P.jpg",
       "product_id": "kaufland-brio-буркан-с-херметическа-капачка",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-03",
       "price_history": [
         {
@@ -2214258,7 +2214097,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20791592_P.jpg",
       "product_id": "kaufland-brio-буркан-0-75-л-750g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-03",
       "price_history": [
         {
@@ -2215009,7 +2214848,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20791708_P.jpg",
       "product_id": "kaufland-brio-буркан-1-5-л-1500g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-03",
       "price_history": [
         {
@@ -2217128,7 +2216967,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/635_00090157?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-garnier-мицеларна-вода-sensitive-skin-700g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-03",
       "price_history": [
         {
@@ -2217747,7 +2217586,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/769_20724532_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-sleep-me-възглавница-greentherapy-50-x-70-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-03",
       "price_history": [
         {
@@ -2218226,7 +2218065,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800215564444_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-ditex-покривало-за-легло-150-х-210-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-03",
       "price_history": [
         {
@@ -2218805,7 +2218644,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800215564451_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-ditex-покривало-за-легло-200-х-210-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-03",
       "price_history": [
         {
@@ -2219363,7 +2219202,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20835408_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-lenor-парфюмни-перли-различни-видове-495g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -2221816,7 +2221655,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/153_20615285_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-минипоничка-с-пълнеж-различни-видове-25g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-04",
       "price_history": [
         {
@@ -2221935,7 +2221774,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00107589_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-сурови-скариди-от-свежата-витрина",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-04",
       "price_history": [
         {
@@ -2225132,7 +2224971,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00033235_Promo_1469349?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-лаврак-от-свежата-витрина",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-10",
       "price_history": [
         {
@@ -2225756,7 +2225595,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/2503266_1_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-la-provincia-пилешки-микс-бутчета-и-крила",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-10",
       "price_history": [
         {
@@ -2225908,7 +2225747,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00033315_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-скумрия-от-свежата-витрина",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-10",
       "price_history": [
         {
@@ -2226539,7 +2226378,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800085900113_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-каликонс-домати-цели-небелени-680g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-10",
       "price_history": [
         {
@@ -2226779,7 +2226618,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00061723_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-campese-доматено-пюре-различни-видове-680g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-10",
       "price_history": [
         {
@@ -2229468,7 +2229307,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/637_00027535?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-wilkinson-самобръсначка-xtreme3-различни-видове",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-10",
       "price_history": [
         {
@@ -2229513,7 +2229352,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800052399216_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-staropramen-бира-1000g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -2230161,7 +2230000,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/0100716_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-familia-кухненска-ролка-jumbo-economy",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-10",
       "price_history": [
         {
@@ -2231348,7 +2231187,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/6425929000896_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-my-sushi-гьоза-различни-видове-180g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-10",
       "price_history": [
         {
@@ -2231496,7 +2231335,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20782048_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-brio-тава-metallica-ø28-х-7-2-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-10",
       "price_history": [
         {
@@ -2231607,7 +2231446,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20782050_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-brio-тава-metallica-ø32-х-7-6-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-10",
       "price_history": [
         {
@@ -2231975,7 +2231814,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20782047-48-50-2?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-brio-тава-metallica-ø36-х-7-8-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-10",
       "price_history": [
         {
@@ -2233453,7 +2233292,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00092832_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-midalidare-червено-бяло-вино-или-розе-различни-сортове-750g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-10",
       "price_history": [
         {
@@ -2234844,7 +2234683,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20827046_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-maxima-гел-избрани-видове",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-10",
       "price_history": [
         {
@@ -2238348,7 +2238187,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/403_20282443_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-pescado-бял-боб-или-грах-със-зеленчуци-540g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-17",
       "price_history": [
         {
@@ -2238622,7 +2238461,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20829389_P-3?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-поничка-с-пълнеж-горчив-портокал-80g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-17",
       "price_history": [
         {
@@ -2239122,7 +2238961,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00026544D_A?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-тиква-матилда",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-17",
       "price_history": [
         {
@@ -2239528,7 +2239367,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20968357_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-molini-pizzuti-брашно-различни-видове-1000g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-17",
       "price_history": [
         {
@@ -2239851,7 +2239690,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20968362_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-molini-pizzuti-брашно-микс-за-пица-или-фокача-500g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-17",
       "price_history": [
         {
@@ -2240819,7 +2240658,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20809505_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-донът-с-шоколад-и-пълнеж-крем-шамфъстък-77g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-17",
       "price_history": [
         {
@@ -2240856,7 +2240695,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/152_20196632B_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-донът-с-малинов-пълнеж-и-шоколадова-глазура-74g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-17",
       "price_history": [
         {
@@ -2241007,7 +2240846,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20832614_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-донът-с-бяла-глазура-и-захарни-снежинки-56g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-17",
       "price_history": [
         {
@@ -2241118,7 +2240957,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20845801_P-2?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-донът-бенисимо-с-пълнеж-69g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-17",
       "price_history": [
         {
@@ -2241155,7 +2240994,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/2521_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-донът-с-бисквитена-поръска-и-пълнеж-69g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-17",
       "price_history": [
         {
@@ -2241364,7 +2241203,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20829430_P-3?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-поничка-с-пълнеж-цитрус-80g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-17",
       "price_history": [
         {
@@ -2241475,7 +2241314,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20903654_P-4?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-донът-пица-с-пълнеж-от-нашата-пекарна-90g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-17",
       "price_history": [
         {
@@ -2241528,7 +2241367,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20958901?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-поничка-parkside-с-пълнеж-95g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-17",
       "price_history": [
         {
@@ -2244117,7 +2243956,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8700216322423_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-head-shoulders-шампоан-или-балсам-различни-видове-330g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-17",
       "price_history": [
         {
@@ -2244154,7 +2243993,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8700216319799_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-head-shoulders-шампоан-различни-видове-250g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-17",
       "price_history": [
         {
@@ -2248615,60 +2248454,6 @@ const ALL_PRODUCTS_DATA = {
       "avg_price": 3.06
     },
     {
-      "name": "Прясно пилешко бедро",
-      "store": "Lidl",
-      "emoji": "🍗",
-      "category": "protein",
-      "weight_raw": "800 g",
-      "weight_grams": 800,
-      "shelf_life": "малотраен",
-      "is_food": true,
-      "is_healthy": true,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": 9,
-      "diet_tags": [
-        "high_protein",
-        "keto",
-        "budget"
-      ],
-      "macros": {
-        "kcal": 165,
-        "p": 31,
-        "f": 3.6,
-        "c": 0
-      },
-      "is_junk": false,
-      "is_high_protein": true,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://imgproxy-retcat.assets.schwarz/CfNtVduI8LWcigXTFJNdlBUNtDdBVDoLfJhau81-vC4/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9ERkY5NkY4MjVCQjlEM0JDNkY1REJEMzY/0RjBFNTE2M0Q0NUMxOTVCNDM4OTEwNzlFRjcwRjk3ODAxREIzODg2LnBuZw.png",
-      "product_id": "lidl-прясно-пилешко-бедро-800g",
-      "last_seen": "2026-08-30",
-      "first_seen": "2026-04-20",
-      "price_history": [
-        {
-          "date": "2026-04-20",
-          "store": "Lidl",
-          "price": 6.98,
-          "price_eur": 3.57,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-08-23",
-          "store": "Lidl",
-          "price": 3.57,
-          "price_eur": 1.83,
-          "old_price": null,
-          "discount_pct": null
-        }
-      ],
-      "lowest_price": 3.57,
-      "lowest_price_date": "2026-08-23",
-      "avg_price": 5.28
-    },
-    {
       "name": "Панирана риба",
       "store": "Lidl",
       "emoji": "🍗",
@@ -2250160,7 +2249945,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp2b39d7e1aae04deda658f0b0c5c4c3aa.jpg",
       "product_id": "lidl-салата-едамаме-200g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-23",
       "price_history": [
         {
@@ -2251109,7 +2250894,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp39d5337db76a4961a0920ff80b77f4a1.png",
       "product_id": "lidl-песто-190g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-23",
       "price_history": [
         {
@@ -2253326,7 +2253111,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5449000052926_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-fanta-портокал-1500g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-24",
       "price_history": [
         {
@@ -2253530,7 +2253315,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20954727_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-саяна-домашно-сирене-от-краве-мляко",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-24",
       "price_history": [
         {
@@ -2256524,7 +2256309,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4063367306976_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-k-classic-крем-пудинг-различни-видове-500g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -2258052,7 +2257837,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/782_00107792_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-aquaphor-филтър-за-вода-maxfor-h",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-24",
       "price_history": [
         {
@@ -2258097,7 +2257882,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4600987004396_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-аквафор-филтър-за-вода",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-24",
       "price_history": [
         {
@@ -2258819,7 +2258604,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/769_20653519?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-home-practic-стоика-за-дрехи-87-x-35-x-130-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-24",
       "price_history": [
         {
@@ -2260491,7 +2260276,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4063367676291_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-puma-шапка",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-24",
       "price_history": [
         {
@@ -2260610,7 +2260395,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20945018_P.jpg",
       "product_id": "kaufland-puma-къс-панталон-m-xxl",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-24",
       "price_history": [
         {
@@ -2260737,7 +2260522,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4063367676093_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-puma-тениска-m-xxl",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-24",
       "price_history": [
         {
@@ -2260930,7 +2260715,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4063367676314_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-puma-къс-панталон-s-xl",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-24",
       "price_history": [
         {
@@ -2261464,7 +2261249,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20969751_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-tcl-smart-led-телевизор-тв-43s5l-fhd-5000g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-24",
       "price_history": [
         {
@@ -2263337,7 +2263122,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcpc86dbc3a3338402992f98cd94e1cba59.png",
       "product_id": "lidl-пукани-люти-чушки-165g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-30",
       "price_history": [
         {
@@ -2263389,9 +2263174,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": true,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://imgproxy-retcat.assets.schwarz/GYFkeA5s5KwGQCXBiPzN2zPX7rW9fABSo2GnVOfdt1I/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS82OTUwMEYzREU5MzM2M0VGRkExNTcwODB/CQjVFOTk4NzJCRkI3RUU0RjIxMjJBMzdDNDcxMzU1QUM5MUE0ODAzLnBuZw.png",
+      "image": "https://www.lidl.bg/assets/gcp757347b9a27f419c8af2e8bc8c18dab9.png",
       "product_id": "lidl-българско-кисело-мляко-xxl-500g",
-      "last_seen": "2026-10-18",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-30",
       "price_history": [
         {
@@ -2263401,11 +2263186,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.36,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-15",
+          "store": "Lidl",
+          "price": 0.74,
+          "price_eur": 0.38,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 0.71,
       "lowest_price_date": "2026-08-30",
-      "avg_price": 0.71
+      "avg_price": 0.72
     },
     {
       "name": "Български червени ябълки",
@@ -2264196,43 +2263989,6 @@ const ALL_PRODUCTS_DATA = {
       "lowest_price": 2.55,
       "lowest_price_date": "2026-08-30",
       "avg_price": 2.55
-    },
-    {
-      "name": "Грана Падано",
-      "store": "Lidl",
-      "emoji": "🛒",
-      "category": "other",
-      "weight_raw": "150 g",
-      "weight_grams": 150,
-      "shelf_life": null,
-      "is_food": false,
-      "is_healthy": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": null,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://imgproxy-retcat.assets.schwarz/lD-4Ktyc0p8mwtra2sKnqvcoKbyL5WKXWmmRrx6OJ-I/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS84OTc3MjlEREZFMEQzNkRBMzg2QTUwNUE/xMUE4MzExQTIxMTkwMDY5MzAzREM1MTFGRTU0RjRGNUY3MTM3OTBFLnBuZw.png",
-      "product_id": "lidl-грана-падано-150g",
-      "last_seen": "2026-09-06",
-      "first_seen": "2026-08-30",
-      "price_history": [
-        {
-          "date": "2026-08-30",
-          "store": "Lidl",
-          "price": 2.79,
-          "price_eur": 1.43,
-          "old_price": 3.57,
-          "discount_pct": 22
-        }
-      ],
-      "lowest_price": 2.79,
-      "lowest_price_date": "2026-08-30",
-      "avg_price": 2.79
     },
     {
       "name": "Премиум сладолед на клечка",
@@ -2265402,7 +2265158,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00108687_Promo_608814?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-olympus-крема-сирене-от-свежата-витрина",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-31",
       "price_history": [
         {
@@ -2265987,7 +2265743,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/494_20934184?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-starbucks-кафе-капсули-различни-видове",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -2267165,7 +2266921,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20627069_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-lovita-бисквити-cake-cookies-различни-видове-168g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-31",
       "price_history": [
         {
@@ -2271434,7 +2271190,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5708869004096_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-минирастение-ø6-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-09-01",
       "price_history": [
         {
@@ -2274673,7 +2274429,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800233353662_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-rois-парти-ядки-280g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -2275045,7 +2274801,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/516_20892906?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-печени-бадеми-1000g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-09-07",
       "price_history": [
         {
@@ -2276838,7 +2276594,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800139145095_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-detelina-s-зеленчуков-чипс-различни-видове-60g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-09-07",
       "price_history": [
         {
@@ -2277240,7 +2276996,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800030733247_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-ввв-нектар-различни-видове-200g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-09-07",
       "price_history": [
         {
@@ -2278361,7 +2278117,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4823077632570_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-roshen-dark-lacmi-шоколад-избрани-видове-95g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-09-07",
       "price_history": [
         {
@@ -2279710,7 +2279466,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4002084544834_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-k-take-it-veggie-веган-пица-маргарита-300g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-09-07",
       "price_history": [
         {
@@ -2280117,7 +2279873,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20351389_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-brio-точило-за-ножове-compact",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-09-07",
       "price_history": [
         {
@@ -2282811,7 +2282567,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/1023914000002_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-crown-chbs-5332-пасатор-с-чопър-2-в-1",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-09-07",
       "price_history": [
         {
@@ -2283218,7 +2282974,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20935782-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-coccolino-гел-wonder-wasch-различни-видове",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-09-07",
       "price_history": [
         {
@@ -2284101,7 +2283857,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20770555?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-neo-мултикукър-mrc-5931",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-09-07",
       "price_history": [
         {
@@ -2284693,7 +2284449,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20706034_P_A_copy?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-crown-робот-за-миене-на-прозорци-rw1s",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-09-07",
       "price_history": [
         {
@@ -2285026,7 +2284782,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20977065B_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-energizer-лаптоп-energybook",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-09-07",
       "price_history": [
         {
@@ -2339601,7 +2339357,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/09700133_P-2?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-нар-клас-i",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-09-14",
       "price_history": [
         {
@@ -2339892,7 +2339648,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20973882_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-eat-good-киноа-нахут-и-печени-зеленчуци-300g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-09-14",
       "price_history": [
         {
@@ -2339938,7 +2339694,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4063367583643_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-k-classic-десерт-с-извара-различни-видове-40g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-09-14",
       "price_history": [
         {
@@ -2344123,7 +2343879,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20983047_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-tasty-еклери-шоколадова-заливка-400g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-09-14",
       "price_history": [
         {
@@ -2344562,7 +2344318,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20689433_P-1?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-silan-омекотител-различни-видове",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-09-14",
       "price_history": [
         {
@@ -2351156,7 +2350912,7 @@ const ALL_PRODUCTS_DATA = {
       "store": "Lidl",
       "emoji": "🥛",
       "category": "dairy",
-      "weight_raw": "3 х 200 g",
+      "weight_raw": "3 x 200 g",
       "weight_grams": 600,
       "shelf_life": "малотраен",
       "is_food": true,
@@ -2351179,9 +2350935,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://imgproxy-retcat.assets.schwarz/1pNpOgocLkKqTozoaesSz8A1IwmQHqdKv-kK8LnD1Ww/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9GQjNBRkU1ODIxNDQwNTAxNTM1QzU3MEM/1NkYwOUExMjc4OTdGRENCOTkwQkY3NjM0NUY4ODdEMzgyOTQ2RTBELnBuZw.png",
+      "image": "https://www.lidl.bg/assets/gcpa98525c50aa948d7846029a8bba422f4.png",
       "product_id": "lidl-котидж-сирене-600g",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -2351199,11 +2350955,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 2.04,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-15",
+          "store": "Lidl",
+          "price": 3.98,
+          "price_eur": 2.03,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 2.7,
       "lowest_price_date": "2026-04-20",
-      "avg_price": 3.35
+      "avg_price": 3.56
     },
     {
       "name": "Пикантно чоризо",
@@ -2351649,7 +2351413,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp229b4064e5904678a15d4fcd88b5e57e.jpg",
       "product_id": "lidl-салата-с-булгур-250g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-09-20",
       "price_history": [
         {
@@ -2352363,7 +2352127,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp3735621b0f2a4ae298a3c81faf5443ea.png",
       "product_id": "lidl-тортелони-500g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-31",
       "price_history": [
         {
@@ -2353075,7 +2352839,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/263_00095312_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-скумрия-топло-пушена-180g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-09-20",
       "price_history": [
         {
@@ -2354043,7 +2353807,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20916590_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-fragedo-набор-за-супа-пилешки",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-09-20",
       "price_history": [
         {
@@ -2354417,7 +2354181,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5059883116631_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-myprotein-протеиново-брауни-различни-видове-75g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-09-20",
       "price_history": [
         {
@@ -2354778,7 +2354542,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800233782981_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-bettr-био-протеинов-крем-различни-видове-250g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-09-20",
       "price_history": [
         {
@@ -2357412,7 +2357176,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20959659?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-k-classic-гуакамоле-различни-видове-150g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-09-20",
       "price_history": [
         {
@@ -2362351,7 +2362115,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800058537643_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-classic-max-салата-боб-с-лютеница-400g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -2362404,7 +2362168,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20791833_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-веселина-боб-по-манастирски-без-консерванти-400g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-09-24",
       "price_history": [
         {
@@ -2362457,7 +2362221,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20278366_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-кенар-салата-зеле-моркови-и-маионеза-400g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-09-24",
       "price_history": [
         {
@@ -2362499,7 +2362263,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800058538008_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-кенар-разядка-различни-видове-200g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-09-24",
       "price_history": [
         {
@@ -2362635,7 +2362399,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20791850_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-веселина-тиквички-с-млечен-сос-250g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-09-24",
       "price_history": [
         {
@@ -2362687,7 +2362451,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/257_00089021_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-бреи-салата-чушки-с-чесън-400g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-09-24",
       "price_history": [
         {
@@ -2362747,7 +2362511,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800058544634_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-класик-салата-катък-с-печени-чушки-700g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-09-24",
       "price_history": [
         {
@@ -2362791,7 +2362555,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20759100_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-meggle-разядка-с-чушки-различни-видове-400g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-09-24",
       "price_history": [
         {
@@ -2363063,7 +2362827,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20281433_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-руска-салата-700g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-09-24",
       "price_history": [
         {
@@ -2363107,7 +2362871,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20791836_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-веселина-европеиска-салата-250g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-09-24",
       "price_history": [
         {
@@ -2363159,7 +2362923,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800058533645_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-класик-салата-снежанка-700g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-09-24",
       "price_history": [
         {
@@ -2363203,7 +2362967,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20791845_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-веселина-руска-салата-без-консерванти-400g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-09-24",
       "price_history": [
         {
@@ -2363253,7 +2363017,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/325_01201543B_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-денито-салата-пикантна-250g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-09-24",
       "price_history": [
         {
@@ -2363297,7 +2363061,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20791847_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-веселина-кьопоолу-без-консерванти-400g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-09-24",
       "price_history": [
         {
@@ -2363349,7 +2363113,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800058544641_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-класик-европеиска-салата-700g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-09-24",
       "price_history": [
         {
@@ -2363393,7 +2363157,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800058537452_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-classic-max-руска-салата-1000g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -2363443,7 +2363207,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/257_20686771_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-хапни-веган-салата-различни-видове-250g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-09-24",
       "price_history": [
         {
@@ -2363487,7 +2363251,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20791844_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-веселина-снежанка-без-консерванти-400g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-09-24",
       "price_history": [
         {
@@ -2364231,7 +2363995,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20826207_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-str8-душ-гел-wild-beat-400g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-09-24",
       "price_history": [
         {
@@ -2364956,7 +2364720,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp517c4e97aef040b4bab7712e64985a58.png",
       "product_id": "lidl-печен-боб-1660g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-09-27",
       "price_history": [
         {
@@ -2365606,7 +2365370,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp8061e22403f04ae681b6fe37157b93d9.png",
       "product_id": "lidl-студен-чаи-1500g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -2365693,90 +2365457,6 @@ const ALL_PRODUCTS_DATA = {
       "lowest_price": 0.35,
       "lowest_price_date": "2026-09-06",
       "avg_price": 1.2
-    },
-    {
-      "name": "Лимонада",
-      "store": "Lidl",
-      "emoji": "🥦",
-      "category": "vegetable",
-      "weight_raw": "1.25 l",
-      "weight_grams": 1250,
-      "shelf_life": "малотраен",
-      "is_food": true,
-      "is_healthy": true,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": 5,
-      "diet_tags": [
-        "budget"
-      ],
-      "macros": {
-        "kcal": 29,
-        "p": 1.1,
-        "f": 0.3,
-        "c": 9
-      },
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://imgproxy-retcat.assets.schwarz/SkYEdNiJD-2bmI4ZcK5A9EkpKkwHrb5R1mrp3qIFt5w/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS83QTEyOUM4QzA2RTY2MDU3ODA5QkI4REZ/GOEU3QzUxNzc0QTU1Q0I1RkE2QjkxMThENTc1NTBDM0M3REVCMzlGLnBuZw.png",
-      "product_id": "lidl-лимонада-1250g",
-      "last_seen": "2026-10-04",
-      "first_seen": "2026-04-20",
-      "price_history": [
-        {
-          "date": "2026-04-20",
-          "store": "Lidl",
-          "price": 2.39,
-          "price_eur": 1.22,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-06-14",
-          "store": "Lidl",
-          "price": 1.74,
-          "price_eur": 0.89,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-06-28",
-          "store": "Lidl",
-          "price": 1.94,
-          "price_eur": 0.99,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-07-12",
-          "store": "Lidl",
-          "price": 2.33,
-          "price_eur": 1.19,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-08-02",
-          "store": "Lidl",
-          "price": 2.72,
-          "price_eur": 1.39,
-          "old_price": 3.48,
-          "discount_pct": 22
-        },
-        {
-          "date": "2026-09-27",
-          "store": "Lidl",
-          "price": 1.19,
-          "price_eur": 0.61,
-          "old_price": null,
-          "discount_pct": null
-        }
-      ],
-      "lowest_price": 1.19,
-      "lowest_price_date": "2026-09-27",
-      "avg_price": 2.05
     },
     {
       "name": "Био моцарела",
@@ -2367609,7 +2367289,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8410063093826_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-pescanova-атлантическа-сьомга-филе-замразено-250g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-09-28",
       "price_history": [
         {
@@ -2368256,7 +2367936,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20924113_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-донът-с-ягодов-аромат",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-09-28",
       "price_history": [
         {
@@ -2369422,7 +2369102,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20924071_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-минипоничка-с-пълнеж-шамфъстък",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-09-28",
       "price_history": [
         {
@@ -2372191,7 +2371871,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/03400750_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-gourmet-perle-храна-за-котки-различни-видове-85g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-09-28",
       "price_history": [
         {
@@ -2375094,7 +2374774,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20971489_601?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-brite-цветоулавящи-кърпички",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-09-28",
       "price_history": [
         {
@@ -2377386,7 +2377066,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/586_00055543_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-pedigree-суха-храна-за-кучета-2600g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-09-28",
       "price_history": [
         {
@@ -2380489,7 +2380169,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800220421039_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-хризантема-ø10-5",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-09-29",
       "price_history": [
         {
@@ -2380943,7 +2380623,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20956577_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-veggie-terra-домати-на-кубчета-400g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-10-01",
       "price_history": [
         {
@@ -2382792,7 +2382472,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20879383_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-omo-гел-за-пране-различни-видове",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-10-01",
       "price_history": [
         {
@@ -2383452,7 +2383132,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp744557a47654494b9501eb7f61e83d0a.jpg",
       "product_id": "lidl-нар",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-10-04",
       "price_history": [
         {
@@ -2383462,11 +2383142,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.3,
           "old_price": 1.49,
           "discount_pct": 60
+        },
+        {
+          "date": "2026-11-15",
+          "store": "Lidl",
+          "price": 0.49,
+          "price_eur": 0.25,
+          "old_price": 1.49,
+          "discount_pct": 67
         }
       ],
-      "lowest_price": 0.59,
-      "lowest_price_date": "2026-10-04",
-      "avg_price": 0.59
+      "lowest_price": 0.49,
+      "lowest_price_date": "2026-11-15",
+      "avg_price": 0.54
     },
     {
       "name": "Български спанак",
@@ -2384059,51 +2383747,6 @@ const ALL_PRODUCTS_DATA = {
       "lowest_price": 2.29,
       "lowest_price_date": "2026-10-04",
       "avg_price": 2.29
-    },
-    {
-      "name": "Деликатесен салам",
-      "store": "Lidl",
-      "emoji": "🍗",
-      "category": "protein",
-      "weight_raw": "120 g",
-      "weight_grams": 120,
-      "shelf_life": "малотраен",
-      "is_food": true,
-      "is_healthy": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": 3,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://imgproxy-retcat.assets.schwarz/KJnS5gjy0uodtwivvT5BCwgqEwLvnQDuEREfBlHW1gc/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9FRTQ1NjNFNzNDMEQ3NzkwNDk0NjlCMzI/4RTI0MkFGQTRGRTVENkQzNDE5QkRDMjhBODY4RkM5NkFBRUYzMEE1LnBuZw.png",
-      "product_id": "lidl-деликатесен-салам-120g",
-      "last_seen": "2026-10-11",
-      "first_seen": "2026-06-28",
-      "price_history": [
-        {
-          "date": "2026-06-28",
-          "store": "Lidl",
-          "price": 3.48,
-          "price_eur": 1.78,
-          "old_price": 3.99,
-          "discount_pct": 13
-        },
-        {
-          "date": "2026-10-04",
-          "store": "Lidl",
-          "price": 2.55,
-          "price_eur": 1.3,
-          "old_price": null,
-          "discount_pct": null
-        }
-      ],
-      "lowest_price": 2.55,
-      "lowest_price_date": "2026-10-04",
-      "avg_price": 3.01
     },
     {
       "name": "Италиански салам",
@@ -2385463,170 +2385106,6 @@ const ALL_PRODUCTS_DATA = {
       "avg_price": 29.99
     },
     {
-      "name": "Риба тон",
-      "store": "Lidl",
-      "emoji": "🍗",
-      "category": "protein",
-      "weight_raw": "4 х 140 g",
-      "weight_grams": 560,
-      "shelf_life": "малотраен",
-      "is_food": true,
-      "is_healthy": true,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": 10,
-      "diet_tags": [
-        "high_protein",
-        "keto",
-        "mediterranean"
-      ],
-      "macros": {
-        "kcal": 132,
-        "p": 28,
-        "f": 0.6,
-        "c": 0
-      },
-      "is_junk": false,
-      "is_high_protein": true,
-      "is_good_carb": false,
-      "is_good_fat": true,
-      "image": "https://imgproxy-retcat.assets.schwarz/zkLTOio7GwCLg6Mvt45g90L982RP9q78Szd3ncACrms/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS82NDNDRTMyNjM0RDdBRDZBNTBBNDI2OUY/xQUVFMUVFNjg5OTIzQUY4NEQ2ODkwMjYxNUZCOUM5MjBCRjc4NjkwLnBuZw.png",
-      "product_id": "lidl-риба-тон-560g",
-      "last_seen": "2026-10-11",
-      "first_seen": "2026-05-16",
-      "price_history": [
-        {
-          "date": "2026-05-16",
-          "store": "Lidl",
-          "price": 10.99,
-          "price_eur": 5.62,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-05-31",
-          "store": "Lidl",
-          "price": 11.68,
-          "price_eur": 5.97,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-06-28",
-          "store": "Lidl",
-          "price": 10.46,
-          "price_eur": 5.35,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-07-12",
-          "store": "Lidl",
-          "price": 5.85,
-          "price_eur": 2.99,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-07-26",
-          "store": "Lidl",
-          "price": 10.46,
-          "price_eur": 5.35,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-08-23",
-          "store": "Lidl",
-          "price": 5.35,
-          "price_eur": 2.74,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-09-27",
-          "store": "Lidl",
-          "price": 10.99,
-          "price_eur": 5.62,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-10-04",
-          "store": "Lidl",
-          "price": 5.35,
-          "price_eur": 2.74,
-          "old_price": null,
-          "discount_pct": null
-        }
-      ],
-      "lowest_price": 5.35,
-      "lowest_price_date": "2026-08-23",
-      "avg_price": 8.89
-    },
-    {
-      "name": "Прясно пилешко филе XXL",
-      "store": "Lidl",
-      "emoji": "🍗",
-      "category": "protein",
-      "weight_raw": "2 kg",
-      "weight_grams": 2000,
-      "shelf_life": "малотраен",
-      "is_food": true,
-      "is_healthy": true,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": 9,
-      "diet_tags": [
-        "high_protein",
-        "keto",
-        "budget"
-      ],
-      "macros": {
-        "kcal": 165,
-        "p": 31,
-        "f": 3.6,
-        "c": 0
-      },
-      "is_junk": false,
-      "is_high_protein": true,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://imgproxy-retcat.assets.schwarz/6lpPeBidp9mJ6K_7_CUaq764v9QgVZECnECTRHg1Fx8/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS81RjMyRTBEOUQ0NURCQzAyOUQ5RTgwMTc/0QzNBMzM5MDI0REY4MTg5MkQ2RUM1NTVGQjQwQTU4NkJBNDY1ODc5LnBuZw.png",
-      "product_id": "lidl-прясно-пилешко-филе-xxl-2000g",
-      "last_seen": "2026-10-11",
-      "first_seen": "2026-06-14",
-      "price_history": [
-        {
-          "date": "2026-06-14",
-          "store": "Lidl",
-          "price": 11.99,
-          "price_eur": 6.13,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-07-19",
-          "store": "Lidl",
-          "price": 11.91,
-          "price_eur": 6.09,
-          "old_price": 14.98,
-          "discount_pct": 20
-        },
-        {
-          "date": "2026-09-06",
-          "store": "Lidl",
-          "price": 5.29,
-          "price_eur": 2.7,
-          "old_price": 6.64,
-          "discount_pct": 20
-        }
-      ],
-      "lowest_price": 5.29,
-      "lowest_price_date": "2026-09-06",
-      "avg_price": 9.73
-    },
-    {
       "name": "Сушени домати",
       "store": "Lidl",
       "emoji": "🥦",
@@ -2385803,9 +2385282,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://imgproxy-retcat.assets.schwarz/iNlq8H4hXtf3LSwqcEGVBTvUe4knQjc9e-85jFhrVss/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS9ERkVEMUQ1RURFNzdDMDFBREIxQUIwNzc/zODcwNjEyQjRFQUI4NjEzNDJDNTBBNkQ4OTVDQjY1N0FBOEUyMTMyLnBuZw.png",
+      "image": "https://www.lidl.bg/assets/gcp6f4a05e80f174489977e1be0bf1ace43.png",
       "product_id": "lidl-пшенично-брашно-1000g",
-      "last_seen": "2026-11-01",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-14",
       "price_history": [
         {
@@ -2385839,11 +2385318,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.24,
           "old_price": 0.59,
           "discount_pct": 20
+        },
+        {
+          "date": "2026-11-15",
+          "store": "Lidl",
+          "price": 0.39,
+          "price_eur": 0.2,
+          "old_price": 0.64,
+          "discount_pct": 39
         }
       ],
       "lowest_price": 0.39,
       "lowest_price_date": "2026-10-04",
-      "avg_price": 1.3
+      "avg_price": 1.12
     },
     {
       "name": "Салами пръчици XXL",
@@ -2386281,7 +2385768,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/186_00098752_1_P-2?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-amadori-пилешки-крила-пикантни-500g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-10-05",
       "price_history": [
         {
@@ -2386809,7 +2386296,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/070177086664_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-twinings-зелен-чаи-различни-видове-50g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-10-05",
       "price_history": [
         {
@@ -2387805,7 +2387292,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/493_02400202_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-nescafe-разтворимо-кафе-различни-видове-100g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-10-05",
       "price_history": [
         {
@@ -2388016,7 +2387503,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/070177084806_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-twinings-чаи-плодов-50g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-10-05",
       "price_history": [
         {
@@ -2388342,7 +2387829,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20751243_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-bumbu-спиртна-напитка-40-vol-700g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -2395127,7 +2394614,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20982655?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-brio-бретер-metallica",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-10-05",
       "price_history": [
         {
@@ -2399487,7 +2398974,8 @@ const ALL_PRODUCTS_DATA = {
       "health_score": 9,
       "diet_tags": [
         "high_protein",
-        "keto"
+        "keto",
+        "budget"
       ],
       "macros": {
         "kcal": 165,
@@ -2399499,9 +2398987,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": true,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://imgproxy-retcat.assets.schwarz/dkzHwckPdXOZBpZFaRYHAzhPq6Em6SX0gRk0PINSBQs/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS82QjQ3QTQyNEFBMDZFOERFODE2RTQ1QkR/BNEE2MzQ1ODkyMDNDRDBFNjVENkUzNTU2QUZCMDQzMDU5MTlENjhCLnBuZw.png",
+      "image": "https://www.lidl.bg/assets/gcp9b65a4004bac40298c19ed721786239b.png",
       "product_id": "lidl-панирани-пилешки-хапки-400g",
-      "last_seen": "2026-10-18",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-24",
       "price_history": [
         {
@@ -2399543,11 +2399031,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.68,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-15",
+          "store": "Lidl",
+          "price": 3.06,
+          "price_eur": 1.56,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 2.09,
       "lowest_price_date": "2026-10-04",
-      "avg_price": 4.31
+      "avg_price": 4.1
     },
     {
       "name": "Панирани пилешки бургери",
@@ -2403089,7 +2402585,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp2ca1b4772c6a451fb41a462af79a963b.png",
       "product_id": "lidl-пасирани-домати-500g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-10-11",
       "price_history": [
         {
@@ -2403391,7 +2402887,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp6027c6dca6704fdb96be2dfe5fb9b866.png",
       "product_id": "lidl-чоризо-280g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-25",
       "price_history": [
         {
@@ -2405192,7 +2404688,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8595564509226_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-bona-vita-мюсли-крънч-различни-видове-375g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-10-11",
       "price_history": [
         {
@@ -2405374,7 +2404870,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20860613_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-body-future-напитка-на-растителна-основа-различни-вкусове-400g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-10-11",
       "price_history": [
         {
@@ -2405589,7 +2405085,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5205461214125_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-fresh-cool-салата-цезар-260g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-10-11",
       "price_history": [
         {
@@ -2406342,7 +2405838,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20959778_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-eti-dare-вафлено-барче-различни-видове-44g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-10-11",
       "price_history": [
         {
@@ -2406628,7 +2406124,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20961663_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-papia-кърпи-за-лице-platinum-четирипластови",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-10-11",
       "price_history": [
         {
@@ -2408636,7 +2408132,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20977058_614?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-swift-почистващи-кърпи-различни-видове",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-10-11",
       "price_history": [
         {
@@ -2410552,7 +2410048,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20707583_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-nirvana-сладолед-различни-вкусове-322g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -2414601,7 +2414097,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00098885_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-софия-мел-готов-микс-за-хляб-500g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-10-15",
       "price_history": [
         {
@@ -2415208,7 +2414704,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20841948_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-riso-scotti-напитка-на-растителна-основа-barista-1000g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-10-15",
       "price_history": [
         {
@@ -2416509,7 +2416005,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp978519d961b34b4fa4542ac825e61438.png",
       "product_id": "lidl-бланширани-картофи-1000g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-31",
       "price_history": [
         {
@@ -2416921,9 +2416417,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": true,
       "is_good_fat": false,
-      "image": "https://imgproxy-retcat.assets.schwarz/jA5miZxoR9BKLQy6ZGeLk70pueqOnpTFwy0Q9yrxja4/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzRENTBBRjUyMjczRUZERjU5MTk5NURERT/NGNzE0REU2QzA5NTY4QTI2MjJGNDg4QkRDMzUxNTFDQThBQ0Y0N0UucG5n.png",
+      "image": "https://www.lidl.bg/assets/gcped64f3fbb01740b786b4a9c0ae5f5aca.png",
       "product_id": "lidl-паста-от-артишок-180g",
-      "last_seen": "2026-11-01",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-10-18",
       "price_history": [
         {
@@ -2417857,75 +2417353,6 @@ const ALL_PRODUCTS_DATA = {
       "avg_price": 1.89
     },
     {
-      "name": "Сос за паста",
-      "store": "Lidl",
-      "emoji": "🛒",
-      "category": "other",
-      "weight_raw": "350 g",
-      "weight_grams": 350,
-      "shelf_life": null,
-      "is_food": false,
-      "is_healthy": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": null,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": true,
-      "is_good_fat": false,
-      "image": "https://imgproxy-retcat.assets.schwarz/xApg3NxKRvunw3TTNv-RhEMB7mIL9wGud6_d9Hscisk/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzQyODAzNTREMTAzNTA3QTE3MjczNzUyRU/QyMzM2MjgyNzg5NDgwOEE4Q0VCREVCMzYxMUZCMzc5MEYwQjc5RjQucG5n.png",
-      "product_id": "lidl-сос-за-паста-350g",
-      "last_seen": "2026-11-01",
-      "first_seen": "2026-06-28",
-      "price_history": [
-        {
-          "date": "2026-06-28",
-          "store": "Lidl",
-          "price": 3.89,
-          "price_eur": 1.99,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-07-12",
-          "store": "Lidl",
-          "price": 3.99,
-          "price_eur": 2.04,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-08-23",
-          "store": "Lidl",
-          "price": 1.99,
-          "price_eur": 1.02,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-08-30",
-          "store": "Lidl",
-          "price": 0.99,
-          "price_eur": 0.51,
-          "old_price": 1.27,
-          "discount_pct": 22
-        },
-        {
-          "date": "2026-09-13",
-          "store": "Lidl",
-          "price": 1.99,
-          "price_eur": 1.02,
-          "old_price": null,
-          "discount_pct": null
-        }
-      ],
-      "lowest_price": 0.99,
-      "lowest_price_date": "2026-08-30",
-      "avg_price": 2.57
-    },
-    {
       "name": "Гурме песто",
       "store": "Lidl",
       "emoji": "🛒",
@@ -2418352,43 +2417779,6 @@ const ALL_PRODUCTS_DATA = {
       "avg_price": 4.96
     },
     {
-      "name": "Захар Сладея",
-      "store": "Lidl",
-      "emoji": "🛒",
-      "category": "other",
-      "weight_raw": "5 kg",
-      "weight_grams": 5000,
-      "shelf_life": null,
-      "is_food": false,
-      "is_healthy": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": null,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://imgproxy-retcat.assets.schwarz/DcXbTXGYObDQ8skMQObHNj6KnSfVVLrm3e4mMMHYLgY/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzU5N0UzQTBEOEQ1QkM1MDkxQTM2RjMyMD/k0QkVDRDc2M0VEQkY1Q0ZCRDYxMzFCM0VDM0M4MUM0MkMxRTFDRkUucG5n.png",
-      "product_id": "lidl-захар-сладея-5000g",
-      "last_seen": "2026-10-25",
-      "first_seen": "2026-10-18",
-      "price_history": [
-        {
-          "date": "2026-10-18",
-          "store": "Lidl",
-          "price": 3.37,
-          "price_eur": 1.72,
-          "old_price": null,
-          "discount_pct": null
-        }
-      ],
-      "lowest_price": 3.37,
-      "lowest_price_date": "2026-10-18",
-      "avg_price": 3.37
-    },
-    {
       "name": "Пица Премиум",
       "store": "Lidl",
       "emoji": "🛒",
@@ -2418631,7 +2418021,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp37be4743c6ed4ce58502c8000a6d9e96.png",
       "product_id": "lidl-пресен-шаран-1400g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-10-18",
       "price_history": [
         {
@@ -2418674,9 +2418064,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://imgproxy-retcat.assets.schwarz/0ejaVAqrsWL6RxGbT2PbhJKfiuXW7hv_bxSCtY48CL0/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzdEQTk3OTQ0Mzc2NzFERTdEN0I0MTg1QT/FERjYxOTA0N0IwRjc2QTdFOUU3QjNDRTVGODA2MEVDMUU4RkE2NDUucG5n.png",
+      "image": "https://www.lidl.bg/assets/gcpd26dc277371547b98941cb5f39fb55a2.png",
       "product_id": "lidl-селекция-от-сосове-650g",
-      "last_seen": "2026-11-01",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-10-18",
       "price_history": [
         {
@@ -2420592,83 +2419982,6 @@ const ALL_PRODUCTS_DATA = {
       "lowest_price": 2.89,
       "lowest_price_date": "2026-10-18",
       "avg_price": 3.79
-    },
-    {
-      "name": "Пица",
-      "store": "Lidl",
-      "emoji": "🛒",
-      "category": "other",
-      "weight_raw": "360 g",
-      "weight_grams": 360,
-      "shelf_life": null,
-      "is_food": false,
-      "is_healthy": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": null,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://imgproxy-retcat.assets.schwarz/l_yoOqwxcnBIs8zyLaQ5wOY7AMsoL4mQ0k6vKL86t84/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS85RUNDNzQxRTkzNTc1OUEwNUY0NkEyMEI/yOUQ0QzY4MkU0RTFFNTk2RTQyREIxREY3QTEyNjkxRkQ4RDcwNTAwLnBuZw.png",
-      "product_id": "lidl-пица-360g",
-      "last_seen": "2026-10-25",
-      "first_seen": "2026-04-20",
-      "price_history": [
-        {
-          "date": "2026-04-20",
-          "store": "Lidl",
-          "price": 8.0,
-          "price_eur": 4.09,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-04-25",
-          "store": "Lidl",
-          "price": 7.02,
-          "price_eur": 3.59,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-06-28",
-          "store": "Lidl",
-          "price": 6.98,
-          "price_eur": 3.57,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-07-26",
-          "store": "Lidl",
-          "price": 5.65,
-          "price_eur": 2.89,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-10-04",
-          "store": "Lidl",
-          "price": 3.57,
-          "price_eur": 1.83,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-10-18",
-          "store": "Lidl",
-          "price": 3.29,
-          "price_eur": 1.68,
-          "old_price": null,
-          "discount_pct": null
-        }
-      ],
-      "lowest_price": 3.29,
-      "lowest_price_date": "2026-10-18",
-      "avg_price": 5.75
     },
     {
       "name": "Сос от морски дарове",
@@ -2426849,7 +2426162,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/02200097_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-flirt-водка-1000g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -2428520,7 +2427833,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20957813_606?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-maliva-тоалетна-хартия-трипластова",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-10-19",
       "price_history": [
         {
@@ -2430786,7 +2430099,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800058538022_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-кенар-разядка-тиро-200g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-10-22",
       "price_history": [
         {
@@ -2430962,7 +2430275,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp5b0992d50c8e43929f51f8747a1d2371.png",
       "product_id": "lidl-зеле",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-10-22",
       "price_history": [
         {
@@ -2431108,9 +2430421,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://www.lidl.bg/assets/gcpfb9957e6604d45aab2130c405bcd59d7.jpg",
+      "image": "https://www.lidl.bg/assets/gcp9a1b7c9190504ee5b37d5148a613c17e.png",
       "product_id": "lidl-сок-от-портокал-1000g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -2431160,6 +2430473,14 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.52,
           "old_price": 2.04,
           "discount_pct": 50
+        },
+        {
+          "date": "2026-11-15",
+          "store": "Lidl",
+          "price": 2.55,
+          "price_eur": 1.3,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 0.69,
@@ -2431420,9 +2430741,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://www.lidl.bg/assets/gcp90586ab084284f5c87fa3e9b4d7e70e2.jpeg",
+      "image": "https://www.lidl.bg/assets/gcpf5c3ec5ca1284a6d984e02cfc3a09450.jpg",
       "product_id": "lidl-тиква",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-10-22",
       "price_history": [
         {
@@ -2431432,11 +2430753,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.23,
           "old_price": 0.99,
           "discount_pct": 55
+        },
+        {
+          "date": "2026-11-15",
+          "store": "Lidl",
+          "price": 0.29,
+          "price_eur": 0.15,
+          "old_price": 0.99,
+          "discount_pct": 71
         }
       ],
-      "lowest_price": 0.45,
-      "lowest_price_date": "2026-10-22",
-      "avg_price": 0.45
+      "lowest_price": 0.29,
+      "lowest_price_date": "2026-11-15",
+      "avg_price": 0.37
     },
     {
       "name": "МЛЯКО КИСЕЛО КАРАКАЧАНКА 3.6% 400 Г",
@@ -2431601,7 +2430930,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp0d054347db9145f1baa753e76902d9c3.png",
       "product_id": "lidl-салата-микс-200g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -2431994,7 +2431323,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcpbd8badf2ba7c423aa32b1dd7d25f433d.png",
       "product_id": "lidl-негазирана-безалкохолна-напитка-2000g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-16",
       "price_history": [
         {
@@ -2432508,91 +2431837,6 @@ const ALL_PRODUCTS_DATA = {
       "lowest_price": 2.17,
       "lowest_price_date": "2026-08-17",
       "avg_price": 4.85
-    },
-    {
-      "name": "Сос",
-      "store": "Lidl",
-      "emoji": "🛒",
-      "category": "other",
-      "weight_raw": "250 ml",
-      "weight_grams": 250,
-      "shelf_life": null,
-      "is_food": false,
-      "is_healthy": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": null,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://www.lidl.bg/assets/gcp28dd2d0ac78045f1a60b6362a1b550e6.png",
-      "product_id": "lidl-сос-250g",
-      "last_seen": "2026-10-25",
-      "first_seen": "2026-06-21",
-      "price_history": [
-        {
-          "date": "2026-06-21",
-          "store": "Lidl",
-          "price": 3.48,
-          "price_eur": 1.78,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-06-28",
-          "store": "Lidl",
-          "price": 3.89,
-          "price_eur": 1.99,
-          "old_price": 4.5,
-          "discount_pct": 14
-        },
-        {
-          "date": "2026-08-02",
-          "store": "Lidl",
-          "price": 4.48,
-          "price_eur": 2.29,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-09-13",
-          "store": "Lidl",
-          "price": 2.29,
-          "price_eur": 1.17,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-09-27",
-          "store": "Lidl",
-          "price": 2.55,
-          "price_eur": 1.3,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-10-11",
-          "store": "Lidl",
-          "price": 2.49,
-          "price_eur": 1.27,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-10-22",
-          "store": "Lidl",
-          "price": 2.29,
-          "price_eur": 1.17,
-          "old_price": null,
-          "discount_pct": null
-        }
-      ],
-      "lowest_price": 2.29,
-      "lowest_price_date": "2026-09-13",
-      "avg_price": 3.07
     },
     {
       "name": "Чийзкейк Маракуя",
@@ -2437943,7 +2437187,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp8a0b9c83606349bdbada6ed47bf6649f.png",
       "product_id": "lidl-младо-френско-петле-500g",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-10-25",
       "price_history": [
         {
@@ -2439267,7 +2438511,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00024987C_P-2?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-картофи-четкани",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-08",
       "price_history": [
         {
@@ -2440290,7 +2439534,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5949003402136_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-лимони-клас-i-500g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -2441168,7 +2440412,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/7613031526406_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-nescafe-кафе-капсули-dolce-gusto-различни-видове-256g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -2445725,7 +2444969,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800500946030_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-silva-лазаня-различни-видове-1100g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-10-26",
       "price_history": [
         {
@@ -2446886,7 +2446130,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/02201398_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-пещера-мастика-1000g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -2449946,7 +2449190,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/01000431_A?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-пилешко-бутче-до-5-кг-на-покупка",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-10-26",
       "price_history": [
         {
@@ -2450065,7 +2449309,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/09902102-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-миниколедниче-шлумбергера-стаино-растение",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-10-27",
       "price_history": [
         {
@@ -2453346,9 +2452590,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://www.lidl.bg/assets/gcp0913012973f840b69283f2a87315bccd.jpg",
+      "image": "https://www.lidl.bg/assets/gcpe56951970673412eb2d566da12ea425e.jpg",
       "product_id": "lidl-моркови",
-      "last_seen": "2026-11-01",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-01",
       "price_history": [
         {
@@ -2453358,11 +2452602,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.25,
           "old_price": 0.99,
           "discount_pct": 51
+        },
+        {
+          "date": "2026-11-15",
+          "store": "Lidl",
+          "price": 0.59,
+          "price_eur": 0.3,
+          "old_price": 0.99,
+          "discount_pct": 40
         }
       ],
       "lowest_price": 0.49,
       "lowest_price_date": "2026-11-01",
-      "avg_price": 0.49
+      "avg_price": 0.54
     },
     {
       "name": "Картофи по селски XXL",
@@ -2453893,7 +2453145,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp536492d03ac8445eb4b92b76f8bb6f04.png",
       "product_id": "lidl-блатове-за-торта-400g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-01",
       "price_history": [
         {
@@ -2456270,7 +2455522,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800224890367_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-fit-spo-протеиново-барче-различни-видове-75g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-02",
       "price_history": [
         {
@@ -2456362,7 +2455614,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00013763_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-gerber-пюре-различни-видове-190g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -2458753,7 +2458005,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00107280_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-felix-храна-за-котки-различни-видове-320g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -2462906,7 +2462158,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4337185389443_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-k-classic-пица-на-въглища-замразена-350g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-02",
       "price_history": [
         {
@@ -2468024,7 +2467276,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800058537469_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-classic-max-салата-снежанка-1000g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-05",
       "price_history": [
         {
@@ -2470201,7 +2469453,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://www.lidl.bg/assets/gcp251edbfdc7794612bdd46afac965db42.png",
       "product_id": "lidl-прясно-филе-от-сьомга-250g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-09-27",
       "price_history": [
         {
@@ -2470297,7 +2469549,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcpb594315a0a8b44d0bcb51eafa8dec882.png",
       "product_id": "lidl-филе-от-сьомгова-пъстърва-600g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -2470347,7 +2469599,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcpd1f45e66205c409ca9be3ab29ef555ff.jpg",
       "product_id": "lidl-био-хумус-160g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-08",
       "price_history": [
         {
@@ -2470389,7 +2469641,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp10a4fd8f3f164978ae6570e1cef1f341.jpg",
       "product_id": "lidl-боровинки-125g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -2470723,7 +2469975,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcpc30db41f3289481b925549546693072b.png",
       "product_id": "lidl-прясно-пилешко-филе-800g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-31",
       "price_history": [
         {
@@ -2471044,9 +2470296,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://www.lidl.bg/assets/gcpf3830e51f2954b869f4862973caa22e8.jpg",
+      "image": "https://www.lidl.bg/assets/gcpe142b2857fc2410fa62274347f8016bd.jpeg",
       "product_id": "lidl-френски-мити-картофи",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-08",
       "price_history": [
         {
@@ -2471088,7 +2470340,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcpbb15602454304b76ac85c07bbc5b4337.png",
       "product_id": "lidl-портокали",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-08",
       "price_history": [
         {
@@ -2471132,7 +2470384,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp0e1e613d540447d8b7194adf91452b59.png",
       "product_id": "lidl-доматен-сос-720g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-10-04",
       "price_history": [
         {
@@ -2471185,7 +2470437,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp2e91a24ae4f549f0aaaab644e643a38d.png",
       "product_id": "lidl-сос-за-бургер-или-за-картофки-400g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-08",
       "price_history": [
         {
@@ -2471229,7 +2470481,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp5e5e3daa14d340f79d7ec4e862b61074.png",
       "product_id": "lidl-нектар-ябълка-1000g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-08",
       "price_history": [
         {
@@ -2471274,7 +2470526,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp36a9efefd16544ec8367e32222329520.png",
       "product_id": "lidl-картофен-специалитет-530g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -2471328,7 +2470580,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://www.lidl.bg/assets/gcp65884321373a414091a0c8b917707b66.png",
       "product_id": "lidl-зеленчуков-микс-750g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-09-27",
       "price_history": [
         {
@@ -2471599,7 +2470851,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcpb940aa9bc0f3464abb1a792ae549fb11.png",
       "product_id": "lidl-свински-гърди-700g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-21",
       "price_history": [
         {
@@ -2471668,7 +2470920,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcpdaa52f126f0540a4869fa77704da9268.png",
       "product_id": "lidl-пушени-свински-ребра-700g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-08",
       "price_history": [
         {
@@ -2471754,7 +2471006,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcpeb1ff6fad5b14e83a2b3f6fdbfdd87b6.png",
       "product_id": "lidl-прясно-мляко-1000g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -2471836,11 +2471088,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.69,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-15",
+          "store": "Lidl",
+          "price": 1.49,
+          "price_eur": 0.76,
+          "old_price": 1.73,
+          "discount_pct": 14
         }
       ],
       "lowest_price": 1.35,
       "lowest_price_date": "2026-08-23",
-      "avg_price": 2.87
+      "avg_price": 2.75
     },
     {
       "name": "Протеинов сандвич",
@@ -2471863,7 +2471123,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcpef5eb87db52e4ba992acfe2e0d8493b1.png",
       "product_id": "lidl-протеинов-сандвич-220g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-23",
       "price_history": [
         {
@@ -2471908,7 +2471168,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcpc45457eb71994c78844c59ba7854b095.png",
       "product_id": "lidl-дърпано-месо-550g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-08",
       "price_history": [
         {
@@ -2471947,7 +2471207,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp6fbe8fc9eaef419ba75e6255865cd158.png",
       "product_id": "lidl-котлет-с-ребра-от-малко-прасенце-2300g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-08",
       "price_history": [
         {
@@ -2472066,7 +2471326,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp6ee75f6acef9474b82e9ebca7f633dd2.png",
       "product_id": "lidl-салам-100g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-28",
       "price_history": [
         {
@@ -2472143,7 +2471403,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcpdee7290d056d4a7eb1671c8aa412000c.png",
       "product_id": "lidl-кренвирши-180g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-28",
       "price_history": [
         {
@@ -2472220,7 +2471480,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp7f1f66ba878c4cd49563f68e57f1ec51.png",
       "product_id": "lidl-тиролска-шунка-100g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-08",
       "price_history": [
         {
@@ -2472294,7 +2471554,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp93e0f10e4c134c0a8cecf0df90c16f62.png",
       "product_id": "lidl-салам-спианата-120g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-08",
       "price_history": [
         {
@@ -2472331,7 +2471591,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcped4ce8e882a843dfbb46adcd4eb8e4a3.jpg",
       "product_id": "lidl-шунка-300g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-21",
       "price_history": [
         {
@@ -2472453,7 +2471713,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcpa847401db02a47a99f2ce901be4ee6a4.png",
       "product_id": "lidl-наденица-1000g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-08",
       "price_history": [
         {
@@ -2472490,7 +2471750,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp41b8b09ccddd4c49be3ecca1c80041fb.png",
       "product_id": "lidl-негазирана-безалкохолна-напитка-вишна-2000g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-08",
       "price_history": [
         {
@@ -2472527,7 +2471787,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcpac906883dd3645d59a2091181d3517db.png",
       "product_id": "lidl-негазирана-безалкохолна-напитка-aнанас-2000g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-08",
       "price_history": [
         {
@@ -2472564,7 +2471824,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp7d0f5c307d8f4b2f9ec031c16c2b580f.png",
       "product_id": "lidl-газирана-безалкохолна-напитка-1500g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-16",
       "price_history": [
         {
@@ -2472745,7 +2472005,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp3258560aaa954ad8aa02d7f1333e5936.png",
       "product_id": "lidl-газирана-изворна-вода-500g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-26",
       "price_history": [
         {
@@ -2472790,7 +2472050,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp08fab5155c9d4c7391fd1f304d3c71af.png",
       "product_id": "lidl-фикс-за-сос-болонезе-37g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-08",
       "price_history": [
         {
@@ -2472827,7 +2472087,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcpb1553aa364f44dcfadbbf13a348f2f42.png",
       "product_id": "lidl-морска-сол-400g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-08",
       "price_history": [
         {
@@ -2472946,7 +2472206,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcpeebb3b20c9ac44869c166bb6cd23e441.png",
       "product_id": "lidl-кюфте-за-хамбургер-200g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-08",
       "price_history": [
         {
@@ -2473020,7 +2472280,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp310a0acd9741415da51573463f8b1fe2.png",
       "product_id": "lidl-кетчуп-560g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-21",
       "price_history": [
         {
@@ -2473258,163 +2472518,6 @@ const ALL_PRODUCTS_DATA = {
       "avg_price": 1.62
     },
     {
-      "name": "Минерална вода",
-      "store": "Lidl",
-      "emoji": "🍺",
-      "category": "drinks",
-      "weight_raw": "5 l",
-      "weight_grams": 5000,
-      "shelf_life": "малотраен",
-      "is_food": false,
-      "is_healthy": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": null,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://www.lidl.bg/assets/gcp9d444b26eef14a51a1757f66429c9bba.png",
-      "product_id": "lidl-минерална-вода-5000g",
-      "last_seen": "2026-11-08",
-      "first_seen": "2026-04-20",
-      "price_history": [
-        {
-          "date": "2026-04-20",
-          "store": "Lidl",
-          "price": 1.99,
-          "price_eur": 1.02,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-04-25",
-          "store": "Lidl",
-          "price": 0.49,
-          "price_eur": 0.25,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-06-07",
-          "store": "Lidl",
-          "price": 3.81,
-          "price_eur": 1.95,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-06-14",
-          "store": "Lidl",
-          "price": 3.99,
-          "price_eur": 2.04,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-06-28",
-          "store": "Lidl",
-          "price": 0.96,
-          "price_eur": 0.49,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-07-19",
-          "store": "Lidl",
-          "price": 4.99,
-          "price_eur": 2.55,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-08-23",
-          "store": "Lidl",
-          "price": 0.24,
-          "price_eur": 0.12,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-08-30",
-          "store": "Lidl",
-          "price": 0.26,
-          "price_eur": 0.13,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-09-06",
-          "store": "Lidl",
-          "price": 0.35,
-          "price_eur": 0.18,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-09-13",
-          "store": "Lidl",
-          "price": 1.95,
-          "price_eur": 1.0,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-09-27",
-          "store": "Lidl",
-          "price": 1.49,
-          "price_eur": 0.76,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-10-04",
-          "store": "Lidl",
-          "price": 2.36,
-          "price_eur": 1.21,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-10-11",
-          "store": "Lidl",
-          "price": 0.24,
-          "price_eur": 0.12,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-10-18",
-          "store": "Lidl",
-          "price": 0.26,
-          "price_eur": 0.13,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-10-25",
-          "store": "Lidl",
-          "price": 2.25,
-          "price_eur": 1.15,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-11-08",
-          "store": "Lidl",
-          "price": 1.12,
-          "price_eur": 0.57,
-          "old_price": null,
-          "discount_pct": null
-        }
-      ],
-      "lowest_price": 0.24,
-      "lowest_price_date": "2026-08-23",
-      "avg_price": 1.67
-    },
-    {
       "name": "Горчица",
       "store": "Lidl",
       "emoji": "🛒",
@@ -2473496,7 +2472599,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp5127824164f94ea8a68a0a106bf0bad3.png",
       "product_id": "lidl-плодов-шот-100g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-08",
       "price_history": [
         {
@@ -2473533,7 +2472636,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp0465793acc1d44ffb40135ddf5407a94.png",
       "product_id": "lidl-био-веган-блок-за-мазане-200g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-08",
       "price_history": [
         {
@@ -2473570,7 +2472673,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp06de4ff267154727a6df8398505b948a.png",
       "product_id": "lidl-пица-на-пещ-340g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-23",
       "price_history": [
         {
@@ -2473623,7 +2472726,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp2839aacdfb9349a598486a480c4d7386.png",
       "product_id": "lidl-болярски-пръчици-170g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-09-27",
       "price_history": [
         {
@@ -2473668,7 +2472771,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp0e07674c83c74761987c91c804d1a2bd.png",
       "product_id": "lidl-прошуто-кото-140g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-23",
       "price_history": [
         {
@@ -2473721,7 +2472824,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp325ffea9a8034d44a570c3f62b9e96bd.png",
       "product_id": "lidl-лонганиса-250g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-08",
       "price_history": [
         {
@@ -2473758,7 +2472861,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp106912b2a0674ffaae5e0bd4ff2a2a4f.png",
       "product_id": "lidl-гурме-бургери-300g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-08",
       "price_history": [
         {
@@ -2473795,7 +2472898,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp6d158480c412435ab5b9d635283eb219.png",
       "product_id": "lidl-замразено-ястие-750g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-08",
       "price_history": [
         {
@@ -2473832,7 +2472935,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp2d642cff8891450aad176210934612f6.png",
       "product_id": "lidl-пица-капричоза-670g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-08",
       "price_history": [
         {
@@ -2473869,7 +2472972,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp66797bed5ab44942b56a2c8058f61dc4.png",
       "product_id": "lidl-плато-от-местни-специалитети-120g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-08",
       "price_history": [
         {
@@ -2473906,7 +2473009,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp0937dd3b99aa438c8a5c7fce695716c5.png",
       "product_id": "lidl-скариди-190g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -2474028,7 +2473131,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp3875b5b1a4294aada54a5d3d50d71ea8.png",
       "product_id": "lidl-пресен-суджук-xxl-2700g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-08",
       "price_history": [
         {
@@ -2474065,7 +2473168,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp0e9546f1ab7e4094a3ac1876e1b74e95.png",
       "product_id": "lidl-прясна-цяла-гъска-4900g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-08",
       "price_history": [
         {
@@ -2474556,7 +2473659,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp50755b7fce044b2b8b15f29324445036.png",
       "product_id": "lidl-червена-леща-500g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "ingredients_raw": "Carottes* 24%, eau, lentilles vertes* 14%, riz basmati* complet 12%, oignons* 12%, huile de tournesol*, protéines de _soja_* texturées et réhydratées 6%, sauce _soja_* (eau, _soja_*, _blé_*, sel de mer, alcool*).\r\n\r\n* Ingrédients issus de l'agriculture biologique",
       "ingredients_flags": [],
       "junk_count": 0,
@@ -2474615,7 +2473718,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcpc675f3cffb9a4836aa5635b60f5be20d.png",
       "product_id": "lidl-скир-150g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -2474731,7 +2473834,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp104c7cdc06a44a22980128034a16ae28.png",
       "product_id": "lidl-българско-кисело-мляко-400g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "ingredients_raw": "Краве МЛЯКО (България), българска симбиотична закваска.",
       "ingredients_flags": [],
       "junk_count": 0,
@@ -2474789,7 +2473892,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcpfea6389b0e1d42bda919c686a77602da.png",
       "product_id": "lidl-френско-меко-сирене-150g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-19",
       "price_history": [
         {
@@ -2474886,7 +2473989,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcpcae9319449bb45d08614d5a470ceda1f.png",
       "product_id": "lidl-британско-сирене-чедър-250g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-08",
       "price_history": [
         {
@@ -2474930,7 +2474033,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcpca7b37f6474444fd999310d53a74e744.png",
       "product_id": "lidl-макарони-500g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -2475006,7 +2474109,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp4245985ee9f54659ac1101e0bf375cb3.png",
       "product_id": "lidl-маслинова-паста-180g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-08",
       "price_history": [
         {
@@ -2475050,7 +2474153,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp1208fe500f3f4f20ada4bdc9342d0fbc.jpg",
       "product_id": "lidl-kраве-масло-250g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-08",
       "price_history": [
         {
@@ -2475089,7 +2474192,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcpedd4b809383e46d689844b85e09d2321.png",
       "product_id": "lidl-иогурт-500g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-14",
       "price_history": [
         {
@@ -2475195,7 +2474298,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcpa08feb1984124f8caed76b20708e6bf1.png",
       "product_id": "lidl-български-кашкавал-бдс-1200g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-28",
       "price_history": [
         {
@@ -2475264,7 +2474367,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcpacecdcc2ba5c4f5f98172a80a66d69a1.png",
       "product_id": "lidl-българско-бяло-саламурено-сиренe-1200g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-08",
       "price_history": [
         {
@@ -2475301,7 +2474404,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcpb3549504d69e4fa3ad9cf73d667d5625.png",
       "product_id": "lidl-високопротеинов-пудинг-150g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-09",
       "price_history": [
         {
@@ -2475391,7 +2474494,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcpe9f7472cc5ea49ab880cf5aa5ab70025.png",
       "product_id": "lidl-кори-за-лазаня-500g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-08",
       "price_history": [
         {
@@ -2475428,7 +2474531,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp2d29adf21a0e496f9d29b2381d2a9c23.png",
       "product_id": "lidl-бурата-125g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -2475513,7 +2474616,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcpd13929fdeca04f3e8af91574a04a2c18.png",
       "product_id": "lidl-десерт-в-чаша-75g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-12",
       "price_history": [
         {
@@ -2475566,7 +2474669,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcpd1b5d11e60ea4c608324b9557a677e22.jpg",
       "product_id": "lidl-инстантно-ястие-153g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-08",
       "price_history": [
         {
@@ -2475603,7 +2474706,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp70eeb9656aa545358424ae49f400a865.png",
       "product_id": "lidl-лютеница-305g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-14",
       "price_history": [
         {
@@ -2475712,7 +2474815,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp7ab35a71e78f423babcac5bdb64007c9.png",
       "product_id": "lidl-ементал-150g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-07",
       "price_history": [
         {
@@ -2475765,7 +2474868,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp4fbd9ba71c894062a5bee61e70256780.png",
       "product_id": "lidl-краставички-360g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-08",
       "price_history": [
         {
@@ -2475802,7 +2474905,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp41ca0e07c2f84cfdb9aa76673a410382.png",
       "product_id": "lidl-пастет-апетит-900g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-10-11",
       "price_history": [
         {
@@ -2475825,51 +2474928,6 @@ const ALL_PRODUCTS_DATA = {
       "lowest_price": 0.67,
       "lowest_price_date": "2026-10-11",
       "avg_price": 1.69
-    },
-    {
-      "name": "Пастет",
-      "store": "Lidl",
-      "emoji": "🛒",
-      "category": "other",
-      "weight_raw": "220 g",
-      "weight_grams": 220,
-      "shelf_life": null,
-      "is_food": false,
-      "is_healthy": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": null,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://www.lidl.bg/assets/gcpced61239dc504382ac6f2a8677c12915.png",
-      "product_id": "lidl-пастет-220g",
-      "last_seen": "2026-11-08",
-      "first_seen": "2026-10-18",
-      "price_history": [
-        {
-          "date": "2026-10-18",
-          "store": "Lidl",
-          "price": 1.79,
-          "price_eur": 0.92,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-11-08",
-          "store": "Lidl",
-          "price": 2.79,
-          "price_eur": 1.43,
-          "old_price": null,
-          "discount_pct": null
-        }
-      ],
-      "lowest_price": 1.79,
-      "lowest_price_date": "2026-10-18",
-      "avg_price": 2.29
     },
     {
       "name": "Мини еклери",
@@ -2475974,7 +2475032,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcpab3c4657bcc745a892c3e5c0b11aca0f.png",
       "product_id": "lidl-печени-пилешки-гърди-75g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-09-27",
       "price_history": [
         {
@@ -2476059,114 +2475117,6 @@ const ALL_PRODUCTS_DATA = {
       "avg_price": 2.24
     },
     {
-      "name": "Печурки",
-      "store": "Lidl",
-      "emoji": "🥦",
-      "category": "vegetable",
-      "weight_raw": "500 g",
-      "weight_grams": 500,
-      "shelf_life": "малотраен",
-      "is_food": true,
-      "is_healthy": true,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": 5,
-      "diet_tags": [
-        "budget"
-      ],
-      "macros": {
-        "kcal": 22,
-        "p": 3.1,
-        "f": 0.3,
-        "c": 3.3
-      },
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://www.lidl.bg/assets/gcp6124ca5fd4ba42a393b28049b6188fdc.png",
-      "product_id": "lidl-печурки-500g",
-      "last_seen": "2026-11-08",
-      "first_seen": "2026-05-07",
-      "price_history": [
-        {
-          "date": "2026-05-07",
-          "store": "Lidl",
-          "price": 1.94,
-          "price_eur": 0.99,
-          "old_price": 2.99,
-          "discount_pct": 35
-        },
-        {
-          "date": "2026-05-16",
-          "store": "Lidl",
-          "price": 1.74,
-          "price_eur": 0.89,
-          "old_price": 2.99,
-          "discount_pct": 42
-        },
-        {
-          "date": "2026-05-24",
-          "store": "Lidl",
-          "price": 1.94,
-          "price_eur": 0.99,
-          "old_price": 2.99,
-          "discount_pct": 35
-        },
-        {
-          "date": "2026-07-05",
-          "store": "Lidl",
-          "price": 2.19,
-          "price_eur": 1.12,
-          "old_price": 2.99,
-          "discount_pct": 27
-        },
-        {
-          "date": "2026-08-09",
-          "store": "Lidl",
-          "price": 3.7,
-          "price_eur": 1.89,
-          "old_price": 4.99,
-          "discount_pct": 26
-        },
-        {
-          "date": "2026-08-23",
-          "store": "Lidl",
-          "price": 0.89,
-          "price_eur": 0.46,
-          "old_price": 1.53,
-          "discount_pct": 42
-        },
-        {
-          "date": "2026-10-04",
-          "store": "Lidl",
-          "price": 1.89,
-          "price_eur": 0.97,
-          "old_price": 2.55,
-          "discount_pct": 26
-        },
-        {
-          "date": "2026-10-18",
-          "store": "Lidl",
-          "price": 1.19,
-          "price_eur": 0.61,
-          "old_price": 1.53,
-          "discount_pct": 22
-        },
-        {
-          "date": "2026-11-08",
-          "store": "Lidl",
-          "price": 0.89,
-          "price_eur": 0.46,
-          "old_price": 1.53,
-          "discount_pct": 42
-        }
-      ],
-      "lowest_price": 0.89,
-      "lowest_price_date": "2026-08-23",
-      "avg_price": 1.82
-    },
-    {
       "name": "Маслиново масло",
       "store": "Lidl",
       "emoji": "🫒",
@@ -2476194,7 +2475144,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp6158fb816ee34b9596cdc599e590da8b.png",
       "product_id": "lidl-маслиново-масло-1000g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -2476303,7 +2475253,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp2a9fa6f6d92f42caa8522f4a13dfc785.jpg",
       "product_id": "lidl-маионеза-625g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-28",
       "price_history": [
         {
@@ -2476380,7 +2475330,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp4b55dbb9a0714fc7ba8e26a8598b1296.png",
       "product_id": "lidl-хамон-серрано-гран-резерва-150g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-05",
       "price_history": [
         {
@@ -2476406,11 +2475356,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.3,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-15",
+          "store": "Lidl",
+          "price": 4.59,
+          "price_eur": 2.35,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 1.94,
       "lowest_price_date": "2026-09-20",
-      "avg_price": 2.76
+      "avg_price": 3.22
     },
     {
       "name": "Предна четвърт от малко прасенце",
@@ -2476433,7 +2475391,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp7b1bc965cb8d424ca2a03f726ef6926c.png",
       "product_id": "lidl-предна-четвърт-от-малко-прасенце-2300g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-08",
       "price_history": [
         {
@@ -2476470,7 +2475428,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://www.lidl.bg/assets/gcp22a9953ee5c84c329f7ad093f29eaef6.png",
       "product_id": "lidl-задна-четвърт-от-малко-прасенце-2300g",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-08",
       "price_history": [
         {
@@ -2476617,7 +2475575,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800228184004_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-симид-ръжен-хляб-нарязан-700g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2476661,7 +2475619,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20914933_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-k-plant-хумус-различни-видове-200g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2476705,7 +2475663,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_00065703_P.jpg",
       "product_id": "kaufland-bona-vita-флеикс-с-елда-375g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2476747,7 +2475705,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4063367507588_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-k-classic-червени-боровинки-сушени-и-подсладени-200g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2476794,7 +2475752,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800109500527_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-лм-леща-1000g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2476838,7 +2475796,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4337185602986_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-авокадо-700g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-14",
       "price_history": [
         {
@@ -2477107,7 +2476065,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800106402879_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-krina-боб-1000g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-06",
       "price_history": [
         {
@@ -2477197,7 +2476155,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20928793?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-balcho-сусамов-тахан-избрани-видове-340g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2477242,7 +2476200,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/145_01004287_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-традиция-постни-чушки-с-боб-от-нашата-витрина",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2477284,7 +2476242,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20868238?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-sleep-me-олекотена-завивка-авокадо-глоу",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2477326,7 +2476284,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800213332304_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-serena-сушени-червени-чушки-80g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2477368,7 +2476326,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20966938_P.jpg",
       "product_id": "kaufland-вернада-чушки-с-чесън-и-магданоз",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2477457,7 +2476415,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/2849490000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-постни-чушки-различни-видове",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2477499,7 +2476457,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00101436__P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-шеф-месар-телешко-мляно-месо-1000g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -2477675,7 +2476633,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20729067_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-поничка-звезда-с-ябълков-пълнеж-65g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2477717,7 +2476675,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/25009415_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-жълт-лук-клас-i",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2477761,7 +2476719,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5188_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-донът-хелоуин-с-пълнеж-портокал-и-касис-73g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2477805,7 +2476763,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800111801117_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-veda-ябълков-оцет-700g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2477849,7 +2476807,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5941445674652_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-pom-bar-картофени-мечета-различни-вкусове-50g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2477893,7 +2476851,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/406_20788097_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-fiorre-зелеви-листа-680g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2478080,7 +2477038,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/304_00063894_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-ведраре-сирене-дунавия-от-краве-мляко-400g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -2478220,7 +2477178,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/143_2020950888_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-зелени-маслини-екстра-големи",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2478265,7 +2477223,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00502152_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-пършевица-сирене-от-краве-мляко-600g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2478310,7 +2477268,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/21001445_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-белииса-свежо-сирене-от-краве-мляко",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2478354,7 +2477312,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20865453_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-бреи-пълнозърнест-хляб-със-закваска-650g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2478399,7 +2477357,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800874813112_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-panino-оризово-брашно-500g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2478443,7 +2477401,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00037550_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-симид-хляб-избрани-видове-500g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2478487,7 +2477445,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800100627209_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-campese-грах-690g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2478531,7 +2477489,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20986647_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-златна-добруджа-тостерен-хляб-различни-видове-300g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2478576,7 +2477534,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800109500220_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-happy-agro-български-ориз-възрожденец-1000g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2478620,7 +2477578,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20812127_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-кето-хляб-330g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2478708,7 +2477666,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4260490930621_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-k-free-бял-хляб-без-глутен-350g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2478753,7 +2477711,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/AdobeStock_739499390?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-свинска-плешка-до-5-кг-на-покупка",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2478797,7 +2477755,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20868619_626?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-gerber-млечна-оризова-каша",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2478843,7 +2477801,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/2809510000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-свинско-бабе-от-свежата-витрина",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2478885,7 +2477843,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20741272?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-brio-кутия-за-хляб-metallica",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2478971,7 +2477929,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/01200311_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-хапни-руска-салата-400g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -2479023,7 +2477981,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3392590812109_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-k-classic-бутертесто-275g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -2479089,7 +2478047,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/09700162C_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-тиква-цигулка",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2479128,7 +2478086,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4004790047456_23P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-k-take-it-veggie-бионапитка-избрани-видове-1000g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2479172,7 +2478130,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20928622_20_20_20Firefly_20Upscaler_202x_20scale?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-balcho-тиквено-брашно-180g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2479214,7 +2478172,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800087203236_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-живкови-салата-фризе-170-г-170g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2479253,7 +2478211,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20622246_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-alpro-соев-десерт-с-протеин-различни-видове-200g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2479297,7 +2478255,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800232730945_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-dragon-superfood-био-кокосово-брашно-200g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2479339,7 +2478297,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5202073000115_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-paltsidis-дзадзики-млечна-салата",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2479381,7 +2478339,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20960886?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-decocino-захарна-декорация-тиква-26g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2479425,7 +2478383,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00047379_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-fresh-cool-салата-трикольор-250g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2479469,7 +2478427,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20922121_P.jpg",
       "product_id": "kaufland-k-classic-салата-с-патладжан-380g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2479639,7 +2478597,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20922120_P.jpg",
       "product_id": "kaufland-k-classic-салата-с-цедено-мляко-и-червено-цвекло-380g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2479683,7 +2478641,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20281386_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-салата-снежанка-700g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "ingredients_raw": "49% цедено кисело мляко, 30% краставици, 20% млечна майонеза (вода, слънчогледово масло, сухо обезмаслено мляко, сгъстители: ацетилиран динишестен адипат, натриев октенил сукцинат на нишестето, гума гуар, ксантанова гума; винен оцет, регулатори на киселинността: лимонена киселина, млечна киселина; трапезна сол, захар, консервант: калиев сорбат), трапезна сол, 0,3% копър, 0,1% чесън, консервант: калиев сорбат; бамбукови фибри. Може да съдържа следи от синап, яйца, соя, пшеница и целина.",
       "ingredients_flags": [],
       "junk_count": 0,
@@ -2479910,7 +2478868,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800500515014_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-perun-брашно-от-спелта-различни-видове-1000g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2479947,7 +2478905,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20961029_609?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-fino-алуминиево-фолио-за-грил",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2480115,7 +2479073,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20892092?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-philips-led-крушка-e27-7-w",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2480207,7 +2479165,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20990000_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-денито-бургер-салата-250g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2480375,7 +2479333,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20169708_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-k-bio-био-кокосово-масло-220g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2480498,7 +2479456,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/288_203800106211556_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-димитър-маджаров-заквасена-сметана-без-лактоза-380g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2480621,7 +2479579,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/061026-2_1_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-шеф-месар-кълцано-месо-за-сармички-500g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2480663,7 +2479621,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00032993_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-beliisa-кашкавал-от-краве-мляко-400g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2480707,7 +2479665,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/477_00059200_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-schar-безглутеново-брашно-1000g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2480788,7 +2479746,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20709501_P-2?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-nescafe-кафе-капсули-dolce-gusto-2",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -2480875,7 +2479833,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3D_1_new?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-exquisa-кварк-иогурт-плодов-fitline-protein-1200g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2480917,7 +2479875,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/289_00600090_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-president-краве-масло-250g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -2481101,7 +2480059,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/491_02400865_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-davidoff-мляно-или-разтворимо-кафе-различни-видове-250g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2481138,7 +2480096,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20999561_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-elite-кафемашина-cma-1291",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2481175,7 +2480133,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800232735100_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-dragon-superfoods-протеинов-шеик-с-какао-и-ванилия-500g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2481217,7 +2480175,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00115399B_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-philips-уред-за-подстригване-one-вlаdе-бутилка",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2481254,7 +2480212,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20899089_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-voltz-месомелачка-ov51991f",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2481291,7 +2480249,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00500335_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-тофу-в-саламура-350g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2481328,7 +2480286,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/186_02102024-5_1_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-свински-пръжки-беконови-500g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2481365,7 +2480323,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00065069_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-орехите-луканка-различни-видове-210g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -2481474,7 +2480432,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20985726_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-деликатес-житница-суджук-телешки-190g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2481511,7 +2480469,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800232225458_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-grivassini-царевичен-чипс-маслини-чесън-60g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2481548,7 +2480506,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800065784498_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-sweet-тунквана-вафла-протеинова-40g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2481585,7 +2480543,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3838929551139_23P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-k-classic-пастет-от-риба-тон-за-мазане-95g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2481622,7 +2480580,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800139145002_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-detelina-s-зеленчуков-чипс-различни-вкусове-60g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2481659,7 +2480617,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20728462_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-ruffles-картофен-чипс-барбекю-230g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-08-24",
       "price_history": [
         {
@@ -2481720,7 +2480678,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20728463_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-ruffles-картофен-чипс-различни-вкусове-230g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -2481869,7 +2480827,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/518_02700021_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-raffaello-бонбони-кокос-150g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -2481994,7 +2480952,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/03900536_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-радиком-канела-10g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2482031,7 +2480989,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00051461_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-dolce-maestro-ванилия",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2482068,7 +2481026,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5418_BG_P",
       "product_id": "kaufland-коледен-донът-с-шоколадова-глазура-55g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2482142,7 +2481100,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/02301270_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-devin-вода-различни-видове-1500g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -2482291,7 +2481249,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800065781596_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-чудо-вафлена-торта-с-лешници",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2482328,7 +2481286,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800208640384_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-gabrovo-пшеничен-грис-150g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2482365,7 +2481323,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800135300092_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-болярка-бира-500g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -2482450,7 +2481408,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00048225_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-шуменско-бира-5-3-vol-330g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -2482543,7 +2481501,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800061630881_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-престиж-вафли-wellness-различни-видове",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2482580,7 +2481538,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20999973_P.jpg",
       "product_id": "kaufland-поничка-с-пълнеж-от-нуга-85g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2482617,7 +2481575,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_00107667_P.jpg",
       "product_id": "kaufland-донът-с-карамелен-крем-от-нашата-пекарна-65g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2482654,7 +2481612,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20914883_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-kanap-веган-вафла-с-лимец-40g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-09-20",
       "price_history": [
         {
@@ -2482699,7 +2481657,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8595606411081_23P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-k-classic-храна-за-котки-различни-видове-415g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -2482832,7 +2481790,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00037978_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-dr-oetker-суха-мая-28g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2482943,7 +2481901,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/03901720_P?JGstbGVnYWN5LW9uc2l0ZS0xJA==",
       "product_id": "kaufland-veda-оцет-винен-700g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2483033,7 +2481991,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4335896745619_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-k-take-it-veggie-биопродукт-за-готвене-избрани-видове-200g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2483107,7 +2482065,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20665125_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-philicon-сос-за-паста-500g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2483144,7 +2482102,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00115508_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-ная-вафли-различни-видове-140g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -2483213,7 +2482171,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800065781244_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-чудо-вафлени-хапки-различни-видове-165g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-07-20",
       "price_history": [
         {
@@ -2483266,7 +2482224,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800065781688_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-varna-вафлени-хапки-115g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2483303,7 +2482261,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8681506007346_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-patos-rolls-царевичен-чипс-различни-вкусове-140g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2483340,7 +2482298,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/654_00103913_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-lovita-бисквити-различни-видове-170g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -2483393,7 +2482351,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3850131006337_SK_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-corona-бира-330g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2483541,7 +2482499,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/654_02801014_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-гербери-бисквити-различни-видове-170g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2483578,7 +2482536,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00093508_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-bormioli-rocco-плато-parma-21-х-18-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2483689,7 +2482647,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/654_00068141_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-go-tiny-бисквити-различни-видове-130g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2483726,7 +2482684,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/02300244_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-pepsi-mirinda-7-up-2500g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -2483787,7 +2482745,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8411712558826_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-bormioli-rocco-купа-parma-14-х-14-см-или-чиния-parma-20-x-20-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2483824,7 +2482782,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20875236?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-decocino-декорация-различни-видове-90g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2483914,7 +2482872,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20796519_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-k-take-it-veggie-вегански-слаис-различни-видове-100g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2483951,7 +2482909,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00052571?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-osram-led-value-лампа-4-9-w-e14",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2483988,7 +2482946,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/517_00100844_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-roshen-натурален-шоколад-различни-видове-85g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2484025,7 +2482983,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00036539_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-шуменско-бира-2000g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -2484190,7 +2483148,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800065711944_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-sweet-plus-бисквити-различни-видове-150g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-18",
       "price_history": [
         {
@@ -2484304,7 +2483262,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/245_20777669_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-k-classic-кабаноси-чили-120g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2484341,7 +2483299,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/254_00091832_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-белла-точени-кори-различни-видове-400g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2484378,7 +2483336,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/6709_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-lion-мъфин-с-пълнеж-карамел-90g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2484415,7 +2483373,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/69_00101638B_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-dillios-хавлиена-кърпа-хавана-30-x-50-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2484452,7 +2483410,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8411712558109_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-bormioli-rocco-чиния-parma",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2484563,7 +2483521,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/09700138_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-помело",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2484600,7 +2483558,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627172953_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-switch-on-usb-кабел-за-зареждане",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2484637,7 +2483595,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20866625_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-so-еаsу-варива-микс-с-подправки-различни-видове-360g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2484674,7 +2483632,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8681506022455_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-cipso-tube-чипс-различни-вкусове-90g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2484711,7 +2483669,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20692910_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-bona-vita-бисквитки-250g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2484748,7 +2483706,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20270553_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-goldies-пшеничен-сухар-255g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-10-26",
       "price_history": [
         {
@@ -2484793,7 +2483751,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8595606410992_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-dante-храна-за-кучета-различни-видове-1240g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -2484982,7 +2483940,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5900951014055_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-whiskas-суха-храна-за-котки-различни-видове-300g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -2485139,7 +2484097,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/03400296_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-whiskas-суха-храна-за-котка-300g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -2485240,7 +2484198,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20960877?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-decocino-захарна-декорация-духчета-19g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2485277,7 +2484235,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5449000138026_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-fanta-orange-zero-0-захар-1500g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2485314,7 +2484272,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00062393_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-k-take-it-veggie-вегански-биопастет-различни-видове-180g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2485351,7 +2484309,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20271971_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-bormioli-rocco-плато-toledo-28-х-20-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2485388,7 +2484346,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20782172_P_20?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-yonca-смесена-туршия-пикантна-680g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2485425,7 +2484383,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/7614500010310_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-toblerone-бял-шоколад-100g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2485610,7 +2484568,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/638_20265276?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-tesori-d-oriente-сапун-различни-видове-125g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2485647,7 +2484605,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/2850890000000_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-тофу-соев-продукт-300g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2485684,7 +2484642,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20920841?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-закачалка-за-рафт-метална",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2485721,7 +2484679,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800203745077_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-ббп-лютеница-310g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2485869,7 +2484827,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800134814941_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-brio-магнитна-поставка-за-ножове",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2485906,7 +2484864,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00065908_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-kuhne-фини-корнишони-330g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2485943,7 +2484901,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20660478_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-k-take-it-veggie-шницел-хапки-или-кюфтенца-200g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2485980,7 +2484938,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/509_20833363?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-chio-чипс-различни-видове-240g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2486017,7 +2484975,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/509_20833362?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-chio-чипс-различни-вкусове-240g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -2486158,7 +2485116,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20717589_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-grisbi-бисквити-gianduia-веган-135g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2486195,7 +2485153,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/636_00082466?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-astera-parodont-паста-за-зъби-различни-видове-75g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -2486240,7 +2485198,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/636_04804150_20copy?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-aquafresh-паста-за-зъби-различни-видове-75g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -2486373,7 +2485331,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8054633839225_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-dual-power-препарат-за-съдове-различни-видове-2",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -2486418,7 +2485376,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/07800153_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-moment-универсално-лепило",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2486455,7 +2485413,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00066138_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-bormioli-rocco-плато-parma-31-х-31-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2486640,7 +2485598,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20658726_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-balkan-сандвич-чабата-различни-видове-240g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-01",
       "price_history": [
         {
@@ -2486685,7 +2485643,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20921067?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-метален-рафт-подвижен",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2486722,7 +2485680,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20920842?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-кухненска-етажерка-31-х-26-х-13-5-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2486759,7 +2485717,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/638_00076593?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-str8-душ-гел-различни-видове-250g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-09-20",
       "price_history": [
         {
@@ -2486804,7 +2485762,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800112162897_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-montare-d-oro-cucina-d-oro-веган-продукт-за-готвене-или-за-разбиване-50",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2486841,7 +2485799,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8901138825591_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-himalaya-паста-за-зъби-различни-видове-75g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2486878,7 +2485836,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20703980_609?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-fino-хартия-за-печене-42-х-38-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2486952,7 +2485910,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800112162880_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-cucina-d-oro-веган-продукт-за-готвене-500g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2486989,7 +2485947,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4001438170422_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-универсална-подложка-38-x-38-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2487026,7 +2485984,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20860772?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-k-take-it-veggie-веган-продукт-в-стил-гирос-300g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2487063,7 +2486021,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20825506_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-банкя-вода-рзлични-видове-9000g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2487100,7 +2486058,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20336152_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-wash-go-шампоан-различни-видове-360g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -2487185,7 +2486143,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800032907790_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-bilka-шампоан-различни-видове-250g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2487222,7 +2486180,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4337185577048_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-k-classic-сушени-каисии-меки-200g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2487259,7 +2486217,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00012801_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-есе-жито-за-ашуре-900g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2487370,7 +2486328,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/04000310_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-nestle-зърнена-закуска-различни-видове-480g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -2487519,7 +2486477,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/030_589_20334339?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-purina-one-суха-храна-за-котки-различни-видове-450g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-29",
       "price_history": [
         {
@@ -2487604,7 +2486562,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/030_589_20334680?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-purinaone-суха-храна-за-котки-различни-видове",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2487641,7 +2486599,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800032907738_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-bilka-интимен-крем-сапун",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2487715,7 +2486673,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3600541309081_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-garnier-fructis-botanic-therapy-шампоан-или-балсам-250g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2487752,7 +2486710,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800099201503_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-хорцето-лютеница-фино-смляна-560g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -2487853,7 +2486811,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4001438170439_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-универсална-подложка-38-x-50-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2487890,7 +2486848,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00047717_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-splat-паста-за-зъби-различни-видове-100g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-09-28",
       "price_history": [
         {
@@ -2487935,7 +2486893,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4603014001139_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-splat-паста-за-зъби-medical-herbs-100g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2487972,7 +2486930,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20998066-3?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-кухненска-ръкавица-30-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2488009,7 +2486967,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627536861_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-switch-on-разклонител-4-гнезда",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2488046,7 +2487004,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800065711982_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-un-grande-amore-бисквити-асорти-265g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2488083,7 +2487041,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4066635075192_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-talentus-копирна-хартия-а4-500-л",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2488120,7 +2487078,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00092456_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-fairy-препарат-за-съдове-избрани-видове-1350g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -2488298,7 +2487256,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3426470301299_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-pyrex-форма-за-печене-air-fryer-или-съд-за-готвене-air-fryer",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2488335,7 +2487293,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3426470301282_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-pyrex-форма-за-печене-1-2-л-1200g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2488372,7 +2487330,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3426470301268_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-pyrex-форма-за-печене-air-fryer",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2488483,7 +2487441,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/69_00101638C_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-dillios-хавлиена-кърпа-хавана-50-x-90-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2488557,7 +2487515,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5054563068491_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-parodontax-вода-за-уста-herbal-twist-500g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2488594,7 +2487552,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8700216157490_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-head-shoulders-шампоан-различни-видове-330g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -2488767,7 +2487725,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/9005800243306_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-nivea-men-душ-гел-active-clean",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-27",
       "price_history": [
         {
@@ -2488868,7 +2487826,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20794915_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-бургаско-бира-4-2-vol-4000g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -2489017,7 +2487975,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20988153_597?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-teo-bebe-future-омекотител-различни-видове",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2489091,7 +2488049,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8411712558802_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-bormioli-rocco-купа-parma-ø25-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2489128,7 +2488086,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00102022_586?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-friskies-суха-храна-за-кучета-различни-видове-1500g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -2489261,7 +2488219,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4001438170453_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-универсална-подложка-38-x-78-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2489335,7 +2488293,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/249_00030802_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-постни-сарми-лозов-лист-от-свежата-витрина",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2489372,7 +2488330,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00094821_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-sleep-me-възглавница-sleep-detox-50-x-70-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2489409,7 +2488367,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20920918?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-ръчен-миксер-безжичен",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2489446,7 +2488404,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20921066?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-кухненска-етажерка",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2489520,7 +2488478,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3426470301305_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-pyrex-съд-за-готвене-air-fryer-2-2-л-2200g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2489557,7 +2488515,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20998338_20-_202?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-john-cotton-детска-възглавница-50-x-70-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2489594,7 +2488552,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/518_02701281_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-lindt-lindor-шоколадови-бонбони-различни-видове-200g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -2489703,7 +2488661,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5708776000877_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-vertmont-кленов-биосироп-250g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2489740,7 +2488698,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20809099_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-brio-дъска-за-рязане-acacia-30-х-35-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2489777,7 +2488735,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3137610002401_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-pyrex-бретер-2-6-л-2600g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2489814,7 +2488772,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00109051_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-pyrex-мерителна-кана-0-5-л-500g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2489851,7 +2488809,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20897034?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-nucrema-какаов-крем-промопакет-1300g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-25",
       "price_history": [
         {
@@ -2489978,7 +2488936,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20998330_P.jpg",
       "product_id": "kaufland-sevan-зимна-течност-за-чистачки-до-25-с",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2490015,7 +2488973,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20998040?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-home-practic-настолна-led-лампа",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2490052,7 +2489010,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/769_20775268_1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-png-чаршаф-с-ластик-90-х-200-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2490089,7 +2489047,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20922976_607?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-familia-кухненска-ролка-трипластова",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2490126,7 +2489084,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/255_205205727995928_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-naturli-веган-слаис-различни-видове-200g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2490237,7 +2489195,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800139209193_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-muhler-кош-за-отпадъци",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2490274,7 +2489232,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00109814_P-1?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-muhler-кухненска-везна-spicy",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2490311,7 +2489269,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00090625_P-2?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-garnier-fructis-маска-за-коса-различни-видове-390g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2490385,7 +2489343,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8052787493416_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-turna-кутия",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2490422,7 +2489380,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/01800195B_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-targovishte-червено-бяло-вино-или-розе-избрани-сортове-3000g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-06-01",
       "price_history": [
         {
@@ -2490515,7 +2489473,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20791655?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-home-practic-сгъваем-леген-26-л-26000g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2490552,7 +2489510,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20997601_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-tefal-кухненски-помощници-3-бр",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2490589,7 +2489547,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/1036577000005_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-ayco-crown-електрическа-кана-ak-1817-1824-ss",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2490663,7 +2489621,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/787_00104152_2?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-muhler-кантар-до-180-кг",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2490700,7 +2489658,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20862739?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-home-practic-органаизер-за-антре",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2490737,7 +2489695,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/596_20348405_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-essex-гел-или-прах-за-пране-различни-видове",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2490774,7 +2489732,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20342256_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-pyrex-тенджера-esseltials-3-л-3000g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2490848,7 +2489806,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4067776071210_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-кутия-с-колелца-60-x-32-x-39-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2490885,7 +2489843,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20997642_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-tefal-форма-за-торта-inicia",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2490922,7 +2489880,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627781230_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-tronic-преносима-батерия-10000-mah",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2490959,7 +2489917,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/769_20706357?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-меко-протектор-за-матрак-90-x-200-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2490996,7 +2489954,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20762855_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-media-range-usb-памет-128-gb",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2491033,7 +2489991,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/586_00055542_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-pedigree-суха-храна-за-куче-различни-видове-2400g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-10-26",
       "price_history": [
         {
@@ -2491078,7 +2490036,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20997641_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-tefal-тава-incia-ø26-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2491115,7 +2490073,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20924692_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-emeka-тоалетна-хартия-различни-видове",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2491152,7 +2490110,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800139227012_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-muhler-сгъваема-табуретка",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2491189,7 +2490147,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20681522_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-bohemia-комплект-чаши-columba-различни-видове",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2491226,7 +2490184,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20681488_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-bohemia-комплект-чаши-columba-различни-видове-6-бр",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2491263,7 +2490221,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20682224_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-bohemia-комплект-чаши-columba",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2491300,7 +2490258,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20666211_P.jpg",
       "product_id": "kaufland-switch-on-разклонител-куб-с-usb",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2491337,7 +2490295,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_00115557_P.jpg",
       "product_id": "kaufland-energizer-батерии-aa-или-ааа",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2491374,7 +2490332,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00103909_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-tefal-кухненски-помощници-bienvenue",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2491411,7 +2490369,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627409080_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-parkside-performance-аксесоари-за-много-функционални-инструменти",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2491448,7 +2490406,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_21000476_P.jpg",
       "product_id": "kaufland-medix-гел-premium-различни-видове",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2491485,7 +2490443,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/769_20706357-2?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-меко-протектор-за-матрак-120-x-200-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2491522,7 +2490480,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00101637_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-dilios-хавлиена-кърпа-хавана-70-х-140-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2491559,7 +2490517,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20997648_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-tefal-тава-inicia-ø26-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2491596,7 +2490554,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5010103800259_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-j-b-шотландско-уиски-700g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2491633,7 +2490591,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800126300414_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-palirria-лозови-сарми-2000g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2491670,7 +2490628,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00103313__P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-ямболска-гроздова-40-vol-1500g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -2491795,7 +2490753,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627934315_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-parkside-performance-комплект-свредла-и-битове",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2491832,7 +2490790,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627476129_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-parkside-performance-акумулаторна-батерия-12-v",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2491869,7 +2490827,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/769_20706357-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-меко-протектор-за-матрак-165-x-200-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2491906,7 +2490864,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627654893_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-parkside-performance-чанта-за-инструменти",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2491943,7 +2490901,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00110758_P-2?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-pyrex-тенджера-еssеntiаls-4-5-л-4500g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2491980,7 +2490938,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800011416671_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-zahir-червено-бяло-вино-или-розе-различни-сортове-3000g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -2492057,7 +2491015,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/1027895000006_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-crown-lamarque-парти-грил",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2492094,7 +2491052,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8593419185724_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-bohemia-гарафа-с-капак-1-1-л-1100g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2492131,7 +2491089,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/769_20706357-3?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-меко-протектор-за-матрак-180-x-200-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2492168,7 +2491126,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4065812314420_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-urban-classics-боксер",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2492205,7 +2491163,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20977069_P.jpg",
       "product_id": "kaufland-smart-storage-стелаж-до-100-кг-на-рафт",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2492242,7 +2491200,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627298714_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-switch-on-стенна-стоика-за-телевизор-с-нивелир",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2492279,7 +2491237,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20894002_P.jpg",
       "product_id": "kaufland-dilios-одеяло-маджестик-140-x-200-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2492316,7 +2491274,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20998339_20-_204?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-john-cotton-детска-завивка-150-х-200-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2492390,7 +2491348,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4063367676239_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-puma-тениска-s-ххl",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2492427,7 +2491385,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4063367676390_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-puma-чехли-35-5-46",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2492464,7 +2491422,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20997636_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-tefal-тиган-за-палачинки-let-it-pop",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2492501,7 +2491459,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/769_20685509_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-ditex-спален-комплект-cotton-dreams",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2492538,7 +2491496,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00093498_P-2?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-bravissimo-ръчна-цитруспреса",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2492575,7 +2491533,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/1034340000009_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-crown-вентилаторна-печка",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2492612,7 +2491570,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/769_20275457_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-sleep-me-възглавница-detox-memory-50-х-30-х-10-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2492649,7 +2491607,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4260459613633_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-media-range-micro-sd-карта-128-gb-cl10-адаптер",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2492686,7 +2491644,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4063367676352_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-puma-раница-44-x-30-x-14-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2492723,7 +2491681,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4065812314680_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-urban-classics-клин-s-xl",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2492760,7 +2491718,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20997647_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-tefal-тава-inicia-38-х-38-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2492797,7 +2491755,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00095119b_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-brio-комплект-ножове-metallica",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2492834,7 +2491792,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4063367676192_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-puma-клин-s-xl",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2492871,7 +2491829,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20994216_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-ted-спален-комплект-150-210-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2492908,7 +2491866,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4065812313980_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-urban-classics-тениска-m-xxl",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2492945,7 +2491903,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4242002420134_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-bosch-пасатор-msm6b150",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2492982,7 +2491940,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3121040092729_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-tefal-парна-ютия-fv2c40",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2493019,7 +2491977,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20999127_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-ceresit-устроиство-stop-влага-xxl-промопакет",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2493056,7 +2492014,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20665021_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-gembird-камера-за-видеонаблюдение",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2493093,7 +2492051,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3016661179488_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-tefal-миксер-ht3101",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2493130,7 +2492088,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20919923?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-lego-конструктор-glamping-cabin",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2493167,7 +2492125,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8720689029322_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-philips-машинка-за-подстригване-bt3615-15",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2493204,7 +2492162,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/1023550000008_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-ayco-crown-конвектор-с-вентилатор",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2493241,7 +2492199,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3800139298838_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-bravissimo-termomax-газов-котлон-bgx02-с-2-горелки",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2493278,7 +2492236,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20757954_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-neo-фритюрник-df-d804",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2493315,7 +2492273,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/3168430114074_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-tefal-сандвич-тостер-sm1552",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2493352,7 +2492310,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/194500895911_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-nike-раница-46-x-30-5-x-12-5-см-2",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2493389,7 +2492347,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4065812315915_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-urban-classics-суитшърт-s-xl",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2493426,7 +2492384,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/21000317_20P79A-front-white?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-xiaomi-слушалки-redmi",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2493463,7 +2492421,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00110635_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-drabest-стълба-2-х-3-стъпала",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2493500,7 +2492458,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20653759_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-dilios-одеяло-маджестик-200-х-220-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2493537,7 +2492495,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20997638_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-tefal-тиган-палачинки-let-it-pop",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2493574,7 +2492532,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20991180_P.jpg",
       "product_id": "kaufland-remington-сешоар",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2493611,7 +2492569,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20868195_619?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-finish-таблетки-за-съдомиялна-all-in-one",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2493648,7 +2492606,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/7613329184714_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-wenger-раница-32-х-45-х-19-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2493685,7 +2492643,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627424830_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-parkside-performance-акумулаторен-виброшлаиф",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2493722,7 +2492680,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20994223_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-ted-спален-комплект-200-х-220-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2493759,7 +2492717,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627424847_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-parkside-реrfоrmаnсе-акумулаторен-инструмент-ppmfwa-12-b2",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2493796,7 +2492754,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4065812315991_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-urban-classics-яке-m-xxl",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2493833,7 +2492791,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/21004016_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-rohnson-уред-за-палачинки-r-2203",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2493870,7 +2492828,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20994221_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-ted-спален-комплект-150-х-210-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2493907,7 +2492865,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627796364_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-parkside-performance-акумулаторен-ъглошлаиф-ppwsa",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2493944,7 +2492902,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20999521_20tcl-onetouch-5041-camera-dark-grey-01?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-tcl-мобилен-телефон-onetouch-5041",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2493981,7 +2492939,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20735741_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-lego-конструктор-коледно-дърво",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2494018,7 +2492976,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00112383_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-sleep-me-топматрак-sleepdetox-memoline",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2494055,7 +2493013,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/1037606000003_BG_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-ayco-парочистачка-sma-1010",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2494092,7 +2493050,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627741029_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-parkside-performance-ударен-гаиковерт",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2494129,7 +2493087,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20887996?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-elite-електрически-сушилник-за-дрехи",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2494166,7 +2493124,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627424823_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-parkside-performance-акумулаторен-шлаиф-различни-видове",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2494203,7 +2493161,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/21000316B_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-gorenje-цитруспреса-cj100he",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2494240,7 +2493198,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20998915_20MR110x_Product_2?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-media-range-външен-ssd-диск-240-gb",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2494277,7 +2493235,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20999540_P.jpg",
       "product_id": "kaufland-elite-вентилаторна-печка-efhc-1440",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2494314,7 +2493272,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20901274_20-_20ELITE_20_D0_9C_D1_83_D0_BB_D1_82_D0_B8_D0_BA_D1_83_D0_BA_D1_8A_D1_80_2C_206_D0_BB_20EPC-61280?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-elite-тенджера-под-налягане-epc-61280",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2494351,7 +2493309,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627470783_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-parkside-performance-циркуляр",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2494388,7 +2493346,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627730085_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-parkside-performance-мултифункционален-инструмент-550w-ppmfw-5",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2494425,7 +2493383,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00112384_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-sleep-me-топматрак-sleepdetox-memolin-120-x-200-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2494462,7 +2493420,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20999523_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-muhler-еспресо-машина-mcm-1583",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2494499,7 +2493457,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20654584_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-lamarque-газова-печка-lgh-1400bl",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2494536,7 +2493494,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4066628180155_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-lupilu-детска-кухня-дървена",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2494573,7 +2493531,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_21002498_P.jpg",
       "product_id": "kaufland-kumtel-маслен-радиатор-kum-1230s",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2494610,7 +2493568,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00112387_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-sleep-me-топматрак-sleepdetox-memolin-140-х-200-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2494647,7 +2493605,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627481895_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-parkside-performance-акумулаторна-бормашина-pabsp",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2494684,7 +2493642,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627741463_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-parkside-performance-комбиниран-перфоратор-pkhap",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2494721,7 +2493679,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20918799_20_20canon-pixma-ts4150i?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-canon-мултифункционално-устроиство-pixma-ts4150i",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2494758,7 +2493716,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00112388_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-sleep-me-топматрак-sleepdetox-memolin-160-х-200-см",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2494795,7 +2493753,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20716192_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-gorenje-фритюрник-с-горещ-въздух-af1409d",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2494832,7 +2493790,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627423215_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-parkside-performance-акумулаторна-тресчотка",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2494869,7 +2493827,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20684825_P-2?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-gorenje-мултикукър-mc6mbk-6-л-6000g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2494906,7 +2493864,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20998943_file_print_MO20E1W15_objective_front_jpg?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-gorenje-микровълнова-фурна-mo20e1w15",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2494943,7 +2493901,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/21000237_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-bosch-кухненски-робот-mcm",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2494980,7 +2493938,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20344780?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-tefal-комплект-съдове-за-готвене-daily-cook",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2495017,7 +2493975,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20785921_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-tracer-волан-с-педали",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2495054,7 +2494012,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20999520_20tcl-s45he-soundbar-05?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-tcl-саундбар-s45he-dolby-atmos",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2495091,7 +2494049,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20999132_P.jpg",
       "product_id": "kaufland-elite-влагоуловител-edh-1436",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2495128,7 +2494086,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627805523_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-parkside-performance-ударна-бормашина",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2495165,7 +2494123,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20870885_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-gorenje-планетарен-миксер-mmc800cw",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2495202,7 +2494160,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_21000079_P.jpg",
       "product_id": "kaufland-gorenje-парочистачка-sc1506w",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2495239,7 +2494197,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_21000239_P.jpg",
       "product_id": "kaufland-bosch-прахосмукачка-bch3k2852",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2495276,7 +2494234,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20962162_20TCL?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-tcl-hd-qled-телевизор-32s4k-32",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2495313,7 +2494271,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/1061665000001_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-crown-led-smart-телевизор-lcd-40fb22awf",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2495350,7 +2494308,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/21000235_20TCL_?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-tcl-uhd-led-smart-google-телевизор-55p6k-4k-hdr",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2495387,7 +2494345,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20899853_20PS5?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-sony-ps-playstation-5-конзола-slim",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2495429,7 +2494387,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/AdobeStock_38803584?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-боровинки-клас-i-125g",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -2495779,7 +2494737,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "/etc.clientlibs/kaufland/clientlibs/clientlib-klsite/resources/frontend/assets/img/fallback-2afd874ba0.png",
       "product_id": "kaufland-антуриум-оцветен-стаино-растение",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-15",
       "first_seen": "2026-11-10",
       "price_history": [
         {
@@ -2497442,6 +2496400,2108 @@ const ALL_PRODUCTS_DATA = {
       "lowest_price": 5.69,
       "lowest_price_date": "2026-11-13",
       "avg_price": 5.69
+    },
+    {
+      "name": "Филе от риба тон",
+      "store": "Lidl",
+      "emoji": "🍗",
+      "category": "protein",
+      "weight_raw": "140 g",
+      "weight_grams": 140,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 10,
+      "diet_tags": [
+        "high_protein",
+        "keto",
+        "mediterranean"
+      ],
+      "macros": {
+        "kcal": 132,
+        "p": 28,
+        "f": 0.6,
+        "c": 0
+      },
+      "is_junk": false,
+      "is_high_protein": true,
+      "is_good_carb": false,
+      "is_good_fat": true,
+      "image": "https://www.lidl.bg/assets/gcp30aeb933eb214b6588389cc06e7ba40b.png",
+      "product_id": "lidl-филе-от-риба-тон-140g",
+      "last_seen": "2026-11-15",
+      "first_seen": "2026-11-15",
+      "price_history": [
+        {
+          "date": "2026-11-15",
+          "store": "Lidl",
+          "price": 1.39,
+          "price_eur": 0.71,
+          "old_price": 1.78,
+          "discount_pct": 22
+        }
+      ],
+      "lowest_price": 1.39,
+      "lowest_price_date": "2026-11-15",
+      "avg_price": 1.39
+    },
+    {
+      "name": "Норвежка пушена сьомга",
+      "store": "Lidl",
+      "emoji": "🥫",
+      "category": "canned",
+      "weight_raw": "100 g",
+      "weight_grams": 100,
+      "shelf_life": "2-3г",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": true,
+      "is_long_lasting": true,
+      "health_score": 10,
+      "diet_tags": [
+        "high_protein",
+        "keto",
+        "mediterranean"
+      ],
+      "macros": {
+        "kcal": 208,
+        "p": 20,
+        "f": 13,
+        "c": 0
+      },
+      "is_junk": false,
+      "is_high_protein": true,
+      "is_good_carb": false,
+      "is_good_fat": true,
+      "image": "https://www.lidl.bg/assets/gcpf76bdfc7c754466b888e06fa8718258c.png",
+      "product_id": "lidl-норвежка-пушена-сьомга-100g",
+      "last_seen": "2026-11-15",
+      "first_seen": "2026-05-07",
+      "price_history": [
+        {
+          "date": "2026-05-07",
+          "store": "Lidl",
+          "price": 5.26,
+          "price_eur": 2.69,
+          "old_price": 6.98,
+          "discount_pct": 25
+        },
+        {
+          "date": "2026-07-12",
+          "store": "Lidl",
+          "price": 7.8,
+          "price_eur": 3.99,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-07-26",
+          "store": "Lidl",
+          "price": 13.48,
+          "price_eur": 6.89,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-09-27",
+          "store": "Lidl",
+          "price": 6.89,
+          "price_eur": 3.52,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-11-15",
+          "store": "Lidl",
+          "price": 3.99,
+          "price_eur": 2.04,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 3.99,
+      "lowest_price_date": "2026-11-15",
+      "avg_price": 7.48
+    },
+    {
+      "name": "Риба тон",
+      "store": "Lidl",
+      "emoji": "🍗",
+      "category": "protein",
+      "weight_raw": "4 x 195 g",
+      "weight_grams": 780,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 10,
+      "diet_tags": [
+        "high_protein",
+        "keto",
+        "mediterranean",
+        "budget"
+      ],
+      "macros": {
+        "kcal": 132,
+        "p": 28,
+        "f": 0.6,
+        "c": 0
+      },
+      "is_junk": false,
+      "is_high_protein": true,
+      "is_good_carb": false,
+      "is_good_fat": true,
+      "image": "https://www.lidl.bg/assets/gcp42469bafff4c4cae9d087a1bd1aab82a.png",
+      "product_id": "lidl-риба-тон-780g",
+      "last_seen": "2026-11-15",
+      "first_seen": "2026-05-16",
+      "price_history": [
+        {
+          "date": "2026-05-16",
+          "store": "Lidl",
+          "price": 10.99,
+          "price_eur": 5.62,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-05-31",
+          "store": "Lidl",
+          "price": 11.68,
+          "price_eur": 5.97,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-06-28",
+          "store": "Lidl",
+          "price": 10.46,
+          "price_eur": 5.35,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-07-12",
+          "store": "Lidl",
+          "price": 5.85,
+          "price_eur": 2.99,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-07-26",
+          "store": "Lidl",
+          "price": 10.46,
+          "price_eur": 5.35,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-08-23",
+          "store": "Lidl",
+          "price": 5.35,
+          "price_eur": 2.74,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-09-27",
+          "store": "Lidl",
+          "price": 10.99,
+          "price_eur": 5.62,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-10-04",
+          "store": "Lidl",
+          "price": 5.35,
+          "price_eur": 2.74,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-11-15",
+          "store": "Lidl",
+          "price": 5.97,
+          "price_eur": 3.05,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 5.35,
+      "lowest_price_date": "2026-08-23",
+      "avg_price": 8.57
+    },
+    {
+      "name": "Филе от пъстърва XXL",
+      "store": "Lidl",
+      "emoji": "🍗",
+      "category": "protein",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 10,
+      "diet_tags": [],
+      "macros": {
+        "kcal": 119,
+        "p": 20,
+        "f": 3.5,
+        "c": 0
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://www.lidl.bg/assets/gcpf061fd79bd31415da4a4fa8c7d61cd5b.jpg",
+      "product_id": "lidl-филе-от-пъстърва-xxl",
+      "last_seen": "2026-11-15",
+      "first_seen": "2026-11-15",
+      "price_history": [
+        {
+          "date": "2026-11-15",
+          "store": "Lidl",
+          "price": 10.49,
+          "price_eur": 5.36,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 10.49,
+      "lowest_price_date": "2026-11-15",
+      "avg_price": 10.49
+    },
+    {
+      "name": "Филе от сьомга",
+      "store": "Lidl",
+      "emoji": "🍗",
+      "category": "protein",
+      "weight_raw": "400 g",
+      "weight_grams": 400,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 10,
+      "diet_tags": [
+        "high_protein",
+        "keto",
+        "mediterranean"
+      ],
+      "macros": {
+        "kcal": 208,
+        "p": 20,
+        "f": 13,
+        "c": 0
+      },
+      "is_junk": false,
+      "is_high_protein": true,
+      "is_good_carb": false,
+      "is_good_fat": true,
+      "image": "https://www.lidl.bg/assets/gcp14b85a25130a467d9ee34c7d5eb6b98d.png",
+      "product_id": "lidl-филе-от-сьомга-400g",
+      "last_seen": "2026-11-15",
+      "first_seen": "2026-05-16",
+      "price_history": [
+        {
+          "date": "2026-05-16",
+          "store": "Lidl",
+          "price": 29.98,
+          "price_eur": 15.33,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-08-30",
+          "store": "Lidl",
+          "price": 15.33,
+          "price_eur": 7.84,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-10-22",
+          "store": "Lidl",
+          "price": 15.29,
+          "price_eur": 7.82,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-11-15",
+          "store": "Lidl",
+          "price": 10.99,
+          "price_eur": 5.62,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 10.99,
+      "lowest_price_date": "2026-11-15",
+      "avg_price": 17.9
+    },
+    {
+      "name": "Прясна пилешка подбедрица",
+      "store": "Lidl",
+      "emoji": "🍗",
+      "category": "protein",
+      "weight_raw": "600 g",
+      "weight_grams": 600,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 9,
+      "diet_tags": [
+        "high_protein",
+        "keto",
+        "budget"
+      ],
+      "macros": {
+        "kcal": 165,
+        "p": 31,
+        "f": 3.6,
+        "c": 0
+      },
+      "is_junk": false,
+      "is_high_protein": true,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://www.lidl.bg/assets/gcpc482a39c5a9a479889522637fdd91fe2.jpg",
+      "product_id": "lidl-прясна-пилешка-подбедрица-600g",
+      "last_seen": "2026-11-15",
+      "first_seen": "2026-11-15",
+      "price_history": [
+        {
+          "date": "2026-11-15",
+          "store": "Lidl",
+          "price": 1.95,
+          "price_eur": 1.0,
+          "old_price": 2.45,
+          "discount_pct": 20
+        }
+      ],
+      "lowest_price": 1.95,
+      "lowest_price_date": "2026-11-15",
+      "avg_price": 1.95
+    },
+    {
+      "name": "Прясно пилешко бедро",
+      "store": "Lidl",
+      "emoji": "🍗",
+      "category": "protein",
+      "weight_raw": "650 g",
+      "weight_grams": 650,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 9,
+      "diet_tags": [
+        "high_protein",
+        "keto",
+        "budget"
+      ],
+      "macros": {
+        "kcal": 165,
+        "p": 31,
+        "f": 3.6,
+        "c": 0
+      },
+      "is_junk": false,
+      "is_high_protein": true,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://www.lidl.bg/assets/gcpd30920e785154a099bef4176aa9fe588.jpg",
+      "product_id": "lidl-прясно-пилешко-бедро-650g",
+      "last_seen": "2026-11-15",
+      "first_seen": "2026-04-20",
+      "price_history": [
+        {
+          "date": "2026-04-20",
+          "store": "Lidl",
+          "price": 6.98,
+          "price_eur": 3.57,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-08-23",
+          "store": "Lidl",
+          "price": 3.57,
+          "price_eur": 1.83,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-11-15",
+          "store": "Lidl",
+          "price": 3.68,
+          "price_eur": 1.88,
+          "old_price": 4.6,
+          "discount_pct": 20
+        }
+      ],
+      "lowest_price": 3.57,
+      "lowest_price_date": "2026-08-23",
+      "avg_price": 4.74
+    },
+    {
+      "name": "Прясно пилешко филе XXL",
+      "store": "Lidl",
+      "emoji": "🍗",
+      "category": "protein",
+      "weight_raw": "1.2 kg",
+      "weight_grams": 1200,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 9,
+      "diet_tags": [
+        "high_protein",
+        "keto",
+        "budget"
+      ],
+      "macros": {
+        "kcal": 165,
+        "p": 31,
+        "f": 3.6,
+        "c": 0
+      },
+      "is_junk": false,
+      "is_high_protein": true,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://www.lidl.bg/assets/gcpd1229926e98f4c72878042fecdfc6f5c.jpg",
+      "product_id": "lidl-прясно-пилешко-филе-xxl-1200g",
+      "last_seen": "2026-11-15",
+      "first_seen": "2026-06-14",
+      "price_history": [
+        {
+          "date": "2026-06-14",
+          "store": "Lidl",
+          "price": 11.99,
+          "price_eur": 6.13,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-07-19",
+          "store": "Lidl",
+          "price": 11.91,
+          "price_eur": 6.09,
+          "old_price": 14.98,
+          "discount_pct": 20
+        },
+        {
+          "date": "2026-09-06",
+          "store": "Lidl",
+          "price": 5.29,
+          "price_eur": 2.7,
+          "old_price": 6.64,
+          "discount_pct": 20
+        }
+      ],
+      "lowest_price": 5.29,
+      "lowest_price_date": "2026-09-06",
+      "avg_price": 9.73
+    },
+    {
+      "name": "Киви",
+      "store": "Lidl",
+      "emoji": "🥦",
+      "category": "vegetable",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 8,
+      "diet_tags": [],
+      "macros": {
+        "kcal": 61,
+        "p": 1.1,
+        "f": 0.5,
+        "c": 15
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://www.lidl.bg/assets/gcp2c4001b2426142b8a3b20bb063ad542e.png",
+      "product_id": "lidl-киви",
+      "last_seen": "2026-11-15",
+      "first_seen": "2026-11-15",
+      "price_history": [
+        {
+          "date": "2026-11-15",
+          "store": "Lidl",
+          "price": 0.59,
+          "price_eur": 0.3,
+          "old_price": 0.79,
+          "discount_pct": 25
+        }
+      ],
+      "lowest_price": 0.59,
+      "lowest_price_date": "2026-11-15",
+      "avg_price": 0.59
+    },
+    {
+      "name": "Говеждо едносортно месо",
+      "store": "Lidl",
+      "emoji": "🍗",
+      "category": "protein",
+      "weight_raw": "2 kg",
+      "weight_grams": 2000,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 8,
+      "diet_tags": [
+        "high_protein",
+        "keto",
+        "budget"
+      ],
+      "macros": {
+        "kcal": 250,
+        "p": 26,
+        "f": 15,
+        "c": 0
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://www.lidl.bg/assets/gcp5eeafb7f9cbf4036a48e55a96202aa25.png",
+      "product_id": "lidl-говеждо-едносортно-месо-2000g",
+      "last_seen": "2026-11-15",
+      "first_seen": "2026-11-15",
+      "price_history": [
+        {
+          "date": "2026-11-15",
+          "store": "Lidl",
+          "price": 10.99,
+          "price_eur": 5.62,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 10.99,
+      "lowest_price_date": "2026-11-15",
+      "avg_price": 10.99
+    },
+    {
+      "name": "Райска ябълка",
+      "store": "Lidl",
+      "emoji": "🥦",
+      "category": "vegetable",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 7,
+      "diet_tags": [],
+      "macros": {
+        "kcal": 52,
+        "p": 0.3,
+        "f": 0.2,
+        "c": 14
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://www.lidl.bg/assets/gcp050865d7ae2b49d893186a6e9e8b83b1.jpg",
+      "product_id": "lidl-раиска-ябълка",
+      "last_seen": "2026-11-15",
+      "first_seen": "2026-11-15",
+      "price_history": [
+        {
+          "date": "2026-11-15",
+          "store": "Lidl",
+          "price": 0.49,
+          "price_eur": 0.25,
+          "old_price": 0.99,
+          "discount_pct": 51
+        }
+      ],
+      "lowest_price": 0.49,
+      "lowest_price_date": "2026-11-15",
+      "avg_price": 0.49
+    },
+    {
+      "name": "Четкани картофи в опаковка",
+      "store": "Lidl",
+      "emoji": "🥦",
+      "category": "vegetable",
+      "weight_raw": "5 kg",
+      "weight_grams": 5000,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 7,
+      "diet_tags": [
+        "vegetarian",
+        "budget"
+      ],
+      "macros": {
+        "kcal": 77,
+        "p": 2,
+        "f": 0.1,
+        "c": 17
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://www.lidl.bg/assets/gcp93dd07b2854948e4af95e4e163de4583.jpg",
+      "product_id": "lidl-четкани-картофи-в-опаковка-5000g",
+      "last_seen": "2026-11-15",
+      "first_seen": "2026-11-15",
+      "price_history": [
+        {
+          "date": "2026-11-15",
+          "store": "Lidl",
+          "price": 0.49,
+          "price_eur": 0.25,
+          "old_price": 0.69,
+          "discount_pct": 29
+        }
+      ],
+      "lowest_price": 0.49,
+      "lowest_price_date": "2026-11-15",
+      "avg_price": 0.49
+    },
+    {
+      "name": "Десертен портокал",
+      "store": "Lidl",
+      "emoji": "🥦",
+      "category": "vegetable",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 7,
+      "diet_tags": [],
+      "macros": {
+        "kcal": 47,
+        "p": 0.9,
+        "f": 0.1,
+        "c": 12
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://www.lidl.bg/assets/gcpa86091113d944cd09c13b6fb9a4f2107.jpg",
+      "product_id": "lidl-десертен-портокал",
+      "last_seen": "2026-11-15",
+      "first_seen": "2026-11-15",
+      "price_history": [
+        {
+          "date": "2026-11-15",
+          "store": "Lidl",
+          "price": 0.59,
+          "price_eur": 0.3,
+          "old_price": 0.79,
+          "discount_pct": 25
+        }
+      ],
+      "lowest_price": 0.59,
+      "lowest_price_date": "2026-11-15",
+      "avg_price": 0.59
+    },
+    {
+      "name": "Червени ябълки в опаковка",
+      "store": "Lidl",
+      "emoji": "🥦",
+      "category": "vegetable",
+      "weight_raw": "3 kg",
+      "weight_grams": 3000,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 7,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 52,
+        "p": 0.3,
+        "f": 0.2,
+        "c": 14
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://www.lidl.bg/assets/gcp0c6dee8636b3479db2ceb48e8675e4f1.jpg",
+      "product_id": "lidl-червени-ябълки-в-опаковка-3000g",
+      "last_seen": "2026-11-15",
+      "first_seen": "2026-11-15",
+      "price_history": [
+        {
+          "date": "2026-11-15",
+          "store": "Lidl",
+          "price": 0.79,
+          "price_eur": 0.4,
+          "old_price": 1.25,
+          "discount_pct": 37
+        }
+      ],
+      "lowest_price": 0.79,
+      "lowest_price_date": "2026-11-15",
+      "avg_price": 0.79
+    },
+    {
+      "name": "Моркови в опаковка",
+      "store": "Lidl",
+      "emoji": "🥦",
+      "category": "vegetable",
+      "weight_raw": "3 kg",
+      "weight_grams": 3000,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 7,
+      "diet_tags": [
+        "mediterranean",
+        "budget"
+      ],
+      "macros": {
+        "kcal": 41,
+        "p": 0.9,
+        "f": 0.2,
+        "c": 10
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://www.lidl.bg/assets/gcp10f1aad7ea70433b850ea9d278bb2d50.jpg",
+      "product_id": "lidl-моркови-в-опаковка-3000g",
+      "last_seen": "2026-11-15",
+      "first_seen": "2026-11-15",
+      "price_history": [
+        {
+          "date": "2026-11-15",
+          "store": "Lidl",
+          "price": 0.79,
+          "price_eur": 0.4,
+          "old_price": 0.95,
+          "discount_pct": 17
+        }
+      ],
+      "lowest_price": 0.79,
+      "lowest_price_date": "2026-11-15",
+      "avg_price": 0.79
+    },
+    {
+      "name": "Мандарини",
+      "store": "Lidl",
+      "emoji": "🥦",
+      "category": "vegetable",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 7,
+      "diet_tags": [],
+      "macros": {
+        "kcal": 53,
+        "p": 0.8,
+        "f": 0.3,
+        "c": 13
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://www.lidl.bg/assets/gcp9742454790904910aea3ab1413c90896.jpeg",
+      "product_id": "lidl-мандарини",
+      "last_seen": "2026-11-15",
+      "first_seen": "2026-11-15",
+      "price_history": [
+        {
+          "date": "2026-11-15",
+          "store": "Lidl",
+          "price": 1.19,
+          "price_eur": 0.61,
+          "old_price": 1.99,
+          "discount_pct": 40
+        }
+      ],
+      "lowest_price": 1.19,
+      "lowest_price_date": "2026-11-15",
+      "avg_price": 1.19
+    },
+    {
+      "name": "Сирене",
+      "store": "Lidl",
+      "emoji": "🥛",
+      "category": "dairy",
+      "weight_raw": "150 g",
+      "weight_grams": 150,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 7,
+      "diet_tags": [
+        "keto",
+        "vegetarian"
+      ],
+      "macros": {
+        "kcal": 264,
+        "p": 14,
+        "f": 22,
+        "c": 2
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://www.lidl.bg/assets/gcpf37164255b644569bce751bc99fe3e49.png",
+      "product_id": "lidl-сирене-150g",
+      "last_seen": "2026-11-15",
+      "first_seen": "2026-05-16",
+      "price_history": [
+        {
+          "date": "2026-05-16",
+          "store": "Lidl",
+          "price": 17.97,
+          "price_eur": 9.19,
+          "old_price": 24.0,
+          "discount_pct": 25
+        },
+        {
+          "date": "2026-05-31",
+          "store": "Lidl",
+          "price": 4.79,
+          "price_eur": 2.45,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-09-06",
+          "store": "Lidl",
+          "price": 2.45,
+          "price_eur": 1.25,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-11-15",
+          "store": "Lidl",
+          "price": 2.3,
+          "price_eur": 1.18,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 2.3,
+      "lowest_price_date": "2026-11-15",
+      "avg_price": 6.88
+    },
+    {
+      "name": "Портокали за сок",
+      "store": "Lidl",
+      "emoji": "🥦",
+      "category": "vegetable",
+      "weight_raw": "4 kg",
+      "weight_grams": 4000,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 7,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 47,
+        "p": 0.9,
+        "f": 0.1,
+        "c": 12
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://www.lidl.bg/assets/gcp30726c604a13421ba2632df91d299673.png",
+      "product_id": "lidl-портокали-за-сок-4000g",
+      "last_seen": "2026-11-15",
+      "first_seen": "2026-11-15",
+      "price_history": [
+        {
+          "date": "2026-11-15",
+          "store": "Lidl",
+          "price": 4.99,
+          "price_eur": 2.55,
+          "old_price": 5.99,
+          "discount_pct": 17
+        }
+      ],
+      "lowest_price": 4.99,
+      "lowest_price_date": "2026-11-15",
+      "avg_price": 4.99
+    },
+    {
+      "name": "Печурки",
+      "store": "Lidl",
+      "emoji": "🥦",
+      "category": "vegetable",
+      "weight_raw": "250 g",
+      "weight_grams": 250,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 5,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 22,
+        "p": 3.1,
+        "f": 0.3,
+        "c": 3.3
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://www.lidl.bg/assets/gcp0c247ffc73f447fbb6f0855cd5ab3b5c.png",
+      "product_id": "lidl-печурки-250g",
+      "last_seen": "2026-11-15",
+      "first_seen": "2026-05-07",
+      "price_history": [
+        {
+          "date": "2026-05-07",
+          "store": "Lidl",
+          "price": 1.94,
+          "price_eur": 0.99,
+          "old_price": 2.99,
+          "discount_pct": 35
+        },
+        {
+          "date": "2026-05-16",
+          "store": "Lidl",
+          "price": 1.74,
+          "price_eur": 0.89,
+          "old_price": 2.99,
+          "discount_pct": 42
+        },
+        {
+          "date": "2026-05-24",
+          "store": "Lidl",
+          "price": 1.94,
+          "price_eur": 0.99,
+          "old_price": 2.99,
+          "discount_pct": 35
+        },
+        {
+          "date": "2026-07-05",
+          "store": "Lidl",
+          "price": 2.19,
+          "price_eur": 1.12,
+          "old_price": 2.99,
+          "discount_pct": 27
+        },
+        {
+          "date": "2026-08-09",
+          "store": "Lidl",
+          "price": 3.7,
+          "price_eur": 1.89,
+          "old_price": 4.99,
+          "discount_pct": 26
+        },
+        {
+          "date": "2026-08-23",
+          "store": "Lidl",
+          "price": 0.89,
+          "price_eur": 0.46,
+          "old_price": 1.53,
+          "discount_pct": 42
+        },
+        {
+          "date": "2026-10-04",
+          "store": "Lidl",
+          "price": 1.89,
+          "price_eur": 0.97,
+          "old_price": 2.55,
+          "discount_pct": 26
+        },
+        {
+          "date": "2026-10-18",
+          "store": "Lidl",
+          "price": 1.19,
+          "price_eur": 0.61,
+          "old_price": 1.53,
+          "discount_pct": 22
+        },
+        {
+          "date": "2026-11-08",
+          "store": "Lidl",
+          "price": 0.89,
+          "price_eur": 0.46,
+          "old_price": 1.53,
+          "discount_pct": 42
+        },
+        {
+          "date": "2026-11-15",
+          "store": "Lidl",
+          "price": 0.87,
+          "price_eur": 0.44,
+          "old_price": 1.53,
+          "discount_pct": 43
+        }
+      ],
+      "lowest_price": 0.87,
+      "lowest_price_date": "2026-11-15",
+      "avg_price": 1.72
+    },
+    {
+      "name": "Лимонада",
+      "store": "Lidl",
+      "emoji": "🥦",
+      "category": "vegetable",
+      "weight_raw": "1 l",
+      "weight_grams": 1000,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 5,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 29,
+        "p": 1.1,
+        "f": 0.3,
+        "c": 9
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://www.lidl.bg/assets/gcp51136041eff2409da73c578c1f1a102f.png",
+      "product_id": "lidl-лимонада-1000g",
+      "last_seen": "2026-11-15",
+      "first_seen": "2026-04-20",
+      "price_history": [
+        {
+          "date": "2026-04-20",
+          "store": "Lidl",
+          "price": 2.39,
+          "price_eur": 1.22,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-06-14",
+          "store": "Lidl",
+          "price": 1.74,
+          "price_eur": 0.89,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-06-28",
+          "store": "Lidl",
+          "price": 1.94,
+          "price_eur": 0.99,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-07-12",
+          "store": "Lidl",
+          "price": 2.33,
+          "price_eur": 1.19,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-08-02",
+          "store": "Lidl",
+          "price": 2.72,
+          "price_eur": 1.39,
+          "old_price": 3.48,
+          "discount_pct": 22
+        },
+        {
+          "date": "2026-09-27",
+          "store": "Lidl",
+          "price": 1.19,
+          "price_eur": 0.61,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-11-15",
+          "store": "Lidl",
+          "price": 0.92,
+          "price_eur": 0.47,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 0.92,
+      "lowest_price_date": "2026-11-15",
+      "avg_price": 1.89
+    },
+    {
+      "name": "Плодов сок",
+      "store": "Lidl",
+      "emoji": "🍺",
+      "category": "drinks",
+      "weight_raw": "1 l",
+      "weight_grams": 1000,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 5,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://www.lidl.bg/assets/gcp3136ddf6006c42e1a7a1d70df27ede35.png",
+      "product_id": "lidl-плодов-сок-1000g",
+      "last_seen": "2026-11-15",
+      "first_seen": "2026-11-15",
+      "price_history": [
+        {
+          "date": "2026-11-15",
+          "store": "Lidl",
+          "price": 2.55,
+          "price_eur": 1.3,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 2.55,
+      "lowest_price_date": "2026-11-15",
+      "avg_price": 2.55
+    },
+    {
+      "name": "Сок от цитрусови плодове",
+      "store": "Lidl",
+      "emoji": "🍺",
+      "category": "drinks",
+      "weight_raw": "1 l",
+      "weight_grams": 1000,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 5,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://www.lidl.bg/assets/gcp7bb8ae4c22674ab2b6b085fb51a183db.png",
+      "product_id": "lidl-сок-от-цитрусови-плодове-1000g",
+      "last_seen": "2026-11-15",
+      "first_seen": "2026-11-15",
+      "price_history": [
+        {
+          "date": "2026-11-15",
+          "store": "Lidl",
+          "price": 2.55,
+          "price_eur": 1.3,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 2.55,
+      "lowest_price_date": "2026-11-15",
+      "avg_price": 2.55
+    },
+    {
+      "name": "Деликатесен салам",
+      "store": "Lidl",
+      "emoji": "🍗",
+      "category": "protein",
+      "weight_raw": "100 g",
+      "weight_grams": 100,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 3,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://www.lidl.bg/assets/gcp7cadd69b6f5746eaad4b2bedd6a68152.png",
+      "product_id": "lidl-деликатесен-салам-100g",
+      "last_seen": "2026-11-15",
+      "first_seen": "2026-06-28",
+      "price_history": [
+        {
+          "date": "2026-06-28",
+          "store": "Lidl",
+          "price": 3.48,
+          "price_eur": 1.78,
+          "old_price": 3.99,
+          "discount_pct": 13
+        },
+        {
+          "date": "2026-10-04",
+          "store": "Lidl",
+          "price": 2.55,
+          "price_eur": 1.3,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-11-15",
+          "store": "Lidl",
+          "price": 2.45,
+          "price_eur": 1.25,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 2.45,
+      "lowest_price_date": "2026-11-15",
+      "avg_price": 2.83
+    },
+    {
+      "name": "Копмлект за домашна луканка",
+      "store": "Lidl",
+      "emoji": "🍗",
+      "category": "protein",
+      "weight_raw": "4.6 kg",
+      "weight_grams": 4600,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 3,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://www.lidl.bg/assets/gcpf9e89466e00b4ea9abc09abdaa522869.png",
+      "product_id": "lidl-копмлект-за-домашна-луканка-4600g",
+      "last_seen": "2026-11-15",
+      "first_seen": "2026-11-15",
+      "price_history": [
+        {
+          "date": "2026-11-15",
+          "store": "Lidl",
+          "price": 3.99,
+          "price_eur": 2.04,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 3.99,
+      "lowest_price_date": "2026-11-15",
+      "avg_price": 3.99
+    },
+    {
+      "name": "Захар Сладея",
+      "store": "Lidl",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "1 kg",
+      "weight_grams": 1000,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://www.lidl.bg/assets/gcpaa27da6a19704ef188f0e0608a51a1d8.png",
+      "product_id": "lidl-захар-сладея-1000g",
+      "last_seen": "2026-11-15",
+      "first_seen": "2026-10-18",
+      "price_history": [
+        {
+          "date": "2026-10-18",
+          "store": "Lidl",
+          "price": 3.37,
+          "price_eur": 1.72,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-11-15",
+          "store": "Lidl",
+          "price": 0.64,
+          "price_eur": 0.33,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 0.64,
+      "lowest_price_date": "2026-11-15",
+      "avg_price": 2.0
+    },
+    {
+      "name": "Сос за паста",
+      "store": "Lidl",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "400 ml",
+      "weight_grams": 400,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": true,
+      "is_good_fat": false,
+      "image": "https://www.lidl.bg/assets/gcp1e88fca65bc24800b67fa5cde901fc34.png",
+      "product_id": "lidl-сос-за-паста-400g",
+      "last_seen": "2026-11-15",
+      "first_seen": "2026-06-28",
+      "price_history": [
+        {
+          "date": "2026-06-28",
+          "store": "Lidl",
+          "price": 3.89,
+          "price_eur": 1.99,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-07-12",
+          "store": "Lidl",
+          "price": 3.99,
+          "price_eur": 2.04,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-08-23",
+          "store": "Lidl",
+          "price": 1.99,
+          "price_eur": 1.02,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-08-30",
+          "store": "Lidl",
+          "price": 0.99,
+          "price_eur": 0.51,
+          "old_price": 1.27,
+          "discount_pct": 22
+        },
+        {
+          "date": "2026-09-13",
+          "store": "Lidl",
+          "price": 1.99,
+          "price_eur": 1.02,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-11-15",
+          "store": "Lidl",
+          "price": 0.99,
+          "price_eur": 0.51,
+          "old_price": 1.43,
+          "discount_pct": 31
+        }
+      ],
+      "lowest_price": 0.99,
+      "lowest_price_date": "2026-08-30",
+      "avg_price": 2.31
+    },
+    {
+      "name": "Минерална вода",
+      "store": "Lidl",
+      "emoji": "🍺",
+      "category": "drinks",
+      "weight_raw": "10 l",
+      "weight_grams": 10000,
+      "shelf_life": "малотраен",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://www.lidl.bg/assets/gcpa22897d24b3d43318e063625fc8c1167.png",
+      "product_id": "lidl-минерална-вода-10000g",
+      "last_seen": "2026-11-15",
+      "first_seen": "2026-04-20",
+      "price_history": [
+        {
+          "date": "2026-04-20",
+          "store": "Lidl",
+          "price": 1.99,
+          "price_eur": 1.02,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-04-25",
+          "store": "Lidl",
+          "price": 0.49,
+          "price_eur": 0.25,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-06-07",
+          "store": "Lidl",
+          "price": 3.81,
+          "price_eur": 1.95,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-06-14",
+          "store": "Lidl",
+          "price": 3.99,
+          "price_eur": 2.04,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-06-28",
+          "store": "Lidl",
+          "price": 0.96,
+          "price_eur": 0.49,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-07-19",
+          "store": "Lidl",
+          "price": 4.99,
+          "price_eur": 2.55,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-08-23",
+          "store": "Lidl",
+          "price": 0.24,
+          "price_eur": 0.12,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-08-30",
+          "store": "Lidl",
+          "price": 0.26,
+          "price_eur": 0.13,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-09-06",
+          "store": "Lidl",
+          "price": 0.35,
+          "price_eur": 0.18,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-09-13",
+          "store": "Lidl",
+          "price": 1.95,
+          "price_eur": 1.0,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-09-27",
+          "store": "Lidl",
+          "price": 1.49,
+          "price_eur": 0.76,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-10-04",
+          "store": "Lidl",
+          "price": 2.36,
+          "price_eur": 1.21,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Lidl",
+          "price": 0.24,
+          "price_eur": 0.12,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-10-18",
+          "store": "Lidl",
+          "price": 0.26,
+          "price_eur": 0.13,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-10-25",
+          "store": "Lidl",
+          "price": 2.25,
+          "price_eur": 1.15,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-11-08",
+          "store": "Lidl",
+          "price": 1.12,
+          "price_eur": 0.57,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-11-15",
+          "store": "Lidl",
+          "price": 1.35,
+          "price_eur": 0.69,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 0.24,
+      "lowest_price_date": "2026-08-23",
+      "avg_price": 1.65
+    },
+    {
+      "name": "Пастет",
+      "store": "Lidl",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "130 g",
+      "weight_grams": 130,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://www.lidl.bg/assets/gcp00cf9cc1f3e54adfa440732df4231667.png",
+      "product_id": "lidl-пастет-130g",
+      "last_seen": "2026-11-15",
+      "first_seen": "2026-10-18",
+      "price_history": [
+        {
+          "date": "2026-10-18",
+          "store": "Lidl",
+          "price": 1.79,
+          "price_eur": 0.92,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-11-08",
+          "store": "Lidl",
+          "price": 2.79,
+          "price_eur": 1.43,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-11-15",
+          "store": "Lidl",
+          "price": 1.99,
+          "price_eur": 1.02,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 1.79,
+      "lowest_price_date": "2026-10-18",
+      "avg_price": 2.19
+    },
+    {
+      "name": "Грана Падано",
+      "store": "Lidl",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "90 g",
+      "weight_grams": 90,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://www.lidl.bg/assets/gcp152f4bf799804161920fab47a91eeb54.png",
+      "product_id": "lidl-грана-падано-90g",
+      "last_seen": "2026-11-15",
+      "first_seen": "2026-08-30",
+      "price_history": [
+        {
+          "date": "2026-08-30",
+          "store": "Lidl",
+          "price": 2.79,
+          "price_eur": 1.43,
+          "old_price": 3.57,
+          "discount_pct": 22
+        },
+        {
+          "date": "2026-11-15",
+          "store": "Lidl",
+          "price": 1.99,
+          "price_eur": 1.02,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 1.99,
+      "lowest_price_date": "2026-11-15",
+      "avg_price": 2.39
+    },
+    {
+      "name": "Сос",
+      "store": "Lidl",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "220 ml",
+      "weight_grams": 220,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://www.lidl.bg/assets/gcpeaefcc83f3f7423e9970a9e863bdafe2.jpg",
+      "product_id": "lidl-сос-220g",
+      "last_seen": "2026-11-15",
+      "first_seen": "2026-06-21",
+      "price_history": [
+        {
+          "date": "2026-06-21",
+          "store": "Lidl",
+          "price": 3.48,
+          "price_eur": 1.78,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-06-28",
+          "store": "Lidl",
+          "price": 3.89,
+          "price_eur": 1.99,
+          "old_price": 4.5,
+          "discount_pct": 14
+        },
+        {
+          "date": "2026-08-02",
+          "store": "Lidl",
+          "price": 4.48,
+          "price_eur": 2.29,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-09-13",
+          "store": "Lidl",
+          "price": 2.29,
+          "price_eur": 1.17,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-09-27",
+          "store": "Lidl",
+          "price": 2.55,
+          "price_eur": 1.3,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-10-11",
+          "store": "Lidl",
+          "price": 2.49,
+          "price_eur": 1.27,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-10-22",
+          "store": "Lidl",
+          "price": 2.29,
+          "price_eur": 1.17,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-11-15",
+          "store": "Lidl",
+          "price": 1.99,
+          "price_eur": 1.02,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 1.99,
+      "lowest_price_date": "2026-11-15",
+      "avg_price": 2.93
+    },
+    {
+      "name": "Печена поркета",
+      "store": "Lidl",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "90 g",
+      "weight_grams": 90,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://www.lidl.bg/assets/gcp2a493edcb6d94787b5965e808c8dbcb8.png",
+      "product_id": "lidl-печена-поркета-90g",
+      "last_seen": "2026-11-15",
+      "first_seen": "2026-11-15",
+      "price_history": [
+        {
+          "date": "2026-11-15",
+          "store": "Lidl",
+          "price": 2.19,
+          "price_eur": 1.12,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 2.19,
+      "lowest_price_date": "2026-11-15",
+      "avg_price": 2.19
+    },
+    {
+      "name": "Селекция от пастети",
+      "store": "Lidl",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "10 x 20 g",
+      "weight_grams": 200,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://www.lidl.bg/assets/gcp5335692093a64de58d74bc526b2680a0.png",
+      "product_id": "lidl-селекция-от-пастети-200g",
+      "last_seen": "2026-11-15",
+      "first_seen": "2026-11-15",
+      "price_history": [
+        {
+          "date": "2026-11-15",
+          "store": "Lidl",
+          "price": 2.79,
+          "price_eur": 1.43,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 2.79,
+      "lowest_price_date": "2026-11-15",
+      "avg_price": 2.79
+    },
+    {
+      "name": "Сос с трюфели",
+      "store": "Lidl",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "180 g",
+      "weight_grams": 180,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://www.lidl.bg/assets/gcp917b8ceca11a48928cdd8f8e300eb110.png",
+      "product_id": "lidl-сос-с-трюфели-180g",
+      "last_seen": "2026-11-15",
+      "first_seen": "2026-11-15",
+      "price_history": [
+        {
+          "date": "2026-11-15",
+          "store": "Lidl",
+          "price": 2.89,
+          "price_eur": 1.48,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 2.89,
+      "lowest_price_date": "2026-11-15",
+      "avg_price": 2.89
+    },
+    {
+      "name": "Мини хапки микс",
+      "store": "Lidl",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "426 g",
+      "weight_grams": 426,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://www.lidl.bg/assets/gcpa14065fd6d7845f7b4931a15b50b074d.png",
+      "product_id": "lidl-мини-хапки-микс-426g",
+      "last_seen": "2026-11-15",
+      "first_seen": "2026-11-15",
+      "price_history": [
+        {
+          "date": "2026-11-15",
+          "store": "Lidl",
+          "price": 2.99,
+          "price_eur": 1.53,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 2.99,
+      "lowest_price_date": "2026-11-15",
+      "avg_price": 2.99
+    },
+    {
+      "name": "Пица",
+      "store": "Lidl",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "400 g",
+      "weight_grams": 400,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://www.lidl.bg/assets/gcp21525847e89f414ab624c942e7b8ccc6.png",
+      "product_id": "lidl-пица-400g",
+      "last_seen": "2026-11-15",
+      "first_seen": "2026-04-20",
+      "price_history": [
+        {
+          "date": "2026-04-20",
+          "store": "Lidl",
+          "price": 8.0,
+          "price_eur": 4.09,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-04-25",
+          "store": "Lidl",
+          "price": 7.02,
+          "price_eur": 3.59,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-06-28",
+          "store": "Lidl",
+          "price": 6.98,
+          "price_eur": 3.57,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-07-26",
+          "store": "Lidl",
+          "price": 5.65,
+          "price_eur": 2.89,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-10-04",
+          "store": "Lidl",
+          "price": 3.57,
+          "price_eur": 1.83,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-10-18",
+          "store": "Lidl",
+          "price": 3.29,
+          "price_eur": 1.68,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-11-15",
+          "store": "Lidl",
+          "price": 3.49,
+          "price_eur": 1.78,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 3.29,
+      "lowest_price_date": "2026-10-18",
+      "avg_price": 5.43
+    },
+    {
+      "name": "Микс от 4 сирена XXL",
+      "store": "Lidl",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "400 g",
+      "weight_grams": 400,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://www.lidl.bg/assets/gcp2bc30fff5b6a4221a34c609d3327ce49.png",
+      "product_id": "lidl-микс-от-4-сирена-xxl-400g",
+      "last_seen": "2026-11-15",
+      "first_seen": "2026-11-15",
+      "price_history": [
+        {
+          "date": "2026-11-15",
+          "store": "Lidl",
+          "price": 3.89,
+          "price_eur": 1.99,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 3.89,
+      "lowest_price_date": "2026-11-15",
+      "avg_price": 3.89
     }
   ]
 };
