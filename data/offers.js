@@ -1,5 +1,5 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-11-16T15:31:32.969753Z",
+  "generated_at": "2026-11-16T19:21:53.432626Z",
   "store_last_scraped": {
     "Billa": "2026-11-13",
     "Dar": "2026-11-13",
@@ -9,9 +9,9 @@ const OFFERS_DATA = {
     "T-Market": "2026-11-16"
   },
   "unavailable_stores": [],
-  "content_hash": "57c48fa704f3d254803d6137ba274fd2",
-  "total_offers": 3929,
-  "promo_offers": 1299,
+  "content_hash": "2bdcd068957f55f73147561d4a1c9d5f",
+  "total_offers": 3928,
+  "promo_offers": 1298,
   "assortment_offers": 2630,
   "stores": [
     "Billa",
@@ -6884,77 +6884,6 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 2,
       "price_signal": "normal"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 7.69,
-      "new_price_eur": 3.93,
-      "old_price": 10.99,
-      "old_price_eur": 5.62,
-      "discount_pct": 30,
-      "valid_from": "2026-11-16",
-      "valid_until": "2026-11-22",
-      "price_per_kg": 7.69,
-      "price_per_kg_eur": 3.93,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 7.69,
-          "price_eur": 3.93,
-          "old_price": 10.99,
-          "old_price_eur": 5.62,
-          "discount_pct": 30,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 7.69,
-      "comparison_count": 1,
-      "product_id": "kaufland-сами-м-пилешко-филе-различни-видове-1000g",
-      "weight_grams": 1000,
-      "weight_raw": "1 кг",
-      "name": "Сами М Пилешко филе различни видове",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/272_203800791540016_1_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "protein",
-      "emoji": "🍗",
-      "health_score": 9,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": true,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "diet_tags": [
-        "high_protein",
-        "keto",
-        "budget"
-      ],
-      "macros": {
-        "kcal": 165,
-        "p": 31,
-        "f": 3.6,
-        "c": 0
-      },
-      "avg_price": 7.69,
-      "lowest_price": 7.69,
-      "lowest_price_date": "2026-08-13",
-      "price_history": [
-        [
-          "2026-08-13",
-          7.69,
-          10.99,
-          30
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
     },
     {
       "store": "Kaufland",
