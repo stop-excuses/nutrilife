@@ -1,6 +1,6 @@
 const ALL_PRODUCTS_DATA = {
-  "generated_at": "2026-11-17T00:39:04.153418Z",
-  "total_products": 61678,
+  "generated_at": "2026-11-17T13:00:23.238230Z",
+  "total_products": 61685,
   "products": [
     {
       "name": "Пушена риба тон",
@@ -60288,9 +60288,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/09902898_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20292579_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-букет-рози",
-      "last_seen": "2026-11-15",
+      "last_seen": "2026-11-17",
       "first_seen": "2026-04-14",
       "price_history": [
         {
@@ -60324,11 +60324,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.83,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "Kaufland",
+          "price": 4.6,
+          "price_eur": 2.35,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 3.57,
       "lowest_price_date": "2026-11-10",
-      "avg_price": 9.71
+      "avg_price": 8.69
     },
     {
       "name": "Верея",
@@ -159913,11 +159921,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.99,
           "old_price": 2.8,
           "discount_pct": 31
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 2.8,
+          "price_eur": 1.43,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 1.94,
       "lowest_price_date": "2026-04-20",
-      "avg_price": 2.23
+      "avg_price": 2.37
     },
     {
       "name": "Брускети MARETTI домати,маслини 140г",
@@ -192481,11 +192497,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 8.28,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 12.5,
+          "price_eur": 6.39,
+          "old_price": 16.19,
+          "discount_pct": 23
         }
       ],
       "lowest_price": 12.5,
       "lowest_price_date": "2026-05-07",
-      "avg_price": 14.96
+      "avg_price": 14.35
     },
     {
       "name": "Саяна Домашно краве сирене От деликатесната витрина За 1 кг",
@@ -238905,11 +238929,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.15,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 1.74,
+          "price_eur": 0.89,
+          "old_price": 2.25,
+          "discount_pct": 23
         }
       ],
       "lowest_price": 1.74,
       "lowest_price_date": "2026-10-22",
-      "avg_price": 2.08
+      "avg_price": 2.0
     },
     {
       "name": "Бисквити PETIT BEURRE Classic масло 200 гр.",
@@ -267495,11 +267527,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 3.21,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 6.55,
+          "price_eur": 3.35,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 5.65,
       "lowest_price_date": "2026-10-22",
-      "avg_price": 6.07
+      "avg_price": 6.19
     },
     {
       "name": "Кашкавал от краве мляко МЕРОНЕ 200 г",
@@ -296999,11 +297039,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 12.05,
           "old_price": 27.69,
           "discount_pct": 15
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 27.69,
+          "price_eur": 14.16,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 23.54,
       "lowest_price_date": "2026-05-16",
-      "avg_price": 25.62
+      "avg_price": 26.04
     },
     {
       "name": "Кафе BIANCHI silver 1кг",
@@ -299229,11 +299277,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 19.09,
           "old_price": 41.56,
           "discount_pct": 10
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 41.56,
+          "price_eur": 21.25,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 35.33,
       "lowest_price_date": "2026-05-16",
-      "avg_price": 38.95
+      "avg_price": 39.47
     },
     {
       "name": "Кафе на зърна LAVAZZA Espresso Crema e Gusto Classico 1 кг",
@@ -299615,11 +299671,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 14.99,
           "old_price": 51.99,
           "discount_pct": 44
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 51.99,
+          "price_eur": 26.58,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 29.32,
       "lowest_price_date": "2026-11-10",
-      "avg_price": 40.66
+      "avg_price": 44.43
     },
     {
       "name": "Филе Елена, вакуум, кг",
@@ -307775,11 +307839,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 2.99,
           "old_price": 7.55,
           "discount_pct": 23
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 7.55,
+          "price_eur": 3.86,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 5.85,
       "lowest_price_date": "2026-11-10",
-      "avg_price": 6.48
+      "avg_price": 6.75
     },
     {
       "name": "Наденица КЕН лионска 390 г",
@@ -314995,9 +315067,10 @@ const ALL_PRODUCTS_DATA = {
     },
     {
       "name": "Сръбска наденица с топ.сирене КЕН,нас.кг",
+      "store": "T-Market",
       "emoji": "🍗",
       "category": "protein",
-      "weight_raw": null,
+      "weight_raw": "на кг",
       "weight_grams": null,
       "shelf_life": "малотраен",
       "is_food": true,
@@ -315013,7 +315086,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://tmarketonline.bg/cdn/img/products/46660/srabska-nadenica-s-top-sirene-kennas-kg-image_604b4d388a758.jpeg?width=600&height=600&v=1777589937",
       "product_id": "tmarket-сръбска-наденица-с-топ-сирене-кен-нас-кг",
-      "last_seen": "2026-05-07",
+      "last_seen": "2026-11-17",
       "first_seen": "2026-04-20",
       "price_history": [
         {
@@ -315027,8 +315100,7 @@ const ALL_PRODUCTS_DATA = {
       ],
       "lowest_price": 24.0,
       "lowest_price_date": "2026-04-20",
-      "avg_price": 24.0,
-      "store": "T-Market"
+      "avg_price": 24.0
     },
     {
       "name": "Салам Търнов шпеков кг",
@@ -347274,11 +347346,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.85,
           "old_price": 2.07,
           "discount_pct": 20
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 2.07,
+          "price_eur": 1.06,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 1.19,
       "lowest_price_date": "2026-04-20",
-      "avg_price": 1.61
+      "avg_price": 1.73
     },
     {
       "name": "Самардала БИОСЕТ 30 гр.",
@@ -365061,11 +365141,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.19,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 1.55,
+          "price_eur": 0.79,
+          "old_price": 2.33,
+          "discount_pct": 33
         }
       ],
       "lowest_price": 1.55,
       "lowest_price_date": "2026-11-09",
-      "avg_price": 1.96
+      "avg_price": 1.85
     },
     {
       "name": "Едрозърнеста горчица WELL DONE 180 г",
@@ -580077,7 +580165,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/09902124_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-каланхое-ø10-5-см",
-      "last_seen": "2026-10-27",
+      "last_seen": "2026-11-17",
       "first_seen": "2026-04-30",
       "price_history": [
         {
@@ -580542,6 +580630,7 @@ const ALL_PRODUCTS_DATA = {
     },
     {
       "name": "Папрат (Нефролепсис) Ø12 см",
+      "store": "Kaufland",
       "emoji": "🛒",
       "category": "other",
       "weight_raw": null,
@@ -580560,7 +580649,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/09900292_P-2?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-папрат-нефролепсис-ø12-см",
-      "last_seen": "2026-04-30",
+      "last_seen": "2026-11-17",
       "first_seen": "2026-04-30",
       "price_history": [
         {
@@ -580570,12 +580659,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 3.57,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "Kaufland",
+          "price": 3.39,
+          "price_eur": 1.73,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
-      "lowest_price": 6.98,
-      "lowest_price_date": "2026-04-30",
-      "avg_price": 6.98,
-      "store": "Kaufland"
+      "lowest_price": 3.39,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 5.19
     },
     {
       "name": "Fitness Зърнена закуска 375 г",
@@ -581782,6 +581878,7 @@ const ALL_PRODUCTS_DATA = {
     },
     {
       "name": "Шефлера Ø13 см",
+      "store": "Kaufland",
       "emoji": "🛒",
       "category": "other",
       "weight_raw": null,
@@ -581800,7 +581897,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4025019011263_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-шефлера-ø13-см",
-      "last_seen": "2026-04-30",
+      "last_seen": "2026-11-17",
       "first_seen": "2026-04-30",
       "price_history": [
         {
@@ -581810,12 +581907,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 7.66,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "Kaufland",
+          "price": 7.66,
+          "price_eur": 3.92,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
-      "lowest_price": 14.98,
-      "lowest_price_date": "2026-04-30",
-      "avg_price": 14.98,
-      "store": "Kaufland"
+      "lowest_price": 7.66,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 11.32
     },
     {
       "name": "VAT 69 Уиски 0,7 л",
@@ -624599,7 +624703,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/09902160_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-антуриум-ø14-см",
-      "last_seen": "2026-10-18",
+      "last_seen": "2026-11-17",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -624617,11 +624721,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 4.49,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "Kaufland",
+          "price": 8.95,
+          "price_eur": 4.58,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 8.79,
       "lowest_price_date": "2026-09-20",
-      "avg_price": 12.88
+      "avg_price": 11.57
     },
     {
       "name": "Прясно фагри",
@@ -713654,11 +713766,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.95,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 2.05,
+          "price_eur": 1.05,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 1.86,
       "lowest_price_date": "2026-05-16",
-      "avg_price": 1.86
+      "avg_price": 1.96
     },
     {
       "name": "Хляб КАРИНА бял нарязан 500 г",
@@ -713698,11 +713818,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.95,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 2.05,
+          "price_eur": 1.05,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 1.86,
       "lowest_price_date": "2026-05-16",
-      "avg_price": 1.86
+      "avg_price": 1.96
     },
     {
       "name": "Хляб СИМЕРС ГРУП бял нарязан 650гр",
@@ -713970,7 +714098,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "images/foods/apple.svg",
       "product_id": "tmarket-оцет-кулинар-винен-700мл-700g",
-      "last_seen": "2026-05-16",
+      "last_seen": "2026-11-17",
       "first_seen": "2026-05-16",
       "price_history": [
         {
@@ -713980,11 +714108,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.99,
           "old_price": 2.54,
           "discount_pct": 24
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 2.58,
+          "price_eur": 1.32,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 1.94,
       "lowest_price_date": "2026-05-16",
-      "avg_price": 1.94
+      "avg_price": 2.26
     },
     {
       "name": "Хляб МИО бял нарязан 500гр",
@@ -714112,11 +714248,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.02,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 2.19,
+          "price_eur": 1.12,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 1.99,
       "lowest_price_date": "2026-05-16",
-      "avg_price": 1.99
+      "avg_price": 2.09
     },
     {
       "name": "Хляб бял нарязан 830 гр",
@@ -714376,11 +714520,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.07,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 2.27,
+          "price_eur": 1.16,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 2.09,
       "lowest_price_date": "2026-05-16",
-      "avg_price": 2.09
+      "avg_price": 2.18
     },
     {
       "name": "Хляб Добруджа нарязан 650 г",
@@ -715290,11 +715442,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.11,
           "old_price": 2.89,
           "discount_pct": 25
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 2.89,
+          "price_eur": 1.48,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 2.17,
       "lowest_price_date": "2026-11-10",
-      "avg_price": 2.53
+      "avg_price": 2.65
     },
     {
       "name": "Хляб ГОРУБЛЯНСКИ ръчен нарязан 600г",
@@ -715902,11 +716062,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 2.79,
           "old_price": 6.98,
           "discount_pct": 22
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 6.98,
+          "price_eur": 3.57,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 5.46,
       "lowest_price_date": "2026-11-10",
-      "avg_price": 6.22
+      "avg_price": 6.47
     },
     {
       "name": "*Пиле ЛУДОГОРСКО кг",
@@ -716138,7 +716306,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "images/foods/mackerel.svg",
       "product_id": "tmarket-скумрия-без-глава-мап-кг",
-      "last_seen": "2026-05-16",
+      "last_seen": "2026-11-17",
       "first_seen": "2026-05-16",
       "price_history": [
         {
@@ -716148,11 +716316,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 7.15,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 19.5,
+          "price_eur": 9.97,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 13.98,
       "lowest_price_date": "2026-05-16",
-      "avg_price": 13.98
+      "avg_price": 16.74
     },
     {
       "name": "Пил.филе ЛУДОГОРСКО ПИЛЕ охл.тар.кг",
@@ -716507,7 +716683,9 @@ const ALL_PRODUCTS_DATA = {
       "is_bulk_worthy": false,
       "is_long_lasting": false,
       "health_score": 8,
-      "diet_tags": [],
+      "diet_tags": [
+        "budget"
+      ],
       "macros": {
         "kcal": 172,
         "p": 24,
@@ -716554,11 +716732,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 3.13,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 3.89,
+          "price_eur": 1.99,
+          "old_price": 6.12,
+          "discount_pct": 36
         }
       ],
-      "lowest_price": 4.09,
-      "lowest_price_date": "2026-05-16",
-      "avg_price": 5.17
+      "lowest_price": 3.89,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 4.92
     },
     {
       "name": "Колбас ТАНДЕМ телешки 300гр",
@@ -716745,7 +716931,8 @@ const ALL_PRODUCTS_DATA = {
       "diet_tags": [
         "high_protein",
         "keto",
-        "vegetarian"
+        "vegetarian",
+        "budget"
       ],
       "macros": {
         "kcal": 98,
@@ -716769,11 +716956,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 4.14,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 6.88,
+          "price_eur": 3.52,
+          "old_price": 8.1,
+          "discount_pct": 15
         }
       ],
-      "lowest_price": 8.1,
-      "lowest_price_date": "2026-05-16",
-      "avg_price": 8.1
+      "lowest_price": 6.88,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 7.49
     },
     {
       "name": "Колбас KEN Телешки в ест. черво нас.кг",
@@ -717176,11 +717371,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.63,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 0.61,
+          "price_eur": 0.31,
+          "old_price": 1.23,
+          "discount_pct": 50
         }
       ],
       "lowest_price": 0.61,
       "lowest_price_date": "2026-11-09",
-      "avg_price": 1.06
+      "avg_price": 0.97
     },
     {
       "name": "Кроасан 7DAYS Double ванилия&ягода 92гр",
@@ -717226,11 +717429,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.81,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 1.15,
+          "price_eur": 0.59,
+          "old_price": 1.58,
+          "discount_pct": 27
         }
       ],
-      "lowest_price": 1.19,
-      "lowest_price_date": "2026-05-16",
-      "avg_price": 1.39
+      "lowest_price": 1.15,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 1.31
     },
     {
       "name": "Кисело мляко БУЛГАРЧЕ 2% 400гр",
@@ -717296,11 +717507,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.55,
           "old_price": 1.43,
           "discount_pct": 24
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 1.43,
+          "price_eur": 0.73,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 1.08,
       "lowest_price_date": "2026-10-22",
-      "avg_price": 1.2
+      "avg_price": 1.25
     },
     {
       "name": "Кисело мляко 3.6% 400гр",
@@ -717412,11 +717631,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.65,
           "old_price": 1.49,
           "discount_pct": 15
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 1.49,
+          "price_eur": 0.76,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 1.26,
       "lowest_price_date": "2026-05-16",
-      "avg_price": 1.32
+      "avg_price": 1.36
     },
     {
       "name": "Кисело мляко ЙОАННА 3.6% 400 г",
@@ -717536,11 +717763,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.65,
           "old_price": 1.51,
           "discount_pct": 16
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 1.51,
+          "price_eur": 0.77,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 1.27,
       "lowest_price_date": "2026-10-22",
-      "avg_price": 1.33
+      "avg_price": 1.37
     },
     {
       "name": "Кромид лук, България, кг.ОПС",
@@ -717594,11 +717829,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.66,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 0.96,
+          "price_eur": 0.49,
+          "old_price": 1.29,
+          "discount_pct": 26
         }
       ],
       "lowest_price": 0.96,
       "lowest_price_date": "2026-10-22",
-      "avg_price": 1.18
+      "avg_price": 1.12
     },
     {
       "name": "Кисело мляко ВЕРЕЯ Чудно 2.5% 400гр",
@@ -718094,11 +718337,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.29,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 1.35,
+          "price_eur": 0.69,
+          "old_price": 2.52,
+          "discount_pct": 46
         }
       ],
       "lowest_price": 1.35,
       "lowest_price_date": "2026-10-22",
-      "avg_price": 1.81
+      "avg_price": 1.69
     },
     {
       "name": "Кисело мляко ВЕРЕЯ 3.6% ЗНП 400г",
@@ -718156,11 +718407,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.8,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 1.27,
+          "price_eur": 0.65,
+          "old_price": 1.56,
+          "discount_pct": 19
         }
       ],
       "lowest_price": 1.27,
       "lowest_price_date": "2026-10-22",
-      "avg_price": 1.46
+      "avg_price": 1.42
     },
     {
       "name": "Кисело мляко ВЕРЕЯ 2.9% 400гр",
@@ -718272,11 +718531,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.87,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 1.08,
+          "price_eur": 0.55,
+          "old_price": 1.7,
+          "discount_pct": 36
         }
       ],
-      "lowest_price": 1.45,
-      "lowest_price_date": "2026-11-09",
-      "avg_price": 1.62
+      "lowest_price": 1.08,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 1.51
     },
     {
       "name": "Кисело мляко БОЖЕНЦИ 2% ЗНП 400гр",
@@ -718928,11 +719195,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.92,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 1.53,
+          "price_eur": 0.78,
+          "old_price": 1.8,
+          "discount_pct": 15
         }
       ],
-      "lowest_price": 1.8,
-      "lowest_price_date": "2026-05-16",
-      "avg_price": 1.8
+      "lowest_price": 1.53,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 1.67
     },
     {
       "name": "Кисело мляко VEDRARE 400гр 3,6%",
@@ -719417,11 +719692,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.75,
           "old_price": 1.96,
           "discount_pct": 25
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 1.96,
+          "price_eur": 1.0,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 1.47,
       "lowest_price_date": "2026-11-10",
-      "avg_price": 1.71
+      "avg_price": 1.8
     },
     {
       "name": "Картофи Мити, Франция, кг. ОПС",
@@ -720178,11 +720461,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.99,
           "old_price": 2.8,
           "discount_pct": 31
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 2.8,
+          "price_eur": 1.43,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 1.94,
       "lowest_price_date": "2026-11-10",
-      "avg_price": 2.37
+      "avg_price": 2.51
     },
     {
       "name": "Био пюре BEBIVITA морков,ориз,пуйка 190г",
@@ -720213,7 +720504,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://tmarketonline.bg/cdn/img/products/54045/bio-pure-bebivita-morkovorizpujka-190-gr-65e07bff8827a.jpeg?width=1920&height=1920&v=1777589997",
       "product_id": "tmarket-био-пюре-bebivita-морков-ориз-пуика-190г-190g",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-17",
       "first_seen": "2026-05-16",
       "price_history": [
         {
@@ -720884,7 +721175,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "images/foods/apple.svg",
       "product_id": "tmarket-червени-домати-кг-турция-клас-i",
-      "last_seen": "2026-10-22",
+      "last_seen": "2026-11-17",
       "first_seen": "2026-05-16",
       "price_history": [
         {
@@ -720902,11 +721193,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.55,
           "old_price": 4.48,
           "discount_pct": 32
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 3.89,
+          "price_eur": 1.99,
+          "old_price": 4.48,
+          "discount_pct": 13
         }
       ],
       "lowest_price": 3.03,
       "lowest_price_date": "2026-10-22",
-      "avg_price": 4.73
+      "avg_price": 4.45
     },
     {
       "name": "Краве сирене ВЕРЕЯ 400г",
@@ -721615,11 +721914,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 4.69,
           "old_price": 10.8,
           "discount_pct": 15
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 10.8,
+          "price_eur": 5.52,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 7.02,
       "lowest_price_date": "2026-10-22",
-      "avg_price": 9.04
+      "avg_price": 9.39
     },
     {
       "name": "Краве сирене БЕЛИИСА 400г",
@@ -721684,11 +721991,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 4.69,
           "old_price": 10.8,
           "discount_pct": 15
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 10.8,
+          "price_eur": 5.52,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 9.17,
       "lowest_price_date": "2026-10-22",
-      "avg_price": 9.58
+      "avg_price": 9.82
     },
     {
       "name": "Краве сирене МАДЖАРОВ ЗНП 400г",
@@ -721729,11 +722044,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 5.52,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 9.17,
+          "price_eur": 4.69,
+          "old_price": 10.8,
+          "discount_pct": 15
         }
       ],
-      "lowest_price": 10.8,
-      "lowest_price_date": "2026-05-16",
-      "avg_price": 10.8
+      "lowest_price": 9.17,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 9.98
     },
     {
       "name": "Краве сирене МУРГАШ 400г",
@@ -722015,11 +722338,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 5.98,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 9.94,
+          "price_eur": 5.08,
+          "old_price": 11.7,
+          "discount_pct": 15
         }
       ],
-      "lowest_price": 11.7,
-      "lowest_price_date": "2026-05-16",
-      "avg_price": 11.7
+      "lowest_price": 9.94,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 10.82
     },
     {
       "name": "Маслини зелени гриловани с билки нас.кг",
@@ -722081,11 +722412,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 6.13,
           "old_price": 14.98,
           "discount_pct": 20
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 14.98,
+          "price_eur": 7.66,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 10.93,
       "lowest_price_date": "2026-11-09",
-      "avg_price": 12.47
+      "avg_price": 12.97
     },
     {
       "name": "Краве сирене ВЕРЕЯ 700г",
@@ -722394,11 +722733,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 7.36,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 12.24,
+          "price_eur": 6.26,
+          "old_price": 14.39,
+          "discount_pct": 15
         }
       ],
-      "lowest_price": 14.39,
-      "lowest_price_date": "2026-05-16",
-      "avg_price": 14.39
+      "lowest_price": 12.24,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 13.32
     },
     {
       "name": "Краве сирене LACRIMA екстра 700 гр",
@@ -722463,11 +722810,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 6.59,
           "old_price": 14.92,
           "discount_pct": 14
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 14.92,
+          "price_eur": 7.63,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 12.89,
       "lowest_price_date": "2026-11-10",
-      "avg_price": 14.0
+      "avg_price": 14.19
     },
     {
       "name": "Краве сирене МАДЖАРОВ натрошено 900 гр",
@@ -722524,11 +722879,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 7.82,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 13.01,
+          "price_eur": 6.65,
+          "old_price": 15.29,
+          "discount_pct": 15
         }
       ],
       "lowest_price": 13.01,
       "lowest_price_date": "2026-10-22",
-      "avg_price": 14.53
+      "avg_price": 14.15
     },
     {
       "name": "*Краве сирене ДОН ЧЕПЕЛАРЕ вак,кг",
@@ -722577,11 +722940,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 6.19,
           "old_price": 15.29,
           "discount_pct": 21
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 15.29,
+          "price_eur": 7.82,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 12.11,
       "lowest_price_date": "2026-11-10",
-      "avg_price": 13.7
+      "avg_price": 14.23
     },
     {
       "name": "*Краве сирене ЕЛИ вак,кг",
@@ -722728,11 +723099,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 8.69,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 12.5,
+          "price_eur": 6.39,
+          "old_price": 17.0,
+          "discount_pct": 26
         }
       ],
-      "lowest_price": 14.45,
-      "lowest_price_date": "2026-11-09",
-      "avg_price": 15.76
+      "lowest_price": 12.5,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 14.94
     },
     {
       "name": "Краве сирене ЕЛЕНА 800гр тенекия",
@@ -723284,11 +723663,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.71,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 1.49,
+          "price_eur": 0.76,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 1.39,
       "lowest_price_date": "2026-05-16",
-      "avg_price": 1.39
+      "avg_price": 1.44
     },
     {
       "name": "Хляб Добруджа 500гр",
@@ -723416,11 +723803,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.74,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 1.55,
+          "price_eur": 0.79,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 1.45,
       "lowest_price_date": "2026-05-16",
-      "avg_price": 1.45
+      "avg_price": 1.5
     },
     {
       "name": "Хляб Добруджа EXTRA LINE 650г",
@@ -723504,11 +723899,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.76,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 1.58,
+          "price_eur": 0.81,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 1.49,
       "lowest_price_date": "2026-05-16",
-      "avg_price": 1.49
+      "avg_price": 1.54
     },
     {
       "name": "Хляб Добруджа 500г",
@@ -723636,11 +724039,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.84,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 1.7,
+          "price_eur": 0.87,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 1.64,
       "lowest_price_date": "2026-05-16",
-      "avg_price": 1.64
+      "avg_price": 1.67
     },
     {
       "name": "Хляб бял парен 650гр",
@@ -724364,11 +724775,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.02,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 2.19,
+          "price_eur": 1.12,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 1.99,
       "lowest_price_date": "2026-05-16",
-      "avg_price": 1.99
+      "avg_price": 2.09
     },
     {
       "name": "Хляб бял с квас 650г",
@@ -724408,11 +724827,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.02,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 2.19,
+          "price_eur": 1.12,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 1.99,
       "lowest_price_date": "2026-05-16",
-      "avg_price": 1.99
+      "avg_price": 2.09
     },
     {
       "name": "Хляб Бял ТРОЯН 650 гр",
@@ -724452,11 +724879,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.02,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 2.05,
+          "price_eur": 1.05,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 1.99,
       "lowest_price_date": "2026-05-16",
-      "avg_price": 1.99
+      "avg_price": 2.02
     },
     {
       "name": "Хляб Типов 600гр",
@@ -724584,11 +725019,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.07,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 2.27,
+          "price_eur": 1.16,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 2.09,
       "lowest_price_date": "2026-05-16",
-      "avg_price": 2.09
+      "avg_price": 2.18
     },
     {
       "name": "Хляб АЕТОС бял 650гр",
@@ -725076,11 +725519,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.15,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 2.41,
+          "price_eur": 1.23,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 2.25,
       "lowest_price_date": "2026-05-16",
-      "avg_price": 2.25
+      "avg_price": 2.33
     },
     {
       "name": "Хляб бял 700гр",
@@ -725340,11 +725791,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.25,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 2.66,
+          "price_eur": 1.36,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 2.44,
       "lowest_price_date": "2026-05-16",
-      "avg_price": 2.44
+      "avg_price": 2.55
     },
     {
       "name": "Био пюре BEBIVITA злч, ориз, пуйка 220гр",
@@ -725609,11 +726068,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.79,
           "old_price": 4.5,
           "discount_pct": 22
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 4.5,
+          "price_eur": 2.3,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 3.5,
       "lowest_price_date": "2026-11-10",
-      "avg_price": 4.0
+      "avg_price": 4.17
     },
     {
       "name": "Ориз FIORRE Бисерен 1кг",
@@ -725966,11 +726433,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.51,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 0.76,
+          "price_eur": 0.39,
+          "old_price": 1.0,
+          "discount_pct": 24
         }
       ],
       "lowest_price": 0.76,
       "lowest_price_date": "2026-10-22",
-      "avg_price": 0.92
+      "avg_price": 0.88
     },
     {
       "name": "Кроасан 7DAYS max Лешник 92гр",
@@ -726016,11 +726491,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.81,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 1.15,
+          "price_eur": 0.59,
+          "old_price": 1.58,
+          "discount_pct": 27
         }
       ],
-      "lowest_price": 1.19,
-      "lowest_price_date": "2026-05-16",
-      "avg_price": 1.39
+      "lowest_price": 1.15,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 1.31
     },
     {
       "name": "Макарони ЗЛАТЕН КЛАС звездички 400г",
@@ -726382,11 +726865,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.69,
           "old_price": 1.9,
           "discount_pct": 29
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 1.9,
+          "price_eur": 0.97,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 1.35,
       "lowest_price_date": "2026-11-10",
-      "avg_price": 1.6
+      "avg_price": 1.68
     },
     {
       "name": "Макарони КРЪСТЕВ прави 400гр",
@@ -726515,11 +727006,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.71,
           "old_price": 1.86,
           "discount_pct": 25
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 1.86,
+          "price_eur": 0.95,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 1.39,
       "lowest_price_date": "2026-11-10",
-      "avg_price": 1.62
+      "avg_price": 1.7
     },
     {
       "name": "Чай БИОПРОГРАМА алпинист 20x1.5гр",
@@ -726560,11 +727059,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.71,
           "old_price": 1.86,
           "discount_pct": 25
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 1.86,
+          "price_eur": 0.95,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 1.39,
       "lowest_price_date": "2026-11-10",
-      "avg_price": 1.62
+      "avg_price": 1.7
     },
     {
       "name": "Чай GT PREMIUM Мента 20г",
@@ -726905,11 +727412,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.05,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 1.74,
+          "price_eur": 0.89,
+          "old_price": 2.05,
+          "discount_pct": 15
         }
       ],
-      "lowest_price": 2.05,
-      "lowest_price_date": "2026-05-16",
-      "avg_price": 2.05
+      "lowest_price": 1.74,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 1.9
     },
     {
       "name": "Пюре BEBELAN Puree Манго 4+ 190гр",
@@ -727104,11 +727619,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.84,
           "old_price": 2.19,
           "discount_pct": 25
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 2.19,
+          "price_eur": 1.12,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 1.64,
       "lowest_price_date": "2026-11-10",
-      "avg_price": 1.92
+      "avg_price": 2.01
     },
     {
       "name": "Чай GT PREMIUM гинко билоба 30гр",
@@ -727185,11 +727708,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.19,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 1.98,
+          "price_eur": 1.01,
+          "old_price": 2.33,
+          "discount_pct": 15
         }
       ],
-      "lowest_price": 2.33,
-      "lowest_price_date": "2026-05-16",
-      "avg_price": 2.33
+      "lowest_price": 1.98,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 2.16
     },
     {
       "name": "Сапун PALMOLIVE Massage 90гр",
@@ -727238,11 +727769,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.2,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 1.35,
+          "price_eur": 0.69,
+          "old_price": 2.35,
+          "discount_pct": 43
         }
       ],
       "lowest_price": 1.35,
       "lowest_price_date": "2026-10-22",
-      "avg_price": 2.02
+      "avg_price": 1.85
     },
     {
       "name": "Макарони WELL DONE penne 500 г",
@@ -727335,11 +727874,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.2,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 1.35,
+          "price_eur": 0.69,
+          "old_price": 2.35,
+          "discount_pct": 43
         }
       ],
       "lowest_price": 1.35,
       "lowest_price_date": "2026-10-22",
-      "avg_price": 2.02
+      "avg_price": 1.85
     },
     {
       "name": "Сапун PALMOLIVE Milk&Honey 90гр",
@@ -727388,11 +727935,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.2,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 1.35,
+          "price_eur": 0.69,
+          "old_price": 2.35,
+          "discount_pct": 43
         }
       ],
       "lowest_price": 1.35,
       "lowest_price_date": "2026-10-22",
-      "avg_price": 2.02
+      "avg_price": 1.85
     },
     {
       "name": "Чай БИОПРОГРАМА лайка 20x1гр",
@@ -727433,11 +727988,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.92,
           "old_price": 2.39,
           "discount_pct": 25
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 2.39,
+          "price_eur": 1.22,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 1.8,
       "lowest_price_date": "2026-11-10",
-      "avg_price": 2.1
+      "avg_price": 2.19
     },
     {
       "name": "Прясно мляко БУЛГАРЧЕ 3,2% 1л",
@@ -727522,11 +728085,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.95,
           "old_price": 2.48,
           "discount_pct": 25
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 2.48,
+          "price_eur": 1.27,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 1.86,
       "lowest_price_date": "2026-11-10",
-      "avg_price": 2.17
+      "avg_price": 2.27
     },
     {
       "name": "Макарони STELLA пружини аморозо 500г",
@@ -727574,11 +728145,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.53,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 1.94,
+          "price_eur": 0.99,
+          "old_price": 2.99,
+          "discount_pct": 35
         }
       ],
-      "lowest_price": 2.52,
-      "lowest_price_date": "2026-05-16",
-      "avg_price": 2.75
+      "lowest_price": 1.94,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 2.48
     },
     {
       "name": "Макарони STELLA спирали 500г",
@@ -727626,11 +728205,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.53,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 1.94,
+          "price_eur": 0.99,
+          "old_price": 2.99,
+          "discount_pct": 35
         }
       ],
-      "lowest_price": 2.52,
-      "lowest_price_date": "2026-05-16",
-      "avg_price": 2.75
+      "lowest_price": 1.94,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 2.48
     },
     {
       "name": "Прясно мляко MIZO 3.5% 1л",
@@ -727738,11 +728325,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.53,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 1.94,
+          "price_eur": 0.99,
+          "old_price": 2.99,
+          "discount_pct": 35
         }
       ],
-      "lowest_price": 2.52,
-      "lowest_price_date": "2026-05-16",
-      "avg_price": 2.75
+      "lowest_price": 1.94,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 2.48
     },
     {
       "name": "Макарони STELLA пълнозърн.фусили 500г",
@@ -727790,11 +728385,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.53,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 1.94,
+          "price_eur": 0.99,
+          "old_price": 2.99,
+          "discount_pct": 35
         }
       ],
-      "lowest_price": 2.52,
-      "lowest_price_date": "2026-05-16",
-      "avg_price": 2.75
+      "lowest_price": 1.94,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 2.48
     },
     {
       "name": "Спагети STELLA No10 500г",
@@ -727842,11 +728445,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.53,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 1.94,
+          "price_eur": 0.99,
+          "old_price": 2.99,
+          "discount_pct": 35
         }
       ],
-      "lowest_price": 2.52,
-      "lowest_price_date": "2026-05-16",
-      "avg_price": 2.75
+      "lowest_price": 1.94,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 2.48
     },
     {
       "name": "Макарони STELLA мидички 500г",
@@ -727894,11 +728505,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.53,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 1.94,
+          "price_eur": 0.99,
+          "old_price": 2.99,
+          "discount_pct": 35
         }
       ],
-      "lowest_price": 2.52,
-      "lowest_price_date": "2026-05-16",
-      "avg_price": 2.75
+      "lowest_price": 1.94,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 2.48
     },
     {
       "name": "Чай GT PREMIUM липа 20 гр",
@@ -728309,11 +728928,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.91,
           "old_price": 3.56,
           "discount_pct": 50
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 3.56,
+          "price_eur": 1.82,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 1.78,
       "lowest_price_date": "2026-10-22",
-      "avg_price": 2.67
+      "avg_price": 2.85
     },
     {
       "name": "Макарони DIVELLA Pene Rigate 500г",
@@ -728377,11 +729004,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.91,
           "old_price": 3.56,
           "discount_pct": 50
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 3.56,
+          "price_eur": 1.82,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 1.78,
       "lowest_price_date": "2026-10-22",
-      "avg_price": 2.67
+      "avg_price": 2.85
     },
     {
       "name": "Макарони DIVELLA Gomiti 500г",
@@ -728445,11 +729080,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.91,
           "old_price": 3.56,
           "discount_pct": 50
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 3.56,
+          "price_eur": 1.82,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 1.78,
       "lowest_price_date": "2026-10-22",
-      "avg_price": 2.67
+      "avg_price": 2.85
     },
     {
       "name": "Макарони DIVELLA Steline 500г",
@@ -728557,11 +729200,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.91,
           "old_price": 3.56,
           "discount_pct": 50
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 3.56,
+          "price_eur": 1.82,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 1.78,
       "lowest_price_date": "2026-10-22",
-      "avg_price": 2.67
+      "avg_price": 2.85
     },
     {
       "name": "Макарони DIVELLA пълнозърнести 500 гр",
@@ -728913,11 +729564,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 3.06,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 3.5,
+          "price_eur": 1.79,
+          "old_price": 5.98,
+          "discount_pct": 41
         }
       ],
-      "lowest_price": 3.7,
-      "lowest_price_date": "2026-05-16",
-      "avg_price": 4.52
+      "lowest_price": 3.5,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 4.27
     },
     {
       "name": "Прясно мляко ЕЛБИ 3.6% 1л",
@@ -728947,7 +729606,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://tmarketonline.bg/cdn/img/products/50231/prasno-mlako-elbi-3-6--1-l-6405081b3cb5a.jpeg?width=1920&height=1920&v=1777589970",
       "product_id": "tmarket-прясно-мляко-елби-3-6-1л-1000g",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-17",
       "first_seen": "2026-05-16",
       "price_history": [
         {
@@ -729141,11 +729800,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 2.21,
           "old_price": 5.09,
           "discount_pct": 15
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 5.09,
+          "price_eur": 2.6,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 4.32,
       "lowest_price_date": "2026-05-16",
-      "avg_price": 4.58
+      "avg_price": 4.71
     },
     {
       "name": "Пюре GERBER Пролетна супа с пуйка 190г",
@@ -729428,11 +730095,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.91,
           "old_price": 4.99,
           "discount_pct": 25
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 4.99,
+          "price_eur": 2.55,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 3.74,
       "lowest_price_date": "2026-11-10",
-      "avg_price": 4.37
+      "avg_price": 4.57
     },
     {
       "name": "Чай БИОПРОГРАМА Премиум Изгрев 20x1.7г",
@@ -729473,11 +730148,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.91,
           "old_price": 4.99,
           "discount_pct": 25
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 4.99,
+          "price_eur": 2.55,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 3.74,
       "lowest_price_date": "2026-11-10",
-      "avg_price": 4.37
+      "avg_price": 4.57
     },
     {
       "name": "Чай БИОПРОГРАМА Премиум гор.плодове20x2г",
@@ -729518,11 +730201,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.91,
           "old_price": 4.99,
           "discount_pct": 25
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 4.99,
+          "price_eur": 2.55,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 3.74,
       "lowest_price_date": "2026-11-10",
-      "avg_price": 4.37
+      "avg_price": 4.57
     },
     {
       "name": "Чай БИОПРОГРАМА Премиум Добър ден20x1.7г",
@@ -729563,11 +730254,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.91,
           "old_price": 4.99,
           "discount_pct": 25
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 4.99,
+          "price_eur": 2.55,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 3.74,
       "lowest_price_date": "2026-11-10",
-      "avg_price": 4.37
+      "avg_price": 4.57
     },
     {
       "name": "Кр.масло DEUTSCHE MARKENBUTTER ор.,250гр",
@@ -729919,11 +730618,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 3.48,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 4.99,
+          "price_eur": 2.55,
+          "old_price": 6.81,
+          "discount_pct": 27
         }
       ],
-      "lowest_price": 5.26,
-      "lowest_price_date": "2026-10-22",
-      "avg_price": 6.29
+      "lowest_price": 4.99,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 5.97
     },
     {
       "name": "Кафе NOVA BRASILIA джезве 200гр",
@@ -729972,11 +730679,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 3.48,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 4.99,
+          "price_eur": 2.55,
+          "old_price": 6.81,
+          "discount_pct": 27
         }
       ],
-      "lowest_price": 5.26,
-      "lowest_price_date": "2026-10-22",
-      "avg_price": 6.29
+      "lowest_price": 4.99,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 5.97
     },
     {
       "name": "Кафе NOVA BRASILIA Espresso Gold 200гр",
@@ -730025,11 +730740,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 3.48,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 4.99,
+          "price_eur": 2.55,
+          "old_price": 6.81,
+          "discount_pct": 27
         }
       ],
-      "lowest_price": 5.26,
-      "lowest_price_date": "2026-10-22",
-      "avg_price": 6.29
+      "lowest_price": 4.99,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 5.97
     },
     {
       "name": "Св.бут без кост нас.кг пр. Испания",
@@ -730083,11 +730806,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 3.49,
           "old_price": 12.6,
           "discount_pct": 46
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 12.6,
+          "price_eur": 6.44,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 6.83,
       "lowest_price_date": "2026-11-10",
-      "avg_price": 8.79
+      "avg_price": 9.74
     },
     {
       "name": "Св. бут без кост вак . пр.Испания",
@@ -730141,11 +730872,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 3.49,
           "old_price": 12.5,
           "discount_pct": 45
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 12.5,
+          "price_eur": 6.39,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 6.83,
       "lowest_price_date": "2026-11-10",
-      "avg_price": 8.76
+      "avg_price": 9.69
     },
     {
       "name": "Кашкавал от кр. мляко БОЖЕНЦИ 270г",
@@ -730365,11 +731104,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 3.99,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 4.87,
+          "price_eur": 2.49,
+          "old_price": 7.8,
+          "discount_pct": 38
         }
       ],
-      "lowest_price": 7.8,
-      "lowest_price_date": "2026-05-16",
-      "avg_price": 7.8
+      "lowest_price": 4.87,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 6.33
     },
     {
       "name": "Кашкавал от краве мляко НА ХОРОТО, 400г",
@@ -730473,11 +731220,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 2.99,
           "old_price": 8.63,
           "discount_pct": 32
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 8.63,
+          "price_eur": 4.41,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 5.85,
       "lowest_price_date": "2026-10-22",
-      "avg_price": 7.24
+      "avg_price": 7.52
     },
     {
       "name": "Кафе BIANCHI Fam.D'oro Intense 250г",
@@ -730592,11 +731347,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 4.55,
           "old_price": 11.13,
           "discount_pct": 20
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 11.13,
+          "price_eur": 5.69,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 8.39,
       "lowest_price_date": "2026-10-22",
-      "avg_price": 9.33
+      "avg_price": 9.69
     },
     {
       "name": "Масл. масло COSTA D'ORO Pomace 1л",
@@ -730877,11 +731640,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 4.69,
           "old_price": 10.8,
           "discount_pct": 15
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 10.8,
+          "price_eur": 5.52,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 9.17,
       "lowest_price_date": "2026-10-22",
-      "avg_price": 9.58
+      "avg_price": 9.82
     },
     {
       "name": "Кашкавал ДОМЛЯН настърган, 300 г",
@@ -731011,11 +731782,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 4.09,
           "old_price": 9.8,
           "discount_pct": 18
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 9.8,
+          "price_eur": 5.01,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 8.0,
       "lowest_price_date": "2026-11-10",
-      "avg_price": 8.9
+      "avg_price": 9.2
     },
     {
       "name": "Маслини черни Турски Услу 301-360 нас.кг",
@@ -731069,11 +731848,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 5.05,
           "old_price": 12.34,
           "discount_pct": 20
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 12.34,
+          "price_eur": 6.31,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 9.88,
       "lowest_price_date": "2026-05-16",
-      "avg_price": 10.7
+      "avg_price": 11.11
     },
     {
       "name": "Кафе LAVAZZA crema gusto 250 гр",
@@ -731130,11 +731917,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 5.29,
           "old_price": 12.32,
           "discount_pct": 16
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 12.32,
+          "price_eur": 6.3,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 10.35,
       "lowest_price_date": "2026-05-16",
-      "avg_price": 10.89
+      "avg_price": 11.18
     },
     {
       "name": "Маслини червени Услу нас.кг",
@@ -731149,7 +731944,9 @@ const ALL_PRODUCTS_DATA = {
       "is_bulk_worthy": true,
       "is_long_lasting": true,
       "health_score": 5,
-      "diet_tags": [],
+      "diet_tags": [
+        "budget"
+      ],
       "macros": {
         "kcal": 115,
         "p": 0.8,
@@ -731196,11 +731993,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 5.31,
           "old_price": 12.99,
           "discount_pct": 20
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 7.8,
+          "price_eur": 3.99,
+          "old_price": 12.99,
+          "discount_pct": 40
         }
       ],
       "lowest_price": 7.8,
       "lowest_price_date": "2026-10-22",
-      "avg_price": 10.39
+      "avg_price": 9.87
     },
     {
       "name": "Кашкавал ВЕРЕЯ 400г",
@@ -731328,11 +732133,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 5.47,
           "old_price": 12.6,
           "discount_pct": 15
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 12.6,
+          "price_eur": 6.44,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 10.7,
       "lowest_price_date": "2026-10-22",
-      "avg_price": 11.18
+      "avg_price": 11.46
     },
     {
       "name": "Кашкавал от краве мляко ГАЙДА 400гр",
@@ -731394,11 +732207,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 6.89,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 13.96,
+          "price_eur": 7.14,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 6.73,
       "lowest_price_date": "2026-11-09",
-      "avg_price": 11.16
+      "avg_price": 11.72
     },
     {
       "name": "Пил.бут ROSO охладен тар.кг",
@@ -731568,11 +732389,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 6.67,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 9.56,
+          "price_eur": 4.89,
+          "old_price": 13.05,
+          "discount_pct": 27
         }
       ],
-      "lowest_price": 11.09,
-      "lowest_price_date": "2026-11-09",
-      "avg_price": 12.06
+      "lowest_price": 9.56,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 11.56
     },
     {
       "name": "Кашкавал БОР ЧВОР кр. мляко вак., 400гр",
@@ -732024,11 +732853,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 6.13,
           "old_price": 14.98,
           "discount_pct": 20
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 9.37,
+          "price_eur": 4.79,
+          "old_price": 14.98,
+          "discount_pct": 37
         }
       ],
-      "lowest_price": 11.99,
-      "lowest_price_date": "2026-05-16",
-      "avg_price": 12.99
+      "lowest_price": 9.37,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 12.08
     },
     {
       "name": "Св.месо за готвене нас.кг пр.България",
@@ -732119,11 +732956,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 6.15,
           "old_price": 15.04,
           "discount_pct": 20
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 15.04,
+          "price_eur": 7.69,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 12.03,
       "lowest_price_date": "2026-05-16",
-      "avg_price": 13.03
+      "avg_price": 13.54
     },
     {
       "name": "Св.бут без кост нас.кг пр.България",
@@ -732253,11 +733098,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 6.44,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 10.7,
+          "price_eur": 5.47,
+          "old_price": 12.6,
+          "discount_pct": 15
         }
       ],
-      "lowest_price": 12.6,
-      "lowest_price_date": "2026-05-16",
-      "avg_price": 12.6
+      "lowest_price": 10.7,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 11.65
     },
     {
       "name": "Ръчен кашкавал ЗДРАВЕЦ 520г",
@@ -732522,11 +733375,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 6.89,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 11.46,
+          "price_eur": 5.86,
+          "old_price": 13.48,
+          "discount_pct": 15
         }
       ],
-      "lowest_price": 12.22,
-      "lowest_price_date": "2026-10-22",
-      "avg_price": 13.06
+      "lowest_price": 11.46,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 12.66
     },
     {
       "name": "Кашкавал МАДЖАРОВ без лактоза 380г",
@@ -732564,11 +733425,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 6.89,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 11.46,
+          "price_eur": 5.86,
+          "old_price": 13.48,
+          "discount_pct": 15
         }
       ],
-      "lowest_price": 13.48,
-      "lowest_price_date": "2026-05-16",
-      "avg_price": 13.48
+      "lowest_price": 11.46,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 12.47
     },
     {
       "name": "Маслини черни без кост. 181-230 нас.кг",
@@ -732630,11 +733499,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 6.95,
           "old_price": 17.0,
           "discount_pct": 20
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 17.0,
+          "price_eur": 8.69,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 10.15,
       "lowest_price_date": "2026-11-09",
-      "avg_price": 13.58
+      "avg_price": 14.27
     },
     {
       "name": "Кашкавал ЗЛАТНА СЕЛЕКЦИЯ Маджаров 380гр",
@@ -732672,11 +733549,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 7.13,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 11.85,
+          "price_eur": 6.06,
+          "old_price": 13.95,
+          "discount_pct": 15
         }
       ],
-      "lowest_price": 13.95,
-      "lowest_price_date": "2026-05-16",
-      "avg_price": 13.95
+      "lowest_price": 11.85,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 12.9
     },
     {
       "name": "Маслини Каламон 181-230 нас.кг",
@@ -732730,11 +733615,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 7.19,
           "old_price": 17.58,
           "discount_pct": 20
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 17.58,
+          "price_eur": 8.99,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 14.06,
       "lowest_price_date": "2026-05-16",
-      "avg_price": 15.23
+      "avg_price": 15.82
     },
     {
       "name": "Кашкавал от кр.мляко VEDRARE 400г",
@@ -732906,11 +733799,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 7.66,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 11.72,
+          "price_eur": 5.99,
+          "old_price": 14.98,
+          "discount_pct": 22
         }
       ],
-      "lowest_price": 14.98,
-      "lowest_price_date": "2026-05-16",
-      "avg_price": 14.98
+      "lowest_price": 11.72,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 13.35
     },
     {
       "name": "Масл.масло DI PALIO Pomace 1л",
@@ -733030,11 +733931,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 6.49,
           "old_price": 16.9,
           "discount_pct": 25
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 16.9,
+          "price_eur": 8.64,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 11.72,
       "lowest_price_date": "2026-10-22",
-      "avg_price": 14.55
+      "avg_price": 15.02
     },
     {
       "name": "*Кашкавал ЕЛИ вак. кг",
@@ -733096,11 +734005,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 6.49,
           "old_price": 16.9,
           "discount_pct": 25
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 16.9,
+          "price_eur": 8.64,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 11.72,
       "lowest_price_date": "2026-10-22",
-      "avg_price": 14.55
+      "avg_price": 15.02
     },
     {
       "name": "Кашкавал от краве мляко БУЛГАРЧЕ 800гр",
@@ -733162,11 +734079,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 9.68,
           "old_price": 22.28,
           "discount_pct": 15
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 22.28,
+          "price_eur": 11.39,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 17.58,
       "lowest_price_date": "2026-05-16",
-      "avg_price": 19.43
+      "avg_price": 20.0
     },
     {
       "name": "Маслиново масло DI PALIO Pomace стъкло1л",
@@ -733254,11 +734179,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 9.2,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 13.08,
+          "price_eur": 6.69,
+          "old_price": 17.99,
+          "discount_pct": 27
         }
       ],
-      "lowest_price": 17.99,
-      "lowest_price_date": "2026-05-16",
-      "avg_price": 17.99
+      "lowest_price": 13.08,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 15.54
     },
     {
       "name": "Кашкавал от кр. мляко ПОЛИННА 750г",
@@ -733556,11 +734489,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 4.99,
           "old_price": 21.69,
           "discount_pct": 55
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 21.69,
+          "price_eur": 11.09,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 9.76,
       "lowest_price_date": "2026-11-10",
-      "avg_price": 15.73
+      "avg_price": 17.71
     },
     {
       "name": "Мляко за малки деца APTAMIL PN3 12+м400г",
@@ -733919,11 +734860,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 14.65,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 22.92,
+          "price_eur": 11.72,
+          "old_price": 28.65,
+          "discount_pct": 20
         }
       ],
       "lowest_price": 21.49,
       "lowest_price_date": "2026-10-22",
-      "avg_price": 26.26
+      "avg_price": 25.43
     },
     {
       "name": "Маслиново масло АТИС EV 1л",
@@ -734022,11 +734971,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 16.46,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 25.76,
+          "price_eur": 13.17,
+          "old_price": 32.19,
+          "discount_pct": 20
         }
       ],
       "lowest_price": 24.15,
       "lowest_price_date": "2026-10-22",
-      "avg_price": 29.51
+      "avg_price": 28.57
     },
     {
       "name": "Кафе NOVA BRASILIA Зърна 900г",
@@ -734289,7 +735246,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/200px-No-Image-Placeholder.svg.png",
       "product_id": "tmarket-кафе-на-зърна-eduscho-espresso-1кг-1000g",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-17",
       "first_seen": "2026-05-16",
       "price_history": [
         {
@@ -734577,11 +735534,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 2.34,
           "old_price": 5.71,
           "discount_pct": 20
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 5.71,
+          "price_eur": 2.92,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 4.58,
       "lowest_price_date": "2026-11-10",
-      "avg_price": 5.26
+      "avg_price": 5.38
     },
     {
       "name": "Салам НАРОДЕН хамбургски 320 г",
@@ -734630,11 +735595,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 2.34,
           "old_price": 5.71,
           "discount_pct": 20
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 5.71,
+          "price_eur": 2.92,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 4.58,
       "lowest_price_date": "2026-11-10",
-      "avg_price": 5.26
+      "avg_price": 5.38
     },
     {
       "name": "Салам НАРОДЕН камчия 320 г",
@@ -734683,11 +735656,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 2.34,
           "old_price": 5.71,
           "discount_pct": 20
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 5.71,
+          "price_eur": 2.92,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 4.58,
       "lowest_price_date": "2026-11-10",
-      "avg_price": 5.26
+      "avg_price": 5.38
     },
     {
       "name": "Кренвирш СИТИ пушен нас.кг",
@@ -734977,11 +735958,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 2.76,
           "old_price": 6.75,
           "discount_pct": 20
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 6.75,
+          "price_eur": 3.45,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 5.4,
       "lowest_price_date": "2026-11-10",
-      "avg_price": 6.21
+      "avg_price": 6.35
     },
     {
       "name": "*Наденица ЕЛИТ МЕС Чубрикова вак., кг",
@@ -735422,11 +736411,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 3.23,
           "old_price": 7.9,
           "discount_pct": 20
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 5.85,
+          "price_eur": 2.99,
+          "old_price": 7.9,
+          "discount_pct": 26
         }
       ],
-      "lowest_price": 6.24,
-      "lowest_price_date": "2026-10-22",
-      "avg_price": 6.99
+      "lowest_price": 5.85,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 6.76
     },
     {
       "name": "Наденица КЕН лионска вак.,390 гр",
@@ -735475,11 +736472,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 2.99,
           "old_price": 7.55,
           "discount_pct": 23
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 7.55,
+          "price_eur": 3.86,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 5.85,
       "lowest_price_date": "2026-11-10",
-      "avg_price": 6.48
+      "avg_price": 6.75
     },
     {
       "name": "Шунка КОЛБАСО свинска 800г",
@@ -735769,11 +736774,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 4.6,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 7.02,
+          "price_eur": 3.59,
+          "old_price": 9.0,
+          "discount_pct": 22
         }
       ],
-      "lowest_price": 9.0,
-      "lowest_price_date": "2026-05-16",
-      "avg_price": 9.0
+      "lowest_price": 7.02,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 8.01
     },
     {
       "name": "*Кренвирши ЕЛИТ МЕС пушени вак., кг",
@@ -735867,11 +736880,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 4.99,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 8.29,
+          "price_eur": 4.24,
+          "old_price": 9.76,
+          "discount_pct": 15
         }
       ],
       "lowest_price": 7.8,
       "lowest_price_date": "2026-11-09",
-      "avg_price": 9.11
+      "avg_price": 8.9
     },
     {
       "name": "Кренвирши KEN нас.кг",
@@ -735989,11 +737010,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 5.49,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 8.0,
+          "price_eur": 4.09,
+          "old_price": 10.74,
+          "discount_pct": 26
         }
       ],
       "lowest_price": 7.86,
       "lowest_price_date": "2026-10-22",
-      "avg_price": 9.89
+      "avg_price": 9.51
     },
     {
       "name": "Бяло саламурено сирене БАЛКАНДЖИЙСКО, кг",
@@ -736124,11 +737153,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 5.59,
           "old_price": 16.19,
           "discount_pct": 32
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 16.19,
+          "price_eur": 8.28,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 10.93,
       "lowest_price_date": "2026-05-16",
-      "avg_price": 12.68
+      "avg_price": 13.56
     },
     {
       "name": "Наденица ОРЕНДА македонска нас.кг",
@@ -736238,11 +737275,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 4.72,
           "old_price": 11.56,
           "discount_pct": 20
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 11.56,
+          "price_eur": 5.91,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 9.23,
       "lowest_price_date": "2026-11-10",
-      "avg_price": 10.59
+      "avg_price": 10.84
     },
     {
       "name": "Салам СИТИ сух шпек  дълъг нас.кг",
@@ -736389,11 +737434,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 6.29,
           "old_price": 17.99,
           "discount_pct": 32
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 17.99,
+          "price_eur": 9.2,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 12.3,
       "lowest_price_date": "2026-11-10",
-      "avg_price": 14.43
+      "avg_price": 15.32
     },
     {
       "name": "Бяло саламурено сирене СИТОВО, кг",
@@ -736508,11 +737561,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 6.19,
           "old_price": 15.29,
           "discount_pct": 21
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 15.29,
+          "price_eur": 7.82,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 12.11,
       "lowest_price_date": "2026-11-10",
-      "avg_price": 13.7
+      "avg_price": 14.23
     },
     {
       "name": "Бяло саламурено сирене ЕЛИ кг",
@@ -736635,11 +737696,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 8.69,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 12.5,
+          "price_eur": 6.39,
+          "old_price": 17.0,
+          "discount_pct": 26
         }
       ],
-      "lowest_price": 13.46,
-      "lowest_price_date": "2026-11-09",
-      "avg_price": 15.43
+      "lowest_price": 12.5,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 14.7
     },
     {
       "name": "Наденица KEN македонска нас.кг",
@@ -736741,11 +737810,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 6.75,
           "old_price": 16.51,
           "discount_pct": 20
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 16.51,
+          "price_eur": 8.44,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 13.2,
       "lowest_price_date": "2026-11-10",
-      "avg_price": 15.24
+      "avg_price": 15.56
     },
     {
       "name": "Наденица KEN лионска нас.кг",
@@ -737043,11 +738120,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 7.12,
           "old_price": 17.43,
           "discount_pct": 20
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 17.43,
+          "price_eur": 8.91,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 11.72,
       "lowest_price_date": "2026-11-09",
-      "avg_price": 14.92
+      "avg_price": 15.42
     },
     {
       "name": "*Наденица Леки пак.кг",
@@ -737141,11 +738226,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 8.69,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 11.72,
+          "price_eur": 5.99,
+          "old_price": 17.0,
+          "discount_pct": 31
         }
       ],
-      "lowest_price": 17.0,
-      "lowest_price_date": "2026-05-16",
-      "avg_price": 17.0
+      "lowest_price": 11.72,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 14.36
     },
     {
       "name": "Наденица БОНИ луканкова удивителн нас.кг",
@@ -737586,11 +738679,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 19.07,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 29.83,
+          "price_eur": 15.25,
+          "old_price": 37.3,
+          "discount_pct": 20
         }
       ],
       "lowest_price": 24.04,
       "lowest_price_date": "2026-05-16",
-      "avg_price": 30.67
+      "avg_price": 30.5
     },
     {
       "name": "Салам ОРЕХИТЕ Бургас гастро нас.кг",
@@ -737647,11 +738748,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 19.07,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 29.83,
+          "price_eur": 15.25,
+          "old_price": 37.3,
+          "discount_pct": 20
         }
       ],
       "lowest_price": 24.04,
       "lowest_price_date": "2026-05-16",
-      "avg_price": 30.67
+      "avg_price": 30.5
     },
     {
       "name": "Салам ЕЛИТ МЕС Бургас дълъг нас.кг",
@@ -738372,11 +739481,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.81,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 1.15,
+          "price_eur": 0.59,
+          "old_price": 1.58,
+          "discount_pct": 27
         }
       ],
-      "lowest_price": 1.19,
-      "lowest_price_date": "2026-05-16",
-      "avg_price": 1.39
+      "lowest_price": 1.15,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 1.31
     },
     {
       "name": "Кроасан 7DAYS Double какао&ванилия 92гр",
@@ -738417,11 +739534,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.81,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 1.15,
+          "price_eur": 0.59,
+          "old_price": 1.58,
+          "discount_pct": 27
         }
       ],
-      "lowest_price": 1.19,
-      "lowest_price_date": "2026-05-16",
-      "avg_price": 1.39
+      "lowest_price": 1.15,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 1.31
     },
     {
       "name": "Сапун ТЕО Rich Milk Soft Care 90гр",
@@ -738695,11 +739820,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.49,
           "old_price": 1.29,
           "discount_pct": 26
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 1.29,
+          "price_eur": 0.66,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 0.96,
       "lowest_price_date": "2026-11-10",
-      "avg_price": 1.12
+      "avg_price": 1.18
     },
     {
       "name": "Сол FIORRE трапезна 1кг",
@@ -739193,11 +740326,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.02,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 1.6,
+          "price_eur": 0.82,
+          "old_price": 1.99,
+          "discount_pct": 20
         }
       ],
-      "lowest_price": 1.66,
-      "lowest_price_date": "2026-10-22",
-      "avg_price": 1.88
+      "lowest_price": 1.6,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 1.81
     },
     {
       "name": "Кроасан 7DAYS Super max какао 110г",
@@ -739246,11 +740387,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.85,
           "old_price": 1.99,
           "discount_pct": 17
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 1.99,
+          "price_eur": 1.02,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 1.66,
       "lowest_price_date": "2026-11-10",
-      "avg_price": 1.8
+      "avg_price": 1.84
     },
     {
       "name": "Сапун БОЧКО бебе със смрадлика 75гр",
@@ -739455,11 +740604,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.02,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 1.6,
+          "price_eur": 0.82,
+          "old_price": 1.99,
+          "discount_pct": 20
         }
       ],
-      "lowest_price": 1.66,
-      "lowest_price_date": "2026-10-22",
-      "avg_price": 1.88
+      "lowest_price": 1.6,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 1.81
     },
     {
       "name": "Паста за зъби ASTERA Total Charcoal 110г",
@@ -739749,11 +740906,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.08,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 1.55,
+          "price_eur": 0.79,
+          "old_price": 2.11,
+          "discount_pct": 27
         }
       ],
-      "lowest_price": 2.11,
-      "lowest_price_date": "2026-05-16",
-      "avg_price": 2.11
+      "lowest_price": 1.55,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 1.83
     },
     {
       "name": "Бисквити ДЕТСТВО МОЕ обикновени, 200гр",
@@ -739823,11 +740988,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.15,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 1.8,
+          "price_eur": 0.92,
+          "old_price": 2.25,
+          "discount_pct": 20
         }
       ],
-      "lowest_price": 2.25,
-      "lowest_price_date": "2026-05-16",
-      "avg_price": 2.25
+      "lowest_price": 1.8,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 2.02
     },
     {
       "name": "Сапун ТЕО БЕБЕ Lavender 75гр",
@@ -739897,11 +741070,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.15,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 1.8,
+          "price_eur": 0.92,
+          "old_price": 2.25,
+          "discount_pct": 20
         }
       ],
-      "lowest_price": 2.25,
-      "lowest_price_date": "2026-05-16",
-      "avg_price": 2.25
+      "lowest_price": 1.8,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 2.02
     },
     {
       "name": "Бира ZAGORKA PET 2л",
@@ -740318,11 +741499,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.15,
           "old_price": 2.95,
           "discount_pct": 24
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 2.95,
+          "price_eur": 1.51,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 2.25,
       "lowest_price_date": "2026-11-10",
-      "avg_price": 2.6
+      "avg_price": 2.72
     },
     {
       "name": "Точени кори ТРАКИЙСКИ 400 гр",
@@ -740371,11 +741560,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.19,
           "old_price": 3.17,
           "discount_pct": 26
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 3.17,
+          "price_eur": 1.62,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 2.33,
       "lowest_price_date": "2026-11-10",
-      "avg_price": 2.61
+      "avg_price": 2.75
     },
     {
       "name": "Бира ПИРИНСКО PET 2л",
@@ -741104,11 +742301,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.63,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 2.54,
+          "price_eur": 1.3,
+          "old_price": 3.19,
+          "discount_pct": 20
         }
       ],
       "lowest_price": 2.44,
       "lowest_price_date": "2026-10-22",
-      "avg_price": 2.94
+      "avg_price": 2.84
     },
     {
       "name": "Преп.за съд. MEDIX PB Spring Fresh 415мл",
@@ -741157,11 +742362,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.63,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 2.54,
+          "price_eur": 1.3,
+          "old_price": 3.19,
+          "discount_pct": 20
         }
       ],
       "lowest_price": 2.44,
       "lowest_price_date": "2026-10-22",
-      "avg_price": 2.94
+      "avg_price": 2.84
     },
     {
       "name": "Бира ШУМЕНСКО РЕТ 2л",
@@ -741247,11 +742460,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.79,
           "old_price": 3.27,
           "discount_pct": 53
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 3.27,
+          "price_eur": 1.67,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 1.55,
       "lowest_price_date": "2026-11-10",
-      "avg_price": 2.41
+      "avg_price": 2.7
     },
     {
       "name": "Варен колбас ФЕРМАТА 300 г",
@@ -741374,11 +742595,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.82,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 2.33,
+          "price_eur": 1.19,
+          "old_price": 3.56,
+          "discount_pct": 35
         }
       ],
       "lowest_price": 2.13,
       "lowest_price_date": "2026-11-09",
-      "avg_price": 3.08
+      "avg_price": 2.9
     },
     {
       "name": "Препарат за бебешки съдове БОЧКО 500мл",
@@ -741721,11 +742950,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 2.16,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 2.91,
+          "price_eur": 1.49,
+          "old_price": 4.22,
+          "discount_pct": 31
         }
       ],
       "lowest_price": 2.84,
       "lowest_price_date": "2026-10-22",
-      "avg_price": 3.61
+      "avg_price": 3.47
     },
     {
       "name": "Мокри кърпи TEO Bebe Aloe Vera 72бр",
@@ -742142,11 +743379,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 3.13,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 3.89,
+          "price_eur": 1.99,
+          "old_price": 6.12,
+          "discount_pct": 36
         }
       ],
-      "lowest_price": 4.09,
-      "lowest_price_date": "2026-05-16",
-      "avg_price": 5.17
+      "lowest_price": 3.89,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 4.92
     },
     {
       "name": "Колбас КОЛБАСО камчия 750гр",
@@ -742203,11 +743448,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 3.13,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 3.89,
+          "price_eur": 1.99,
+          "old_price": 6.12,
+          "discount_pct": 36
         }
       ],
-      "lowest_price": 4.09,
-      "lowest_price_date": "2026-05-16",
-      "avg_price": 5.17
+      "lowest_price": 3.89,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 4.92
     },
     {
       "name": "Преп. за съдове ЕХО Балсам Лайка 400мл",
@@ -742762,11 +744015,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.59,
           "old_price": 4.75,
           "discount_pct": 35
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 4.75,
+          "price_eur": 2.43,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 3.11,
       "lowest_price_date": "2026-11-10",
-      "avg_price": 3.93
+      "avg_price": 4.2
     },
     {
       "name": "Шоколад MERCI млечен 100 гр",
@@ -743045,11 +744306,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 2.7,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 4.22,
+          "price_eur": 2.16,
+          "old_price": 5.28,
+          "discount_pct": 20
         }
       ],
-      "lowest_price": 5.28,
-      "lowest_price_date": "2026-05-16",
-      "avg_price": 5.28
+      "lowest_price": 4.22,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 4.75
     },
     {
       "name": "Лютеница BULCONS Първомай БДС 400гр",
@@ -745402,11 +746671,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 2.85,
           "old_price": 7.84,
           "discount_pct": 29
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 7.84,
+          "price_eur": 4.01,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 5.57,
       "lowest_price_date": "2026-11-10",
-      "avg_price": 6.71
+      "avg_price": 7.08
     },
     {
       "name": "Препарат за съдове FAIRY Lemon 900мл",
@@ -745447,11 +746724,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 2.85,
           "old_price": 7.84,
           "discount_pct": 29
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 7.84,
+          "price_eur": 4.01,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 5.57,
       "lowest_price_date": "2026-11-10",
-      "avg_price": 6.71
+      "avg_price": 7.08
     },
     {
       "name": "Лютеница DERONI домашна едросмл. 520гр",
@@ -745484,11 +746769,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 4.09,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 5.46,
+          "price_eur": 2.79,
+          "old_price": 8.0,
+          "discount_pct": 32
         }
       ],
-      "lowest_price": 8.0,
-      "lowest_price_date": "2026-05-16",
-      "avg_price": 8.0
+      "lowest_price": 5.46,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 6.73
     },
     {
       "name": "Шампоан SCHAUMA Q10 400мл",
@@ -745521,11 +746814,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 4.09,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 3.89,
+          "price_eur": 1.99,
+          "old_price": 8.0,
+          "discount_pct": 51
         }
       ],
-      "lowest_price": 8.0,
-      "lowest_price_date": "2026-05-16",
-      "avg_price": 8.0
+      "lowest_price": 3.89,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 5.95
     },
     {
       "name": "Шампоан SCHAUMA за мъже 400мл",
@@ -745558,11 +746859,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 4.09,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 3.89,
+          "price_eur": 1.99,
+          "old_price": 8.0,
+          "discount_pct": 51
         }
       ],
-      "lowest_price": 8.0,
-      "lowest_price_date": "2026-05-16",
-      "avg_price": 8.0
+      "lowest_price": 3.89,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 5.95
     },
     {
       "name": "Тоал.хартия EMEKA Paradise 3пл 8бр",
@@ -745828,11 +747137,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 8.18,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 9.76,
+          "price_eur": 4.99,
+          "old_price": 16.0,
+          "discount_pct": 39
         }
       ],
       "lowest_price": 8.98,
       "lowest_price_date": "2026-05-16",
-      "avg_price": 11.58
+      "avg_price": 11.12
     },
     {
       "name": "Св. врат без кост пр. Испания вак. кг",
@@ -745881,11 +747198,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 8.18,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 9.76,
+          "price_eur": 4.99,
+          "old_price": 16.0,
+          "discount_pct": 39
         }
       ],
       "lowest_price": 8.98,
       "lowest_price_date": "2026-05-16",
-      "avg_price": 11.58
+      "avg_price": 11.12
     },
     {
       "name": "Вино MENADA Совиньон бланк 750мл",
@@ -745926,11 +747251,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 5.13,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 8.19,
+          "price_eur": 4.19,
+          "old_price": 10.03,
+          "discount_pct": 18
         }
       ],
-      "lowest_price": 9.0,
-      "lowest_price_date": "2026-05-16",
-      "avg_price": 9.52
+      "lowest_price": 8.19,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 9.07
     },
     {
       "name": "Вино MENADA Шардоне 750мл",
@@ -745971,11 +747304,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 5.13,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 8.19,
+          "price_eur": 4.19,
+          "old_price": 10.03,
+          "discount_pct": 18
         }
       ],
-      "lowest_price": 9.0,
-      "lowest_price_date": "2026-05-16",
-      "avg_price": 9.52
+      "lowest_price": 8.19,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 9.07
     },
     {
       "name": "Вино MENADA Мускат 750мл",
@@ -746016,11 +747357,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 5.13,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 8.19,
+          "price_eur": 4.19,
+          "old_price": 10.03,
+          "discount_pct": 18
         }
       ],
-      "lowest_price": 9.0,
-      "lowest_price_date": "2026-05-16",
-      "avg_price": 9.52
+      "lowest_price": 8.19,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 9.07
     },
     {
       "name": "Вино MENADA Мавруд 750мл",
@@ -746061,11 +747410,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 5.13,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 8.19,
+          "price_eur": 4.19,
+          "old_price": 10.03,
+          "discount_pct": 18
         }
       ],
-      "lowest_price": 9.0,
-      "lowest_price_date": "2026-05-16",
-      "avg_price": 9.52
+      "lowest_price": 8.19,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 9.07
     },
     {
       "name": "Вино MENADA Мерло 750мл",
@@ -746106,11 +747463,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 5.13,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 8.19,
+          "price_eur": 4.19,
+          "old_price": 10.03,
+          "discount_pct": 18
         }
       ],
-      "lowest_price": 9.0,
-      "lowest_price_date": "2026-05-16",
-      "avg_price": 9.52
+      "lowest_price": 8.19,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 9.07
     },
     {
       "name": "Вино MENADA Каберне 750мл",
@@ -746151,11 +747516,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 5.13,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 8.19,
+          "price_eur": 4.19,
+          "old_price": 10.03,
+          "discount_pct": 18
         }
       ],
-      "lowest_price": 9.0,
-      "lowest_price_date": "2026-05-16",
-      "avg_price": 9.52
+      "lowest_price": 8.19,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 9.07
     },
     {
       "name": "Тоалетна хартия ZEBRA Perfume 4пл 8бр",
@@ -746884,11 +748257,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 4.29,
           "old_price": 11.56,
           "discount_pct": 27
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 11.56,
+          "price_eur": 5.91,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 8.39,
       "lowest_price_date": "2026-11-10",
-      "avg_price": 9.98
+      "avg_price": 10.5
     },
     {
       "name": "Вино TCHERGA* червено 750 мл",
@@ -746990,11 +748371,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 6.19,
           "old_price": 15.14,
           "discount_pct": 20
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 15.14,
+          "price_eur": 7.74,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 11.72,
       "lowest_price_date": "2026-05-16",
-      "avg_price": 12.99
+      "avg_price": 13.53
     },
     {
       "name": "Вино MIDALIDARE 42/25 Совиньон Блан750мл",
@@ -747088,11 +748477,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 6.42,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 5.85,
+          "price_eur": 2.99,
+          "old_price": 12.56,
+          "discount_pct": 53
         }
       ],
       "lowest_price": 5.85,
       "lowest_price_date": "2026-10-22",
-      "avg_price": 10.32
+      "avg_price": 9.21
     },
     {
       "name": "Св. плешка без кост пр. Испания вак.кг",
@@ -747141,11 +748538,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 6.42,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 5.85,
+          "price_eur": 2.99,
+          "old_price": 12.56,
+          "discount_pct": 53
         }
       ],
       "lowest_price": 5.85,
       "lowest_price_date": "2026-10-22",
-      "avg_price": 10.32
+      "avg_price": 9.21
     },
     {
       "name": "Св. врат с кост нас.кг пр.България",
@@ -747202,11 +748607,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 5.99,
           "old_price": 12.6,
           "discount_pct": 7
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 12.6,
+          "price_eur": 6.44,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 11.13,
       "lowest_price_date": "2026-10-22",
-      "avg_price": 12.01
+      "avg_price": 12.13
     },
     {
       "name": "Вино ANGEL'S Шардоне 750 мл",
@@ -747480,11 +748893,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 7.14,
           "old_price": 17.45,
           "discount_pct": 20
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 17.45,
+          "price_eur": 8.92,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 13.5,
       "lowest_price_date": "2026-05-16",
-      "avg_price": 14.97
+      "avg_price": 15.59
     },
     {
       "name": "Ракия ДЯДОВА УСУКАНИЦА грозд. 40% 700 мл",
@@ -747856,11 +749277,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 9.91,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 15.63,
+          "price_eur": 7.99,
+          "old_price": 19.38,
+          "discount_pct": 19
         }
       ],
-      "lowest_price": 18.44,
-      "lowest_price_date": "2026-05-16",
-      "avg_price": 18.91
+      "lowest_price": 15.63,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 17.82
     },
     {
       "name": "Ракия ТРОЯН сливова отл. 40% 700мл",
@@ -818411,7 +819840,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8714098128998_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-калатея-микс-ø12-см",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-11-17",
       "first_seen": "2026-05-26",
       "price_history": [
         {
@@ -2175550,7 +2176979,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8717191062657_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-драцена-маргината-ø10-5-см",
-      "last_seen": "2026-07-16",
+      "last_seen": "2026-11-17",
       "first_seen": "2026-07-14",
       "price_history": [
         {
@@ -2175560,11 +2176989,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 3.99,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "Kaufland",
+          "price": 3.99,
+          "price_eur": 2.04,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
-      "lowest_price": 7.8,
-      "lowest_price_date": "2026-07-14",
-      "avg_price": 7.8
+      "lowest_price": 3.99,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 5.89
     },
     {
       "name": "Конифери микс Ø13 см",
@@ -2222973,7 +2224410,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/174_00053383_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-бромелия-в-керамика",
-      "last_seen": "2026-09-24",
+      "last_seen": "2026-11-17",
       "first_seen": "2026-08-04",
       "price_history": [
         {
@@ -2237984,7 +2239421,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/5708869100361_CZ_CU_9930-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-циклама-стаино-растение-ø10-5-см",
-      "last_seen": "2026-11-01",
+      "last_seen": "2026-11-17",
       "first_seen": "2026-08-11",
       "price_history": [
         {
@@ -2237994,11 +2239431,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.53,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "Kaufland",
+          "price": 3.15,
+          "price_eur": 1.61,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 2.99,
       "lowest_price_date": "2026-08-11",
-      "avg_price": 2.99
+      "avg_price": 3.07
     },
     {
       "name": "Драцена Ø11 см",
@@ -2238021,7 +2239466,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8717191061384_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-драцена-ø11-см",
-      "last_seen": "2026-09-29",
+      "last_seen": "2026-11-17",
       "first_seen": "2026-08-11",
       "price_history": [
         {
@@ -2286133,7 +2287578,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8714098091025_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-орхидея-фаленопсис-в-керамика-ø9-см",
-      "last_seen": "2026-09-11",
+      "last_seen": "2026-11-17",
       "first_seen": "2026-09-08",
       "price_history": [
         {
@@ -2413818,7 +2415263,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/Flower_20Direct_20Rosen_20Hypericum_20Nr__20134_20mit_20T_C3_BCte_202?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-букет-рози-с-хиперикум",
-      "last_seen": "2026-10-16",
+      "last_seen": "2026-11-17",
       "first_seen": "2026-10-13",
       "price_history": [
         {
@@ -2431995,11 +2433440,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.89,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 1.94,
+          "price_eur": 0.99,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 1.74,
       "lowest_price_date": "2026-10-22",
-      "avg_price": 1.74
+      "avg_price": 1.84
     },
     {
       "name": "Хляб ЗАВОДСКИ бял нарязан 500г",
@@ -2432039,11 +2433492,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.89,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 1.94,
+          "price_eur": 0.99,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 1.74,
       "lowest_price_date": "2026-10-22",
-      "avg_price": 1.74
+      "avg_price": 1.84
     },
     {
       "name": "Хляб бял нарязан 650г",
@@ -2432259,11 +2433720,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.02,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 2.19,
+          "price_eur": 1.12,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 1.99,
       "lowest_price_date": "2026-10-22",
-      "avg_price": 1.99
+      "avg_price": 2.09
     },
     {
       "name": "Хляб бял нарязан 830г",
@@ -2432391,11 +2433860,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.02,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 2.19,
+          "price_eur": 1.12,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 1.99,
       "lowest_price_date": "2026-10-22",
-      "avg_price": 1.99
+      "avg_price": 2.09
     },
     {
       "name": "Хляб УС бял нарязан 650г",
@@ -2432435,11 +2433912,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.07,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 2.27,
+          "price_eur": 1.16,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 2.09,
       "lowest_price_date": "2026-10-22",
-      "avg_price": 2.09
+      "avg_price": 2.18
     },
     {
       "name": "Хляб Добруджа нарязан 650г",
@@ -2432479,11 +2433964,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.07,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 2.29,
+          "price_eur": 1.17,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 2.09,
       "lowest_price_date": "2026-10-22",
-      "avg_price": 2.09
+      "avg_price": 2.19
     },
     {
       "name": "Хляб България бял нарязан 650г",
@@ -2432523,11 +2434016,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.07,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 2.29,
+          "price_eur": 1.17,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 2.09,
       "lowest_price_date": "2026-10-22",
-      "avg_price": 2.09
+      "avg_price": 2.19
     },
     {
       "name": "Хляб СИМИД бял нарязан 830г",
@@ -2432805,11 +2434306,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 5.99,
           "old_price": 12.28,
           "discount_pct": 5
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 12.28,
+          "price_eur": 6.28,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 11.13,
       "lowest_price_date": "2026-10-22",
-      "avg_price": 11.71
+      "avg_price": 11.85
     },
     {
       "name": "Колбас МИТИ телешки нас.кг",
@@ -2432839,7 +2434348,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "images/foods/chicken.svg",
       "product_id": "tmarket-колбас-мити-телешки-нас-кг",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-17",
       "first_seen": "2026-10-22",
       "price_history": [
         {
@@ -2432909,11 +2434418,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.66,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 0.96,
+          "price_eur": 0.49,
+          "old_price": 1.29,
+          "discount_pct": 26
         }
       ],
       "lowest_price": 0.88,
       "lowest_price_date": "2026-11-09",
-      "avg_price": 1.04
+      "avg_price": 1.02
     },
     {
       "name": "Кисело мляко БАЛКАН 3,6% 400г",
@@ -2432971,11 +2434488,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.65,
           "old_price": 1.8,
           "discount_pct": 29
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 1.8,
+          "price_eur": 0.92,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 1.27,
       "lowest_price_date": "2026-11-10",
-      "avg_price": 1.58
+      "avg_price": 1.63
     },
     {
       "name": "Кисело мляко ЕЛЕНА 3.6% 400гр",
@@ -2433282,11 +2434807,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 3.1,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 5.16,
+          "price_eur": 2.64,
+          "old_price": 6.06,
+          "discount_pct": 15
         }
       ],
       "lowest_price": 4.67,
       "lowest_price_date": "2026-10-22",
-      "avg_price": 5.34
+      "avg_price": 5.31
     },
     {
       "name": "Краве сирене БЕЛЕНСКО 800 г тенекия",
@@ -2433776,11 +2435309,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.07,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 2.27,
+          "price_eur": 1.16,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 2.09,
       "lowest_price_date": "2026-10-22",
-      "avg_price": 2.09
+      "avg_price": 2.18
     },
     {
       "name": "Хляб СТРАЖИЦА бял 600г",
@@ -2433864,11 +2435405,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.07,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 2.31,
+          "price_eur": 1.18,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 2.09,
       "lowest_price_date": "2026-10-22",
-      "avg_price": 2.09
+      "avg_price": 2.2
     },
     {
       "name": "Хляб ръжено пшеничен 450г",
@@ -2433908,11 +2435457,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.12,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 2.37,
+          "price_eur": 1.21,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 2.19,
       "lowest_price_date": "2026-10-22",
-      "avg_price": 2.19
+      "avg_price": 2.28
     },
     {
       "name": "Хляб ПИРИНА бял 700г",
@@ -2434030,7 +2435587,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "images/foods/bread.svg",
       "product_id": "tmarket-хляб-аетос-бял-700г-700g",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-17",
       "first_seen": "2026-10-22",
       "price_history": [
         {
@@ -2434040,11 +2435597,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.15,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 2.41,
+          "price_eur": 1.23,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 2.25,
       "lowest_price_date": "2026-10-22",
-      "avg_price": 2.25
+      "avg_price": 2.33
     },
     {
       "name": "Хляб бял 700г",
@@ -2434266,11 +2435831,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.85,
           "old_price": 1.99,
           "discount_pct": 17
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 1.99,
+          "price_eur": 1.02,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 1.66,
       "lowest_price_date": "2026-11-10",
-      "avg_price": 1.7
+      "avg_price": 1.8
     },
     {
       "name": "Лимони, Аржентина кг.(Клас I)",
@@ -2434374,11 +2435947,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 3.29,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 5.48,
+          "price_eur": 2.8,
+          "old_price": 6.43,
+          "discount_pct": 15
         }
       ],
       "lowest_price": 5.18,
       "lowest_price_date": "2026-10-22",
-      "avg_price": 5.95
+      "avg_price": 5.86
     },
     {
       "name": "Св.месо за готвене Биляна мес МАП",
@@ -2474805,7 +2476386,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "images/foods/turkey.svg",
       "product_id": "tmarket-формован-деликатес-с-пуешко-филе-нас-кг",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-17",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2477349,11 +2478930,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 3.17,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 1.94,
+          "price_eur": 0.99,
+          "old_price": 6.2,
+          "discount_pct": 69
         }
       ],
-      "lowest_price": 2.33,
-      "lowest_price_date": "2026-11-09",
-      "avg_price": 4.27
+      "lowest_price": 1.94,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 3.49
     },
     {
       "name": "Денито Бургер салата",
@@ -2477935,11 +2479524,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.89,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 3.11,
+          "price_eur": 1.59,
+          "old_price": 3.7,
+          "discount_pct": 16
         }
       ],
-      "lowest_price": 3.7,
-      "lowest_price_date": "2026-11-09",
-      "avg_price": 3.7
+      "lowest_price": 3.11,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 3.41
     },
     {
       "name": "EXQUISA Кварк йогурт плодов Fitline protein",
@@ -2488490,7 +2490087,7 @@ const ALL_PRODUCTS_DATA = {
       "is_good_fat": false,
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/200px-No-Image-Placeholder.svg.png",
       "product_id": "tmarket-св-врат-с-кост-нас-кг-пр-българия-2",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-17",
       "first_seen": "2026-11-09",
       "price_history": [
         {
@@ -2491613,11 +2493210,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 1.53,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 2.72,
+          "price_eur": 1.39,
+          "old_price": 2.99,
+          "discount_pct": 9
         }
       ],
-      "lowest_price": 2.99,
-      "lowest_price_date": "2026-11-10",
-      "avg_price": 2.99
+      "lowest_price": 2.72,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 2.86
     },
     {
       "name": "*Краве сирене БОРИНО УЛАН,вак.кг",
@@ -2509562,6 +2511167,282 @@ const ALL_PRODUCTS_DATA = {
       "lowest_price": 79.99,
       "lowest_price_date": "2026-11-16",
       "avg_price": 79.99
+    },
+    {
+      "name": "Ябълки Златни кг. Полша (Клас I )",
+      "store": "T-Market",
+      "emoji": "🥦",
+      "category": "vegetable",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 7,
+      "diet_tags": [],
+      "macros": {
+        "kcal": 52,
+        "p": 0.3,
+        "f": 0.2,
+        "c": 14
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "images/foods/apple.svg",
+      "product_id": "tmarket-ябълки-златни-кг-полша-клас-i",
+      "last_seen": "2026-11-17",
+      "first_seen": "2026-11-17",
+      "price_history": [
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 2.13,
+          "price_eur": 1.09,
+          "old_price": 3.99,
+          "discount_pct": 47
+        }
+      ],
+      "lowest_price": 2.13,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 2.13
+    },
+    {
+      "name": "Ябълки Шарени кг. Полша ОПС",
+      "store": "T-Market",
+      "emoji": "🥦",
+      "category": "vegetable",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 7,
+      "diet_tags": [],
+      "macros": {
+        "kcal": 52,
+        "p": 0.3,
+        "f": 0.2,
+        "c": 14
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "images/foods/apple.svg",
+      "product_id": "tmarket-ябълки-шарени-кг-полша-опс",
+      "last_seen": "2026-11-17",
+      "first_seen": "2026-11-17",
+      "price_history": [
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 2.99,
+          "price_eur": 1.53,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 2.99,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 2.99
+    },
+    {
+      "name": "Банани, кг.(Клас I)",
+      "store": "T-Market",
+      "emoji": "🥦",
+      "category": "vegetable",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 7,
+      "diet_tags": [
+        "vegetarian"
+      ],
+      "macros": {
+        "kcal": 89,
+        "p": 1.1,
+        "f": 0.3,
+        "c": 23
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "images/foods/banana.svg",
+      "product_id": "tmarket-банани-кг-клас-i",
+      "last_seen": "2026-11-17",
+      "first_seen": "2026-11-17",
+      "price_history": [
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 3.6,
+          "price_eur": 1.84,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 3.6,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 3.6
+    },
+    {
+      "name": "Мокри кърпи Peppins Baby 64бр",
+      "store": "T-Market",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "images/fallback-hygiene.svg",
+      "product_id": "tmarket-мокри-кърпи-peppins-baby-64бр",
+      "last_seen": "2026-11-17",
+      "first_seen": "2026-11-17",
+      "price_history": [
+        {
+          "date": "2026-11-17",
+          "store": "T-Market",
+          "price": 2.44,
+          "price_eur": 1.25,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 2.44,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 2.44
+    },
+    {
+      "name": "Спатифилум Стайно растение",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_09900671_P.jpg",
+      "product_id": "kaufland-спатифилум-стаино-растение",
+      "last_seen": "2026-11-17",
+      "first_seen": "2026-11-17",
+      "price_history": [
+        {
+          "date": "2026-11-17",
+          "store": "Kaufland",
+          "price": 3.75,
+          "price_eur": 1.92,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 3.75,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 3.75
+    },
+    {
+      "name": "Минисагина в керамика Стайно растение",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "/etc.clientlibs/kaufland/clientlibs/clientlib-klsite/resources/frontend/assets/img/fallback-2afd874ba0.png",
+      "product_id": "kaufland-минисагина-в-керамика-стаино-растение",
+      "last_seen": "2026-11-17",
+      "first_seen": "2026-11-17",
+      "price_history": [
+        {
+          "date": "2026-11-17",
+          "store": "Kaufland",
+          "price": 3.99,
+          "price_eur": 2.04,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 3.99,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 3.99
+    },
+    {
+      "name": "Миниколедна звезда Стайно растение",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "/etc.clientlibs/kaufland/clientlibs/clientlib-klsite/resources/frontend/assets/img/fallback-2afd874ba0.png",
+      "product_id": "kaufland-миниколедна-звезда-стаино-растение",
+      "last_seen": "2026-11-17",
+      "first_seen": "2026-11-17",
+      "price_history": [
+        {
+          "date": "2026-11-17",
+          "store": "Kaufland",
+          "price": 4.19,
+          "price_eur": 2.14,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 4.19,
+      "lowest_price_date": "2026-11-17",
+      "avg_price": 4.19
     }
   ]
 };
