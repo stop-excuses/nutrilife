@@ -1,12 +1,12 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-11-16T20:45:50.345423Z",
+  "generated_at": "2026-11-17T00:39:06.718169Z",
   "store_last_scraped": {
     "Billa": "2026-11-13",
     "Dar": "2026-11-13",
     "Fantastico": "2026-11-13",
-    "Kaufland": "2026-11-16",
+    "Kaufland": "2026-11-17",
     "Lidl": "2026-11-15",
-    "T-Market": "2026-11-16"
+    "T-Market": "2026-11-17"
   },
   "unavailable_stores": [],
   "content_hash": "57c48fa704f3d254803d6137ba274fd2",
