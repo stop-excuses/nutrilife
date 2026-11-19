@@ -1,5 +1,5 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-11-19T17:09:28.961348Z",
+  "generated_at": "2026-11-19T18:46:42.057282Z",
   "store_last_scraped": {
     "Billa": "2026-11-19",
     "Dar": "2026-11-19",
@@ -9,9 +9,9 @@ const OFFERS_DATA = {
     "T-Market": "2026-11-17"
   },
   "unavailable_stores": [],
-  "content_hash": "894ecb42008ce038280e1b60814149c8",
-  "total_offers": 3974,
-  "promo_offers": 1360,
+  "content_hash": "f2a88737b0901a804b6f78a308b86c9d",
+  "total_offers": 3973,
+  "promo_offers": 1359,
   "assortment_offers": 2614,
   "stores": [
     "Billa",
@@ -92245,100 +92245,6 @@ const OFFERS_DATA = {
       "address": null,
       "new_price": 1.79,
       "new_price_eur": 0.92,
-      "old_price": 2.55,
-      "old_price_eur": 1.3,
-      "discount_pct": 30,
-      "valid_from": "2026-11-16",
-      "valid_until": "2026-11-22",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 1.79,
-          "price_eur": 0.92,
-          "old_price": 2.55,
-          "old_price_eur": 1.3,
-          "discount_pct": 30,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 1.79,
-      "comparison_count": 1,
-      "product_id": "kaufland-круши-конференс",
-      "name": "Круши Конференс",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/2832080000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "vegetable",
-      "emoji": "🥦",
-      "health_score": 5,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "macros": {
-        "kcal": 57,
-        "p": 0.4,
-        "f": 0.1,
-        "c": 15
-      },
-      "avg_price": 2.91,
-      "lowest_price": 1.69,
-      "lowest_price_date": "2026-10-19",
-      "price_history": [
-        [
-          "2026-04-14",
-          3.48,
-          4.99,
-          30
-        ],
-        [
-          "2026-04-27",
-          3.31,
-          4.99,
-          34
-        ],
-        [
-          "2026-05-11",
-          3.7,
-          4.99,
-          26
-        ],
-        [
-          "2026-06-01",
-          3.48,
-          4.99,
-          30
-        ],
-        [
-          "2026-10-19",
-          1.69,
-          2.55,
-          34
-        ],
-        [
-          "2026-11-16",
-          1.79,
-          2.55,
-          30
-        ]
-      ],
-      "price_seen_count": 6,
-      "price_signal": "good"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 1.79,
-      "new_price_eur": 0.92,
       "old_price": 2.29,
       "old_price_eur": 1.17,
       "discount_pct": 22,
@@ -181775,10 +181681,10 @@ const OFFERS_DATA = {
       "best_price_store": "Kaufland",
       "best_price": 1.69,
       "comparison_count": 1,
-      "product_id": "kaufland-коледен-щолен-200g",
+      "product_id": "kaufland-k-winter-edition-коледен-щолен-200g",
       "weight_grams": 200,
       "weight_raw": "200 г",
-      "name": "Коледен щолен",
+      "name": "K-WINTER EDITION Коледен щолен",
       "image": "https://kaufland.media.schwarz/is/image/schwarz/4101540775017_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
@@ -181790,18 +181696,24 @@ const OFFERS_DATA = {
       "is_good_fat": true,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
-      "avg_price": 1.69,
+      "avg_price": 3.04,
       "lowest_price": 1.69,
-      "lowest_price_date": "2026-11-02",
+      "lowest_price_date": "2026-11-19",
       "price_history": [
         [
           "2026-11-02",
+          4.39,
+          5.99,
+          27
+        ],
+        [
+          "2026-11-19",
           1.69,
           2.29,
           26
         ]
       ],
-      "price_seen_count": 1,
+      "price_seen_count": 2,
       "price_signal": "buy"
     },
     {
@@ -258030,10 +257942,10 @@ const OFFERS_DATA = {
       "best_price_store": "Kaufland",
       "best_price": 6.99,
       "comparison_count": 1,
-      "product_id": "kaufland-панетоне-с-шоколад-750g",
+      "product_id": "kaufland-k-winter-edition-панетоне-с-шоколад-750g",
       "weight_grams": 750,
       "weight_raw": "750 г",
-      "name": "Панетоне с шоколад",
+      "name": "K-WINTER EDITION Панетоне с шоколад",
       "image": "https://kaufland.media.schwarz/is/image/schwarz/DE20602838_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "grain",
       "emoji": "🌾",
@@ -258045,24 +257957,18 @@ const OFFERS_DATA = {
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": true,
-      "avg_price": 7.49,
+      "avg_price": 6.99,
       "lowest_price": 6.99,
-      "lowest_price_date": "2026-11-16",
+      "lowest_price_date": "2026-11-19",
       "price_history": [
         [
-          "2026-11-02",
-          7.99,
-          9.99,
-          20
-        ],
-        [
-          "2026-11-16",
+          "2026-11-19",
           6.99,
           9.99,
           30
         ]
       ],
-      "price_seen_count": 2,
+      "price_seen_count": 1,
       "price_signal": "buy"
     },
     {
@@ -264503,10 +264409,10 @@ const OFFERS_DATA = {
       "best_price_store": "Kaufland",
       "best_price": 7.99,
       "comparison_count": 1,
-      "product_id": "kaufland-сладкиш-пандоро-1000g",
+      "product_id": "kaufland-k-winter-edition-сладкиш-пандоро-1000g",
       "weight_grams": 1000,
       "weight_raw": "1000 г",
-      "name": "Сладкиш Пандоро",
+      "name": "K-WINTER EDITION Сладкиш Пандоро",
       "image": "https://kaufland.media.schwarz/is/image/schwarz/DE20602837_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "other",
       "emoji": "🛒",
@@ -264518,24 +264424,18 @@ const OFFERS_DATA = {
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
-      "avg_price": 8.24,
+      "avg_price": 7.99,
       "lowest_price": 7.99,
-      "lowest_price_date": "2026-11-16",
+      "lowest_price_date": "2026-11-19",
       "price_history": [
         [
-          "2026-11-02",
-          8.49,
-          10.79,
-          21
-        ],
-        [
-          "2026-11-16",
+          "2026-11-19",
           7.99,
           10.79,
           26
         ]
       ],
-      "price_seen_count": 2,
+      "price_seen_count": 1,
       "price_signal": "buy"
     },
     {
@@ -348167,5 +348067,5 @@ const OFFERS_DATA = {
       "price_signal": "buy"
     }
   ],
-  "catalog_products": 61709
+  "catalog_products": 61711
 };

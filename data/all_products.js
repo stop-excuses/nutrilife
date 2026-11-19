@@ -1,6 +1,6 @@
 const ALL_PRODUCTS_DATA = {
-  "generated_at": "2026-11-19T17:09:27.083378Z",
-  "total_products": 61709,
+  "generated_at": "2026-11-19T18:46:39.776860Z",
+  "total_products": 61711,
   "products": [
     {
       "name": "Пушена риба тон",
@@ -2466510,43 +2466510,6 @@ const ALL_PRODUCTS_DATA = {
       "avg_price": 4.29
     },
     {
-      "name": "K-WINTER EDITION Коледен щолен",
-      "store": "Kaufland",
-      "emoji": "🛒",
-      "category": "other",
-      "weight_raw": "750 г",
-      "weight_grams": 750,
-      "shelf_life": null,
-      "is_food": false,
-      "is_healthy": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": null,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": true,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/4101540775611_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "product_id": "kaufland-k-winter-edition-коледен-щолен-750g",
-      "last_seen": "2026-11-08",
-      "first_seen": "2026-11-02",
-      "price_history": [
-        {
-          "date": "2026-11-02",
-          "store": "Kaufland",
-          "price": 4.39,
-          "price_eur": 2.24,
-          "old_price": 5.99,
-          "discount_pct": 27
-        }
-      ],
-      "lowest_price": 4.39,
-      "lowest_price_date": "2026-11-02",
-      "avg_price": 4.39
-    },
-    {
       "name": "Quantum Червено, Бяло вино или Розе различни сортове",
       "store": "Kaufland",
       "emoji": "🍺",
@@ -2517118,6 +2517081,125 @@ const ALL_PRODUCTS_DATA = {
       "lowest_price": 35.99,
       "lowest_price_date": "2026-11-19",
       "avg_price": 35.99
+    },
+    {
+      "name": "K-WINTER EDITION Коледен щолен",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "200 г",
+      "weight_grams": 200,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": true,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4101540775017_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-k-winter-edition-коледен-щолен-200g",
+      "last_seen": "2026-11-19",
+      "first_seen": "2026-11-02",
+      "price_history": [
+        {
+          "date": "2026-11-02",
+          "store": "Kaufland",
+          "price": 4.39,
+          "price_eur": 2.24,
+          "old_price": 5.99,
+          "discount_pct": 27
+        },
+        {
+          "date": "2026-11-19",
+          "store": "Kaufland",
+          "price": 1.69,
+          "price_eur": 0.86,
+          "old_price": 2.29,
+          "discount_pct": 26
+        }
+      ],
+      "lowest_price": 1.69,
+      "lowest_price_date": "2026-11-19",
+      "avg_price": 3.04
+    },
+    {
+      "name": "K-WINTER EDITION Панетоне с шоколад",
+      "store": "Kaufland",
+      "emoji": "🌾",
+      "category": "grain",
+      "weight_raw": "750 г",
+      "weight_grams": 750,
+      "shelf_life": "1-2г",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": true,
+      "is_high_protein": true,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/DE20602838_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-k-winter-edition-панетоне-с-шоколад-750g",
+      "last_seen": "2026-11-19",
+      "first_seen": "2026-11-19",
+      "price_history": [
+        {
+          "date": "2026-11-19",
+          "store": "Kaufland",
+          "price": 6.99,
+          "price_eur": 3.57,
+          "old_price": 9.99,
+          "discount_pct": 30
+        }
+      ],
+      "lowest_price": 6.99,
+      "lowest_price_date": "2026-11-19",
+      "avg_price": 6.99
+    },
+    {
+      "name": "K-WINTER EDITION Сладкиш Пандоро",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "1000 г",
+      "weight_grams": 1000,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/DE20602837_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-k-winter-edition-сладкиш-пандоро-1000g",
+      "last_seen": "2026-11-19",
+      "first_seen": "2026-11-19",
+      "price_history": [
+        {
+          "date": "2026-11-19",
+          "store": "Kaufland",
+          "price": 7.99,
+          "price_eur": 4.09,
+          "old_price": 10.79,
+          "discount_pct": 26
+        }
+      ],
+      "lowest_price": 7.99,
+      "lowest_price_date": "2026-11-19",
+      "avg_price": 7.99
     }
   ]
 };
