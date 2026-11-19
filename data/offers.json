@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T12:18:04.174355Z",
+  "generated_at": "2026-11-19T14:45:47.240459Z",
   "store_last_scraped": {
     "Billa": "2026-11-19",
     "Dar": "2026-11-19",
@@ -9,10 +9,10 @@
     "T-Market": "2026-11-17"
   },
   "unavailable_stores": [],
-  "content_hash": "5b565341e705e9f4312d442be1ef2ade",
-  "total_offers": 3975,
+  "content_hash": "5926e7a030371248887c75a8cfb5000d",
+  "total_offers": 3982,
   "promo_offers": 1361,
-  "assortment_offers": 2614,
+  "assortment_offers": 2621,
   "stores": [
     "Billa",
     "Dar",
@@ -197277,6 +197277,87 @@
       "price_signal": "good"
     },
     {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 2.49,
+      "new_price_eur": 1.27,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-11-16",
+      "valid_until": "2026-11-22",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 2.49,
+          "price_eur": 1.27,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 2.49,
+      "comparison_count": 1,
+      "product_id": "kaufland-каланхое-ø10-5-см",
+      "name": "Каланхое Ø10,5 см",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/09902124_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 4.16,
+      "lowest_price": 1.99,
+      "lowest_price_date": "2026-08-25",
+      "price_history": [
+        [
+          "2026-04-30",
+          5.98,
+          null,
+          null
+        ],
+        [
+          "2026-06-02",
+          4.48,
+          null,
+          null
+        ],
+        [
+          "2026-06-30",
+          5.85,
+          null,
+          null
+        ],
+        [
+          "2026-08-25",
+          1.99,
+          null,
+          null
+        ],
+        [
+          "2026-09-15",
+          2.49,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 5,
+      "price_signal": "good"
+    },
+    {
       "store": "Fantastico",
       "address": null,
       "new_price": 2.49,
@@ -222025,6 +222106,126 @@
       "price_signal": "buy"
     },
     {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 3.99,
+      "new_price_eur": 2.04,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-11-16",
+      "valid_until": "2026-11-22",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 3.99,
+          "price_eur": 2.04,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 3.99,
+      "comparison_count": 1,
+      "product_id": "kaufland-минисагина-в-керамика-стаино-растение",
+      "name": "Минисагина в керамика Стайно растение",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 3.99,
+      "lowest_price": 3.99,
+      "lowest_price_date": "2026-11-17",
+      "price_history": [
+        [
+          "2026-11-17",
+          3.99,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 1,
+      "price_signal": "buy",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/174_09902105_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 3.99,
+      "new_price_eur": 2.04,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-11-16",
+      "valid_until": "2026-11-22",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 3.99,
+          "price_eur": 2.04,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 3.99,
+      "comparison_count": 1,
+      "product_id": "kaufland-драцена-маргината-ø10-5-см",
+      "name": "Драцена Маргината Ø10,5 см",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/8717191062657_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 5.89,
+      "lowest_price": 3.99,
+      "lowest_price_date": "2026-11-17",
+      "price_history": [
+        [
+          "2026-07-14",
+          7.8,
+          null,
+          null
+        ],
+        [
+          "2026-11-17",
+          3.99,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
       "store": "Fantastico",
       "address": null,
       "new_price": 3.99,
@@ -237971,6 +238172,69 @@
       ],
       "price_seen_count": 1,
       "price_signal": "buy"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 4.99,
+      "new_price_eur": 2.55,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-11-16",
+      "valid_until": "2026-11-22",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 4.99,
+          "price_eur": 2.55,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 4.99,
+      "comparison_count": 1,
+      "product_id": "kaufland-драцена-ø11-см",
+      "name": "Драцена Ø11 см",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/8717191061384_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 4.79,
+      "lowest_price": 4.59,
+      "lowest_price_date": "2026-08-11",
+      "price_history": [
+        [
+          "2026-08-11",
+          4.59,
+          null,
+          null
+        ],
+        [
+          "2026-09-15",
+          4.99,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "normal"
     },
     {
       "store": "Fantastico",
@@ -262943,6 +263207,69 @@
       "price_signal": "buy"
     },
     {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 7.66,
+      "new_price_eur": 3.92,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-11-16",
+      "valid_until": "2026-11-22",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 7.66,
+          "price_eur": 3.92,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 7.66,
+      "comparison_count": 1,
+      "product_id": "kaufland-шефлера-ø13-см",
+      "name": "Шефлера Ø13 см",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4025019011263_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 11.32,
+      "lowest_price": 7.66,
+      "lowest_price_date": "2026-11-17",
+      "price_history": [
+        [
+          "2026-04-30",
+          14.98,
+          null,
+          null
+        ],
+        [
+          "2026-11-17",
+          7.66,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy"
+    },
+    {
       "store": "Fantastico",
       "address": null,
       "new_price": 7.66,
@@ -269273,6 +269600,75 @@
       "price_seen_count": 9,
       "price_signal": "wait",
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20895674_P?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 8.95,
+      "new_price_eur": 4.58,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-11-16",
+      "valid_until": "2026-11-22",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 8.95,
+          "price_eur": 4.58,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 8.95,
+      "comparison_count": 1,
+      "product_id": "kaufland-антуриум-ø14-см",
+      "name": "Антуриум Ø14 см",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/09902160_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "other",
+      "emoji": "🛒",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 11.57,
+      "lowest_price": 8.79,
+      "lowest_price_date": "2026-09-20",
+      "price_history": [
+        [
+          "2026-05-07",
+          16.98,
+          null,
+          null
+        ],
+        [
+          "2026-09-20",
+          8.79,
+          null,
+          null
+        ],
+        [
+          "2026-11-17",
+          8.95,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 3,
+      "price_signal": "buy"
     },
     {
       "store": "Kaufland",
@@ -281493,6 +281889,69 @@
       "price_seen_count": 1,
       "price_signal": "buy",
       "image": "https://tmarketonline.bg/cdn/img/products/49575/vino-bulgarian-heritage-dimat-750-ml-63736a1d6de39.png?width=600&height=600&v=1777589967"
+    },
+    {
+      "store": "Kaufland",
+      "address": null,
+      "new_price": 13.69,
+      "new_price_eur": 7.0,
+      "old_price": null,
+      "old_price_eur": null,
+      "discount_pct": null,
+      "valid_from": "2026-11-16",
+      "valid_until": "2026-11-22",
+      "price_per_kg": null,
+      "price_per_kg_eur": null,
+      "source_type": "assortment",
+      "available_stores": [
+        "Kaufland"
+      ],
+      "store_prices": [
+        {
+          "store": "Kaufland",
+          "price": 13.69,
+          "price_eur": 7.0,
+          "old_price": null,
+          "old_price_eur": null,
+          "discount_pct": null,
+          "source_type": "assortment"
+        }
+      ],
+      "best_price_store": "Kaufland",
+      "best_price": 13.69,
+      "comparison_count": 1,
+      "product_id": "kaufland-бромелия-в-керамика",
+      "name": "Бромелия в керамика",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/174_00053383_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "category": "drinks",
+      "emoji": "🍺",
+      "is_food": false,
+      "is_junk": false,
+      "is_healthy": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "avg_price": 19.55,
+      "lowest_price": 13.69,
+      "lowest_price_date": "2026-09-20",
+      "price_history": [
+        [
+          "2026-08-04",
+          25.41,
+          null,
+          null
+        ],
+        [
+          "2026-09-20",
+          13.69,
+          null,
+          null
+        ]
+      ],
+      "price_seen_count": 2,
+      "price_signal": "buy"
     },
     {
       "store": "Fantastico",
