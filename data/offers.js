@@ -1,5 +1,5 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-11-20T12:41:26.718042Z",
+  "generated_at": "2026-11-20T16:40:32.846319Z",
   "store_last_scraped": {
     "Billa": "2026-11-20",
     "Dar": "2026-11-20",
@@ -9,9 +9,9 @@ const OFFERS_DATA = {
     "T-Market": "2026-11-17"
   },
   "unavailable_stores": [],
-  "content_hash": "88cd875cf17fd423e691e293be8ab34c",
-  "total_offers": 3970,
-  "promo_offers": 1365,
+  "content_hash": "0152c013124741838173b456f186d91d",
+  "total_offers": 3969,
+  "promo_offers": 1364,
   "assortment_offers": 2605,
   "stores": [
     "Billa",
@@ -29243,88 +29243,6 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 6,
       "price_signal": "normal"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 0.85,
-      "new_price_eur": 0.43,
-      "old_price": 1.53,
-      "old_price_eur": 0.78,
-      "discount_pct": 44,
-      "valid_from": "2026-11-16",
-      "valid_until": "2026-11-22",
-      "price_per_kg": null,
-      "price_per_kg_eur": null,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 0.85,
-          "price_eur": 0.43,
-          "old_price": 1.53,
-          "old_price_eur": 0.78,
-          "discount_pct": 44,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 0.85,
-      "comparison_count": 1,
-      "product_id": "kaufland-ябълки-ионапринс",
-      "name": "Ябълки Йонапринс",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00014920_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "vegetable",
-      "emoji": "🥦",
-      "health_score": 7,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "macros": {
-        "kcal": 52,
-        "p": 0.3,
-        "f": 0.2,
-        "c": 14
-      },
-      "avg_price": 1.58,
-      "lowest_price": 0.85,
-      "lowest_price_date": "2026-10-29",
-      "price_history": [
-        [
-          "2026-05-04",
-          1.99,
-          2.99,
-          33
-        ],
-        [
-          "2026-06-08",
-          1.94,
-          2.99,
-          35
-        ],
-        [
-          "2026-07-06",
-          1.55,
-          1.74,
-          11
-        ],
-        [
-          "2026-10-29",
-          0.85,
-          1.53,
-          44
-        ]
-      ],
-      "price_seen_count": 4,
-      "price_signal": "buy"
     },
     {
       "store": "Kaufland",
