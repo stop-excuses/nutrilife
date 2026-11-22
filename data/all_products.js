@@ -1,5 +1,5 @@
 const ALL_PRODUCTS_DATA = {
-  "generated_at": "2026-11-22T20:53:08.667213Z",
+  "generated_at": "2026-11-22T22:20:52.448076Z",
   "total_products": 61748,
   "products": [
     {
@@ -649560,7 +649560,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8945_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20778077_P.jpg",
       "product_id": "kaufland-геврек-със-сирене-и-сусам-от-нашата-пекарна-100g",
       "last_seen": "2026-11-22",
       "first_seen": "2026-05-07",
@@ -667922,7 +667922,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/5310115008378_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800226528503_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-vincinni-чаени-сладки-различни-видове-500g",
       "last_seen": "2026-11-22",
       "first_seen": "2026-05-07",
@@ -672566,7 +672566,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/9000101591965_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20658545_P.jpg",
       "product_id": "kaufland-bref-wc-блокче-промопакет-300g",
       "last_seen": "2026-11-22",
       "first_seen": "2026-05-07",
@@ -680432,7 +680432,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/146_20691706_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20691706_P.jpg",
       "product_id": "kaufland-мегдана-каима-различни-видове-250g",
       "last_seen": "2026-11-22",
       "first_seen": "2026-05-11",
@@ -687485,7 +687485,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8690529502912_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20958242_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-nancy-тоалетен-сапун-различни-видове-140g",
       "last_seen": "2026-11-22",
       "first_seen": "2026-05-11",
@@ -769185,7 +769185,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/7622300320768_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/8718103117335_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-своге-десерт-република-различни-видове-40g",
       "last_seen": "2026-11-22",
       "first_seen": "2026-05-18",
@@ -769392,7 +769392,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800061605575_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20726187?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-престиж-бисквити-роден-краи-170g",
       "last_seen": "2026-11-22",
       "first_seen": "2026-05-18",
@@ -774177,7 +774177,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8001090970497_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627093371_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-old-spice-део-стик-captain-50g",
       "last_seen": "2026-11-22",
       "first_seen": "2026-04-27",
@@ -774331,7 +774331,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8001090513977_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20270165_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-old-spice-дезодорант-различни-видове-150g",
       "last_seen": "2026-11-22",
       "first_seen": "2026-04-27",
@@ -783456,7 +783456,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/5000267013602_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20701988_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-johnnie-walker-шотландско-уиски-40-vol-1000g",
       "last_seen": "2026-11-22",
       "first_seen": "2026-04-20",
@@ -2138029,7 +2138029,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/2840350000000_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/8711000530337_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-кенар-катък-с-печени-чушки-от-свежата-витрина",
       "last_seen": "2026-11-22",
       "first_seen": "2026-07-02",
@@ -2173344,7 +2173344,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800232080644_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/5902162008786_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-atani-червен-пипер-сладък-200g",
       "last_seen": "2026-11-22",
       "first_seen": "2026-04-27",
@@ -2174808,7 +2174808,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800030261016_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20761504?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-джем-и-джем-конфитюр-различни-видове-360g",
       "last_seen": "2026-11-22",
       "first_seen": "2026-05-07",
@@ -2246157,7 +2246157,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800030731076_BG_P?JGstbGVnYWN5LW9uc2l0ZS0xJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066632017546_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-ввв-плодова-напитка-вишна-1000g",
       "last_seen": "2026-11-22",
       "first_seen": "2026-08-17",
@@ -2247373,7 +2247373,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/235_3800217453067_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20659545_P.jpg",
       "product_id": "kaufland-браво-свинска-шунка-различни-видове-200g",
       "last_seen": "2026-11-22",
       "first_seen": "2026-08-17",
@@ -2372182,9 +2372182,9 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": true,
-      "image": "https://imgproxy-retcat.assets.schwarz/o7AMJ4kTCbMHZydG6z0y5k5AK1qXZo6vuwJGtqXXy5I/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0FDNTBENDIzOEZCMDVFMzhGOEIyOTA3Rk/RBMkIzQkZBRjc3MEVCNjFGRUI2QUU1RURDMTg3Q0RBRjM5OEVENTUucG5n.png",
+      "image": "https://www.lidl.bg/assets/gcp07e630afc10b493e87fa855713aae77f.png",
       "product_id": "lidl-филе-елена-400g",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-11-22",
       "first_seen": "2026-07-05",
       "price_history": [
         {
@@ -2373455,59 +2373455,6 @@ const ALL_PRODUCTS_DATA = {
       "lowest_price": 4.59,
       "lowest_price_date": "2026-09-27",
       "avg_price": 5.51
-    },
-    {
-      "name": "Луканка",
-      "store": "Lidl",
-      "emoji": "🍗",
-      "category": "protein",
-      "weight_raw": "5 х 100 g",
-      "weight_grams": 500,
-      "shelf_life": "малотраен",
-      "is_food": true,
-      "is_healthy": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": 3,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://imgproxy-retcat.assets.schwarz/2uOW_FY3h3nTJmYe4DQ91c05CG09daim1VoB4TlRWC0/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvYmcvMS8zRDIzMkNBNzlDMTVFMjI2RjVCNzExODk/yQzFBQTI4NUY0QkY2ODlGNTBEMEM3MEQ1RDE1QTFFMDc3QkFCQzU0LnBuZw.png",
-      "product_id": "lidl-луканка-500g",
-      "last_seen": "2026-10-04",
-      "first_seen": "2026-07-05",
-      "price_history": [
-        {
-          "date": "2026-07-05",
-          "store": "Lidl",
-          "price": 15.84,
-          "price_eur": 8.1,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-09-20",
-          "store": "Lidl",
-          "price": 1.49,
-          "price_eur": 0.76,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-09-27",
-          "store": "Lidl",
-          "price": 7.47,
-          "price_eur": 3.82,
-          "old_price": null,
-          "discount_pct": null
-        }
-      ],
-      "lowest_price": 1.49,
-      "lowest_price_date": "2026-09-20",
-      "avg_price": 8.27
     },
     {
       "name": "Пролетни рулца",
@@ -2392374,7 +2392321,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00078390_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20683039_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-лимони",
       "last_seen": "2026-11-22",
       "first_seen": "2026-04-14",
@@ -2420419,7 +2420366,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/257_2020933192B_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20933192_P.jpg",
       "product_id": "kaufland-bojana-o_ye-сос-различни-видове-200g",
       "last_seen": "2026-11-22",
       "first_seen": "2026-10-16",
@@ -2473220,7 +2473167,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://www.lidl.bg/assets/gcp1e963972451441769bc20a9375165328.jpg",
+      "image": "https://www.lidl.bg/assets/gcp10a4fd8f3f164978ae6570e1cef1f341.jpg",
       "product_id": "lidl-боровинки-125g",
       "last_seen": "2026-11-22",
       "first_seen": "2026-05-07",
@@ -2473272,11 +2473219,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.92,
           "old_price": 2.29,
           "discount_pct": 22
+        },
+        {
+          "date": "2026-11-22",
+          "store": "Lidl",
+          "price": 1.99,
+          "price_eur": 1.02,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 1.69,
       "lowest_price_date": "2026-11-08",
-      "avg_price": 3.68
+      "avg_price": 3.44
     },
     {
       "name": "Спанак",
@@ -2498558,68 +2498513,6 @@ const ALL_PRODUCTS_DATA = {
       "avg_price": 4.74
     },
     {
-      "name": "Прясно пилешко филе XXL",
-      "store": "Lidl",
-      "emoji": "🍗",
-      "category": "protein",
-      "weight_raw": "1.2 kg",
-      "weight_grams": 1200,
-      "shelf_life": "малотраен",
-      "is_food": true,
-      "is_healthy": true,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": 9,
-      "diet_tags": [
-        "high_protein",
-        "keto",
-        "budget"
-      ],
-      "macros": {
-        "kcal": 165,
-        "p": 31,
-        "f": 3.6,
-        "c": 0
-      },
-      "is_junk": false,
-      "is_high_protein": true,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://www.lidl.bg/assets/gcpd1229926e98f4c72878042fecdfc6f5c.jpg",
-      "product_id": "lidl-прясно-пилешко-филе-xxl-1200g",
-      "last_seen": "2026-11-22",
-      "first_seen": "2026-06-14",
-      "price_history": [
-        {
-          "date": "2026-06-14",
-          "store": "Lidl",
-          "price": 11.99,
-          "price_eur": 6.13,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-07-19",
-          "store": "Lidl",
-          "price": 11.91,
-          "price_eur": 6.09,
-          "old_price": 14.98,
-          "discount_pct": 20
-        },
-        {
-          "date": "2026-09-06",
-          "store": "Lidl",
-          "price": 5.29,
-          "price_eur": 2.7,
-          "old_price": 6.64,
-          "discount_pct": 20
-        }
-      ],
-      "lowest_price": 5.29,
-      "lowest_price_date": "2026-09-06",
-      "avg_price": 9.73
-    },
-    {
       "name": "Киви",
       "store": "Lidl",
       "emoji": "🥦",
@@ -2498643,7 +2498536,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://www.lidl.bg/assets/gcp2c4001b2426142b8a3b20bb063ad542e.png",
+      "image": "https://www.lidl.bg/assets/gcp9f05c216b8d147f495ad5d42a0e436c4.png",
       "product_id": "lidl-киви",
       "last_seen": "2026-11-22",
       "first_seen": "2026-11-15",
@@ -2498655,11 +2498548,19 @@ const ALL_PRODUCTS_DATA = {
           "price_eur": 0.3,
           "old_price": 0.79,
           "discount_pct": 25
+        },
+        {
+          "date": "2026-11-22",
+          "store": "Lidl",
+          "price": 1.99,
+          "price_eur": 1.02,
+          "old_price": 2.99,
+          "discount_pct": 33
         }
       ],
       "lowest_price": 0.59,
       "lowest_price_date": "2026-11-15",
-      "avg_price": 0.59
+      "avg_price": 1.29
     },
     {
       "name": "Говеждо едносортно месо",
@@ -2498924,48 +2498825,6 @@ const ALL_PRODUCTS_DATA = {
       "lowest_price": 0.79,
       "lowest_price_date": "2026-11-15",
       "avg_price": 0.79
-    },
-    {
-      "name": "Мандарини",
-      "store": "Lidl",
-      "emoji": "🥦",
-      "category": "vegetable",
-      "weight_raw": null,
-      "weight_grams": null,
-      "shelf_life": "малотраен",
-      "is_food": true,
-      "is_healthy": true,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": 7,
-      "diet_tags": [],
-      "macros": {
-        "kcal": 53,
-        "p": 0.8,
-        "f": 0.3,
-        "c": 13
-      },
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "image": "https://www.lidl.bg/assets/gcp9742454790904910aea3ab1413c90896.jpeg",
-      "product_id": "lidl-мандарини",
-      "last_seen": "2026-11-22",
-      "first_seen": "2026-11-15",
-      "price_history": [
-        {
-          "date": "2026-11-15",
-          "store": "Lidl",
-          "price": 1.19,
-          "price_eur": 0.61,
-          "old_price": 1.99,
-          "discount_pct": 40
-        }
-      ],
-      "lowest_price": 1.19,
-      "lowest_price_date": "2026-11-15",
-      "avg_price": 1.19
     },
     {
       "name": "Сирене",
@@ -2499500,83 +2499359,6 @@ const ALL_PRODUCTS_DATA = {
       "lowest_price": 0.64,
       "lowest_price_date": "2026-11-15",
       "avg_price": 2.0
-    },
-    {
-      "name": "Сос за паста",
-      "store": "Lidl",
-      "emoji": "🛒",
-      "category": "other",
-      "weight_raw": "400 ml",
-      "weight_grams": 400,
-      "shelf_life": null,
-      "is_food": false,
-      "is_healthy": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "health_score": null,
-      "diet_tags": [],
-      "macros": null,
-      "is_junk": false,
-      "is_high_protein": false,
-      "is_good_carb": true,
-      "is_good_fat": false,
-      "image": "https://www.lidl.bg/assets/gcp1e88fca65bc24800b67fa5cde901fc34.png",
-      "product_id": "lidl-сос-за-паста-400g",
-      "last_seen": "2026-11-22",
-      "first_seen": "2026-06-28",
-      "price_history": [
-        {
-          "date": "2026-06-28",
-          "store": "Lidl",
-          "price": 3.89,
-          "price_eur": 1.99,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-07-12",
-          "store": "Lidl",
-          "price": 3.99,
-          "price_eur": 2.04,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-08-23",
-          "store": "Lidl",
-          "price": 1.99,
-          "price_eur": 1.02,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-08-30",
-          "store": "Lidl",
-          "price": 0.99,
-          "price_eur": 0.51,
-          "old_price": 1.27,
-          "discount_pct": 22
-        },
-        {
-          "date": "2026-09-13",
-          "store": "Lidl",
-          "price": 1.99,
-          "price_eur": 1.02,
-          "old_price": null,
-          "discount_pct": null
-        },
-        {
-          "date": "2026-11-15",
-          "store": "Lidl",
-          "price": 0.99,
-          "price_eur": 0.51,
-          "old_price": 1.43,
-          "discount_pct": 31
-        }
-      ],
-      "lowest_price": 0.99,
-      "lowest_price_date": "2026-08-30",
-      "avg_price": 2.31
     },
     {
       "name": "Минерална вода",
@@ -2500138,7 +2499920,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://www.lidl.bg/assets/gcp356f911448ba4359a6936c5f9c188667.png",
+      "image": "https://www.lidl.bg/assets/gcp411a10771c5b49548027e6236fb06de3.png",
       "product_id": "lidl-десерт-в-чаша-120g",
       "last_seen": "2026-11-22",
       "first_seen": "2026-07-12",
@@ -2500527,7 +2500309,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20837242_P?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
+      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20837242_P.jpg",
       "product_id": "kaufland-кулинар-оцет-винен-или-ябълков-700g",
       "last_seen": "2026-11-22",
       "first_seen": "2026-11-16",
@@ -2501422,7 +2501204,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00072396?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_00072396_P.jpg",
       "product_id": "kaufland-мандарини-клас-i-2000g",
       "last_seen": "2026-11-22",
       "first_seen": "2026-11-16",
@@ -2502760,7 +2502542,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": true,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/00076923_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20688939_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-nutella-лешниково-какаов-крем-1000g",
       "last_seen": "2026-11-22",
       "first_seen": "2026-05-07",
@@ -2507561,7 +2507343,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8001090965615_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066628085337_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-old-spice-душ-гел-различни-видове-400g",
       "last_seen": "2026-11-22",
       "first_seen": "2026-05-07",
@@ -2509144,7 +2508926,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20955667_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20955667_P.jpg",
       "product_id": "kaufland-artisan-cake-замразен-десерт-различни-видове-90g",
       "last_seen": "2026-11-22",
       "first_seen": "2026-11-16",
@@ -2510128,7 +2509910,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8001090978752_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/4066627091360_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-old-spice-лосион-за-след-бръснене-различни-видове-100g",
       "last_seen": "2026-11-22",
       "first_seen": "2026-11-16",
@@ -2511994,7 +2511776,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/02200162_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20706702-1?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-plomari-узо-700g",
       "last_seen": "2026-11-22",
       "first_seen": "2026-04-27",
@@ -2513166,7 +2512948,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20726161_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20726161_P.jpg",
       "product_id": "kaufland-highland-queen-шотландско-уиски-40-vol-1500g",
       "last_seen": "2026-11-22",
       "first_seen": "2026-05-07",
@@ -2518968,6 +2518750,266 @@ const ALL_PRODUCTS_DATA = {
       "lowest_price": 11.99,
       "lowest_price_date": "2026-11-22",
       "avg_price": 11.99
+    },
+    {
+      "name": "Прясно пилешко филе XXL",
+      "store": "Lidl",
+      "emoji": "🍗",
+      "category": "protein",
+      "weight_raw": "2 kg",
+      "weight_grams": 2000,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 9,
+      "diet_tags": [
+        "high_protein",
+        "keto",
+        "budget"
+      ],
+      "macros": {
+        "kcal": 165,
+        "p": 31,
+        "f": 3.6,
+        "c": 0
+      },
+      "is_junk": false,
+      "is_high_protein": true,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://www.lidl.bg/assets/gcpccb74036a3ee4c46a14fc8ddd3d61c58.jpg",
+      "product_id": "lidl-прясно-пилешко-филе-xxl-2000g",
+      "last_seen": "2026-11-22",
+      "first_seen": "2026-06-14",
+      "price_history": [
+        {
+          "date": "2026-06-14",
+          "store": "Lidl",
+          "price": 11.99,
+          "price_eur": 6.13,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-07-19",
+          "store": "Lidl",
+          "price": 11.91,
+          "price_eur": 6.09,
+          "old_price": 14.98,
+          "discount_pct": 20
+        },
+        {
+          "date": "2026-09-06",
+          "store": "Lidl",
+          "price": 5.29,
+          "price_eur": 2.7,
+          "old_price": 6.64,
+          "discount_pct": 20
+        }
+      ],
+      "lowest_price": 5.29,
+      "lowest_price_date": "2026-09-06",
+      "avg_price": 9.73
+    },
+    {
+      "name": "Мандарини",
+      "store": "Lidl",
+      "emoji": "🥦",
+      "category": "vegetable",
+      "weight_raw": "2 kg",
+      "weight_grams": 2000,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 7,
+      "diet_tags": [
+        "budget"
+      ],
+      "macros": {
+        "kcal": 53,
+        "p": 0.8,
+        "f": 0.3,
+        "c": 13
+      },
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://www.lidl.bg/assets/gcp7f8ec4b243794277871ac22b1c0f202b.jpg",
+      "product_id": "lidl-мандарини-2000g",
+      "last_seen": "2026-11-22",
+      "first_seen": "2026-11-15",
+      "price_history": [
+        {
+          "date": "2026-11-15",
+          "store": "Lidl",
+          "price": 1.19,
+          "price_eur": 0.61,
+          "old_price": 1.99,
+          "discount_pct": 40
+        },
+        {
+          "date": "2026-11-22",
+          "store": "Lidl",
+          "price": 2.79,
+          "price_eur": 1.43,
+          "old_price": 3.39,
+          "discount_pct": 18
+        }
+      ],
+      "lowest_price": 1.19,
+      "lowest_price_date": "2026-11-15",
+      "avg_price": 1.99
+    },
+    {
+      "name": "Луканка",
+      "store": "Lidl",
+      "emoji": "🍗",
+      "category": "protein",
+      "weight_raw": "340 g",
+      "weight_grams": 340,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 3,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://www.lidl.bg/assets/gcp3b3d32b9ca4742e9adc0f67d51ae59e0.png",
+      "product_id": "lidl-луканка-340g",
+      "last_seen": "2026-11-22",
+      "first_seen": "2026-07-05",
+      "price_history": [
+        {
+          "date": "2026-07-05",
+          "store": "Lidl",
+          "price": 15.84,
+          "price_eur": 8.1,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-09-20",
+          "store": "Lidl",
+          "price": 1.49,
+          "price_eur": 0.76,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-09-27",
+          "store": "Lidl",
+          "price": 7.47,
+          "price_eur": 3.82,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-11-22",
+          "store": "Lidl",
+          "price": 4.39,
+          "price_eur": 2.24,
+          "old_price": 8.78,
+          "discount_pct": 50
+        }
+      ],
+      "lowest_price": 1.49,
+      "lowest_price_date": "2026-09-20",
+      "avg_price": 7.3
+    },
+    {
+      "name": "Сос за паста",
+      "store": "Lidl",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": "350 g",
+      "weight_grams": 350,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": true,
+      "is_good_fat": false,
+      "image": "https://www.lidl.bg/assets/gcpd0c1c4b4ed904fe9b542f51317f267a6.png",
+      "product_id": "lidl-сос-за-паста-350g",
+      "last_seen": "2026-11-22",
+      "first_seen": "2026-06-28",
+      "price_history": [
+        {
+          "date": "2026-06-28",
+          "store": "Lidl",
+          "price": 3.89,
+          "price_eur": 1.99,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-07-12",
+          "store": "Lidl",
+          "price": 3.99,
+          "price_eur": 2.04,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-08-23",
+          "store": "Lidl",
+          "price": 1.99,
+          "price_eur": 1.02,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-08-30",
+          "store": "Lidl",
+          "price": 0.99,
+          "price_eur": 0.51,
+          "old_price": 1.27,
+          "discount_pct": 22
+        },
+        {
+          "date": "2026-09-13",
+          "store": "Lidl",
+          "price": 1.99,
+          "price_eur": 1.02,
+          "old_price": null,
+          "discount_pct": null
+        },
+        {
+          "date": "2026-11-15",
+          "store": "Lidl",
+          "price": 0.99,
+          "price_eur": 0.51,
+          "old_price": 1.43,
+          "discount_pct": 31
+        },
+        {
+          "date": "2026-11-22",
+          "store": "Lidl",
+          "price": 1.99,
+          "price_eur": 1.02,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 0.99,
+      "lowest_price_date": "2026-08-30",
+      "avg_price": 2.26
     }
   ]
 };
