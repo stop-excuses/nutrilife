@@ -1,6 +1,6 @@
 const ALL_PRODUCTS_DATA = {
-  "generated_at": "2026-11-23T14:13:11.316122Z",
-  "total_products": 62032,
+  "generated_at": "2026-11-23T15:37:10.080354Z",
+  "total_products": 62036,
   "products": [
     {
       "name": "Пушена риба тон",
@@ -688871,7 +688871,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_00063649_P.jpg",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/5201004541444_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-papadopoulos-бисквити-petit-beurre-избрани-видове-225g",
       "last_seen": "2026-11-23",
       "first_seen": "2026-05-11",
@@ -2520860,7 +2520860,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20893883_P.jpg",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20893883_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-кен-деликатесен-салам-от-свежата-витрина",
       "last_seen": "2026-11-23",
       "first_seen": "2026-11-23",
@@ -2533142,6 +2533142,163 @@ const ALL_PRODUCTS_DATA = {
       "lowest_price": 126.99,
       "lowest_price_date": "2026-11-23",
       "avg_price": 126.99
+    },
+    {
+      "name": "Пилешко бутче от свежата витрина",
+      "store": "Kaufland",
+      "emoji": "🍗",
+      "category": "protein",
+      "weight_raw": "на кг",
+      "weight_grams": null,
+      "shelf_life": "малотраен",
+      "is_food": true,
+      "is_healthy": true,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": 9,
+      "diet_tags": [
+        "high_protein",
+        "keto",
+        "budget"
+      ],
+      "macros": {
+        "kcal": 165,
+        "p": 31,
+        "f": 3.6,
+        "c": 0
+      },
+      "is_junk": false,
+      "is_high_protein": true,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/01000431_A?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-пилешко-бутче-от-свежата-витрина",
+      "last_seen": "2026-11-23",
+      "first_seen": "2026-11-23",
+      "price_history": [
+        {
+          "date": "2026-11-23",
+          "store": "Kaufland",
+          "price": 1.99,
+          "price_eur": 1.02,
+          "old_price": 3.06,
+          "discount_pct": 35
+        }
+      ],
+      "lowest_price": 1.99,
+      "lowest_price_date": "2026-11-23",
+      "avg_price": 1.99
+    },
+    {
+      "name": "Galaxy Сладолед във фунийка различни видове",
+      "store": "Kaufland",
+      "emoji": "🥛",
+      "category": "dairy",
+      "weight_raw": "74,5 г",
+      "weight_grams": 74,
+      "shelf_life": "малотраен",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/3800029104294_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-galaxy-сладолед-във-фуниика-различни-видове-74g",
+      "last_seen": "2026-11-23",
+      "first_seen": "2026-11-23",
+      "price_history": [
+        {
+          "date": "2026-11-23",
+          "store": "Kaufland",
+          "price": 0.55,
+          "price_eur": 0.28,
+          "old_price": 1.12,
+          "discount_pct": 51
+        }
+      ],
+      "lowest_price": 0.55,
+      "lowest_price_date": "2026-11-23",
+      "avg_price": 0.55
+    },
+    {
+      "name": "Merci Бонбони Lovelies различни видове",
+      "store": "Kaufland",
+      "emoji": "🌾",
+      "category": "grain",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": "1-2г",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20544690_P.jpg",
+      "product_id": "kaufland-merci-бонбони-lovelies-различни-видове",
+      "last_seen": "2026-11-23",
+      "first_seen": "2026-11-23",
+      "price_history": [
+        {
+          "date": "2026-11-23",
+          "store": "Kaufland",
+          "price": 4.49,
+          "price_eur": 2.3,
+          "old_price": 6.19,
+          "discount_pct": 27
+        }
+      ],
+      "lowest_price": 4.49,
+      "lowest_price_date": "2026-11-23",
+      "avg_price": 4.49
+    },
+    {
+      "name": "MERCI Бонбони Lovelies микс",
+      "store": "Kaufland",
+      "emoji": "🌾",
+      "category": "grain",
+      "weight_raw": "185 г",
+      "weight_grams": 185,
+      "shelf_life": "1-2г",
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": true,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": true,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20209385_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-merci-бонбони-lovelies-микс-185g",
+      "last_seen": "2026-11-23",
+      "first_seen": "2026-11-23",
+      "price_history": [
+        {
+          "date": "2026-11-23",
+          "store": "Kaufland",
+          "price": 4.49,
+          "price_eur": 2.3,
+          "old_price": 6.19,
+          "discount_pct": 27
+        }
+      ],
+      "lowest_price": 4.49,
+      "lowest_price_date": "2026-11-23",
+      "avg_price": 4.49
     }
   ]
 };
