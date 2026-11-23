@@ -1,5 +1,5 @@
 const ALL_PRODUCTS_DATA = {
-  "generated_at": "2026-11-23T15:37:10.080354Z",
+  "generated_at": "2026-11-23T17:54:05.140021Z",
   "total_products": 62036,
   "products": [
     {
@@ -688871,7 +688871,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/5201004541444_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_00063649_P.jpg",
       "product_id": "kaufland-papadopoulos-бисквити-petit-beurre-избрани-видове-225g",
       "last_seen": "2026-11-23",
       "first_seen": "2026-05-11",
@@ -2520860,7 +2520860,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/20893883_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://media.kaufland.com/images/PPIM/KMO/BG300_20893883_P.jpg",
       "product_id": "kaufland-кен-деликатесен-салам-от-свежата-витрина",
       "last_seen": "2026-11-23",
       "first_seen": "2026-11-23",
