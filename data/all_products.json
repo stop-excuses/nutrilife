@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-24T02:04:05.739478Z",
-  "total_products": 62036,
+  "generated_at": "2026-11-24T03:09:56.117196Z",
+  "total_products": 62042,
   "products": [
     {
       "name": "Пушена риба тон",
@@ -582411,7 +582411,7 @@
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8712567911690_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-хризантема-ø12-см",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-24",
       "first_seen": "2026-04-30",
       "price_history": [
         {
@@ -582453,11 +582453,19 @@
           "price_eur": 1.53,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-24",
+          "store": "Kaufland",
+          "price": 2.79,
+          "price_eur": 1.43,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
-      "lowest_price": 2.99,
-      "lowest_price_date": "2026-08-25",
-      "avg_price": 4.71
+      "lowest_price": 2.79,
+      "lowest_price_date": "2026-11-24",
+      "avg_price": 4.39
     },
     {
       "name": "Нори",
@@ -628770,7 +628778,7 @@
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/09902123G_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-орхидея-фаленопсис-ø12-см",
-      "last_seen": "2026-11-15",
+      "last_seen": "2026-11-24",
       "first_seen": "2026-05-07",
       "price_history": [
         {
@@ -693142,7 +693150,7 @@
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8716137000012_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-конифери-микс-ø9-см",
-      "last_seen": "2026-10-08",
+      "last_seen": "2026-11-24",
       "first_seen": "2026-05-11",
       "price_history": [
         {
@@ -693160,11 +693168,19 @@
           "price_eur": 1.17,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-24",
+          "store": "Kaufland",
+          "price": 2.09,
+          "price_eur": 1.07,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
-      "lowest_price": 2.29,
-      "lowest_price_date": "2026-08-25",
-      "avg_price": 3.39
+      "lowest_price": 2.09,
+      "lowest_price_date": "2026-11-24",
+      "avg_price": 2.95
     },
     {
       "name": "Ocean Fish Суши Маки",
@@ -825028,7 +825044,7 @@
       "is_good_fat": true,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00077194_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-цветна-орхидея-фаленопсис-оцветена-допълнително",
-      "last_seen": "2026-09-29",
+      "last_seen": "2026-11-24",
       "first_seen": "2026-05-26",
       "price_history": [
         {
@@ -2138773,7 +2138789,7 @@
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/8717191071383_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-фикус-бенджамин",
-      "last_seen": "2026-07-05",
+      "last_seen": "2026-11-24",
       "first_seen": "2026-06-30",
       "price_history": [
         {
@@ -2138783,11 +2138799,19 @@
           "price_eur": 7.99,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-24",
+          "store": "Kaufland",
+          "price": 8.15,
+          "price_eur": 4.17,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
-      "lowest_price": 15.63,
-      "lowest_price_date": "2026-06-30",
-      "avg_price": 15.63
+      "lowest_price": 8.15,
+      "lowest_price_date": "2026-11-24",
+      "avg_price": 11.89
     },
     {
       "name": "Хортензия Ø14 см",
@@ -2387718,7 +2387742,7 @@
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/20910877_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-антуриум-ø17-см",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-11-24",
       "first_seen": "2026-09-29",
       "price_history": [
         {
@@ -2387728,11 +2387752,19 @@
           "price_eur": 6.54,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-24",
+          "store": "Kaufland",
+          "price": 13.38,
+          "price_eur": 6.84,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 12.79,
       "lowest_price_date": "2026-09-29",
-      "avg_price": 12.79
+      "avg_price": 13.09
     },
     {
       "name": "ТОРТЕЛИНИ REGGIA FRESCA & BUONA РИКОТА И СПАНАК 500 Г IMPORT",
@@ -2454017,7 +2454049,7 @@
       "is_good_fat": false,
       "image": "https://kaufland.media.schwarz/is/image/schwarz/00053092_P-1?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
       "product_id": "kaufland-амарилис-ø12-см",
-      "last_seen": "2026-11-01",
+      "last_seen": "2026-11-24",
       "first_seen": "2026-10-27",
       "price_history": [
         {
@@ -2454027,11 +2454059,19 @@
           "price_eur": 2.04,
           "old_price": null,
           "discount_pct": null
+        },
+        {
+          "date": "2026-11-24",
+          "store": "Kaufland",
+          "price": 4.1,
+          "price_eur": 2.1,
+          "old_price": null,
+          "discount_pct": null
         }
       ],
       "lowest_price": 3.99,
       "lowest_price_date": "2026-10-27",
-      "avg_price": 3.99
+      "avg_price": 4.04
     },
     {
       "name": "Хризантема Ø15 см",
@@ -2533363,6 +2533403,228 @@
       "lowest_price": 4.49,
       "lowest_price_date": "2026-11-23",
       "avg_price": 4.49
+    },
+    {
+      "name": "Мини Коледна звезда 6 см Стайно растение",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "/etc.clientlibs/kaufland/clientlibs/clientlib-klsite/resources/frontend/assets/img/fallback-2afd874ba0.png",
+      "product_id": "kaufland-мини-коледна-звезда-6-см-стаино-растение",
+      "last_seen": "2026-11-24",
+      "first_seen": "2026-11-24",
+      "price_history": [
+        {
+          "date": "2026-11-24",
+          "store": "Kaufland",
+          "price": 1.79,
+          "price_eur": 0.92,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 1.79,
+      "lowest_price_date": "2026-11-24",
+      "avg_price": 1.79
+    },
+    {
+      "name": "Хризантема \"Splash Rocker\"",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/20899077_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-хризантема-splash-rocker",
+      "last_seen": "2026-11-24",
+      "first_seen": "2026-11-24",
+      "price_history": [
+        {
+          "date": "2026-11-24",
+          "store": "Kaufland",
+          "price": 3.57,
+          "price_eur": 1.83,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 3.57,
+      "lowest_price_date": "2026-11-24",
+      "avg_price": 3.57
+    },
+    {
+      "name": "Коледна звезда Ø 13см",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "/etc.clientlibs/kaufland/clientlibs/clientlib-klsite/resources/frontend/assets/img/fallback-2afd874ba0.png",
+      "product_id": "kaufland-коледна-звезда-ø-13см",
+      "last_seen": "2026-11-24",
+      "first_seen": "2026-11-24",
+      "price_history": [
+        {
+          "date": "2026-11-24",
+          "store": "Kaufland",
+          "price": 4.99,
+          "price_eur": 2.55,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 4.99,
+      "lowest_price_date": "2026-11-24",
+      "avg_price": 4.99
+    },
+    {
+      "name": "Минипицеа в керамика Ø6 см",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/21009193_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-минипицеа-в-керамика-ø6-см",
+      "last_seen": "2026-11-24",
+      "first_seen": "2026-11-24",
+      "price_history": [
+        {
+          "date": "2026-11-24",
+          "store": "Kaufland",
+          "price": 6.99,
+          "price_eur": 3.57,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 6.99,
+      "lowest_price_date": "2026-11-24",
+      "avg_price": 6.99
+    },
+    {
+      "name": "Букет Лалета с декорация",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00105936?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-букет-лалета-с-декорация",
+      "last_seen": "2026-11-24",
+      "first_seen": "2026-11-24",
+      "price_history": [
+        {
+          "date": "2026-11-24",
+          "store": "Kaufland",
+          "price": 7.49,
+          "price_eur": 3.83,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 7.49,
+      "lowest_price_date": "2026-11-24",
+      "avg_price": 7.49
+    },
+    {
+      "name": "Букет Микс",
+      "store": "Kaufland",
+      "emoji": "🛒",
+      "category": "other",
+      "weight_raw": null,
+      "weight_grams": null,
+      "shelf_life": null,
+      "is_food": false,
+      "is_healthy": false,
+      "is_bulk_worthy": false,
+      "is_long_lasting": false,
+      "health_score": null,
+      "diet_tags": [],
+      "macros": null,
+      "is_junk": false,
+      "is_high_protein": false,
+      "is_good_carb": false,
+      "is_good_fat": false,
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/00103842_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "product_id": "kaufland-букет-микс",
+      "last_seen": "2026-11-24",
+      "first_seen": "2026-11-24",
+      "price_history": [
+        {
+          "date": "2026-11-24",
+          "store": "Kaufland",
+          "price": 8.99,
+          "price_eur": 4.6,
+          "old_price": null,
+          "discount_pct": null
+        }
+      ],
+      "lowest_price": 8.99,
+      "lowest_price_date": "2026-11-24",
+      "avg_price": 8.99
     }
   ]
 }
