@@ -1,5 +1,5 @@
 const ALL_PRODUCTS_DATA = {
-  "generated_at": "2026-11-24T00:32:11.808991Z",
+  "generated_at": "2026-11-24T02:04:05.739478Z",
   "total_products": 62036,
   "products": [
     {
@@ -2444945,7 +2444945,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/5949003402136_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "/etc.clientlibs/kaufland/clientlibs/clientlib-klsite/resources/frontend/assets/img/fallback-2afd874ba0.png",
       "product_id": "kaufland-лимони-клас-i-500g",
       "last_seen": "2026-11-24",
       "first_seen": "2026-05-25",
