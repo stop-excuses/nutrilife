@@ -1,5 +1,5 @@
 const ALL_PRODUCTS_DATA = {
-  "generated_at": "2026-11-24T19:09:08.678094Z",
+  "generated_at": "2026-11-24T20:31:31.238010Z",
   "total_products": 62047,
   "products": [
     {
@@ -2534962,7 +2534962,7 @@ const ALL_PRODUCTS_DATA = {
       "is_high_protein": false,
       "is_good_carb": false,
       "is_good_fat": false,
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8003753158648_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/8003753158556_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "product_id": "kaufland-illy-кафе-капсули-различни-видове",
       "last_seen": "2026-11-24",
       "first_seen": "2026-11-24",
