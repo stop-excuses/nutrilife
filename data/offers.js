@@ -1,5 +1,5 @@
 const OFFERS_DATA = {
-  "generated_at": "2026-11-24T20:31:33.643460Z",
+  "generated_at": "2026-11-24T22:11:09.248267Z",
   "store_last_scraped": {
     "Billa": "2026-11-20",
     "Dar": "2026-11-20",
@@ -9,10 +9,10 @@ const OFFERS_DATA = {
     "T-Market": "2026-11-24"
   },
   "unavailable_stores": [],
-  "content_hash": "ab5bc693ea7239b985ac28b1676314b7",
-  "total_offers": 4183,
-  "promo_offers": 1488,
-  "assortment_offers": 2695,
+  "content_hash": "958ff9b80e25110f75807276a9af20cc",
+  "total_offers": 4181,
+  "promo_offers": 1487,
+  "assortment_offers": 2694,
   "stores": [
     "Billa",
     "Dar",
@@ -3927,75 +3927,6 @@ const OFFERS_DATA = {
       ],
       "price_seen_count": 3,
       "price_signal": "wait"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 1.99,
-      "new_price_eur": 1.02,
-      "old_price": 3.06,
-      "old_price_eur": 1.56,
-      "discount_pct": 35,
-      "valid_from": "2026-11-23",
-      "valid_until": "2026-11-29",
-      "price_per_kg": 1.99,
-      "price_per_kg_eur": 1.02,
-      "source_type": "promo",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 1.99,
-          "price_eur": 1.02,
-          "old_price": 3.06,
-          "old_price_eur": 1.56,
-          "discount_pct": 35,
-          "source_type": "promo"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 1.99,
-      "comparison_count": 1,
-      "product_id": "kaufland-пилешко-бутче-от-свежата-витрина",
-      "name": "Пилешко бутче от свежата витрина",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/01000431_A?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "protein",
-      "emoji": "🍗",
-      "health_score": 9,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": true,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "diet_tags": [
-        "high_protein",
-        "keto",
-        "budget"
-      ],
-      "macros": {
-        "kcal": 165,
-        "p": 31,
-        "f": 3.6,
-        "c": 0
-      },
-      "avg_price": 1.99,
-      "lowest_price": 1.99,
-      "lowest_price_date": "2026-11-23",
-      "price_history": [
-        [
-          "2026-11-23",
-          1.99,
-          3.06,
-          35
-        ]
-      ],
-      "price_seen_count": 1,
-      "price_signal": "buy"
     },
     {
       "store": "Kaufland",
@@ -8345,81 +8276,6 @@ const OFFERS_DATA = {
         ]
       ],
       "price_seen_count": 1,
-      "price_signal": "buy"
-    },
-    {
-      "store": "Kaufland",
-      "address": null,
-      "new_price": 5.11,
-      "new_price_eur": 2.61,
-      "old_price": null,
-      "old_price_eur": null,
-      "discount_pct": null,
-      "valid_from": "2026-11-23",
-      "valid_until": "2026-11-29",
-      "price_per_kg": 5.11,
-      "price_per_kg_eur": 2.61,
-      "source_type": "assortment",
-      "available_stores": [
-        "Kaufland"
-      ],
-      "store_prices": [
-        {
-          "store": "Kaufland",
-          "price": 5.11,
-          "price_eur": 2.61,
-          "old_price": null,
-          "old_price_eur": null,
-          "discount_pct": null,
-          "source_type": "assortment"
-        }
-      ],
-      "best_price_store": "Kaufland",
-      "best_price": 5.11,
-      "comparison_count": 1,
-      "product_id": "kaufland-пилешки-обезкостен-бут-от-свежата-витрина",
-      "name": "Пилешки обезкостен бут от свежата витрина",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/183_00103969_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
-      "category": "protein",
-      "emoji": "🍗",
-      "health_score": 9,
-      "is_food": true,
-      "is_junk": false,
-      "is_healthy": true,
-      "is_high_protein": true,
-      "is_good_carb": false,
-      "is_good_fat": false,
-      "is_bulk_worthy": false,
-      "is_long_lasting": false,
-      "diet_tags": [
-        "high_protein",
-        "keto",
-        "budget"
-      ],
-      "macros": {
-        "kcal": 165,
-        "p": 31,
-        "f": 3.6,
-        "c": 0
-      },
-      "avg_price": 7.55,
-      "lowest_price": 5.11,
-      "lowest_price_date": "2026-08-24",
-      "price_history": [
-        [
-          "2026-05-25",
-          9.99,
-          null,
-          null
-        ],
-        [
-          "2026-08-24",
-          5.11,
-          null,
-          null
-        ]
-      ],
-      "price_seen_count": 2,
       "price_signal": "buy"
     },
     {
@@ -43150,7 +43006,7 @@ const OFFERS_DATA = {
       "comparison_count": 1,
       "product_id": "kaufland-illy-кафе-капсули-различни-видове",
       "name": "ILLY Кафе капсули различни видове",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/8003753158556_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/8003753158648_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "drinks",
       "emoji": "🍺",
       "health_score": 5,
