@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-23T22:21:15.108757Z",
+  "generated_at": "2026-11-24T00:32:14.328865Z",
   "store_last_scraped": {
     "Billa": "2026-11-20",
     "Dar": "2026-11-20",
     "Fantastico": "2026-11-20",
-    "Kaufland": "2026-11-23",
+    "Kaufland": "2026-11-24",
     "Lidl": "2026-11-22",
-    "T-Market": "2026-11-23"
+    "T-Market": "2026-11-24"
   },
   "unavailable_stores": [],
   "content_hash": "924b6c395b053e6c9b8bfcf5be110258",
@@ -20610,7 +20610,7 @@
         "f": 0.3,
         "c": 23
       },
-      "avg_price": 3.06,
+      "avg_price": 3.24,
       "lowest_price": 2.52,
       "lowest_price_date": "2026-11-23",
       "price_history": [
@@ -20625,9 +20625,15 @@
           2.52,
           3.6,
           30
+        ],
+        [
+          "2026-11-24",
+          3.6,
+          null,
+          null
         ]
       ],
-      "price_seen_count": 2,
+      "price_seen_count": 3,
       "price_signal": "wait"
     },
     {
@@ -32649,6 +32655,7 @@
       "weight_grams": 500,
       "weight_raw": "500 г",
       "name": "Лимони Клас: I",
+      "image": "https://kaufland.media.schwarz/is/image/schwarz/5949003402136_BG_P?JGstbGVnYWN5LW9uc2l0ZS0zJA==",
       "category": "vegetable",
       "emoji": "🥦",
       "health_score": 5,
@@ -32693,8 +32700,7 @@
         ]
       ],
       "price_seen_count": 3,
-      "price_signal": "buy",
-      "image": "https://kaufland.media.schwarz/is/image/schwarz/2830090000000_BG_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA=="
+      "price_signal": "buy"
     },
     {
       "store": "Kaufland",
@@ -52306,7 +52312,7 @@
         "f": 81,
         "c": 0.1
       },
-      "avg_price": 12.37,
+      "avg_price": 13.24,
       "lowest_price": 9.76,
       "lowest_price_date": "2026-11-23",
       "price_history": [
@@ -52321,9 +52327,15 @@
           9.76,
           14.98,
           35
+        ],
+        [
+          "2026-11-24",
+          14.98,
+          null,
+          null
         ]
       ],
-      "price_seen_count": 2,
+      "price_seen_count": 3,
       "price_signal": "wait"
     },
     {
@@ -80126,7 +80138,7 @@
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": true,
-      "avg_price": 2.21,
+      "avg_price": 2.26,
       "lowest_price": 1.94,
       "lowest_price_date": "2026-10-22",
       "price_history": [
@@ -80153,9 +80165,15 @@
           1.98,
           2.46,
           20
+        ],
+        [
+          "2026-11-24",
+          2.46,
+          null,
+          null
         ]
       ],
-      "price_seen_count": 4,
+      "price_seen_count": 5,
       "price_signal": "wait"
     },
     {
@@ -81733,7 +81751,7 @@
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": true,
-      "avg_price": 2.2,
+      "avg_price": 2.29,
       "lowest_price": 1.47,
       "lowest_price_date": "2026-11-09",
       "price_history": [
@@ -81766,9 +81784,15 @@
           2.17,
           2.72,
           20
+        ],
+        [
+          "2026-11-24",
+          2.72,
+          null,
+          null
         ]
       ],
-      "price_seen_count": 5,
+      "price_seen_count": 6,
       "price_signal": "wait"
     },
     {
@@ -84816,7 +84840,7 @@
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": true,
-      "avg_price": 2.68,
+      "avg_price": 2.8,
       "lowest_price": 1.55,
       "lowest_price_date": "2026-11-10",
       "price_history": [
@@ -84843,9 +84867,15 @@
           2.62,
           3.27,
           20
+        ],
+        [
+          "2026-11-24",
+          3.27,
+          null,
+          null
         ]
       ],
-      "price_seen_count": 4,
+      "price_seen_count": 5,
       "price_signal": "wait"
     },
     {
@@ -87601,7 +87631,7 @@
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": true,
-      "avg_price": 3.37,
+      "avg_price": 3.5,
       "lowest_price": 3.11,
       "lowest_price_date": "2026-05-16",
       "price_history": [
@@ -87622,9 +87652,15 @@
           3.11,
           3.89,
           20
+        ],
+        [
+          "2026-11-24",
+          3.89,
+          null,
+          null
         ]
       ],
-      "price_seen_count": 3,
+      "price_seen_count": 4,
       "price_signal": "wait"
     },
     {
@@ -87672,7 +87708,7 @@
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": true,
-      "avg_price": 3.37,
+      "avg_price": 3.5,
       "lowest_price": 3.11,
       "lowest_price_date": "2026-05-16",
       "price_history": [
@@ -87693,9 +87729,15 @@
           3.11,
           3.89,
           20
+        ],
+        [
+          "2026-11-24",
+          3.89,
+          null,
+          null
         ]
       ],
-      "price_seen_count": 3,
+      "price_seen_count": 4,
       "price_signal": "wait"
     },
     {
@@ -91870,7 +91912,7 @@
       "is_good_fat": false,
       "is_bulk_worthy": false,
       "is_long_lasting": false,
-      "avg_price": 3.83,
+      "avg_price": 4.08,
       "lowest_price": 3.11,
       "lowest_price_date": "2026-11-23",
       "price_history": [
@@ -91885,9 +91927,15 @@
           3.11,
           4.56,
           32
+        ],
+        [
+          "2026-11-24",
+          4.56,
+          null,
+          null
         ]
       ],
-      "price_seen_count": 2,
+      "price_seen_count": 3,
       "price_signal": "wait",
       "image": "https://tmarketonline.bg/cdn/img/products/43294/lutenica-selce-tradicionna-580gr-image_5f48a6858cd02.png?width=600&height=600&v=1777589905"
     },
